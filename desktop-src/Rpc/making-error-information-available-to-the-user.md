@@ -4,12 +4,12 @@ description: Lorsqu’un appelant reçoit une erreur et doit avertir l’utilisa
 ms.assetid: 18689280-7124-46e4-9341-ad8d0c1705db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18386dbebd443aced4f5680922549c0ecb0eba55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c334b0d5b5044a13b507945cfa9d8ac97b67eb120f496f83c080d2b79b857f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928574"
 ---
 # <a name="making-error-information-available-to-the-user"></a>Mise à disposition des informations d’erreur pour l’utilisateur
 
@@ -165,9 +165,9 @@ if (status)
 
 Dans cet exemple, les informations d’erreur étendues sont vidées dans la console, mais votre composant peut le mettre à la disposition de l’utilisateur d’une autre manière. Si votre composant choisit d’enregistrer les informations dans un stockage persistant et de les afficher ultérieurement, il est souvent plus facile d’utiliser le format binaire mis à disposition par les appels de fonction [**RpcErrorSaveErrorInfo**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo) et [**RpcErrorLoadErrorInfo**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorloaderrorinfo) .
 
- 
+ 
 
- 
+ 
 
 
 

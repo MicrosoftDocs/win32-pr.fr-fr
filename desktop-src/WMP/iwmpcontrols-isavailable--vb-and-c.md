@@ -3,7 +3,7 @@ title: IWMPControls. isAvailable (VB et C)
 description: La propriété isAvailable (la \_ méthode obtenir IsAvailable dans C \) obtient une valeur indiquant si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée.
 ms.assetid: 00812d5c-513e-49d5-93ba-750b81a852dd
 keywords:
-- Lecteur Windows Media IWMPControls. isAvailable (VB et C)
+- IWMPControls. isAvailable (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0d5d9ffcd6cad6eefb7cdff25fd2cf34b76ccc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d73562fb4f96731216c30ada33db8e13d1468b31fb6fcefe7eedef6dd7892348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054847"
 ---
 # <a name="iwmpcontrolsisavailable-vb-and-c"></a>IWMPControls. isAvailable (VB et C#)
 
@@ -77,7 +77,7 @@ System. String qui est l’une des valeurs suivantes.
 
 **System. Boolean** qui indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWMPControls. isAvailable** est une propriété dans Visual Basic qui accepte un paramètre. En C#, on parle de la méthode **IWMPControls. obten \_ isAvailable** .
 
@@ -134,13 +134,13 @@ End If
 [**IWMPControls. pause (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-pause--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
+[**IWMPControls. play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls. stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls2. Step (VB et C#)**](wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md)
+[**IWMPControls2. step (VB et C#)**](wmplibiwmpcontrols2-iwmpcontrols2-step--vb-and-c.md)
 </dt> </dl>
 
  

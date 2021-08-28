@@ -7,12 +7,12 @@ keywords:
 - Points de connexion de service pour les services AD répliqués, basés sur l’hôte et les services de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63b69491dd84a9367f8fd05e9d23ca771551dfbb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8a7658cc60704dbfc37009272e5f14f997d213ea993054fa22c1c5e0c307794b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024897"
 ---
 # <a name="service-connection-points-for-replicated-host-based-and-database-services"></a>Points de connexion de service pour les services répliqués, basés sur l’hôte et sur la base de données
 
@@ -38,6 +38,6 @@ Les services basés sur l’hôte sont des services qui sont étroitement liés 
 
 Chaque instance d’un service basé sur l’hôte doit créer son propre SCP sous l’objet ordinateur de son hôte. Les clients qui utilisent un GUID de produit pour rechercher le SCP d’un service basé sur l’hôte trouvent généralement de nombreuses instances de la classe de service dans l’ensemble de la forêt d’entreprise. Les clients peuvent ensuite utiliser l’attribut **servicednsname** de l’SCP pour trouver le SCP de l’instance de service sur l’ordinateur hôte de votre choix.
 
- 
+ 
 
- 
+ 

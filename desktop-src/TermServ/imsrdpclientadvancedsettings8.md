@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientAdvancedSettings8
-description: Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX Bureau à distance.
+description: expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle Bureau à distance ActiveX.
 ms.assetid: 9e1de47d-f194-4d9e-8e47-7c13a0677aaa
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8fce32baf792563e64d2f8b8e1ad2bd56a31c5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fee551748ebe098bdec1950a51988e6a29309e75001e4a25d8277102a3e181a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001297"
 ---
 # <a name="imsrdpclientadvancedsettings8-interface"></a>Interface IMsRdpClientAdvancedSettings8
 
-Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX Bureau à distance.
+expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle Bureau à distance ActiveX.
 
 Pour obtenir une instance de cette interface, utilisez la propriété [**IMsRdpClient8 :: AdvancedSettings9**](imsrdpclient8-advancedsettings9.md) .
 

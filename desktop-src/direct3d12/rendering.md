@@ -5,12 +5,12 @@ ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ad70a054881e9472ff27a76a62dca62fdf3653
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2c1abb8e8d1d645149652e5c1cd429fb4e4b2e0b1e079eda13956f5ab8279b3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123466"
 ---
 # <a name="rendering-direct3d-12-graphics"></a>Rendu (Direct3D 12 Graphics)
 
@@ -24,7 +24,7 @@ Cette section contient des informations sur les fonctionnalités de rendu nouvel
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Pixellisation conservatrice](conservative-rasterization.md)<br/>                             | La pixellisation conservatrice apporte une certaine certitude au rendu des pixels, ce qui est utile en particulier pour les algorithmes de détection des collisions.<br/>                                                                                                                                                                                                                                              |
 | [Dessin indirect](indirect-drawing.md)<br/>                                                 | Le dessin indirect permet de déplacer le parcours de scène et l’élimination du processeur vers le GPU, ce qui peut améliorer les performances. La mémoire tampon de commande peut être générée par le processeur ou le GPU.<br/>                                                                                                                                                                                              |
-| [Affichages ordonnés du rastériseur](rasterizer-order-views.md)<br/>                                   | Les vues triées du rastériseur (ROVs) autorisent le code du nuanceur de pixels à marquer des liaisons UAV avec une déclaration qui modifie les exigences normales pour l’ordre des résultats de la canalisation Graphics pour UAVs. Cela permet l’utilisation d’algorithmes OIT (commande Independent transparent), ce qui donne de meilleurs résultats de rendu lorsque plusieurs objets transparents sont alignés les uns avec les autres dans une vue. <br/> |
+| [Affichage ordonné du rastériseur](rasterizer-order-views.md)<br/>                                   | Les vues triées du rastériseur (ROVs) autorisent le code du nuanceur de pixels à marquer des liaisons UAV avec une déclaration qui modifie les exigences normales pour l’ordre des résultats de la canalisation Graphics pour UAVs. Cela permet l’utilisation d’algorithmes OIT (commande Independent transparent), ce qui donne de meilleurs résultats de rendu lorsque plusieurs objets transparents sont alignés les uns avec les autres dans une vue. <br/> |
 | [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md)<br/> | L’activation des nuanceurs de pixels pour la sortie de la valeur de référence du stencil, plutôt que l’utilisation de l’API-spécifiée, permet un contrôle granulaire très précis des opérations du stencil.<br/>                                                                                                                                                                                                              |
 | [Chaînes de permutation](swap-chains.md)<br/>                                                           | Les chaînes d’échange contrôlent la rotation de la mémoire tampon d’arrière-plan, formant ainsi la base de l’animation graphique.<br/>                                                                                                                                                                                                                                                                                            |
 
@@ -46,7 +46,7 @@ Reportez-vous à la prise en charge de la plage dynamique élevée (plus grande 
 
 <dl> <dt>
 
-[Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+[Guide de programmation de Direct3D 12](directx-12-programming-guide.md)
 </dt> </dl>
 
  

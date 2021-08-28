@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74861f0e2ed13b35e308d1314aec2a33dc28c31
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 0b182678568c7825cbf0b18bbbfd132dd5287d3f05b9ae6a372e6e5c70cd06d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104321422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962950"
 ---
 # <a name="service-model-layer-overview"></a>Vue d’ensemble de la couche de modèle de service
 
@@ -87,19 +87,19 @@ Le modèle de service fournit le [WsUtil.exe](web-service-compiler-tool.md) en t
 
 Le [WsUtil.exe](web-service-compiler-tool.md) génère l’en-tête et les sources pour l’implémentation de service, ainsi que les opérations de service côté client pour le client.
 
-## <a name="calling-the-calculator-service-from-a-client&quot;></a>Appel du service de calculatrice à partir d’un client
+## <a name="calling-the-calculator-service-from-a-client"></a>Appel du service de calculatrice à partir d’un client
 
 Comme pour l’implémentation du service, le client doit inclure l’en-tête ou les en-têtes générés.
 
 ``` syntax
-#include &quot;CalculatorProxyStub.h&quot;
+#include "CalculatorProxyStub.h"
 ```
 
 À présent, l’application cliente peut créer et ouvrir un proxy de service pour commencer à communiquer avec le service de calculatrice.
 
 ``` syntax
 WS_ENDPOINT_ADDRESS address = {0};
-WS_STRING uri= WS_STRING_VALUE(L&quot;http://localhost/example");
+WS_STRING uri= WS_STRING_VALUE(L"http://localhost/example");
 address.uri = uri;
 
 if (FAILED (hr = WsCreateServiceProxy(WS_CHANNEL_TYPE_REQUEST, WS_HTTP_CHANNEL_BINDING, NULL, NULL, 0, &serviceProxy, error)))

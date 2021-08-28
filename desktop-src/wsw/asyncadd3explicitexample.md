@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4747823eea2aa3c8bff9ce7b6b6cea5b1a9da4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c58dd75c76afd901a961cf7cced35f5aebb1b3036e5c2f82e5068ae159b4613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963418"
 ---
 # <a name="asyncadd3explicitexample"></a>AsyncAdd3ExplicitExample
 
@@ -347,9 +347,9 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

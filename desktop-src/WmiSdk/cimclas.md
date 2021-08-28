@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes CIM (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baa0a887ffcac216012296e47838badcd7892d6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f215d12aaac6acab652a374fa33f51a4c33e1f5aba4053d30c0c6cae364220ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131701"
 ---
 # <a name="cim-classes-wmi"></a>Classes CIM (WMI)
 
@@ -252,7 +252,7 @@ Les classes d’Common Information Model (CIM) Distributed Management Task Force
 | [**\_PRODUCTSUPPORT CIM**](/windows/desktop/CIMWin32Prov/cim-productsupport)<br/>                                             | Représente une association entre le produit et l’accès au support technique qui indique comment le support est obtenu pour le produit.<br/>                                                                                                                                                                                                                                                                         |
 | [**\_PROTECTEDSPACEEXTENT CIM**](/windows/desktop/CIMWin32Prov/cim-protectedspaceextent)<br/>                                 | Représente des adresses de bloc logique adressables qui sont traitées comme une extension de stockage unique, mais qui se trouvent sur une seule extension physique.<br/>                                                                                                                                                                                                                                                 |
 | [**\_PROTOCOLCONTROLLER CIM**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)<br/>                                          | Une superclasse pour le regroupement de contrôleurs utilisés pour contrôler l’opération et la fonction des appareils sophistiqués qui instancient un protocole tel que SCSI. Les contrôleurs de bus et d’appareils plus simples sont modélisés à l’aide de la classe de [**\_ contrôleur CIM**](/windows/desktop/CIMWin32Prov/cim-controller) .<br/>                                                                                                                |
-| [**\_PROTOCOLCONTROLLERFORUNIT CIM**](/previous-versions//cc150672(v=vs.85))<br/>                            | Cette association permet de définir une relation entre un ProtocolController et une unité logique exposée (par exemple, un volume de stockage ou un MediaAccessDevice, tel qu’un lecteur de bande).<br/>                                                                                                                                                                                                     |
+| [**\_PROTOCOLCONTROLLERFORUNIT CIM**](/previous-versions//cc150672(v=vs.85))<br/>                            | cette association permet de définir une relation entre un ProtocolController et une unité logique exposée (par exemple, un Volume Stockage ou un MediaAccessDevice, tel qu’un lecteur de bande).<br/>                                                                                                                                                                                                     |
 | [**\_PROTOCOLENDPOINT CIM**](/previous-versions/windows/desktop/iscsitarg/cim-protocolendpoint)<br/>                                              | Point de communication à partir duquel les données peuvent être envoyées ou reçues. les points de terminaison de protocole lient les interfaces système ou ordinateur aux réseaux logiques.<br/>                                                                                                                                                                                                                                                  |
 | [**\_PSEXTENTBASEDONPEXTENT CIM**](/windows/desktop/CIMWin32Prov/cim-psextentbasedonpextent)<br/>                             | Associe des extensions d’espace protégé basées sur une extension physique.<br/>                                                                                                                                                                                                                                                                                                                    |
 | [**\_Rack CIM**](/windows/desktop/CIMWin32Prov/cim-rack)<br/>                                                                 | Représente un rack (cadre physique ou boîtier) dans lequel le châssis est stocké.<br/>                                                                                                                                                                                                                                                                                                             |

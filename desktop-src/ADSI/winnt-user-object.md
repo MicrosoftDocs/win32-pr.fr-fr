@@ -8,12 +8,12 @@ keywords:
 - Fournisseur WinNT ADSI, objet utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2448fbc7cd77be9c76290777b16e23b2f7e97e61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50a89c2c4daf0d02e1cb9a150e35702ab4f8775f6bcc993db2b0348768bb1603
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022997"
 ---
 # <a name="winnt-user-object"></a>Objet utilisateur Winnt
 
@@ -25,9 +25,9 @@ Pour plus d’informations sur les objets utilisateur WinNT, consultez :
 -   [Propriétés de l’utilisateur personnalisé Winnt](winnt-custom-user-properties.md)
 -   [Exemples de gestion de compte d’utilisateur Winnt](winnt-user-account-management-examples.md)
 
- 
+ 
 
- 
+ 
 
 
 

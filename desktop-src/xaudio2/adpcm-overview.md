@@ -4,12 +4,12 @@ ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: Vue d’ensemble d’ADPCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb918a611cb0840b2f02dfb13b547b795fb3304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1be1155d6d9f5a542b605c497ce28aa34191c0ac129582c18ec4a47b9f510f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962718"
 ---
 # <a name="adpcm-overview"></a>Vue d’ensemble d’ADPCM
 
@@ -20,7 +20,7 @@ L’implémentation d’ADPCM pour XAudio2 fournit des fonctionnalités supplém
 XAudio2 utilise une version modifiée du codec Microsoft ADPCM qui prend en charge la mise en forme des données étendues requise pour fournir des exemples personnalisés de tailles de bloc. Pour cette raison, les données audio XAudio2 ne peuvent pas être lues par des moteurs audio qui ne prennent pas en charge cette version du codec ADPCM.
 
 > [!Note]  
-> Actuellement, la compression ADPCM est uniquement disponible pour Windows, y compris les déploiements de XNA Game Studio Express pour Windows.
+> actuellement, la compression ADPCM n’est disponible que pour les Windows, notamment XNA Game Studio Express pour les déploiements Windows.
 
  
 
@@ -80,7 +80,7 @@ Un fichier ADPCM est un fichier RIFF standard avec les types de blocs suivants.
 | RIFF          | Bloc RIFF standard contenant un type de fichier avec la valeur WAVE dans les quatre premiers octets de sa section de données et les autres segments du fichier dans le reste de sa section de données.                                                                                                                                                                                                                                                                 |
 | fmt           | Contient l’en-tête format pour le fichier ADPCM. Les données de ce segment correspondent à une structure **ADPCMWAVEFORMAT** .                                                                                                                                                                                                                                                                                                                             |
 | data          | Contient les données audio ADPCM encodées. Quand vous utilisez ADPCM dans XAudio2, vous devez lire le contenu du segment de données dans une mémoire tampon et le transmettre à une voix source en tant que membre **pAudioData** d’une structure de [**\_ mémoire tampon XAudio2**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) . Vous n’avez pas besoin d’échanger par octet le contenu du bloc de données.                                                                                                                            |
-| SMPL et wsmp | Types de blocs facultatifs contenant les informations de bouclage pour le fichier ADPCM. Lorsque vous utilisez ADPCM dans XAudio2, les valeurs contenues dans les segments SMPL ou wsmp sont utilisées pour remplir les membres **LoopBeginLoopLength** et **LoopCount** de la structure de [**\_ mémoire tampon XAudio2**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) . Sur la Xbox 360, vous devez échanger par octet les données chargées à partir d’un bloc SMPL pour tenir compte de la différence endianness entre Windows et Xbox 360. |
+| SMPL et wsmp | Types de blocs facultatifs contenant les informations de bouclage pour le fichier ADPCM. Lorsque vous utilisez ADPCM dans XAudio2, les valeurs contenues dans les segments SMPL ou wsmp sont utilisées pour remplir les membres **LoopBeginLoopLength** et **LoopCount** de la structure de [**\_ mémoire tampon XAudio2**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) . sur la xbox 360, vous devez échanger par octet les données chargées à partir d’un bloc smpl pour tenir compte de la différence endianness entre Windows et Xbox 360. |
 
 
 

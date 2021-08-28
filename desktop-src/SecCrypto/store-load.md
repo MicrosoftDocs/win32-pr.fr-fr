@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 32261a6fd8c5cf4382832d8286d63ce5d44fb542
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b39c2be625ff88869d27e6210e49496352af868c73557d2657c509fd0e79f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897789"
 ---
 # <a name="storeload-method"></a>Store. Load, méthode
 
@@ -80,7 +80,7 @@ Valeur de l’énumération de l' [**indicateur de \_ \_ stockage \_ de clé CAP
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la méthode **Load** est appelée sur un magasin de mémoire, tous les conteneurs de clé créés sont supprimés lors de la suppression du magasin de mémoire. Par exemple, si un fichier. pfx est chargé dans un magasin de mémoire et ajouté ultérieurement à un magasin système (tel que le magasin My) à partir du magasin de mémoire, le certificat du magasin My ne contient pas de clé. Dans ce cas, le fichier. pfx doit être chargé directement dans le magasin My.
 
@@ -96,7 +96,7 @@ Si le certificat en cours de chargement dans le magasin est le même que celui q
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

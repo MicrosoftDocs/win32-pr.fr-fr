@@ -1,17 +1,17 @@
 ---
 description: Encodage
 ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
-title: Encodage (composant Windows Imaging)
+title: encodage (composant de création d’images Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6d15b983b7455d0fe0c406cbad64dbbb77588b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0b3d6eef499379bbdc668e70d5d0ec4326b390372da910934a6e7c7f547d177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964648"
 ---
-# <a name="encoding-windows-imaging-component"></a>Encodage (composant Windows Imaging)
+# <a name="encoding-windows-imaging-component"></a>encodage (composant de création d’images Windows)
 
 L’auteur de l’encodeur doit effectuer les opérations suivantes :
 
@@ -29,7 +29,7 @@ L’auteur de l’encodeur doit effectuer les opérations suivantes :
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

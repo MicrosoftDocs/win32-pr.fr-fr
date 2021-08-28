@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 16fb9b00976b652bcc9643ab5ec4912029898424
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9f4a2ad20af7c5ee3ba3afd8e2d9e56d0720b38d7afc2b01042e440cc85bf33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892447"
 ---
 # <a name="getencryptionmethod-method-of-the-win32_encryptablevolume-class"></a>Méthode GetEncryptionMethod de la \_ classe Win32 EncryptableVolume
 
@@ -52,13 +52,13 @@ Entier non signé qui spécifie l’algorithme de chiffrement et la taille de cl
 | Valeur                                                                                                                                                                                                                                          | Signification                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="None"></span><span id="none"></span><span id="NONE"></span><dl> <dt>**Aucun**</dt> <dt>0</dt> </dl>                                | Le volume n’est pas chiffré.<br/>                                                                                                                                                                                                                           |
-| <span id="AES_128_WITH_DIFFUSER"></span><span id="aes_128_with_diffuser"></span><dl> <dt>**AES \_ 128 \_ avec \_ diffuseur**</dt> <dt>1</dt> </dl> | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES) amélioré avec une couche de diffuseurs, avec une taille de clé AES de 128 bits. Cette méthode n’est plus disponible sur les appareils exécutant Windows 8.1 ou une version ultérieure.<br/> |
-| <span id="AES_256_WITH_DIFFUSER"></span><span id="aes_256_with_diffuser"></span><dl> <dt>**AES \_ 256 \_ avec \_ diffuseur**</dt> <dt>2</dt> </dl> | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES) amélioré avec une couche de diffuseurs, avec une taille de clé AES de 256 bits. Cette méthode n’est plus disponible sur les appareils exécutant Windows 8.1 ou une version ultérieure.<br/> |
+| <span id="AES_128_WITH_DIFFUSER"></span><span id="aes_128_with_diffuser"></span><dl> <dt>**AES \_ 128 \_ avec \_ diffuseur**</dt> <dt>1</dt> </dl> | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES) amélioré avec une couche de diffuseurs, avec une taille de clé AES de 128 bits. cette méthode n’est plus disponible sur les appareils exécutant Windows 8.1 ou une version ultérieure.<br/> |
+| <span id="AES_256_WITH_DIFFUSER"></span><span id="aes_256_with_diffuser"></span><dl> <dt>**AES \_ 256 \_ avec \_ diffuseur**</dt> <dt>2</dt> </dl> | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES) amélioré avec une couche de diffuseurs, avec une taille de clé AES de 256 bits. cette méthode n’est plus disponible sur les appareils exécutant Windows 8.1 ou une version ultérieure.<br/> |
 | <span id="AES_128"></span><span id="aes_128"></span><dl> <dt>**AES \_ 128**</dt> <dt>3</dt> </dl>                                             | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES), avec une taille de clé AES de 128 bits.<br/>                                                                                                             |
 | <span id="AES_256"></span><span id="aes_256"></span><dl> <dt>**AES \_ 256**</dt> <dt>4</dt> </dl>                                             | Le volume a été entièrement ou partiellement chiffré avec l’algorithme Advanced Encryption Standard (AES), avec une taille de clé AES de 256 bits.<br/>                                                                                                             |
 | <span id="HARDWARE_ENCRYPTION"></span><span id="hardware_encryption"></span><dl> <dt>**Matériel \_ CHIFFREment**</dt> <dt>5</dt> </dl>         | Le volume a été entièrement ou partiellement chiffré à l’aide des fonctionnalités matérielles du lecteur.<br/>                                                                                                                                                      |
-| <span id="XTS_AES_128"></span><span id="xts_aes_128"></span><dl> <dt>**XTS \_ AES \_ 128**</dt> <dt>6</dt> </dl>                                | Le volume a été entièrement ou partiellement chiffré avec XTS à l’aide de l’Advanced Encryption Standard (AES) et une taille de clé AES de 128 bits. Cette méthode est disponible uniquement sur les appareils exécutant Windows 10, version 1511 ou ultérieure.<br/>                          |
-| <span id="XTS_AES_256"></span><span id="xts_aes_256"></span><dl> <dt>**XTS \_ AES \_ 256**</dt> <dt>7</dt> </dl>                                | Le volume a été entièrement ou partiellement chiffré avec XTS à l’aide de l’Advanced Encryption Standard (AES) et une taille de clé AES de 256 bits. Cette méthode est disponible uniquement sur les appareils exécutant Windows 10, version 1511 ou ultérieure.<br/>                          |
+| <span id="XTS_AES_128"></span><span id="xts_aes_128"></span><dl> <dt>**XTS \_ AES \_ 128**</dt> <dt>6</dt> </dl>                                | Le volume a été entièrement ou partiellement chiffré avec XTS à l’aide de l’Advanced Encryption Standard (AES) et une taille de clé AES de 128 bits. cette méthode est disponible uniquement sur les appareils exécutant Windows 10, version 1511 ou ultérieure.<br/>                          |
+| <span id="XTS_AES_256"></span><span id="xts_aes_256"></span><dl> <dt>**XTS \_ AES \_ 256**</dt> <dt>7</dt> </dl>                                | Le volume a été entièrement ou partiellement chiffré avec XTS à l’aide de l’Advanced Encryption Standard (AES) et une taille de clé AES de 256 bits. cette méthode est disponible uniquement sur les appareils exécutant Windows 10, version 1511 ou ultérieure.<br/>                          |
 | <dl> <dt>(UInt32)-1</dt> </dl>                                                                                                                                                          | UNKNOWN<br/> Le volume a été entièrement ou partiellement chiffré avec un algorithme et une taille de clé inconnus.<br/>                                                                                                                                            |
 
 
@@ -92,9 +92,9 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -102,8 +102,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: ee55364e-8ffe-4a78-a49a-250756561770
 title: Valeurs de retour de la gestion de la sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd2c67b79d03896960f7eb9a8631e1cd268284e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf20090ed4bbdfbeebb8fd77eafa8b9430df5aa816463ee32adb25116c7c3bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894252"
 ---
 # <a name="security-management-return-values"></a>Valeurs de retour de la gestion de la sécurité
 
@@ -50,15 +50,15 @@ L’ensemble d’outils de configuration de la sécurité prend en charge les co
 
 ## <a name="lsa-policy-function-return-values"></a>Valeurs de retour de la fonction de stratégie LSA
 
-La plupart des fonctions de stratégie de l' [*autorité de sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA) retournent une valeur NTSTATUS pour indiquer la réussite ou l’échec. Les différentes valeurs NTSTATUS sont définies dans Ntstatus. h, qui est distribué avec le kit de développement de pilotes (DDK) Microsoft Windows.
+La plupart des fonctions de stratégie de l' [*autorité de sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA) retournent une valeur NTSTATUS pour indiquer la réussite ou l’échec. les différentes valeurs ntstatus sont définies dans NTSTATUS. h, qui est distribué avec le kit de développement de pilotes (DDK) de Microsoft Windows.
 
-Pour convertir une valeur de retour NTSTATUS en code d’erreur Windows, utilisez la fonction [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) .
+pour convertir une valeur de retour NTSTATUS en code d’erreur Windows, utilisez la fonction [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) .
 
-Le tableau suivant répertorie les valeurs NTSTATUS qui peuvent être retournées par toute fonction LSA. (Les sections de valeur de retour pour certaines des fonctions LSA répertorient les codes d’erreur supplémentaires que la fonction peut retourner.) Ce tableau répertorie également le code d’erreur Windows qui correspond à chaque valeur NTSTATUS.
+Le tableau suivant répertorie les valeurs NTSTATUS qui peuvent être retournées par toute fonction LSA. (Les sections de valeur de retour pour certaines des fonctions LSA répertorient les codes d’erreur supplémentaires que la fonction peut retourner.) ce tableau répertorie également le code d’erreur Windows qui correspond à chaque valeur NTSTATUS.
 
 
 
-| Code NTSTATUS (code d’erreur Windows)                                        | Signification                                                                                                                                 |
+| code NTSTATUS (code d’erreur Windows)                                        | Signification                                                                                                                                 |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | ÉTAT \_ de réussite (erreur de \_ réussite)<br/>                               | La fonction a réussi.                                                                                                            |
 | \_accès à l’état \_ refusé (erreur \_ accès \_ refusé)<br/>                 | L’appelant ne dispose pas de l’accès approprié pour terminer l’opération.                                                                  |

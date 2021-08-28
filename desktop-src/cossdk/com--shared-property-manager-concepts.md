@@ -4,12 +4,12 @@ ms.assetid: 31b50c2a-68b5-4816-9a56-8cd9475e7beb
 title: Concepts de Gestionnaire de propriétés partagés COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be55c4a83aa363c911564aefabbe1d85f3804fb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f9ce190cb4f4e65e6ab5208dd2adec08f807d4f6d29d4cf99a3e70a1c0a7004
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129011"
 ---
 # <a name="com-shared-property-manager-concepts"></a>Concepts de Gestionnaire de propriétés partagés COM+
 

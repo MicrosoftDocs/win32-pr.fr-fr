@@ -4,12 +4,12 @@ ms.assetid: 7493c1fe-2c3d-4eb6-bec1-02c066a70b9f
 title: Modèle XMVectorRotateRight (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2c4e623a75015e8051a5a9ccf32f4715016b73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47017982af6bb61212129665010d403bd9db898c65056110c4d2f40a5f8a9362
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984489"
 ---
 # <a name="xmvectorrotateright-template"></a>Modèle XMVectorRotateRight
 
@@ -38,7 +38,7 @@ template<uint32_t Elements> XMVECTOR XMVectorRotateRight(
 
 Retourne le [**XMVECTOR**](xmvector-data-type.md)pivoté.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est une version de modèle de [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright) où l’argument *Elements* est une valeur de modèle.
 
@@ -51,7 +51,7 @@ Cette fonction est une version de modèle de [**XMVectorRotateRight**](/windows/
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. Pris en charge pour les applications de bureau Win32, les applications du Windows Store et les applications Windows Phone 8.
+Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
 ## <a name="requirements"></a>Configuration requise
 

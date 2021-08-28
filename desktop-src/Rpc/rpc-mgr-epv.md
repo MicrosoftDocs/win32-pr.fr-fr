@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 549ca4b5245b12bda07b46407041a01175955693
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55e40b883192adc53b11f9965f1a92f4637b320d32b5fd6909e2b6d615437a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926293"
 ---
 # <a name="rpc_mgr_epv"></a>\_EPV du gestionnaire RPC \_
 
@@ -65,7 +65,7 @@ Spécifie les paramètres indiqués pour la fonction **nomfonction** dans le fic
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le vecteur de point d’entrée du gestionnaire (EPV) est un tableau de pointeurs de fonction. Le tableau contient des pointeurs vers les implémentations des fonctions spécifiées dans le fichier IDL. Le nombre d’éléments dans le tableau est défini sur le nombre de fonctions spécifiées dans le fichier IDL. Une application peut également avoir plusieurs EPVs, représentant plusieurs implémentations des fonctions spécifiées dans l’interface.
 

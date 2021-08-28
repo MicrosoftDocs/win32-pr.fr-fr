@@ -4,27 +4,27 @@ description: Chaque élément d’un contrôle Tree-View peut avoir deux images 
 ms.assetid: 3683DB35-D70F-4181-9181-95354599B9FB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 011d789da4eec39febae9d93436e23c23fa59507
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: d2b8edcff0d07f46aa6eb8612ddbbfa37145c5ab26ab463a7d57e9e6543430e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104101285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019347"
 ---
 # <a name="how-to-initialize-the-image-list"></a>Comment initialiser la liste d’images
 
 Chaque élément d’un contrôle Tree-View peut avoir deux images qui lui sont associées. Un élément affiche une image lorsqu’elle est sélectionnée et l’autre quand elle ne l’est pas. Pour inclure des images avec des éléments d’arborescence, utilisez d’abord les fonctions des [listes d’images](image-lists.md) pour créer une liste d’images et y ajouter des images. Associez ensuite la liste d’images au contrôle Tree-View à l’aide du message de [**TVM \_ SETIMAGELIST**](tvm-setimagelist.md) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -95,9 +95,9 @@ BOOL InitTreeViewImageLists(HWND hwndTV)
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

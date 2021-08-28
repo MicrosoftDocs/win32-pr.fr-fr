@@ -3,7 +3,7 @@ title: AmbientAttributes. moveTo
 description: La méthode moveTo déplace le contrôle vers un nouvel emplacement à une vitesse linéaire.
 ms.assetid: 8670aa7b-a5c1-4d93-9f48-452bc53e65e6
 keywords:
-- AmbientAttributes. moveTo lecteur Windows Media
+- AmbientAttributes. moveTo Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af481526c0923c527bb14aa4700a6c6fe5ea3613
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf05beedad4fe4abb839e957519384b58102253cd0ab6a292d629df23a7bef98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055047"
 ---
 # <a name="ambientattributesmoveto"></a>AmbientAttributes. moveTo
 
@@ -56,7 +56,7 @@ La méthode **MoveTo** déplace le contrôle vers un nouvel emplacement à une v
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utile pour les éléments de sous- **affichage** animés (par exemple, si l’utilisateur clique sur une barre d’État et les contrôles déroulants).
 

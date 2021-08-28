@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a34332f84a91ee88d61ee5f29f0b6a0b0cc44714
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba7042069d4f1190a88b25ea4cc349e8230c149dd61d2d06fc91fa3439a9e55f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074627"
 ---
 # <a name="cbasewindowgetclasswindowstyles-method"></a>Méthode CBaseWindow. GetClassWindowStyles
 
@@ -69,7 +69,7 @@ Pointeur vers une variable qui reçoit les styles de fenêtre étendus.
 
 Retourne une chaîne de texte statique qui contient le nom de la classe.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CBaseWindow ::P reparewindow**](cbasewindow-preparewindow.md) appelle cette méthode pour récupérer les styles de classe et les styles de fenêtre de la fenêtre.
 
@@ -98,7 +98,7 @@ L’objet utilise le style de classe pour le membre **lpszClassName** d’une st
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

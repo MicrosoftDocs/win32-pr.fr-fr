@@ -1,5 +1,5 @@
 ---
-description: Voici une liste des noms conviviaux et des ID numériques des propriétés WIA (Windows Image Acquisition). Ils sont présentés sous la forme de définitions de constantes Microsoft Visual Basic, pour une inclusion pratique dans les applications ou les scripts.
+description: voici une liste des noms conviviaux et des id numériques des propriétés WIA (Windows Image Acquisition). ils sont présentés sous la forme de définitions de constantes Microsoft Visual Basic, pour une inclusion pratique dans les applications ou les scripts.
 ms.assetid: 6cacb7ce-1f41-4d24-adcb-c7aa9049f846
 title: Définitions de constantes de propriété WIA
 ms.topic: article
@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0fec89e2e10b019b7186482609d3ab4089ede692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6539e14daf6a1fc124c177713f3056b981fd6c00ac9a41392ed03ae8759319cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965448"
 ---
 # <a name="wia-property-constant-definitions"></a>Définitions de constantes de propriété WIA
 
-Voici une liste des noms conviviaux et des ID numériques des propriétés WIA (Windows Image Acquisition). Ils sont présentés sous la forme de définitions de constantes Microsoft Visual Basic, pour une inclusion pratique dans les applications ou les scripts.
+voici une liste des noms conviviaux et des id numériques des propriétés WIA (Windows Image Acquisition). ils sont présentés sous la forme de définitions de constantes Microsoft Visual Basic, pour une inclusion pratique dans les applications ou les scripts.
 
-Pour les applications Visual Basic, ajoutez une référence à « Bibliothèque de types d’acquisition d’images Microsoft Windows 1,01 », où ces constantes sont fournies en tant que types énumération.
+pour les applications Visual Basic, ajoutez une référence à « bibliothèque de types Microsoft Windows Image Acquisition 1,01 », où ces constantes sont fournies en tant que types énumération.
 
 
 ```

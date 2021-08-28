@@ -4,16 +4,16 @@ ms.assetid: d5f1e10f-e5ad-45e6-a5ec-024905603012
 title: 'ITMediaCollection :: get_EnumerationIf, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a7e7d85c1f7a433a31360fabc8b5dac71e68ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfe14475e216b5143b599aab50d12d1d0c548b5f64dd8e44edd2e6aab249905c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060857"
 ---
 # <a name="itmediacollectionget_enumerationif-method"></a>ITMediaCollection :: \_ EnumerationIf, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ EnumerationIf** obtient un pointeur vers une interface d’énumération de média.
 
@@ -39,7 +39,7 @@ Pointeur vers l’interface [**IEnumMedia**](ienummedia.md) pour l’élément s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est interchangeable avec l’opération d’extraction de la valeur [**\_ \_ NewEnum**](itmediacollection-get--newenum.md) , sauf qu’elle retourne [**IEnumMedia**](ienummedia.md) au lieu de **IUnknown**.
 

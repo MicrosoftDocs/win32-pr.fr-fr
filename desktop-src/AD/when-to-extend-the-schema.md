@@ -8,12 +8,12 @@ keywords:
 - schéma Active Directory, quand étendre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18c182b346fd1e31bc549325260d9b57d75bbb63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 042665069b06804dd648798debca6e0cee5628e115f5f512718ea0a51cc765ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024327"
 ---
 # <a name="when-to-extend-the-schema"></a>Quand étendre le schéma
 
@@ -33,9 +33,9 @@ Quand vous sous-classez une classe existante, les éléments d’interface utili
 
 Si vous sous-classez une classe existante ou modifiez une classe existante, vous devez étendre les outils tels que le composant logiciel enfichable utilisateurs et ordinateurs Active Directory pour gérer les attributs étendus des objets. Pour plus d’informations, consultez [extension de l’interface utilisateur pour les objets d’annuaire](extending-the-user-interface-for-directory-objects.md).
 
- 
+ 
 
- 
+ 
 
 
 

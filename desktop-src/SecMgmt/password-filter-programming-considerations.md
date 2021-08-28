@@ -4,12 +4,12 @@ ms.assetid: ec7c1e7e-844a-43d4-b756-02bc1062d7b8
 title: Considérations sur la programmation du filtre de mot de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ad13a52f66c29142248ca07179d8692887b1acb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9270a08c51b4b3e6b07923ad9461dc2e2dd418c3be1f1a181c07f940d71ba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005087"
 ---
 # <a name="password-filter-programming-considerations"></a>Considérations sur la programmation du filtre de mot de passe
 
@@ -22,7 +22,7 @@ Lorsque vous implémentez des fonctions d’exportation du [*filtre de mot de pa
 -   La notification et le filtrage de mot de passe s’effectuent uniquement sur l’ordinateur qui héberge le compte.
 -   Tous les contrôleurs de domaine sont accessibles en écriture. par conséquent, les packages de filtre de mot de passe doivent être présents sur tous les contrôleurs de domaine.
 
-    **Domaines Windows NT 4,0 :** La notification sur les comptes de domaine s’effectue uniquement sur le contrôleur de domaine principal. En plus du contrôleur de domaine principal, les packages de filtre de mot de passe doivent être installés sur tous les contrôleurs de domaine de sauvegarde pour permettre aux notifications de continuer en cas de modification du rôle de serveur.
+    **Windows les domaines NT 4,0 :** La notification sur les comptes de domaine s’effectue uniquement sur le contrôleur de domaine principal. En plus du contrôleur de domaine principal, les packages de filtre de mot de passe doivent être installés sur tous les contrôleurs de domaine de sauvegarde pour permettre aux notifications de continuer en cas de modification du rôle de serveur.
 
 -   Toutes les dll de filtre de mot de passe s’exécutent dans le [*contexte de sécurité*](/windows/desktop/SecGloss/s-gly) du compte système local.
 

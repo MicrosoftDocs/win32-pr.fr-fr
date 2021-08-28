@@ -4,12 +4,12 @@ ms.assetid: F9462000-A901-4F2F-974C-D06B29CCF02E
 title: Propriétés ICertStore
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 646ea88cc76335fc79889c6ea8fc1cc17adb0050
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34193596dee92de7f5649721db349898d124dfb4fd9fca88133fe624609faa58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005627"
 ---
 # <a name="icertstore-properties"></a>Propriétés ICertStore
 

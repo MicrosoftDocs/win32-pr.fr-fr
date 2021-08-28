@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c41ff96907bcd8e8bb7b2e9657f92bf24a1ff495
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1057ba92c641ef68a2179be1af84eaa7350b0c3dcbf338f3bb9d53530d1fed64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963788"
 ---
 # <a name="wmaudiosourceurl"></a>WM/AudioSourceURL
 
@@ -38,9 +38,9 @@ L’attribut **WM/AudioSourceURL** contient l’adresse d’une page Web officie
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

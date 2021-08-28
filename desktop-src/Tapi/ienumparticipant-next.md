@@ -1,21 +1,21 @@
 ---
-description: La méthode suivante obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération. Cette méthode est masquée dans les Visual Basic et les langages de script.
+description: La méthode suivante obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération. cette méthode est masquée dans les Visual Basic et les langages de script.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: 'IEnumParticipant :: Next, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89586370d01aaac54f05242e0eb3c53eb938c47b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d574f7c34bc48679ea679caf8ba07c881bcd1c692fa3215ae48a9ecf54d7cbfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003587"
 ---
 # <a name="ienumparticipantnext-method"></a>IEnumParticipant :: Next, méthode
 
-\[**Ensuite** , il n’est pas possible de l’utiliser dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**Next** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
-La méthode **suivante** obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération. Cette méthode est masquée dans les Visual Basic et les langages de script.
+La méthode **suivante** obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération. cette méthode est masquée dans les Visual Basic et les langages de script.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -72,7 +72,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface TAPI appelle la méthode [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) sur l’interface [**ITAgentHandler**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandler) retournée par **IEnumParticipant :: Next**. L’application doit appeler [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur l’interface **ITAgentHandler** pour libérer les ressources qui lui sont associées.
 

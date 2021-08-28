@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-GPSLongitude
-description: L’attribut MS-SQL-GPSLongitude n’est pas utilisé actuellement.
+title: attribut MS-SQL-GPSLongitude
+description: l’attribut MS-SQL-GPSLongitude n’est pas utilisé actuellement.
 ms.assetid: 70dfe2f1-f222-47f8-981f-0f2ca1718c72
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-GPSLongitude
-- Schéma AD de l’attribut mS-SQL-GPSLongitude
+- schéma AD de l’attribut MS-SQL-GPSLongitude
+- schéma AD de l’attribut mS-SQL-GPSLongitude
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb9642f7a5c856d6beeffc2cf20dcd1d9bde4d5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9e317888b92192f0df9d371f73e211ebcfb07ccbfed81318e2188579f7954d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961128"
 ---
-# <a name="ms-sql-gpslongitude-attribute"></a>Attribut MS-SQL-GPSLongitude
+# <a name="ms-sql-gpslongitude-attribute"></a>attribut MS-SQL-GPSLongitude
 
-L’attribut **MS-SQL-gpslongitude** n’est pas utilisé actuellement.
+l’attribut **MS-SQL-GPSLongitude** n’est pas utilisé actuellement.
 
 
 
@@ -45,7 +45,7 @@ L’attribut **MS-SQL-gpslongitude** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

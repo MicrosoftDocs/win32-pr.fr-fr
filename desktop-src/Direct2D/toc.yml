@@ -934,7 +934,7 @@
               items:
                 - name: 'Close, méthode'
                   href: /windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-close
-                - name: Stream
+                - name: STREAM
                   href: /windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream
             - name: ID2D1CommandSink
               href: /windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink
@@ -3287,7 +3287,7 @@
                   href: d1158.md
                 - name: "D1159\_: topologie commandlist non valide"
                   href: d1159.md
-                - name: "D1160\_: cycle dans le graphique"
+                - name: "D1160\_: cycle en Graph"
                   href: d1160.md
                 - name: "D1161\_: CopyFromMemory requiert une image bitmap de lecture de l’UC"
                   href: d1161.md

@@ -1,10 +1,10 @@
 ---
-title: ms-DS-classe de paramètres de mot de passe
+title: classe ms-DS-Password-Paramètres
 description: Objet de paramètres de mot de passe pour les comptes.
 ms.assetid: 4e3a5a80-4f55-4c26-b5af-ace9dd853836
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de la classe ms-DS-Password-Settings
+- schéma active directory de la classe ms-DS-Password-Paramètres
 - Schéma AD de la classe msDS-PasswordSettings
 topic_type:
 - apiref
@@ -14,19 +14,19 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e19ca0eb7b04b7062c6efca32a31d6e7dcd52c1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 76459a04701bac5f7c6abad40d9cbc2222c8346c288f67a702958d85f2aa0d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959778"
 ---
-# <a name="ms-ds-password-settings-class"></a>ms-DS-classe de paramètres de mot de passe
+# <a name="ms-ds-password-settings-class"></a>classe ms-DS-Password-Paramètres
 
 Objet de paramètres de mot de passe pour les comptes.
 
 > [!Note]  
-> Cet objet classSchema est créé avec une liste d’OID systemMustContain. Il s’agit d’une liste d’attributs qu’un objet de paramètres de mot de passe (PSO) doit contenir, sinon la création de l’objet PSO échouera.
+> Cet objet classSchema est créé avec une liste d’OID systemMustContain. il s’agit d’une liste d’attributs qu’un Paramètres objet (pso) de mot de passe doit contenir, sinon la création de l’objet pso échouera.
 
  
 
@@ -34,7 +34,7 @@ Objet de paramètres de mot de passe pour les comptes.
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | ms-DS-Password-paramètres              |
+| CN                | ms-DS-mot de passe-Paramètres              |
 | LDAP-Display-Name | msDS-PasswordSettings                |
 | Mettre à jour le privilège  | \-                                   |
 | Fréquence des mises à jour  | \-                                   |
@@ -44,7 +44,7 @@ Objet de paramètres de mot de passe pour les comptes.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -63,7 +63,7 @@ Objet de paramètres de mot de passe pour les comptes.
 | Valeur de masquage par défaut        | 0                                                                             |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                        |
 | Sous-classe de                 | [**Retour au début**](c-top.md)<br/>                                               |
-| Supérieurs possibles          | [**ms-DS-Password-Settings-Container**](c-msds-passwordsettingscontainer.md) |
+| Supérieurs possibles          | [**ms-DS-Password-Paramètres-Container**](c-msds-passwordsettingscontainer.md) |
 | Classes auxiliaires           | \-                                                                            |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                  |
 | Descripteur de sécurité par défaut | D : (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW ;;;D A) (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW;;; Sy    |
@@ -71,9 +71,9 @@ Objet de paramètres de mot de passe pour les comptes.
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -95,7 +95,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -121,14 +121,14 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-est-Full-Replica-pour**](a-msds-isfullreplicafor.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-est-partiel-réplica-pour**](a-msds-ispartialreplicafor.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-KrbTgt-Link-BL**](a-msds-krbtgtlinkbl.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-masterisé-by**](a-msds-masteredby.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-NC REPL-curseurs**](a-msds-ncreplcursors.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-trafic entrant-voisins**](a-msds-ncreplinboundneighbors.md)                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-sortant-voisins**](a-msds-ncreploutboundneighbors.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -138,13 +138,13 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-objet-référence-BL**](a-msds-objectreferencebl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-Settings-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-Paramètres-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-Password-paramètres**     |
+| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)                             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -213,7 +213,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | Valeur de masquage par défaut        | 0                                                                             |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                        |
 | Sous-classe de                 | [**Retour au début**](c-top.md)<br/>                                               |
-| Supérieurs possibles          | [**ms-DS-Password-Settings-Container**](c-msds-passwordsettingscontainer.md) |
+| Supérieurs possibles          | [**ms-DS-Password-Paramètres-Container**](c-msds-passwordsettingscontainer.md) |
 | Classes auxiliaires           | \-                                                                            |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                  |
 | Descripteur de sécurité par défaut | D : (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW ;;;D A) (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW;;; Sy    |
@@ -221,9 +221,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -245,7 +245,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -277,14 +277,14 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-dernier-connu-RDN**](a-msds-lastknownrdn.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-local-effectif-suppression-heure**](a-msds-localeffectivedeletiontime.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-local-effectif-temps de recyclage**](a-msds-localeffectiverecycletime.md)                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-masterisé-by**](a-msds-masteredby.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-NC REPL-curseurs**](a-msds-ncreplcursors.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-trafic entrant-voisins**](a-msds-ncreplinboundneighbors.md)                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-sortant-voisins**](a-msds-ncreploutboundneighbors.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -295,13 +295,13 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-OIDToGroup-Link-BL**](a-msds-oidtogrouplinkbl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-Settings-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-Paramètres-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-Password-paramètres**     |
+| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)                             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -370,7 +370,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | Valeur de masquage par défaut        | 0                                                                             |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                        |
 | Sous-classe de                 | [**Retour au début**](c-top.md)<br/>                                               |
-| Supérieurs possibles          | [**ms-DS-Password-Settings-Container**](c-msds-passwordsettingscontainer.md) |
+| Supérieurs possibles          | [**ms-DS-Password-Paramètres-Container**](c-msds-passwordsettingscontainer.md) |
 | Classes auxiliaires           | \-                                                                            |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                  |
 | Descripteur de sécurité par défaut | D : (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW ;;;D A) (A ;; RPWPCRCCDCLCLORCWOWDSDDTSW;;; Sy    |
@@ -378,7 +378,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -402,7 +402,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -436,15 +436,15 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dernier-connu-RDN**](a-msds-lastknownrdn.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-local-effectif-suppression-heure**](a-msds-localeffectivedeletiontime.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-local-effectif-temps de recyclage**](a-msds-localeffectiverecycletime.md)                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-verrouillage-durée**](a-msds-lockoutduration.md)                                           | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-observation-fenêtre**](a-msds-lockoutobservationwindow.md)                        | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-verrouillage-seuil**](a-msds-lockoutthreshold.md)                                         | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-masterisé-by**](a-msds-masteredby.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-maximum-Password-Age**](a-msds-maximumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-members-of-Resource-Property-List-BL**](a-msds-membersofresourcepropertylistbl.md)       | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-minimum-Password-Age**](a-msds-minimumpasswordage.md)                                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-minimum-Password-longueur**](a-msds-minimumpasswordlength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-NC REPL-curseurs**](a-msds-ncreplcursors.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-trafic entrant-voisins**](a-msds-ncreplinboundneighbors.md)                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-sortant-voisins**](a-msds-ncreploutboundneighbors.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -455,20 +455,20 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-OIDToGroup-Link-BL**](a-msds-oidtogrouplinkbl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-Password-paramètres**     |
-| [**ms-DS-Password-Settings-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-Password-paramètres**     |
+| [**ms-DS-mot de passe-compatible avec la complexité**](a-msds-passwordcomplexityenabled.md)                      | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-History-longueur**](a-msds-passwordhistorylength.md)                              | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-mot de passe-réversible-activé pour le chiffrement**](a-msds-passwordreversibleencryptionenabled.md) | Vrai      | **ms-DS-mot de passe-Paramètres**     |
+| [**ms-DS-Password-Paramètres-précédence**](a-msds-passwordsettingsprecedence.md)                    | Vrai      | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-Password-paramètres**     |
+| [**ms-DS-PSO-s’applique à**](a-msds-psoappliesto.md)                                                | Faux     | **ms-DS-mot de passe-Paramètres**     |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)                             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                              | Faux     | [**Retour au début**](c-top.md)<br/> |

@@ -4,12 +4,12 @@ description: Les ressources en mosaïque peuvent être considérées comme des r
 ms.assetid: 03083460-192b-40cb-8ee1-76df6d95f72b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c7e6aaf60f58f55274c9d7a135b9107933f640
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e73835d6603d1d8d7e708cd422e3991bb88ac1f91cebf016ccce36f2466270c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124087"
 ---
 # <a name="tiled-resources"></a>Ressources en mosaïque
 

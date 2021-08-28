@@ -4,12 +4,12 @@ ms.assetid: e6633dc9-c9b6-457d-8adc-e751ec9cf71d
 title: Interrogation d’une configuration de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efddea6ca590aa07b0c523588295d5f87ffefa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8eb8abd0792107c4c10757db22d2d96253837623138c9c5d6d000c25d4d39eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889315"
 ---
 # <a name="querying-a-services-configuration"></a>Interrogation de la configuration d’un service
 

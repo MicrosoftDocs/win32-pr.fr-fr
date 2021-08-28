@@ -1,23 +1,23 @@
 ---
 title: Exemple de déclencheur hebdomadaire (C++)
-description: Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes chaque semaine.
+description: cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes sur une base hebdomadaire.
 ms.assetid: 7c70b743-aff2-4ef5-b65b-ef0b5fdacade
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7583384a44224b3642f717d00c8792bcbc163e62
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 530ba3226668b8e743fe4ce1701e4b178f27fa5bee03b9518c23c2378ea0b5e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001877"
 ---
 # <a name="weekly-trigger-example-c"></a>Exemple de déclencheur hebdomadaire (C++)
 
-Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes chaque semaine. La tâche contient un déclencheur hebdomadaire qui spécifie une limite de début, un intervalle de semaines et un jour de la semaine où commencer la tâche. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes.
+cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes sur une base hebdomadaire. La tâche contient un déclencheur hebdomadaire qui spécifie une limite de début, un intervalle de semaines et un jour de la semaine où commencer la tâche. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes.
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable sur une base hebdomadaire.
 
-**Pour planifier le démarrage de Notepad sur une base hebdomadaire**
+**pour planifier le démarrage de Bloc-notes sur une base hebdomadaire**
 
 1.  Initialiser COM et définir la sécurité générale de COM.
 2.  Créez l’objet [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) .
@@ -42,7 +42,7 @@ La procédure suivante décrit comment planifier une tâche pour démarrer un ex
 
 7.  Inscrivez la tâche à l’aide de la méthode [**ITaskFolder :: RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) .
 
-L’exemple C++ suivant montre comment planifier une tâche pour exécuter le bloc-notes sur une base hebdomadaire.
+l’exemple C++ suivant montre comment planifier l’exécution d’une tâche Bloc-notes sur une base hebdomadaire.
 
 
 ```C++
@@ -406,9 +406,9 @@ void main(void)
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

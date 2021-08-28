@@ -4,12 +4,12 @@ ms.assetid: c84075b2-ae41-4915-a0f6-3a9c017ae0b8
 title: Création d' Light-Aware interfaces utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a4b6d404e366cb898114fe61729ab1ad722feb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bd97bb304c3a8718ae4b32d8b9100a1e7eb7a18240b9089c112272f588ee209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890283"
 ---
 # <a name="creating-light-aware-user-interfaces"></a>Création d' Light-Aware interfaces utilisateur
 
@@ -17,7 +17,7 @@ Cette section traite de l’utilisation des données de capteur d’éclairage a
 
 Les capteurs de lumière ambiante exposent des données qui peuvent être utilisées pour déterminer divers aspects des conditions d’éclairage où se trouve le capteur. Les capteurs de lumière ambiante peuvent exposer la luminosité globale d’un environnement (éclairage) et d’autres aspects de la lumière environnante, tels que la chromatique ou la température de couleur.
 
-Les ordinateurs peuvent être plus utiles à plusieurs égards lorsque le système répond à des conditions d’éclairage. Cela inclut le contrôle de la luminosité de l’écran de l’ordinateur (une nouvelle fonctionnalité entièrement prise en charge dans Windows 7), l’ajustement automatique du niveau d’éclairage des claviers allumés et même la luminosité pour d’autres lumières (comme l’éclairage du bouton, les indicateurs d’activité, etc.).
+Les ordinateurs peuvent être plus utiles à plusieurs égards lorsque le système répond à des conditions d’éclairage. cela inclut le contrôle de la luminosité de l’écran de l’ordinateur (une nouvelle fonctionnalité entièrement prise en charge dans Windows 7), l’ajustement automatique du niveau d’éclairage des claviers allumés et le contrôle de la luminosité pour d’autres lumières (telles que l’éclairage du bouton, les indicateurs d’activité, etc.).
 
 Les programmes de l’utilisateur final peuvent également bénéficier de capteurs légers. Les programmes peuvent appliquer un thème adapté à une condition d’éclairage particulière, par exemple un thème d’extérieur spécifique et un thème d’intérieur. L’aspect le plus important de l’intégration de capteur de lumière avec les programmes est peut-être l’optimisation de lisibilité et de lisibilité basée sur des conditions d’éclairage.
 

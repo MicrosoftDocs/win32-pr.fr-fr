@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e805521ea750c018ab2e7965e7fbfba05a92d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45b72ad2175e0d97cba5733461431726781aebc9a53c1a23f408f7d14e75dd35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058327"
 ---
 # <a name="reinstalllicensekeypackoffline-method-of-the-win32_tslicensekeypack-class"></a>Méthode ReinstallLicenseKeyPackOffline de la \_ classe Win32 TSLicenseKeyPack
 

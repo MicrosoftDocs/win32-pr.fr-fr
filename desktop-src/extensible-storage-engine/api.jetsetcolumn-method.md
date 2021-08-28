@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 01512f79ec9cc0b21ba8c36f2d766c1621a33747
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb75baecde84168b886c004e231d212922486164cf5433d304b8602326c7dba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983139"
 ---
 # <a name="apijetsetcolumn-method"></a>API. JetSetColumn, méthode
 

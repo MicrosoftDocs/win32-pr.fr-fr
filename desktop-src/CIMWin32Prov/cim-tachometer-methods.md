@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_Tachometer
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0aae51eec06a20dc278f1c53a5834b614accf91
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2d8041c7287e94e74684c76091147a5717112e72bbac3d956b91ff093c8f3f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020857"
 ---
 # <a name="cim_tachometer-methods"></a>\_Méthodes CIM tachymètre
 

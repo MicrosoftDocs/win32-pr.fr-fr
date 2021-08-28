@@ -1,6 +1,6 @@
 ---
 title: Services Bureau à distance (Services Bureau à distance)
-description: Les services Bureau à distance Microsoft sont des logiciels d’accès aux ordinateurs distants qui prennent en charge l’accès Bureau à distance. Services Bureau à distance connecte plusieurs clients à un serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
+description: Bureau à distance Microsoft Services est un logiciel d’accès aux ordinateurs distants qui prend en charge l’accès Bureau à distance. Services Bureau à distance connecte plusieurs clients à un serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
 ms.assetid: 90c40b7a-e324-43fc-a1e6-f29997ed9436
 ms.tgt_platform: multiple
 keywords:
@@ -9,18 +9,18 @@ keywords:
 - Services Terminal Server voir Services Bureau à distance Services Bureau à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f39e176473c98f1e240d58592463df749a95f939
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 525f62433c10c8c4f750a8ae1abbfa9496f2f096139c182a677c9dbf69ce4a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999899"
 ---
 # <a name="remote-desktop-services-remote-desktop-services"></a>Services Bureau à distance (Services Bureau à distance)
 
 ## <a name="purpose"></a>Objectif
 
-Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 avec Services Bureau à distance (anciennement services Terminal Server) permettent à un serveur d’héberger plusieurs sessions clientes simultanées. Bureau à distance utilise la technologie Services Bureau à distance pour permettre l’exécution à distance d’une seule session. Un utilisateur peut se connecter à un serveur hôte de session Bureau à distance (hôte de session Bureau à distance) (anciennement appelé serveur Terminal Server) à l’aide du logiciel client Connexion Bureau à distance (RDC). Le Connexion Bureau à distance par le Web étend la technologie Services Bureau à distance au Web.
+Windows Server 2012 R2, Windows Server 2012, Windows server 2008 R2 ou Windows server 2008 avec Services Bureau à distance (anciennement appelé Terminal Services) permettent à un serveur d’héberger plusieurs sessions clientes simultanées. Bureau à distance utilise la technologie Services Bureau à distance pour permettre l’exécution à distance d’une seule session. Un utilisateur peut se connecter à un serveur hôte de session Bureau à distance (hôte de session Bureau à distance) (anciennement appelé serveur Terminal Server) à l’aide du logiciel client Connexion Bureau à distance (RDC). Le Connexion Bureau à distance par le Web étend la technologie Services Bureau à distance au Web.
 
 > [!Note]  
 > Cette rubrique est destinée aux développeurs de logiciels. Si vous recherchez des informations sur l’utilisateur pour les connexions Bureau à distance, consultez [Connexion Bureau à distance : Forum aux questions](https://windows.microsoft.com/windows/remote-desktop-connection-faq#1TC=windows-8).
@@ -29,24 +29,24 @@ Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 ou Windows S
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-Un client Connexion Bureau à distance (RDC) peut exister sous différentes formes. Les périphériques matériels clients légers qui exécutent un système d’exploitation Windows intégré peuvent exécuter le logiciel client RDC pour se connecter à un serveur hôte de session Bureau à distance. Les ordinateurs Windows, Macintosh ou UNIX peuvent exécuter le logiciel client RDC pour se connecter à un serveur hôte de session Bureau à distance pour afficher des applications Windows. Cette combinaison de clients RDC permet d’accéder aux applications Windows à partir de pratiquement n’importe quel système d’exploitation.
+Un client Connexion Bureau à distance (RDC) peut exister sous différentes formes. les périphériques matériels clients légers qui exécutent un système d’exploitation Windows incorporé peuvent exécuter le logiciel client RDC pour se connecter à un serveur hôte de Session bureau à distance. les ordinateurs Windows, Macintosh ou UNIX peuvent exécuter le logiciel client RDC pour se connecter à un serveur hôte de Session bureau à distance pour afficher des applications basées sur Windows. cette combinaison de clients RDC permet d’accéder aux applications basées sur des Windows à partir de pratiquement n’importe quel système d’exploitation.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Les développeurs qui utilisent Services Bureau à distance doivent être familiarisés avec les langages de programmation C et C++ et dans l’environnement de programmation basé sur Windows. Vous devez vous familiariser avec l’architecture client/serveur. Le Connexion Bureau à distance par le Web comprend des interfaces scriptables pour créer et déployer des canaux virtuels scriptables dans des applications Web Services Bureau à distance.
+les développeurs qui utilisent Services Bureau à distance doivent être familiarisés avec les langages de programmation C et C++ et dans l’environnement de programmation basé sur Windows. Vous devez vous familiariser avec l’architecture client/serveur. Le Connexion Bureau à distance par le Web comprend des interfaces scriptables pour créer et déployer des canaux virtuels scriptables dans des applications Web Services Bureau à distance.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Les applications qui utilisent Services Bureau à distance requièrent Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 ou Windows Vista. Pour utiliser Connexion Bureau à distance par le Web fonctionnalité, l’application cliente Services Bureau à distance nécessite Internet Explorer et une connexion à la World Wide Web. Pour plus d’informations sur les exigences d’exécution d’un élément de programmation particulier, consultez la section Configuration requise de la page de référence de cet élément.
+les Applications qui utilisent Services Bureau à distance requièrent Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 ou Windows Vista. Pour utiliser Connexion Bureau à distance par le Web fonctionnalité, l’application cliente Services Bureau à distance nécessite Internet Explorer et une connexion à la World Wide Web. Pour plus d’informations sur les exigences d’exécution d’un élément de programmation particulier, consultez la section Configuration requise de la page de référence de cet élément.
 
 ## <a name="in-this-section"></a>Dans cette section
 
 <dl> <dt>
 
-[Contrôle ActiveX Bureau à distance](remote-desktop-activex-control.md)
+[contrôle de ActiveX Bureau à distance](remote-desktop-activex-control.md)
 </dt> <dd>
 
-Décrit comment utiliser le contrôle ActiveX Bureau à distance.
+décrit comment utiliser le contrôle Bureau à distance ActiveX.
 
 </dd> <dt>
 
@@ -64,10 +64,10 @@ Les *canaux virtuels* sont des extensions logicielles qui peuvent être utilisé
 
 </dd> <dt>
 
-[API de redirection multimédia RemoteFX](remotefx-api.md)
+[RemoteFX API de redirection de média](remotefx-api.md)
 </dt> <dd>
 
-L’API de redirection multimédia RemoteFX est utilisée dans une session Bureau à distance pour identifier les zones du serveur qui affichent le contenu à variation rapide, tel que la vidéo. Ce contenu peut ensuite être encodé en vidéo et envoyé au client dans un format encodé.
+l’API de redirection de média RemoteFX est utilisée dans une session Bureau à distance pour identifier les zones du serveur qui affichent du contenu à variation rapide, tel qu’une vidéo. Ce contenu peut ensuite être encodé en vidéo et envoyé au client dans un format encodé.
 
 </dd> <dt>
 

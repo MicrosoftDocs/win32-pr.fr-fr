@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2eb4994157d90562cc15ccaaa03de8a03383e0c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 79da9f552f370c0c3d7f66b3d13ce59b7f272651f130b93c40678bcbc1eddcc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022877"
 ---
 # <a name="acs-enable-acs-service-attribute"></a>ACS-Enable-ACS-service (attribut)
 
@@ -45,7 +45,7 @@ True si le service ACS doit être activé.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

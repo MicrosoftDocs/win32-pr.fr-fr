@@ -4,18 +4,18 @@ ms.assetid: b8d8a0b7-b520-44e4-8691-6eb46202c092
 title: Compiler un effet (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab6183f2f71b07c482fa24efc4f9fed199216d75
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d6e0c4364fab67b0e0e7c97b7478a023f6394b5515e6f1d16cf2d352172af6c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128425"
 ---
 # <a name="compile-an-effect-direct3d-10"></a>Compiler un effet (Direct3D 10)
 
 Une fois qu’un effet a été créé, la première étape consiste à compiler le code pour vérifier les problèmes de syntaxe. Pour ce faire, appelez l’une des API de compilation (comme D3DX10CompileEffectFromFile, D3DX10CompileEffectFromResource, D3DX10CompileEffectFromMemory). Ces API appellent le compilateur Effect fxc.exe qui est le compilateur utilisé pour compiler le code HLSL. C’est pour cette raison que la syntaxe du code dans un effet ressemble beaucoup à du code HLSL (il existe quelques exceptions qui seront gérées ultérieurement). Au fait, le compilateur/HLSL Effects (fxc.exe) se trouve dans le kit de développement logiciel (SDK) dans le dossier Utilities afin que vous puissiez compiler vos nuanceurs (ou effets) hors connexion si vous le souhaitez. Consultez la documentation pour exécuter le compilateur à partir de la ligne de commande.
 
--   [Includes](#includes)
+-   [Offre](#includes)
 -   [Macros](#macros)
 -   [Indicateurs de nuanceur HLSL](#hlsl-shader-flags)
 -   [Indicateurs FX](#fx-flags)
