@@ -4,12 +4,12 @@ ms.assetid: 00052b01-f2f0-4749-8826-084e5ebb300a
 title: Attribut de contrôle enfoncé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c6852a2f32880a427016e41ce9f68314a4a4ea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f3547f06d82a66a08a575958eac728051c3315f3382529065c3792cfdb94def
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626929"
 ---
 # <a name="sunken-control-attribute"></a>Attribut de contrôle enfoncé
 
@@ -31,7 +31,7 @@ Tous les contrôles.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit enfoncé dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

@@ -3,7 +3,7 @@ title: Message WM_CAP_FILE_SET_CAPTURE_FILE (VFW. h)
 description: Le message du fichier \_ \_ \_ de capture du jeu de fichiers WM Cap \_ \_ désigne le fichier utilisé pour la capture vidéo. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capFileSetCaptureFile.
 ms.assetid: d96e498b-6322-4d48-a5d7-156e95f23740
 keywords:
-- Message WM_CAP_FILE_SET_CAPTURE_FILE Windows Multimedia
+- message WM_CAP_FILE_SET_CAPTURE_FILE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12b3f59edfc9bf01f6bd2af3b9028f8e3315e2de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a9435a7f0790c8ffe88f6b7ea6228bb2f442b23f5dcb15e2722e59b75c671588
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687019"
 ---
 # <a name="wm_cap_file_set_capture_file-message"></a>\_Message du \_ \_ fichier de capture du jeu de fichiers de \_ l’embout WM \_
 
@@ -49,7 +49,7 @@ Pointeur vers la chaîne terminée par le caractère null qui contient le nom du
 
 Retourne la **valeur true** en cas de réussite ou **false** si le nom de fichier n’est pas valide, ou si la diffusion en continu ou la capture de frame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message stocke le nom de fichier dans une structure interne. Il ne crée pas, n’alloue pas ou n’ouvre pas le fichier spécifié. Le nom de fichier de capture par défaut est C : \\CAPTURE.AVI.
 

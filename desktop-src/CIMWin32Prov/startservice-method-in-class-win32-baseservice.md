@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9fbfad47899193a25be08292aff97f9d8e211ba7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e82aadee8d2ff339e8561d35818e169d42ce8f364417fa03957518b2b090bc2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752369"
 ---
 # <a name="startservice-method-of-the-win32_baseservice-class"></a>Méthode StartService de la \_ classe BaseService Win32
 

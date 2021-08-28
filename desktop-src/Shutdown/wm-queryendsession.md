@@ -4,12 +4,12 @@ ms.assetid: 7ad73444-f1f6-4b73-8450-0580b146a5a6
 title: Message WM_QUERYENDSESSION (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2e2f82388b229523f371c680d6ccc7c4b1e27f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6807a861ffb0670013a1d1f5b98a2f202e5d7470a6c306b3ed29c42baad6e6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664209"
 ---
 # <a name="wm_queryendsession-message"></a>\_Message WM QUERYENDSESSION
 
@@ -83,11 +83,11 @@ Les applications doivent respecter les intentions de l’utilisateur et retourne
 
 Si l’arrêt endommage le système ou le support en cours de gravure, l’application peut retourner la **valeur false**. Toutefois, il est recommandé de respecter les actions de l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand une application retourne la **valeur true** pour ce message, elle reçoit le message [**WM \_ ENDSESSION**](wm-endsession.md) , quelle que soit la manière dont les autres applications répondent au message **WM \_ QUERYENDSESSION** . Chaque application doit retourner la **valeur true** ou **false** immédiatement lors de la réception de ce message, et différer les opérations de nettoyage jusqu’à ce qu’elle reçoive le message **WM \_ ENDSESSION** .
 
-Les applications peuvent afficher une interface utilisateur invitant l’utilisateur à fournir des informations lors de l’arrêt, mais cela n’est pas recommandé. Au bout de cinq secondes, le système affiche des informations sur les applications qui empêchent l’arrêt et permet à l’utilisateur de les arrêter. Par exemple, Windows XP affiche une boîte de dialogue, tandis que Windows Vista affiche un plein écran avec des informations supplémentaires sur les applications bloquant l’arrêt. Si votre application doit bloquer ou différer l’arrêt du système, utilisez la fonction [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) . Pour plus d’informations, consultez [modifications de l’arrêt de Windows Vista](shutdown-changes-for-windows-vista.md).
+Les applications peuvent afficher une interface utilisateur invitant l’utilisateur à fournir des informations lors de l’arrêt, mais cela n’est pas recommandé. Au bout de cinq secondes, le système affiche des informations sur les applications qui empêchent l’arrêt et permet à l’utilisateur de les arrêter. par exemple, Windows XP affiche une boîte de dialogue, tandis que Windows Vista affiche un plein écran avec des informations supplémentaires sur les applications bloquant l’arrêt. Si votre application doit bloquer ou différer l’arrêt du système, utilisez la fonction [**ShutdownBlockReasonCreate**](/windows/desktop/api/Winuser/nf-winuser-shutdownblockreasoncreate) . pour plus d’informations, consultez [modifications de l’arrêt pour Windows Vista](shutdown-changes-for-windows-vista.md).
 
 Les applications console peuvent utiliser la fonction [**SetConsoleCtrlHandler**](/windows/console/setconsolectrlhandler) pour recevoir des notifications d’arrêt.
 
@@ -103,8 +103,8 @@ Pour obtenir un exemple, consultez [déconnexion](logging-off.md).
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP- \[ \| applications UWP\]<br/>                                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ \| apps UWP\]<br/>                                              |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP pour applications \[ \| UWP\]<br/>                                                       |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2003 \[ \| applications UWP\]<br/>                                              |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

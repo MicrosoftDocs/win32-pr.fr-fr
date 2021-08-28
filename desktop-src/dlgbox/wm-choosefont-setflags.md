@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7abf436311f8a3868b1471c2a10a7ee2e4a3b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d77290dfb3668e24d3586cf6d742b524e05fb07979de7c8d45f39998aca9708
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726079"
 ---
 # <a name="wm_choosefont_setflags-message"></a>\_ \_ Message SETFLAGS WM CHOOSEFONT
 
@@ -55,7 +55,7 @@ Pointeur vers une structure [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commd
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) crée une boîte de dialogue de **police** et utilise une structure [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour spécifier les valeurs initiales du membre **Flags** . Utilisez le **message \_ \_ SETFLAGS WM CHOOSEFONT** pour spécifier des valeurs différentes pour le membre **Flags** lorsque la boîte de dialogue **police** est ouverte.
 

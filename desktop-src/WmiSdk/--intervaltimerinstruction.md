@@ -1,5 +1,5 @@
 ---
-description: Génère des événements à intervalles réguliers, comme un \_ message du minuteur WM dans la programmation Windows.
+description: génère des événements à intervalles réguliers, comme un \_ message de minuteur WM dans Windows programmation.
 ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
 ms.tgt_platform: multiple
 title: Classe __IntervalTimerInstruction
@@ -17,16 +17,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 20dd1c9fb2d009de4d8d957b4d5980cc6d6ff45e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17f0c55edceb3c5fb009f49ae97e3765ec3e0255a82f8c75e133344379c24d90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640759"
 ---
 # <a name="__intervaltimerinstruction-class"></a>\_\_IntervalTimerInstruction, classe
 
-La classe système **\_ \_ IntervalTimerInstruction** génère des événements à intervalles réguliers, comme un \_ message de minuteur WM dans la programmation Windows. Un consommateur d’événements s’inscrit pour recevoir des événements de minuterie d’intervalle en créant une requête d’événement qui fait référence à cette classe. En raison du comportement du système d’exploitation, il n’existe aucune garantie que les événements seront remis à l’intervalle demandé précisément.
+la classe système **\_ \_ IntervalTimerInstruction** génère des événements à intervalles réguliers, comme un \_ message de minuteur WM dans Windows programmation. Un consommateur d’événements s’inscrit pour recevoir des événements de minuterie d’intervalle en créant une requête d’événement qui fait référence à cette classe. En raison du comportement du système d’exploitation, il n’existe aucune garantie que les événements seront remis à l’intervalle demandé précisément.
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -114,7 +114,7 @@ Identificateur unique de cet objet **\_ \_ IntervalTimerInstruction** . Cette pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ IntervalTimerInstruction** est dérivée de [**\_ \_ TimerInstruction**](--timerinstruction.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Type complexe DataType (Journal des événements Windows)
+title: type complexe DataType (Windows journal des événements)
 description: Définit un élément de données.
 ms.assetid: f3b7de63-1ac1-429d-9e36-1f13c26c9618
 keywords:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d3ac6e545cbe8567bbe041568c442f762743ad0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba1fcbf217b16fb675a7a4eca00c8faa201737c07eea35a809f85617e96e9445
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620279"
 ---
 # <a name="datatype-complex-type"></a>Type complexe DataType
 
@@ -54,7 +54,7 @@ Définit un élément de données.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément de données peut être un élément de données de niveau supérieur ou un élément de données dans une structure.
 
@@ -64,8 +64,8 @@ L’élément de données peut être un élément de données de niveau supérie
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

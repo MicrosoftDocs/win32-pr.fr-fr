@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5d44d1c1ddd9b46f768f218250802562f9a36312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 576da1ef42768fe8574fab5f965270134cad50d96f4b4e3fe0aaa7234af6d365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715439"
 ---
 # <a name="folderitemsize-property"></a>FolderItem. Size, propriété
 
@@ -41,9 +41,9 @@ iSize = FolderItem.Size
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **Size** pour récupérer la taille du fichier exécutable du bloc-notes. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+l’exemple suivant utilise **size** pour récupérer la taille du fichier exécutable Bloc-notes. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -142,13 +142,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

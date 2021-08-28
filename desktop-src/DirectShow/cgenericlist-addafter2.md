@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6bbe26e98acc999f067a7b0e96c3716e7e0c0c0
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 846e37b961af8d2492b3aff032193e87fb3603eb1751c25f0e3ca8e0c5d38618
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104531107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697479"
 ---
 # <a name="cgenericlistaddafter-method-wxlisth---pos-plist-parameters"></a>Méthode CGenericList. AddAfter (Wxlist. h)-POS, paramètres plist
 
@@ -65,7 +65,7 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | Wxlist. h (include streams. h) |
+| En-tête | Wxlist. h (inclure Flux. h) |
 | Bibliothèque| Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

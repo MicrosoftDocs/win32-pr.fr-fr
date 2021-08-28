@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6da6cb51ced16da6510f3fb85ec80e4fa641603b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0c6f37020f17a7ddfcfa261bbbda909cda878c3bae72147f8d2b1ff1d52fdef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703309"
 ---
 # <a name="netboot-new-machine-naming-policy-attribute"></a>attribut de stratégie d’attribution de nom pour netboot-New-machine
 
@@ -45,7 +45,7 @@ Indique le schéma d’affectation de noms que les nouveaux comptes d’ordinate
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: F9FD7959-A78A-4C72-8326-EE8FF9066E6C
 title: Attribut MFSampleExtension_ForwardedDecodeUnits (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ab5c10a4a7fb4dfd201f9c494c1bc65e14c162
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2298a29d722c118fb79d5f0b49aa9d3d94fd735150a65772eb15e6da7638445
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713729"
 ---
 # <a name="mfsampleextension_forwardeddecodeunits-attribute"></a>\_Attribut MFSampleExtension ForwardedDecodeUnits
 
@@ -19,7 +19,7 @@ Obtient un objet de type [**IMFCollection**](/windows/desktop/api/mfobjects/nn-m
 
 **IUnknown**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La collection contient toutes les unités NALU/SEI personnalisées depuis la suppression du frame précédent avec les octets de prévention de l’émulation.
 
@@ -29,8 +29,8 @@ La collection contient toutes les unités NALU/SEI personnalisées depuis la sup
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

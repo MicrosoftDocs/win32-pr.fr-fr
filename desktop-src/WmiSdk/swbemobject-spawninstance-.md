@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 804c7d2828723ee8da5dae28321faab62a32a0f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b465bb53fd031dff397ef0ddf39db39d5d9987f03e037becebcd8dd41a65b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640039"
 ---
 # <a name="swbemobjectspawninstance_-method"></a>SWbemObject. SpawnInstance, \_ méthode
 

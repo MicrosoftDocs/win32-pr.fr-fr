@@ -3,7 +3,7 @@ title: Annotations d’en-tête
 description: Les annotations d’en-tête décrivent comment une fonction utilise ses paramètres et sa valeur de retour.
 ms.assetid: 4f9e42b1-2fe4-4173-946e-ab1805a96b9e
 keywords:
-- API Windows, annotations de fichier d’en-tête
+- Windows API, annotations de fichier d’en-tête
 - annotations du fichier d’en-tête
 - Specstrings. h
 - langage d’annotation standard (SAL)
@@ -19,18 +19,18 @@ keywords:
 - _part
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8535118383a97d6c48f19246ad24ce324e8bb528
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 12ad560d00c45714d0feaa9ab2fa58ff4c985730fd563d4943ff028f561f2793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643629"
 ---
 # <a name="header-annotations"></a>Annotations d’en-tête
 
-\[Cette rubrique décrit les annotations prises en charge dans les en-têtes Windows via Windows 7. Si vous développez pour Windows 8, vous devez utiliser les annotations décrites dans les [Annotations SAL]( /previous-versions/visualstudio/visual-studio-2013/ms182032(v=vs.120)).\]
+\[cette rubrique décrit les annotations prises en charge dans les en-têtes de Windows via Windows 7. si vous développez pour Windows 8, vous devez utiliser les annotations décrites dans les [annotations SAL]( /previous-versions/visualstudio/visual-studio-2013/ms182032(v=vs.120)).\]
 
-Les annotations d’en-tête décrivent comment une fonction utilise ses paramètres et sa valeur de retour. Ces annotations ont été ajoutées à de nombreux fichiers d’en-tête Windows pour vous aider à vous assurer que vous appelez correctement l’API Windows. Si vous activez l’analyse du code, qui est disponible à partir de Visual Studio 2005, le compilateur produira des avertissements de niveau 6000 si vous n’appelez pas ces fonctions selon l’utilisation décrite par les annotations. Vous pouvez également ajouter ces annotations dans votre propre code pour vous assurer qu’elles sont appelées correctement. Pour activer l’analyse du code dans Visual Studio, consultez la documentation de votre version de Visual Studio.
+Les annotations d’en-tête décrivent comment une fonction utilise ses paramètres et sa valeur de retour. ces annotations ont été ajoutées à de nombreux fichiers d’en-tête de Windows pour vous aider à vous assurer que vous appelez correctement l’API Windows. si vous activez l’analyse du code, qui est disponible à partir de la Visual Studio 2005, le compilateur produira des avertissements de niveau 6000 si vous n’appelez pas ces fonctions selon l’utilisation décrite par les annotations. Vous pouvez également ajouter ces annotations dans votre propre code pour vous assurer qu’elles sont appelées correctement. pour activer l’analyse du code dans Visual Studio, consultez la documentation de votre version de Visual Studio.
 
 Ces annotations sont définies dans Specstrings. h. Ils reposent sur les primitives qui font partie du langage de l’annotation standard (SAL) et implémentent à l’aide de `_declspec("SAL_*")` .
 

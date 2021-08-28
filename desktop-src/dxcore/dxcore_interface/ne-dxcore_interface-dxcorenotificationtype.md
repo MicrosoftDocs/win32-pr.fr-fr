@@ -4,12 +4,12 @@ description: Définit des constantes qui spécifient les types de notifications 
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3eacd77d2cf15c78a0dc959285874de943fd9130
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 230b6c103f83e72dfe0ba7803cde4b4695a32de724ce44c1aaccf5131d077bad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726009"
 ---
 # <a name="dxcorenotificationtype-enum"></a>Énumération DXCoreNotificationType
 

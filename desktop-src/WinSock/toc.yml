@@ -11,7 +11,7 @@
         - name: Considérations sur la programmation Winsock
           href: winsock-programming-considerations.md
           items:
-            - name: Architecture Windows Sockets 2
+            - name: Windows Architecture de sockets 2
               href: windows-sockets-2-architecture-2.md
             - name: Handles de socket
               href: socket-handles-2.md
@@ -19,7 +19,7 @@
               href: scatter-gather-i-o-2.md
             - name: Protocol-Independent multidiffusion et multipoint
               href: protocol-independent-multicast-and-multipoint-2.md
-            - name: Qualité de service de la spécification de Flow
+            - name: Flow Qualité de service de la spécification
               href: flow-specification-quality-of-service-2.md
             - name: Provider-Specific mécanisme d’extension
               href: provider-specific-extension-mechanism-2.md
@@ -33,12 +33,12 @@
               href: protocol-independent-out-of-band-data-2.md
             - name: Fonctionnalités de débogage et de suivi
               href: debug-and-trace-facilities-2.md
-            - name: Problèmes de compatibilité de Windows Sockets
+            - name: Windows Problèmes de compatibilité des sockets
               href: windows-sockets-compatibility-issues-2.md
               items:
                 - name: État par défaut de l’attribut Overlapped d’un socket
                   href: default-state-for-a-socket-s-overlapped-attribute-2.md
-                - name: 'Routines de blocage Windows Sockets 1,1 et EINPROGRESS'
+                - name: 'Windows Routines de blocage de sockets 1,1 et EINPROGRESS'
                   href: windows-sockets-1-1-blocking-routines-and-einprogress-2.md
             - name: Gestion des erreurs Winsock
               href: handling-winsock-errors.md
@@ -72,7 +72,7 @@
                   href: summary-of-name-resolution-functions-2.md
                 - name: Structures de données de résolution de noms
                   href: name-resolution-data-structures-2.md
-            - name: 'Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1'
+            - name: 'résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1'
               href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md
               items:
                 - name: Approche de base pour GetXbyY dans l’API
@@ -92,7 +92,7 @@
           items:
             - name: Taxonomie multipoint
               href: multipoint-taxonomy-2.md
-            - name: Éléments de l’interface Windows Sockets 2 pour multipoint et multidiffusion
+            - name: Windows Sockets 2 éléments d’interface pour multipoint et multidiffusion
               href: windows-sockets-2-interface-elements-for-multipoint-and-multicast-2.md
               items:
                 - name: Attributs dans la structure WSAPROTOCOL_INFO
@@ -218,7 +218,7 @@
                           href: blocking-hook-2.md
                         - name: Annulation des opérations bloquantes
                           href: canceling-blocking-operations-2.md
-                    - name: Objets d’événement dans le SPI Windows Sockets 2
+                    - name: objets d’événement dans le SPI Windows sockets 2
                       href: event-objects-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Création d’objets d’événement
@@ -232,11 +232,11 @@
                       items:
                         - name: Sélectionne
                           href: selects-2.md
-                        - name: Messages Windows
+                        - name: Windows Messages
                           href: windows-messages-2.md
                         - name: Signalement d’objet d’événement
                           href: event-object-signaling-2.md
-                    - name: Groupes de sockets dans le SPI Windows Sockets 2
+                    - name: groupes de sockets dans le SPI Windows sockets 2
                       href: socket-groups-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Opérations de groupe de Sockets
@@ -245,7 +245,7 @@
                           href: required-socket-grouping-behavior-2.md
                         - name: Comportement de regroupement de sockets recommandé
                           href: recommended-socket-grouping-behavior-2.md
-                    - name: Qualité de service dans le SPI Windows Sockets 2
+                    - name: qualité de Service dans le SPI Windows sockets 2
                       href: quality-of-service-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Modèle d’utilisation
@@ -261,11 +261,11 @@
                       items:
                         - name: Liaison à une adresse locale
                           href: binding-to-a-local-address-2.md
-                        - name: "Notions de base sur les protocoles\_: écouter, se connecter, accepter"
+                        - name: "notions de base sur les protocoles\_: écouter, Connecter, accepter"
                           href: protocol-basics-listen-connect-accept-2.md
                         - name: Détermination des noms locaux et distants
                           href: determining-local-and-remote-names-2.md
-                        - name: Amélioration des fonctionnalités au moment de la connexion
+                        - name: fonctionnalités améliorées à Connecter moment
                           href: enhanced-functionality-at-connect-time-2.md
                         - name: Arrêt de la connexion
                           href: connection-shutdown-2.md
@@ -340,7 +340,7 @@
                       items:
                         - name: Fonctions de transport de données génériques
                           href: generic-data-transport-functions-2.md
-                        - name: Appels exposés par la DLL Windows Sockets 2
+                        - name: appels exposés par Windows DLL sockets 2
                           href: upcalls-exposed-by-windows-sockets-2-dll-2.md
                         - name: Fonctions d’installation et de configuration
                           href: installation-and-configuration-functions-2.md
@@ -372,7 +372,7 @@
                           href: name-space-provider-configuration-and-installation-2.md
                         - name: Initialisation et nettoyage du fournisseur d’espace de noms
                           href: name-space-provider-initialization-and-cleanup-2.md
-                        - name: Installation du service dans le SPI Windows Sockets 2
+                        - name: Installation du Service dans le SPI Windows sockets 2
                           href: service-installation-in-the-windows-sockets-2-spi-2.md
                         - name: Requête de service
                           href: service-query-2.md
@@ -385,7 +385,7 @@
                               href: query-related-data-structures-in-the-spi-2.md
                             - name: Structures de données de classe de service dans SPI
                               href: service-class-data-structures-in-the-spi-2.md
-                    - name: 'Résolution de noms compatible pour TCP/IP dans le SPI Windows Sockets 1,1'
+                    - name: 'résolution de noms Compatible pour TCP/IP dans le SPI Windows sockets 1,1'
                       href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md
                       items:
                         - name: Approche de base pour GetXbyY dans le SPI
@@ -484,7 +484,7 @@
               href: byte-ordering-2.md
             - name: Routines de conversion de Byte-Order étendues
               href: extended-byte-order-conversion-routines-2.md
-        - name: Guide IPv6 pour les applications Windows Sockets
+        - name: Guide IPv6 pour les Applications Windows sockets
           href: ipv6-guide-for-windows-sockets-applications-2.md
           items:
             - name: Modification des structures de données pour IPv6 Winsock appications
@@ -515,7 +515,7 @@
                   href: ipv6-enabled-client-code-2.md
                 - name: Code serveur IPv6-Enabled
                   href: ipv6-enabled-server-code-2.md
-        - name: Applications Windows Sockets hautes performances
+        - name: Applications de sockets Windows hautes performances
           href: high-performance-windows-sockets-applications-2.md
           items:
             - name: Terminologie du réseau
@@ -560,7 +560,7 @@
         - name: Programmation de la multidiffusion
           href: multicast-programming.md
           items:
-            - name: MLD et IGMP à l’aide de Windows Sockets
+            - name: MLD et IGMP à l’aide de sockets Windows
               href: igmp-and-windows-sockets.md
             - name: Comportement des options de socket de multidiffusion
               href: multicast-socket-option-behavior.md
@@ -761,7 +761,7 @@
             - name: Winsock TCP/IP annexe
               href: winsock-tcp-ip-annex.md
               items:
-                - name: Utilisation d’IOCTL UNIX dans Winsock
+                - name: utilisation d’ioctl UNIX dans Winsock
                   href: using-unix-ioctls-in-winsock.md
                 - name: Détails de la fonction Winsock TCP/IP
                   href: winsock-tcp-ip-function-details.md
@@ -821,7 +821,7 @@
               href: /windows/win32/api/winsock/nf-winsock-bind
             - name: opération closesocket
               href: /windows/win32/api/winsock/nf-winsock-closesocket
-            - name: se connecter
+            - name: connect
               href: /windows/win32/api/Winsock2/nf-winsock2-connect
             - name: LPFN_CONNECTEX
               href: /windows/win32/api/Mswsock/nc-mswsock-lpfn_connectex
@@ -1550,5 +1550,5 @@
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspproc_table
                 - name: WSPUPCALLTABLE
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspupcalltable
-        - name: Codes d’erreur de Windows Sockets
+        - name: Windows Codes d’erreur des sockets
           href: windows-sockets-error-codes-2.md

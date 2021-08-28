@@ -4,12 +4,12 @@ ms.assetid: 3D5687D3-1F4A-4586-9A9C-9CEA461E2DC9
 title: Standards
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55c451abc007941494ab156a538b0b7143840d17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bfaf4e7c396d6fcc160deebc555836fdf6e93103760234aa8c466ddf881f5c95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645819"
 ---
 # <a name="standards"></a>Standards
 

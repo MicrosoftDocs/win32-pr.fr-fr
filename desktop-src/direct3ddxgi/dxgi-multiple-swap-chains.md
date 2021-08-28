@@ -4,12 +4,12 @@ ms.assetid: 29AB9799-9E4E-4A96-B4AB-F1B754794879
 title: Amélioration des performances avec plusieurs chaînes de permutation par appareil de rendu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1e356434521054bc13b553c8ae3d6e43d8d98ef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91445660bf9efc59e9e39c88819587dce3960325df0659487eaae67a845a7329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627489"
 ---
 # <a name="improving-performance-with-multiple-swap-chains-per-rendering-device"></a>Amélioration des performances avec plusieurs chaînes de permutation par appareil de rendu
 

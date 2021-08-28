@@ -4,21 +4,21 @@ ms.assetid: 74e4e4b2-6ceb-4044-84df-2fff0788267a
 title: Utilisation du contexte par la plateforme Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcd991a2ad8e76bb0a96ea5e41977b158cc30f5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c586bf3ffcff8fc92b02bc0b4f5aff79c6bd0bbd66e6f048eab35a78d3be9676
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709279"
 ---
 # <a name="how-the-tablet-pc-platform-uses-context"></a>Utilisation du contexte par la plateforme Tablet PC
 
-Les développeurs qui créent des applications pour Tablet PC peuvent tirer parti de l’étendue des entrées et des informations de contexte. Les meilleures solutions possibles pour définir des informations de contexte sur les contrôles dans les applications varient selon que le contrôle est activé pour l’entrée manuscrite et que l’application a été publiée sur le marché. Un contrôle avec accès manuscrit est un contrôle spécifiquement conçu pour l’entrée d’encre et dans lequel les données d’encre sont principalement collectées et conservées en tant qu’encre. Le journal Microsoft Windows ou un programme d’esquisse sont des exemples d’applications compatibles avec l’écriture manuscrite. Dans un contrôle qui n’est pas activé pour l’écriture manuscrite, les données d’entrée sont collectées et conservées en tant que texte, en général à l’aide du panneau de saisie Tablet PC lorsque l’application est exécutée sur un Tablet PC. Les solutions permettant d’activer les informations de contexte dans les contrôles sont les suivantes :
+Les développeurs qui créent des applications pour Tablet PC peuvent tirer parti de l’étendue des entrées et des informations de contexte. Les meilleures solutions possibles pour définir des informations de contexte sur les contrôles dans les applications varient selon que le contrôle est activé pour l’entrée manuscrite et que l’application a été publiée sur le marché. Un contrôle avec accès manuscrit est un contrôle spécifiquement conçu pour l’entrée d’encre et dans lequel les données d’encre sont principalement collectées et conservées en tant qu’encre. Microsoft Windows Journal ou un programme d’esquisse sont des exemples d’applications compatibles avec l’écriture manuscrite. Dans un contrôle qui n’est pas activé pour l’écriture manuscrite, les données d’entrée sont collectées et conservées en tant que texte, en général à l’aide du panneau de saisie Tablet PC lorsque l’application est exécutée sur un Tablet PC. Les solutions permettant d’activer les informations de contexte dans les contrôles sont les suivantes :
 
 -   API [SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) : solution de programmation de bas niveau pour les applications et les contrôles qui ne sont pas compatibles avec l’encre. Les fichiers binaires de l’application sont affectés et doivent être redistribués.
 -   Propriétés [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) [**et de la**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_wordlist) zone de texte de l’objet [**RecognizerContext**](inkrecognizercontext-class.md) : solution de programmation pour les applications avec des contrôles activés pour l’écriture manuscrite. Les fichiers binaires de l’application sont affectés et doivent être redistribués.
 
-Le panneau de saisie Tablet PC a été mis à jour à partir de Windows Vista pour tirer parti des informations de contexte que vous fournissez lors de l’utilisation des API [SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) . Le tableau suivant fournit des détails sur les moteurs de reconnaissance Microsoft qui prennent en charge les étendues d’entrée. Un « X » dans la ligne d’une étendue d’entrée indique que le module de reconnaissance dans cette colonne prend en charge l’étendue des entrées.
+le panneau de saisie Tablet pc a été mis à jour à partir de Windows Vista pour tirer parti des informations de contexte que vous fournissez lors de l’utilisation des api [SetInputScope](/windows/win32/api/inputscope/nf-inputscope-setinputscope) . Le tableau suivant fournit des détails sur les moteurs de reconnaissance Microsoft qui prennent en charge les étendues d’entrée. Un « X » dans la ligne d’une étendue d’entrée indique que le module de reconnaissance dans cette colonne prend en charge l’étendue des entrées.
 
 
 

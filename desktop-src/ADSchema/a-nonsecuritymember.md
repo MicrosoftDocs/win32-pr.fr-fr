@@ -1,6 +1,6 @@
 ---
 title: Attribut de membre de non-sécurité
-description: Membres non-sécurité d’un groupe. Utilisé pour les listes de distribution Exchange.
+description: Membres non-sécurité d’un groupe. utilisé pour les listes de distribution Exchange.
 ms.assetid: 0db135e4-dcba-4afb-a174-3c7b2b40688e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a04919d9d538ff4da97d73e79d14e9a2706032b8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dba59e37e4d4be5549e9ab5f36747f1cfd0046a9fb01ca91e2a9e79f353f148a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648379"
 ---
 # <a name="non-security-member-attribute"></a>Attribut de membre de non-sécurité
 
-Membres non-sécurité d’un groupe. Utilisé pour les listes de distribution Exchange.
+Membres non-sécurité d’un groupe. utilisé pour les listes de distribution Exchange.
 
 
 
@@ -45,7 +45,7 @@ Membres non-sécurité d’un groupe. Utilisé pour les listes de distribution E
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

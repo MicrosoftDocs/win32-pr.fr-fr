@@ -7,12 +7,12 @@ keywords:
 - interfaces ADSI des interfaces de schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f414fdea2418fb92a0a3c8c9e8bf88eb6d7f00b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7dfa22a32a4d93c36a7419d48ea6127c2345ffdea62686147d1ba08c41ea7992
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770552"
 ---
 # <a name="schema-interfaces"></a>Interfaces de schéma
 
@@ -30,9 +30,9 @@ Les interfaces définies par ADSI peuvent prendre en charge des propriétés sp�
 
 Un composant fournisseur ADSI avec un espace de noms complexe peut permettre l’existence de plusieurs schémas dans une instance d’espace de noms, chacun d’entre eux ayant une autre partie de l’arborescence. Toutefois, la propriété [**IADs :: Schema**](iads-property-methods.md) d’un objet nomme toujours sa propre définition de schéma.
 
- 
+ 
 
- 
+ 
 
 
 

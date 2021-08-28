@@ -3,7 +3,7 @@ title: Message RB_MAXIMIZEBAND (commctrl. h)
 description: Redimensionne une bande dans un contrôle rebar en sa taille idéale ou la plus grande taille.
 ms.assetid: 79fff6d0-01f2-4308-b916-38dc06dad894
 keywords:
-- RB_MAXIMIZEBAND les contrôles de message Windows
+- RB_MAXIMIZEBAND les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 708a8fae7c0dd8e72eea8e5acefe43ab50054592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13ef02fbe9611c09d1932907c8218ffd169d3e18d10e0b07faa2b63d50058af1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770089"
 ---
 # <a name="rb_maximizeband-message"></a>\_Message MAXIMIZEBAND RB
 
@@ -53,8 +53,8 @@ La valeur de retour n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

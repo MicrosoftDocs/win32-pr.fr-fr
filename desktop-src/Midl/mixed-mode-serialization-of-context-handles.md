@@ -1,6 +1,6 @@
 ---
 title: Sérialisation en mode mixte des handles de contexte
-description: Dans Microsoft Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, appelée sérialisation en mode mixte.
+description: dans Microsoft Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, appelée sérialisation en mode mixte.
 ms.assetid: b52c1d6f-cdc5-4597-a36e-bb957e4aab01
 keywords:
 - Référence du langage MIDL MIDL, sérialisation en mode mixte des handles de contexte
@@ -8,16 +8,16 @@ keywords:
 - sérialisation en mode mixte MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0922b53bfc7ba2e30ad8df0764e3cf9a36f0f723
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0aaa35f02a939a50e2484ace29630783ee219d6313d7538cba54b1f54cd83007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787429"
 ---
 # <a name="mixed-mode-serialization-of-context-handles"></a>Sérialisation en mode mixte des handles de contexte
 
-À partir de Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Pour plus d’informations sur les handles de contexte, consultez les attributs suivants :
+à partir de Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Pour plus d’informations sur les handles de contexte, consultez les attributs suivants :
 
 -   [**handle de contexte \_**](context-handle.md)
 -   [**\_sérialisation du handle de contexte \_**](context-handle-serialize.md)
@@ -36,7 +36,7 @@ Les handles de contexte en \[ sortie \] seule sont généralement utilisés par 
 > [!Note]  
 > Les méthodes de création sont sérialisées implicitement.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -80,9 +80,9 @@ typedef [context_handle_noserialize] TestContextHandleShared;
 [**handle de contexte \_ \_ noserialize**](context-handle-noserialize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

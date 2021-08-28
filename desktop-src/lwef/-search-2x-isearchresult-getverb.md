@@ -3,9 +3,9 @@ title: Méthode ISearchResult GetVerb
 description: Réservé. | Méthode ISearchResult GetVerb
 ms.assetid: 15f75c5d-7a9e-49fa-90f5-5127bce3b323
 keywords:
-- Méthode GetVerb fonctionnalités d’environnement Windows héritées
-- Méthode GetVerb fonctionnalités d’environnement Windows héritées, interface ISearchResult
-- Fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode GetVerb
+- fonctionnalités d’environnement Windows héritées de la méthode GetVerb
+- méthode GetVerb héritage Windows fonctionnalités d’environnement, interface ISearchResult
+- fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode GetVerb
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 631a9c337f7a7c2b871028b9ba83f4e672040e41
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 345c22828c8f6723bcb0de2168d8c88f59c5c0190a406d946219f6a09fcb8fff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106536436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716589"
 ---
 # <a name="isearchresultgetverb-method"></a>ISearchResult :: GetVerb, méthode
 

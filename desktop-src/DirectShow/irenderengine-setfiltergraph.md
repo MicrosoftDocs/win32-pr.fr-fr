@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 72c93ef6610fd301c497589858a8941e2b8f71b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4472d1152d45ee160885a4cdbc898a55ece24b6795a9880a5eeb958e05330287
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767099"
 ---
 # <a name="irenderenginesetfiltergraph-method"></a>IRenderEngine :: SetFilterGraph, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                            | Description                                    |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie.<br/>                            |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Réussite.<br/>                            |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>           | Argument non valide.<br/>                   |
 | <dl> <dt>**E \_ doit \_ initialiser le \_ convertisseur**</dt> </dl> | Le moteur de rendu n’a pas pu s’initialiser.<br/> |
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La plupart des applications n’ont pas besoin d’appeler cette méthode. Il est plus courant de laisser le moteur de rendu générer le graphique pour vous, en appelant la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) .
 
@@ -76,7 +76,7 @@ Cette méthode échoue si le moteur de rendu a déjà un graphique de filtre.
 
 Ne récupérez jamais un pointeur vers un graphique de filtre créé par un moteur de rendu et utilisez-le en tant que paramètre de cette méthode sur un autre moteur de rendu. Cela entraînera des résultats imprévisibles.
 
-La méthode **ConnectFrontEnd** détruit tout graphique de filtre existant, mais conserve la même instance du gestionnaire de graphes de filtre.
+la méthode **ConnectFrontEnd** détruit tout graphique de filtre existant, mais conserve la même instance de filtre Graph Manager.
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -84,7 +84,7 @@ La méthode **ConnectFrontEnd** détruit tout graphique de filtre existant, mais
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

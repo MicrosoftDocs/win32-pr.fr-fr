@@ -4,17 +4,17 @@ ms.assetid: 971de88e-c1ee-4e07-bf8e-3153e4fd11f3
 title: Start (attribut)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b377d0d83c86b981400a784904cf0423f0cca20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 227b04a8cd7dc366a9cf10a4930233cd834e2bea7faa64bb59c248049b9e9abe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650989"
 ---
 # <a name="start-attribute"></a>Start (attribut)
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7a101617fcb56d349795335fb118fe40fca406
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9a3fa9ff7af57e15f10141b6b63d4e8ecd19169ab6c5448399b586aa7a013fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106540788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705669"
 ---
 # <a name="machine-password-change-interval-attribute"></a>Attribut machine-Password-Change-Interval
 
@@ -45,7 +45,7 @@ L’attribut **Machine-Password-Change-Interval** n’est pas utilisé actuellem
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

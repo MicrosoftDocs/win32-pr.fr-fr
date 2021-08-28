@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 236b26cc4cfcd10f1e6e6094e4b69928343a9ada
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b9f41521f1af8b4601faafce9674277b172ad4cde3f364fc2ab7a84cfcc0df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739039"
 ---
 # <a name="action-object"></a>Objet d’action
 
@@ -41,13 +41,13 @@ L’objet d' **action** a ces propriétés.
 | Propriété                               | Type d’accès           | Description                                           |
 |:---------------------------------------|:----------------------|:------------------------------------------------------|
 | [**Identifi**](action-id.md)<br/>     | Lecture/écriture<br/> | Obtient ou définit l’identificateur de l’action.<br/> |
-| [**Entrer**](action-type.md)<br/> | Lecture seule<br/>  | Obtient le type d'action.<br/>               |
+| [**Type**](action-type.md)<br/> | Lecture seule<br/>  | Obtient le type d'action.<br/>               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la façon dont les actions et les tâches fonctionnent ensemble, consultez [actions des tâches](task-actions.md). Le tableau suivant contient les objets de script qui représentent les actions qui peuvent être effectuées :
 
@@ -76,8 +76,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

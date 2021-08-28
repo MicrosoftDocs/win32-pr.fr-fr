@@ -3,7 +3,7 @@ title: BN_CLICKED le code de notification (winuser. h)
 description: Envoyé lorsque l’utilisateur clique sur un bouton. La fenêtre parente du bouton reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: 74847549-b92f-4981-a979-d0b2a8a5539a
 keywords:
-- Contrôles Windows de code de notification BN_CLICKED
+- BN_CLICKED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 894837c9a930c6a5f6d124b6b9e983465ef3beac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dd18c5a4a83b70150a1372cff1adc20c42c574ebbd009d7518f6cc243a9c87a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827629"
 ---
 # <a name="bn_clicked-notification-code"></a>\_Code de notification sur lequel vous avez cliqué
 
@@ -55,7 +55,7 @@ Handle du bouton.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un bouton désactivé n’envoie pas de \_ Code de notification sur lequel un clic a été effectué dans sa fenêtre parente.
 
@@ -65,8 +65,8 @@ Un bouton désactivé n’envoie pas de \_ Code de notification sur lequel un cl
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

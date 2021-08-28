@@ -4,12 +4,12 @@ ms.assetid: 419e3f05-35ec-4e48-b24d-ab98df687b20
 title: Message WM_TIMER (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c99db67c9c9b3419e477ccd0a78133df453a7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d770d640b801849eeebe1c4ec86df8c41642c6149b89e00d82261f4e090f56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710029"
 ---
 # <a name="wm_timer-message"></a>\_Message du minuteur WM
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez traiter le message en fournissant un cas de **\_ minuterie WM** dans la procédure de fenêtre. Sinon, [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) appellera la fonction de rappel [*TimerProc*](/windows/win32/api/winuser/nc-winuser-timerproc) spécifiée dans l’appel à la fonction [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) utilisée pour installer la minuterie.
 

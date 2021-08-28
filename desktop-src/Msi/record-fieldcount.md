@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 548c1da4c2a0106cbcd667b5ce3c915ec17bf1ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 603b19ec3470587bb27733b8f0cd92b7d430cd773ad3ddd8a3a49b03d51a9a01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828419"
 ---
 # <a name="recordfieldcount-property"></a>Record. FieldCount, propriété
 

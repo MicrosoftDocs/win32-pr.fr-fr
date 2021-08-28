@@ -4,12 +4,12 @@ ms.assetid: 6e9b3878-85f0-4572-9c00-a2e7647286ff
 title: Caractéristiques de TCP/IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 561ab497d6f37c1c84b0203088b29e216ff0a69f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f720dac1157149fe34da1b6bcbc08928654f268c7ac3e32b2e22599ae43cb701
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733419"
 ---
 # <a name="tcpip-characteristics"></a>Caractéristiques de TCP/IP
 
@@ -34,7 +34,7 @@ En plus d’être affectées par un accusé de réception retardé et d’autres
 [Comportement de l’application](application-behavior-2.md)
 </dt> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [L’algorithme Nagle](https://msdn.microsoft.com/library/ms817942.aspx)

@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9bc5ea804061d08da47b93a491d3ce4f97c1dfbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c67f528608edba7f9065132f38d3160a78be53273e56f10fe32a4e30b425befd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667389"
 ---
 # <a name="jetdefragment3-function"></a>JetDefragment3 fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdefragment3-function"></a>JetDefragment3 fonction)
 
 La fonction **JetDefragment3** est réservée. N’utilisez pas la fonction **JetDefragment3** .
 
-**Windows XP :**  **JetDefragment3** est introduit dans Windows XP.
+**Windows xp :****JetDefragment3** est introduit dans Windows xp.  
 

@@ -3,7 +3,7 @@ title: Message PSM_ENABLEWIZBUTTONS (Prsht. h)
 description: Active ou désactive tous les boutons standard dans un Assistant Aero. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro PropSheet EnableWizButtons.
 ms.assetid: 9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4
 keywords:
-- PSM_ENABLEWIZBUTTONS les contrôles de message Windows
+- PSM_ENABLEWIZBUTTONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fb30fa3337aed369c2cd24a1296785bd6b3a79
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a677b596e57a55271224f5b22baac5d979e2806c20676065457aa47b8a66e527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825870"
 ---
 # <a name="psm_enablewizbuttons-message"></a>\_Message PSM ENABLEWIZBUTTONS
 
@@ -67,8 +67,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

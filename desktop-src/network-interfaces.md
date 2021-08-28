@@ -1,32 +1,32 @@
 ---
-description: Cette rubrique décrit les concepts de l’interface réseau de haut niveau sur Windows, y compris les manières dont elles peuvent être identifiées dans le code et leurs propriétés.
+description: cette rubrique décrit les concepts de l’interface réseau de haut niveau sur Windows, notamment leur identification dans le code et leurs propriétés.
 ms.assetid: CB01B5ED-C9DB-410B-8C98-E30D9A680847
 title: Interfaces réseau
 ms.topic: article
 ms.date: 06/29/2018
-ms.openlocfilehash: cc31be6062469750049a676807c2f8da24f473f1
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: d74c875b579a34464190ca039e0176b8c01bef671b0ea6c24581023a49988645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106543987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825454"
 ---
 # <a name="network-interfaces"></a>Interfaces réseau
 
-Cette rubrique décrit les concepts de l’interface réseau de haut niveau sur Windows, y compris les manières dont elles peuvent être identifiées dans le code et leurs propriétés. 
+cette rubrique décrit les concepts de l’interface réseau de haut niveau sur Windows, notamment leur identification dans le code et leurs propriétés. 
 
 > [!IMPORTANT]
-> Cette rubrique est destinée aux développeurs pour les applications réseau de bureau Windows et les pilotes réseau en mode noyau. Toutefois, certaines informations présentées ici peuvent également être utiles pour les administrateurs système qui gèrent des interfaces réseau via des applets de commande PowerShell.
+> cette rubrique est destinée à un public de développement, à la fois pour les applications de réseau de bureau Windows et les pilotes réseau en mode noyau. Toutefois, certaines informations présentées ici peuvent également être utiles pour les administrateurs système qui gèrent des interfaces réseau via des applets de commande PowerShell.
 
 ## <a name="overview"></a>Vue d’ensemble
 
 Une *interface réseau* est le point où deux éléments de l’équipement réseau ou les couches de protocole se connectent. En règle générale, il est représenté par une carte d’interface réseau (NIC) physique pour la connexion entre un ordinateur et un réseau privé ou public. Toutefois, il peut également prendre la forme d’un composant logiciel uniquement, tel que l’interface de bouclage ( `127.0.0.1` pour IPv4 ou `::1` pour IPv6).
 
-Les interfaces réseau sont définies par l’IETF (Internet Engineering Task Force) dans la [norme RFC 2863](https://tools.ietf.org/html/rfc2863) et ne sont pas censées être définies par Windows. Pour obtenir des questions détaillées sur la signification des identificateurs d’interface réseau, tels que **ifIndex**, consultez les définitions de l’IETF. Le reste de cette rubrique traite des détails d’implémentation propres à Windows.
+Les interfaces réseau sont définies par l’IETF (Internet Engineering Task Force) dans la [norme RFC 2863](https://tools.ietf.org/html/rfc2863) et ne sont pas censées être définies par Windows. Pour obtenir des questions détaillées sur la signification des identificateurs d’interface réseau, tels que **ifIndex**, consultez les définitions de l’IETF. le reste de cette rubrique traite des détails d’implémentation spécifiques à Windows.
 
 ## <a name="network-interface-identifiers-and-properties"></a>Identificateurs et propriétés de l’interface réseau
 
-Sur Windows, une interface réseau peut être identifiée de différentes façons. Certains de ces identificateurs sont utilisés pour distinguer les interfaces réseau les unes des autres, mais tous les identificateurs ne sont pas adaptés à cette tâche en raison de leurs propriétés différentes. En règle générale, les interfaces réseau sont identifiées par une adresse réseau à des composants externes. Par exemple, il peut s’agir d’un ID de nœud et d’un numéro de port, ou simplement d’un ID de nœud unique. 
+sur Windows, une interface réseau peut être identifiée de différentes façons. Certains de ces identificateurs sont utilisés pour distinguer les interfaces réseau les unes des autres, mais tous les identificateurs ne sont pas adaptés à cette tâche en raison de leurs propriétés différentes. En règle générale, les interfaces réseau sont identifiées par une adresse réseau à des composants externes. Par exemple, il peut s’agir d’un ID de nœud et d’un numéro de port, ou simplement d’un ID de nœud unique. 
 
 Dans le code, une interface réseau peut être identifiée de plusieurs façons. Le tableau suivant détaille les façons dont une interface réseau peut être identifiée ainsi que les propriétés associées. Nous vous recommandons d’utiliser le GUID d’interface (**ifGuid**) pour la programmation, sauf si une API spécifique requiert un identificateur d’interface réseau différent.
 

@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS.currentSpeakerName
 description: L’attribut currentSpeakerName récupère le nom du paramètre d’orateur actuel.
 ms.assetid: 22a7fb76-1345-42b1-9b6b-ef36dfb027bd
 keywords:
-- Lecteur Windows Media EQUALIZERSETTINGS. currentSpeakerName
+- EQUALIZERSETTINGS. currentSpeakerName Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e89441aa101fbb39a45b0e7f1ab7cf59c7350354
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc8f7a8a6af018c7b450baf0d1b58f678079008b6f06cbeaeb23173f2fa2742c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736379"
 ---
 # <a name="equalizersettingscurrentspeakername"></a>EQUALIZERSETTINGS.currentSpeakerName
 

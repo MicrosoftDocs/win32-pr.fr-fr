@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dce0942ef0268f50b25987a6be0fd4fffeebd614
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c44a2c2fa38957f302dfe3861a89f57dbe51d44ca737268a8988f8c138be8b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767299"
 ---
 # <a name="opcodelisttype-complex-type"></a>Type complexe OpcodeListType
 
@@ -42,7 +42,7 @@ Définit une liste d’OpCodes utilisés pour identifier les opérations d’un 
 
 | Élément                                                             | Type                                                             | Description                                                            |
 |---------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**OpCode**](eventmanifestschema-opcode-opcodelisttype-element.md) | [**OpcodeType**](eventmanifestschema-opcodetype-complextype.md) | Définit une opération dans un composant de l’application.<br/> |
+| [**opcode**](eventmanifestschema-opcode-opcodelisttype-element.md) | [**OpcodeType**](eventmanifestschema-opcodetype-complextype.md) | Définit une opération dans un composant de l’application.<br/> |
 
 
 
@@ -52,8 +52,8 @@ Définit une liste d’OpCodes utilisés pour identifier les opérations d’un 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

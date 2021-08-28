@@ -4,12 +4,12 @@ ms.assetid: e3a55275-e8f0-4ab7-98db-a2f2c54d5a51
 title: 'Didacticiel : lecture d’un fichier ASF à l’aide d’objets WMContainer'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0225f434f650f0423771122e6fc345022e69ec1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e456f9e0061be97198623c2422801b5fd9fc196874cd8aa1a467692277319c9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713289"
 ---
 # <a name="tutorial-reading-an-asf-file-by-using-wmcontainer-objects"></a>Didacticiel : lecture d’un fichier ASF à l’aide d’objets WMContainer
 
@@ -17,8 +17,8 @@ Ce didacticiel montre comment récupérer des paquets de données à partir d’
 
 Ce didacticiel comprend les étapes suivantes :
 
--   [Conditions préalables](#prerequisites)
--   [1. configurer le projet](#1-set-up-the-project)
+-   [Composants requis](#prerequisites)
+-   [1. Configurez le Project](#1-set-up-the-project)
 -   [2. ouvrir un fichier ASF](#2-open-an-asf-file)
 -   [3. lire l’objet d’en-tête ASF](#3-read-the-asf-header-object)
 -   [4. créer le séparateur ASF](#4-create-the-asf-splitter)
@@ -37,7 +37,7 @@ Ce didacticiel part des principes suivants :
 -   Vous êtes familiarisé avec la structure d’un fichier ASF et les composants fournis par Media Foundation pour travailler avec des objets ASF. Ces composants incluent l’objet ContentInfo, le séparateur, le multiplexeur et le profil. Pour plus d’informations, consultez [WMCONTAINER ASF Components](wmcontainer-asf-components.md).
 -   Vous êtes familiarisé avec les [mémoires tampons de média](media-buffers.md) et les flux d’octets : en particulier, les opérations de fichier utilisant un flux d’octets, la lecture d’un flux d’octets dans une mémoire tampon de média et l’écriture du contenu d’une mémoire tampon de média dans un flux d’octets.
 
-## <a name="1-set-up-the-project"></a>1. configurer le projet
+## <a name="1-set-up-the-project"></a>1. Configurez le Project
 
 Incluez les en-têtes suivants dans votre fichier source :
 

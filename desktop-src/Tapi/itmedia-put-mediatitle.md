@@ -4,16 +4,16 @@ ms.assetid: bbab033b-bd37-4ef6-9e84-1d0b17ecbd4e
 title: ITMedia ::p ut_MediaTitle, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d1abee91b08555f79437e5e26710761429e4f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8bd07111cfa737be7ec5750a147ffd8d598e68b819f27f03a901a01fd66fbfdb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682749"
 ---
 # <a name="itmediaput_mediatitle-method"></a>ITMedia ::p ut \_ MediaTitle, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **put \_ MediaTitle** définit un titre textuel pour le média que l’application peut utiliser à des fins d’information ou d’affichage. Il doit s’agir d’une chaîne convertible ASCII si le jeu de caractères est ASCII. Dans le cas contraire, il peut s’agir de n’importe quelle chaîne **BSTR** .
 
@@ -58,7 +58,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) pour allouer de la mémoire pour le paramètre *PMediaTitle* et utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire lorsque la variable n’est plus nécessaire.
 

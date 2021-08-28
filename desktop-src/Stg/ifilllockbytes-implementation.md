@@ -6,12 +6,12 @@ keywords:
 - IFillLockBytes Strctd STG, implémentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58737d02e3e6bc2511670178825aef8cbe2dcc0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 313c095d32bf9a932062b527cd486ee518e099d8de0f0d859caf2f1143e68237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663019"
 ---
 # <a name="ifilllockbytes---implementation"></a>IFillLockBytes-implémentation
 
@@ -23,7 +23,7 @@ Le téléchargement de code peut créer une instance d’un objet de fichier com
 
 Actuellement, les monikers d’URL sont les seuls utilisateurs de l’implémentation de stockage asynchrone COM.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les quatre méthodes de l’implémentation de [**IFillLockBytes**](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes) .
 
@@ -57,9 +57,9 @@ Informe le tableau d’octets qu’un téléchargement a été terminé, avec su
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

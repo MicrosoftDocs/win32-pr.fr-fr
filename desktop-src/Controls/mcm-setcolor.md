@@ -3,7 +3,7 @@ title: Message MCM_SETCOLOR (commctrl. h)
 description: Définit la couleur d’une partie donnée d’un contrôle calendrier du mois. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal setColor.
 ms.assetid: 4ceb7b0e-82be-474a-a163-7e71356818c0
 keywords:
-- MCM_SETCOLOR les contrôles de message Windows
+- MCM_SETCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 476aafd8356359cf6b4313f4b945253af6b493c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0915f78ad2dc666d6476cebb51be4f8b8c6102cb1433da59af7b9a1342deedc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697149"
 ---
 # <a name="mcm_setcolor-message"></a>Message de la \_ SETCOLOR MCM
 
@@ -62,7 +62,7 @@ Valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui représente la couleur 
 
 Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui représente le paramètre de couleur précédent pour la partie spécifiée du contrôle Month Calendar en cas de réussite. Sinon, le retour est-1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les styles visuels sont actifs, ce message n’a aucun effet, sauf lorsque *wParam* est l' \_ arrière-plan MCSC.
 
@@ -72,8 +72,8 @@ Si les styles visuels sont actifs, ce message n’a aucun effet, sauf lorsque *w
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

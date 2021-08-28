@@ -3,7 +3,7 @@ title: STN_DBLCLK le code de notification (winuser. h)
 description: Le \_ Code de notification STN DBLCLK est envoyé lorsque l’utilisateur double-clique sur un contrôle statique avec le \_ style de notification SS. La fenêtre parente du contrôle reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: e3203309-87ea-46f4-9269-7e68c6fa0e4a
 keywords:
-- Contrôles Windows de code de notification STN_DBLCLK
+- STN_DBLCLK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 853ed5142de99dc85b729b4c4ea208273d4ace1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a353d6ec47179cef43293e5babd2153ae5df27c9c844f7d5c91d78890e47713b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642569"
 ---
 # <a name="stn_dblclk-notification-code"></a>\_Code de notification STN DBLCLK
 
@@ -59,8 +59,8 @@ Handle vers le contrôle statique.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

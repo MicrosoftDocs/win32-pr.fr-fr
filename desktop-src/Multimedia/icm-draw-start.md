@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_START (VFW. h)
-description: Le \_ message de début de dessin ICM \_ indique à un pilote de rendu de démarrer son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStart.
+description: le \_ message ICM DRAW \_ START indique à un pilote de rendu de démarrer son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStart.
 ms.assetid: d49e0d97-5a29-46f7-82d7-e3d4b4f7666f
 keywords:
-- Message ICM_DRAW_START Windows Multimedia
+- message ICM_DRAW_START Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 538659eb9878be819ee6ec1506403fcce314eb0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 720d8c2f919d2b00955892a42ba8fca95b2b426c3cbb396aa4ac71a5cf912307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690949"
 ---
-# <a name="icm_draw_start-message"></a>Message de début de \_ dessin ICM \_
+# <a name="icm_draw_start-message"></a>ICM \_ DESSINER le \_ message de début
 
-Le message de **\_ \_ début de dessin ICM** indique à un pilote de rendu de démarrer son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStart**](/windows/desktop/api/Vfw/nf-vfw-icdrawstart) .
+le message **ICM \_ DRAW \_ START** indique à un pilote de rendu de démarrer son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStart**](/windows/desktop/api/Vfw/nf-vfw-icdrawstart) .
 
 
 ```C++
@@ -38,13 +38,13 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utilisé par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones.
 
-Lorsque le pilote reçoit ce message, il doit commencer à afficher les données à la fréquence spécifiée avec le message de [**\_ \_ début**](icm-draw-begin.md) de l’ICM.
+lorsque le pilote reçoit ce message, il doit commencer à afficher les données à la fréquence spécifiée avec le message [**ICM \_ DRAW \_ BEGIN**](icm-draw-begin.md) .
 
-Les messages d' [**\_ \_ arrêt**](icm-draw-stop.md) de dessin **ICM \_ \_** et ICM ne sont pas imbriqués. Si votre pilote reçoit **le \_ dessin \_ ICM, démarrer** avant l’arrêt du rendu avec **ICM \_ Draw \_ Stop**, il doit redémarrer le rendu avec de nouveaux paramètres.
+le **ICM \_ dessiner \_ démarrer** et [**ICM \_ dessiner \_**](icm-draw-stop.md) les messages d’arrêt ne sont pas imbriques. si votre pilote reçoit **ICM \_ dessin \_ démarrer** avant l’arrêt du rendu avec **ICM \_ trace \_ STOP**, il doit redémarrer le rendu avec de nouveaux paramètres.
 
 ## <a name="requirements"></a>Configuration requise
 

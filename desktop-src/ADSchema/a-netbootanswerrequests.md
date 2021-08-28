@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e3552517189635da9c2ed464e286c06bb3c8d19
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d8580c3ff7cacda36fc63430f615ad9615c7ff8aa3b0354d725b97a5e9896c61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648699"
 ---
 # <a name="netboot-answer-requests-attribute"></a>attribut netboot-réponse-demandes
 
@@ -45,7 +45,7 @@ Permet au serveur RIS d’accepter toutes les demandes RIS.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

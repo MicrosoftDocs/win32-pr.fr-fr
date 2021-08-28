@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c30ef0b27185b5300ac5cec877ed4e4b38685c12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21549ec6427b82c6d229d2e3962689bc8879815429f3a68fd32d54283c30d6a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639769"
 ---
 # <a name="ec_dvd_subpicture_stream_change"></a>modification du flux de sous- \_ image de DVD EC \_ \_ \_
 
@@ -42,7 +42,7 @@ Valeur booléenne qui indique l’état activé/désactivé de la sous-image.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La sous-image peut changer automatiquement à l’aide d’une commande de navigation créée sur le disque, ainsi que via le contrôle d’application à l’aide de [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2).
 
@@ -68,7 +68,7 @@ Cet événement est déclenché dans tous les domaines.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

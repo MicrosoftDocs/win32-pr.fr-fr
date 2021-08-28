@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb7ab9df07cbe9748fb082239bac20f511010ab3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f457058b6de38e8add9ccc091fce45ddf59c6b343bdf57cceda8b980722544c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689289"
 ---
 # <a name="recording-with-a-waveform-audio-device"></a>Enregistrement avec un appareil Waveform-Audio
 
@@ -89,6 +89,6 @@ DWORD recordWAVEFile(DWORD dwMilliSeconds)
 
 
 
- 
+ 
 
- 
+ 

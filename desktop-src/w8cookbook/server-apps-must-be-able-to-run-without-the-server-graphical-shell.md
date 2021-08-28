@@ -4,22 +4,22 @@ description: Les applications serveur doivent pouvoir s’exécuter sans l’int
 ms.assetid: 8F531497-B64D-4E79-AD7A-790EFDC6ADFE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae2a3002fc2395faba3e07d90a2322c770fe3ee9
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 1742b87d0cb4ece4ac05b38b0ac2644967eee256931df5dfc8ec838574db33ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773183"
 ---
 # <a name="server-apps-must-be-able-to-run-without-the-server-graphical-shell"></a>Les applications serveur doivent pouvoir s’exécuter sans l’interpréteur de commandes graphique de serveur
 
 ## <a name="platform"></a>Plateforme
 
-**Serveurs** – Windows Server 2012 
+**serveurs** – Windows Server 2012 
 
 ## <a name="description"></a>Description
 
-L’interpréteur de commandes graphique de serveur, la fonctionnalité qui comprend l’Explorateur Windows et Internet Explorer, est installé par défaut sur les installations « serveur avec une interface graphique utilisateur » de Windows Server 2012. La fonctionnalité d’interpréteur de commandes graphique de serveur peut être désinstallée pour réduire le risque de maintenance et d’encombrement des performances, limitant ainsi le nombre de redémarrages que le serveur peut entraîner, tout en autorisant l’exécution locale des outils de gestion sur le serveur.
+l’interpréteur de commandes graphique de serveur, la fonctionnalité qui comprend Windows explorer et Internet explorer, est installé par défaut sur les installations « serveur avec une interface graphique utilisateur » de Windows Server 2012. La fonctionnalité d’interpréteur de commandes graphique de serveur peut être désinstallée pour réduire le risque de maintenance et d’encombrement des performances, limitant ainsi le nombre de redémarrages que le serveur peut entraîner, tout en autorisant l’exécution locale des outils de gestion sur le serveur.
 
 Une fois qu’un administrateur a désinstallé l’interpréteur de commandes graphique de serveur, le serveur se trouve dans la configuration d’interface serveur minimale :
 
@@ -31,7 +31,7 @@ Les administrateurs peuvent réinstaller l’interpréteur de commandes graphiqu
 
 Les applications serveur doivent pouvoir s’exécuter dans la configuration de l’interface serveur minimale pour tirer parti de l’encombrement réduit de l’utilisation des ressources et de la maintenance. Cette fonctionnalité peut être obtenue en permettant à l’administrateur de choisir de ne pas installer les parties de l’application qui a besoin de l’interpréteur de commandes graphique de serveur, ou en détectant la présence de l’interpréteur de commandes graphique de serveur et en désactivant certains aspects de l’application.
 
-L’interface serveur minimale offre une réduction des ressources et de la maintenance, car de nombreuses API et binaires incluses dans l’interpréteur de commandes graphique de serveur ne sont pas disponibles dans cette configuration. Le cas échéant, les applications serveur doivent également autoriser l’administration à distance (de préférence via la communication à distance Windows PowerShell) à partir d’une autre installation de Windows Server ou d’un client Windows. Cela permet une meilleure administration centralisée d’un ou plusieurs ordinateurs dans la configuration de l’interface serveur minimale, ou des machines dans une configuration à faible encombrement, telle que Server Core.
+L’interface serveur minimale offre une réduction des ressources et de la maintenance, car de nombreuses API et binaires incluses dans l’interpréteur de commandes graphique de serveur ne sont pas disponibles dans cette configuration. le cas échéant, les applications serveur doivent également autoriser l’administration à distance (de préférence via Windows PowerShell remoting) à partir d’un autre serveur Windows ou d’une installation Windows Client. Cela permet une meilleure administration centralisée d’un ou plusieurs ordinateurs dans la configuration de l’interface serveur minimale, ou des machines dans une configuration à faible encombrement, telle que Server Core.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -56,9 +56,9 @@ Les développeurs d’applications doivent également s’assurer que les applic
 
 ## <a name="detecting-minimal-server-interface-and-server-core"></a>Détection de l’interface serveur minimale et de Server Core
 
-Windows Server installe une valeur de Registre correspondante pour chaque niveau de serveur installé. Vous pouvez interroger l’existence de ces clés pour déterminer si l’interpréteur de commandes graphique de serveur ou les fonctionnalités minimales de l’interface serveur sont installés et activés.
+Windows Le serveur installera une valeur de Registre correspondante pour chaque niveau de serveur installé. Vous pouvez interroger l’existence de ces clés pour déterminer si l’interpréteur de commandes graphique de serveur ou les fonctionnalités minimales de l’interface serveur sont installés et activés.
 
-HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Server \\ ServerLevels :
+HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Server \\ ServerLevels :
 
 
 

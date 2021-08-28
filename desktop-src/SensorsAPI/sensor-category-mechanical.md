@@ -4,12 +4,12 @@ ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: SENSOR_CATEGORY_MECHANICAL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2446559820141b65a70bc75d25680da79563388c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbac9a00895b08bd99106af7f0b6986118b4645dac690fd190f734e1499940dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666709"
 ---
 # <a name="sensor_category_mechanical"></a>catégorie de capteur \_ \_ mécanique
 
@@ -62,7 +62,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

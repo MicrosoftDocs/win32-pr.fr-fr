@@ -1,9 +1,9 @@
 ---
 title: Message ICM_GETINFO (VFW. h)
-description: Le \_ message ICM GETINFO interroge un pilote de compression vidéo pour retourner une description de lui-même dans une structure ICINFO.
+description: le ICM \_ message GETINFO interroge un pilote de compression vidéo pour retourner une description de lui-même dans une structure ICINFO.
 ms.assetid: 8029f247-9777-4a34-9e84-908482094493
 keywords:
-- Message ICM_GETINFO Windows Multimedia
+- message ICM_GETINFO Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 634803b7dd9a3b8900c35fabedcadb99908c2b31
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 173f510642b807a0e4c4a8c5c84d6d4de2aa7ce55cc0707eccabf5421cf98a44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690809"
 ---
-# <a name="icm_getinfo-message"></a>\_Message ICM GETINFO
+# <a name="icm_getinfo-message"></a>ICM \_ Message GETINFO
 
-Le message **ICM \_ GETINFO** interroge un pilote de compression vidéo pour retourner une description de lui-même dans une structure [**ICINFO**](/windows/desktop/api/Vfw/ns-vfw-icinfo) .
+le **ICM message \_ GETINFO** interroge un pilote de compression vidéo pour retourner une description de lui-même dans une structure [**ICINFO**](/windows/desktop/api/Vfw/ns-vfw-icinfo) .
 
 
 ```C++
@@ -56,7 +56,7 @@ Taille, en octets, de **ICINFO**.
 
 Retourne la taille, en octets, de [**ICINFO**](/windows/desktop/api/Vfw/ns-vfw-icinfo) ou zéro si une erreur se produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les applications envoient ce message pour afficher la liste des compresseurs installés.
 

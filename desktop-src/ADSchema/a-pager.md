@@ -1,10 +1,10 @@
 ---
-title: Téléphone-téléavertisseur-attribut principal
+title: Téléphone-page-attribut principal
 description: Numéro du récepteur de radiomessagerie principal.
 ms.assetid: e5230e09-f76b-4d2a-b56b-d989d315f9bb
 ms.tgt_platform: multiple
 keywords:
-- Téléphone-récepteur-schéma AD de l’attribut principal
+- schéma active directory Téléphone-téléavertisseur-Primary attribute
 - Schéma Active Directory des attributs du pagineur
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 883e0d519b0fabc14afbdd78fd8eb93bd29a9824
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b1ebfa52809d53ebf42679b303ebd03fb1f4056f725f08624269c3bdcca8683a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647869"
 ---
-# <a name="phone-pager-primary-attribute"></a>Téléphone-téléavertisseur-attribut principal
+# <a name="phone-pager-primary-attribute"></a>Téléphone-page-attribut principal
 
 Numéro du récepteur de radiomessagerie principal.
 
@@ -29,7 +29,7 @@ Numéro du récepteur de radiomessagerie principal.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-récepteur de radiomessagerie principal                                                              |
+| CN                | Téléphone-page de récepteur-principal                                                              |
 | LDAP-Display-Name | pager                                                                            |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Numéro du récepteur de radiomessagerie principal.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

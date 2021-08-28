@@ -1,21 +1,21 @@
 ---
-description: Dans Windows 7, les API de plateforme de haut niveau qui utilisent des API audio de base, telles que Media Foundation, DirectSound et les API Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison audio par défaut.
+description: dans Windows 7, les api de plateforme de haut niveau qui utilisent des api Audio de base, telles que les api Media Foundation, DirectSound et Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison Audio par défaut.
 ms.assetid: 4f36710c-c5a8-4f31-9b77-5253475c0715
 title: Obtention du point de terminaison de l’appareil pour le routage du flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed8c7546c2bd7437ed9705dc93c2a736bbb64e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccb45560bc8a27e4641e5d52c8fed0bee51c877dbec4d098bb5232830359f0b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695389"
 ---
 # <a name="getting-the-device-endpoint-for-stream-routing"></a>Obtention du point de terminaison de l’appareil pour le routage du flux
 
-Dans Windows 7, les API de plateforme de haut niveau qui utilisent des API audio de base, telles que Media Foundation, DirectSound et les API Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison audio par défaut. Les applications multimédias qui utilisent ces API (par exemple, une application activant un objet **IDirectSound** ou **IBaseFilter** sur un objet [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) ) utilisent le comportement de routage de flux sans aucune modification de la source.
+dans Windows 7, les api de plateforme de haut niveau qui utilisent des api Audio de base, telles que les api Media Foundation, DirectSound et Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison Audio par défaut. Les applications multimédias qui utilisent ces API (par exemple, une application activant un objet **IDirectSound** ou **IBaseFilter** sur un objet [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) ) utilisent le comportement de routage de flux sans aucune modification de la source.
 
-Les API de haut niveau implémentent le routage de flux pour le point de terminaison d’appareil obtenu par le biais de [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint). Si une application est diffusée sur l’appareil par défaut, la fonctionnalité de routage de flux fonctionne comme défini. Les flux ne sont pas basculés vers le nouvel appareil s’ils sont récupérés par un autre mécanisme, même s’ils sont identiques à ceux du périphérique par défaut.
+Les API de haut niveau implémentent le routage de flux pour le point de terminaison d’appareil obtenu par le biais de [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint). Si une application est diffusée sur l’appareil par défaut, la fonctionnalité de routage de flux fonctionne comme défini. les Flux ne sont pas basculés vers le nouvel appareil s’ils sont récupérés par un autre mécanisme, même s’ils sont identiques à ceux du périphérique par défaut.
 
 Une application multimédia qui utilise des API audio de base directement (client WASAPI) peut fournir une implémentation de routage de flux personnalisée pour tout périphérique de rendu ou de capture. Un client WASAPI peut répliquer le implémentation fourni par les API de haut niveau en le limitant aux flux ouverts sur les appareils qui sont définis en tant qu’appareil par défaut. Pour obtenir une référence au point de terminaison de l’appareil par défaut, le client doit appeler [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint). Dans cet appel, le client doit indiquer s’il requiert un pointeur vers le périphérique de rendu par défaut ou l’appareil de capture par défaut en spécifiant le paramètre de *flux* de données. Le client doit également spécifier le rôle approprié pour le point de terminaison dans l’attribut **ERole** (**eConsole** ou **eCommunications**). N’utilisez pas **eMultimedia**.
 

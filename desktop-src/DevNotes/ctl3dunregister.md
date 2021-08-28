@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 85cd45062da9c01ef8af5a312a855bfaab6a6bf7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32a954efceba7400692ad92c91bedb47283587827739c19f23e7802e1481fbe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691499"
 ---
 # <a name="ctl3dunregister-function"></a>Ctl3dUnregister fonction)
 
@@ -50,7 +50,7 @@ Handle vers l’application dont l’inscription doit être annulée en tant que
 
 Retourne la **valeur true** si l’inscription de l’application en tant que client de CTL3D est annulée. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application qui utilise CTL3D doit appeler cette fonction dans WinMain.
 

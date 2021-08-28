@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe70899ba2bda8fe98b38228cb661e7a773ec1d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7d49d19d51e20795f761331f548af72810a32561591c4b7dbdd3d2871f438915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645349"
 ---
 # <a name="system-auxiliary-class-attribute"></a>Attribut de classe système-auxiliaire
 
@@ -46,7 +46,7 @@ Liste des classes auxiliaires qui ne peuvent pas être modifiées par l’utilis
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

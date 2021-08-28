@@ -4,12 +4,12 @@ ms.assetid: 14ddffe7-bdfe-4a35-82c7-b3401b5b720c
 title: Événement InkEdit. SelChange (. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b51ef4edbf7d7fb02be17dc416c0a777a9519a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9677aafa254de3d834e9b947ad1b858b893d6a42e53336dd11ad5c54157c13dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712649"
 ---
 # <a name="inkeditselchange-event"></a>Événement InkEdit. SelChange
 
@@ -32,7 +32,7 @@ Cet événement n’a pas de paramètres.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser l’événement **SelChange** pour vérifier les différentes propriétés qui fournissent des informations sur la sélection actuelle (par exemple, [**SelBold**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selbold)) afin de pouvoir mettre à jour les boutons dans une barre d’outils, par exemple.
 
@@ -42,7 +42,7 @@ Vous pouvez utiliser l’événement **SelChange** pour vérifier les différent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>« Y2. h » (nécessite également l' \_ entrée i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

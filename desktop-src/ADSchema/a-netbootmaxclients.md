@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d82591fbf68ec3388cddaa8cc6dc88e41839c251
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ee5974f4ccd56b3625d5a87e2f418b36dc0a47e4d1e50fc7a184ac10094e4886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648540"
 ---
 # <a name="netboot-max-clients-attribute"></a>netboot-attribut Max-clients
 
@@ -36,7 +36,7 @@ L’attribut **netboot-Max-clients** est réservé à un usage interne.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.851               |
 | System-ID-GUID    | 07383078-91df-11d1-aebc-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **netboot-Max-clients** est réservé à un usage interne.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

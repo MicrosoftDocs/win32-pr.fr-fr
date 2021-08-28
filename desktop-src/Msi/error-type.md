@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: b0fa0a2b65ba4465458b05d2978bc5c7a1fd0250
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5beb6d50c54555f765756c00eaff453303060b82abd7ab24d842b19a2f8cd06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692449"
 ---
 # <a name="errortype-property"></a>Error. type, propriété
 

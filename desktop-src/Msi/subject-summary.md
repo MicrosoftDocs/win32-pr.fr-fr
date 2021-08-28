@@ -4,12 +4,12 @@ ms.assetid: fb08a240-db30-477f-8dc0-701156d73cfc
 title: Propriété de résumé de l’objet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d21139f686bc8a6cfc5ba2edecdfc57c349d84ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad9d92328f142e4fd47567e92d4fe3bb7f016b0bf058b2932f7e1136687507e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627229"
 ---
 # <a name="subject-summary-property"></a>Propriété de résumé de l’objet
 

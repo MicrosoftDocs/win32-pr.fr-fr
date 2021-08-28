@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a37f15e80d470c0662036745f285aea87e79391
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7e8080ffa24c9b2a147e6e3ec76f586a92fba3456aa1f80d2875c1292940232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705769"
 ---
 # <a name="location-attribute-ad-schema"></a>Emplacement, attribut (schéma Active Directory)
 
@@ -46,7 +46,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                                                                                                             |
 | Search-Flags           | 0x00000001                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                       |
-| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                    |
 | Search-Flags           | 0x00000001                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Emplacement de l’utilisateur, tel qu’un numéro de bureau.
 | Range-Upper            | 1 024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Computer**](c-computer.md)<br/> [**File d’attente d’impression**](c-printqueue.md)<br/> [**divertissement**](c-room.md)<br/> [**Site**](c-site.md)<br/> [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
