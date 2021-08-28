@@ -13,12 +13,12 @@ keywords:
 - Direct3D, interopérabilité de Direct2D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 951bebc9ea7ca63496a9cdc93fa33ddb74817661e7f5bc072b55d207bfcbdeb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6a1f3be132aba742eb1df4b8a893dad245f851a0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918237"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631561"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Vue d’ensemble de l’interopérabilité de Direct2D et GDI
 
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 -   [Dessiner du contenu GDI sur une cible de rendu Direct2D GDI-Compatible](#draw-gdi-content-to-a-direct2d-gdi-compatible-render-target)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="prerequisites"></a>Prérequis
+## <a name="prerequisites"></a>Configuration requise
 
 Cette vue d’ensemble suppose que vous êtes familiarisé avec les opérations de dessin Direct2D de base. Pour obtenir un didacticiel, consultez le Guide de [démarrage rapide de Direct2D](direct2d-quickstart.md). Elle suppose également que vous êtes familiarisé avec les opérations de dessin GDI.
 
@@ -89,7 +89,7 @@ GetClientRect(m_hwnd, &rc);
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

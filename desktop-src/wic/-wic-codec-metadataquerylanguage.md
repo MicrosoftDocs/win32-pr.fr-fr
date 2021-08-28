@@ -4,12 +4,12 @@ ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Vue d’ensemble du langage de requête de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c69effefd288f13c72239a41c5ace1a518775337cc496a2defa864d179cd6cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41e141c543cae90ff99d8c0509a0f5802dba1139
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117668230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885216"
 ---
 # <a name="metadata-query-language-overview"></a>Vue d’ensemble du langage de requête de métadonnées
 
@@ -210,12 +210,12 @@ Le tableau suivant est une définition formelle du langage de requête de métad
 | \<property path>    | \<metadata item> \| \<property path> '/' \<property path>                                                                                                    |
 | \<metadata item>    | \<index name> \| \<item name> \| \<schema name> ':' \<item name>                                                                                        |
 | \<schema name>      | \<item name>                                                                                                                                                           |
-| \<item name>        | \<metadata item> \| <indexed item><index>                                                                                                                  |
+| \<item name>        | \<metadata item>\| <indexed item>&lt; évaluer&gt;                                                                                                                  |
 | \<indexed item>     | \<item> \| \<implied metadata>\<item>                                                                                                                        |
 | \<implied metadata> | ' < ' \<name> ' > '                                                                                                                                                    |
-| \<item>             | \<name> \| \<index> \<data> \| \<data>                                                                                                                  |
+| \<item>             | \<name>\| \& lt ; &gt; \<data> index \|\<data>                                                                                                                  |
 | \<data>             | '{' \<data type> '=' \<value> '}'                                                                                                                                 |
-| \<index>            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
+| \&lt ; index&gt;            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
 | \<data type>        | 'Char' \| 'UCHAR' \| 'short' ' \| UShort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'LongLong' \| 'ULONGLONG' \| 'float' ' \| double' \| 'str' ' \| WSTR' \| 'GUID' \| 'bool' |
 | \<data value>       | \<number> \| \<name> \| \<guid>                                                                                                                              |
 | \<star>             | '\*'                                                                                                                                                                        |

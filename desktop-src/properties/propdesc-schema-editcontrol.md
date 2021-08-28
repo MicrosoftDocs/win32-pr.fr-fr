@@ -4,12 +4,12 @@ ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bdb47a3866c156ff10dba8eed4584f814793b863e8f615ae5e1a10b8d687ed4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 213d6fba3f03f90e0d5a2702226dd8596462b289
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118055989"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626809"
 ---
 # <a name="editcontrol"></a>editControl
 
@@ -19,7 +19,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [ed
 
 Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété innée ne peut pas être modifiée.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -53,7 +53,7 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
 
 
 
@@ -65,8 +65,8 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -77,11 +77,11 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 <tbody>
 <tr class="odd">
 <td>contrôle</td>
-<td>Public. Facultatif. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
+<td>Public. Optionnel. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,13 +91,13 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 </thead>
 <tbody>
 <tr class="odd">
-<td>Par défaut</td>
+<td>Valeur par défaut</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Les types par défaut sont répertoriés ci-dessous. Tout autre type entraîne l’utilisation du &quot; contrôle de texte &quot; . 
 <table>
 <thead>
 <tr class="header">
 <th>Type</th>
-<th>Contrôler</th>
+<th>Control</th>
 </tr>
 </thead>
 <tbody>

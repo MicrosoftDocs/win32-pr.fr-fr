@@ -1,19 +1,19 @@
 ---
-description: L' <url> élément spécifie une URL qui représente la portée du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; &gt; élément URL spécifie une URL qui représente l’étendue du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: 5afd84aa-98e3-4118-845a-d4efad19a488
 title: Élément URL scopeItem (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c573308fe406fe4500f6bb8e88b3762fa0bbac05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63a1db669f7365f04bed49c769ab695ab674b20b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886710"
 ---
 # <a name="scopeitem-url-element-search-connector-schema"></a>Élément URL scopeItem (schéma du connecteur de recherche)
 
-L' <url> élément spécifie une URL qui représente la portée du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+L' &lt; &gt; élément URL spécifie une URL qui représente l’étendue du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ L' <url> élément spécifie une URL qui représente la portée du connecteur de
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur peut être un chemin d’accès au système de fichiers local ou une URL.
 

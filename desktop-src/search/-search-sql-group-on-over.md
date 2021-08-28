@@ -4,12 +4,12 @@ ms.assetid: 37f027c1-c2af-4d62-8b5f-918499fc2d7c
 title: REGROUPER... ... Gestion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d7087305f0a5a86f0288ed92ec4bda5b8c882c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df21bb53babd25ae3e407032c6cf9d3774323e85
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882020"
 ---
 # <a name="group-on--over--statement"></a>REGROUPER... ... Gestion
 
@@ -50,7 +50,7 @@ où les plages de regroupement sont définies comme suit :
 
 
 
-Le groupe sur <column> peut être un [identificateur](-search-sql-identifiers.md) standard ou délimité pour une propriété dans la Banque de propriétés.
+La colonne GROUP &lt; on &gt; peut être un [identificateur](-search-sql-identifiers.md) standard ou délimité pour une propriété dans la Banque de propriétés.
 
 Le facultatif <group ranges> est une liste d’une ou plusieurs valeurs (nombre, date ou chaîne) utilisées pour diviser les résultats en groupes. <range limit>Identifie un point de division dans le jeu de résultats retourné, et <label> identifie une étiquette conviviale pour un groupe. Vous pouvez diviser le jeu de résultats en autant de groupes que nécessaire.
 
@@ -66,7 +66,7 @@ Le tableau suivant montre comment les résultats sont divisés en groupes en fon
 
 
 
-| Exemple ( <column> \[ plages de groupes \] )        | Résultats                                                                                                                                                                                                                                                                         |
+| Exemple ( &lt; plages de groupes de colonnes &gt; \[ \] )        | Résultats                                                                                                                                                                                                                                                                         |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | System. size \[ 1000, 5000\]                       | Les résultats sont regroupés en quatre compartiments : **MinValue**: taille < 1000<br/> **1000 :** 1000 <= taille < 5000<br/> **5000 :** Taille >= 5000<br/> **Null :** Aucune valeur pour la taille<br/>                                                                      |
 | System. Author \[ Before ('m'), après ('r')\]         | Les résultats sont regroupés en quatre compartiments : **MinValue :** Author < caractère avant « m »<br/> **m :** caractère avant "m" <= auteur < caractère après "r"<br/> **r :** caractère après « r » <= auteur<br/> **Null :** Aucune valeur pour Author<br/>      |
@@ -112,9 +112,9 @@ GROUP ON System.Size [(MINVALUE/'Small','100')/'Medium','50000'/'Large']
 
 
 
-Dans Windows 7 ou version ultérieure, vous pouvez également utiliser une \[ autre \] étiquette générique pour combiner plusieurs plages de regroupement. Les résultats de tous les groupes identifiés avec cette étiquette sont combinés dans un groupe avec cette étiquette. Ce groupe de résultats est retourné après tous les autres groupes, à l’exception du groupe **null** . Le groupe **null** contient des résultats pour les éléments qui n’ont pas de valeur pour la propriété spécifiée. Avant Windows 7, l' \[ autre \] étiquette est traitée comme toute autre étiquette de groupe.
+dans Windows 7 ou version ultérieure, vous pouvez également utiliser une \[ autre \] étiquette générique pour combiner plusieurs plages de regroupement. Les résultats de tous les groupes identifiés avec cette étiquette sont combinés dans un groupe avec cette étiquette. Ce groupe de résultats est retourné après tous les autres groupes, à l’exception du groupe **null** . Le groupe **null** contient des résultats pour les éléments qui n’ont pas de valeur pour la propriété spécifiée. avant le Windows 7 \[ , l’autre \] étiquette est traitée comme toute autre étiquette de groupe.
 
-Le code suivant est un exemple d’utilisation de l' \[ autre \] étiquette pour les groupes qui seraient créés dans Windows 7 ou version ultérieure :
+le code suivant est un exemple d’utilisation de l' \[ autre \] étiquette pour les groupes qui seraient créés dans Windows 7 ou version ultérieure :
 
 
 ```
@@ -124,11 +124,11 @@ GROUP ON System.Author ['0', 'A'/'[OTHER]', 'I', 'Q', 'W'/'[OTHER]', 'Y']
 
 
 
-Le tableau suivant montre les groupes qui seraient créés par le code de regroupement précédent dans Windows 7 ou version ultérieure.
+le tableau suivant montre les groupes qui seraient créés par le code de regroupement précédent dans Windows 7 ou version ultérieure.
 
 
 
-| Group     | System.Author | System. FileName |
+| Groupe     | System.Author | System. FileName |
 |-----------|---------------|-----------------|
 | 0         | 1Bill         | Lorem.docx      |
 | Q         | Dame         | Ipsum.docx      |
@@ -149,7 +149,7 @@ Il existe trois façons de commander des éléments dans des groupes :
 
 -   Classement par défaut : Si vous ne spécifiez pas le cas contraire, les résultats sont classés en fonction des valeurs de la colonne regrouper sur, dans l’ordre croissant.
 -   Trier par : vous pouvez spécifier l’ordre décroissant dans une clause ORDER BY. Vous devez classer les résultats en fonction de la colonne regrouper sur.
--   ORDRE dans regrouper par : vous pouvez spécifier un ordre différent pour chaque groupe. Si vous regroupez sur [System. genre](../properties/props-system-kind.md), vous pouvez commander des documents par [System. Author](../properties/props-system-author.md) et Music par [System. Music. Artist](../properties/props-system-music-artist.md).
+-   ORDRE dans regrouper par : vous pouvez spécifier un ordre différent pour chaque groupe. si vous regroupez sur [system. genre](../properties/props-system-kind.md), vous pouvez commander des documents par system [. Author](../properties/props-system-author.md) et music par [system. Musique. Artiste](../properties/props-system-music-artist.md).
 
 Pour plus d’informations sur la façon de trier les résultats, consultez les pages de référence des clauses Order [by](-search-sql-orderby.md) et [Order in Group](-search-sql-orderingroup.md) .
 
@@ -170,7 +170,7 @@ GROUP ON <System.Kind>
 
 | System. Kind    | System.Author | System. DateCreated |
 |----------------|---------------|--------------------|
-| Documents      | Willa         | 2006-01-02         |
+| dans des documents      | Willa         | 2006-01-02         |
 |                |               | 2006-01-05         |
 |                | Zara          | 2007-06-02         |
 |                |               | 2007-09-10         |

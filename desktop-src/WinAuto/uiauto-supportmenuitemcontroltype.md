@@ -21,18 +21,18 @@ keywords:
 - types de contrôles, MenuItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24033866f749974a41d39094b416e70f3c40f796
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a48b94d7fc18cb9a8a6fe924fb73a250ab28708
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309953"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482509"
 ---
 # <a name="menuitem-control-type"></a>MenuItem (type de contrôle)
 
 Cette rubrique fournit des informations sur la prise en charge de Microsoft UI Automation pour le type de contrôle **MenuItem** .
 
-Un contrôle menu permet une organisation hiérarchique des éléments associés à des commandes et des gestionnaires d’événements. Dans une application Windows classique, une barre de menus contient plusieurs éléments de menu (tels que **fichier**, **Edition** et **fenêtre**) et chaque élément de menu affiche un menu. Un menu contient un groupe d’éléments de menu (tels que **Nouveau**, **Ouvrir** et **Fermer**), qui peuvent être développés pour afficher des éléments de menu supplémentaires ou pour exécuter une action spécifique quand vous cliquez dessus.
+Un contrôle menu permet une organisation hiérarchique des éléments associés à des commandes et des gestionnaires d’événements. dans une application Windows classique, une barre de menus contient plusieurs éléments de menu (tels que **fichier**, **edition** et **fenêtre**) et chaque élément de menu affiche un menu. Un menu contient un groupe d’éléments de menu (tels que **Nouveau**, **Ouvrir** et **Fermer**), qui peuvent être développés pour afficher des éléments de menu supplémentaires ou pour exécuter une action spécifique quand vous cliquez dessus.
 
 Les sections suivantes définissent l’arborescence, les propriétés, les modèles de contrôle et les événements UI Automation requis pour le type de contrôle **MenuItem** . Les spécifications d’UI Automation s’appliquent à tous les contrôles d’élément de menu où l’infrastructure ou la plateforme d’interface utilisateur intègre la prise en charge d’UI Automation pour les types de contrôle et les modèles de contrôle.
 
@@ -51,43 +51,15 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Aide de MenuItem &quot;&quot;
-<ul>
-<li>Menu (sous-menu de l’élément de menu aide)
-<ul>
-<li>&quot;Rubriques d’aide MenuItem&quot;</li>
-<li>MenuItem &quot; à propos du bloc-notes&quot;</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Aide de MenuItem &quot;&quot;
-<ul>
-<li>&quot;Rubriques d’aide MenuItem&quot;</li>
-<li>MenuItem &quot; à propos du bloc-notes&quot;</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>MenuItem "Aide"<ul><li>Menu (sous-menu de l’élément de menu aide)<ul><li>MenuItem "Rubriques d’aide"</li><li>MenuItem "À propos du Bloc-notes"</li></ul></li></ul></li></ul> | <ul><li>MenuItem "Aide"<ul><li>MenuItem "Rubriques d’aide"</li><li>MenuItem "À propos du Bloc-notes"</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 L’affichage de contrôle du contrôle d’élément de menu a l’arborescence UI Automation présentée ci-dessus. Notez que l’élément de menu de l' **aide** dans la barre de menus a été ajouté pour mieux illustrer la structure.
 
@@ -113,7 +85,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -130,7 +102,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -154,7 +126,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="legacy-issues"></a>Problèmes d’héritage
 
@@ -173,9 +145,9 @@ Pour les éléments de menu Microsoft Win32, le modèle de contrôle [Toggle](ui
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

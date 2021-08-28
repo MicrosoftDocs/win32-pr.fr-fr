@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 84f6999add608a1b43da2d9272703dd63f52ed2d799f47a0121bd4a50b88e9ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e859e7834a051bad0a5ea402e8bd6c3685b5ad54
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120046819"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883528"
 ---
 # <a name="cim_indication-class"></a>\_Classe d’indication CIM
 
@@ -91,10 +91,10 @@ Qualificateurs : [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qua
 
 Identificateur du filtre d’indication qui traite l’indication. Le service d’envoi définit cette propriété. Cette propriété est corrélée avec la propriété **Name** de l’objet **CIM \_ IndicationFilter** . La valeur de **IndicationFilterName** doit utiliser le format suivant :
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* doit inclure un nom de droits d’auteur, de marque déposée ou unique qui est détenu par l’entité commerciale propriétaire de l’objet.
--   *<OrgID>* ne doivent pas contenir de deux-points ( :)
--   *<LocalID>* identificateur unique choisi par l’entité métier propriétaire de l’objet.
+-   *&lt; Identifiant OrgID &gt;*:*&lt; LocalID &gt;*
+-   *&lt; Identifiant OrgID &gt;* doit inclure un nom de droits d’auteur, de marque déposée ou unique qui est détenu par l’entité métier propriétaire de l’objet.
+-   *&lt; Identifiant OrgID &gt;* ne doit pas contenir de deux-points ( :)
+-   *&lt; LocalID &gt;* : identificateur unique choisi par l’entité métier propriétaire de l’objet.
 
 </dd> <dt>
 
@@ -114,11 +114,11 @@ Identificateur de l’indication. Cette propriété peut être utilisée comme v
 
 Pour vous assurer que **IndicationIdentifier** est unique, il doit utiliser le format suivant :
 
--   *<OrgID>*:*<LocalID>*
--   *<OrgID>* doit inclure un nom de droits d’auteur, de marque déposée ou unique qui est détenu par l’entité commerciale propriétaire de l’objet.
--   *<OrgID>* ne doivent pas contenir de deux-points ( :)
--   *<LocalID>* identificateur unique choisi par l’entité métier propriétaire de l’objet.
--   Pour les instances définies par DMTF, *<OrgID>* doit avoir la valeur « CIM ».
+-   *&lt; Identifiant OrgID &gt;*:*&lt; LocalID &gt;*
+-   *&lt; Identifiant OrgID &gt;* doit inclure un nom de droits d’auteur, de marque déposée ou unique qui est détenu par l’entité métier propriétaire de l’objet.
+-   *&lt; Identifiant OrgID &gt;* ne doit pas contenir de deux-points ( :)
+-   *&lt; LocalID &gt;* : identificateur unique choisi par l’entité métier propriétaire de l’objet.
+-   Pour les instances définies par DMTF, *&lt; identifiant OrgID &gt;* doit avoir la valeur « CIM ».
 
 </dd> <dt>
 
@@ -325,7 +325,7 @@ Le numéro de séquence présente les caractéristiques suivantes :
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

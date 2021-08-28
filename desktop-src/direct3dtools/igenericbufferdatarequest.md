@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 790b34f212b57a2f0a1c6e846af2c2d1e5b755f6
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: c10be9f61434e6d72d5c6a1a7450b08d64ef064a
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626145"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787385"
 ---
 # <a name="span-idvspixengineigenericbufferdatarequestspanigenericbufferdatarequest-interface"></a><span id="vspixengine.igenericbufferdatarequest"></span>Interface IGenericBufferDataRequest
 
@@ -38,7 +38,7 @@ L’interface **IGenericBufferDataRequest** hérite de l’interface [**IUnknown
 
 L’interface **IGenericBufferDataRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Demande de retourner des données d’objet générique qui décrivent un objet dans le fichier. vsglog pour l’événement spécifié et dans le format spécifié.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/igenericbufferdatarequest-requestasync-dumpertype-eventid-dword-igenericbufferdatacallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Demande de retourner des données d’objet générique qui décrivent un objet dans le fichier. vsglog pour l’événement spécifié et dans le format spécifié.</p></td></tr></tbody></table>
 
  
 

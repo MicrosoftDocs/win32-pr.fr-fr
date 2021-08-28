@@ -8,12 +8,12 @@ keywords:
 - Attributs de sécurité utilisateur Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfe23252002f2ffbbba3f8e8a8faf5a2d36ce348bdbd7503c0d99a816a81902
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbd5dfdbe84234f15b76ceb1799c69cdc0a5bafb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119024887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881214"
 ---
 # <a name="user-security-attributes"></a>Attributs de sécurité utilisateur
 
@@ -33,7 +33,7 @@ L’attribut [**AccountExpires dans**](/windows/desktop/ADSchema/a-accountexpire
 
 L’attribut [**altSecurityIdentities**](/windows/desktop/ADSchema/a-altsecurityidentities) est un attribut à valeurs multiples qui contient des mappages pour les certificats X. 509 ou des comptes d’utilisateur Kerberos externes à cet utilisateur à des fins d’authentification. divers packages de sécurité, y compris le package d’authentification de clé publique et Kerberos, utilisent ces données pour authentifier les utilisateurs lorsqu’ils présentent la forme alternative d’identification, par exemple certificat, UNIX ticket Kerberos, etc. générez un jeton Windows 2000 basé sur le compte d’utilisateur correspondant pour qu’il puisse accéder aux ressources système.
 
-Pour les certificats X. 509, les valeurs doivent correspondre à l’émetteur et aux noms d’objet dans les certificats 509v3, émis par une autorité de certification publique externe, qui mappent au compte d’utilisateur utilisé pour trouver un compte pour l’authentification. Le package SSL (SChannel) utilise la syntaxe suivante : x509 : <somecertinfotype> somecertinfo. Par exemple, la valeur suivante spécifie le nom unique de l’émetteur « \<I\> » avec le DN « C = US, O = InternetCA, CN = APublicCertificateAuthority » et le nom unique du sujet « \<S\> » avec le DN « C = US, O = Fabrikam, ou = sales, CN = Jeff Smith ».
+Pour les certificats X. 509, les valeurs doivent correspondre à l’émetteur et aux noms d’objet dans les certificats 509v3, émis par une autorité de certification publique externe, qui mappent au compte d’utilisateur utilisé pour trouver un compte pour l’authentification. Le package SSL (SChannel) utilise la syntaxe suivante : x509 : &lt; somecertinfotype &gt; somecertinfo. Par exemple, la valeur suivante spécifie le nom unique de l’émetteur « \<I\> » avec le DN « C = US, O = InternetCA, CN = APublicCertificateAuthority » et le nom unique du sujet « \<S\> » avec le DN « C = US, O = Fabrikam, ou = sales, CN = Jeff Smith ».
 
 
 ```C++

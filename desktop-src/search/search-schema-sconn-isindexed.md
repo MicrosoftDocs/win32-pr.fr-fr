@@ -1,19 +1,19 @@
 ---
-description: l’élément booléen facultatif <isIndexed> spécifie si l’emplacement décrit par le connecteur de recherche est indexé (localement ou à distance à l’aide de Windows recherche 4 ou version ultérieure).
+description: l' &lt; élément isIndexed booléen facultatif &gt; spécifie si l’emplacement décrit par le connecteur de recherche est indexé (localement ou à distance, à l’aide de Windows recherche 4 ou version ultérieure).
 ms.assetid: e72b5614-454c-481f-bc31-897d2dea8042
 title: Élément isIndexed (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2afcd1a95ec14b3bbea80374d8925a88231feb0110a421c2c850a297672d0c1b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3588d451631ab8d0bb8313092b5b1ee7bb5c9dc4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119711049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881848"
 ---
 # <a name="isindexed-element-search-connector-schema"></a>Élément isIndexed (schéma du connecteur de recherche)
 
-l’élément booléen facultatif <isIndexed> spécifie si l’emplacement décrit par le connecteur de recherche est indexé (localement ou à distance à l’aide de Windows recherche 4 ou version ultérieure). La valeur par défaut est true pour les dossiers locaux. Cet élément n’a pas d’éléments enfants ni d’attributs.
+l' &lt; élément isIndexed booléen facultatif &gt; spécifie si l’emplacement décrit par le connecteur de recherche est indexé (localement ou à distance, à l’aide de Windows recherche 4 ou version ultérieure). La valeur par défaut est true pour les dossiers locaux. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

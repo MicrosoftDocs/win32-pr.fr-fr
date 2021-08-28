@@ -7,12 +7,12 @@ MSHAttr:
 title: ProfileCreationType (dans ModemDMConfigProfile)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29867412bbadc8041bcf864a9575b0fc6001a499
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: dbd0a4a3a634a892f81f4be54093f51638d6c4ca
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885095"
 ---
 # <a name="span-idwwan_profile_v4element_1_profilecreationtypespanprofilecreationtype-in-modemdmconfigprofile"></a><span id="WWAN_profile_v4.element_1_ProfileCreationType"></span>ProfileCreationType (dans ModemDMConfigProfile)
 
@@ -22,10 +22,10 @@ Cette valeur est utilisée pour déterminer si un utilisateur peut supprimer le 
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<ProfileCreationType>**
+[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**&lt;ProfileCreationType&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <ProfileCreationType>
@@ -61,7 +61,7 @@ Les éléments suivants portent le même nom que celui-ci, mais ils ont un conte
 
 -   **[ProfileCreationType (dans MBNProfileExt)](element-profilecreationtype.md)**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 

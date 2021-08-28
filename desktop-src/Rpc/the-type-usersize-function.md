@@ -6,16 +6,16 @@ keywords:
 - type_UserSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b7c5d0918489dbc41baaa4e799aa1dbbda67723cf8104e0641ced24b9b5bf6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2f997d12e11f643eb2faf9990454a8508d15636
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118923539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886050"
 ---
 # <a name="the-type_usersize-function"></a>La fonction type d' \_ utilisateur
 
-La fonction **<type> \_ Users** est une fonction d’assistance pour les attributs de marshaling de \[ [ \_ câble](/windows/desktop/Midl/wire-marshal) \] et d' \[ [ \_ utilisateur](/windows/desktop/Midl/user-marshal) \] . Les stubs appellent cette fonction pour dimensionner la mémoire tampon de données RPC pour l’objet de données utilisateur avant que les données ne soient marshalées côté client ou côté serveur. La fonction est définie comme suit :
+La fonction **&lt; type &gt; \_** d’utilisateur est une fonction d’assistance pour les attributs de marshaling de \[ [ \_ câble](/windows/desktop/Midl/wire-marshal) \] et d' \[ [utilisateur \_](/windows/desktop/Midl/user-marshal) \] . Les stubs appellent cette fonction pour dimensionner la mémoire tampon de données RPC pour l’objet de données utilisateur avant que les données ne soient marshalées côté client ou côté serveur. La fonction est définie comme suit :
 
 ``` syntax
 unsigned long __RPC_USER  <type>_UserSize(
@@ -24,7 +24,7 @@ unsigned long __RPC_USER  <type>_UserSize(
     <type>  __RPC_FAR *pMyObj);
 ```
 
-Le <type> dans le nom de la fonction signifie User-type, comme spécifié dans la définition de type de marshaling de **\[ \_ \] câble** ou d' **\[ utilisateur \_ \]** . Ce type peut être non transmissible ou même, lorsqu’il est utilisé avec l’attribut de **\[ \_ Marshal \] utilisateur** , inconnu du compilateur MIDL. Le nom du type de câble (le nom du type transmis sur le réseau) n’est pas utilisé dans le prototype de la fonction. Notez, toutefois, que le type de câble définit la disposition des données comme spécifié par l’ETCD OSF. Toutes les données doivent être converties au format de représentation de données réseau (NDR).
+Le &lt; type &gt; dans le nom de fonction correspond à user-type, comme spécifié dans la définition de type de marshaling de **\[ câble \_ \]** ou d' **\[ utilisateur \_ \]** . Ce type peut être non transmissible ou même, lorsqu’il est utilisé avec l’attribut de **\[ \_ Marshal \] utilisateur** , inconnu du compilateur MIDL. Le nom du type de câble (le nom du type transmis sur le réseau) n’est pas utilisé dans le prototype de la fonction. Notez, toutefois, que le type de câble définit la disposition des données comme spécifié par l’ETCD OSF. Toutes les données doivent être converties au format de représentation de données réseau (NDR).
 
 Le paramètre *pFlags* est un pointeur vers un champ d’indicateur **long non signé** . Le mot supérieur de l’indicateur contient des indicateurs de format NDR tels que définis par l’ETCD OSF pour les représentations à virgule flottante, d’ordre d’octet et de caractère. Le mot inférieur contient un indicateur de contexte de marshaling tel que défini par le canal COM. La disposition exacte des indicateurs dans le champ est indiquée dans le tableau suivant.
 
@@ -54,9 +54,9 @@ Le paramètre *pMyObj* est un pointeur vers un objet de type utilisateur.
 
 La valeur de retour est la nouvelle position de décalage ou de mémoire tampon. La fonction doit retourner la taille cumulée, qui correspond à la taille de départ et au remplissage possible plus la taille des données.
 
-La fonction **<type> \_ Users** peut retourner un surestime de la taille nécessaire. La taille réelle de la mémoire tampon envoyée est définie par la taille des données, et non par la taille d’allocation de la mémoire tampon.
+La fonction **&lt; type &gt; \_ Users** peut retourner un surestime de la taille nécessaire. La taille réelle de la mémoire tampon envoyée est définie par la taille des données, et non par la taille d’allocation de la mémoire tampon.
 
-La fonction **<type> \_ utilisateur** n’est pas appelée si la taille du câble peut être calculée au moment de la compilation. Notez que pour la plupart des unions, même s’il n’y a pas de pointeurs, la taille réelle de la représentation de câble ne peut être déterminée qu’au moment de l’exécution.
+La fonction **&lt; type d' &gt; \_ utilisateur** n’est pas appelée si la taille du câble peut être calculée au moment de la compilation. Notez que pour la plupart des unions, même s’il n’y a pas de pointeurs, la taille réelle de la représentation de câble ne peut être déterminée qu’au moment de l’exécution.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

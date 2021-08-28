@@ -1,19 +1,19 @@
 ---
-description: l’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer.
+description: l' &lt; élément includeInStartMenuScope booléen facultatif &gt; spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer.
 ms.assetid: 934a3834-9ddc-4c15-b738-68ea74adc24c
 title: Élément includeInStartMenuScope (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60941ef06f3f7220c7bbbae652f5e8256c6256660ea8e9ece2ddd330858958b6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e20696dc6d2bc41b3f693e771a59541204e376e7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882386"
 ---
 # <a name="includeinstartmenuscope-element-search-connector-schema"></a>Élément includeInStartMenuScope (schéma du connecteur de recherche)
 
-l’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer. La valeur par défaut est true pour les connecteurs de recherche utilisant le système de fichiers comme source de données, et false pour les connecteurs de recherche utilisés par les gestionnaires de propriétés. Cet élément n’a pas d’éléments enfants ni d’attributs.
+l' &lt; élément includeInStartMenuScope booléen facultatif &gt; spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer. La valeur par défaut est true pour les connecteurs de recherche utilisant le système de fichiers comme source de données, et false pour les connecteurs de recherche utilisés par les gestionnaires de propriétés. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

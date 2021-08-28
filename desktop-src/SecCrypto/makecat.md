@@ -4,12 +4,12 @@ ms.assetid: 233b3644-f2a5-4166-bac0-30bf2f54e957
 title: MakeCat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309a56ef6f591f6d206d700caf2e682cc0e9a3a1dd4488b1ab818a744b598245
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 980c58530c55006d28ecd7589b0313844e9dbe46
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119408369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886254"
 ---
 # <a name="makecat"></a>MakeCat
 
@@ -75,7 +75,7 @@ La \[ \] section CatalogHeader définit des informations sur l’ensemble du fic
 | PublicVersion<br/>  | Cette option n'est pas prise en charge. <br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Version du catalogue. Si le champ n’est pas renseigné, la valeur par défaut, 1, est utilisée.<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | CatalogVersion<br/> | Version du catalogue. Si la version n’est pas présente ou a la valeur 1, « 0x100 » est passé au paramètre *dwPublicVersion* de la fonction [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen) et un fichier catalogue de la version 1 est créé. L’option HashAlgorithms doit être vide ou contenir SHA1.<br/> Si la version est définie sur 2, « 0x200 » est passé au paramètre *dwPublicVersion* de la fonction [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen) et un fichier catalogue de la version 2 est créé. L’option HashAlgorithms doit contenir SHA256.<br/> Si cette option est présente mais contient une valeur autre que 1 ou 2, l’outil MakeCat génère une erreur.<br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Cette option n’est pas prise en charge.<br/> <br/> |
 | HashAlgorithms<br/> | Nom de l’algorithme de hachage utilisé. Pour plus d’informations, consultez l’option CatalogVersion.<br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Cette option n’est pas prise en charge.<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| PageHashes<br/>     | Spécifie s’il faut hacher les fichiers listés dans l' <HASH> option de la \[ \] section CatalogFiles<br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Cette option n’est pas prise en charge.<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| PageHashes<br/>     | Spécifie s’il faut hacher les fichiers listés dans l' &lt; &gt; option HASH dans la \[ \] section CatalogFiles<br/> **Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Cette option n’est pas prise en charge.<br/> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | EncodingType<br/>   | Type d’encodage de message utilisé. Si le champ n’est pas renseigné, la valeur par défaut de EncodingType est PKCS \_ 7 \_ ASN \_ Encoding \| x509 \_ ASN \_ , 0x00010001. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 
@@ -88,8 +88,8 @@ La \[ \] section CatalogFiles définit chaque membre du fichier catalogue avec d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -100,7 +100,7 @@ La \[ \] section CatalogFiles définit chaque membre du fichier catalogue avec d
 <tbody>
 <tr class="odd">
 <td>balise de référence<br/></td>
-<td>Référence de texte au fichier. Il peut s’agir de caractères de texte ASCII, à l’exception du signe égal (=). Le système doit être en mesure de reproduire cette balise après l’installation. <br/> Utilisez <HASH> comme préfixe du nom de fichier. La balise est alors le hachage du fichier sous forme de chaîne ASCII. <br/></td>
+<td>Référence de texte au fichier. Il peut s’agir de caractères de texte ASCII, à l’exception du signe égal (=). Le système doit être en mesure de reproduire cette balise après l’installation. <br/> Utilisez &lt; hash &gt; comme préfixe du nom de fichier. La balise est alors le hachage du fichier sous forme de chaîne ASCII. <br/></td>
 </tr>
 <tr class="even">
 <td>nom et chemin d’accès du fichier<br/></td>
@@ -141,7 +141,7 @@ La \[ \] section CatalogFiles définit chaque membre du fichier catalogue avec d
 <td>Représentation textuelle de la valeur de l’attribut. Le type de représentation textuelle utilisé dépend de la valeur de l’option type. Les caractères EOL déterminent la longueur.<br/></td>
 </tr>
 <tr class="odd">
-<td><HASH><br/></td>
+<td>&lt;FORMAT&gt;<br/></td>
 <td>Hache le fichier spécifié.<br/></td>
 </tr>
 </tbody>

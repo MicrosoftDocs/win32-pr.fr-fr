@@ -4,12 +4,12 @@ ms.assetid: 3b5f4360-887a-4a21-8f16-faa84da34328
 title: Table UpgradedFilesToIgnore (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f51143fcf7db350d5ee8aa1e43d49984914bcf9f05a2f8f5f787834a69b7e1a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b3af0a4a8c3385c2d028cdb66ad276d3f480ca8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884493"
 ---
 # <a name="upgradedfilestoignore-table-patchwizdll"></a>Table UpgradedFilesToIgnore (Patchwiz.dll)
 
@@ -19,10 +19,10 @@ La table UpgradedFilesToIgnore contient les colonnes suivantes.
 
 
 
-| Colonne   | Type | Clé | Nullable |
+| Colonne   | Type | Clé : | Nullable |
 |----------|------|-----|----------|
-| Upgraded | text | O   | N        |
-| TCTI      | text | O   | N        |
+| Upgraded | texte | O   | N        |
+| TCTI      | texte | O   | N        |
 
 
 
@@ -42,7 +42,7 @@ Clé étrangère vers la colonne mise à niveau de la [table UpgradedImages (Pat
 <span id="FTK"></span><span id="ftk"></span>TCTI
 </dt> <dd>
 
-Clé étrangère dans la [table de fichiers](file-table.md) de l’image mise à niveau. Une valeur de la forme « <prefix> \* » correspond à toutes les clés de table de fichiers de la table de fichiers qui commencent par ce préfixe. Aucun texte ne peut suivre l’astérisque.
+Clé étrangère dans la [table de fichiers](file-table.md) de l’image mise à niveau. Une valeur de la forme « &lt; préfixe &gt; \* » correspond à toutes les clés de table de fichiers de la table de fichiers qui commencent par ce préfixe. Aucun texte ne peut suivre l’astérisque.
 
 </dd> </dl>
 

@@ -1,22 +1,22 @@
 ---
 title: Appel de WDS à partir de pages Web
-description: Vous pouvez appeler Microsoft Windows Desktop Search (WDS) à partir de n’importe quelle page Web que vous créez ou gérez à l’aide de l’objet d’assistance du navigateur (BHO) et de Windows Internet Explorer.
+description: vous pouvez appeler Microsoft Windows Desktop Search (WDS) à partir de n’importe quelle page web que vous créez ou gérez à l’aide de l’objet d’assistance du navigateur (BHO) et d’Windows Internet Explorer.
 ms.assetid: 8d9fa541-530e-4917-a6d9-4e04549ce32e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 782e7ca8b529c8f69b1f36d44decfae44895e4ec
-ms.sourcegitcommit: b9a94cea8f83153214af4c09509e1cc61a1bb616
+ms.openlocfilehash: ac2be6be30889e8f759ee3cf7529250a5513ce58
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "104030912"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883703"
 ---
 # <a name="calling-wds-from-web-pages"></a>Appel de WDS à partir de pages Web
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-Vous pouvez appeler Microsoft Windows Desktop Search (WDS) à partir de n’importe quelle page Web que vous créez ou gérez à l’aide de l’objet d’assistance du navigateur (BHO) et de Windows Internet Explorer. Vous pouvez voir comment cela fonctionne sur la page Web MSN. Au-dessus de la zone de recherche de https://www.msn.com se trouvent plusieurs types de recherche : Web, Actualités, images, Desktop, Encarta et local. Si vous cliquez sur bureau, les paramètres de recherche sont transmis à Windows Desktop Search, qui effectue une recherche dans le catalogue et affiche les résultats dans l’interface utilisateur WDS. Pour que les utilisateurs puissent démarrer une recherche sur le Bureau à partir de vos pages Web, WDSBHO doit être installé et activé sur leurs systèmes, vos pages Web doivent être inscrites auprès de WDS en tant qu’URL autorisée, et vous devez créer un lien pour transmettre la requête enetered utilisateur à WDS.
+vous pouvez appeler Microsoft Windows Desktop Search (WDS) à partir de n’importe quelle page web que vous créez ou gérez à l’aide de l’objet d’assistance du navigateur (BHO) et d’Windows Internet Explorer. Vous pouvez voir comment cela fonctionne sur la page Web MSN. Au-dessus de la zone de recherche de https://www.msn.com se trouvent plusieurs types de recherche : Web, Actualités, images, Desktop, Encarta et local. si vous cliquez sur bureau, les paramètres de recherche sont transmis à Windows desktop search, qui recherche le catalogue et affiche les résultats dans l’interface utilisateur WDS. Pour que les utilisateurs puissent démarrer une recherche sur le Bureau à partir de vos pages Web, WDSBHO doit être installé et activé sur leurs systèmes, vos pages Web doivent être inscrites auprès de WDS en tant qu’URL autorisée, et vous devez créer un lien pour transmettre la requête enetered utilisateur à WDS.
 
 ## <a name="enabling-the-wds-browser-help-object"></a>Activation de l’objet d’aide du navigateur WDS
 
@@ -28,9 +28,9 @@ Les deux options suivantes pour autoriser une recherche sur le bureau exécutent
 
 Le registre contient une liste d’URL de domaine « autorisées » à partir desquelles WDS peut être appelé. Pour inclure vos pages Web, vous devez répertorier votre ou vos URL de domaine en tant que REG \_ SZ dans le registre comme suit :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows Desktop Search** \\ **DSW** \\ **autorisé**\\*<number>* = <domainURL>
+**HKEY \_ \_ordinateur LOCAL** \\ **logiciel** \\ **Microsoft** \\ **Windows Desktop Search** \\ **DSW** \\ **autorisé** \\ *&lt; nombre &gt;*  =  &lt; domainURL&gt;
 
-Où **<number>** est numéroté de manière séquentielle et **<domainURL>** est l’URL de la page Web à partir de laquelle vous souhaitez autoriser les recherches WDS. Cette chaîne d’URL peut inclure l’astérisque générique \* au début ou à la fin de l’URL. Par exemple, si la chaîne est « \* . mydomain.com », vous pouvez démarrer une recherche WDS à partir de https://www.mydomain.com et de https://mydomain.com .
+Où **&lt; Number &gt;** est numéroté séquentiellement et **&lt; DomainURL &gt;** est l’URL de la page Web à partir de laquelle vous souhaitez autoriser les recherches WDS. Cette chaîne d’URL peut inclure l’astérisque générique \* au début ou à la fin de l’URL. Par exemple, si la chaîne est « \* . mydomain.com », vous pouvez démarrer une recherche WDS à partir de https://www.mydomain.com et de https://mydomain.com .
 
 ## <a name="enabling-desktop-search-by-url"></a>Activation de Desktop Search by URL
 
@@ -40,9 +40,9 @@ https://toolbar.msn.com/desktop/results.aspx?q=QUERY
 
 où **requête** est la chaîne encodée URL sur laquelle l’utilisateur recherche, y compris les termes de la [syntaxe de requête avancée](-search-2x-wds-aqsreference.md) .
 
- 
+ 
 
- 
+ 
 
 
 

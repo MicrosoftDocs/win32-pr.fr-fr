@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d4301b25ca111228b742ce7b35ab9ae28e170526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd1e84b995485afd46119b78289c1cac23e19215
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982432"
 ---
 # <a name="jetgetrecordposition-function"></a>Fonction JetGetRecordPosition
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetrecordposition-function"></a>Fonction JetGetRecordPosition
 
@@ -63,67 +63,28 @@ Taille de la mémoire allouée à *precpos*.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Impossible d’effectuer cette opération, car l’instance, associée à la session, a rencontré une erreur irrécupérable. Il est nécessaire que l’accès à toutes les données soit révoqué afin de protéger l’intégrité de ces données.</p>
-<p><strong>Windows 2000 :</strong>  Cette erreur ne sera pas retournée par le système d’exploitation Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>La taille de la mémoire allouée sur <em>precpos</em> n’est pas suffisante.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Le curseur ne se trouve pas actuellement sur un enregistrement et ne peut pas retourner de position.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p><strong>Windows 2000 :</strong>  Cette erreur ne sera pas retournée par le système d’exploitation Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>L’opération ne peut pas se terminer car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Impossible d’effectuer cette opération, car l’instance, associée à la session, a rencontré une erreur irrécupérable. Il est nécessaire que l’accès à toutes les données soit révoqué afin de protéger l’intégrité de ces données.</p><p><strong>Windows 2000 :</strong>  cette erreur ne sera pas retournée par le système d’exploitation Windows 2000.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>La taille de la mémoire allouée sur <em>precpos</em> n’est pas suffisante.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Le curseur ne se trouve pas actuellement sur un enregistrement et ne peut pas retourner de position.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p><p><strong>Windows 2000 :</strong>  cette erreur ne sera pas retournée par le système d’exploitation Windows 2000.</p> | 
+| <p>JET_errTermInProgress</p> | <p>L’opération ne peut pas se terminer car l’instance associée à la session est en cours d’arrêt.</p> | 
+
 
 
 En cas de réussite, le nombre approximatif d’entrées d’index précédant l’enregistrement en cours dans l’index est retourné dans precpos- \> centriesLT. 1 est retourné dans precpos- \> centriesInRange. Le nombre approximatif d’entrées dans l’index est retourné dans precpos- \> centriesTotal.
 
 En cas d’échec, aucune modification n’est apportée à la mémoire allouée sur *precpos*.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Cette opération renvoie des données variables lorsque les mises à jour se produisent en continu sur la table. Les modifications apportées aux valeurs ne correspondent pas toujours aux attentes en fonction de la connaissance des mises à jour, car les valeurs sont des approximations basées sur les propriétés physiques de l’index. L’isolation transactionnelle ne s’applique pas aux positions de **JetGetRecordPosition** , car les valeurs dépendent des propriétés physiques de l’index qui ne sont pas des transactions isolées.
 
@@ -131,34 +92,15 @@ Cette opération renvoie des données variables lorsque les mises à jour se pro
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

@@ -4,12 +4,12 @@ description: Démarrer avec un thème et une vue
 ms.assetid: 1ac92f3a-463a-4343-a269-5230c644b57f
 keywords:
 - créer des apparences, élément THEMe
-- Apparences du lecteur Windows Media, élément de thème
+- apparences de Lecteur Windows Media, élément theme
 - apparences, élément THEMe
 - fichiers de définition d’apparence, élément THEMe
 - Élément THEMe
 - créer des apparences, élément d’affichage
-- Apparences du lecteur Windows Media, élément d’affichage
+- apparences Lecteur Windows Media, élément VIEW
 - Skins, élément VIEW
 - fichiers de définition d’apparence, élément de vue
 - Élément VIEW
@@ -17,12 +17,12 @@ keywords:
 - éléments, thème
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 499444ee2093e743f58174797794a50fbf74555a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51bcb18a9d56a8780e56d81d6de60ca269036c72
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883717"
 ---
 # <a name="start-with-theme-and-view"></a>Démarrer avec un thème et une vue
 
@@ -50,9 +50,9 @@ Laissez des lignes vides avant la balise de **vue** de fermeture, car vous ajout
 
 Enregistrez votre fichier avec le nom de fichier de votre choix, mais assurez-vous que l’extension est. WMS. Par exemple, un nom de fichier classique peut être skinone. WMS.
 
-Chaque apparence doit commencer par <THEME> et se terminer par </THEME>. Vous ne pouvez avoir qu’un seul élément **Theme** dans votre apparence, mais vous devez en avoir un.
+Chaque apparence doit commencer par un &lt; thème &gt; et se terminer par </THEME> . Vous ne pouvez avoir qu’un seul élément **Theme** dans votre apparence, mais vous devez en avoir un.
 
-Vous devez également avoir au moins un élément **View** . Vous pouvez avoir plus d’une **vue**, mais cet exemple n’en a qu’une. Vous devez avoir une ouverture <VIEW> et une fermeture <VIEW>. Notez que la </VIEW> balise d’ouverture ne ferme pas immédiatement la balise, mais qu’elle comprend plusieurs attributs avant le Chevron fermant (>). Les attributs suivants sont utilisés dans l’élément **Theme** dans cet exemple :
+Vous devez également avoir au moins un élément **View** . Vous pouvez avoir plus d’une **vue**, mais cet exemple n’en a qu’une. Vous devez disposer d’une &lt; vue ouvrante &gt; et d’une vue de fermeture &lt; &gt; . Notez que la &lt; balise/View ouvrante &gt; ne ferme pas immédiatement la balise, mais qu’elle comprend plusieurs attributs avant le Chevron fermant (>). Les attributs suivants sont utilisés dans l’élément **Theme** dans cet exemple :
 
 **clippingColor**
 
@@ -75,9 +75,9 @@ Veillez à placer le Chevron fermant (>) après la valeur **TitleBar** pour indi
 [**Création du fichier de définition d’apparence**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

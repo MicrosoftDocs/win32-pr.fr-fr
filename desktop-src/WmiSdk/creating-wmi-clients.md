@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Création de clients WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd6d89c63218ffd20ef66b2115e581bdb9c4373
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95123d4462408a25591df2babb8b1ddd83942e5e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524994"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883056"
 ---
 # <a name="creating-wmi-clients"></a>Création de clients WMI
 
-WMI fournit une infrastructure de gestion de système standardisée qui peut être exploitée par un certain nombre de clients différents. Ces clients vont de l’outil en ligne de commande wmic.exe à System Center Operations Manager. Vous pouvez écrire vos propres clients WMI en utilisant l’API de script WMI, l’API C++ native ou en utilisant les types de l’espace de noms de la bibliothèque de classes System. Management .NET Framework.
+WMI fournit une infrastructure de gestion de système standardisée qui peut être exploitée par un certain nombre de clients différents. ces clients vont de l’outil de ligne de commande wmic.exe à System Center Operations Manager. vous pouvez écrire vos propres clients wmi en utilisant l’api de script wmi, l’api C++ native ou en utilisant les types de l’espace de noms de la bibliothèque de classes System. Management .NET Framework.
 
 ## <a name="how-to-create-a-wmi-client"></a>Comment créer un client WMI
 
@@ -24,8 +24,8 @@ Les fonctionnalités principales de WMI consistent à récupérer des objets de 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -39,7 +39,7 @@ Les fonctionnalités principales de WMI consistent à récupérer des objets de 
 <td>WMI et PowerShell sont étroitement intégrés. par conséquent, la récupération d’objets WMI avec PowerShell consiste simplement à appeler l’applet de commande Get-WmiObject. Notez que, pour des fins de cohérence, le premier extrait de code indique explicitement la plupart des valeurs par défaut ; le deuxième suppose que les valeurs par défaut sont correctes.<br/> <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,7 +67,7 @@ Get-WmiObject Win32_ComputerSystem | Format-Table &quot;Name&quot;</code></pre><
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,12 +90,12 @@ Next</code></pre></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Creating_a_client_with_C___Microsoft.Management.Infrastructure_"></span><span id="creating_a_client_with_c___microsoft.management.infrastructure_"></span><span id="CREATING_A_CLIENT_WITH_C___MICROSOFT.MANAGEMENT.INFRASTRUCTURE_"></span>Création d’un client avec C# (<a href="/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832958(v=vs.85)">Microsoft. Management. infrastructure</a>)</p></td>
-<td><p>Cet espace de noms contient la solution actuelle pour accéder à WMI avec du code managé, et est connu sous le nom d’infrastructure de gestion Windows (MI ou WMIv2). À l’heure actuelle, MI est la technologie prise en charge pour la création de clients de gestion gérés. Pour plus d’informations, consultez <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-managed-mi-client">comment implémenter un client mi géré</a> et <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-native-mi-client">comment implémenter un client mi natif</a>.</p>
+<td><p>cet espace de noms contient la solution actuelle pour accéder à WMI avec du code managé, et est connu sous le nom d’Infrastructure de gestion Windows (MI ou WMIv2). À l’heure actuelle, MI est la technologie prise en charge pour la création de clients de gestion gérés. Pour plus d’informations, consultez <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-managed-mi-client">comment implémenter un client mi géré</a> et <a href="/previous-versions/windows/desktop/wmi_v2/how-to-implement-a-native-mi-client">comment implémenter un client mi natif</a>.</p>
 <div class="code">
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -107,7 +107,7 @@ Next</code></pre></td>
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -126,7 +126,7 @@ foreach (CimInstance cimObj in queryInstance)
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,7 +138,7 @@ foreach (CimInstance cimObj in queryInstance)
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -170,10 +170,10 @@ Le tableau ci-dessous répertorie les rubriques traitées dans cette section.
 | [Réception d’un événement WMI](receiving-a-wmi-event.md)                                                           | Décrit comment afficher les événements WMI.                                                                                                                                                              |
 | [Événements d’analyse](monitoring-events.md)                                                                   | Décrit comment surveiller les événements WMI.                                                                                                                                                           |
 | [Interrogation avec WQL](querying-with-wql.md)                                                                   | Présente le Langage de requêtes WMI (WQL) (WQL).                                                                                                                                                       |
-| [Interrogation de l’état des fonctionnalités facultatives](querying-the-status-of-optional-features.md)                     | Dans Windows 7, WMI implémentait la classe [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Cette classe récupère l’état des fonctionnalités facultatives présentes sur un ordinateur. |
+| [Interrogation de l’état des fonctionnalités facultatives](querying-the-status-of-optional-features.md)                     | dans Windows 7, WMI implémentait la classe [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Cette classe récupère l’état des fonctionnalités facultatives présentes sur un ordinateur. |
 | [Description de l’emplacement d’un objet WMI](describing-the-location-of-a-wmi-object.md)                       | Se concentre sur la syntaxe pour décrire l’emplacement d’une entité gérée par WMI.                                                                                                                     |
 | [Accès à d’autres fonctionnalités du système d’exploitation avec WMI](accessing-other-operating-system-features-with-wmi.md) | Décrit comment écrire des clients WMI qui accèdent à des pilotes de périphériques, des Active Directory et des périphériques SNMP.                                                                                             |
-| [Accès aux données dans l’espace de noms Interop](accessing-data-in-the-interop-namespace.md)                       | Les fournisseurs d’associations permettent aux clients Windows Management Instrumentation (WMI) de traverser et de récupérer des profils et des instances de classe associées à partir d’espaces de noms différents.                      |
+| [Accès aux données dans l’espace de noms Interop](accessing-data-in-the-interop-namespace.md)                       | les fournisseurs d’associations permettent aux clients Windows Management Instrumentation (WMI) de traverser et de récupérer des profils et des instances de classe associées à partir d’espaces de noms différents.                      |
 | [Manipulation des informations relatives aux classes et aux instances](manipulating-class-and-instance-information.md)               | Décrit les tâches courantes que les clients WMI doivent effectuer.                                                                                                                                      |
 | [Liaison de classes](linking-classes-together.md)                                                     | Décrit le fournisseur d’affichage et comment il peut être utilisé pour réunir des informations à partir de plusieurs classes WMI.                                                                                    |
 | [Modification du Registre système](modifying-the-system-registry.md)                                           | Décrit comment les clients WMI peuvent utiliser WMI pour gérer les informations du Registre système.                                                                                                                   |

@@ -5,12 +5,12 @@ ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efcbbbce67d9928c9ecda3840f34a1cbf6faae79ca4d9fe72830a5b57881177
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85c0949d13139b132cd7c1a7a96ff6a95cd3b5e4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118692193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884068"
 ---
 # <a name="common-errors-adsi"></a>Erreurs courantes (ADSI)
 
@@ -51,7 +51,7 @@ Consultez [codes d’erreur com génériques](generic-com-error-codes.md) pour o
 
 Tout code d’erreur de forme hexadécimale 8007xxxx est un code d’erreur Win32 standard. si vous convertissez les quatre derniers chiffres du format hexadécimal au format décimal, vous pouvez accéder à l’erreur à partir de la ligne de commande Windows 2000 :
 
-**net helpmsg <number>**
+**nombre net helpmsg &lt;&gt;**
 
 Dans la ligne de commande ci-dessus, « &lt; Number &gt; » est le nombre décimal obtenu en convertissant les quatre derniers chiffres du code d’erreur au format hexadécimal. Cette ligne de commande fournit une description plus utile de l’erreur Win32, qui peut vous aider à déboguer votre script.
 

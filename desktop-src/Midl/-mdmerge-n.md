@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3e9575995d80a4c61b5e91be7c5cfc1c802abed892af8cfa653f62c66e602b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20b54473b282976d2ab871db0f1699c1154070a3
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886038"
 ---
 # <a name="n-switch"></a>commutateur/n
 
@@ -48,8 +48,8 @@ Voici les formats de valeurs possibles que vous pouvez spécifier avec le commut
 |--------------------------------|---------------------------------------------------------------------------------|
 | > Int32 0                   | Compose tous les types à la profondeur d’espace de noms spécifiée dans le commutateur.               |
 | -1                             | Composez tous les types dans un fichier IDL par espace de noms.                              |
-| <namespace>: Int32 > 0 | Compose tous les types avec l’espace de noms correspondant à la profondeur spécifiée dans le commutateur. |
-| <namespace>:-1           | Compose tous les types avec l’espace de noms correspondant dans un fichier par espace de noms.          |
+| &lt;espace de noms &gt; : Int32 > 0 | Compose tous les types avec l’espace de noms correspondant à la profondeur spécifiée dans le commutateur. |
+| &lt;espace &gt; de noms :-1           | Compose tous les types avec l’espace de noms correspondant dans un fichier par espace de noms.          |
 
 
 
@@ -85,7 +85,7 @@ Voici les règles de gestion de plusieurs instances du commutateur **/n** .
 
 **mdmerge.exe-Metadata \_ dir $ ( \_ chemin des métadonnées du SDK \_ )-i $ ( \_ chemin des métadonnées du kit de développement logiciel (SDK \_ ) interne \_ )-o $ (obj \_ Path) \\ $O \\ SystemMetadata-v-n :-1-n : Windows. Base : 2**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

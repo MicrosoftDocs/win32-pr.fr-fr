@@ -1,5 +1,5 @@
 ---
-description: '<span id="vspixengine.remotecommandtype"></span>Énumération RemoteCommandType : énumération utilisée pour communiquer entre le moteur de capture et un hôte (tel que Visual Studio Graphics Diagnostics).'
+description: '<span id="vspixengine.remotecommandtype"></span>énumération RemoteCommandType : énumération utilisée pour communiquer entre le moteur de capture et un hôte (comme Visual Studio Graphics Diagnostics).'
 MS-HAID: vspixengine.RemoteCommandType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ed57b9b044613351e99096a8c8cb741b8ad7a269
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 73accd6f73a7c33219c83a3285837d2e1c7c133a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110503"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631717"
 ---
 # <a name="span-idvspixengineremotecommandtypespanremotecommandtype-enumeration"></a><span id="vspixengine.remotecommandtype"></span>Énumération RemoteCommandType
 
-Énumération utilisée pour communiquer entre le moteur de capture et un hôte (tel que Visual Studio Graphics Diagnostics).
+énumération utilisée pour communiquer entre le moteur de capture et un hôte (par exemple, Visual Studio Graphics Diagnostics).
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -48,7 +48,7 @@ Démarre une capture (identique à l’affichage de l’écran d’impression). 
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

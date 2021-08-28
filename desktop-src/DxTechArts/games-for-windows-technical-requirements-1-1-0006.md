@@ -4,12 +4,12 @@ description: Cet article présente les conditions techniques et les meilleures p
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0723c5da09d011111b0064ef689025d7ddcac85
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: e9a5c1480f8ef5ef67a2bd2b998e0dcbe28ed397
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122887052"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482115"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>jeux pour Windows exigences techniques : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
@@ -254,7 +254,7 @@ Le fournisseur GDF pour un fournisseur de jeux ne contient généralement pas d�
 
 
 
-| Système d'exploitation | Systèmes d’évaluation pris en charge | 
+| Système d’exploitation | Systèmes d’évaluation pris en charge | 
 |------------------|--------------------------|
 | Windows Vista | <ul><li>CERO (Japon)</li><li>ESRB (ÉTATS-UNIS)</li><li>OFLC (Australie)</li><li>PEGI (Europe)</li><li>PEGI Finlande (déconseillé)</li><li>PEGI Portugal</li><li>PEGI/BBFC (Royaume-Uni)</li><li>USK (Allemagne)</li></ul> | 
 | Windows Vista avec un Service Pack | les Service packs pour Windows Vista ajoutent la prise en charge des éléments suivants :<br /><ul><li>GRB (Corée du Sud)</li><li>Descripteurs de contenu variant « modérés » ESRB</li></ul> | 
@@ -402,7 +402,7 @@ L’utilisation de versions de Direct3D plus récentes que Direct3D 9 est viveme
 
 les jeux et leurs programmes d’installation doivent s’exécuter correctement sans problèmes visuels lorsque la mise à l’échelle ppp (points par pouce) est activée (testée avec 144 ppp pour une mise à l’échelle de 150% à la résolution d’écran 1600 1200) sur Windows Vista et Windows 7.
 
-En général, l’exécutable du jeu est requis pour déclarer la prise en charge DPI. Pour ce faire, incorporez un élément de manifeste : &lt; dpiAware &gt; true &lt; dpiAware &gt; .
+En général, l’exécutable du jeu est requis pour déclarer la prise en charge DPI. Pour ce faire, incorporez un élément de manifeste : <dpiAware> true <dpiAware> .
 
 </dd> <dt>
 
@@ -1080,7 +1080,7 @@ pour plus d’informations sur les api de Rapport d’erreurs Windows et sur l�
 
 
 
-| Nom                                          | Description                                                                                                 |
+| Name                                          | Description                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Un                                        | Bouton A.                                                                                     |
 | B                                        | Bouton B.                                                                                     |

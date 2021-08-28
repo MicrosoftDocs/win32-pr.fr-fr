@@ -1,21 +1,21 @@
 ---
-description: L' <property> élément facultatif spécifie les propriétés utilisées par le fournisseur de localisation.
+description: L' &lt; élément facultatif Property &gt; spécifie les propriétés utilisées par le fournisseur de localisation.
 ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: Élément Property de locationProvider (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623d54ef98986c603acc709bcd39ca1ac5504b89
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ad478fd1d1c00ad5c7f866831cdfdf898557546b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471555"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883336"
 ---
 # <a name="property-element-of-locationprovider-search-connector-schema"></a>Élément Property de locationProvider (schéma du connecteur de recherche)
 
-L' <property> élément facultatif spécifie les propriétés utilisées par le fournisseur de localisation. Ces propriétés étant spécifiques à ce fournisseur de localisation, il n’existe aucun ensemble prédéfini de noms à utiliser. L' <property> élément a deux attributs, comme décrit dans cette rubrique.
+L' &lt; élément facultatif Property &gt; spécifie les propriétés utilisées par le fournisseur de localisation. Ces propriétés étant spécifiques à ce fournisseur de localisation, il n’existe aucun ensemble prédéfini de noms à utiliser. L' &lt; &gt; élément Property a deux attributs, comme décrit dans cette rubrique.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -36,7 +36,7 @@ L' <property> élément facultatif spécifie les propriétés utilisées par le 
 
 
 
-## <a name="property-element-information"></a><property> Informations sur l’élément
+## <a name="ltpropertygt-element-information"></a>&lt;&gt;informations sur les éléments de propriété
 
 
 
@@ -49,7 +49,7 @@ L' <property> élément facultatif spécifie les propriétés utilisées par le 
  
 
 
-## <a name="property-attributes"></a><property> Attributs
+## <a name="ltpropertygt-attributes"></a>&lt;attributs de propriété &gt;
 
 
 

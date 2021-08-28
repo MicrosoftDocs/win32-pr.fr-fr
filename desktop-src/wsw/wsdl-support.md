@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 203ee1819a596d2d49a7d0b7c789d5f4e1269b6d8d75f78e2db0913b6a97ec78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b273bd97d30aca185f35f31d385e6ab5a0bef4e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882288"
 ---
 # <a name="wsdl-and-service-contracts"></a>WSDL et contrats de service
 
@@ -154,7 +154,7 @@ Les structures C générées automatiquement répertoriées ci-dessus sont cré�
 
 ## <a name="header-for-the-stub"></a>En-tête pour le stub
 
-Pour chaque opération dans le contrat de service, une routine de rappel nommée « <operationname> callback » est générée. (Par exemple, l’opération « SimpleMethod » dans l’exemple de contrat de service a un rappel généré nommé « SimpleMethodCallback ».)
+Pour chaque opération dans le contrat de service, une routine de rappel nommée « &lt; NomOpération &gt; callback » est générée. (Par exemple, l’opération « SimpleMethod » dans l’exemple de contrat de service a un rappel généré nommé « SimpleMethodCallback ».)
 
 ``` syntax
 typedef HRESULT (CALLBACK *SimpleMethodCallback) (

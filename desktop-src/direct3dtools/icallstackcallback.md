@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6e39b2a66bda3345d505d48d0bf7953787d40b34413c231158e5afb9e72f03c1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b40893843f92c7906ced1930b9744a58eb49e4d8
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094899"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624925"
 ---
 # <a name="span-idvspixengineicallstackcallbackspanicallstackcallback-interface"></a><span id="vspixengine.icallstackcallback"></span>Interface ICallStackCallback
 
@@ -38,13 +38,13 @@ L’interface **ICallStackCallback** hérite de l’interface [**IUnknown**](/wi
 
 L’interface **ICallStackCallback** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des informations de la pile des appels.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des informations de la pile des appels.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

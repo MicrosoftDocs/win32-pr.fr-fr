@@ -4,33 +4,33 @@ description: Mode de contraste élevé
 ms.assetid: 817F2BBD-3744-4D34-927F-EBF9F7894CC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae8c53d3e92bb97dd9e2f5fa34bad9f901920cc7
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 1a288447dda8d3a76278ad695459d2c15598b328
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103730741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883896"
 ---
 # <a name="high-contrast-mode"></a>Mode de contraste élevé
 
 ## <a name="platforms"></a>Plateformes
 
  **Clients** -Windows 8  
-**Serveurs** -Windows Server 2012  
+**serveurs** -Windows Server 2012  
 
 
 
 ## <a name="description"></a>Description
 
-Dans les systèmes d’exploitation Windows précédents, le mode de contraste élevé était limité aux thèmes s’exécutant sous les thèmes classiques, qui n’étaient pas visuellement stylisés. Dans Windows 8 et Windows Server 2012, le mode classique a été supprimé et remplacé par des thèmes visuellement à contraste élevé. L’un des principaux avantages de ce changement est la suppression d’un chemin de code distinct pour les applications qui s’exécutent en mode classique.
+dans les systèmes d’exploitation précédents Windows, le mode de contraste élevé était limité aux thèmes s’exécutant sous les thèmes classiques, qui n’étaient pas visuellement stylisés. dans Windows 8 et Windows Server 2012, le mode classique a été supprimé et remplacé par des thèmes à contraste élevé de style visuel. L’un des principaux avantages de ce changement est la suppression d’un chemin de code distinct pour les applications qui s’exécutent en mode classique.
 
-Les développeurs doivent toujours être sensibilisés à la façon dont le mode de contraste élevé peut affecter leur application et comment développer une application qui est véritablement indépendante du style. Cela est important, car bien que l’utilisation incorrecte ou la supposition des couleurs de thème puisse entraîner un comportement correct des applications sous un style visuel tel que Aero, ces mêmes applications répondent de manière incorrecte sous un contraste élevé. Par exemple, dans Aero, le texte est toujours noir et la couleur de surbrillance est un bleu clair. Toutefois, dans le contraste noir élevé, la couleur de surbrillance est noire. Si vous partez du texte noir, comme c’était le cas dans de nombreuses applications de la zone antérieures à Windows 8 et que vous utilisez la valeur système par défaut pour la mise en surbrillance, l’utilisateur verra du texte noir sur un arrière-plan noir. Dans ces situations, il est nécessaire de comprendre comment utiliser correctement les thèmes et les métriques du système pour que l’application semble correcte entre les styles.
+Les développeurs doivent toujours être sensibilisés à la façon dont le mode de contraste élevé peut affecter leur application et comment développer une application qui est véritablement indépendante du style. Cela est important, car bien que l’utilisation incorrecte ou la supposition des couleurs de thème puisse entraîner un comportement correct des applications sous un style visuel tel que Aero, ces mêmes applications répondent de manière incorrecte sous un contraste élevé. Par exemple, dans Aero, le texte est toujours noir et la couleur de surbrillance est un bleu clair. Toutefois, dans le contraste noir élevé, la couleur de surbrillance est noire. si vous partez du texte noir, comme c’était le cas dans de nombreuses applications de la zone antérieures à Windows 8 et que vous utilisez la valeur système par défaut pour la mise en surbrillance, l’utilisateur verra du texte noir sur un arrière-plan noir. Dans ces situations, il est nécessaire de comprendre comment utiliser correctement les thèmes et les métriques du système pour que l’application semble correcte entre les styles.
 
 ## <a name="manifestations"></a>Manifestations
 
--   Ils ne sont pas activés dans la zone cliente des applications qui ne contiennent pas de <supportedOS> balise Windows 8 dans leur manifeste d’application. Par conséquent, les applications doivent restituer la zone cliente à l’aide du chemin de code requis pour le rendu en mode de contraste élevé du thème classique.
--   Ils ne sont pas activés dans les zones non clientes et clientes des applications dans des thèmes à contraste élevé. Elle n’est pas non plus activée dans les applications qui ne contiennent pas de <supportedOS> balise Windows 8 dans leur manifeste d’application et qui dessinent dans la zone non cliente d’une fenêtre à l’aide de l’API DwnIsCompositionEnabled (). L’application entière effectue le rendu dans le mode de contraste élevé du thème classique.
--   Les applications qui ajoutent la prise en charge de Windows 8 dans leur manifeste, mais n’utilisent pas de styles visuels pour le rendu, autrement dit, ils encodés en dur des couleurs ou des images dans leurs applications, risquent de ne pas s’afficher correctement dans les thèmes à contraste élevé. Le texte peut être difficile à lire ou les images ne s’affichent pas comme elles le devraient en mode de contraste élevé.
+-   ils ne sont pas activés dans la zone cliente des applications qui ne contiennent pas de &lt; balise Windows 8 prise en charge &gt; dans leur manifeste d’application. Par conséquent, les applications doivent restituer la zone cliente à l’aide du chemin de code requis pour le rendu en mode de contraste élevé du thème classique.
+-   Ils ne sont pas activés dans les zones non clientes et clientes des applications dans des thèmes à contraste élevé. elle n’est pas non plus activée dans les applications qui ne contiennent pas de &lt; balise Windows 8 prise en charge &gt; dans leur manifeste d’application et qui dessinent dans la zone non cliente d’une fenêtre à l’aide de l’API DwnIsCompositionEnabled (). L’application entière effectue le rendu dans le mode de contraste élevé du thème classique.
+-   les applications qui ajoutent la prise en charge des Windows 8 dans leur manifeste, mais n’utilisent pas de styles visuels pour le rendu, autrement dit, ils encodés en dur des couleurs ou des images dans leurs applications, risquent de ne pas s’afficher correctement dans les thèmes à contraste élevé. Le texte peut être difficile à lire ou les images ne s’affichent pas comme elles le devraient en mode de contraste élevé.
 
 ## <a name="mitigation"></a>Limitation des risques
 
@@ -51,9 +51,9 @@ Ces composants de l’interface utilisateur sont personnalisables dans les thèm
 
 Si un comportement inattendu est observé dans les applications dans les thèmes à contraste élevé, l’une de ces solutions peut vous aider à :
 
--   **Manifeste d’une application pour Windows 8 :**
+-   **Le manifeste d’une application pour Windows 8 :**
 
-    Les zones clientes des applications qui ne contiennent pas la <supportedOS> balise Windows 8 dans le manifeste de l’application sont rendues sans thème. Les applications intégrées doivent toutes contenir cette entrée dans le manifeste de l’application. Ajoutez la valeur GUID 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 pour Windows 8.
+    les zones clientes des applications qui ne contiennent pas la &lt; balise Windows 8 prise en charge &gt; dans le manifeste de l’application sont rendues sans thème. Les applications intégrées doivent toutes contenir cette entrée dans le manifeste de l’application. Ajoutez la valeur GUID 4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38 pour Windows 8.
 
 -   **Utilisation de styles visuels avec des interfaces utilisateur owner-drawn :**
 
@@ -75,21 +75,21 @@ Si un comportement inattendu est observé dans les applications dans les thèmes
     -   La prise en charge des requêtes de média à contraste élevé est ajoutée à Internet Explorer 10
     -   WWAs peut tirer parti de la méthode IAccessibilityCapabilities :: d'-obtient le \_ contraste () pour vérifier l’état du contraste élevé
 
-    Les applications du Windows Store n’ont pas beaucoup de problèmes avec les parties de thème présentes dans les applications Windows classiques, mais vous devez toujours garantir une conformité à contraste élevé. Par défaut, Internet Explorer ignore certains styles définis par l’utilisateur et les remplace par des valeurs conformes à un contraste élevé. Par exemple, les propriétés CSS d’image d’arrière-plan, d’arrière-plan et de couleur sont ignorées.
+    Windows les applications du windows Store n’ont pas beaucoup de problèmes avec les parties de thème présentes dans les Applications de Windows classiques, mais vous devez toujours garantir une conformité à contraste élevé. Par défaut, Internet Explorer ignore certains styles définis par l’utilisateur et les remplace par des valeurs conformes à un contraste élevé. Par exemple, les propriétés CSS d’image d’arrière-plan, d’arrière-plan et de couleur sont ignorées.
 
     Si vous ne souhaitez pas qu’Internet Explorer ignore les propriétés que vous avez définies et que vous vous êtes assuré que l’interface utilisateur est conforme à un contraste élevé, vous pouvez définir la nouvelle propriété CSS m3 – MS-contraste élevé : OFF sur un élément parent.
 
--   **Écriture d’une application du Windows Store à contraste élevé :**
+-   **écriture d’une application de magasin de Windows à contraste élevé :**
 
-    L’application du Windows Store doit utiliser la classe [SystemColors](/dotnet/api/system.windows.systemcolors) pour déterminer les couleurs appropriées des éléments d’interface utilisateur, en gardant à l’esprit que certaines couleurs de mesure système sont conçues pour être utilisées conjointement, par exemple SystemColors. WindowColor et SystemColors. WindowTextColor. Vous bénéficiez ainsi d’une expérience de contraste élevée supérieure.
+    Windows L’application store doit utiliser la classe [SystemColors](/dotnet/api/system.windows.systemcolors) pour déterminer les couleurs appropriées des éléments d’interface utilisateur, en gardant à l’esprit que certaines couleurs de mesure système sont conçues pour être utilisées conjointement, par exemple SystemColors. WindowColor et SystemColors. WindowTextColor. Vous bénéficiez ainsi d’une expérience de contraste élevée supérieure.
 
 -   **Détection correcte du contraste élevé dans les versions précédentes de Windows :**
 
-    Les applications qui s’exécutent sur des versions antérieures de Windows n’ont pas accès aux nouveaux thèmes à contraste élevé, même si le manifeste spécifie la compatibilité avec la version de Windows en question. Par conséquent, il peut être nécessaire d’insérer des chemins de code supplémentaires pour gérer le rendu dans l’environnement classique utilisé dans les versions précédentes de Windows. Dans ce cas, la présence d’un contraste élevé doit être vérifiée en appelant la fonction [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) avec l' \_ indicateur SPI GETHIGHCONTRAST. Il s’agit de la seule méthode prise en charge pour vérifier la présence d’un contraste élevé.
+    les applications qui s’exécutent sur des versions antérieures de Windows n’ont pas accès aux nouveaux thèmes à contraste élevé, même si le manifeste spécifie la compatibilité avec la version de Windows en question. Par conséquent, il peut être nécessaire d’insérer des chemins de code supplémentaires pour gérer le rendu dans l’environnement classique utilisé dans les versions précédentes de Windows. Dans ce cas, la présence d’un contraste élevé doit être vérifiée en appelant la fonction [SystemParametersInfo](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) avec l' \_ indicateur SPI GETHIGHCONTRAST. Il s’agit de la seule méthode prise en charge pour vérifier la présence d’un contraste élevé.
 
 ## <a name="tests"></a>Tests
 
-Lors du test d’une application, assurez-vous qu’elle s’affiche correctement dans tous les thèmes fournis par Windows 8 : Aero, Basic, contraste élevé 1, contraste élevé 2, contraste élevé Black et contraste élevé White. Assurez-vous que le texte est clairement visible et facile à lire dans les thèmes à contraste élevé.
+lors du test d’une application, assurez-vous qu’elle s’affiche correctement dans tous les thèmes fournis par la boîte de Windows 8 : Aero, Basic, contraste élevé 1, contraste élevé 2, contraste élevé Black et contraste élevé White. Assurez-vous que le texte est clairement visible et facile à lire dans les thèmes à contraste élevé.
 
 ## <a name="resources"></a>Ressources
 
@@ -102,6 +102,6 @@ Lors du test d’une application, assurez-vous qu’elle s’affiche correctemen
 -   [SystemParametersInfo, fonction](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 -   [Accessibilité Microsoft](https://www.microsoft.com/enable/)
 
- 
+ 
 
- 
+ 

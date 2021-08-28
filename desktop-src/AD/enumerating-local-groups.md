@@ -7,12 +7,12 @@ keywords:
 - Énumération des groupes locaux Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1584cf8650b3fa341e7a314e0b6f94120b28c50226f16230c53206d6e14b80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dcecf0f16cb0679e190197f0677cb9b23a96195
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118191329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881428"
 ---
 # <a name="enumerating-local-groups"></a>Énumération des groupes locaux
 
@@ -28,7 +28,7 @@ seuls les groupes locaux peuvent être créés sur les serveurs membres et Windo
 
 1.  Connectez-vous à l’ordinateur à l’aide des règles suivantes :
     1.  Utilisez un compte disposant des droits suffisants pour accéder à cet ordinateur.
-    2.  Utilisez le format de chaîne de liaison suivant à l’aide du fournisseur WinNT, du nom d’ordinateur et d’un paramètre supplémentaire pour indiquer à ADSI qu’il est lié à un ordinateur : « WinNT:// <computer name> <computer> ».
+    2.  Utilisez le format de chaîne de liaison suivant à l’aide du fournisseur WinNT, du nom d’ordinateur et d’un paramètre supplémentaire pour indiquer à ADSI qu’il est lié à un ordinateur : « WinNT:// <computer name> , &lt; Computer &gt; ».
 
         Le paramètre « the <computer name> » est le nom du groupe d’ordinateurs auquel accéder. Ce paramètre indique à ADSI qu’il est lié à un ordinateur et permet à l’analyseur du fournisseur Winnt d’ignorer certaines requêtes de résolution d’ambiguïté pour déterminer le type d’objet auquel vous vous liez.
 

@@ -19,12 +19,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9ce9c50908621f005ec69aa75da4afdfa722b8aa
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 9451844edc9f55bda75e5ec80e4958b3c474c919
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988402"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476355"
 ---
 # <a name="jetsetsessionparameter-function"></a>JetSetSessionParameter fonction)
 
@@ -62,7 +62,7 @@ Données à définir dans ce paramètre de session.
 
 Taille des données fournies.
 
-### <a name="return-value"></a>Valeur retournée
+### <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
@@ -92,13 +92,7 @@ En cas d’échec, la valeur du paramètre système reste inchangée.
 #### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
-| <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| | | <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | | <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 
