@@ -5,17 +5,17 @@ ms.assetid: 903d89bd-c223-4f29-9eaf-1dc28d27a32a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5117ce15731ea656913b47525387a48a39aa414c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b4c6446a6ece75a8da8e51ecab3ed4b6ebf256360e8d9032a676922b83b664d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778069"
 ---
 # <a name="logging-with-network-policy-server"></a>Journalisation avec le serveur NPS
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
  
 
@@ -60,7 +60,7 @@ Par défaut, NPS n’enregistre aucune donnée. Le serveur NPS peut être config
 
  
 
-Les données consignées par NPS peuvent accéder à un fichier texte sur le serveur NPS ou à une base de données SQL centrale. Pour plus d’informations sur la journalisation SQL NPS, consultez [programmabilité SQL](sql-programmability.md).
+les données consignées par NPS peuvent accéder à un fichier texte sur le serveur nps ou à une base de données centrale SQL. pour plus d’informations sur la journalisation des SQL NPS, consultez [SQL la programmabilité](sql-programmability.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

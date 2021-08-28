@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - NTDll.dll
-ms.openlocfilehash: f74b9cdc0aec666242a8267fab8d6255c75dc94b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f944de64f26d814af799d1f8d2419c2dd9ade04970774e2581f446c0bd32c0fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001329"
 ---
 # <a name="ldrfastfailinloadercallout-function"></a>LdrFastFailInLoaderCallout fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Cette fonction termine de force le programme appelant s’il est appelé à l’intérieur d’un appel de chargeur. Dans le cas contraire, elle n’a aucun effet.
 
@@ -43,7 +43,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette routine n’intercepte pas tous les cas de blocage potentiels ; Il est possible pour un thread à l’intérieur d’une légende de chargeur d’acquérir un verrou tandis qu’un thread en dehors d’un appel de chargeur détient le même verrou et effectue un appel dans le chargeur. En d’autres termes, il peut y avoir une inversion d’ordre de verrou entre le verrou du chargeur et un verrou client.
 

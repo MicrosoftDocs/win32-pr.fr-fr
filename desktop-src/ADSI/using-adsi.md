@@ -9,12 +9,12 @@ keywords:
 - Interfaces ADSI (Active Directory Service Interfaces), utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e500044ec755c393f8c8287528fee7f935751fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15495f9fa21f436570381ea8f0b2a7c7fff5f4efed645a5f3465a3b5d2929776
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648849"
 ---
 # <a name="using-active-directory-service-interfaces"></a>Utilisation des interfaces de service Active Directory
 
@@ -22,11 +22,11 @@ Les interfaces de service Active Directory (ADSI) permettent aux applications cl
 
 Active Directory interfaces de service sont conformes au modèle COM (Component Object Model) et prennent en charge les fonctionnalités COM standard.
 
-ADSI fournit des interfaces qui sont conformes à l’automatisation pour les contrôleurs liés au nom tels que Java, Microsoft Visual Basic Development System et Visual Basic Scripting Edition (VBScript). ADSI peut également fournir une interface qui peut optimiser les performances pour les interfaces qui ne sont pas conformes à Automation, à utiliser avec des environnements de langage tels que C et C++.
+ADSI fournit des interfaces qui sont conformes à l’automatisation pour les contrôleurs liés au nom tels que Java, Microsoft Visual Basic development system et Visual Basic scripting Edition (VBScript). ADSI peut également fournir une interface qui peut optimiser les performances pour les interfaces qui ne sont pas conformes à Automation, à utiliser avec des environnements de langage tels que C et C++.
 
 ADSI fournit également les interfaces non-Automation, [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) et [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch), pour prendre en charge la gestion et les requêtes d’objets d’annuaire.
 
-En outre, l’interface ADSI fournit son propre fournisseur de OLE DB, de sorte que tout client qui utilise déjà OLE DB, y compris ceux qui utilisent ActiveX Data Objects, peut interroger directement les services d’annuaire.
+en outre, l’interface ADSI fournit son propre fournisseur de OLE DB, de sorte que tout client qui utilise déjà OLE DB, y compris ceux qui utilisent ActiveX Data Objects, peut interroger directement les services d’annuaire.
 
 Les applications Web qui utilisent des pages de Active Server peuvent également programmer l’accès aux services d’annuaire par le biais d’ADSI.
 
@@ -47,9 +47,9 @@ Ce guide de programmation décrit le fonctionnement d’ADSI et fournit des info
 -   [Interfaces de l’utilitaire ADSI](adsi-utility-interfaces.md)
 -   [Programmation d’ADSI avec Java/COM](programming-adsi-with-javacom.md)
 
- 
+ 
 
- 
+ 
 
 
 

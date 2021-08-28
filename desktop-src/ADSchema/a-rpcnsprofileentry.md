@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01dc3897a51099088e8e161a64cfff855c381270
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 35a796fdd5372330b3d642c9338200d68c6a61e6c5e1185e73c50aa4e69b26fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646539"
 ---
 # <a name="rpc-ns-profile-entry-attribute"></a>attribut d’entrée RPC-NS-Profile
 
@@ -45,7 +45,7 @@ Liste des entrées pour la priorité actuelle.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

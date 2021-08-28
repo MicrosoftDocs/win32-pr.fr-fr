@@ -4,12 +4,12 @@ ms.assetid: c63034ce-33d7-4f2f-9498-fc16e25b6d4d
 title: MFPKEY_WMAVOICE_ENC_EDL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f3ac85ebd3a0542fbcf6554205d0b2f2623957c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ffc9f68c7122897c9f5032e9ac0e4fc93c596b5ce65f18d44fb6af6dff2dd2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713719"
 ---
 # <a name="mfpkey_wmavoice_enc_edl-property"></a>\_ \_ Propriété EDL MFPKEY WMAVOICE enc \_
 
@@ -27,7 +27,7 @@ VT \_ BSTR
 
 Pas de valeur par défaut. Si cette propriété n’est pas définie, le codec utilise la valeur de la propriété [MFPKEY \_ WMAVOICE \_ enc \_ MusicSpeechClassMode](mfpkey-wmavoice-enc-musicspeechclassmodeproperty.md) pour déterminer le mode d’encodage du contenu.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser cette propriété si le mode automatique du codec ne donne pas de résultats satisfaisants.
 
@@ -41,8 +41,8 @@ Par exemple, « 1, 2100200500600 » indique à l’encodeur d’utiliser la ve
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

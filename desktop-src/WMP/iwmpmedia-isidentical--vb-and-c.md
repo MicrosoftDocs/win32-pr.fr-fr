@@ -3,7 +3,7 @@ title: IWMPMedia. isIdentical (VB et C)
 description: La propriété isIdentical (méthode obtenir \_ isIdentical dans C \) obtient une valeur indiquant si l’élément multimédia spécifié est le même que celui actuel.
 ms.assetid: 1406a0ff-2dc8-4cde-8b71-4a39b8608fb1
 keywords:
-- IWMPMedia. isIdentical (VB et C) lecteur Windows Media
+- IWMPMedia. isIdentical (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a488ad300362c1f8dccfd0fa6f6c7e4dee7676
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24e8de133003bdddcf0438e5a13dc3fa74227ede7bf42350e2b7c3c96f2c197e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003579"
 ---
 # <a name="iwmpmediaisidentical-vb-and-c"></a>IWMPMedia. isIdentical (VB et C#)
 
@@ -55,7 +55,7 @@ Interface **wmplib. IWMPMedia** de l’élément multimédia à comparer avec l�
 
 Valeur **System. Boolean** qui indique si les deux éléments multimédias sont identiques.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWMPMedia. isIdentical** est une propriété de Visual Basic qui accepte un paramètre. En C#, on parle de méthode **IWMPMedia. obten \_ isIdentical** .
 

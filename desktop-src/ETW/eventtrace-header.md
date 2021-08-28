@@ -33,12 +33,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dea803849d6aa15c2a3a14deb850d85ade569116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5d0515b9d7d720409e0a72aec7aad5dc54561637563976a35d03b3e0dec79f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829989"
 ---
 # <a name="eventtrace_header-class"></a>\_Classe d’en-tête EventTrace
 
@@ -426,7 +426,7 @@ Numéro de version du système d’exploitation. À partir des octets de poids f
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, vous souhaitez enregistrer les valeurs des propriétés suivantes pour une utilisation ultérieure lors du traitement des événements à partir du fichier journal.
 
@@ -434,7 +434,7 @@ En règle générale, vous souhaitez enregistrer les valeurs des propriétés su
 -   **PointerSize**: pour les propriétés qui contiennent le qualificateur de **pointeur** , utilisez cette valeur pour déterminer la taille du pointeur. Notez que cette valeur peut ne pas être exacte. Par exemple, sur un ordinateur 64 bits, une application 32 bits enregistre les pointeurs de 4 octets ; Toutefois, la session affecte la valeur 8 à **PointerSize** .
 -   **LogFileMode**: permet de déterminer si cette session est une session privée d’enregistreur d’événements. Certaines propriétés ne contiennent pas de données pour les sessions privées des journaux. Par exemple, les membres **KernelTime** et **UserTime** de la structure d' [**\_ \_ en-tête de trace d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

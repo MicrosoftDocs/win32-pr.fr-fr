@@ -4,12 +4,12 @@ ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: Modèles (format de fichier X, encodage de texte)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fccec46e72a73bb5ed4434fd252595e1b072ad4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e164b92c6c5738ad98b138941b1b2fda6c332068
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881028"
 ---
 # <a name="templates-x-file-format-text-encoding"></a>Modèles (format de fichier X, encodage de texte)
 
@@ -70,7 +70,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<dimension-size> peut être un entier ou une référence nommée à un autre membre de modèle dont la valeur est ensuite substituée. Les tableaux peuvent être multidimensionnels, où n est déterminé par le nombre de crochets appariés à la fin de l’instruction, comme dans l’exemple suivant.
+&lt;dimension-size &gt; peut être un entier ou une référence nommée à un autre membre de modèle dont la valeur est ensuite substituée. Les tableaux peuvent être multidimensionnels, où n est déterminé par le nombre de crochets appariés à la fin de l’instruction, comme dans l’exemple suivant.
 
 
 ```

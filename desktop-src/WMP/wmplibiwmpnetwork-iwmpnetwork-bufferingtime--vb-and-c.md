@@ -3,9 +3,9 @@ title: IWMPNetwork propriété bufferingTime
 description: La propriété bufferingTime obtient ou définit la durée en millisecondes allouée à la mise en mémoire tampon des données entrantes avant le début de la lecture.
 ms.assetid: b5936b21-a17b-4801-a5fc-c6d6521e05aa
 keywords:
-- propriété bufferingTime lecteur Windows Media
-- propriété bufferingTime lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété bufferingTime
+- Lecteur Windows Media de la propriété bufferingTime
+- Lecteur Windows Media de la propriété bufferingTime, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété bufferingTime
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8594d53797b028dd74a8ef11cb8f2fa64b3654cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d224e35dd9c87dad627e71f2ae07d3d0b9e24ee1b094cfa5dea549e86c69a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999989"
 ---
 # <a name="iwmpnetworkbufferingtime-property"></a>IWMPNetwork :: bufferingTime, propriété
 

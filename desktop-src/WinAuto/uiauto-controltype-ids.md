@@ -52,12 +52,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bbb2e0ada3ad1808fc7ba38321008b46dc358bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d488148497ae95f7b26157b043251e509f72aee577534ccccc07f9766551591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324963"
 ---
 # <a name="control-type-identifiers"></a>Identificateurs de type de contrôle
 
@@ -91,7 +91,7 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les ty
 | <span id="UIA_ProgressBarControlTypeId"></span><span id="uia_progressbarcontroltypeid"></span><span id="UIA_PROGRESSBARCONTROLTYPEID"></span><dl> <dt>**UIA \_ ProgressBarControlTypeId**</dt> <dt>50012</dt> </dl>     | Identifie le type de contrôle [ProgressBar](uiauto-supportprogressbarcontroltype.md) . <br/>                                                                               |
 | <span id="UIA_RadioButtonControlTypeId"></span><span id="uia_radiobuttoncontroltypeid"></span><span id="UIA_RADIOBUTTONCONTROLTYPEID"></span><dl> <dt>**UIA \_ RadioButtonControlTypeId**</dt> <dt>50013</dt> </dl>     | Identifie le type de contrôle [RadioButton](uiauto-supportradiobuttoncontroltype.md) . <br/>                                                                               |
 | <span id="UIA_ScrollBarControlTypeId"></span><span id="uia_scrollbarcontroltypeid"></span><span id="UIA_SCROLLBARCONTROLTYPEID"></span><dl> <dt>**UIA \_ ScrollBarControlTypeId**</dt> <dt>50014</dt> </dl>             | Identifie le type de contrôle [ScrollBar](uiauto-supportscrollbarcontroltype.md) . <br/>                                                                                   |
-| <span id="UIA_SemanticZoomControlTypeId"></span><span id="uia_semanticzoomcontroltypeid"></span><span id="UIA_SEMANTICZOOMCONTROLTYPEID"></span><dl> <dt>**UIA \_ SemanticZoomControlTypeId**</dt> <dt>50039</dt> </dl> | Identifie le type de contrôle [SemanticZoom](/windows/desktop/WinAuto/uiauto-supportsemanticzoomcontroltype) . Prise en charge à partir de Windows 8.<br/>                                       |
+| <span id="UIA_SemanticZoomControlTypeId"></span><span id="uia_semanticzoomcontroltypeid"></span><span id="UIA_SEMANTICZOOMCONTROLTYPEID"></span><dl> <dt>**UIA \_ SemanticZoomControlTypeId**</dt> <dt>50039</dt> </dl> | Identifie le type de contrôle [SemanticZoom](/windows/desktop/WinAuto/uiauto-supportsemanticzoomcontroltype) . Pris en charge à partir de Windows 8.<br/>                                       |
 | <span id="UIA_SeparatorControlTypeId"></span><span id="uia_separatorcontroltypeid"></span><span id="UIA_SEPARATORCONTROLTYPEID"></span><dl> <dt>**UIA \_ SeparatorControlTypeId**</dt> <dt>50038</dt> </dl>             | Identifie le type de contrôle [separator](uiauto-supportseparatorcontroltype.md) . <br/>                                                                                   |
 | <span id="UIA_SliderControlTypeId"></span><span id="uia_slidercontroltypeid"></span><span id="UIA_SLIDERCONTROLTYPEID"></span><dl> <dt>**UIA \_ SliderControlTypeId**</dt> <dt>50015</dt> </dl>                         | Identifie le type de contrôle [Slider](uiauto-supportslidercontroltype.md) . <br/>                                                                                         |
 | <span id="UIA_SpinnerControlTypeId"></span><span id="uia_spinnercontroltypeid"></span><span id="UIA_SPINNERCONTROLTYPEID"></span><dl> <dt>**UIA \_ SpinnerControlTypeId**</dt> <dt>50016</dt> </dl>                     | Identifie le type de contrôle [Spinner](uiauto-supportspinnercontroltype.md) . <br/>                                                                                       |
@@ -117,8 +117,8 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les ty
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                            |
 | En-tête<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 

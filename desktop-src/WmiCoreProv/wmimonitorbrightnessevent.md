@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 7e53f90627c959db0140b01cf3b3d385afcc6e73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4affedabdb7fde7cec93d3cf8eb675f343054635eb0b4a504d74d96dc3eb8d42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321407"
 ---
 # <a name="wmimonitorbrightnessevent-class"></a>WmiMonitorBrightnessEvent, classe
 
@@ -63,7 +63,7 @@ Indique le moniteur actif.
 
 </dd> <dt>
 
-**Luminosité**
+**Lumineuse**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt8**

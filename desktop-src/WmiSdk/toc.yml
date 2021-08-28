@@ -925,6 +925,14 @@
               href: wmiperfclass-provider.md
             - name: Fournisseur WmiPerfInst
               href: wmiperfinst-provider.md
+            - name: Classes d’inventaire des applications
+              href: applicationanddeviceinventory-portal.md
+            - name: Classe Win32_InstalledWin32Program
+              href: win32-installedwin32program.md
+            - name: Classe Win32_InstalledStoreProgram
+              href: win32-installedstoreprogram.md
+            - name: Classe Win32_InstalledProgramFramework
+              href: win32-installedprogramframework.md
         - name: Classes C++ de l’infrastructure du fournisseur WMI
           href: wmi-c-classes.md
           items:
@@ -3120,7 +3128,7 @@
     - name: Glossaire WMI
       href: wmi-glossary.md
       items:
-        - name: A
+        - name: Un
           href: gloss-a.md
         - name: C
           href: gloss-c.md

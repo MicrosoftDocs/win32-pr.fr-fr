@@ -4,23 +4,23 @@ description: Récupération de l’interface d’extraction
 ms.assetid: 760610eb-e356-4b50-b865-53557ba9b815
 keywords:
 - Lecteur Windows Media, extraction de CD
-- Modèle d’objet du lecteur Windows Media, extraction de CD
+- modèle d’objet Lecteur Windows Media, extraction de CD
 - modèle d’objet, extraction de CD
-- Contrôle Windows Media Player ActiveX, extraction de CD
-- Contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile, extraction de CD
+- contrôle de ActiveX Lecteur Windows Media, extraction de CD
+- contrôle de ActiveX, extraction de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, extraction de CD
+- Lecteur Windows Media Mobile, extraction de CD
 - Extraction de CD, interface IWMPCdromRip
 - extraction de CDs, interface IWMPCdromRip
 - Interface IWMPCdromRip
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903fa285404700e35363a94239c79706e7af0e34
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2179e4f38eee121d7b8fefc028adf232eb724264362396c8cacedfcc55b162d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103841962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002549"
 ---
 # <a name="retrieving-the-ripping-interface"></a>Récupération de l’interface d’extraction
 
@@ -88,9 +88,9 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 [**Interface IWMPCdromCollection**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

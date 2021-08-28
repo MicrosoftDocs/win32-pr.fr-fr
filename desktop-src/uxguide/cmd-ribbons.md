@@ -5,12 +5,12 @@ ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: cf74a58ae2fd9dda735c419f4ffa42b38d06c18c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: db5a64d50bd225b714c2ff0578145c47c66bedb557dd067e0cdf89f369178b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042557"
 ---
 # <a name="ribbons"></a>Rubans
 
@@ -355,7 +355,7 @@ En règle générale, si vous avez moins d’onglets, il est préférable de sup
 
 - **Utilisez un onglet modal pour afficher une collection de commandes qui s’appliquent à un mode temporaire particulier, et aucun des onglets principaux ne s’applique.** Si certains des onglets principaux s’appliquent, utilisez plutôt un onglet contextuel et désactivez les commandes qui ne s’appliquent pas. Étant donné que les onglets modaux sont très restrictifs, ils ne doivent être utilisés que lorsqu’il n’existe aucune meilleure solution.
 - ![capture d’écran de l’onglet Aperçu avant impression ](images/cmd-ribbons-image31.png)<br/>L’aperçu avant impression est un onglet modal couramment utilisé.
-- **Pour fermer un onglet modal, placez la &lt; commande en mode de fermeture &gt; comme dernière commande sous l’onglet.** Utilisez l’icône Fermer pour faciliter la recherche de la commande. Donnez le mode dans la commande pour éviter toute confusion concernant ce qui est fermé.
+- **Pour fermer un onglet modal, placez la <mode> commande fermer comme dernière commande sous l’onglet.** Utilisez l’icône Fermer pour faciliter la recherche de la commande. Donnez le mode dans la commande pour éviter toute confusion concernant ce qui est fermé.
 - ![capture d’écran du bouton Fermer l’aperçu avant impression ](images/cmd-ribbons-image32.png)<br/>Dans cet exemple, l’étiquetage explicite de la commande close avec le mode supprime tout doute sur ce qui est fermé.
 - **Pour fermer un onglet modal, redéfinissez également le bouton Fermer dans la barre de titre de la fenêtre pour fermer le mode au lieu du programme.** Les tests utilisateur ont montré que de nombreux utilisateurs s’attendent à ce comportement.
 
@@ -370,7 +370,7 @@ Dans la mesure du possible, mappez les commandes de votre programme à ces ongle
 - **Mise en page.** Contient des commandes qui affectent la mise en page, notamment les thèmes, la mise en page, l’arrière-plan, la mise en retrait, l’espacement et le positionnement. (Notez que les groupes de mise en retrait et d’espacement peuvent figurer à la place dans l’onglet dossier de démarrage, s’il y a suffisamment de place.) S’il est utilisé, il est toujours le troisième onglet.
 - **Révise.** Contient des commandes permettant d’ajouter des commentaires, de suivre les modifications et de comparer les versions.
 - **Affichage.** contient des commandes qui affectent la vue de document, notamment le mode d’affichage, les options afficher/masquer, le zoom, la gestion des fenêtres et les macros, qui se trouvent traditionnellement dans la catégorie de menu Windows. S’il est utilisé, il s’agit du dernier onglet normal, sauf si l’onglet Développeur est affiché.
-- **Revel.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
+- **Développeur.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
 
 La plupart des programmes n’ont pas besoin des onglets révision et développeur.
 
@@ -732,7 +732,7 @@ Quand vous faites référence à des rubans :
 - Reportez-vous aux éléments non disponibles comme indisponibles, non estompés, désactivés ou grisés. Dans documentation de programmation, utilisez désactivé.
 - Dans la mesure du possible, mettez en forme les étiquettes à l’aide du texte gras. Dans le cas contraire, placez les étiquettes entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 - Dans l’onglet dossier de **démarrage** , cliquez sur **Collage spécial**.
 - Dans l’onglet dossier de **démarrage** , dans la zone **police** , entrez « Segoe UI ».

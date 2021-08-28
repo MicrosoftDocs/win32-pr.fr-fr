@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a85473a394ce715ff9759e974a47824e5621509f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df4926ab89a6bb9a936fe5bdb27f921699bbe90a528842d81de96d8049412940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315303"
 ---
 # <a name="snmp-collections"></a>Regroupements SNMP
 
@@ -40,7 +40,7 @@ class SnmpObjectType:SnmpMacro
 };
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les règles suivantes s’appliquent lors du mappage de regroupements SNMP à des classes CIM. Sauf indication contraire, ces règles s’appliquent à la fois aux collections scalaires et aux collections de tables :
 

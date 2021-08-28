@@ -4,12 +4,12 @@ description: Retour d’informations sur l’erreur
 ms.assetid: 4206f2e5-db01-458c-93cb-10c5cd4a4536
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303db82dc220d09d4db7f52bf4c04ad1e5ca691f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 545c697be7da64362ecce0f5b4c45272832ad682d8b4dd0eb5234620b993e5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309641"
 ---
 # <a name="returning-error-information"></a>Retour d’informations sur l’erreur
 
@@ -22,6 +22,6 @@ ms.locfileid: "104382915"
 
 Les interfaces de gestion des erreurs créent et gèrent un objet d’erreur qui fournit des informations sur l’erreur. L’objet d’erreur n’est pas le même que l’objet qui a rencontré l’erreur. Il s’agit d’un objet distinct associé au thread d’exécution actuel.
 
- 
+ 
 
- 
+ 

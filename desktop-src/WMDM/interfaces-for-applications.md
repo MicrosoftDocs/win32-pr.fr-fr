@@ -3,25 +3,25 @@ title: Interfaces pour les applications
 description: Interfaces pour les applications
 ms.assetid: bea867d6-a875-4150-9958-7f683cd215b9
 keywords:
-- Windows Media Gestionnaire de périphériques, interfaces d’application
+- Windows Gestionnaire de périphériques de média, interfaces d’application
 - Gestionnaire de périphériques, interfaces d’application
 - applications de bureau, interfaces
 - Référence de programmation, interfaces d’application
-- référence pour Windows Media Gestionnaire de périphériques, interfaces d’application
+- référence pour les Gestionnaire de périphériques de média Windows, les interfaces d’application
 - plug-ins, interfaces
 - interfaces d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49d66272c42679fd38d01b0114a834ee6f33e92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 690b8419a7f04ef2b4eab1db65266027bdf5bcf3a102e59a95030a290e3747ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619953"
 ---
 # <a name="interfaces-for-applications"></a>Interfaces pour les applications
 
-Cette section décrit les interfaces utilisées ou implémentées par les applications utilisant le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques pour communiquer avec les appareils. Le terme « application » utilisé ici signifie un exécutable, un plug-in ou un objet COM existant sur un ordinateur de bureau et nécessitant une communication de haut niveau avec un appareil mobile connecté. Il peut s’agir d’une application de lecteur multimédia, d’un plug-in Windows Media Player (si elle a besoin d’un accès direct à un appareil portable) ou d’un objet COM de mesure Play-Count.
+cette section décrit les interfaces utilisées ou implémentées par les applications à l’aide du kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques pour communiquer avec les appareils. Le terme « application » utilisé ici signifie un exécutable, un plug-in ou un objet COM existant sur un ordinateur de bureau et nécessitant une communication de haut niveau avec un appareil mobile connecté. il peut s’agir d’une application de lecteur multimédia, d’un plug-in Lecteur Windows Media (si elle a besoin d’un accès direct à un appareil portable) ou d’un objet COM de mesure play-count.
 
 Certaines de ces interfaces sont implémentées par l’application, tandis que d’autres sont appelées par l’application. La documentation de chaque interface indique si elle est implémentée ou appelée (et si elle est implémentée, si elle est facultative ou obligatoire).
 
@@ -32,7 +32,7 @@ Les interfaces ou les classes suivantes sont utilisées par les applications.
 | Interface ou classe                                           | Description                                                                                                                                                                                                         |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [CSecureChannelClient, classe](csecurechannelclient-class.md) | Classe d’assistance qui permet aux applications de s’authentifier, de chiffrer et de déchiffrer des données et de créer des Mac.                                                                                                     |
-| [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager)                 | Interface Windows Media Gestionnaire de périphériques de niveau supérieur pour les applications.                                                                                                                                              |
+| [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager)                 | interface de Gestionnaire de périphériques de média de haut niveau Windows pour les applications.                                                                                                                                              |
 | [**IWMDeviceManager2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2)               | Étend **IWMDeviceManager** en fournissant des méthodes d’énumération avancées et d’autres méthodes.                                                                                                                           |
 | [**IWMDeviceManager3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager3)               | Étend l’interface **IWMDeviceManager2** en fournissant une méthode qui définit la préférence d’énumération d’appareil.                                                                                                      |
 | [**IWMDMDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice)                           | Fournit des méthodes pour examiner et explorer un seul appareil portable.                                                                                                                                                   |
@@ -58,7 +58,7 @@ Les interfaces ou les classes suivantes sont utilisées par les applications.
 
 
 
- 
+ 
 
 Interfaces de rappel
 
@@ -78,7 +78,7 @@ Les interfaces facultatives suivantes sont implémentées par une application af
 
 
 
- 
+ 
 
 Le diagramme suivant illustre la façon dont la plupart des interfaces d’application importantes sont acquises à partir de l’interface **IWMDeviceManager** racine. Une application obtient cette interface racine en cocréant l’objet MediaDevMgr, en demandant l’interface **IComponentAuthenticate** , en authentifiant le composant, puis en demandant le **IWMDeviceManager** (ces étapes sont décrites dans [authentification de l’application](authenticating-the-application.md)). Une fois cette interface racine acquise, [**IWMDeviceManager :: EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices) est appelé pour créer un objet qui implémente [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice). D’autres interfaces sont obtenues en appelant des méthodes sur des interfaces dans l’ordre indiqué. Les interfaces dérivées telles que [**IWMDMDevice2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2) sont obtenues en appelant **QueryInterface** sur l’interface de base.
 
@@ -93,9 +93,9 @@ Dans le diagramme suivant, les interfaces dérivées sont étiquetées par des b
 [**Guide de référence de programmation**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

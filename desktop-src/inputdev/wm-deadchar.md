@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6053095b912360e9875fa062c2daba7cafcfd43b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e4921d399c4a1c7a86596bfcc907b52d9c834235d133d6455b88c5a5a40c89a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778749"
 ---
 # <a name="wm_deadchar-message"></a>\_Message WM DEADCHAR
 
@@ -68,7 +68,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ DEADCHAR** est généralement utilisé par les applications pour fournir à l’utilisateur des commentaires sur chaque touche enfoncée. Par exemple, une application peut afficher l’accent à la position actuelle du caractère sans déplacer le signe insertion.
 

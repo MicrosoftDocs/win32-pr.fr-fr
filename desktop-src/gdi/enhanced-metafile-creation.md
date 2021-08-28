@@ -4,12 +4,12 @@ ms.assetid: b012e50e-a7f5-4687-9833-38dacc113d77
 title: Création de métafichiers améliorée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 080c350e41e895c5d4bf834a6f407cca5907743d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c89a4a05a18ecce4bc1b1fe3689e4f7a8dc64c833db4eac937da4f9a290dd3ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831989"
 ---
 # <a name="enhanced-metafile-creation"></a>Création de métafichiers améliorée
 
