@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6115e607f810aef67911ec7d7800d35207368e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4cef3fc1368e3973a4643d1130cb10dbe307f102cb195a341332476bb42c691
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939927"
 ---
 # <a name="inapenforcementclientconnectiongetsohrequest-method"></a>INapEnforcementClientConnection :: GetSoHRequest, méthode
 
@@ -70,7 +70,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur est définie par le NapAgent et interrogée par les enforceurs à envoyer sur le câble.
 
@@ -82,8 +82,8 @@ Un paquet SoH de longueur zéro octet n’est pas valide.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapEnforcementClient. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapEnforcementClient. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

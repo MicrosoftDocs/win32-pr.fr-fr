@@ -4,12 +4,12 @@ description: Avant d’effectuer un appel distant asynchrone, le client doit d�
 ms.assetid: 3d54b233-d8b0-45d1-b759-0d2d24c1e247
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11ff503f80c77b2403d683c2b644d89836365956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 041e33ec998da568aa6836d141e7208aa43025f28b60c2582a8fc30faee4f901
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931742"
 ---
 # <a name="client-side-asynchronous-pipe-handling"></a>Gestion de canal asynchrone côté client
 
@@ -25,9 +25,9 @@ Le programme client reçoit les données de canal asynchrone en appelant la fonc
 
 Si le mécanisme de notification est APC et que le serveur a retourné un \_ \_ appel asynchrone S asynchrone \_ \_ en attente, le client doit attendre qu’il reçoive le **RpcReceiveComplete** APC du runtime avant d’appeler à nouveau **pull** .
 
- 
+ 
 
- 
+ 
 
 
 

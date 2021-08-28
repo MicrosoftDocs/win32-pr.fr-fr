@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6992a904528cf961f27335e7241c50fbd14f058b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d4a6b01e45878b3eb2db6fe11b5fba4bf64c185b6e430e5af17007cd5a91953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938452"
 ---
 # <a name="glmapgrid2d-function"></a>glMapGrid2d fonction)
 
@@ -104,7 +104,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions **glMapGrid** et [glEvalMesh](glevalmesh-functions.md) sont utilisées en tandem pour générer et évaluer efficacement une série de valeurs de domaine de mappage uniformément espacées. La fonction glEvalMesh effectue un pas à pas dans le domaine entier d’une grille unidimensionnelle ou à deux dimensions, dont la plage est le domaine des mappages d’évaluation spécifiés par [**glMap1**](glmap1.md) et [**glMap2**](glmap2.md).
 

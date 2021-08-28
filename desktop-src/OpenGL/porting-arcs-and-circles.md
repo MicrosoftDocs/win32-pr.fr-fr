@@ -15,12 +15,12 @@ keywords:
 - fonctions de dessin, cercles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce17546ce17f24adf80641549d8843a473c8754
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72298caac6495d39c8a5d6cf7441b3b3664180d9e5396fb22106d9e138019b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936218"
 ---
 # <a name="porting-arcs-and-circles"></a>Portage des arcs et des cercles
 
@@ -35,7 +35,7 @@ Avec OpenGL, les arcs remplis et les cercles sont dessinés avec les mêmes appe
 
 
 
- 
+ 
 
 Vous pouvez effectuer quelques opérations avec des arcs et cercles OpenGL que vous ne pouvez pas faire avec IRIS GL. OpenGL appelle les courbes et les cercles, les disques et les disques partiels, respectivement.
 
@@ -47,9 +47,9 @@ Lorsque vous portez des arcs et des cercles, gardez à l’esprit les points sui
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

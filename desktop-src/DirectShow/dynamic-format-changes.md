@@ -4,16 +4,16 @@ ms.assetid: ff60de5a-3edc-405d-aa02-8704b96d5e87
 title: Modifications de format dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49496e0b43d9b120f6daf27007cde98191a7765b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 87ce6d30b13458694b740bfb7bed8498c0f54d5b19648a484c5330d2b7627eab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998359"
 ---
 # <a name="dynamic-format-changes"></a>Modifications de format dynamique
 
-Lorsque deux filtres se connectent, ils s’accordent sur un type de média, qui décrit le format des données que le filtre en amont va distribuer. Dans la plupart des cas, le type de média est fixe pour la durée de la connexion. Toutefois, DirectShow offre une prise en charge limitée des filtres pour modifier le type de média. Lorsqu’un filtre change de type de média, il est appelé une *modification de format dynamique*. Si vous écrivez un filtre DirectShow, vous devez être conscient des mécanismes pour les modifications de format dynamique. Même si votre filtre ne prend pas en charge ces modifications, il doit répondre correctement si un autre filtre demande un nouveau format.
+Lorsque deux filtres se connectent, ils s’accordent sur un type de média, qui décrit le format des données que le filtre en amont va distribuer. Dans la plupart des cas, le type de média est fixe pour la durée de la connexion. toutefois, DirectShow offre une prise en charge limitée des filtres pour modifier le type de média. Lorsqu’un filtre change de type de média, il est appelé une *modification de format dynamique*. si vous écrivez un filtre DirectShow, vous devez être conscient des mécanismes pour les modifications de format dynamique. Même si votre filtre ne prend pas en charge ces modifications, il doit répondre correctement si un autre filtre demande un nouveau format.
 
 DirectShow définit plusieurs mécanismes distincts pour les modifications de format dynamiques, en fonction de l’état du graphique de filtre et du type de modification requis.
 

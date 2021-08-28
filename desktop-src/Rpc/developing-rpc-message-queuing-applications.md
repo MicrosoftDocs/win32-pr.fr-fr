@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, développement d’applications Message Queuing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3e51707c0a6903200e51dd35e50e998430c8eae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09cf7b3a5d6d33facebb1de6a3c0f37eb9ba48f2afa54e6143ad5cb0169ad601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930572"
 ---
 # <a name="developing-rpc-message-queuing-applications"></a>Développement d’applications de mise en file d’attente RPC-Message
 
@@ -40,10 +40,10 @@ Le processus du serveur RPC peut contrôler la durée de vie de sa file d’atte
 > [!Note]  
 > Si vous utilisez des \[ appels de [**message**](/windows/desktop/Midl/message) asynchrones \] dans une interface, vous devez inscrire l’interface en appelant [**RpcServerRegisterIf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif) ou [**RpcServerRegisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex) avant d’appeler [**RpcServerUseProtseqEpEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex)**(ncadg \_ mq)**. Une fois que vous activez la séquence de protocole, tous les appels déjà en attente sur la file d’attente pour le serveur commencent à être lus dans la file d’attente. Si l’interface RPC correspondante n’a pas été inscrite, les appels échouent. Cette situation peut se produire si vous avez configuré un point de terminaison permanent pour vos appels de procédure distante, que le serveur a été arrêté et que les clients ont continué à envoyer des appels au serveur. Ces appels sont empilés dans la file d’attente, en attente de lecture une fois que le serveur est de nouveau en ligne.
 
- 
+ 
 
 Pour plus d’informations, consultez [**RpcBindingSetOption**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption), [**RpcServerUseProtseqEpEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex)et \[ [**message**](/windows/desktop/Midl/message) \] , [**ncadg \_ MQ**](/windows/desktop/Midl/ncadg-mq).
 
- 
+ 
 
- 
+ 

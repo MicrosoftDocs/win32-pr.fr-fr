@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e35570de80433ed2c6ad52ff1773e34a07fa8f04
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8ba0dfa0056393b44fdd6c843b0455113662f09c4045cf35a7bc3f839346810a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426762"
 ---
 # <a name="ms-ds-failed-interactive-logon-count-attribute"></a>ms-DS-échec-interactif-attribut de nombre d’ouvertures de session
 
@@ -36,13 +36,13 @@ Nombre total d’ouvertures de session interactives ayant échoué depuis que ce
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1972              |
 | System-ID-GUID    | dc3ca86f-70ad-4960-8425-a4d6313d93dd |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

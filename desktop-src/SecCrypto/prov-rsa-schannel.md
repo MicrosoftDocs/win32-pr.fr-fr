@@ -4,12 +4,12 @@ ms.assetid: f0c11a04-7931-424a-b085-0cc584ea7bb7
 title: PROV_RSA_SCHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a76d7f5339f2e7f60ac34705437b1ef0a773fd6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b22e3f7a9681625675387fb71532a2a6dd86a9a808e1fab03e4abf83c4008fa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901579"
 ---
 # <a name="prov_rsa_schannel"></a>PROUVER \_ RSA \_ Schannel
 
@@ -23,7 +23,7 @@ Pour obtenir une description de chacun de ces algorithmes, consultez le Glossair
 
 | Objectif      | Algorithmes pris en charge                                                                                                                                                                                                                                                                                                          |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Échange de clés | [*RSA*](../secgloss/r-gly.md)                                                                                                                                                                                                                                                                   |
+| Exchange de clé | [*RSA*](../secgloss/r-gly.md)                                                                                                                                                                                                                                                                   |
 | Signature    | RSA                                                                                                                                                                                                                                                                                                                           |
 | Chiffrement   | N’importe \_ quel \_ CSP Prov-RSA SChannel doit implémenter un ou plusieurs des algorithmes suivants : [ *RC4*](../secgloss/r-gly.md)<br/> [*DES*](../secgloss/d-gly.md)<br/> [*Triple DES*](../secgloss/t-gly.md)<br/> |
 | Hashing      | [](../secgloss/m-gly.md)[*Hachage* MD5](../secgloss/s-gly.md)<br/>                                                                                                                                                                                             |

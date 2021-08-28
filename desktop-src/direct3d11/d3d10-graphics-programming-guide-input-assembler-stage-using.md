@@ -4,12 +4,12 @@ description: Les valeurs générées par le système sont générées par l’é
 ms.assetid: eed1e377-4b0e-4958-b6d4-945b2a952ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccdc723d335fd78277051099ec05b43ed954174d
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 1bbf190ed0c2d5cb4ce38cb3582d64d6d28daddac850e3ae3331254b86714724
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046657"
 ---
 # <a name="using-system-generated-values"></a>Utilisation des valeurs de System-Generated
 
@@ -47,7 +47,7 @@ Un ID d’instance est utilisé par chaque étape du nuanceur pour identifier l�
 
 L’étape IA ajoute un ID d’instance à chaque vertex si la déclaration d’entrée du nuanceur de sommets comprend la sémantique de l’ID d’instance. Pour chaque appel de dessin indexé, l’ID d’instance est incrémenté de 1. Tous les autres appels de dessin ne modifient pas la valeur de l’ID d’instance. Si l’ID d’instance déborde (dépasse 2 ³ ² – 1), il est renvoyé à la ligne à 0.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’illustration suivante montre comment les valeurs système sont attachées à une bande de triangle instance dans l’étape IA.
 

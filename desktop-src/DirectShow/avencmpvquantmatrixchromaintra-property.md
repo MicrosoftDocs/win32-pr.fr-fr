@@ -4,12 +4,12 @@ ms.assetid: 9da6130f-c064-4b6b-b0ab-ba99118fd249
 title: Propriété AVEncMPVQuantMatrixChromaIntra (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7253a3064acbff74ce22134a40a52d87c78113a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 180cfe120b1984c5149d8c670a11203b86d8809fbd04b54971a2a690a496ddcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159490"
 ---
 # <a name="avencmpvquantmatrixchromaintra-property"></a>Propriété AVEncMPVQuantMatrixChromaIntra
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est une chaîne qui contient les coefficients 64 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

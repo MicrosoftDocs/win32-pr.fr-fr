@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI de networkclient Win32 représente un client réseau sur un système Windows. Tout système informatique sur le réseau avec une relation client avec le système est un descendant (ou membre) de cette classe.
+description: la \_ classe WMI NetworkClient WMI représente un client réseau sur un système de Windows. Tout système informatique sur le réseau avec une relation client avec le système est un descendant (ou membre) de cette classe.
 ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
 ms.tgt_platform: multiple
 title: Classe Win32_NetworkClient
@@ -20,16 +20,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 54579073b3974a6c4954ef95b1da3fe2e9fd8348
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14abd69af85118068681971299f26f9692b1d9ae6b7e18816e3bdba12cee890c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972619"
 ---
 # <a name="win32_networkclient-class"></a>\_Classe networkclient Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) de **\_ networkclient Win32** représente un client réseau sur un système Windows. Tout système informatique sur le réseau avec une relation client avec le système est un descendant (ou membre) de cette classe.
+la [classe WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkClient** WMI représente un client réseau sur un système de Windows. Tout système informatique sur le réseau avec une relation client avec le système est un descendant (ou membre) de cette classe.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -144,9 +144,9 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ LanmanWorkstation \\ \\ NetworkProvider \| Name")
 </dt> </dl>
 
-Nom réseau du client réseau s’exécutant sur le système d’exploitation exécutant Windows.
+Nom réseau du client réseau en cours d’exécution sur le système de l’ordinateur exécutant Windows.
 
-Exemple : « réseau Microsoft Windows »
+exemple : « Microsoft Windows Network »
 
 </dd> <dt>
 
@@ -258,7 +258,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ networkclient** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

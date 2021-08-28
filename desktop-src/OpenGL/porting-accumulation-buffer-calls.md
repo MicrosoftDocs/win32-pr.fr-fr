@@ -10,12 +10,12 @@ keywords:
 - mémoires tampons d’accumulation OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ca91cb3ba35535ba2470297070dffc932a1c33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f8a9e1999da2d76f19f6cc0a4c86072f68a1aa239829edcb3f22bf8c873ed181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936238"
 ---
 # <a name="porting-accumulation-buffer-calls"></a>Portage des appels de tampon d’accumulation
 
@@ -32,7 +32,7 @@ Vous devez allouer votre mémoire tampon d’accumulation en demandant le format
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les paramètres **acbuf** de l’iris du GL ainsi que les paramètres [**glAccum**](glaccum.md) OpenGL équivalents.
 
@@ -48,11 +48,11 @@ Le tableau suivant répertorie les paramètres **acbuf** de l’iris du GL ainsi
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 427ed51c2757075ccb28fd70e5554c49dc8db4e8
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: fffc56a699e059adb5096489a7f643297251002e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986822"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477445"
 ---
 # <a name="temporary-database-parameters"></a>Paramètres de base de données temporaires
 
@@ -37,19 +37,7 @@ Cette rubrique contient les paramètres utilisés pour la base de données tempo
 Ce paramètre contrôle l’utilisation des transactions dans les tables temporaires. Lorsque ce paramètre a la valeur false, les tables temporaires sont plus rapides, mais il n’est pas possible de restaurer les mises à jour effectuées dans une transaction.
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| <p>Valeur par défaut :</p> | <p>Vrai</p> | 
-| <p>Tapez :</p> | <p>Booléen</p> | 
-| <p>Plage valide :</p> | <p>False, True</p> | 
-| <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
-| <p>Affecte les performances :</p> | <p>Yes</p> | 
-| <p>Affecte les ressources :</p> | <p>Yes</p> | 
-| <p>Disponibilité :</p> | <p>Tous</p> | 
+| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -61,19 +49,7 @@ Ce paramètre contrôle la taille initiale de la base de données temporaire. La
 Il est souvent souhaitable que les petites applications configurent la base de données temporaire aussi petite que possible. L’affectation de la valeur 14 à ce paramètre permet d’obtenir la plus petite base de données temporaire possible. Notez qu’il est également possible d’éliminer entièrement la base de données temporaire en affectant à **JET_paramMaxTemporaryTables** la valeur zéro.
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| <p>Valeur par défaut :</p> | <p>0</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
-| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
-| <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>Yes</p> | 
-| <p>Affecte les ressources :</p> | <p>Yes</p> | 
-| <p>Disponibilité :</p> | <p>Tous</p> | 
+| | | <p>Valeur par défaut :</p> | <p>0</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -85,30 +61,14 @@ Ce paramètre indique le chemin d’accès relatif ou absolu du système de fich
 **Remarque**  Si un chemin d’accès relatif est spécifié, il est relatif au répertoire de travail actuel du processus qui héberge l’application qui utilise le moteur de base de données.
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| <p>Valeur par défaut :</p> | <p>« tmp. edb »</p> | 
-| <p>Tapez :</p> | <p>Path (chaîne)</p> | 
-| <p>Plage valide :</p> | <p>0 – 247 caractères</p> | 
-| <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
-| <p>Disponibilité :</p> | <p>Tous</p> | 
+| | | <p>Valeur par défaut :</p> | <p>« tmp. edb »</p> | | <p>Tapez :</p> | <p>Path (chaîne)</p> | | <p>Plage valide :</p> | <p>0 – 247 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
-| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 06d276e2d8e75e8822cee3503a7e8342a94a6b0b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0da608dcafc8fc0c2341a053679dee0f8d2715c34dcbfb28e84bee02aa658093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900759"
 ---
 # <a name="recipientsremove-method"></a>Recipients. Remove, méthode
 
@@ -58,7 +58,7 @@ Cette méthode ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c760876160d8ce1cbc0423639a59218c79716481
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4d1adb4a490b047329277c4092a68563ffc4bf5d4bb1dbfd866bb849d9f561a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634559"
 ---
 # <a name="d3dx10savetexturetofile-function"></a>D3DX10SaveTextureToFile fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md). Utilisez la valeur de retour pour voir si le *DestFormat* est pris en charge.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D3DX10SaveTextureToFile** écrit la structure [**\_ \_ DXT10 en-tête DDS**](../direct3ddds/dds-header-dxt10.md) supplémentaire pour la texture d’entrée uniquement si nécessaire (par exemple, parce que la texture d’entrée est au format RVB standard (sRVB)). Si **D3DX10SaveTextureToFile** écrit la structure **DXT10 de l' \_ en-tête \_ DDS** , il définit le membre **dwFourCC** de la structure [**DDS \_ PIXELFORMAT**](../direct3ddds/dds-pixelformat.md) pour la texture sur **facilement** pour indiquer le Prescense de l’en-tête étendu DXT10 de l' **\_ en-tête \_ DDS** .
 

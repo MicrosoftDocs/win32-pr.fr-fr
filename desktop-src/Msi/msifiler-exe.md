@@ -4,12 +4,12 @@ ms.assetid: cc3db60b-0b1d-4582-8b40-0b55f83e00be
 title: Msifiler.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d7aeceae7abd8a9786079788e68c7d7bda35ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d3306fdae929c3659baf07668486fdf8a828012ce3142e4285bde8ad7a6c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679639"
 ---
 # <a name="msifilerexe"></a>Msifiler.exe
 
@@ -27,7 +27,7 @@ Msifiler.exe utilise les options de ligne de commande suivantes qui ne respecten
 
 | Option | Paramètre   | Description                                                                                                                                                                  |
 |--------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -d     | *database*  | La base de données (fichier. msi) à mettre à jour.                                                                                                                              |
+| -d     | *database*  | Base de données (fichier .msi) à mettre à jour.                                                                                                                              |
 | -v     |             | Utilisez le mode détaillé.                                                                                                                                                            |
 | -H     |             | Remplissez la [table MsiFileHash](msifilehash-table.md). La table est créée si elle n’existe pas déjà. La table MsiFileHash peut uniquement être utilisée avec des fichiers sans version. |
 | -S     | *Altsource* | Altsource spécifie un autre répertoire pour rechercher les fichiers.                                                                                                              |
@@ -36,13 +36,13 @@ Msifiler.exe utilise les options de ligne de commande suivantes qui ne respecten
 
  
 
-Cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Utilisation de la table Directory](using-the-directory-table.md)

@@ -41,7 +41,7 @@ Indique si Active Directory stockera le mot de passe dans le format de chiffreme
 | Fréquence des mises à jour  | \-                                         |
 | Attribute-Id      | 1.2.840.113556.1.4.1856                    |
 | System-ID-GUID    | 5a87c7f2-93c5-454c-a8c5-8cb09613292e       |
-| Syntaxe            | [**Expression**](s-boolean.md)               |
+| Syntaxe            | [**Boolean**](s-boolean.md)               |
 
 
 
@@ -57,10 +57,10 @@ Indique si Active Directory stockera le mot de passe dans le format de chiffreme
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | False                                                             |
-| Est de valeur unique       | True                                                              |
-| Est indexé             | False                                                             |
-| Dans le catalogue global      | False                                                             |
+| System-Only            | Faux                                                             |
+| Est de valeur unique       | Vrai                                                              |
+| Est indexé             | Faux                                                             |
+| Dans le catalogue global      | Faux                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |

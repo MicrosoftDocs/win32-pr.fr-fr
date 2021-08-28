@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8440e1a255968eb3e1607b5d54375900f7b5de16
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec6d2cfb8457a748b7bb7bbdda481a0a1f73e5331891d45bd1bf1cabdfe0c5c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886379"
 ---
 # <a name="wm_exitmenuloop-message"></a>\_Message WM EXITMENULOOP
 
@@ -54,7 +54,7 @@ Ce paramètre n'est pas utilisé.
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) retourne la valeur zéro.
 

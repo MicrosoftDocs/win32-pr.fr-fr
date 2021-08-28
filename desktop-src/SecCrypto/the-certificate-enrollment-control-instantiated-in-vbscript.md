@@ -1,5 +1,5 @@
 ---
-description: Exemple de Visual Basic Scripting Edition (VBScript) qui utilise la balise OBJECT pour créer une instance de l’objet de contrôle d’inscription de certificat.
+description: exemple VBScript (Visual Basic scripting Edition) qui utilise la balise object pour créer une instance de l’objet de contrôle d’inscription de certificat.
 ms.assetid: 6e2a230e-81c1-4b63-9ad5-3edfc239ad7c
 title: Contrôle d’inscription de certificat instancié dans VBScript
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4da14c55a3c9005f820be8f8d60026bc31ac4920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68de4532e00f95156b0016a55d4ae7b6374936e82ef26ee04cfbf4dc0e4c72c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897310"
 ---
 # <a name="the-certificate-enrollment-control-instantiated-in-vbscript"></a>Contrôle d’inscription de certificat instancié dans VBScript
 
-L’exemple de Visual Basic Scripting Edition suivant (VBScript) utilise la balise OBJECT pour créer une instance de l’objet de contrôle d’inscription de certificat. L’objet est libéré de la mémoire lorsqu’il est hors de portée.
+l’exemple VBScript (Visual Basic scripting Edition) suivant utilise la balise object pour créer une instance de l’objet de contrôle d’inscription de certificat. L’objet est libéré de la mémoire lorsqu’il est hors de portée.
 
 
 ```VB

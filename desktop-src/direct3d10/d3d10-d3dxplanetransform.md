@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9b1d16ba2a29d42614c388a6207503ad32dd5e0f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0b686a0e279a16650a976920ee812b23cfe0345409926fd6c02166cdb4572235
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070059"
 ---
 # <a name="d3dxplanetransform-function-d3dx10mathh"></a>D3DXPlaneTransform, fonction (D3DX10Math. h)
 
@@ -69,7 +69,7 @@ Pointeur vers la structure source [**D3DXMATRIX**](d3d10-d3dxmatrix.md) , qui co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 

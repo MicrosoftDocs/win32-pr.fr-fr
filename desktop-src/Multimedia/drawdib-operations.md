@@ -13,12 +13,12 @@ keywords:
 - DrawDibClose fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc366287cdf481d70ef03aa82df5ea248673280b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d331e2524c8b46c9e0781d1ff43a99b72a160a2b05acae7b853aabcbb9b8f0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941240"
 ---
 # <a name="drawdib-operations"></a>Opérations DrawDib
 
@@ -33,7 +33,7 @@ Pour s’exécuter efficacement, les fonctions DrawDib requièrent des informati
 > [!Note]  
 > La récupération et le stockage du profil d’affichage est généralement une occurrence unique. Toutefois, si les informations de profil sont supprimées ou si un autre pilote d’affichage est installé dans le système, DrawDib réexécute les tests.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,9 +42,9 @@ Pour s’exécuter efficacement, les fonctions DrawDib requièrent des informati
 [À propos des fonctions DrawDib](about-the-drawdib-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

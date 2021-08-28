@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c6a1dc2c9c4f3effb58f91e38e6cb8ee76478dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ac286b571823e09c6b4725ce9319f076e6b432833b794a77f793b9383f5eba62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011815"
 ---
 # <a name="print-media-supported-attribute"></a>Print-attribut pris en charge par le support
 
@@ -45,7 +45,7 @@ Liste des médias pris en charge par une imprimante.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

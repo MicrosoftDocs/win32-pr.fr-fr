@@ -4,12 +4,12 @@ description: Un descripteur de corrélation est une chaîne de format qui décri
 ms.assetid: 9f5f5077-d6a9-4253-bddf-b8cd0c868973
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f13f0793b99b80b7abb0b493c249b30ad53d76
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cbbeb682a7c558cd8c45050d27ea9bf64c39016a056a88566aef7048f3c0d610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022358"
 ---
 # <a name="correlation-descriptors"></a>Descripteurs de corrélation
 
@@ -71,7 +71,7 @@ Pour la conformité de niveau supérieur d’un tableau multidimensionnel décri
 > [!Note]  
 > Les pointeurs et les tableaux de taille multidimensionnelle déclenchent un commutateur à [**– Oicf**](/windows/desktop/Midl/-oi).
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ FC_HYPER
 >
 > Le compilateur définit le Quartet de type sur zéro dans les cas suivants : expression constante mentionnée ci-dessus et lorsque la routine d’expression d’évaluation doit être appelée, par exemple, lorsque la conformité à la \_ constante FC \_ et le \_ rappel FC sont utilisés.
 
- 
+ 
 
 La taille \_ est le \_ champ op<1> permet d’appliquer l’une des opérations suivantes à la variable de conformité :
 
@@ -118,7 +118,7 @@ Pour la conformité de niveau supérieur, le champ de décalage contient le déc
 
 Lorsque l’offset<2> est utilisé avec \_ le rappel FC, il contient un index dans la table de routine d’évaluation d’expression générée par le compilateur. Le message stub est passé à la routine d’évaluation, qui calcule ensuite la valeur de conformité et l’assigne au champ MaxCount du message stub.
 
-Le \_ champ indicateurs robustes<2> a été ajouté pour Windows 2000 afin de prendre en charge [**/Robust**](/windows/desktop/Midl/-robust), par exemple la fonctionnalité de refus d’attaques. Les indicateurs suivants sont définis sur le premier octet :
+le \_ champ indicateurs robustes<2> a été ajouté pour Windows 2000 afin de prendre en charge [**/robust**](/windows/desktop/Midl/-robust), par exemple la fonctionnalité de refus d’attaques. Les indicateurs suivants sont définis sur le premier octet :
 
 ``` syntax
 typedef  struct  _NDR_CORRELATION_FLAGS
@@ -143,6 +143,6 @@ Le format du champ Description de l’écart est identique au champ Description 
 
 Avec la variance, le décalage de départ est généralement égal à zéro et le moteur est réglé en conséquence. Si le **premier attribut \_ est ()** est appliqué à un tableau variable conforme, un rappel à une routine d’évaluation d’expression est forcé.
 
- 
+ 
 
- 
+ 

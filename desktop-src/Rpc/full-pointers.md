@@ -4,12 +4,12 @@ description: Contrairement aux pointeurs uniques, les pointeurs complets prennen
 ms.assetid: 38023942-a4c2-4de7-b7d5-10d508cf083b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18687b496ddd28dca9e70afca8deafb18774500a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2bdbdc223125889eeb1849e60d162e5690b5c307b18b6667d43c578a46282400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021253"
 ---
 # <a name="full-pointers"></a>Pointeurs complets
 
@@ -45,6 +45,6 @@ Dans cet exemple, les paramètres *ptrName1* et *ptrName2* sont définis comme d
 
 \[**pointeur** \] est requis pour fournir la prise en charge des alias. Toutefois, étant donné qu’elle nécessite le plus grand traitement de tous les pointeurs disponibles dans RPC, elle n’est pas recommandée pour la plupart des applications.
 
- 
+ 
 
- 
+ 

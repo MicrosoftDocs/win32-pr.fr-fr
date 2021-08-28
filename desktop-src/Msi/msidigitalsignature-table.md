@@ -4,22 +4,22 @@ ms.assetid: 63d62152-4f01-454f-bdea-550f2a9f6b14
 title: Table MsiDigitalSignature
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0ec22b9a399b6248fd3b2781e1ac8d7ae14324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d18514747e5bb99f03bacc792f9a9ec311e28006b837061ce96088c3b723bf93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679788"
 ---
 # <a name="msidigitalsignature-table"></a>Table MsiDigitalSignature
 
 La table MsiDigitalSignature contient les informations de signature pour chaque objet signé numériquement dans la base de données d’installation.
 
-Les tables MsiDigitalSignature et [MsiDigitalCertificate](msidigitalcertificate-table.md) sont disponibles à partir de Windows Installer version 2,0.
+les tables MsiDigitalSignature et [MsiDigitalCertificate](msidigitalcertificate-table.md) sont disponibles à partir de Windows Installer version 2,0.
 
-Windows Installer version peut utiliser des signatures numériques pour détecter les ressources endommagées. Windows Installer 2,0 peut uniquement vérifier les signatures numériques des armoires externes, et uniquement à l’aide des tables MsiDigitalSignature et [MsiDigitalCertificate](msidigitalcertificate-table.md) .
+Windows La version du programme d’installation peut utiliser des signatures numériques pour détecter les ressources endommagées. Windows Le programme d’installation 2,0 peut uniquement vérifier les signatures numériques des armoires externes, et uniquement à l’aide des tables MsiDigitalSignature et [MsiDigitalCertificate](msidigitalcertificate-table.md) .
 
-À partir de Windows Installer 3,0, le Windows Installer peut vérifier les signatures numériques des correctifs (fichiers. msp) à l’aide des tables [MsiPatchCertificate](msipatchcertificate-table.md) et MsiDigitalCertificate. Pour plus d’informations, consultez Instructions pour la création d’une mise à [jour corrective](user-account-control--uac--patching.md)des [installations sécurisées et du contrôle de compte d'](guidelines-for-authoring-secure-installations.md) utilisateur.
+à partir de Windows Installer 3,0, le Windows Installer peut vérifier les signatures numériques des correctifs (fichiers. msp) à l’aide des tables [MsiPatchCertificate](msipatchcertificate-table.md) et MsiDigitalCertificate. Pour plus d’informations, consultez Instructions pour la création d’une mise à [jour corrective](user-account-control--uac--patching.md)des [installations sécurisées et du contrôle de compte d'](guidelines-for-authoring-secure-installations.md) utilisateur.
 
 La table MsiDigitalSignature contient les colonnes suivantes.
 
@@ -27,7 +27,7 @@ La table MsiDigitalSignature contient les colonnes suivantes.
 
 | Colonne               | Type                         | Clé | Nullable |
 |----------------------|------------------------------|-----|----------|
-| Table de charge de travail                | [Identificateur](identifier.md) | O   | N        |
+| Table                | [Identificateur](identifier.md) | O   | N        |
 | SignObject           | [Text](text.md)             | O   | N        |
 | DigitalCertificate\_ | [Identificateur](identifier.md) | N   | N        |
 | Hachage                 | [Binaire](binary.md)         | N   | O        |
@@ -43,7 +43,7 @@ La table MsiDigitalSignature contient les colonnes suivantes.
 <span id="Table"></span><span id="table"></span><span id="TABLE"></span>Tableau
 </dt> <dd>
 
-Avec la version de Windows Installer 2,0, l’entrée de ce champ doit être « Media » pour la [table Media](media-table.md). Le programme d’installation vérifie uniquement les signatures numériques sur les entrées de média du fichier CAB externe. Cette colonne et la colonne SignObject spécifient ensemble la ressource signée numériquement.
+avec la version de Windows Installer 2,0, l’entrée de ce champ doit être « Media » pour la [table media](media-table.md). Le programme d’installation vérifie uniquement les signatures numériques sur les entrées de média du fichier CAB externe. Cette colonne et la colonne SignObject spécifient ensemble la ressource signée numériquement.
 
 </dd> <dt>
 

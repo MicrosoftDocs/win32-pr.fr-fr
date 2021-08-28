@@ -3,7 +3,7 @@ title: PLAYLIST. dropDownList
 description: L’attribut dropDownList spécifie ou récupère une valeur indiquant les éléments qui apparaissent dans la zone de liste déroulante pour une instance donnée de l’élément de sélection.
 ms.assetid: 583041b0-25dc-4015-a3b2-37f3cfdcd496
 keywords:
-- Lecteur Windows Media PLAYLIST. dropDownList
+- PLAYLIST. dropDownList Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4acf98dec7d50e2a3cd0b53acc07b0b8695f8461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d2883f353084dc5eff96fc68305fbf13e0deb7ce0f9b83d6b8a31ac9fc2b8e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835108"
 ---
 # <a name="playlistdropdownlist"></a>PLAYLIST. dropDownList
 
@@ -48,7 +48,7 @@ Cet attribut est une **chaîne** en lecture/écriture contenant l’une des vale
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

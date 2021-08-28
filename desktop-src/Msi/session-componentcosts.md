@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a6ef4e3bfd441f5de61c0f3d69aea93d6cfd2ed8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 643996bccd352695651fb55f2ddcb33c0888773f4d99283f646a7fcb498c4074
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629519"
 ---
 # <a name="sessioncomponentcosts-property"></a>Session. ComponentCosts, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.ComponentCosts
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir le coût total, ajoutez les coûts pour tous les composants ainsi que le coût du moteur d’installation (composant = "").
 

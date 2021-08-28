@@ -4,12 +4,12 @@ description: Implémentation de l’activation In-Place
 ms.assetid: 5fd67d1c-1dc5-4d83-a41e-b64d84cbf212
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c075f143c772fe34de0c494664227e892b998387
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 037fea98524b70f1d9d43dcef5909376ac136c5ea077bcbea06a663898ced354
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070819"
 ---
 # <a name="implementing-in-place-activation"></a>Implémentation de l’activation In-Place
 
@@ -36,9 +36,9 @@ Dans le cas d’un serveur local, la fenêtre d’activation sur place appartien
 [Documents composés](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ffcb312bd450b7c468a1fc83d57ff91b102db8a1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 16fea89fba49c832365f8fbfcf843e77bd43709e15da58a79ba748936214f3b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043627"
 ---
 # <a name="texture2dgathercmpgreensfloatfloatint2int2int2int2-function"></a>Texture2D :: GatherCmpGreen (S, float, float, Int2, Int2, Int2, Int2), fonction
 
@@ -114,7 +114,7 @@ Type : **TemplateType**
 
 Valeur à quatre composants dont le type est identique au type de modèle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -122,7 +122,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

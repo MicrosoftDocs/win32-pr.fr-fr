@@ -1,19 +1,19 @@
 ---
-description: L’exemple de fichier de code VBScript WiTextIn.vbs est fourni dans les composants SDK Windows pour les développeurs Windows Installer.
+description: l’exemple de fichier de code VBScript WiTextIn.vbs est fourni dans les composants SDK Windows pour les développeurs Windows Installer.
 ms.assetid: ba6c6367-ebb1-4981-ae3a-bcff68aacdbf
 title: Copier le fichier ANSI dans un champ de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dc6c4d3a945177581a35bf6b19d89855abb5ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a65f38425fac327abd8eddaf9183464355ae025bb209947c750d4e3414d9b917
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631329"
 ---
 # <a name="copy-ansi-file-into-a-database-field"></a>Copier le fichier ANSI dans un champ de base de données
 
-L’exemple de fichier de code VBScript WiTextIn.vbs est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). L’exemple montre comment utiliser un script pour copier un fichier dans un champ de texte d’une base de données Windows Installer, et illustre le traitement des données de clé primaire.
+l’exemple de fichier de code VBScript WiTextIn.vbs est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). l’exemple montre comment utiliser un script pour copier un fichier dans un champ de texte d’une base de données Windows Installer, et illustre le traitement des données de clé primaire.
 
 L’exemple de code vous montre également les éléments suivants :
 
@@ -22,7 +22,7 @@ L’exemple de code vous montre également les éléments suivants :
 -   [**Méthode fetch**](view-fetch.md) et [**méthode modify**](view-modify.md) de l' [**objet View**](view-object.md)
 -   [**Propriété StringData**](record-stringdata.md) et [**méthode ReadStream**](record-readstream.md) de l' [**objet record**](record-object.md)
 
-Pour utiliser l’exemple de code, vous avez besoin de la version CScript.exe ou WScript.exe de Windows Script Host.
+pour utiliser l’exemple de code, vous avez besoin de la CScript.exe ou WScript.exe version de Windows Script Host.
 
 **Pour utiliser CScript.exe pour exécuter cet exemple**
 
@@ -46,7 +46,7 @@ Pour utiliser l’exemple de code, vous avez besoin de la version CScript.exe ou
 
 La liste suivante identifie les éléments que vous devez spécifier :
 
--   Spécifiez le chemin d’accès à la base de données Windows Installer.
+-   spécifiez le chemin d’accès à la base de données Windows Installer.
 -   Spécifiez le nom de la table de base de données.
 -   Spécifiez toutes les valeurs de clé primaire pour la ligne, dans l’ordre, et concaténées avec les signes deux-points.
 -   Spécifiez un nom de colonne qui n’est pas une colonne clé. Il s’agit de la colonne à laquelle vous souhaitez recevoir les données.
@@ -57,7 +57,7 @@ La liste suivante identifie les éléments que vous devez spécifier :
 
  
 
-Pour obtenir d’autres exemples de script, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). Pour obtenir des exemples d’utilitaires qui ne nécessitent pas l’environnement d’exécution de scripts Windows, consultez [Windows Installer les outils de développement](windows-installer-development-tools.md).
+pour obtenir d’autres exemples de script, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). pour obtenir des exemples d’utilitaires qui ne nécessitent pas l’environnement d’exécution de scripts Windows, consultez [Windows Installer outils de développement](windows-installer-development-tools.md).
 
  
 

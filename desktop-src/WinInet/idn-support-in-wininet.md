@@ -1,19 +1,19 @@
 ---
 title: Prise en charge des IDN dans WinINet
-description: À compter de Windows Server 2008 et Windows Vista, la partie hôte de l’URL Unicode est convertie en nom de domaine international (IDN, Internationalized Domain Name).
+description: à partir de Windows Server 2008 et Windows Vista, la partie hôte de l’URL Unicode est convertie en nom de domaine international (IDN, internationalized domain Name).
 ms.assetid: 7c56908e-f6d0-48dc-9ac1-73f888fb7b6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 510b1bc8d2ab77534d7f5dac587f287d5e7095af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 998005ff6d46a768403c9c3a18ac14457139ee871fe135fb1306ad677e9e029a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071679"
 ---
 # <a name="idn-support-in-wininet"></a>Prise en charge des IDN dans WinINet
 
-À compter de Windows Server 2008 et Windows Vista, la partie hôte de l’URL Unicode est convertie en nom de domaine international (IDN, Internationalized Domain Name). Des parties distinctes de l’encodage d’URL Unicode peuvent également être modifiées par des configurations définies par l’application. Les versions ANSI de l’API WinINet continuent à envoyer l’URL sur le réseau telle qu’elle est entrée par l’application. Toutefois, les versions Unicode WinINet de l’API sont désormais conformes à la norme IDN (RFC3490) pour les encodages d’URL.
+à partir de Windows Server 2008 et Windows Vista, la partie hôte de l’URL Unicode est convertie en nom de domaine international (IDN, internationalized domain Name). Des parties distinctes de l’encodage d’URL Unicode peuvent également être modifiées par des configurations définies par l’application. Les versions ANSI de l’API WinINet continuent à envoyer l’URL sur le réseau telle qu’elle est entrée par l’application. Toutefois, les versions Unicode WinINet de l’API sont désormais conformes à la norme IDN (RFC3490) pour les encodages d’URL.
 
 Par défaut, lorsqu’une URL est entrée en tant que paramètre Unicode, la partie hôte, pour les connexions proxy et directes, est convertie au format IDN. L’application a la possibilité de désactiver la mise en forme de l’hôte IDN en définissant l’option **Internet \_ \_ IDN** . La conversion de l’hôte IDN peut être activée uniquement sur les connexions directes ou proxy à l’aide de l’indicateur Internet indicateurs de **\_ \_ \_ proxy** IDN **\_ \_ \_ direct** ou Internet indicateur IDN avec l' **\_ option Internet \_ IDN**.
 
@@ -64,13 +64,13 @@ Le tableau suivant définit les options qui prennent en charge l’IDN. Pour plu
 
 
 
- 
+ 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

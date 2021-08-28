@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 2da6a2ae73aa5b987ea3b8f8789f81ed0b4cdf06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 679d0bfe4b87f934f223ad83f1fd1ee341b5ce891736727a4faa537d782d3687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971528"
 ---
 # <a name="findfirstprinterchangenotification-function"></a>FindFirstPrinterChangeNotification fonction)
 
@@ -97,7 +97,7 @@ Indicateur qui détermine la catégorie des imprimantes pour lesquelles les noti
 
  
 
-Lorsque cet indicateur est défini sur zéro (0), **FindFirstPrinterChangeNotification** ne fonctionne que pour les imprimantes 2D. Il s’agit de la valeur par défaut.
+Lorsque cet indicateur est défini sur zéro (0), **FindFirstPrinterChangeNotification** ne fonctionne que pour les imprimantes 2D. Il s'agit de la valeur par défaut.
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ Si la fonction est réussie, la valeur de retour est un handle vers un objet de 
 
 Si la fonction échoue, la valeur de retour est une valeur de handle non valide \_ \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -138,7 +138,7 @@ Les appelants de **FindFirstPrinterChangeNotification** doivent s’assurer que 
 **FindFirstPrinterChangeNotification** n’enverra pas de notifications de modifications pour les imprimantes 3D aux descripteurs de serveur.
 
 > [!Note]  
-> Dans Windows XP avec Service Pack 2 (SP2) et versions ultérieures, le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes peut être activée. Si un utilisateur établit une connexion d’imprimante avec un autre ordinateur et que l’exception n’est pas activée, l’utilisateur ne reçoit pas de notifications de modification d’imprimante à partir du serveur. Un administrateur d’ordinateur devra activer l’exception.
+> dans Windows XP avec Service Pack 2 (SP2) et versions ultérieures, le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes peut être activée. Si un utilisateur établit une connexion d’imprimante avec un autre ordinateur et que l’exception n’est pas activée, l’utilisateur ne reçoit pas de notifications de modification d’imprimante à partir du serveur. Un administrateur d’ordinateur devra activer l’exception.
 
  
 

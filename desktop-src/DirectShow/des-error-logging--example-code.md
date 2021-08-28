@@ -4,20 +4,20 @@ ms.assetid: e734daed-9230-4376-839f-7e09da7bc275
 title: 'Journal DES Erreurs DES : exemple de code'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9e0d47535e1d4035669a0e672a30fb2520c676
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2919e8214a247be77c5d706bbbf5a043751791b26ecb59f95e2e1bc69ce9f070
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952958"
 ---
 # <a name="des-error-logging-example-code"></a>Journal DES Erreurs DES : exemple de code
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-L’exemple de code suivant présente une application console complète qui charge et affiche un aperçu du fichier de projet XML des [services de modification DirectShow](directshow-editing-services.md) , à l’aide de la classe de journalisation des erreurs décrite dans cette section. (Voir [journalisation des erreurs](logging-errors.md).) Le nom du fichier projet est codé en dur dans l’application.
+l’exemple de code suivant présente une application console complète qui charge et affiche un aperçu d’un DirectShow fichier de projet XML de [Services d’édition](directshow-editing-services.md) , à l’aide de la classe de journalisation des erreurs décrite dans cette section. (Voir [journalisation des erreurs](logging-errors.md).) Le nom du fichier projet est codé en dur dans l’application.
 
-Pour rendre le code plus concis, l’application console utilise des pointeurs intelligents ATL, ce qui évite d’avoir à appeler **QueryInterface** et **Release**. Si vous préférez, vous pouvez modifier l’exemple d’application lors [du chargement et de l’aperçu d’un projet](loading-and-previewing-a-project.md). Ajoutez simplement le code présenté dans la section précédente.
+Pour rendre le code plus concis, l’application console utilise des pointeurs intelligents ATL, ce qui évite d’avoir à appeler **QueryInterface** et **Release**. Si vous préférez, vous pouvez modifier l’exemple d’application en [chargeant et en prévisualisation d’un Project](loading-and-previewing-a-project.md). Ajoutez simplement le code présenté dans la section précédente.
 
 
 ```C++

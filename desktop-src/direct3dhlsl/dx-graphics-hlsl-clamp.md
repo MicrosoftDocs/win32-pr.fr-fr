@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f5d6b0a3e83c0b1a5e511aba96df03b828b90c11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a0350127a26b0c65762e6c927ea38ca944101dcd646026713de231e33e987fb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043837"
 ---
 # <a name="clamp"></a>bride
 
@@ -51,7 +51,7 @@ Fixe la valeur spécifiée à la plage minimale et maximale spécifiée.
 
 Valeur de fixation du paramètre *x* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les valeurs de-INF ou INF, la bride se comportera comme prévu. Toutefois, pour les valeurs NaN, les résultats ne sont pas définis.
 
@@ -76,9 +76,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge             |
+| Modèle de nuanceur                                                                       | Pris en charge             |
 |------------------------------------------------------------------------------------|-----------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                   |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                   |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | vs \_ 1 \_ 1 et PS \_ 1 \_ 4 |
 
 

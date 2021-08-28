@@ -54,10 +54,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | False                                                                        |
-| Est de valeur unique       | True                                                                         |
-| Est indexé             | True                                                                         |
-| Dans le catalogue global      | True                                                                         |
+| System-Only            | Faux                                                                        |
+| Est de valeur unique       | Vrai                                                                         |
+| Est indexé             | Vrai                                                                         |
+| Dans le catalogue global      | Vrai                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -75,10 +75,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | False                                                                        |
-| Est de valeur unique       | True                                                                         |
-| Est indexé             | True                                                                         |
-| Dans le catalogue global      | True                                                                         |
+| System-Only            | Faux                                                                        |
+| Est de valeur unique       | Vrai                                                                         |
+| Est indexé             | Vrai                                                                         |
+| Dans le catalogue global      | Vrai                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -96,10 +96,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | False                                                                        |
-| Est de valeur unique       | True                                                                         |
-| Est indexé             | True                                                                         |
-| Dans le catalogue global      | True                                                                         |
+| System-Only            | Faux                                                                        |
+| Est de valeur unique       | Vrai                                                                         |
+| Est indexé             | Vrai                                                                         |
+| Dans le catalogue global      | Vrai                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |

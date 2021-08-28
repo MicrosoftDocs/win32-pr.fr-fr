@@ -3,7 +3,7 @@ title: LVN_COLUMNDROPDOWN le code de notification (commctrl. h)
 description: Envoyé par un contrôle List-View lorsque le bouton déroulant du mode liste est enfoncé. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 752d745e-4482-425c-af3c-f9707cbb03d7
 keywords:
-- Contrôles Windows de code de notification LVN_COLUMNDROPDOWN
+- LVN_COLUMNDROPDOWN les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 792d29268548d95a7f3e70b05d9d2de368a03cd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8e9fb40ba03006056b485911e96316a5cce1b325400c12795b02d82d11f2fc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170328"
 ---
 # <a name="lvn_columndropdown-notification-code"></a>\_Code de notification LVN COLUMNDROPDOWN
 
@@ -51,7 +51,7 @@ Affectez la valeur-1 au membre **iItem** de la structure [**NMLISTVIEW**](/windo
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le récepteur de notification convertit *lParam* pour récupérer la structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) . Le paramètre *wParam* contient l’ID du contrôle qui envoie le code de notification.
 
@@ -63,8 +63,8 @@ Si un contrôle header est un enfant de l’affichage de liste, le contrôle hea
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

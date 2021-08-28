@@ -4,12 +4,12 @@ description: Cet article explique comment inscrire une application d’accessibi
 ms.assetid: 6F1F2AAE-B2E4-4F26-8BDF-A3DE8F5C5460
 ms.topic: article
 ms.date: 04/02/2019
-ms.openlocfilehash: 28b76356f22c8cde66bce077feea52cd267a5e71
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: be4c235fee01f5711d2ea6c29da6aaedd8c7a79238f79fb8d5c4ce5af92cb848
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829971"
 ---
 # <a name="ease-of-access---assistive-technology-registration"></a>Inscription aux technologies d’assistance d’ergonomie
 
@@ -247,9 +247,9 @@ Les valeurs de la table se trouvent sous la clé suivante :
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -275,7 +275,7 @@ Les valeurs de la table se trouvent sous la clé suivante :
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col  />
+<col style="width: 100%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -327,9 +327,9 @@ Si l’application fournit à la fois un lecteur d’écran et une loupe d’éc
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -355,7 +355,7 @@ Si l’application fournit à la fois un lecteur d’écran et une loupe d’éc
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col  />
+<col style="width: 100%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -404,9 +404,9 @@ Les valeurs du composant loupe se trouvent dans la clé suivante :
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -432,7 +432,7 @@ Les valeurs du composant loupe se trouvent dans la clé suivante :
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col  />
+<col style="width: 100%" />
 </colgroup>
 <thead>
 <tr class="header">

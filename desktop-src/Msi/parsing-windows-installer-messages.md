@@ -1,21 +1,21 @@
 ---
 description: Un gestionnaire d’interface utilisateur externe peut traiter la liste des messages du programme d’installation spécifiée par le paramètre dwMessagedFilter de la fonction MsiSetExternalUI.
 ms.assetid: c4405803-9abd-40f4-9090-c075e7dcf293
-title: Analyse des messages de Windows Installer
+title: analyse des Messages de Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65cf96c85499b44accd0e01548ca184a030775d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39d2d44f75ccd610dd5d4da24a9ad96d85af947474ed1c8e600183388264bbb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942732"
 ---
-# <a name="parsing-windows-installer-messages"></a>Analyse des messages de Windows Installer
+# <a name="parsing-windows-installer-messages"></a>analyse des Messages de Windows Installer
 
-Un gestionnaire d’interface utilisateur externe peut traiter la liste des messages du programme d’installation spécifiée par le paramètre *dwMessagedFilter* de la fonction [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) . Certains de ces messages contiennent des chaînes qui peuvent être utilisées directement, et d’autres messages peuvent avoir besoin d’être analysés et traités par le gestionnaire d’interface utilisateur externe pour être utiles. Il se peut que votre gestionnaire d’interface utilisateur externe doive uniquement analyser les messages Windows Installer sans effectuer aucune opération qui affecte l’installation.
+Un gestionnaire d’interface utilisateur externe peut traiter la liste des messages du programme d’installation spécifiée par le paramètre *dwMessagedFilter* de la fonction [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) . Certains de ces messages contiennent des chaînes qui peuvent être utilisées directement, et d’autres messages peuvent avoir besoin d’être analysés et traités par le gestionnaire d’interface utilisateur externe pour être utiles. il se peut que votre gestionnaire d’interface utilisateur externe doive uniquement analyser les messages Windows Installer sans effectuer aucune opération qui affecte l’installation.
 
-Les messages de Windows Installer suivants contiennent des chaînes qui peuvent être affichées par une boîte de dialogue et ne nécessitent aucun traitement supplémentaire. Ces messages contiennent une liste de boutons et d’icônes qui doivent être affichés par une boîte de dialogue. Vous pouvez utiliser les valeurs **Mo \_ ICONMASK**, **MB \_ DEFMASK** et **MB \_ TYPEMASK** pour spécifier les icônes et les boutons.
+les messages de Windows Installer suivants contiennent des chaînes qui peuvent être affichées par une boîte de dialogue et ne nécessitent aucun traitement supplémentaire. Ces messages contiennent une liste de boutons et d’icônes qui doivent être affichés par une boîte de dialogue. Vous pouvez utiliser les valeurs **Mo \_ ICONMASK**, **MB \_ DEFMASK** et **MB \_ TYPEMASK** pour spécifier les icônes et les boutons.
 
 <dl> <dt>
 
@@ -61,7 +61,7 @@ Message mis en forme indiquant une condition d’espace disque insuffisant
 
 </dd> </dl>
 
-Le gestionnaire de l’utilisateur externe peut utiliser les messages de Windows Installer suivants pour surveiller une séquence de l’interface utilisateur Windows Installer. Le programme d’installation envoie ces messages au début d’une séquence d’interface utilisateur Windows Installer, chaque fois que chaque boîte de dialogue est affichée et à la fin de la séquence d’interface utilisateur. Aucun traitement n’est nécessaire pour utiliser ces messages.
+le gestionnaire de l’utilisateur externe peut utiliser les messages de Windows Installer suivants pour surveiller une séquence de l’interface utilisateur Windows Installer. le programme d’installation envoie ces messages au début d’une séquence d’interface utilisateur Windows Installer, chaque fois que chaque boîte de dialogue est affichée et à la fin de la séquence d’interface utilisateur. Aucun traitement n’est nécessaire pour utiliser ces messages.
 
 <dl> <dt>
 
@@ -86,14 +86,14 @@ La chaîne contient le nom de la boîte de dialogue active.
 
 </dd> </dl>
 
-Les messages de Windows Installer suivants requièrent un traitement supplémentaire par le gestionnaire de l’interface utilisateur externe.
+les messages de Windows Installer suivants requièrent un traitement supplémentaire par le gestionnaire de l’interface utilisateur externe.
 
 <dl> <dt>
 
 <span id="INSTALLMESSAGE_RESOLVESOURCE"></span><span id="installmessage_resolvesource"></span>**INSTALLMESSAGE \_ RESOLVESOURCE**
 </dt> <dd>
 
-Le gestionnaire d’interface utilisateur externe doit retourner 0 et autoriser Windows Installer à gérer le message. Le gestionnaire d’interface utilisateur externe peut surveiller ce message, mais il ne doit effectuer aucune action qui affecte l’installation.
+le gestionnaire d’interface utilisateur externe doit retourner 0 et autoriser Windows Installer à gérer le message. Le gestionnaire d’interface utilisateur externe peut surveiller ce message, mais il ne doit effectuer aucune action qui affecte l’installation.
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ L’interface utilisateur externe doit afficher une [boîte de dialogue FilesInU
 <span id="INSTALLMESSAGE_RMFILESINUSE"></span><span id="installmessage_rmfilesinuse"></span>**INSTALLMESSAGE \_ RMFILESINUSE**
 </dt> <dd>
 
-L’interface utilisateur externe doit afficher une [boîte de dialogue MsiRMFilesInUse](msirmfilesinuse-dialog.md) en réponse à ce message. Disponible à partir de Windows Installer version 4,0. Pour plus d’informations sur ce message, consultez [utilisation du gestionnaire de redémarrage avec une interface utilisateur externe](using-restart-manager-with-an-external-ui-.md).
+L’interface utilisateur externe doit afficher une [boîte de dialogue MsiRMFilesInUse](msirmfilesinuse-dialog.md) en réponse à ce message. disponible à partir de Windows Installer version 4,0. Pour plus d’informations sur ce message, consultez [utilisation du gestionnaire de redémarrage avec une interface utilisateur externe](using-restart-manager-with-an-external-ui-.md).
 
 </dd> <dt>
 

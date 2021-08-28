@@ -15,14 +15,19 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: ca968397441765455e74059201c128be53f50916e5e28212c700078f52124fe8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5738f2a9dbf7da4a2dcddb952891b415af73cb7
+ms.sourcegitcommit: 58ca2495eae63806264bf4594db45aae692c70b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117868734"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "122021693"
 ---
 # <a name="addprintprovidor-function"></a>AddPrintProvidor fonction)
+
+> [!IMPORTANT]
+> Le 6 juillet 2021, [KB5005010](https://support.microsoft.com/topic/kb5005010-restricting-installation-of-new-printer-drivers-after-applying-the-july-6-2021-updates-31b91c02-05bc-4ada-a7ea-183b129578a7) a introduit une option de configuration basée sur le Registre facultative pour restreindre l’accès à cette API uniquement aux utilisateurs administrateurs. Cette option était désactivée par défaut.
+>
+> Le 10 août 2021, [KB5005652](https://aka.ms/print_install_kb) modifie la valeur par défaut de cette configuration pour exiger des droits d’administrateur pour installer de nouveaux pilotes d’imprimante.
 
 La fonction **AddPrintProvidor** installe un fournisseur d’impression local et lie les fichiers de configuration, de données et de fournisseur.
 
@@ -92,7 +97,7 @@ Avant qu’une application appelle la fonction **AddPrintProvidor** , tous les f
 
 Un fournisseur ajouté par **AddPrintProvidor** peut être supprimé en appelant [**DeletePrintProvidor**](deleteprintprovidor.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

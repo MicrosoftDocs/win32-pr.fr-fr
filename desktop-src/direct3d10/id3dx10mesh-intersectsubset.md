@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a08d4db92dc75f40d0073367dda9a9ea26863418
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f1975c6704faa0fdbf9647b92edff805e7930c0a612fc8e5fb845b8bb26fd4ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069973"
 ---
 # <a name="id3dx10meshintersectsubset-method"></a>ID3DX10Mesh :: IntersectSubset, méthode
 
@@ -135,7 +135,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette API fournit un moyen de comprendre les points dans et autour d’un triangle, indépendamment de l’endroit où le triangle est réellement situé. Cette fonction retourne le point résultant à l’aide de l’équation suivante : v1 + U (V2-V1) + V (v3-v1).
 

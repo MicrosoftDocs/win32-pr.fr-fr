@@ -4,12 +4,12 @@ ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: Configuration des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372d15e00898d88b3aed13ca2edaa03bc8a666ceb62dc1389af3e8f6959c971f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79d6c8caa8dc4ca949a71d9a6b56fd6eae95d415
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117916929"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465996"
 ---
 # <a name="configuring-com-applications"></a>Configuration des applications COM+
 
@@ -61,69 +61,21 @@ La façon dont vous installez les composants dans une application peut affecter 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="configuring-transactions.md">Transactions</a><br/></td>
-<td>Définit les spécifications automatiques des transactions désactivées, non prises en charge, prises en charge, obligatoires ou nouvelles.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="setting-the-synchronization-attribute.md">Synchronisation</a><br/></td>
-<td>Définit les exigences de synchronisation désactivées, non prises en charge, prises en charge, obligatoires ou nouvelles.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="enabling-jit-activation-for-a-component.md">Activation juste-à-temps</a><br/></td>
-<td>Active l’activation juste-à-temps.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="configuring-a-component-to-be-pooled.md">Mise en pool d’objets</a><br/></td>
-<td>Active le regroupement d’objets. La taille minimale et maximale du pool et les valeurs de délai d’attente des objets sont configurables.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="specifying-an-object-constructor-string-for-a-component.md">Construction d’objets</a><br/></td>
-<td>Active la construction d’objets paramétrables avec une chaîne de constructeur spécifiée administrativement. <br/>
-<blockquote>
-[!Note]<br />
-La chaîne du constructeur ne doit pas être utilisée pour stocker des informations sensibles à la sécurité.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="enabling-access-checks-at-the-component-level.md">Contrôles d’accès au niveau du composant</a><br/></td>
-<td>Active ou désactive la vérification de la sécurité basée sur les rôles au niveau du composant.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="assigning-roles-to-components--interfaces--or-methods.md">Attribution de rôle déclarative</a><br/></td>
-<td>Active l’attribution explicite des rôles au composant.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="persistent-client-side-failures.md">Classe d’exceptions de mise en file d’attente</a><br/></td>
-<td>Indique une classe d’exception pour la gestion des échecs côté client.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="com--instrumentation-concepts.md">Statistiques et événements d’instrumentation</a><br/></td>
-<td>Active la création de rapports détaillés sur les événements système et les statistiques d’objets.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="context-activation.md">Contexte d’activation</a><br/></td>
-<td>Active l’activation forcée d’un objet dans le contexte de l’appelant ou le contexte par défaut.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="what-s-new-in-com--1-5.md">Création de composants privés</a><br/></td>
-<td>Marque le composant comme privé pour l’application. Un composant privé peut être vu et activé uniquement par d’autres composants de la même application.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="configuring-transactions.md">Transactions</a><br /> | Définit les spécifications automatiques des transactions désactivées, non prises en charge, prises en charge, obligatoires ou nouvelles.<br /> | 
+| <a href="setting-the-synchronization-attribute.md">Synchronisation</a><br /> | Définit les exigences de synchronisation désactivées, non prises en charge, prises en charge, obligatoires ou nouvelles.<br /> | 
+| <a href="enabling-jit-activation-for-a-component.md">Activation juste-à-temps</a><br /> | Active l’activation juste-à-temps.<br /> | 
+| <a href="configuring-a-component-to-be-pooled.md">Mise en pool d’objets</a><br /> | Active le regroupement d’objets. La taille minimale et maximale du pool et les valeurs de délai d’attente des objets sont configurables.<br /> | 
+| <a href="specifying-an-object-constructor-string-for-a-component.md">Construction d’objets</a><br /> | Active la construction d’objets paramétrables avec une chaîne de constructeur spécifiée administrativement. <br /><blockquote>[!Note]<br />La chaîne du constructeur ne doit pas être utilisée pour stocker des informations sensibles à la sécurité.</blockquote><br /> | 
+| <a href="enabling-access-checks-at-the-component-level.md">Contrôles d’accès au niveau du composant</a><br /> | Active ou désactive la vérification de la sécurité basée sur les rôles au niveau du composant.<br /> | 
+| <a href="assigning-roles-to-components--interfaces--or-methods.md">Attribution de rôle déclarative</a><br /> | Active l’attribution explicite des rôles au composant.<br /> | 
+| <a href="persistent-client-side-failures.md">Classe d’exceptions de mise en file d’attente</a><br /> | Indique une classe d’exception pour la gestion des échecs côté client.<br /> | 
+| <a href="com--instrumentation-concepts.md">Statistiques et événements d’instrumentation</a><br /> | Active la création de rapports détaillés sur les événements système et les statistiques d’objets.<br /> | 
+| <a href="context-activation.md">Contexte d’activation</a><br /> | Active l’activation forcée d’un objet dans le contexte de l’appelant ou le contexte par défaut.<br /> | 
+| <a href="what-s-new-in-com--1-5.md">Création de composants privés</a><br /> | Marque le composant comme privé pour l’application. Un composant privé peut être vu et activé uniquement par d’autres composants de la même application.<br /> | 
+
 
 
 

@@ -1,17 +1,17 @@
 ---
 description: Une fois que le socket est à l’écoute d’une connexion, le programme doit gérer les demandes de connexion sur ce Socket.
 ms.assetid: d01f3d90-4d83-442e-aada-e7b082ef7699
-title: Acceptation d’une connexion (Windows Sockets 2)
+title: acceptation d’une connexion (Windows sockets 2)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e066b53c22dd9964ad44dc8d67c15969641362
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 410dcdebb660ec290ee5723b569ca358e0317777300a479e17a516e594744b49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996889"
 ---
-# <a name="accepting-a-connection-windows-sockets-2"></a>Acceptation d’une connexion (Windows Sockets 2)
+# <a name="accepting-a-connection-windows-sockets-2"></a>acceptation d’une connexion (Windows sockets 2)
 
 Une fois que le socket est à l’écoute d’une connexion, le programme doit gérer les demandes de connexion sur ce Socket.
 
@@ -53,10 +53,10 @@ Une fois que le socket est à l’écoute d’une connexion, le programme doit g
 
 3.  Lorsque la connexion cliente a été acceptée, une application serveur transmet normalement le socket client accepté (la variable ClientSocket dans l’exemple de code ci-dessus) à un thread de travail ou à un port de terminaison d’e/s et continue d’accepter des connexions supplémentaires. Dans cet exemple de base, le serveur continue à l’étape suivante.
 
-    Il existe un certain nombre d’autres techniques de programmation qui peuvent être utilisées pour écouter et accepter plusieurs connexions. Celles-ci incluent l’utilisation des fonctions [**Select**](/windows/desktop/api/Winsock2/nf-winsock2-select) ou [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) . Des exemples de certaines de ces différentes techniques de programmation sont illustrés dans les [exemples Winsock avancés](getting-started-with-winsock.md) inclus dans le kit de développement logiciel (SDK) Microsoft Windows.
+    Il existe un certain nombre d’autres techniques de programmation qui peuvent être utilisées pour écouter et accepter plusieurs connexions. Celles-ci incluent l’utilisation des fonctions [**Select**](/windows/desktop/api/Winsock2/nf-winsock2-select) ou [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) . des exemples de certaines de ces différentes techniques de programmation sont illustrés dans les [exemples Winsock avancés](getting-started-with-winsock.md) inclus dans le kit de développement logiciel (SDK) de Microsoft Windows.
 
     > [!Note]  
-    > Sur les systèmes UNIX, une technique de programmation courante pour les serveurs était de faire en sorte qu’une application écoute les connexions. Lorsqu’une connexion a été acceptée, le processus parent appelle la fonction de **branchement** pour créer un processus enfant afin de gérer la connexion du client, en héritant du socket du parent. Cette technique de programmation n’est pas prise en charge sur Windows, car la fonction **Fork** n’est pas prise en charge. Cette technique n’est pas non plus adaptée aux serveurs hautes performances, car les ressources nécessaires à la création d’un nouveau processus sont beaucoup plus importantes que celles nécessaires pour un thread.
+    > Sur les systèmes UNIX, une technique de programmation courante pour les serveurs était de faire en sorte qu’une application écoute les connexions. Lorsqu’une connexion a été acceptée, le processus parent appelle la fonction de **branchement** pour créer un processus enfant afin de gérer la connexion du client, en héritant du socket du parent. cette technique de programmation n’est pas prise en charge sur Windows, dans la mesure où la fonction **fork** n’est pas prise en charge. Cette technique n’est pas non plus adaptée aux serveurs hautes performances, car les ressources nécessaires à la création d’un nouveau processus sont beaucoup plus importantes que celles nécessaires pour un thread.
 
      
 

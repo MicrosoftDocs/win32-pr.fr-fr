@@ -3,7 +3,7 @@ title: Message MCM_GETCALID (commctrl. h)
 description: Obtient l’ID de calendrier pour le contrôle de calendrier donné. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal GetCALID.
 ms.assetid: ecfab4f3-a5af-445d-8b90-243b646524a6
 keywords:
-- MCM_GETCALID les contrôles de message Windows
+- MCM_GETCALID les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb4a780d5107a7761d7dcac9b27a7cb01f3de744
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 148db880fe941c3b7df045c0ecdd4fbc9303203eace2b3be3ab38831aa4e3644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170186"
 ---
 # <a name="mcm_getcalid-message"></a>\_Message GETCALID MCM
 
@@ -53,8 +53,8 @@ ID du calendrier actuel. Une des constantes d' [identificateurs de calendrier](/
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

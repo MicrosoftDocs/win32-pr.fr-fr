@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9c2a677edba4bad5e908b6dd69aa21a467b2a245
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e6617287a9465384b3c260aebe384f4764bbd0f41a673408f48d36c450597f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629469"
 ---
 # <a name="id3dxmesh-interface"></a>Interface ID3DXMesh
 
@@ -49,7 +49,7 @@ L’interface **ID3DXMesh** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir l’interface **ID3DXMesh** , appelez la fonction [**D3DXCreateMesh**](d3dxcreatemesh.md) ou [**D3DXCreateMeshFVF**](d3dxcreatemeshfvf.md) .
 

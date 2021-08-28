@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 432ba5018f1e233e7fb1b4ad4efae1d4f27cb141
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ebb1dc0ce53478da8d7057c142c87daea5fb83503b4ac7cd1a0dee5edda89246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531507"
 ---
 # <a name="id3dx11effectvariableasdepthstencilview-method"></a>ID3DX11EffectVariable :: AsDepthStencilView, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectDepthStencilViewVariable**](id3dx11effectdepthstencil
 
 Pointeur vers une variable de vue de stencil de profondeur. Consultez [**ID3DX11EffectDepthStencilViewVariable**](id3dx11effectdepthstencilviewvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne une version de la variable Effect qui a été spécialisée pour une variable de vue de stencil de profondeur. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données Depth-View-View.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

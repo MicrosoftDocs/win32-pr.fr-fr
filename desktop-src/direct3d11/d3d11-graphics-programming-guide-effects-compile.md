@@ -4,12 +4,12 @@ description: Une fois qu’un effet a été créé, l’étape suivante consiste
 ms.assetid: 7624d55e-6466-4156-8f31-30f0d25a2883
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3df304a7b657af19984008bd90a1be4bfe5219c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 83209db3ea32242e1eb9a40eccacc846567e3e6bc6401d74950a379fc1d24bcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046607"
 ---
 # <a name="compile-an-effect-direct3d-11"></a>Compiler un effet (Direct3D 11)
 
@@ -18,7 +18,7 @@ Une fois qu’un effet a été créé, l’étape suivante consiste à compiler 
 Pour ce faire, appelez l’une des API de compilation ([**D3DX11CompileFromFile**](d3dx11compilefromfile.md), [**D3DX11CompileFromMemory**](d3dx11compilefrommemory.md)ou [**D3DX11CompileFromResource**](d3dx11compilefromresource.md) ). Ces API appellent le compilateur Effect fxc.exe, qui compile le code HLSL. C’est pour cette raison que la syntaxe du code dans un effet ressemble beaucoup à du code HLSL. (Il existe quelques exceptions qui seront gérées ultérieurement). Le compilateur Effect/compilateur HLSL, fxc.exe, est disponible dans le kit de développement logiciel (SDK) dans le dossier Utilities afin que les nuanceurs (ou effets) puissent être compilés hors connexion si vous le souhaitez. Consultez la documentation pour exécuter le compilateur à partir de la ligne de commande.
 
 -   [Exemple](#example)
--   [Includes](#includes)
+-   [Offre](#includes)
 -   [Recherche de fichiers include](#searching-for-include-files)
 -   [Macros](#macros)
 -   [Indicateurs de nuanceur HLSL](#hlsl-shader-flags)
@@ -26,7 +26,7 @@ Pour ce faire, appelez l’une des API de compilation ([**D3DX11CompileFromFile*
 -   [Vérification des erreurs](#checking-errors)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Voici un exemple de compilation d’un fichier Effect.
 
@@ -167,6 +167,6 @@ if( pErrorBlob )
 [Rendu d’un effet (Direct3D 11)](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
