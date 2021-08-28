@@ -7,12 +7,12 @@ keywords:
 - AccChecker, test du flux de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c8bb90ce0d9fdde290bfb0f3ce0ee9f873f2b6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: addf725431a17a9b63376dfc3fc7ef8563a1737c9867b950f09eb123bf7daf18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795509"
 ---
 # <a name="testing-with-accchecker"></a>Test avec AccChecker
 
@@ -21,13 +21,13 @@ Le scénario suivant décrit les étapes que vous suivez généralement lors des
 > [!Note]  
 > Lorsque les routines de vérification AccChecker sont en cours d’exécution, l’interaction de l’utilisateur avec l’ordinateur hôte peut interférer avec certaines routines. Nous vous recommandons de ne pas avoir d’interaction avec l’utilisateur tant que AccChecker n’a pas averti l’utilisateur que toutes les tâches sont terminées.
 
- 
+ 
 
 1.  Exécutez des vérifications AccChecker sur une application ou un contrôle cible spécifique. Pour plus d’informations, consultez l' [onglet vérifications](the-accchecker-graphical-user-interface.md).
     > [!Note]  
     > AccChecker n’explore pas toutes les permutations d’interface utilisateur dans une application. Les éléments masqués dans des contrôles tels que des fenêtres, des volets, des onglets et des menus doivent être exposés manuellement.
 
-     
+     
 
 2.  Examinez le journal des erreurs AccChecker et évaluez ou triez les résultats. Corrigez les problèmes noordinaires et consignez les bogues graves comme il convient.
 3.  Générez un fichier de suppression pour les bogues et les erreurs qui peuvent être ignorés jusqu’au test de régression.
@@ -36,7 +36,7 @@ Le scénario suivant décrit les étapes que vous suivez généralement lors des
     > [!Note]  
     > À mesure que les bogues sont résolus, le fichier de suppression doit être modifié en fonction des besoins.
 
-     
+     
 
 6.  Confirmez qu’aucune régression ou nouveau bogue d’accessibilité n’a été introduit dans l’application ou le contrôle.
 
@@ -47,9 +47,9 @@ Le scénario suivant décrit les étapes que vous suivez généralement lors des
 [Vérificateur d’accessibilité de l’interface utilisateur](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

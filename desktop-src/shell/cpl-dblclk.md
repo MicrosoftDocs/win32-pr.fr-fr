@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d6c67204c7b4fae5275e50d428a0371af4cf2e2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9faf3f589e9e3e69c3b8df82bbb6eb2c075d6fba2836b9d8e773b392ad9385c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351349"
 ---
 # <a name="cpl_dblclk-message"></a>\_Message DBLCLK cpl
 
@@ -46,17 +46,17 @@ Valeur que l’application du panneau de configuration a chargée dans le membre
 
 Si la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) traite ce message avec succès, la valeur de retour est zéro ; dans le cas contraire, il est différent de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En réponse à ce message, une application du panneau de configuration doit afficher la boîte de dialogue correspondante.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                      |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Cpl. h</dt> </dl> |
 

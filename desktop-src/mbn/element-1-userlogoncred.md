@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: aea2cdfda61e557ff790b59e7af2a05d914d3403
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 270ef6c61bcbb0aad6800177537a8efd4dedf75c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106543396"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481725"
 ---
 # <a name="span-idwwan_profile_v4element_1_userlogoncredspanmodemdmconfigprofileuserlogoncred-v4"></a><span id="WWAN_profile_v4.element_1_UserLogonCred"></span>ModemDMConfigProfile \/ ... \/ UserLogonCred (v4)
 
@@ -39,7 +39,7 @@ Informations d’identification d’ouverture de session pour une connexion.
 &nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserLogonCred\>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <UserLogonCred>
@@ -52,7 +52,7 @@ Informations d’identification d’ouverture de session pour une connexion.
 </UserLogonCred>
 ```
 
-### <a name="key"></a>Clé
+### <a name="key"></a>Clé :
 
 `?`   facultatif (zéro ou un)
 
@@ -60,80 +60,35 @@ Informations d’identification d’ouverture de session pour une connexion.
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément enfant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-ignorepassword.md">IgnorePassword</a></td>
-<td><p>Spécifie la manière dont les mots de passe sont gérés lors de la mise à niveau des profils.</p>
-<p>Si la valeur est <strong>true</strong> et qu’un profil portant le même nom existe au moment de l’opération de mise à jour, le mot de passe de ce profil est pris et stocké dans le nouveau profil.</p>
-<p>Pour plus d’informations, consultez la documentation de l’élément <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>IgnorePassword</strong></a> v1.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-1-password.md">Mot de passe</a></td>
-<td><p>Spécifie le mot de passe utilisé pour authentifier un utilisateur.</p>
-<p>Pour plus d’informations, consultez la documentation de l’élément de <a href="../mbn/schema-password-userlogoncred-element.md"><strong>mot de passe</strong></a> v1.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-1-username.md">UserName</a></td>
-<td><p>Nom d’utilisateur à utiliser pour l’ouverture de session.</p>
-<p>Pour plus d’informations, consultez la documentation de l’élément de <a href="../mbn/schema-username-userlogoncred-element.md"><strong>nom d’utilisateur</strong></a> v1.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Élément enfant | Description | 
+|---------------|-------------|
+| <a href="element-1-ignorepassword.md">IgnorePassword</a> | <p>Spécifie la manière dont les mots de passe sont gérés lors de la mise à niveau des profils.</p><p>Si la valeur est <strong>true</strong> et qu’un profil portant le même nom existe au moment de l’opération de mise à jour, le mot de passe de ce profil est pris et stocké dans le nouveau profil.</p><p>Pour plus d’informations, consultez la documentation de l’élément <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>IgnorePassword</strong></a> v1.</p> | 
+| <a href="element-1-password.md">Mot de passe</a> | <p>Spécifie le mot de passe utilisé pour authentifier un utilisateur.</p><p>Pour plus d’informations, consultez la documentation de l’élément de <a href="../mbn/schema-password-userlogoncred-element.md"><strong>mot de passe</strong></a> v1.</p> | 
+| <a href="element-1-username.md">UserName</a> | <p>Nom d’utilisateur à utiliser pour l’ouverture de session.</p><p>Pour plus d’informations, consultez la documentation de l’élément de <a href="../mbn/schema-username-userlogoncred-element.md"><strong>nom d’utilisateur</strong></a> v1.</p> | 
+
 
  
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément parent</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-context.md">Contexte</a></td>
-<td><p>Spécifie les paramètres requis pour établir une connexion de données.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Élément parent | Description | 
+|----------------|-------------|
+| <a href="element-1-context.md">Contexte</a> | <p>Spécifie les paramètres requis pour établir une connexion de données.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Espace de noms</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

@@ -3,7 +3,7 @@ title: EN_HSCROLL le code de notification (winuser. h)
 description: Envoyé lorsque l’utilisateur clique sur la barre de défilement horizontale d’un contrôle d’édition. La fenêtre parente du contrôle d’édition reçoit ce code de notification par le biais d’un \_ message de commande WM. La fenêtre parente est avertie avant la mise à jour de l’écran.
 ms.assetid: beaaa80c-4108-4a8e-aed8-04c9a3a08f3e
 keywords:
-- Contrôles Windows de code de notification EN_HSCROLL
+- EN_HSCROLL les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f90f6e781409419e39390e64251506b4cc915a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4e5b0f42d08977f7a1be68a5010aa7403b10fc2e5a126aa542bb25a644a7b70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436769"
 ---
 # <a name="en_hscroll-notification-code"></a>\_Code de notification en HSCROLL
 
@@ -53,7 +53,7 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification est envoyé pour les événements de souris suivants sur la barre de défilement horizontale : cliquez sur le bouton fléché ou cliquez entre le bouton fléché et le curseur. Toutefois, le code de notification n’est pas envoyé quand vous cliquez sur le curseur de la barre de défilement. Le code de notification est également envoyé lorsqu’un événement de clavier provoque une modification dans la zone d’affichage du contrôle d’édition, par exemple en appuyant sur origine, fin, flèche gauche ou flèche droite.
 
@@ -65,8 +65,8 @@ Ce code de notification est envoyé pour les événements de souris suivants sur
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

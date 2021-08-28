@@ -4,12 +4,12 @@ ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: utilisation de .NET Framework 4 avec des Applications basées sur des Versions antérieures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c400f38efe93d2fc77d5de1f700b550f455f3e29db8ba96ef778771d82158c76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a12eb34b00cfe14a18e83e7726f1ffa962ba03f8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884750"
 ---
 # <a name="using-net-framework-4-with-applications-built-on-earlier-versions"></a>utilisation de .NET Framework 4 avec des Applications basées sur des Versions antérieures
 
@@ -43,7 +43,7 @@ toutefois, si le .NET Framework 4 est la seule version du runtime qui est instal
 
 ## <a name="solution"></a>Solution
 
-pour exécuter des applications générées avec des versions antérieures de .NET Framework avec .NET Framework 4, vous devez compiler votre application pour cibler la version de .NET Framework 4 en la spécifiant dans les propriétés de votre projet dans Microsoft Visual Studio, ou vous pouvez spécifier .NET Framework 4 dans l' [**<supportedRuntime> élément**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71)) dans un fichier de configuration de l’application.
+pour exécuter des applications générées avec des versions antérieures de .NET Framework avec .NET Framework 4, vous devez compiler votre application pour cibler la version de .NET Framework 4 en la spécifiant dans les propriétés de votre projet dans Microsoft Visual Studio, ou vous pouvez spécifier .NET Framework 4 dans l' [**&lt; &gt; élément supportedRuntime**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71)) dans un fichier de configuration de l’application.
 
 pour plus d’informations sur la migration vers le .NET Framework 4, consultez [Guide de Migration vers le .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100)) et [compatibilité des versions dans le .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100)).
 
@@ -55,7 +55,7 @@ si votre application ou composant ne fonctionne pas après l’installation de .
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   [**<supportedRuntime> appartient**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
+-   [**&lt;supportedRuntime, &gt; élément**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
 -   [Guide de migration vers .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100))
 -   [Compatibilité de versions dans le .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100))
 -   **procédure pas à pas de compatibilité des applications .NET Framework 4 RTM :**<https://msdn.microsoft.com/library/dd889541.aspx>

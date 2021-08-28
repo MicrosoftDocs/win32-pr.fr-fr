@@ -4,12 +4,12 @@ ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: Attribut MF_BYTESTREAM_IFO_FILE_URI (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c80e015b68272b073c442b4064c80a6787b811
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab4349f3319a875f428921b0a99aefa61e49340c240a87260c1132abcc7c45f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723469"
 ---
 # <a name="mf_bytestream_ifo_file_uri-attribute"></a>\_Attribut d' \_ \_ URI de fichier IFO BYTESTREAM MF \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/d
 
 [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le flux d’octets HTTP recherche la chaîne « ifoFileURI.dlna.org » dans l’en-tête HTTP. Si la chaîne est trouvée, elle est copiée dans cet attribut sur le flux d’octets.
 
@@ -41,8 +41,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                                           |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

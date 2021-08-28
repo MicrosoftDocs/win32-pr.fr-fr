@@ -3,12 +3,12 @@ description: Spécification du système de fichiers exFat.
 title: spécification du système de fichiers exFAT
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 94b5bcdc69201573bc92290c148a7d3ce8304868
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 62c51daff1aba3c9416cd5368e1b92570a377c208256b57ef5154d5e24433e4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050989"
 ---
 # <a name="exfat-file-system-specification"></a>spécification du système de fichiers exFAT
 
@@ -2942,7 +2942,7 @@ Le champ FileAttributes contient des indicateurs (voir le [tableau 28](#table-28
 <td>Ce champ est obligatoire et est conforme à la définition MS-DOS.</td>
 </tr>
 <tr class="even">
-<td>Archive</td>
+<td>Archivage</td>
 <td>5</td>
 <td>1</td>
 <td>Ce champ est obligatoire et est conforme à la définition MS-DOS.</td>
@@ -3030,7 +3030,7 @@ Les champs d’horodatage décrivent à la fois la date et l’heure locales, ju
 <td>Ce champ est obligatoire et la <a href="#7484-day-field">section 7.4.8.4</a> définit son contenu.</td>
 </tr>
 <tr class="odd">
-<td>Month (Mois)</td>
+<td>Month</td>
 <td>21</td>
 <td>4</td>
 <td>Ce champ est obligatoire et la <a href="#7485-month-field">section 7.4.8.5</a> définit son contenu.</td>
@@ -4127,7 +4127,7 @@ Historique des modifications de la documentation</p>
 <td>01-Jan-2009</td>
 <td><p>Quatrième version de la spécification de base, qui comprend les modifications suivantes :</p>
 <blockquote>
-<p>Suppression des références aux entrées de Windows CE Access Control</p>
+<p>suppression des références aux entrées de Windows CE Access Control</p>
 <p>Ajout de clarifications à la section 7.2.5.1 pour exiger explicitement une table de cas complète</p>
 </blockquote></td>
 </tr>

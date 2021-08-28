@@ -4,12 +4,12 @@ description: La fonction CoInitializeSecurity vous permet de contrôler les scé
 ms.assetid: 20b66868-fb9a-489f-97a2-59a8a825c8d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 567a6dfaf47dbd278fc248558cd25969c733b24a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 88c3e601897e9f2313682a3474c1760bc211285d8fa81a82f67d114681a7a57f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610889"
 ---
 # <a name="setting-process-wide-security-with-coinitializesecurity"></a>Définition de la sécurité Process-Wide avec CoInitializeSecurity
 
@@ -23,7 +23,7 @@ Un autre scénario courant dans lequel vous pouvez définir la sécurité au niv
 
 Si votre application a des exigences de sécurité très spécialisées, comme autoriser certains groupes à accéder à différents objets en fonction de l’heure de la journée, vous souhaiterez peut-être gérer l’ensemble de votre sécurité par programme, en veillant à ce que COM n’effectue aucune vérification automatique. Pour ce faire, vous devez appeler [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), en affectant la valeur None au paramètre *DwAuthnLevel* et la **valeur null** au paramètre *pVoid* . Si vous disposez de votre propre package de sécurité, vous devez également l’inscrire dans le paramètre *pAuthnSvc* . Vous pouvez ensuite gérer l’ensemble de votre propre sécurité par programme par le biais d’appels à l’interface de niveau proxy et les fonctions décrites dans [définition de la sécurité au niveau du proxy de l’interface](setting-security-at-the-interface-proxy-level.md).
 
-[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) offre un ensemble complet de fonctionnalités. Si vous appelez **CoInitializeSecurity**, les valeurs de Registre sont ignorées et les valeurs d’initialisation de sécurité que vous transmettez à l’appel sont utilisées à la place. Selon le résultat souhaité, le premier paramètre, *pVoid*, peut pointer vers trois types de valeurs différents : un [**\_ descripteur de sécurité**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , un objet [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) ou un pointeur vers une AppID. Dans la plupart des cas, vous allez utiliser des fonctions Windows pour créer un **\_ descripteur de sécurité** auquel *pVoid* pointera.
+[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) offre un ensemble complet de fonctionnalités. Si vous appelez **CoInitializeSecurity**, les valeurs de Registre sont ignorées et les valeurs d’initialisation de sécurité que vous transmettez à l’appel sont utilisées à la place. Selon le résultat souhaité, le premier paramètre, *pVoid*, peut pointer vers trois types de valeurs différents : un [**\_ descripteur de sécurité**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , un objet [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) ou un pointeur vers une AppID. dans la plupart des cas, vous utiliserez Windows fonctions pour créer un **\_ descripteur de sécurité** auquel *pVoid* pointera.
 
 Toutefois, *pVoid* peut également pointer vers un objet [**IAccessControl**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) .
 
@@ -38,6 +38,6 @@ Un autre type de valeur que vous pouvez passer au paramètre *pVoid* est un poin
 [Définition de la sécurité Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

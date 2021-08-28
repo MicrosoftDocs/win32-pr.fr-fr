@@ -4,12 +4,12 @@ ms.assetid: c534e853-b61f-414d-befe-8d3c4bf08d22
 title: Constantes de droits d’accès au fichier (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf3e0a34cedbf106e2a2793b2a126a224c2f18c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 378b04514f303c746d17b7e14a42c8a7a8fc467c9eca181ec2cbc52775b3d80d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050899"
 ---
 # <a name="file-access-rights-constants"></a>Constantes de droits d’accès au fichier
 
@@ -45,9 +45,9 @@ Les droits d’accès valides pour les fichiers et les répertoires sont les sui
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
-| En-tête<br/>                   | <dl> <dt>Winnt. h (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
+| En-tête<br/>                   | <dl> <dt>winnt. h (inclure Windows. h)</dt> </dl> |
 
 
 

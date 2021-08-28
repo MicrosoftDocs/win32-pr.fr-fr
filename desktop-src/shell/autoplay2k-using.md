@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 04a4f6dd09e03f26b13649e860beb7f2621ce952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35de48ee77cde7c598088b3f3877083efc2151f5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750301"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481485"
 ---
 # <a name="using-and-configuring-autoplay"></a>Utilisation et configuration de l’exécution automatique
 
@@ -26,7 +26,7 @@ Lorsque l’interpréteur de commandes détecte l’insertion d’un nouveau mé
 -   Affiche un affichage des dossiers standard des fichiers.
 -   Ne fait rien si, précédemment, l’utilisateur a choisi n' **effectuer aucune action** pour ce type de contenu, et spécifié **toujours effectuer l’action sélectionnée**.
 
-Si le contenu ne répond pas aux critères de lecture automatique, l’événement est ensuite transmis à WIA (Windows Image Acquisition).
+si le contenu ne répond pas aux critères de lecture automatique, l’événement est ensuite transmis à Windows Acquisition d’images (WIA).
 
 Les rubriques suivantes traitent de la configuration et de l’utilisation de la lecture automatique.
 
@@ -34,8 +34,8 @@ Les rubriques suivantes traitent de la configuration et de l’utilisation de la
 -   [Comment la fonctionnalité d’exécution automatique recherche les médias](#how-autoplay-searches-media)
 -   [Définition de types de contenu unique et mixte](#defining-single-and-mixed-content-types)
 -   [Exemples de scénarios](#sample-scenarios)
-    -   [Lecture automatique pour les appareils de stockage avec image multimédia](#autoplay-for-storage-devices-with-picture-media)
-    -   [Lecture automatique pour les périphériques de lecture de fichiers musicaux et les dispositifs de stockage contenant des médias musicaux](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
+    -   [lecture automatique pour Stockage appareils avec image multimédia](#autoplay-for-storage-devices-with-picture-media)
+    -   [lecture automatique pour Musique les appareils de lecture de fichiers et les appareils Stockage contenant Musique média](#autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media)
     -   [Lecture automatique pour la lecture vidéo lors de la première présentation](#autoplay-for-video-playback-on-first-presentation)
 -   [Affectation d’applications de gestionnaire par défaut](#assigning-default-handler-applications)
 -   [Gestion des médias contenant des types de contenu mixtes](#handling-media-containing-mixed-content-types)
@@ -70,7 +70,7 @@ L’exécution automatique définit trois catégories de contenu principales.
 -   Musique
 -   Vidéo
 
-Un support est considéré comme contenant un type de contenu unique si tous les fichiers sur le support appartiennent à une seule de ces trois catégories. Notez que cela ne signifie pas que les fichiers doivent être du même type de *fichier* ;. jpg,. gif et. bmp sont des types de fichiers différents, mais un type de contenu (images).
+Un support est considéré comme contenant un type de contenu unique si tous les fichiers sur le support appartiennent à une seule de ces trois catégories. Notez que cela ne signifie pas que les fichiers doivent être du même type de *fichier* ; .jpg, .gif et .bmp sont des types de fichiers différents, mais un type de contenu (images).
 
 Si les types de contenu pris en charge sont présents sur le support, mais qu’aucun type de contenu ne peut prendre en compte 100% du total, le support est considéré comme contenant un type de contenu mixte et est géré en conséquence. Pour plus d’informations, consultez [gestion des médias contenant des types de contenu mixtes](#handling-media-containing-mixed-content-types).
 
@@ -78,21 +78,21 @@ Si les types de contenu pris en charge sont présents sur le support, mais qu’
 
 Les scénarios suivants fournissent une compréhension élémentaire des éléments à attendre de l’exécution automatique.
 
-### <a name="autoplay-for-storage-devices-with-picture-media"></a>Lecture automatique pour les appareils de stockage avec image multimédia
+### <a name="autoplay-for-storage-devices-with-picture-media"></a>lecture automatique pour Stockage appareils avec image multimédia
 
-1.  L’utilisateur attache un lecteur USB SanDisk CompactFlash qui a déjà un support inséré contenant un type de contenu d’image de 100% sous la forme de fichiers. jpg.
+1.  L’utilisateur attache un lecteur USB SanDisk CompactFlash qui a déjà un support inséré contenant le type de contenu d’image 100 pour cent sous la forme de fichiers .jpg.
 2.  La notification affiche **le nouveau matériel-SanDisk ImageMate**.
 3.  L’exécution automatique lance l’application d’image appropriée.
 
 De même, lorsque l’utilisateur insère le même média CompactFlash dans le lecteur alors que le lecteur est déjà attaché au système, l’événement Media Insert fait également en sorte que l’exécution automatique lance l’application diaporama d’images. L’utilisateur a la possibilité d’accéder à la page des propriétés du périphérique multimédia SanDisk pour remplacer la valeur par défaut par une autre application d’exécution automatique inscrite, telle que l’Assistant scanneur et appareil photo, ou Picture It !.
 
-### <a name="autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media"></a>Lecture automatique pour les périphériques de lecture de fichiers musicaux et les dispositifs de stockage contenant des médias musicaux
+### <a name="autoplay-for-music-file-playback-devices-and-storage-devices-containing-music-media"></a>lecture automatique pour Musique les appareils de lecture de fichiers et les appareils Stockage contenant Musique média
 
 1.  L’utilisateur attache un lecteur MP3 Diamond Rio USB.
 2.  La notification affiche **un nouveau matériel-lecteur MP3 Diamond Rio**.
-3.  L’exécution automatique lit les fichiers à l’aide de son gestionnaire par défaut enregistré, par exemple le lecteur Windows Media.
+3.  l’exécution automatique lit les fichiers à l’aide de son gestionnaire par défaut enregistré, par exemple Lecteur Windows Media.
 
-De même, si l’utilisateur insère un support contenant des fichiers. mp3 (par exemple, CompactFlash, SmartMedia, Memory Stick ou CD-ROM) qui compte 100% du contenu total pris en charge dans un dispositif de stockage, l’événement Media Insert entraîne également la lecture des fichiers par la lecture automatique à l’aide du lecteur Windows Media. L’utilisateur peut accéder à la feuille de propriétés du dispositif de stockage et remplacer l’action par défaut par une autre application de lecture automatique inscrite, telle que WinAmp ou Real Player.
+de même, si l’utilisateur insère un support contenant des fichiers .mp3 (par exemple, CompactFlash, SmartMedia, memory Stick ou CD-rom) qui compte 100% du contenu total pris en charge dans un dispositif de stockage, l’événement media insert entraîne également la lecture des fichiers par la lecture automatique à l’aide de la Lecteur Windows Media. L’utilisateur peut accéder à la feuille de propriétés du dispositif de stockage et remplacer l’action par défaut par une autre application de lecture automatique inscrite, telle que WinAmp ou Real Player.
 
 ### <a name="autoplay-for-video-playback-on-first-presentation"></a>Lecture automatique pour la lecture vidéo lors de la première présentation
 
@@ -101,47 +101,17 @@ De même, si l’utilisateur insère un support contenant des fichiers. mp3 (par
 
 ## <a name="assigning-default-handler-applications"></a>Affectation d’applications de gestionnaire par défaut
 
-Une nouvelle installation de Windows recherche l’exécution automatique avec un ensemble d’applications de gestionnaire inscrites. Les applications inscrites par défaut lors de l’installation de Windows sont les suivantes.
+une nouvelle installation de Windows recherche l’exécution automatique avec un ensemble d’applications de gestionnaire inscrites. les Applications inscrites par défaut au cours d’une installation Windows sont les suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type de support</th>
-<th>Applications</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Images</td>
-<td><ul>
-<li>Diaporama (par défaut)</li>
-<li>Assistant appareil photo et scanneur</li>
-<li>Assistant impression</li>
-<li>Ouvrir le dossier</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Musique</td>
-<td><ul>
-<li>Lecteur Windows Media (par défaut)</li>
-<li>Ouvrir le dossier</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Vidéo</td>
-<td><ul>
-<li>Lecteur Windows Media (par défaut)</li>
-<li>Ouvrir le dossier</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Type de support | Applications | 
+|------------|--------------|
+| Images | <ul><li>Diaporama (par défaut)</li><li>Assistant appareil photo et scanneur</li><li>Assistant impression</li><li>Ouvrir le dossier</li></ul> | 
+| Musique | <ul><li>Lecteur Windows Media (par défaut)</li><li>Ouvrir le dossier</li></ul> | 
+| Vidéo | <ul><li>Lecteur Windows Media (par défaut)</li><li>Ouvrir le dossier</li></ul> | 
+
 
 
 
@@ -186,7 +156,7 @@ Les utilisateurs peuvent effectuer l’une des opérations suivantes.
 -   Répertoriez les fichiers sur le support dans un affichage normal du dossier.
 -   Aucune action n’est nécessaire.
 
-Un utilisateur peut également enregistrer un choix en tant qu’action par défaut pour ce support en cliquant sur la zone **toujours faire l’action sélectionnée** . Une fois ce choix effectué, la boîte de dialogue ne s’affiche plus. Toutefois, dans Windows XP Service Pack 1 (SP1), si une nouvelle application capable de gérer un type de média particulier est ajoutée à l’ordinateur, la boîte de dialogue est à nouveau présentée à l’utilisateur, ce qui lui donne la possibilité de sélectionner la nouvelle application comme action d’exécution par défaut. Les applications peuvent également se définir comme sélection par défaut lorsqu’elles sont installées.
+Un utilisateur peut également enregistrer un choix en tant qu’action par défaut pour ce support en cliquant sur la zone **toujours faire l’action sélectionnée** . Une fois ce choix effectué, la boîte de dialogue ne s’affiche plus. toutefois, dans Windows XP Service Pack 1 (SP1), si une nouvelle application capable de gérer un type de média particulier est ajoutée à l’ordinateur, la boîte de dialogue est à nouveau présentée à l’utilisateur, ce qui lui donne la possibilité de sélectionner la nouvelle application comme action d’exécution par défaut. Les applications peuvent également se définir comme sélection par défaut lorsqu’elles sont installées.
 
 Windows XP SP1 ajoute également une fonctionnalité qui conserve le choix de l’action d’exécution automatique de l’utilisateur s’il ne clique pas sur la zone **toujours faire l’action sélectionnée** . Si un utilisateur choisit une action d’exécution automatique pour une instance unique, la prochaine fois que cette boîte de dialogue est présentée pour ce type de média, la même action est la sélection par défaut.
 

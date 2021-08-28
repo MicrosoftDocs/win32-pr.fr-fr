@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd91eef026ae027e183b4f304211915e7bbbd95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d83c7a86659fe2c80bc786a4ef1ed5944f90809049e4f681506c439477bc744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106522641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351649"
 ---
 # <a name="wm_lbuttondblclk-message"></a>\_Message WM LBUTTONDBLCLK
 
@@ -74,7 +74,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 

@@ -4,12 +4,12 @@ ms.assetid: d26d24a5-558e-4333-ae39-ffba1bbc5247
 title: Propriété de résumé du nombre de caractères
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afc99c065721f0f0b94691a12e00204305940efd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 766cc9ab355e533c155bfc81bac7b3f6e82cf9ab8679cf4feb00e9d01705a94b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754339"
 ---
 # <a name="character-count-summary-property"></a>Propriété de résumé du nombre de caractères
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment initialiser un appareil.
 ms.assetid: 02a20ada-b3aa-435e-8d66-117a19222f9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 546bee6631816beb699f282a3b4f46bbbc142afc
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: a886e27a557d0c7c59b9d92b5df9d180a930d4fe
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786765"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625525"
 ---
 # <a name="how-to-create-a-device-and-immediate-context"></a>Comment : créer un appareil et un contexte immédiat
 
@@ -70,7 +70,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > [!Note]  
 > Si vous demandez un appareil de [**\_ niveau de fonctionnalité D3D \_ \_ 11 \_ 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) sur un ordinateur uniquement avec le runtime Direct3D 11,0, [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) se ferme immédiatement avec **E \_ INVALIDARG**. Pour demander en toute sécurité tous les niveaux de fonctionnalités possibles sur un ordinateur avec le runtime DirectX 11,0 ou DirectX 11,1, utilisez ce code :
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -103,7 +103,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Créez une vue de cible de rendu en appelant [**ID3D11Device :: CreateRenderTargetView**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createrendertargetview) et liez la mémoire tampon d’arrière-plan en tant que cible de rendu en appelant [**ID3D11DeviceContext :: OMSetRenderTargets**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets).
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -129,7 +129,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Créez une fenêtre d’affichage pour définir les parties de la cible de rendu qui seront visibles. Définissez la fenêtre d’affichage à l’aide de la structure de la [**\_ fenêtre d’affichage d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport) et définissez la fenêtre d’affichage à l’aide de la méthode [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports) .
 >
-> 
+> <span codelanguage="ManagedCPlusPlus"></span>
 >
 > <table>
 > <colgroup>

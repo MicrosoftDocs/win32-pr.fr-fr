@@ -3,7 +3,7 @@ title: Message HDM_GETITEM (commctrl. h)
 description: Obtient des informations sur un élément dans un contrôle header. Vous pouvez envoyer ce message explicitement ou utiliser la macro Header \_ GetItem.
 ms.assetid: fb1330d3-fd28-490c-9caa-4b2b5ff86ba0
 keywords:
-- HDM_GETITEM les contrôles de message Windows
+- HDM_GETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2073602121480930e0f7d9d2e5a904c0dea77ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 566f8b8e3bdf4e92abfb1fdd5874b8514814792e1d7aae169cc2aca4b2e8d101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436189"
 ---
 # <a name="hdm_getitem-message"></a>\_Message HDM GETITEM
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l' \_ indicateur de texte hdi est défini dans le membre **Mask** de la structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) , le contrôle peut modifier le membre **pszText** de la structure afin qu’il pointe vers le nouveau texte au lieu de remplir la mémoire tampon avec le texte demandé. Les applications ne doivent pas supposer que le texte sera toujours placé dans la mémoire tampon demandée.
 
@@ -59,8 +59,8 @@ Si l' \_ indicateur de texte hdi est défini dans le membre **Mask** de la struc
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **HDM \_ GETITEMW** (Unicode) et **HDM \_ GETITEMA** (ANSI)<br/>                   |
 

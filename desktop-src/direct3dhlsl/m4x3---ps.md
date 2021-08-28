@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7787268906c2c9e92dc1e3fa1ec87c4af3079255
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4e291c268aae4173cb3ace4fc00beb5f1a3aa9f0b3d335f80891a851bcab41b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982029"
 ---
 # <a name="m4x3---ps"></a>m4x3-PS
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source qui représente un vecteur à 4 composants.
 -   src1 est un registre source qui représente une matrice 4x3, qui correspond au premier des 3 registres consécutifs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

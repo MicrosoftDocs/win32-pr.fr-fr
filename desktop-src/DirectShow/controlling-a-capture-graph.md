@@ -1,19 +1,19 @@
 ---
-description: Contrôle d’un graphique de capture
+description: Contrôle d’un Graph de capture
 ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
-title: Contrôle d’un graphique de capture
+title: Contrôle d’un Graph de capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d678e00452fbf90591fbc187039ddbbc37cc4fde446e2e285c77fcaab415e815
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652139"
 ---
-# <a name="controlling-a-capture-graph"></a>Contrôle d’un graphique de capture
+# <a name="controlling-a-capture-graph"></a>Contrôle d’un Graph de capture
 
-L’interface [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) du gestionnaire de graphique de filtre a des méthodes pour l’exécution, l’arrêt et la suspension de l’ensemble du graphique. Toutefois, si le graphique de filtre a des flux de capture et d’aperçu, vous souhaiterez probablement contrôler les deux flux indépendamment. Par exemple, vous souhaiterez peut-être afficher un aperçu de la vidéo sans la capturer. Pour ce faire, vous pouvez utiliser la méthode [**ICaptureGraphBuilder2 :: ControlStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) .
+l’interface [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) du gestionnaire de Graph du filtre a des méthodes pour l’exécution, l’arrêt et la suspension de l’ensemble du graphique. Toutefois, si le graphique de filtre a des flux de capture et d’aperçu, vous souhaiterez probablement contrôler les deux flux indépendamment. Par exemple, vous souhaiterez peut-être afficher un aperçu de la vidéo sans la capturer. Pour ce faire, vous pouvez utiliser la méthode [**ICaptureGraphBuilder2 :: ControlStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) .
 
 > [!Note]  
 > Cette méthode ne fonctionne pas lors de la capture dans un fichier ASF (Advanced Systems Format).
@@ -72,7 +72,7 @@ La méthode **ControlStream** définit des valeurs spéciales pour les heures de
 
 
 
-| Value | Démarrer                                  | Arrêter                               |
+| Valeur | Démarrer                                  | Arrêter                               |
 |-------------|----------------------------------------|---------|
 | MAXLONGLONG | Ne jamais démarrer ce flux.               | Ne s’arrête pas tant que le graphique n’est pas arrêté. |
 | **NULL**    | Démarrer immédiatement lorsque le graphique s’exécute. | Arrêter immédiatement.                  |

@@ -1,6 +1,6 @@
 ---
 title: Compréhension des problèmes de mise à l’échelle de l’écran
-description: Windows Vista et les versions ultérieures du système d’exploitation permettent aux utilisateurs de modifier le paramètre de points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands.
+description: Windows Vista et les versions ultérieures du système d’exploitation permettent aux utilisateurs de modifier le paramètre points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands.
 ms.assetid: 27dc49e7-2466-4ea3-a6d9-5ea86d6b4c60
 keywords:
 - clients, mise à l’échelle de l’écran UI Automation
@@ -11,23 +11,23 @@ keywords:
 - mise à l’échelle de l’écran
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05d790ee7747f258847cd23aea8bbbe8c25813fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a4dcdc8d586b4320e4da04dfdd7e0264f36074cc59fa53f42333ec5a6c3dd135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614289"
 ---
 # <a name="understanding-screen-scaling-issues"></a>Compréhension des problèmes de mise à l’échelle de l’écran
 
-Windows Vista et les versions ultérieures du système d’exploitation permettent aux utilisateurs de modifier le paramètre de points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands. Dans les versions antérieures de Windows, la mise à l’échelle devait être implémentée par les applications. Dans Windows Vista et versions ultérieures, le Gestionnaire de fenêtrage (DWM) effectue une mise à l’échelle par défaut pour toutes les applications qui ne gèrent pas leur propre mise à l’échelle. Les applications clientes Microsoft UI Automation doivent prendre en compte cette fonctionnalité.
+Windows Vista et les versions ultérieures du système d’exploitation permettent aux utilisateurs de modifier le paramètre points par pouce (dpi) pour que la plupart des éléments d’interface utilisateur de l’écran apparaissent plus grands. dans les versions antérieures de Windows, la mise à l’échelle devait être implémentée par les applications. dans Windows Vista et versions ultérieures, le Gestionnaire de fenêtrage (DWM) effectue une mise à l’échelle par défaut pour toutes les applications qui ne gèrent pas leur propre mise à l’échelle. Les applications clientes Microsoft UI Automation doivent prendre en compte cette fonctionnalité.
 
 Cette rubrique contient les sections suivantes :
 
--   [Mise à l’échelle dans Windows Vista et versions ultérieures](#scaling-in-windows-vista-and-later)
+-   [mise à l’échelle dans Windows Vista et versions ultérieures](#scaling-in-windows-vista-and-later)
 -   [Mise à l’échelle dans les clients UI Automation](#scaling-in-ui-automation-clients)
 
-## <a name="scaling-in-windows-vista-and-later"></a>Mise à l’échelle dans Windows Vista et versions ultérieures
+## <a name="scaling-in-windows-vista-and-later"></a>mise à l’échelle dans Windows Vista et versions ultérieures
 
 Le paramètre PPP par défaut est 96, ce qui signifie que 96 pixels occupent la largeur ou la hauteur d’un pouce notionnel. La mesure exacte d’un « pouce » dépend de la taille et de la résolution physique du moniteur. Par exemple, sur un moniteur d’une largeur de 12 pouces, pour une résolution horizontale de 1 280 pixels, une ligne horizontale de 96 pixels s’étend sur 9/10e de pouce.
 
@@ -38,7 +38,7 @@ En effet, lorsque l’utilisateur définit le facteur d’échelle sur 120 ppp, 
 > [!Note]  
 > Par défaut, le DWM n’effectue pas de mise à l’échelle pour les applications qui ne prennent pas en charge la résolution lorsque l’utilisateur définit la valeur PPP sur 120, mais effectue une mise à l’échelle lorsque la valeur PPP est définie sur 144 ou une valeur supérieure. Toutefois, l’utilisateur peut remplacer le comportement par défaut.
 
- 
+ 
 
 La mise à l’échelle de l’écran pose de nouveaux défis pour les applications qui sont concernées d’une manière ou d’une autre par les coordonnées d’écran. L’écran contient maintenant deux systèmes de coordonnées : l’un physique et l’autre logique. Les coordonnées physiques d’un point correspondent au décalage réel, en pixels, par rapport à l’angle supérieur gauche du point d’origine. Les coordonnées logiques correspondent aux décalages tels qu’ils seraient si les pixels eux-mêmes étaient mis à l’échelle.
 
@@ -65,6 +65,6 @@ Tout d’abord, assurez-vous que l’application cliente prend en charge dpi. Po
 
 Deuxièmement, pour connaître les coordonnées du curseur, appelez la fonction [**GetPhysicalCursorPos**](/windows/desktop/api/winuser/nf-winuser-getphysicalcursorpos) .
 
- 
+ 
 
- 
+ 

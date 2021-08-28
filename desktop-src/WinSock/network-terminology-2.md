@@ -1,17 +1,17 @@
 ---
 description: Les mesures sont utilisées pour mesurer les aspects des performances du réseau et du protocole.
 ms.assetid: ee5faaf6-e230-4084-9829-e8cae8759587
-title: Terminologie réseau (Windows Sockets 2)
+title: terminologie réseau (Windows sockets 2)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b04e84621cdaec2638762d54f67e5aca7e3d55ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3d0c5fc67932b5c756ae52b9a7ffefef0f18c2728f2b2773de3741d0e5b7d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794769"
 ---
-# <a name="network-terminology-windows-sockets-2"></a>Terminologie réseau (Windows Sockets 2)
+# <a name="network-terminology-windows-sockets-2"></a>terminologie réseau (Windows sockets 2)
 
 Les mesures sont utilisées pour mesurer les aspects des performances du réseau et du protocole. Les valeurs de ces métriques dans différents scénarios indiquent le niveau de performances d’une application réseau. Cette section définit les termes et métriques utilisés à l’ensemble du secteur pour mesurer les performances des applications réseau. Ces termes sont utilisés dans le reste de ce guide.
 

@@ -3,7 +3,7 @@ title: élément Group
 description: Représente un contrôle de groupe qui fonctionne comme un conteneur pour un groupe d’éléments.
 ms.assetid: b0d3fcda-7165-40f4-9e57-c7ab88b31711
 keywords:
-- Ruban des fenêtres d’élément de groupe
+- élément de groupe Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 86d12ddb781ecf7e1effba1cade8eb00e92fe20b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442870"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631367"
 ---
 # <a name="group-element"></a>élément Group
 
@@ -41,10 +41,10 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,20 +58,20 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui contient une liste d’entiers séparés par des virgules, comprise entre 0 et 31.<br/> L’espace blanc est valide et ignoré.<br/> Longueur maximale : 250 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>SizeDefinition</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Lorsqu’il est spécifié, la valeur de <em>SizeDefinition</em> est limitée à l’un des <a href="windowsribbon-templates.md">modèles de disposition</a> définis par l’infrastructure du ruban. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Toute séquence de zéro ou plusieurs caractères.<br/> La longueur maximale est illimitée.<br/> </dd> </dl></td>
 </tr>
@@ -87,7 +87,7 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 | Élément                                                                             | Description                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**Activé**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>               | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -109,13 +109,13 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 
 | Élément                                             |
 |-----------------------------------------------------|
-| [**/**](windowsribbon-element-tab.md)<br/> |
+| [**Onglet**](windowsribbon-element-tab.md)<br/> |
 
 
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Tab**](windowsribbon-element-tab.md) .
 
@@ -138,7 +138,7 @@ L’exemple de code suivant illustre l’utilisation d’un modèle personnalis�
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

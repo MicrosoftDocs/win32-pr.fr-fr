@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e72cd17ae65fbffc2cef280f15d12ba0ddbdbe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e8409e7e9e0bfc01545ac73673f0653c5a4940c65422223233ec5005f5c9fc02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560279"
 ---
 # <a name="ncacn_vns_spp-attribute"></a>\_ \_ attribut spp ncacn réseaux virtuels
 
@@ -45,16 +45,16 @@ Spécifie un port de Banyan VINES SPP. La plage valide pour les points de termin
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour pouvoir utiliser le protocole de transport **ncacn \_ réseaux virtuels \_ spp** dans des applications distribuées exécutées sur Windows 2000, le logiciel client Banyan Enterprise approprié doit être installé. Après l’installation, ouvrez **le panneau** de **configuration, choisissez Configuration et ajouter**, puis sélectionnez **service \| Banyan \| RPC services pour Banyan**. La prise en charge des clients 16 bits requiert le logiciel Vines approprié. Pour plus d’informations sur le produit client entreprise de Banyan et le logiciel de la vigne 16 bits, contactez Banyan.
+pour pouvoir utiliser le protocole de transport **ncacn \_ réseaux virtuels \_ spp** dans des applications distribuées exécutées sur Windows 2000, le logiciel Client Banyan Enterprise approprié doit être installé. Après l’installation, ouvrez **le panneau** de **configuration, choisissez Configuration et ajouter**, puis sélectionnez **service \| Banyan \| RPC services pour Banyan**. La prise en charge des clients 16 bits requiert le logiciel Vines approprié. pour plus d’informations sur le produit Enterprise Client banyan et le logiciel de la vigne 16 bits, contactez banyan.
 
 La syntaxe de la chaîne du port de transport Banyan VINES SPP, comme toutes les chaînes de port, est définie indépendamment de la spécification IDL. Le compilateur effectue une vérification de la syntaxe, mais ne garantit pas que la spécification du point de terminaison est correcte. Certaines erreurs peuvent être signalées au moment de l’exécution plutôt qu’au moment de la compilation.
 
 > [!Note]  
-> Cette famille de protocoles n’est pas prise en charge dans Windows XP.
+> cette famille de protocoles n’est pas prise en charge dans Windows XP.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -116,6 +116,6 @@ interface iface
 [liaison de chaîne](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

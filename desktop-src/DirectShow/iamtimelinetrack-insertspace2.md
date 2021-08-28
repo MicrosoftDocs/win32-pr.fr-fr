@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 401c20d766fe9751c35cb59c03bca739494b3f8a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f851e6bdccb755977210fcd67e7ce0bb6cb270ec3ff6a4f1fed4806a035a11a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052249"
 ---
 # <a name="iamtimelinetrackinsertspace2-method"></a>IAMTimelineTrack :: InsertSpace2, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 | Code de retour                                                                                   | Description                                            |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>       | Il n’y a aucun objet à l’heure spécifiée.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                    |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | Argument non valide.<br/>                           |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>                        |
 
@@ -77,7 +77,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -85,7 +85,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

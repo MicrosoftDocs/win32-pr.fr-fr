@@ -1,64 +1,48 @@
 ---
-description: Filtre de mixage de superposition 2
+description: filtre de superposition Mixer 2
 ms.assetid: 3d3871ac-518c-45a1-9e64-031f344f4527
-title: Filtre de mixage de superposition 2
+title: filtre de superposition Mixer 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f22976a58b272cf04c098c102d32d154e361b8b9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9b51dceb2a7f82a91fe30275cacfaad4ad78eded
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987352"
 ---
-# <a name="overlay-mixer-2-filter"></a>Filtre de mixage de superposition 2
+# <a name="overlay-mixer-2-filter"></a>filtre de superposition Mixer 2
 
-Le filtre de mixage de superposition 2 est identique au filtre de [mixage de superposition](overlay-mixer-filter.md) , sauf :
+le filtre de superposition Mixer 2 est identique à la [superposition Mixer](overlay-mixer-filter.md) le filtre, sauf :
 
 -   Il prend uniquement en charge les types de média avec les formats [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) .
 -   Sa valeur est plus élevée, ce qui lui permet d’être ajouté automatiquement à un graphique de filtre.
 
-Le mélangeur de superposition 2 est fourni afin que le gestionnaire de graphes de filtre l’ajoute au graphique lors du rendu d’une vidéo MPEG-2 non DVD. La possibilité d’utiliser le mélangeur de superposition ou le mélangeur de superposition 2 est gérée par le composant qui génère le graphique, soit le gestionnaire de graphes de filtre, le générateur de graphiques de capture ou le générateur de graphiques de DVD. Du point de vue de l’application, il s’agit du même filtre, avec les mêmes interfaces et fonctionnalités.
+le Mixer de superposition 2 est fourni afin que le gestionnaire de Graph de filtre l’ajoute au graphique lors du rendu d’une vidéo MPEG-2 non DVD. le choix entre l’utilisation de la superposition Mixer ou la superposition Mixer 2 est géré par le composant qui génère le graphique, à savoir le gestionnaire de Graph de filtre, le générateur de Graph de Capture ou le générateur de Graph DVD. Du point de vue de l’application, il s’agit du même filtre, avec les mêmes interfaces et fonctionnalités.
 
-Le tableau suivant contient des informations spécifiques au mélangeur de superposition 2. Pour toutes les autres données de filtre, reportez-vous à la documentation du mélangeur de superposition.
+le tableau suivant contient des informations spécifiques à la superposition Mixer 2. Pour toutes les autres données de filtre, reportez-vous à la documentation de la Mixer de superposition.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Types de média de broche d’entrée</td>
-<td>Type de format : Format_VIDEOINFO2</td>
-</tr>
-<tr class="even">
-<td>CLSID du filtre</td>
-<td>CLSID_OverlayMixer2</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Mérite</a></td>
-<td><ul>
-<li>MERIT_UNLIKELY</li>
-<li>Windows Vista ou version ultérieure : MERIT_DO_NOT_USE</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| Types de média de broche d’entrée | Type de format : Format_VIDEOINFO2 | 
+| CLSID du filtre | CLSID_OverlayMixer2 | 
+| <a href="merit.md">Mérite</a> | <ul><li>MERIT_UNLIKELY</li><li>Windows Vista ou version ultérieure : MERIT_DO_NOT_USE</li></ul> | 
+
 
 
 
  
 
-Dans Windows Vista ou version ultérieure, les mérites du filtre de mixage de superposition 2 méritent de \_ ne \_ pas \_ être utilisés, car les convertisseurs vidéo plus récents (VMR-7, VMR-9 et EVR) prennent tous en charge les formats **VIDEOINFOHEADER2** , et il n’est donc pas nécessaire d’utiliser le mélangeur de superposition.
+dans Windows Vista ou version ultérieure, le mérite du filtre de superposition Mixer 2 n’est \_ \_ pas \_ utilisé, car les convertisseurs vidéo les plus récents (vmr-7, vmr-9 et EVR) prennent tous en charge les formats **VIDEOINFOHEADER2** , et il n’est donc pas nécessaire d’utiliser le Mixer de superposition.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

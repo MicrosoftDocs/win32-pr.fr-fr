@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 25596f30457063bc90124f14489963507f85ff70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5458a9acfa6c166764b47a2d49a5ddcc181e38ee
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539292"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482175"
 ---
 # <a name="wm_syscommand-message"></a>\_Message WM SYSCOMMAND
 
@@ -43,7 +43,7 @@ Une fenêtre reçoit ce message lorsque l’utilisateur choisit une commande dan
         break;
 
 ```
-Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/registry/RegExplorer.c) sur GitHub.
+exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/registry/RegExplorer.c) sur GitHub.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -56,101 +56,29 @@ Type de commande système demandée. Ce paramètre peut prendre les valeurs suiv
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SC_CLOSE"></span><span id="sc_close"></span><dl> <dt><strong>SC_CLOSE</strong></dt> <dt>0xF060</dt> </dl></td>
-<td>Ferme la fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Remplace le curseur par un point d’interrogation par un pointeur. Si l’utilisateur clique ensuite sur un contrôle dans la boîte de dialogue, le contrôle reçoit un message de <a href="/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>
-<td>Sélectionne l’élément par défaut ; l’utilisateur a double-cliqué dans le menu fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_HOTKEY"></span><span id="sc_hotkey"></span><dl> <dt><strong>SC_HOTKEY</strong></dt> <dt>0xF150</dt> </dl></td>
-<td>Active la fenêtre associée à la touche d’accès rapide spécifiée par l’application. Le paramètre <em>lParam</em> identifie la fenêtre à activer.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_HSCROLL"></span><span id="sc_hscroll"></span><dl> <dt><strong>SC_HSCROLL</strong></dt> <dt>0xF080</dt> </dl></td>
-<td>Fait défiler horizontalement.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl> <dt><strong>SCF_ISSECURE</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td>Indique si l’économiseur d’écran est sécurisé. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_KEYMENU"></span><span id="sc_keymenu"></span><dl> <dt><strong>SC_KEYMENU</strong></dt> <dt>0xF100</dt> </dl></td>
-<td>Récupère le menu fenêtre à la suite d’une séquence de touches. Pour plus d'informations, consultez la section Notes.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MAXIMIZE"></span><span id="sc_maximize"></span><dl> <dt><strong>SC_MAXIMIZE</strong></dt> <dt>0xF030</dt> </dl></td>
-<td>Agrandit la fenêtre.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_MINIMIZE"></span><span id="sc_minimize"></span><dl> <dt><strong>SC_MINIMIZE</strong></dt> <dt>0xF020</dt> </dl></td>
-<td>Réduit la fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MONITORPOWER"></span><span id="sc_monitorpower"></span><dl> <dt><strong>SC_MONITORPOWER</strong></dt> <dt>0xF170</dt> </dl></td>
-<td>Définit l’état de l’affichage. Cette commande prend en charge les appareils qui ont des fonctionnalités d’économie d’énergie, comme un ordinateur personnel alimenté par batterie. <br/> Le paramètre <em>lParam</em> peut avoir les valeurs suivantes :<br/>
-<ul>
-<li>-1 (l’affichage est sous tension)</li>
-<li>1 (l’affichage est faible puissance)</li>
-<li>2 (l’affichage est en cours d’arrêt)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_MOUSEMENU"></span><span id="sc_mousemenu"></span><dl> <dt><strong>SC_MOUSEMENU</strong></dt> <dt>0xF090</dt> </dl></td>
-<td>Récupère le menu fenêtre à la suite d’un clic de souris.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MOVE"></span><span id="sc_move"></span><dl> <dt><strong>SC_MOVE</strong></dt> <dt>0xF010</dt> </dl></td>
-<td>Déplace la fenêtre.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_NEXTWINDOW"></span><span id="sc_nextwindow"></span><dl> <dt><strong>SC_NEXTWINDOW</strong></dt> <dt>0xF040</dt> </dl></td>
-<td>Passe à la fenêtre suivante.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_PREVWINDOW"></span><span id="sc_prevwindow"></span><dl> <dt><strong>SC_PREVWINDOW</strong></dt> <dt>0xF050</dt> </dl></td>
-<td>Passe à la fenêtre précédente.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_RESTORE"></span><span id="sc_restore"></span><dl> <dt><strong>SC_RESTORE</strong></dt> <dt>0xF120</dt> </dl></td>
-<td>Rétablit la position et la taille normales de la fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_SCREENSAVE"></span><span id="sc_screensave"></span><dl> <dt><strong>SC_SCREENSAVE</strong></dt> <dt>0xF140</dt> </dl></td>
-<td>Exécute l’application d’écran de veille spécifiée dans la section [boot] du fichier System.ini.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_SIZE"></span><span id="sc_size"></span><dl> <dt><strong>SC_SIZE</strong></dt> <dt>0xF000</dt> </dl></td>
-<td>Dimensionne la fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_TASKLIST"></span><span id="sc_tasklist"></span><dl> <dt><strong>SC_TASKLIST</strong></dt> <dt>0xF130</dt> </dl></td>
-<td>Active le menu <strong>Démarrer</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_VSCROLL"></span><span id="sc_vscroll"></span><dl> <dt><strong>SC_VSCROLL</strong></dt> <dt>0xF070</dt> </dl></td>
-<td>Fait défiler verticalement.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SC_CLOSE"></span><span id="sc_close"></span><dl><dt><strong>SC_CLOSE</strong></dt><dt>0xF060</dt></dl> | Ferme la fenêtre.<br /> | 
+| <span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl><dt><strong>SC_CONTEXTHELP</strong></dt><dt>0xF180</dt></dl> | Remplace le curseur par un point d’interrogation par un pointeur. Si l’utilisateur clique ensuite sur un contrôle dans la boîte de dialogue, le contrôle reçoit un message de <a href="/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> .<br /> | 
+| <span id="SC_DEFAULT"></span><span id="sc_default"></span><dl><dt><strong>SC_DEFAULT</strong></dt><dt>0xF160</dt></dl> | Sélectionne l’élément par défaut ; l’utilisateur a double-cliqué dans le menu fenêtre.<br /> | 
+| <span id="SC_HOTKEY"></span><span id="sc_hotkey"></span><dl><dt><strong>SC_HOTKEY</strong></dt><dt>0xF150</dt></dl> | Active la fenêtre associée à la touche d’accès rapide spécifiée par l’application. Le paramètre <em>lParam</em> identifie la fenêtre à activer.<br /> | 
+| <span id="SC_HSCROLL"></span><span id="sc_hscroll"></span><dl><dt><strong>SC_HSCROLL</strong></dt><dt>0xF080</dt></dl> | Fait défiler horizontalement.<br /> | 
+| <span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl><dt><strong>SCF_ISSECURE</strong></dt><dt>0x00000001</dt></dl> | Indique si l’économiseur d’écran est sécurisé. <br /> | 
+| <span id="SC_KEYMENU"></span><span id="sc_keymenu"></span><dl><dt><strong>SC_KEYMENU</strong></dt><dt>0xF100</dt></dl> | Récupère le menu fenêtre à la suite d’une séquence de touches. Pour plus d'informations, consultez la section Notes.<br /> | 
+| <span id="SC_MAXIMIZE"></span><span id="sc_maximize"></span><dl><dt><strong>SC_MAXIMIZE</strong></dt><dt>0xF030</dt></dl> | Agrandit la fenêtre.<br /> | 
+| <span id="SC_MINIMIZE"></span><span id="sc_minimize"></span><dl><dt><strong>SC_MINIMIZE</strong></dt><dt>0xF020</dt></dl> | Réduit la fenêtre.<br /> | 
+| <span id="SC_MONITORPOWER"></span><span id="sc_monitorpower"></span><dl><dt><strong>SC_MONITORPOWER</strong></dt><dt>0xF170</dt></dl> | Définit l’état de l’affichage. Cette commande prend en charge les appareils qui ont des fonctionnalités d’économie d’énergie, comme un ordinateur personnel alimenté par batterie. <br /> Le paramètre <em>lParam</em> peut avoir les valeurs suivantes :<br /><ul><li>-1 (l’affichage est sous tension)</li><li>1 (l’affichage est faible puissance)</li><li>2 (l’affichage est en cours d’arrêt)</li></ul> | 
+| <span id="SC_MOUSEMENU"></span><span id="sc_mousemenu"></span><dl><dt><strong>SC_MOUSEMENU</strong></dt><dt>0xF090</dt></dl> | Récupère le menu fenêtre à la suite d’un clic de souris.<br /> | 
+| <span id="SC_MOVE"></span><span id="sc_move"></span><dl><dt><strong>SC_MOVE</strong></dt><dt>0xF010</dt></dl> | Déplace la fenêtre.<br /> | 
+| <span id="SC_NEXTWINDOW"></span><span id="sc_nextwindow"></span><dl><dt><strong>SC_NEXTWINDOW</strong></dt><dt>0xF040</dt></dl> | Passe à la fenêtre suivante.<br /> | 
+| <span id="SC_PREVWINDOW"></span><span id="sc_prevwindow"></span><dl><dt><strong>SC_PREVWINDOW</strong></dt><dt>0xF050</dt></dl> | Passe à la fenêtre précédente.<br /> | 
+| <span id="SC_RESTORE"></span><span id="sc_restore"></span><dl><dt><strong>SC_RESTORE</strong></dt><dt>0xF120</dt></dl> | Rétablit la position et la taille normales de la fenêtre.<br /> | 
+| <span id="SC_SCREENSAVE"></span><span id="sc_screensave"></span><dl><dt><strong>SC_SCREENSAVE</strong></dt><dt>0xF140</dt></dl> | Exécute l’application d’écran de veille spécifiée dans la section [boot] du fichier System.ini.<br /> | 
+| <span id="SC_SIZE"></span><span id="sc_size"></span><dl><dt><strong>SC_SIZE</strong></dt><dt>0xF000</dt></dl> | Dimensionne la fenêtre.<br /> | 
+| <span id="SC_TASKLIST"></span><span id="sc_tasklist"></span><dl><dt><strong>SC_TASKLIST</strong></dt><dt>0xF130</dt></dl> | Active le menu <strong>Démarrer</strong> .<br /> | 
+| <span id="SC_VSCROLL"></span><span id="sc_vscroll"></span><dl><dt><strong>SC_VSCROLL</strong></dt><dt>0xF070</dt></dl> | Fait défiler verticalement.<br /> | 
+
 
 
 
@@ -167,11 +95,11 @@ Le mot de poids fort spécifie la position verticale du curseur, en coordonnées
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir les coordonnées de position en coordonnées d’écran, utilisez le code suivant :
 

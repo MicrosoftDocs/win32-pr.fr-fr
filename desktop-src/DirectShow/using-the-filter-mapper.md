@@ -4,16 +4,16 @@ ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Utilisation du mappeur de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2d7acf85a7b415fc161cd21e17d069b46c3f40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48758c40b97477200b4fab1215eaccac53823771add86d6a8b915370776495a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049610"
 ---
 # <a name="using-the-filter-mapper"></a>Utilisation du mappeur de filtre
 
-Le [Mappeur de filtre](filter-mapper.md) est un objet com qui énumère les filtres DirectShow en fonction de différents critères de recherche. Le mappeur de filtre peut être moins efficace que l’énumérateur de périphérique système. par conséquent, si vous avez besoin de filtres d’une catégorie particulière, vous devez utiliser l’énumérateur de périphérique système. Toutefois, si vous devez localiser un filtre qui prend en charge une certaine combinaison de types de média, mais ne fait pas partie d’une catégorie claire, vous devrez peut-être utiliser le mappeur de filtre. (Par exemple, il peut s’agir d’un filtre de convertisseur ou d’un filtre de décodeur).
+le [mappeur de filtre](filter-mapper.md) est un objet COM qui énumère les filtres de DirectShow en fonction de différents critères de recherche. Le mappeur de filtre peut être moins efficace que l’énumérateur de périphérique système. par conséquent, si vous avez besoin de filtres d’une catégorie particulière, vous devez utiliser l’énumérateur de périphérique système. Toutefois, si vous devez localiser un filtre qui prend en charge une certaine combinaison de types de média, mais ne fait pas partie d’une catégorie claire, vous devrez peut-être utiliser le mappeur de filtre. (Par exemple, il peut s’agir d’un filtre de convertisseur ou d’un filtre de décodeur).
 
 Le mappeur de filtre expose l’interface [**IFilterMapper2**](/windows/desktop/api/Strmif/nn-strmif-ifiltermapper2) . Pour rechercher un filtre, appelez la méthode [**IFilterMapper2 :: EnumMatchingFilters**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters) . Cette méthode prend plusieurs paramètres qui définissent les critères de recherche et retourne un énumérateur pour les filtres correspondants. L’énumérateur prend en charge l’interface [**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker) et fournit un moniker unique pour chaque filtre correspondant.
 
@@ -106,7 +106,7 @@ La méthode [**EnumMatchingFilters**](/windows/desktop/api/Strmif/nf-strmif-ifil
 [Énumération des appareils et des filtres](enumerating-devices-and-filters.md)
 </dt> <dt>
 
-[Connexion intelligente](intelligent-connect.md)
+[Connecter intelligente](intelligent-connect.md)
 </dt> </dl>
 
  

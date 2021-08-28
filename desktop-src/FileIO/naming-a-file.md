@@ -1,20 +1,20 @@
 ---
-description: Tous les systèmes de fichiers pris en charge par Windows utilisent le concept de fichiers et de répertoires pour accéder aux données stockées sur un disque ou un périphérique.
+description: tous les systèmes de fichiers pris en charge par Windows utilisent le concept de fichiers et de répertoires pour accéder aux données stockées sur un disque ou un périphérique.
 ms.assetid: 121cd5b2-e6fd-4eb4-99b4-b652d27b53e8
 title: Nommage des fichiers, chemins d’accès et espaces de noms
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: 59f626c931a61255cef8be9ede594cb97924cfb0
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: f77b12fa133bb8b35260b49a90c24e202055c8564431f6a0d6d4c09527811ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "106512848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533449"
 ---
 # <a name="naming-files-paths-and-namespaces"></a>Nommage des fichiers, chemins d’accès et espaces de noms
 
-Tous les systèmes de fichiers pris en charge par Windows utilisent le concept de fichiers et de répertoires pour accéder aux données stockées sur un disque ou un périphérique. Les développeurs Windows qui travaillent avec les API Windows pour les e/s de fichiers et de périphériques doivent comprendre les différentes règles, conventions et limitations des noms de fichiers et de répertoires.
+tous les systèmes de fichiers pris en charge par Windows utilisent le concept de fichiers et de répertoires pour accéder aux données stockées sur un disque ou un périphérique. Windows les développeurs qui travaillent avec les api Windows pour les e/s de fichiers et de périphériques doivent comprendre les différentes règles, conventions et limitations des noms de fichiers et de répertoires.
 
 Les données sont accessibles à partir de disques, d’appareils et de partages réseau à l’aide des API d’e/s de fichier. Les fichiers et les répertoires, ainsi que les espaces de noms, font partie du concept de chemin d’accès, qui est une représentation sous forme de chaîne de l’emplacement des données, quel que soit l’emplacement d’un disque ou d’un périphérique ou d’une connexion réseau pour une opération spécifique.
 
@@ -27,7 +27,7 @@ Pour plus d’informations, consultez les sous-sections suivantes :
     -   [Noms courts et noms longs](#short-vs-long-names)
 -   [Chemins d’accès](#fully-qualified-vs-relative-paths)
     -   [Chemins d’accès complets et chemins relatifs](#fully-qualified-vs-relative-paths)
-    -   [Limite de longueur maximale du chemin d’accès](#maximum-path-length-limitation)
+    -   [Limitation de longueur maximale du chemin](#maximum-path-length-limitation)
 -   [Espaces de noms](#win32-file-namespaces)
     -   [Espaces de noms de fichier Win32](#win32-file-namespaces)
     -   [Espaces de noms d’appareils Win32](#win32-device-namespaces)
@@ -35,14 +35,14 @@ Pour plus d’informations, consultez les sous-sections suivantes :
 -   [Rubriques connexes](#related-topics)
 
 
-Pour en savoir plus sur la configuration de Windows 10 pour la prise en charge des chemins d’accès de fichiers longs, consultez limitation de la [longueur maximale du chemin](./maximum-file-path-limitation.md).
+pour en savoir plus sur la configuration de Windows 10 pour prendre en charge les chemins d’accès de fichiers longs, consultez [Limitation de longueur maximale du chemin d’accès](./maximum-file-path-limitation.md).
 
 
 ## <a name="file-and-directory-names"></a>Noms de fichiers et de répertoires
 
 Tous les systèmes de fichiers suivent les mêmes conventions d’affectation de noms générales pour un fichier individuel : un nom de fichier de base et une extension facultative, séparés par un point. Toutefois, chaque système de fichiers, tel que NTFS, CDFS, exFAT, UDF, FAT et FAT32, peut avoir des règles spécifiques et différentes sur la formation des composants individuels dans le chemin d’accès à un répertoire ou à un fichier. Notez qu’un *répertoire* est simplement un fichier avec un attribut spécial qui le désignant comme répertoire, mais qui, dans le cas contraire, doit suivre les mêmes règles d’affectation de noms qu’un fichier normal. Étant donné que le terme *répertoire* fait simplement référence à un type spécial de fichier en ce qui concerne le système de fichiers, certains documents de référence utilisent le *fichier* terme général pour englober les deux concepts des répertoires et des fichiers de données. Pour cette raison, sauf indication contraire, les règles d’affectation de noms ou d’utilisation ou des exemples pour un fichier doivent également s’appliquer à un répertoire. Le terme *chemin d’accès* fait référence à un ou plusieurs répertoires, barres obliques inverses et éventuellement un nom de volume. Pour plus d’informations, consultez la section [chemins d’accès](#fully-qualified-vs-relative-paths) .
 
-Les limites du nombre de caractères peuvent également être différentes et peuvent varier en fonction du format de préfixe du système de fichiers et du chemin d’accès utilisé. Cela est encore plus compliqué par la prise en charge des mécanismes de compatibilité descendante. Par exemple, l’ancien système de fichiers FAT MS-DOS prend en charge un maximum de 8 caractères pour le nom de fichier de base et 3 caractères pour l’extension, pour un total de 12 caractères, y compris le séparateur de points. Ce *nom de fichier* est communément appelé 8,3. Les systèmes de fichiers FAT et NTFS Windows ne sont pas limités aux noms de fichiers 8,3, car ils *prennent en charge le nom* de fichier long, mais ils prennent toujours en charge la version 8,3 des noms de fichiers longs.
+Les limites du nombre de caractères peuvent également être différentes et peuvent varier en fonction du format de préfixe du système de fichiers et du chemin d’accès utilisé. Cela est encore plus compliqué par la prise en charge des mécanismes de compatibilité descendante. Par exemple, l’ancien système de fichiers FAT MS-DOS prend en charge un maximum de 8 caractères pour le nom de fichier de base et 3 caractères pour l’extension, pour un total de 12 caractères, y compris le séparateur de points. Ce *nom de fichier* est communément appelé 8,3. les systèmes de fichiers Windows FAT et NTFS ne sont pas limités aux noms de fichiers 8,3, car ils *prennent en charge le nom* de fichier long, mais ils prennent toujours en charge la version 8,3 des noms de fichiers longs.
 
 ### <a name="naming-conventions"></a>Conventions d'affectation de noms
 
@@ -77,13 +77,13 @@ Les règles fondamentales suivantes permettent aux applications de créer et de 
 
     CON, PRN, aux, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8 et LPT9. Évitez également que ces noms soient immédiatement suivis par une extension ; par exemple, NUL.txt n’est pas recommandé. Pour plus d’informations, consultez l’article [Espaces de noms](#win32-file-namespaces).
 
--   Ne terminez pas un nom de fichier ou de répertoire par un espace ou un point. Le système de fichiers sous-jacent peut prendre en charge ces noms, contrairement à l’interface utilisateur et au shell Windows. Toutefois, il est acceptable de spécifier un point comme premier caractère d’un nom. Par exemple, « . Temp ».
+-   Ne terminez pas un nom de fichier ou de répertoire par un espace ou un point. même si le système de fichiers sous-jacent peut prendre en charge ces noms, le shell Windows et l’interface utilisateur ne le sont pas. Toutefois, il est acceptable de spécifier un point comme premier caractère d’un nom. Par exemple, « . Temp ».
 
 ### <a name="short-vs-long-names"></a>Noms courts et noms longs
 
-Un nom de fichier long est considéré comme n’importe quel nom de fichier qui dépasse la petite Convention de nommage de style MS-DOS (également appelée *8,3*). Lorsque vous créez un nom de fichier long, Windows peut également créer une forme abrégée 8,3 du nom, appelée *alias 8,3* ou nom abrégé, et le stocker sur le disque également. Cette 8,3 d’alias peut être désactivée pour des raisons de performances à l’échelle du système ou pour un volume spécifique, selon le système de fichiers.
+Un nom de fichier long est considéré comme n’importe quel nom de fichier qui dépasse la petite Convention de nommage de style MS-DOS (également appelée *8,3*). lorsque vous créez un nom de fichier long, Windows peut également créer une forme abrégée 8,3 du nom, appelée *alias 8,3* ou nom abrégé, et le stocker sur le disque également. Cette 8,3 d’alias peut être désactivée pour des raisons de performances à l’échelle du système ou pour un volume spécifique, selon le système de fichiers.
 
-**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** les alias 8,3 ne peuvent pas être désactivés pour les volumes spécifiés tant que Windows 7 et windows Server 2008 R2 ne le sont pas.
+**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** 8,3 les alias ne peuvent pas être désactivés pour les volumes spécifiés tant que Windows 7 et Windows Server 2008 R2.
 
 Dans de nombreux systèmes de fichiers, un nom de fichier contient un tilde (~) à l’intérieur de chaque composant du nom qui est trop long pour être conforme aux règles d’affectation de noms 8,3.
 
@@ -98,9 +98,9 @@ Pour demander des noms de fichiers 8,3, des noms de fichiers longs ou le chemin 
 -   Pour obtenir la version de nom de fichier long d’un nom abrégé, utilisez la fonction [**GetLongPathName**](/windows/desktop/api/FileAPI/nf-fileapi-getlongpathnamea) .
 -   Pour obtenir le chemin d’accès complet à un fichier, utilisez la fonction [**GetFullPathName**](/windows/desktop/api/FileAPI/nf-fileapi-getfullpathnamea) .
 
-Sur les systèmes de fichiers plus récents, tels que NTFS, exFAT, UDF et FAT32, Windows stocke les noms de fichiers longs sur le disque en Unicode, ce qui signifie que le nom de fichier long d’origine est toujours préservé. Cela est vrai même si un nom de fichier long contient des caractères étendus, quelle que soit la page de codes active au cours d’une opération de lecture ou d’écriture sur le disque.
+sur les systèmes de fichiers plus récents, tels que NTFS, exFAT, udf et FAT32, Windows stocke les noms de fichiers longs sur le disque en Unicode, ce qui signifie que le nom de fichier long d’origine est toujours préservé. Cela est vrai même si un nom de fichier long contient des caractères étendus, quelle que soit la page de codes active au cours d’une opération de lecture ou d’écriture sur le disque.
 
-Les fichiers utilisant des noms de fichiers longs peuvent être copiés entre les partitions du système de fichiers NTFS et les partitions du système de fichiers FAT Windows sans perdre les informations de nom de fichier. Cela peut ne pas être le cas pour l’ancien FAT MS-DOS et certains types de systèmes de fichiers CDFS (CD-ROM), en fonction du nom de fichier réel. Dans ce cas, le nom de fichier bref est remplacé si possible.
+les fichiers utilisant des noms de fichiers longs peuvent être copiés entre les partitions du système de fichiers NTFS et les partitions du système de fichiers FAT Windows sans perdre les informations de nom de fichier. Cela peut ne pas être le cas pour l’ancien FAT MS-DOS et certains types de systèmes de fichiers CDFS (CD-ROM), en fonction du nom de fichier réel. Dans ce cas, le nom de fichier bref est remplacé si possible.
 
 ## <a name="paths"></a>Chemins
 
@@ -112,7 +112,7 @@ Chaque composant d’un chemin d’accès est également limité par la longueur
 
 ### <a name="fully-qualified-vs-relative-paths"></a>Chemins d’accès complets et chemins relatifs
 
-Pour les fonctions API Windows qui manipulent des fichiers, les noms de fichiers peuvent souvent être relatifs au répertoire actif, tandis que certaines API requièrent un chemin d’accès complet. Un nom de fichier est relatif au répertoire actif s’il ne commence pas par l’un des éléments suivants :
+pour les Windows fonctions d’API qui manipulent des fichiers, les noms de fichiers peuvent souvent être relatifs au répertoire actif, tandis que certaines api requièrent un chemin d’accès complet. Un nom de fichier est relatif au répertoire actif s’il ne commence pas par l’un des éléments suivants :
 
 -   Nom UNC de n’importe quel format, qui commence toujours par deux barres obliques inverses (« \\ \\ »). Pour plus d'informations, consultez la section suivante.
 -   Un indicateur de disque avec une barre oblique inverse, par exemple « C : \\ » ou « d : \\ ».
@@ -131,21 +131,21 @@ Un chemin d’accès est également dit relatif s’il contient des « doubles 
 
 Les chemins d’accès relatifs peuvent combiner les deux exemples de types, par exemple «C :.. \\tmp.txt». Cela est utile car, même si le système effectue le suivi du lecteur actuel avec le répertoire actuel de ce lecteur, il garde également une trace des répertoires actuels dans chacune des différentes lettres de lecteur (si votre système en a plusieurs), quel que soit l’indicateur de lecteur défini en tant que lecteur actif.
 
-### <a name="maximum-path-length-limitation"></a>Limite de longueur maximale du chemin d’accès
+### <a name="maximum-path-length-limitation"></a>Limitation de longueur maximale du chemin
 
 
-Dans les éditions de Windows antérieures à Windows 10 version 1607, la longueur maximale d’un chemin d’accès est le **\_ chemin d’accès** maximal, qui est défini sous la forme de 260 caractères. Dans les versions ultérieures de Windows, vous devez modifier une clé de registre ou utiliser l’outil stratégie de groupe pour supprimer cette limite. Pour plus d’informations, consultez limitation de la [longueur maximale du chemin d’accès](./maximum-file-path-limitation.md) .
+dans les éditions de Windows antérieures à Windows 10 version 1607, la longueur maximale d’un chemin d’accès est un **\_ chemin d'** accès maximal, qui est défini sous la forme de 260 caractères. dans les versions ultérieures de Windows, il est nécessaire de modifier une clé de registre ou d’utiliser l’outil stratégie de groupe pour supprimer cette limite. Pour plus d’informations, consultez limitation de la [longueur maximale du chemin d’accès](./maximum-file-path-limitation.md) .
 
 
 ## <a name="namespaces"></a>Espaces de noms
 
-Il existe deux catégories principales de conventions d’espaces de noms utilisées dans les API Windows, communément appelées espaces de noms *NT* et *espaces de noms Win32*. L’espace de noms NT a été conçu pour être l’espace de noms de niveau le plus bas sur lequel d’autres sous-systèmes et espaces de noms pouvaient exister, y compris le sous-système Win32 et, par extension, les espaces de noms Win32. POSIX est un autre exemple de sous-système dans Windows qui repose sur l’espace de noms NT. Les premières versions de Windows définissaient également plusieurs noms prédéfinis, ou réservés, pour certains périphériques spéciaux, tels que les ports de communication (série et parallèle) et la console d’affichage par défaut dans le cadre de ce qui est maintenant appelé espace de noms d’appareil NT, et sont toujours pris en charge dans les versions actuelles de Windows pour la compatibilité descendante.
+il existe deux catégories principales de conventions d’espaces de noms utilisées dans les api Windows, communément appelées espaces de noms *NT* et *espaces de noms Win32*. L’espace de noms NT a été conçu pour être l’espace de noms de niveau le plus bas sur lequel d’autres sous-systèmes et espaces de noms pouvaient exister, y compris le sous-système Win32 et, par extension, les espaces de noms Win32. POSIX est un autre exemple de sous-système dans Windows qui repose sur l’espace de noms NT. les premières versions de Windows également défini plusieurs noms prédéfinis, ou réservés, pour certains périphériques spéciaux, tels que les ports de communication (série et parallèle) et la console d’affichage par défaut dans le cadre de ce qui est maintenant appelé espace de noms d’appareil NT, et sont toujours pris en charge dans les versions actuelles de Windows à des fins de compatibilité descendante.
 
 ### <a name="win32-file-namespaces"></a>Espaces de noms de fichier Win32
 
-Les conventions et préfixes d’espaces de noms Win32 sont résumées dans cette section et dans la section suivante, avec les descriptions de leur utilisation. Notez que ces exemples sont destinés à être utilisés avec les fonctions de l’API Windows et ne fonctionnent pas tous nécessairement avec les applications de shell Windows telles que l’Explorateur Windows. Pour cette raison, il existe un éventail plus large de chemins possibles que ceux généralement disponibles à partir d’applications de shell Windows, et les applications Windows qui en tirent parti peuvent être développées à l’aide de ces conventions d’espace de noms.
+Les conventions et préfixes d’espaces de noms Win32 sont résumées dans cette section et dans la section suivante, avec les descriptions de leur utilisation. notez que ces exemples sont destinés à être utilisés avec les fonctions d’API Windows et ne fonctionnent pas tous nécessairement avec les applications de shell Windows telles que Windows Explorer. pour cette raison, il existe un éventail plus large de chemins possibles que ce qui est généralement disponible à partir des applications de l’interpréteur de commandes Windows, et Windows applications qui en tirent parti peuvent être développées à l’aide de ces conventions d’espace de noms.
 
-Pour les e/s de fichier, le \\ \\ \\ préfixe «  ? » d’une chaîne de chemin d’accès indique aux API Windows de désactiver toutes les analyses de chaîne et d’envoyer la chaîne qui la suit directement dans le système de fichiers. Par exemple, si le système de fichiers prend en charge des chemins d’accès et des noms de fichiers volumineux, vous pouvez dépasser les limites **maximales de \_ chemin d’accès** qui sont autrement appliquées par les API Windows. Pour plus d’informations sur la limitation maximale normale du chemin d’accès, consultez la section précédente limitation de la [longueur maximale du chemin d’accès](#maximum-path-length-limitation).
+pour les e/s de fichier, le \\ \\ \\ préfixe «  ? » d’une chaîne de chemin d’accès indique aux api Windows de désactiver toutes les analyses de chaîne et d’envoyer la chaîne qui la suit directement au système de fichiers. par exemple, si le système de fichiers prend en charge des chemins d’accès et des noms de fichiers volumineux, vous pouvez dépasser les limites **maximales de \_ chemin d’accès** qui sont autrement appliquées par les api Windows. Pour plus d’informations sur la limitation maximale normale du chemin d’accès, consultez la section précédente limitation de la [longueur maximale du chemin d’accès](#maximum-path-length-limitation).
 
 Comme il désactive l’expansion automatique de la chaîne de chemin d’accès, le \\ \\ \\ préfixe «  ? » autorise également l’utilisation de « .. » et « . » dans les noms de chemins d’accès, ce qui peut être utile si vous tentez d’effectuer des opérations sur un fichier avec ces spécificateurs de chemin d’accès relatif réservés dans le cadre du chemin d’accès complet.
 
@@ -163,15 +163,15 @@ Un autre exemple d’utilisation de l’espace de noms d’appareil Win32 utilis
 
 Les API qui passent par la fonction [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) fonctionnent généralement avec le \\ \\ \\ préfixe « . », car **CreateFile** est la fonction utilisée pour ouvrir des fichiers et des périphériques, selon les paramètres que vous utilisez.
 
-Si vous utilisez des fonctions de l’API Windows, vous devez utiliser le \\ \\ \\ préfixe « . » pour accéder aux appareils uniquement et non aux fichiers.
+si vous utilisez Windows fonctions d’API, vous devez utiliser le \\ \\ \\ préfixe « . » pour accéder aux appareils uniquement et non aux fichiers.
 
 La plupart des API ne prennent pas en charge « \\ \\ . \\ »; seules celles qui sont conçues pour fonctionner avec l’espace de noms d’appareil la reconnaissent. Vérifiez toujours la rubrique de référence pour chaque API pour vous en assurer.
 
 ### <a name="nt-namespaces"></a>Espaces de noms NT
 
-Il existe également des API qui permettent d’utiliser la Convention d’espace de noms NT, mais le gestionnaire d’objets Windows rend ce qui est inutile dans la plupart des cas. Pour illustrer cela, il est utile de parcourir les espaces de noms Windows dans l’Explorateur d’objets système à l’aide de l’outil [WinObj](/sysinternals/downloads/winobj) de Windows Sysinternals. Quand vous exécutez cet outil, ce que vous voyez est l’espace de noms NT qui commence à la racine, ou « \\ ». Le sous-dossier appelé « Global ?? » est l’emplacement où l’espace de noms Win32 réside. Les objets d’appareil nommés résident dans l’espace de noms NT dans le sous-répertoire « Device ». Vous pouvez également trouver Serial0 et serial1, les objets d’appareil représentant les deux premiers ports COM s’ils sont présents sur votre système. Un objet appareil représentant un volume est semblable à « HarddiskVolume1 », bien que le suffixe numérique puisse varier. Le nom « DR0 » dans le sous-répertoire « Harddisk0 » est un exemple de l’objet appareil représentant un disque, et ainsi de suite.
+il existe également des api qui autorisent l’utilisation de la convention d’espace de noms NT, mais le gestionnaire d’objets Windows fait cela inutile dans la plupart des cas. pour illustrer cela, il est utile de parcourir les espaces de noms Windows dans l’explorateur d’objets système à l’aide de l’outil Windows Sysinternals [WinObj](/sysinternals/downloads/winobj) . Quand vous exécutez cet outil, ce que vous voyez est l’espace de noms NT qui commence à la racine, ou « \\ ». Le sous-dossier appelé « Global ?? » est l’emplacement où l’espace de noms Win32 réside. Les objets d’appareil nommés résident dans l’espace de noms NT dans le sous-répertoire « Device ». Vous pouvez également trouver Serial0 et serial1, les objets d’appareil représentant les deux premiers ports COM s’ils sont présents sur votre système. Un objet appareil représentant un volume est semblable à « HarddiskVolume1 », bien que le suffixe numérique puisse varier. Le nom « DR0 » dans le sous-répertoire « Harddisk0 » est un exemple de l’objet appareil représentant un disque, et ainsi de suite.
 
-Pour rendre ces objets périphériques accessibles aux applications Windows, les pilotes de périphérique créent un lien symbolique (symlink) dans l’espace de noms Win32, « global ?? », vers leurs objets périphériques respectifs. Par exemple, COM0 et COM1 sous « global ?? » le sous-répertoire est simplement liens symboliques à Serial0 et serial1, "C :" est un lien symbolique vers HarddiskVolume1, "Physicaldrive0" est un lien symbolique vers DR0, et ainsi de suite. Sans symlink, un appareil spécifié « xxx » ne sera disponible pour aucune application Windows utilisant les conventions d’espace de noms Win32 comme décrit précédemment. Toutefois, un descripteur peut être ouvert sur cet appareil à l’aide d’API qui prennent en charge le chemin d’accès absolu de l’espace de noms NT au format « \\ Device \\ xxx ».
+pour rendre ces objets périphériques accessibles par Windows applications, les pilotes de périphérique créent un lien symbolique (symlink) dans l’espace de noms Win32, « Global ?? », vers leurs objets périphériques respectifs. Par exemple, COM0 et COM1 sous « global ?? » le sous-répertoire est simplement liens symboliques à Serial0 et serial1, "C :" est un lien symbolique vers HarddiskVolume1, "Physicaldrive0" est un lien symbolique vers DR0, et ainsi de suite. sans symlink, un appareil spécifié « Xxx » ne sera disponible pour aucune application Windows utilisant les conventions d’espace de noms Win32 comme décrit précédemment. Toutefois, un descripteur peut être ouvert sur cet appareil à l’aide d’API qui prennent en charge le chemin d’accès absolu de l’espace de noms NT au format « \\ Device \\ xxx ».
 
 Avec l’ajout de la prise en charge de plusieurs utilisateurs via les services Terminal Server et les machines virtuelles, il est plus nécessaire de virtualiser l’appareil racine à l’ensemble du système dans l’espace de noms Win32. Pour ce faire, vous devez ajouter le lien symbolique nommé « GLOBALROOT » à l’espace de noms Win32, que vous pouvez voir dans le « Global ?? » sous-répertoire de l’outil de navigateur WinObj abordé précédemment et pouvant accéder via le chemin d’accès « \\ \\ ? \\ GLOBALROOT". Ce préfixe garantit que le chemin d’accès qui le suit se trouve dans le chemin d’accès racine réel du gestionnaire d’objets système et non dans un chemin d’accès dépendant de la session.
 

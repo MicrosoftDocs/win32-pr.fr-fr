@@ -3,7 +3,7 @@ title: Message WM_UNDO (winuser. h)
 description: Une application envoie un \_ message WM Undo à un contrôle d’édition pour annuler la dernière opération. Lorsque ce message est envoyé à un contrôle d’édition, le texte supprimé précédemment est restauré ou le texte ajouté précédemment est supprimé.
 ms.assetid: bb5a3425-bf99-4a08-8747-82c24c5889ad
 keywords:
-- WM_UNDO les contrôles de message Windows
+- WM_UNDO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5eb9182b6d8d3fc1360565f6661e989f3b6d0d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b6e4bd0715b7eeb5f99f34f5142ac3198c5c1eae53cf4486c3efce9dace19a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119311339"
 ---
 # <a name="wm_undo-message"></a>\_Message d’annulation WM
 
@@ -49,7 +49,7 @@ Si le message est correctement exécuté, la valeur de retour est **true**.
 
 Si le message échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Modification riche :** Il est recommandé d’utiliser l' [**\_ annulation em**](em-undo.md) à la place de l' **\_ annulation de WM**.
 
@@ -59,8 +59,8 @@ Si le message échoue, la valeur de retour est **false**.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

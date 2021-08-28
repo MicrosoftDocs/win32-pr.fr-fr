@@ -4,12 +4,12 @@ ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Journalisation du client (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3874c413f61b3495dc7e67f082a83e789a7a1357
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409932"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483085"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>Journalisation du client (Microsoft Media Foundation)
 
@@ -23,7 +23,7 @@ Si le contenu est stocké dans un fichier de cache local temporaire sur l’ordi
 
 Le client envoie des données de journal de diffusion sur le serveur pour indiquer comment le client a reçu le contenu, mais pas comment il a été rendu. Le client peut envoyer le journal de diffusion en continu longtemps avant que le client n’ait terminé le rendu du contenu.
 
-Cette rubrique ne fournit pas d’informations sur tous les champs de journal. Pour obtenir une référence complète, consultez [structure des données du journal Windows Media](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
+Cette rubrique ne fournit pas d’informations sur tous les champs de journal. pour obtenir une référence complète, consultez [Windows Structure de données du journal des médias](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
 
 ## <a name="configuring-log-fields"></a>Configuration des champs du journal
 
@@ -33,48 +33,16 @@ Le tableau suivant décrit les champs du journal et les propriétés corresponda
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Champ de journalisation</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>c-playerid</td>
-<td>Identification unique du joueur. Ces informations sont envoyées au début de la connexion. En général, il s’agit d’un GUID du client. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> .<br/> Le client envoie ces informations au serveur au début de la connexion.<br/> Exemple de valeur : &quot; {c579d042-CECC-11D1-bb31-00a0c9603954}&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>c-playerversion</td>
-<td>Numéro de version du lecteur qui est envoyé au début de la connexion. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> .<br/> Le client envoie ces informations au serveur au début de la connexion.<br/></td>
-</tr>
-<tr class="odd">
-<td>CS (agent utilisateur)</td>
-<td>Type de navigateur utilisé si le lecteur a été incorporé dans un navigateur. Cette valeur peut être définie par le client dans la propriété <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> .<br/> Si le lecteur n’a pas été incorporé, ce champ fait référence à l’agent utilisateur du client qui a généré le journal. Dans ce cas, le client doit définir la propriété <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> .<br/> Le client envoie ces informations au serveur au début de la connexion.<br/> Exemple de valeur : &quot; Mozilla/4.0 _ (compatible ; _MSIE_4.01 ; _Windows_98)&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>CS (référant)</td>
-<td>URL de la page Web dans laquelle le lecteur a été incorporé (s’il a été incorporé). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/> Exemple de valeur : &quot; https://www.example.microsoft.com&quot ;<br/></td>
-</tr>
-<tr class="odd">
-<td>c-hostexe</td>
-<td>Pour les entrées de journal du lecteur, le programme hôte (.exe) qui a été exécuté. Par exemple, une page Web dans un navigateur, une applet Microsoft Visual Basic ou un lecteur autonome. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/> Exemples de valeurs :<br/>
-<ul>
-<li>&quot;iexplore.exe&quot;</li>
-<li>&quot;myplayer.exe&quot;</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>c-hostexever</td>
-<td>Numéro de version du programme hôte (.exe). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Champ de journalisation | Description | 
+|---------------|-------------|
+| c-playerid | Identification unique du joueur. Ces informations sont envoyées au début de la connexion. En général, il s’agit d’un GUID du client. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> .<br /> Le client envoie ces informations au serveur au début de la connexion.<br /> Exemple de valeur : « {c579d042-CECC-11D1-bb31-00a0c9603954} »<br /> | 
+| c-playerversion | Numéro de version du lecteur qui est envoyé au début de la connexion. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> .<br /> Le client envoie ces informations au serveur au début de la connexion.<br /> | 
+| CS (agent utilisateur) | Type de navigateur utilisé si le lecteur a été incorporé dans un navigateur. Cette valeur peut être définie par le client dans la propriété <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> .<br /> Si le lecteur n’a pas été incorporé, ce champ fait référence à l’agent utilisateur du client qui a généré le journal. Dans ce cas, le client doit définir la propriété <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> .<br /> Le client envoie ces informations au serveur au début de la connexion.<br /> Exemple de valeur : « Mozilla/4.0 _ (compatible ; _MSIE_4.01 ; _Windows_98) »<br /> | 
+| CS (référant) | URL de la page Web dans laquelle le lecteur a été incorporé (s’il a été incorporé). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> .<br /> Le client envoie ces informations au serveur à la fin de la connexion.<br /> Exemple de valeur : " https://www.example.microsoft.com "<br /> | 
+| c-hostexe | Pour les entrées de journal du lecteur, le programme hôte (.exe) qui a été exécuté. par exemple, une page web dans un navigateur, une applet Microsoft Visual Basic ou un lecteur autonome. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br /> Le client envoie ces informations au serveur à la fin de la connexion.<br /> Exemples de valeurs :<br /><ul><li>« iexplore.exe »</li><li>« myplayer.exe »</li></ul> | 
+| c-hostexever | Numéro de version du programme hôte (.exe). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br /> Le client envoie ces informations au serveur à la fin de la connexion.<br /> | 
+
 
 
 

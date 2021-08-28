@@ -4,12 +4,12 @@ ms.assetid: b46ce1d3-c2b5-4dbf-86b7-2e6f52ab2787
 title: Méthodes Graphics. GetClipBounds (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 87227a51df1aa263603e79385ad8d4889608e60d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c385df0b32604d44cdadbad049c5829a06cc58ac86d3177de13cdf7c7954181e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104983098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613239"
 ---
 # <a name="graphicsgetclipbounds-methods"></a>Méthodes Graphics. GetClipBounds
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes GetClipBounds de la classe [**Graphics*
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

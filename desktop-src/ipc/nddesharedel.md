@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 2d57307c157c532e124699b6bfb2ed666f374722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0efd5bb41712e8bee2ee7a5e789d1b006a490c932b48386de27f56a8b1150f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611099"
 ---
 # <a name="nddesharedel-function"></a>NDdeShareDel fonction)
 
@@ -72,7 +72,7 @@ Si la fonction est réussie, la valeur de retour est NDDE \_ aucune \_ erreur.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur qui peut être traduit en un message d’erreur texte en appelant [**NDdeGetErrorString**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour supprimer un partage DDE du DSDM, vous devez disposer des privilèges appropriés. Le créateur du partage a le privilège supprimer.
 
@@ -95,7 +95,7 @@ Pour supprimer un partage DDE du DSDM, vous devez disposer des privilèges appro
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

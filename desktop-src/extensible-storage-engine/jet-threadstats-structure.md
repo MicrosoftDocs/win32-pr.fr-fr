@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b84de9a4f64db5dda261b8ee177787f62fd01ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f94c9911fb7ab974f87cfed41e92b53ac0a66cb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537057"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983562"
 ---
 # <a name="jet_threadstats-structure"></a>Structure JET_THREADSTATS
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_threadstats-structure"></a>Structure JET_THREADSTATS
 
 La structure **JET_THREADSTATS** contient des statistiques cumulatives sur le travail effectué par le moteur de base de données sur le thread actuel. Ces informations sont retournées via [JetGetThreadStats](./jetgetthreadstats-function.md).
 
-**Windows Vista :**  La structure **JET_THREADSTATS** est introduite dans Windows Vista.
+**Windows Vista :**  la structure **JET_THREADSTATS** est introduite dans Windows Vista.
 
 ```cpp
     typedef struct {
@@ -84,26 +84,13 @@ Taille totale, en octets, des enregistrements du journal des transactions qui on
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

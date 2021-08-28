@@ -4,12 +4,12 @@ description: Un contrôle rebar agit comme un conteneur pour les fenêtres enfan
 ms.assetid: vs|controls|~\controls\rebar\rebar.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56bc68629db7387f4ba408a769f7d87a64256000
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 55d34f76ca745f0807b849bd7c42c81944f11e4429fe2dc9670fa318cbd575ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434822"
 ---
 # <a name="about-rebar-controls"></a>À propos des contrôles Rebar
 
@@ -22,9 +22,9 @@ La capture d’écran suivante montre un contrôle rebar avec deux bandes. L’u
 > [!Note]  
 > Le contrôle rebar est implémenté dans la version 4,70 et les versions ultérieures de Comctl32.dll.
 
- 
+ 
 
-## <a name="rebar-bands-and-child-windows"></a>Bandes rebar et fenêtres enfants
+## <a name="rebar-bands-and-child-windows"></a>Bandes rebar et Windows enfants
 
 Une application définit les caractéristiques d’une bande rebar à l’aide des messages [**RB \_ INSERTBAND**](rb-insertband.md) et [**RB \_ SETBANDINFO**](rb-setbandinfo.md) . Ces messages acceptent l’adresse d’une structure [**REBARBANDINFO**](/windows/win32/api/commctrl/ns-commctrl-rebarbandinfoa) comme paramètre *lParam* . Les membres de la structure **REBARBANDINFO** définissent les caractéristiques d’une bande donnée. Pour définir les caractéristiques d’une bande, définissez le membre **cbSize** pour indiquer la taille de la structure en octets. Ensuite, définissez le membre **fmask** pour indiquer les membres de structure que votre application remplit.
 
@@ -44,6 +44,6 @@ Si une application utilise une liste d’images avec un contrôle rebar, elle do
 
 Un contrôle rebar transfère tous les messages de fenêtre de [**\_ notification WM**](wm-notify.md) à sa fenêtre parente. En outre, un contrôle rebar transfère tous les messages qui lui sont envoyés à partir de fenêtres affectées à ses bandes, comme [**WM \_ CHARTOITEM**](wm-chartoitem.md), la [**\_ commande WM**](/windows/desktop/menurc/wm-command)et d’autres.
 
- 
+ 
 
- 
+ 

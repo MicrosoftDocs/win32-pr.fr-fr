@@ -4,12 +4,12 @@ ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: Outil enregistreur de test VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93f0b81bd5e27db9fdfb70ca52e6f43bbb1e853af87bc12e1d76f01d7966ef3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35c8ff5461c263754aa5771cc9db230dec795a98
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118344232"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482095"
 ---
 # <a name="vss-test-writer-tool"></a>Outil enregistreur de test VSS
 
@@ -98,49 +98,16 @@ L’élément racine TestWriter contient des attributs qui déterminent différe
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="verbosity"></span><span id="VERBOSITY"></span>Commentaires<br/></td>
-<td>Le rédacteur imprime l’État sur la console lorsqu’il reçoit des événements et les traite. Le niveau de détail affiché est spécifié par l’attribut de commentaires. Vous avez le choix entre trois niveaux de commentaires :<br/> <dl> <dt><span id="low"></span><span id="LOW"></span>entrée</dt> <dd> Seuls les échecs dans le writer ou un comportement incorrect du demandeur seront imprimés.<br/> </dd> <dt><span id="medium"></span><span id="MEDIUM"></span>médias</dt> <dd> Tout ce qui a un niveau de détail faible est imprimé en plus des informations d’État supplémentaires, par exemple lors de la réception des événements. C'est le niveau par défaut.<br/> </dd> <dt><span id="high"></span><span id="HIGH"></span>rapide</dt> <dd> Des informations d’État détaillées sur le fonctionnement de l’enregistreur sont signalées.<br/> </dd> </dl></td>
-</tr>
-<tr class="even">
-<td><span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br/></td>
-<td>Pour effectuer une vérification supplémentaire, définissez cet attribut sur &quot; Oui &quot; pour obliger l’enregistreur à supprimer tous ses fichiers immédiatement après la création du cliché instantané de volume. Le demandeur doit ensuite copier les fichiers à partir du cliché instantané, car ils n’existent plus sur le volume d’origine. <br/>
-<blockquote>
-[!Note]<br />
-Dans le cas des enregistreurs de fractionnement, les fichiers sont supprimés de l’emplacement d’origine après le fractionnement, mais avant la création du cliché instantané. Une fois le cliché instantané créé, les fichiers sont supprimés du répertoire de fractionnement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br/></td>
-<td>Pour supprimer des fichiers partiels, affectez la valeur Oui à cet attribut &quot; &quot; .<br/></td>
-</tr>
-<tr class="even">
-<td><span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br/></td>
-<td>Pour supprimer des fichiers différenciés, définissez cet attribut sur &quot; Oui &quot; .<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br/></td>
-<td>Définissez cet attribut sur &quot; Oui &quot; pour obliger l’enregistreur à vérifier que tous les fichiers qui ont été sauvegardés ont été restaurés à un emplacement approprié et que le fichier n’a pas été endommagé. Les fichiers partiels et les fichiers différenciés sont également gérés correctement.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br/></td>
-<td>Définissez cet attribut sur &quot; Oui &quot; pour obliger l’enregistreur à vérifier que les fichiers correspondant à une spécification de fichier dans la liste d’exclusion ne sont pas restaurés. Pour que cela fonctionne correctement, les répertoires de restauration doivent être vidés avant la restauration.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <span id="verbosity"></span><span id="VERBOSITY"></span>Commentaires<br /> | Le rédacteur imprime l’État sur la console lorsqu’il reçoit des événements et les traite. Le niveau de détail affiché est spécifié par l’attribut de commentaires. Vous avez le choix entre trois niveaux de commentaires :<br /><dl><dt><span id="low"></span><span id="LOW"></span>entrée</dt><dd> Seuls les échecs dans le writer ou un comportement incorrect du demandeur seront imprimés.<br /></dd><dt><span id="medium"></span><span id="MEDIUM"></span>médias</dt><dd> Tout ce qui a un niveau de détail faible est imprimé en plus des informations d’État supplémentaires, par exemple lors de la réception des événements. C'est le niveau par défaut.<br /></dd><dt><span id="high"></span><span id="HIGH"></span>rapide</dt><dd> Des informations d’État détaillées sur le fonctionnement de l’enregistreur sont signalées.<br /></dd></dl> | 
+| <span id="deleteFiles"></span><span id="deletefiles"></span><span id="DELETEFILES"></span>deleteFiles<br /> | Pour effectuer une vérification supplémentaire, définissez cet attribut sur « Oui » pour que l’enregistreur supprime tous ses fichiers immédiatement après la création du cliché instantané de volume. Le demandeur doit ensuite copier les fichiers à partir du cliché instantané, car ils n’existent plus sur le volume d’origine. <br /><blockquote>[!Note]<br />Dans le cas des enregistreurs de fractionnement, les fichiers sont supprimés de l’emplacement d’origine après le fractionnement, mais avant la création du cliché instantané. Une fois le cliché instantané créé, les fichiers sont supprimés du répertoire de fractionnement.</blockquote><br /> | 
+| <span id="deletePartialFiles"></span><span id="deletepartialfiles"></span><span id="DELETEPARTIALFILES"></span>deletePartialFiles<br /> | Pour supprimer des fichiers partiels, définissez cet attribut sur « Oui ».<br /> | 
+| <span id="deleteDifferencedFiles"></span><span id="deletedifferencedfiles"></span><span id="DELETEDIFFERENCEDFILES"></span>deleteDifferencedFiles<br /> | Pour supprimer des fichiers différenciés, définissez cet attribut sur « Oui ».<br /> | 
+| <span id="checkIncludes"></span><span id="checkincludes"></span><span id="CHECKINCLUDES"></span>checkIncludes<br /> | Définissez cet attribut sur « Oui » pour que l’enregistreur vérifie que tous les fichiers qui ont été sauvegardés ont été restaurés à un emplacement approprié et que le fichier n’a pas été endommagé. Les fichiers partiels et les fichiers différenciés sont également gérés correctement.<br /> | 
+| <span id="checkExcludes"></span><span id="checkexcludes"></span><span id="CHECKEXCLUDES"></span>checkExcludes<br /> | Définissez cet attribut sur « Oui » pour forcer l’enregistreur à vérifier que les fichiers correspondant à une spécification de fichier dans la liste d’exclusion ne sont pas restaurés. Pour que cela fonctionne correctement, les répertoires de restauration doivent être vidés avant la restauration.<br /> | 
+
 
 
 

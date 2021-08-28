@@ -7,12 +7,12 @@ MSHAttr:
 title: MmsMaximumMessageSize
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e20af3d38a594158586247a9798be98c0d97a65b
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: c8a8deb9d416b17d2ef83c5d0cec58f6f64127cd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988672"
+ms.locfileid: "122885414"
 ---
 # <a name="span-idwwan_profile_v4element_mmsmaximummessagesizespanmmsmaximummessagesize"></a><span id="WWAN_profile_v4.element_MmsMaximumMessageSize"></span>MmsMaximumMessageSize
 
@@ -24,7 +24,7 @@ Spécifie la taille maximale, en kilo-octets, des messages MMS. facultatif.
 [&lt;MmsConfiguration&gt;](element-mmsconfiguration.md)  
 **&lt;MmsMaximumMessageSize&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <MmsMaximumMessageSize>
@@ -54,12 +54,10 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

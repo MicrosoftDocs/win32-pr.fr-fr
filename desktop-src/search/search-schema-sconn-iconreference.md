@@ -1,19 +1,19 @@
 ---
-description: L' <iconReference> élément facultatif spécifie une icône personnalisée pour cet emplacement. Cet élément n’a pas d’attributs ni d’éléments enfants.
+description: L' &lt; élément iconReference facultatif &gt; spécifie une icône personnalisée pour cet emplacement. Cet élément n’a pas d’attributs ni d’éléments enfants.
 ms.assetid: c2fa5e99-a7fd-423e-9952-5233e8c83619
 title: Élément iconReference (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76391eb7079414abe13c4e45696ee3eacb3b968eb93b342b1b9e67825fac85c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47ff41d6dfd37e5e3fe780171701886b08b195ac
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117862582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882421"
 ---
 # <a name="iconreference-element-search-connector-schema"></a>Élément iconReference (schéma du connecteur de recherche)
 
-L' <iconReference> élément facultatif spécifie une icône personnalisée pour cet emplacement. Cet élément n’a pas d’attributs ni d’éléments enfants.
+L' &lt; élément iconReference facultatif &gt; spécifie une icône personnalisée pour cet emplacement. Cet élément n’a pas d’attributs ni d’éléments enfants.
 
 ## <a name="syntax"></a>Syntaxe
 

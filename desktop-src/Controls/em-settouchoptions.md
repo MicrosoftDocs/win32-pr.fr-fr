@@ -3,7 +3,7 @@ title: Message EM_SETTOUCHOPTIONS (RichEdit. h)
 description: Définit les options tactiles associées à un contrôle RichEdit.
 ms.assetid: C15036D6-B74F-414D-B731-F1587B616644
 keywords:
-- EM_SETTOUCHOPTIONS les contrôles de message Windows
+- EM_SETTOUCHOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7613679a574955ef726da9fa10e8d919c8fe53b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ea2f372d1e59a76ea13667e994534df1088fe1c78c51c30ac54db1b4dfeed2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048009"
 ---
 # <a name="em_settouchoptions-message"></a>\_Message SETTOUCHOPTIONS em
 
@@ -64,8 +64,8 @@ Ce message retourne la valeur zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

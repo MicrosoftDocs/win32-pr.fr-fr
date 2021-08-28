@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 644890f0ba28f48407d6557184bd24f2aaf3501b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 699a1d1e60cc4bfda97faf77d8f1138f5998b202
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114907"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630153"
 ---
 # <a name="span-idvspixengineimeshcallback_resultcallback_dword_byte_arrspanimeshcallbackresultcallback-method"></a><span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback :: ResultCallback, méthode
 
@@ -46,13 +46,13 @@ Non utilisé.
 *\_mémoire tampon count0*   
 Non utilisé.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
 ## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span>Voir aussi
 

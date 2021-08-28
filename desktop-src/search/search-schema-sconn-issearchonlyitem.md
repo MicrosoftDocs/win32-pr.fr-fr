@@ -1,19 +1,19 @@
 ---
-description: L' <isSearchOnlyItem> élément boolean spécifie si le moteur de recherche prend en charge le mode de navigation en plus du mode de recherche. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; élément booléen isSearchOnlyItem &gt; spécifie si le moteur de recherche prend en charge le mode de navigation en plus du mode de recherche. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: eec1b735-ae78-48ef-8ebf-05b9fd038963
 title: Élément isSearchOnlyItem (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ded7b62cde5cf813603d5cc87c41fe2c443b42d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 524a69198a650e0cb995d2ff8b4fc942ebfdaddc
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883412"
 ---
 # <a name="issearchonlyitem-element-search-connector-schema"></a>Élément isSearchOnlyItem (schéma du connecteur de recherche)
 
-L' <isSearchOnlyItem> élément boolean spécifie si le moteur de recherche prend en charge le mode de navigation en plus du mode de recherche. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
+L' &lt; élément booléen isSearchOnlyItem &gt; spécifie si le moteur de recherche prend en charge le mode de navigation en plus du mode de recherche. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -44,7 +44,7 @@ L' <isSearchOnlyItem> élément boolean spécifie si le moteur de recherche pren
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur `true` indique que les utilisateurs ne peuvent pas parcourir l’emplacement du connecteur de recherche. La valeur `false` indique que les utilisateurs peuvent parcourir l’emplacement du connecteur de recherche.
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 568623c62d1228b56ee76f3514653d78e60c3838
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0fc4abee45f884112d194d6986d685810d738a7b4184f9d52cacefe5b09f4023
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559929"
 ---
 # <a name="shape-attribute"></a>attribut de forme
 
@@ -30,9 +30,9 @@ La **forme** de mot clé IDL DCE n’est pas prise en charge dans Microsoft RPC.
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 446194379d5f2cf3969ff4bb1e509fc7ab661b2e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2af788ed731bd356b4659abd73d6793f9fc30ad17f9720bcd5538ec2ee827f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589639"
 ---
 # <a name="audio-attribute"></a>attribut audio
 
@@ -43,7 +43,7 @@ Le type d’attribut audio permet de stocker des sons dans le répertoire.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

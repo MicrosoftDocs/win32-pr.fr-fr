@@ -57,10 +57,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |
@@ -78,10 +78,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |
@@ -99,10 +99,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |
@@ -120,10 +120,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |
@@ -141,10 +141,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |
@@ -162,10 +162,10 @@ Emplacement de naissance de l’utilisateur.
 |------------------------|----------------------------------------------------------------|
 | ID de lien                | \-                                                             |
 | MAPI-Id                | \-                                                             |
-| System-Only            | False                                                          |
-| Est de valeur unique       | True                                                           |
-| Est indexé             | True                                                           |
-| Dans le catalogue global      | False                                                          |
+| System-Only            | Faux                                                          |
+| Est de valeur unique       | Vrai                                                           |
+| Est indexé             | Vrai                                                           |
+| Dans le catalogue global      | Faux                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                   |
 | Range-Lower            | 32                                                             |
 | Range-Upper            | 32                                                             |

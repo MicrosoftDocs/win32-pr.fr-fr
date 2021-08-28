@@ -4,12 +4,12 @@ ms.assetid: 1c09149b-7f34-4296-bd32-dbbae5e1d62b
 title: Réponse aux événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a51481371501c05733e5f637885a71001c1f996
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8fb0325af2e216a3679d3e15a293aa6bfe1c100f2271d089e982b295df791130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050559"
 ---
 # <a name="responding-to-events"></a>Réponse aux événements
 
@@ -17,9 +17,9 @@ Cet article explique comment répondre aux événements qui se produisent dans u
 
 ## <a name="how-event-notification-works"></a>Fonctionnement de la notification d’événement
 
-Pendant l’exécution d’une application DirectShow, les événements peuvent se produire dans le graphique de filtre. Par exemple, un filtre peut rencontrer une erreur de diffusion en continu. Les filtres alertent le gestionnaire du graphique de filtre en envoyant des événements, qui consistent en un code d’événement et deux paramètres d’événement. Le code d’événement indique le type d’événement et les paramètres d’événement fournissent des informations supplémentaires. La signification des paramètres dépend du code de l’événement. Pour obtenir la liste complète des codes d’événement, consultez [codes de notification d’événement](event-notification-codes.md).
+pendant l’exécution d’une application DirectShow, les événements peuvent se produire dans le graphique de filtre. Par exemple, un filtre peut rencontrer une erreur de diffusion en continu. les filtres alertent le gestionnaire de Graph de filtre en envoyant des événements, qui consistent en un code d’événement et deux paramètres d’événement. Le code d’événement indique le type d’événement et les paramètres d’événement fournissent des informations supplémentaires. La signification des paramètres dépend du code de l’événement. Pour obtenir la liste complète des codes d’événement, consultez [codes de notification d’événement](event-notification-codes.md).
 
-Certains événements sont gérés en mode silencieux par le gestionnaire de graphique de filtre, sans que l’application soit notifiée. D’autres événements sont placés dans une file d’attente pour l’application. Selon l’application, vous devrez peut-être gérer différents événements. Cet article se concentre sur trois événements très courants :
+certains événements sont gérés en mode silencieux par le gestionnaire de Graph de filtre, sans que l’application soit notifiée. D’autres événements sont placés dans une file d’attente pour l’application. Selon l’application, vous devrez peut-être gérer différents événements. Cet article se concentre sur trois événements très courants :
 
 -   L’événement [**EC \_ Complete**](ec-complete.md) indique que la lecture s’est terminée normalement.
 -   L’événement [**EC \_ USERABORT**](ec-userabort.md) indique que l’utilisateur a interrompu la lecture. Les convertisseurs vidéo envoient cet événement si l’utilisateur ferme la fenêtre vidéo.
@@ -27,7 +27,7 @@ Certains événements sont gérés en mode silencieux par le gestionnaire de gra
 
 ## <a name="using-event-notification"></a>Utilisation de la notification d’événement
 
-Une application peut demander au gestionnaire de graphique de filtre d’envoyer un message Windows à une fenêtre désignée à chaque fois qu’un nouvel événement se produit. Cela permet à l’application de répondre à l’intérieur de la boucle de message de la fenêtre. Tout d’abord, définissez le message qui sera envoyé à la fenêtre d’application. Les applications peuvent utiliser des numéros de message dans la plage de l' \_ application WM via 0xBFFF en tant que messages privés :
+une application peut demander au gestionnaire de Graph de filtre d’envoyer un message Windows à une fenêtre désignée chaque fois qu’un nouvel événement se produit. Cela permet à l’application de répondre à l’intérieur de la boucle de message de la fenêtre. Tout d’abord, définissez le message qui sera envoyé à la fenêtre d’application. Les applications peuvent utiliser des numéros de message dans la plage de l' \_ application WM via 0xBFFF en tant que messages privés :
 
 
 ```C++
@@ -36,7 +36,7 @@ Une application peut demander au gestionnaire de graphique de filtre d’envoyer
 
 
 
-Ensuite, interrogez le gestionnaire du graphique de filtre pour l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) et appelez la méthode [**IMediaEventEx :: SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) :
+ensuite, interrogez le gestionnaire de Graph de filtre de l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) et appelez la méthode [**IMediaEventEx :: SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) :
 
 
 ```C++
@@ -49,7 +49,7 @@ g_pEvent->SetNotifyWindow((OAHWND)g_hwnd, WM_GRAPHNOTIFY, 0);
 
 Cette méthode désigne la fenêtre spécifiée (g \_ HWND) comme destinataire du message. Appelez la méthode après avoir créé le graphique de filtre, mais avant d’exécuter le graphique.
 
-WM \_ GRAPHNOTIFY est un message Windows ordinaire. Chaque fois que le gestionnaire de graphique de filtre place un nouvel événement dans la file d’attente d’événements, il publie un \_ message WM GRAPHNOTIFY dans la fenêtre d’application désignée. Le paramètre *lParam* du message est égal au troisième paramètre dans [**SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow). Ce paramètre vous permet d’envoyer des données d’instance avec le message. Le paramètre *wParam* du message de fenêtre est toujours égal à zéro.
+WM \_ GRAPHNOTIFY est un message de Windows ordinaire. chaque fois que le gestionnaire de Graph de filtre place un nouvel événement dans la file d’attente d’événements, il publie un \_ message WM GRAPHNOTIFY dans la fenêtre d’application désignée. Le paramètre *lParam* du message est égal au troisième paramètre dans [**SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow). Ce paramètre vous permet d’envoyer des données d’instance avec le message. Le paramètre *wParam* du message de fenêtre est toujours égal à zéro.
 
 Dans la fonction **WindowProc** de votre application, ajoutez une instruction case pour le \_ message WM GRAPHNOTIFY :
 
@@ -97,7 +97,7 @@ void HandleGraphEvent()
 
 La méthode [**GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) récupère le code d’événement et les deux paramètres d’événement. Le quatrième paramètre **GetEvent** spécifie la durée d’attente d’un événement, en millisecondes. Étant donné que l’application appelle cette méthode en réponse à un \_ message WM GRAPHNOTIFY, l’événement est déjà mis en file d’attente. Par conséquent, nous définissons la valeur du délai d’attente sur zéro.
 
-La notification d’événement et la boucle de message sont toutes deux asynchrones, donc la file d’attente peut contenir plusieurs événements au moment où votre application répond au message. En outre, le gestionnaire de graphes de filtre peut supprimer certains événements de la file d’attente, s’ils deviennent non valides. Par conséquent, vous devez appeler [**GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) jusqu’à ce qu’il retourne un code d’échec, indiquant que la file d’attente est vide.
+La notification d’événement et la boucle de message sont toutes deux asynchrones, donc la file d’attente peut contenir plusieurs événements au moment où votre application répond au message. en outre, le gestionnaire de Graph de filtre peut supprimer certains événements de la file d’attente, s’ils deviennent non valides. Par conséquent, vous devez appeler [**GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) jusqu’à ce qu’il retourne un code d’échec, indiquant que la file d’attente est vide.
 
 Dans cet exemple, l’application répond à la valeur [**EC \_ Complete**](ec-complete.md), [**EC \_ USERABORT**](ec-userabort.md)et [**EC \_ ERRORABORT**](ec-errorabort.md) en appelant la fonction de nettoyage définie par l’application, ce qui entraîne la fermeture normale de l’application. L’exemple ignore les deux paramètres d’événement. Après avoir récupéré un événement, appelez [**IMediaEvent :: FreeEventParams**](/windows/desktop/api/Control/nf-control-imediaevent-freeeventparams) pour accéder à toutes les ressources gratuites associées aux paramètres de l’événement.
 
@@ -130,10 +130,10 @@ Cela empêche une erreur possible qui peut se produire si l’application reçoi
 
 <dl> <dt>
 
-[Tâches de base de DirectShow](basic-directshow-tasks.md)
+[tâches de base DirectShow](basic-directshow-tasks.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  
