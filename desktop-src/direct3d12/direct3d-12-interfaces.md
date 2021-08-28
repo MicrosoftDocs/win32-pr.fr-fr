@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.openlocfilehash: f204484b3565564f72e815bd21cf8e449ee55e4c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884294"
 ---
 # <a name="core-interfaces"></a>Interfaces de base
 
@@ -59,6 +59,7 @@ Les interfaces suivantes sont déclarées dans d3d12. h.
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | Encapsule une capacité généralisée du processeur et du GPU à lire et à écrire dans la mémoire physique, ou les tas. Il contient des abstractions pour l’organisation et la manipulation de tableaux de données simples, ainsi que des données multidimensionnelles optimisées pour l’échantillonnage de nuanceur. |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | La signature racine définit les ressources qui sont liées au pipeline Graphics. Une signature racine est configurée par les listes de commandes App et Links pour les ressources requises par les nuanceurs. Actuellement, il existe un graphique et une signature racine de calcul par application. |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | Contient une méthode pour retourner la structure de données [**D3D12-root-signature-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) désérialisée d’une signature racine sérialisée version 1,0.  |
+| [**ID3D12SDKConfiguration**](/windows/win32/api/d3d12/nn-d3d12-id3d12sdkconfiguration) | Fournit des méthodes de configuration du kit de développement logiciel. |
 | [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | Représente une session de cache du nuanceur. |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | Représente une quantité variable d’état de configuration, y compris les nuanceurs, qu’une application gère en tant qu’unité unique et qui est donnée à un pilote de manière atomique à traiter, telle que la compilation ou l’optimisation.  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | Fournit des méthodes pour obtenir et définir les propriétés d’un [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject).  |

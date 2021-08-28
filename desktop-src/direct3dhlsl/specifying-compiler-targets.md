@@ -4,12 +4,12 @@ description: Ici, nous répertorions les cibles pour les différents profils pri
 ms.assetid: 594E1C14-C1D4-4207-91A1-28892CE6D821
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d68fc6c5a202ad537b02a20846d36526533240f3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: b84d020edaabf4c618b1fa911a91bc4cc0e8b37e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382735"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481835"
 ---
 # <a name="specifying-compiler-targets"></a>Spécification de cibles de compilateur
 
@@ -43,7 +43,7 @@ Voici les cibles de nuanceur que les niveaux de [fonctionnalité](/windows/deskt
 
 
 
- 
+ 
 
 ## <a name="direct3d-101-feature-level"></a>Niveau de fonctionnalité Direct3D 10,1
 
@@ -60,7 +60,7 @@ Voici les cibles de nuanceur que le [niveau de fonctionnalité](/windows/desktop
 
 
 
- 
+ 
 
 ## <a name="direct3d-100-feature-level"></a>Niveau de fonctionnalité Direct3D 10,0
 
@@ -77,7 +77,7 @@ Voici les cibles de nuanceur que le [niveau de fonctionnalité](/windows/desktop
 
 
 
- 
+ 
 
 ## <a name="direct3d-91-92-and-93-feature-levels"></a>Niveaux de fonctionnalité Direct3D 9,1, 9,2 et 9,3
 
@@ -86,71 +86,22 @@ Voici les cibles de nuanceur que les [niveaux de fonctionnalité](/windows/deskt
 > [!Note]  
 > Lorsque vous utilisez les \* \_ \_ \_ \_ \_ profils de nuanceur HLSL de 4 niveaux 9 x, vous utilisez implicitement les profils [Shader Model 2. x](dx-graphics-hlsl-sm2.md) pour prendre en charge le matériel compatible Direct3D 9. Les profils Shader Model 2. x prennent en charge un comportement de contrôle de Flow plus limité que le [modèle de nuanceur 4. x](dx-graphics-hlsl-sm4.md) et versions ultérieures.
 
- 
+ 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Cible</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_4_0_level_9_1</td>
-<td>[Nuanceur de pixels](/previous-versions//bb205146(v=vs.85)) pour 9,1 et 9,2 (limites similaires à ps_2_0)
-<ul>
-<li>64 instructions de texture arithmétique et 32</li>
-<li>12 registres temporaires</li>
-<li>4 niveaux de lectures dépendantes</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_4_0_level_9_3</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Nuanceur de pixels</a> pour 9,3 (limites similaires à ps_2_x ² avec des fonctionnalités de nuanceur supplémentaires)
-<ul>
-<li>instructions 512</li>
-<li>32 registres temporaires</li>
-<li>Contrôle de Flow statique (profondeur maximale de 4)</li>
-<li>Contrôle de workflow dynamique (profondeur maximale de 24)</li>
-<li>D3DPS20CAPS_ARBITRARYSWIZZLE</li>
-<li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li>
-<li>D3DPS20CAPS_PREDICATION</li>
-<li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li>
-<li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>vs_4_0_level_9_1</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> pour 9,1 et 9,2 (semblable à vs_2_0)
-<ul>
-<li>instructions 256</li>
-<li>12 registres temporaires</li>
-<li>Contrôle de Flow statique (profondeur maximale de 1)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_4_0_level_9_3</td>
-<td><a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> pour 9,3 (semblable à vs_2_a ² avec des fonctionnalités de nuanceur supplémentaires et l’instanciation)
-<ul>
-<li>instructions 256</li>
-<li>32 registres temporaires</li>
-<li>Contrôle de Flow statique (profondeur maximale de 4)</li>
-<li>D3DVS20CAPS_PREDICATION</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Cible | Description | 
+|--------|-------------|
+| ps_4_0_level_9_1 | [Nuanceur de pixels](/previous-versions//bb205146(v=vs.85)) pour 9,1 et 9,2 (limites similaires à ps_2_0)<ul><li>64 instructions de texture arithmétique et 32</li><li>12 registres temporaires</li><li>4 niveaux de lectures dépendantes</li></ul> | 
+| ps_4_0_level_9_3 | <a href="/previous-versions//bb205146(v=vs.85)">Nuanceur de pixels</a> pour 9,3 (limites similaires à ps_2_x ² avec des fonctionnalités de nuanceur supplémentaires)<ul><li>instructions 512</li><li>32 registres temporaires</li><li>Contrôle de Flow statique (profondeur maximale de 4)</li><li>Contrôle de workflow dynamique (profondeur maximale de 24)</li><li>D3DPS20CAPS_ARBITRARYSWIZZLE</li><li>D3DPS20CAPS_GRADIENTINSTRUCTIONS</li><li>D3DPS20CAPS_PREDICATION</li><li>D3DPS20CAPS_NODEPENDENTREADLIMIT</li><li>D3DPS20CAPS_NOTEXINSTRUCTIONLIMIT</li></ul> | 
+| vs_4_0_level_9_1 | <a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> pour 9,1 et 9,2 (semblable à vs_2_0)<ul><li>instructions 256</li><li>12 registres temporaires</li><li>Contrôle de Flow statique (profondeur maximale de 1)</li></ul> | 
+| vs_4_0_level_9_3 | <a href="/previous-versions//bb205146(v=vs.85)">Vertex shader</a> pour 9,3 (semblable à vs_2_a ² avec des fonctionnalités de nuanceur supplémentaires et l’instanciation)<ul><li>instructions 256</li><li>32 registres temporaires</li><li>Contrôle de Flow statique (profondeur maximale de 4)</li><li>D3DVS20CAPS_PREDICATION</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-30"></a>Modèle de nuanceur Direct3D 9 hérité 3,0
 
@@ -167,7 +118,7 @@ Voici les cibles de nuanceur pour le modèle de nuanceur Direct3D 9 hérité 3,0
 
 
 
- 
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-20"></a>Modèle de nuanceur Direct3D 9 hérité 2,0
 
@@ -187,7 +138,7 @@ Voici les cibles de nuanceur pour le modèle de nuanceur Direct3D 9 hérité 2,0
 
 
 
- 
+ 
 
 ## <a name="legacy-direct3d-9-shader-model-1x"></a>Modèle de nuanceur Direct3D 9 hérité 1. x
 
@@ -202,7 +153,7 @@ Voici les cibles de nuanceur pour le modèle de nuanceur Direct3D 9 hérité 1. 
 
 
 
- 
+ 
 
 ## <a name="legacy-effects"></a>Effets hérités
 
@@ -219,7 +170,7 @@ Voici les objectifs des effets hérités.
 
 
 
- 
+ 
 
 ## <a name="notes"></a>Notes
 
@@ -238,6 +189,6 @@ Voici quelques remarques à propos desquelles les sections précédentes font r�
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

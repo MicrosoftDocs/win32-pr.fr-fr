@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be5b8bb64dc9e0fc42055cf5e4d4f67caa7654bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbdc03342187cfc2adfa1dcd3ed650f532e1dbc0
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982942"
 ---
 # <a name="jet_columnid"></a>JET_COLUMNID
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_columnid"></a>JET_COLUMNID
 
@@ -41,7 +41,7 @@ JET_COLUMNID
 
 Identifie une colonne dans une table.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Les ID de colonne sont uniques dans une table unique. Une fois qu’une colonne est connue pour avoir un certain ID de colonne, elle aura toujours cet ID de colonne. La restauration à partir d’une sauvegarde ne modifie pas la valeur d’un ID de colonne. Toutefois, si une ou plusieurs colonnes de table, antérieures à une colonne de table spécifique, sont supprimées, une base de données compacte peut alors modifier la valeur d’un ID de colonne.
 
@@ -51,24 +51,11 @@ Les colonnes de différentes tables peuvent avoir le même ID de colonne.
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 

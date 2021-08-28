@@ -4,12 +4,12 @@ ms.assetid: b1c30e16-6c91-451a-8b75-7ddbcefcc092
 title: Table MsiPatchMetadata
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7094e644ff02caa1cbf4b3e53e5761740ff9a5492c92ca746404b1d243e09285
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ee71e25bf04a39d8d360c5977fad7ec72a8924b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012897"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469166"
 ---
 # <a name="msipatchmetadata-table"></a>Table MsiPatchMetadata
 
@@ -21,7 +21,7 @@ La table MsiPatchMetadata contient les colonnes suivantes.
 
 
 
-| Colonne   | Type                         | Clé | Nullable |
+| Colonne   | Type                         | Clé : | Nullable |
 |----------|------------------------------|-----|----------|
 | Company  | [Identificateur](identifier.md) | O   | O        |
 | Propriété | [Identificateur](identifier.md) | O   | N        |
@@ -66,71 +66,21 @@ les lignes de la Table MsiPatchMetadata qui contiennent une valeur Null dans le 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Propriété</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AllowRemoval</td>
-<td>Indique si le correctif est un correctif qui peut être <a href="uninstallable-patches.md">installé</a>. Si le champ de valeur contient 0 (zéro), le correctif ne peut pas être supprimé. Si le champ de valeur contient un (1), le correctif est un correctif qui peut être désinstallé. cette propriété est inscrite et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . <br/></td>
-</tr>
-<tr class="even">
-<td>ManufacturerName</td>
-<td>Nom du fabricant de l’application.</td>
-</tr>
-<tr class="odd">
-<td>MinorUpdateTargetRTM</td>
-<td>Indique que le correctif cible la version RTM du produit ou le correctif de mise à niveau majeur le plus récent. Créez cette propriété facultative dans les correctifs de mise à niveau mineurs qui contiennent des informations de séquencement pour indiquer que le correctif supprime tous les correctifs jusqu’à la version RTM du produit, ou jusqu’au correctif de mise à niveau majeur le plus récent. cette propriété est disponible dans Windows Installer 3,1 et versions ultérieures. <br/></td>
-</tr>
-<tr class="even">
-<td>TargetProductName</td>
-<td>Nom de l’application ou de la suite d’applications cible.</td>
-</tr>
-<tr class="odd">
-<td>MoreInfoURL</td>
-<td>URL qui fournit des informations spécifiques à ce correctif. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec Service Pack 2 (SP2), cette valeur peut être le lien de support pour le correctif affiché dans <strong>ajout/suppression de programmes</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td>CreationTimeUTC</td>
-<td>Heure de création du fichier. msp sous la forme mm-jj-aa HH : MM (mois-jour-année heure : minute).</td>
-</tr>
-<tr class="odd">
-<td>DisplayName</td>
-<td>Titre du correctif logiciel qui est OK pour un affichage public. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec SP2, cette valeur est le nom du correctif qui est affiché dans <strong>ajout/suppression de programmes</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td>Brève description du correctif.</td>
-</tr>
-<tr class="odd">
-<td>Classification</td>
-<td>Valeur de chaîne qui contient la catégorie arbitraire des mises à jour telles que définies par l’auteur du correctif. Par exemple, les auteurs de correctifs peuvent spécifier que chaque correctif soit classé comme un correctif, un correctif cumulatif de sécurité, une mise à jour critique, une mise à jour, un service pack ou un correctif cumulatif. Cette propriété est obligatoire.</td>
-</tr>
-<tr class="even">
-<td>OptimizeCA</td>
-<td>indique si le Windows Installer doit ignorer les actions personnalisées lors de l’application du correctif. Cela peut réduire le temps nécessaire pour appliquer le correctif. La propriété OptimizeCA peut avoir l’une des valeurs suivantes :<br/>
-<ul>
-<li>0-ne pas ignorer les actions personnalisées.</li>
-<li>1-ignorer les actions personnalisées d’affectation de répertoire et de propriété. Le <a href="custom-action-type-35.md">type d’action personnalisé 35</a> et le type d' <a href="custom-action-type-51.md">action personnalisé 51</a> peuvent être des actions personnalisées de propriété et d’assignation de répertoire.</li>
-<li>2-ignorer les actions personnalisées immédiates qui ne se trouvent pas dans les assignations de propriété ou de répertoire. Les actions personnalisées immédiates n’incluent pas l’option msidbCustomActionTypeInScript dans la colonne type de la <a href="customaction-table.md">table CustomAction</a>.</li>
-<li>4-ignorer les actions personnalisées qui s’exécutent dans le script.</li>
-</ul>
-La valeur de OptimizeCA doit être la même pour tous les correctifs en cours d’installation ou aucune action personnalisée n’est ignorée. Par exemple, si deux correctifs sont installés et que OptimizeCA est défini sur les valeurs 1 et 2, aucune action personnalisée n’est ignorée. <br/> Les valeurs de OptimizeCA peuvent être combinées lors du traitement de plusieurs nouveaux correctifs. Si tous les correctifs ont 1 (un) inclus dans les valeurs, toutes les actions personnalisées d’affectation de répertoire et de propriété sont ignorées. Si un correctif a la valeur 3 (trois) pour la propriété et que l’un des correctifs a la valeur 1 (un) pour la propriété, les actions personnalisées d’affectation de répertoire et de propriété sont ignorées. Toutefois, les autres actions personnalisées immédiates s’exécutent, car tous les correctifs demandés ne sont pas ignorés. <br/></td>
-</tr>
-<tr class="odd">
-<td>OptimizedInstallMode</td>
-<td>Si cette propriété a la valeur 1 (un) dans tous les correctifs à appliquer dans une transaction, une application du correctif est optimisée si possible. Pour plus d’informations, consultez <a href="patch-optimization.md">optimisation des correctifs</a>. disponible à partir de Windows Installer 3,1.</td>
-</tr>
-</tbody>
-</table>
+
+| Propriété | Description | 
+|----------|-------------|
+| AllowRemoval | Indique si le correctif est un correctif qui peut être <a href="uninstallable-patches.md">installé</a>. Si le champ de valeur contient 0 (zéro), le correctif ne peut pas être supprimé. Si le champ de valeur contient un (1), le correctif est un correctif qui peut être désinstallé. cette propriété est inscrite et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . <br /> | 
+| ManufacturerName | Nom du fabricant de l’application. | 
+| MinorUpdateTargetRTM | Indique que le correctif cible la version RTM du produit ou le correctif de mise à niveau majeur le plus récent. Créez cette propriété facultative dans les correctifs de mise à niveau mineurs qui contiennent des informations de séquencement pour indiquer que le correctif supprime tous les correctifs jusqu’à la version RTM du produit, ou jusqu’au correctif de mise à niveau majeur le plus récent. cette propriété est disponible dans Windows Installer 3,1 et versions ultérieures. <br /> | 
+| TargetProductName | Nom de l’application ou de la suite d’applications cible. | 
+| MoreInfoURL | URL qui fournit des informations spécifiques à ce correctif. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec Service Pack 2 (SP2), cette valeur peut être le lien de support pour le correctif affiché dans <strong>ajout/suppression de programmes</strong>.<br /> | 
+| CreationTimeUTC | Heure de création du fichier. msp sous la forme mm-jj-aa HH : MM (mois-jour-année heure : minute). | 
+| DisplayName | Titre du correctif logiciel qui est OK pour un affichage public. Cette propriété est enregistrée et sa valeur peut être obtenue à l’aide de la fonction <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> . à partir de Windows XP avec SP2, cette valeur est le nom du correctif qui est affiché dans <strong>ajout/suppression de programmes</strong>.<br /> | 
+| Description | Brève description du correctif. | 
+| classification ; | Valeur de chaîne qui contient la catégorie arbitraire des mises à jour telles que définies par l’auteur du correctif. Par exemple, les auteurs de correctifs peuvent spécifier que chaque correctif soit classé comme un correctif, un correctif cumulatif de sécurité, une mise à jour critique, une mise à jour, un service pack ou un correctif cumulatif. Cette propriété est obligatoire. | 
+| OptimizeCA | indique si le Windows Installer doit ignorer les actions personnalisées lors de l’application du correctif. Cela peut réduire le temps nécessaire pour appliquer le correctif. La propriété OptimizeCA peut avoir l’une des valeurs suivantes :<br /><ul><li>0-ne pas ignorer les actions personnalisées.</li><li>1-ignorer les actions personnalisées d’affectation de répertoire et de propriété. Le <a href="custom-action-type-35.md">type d’action personnalisé 35</a> et le type d' <a href="custom-action-type-51.md">action personnalisé 51</a> peuvent être des actions personnalisées de propriété et d’assignation de répertoire.</li><li>2-ignorer les actions personnalisées immédiates qui ne se trouvent pas dans les assignations de propriété ou de répertoire. Les actions personnalisées immédiates n’incluent pas l’option msidbCustomActionTypeInScript dans la colonne type de la <a href="customaction-table.md">table CustomAction</a>.</li><li>4-ignorer les actions personnalisées qui s’exécutent dans le script.</li></ul>La valeur de OptimizeCA doit être la même pour tous les correctifs en cours d’installation ou aucune action personnalisée n’est ignorée. Par exemple, si deux correctifs sont installés et que OptimizeCA est défini sur les valeurs 1 et 2, aucune action personnalisée n’est ignorée. <br /> Les valeurs de OptimizeCA peuvent être combinées lors du traitement de plusieurs nouveaux correctifs. Si tous les correctifs ont 1 (un) inclus dans les valeurs, toutes les actions personnalisées d’affectation de répertoire et de propriété sont ignorées. Si un correctif a la valeur 3 (trois) pour la propriété et que l’un des correctifs a la valeur 1 (un) pour la propriété, les actions personnalisées d’affectation de répertoire et de propriété sont ignorées. Toutefois, les autres actions personnalisées immédiates s’exécutent, car tous les correctifs demandés ne sont pas ignorés. <br /> | 
+| OptimizedInstallMode | Si cette propriété a la valeur 1 (un) dans tous les correctifs à appliquer dans une transaction, une application du correctif est optimisée si possible. Pour plus d’informations, consultez <a href="patch-optimization.md">optimisation des correctifs</a>. disponible à partir de Windows Installer 3,1. | 
+
 
 
 

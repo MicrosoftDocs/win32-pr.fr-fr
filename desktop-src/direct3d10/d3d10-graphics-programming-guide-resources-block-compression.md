@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Compression par bloc (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf93a9d475b21b54baa59f9324a7f69b043bb0c21787c0c2892bfdbe2f6c66d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90068e932d94a7b76e871313e60a50260dbaf479
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118101258"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480555"
 ---
 # <a name="block-compression-direct3d-10"></a>Compression par bloc (Direct3D 10)
 
@@ -159,20 +159,9 @@ color_3 = 0;
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Différences entre Direct3D 9 et Direct3D 10 :<br/> Ce format existe à la fois dans Direct3D 9 et 10.<br/>
-<ul>
-<li>Dans Direct3D 9, le format BC1 est appelé D3DFMT_DXT1.</li>
-<li>Dans Direct3D 10, le format BC1 est représenté par DXGI_FORMAT_BC1_UNORM ou DXGI_FORMAT_BC1_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Différences entre Direct3D 9 et Direct3D 10 :<br /> Ce format existe à la fois dans Direct3D 9 et 10.<br /><ul><li>Dans Direct3D 9, le format BC1 est appelé D3DFMT_DXT1.</li><li>Dans Direct3D 10, le format BC1 est représenté par DXGI_FORMAT_BC1_UNORM ou DXGI_FORMAT_BC1_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -186,20 +175,9 @@ Le format BC2 stocke les couleurs avec le même nombre de bits et la même dispo
 
 ![diagramme de la disposition de la compression BC2](images/d3d10-compression-bc2.png)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Différences entre Direct3D 9 et Direct3D 10 :<br/> Ce format existe à la fois dans Direct3D 9 et 10.<br/>
-<ul>
-<li>Dans Direct3D 9, le format BC2 est appelé D3DFMT_DXT2 et D3DFMT_DXT3.</li>
-<li>Dans Direct3D 10, le format BC2 est représenté par DXGI_FORMAT_BC2_UNORM ou DXGI_FORMAT_BC2_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Différences entre Direct3D 9 et Direct3D 10 :<br /> Ce format existe à la fois dans Direct3D 9 et 10.<br /><ul><li>Dans Direct3D 9, le format BC2 est appelé D3DFMT_DXT2 et D3DFMT_DXT3.</li><li>Dans Direct3D 10, le format BC2 est représenté par DXGI_FORMAT_BC2_UNORM ou DXGI_FORMAT_BC2_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -247,20 +225,9 @@ else
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Différences entre Direct3D 9 et Direct3D 10 :<br/>
-<ul>
-<li>Dans Direct3D 9, le format BC3 est appelé D3DFMT_DXT4 et D3DFMT_DXT5.</li>
-<li>Dans Direct3D 10, le format BC3 est représenté par DXGI_FORMAT_BC3_UNORM ou DXGI_FORMAT_BC3_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Différences entre Direct3D 9 et Direct3D 10 :<br /><ul><li>Dans Direct3D 9, le format BC3 est appelé D3DFMT_DXT4 et D3DFMT_DXT5.</li><li>Dans Direct3D 10, le format BC3 est représenté par DXGI_FORMAT_BC3_UNORM ou DXGI_FORMAT_BC3_UNORM_SRGB.</li></ul> | 
+
 
 
 

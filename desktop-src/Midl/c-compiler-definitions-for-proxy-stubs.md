@@ -6,12 +6,12 @@ keywords:
 - Compilateur MIDL MIDL, compilateur C, définitions pour les proxys/stubs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f12b9fd1e2688545137dba870816c1765102ce3593d09ea3cb062bd8250c7c28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b272b8b540420930366864c45e993172f5c00e67
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117807833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882058"
 ---
 # <a name="c-compiler-definitions-for-proxystubs"></a>C-définitions de compilateur pour les proxys/stubs
 
@@ -22,7 +22,7 @@ Le fichier d’en-tête rpcproxy. h comprend les définitions de macro suivantes
 | MACRO                                                                                                                                                                                           | Description                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | INSCRIRE \_ la \_ dll proxy                                                                                                                                                                            | Génère des fonctions **DllMain**, **DllRegisterServer** et **DllUnregisterServer** pour l’inscription automatique d’une dll proxy.                                                                                       |
-| CLSID du PROXY \_ =<clsid>                                                                                                                                                                      | Spécifie un identificateur de classe pour le serveur. Si cette macro n’est pas définie, le CLSID par défaut est le premier identificateur d’interface que le compilateur MIDL rencontre dans la spécification IDL pour le serveur proxy/stub. |
+| CLSID du PROXY \_ = &lt; CLSID&gt;                                                                                                                                                                      | Spécifie un identificateur de classe pour le serveur. Si cette macro n’est pas définie, le CLSID par défaut est le premier identificateur d’interface que le compilateur MIDL rencontre dans la spécification IDL pour le serveur proxy/stub. |
 | Le \_ CLSID du proxy \_ est = {0x *8hexdigits*, 0x *4hexdigits*, 0x *4hexdigits*, {0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*, 0x *2hexdigits*,}} | Spécifie la valeur de l’identificateur de classe du serveur au format hexadécimal binaire.                                                                                                                                           |
 
 
@@ -33,7 +33,7 @@ En définissant la macro **\_ \_ dll du proxy d’inscription** lors de la compi
 
 Ce code d’inscription par défaut utilise le GUID de la première interface rencontrée comme CLSID pour l’inscription de l’intégralité du serveur DLL proxy/stub. Par la suite, COM utilise ce CLSID pour localiser et charger le serveur proxy/stub compilé pour le marshaling des interfaces que le serveur est inscrit pour gérer. Lorsqu’une application effectue un appel de méthode d’interface qui franchit les limites du thread, du processus ou de l’ordinateur, COM utilise l’entrée du registre de l’identificateur d’interface pour localiser l’entrée de Registre CLSID pour le serveur de marshaling proxy/stub. Il utilise ensuite ce CLSID pour charger le serveur (s’il n’est pas déjà chargé) afin que l’appel d’interface puisse être marshalé.
 
-Utilisez la macro **proxy \_ CLSID** = <clsid> lorsque vous souhaitez spécifier explicitement le CLSID du serveur proxy/stub au lieu de s’appuyer sur le CLSID par défaut. Par exemple, si vous générez une DLL de marshaling standard comme votre propre serveur COM in-process, ou si vous devez définir votre propre **DllMain** pour gérer l' \_ attachement du processus dll \_ .
+Utilisez la macro CLSID CLSID du **\_ proxy** = &lt; &gt; lorsque vous souhaitez spécifier explicitement le CLSID du serveur proxy/stub au lieu de s’appuyer sur le CLSID par défaut. Par exemple, si vous générez une DLL de marshaling standard comme votre propre serveur COM in-process, ou si vous devez définir votre propre **DllMain** pour gérer l' \_ attachement du processus dll \_ .
 
 L’utilisation du **proxy \_ CLSID \_ est**= macro au lieu de **\_ CLSID proxy** pour définir la valeur du CLSID au format hexadécimal binaire que la macro **définir le \_ GUID** utilise.
 

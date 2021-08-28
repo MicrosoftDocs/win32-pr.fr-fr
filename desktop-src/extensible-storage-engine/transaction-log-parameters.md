@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24c8665b42aad5c94db18e3a30a2b5ea09974627
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1d8f3ed19d01eece0b22e22b4a2a16d8d985751a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982175"
 ---
 # <a name="transaction-log-parameters"></a>Paramètres du journal des transactions
 
@@ -42,7 +42,19 @@ Cette rubrique contient des paramètres qui sont utilisés pour les journaux des
 Ce paramètre définit le préfixe à trois lettres utilisé pour la plupart des fichiers utilisés par le moteur de base de données. Par exemple, le fichier de point de contrôle est appelé EDB. CHK par défaut, car EDB est le nom de base par défaut. Le nom de base peut être utilisé pour distinguer facilement les ensembles de fichiers qui appartiennent à différentes instances ou à différentes applications.
 
 
-| | | <p>Valeur par défaut :</p> | <p>EDB</p> | | <p>Tapez :</p> | <p>String</p> | | <p>Plage valide :</p> | <p>3 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>EDB</p> | 
+| <p>Tapez :</p> | <p>Chaîne</p> | 
+| <p>Plage valide :</p> | <p>3 caractères</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -56,7 +68,19 @@ Lorsque la journalisation circulaire est désactivée, tous les fichiers journau
 Lorsque la journalisation circulaire est activée, seuls les fichiers journaux des transactions qui sont plus récents que le point de contrôle actuel sont conservés sur le disque. L’avantage de ce mode est que les sauvegardes ne sont pas nécessaires pour supprimer les anciens fichiers du journal des transactions. Le compromis est qu’il n’est plus possible de restaurer une perte de données nulle.
 
 
-| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Faux</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -68,7 +92,19 @@ Ce paramètre contrôle l’action par défaut entreprise lorsque la transaction
 Ce paramètre a un impact sur la fiabilité et les performances des transactions. Pour plus d’informations, consultez [JetCommitTransaction](./jetcommittransaction-function.md) .
 
 
-| | | <p>Valeur par défaut :</p> | <p>0</p> | | <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | | <p>Plage valide :</p> | <p>Une option valide pour JetCommitTransaction</p> | | <p>Étendue :</p> | <p>Instance ou session</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>0</p> | 
+| <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | 
+| <p>Plage valide :</p> | <p>Une option valide pour JetCommitTransaction</p> | 
+| <p>Étendue :</p> | <p>Instance ou session</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -80,7 +116,19 @@ Lorsque ce paramètre a la valeur true et que les fichiers journaux des transact
 **Windows 2000 :**  vous devez veiller à utiliser ce paramètre lors de la mise à niveau d’une base de données de Windows NT vers Windows 2000. Si la base de données n’est pas dans un état cohérent et que les anciens fichiers journaux sont supprimés, le contenu de la base de données sera perdu.
 
 
-| | | <p>Valeur par défaut :</p> | <p><strong>Windows 2000 :</strong>  Fausses</p><p><strong>Windows XP :</strong>  :</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p><strong>Windows 2000 :</strong>  Fausses</p><p><strong>Windows XP :</strong>  :</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -92,7 +140,19 @@ Si ce paramètre a la valeur true, le moteur de base de données ne valide pas l
 **Windows XP :**  à partir de Windows XP, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Faux</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -112,7 +172,19 @@ Lorsque cette option est présente, le moteur de base de données utilise les co
   - Les fichiers de point de contrôle seront utilisés. CHK pour leur extension de fichier
 
 
-| | | <p>Valeur par défaut :</p> | <p>JET_bitESE98FileNames</p> | | <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | | <p>Plage valide :</p> | <p>0, JET_bitESE98FileNames</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | 
+| <p>Plage valide :</p> | <p>0, JET_bitESE98FileNames</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
 
 
 
@@ -126,7 +198,19 @@ Ce paramètre a un impact sur les performances. Lorsque le moteur de base de don
 **Windows XP et Windows 2000 :**  dans Windows XP et les versions antérieures, il n’est pas recommandé de définir ce paramètre sur un nombre de mémoires tampons plus grand (en octets) que la moitié de la taille d’un fichier journal de transactions.
 
 
-| | | <p>Valeur par défaut :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 80</p><p><strong>Windows Vista :</strong> 126</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 80 – 2147483647</p><p><strong>Windows Vista :</strong> 1 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 80</p><p><strong>Windows Vista :</strong> 126</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 80 – 2147483647</p><p><strong>Windows Vista :</strong> 1 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -138,7 +222,19 @@ Ce paramètre configure le moteur de base de données pour qu’il prenne un poi
 **Windows XP :**  à partir de Windows XP, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>1 024</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>1 024</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -148,7 +244,19 @@ Ce paramètre configure le moteur de base de données pour qu’il prenne un poi
 Lorsque ce paramètre est défini sur true, le moteur de base de données crée le prochain fichier journal des transactions, car le fichier journal des transactions en cours est consommé. L’objectif est de réduire le temps passé à passer d’un fichier journal de transactions à l’autre sous une charge de mise à jour importante.
 
 
-| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Vrai</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
 
@@ -164,7 +272,19 @@ Les propriétés du volume hôte des fichiers journaux des transactions et leur 
 **Remarque**  Si un chemin d’accès relatif est spécifié, il est relatif au répertoire de travail actuel du processus qui héberge l’application qui utilise le moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>".\"</p> | | <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | | <p>Plage valide :</p> | <p>0 – 246 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>".\"</p> | 
+| <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | 
+| <p>Plage valide :</p> | <p>0 – 246 caractères</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -178,7 +298,19 @@ Ce paramètre a un impact sur la fiabilité. Si le paramètre est trop petit, le
 Ce paramètre a un impact sur les performances. Si le paramètre est très important, [JetInit](./jetinit-function.md) est lent, car le moteur de base de données doit lire le fichier journal le plus récent (au minimum) au moment de l’initialisation. Si le paramètre est très volumineux, le basculement entre les fichiers journaux prendra également plus de temps. Si le paramètre est très petit, vous devrez créer des fichiers journaux pour un nombre donné de mises à jour, ce qui entraînera une surcharge supplémentaire.
 
 
-| | | <p>Valeur par défaut :</p> | <p>5120</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 128 – 32768</p><p><strong>Windows Vista :</strong> 64 – 32768</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>5120</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 128 – 32768</p><p><strong>Windows Vista :</strong> 64 – 32768</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -190,7 +322,19 @@ Ce paramètre tente d’optimiser le vidage du tampon du journal provoqué par u
 **Windows XP :**  à partir de Windows XP, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>3</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>3</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -202,7 +346,19 @@ Ce paramètre est le commutateur maître qui contrôle la récupération après 
 La désactivation de la récupération est utile dans des circonstances particulières où l’on sait que le contenu d’une base de données n’est pas utile en cas de panne. La récupération doit être activée pour tous les autres cas.
 
 
-| | | <p>Valeur par défaut :</p> | <p>Sur</p> | | <p>Tapez :</p> | <p>String</p> | | <p>Plage valide :</p> | <p>0 – 259 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Sur</p> | 
+| <p>Tapez :</p> | <p>Chaîne</p> | 
+| <p>Plage valide :</p> | <p>0 – 259 caractères</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -214,7 +370,19 @@ Ce paramètre indique le chemin d’accès relatif ou absolu du système de fich
 **Remarque**  Si un chemin d’accès relatif est spécifié, il est relatif au répertoire de travail actuel du processus qui héberge l’application qui utilise le moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>".\"</p> | | <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | | <p>Plage valide :</p> | <p>0 – 246 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>".\"</p> | 
+| <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | 
+| <p>Plage valide :</p> | <p>0 – 246 caractères</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -226,7 +394,19 @@ Ce paramètre tente d’optimiser le vidage du tampon du journal provoqué par u
 **Windows XP :**  à partir de Windows XP, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>0</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance ou session</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>0</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance ou session</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -240,14 +420,30 @@ la JET_bitESE98FileNames garantit que l’extension de fichier utilisée dans le
 **Remarque**  Pour définir un bit, la valeur doit d’abord être récupérée, puis « ou » dans le bit de compatibilité souhaité.
 
 
-| | | <p>Valeur par défaut :</p> | <p>JET_bitESE98FileNames</p> | | <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | | <p>Plage valide :</p> | <p>JET_bitESE98FileNames</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Tapez :</p> | <p>JET_GRBIT (entier)</p> | 
+| <p>Plage valide :</p> | <p>JET_bitESE98FileNames</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
 
 
 
 ## <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

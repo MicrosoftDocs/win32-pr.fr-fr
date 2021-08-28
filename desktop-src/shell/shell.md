@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: fe2fbaa1bad61ac9c22d36919e49cf493a26a778a8e97d69d1b200c0c62205e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d31adcbf5a12d699750029c15a308ef73f4d8c03
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117857718"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467226"
 ---
 # <a name="shell-object"></a>Objet Shell
 
@@ -37,174 +37,47 @@ L’objet **Shell** possède ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-addtorecent"><strong>AddToRecent</strong></a></td>
-<td style="text-align: left;">Ajoute un fichier à la liste des derniers fichiers utilisés (MRU).<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-browseforfolder.md"><strong>BrowseForFolder</strong></a></td>
-<td style="text-align: left;">Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet <a href="folder.md"><strong>dossier</strong></a> du dossier sélectionné.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-canstartstopservice"><strong>CanStartStopService</strong></a></td>
-<td style="text-align: left;">Détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-cascadewindows.md"><strong>CascadeWindows</strong></a></td>
-<td style="text-align: left;">Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>Cascade Windows</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-controlpanelitem.md"><strong>ControlPanelItem</strong></a></td>
-<td style="text-align: left;">Exécute l’application du panneau de configuration (* .cpl) spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br/>
-<blockquote>
-<p>[!Note]<br />
-à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p>
-<pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-ejectpc.md"><strong>EjectPC</strong></a></td>
-<td style="text-align: left;">Éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>éjecter le PC</strong>, si votre ordinateur prend en charge cette commande.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-explore.md"><strong>Explorer</strong></a></td>
-<td style="text-align: left;">ouvre un dossier spécifié dans une fenêtre de l’explorateur de Windows.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-explorerpolicy.md"><strong>ExplorerPolicy</strong></a></td>
-<td style="text-align: left;">Obtient la valeur d’une stratégie Internet Explorer spécifiée.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-filerun.md"><strong>FileRun</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>exécuter</strong> à l’utilisateur. Cette méthode a le même effet que lorsque vous cliquez sur le menu <strong>Démarrer</strong> et sélectionnez <strong>exécuter</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-findcomputer.md"><strong>FindComputer</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue résultats de la <strong>recherche : ordinateurs</strong> . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-findfiles.md"><strong>FindFiles</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . cela revient à cliquer sur le menu <strong>démarrer</strong> , puis à sélectionner <strong>rechercher</strong> (ou son équivalent sous systèmes antérieurs à Windows XP).<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-findprinter"><strong>FindPrinter</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Rechercher l’imprimante</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-getsetting"><strong>GetSetting</strong></a></td>
-<td style="text-align: left;">Récupère un paramètre d’interpréteur de commandes global.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-getsysteminformation"><strong>GetSystemInformation</strong></a></td>
-<td style="text-align: left;">Récupère des informations système.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-help.md"><strong>Aide</strong></a></td>
-<td style="text-align: left;">affiche le centre d’aide et de Support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-isrestricted"><strong>IsRestricted</strong></a></td>
-<td style="text-align: left;">Récupère le paramètre de restriction d’un groupe à partir du Registre.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-isservicerunning"><strong>IsServiceRunning</strong></a></td>
-<td style="text-align: left;">Retourne une valeur qui indique si un service particulier est en cours d’exécution.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a></td>
-<td style="text-align: left;">Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-namespace.md"><strong>Joint</strong></a></td>
-<td style="text-align: left;">Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-open.md"><strong>Afficher</strong></a></td>
-<td style="text-align: left;">Ouvre le dossier spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-refreshmenu.md"><strong>RefreshMenu</strong></a></td>
-<td style="text-align: left;">Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-searchcommand.md"><strong>SearchCommand</strong></a></td>
-<td style="text-align: left;">Affiche le volet de recherche applications.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-servicestart"><strong>ServiceStart</strong></a></td>
-<td style="text-align: left;">Démarre un service nommé.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-servicestop"><strong>ServiceStop</strong></a></td>
-<td style="text-align: left;">Arrête un service nommé.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-settime.md"><strong>SetTime</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Propriétés de date et heure</strong> . Cette méthode a le même effet que de cliquer avec le bouton droit sur l’horloge dans la zone d’état de la barre des tâches et de sélectionner <strong>ajuster la date/l’heure</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-shellexecute"><strong>ShellExecute</strong></a></td>
-<td style="text-align: left;">Exécute une opération spécifiée sur un fichier spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/shell/shell-showbrowserbar"><strong>ShowBrowserBar</strong></a></td>
-<td style="text-align: left;">Affiche une barre de navigateur.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-shutdownwindows.md"><strong>ShutdownWindows</strong></a></td>
-<td style="text-align: left;">affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-suspend.md"><strong>Momentané</strong></a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-tilehorizontally.md"><strong>TileHorizontally</strong></a></td>
-<td style="text-align: left;">Mosaïques horizontalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows horizontalement</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-tilevertically.md"><strong>TileVertically</strong></a></td>
-<td style="text-align: left;">Mosaïque verticalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows verticalement</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-toggledesktop.md"><strong>ToggleDesktop</strong></a></td>
-<td style="text-align: left;">Affiche ou masque le bureau.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-trayproperties.md"><strong>TrayProperties</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Propriétés de la barre des tâches et du menu Démarrer</strong> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez <strong>Propriétés</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-undominimizeall.md"><strong>UndoMinimizeALL</strong></a></td>
-<td style="text-align: left;">Restaure toutes les fenêtres de bureau dans le même État que celui dans lequel elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>annuler réduire tout Windows</strong> sur les systèmes plus anciens ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-windows.md"><strong>Windows</strong></a></td>
-<td style="text-align: left;">Crée et retourne un objet <a href="shellwindows.md"><strong>ShellWindows</strong></a> . Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="shell-windowssecurity.md"><strong>WindowsSecurity</strong></a></td>
-<td style="text-align: left;">affiche la boîte de dialogue <strong>Sécurité Windows</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="shell-windowswitcher.md"><strong>WindowSwitcher</strong></a></td>
-<td style="text-align: left;">Affiche vos fenêtres ouvertes dans une pile 3D que vous pouvez parcourir.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="/windows/desktop/shell/shell-addtorecent"><strong>AddToRecent</strong></a> | Ajoute un fichier à la liste des derniers fichiers utilisés (MRU).<br /> | 
+| <a href="shell-browseforfolder.md"><strong>BrowseForFolder</strong></a> | Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet <a href="folder.md"><strong>dossier</strong></a> du dossier sélectionné.<br /> | 
+| <a href="/windows/desktop/shell/shell-canstartstopservice"><strong>CanStartStopService</strong></a> | Détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.<br /> | 
+| <a href="shell-cascadewindows.md"><strong>CascadeWindows</strong></a> | Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>Cascade Windows</strong>.<br /> | 
+| <a href="shell-controlpanelitem.md"><strong>ControlPanelItem</strong></a> | Exécute l’application du panneau de configuration (* .cpl) spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br /><blockquote><p>[!Note]<br />à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p><pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre></blockquote><br /> | 
+| <a href="shell-ejectpc.md"><strong>EjectPC</strong></a> | Éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>éjecter le PC</strong>, si votre ordinateur prend en charge cette commande.<br /> | 
+| <a href="shell-explore.md"><strong>Explorer</strong></a> | ouvre un dossier spécifié dans une fenêtre de l’explorateur de Windows.<br /> | 
+| <a href="shell-explorerpolicy.md"><strong>ExplorerPolicy</strong></a> | Obtient la valeur d’une stratégie Internet Explorer spécifiée.<br /> | 
+| <a href="shell-filerun.md"><strong>FileRun</strong></a> | Affiche la boîte de dialogue <strong>exécuter</strong> à l’utilisateur. Cette méthode a le même effet que lorsque vous cliquez sur le menu <strong>Démarrer</strong> et sélectionnez <strong>exécuter</strong>.<br /> | 
+| <a href="shell-findcomputer.md"><strong>FindComputer</strong></a> | Affiche la boîte de dialogue résultats de la <strong>recherche : ordinateurs</strong> . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.<br /> | 
+| <a href="shell-findfiles.md"><strong>FindFiles</strong></a> | Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . cela revient à cliquer sur le menu <strong>démarrer</strong> , puis à sélectionner <strong>rechercher</strong> (ou son équivalent sous systèmes antérieurs à Windows XP).<br /> | 
+| <a href="/windows/desktop/shell/shell-findprinter"><strong>FindPrinter</strong></a> | Affiche la boîte de dialogue <strong>Rechercher l’imprimante</strong> .<br /> | 
+| <a href="/windows/desktop/shell/shell-getsetting"><strong>GetSetting</strong></a> | Récupère un paramètre d’interpréteur de commandes global.<br /> | 
+| <a href="/windows/desktop/shell/shell-getsysteminformation"><strong>GetSystemInformation</strong></a> | Récupère des informations système.<br /> | 
+| <a href="shell-help.md"><strong>Aide</strong></a> | affiche le centre d’aide et de Support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br /> | 
+| <a href="/windows/desktop/shell/shell-isrestricted"><strong>IsRestricted</strong></a> | Récupère le paramètre de restriction d’un groupe à partir du Registre.<br /> | 
+| <a href="/windows/desktop/shell/shell-isservicerunning"><strong>IsServiceRunning</strong></a> | Retourne une valeur qui indique si un service particulier est en cours d’exécution.<br /> | 
+| <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> | Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br /> | 
+| <a href="shell-namespace.md"><strong>Joint</strong></a> | Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br /> | 
+| <a href="shell-open.md"><strong>Afficher</strong></a> | Ouvre le dossier spécifié.<br /> | 
+| <a href="shell-refreshmenu.md"><strong>RefreshMenu</strong></a> | Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br /> | 
+| <a href="shell-searchcommand.md"><strong>SearchCommand</strong></a> | Affiche le volet de recherche applications.<br /> | 
+| <a href="/windows/desktop/shell/shell-servicestart"><strong>ServiceStart</strong></a> | Démarre un service nommé.<br /> | 
+| <a href="/windows/desktop/shell/shell-servicestop"><strong>ServiceStop</strong></a> | Arrête un service nommé.<br /> | 
+| <a href="shell-settime.md"><strong>SetTime</strong></a> | Affiche la boîte de dialogue <strong>Propriétés de date et heure</strong> . Cette méthode a le même effet que de cliquer avec le bouton droit sur l’horloge dans la zone d’état de la barre des tâches et de sélectionner <strong>ajuster la date/l’heure</strong>.<br /> | 
+| <a href="/windows/desktop/shell/shell-shellexecute"><strong>ShellExecute</strong></a> | Exécute une opération spécifiée sur un fichier spécifié.<br /> | 
+| <a href="/windows/desktop/shell/shell-showbrowserbar"><strong>ShowBrowserBar</strong></a> | Affiche une barre de navigateur.<br /> | 
+| <a href="shell-shutdownwindows.md"><strong>ShutdownWindows</strong></a> | affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br /> | 
+| <a href="shell-suspend.md"><strong>Interrompre</strong></a> | équipements | 
+| <a href="shell-tilehorizontally.md"><strong>TileHorizontally</strong></a> | Mosaïques horizontalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows horizontalement</strong>.<br /> | 
+| <a href="shell-tilevertically.md"><strong>TileVertically</strong></a> | Mosaïque verticalement toutes les fenêtres sur le bureau. cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>vignettes Windows verticalement</strong>.<br /> | 
+| <a href="shell-toggledesktop.md"><strong>ToggleDesktop</strong></a> | Affiche ou masque le bureau.<br /> | 
+| <a href="shell-trayproperties.md"><strong>TrayProperties</strong></a> | Affiche la boîte de dialogue <strong>Propriétés de la barre des tâches et du menu Démarrer</strong> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez <strong>Propriétés</strong>.<br /> | 
+| <a href="shell-undominimizeall.md"><strong>UndoMinimizeALL</strong></a> | Restaure toutes les fenêtres de bureau dans le même État que celui dans lequel elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>annuler réduire tout Windows</strong> sur les systèmes plus anciens ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la zone lancement rapide de la barre des tâches de Windows 2000 ou Windows XP.<br /> | 
+| <a href="shell-windows.md"><strong>Windows</strong></a> | Crée et retourne un objet <a href="shellwindows.md"><strong>ShellWindows</strong></a> . Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.<br /> | 
+| <a href="shell-windowssecurity.md"><strong>WindowsSecurity</strong></a> | affiche la boîte de dialogue <strong>Sécurité Windows</strong> .<br /> | 
+| <a href="shell-windowswitcher.md"><strong>WindowSwitcher</strong></a> | Affiche vos fenêtres ouvertes dans une pile 3D que vous pouvez parcourir.<br /> | 
+
 
 
 

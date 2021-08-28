@@ -18,12 +18,12 @@ keywords:
 - définition des tracés pour les formes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23810ae6612e18132566c7d546db7f1f3a569871050b7919cbd8512f3d832808
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9db791533190cd2f67e1043e345954fe71de251
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119512796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885623"
 ---
 # <a name="using-the-formulas-element"></a>Utilisation de l’élément Formulas
 
@@ -34,13 +34,13 @@ cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 
  
 
-Dans cette rubrique, nous allons vous montrer comment utiliser le `<formulas>` sous-élément pour définir un chemin d’accès réglable pour une forme.
+Dans cette rubrique, nous allons vous montrer comment utiliser le `&lt;formulas&gt;` sous-élément pour définir un chemin d’accès réglable pour une forme.
 
-Vous pouvez placer le <formulas> sous-élément à l’intérieur de `<shape>` ou `<shapetype>` pour définir des formules qui peuvent varier le tracé d’une forme. Dans le `<formulas>` sous-élément, un sous-élément **f** définit une formule afin qu’une valeur soit évaluée en fonction de cette formule. Par exemple, la formule `<v:f eqn="prod 10 4 5"/>` définit une valeur qui est équivalente à « 10 x 4/5 ».
+Vous pouvez placer le &lt; &gt; sous-élément Formulas dans `<shape>` ou `<shapetype>` pour définir des formules qui peuvent varier le tracé d’une forme. Dans le `&lt;formulas&gt;` sous-élément, un sous-élément **f** définit une formule afin qu’une valeur soit évaluée en fonction de cette formule. Par exemple, la formule `<v:f eqn="prod 10 4 5"/>` définit une valeur qui est équivalente à « 10 x 4/5 ».
 
-Vous pouvez placer un grand nombre de sous-éléments **f** dans un `<formulas>` sous-élément. Les formules peuvent référencer les valeurs définies précédemment dans d’autres formules au sein du même `<formulas>` sous-élément. La valeur définie dans la première formule peut être appelée @0 , mais la valeur définie dans la deuxième formule peut être appelée @1 , et ainsi de suite.
+Vous pouvez placer un grand nombre de sous-éléments **f** dans un `&lt;formulas&gt;` sous-élément. Les formules peuvent référencer les valeurs définies précédemment dans d’autres formules au sein du même `&lt;formulas&gt;` sous-élément. La valeur définie dans la première formule peut être appelée @0 , mais la valeur définie dans la deuxième formule peut être appelée @1 , et ainsi de suite.
 
-En outre, vous pouvez spécifier l’attribut de propriété **Adj** de l' `<shape>` élément, par exemple adj = "100, 200, 150". À l’intérieur de l' `<formulas>` élément, vous pouvez référencer ces valeurs dans la liste **Adj** . La première valeur (100) dans la liste **Adj** peut être appelée \# 0, la seconde valeur (200) peut être appelée \# 1, et ainsi de suite.
+En outre, vous pouvez spécifier l’attribut de propriété **Adj** de l' `<shape>` élément, par exemple adj = "100, 200, 150". À l’intérieur de l' `&lt;formulas&gt;` élément, vous pouvez référencer ces valeurs dans la liste **Adj** . La première valeur (100) dans la liste **Adj** peut être appelée \# 0, la seconde valeur (200) peut être appelée \# 1, et ainsi de suite.
 
 Par exemple, pour dessiner un visage souriant, vous pouvez taper la représentation VML suivante :
 

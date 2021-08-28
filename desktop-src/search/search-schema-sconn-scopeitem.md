@@ -1,19 +1,19 @@
 ---
-description: L' <scopeItem> élément représente une entrée unique dans la table d’étendue d’exclusion/d’inclusion.
+description: L' &lt; &gt; élément scopeItem représente une entrée unique dans la table d’étendue d’exclusion/d’inclusion.
 ms.assetid: 18a58b3b-771c-4829-b3d4-253383b4bee8
 title: Élément scopeItem (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67bf8cc7ba9d296503a9703845d8a03287006ed178dca7f51228e89827a0c710
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46a585acd065efcbc58091d4c8bebce733ed2c73
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118051501"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880446"
 ---
 # <a name="scopeitem-element-search-connector-schema"></a>Élément scopeItem (schéma du connecteur de recherche)
 
-L' <scopeItem> élément représente une entrée unique dans la table d’étendue d’exclusion/d’inclusion. <scopeItem> étend le type shellLinkType standard en ajoutant trois nouveaux éléments qui contrôlent l’inclusion et l’exclusion de dossiers, contrôlent la profondeur des résultats et spécifient l’emplacement de l’étendue. Si l' <scope> élément existe, cet élément est obligatoire. Il a trois éléments enfants et aucun attribut.
+L' &lt; &gt; élément scopeItem représente une entrée unique dans la table d’étendue d’exclusion/d’inclusion. &lt;scopeItem &gt; étend le type shellLinkType standard en ajoutant trois nouveaux éléments qui contrôlent l’inclusion et l’exclusion de dossiers, contrôlent la profondeur des résultats et spécifient l’emplacement de l’étendue. Si l' &lt; &gt; élément Scope existe, cet élément est obligatoire. Il a trois éléments enfants et aucun attribut.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -67,9 +67,9 @@ L' <scopeItem> élément représente une entrée unique dans la table d’étend
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez les <scope> <scopeItem> éléments et pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
+Utilisez les &lt; &gt; éléments Scope et &lt; scopeItem &gt; pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 L’exemple suivant montre une étendue de recherche qui comprend C : \\ ExampleFolder et tous ses dossiers enfants, à l’exception de c : \\ ExampleFolder \\ ExcludeMe.
 

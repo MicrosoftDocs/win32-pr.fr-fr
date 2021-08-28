@@ -7,12 +7,12 @@ keywords:
 - Configuration des limites de durée de vie AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2cb3617bd59667f0284c4e383da54752adfbe25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2786258d060ef4261dcd9fbfad359c71f2dbaeb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881595"
 ---
 # <a name="configuration-of-ttl-limits"></a>Configuration des limites de durée de vie
 
@@ -25,7 +25,7 @@ Les valeurs par défaut pour les deux paramètres TTL configurables sont les sui
 -   Valeur TTL par défaut = 86400 secondes (1 jour)
 -   Valeur TTL minimale = 900 secondes (15 minutes)
 
-Les paramètres TTL configurables sont stockés sous la forme d’entrées AVA (attribute value assertion) au format «<Value-Name>=<value>"dans l’attribut **ms-DS-Other-Settings** de l’objet NTDS-Service donné par le nom de domaine suivant dans la partition de configuration :
+les paramètres TTL configurables sont stockés sous la forme d’entrées AVA (attribute value assertion) au format « &lt; value-name &gt; = &lt; value &gt; » dans l’attribut **ms-DS-Other-Paramètres** de l’objet NTDS-Service donné par le nom de domaine suivant dans la partition de Configuration :
 
 
 ```C++
@@ -52,9 +52,9 @@ DynamicObjectMinTTLSeconds=NNNN
 
 Ces valeurs peuvent être définies par un administrateur via l’utilitaire de ligne de commande Ntdsutil.
 
- 
+ 
 
- 
+ 
 
 
 

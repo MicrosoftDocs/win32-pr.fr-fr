@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 478b4617f56c73e425d833842b313767f85c385e9142314a7ca8978b5783f492
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41af5f29f54dc0b5c7e63203c43160539bcaa870
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886588"
 ---
 # <a name="msvm_storagealert-class"></a>MSVM \_ StorageAlert, classe
 
@@ -83,7 +83,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **ModelCorrespondence** ("CIM \_ AlertIndication. AlertingManagedElement", "CIM \_ AlertIndication. OtherAlertingElementFormat")
 </dt> </dl>
 
-Spécifie le format de la propriété **AlertingManagedElement** . Le format est un CIMObjectPath, avec le format *<NamespacePath> : <ClassName> . <Prop1> = \\ " <Value1> \\ ", " <Prop2> = \\ " <Value2> \\ "*, qui spécifie une instance dans le schéma CIM.
+Spécifie le format de la propriété **AlertingManagedElement** . Le format est un CIMObjectPath, au format *&lt; NamespacePath &gt; : &lt; className &gt; . &lt; Prop1 &gt; = \\ " &lt; value1 &gt; \\ ", " &lt; Prop2 &gt; = \\ " &lt; value2 &gt; \\ "*, qui spécifie une instance dans le schéma CIM.
 
 Cette propriété est héritée de la classe **CIM \_ AlertIndication** .
 
@@ -281,7 +281,7 @@ lorsqu’un client reçoit un événement **Msvm \_ StorageAlert** , si la valeu
 -   Interrogez toutes les instances de [**\_ disque logique MSVM**](msvm-logicaldisk.md) allouées à partir du pool de ressources pour lequel l’événement a été généré. Ces instances de **\_ disque logique MSVM** sont associées au pool de ressources via l’Association [**MSVM \_ ElementAllocatedFromPool**](msvm-elementallocatedfrompool.md) .
 -   Filtrez la liste des résultats en sélectionnant les instances dont OperationalStatus contient un débit insuffisant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Cet article présente les conditions techniques et les meilleures p
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ce541a1bd8b416bdd22431b59a2ca9490f331b693fe54d45397865d9c23e3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0723c5da09d011111b0064ef689025d7ddcac85
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118649367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887052"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>jeux pour Windows exigences techniques : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
@@ -253,63 +253,14 @@ Le fournisseur GDF pour un fournisseur de jeux ne contient généralement pas d�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Système d'exploitation</th>
-<th>Systèmes d’évaluation pris en charge</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Vista</td>
-<td><ul>
-<li>CERO (Japon)</li>
-<li>ESRB (ÉTATS-UNIS)</li>
-<li>OFLC (Australie)</li>
-<li>PEGI (Europe)</li>
-<li>PEGI Finlande (déconseillé)</li>
-<li>PEGI Portugal</li>
-<li>PEGI/BBFC (Royaume-Uni)</li>
-<li>USK (Allemagne)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista avec un Service Pack</td>
-<td>les Service packs pour Windows Vista ajoutent la prise en charge des éléments suivants :<br/>
-<ul>
-<li>GRB (Corée du Sud)</li>
-<li>&quot;Descripteurs de contenu de variant léger ESRB &quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Windows 7 prend en charge les systèmes de contrôle d’accès pris en charge par Windows Vista et ajoute la prise en charge des éléments suivants : <br/>
-<ul>
-<li>CSRR (Taïwan)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 8</td>
-<td>Windows 8 prend en charge les systèmes de contrôle d’accès précédents et ajoute la prise en charge des éléments suivants :<br/>
-<ul>
-<li>Fin-au (Australie)</li>
-<li>DJCTQ (Brésil)</li>
-<li>PFB (Afrique du Sud)</li>
-<li>OFLC-NZ (Nouvelle-Zélande)</li>
-</ul>
-Windows 8 la prise en charge des réabandons pour les systèmes suivants désormais dépréciés :<br/>
-<ul>
-<li>PEGI-FI (Finlande)</li>
-<li>OFLC (Australie)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Système d'exploitation | Systèmes d’évaluation pris en charge | 
+|------------------|--------------------------|
+| Windows Vista | <ul><li>CERO (Japon)</li><li>ESRB (ÉTATS-UNIS)</li><li>OFLC (Australie)</li><li>PEGI (Europe)</li><li>PEGI Finlande (déconseillé)</li><li>PEGI Portugal</li><li>PEGI/BBFC (Royaume-Uni)</li><li>USK (Allemagne)</li></ul> | 
+| Windows Vista avec un Service Pack | les Service packs pour Windows Vista ajoutent la prise en charge des éléments suivants :<br /><ul><li>GRB (Corée du Sud)</li><li>Descripteurs de contenu variant « modérés » ESRB</li></ul> | 
+| Windows 7 | Windows 7 prend en charge les systèmes de contrôle d’accès pris en charge par Windows Vista et ajoute la prise en charge des éléments suivants : <br /><ul><li>CSRR (Taïwan)</li></ul> | 
+| Windows 8 | Windows 8 prend en charge les systèmes de contrôle d’accès précédents et ajoute la prise en charge des éléments suivants :<br /><ul><li>Fin-au (Australie)</li><li>DJCTQ (Brésil)</li><li>PFB (Afrique du Sud)</li><li>OFLC-NZ (Nouvelle-Zélande)</li></ul>Windows 8 la prise en charge des réabandons pour les systèmes suivants désormais dépréciés :<br /><ul><li>PEGI-FI (Finlande)</li><li>OFLC (Australie)</li></ul> | 
+
 
 
 
@@ -451,7 +402,7 @@ L’utilisation de versions de Direct3D plus récentes que Direct3D 9 est viveme
 
 les jeux et leurs programmes d’installation doivent s’exécuter correctement sans problèmes visuels lorsque la mise à l’échelle ppp (points par pouce) est activée (testée avec 144 ppp pour une mise à l’échelle de 150% à la résolution d’écran 1600 1200) sur Windows Vista et Windows 7.
 
-En général, l’exécutable du jeu est requis pour déclarer la prise en charge DPI. Pour ce faire, incorporez un élément de manifeste : <dpiAware> true <dpiAware> .
+En général, l’exécutable du jeu est requis pour déclarer la prise en charge DPI. Pour ce faire, incorporez un élément de manifeste : &lt; dpiAware &gt; true &lt; dpiAware &gt; .
 
 </dd> <dt>
 

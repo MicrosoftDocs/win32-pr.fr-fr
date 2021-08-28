@@ -1,19 +1,19 @@
 ---
-description: Cet <searchConnectorDescriptionList> élément contient une liste de connecteurs de recherche qui correspondent aux emplacements inclus dans cette bibliothèque. Chaque connecteur de recherche est défini par un <searchConnectorDescription> élément. Cet élément est facultatif et n’a pas d’attributs.
+description: Cet &lt; &gt; élément searchConnectorDescriptionList contient une liste de connecteurs de recherche mappés à des emplacements inclus dans cette bibliothèque. Chaque connecteur de recherche est défini par &lt; un &gt; élément searchConnectorDescription. Cet élément est facultatif et n’a pas d’attributs.
 ms.assetid: 58A7BC21-0EB8-4bcf-98EE-31A56A4BC58C
 title: Élément searchConnectorDescriptionList (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9298ec0f25554f6e1b1ceb570630cf6e41c11fb027c2b1bb5496c8acc68ee41
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 04edc3a3cb7353529dccca66ffa15e1604bdd1c0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120111179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885605"
 ---
 # <a name="searchconnectordescriptionlist-element-library-schema"></a>Élément searchConnectorDescriptionList (schéma de bibliothèque)
 
-Cet <searchConnectorDescriptionList> élément contient une liste de connecteurs de recherche qui correspondent aux emplacements inclus dans cette bibliothèque. Chaque connecteur de recherche est défini par un <searchConnectorDescription> élément. Cet élément est facultatif et n’a pas d’attributs.
+Cet &lt; &gt; élément searchConnectorDescriptionList contient une liste de connecteurs de recherche mappés à des emplacements inclus dans cette bibliothèque. Chaque connecteur de recherche est défini par &lt; un &gt; élément searchConnectorDescription. Cet élément est facultatif et n’a pas d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

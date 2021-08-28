@@ -4,26 +4,26 @@ ms.assetid: 4d3c3f3c-22d2-4246-afef-aee2a0bd52d6
 title: Outil et exemple VssSampleProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1fceaa65b851e5469a3e82323da92d8bde0651a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbd84288f6dc878c103f639aa0c015a3e5e95bde
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884415"
 ---
 # <a name="vsssampleprovider-tool-and-sample"></a>Outil et exemple VssSampleProvider
 
 Montre comment utiliser les [interfaces](volume-shadow-copy-api-interfaces.md) VSS pour créer un fournisseur de matériel VSS.
 
 > [!Note]  
-> L’outil et l’exemple VssSampleProvider sont inclus dans le kit de développement logiciel (SDK) Microsoft Windows. Vous pouvez télécharger le SDK Windows à partir du [Kit de développement logiciel (SDK) Windows pour Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk).
+> l’outil VssSampleProvider et l’exemple sont inclus dans le kit de développement logiciel (SDK) de Microsoft Windows. vous pouvez télécharger le SDK Windows à partir du [kit de développement logiciel (SDK) Windows pour Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk).
 
  
 
-Dans l’installation SDK Windows, l’outil VssSampleProvider se trouve dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour Windows 32 bits).
+dans l’installation de SDK Windows, l’outil VssSampleProvider se trouve dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour 64 bits Windows) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour le Windows 32 bits).
 
 > [!Note]  
-> Les fournisseurs de matériel sont uniquement pris en charge sur les systèmes d’exploitation Windows Server. Sur un système d’exploitation client Windows, vous pouvez compiler l’exemple VssSampleProvider, mais vous ne pouvez pas l’inscrire en tant que fournisseur de matériel.
+> les fournisseurs de matériel sont uniquement pris en charge sur les systèmes d’exploitation Windows Server. sur un système d’exploitation Client Windows, vous pouvez compiler l’exemple VssSampleProvider, mais vous ne pouvez pas l’inscrire en tant que fournisseur de matériel.
 
  
 
@@ -75,7 +75,7 @@ L’exemple VssSampleProvider comprend les scripts d’installation et de désin
 
         L’exemple de fournisseur VSS reconnaît un numéro d’unité logique uniquement si le **fournisseur de matériel exemple VSS** fait partie de l’identificateur de stockage. Pour plus d’informations sur l’identificateur de stockage, consultez le billet de blog suivant.
 
-        [LUN-resynchronisation avec DiskShadow et le stockage virtuel](https://blogs.msdn.microsoft.com/b/himanshu_kale/archive/2009/06/02/lun-resync-with-diskshadow-virtual-storage.aspx)
+        [LUN-resynchronisation avec Diskshadow et les Stockage virtuelles](https://blogs.msdn.microsoft.com/b/himanshu_kale/archive/2009/06/02/lun-resync-with-diskshadow-virtual-storage.aspx)
 
     2.  Dans la fenêtre d’invite de commandes, utilisez diskpart.exe pour formater le disque virtuel et lui attribuer une lettre de lecteur.
 
@@ -99,7 +99,7 @@ L’exemple VssSampleProvider comprend les scripts d’installation et de désin
 
     
 
-    *<drive>* représente la lettre de lecteur du numéro d’unité logique virtuelle.
+    le *&lt; lecteur &gt;* représente la lettre de lecteur du numéro d’unité logique virtuelle.
 
 7.  Pour désinstaller l’exemple de fournisseur VSS, dans la fenêtre d’invite de commandes, tapez la commande suivante :
 

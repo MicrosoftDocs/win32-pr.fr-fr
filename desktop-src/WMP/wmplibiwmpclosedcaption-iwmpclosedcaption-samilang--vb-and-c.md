@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98354d5e1e4f796442dd0347a4ed2796cafdf7297d3829af9b8839d48df00c3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9577f7d9030a12a12596fe2cdc2a999922658ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887174"
 ---
 # <a name="iwmpclosedcaptionsamilang-property"></a>IWMPClosedCaption :: SAMILang, propriété
 
@@ -50,7 +50,7 @@ Public Property SAMILang As System.String
 
 ## <a name="remarks"></a>Remarques
 
-Un fichier SAMI peut contenir du texte pour une ou plusieurs langues. Les langues disponibles pour le sous-titrage sont définies entre les balises <STYLE> et </STYLE> dans le fichier sami. Un identificateur de langue est spécifié avec une chaîne alphanumérique unique précédée d’un point (.). Le nom spécifié pour une langue peut être n’importe quelle chaîne. Par exemple, les éléments suivants peuvent être utilisés pour définir l’anglais des États-Unis :
+Un fichier SAMI peut contenir du texte pour une ou plusieurs langues. Les langues disponibles pour le sous-titrage sont définies entre le &lt; style &gt; et les </STYLE> balises du fichier sami. Un identificateur de langue est spécifié avec une chaîne alphanumérique unique précédée d’un point (.). Le nom spécifié pour une langue peut être n’importe quelle chaîne. Par exemple, les éléments suivants peuvent être utilisés pour définir l’anglais des États-Unis :
 
 
 ```
@@ -63,7 +63,7 @@ Si aucune langue SAMI n’est spécifiée, la première langue définie dans le 
 
 La chaîne que vous définissez à l’aide de **SAMILang** doit correspondre à l’attribut **Name** dans le spécificateur de langage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

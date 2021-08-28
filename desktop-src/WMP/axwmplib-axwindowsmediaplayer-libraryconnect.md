@@ -3,7 +3,7 @@ title: Événement LibraryConnect de l’objet AxWindowsMediaPlayer
 description: L’événement LibraryConnect se produit lorsqu’une bibliothèque devient disponible.
 ms.assetid: f67243ce-0e25-43a7-b754-6b0e80d72055
 keywords:
-- Événement LibraryConnect de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement LibraryConnect de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c33353b8438c61e28a3d52975fe90b06f14f03a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 940eed16004009e928309ae1a2e5d8f792b9fd0cb36fe8e836abfefb89e3ab95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123949"
 ---
 # <a name="libraryconnect-event-of-the-axwindowsmediaplayer-object"></a>Événement LibraryConnect de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement ne se produit pas pour la bibliothèque locale.
 
@@ -73,7 +73,7 @@ Cet événement ne se produit pas pour la bibliothèque locale.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPLibrary (VB et C#)**](iwmplibrary--vb-and-c.md)

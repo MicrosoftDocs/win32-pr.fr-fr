@@ -7,12 +7,12 @@ keywords:
 - regroupe Active Directory, en obtenant le nom du type de compte de domaine d’un groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cc1b5a076ab3e63059fb79fa784039a8fb2ffb0b1c6396392140b64fa36e16f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eac1a93689ab91d0fe4e349fefd99355a9273912
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118189088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881413"
 ---
 # <a name="getting-the-domain-account-style-name-of-a-group"></a>Obtention du nom de domaine Account-Style d’un groupe
 
@@ -25,7 +25,7 @@ Les utilisateurs, groupes, ordinateurs et autres principaux de sécurité peuven
 
 
 
-Où « <domain> » est le nom du domaine Windows NT qui contient l’utilisateur et « <account> » est la propriété **sAMAccountName** de l’utilisateur spécifié. Par exemple : « Fabrikam \\ JeffSmith ».
+Où « &lt; Domain &gt; » est le nom du domaine Windows NT qui contient l’utilisateur et « &lt; Account &gt; » est la propriété **sAMAccountName** de l’utilisateur spécifié. Par exemple : « Fabrikam \\ JeffSmith ».
 
 Le formulaire de compte de domaine peut spécifier le tiers de confiance dans une entrée du contrôle d’accès dans un descripteur de sécurité. il est également utilisé pour le nom d’ouverture de session sur les ordinateurs exécutant Windows version NT 4,0 et antérieure.
 

@@ -4,12 +4,12 @@ ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: Données de plug-in et classe RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372b3d297edbad6d339285f45e92118184fa2cfc
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: dac0540d90f291acfef27a09df08ffff645c280d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104559330"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480965"
 ---
 # <a name="plug-in-data-and-the-realtimestylus-class"></a>Données de plug-in et classe RealTimeStylus
 
@@ -93,80 +93,19 @@ L’objet [**RealTimeStylus**](realtimestylus-class.md) reçoit des données sur
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a></th>
-<th>Objets qui précèdent l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a></th>
-<th>Objets qui viennent après l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Taper</strong></td>
-<td>Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br/></td>
-<td>Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DoubleTap</strong></td>
-<td>L’objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> , l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le mouvement du système <strong>Tap</strong> et les objets [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-<td>Deuxième objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightTap</strong></td>
-<td>L’objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> et l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le membre <strong>HoldEnter</strong> de l’énumération <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> .<br/></td>
-<td>Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Déplacez</strong></td>
-<td>Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br/></td>
-<td>Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightDrag</strong></td>
-<td>Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br/></td>
-<td>Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoldEnter</strong></td>
-<td>Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br/></td>
-<td>Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br/>
-<blockquote>
-[!Note]<br />
-Ce mouvement système n’est pas reconnu si l’utilisateur commence un mouvement de système <strong>Drag</strong> ou <strong>RightDrag</strong> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoldLeave</strong></td>
-<td>Non implémenté.<br/></td>
-<td>Non implémenté.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoverEnter</strong></td>
-<td>Plusieurs objets <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> de vitesse moyenne faible.<br/></td>
-<td><blockquote>
-[!Note]<br />
-Il peut y avoir un délai notable avant de recevoir le mouvement du système <strong>HoverEnter</strong> . L’objet <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> reçoit uniquement ces données si l’objet <strong>RealTimeStylus</strong> est attaché à la fenêtre ou au contrôle qui se trouve directement sous le stylet au moment du mouvement du système.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoverLeave</strong></td>
-<td>Objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le mouvement de système <strong>HoverEnter</strong> et plusieurs objets <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> de rapidité moyenne suffisante.<br/></td>
-<td><blockquote>
-[!Note]<br />
-Il peut y avoir un délai notable avant de recevoir le mouvement du système <strong>HoverLeave</strong> . L’objet <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> reçoit uniquement ces données si l’objet <strong>RealTimeStylus</strong> est attaché à la fenêtre ou au contrôle qui se trouve directement sous le stylet au moment du mouvement du système.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a> | Objets qui précèdent l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> | Objets qui viennent après l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> | 
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| <strong>Taper</strong> | Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br /> | Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>DoubleTap</strong> | L’objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> , l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le mouvement du système <strong>Tap</strong> et les objets [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /> | Deuxième objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br /> | 
+| <strong>RightTap</strong> | L’objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> et l’objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le membre <strong>HoldEnter</strong> de l’énumération <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> .<br /> | Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>Déplacez</strong> | Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br /> | Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>RightDrag</strong> | Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br /> | Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>HoldEnter</strong> | Objet <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> .<br /> | Objet [StylusUpData](/previous-versions/ms824057(v=msdn.10)) .<br /><blockquote>[!Note]<br />Ce mouvement système n’est pas reconnu si l’utilisateur commence un mouvement de système <strong>Drag</strong> ou <strong>RightDrag</strong> .</blockquote><br /> | 
+| <strong>HoldLeave</strong> | Non implémenté.<br /> | Non implémenté.<br /> | 
+| <strong>HoverEnter</strong> | Plusieurs objets <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> de vitesse moyenne faible.<br /> | <blockquote>[!Note]<br />Il peut y avoir un délai notable avant de recevoir le mouvement du système <strong>HoverEnter</strong> . L’objet <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> reçoit uniquement ces données si l’objet <strong>RealTimeStylus</strong> est attaché à la fenêtre ou au contrôle qui se trouve directement sous le stylet au moment du mouvement du système.</blockquote><br /> | 
+| <strong>HoverLeave</strong> | Objet <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> pour le mouvement de système <strong>HoverEnter</strong> et plusieurs objets <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> de rapidité moyenne suffisante.<br /> | <blockquote>[!Note]<br />Il peut y avoir un délai notable avant de recevoir le mouvement du système <strong>HoverLeave</strong> . L’objet <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> reçoit uniquement ces données si l’objet <strong>RealTimeStylus</strong> est attaché à la fenêtre ou au contrôle qui se trouve directement sous le stylet au moment du mouvement du système.</blockquote><br /> | 
+
 
 
 

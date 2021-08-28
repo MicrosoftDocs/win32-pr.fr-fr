@@ -4,12 +4,12 @@ ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: Constantes de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb63bc687dd6bf3cc1dcc5e1801b500761480c7b8443b7a786a05211b9fb729d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b27c3977369ca1da969ced6370e93f23bb65385
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118500386"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631347"
 ---
 # <a name="directxmath-library-constants"></a>Constantes de la bibliothèque DirectXMath
 
@@ -19,8 +19,8 @@ Les constantes suivantes sont fournies par la bibliothèque DirectXMath.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,5 +1,5 @@
 ---
-description: L' <folderType> élément spécifie un GUID pour le type de dossier. Cet élément est obligatoire si l' <templateInfo> élément existe ; sinon, il est facultatif. Cet élément n’a pas d’attributs ni d’éléments enfants.
+description: L' &lt; &gt; élément FolderType spécifie un GUID pour le type de dossier. Cet élément est obligatoire si l' &lt; &gt; élément templateInfo existe ; sinon, il est facultatif. Cet élément n’a pas d’attributs ni d’éléments enfants.
 title: Élément folderType (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8d35f09a10cc88ae3873a507b6fa7000812503890240ce0b808ffecc84f23fd8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba9d0163a00ab525fb0a52267c1226b6a48230a4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880865"
 ---
 # <a name="foldertype-element-library-schema"></a>Élément folderType (schéma de bibliothèque)
 
-L' <folderType> élément spécifie un GUID pour le type de dossier. Cet élément est obligatoire si l' <templateInfo> élément existe ; sinon, il est facultatif. Cet élément n’a pas d’attributs ni d’éléments enfants.
+L' &lt; &gt; élément FolderType spécifie un GUID pour le type de dossier. Cet élément est obligatoire si l' &lt; &gt; élément templateInfo existe ; sinon, il est facultatif. Cet élément n’a pas d’attributs ni d’éléments enfants.
 
 ## <a name="syntax"></a>Syntaxe
 

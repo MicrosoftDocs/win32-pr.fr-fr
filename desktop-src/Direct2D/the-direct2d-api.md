@@ -25,12 +25,12 @@ keywords:
 - Direct2D, Primitives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f757ea6f1dd2b5db0d0c96297098bc6a8443bf25
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074993"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882849"
 ---
 # <a name="direct2d-api-overview"></a>Vue d’ensemble de l’API Direct2D.
 
@@ -161,7 +161,7 @@ Un pinceau, représenté par l’interface [**ID2D1Brush**](/windows/win32/api/d
 -   [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) peint une zone avec un dégradé radial qui fusionne deux couleurs ou plus autour d’une ellipse.
 -   [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) peint une zone avec une image bitmap.
 
-Pour créer un pinceau, vous utilisez l’une des méthodes de pinceau [**ID2D1RenderTarget ::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create *<Type>* , telles que [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Les pinceaux peuvent être utilisés avec les méthodes de dessin et de remplissage d’une cible de rendu, soit pour peindre un trait ou un contour de forme, soit comme masque d’opacité.
+Pour créer un pinceau, vous utilisez l’une des méthodes de pinceau de *&lt; type &gt;* [**ID2D1RenderTarget ::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create, telles que [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Les pinceaux peuvent être utilisés avec les méthodes de dessin et de remplissage d’une cible de rendu, soit pour peindre un trait ou un contour de forme, soit comme masque d’opacité.
 
 Pour plus d’informations sur les pinceaux, consultez [vue d’ensemble des pinceaux](direct2d-brushes-overview.md).
 
@@ -173,7 +173,7 @@ Des formes plus complexes peuvent être créées à l’aide de l’interface [*
 
 Les interfaces Geometry fournissent des méthodes pour manipuler des formes en élargissant ou en simplifiant les géométries existantes, ou en générant l’intersection ou l’Union de plusieurs géométries. Elles fournissent également des méthodes pour déterminer si les géométries se croisent ou se chevauchent, récupèrent les informations relatives aux limites, calculent la zone ou la longueur d’une géométrie et interpolent des emplacements le long d’une géométrie. Direct2D offre également la possibilité de créer un maillage de triangles qui est fractionné à partir d’une géométrie.
 
-Pour créer une géométrie, vous utilisez l’une des méthodes [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory):: Create *<Type>* Geometry, telles que [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). Une géométrie est une ressource indépendante du périphérique.
+Pour créer une géométrie, vous utilisez l’une des méthodes [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory):: Create *&lt; &gt; type* Geometry, telles que [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). Une géométrie est une ressource indépendante du périphérique.
 
 Pour afficher une géométrie, vous utilisez les méthodes [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) et [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) d’une cible de rendu.
 

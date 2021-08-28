@@ -21,18 +21,18 @@ keywords:
 - types de contrôles, DataGrid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8af1e35e062c778285d1cb7edcca9ac6192792b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fa37093402fc3c4c195b4b68ecc74652af2d6a6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939899"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475595"
 ---
 # <a name="datagrid-control-type"></a>DataGrid (type de contrôle)
 
 Cette rubrique fournit des informations sur la prise en charge de Microsoft UI Automation pour le type de contrôle **DataGrid** .
 
-Le type de contrôle **DataGrid** permet à un utilisateur de travailler facilement avec des éléments qui contiennent des données ou des éléments d’automatisation présentés dans des colonnes ou des lignes. Les contrôles de grille de données présentent des lignes d’éléments et des colonnes d’informations sur ces éléments. Un contrôle List-View dans l’Explorateur Windows Vista est un exemple qui prend en charge le type de contrôle **DataGrid** .
+Le type de contrôle **DataGrid** permet à un utilisateur de travailler facilement avec des éléments qui contiennent des données ou des éléments d’automatisation présentés dans des colonnes ou des lignes. Les contrôles de grille de données présentent des lignes d’éléments et des colonnes d’informations sur ces éléments. un contrôle list-view dans Windows l’explorateur Vista est un exemple qui prend en charge le type de contrôle **DataGrid** .
 
 Les sections suivantes définissent l’arborescence, les propriétés, les modèles de contrôle et les événements UI Automation requis pour le type de contrôle **DataGrid** . Les exigences d’UI Automation s’appliquent à tous les contrôles de grille de données où l’infrastructure ou la plateforme d’interface utilisateur intègre la prise en charge d’UI Automation pour les types de contrôle et les modèles de contrôle.
 
@@ -51,42 +51,15 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataGrid
-<ul>
-<li>Header (0, 1 ou 2)
-<ul>
-<li>HeaderItem (nombre de lignes ou colonnes)</li>
-</ul></li>
-<li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataGrid
-<ul>
-<li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>DataGrid<ul><li>Header (0, 1 ou 2)<ul><li>HeaderItem (nombre de lignes ou colonnes)</li></ul></li><li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li></ul></li></ul> | <ul><li>DataGrid<ul><li>DataItem (0 ou plus ; peut être structuré dans une hiérarchie)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -109,7 +82,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -126,7 +99,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 Les éléments de données dans les conteneurs de grille de données prennent en charge au minimum ce qui suit :
 
@@ -160,7 +133,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="datagrid-control-type-example"></a>Exemple de type de contrôle DataGrid
 
@@ -172,48 +145,15 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arborescence UI Automation-vue de contrôle</th>
-<th>Arborescence UI Automation-affichage du contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataGrid (tri, table, sélection, grille)
-<ul>
-<li>En-tête
-<ul>
-<li>&quot;Nom &quot; de HeaderItem (Invoke)</li>
-<li>HeaderItem &quot; date &quot; de modification (Invoke)</li>
-<li>&quot;Taille HeaderItem &quot; (Invoke)</li>
-</ul></li>
-<li>Groupe &quot; Contoso &quot; (TableItem, GridItem, SelectionItem, table *, Grid*)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-<td>DataGrid (Table, Grid, Selection)
-<ul>
-<li>Groupe &quot; Contoso &quot; (TableItem, GridItem, SelectionItem, table *, Grid*)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docde comptes DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Arborescence UI Automation-vue de contrôle | Arborescence UI Automation-affichage du contenu | 
+|-----------------------------------|-----------------------------------|
+| DataGrid (tri, table, sélection, grille)<ul><li>En-tête<ul><li>HeaderItem « Nom » (Invoke)</li><li>HeaderItem « Date de modification » (Invoke)</li><li>HeaderItem « Taille » (Invoke)</li></ul></li><li>Groupe « contoso » (TableItem, GridItem, SelectionItem, table *, Grid*)<ul><li>DataItem « comptes Receivable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem « comptes Payable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | DataGrid (Table, Grid, Selection)<ul><li>Groupe « contoso » (TableItem, GridItem, SelectionItem, table *, Grid*)<ul><li>DataItem « comptes Receivable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem « comptes Payable.doc » (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 \*L’exemple précédent montre une grille de données qui contient plusieurs niveaux de contrôles. Le contrôle **Group** (« contoso ») contient deux contrôles **DataItem** (« Accounts Receivable.doc » et « Accounts Payable.doc »). Une paire **DataGrid de DataGrid** /  est indépendante d’une paire à un autre niveau. Les contrôles **DataItem** sous un **groupe** peuvent également être exposés en tant que type de contrôle [ListItem](uiauto-supportlistitemcontroltype.md) , ce qui leur permet d’être présentés plus clairement comme des objets sélectionnables, plutôt que comme des éléments de données simples. Cet exemple n’inclut pas les sous-éléments des éléments de données groupés. Pour un autre exemple de plusieurs niveaux de contrôles, consultez le type de contrôle [DataItem](uiauto-supportdataitemcontroltype.md) .
 
@@ -230,9 +170,9 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

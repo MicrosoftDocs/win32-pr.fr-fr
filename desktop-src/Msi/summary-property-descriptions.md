@@ -4,12 +4,12 @@ ms.assetid: b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36
 title: Descriptions des propriétés de synthèse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41addb58571b6d18e1cccc4a34c3026f3d0544cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb93e5881a25b6b79eef0fb0711acc1fec1b6666
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537074"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629542"
 ---
 # <a name="summary-property-descriptions"></a>Descriptions des propriétés de synthèse
 
@@ -21,8 +21,8 @@ Les propriétés de résumé des packages d’installation, des transformations 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -32,7 +32,7 @@ Les propriétés de résumé des packages d’installation, des transformations 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="title-summary.md"><strong>Intitulé</strong></a></td>
+<td><a href="title-summary.md"><strong>Titre</strong></a></td>
 <td>Description de ce fichier sous la forme d’un package d’installation. La description doit inclure la &quot; <a href="about-the-installer-database.md">base de données d’installation de</a>l’expression.&quot;</td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Les propriétés de résumé des packages d’installation, des transformations 
 <td>Liste de mots clés qui peuvent être utilisés par les navigateurs de fichiers pour effectuer des recherches dans les mots clés d’un fichier. Les mots clés doivent inclure le &quot; programme d’installation &quot; et les mots clés spécifiques au produit.</td>
 </tr>
 <tr class="odd">
-<td><a href="comments-summary.md"><strong>Commentaires</strong></a></td>
+<td><a href="comments-summary.md"><strong>Inclus</strong></a></td>
 <td>Contient l’expression : &quot; cette base de données du programme d’installation contient la logique et les données requises pour installer <<em>nom du produit</em> > .&quot;</td>
 </tr>
 <tr class="even">
@@ -80,13 +80,13 @@ Les propriétés de résumé des packages d’installation, des transformations 
 <td>Contient une valeur utilisée pour identifier la version minimale du programme d’installation requise par ce package d’installation. Par exemple, si le package requiert au minimum la version 2,0 du programme d’installation, cette propriété doit être définie sur un entier de 200.
 <blockquote>
 [!Note]<br />
-La valeur de cette propriété doit être supérieure ou égale à 200 avec des <a href="64-bit-windows-installer-packages.md">packages de Windows Installer 64 bits</a>.
+la valeur de cette propriété doit être supérieure ou égale à 200 avec des <a href="64-bit-windows-installer-packages.md">Packages de Windows Installer 64 bits</a>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="word-count-summary.md"><strong>Nombre de mots</strong></a> (obligatoire)</td>
-<td>Type de l’image du fichier source. Stocké à la place de la propriété nombre standard. Cette propriété est un champ de bits. Consultez la rubrique <a href="word-count-summary.md"><strong>nombre de mots</strong></a> pour les valeurs.<br/> À partir de Windows Installer version 4,0 sur Windows Vista, cette propriété comprend des bits pour spécifier si des privilèges élevés sont requis.<br/></td>
+<td>Type de l’image du fichier source. Stocké à la place de la propriété nombre standard. Cette propriété est un champ de bits. Consultez la rubrique <a href="word-count-summary.md"><strong>nombre de mots</strong></a> pour les valeurs.<br/> à partir de Windows Installer version 4,0 sur Windows Vista, cette propriété comprend des bits pour spécifier si des privilèges élevés sont requis.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="character-count-summary.md"><strong>Nombre de caractères</strong></a></td>
@@ -117,11 +117,11 @@ La valeur de cette propriété doit être supérieure ou égale à 200 avec des 
 
 | Summary, propriété                                              | Signification de cette propriété dans une transformation                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Intitulé**](title-summary.md)                                | Description de ce fichier en tant que transformation. La description doit inclure la phrase suivante : «[transformer](database-transforms.md)».                                                                                                                                                                     |
+| [**Titre**](title-summary.md)                                | Description de ce fichier en tant que transformation. La description doit inclure la phrase suivante : «[transformer](database-transforms.md)».                                                                                                                                                                     |
 | [**Objet**](subject-summary.md)                            | Nom du produit installé par le package d’installation d’origine. Il doit s’agir de la même valeur que la propriété Résumé de l' [**objet**](subject-summary.md) dans le package d’installation d’origine.                                                                                            |
 | [**Auteur**](author-summary.md)                              | Nom du fabricant de cette transformation.                                                                                                                                                                                                                                                   |
 | [**Mots clés**](keywords-summary.md)                          | Liste de mots clés qui peuvent être utilisés par les navigateurs de fichiers pour effectuer des recherches dans les mots clés d’un fichier. Les mots clés doivent inclure « programme d’installation », ainsi que des mots clés spécifiques au produit.                                                                                                                             |
-| [**Commentaires**](comments-summary.md)                          | Contient l’expression : « cette transformation contient la logique et les données requises pour installer <*nom de produit*> ».                                                                                                                                                                                     |
+| [**Inclus**](comments-summary.md)                          | Contient l’expression : « cette transformation contient la logique et les données requises pour installer <*nom de produit*> ».                                                                                                                                                                                     |
 | [**Modèle**](template-summary.md) (obligatoire)               | Les versions de plateforme et de langage compatibles avec cette transformation. Cette valeur peut être laissée vide s’il n’existe aucune restriction. Vous ne pouvez spécifier qu’un seul langage pour une transformation. Pour plus d’informations sur la syntaxe, consultez [**modèle**](template-summary.md).                                |
 | [**Dernier enregistrement par**](last-saved-by-summary.md)                | ID de la plateforme et de la langue que la base de données a après avoir été transformée. La propriété [**Résumé du modèle**](template-summary.md) de la nouvelle base de données doit être définie sur les mêmes valeurs.                                                                                              |
 | [**Numéro de révision**](revision-number-summary.md) (obligatoire) | Liste des GUID de code de produit et de la version des produits nouveaux et originaux et du GUID du code de mise à niveau. La liste est séparée par des points-virgules, comme suit. *Original : code* du produit original-version du produit ; *New-Product Code New-Product-version*; *Mettre à niveau le code*<br/>                       |
@@ -145,8 +145,8 @@ La valeur de cette propriété doit être supérieure ou égale à 200 avec des 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -156,7 +156,7 @@ La valeur de cette propriété doit être supérieure ou égale à 200 avec des 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="title-summary.md"><strong>Intitulé</strong></a></td>
+<td><a href="title-summary.md"><strong>Titre</strong></a></td>
 <td>Description de ce fichier en tant que package correctif. La description doit inclure l’expression : &quot; <a href="patch-packages.md">patch</a>.&quot;</td>
 </tr>
 <tr class="even">
@@ -172,7 +172,7 @@ La valeur de cette propriété doit être supérieure ou égale à 200 avec des 
 <td>Liste délimitée par des points-virgules des sources du correctif.</td>
 </tr>
 <tr class="odd">
-<td><a href="comments-summary.md"><strong>Commentaires</strong></a></td>
+<td><a href="comments-summary.md"><strong>Inclus</strong></a></td>
 <td>Contient l’expression : &quot; ce correctif contient la logique et les données requises pour installer <<em>nom de produit</em> > .&quot;</td>
 </tr>
 <tr class="even">
@@ -210,7 +210,7 @@ Si le package de correctifs contient une table <a href="msipatchsequence-table.m
 </tr>
 <tr class="odd">
 <td><a href="word-count-summary.md"><strong>Nombre de mots</strong></a> (obligatoire)</td>
-<td>Contient une valeur qui indique la version minimale de Windows Installer requise pour installer le correctif. Un correctif avec une valeur de nombre de mots de 4 requiert Windows Installer version 3,0 ou ultérieure pour appliquer le correctif. La valeur 3 indique que Windows Installer version 2,0 ou ultérieure est requise. La valeur 2 indique que Windows Installer version 1,2 ou ultérieure est requise. La valeur par défaut est 1.</td>
+<td>contient une valeur qui indique la version minimale de Windows Installer requise pour installer le correctif. un correctif avec une valeur de nombre de mots de 4 requiert Windows Installer version 3,0 ou ultérieure pour appliquer le correctif. la valeur 3 indique que Windows Installer version 2,0 ou ultérieure est requise. la valeur 2 indique que Windows Installer version 1,2 ou ultérieure est requise. La valeur par défaut est 1.</td>
 </tr>
 <tr class="even">
 <td><a href="character-count-summary.md"><strong>Nombre de caractères</strong></a></td>

@@ -4,18 +4,18 @@ ms.assetid: 6F1E0B2E-E013-4C5B-86A4-0AF8606D0C12
 title: Guide pratique pour personnaliser les éléments de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19314f8e4c5d4944a500a0eef3aa0f75cd231b12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a99e8e7da789653226db40763116472eb065df0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884558"
 ---
 # <a name="how-to-customize-the-ui-elements"></a>Guide pratique pour personnaliser les éléments de l’interface utilisateur
 
-Une page Web personnalise l’interface utilisateur avec le titre, l’icône et la couleur d’en-tête à l’aide des balises de métadonnées définies sur la page Web. Les développeurs Web peuvent utiliser des <meta> balises HTML pour afficher la personnalité et la marque du fournisseur dans l’interface utilisateur du répartiteur d’authentification Web. En outre, les développeurs peuvent diriger des actions utilisateur plus complexes, par exemple l’inscription et la récupération des mots de passe. Le concept est très similaire à la fonctionnalité de sites épinglés de Windows Internet Explorer 9 et Windows 7.
+Une page Web personnalise l’interface utilisateur avec le titre, l’icône et la couleur d’en-tête à l’aide des balises de métadonnées définies sur la page Web. Les développeurs Web peuvent utiliser &lt; des &gt; balises méta html pour afficher la personnalité et la marque du fournisseur dans l’interface utilisateur du répartiteur d’authentification Web. En outre, les développeurs peuvent diriger des actions utilisateur plus complexes, par exemple l’inscription et la récupération des mots de passe. le concept est très similaire à la fonctionnalité de Sites épinglés de la Windows Internet Explorer 9 et Windows 7.
 
-Outre la personnalisation de l’interface utilisateur autour de la zone de page Web, la page Web doit également tirer parti des styles des contrôles Windows 8, être activée pour la saisie tactile et permettre l’ouverture des liens dans le navigateur, le cas échéant.
+outre la personnalisation de l’interface utilisateur autour de la zone de page web, la page web doit également tirer parti des styles du Windows 8 contrôles, être activée pour la saisie tactile et permettre l’ouverture des liens dans le navigateur, le cas échéant.
 
 Voici un exemple de page Web qui a tiré parti du modèle de personnalisation du Service Broker d’authentification Web. ![éléments de l’interface utilisateur du répartiteur d’authentification Web](images/wab-figure7.png)
 
@@ -29,7 +29,7 @@ La page Web peut fournir une icône à l’aide d’une balise méta mswebdialog
 <meta name="mswebdialog-logo" content="https://www.contoso.com/logo.png"/>
 ```
 
-Le contenu est une URL qui peut être une page relative ou absolue. Le schéma de l’URL peut être HTTP ou HTTPs. Le format du fichier doit être PNG ou JPG. La taille de l’image doit être de 30x30 pixels. Si l’image est de la taille différente, elle est mise à l’échelle vers le haut ou vers le haut par le système d’exploitation pour correspondre à l’espace 30x30. L’image doit être conçue pour s’afficher correctement lorsqu’elle est mise à l’échelle jusqu’à 140% et 180% pour prendre en compte les écrans de résolution plus élevée. Pour tester différents facteurs de mise à l’échelle, utilisez l' [exemple d’application du kit de développement logiciel (SDK) du Broker d’authentification Web](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) chargé dans Visual Studio 11, qui permet de simuler différentes résolutions et facteurs de mise à l’échelle à l’aide des fenêtres d’appareil du mode création.
+Le contenu est une URL qui peut être une page relative ou absolue. Le schéma de l’URL peut être HTTP ou HTTPs. Le format du fichier doit être PNG ou JPG. La taille de l’image doit être de 30x30 pixels. Si l’image est de la taille différente, elle est mise à l’échelle vers le haut ou vers le haut par le système d’exploitation pour correspondre à l’espace 30x30. L’image doit être conçue pour s’afficher correctement lorsqu’elle est mise à l’échelle jusqu’à 140% et 180% pour prendre en compte les écrans de résolution plus élevée. pour tester différents facteurs de mise à l’échelle, utilisez l' [exemple d’application du kit de développement logiciel (SDK) du Broker d’authentification Web](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) chargé dans Visual Studio 11, qui permet de simuler différentes résolutions et facteurs de mise à l’échelle à l’aide des fenêtres d’appareil du mode création.
 
 ### <a name="step-2-customize-the-title-text"></a>Étape 2 : personnaliser le texte du titre
 
@@ -49,7 +49,7 @@ La page Web peut fournir la couleur qui représente son identité de marque à u
 <meta name="mswebdialog-header-color" content="#1267DF"/>
 ```
 
-La couleur peut être n’importe quelle valeur spécifiée ici. Toutefois, le Service Broker d’authentification Web ignore toute valeur de canal alpha. Avec cette couleur et les couleurs utilisées sur la page en général, il est recommandé de suivre les mêmes couleurs que celles utilisées dans l’application Windows 8 du fournisseur si cette application existe.
+La couleur peut être n’importe quelle valeur spécifiée ici. Toutefois, le Service Broker d’authentification Web ignore toute valeur de canal alpha. avec cette couleur et les couleurs utilisées sur la page en général, il est recommandé de suivre les mêmes couleurs que celles utilisées dans l’application Windows 8 du fournisseur si cette application existe.
 
 > [!Note]  
 > Les icônes et les couleurs sont mises en cache par serveur sur le client une fois que les balises méta sont analysées. Effacez le cache du client avant de lancer l’interface utilisateur afin que les modifications soient prises en compte. Pour ce faire, modifiez les paramètres de registre suivants.
@@ -72,15 +72,15 @@ Une fois qu’une icône est téléchargée, elle n’est pas récupérée dans 
 
 ### <a name="step-4-customize-the-web-page"></a>Étape 4 : personnaliser la page Web
 
-Outre la personnalisation de l’interface utilisateur dans la page Web, les développeurs doivent également créer des pages Web qui sont transparents et intégrées à l’expérience globale de Windows 8. Cela comprend l’utilisation de styles recommandés, en veillant à ce que les pages Web fonctionnent bien avec les appareils tactiles et ouvrent certaines pages Web dans le navigateur Web.
+outre la personnalisation de l’interface utilisateur sur la page web, les développeurs doivent également créer des pages web qui sont transparents et intégrées avec l’expérience d’Windows 8 globale. Cela comprend l’utilisation de styles recommandés, en veillant à ce que les pages Web fonctionnent bien avec les appareils tactiles et ouvrent certaines pages Web dans le navigateur Web.
 
--   Styles
+-   Style
 
-    Il est vivement recommandé d’utiliser le style recommandé ici pour créer une expérience utilisateur plus cohérente entre les pages Web du Service Broker d’authentification Web et d’autres composants de l’interface utilisateur de Windows 8. La page Web doit utiliser un arrière-plan blanc et aucune bordure. Les boutons tels que connexion ou annuler doivent être positionnés à l’angle inférieur droit et utiliser la même couleur que l’en-tête. Enfin, étant donné que le Service Broker d’authentification Web fournit un bouton précédent, envisagez d’éliminer complètement un bouton Annuler de la page Web.
+    Il est vivement recommandé d’utiliser le style recommandé ici pour créer une expérience utilisateur plus cohérente entre les pages Web du Service Broker d’authentification Web et d’autres composants d’interface utilisateur de Windows 8. La page Web doit utiliser un arrière-plan blanc et aucune bordure. Les boutons tels que connexion ou annuler doivent être positionnés à l’angle inférieur droit et utiliser la même couleur que l’en-tête. Enfin, étant donné que le Service Broker d’authentification Web fournit un bouton précédent, envisagez d’éliminer complètement un bouton Annuler de la page Web.
 
 -   Activation de Touch
 
-    La page Web doit être conçue avec une interaction tactile de l’utilisateur à l’esprit. Pour plus d’informations sur la conception pour la saisie tactile dans Windows 8, consultez la rubrique [conception d’interaction tactile](https://msdn.microsoft.com/library/Hh465415(v=Win.10).aspx) .
+    La page Web doit être conçue avec une interaction tactile de l’utilisateur à l’esprit. pour plus d’informations sur la conception pour la saisie tactile dans Windows 8, consultez la rubrique [conception d’interaction tactile](https://msdn.microsoft.com/library/Hh465415(v=Win.10).aspx) .
 
 -   Personnalisation de la cible des liens hypertexte
 

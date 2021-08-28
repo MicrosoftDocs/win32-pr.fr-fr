@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6ae49864fea057aa942b121f21813acfd0f26c6cc4411d4f1b3c59cda12014c3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fa1354caadc14cf15b34333c81bff1211e1fbc8c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119881559"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631947"
 ---
 # <a name="recentitems-element"></a>Élément RecentItems
 
 Représente le contrôle [éléments récents](windowsribbon-controls-recentitems.md) dans le [menu](windowsribbon-controls-applicationmenu.md)de l’application.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <RecentItems
@@ -39,10 +39,10 @@ Représente le contrôle [éléments récents](windowsribbon-controls-recentitem
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ Représente le contrôle [éléments récents](windowsribbon-controls-recentitem
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -70,7 +70,7 @@ Représente le contrôle [éléments récents](windowsribbon-controls-recentitem
 <tr class="odd">
 <td><strong>MaxCount</strong><br/></td>
 <td>xs:nonNegativeInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Nombre d’éléments récents à afficher.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : nonNegativeInteger)<br/> </dt> <dd> Valeur entière égale ou supérieure à 0.<br/> La valeur par défaut est <strong>10</strong>.<br/> </dd> </dl></td>
 </tr>

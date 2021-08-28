@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 603025166eed7c92d98148a43d26046308235777
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: eb9ac3377e97079794a8d4c81d4f8be59587870c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983592"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468646"
 ---
 # <a name="jet_columnbase-structure"></a>Structure JET_COLUMNBASE
 
@@ -121,12 +121,7 @@ Nom de la colonne dans la table de modèle.
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
-| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_COLUMNBASE_W</strong> (Unicode) et <strong>JET_COLUMNBASE_A</strong> (ANSI).</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_COLUMNBASE_W</strong> (Unicode) et <strong>JET_COLUMNBASE_A</strong> (ANSI).</p> | 
 
 
 

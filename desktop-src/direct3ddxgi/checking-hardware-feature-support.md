@@ -4,12 +4,12 @@ ms.assetid: 0C40C73E-06F3-41FA-AA27-2C0B730B357B
 title: Prise en charge de la fonctionnalité de vérification du matériel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eecaebdb3b8d4825e2be72bf9fa9758186f5f192832e1442779b90d05c62c9a8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20ee68a97b30c9828e2a5d27aadb58d668b74858
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120025689"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624065"
 ---
 # <a name="checking-hardware-feature-support"></a>Prise en charge de la fonctionnalité de vérification du matériel
 
@@ -21,9 +21,9 @@ Pour D3D11, utilisez [**ID3D11Device :: CheckFormatSupport**](/windows/desktop/
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

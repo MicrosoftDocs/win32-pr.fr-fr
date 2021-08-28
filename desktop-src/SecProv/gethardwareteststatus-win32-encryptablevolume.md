@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 26d1984a79edef5f00f7687260fda7b211153863
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32d0d477459dbc7352d1d8f6779c5c76cfbd537d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521317"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475355"
 ---
 # <a name="gethardwareteststatus-method-of-the-win32_encryptablevolume-class"></a>Méthode GetHardwareTestStatus de la \_ classe Win32 EncryptableVolume
 
@@ -51,36 +51,13 @@ Spécifie si un test matériel est en attente, ainsi que la réussite de l’éc
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl> <dt><strong>NotFailed_and_NonePending</strong></dt> <dt>0</dt> </dl></td>
-<td>Si un test a été demandé, le test a réussi au dernier redémarrage de l’ordinateur et le chiffrement du volume est maintenant en cours. Pour connaître l’état du chiffrement, consultez la méthode <a href="getconversionstatus-win32-encryptablevolume.md"><strong>GetConversionStatus</strong></a> . Dans le cas contraire, aucun test n’a été exécuté au dernier redémarrage de l’ordinateur et aucun n’est en attente. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl> <dt><strong>Échec</strong></dt> <dt>1</dt> </dl></td>
-<td>Le chiffrement de volume n’a pas démarré. Tous les protecteurs de clé ont été supprimés.<br/> Pour résoudre un échec de test :<br/>
-<ul>
-<li>Consultez les informations contenues dans le paramètre <em>TestError</em> .</li>
-<li>Ajoutez des protecteurs de clé et réutilisez la méthode <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>EncryptAfterHardwareTest</strong></a> .</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl> <dt><strong>En attente</strong></dt> <dt>2</dt> </dl></td>
-<td>Un test a été demandé et s’exécutera au prochain redémarrage de l’ordinateur.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl><dt><strong>NotFailed_and_NonePending</strong></dt><dt>0</dt></dl> | Si un test a été demandé, le test a réussi au dernier redémarrage de l’ordinateur et le chiffrement du volume est maintenant en cours. Pour connaître l’état du chiffrement, consultez la méthode <a href="getconversionstatus-win32-encryptablevolume.md"><strong>GetConversionStatus</strong></a> . Dans le cas contraire, aucun test n’a été exécuté au dernier redémarrage de l’ordinateur et aucun n’est en attente. <br /> | 
+| <span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl><dt><strong>Échec</strong></dt><dt>1</dt></dl> | Le chiffrement de volume n’a pas démarré. Tous les protecteurs de clé ont été supprimés.<br /> Pour résoudre un échec de test :<br /><ul><li>Consultez les informations contenues dans le paramètre <em>TestError</em> .</li><li>Ajoutez des protecteurs de clé et réutilisez la méthode <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>EncryptAfterHardwareTest</strong></a> .</li></ul> | 
+| <span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl><dt><strong>En attente</strong></dt><dt>2</dt></dl> | Un test a été demandé et s’exécutera au prochain redémarrage de l’ordinateur.<br /> | 
+
 
 
 
@@ -112,7 +89,7 @@ Spécifie l’erreur du dernier test matériel effectué.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -129,7 +106,7 @@ Le tableau suivant répertorie certains des codes de retour courants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour demander un test matériel, utilisez la méthode [**EncryptAfterHardwareTest**](encryptafterhardwaretest-win32-encryptablevolume.md) .
 
@@ -147,7 +124,7 @@ Un test réussi détermine que :
 
 Les résultats des tests matériels ne seront pas disponibles après toute modification apportée à la conversion ou après le prochain redémarrage de l’ordinateur. Consultez le journal des événements système pour obtenir des informations sur les tests matériels précédemment exécutés sur l’ordinateur.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -155,8 +132,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8dd926b3c01b3ae38b39dbe758904b81aa99cd5d155af34d5dbcc19bda3a43fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c314bb5fb0013637068fe4720d55fdcad9cd3ab5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880108"
 ---
 # <a name="cim_removedirectoryaction-class"></a>\_Classe CIM RemoveDirectoryAction
 
@@ -845,8 +845,8 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
@@ -860,7 +860,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
