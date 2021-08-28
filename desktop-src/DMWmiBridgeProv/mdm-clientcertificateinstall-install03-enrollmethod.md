@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7903407d5a97f056835e529eb21408bdcbe800ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ddeca621f58015aa3806212c1250aeb43554a51cbb28e15414e779571b9c102
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109399"
 ---
 # <a name="enrollmethod-method-of-the-mdm_clientcertificateinstall_install03-class"></a>Méthode EnrollMethod de la \_ \_ classe Install03 MDM ClientCertificateInstall
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Déclenche le démarrage de l’inscription de certificat par l’appareil. L’appareil n’enverra pas de notification au serveur MDM une fois l’inscription du certificat terminée. Le serveur MDM peut interroger ultérieurement l’appareil pour savoir si un nouveau certificat est ajouté. Voir aussi [**inscrire**](/windows/client-management/mdm/clientcertificateinstall-csp).
 
@@ -52,7 +52,7 @@ Obligatoire. Déclenche le démarrage de l’inscription de certificat par l’a
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

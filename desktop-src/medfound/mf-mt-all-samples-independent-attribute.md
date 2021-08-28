@@ -4,12 +4,12 @@ ms.assetid: 40434f63-e191-45e1-b788-5f80fe7f49ae
 title: Attribut MF_MT_ALL_SAMPLES_INDEPENDENT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f82173e99a30e033b3d90f6cfec0dc2aa8b3af97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada34232ccbc7eb30fc9a5bcb64e96542b0375140de426fae951f5e0317c9e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060749"
 ---
 # <a name="mf_mt_all_samples_independent-attribute"></a>Attribut indépendant de l’exemple MF \_ MT \_ All \_ \_
 
@@ -21,11 +21,11 @@ Spécifie pour un type de média si chaque échantillon est indépendant des aut
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut a la **valeur false**, certains exemples ne peuvent pas être utilisés sans faire référence à d’autres exemples dans le flux. Par exemple, si un format vidéo contient des images Delta, cet attribut doit avoir la **valeur false**.
 
-Cet attribut correspond au champ **bTemporalCompression** dans la structure de [**\_ \_ type de média du matin**](/windows/win32/api/strmif/ns-strmif-am_media_type) DirectShow.
+cet attribut correspond au champ **bTemporalCompression** dans la structure de [**\_ \_ TYPE de média AM**](/windows/win32/api/strmif/ns-strmif-am_media_type) DirectShow.
 
 Affectez la valeur **true** à cet attribut pour tous les types de média non compressés.
 
@@ -37,8 +37,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

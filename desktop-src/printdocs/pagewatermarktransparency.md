@@ -4,12 +4,12 @@ ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: PageWatermarkTransparency
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ba405c3cd4a269edc4585ad8cba4c81f2c05e9
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: f0cc9ad90ec39b4280faf35caf949d18e4e838479baae36fced53992c8eab2eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091888"
 ---
 # <a name="pagewatermarktransparency"></a>PageWatermarkTransparency
 
@@ -28,7 +28,7 @@ Spécifie la transparence pour le filigrane. Entièrement opaque a une valeur de
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
-| Notes <br/>          | Lié à l’élément PageWatermark<br/> |
+| Remarques <br/>          | Lié à l’élément PageWatermark<br/> |
 
 
 
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | entier<br/> | 0<br/>               |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

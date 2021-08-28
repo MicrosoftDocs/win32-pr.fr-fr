@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd909d62a1be212f9ed4ef9af243a27f28be818
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08e2c8d4b5e30a3a5a9a039e27f5704019a6300c
+ms.sourcegitcommit: 205567a2a76ad672a493a0203ff9d61271d9df98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539866"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "122358905"
 ---
 # <a name="dds_pixelformat-structure"></a>\_Structure DDS PIXELFORMAT
 
@@ -113,7 +113,7 @@ Type : **[ **DWORD**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> <dd>
 
-Masque rouge (ou lumiannce ou Y) pour la lecture des données de couleur. Par exemple, étant donné le format A8R8G8B8, le masque rouge est 0x00FF0000.
+Masque rouge (ou luminance ou Y) pour la lecture des données de couleur. Par exemple, étant donné le format A8R8G8B8, le masque rouge est 0x00FF0000.
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Masque Alpha pour la lecture des données alpha. dwFlags doit inclure *DDPF \_ A
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour stocker des formats DXGI tels que des données à virgule flottante, utilisez un **dwFlags** de DDPF \_ FourCC et définissez **dwFourCC** sur’d', 'X', ' 1 ', ' 0 '. Utilisez l’en-tête d’extension DXT10 de l' [**\_ en-tête \_ DDS**](dds-header-dxt10.md) pour stocker le format dxgi dans le membre **dxgiFormat** .
 

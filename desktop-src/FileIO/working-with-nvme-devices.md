@@ -4,12 +4,12 @@ ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Utilisation des lecteurs NVMe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 425516946d1e76e5c01f6ae5d11f104244f85ce0
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 22a749764aa0874aef618558199ca418582d0d36
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436274"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812864"
 ---
 # <a name="working-with-nvme-drives"></a>Utilisation des lecteurs NVMe
 
@@ -48,7 +48,7 @@ Vous pouvez utiliser les API d’utilisation générale suivantes pour accéder 
 -   [**Stockage \_ \_Requête de propriété**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) : cette structure comprend les champs **PropertyId** et **AdditionalParameters** pour spécifier les données à interroger. Dans le champ **PropertyId** , utilisez l’énumération de l' **\_ \_ ID de propriété de stockage** pour spécifier le type de données. Utilisez le champ **AdditionalParameters** pour spécifier plus de détails, en fonction du type de données. Pour les données spécifiques au protocole, utilisez la structure de **\_ \_ \_ données spécifique au protocole de stockage** dans le champ **AdditionalParameters** . Pour les données de température, utilisez la structure d' **\_ \_ informations** sur la température du stockage dans le champ **AdditionalParameters** .
 -   [**Stockage \_ \_ID de propriété**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) : cette énumération comprend de nouvelles valeurs qui permettent à la **\_ \_ \_ propriété de requête de stockage IOCTL** d’extraire des informations relatives au protocole et à la température.
 
-    -   **StorageAdapterProtocolSpecificProperty**
+    -   **StorageAdapterProtocolSpecificProperty**: si ProtocolType = ProtocolTypeNvme et DataType = NVMeDataTypeLogPage, les appelants doivent demander des segments de données de 512 octets.
     -   **StorageDeviceProtocolSpecificProperty**
 
     Utilisez l’un de ces ID de propriété spécifiques au protocole en association avec des **\_ \_ \_ données de protocole de stockage** pour récupérer des données spécifiques au protocole dans la structure du [**\_ \_ \_ descripteur des données de protocole de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor) .

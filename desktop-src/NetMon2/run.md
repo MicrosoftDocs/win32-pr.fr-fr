@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: c2dff2cf70a6d989928f17447fa3491dd9509f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e31c5c729bba133fa4c4d3e36bbc54035a274923a03a8718acf05a601192775b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074499"
 ---
 # <a name="run-callback-function"></a>Exécuter une fonction de rappel
 
@@ -101,7 +101,7 @@ Si la fonction réussit (autrement dit, si l’expert démarre), la valeur de re
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de son exécution, l’expert parcourt les frames du fichier de capture et génère un rapport ou crée des événements qui présentent des problèmes.
 

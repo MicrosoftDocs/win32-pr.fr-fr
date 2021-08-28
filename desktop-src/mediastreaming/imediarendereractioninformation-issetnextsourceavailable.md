@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 265a9a96d5229e47008c60813fd6c0e3bc567800
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ee18eadbc535dd2cd4b48ec6f77adb1d3dec2f5a0c1f5065cee009e27635eda9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092299"
 ---
 # <a name="imediarendereractioninformationissetnextsourceavailable-method"></a>IMediaRendererActionInformation :: IsSetNextSourceAvailable, méthode
 
@@ -50,7 +50,7 @@ Valeur booléenne qui est **true** si la méthode DMR accepte actuellement la m�
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

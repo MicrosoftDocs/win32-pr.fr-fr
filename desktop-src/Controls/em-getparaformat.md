@@ -3,7 +3,7 @@ title: Message EM_GETPARAFORMAT (RichEdit. h)
 description: Récupère la mise en forme de paragraphe de la sélection actuelle dans un contrôle RichEdit.
 ms.assetid: 79a7d34f-5da1-452d-b31f-b2eec913f5cb
 keywords:
-- EM_GETPARAFORMAT les contrôles de message Windows
+- EM_GETPARAFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49060861a955e85d153fc9041c9b364db109f83a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eda99d1fefc0e2a13cc989726c86588103b7f94d7042b98393709cf4a2cd5f29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048849"
 ---
 # <a name="em_getparaformat-message"></a>\_Message GETPARAFORMAT em
 
@@ -57,8 +57,8 @@ Ce message retourne la valeur du membre **dwMask** de la structure [**PARAFORMAT
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

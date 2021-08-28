@@ -4,12 +4,12 @@ description: vérification de l’interface utilisateur de visual Automation (vi
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c50fdd123d24c8a6ef4215ae2451cf49b854b60b26c5d741db1921c42f6f7aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22e8c6118914c791e04226dfa11d2c3bd9548368
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563653"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466846"
 ---
 # <a name="visual-ui-automation-verify"></a>Vérification de l’interface utilisateur Visual Automation
 
@@ -36,108 +36,24 @@ Le tableau suivant décrit les commandes du menu vérification de Visual UIA.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Menu</th>
-<th>Commande</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>File</strong></td>
-<td><strong>Quitter</strong></td>
-<td>Quittez la vérification de Visual UIA.</td>
-</tr>
-<tr class="even">
-<td><strong>Visualiser</strong></td>
-<td><strong>Mettre en surbrillance</strong></td>
-<td>Mettez en surbrillance le rectangle englobant de l’élément sélectionné dans le volet de l' <strong>arborescence éléments Automation</strong> . Les options suivantes sont disponibles.
-<ul>
-<li><strong>Rectangle</strong>: ligne rouge pleine.</li>
-<li><strong>Rectangle de fondu</strong>: ligne rouge pleine qui disparaît après quelques secondes.</li>
-<li><strong>Rayons et rectangle</strong>: trait rouge plein avec des lignes de surbrillance bleue supplémentaires qui rayonnent à partir de chaque angle du rectangle englobant.</li>
-<li><strong>None</strong>: aucune mise en surbrillance visible.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td rowspan="2"><strong>Arborescence des éléments d’automatisation</strong>$ {Remove} $<br />
-</td>
-<td><strong>Actualiser l’élément sélectionné</strong></td>
-<td>Actualise les enfants de l’élément sélectionné dans le volet d' <strong>arborescence éléments Automation</strong> . La liste d’éléments est statique et n’est pas actualisée dynamiquement (automatiquement) si l’arborescence d’éléments change.</td>
-</tr>
-<tr class="even">
-<td><strong>Navigation</strong></td>
-<td>Naviguez dans la hiérarchie de l’arborescence d’éléments jusqu’à l’un des éléments suivants.
-<ul>
-<li><strong>Parent</strong>: accéder à l’élément parent.</li>
-<li><strong>Premier enfant</strong>: accéder au premier élément enfant.</li>
-<li><strong>Frère suivant</strong>: accédez au premier élément frère.</li>
-<li><strong>Frère précédent</strong>: accède à l’élément frère précédent.</li>
-<li><strong>Dernier enfant</strong>: accéder au dernier élément enfant.</li>
-</ul></td>
 
-</tr>
-<tr class="odd">
-<td rowspan="3"><strong>Mode</strong>$ {Remove} $<br />
-</td>
-<td><strong>Always On haut</strong></td>
-<td>La fenêtre de vérification du décodeur Visual UIA reste en haut de l’ordre de plan du bureau.</td>
-</tr>
-<tr class="even">
-<td><strong>Mode sensitif (utilisez Ctrl)</strong></td>
-<td>Quand la touche CTRL est enfoncée, l’élément sous le curseur de la souris est identifié comme étant l’élément concerné. Le volet d' <strong>arborescence éléments Automation</strong> est actualisé et l’élément correspondant dans la liste d’éléments est mis en surbrillance.</td>
+| Menu | Commande | Description | 
+|------|---------|-------------|
+| <strong>File</strong> | <strong>Quitter</strong> | Quittez la vérification de Visual UIA. | 
+| <strong>Visualiser</strong> | <strong>Mettre en surbrillance</strong> | Mettez en surbrillance le rectangle englobant de l’élément sélectionné dans le volet de l' <strong>arborescence éléments Automation</strong> . Les options suivantes sont disponibles.<ul><li><strong>Rectangle</strong>: ligne rouge pleine.</li><li><strong>Rectangle de fondu</strong>: ligne rouge pleine qui disparaît après quelques secondes.</li><li><strong>Rayons et rectangle</strong>: trait rouge plein avec des lignes de surbrillance bleue supplémentaires qui rayonnent à partir de chaque angle du rectangle englobant.</li><li><strong>None</strong>: aucune mise en surbrillance visible.</li></ul> | 
+| <strong>Arborescence des éléments d’automatisation</strong>$ {Remove} $<br /> | <strong>Actualiser l’élément sélectionné</strong> | Actualise les enfants de l’élément sélectionné dans le volet d' <strong>arborescence éléments Automation</strong> . La liste d’éléments est statique et n’est pas actualisée dynamiquement (automatiquement) si l’arborescence d’éléments change. | 
+| <strong>Navigation</strong> | Naviguez dans la hiérarchie de l’arborescence d’éléments jusqu’à l’un des éléments suivants.<ul><li><strong>Parent</strong>: accéder à l’élément parent.</li><li><strong>Premier enfant</strong>: accéder au premier élément enfant.</li><li><strong>Frère suivant</strong>: accédez au premier élément frère.</li><li><strong>Frère précédent</strong>: accède à l’élément frère précédent.</li><li><strong>Dernier enfant</strong>: accéder au dernier élément enfant.</li></ul> | 
+| <strong>Mode</strong>$ {Remove} $<br /> | <strong>Always On haut</strong> | La fenêtre de vérification du décodeur Visual UIA reste en haut de l’ordre de plan du bureau. | 
+| <strong>Mode sensitif (utilisez Ctrl)</strong> | Quand la touche CTRL est enfoncée, l’élément sous le curseur de la souris est identifié comme étant l’élément concerné. Le volet d' <strong>arborescence éléments Automation</strong> est actualisé et l’élément correspondant dans la liste d’éléments est mis en surbrillance. | 
+| <strong>Focus, suivi</strong> | Au fur et à mesure que le focus change, l’élément ayant le focus est identifié comme l’élément d’intérêt. Le volet d' <strong>arborescence éléments Automation</strong> est actualisé et l’élément correspondant dans la liste d’éléments est mis en surbrillance. | 
+| <strong>Tests</strong>$ {Remove} $<br /> | <strong>Aller à gauche</strong> | Déplacer un nœud vers la gauche dans l’arborescence des <strong>tests</strong> . | 
+| <strong>Monter</strong> | Déplacer un nœud vers le haut dans l’arborescence des <strong>tests</strong> . | 
+| <strong>Descendre</strong> | Déplacer un nœud vers le dessous dans l’arborescence des <strong>tests</strong> . | 
+| <strong>Aller à droite</strong> | Déplacer un nœud vers la droite dans l’arborescence <strong>tests</strong> . | 
+| <strong>Exécuter le ou les tests sélectionnés sur l’élément sélectionné</strong> | Exécuter les tests sélectionnés à partir de l’arborescence <strong>tests</strong> sur l’élément sélectionné. | 
+| <strong>Filtrer les problèmes connus</strong> | Filtrez les bogues UI Automation connus des résultats des tests. | 
+| <strong>Aide</strong> | <strong>À propos de la vérification de l’interface utilisateur Visual Automation</strong> | Affichez la version du logiciel et les informations de copyright pour Visual UIA Verify. | 
 
-</tr>
-<tr class="odd">
-<td><strong>Focus, suivi</strong></td>
-<td>Au fur et à mesure que le focus change, l’élément ayant le focus est identifié comme l’élément d’intérêt. Le volet d' <strong>arborescence éléments Automation</strong> est actualisé et l’élément correspondant dans la liste d’éléments est mis en surbrillance.</td>
-
-</tr>
-<tr class="even">
-<td rowspan="6"><strong>Tests</strong>$ {Remove} $<br />
-</td>
-<td><strong>Aller à gauche</strong></td>
-<td>Déplacer un nœud vers la gauche dans l’arborescence des <strong>tests</strong> .</td>
-</tr>
-<tr class="odd">
-<td><strong>Monter</strong></td>
-<td>Déplacer un nœud vers le haut dans l’arborescence des <strong>tests</strong> .</td>
-
-</tr>
-<tr class="even">
-<td><strong>Descendre</strong></td>
-<td>Déplacer un nœud vers le dessous dans l’arborescence des <strong>tests</strong> .</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Aller à droite</strong></td>
-<td>Déplacer un nœud vers la droite dans l’arborescence <strong>tests</strong> .</td>
-
-</tr>
-<tr class="even">
-<td><strong>Exécuter le ou les tests sélectionnés sur l’élément sélectionné</strong></td>
-<td>Exécuter les tests sélectionnés à partir de l’arborescence <strong>tests</strong> sur l’élément sélectionné.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Filtrer les problèmes connus</strong></td>
-<td>Filtrez les bogues UI Automation connus des résultats des tests.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Aide</strong></td>
-<td><strong>À propos de la vérification de l’interface utilisateur Visual Automation</strong></td>
-<td>Affichez la version du logiciel et les informations de copyright pour Visual UIA Verify.</td>
-</tr>
-</tbody>
-</table>
 
 
 

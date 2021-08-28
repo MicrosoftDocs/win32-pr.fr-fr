@@ -3,7 +3,7 @@ title: Message MCM_GETMINREQRECT (commctrl. h)
 description: Récupère la taille minimale requise pour afficher un mois complet dans un contrôle Month Calendar. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal GetMinReqRect.
 ms.assetid: f0378338-4809-48e9-9387-ed8b79356f95
 keywords:
-- MCM_GETMINREQRECT les contrôles de message Windows
+- MCM_GETMINREQRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6b2e2b16a70841836a277ffe55e030a6d6a241
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 575636837b1485de62dd5e603a0dea38455c4c99926c13f3bd05101fe2a27eca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062049"
 ---
 # <a name="mcm_getminreqrect-message"></a>\_Message GETMINREQRECT MCM
 
@@ -43,7 +43,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 Retourne une valeur différente de zéro et *lParam* reçoit les informations de limite applicables en cas de réussite. Dans le cas contraire, le message retourne la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La taille de fenêtre minimale requise pour un contrôle de calendrier mensuel dépend de la police actuellement sélectionnée, des styles de contrôle, des métriques système et des paramètres régionaux. Lorsqu’une application modifie tout ce qui affecte la taille de fenêtre minimale, ou traite un message [**WM \_ SETTINGCHANGE**](/windows/desktop/winmsg/wm-settingchange) , il doit envoyer des **\_ GETMINREQRECT MCM** pour déterminer la nouvelle taille minimale.
 
@@ -60,8 +60,8 @@ Les membres **supérieurs** et **gauches** de la structure vers laquelle pointe 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

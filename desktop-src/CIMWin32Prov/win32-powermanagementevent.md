@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e0e7dfa68646dbefb6d6b70218fe99830b44a0c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 536963be51d665b03af77bb81c7592b44d2a6eb5ddc449bfa82896dd7f7da9b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064419"
 ---
 # <a name="win32_powermanagementevent-class"></a>\_Classe PowerManagementEvent Win32
 
@@ -175,7 +175,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PowerManagementEvent** est dérivée de [**\_ \_ ExtrinsicEvent**](../wmisdk/--extrinsicevent.md).
 
@@ -187,7 +187,7 @@ La classe **Win32 \_ PowerManagementEvent** peut être utilisée pour surveiller
 
 La classe **Win32 \_ PowerManagementEvent** a uniquement deux propriétés : EventType, utilisée pour indiquer le type d’événement de changement d’alimentation qui s’est produit, et OEMEventType, qui est utilisé par certains fabricants d’équipements d’origine pour définir des événements de changement d’alimentation supplémentaires.
 
-Pour plus d’informations sur la réponse aux événements d’alimentation Windows, consultez l’article [surveiller et répondre aux événements d’alimentation Windows avec PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) sur la page Bonjour ! Scripting Guy ! .
+pour plus d’informations sur la réponse aux événements d’alimentation Windows, consultez l’article [surveiller et répondre aux événements d’alimentation Windows avec PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) sur la page bonjour ! Scripting Guy ! .
 
 ## <a name="examples"></a>Exemples
 

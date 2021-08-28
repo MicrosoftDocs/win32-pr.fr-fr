@@ -4,12 +4,12 @@ ms.assetid: a3126930-2802-43c7-9e98-3a73498ac3f5
 title: Reconnaissance de base et analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9858ceedba245a733d4dc0055dd0747507654f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c4bdfa0d93c25e397caf0f116f0f47b303e9571d342825673572011534404de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111318"
 ---
 # <a name="basic-recognition-and-ink-analysis"></a>Reconnaissance de base et analyse de l’encre
 
@@ -61,7 +61,7 @@ Par conséquent, il existe deux mécanismes pour atteindre les résultats de la 
 
  
 
-Pour utiliser l’opération [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) , l’objet [**InkCollector**](inkcollector-class.md) (ou des objets ou des contrôles similaires tels que [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md)ou [InkCanvas](/dotnet/api/system.windows.controls.inkcanvas?view=netcore-3.1) dans Windows Presentation Foundation) gère la collection et le rendu des traits d’encre. Si le formulaire **InkCollector** est associé aux API d’analyse d’encre, les applications peuvent conserver les résultats de la reconnaissance à jour en informant le [**InkAnalyzer**](inkanalyzer.md) sur chaque nouveau trait ajouté à l’application. Cela permet au **InkAnalyzer** de reconnaître les traits de manière incrémentielle et sur un thread d’arrière-plan.
+pour utiliser l’opération [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) , l’objet [**InkCollector**](inkcollector-class.md) (ou des objets ou des contrôles similaires tels que [**RealTimeStylus**](realtimestylus-class.md) (RTS), [**InkOverlay**](inkoverlay-class.md)ou [InkCanvas](/dotnet/api/system.windows.controls.inkcanvas?view=netcore-3.1) dans Windows Presentation Foundation) gère la collection et le rendu des traits d’encre. Si le formulaire **InkCollector** est associé aux API d’analyse d’encre, les applications peuvent conserver les résultats de la reconnaissance à jour en informant le [**InkAnalyzer**](inkanalyzer.md) sur chaque nouveau trait ajouté à l’application. Cela permet au **InkAnalyzer** de reconnaître les traits de manière incrémentielle et sur un thread d’arrière-plan.
 
 Pour effectuer une analyse incrémentielle en arrière-plan, les applications doivent implémenter trois étapes (affichées pour le code managé) :
 
@@ -165,7 +165,7 @@ Les deux scénarios précédents (reconnaissance simple et reconnaissance incré
 
 Pour accéder aux résultats de l’analyse de l’encre, votre application utilise les méthodes [**analyze**](iinkanalyzer-analyze.md) ou [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md) exactement comme décrit dans les deux scénarios de reconnaissance précédents. Rien n’est modifié, car les algorithmes d’analyse et de reconnaissance de l’encre sont déjà en cours d’exécution lorsque ces méthodes sont appelées. Toutefois, l’accès aux résultats est plus complexe que la lecture de la valeur d’une chaîne. À titre d’exemple, l’exemple de code suivant montre le regroupement et les emplacements de tous les segments **InkWord** et **InkDrawing** en affichant un rectangle autour du groupe de traits qui composent la classification.
 
-Cet exemple utilise simplement l’événement **Paint** du formulaire pour restituer les rectangles de couleur autour des mots ou des dessins. La méthode [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) retourne une collection d’objets qui existe uniquement si l’opération d’analyse a été exécutée et les résultats contiennent des classifications avec le type [**ContextNode**](icontextnode.md) spécifié. S’il n’existe aucun **ContextNode** du type souhaité dans le document, les étapes de dessin des rectangles sont ignorées.
+cet exemple utilise simplement l’événement **Paint** du formulaire pour restituer les rectangles de couleur autour des mots ou des dessins. La méthode [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) retourne une collection d’objets qui existe uniquement si l’opération d’analyse a été exécutée et les résultats contiennent des classifications avec le type [**ContextNode**](icontextnode.md) spécifié. S’il n’existe aucun **ContextNode** du type souhaité dans le document, les étapes de dessin des rectangles sont ignorées.
 
 Chaque objet retourné par la méthode [**FindNodesOfType**](iinkanalyzer-findnodesoftype.md) aura des propriétés qui sont liées à ce type de classification. Par exemple, le **InkWordNode** fait référence à tous les traits qui composent un mot unique dans le document et référencent la chaîne reconnue pour ce mot. **InkDrawingNode** fait référence à tous les traits qui composent le dessin unique dans le document et référencent le nom de la forme pour ce dessin.
 
@@ -218,7 +218,7 @@ Si vous appelez la méthode [**FindNodesOfType**](iinkanalyzer-findnodesoftype.m
 
 ![image représentant « Oval », le résultat de l’analyseur InkDrawing](images/624b6a53-b6b9-4ccf-9bb8-c4c5629b88cf.jpg)
 
-Une fois l’événement **Paint** déclenché, l’exemple de code affiche des rectangles autour de chacun des objets :
+une fois l’événement **Paint** déclenché, l’exemple de code affiche des rectangles autour de chacun des objets :
 
 ![dessin original avec des rectangles rendus autour de l’objet et des mots](images/7fd9bcc3-8d7c-4cab-aa36-ba5ed78a25c0.jpg)
 

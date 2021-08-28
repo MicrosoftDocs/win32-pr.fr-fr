@@ -4,27 +4,27 @@ description: Cette rubrique montre comment créer un contrôle header et le posi
 ms.assetid: 094AF70C-2761-439E-A1E3-0FD04212FE87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bce9bf9d7b117f5f61766ca326b91b0d19a2c903
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6ae5bb3ae9c323d30384f5d058a61393bf6425c2a27dfe67faa9cbedd4b3289e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063199"
 ---
 # <a name="how-to-create-a-header-control"></a>Comment créer un contrôle header
 
 Cette rubrique montre comment créer un contrôle header et le positionner dans la zone cliente de la fenêtre parente. Vous pouvez créer un contrôle header à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) et en spécifiant la classe de fenêtre d' [**\_ en-tête WC**](common-control-window-classes.md) et les [styles de contrôle d’en-tête](header-control-styles.md)appropriés. Cette classe de fenêtre est inscrite lors du chargement de la DLL de contrôles communs. Pour vous assurer que cette DLL est chargée, utilisez la fonction [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

@@ -4,17 +4,17 @@ ms.assetid: ed63f448-8ca3-4733-afc0-2d743f82bebe
 title: Attribut mstart
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb637dd0c5f924a593370ceb0fb205adf5d589ea
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3c65ffcb7d3da41f3e1f1232e37a6f5786755980eb63a8bbc554bbe726f453e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050949"
 ---
 # <a name="mstart-attribute"></a>Attribut mstart
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -22,7 +22,7 @@ L' `mstart` attribut spécifie l’heure de début d’un clip, par rapport au f
 
 ## <a name="applies-to"></a>S'applique à
 
-[**clip**](clip-element.md)
+[**capture**](clip-element.md)
 
 ## <a name="possible-values"></a>Valeurs possibles
 

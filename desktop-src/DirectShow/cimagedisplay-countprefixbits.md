@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4333e1b0826b4fac7bfff463531b5d2e10704418
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 510ac01baab55fbf45e3441296018426335a8f50061f06400872fd7275d3e273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108479"
 ---
 # <a name="cimagedisplaycountprefixbits-method"></a>Méthode CImageDisplay. CountPrefixBits
 
@@ -53,7 +53,7 @@ Spécifie un champ de bits comme valeur **DWORD** .
 
 Retourne le nombre de bits zéro qui se produisent avant le premier bit 1, ou 0x80000000 si tous les bits sont nuls.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utile pour utiliser des masques de couleur dans les structures [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) .
 
@@ -63,7 +63,7 @@ Cette méthode est utile pour utiliser des masques de couleur dans les structure
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

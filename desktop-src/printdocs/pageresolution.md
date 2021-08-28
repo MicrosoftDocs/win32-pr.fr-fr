@@ -4,12 +4,12 @@ ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: PageResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 760384ff900e7b35e37105fdb19e3635a434aa5a
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 8c7f8768c7edbdb650e068734302add4dfa843b8b16db404bea5fbc50cb37e9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112289"
 ---
 # <a name="pageresolution"></a>PageResolution
 

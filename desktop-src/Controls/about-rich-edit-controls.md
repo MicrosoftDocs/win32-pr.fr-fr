@@ -4,12 +4,12 @@ description: Cette section présente les contrôles RichEdit.
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d528ceff19bfc1e377bf8297b40a7495fc92385e49b57724b6a81902a5ec499
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 314e41747ae0d55ca1010df31dee1522527eadb3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922399"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470196"
 ---
 # <a name="about-rich-edit-controls"></a>À propos des contrôles RichEdit
 
@@ -37,7 +37,7 @@ Le tableau suivant indique la DLL qui correspond à la version RichEdit. Notez q
 | 1.0               | Riched32.dll | RICHEDIT ( \_ classe) |
 | 2.0               | Riched20.dll | RICHEDIT ( \_ classe) |
 | 3.0               | Riched20.dll | RICHEDIT ( \_ classe) |
-| 4.1               | Msftedit.dll | QUE dans MSFTEDIT, \_ classe |
+| 4,1               | Msftedit.dll | QUE dans MSFTEDIT, \_ classe |
 
 
 
@@ -183,125 +183,9 @@ Microsoft Rich Edit 3,0 comprend les fonctionnalités suivantes en plus des fonc
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Zoom</td>
-<td>Le facteur de zoom est donné par un ratio.</td>
-</tr>
-<tr class="even">
-<td>Numérotation des paragraphes (niveau simple)</td>
-<td>Numériques, majuscules et minuscules alphabétiques, ou chiffres romains.</td>
-</tr>
-<tr class="odd">
-<td>Tables simples</td>
-<td>La suppression et l’insertion de lignes sont possibles, mais ne sont pas redimensionnées ni encapsulées dans les cellules. Une fois la typographie avancée activée (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3,0 peut aligner les colonnes centrées ou alignées à droite, et inclure des décimales. Les cellules sont simulées par des tabulations, de sorte que les onglets de texte et les retours chariot sont remplacés par des espaces.</td>
-</tr>
-<tr class="even">
-<td>Styles de titre et normal</td>
-<td>Le style normal intégré et les styles d’en-tête 1 à 9 sont pris en charge par les interfaces <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> et Tom ( <a href="text-object-model.md">Text Object Model</a> ).</td>
-</tr>
-<tr class="odd">
-<td>Autres types de soulignement</td>
-<td>Les tirets, tiret-point, tiret-point-point et point souligné ont été ajoutés.</td>
-</tr>
-<tr class="even">
-<td>Souligner les couleurs</td>
-<td>Le texte souligné peut être balisé avec l’un des 15 choix de documents pour les couleurs de soulignement.</td>
-</tr>
-<tr class="odd">
-<td>Texte masqué</td>
-<td>Marqué par l’attribut CHARFORMAT2. Pratique pour les roundtripping (écriture dans un fichier qui a été lu) des informations qui ne devraient normalement pas être affichées.</td>
-</tr>
-<tr class="even">
-<td>Autres touches d’accès rapide par défaut</td>
-<td>Ces touches d’accès rapide fonctionnent de la même façon que dans Word. Par exemple, les clés d’accentuation européenne (claviers américains uniquement). Nombre de touches d’accès rapide (CTRL + L) parcourt les options de numérotation disponibles, en commençant par la puce.</td>
-</tr>
-<tr class="odd">
-<td>IME HexToUnicode</td>
-<td>Permet à un utilisateur d’effectuer une conversion entre des valeurs hexadécimales et Unicode à l’aide de touches d’accès rapide.</td>
-</tr>
-<tr class="even">
-<td>Guillemets typographiques</td>
-<td>Cette fonctionnalité est activée et désactivée en appuyant sur CTRL + ALT + 'pour les claviers américains.</td>
-</tr>
-<tr class="odd">
-<td>Traits d’union conditionnels</td>
-<td>Pour le texte brut, utilisez 0xAD. Pour RTF, utilisez \- .</td>
-</tr>
-<tr class="even">
-<td>Curseur italique</td>
-<td>En outre, le curseur de la souris prend la forme d’une main au-dessus des URL.</td>
-</tr>
-<tr class="odd">
-<td>Option de typographie avancée</td>
-<td>Microsoft Rich Edit 3,0 peut utiliser une option de typographie avancée pour l’affichage et le saut de ligne (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). Cette option élégante a été ajoutée principalement pour faciliter la gestion des scripts complexes (bidirectionnel, Indo-aryen et thaï). En outre, un certain nombre d’améliorations ont été apportées aux scripts simples. Voici quelques exemples :
-<ul>
-<li>Tabulations au centre, à droite, décimales</li>
-<li>Texte entièrement justifié</li>
-<li>Moyenne soulignée, qui fournit un soulignement uniforme même lorsque des séquences de texte adjacentes ont des tailles de police différentes.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td> Prise en charge des scripts complexes</td>
-<td>Microsoft Rich Edit 3,0 prend en charge bidirectionnel (texte avec l’arabe et/ou l’hébreu mélangé à d’autres scripts), Indo-aryen (scripts Indiens comme Devangari) et le texte thaï. Pour la prise en charge de ces scripts complexes, la typographie avancée et les composants Uniscribe sont utilisés.</td>
-</tr>
-<tr class="odd">
-<td>Liaison de police</td>
-<td>Microsoft Rich Edit 3,0 choisit automatiquement une police appropriée pour les caractères qui n’appartiennent pas clairement à l’horodatage du jeu de caractères actuel. Pour ce faire, vous pouvez affecter des jeux de caractères à des séquences de texte et associer des polices à ces jeux de caractères. Pour plus d’informations, consultez <a href="using-rich-edit-controls.md">liaison de polices</a>.</td>
-</tr>
-<tr class="even">
-<td>Options de lecture/écriture de texte brut spécifiques aux jeux de caractères</td>
-<td>Cela permet de lire un fichier à l’aide d’un jeu de caractères et d’écrire avec un jeu de caractères différent.</td>
-</tr>
-<tr class="odd">
-<td>FORMAT RTF UTF-8</td>
-<td>Cela est recommandé pour couper, copier et coller des opérations. Ce format de fichier est plus compact que le format RTF ordinaire, plus rapide et compatible avec Unicode.</td>
-</tr>
-<tr class="even">
-<td>prise en charge d’IME Microsoft Office 9 (IME98)</td>
-<td>Cette fonctionnalité IME plus puissante a été divisée en un module indépendant. Voici quelques fonctionnalités :
-<ul>
-<li>Reconversion dans les versions antérieures, l’utilisateur devait d’abord supprimer la chaîne finale, puis taper une nouvelle chaîne pour accéder au candidat correct. Cette nouvelle fonctionnalité permet à l’utilisateur de reconvertir la chaîne finale en mode composition, ce qui permet de sélectionner facilement une chaîne candidate différente.<br/></li>
-<li>Flux de document cette fonctionnalité fournit à IME98 le texte du paragraphe actuel, ce qui aide IME98 à effectuer une conversion plus précise pendant la saisie.<br/></li>
-<li>Opération de la souris cette fonctionnalité fournit un meilleur contrôle sur les fenêtres candidates et d’interface utilisateur lors de la saisie.<br/></li>
-<li>Position du signe insertion cette fonctionnalité fournit le signe insertion et les informations de ligne actuelles, que IME98 utilise pour positionner les fenêtres d’interface utilisateur (par exemple, une liste de candidats).<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Prise en charge du gestionnaire des méthodes d’entrée (IMM) active</td>
-<td>Les utilisateurs peuvent appeler l’objet IMM actif, qui permet aux utilisateurs d’entrer des caractères asiatiques sur les systèmes américains.</td>
-</tr>
-<tr class="even">
-<td>Support HexToUnicode</td>
-<td>Les utilisateurs peuvent effectuer une conversion entre la notation hexadécimale et Unicode à l’aide de touches d’accès rapide.</td>
-</tr>
-<tr class="odd">
-<td>Plus de roundtripping RTF</td>
-<td>Le texte RTF lu à partir d’un fichier est écrit de façon inchangée.</td>
-</tr>
-<tr class="even">
-<td>Mode de compatibilité 1,0 amélioré</td>
-<td>Microsoft Rich Edit 3,0 peut émuler le comportement de Microsoft Rich Edit 1,0. Par exemple, il est possible de changer entre les mappages MBCS et les mappages de position de caractère Unicode (CP).</td>
-</tr>
-<tr class="odd">
-<td>Contrôle de blocage accru</td>
-<td>L’affichage peut être figé sur plusieurs appels d’API, puis non figé pour afficher les mises à jour.</td>
-</tr>
-<tr class="even">
-<td>Contrôle d’annulation accru</td>
-<td>L’annulation peut être suspendue et reprise (une condition requise pour l’IME).</td>
-</tr>
-<tr class="odd">
-<td>Augmenter/diminuer la taille de police</td>
-<td>Augmente ou réduit la taille de police à l’une des six valeurs standard (12, 28, 36, 48, 72 et 80 points).</td>
-</tr>
-</tbody>
-</table>
+
+| | | Zoom | Le facteur de zoom est donné par un ratio. | | Numérotation des paragraphes (niveau simple) | Numériques, majuscules et minuscules alphabétiques, ou chiffres romains. | | Tables simples | La suppression et l’insertion de lignes sont possibles, mais ne sont pas redimensionnées ni encapsulées dans les cellules. Une fois la typographie avancée activée (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3,0 peut aligner les colonnes centrées ou alignées à droite, et inclure des décimales. Les cellules sont simulées par des tabulations, de sorte que les onglets de texte et les retours chariot sont remplacés par des espaces. | | Styles de titre et normal | Le style normal intégré et les styles d’en-tête 1 à 9 sont pris en charge par les interfaces <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> et Tom ( <a href="text-object-model.md">Text Object Model</a> ). | | Autres types de soulignement | Les tirets, tiret-point, tiret-point-point et point souligné ont été ajoutés. | | Souligner les couleurs | Le texte souligné peut être balisé avec l’un des 15 choix de documents pour les couleurs de soulignement. | | Texte masqué | Marqué par l’attribut CHARFORMAT2. Pratique pour les roundtripping (écriture dans un fichier qui a été lu) des informations qui ne devraient normalement pas être affichées. | | Autres touches d’accès rapide par défaut | Ces touches d’accès rapide fonctionnent de la même façon que dans Word. Par exemple, les clés d’accentuation européenne (claviers américains uniquement). Nombre de touches d’accès rapide (CTRL + L) parcourt les options de numérotation disponibles, en commençant par la puce. | | IME HexToUnicode | Permet à un utilisateur d’effectuer une conversion entre des valeurs hexadécimales et Unicode à l’aide de touches d’accès rapide. | | Guillemets typographiques | Cette fonctionnalité est activée et désactivée en appuyant sur CTRL + ALT + 'pour les claviers américains. | | Traits d’union conditionnels | Pour le texte brut, utilisez 0xAD. Pour RTF, utilisez \- . | | Curseur en italique | En outre, le curseur de la souris prend la forme d’une main au-dessus des URL. | | Option de typographie avancée | Microsoft Rich Edit 3,0 peut utiliser une option de typographie avancée pour l’affichage et le saut de ligne (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). Cette option élégante a été ajoutée principalement pour faciliter la gestion des scripts complexes (bidirectionnel, Indo-aryen et thaï). En outre, un certain nombre d’améliorations ont été apportées aux scripts simples. Voici quelques exemples :<ul><li>Tabulations au centre, à droite, décimales</li><li>Texte entièrement justifié</li><li>Moyenne soulignée, qui fournit un soulignement uniforme même lorsque des séquences de texte adjacentes ont des tailles de police différentes.</li></ul> | | Prise en charge des scripts complexes | Microsoft Rich Edit 3,0 prend en charge bidirectionnel (texte avec l’arabe et/ou l’hébreu mélangé à d’autres scripts), Indo-aryen (scripts Indiens comme Devangari) et le texte thaï. Pour la prise en charge de ces scripts complexes, la typographie avancée et les composants Uniscribe sont utilisés. | | Liaison de police | Microsoft Rich Edit 3,0 choisit automatiquement une police appropriée pour les caractères qui n’appartiennent pas clairement à l’horodatage du jeu de caractères actuel. Pour ce faire, vous pouvez affecter des jeux de caractères à des séquences de texte et associer des polices à ces jeux de caractères. Pour plus d’informations, consultez <a href="using-rich-edit-controls.md">liaison de polices</a>. | | Options de lecture/écriture de texte brut spécifiques aux jeux de caractères | Cela permet de lire un fichier à l’aide d’un jeu de caractères et d’écrire avec un jeu de caractères différent. | | FORMAT RTF UTF-8 | Cela est recommandé pour couper, copier et coller des opérations. Ce format de fichier est plus compact que le format RTF ordinaire, plus rapide et compatible avec Unicode. | | prise en charge d’IME Microsoft Office 9 (IME98) | Cette fonctionnalité IME plus puissante a été divisée en un module indépendant. Voici quelques fonctionnalités :<ul><li>Reconversion dans les versions antérieures, l’utilisateur devait d’abord supprimer la chaîne finale, puis taper une nouvelle chaîne pour accéder au candidat correct. Cette nouvelle fonctionnalité permet à l’utilisateur de reconvertir la chaîne finale en mode composition, ce qui permet de sélectionner facilement une chaîne candidate différente.<br /></li><li>Flux de document cette fonctionnalité fournit à IME98 le texte du paragraphe actuel, ce qui aide IME98 à effectuer une conversion plus précise pendant la saisie.<br /></li><li>Opération de la souris cette fonctionnalité fournit un meilleur contrôle sur les fenêtres candidates et d’interface utilisateur lors de la saisie.<br /></li><li>Position du signe insertion cette fonctionnalité fournit le signe insertion et les informations de ligne actuelles, que IME98 utilise pour positionner les fenêtres d’interface utilisateur (par exemple, une liste de candidats).<br /></li></ul> | | Prise en charge du gestionnaire des méthodes d’entrée (IMM) active | Les utilisateurs peuvent appeler l’objet IMM actif, qui permet aux utilisateurs d’entrer des caractères asiatiques sur les systèmes américains. | | Support HexToUnicode | Les utilisateurs peuvent effectuer une conversion entre la notation hexadécimale et Unicode à l’aide de touches d’accès rapide. | | Plus de roundtripping RTF | Le texte RTF lu à partir d’un fichier est écrit de façon inchangée. | | Mode de compatibilité 1,0 amélioré | Microsoft Rich Edit 3,0 peut émuler le comportement de Microsoft Rich Edit 1,0. Par exemple, il est possible de changer entre les mappages MBCS et les mappages de position de caractère Unicode (CP). | | Contrôle de blocage accru | L’affichage peut être figé sur plusieurs appels d’API, puis non figé pour afficher les mises à jour. | | Contrôle d’annulation accru | L’annulation peut être suspendue et reprise (une condition requise pour l’IME). | | Augmenter/diminuer la taille de police | Augmente ou réduit la taille de police à l’une des six valeurs standard (12, 28, 36, 48, 72 et 80 points). | 
+
 
 
 
@@ -315,71 +199,9 @@ Microsoft Rich Edit 4,1 comprend les fonctionnalités suivantes en plus des fonc
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Coupure</td>
-<td>La césure est prise en charge via les API suivantes : <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>et <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>.</td>
-</tr>
-<tr class="even">
-<td>Rotation de page</td>
-<td>La disposition de haut en bas et de bas en haut est prise en charge via <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> et <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>Prise en charge de Text Services Framework</td>
-<td><ul>
-<li>Pour activer TSF et certaines fonctionnalités TSF, utilisez les styles suivants dans <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING et SES_CTFALLOWSMARTTAG.</li>
-<li>Pour définir et récupérer le biais du mode TSF, utilisez <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> et <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>.</li>
-<li>Pour définir et afficher l’état du clavier TSF, utilisez <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> et <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Prise en charge des IME supplémentaires</td>
-<td><ul>
-<li>Pour définir et récupérer le biais du mode IME, utilisez <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> et <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>.</li>
-<li>Pour afficher les propriétés et les fonctionnalités de l’IME, utilisez <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>.</li>
-<li>Pour afficher le texte de composition IME, utilisez <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>.</li>
-<li>Pour déterminer si les paramètres régionaux sont des paramètres régionaux d’Extrême-Orient, utilisez <a href="em-isime.md"><strong>EM_ISIME</strong></a>.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Paramètres de <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> supplémentaires</td>
-<td>Outre les paramètres TSF, de nouveaux paramètres excluent les IME, définissent le texte bidirectionnel, utilisent des polices draftmode et bien plus encore.</td>
-</tr>
-<tr class="even">
-<td>Paramètres de <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> supplémentaires</td>
-<td>Les nouveaux indicateurs permettent au client de définir la police et la taille de police par défaut pour un LCID ou un jeu de caractères donné, de définir la police par défaut pour le contrôle, d’empêcher la mise en correspondance de la police par le clavier, et bien plus encore.</td>
-</tr>
-<tr class="odd">
-<td>Restriction de l’entrée au texte ANSI</td>
-<td>L’utilisation de <a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a> dans <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> empêche l’entrée Unicode d’entrer dans un contrôle RichEdit.</td>
-</tr>
-<tr class="even">
-<td>Notification de mot clé RTF non prise en charge</td>
-<td><a href="en-lowfirtf.md">EN_LOWFIRTF</a> avertit une application lorsqu’il existe un mot clé RTF non pris en charge.</td>
-</tr>
-<tr class="odd">
-<td>Prise en charge de langages supplémentaires</td>
-<td>Les autres langages sont les suivants : arménien, maldivien, télougou, etc.</td>
-</tr>
-<tr class="even">
-<td>Prise en charge améliorée des tables</td>
-<td>Les fonctionnalités incluent : l’habillage dans les cellules, la gestion améliorée via RTF et la navigation améliorée.</td>
-</tr>
-<tr class="odd">
-<td>ES_VERTICAL</td>
-<td>Le style de fenêtre <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> est pris en charge.</td>
-</tr>
-<tr class="even">
-<td>Support <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a></td>
-<td>Pour envoyer ou poster des caractères Unicode vers des fenêtres ANSI, utilisez <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. Elle est équivalente à <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, mais elle utilise (UTF)-32.</td>
-</tr>
-</tbody>
-</table>
+
+| | | Césure | La césure est prise en charge via les API suivantes : <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>et <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>. | | Rotation de page | La disposition de haut en bas et de bas en haut est prise en charge via <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> et <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>. | | Prise en charge de Text Services Framework | <ul><li>Pour activer TSF et certaines fonctionnalités TSF, utilisez les styles suivants dans <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING et SES_CTFALLOWSMARTTAG.</li><li>Pour définir et récupérer le biais du mode TSF, utilisez <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> et <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>.</li><li>Pour définir et afficher l’état du clavier TSF, utilisez <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> et <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li></ul> | | Prise en charge des IME supplémentaires | <ul><li>Pour définir et récupérer le biais du mode IME, utilisez <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> et <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>.</li><li>Pour afficher les propriétés et les fonctionnalités de l’IME, utilisez <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>.</li><li>Pour afficher le texte de composition IME, utilisez <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>.</li><li>Pour déterminer si les paramètres régionaux sont des paramètres régionaux d’Extrême-Orient, utilisez <a href="em-isime.md"><strong>EM_ISIME</strong></a>.</li></ul> | | Paramètres de <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> supplémentaires | Outre les paramètres TSF, de nouveaux paramètres excluent les IME, définissent le texte bidirectionnel, utilisent des polices draftmode et bien plus encore. | | Paramètres de <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> supplémentaires | Les nouveaux indicateurs permettent au client de définir la police et la taille de police par défaut pour un LCID ou un jeu de caractères donné, de définir la police par défaut pour le contrôle, d’empêcher la mise en correspondance de la police par le clavier, et bien plus encore. | | Restriction de l’entrée au texte ANSI | L’utilisation de <a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a> dans <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> empêche l’entrée Unicode d’entrer dans un contrôle RichEdit. | | Notification de mot clé RTF non prise en charge | <a href="en-lowfirtf.md">EN_LOWFIRTF</a> avertit une application lorsqu’il existe un mot clé RTF non pris en charge. | | Prise en charge linguistique supplémentaire | Les autres langages sont les suivants : arménien, maldivien, télougou, etc. | | Amélioration de la prise en charge des tables | Les fonctionnalités incluent : l’habillage dans les cellules, la gestion améliorée via RTF et la navigation améliorée. | | ES_VERTICAL | Le style de fenêtre <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> est pris en charge. | | Support <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a> | Pour envoyer ou poster des caractères Unicode vers des fenêtres ANSI, utilisez <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. Elle est équivalente à <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, mais elle utilise (UTF)-32. | 
+
 
 
 
@@ -419,7 +241,7 @@ Les contrôles RichEdit prennent en charge les touches de raccourci suivantes.
 
 
 
-| Keys                      | Opérations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
+| Keys                      | Operations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Maj + Retour arrière           | Générer un LRM/LRM sur un clavier bidirectionnel                                                                                                    | Spécifique à BiDi                                                                                                                                                                                                                  |
 | Ctrl+Tab                  | Onglet                                                                                                                                      |                                                                                                                                                                                                                                |

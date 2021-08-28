@@ -4,18 +4,18 @@ ms.assetid: efe6e8d7-2465-4374-8c99-a410091f8d46
 title: 'Création d’une chronologie : exemple de code'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 877bd79b055171dfa5bd12cff0ae257d60e76a16
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 614d6e2dfa676b09bac2cc9c81fd67c795d73f61df2df4b603307943ac0ada71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106512875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108229"
 ---
 # <a name="creating-a-timeline-example-code"></a>Création d’une chronologie : exemple de code
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-L’exemple de code suivant montre comment créer et afficher un aperçu d’une chronologie dans les [services de modification DirectShow](directshow-editing-services.md).
+l’exemple de code suivant montre comment créer et afficher un aperçu d’une chronologie dans [DirectShow Services d’édition](directshow-editing-services.md).
 
 > [!Note]  
 > Par souci de concision, l’exemple de code n’effectue aucune vérification des erreurs. Dans une application réelle, vous devez vérifier les valeurs de retour des appels de méthode pour vous assurer qu’aucun n’a échoué.

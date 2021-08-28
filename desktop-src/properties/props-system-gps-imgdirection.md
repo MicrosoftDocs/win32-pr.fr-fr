@@ -4,12 +4,12 @@ ms.assetid: 6280a3d2-05df-44ff-928f-537d74aca0bb
 title: System. GPS. ImgDirection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc4455a305c362bc04ac69613624efc485761ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 769734381c901c208f1d56e655ad469f9375539c500c5c57f23e67155cdeb6b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091249"
 ---
 # <a name="systemgpsimgdirection"></a>System. GPS. ImgDirection
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

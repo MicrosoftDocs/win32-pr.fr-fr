@@ -7,12 +7,12 @@ MSHAttr:
 title: IPType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a7823fc62bea228ec2a1f7e50629d74ce29dde3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 78e839178cbd37b0172c093dba3cdf276420e2f2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988752"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469666"
 ---
 # <a name="span-idwwan_profile_v4element_iptypespanmbnprofileextiptype-v4"></a><span id="WWAN_profile_v4.element_IPType"></span>MBNProfileExt \/ ... \/ IPType (v4)
 
@@ -73,9 +73,7 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

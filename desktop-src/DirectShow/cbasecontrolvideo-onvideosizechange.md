@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 37caa05d164c23484c749730796d6a5f10d67d57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 689f6f14426d88270136d6cc3687f9e214b72d6e42e2af44f3d189510d61f327
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076689"
 ---
 # <a name="cbasecontrolvideoonvideosizechange-method"></a>Méthode CBaseControlVideo. OnVideoSizeChange
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un convertisseur vidéo doit appeler cette fonction membre chaque fois que la taille de la vidéo est modifiée ; elle est généralement appelée une fois après la connexion initiale. Si le convertisseur peut prendre en charge des modifications de format dynamiques (de 320 x 240 à 160 x 120), il doit également l’appeler après chaque modification.
 
@@ -65,7 +65,7 @@ Un convertisseur vidéo doit appeler cette fonction membre chaque fois que la ta
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

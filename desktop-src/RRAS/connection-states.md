@@ -4,12 +4,12 @@ description: Pendant le processus de connexion à un serveur distant, le gestion
 ms.assetid: 7a8b0086-308b-47d2-888e-69ff473c6015
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df4488cc020a8a1b2a7da93384a4a5be1edb5182
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d9e52e1e4ea4a071f6606681aa2dc2fc15e88df659f8fd16746abf2d84727d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074219"
 ---
 # <a name="connection-states"></a>États de connexion
 
@@ -40,6 +40,6 @@ Les États des terminaux se produisent lorsque la connexion a été établie ave
 
 Un client RAS peut utiliser plusieurs mécanismes pour déterminer l’état actuel d’une opération de connexion. Lorsqu’un client RAS exécute la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) de manière asynchrone, le gestionnaire de connexions d’accès à distance envoie des notifications de progression au [Gestionnaire de notification](notification-handlers.md) du client chaque fois que l’état de la connexion change. En outre, le client peut utiliser la fonction [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa) pour connaître l’état actuel de toute opération de connexion RAS.
 
- 
+ 
 
- 
+ 

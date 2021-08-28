@@ -6,12 +6,12 @@ keywords:
 - AriaContainerWithoutActiveDescendantKeyboardAccessiblityId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9e30e0194f156426e2b61aa774ac1f3e0f5b91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30b653ac3bf2dc8254b25c52a89cdb3503b89b9f05997a3ea9fb4f4ef3a77cb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071879"
 ---
 # <a name="aria-container-role-without-active-descendant-keyboard-accessibility-error"></a>Rôle de conteneur ARIA (sans descendant actif) erreur d’accessibilité du clavier
 
@@ -21,7 +21,7 @@ L’élément est un conteneur pouvant être actif sans descendant actif défini
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -31,7 +31,7 @@ Cette erreur indique qu’un élément conteneur qui n’a pas l’attribut **Ar
 
 Pour corriger cette erreur, définissez un gestionnaire d’événements **keyverse**, **KeyUp** ou **KeyPress** pour le conteneur ou l’un de ses éléments enfants.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 
 ```HTML
@@ -78,9 +78,9 @@ Pour corriger cette erreur, définissez un gestionnaire d’événements **keyve
 [Erreur d’accessibilité du clavier du rôle de conteneur ARIA](aria-container-keyboard-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

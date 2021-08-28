@@ -4,12 +4,12 @@ ms.assetid: e5cdd066-e25a-4107-9523-5611bd792372
 title: MFPKEY_LOOKAHEAD, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1a024c4d0be6ef7ab16c4bf51f290b01de3282b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa5b11abbacc19a4a66dda785d628b1f5d67f636a0f02c7392402ad64a7c3926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113329"
 ---
 # <a name="mfpkey_lookahead-property"></a>\_Propriété de préanalyse MFPKEY
 
@@ -27,11 +27,11 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le codec utilise la préanalyse, il peut encoder la vidéo plus efficacement.
 
-L’objet Writer du kit de développement logiciel (SDK) Windows Media format s’attend à ce que le codec Encode chaque exemple immédiatement. Par conséquent, cette fonctionnalité ne fonctionne pas correctement dans les logiciels qui utilisent l’objet Writer (y compris Windows Media Encoder et Windows Media Player). Toutes les extensions d’unité de données associées aux images vidéo sont attachées à une trame de sortie incorrecte. Le nombre de frames par lequel les extensions d’unité de données sont mal placées est égal au nombre de trames de la préanalyse utilisées.
+l’objet writer de Windows Media Format SDK s’attend à ce que le codec encode chaque exemple immédiatement. par conséquent, cette fonctionnalité ne fonctionne pas correctement dans les logiciels qui utilisent l’objet writer (y compris Windows encodeur multimédia et Lecteur Windows Media). Toutes les extensions d’unité de données associées aux images vidéo sont attachées à une trame de sortie incorrecte. Le nombre de frames par lequel les extensions d’unité de données sont mal placées est égal au nombre de trames de la préanalyse utilisées.
 
 Les valeurs de préanalyse valides sont comprises entre 0 et 16 frames. La valeur recommandée est 16.
 
@@ -41,8 +41,8 @@ Les valeurs de préanalyse valides sont comprises entre 0 et 16 frames. La valeu
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

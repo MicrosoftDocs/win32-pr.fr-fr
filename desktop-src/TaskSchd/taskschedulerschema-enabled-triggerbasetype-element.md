@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42b495ba1af5f3b9b99034b0d6ca9d02040460c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc7ecfb58425533234637708e6c5610f3a84cdaf8e2058d088a68e3c0c707384
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072499"
 ---
 # <a name="enabled-triggerbasetype-element"></a>Élément Enabled (triggerBaseType)
 
@@ -48,7 +48,7 @@ L’élément **activé** est défini par le type complexe [**triggerBaseType**]
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, ces informations sont accessibles par le biais de la propriété [**déclencheur. Enabled**](trigger-enabled.md) qui est héritée par tous les objets déclencheurs.
 
@@ -60,8 +60,8 @@ Pour le développement C++, ces informations sont accessibles via la propriété
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

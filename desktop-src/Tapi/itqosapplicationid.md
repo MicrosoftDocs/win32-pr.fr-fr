@@ -4,16 +4,16 @@ ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
 title: Interface ITQOSApplicationID (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23df8da80798cc52ecd73b4f29288812f3774d9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d4067d7a476e2a402c278b22dcee21b6542919396178350e73017d56ba92258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126279"
 ---
 # <a name="itqosapplicationid-interface"></a>Interface ITQOSApplicationID
 
-\[ Cette interface n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette interface n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITQOSApplicationID** expose une méthode qui permet à une application d’obtenir l’identificateur de QoS pour l’appel en cours.
 

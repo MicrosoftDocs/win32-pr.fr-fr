@@ -4,12 +4,12 @@ ms.assetid: b2c71e16-abd5-465c-a420-5b7675382025
 title: MFPKEY_RESIZE_GEOMAPX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 439e99c2b3f0f0774e2a45087f04a0a7ceba76e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f35bc58f9d7cf63fb30b7d5a50aae35f71d013a01dc14f1be14cd69f29d1eaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113239"
 ---
 # <a name="mfpkey_resize_geomapx-property"></a>MFPKEY \_ REdimensionner la \_ propriété GEOMAPX
 
@@ -27,7 +27,7 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur est un nombre réel à virgule fixe. La partie entière du nombre est stockée dans les 2 octets supérieurs et la partie fractionnaire est stockée dans les 2 octets inférieurs.
 
@@ -37,8 +37,8 @@ La valeur est un nombre réel à virgule fixe. La partie entière du nombre est 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

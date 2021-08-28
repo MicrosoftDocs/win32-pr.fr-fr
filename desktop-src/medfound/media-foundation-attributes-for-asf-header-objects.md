@@ -4,12 +4,12 @@ ms.assetid: 82d2bdeb-4ccf-4713-980e-59bddc7d9b6a
 title: Attributs Media Foundation pour les objets d’en-tête ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db74ccb03536c7766dd7e1564119edbd41d5dbe
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 426f0125373000c370f848239717b00aa2615fc16faa84270236704e124cb3bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061179"
 ---
 # <a name="media-foundation-attributes-for-asf-header-objects"></a>Attributs Media Foundation pour les objets d’en-tête ASF
 
@@ -41,7 +41,7 @@ Cet objet d’en-tête est présent dans tous les fichiers ASF. Ces champs décr
 
 ## <a name="stream-properties-object"></a>Objet de propriétés de flux
 
-Cet objet d’en-tête décrit les propriétés des flux dans le fichier ASF. Dans Media Foundation, il est géré par l’objet de profil et l’objet de configuration de flux. Pour plus d’informations, consultez [création et configuration de flux ASF](creating-and-configuring-asf-streams.md).
+Cet objet d’en-tête décrit les propriétés des flux dans le fichier ASF. Dans Media Foundation, il est géré par l’objet de profil et l’objet de configuration de flux. Pour plus d’informations, consultez [création et configuration d’flux ASF](creating-and-configuring-asf-streams.md).
 
 ## <a name="codec-list-object"></a>Objet de liste de codecs
 
@@ -80,11 +80,11 @@ Cet objet d’en-tête est présent si le fournisseur de contenu a protégé le 
 
 ## <a name="extended-content-encryption-object"></a>Objet de chiffrement de contenu étendu
 
-Cet objet d’en-tête est présent si le fournisseur de contenu a protégé le contenu à l’aide du kit de développement logiciel (SDK) Windows Media Rights Manager 7. L’attribut d' [**\_ \_ \_ \_ \_ URL de licence CONTENTENCRYPTION pour MF PD ASF**](mf-pd-asf-contentencryption-license-url-attribute.md) fournit un tableau d’octets qui correspond au champ de données de l’objet d’en-tête. Ce champ est obligatoire pour utiliser le contenu.
+cet objet d’en-tête est présent si le fournisseur de contenu a protégé le contenu à l’aide du kit de développement logiciel (SDK) Windows Media Rights Manager 7. L’attribut d' [**\_ \_ \_ \_ \_ URL de licence CONTENTENCRYPTION pour MF PD ASF**](mf-pd-asf-contentencryption-license-url-attribute.md) fournit un tableau d’octets qui correspond au champ de données de l’objet d’en-tête. Ce champ est obligatoire pour utiliser le contenu.
 
 ## <a name="extended-stream-properties-object"></a>Objet de propriétés de flux étendu
 
-Cet en-tête fait partie de l’objet d’extension d’en-tête. L’objet de propriétés de flux étendu fournit les propriétés du flux qui ne sont pas définies dans l’objet de propriétés de flux. Ces propriétés sont principalement utilisées pour déterminer les paramètres de « compartiment perdu », qui sont utilisés par le décodeur. Ces propriétés sont également utilisées par l’encodeur lors de la compression des données. Cela est géré par l’objet de profil et l’objet de configuration de flux. Pour plus d’informations, consultez [création et configuration de flux ASF](creating-and-configuring-asf-streams.md).
+Cet en-tête fait partie de l’objet d’extension d’en-tête. L’objet de propriétés de flux étendu fournit les propriétés du flux qui ne sont pas définies dans l’objet de propriétés de flux. Ces propriétés sont principalement utilisées pour déterminer les paramètres de « compartiment perdu », qui sont utilisés par le décodeur. Ces propriétés sont également utilisées par l’encodeur lors de la compression des données. Cela est géré par l’objet de profil et l’objet de configuration de flux. Pour plus d’informations, consultez [création et configuration d’flux ASF](creating-and-configuring-asf-streams.md).
 
 Le tableau suivant répertorie les champs d’objets de propriétés de flux étendus et les attributs de descripteur de flux correspondants.
 

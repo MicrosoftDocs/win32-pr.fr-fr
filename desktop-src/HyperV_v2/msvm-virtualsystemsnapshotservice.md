@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: be84d70dd9478012e747626a9a566464d7587789
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c253cf37d2e9cfaf2dd4d5d9f6867dd22736ad8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862050"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471055"
 ---
 # <a name="msvm_virtualsystemsnapshotservice-class"></a>MSVM \_ VirtualSystemSnapshotService, classe
 
@@ -106,66 +106,19 @@ La classe **MSVM \_ VirtualSystemSnapshotService** possède ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a></td>
-<td style="text-align: left;">Applique un instantané d’ordinateur virtuel à la machine virtuelle à partir de laquelle il a été créé.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a></td>
-<td style="text-align: left;">Efface l’état de l’enregistrement d’un instantané existant.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a></td>
-<td style="text-align: left;">Convertit un instantané de système virtuel existant en un point de référence. L’instantané est supprimé comme un effet secondaire. Seuls les instantanés de récupération peuvent être convertis en points de référence.<br/>
-<blockquote>
-[!Note]<br />
-La prise en charge de cette méthode a été ajoutée dans Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a></td>
-<td style="text-align: left;">Crée une capture instantanée d’un ordinateur virtuel.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a></td>
-<td style="text-align: left;">Détruisez un instantané de machine virtuelle existant. Cette méthode peut, en tant qu’effet secondaire, détruire d’autres instantanés qui sont dépendants de l’instantané affecté.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a></td>
-<td style="text-align: left;">Supprime un instantané existant, ainsi que tous ses enfants, d’un ordinateur virtuel.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a></td>
-<td style="text-align: left;">Demande un changement d’État pour l’élément.<br/>
-<blockquote>
-[!Note]<br />
-La prise en charge de cette méthode a été ajoutée dans Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>StartService</strong></td>
-<td style="text-align: left;">Cette méthode n'est pas prise en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>StopService</strong></td>
-<td style="text-align: left;">Cette méthode n'est pas prise en charge.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a> | Applique un instantané d’ordinateur virtuel à la machine virtuelle à partir de laquelle il a été créé.<br /> | 
+| <a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a> | Efface l’état de l’enregistrement d’un instantané existant.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a> | Convertit un instantané de système virtuel existant en un point de référence. L’instantané est supprimé comme un effet secondaire. Seuls les instantanés de récupération peuvent être convertis en points de référence.<br /><blockquote>[!Note]<br />La prise en charge de cette méthode a été ajoutée dans Windows 10.</blockquote><br /> | 
+| <a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a> | Crée une capture instantanée d’un ordinateur virtuel.<br /> | 
+| <a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a> | Détruisez un instantané de machine virtuelle existant. Cette méthode peut, en tant qu’effet secondaire, détruire d’autres instantanés qui sont dépendants de l’instantané affecté.<br /> | 
+| <a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a> | Supprime un instantané existant, ainsi que tous ses enfants, d’un ordinateur virtuel.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a> | Demande un changement d’État pour l’élément.<br /><blockquote>[!Note]<br />La prise en charge de cette méthode a été ajoutée dans Windows 10.</blockquote><br /> | 
+| <strong>StartService</strong> | Cette méthode n'est pas prise en charge.<br /> | 
+| <strong>StopService</strong> | Cette méthode n'est pas prise en charge.<br /> | 
+
 
 
 
@@ -369,7 +322,7 @@ Configuration par défaut ou de démarrage d’un administrateur pour l’état 
 
 | Valeur                                                                        | Signification            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | activé<br/> |
+| <dl> <dt>2</dt> </dl> | Activé<br/> |
 
 
 
@@ -392,7 +345,7 @@ Type d'accès : Lecture seule
 
 | Valeur                                                                        | Signification            |
 |------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>2</dt> </dl> | activé<br/> |
+| <dl> <dt>2</dt> </dl> | Activé<br/> |
 
 
 
@@ -654,7 +607,7 @@ Dernier État demandé ou souhaité pour l’élément. L’état réel de l’�
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -683,7 +636,7 @@ Valeur de chaîne qui indique si le service est démarré automatiquement par un
 
 </dd> <dt>
 
-**État**
+**Statut**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -795,8 +748,8 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

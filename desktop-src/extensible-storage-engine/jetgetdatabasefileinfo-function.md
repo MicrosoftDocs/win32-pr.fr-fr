@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2ac94dd6f088a82c932aaca5b60ec16f49644f92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b19d783480a8d82485bce32689b8d49e046b0285
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524732"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623505"
 ---
 # <a name="jetgetdatabasefileinfo-function"></a>JetGetDatabaseFileInfo fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetdatabasefileinfo-function"></a>JetGetDatabaseFileInfo fonction)
 
@@ -71,8 +71,8 @@ Si la mémoire tampon *pvResult* fournie est trop petite, JET_errInvalidBufferSi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -96,12 +96,12 @@ Si la mémoire tampon *pvResult* fournie est trop petite, JET_errInvalidBufferSi
 <tr class="even">
 <td><p>JET_DbInfoDBInUse</p></td>
 <td><p><em>pvResult</em> sera interprété comme un bool (4 octets). Cela indique si le moteur de base de données a actuellement des bases de données ouvertes ou attachées.</p>
-<p><strong>Windows XP :  </strong> Cette valeur est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong> cette valeur est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_DbInfoPageSize</p></td>
 <td><p><em>pvResult</em> sera interprété comme un entier long non signé. Cela renverra la taille de page de la base de données en octets.</p>
-<p><strong>Windows XP :  </strong> Cette valeur est introduite dans Windows XP.</p></td>
+<p><strong>Windows XP :</strong> cette valeur est introduite dans Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_DbInfoCp</p></td>
@@ -125,13 +125,13 @@ Si la mémoire tampon *pvResult* fournie est trop petite, JET_errInvalidBufferSi
 </tr>
 <tr class="odd">
 <td><p>JET_DbInfoFileType</p></td>
-<td><p><strong>Windows Vista :  </strong> Cette valeur <em>InfoLevel</em> est introduite dans Windows Vista.</p>
-<p><em>pvResult</em> sera traité comme un pointeur vers une valeur DWORD. Retourne une valeur d’énumération, indiquant le type de fichier que le moteur considère comme étant. Les types de fichiers sont répertoriés dans le tableau suivant. Pour plus d’informations sur ces types de fichiers et leur utilisation pour le moteur, voir <a href="gg294069(v=exchg.10).md">fichiers ESE (Extensible Storage Engine</a>).</p>
+<td><p><strong>Windows Vista :</strong> cette valeur <em>InfoLevel</em> est introduite dans Windows Vista.</p>
+<p><em>pvResult</em> sera traité comme un pointeur vers une valeur DWORD. Retourne une valeur d’énumération, indiquant le type de fichier que le moteur considère comme étant. Les types de fichiers sont répertoriés dans le tableau suivant. pour plus d’informations sur ces types de fichiers et leur utilisation pour le moteur, consultez <a href="gg294069(v=exchg.10).md">fichiers du moteur de Stockage Extensible</a>.</p>
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,12 +171,12 @@ Si la mémoire tampon *pvResult* fournie est trop petite, JET_errInvalidBufferSi
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -217,17 +217,17 @@ Si cette fonction échoue, la mémoire tampon de sortie est dans un État indéf
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

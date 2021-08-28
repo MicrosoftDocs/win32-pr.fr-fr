@@ -4,18 +4,18 @@ ms.assetid: 404c083c-7bee-44c2-b8e7-da1901b6ab2f
 title: Initialisation One-Time
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f451e3c51716b4ff6f33b55d8d8602b5d5c28f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51e513c18be3fcce85c8d2cde16bbe11edcf6a1597bb06c37279ecaa8add6598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073079"
 ---
 # <a name="one-time-initialization"></a>Initialisation One-Time
 
 Les composants sont souvent conçus pour effectuer des tâches d’initialisation lorsqu’ils sont appelés pour la première fois, plutôt que lorsqu’ils sont chargés. Les fonctions d’initialisation ponctuelles garantissent que cette initialisation se produit une seule fois, même lorsque plusieurs threads peuvent tenter l’initialisation.
 
-**Windows Server 2003 et Windows XP :** Les applications doivent fournir leur propre synchronisation pour une initialisation unique à l’aide des [fonctions bloquées](interlocked-variable-access.md) ou d’un autre mécanisme de synchronisation. Les fonctions d’initialisation unique sont disponibles à partir de Windows Vista et de Windows Server 2008.
+**Windows Server 2003 et Windows XP :** Les applications doivent fournir leur propre synchronisation pour une initialisation unique à l’aide des [fonctions bloquées](interlocked-variable-access.md) ou d’un autre mécanisme de synchronisation. les fonctions d’initialisation à usage unique sont disponibles à partir de Windows Vista et Windows Server 2008.
 
 Les fonctions d’initialisation unique fournissent des avantages significatifs pour s’assurer qu’un seul thread effectue l’initialisation :
 

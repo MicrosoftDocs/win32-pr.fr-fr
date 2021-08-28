@@ -3,7 +3,7 @@ title: DTN_USERSTRING le code de notification (commctrl. h)
 description: Envoyé par un contrôle de sélecteur de date et heure (PAO) lorsqu’un utilisateur termine la modification d’une chaîne dans le contrôle.
 ms.assetid: a5b13582-323b-4804-912c-a988d902547d
 keywords:
-- Contrôles Windows de code de notification DTN_USERSTRING
+- DTN_USERSTRING les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4878875d23a0a5fce95aa4cc9ebfedfbdf24cb93
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6eabae4ed5a4fbe9ff0652b77fb7b6fbaf709b9030e3aa982af486ad6b7ed0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062919"
 ---
 # <a name="dtn_userstring-notification-code"></a>\_Code de notification DTN USERSTRING
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMDATETIMESTRING**](/windows/win32/api/commctrl/n
 
 Le propriétaire du contrôle doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La gestion de ce code de notification permet au propriétaire de fournir des réponses personnalisées aux chaînes entrées dans le contrôle par l’utilisateur. Le propriétaire doit être prêt à analyser la chaîne d’entrée et à agir si nécessaire.
 
@@ -61,8 +61,8 @@ La gestion de ce code de notification permet au propriétaire de fournir des ré
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **DTN \_ USERSTRINGW** (Unicode) et **DTN \_ USERSTRINGA** (ANSI)<br/>             |
 

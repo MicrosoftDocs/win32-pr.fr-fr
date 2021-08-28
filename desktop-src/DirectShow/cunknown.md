@@ -1,5 +1,5 @@
 ---
-description: La classe CUnknown implémente l’interface IUnknown. La plupart des objets COM (Component Object Model) dans DirectShow dérivent de CUnknown.
+description: La classe CUnknown implémente l’interface IUnknown. la plupart des objets COM (component Object Model) dans DirectShow dérivent de CUnknown.
 ms.assetid: 9711d36b-6987-4fb0-a8df-eba94348dc7b
 title: CUnknown, classe (ComBase. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4818a088119f7cba25ce8a470f63cab722998c45
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06b6089f7f1c108a9b99ad4f1b16f4638b84d8d687a3590353c32841ccfff499
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075993"
 ---
 # <a name="cunknown-class"></a>CUnknown, classe
 
 ![hiérarchie de la classe CUnknown](images/cbase01.png)
 
-La classe **CUnknown** implémente l’interface **IUnknown** . La plupart des objets COM (Component Object Model) dans DirectShow dérivent de **CUnknown**.
+La classe **CUnknown** implémente l’interface **IUnknown** . la plupart des objets COM (component Object Model) dans DirectShow dérivent de **CUnknown**.
 
 Si vous implémentez un objet COM, vous souhaiterez peut-être le dériver de **CUnknown**. La dérivation à partir de **CUnknown** fournit une implémentation thread-safe, ce qui vous évite de rencontrer les problèmes d’implémentation de **IUnknown**.
 
@@ -61,7 +61,7 @@ Pour obtenir une présentation détaillée de l’utilisation de cette classe de
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
@@ -70,7 +70,7 @@ Pour obtenir une présentation détaillée de l’utilisation de cette classe de
 
 <dl> <dt>
 
-[Classes de base DirectShow](directshow-base-classes.md)
+[DirectShow Classes de base](directshow-base-classes.md)
 </dt> </dl>
 
  

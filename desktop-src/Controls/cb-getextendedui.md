@@ -3,7 +3,7 @@ title: Message CB_GETEXTENDEDUI (winuser. h)
 description: Détermine si une zone de liste déroulante possède l’interface utilisateur par défaut ou l’interface utilisateur étendue.
 ms.assetid: 4f5580e0-68b1-4584-bf79-561fb8222fe0
 keywords:
-- CB_GETEXTENDEDUI les contrôles de message Windows
+- CB_GETEXTENDEDUI les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d90550bf341fc8586174c7ec57eb77fad08c59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05201b0986b114e97523716edacc6fe391908d3ed2841d36bf7578a6455f42a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089219"
 ---
 # <a name="cb_getextendedui-message"></a>\_Message GETEXTENDEDUI CB
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 Si la zone de liste déroulante possède l’interface utilisateur étendue, la valeur de retour est **true**. Sinon, la **valeur est false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, la touche F4 ouvre ou ferme la liste et la flèche vers le bas modifie la sélection actuelle. Dans une zone de liste déroulante avec l’interface utilisateur étendue, la touche F4 est désactivée et l’appui sur la touche bas ouvre la liste déroulante.
 
@@ -57,8 +57,8 @@ Par défaut, la touche F4 ouvre ou ferme la liste et la flèche vers le bas modi
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

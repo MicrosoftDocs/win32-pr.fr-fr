@@ -4,12 +4,12 @@ description: Le \_ commutateur de compatibilité/Backward indique au compilateur
 ms.assetid: eec0ade7-30a0-44e4-92e9-fb03ff657723
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69b558d01b33b99f7d1d9279f729b923ff58df0f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd412bdabe4255a9a4538503b29ddf5681265ce5e16c81d3d5fc2484eb6c9675
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106529052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086389"
 ---
 # <a name="backward_compat-switch"></a>\_commutateur de compatibilité/Backward
 
@@ -37,7 +37,7 @@ midl /backward_compat { maybenull_sizeis | zeroout_alignmentgap |
 *\_WCHAR \_ t signé*<dl> Dirige MIDL pour traiter le type WCHAR \_ t comme signé pour la compatibilité avec Visual Basic.  
 </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 -   *\_ taille de MAYBENULL*: voir \[ désactiver \_ la \_ vérification de cohérence \] .
 -   *zeroout \_ alignmentgap*: lorsque IDLs sont compilés avec â € «Target nt60 ou version ultérieure, MIDL crée des stubs qui éliminent les éventuels écarts d’alignement entre les membres ou une structure dans la mémoire tampon de câble. Le commutateur de ligne de commande */Backward \_ compat zeroout \_ alignmentgap* dirige MIDL pour désactiver cette fonctionnalité.
@@ -60,9 +60,9 @@ midl /backward_compat { maybenull_sizeis | zeroout_alignmentgap |
 -   *String \_ DefaultValue*: force le compilateur MIDL à contraindre les chaînes numériques des attributs [**\[ \] DefaultValue**](defaultvalue.md) en variant. \_Type VT I4 avant de convertir la valeur en type correct. Cela peut entraîner une perte de précision dans certains cas. par conséquent, cette option de commutation n’est pas recommandée.
 -   *\_ WCHAR \_ t signé*: demande à MIDL de traiter le \_ type WCHAR t comme signé pour la compatibilité avec Visual Basic.
 
- 
+ 
 
- 
+ 
 
 
 

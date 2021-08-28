@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8e560d28447b7e5d3798949f47dcadf259e49d60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65925ce2425dcf717b7db94f5b83ca48a68c8f31
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035195"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466217"
 ---
 # <a name="jetretrievekey-function"></a>Fonction JetRetrieveKey
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetretrievekey-function"></a>Fonction JetRetrieveKey
 
@@ -75,92 +75,38 @@ Si la mémoire tampon de sortie est trop petite, la taille réelle de la clé se
 
 Groupe de bits qui contiennent les options à utiliser pour cet appel, qui incluent zéro ou plusieurs des éléments suivants.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitRetrieveCopy</p></td>
-<td><p>Lorsqu’il est spécifié, le moteur retourne la clé de recherche pour le curseur. La clé de recherche est créée à l’aide d’un ou de plusieurs appels antérieurs à <a href="gg269329(v=exchg.10).md">JetMakeKey</a> dans le cadre de la recherche de cette clé à l’aide de <a href="gg294103(v=exchg.10).md">JetSeek</a> ou de la définition d’une plage d’index à l’aide de <a href="gg294112(v=exchg.10).md">JetSetIndexRange</a>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitRetrieveCopy</p> | <p>Lorsqu’il est spécifié, le moteur retourne la clé de recherche pour le curseur. La clé de recherche est créée à l’aide d’un ou de plusieurs appels antérieurs à <a href="gg269329(v=exchg.10).md">JetMakeKey</a> dans le cadre de la recherche de cette clé à l’aide de <a href="gg294103(v=exchg.10).md">JetSeek</a> ou de la définition d’une plage d’index à l’aide de <a href="gg294112(v=exchg.10).md">JetSetIndexRange</a>.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errKeyNotMade</p></td>
-<td><p>Il n’existe pas de clé de recherche pour le curseur. Cela se produit pour <strong>JetRetrieveKey</strong> si JET_bitRetrieveCopy est spécifié et qu’une clé de recherche n’a pas été construite pour ce curseur à l’aide d’un appel antérieur à <a href="gg269329(v=exchg.10).md">JetMakeKey</a>. La clé de recherche sera supprimée par un appel précédent à n’importe quelle API de navigation sur le curseur autre que <a href="gg294117(v=exchg.10).md">JetMove</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Le curseur n’est pas positionné sur un enregistrement. Cela peut se produire pour de nombreuses raisons différentes. Par exemple, cela se produit si le curseur est actuellement positionné après le dernier enregistrement de l’index actuel.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnBufferTruncated</p></td>
-<td><p>L’opération s’est terminée correctement, mais la mémoire tampon de sortie était trop petite pour recevoir la clé entière. Le tampon de sortie a été rempli avec autant de clé que possible. La taille réelle de la clé a également été retournée, si nécessaire.</p>
-<p><strong>Remarque</strong>   Cette erreur ne sera pas retournée si JET_bitRetrieveCopy est spécifié. Pour plus d’informations, consultez la section Notes.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errKeyNotMade</p> | <p>Il n’existe pas de clé de recherche pour le curseur. Cela se produit pour <strong>JetRetrieveKey</strong> si JET_bitRetrieveCopy est spécifié et qu’une clé de recherche n’a pas été construite pour ce curseur à l’aide d’un appel antérieur à <a href="gg269329(v=exchg.10).md">JetMakeKey</a>. La clé de recherche sera supprimée par un appel précédent à n’importe quelle API de navigation sur le curseur autre que <a href="gg294117(v=exchg.10).md">JetMove</a>.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Le curseur n’est pas positionné sur un enregistrement. Cela peut se produire pour de nombreuses raisons différentes. Par exemple, cela se produit si le curseur est actuellement positionné après le dernier enregistrement de l’index actuel.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p> | 
+| <p>JET_wrnBufferTruncated</p> | <p>L’opération s’est terminée correctement, mais la mémoire tampon de sortie était trop petite pour recevoir la clé entière. Le tampon de sortie a été rempli avec autant de clé que possible. La taille réelle de la clé a également été retournée, si nécessaire.</p><p><strong>Remarque</strong>   Cette erreur ne sera pas retournée si JET_bitRetrieveCopy est spécifié. Pour plus d’informations, consultez la section Notes.</p> | 
+
 
 
 En cas de réussite, la clé de l’entrée d’index à la position actuelle d’un curseur est retournée dans la mémoire tampon de sortie. Si JET_wrnBufferTruncated est retourné, la mémoire tampon de sortie contiendra la plus grande partie de la clé telle qu’elle sera contenue dans l’espace fourni et la taille réelle de la clé sera exacte. Aucune modification de l’état de la base de données ne se produit.
 
 En cas d’échec, l’état de la mémoire tampon de sortie et la taille réelle de la clé ne sont pas définis. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Les clés doivent généralement être traitées comme des blocs de données opaques. Aucune tentative n’est faite pour exploiter la structure interne de ces données. Toutefois, les propriétés suivantes peuvent être connues en ce qui concerne toutes les clés ESENT :
 
@@ -168,7 +114,7 @@ Les clés doivent généralement être traitées comme des blocs de données opa
 
   - Il est inutile de comparer les clés des entrées d’index de différents index.
 
-  - Une clé est toujours inférieure ou égale à JET_cbKeyMost (255) octets dans une longueur antérieure à Windows Vista. Sur Windows Vista et les versions ultérieures, les clés peuvent être plus volumineuses. La taille maximale d’une clé est égale à la valeur actuelle de JET_paramKeyMost.
+  - la longueur d’une clé est toujours inférieure ou égale à JET_cbKeyMost (255) octets avant Windows Vista. sur Windows Vista et les versions ultérieures, les clés peuvent être plus volumineuses. La taille maximale d’une clé est égale à la valeur actuelle de JET_paramKeyMost.
 
 En plus des propriétés ci-dessus des clés ESENT en général, il est important de noter qu’une clé de recherche est différente de la clé d’une entrée d’index. Plus précisément, une clé de recherche peut être plus longue qu’une clé ordinaire. Cette longueur supplémentaire se produit lorsqu’une option générique est utilisée lors de la construction de la clé de recherche. Pour plus d’informations, consultez [JetMakeKey](./jetmakekey-function.md) .
 
@@ -176,34 +122,9 @@ Il existe un bogue important dans cette API qui est présent dans toutes les ver
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

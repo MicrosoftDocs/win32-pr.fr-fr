@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4239d21362d589cae84252c728387b2a2b6159e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfe29be7dd329def41e8a6726f141a850eb2daecd05e05d6b5988f543f64864c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072439"
 ---
 # <a name="restartonfailure-settingstype-element"></a>Élément RestartOnFailure (settingsType)
 
@@ -49,12 +49,12 @@ L’élément **RestartOnFailure** est défini par le type complexe [**settingsT
 
 | Élément                                                              | Type         | Description                                                                                        |
 |----------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------|
-| [**Saut**](taskschedulerschema-count-restarttype-element.md)       | unsignedByte | Spécifie le nombre de tentatives de redémarrage de la tâche par le Planificateur de tâches.<br/> |
-| [**Défini**](taskschedulerschema-interval-restarttype-element.md) | duration     | Spécifie la durée pendant laquelle le Planificateur de tâches tente de redémarrer la tâche.<br/>                 |
+| [**Count**](taskschedulerschema-count-restarttype-element.md)       | unsignedByte | Spécifie le nombre de tentatives de redémarrage de la tâche par le Planificateur de tâches.<br/> |
+| [**Intervalle**](taskschedulerschema-interval-restarttype-element.md) | duration     | Spécifie la durée pendant laquelle le Planificateur de tâches tente de redémarrer la tâche.<br/>                 |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une application spécifie des paramètres de tâche, ces informations sont accessibles via les propriétés [**RestartCount**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartcount) et [**RestartInterval**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval) de l’interface [**ITaskSettings**](/windows/desktop/api/taskschd/nn-taskschd-itasksettings) . Pour les scripts, ces informations sont accessibles via les propriétés [**TaskSettings. RestartCount**](tasksettings-restartcount.md) et [**TaskSettings. RestartInterval**](tasksettings-restartinterval.md) .
 
@@ -66,8 +66,8 @@ Les deux éléments enfants doivent être définis pour spécifier la façon don
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
