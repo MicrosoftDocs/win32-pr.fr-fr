@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b57312dc2f401207e41f38f5bf75cddf69a13b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20e20338482533293559f135a221b90220f1e371137b3bc1d62502cb3f2e779b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766449"
 ---
 # <a name="iwmdrmdeviceappprocessmeterresponse-method"></a>IWMDRMDeviceApp ::P méthode rocessMeterResponse
 
@@ -87,7 +87,7 @@ Un **DWORD** du tableau ci-dessous, indiquant s’il y a plus de données de con
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -97,15 +97,15 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                | Un ou plusieurs arguments ne sont pas valides.<br/>                               |
 | <dl> <dt>**Erreurs de l’appareil**</dt> </dl>            | Un certain nombre d’erreurs d’appareil.<br/>                                  |
 | <dl> <dt>**Erreurs du client DRM**</dt> </dl>        | L’une des nombreuses erreurs internes du client DRM.<br/>                     |
-| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl> | L’appareil spécifié n’est pas un périphérique compatible DRM Windows Media.<br/> |
+| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl> | l’appareil spécifié n’est pas un appareil compatible avec DRM Windows Media.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur le contrôle, y compris des exemples de code, consultez le livre blanc [contrôle de l’utilisation du contenu multimédia numérique avec Windows Media DRM 10](/previous-versions//bb614723(v=vs.85)) sur le site Web MSDN.
+pour plus d’informations sur le contrôle, y compris des exemples de code, consultez le livre blanc [contrôle de l’utilisation du contenu multimédia numérique avec Windows media DRM 10](/previous-versions//bb614723(v=vs.85)) sur le site Web MSDN.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -1,17 +1,17 @@
 ---
 description: Dans le cadre de l’abstraction de l’appareil téléphonique définie par TSPI, l’interface TAPI et le fournisseur de services doivent tout d’abord subir l’initialisation de base.
 ms.assetid: cd8bb328-fbd0-409c-8471-34ad4c2c8d93
-title: Initialisation du SPI de téléphone
+title: Téléphone Initialisation SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d0c54e313c2be3846aeb604217f5324ec0d8a8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88465e31857ee9ecc3a54f98f98bf6d1d3b50b837d845dbf36af08be0ec78a7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072889"
 ---
-# <a name="phone-spi-initialization"></a>Initialisation du SPI de téléphone
+# <a name="phone-spi-initialization"></a>Téléphone Initialisation SPI
 
 Dans le cadre de l’abstraction de l’appareil téléphonique définie par TSPI, l’interface TAPI et le fournisseur de services doivent tout d’abord subir l’initialisation de base. Cette initialisation de base est effectuée à la fois pour les moitiés de ligne et de téléphone de l’interface par le même ensemble d’étapes. La première de ces étapes est la négociation de version d’interface. Pour ce faire, TAPI appelle la fonction [**TSPI \_ lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) . Cette fonction est généralement utilisée pour négocier pour le compte d’un périphérique de ligne individuel ; des appareils de ligne différents au sein du même fournisseur de services peuvent fonctionner selon différentes versions d’interface. L’interface TAPI transmet une valeur d’identificateur d’appareil réservée spéciale, [**initialiser la \_ négociation**](initialize-negotiation.md), pour indiquer qu’elle négocie une version d’interface globale pour les fonctions d’initialisation qui affectent l’ensemble du fournisseur de services, à la fois pour les lignes et les téléphones.
 

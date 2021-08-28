@@ -12,12 +12,12 @@ keywords:
 - waveOutOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3e7541a00b43b5fb2267a17d4de8bb017823c3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: adf386c517d900fc4b0450f169060c6be6365df57ab0fcb3e6953337f4f67fbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892429"
 ---
 # <a name="using-a-callback-function-to-process-driver-messages"></a>Utilisation d’une fonction de rappel pour traiter des messages de pilote
 
@@ -32,6 +32,6 @@ Pour passer des données d’instance d’une application à une fonction de rap
 
 Si vous avez besoin de plus de 32 bits de données d’instance, transmettez un pointeur vers une structure contenant les informations supplémentaires.
 
- 
+ 
 
- 
+ 

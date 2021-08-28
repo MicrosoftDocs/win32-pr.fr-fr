@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: Constantes RecognitionProperty (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d06d2eed3b28ed99d180dbe3971e9e018554ff5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 242d48ee6d55dedd4f6b9e28816779300c0aa770
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882334"
 ---
 # <a name="recognitionproperty-constants"></a>Constantes RecognitionProperty
 
@@ -35,14 +35,14 @@ Le tableau suivant répertorie les champs de l’identificateur global unique (G
 
 ## <a name="remarks"></a>Remarques
 
-en C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, situé dans le <systemdrive> \\ répertoire : Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (sdk) à l’emplacement par défaut.
+en C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, qui se trouve dans le &lt; &gt; répertoire lecteur_système : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (sdk) à l’emplacement par défaut.
 
 > [!Note]  
 > En C++, ces constantes sont WCHARs, et non BSTR. Convertissez-les en BSTR avant d’utiliser. Pour plus d’informations sur le type de données BSTR, consultez [utilisation de la bibliothèque com](using-the-com-library.md).
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

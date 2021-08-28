@@ -3,16 +3,16 @@ title: Entrées système pour les compresseurs, les décompresseurs et les conve
 description: Entrées système pour les compresseurs, les décompresseurs et les convertisseurs
 ms.assetid: b27bbd5b-a218-49bb-b179-b24ce39869a1
 keywords:
-- Video for Windows (VFW), entrées système du compresseur
+- vidéo pour Windows (VFW), entrées système de compresseur
 - VFW (vidéo pour Windows), entrées du système de compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b46d9c6fd8974511698bcb687c580e68be3757ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0afa453603eacffe0db1b3a904709a096e638dc284aa64aa388968a0e555c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892559"
 ---
 # <a name="system-entries-for-compressors-decompressors-and-renderers"></a>Entrées système pour les compresseurs, les décompresseurs et les convertisseurs
 
@@ -29,7 +29,7 @@ Le système utilise des entrées du Registre pour rechercher les pilotes VCM. Ce
 
 
 
- 
+ 
 
 Les convertisseurs personnalisés peuvent définir leurs propres codes à quatre caractères.
 
@@ -39,9 +39,9 @@ Lors de l’ouverture d’un pilote VCM, une application spécifie le type de pi
 
 Lors de la recherche du pilote, le système tente de faire correspondre les codes à quatre caractères spécifiés pour le type de pilote et le gestionnaire de données avec ceux spécifiés dans l’entrée du pilote. Par exemple, si une application spécifie le compresseur MSSQ, le système recherche l’entrée de pilote VIDC. MSSQ dans le registre. S’il ne trouve pas de correspondance, il ouvre chaque pilote correspondant au type de pilote et en trouve un qui peut gérer le type de données que votre application spécifie. Dans l’exemple précédent, si le système n’a pas pu trouver VIDC. MSSQ, il ouvre tous les pilotes avec le code à quatre caractères « VIDC » et en trouve un qui peut gérer les données.
 
- 
+ 
 
- 
+ 
 
 
 

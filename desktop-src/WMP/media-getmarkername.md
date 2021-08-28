@@ -3,9 +3,9 @@ title: Méthode Media. getMarkerName
 description: La méthode getMarkerName récupère le nom du marqueur à l’index spécifié.
 ms.assetid: 142438b7-88d1-4523-829f-52dafbf0a7a6
 keywords:
-- méthode getMarkerName lecteur Windows Media
-- méthode getMarkerName lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode getMarkerName
+- Lecteur Windows Media de la méthode getMarkerName
+- méthode getMarkerName Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode getMarkerName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69b923408432f76525b2dcf8cab046703fb76f80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b1ace88a7012ec59bf4dcae32c5c2f51f240dd1e59c58408165392a6fc1e616
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123399"
 ---
 # <a name="mediagetmarkername-method"></a>Méthode Media. getMarkerName
 
@@ -53,7 +53,7 @@ strRetVal = Media.getMarkerName(
 
 Cette méthode retourne une **chaîne**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne la **valeur null** si le marqueur spécifié n’existe pas.
 
@@ -65,7 +65,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **getMarkerName** pour remplir un élément textarea html nommé MNAMES avec les noms des marqueurs dans l’élément multimédia actuel. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **getMarkerName** pour remplir un élément textarea html nommé MNAMES avec les noms des marqueurs dans l’élément multimédia actuel. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

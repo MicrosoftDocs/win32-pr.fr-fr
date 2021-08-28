@@ -1,6 +1,6 @@
 ---
 title: Inscription de l’objet COM de la page de propriétés dans un spécificateur d’affichage
-description: Cette rubrique montre comment inscrire une DLL d’extension qui contient une feuille de propriétés Active Directory avec le Registre Windows et Active Directory.
+description: cette rubrique montre comment inscrire une DLL d’extension qui contient une feuille de propriétés Active Directory avec le registre Windows et Active Directory.
 ms.assetid: e2d6142b-c2fe-4435-b4af-83f7cd45218b
 ms.tgt_platform: multiple
 keywords:
@@ -9,28 +9,28 @@ keywords:
 - spécificateurs d’affichage Active Directory, inscription de l’objet COM page de propriétés dans
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5b08ac0ea6329026a6d367e71064bde917b1a6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0f6685e406cb1bfdc16f73dd2fddd94a195fe74a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881234"
 ---
 # <a name="registering-the-property-page-com-object-in-a-display-specifier"></a>Inscription de l’objet COM de la page de propriétés dans un spécificateur d’affichage
 
-Lorsque vous utilisez COM pour créer une DLL d’extension de feuille de propriétés pour Active Directory Domain Services, vous devez également enregistrer l’extension avec le Registre Windows et Active Directory Domain Services. L’inscription de l’extension permet au Active Directory composants logiciels enfichables MMC d’administration et au shell Windows de reconnaître l’extension.
+lorsque vous utilisez COM pour créer une DLL d’extension de feuille de propriétés pour Active Directory Domain Services, vous devez également enregistrer l’extension avec le registre Windows et Active Directory Domain Services. l’inscription de l’extension active les composants logiciels enfichables MMC d’administration Active Directory et le shell Windows pour reconnaître l’extension.
 
-## <a name="registering-in-the-windows-registry"></a>Inscription dans le Registre Windows
+## <a name="registering-in-the-windows-registry"></a>inscription dans le registre de Windows
 
-Comme tous les serveurs COM, une extension de feuille de propriétés doit être inscrite dans le Registre Windows. L’extension est inscrite sous la clé suivante.
+comme tous les serveurs COM, une extension de feuille de propriétés doit être inscrite dans le registre Windows. L’extension est inscrite sous la clé suivante.
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <clsid>
+   CLSID
+      <clsid>
 ```
 
-*<clsid>* représentation sous forme de chaîne du CLSID telle qu’elle est produite par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . Sous la *<clsid>* clé, il existe une clé **InprocServer32** qui identifie l’objet en tant que serveur in-proc 32 bits. Sous la clé **InprocServer32** , l’emplacement de la dll est spécifié dans la valeur par défaut et le modèle de thread est spécifié dans la valeur **ThreadingModel** . Toutes les extensions de feuille de propriétés doivent utiliser le modèle de thread « Apartment ».
+*&lt; CLSID &gt;* est la représentation sous forme de chaîne du CLSID telle qu’elle est produite par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . Sous la clé *&lt; &gt; CLSID* , il existe une clé **InprocServer32** qui identifie l’objet en tant que serveur in-proc 32 bits. Sous la clé **InprocServer32** , l’emplacement de la dll est spécifié dans la valeur par défaut et le modèle de thread est spécifié dans la valeur **ThreadingModel** . Toutes les extensions de feuille de propriétés doivent utiliser le modèle de thread « Apartment ».
 
 ## <a name="registering-with-active-directory-domain-services"></a>Inscription avec Active Directory Domain Services
 
@@ -40,9 +40,9 @@ Il existe trois attributs de spécificateur d’affichage sous lesquels une exte
 
 L’attribut [**adminPropertyPages**](/windows/desktop/ADSchema/a-adminpropertypages) identifie les pages de propriétés d’administration à afficher dans Active Directory composants logiciels enfichables d’administration. La page de propriétés s’affiche lorsque l’utilisateur consulte les propriétés des objets de la classe appropriée dans l’un des composants logiciels enfichables MMC d’administration de Active Directory.
 
-L’attribut [**shellPropertyPages**](/windows/desktop/ADSchema/a-shellpropertypages) identifie les pages de propriétés de l’utilisateur final à afficher dans le shell Windows. La page de propriétés s’affiche lorsque l’utilisateur consulte les propriétés des objets de la classe appropriée dans l’Explorateur Windows. Depuis les systèmes d’exploitation Windows Server 2003, l’interpréteur de commandes Windows n’affiche plus d’objets de Active Directory Domain Services.
+l’attribut [**shellPropertyPages**](/windows/desktop/ADSchema/a-shellpropertypages) identifie les pages de propriétés de l’utilisateur final à afficher dans le shell Windows. la page de propriétés s’affiche lorsque l’utilisateur consulte les propriétés des objets de la classe appropriée dans l’explorateur de Windows. à partir des systèmes d’exploitation Windows Server 2003, le shell Windows n’affiche plus d’objets Active Directory Domain Services.
 
-Le [**adminMultiselectPropertyPages**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages) est disponible uniquement sur les systèmes d’exploitation Windows Server 2003. La page de propriétés s’affiche lorsque l’utilisateur consulte les propriétés de plusieurs objets de la classe appropriée dans l’un des composants logiciels enfichables MMC d’administration de Active Directory.
+le [**adminMultiselectPropertyPages**](/windows/desktop/ADSchema/a-adminmultiselectpropertypages) est disponible uniquement sur les systèmes d’exploitation Windows Server 2003. La page de propriétés s’affiche lorsque l’utilisateur consulte les propriétés de plusieurs objets de la classe appropriée dans l’un des composants logiciels enfichables MMC d’administration de Active Directory.
 
 Tous ces attributs sont à valeurs multiples.
 
@@ -111,9 +111,9 @@ L’exemple de code suivant est une valeur d’exemple qui peut être utilisée 
 
 
 > [!IMPORTANT]
-> Pour le shell Windows, les données du spécificateur d’affichage sont récupérées à l’ouverture de session de l’utilisateur et mises en cache pour la session utilisateur. Pour les composants logiciels enfichables d’administration, les données du spécificateur d’affichage sont récupérées lorsque le composant logiciel enfichable est chargé et sont mises en cache pour la durée de vie du processus. Pour le shell Windows, cela indique que les modifications apportées aux spécificateurs d’affichage prennent effet après qu’un utilisateur se déconnecte, puis se reconnecte. Pour les composants logiciels enfichables d’administration, les modifications prennent effet lors du chargement du composant logiciel enfichable ou de la console.
+> pour le shell Windows, les données du spécificateur d’affichage sont récupérées à l’ouverture de session de l’utilisateur et mises en cache pour la session utilisateur. Pour les composants logiciels enfichables d’administration, les données du spécificateur d’affichage sont récupérées lorsque le composant logiciel enfichable est chargé et sont mises en cache pour la durée de vie du processus. pour le shell Windows, cela indique que les modifications apportées aux spécificateurs d’affichage prennent effet après qu’un utilisateur se déconnecte, puis se reconnecte. Pour les composants logiciels enfichables d’administration, les modifications prennent effet lors du chargement du composant logiciel enfichable ou de la console.
 
- 
+ 
 
 ## <a name="adding-a-value-to-the-property-sheet-extension-attributes"></a>Ajout d’une valeur aux attributs d’extension de la feuille de propriétés
 
@@ -434,6 +434,6 @@ HRESULT GetDisplaySpecifier(IADsContainer *pContainer, LPOLESTR szDispSpec, IADs
 
 
 
- 
+ 
 
- 
+ 

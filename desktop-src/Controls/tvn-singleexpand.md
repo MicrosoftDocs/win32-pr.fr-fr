@@ -3,7 +3,7 @@ title: TVN_SINGLEEXPAND le code de notification (commctrl. h)
 description: Envoyé par un contrôle Tree-View avec le \_ style TV SINGLEEXPAND style lorsque l’utilisateur ouvre ou ferme un élément d’arborescence en un seul clic de souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ae738237-172a-400b-b9fe-33832224e299
 keywords:
-- Contrôles Windows de code de notification TVN_SINGLEEXPAND
+- TVN_SINGLEEXPAND les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 976c0e8acfee1f024e4ee7f88d9f745e4029ec82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61cd83dedbe16bad81c340f35a176b18804de6b7db6847fb65bc847160a2ff8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132199"
 ---
 # <a name="tvn_singleexpand-notification-code"></a>\_Code de notification TVN SINGLEEXPAND
 
@@ -60,7 +60,7 @@ Return TVNRET \_ Default pour permettre au comportement par défaut de se produi
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour ignorer le traitement par défaut des éléments sélectionnés et désélectionnés, retournez TVNRET \_ SKIPOLD et TVNRET \_ SKIPNEW en les associant à un or logique.
 
@@ -72,8 +72,8 @@ Ce code de notification est uniquement envoyé par les contrôles d’arborescen
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

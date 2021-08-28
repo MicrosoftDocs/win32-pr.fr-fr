@@ -4,12 +4,12 @@ description: Un contrôle up-up est une paire de boutons fléchés sur lesquels 
 ms.assetid: ae2c0283-9cad-40d1-b8a6-a90484a95f56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc8dad15a8254b138cae4175cc16b1ef3111745
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 749014a4b9959b8afd6e769919a0dc9df19e99ce4edeabca774e535f26f4cf8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132153"
 ---
 # <a name="about-up-down-controls"></a>À propos des contrôles Up-Down
 
@@ -55,7 +55,7 @@ Vous pouvez contrôler la fréquence à laquelle la position change lorsque l’
 
 ## <a name="default-up-down-controls-message-processing"></a>Up-Down par défaut contrôle le traitement des messages
 
-Cette section décrit les messages Windows standard traités par un contrôle up-out.
+cette section décrit les messages de Windows standard traités par un contrôle up-out.
 
 
 
@@ -73,8 +73,8 @@ Cette section décrit les messages Windows standard traités par un contrôle up
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

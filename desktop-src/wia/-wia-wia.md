@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 38dc5f7ac4440320827e009a7fd38dd6554ceb70
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a0ffb9cdfcd948b7eff69d0380c068269c59654126ff2d7a6320fd3b332d712c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669128"
 ---
 # <a name="wia-object"></a>Objet WIA
 
@@ -73,17 +73,38 @@ L’objet **WIA** possède les propriétés suivantes.
 
 
 
-
-| Propriété | Type d’accès | Description | 
-|----------|-------------|-------------|
-| <a href="-wia-iwia-devices.md"><strong>Appareils</strong></a><br /> | Lecture seule<br /> | Collection d’objets <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> qui représentent tous les périphériques installés sur l’ordinateur. Lecture seule. <br /><blockquote>[!Note]<br />Cette collection est de base 0.</blockquote><br /> | 
-
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Propriété</th>
+<th style="text-align: left;">Type d’accès</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="-wia-iwia-devices.md"><strong>Appareils</strong></a><br/></td>
+<td style="text-align: left;">Lecture seule<br/></td>
+<td style="text-align: left;">Collection d’objets <a href="-wia-deviceinfo.md"><strong>DeviceInfo</strong></a> qui représentent tous les périphériques installés sur l’ordinateur. Lecture seule. <br/>
+<blockquote>
+[!Note]<br />
+Cette collection est de base 0.
+</blockquote>
+<br/></td>
+</tr>
+</tbody>
+</table>
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

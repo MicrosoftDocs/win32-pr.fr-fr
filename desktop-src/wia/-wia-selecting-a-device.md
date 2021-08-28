@@ -1,19 +1,19 @@
 ---
-description: Quand une application se connecte à un périphérique matériel WIA (Windows Image Acquisition), WIA crée une arborescence d’éléments (une arborescence hiérarchique d’interfaces IWiaItem ou IWiaItem2) qui représente l’appareil et ses images, dossiers et lits d’analyse.
+description: quand une application se connecte à un périphérique matériel wia (Windows Image Acquisition), WIA crée une arborescence d’éléments (une arborescence hiérarchique d’interfaces IWiaItem ou IWiaItem2) qui représente l’appareil et ses images, dossiers et lits d’analyse.
 ms.assetid: 2a7bcfd4-4075-48a4-9eff-5210b9a635e3
 title: Sélection d’un appareil (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08a2eab41016397f6505e60efcbf78d1fdf82499
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d068dc2501419b5748f199114fab15d72dc5fecc6c7e6881f63b8e47114b7d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813658"
 ---
 # <a name="selecting-a-device-wia"></a>Sélection d’un appareil (WIA)
 
-Quand une application se connecte à un périphérique matériel WIA (Windows Image Acquisition), WIA crée une arborescence d’éléments (une arborescence hiérarchique d’interfaces [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) ou [**IWiaItem2**](-wia-iwiaitem2.md) ) qui représente l’appareil et ses images, dossiers et lits d’analyse. Une application peut sélectionner et se connecter à un appareil sans entrée d’utilisateur, ou elle peut afficher une boîte de dialogue qui permet à un utilisateur de sélectionner un appareil.
+quand une application se connecte à un périphérique matériel wia (Windows Image Acquisition), WIA crée une arborescence d’éléments (une arborescence hiérarchique d’interfaces [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) ou [**IWiaItem2**](-wia-iwiaitem2.md) ) qui représente l’appareil et ses images, dossiers et lits d’analyse. Une application peut sélectionner et se connecter à un appareil sans entrée d’utilisateur, ou elle peut afficher une boîte de dialogue qui permet à un utilisateur de sélectionner un appareil.
 
 -   [Sélection d’un appareil sans interface utilisateur](#selecting-a-device-without-the-ui)
 -   [Sélection d’un appareil avec l’interface utilisateur](#selecting-a-device-with-the-ui)

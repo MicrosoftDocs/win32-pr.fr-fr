@@ -4,12 +4,12 @@ ms.assetid: 87e82d71-fa6b-4e67-971d-7b17149fca2c
 title: System. photo. FlashEnergyDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77bc6bee23841d0ce11ce956ca80853ab2fc49af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80166bc3067175254f4e1fe8354153bf7841b067042b6a67129318bbeb181558
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010278"
 ---
 # <a name="systemphotoflashenergydenominator"></a>System. photo. FlashEnergyDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

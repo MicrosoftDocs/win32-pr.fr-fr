@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 7c4869f36d8ba70c8dcd8ca526949d489f455e8c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 137d6667c993d4a107be057e46c4ee469a513ec95d358b6d3cc50654a5bba520
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957128"
 ---
 # <a name="abnormaltermination-macro"></a>AbnormalTermination macro)
 
@@ -47,7 +47,7 @@ Si le bloc **\_ \_ try** s’est arrêté anormalement, la valeur de retour est 
 
 Si le bloc **\_ \_ try** s’est arrêté normalement, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le bloc **\_ \_ try** se termine normalement uniquement si l’exécution laisse le bloc séquentiellement après l’exécution de la dernière instruction dans le bloc. Les instructions (telles que **Return**, **goto**, **continue** ou **break**) qui forcent l’exécution à quitter le bloc **\_ \_ try** entraînent un arrêt anormal du bloc. C’est le cas même si une telle instruction est la dernière instruction du bloc **\_ \_ try** .
 
@@ -61,8 +61,8 @@ Pour éviter un arrêt anormal, l’exécution doit se poursuivre jusqu’à la 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

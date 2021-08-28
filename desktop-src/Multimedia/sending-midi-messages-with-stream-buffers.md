@@ -13,12 +13,12 @@ keywords:
 - envoi de messages MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbe2a2854abf9dd1ba67a93954c0823ac387b86
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 35ab8fd8d09295cc40a3ea9b5d8070603a4e7813030b4f04f92a51f7f8709f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892729"
 ---
 # <a name="sending-midi-messages-with-stream-buffers"></a>Envoi de messages MIDI avec des mémoires tampons de flux
 
@@ -26,6 +26,6 @@ Lorsque votre application fonctionne avec des tampons de flux, elle utilise la f
 
 Une fois que vous avez utilisé **midiStreamOut** pour envoyer une mémoire tampon de données de flux de données, vous devez attendre que le pilote de périphérique se termine avec le bloc de données avant de le libérer. Si vous envoyez plusieurs blocs de données, vous devez surveiller l’achèvement de chaque bloc de données afin de savoir quand envoyer des blocs supplémentaires. Pour plus d’informations sur les différentes techniques d’analyse de la saisie semi-automatique des blocs de données, consultez [gestion des blocs de données MIDI](managing-midi-data-blocks.md).
 
- 
+ 
 
- 
+ 

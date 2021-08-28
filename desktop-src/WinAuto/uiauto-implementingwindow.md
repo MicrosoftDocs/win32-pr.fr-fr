@@ -15,12 +15,12 @@ keywords:
 - interfaces, IWindowProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3c4f0d862a14fee35f8d1982c7870e2be031c61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c04e3434ff6e14496da58d035fa965c012adaa2c8348a23e1a98e8dac2aa01dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122049"
 ---
 # <a name="window-control-pattern"></a>Window (modèle de contrôle)
 
@@ -50,7 +50,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
-| Membres nécessaires                                                                            | Type de membre | Notes                                                                       |
+| Membres nécessaires                                                                            | Type de membre | Remarques                                                                       |
 |---------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------|
 | [**WindowInteractionState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_windowinteractionstate)             | Propriété    | Il n’est pas garanti que **WindowInteractionState \_ ReadyForUserInteraction** |
 | [**IsModal**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_ismodal)                                           | Propriété    | Aucun                                                                        |
@@ -58,7 +58,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 | [**CanMaximize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canmaximize)                                   | Propriété    | Aucun                                                                        |
 | [**CanMinimize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canminimize)                                   | Propriété    | Aucun                                                                        |
 | [**WindowVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate)                       | Propriété    | Aucun                                                                        |
-| [**Fermer**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-close)                                               | Méthode      | Aucun                                                                        |
+| [**Plus**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-close)                                               | Méthode      | Aucun                                                                        |
 | [**SetVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-setvisualstate)                             | Méthode      | Aucun                                                                        |
 | [**WaitForInputIdle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-waitforinputidle)                         | Méthode      | Aucun                                                                        |
 | [**\_Fenêtre UIA \_ WindowClosedEventId**](uiauto-event-ids.md) | Événement       | Aucun                                                                        |
@@ -66,7 +66,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -84,9 +84,9 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

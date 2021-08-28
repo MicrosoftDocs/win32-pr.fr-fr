@@ -11,12 +11,12 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2245b133fbf14bfd6403fa2f3d7e02ed328de6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8e8e03eb774e4173b86812c7cc4e9fb35d0ab2557d1ab9022bce3848ec7d13a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892239"
 ---
 # <a name="video-and-audio-chunk-granularity"></a>Granularité des blocs vidéo et audio
 
@@ -24,9 +24,9 @@ La granularité du segment est une taille de bloc logique pour un fichier AVI ut
 
 Vous pouvez récupérer le paramètre de granularité de segment actuel à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-get-sequence-setup.md) de la séquence de l’aide de WM (ou de la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). La granularité du bloc actuel est stockée dans le membre **wChunkGranularity** de la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) . Vous pouvez spécifier une nouvelle granularité de bloc en tant que valeur de **wChunkGranularity** , puis envoyer la structure **CAPTUREPARMS** mise à jour à la fenêtre de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-set-sequence-setup.md) de la séquence de la définition de l’embout WM (ou de la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). Vous pouvez également spécifier zéro pour ce membre afin de définir la granularité du segment sur la taille de secteur du disque.
 
- 
+ 
 
- 
+ 
 
 
 

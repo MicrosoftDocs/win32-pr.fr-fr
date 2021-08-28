@@ -3,7 +3,7 @@ title: Message WM_HSCROLL (winuser. h)
 description: Le \_ message WM HSCROLL est envoyé à une fenêtre lorsqu’un événement de défilement se produit dans la barre de défilement horizontale standard de la fenêtre.
 ms.assetid: 197e522f-defd-4356-8521-5b5dfda596da
 keywords:
-- WM_HSCROLL les contrôles de message Windows
+- WM_HSCROLL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f26eec697e91ee8862912c0f93bcd6e8c4e5c56e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 965ac6841149934142fc4624ad14e327d4b524288c78e9f22fbf1e935c0a1e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957498"
 ---
 # <a name="wm_hscroll-message"></a>\_Message WM HSCROLL
 
@@ -79,7 +79,7 @@ Si le message est envoyé par un contrôle de barre de défilement, ce paramètr
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ Code de demande SB THUMBTRACK est généralement utilisé par les applications qui fournissent des commentaires au fur et à mesure que l’utilisateur fait glisser la case de défilement.
 
@@ -95,8 +95,8 @@ Toutefois, étant donné que les fonctions [**SetScrollInfo**](/windows/desktop/
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

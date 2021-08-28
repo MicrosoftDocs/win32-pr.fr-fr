@@ -1,19 +1,19 @@
 ---
-description: Les utilisateurs des services HTTP Microsoft Windows (WinHTTP) doivent utiliser la version la plus récente de la technologie, version 5,1. La version 5,0 n’est plus prise en charge.
+description: les utilisateurs de Microsoft Windows HTTP Services (WinHTTP) doivent utiliser la version la plus récente de la technologie, version 5,1. La version 5,0 n’est plus prise en charge.
 ms.assetid: b69e5087-7849-4cbc-a97b-204a26fdd044
 title: Versions de WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac19a57c68c5e9e727daa129959dcd735b5839df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa4b426023ca240f10d3f56358213b3ed701910d8fb1b716441ae254b2cc774c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114037"
 ---
 # <a name="winhttp-versions"></a>Versions de WinHTTP
 
-Les utilisateurs des services HTTP Microsoft Windows (WinHTTP) doivent utiliser la version la plus récente de la technologie, version 5,1. La version 5,0 n’est plus prise en charge.
+les utilisateurs de Microsoft Windows HTTP Services (WinHTTP) doivent utiliser la version la plus récente de la technologie, version 5,1. La version 5,0 n’est plus prise en charge.
 
 ## <a name="version-51"></a>Version 5.1
 
@@ -23,15 +23,15 @@ Avec la version 5,1, WinHTTP est un composant du système d’exploitation des s
 
 -   Windows 2000, Service Pack 3 et versions ultérieures (sauf Datacenter Server)
 -   Windows XP avec Service Pack 1 (SP1) et versions ultérieures
--   Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures
+-   Windows Serveur 2003 avec Service Pack 1 (SP1) et versions ultérieures
 
-Pour Windows Server 2003 avec SP1, WinHTTP est un assembly côte à côte du système. Pour plus d’informations, consultez [assemblys côte à côte](/windows/desktop/SbsCs/about-side-by-side-assemblies-).
+pour Windows Server 2003 avec SP1, WinHTTP est un assembly côte à côte du système. Pour plus d’informations, consultez [assemblys côte à côte](/windows/desktop/SbsCs/about-side-by-side-assemblies-).
 
 La redistribution de WinHTTP 5,1 en dehors de ces systèmes d’exploitation n’est pas prise en charge.
 
 ## <a name="version-50"></a>Version 5.0
 
-Le package redistribuable WinHTTP 5,0, « winhttp5.dll », s’exécute sur Windows 2000 ou version ultérieure, ou Windows NT 4,0 avec Microsoft Internet Explorer 5,01 ou version ultérieure.
+le package redistribuable WinHTTP 5,0, « winhttp5.dll », s’exécute sur Windows 2000 ou version ultérieure, ou Windows NT 4,0 avec Microsoft Internet Explorer 5,01 ou version ultérieure.
 
 > [!IMPORTANT]
 > Le téléchargement de WinHTTP 5,0 n’est plus disponible. À compter du 1er octobre 2004, Microsoft a supprimé le téléchargement du kit de développement logiciel (SDK) WinHTTP 5,0 sur MSDN et a terminé le support technique de la version 5,0.

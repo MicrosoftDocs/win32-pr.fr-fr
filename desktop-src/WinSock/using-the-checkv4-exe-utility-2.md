@@ -4,23 +4,23 @@ ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
 title: Utilisation de l’utilitaire Checkv4.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc9eca96b2138f9950b157a4b7690dc382f273e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3377e62e5a874910f91857b6c5dc64df3c3cccddbe405ab6ca199241038a4ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121065"
 ---
 # <a name="using-the-checkv4exe-utility"></a>Utilisation de l’utilitaire Checkv4.exe
 
 > [!IMPORTANT]
-> L’utilitaire *Checkv4.exe* n’est pas fourni avec le kit de développement logiciel (SDK) Windows pour Windows 8, ni dans les versions ultérieures du SDK Windows.
+> l’utilitaire *Checkv4.exe* n’est pas fourni avec le kit de développement logiciel (SDK) Windows pour Windows 8, ni dans les versions ultérieures du SDK Windows.
 
 L’utilitaire *Checkv4.exe* est conçu pour vous fournir un partenaire de portage de code. un utilitaire qui parcourt votre base de code avec vous, identifie les problèmes potentiels ou met en évidence le code qui peut tirer parti des structures ou des fonctions compatibles IPv6, et formule des recommandations. Avec l’utilitaire Checkv4.exe, la tâche de modification d’une application IPv4 existante pour prendre en charge IPv6 devient beaucoup plus facile.
 
-L’utilitaire *Checkv4.exe* est installé dans le cadre du kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et les SDK ultérieurs (jusqu’au kit de développement logiciel (SDK) Windows pour Windows 8).
+l’utilitaire *Checkv4.exe* est installé dans le cadre du kit de développement logiciel (sdk) de Microsoft Windows publié pour Windows Vista et les kits de développement logiciel (sdk) les plus récents (jusqu’à ce que le kit de développement logiciel (sdk) Windows pour Windows 8).
 
-Une version antérieure de l’utilitaire *Checkv4.exe* avec des fonctionnalités plus limitées a également été mise à disposition dans le cadre de la version préliminaire antérieure de la technologie IPv6 de Microsoft pour Windows 2000.
+une version antérieure de l’utilitaire *Checkv4.exe* avec des fonctionnalités plus limitées a également été mise à disposition dans le cadre de la version préliminaire de la technologie IPv6 de Microsoft pour Windows 2000.
 
 Les sections suivantes décrivent l’utilisation de l’utilitaire *Checkv4.exe* , puis expliquent l’approche recommandée pour la modification d’une application IPv4 existante afin de prendre en charge IPv6.
 
@@ -32,7 +32,7 @@ Les sections suivantes décrivent l’utilisation de l’utilitaire *Checkv4.exe
 
     **Checkv4 simplec. c**
 
-    Notez que certaines recommandations formulées par l’utilitaire *Checkv4.exe* requièrent des structures disponibles uniquement dans les versions récentes du fichier d’en-tête *Ws2tcpip. h* , telles que la structure **sockaddr \_ in6** . Ces fichiers d’en-tête sont inclus dans la SDK Windows publiée pour Windows Vista et versions ultérieures. Ces fichiers d’en-tête sont également inclus dans le kit de développement logiciel (SDK) de plateforme précédent publié pour Windows Server 2003. Ces fichiers d’en-tête sont également inclus dans le cadre d’un abonnement MSDN ou par téléchargement.
+    Notez que certaines recommandations formulées par l’utilitaire *Checkv4.exe* requièrent des structures disponibles uniquement dans les versions récentes du fichier d’en-tête *Ws2tcpip. h* , telles que la structure **sockaddr \_ in6** . ces fichiers d’en-tête sont inclus dans la SDK Windows publiée pour Windows Vista et versions ultérieures. ces fichiers d’en-tête sont également inclus dans le kit de développement logiciel (SDK) de plateforme précédent publié pour Windows Server 2003. Ces fichiers d’en-tête sont également inclus dans le cadre d’un abonnement MSDN ou par téléchargement.
 
     La capture d’écran suivante affiche les résultats de l’utilisation de l’utilitaire *Checkv4.exe* sur le fichier Simplec. c inclus dans l’annexe A :
 
@@ -53,11 +53,11 @@ Il existe une procédure recommandée associée à l’ajout de la fonctionnalit
 3.  Examinez le code source pour l’utilisation d’adresses IPv4 codées en dur, telles que l’adresse de bouclage, ou l’utilisation d’autres chaînes littérales.
 4.  Effectuer un examen approfondi de l’interface utilisateur, y compris les boîtes de dialogue d’informations. Indiquez s’il est approprié pour les applications compatibles IPv6 de spécifier ou de fournir des informations sur l’adresse IP.
 5.  Déterminez si votre application s’appuie sur des protocoles sous-jacents, tels que RPC, et apportez des modifications de programmation appropriées pour gérer les adresses IPv6.
-6.  Utilisez l’indicateur de compilation IPV6STRICT lors de la compilation d’applications sur Windows XP et versions ultérieures. Cet indicateur entraîne l’échec de la compilation du code incompatible, comme suit :
+6.  utilisez l’indicateur de compilation IPV6STRICT lors de la compilation d’applications sur Windows XP et versions ultérieures. Cet indicateur entraîne l’échec de la compilation du code incompatible, comme suit :
 
-    Les applications Windows Sockets 1. x avec du code incompatible ne peuvent pas être compilées et retournent le message d’erreur « WINSOCK2 requis ».
+    Windows Les applications Sockets 1. x avec du code incompatible ne peuvent pas être compilées et retournent le message d’erreur « WINSOCK2 requis ».
 
-    Les applications Windows Sockets 2. x avec du code incompatible provoquent une erreur au moment de la compilation pour chaque instance du code incompatible. Un message d’erreur est généré au format suivant :
+    Windows Les applications Sockets 2. x avec du code incompatible provoquent une erreur de compilation pour chaque instance du code incompatible. Un message d’erreur est généré au format suivant :
 
     `[file name] ([line number]) : [error message] '[symbol]_IPV6INCOMPATIBLE'`
 

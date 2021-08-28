@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2192eaac4a2d9ed883c2915c75cd4d46419270bd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4f2975203ccf1d95b29a117360a2394f1c7f9b35fc999eec30c2cae7774a5673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960938"
 ---
 # <a name="ms-dfsr-keywords-attribute"></a>attribut ms-DFSR-Keywords
 
@@ -43,7 +43,7 @@ Contient les mots clés définis par l’utilisateur.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient les mots clés définis par l’utilisateur.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-Keywords** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

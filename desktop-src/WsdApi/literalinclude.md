@@ -4,18 +4,18 @@ ms.assetid: 7a7ffd54-09e9-412d-a637-5dc27597b46e
 title: élément literalInclude
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1f43f1b8d3d95e2ad8a378dd1c8cbada7758ad
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bcfbd72300607dd2c6f3f21e4be3666083b559cb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995126"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625315"
 ---
 # <a name="literalinclude-element"></a>élément literalInclude
 
 Place une instruction include C ou IDL dans le code généré.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <literalInclude
@@ -29,10 +29,10 @@ Place une instruction include C ou IDL dans le code généré.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,7 +46,7 @@ Place une instruction include C ou IDL dans le code généré.
 <tr class="odd">
 <td><strong>Langage</strong><br/></td>
 <td>chaîne de langue<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Type de fichier d’en-tête à inclure. <br/> <br/>
 <dt><strong>Secteur</strong></dt> <dd> Incluez un fichier d’en-tête C.<br/> </dd> <dt><strong>MIDL</strong></dt> <dd> Incluez un fichier IDL.<br/> </dd> </dl></td>
 </tr>
@@ -126,7 +126,7 @@ import wsdclient.idl;
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

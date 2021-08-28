@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (bouton) (commctrl. h)
 description: Notifie la fenêtre parente d’un contrôle bouton sur les opérations de dessin personnalisées sur le bouton. Le contrôle Button envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: cabe5515-ba64-4c53-8746-7a0559df8989
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (bouton)
+- Windows des contrôles de notification de NM_CUSTOMDRAW (bouton)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3cc4eb73c3a0185131bb6ef2198458888ec89d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5930dd9023bac636fb645b7309c17cb4d70902b88a2b4f8a8ba857984a54ac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061739"
 ---
 # <a name="nm_customdraw-button-notification-code"></a>\_Code de notification CUSTOMDRAW nm (bouton)
 
@@ -63,7 +63,7 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle Button est marqué comme OwnerDraw (BS \_ OwnerDraw), le \_ Code de notification CUSTOMDRAW nm n’est pas envoyé.
 
@@ -80,8 +80,8 @@ Pour plus d’informations, consultez Utilisation d’un [dessin personnalisé](
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h (inclure Windows. h)</dt> </dl> |
 
 

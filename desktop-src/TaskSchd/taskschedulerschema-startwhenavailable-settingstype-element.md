@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d86f6f6e75457d08e10ef40d728eaf3e3b00aa7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa87fe438cb2916757e5ad9ecf88e08ce944eb6c71749c116afc75b253da6f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401759"
 ---
 # <a name="startwhenavailable-settingstype-element"></a>Élément StartWhenAvailable (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **StartWhenAvailable** est défini par le type complexe [**setting
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété s’applique uniquement aux tâches chronométrées.
 
@@ -71,8 +71,8 @@ Le code XML suivant définit un élément Settings qui permet au Planificateur d
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

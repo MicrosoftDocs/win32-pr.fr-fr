@@ -4,12 +4,12 @@ description: Lorsque le gestionnaire de groupe de multidiffusion est informé qu
 ms.assetid: b625f8ec-f59b-4151-aa38-48cf8f004966
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00dc70160b99c3cfc0e41078a3bd5882d930f31
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0da66e405441804cbca4452cedd7a6599067138bee95a33eaee7a2f10c34c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074119"
 ---
 # <a name="join-alert-callbacks"></a>Rappels d’alerte de jointure
 
@@ -27,9 +27,9 @@ Le gestionnaire de groupe de multidiffusion n’appelle pas ce rappel pour les j
 
 Lorsqu’une jointure spécifique à la source pour un ou plusieurs groupes est reçue, le gestionnaire de groupe de multidiffusion appelle le rappel de [**\_ rappel d' \_ alerte \_ PMGM Join**](/windows/desktop/api/Mgm/nc-mgm-pmgm_join_alert_callback) uniquement pour le client qui possède l’interface entrante vers la source.
 
- 
+ 
 
- 
+ 
 
 
 

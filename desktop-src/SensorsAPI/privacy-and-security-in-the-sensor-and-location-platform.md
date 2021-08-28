@@ -1,19 +1,19 @@
 ---
-description: La plate-forme capteur et emplacement Windows comprend des paramètres de confidentialité pour aider à protéger les informations personnelles des utilisateurs.
+description: le capteur de Windows et la plateforme d’emplacement incluent des paramètres de confidentialité pour aider à protéger les informations personnelles des utilisateurs.
 ms.assetid: 24425ed2-7b94-4b05-b117-9118d2074f49
-title: Confidentialité et sécurité dans la plate-forme capteur et emplacement Windows
+title: confidentialité et sécurité dans le capteur Windows et la plateforme d’emplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb0bf50cd27de1fc7fd4f42bd7a8455a549eea3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff5f2109b3f581e48537c135444dae2afa8cb20582fbc559da01809d77e11e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666969"
 ---
-# <a name="privacy-and-security-in-the-windows-sensor-and-location-platform"></a>Confidentialité et sécurité dans la plate-forme capteur et emplacement Windows
+# <a name="privacy-and-security-in-the-windows-sensor-and-location-platform"></a>confidentialité et sécurité dans le capteur Windows et la plateforme d’emplacement
 
-La plate-forme capteur et emplacement Windows comprend des paramètres de confidentialité pour aider à protéger les informations personnelles des utilisateurs.
+le capteur de Windows et la plateforme d’emplacement incluent des paramètres de confidentialité pour aider à protéger les informations personnelles des utilisateurs.
 
 La plateforme permet de s’assurer que les données de capteur restent privées, lorsque la confidentialité est requise, de l’une des manières suivantes :
 

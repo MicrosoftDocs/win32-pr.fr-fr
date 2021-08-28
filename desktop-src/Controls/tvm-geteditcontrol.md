@@ -3,7 +3,7 @@ title: Message TVM_GETEDITCONTROL (commctrl. h)
 description: Récupère le handle du contrôle d’édition utilisé pour modifier le texte d’un élément d’affichage d’arborescence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetEditControl TreeView.
 ms.assetid: c89e57e8-e113-47a1-85e6-bb68990f9c1a
 keywords:
-- TVM_GETEDITCONTROL les contrôles de message Windows
+- TVM_GETEDITCONTROL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b4ce0beb125218e65c2c342caf59b57473088e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a591104085de793d8ea479656eb9100424ba5194a173fd93d10444c43e2cbfc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104429"
 ---
 # <a name="tvm_geteditcontrol-message"></a>TVM \_ GETEDITCONTROL message
 
@@ -39,7 +39,7 @@ Récupère le handle du contrôle d’édition utilisé pour modifier le texte d
 
 Retourne le handle du contrôle d’édition en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la modification d’étiquette commence, un contrôle d’édition est créé, mais n’est pas positionné ni affiché. Avant qu’il ne soit affiché, le contrôle Tree-View envoie sa fenêtre parente à un code de notification [TVN \_ BEGINLABELEDIT](tvn-beginlabeledit.md) .
 
@@ -51,8 +51,8 @@ Pour personnaliser la modification des étiquettes, implémentez un gestionnaire
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

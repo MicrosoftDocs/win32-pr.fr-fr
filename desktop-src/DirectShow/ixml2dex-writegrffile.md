@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a411540d95a7313070a643b7b1895b564a49e089
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 121d901bee9da9b8ea6f7dad31e589002c0b4859619f6dd02941f438af3b647f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767019"
 ---
 # <a name="ixml2dexwritegrffile-method"></a>IXml2Dex :: WriteGrfFile, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -70,7 +70,7 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de l’interf
 |----------------------------------------------------------------------------------------------|---------------------------------|
 | <dl> <dt>**E \_ échec**</dt> </dl>       | Échec.<br/>             |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | L’argument n’est pas valide.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>             |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>             |
 
 
 
@@ -78,7 +78,7 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de l’interf
 
 Cette méthode peut également retourner des codes d’erreur générés par des appels internes aux méthodes **IStorage :: CreateStream,** et **IPersist :: Save** . Pour plus d’informations, consultez le kit de développement Platform SDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -86,7 +86,7 @@ Cette méthode peut également retourner des codes d’erreur générés par des
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

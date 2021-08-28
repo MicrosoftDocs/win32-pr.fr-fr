@@ -4,12 +4,12 @@ ms.assetid: b25db548-d5ab-4276-9b50-36d030909384
 title: Exécution avec des privilèges spéciaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53be662d187ef27c7afc12b031f2d8de225d34c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df9bcd9db0f54c14c5a66d452e394252e6dacad933a92157f59811af90f84a42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127269"
 ---
 # <a name="running-with-special-privileges"></a>Exécution avec des privilèges spéciaux
 

@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: b8478b76aebf293d562129d047330f33e52706b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba84549f1120f4f6d2045e9e9c999e56c38dd285e2ab25de5da1e1b12401f345
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120949"
 ---
 # <a name="__eventconsumer-class"></a>\_\_EventConsumer, classe
 
@@ -76,7 +76,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
+nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ File d’attente maximale pour un consommateur spécifique, en octets.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ EventConsumer** est dérivée de [**\_ \_ IndicationRelated**](--indicationrelated.md), qui n’a pas de propriétés.
 

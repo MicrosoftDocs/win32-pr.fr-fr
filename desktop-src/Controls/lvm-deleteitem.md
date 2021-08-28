@@ -3,7 +3,7 @@ title: Message LVM_DELETEITEM (commctrl. h)
 description: Supprime un élément d’un contrôle List-View. Vous pouvez envoyer ce message de manière explicite ou à l’aide de la macro de ListView \_ .
 ms.assetid: 0eddd4c1-7786-4a8c-a16d-9fd83cce98b3
 keywords:
-- LVM_DELETEITEM les contrôles de message Windows
+- LVM_DELETEITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19fce5afbbaa6702f296df12acf7dad4edac16fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88520e7d4f9d0d3ff22f90d7cea033b7674cfcbadbf55358f7ced8cc36c2399a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958418"
 ---
 # <a name="lvm_deleteitem-message"></a>Message de LVM. \_
 
@@ -49,8 +49,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

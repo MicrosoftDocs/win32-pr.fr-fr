@@ -4,12 +4,12 @@ ms.assetid: 0befbe4e-ac30-4823-b687-dd236b6dd7ab
 title: System. image. VerticalSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8659f01ae34d70308faac4238d00c7d6bc361e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c872e8a9113ca307327c2ace781d661c1d9b28658d4471e1980c88cbfdf342b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553829"
 ---
 # <a name="systemimageverticalsize"></a>System. image. VerticalSize
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

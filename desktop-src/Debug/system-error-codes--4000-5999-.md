@@ -4,17 +4,17 @@ ms.assetid: 1d2f7160-6322-4c75-abbc-4a882bbdf7ce
 title: Codes d’erreur système (4000-5999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: bfd39042489f2a92ff2eb13df92a22e392c5405e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ada3f091671fd865f76faa830b89393ecc80176021a4990a71d4715886a3ffea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956928"
 ---
 # <a name="system-error-codes-4000-5999"></a>Codes d’erreur système (4000-5999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) pour les erreurs 4000 à 5999. Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -1458,7 +1458,7 @@ L’opération d’écriture de déchargement de copie n’est pas prise en char
 
 
 
-Le stockage d’instance simple n’est pas disponible sur ce volume.
+la Stockage d’Instance unique n’est pas disponible sur ce volume.
 
 
 </dt> </dl> </dd> <dt>
@@ -2732,7 +2732,7 @@ Cet ordinateur ne peut pas être membre d’un cluster.
 
 
 
-Cet ordinateur ne peut pas être membre d’un cluster, car il n’a pas la version appropriée de Windows installée.
+cet ordinateur ne peut pas être membre d’un cluster, car il ne dispose pas de la version appropriée de Windows installée.
 
 
 </dt> </dl> </dd> <dt>
@@ -2797,7 +2797,7 @@ La lettre de lecteur affectée à un disque système sur un nœud est en conflit
 
 
 
-Un ou plusieurs nœuds du cluster exécutent une version de Windows qui ne prend pas en charge cette opération.
+un ou plusieurs nœuds du cluster exécutent une version de Windows qui ne prend pas en charge cette opération.
 
 
 </dt> </dl> </dd> <dt>
@@ -3096,7 +3096,7 @@ Le réseau de clusters n’est pas valide pour une ressource d’adresse IPv6, o
 
 
 
-Le réseau de clusters n’est pas valide pour une ressource de tunnel IPv6. Vérifiez la configuration de la ressource d’adresse IP dont dépend la ressource de tunnel IPv6.
+le réseau de clusters n’est pas valide pour une ressource de Tunnel IPv6. vérifiez la configuration de la ressource d’adresse IP dont dépend la ressource de Tunnel IPv6.
 
 
 </dt> </dl> </dd> <dt>
@@ -3109,7 +3109,7 @@ Le réseau de clusters n’est pas valide pour une ressource de tunnel IPv6. Vé
 
 
 
-La ressource de quorum ne peut pas résider dans le groupe de stockage disponible.
+la ressource de Quorum ne peut pas résider dans le groupe de Stockage disponible.
 
 
 </dt> </dl> </dd> <dt>
@@ -3592,7 +3592,7 @@ Le disque n’est pas configuré de manière à être utilisé avec des volumes 
 
 
 
-La ressource doit faire partie du groupe de stockage disponible pour effectuer cette action.
+la ressource doit faire partie du groupe Stockage disponible pour effectuer cette action.
 
 
 </dt> </dl> </dd> <dt>
@@ -3695,8 +3695,8 @@ Impossible d’effectuer l’opération, car la ressource est un ordinateur virt
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

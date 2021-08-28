@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b29ba66be8f2d3aefaec4f437359f2af5275d2f0
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 709cded1238654fffcf8ce75e5cba85c6139eb6264592e99684462e0a9cb2661
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106523113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072489"
 ---
 # <a name="exec-actiongroup-element"></a>Élément exec (actionGroup)
 
@@ -64,7 +64,7 @@ L’élément **Exec** est défini par [**actionGroup**](taskschedulerschema-act
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les éléments enfants répertoriés ci-dessus sont définis par le type complexe [**execType**](taskschedulerschema-exectype-complextype.md) .
 
@@ -84,8 +84,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui utilise un décle
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
