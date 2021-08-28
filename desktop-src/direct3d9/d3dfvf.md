@@ -4,12 +4,12 @@ ms.assetid: 85d9f5b2-8e4a-4f92-a587-eae5b293778c
 title: D3DFVF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a088dda530904c320720371c76601fd4fb254481
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 56136b57aa0af7e8a7d4050f9feb6e1e3e92f3b6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343259"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629738"
 ---
 # <a name="d3dfvf"></a>D3DFVF
 
@@ -75,8 +75,8 @@ Les indicateurs suivants décrivent divers indicateurs utilisés par le pipeline
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -92,7 +92,7 @@ Les indicateurs suivants décrivent divers indicateurs utilisés par le pipeline
 <td>Le dernier champ bêta dans les données de position du vertex sera de type UBYTE4. Les données des champs bêta sont utilisées avec l’apparence de palette de matrices pour spécifier des index de matrice. <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -123,7 +123,7 @@ struct VERTEXPOSITION
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

@@ -1,19 +1,19 @@
 ---
-description: L' <url> élément spécifie une URL pour l’emplacement de ce connecteur de recherche.
+description: L' &lt; &gt; élément URL spécifie une URL pour l’emplacement de ce connecteur de recherche.
 ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: Élément URL simpleLocation (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8818eacdaecd33353d4340270770e80b4a63ceee
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118226324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883115"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>Élément URL simpleLocation (schéma du connecteur de recherche)
 
-L' <url> élément spécifie une URL pour l’emplacement de ce connecteur de recherche. Cette valeur peut être une URL file://normale telle que définie dans la RFC 1738 ( https://www.ietf.org/rfc/rfc1738.txt) document ou ou une URL qui utilise le protocole fichier KnownFolders :. Cet élément n’a pas d’éléments enfants ni d’attributs.
+L' &lt; &gt; élément URL spécifie une URL pour l’emplacement de ce connecteur de recherche. Cette valeur peut être une URL file://normale telle que définie dans la RFC 1738 ( https://www.ietf.org/rfc/rfc1738.txt) document ou ou une URL qui utilise le protocole fichier KnownFolders :. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

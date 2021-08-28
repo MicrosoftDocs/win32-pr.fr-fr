@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 455b46465733a906b879dcedc4b5a2f4e6ef1f9e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 2f821d3aea8055f6c1344ed9d5107417adbaf604
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985512"
 ---
 # <a name="meta-parameters"></a>Paramètres méta
 
@@ -87,7 +87,19 @@ Une petite configuration a également plusieurs autres effets sur le moteur de b
   - Diverses activités de maintenance sont mises à l’échelle pour éviter l’activité des threads en arrière-plan
 
 
-| | | <p>Valeur par défaut :</p> | <p>1 (hérité)</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 1</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>1 (hérité)</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 1</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
 
 
 
@@ -178,14 +190,30 @@ Les paramètres système suivants seront protégés de la définition lorsque ce
   - JET_paramCheckpointIOMax
 
 
-| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Vrai</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
 
 
 
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

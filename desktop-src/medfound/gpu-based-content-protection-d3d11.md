@@ -4,12 +4,12 @@ ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: GPU-Based protection du contenu avec la vidéo D3D11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3ad4301de238ed19fbb047972a15c4acb9e48be069668882fe339ac3da390b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24af51187c400c11afa2ea273e7718c2d38ce429
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117879145"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481735"
 ---
 # <a name="gpu-based-content-protection-with-d3d11-video"></a>GPU-Based protection du contenu avec la vidéo D3D11
 
@@ -186,41 +186,14 @@ Pour envoyer une commande au canal authentifié, procédez comme suit.
 
 1.  Renseignez la structure des données d’entrée. Cette structure de données est toujours une structure [**D3D11_AUTHENTICATED_CONFIGURE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input) suivie de champs supplémentaires. Renseignez la structure **D3D11_AUTHENTICATED_CONFIGURE_INPUT** comme indiqué dans le tableau suivant.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Membre</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>omac</strong></td>
-    <td>Ignorez ce champ pour l’instant.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>ConfigureType</strong></td>
-    <td>GUID qui identifie la commande. Pour obtenir la liste des commandes, consultez <a href="content-protection-commands.md">protection du contenu des commandes</a>.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>hChannel</strong></td>
-    <td>Handle du canal authentifié.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre commande, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.
-    <blockquote>
-    [!Note]<br />
-Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Membre | Description | 
+|--------|-------------|
+| <strong>omac</strong> | Ignorez ce champ pour l’instant. | 
+| <strong>ConfigureType</strong> | GUID qui identifie la commande. Pour obtenir la liste des commandes, consultez <a href="content-protection-commands.md">protection du contenu des commandes</a>. | 
+| <strong>hChannel</strong> | Handle du canal authentifié. | 
+| <strong>SequenceNumber</strong> | Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre commande, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.    <blockquote>    [!Note]<br />    Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.    </blockquote><br /><br /> | 
+
 
     
 
@@ -241,37 +214,13 @@ Pour envoyer une commande au canal authentifié, procédez comme suit.
 
 1.  Renseignez la structure des données d’entrée. Cette structure de données est toujours une structure [**D3D11_AUTHENTICATED_QUERY_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input) , éventuellement suivie de champs supplémentaires. Renseignez la structure **D3D11_AUTHENTICATED_QUERY_INPUT** comme indiqué dans le tableau suivant.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Membre</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Affectée</strong></td>
-    <td>GUID qui identifie la requête. Pour obtenir la liste des requêtes, consultez <a href="content-protection-queries.md">protection du contenu des requêtes</a>.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>hChannel</strong></td>
-    <td>Handle du canal authentifié.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre requête, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.
-    <blockquote>
-    [!Note]<br />
-Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Membre | Description | 
+|--------|-------------|
+| <strong>Affectée</strong> | GUID qui identifie la requête. Pour obtenir la liste des requêtes, consultez <a href="content-protection-queries.md">protection du contenu des requêtes</a>. | 
+| <strong>hChannel</strong> | Handle du canal authentifié. | 
+| <strong>SequenceNumber</strong> | Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre requête, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.    <blockquote>    [!Note]<br />    Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.    </blockquote><br /><br /> | 
+
 
     
 

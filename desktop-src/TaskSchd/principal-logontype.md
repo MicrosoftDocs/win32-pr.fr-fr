@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7db85573072c54a613009c3afec4873a38db4ff7336e487553437967b4c6e1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec67a00b55510aecb980fd8bd8a5b2fa4ad6c73e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885648"
 ---
 # <a name="principallogontype-property"></a>Propriété principal. LogonType
 
@@ -60,11 +60,11 @@ Définissez l’une des constantes d’énumération de [**\_ type d’ouverture
 
 Cette propriété est valide uniquement lorsqu’un identificateur d’utilisateur est spécifié par la propriété [**userid**](principal-userid.md) .
 
-Lors de la lecture ou de l’écriture de données XML pour une tâche, le type de connexion est spécifié dans l' [**<LogonType>**](taskschedulerschema-logontype-principaltype-element.md) élément du schéma planificateur de tâches.
+Lors de la lecture ou de l’écriture de données XML pour une tâche, le type de connexion est spécifié dans l’élément [**&lt; LogonType &gt;**](taskschedulerschema-logontype-principaltype-element.md) du schéma planificateur de tâches.
 
 Pour une tâche, qui contient une action de MessageBox, la boîte de message s’affiche si la tâche est activée et que la tâche a un type de connexion interactive. Pour définir le type d’ouverture de session de la tâche sur interactif, spécifiez 3 (**\_ \_ \_ jeton interactif d’ouverture de session**) ou 4 (**\_ \_ groupe d’ouverture de session de tâche**) dans la propriété **LogonType** du principal de la tâche, ou dans le paramètre *LogonType* de [**TaskFolder. RegisterTask**](taskfolder-registertask.md) ou [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -84,7 +84,7 @@ Pour une tâche, qui contient une action de MessageBox, la boîte de message s�
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Principal**](principal.md)
+[**Directeur**](principal.md)
 </dt> </dl>
 
  

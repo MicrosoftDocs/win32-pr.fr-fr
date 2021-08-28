@@ -94,7 +94,7 @@ l’équivalent de la ligne de commande Windows Installer a <a href="rebootpromp
 </tr>
 <tr class="odd">
 <td><strong>/Uninstall</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi| ProductCode></em></td>
 <td>Option de désinstallation du produit. Désinstalle un produit.<br/>
 <blockquote>
 [!Note]<br />
@@ -104,7 +104,7 @@ l’équivalent <a href="command-line-options.md">de l’Option de ligne de comm
 </tr>
 <tr class="even">
 <td><strong>/Uninstall</strong></td>
-<td><em>/package <Package.msi | ProductCode> /Uninstall <Update1.msp | PatchGUID1> [; Update2. msp | PatchGUID2]</em></td>
+<td><em>/package &lt;Package.msi | ProductCode>/Uninstall <Update1.msp | PatchGUID1> [; Update2. msp | PatchGUID2]</em></td>
 <td>Option de désinstallation de mise à jour. Désinstalle un correctif de mise à jour.<br/>
 <blockquote>
 [!Note]<br />
@@ -141,7 +141,7 @@ pour plus d’informations sur toutes les méthodes qui sont disponibles pour d�
 </tr>
 <tr class="even">
 <td><strong>/package</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi| ProductCode></em></td>
 <td>Option d’installation du produit. Installe ou configure un produit.<br/>
 <blockquote>
 [!Note]<br />

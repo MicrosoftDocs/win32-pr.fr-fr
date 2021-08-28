@@ -4,12 +4,12 @@ ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: Message messages ProbeMatches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa395557aac7c67a82163066cf1bfbb854348e1c
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 813549091edc6cbb1202d746c7a7f62ecf3e03b5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882005"
 ---
 # <a name="probematches-message"></a>Message messages ProbeMatches
 
@@ -92,16 +92,16 @@ Un message messages ProbeMatches a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>Messages ProbeMatches</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/ProbeMatches
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>L’action SOAP messages ProbeMatches identifie le message en tant que message messages ProbeMatches.</td>
 </tr>
 <tr class="even">
 <td>RelatesTo</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:RelatesTo&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-</wsa:RelatesTo></code></pre></td>
+&lt;/wsa:RelatesTo&gt;</code></pre></td>
 <td>Identificateur du message auquel le service répond. Cet en-tête correspond à MessageId dans le message de <a href="probe-message.md">sondage</a> .</td>
 </tr>
 <tr class="odd">
@@ -109,21 +109,21 @@ Un message messages ProbeMatches a les points de focalisation suivants.
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;1&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;9&quot;>
-</wsd:AppSequence></code></pre></td>
+&lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>Contient des informations de séquencement d’application, qui permettent de maintenir la séquence de messages même si elles sont reçues dans le désordre. Le AppSequence est validé comme décrit dans <a href="appsequence-validation-rules.md">règles de validation AppSequence</a>.</td>
 </tr>
 <tr class="even">
 <td>Adresse</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>Contient l’adresse du point de terminaison. Ce adressé peut être référencé dans un message de <a href="resolve-message.md">résolution</a> .</td>
 </tr>
 <tr class="odd">
 <td>XAddrs</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:XAddrs&gt;
     https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsd:XAddrs></code></pre></td>
+&lt;/wsd:XAddrs&gt;</code></pre></td>
 <td>Les XAddrs sont des adresses de transport qui peuvent être utilisées pour la communication entre le client et le service. Les ADR sont validées comme décrit dans <a href="xaddr-validation-rules.md">règles de validation XAddr</a>.</td>
 </tr>
 </tbody>

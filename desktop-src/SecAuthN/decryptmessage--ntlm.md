@@ -4,12 +4,12 @@ ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: DecryptMessage (NTLM) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: acf1334f0276f13332703410c5c8c5a58ca0d9f458a45d2b50bb119310e96cd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f73159c1b6e9fbe3d6d9c282ffdb05271e29583b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008497"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481045"
 ---
 # <a name="decryptmessage-ntlm-function"></a>DecryptMessage (NTLM) (fonction)
 
@@ -49,10 +49,13 @@ Pointeur vers une variable de type **ULong** qui reçoit des indicateurs spécif
 
 Ce paramètre peut être l’indicateur suivant.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Le message n’a pas été chiffré, mais un en-tête ou un code de fin a été créé.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br/></td></tr></tbody></table>
 
-## <a name="return-value"></a>Valeur retournée
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Le message n’a pas été chiffré, mais un en-tête ou un code de fin a été créé.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br /> | 
+
+
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction vérifie que le message a été reçu dans l’ordre correct, la fonction retourne SEC \_ E \_ OK.
 

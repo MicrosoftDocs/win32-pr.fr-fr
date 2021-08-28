@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 310d64170280053c34766f214969f78d66560ea3
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: fd10f6d726118679f395f01714233c7096fd5189
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011072"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476415"
 ---
 # <a name="vs_3_0"></a>vs \_ 3 \_ 0
 
@@ -54,15 +54,15 @@ Comme pour vs \_ 2 \_ 0, la sortie du nuanceur peut varier en fonction du contr�
 
 ### <a name="dynamic-flow-control"></a>Contrôle de Flow dynamique
 
-Toutes les instructions de contrôle de Flow dynamique sont prises en charge. La valeur de profondeur d’imbrication maximale autorisée est 24. (Pour plus d’informations, consultez [limites d’imbrication du contrôle de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
+Toutes les instructions de contrôle de Flow dynamique sont prises en charge. La valeur de profondeur d’imbrication maximale autorisée est 24. (pour plus d’informations, consultez [Flow les limites d’imbrication](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
 
 ### <a name="temporary-registers"></a>Registres temporaires
 
 Un total de 32 registres temporaires (r \# ) est pris en charge.
 
-### <a name="static-flow-control"></a>Contrôle de Flow statique
+### <a name="static-flow-control"></a>contrôle de Flow statique
 
-La profondeur d’imbrication maximale pour [Loop-vs](loop---vs.md) / [REP-vs](rep---vs.md) est 4. La profondeur d’imbrication maximale pour [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [callnz prédit-vs](callnz-pred---vs.md) est 4. Pour [si bool-vs](if-bool---vs.md), la valeur de profondeur d’imbrication maximale autorisée est 24. (Pour plus d’informations, consultez [limites d’imbrication du contrôle de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
+La profondeur d’imbrication maximale pour [Loop-vs](loop---vs.md) / [REP-vs](rep---vs.md) est 4. La profondeur d’imbrication maximale pour [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [callnz prédit-vs](callnz-pred---vs.md) est 4. Pour [si bool-vs](if-bool---vs.md), la valeur de profondeur d’imbrication maximale autorisée est 24. (pour plus d’informations, consultez [Flow les limites d’imbrication](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
 
 ### <a name="predication"></a>Prédicat
 
@@ -78,71 +78,19 @@ Si le nuanceur de sommets 3 \_ 0 est pris en charge, les limites suivantes sont 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Encapsul</th>
-<th>Fonctionnalité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bouchons de nuanceur</td>
-<td><ul>
-<li>DynamicFlowControlDepth est 24</li>
-<li>NumTemps est 32</li>
-<li>StaticFlowControlDepth est 4</li>
-<li>Le prédicat est pris en charge.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom</td>
-<td>8 Ko</td>
-</tr>
-<tr class="odd">
-<td>VertexShaderVersion</td>
-<td>3_0</td>
-</tr>
-<tr class="even">
-<td>MaxVertexShaderConst</td>
-<td>256</td>
-</tr>
-<tr class="odd">
-<td>MaxVertexShader30InstructionSlots</td>
-<td>512</td>
-</tr>
-<tr class="even">
-<td>Prise en charge du brouillard</td>
-<td>D3DPRASTERCAPS_FOGVERTEX</td>
-</tr>
-<tr class="odd">
-<td>VertexTextureFilterCaps</td>
-<td><ul>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
-<td>Les éléments vertex dans une déclaration de vertex peuvent partager le même décalage de flux.</td>
-</tr>
-<tr class="odd">
-<td>Formats de vertex</td>
-<td><ul>
-<li>D3DDECLTYPE_UBYTE4</li>
-<li>D3DDECLTYPE_UBYTE4N</li>
-<li>D3DDECLTYPE_SHORT2N</li>
-<li>D3DDECLTYPE_SHORT4N</li>
-<li>D3DDECLTYPE_FLOAT16_2</li>
-<li>D3DDECLTYPE_FLOAT16_4</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Encapsul | Fonctionnalité | 
+|-----|------------|
+| Bouchons de nuanceur | <ul><li>DynamicFlowControlDepth est 24</li><li>NumTemps est 32</li><li>StaticFlowControlDepth est 4</li><li>Le prédicat est pris en charge.</li></ul> | 
+| GuardBandLeft, GuardBandTop, GuardBandRight, GuardBandBottom | 8 Ko | 
+| VertexShaderVersion | 3_0 | 
+| MaxVertexShaderConst | 256 | 
+| MaxVertexShader30InstructionSlots | 512 | 
+| Prise en charge du brouillard | D3DPRASTERCAPS_FOGVERTEX | 
+| VertexTextureFilterCaps | <ul><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li></ul> | 
+| <a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a> | Les éléments vertex dans une déclaration de vertex peuvent partager le même décalage de flux. | 
+| Formats de vertex | <ul><li>D3DDECLTYPE_UBYTE4</li><li>D3DDECLTYPE_UBYTE4N</li><li>D3DDECLTYPE_SHORT2N</li><li>D3DDECLTYPE_SHORT4N</li><li>D3DDECLTYPE_FLOAT16_2</li><li>D3DDECLTYPE_FLOAT16_4</li></ul> | 
+
 
 
 

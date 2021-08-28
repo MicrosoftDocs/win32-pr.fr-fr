@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7688df9a18d8e13a85e4a244fc8502a7147e154f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f29253f3b320abb662f7a4334a14c1c49ed546
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984882"
 ---
 # <a name="jetdetachdatabase2-function"></a>Fonction JetDetachDatabase2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdetachdatabase2-function"></a>Fonction JetDetachDatabase2
 
 La fonction **JetDetachDatabase2** libère un fichier de base de données qui était précédemment attaché à une session de base de données.
 
-**Windows XP :**  **JetDetachDatabase2** est introduit dans Windows XP.
+**Windows xp :****JetDetachDatabase2** est introduit dans Windows xp.  
 
 ```cpp
     JET_ERR JET_API JetDetachDatabase2(
@@ -60,75 +60,31 @@ Nom de la base de données à détacher. Si *szFilename* a la **valeur null** ou
 
 Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitForceCloseAndDetach</p></td>
-<td><p>Force la fermeture et le détachement de la base de données. Si JET_bitForceCloseAndDetach n’est pas pris en charge, JET_errForceDetachNotAllowed sera retourné.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitForceDetach</p></td>
-<td><p>Force le détachement de la base de données. Si JET_bitForceDetach n’est pas pris en charge, JET_errForceDetachNotAllowed sera retourné.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitForceCloseAndDetach</p> | <p>Force la fermeture et le détachement de la base de données. Si JET_bitForceCloseAndDetach n’est pas pris en charge, JET_errForceDetachNotAllowed sera retourné.</p> | 
+| <p>JET_bitForceDetach</p> | <p>Force le détachement de la base de données. Si JET_bitForceDetach n’est pas pris en charge, JET_errForceDetachNotAllowed sera retourné.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>La base de données est en cours de sauvegarde et ne peut pas être détachée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>La base de données a été ouverte par <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a>. Les bases de données doivent être fermées avant le détachement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>La base de données n’a pas été attachée précédemment (consultez <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> ou <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errForceDetachNotAllowed</p></td>
-<td><p>JET_bitForceDetach n’est pas pris en charge.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInTransaction</p></td>
-<td><p>Une tentative de détachement d’une base de données a été effectuée dans une transaction.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>La base de données est en cours de sauvegarde et ne peut pas être détachée.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>La base de données a été ouverte par <a href="gg269299(v=exchg.10).md">JetOpenDatabase</a>. Les bases de données doivent être fermées avant le détachement.</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>La base de données n’a pas été attachée précédemment (consultez <a href="gg294074(v=exchg.10).md">JetAttachDatabase</a> ou <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p> | 
+| <p>JET_errForceDetachNotAllowed</p> | <p>JET_bitForceDetach n’est pas pris en charge.</p> | 
+| <p>JET_errInTransaction</p> | <p>Une tentative de détachement d’une base de données a été effectuée dans une transaction.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 Si une base de données attachée a été ouverte (avec [JetAttachDatabase](./jetattachdatabase-function.md)), elle doit être fermée avec [JetCloseDatabase](./jetclosedatabase-function.md) avant le détachement.
 
@@ -136,38 +92,16 @@ Windows 2000 uniquement : les bases de données qui n’ont pas été détaché
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetDetachDatabase2W</strong> (Unicode) et <strong>JetDetachDatabase2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetDetachDatabase2W</strong> (Unicode) et <strong>JetDetachDatabase2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

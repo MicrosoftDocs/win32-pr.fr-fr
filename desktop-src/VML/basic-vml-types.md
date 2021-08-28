@@ -22,12 +22,12 @@ keywords:
 - Type vector
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dbb2e540e809b88b446cceda9973f8988c7241cae7f4f96402a0edc7906550
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a640dbacf875284008714ae404ba462b61652067
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118347774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883278"
 ---
 # <a name="basic-vml-types"></a>Types VML de base
 
@@ -120,7 +120,7 @@ Une valeur booléenne est représentée sous la forme d’un mot clé qui indiqu
 | Valeur pour true | Valeur pour false |
 |----------------|-----------------|
 | true           | false           |
-| oui            | non              |
+| Oui            | non              |
 | sur             | arrêt             |
 | t              | f               |
 | 1              | 0               |
@@ -199,7 +199,7 @@ Tous les qualificateurs d’unités [CSS1](https://www.w3.org/pub/WWW/TR/REC-CSS
 
 | Nombre d’EMU | Nombre par pouce | Nombre par millimètre | Description             |
 |----------------|-----------------|-----------------------|-------------------------|
-| 360            |                 | 0,01                  | HIMETRIC Win32          |
+| 360            |                 | 0.01                  | HIMETRIC Win32          |
 | 12700          | 72              |                       | point                 |
 | 635            | 1440            |                       | TWIP Win32              |
 | 762            | 1200            |                       | Imprimante haute résolution |
@@ -336,7 +336,7 @@ Dans les définitions XPointer, la source d’emplacement est l’élément cont
 
 
 
-| Couleur            | Définition                                                                                                  | Niveau | Description                                                                                                                                                               |
+| Color            | Définition                                                                                                  | Level | Description                                                                                                                                                               |
 |------------------|-------------------------------------------------------------------------------------------------------------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | name             | Voir ci-dessous                                                                                                   | 0     | Nom de la couleur HTML, comme indiqué dans le tableau ci-dessous.                                                                                                                            |
 | \#rr'gg'bb'      | \#rr'gg'bb'                                                                                                 | 0     | Représentation de couleur standard CSS1/sRVB utilisant des valeurs de la plage 0.. 255 représentées à l’aide de 2 chiffres hexadécimaux chacun.                                                     |
@@ -353,7 +353,7 @@ Dans les définitions XPointer, la source d’emplacement est l’élément cont
 | Scheme (*index*)  | Voir ci-dessous                                                                                                   | 1     | *Index* de couleurs du modèle, à partir de 0 ; Voir ci-dessous.                                                                                                                         |
 | this             | Découle                                                                                                     | 2     | L’opération (remplissage d’un tracé ou dessin) est définie d’une autre façon (par exemple, en tant que bitmap), et la couleur spécifie une « modification » des couleurs, de cette façon. |
 | palette (*index*) | Découle                                                                                                     | 3     | Se comporte de la même façon que cela, sauf qu’une seule entrée dans une table de couleurs de bitmap est identifiée. Autorisé uniquement lorsque l’énoncé explicite est spécifié.                             |
-| aucun             | \-                                                                                                          | 2     | Indique l’absence d’une couleur ; peut être utilisé pour annuler une opération de dessin qui utilise la couleur.                                                                          |
+| Aucun             | \-                                                                                                          | 2     | Indique l’absence d’une couleur ; peut être utilisé pour annuler une opération de dessin qui utilise la couleur.                                                                          |
 | système           | Voir ci-dessous                                                                                                   | 3     | Couleur définie par l’interface utilisateur système.                                                                                                                             |
 
 
@@ -509,7 +509,7 @@ pure
 
 
 
-Si l’élément <pure/> apparaît dans une valeur de couleur, il s’agit d’une indication que la couleur ne doit pas être approximative par un modèle de trame. Il s’agit d’une fonctionnalité de niveau 1, et une implémentation conforme n’a pas besoin d’être respectée. La désignation est importante pour les graphiques affichés sur des appareils de résolution moyenne, tels que les affichages vidéo, où les petites fonctionnalités (telles que les lignes) peuvent provoquer des alias erronés avec des couleurs dépendantes. Sur les appareils tels que les imprimantes, qui déforment normalement toutes les couleurs, à l’exception des quelques couleurs entièrement saturées, le tramage est normalement suffisamment suffisant pour éviter ce problème.
+Si l’élément &lt; est pur/ &gt; apparaît dans une valeur de couleur, il s’agit d’une indication que la couleur ne doit pas être approximative par un modèle de trame. Il s’agit d’une fonctionnalité de niveau 1, et une implémentation conforme n’a pas besoin d’être respectée. La désignation est importante pour les graphiques affichés sur des appareils de résolution moyenne, tels que les affichages vidéo, où les petites fonctionnalités (telles que les lignes) peuvent provoquer des alias erronés avec des couleurs dépendantes. Sur les appareils tels que les imprimantes, qui déforment normalement toutes les couleurs, à l’exception des quelques couleurs entièrement saturées, le tramage est normalement suffisamment suffisant pour éviter ce problème.
 
 [![retour au début ](images/top.gif) en haut](#top)
 
@@ -554,7 +554,7 @@ color.adj
 
 Le paramètre des six premières opérations est une valeur numérique intégrale unique comprise entre 0 et 255. L’ajustement est effectué sur la valeur RGB 3x8bit comme suit :
 
-1.  Si <gray/> est spécifié, la valeur RVB est remplacée par YYY, où y est la valeur de luminance (y) calculée à partir de la valeur sRVB en suivant l’ITU-r BT. 709. Ce calcul est le suivant :
+1.  Si &lt; la valeur gris/ &gt; est spécifiée, la valeur RVB est remplacée par YYY, où y est la valeur de luminance (y) calculée à partir de la valeur sRVB en suivant l’ITU-r BT. 709. Ce calcul est le suivant :
     ```HTML
     y = 0 2125xr + 0 7154xg + 0 0721xb
     ```
@@ -567,7 +567,7 @@ Le paramètre des six premières opérations est une valeur numérique intégral
     |-----------------|------------------------------------|
     | fonce          | c : = CXP/255                       |
     | Light         | c : = 255-(255-c) XP/255           |
-    | ajouter             | c : = c + p                         |
+    | add             | c : = c + p                         |
     | soustraction        | c : = c-p                         |
     | reversesubtract | c : = p-c                         |
     | blackwhite      | Si c < p thenc : = 0elsec : = 255 |
@@ -578,7 +578,7 @@ Le paramètre des six premières opérations est une valeur numérique intégral
 
     Dans chaque cas, si la valeur du composant calculé, c, est supérieure à 255, 255 est utilisé et, s’il est inférieur à 0, la valeur 0 est utilisée.
 
-3.  Si <INVERT128/> est donné, la valeur 128 est soustraite ou ajoutée à chaque composant selon que le composant est inférieur à 128 ou non.
+3.  Si &lt; INVERT128/ &gt; est donné, la valeur 128 est soustraite ou ajoutée à chaque composant selon que le composant est inférieur à 128 ou non.
     ```HTML
     if c < 128
         then
@@ -589,7 +589,7 @@ Le paramètre des six premières opérations est une valeur numérique intégral
 
     
 
-4.  Si <invert/> est donné, chaque composant est remplacé par 255 moins la valeur du composant.
+4.  Si l’option &lt; inversée/ &gt; est spécifiée, chaque composant est remplacé par 255 moins la valeur du composant.
     ```HTML
     c := 255-c
     ```

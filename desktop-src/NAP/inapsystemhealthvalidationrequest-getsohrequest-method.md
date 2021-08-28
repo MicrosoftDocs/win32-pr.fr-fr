@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9d9dc3b28aec92b7125dc2cad6bf8b843975945ca89687957d56be0ff562d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9c140af202de263e99f0fa8ec72186da6e995ec
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882618"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohrequest-method"></a>INapSystemHealthValidationRequest :: GetSoHRequest, méthode
 
@@ -84,11 +84,11 @@ Le paramètre *sohRequest* peut retourner la **valeur null** si le client n’a 
 
 Si le paramètre *napSystemGenerated* a la **valeur true**, le format de *SoHRequest* est le suivant :
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  sohAttributeTypeSystemHealthId &lt; identifi&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) =  [ **failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
--   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  =  [ **<SHA-Failure-erreur-code>**](nap-error-constants.md)
+-   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  =  [ **&lt; SHA-échec-erreur-code &gt;**](nap-error-constants.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

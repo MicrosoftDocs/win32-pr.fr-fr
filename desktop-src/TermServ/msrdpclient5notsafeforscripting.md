@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b23c525a779429eef31204c7f54fa9b4a15aa67f2a84c3f65f5a3cc0f8816d39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b3fd7c6a34024e15907bd4e41b93ce693b18ce8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118605339"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483205"
 ---
 # <a name="msrdpclient5notsafeforscripting-class"></a>MsRdpClient5NotSafeForScripting, classe
 
@@ -109,262 +109,57 @@ La classe **MsRdpClient5NotSafeForScripting** possède les propriétés suivante
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Propriété</th>
-<th style="text-align: left;">Type d’accès</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur d’interface <a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur vers l’interface <a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur vers l’interface <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur vers l’interface <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur d’interface <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Interface à <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Cette propriété n'est pas prise en charge.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Cette propriété n'est pas prise en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Force de chiffrement maximale du contrôle actuel.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>La</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Profondeur de couleur du contrôle actuel.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connected.md"><strong>Connecté</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">État de connexion du contrôle actuel.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Chaîne de texte à afficher pour la barre de connexion.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Hauteur du contrôle actuel, en pixels, sur le Bureau à distance initial.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Largeur, en pixels, du contrôle actif sur le Bureau à distance initial.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Collection des périphériques PnP disponibles pour la redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-domain.md"><strong>Domain</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Domaine sur lequel l’utilisateur actuel ouvre une session.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Collection de lecteurs de disque disponibles pour la redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si CredSSP est activé pour cette connexion.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Informations étendues sur la raison de la déconnexion du contrôle client.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>Large</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Indique si le contrôle est en mode plein écran.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Indique si le contrôle a affiché une barre de défilement horizontale.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Paramètres client pour le lanceur du portail Web.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le paramètre NegotiateSecurityLayer est pris en charge pour cette connexion.<br/>
-<blockquote>
-[!Note]<br />
-Lorsque <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> est activé et présent sur le client, ou lorsque SSL (Secure Sockets Layer) (SSL) est activé avec l’authentification utilisateur, NegotiateSecurityLayer est ignoré.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Cette propriété n'est pas prise en charge.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Cette propriété n'est pas prise en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la boîte de dialogue demander les informations d’identification doit s’afficher.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si les appareils PnP attachés de manière dynamique et qui sont énumérés dans une session sont disponibles pour la redirection.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si les lecteurs PnP attachés de manière dynamique et qui sont énumérés dans une session sont disponibles pour la redirection.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Paramètre RemoteApp du client.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur d’interface <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Pointeur vers l’interface <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Indique si l’interface <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> est disponible.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-server.md"><strong>Serveurs</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Nom du serveur auquel le contrôle actuel est connecté.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la boîte de dialogue Avertissement de sécurité de redirection doit s’afficher avant le démarrage d’une session.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Paramètre de la passerelle des services Bureau à distance du client.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Handle de fenêtre qui doit être la fenêtre parente pour le contrôle. Cela permet aux fenêtres affichées par le contrôle d’être correctement modales par rapport à toutes les fenêtres affichées par l’application parente.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-username.md"><strong>Nom d’utilisateur</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Informations d’identification d’ouverture de session de nom d’utilisateur.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-version.md"><strong>Version</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Numéro de version du contrôle actuel.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br/></td>
-<td style="text-align: left;">Lecture seule<br/></td>
-<td style="text-align: left;">Indique si le contrôle affiche une barre de défilement verticale.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la boîte de dialogue d’avertissement de sécurité doit inclure un avertissement sur la redirection du presse-papiers avant de démarrer une session.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si l’avertissement de sécurité doit inclure un avertissement concernant l’envoi d’informations d’identification au serveur distant avant le démarrage d’une session.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Propriété | Type d’accès | Description | 
+|----------|-------------|-------------|
+| <a href="imstscax-advancedsettings.md"><strong>AdvancedSettings</strong></a><br /> | Lecture seule<br /> | Pointeur d’interface <a href="imstscadvancedsettings-interface.md"><strong>IMsTscAdvancedSettings</strong></a> .<br /> | 
+| <a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br /> | Lecture seule<br /> | Pointeur vers l’interface <a href="imsrdpclientadvancedsettings-interface.md"><strong>IMsRdpClientAdvancedSettings</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br /> | 
+| <a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br /> | Lecture seule<br /> | Pointeur vers l’interface <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br /> | 
+| <a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br /> | Lecture seule<br /> | Pointeur vers l’interface <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> , utilisé pour définir des paramètres avancés pour le contrôle client.<br /> | 
+| <a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br /> | Lecture seule<br /> | Pointeur d’interface <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> .<br /> | 
+| <a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br /> | Lecture seule<br /> | Interface à <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br /> | 
+| <a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br /> | Lecture/écriture<br /> | Cette propriété n'est pas prise en charge.<br /> | 
+| <a href="imstscnonscriptable-binarysalt.md"><strong>BinarySalt</strong></a><br /> | Lecture/écriture<br /> | Cette propriété n'est pas prise en charge.<br /> | 
+| <a href="imstscax-cipherstrength.md"><strong>CipherStrength</strong></a><br /> | Lecture seule<br /> | Force de chiffrement maximale du contrôle actuel.<br /> | 
+| <a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br /> | Écriture seule<br /> | Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br /> | 
+| <a href="imsrdpclient-colordepth.md"><strong>La</strong></a><br /> | Lecture/écriture<br /> | Profondeur de couleur du contrôle actuel.<br /> | 
+| <a href="imstscax-connected.md"><strong>Connecté</strong></a><br /> | Lecture seule<br /> | État de connexion du contrôle actuel.<br /> | 
+| <a href="imsrdpclient2-connectedstatustext.md"><strong>ConnectedStatusText</strong></a><br /> | Lecture/écriture<br /> | Texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br /> | 
+| <a href="imstscax-connectingtext.md"><strong>ConnectingText</strong></a><br /> | Lecture/écriture<br /> | Texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br /> | 
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>ConnectionBarText</strong></a><br /> | Lecture/écriture<br /> | Chaîne de texte à afficher pour la barre de connexion.<br /> | 
+| <a href="imstscax-desktopheight.md"><strong>DesktopHeight</strong></a><br /> | Lecture/écriture<br /> | Hauteur du contrôle actuel, en pixels, sur le Bureau à distance initial.<br /> | 
+| <a href="imstscax-desktopwidth.md"><strong>DesktopWidth</strong></a><br /> | Lecture/écriture<br /> | Largeur, en pixels, du contrôle actif sur le Bureau à distance initial.<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>DeviceCollection</strong></a><br /> | Lecture seule<br /> | Collection des périphériques PnP disponibles pour la redirection.<br /> | 
+| <a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br /> | Lecture/écriture<br /> | Texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br /> | 
+| <a href="imstscax-domain.md"><strong>Domain</strong></a><br /> | Lecture/écriture<br /> | Domaine sur lequel l’utilisateur actuel ouvre une session.<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>DriveCollection</strong></a><br /> | Lecture seule<br /> | Collection de lecteurs de disque disponibles pour la redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>EnableCredSspSupport</strong></a><br /> | Lecture/écriture<br /> | Spécifie si CredSSP est activé pour cette connexion.<br /> | 
+| <a href="imsrdpclient-extendeddisconnectreason.md"><strong>ExtendedDisconnectReason</strong></a><br /> | Lecture seule<br /> | Informations étendues sur la raison de la déconnexion du contrôle client.<br /> | 
+| <a href="imsrdpclient-fullscreen.md"><strong>Large</strong></a><br /> | Lecture/écriture<br /> | Indique si le contrôle est en mode plein écran.<br /> | 
+| <a href="imstscax-fullscreentitle.md"><strong>FullScreenTitle</strong></a><br /> | Écriture seule<br /> | Titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br /> | 
+| <a href="imstscax-horizontalscrollbarvisible.md"><strong>HorizontalScrollBarVisible</strong></a><br /> | Lecture seule<br /> | Indique si le contrôle a affiché une barre de défilement horizontale.<br /> | 
+| <a href="imsrdpclient5-msrdpclientshell.md"><strong>MsRdpClientShell</strong></a><br /> | Lecture seule<br /> | Paramètres client pour le lanceur du portail Web.<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>NegotiateSecurityLayer</strong></a><br /> | Lecture/écriture<br /> | Spécifie si le paramètre NegotiateSecurityLayer est pris en charge pour cette connexion.<br /><blockquote>[!Note]<br />Lorsque <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>CredSspSupport</strong></a> est activé et présent sur le client, ou lorsque SSL (Secure Sockets Layer) (SSL) est activé avec l’authentification utilisateur, NegotiateSecurityLayer est ignoré.</blockquote><br /> | 
+| <a href="imstscnonscriptable-portablepassword.md"><strong>PortablePassword</strong></a><br /> | Lecture/écriture<br /> | Cette propriété n'est pas prise en charge.<br /> | 
+| <a href="imstscnonscriptable-portablesalt.md"><strong>PortableSalt</strong></a><br /> | Lecture/écriture<br /> | Cette propriété n'est pas prise en charge.<br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>PromptForCredentials</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la boîte de dialogue demander les informations d’identification doit s’afficher.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>RedirectDynamicDevices</strong></a><br /> | Lecture/écriture<br /> | Spécifie si les appareils PnP attachés de manière dynamique et qui sont énumérés dans une session sont disponibles pour la redirection.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>RedirectDynamicDrives</strong></a><br /> | Lecture/écriture<br /> | Spécifie si les lecteurs PnP attachés de manière dynamique et qui sont énumérés dans une session sont disponibles pour la redirection.<br /> | 
+| <a href="imsrdpclient5-remoteprogram.md"><strong>RemoteProgram</strong></a><br /> | Lecture seule<br /> | Paramètre RemoteApp du client.<br /> | 
+| <a href="imstscax-securedsettings.md"><strong>SecuredSettings</strong></a><br /> | Lecture seule<br /> | Pointeur d’interface <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> .<br /> | 
+| <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Lecture seule<br /> | Pointeur vers l’interface <a href="imsrdpclientsecuredsettings-interface.md"><strong>IMsRdpClientSecuredSettings</strong></a> , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br /> | 
+| <a href="imstscax-securedsettingsenabled.md"><strong>SecuredSettingsEnabled</strong></a><br /> | Lecture seule<br /> | Indique si l’interface <a href="imstscsecuredsettings-interface.md"><strong>IMsTscSecuredSettings</strong></a> est disponible.<br /> | 
+| <a href="imstscax-server.md"><strong>Serveur</strong></a><br /> | Lecture/écriture<br /> | Nom du serveur auquel le contrôle actuel est connecté.<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>ShowRedirectionWarningDialog</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la boîte de dialogue Avertissement de sécurité de redirection doit s’afficher avant le démarrage d’une session.<br /> | 
+| <a href="imstscax-startconnected.md"><strong>StartConnected</strong></a><br /> | Lecture/écriture<br /> | Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br /> | 
+| <a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br /> | Lecture seule<br /> | Paramètre de la passerelle des services Bureau à distance du client.<br /> | 
+| <a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>UIParentWindowHandle</strong></a><br /> | Lecture/écriture<br /> | Handle de fenêtre qui doit être la fenêtre parente pour le contrôle. Cela permet aux fenêtres affichées par le contrôle d’être correctement modales par rapport à toutes les fenêtres affichées par l’application parente.<br /> | 
+| <a href="imstscax-username.md"><strong>Nom d’utilisateur</strong></a><br /> | Lecture/écriture<br /> | Informations d’identification d’ouverture de session de nom d’utilisateur.<br /> | 
+| <a href="imstscax-version.md"><strong>Version</strong></a><br /> | Lecture seule<br /> | Numéro de version du contrôle actuel.<br /> | 
+| <a href="imstscax-verticalscrollbarvisible.md"><strong>VerticalScrollBarVisible</strong></a><br /> | Lecture seule<br /> | Indique si le contrôle affiche une barre de défilement verticale.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>WarnAboutClipboardRedirection</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la boîte de dialogue d’avertissement de sécurité doit inclure un avertissement sur la redirection du presse-papiers avant de démarrer une session.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>WarnAboutSendingCredentials</strong></a><br /> | Lecture/écriture<br /> | Spécifie si l’avertissement de sécurité doit inclure un avertissement concernant l’envoi d’informations d’identification au serveur distant avant le démarrage d’une session.<br /> | 
+
 
 
 

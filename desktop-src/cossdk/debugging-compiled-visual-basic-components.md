@@ -4,12 +4,12 @@ ms.assetid: a58c5884-3c2d-4699-8b19-277003912dfd
 title: débogage de composants Visual Basic compilés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eac784808602d3554e4610e70a8d8a22ef2ca1594062599ec6acd43db68b98a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e2dec15f90d14d534221193020417415d11ddec
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882990"
 ---
 # <a name="debugging-compiled-visual-basic-components"></a>débogage de composants Visual Basic compilés
 
@@ -46,7 +46,7 @@ ms.locfileid: "119128781"
 
 12. dans la boîte de dialogue **Project Paramètres** , sous l’onglet **déboguer** , sélectionnez **général** dans la zone **catégorie** .
 
-13. Dans la zone **exécutable pour la session de débogage** , entrez le chemin d’accès complet de Dllhost.exe, suivi d’un argument spécifiant l’ID de processus de l’application com+ contenant le composant. L’ID de processus se trouve sous l’onglet **général** de la boîte de dialogue **Propriétés** de l’application com+. Voici un exemple : C : \\ winnt \\ system32 \\Dllhost.exe/ProcessId : { <processID> }.
+13. Dans la zone **exécutable pour la session de débogage** , entrez le chemin d’accès complet de Dllhost.exe, suivi d’un argument spécifiant l’ID de processus de l’application com+ contenant le composant. L’ID de processus se trouve sous l’onglet **général** de la boîte de dialogue **Propriétés** de l’application com+. Voici un exemple : C : \\ winnt \\ system32 \\Dllhost.exe/ProcessId : { &lt; ProcessID &gt; }.
 
 14. Cliquez sur **OK**.
 

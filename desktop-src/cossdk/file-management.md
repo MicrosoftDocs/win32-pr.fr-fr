@@ -4,12 +4,12 @@ ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: Gestion des fichiers (services de composants)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31685287e783dc5ae45d564897a37733568cc150d9af43322d5f435100e8f199
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 936375060b43e8abfd99f2d282e1cc05aada0d0e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118307314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882548"
 ---
 # <a name="file-management"></a>Gestion des fichiers
 
@@ -21,7 +21,7 @@ Pour activer le transfert de fichiers d’application, COMREPL gère automatique
 
 | Dossier                   | Objectif                                                                                                                                                                                                                                                                                                                                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ReplicaSource<br/> | Les applications exportées pendant la phase de préparation sont stockées ici.<br/> Ce dossier est remplacé chaque fois que la phase de préparation est exécutée sur un ordinateur source donné. Ce dossier n’étant jamais explicitement supprimé, la réplication vers des cibles peut avoir lieu à tout moment après la préparation de la source.<br/> Chaque application est stockée dans son propre sous-dossier nommé <appName> + <appID> .<br/> |
+| ReplicaSource<br/> | Les applications exportées pendant la phase de préparation sont stockées ici.<br/> Ce dossier est remplacé chaque fois que la phase de préparation est exécutée sur un ordinateur source donné. Ce dossier n’étant jamais explicitement supprimé, la réplication vers des cibles peut avoir lieu à tout moment après la préparation de la source.<br/> Chaque application est stockée dans son propre sous-dossier nommé &lt; appname &gt; + &lt; AppID &gt; .<br/> |
 
 
 
