@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 902325890b02416e796940388bca7a6548773be5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 756166fe1e28ec3cd0eef3676caafd8c00c854f18b5f6d179dd12ded18dd4fa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750109"
 ---
 # <a name="d3dxmatrixrotationy-function-d3dx9mathh"></a>D3DXMatrixRotationY, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Angle de rotation en radians. Les angles sont mesurés dans le sens des aiguille
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) pivotée autour de l’axe y.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixRotationY** peut être utilisée comme paramètre pour une autre fonction.
 

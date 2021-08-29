@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ba9bbcd029803e613fb27d351de554c013c02616
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac39338e2701011165bd3da476b9e664332e3abb134bdbf4eca64106effb3840
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596758"
 ---
 # <a name="iinkanalysisrecognizers-interface"></a>Interface IInkAnalysisRecognizers
 
@@ -45,7 +45,7 @@ L’interface **IInkAnalysisRecognizers** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**IInkAnalyzer :: GetInkAnalysisRecognizersByPriority**](iinkanalyzer-getinkanalysisrecognizersbypriority.md) méthode de [**IInkAnalyzer**](iinkanalyzer.md) retourne une collection **IInkAnalysisRecognizers** contenant les détecteurs d’encre disponibles sur le Tablet PC actuel.
 
@@ -57,7 +57,7 @@ Pour un module de reconnaissance de langage, la méthode [**IInkAnalysisRecogniz
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

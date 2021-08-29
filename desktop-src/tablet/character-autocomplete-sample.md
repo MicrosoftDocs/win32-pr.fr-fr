@@ -4,12 +4,12 @@ ms.assetid: 237e33bc-3708-4128-8749-d3d031f7237a
 title: Exemple de saisie semi-automatique de caractères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4853cdef72a087aff3b9b726f0c83af9038ef5bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 485955e1b4254fe6f2dcf4c278aca4be0b4e2b5e41617434c6f2881cfb0b02d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093053"
 ---
 # <a name="character-autocomplete-sample"></a>Exemple de saisie semi-automatique de caractères
 
@@ -186,7 +186,7 @@ End Sub
 
 ## <a name="painting-the-form"></a>Peindre le formulaire
 
-Le gestionnaire d’événements Paint efface les zones d’image résultats et y ajoute les résultats de reconnaissance enregistrés.
+le gestionnaire d’événements Paint efface les zones d’image résultats et y ajoute les résultats de reconnaissance enregistrés.
 
 ## <a name="deleting-the-strokes"></a>Suppression des traits
 

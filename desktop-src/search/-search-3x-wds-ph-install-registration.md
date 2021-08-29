@@ -1,17 +1,17 @@
 ---
 description: L’installation d’un gestionnaire de protocole implique la copie de la ou des DLL vers un emplacement approprié dans le répertoire Program Files, puis l’inscription du gestionnaire de protocole dans le registre.
 ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
-title: Installation et inscription de gestionnaires de protocole (Windows Search)
+title: installation et inscription de gestionnaires de protocole (recherche Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cb30032ef200832446a8a2f37b2ec427ab40b58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a71a47c7ea3fbc82607749239838a7f03fb784d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880125"
 ---
-# <a name="installing-and-registering-protocol-handlers-windows-search"></a>Installation et inscription de gestionnaires de protocole (Windows Search)
+# <a name="installing-and-registering-protocol-handlers-windows-search"></a>installation et inscription de gestionnaires de protocole (recherche Windows)
 
 L’installation d’un gestionnaire de protocole implique la copie de la ou des DLL vers un emplacement approprié dans le répertoire Program Files, puis l’inscription du gestionnaire de protocole dans le registre. L’application d’installation peut également ajouter une racine de recherche et des règles d’étendue pour définir une étendue d’analyse par défaut pour la source de données Shell.
 
@@ -32,7 +32,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="about-urls"></a>À propos des URL
 
-Windows Search utilise des URL pour identifier de manière unique les éléments dans la hiérarchie de votre source de données de Shell. L’URL qui est le premier nœud de la hiérarchie est appelée [racine de recherche](-search-3x-wds-extidx-csm-searchroots.md). La recherche Windows commence l’indexation à la racine de recherche, en demandant que le gestionnaire de protocole énumère les liens enfants pour chaque URL.
+Windows La recherche utilise des URL pour identifier de manière unique les éléments dans la hiérarchie de votre source de données de Shell. L’URL qui est le premier nœud de la hiérarchie est appelée [racine de recherche](-search-3x-wds-extidx-csm-searchroots.md). Windows La recherche commence l’indexation à la racine de recherche, en demandant que le gestionnaire de protocole énumère les liens enfants pour chaque URL.
 
 La structure d’URL standard est la suivante :
 
@@ -49,16 +49,16 @@ La syntaxe de l’URL est décrite dans le tableau suivant.
 
 | Syntaxe           | Description                                                                                                                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <protocol> | Identifie le gestionnaire de protocole à appeler pour l’URL.                                                                                                                                                           |
+| &lt;protocol&gt; | Identifie le gestionnaire de protocole à appeler pour l’URL.                                                                                                                                                           |
 | {SID utilisateur}       | Identifie le contexte de sécurité de l’utilisateur sous lequel le gestionnaire de protocole est appelé. Si aucun identificateur de sécurité (SID) utilisateur n’est identifié, le gestionnaire de protocole est appelé dans le contexte de sécurité du service système. |
-| <path>     | Définit la hiérarchie du magasin, où chaque barre oblique (« / ») est un séparateur entre les noms de dossiers.                                                                                                            |
-| <ItemID>   | Représente une chaîne unique qui identifie l’élément enfant (par exemple, le nom de fichier).                                                                                                                            |
+| &lt;path&gt;     | Définit la hiérarchie du magasin, où chaque barre oblique (« / ») est un séparateur entre les noms de dossiers.                                                                                                            |
+| &lt;ItemID&gt;   | Représente une chaîne unique qui identifie l’élément enfant (par exemple, le nom de fichier).                                                                                                                            |
 
 
 
  
 
-L’indexeur de recherche Windows supprime la barre oblique finale des URL. Par conséquent, vous ne pouvez pas compter sur l’existence d’une barre oblique finale pour identifier un répertoire par rapport à un élément. Votre gestionnaire de protocole doit être en mesure de gérer cette syntaxe d’URL. Assurez-vous que le nom du protocole que vous sélectionnez pour identifier votre source de données Shell n’est pas en conflit avec les noms actuels. Nous vous recommandons d’utiliser cette Convention d’affectation de noms : `companyName.scheme` .
+l’indexeur de recherche Windows supprime la barre oblique finale des url. Par conséquent, vous ne pouvez pas compter sur l’existence d’une barre oblique finale pour identifier un répertoire par rapport à un élément. Votre gestionnaire de protocole doit être en mesure de gérer cette syntaxe d’URL. Assurez-vous que le nom du protocole que vous sélectionnez pour identifier votre source de données Shell n’est pas en conflit avec les noms actuels. Nous vous recommandons d’utiliser cette Convention d’affectation de noms : `companyName.scheme` .
 
 Pour plus d’informations sur la création d’une source de données Shell, consultez [implémentation des interfaces d’objet de dossier de base](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
 
@@ -313,7 +313,7 @@ Vous devez faire quatorze entrées dans le registre pour inscrire le composant d
              (Default) = <Ver_Ind_ProgID>
     ```
 
-4.  Inscrire le gestionnaire de protocole auprès de Windows Search. Dans l’exemple suivant, <Protocol Name> est le nom du Protocole lui-même, tel que fichier, MAPI, etc. :
+4.  inscrire le gestionnaire de protocole avec Windows recherche. Dans l’exemple suivant, <Protocol Name> est le nom du Protocole lui-même, tel que fichier, MAPI, etc. :
 
     ```
     HKEY_LOCAL_MACHINE
@@ -333,7 +333,7 @@ Vous devez faire quatorze entrées dans le registre pour inscrire le composant d
                    <Protocol Name> = <Ver_Dep_ProgID>
     ```
 
-    Avant Windows Vista :
+    avant Windows Vista :
 
     ```
     HKEY_CURRENT_USER
@@ -379,9 +379,9 @@ Vous devez créer deux entrées dans le registre pour inscrire le gestionnaire d
 
 ## <a name="ensuring-that-your-items-are-indexed"></a>Vérification de l’indexation de vos éléments
 
-Une fois que vous avez implémenté votre gestionnaire de protocole, vous devez spécifier les éléments de Shell que votre gestionnaire de protocole doit indexer. Vous pouvez utiliser le gestionnaire de catalogue pour lancer la réindexation (pour plus d’informations, consultez [utilisation du gestionnaire de catalogues](-search-3x-wds-mngidx-catalog-manager.md)). Vous pouvez également utiliser le gestionnaire de portée d’analyse (CSM) pour configurer les règles par défaut indiquant les URL que vous souhaitez que l’indexeur analyse (pour plus d’informations, consultez [utilisation du gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md) et [gestion des règles d’étendue](-search-3x-wds-extidx-csm-scoperules.md)). Vous pouvez également ajouter une racine de recherche (pour plus d’informations, consultez [gestion des racines de recherche](-search-3x-wds-extidx-csm-searchroots.md)). Une autre option consiste à suivre la procédure décrite dans l’exemple réindexer des [exemples du kit de développement logiciel (SDK) Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+Une fois que vous avez implémenté votre gestionnaire de protocole, vous devez spécifier les éléments de Shell que votre gestionnaire de protocole doit indexer. Vous pouvez utiliser le gestionnaire de catalogue pour lancer la réindexation (pour plus d’informations, consultez [utilisation du gestionnaire de catalogues](-search-3x-wds-mngidx-catalog-manager.md)). Vous pouvez également utiliser le gestionnaire de portée d’analyse (CSM) pour configurer les règles par défaut indiquant les URL que vous souhaitez que l’indexeur analyse (pour plus d’informations, consultez [utilisation du gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md) et [gestion des règles d’étendue](-search-3x-wds-extidx-csm-scoperules.md)). Vous pouvez également ajouter une racine de recherche (pour plus d’informations, consultez [gestion des racines de recherche](-search-3x-wds-extidx-csm-searchroots.md)). une autre option consiste à suivre la procédure décrite dans l’exemple de réindexation dans [Windows exemples du kit de développement logiciel (SDK) de recherche](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 
-L’interface [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) fournit des méthodes qui informent le moteur de recherche des conteneurs à l’analyse et/ou à la surveillance, et les éléments sous ces conteneurs à inclure ou exclure lors de l’analyse ou de la surveillance. Dans Windows 7 et versions ultérieures, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) étend **ISearchCrawlScopeManager** avec la méthode [**ISearchCrawlScopeManager2 :: GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) qui obtient la version, qui informe les clients si l’état de l’CSM a changé.
+L’interface [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) fournit des méthodes qui informent le moteur de recherche des conteneurs à l’analyse et/ou à la surveillance, et les éléments sous ces conteneurs à inclure ou exclure lors de l’analyse ou de la surveillance. dans Windows 7 et versions ultérieures, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) étend **ISearchCrawlScopeManager** avec la méthode [**ISearchCrawlScopeManager2 :: GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) qui obtient la version, qui informe les clients si l’état de l’CSM a changé.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

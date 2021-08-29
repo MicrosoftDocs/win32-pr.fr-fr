@@ -1,22 +1,22 @@
 ---
-title: Notification de l’index des modifications (fonctionnalités héritées de l’environnement Windows)
-description: Avec Microsoft Windows Desktop Search (WDS) 2,6, les gestionnaires de protocoles pour un magasin de données donné peuvent indiquer à l’indexeur WDS quand les données de leur magasin ont changé.
+title: notification de l’Index des modifications (fonctionnalités héritées de l’environnement Windows)
+description: avec Microsoft Windows Desktop Search (WDS) 2,6, les gestionnaires de protocoles pour un magasin de données donné peuvent indiquer à l’indexeur WDS quand les données de leur magasin ont changé.
 ms.assetid: 700b1707-dd11-4a30-8f00-5c4aae1173ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6021cfe5cd7061a3d3255e56d08e665a6caedf03
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5b52f192f8ee943ef3378e4a21a62702f4e12bc7bf5dfbd07ccc8a1093aab3c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104200538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601759"
 ---
-# <a name="notifying-the-index-of-changes-legacy-windows-environment-features"></a>Notification de l’index des modifications (fonctionnalités héritées de l’environnement Windows)
+# <a name="notifying-the-index-of-changes-legacy-windows-environment-features"></a>notification de l’Index des modifications (fonctionnalités héritées de l’environnement Windows)
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-Avec Microsoft Windows Desktop Search (WDS) 2,6, les gestionnaires de protocoles pour un magasin de données donné peuvent indiquer à l’indexeur WDS quand les données de leur magasin ont changé. Cela améliore les performances en garantissant que l’indexeur n’analyse pas l’intégralité du magasin sur les index incrémentiels. À l’aide des API de notification, les gestionnaires de protocole peuvent notifier l’indexeur qu’un élément a été déplacé ou supprimé, et ils peuvent ajouter des étendues à la file d’attente d’analyse de l’indexeur WDS des URL nécessitant une indexation. La notification est utile pour les applications telles que la messagerie électronique, où le gestionnaire de protocole surveille le magasin et notifie l’indexeur que les éléments ont changé et nécessitent une indexation.
+avec Microsoft Windows Desktop Search (WDS) 2,6, les gestionnaires de protocoles pour un magasin de données donné peuvent indiquer à l’indexeur WDS quand les données de leur magasin ont changé. Cela améliore les performances en garantissant que l’indexeur n’analyse pas l’intégralité du magasin sur les index incrémentiels. À l’aide des API de notification, les gestionnaires de protocole peuvent notifier l’indexeur qu’un élément a été déplacé ou supprimé, et ils peuvent ajouter des étendues à la file d’attente d’analyse de l’indexeur WDS des URL nécessitant une indexation. La notification est utile pour les applications telles que la messagerie électronique, où le gestionnaire de protocole surveille le magasin et notifie l’indexeur que les éléments ont changé et nécessitent une indexation.
 
 ## <a name="isearchitemschangedsink"></a>ISearchItemsChangedSink
 
@@ -48,7 +48,7 @@ La \_ \_ structure de modification de l’élément de recherche identifie le ty
 | Modifier        | \_type \_ de recherche de \_ modification       | Type de modification notifié.                                 |
 | URL           | LPWSTR                         | URL de l’objet qui a changé.                                   |
 | OldURL        | LPWSTR                         | Si la notification est un déplacement, l’ancienne URL est fournie et doit être unique. |
-| Priority      | \_priorité de notification de recherche \_ | Priorité de la modification.                                                |
+| Priorité      | \_priorité de notification de recherche \_ | Priorité de la modification.                                                |
 
 
 

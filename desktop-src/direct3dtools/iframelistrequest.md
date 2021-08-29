@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e4c56fea2c458076ff91c5acdca3f22dcdfc830e
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 40d56b27c4c59e1931cf11ce2073c5a907f72398
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631697"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786128"
 ---
 # <a name="span-idvspixengineiframelistrequestspaniframelistrequest-interface"></a><span id="vspixengine.iframelistrequest"></span>Interface IFrameListRequest
 
@@ -38,7 +38,7 @@ L’interface **IFrameListRequest** hérite de l’interface [**IUnknown**](/win
 
 L’interface **IFrameListRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframelistrequest-requestasync-iframelistcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Une demande asynchrone pour obtenir les frames de liste capturés dans le journal de graphisme.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframelistrequest-requestasync-iframelistcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Une demande asynchrone pour obtenir les frames de liste capturés dans le journal de graphisme.</p></td></tr></tbody></table>
 
  
 

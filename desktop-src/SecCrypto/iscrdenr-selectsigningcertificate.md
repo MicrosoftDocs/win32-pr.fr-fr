@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: a4ef3be0ef16797597f57c12e90736ba50109601
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 312cc5fed863241c1af8c8f69acfd74277cb355f91291f702e976bea71eba2f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080659"
 ---
 # <a name="iscrdenrselectsigningcertificate-method"></a>ISCrdEnr :: selectSigningCertificate, méthode
 
@@ -76,7 +76,7 @@ Si la méthode est réussie, la méthode retourne **S \_ OK**.
 
 Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’erreur. Pour obtenir la liste des codes d’erreur courants, consultez [valeurs HRESULT communes](common-hresult-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant de procéder à l’inscription pour le compte d’un utilisateur, vous devez d’abord obtenir un certificat de signature. Vous pouvez obtenir un certificat de signature à l’aide du composant logiciel enfichable MMC du gestionnaire de certificats. La méthode **selectSigningCertificate** n’obtient pas le certificat de signature, mais affiche une boîte de dialogue des certificats de signature précédemment obtenus, ce qui vous permet de choisir le certificat qui sera utilisé pour signer les demandes d’inscription à la place.
 
@@ -91,7 +91,7 @@ Une fois le certificat de signature sélectionné, son nom peut être récupér�
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

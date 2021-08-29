@@ -4,12 +4,12 @@ ms.assetid: 23002d02-cf8f-489b-a50f-4a18ac091825
 title: HRECOGNIZER et HRECOCONTEXT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12af1bb5569a22a612f0a3ed667a55aac81da2c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ea6f9f4facae72186d1faba09b3e7d9d667983fea92b8397f53d5896d7de298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597209"
 ---
 # <a name="hrecognizer-and-hrecocontext"></a>HRECOGNIZER et HRECOCONTEXT
 

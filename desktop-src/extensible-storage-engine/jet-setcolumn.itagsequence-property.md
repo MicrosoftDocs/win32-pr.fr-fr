@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7870f6e29cf8f6810c6aa41049868fbceb370dc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52d1f92966c1c25cd1b2e696c404199d804de6b45803f9c15562499413dda67f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473209"
 ---
 # <a name="jet_setcolumnitagsequence-property"></a>JET_SETCOLUMN. itagSequence, propriété
 

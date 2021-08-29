@@ -4,12 +4,12 @@ ms.assetid: d590f31a-d036-40cf-a1be-00396b2d6740
 title: API graphique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01719e2413f92e5681a36d8b867332f187a3e85d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b3cb6399b6bf2fb3ea8eeb80d9cd4cafa0f9d8cf6ffea058a6af9cefd66d7b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776209"
 ---
 # <a name="graphing-api"></a>API graphique
 

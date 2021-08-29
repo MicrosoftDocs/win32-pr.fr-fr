@@ -3,7 +3,7 @@ title: TCN_SELCHANGING le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle onglet que l’onglet actuellement sélectionné va être modifié. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ec7b1bd3-8932-4418-9eed-ecb7c748e4dd
 keywords:
-- Contrôles Windows de code de notification TCN_SELCHANGING
+- TCN_SELCHANGING les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6ba7dcf25d243d9b42876425564fba0e01c803f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75fbf92139a43b19d41fce0fd607932531fef7e23556330b9bda376945a21080
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106540767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104669"
 ---
 # <a name="tcn_selchanging-notification-code"></a>\_Code de notification TCN SELCHANGING
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 Retourne la **valeur true** pour empêcher la modification de la sélection ou **false** pour permettre la modification de la sélection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer l’onglet actuellement sélectionné, utilisez la macro [**TabCtrl \_ GetCurSel**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_getcursel) .
 
@@ -59,8 +59,8 @@ Pour déterminer l’onglet actuellement sélectionné, utilisez la macro [**Tab
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

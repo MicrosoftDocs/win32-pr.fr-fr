@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 46788d7ad810ef623cd77793a72ab6c046b73590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 132e7225850899cb33ff815c2fce309fd70a9d288839da2bbf20a6e9f8aafc50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776499"
 ---
 # <a name="openprinter2-function"></a>OpenPrinter2 fonction)
 
@@ -82,7 +82,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro. Pour obtenir des informations d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’appelez pas cette méthode dans [**DllMain**](/windows/desktop/Dlls/dllmain).
 
@@ -154,8 +154,8 @@ Pour obtenir un exemple de programme qui montre comment utiliser cette fonction,
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |

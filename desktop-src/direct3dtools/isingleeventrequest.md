@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8eddc943d0701aaec3394adbfa01ff846b73df24
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 02f635fc73da1a2d6608acddc93c2bf9479dd701
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786805"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627035"
 ---
 # <a name="span-idvspixengineisingleeventrequestspanisingleeventrequest-interface"></a><span id="vspixengine.isingleeventrequest"></span>Interface ISingleEventRequest
 
@@ -38,7 +38,7 @@ L’interface **ISingleEventRequest** hérite de l’interface [**IUnknown**](/w
 
 L’interface **ISingleEventRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isingleeventrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Non utilisé.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/isingleeventrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td ><p>Non utilisé.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isingleeventrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Non utilisé.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isingleeventrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>Non utilisé.</p></td></tr></tbody></table>
 
  
 

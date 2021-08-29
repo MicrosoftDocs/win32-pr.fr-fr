@@ -4,12 +4,12 @@ ms.assetid: 1b7bc650-8edf-465c-a166-1bbe41131149
 title: LOCALE_ICALENDARTYPE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6325022d525a0fcd61dba3fc5e710f20848a6423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9aa8327a58f4d2baedfc6a223cb3e42134ad8d725f2a582131a1074152d80c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147472"
 ---
 # <a name="locale_icalendartype"></a>paramètres régionaux \_ ICALENDARTYPE
 

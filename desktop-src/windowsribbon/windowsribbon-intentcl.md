@@ -14,12 +14,12 @@ keywords:
 - compilation Windows balisage du ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cefd64103ceb501e8f4d23e937a242e910b0cad5
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 715c1f99ae98ce220757633f751a09af82fea6ba
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884911"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626935"
 ---
 # <a name="compiling-ribbon-markup"></a>Compilation du balisage du ruban
 
@@ -72,8 +72,8 @@ Les arguments et les options de cet outil sont décrits dans le tableau suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td>/Header : &lt; headerFile&gt;</td>
-<td>Générez un fichier d’en-tête appelé &lt; headerFile &gt; qui contient les symboles de ressource ID de commande de balisage. En cas d’omission, un fichier d’en-tête n’est pas généré.</td>
+<td>/Header<headerFile></td>
+<td>Générez un fichier d’en-tête appelé <headerFile> qui contient les symboles de ressource ID de commande de balisage. En cas d’omission, un fichier d’en-tête n’est pas généré.</td>
 </tr>
 <tr class="even">
 <td>/res<resourceFile></td>

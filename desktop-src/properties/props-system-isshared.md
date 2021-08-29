@@ -4,12 +4,12 @@ ms.assetid: b8ecf84b-911b-4eea-a015-22f5cecafa9c
 title: System. IsShared
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0e9732e8807fbecc65421e75d9c1a8605baf06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1986b8374c786cbbfa395c9c2a51ef93ca434b7480acc9c1c82b8bb19a80933
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598489"
 ---
 # <a name="systemisshared"></a>System. IsShared
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cc6c4c1f4bd7eb61ffddaaef0a9e0accec020a5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c8a0d7bdbd1176c290e95d19978f5aaeed19d5eb589a4d8163b5fdc16d6bc637
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106543062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300659"
 ---
 # <a name="meetingprotocol-attribute"></a>attribut meetingProtocol
 
@@ -44,7 +44,7 @@ Protocoles utilisés pour une réunion, par exemple H. 320 ou T. 120.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

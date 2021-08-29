@@ -10,12 +10,12 @@ keywords:
 - anticrénelage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ec2fcae4fe7b6909e00efb0fb892821a5c12765
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 130fcf19efd3cd8f1082439bda1bd9c9702c8df7ea41cbe7655828a92e6cc9f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777239"
 ---
 # <a name="porting-antialiasing-functions"></a>Portage de fonctions d’anticrénelage
 
@@ -25,9 +25,9 @@ Dans OpenGL, le mode de sous-pixel est toujours activé, par conséquent, le sou
 -   [Portage des fonctions de test afunction](porting-afunction-test-functions.md)
 -   [Utilisation des fonctions d’anticrénelage](using-antialiasing-functions.md)
 
- 
+ 
 
- 
+ 
 
 
 

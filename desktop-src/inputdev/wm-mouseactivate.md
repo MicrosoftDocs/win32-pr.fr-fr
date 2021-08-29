@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ba74141f8d519541d1e63327179fff2f27ad403
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15116c36ac9efb3e764564fbe426f8763508fd63759e02bd4bb9160d5815fb11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451509"
 ---
 # <a name="wm_mouseactivate-message"></a>\_Message WM MOUSEACTIVATE
 
@@ -71,7 +71,7 @@ La valeur de retour spécifie si la fenêtre doit être activée et si l’ident
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) transmet le message à la fenêtre parente d’une fenêtre enfant avant tout traitement. La fenêtre parente détermine s’il faut activer la fenêtre enfant. Si elle active la fenêtre enfant, la fenêtre parente doit retourner **ma \_ noactivate** ou **ma \_ NOACTIVATEANDEAT** pour empêcher le système de traiter le message plus en détail.
 

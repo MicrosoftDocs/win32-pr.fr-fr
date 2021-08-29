@@ -4,12 +4,12 @@ ms.assetid: 6de526cd-5537-4411-b43f-3c0bdac70d64
 title: Dossiers montés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f0f0c937ded5f7a6b78f19b17b4c098178f254f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fe4360377ba94fc23701d13fc62defd666ba9cb3074c4385d98ea87a9354200
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746769"
 ---
 # <a name="mounted-folders"></a>Dossiers montés
 

@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 0d5c7fc116b74dada141e88116ba67209da4a103
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 76eaf282df5738a335bd6fd9c1b43f26812838907d57045d826f65b57c7a8224
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106545254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932079"
 ---
 # <a name="sysmsgproc-function"></a>SysMsgProc fonction)
 
@@ -95,7 +95,7 @@ Si *nCode* est inférieur à zéro, la procédure de raccordement doit retourner
 Si *nCode* est supérieur ou égal à zéro et que la procédure de hook n’a pas traité le message, il est vivement recommandé d’appeler **CallNextHookEx** et de retourner la valeur qu’il retourne ; dans le cas contraire, les autres applications qui ont installé [WH_SYSMSGFILTER](about-hooks.md) hooks ne recevront pas de notifications de raccordement et pourront se comporter de manière incorrecte.
 Si la procédure de Hook a traité le message, elle peut retourner une valeur différente de zéro pour empêcher le système de transmettre le message à la procédure de fenêtre cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application installe la procédure de raccordement en spécifiant le type de hook **WH_SYSMSGFILTER** et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 

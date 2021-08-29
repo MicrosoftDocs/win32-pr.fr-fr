@@ -14,19 +14,19 @@ api_location:
 api_name:
 - _allmul
 targetos: Windows
-ms.openlocfilehash: a82a4d56ecb657e19b9849d10c9b51521af6c262
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 38795bf755574ecf1a21ddcdb3655b14a4751a51fc6eca61118734f42e0bc3e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104030717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386859"
 ---
 # <a name="_allmul-routine"></a>\_Routine allmul
 
 Multiplie deux entiers **LongLong** ou **ULONGLONG** .
 Par exemple, pour multiplier deux valeurs Int64, le compilateur peut générer un appel à la routine **\_ allmul** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La routine **\_ allmul** est une routine d’assistance pour le compilateur C.
 Le fait que le compilateur utilise **\_ allmul** dépend entièrement du jeu d’optimisation.

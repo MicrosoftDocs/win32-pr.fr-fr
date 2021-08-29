@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2f1e7cd3d8758107b9529114a75b3a90527937c6
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 614a2f26349834c01f0a3e7587eae28c41e546a0585ef603af0265ea35c187d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106522768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055609"
 ---
 # <a name="cgenericlistaddtail-method-wxlisth---pobj-parameter"></a>Méthode CGenericList. AddTail (Wxlist. h)-paramètre pObj
 
@@ -57,7 +57,7 @@ Retourne une valeur de POSITION pour la nouvelle position de fin. Si la méthode
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | Wxlist. h (include streams. h) |
+| En-tête | Wxlist. h (inclure Flux. h) |
 | Bibliothèque| Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

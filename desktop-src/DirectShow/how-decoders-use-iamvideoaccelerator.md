@@ -4,12 +4,12 @@ ms.assetid: 0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d
 title: Comment les décodeurs utilisent IAMVideoAccelerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 436768b3561a999f6708ef4f6438b816e0ad303b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 12918383808cfb492f010c7a99704111229ea551f5b7efe9d641aebab5786c3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103949963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102739"
 ---
 # <a name="how-decoders-use-iamvideoaccelerator"></a>Comment les décodeurs utilisent IAMVideoAccelerator
 
@@ -18,16 +18,16 @@ L’interface [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/v
 Cette section décrit l’ordre général des opérations que tout décodeur doit suivre lors de l’utilisation de cette interface. Pour plus d’informations sur les décodeurs DirectX basés sur VA, consultez [mappage de l’accélération vidéo DirectX à IAMVideoAccelerator](mapping-directx-video-acceleration-to-iamvideoaccelerator.md).
 
 > [!Note]  
-> Cette interface est disponible dans Windows 2000 et versions ultérieures.
+> cette interface est disponible dans Windows 2000 et versions ultérieures.
 
  
 
-L’interface [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) est exposée sur la broche d’entrée du [mélangeur de superposition](overlay-mixer-filter.md) ou du convertisseur de mixage vidéo (VMR). L’interface [**IAMVideoAcceleratorNotify**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) est exposée sur la broche de sortie du décodeur. La séquence d’événements pour la connexion des codes confidentiels du filtre est la suivante :
+l’interface [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) est exposée sur la broche d’entrée de la [superposition Mixer](overlay-mixer-filter.md) ou le convertisseur de mixage vidéo (VMR). L’interface [**IAMVideoAcceleratorNotify**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) est exposée sur la broche de sortie du décodeur. La séquence d’événements pour la connexion des codes confidentiels du filtre est la suivante :
 
-1.  Le gestionnaire de graphique de filtre appelle [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) sur la broche de sortie du filtre de décodeur. Un [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) est un paramètre facultatif.
+1.  le gestionnaire de Graph de filtre appelle [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) sur la broche de sortie du filtre de décodeur. Un [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) est un paramètre facultatif.
     -   [**Am \_ Le \_ type de média**](/windows/win32/api/strmif/ns-strmif-am_media_type) est une structure de données qui décrit un type de média. Il contient un GUID MajorType (qui, dans notre cas, doit être une \_ vidéo MediaType), un GUID de sous-type (qui, dans notre cas, doit être un GUID d’accélérateur vidéo) et un grand nombre d’autres choses. L’un de ces éléments est un GUID de type de format contenant des informations sur le support, y compris dans notre cas la largeur et la hauteur d’une image vidéo non compressée, le plus souvent dans une structure [**MPEG1VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo), [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader), [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo)ou [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) .
     -   Le cas échéant, la structure du [**\_ \_ type de média**](/windows/win32/api/strmif/ns-strmif-am_media_type) indique au décodeur qu’il doit fonctionner à l’aide du type de média spécifié, qui peut être « entièrement spécifié » ou « partiellement spécifié ». Si « entièrement spécifié », le décodeur tente normalement de fonctionner avec ce type de média. Si « partiellement spécifié », il tente de trouver un mode d’opération compatible « entièrement spécifié » qu’il peut utiliser pour se connecter de manière cohérente avec le type de média « partiellement spécifié ».
-    -   Pour tenter de trouver un type de média « entièrement spécifié » à utiliser pour une connexion, il suffit d’exécuter une liste de chaque type de média « entièrement spécifié » que la broche de sortie prend en charge, ce qui est compatible avec le type de média « partiellement spécifié » et de tenter de se connecter à chacun d’eux jusqu’à ce qu’il réussisse. Le processus est normalement similaire si aucun \_ \_ type de média am n’est contenu dans l’appel de [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) , mais avec la broche de sortie qui doit vérifier tous ses types de média.
+    -   Pour tenter de trouver un type de média « entièrement spécifié » à utiliser pour une connexion, il suffit d’exécuter une liste de chaque type de média « entièrement spécifié » que la broche de sortie prend en charge, ce qui est compatible avec le type de média « partiellement spécifié » et de tenter de se connecter à chacun d’eux jusqu’à ce qu’il réussisse. le processus serait normalement similaire si aucun \_ \_ TYPE de média AM n’est contenu dans l’appel de [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) , mais avec la broche de sortie qui doit vérifier tous ses types de média.
 2.  Si le décodeur souhaite vérifier si un [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) spécifique (y compris un GUID d’accélérateur vidéo) est pris en charge par la broche d’entrée en aval, il peut appeler [**IPIN :: QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) (avec le GUID de l’accélérateur vidéo comme sous-type du **\_ média am \_**) ou il peut simplement essayer de se connecter à ce code confidentiel comme décrit dans le point 5 ci-dessous
 3.  Si le décodeur ne connaît pas les GUID d’accélérateur vidéo pris en charge par la broche d’entrée en aval et ne souhaite pas proposer simplement un GUID d’accélérateur vidéo particulier en appelant le [**IPIN :: QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept)du pin d’entrée en aval, le décodeur peut appeler [**IAMVideoAccelerator :: GetVideoAcceleratorGUIDs**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getvideoacceleratorguids) pour obtenir une liste des GUID d’accélérateur vidéo pris en charge par le pin.
 4.  Pour certains GUID d’accélérateur vidéo particuliers, le décodeur peut appeler la [**IAMVideoAccelerator :: GetUncompFormatsSupported**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getuncompformatssupported) du pin d’entrée en aval pour obtenir une liste des formats de pixel **DDPIXELFORMAT** qui peuvent être utilisés pour afficher un GUID d’accélérateur vidéo spécifique. La liste renvoyée doit être considérée comme étant dans un ordre de préférence décroissant (c’est-à-dire, avec le format le plus préféré répertorié en premier).

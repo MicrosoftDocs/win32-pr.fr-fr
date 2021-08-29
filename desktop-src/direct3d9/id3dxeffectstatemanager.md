@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fad9df739634625800c0a21fd9ba2a2823d70f8e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 38fa6affff27c77fcebc4f8417ca3fd4bd8165fb0597c09ea8d34af79ff4b7d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893579"
 ---
 # <a name="id3dxeffectstatemanager-interface"></a>Interface ID3DXEffectStateManager
 
@@ -67,7 +67,7 @@ L’interface **ID3DXEffectStateManager** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un utilisateur crée une interface ID3DXEffectStateManager en implémentant une classe qui dérive de cette interface et en implémentant toutes les méthodes d’interface. Une fois l’interface créée, vous pouvez récupérer ou définir le gestionnaire d’État dans un effet à l’aide de [**ID3DXEffect :: GetStateManager**](id3dxeffect--getstatemanager.md) et [**ID3DXEffect :: SetStateManager**](id3dxeffect--setstatemanager.md).
 

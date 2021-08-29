@@ -4,17 +4,17 @@ description: Avec un bouton de commande, les utilisateurs lancent une action imm
 ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 97b452964066ce061a71a74f547305ba7d9d5794
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: d73e9104edb9e02746660e9e2052e756c5ad7be382e3504ac1f101e7c712a7b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091654"
 ---
 # <a name="command-buttons"></a>Boutons de commande
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un bouton de commande, les utilisateurs lancent une action immédiate.
 
@@ -70,7 +70,7 @@ En revanche, dans cet exemple, la commande Imprimer imprime une seule copie d’
 
 L' **utilisation correcte des ellipses est importante pour indiquer que les utilisateurs peuvent effectuer des choix supplémentaires avant d’effectuer l’action, ou même annuler complètement l’action**. Le signal visuel fourni par des points de suspension permet aux utilisateurs d’explorer vos logiciels sans crainte.
 
-**Cela ne signifie pas que vous devez utiliser des points de suspension chaque fois qu’une action affiche une autre fenêtre** uniquement lorsque des informations supplémentaires sont requises pour effectuer l’action. Par conséquent, **n’importe quel bouton de commande dont le verbe implicite est « afficher une autre fenêtre » ne prend pas de points de suspension**, comme avec les commandes à propos de, avancé, aide (ou tout autre lien de commande vers une rubrique d’aide), des options, des propriétés ou des paramètres.
+**Cela ne signifie pas que vous devez utiliser des points de suspension chaque fois qu’une action affiche une autre fenêtre** uniquement lorsque des informations supplémentaires sont requises pour effectuer l’action. par conséquent, **n’importe quel bouton de commande dont le verbe implicite est « afficher une autre fenêtre » ne prend pas de points de suspension**, comme avec les commandes à propos de, avancé, aide (ou tout autre lien de commande vers une rubrique d’aide), Options, propriétés ou Paramètres.
 
 En règle générale, les ellipses sont utilisées dans les interfaces utilisateur pour indiquer l’inexhaustivité. Les commandes qui affichent d’autres fenêtres ne sont pas incomplètes. elles doivent afficher une autre fenêtre et des informations supplémentaires ne sont pas nécessaires pour effectuer leur action. Cette approche élimine l’encombrement à l’écran dans les situations où les ellipses ont peu de valeur.
 
@@ -101,7 +101,7 @@ Les boutons de commande ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Afficher un pointeur occupé si le résultat d’un clic sur un bouton de commande n’est pas instantané.** Sans commentaires, les utilisateurs peuvent supposer que le clic n’a pas eu lieu et cliquer à nouveau sur.
 -   Si le même bouton de commande apparaît dans plusieurs fenêtres, **essayez d’utiliser le même texte d’étiquette et la même clé d’accès, et recherchez-le à peu près au même endroit dans chaque fenêtre lorsque cela est possible.**
@@ -200,7 +200,7 @@ Dimensionnement et espacement recommandés pour les boutons de commande.
     Dans cet exemple, Cancel doit être utilisé au lieu de ne pas graver de CD.
 
 -   Démarrer des étiquettes avec un verbe impératif et décrire clairement l’action effectuée par le bouton. N’utilisez pas de ponctuation finale.
-    -   **Exception :** Les étiquettes standard suivantes sont acceptables sans verbes : avancé, précédent, détails, suivant, moins, plus, nouveau, suivant, non, OK, options, précédent, propriétés, paramètres et oui.
+    -   **Exception :** les étiquettes standard suivantes sont acceptables sans verbes : avancé, précédent, détails, suivant, moins, plus, nouveau, suivant, non, OK, Options, précédent, propriétés, Paramètres et oui.
 -   Bien que les étiquettes courtes soient préférées, utilisez suffisamment de texte pour expliquer suffisamment la commande. Utilisez un objet direct (un nom après le verbe) lorsque l’objet n’est pas visible à partir du contexte. Idéalement, les utilisateurs ne doivent pas lire d’autres éléments pour comprendre l’étiquette.
 
     **Acceptable:**
@@ -221,7 +221,7 @@ Dimensionnement et espacement recommandés pour les boutons de commande.
 
     Dans cet exemple, l’étiquette est explicite.
 
--   Utilisez la mise [en majuscules de style phrase](glossary.md). Cela est plus approprié pour Windows [Tone](text-style-tone.md)[tonal](https://msdn.microsoft.com/library/windows/desktop/aa974175.aspx) et l’utilisation de courtes expressions pour les boutons de commande.
+-   Utilisez la mise [en majuscules de style phrase](glossary.md). cela est plus approprié pour [Windows](text-style-tone.md)ton[Windows](https://msdn.microsoft.com/library/windows/desktop/aa974175.aspx) ton et l’utilisation de courtes expressions pour les boutons de commande.
     -   **Exception :** Pour les applications héritées, vous pouvez utiliser la mise en [majuscules de style titre](glossary.md) si nécessaire pour éviter de mélanger les styles de mise en majuscules.
 -   N’utilisez pas maintenant dans les étiquettes de bouton de commande car le caractère immédiat de la commande peut être pris pour l’autorisation.
 

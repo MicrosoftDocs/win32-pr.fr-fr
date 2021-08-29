@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ace0cf4955eca91570aaddb5ac069a09bf0ddae4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e2c33e5b04cef5c6cccb4f20462cdc21ebb6bfeadc3d5cf45298b88a6fd1a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473049"
 ---
 # <a name="jet_spacehintscbinitial-property"></a>JET_SPACEHINTS. cbInitial, propriété
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: bc795d310f4bc532a39e2c1a2b4d2ba68f0401f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51e2cf46f0d21cadacb1c3d133147c36b1bb35afea787001cf3dffce5c755ade
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596779"
 ---
 # <a name="ianalysiswarningsgetcount-method"></a>IAnalysisWarnings :: GetCount, méthode
 

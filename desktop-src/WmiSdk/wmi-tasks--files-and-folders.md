@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b24d5f7708b88507cd08b73c0b08a83c94f6bb28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b7ac3b02e0268d9357e00d91e21d878f78bf966
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528347"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629461"
 ---
 # <a name="wmi-tasks-files-and-folders"></a>Tâches WMI : fichiers et dossiers
 
-Les tâches WMI pour les fichiers et les dossiers modifient les propriétés des fichiers ou des dossiers par le biais de WMI, y compris la création d’un partage ou le changement de nom d’un fichier. Si vous souhaitez copier un fichier ou lire et écrire un fichier, le moyen le plus simple consiste à utiliser l’environnement d’exécution de scripts Windows ( [FileSystemObject](/previous-versions/visualstudio/visual-basic-6/aa242706(v=vs.60)) ) au lieu de WMI. Pour obtenir d’autres exemples, consultez la section [fichiers et dossiers](/previous-versions/tn-archive/ee176985(v=technet.10)) de [technet scriptcenter](https://www.microsoft.com/technet/scriptcenter).
+Les tâches WMI pour les fichiers et les dossiers modifient les propriétés des fichiers ou des dossiers par le biais de WMI, y compris la création d’un partage ou le changement de nom d’un fichier. si vous souhaitez copier un fichier ou lire et écrire un fichier, le moyen le plus simple consiste à utiliser le Windows générer un Script de [l’hôte de](/previous-versions/visualstudio/visual-basic-6/aa242706(v=vs.60)) Script plutôt que WMI. Pour obtenir d’autres exemples, consultez la section [fichiers et dossiers](/previous-versions/tn-archive/ee176985(v=technet.10)) de [technet scriptcenter](https://www.microsoft.com/technet/scriptcenter).
 
 [**CIM \_ DataFile**](/windows/desktop/CIMWin32Prov/cim-datafile) est l’une des rares [classes CIM](cimclas.md) de WMI qui est implémentée. Évitez l’énumération ou l’interrogation de toutes les instances du **\_ fichier** de données CIM sur un ordinateur, car le volume de données risque d’affecter les performances ou de provoquer le blocage de l’ordinateur.
 
@@ -30,7 +30,7 @@ La procédure suivante décrit comment exécuter un script.
 
 **Pour exécuter un script**
 
-1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension. txt au fichier.
+1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension de .txt au fichier.
 2.  Ouvrez une fenêtre d’invite de commandes et accédez au répertoire où vous avez enregistré le fichier.
 3.  Tapez **cscript filename.vbs** à l’invite de commandes.
 4.  Si vous ne pouvez pas accéder à un journal des événements, vérifiez si vous exécutez à partir d’une invite de commandes avec élévation de privilèges. Certains journaux des événements, tels que le journal des événements de sécurité, peuvent être protégés par les contrôles d’accès utilisateur (UAC).
@@ -46,8 +46,8 @@ Le tableau suivant répertorie des exemples de scripts qui peuvent être utilis�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,7 +61,7 @@ Le tableau suivant répertorie des exemples de scripts qui peuvent être utilis�
 <td>Utilisez la classe <a href="/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_Datafile</strong></a> . Veillez à passer le nom de chemin d’accès complet lors de l’appel de la méthode <a href="/windows/desktop/CIMWin32Prov/rename-method-in-class-cim-datafile"><strong>Rename</strong></a> , par exemple, &quot;C:\Scripts\Test.txt&quot; au lieu de &quot;Text.txt&quot; . Pour PowerShell, l’utilisation de <strong>CIM_Datafile</strong> peut être inefficace. Par conséquent, vous pouvez simplement utiliser l’applet de commande Rename-Item.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -82,7 +82,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -98,13 +98,13 @@ Next</code></pre></td>
 </td>
 </tr>
 <tr class="even">
-<td>... Déterminez si les utilisateurs ont. Fichiers MP3 stockés sur leur ordinateur</td>
+<td>... déterminer si les utilisateurs ont .MP3 fichiers stockés sur leur ordinateur ?</td>
 <td><p>Utilisez la classe <a href="/windows/desktop/CIMWin32Prov/cim-datafile"><strong>CIM_Datafile</strong></a> et sélectionnez fichiers à l’aide de la clause <strong>Where</strong> <a href="querying-with-wql.md">WQL</a> suivante : Where extension = &quot; mp3 &quot; .</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -126,7 +126,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -150,7 +150,7 @@ Next</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,7 +171,7 @@ errReturn = objNewShare.Create(&quot;C:\Finance&quot;, &quot;FinanceShare&quot;,
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -199,7 +199,7 @@ $Shares= [WMICLASS]&quot;Win32_Share&quot;
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -222,7 +222,7 @@ Next </code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -245,7 +245,7 @@ Next </code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -270,7 +270,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

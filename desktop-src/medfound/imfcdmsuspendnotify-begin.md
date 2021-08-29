@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 84453a6c846e88a9d6e6c32c5253d97d36e89c7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1665102e336901d634d2ea948ad338842ef3a6d04bf4b7f43ba5297f1df13198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724561"
 ---
 # <a name="imfcdmsuspendnotifybegin-method"></a>IMFCdmSuspendNotify :: Begin, méthode
 
@@ -48,7 +48,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                      |
 | MIDL<br/>                      | <dl> <dt>Mfmediaengine. idl</dt> </dl> |
 
 

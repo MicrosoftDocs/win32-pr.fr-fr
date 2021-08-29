@@ -4,12 +4,12 @@ ms.assetid: 1c1a729c-a6bb-4432-9617-4a892c76cb8d
 title: Message LINE_MONITORDIGITS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c6e85ed515d20c18c6e41cdb185b036312c54ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49324bb90e774d15baaf58b873a7fdbfa9bfc938c8d86ea4be8514b02768bd70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774229"
 ---
 # <a name="line_monitordigits-message"></a>\_Message MONITORDIGITS de ligne
 
@@ -57,7 +57,7 @@ Mode de chiffrement détecté. Ce paramètre doit être une et une seule des [**
 *dwParam3* 
 </dt> <dd>
 
-« Tick Count » (nombre de millisecondes écoulées depuis le début de Windows) à partir duquel le chiffre spécifié a été détecté. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
+« tick count » (nombre de millisecondes depuis Windows démarré) à partir duquel le chiffre spécifié a été détecté. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Mode de chiffrement détecté. Ce paramètre doit être une et une seule des [**
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ MONITORDIGITS** est envoyé à l’application qui a activé la surveillance des chiffres.
 

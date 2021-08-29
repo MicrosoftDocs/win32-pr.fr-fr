@@ -4,12 +4,12 @@ ms.assetid: 13ee08b4-9c8e-480b-b78d-9472a2d7b566
 title: Hiérarchie d’approbation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 485c721493a93c7ea55b1993345e8168ccab319b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c67955c9dc94c09cf391f58375ae00f74a1584d536ad299bb2f5d1335dd1aeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006234"
 ---
 # <a name="hierarchy-of-trust"></a>Hiérarchie d’approbation
 
@@ -19,7 +19,7 @@ Une hiérarchie d’approbation commence par au moins une autorité de certifica
 
 ![hiérarchie d’approbation](images/trust.png)
 
-L’identité de l’autorité de certification qui émet un certificat fait partie d’un certificat. Cette autorité de certification est appelée émetteur du certificat. Lorsque l’émetteur d’un certificat est une autorité de certification de niveau 1 ou 2, le destinataire de ce certificat peut déterminer si l’émetteur du certificat est certifié en tant qu’autorité de certification valide par une autorité de certification à un niveau supérieur, et que l’autorité de certification de niveau supérieur est certifiée comme une autorité de certification valide par une autorité de certification de niveau supérieur jusqu’à ce qu’une chaîne d’approbation existe entre l’autorité de certification de niveau le plus bas et la racine autorité de certification.
+L’identité de l’autorité de certification qui émet un certificat fait partie d’un certificat. Cette autorité de certification est appelée émetteur du certificat. Lorsque l’émetteur d’un certificat est une autorité de certification de niveau 1 ou 2, le destinataire de ce certificat peut déterminer si l’émetteur du certificat est certifié en tant qu’autorité de certification valide par une autorité de certification à un niveau supérieur, et que l’autorité de certification de niveau supérieur est certifiée en tant qu’autorité de certification valide par une autorité de certification de niveau supérieur jusqu’à ce qu’il soit déterminé qu’une chaîne d’approbation existe entre le niveau le plus bas. autorité de certification et autorité de certification racine.
 
 Par exemple, dans l’illustration précédente, il est possible de vérifier que l’autorité de certification \# 4 a été certifiée en tant qu’autorité de certification par l’autorité de certification \# 1, et que l’autorité de certification \# 1 a été certifiée en tant qu’autorité de certification par l’autorité de certification racine. Ainsi, lorsqu’un certificat d’une autorité de certification de niveau inférieur est transmis avec le message chiffré, les informations sur tous les certificats de sa chaîne de confiance jusqu’à la racine sont transmises.
 

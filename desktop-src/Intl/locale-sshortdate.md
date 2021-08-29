@@ -4,12 +4,12 @@ ms.assetid: 55333a53-1205-42eb-aa1a-c248c52a8a3f
 title: LOCALE_SSHORTDATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d15077b4466fd74c02dd53bd7324aceba9233cc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b068347f1fd01d449f61995867345e417198c5fb753098ec48b10042e462e93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147312"
 ---
 # <a name="locale_sshortdate"></a>paramètres régionaux \_ SSHORTDATE
 
