@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04efd6e18ef4267d9887252f91e8a215fcf3ee88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5ffa83d2e7be0f0df5a86d6cc7d716792fbb7c9de823eade81f2fd2494f4817
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131779"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_afsdbtype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS AFSDBType
 

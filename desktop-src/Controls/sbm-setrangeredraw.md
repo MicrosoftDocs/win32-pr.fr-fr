@@ -3,7 +3,7 @@ title: Message SBM_SETRANGEREDRAW (winuser. h)
 description: Une application envoie le \_ message SBM SETRANGEREDRAW à un contrôle de barre de défilement pour définir les valeurs de position minimale et maximale et pour redessiner le contrôle.
 ms.assetid: badb58cc-9e3a-4766-a67f-631a7feb6285
 keywords:
-- SBM_SETRANGEREDRAW les contrôles de message Windows
+- SBM_SETRANGEREDRAW les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37c77a8f062ba3c7a8b73adc4338a11cdcf59442
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70da860ac52e34a32ca72ae5c3cff36fe4a23feb7b0c78bdeac0294ff7d20df3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078513"
 ---
 # <a name="sbm_setrangeredraw-message"></a>\_Message SBM SETRANGEREDRAW
 
@@ -49,7 +49,7 @@ Spécifie la position de défilement maximale.
 
 **ComCtl32.dll version 6,0**: position actuelle de la case de défilement, qu’elle ait été modifiée ou non.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs par défaut de la position minimale et maximale sont égales à zéro. La différence entre les valeurs spécifiées par les paramètres *wParam* et *lParam* ne doit pas être supérieure à MAXLONG.
 
@@ -61,8 +61,8 @@ Si les valeurs de position minimale et maximale sont égales, le contrôle de ba
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

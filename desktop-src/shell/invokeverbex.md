@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 627c2b40869ac9c509dcd645ec259de7db118235
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 494c6b2926b204225b4afbf41b6271209f8be0abab4432f242ef4a5bd9c26cff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884419"
 ---
 # <a name="shellfolderiteminvokeverbex-method"></a>Méthode ShellFolderItem. InvokeVerbEx
 
@@ -58,17 +58,17 @@ Type : **variante**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un verbe est une chaîne utilisée pour spécifier une action particulière prise en charge par un élément. En règle générale, l’appel d’un verbe lance une application associée. Par exemple, l’appel du verbe **Open** sur un fichier. txt ouvre normalement le fichier avec un éditeur de texte, généralement Microsoft Notepad. L’objet [**FolderItemVerbs**](folderitemverbs.md) représente la collection de verbes associée à l’élément. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md).
+Un verbe est une chaîne utilisée pour spécifier une action particulière prise en charge par un élément. En règle générale, l’appel d’un verbe lance une application associée. par exemple, l’appel du verbe **open** sur un fichier .txt ouvre normalement le fichier avec un éditeur de texte, généralement Microsoft Bloc-notes. L’objet [**FolderItemVerbs**](folderitemverbs.md) représente la collection de verbes associée à l’élément. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md).
 
 Cette méthode est similaire à [**InvokeVerb**](folderitem-invokeverb.md), mais elle vous permet de spécifier des arguments pour la commande, ainsi que pour la commande elle-même.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation appropriée de cette méthode dans JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation appropriée de cette méthode dans JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -161,14 +161,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

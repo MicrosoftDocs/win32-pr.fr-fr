@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5c0adf077cf0665c6bee2246c66af882a397c46b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92752ab650d4dc17adf03b7a80657c3c6b8f7c78be4b760a0d843063ea8cfc9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042067"
 ---
 # <a name="esentbaddbsignatureexception-class"></a>EsentBadDbSignatureException, classe
 

@@ -4,12 +4,12 @@ description: L’interface IBackgroundCopyJob5 expose les méthodes suivantes. |
 ms.assetid: 505488FE-C669-4301-A81D-6BE0BA23EFC7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 183e1cb88d4d701b8a3fc19f29bd785f65b693a2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a715894ab25f9836984ebb724265c002676ae11490d4ffae5071f7d42b9fde3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953579"
 ---
 # <a name="ibackgroundcopyjob5-methods-do"></a>Méthodes IBackgroundCopyJob5 (DO)
 

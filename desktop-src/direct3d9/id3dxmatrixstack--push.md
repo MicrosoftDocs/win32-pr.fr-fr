@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: aeaf40d3164d6bd9d892d30f352fd24467b24ddb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1211469b3b7cf90e9ddae1fd8edb51bb38d35b427f6cdf62684aa84142a77009
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563939"
 ---
 # <a name="id3dxmatrixstackpush-method-d3dx9mathh"></a>ID3DXMATRIXStack ::P méthode par émission (D3dx9math. h)
 
@@ -38,13 +38,13 @@ HRESULT Push();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode incrémente le nombre d’éléments sur la pile de 1, en dupliquant la matrice actuelle. La pile croît de manière dynamique à mesure que d’autres éléments sont ajoutés.
 

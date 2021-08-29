@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 76d8500daaa5db1746efa347e5dd10eb70a82234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c58176d918c1faf8319c9953a3476e991c6d04b25629909407759cb01cbe1b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981269"
 ---
 # <a name="cim_portondevice-class"></a>\_Classe CIM PortOnDevice
 

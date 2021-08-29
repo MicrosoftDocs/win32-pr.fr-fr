@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - windows.media.core.interop.h
-ms.openlocfilehash: eb61bce5132c2029b6f53fdd1159ca50984ba936
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d845cef0a4a9f6ee9d19b35705b20bd7e6bf2862a84ce4118acb92a5c66f37d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642119"
 ---
 # <a name="iaudioframenativegetdata-method"></a>IAudioFrameNative :: GetData, méthode
 
@@ -52,9 +52,9 @@ IID de l’interface à récupérer.
 *PPV* \[ à\]
 </dt> <dd>
 
-Tapez : **LPVOID \** _
+Type : **LPVOID \***
 
-Lorsque cette méthode est retournée avec succès, contient le pointeur d’interface demandé dans _riid paramètre.
+Lorsque cette méthode est retournée avec succès, contient le pointeur d’interface demandé dans le paramètre *riid* .
 
 </dd> </dl>
 

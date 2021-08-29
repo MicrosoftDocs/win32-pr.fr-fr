@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101297
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2793bea8dc01a9360a31c3da21f15be79ca8eff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d837daf6436e512d3d36a4ff36a08cea6add5f01f37c5c7e374d4c01311ab7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041887"
 ---
 # <a name="esentcolumndoesnotfitexception-properties"></a>Propriétés EsentColumnDoesNotFitException
 
@@ -49,7 +49,7 @@ Le type [EsentColumnDoesNotFitException](./esentcolumndoesnotfitexception-class.
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

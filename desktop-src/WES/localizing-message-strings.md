@@ -4,12 +4,12 @@ description: Chaque chaîne de message que vous spécifiez dans le manifeste doi
 ms.assetid: aeae9ef6-6ef7-46f5-a9ab-fabe418549b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b55b94ea8e8a40de1401cf3aba97488d5531a77b441361e38f1ff98219940afc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb63e1b2b3080a89ef873fb0665d1d92350fe5d7
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118587897"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812637"
 ---
 # <a name="localizing-message-strings"></a>Localiser des chaînes de message
 

@@ -64,11 +64,11 @@
       href: eaphost-development-frequently-asked-questions.md
       items:
         - name: Forum aux questions (FAQ)
-          href: general-frequently-asked-questions.md
+          href: general-frequently-asked-questions.yml
         - name: Forum aux questions sur le demandeur EAPHost
-          href: eaphost-supplicant-frequently-asked-questions.md
+          href: eaphost-supplicant-frequently-asked-questions.yml
         - name: Forum aux questions sur la méthode EAP
-          href: eap-method-frequently-asked-questions.md
+          href: eap-method-frequently-asked-questions.yml
     - name: Exemples de schéma EAPHost et hérité
       href: eap-host-schemas.md
       items:

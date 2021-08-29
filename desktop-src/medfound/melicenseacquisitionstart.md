@@ -4,12 +4,12 @@ ms.assetid: c328743c-a69b-431e-8a05-0e140aad9b4d
 title: Événement MELicenseAcquisitionStart (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 914d2580c95cf40986a844a994c1e284c5ad9e22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea326ff23c4d546f0b692a813ef92ccfce8e3cc97320a8129daa9cedc4867bfc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119228969"
 ---
 # <a name="melicenseacquisitionstart-event"></a>Événement MELicenseAcquisitionStart
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’acquisition de licence est terminée, le moteur de stratégie déclenche l’événement [MELicenseAcquisitionCompleted](melicenseacquisitioncompleted.md) .
 
@@ -37,8 +37,8 @@ Lorsque l’acquisition de licence est terminée, le moteur de stratégie décle
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 
