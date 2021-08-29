@@ -4,12 +4,12 @@ ms.assetid: 1969072e-575e-49b4-88db-4c7e7a5a1c37
 title: Configurer le format de sortie vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d09ac64d7f43e6c39377277544867491a93a6f3e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ecfe52ea72deb812fa1b3d4e131885640eb3279f1635622084b91857cadaf9bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104562308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871809"
 ---
 # <a name="configure-the-video-output-format"></a>Configurer le format de sortie vidéo
 

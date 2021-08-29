@@ -4,12 +4,12 @@ description: En savoir plus sur la gestion des enregistrements de ressources. Un
 ms.assetid: ddad5f14-5a2d-4966-87b7-b354666f9e24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba6c818899414cc541a1c89bfd11747051b2f5f1
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 61aa9e5c6711d0db763691beafdf8b49a4c3c3e670964e5345b753f91592f826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692979"
 ---
 # <a name="managing-dns-resource-records"></a>Gestion des enregistrements de ressources DNS
 

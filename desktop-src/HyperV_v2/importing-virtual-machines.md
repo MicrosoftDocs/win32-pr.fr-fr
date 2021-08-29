@@ -4,12 +4,12 @@ ms.assetid: A3E4AAA2-3AE6-4D7D-8D7B-1ED367D398C0
 title: Migration d’ordinateurs virtuels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4446830b61e2fabb79d0938520d0b503da167c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9be4bb1fee9628bcd5aa5cd1f787372bc8bb32191a42529a56db786a2e836866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392452"
 ---
 # <a name="migrating-virtual-machines"></a>Migration d’ordinateurs virtuels
 

@@ -4,12 +4,12 @@ ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: Exemple de formulaire papier numérisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d60e1d62a4e023ba38e9a1fd2c4890288a542d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8493384cecdfdbf0186692d52642307f720502f4b953724f444df400cc83c96a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934699"
 ---
 # <a name="scanned-paper-form-sample"></a>Exemple de formulaire papier numérisé
 
@@ -102,7 +102,7 @@ Le gestionnaire d’événements de clic de menu effacer supprime la collection 
 
 ## <a name="closing-the-form"></a>Fermeture du formulaire
 
-Dans le code généré par le Concepteur Windows Form, le contrôle [InkPicture](/previous-versions/aa514604(v=msdn.10)) est ajouté à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, le contrôle InkPicture est supprimé, ainsi que les autres composants du formulaire, par la méthode [dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) du formulaire.
+dans le code généré par le concepteur de formulaires Windows, le contrôle [InkPicture](/previous-versions/aa514604(v=msdn.10)) est ajouté à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, le contrôle InkPicture est supprimé, ainsi que les autres composants du formulaire, par la méthode [dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) du formulaire.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -1,21 +1,21 @@
 ---
-description: Création de graphiques à l’aide du générateur de graphiques de capture
+description: création de graphiques avec le générateur de Graph de Capture
 ms.assetid: 0329c4f0-ee6f-423e-b38b-169204e3a31c
-title: Création de graphiques à l’aide du générateur de graphiques de capture
+title: création de graphiques avec le générateur de Graph de Capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e4e48347a73cdac545723ac226cc58a0175dec5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3312dfb4ce37c5af981180e669b39f711cdfb5b2b9219f2b2f69f11bd32e7f39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119274669"
 ---
-# <a name="building-graphs-with-the-capture-graph-builder"></a>Création de graphiques à l’aide du générateur de graphiques de capture
+# <a name="building-graphs-with-the-capture-graph-builder"></a>création de graphiques avec le générateur de Graph de Capture
 
-En dépit de son nom, le générateur de graphiques de capture est utile pour créer de nombreux types de graphiques de filtres personnalisés, non seulement des graphiques de capture. Cet article fournit une brève vue d’ensemble de l’utilisation de cet objet.
+en dépit de son nom, le générateur de Graph de capture est utile pour créer de nombreux types de graphiques de filtres personnalisés, non seulement des graphiques de capture. Cet article fournit une brève vue d’ensemble de l’utilisation de cet objet.
 
-Le générateur de graphiques de capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . Commencez par appeler [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer le générateur de graphiques de capture et le gestionnaire de graphes de filtre. Ensuite, initialisez le générateur de graphiques de capture en appelant [**ICaptureGraphBuilder2 :: SetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) avec un pointeur vers le gestionnaire de graphique de filtre, comme suit :
+le générateur de Graph de Capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . commencez par appeler [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer le générateur de Graph de Capture et le gestionnaire de Graph de filtres. initialisez ensuite le générateur de Graph de Capture en appelant [**ICaptureGraphBuilder2 :: SetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) avec un pointeur vers le gestionnaire de Graph de filtre, comme suit :
 
 
 ```C++
@@ -48,7 +48,7 @@ La méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/St
 <dl> `RenderStream(NULL, NULL, A, B, C)`  
 </dl>
 
-Toutes les connexions sont « intelligentes », ce qui signifie que des filtres supplémentaires sont ajoutés au graphique en fonction des besoins. Pour plus d’informations, consultez [connexion intelligente](intelligent-connect.md). Pour connecter uniquement deux filtres, définissez la valeur du milieu sur **null**. Par exemple, cet appel connecte un à C :
+Toutes les connexions sont « intelligentes », ce qui signifie que des filtres supplémentaires sont ajoutés au graphique en fonction des besoins. Pour plus d’informations, consultez [Intelligent connecter](intelligent-connect.md). Pour connecter uniquement deux filtres, définissez la valeur du milieu sur **null**. Par exemple, cet appel connecte un à C :
 
 <dl> `RenderStream(NULL, NULL, A, NULL, C)`  
 </dl>
@@ -110,7 +110,7 @@ Le deuxième paramètre de [**RenderStream**](/windows/desktop/api/Strmif/nf-str
 -   Vidéo de MEDIATYPE \_
 -   MEDIATYPE \_ entrelacé (DV)
 
-Vous pouvez utiliser ce paramètre chaque fois que les broches de sortie du filtre prennent en charge l’énumération des types de médias préférés. Pour les sources de fichiers, le générateur de graphiques de capture ajoute automatiquement un filtre d’analyseur si nécessaire, puis interroge les types de média sur l’analyseur. (Pour obtenir un exemple, consultez [recompression d’un fichier AVI](recompressing-an-avi-file.md).) En outre, si le dernier filtre de la chaîne a plusieurs broches d’entrée, la méthode tente d’énumérer leurs types de média. Toutefois, tous les filtres ne prennent pas en charge cette fonctionnalité.
+Vous pouvez utiliser ce paramètre chaque fois que les broches de sortie du filtre prennent en charge l’énumération des types de médias préférés. pour les sources de fichiers, le générateur de Graph de Capture ajoute automatiquement un filtre d’analyseur si nécessaire, puis interroge les types de média sur l’analyseur. (Pour obtenir un exemple, consultez [recompression d’un fichier AVI](recompressing-an-avi-file.md).) En outre, si le dernier filtre de la chaîne a plusieurs broches d’entrée, la méthode tente d’énumérer leurs types de média. Toutefois, tous les filtres ne prennent pas en charge cette fonctionnalité.
 
 ## <a name="finding-interfaces-on-filters-and-pins"></a>Recherche d’interfaces sur les filtres et les codes confidentiels
 

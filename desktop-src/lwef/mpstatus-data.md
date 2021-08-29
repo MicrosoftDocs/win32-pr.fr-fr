@@ -3,8 +3,8 @@ title: Structure MPSTATUS_DATA (MpClient. h)
 description: Contient des données sur l’état actuel d’un composant du produit.
 ms.assetid: 6AEF485C-30D1-47DB-92B6-048B8CAA7833
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_DATA
-- PMPSTATUS_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_DATA
+- PMPSTATUS_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5da4ea9c8c51d8ee74d3242e5020df23f758228
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 78989b055e6de79c3da733ff8bc498a3fb6717c5dec226db73b80c4e5c9d899c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887909"
 ---
 # <a name="mpstatus_data-structure"></a>\_Structure de données MPSTATUS
 
@@ -199,7 +199,7 @@ Quand **ComponentID**  ==  **MPCOMPONENT \_ NIS**. Consultez [**MPSTATUS \_ DATA
 
 </dd> <dt>
 
-**gérés**
+**po**
 </dt> <dd>
 
 Type : **PMPSTATUS \_ DATAEX \_ inutilisé**
@@ -216,8 +216,8 @@ Quand **ComponentID**  ==  **MPCOMPONENT \_ Elam**. Consultez [**MPSTATUS \_ DAT
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 
