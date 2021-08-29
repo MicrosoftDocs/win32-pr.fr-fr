@@ -4,12 +4,12 @@ ms.assetid: 6283f56b-23ae-4840-abd0-2478a50c670c
 title: Fibres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea0383e6d207a77c621f00f358c72bb8873ecb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 711fe8a23c8384f786cb60d6075e2289c403d272f0a899653738d031be09cdea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886709"
 ---
 # <a name="fibers"></a>Fibres
 
@@ -25,7 +25,7 @@ La fonction [**CreateFiber**](/windows/desktop/api/WinBase/nf-winbase-createfibe
 
 Une fibre peut récupérer les données de fibre en appelant la macro [**GetFiberData**](/windows/win32/api/winnt/nf-winnt-getfiberdata) . Une fibre peut récupérer l’adresse de fibre à tout moment en appelant la macro [**GetCurrentFiber**](/windows/win32/api/winnt/nf-winnt-getcurrentfiber) .
 
-## <a name="fiber-local-storage"></a>Stockage local Fiber
+## <a name="fiber-local-storage"></a>Stockage de fibres locales
 
 Une fibre peut utiliser le *stockage local de fibres* (FLS) pour créer une copie unique d’une variable pour chaque fibre. Si aucune commutation de fibre ne se produit, FLS agit exactement comme le [stockage local des threads](thread-local-storage.md). Les fonctions FLS ([**FlsAlloc**](/windows/win32/api/fibersapi/nf-fibersapi-flsalloc), [**FlsFree**](/windows/win32/api/fibersapi/nf-fibersapi-flsfree), [**FlsGetValue**](/windows/win32/api/fibersapi/nf-fibersapi-flsgetvalue)et [**FlsSetValue**](/windows/win32/api/fibersapi/nf-fibersapi-flssetvalue)) manipulent les FLS associées au thread actuel. Si le thread exécute une fibre et que la fibre est basculée, le FLS est également basculé.
 

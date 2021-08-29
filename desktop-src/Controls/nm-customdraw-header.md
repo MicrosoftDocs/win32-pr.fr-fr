@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (en-tête) (commctrl. h)
 description: Envoyé par un contrôle header pour notifier sa fenêtre parente sur les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 44dab54b-45ef-4fba-93b8-2a3e35cda23f
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (en-tête)
+- code de notification de la NM_CUSTOMDRAW (en-tête) Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d6b35503aebed221da6cec212c6dbf614061f0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d099a3cc951715af00569de7463148af28eb977c9081800543802015c38c4582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106544181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914879"
 ---
 # <a name="nm_customdraw-header-notification-code"></a>\_Code de notification CUSTOMDRAW nm (en-tête)
 
@@ -65,7 +65,7 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Utilisation d’un [dessin personnalisé](custom-draw.md) .
 
@@ -75,8 +75,8 @@ Pour plus d’informations, consultez Utilisation d’un [dessin personnalisé](
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

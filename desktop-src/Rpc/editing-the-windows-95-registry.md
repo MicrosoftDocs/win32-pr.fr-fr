@@ -1,21 +1,21 @@
 ---
-title: Modification du registre de Windows 95
-description: Vous pouvez utiliser REGEDIT pour modifier le Registre Windows 95 afin de désigner un NSP.
+title: modification du registre Windows 95
+description: vous pouvez utiliser REGEDIT pour modifier le registre Windows 95 afin de désigner un NSP.
 ms.assetid: 109daf4a-722f-4a25-a778-72360ee07ad9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c622ea44a5e365ca631d6d4db34af8e939ea6487
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4442ef9984110fb0d912e4e5e90e00b7d14222bc16044c02f9570fe3e714c066
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021649"
 ---
-# <a name="editing-the-windows-95-registry"></a>Modification du registre de Windows 95
+# <a name="editing-the-windows-95-registry"></a>modification du registre Windows 95
 
-Vous pouvez utiliser REGEDIT pour modifier le Registre Windows 95 afin de désigner un NSP.
+vous pouvez utiliser REGEDIT pour modifier le registre Windows 95 afin de désigner un NSP.
 
-**Pour désigner un fournisseur de services de noms Microsoft Locator pour Windows 95**
+**pour désigner un fournisseur de services de noms Microsoft Locator pour Windows 95**
 
 1.  Sélectionnez
 
@@ -41,9 +41,9 @@ Vous pouvez utiliser REGEDIT pour modifier le Registre Windows 95 afin de désig
 
      
 
-Vous pouvez utiliser REGEDIT pour modifier le Registre Windows 95 afin de désigner un NSP CDS CDS.
+vous pouvez utiliser REGEDIT pour modifier le registre Windows 95 afin de désigner un NSP CDS CDS.
 
-**Pour désigner un fournisseur de services de noms de CD DCE pour Windows 95**
+**pour désigner un fournisseur de services de noms de cd DCE pour Windows 95**
 
 1.  Sélectionnez
 

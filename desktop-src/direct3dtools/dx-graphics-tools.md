@@ -4,12 +4,12 @@ description: Cette section répertorie les outils et les utilitaires fournis pou
 ms.assetid: 89fb8587-f475-45f7-8faf-fe195a2b4b66
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55823a4810819b91095816d757fa0c3a655369bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 676faf225ee03371f6c7659d605cd467b921be43bc08d4e4a2b015674a0b0b64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853341"
 ---
 # <a name="tools-for-directx-graphics"></a>Outils pour DirectX Graphics
 
@@ -19,6 +19,6 @@ Cette section répertorie les outils et les utilitaires fournis pour DirectX Gra
 
 | Rubrique | Description |
 |-|-|
-| [Débogage des applications DirectX à distance](debugging-directx-apps-remotely.md) | Vous pouvez utiliser Visual Studio et le kit de développement logiciel (SDK) Windows 8 pour déboguer des applications DirectX à distance.  |
+| [Débogage des applications DirectX à distance](debugging-directx-apps-remotely.md) | vous pouvez utiliser Visual Studio et le kit de développement logiciel (SDK) Windows 8 pour déboguer des applications DirectX à distance.  |
 | [Effect-Tool du compilateur](fxc.md) | FXC (fxc.exe) est un outil hors connexion pour la compilation des nuanceurs [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl) pour toutes les versions de Direct3D. L’outil se trouve à l’emplacement suivant : (*racine du SDK*) \\ \\ bin \\ x86\\ |
 | [Informations de référence sur l’interface de capture des diagnostics Direct3D](vspixengine-reference.md) | Cette section traite des API pour l’interface de capture des diagnostics Graphics Direct3D.  |

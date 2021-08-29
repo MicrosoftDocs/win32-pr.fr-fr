@@ -4,12 +4,12 @@ ms.assetid: c4c0ed5a-2518-499f-805f-dcbe0b0f9393
 title: Contrôle de tableau blanc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e056a764ec4a71c3ce6785acf331b4bc1ff95ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5671cd9f345bb4a93efb0a103017fe733bf35beaf58d271c1c2e9906daa9ddf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105399"
 ---
 # <a name="billboard-control"></a>Contrôle de tableau blanc
 
@@ -32,7 +32,7 @@ Vous pouvez utiliser les attributs suivants avec le contrôle de tableau blanc. 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle n’a pas de fenêtre propre.
 

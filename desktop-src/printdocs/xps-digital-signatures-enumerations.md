@@ -4,12 +4,12 @@ ms.assetid: e03cfb39-7d4f-4bbf-bf05-21165caf7f48
 title: Énumérations de l’API de signature numérique XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fe8ca5de14ed237f49c4c01877539b153163b24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed77e5375ae98777bf9fdc61bc50d52541151e7f0c5ab4bac888ff02caf5946
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886259"
 ---
 # <a name="xps-digital-signature-api-enumerations"></a>Énumérations de l’API de signature numérique XPS
 

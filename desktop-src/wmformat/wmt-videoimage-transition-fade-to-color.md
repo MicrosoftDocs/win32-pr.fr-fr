@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3873a24cee74e8cad3f6cd91d39f20a72ffa8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 315a0d190a65c8f756eabaff6b86dd2efb6d4dbe97e5b5de8e7a3dfe782c880a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109939"
 ---
 # <a name="wmt_videoimage_transition_fade_to_color"></a>\_ \_ transition \_ en fondu VIDEOIMAGE WMT \_ vers la \_ couleur
 

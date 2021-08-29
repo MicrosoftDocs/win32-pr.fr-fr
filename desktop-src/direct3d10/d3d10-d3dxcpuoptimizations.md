@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a0ef276e6d3303acd77c9580b55a9aa49dbe2087
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: de2c24667384ad8f163774c77b4f7fea9332e953425cd5ee520cd310fa0733a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853449"
 ---
 # <a name="d3dxcpuoptimizations-function"></a>D3DXCpuOptimizations fonction)
 

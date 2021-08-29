@@ -4,12 +4,12 @@ description: Souvent, le modèle de programmation requiert un rappel de serveur 
 ms.assetid: a4f3ea26-ac4b-41e5-abde-96b4baedf2ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6260e2cff2cbaff86f210764e89d55859c4d33af
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5fe19db092885e745d8dd97c8b0e034f2230327b9a2327417dc73d834940762e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022939"
 ---
 # <a name="callbacks-rpc"></a>Rappels (RPC)
 

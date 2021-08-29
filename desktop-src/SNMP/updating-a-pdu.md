@@ -4,12 +4,12 @@ description: Une application WinSNMP peut récupérer et mettre à jour les cham
 ms.assetid: 001f5252-aa54-490b-8ff0-39a7780baff8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678f980882b350669321cf676f9bc69af4369de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c876f22118841b2139086665aa2f39c4dd5395328a27e21cea35cf609698f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885689"
 ---
 # <a name="updating-a-pdu"></a>Mise à jour d’une PDU
 
@@ -19,9 +19,9 @@ L’application peut récupérer les champs type d’unité d’alimentation, id
 
 Si le type de PDU est égal à la \_ PDU SNMP \_ GETBULK, l’application peut également mettre à jour les champs **non \_ répéteurs** et **nombre maximal de \_ répétitions** de la PDU.
 
- 
+ 
 
- 
+ 
 
 
 

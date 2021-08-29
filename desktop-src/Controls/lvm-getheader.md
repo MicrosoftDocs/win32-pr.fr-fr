@@ -3,7 +3,7 @@ title: Message LVM_GETHEADER (commctrl. h)
 description: Obtient le handle du contrôle d’en-tête utilisé par le contrôle List-View. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetHeader.
 ms.assetid: 4708b493-4449-4844-bf0d-e6969bcf0246
 keywords:
-- LVM_GETHEADER les contrôles de message Windows
+- LVM_GETHEADER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d53082092118cad373005743849498791f0e1ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d372085a6b8c81b61bc375bade7f4c9c502fc5cba38cc7c44039a881af2ada9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062589"
 ---
 # <a name="lvm_getheader-message"></a>\_Message GETHEADER LVM
 
@@ -45,8 +45,8 @@ Retourne le handle du contrôle header.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

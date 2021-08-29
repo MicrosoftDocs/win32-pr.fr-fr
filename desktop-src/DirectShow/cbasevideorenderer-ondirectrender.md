@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7c117366590c96b63ff4595d4563e92aec542cfb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb66169828d8649011c93f8daece4f0d389e82bef0f9d424cd59f2cdc9ae3cf6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052169"
 ---
 # <a name="cbasevideorendererondirectrender-method"></a>Méthode CBaseVideoRenderer. OnDirectRender
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode à la place de [**OnRenderStart**](cbasevideorenderer-onrenderstart.md) et [**OnRenderEnd**](cbasevideorenderer-onrenderend.md). Cette méthode est utilisée par le convertisseur vidéo DirectDraw.
 
@@ -63,7 +63,7 @@ Appelez cette méthode à la place de [**OnRenderStart**](cbasevideorenderer-onr
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 99974206f6487d90e1660f5a64c1d00904912c66
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e64d4493e43e23b6826c81ac61ae90d64a236d7ffcace32bb29f53b5c0c039fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105059"
 ---
 # <a name="usercontrolservice-method-of-the-win32_systemdriver-class"></a>Méthode UserControlService de la \_ classe Win32 SystemDriver
 

@@ -4,12 +4,12 @@ description: Les objets qui consomment des données provenant d’une source ext
 ms.assetid: 286a1ecf-5255-4443-a17d-5ffa55ed0be1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49df9e6bb7d9b15192473b18114fe7fcd69ecedf
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f5d90e9548e39fbfcbfcc6438b22f747bc0045e157de42451001df18bf76df4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854629"
 ---
 # <a name="data-notification"></a>Notification de données
 

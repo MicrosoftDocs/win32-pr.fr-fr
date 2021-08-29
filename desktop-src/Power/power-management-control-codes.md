@@ -4,12 +4,12 @@ ms.assetid: 027fffdb-62a1-47d8-b69f-c2fcf7f9ac97
 title: Codes de contrôle de gestion de l’alimentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef980bdcd3aa4c1ace9ee0b0cd92265d3dd9dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7294e04727bf122e65ef982bc7850ff3417e9bf25a8542c96e0ad412909bd649
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961479"
 ---
 # <a name="power-management-control-codes"></a>Codes de contrôle de gestion de l’alimentation
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4f9d38ebc5be25eb8f036583404d340a8882de6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e446d01cd2df11e89c6bf2b4803b810fa1255e8553ae11eddc81faf190e8131c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891372"
 ---
 # <a name="esentusageexception-constructor-string-jet_err"></a>Constructeur EsentUsageException (String, JET_err)
 

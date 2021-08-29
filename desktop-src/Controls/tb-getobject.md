@@ -3,7 +3,7 @@ title: Message TB_GETOBJECT (commctrl. h)
 description: Récupère le IDropTarget pour un contrôle ToolBar.
 ms.assetid: b26394ea-6f0f-4084-956d-f9166cc54b76
 keywords:
-- TB_GETOBJECT les contrôles de message Windows
+- TB_GETOBJECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce923feaec893e6f4304eb0b993de33dc1fe2a97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4671c3b6998c170f6ef59e8a0019b58a166728d1c560eac8420dbaf40c4dcb0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061339"
 ---
 # <a name="tb_getobject-message"></a>TO \_ GETOBJECT message
 
@@ -47,7 +47,7 @@ Adresse qui reçoit le pointeur d’interface. Si une erreur se produit, un poin
 
 Retourne une valeur **HRESULT** indiquant la réussite ou l’échec de l’opération.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) de la barre d’outils est utilisé par la barre d’outils lorsque les objets sont glissés ou déplacés dessus.
 
@@ -57,8 +57,8 @@ Le [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) de la ba
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

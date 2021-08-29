@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e29d3f75cd8e2f83fcd21236661d0d1fa0dabef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9b63c2d0a5223dd2ae282804b2a6dc5e2872a5c108ed885bdca5a0db862a4b75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104530712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062540"
 ---
 # <a name="ienumfsiitemsremotenext-method"></a>IEnumFsiItems :: RemoteNext, méthode
 
@@ -90,7 +90,7 @@ D’autres codes de réussite peuvent être retournés à la suite de l’implé
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | MIDL<br/>                      | <dl> <dt>Imapi2fs. idl</dt> </dl> |
 
 

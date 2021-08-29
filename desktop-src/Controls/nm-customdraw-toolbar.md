@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (barre d’outils) (commctrl. h)
 description: Envoyé par une barre d’outils pour signaler à sa fenêtre parente les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e83a85f4-7955-411d-9a08-29f5b30158c5
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (barre d’outils)
+- NM_CUSTOMDRAW (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d1a33e6b7e9a26237813ec3a90e560f05dd9ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d3e12f0c0db15c0200f28701f85d72606faf3938d53e5feb92495826f0edd71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061729"
 ---
 # <a name="nm_customdraw-toolbar-notification-code"></a>\_Code de notification CUSTOMDRAW nm (barre d’outils)
 
@@ -81,8 +81,8 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

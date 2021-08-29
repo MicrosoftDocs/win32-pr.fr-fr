@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102754
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2359f30fd411e8c897a0f432a02ff4314d12d2dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6ef3ed3d8a2d72ee8d415dffd29f838acab1f764f94236a740d508ce2acca9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721789"
 ---
 # <a name="esentslvealistcorruptexception-methods"></a>Méthodes EsentSLVEAListCorruptException
 

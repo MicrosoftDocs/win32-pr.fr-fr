@@ -3,7 +3,7 @@ title: Message LVM_GETVIEWRECT (commctrl. h)
 description: Récupère le rectangle englobant de tous les éléments dans le contrôle List-View. La vue liste doit être en mode icône ou petite icône. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetViewRect.
 ms.assetid: 69b96f86-8b7e-42c1-ad73-f9b2732ab9f9
 keywords:
-- LVM_GETVIEWRECT les contrôles de message Windows
+- LVM_GETVIEWRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4c4fdf0e8466d3fb0b2ad164241c3f6a541570
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4de840c68af1abb9fd5a79e93318d984b64b295f5431317330bf03f0e34e44ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062359"
 ---
 # <a name="lvm_getviewrect-message"></a>\_Message GETVIEWRECT LVM
 
@@ -49,8 +49,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed
 title: Méthodes Graphics. FromHDC (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1f569ec9376d21c7bc27df27e3fad6d63aa872d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59826e513febcae6cd5a205e854f894d661b0ab33eaf831ed76f1b64d1d85b16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104983103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888819"
 ---
 # <a name="graphicsfromhdc-methods"></a>Méthodes Graphics. FromHDC
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes FromHDC de la classe [**Graphics**](/wi
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

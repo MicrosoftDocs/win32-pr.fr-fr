@@ -4,12 +4,12 @@ description: Activation des informations d’erreur étendues pour l’appel de 
 ms.assetid: 73b72d0a-8533-40ac-8b41-8af4d60f9631
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfd6579069c840d8f6dba5a9cd0e0d4edc831f6a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0813e770a6b1490ddd3e8e90b050f575ee76d01cf8e4e5d59b4d9e0eff74ce2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021669"
 ---
 # <a name="enabling-extended-error-information"></a>Activation des informations d’erreur étendues
 
@@ -31,9 +31,9 @@ Les chaînes peuvent être placées entre guillemets doubles, mais cela est facu
 
 Chaque processus qui commence par « Win » propage les informations d’erreur étendues. Sur de nombreux ordinateurs, par exemple, ces processus sont winlogon.exe et WINWORD.EXE.
 
- 
+ 
 
- 
+ 
 
 
 

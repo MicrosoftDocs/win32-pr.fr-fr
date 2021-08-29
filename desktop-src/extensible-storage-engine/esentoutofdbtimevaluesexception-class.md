@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 154403b4a87533859415d220c9a0d1c0370faf2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8646da4b385bda119cd00bd654753559fc739ba0f8bac3fa2b931286be63c335
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851609"
 ---
 # <a name="esentoutofdbtimevaluesexception-class"></a>EsentOutOfDbtimeValuesException, classe
 

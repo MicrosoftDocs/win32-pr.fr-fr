@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit comment utiliser l’API de transcodage pour recoder des fichiers multimédias. L’API de transcodage a été introduite dans Windows 7.
+description: Cette section décrit comment utiliser l’API de transcodage pour recoder des fichiers multimédias. l’API de transcodage a été introduite dans Windows 7.
 ms.assetid: 24bf68a8-39bf-4302-b28c-71bb23b63469
 title: API de transcodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9783c6f99a25ba6835171dcc7f7555a1f747c72b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 892699e8be524aec219baf748f7d686ec151631ad5fca34ab4d01212959d2af8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012269"
 ---
 # <a name="transcode-api"></a>API de transcodage
 
-Cette section décrit comment utiliser l’API de transcodage pour recoder des fichiers multimédias. L’API de transcodage a été introduite dans Windows 7.
+Cette section décrit comment utiliser l’API de transcodage pour recoder des fichiers multimédias. l’API de transcodage a été introduite dans Windows 7.
 
 Le *transcodage* est la conversion d’un fichier multimédia numérique d’un format à un autre. L’API de transcodage est conçue pour être utilisée avec la [session multimédia](media-session.md). Il simplifie l’utilisation de la session multimédia pour certains types d’applications de transcodage :
 

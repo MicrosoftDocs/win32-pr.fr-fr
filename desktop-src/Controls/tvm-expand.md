@@ -3,7 +3,7 @@ title: Message TVM_EXPAND (commctrl. h)
 description: La TVM \_ expand message développe ou réduit la liste des éléments enfants associés à l’élément parent spécifié, le cas échéant. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro Expand TreeView.
 ms.assetid: d6c2e5b2-ce36-4c2b-b527-91c6de56e305
 keywords:
-- TVM_EXPAND les contrôles de message Windows
+- TVM_EXPAND les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14d5cd7577c6f4581865569c3aefca93f13aa305
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 025527dc86e832cf24a86cf9c973d1e2e5103fa23e597bc14cb35e00dba276a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104419"
 ---
 # <a name="tvm_expand-message"></a>TVM- \_ développer le message
 
@@ -61,7 +61,7 @@ Handle vers l’élément parent à développer ou réduire.
 
 Retourne une valeur différente de zéro si l’opération a réussi, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le développement d’un nœud déjà développé est considéré comme une opération réussie et [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) retourne une valeur différente de zéro. La réduction d’un nœud retourne la valeur zéro si le nœud est déjà réduit ; Sinon, elle retourne une valeur différente de zéro. Toute tentative de développement ou de réduction d’un nœud qui n’a pas d’enfants est considérée comme un échec et **SendMessage** retourne la valeur zéro.
 
@@ -75,8 +75,8 @@ L’opération de développement peut échouer si le propriétaire du contrôle 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

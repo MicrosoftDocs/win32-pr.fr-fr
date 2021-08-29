@@ -4,19 +4,19 @@ ms.assetid: ea45b0e5-7df7-47fb-8dad-fccfbe53fec0
 title: Identificateurs de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7b2f11189f44b8555081d589f3e9ba2ed131cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3607a1dcbc97505a604a4dd8358c93af9d7c614a44192826030a4430d31c839
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106729"
 ---
 # <a name="locale-identifiers"></a>Identificateurs de paramètres régionaux
 
 Chaque [paramètre régional](locales-and-languages.md) a un identificateur unique, une valeur de 32 bits qui se compose d’un [identificateur de langue](language-identifiers.md) et d’un [identificateur d’ordre de tri](sort-order-identifiers.md). L’identificateur de paramètres régionaux est une abréviation numérique internationale standard et contient les composants nécessaires pour identifier de manière unique l’un des paramètres régionaux définis par le système d’exploitation installés. NLS prend en charge les identificateurs de paramètres régionaux prédéfinis et les identificateurs personnalisés.
 
 > [!Note]  
-> Les noms de paramètres régionaux peuvent être utilisés avec les fonctions introduites dans Windows Vista qui acceptent un [nom de paramètres régionaux](locale-names.md) en tant que paramètre, au lieu d’un identificateur de paramètres régionaux. Pour plus d’informations, consultez [appel des fonctions « nom des paramètres régionaux »](calling-the--locale-name--functions.md). L’utilisation de noms de paramètres régionaux au lieu des identificateurs de paramètres régionaux est toujours préférable.
+> les noms de paramètres régionaux peuvent être utilisés avec les fonctions introduites dans Windows Vista qui acceptent un [nom de paramètres régionaux](locale-names.md) en tant que paramètre, au lieu d’un identificateur de paramètres régionaux. Pour plus d’informations, consultez [appel des fonctions « nom des paramètres régionaux »](calling-the--locale-name--functions.md). L’utilisation de noms de paramètres régionaux au lieu des identificateurs de paramètres régionaux est toujours préférable.
 
  
 

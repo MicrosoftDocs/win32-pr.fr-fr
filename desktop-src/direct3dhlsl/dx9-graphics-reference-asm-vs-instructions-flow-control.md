@@ -1,5 +1,5 @@
 ---
-title: Limites d’imbrication du contrôle de Flow
+title: Flow Contrôler les limites d’imbrication
 description: Les instructions de contrôle de workflow de nuanceur de sommets présentent deux restrictions spéciales.
 ms.assetid: c9f80a97-8245-4974-a284-7974e2d2e504
 ms.topic: article
@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ebb5b491e074c2275081aa3fe629a2486a24c6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d50d0e438357374069df7e884379fba98d819968fea1298ab85466123d69cc03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854589"
 ---
-# <a name="flow-control-nesting-limits"></a>Limites d’imbrication du contrôle de Flow
+# <a name="flow-control-nesting-limits"></a>Flow Contrôler les limites d’imbrication
 
 Les instructions de contrôle de workflow de nuanceur de sommets présentent deux restrictions spéciales. Les profondeurs d’imbrication limitent le nombre d’instructions qui peuvent être appelées l’une à l’autre. En outre, chaque instruction a un nombre d’emplacements d’instructions qui s’applique au nombre maximal d’instructions qu’un nuanceur peut prendre en charge.
 
 > [!Note]  
 > Lorsque vous utilisez les \* \_ \_ \_ \_ \_ profils de nuanceur HLSL de 4 niveaux 9 x, vous utilisez implicitement les profils [Shader Model 2. x](dx-graphics-hlsl-sm2.md) pour prendre en charge le matériel compatible Direct3D 9. Les profils Shader Model 2. x prennent en charge un comportement de contrôle de Flow plus limité que le [modèle de nuanceur 4. x](dx-graphics-hlsl-sm4.md) et versions ultérieures.
 
- 
+ 
 
 ## <a name="depth-count-per-instruction-for-vs_2_0"></a>Nombre de niveaux par instruction pour vs \_ 2 \_ 0
 
@@ -53,7 +53,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -61,7 +61,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
-| Type d’instruction  | Maximale                               |
+| Type d’instruction  | Maximum                               |
 |-------------------|---------------------------------------|
 | Imbrication statique    | Limité uniquement par le nombre de flows statiques |
 | Imbrication dynamique   | n/a                                   |
@@ -71,7 +71,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
- 
+ 
 
 ## <a name="depth-count-per-instruction-for-vs_2_x"></a>Nombre de niveaux par instruction pour vs \_ 2 \_ x
 
@@ -101,7 +101,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -109,7 +109,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
-| Type d’instruction  | Maximale                                                                              |
+| Type d’instruction  | Maximum                                                                              |
 |-------------------|--------------------------------------------------------------------------------------|
 | Imbrication statique    | Limité uniquement par le nombre de flows statiques                                                |
 | Imbrication dynamique   | 0 ou 24, consultez D3DCAPS9. VS20Caps.DynamicFlowControlDepth                               |
@@ -119,7 +119,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
- 
+ 
 
 ## <a name="depth-count-per-instruction-for-vs_2_sw"></a>Nombre de niveaux par instruction pour vs \_ 2 \_ SW
 
@@ -149,7 +149,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -157,7 +157,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
-| Type d’instruction  | Maximale  |
+| Type d’instruction  | Maximum  |
 |-------------------|----------|
 | Imbrication statique    | 24       |
 | Imbrication dynamique   | 24       |
@@ -167,7 +167,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
- 
+ 
 
 ## <a name="depth-count-per-instruction-for-vs_3_0"></a>Nombre de niveaux par instruction pour vs \_ 3 \_ 0
 
@@ -197,7 +197,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -205,7 +205,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
-| Type d’instruction  | Maximale  |
+| Type d’instruction  | Maximum  |
 |-------------------|----------|
 | Imbrication statique    | 24       |
 | Imbrication dynamique   | 24       |
@@ -215,7 +215,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
- 
+ 
 
 ## <a name="depth-count-per-instruction-for-vs_3_sw"></a>Nombre de niveaux par instruction pour vs \_ 3 \_ SW
 
@@ -245,7 +245,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -253,7 +253,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
-| Type d’instruction  | Maximale  |
+| Type d’instruction  | Maximum  |
 |-------------------|----------|
 | Imbrication statique    | 24       |
 | Imbrication dynamique   | 24       |
@@ -263,7 +263,7 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -272,9 +272,9 @@ Profondeur d’imbrication définissez le nombre d’instructions qui peuvent ê
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

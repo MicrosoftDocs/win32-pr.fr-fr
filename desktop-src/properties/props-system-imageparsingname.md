@@ -4,12 +4,12 @@ ms.assetid: 62143bdd-03f4-4b0f-bd63-94e364ea17f5
 title: System. ImageParsingName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd3d6e2cb5606f972f2a56840d82985dda7870c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63c676ffc1b686b1fc944d66a017efd9723a4bde65959f85fcd46610c9a040fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010289"
 ---
 # <a name="systemimageparsingname"></a>System. ImageParsingName
 
@@ -45,7 +45,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

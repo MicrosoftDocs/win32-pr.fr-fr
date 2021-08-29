@@ -3,7 +3,7 @@ title: Message TTM_SETDELAYTIME (commctrl. h)
 description: Définit les durées initiales, contextuelles et de réaffichage pour un contrôle ToolTip.
 ms.assetid: 0a73def0-550c-4d01-9cb1-1eb1f4356fa3
 keywords:
-- TTM_SETDELAYTIME les contrôles de message Windows
+- TTM_SETDELAYTIME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b633dc75baa0a8f385cf8cdb9bf7e9fa254809
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2dd5b4f3d20cd99872adeeb66776d71a1e4125a066890a3bab4793caf04de8f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914069"
 ---
 # <a name="ttm_setdelaytime-message"></a>\_Message atténuation SETDELAYTIME
 
@@ -60,7 +60,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les délais d’attente par défaut sont basés sur le temps de double-clic. Pour le double-clic par défaut de 500 ms, les temps de délai initial, autopop et de réaffichage sont de 500 ms, 5 000 MS et 100 ms respectivement. Le fragment de code suivant utilise la fonction [**GetDoubleClickTime**](/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime) pour déterminer les trois délais pour tous les systèmes.
 
@@ -81,8 +81,8 @@ reshow = GetDoubleClickTime() / 5;
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

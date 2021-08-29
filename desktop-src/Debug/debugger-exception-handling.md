@@ -4,12 +4,12 @@ ms.assetid: c45a7dc6-e6b2-4fc4-9522-12d96893f4c7
 title: Gestion des exceptions du débogueur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6aff6d566e8798aaf4f3113ce6d8f44a3bc71ba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f23595f68de31bb009a0b82d9257453ce7073eb489cc6a5b654ab4553ee60474
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103909"
 ---
 # <a name="debugger-exception-handling"></a>Gestion des exceptions du débogueur
 

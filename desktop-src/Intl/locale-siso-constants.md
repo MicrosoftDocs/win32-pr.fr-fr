@@ -4,12 +4,12 @@ ms.assetid: c830e9e9-b58a-4d31-929a-ed699bc08d9f
 title: Constantes LOCALE_SISO *
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16a3d7583bc920daa2edc85b641f191b016bbbd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d384c168bcf48f794c4cbeb9e013e0f513fe3f82e2ccacafbf9d3e5da26f8f4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106199"
 ---
 # <a name="locale_siso-constants"></a>Paramètres régionaux \_ SIOS \* constantes
 

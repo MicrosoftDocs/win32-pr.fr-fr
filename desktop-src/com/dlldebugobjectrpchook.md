@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62fffe6cc2d9ca650442d0a1c3fea2048fc6c84b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aaaa8932a5db6325f9a63afa50cf6a2f4fef88621567f965c3e0a7e611abb696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854609"
 ---
 # <a name="dlldebugobjectrpchook-function"></a>DllDebugObjectRPCHook fonction)
 

@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf2bac3b43cf083d4f2d3588fed41d55380a435cc10c56cdfdb5cae1929d12c3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 39d689d5f5c729e13385fc0d6d5b31baf96b141b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119292779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886983"
 ---
-# <a name="sizetype-function"></a>Size, <Type> fonction
+# <a name="sizelttypegt-function"></a>&lt;Fonction de type de taille &gt;
 
 Crée une structure de taille qui stocke sa largeur et sa hauteur à l’aide du type de données spécifié.
 
@@ -62,7 +62,7 @@ typename TypeTraits<Type>::Size Size(
 
 Taille qui contient la largeur et la hauteur spécifiées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

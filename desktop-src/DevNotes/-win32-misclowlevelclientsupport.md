@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique contient des informations sur les API de bas niveau utilisées par l’infrastructure cliente Windows.
+description: cette rubrique contient des informations sur les api de bas niveau utilisées par l’infrastructure cliente Windows.
 ms.assetid: 14a6e970-2032-420e-9930-a15909dbbb97
 title: Prise en charge des clients de Low-Level divers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11558c9994a9c622f71e803521352d1073e68c05
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 544a0f5a63a40c6cefad4a97f5928a9bbbcbd0e0c0cc05a5b5bddce8f989bf93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103829"
 ---
 # <a name="miscellaneous-low-level-client-support"></a>Prise en charge des clients de Low-Level divers
 
-Cette rubrique contient des informations sur les API de bas niveau utilisées par l’infrastructure cliente Windows.
+cette rubrique contient des informations sur les api de bas niveau utilisées par l’infrastructure cliente Windows.
 
 ### <a name="functions"></a>Fonctions
 
@@ -49,7 +49,7 @@ Cette rubrique contient des informations sur les API de bas niveau utilisées pa
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Winuser/nf-winuser-disableprocesswindowsghosting"><strong>DisableProcessWindowsGhosting</strong></a></td>
-<td>Désactive la fonctionnalité de dédoublement de fenêtre pour le processus de l’interface graphique utilisateur appelant. Le dédoublement de fenêtre est une fonctionnalité du gestionnaire Windows qui permet à l’utilisateur de réduire, de déplacer ou de fermer la fenêtre principale d’une application qui ne répond pas.<br/></td>
+<td>Désactive la fonctionnalité de dédoublement de fenêtre pour le processus de l’interface graphique utilisateur appelant. le dédoublement de fenêtre est une fonctionnalité du gestionnaire de Windows qui permet à l’utilisateur de réduire, déplacer ou fermer la fenêtre principale d’une application qui ne répond pas.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-getmediacomponentpackageinfo"><strong>GetMediaComponentPackageInfo</strong></a></td>

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cbb928859b7dc95cd13b9dd45d2c40479d6a59c6c1ca6c481d2ac353821b5dc5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 832365747f510ec8527398a4e9c9bdaa7c611f81
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119904989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886397"
 ---
 # <a name="outputtype-complex-type"></a>OutputType (type complexe)
 
@@ -88,7 +88,7 @@ La liste suivante répertorie les types de sortie reconnus que vous pouvez spéc
 | Win : port                       | Entier 16 bits signé qui représente un port d’adresse IP. Transmettez la valeur à la fonction [**ntohs**](/windows/desktop/api/winsock/nf-winsock-ntohs) et mettez en forme le résultat sous la forme d’un entier décimal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Win : IPv4                       | Une adresse IP IPv4. Ce type est valide pour le type d’entrée UInt32. La valeur doit être dans l’ordre des octets du réseau. chaque octet de UInt32 représente l’une des quatre parties de l’adresse IP (P1. P2. P3. P4). L’octet de poids faible contient la valeur de P1, l’octet suivant contient la valeur de P2, et ainsi de suite. L’adresse est mise en forme en notation par points. <br/> Pour convertir un entier non signé qui contient une adresse IPv4 en chaîne, appelez la fonction [**RtlIpv4AddressToString**](/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa) ou [**inet \_ NTOA**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa) .<br/>                                                                        |
 | Win : IPv6                       | Une adresse IP IPv6. Ce type est valide pour le type d’entrée Win : Binary. L’adresse est mise en forme en tant que chaîne. Pour mettre en forme l’adresse, appelez la fonction [**RtlIpv6AddressToString**](/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa) .                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Win : SocketAddress              | Adresse de socket qui est interprétée comme une structure de **\_ stockage sockaddr** . La famille d’adresses détermine la façon dont l’adresse est mise en forme. Pour les \_ familles d’inet et d’AF \_ inet6, l’adresse se présente sous la forme <\_ adresse IP> : <Port> ; pour toutes les autres familles, l’adresse est mise en forme en tant que vidage hex.<br/> Pour AF \_ inet et AF \_ inet6, les données d’événement sont une valeur binaire de 128 bits. Pour \_ le lien AF, les données d’événement sont une valeur binaire de 112 bits.<br/> **Windows Server 2008 et Windows Vista :** La \_ famille d’adresses de lien AF n’est pas prise en charge.<br/>                                                                            |
+| Win : SocketAddress              | Adresse de socket qui est interprétée comme une structure de **\_ stockage sockaddr** . La famille d’adresses détermine la façon dont l’adresse est mise en forme. Pour les \_ familles d’inet inet et AF \_ , l’adresse se présente sous la forme <\_ adresse IP> : &lt; port &gt; ; pour toutes les autres familles, l’adresse est formatée en tant que vidage hex.<br/> Pour AF \_ inet et AF \_ inet6, les données d’événement sont une valeur binaire de 128 bits. Pour \_ le lien AF, les données d’événement sont une valeur binaire de 112 bits.<br/> **Windows Server 2008 et Windows Vista :** La \_ famille d’adresses de lien AF n’est pas prise en charge.<br/>                                                                            |
 | Win : CIMDateTime                | Représente la date/heure CIM. Pour spécifier un horodatage ou un intervalle. S’il spécifie un horodatage, il conserve le décalage de fuseau horaire. Non pris en charge.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Win : DateTimeCultureInsensitive | Date/heure XML. Ce type est valide pour les types d’entrée FILETIME et SYSTEMTIME. La date n’est pas restituée à l’aide des marqueurs culturels incorporés dans la chaîne (par exemple, de gauche à droite ou de droite à gauche). Pour plus d’informations sur la mise en forme des dates et des heures, consultez récupération des informations relatives à la date et à l’heure sur MSDN. **avant la version 1.12.7051 et la Windows 7 :** Non disponible<br/>                                                                                                                                                                                                                                                           |
 | Win : XML                        | Un document XML ou un fragment de document. Ce type est valide pour les types d’entrée UnicodeString et AnsiString. lorsqu’elle est décodée sur un système exécutant Windows Server 2016 ou version ultérieure, quand elle est utilisée avec le type d’entrée AnsiString, la chaîne est traitée comme UTF-8, sauf si le document XML commence par une instruction de traitement spécifiant un autre encodage.                                                                                                                                                                                                                                                                                          |
@@ -105,7 +105,7 @@ La liste suivante répertorie les types de sortie reconnus que vous pouvez spéc
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

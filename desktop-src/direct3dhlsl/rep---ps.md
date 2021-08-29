@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a6873a6aee9e31b1f28ba2755b1869cddb177306
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ec879ad172b5cfc615a67797dd91c1461d844444326df6485b120179f6ecb74e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853869"
 ---
 # <a name="rep---ps"></a>REP-PS
 
@@ -29,11 +29,11 @@ Démarrer un REP... bloc [endrep-PS](endrep---ps.md) .
 
 
 
- 
+ 
 
 où i \# est un registre d’entiers qui spécifie le nombre de répétitions dans le composant. x. Consultez [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -43,11 +43,11 @@ où i \# est un registre d’entiers qui spécifie le nombre de répétitions da
 
 
 
- 
+ 
 
 -   i \# . x spécifie le nombre d’itérations. La plage autorisée est \[ 0, 255 \] . Notez que cette instruction n’incrémente pas ou ne décrémente pas la valeur de i \# . x.
 -   i \# . YZW ne sont pas utilisés par le bloc REPEAT.
--   Les blocs REPEAT peuvent être imbriqués. Consultez [limitations du contrôle de workflow](dx9-graphics-reference-asm-ps-instructions-flow-control.md).
+-   Les blocs REPEAT peuvent être imbriqués. consultez [Limitations du contrôle de Flow](dx9-graphics-reference-asm-ps-instructions-flow-control.md).
 -   Les blocs de répétition sont autorisés à se trouver complètement à l’intérieur d’un bloc if ou à l' \* entourer complètement. Aucun chevauchement n’est autorisé.
 -   L’utilisation du même i \# pour des instructions de représentation différentes ou imbriquées est correcte. chaque boucle effectue une itération en fonction du nombre spécifié.
 
@@ -69,9 +69,9 @@ endrep
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
