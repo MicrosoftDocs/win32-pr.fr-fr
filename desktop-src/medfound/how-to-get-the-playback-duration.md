@@ -4,12 +4,12 @@ ms.assetid: b1ea4f21-55d1-47b0-b6d3-8951dce79f7c
 title: Comment connaître la durée de lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a21dd98a916109c8fb3d0ad3311643b1ffdc0a03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c715ae82c63006ef8ad375fa9624cbd65ee5516be2d3e3379e5ca58a2fb5166
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958339"
 ---
 # <a name="how-to-get-the-playback-duration"></a>Comment connaître la durée de lecture
 

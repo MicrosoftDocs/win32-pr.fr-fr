@@ -4,16 +4,16 @@ ms.assetid: 01af2452-de2d-42ce-970d-82a83ae0b428
 title: Interfaces MSP IPConf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4edb3c04a93909d237ae25e06c3ed2e0fcc5db9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9d740ffad9cbb10df64599914234a1b6db97f3829e70d055958290ae55935ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061047"
 ---
 # <a name="ipconf-msp-interfaces"></a>Interfaces MSP IPConf
 
-\[ Les interfaces MSP IPConf ne sont pas utilisables dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les Interfaces MSP IPConf ne sont pas utilisables dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le MSP de conférence IP implémente plusieurs interfaces spécifiques au fournisseur pour le contrôle de participant. Ces interfaces sont exposées sur l’objet d’appel, si ce MSP est associé à l’appel.
 

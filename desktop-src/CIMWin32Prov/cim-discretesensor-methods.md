@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_DiscreteSensor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bd1d25bebeca4a266efc2026f3d4084ea732405
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fef42a6efe4855ff52ae3256c9a82b341da38249f0a39a841e73bff946246138
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924189"
 ---
 # <a name="cim_discretesensor-methods"></a>\_Méthodes DISCRETESENSOR CIM
 

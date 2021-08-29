@@ -4,16 +4,16 @@ ms.assetid: bf9c3665-71cc-4cde-9ad4-1a8b62eddf9f
 title: Énumération MULTICAST_LOOPBACK_MODE (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a15505efcd1a9e399866b104da0582ccf846689
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f322f723d6e1dfa7a0819c661b13d02fdfda753738f7cdb9c304c394bffc2a40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002837"
 ---
 # <a name="multicast_loopback_mode-enumeration"></a>\_Énumération du mode de bouclage multicast \_
 
-\[**Multidiffusion \_ Le \_ mode de bouclage** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**Multidiffusion \_ le \_ MODE de bouclage** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’énumération du **\_ \_ mode de bouclage de multidiffusion** décrit le mode de bouclage de multidiffusion.
 

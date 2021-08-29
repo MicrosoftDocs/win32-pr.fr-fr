@@ -3,9 +3,9 @@ title: IWMPPlaylist méthode Clear
 description: La méthode Clear est réservée à une utilisation ultérieure.
 ms.assetid: 697e9c19-b27d-4f8e-bef2-485a209dd98e
 keywords:
-- Clear, méthode lecteur Windows Media
-- Clear, méthode lecteur Windows Media, interface IWMPPlaylist
-- Interface IWMPPlaylist lecteur Windows Media, méthode Clear
+- clear, méthode Lecteur Windows Media
+- clear, méthode Lecteur Windows Media, IWMPPlaylist, interface
+- Lecteur Windows Media de l’interface IWMPPlaylist, méthode clear
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d64a8d404f4f417daf006cc410d70712987e113
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 390223991b25c657b47e3dbdb8354872e1e86332080436a5cb6a220464c1642b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054797"
 ---
 # <a name="iwmpplaylistclear-method"></a>IWMPPlaylist :: Clear, méthode
 
@@ -59,9 +59,9 @@ Cette méthode ne retourne pas de valeur.
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

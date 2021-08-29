@@ -4,12 +4,12 @@ description: AccNameContainsInvalidString
 ms.assetid: 392E4D10-4A8E-4118-B0E7-F74571812043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 670672769c22cba556c164b8d03b2e9148fb8b1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 681f9829f3675c469801e8f40325e83865e625b5f3496e865d1ec383c033b7f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955979"
 ---
 # <a name="accnamecontainsinvalidstring"></a>AccNameContainsInvalidString
 
@@ -19,7 +19,7 @@ accName ne doit pas contenir la chaîne {0}
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -41,9 +41,9 @@ Un nom ou une étiquette n’est pas assigné à l’élément ou à son parent.
 [Propriété Name](name-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

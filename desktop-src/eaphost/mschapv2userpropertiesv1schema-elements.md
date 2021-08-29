@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 39bc094900b138a4b710135d7229ddd7a972a693
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7f2e0d9ebbdf3c08556355aabc50f7df8fd83128d0eabcbb101c887f203bc69a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984039"
 ---
 # <a name="mschapv2userpropertiesv1-schema-elements"></a>Éléments de schéma mschapv2userpropertiesv1
 
@@ -35,9 +35,9 @@ Le schéma [mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md) 
 [Schéma mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

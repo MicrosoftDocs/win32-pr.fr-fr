@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd20442d97dd80ce7f134e8e8570fa117c7b811
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: d803c076a2c246ca2e50b37de5f086da0904f24796067afdcef19e64509292bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870519"
 ---
 # <a name="delete-urlacl"></a>delete urlacl
 
@@ -32,7 +32,7 @@ delete urlacl [url=]string
 
 <dl> <dt>
 
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[URL = \] * * * chaîne*
+<span id="_url__string"></span><span id="_URL__STRING"></span>**\[ URL = \]**_chaîne_
 </dt> <dd></dd> </dl>
 
 ## <a name="examples"></a>Exemples
@@ -41,9 +41,9 @@ delete urlacl [url=]string
 
 **supprimer l’URL urlacl =https://www.contoso.com:80/MyUri**
 
- 
+ 
 
- 
+ 
 
 
 

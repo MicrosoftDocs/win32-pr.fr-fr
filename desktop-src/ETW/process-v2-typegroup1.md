@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b587a07f33b066cfd7dbeebc44d7277b33c6bee8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4686ed24682f27358b9a7959d7bb91519674b9db295a6d9c2aa10df1d06a87f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069969"
 ---
 # <a name="process_v2_typegroup1-class"></a>Traiter \_ la \_ classe TypeGroup1 v2
 
@@ -190,7 +190,7 @@ Identificateur de sécurité (SID) du contexte de l’utilisateur sous lequel l�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les types d’événements DCStart et DCEnd énumèrent le processus en cours d’exécution, y compris le processus système et inactif au moment où la session du noyau démarre et se termine, respectivement.
 

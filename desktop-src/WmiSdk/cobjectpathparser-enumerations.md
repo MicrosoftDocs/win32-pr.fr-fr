@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Énumérations CObjectPathParser
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c6113f0562663775f230e12cfa4c4dcc501afa6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61bf27f89fce5d2c54ea741836c08853f175e22688b818404caa991c966c33b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109149"
 ---
 # <a name="cobjectpathparser-enumerations"></a>Énumérations CObjectPathParser
 

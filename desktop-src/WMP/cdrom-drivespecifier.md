@@ -3,7 +3,7 @@ title: Cdrom. driveSpecifier
 description: La propriété driveSpecifier récupère la lettre du lecteur de CD ou de DVD.
 ms.assetid: f592819e-61ba-4ae1-b748-b6f29df88067
 keywords:
-- Lecteur Windows Media cdrom. driveSpecifier
+- Cdrom. driveSpecifier Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fef04f56de87bb6aeb4843e5aedb6e5ed74418a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a358e54dabf9186dba3a2eb56f38d6fa846aab92f0a8cab6347f568788a1ae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864189"
 ---
 # <a name="cdromdrivespecifier"></a>Cdrom. driveSpecifier
 
@@ -36,7 +36,7 @@ player.cdromCollection.item(
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les lecteurs de DVD peuvent lire des CD, mais les lecteurs de CD ne peuvent pas lire les DVD. Cette propriété récupère un spécificateur de lecteur pour un index de lecteur de base zéro dans la plage Récupérée à l’aide de *CdromCollection*. **nombre**. La valeur récupérée prend la forme *x*:, où *x* représente la lettre de lecteur.
 
@@ -46,7 +46,7 @@ Pour récupérer la valeur de cette propriété, l’accès en lecture à la bib
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *cdrom*. **driveSpecifier** pour remplir une zone de texte html nommée myText avec une liste séparée par des virgules des lecteurs CD et DVD disponibles. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *Cdrom*. **driveSpecifier** pour remplir une zone de texte html nommée myText avec une liste séparée par des virgules des lecteurs CD et DVD disponibles. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -73,8 +73,8 @@ myText.value = "Drive letters found: " + MYdriveSpecifiers;
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | Version<br/>                  | Lecteur Windows Media version 7,0 ou ultérieure<br/>                               |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 1826c4668f3be8a2991c914e60320b55de867e33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 545e4dd2a47216dcf85fc7927692d99df69ea37bd76c3101457bdd68cff02de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886499"
 ---
 # <a name="wm_command-message"></a>\_Message de commande WM
 
@@ -85,10 +85,10 @@ BOOL AboutDlg (
     return bRet;
 }
 ```
-Exemple tiré des [exemples Windows classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
+exemple tiré d' [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples) sur GitHub.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation des paramètres *wParam* et *lParam* est résumée ici.
 

@@ -4,12 +4,12 @@ ms.assetid: 775ecbeb-3a2a-40dd-b262-b66dea04713d
 title: Structures de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9db173d237558046ea1b6ab7c44e6dcf78326a4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ddef8cb4613f2c466a9ff5c4300f76bd4a6146d2345bfbb7fe011f5ab9fc300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888583"
 ---
 # <a name="service-structures"></a>Structures de service
 

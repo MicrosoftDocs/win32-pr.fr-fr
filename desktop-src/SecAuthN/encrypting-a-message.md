@@ -4,18 +4,18 @@ ms.assetid: 1788b496-ad19-427e-be07-4aa68543fced
 title: Chiffrement d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7fcc987e17c37f9b2eb80289f257101b51f5f3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d7f1f0b2aab3f34a3d329e568f9de1fc1956ea7270fe177556363024d32107c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008437"
 ---
 # <a name="encrypting-a-message"></a>Chiffrement d’un message
 
 L’exemple suivant montre un message chiffré avant d’être envoyé à un ordinateur distant via la connexion sécurisée.
 
-L’exemple suppose qu’une variable **SecHandle** nommée `phContext` et un **Socket** nommé `s` sont initialisés. Pour les déclarations et les initiations de ces variables, consultez [utilisation de SSPI avec un client Windows Sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de SSPI avec un serveur Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
+L’exemple suppose qu’une variable **SecHandle** nommée `phContext` et un **Socket** nommé `s` sont initialisés. pour les déclarations et les initiations de ces variables, consultez [utilisation de sspi avec un Client Windows sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de sspi avec un serveur de sockets Windows](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
 
 
 ```C++

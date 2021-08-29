@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ee5739a839222900458ae334de6f97fb6d18876b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3443d3344d24d6f121e2c236b9742a44a97e06414ab264953c29ad004e38d7dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872199"
 ---
 # <a name="cbaserendererpreparerender-method"></a>Méthode CBaseRenderer. PrepareRender
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre appelle cette méthode avant d’appeler la méthode [**CBaseRenderer :: OnReceiveFirstSample**](cbaserenderer-onreceivefirstsample.md) ou la méthode [**CBaseRenderer :: Render**](cbaserenderer-render.md) . `PrepareRender` n’effectue aucune opération dans la classe de base. La classe dérivée peut la substituer pour exécuter toutes les actions requises avant le rendu. Par exemple, un convertisseur vidéo peut remplacer cette méthode pour réaliser sa palette.
 
@@ -54,7 +54,7 @@ Le filtre appelle cette méthode avant d’appeler la méthode [**CBaseRenderer�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

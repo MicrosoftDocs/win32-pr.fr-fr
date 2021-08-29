@@ -4,12 +4,12 @@ ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
 title: MFPKEY_COLORCONV_DSTTOP, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f28c1e49c5ef7cbb52bc7239fa787f89cbb04b5c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ac430d9a0512a3e4ad5d7764197fa94a3e5346ca33c589128850ff3010ef0312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954339"
 ---
 # <a name="mfpkey_colorconv_dsttop-property"></a>MFPKEY \_ COLORCONV \_ DSTTOP, propriété
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

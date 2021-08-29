@@ -4,12 +4,12 @@ ms.assetid: 102dc056-7f65-47d4-8bcd-3b11608bdb9c
 title: Structures de code d’échappement MXDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b35c393d00dab227a91cbbb55eeca62039b41ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b87ef962be9f8fffa1ae0b2d126cecfda4cc157118f4defd21360b030dc9d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948389"
 ---
 # <a name="mxdc-escape-code-structures"></a>Structures de code d’échappement MXDC
 

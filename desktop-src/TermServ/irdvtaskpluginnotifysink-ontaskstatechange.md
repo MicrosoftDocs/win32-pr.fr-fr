@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c3e3acf1a2d47b1721ef90554f7a11714c02e6df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6e580a78ba14363b140d48896d63ddafaf27f5a2e64c9ff18045b007bcc8d9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129111"
 ---
 # <a name="irdvtaskpluginnotifysinkontaskstatechange-method"></a>IRDVTaskPluginNotifySink :: OnTaskStateChange, méthode
 
@@ -73,7 +73,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

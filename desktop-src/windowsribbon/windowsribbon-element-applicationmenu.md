@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7fcf64d3fa3b618a4e66777b8fd4c0d831a33126
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 915e44718dfdb9f14b39eb645acd84028ca6289d33e29a853334221acffacd6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707598"
 ---
 # <a name="applicationmenu-element"></a>Élément ApplicationMenu
 
 Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’application.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ApplicationMenu
@@ -40,10 +40,10 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 
 <table>
 <colgroup>
-<col  />
-<col  />
-<col  />
-<col  />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,7 +57,7 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9c9e264e8ec62c1e49e92226d1abc8ac902c0b2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1fad85c27e3008b4b2373a19c18f3d5008646008db2c7f2b1166ff5ab0092cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561919"
 ---
 # <a name="setpowerstate-method-of-the-cim_computersystem-class"></a>Méthode SetPowerState de la \_ classe ComputerSystem CIM
 

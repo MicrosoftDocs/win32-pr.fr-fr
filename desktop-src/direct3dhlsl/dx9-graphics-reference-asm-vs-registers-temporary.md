@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c3dcaa5ac0c9c1531a1e1f0476d2ef13b4bac509
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: eb8d1ee47b224103724ba61fa6c8763069acc0564758a9e531d5d5edb6e2a039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119553"
 ---
 # <a name="temporary-register-hlsl-vs-reference"></a>Registre temporaire (référence HLSL VS)
 
@@ -37,7 +37,7 @@ Un registre se compose de propriétés qui déterminent le comportement de chaqu
 
 
 
- 
+ 
 
 Chaque registre temporaire dispose d’un accès en écriture unique et triple lecture. Par conséquent, une instruction peut avoir jusqu’à trois registres temporaires dans son ensemble d’opérandes de source d’entrée.
 
@@ -71,7 +71,7 @@ mov r4.xz, r0        // xz
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -80,9 +80,9 @@ mov r4.xz, r0        // xz
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

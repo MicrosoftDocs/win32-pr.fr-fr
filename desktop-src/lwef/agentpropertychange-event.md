@@ -4,12 +4,12 @@ description: Événement AgentPropertyChange
 ms.assetid: 56607e9c-99eb-42c1-987a-0f2bc3f82d75
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bd643797e766543877497330a995d492f982d8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: accafc89fbcd9f29dd7327cc4561c0375f773abe01077bab7cbfa24653f6106d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118752690"
 ---
 # <a name="agentpropertychange-event"></a>Événement AgentPropertyChange
 
@@ -31,7 +31,7 @@ Se produit lorsque l’utilisateur modifie une propriété dans la fenêtre Opti
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement indique que l’utilisateur a modifié et appliqué une propriété incluse dans la fenêtre Options de caractères avancés.
 
@@ -42,9 +42,9 @@ Dans votre code, pour gérer cet événement, vous pouvez interroger les paramè
 [**Événement DefaultCharacterChange**](defaultcharacterchange-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

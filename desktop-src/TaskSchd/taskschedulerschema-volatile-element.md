@@ -1,6 +1,6 @@
 ---
 title: Volatile (élément)
-description: Indique si la tâche est automatiquement désactivée à chaque démarrage de Windows.
+description: indique si la tâche est automatiquement désactivée à chaque démarrage de Windows.
 ms.assetid: E0298876-2A96-401D-B857-69758AF980E5
 keywords:
 - Planificateur de tâches d’élément volatile
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca697bd0dff3a1fffd0b92a29d2fc88f1d4ed433
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 496e95fe98ecb2890d19bde0b99e171ab20b045a47bf69840dd78f501bfbc309
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872099"
 ---
 # <a name="volatile-element"></a>Volatile (élément)
 
-Indique si la tâche est automatiquement désactivée à chaque démarrage de Windows.
+indique si la tâche est automatiquement désactivée à chaque démarrage de Windows.
 
 ``` syntax
 <xs:element name="Volatile"
@@ -45,7 +45,7 @@ L’élément **volatile** est défini par le type complexe [**settingsType**](t
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la programmation en C++, ce paramètre inactif est spécifié à l’aide de la propriété [**ITaskSettings3 :: volatile**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_volatile) .
 
@@ -55,8 +55,8 @@ Pour la programmation en C++, ce paramètre inactif est spécifié à l’aide d
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |
 
 
 

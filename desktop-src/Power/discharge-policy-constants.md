@@ -4,12 +4,12 @@ ms.assetid: a085709e-1c61-4ae2-832e-fda59479cef6
 title: Constantes de stratégie de déchargement (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 052d07a5fe538543b66ec8d48c940f63fe82a682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a05237b7555cc7281f132f02110a10cb5b58cd342d6872b16c1a6319773ea8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961869"
 ---
 # <a name="discharge-policy-constants"></a>Constantes de stratégie de déchargement
 
@@ -31,9 +31,9 @@ La liste suivante décrit les constantes de stratégie de déchargement.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
-| En-tête<br/>                   | <dl> <dt>Winnt. h (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
+| En-tête<br/>                   | <dl> <dt>winnt. h (inclure Windows. h)</dt> </dl> |
 
 
 

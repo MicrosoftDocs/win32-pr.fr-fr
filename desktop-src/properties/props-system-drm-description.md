@@ -4,12 +4,12 @@ ms.assetid: 5c657042-fa46-4f80-88bc-d10b6e38ee56
 title: System. DRM. Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb77870d8e3ec3fb6230c6112c320098f0aed44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7689c209cdd8dc7866688ad9ceedd9012a39b9df3b37cba3c65a9af9540dac2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096978"
 ---
 # <a name="systemdrmdescription"></a>System. DRM. Description
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

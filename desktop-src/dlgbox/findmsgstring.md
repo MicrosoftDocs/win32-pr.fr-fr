@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0d3a73d8734d79d5ed0862f66bf9ba5c030e46
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5df829d09ffbb414bdf145495389d8d14db129d1c0eec2929ac0f7e1f97816f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606349"
 ---
 # <a name="findmsgstring-message"></a>Message FINDMSGSTRING
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**FINDREPLACE**](/windows/win32/api/commdlg/ns-comm
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez spécifier la constante **FINDMSGSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 

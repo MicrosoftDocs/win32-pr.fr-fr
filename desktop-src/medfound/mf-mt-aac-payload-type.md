@@ -4,12 +4,12 @@ ms.assetid: a032fcf4-2584-4047-adbd-d94d4fc4e841
 title: Attribut MF_MT_AAC_PAYLOAD_TYPE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3edba98bdac54b12fb6e3e44fb67373f7fce6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c4c7852e5719f2293e21f7f37c761c39a14dca132113c6b9224038c640e3d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940679"
 ---
 # <a name="mf_mt_aac_payload_type-attribute"></a>\_Attribut de \_ \_ type de charge utile MT MT AAC \_
 
@@ -44,7 +44,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ type de charge utile de l’option MF MT \_ AAC \_ \_ est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments de bloc de données brutes \_ \_ .
 

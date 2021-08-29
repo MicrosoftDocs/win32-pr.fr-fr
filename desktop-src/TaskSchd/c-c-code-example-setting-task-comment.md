@@ -7,12 +7,12 @@ keywords:
 - définition des propriétés de l’élément de travail Planificateur de tâches, commentaire de tâche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9683b80e3760aa242e8a3ee9b6a2c6d6b3247182
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0cb13916b551e4af2d48823b6428acf71770d4ebb163ffa8a06ca0cb9c91b11f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060197"
 ---
 # <a name="cc-code-example-setting-task-comment"></a>Exemple de code C/C++ : définition d’un commentaire de tâche
 
@@ -140,9 +140,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,17 +1,17 @@
 ---
 description: Dessiner du texte
 ms.assetid: 8a06f659-4e08-4738-b7a9-956b599c1344
-title: Texte de dessin (Windows GDI)
+title: texte de dessin (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7db44a756ff211bcae7605cb87bdac77005b34f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e52508e5a0825a3f43a62f5cce7905a767513f007555eb430c26dbc2d914f372
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062269"
 ---
-# <a name="drawing-text-windows-gdi"></a>Texte de dessin (Windows GDI)
+# <a name="drawing-text-windows-gdi"></a>texte de dessin (Windows GDI)
 
 Une fois qu’une application a sélectionné la police appropriée, définit les options de mise en forme de texte requises et calcule les valeurs de largeur et de hauteur de caractère nécessaires pour une chaîne de texte, elle peut commencer à dessiner des caractères et des symboles en appelant l’une des fonctions de sortie de texte :
 

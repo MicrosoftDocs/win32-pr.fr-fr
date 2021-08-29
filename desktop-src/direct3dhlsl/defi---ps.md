@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3552d5cfe322dd384e1c6bd219e35af19b469a56
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 2d22301b3a6fced39741733cbc1371ed18bf95fcf00da0636e662fc8d977db18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792653"
 ---
 # <a name="defi---ps"></a>DEFAUT-PS
 
@@ -29,12 +29,12 @@ Définit une valeur de constante entière, qui doit être chargée à chaque foi
 
 
 
- 
+ 
 
 -   l’heure d’été est le registre de destination.
 -   integerValue est une valeur entière constante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -44,7 +44,7 @@ Définit une valeur de constante entière, qui doit être chargée à chaque foi
 
 
 
- 
+ 
 
 L’instruction de définition définit une constante de nuanceur dont la valeur est chargée chaque fois qu’un nuanceur est défini sur un appareil. Celles-ci sont appelées constantes immédiates. Les constantes immédiates sont prioritaires sur les constantes définies par la méthode d’API SetPixelShaderConstantB.
 
@@ -63,6 +63,6 @@ Il existe deux façons de définir une constante dans un nuanceur.
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

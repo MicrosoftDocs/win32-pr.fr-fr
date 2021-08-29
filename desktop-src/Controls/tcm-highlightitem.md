@@ -3,7 +3,7 @@ title: Message TCM_HIGHLIGHTITEM (commctrl. h)
 description: Définit l’état de surbrillance d’un élément d’onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl HighlightItem.
 ms.assetid: b0d0850a-62d9-46a1-8846-81f67a886ea8
 keywords:
-- TCM_HIGHLIGHTITEM les contrôles de message Windows
+- TCM_HIGHLIGHTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55664aeeeefadfcb5205b9a5bde4fee1aafdfef3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b355b1a0ad4d228fc8f67051497b0327885f7cafc3860af9c74bac0812b344ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876509"
 ---
 # <a name="tcm_highlightitem-message"></a>\_Message HIGHLIGHTITEM TCM
 
@@ -47,7 +47,7 @@ Valeur **int** qui spécifie l’index de base zéro d’un élément de contrô
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans Comctl32.dll version 6,0, ce message n’a aucun effet visible lorsqu’un thème est actif.
 
@@ -57,8 +57,8 @@ Dans Comctl32.dll version 6,0, ce message n’a aucun effet visible lorsqu’un 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

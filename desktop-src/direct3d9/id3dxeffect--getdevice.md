@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fde2d9f3d9db362bf48fda66e9da10b91a864bb0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7840514964d098d8e9000179d4b107001b6e4fdafd7e31fb47f405f231de0cd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951769"
 ---
 # <a name="id3dxeffectgetdevice-method"></a>ID3DXEffect :: GetDevice, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de cette méthode augmente le nombre de références internes pour l’interface [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) . Veillez à appeler IUnknown :: Release lorsque vous avez fini d’utiliser l’interface **IDirect3DDevice9** ou une fuite de mémoire se produit.
 

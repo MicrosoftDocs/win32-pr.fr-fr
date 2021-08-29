@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7a1aef314406340c42c6a4aca40b76f91ac353
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a821bb6890a9aee8dd74c5412556bf45ca0b739a6eb12cf5d582fbb91463c2f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034347"
 ---
 # <a name="dialog-resource"></a>Ressource de boîte de dialogue
 
@@ -70,7 +70,7 @@ Options de la boîte de dialogue. Il peut s’agir de zéro ou plusieurs des ins
 
 Certains attributs sont également pris en charge pour la compatibilité descendante. Pour plus d’informations, consultez [attributs de ressource communs](common-resource-attributes.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**GetDialogBaseUnits**](/windows/win32/api/winuser/nf-winuser-getdialogbaseunits) retourne les unités de base de la boîte de dialogue en pixels. La signification exacte des coordonnées dépend du style défini par l’instruction option de [**style**](style-statement.md) . Pour les boîtes de dialogue de style enfant, les coordonnées sont relatives à l’origine de la fenêtre parente, sauf si la boîte de dialogue a le style **DS \_ ABSALIGN**; dans ce cas, les coordonnées sont relatives à l’origine de l’écran d’affichage.
 
@@ -138,7 +138,7 @@ CAPTION "Error!"
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Version**](version-statement.md)
+[**VERSION**](version-statement.md)
 </dt> </dl>
 
  

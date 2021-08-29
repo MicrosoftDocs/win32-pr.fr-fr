@@ -4,12 +4,12 @@ description: Sélection du moteur de reconnaissance vocale
 ms.assetid: f5afedc6-093f-4247-a5c8-277d6b2d646c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a548f0201ba37c8acb867091cc690a913277ff06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3998817e5eba041b1fb20eb9df64ee26217da974ff4d91869af05fbf15cc4f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960959"
 ---
 # <a name="speech-engine-selection"></a>Sélection du moteur de reconnaissance vocale
 
@@ -21,9 +21,9 @@ Vous pouvez également demander un moteur de reconnaissance vocale spécifique e
 
 Microsoft agent charge automatiquement un moteur de reconnaissance vocale lorsque l’entrée vocale est lancée par un utilisateur en appuyant sur la touche d’écoute ou lorsque le client d’entrée-actif appelle la méthode [**Listen**](listen-method.md) . Toutefois, un moteur peut également être chargé lors de la définition ou de l’interrogation de son ID de mode, lors de la définition ou de l’interrogation des propriétés de la fenêtre commandes vocales, lors de l’interrogation de [**SRStatus**](srstatus-property.md)ou lorsque la reconnaissance vocale est activée et que l’utilisateur affiche la page d’entrée vocale des options de caractères avancés. Toutefois, Microsoft Agent ne continue de charger que les moteurs de reconnaissance vocale que les clients utilisent.
 
- 
+ 
 
- 
+ 
 
 
 

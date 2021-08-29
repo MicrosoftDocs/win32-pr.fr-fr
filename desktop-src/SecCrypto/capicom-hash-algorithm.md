@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 14ee06437f7b6e32c58415e5b9d77a75929250a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df312c7e1ed578150069ff335527a20a2185c721b67a9e0e02cc1d57938b1cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879139"
 ---
 # <a name="capicom_hash_algorithm-enumeration"></a>\_Énumération de l' \_ algorithme de hachage CAPICOM
 
@@ -40,7 +40,7 @@ L’énumération de l' **\_ \_ algorithme de hachage CAPICOM** définit un algo
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’énumération de l' **\_ \_ algorithme de hachage CAPICOM** est utilisée par la propriété [**HashedData. Algorithm**](hasheddata-algorithm.md) .
 
@@ -50,7 +50,7 @@ L’énumération de l' **\_ \_ algorithme de hachage CAPICOM** est utilisée pa
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

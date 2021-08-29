@@ -3,7 +3,7 @@ title: Message WM_NOTIFYFORMAT (winuser. h)
 description: Détermine si une fenêtre accepte des structures ANSI ou Unicode dans le \_ message de notification WM Notify. Les \_ messages WM NOTIFYFORMAT sont envoyés à partir d’un contrôle commun à sa fenêtre parente et de la fenêtre parente au contrôle commun.
 ms.assetid: 45ddef45-3300-448d-b609-5fe931b08336
 keywords:
-- WM_NOTIFYFORMAT les contrôles de message Windows
+- WM_NOTIFYFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e9c7d74b21d0f5785273d1b60d612a346f2d85
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05cb41a88bffd7cc4ca3b406017dd08e297a239823fc2f5727be844b58e4bdfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077673"
 ---
 # <a name="wm_notifyformat-message"></a>\_Message WM NOTIFYFORMAT
 
@@ -64,19 +64,19 @@ Retourne l’une des valeurs suivantes.
 |---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_ANSI NFR**</dt> </dl>    | Les structures ANSI doivent être utilisées dans les messages de [**\_ notification WM**](wm-notify.md) envoyés par le contrôle.<br/>     |
 | <dl> <dt>**\_Unicode NFR**</dt> </dl> | Les structures Unicode doivent être utilisées dans les messages de [**\_ notification WM**](wm-notify.md) envoyés par le contrôle. <br/> |
-| <dl> <dt>**0**</dt> </dl>            | Une erreur est survenue.<br/>                                                                                  |
+| <dl> <dt>**entre**</dt> </dl>            | Une erreur est survenue.<br/>                                                                                  |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un contrôle commun est créé, le contrôle envoie un message **WM \_ NOTIFYFORMAT** à sa fenêtre parente pour déterminer le type de structures à utiliser dans les messages de [**\_ notification WM**](wm-notify.md) . Si la fenêtre parente ne gère pas ce message, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) répond en fonction du type de la fenêtre parente. Autrement dit, si la fenêtre parente est une fenêtre Unicode, **DefWindowProc** retourne des \_ Unicode NFR et, si la fenêtre parente est une fenêtre ANSI, **DefWindowProc** retourne NFR \_ ANSI. Si la fenêtre parente est une boîte de dialogue et ne gère pas ce message, la fonction [**DefDlgProc**](/windows/desktop/api/winuser/nf-winuser-defdlgprocw) répond de la même manière en fonction du type de la boîte de dialogue (Unicode ou ANSI).
 
 Une fenêtre parente peut modifier le type de structures qu’un contrôle commun utilise dans les messages de [**\_ notification WM**](wm-notify.md) en affectant à *lParam* la valeur NF \_ Requery et en envoyant un message **WM \_ NOTIFYFORMAT** au contrôle. Ainsi, le contrôle envoie un \_ formulaire de requête NF du message **WM \_ NOTIFYFORMAT** à la fenêtre parente.
 
-Tous les contrôles communs vont envoyer les messages **WM \_ NOTIFYFORMAT** . Toutefois, ce n’est pas le cas des contrôles Windows standard (contrôles d’édition, zones de liste déroulante, zones de liste, boutons, barres de défilement et contrôles statiques).
+Tous les contrôles communs vont envoyer les messages **WM \_ NOTIFYFORMAT** . toutefois, les contrôles de Windows standard (contrôles d’édition, zones de liste déroulante, zones de liste, boutons, barres de défilement et contrôles statiques) ne le font pas.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -84,8 +84,8 @@ Tous les contrôles communs vont envoyer les messages **WM \_ NOTIFYFORMAT** . T
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 

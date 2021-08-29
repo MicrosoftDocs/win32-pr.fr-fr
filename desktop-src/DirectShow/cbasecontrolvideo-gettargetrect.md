@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d59a12e134edf37c8ab0a63f46f77923b112605d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3309f36ed731ce0221e98a2a9f9b1459b31864a789a52d950951b613c23fdfbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928789"
 ---
 # <a name="cbasecontrolvideogettargetrect-method"></a>Méthode CBaseControlVideo. GetTargetRect
 
@@ -53,7 +53,7 @@ Pointeur vers le rectangle de destination.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre doit être substituée dans la classe dérivée pour retourner le rectangle cible détenu par le convertisseur vidéo. Elle est appelée à partir des fonctions membres [**CBaseControlVideo**](cbasecontrolvideo.md) suivantes.
 
@@ -90,7 +90,7 @@ Dans cet exemple, CVideoText est une classe dérivée de [**CBaseControlVideo**]
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

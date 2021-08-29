@@ -4,16 +4,16 @@ ms.assetid: 9fe96af3-bb7b-4f6c-8df2-85bf7850c527
 title: 'ITTimeCollection :: get_Count, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a385c8fa3120cbeaa4b876a8af4f60e0df5cb48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb5f9dc4e42130a1c98043017dc2dd3fefeb41640aac84d20a53e701d82c4777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003207"
 ---
 # <a name="ittimecollectionget_count-method"></a>ITTimeCollection :: obten, \_ méthode Count
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir le \_ nombre** obtient le nombre d’éléments dans la collection.
 

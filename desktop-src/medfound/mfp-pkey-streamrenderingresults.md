@@ -4,17 +4,17 @@ ms.assetid: b5e45bfc-d91d-41b8-aaa4-72b3a23d869e
 title: MFP_PKEY_StreamRenderingResults, propriété (mfplay. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6acf04f751e8611f3add3a62fc7b4406d757999e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d63272662d71e261374f51c0463c0bbbb6d515dfeea8dd1ec5ab424609c386d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954709"
 ---
 # <a name="mfp_pkey_streamrenderingresults-property"></a>\_Propriété StreamRenderingResults de la propriété HYPERmfp \_
 
 > [!IMPORTANT]
-> Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
+> Action déconseillée. Cette API peut être supprimée des futures versions de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
 
  
 
@@ -36,7 +36,7 @@ VT \_ Vector \| VT \_ UI4
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut être envoyée avec le **\_ type d’événement MFP \_ \_ MEDIAITEM \_ Set** Event.
 
@@ -54,8 +54,8 @@ Si au moins un flux a été correctement connecté, la lecture est possible. Par
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Mfplay. h</dt> </dl> |
 
 

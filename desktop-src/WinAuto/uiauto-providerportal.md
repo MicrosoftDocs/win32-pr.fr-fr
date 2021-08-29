@@ -9,12 +9,12 @@ keywords:
 - fournisseurs, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da09b5bcef605dd4979a15433c708e04e49534d
-ms.sourcegitcommit: 305298a7727a428310fa138b45a933bcd7ef2532
+ms.openlocfilehash: cb0cdd1eae7f2c617fe3e09d456bdb063d3c416e07507cd16ca2ec732ec82f90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2020
-ms.locfileid: "106540760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114722"
 ---
 # <a name="ui-automation-provider-programmers-guide"></a>Guide du programmeur du fournisseur UI Automation
 
@@ -49,9 +49,9 @@ Cette section contient des informations sur la création de fournisseurs UI Auto
 [Exemple de fournisseur de contenu de document UI Automation](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/UI%20Automation%20document%20content%20provider%20sample)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

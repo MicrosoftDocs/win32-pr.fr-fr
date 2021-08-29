@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c2081c8a5b7e5b6bd2165781af9552722ed9ddee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a44495f40608580268cdc162e26dc47b45ffa452a8017a5faff4d672b388704
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928429"
 ---
 # <a name="ec_dvd_playperiod_autostop"></a>\_arrêt du \_ PLAYPERIOD de DVD EC \_
 
@@ -42,7 +42,7 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est déclenché dans le domaine de titre.
 
@@ -68,7 +68,7 @@ Cet événement est également envoyé lorsque la lecture est annulée avant la 
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
 [**IDvdControl2 ::P layPeriodInTitleAutoStop**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playperiodintitleautostop)

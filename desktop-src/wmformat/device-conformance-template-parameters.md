@@ -10,12 +10,12 @@ keywords:
 - codecs, paramètres de modèle de conformité des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a201760723c087e9c77b63d344707fb924a616
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd557b2e6b7a00d3d34731910551d637f36b945a5857bfc72b190acf3fdfa911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931380"
 ---
 # <a name="device-conformance-template-parameters"></a>Paramètres du modèle de conformité des appareils
 
@@ -37,9 +37,9 @@ Les sections suivantes décrivent les modèles de conformité des appareils.
 [**Modèles de conformité des appareils**](device-conformance-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

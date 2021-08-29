@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 05d1eee0dd415e22fb7caaac2c4fc60e53344ba8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4dc00a24c0bd7d4be4192b3489af524dd7d0af6ac95ce536e5167de6c5d07e22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972378"
 ---
 # <a name="gettransportinformationoperation-class"></a>GetTransportInformationOperation, classe
 

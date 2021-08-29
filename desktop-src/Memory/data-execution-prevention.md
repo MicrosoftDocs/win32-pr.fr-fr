@@ -1,19 +1,19 @@
 ---
-description: La prévention de l’exécution des données (DEP) est une fonctionnalité de protection de la mémoire au niveau du système qui est intégrée au système d’exploitation à partir de Windows XP et de Windows Server 2003.
+description: la prévention de l’exécution des données (DEP) est une fonctionnalité de protection de la mémoire au niveau du système qui est intégrée au système d’exploitation à partir de Windows XP et Windows Server 2003.
 ms.assetid: 75cd83a5-4b77-4ca9-b595-e32d0dd609d0
 title: Prévention de l’exécution des données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc53febb383ef2789c2798b091960c2d20856d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02facfbd94f6a1b63a998895d8c9bde7bcdeaf88e498e778ed994125c312bba4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963259"
 ---
 # <a name="data-execution-prevention"></a>Prévention de l’exécution des données
 
-La prévention de l’exécution des données (DEP) est une fonctionnalité de protection de la mémoire au niveau du système qui est intégrée au système d’exploitation à partir de Windows XP et de Windows Server 2003. DEP permet au système de marquer une ou plusieurs pages de mémoire comme non exécutables. Le marquage de régions de mémoire comme non exécutables signifie que le code ne peut pas être exécuté à partir de cette région de mémoire, ce qui complique l’exploitation des dépassements de mémoire tampon.
+la prévention de l’exécution des données (DEP) est une fonctionnalité de protection de la mémoire au niveau du système qui est intégrée au système d’exploitation à partir de Windows XP et Windows Server 2003. DEP permet au système de marquer une ou plusieurs pages de mémoire comme non exécutables. Le marquage de régions de mémoire comme non exécutables signifie que le code ne peut pas être exécuté à partir de cette région de mémoire, ce qui complique l’exploitation des dépassements de mémoire tampon.
 
 DEP empêche l’exécution de code à partir de pages de données telles que le tas par défaut, les piles et les pools de mémoire. Si une application tente d’exécuter du code à partir d’une page de données protégée, une exception de violation d’accès à la mémoire se produit et, si l’exception n’est pas gérée, le processus appelant se termine.
 

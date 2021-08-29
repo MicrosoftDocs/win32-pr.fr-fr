@@ -4,12 +4,12 @@ ms.assetid: a3ba98ee-4d2e-466d-be9a-c7e3b5f920a7
 title: Événement MEIndividualizationStart (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb8d50bbc2081c4efa41d8b15cc3e41a14ab5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 297ed3dea2dbdfe45a8ea812b7a5c674e1ef1bfb1c136aa54cfd5cd463cf9b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957449"
 ---
 # <a name="meindividualizationstart-event"></a>Événement MEIndividualizationStart
 
@@ -29,7 +29,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’acquisition de licence est terminée, le moteur de stratégie déclenche l’événement [MEIndividualizationCompleted](meindividualizationcompleted.md) .
 
@@ -39,8 +39,8 @@ Lorsque l’acquisition de licence est terminée, le moteur de stratégie décle
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

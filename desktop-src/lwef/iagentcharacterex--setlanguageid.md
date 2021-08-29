@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetLanguageID
 ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 036e1d41878adaae878a5961b45d190971d790af
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 85eecd54f7642a0f82cef5fc8846c10b562f0474aa166beee7056e62782e780c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477855"
 ---
 # <a name="iagentcharacterexsetlanguageid"></a>IAgentCharacterEx::SetLanguageID
 
@@ -34,11 +34,11 @@ Paramètre de l’ID de langue pour le caractère.
 
 </dd> </dl>
 
-Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID) d’un caractère est une valeur de 16 bits définie par Windows, composée d’un ID de langue primaire et d’un ID de langue secondaire. Vous pouvez utiliser les valeurs suivantes pour les langues spécifiées. Pour plus d’informations, consultez la documentation du kit de développement Platform SDK.
+Entier long spécifiant l’ID de langue du caractère. l’id de langue (LANGID) d’un caractère est une valeur de 16 bits définie par Windows, composée d’un id de langue primaire et d’un id de langue secondaire. Vous pouvez utiliser les valeurs suivantes pour les langues spécifiées. Pour plus d’informations, consultez la documentation du kit de développement Platform SDK.
 
 
 
-| Langage              | id     |  Langage             | id     |
+| Langage              | ID     |  Langage             | ID     |
 |-----------------------|--------|-----------------------|--------|
 | Arabe (Arabie)        | 0x0401 | Italien               | 0x0410 |
 | Basque                | 0x042d | Japonais              | 0x0411 |
@@ -49,7 +49,7 @@ Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID
 | Danois                | 0x0406 | Portugais (Brésil)   | 0x0416 |
 | Néerlandais                 | 0x0413 | Roumain              | 0x0418 |
 | Anglais (Royaume-Uni)     | 0x0809 | Russe               | 0x0419 |
-| Anglais (US)          | 0x0409 | Slovaque             | 0x041B |
+| Anglais (États-Unis)          | 0x0409 | Slovaque             | 0x041B |
 | Finnois               | 0x040B | Slovène             | 0x0424 |
 | Français                | 0x040C | Espagnol               | 0x0C0A |
 | Allemand                | 0x0407 | Suédois               | 0x041D |

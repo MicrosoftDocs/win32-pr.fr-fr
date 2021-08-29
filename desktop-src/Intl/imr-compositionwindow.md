@@ -4,12 +4,12 @@ ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
 title: IMR_COMPOSITIONWINDOW le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6af0481ccebc59968fe85a489c856388a04dbece
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fc5f1f45652a2f58386a50284e3bf2cfec182c6f4ad89641dcc27a63cf12b78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810052"
 ---
 # <a name="imr_compositionwindow-notification-code"></a>\_Code de notification IMR COMPOSITIONWINDOW
 
@@ -44,7 +44,7 @@ Pointeur vers une mémoire tampon contenant une structure [**COMPOSITIONFORM**](
 
 Retourne une valeur différente de zéro si l’application remplit la structure [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) . Dans le cas contraire, la commande retourne 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' \_ indicateur ISC SHOWUICOMPOSITIONWINDOW dans le gestionnaire de messages [**WM \_ IME \_ SETCONTEXT**](wm-ime-setcontext.md) .
 
@@ -56,7 +56,7 @@ Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' 
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

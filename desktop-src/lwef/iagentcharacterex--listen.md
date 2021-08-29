@@ -4,12 +4,12 @@ description: IAgentCharacterEx écouter
 ms.assetid: 8d4cdb6c-04e1-498c-867f-fddbe6e2791a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12c479936a8d2dc43e2f2da5a680a51705af2885
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9ee221de03fe0a0e908e1fc3c10f05d48c26dd9fd264edd20ee2e4d78d73fb91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105497"
 ---
 # <a name="iagentcharacterexlisten"></a>IAgentCharacterEx :: Listen
 
@@ -47,9 +47,9 @@ Cette méthode n’appelle pas automatiquement [**IAgentCharacter :: stopAll**]
 [**IAgentNotifySinkEx :: ListeningState**](iagentnotifysinkex--listeningstate.md), [ **IAgentSpeechInputProperties :: GetEnabled**](iagentspeechinputproperties--getenabled.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a77b01f443d57825d82b7cf9556d7585745bb99e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a0461bc19aa1f3de2751516aedc8e76a0201417fe017881fb0fbd8da8156b39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930809"
 ---
 # <a name="iwmdrmnetreceiverprocessregistrationresponse-method"></a>IWMDRMNetReceiver ::P méthode rocessRegistrationResponse
 
@@ -67,7 +67,7 @@ Pointeur qui reçoit un pointeur vers l’interface **IUnknown** d’un objet qu
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -79,7 +79,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’exécute de façon asynchrone ; une fois le traitement terminé, l’événement MEProximityCompleted est envoyé à l’interface **IMFMediaEventGenerator** .
 

@@ -4,12 +4,12 @@ ms.assetid: 05f84661-34ff-4e1f-9ec8-e4682138dfee
 title: Erreurs de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eeace990620928ce898a3e8a31049a0083cdf07
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e946d5cb97122c35a5ec09978508e86724290307e514576482f535b1f3493418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874589"
 ---
 # <a name="communications-errors"></a>Erreurs de communication
 

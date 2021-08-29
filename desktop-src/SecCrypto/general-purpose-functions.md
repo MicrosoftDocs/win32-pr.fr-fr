@@ -4,12 +4,12 @@ ms.assetid: fb12dec5-3e9c-4424-9e88-202241595ae9
 title: Fonctions de usage général (chiffrement)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77c348f4fe873aac44ed6ef736451158ad2964cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c90838afdef3e12c35049c2a8d581916a97d8f4837379827658d2d7c2ec21920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006717"
 ---
 # <a name="general-purpose-functions-cryptography"></a>Fonctions de usage général (chiffrement)
 

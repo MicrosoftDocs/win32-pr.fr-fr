@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32dbc844aecf86d4c62fada6c5cd68d514a69272
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90b4a20e29320a57bee3c3e38eff5cb2a7e55a5146bfeb5f8d7f4bbfb1ed85fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865479"
 ---
 # <a name="setexportpath-method-of-the-win32_rdmsdeploymentsettings-class"></a>Méthode SetExportPath de la \_ classe Win32 RDMSDeploymentSettings
 

@@ -4,26 +4,26 @@ ms.assetid: 9872128c-4e3d-4ac8-afc4-b3dc516a0925
 title: Négociation des types de médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bdcb78cfef6b8396d866ea148267c5a899cd353
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ccdf3294ed1f7ff31037f0720b7e1644d688f419263962a764de5ea7e40e6b3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106542100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072923"
 ---
 # <a name="negotiating-media-types"></a>Négociation des types de médias
 
-Quand le gestionnaire de graphique de filtre appelle la méthode [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) , il dispose de plusieurs options pour spécifier un type de média :
+quand le gestionnaire de Graph de filtre appelle la méthode [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) , il dispose de plusieurs options pour spécifier un type de média :
 
 -   **Type complet :** Si le type de média est entièrement spécifié, les broches essaient de se connecter avec ce type. Si ce n’est pas le cas, la tentative de connexion échoue.
 -   **Type de média partiel :** Un type de média est *partiel* si le type principal, le sous-type ou le type de format est le GUID \_ null. La valeur du GUID \_ null agit comme un « caractère générique », indiquant que toute valeur est acceptable. Les codes confidentiels négocient un type qui est cohérent avec le type partiel.
--   **Aucun type de média :** Si le gestionnaire de graphique de filtre passe un pointeur **null** , les broches peuvent accepter tout type de média acceptable pour les deux codes PIN.
+-   **Aucun type de média :** si le gestionnaire de Graph de filtre passe un pointeur **NULL** , les broches peuvent accepter tout type de média acceptable pour les deux codes pin.
 
-Si les broches se connectent, la connexion a toujours un type de support complet. L’objectif du type de média donné par le gestionnaire de graphe de filtre est de limiter les types de connexions possibles.
+Si les broches se connectent, la connexion a toujours un type de support complet. l’objectif du type de média donné par le gestionnaire de Graph de filtre est de limiter les types de connexions possibles.
 
 Pendant le processus de négociation, la broche de sortie propose un type de média en appelant la méthode [**IPIN :: ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection) du code confidentiel d’entrée. La broche d’entrée peut accepter ou rejeter le type proposé. Ce processus se répète jusqu’à ce que la broche d’entrée accepte un type ou que la broche de sortie manque de types et que la connexion échoue.
 
-La manière dont une broche de sortie sélectionne les types de média à proposer dépend de l’implémentation. Dans les classes de base DirectShow, la broche de sortie appelle [**IPIN :: EnumMediaTypes**](/windows/desktop/api/Strmif/nf-strmif-ipin-enummediatypes) sur la broche d’entrée. Cette méthode retourne un énumérateur qui énumère les types de média préférés du code confidentiel d’entrée. À défaut, la broche de sortie énumère ses propres types préférés.
+La manière dont une broche de sortie sélectionne les types de média à proposer dépend de l’implémentation. dans les classes de base DirectShow, la broche de sortie appelle [**IPin :: EnumMediaTypes**](/windows/desktop/api/Strmif/nf-strmif-ipin-enummediatypes) sur la broche d’entrée. Cette méthode retourne un énumérateur qui énumère les types de média préférés du code confidentiel d’entrée. À défaut, la broche de sortie énumère ses propres types préférés.
 
 **Utilisation des types de médias**
 

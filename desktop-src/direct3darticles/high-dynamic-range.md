@@ -1,25 +1,25 @@
 ---
 title: Utilisation de DirectX avec des écrans à haute gamme dynamique et une couleur avancée
-description: Cette rubrique fournit une vue d’ensemble technique du rendu de contenu Direct3D 11 et Direct3D 12 à plage dynamique élevée dans un affichage HDR10 à l’aide de la prise en charge avancée des couleurs Windows 10.
+description: cette rubrique fournit une vue d’ensemble technique du rendu d’un contenu direct3d 11 et direct3d 12 à plage dynamique élevée dans un affichage HDR10 Windows 10 à l’aide de la prise en charge des couleurs avancées.
 ms.assetid: ''
 ms.topic: article
 ms.date: 04/23/2020
-ms.openlocfilehash: 14d025e5431c42299c2c7f20ff198efa93959d7b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 8577d9737bd1f5f22f5e550dbcef503151c84dc1a147cf510820b589283b4990
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104571637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120563"
 ---
 # <a name="using-directx-with-high-dynamic-range-displays-and-advanced-color"></a>Utilisation de DirectX avec des affichages de plage dynamique élevée et une couleur avancée
 
-Cette rubrique fournit une vue d’ensemble technique de la génération de contenu Direct3D 11 et Direct3D 12 de gamme dynamique élevée (HDR) dans un affichage HDR10 à l’aide de la prise en charge avancée des couleurs Windows 10. Elle résume les principales différences conceptuelles entre la génération de l’affichage HDR10 et les affichages de la plage dynamique standard (SDR). Il aborde également les principales exigences techniques de votre application pour prendre en charge correctement Windows Advanced Color, ainsi que les recommandations et les meilleures pratiques.
+cette rubrique fournit une vue d’ensemble technique de la génération de contenu direct3d 11 et direct3d 12 dans un affichage HDR10 à l’aide de Windows 10 advanced color support. Elle résume les principales différences conceptuelles entre la génération de l’affichage HDR10 et les affichages de la plage dynamique standard (SDR). il aborde également les principales exigences techniques de votre application pour prendre en charge Windows couleur avancée, ainsi que des recommandations et des meilleures pratiques.
 
 ## <a name="introduction"></a>Introduction
 
 Windows 10 prend en charge les affichages HDR et autres couleurs avancées, ce qui offre une fidélité des couleurs nettement supérieure à celle des affichages SDR traditionnels. Vous pouvez utiliser Direct3D, Direct2D et d’autres API graphiques pour afficher le contenu HDR sur un affichage de compatibilité.
 
-Couleurs avancées de Windows fait référence à plusieurs technologies connexes, introduites dans la version 1703 de Windows 10, qui assurent la prise en charge des affichages qui dépassent les capacités de couleur des affichages de plage dynamique standard (SDR) classiques. Les trois principales fonctionnalités étendues sont décrites ci-dessous. Le type le plus courant d’affichage des couleurs avancées, HDR10, prend en charge les trois fonctionnalités étendues.
+Windows couleur avancée fait référence à plusieurs technologies connexes, introduites en premier avec Windows 10 version 1703, qui assurent la prise en charge des affichages qui dépassent les capacités de couleur des affichages de plage dynamique standard (SDR) classiques. Les trois principales fonctionnalités étendues sont décrites ci-dessous. Le type le plus courant d’affichage des couleurs avancées, HDR10, prend en charge les trois fonctionnalités étendues.
 
 ### <a name="high-dynamic-range"></a>Plage dynamique élevée
 
@@ -35,11 +35,11 @@ La gamme de couleurs fait référence à la plage et à la saturation des teinte
 
 ![diagramme du locus spectral humain et de la gamme de couleurs sRVB](images/HDR-WCG.jpg)
 
-Haut de gamme, les PC professionnels affichent des gammes de couleurs de longue durée qui sont beaucoup plus larges que l’sRVB, comme Adobe RGB et D65-P3. Et ces affichages à large gamme deviennent de plus en plus courants. Toutefois, avant la couleur avancée, Windows n’effectuait aucune gestion des couleurs au niveau du système pour les applications. Cela signifiait que si une application DirectX affichait, par exemple, une couleur rouge ou RVB pure (1,0, 0,0, 0,0) à sa chaîne de permutation, Windows analyserait simplement le rouge le plus saturé que l’affichage pouvait reproduire, quelle que soit la gamme de couleurs réelle de l’affichage.
+Haut de gamme, les PC professionnels affichent des gammes de couleurs de longue durée qui sont beaucoup plus larges que l’sRVB, comme Adobe RGB et D65-P3. Et ces affichages à large gamme deviennent de plus en plus courants. toutefois, avant la couleur avancée, Windows n’a pas effectué de gestion des couleurs au niveau du système pour les applications. cela signifiait que si une application DirectX affichait, par exemple, une couleur rouge ou rvb pure (1,0, 0,0, 0,0) à sa chaîne de permutation, Windows relancerait simplement le rouge le plus saturé que l’affichage pouvait reproduire, quelle que soit la gamme de couleurs réelle de l’affichage.
 
 Les applications qui nécessitaient une haute précision des couleurs peuvent interroger les fonctionnalités de couleur de l’affichage (par exemple, à l’aide de profils ICC) et effectuer leur propre gestion des couleurs in-process pour cibler correctement la gamme de couleurs de l’affichage. Toutefois, la grande majorité des applications et du contenu visuel suppose que l’affichage est sRVB et qu’ils s’appuient sur le système d’exploitation pour respecter cette hypothèse.
 
-Couleurs avancées de Windows ajoute la gestion automatique des couleurs au niveau du système. Le Gestionnaire de fenêtrage (DWM) est le compositeur de Windows. Quand la couleur avancée est activée, le DWM effectue une conversion de couleur explicite du colorspace du contenu visuel de l’application vers un espace de couleurs de composition canonique, qui est ScRVB. Windows convertit ensuite les couleurs du contenu trame composé en espace de couleurs natif de l’affichage. De cette façon, le contenu sRGB traditionnel obtient automatiquement un comportement précis des couleurs, tandis que les applications avancées prenant en compte les couleurs peuvent tirer parti des fonctionnalités de couleur complètes de l’affichage.
+Windows couleur avancée ajoute une gestion automatique des couleurs au niveau du système. le Gestionnaire de fenêtrage (DWM) est Windows’compositeur. Quand la couleur avancée est activée, le DWM effectue une conversion de couleur explicite du colorspace du contenu visuel de l’application vers un espace de couleurs de composition canonique, qui est ScRVB. Windows convertit ensuite le contenu trame composé en espace de couleurs natif de l’affichage. De cette façon, le contenu sRGB traditionnel obtient automatiquement un comportement précis des couleurs, tandis que les applications avancées prenant en compte les couleurs peuvent tirer parti des fonctionnalités de couleur complètes de l’affichage.
 
 ### <a name="deep-precisionbit-depth"></a>Précision profonde/profondeur de bit
 
@@ -53,15 +53,15 @@ Avant la couleur avancée, le DWM limite les applications Windows à la sortie d
 
 ### <a name="operating-system-os"></a>Système d’exploitation (OS)
 
-La prise en charge des couleurs avancées est tout d’abord fournie avec Windows 10, version 1703, et a été considérablement améliorée avec chaque mise à jour. Cette rubrique suppose que votre application cible Windows 10, version 1903 ou ultérieure.
+la prise en charge des couleurs avancées est tout d’abord fournie avec Windows 10, version 1703, et a été considérablement améliorée avec chaque mise à jour. cette rubrique suppose que votre application cible Windows 10, version 1903 ou ultérieure.
 
-### <a name="display"></a>Afficher
+### <a name="display"></a>Affichage
 
 Pour tirer parti d’une plage dynamique élevée, vous devez disposer d’un affichage qui prend en charge la norme HDR10. Windows fonctionne mieux avec les affichages qui sont [certifiés VESA DisplayHDR](https://displayhdr.org/).
 
 ### <a name="graphics-processor-gpu"></a>Processeur graphique (GPU)
 
-Un GPU récent est nécessaire. Pour prendre en charge les affichages HDR10, Windows 10 requiert l’un des éléments suivants.
+Un GPU récent est nécessaire. pour prendre en charge les affichages HDR10, Windows 10 requiert l’un des éléments suivants.
 
 * NVIDIA GeForce 1000 Series (Pascal) ou plus récent
 * AMD Radeon RX 400 Series (Polaris) ou plus récent
@@ -71,14 +71,14 @@ Notez que des exigences matérielles supplémentaires s’appliquent en fonction
 
 ### <a name="graphics-driver-wddm"></a>Pilote Graphics (WDDM)
 
-Le dernier pilote graphique disponible est vivement recommandé, soit à partir de Windows Update, soit à partir du site Web du fabricant du GPU ou du PC. Pour Windows 10, version 1903 et versions ultérieures, nous recommandons des pilotes qui prennent en charge au moins Windows Display Driver Model (WDDM) version 2,6.
+le dernier pilote graphique disponible est vivement recommandé, soit à partir de Windows Update, soit à partir du site web du fabricant du GPU ou du PC. pour Windows 10, version 1903 et versions ultérieures, nous recommandons des pilotes qui prennent en charge au moins Windows modèle de pilote d’affichage (WDDM) version 2,6.
 
 ## <a name="supported-rendering-apis"></a>API de rendu prises en charge
 
-Windows 10 prend en charge un large éventail d’API et d’infrastructures de rendu. La prise en charge avancée des couleurs repose fondamentalement sur votre application capable d’effectuer une présentation moderne à l’aide de DXGI ou des API de la couche visuelle.
+Windows 10 prend en charge un large éventail d’api et d’infrastructures de rendu. La prise en charge avancée des couleurs repose fondamentalement sur votre application capable d’effectuer une présentation moderne à l’aide de DXGI ou des API de la couche visuelle.
 
 * [Infrastructure DirectX Graphics (DXGI)](../direct3ddxgi/dx-graphics-dxgi.md)
-* [Couche visuelle (Windows. UI. composition)](/windows/uwp/composition/visual-layer)
+* [couche visuelle (Windows. UI. Composition)](/windows/uwp/composition/visual-layer)
 
 Par conséquent, toute API de rendu pouvant être sortie vers l’une de ces méthodes de présentation peut prendre en charge la couleur avancée. Cela comprend, mais n’est pas limité à ces.
 
@@ -96,17 +96,17 @@ Par conséquent, toute API de rendu pouvant être sortie vers l’une de ces mé
 
 ## <a name="handling-dynamic-display-capabilities"></a>Gestion des fonctionnalités d’affichage dynamiques
 
-Windows 10 prend en charge un large éventail d’affichages de couleurs avancés, allant des panneaux intégrés à l’efficacité énergétique aux moniteurs de jeux et téléviseurs haut de gamme. Les utilisateurs Windows s’attendent à ce que votre application gère en toute transparence toutes ces variations, y compris les affichages SDR existants.
+Windows 10 prend en charge un large éventail d’affichages de couleurs avancés, allant des panneaux intégrés à l’efficacité énergétique aux moniteurs de jeux et téléviseurs haut de gamme. Windows utilisateurs s’attendent à ce que votre application gère en toute transparence toutes ces variations, y compris les affichages SDR existants.
 
-Windows 10 permet à l’utilisateur de contrôler les fonctionnalités HDR et Advanced Color. Votre application doit détecter la configuration de l’affichage actuel et répondre de manière dynamique à toute modification apportée à la fonctionnalité. Cela peut se produire pour de nombreuses raisons, par exemple parce que l’utilisateur a activé ou désactivé une fonctionnalité, ou a déplacé l’application entre différents affichages ou que l’état d’alimentation du système a changé.
+Windows 10 permet à l’utilisateur de contrôler les fonctionnalités HDR et advanced color. Votre application doit détecter la configuration de l’affichage actuel et répondre de manière dynamique à toute modification apportée à la fonctionnalité. Cela peut se produire pour de nombreuses raisons, par exemple parce que l’utilisateur a activé ou désactivé une fonctionnalité, ou a déplacé l’application entre différents affichages ou que l’état d’alimentation du système a changé.
 
-### <a name="universal-windows-platform-uwp-apps"></a>Applications plateforme Windows universelle (UWP)
+### <a name="universal-windows-platform-uwp-apps"></a>applications plateforme Windows universelle (UWP)
 
 Si vous écrivez une application UWP, quelle que soit l’API de rendu graphique que vous utilisez, utilisez [**AdvancedColorInfo**](/uwp/api/windows.graphics.display.advancedcolorinfo) pour obtenir les fonctionnalités d’affichage. Obtenez une instance de **AdvancedColorInfo** à partir de [**DisplayInformation :: GetAdvancedColorInfo**](/uwp/api/windows.graphics.display.displayinformation.getadvancedcolorinfo).
 
-Pour vérifier le type de couleurs avancé actuellement actif, utilisez la propriété [**CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) . Dans Windows 10, version 1903 et versions ultérieures, cette méthode retourne l’une des trois valeurs possibles : **SDR**, **WCG** ou **HDR**. Il s’agit de la propriété la plus importante à vérifier, et vous devez configurer votre pipeline de rendu et de présentation en réponse au genre actif.
+Pour vérifier le type de couleurs avancé actuellement actif, utilisez la propriété [**CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) . dans Windows 10, la version 1903 et les versions ultérieures, cette méthode retourne l’une des trois valeurs possibles : **SDR**, **WCG** ou **HDR**. Il s’agit de la propriété la plus importante à vérifier, et vous devez configurer votre pipeline de rendu et de présentation en réponse au genre actif.
 
-Pour vérifier les types de couleurs avancés pris en charge, mais pas nécessairement actifs, appelez [**IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). Vous pouvez utiliser ces informations, par exemple, pour inviter l’utilisateur à accéder à l’application Paramètres Windows afin qu’il puisse activer HDR ou WCG.
+Pour vérifier les types de couleurs avancés pris en charge, mais pas nécessairement actifs, appelez [**IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). vous pouvez utiliser ces informations, par exemple, pour inviter l’utilisateur à accéder au Windows Paramètres application afin qu’il puisse activer HDR ou WCG.
 
 Les autres membres de **AdvancedColorInfo** fournissent des informations quantitatives sur le volume de couleurs physiques du panneau (luminance et chrominance), correspondant aux métadonnées HDR statiques 2086. Utilisez ces informations pour configurer le mappage HDR tonemapping et de gammes de votre application.
 
@@ -206,7 +206,7 @@ Windows 10 prend en charge deux combinaisons principales du format de pixel et d
 
 Pour les applications à usage général, lors de la création de votre chaîne de permutation, nous vous recommandons de spécifier [**DXGI_FORMAT_R16G16B16A16_FLOAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format). C’est ce que l’on appelle également *FP16* dans votre [**DXGI_SWAP_CHAIN_DESC1**](/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1). Par défaut, une chaîne de permutation créée avec un format de pixel à virgule flottante est traitée comme si elle utilise l’espace de couleurs [**DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709**](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) , également appelé *ScRVB*.
 
-Cette combinaison vous fournit la plage numérique et la précision pour spécifier presque toutes les couleurs physiquement possibles et effectuer un traitement arbitraire, y compris une fusion. En outre, si vous utilisez Direct2D, Win2D ou Windows. UI. composition, il s’agit de la seule combinaison prise en charge pour toute chaîne de permutation ou cible intermédiaire qui contient du contenu de couleur avancé. 
+Cette combinaison vous fournit la plage numérique et la précision pour spécifier presque toutes les couleurs physiquement possibles et effectuer un traitement arbitraire, y compris une fusion. en outre, si vous utilisez Direct2D, Win2D ou Windows. UI. Composition, il s’agit de la seule combinaison prise en charge pour toute chaîne de permutation ou cible intermédiaire qui contient du contenu de couleur avancé. 
 
 Le principal inconvénient de cette option est qu’elle consomme 64 bits par pixel, ce qui double la bande passante du GPU et la consommation de mémoire par rapport aux formats de pixel de la base de SDR. En outre, ScRVB utilise des valeurs numériques qui se trouvent en dehors de la plage normalisée [0, 1] pour représenter les couleurs qui sont en dehors de la gamme sRVB et/ou supérieures à 80 nits de luminance. Par exemple, ScRVB (1,0, 1,0, 1,0) encode le blanc D65 standard à 80 nits ; Toutefois, ScRVB (12,5, 12,5, 12,5) encode le même blanc D65 à une plus grande luminosité de 1000 nits. Certaines opérations graphiques nécessitent une plage numérique normalisée et vous devez soit modifier l’opération, soit renormaliser les valeurs de couleur.
 
@@ -220,7 +220,7 @@ Toutefois, cette combinaison peut offrir des optimisations de performances puiss
 
 ### <a name="using-an-advanced-color-swap-chain-when-the-display-is-in-sdr-mode"></a>Utilisation d’une chaîne d’échange de couleurs avancée lorsque l’affichage est en mode SDR
 
-Vous pouvez utiliser une chaîne d’échange de couleurs avancée même si l’affichage ne prend pas en charge une partie ou la totalité des fonctionnalités de couleur avancées requises par votre contenu. Dans ce cas, le Gestionnaire de fenêtrage (DWM) downconvert votre contenu pour l’adapter aux fonctionnalités de l’affichage. Dans Windows 10, version 1903 et versions ultérieures, le découpage numérique sera effectué. par exemple, si vous affichez une chaîne de permutation FP16 ScRVB, tout en dehors de la plage numérique [0, 1] est tronqué.
+Vous pouvez utiliser une chaîne d’échange de couleurs avancée même si l’affichage ne prend pas en charge une partie ou la totalité des fonctionnalités de couleur avancées requises par votre contenu. Dans ce cas, le Gestionnaire de fenêtrage (DWM) downconvert votre contenu pour l’adapter aux fonctionnalités de l’affichage. dans Windows 10, la version 1903 et les versions ultérieures, elle effectue un découpage numérique. par exemple, si vous affichez une chaîne de permutation FP16 ScRVB, tout en dehors de la plage numérique [0, 1] est tronqué.
 
 Ce comportement downconversion se produira également si votre fenêtre d’application chevauche plusieurs affichages avec des fonctionnalités de couleur avancées différentes. **AdvancedColorInfo** et **IDXGIOutput6** sont abstraits pour signaler uniquement les caractéristiques de l’affichage « principal » (définies comme affichage contenant le centre de la fenêtre).
 
@@ -228,12 +228,12 @@ Ce comportement downconversion se produira également si votre fenêtre d’appl
 
 Dans de nombreux scénarios, votre application souhaite afficher le contenu SDR et HDR. par exemple, le rendu des sous-titres ou des contrôles de transport sur une vidéo HDR ou une interface utilisateur dans une scène de jeu. Il est important de comprendre le concept de *niveau de référence SDR* pour vous assurer que votre contenu SDR semble correct sur un affichage HDR.
 
-Windows traite le contenu HDR comme étant _référencé par scène_, ce qui signifie qu’une valeur de couleur particulière doit être affichée à un niveau de luminance spécifique. par exemple, ScRVB (1,0, 1,0, 1,0) et HDR10 (497, 497, 497) encodent exactement D65 en blanc à 80 nits de luminance. Pendant ce temps, le contenu SDR est traditionnellement soumis à la _sortie_ (ou à l’affichage), ce qui signifie que sa luminance est laissée à l’utilisateur ou à l’appareil ; par exemple, sRVB (1,0, 1,0, 1,0) encode le blanc D65 comme dans les exemples HDR, mais à toute luminance maximale pour laquelle l’affichage est configuré. Windows permet à l’utilisateur d’ajuster le _niveau de référence SDR_ à sa préférence. Il s’agit de la luminance que Windows restituera sRVB (1,0, 1,0, 1,0) à. Sur les moniteurs HDR de bureau, les niveaux de référence SDR sont généralement définis sur environ 200 nits.
+Windows traite le contenu HDR comme étant _référencé par scène_, ce qui signifie qu’une valeur de couleur particulière doit être affichée à un niveau de luminance spécifique. par exemple, ScRVB (1,0, 1,0, 1,0) et HDR10 (497, 497, 497) encodent exactement D65 en blanc à 80 nits de luminance. Pendant ce temps, le contenu SDR est traditionnellement soumis à la _sortie_ (ou à l’affichage), ce qui signifie que sa luminance est laissée à l’utilisateur ou à l’appareil ; par exemple, sRVB (1,0, 1,0, 1,0) encode le blanc D65 comme dans les exemples HDR, mais à toute luminance maximale pour laquelle l’affichage est configuré. Windows permet à l’utilisateur d’ajuster le _niveau de référence SDR_ à sa préférence. il s’agit de la luminance que Windows restitue l’srvb (1,0, 1,0, 1,0) à. Sur les moniteurs HDR de bureau, les niveaux de référence SDR sont généralement définis sur environ 200 nits.
 
 > [!Note]
-> Sur un écran qui prend en charge un contrôle de luminosité, par exemple sur un ordinateur portable, Windows ajuste également la luminance du contenu HDR (référencé par une scène) pour qu’il corresponde au niveau de luminosité souhaité de l’utilisateur, mais ce n’est pas visible pour l’application. À moins que vous n’essayiez de garantir une reproduction exacte du signal HDR, vous pouvez généralement l’ignorer.
+> sur un écran qui prend en charge un contrôle de luminosité, par exemple sur un ordinateur portable, Windows ajuste également la luminance du contenu HDR (expertisé) pour qu’il corresponde au niveau de luminosité souhaité de l’utilisateur, mais ce n’est pas visible pour l’application. À moins que vous n’essayiez de garantir une reproduction exacte du signal HDR, vous pouvez généralement l’ignorer.
 
-Si votre application affiche toujours les SDR et HDR pour séparer les surfaces et s’appuie sur la composition du système d’exploitation, Windows effectue automatiquement l’ajustement correct pour augmenter le contenu SDR au niveau de blanc souhaité. Par exemple, si votre application utilise XAML et restitue le contenu HDR à son propre **SwapChainPanel**.
+si votre application affiche toujours les SDR et HDR pour séparer les surfaces et s’appuie sur la composition du système d’exploitation, Windows effectue automatiquement l’ajustement correct pour augmenter le contenu SDR au niveau de blanc souhaité. Par exemple, si votre application utilise XAML et restitue le contenu HDR à son propre **SwapChainPanel**.
 
 Toutefois, si votre application effectue sa propre composition de contenu SDR et HDR en une seule surface, vous êtes chargé d’effectuer vous-même le réglage du niveau de référence SDR. Sinon, le contenu SDR peut sembler trop sombre en supposant des conditions d’affichage de bureau typiques. Tout d’abord, vous devez obtenir le niveau de référence SDR actuel, puis vous devez ajuster les valeurs de couleur de tout contenu SDR que vous rendez.
 
@@ -272,7 +272,7 @@ Le paramètre unique le plus important à adapter à la luminance est Max, égal
 
 ### <a name="step-1-get-the-displays-color-volume-capabilities"></a>Étape 1. Obtenir les capacités de volume de couleurs de l’affichage
 
-#### <a name="universal-windows-platform-uwp-apps"></a>Applications plateforme Windows universelle (UWP)
+#### <a name="universal-windows-platform-uwp-apps"></a>applications plateforme Windows universelle (UWP)
 
 Utilisez [**AdvancedColorInfo**](/uwp/api/windows.graphics.display.advancedcolorinfo) pour obtenir le volume de couleurs de l’affichage.
 
@@ -434,7 +434,7 @@ void D2DAdvancedColorImagesRenderer::ComputeHdrMetadata()
 
 ### <a name="step-3-perform-the-hdr-tonemapping-operation"></a>Étape 3. Effectuer l’opération HDR tonemapping
 
-Tonemapping est fondamentalement un processus de perte et peut être optimisé pour un certain nombre de mesures de perception ou objectives, donc il n’y a pas d’algorithme standard. Windows fournit un [effet Tonemapper HDR](../direct2d/hdr-tone-map-effect.md) intégré dans le cadre de Direct2D et dans le pipeline de lecture vidéo HDR Media Foundation. Parmi les autres algorithmes couramment utilisés figurent les ACE cinématographiques, Reinhard et ITU-R BT. 2390-3 EETF (fonction de transfert électrique électrique).
+Tonemapping est fondamentalement un processus de perte et peut être optimisé pour un certain nombre de mesures de perception ou objectives, donc il n’y a pas d’algorithme standard. Windows fournit un [effet tonemapper hdr](../direct2d/hdr-tone-map-effect.md) intégré dans le cadre de Direct2D, ainsi que dans le pipeline de lecture vidéo hdr Media Foundation. Parmi les autres algorithmes couramment utilisés figurent les ACE cinématographiques, Reinhard et ITU-R BT. 2390-3 EETF (fonction de transfert électrique électrique).
 
 Un opérateur Reinhard Tonemapper simplifié est illustré ci-dessous.
 
@@ -469,7 +469,7 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
 
 ## <a name="capturing-hdr-and-wcg-content"></a>Capture de contenu HDR et WCG
 
-Les API qui prennent en charge la spécification des formats de pixel, tels que ceux de l’espace de noms [**Windows. Graphics. capture**](/uwp/api/windows.graphics.capture) et de la méthode [**IDXGIOutput5 ::D uplicateoutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) , permettent de capturer le contenu HDR et WCG sans perdre les informations sur les pixels. Notez qu’après avoir acquis des trames de contenu, un traitement supplémentaire est nécessaire. Par exemple, le mappage de tonalité HDR-à-SDR (par exemple, capture de capture d’écran SDR pour le partage Internet) et l’enregistrement de contenu avec le format approprié (par exemple, JPEG XR).
+API qui prennent en charge la spécification des formats de pixel, tels que ceux de l' [**Windows. Graphics. capture**](/uwp/api/windows.graphics.capture) Namespace et la méthode [**IDXGIOutput5 ::D uplicateoutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) , permettent de capturer le contenu HDR et WCG sans perdre les informations sur les pixels. Notez qu’après avoir acquis des trames de contenu, un traitement supplémentaire est nécessaire. Par exemple, le mappage de tonalité HDR-à-SDR (par exemple, capture de capture d’écran SDR pour le partage Internet) et l’enregistrement de contenu avec le format approprié (par exemple, JPEG XR).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

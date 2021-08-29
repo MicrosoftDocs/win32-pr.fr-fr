@@ -4,16 +4,16 @@ ms.assetid: 889558d5-9181-43ff-b862-e92966324208
 title: Pinceaux et formes remplies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eb772be88ce26325337fd9c88fc0319631895e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c073809da21f032a7f4859528b6f982094f3f354ce36e8c4388ea4172a8dd4d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977719"
 ---
 # <a name="brushes-and-filled-shapes"></a>Pinceaux et formes remplies
 
-Une figure fermée, telle qu’un rectangle ou une ellipse, se compose d’un plan et d’un intérieur. Le contour est dessiné à l’aide d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) et l’intérieur est rempli d’un objet [**Brush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-brush) . Windows GDI+ fournit plusieurs classes Brush pour remplir l’intérieur des figures fermées : [**SolidBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-solidbrush), [**HatchBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush), [**TextureBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-texturebrush), [**LinearGradientBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush)et [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush). Toutes ces classes héritent de la classe **Brush** . L’illustration suivante montre un rectangle rempli d’un pinceau plein et une Ellipse remplie avec un pinceau hachuré.
+Une figure fermée, telle qu’un rectangle ou une ellipse, se compose d’un plan et d’un intérieur. Le contour est dessiné à l’aide d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) et l’intérieur est rempli d’un objet [**Brush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-brush) . Windows GDI+ fournit plusieurs classes brush pour remplir l’intérieur des figures fermées : [**SolidBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-solidbrush), [**HatchBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush), [**TextureBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-texturebrush), [**LinearGradientBrush**](/windows/win32/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush)et [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush). Toutes ces classes héritent de la classe **Brush** . L’illustration suivante montre un rectangle rempli d’un pinceau plein et une Ellipse remplie avec un pinceau hachuré.
 
 ![Illustration montrant un rectangle bleu et une ellipse magenta remplie d’un motif hachuré bleu](images/aboutgdip02-art17.png)
 
@@ -52,7 +52,7 @@ HatchBrush myHatchBrush(
 
 
 
-GDI+ fournit plus de 50 styles de hachures, spécifiés dans [**HatchStyle**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-hatchstyle). Les trois styles indiqués dans l’illustration suivante sont horizontal, ForwardDiagonal et Cross.
+GDI+ fournit plus de 50 styles de hachurage, spécifiés dans [**HatchStyle**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-hatchstyle). Les trois styles indiqués dans l’illustration suivante sont horizontal, ForwardDiagonal et Cross.
 
 ![Illustration montrant trois ellipses colorées en bleu, chacune avec un style de hachurage différent](images/aboutgdip02-art18.png)
 

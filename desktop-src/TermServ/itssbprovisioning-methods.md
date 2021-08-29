@@ -5,12 +5,12 @@ ms.assetid: 882B6A37-FAD6-4783-B2A7-AE3C62C8CC92
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fb1a265fa218140943d27a9cc8c4b0cfd00c415
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b099e2f169a37ea3629938aa728491a7d05fdac18d79dc1f405b6a5ad9d7619b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058757"
 ---
 # <a name="itssbprovisioning-methods"></a>Méthodes ITsSbProvisioning
 
@@ -48,9 +48,9 @@ Corrige un ordinateur virtuel de manière asynchrone.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

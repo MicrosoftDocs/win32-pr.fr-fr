@@ -4,16 +4,16 @@ ms.assetid: 67e36587-0bf5-4586-ace9-ef107f0b6548
 title: 'ITAttributeList :: get_Item, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33745c10bf95fe8a1e9c6d9edc73cad54855a8c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21ffa22eadf9dac4af55b46b59c22a2b265b53a4ec582e36ab563d0fffb36fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003467"
 ---
 # <a name="itattributelistget_item-method"></a>ITAttributeList :: obten, \_ méthode d’élément
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode d' **extraction d' \_ élément** retourne l’attribut spécifié par l’index.
 
@@ -66,7 +66,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *pval* .
 

@@ -4,12 +4,12 @@ ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
 title: Attribut MFSampleExtension_Encryption_ProtectionScheme (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de298eb310e1258274a4ce24d49e9b53def38cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a9db7d00d67b0e9806167ea574d10c3dca5f199293c03f5e055d60430c2dd75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603179"
 ---
 # <a name="mfsampleextension_encryption_protectionscheme-attribute"></a>\_Attribut ProtectionScheme de chiffrement MFSampleExtension \_
 
@@ -19,7 +19,7 @@ Spécifie le schéma de protection pour les exemples chiffrés.
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFSampleEncryptionProtectionScheme**](/windows/win32/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme) . Dans les cas où la source du média est MP4, la valeur est définie en fonction de la valeur du **champ \_ type de schéma** dans la zone type de schéma (« SCHM ») dans l’en-tête MP4 (« Moov » ou « moof »).
 
@@ -74,7 +74,7 @@ HRESULT AddEncryptionAttributes(_In_ IMFSample* pSample, _In_ bool fIsEncrypted)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 

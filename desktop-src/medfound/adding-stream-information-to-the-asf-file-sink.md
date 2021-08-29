@@ -4,12 +4,12 @@ ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Ajout d’informations de flux au récepteur de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8202de8da5cb8e17534c334e3d39dddb3c4f99
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d0273f6080293803db7fa7451460e8f8d7700c5e405b9ed09d8d35e384abc8ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975038"
 ---
 # <a name="adding-stream-information-to-the-asf-file-sink"></a>Ajout d’informations de flux au récepteur de fichiers ASF
 
@@ -17,11 +17,11 @@ Le récepteur de fichiers ASF est une implémentation de [**IMFMediaSink**](/win
 
 Après avoir instancié le récepteur de fichiers, vous devez le configurer avant de générer la topologie. Le récepteur de fichiers doit connaître les flux de données dans le fichier de sortie, les informations sur le mode d’encodage et les métadonnées. Cette rubrique décrit le processus d’ajout de flux dans le récepteur de fichiers.
 
--   [Ajout de flux dans le récepteur de fichiers ASF](#adding-streams-in-the-asf-file-sink)
+-   [ajout d’Flux dans le récepteur de fichiers ASF](#adding-streams-in-the-asf-file-sink)
 -   [Énumération des récepteurs de flux](#enumerating-stream-sinks)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="adding-streams-in-the-asf-file-sink"></a>Ajout de flux dans le récepteur de fichiers ASF
+## <a name="adding-streams-in-the-asf-file-sink"></a>ajout d’Flux dans le récepteur de fichiers ASF
 
 Le récepteur de fichiers doit connaître les flux de sortie et leurs propriétés afin de pouvoir générer des exemples de sortie en conséquence et les ajouter au fichier ASF de sortie. Ces paramètres sont écrits dans l’objet d’en-tête ASF final.
 
@@ -32,11 +32,11 @@ La procédure suivante résume les étapes générales de la configuration de St
 **Pour configurer les informations de flux dans le récepteur de fichiers ASF**
 
 1.  Créez un objet de profil ASF en appelant [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile).
-2.  Pour chaque flux du fichier de sortie, créez un type de média pour le flux cible à ajouter dans le récepteur de fichiers. Le type de média doit être compatible avec les types de sortie pris en charge par les encodeurs Windows Media.
+2.  Pour chaque flux du fichier de sortie, créez un type de média pour le flux cible à ajouter dans le récepteur de fichiers. le type de média doit être compatible avec les types de sortie pris en charge par les encodeurs multimédia Windows.
 
-    Pour plus d’informations sur l’ajout de flux audio au profil, consultez Création de flux audio pour l’encodage ASF.
+    pour plus d’informations sur l’ajout de flux audio au profil, consultez création de Flux audio pour l’encodage ASF.
 
-    Pour plus d’informations sur l’ajout de flux vidéo au profil, consultez Création de flux vidéo pour l’encodage ASF.
+    pour plus d’informations sur l’ajout de flux vidéo au profil, consultez création de Flux vidéo pour l’encodage ASF.
 
 3.  Créez des flux basés sur les types de médias créés à l’étape 2 en appelant [**IMFASFProfile :: CreateStream,**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream).
 4.  Assignez un numéro de flux pour le flux nouvellement créé en appelant le pointeur d’interface [**IMFASFStreamConfig**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig) reçu à l’étape 3.

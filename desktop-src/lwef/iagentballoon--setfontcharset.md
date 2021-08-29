@@ -4,12 +4,12 @@ description: IAgentBalloon SetFontCharSet
 ms.assetid: ce1b152d-c8af-47ec-9e6b-5768dbcf3566
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cc462895ff9f19f7e722660608a268af13446f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 178e2f6e2e086962456b6717dcb6866db9d607dd16136f839a127857d85cd58e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751051"
 ---
 # <a name="iagentballoonsetfontcharset"></a>IAgentBalloon::SetFontCharSet
 
@@ -34,15 +34,15 @@ Jeu de caractères de la police. Voici quelques paramètres courants pour la val
 
 
 
-| Value    | Jeu de caractères                                                                                       |
+| Valeur    | Jeu de caractères                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
-| 0   | Caractères Windows standard (ANSI).                                                    |
+| 0   | caractères de Windows Standard (ANSI).                                                    |
 | 1   | Jeu de caractères par défaut.                                                                 |
 | 2   | Jeu de caractères de symbole.                                                              |
 | 128 | Jeu de caractères codés sur deux octets (DBCS) propre à la version japonaise de Windows.            |
 | 129 | Jeu de caractères codés sur deux octets (DBCS) propre à la version coréenne de Windows.              |
-| 134 | Jeu de caractères codés sur deux octets (DBCS) propre à la version de Windows en chinois simplifié.  |
-| 136 | Jeu de caractères codés sur deux octets (DBCS) propre à la version de Windows en chinois traditionnel. |
+| 134 | Jeu de caractères codés sur deux octets (DBCS) propre à la version en chinois simplifié de Windows.  |
+| 136 | Jeu de caractères codés sur deux octets (DBCS) propre à la version en chinois traditionnel de Windows. |
 | 255 | Les caractères étendus sont généralement affichés par les applications MS-DOS.                          |
 
 

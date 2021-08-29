@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 519ceabc2714e65bcb87651b74518228245afb5f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fb1e91fb9bc06eb4644209d87b4a941a68bc6b4d58d4dc31010d284e7b0f959c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106512077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807372"
 ---
 # <a name="call_as-attribute"></a>appeler \_ en tant qu’attribut
 
@@ -52,7 +52,7 @@ Spécifie l’opération nommée présentée à l’application.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La possibilité de mapper une fonction qui ne peut pas être appelée à distance à une fonction distante est particulièrement utile dans les interfaces qui ont de nombreux types de paramètres qui ne peuvent pas être transmis sur le réseau. Au lieu d’utiliser plusieurs types de **\[** [**représentation \_**](represent-as.md) comme **\]** et de **\[** [**transmission \_ en tant que**](transmit-as.md) **\]** types, vous pouvez combiner toutes les conversions à l’aide de routines **\[ Call \_ As \]** . Vous fournissez les deux **\[ appels \_ en tant que \]** routines (côté client et côté serveur) pour lier la routine entre les appels d’application et les appels distants.
 
@@ -165,9 +165,9 @@ Côté serveur :
 [**transmettre \_ en tant que**](transmit-as.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

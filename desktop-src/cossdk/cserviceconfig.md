@@ -11,12 +11,12 @@ api_name:
 - CServiceConfig
 api_type:
 - COM
-ms.openlocfilehash: e0b48b05be4afa1d42dbc8a16c4b596a08aba859
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a72a7c05317973813b5f19a9e486f3effe8f052547caa54314aad92079ffa0a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954209"
 ---
 # <a name="cserviceconfig-class"></a>CServiceConfig, classe
 
@@ -44,7 +44,7 @@ Utilisez cette classe pour configurer les services que vous souhaitez utiliser. 
 
 Cette classe n’a pas été conçue pour être utilisée dans Visual Basic.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer cet objet, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
@@ -59,7 +59,7 @@ Pour configurer un service individuel, appelez [**QueryInterface**](/windows/des
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>ComSvcs. h</dt> </dl> |
 
 

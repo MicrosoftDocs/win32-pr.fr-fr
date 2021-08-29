@@ -4,12 +4,12 @@ ms.assetid: 7926ae9b-e195-4391-9006-1eb4cf386f88
 title: DocumentURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cb4d1572417ac85e14c25c238be1d49611ba858
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 2e6b417522a591ab748be0c9c163f1d85ae89502d3cea20c26a977881c14f9b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092089"
 ---
 # <a name="documenturi"></a>DocumentURI
 
@@ -51,7 +51,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                            | Type de données         | Unité | Valeurs prises en charge | Résumé |
+| Nom                            | Type de données         | Unité | Valeurs prises en charge | Récapitulatif |
 |---------------------------------|-------------------|------|------------------|---------|
 | \_DocumentURIValue\_<br/> | string<br/> |      |                  |         |
 

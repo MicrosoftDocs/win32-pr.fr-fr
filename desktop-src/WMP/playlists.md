@@ -16,12 +16,12 @@ keywords:
 - Guide de migration, sélections
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bccdd98789de6c8d4faa06882376967298646febabd790067710dc4f460ba65b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0933a5525d2085185ddf151da3c4765040305a22
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883225"
 ---
 # <a name="playlists"></a>Sélections
 
@@ -179,7 +179,7 @@ return false;
 
 
 
-Windows Les fichiers multimédias peuvent contenir des éléments de paramètres personnalisés que vous spécifiez à l’aide de la **<PARAM>** balise. Lorsque vous utilisez le modèle d’objet version 6,4, vous pouvez récupérer le nom d’un paramètre particulier avec *Player6*. Méthode **GetMediaParameterName** . l’exemple de JScript suivant récupère le nom du premier paramètre de la première entrée d’une sélection. asx :
+Windows Les fichiers multimédias peuvent contenir des éléments de paramètres personnalisés que vous spécifiez à l’aide de la balise **&lt; param &gt;** . Lorsque vous utilisez le modèle d’objet version 6,4, vous pouvez récupérer le nom d’un paramètre particulier avec *Player6*. Méthode **GetMediaParameterName** . l’exemple de JScript suivant récupère le nom du premier paramètre de la première entrée d’une sélection. asx :
 
 
 ```C++

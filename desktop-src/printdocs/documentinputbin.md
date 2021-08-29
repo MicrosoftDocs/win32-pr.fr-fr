@@ -4,12 +4,12 @@ ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: DocumentInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 452e2f94b3e75a2b0555610db26d69e2a2f7548b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c7b45f27138a0110a01c9a7af2f0315d705e9464a56c9ffb18c11f6016409d6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732847"
 ---
 # <a name="documentinputbin"></a>DocumentInputBin
 
@@ -31,7 +31,7 @@ Décrit le bac d’entrée installé dans un appareil ou la liste complète des 
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                             |
 | Préfixe d’étendue <br/> | Document<br/>                                                                                                            |
-| Notes <br/>          | Les emplacements pris en charge qui ne sont pas installés actuellement doivent être signalés comme étant limités dans le document PrintCapabilities.<br/> |
+| Remarques <br/>          | Les emplacements pris en charge qui ne sont pas installés actuellement doivent être signalés comme étant limités dans le document PrintCapabilities.<br/> |
 
 
 

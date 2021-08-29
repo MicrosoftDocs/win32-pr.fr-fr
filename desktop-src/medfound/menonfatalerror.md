@@ -4,12 +4,12 @@ ms.assetid: 04afcca5-34d9-4c99-86bc-b37c19232ec1
 title: Événement MENonFatalError (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6af26a87b99e9c2ef649684c4ede53e707e7084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cce62dd48ad9e8fdcbfbbce4b5eb1d29af780508cdf66ac857d05237f1294a6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061884"
 ---
 # <a name="menonfatalerror-event"></a>Événement MENonFatalError
 
@@ -31,7 +31,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 Aucun attribut n’est défini pour cet événement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement signale une erreur inattendue mais récupérable pendant la diffusion en continu. Par exemple, une source de média peut envoyer cet événement si elle supprime un paquet.
 
@@ -39,14 +39,14 @@ N’envoyez pas cet événement pour signaler qu’une méthode asynchrone a éc
 
 Si une erreur de diffusion en continu non récupérable se produit, envoyez l’événement [MEError](meerror.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ed15254ac509334c802ba4c6165c73e681a2c7b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 006dc57aefdec374a85167580280b171d852172bf45bf979b76948a5014f1c24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070179"
 ---
 # <a name="image_v0_load-class"></a>Classe de charge d’image \_ v0 \_
 

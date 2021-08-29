@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6ae53d0a1dcf3f67a43dab7959bb42619ace6b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da6f8e9f85dcc865bb9a0733b7a1160582772754b5a2cabd1aa7b80452e6f42c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118881781"
 ---
 # <a name="systemmonitormonitorduplicateinstances-property"></a>SystemMonitor. MonitorDuplicateInstances, propriété
 
@@ -42,7 +42,7 @@ Property MonitorDuplicateInstances As Boolean
 
 True indique que plusieurs instances d’un compteur peuvent être surveillées (true est la valeur par défaut). La valeur false indique qu’une seule instance d’un compteur peut être surveillée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le moniteur système ajoute \# n à chaque nom d’instance, sauf le premier, si plusieurs instances existent. Le numéro de série, n, commence par un et est incrémenté d’une unité pour chaque nouvelle instance. Par exemple, si vous spécifiez « \\ Process ( \* ) \\ % Processor Time », la collection de compteurs doit contenir plusieurs instances de svchost. La première occurrence est svchost, l’occurrence suivante est svchost \# 1, et ainsi de suite.
 

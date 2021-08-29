@@ -3,7 +3,7 @@ title: Exploration d’un appareil
 description: Exploration d’un appareil
 ms.assetid: 8b171b8a-00b7-4873-a4f7-1a0f29ad5cc0
 keywords:
-- Windows Media Gestionnaire de périphériques, exploration des appareils
+- Windows Gestionnaire de périphériques multimédia, exploration des appareils
 - Gestionnaire de périphériques, exploration des appareils
 - Guide de programmation, exploration des appareils
 - applications de bureau, exploration des appareils
@@ -12,12 +12,12 @@ keywords:
 - stockages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc154960a4c95efbdf2626271ba90000df99ae8d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6cfdefbf5d71563cae2bb5b78383cfe0582e0af04e447e78166d0e80fda536d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957579"
 ---
 # <a name="exploring-a-device"></a>Exploration d’un appareil
 
@@ -33,9 +33,9 @@ Les étapes suivantes décrivent comment explorer un appareil :
 Windows Media Gestionnaire de périphériques n’expose pas un ensemble standard de dossiers pour stocker les éléments multimédias d’un type spécifique (par exemple, un dossier « Mes playlists » pour les playlists). Chaque appareil possède un système de fichiers unique, et vous devez choisir un emplacement approprié pour rechercher ou envoyer un fichier spécifique.
 
 > [!Note]  
-> L’Explorateur Windows peut afficher des dossiers virtuels qui n’existent pas réellement sur l’appareil. Les dossiers virtuels sont, par exemple, les dossiers « Media » et « Data » affichés pour les appareils MTP. Ces dossiers sont créés par Windows pour simplifier les téléchargements pour les utilisateurs finaux. ils n’existent pas réellement sur l’appareil. Votre application ne doit pas dépendre de la recherche de ces types de dossiers généraux. À l’inverse, l’Explorateur Windows peut ne pas afficher certains dossiers ou objets qui existent sur l’appareil (par exemple, les sélections).
+> Windows L’Explorateur peut afficher les dossiers virtuels qui n’existent pas réellement sur l’appareil. Les dossiers virtuels sont, par exemple, les dossiers « Media » et « Data » affichés pour les appareils MTP. ces dossiers sont créés par Windows pour simplifier les téléchargements pour les utilisateurs finaux. ils n’existent pas réellement sur l’appareil. Votre application ne doit pas dépendre de la recherche de ces types de dossiers généraux. à l’inverse, Windows Explorer peut ne pas afficher certains dossiers ou objets qui existent sur l’appareil (par exemple, les sélections).
 
- 
+ 
 
 L’exemple de code C++ suivant illustre l’exploration récursive d’un appareil. Il utilise deux fonctions :
 
@@ -97,12 +97,12 @@ void RecursiveExploreStorage(IWMDMEnumStorage* pEnumStorage)
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Attribut Country-Code
-description: Spécifie le code de pays/région pour la langue choisie par l’utilisateur. Cette valeur n’est pas utilisée par Windows 2000.
+description: Spécifie le code de pays/région pour la langue choisie par l’utilisateur. cette valeur n’est pas utilisée par Windows 2000.
 ms.assetid: 7011cb76-aa86-4203-bcc4-0136bb11c403
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9523a5aab21e81c2b0a5479def8ed8923751daed
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7843a2724043e504538ad6388e92dfc205463e76e082c266b5ee1f4f095207ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106543639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961778"
 ---
 # <a name="country-code-attribute"></a>Attribut Country-Code
 
-Spécifie le code de pays/région pour la langue choisie par l’utilisateur. Cette valeur n’est pas utilisée par Windows 2000.
+Spécifie le code de pays/région pour la langue choisie par l’utilisateur. cette valeur n’est pas utilisée par Windows 2000.
 
 
 
@@ -36,7 +36,7 @@ Spécifie le code de pays/région pour la langue choisie par l’utilisateur. Ce
 | Fréquence des mises à jour  | Lorsque le pays ou la région de l’utilisateur change. |
 | Attribute-Id      | 1.2.840.113556.1.4.25                   |
 | System-ID-GUID    | 5fd42471-1262-11d0-a060-00aa006c33ed    |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)    |
+| Syntaxe            | [**Énumération**](s-enumeration.md)    |
 
 
 
@@ -46,7 +46,7 @@ Spécifie le code de pays/région pour la langue choisie par l’utilisateur. Ce
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -29,12 +29,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cabf1cf7ff98b698624285b2877412c4323259b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e82a515f556c7193ef376972c5a8786dd0aaaafd7bcec3a56bf43244ea72a739
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868129"
 ---
 # <a name="win32_rdmsjoinednode-class"></a>\_Classe RDMSJoinedNode Win32
 
@@ -79,7 +79,7 @@ La classe **Win32 \_ RDMSJoinedNode** possède ces méthodes.
 
 | Méthode                                                                | Description                                                                                                                                                                                           |
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetJoinedNodeCount**](win32-rdmsjoinednode-getjoinednodecount.md) | **Windows server 2012 R2 et Windows server 2012 :** Cette méthode n’est pas disponible avant Windows Server 2016.<br/> Obtient le nombre de serveurs sur lesquels le rôle spécifié est installé.<br/> |
+| [**GetJoinedNodeCount**](win32-rdmsjoinednode-getjoinednodecount.md) | **Windows Server 2012 R2 et Windows Server 2012 :** Cette méthode n’est pas disponible avant Windows Server 2016.<br/> Obtient le nombre de serveurs sur lesquels le rôle spécifié est installé.<br/> |
 | [**Joindre**](join-win32-rdmsjoinednode.md)                             | Ajoute un nœud à RDMS.<br/>                                                                                                                                                                       |
 | [**Disjoindre**](unjoin-win32-rdmsjoinednode.md)                         | Supprime un nœud de RDMS.<br/>                                                                                                                                                                  |
 

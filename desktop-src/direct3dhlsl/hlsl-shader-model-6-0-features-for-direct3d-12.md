@@ -4,12 +4,12 @@ description: Décrit les fonctions intrinsèques de l’opération Wave ajoutée
 ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f0f06050c4c387b8e50c1c0cfb39dc5689d45d0e31bd7df5a81f45c63815a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 494dbb4fd3008bbb3b5441fbc4867f5009c8d3df
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118986539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886105"
 ---
 # <a name="hlsl-shader-model-60"></a>Modèle de nuanceur HLSL 6.0
 
@@ -35,7 +35,7 @@ Les cas d’utilisation potentiels incluent : compactage de flux, réductions, 
 
 La plupart des intrinsèques apparaissent dans les nuanceurs de pixels et les nuanceurs de calcul, bien qu’il existe certaines exceptions (notées pour chaque fonction). Les fonctions ont été ajoutées à la configuration requise pour le niveau de fonctionnalité DirectX 12,0, sous l’API de niveau 12.
 
-Le *<type>* paramètre et la valeur de retour de ces fonctions impliquent le type de l’expression, les types pris en charge sont ceux de la liste suivante qui sont *également* présents dans le modèle de nuanceur cible pour votre application :
+Le paramètre de *&lt; &gt; type* et la valeur de retour de ces fonctions impliquent le type de l’expression, les types pris en charge sont ceux de la liste suivante qui sont *également* présents dans le modèle de nuanceur cible pour votre application :
 
 - Half, Half2, half3, half4
 - float, float2, float3, float4

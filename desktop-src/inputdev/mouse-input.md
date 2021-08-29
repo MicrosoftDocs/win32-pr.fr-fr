@@ -8,12 +8,12 @@ keywords:
 - entrées de la souris
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cc21c9c02a91330483c7b65f7be076bb82e171
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 91818758d6baa4aff22f5724d9e1778339314b8f13f1ffec30e27f75648e0337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466449"
 ---
 # <a name="mouse-input-keyboard-and-mouse-input"></a>Entrée de la souris (entrée clavier et souris)
 

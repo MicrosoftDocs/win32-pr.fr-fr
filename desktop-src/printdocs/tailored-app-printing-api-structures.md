@@ -4,12 +4,12 @@ ms.assetid: B9E4F9DB-C92E-49B9-999C-AB0AC5841F3B
 title: Imprimer des structures d’API de package de document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7604187749087765c7e190be1a4711cb9be03c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f27cb6774b84723f399bf59726819ed05420626576ebfd8973b748ab7b631c32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469616"
 ---
 # <a name="print-document-package-api-structures"></a>Imprimer des structures d’API de package de document
 

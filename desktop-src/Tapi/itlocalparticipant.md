@@ -4,12 +4,12 @@ ms.assetid: 64965ae2-e30b-4353-a502-f96018da71a5
 title: Interface ITLocalParticipant (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4017837a0b970cb791cdf454437fe2d48720028
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f56448bae9b1f2e93afa901401bc48f46a93a0435c2f67dbea96b2cb7b72399d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060957"
 ---
 # <a name="itlocalparticipant-interface"></a>Interface ITLocalParticipant
 

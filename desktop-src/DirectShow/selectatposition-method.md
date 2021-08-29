@@ -4,17 +4,17 @@ ms.assetid: 005ec550-e04c-4dae-aa5d-d79afefe48ed
 title: Méthode SelectAtPosition
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97bc9feaa4855baac75fca0e776a26a6975b235a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e83cd45bc0d0a532531658a7cd55b6b1fa9a450726f1a00cf358c2db44b3e5f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072653"
 ---
 # <a name="selectatposition-method"></a>Méthode SelectAtPosition
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -46,7 +46,7 @@ Spécifie la coordonnée y sous la forme d’un entier.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode lors de l’implémentation de la gestion de souris personnalisée après avoir défini [**DisableAutoMouseProcessing**](disableautomouseprocessing-property.md) sur **true**.
 

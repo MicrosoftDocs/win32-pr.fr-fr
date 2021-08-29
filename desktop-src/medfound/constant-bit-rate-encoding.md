@@ -4,12 +4,12 @@ ms.assetid: 0f084f3f-7432-4514-ae6a-c8179a99dec7
 title: Encodage à vitesse binaire constante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bea372a12d03a962f08e449bd707654391a2313b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5318cbf6d1a0b9c635fcd8313589581839fe74c7402411d59a1b5dfbdb55739d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974828"
 ---
 # <a name="constant-bit-rate-encoding"></a>Encodage à vitesse binaire constante
 
@@ -21,10 +21,10 @@ L’inconvénient de l’encodage CBR est que la qualité du contenu encodé n�
 
 En général, les variations de la qualité d’un fichier CBR sont plus prononcées à des vitesses de transmission inférieures. À des vitesses de transmission supérieures, la qualité d’un fichier encodé CBR continuera à varier, mais les problèmes de qualité seront moins perceptibles pour l’utilisateur. Lorsque vous utilisez l’encodage CBR, vous devez définir la bande passante aussi élevée que possible.
 
--   [Paramètres de configuration CBR](#cbr-configuration-settings)
--   [Paramètres de compartiment avec fuite](#leaky-bucket-settings)
+-   [Paramètres de Configuration CBR](#cbr-configuration-settings)
+-   [Paramètres de compartiment avec fuites](#leaky-bucket-settings)
 
-### <a name="cbr-configuration-settings"></a>Paramètres de configuration CBR
+### <a name="cbr-configuration-settings"></a>Paramètres de Configuration CBR
 
 Vous devez configurer un encodeur en spécifiant le type d’encodage et les différents paramètres spécifiques au flux avant la session d’encodage.
 
@@ -173,7 +173,7 @@ done:
 
 
 
-### <a name="leaky-bucket-settings"></a>Paramètres de compartiment avec fuite
+### <a name="leaky-bucket-settings"></a>Paramètres de compartiment avec fuites
 
 Pour l’encodage CBR, la moyenne et les valeurs maximales de compartiment avec fuites pour le flux sont identiques. Pour plus d’informations sur ces paramètres, consultez [le modèle de tampon de compartiment avec fuite](the-leaky-bucket-buffer-model.md).
 
@@ -192,7 +192,7 @@ Pour définir des valeurs de compartiment fuites, créez un tableau de DWORDs. v
 [Types d’encodage ASF](asf-encoding-types.md)
 </dt> <dt>
 
-[Didacticiel : 1-passer l’encodage Windows Media](tutorial--1-pass-windows-media-encoding.md)
+[didacticiel : encodage de média de Windows Pass](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [Didacticiel : écriture d’un fichier WMA à l’aide de l’encodage CBR](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

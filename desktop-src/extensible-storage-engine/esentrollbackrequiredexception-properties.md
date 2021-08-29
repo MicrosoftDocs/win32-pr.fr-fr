@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102666
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 27f93bed8267b2d42f563b77a1a29a30c3f9e971
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f79996ae11b144b011c9a6a646aea6b00f68c36ab4a6a02733e3cd425a875971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981899"
 ---
 # <a name="esentrollbackrequiredexception-properties"></a>Propriétés EsentRollbackRequiredException
 
@@ -49,7 +49,7 @@ Le type [EsentRollbackRequiredException](./esentrollbackrequiredexception-class.
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
