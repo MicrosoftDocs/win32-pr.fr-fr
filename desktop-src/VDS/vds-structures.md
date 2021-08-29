@@ -4,16 +4,16 @@ ms.assetid: 6a13f5eb-0fa1-48e2-a112-b2254ca28423
 title: Structures VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8402765490a1ce44a19addce9356bbb023bb987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dcf84203ece8ded8051b59f340816e945516436b6a887fff5820b7a521d08c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905529"
 ---
 # <a name="vds-structures"></a>Structures VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 VDS fournit des structures qui définissent des propriétés d’objet, des notifications et d’autres entités représentées dans le [modèle d’objet VDS](vds-object-model.md).
 

@@ -3,7 +3,7 @@ title: MINIMIZEBUTTON
 description: Il s’agit d’un bouton prédéfini avec les valeurs par défaut suivantes. | MINIMIZEBUTTON
 ms.assetid: 4a4054d0-1879-4fa4-b925-341ea1111774
 keywords:
-- Lecteur Windows Media MINIMIZEBUTTON
+- MINIMIZEBUTTON Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 312d82494011207c8f424a90bf596f8c23bdd661
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57556ccba8c09e1027ba10aefea9c8642dad579d82147b48012db3a017410c2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901799"
 ---
 # <a name="minimizebutton"></a>MINIMIZEBUTTON
 
@@ -29,7 +29,7 @@ onclick="jscript:view.minimize();"
 upToolTip="Minimize"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela permet de créer un contrôle **bouton** qui réduira le joueur. Les info-bulles sont localisées. Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 

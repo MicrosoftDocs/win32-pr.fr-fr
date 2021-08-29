@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475861(v=EXCHG.10)
 ms:contentKeyID: 37033567
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: c02d9f8081040293bd154137163e13cc9d313a32
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 7652bf39f620322d1c5ebc4b806438d182fd7c64
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984032"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477165"
 ---
 # <a name="jet_errinfobasic_w-structure"></a>Structure JET_ERRINFOBASIC_W
 
@@ -65,9 +65,5 @@ Réservé.
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows 8 Server.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| | | <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows 8 Server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 

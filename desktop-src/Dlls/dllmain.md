@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: ee182fd54f11909e54e98f827904f1da5e46f557
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe6ab6fbd4e801385e75846ac71e2e9bee57e91b9fd4e0218da5fb3d4e6aa2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902669"
 ---
 # <a name="dllmain-entry-point"></a>Point d’entrée DllMain
 
@@ -60,7 +60,7 @@ Il s’agit d’un exemple de la [bibliothèque de liens dynamiques Entry-Point 
 
 
 > [!WARNING]
-> Il existe des limites significatives sur ce que vous pouvez faire en toute sécurité dans un point d’entrée de DLL. Consultez les [meilleures pratiques générales](dynamic-link-library-best-practices.md) pour des API Windows spécifiques qui ne peuvent pas être appelées dans DllMain. Si vous n’avez besoin que de l’initialisation la plus simple, faites-le dans une fonction d’initialisation pour la DLL. Vous pouvez demander aux applications d’appeler la fonction d’initialisation après l’exécution de DllMain et avant d’appeler d’autres fonctions dans la DLL.
+> Il existe des limites significatives sur ce que vous pouvez faire en toute sécurité dans un point d’entrée de DLL. consultez les [meilleures pratiques générales](dynamic-link-library-best-practices.md) pour des api Windows spécifiques qui ne peuvent pas être appelées dans DllMain. Si vous n’avez besoin que de l’initialisation la plus simple, faites-le dans une fonction d’initialisation pour la DLL. Vous pouvez demander aux applications d’appeler la fonction d’initialisation après l’exécution de DllMain et avant d’appeler d’autres fonctions dans la DLL.
 
  
 
@@ -123,7 +123,7 @@ Lorsque le système appelle la fonction **DllMain** avec la valeur d' **\_ \_ at
 
 Lorsque le système appelle la fonction **DllMain** avec une valeur autre que le **processus d' \_ \_ attachement de dll**, la valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **DllMain** est un espace réservé pour le nom de la fonction définie par la bibliothèque. Vous devez spécifier le nom réel que vous utilisez lorsque vous générez votre DLL. Pour plus d’informations, consultez la documentation fournie avec vos outils de développement.
 
@@ -163,8 +163,8 @@ Envisagez d’appeler [**DisableThreadLibraryCalls**](/windows/win32/api/libload
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Process. h</dt> </dl> |
 
 

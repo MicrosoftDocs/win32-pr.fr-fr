@@ -4,12 +4,12 @@ description: Synchronisation des rappels
 ms.assetid: e8268f18-49e7-4e09-9006-77858b734bf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c274c35a6df176f65c505f2a3fecc9a53a20e5d9
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4f85f388a81b6568db502b4f9843cc7fb9135bfaa9f3529a301993aeac87c43c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106511714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859639"
 ---
 # <a name="callback-synchronization"></a>Synchronisation des rappels
 
@@ -24,6 +24,6 @@ La spécification du moniker asynchrone requiert un contrôle plus précis de la
 [Monikers d’URL](url-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

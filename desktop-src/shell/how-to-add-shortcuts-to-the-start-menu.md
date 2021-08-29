@@ -4,12 +4,12 @@ ms.assetid: F8793C33-2281-4E4A-9659-4189E1C8279A
 title: Comment ajouter des raccourcis au menu Démarrer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77ee942e07c48ed7addf07160412008bfb5b9322
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8c31f8180f4bd0d3b8aa8252d7c3f1fedc4238bb5320f8179f3a4fd4b497b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969428"
 ---
 # <a name="how-to-add-shortcuts-to-the-start-menu"></a>Comment ajouter des raccourcis au menu Démarrer
 

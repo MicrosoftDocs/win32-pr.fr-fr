@@ -3,7 +3,7 @@ title: PLAYLIST. setSelectedState
 description: La méthode setSelectedState spécifie que l’élément indexé dans la sélection est sélectionné.
 ms.assetid: 61770053-733f-40b5-8b1f-92b6975d3ad3
 keywords:
-- Lecteur Windows Media PLAYLIST. setSelectedState
+- PLAYLIST. setSelectedState Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 09a7bb545330710ae4fe2c39eae4556207061203
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ba35f2030f4b2fb6e9acfde1a8310e6c9f1dac98b8ba8aa65d56cce206c8e00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862239"
 ---
 # <a name="playlistsetselectedstate"></a>PLAYLIST. setSelectedState
 
@@ -43,7 +43,7 @@ La méthode **setSelectedState** spécifie que l’élément indexé dans la sé
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez définir tous les éléments à l’état sélectionné en spécifiant 1 dans le paramètre *Item* .
 

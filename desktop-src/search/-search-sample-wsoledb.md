@@ -1,23 +1,23 @@
 ---
-description: L’exemple de code WSOleDB montre Active Template Library (ATL) OLE DB l’accès aux applications Windows Search et illustre deux méthodes supplémentaires pour récupérer les résultats de la recherche Windows.
+description: l’exemple de code WSOleDB montre Active Template Library (ATL) OLE DB l’accès aux applications de recherche Windows et illustre deux méthodes supplémentaires pour récupérer les résultats de Windows recherche.
 ms.assetid: c81bf3af-e023-4384-8c89-0fa9c8f08773
 title: WSOleDB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6cecfc308fdfa9af796e64ab8bc6273f9c4d94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17000de683fc9f5171bc556c607c7c068cabb4b3e88693407e1381565fb6b242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969618"
 ---
 # <a name="wsoledb"></a>WSOleDB
 
-L’exemple de code WSOleDB montre Active Template Library (ATL) OLE DB l’accès aux applications Windows Search et illustre deux méthodes supplémentaires pour récupérer les résultats de la recherche Windows.
+l’exemple de code WSOleDB montre Active Template Library (ATL) OLE DB l’accès aux applications de recherche Windows et illustre deux méthodes supplémentaires pour récupérer les résultats de Windows recherche.
 
 Cette rubrique contient les sections suivantes.
 
-- [Configuration requise](#requirements)
+- [Requirements](#requirements)
 - [Téléchargement de l’exemple](#downloading-the-sample)
 - [Génération de l'exemple](#building-the-sample)
 - [Exécution de l’exemple](#running-the-sample)
@@ -39,22 +39,22 @@ Cet exemple est disponible à l’emplacement suivant.
 | GitHub        | [Exemple WSOleDB](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/WSOleDB)         |
 
 > [!NOTE]  
-> Pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
+> pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
-1. Ouvrez l’Explorateur Windows et accédez au répertoire du projet **WSOleDB** .
+1. ouvrez Windows Explorer et accédez au répertoire du projet **WSOleDB** .
 2. Double-cliquez sur l’icône du fichier WSOleDB. sln pour ouvrir le projet dans Visual Studio.
   
     > [!NOTE]  
-    > Le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version plus récente. Cela n’aura pas d’impact sur le comportement de l’exemple.
+    > le fichier sln a été créé sous une version antérieure de Visual Studio. par conséquent, la mise à niveau est requise si vous exécutez Visual Studio 2012 ou une version ultérieure. Cela n’aura pas d’impact sur le comportement de l’exemple.
 
-3. Dans le menu **générer** , sélectionnez **générer la solution**.
+3. Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1. Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de l’Explorateur Windows.
-2. À l’invite de commandes, entrez `WSOleDB.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de WSOleDB.exe.
+1. accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de Windows Explorer.
+2. à l’invite de commandes, entrez `WSOleDB.exe` ou dans Windows Explorer, double-cliquez sur l’icône de WSOleDB.exe.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

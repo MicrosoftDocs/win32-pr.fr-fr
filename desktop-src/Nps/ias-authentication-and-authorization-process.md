@@ -5,19 +5,19 @@ ms.assetid: 6d738ad7-cce5-4835-97d6-c57173c79a16
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc96fab078a982f23f5f5dd86d51dbed46d5541
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fab05c60ea2ea566f5da76a1c9a3ec9f842641fc19797e85bd51186bc085575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889489"
 ---
 # <a name="invoking-the-extension-dlls"></a>Appel des dll d’extension
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 Les dll d’extension NPS doivent exporter au moins l’une des fonctions de rappel suivantes : [*RadiusExtensionProcess*](/windows/desktop/api/authif/nc-authif-pradius_extension_process), [*RadiusExtensionProcessEx*](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex)ou [*RadiusExtensionProcess2*](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2). NPS appelle ces fonctions pour chaque paquet d’authentification ou de gestion des comptes valide qu’il reçoit du serveur d’accès au réseau (NAS). Le serveur NPS appelle ces fonctions dans chacune des dll listées sous la [clé de registre des paramètres](/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls)du serveur NPS. Les dll sont appelées dans l’ordre dans lequel elles sont répertoriées.
 
@@ -26,7 +26,7 @@ Si une DLL d’extension NPS exporte plusieurs des fonctions ci-dessus, le serve
 > [!Note]  
 > IAS a initialement pris en charge uniquement [*RadiusExtensionProcess*](/windows/desktop/api/authif/nc-authif-pradius_extension_process). IAS prend également en charge [*RadiusExtensionProcessEx*](/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex). IAS (et les versions ultérieures de NPS) prend également en charge [*RadiusExtensionProcess2*](/windows/desktop/api/authif/nc-authif-pradius_extension_process_2).
 
- 
+ 
 
 Les dll d’extension NPS peuvent également exporter les fonctions [**RadiusExtensionInit**](/windows/desktop/api/authif/nc-authif-pradius_extension_init) et [**RadiusExtensionTerm**](/windows/desktop/api/authif/nc-authif-pradius_extension_term) . S’ils sont présents, le serveur NPS appelle ces fonctions lorsque le service démarre et s’arrête, respectivement.
 
@@ -48,7 +48,7 @@ Après l’appel de **RadiusExtensionProcess**, l’action effectuée par le ser
 
 
 
- 
+ 
 
 Pour toutes les dll d’extension, si **RadiusExtensionProcess** retourne une erreur, le paquet est ignoré. Les paquets ignorés en raison d’une erreur ne sont pas traités par le journal de gestion des comptes NPS.
 
@@ -63,15 +63,15 @@ Lors du traitement d’un paquet de comptabilité, le paramètre *pfAction* est 
 > [!Note]  
 > Après avoir reçu une acceptation, NPS n’appelle pas **RadiusExtensionProcess** dans les autres dll de la séquence. Étant donné que certaines fonctions d’authentification peuvent également implémenter des autorisations, les fonctions d’authentification ignorées peuvent entraîner l’omission des autorisations. Si une instance de [**RadiusExtensionProcess**](/windows/desktop/api/authif/nc-authif-pradius_extension_process) retourne Accept, il est important de ne pas faire d’hypothèses sur les autorisations récupérées.
 
- 
+ 
 
 Si la valeur continue ou Accept est retournée, le profil correspondant au domaine est renvoyé dans le paquet Access-Accept.
 
-Les dll d’extension d’authentification doivent être conçues pour coexister avec les fournisseurs d’authentification NPS intégrés et avec d’autres DLL d’extension. Si une extension s’applique uniquement à une certaine base de données utilisateur (par exemple, Windows Active Directory), elle doit vérifier l’attribut [**ratProvider**](/windows/desktop/api/authif/ne-authif-radius_authentication_provider) transmis dans *le paramètre des* modèles, avant de traiter la demande. L’attribut ratProvider serait une liste d’attributs vers laquelle pointe *le paramètre de* modèles.
+Les dll d’extension d’authentification doivent être conçues pour coexister avec les fournisseurs d’authentification NPS intégrés et avec d’autres DLL d’extension. si une extension s’applique uniquement à une base de données utilisateur donnée (par exemple Windows Active Directory), elle doit vérifier l’attribut [**ratProvider**](/windows/desktop/api/authif/ne-authif-radius_authentication_provider) passé dans *le paramètre de* modèles, avant de traiter la demande. L’attribut ratProvider serait une liste d’attributs vers laquelle pointe *le paramètre de* modèles.
 
 Les dll d’extension ne doivent pas rejeter les demandes, car les attributs requis sont manquants. Par exemple, si une extension d’authentification requiert l’attribut User-Password, ratUserPassword et que l’attribut n’est pas présent, l’extension doit retourner une action de raContinue pour permettre à d’autres extensions et fournisseurs de traiter la demande.
 
-Le serveur NPS appelle la fonction [**RadiusExtensionProcess**](/windows/desktop/api/authif/nc-authif-pradius_extension_process) après avoir décidé d’utiliser une base de données d’authentification particulière, mais avant que l’utilisateur soit authentifié. Par conséquent, les informations relatives à la base de données d’authentification à utiliser sont disponibles pour la fonction, afin que la fonction puisse vérifier les autorisations de l’utilisateur dans la base de données d’authentification appropriée. NPS prend en charge différentes bases de données d’authentification, y compris Windows Active Directory.
+Le serveur NPS appelle la fonction [**RadiusExtensionProcess**](/windows/desktop/api/authif/nc-authif-pradius_extension_process) après avoir décidé d’utiliser une base de données d’authentification particulière, mais avant que l’utilisateur soit authentifié. Par conséquent, les informations relatives à la base de données d’authentification à utiliser sont disponibles pour la fonction, afin que la fonction puisse vérifier les autorisations de l’utilisateur dans la base de données d’authentification appropriée. NPS prend en charge différentes bases de données d’authentification, y compris les Windows Active Directory.
 
 ## <a name="radiusextensionprocessex-callback-function"></a>RadiusExtensionProcessEx fonction de rappel
 
@@ -103,6 +103,6 @@ Les informations décrites dans la section *fonction de rappel RadiusExtensionPr
 [Attributs d’identification utilisateur](/windows/desktop/Nps/ias-user-identification-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

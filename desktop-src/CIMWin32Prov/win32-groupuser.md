@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 79035ff3c56331a240704cf6605fdf72efa4e81c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b71b3d183833ff822b40ff8e44e322b1d0e75880481d2e1f2d0f5825c002b24f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878649"
 ---
 # <a name="win32_groupuser-class"></a>\_Classe GroupUser Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant l’utilisateur ou le compte système 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ GroupUser** est dérivée [**du \_ composant CIM**](cim-component.md).
 

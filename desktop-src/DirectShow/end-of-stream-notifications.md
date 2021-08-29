@@ -4,16 +4,16 @@ ms.assetid: cf2b13bc-5b54-4ac7-8a33-7434126fdf31
 title: Notifications de fin de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53fcdfef1225aa5b93b56aeaa0d8ae9d0a8550c9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2b83552d1c03bbb90062c2eec672ac122a2cbdc498f58d01817bd1a26e8f02b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997849"
 ---
 # <a name="end-of-stream-notifications"></a>Notifications de fin de flux
 
-Lorsqu’un filtre source a terminé l’envoi de données, il appelle la méthode [**IPIN :: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) sur la broche d’entrée en aval. Le filtre en aval propage l’appel au filtre suivant, et ainsi de suite. Lorsque l’appel **EndOfStream** atteint le convertisseur, le convertisseur envoie un événement [**EC \_ complet**](ec-complete.md) au gestionnaire du graphique de filtres. Si le convertisseur a plusieurs broches d’entrée, il remet l' \_ événement EC complet après chaque broche d’entrée a reçu la notification de fin de flux.
+Lorsqu’un filtre source a terminé l’envoi de données, il appelle la méthode [**IPIN :: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) sur la broche d’entrée en aval. Le filtre en aval propage l’appel au filtre suivant, et ainsi de suite. lorsque l’appel **EndOfStream** atteint le convertisseur, le convertisseur envoie un événement [**EC \_ complet**](ec-complete.md) à Filter Graph Manager. Si le convertisseur a plusieurs broches d’entrée, il remet l' \_ événement EC complet après chaque broche d’entrée a reçu la notification de fin de flux.
 
 Un filtre doit sérialiser les appels [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) avec d’autres appels de streaming, tels que [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive). (En d’autres termes, le filtre en aval doit toujours recevoir les appels dans le bon ordre.)
 
@@ -21,9 +21,9 @@ Dans certains cas, un filtre en aval peut détecter la fin du flux avant que le 
 
 ### <a name="default-handling-of-ec_complete"></a>Gestion par défaut de l’EC \_ Complete
 
-Par défaut, le gestionnaire de graphes de filtre ne transfère pas tous \_ les événements EC complet à l’application. Au lieu de cela, il attend que tous les flux aient des signaux EC \_ complets, puis envoie un seul \_ événement EC Complete. Ainsi, l’application reçoit l’événement une fois que chaque flux est terminé.
+par défaut, le gestionnaire de Graph de filtre ne transfère pas tous \_ les événements EC complet à l’application. Au lieu de cela, il attend que tous les flux aient des signaux EC \_ complets, puis envoie un seul \_ événement EC Complete. Ainsi, l’application reçoit l’événement une fois que chaque flux est terminé.
 
-Pour déterminer le nombre de flux, le gestionnaire de graphique de filtre compte le nombre de filtres qui prennent en charge la recherche (via [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) ou [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition)) et ont une broche d’entrée *rendue* , qui est définie comme une broche d’entrée sans sortie correspondante. Le gestionnaire de graphes de filtre détermine si un code confidentiel est rendu de l’une des deux façons suivantes :
+pour déterminer le nombre de flux, le gestionnaire de Graph de filtre compte le nombre de filtres qui prennent en charge la recherche (via [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) ou [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition)) et ont une broche d’entrée *rendue* , qui est définie comme une broche d’entrée sans sortie correspondante. le gestionnaire de Graph de filtre détermine si un code confidentiel est rendu de l’une des deux façons suivantes :
 
 -   La méthode [**IPIN :: QueryInternalConnections**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryinternalconnections) du pin retourne zéro dans le paramètre *nPin* .
 -   Le filtre expose l’interface [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags) et retourne l' \_ indicateur de \_ convertisseur des indicateurs divers du filtre AM \_ \_ \_ .

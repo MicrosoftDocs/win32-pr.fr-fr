@@ -4,12 +4,12 @@ ms.assetid: 19109f92-b9da-4df7-8628-374e37a3f624
 title: Outil et exemple VShadow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 306d759d10875b03cb0d2e4e2064a85614400ff5240800da3fc4c1ce94add8c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9043c01d68983d14a0a65f93b993bca3cfe61fcb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118998069"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477313"
 ---
 # <a name="vshadow-tool-and-sample"></a>Outil et exemple VShadow
 
@@ -49,151 +49,29 @@ Cette commande crée un jeu de clichés instantanés.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur d’indicateur facultative</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-ad"></span><span id="-AD"></span><strong>-ad</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés matériels différentiels. Cet indicateur et l’indicateur <strong>-AP</strong> s’excluent mutuellement.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-ap"></span><span id="-AP"></span><strong>-AP</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés matériels du Plex. Cet indicateur et l’indicateur <strong>-ad</strong> s’excluent mutuellement.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong> <strong>-bc =.xmlde</strong><em>fichiers</em> <strong> </strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés non transportables et stocke le document des composants de sauvegarde dans le fichier spécifié. Ce fichier peut être utilisé dans une opération de restauration ultérieure. Cet indicateur et l’indicateur <strong>-t</strong> s’excluent mutuellement.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-exec_Command"></span><span id="-exec_command"></span><span id="-EXEC_COMMAND"></span><strong>-Exec =,</strong><em>commande</em><br/></td>
-<td>Cet indicateur facultatif exécute une commande ou un script après la création des clichés instantanés, mais avant la fermeture de l’outil VShadow. La <em>commande</em> peut spécifier une commande d’interpréteur de commandes exécutable ou un fichier cmd. Si elle spécifie une commande d’interpréteur de commandes, aucun paramètre de commande ne peut être spécifié.<br/>
-<blockquote>
-[!Note]<br />
-Pour des raisons de sécurité et pour simplifier l’implémentation, l’indicateur facultatif <strong>-Exec</strong> n’acceptera pas de paramètres à passer à la commande ou au script. La chaîne entière transmise à l’indicateur facultatif <strong>-Exec</strong> est traitée comme un fichier cmd ou exe unique. Pour plus d’informations sur cette limitation, consultez le code source VShadow.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-forcerevert"></span><span id="-FORCEREVERT"></span><strong>-forcerevert</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que l’opération de cliché instantané ne doit être effectuée que si toutes les signatures de disque peuvent être restaurées.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-mask"></span><span id="-MASK"></span><strong>-Mask</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être masqués sur l’ordinateur lorsque le jeu de clichés instantanés est rompu.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-nar"></span><span id="-NAR"></span><strong>-NAR</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés sans récupération automatique. Pour plus d’informations sur cette option, consultez la documentation de l’indicateur VSS_VOLSNAP_ATTR_NO_AUTORECOVERY de l’énumération <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-Revert</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que les signatures de disque ne doivent pas être restaurées.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-nw"></span><span id="-NW"></span><strong>-NW</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés sans impliquer d’enregistreurs. Pour plus d’informations sur les clichés instantanés sans participation aux rédacteurs, consultez détails de la création de clichés <a href="shadow-copy-creation-details.md">instantanés</a>. Cet indicateur et les indicateurs <strong>-Wi</strong> et <strong>-WX</strong> s’excluent mutuellement.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-p"></span><span id="-P"></span><strong>-p</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les <a href="vssgloss-p.md"><em>clichés instantanés persistants</em></a>.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-rw"></span><span id="-RW"></span><strong>-RW</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être en lecture/écriture lorsque le jeu de clichés instantanés est rompu.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows Server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br/></td>
-<td>Cet indicateur facultatif spécifie <a href="vssgloss-c.md"><em>les clichés instantanés accessibles par le client</em></a>.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-script_File.cmd"></span><span id="-script_file.cmd"></span><span id="-SCRIPT_FILE.CMD"></span><strong>-script =</strong><em>file</em><strong>. cmd</strong><br/></td>
-<td>Cet indicateur facultatif génère un fichier CMD contenant les variables d’environnement associées aux clichés instantanés créés, comme les ID de cliché instantané et les ID de jeu de clichés instantanés.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>fichier</em> <strong>.xml</strong><br/></td>
-<td>Cet indicateur facultatif spécifie les clichés instantanés transportables et stocke le document des composants de sauvegarde dans le fichier spécifié par le paramètre <em>File.xml</em> . Ce fichier peut être utilisé dans une opération d’importation et/ou de restauration ultérieure. Cet indicateur et l’indicateur <strong>-BC</strong> s’excluent mutuellement.<br/> <strong>Windows server 2003, Édition Standard et Windows server 2003, Web Edition :</strong> Les clichés instantanés transportables ne sont pas pris en charge. toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les clichés instantanés transportables.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-tr"></span><span id="-TR"></span><strong>-TR</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que la récupération TxF doit être appliquée lors de la création de clichés instantanés.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-tracing"></span><span id="-TRACING"></span><strong>-suivi</strong><br/></td>
-<td>Cet indicateur facultatif génère une sortie détaillée qui peut être utilisée pour la résolution des problèmes.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-wait"></span><span id="-WAIT"></span><strong>-Wait</strong><br/></td>
-<td>Cet indicateur facultatif force l’outil VShadow à attendre la confirmation de l’utilisateur avant de quitter.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-wi_Writer"></span><span id="-wi_writer"></span><span id="-WI_WRITER"></span><strong>-Wi =</strong><em>enregistreur</em><br/></td>
-<td>Cet indicateur facultatif vérifie que le composant ou le writer spécifié est inclus dans le cliché instantané. L' <em>enregistreur</em> peut spécifier un chemin d’accès de composant, un nom d’enregistreur, un ID d’enregistreur ou un ID d’instance d’enregistreur. Cet indicateur et l’indicateur <strong>-NW</strong> s’excluent mutuellement.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-wx_Writer"></span><span id="-wx_writer"></span><span id="-WX_WRITER"></span><strong>-WX =</strong><em>enregistreur</em><br/></td>
-<td>Cet indicateur facultatif vérifie que le composant ou le writer spécifié est exclu du cliché instantané. L' <em>enregistreur</em> peut spécifier un chemin d’accès de composant, un nom d’enregistreur, un ID d’enregistreur ou un ID d’instance d’enregistreur. Cet indicateur et l’indicateur <strong>-NW</strong> s’excluent mutuellement.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur d’indicateur facultative | Description | 
+|---------------------|-------------|
+| <span id="-ad"></span><span id="-AD"></span><strong>-ad</strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés matériels différentiels. Cet indicateur et l’indicateur <strong>-AP</strong> s’excluent mutuellement.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="-ap"></span><span id="-AP"></span><strong>-AP</strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés matériels du Plex. Cet indicateur et l’indicateur <strong>-ad</strong> s’excluent mutuellement.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="_-bc_File.xml"></span><span id="_-bc_file.xml"></span><span id="_-BC_FILE.XML"></span><strong></strong><strong>-BC =.xmlde</strong><em>fichiers</em> <strong> </strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés non transportables et stocke le document des composants de sauvegarde dans le fichier spécifié. Ce fichier peut être utilisé dans une opération de restauration ultérieure. Cet indicateur et l’indicateur <strong>-t</strong> s’excluent mutuellement.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="-exec_Command"></span><span id="-exec_command"></span><span id="-EXEC_COMMAND"></span><strong>-Exec =,</strong><em>commande</em><br /> | Cet indicateur facultatif exécute une commande ou un script après la création des clichés instantanés, mais avant la fermeture de l’outil VShadow. La <em>commande</em> peut spécifier une commande d’interpréteur de commandes exécutable ou un fichier cmd. Si elle spécifie une commande d’interpréteur de commandes, aucun paramètre de commande ne peut être spécifié.<br /><blockquote>[!Note]<br />Pour des raisons de sécurité et pour simplifier l’implémentation, l’indicateur facultatif <strong>-Exec</strong> n’acceptera pas de paramètres à passer à la commande ou au script. La chaîne entière transmise à l’indicateur facultatif <strong>-Exec</strong> est traitée comme un fichier cmd ou exe unique. Pour plus d’informations sur cette limitation, consultez le code source VShadow.</blockquote><br /> | 
+| <span id="-forcerevert"></span><span id="-FORCEREVERT"></span><strong>-forcerevert</strong><br /> | Cet indicateur facultatif spécifie que l’opération de cliché instantané ne doit être effectuée que si toutes les signatures de disque peuvent être restaurées.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows Server 2003 :</strong> Non pris en charge.<br /> | 
+| <span id="-mask"></span><span id="-MASK"></span><strong>-Mask</strong><br /> | Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être masqués sur l’ordinateur lorsque le jeu de clichés instantanés est rompu.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows Server 2003 :</strong> Non pris en charge.<br /> | 
+| <span id="-nar"></span><span id="-NAR"></span><strong>-NAR</strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés sans récupération automatique. Pour plus d’informations sur cette option, consultez la documentation de l’indicateur VSS_VOLSNAP_ATTR_NO_AUTORECOVERY de l’énumération <a href="/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes"><strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong></a> .<br /> | 
+| <span id="-norevert"></span><span id="-NOREVERT"></span><strong>-Revert</strong><br /> | Cet indicateur facultatif spécifie que les signatures de disque ne doivent pas être restaurées.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows Server 2003 :</strong> Non pris en charge.<br /> | 
+| <span id="-nw"></span><span id="-NW"></span><strong>-NW</strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés sans impliquer d’enregistreurs. Pour plus d’informations sur les clichés instantanés sans participation aux rédacteurs, consultez détails de la création de clichés <a href="shadow-copy-creation-details.md">instantanés</a>. Cet indicateur et les indicateurs <strong>-Wi</strong> et <strong>-WX</strong> s’excluent mutuellement.<br /> | 
+| <span id="-p"></span><span id="-P"></span><strong>-p</strong><br /> | Cet indicateur facultatif spécifie les <a href="vssgloss-p.md"><em>clichés instantanés persistants</em></a>.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="-rw"></span><span id="-RW"></span><strong>-RW</strong><br /> | Cet indicateur facultatif spécifie que les numéros d’unités logiques des clichés instantanés doivent être en lecture/écriture lorsque le jeu de clichés instantanés est rompu.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows Server 2003 :</strong> Non pris en charge.<br /> | 
+| <span id="-scsf"></span><span id="-SCSF"></span><strong>-scsf</strong><br /> | Cet indicateur facultatif spécifie <a href="vssgloss-c.md"><em>les clichés instantanés accessibles par le client</em></a>.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="-script_File.cmd"></span><span id="-script_file.cmd"></span><span id="-SCRIPT_FILE.CMD"></span><strong>-script =</strong><em>file</em><strong>. cmd</strong><br /> | Cet indicateur facultatif génère un fichier CMD contenant les variables d’environnement associées aux clichés instantanés créés, comme les ID de cliché instantané et les ID de jeu de clichés instantanés.<br /> | 
+| <span id="-t_File.xml"></span><span id="-t_file.xml"></span><span id="-T_FILE.XML"></span><strong>-t =</strong><em>fichier</em> <strong>.xml</strong><br /> | Cet indicateur facultatif spécifie les clichés instantanés transportables et stocke le document des composants de sauvegarde dans le fichier spécifié par le paramètre <em>File.xml</em> . Ce fichier peut être utilisé dans une opération d’importation et/ou de restauration ultérieure. Cet indicateur et l’indicateur <strong>-BC</strong> s’excluent mutuellement.<br /><strong>Windows server 2003, Édition Standard et Windows server 2003, Web Edition :</strong> Les clichés instantanés transportables ne sont pas pris en charge. toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les clichés instantanés transportables.<br /> | 
+| <span id="-tr"></span><span id="-TR"></span><strong>-TR</strong><br /> | Cet indicateur facultatif spécifie que la récupération TxF doit être appliquée lors de la création de clichés instantanés.<br /><blockquote>[!Note]<br />cet indicateur est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /> | 
+| <span id="-tracing"></span><span id="-TRACING"></span><strong>-suivi</strong><br /> | Cet indicateur facultatif génère une sortie détaillée qui peut être utilisée pour la résolution des problèmes.<br /> | 
+| <span id="-wait"></span><span id="-WAIT"></span><strong>-Wait</strong><br /> | Cet indicateur facultatif force l’outil VShadow à attendre la confirmation de l’utilisateur avant de quitter.<br /> | 
+| <span id="-wi_Writer"></span><span id="-wi_writer"></span><span id="-WI_WRITER"></span><strong>-Wi =</strong><em>enregistreur</em><br /> | Cet indicateur facultatif vérifie que le composant ou le writer spécifié est inclus dans le cliché instantané. L' <em>enregistreur</em> peut spécifier un chemin d’accès de composant, un nom d’enregistreur, un ID d’enregistreur ou un ID d’instance d’enregistreur. Cet indicateur et l’indicateur <strong>-NW</strong> s’excluent mutuellement.<br /> | 
+| <span id="-wx_Writer"></span><span id="-wx_writer"></span><span id="-WX_WRITER"></span><strong>-WX =</strong><em>enregistreur</em><br /> | Cet indicateur facultatif vérifie que le composant ou le writer spécifié est exclu du cliché instantané. L' <em>enregistreur</em> peut spécifier un chemin d’accès de composant, un nom d’enregistreur, un ID d’enregistreur ou un ID d’instance d’enregistreur. Cet indicateur et l’indicateur <strong>-NW</strong> s’excluent mutuellement.<br /> | 
+
 
 
 
@@ -469,38 +347,12 @@ L’option de ligne de commande **-Resync** lance une opération de resynchronis
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur d’indicateur facultative</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-revertsig"></span><span id="-REVERTSIG"></span><strong>-revertsig</strong><br/></td>
-<td>Cet indicateur facultatif spécifie qu’une fois l’opération terminée, la signature de chaque LUN cible doit être identique à celle du numéro d’unité logique d’origine qui a été utilisé pour créer le cliché instantané, et non le numéro d’unité logique du volume cible.<br/>
-<blockquote>
-[!Note]<br />
-l’indicateur <strong>-revertsig</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-novolcheck"></span><span id="-NOVOLCHECK"></span><strong>-novolcheck</strong><br/></td>
-<td>Cet indicateur facultatif spécifie que le service VSS ne doit pas vérifier les volumes non sélectionnés qui seraient remplacés par l’opération de resynchronisation des LUN.<br/>
-<blockquote>
-[!Note]<br />
-l’indicateur <strong>-novolcheck</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.
-</blockquote>
-<br/> <strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur d’indicateur facultative | Description | 
+|---------------------|-------------|
+| <span id="-revertsig"></span><span id="-REVERTSIG"></span><strong>-revertsig</strong><br /> | Cet indicateur facultatif spécifie qu’une fois l’opération terminée, la signature de chaque LUN cible doit être identique à celle du numéro d’unité logique d’origine qui a été utilisé pour créer le cliché instantané, et non le numéro d’unité logique du volume cible.<br /><blockquote>[!Note]<br />l’indicateur <strong>-revertsig</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br /> | 
+| <span id="-novolcheck"></span><span id="-NOVOLCHECK"></span><strong>-novolcheck</strong><br /> | Cet indicateur facultatif spécifie que le service VSS ne doit pas vérifier les volumes non sélectionnés qui seraient remplacés par l’opération de resynchronisation des LUN.<br /><blockquote>[!Note]<br />l’indicateur <strong>-novolcheck</strong> est pris en charge uniquement sur les systèmes d’exploitation Windows server.</blockquote><br /><strong>Windows server 2008 et Windows server 2003 :</strong> Non pris en charge.<br /> | 
+
 
 
 

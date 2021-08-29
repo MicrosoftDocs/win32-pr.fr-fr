@@ -4,19 +4,19 @@ description: Les vues triées du rastériseur (ROVs) autorisent le code du nuanc
 ms.assetid: 7FCFCD28-E68D-4594-8879-937F57245507
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d891701aeaadd6f4474aeed8303d9b0046d1b656
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6f84ae8d51c0ae150866e8fafef24eb2460493d709309ccc730b50f051a193c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096179"
 ---
 # <a name="rasterizer-order-views"></a>Vues de l’ordre du rastériseur
 
 Les vues triées du rastériseur (ROVs) autorisent le code du nuanceur de pixels à marquer des liaisons UAV avec une déclaration qui modifie les exigences normales pour l’ordre des résultats de la canalisation Graphics pour UAVs. Cela permet l’utilisation d’algorithmes OIT (commande Independent transparent), ce qui donne de meilleurs résultats de rendu lorsque plusieurs objets transparents sont alignés les uns avec les autres dans une vue.
 
 -   [Vue d'ensemble](#overview)
--   [Détails de l’implémentation](#implementation-details)
+-   [Informations d’implémentation](#implementation-details)
 -   [API summary](#api-summary)
 -   [Rubriques connexes](#related-topics)
 
@@ -63,6 +63,6 @@ Les ROVs sont une construction en HLSL uniquement qui applique une sémantique d
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

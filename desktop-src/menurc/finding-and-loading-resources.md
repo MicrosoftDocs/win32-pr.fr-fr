@@ -4,12 +4,12 @@ description: Cette rubrique explique comment charger une ressource en mémoire.
 ms.assetid: 9e56cfdd-b365-4433-a507-a30220b4a92d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca9590927cad28772a6b4a5b761d74c9ebf101a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 63b2a66628e5cdceb485df315dc27f0189fe23decbb6205e76d97f3afb77a380
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886799"
 ---
 # <a name="finding-and-loading-resources"></a>Recherche et chargement des ressources
 
@@ -39,12 +39,12 @@ Dans la mesure du possible, une application doit utiliser l’une des fonctions 
 
 
 
- 
+ 
 
 Notez les fonctions de publication dans le tableau ci-dessus. Avant de se terminer, une application doit libérer la mémoire occupée par les tables, les bitmaps, les curseurs, les icônes et les menus d’accélérateur à l’aide des fonctions appropriées.
 
 La mémoire associée aux ressources chargées via [**FindResource**](/windows/desktop/api/Winbase/nf-winbase-findresourcea) et [**LoadResource**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource) est libérée une fois que le module a été déchargé par un appel à [**FreeLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary). Toutes les ressources qui restent déchargées lors de l’arrêt de l’application sont automatiquement publiées par le système.
 
- 
+ 
 
- 
+ 

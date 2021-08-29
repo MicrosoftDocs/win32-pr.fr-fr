@@ -4,12 +4,12 @@ ms.assetid: 78df6acf-eb4e-46c1-bf1d-c0a99cf49bff
 title: Éléments ParameterRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2935317bc4107e2071911ab1df826426b2bcec17
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 70ccc58b83c63ceffe4535e59d5d775462645f85055a8742442f004ee13c8ac3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938729"
 ---
 # <a name="parameterref-elements"></a>Éléments ParameterRef
 

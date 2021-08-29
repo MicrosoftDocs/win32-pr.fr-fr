@@ -4,12 +4,12 @@ ms.assetid: ab751ab1-3b40-4111-b724-9f8676b722a3
 title: Utilisation de la mémoire partagée dans une bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 978a6fa77964c6404b3f85e9c9bcec6c3644f2ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a38f4aaf1658894a6f9e4a60beed372630507d4529fc7c2ac065b0430fb7b59d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902349"
 ---
 # <a name="using-shared-memory-in-a-dynamic-link-library"></a>Utilisation de la mémoire partagée dans une bibliothèque de Dynamic-Link
 

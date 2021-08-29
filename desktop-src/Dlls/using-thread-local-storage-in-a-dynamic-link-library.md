@@ -1,17 +1,17 @@
 ---
 description: Cette section montre l’utilisation d’une fonction de point d’entrée DLL pour configurer un index de stockage local des threads (TLS) afin de fournir un stockage privé pour chaque thread d’un processus multithread.
 ms.assetid: a300f223-b513-4a22-a7a4-5d98cf74d77d
-title: Utilisation du stockage local des threads dans une bibliothèque de Dynamic-Link
+title: utilisation des Stockage locaux de Thread dans une bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 261ef7482520b4cb6e6c7b630f10ebb456231283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f44aaf4a4f5314539d788f4558548c110259bd49c40807a07603e432d3f468c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902319"
 ---
-# <a name="using-thread-local-storage-in-a-dynamic-link-library"></a>Utilisation du stockage local des threads dans une bibliothèque de Dynamic-Link
+# <a name="using-thread-local-storage-in-a-dynamic-link-library"></a>utilisation des Stockage locaux de Thread dans une bibliothèque de Dynamic-Link
 
 Cette section montre l’utilisation d’une fonction de point d’entrée DLL pour configurer un index de stockage local des threads (TLS) afin de fournir un stockage privé pour chaque thread d’un processus multithread.
 

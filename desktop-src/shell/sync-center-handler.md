@@ -1,6 +1,6 @@
 ---
-description: Cette rubrique fournit un examen pas à pas de la configuration requise pour créer un fichier DLL qui implémente un gestionnaire à utiliser avec le centre de synchronisation. Ces informations sont valides à compter de Windows Vista.
-title: Développement d’un gestionnaire de centre de synchronisation Windows
+description: Cette rubrique fournit un examen pas à pas de la configuration requise pour créer un fichier DLL qui implémente un gestionnaire à utiliser avec le centre de synchronisation. ces informations sont valides à partir de Windows Vista.
+title: développement d’un gestionnaire de Windows Sync Center
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 66b40f81-9515-4190-8ced-44f20bb9df86
@@ -9,26 +9,26 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 11185aa5976c27b7af95787b081e1eaacd99c8e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 127426365ff0f2c7bbada34f87cc7e2aec8916a2dbe4038978835aa61b179cf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967908"
 ---
-# <a name="developing-a-windows-sync-center-handler"></a>Développement d’un gestionnaire de centre de synchronisation Windows
+# <a name="developing-a-windows-sync-center-handler"></a>développement d’un gestionnaire de Windows Sync Center
 
-Cette rubrique fournit un examen pas à pas de la configuration requise pour créer un fichier DLL qui implémente un gestionnaire à utiliser avec le centre de synchronisation. Ces informations sont valides à compter de Windows Vista.
+Cette rubrique fournit un examen pas à pas de la configuration requise pour créer un fichier DLL qui implémente un gestionnaire à utiliser avec le centre de synchronisation. ces informations sont valides à partir de Windows Vista.
 
--   [L’expérience de synchronisation Windows avant Vista](#the-windows-synchronization-experience-before-vista)
+-   [l’expérience de synchronisation Windows avant Vista](#the-windows-synchronization-experience-before-vista)
 -   [API du centre de synchronisation](#sync-center-apis)
     -   [Interfaces essentielles](#essential-interfaces)
 
-## <a name="the-windows-synchronization-experience-before-vista"></a>L’expérience de synchronisation Windows avant Vista
+## <a name="the-windows-synchronization-experience-before-vista"></a>l’expérience de synchronisation Windows avant Vista
 
 Windows XP a fourni un [Gestionnaire de synchronisation](syncmgr-start-page.md) (mobsync.exe). De nombreux appareils, tels que les lecteurs MP3, les téléphones cellulaires et les appareils photo, ont également fourni leurs propres interfaces de synchronisation plutôt que d’utiliser le gestionnaire de synchronisation. Cela a abouti à une expérience utilisateur incohérente et non centralisée.
 
-La nouvelle fonctionnalité du centre de synchronisation fournie dans Windows Vista présente plusieurs avantages par rapport à l’ancien gestionnaire de synchronisation.
+la nouvelle fonctionnalité du centre de synchronisation fournie dans Windows Vista présente plusieurs avantages par rapport à l’ancien gestionnaire de synchronisation.
 
 -   Meilleure détectabilité
 -   Moins besoin d’une action directe de l’utilisateur

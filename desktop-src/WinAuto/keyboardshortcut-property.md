@@ -4,12 +4,12 @@ description: La propriété KeyboardShortcut décrit une touche ou une combinais
 ms.assetid: 42587468-f069-4ef1-868e-ac6a285e1715
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 002c925151f3f1acc136190d7807d7bc814d30b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1cc82525bcfedbd370eebcfa6df078f5c98cfff7baf13d1e7e454648c054c87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859969"
 ---
 # <a name="keyboardshortcut-property"></a>Propriété KeyboardShortcut
 
@@ -37,7 +37,7 @@ Le tableau suivant répertorie les touches de modification.
 
 
 
- 
+ 
 
 Ne Localisez pas les chaînes de raccourcis clavier.
 
@@ -45,9 +45,9 @@ Ne Localisez pas les chaînes de raccourcis clavier.
 
 Si un objet a à la fois une touche de raccourci et une touche d’accès rapide, la propriété **KeyboardShortcut** retourne la clé d’accès. La touche d’accès est celle qu’un utilisateur aurait appuyé lorsque l’objet ou le parent de l’objet a le focus clavier. Par exemple, l’élément de menu **Imprimer** peut avoir à la fois une touche de raccourci (Ctrl + P) et une touche d’accès rapide (P). Si un utilisateur appuie sur CTRL + P alors que le menu est actif, rien ne se produit. Toutefois, si un utilisateur appuie sur P alors que le menu est actif, il appelle la boîte de dialogue **Imprimer** de l’application. Dans ce cas, la propriété **KeyboardShortcut** est « P » pour refléter ce que l’utilisateur doit appuyer lorsque le menu a le focus clavier.
 
- 
+ 
 
- 
+ 
 
 
 

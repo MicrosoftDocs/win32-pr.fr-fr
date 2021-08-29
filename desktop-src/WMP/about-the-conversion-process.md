@@ -3,22 +3,22 @@ title: À propos du processus de conversion
 description: À propos du processus de conversion
 ms.assetid: 147b82fd-9e82-4acf-8f8a-43eb02e99024
 keywords:
-- Windows Media Player, processus de conversion
-- Plug-ins du lecteur Windows Media, conversion
+- Lecteur Windows Media, processus de conversion
+- plug-ins Lecteur Windows Media, conversion
 - plug-ins, conversion
 - plug-ins de conversion, processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d6fe2f2bbedf03b78c0d19abaf3793e8e92c788
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4555c0175da6e08a581f1ac02188b2029054cf587ee5933218524fed667625fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903319"
 ---
 # <a name="about-the-conversion-process"></a>À propos du processus de conversion
 
-Une fois que le lecteur Windows Media a instancié le plug-in de conversion, le processus se déroule comme suit :
+une fois que Lecteur Windows Media a instancié le plug-in de conversion, le processus se déroule comme suit :
 
 1.  Le lecteur appelle [IWMPConvert :: convertfile](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile).
 2.  Le plug-in convertit le fichier fourni dans le paramètre *bstrInputFile* au format ASF.
@@ -53,9 +53,9 @@ Si vous devez utiliser le fichier converti, vous pouvez interroger la bibliothè
 [**Attribut WM/UniqueFileIdentifier**](wm-uniquefileidentifier-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

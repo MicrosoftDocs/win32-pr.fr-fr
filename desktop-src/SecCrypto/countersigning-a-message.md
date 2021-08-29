@@ -4,12 +4,12 @@ ms.assetid: e1969b43-f50e-4c7d-a7e5-b22db4e05be2
 title: Contre-signature d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02091d25e7ee22f986a26b8f07abff68ebb8c11c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b34d93d6879135c8611e3ab50a2278506be434b25556b64c13862456a004931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876679"
 ---
 # <a name="countersigning-a-message"></a>Contre-signature d’un message
 

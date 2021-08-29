@@ -4,12 +4,12 @@ ms.assetid: 4f6ff85c-8cad-4b9b-8a1d-ce41ed7dfbed
 title: PageNegativeImage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1e1a9de2d82135adb82c68f45785ee3763e41a
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 1eab16f00768a9f3108292765dd0d760531a39e33cc158c592531a1704d7db34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938859"
 ---
 # <a name="pagenegativeimage"></a>PageNegativeImage
 

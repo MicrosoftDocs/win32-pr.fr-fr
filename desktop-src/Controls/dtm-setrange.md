@@ -3,7 +3,7 @@ title: Message DTM_SETRANGE (commctrl. h)
 description: Définit les heures système minimale et maximale autorisées pour un contrôle de sélecteur de dates et d’heures (PAO). Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro DateTime SetRange.
 ms.assetid: ef0f48f2-906e-4ae0-839d-177e0fb7f14e
 keywords:
-- DTM_SETRANGE les contrôles de message Windows
+- DTM_SETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70578e7d468c6a0e54d1373af2d46e680afbbe5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 380bd35bd590facd1368507f2bf5900c05c4f68557cf1e4201058dfbacdb282d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877729"
 ---
 # <a name="dtm_setrange-message"></a>\_Message DTM SEtrange
 
@@ -58,7 +58,7 @@ Pointeur vers un tableau à deux éléments de structures [**SystemTime**](/wind
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le sélecteur de date et d’heure affiche uniquement les dates/heures qui se trouvent dans la plage spécifiée, ce qui empêche l’utilisateur de sélectionner une date et une heure situées en dehors de la plage. Si le message [**DTM \_ SETSYSTEMTIME**](dtm-setsystemtime.md) spécifie une date et une heure qui se situent en dehors de la plage, l’opération échoue.
 
@@ -68,8 +68,8 @@ Le sélecteur de date et d’heure affiche uniquement les dates/heures qui se tr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

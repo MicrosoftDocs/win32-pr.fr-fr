@@ -4,12 +4,12 @@ description: Vous spécifiez un polygone (contenant éventuellement des trous) �
 ms.assetid: 23e56d3e-c26c-4158-b0ce-cf8fcea22927
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff36b74f9484a76f938a7a24847c218f5c4e8dbc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 502fe86d8ee7fb8ccf74b5dcdb3c78f2b2f710bdb9c928402777a3ab4a1e80ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888039"
 ---
 # <a name="specifying-the-polygon-to-be-tessellated"></a>Spécification du polygone à répartir
 
@@ -38,9 +38,9 @@ Pour un polygone avec trous, un contour est le contour extérieur et les autres 
 
 La fonction [**gluEndPolygon**](gluendpolygon.md) indique la fin de la spécification Polygon. Il indique également que le pavage peut commencer à utiliser l’objet de pavage *tessobj*.
 
- 
+ 
 
- 
+ 
 
 
 

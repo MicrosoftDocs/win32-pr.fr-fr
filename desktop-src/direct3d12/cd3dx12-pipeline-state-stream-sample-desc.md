@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fea786dc0429da28f9c26f0203b06059aff1c17
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44025670dc6a2f435f304494e9f31f69b12789e152f867a6efc85423c092f8e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858139"
 ---
 # <a name="cd3dx12_pipeline_state_stream_sample_desc-structure"></a>\_Exemple de \_ \_ \_ \_ structure DESC de flux d’état de pipeline CD3DX12
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure d' [**\_ exemple \_ desc dxgi**](https://w
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ L’exemple de flux d’état de pipeline CD3DX12 \_ desc est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ de pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 
