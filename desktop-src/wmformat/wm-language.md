@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e1261d632eecd5271ed2a7cc8d7b1dd37d369f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: afb7f6e2016bcc51b70812b0fe1eea27c419f66772e8c8a795796da183c19b12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584509"
 ---
 # <a name="wmlanguage"></a>WM/langage
 
@@ -31,11 +31,11 @@ L’attribut **WM/Language** contient le langage du flux.
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La chaîne de langue utilisée doit être conforme à la norme RFC 1766. Pour plus d’informations, consultez [Language Strings](language-strings.md).
 
-### <a name="example"></a>Exemple
+### <a name="example"></a>Exemples
 
 
 
@@ -45,7 +45,7 @@ La chaîne de langue utilisée doit être conforme à la norme RFC 1766. Pour pl
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -54,9 +54,9 @@ La chaîne de langue utilisée doit être conforme à la norme RFC 1766. Pour pl
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

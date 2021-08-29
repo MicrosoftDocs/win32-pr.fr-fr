@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1174e7a8096d70a3e6305a5d24b9ae1f4915096e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b9e1a4b3b3da3fc7f7cb732c094f4ddfce2e2c0ca3e8836f25bb3034b590bf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076713"
 ---
 # <a name="modify-method-of-the-microsoftdns_srvtype-class"></a>Modifier la méthode de la \_ classe SRVType MicrosoftDNS
 
@@ -93,7 +93,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

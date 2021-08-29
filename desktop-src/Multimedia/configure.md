@@ -3,7 +3,7 @@ title: configurer la commande
 description: La commande configurer affiche une boîte de dialogue qui permet de configurer l’appareil. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 17d99992-f432-4b8a-ae98-2a70637c29c3
 keywords:
-- commande configurer Windows Multimedia
+- configurer la commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f131159d389577e3c717e5630633bb46558d40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7c11adc5413844d46360e7abf63ec34a340efae470e2e71fef9ba80a89d60e4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144952"
 ---
 # <a name="configure-command"></a>configurer la commande
 
