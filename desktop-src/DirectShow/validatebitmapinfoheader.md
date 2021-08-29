@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - checkbmi.h
-ms.openlocfilehash: c7242778a2ff16414b07f887dc1e71a1547a88e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a23bbb322da1effdb2246ee797b353d1af36e3b87cbb37bd89039d1aced994e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755829"
 ---
 # <a name="validatebitmapinfoheader-function"></a>ValidateBitmapInfoHeader fonction)
 
@@ -63,7 +63,7 @@ Taille du bloc de mémoire qui contient la structure, en octets.
 
 Retourne une valeur booléenne. Si la valeur est **false**, la structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) n’est pas valide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction protège contre les erreurs suivantes :
 

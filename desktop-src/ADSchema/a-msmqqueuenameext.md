@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77bd0ccfffa00d43d73dd6b2bca94bd25bcde2e1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 060785cfd4188c8b1ecc65b10a31e87d6b3ccbcccba14ffb2d2f0e88dd5737a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762149"
 ---
 # <a name="msmq-queue-name-ext-attribute"></a>MSMQ-queue-Name-attribut ext
 
@@ -45,7 +45,7 @@ Contient le suffixe du nom de la file d’attente (le cas échéant).
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

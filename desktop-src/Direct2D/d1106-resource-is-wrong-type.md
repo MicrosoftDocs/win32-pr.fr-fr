@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 5c38ef36319b8021de918a798c94a3be0683a7b7
-ms.sourcegitcommit: 80ee822f6ebcbcc8f60042e0d14a39ef6989c731
+ms.openlocfilehash: 1bbfd6d58eeb155002fbf5e7dbe243bd8d942ddaf4fa7d7715c6211523015476
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "106530057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911189"
 ---
 # <a name="d1106-resource-is-wrong-type"></a>D1106 : type de ressource incorrect
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: bfd138044e4849e5b0a42ab396561331bea9a338
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41677a57a51a98e5b9773ff3dda5b6f5084839c8e03f264567f9621f34ec4eb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912709"
 ---
 # <a name="sharedkey-security-element"></a>Élément sharedKey (Security)
 
@@ -70,15 +70,15 @@ L’élément est défini par l’élément de [**sécurité**](wlan-profilesche
 |-------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**keyMaterial**](wlan-profileschema-keymaterial-sharedkey-element.md) | [string](/dotnet/api/system.string)   | Contient la clé réseau ou la phrase secrète.<br/>                                                                                                                           |
 | [**keyType**](wlan-profileschema-keytype-sharedkey-element.md)         |                                                                   | Type de clé.<br/>                                                                                                                                                      |
-| [**Protect**](wlan-profileschema-protected-sharedkey-element.md)     | [boolean](/dotnet/api/system.boolean) | Indique si la clé est chiffrée.<br/> **Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément doit avoir la valeur FALSe.<br/> |
+| [**protected**](wlan-profileschema-protected-sharedkey-element.md)     | [boolean](/dotnet/api/system.boolean) | Indique si la clé est chiffrée.<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément doit avoir la valeur FALSe.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour Windows Vista et Windows Server 2008, les données associées à l’élément **sharedKey** sont chiffrées avant d’être enregistrées dans le magasin de profils.
+pour Windows Vista et Windows Server 2008, les données associées à l’élément **sharedKey** sont chiffrées avant d’être enregistrées dans le magasin de profils.
 
-Pour Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2, les données ne sont pas chiffrées.
+pour les Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2, les données ne sont pas chiffrées.
 
 ## <a name="examples"></a>Exemples
 
@@ -91,7 +91,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **sharedKey** 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9df45ed7981c055e955afe72333a42db99ddb21a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb0dc7dd9f8e7561795479de774bf01464cf897800a974df234738aab4a659f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800709"
 ---
 # <a name="onex-schema"></a>Schéma OneX
 
@@ -27,10 +27,10 @@ Pour afficher des exemples de profils pour des réseaux sans fil qui incluent de
 -   [Exemple de profil de démarrage](bootstrap-profile-sample.md)
 -   [Exemple de profil FIPS](fips-profile-sample.md)
 -   [Exemple de profil de Sign-On unique](single-sign-on-profile-sample.md)
--   [Exemple de profil WPA-Entreprise avec PEAP-MSCHAPv2](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
--   [Exemple de profil WPA-Entreprise avec TLS](wpa-enterprise-with-tls-profile-sample.md)
--   [Exemple de profil WPA2-Entreprise avec PEAP-MSCHAPv2](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
--   [Exemple de profil WPA2-Entreprise avec TLS](wpa2-enterprise-with-tls-profile-sample.md)
+-   [exemple de profil WPA-Enterprise avec PEAP-MSCHAPv2](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [exemple de profil WPA-Enterprise avec TLS](wpa-enterprise-with-tls-profile-sample.md)
+-   [exemple de profil de Enterprise WPA2 avec PEAP-MSCHAPv2](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [exemple de profil WPA2-Enterprise avec TLS](wpa2-enterprise-with-tls-profile-sample.md)
 
 Pour afficher des exemples de profils pour les réseaux câblés qui incluent des éléments de configuration 802.1 X, consultez les exemples de profils suivants :
 

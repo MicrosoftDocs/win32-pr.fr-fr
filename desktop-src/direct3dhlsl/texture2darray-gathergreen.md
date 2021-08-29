@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: a1a49cf57edac887b35dadb0fabbec493e7f4a62
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 865a8ea26196744ddbcefed7292143cc8af035dc46e59e577b72a6f06d12b416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "103953336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742769"
 ---
 # <a name="texture2darraygathergreen-methods"></a>Texture2DArray :: GatherGreen, méthodes
 

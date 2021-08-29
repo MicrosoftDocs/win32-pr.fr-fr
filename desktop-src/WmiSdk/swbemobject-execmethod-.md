@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6b71d88a113e515d50ac01a23f070714fa467615
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cc743d369e8ecccd7691710bb82373270d6e58736a173bbf3b4f1d15af548c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857359"
 ---
 # <a name="swbemobjectexecmethod_-method"></a>SWbemObject.Exe\_ méthode cMethod
 
@@ -129,7 +129,7 @@ L’utilisateur actuel n’a pas été autorisé à exécuter la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est similaire à [**SWbemServices.ExecMethod**](swbemservices-execmethod.md), mais elle fonctionne directement sur l’objet dont la méthode doit être exécutée. Par exemple, l’exemple de code suivant appelle la méthode du fournisseur [**StartService**](/windows/desktop/CIMWin32Prov/startservice-method-in-class-win32-service) dans le [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) et utilise l' [accès direct](manipulating-class-and-instance-information.md).
 
@@ -157,7 +157,7 @@ Utilisez **SWbemObject.ExecMethod \_** comme alternative à l’accès direct po
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre la méthode [**ExecMethod**](swbemservices-execmethod.md) . Le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) représentant un processus qui exécute le bloc-notes. Pour plus d’informations sur un script illustrant les mêmes opérations exécutées de façon asynchrone, consultez [**SWbemObject.ExecMethodAsync \_**](swbemobject-execmethodasync-.md). Pour obtenir un exemple d’utilisation de l’accès direct, consultez [**créer une méthode dans la classe \_ processus Win32**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . Pour obtenir un exemple de la même opération à l’aide d’un objet [**SWbemServices**](swbemservices.md) , consultez **SWbemServices.ExecMethod**.
+L’exemple suivant illustre la méthode [**ExecMethod**](swbemservices-execmethod.md) . le script crée un [**objet \_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) représentant un processus en cours d’exécution Bloc-notes. Pour plus d’informations sur un script illustrant les mêmes opérations exécutées de façon asynchrone, consultez [**SWbemObject.ExecMethodAsync \_**](swbemobject-execmethodasync-.md). Pour obtenir un exemple d’utilisation de l’accès direct, consultez [**créer une méthode dans la classe \_ processus Win32**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) . Pour obtenir un exemple de la même opération à l’aide d’un objet [**SWbemServices**](swbemservices.md) , consultez **SWbemServices.ExecMethod**.
 
 
 ```VB

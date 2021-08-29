@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 77ee0f33f540bfd215ec10a24c3c574976189d07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b800237d9af97867b102d23cff004cd84f5e451171781e9eb9e02a9dc509681
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695919"
 ---
 # <a name="cim_concretecomponent-class"></a>\_Classe CIM ConcreteComponent
 

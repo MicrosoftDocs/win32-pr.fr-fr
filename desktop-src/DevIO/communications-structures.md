@@ -4,12 +4,12 @@ ms.assetid: e5e8fe5d-42e2-4958-9d8c-2cc33275c371
 title: Structures de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1363577733fb189b93321991ce808c5ff233c377
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 88432136217da8f93ae31f61d85b95a47593ed792b9855f36bd0ce7bf35f4fe8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824999"
 ---
 # <a name="communications-structures"></a>Structures de communication
 

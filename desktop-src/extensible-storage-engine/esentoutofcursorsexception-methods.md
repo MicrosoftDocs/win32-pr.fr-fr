@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102408
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: de53d494f913cc268424a0062dbf66c955045a75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c287fdf431b6fc2ae710cb110e7b3dd1575e4238c151d93d8e0ec849ed5a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104552868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620009"
 ---
 # <a name="esentoutofcursorsexception-methods"></a>Méthodes EsentOutOfCursorsException
 

@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5088780fbbaa4ab86fc416a3e9aa353920cc25e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eeb2eaa76ff0ea1c1184e0718028a80f41852aeaa50fa471adbf0543eef4c574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771419"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaydomain-property"></a>IMsRdpClientTransportSettings2 :: GatewayDomain, propriété
 

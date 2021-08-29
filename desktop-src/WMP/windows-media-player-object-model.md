@@ -1,58 +1,58 @@
 ---
-title: Modèle objet du lecteur Windows Media
-description: Modèle objet du lecteur Windows Media
+title: Lecteur Windows Media Modèle objet
+description: Lecteur Windows Media Modèle objet
 ms.assetid: 386ed03a-6c43-4637-ae45-7023a641b487
 keywords:
 - Lecteur Windows Media, modèle objet
-- Windows Media Player Object Model, à propos de
+- Lecteur Windows Media modèle objet, à propos de
 - modèle objet, à propos de
-- Contrôle ActiveX du lecteur Windows Media, modèle objet
-- Contrôle ActiveX, modèle objet
-- Windows Media Player Mobile contrôle ActiveX, modèle objet
-- Windows Media Player Mobile, modèle objet
-- Kit de développement logiciel (SDK), modèle objet de contrôle ActiveX du lecteur Windows Media
-- SDK (kit de développement logiciel), modèle objet de contrôle ActiveX du lecteur Windows Media
-- documentation, modèle objet de contrôle ActiveX du lecteur Windows Media
+- contrôle ActiveX Lecteur Windows Media, modèle objet
+- contrôle ActiveX, modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, modèle objet
+- Lecteur Windows Media Mobile, modèle objet
+- kit de développement logiciel (SDK), Lecteur Windows Media ActiveX modèle objet de contrôle
+- SDK (kit de développement logiciel), Lecteur Windows Media ActiveX modèle objet de contrôle
+- documentation, Lecteur Windows Media ActiveX modèle objet de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36eddd318f6db7bbe3e7d43d54aea5d35905c057
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aec9e71a8f63815f7e7233bf6c08355050326bb6e056856bbc2d7985ef64ea7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735419"
 ---
-# <a name="windows-media-player-object-model"></a>Modèle objet du lecteur Windows Media
+# <a name="windows-media-player-object-model"></a>Lecteur Windows Media Modèle objet
 
-Le modèle d’objet de contrôle ActiveX du lecteur Microsoft Windows Media fournit des interfaces qui permettent aux développeurs d’ajouter des fonctionnalités Windows Media Player et Windows Media Player à des pages Web et à d’autres programmes. La documentation du modèle objet de contrôle ActiveX du lecteur Windows Media est présentée dans les sections suivantes.
+le modèle objet de contrôle Microsoft Lecteur Windows Media ActiveX fournit des interfaces qui permettent aux développeurs d’ajouter des fonctionnalités mobiles Lecteur Windows Media et Lecteur Windows Media à des pages web et d’autres programmes. la documentation du modèle objet de contrôle Lecteur Windows Media ActiveX est présentée dans les sections suivantes.
 
 > [!Note]  
-> Le contrôle ActiveX Windows Media Player Mobile est basé sur le contrôle Windows Media Player ActiveX et utilise donc le même modèle objet. Par conséquent, sauf indication contraire, toute documentation sur l’intégration du contrôle ActiveX du lecteur Windows Media dans une page Web ou une application est également applicable au contrôle ActiveX du lecteur Windows Media Mobile.
+> le contrôle de ActiveX Mobile Lecteur Windows Media est basé sur le contrôle de ActiveX Lecteur Windows Media et utilise donc le même modèle objet. par conséquent, sauf indication contraire, toute documentation sur l’intégration du contrôle de Lecteur Windows Media ActiveX dans une page web ou une application est également applicable au contrôle de ActiveX Mobile Lecteur Windows Media.
 
- 
+ 
 
 
 
 | Section                                                                                        | Description                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [À propos du modèle objet Player](about-the-player-object-model.md)                             | Présente l’architecture du modèle objet en termes abstraits.                                                                                                                  |
-| [Guide de contrôle du lecteur](player-control-guide.md)                                               | Fournit des informations sur l’utilisation du contrôle dans divers scénarios de programmation, notamment l’utilisation du contrôle dans .NET Framework applications.                                    |
-| [Référence du modèle objet du lecteur Windows Media](windows-media-player-object-model-reference.md) | Fournit des pages de référence pour les interfaces de script, C++ et .NET au contrôle ActiveX du lecteur Windows Media. Fournit également la documentation pour les types énumération et les attributs multimédias. |
+| [Guide de contrôle du lecteur](player-control-guide.md)                                               | fournit des informations sur l’utilisation du contrôle dans divers scénarios de programmation, notamment l’utilisation du contrôle dans .NET Framework applications.                                    |
+| [Lecteur Windows Media Référence du modèle objet](windows-media-player-object-model-reference.md) | fournit des pages de référence pour les interfaces de script, C++ et .net au contrôle Lecteur Windows Media ActiveX. Fournit également la documentation pour les types énumération et les attributs multimédias. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**SDK du lecteur Windows Media**](windows-media-player-sdk.md)
+[**Lecteur Windows Media SDK**](windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

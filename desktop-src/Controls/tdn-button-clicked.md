@@ -3,7 +3,7 @@ title: TDN_BUTTON_CLICKED le code de notification (commctrl. h)
 description: Envoyé par une boîte de dialogue de tâche lorsque l’utilisateur sélectionne un bouton ou un lien de commande dans la boîte de dialogue de tâche. Ce code de notification est reçu uniquement par le biais de la fonction de rappel de la boîte de dialogue de tâche, qui peut être inscrite à l’aide de la méthode TaskDialogIndirect.
 ms.assetid: eefe48f8-8a80-4280-8a7e-244d9b699ec7
 keywords:
-- Contrôles Windows de code de notification TDN_BUTTON_CLICKED
+- TDN_BUTTON_CLICKED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a7a0b799f4163633194306edaa1703e068e93c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d8491117e7bed636edc7fe1e1075b5c61489735ed7b46d649520d4173a8c536
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875819"
 ---
 # <a name="tdn_button_clicked-notification-code"></a>\_Clic sur le bouton TDN du \_ Code de notification
 
@@ -63,8 +63,8 @@ Pour empêcher la fermeture de la boîte de dialogue de tâche, l’application 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

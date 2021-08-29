@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5fa3432767ccfdb60a2e3bc0a50ddbbcf565e0aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 861f3233c4b089dc62e56977dd2d55c59fae71aed799fa73958421a111c1ccd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876949"
 ---
 # <a name="chain-object"></a>Chaîne (objet)
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Chain**](/dotnet/api/system.security.cryptography.x509certificates.x509chain?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Chain**](/dotnet/api/system.security.cryptography.x509certificates.x509chain?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
 L’objet **chaîne** représente une chaîne d’approbation de certificat.
 
@@ -76,13 +76,13 @@ L’objet de **chaîne** a ces propriétés.
 | Propriété                                              | Type d’accès          | Description                                                                                                                                                                                 |
 |:------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Certificats**](chain-certificates.md)<br/> | Lecture seule<br/> | Récupère une collection de [**certificats**](certificates.md) qui représente les certificats dans la chaîne. Il s’agit de la propriété par défaut.<br/> (Héritée de **ChainIChain2IChain**) |
-| [**Statu**](chain-status.md)<br/>             | Lecture seule<br/> | Récupère l’état de validité de la chaîne ou d’un certificat spécifique dans la chaîne.<br/> (Héritée de **ChainIChain2IChain**)                                                       |
+| [**Statut**](chain-status.md)<br/>             | Lecture seule<br/> | Récupère l’état de validité de la chaîne ou d’un certificat spécifique dans la chaîne.<br/> (Héritée de **ChainIChain2IChain**)                                                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet de **chaîne** peut être créé et il est sécurisé pour les scripts. Le ProgID de l’objet **chaîne** est «CAPICOM. Chaîne. 2».
 
@@ -96,7 +96,7 @@ L’objet de **chaîne** peut être créé et il est sécurisé pour les scripts
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: 5afb1021-85b9-42ae-ae85-f4e114194e70
 title: Mappage de l’accélération vidéo DirectX sur IAMVideoAccelerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9790a3d2cbaeceeb80718800f20919c87e91b7a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dc3ea2db1cea9714c9a52dc60e947844594bc62ad847b08e4734321af9875fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791539"
 ---
 # <a name="mapping-directx-video-acceleration-to-iamvideoaccelerator"></a>Mappage de l’accélération vidéo DirectX sur IAMVideoAccelerator
 
-La section suivante est particulièrement pertinente pour les développeurs de décodeur logiciel. Il fournit des informations détaillées sur l’utilisation de l’interface [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) lors de la communication via le filtre de [mixage de superposition](overlay-mixer-filter.md) ou le filtre de convertisseur de mixage vidéo avec un périphérique matériel compatible DirectX va. Cette section couvre les sujets suivants :
+La section suivante est particulièrement pertinente pour les développeurs de décodeur logiciel. il fournit des informations détaillées sur l’utilisation de l’Interface [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) lors de la communication par le biais du filtre de convertisseur de mixage vidéo ou de [Mixer de superposition](overlay-mixer-filter.md) avec un périphérique matériel compatible DirectX VA. Cette section couvre les sujets suivants :
 
 -   [Profil en mode restreint et établissement de la configuration](restricted-mode-profile-and-configuration-establishment.md)
 -   [Spécification opérationnelle DirectX Video Acceleration IAMVideoAccelerator](directx-video-acceleration-iamvideoaccelerator-operational-specification.md)

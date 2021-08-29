@@ -4,12 +4,12 @@ description: Un groupe local peut contenir des comptes d’utilisateurs ou des c
 ms.assetid: ed4c59d6-6532-4190-9807-95678053fc72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd13a23b322a860d6896a213b27fb6263586412
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 66d6521d067aada7d8c2d30ab4cdade8a41d6efa07e27a45098c21659ce88bb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912059"
 ---
 # <a name="local-group-functions"></a>Fonctions de groupe locales
 
@@ -37,7 +37,7 @@ Les fonctions de groupe local créent ou suppriment des groupes locaux, et véri
 
 
 
- 
+ 
 
 Vous pouvez ajouter un membre à un groupe local en spécifiant l’identificateur de sécurité (SID) du membre. Pour convertir un nom de compte de membre en SID, appelez la fonction [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) .
 
@@ -64,6 +64,6 @@ Pour plus d’informations, consultez fonctions de [groupe](group-functions.md)d
 
 Si vous programmez pour Active Directory, vous pourrez peut-être appeler certaines méthodes d’interface de service d’Active Directory (ADSI) pour obtenir les mêmes fonctionnalités que celles que vous pouvez obtenir en appelant les fonctions de groupe local de gestion de réseau. Pour plus d’informations, consultez [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup).
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Objet PlaylistCollection
 description: L’objet PlaylistCollection offre un moyen d’organiser vos sélections.
 ms.assetid: 9ea61954-d185-4a77-9016-4d58340a96fc
 keywords:
-- Objet PlaylistCollection lecteur Windows Media
+- objet PlaylistCollection Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2266537e0df9fc0ba5527784c254b27313d636d3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 73f1d9df153aea39880728619787e334430eeccf494b6757a59509ec2df2a6b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106540758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862209"
 ---
 # <a name="playlistcollection-object"></a>Objet PlaylistCollection
 
@@ -40,7 +40,7 @@ L’objet **PlaylistCollection** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **PlaylistCollection** est accessible par le biais de la propriété suivante.
 
@@ -52,7 +52,7 @@ L’objet **PlaylistCollection** est accessible par le biais de la propriété s
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -61,9 +61,9 @@ L’objet **PlaylistCollection** est accessible par le biais de la propriété s
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

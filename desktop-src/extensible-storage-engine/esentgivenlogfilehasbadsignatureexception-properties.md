@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101783
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2fd88623db58527a7c7f22beaee12c43792abcf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3311bb42e309088206f3ae955882a489587ad1839b39c969f1713ab3b5bac8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838389"
 ---
 # <a name="esentgivenlogfilehasbadsignatureexception-properties"></a>Propriétés EsentGivenLogFileHasBadSignatureException
 
@@ -49,7 +49,7 @@ Le type [EsentGivenLogFileHasBadSignatureException](./esentgivenlogfilehasbadsig
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

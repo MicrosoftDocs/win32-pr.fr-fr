@@ -1,23 +1,23 @@
 ---
 title: Entiers volumineux
-description: Les grandes fonctions et structures entières offraient à l’origine une prise en charge des valeurs 64 bits sur Windows 32 bits.
+description: Les grandes fonctions et structures entières offraient à l’origine une prise en charge des valeurs 64 bits sur les Windows 32 bits.
 ms.assetid: db4ffbd5-d9e4-4c95-83cc-6f0691c080d2
 keywords:
 - entiers volumineux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ab6276ff6879ce5b72f198e3ccbd247f456e70
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7266b36f7e6a6efb11eaa2d73d752f03e46e3f9d022637558fe6b04db8e8ee4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859129"
 ---
 # <a name="large-integers"></a>Entiers volumineux
 
-Les grandes fonctions et structures entières offraient à l’origine une prise en charge des valeurs 64 bits sur Windows 32 bits. Désormais, votre compilateur C peut prendre en charge les entiers 64 bits en mode natif. Par exemple, Microsoft Visual C++ prend en charge le type d’entier de taille [**\_ \_ Int64**](/windows/desktop/Midl/--int64) . Pour plus d’informations, consultez la documentation fournie avec votre compilateur C.
+Les grandes fonctions et structures entières offraient à l’origine une prise en charge des valeurs 64 bits sur les Windows 32 bits. Désormais, votre compilateur C peut prendre en charge les entiers 64 bits en mode natif. par exemple, Microsoft Visual C++ prend en charge le type d’entier de taille [**\_ \_ int64**](/windows/desktop/Midl/--int64) . Pour plus d’informations, consultez la documentation fournie avec votre compilateur C.
 
-Pour plus d’informations sur les entiers 64 bits sous Windows 64 bits, consultez [nouveaux types de données](/windows/desktop/WinProg64/the-new-data-types).
+pour plus d’informations sur les entiers 64 bits sur les Windows 64 bits, consultez [nouveaux Types de données](/windows/desktop/WinProg64/the-new-data-types).
 
 ## <a name="large-integer-operations"></a>Opérations sur les entiers volumineux
 
@@ -30,6 +30,6 @@ Les applications peuvent également multiplier et diviser des valeurs 32 bits en
 -   [Fonctions entières de type long](large-integer-functions.md)
 -   [Structures d’entiers longs](large-integer-structures.md)
 
- 
+ 
 
- 
+ 

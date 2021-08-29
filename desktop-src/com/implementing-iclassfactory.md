@@ -4,12 +4,12 @@ description: Implémentation de IClassFactory
 ms.assetid: 96466756-c135-4ee5-a48c-f31129878473
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b057657508b3060506c15c68308ea6a5332e5099
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 73b3d524bc65657e973771f2893d562f0ce0095cbfd7fb976ce82cce202794a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756269"
 ---
 # <a name="implementing-iclassfactory"></a>Implémentation de IClassFactory
 
@@ -34,6 +34,6 @@ COM fournit également des fonctions d’assistance pour l’implémentation de 
 [Licences et IClassFactory2](licensing-and-iclassfactory2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

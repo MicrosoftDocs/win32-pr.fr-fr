@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Outils
 description: Les définitions suivantes sont des utilitaires généraux utilisés avec divers autres éléments d’API énumération WS \_ DateTime \_ FORMATFunctions WSDATETIMETOFILETIME WsFileTimeToDateTimeMacros WS \_ String \_ Empty WS \_ String \_ value WsCountOf WsOffsetOfStructures WS \_ buffers WS \_ bytes WS \_ DateTime \_ Duration WS \_ String WS \_ TIMESPAN WS \_ \_ ID unique.
 ms.assetid: 36e58717-ffcd-4075-805f-2c7f56629bb5
 keywords:
@@ -8,14 +8,14 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88130d96ab3b3d3ad1ba5199b0924fd2fe455630
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe6aeace5fabcb00b3aee73bd6bfce167eb63cb1f228f13e360b9fadfcecfd1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838569"
 ---
-# <a name="utilities"></a>Services
+# <a name="utilities"></a>Outils
 
 Les définitions suivantes sont des utilitaires généraux utilisés avec divers autres éléments d’API :
 
@@ -38,6 +38,6 @@ Les définitions suivantes sont des utilitaires généraux utilisés avec divers
     -   [**\_période WS**](/windows/desktop/api/WebServices/ns-webservices-ws_timespan)
     -   [**\_ID unique \_ WS**](/windows/desktop/api/WebServices/ns-webservices-ws_unique_id)
 
- 
+ 
 
- 
+ 

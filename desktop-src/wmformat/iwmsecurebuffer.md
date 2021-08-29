@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5bc4e33257bf52d6e0ea3897786232252b31fc01
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 99cf739172acdc47970d63c2709321c717e13d20d1f6789accb4813316ae7daf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839539"
 ---
 # <a name="iwmsecurebuffer-interface"></a>Interface IWMSecureBuffer
 
@@ -39,8 +39,8 @@ L’interface **IWMSecureBuffer** possède ces méthodes.
 
 | Méthode                                     | Description                         |
 |:-------------------------------------------|:------------------------------------|
-| [**Déchiffrer**](iwmsecurebuffer-decrypt.md) | Déchiffre un pointeur de données.<br/> |
-| [**Encrypt (Chiffrer)**](iwmsecurebuffer-encrypt.md) | Chiffre un pointeur de données.<br/> |
+| [**Crypté**](iwmsecurebuffer-decrypt.md) | Déchiffre un pointeur de données.<br/> |
+| [**Encrypt**](iwmsecurebuffer-encrypt.md) | Chiffre un pointeur de données.<br/> |
 
 
 

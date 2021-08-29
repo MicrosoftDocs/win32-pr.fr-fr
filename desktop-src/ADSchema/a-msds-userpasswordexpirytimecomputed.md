@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 024b34a57823c913d45eb24ebb294fda5c2a8f37
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f4f6add282622557086379b4812958903f5184fdcb16faa72b6ef8780b3b4b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763189"
 ---
 # <a name="ms-ds-user-password-expiry-time-computed-attribute"></a>ms-DS-User-Password-expiration-attribut calculé dans le temps
 
@@ -36,13 +36,13 @@ Contient l’heure d’expiration du mot de passe actuel de l’utilisateur.
 | Fréquence des mises à jour  | \-                                       |
 | Attribute-Id      | 1.2.840.113556.1.4.1996                  |
 | System-ID-GUID    | add5cf10-7b09-4449-9ae6-2534148f8a72     |
-| Syntaxe            | [**Défini**](s-interval.md)           |
+| Syntaxe            | [**Intervalle**](s-interval.md)           |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

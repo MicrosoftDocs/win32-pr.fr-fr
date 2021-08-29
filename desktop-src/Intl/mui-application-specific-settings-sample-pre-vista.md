@@ -1,19 +1,19 @@
 ---
-description: 'MUI : exemple de paramètres de Application-Specific (antérieur à Windows Vista)'
+description: 'MUI : exemple de Paramètres Application-Specific (pré-Windows Vista)'
 ms.assetid: 932aa981-ddd9-4a5b-9003-7dafd98e3ae4
-title: 'MUI : exemple de paramètres de Application-Specific (antérieur à Windows Vista)'
+title: 'MUI : exemple de Paramètres Application-Specific (pré-Windows Vista)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c2623c3d0b757f3266e56266a6e84a4d309ecf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2a95d616003b2158b2945b77a775884862f54f28a59b3f645139e1a3d40dd8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765029"
 ---
-# <a name="mui-application-specific-settings-sample-pre-windows-vista"></a>MUI : exemple de paramètres de Application-Specific (antérieur à Windows Vista)
+# <a name="mui-application-specific-settings-sample-pre-windows-vista"></a>MUI : exemple de Paramètres Application-Specific (pré-Windows Vista)
 
-L’exemple d’application décrit dans cette rubrique est semblable à celui présenté dans [MUI : Application-Specific, exemple de paramètres (Windows Vista)](mui-application-specific-settings-sample-vista.md), à ceci près que cette application s’exécutera sur Windows 2000 et versions ultérieures. La principale différence par rapport à l’autre exemple est que la langue de secours doit être personnalisée pour s’exécuter sur plusieurs systèmes d’exploitation.
+l’exemple d’application décrit dans cette rubrique est semblable à celui présenté dans [MUI : Application-Specific Paramètres sample (Windows Vista)](mui-application-specific-settings-sample-vista.md), à ceci près que cette application s’exécutera sur Windows 2000 et versions ultérieures. La principale différence par rapport à l’autre exemple est que la langue de secours doit être personnalisée pour s’exécuter sur plusieurs systèmes d’exploitation.
 
 Cette application commence par analyser une liste de langues délimitée dans un fichier texte et la convertit en une liste de langues à plusieurs chaînes pour définir les préférences linguistiques spécifiques à l’application. Les délimiteurs pris en charge dans l’exemple sont « , », « ; », «  : » et «». Après l’analyse de la liste, le code recherche et charge les ressources dans le langage identifié. Contrairement à l’autre exemple de paramètres spécifiques à l’application, ce code charge et libère les fichiers de ressources à l’aide d’appels aux fonctions MUI [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya) et [**FreeMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-freemuilibrary).
 

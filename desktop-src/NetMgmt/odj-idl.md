@@ -5,18 +5,18 @@ ms.assetid: d495e2f0-5174-4d05-9297-4b4b0f200f08
 ms.topic: article
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: dec651c721cbe6bbf74123692137a01e528a82e5
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: f5b58287b778aa46de1bce9e99556c8c144f22d00b3699622cc8244cb092d02d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104383167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911619"
 ---
 # <a name="offline-domain-join-idl-definitions"></a>Définitions IDL de jonction de domaine hors connexion
 
 ## <a name="description"></a>Description
 
-Les structures de données de jonction de domaine hors connexion (ODJ) ne sont pas définies dans un fichier d’en-tête C\C + +.  Au lieu de cela, les structures sont définies au format IDL (Interface Definition Language), une fois que la compilation est utilisée pour la sérialisation et la désérialisation. Sur la plateforme Windows, la sérialisation et la désérialisation de ces structures sont gérées automatiquement par les API Win32 suivantes :
+Les structures de données de jonction de domaine hors connexion (ODJ) ne sont pas définies dans un fichier d’en-tête C\C + +.  Au lieu de cela, les structures sont définies au format IDL (Interface Definition Language), une fois que la compilation est utilisée pour la sérialisation et la désérialisation. sur la plateforme Windows la sérialisation et la désérialisation de ces structures sont gérées automatiquement par les api Win32 suivantes :
 
 <a href="/windows/win32/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a>
 
@@ -26,7 +26,7 @@ Les structures de données de jonction de domaine hors connexion (ODJ) ne sont p
 
 <a href="/windows/win32/api/lmjoin/nf-lmjoin-netrequestprovisioningpackageinstall">NetRequestProvisioningPackageInstall</a>
 
-Dans certains cas, par exemple, l’interopérabilité avec des plateformes non-Windows, il peut être nécessaire de procéder à une sérialisation et une désérialisation manuelles. Cette rubrique contient des définitions pour toutes les structures de données ODJ dans une seule unité de compilation IDL et est incluse pour convienence. Une définition de fichier de configuration d’application (ACF) correspondante est également définie. Ce contenu n’est pas fourni dans le cadre d’un kit de développement logiciel (SDK). Par conséquent, le contenu ci-dessous doit être copié dans votre code et compilé avec un compilateur IDL. Le compilateur IDL produira les fonctions stub serialization\deserialization nécessaires, qui sont ensuite liées à votre application. Pour plus d’informations sur le mode de sérialisation et de désérialisation des types, consultez <a href="/windows/win32/rpc/type-serialization">sérialisation de type</a> .
+dans certaines situations, par exemple l’interopérabilité avec des plateformes non Windows, il peut être nécessaire de procéder à une sérialisation et une désérialisation manuelles. Cette rubrique contient des définitions pour toutes les structures de données ODJ dans une seule unité de compilation IDL et est incluse pour convienence. Une définition de fichier de configuration d’application (ACF) correspondante est également définie. Ce contenu n’est pas fourni dans le cadre d’un kit de développement logiciel (SDK). Par conséquent, le contenu ci-dessous doit être copié dans votre code et compilé avec un compilateur IDL. Le compilateur IDL produira les fonctions stub serialization\deserialization nécessaires, qui sont ensuite liées à votre application. Pour plus d’informations sur le mode de sérialisation et de désérialisation des types, consultez <a href="/windows/win32/rpc/type-serialization">sérialisation de type</a> .
 
 Reportez-vous aux sections de structure individuelles pour obtenir une documentation détaillée sur les membres.
 

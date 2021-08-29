@@ -4,12 +4,12 @@ ms.assetid: 85e3b953-be36-4d60-b04e-4f572d0b9564
 title: Récupération des types de vecteurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4945b45e4e78b6c4f9f9e0fb4b3848f813549105
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d15579d7067d0eafba0d181d8e8845dfa1bd78b060fb5fba8b08f196d2107d3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739459"
 ---
 # <a name="retrieving-vector-types"></a>Récupération des types de vecteurs
 

@@ -4,12 +4,12 @@ ms.assetid: 3cf3a16b-194a-404e-aba7-d094364c6f05
 title: Structures de l’API du spouleur d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c3644a45837b6f2a089204cc5fcf55c52c280aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e1b4683737977c3738dab0771f95e46c4e10eadd98b653074894305dffd4447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824839"
 ---
 # <a name="print-spooler-api-structures"></a>Structures de l’API du spouleur d’impression
 

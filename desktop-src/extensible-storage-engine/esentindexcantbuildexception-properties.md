@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101812
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a819fab541b31f007804f923d614d2a405303761
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba1f7c150287dd570955779b4b5bc44f2dda330f55b3d50a1ec099e89206055e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838340"
 ---
 # <a name="esentindexcantbuildexception-properties"></a>Propriétés EsentIndexCantBuildException
 
@@ -49,7 +49,7 @@ Le type [EsentIndexCantBuildException](./esentindexcantbuildexception-class.md) 
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

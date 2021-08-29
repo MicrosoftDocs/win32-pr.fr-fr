@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6610448d822fe75082c225686dc6d809229a325f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4f43a089092919124ed3031bafd12a70af1e1ffa0850bf058a91cc9dfd66125
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771089"
 ---
 # <a name="imstscaxsecuredsettings-property"></a>IMsTscAx :: SecuredSettings, propriété
 
@@ -86,7 +86,7 @@ Pointeur d’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interfa
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle est hébergé dans une page Web et que la zone de sécurité URL d’Internet Explorer actuelle n’autorise pas la récupération de l’adresse de l’interface, cette méthode retourne **E \_ Fail**.
 

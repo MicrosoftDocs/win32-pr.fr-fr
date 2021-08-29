@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 95dc8e16939c345b6f885980dd2f1194f180ac5e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4247b04c70cca8da8527d0d9f19ec872c35ec2ee610e3b0e98d88fbffbbfd3d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794399"
 ---
 # <a name="swbemservicesassociatorsof-method"></a>SWbemServices. AssociatorsOf, méthode
 
@@ -188,7 +188,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si l’appel réussit, un objet [**SWbemObjectSet**](swbemobjectset.md) est retourné.
 
@@ -238,7 +238,7 @@ L’élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La méthode récupère les instances des ressources managées associées à une ressource spécifiée par le biais d’une ou plusieurs classes d’association. Vous fournissez le chemin d’accès de l’objet pour le point de terminaison d’origine, et AssociatorsOf retourne les ressources managées au point de terminaison opposé. La méthode AssociatorsOf exécute la même fonction que les ASSOCIateurs de la requête WQL.
 

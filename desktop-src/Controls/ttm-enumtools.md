@@ -3,7 +3,7 @@ title: Message TTM_ENUMTOOLS (commctrl. h)
 description: Récupère les informations qu’un contrôle ToolTip gère à propos de l’outil actuel \ 8212 ; autrement dit, l’outil pour lequel l’info-bulle affiche actuellement du texte.
 ms.assetid: c470db71-c24c-45f4-b497-e59811017eee
 keywords:
-- TTM_ENUMTOOLS les contrôles de message Windows
+- TTM_ENUMTOOLS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a67f23a145838aa3562c81e78fb82c3ea66320df
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: e7534169bb0808daa63e835d3a46bf4ab31c059b63267727d5c4dbf43f28864d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769479"
 ---
 # <a name="ttm_enumtools-message"></a>\_Message atténuation ENUMTOOLS
 
@@ -45,13 +45,13 @@ Pointeur vers une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la **valeur false** , qu’un outil ait ou non été énuméré.
 
 ## <a name="remarks"></a>Remarques
 
-**Avertissement de sécurité :** L’utilisation de ce message peut compromettre la sécurité de votre programme. Ce message ne permet pas au destinataire du message de connaître la taille de la mémoire tampon ou de spécifier la taille de la mémoire tampon. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
+**Avertissement de sécurité :** L’utilisation de ce message peut compromettre la sécurité de votre programme. Ce message ne permet pas au destinataire du message de connaître la taille de la mémoire tampon ou de spécifier la taille de la mémoire tampon. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -59,8 +59,8 @@ Retourne la **valeur false** , qu’un outil ait ou non été énuméré.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ ENUMTOOLSW** (Unicode) et **atténuation \_ ENUMTOOLSA** (ANSI)<br/>               |
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: bb45bdce52b1930f1893f7716d573033627e0cf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726a55c53a7be5147c505522f4b20c3c93c04fb7df0d581cf4712961b7888d49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860109"
 ---
 # <a name="swbemprivilegedisplayname-property"></a>SWbemPrivilege. DisplayName, propriété
 

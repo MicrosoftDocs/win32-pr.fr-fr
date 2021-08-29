@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3b684ffea65e85854d2928931f492fb247cc0b70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 353faa17a505742f9e5b31feeb1c0108add7895f8039f12905c399d515bb2bb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910869"
 ---
 # <a name="generic_port-union"></a>\_Union de port générique
 

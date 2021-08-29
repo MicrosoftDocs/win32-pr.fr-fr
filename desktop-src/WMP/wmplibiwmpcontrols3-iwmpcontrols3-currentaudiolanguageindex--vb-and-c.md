@@ -3,9 +3,9 @@ title: IWMPControls3 propriété currentAudioLanguageIndex
 description: La propriété currentAudioLanguageIndex obtient ou définit l’index de base un qui correspond au langage audio pour la lecture.
 ms.assetid: 3ed60827-c4e9-4455-b95e-b6eebf7a9a08
 keywords:
-- propriété currentAudioLanguageIndex lecteur Windows Media
-- propriété currentAudioLanguageIndex lecteur Windows Media, interface IWMPControls3
-- Interface IWMPControls3 lecteur Windows Media, propriété currentAudioLanguageIndex
+- Lecteur Windows Media de la propriété currentAudioLanguageIndex
+- Lecteur Windows Media de la propriété currentAudioLanguageIndex, interface IWMPControls3
+- Lecteur Windows Media de l’interface IWMPControls3, propriété currentAudioLanguageIndex
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4fb36eea4038322cacd7f233892151ab77e5eea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1c5e17c40908dbc76c61fe60c1b3d885b709d7b1e9282136957e0617ae52ea7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734989"
 ---
 # <a name="iwmpcontrols3currentaudiolanguageindex-property"></a>IWMPControls3 :: currentAudioLanguageIndex, propriété
 
@@ -48,9 +48,9 @@ Public Property currentAudioLanguageIndex As System.Int32
 
 **System. Int32** qui est l’index de base un de la langue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour le contenu multimédia Windows, les propriétés et les méthodes associées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
 Utilisez la propriété **audioLanguageCount** pour connaître le nombre de langues audio prises en charge.
 

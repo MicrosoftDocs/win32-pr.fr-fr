@@ -4,12 +4,12 @@ ms.assetid: dabe44f7-97dd-4037-80e5-f289bab6d4b3
 title: Supprimer ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f214330fc16704fd4eef50bc8c75fc10fc2823d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d59a22ab4fc321ceaf661aed1ba37970806beb8afe87e90ee9dbc59fa52e8fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821379"
 ---
 # <a name="remove-controlevent"></a>Supprimer ControlEvent,
 
@@ -31,7 +31,7 @@ Chaîne qui est le nom de la fonctionnalité ou « ALL ».
 
 Ce ControlEvent, n’effectue pas d’action sur les abonnés.
 
-## <a name="action-by-publisher-when-subscriber-activated"></a>Action par le serveur de publication lors de l’activation de l’abonné
+## <a name="action-by-publisher-when-subscriber-activated"></a>Action par Publisher lors de l’activation de l’abonné
 
 Le programme d’installation conserve la boîte de dialogue actuelle en cours d’exécution et notifie le programme d’installation.
 

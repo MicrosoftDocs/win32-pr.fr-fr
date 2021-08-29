@@ -3,7 +3,7 @@ title: DURATIONTEXT
 description: Il s’agit d’un élément de texte prédéfini avec les valeurs par défaut suivantes. | DURATIONTEXT
 ms.assetid: 32102065-e184-41f7-8975-e28b6b20b550
 keywords:
-- Lecteur Windows Media DURATIONTEXT
+- DURATIONTEXT Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69a6e52e13eb69350a9ab4e4459d41899ee844d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52d58133d86f964d80d187158310da68de3a58717e38e42819330cf4d932401a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863249"
 ---
 # <a name="durationtext"></a>DURATIONTEXT
 
@@ -30,7 +30,7 @@ tabstop="true"
 justification="right"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela permet de créer un élément de **texte** qui affichera la durée du média en cours de lecture. Toutes les propriétés de cet élément de **texte** peuvent être substituées en les spécifiant explicitement.
 

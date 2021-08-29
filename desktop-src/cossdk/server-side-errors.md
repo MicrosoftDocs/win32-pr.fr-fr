@@ -4,12 +4,12 @@ ms.assetid: ce8ddb52-237c-4d46-a088-9f592afadcd2
 title: Erreurs de Server-Side
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7946b8197553874b8da22d35f8fab5b83f14862
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1522f1e4ca07a1a2bfc17273b331a7beb3efc67a8c3f9a90e925161949f694ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793429"
 ---
 # <a name="server-side-errors"></a>Erreurs de Server-Side
 

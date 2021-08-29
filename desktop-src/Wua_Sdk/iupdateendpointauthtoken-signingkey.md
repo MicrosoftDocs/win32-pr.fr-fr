@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: ae9847eb698bfcf0402a550ecb54705c4b3f3a52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45e513483db561ad27e9f1c2f7e18457b039d4bd7eaa1aaa61194443c8ccc78e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855739"
 ---
 # <a name="iupdateendpointauthtokensigningkey-method"></a>IUpdateEndpointAuthToken :: SigningKey, méthode
 
@@ -56,7 +56,7 @@ Taille de la clé référencée par le paramètres *pbkey* .
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne **S \_ OK** en cas de réussite. Sinon, retourne un code d’erreur COM ou Windows.
+Retourne **S \_ OK** en cas de réussite. sinon, retourne un code d’erreur COM ou Windows.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -64,8 +64,8 @@ Retourne **S \_ OK** en cas de réussite. Sinon, retourne un code d’erreur COM
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>                |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>                |
 | En-tête<br/>                   | <dl> <dt>UpdateEndpointAuth. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>UpdateEndpointAuth. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>UpdateEndpointAuth. lib</dt> </dl> |

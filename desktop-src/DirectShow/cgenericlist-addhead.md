@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62a32eb177c80d10a876a4b163c8a1609104fbea
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 176a31c3acf846c4112e7bcb7bd457872e1e4086b4a8d214ccc7a175e7891feb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104043202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697460"
 ---
 # <a name="cgenericlistaddhead-method-wxlisth---pobj-parameter"></a>Méthode CGenericList. AddHead (Wxlist. h)-paramètre pObj
 
@@ -57,7 +57,7 @@ Retourne une valeur de POSITION indiquant la nouvelle position de la tête. Si l
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | Wxlist. h (include streams. h) |
+| En-tête | Wxlist. h (inclure Flux. h) |
 | Bibliothèque| Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

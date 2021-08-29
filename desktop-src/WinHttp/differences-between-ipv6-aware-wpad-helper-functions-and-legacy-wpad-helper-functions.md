@@ -4,12 +4,12 @@ description: Différences entre les fonctions d’assistance WPAD IPv6-Aware et 
 ms.assetid: ea4b1c0d-ce02-477b-85c8-44e1beef90c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511b7f04aa0a2abe04b99562c15aeb3a53bdaadf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6423b9bcb6a609cf21b8399ca03d7da1e0b19450994eb78a66f4c7aaad7d31d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860999"
 ---
 # <a name="ipv6-aware-and-legacy-wpad-helper-functions"></a>IPv6-Aware et fonctions d’assistance WPAD existantes
 
@@ -164,7 +164,7 @@ Les tableaux suivants expliquent les différences entre les nouvelles fonctions 
  
 
 > [!Note]  
-> Cette fonctionnalité nécessite Windows Internet Explorer 7 ou version ultérieure.
+> cette fonctionnalité nécessite Windows Internet Explorer 7 ou version ultérieure.
 
  
 

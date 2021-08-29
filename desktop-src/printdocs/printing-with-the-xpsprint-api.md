@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique explique comment utiliser l’API d’impression XPS pour imprimer à partir d’une application Windows.
+description: cette rubrique explique comment utiliser l’API d’impression XPS pour imprimer à partir d’une application Windows.
 ms.assetid: 3d7ab169-412c-434f-a865-4da4af370eaf
 title: 'Comment : imprimer avec l’API d’impression XPS'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b4be5f083fb31eccaf2dc4b555435bd15a7fb45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c4261ab9e30f3413ca61c99590056f386d92f89e0ba5de9d1627f91a9a21062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824809"
 ---
 # <a name="how-to-print-with-the-xps-print-api"></a>Comment : imprimer avec l’API d’impression XPS
 
-Cette rubrique explique comment utiliser l' [API d’impression XPS](xpsprint-api.md) pour imprimer à partir d’une application Windows.
+cette rubrique explique comment utiliser l' [API d’impression XPS](xpsprint-api.md) pour imprimer à partir d’une application Windows.
 
-L' [API d’impression XPS](xpsprint-api.md) permet aux applications Windows natives d’imprimer des documents XPS. Une application peut créer un document XPS à l’aide de l' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)). La rubrique d’aide sur les [tâches communes de programmation de documents XPS](/previous-versions/windows/desktop/dd316968(v=vs.85)) décrit la procédure à suivre. Une fois qu’un document XPS a été créé, l’application peut utiliser l’API d’impression XPS pour l’imprimer.
+l' [API d’impression xps](xpsprint-api.md) permet aux applications Windows natives d’imprimer des documents XPS. Une application peut créer un document XPS à l’aide de l' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)). La rubrique d’aide sur les [tâches communes de programmation de documents XPS](/previous-versions/windows/desktop/dd316968(v=vs.85)) décrit la procédure à suivre. Une fois qu’un document XPS a été créé, l’application peut utiliser l’API d’impression XPS pour l’imprimer.
 
 L’utilisation de l' [API d’impression XPS](xpsprint-api.md) pour imprimer un document à partir d’une application implique les étapes suivantes.
 

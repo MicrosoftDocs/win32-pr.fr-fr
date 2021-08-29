@@ -4,12 +4,12 @@ ms.assetid: d59d0dcc-deae-3f7e-55c5-0c5ff383343b
 title: Fonctions de matrice de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a91ecdef8389bf60594d370c2b3de01995bc1169
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 71f560d42e5bf2095c61cde60de1f8b3e5e78d31eb1c72b4a71561548ed89058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841249"
 ---
 # <a name="directxmath-library-matrix-functions"></a>Fonctions de matrice de la bibliothèque DirectXMath
 

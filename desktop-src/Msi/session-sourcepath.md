@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 7a868e68e26f28d4fc2137e735ddc6d4c6ab0066
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d250c786046c778c5a37c07c0378ea856bafb880fc21478699d79b10b4cfcb45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628799"
 ---
 # <a name="sessionsourcepath-property"></a>Session. SourcePath, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.SourcePath
 
 Nom d’une propriété de dossier obligatoire et sensible à la casse, comme spécifié par une clé primaire de la [table de répertoires](directory-table.md). Une erreur est générée si le dossier n’existe pas.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 

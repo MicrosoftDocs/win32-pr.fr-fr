@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e340d78057c12e58159a293468598da7dbf53e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e412cb67ee269cdf291e0c992dc3724ff1187b1704f600ceb3e7fa595e57708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795559"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_mbtype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS MBType
 
@@ -72,7 +72,7 @@ Nom du propriétaire de l’enregistrement de ressource.
 *RecordClass* \[ dans\]
 </dt> <dd>
 
-Optionnel. Classe de l’enregistrement de ressource. La valeur par défaut est 1. Les valeurs suivantes sont valides.
+Facultatif. Classe de l’enregistrement de ressource. La valeur par défaut est 1. Les valeurs suivantes sont valides.
 
 
 
@@ -92,7 +92,7 @@ Optionnel. Classe de l’enregistrement de ressource. La valeur par défaut est 
 *TTL* \[ dans\]
 </dt> <dd>
 
-Optionnel. Durée, en secondes, pendant laquelle l’enregistrement de ressource peut être mis en cache par un programme de résolution DNS.
+Facultatif. Durée, en secondes, pendant laquelle l’enregistrement de ressource peut être mis en cache par un programme de résolution DNS.
 
 </dd> <dt>
 

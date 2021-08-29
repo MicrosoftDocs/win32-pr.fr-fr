@@ -3,19 +3,19 @@ title: Élément EDITBOX
 description: Élément EDITBOX
 ms.assetid: 9ad4abab-e448-4fcf-9451-2476a603e401
 keywords:
-- Apparences du lecteur Windows Media, élément EDITBOX
+- habillages Lecteur Windows Media, élément EDITBOX
 - Skins, élément EDITBOX
 - Élément EDITBOX
 - référence pour les habillages, élément EDITBOX
 - éléments, EDITBOX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 572e6421c5c94643a1ea256a4660bdb97a765ef7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b8832163b46c5c1f6a2b0e0369b44d885dc97822b0f8fab3b90326e56a8db21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106543403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863169"
 ---
 # <a name="editbox-element"></a>Élément EDITBOX
 
@@ -43,7 +43,7 @@ L’élément **EDITBOX** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **EDITBOX** prend en charge les méthodes suivantes.
 
@@ -61,14 +61,14 @@ L’élément **EDITBOX** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **EDITBOX** prend en charge les attributs ambiants et peut implémenter tous les gestionnaires d’événements ambiants à l’exception de **OnClick**. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
 > [!Note]  
-> Cet élément requiert le lecteur Windows Media pour Windows XP ou version ultérieure.
+> cet élément requiert Lecteur Windows Media pour Windows XP ou version ultérieure.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -77,9 +77,9 @@ L’élément **EDITBOX** prend en charge les attributs ambiants et peut implém
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

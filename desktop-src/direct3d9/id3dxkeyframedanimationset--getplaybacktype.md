@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 22984874d7f835eea6c2e1be309aa57c81caaee6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bd8b980120d85866cd8623696c8312aa443932e88ce95c5f64f19faed123a856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856619"
 ---
 # <a name="id3dxkeyframedanimationsetgetplaybacktype-method"></a>ID3DXKeyframedAnimationSet :: GetPlaybackType, méthode
 
@@ -38,7 +38,7 @@ D3DXPLAYBACK_TYPE GetPlaybackType();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXPLAYBACK \_**](./d3dxplayback-type.md)**
 

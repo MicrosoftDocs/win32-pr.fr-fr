@@ -4,12 +4,12 @@ ms.assetid: 08174502-3ff1-4c1c-bcd0-46fd85882305
 title: Chiffrement des données en bloc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ecfb55c162e5aa576d8baa3d0ccbc45e9588c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb50e156a2e689d01afba2cb383a08dad0b005377e2e745e013adde4b685d882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879479"
 ---
 # <a name="bulk-data-encryption"></a>Chiffrement des données en bloc
 

@@ -4,12 +4,12 @@ ms.assetid: ae6a5159-4a77-488c-a836-da3a16e7fcaf
 title: Extensions XMFLOAT4X4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59c04f0aa98718ef820a9d33aa6e15d0c31c9363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f4be0930887bddd2b60106fc1069b0a455e1958b4a584a9f18f30f402d2ff0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740509"
 ---
 # <a name="xmfloat4x4-extensions"></a>Extensions XMFLOAT4X4
 

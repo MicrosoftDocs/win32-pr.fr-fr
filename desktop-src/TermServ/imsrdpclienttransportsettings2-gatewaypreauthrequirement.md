@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 058ca92237a4f9729f526030f5f8a836ce1c739c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72dd588cd3280128dde654497de359a901182935035213e420831857ab5c9f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771259"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaypreauthrequirement-property"></a>IMsRdpClientTransportSettings2 :: GatewayPreAuthRequirement, propriété
 

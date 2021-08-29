@@ -21,12 +21,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e26f1738c046e446fa898c4fdff2f6e8855730
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a489f8a4d9e3d442d4157243594c187a799d20a1d07b3ccc68135e73ddce288
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815659"
 ---
 # <a name="microsoftdns_statistic-class"></a>\_Classe de statistiques MicrosoftDNS
 
@@ -142,7 +142,7 @@ Valeur numérique de la statistique, représentée sous la forme d’un DWORD.
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0692166766b9f52a1b6b13719c2427438b59835f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 8babbe593db956e87ce5dbe527a0ef19d39cec299a10ad786bf7d51761232aa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103762428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743299"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloat-function-for-texture2darray"></a>Fonction SampleCmp :: SampleCmp (S, float, float, int, float) pour Texture2DArray
 

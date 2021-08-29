@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: efae27b26235cbf1c298c7b45de69e1cf49c8570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc73c77fcc05c404d0dfb62be5a32b107fdedbdb12f9bd88f4bf8e51dc0c8aaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860199"
 ---
 # <a name="swbemobjectsubclasses_-method"></a>SWbemObject. Subclasses, \_ méthode
 
@@ -159,7 +159,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il n’y a pas d’erreur pour que la collection retournée n’ait aucun élément, s’il n’existe aucune sous-classe de l’objet actuel. La méthode **subclasss \_** fonctionne uniquement pour les objets de classe.
 

@@ -4,12 +4,12 @@ ms.assetid: a2c97b8b-b1b1-4dd8-8f23-edffaa74d028
 title: Fonctions des compteurs de performance
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 8ef01ac07ae8507f1005839ab838e2528e76d6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5d93bb23bf6a7b26d9f869e829416aec3d66ac3daa1c8f408e4959b062b187e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119624969"
 ---
 # <a name="performance-counters-functions"></a>Fonctions des compteurs de performance
 
@@ -22,7 +22,7 @@ Utilisez les fonctions suivantes pour consommer et fournir des données de perfo
 Utilisez les fonctions d’assistance des données de performance (PDH) pour consommer les données de performances des fournisseurs de données de performances v1 et v2.
 
 > [!Note]
-> Les applications Windows OneCore ne peuvent pas utiliser les fonctions PDH. Si vous écrivez des applications OneCore Windows, utilisez les [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md).
+> les applications Windows OneCore ne peuvent pas utiliser les fonctions PDH. si vous écrivez des applications Windows OneCore, utilisez les [fonctions de consommateur de PerfLib V2](using-the-perflib-functions-to-consume-counter-data.md).
 
 - [*CounterPathCallBack*](/windows/desktop/api/Pdh/nc-pdh-counterpathcallback)
 - [**PdhAddCounter**](/windows/desktop/api/Pdh/nf-pdh-pdhaddcountera)
@@ -85,7 +85,7 @@ Utilisez les fonctions d’assistance des données de performance (PDH) pour con
 
 ### <a name="perflib-v2-consumer-functions"></a>Fonctions de consommateur de PerfLib v2
 
-Utilisez les fonctions de consommateur de PerfLib v2 pour consommer les données de performances des fournisseurs de données de performances v2 si vous ne pouvez pas utiliser les fonctions d’assistance des données de performance (PDH). Ces fonctions peuvent être utilisées lors de l’écriture d’applications OneCore pour collecter des countersets v2 ou lorsque vous devez collecter des countersets v2 spécifiques avec des dépendances et une surcharge minimales.
+Utilisez les fonctions de consommateur de PerfLib v2 pour consommer les données de performances des fournisseurs de données de performances v2 si vous ne pouvez pas utiliser les fonctions d’assistance des données de performance (PDH). ces fonctions peuvent être utilisées lors de l’écriture d’applications de OneCore pour collecter des countersets v2 ou lorsque vous devez collecter des countersets v2 spécifiques avec des dépendances et une surcharge minimales.
 
 > [!TIP]
 > Les fonctions de consommateur de PerfLib v2 sont plus difficiles à utiliser que les fonctions de performance Data Helper (PDH) et ne prennent en charge que la collecte de données à partir de fournisseurs v2. Les fonctions PDH doivent être préférées pour la plupart des applications.

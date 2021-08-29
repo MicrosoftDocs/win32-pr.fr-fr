@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cedabfb066a5905adb2ed8eac9996fd77c0e12be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 048cef74eb5c375bf7c68a6c37184741a63140230e3d0ac36ac73c32ffd848ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755899"
 ---
 # <a name="bg_file_range-structure"></a>Structure BG_FILE_RANGE
 
@@ -56,7 +56,7 @@ Longueur de la plage, en octets. Ne spécifiez pas de longueur égale à zéro o
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La plage doit exister dans le fichier ou générer une erreur **DO_E_INVALID_RANGE** .
 
@@ -66,8 +66,8 @@ La plage doit exister dans le fichier ou générer une erreur **DO_E_INVALID_RAN
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ keywords:
 - UIA_LocalizedControlTypePropertyId, propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b504de2c8f0ae660a27b3b16fa4537630a468f5c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef59d46e8f0ad00d2613bcec43ee914c71c9edbc1c8501cd2a714df2b883f63f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795478"
 ---
 # <a name="ui-automation-control-types-overview"></a>Vue d'ensemble des types de contrôle UI Automation
 
@@ -116,6 +116,6 @@ Les rubriques suivantes décrivent les types de contrôle UI Automation. Pour ch
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

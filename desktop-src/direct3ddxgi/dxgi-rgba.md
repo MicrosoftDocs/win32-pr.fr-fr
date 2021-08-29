@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - DXGItype.h
-ms.openlocfilehash: b0447d6470401d4136fbfd36f6d9c089e331b14b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2c1ef7bd65645fa68e699b6f70894e72452a707eac29ab0d35e56364a66604bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627419"
 ---
 # <a name="dxgi_rgba-structure"></a>DXGI \_ RVBA, structure
 
@@ -70,7 +70,7 @@ Valeur à virgule flottante qui spécifie le composant alpha d’une couleur. Ce
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Vous pouvez définir les membres de cette structure sur des valeurs situées en dehors de la plage comprise entre 0 et 1 pour implémenter des effets inhabituels. Les valeurs supérieures à 1 produisent des lumières fortes qui ont tendance à nettoyer une scène. Les valeurs négatives produisent des lumières sombres qui suppriment en fait la lumière d’une scène.
 
@@ -91,8 +91,8 @@ Vous pouvez utiliser **dxgi \_ RVBA** avec [**IDXGISwapChain1 :: SetBackgroundC
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 8 et mise à jour de plateforme pour les applications de \[ Bureau UWP Windows 7 \|\]<br/>                        |
-| Serveur minimal pris en charge<br/> | Windows Server 2012 et la mise à jour de la plateforme pour les applications de bureau Windows Server 2008 R2 pour les applications \[ \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 \[ \|\]<br/>                        |
+| Serveur minimal pris en charge<br/> | mise à jour Windows Server 2012 et de plateforme pour les applications de bureau Windows Server 2008 R2 \[ \|\]<br/> |
 | En-tête<br/>                   | <dl> <dt>DXGItype. h</dt> </dl>                      |
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c542b2b9ee1cd1696c7c95797c7df20aa02180cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f18634e3f160347a841008ec24a22c9443e92c546d0637da791b5b4a9c81522
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696239"
 ---
 # <a name="file_system_recognition_structure-structure"></a>Structure de la structure de reconnaissance du système de fichiers \_ \_ \_
 
@@ -92,7 +92,7 @@ Nombre d’octets dans cette structure, du début à la fin, y compris le membre
 
 </dd> <dt>
 
-**EEPROM**
+**Checksum**
 </dt> <dd>
 
 Somme de contrôle de deux octets calculée sur les octets à partir du membre de données **FsName** et se terminant au dernier octet de cette structure, à l’exclusion des membres de données **JMP** et **checksum** .
@@ -105,8 +105,8 @@ Somme de contrôle de deux octets calculée sur les octets à partir du membre d
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Sécurité WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f41276628d1f22097f292d7deb264769406721d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ea20b598569350fb57e1901baccb6d45e9ed2842709e72f649717bf950349ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757219"
 ---
 # <a name="wmi-security"></a>Sécurité WMI
 

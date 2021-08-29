@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b3d1aa4d0edd93ef277b1465e1c75493f95e843
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 97b3a12e32bb061dbd36dcb10b3e4fc96b952772a69a627a6a86cf29368a0c54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833689"
 ---
 # <a name="getdistinguishedname-method-of-the-microsoftdns_cache-class"></a>Méthode GetDistinguishedName de la \_ classe de cache MicrosoftDNS
 

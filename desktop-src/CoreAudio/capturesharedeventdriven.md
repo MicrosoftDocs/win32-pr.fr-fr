@@ -4,12 +4,12 @@ ms.assetid: 6ff3bc23-550e-41b7-b37c-35d552b29e20
 title: CaptureSharedEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 339bd02fcb94f65be558c2dce767747ebf4fab98
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d8d71739c6e308ee9be79263dc5cdd5bbc693775722f14a35567b6a70138c8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758979"
 ---
 # <a name="capturesharedeventdriven"></a>CaptureSharedEventDriven
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour capturer des donn
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -52,7 +52,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                                  |
 |-------------|-----------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ CaptureSharedEventDriven \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ CaptureSharedEventDriven \\ ... |
 
 
 
@@ -62,9 +62,9 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple CaptureSharedEventDriven, procédez comme suit :
 
-1.  Ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple CaptureSharedEventDriven.
-2.  Exécutez la commande `start WASAPICaptureSharedEventDriven.sln` dans le répertoire CaptureSharedEventDriven pour ouvrir le projet WASAPICaptureSharedEventDriven dans la fenêtre Visual Studio.
-3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPICaptureSharedEventDriven. vcproj.
+1.  ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple CaptureSharedEventDriven.
+2.  exécutez la commande `start WASAPICaptureSharedEventDriven.sln` dans le répertoire CaptureSharedEventDriven pour ouvrir le projet WASAPICaptureSharedEventDriven dans la fenêtre Visual Studio.
+3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPICaptureSharedEventDriven. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

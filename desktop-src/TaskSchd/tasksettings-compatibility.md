@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ba93d3716a8fb0e701cc783ec83abba40190d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48cc560029400206d749ee7fc74fdf2330b02578ffd73fa4494d8d426951e5d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738239"
 ---
 # <a name="tasksettingscompatibility-property"></a>TaskSettings. Compatibility, propriété
 
@@ -52,9 +52,9 @@ TaskSettings.Compatibility As Integer
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La compatibilité des tâches, définie par la propriété de [**compatibilité**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) , doit uniquement être définie sur \_ compatibilité \_ des tâches v1 si une tâche doit être accessible ou modifiée à partir d’un ordinateur Windows XP, Windows Server 2003 ou Windows 2000. Dans le cas contraire, il est recommandé d’utiliser la compatibilité Planificateur de tâches 2,0, car la tâche aura davantage de fonctionnalités.
+la compatibilité des tâches, définie par la propriété de [**compatibilité**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) , doit uniquement être définie sur \_ compatibilité \_ des tâches V1 si une tâche doit être accessible ou modifiée à partir d’un ordinateur Windows XP, Windows Server 2003 ou Windows 2000. Dans le cas contraire, il est recommandé d’utiliser la compatibilité Planificateur de tâches 2,0, car la tâche aura davantage de fonctionnalités.
 
 Les tâches compatibles avec la commande AT ne peuvent avoir qu’un seul déclencheur d’heure.
 
@@ -68,8 +68,8 @@ Pour plus d’informations sur la compatibilité des tâches, consultez [Nouveau
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

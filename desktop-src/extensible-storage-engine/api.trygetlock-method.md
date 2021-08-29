@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9ecd4e0e66226d438b4e5a78b2397f5637154096
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6a8d4ac8b5b81b1238e7847846a1e95122bc53cf8912d591acb221d666d6e24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738579"
 ---
 # <a name="apitrygetlock-method"></a>API. TryGetLock, méthode
 

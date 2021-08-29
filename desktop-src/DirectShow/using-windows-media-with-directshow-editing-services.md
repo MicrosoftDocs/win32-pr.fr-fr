@@ -1,33 +1,33 @@
 ---
-description: Utilisation de Windows Media avec les services de modification DirectShow
+description: utilisation de Windows Media avec les Services d’édition DirectShow
 ms.assetid: 26a88197-ec80-4443-9d50-e11df40dd1eb
-title: Utilisation de Windows Media avec les services de modification DirectShow
+title: utilisation de Windows Media avec les Services d’édition DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18fbfe715495834217b695f887305f1ecb21cb6f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8e8c2e73fd4593a5f078c78e1e8290303b3574a314a504c4a555c46929361813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106539786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755929"
 ---
-# <a name="using-windows-media-with-directshow-editing-services"></a>Utilisation de Windows Media avec les services de modification DirectShow
+# <a name="using-windows-media-with-directshow-editing-services"></a>utilisation de Windows Media avec les Services d’édition DirectShow
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Cette section décrit comment utiliser du contenu Windows Media dans une application des [services de modification DirectShow](directshow-editing-services.md) . Il existe deux scénarios principaux :
+cette section décrit comment utiliser Windows contenu multimédia dans une application de [Services d’édition DirectShow](directshow-editing-services.md) (DES). Il existe deux scénarios principaux :
 
--   Éléments sources. Un projet DES peut contenir des clips audio et vidéo de fichiers Windows Media.
--   Format cible. Windows Media est un format idéal pour la sortie finale d’un projet de montage vidéo.
+-   Éléments sources. un projet DES peut contenir des clips audio et vidéo de Windows fichiers multimédias.
+-   Format cible. Windows Le média est un format idéal pour la sortie finale d’un projet de montage vidéo.
 
-Pour travailler avec des fichiers Windows Media, l’application doit fournir un certificat logiciel, également appelé clé. Pour ce faire, il implémente un objet de fournisseur de clés. Le fournisseur de clé est un objet COM qui expose l’interface **IServiceProvider** . Pour plus d’informations sur l’implémentation du fournisseur de clé, consultez [déverrouillage du kit de développement logiciel (SDK) de format Windows Media](unlocking-the-windows-media-format-sdk.md).
+pour utiliser des fichiers multimédias Windows, l’application doit fournir un certificat logiciel, également appelé clé. Pour ce faire, il implémente un objet de fournisseur de clés. Le fournisseur de clé est un objet COM qui expose l’interface **IServiceProvider** . pour plus d’informations sur l’implémentation du fournisseur de clé, consultez [déverrouillage du kit de développement logiciel (SDK) Windows Media Format](unlocking-the-windows-media-format-sdk.md).
 
-Pour utiliser DES avec des fichiers Windows Media, les objets DES suivants nécessitent la clé logicielle :
+pour utiliser les Windows avec des fichiers multimédias, les objets des suivants requièrent la clé logicielle :
 
 -   Moteur de rendu, pour l’aperçu ou l’écriture de fichiers.
 -   Objet MediaDet, pour récupérer des images vidéo ou des types de média à partir de fichiers ASF.
 -   \[! Précieuse\]  
-    > N’utilisez pas le moteur de rendu intelligent pour lire ou écrire des fichiers Windows Media. Utilisez toujours le moteur de rendu de base (CLSID \_ RenderEngine).
+    > n’utilisez pas le moteur de rendu intelligent pour lire ou écrire Windows fichiers multimédias. Utilisez toujours le moteur de rendu de base (CLSID \_ RenderEngine).
 
      
 
@@ -54,15 +54,15 @@ pKey->Release();
 
 
 
-Pour utiliser des clips source Windows Media dans un projet DES, appelez simplement **IObjectWithSite :: SetSite** sur le moteur de rendu avec un pointeur vers votre fournisseur de clés.
+pour utiliser Windows clips source de média dans un projet DES, appelez simplement **IObjectWithSite :: setsite** sur le moteur de rendu avec un pointeur vers votre fournisseur de clés.
 
-Pour plus d’informations sur l’écriture de fichiers Windows Media, consultez [écriture d’un fichier Windows Media dans des](writing-a-windows-media-file-in-des.md).
+pour plus d’informations sur l’écriture de Windows fichiers multimédias, consultez [écriture d’un fichier multimédia Windows dans DES](writing-a-windows-media-file-in-des.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Utilisation des services de modification DirectShow](using-directshow-editing-services.md)
+[utilisation des Services de modification DirectShow](using-directshow-editing-services.md)
 </dt> </dl>
 
  

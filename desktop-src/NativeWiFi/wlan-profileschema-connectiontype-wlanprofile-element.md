@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 1e7b456260c656ebb3d64b6a3732fe97ca3ca488
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01eec035fdd42504e3c3da0baec537b096d42c63deb7c336d8446bc7a0d95572
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799899"
 ---
 # <a name="connectiontype-wlanprofile-element"></a>Élément connectionType (WLANProfile)
 
@@ -55,7 +55,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **ConnectionTy
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

@@ -7,12 +7,12 @@ keywords:
 - API de la version 2,0 du serveur HTTP, nouveautés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 932a27a45768d0cb00cde4cb89fc4e5d424d1f94
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a145d090add581809375528ad6f10ea08d5da16ee4aed4b8cc046ba9cbbbffd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812039"
 ---
 # <a name="whats-new-for-http-server-version-20-api"></a>Nouveautés de l’API du serveur HTTP version 2,0
 
@@ -64,7 +64,7 @@ Les applications basées sur l’API du serveur HTTP partagent automatiquement l
 
 ## <a name="etw-support"></a>Prise en charge ETW
 
-Le suivi avancé à l’aide du Suivi d’v nements pour Windows (ETW) permet aux applications de plus grandes capacités de diagnostic. Le suivi d’événements est disponible pour les inscriptions et réservations d’URL, la configuration de propriété, les événements de cache, l’authentification et la journalisation pour n’en nommer que quelques-uns.
+le suivi avancé à l’aide du Suivi d’v nements pour Windows (ETW) permet aux applications de plus grandes capacités de diagnostic. Le suivi d’événements est disponible pour les inscriptions et réservations d’URL, la configuration de propriété, les événements de cache, l’authentification et la journalisation pour n’en nommer que quelques-uns.
 
 ## <a name="performance-counters"></a>Compteurs de performance
 
@@ -76,11 +76,11 @@ Les portions d’hôte et de chemin d’accès internationalisées de l’URL au
 
 ## <a name="netsh-extensions"></a>Extensions NetSH
 
-L’utilitaire netsh remplace l’outil HttpCfg.exe disponible dans Windows Server 2003 et Windows XP Service Pack 2 (SP2). L’extension netsh fournit un moyen de gérer, de diagnostiquer et de configurer le service HTTP. Les administrateurs peuvent interroger et configurer des paramètres au niveau du serveur, tels que les inscriptions d’espaces de noms et les certificats SSL.
+l’utilitaire netsh remplace l’outil HttpCfg.exe disponible dans Windows Server 2003 et Windows XP avec Service Pack 2 (SP2). L’extension netsh fournit un moyen de gérer, de diagnostiquer et de configurer le service HTTP. Les administrateurs peuvent interroger et configurer des paramètres au niveau du serveur, tels que les inscriptions d’espaces de noms et les certificats SSL.
 
- 
+ 
 
- 
+ 
 
 
 

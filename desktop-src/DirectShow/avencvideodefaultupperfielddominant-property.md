@@ -4,12 +4,12 @@ ms.assetid: c3ee4c1d-3d15-44a4-8e7e-acd5f9a51dfe
 title: Propriété AVEncVideoDefaultUpperFieldDominant (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b528449d184afdae41db87c4f030216a9f1b5a0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf4e0983b920c7f817e11d1959edf260916cfdbc41c47490674afbcb529c48dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910820"
 ---
 # <a name="avencvideodefaultupperfielddominant-property"></a>Propriété AVEncVideoDefaultUpperFieldDominant
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncVideoDefaultUpperFieldDominant**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, le champ supérieur est affiché en premier. Dans le cas contraire, le champ inférieur est affiché en premier.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, le champ supérieur est affiché en premier. Dans 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

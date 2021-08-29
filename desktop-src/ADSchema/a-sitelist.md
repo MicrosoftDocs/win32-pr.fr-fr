@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3be0fcdc67fc07693a1354e589f67b7efe3f00a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 183c594b9002be6c7bbfdcc2e65ffc5c2ba1b9ab15241fe7b926588b2dcda719
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836239"
 ---
 # <a name="site-list-attribute"></a>Attribut Site-List
 
@@ -46,7 +46,7 @@ Liste des sites connectés à cet objet de liaison.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,7 +3,7 @@ title: Message TTM_TRACKACTIVATE (commctrl. h)
 description: Active ou désactive une info-bulle de suivi.
 ms.assetid: 6cf43377-a772-4749-81c4-a685998092e5
 keywords:
-- TTM_TRACKACTIVATE les contrôles de message Windows
+- TTM_TRACKACTIVATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb3d0a6caf110045d694208c63aa81d63c265c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b5860a0e7016080c70682d99209b112dc8ab81100ed4d1115db904832f1b92e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825799"
 ---
 # <a name="ttm_trackactivate-message"></a>\_Message atténuation TRACKACTIVATE
 
@@ -64,8 +64,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

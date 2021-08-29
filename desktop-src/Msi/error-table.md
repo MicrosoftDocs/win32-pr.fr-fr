@@ -4,12 +4,12 @@ ms.assetid: 3c817468-cba7-46bf-9208-5e6699c02fb6
 title: Table des erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfcba5f68eb48621891c7a48aeedea2329996f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4878dee0f6aa7261207815641e17071f38e19c2beda0ed33903be6bcd34ebd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811039"
 ---
 # <a name="error-table"></a>Table des erreurs
 
@@ -21,7 +21,7 @@ La table d’erreurs contient les colonnes suivantes.
 
 | Colonne  | Type                     | Clé | Nullable |
 |---------|--------------------------|-----|----------|
-| Error   | [Integer](integer.md)   | O   | N        |
+| Erreur   | [Integer](integer.md)   | O   | N        |
 | Message | [Modèle](template.md) | N   | O        |
 
 
@@ -35,7 +35,7 @@ La table d’erreurs contient les colonnes suivantes.
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>Erreurs
 </dt> <dd>
 
-Pour obtenir la liste des numéros d’erreur et des messages, consultez [Windows Installer des messages d’erreur](windows-installer-error-messages.md) .
+pour obtenir la liste des numéros d’erreur et des messages, consultez [Windows Installer des messages d’erreur](windows-installer-error-messages.md) .
 
 Le numéro d’erreur doit être un entier non négatif.
 
@@ -48,11 +48,11 @@ La plage comprise entre 25000 et 30000 est réservée aux erreurs des actions pe
 
 Cette colonne contient le modèle de mise en forme des erreurs localisables. La table d’erreurs est générée par le processus de génération initial pour contenir les modèles de format de débogage.
 
-Le tableau suivant répertorie les messages réservés. Pour obtenir la liste des codes d’erreur internes et de livraison, consultez [Windows Installer des messages d’erreur](windows-installer-error-messages.md).
+Le tableau suivant répertorie les messages réservés. pour obtenir la liste des codes d’erreur internes et de livraison, consultez [Windows Installer des Messages d’erreur](windows-installer-error-messages.md).
 
 
 
-| Error | Message                                                    | Notes                                                                                                                                                                                                      |
+| Error | Message                                                    | Remarques                                                                                                                                                                                                      |
 |-------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | {{Erreur irrécupérable :}}                                          | Préfixe d’en-tête pour les erreurs irrécupérables (INSTALLMESSAGE \_ FATALEXIT). Le texte entouré d’accolades doubles {{Text}} est visible uniquement dans le fichier journal. Le texte n’est pas affiché à l’utilisateur dans l’interface utilisateur.                  |
 | 1     | Erreur \[ 1 \] .                                               | Préfixe d’en-tête pour les erreurs ( \_ erreur INSTALLMESSAGE)                                                                                                                                                             |
@@ -74,7 +74,7 @@ Le tableau suivant répertorie les messages réservés. Pour obtenir la liste de
 | 17    | Mémoire insuffisante. Arrêter les autres applications avant de réessayer |                                                                                                                                                                                                              |
 | 18    | Le programme d’installation ne répond plus                          |                                                                                                                                                                                                              |
 | 19    | Le programme d’installation s’est arrêté prématurément                           |                                                                                                                                                                                                              |
-| 20    | Veuillez patienter pendant que Windows configure \[ ProductName \] ...    |                                                                                                                                                                                                              |
+| 20    | veuillez patienter pendant que Windows configure \[ ProductName \] ...    |                                                                                                                                                                                                              |
 | 21    | Collecte des informations requises...                          |                                                                                                                                                                                                              |
 | 22    | Suppression des versions antérieures de cette application...             |                                                                                                                                                                                                              |
 | 23    | Préparation de la suppression des versions antérieures de cette application...  |                                                                                                                                                                                                              |
@@ -87,7 +87,7 @@ Le tableau suivant répertorie les messages réservés. Pour obtenir la liste de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le modèle n’inclut pas la mise en forme du numéro d’erreur dans le champ 1. Lors du traitement de l’erreur, le programme d’installation joint un préfixe d’en-tête au modèle en fonction du type de message. Ces en-têtes sont également stockés dans la table des erreurs.
 

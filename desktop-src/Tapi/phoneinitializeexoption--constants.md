@@ -4,12 +4,12 @@ ms.assetid: 7d8b122d-bebe-4904-abc8-d680b0899e25
 title: Constantes PHONEINITIALIZEEXOPTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 023f6801f65910bedf7d2637079694b4c6b6d85e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53c1472c36e1608e344ea495578cb960a03eb75483a77512c14b6bb0e91f83bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796739"
 ---
 # <a name="phoneinitializeexoption_-constants"></a>\_Constantes PHONEINITIALIZEEXOPTION
 
@@ -47,7 +47,7 @@ L’application souhaite utiliser le mécanisme de notification d’événements
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur le fonctionnement de ces options, consultez [**phoneInitializeEx**](/windows/desktop/api/Tapi/nf-tapi-phoneinitializeexa) .
 

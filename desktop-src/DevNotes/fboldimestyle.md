@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: f54e62feae710dd51cae688d380ccf7da1eda4d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6d25483edb9aa09febccc0b375ee34152641aa75a4101b5ee34900e4df29031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758639"
 ---
 # <a name="fboldimestyle-function"></a>FBoldIMEStyle fonction)
 
@@ -50,7 +50,7 @@ Une structure **IMESTYLE** retournée par la fonction [**PIMEStyleFromAttr**](pi
 
 **True** si le style est en gras.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

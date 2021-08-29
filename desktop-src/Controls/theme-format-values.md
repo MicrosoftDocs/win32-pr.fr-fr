@@ -4,12 +4,12 @@ description: Cette section répertorie les valeurs qui sont utilisées avec le p
 ms.assetid: 765b90df-4753-43e6-bcf7-6512f6f378bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9fb78d8da9e8128dfd05b145ce2cc99eba2dcf
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: dd0d473e1ab922de6c096e3c880bd8611aa41f03654111131f058f81eb1f2b90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875660"
 ---
 # <a name="format-values"></a>Valeurs de format
 
@@ -21,7 +21,7 @@ Le tableau suivant répertorie les valeurs de format.
 
 
 
-| Value                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Valeur                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DT en \_ bas               | Génère le rendu de la chaîne de texte en bas du rectangle d’affichage. Cette valeur est utilisée uniquement avec la valeur de la \_ valeur DT Singleline.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | \_CALCRECT DT             | Détermine la largeur et la hauteur du rectangle d’affichage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

@@ -4,12 +4,12 @@ ms.assetid: cd5c158a-d2c4-4ced-aa6f-cd8c0e426a74
 title: Récupération d’une mémoire tampon de profondeur (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae914b8506fd0c4169f0cfec0d78d7c3bd9b9d61
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9ad335dae0441d61110c7c1275a01544e1834a8b3846fb442f5adab6b3169044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628299"
 ---
 # <a name="retrieving-a-depth-buffer-direct3d-9"></a>Récupération d’une mémoire tampon de profondeur (Direct3D 9)
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: f4ff233307397c181e3bd980b62e8c3ff486941e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2a9a966e13a1392a3a54482e714b4b552e18fca59c415f7423a64b7619ac72de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742859"
 ---
 # <a name="texture1darraysamplegrad-methods"></a>Texture1DArray :: SampleGrad, méthodes
 

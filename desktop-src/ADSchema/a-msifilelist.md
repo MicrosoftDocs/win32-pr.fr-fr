@@ -1,6 +1,6 @@
 ---
 title: Attribut MSI-File-List
-description: Cet attribut contient une liste de fichiers Microsoft installer, tels que le fichier MSI de base (. msi) et les fichiers de transformation MST (. MST).
+description: Cet attribut contient une liste de fichiers Microsoft installer, tels que le fichier MSI de base (.msi) et les fichiers de transformation MST (. MST).
 ms.assetid: 259a13a2-bb34-49aa-862e-4159e887310c
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a05608cdf443ab053549fde7db509ca79be08b3a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6d33b2ce85738abbec8bc19bdb06c652668b650b9c02aaf766bd53891914758d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763169"
 ---
 # <a name="msi-file-list-attribute"></a>Attribut MSI-File-List
 
-Cet attribut contient une liste de fichiers Microsoft installer, tels que le fichier MSI de base (. msi) et les fichiers de transformation MST (. MST).
+Cet attribut contient une liste de fichiers Microsoft installer, tels que le fichier MSI de base (.msi) et les fichiers de transformation MST (. MST).
 
 
 
@@ -45,7 +45,7 @@ Cet attribut contient une liste de fichiers Microsoft installer, tels que le fic
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

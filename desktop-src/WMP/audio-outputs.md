@@ -3,7 +3,7 @@ title: Sorties audio
 description: Sorties audio
 ms.assetid: 2bedf804-c9fd-4a44-9289-e36a50517b7f
 keywords:
-- Windows Media Player, sorties audio
+- Lecteur Windows Media, sorties audio
 - Lecteur Windows Media, appareil DirectSound par défaut
 - Lecteur Windows Media, eConsole
 - Lecteur Windows Media, eMultimedia
@@ -13,23 +13,23 @@ keywords:
 - eConsole
 - eMultimedia
 - eCommunications
-- Contrôle ActiveX du lecteur Windows Media, sorties audio
-- Contrôle Windows Media Player ActiveX, appareil DirectSound par défaut
-- Contrôle ActiveX du lecteur Windows Media, eConsole
-- Contrôle ActiveX du lecteur Windows Media, eMultimedia
-- Contrôle ActiveX du lecteur Windows Media, eCommunications
+- contrôle de ActiveX Lecteur Windows Media, sorties audio
+- Lecteur Windows Media ActiveX contrôle, appareil DirectSound par défaut
+- Lecteur Windows Media ActiveX contrôle, eConsole
+- Lecteur Windows Media ActiveX contrôle, eMultimedia
+- Lecteur Windows Media ActiveX contrôle, eCommunications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b41e5fc3284a054ba7497889eab80ec240c9801
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: dfd298b96bd8e3481d1b033bb1dda9a10228f3a627536a81ea43eb3749ad1fb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864869"
 ---
 # <a name="audio-outputs"></a>Sorties audio
 
-Le panneau de configuration de Windows XP permet à l’utilisateur d’attribuer le nom par défaut de l’appareil DirectSound à un périphérique de sortie audio particulier. Dans Windows Vista, le panneau de configuration permet à l’utilisateur d’attribuer chacun des trois noms (eConsole, eMultimedia et eCommunications) à un périphérique de sortie audio. Ces noms peuvent être attribués à différents appareils, ou plusieurs noms peuvent être attribués au même appareil. Le tableau suivant montre comment le lecteur Windows Media et le contrôle ActiveX du lecteur Windows Media choisissent les périphériques de sortie audio par défaut.
+le panneau de configuration de Windows XP permet à l’utilisateur d’affecter le nom par défaut de l’appareil DirectSound à un périphérique de sortie audio particulier. dans Windows Vista, le panneau de configuration permet à l’utilisateur d’attribuer chacun des trois noms (eConsole, eMultimedia et eCommunications) à un périphérique de sortie audio. Ces noms peuvent être attribués à différents appareils, ou plusieurs noms peuvent être attribués au même appareil. le tableau suivant montre comment Lecteur Windows Media et le contrôle Lecteur Windows Media ActiveX choisir des appareils de sortie audio par défaut.
 
 
 
@@ -46,7 +46,7 @@ Le panneau de configuration de Windows XP permet à l’utilisateur d’attribue
 
 <dl> <dt>
 
-[**Lecteur Windows Media**](windows-media-player.md)
+[**Lecteur Windows Media**](windows-media-player.md)
 </dt> </dl>
 
  

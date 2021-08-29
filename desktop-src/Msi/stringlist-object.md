@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 6493b9e1723d46ce290c7472bbcee7eb9ec34725
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1c492d1454f19d05126e18c39ab38a2e0b23b9080e286462a4a563015c26ed5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627279"
 ---
 # <a name="stringlist-object"></a>Objet StringList
 
@@ -38,7 +38,7 @@ L’objet **StringList** a ces propriétés.
 
 | Propriété                                     | Description                                                          |
 |:---------------------------------------------|:---------------------------------------------------------------------|
-| [**Saut**](stringlist-count.md)<br/> | Retourne le nombre d’éléments dans l’objet **StringList** .<br/> |
+| [**Count**](stringlist-count.md)<br/> | Retourne le nombre d’éléments dans l’objet **StringList** .<br/> |
 | [**Élément**](stringlist-item.md)<br/>   | Retourne une chaîne dans la collection d’objets **StringList** .<br/> |
 
 
@@ -61,7 +61,7 @@ L’objet **StringList** a ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

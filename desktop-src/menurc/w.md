@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 304a2e00-b21b-4813-b38f-914eb4df2c3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 930b87f7ca920ecfec013453da64f63c1da04418
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 742d558fa71c8fa74597c619c6fce4dceef9a9f5b242ea4872790eadfaab70da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720549"
 ---
 # <a name="w-menus-and-other-resources"></a>W (menus et autres ressources)
 
@@ -35,7 +35,7 @@ Les options **ALT**, **MAJ** et [**CTRL**](control-control.md) s’appliquent un
 <span id="tools.w_3_gly"></span><span id="TOOLS.W_3_GLY"></span>**Écriture de resourcetypeimagelang : Language : taille**
 </dt> <dd>
 
-(V) le compilateur de ressources Microsoft Windows (RC) écrit la ressource spécifiée. Le *type* est le type de ressource. Il peut s’agir d’un nombre ou d’une chaîne. L' *image* peut être un nombre ou une chaîne. La *langue* est la langue nationale de la ressource. La *taille* est la taille décimale de la ressource, en octets.
+(V) Microsoft Windows resource Compiler (RC) écrit la ressource spécifiée. Le *type* est le type de ressource. Il peut s’agir d’un nombre ou d’une chaîne. L' *image* peut être un nombre ou une chaîne. La *langue* est la langue nationale de la ressource. La *taille* est la taille décimale de la ressource, en octets.
 
 </dd> </dl>
 

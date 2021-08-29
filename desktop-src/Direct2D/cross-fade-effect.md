@@ -4,12 +4,12 @@ description: Cet effet combine deux images en ajoutant des pixels pondérés à 
 ms.assetid: 5214b70a-d024-ba3e-771f-07d98d2278ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 904ac8e4e27efc646bb71b1766c8763bd64beb2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7c0de238378340e3f80b1fac346d8fa9d9e7f7cff20847aef45f3bc5d58e7aad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833339"
 ---
 # <a name="cross-fade-effect"></a>Effet fondu croisé
 
@@ -35,8 +35,8 @@ Le CLSID de cet effet est CLSID \_ D2D1CrossFade.
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

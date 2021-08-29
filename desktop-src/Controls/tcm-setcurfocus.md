@@ -3,7 +3,7 @@ title: Message TCM_SETCURFOCUS (commctrl. h)
 description: Définit le focus sur un onglet spécifié dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl SetCurFocus.
 ms.assetid: bcbd5f26-b54e-492b-aff3-357b8ae23969
 keywords:
-- TCM_SETCURFOCUS les contrôles de message Windows
+- TCM_SETCURFOCUS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abe566d1e1b3cc7d257c4756fe123423fc344a7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac3be7b9b7f62d69a1207e60f58189f152f109531d83e4f7b80b6e13ca6f6da3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876489"
 ---
 # <a name="tcm_setcurfocus-message"></a>\_Message SETCURFOCUS TCM
 
@@ -43,7 +43,7 @@ Index de l’onglet qui obtient le focus.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle onglet a le style de [**\_ boutons TCS**](tab-control-styles.md) (mode bouton), l’onglet avec le focus peut être différent de l’onglet sélectionné. Par exemple, lorsqu’un onglet est sélectionné, l’utilisateur peut appuyer sur les touches de direction pour définir le focus sur un autre onglet sans modifier l’onglet sélectionné. En mode bouton, **TCM \_ SETCURFOCUS** définit le focus d’entrée sur le bouton associé à l’onglet spécifié, mais il ne modifie pas l’onglet sélectionné.
 
@@ -55,8 +55,8 @@ Si le contrôle onglet n’a pas le style de [**\_ boutons TCS**](tab-control-st
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Wait, méthode
 ms.assetid: 968a3f19-6953-473b-ba98-0dc93696e703
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f2e94b0f765a9861c30b254761fbc4dc2e72763
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d81949957146756e989fcb577a1bdd5a0c9a2a6fd60932220e39950327ba3061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715709"
 ---
 # <a name="wait-method"></a>Wait, méthode
 
@@ -27,7 +27,7 @@ Fait en sorte que la file d’attente d’animation du caractère spécifié att
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID ***»).*** Demande d’attente*
+*agent ***. Caractères («**_CharacterID_*_»)._ * _Demande_ d’attente
 
 
 
@@ -37,11 +37,11 @@ Fait en sorte que la file d’attente d’animation du caractère spécifié att
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode uniquement lorsque vous prenez en charge plusieurs caractères (simultanés) et que vous essayez de séquencer l’interaction des caractères. (Pour un caractère unique, chaque demande d’animation est lue de manière séquentielle, à l’issue de la requête précédente.) Si vous avez deux caractères et que vous souhaitez que la demande d’animation d’un caractère attende la fin de l’animation de l’autre caractère, définissez la méthode **Wait** sur l’objet de [**requête**](/windows/desktop/lwef/the-request-object) d’animation de l’autre caractère. Pour spécifier le paramètre de requête, vous devez créer une variable et assigner la demande d’animation que vous souhaitez interrompre :
 
@@ -109,6 +109,6 @@ Vous pouvez également simplifier votre code en appelant simplement **Wait** dir
 
 Cela évite de devoir déclarer explicitement un objet de [**requête**](/windows/desktop/lwef/the-request-object) .
 
- 
+ 
 
- 
+ 
