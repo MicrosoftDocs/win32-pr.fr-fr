@@ -3,7 +3,7 @@ title: CBN_DBLCLK le code de notification (winuser. h)
 description: Envoyé lorsque l’utilisateur double-clique sur une chaîne dans la zone de liste d’une zone de liste déroulante. La fenêtre parente de la zone de liste déroulante reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: 79ca3fd3-4a71-4bd5-be68-efc867a4ad22
 keywords:
-- Contrôles Windows de code de notification CBN_DBLCLK
+- CBN_DBLCLK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 841c68079572e1740f074034c1a8097ba6a86253
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bb37150aee923b63faf4eda54c66807d16b02f0e7a66183a2e5e55a29378307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770409"
 ---
 # <a name="cbn_dblclk-notification-code"></a>\_Code de notification CBN DBLCLK
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification se produit uniquement pour une zone de liste modifiable avec le style [**CBS \_ simple**](combo-box-styles.md) . Dans une zone de liste modifiable avec la [**\_ liste déroulante CBS**](combo-box-styles.md) ou le style [**\_ DropDownList SCC**](combo-box-styles.md) , un double-clic ne peut pas se produire parce qu’un clic unique ferme la zone de liste.
 
@@ -63,8 +63,8 @@ Ce code de notification se produit uniquement pour une zone de liste modifiable 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

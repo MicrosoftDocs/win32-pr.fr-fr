@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c04501fe3511d9cdd45f3513c68082d2ffece0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1924db012ece5ad475a26e75315254ab5228c9cd50aa1dac74d39430f976a367
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768209"
 ---
 # <a name="cimageallocatorsetproperties-method"></a>CImageAllocator. SetProperties, méthode
 
@@ -61,7 +61,7 @@ Pointeur vers une structure de **\_ Propriétés Allocator** qui reçoit les pro
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle [**CImageAllocator :: CheckSizes**](cimageallocator-checksizes.md) pour valider la taille de mémoire tampon demandée. Il appelle également la version de classe de base de `SetProperties` .
 
@@ -71,7 +71,7 @@ Cette méthode appelle [**CImageAllocator :: CheckSizes**](cimageallocator-chec
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

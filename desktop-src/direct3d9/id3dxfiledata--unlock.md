@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 8371b87152a6184f34a225b24d2de1b0fd21248f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5eaa1466f722f34bb82152d22c85647cf5afa88310474585b7f944b37af3abf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026229"
 ---
 # <a name="id3dxfiledataunlock-method"></a>ID3DXFileData :: Unlock, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 La valeur de retour est \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez vous assurer que le nombre d’appels [**ID3DXFileData :: Lock**](id3dxfiledata--lock.md) correspond au nombre d’appels **ID3DXFileData :: Unlock** . Après l’appel de Unlock, le pointeur ppData retourné par **ID3DXFileData :: Lock** ne doit plus être utilisé.
 

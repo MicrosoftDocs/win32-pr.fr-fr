@@ -4,12 +4,12 @@ ms.assetid: 42738598-FF25-4E75-9B42-353EC991DDBC
 title: Interfaces de vérification orthographique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f96ae22c34e9cd625d27a6f5c7c5404904ccdc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a061e0e3e8cc3e73998f1c34f020b129dfa0ba406b9796e00b6eb3f533ca4f7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130169"
 ---
 # <a name="spell-checking-interfaces"></a>Interfaces de vérification orthographique
 

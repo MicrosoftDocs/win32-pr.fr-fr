@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 794bcddfe15be687a8360a35ee7c1f49ae457b49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12c8acdcf591491d8dddee66a794ff795c7251a74530386e096384906b6a7a85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917879"
 ---
 # <a name="id2d1geometrystrokecontainspoint-methods"></a>ID2D1Geometry :: StrokeContainsPoint, méthodes
 

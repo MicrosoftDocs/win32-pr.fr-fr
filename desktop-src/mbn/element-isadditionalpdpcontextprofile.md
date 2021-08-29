@@ -7,12 +7,12 @@ MSHAttr:
 title: IsAdditionalPdpContextProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 888d199cb4ee76caa3e7fef3eb68c6606d6be560
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 2ae27c3df672750b1c396d6da3b99a7309d3d2fb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884716"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475145"
 ---
 # <a name="span-idwwan_profile_v3element_isadditionalpdpcontextprofilespanisadditionalpdpcontextprofile"></a><span id="WWAN_profile_v3.element_IsAdditionalPdpContextProfile"></span>IsAdditionalPdpContextProfile
 
@@ -27,9 +27,9 @@ Notez que si cet élément a la valeur true, les éléments suivants doivent ég
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-**&lt;IsAdditionalPdpContextProfile&gt;**
+**<IsAdditionalPdpContextProfile>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <IsAdditionalPdpContextProfile>
@@ -53,7 +53,7 @@ Aucun.
 
 Cet élément (document) le plus à l’extérieur ne peut pas être contenu dans d’autres éléments.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 | | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7b559453b0d4ed75f92f7a421be4c3a47e07fdf7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7bdae305fc7dc7ec15c2d140064d7479e4454d1bdb04562f5dd4201a92072425
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954019"
 ---
 # <a name="icontexttransactioninforegistertransactionproxy-method"></a>IContextTransactionInfo :: RegisterTransactionProxy, méthode
 
@@ -69,7 +69,7 @@ Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **RegisterTransactionProxy** peut uniquement être appelée si le contexte actuel est un contexte de transaction racine. Il ne peut pas être appelé si le contexte héberge une transaction BYOT ou une transaction non racine.
 
@@ -80,7 +80,7 @@ La méthode **RegisterTransactionProxy** peut uniquement être appelée si le co
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
 
 
 

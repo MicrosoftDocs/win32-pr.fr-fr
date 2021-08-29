@@ -29,12 +29,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 006a6d82e7aa4958b03360d05d29a78564f99db7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92fe4be97a1288012b6a692f8837388e5eb4c99b465f1f34bb37d47ea0d44f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434799"
 ---
 # <a name="rich-edit-control-event-mask-flags"></a>Indicateurs de masque d’événement de contrôle RichEdit
 
@@ -65,7 +65,7 @@ Le masque d’événement spécifie les codes de notification qu’un contrôle 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le masque d’événement par défaut est ENM \_ aucun. dans ce cas, aucune notification n’est envoyée à la fenêtre parente. Vous pouvez récupérer et définir le masque d’événement pour un contrôle RichEdit à l’aide des messages [**em \_ GETEVENTMASK**](em-geteventmask.md) et [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 

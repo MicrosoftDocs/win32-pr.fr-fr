@@ -4,12 +4,12 @@ description: Une fenêtre peut afficher un objet de données, tel qu’un docume
 ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93b3088df389753123e2a267ef3bc15eccb1b54626085ee90af7a20978107dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1ea93e3228a11f702865c7fd2b9da353d3791f87
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922367"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812565"
 ---
 # <a name="about-scroll-bars"></a>À propos des barres de défilement
 

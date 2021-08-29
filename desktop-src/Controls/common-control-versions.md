@@ -4,12 +4,12 @@ description: Cette rubrique répertorie les versions disponibles de la biblioth�
 ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1131466bd4d3afcaae3a241a6f7854fd5a49450
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 30f1a70be183ff0bd3b1f88af548605fece254cfb172f27b247a12a7557c11a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921129"
 ---
 # <a name="common-control-versions"></a>Versions de contrôle courantes
 
@@ -20,12 +20,12 @@ Cette rubrique contient les sections suivantes.
 -   [Numéros des versions des DLL de contrôle courantes](#common-control-dll-versions-numbers)
 -   [Tailles de structure pour différentes versions de contrôle communes](#structure-sizes-for-different-common-control-versions)
 -   [Utilisation de DllGetVersion pour déterminer le numéro de version](#using-dllgetversion-to-determine-the-version-number)
--   [Versions du projet](#project-versions)
+-   [Project Versions](#project-versions)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="common-control-dll-versions-numbers"></a>Numéros des versions des DLL de contrôle courantes
 
-La prise en charge des contrôles communs est fournie par ComCtl32.dll, qui incluent toutes les versions 32 bits et 64 bits de Windows. Chaque version successive de la DLL prend en charge les fonctionnalités et l’API des versions antérieures et ajoute de nouvelles fonctionnalités.
+la prise en charge des contrôles communs est fournie par ComCtl32.dll, qui incluent toutes les versions 32 bits et 64 bits de Windows. Chaque version successive de la DLL prend en charge les fonctionnalités et l’API des versions antérieures et ajoute de nouvelles fonctionnalités.
 
 Étant donné que différentes versions de ComCtl32.dll ont été distribuées avec Internet Explorer, la version qui est active est parfois différente de la version fournie avec le système d’exploitation. Par conséquent, votre application doit déterminer directement la version de ComCtl32.dll présente.
 
@@ -47,7 +47,7 @@ Microsoft Internet Explorer 5,01, Microsoft Internet Explorer 5,5 et Microsoft I
 
 5,82
 
-Windows Server 2003, Windows Vista, Windows Server 2008 et Windows 7
+Windows server 2003, Windows Vista, Windows Server 2008 et Windows 7
 
 6.0
 
@@ -181,9 +181,9 @@ else
 
 
 
-## <a name="project-versions"></a>Versions du projet
+## <a name="project-versions"></a>Project Versions
 
-Pour garantir la compatibilité de votre application avec différentes versions ciblées d’un fichier. dll, les macros de version sont présentes dans les fichiers d’en-tête. Ces macros permettent de définir, d’exclure ou de redéfinir certaines définitions pour les différentes versions de la DLL. Pour une description détaillée de ces macros, consultez [utilisation des en-têtes Windows](/windows/desktop/WinProg/using-the-windows-headers) .
+Pour vous assurer que votre application est compatible avec les différentes versions ciblées d’un fichier .dll, les macros de version sont présentes dans les fichiers d’en-tête. Ces macros permettent de définir, d’exclure ou de redéfinir certaines définitions pour les différentes versions de la DLL. pour une description détaillée de ces macros, consultez [utilisation des en-têtes de Windows](/windows/desktop/WinProg/using-the-windows-headers) .
 
 Par exemple, le nom de macro **\_ Win32 \_ IE** se trouve généralement dans les en-têtes plus anciens. Vous êtes responsable de la définition de la macro sous la forme d’un nombre hexadécimal. Ce numéro de version définit la version cible de l’application qui utilise la DLL. Le tableau suivant répertorie les numéros de version disponibles et l’effet de chacun d’entre eux sur votre application.
 

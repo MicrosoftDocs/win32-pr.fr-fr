@@ -4,12 +4,12 @@ ms.assetid: 7c72c4de-83be-4b7e-9ed8-b0236c1df8a4
 title: Fonctions de prise en charge linguistique nationale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9f8322803f92ae0bd0ac9cbcbbb0bf4513bc37b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58ad889ee4a289db619b134c4a51a2feb51aeee812a3203c69d193b18e8a41c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130359"
 ---
 # <a name="national-language-support-functions"></a>Fonctions de prise en charge linguistique nationale
 
@@ -65,9 +65,9 @@ NLS prend en charge les fonctions définies dans le tableau suivant.
 | [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring)                                   | Localise une chaîne Unicode (caractères larges) ou son équivalent dans une autre chaîne Unicode pour les paramètres régionaux spécifiés par l’identificateur.                                                                                                       |
 | [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex)                               | Localise une chaîne Unicode (caractères larges) ou son équivalent dans une autre chaîne Unicode pour les paramètres régionaux spécifiés par l’identificateur.                                                                                                       |
 | [**FindStringOrdinal**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal)                           | Localise une chaîne Unicode (caractères larges) dans une autre chaîne Unicode pour une comparaison non linguistique.                                                                                                                              |
-| [**FoldString devant**](/windows/win32/api/stringapiset/nf-stringapiset-foldstringw)                                         | Mappe une chaîne Unicode à une autre, en effectuant la transformation spécifiée.                                                                                                                                                       |
+| [**FoldString devant**](/windows/win32/api/stringapiset/nf-stringapiset-foldstringw)                                         | Cartes une chaîne Unicode à une autre, en effectuant la transformation spécifiée.                                                                                                                                                       |
 | [**Géo \_ EnumNameProc**](/windows/desktop/api/Winnls/nc-winnls-geo_enumnameproc)                            | Fonction de rappel définie par l’application qui traite les informations d’emplacement géographique énumérées fournies par la fonction [**EnumSystemGeoNames**](/windows/desktop/api/Winnls/nf-winnls-enumsystemgeonames) .                                               |
-| [**GetACP**](/windows/desktop/api/Winnls/nf-winnls-getacp)                                                 | Récupère l’identificateur de page de codes ANSI Windows actuel pour le système.                                                                                                                                                            |
+| [**GetACP**](/windows/desktop/api/Winnls/nf-winnls-getacp)                                                 | récupère l’identificateur de page de codes ANSI Windows en cours pour le système.                                                                                                                                                            |
 | [**GetCalendarDateFormatEx**](getcalendardateformatex.md)               | Action déconseillée. Récupère une chaîne de date correctement mise en forme pour les paramètres régionaux spécifiés à l’aide de la date spécifiée.                                                                                                                          |
 | [**GetCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa)                               | Récupère des informations sur un calendrier pour les paramètres régionaux spécifiés par l’identificateur.                                                                                                                                                       |
 | [**GetCalendarInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoex)                           | Récupère des informations sur un calendrier pour les paramètres régionaux spécifiés par nom.                                                                                                                                                             |
@@ -137,7 +137,7 @@ NLS prend en charge les fonctions définies dans le tableau suivant.
  
 
 > [!Note]  
-> **À compter de Windows 8 :** Si votre application transmet des balises de langue à l’une de ces fonctions à partir de l’espace de noms [**Windows. Globalization**](/uwp/api/Windows.Globalization?view=winrt-19041) , elle doit d’abord convertir les balises en appelant [**ResolveLocaleName**](/windows/desktop/api/Winnls/nf-winnls-resolvelocalename).
+> **À partir de Windows 8 :** Si votre application transmet des balises de langue à l’une de ces fonctions à partir de la [**Windows.**](/uwp/api/Windows.Globalization?view=winrt-19041)Espace de noms de globalisation, il doit d’abord convertir les balises en appelant [**ResolveLocaleName**](/windows/desktop/api/Winnls/nf-winnls-resolvelocalename).
 
  
 

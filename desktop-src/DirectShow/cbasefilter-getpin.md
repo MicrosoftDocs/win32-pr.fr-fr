@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3bb8341bfd86b96a7358fb23036b71844f77d17a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 556d4842772ed6c8055a9024a9a6112b466dc9c2fb804321ab605256ece079ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640558"
 ---
 # <a name="cbasefiltergetpin-method"></a>Méthode CBaseFilter. GetPin
 
@@ -53,7 +53,7 @@ Index de base zéro du code confidentiel.
 
 Retourne un pointeur vers l’objet [**CBasePin**](cbasepin.md) qui implémente le code confidentiel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez implémenter cette méthode virtuelle pure dans votre classe dérivée. Retourne un pointeur vers le *n* ième pin sur ce filtre, indexé à partir de zéro. Vous pouvez choisir un ordre d’indexation arbitraire, à condition que l’ordre soit fixe. Si le filtre ajoute ou supprime des broches, ou si le classement change pour une autre raison au moment de l’exécution, appelez la méthode [**CBaseFilter :: IncrementPinVersion**](cbasefilter-incrementpinversion.md) .
 
@@ -63,7 +63,7 @@ Vous devez implémenter cette méthode virtuelle pure dans votre classe dérivé
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

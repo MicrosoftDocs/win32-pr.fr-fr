@@ -1,26 +1,26 @@
 ---
-description: Décrit les innovations récentes et les mises à jour apportées aux fonctionnalités, aux outils, à la documentation et aux exemples de l’accessibilité Windows.
-title: Nouveautés de l’accessibilité Windows pour les développeurs
+description: décrit les innovations récentes et les mises à jour apportées aux fonctionnalités d’accessibilité, aux outils, à la documentation et aux exemples de Windows.
+title: nouveautés de Windows accessibilité pour les développeurs
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: 44d8c453b09bc73e71006e132199c18b275860af
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6cffebe307b06aceb506e8576e2a9c99c395c1257f575c6be3757a9426df2459
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954479"
 ---
-# <a name="new-windows-accessibility-features-tools-documentation-and-samples-for-developers"></a>Nouvelles fonctionnalités d’accessibilité de Windows, outils, documentation et exemples pour les développeurs
+# <a name="new-windows-accessibility-features-tools-documentation-and-samples-for-developers"></a>Windows nouvelles fonctionnalités d’accessibilité, outils, documentation et exemples pour les développeurs
 
-La plate-forme Windows est constamment mise à jour avec de nouvelles fonctionnalités d’accessibilité et d’Automation pour les développeurs.
+la plate-forme Windows est constamment mise à jour avec de nouvelles fonctionnalités d’accessibilité et d’automatisation pour les développeurs.
 
-[Installez les outils et le kit de développement logiciel (SDK)](https://developer.microsoft.com/windows/downloads/#_blank) sur Windows 10 et vous êtes prêt à créer une application Windows universelle ou à découvrir comment vous pouvez utiliser votre code d’application existant sur Windows.
+[installez les outils et le kit de développement logiciel (SDK)](https://developer.microsoft.com/windows/downloads/#_blank) sur Windows 10 et vous êtes prêt à créer une application de Windows universelle ou à découvrir comment vous pouvez utiliser votre code d’application existant sur Windows.
 
-Pour plus d’informations sur les outils les plus récents disponibles pour tester l’implémentation de l’accessibilité de vos applications Windows et Web, consultez [test de l’accessibilité](accessibility-testwithuia.md).
+pour plus d’informations sur les outils les plus récents disponibles pour tester l’implémentation de l’accessibilité de vos applications web et Windows, consultez [test de l’accessibilité](accessibility-testwithuia.md).
 
-## <a name="whats-new-for-windows-10-may-2019-update-version-1903"></a>Nouveautés de Windows 10 2019 mise à jour de mai (version 1903)
+## <a name="whats-new-for-windows-10-may-2019-update-version-1903"></a>nouveautés de Mise à jour de mai 2019 de Windows 10 (Version 1903)
 
-Les fonctionnalités, outils, conseils, exemples et vidéos suivants ont été mis à disposition pour la [mise à jour de Windows 10 mai 2019](https://blogs.windows.com/windowsexperience/2019/04/08/releasing-the-may-2019-update-to-the-release-preview-ring/#oTrOrMWFFgWJuCqO.97).
+les fonctionnalités, outils, conseils pour les développeurs, exemples et vidéos suivants ont été mis à disposition pour le [Mise à jour de mai 2019 de Windows 10](https://blogs.windows.com/windowsexperience/2019/04/08/releasing-the-may-2019-update-to-the-release-preview-ring/#oTrOrMWFFgWJuCqO.97).
 
 | Libérer | Plateforme | Fonctionnalité | Description | Lien |
 | --- | --- | --- | --- | --- |
@@ -28,9 +28,9 @@ Les fonctionnalités, outils, conseils, exemples et vidéos suivants ont été m
 | 1903 | UWP | Visibilité de la barre de défilement  | Les barres de défilement sont masquées automatiquement lorsqu’elles ne sont pas en interaction avec. | [UISettings. AutoHideScrollBars, propriété](/uwp/api/windows.ui.viewmanagement.uisettings.autohidescrollbars) |
 | 1903 | Win32 | UI Automation prend en charge le balisage structuré | Prévu, mais non limité à, l’analyse MathML. | n/a |
 
-## <a name="whats-new-for-windows-10-october-2018-update-version-1809"></a>Nouveautés de la mise à jour 2018 d’octobre de Windows 10 (version 1809)
+## <a name="whats-new-for-windows-10-october-2018-update-version-1809"></a>nouveautés de Mise à jour d’octobre 2018 de Windows 10 (Version 1809)
 
-Les fonctionnalités, outils, conseils, exemples et vidéos suivants ont été mis à disposition pour la [mise à jour 2018 de Windows 10 octobre](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/#R6DJStjqlIkK34BT.97).
+les fonctionnalités, outils, conseils pour les développeurs, exemples et vidéos suivants ont été mis à disposition pour le [Mise à jour d’octobre 2018 de Windows 10](https://blogs.windows.com/windowsexperience/2018/10/02/how-to-get-the-windows-10-october-2018-update/#R6DJStjqlIkK34BT.97).
 
 | Libérer | Plateforme | Fonctionnalité | Description | Lien |
 | --- | --- | --- | --- | --- |

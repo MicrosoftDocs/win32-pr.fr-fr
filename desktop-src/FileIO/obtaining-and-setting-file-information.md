@@ -4,12 +4,12 @@ ms.assetid: 3b5fb709-c699-4651-8072-97210c8cf763
 title: Obtention et définition des informations de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c6eb6abf2554e1945e0782c667245ea0eaa99be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aae2cdad8f5b00b0cf7663e7696a4e62e7fd523f543f0b7098316a4f562a1d96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130769"
 ---
 # <a name="obtaining-and-setting-file-information"></a>Obtention et définition des informations de fichier
 

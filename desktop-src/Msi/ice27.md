@@ -4,12 +4,12 @@ ms.assetid: c5292a3c-57bb-4203-96a1-6d747f554178
 title: ICE27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb4b90b313f5f78874fb93ce9d32c3650b97064
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fadedada0b2bd7ae936e12ad4c980f4ab0394c55e711db286fa6312ba446b9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528789"
 ---
 # <a name="ice27"></a>ICE27
 
@@ -43,11 +43,11 @@ ICE27 valide les tables suivantes :
 -   [InstallUISequence](installuisequence-table.md)
 -   [InstallExecuteSequence](installexecutesequence-table.md)
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE27 publie un message d’erreur s’il existe des tables de séquence dans le package avec une organisation ou un séquençage d’action non valide.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 
 

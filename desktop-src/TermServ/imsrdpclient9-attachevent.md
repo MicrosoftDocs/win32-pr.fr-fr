@@ -20,12 +20,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bd3fd518fba825c209a4170e6b314a7b774a49
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29c723a34e1d85c6e4a95bee099d73313de14534d373350343c130f37414ac9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871369"
 ---
 # <a name="imsrdpclient9attachevent-method"></a>IMsRdpClient9 :: attachEvent, méthode
 

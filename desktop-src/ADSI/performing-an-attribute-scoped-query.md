@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, requête d’étendue d’attribut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b10f5b666028c5fd46e7394b52a1328370e317bc
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b40251665f487919ce22b78057c6026324b49e33764545b55c38310265474484
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106513742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637799"
 ---
 # <a name="performing-an-attribute-scope-query"></a>Exécution d’une requête d’étendue d’attribut
 
@@ -154,6 +154,6 @@ Lorsque cette recherche est exécutée et que les résultats sont énumérés, e
 
 Gestion des erreurs : les résultats d’une requête d’étendue d’attribut peuvent s’étendre sur plusieurs serveurs et un serveur peut ne pas retourner toutes les données demandées pour toutes les lignes retournées. Si cela se produit, lorsque la dernière ligne est récupérée en appelant [**GetNextRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getnextrow) ou [**GetFirstRow**](/windows/desktop/api/Iads/nf-iads-idirectorysearch-getfirstrow), ADSI retourne **s \_ ADS \_ ERRORSOCCURRED**, au lieu de **s de \_ publicités \_ \_**.
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72398bdc087e0f7a0845703a2cefea40b5465b21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee3bffcfd86ba48d737066bd2ca56e6b124a59412704c5f30952e5a70ae71e24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952039"
 ---
 # <a name="float2-structure"></a>float2, structure
 
@@ -35,8 +35,8 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float2(float x, float y)` | Crée un float2 avec les valeurs spécifiées. |
 | `explicit float2(float value)` | Crée un float2 avec tous les composants définis sur la valeur spécifiée. |
 | `float2(Microsoft::Graphics::Canvas::Numerics::Vector2 const& value)` | Convertit un **Microsoft. Graphics. canevas. Numerics. Vector2** en float2. |
-| `float2(Windows::Foundation::Point const& value)` | Convertit un [**Windows. Foundation. point**](/uwp/api/Windows.Foundation.Point) en float2. |
-| `float2(Windows::Foundation::Size const& value)` | Convertit [**Windows. Foundation. Size**](/uwp/api/Windows.Foundation.Size) en float2. |
+| `float2(Windows::Foundation::Point const& value)` | Convertit une [**Windows. Fondation. pointez**](/uwp/api/Windows.Foundation.Point) sur un float2. |
+| `float2(Windows::Foundation::Size const& value)` | Convertit une [**Windows. Foundation. Size**](/uwp/api/Windows.Foundation.Size) à un float2. |
 
 ## <a name="functions"></a>Fonctions
 
@@ -72,8 +72,8 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 | Nom | Description |
 |-|-|
-| `operator Windows::Foundation::Point() const` | Convertit un float2 en un [**Windows. Foundation. point**](/uwp/api/Windows.Foundation.Point). |
-| `operator Windows::Foundation::Size() const` | Convertit un float2 en un [**Windows. Foundation. Size**](/uwp/api/Windows.Foundation.Size). |
+| `operator Windows::Foundation::Point() const` | Convertit un float2 en [**Windows. Fondation. point**](/uwp/api/Windows.Foundation.Point). |
+| `operator Windows::Foundation::Size() const` | Convertit un float2 en [**Windows. Foundation. Size**](/uwp/api/Windows.Foundation.Size). |
 | `float2 operator+ (float2 const& value1, float2 const& value2)` | Ajoute deux vecteurs. |
 | `float2 operator- (float2 const& value1, float2 const& value2)` | Soustrait un vecteur d’un vecteur. |
 | `float2 operator* (float2 const& value1, float2 const& value2)` | Multiplie les composants de deux vecteurs. |
@@ -103,7 +103,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 | Condition requise | Valeur |
 |-|-|
-| Espace de noms | Windows :: Foundation :: Numerics |
+| Espace de noms | Windows :: Foundation :: numerics |
 | En-tête | <dl> <dt>Windowsnumerics. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

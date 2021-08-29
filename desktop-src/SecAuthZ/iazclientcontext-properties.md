@@ -4,12 +4,12 @@ ms.assetid: 478E5221-4AFA-477D-BFAD-80AE4FED5FDC
 title: Propriétés IAzClientContext
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb47fc6e313789b57efc801d5b2ecc945d74922c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15fdf67e8e8ec3a32e367a4b2a7435080029a5037206a9ac812967fa1567fb37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671709"
 ---
 # <a name="iazclientcontext-properties"></a>Propriétés IAzClientContext
 

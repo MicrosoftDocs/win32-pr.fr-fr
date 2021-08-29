@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 47454169bee21012010fd7deacec6c1faf3a7d8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7eae388675cebe300a3dd84607d6bff56078a14addb29d42d6fe76d2b2f6427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045301"
 ---
 # <a name="orcreatehive-function"></a>ORCreateHive fonction)
 
@@ -54,7 +54,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 
 Si la mémoire est insuffisante pour créer la ruche du Registre, la fonction retourne une erreur de \_ \_ mémoire insuffisante \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **ORCreateHive** crée une ruche de Registre hors connexion vide en mémoire. Utilisez les fonctions [**ORCreateKey**](orcreatekey.md) et [**ORSetValue**](orsetvalue.md) pour ajouter des clés et définir leurs valeurs.
 
@@ -64,7 +64,7 @@ La fonction **ORCreateHive** crée une ruche de Registre hors connexion vide en 
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

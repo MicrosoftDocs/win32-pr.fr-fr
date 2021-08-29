@@ -4,12 +4,12 @@ ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Définition des propriétés dans le récepteur de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b6b000ed04c7858251f7388d3edc6a40e0b213
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8dc61c07812f669fc3006447abce932d79f4b1342eca07bbdcd9f68102d4275a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953219"
 ---
 # <a name="setting-properties-in-the-file-sink"></a>Définition des propriétés dans le récepteur de fichiers
 
@@ -23,7 +23,7 @@ Pour obtenir une référence à la Banque de propriétés du récepteur de fichi
 
 ## <a name="stream-encoding-properties"></a>Propriétés d’encodage de flux
 
-Pour encoder le contenu correctement, le fichier doit connaître certaines informations de codage, telles que le type d’encodage et les paramètres d’encodage associés. Ces valeurs sont définies sur le récepteur de fichiers en tant que valeurs de propriété dans une banque de propriétés gérée par l’objet ASF ContentInfo. Si vous configurez le récepteur de fichiers avant d’instancier les encodeurs appropriés, vous pouvez utiliser l’objet ContentInfo avec toutes les propriétés remplies pour créer les encodeurs Windows Media. Dans ce cas, les propriétés sont définies automatiquement sur les encodeurs instanciés. À l’inverse, si vous créez les encodeurs avant le récepteur, assurez-vous que les propriétés que vous définissez sur les encodeurs sont copiées dans la Banque de propriétés du récepteur de fichiers.
+Pour encoder le contenu correctement, le fichier doit connaître certaines informations de codage, telles que le type d’encodage et les paramètres d’encodage associés. Ces valeurs sont définies sur le récepteur de fichiers en tant que valeurs de propriété dans une banque de propriétés gérée par l’objet ASF ContentInfo. si vous configurez le récepteur de fichiers avant d’instancier les encodeurs appropriés, vous pouvez utiliser l’objet ContentInfo avec toutes les propriétés remplies pour créer les encodeurs Windows Media. Dans ce cas, les propriétés sont définies automatiquement sur les encodeurs instanciés. À l’inverse, si vous créez les encodeurs avant le récepteur, assurez-vous que les propriétés que vous définissez sur les encodeurs sont copiées dans la Banque de propriétés du récepteur de fichiers.
 
 Pour définir les propriétés d’encodage, vous devez avoir accès à la Banque de propriétés au niveau du flux du récepteur de fichiers. Transmettez le numéro du flux dans le paramètre *wStreamNumber* de la méthode [**IMFASFContentInfo :: GetEncodingConfigurationPropertyStore**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore) . Les numéros de flux doivent correspondre aux valeurs définies lors de la configuration de chaque flux dans le profil. Les valeurs de propriété sont définies en appelant [**IPropertyStore :: SetValue**](/windows/win32/api/propsys/nn-propsys-ipropertystore). Le tableau suivant décrit les propriétés prises en charge.
 

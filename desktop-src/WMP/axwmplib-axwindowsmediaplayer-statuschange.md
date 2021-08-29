@@ -3,7 +3,7 @@ title: Événement StatusChange de l’objet AxWindowsMediaPlayer
 description: L’événement StatusChange se produit lorsque la propriété Status change de valeur. | Événement StatusChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 5295fccb-7be0-46d3-85ba-b481e575d393
 keywords:
-- Événement StatusChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement StatusChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3ef3224afadb1f98a3067913a8beb095d4e46e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a2c454948adba5c53fc6d0cfaf7ae922e1466bcce28d4ef583ac241c0877c85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509319"
 ---
 # <a name="statuschange-event-of-the-axwindowsmediaplayer-object"></a>Événement StatusChange de l’objet AxWindowsMediaPlayer
 
@@ -59,10 +59,10 @@ Cet événement ne contient pas de données.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer. Status (VB et C#)**](axwmplib-axwindowsmediaplayer-status--vb-and-c.md)
+[**AxWindowsMediaPlayer. status (VB et C#)**](axwmplib-axwindowsmediaplayer-status--vb-and-c.md)
 </dt> </dl>
 
  

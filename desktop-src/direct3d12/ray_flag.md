@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: 31d6a002e5f3f4eeb5f86e671be0904d61cb916d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 894847b5d7dd89e42fd06ca58abad6cc3b85b9f5c6131e8b77ca3837c17d86d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952859"
 ---
 # <a name="ray_flag-enumeration"></a>\_Énumération d’indicateurs de rayon
 
