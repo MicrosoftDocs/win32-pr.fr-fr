@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: c33f67a4def3312564ed943e2a3a917fe2843980
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58e146812bb36a9ff8e692aa424f328abc6eb62e47b98abb1deef2b4e919af40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821919"
 ---
 # <a name="iidentitychangenotifyidentityinformationchanged-method"></a>IIdentityChangeNotify :: IdentityInformationChanged, méthode
 
@@ -100,11 +100,11 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez implémenter cette méthode pour fournir un comportement personnalisé pour votre application lorsque la liste des identités utilisateur sur le système a été modifiée.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

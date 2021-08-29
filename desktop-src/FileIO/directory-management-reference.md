@@ -4,12 +4,12 @@ ms.assetid: 4fd20490-0cdc-45ff-bc95-d32a3f51136e
 title: Informations de référence sur la gestion d’annuaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5570022c47ce7cb9362290dc1028dbb7bd1cd032
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ccf9d07f2d87e11af883e40a7bb74fc7f04b7204f156051ab515af12facb389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951168"
 ---
 # <a name="directory-management-reference"></a>Informations de référence sur la gestion d’annuaire
 

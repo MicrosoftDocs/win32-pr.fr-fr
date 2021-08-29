@@ -4,12 +4,12 @@ description: Sous le protocole http, un serveur ou un script utilise des cookies
 ms.assetid: c00279cf-9cdc-4caf-8549-af1851edfa25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0418442e961f6f4d3d2bcddb2c607ac9cf7928
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0931de8b1d9d25862344658bddaacf5fd1d4325f9343176acb0206dcb3e1e383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113619"
 ---
 # <a name="managing-cookies"></a>Gestion des cookies
 
@@ -30,9 +30,9 @@ Les fonctions suivantes permettent à une application de créer ou de récupére
 
 
 
- 
+ 
 
-Notez que ces fonctions ne nécessitent pas d’appel à [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena). Les cookies qui ont une date d’expiration sont stockés dans le compte utilisateurs locaux sous utilisateurs \\ « nom d’utilisateur » \\ AppData \\ itinérant \\ Microsoft \\ Windows \\ cookies, et les utilisateurs \\ « nom d’utilisateur » \\ AppData \\ itinérants \\ Microsoft \\ Windows \\ cookies \\ bas Directory pour les applications qui s’exécutent avec des privilèges faibles. Les cookies qui n’ont pas de date d’expiration sont stockés en mémoire et ne sont disponibles que pour le processus dans lequel ils ont été créés.
+Notez que ces fonctions ne nécessitent pas d’appel à [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena). les cookies qui ont une date d’expiration sont stockés dans le compte utilisateurs locaux sous les utilisateurs \\ « nom d’utilisateur » \\ AppData \\ itinérance \\ microsoft \\ Windows \\ les cookies, et les utilisateurs \\ « nom d’utilisateur » \\ appdata \\ itinérant \\ microsoft \\ Windows \\ cookies \\ bas répertoire pour les applications qui s’exécutent avec des privilèges faibles. Les cookies qui n’ont pas de date d’expiration sont stockés en mémoire et ne sont disponibles que pour le processus dans lequel ils ont été créés.
 
 Comme indiqué dans la rubrique [http cookies](http-cookies.md) , la fonction [**InternetGetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetgetcookiea) ne retourne pas les cookies marqués par le serveur comme étant non scriptables avec l’attribut « HttpOnly » dans l’en-tête Set-Cookie.
 
@@ -85,7 +85,7 @@ else
 
 [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) est utilisé pour définir un cookie sur l’URL spécifiée. [**InternetSetCookie**](/windows/desktop/api/Wininet/nf-wininet-internetsetcookiea) peut créer des cookies persistants et de session.
 
-Les cookies persistants ont une date d’expiration. Ces cookies sont stockés dans le compte utilisateurs locaux sous utilisateurs \\ « nom d’utilisateur » \\ AppData \\ itinérant \\ Microsoft \\ Windows \\ cookies, et les utilisateurs \\ « nom d’utilisateur » \\ AppData \\ itinérants \\ Microsoft \\ Windows \\ cookies \\ bas Directory pour les applications qui s’exécutent avec des privilèges faibles.
+Les cookies persistants ont une date d’expiration. ces cookies sont stockés dans le compte utilisateurs locaux sous utilisateurs \\ « nom d’utilisateur » \\ appdata \\ itinérant \\ microsoft \\ Windows \\ les cookies, et les utilisateurs \\ « nom d’utilisateur » \\ appdata \\ itinérants \\ \\ de microsoft Windows \\ cookies \\ bas répertoire pour les applications qui s’exécutent avec des privilèges faibles.
 
 Les cookies de session sont stockés en mémoire et sont accessibles uniquement par le processus qui les a créés.
 
@@ -122,10 +122,10 @@ bReturn = InternetSetCookie(TEXT("https://www.adventure_works.com"), NULL,
 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

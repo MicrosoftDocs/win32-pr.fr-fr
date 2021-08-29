@@ -4,12 +4,12 @@ ms.assetid: 4b3871c0-f452-4935-9ee3-78b0ac847e67
 title: Création de modules de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ece67151872a8d065d321c6adaae660be643ad8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 078956c0e3586e12105fc5ea33b1d7e8908c19461aaa4533c7b3cccc32c014ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328419"
 ---
 # <a name="authoring-merge-modules"></a>Création de modules de fusion
 
@@ -22,14 +22,14 @@ La procédure suivante décrit les étapes générales pour créer des modules d
 3.  Générez un [GUID](guid.md) pour le module de fusion. Vous devez utiliser ce GUID lors de la création des clés primaires des tables de base de données dans le module de fusion.
 4.  Ajoutez un enregistrement à la [table des composants](component-table.md) pour chaque composant remis par la fusion. Une table de composants est requise dans chaque module de fusion. Notez que les modules de fusion fonctionnent avec les composants et non avec les fonctionnalités. Dans certains cas, toutefois, une entrée de table de base de données peut être amenée à référencer une fonctionnalité. Pour plus d’informations, consultez [référencement des fonctionnalités dans les modules de fusion](referencing-features-in-merge-modules.md).
 5.  Ajoutez une [table de répertoires](directory-table.md) au module de fusion qui spécifie la disposition des répertoires que le module de fusion ajoute à la base de données cible. Une table de répertoire est requise dans chaque module de fusion.
-6.  Importez une [table FeatureComponents](featurecomponents-table.md) vide dans la base de données des modules de fusion. Cette table vide fournit une indication pour l’outil de fusion dans les cas où le fichier. msi ne contient pas sa propre table FeatureComponents.
+6.  Importez une [table FeatureComponents](featurecomponents-table.md) vide dans la base de données des modules de fusion. Cette table vide fournit une indication pour l’outil de fusion dans les cas où le fichier .msi ne contient pas sa propre table FeatureComponents.
 7.  Collectez tous les fichiers remis par ce module de fusion et créez le fichier CAB [MergeModule.CABinet](mergemodule-cabinet.md) . Ajoutez le fichier CAB au module de fusion sous la forme d’un flux à l’intérieur du fichier. msm.
 8.  Ajoutez un enregistrement à la table de fichiers pour chaque fichier stocké dans MergeModule.CABinet.
 9.  Ajoutez les informations nécessaires pour identifier le module de fusion dans la [table ModuleSignature](modulesignature-table.md). Chaque module de fusion requiert une table ModuleSignature.
 10. Répertoriez les composants du module de fusion dans la [table ModuleComponents](modulecomponents-table.md). Chaque module de fusion requiert une table ModuleComponents.
 11. Ajoutez des tables de séquence de module de fusion au fichier. msm uniquement si le module de fusion doit modifier les [*tables de séquence*](s-gly.md) de la base de données d’installation cible.
 12. Ajoutez une \_ table de validation au module de fusion. Un module de fusion requiert une \_ table de validation pour réussir la validation.
-13. Les modules de fusion ne requièrent qu’une interface utilisateur dans de rares cas. L’inclusion d’une interface utilisateur avec un module de fusion n’est pas recommandée. Dans les cas où une interface utilisateur est requise, les tables de l’interface utilisateur peuvent être fusionnées dans le fichier. msi de la même façon que les autres tables.
+13. Les modules de fusion ne requièrent qu’une interface utilisateur dans de rares cas. L’inclusion d’une interface utilisateur avec un module de fusion n’est pas recommandée. Dans les cas où une interface utilisateur est requise, les tables de l’interface utilisateur peuvent être fusionnées dans le fichier .msi de la même façon que les autres tables.
 14. Ajoutez des informations de Registre aux tables de Registre appropriées dans la base de données des modules de fusion. Ajoutez des informations de Registre pour les bibliothèques de types, les classes, les extensions et les verbes dans les tables [TypeLib](typelib-table.md), [Class](class-table.md), [AppID](appid-table.md), [ProgID](progid-table.md), [extension](extension-table.md), [verb](verb-table.md)ou [MIME](mime-table.md) . Toutes les autres informations de Registre peuvent être placées dans la [table du Registre](registry-table.md). L’utilisation de la table SelfReg n’est pas recommandée.
 15. Ajoutez les informations de résumé au [flux de données Résumé du module de fusion](merge-module-summary-information-stream-reference.md).
 16. Exécutez la validation sur tous les modules de fusion avant d’effectuer l’installation.
@@ -80,7 +80,7 @@ La procédure suivante décrit les étapes générales pour créer des modules d
 [Création de tables de registre de module de fusion](authoring-merge-module-registry-tables.md)
 </dt> <dt>
 
-[Création de flux d’informations de résumé du module de fusion](authoring-merge-module-summary-information-streams.md)
+[Création des informations de synthèse du module de fusion Flux](authoring-merge-module-summary-information-streams.md)
 </dt> <dt>
 
 [Référence du flux de données de résumé du module de fusion](merge-module-summary-information-stream-reference.md)

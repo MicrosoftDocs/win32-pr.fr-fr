@@ -3,7 +3,7 @@ title: Message MCIWNDM_PLAYREVERSE (VFW. h)
 description: Le \_ message MCIWNDM PLAYREVERSE lit le contenu actuel dans le sens inverse, en commençant à la position actuelle et en se terminant au début du contenu ou jusqu’à ce qu’une autre commande arrête la lecture.
 ms.assetid: 93a22454-eca6-453f-abbe-6cf20198dbad
 keywords:
-- Message MCIWNDM_PLAYREVERSE Windows Multimedia
+- message MCIWNDM_PLAYREVERSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b0a2e230e3c57e8314e455be5dfbc5cea2c013
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5664ea53f73745648e668a78a6dc5f6da28a9cb27d54b96fced09523f655ed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037969"
 ---
 # <a name="mciwndm_playreverse-message"></a>\_Message MCIWNDM PLAYREVERSE
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103114
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bfd54324d6658047dfc35e96242c416eb1343114
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db6635377e314f3ce9e9de8902cc2839600d368fcc03aba3b41f0a1d7e22f13f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117706862"
 ---
 # <a name="esenttoomanysplitsexception-methods"></a>Méthodes EsentTooManySplitsException
 

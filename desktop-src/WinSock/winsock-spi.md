@@ -1,15 +1,15 @@
 ---
-description: L’interface du fournisseur de services (SPI) de Windows Sockets (Winsock).
+description: Windows Interface du fournisseur de services (SPI) de Sockets (Winsock).
 ms.assetid: 59ac7ce6-10e7-40ac-bdce-dc01251b0bc5
 title: SPI Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecf63a45f5175a86b8f5eb2a77ef0293182e38f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec29ad26d97b62c884d2944b31d54c94ea1f61b02f74de28c6ff4c84acc6a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051327"
 ---
 # <a name="winsock-spi"></a>SPI Winsock
 
@@ -25,9 +25,9 @@ Le SPI Winsock utilise la Convention d’affectation de noms de préfixe de fonc
 
 | Préfixe | Signification                          | Description                                       |
 |--------|----------------------------------|---------------------------------------------------|
-| WSP    | Fournisseur de services Windows Sockets | Points d’entrée du fournisseur de services de transport           |
-| WPU    | Appel du fournisseur de sockets Windows  | Ws2 \_32.dll points d’entrée pour les fournisseurs de services    |
-| WSC    | Configuration de Windows Sockets    | WS2 \_32.dll points d’entrée pour les applets d’installation |
+| WSP    | Windows Fournisseur de services de Sockets | Points d’entrée du fournisseur de services de transport           |
+| WPU    | Windows Appel du fournisseur de Sockets  | Ws2 \_32.dll points d’entrée pour les fournisseurs de services    |
+| WSC    | Windows Configuration des sockets    | WS2 \_32.dll points d’entrée pour les applets d’installation |
 | LECTEURS    | Fournisseur d’espace de noms               | Points d’entrée du fournisseur d’espaces de noms                   |
 
 

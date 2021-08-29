@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 860aa0ab1b11107d4724f86689e2fd999921b027
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: c278426018d4e193046b10fd5986510c8d9b7e87
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985822"
 ---
 # <a name="jetreadfileinstance-function"></a>Fonction JetReadFileInstance
 
@@ -117,7 +117,13 @@ La corruption des données est détectée par le moteur de base de données via 
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Client</p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p>Serveur</p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Client</p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p>Serveur</p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | 
+| <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | 
+| <p>DLL</p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

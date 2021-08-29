@@ -4,12 +4,12 @@ ms.assetid: 036a93dc-7f52-42f8-945d-7f654289ef63
 title: Reconnaissance d’une demande de renégociation d’une connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d8ae8083c59485b8b7c917fe03893fa363f5a8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 799ed36292b9542795036a697869a00176d7f068eebb6981edd28adbec2e0d5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919678"
 ---
 # <a name="recognizing-a-request-to-renegotiate-a-connection"></a>Reconnaissance d’une demande de renégociation d’une connexion
 

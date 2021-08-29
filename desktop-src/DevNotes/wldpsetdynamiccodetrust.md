@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: a266563b40d255fe9e904f02e4e4593d4c4d3f33
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5a7277f13596ff3d397c97c8e8260e57e0e444e6943ba68f073f90c90cf3583d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075639"
 ---
 # <a name="wldpsetdynamiccodetrust-function"></a>WldpSetDynamicCodeTrust fonction)
 
@@ -56,8 +56,8 @@ Cette méthode retourne **S \_ OK** en cas de réussite ou un code d’échec da
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wldp. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 

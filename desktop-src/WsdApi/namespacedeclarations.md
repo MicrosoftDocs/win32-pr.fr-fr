@@ -4,12 +4,12 @@ ms.assetid: 21b76829-01c4-4228-a714-6319e5eb1c61
 title: élément namespaceDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e98d9c0cf1556e21d92fe7ea1ba222e861f00ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 76cb403e996dfec949668587740b06ce7ef01beffe9e8dbb77179ce1962da243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130681"
 ---
 # <a name="namespacedeclarations-element"></a>élément namespaceDeclarations
 
@@ -47,7 +47,7 @@ Les tables d’espaces de noms sont référencées par les tables de type et d�
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

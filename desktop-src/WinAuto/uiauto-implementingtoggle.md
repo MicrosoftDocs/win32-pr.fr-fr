@@ -15,12 +15,12 @@ keywords:
 - interfaces, IToggleProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723d45326fdf9942682a318282ce4a9784df489c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37f55ff6043fbb7b006802d8967ccf744044f0e841eebcb0fa155f5035075d3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759099"
 ---
 # <a name="toggle-control-pattern"></a>Basculer le modèle de contrôle
 
@@ -56,7 +56,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -73,9 +73,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ef0f0847-05f6-4477-8e48-e0bea66314ab
 title: Gestion des cookies dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3b596225dc3c741ab9ed0139a63e343e7afb3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 004f228ba69f3d1cc7476c01ea084dac64379a7ff62d91c7c4920f7320cbd111
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133242"
 ---
 # <a name="cookie-handling-in-winhttp"></a>Gestion des cookies dans WinHTTP
 
@@ -53,7 +53,7 @@ WinHttpAddRequestHeaders( hRequest,
                           WINHTTP_ADDREQ_FLAG_REPLACE);
 ```
 
-L’API WinHTTP présente différents comportements de gestion des cookies pour les versions du système d’exploitation antérieures à Windows XP avec Service Pack 2 (SP2) et Windows Server 2003 avec Service Pack 1 (SP1).
+l’API WinHTTP présente différents comportements de gestion des cookies pour les versions du système d’exploitation antérieures à Windows XP avec service pack 2 (SP2) et Windows Server 2003 avec service pack 1 (SP1).
 
 * * Windows XP avec SP2 et versions ultérieures et Windows Server 2003 avec SP1 et versions ultérieures : * *
 

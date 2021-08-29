@@ -5,12 +5,12 @@ ms.assetid: 1d8bbfcf-c08e-4bc8-b569-0496703f2d67
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 81c8f53f55a8d5a284f969cbde539b0c34406903
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: aaefb6903cf89b0c322f33f082daec4cfef4b7f4d0510b37729a158dcfcd42de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104383168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796866"
 ---
 # <a name="op_joinprov3_part-structure"></a>Structure OP_JOINPROV3_PART
 

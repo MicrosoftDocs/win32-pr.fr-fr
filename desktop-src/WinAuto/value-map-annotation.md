@@ -4,12 +4,12 @@ description: Annotation de la carte des valeurs
 ms.assetid: f7c9304a-0eed-4a73-ab06-56723f3cfa5d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d21b04374344475689989c2570af6975dc97c13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 32f378742ce01458d930ee510baf4c6317f2e182cdd41642c4d22928d9777fe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104552144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052236"
 ---
 # <a name="value-map-annotation"></a>Annotation de la carte des valeurs
 
@@ -68,7 +68,7 @@ Le tableau suivant décrit les champs inclus dans une carte d’annotation.
 
 
 
- 
+ 
 
 Par exemple, une carte peut se présenter comme suit :
 
@@ -81,9 +81,9 @@ A:0:0:Cold:1:Warm:3:Hot:
 
 Lorsque cette carte de valeur est appliquée à un contrôle Slider, la valeur « chaude » est exposée lorsque le curseur se trouve à la position 1. Étant donné que la valeur 2 n’est pas incluse dans cet exemple, la valeur par défaut de cette position sera exposée. Pour un curseur, la valeur par défaut est une valeur en pourcentage, telle que 33.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,27 +4,27 @@ description: Cette rubrique montre comment faire glisser une image à l’écran
 ms.assetid: 84AFA770-F495-4312-9631-3335BA8CC799
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da495ef9ee0895c04a856f456fcda3e3125f2957
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9fdcbc5af1ad148dafc77a775e7ee901ce8c4d07221ab1e55fca251e51241fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062939"
 ---
 # <a name="how-to-drag-an-image"></a>Comment faire glisser une image
 
 Cette rubrique montre comment faire glisser une image à l’écran. Les fonctions Glisser-déplacer déplacent une image en douceur, en couleurs, sans aucun clignotement du curseur. Les images masquées et démasquées peuvent être glissées.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -164,6 +164,6 @@ BOOL StopDragging(HWND hwnd, HIMAGELIST himl, POINT ptCur)
 [Utilisation de listes d’images](using-image-lists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

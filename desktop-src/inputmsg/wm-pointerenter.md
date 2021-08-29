@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 4d0f6304408514390bb40f2d0e78a766f9e2d118
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfb871f232ea04b417b0aa038da1aaf7831a6a8e4d86b3c2888ca7c6e3708553
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602279"
 ---
 # <a name="wm_pointerenter-message"></a>Message WM_POINTERENTER
 
@@ -78,7 +78,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La notification de **WM_POINTERENTER** peut être utilisée par une fenêtre pour fournir des commentaires à l’utilisateur lorsque le pointeur se trouve sur sa surface, ou réagir à la présence d’un pointeur sur sa surface.
 
@@ -108,8 +108,8 @@ Lorsque les entrées proviennent de la souris, en raison de l’intégration des
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

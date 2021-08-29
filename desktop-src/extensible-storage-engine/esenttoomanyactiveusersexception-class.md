@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2376821027d1ef51f2e96dab62c7e9a56542c61d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54b4ca167d1b3afefdb28b7cae7bb772c7cfb81ae702ae399e8687c3fc526249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118768922"
 ---
 # <a name="esenttoomanyactiveusersexception-class"></a>EsentTooManyActiveUsersException, classe
 

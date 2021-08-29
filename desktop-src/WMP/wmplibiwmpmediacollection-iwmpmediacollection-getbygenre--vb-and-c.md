@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getByGenre
 description: La méthode getByGenre retourne une interface IWMPPlaylist qui fournit l’accès aux éléments multimédias du genre spécifié.
 ms.assetid: 0681e5a2-b56d-4c33-95ce-d9ef3cd5473d
 keywords:
-- méthode getByGenre lecteur Windows Media
-- méthode getByGenre lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getByGenre
+- Lecteur Windows Media de la méthode getByGenre
+- méthode getByGenre Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getByGenre
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb6477a4cd212f354f5af3ab7e50fc2a87092cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d72f20182f2bfb3bef0d4de2907165a571009072d234add3b8f89ae2db859c7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053597"
 ---
 # <a name="iwmpmediacollectiongetbygenre-method"></a>IWMPMediaCollection :: getByGenre, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.getByGenre
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

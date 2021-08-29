@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bda6a6d8b28ac43f984034c63a259e74d49712e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 379f10146ea7fb1deff0745618a407269e65c06d20615dce5b483510f73e6d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583089"
 ---
 # <a name="ms-authz-central-access-policy-id-attribute"></a>MS-auth-central-Access-Policy-ID (attribut)
 

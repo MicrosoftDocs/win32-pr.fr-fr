@@ -4,12 +4,12 @@ ms.assetid: 6890087c-7c94-41ff-bb5c-4bf88a4e07cc
 title: Fonctions d’experts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7441289008c7dcd647775c2932e210ccd09b24bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b189f0af3b748bc6ad162342ae23d98cbf0e381232193c114d245fa6aadb77c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779379"
 ---
 # <a name="expert-functions"></a>Fonctions d’experts
 

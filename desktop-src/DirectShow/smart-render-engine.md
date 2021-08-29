@@ -4,17 +4,17 @@ ms.assetid: 279be879-9728-4fa1-bdf7-6b48485fc75f
 title: Moteur de rendu intelligent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa727397f21aeba754cfe41f2dc4f9c1da1c91b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b3472d096d1c3918a9bf1a45ae788a535fd65bfe4e4084c6b044516db01440d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072553"
 ---
 # <a name="smart-render-engine"></a>Moteur de rendu intelligent
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -32,7 +32,7 @@ Le moteur de rendu intelligent expose les interfaces suivantes :
 
 <dl> <dt>
 
-[Rendu d’un projet](rendering-a-project.md)
+[Rendu d’un Project](rendering-a-project.md)
 </dt> <dt>
 
 [Moteur de rendu de base](basic-render-engine.md)

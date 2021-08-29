@@ -4,12 +4,12 @@ ms.assetid: 327304c4-fdb9-47c6-9b19-49100b933590
 description: 'En savoir plus sur : création d’un disque multisession'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2db17b8a16f46797fc0f6de2bf94850e3b3039bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95147cbadedc76487ae64797c342eb256df0967bf99efecb9e9cda443b5d3010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758575"
 ---
 # <a name="creating-a-multisession-disc"></a>Création d’un disque multisession
 
@@ -19,11 +19,11 @@ L' [API de mastérisation d’image](about-imapi.md) (IMAPI) prend en charge l�
 -   Single-Layer DVD + R/DVD-R
 -   DVD + R double couche
 -   BD-R
--   DVD-RW/DVD + RW (**Windows 7 uniquement**)
+-   dvd-rw/dvd + rw (**Windows 7 uniquement**)
 -   DVD-RAM (**Windows 7 uniquement**)
 -   BD-RE (**Windows 7 uniquement**)
 
-La création d’un disque multisession à l’aide d’IMAPi se compose des étapes suivantes. Chacune de ces étapes documentées contient la partie appropriée de l’exemple complet de script Visual Basic fourni dans la dernière section.
+La création d’un disque multisession à l’aide d’IMAPi se compose des étapes suivantes. chacune de ces étapes documentées contient la partie appropriée de l’exemple complet de script Visual Basic fourni dans la dernière section.
 
 ## <a name="initializing-the-disc-recorder"></a>Initialisation de l’enregistreur de disque
 
@@ -40,7 +40,7 @@ L’interface [**IDiscRecorder2**](/windows/desktop/api/imapi2/nn-imapi2-idiscre
 
 
 ```VB
-' **_ CD/DVD disc file system types
+' *** CD/DVD disc file system types
 Const FsiFileSystemISO9660 = 1
 Const FsiFileSystemJoliet  = 2
 Const FsiFileSystemUDF102  = 4
@@ -71,7 +71,7 @@ Function Main
 
 ## <a name="creating-a-data-writer"></a>Création d’un enregistreur de données
 
-L’objet _ *MsftDiscFormat2Data** fournit la méthode d’écriture, ses propriétés, ainsi que les propriétés spécifiques au média. L’interface [**IDiscFormat2Data**](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data) fournit l’accès à cet objet.
+L’objet **MsftDiscFormat2Data** fournit la méthode d’écriture, ses propriétés, ainsi que les propriétés spécifiques au média. L’interface [**IDiscFormat2Data**](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data) fournit l’accès à cet objet.
 
 L’enregistreur de disque est lié au writer de format à l’aide de la propriété [**IDiscFormat2Data ::p ut \_ Recorder**](/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder) . Une fois que l’enregistreur est lié au writer de format, les requêtes de propriété de média et d’écriture peuvent être effectuées avant d’écrire l’image de résultat sur le disque à l’aide de la méthode [**IDiscFormat2Data :: Write**](/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write) .
 
@@ -187,7 +187,7 @@ La dernière étape consiste à appeler [**IFileSystemImage :: CreateResultImag
 
 ## <a name="example-summary"></a>Exemple de résumé
 
-L’exemple de script Visual Basic suivant montre comment utiliser des objets IMAPi pour créer des disques multisession. L’exemple crée une nouvelle session et ajoute un répertoire au disque. Par souci de simplicité, le code n’effectue pas de vérification étendue des erreurs et suppose les points suivants :
+l’exemple de script Visual Basic suivant montre comment utiliser des objets imapi pour créer des disques multisession. L’exemple crée une nouvelle session et ajoute un répertoire au disque. Par souci de simplicité, le code n’effectue pas de vérification étendue des erreurs et suppose les points suivants :
 
 -   Un périphérique de disque compatible est installé sur le système.
 -   Le périphérique à disque est le premier lecteur sur le système.
@@ -205,7 +205,7 @@ Des fonctionnalités supplémentaires telles que la vérification étendue des e
 
 Option Explicit
 
-' **_ CD/DVD disc file system types
+' *** CD/DVD disc file system types
 Const FsiFileSystemISO9660 = 1
 Const FsiFileSystemJoliet  = 2
 Const FsiFileSystemUDF102  = 4
@@ -289,7 +289,7 @@ End Function
 [Utilisation d’IMAPi](using-imapi.md)
 </dt> <dt>
 
-[_ *IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
+[**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> <dt>
 
 [**IDiscMaster2**](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)

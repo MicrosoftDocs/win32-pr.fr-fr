@@ -1,19 +1,19 @@
 ---
-description: Les fonctions suivantes sont utilisées avec l’interface utilisateur multilingue (MUI).
+description: les fonctions suivantes sont utilisées avec interface utilisateur multilingue (MUI).
 ms.assetid: 918d1f04-78fe-4b60-bee7-08d2f131437e
-title: Fonctions de l’interface utilisateur multilingue
+title: interface utilisateur multilingue Mission
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f082115b0b12bdf6d26923ed8fc941b89887723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 507118ce04895c9b13f5c9d71fae69717a38e2d74186159fb2efcef7f45a0c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041219"
 ---
-# <a name="multilingual-user-interface-functions"></a>Fonctions de l’interface utilisateur multilingue
+# <a name="multilingual-user-interface-functions"></a>interface utilisateur multilingue Mission
 
-Les fonctions suivantes sont utilisées avec l’interface utilisateur multilingue (MUI).
+les fonctions suivantes sont utilisées avec interface utilisateur multilingue (MUI).
 
 
 
@@ -25,7 +25,7 @@ Les fonctions suivantes sont utilisées avec l’interface utilisateur multiling
 | [**GetFileMUIInfo**](/windows/desktop/api/Winnls/nf-winnls-getfilemuiinfo)                                 | Récupère des informations relatives aux ressources sur un fichier.                                                                    |
 | [**GetFileMUIPath**](/windows/desktop/api/Winnls/nf-winnls-getfilemuipath)                                 | Récupère le chemin d’accès à un fichier de ressources spécifique à un langage associé au fichier LN fourni.                           |
 | [**GetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getprocesspreferreduilanguages) | Récupère les langues d’interface utilisateur préférées du processus.                                                                           |
-| [**GetSystemDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage)         | Récupère l’identificateur de langue pour la langue d’interface utilisateur par défaut du système, appelée « langue d’installation » sur Windows Vista. |
+| [**GetSystemDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage)         | récupère l’identificateur de langue pour la langue d’interface utilisateur par défaut du système, appelée « langue d’installation » sur Windows Vista. |
 | [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages)   | Récupère les langues d’interface utilisateur par défaut du système.                                                                            |
 | [**GetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getthreadpreferreduilanguages)   | Récupère les langues d’interface utilisateur préférées du thread pour le thread actuel.                                                     |
 | [**GetThreadUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getthreaduilanguage)                       | Retourne l’identificateur de langue de la première langue de l’interface utilisateur pour le thread actuel.                            |

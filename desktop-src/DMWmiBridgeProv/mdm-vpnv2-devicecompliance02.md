@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a454a5cce3a40066c7cf14a60bdeeb81dcabab9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e0fe564dee15e67e85fd14f517c9054ea69a991a5bba4de3804cb3d3058e0141
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825439"
 ---
 # <a name="mdm_vpnv2_devicecompliance02-class"></a>\_ \_ Classe DEVICECOMPLIANCE02 VPNv2 MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Réservé pour un usage ultérieur
 
@@ -56,7 +56,7 @@ La **classe \_ VPNv2 \_ DeviceCompliance02 MDM** a ces propriétés.
 
 <dl> <dt>
 
-[Enabled](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-devicecompliance-sso-enabled)
+[Activé](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-devicecompliance-sso-enabled)
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -79,7 +79,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Ajouté dans Windows 10, version 1607. Les nœuds sous DeviceCompliance peuvent être utilisés pour activer l’accès conditionnel basé sur AAD pour VPN.
+ajouté dans Windows 10, version 1607. Les nœuds sous DeviceCompliance peuvent être utilisés pour activer l’accès conditionnel basé sur AAD pour VPN.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Ajouté dans Windows 10, version 1607. Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la chaîne est « ./Vendor/MSFT/VPNv2/*ProfileName*»
+ajouté dans Windows 10, version 1607. Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la chaîne est « ./Vendor/MSFT/VPNv2/*ProfileName*»
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Ajouté dans Windows 10, version 1607. Décrit le chemin d’accès complet au n
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

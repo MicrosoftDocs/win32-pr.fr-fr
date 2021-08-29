@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7ee79b9690f1eacdf7dc57a2ebfc2133091a1d55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0dab3dc9b530ca565e78ecc1f5a6e50a26bc3f630f5c60491b01c253e09aa97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147992"
 ---
 # <a name="msvm_virtualsystemmanagementservice-class"></a>MSVM \_ VirtualSystemManagementService, classe
 
@@ -116,7 +116,7 @@ La classe **MSVM \_ VirtualSystemManagementService** possède ces méthodes.
 | [**DefinePlannedSystem**](msvm-virtualsystemmanagementservice-defineplannedsystem.md)                                 | Définit un système virtuel planifié.<br/> L’entrée qui n’est pas complètement spécifiée peut être remplie avec des valeurs par défaut.<br/>                                                                                                              |
 | [**DefineSystem**](definesystem-msvm-virtualsystemmanagementservice.md)                                               | Crée une définition de machine virtuelle.<br/>                                                                                                                                                                                               |
 | [**DestroySystem**](destroysystem-msvm-virtualsystemmanagementservice.md)                                             | Supprime une définition d’ordinateur virtuel existante.<br/>                                                                                                                                                                                         |
-| [**DiagnoseNetworkConnection**](msvm-virtualsystemmanagementservice-diagnosenetworkconnection.md)                     | Diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.<br/>                                                                                                                                             |
+| [**DiagnoseNetworkConnection**](msvm-virtualsystemmanagementservice-diagnosenetworkconnection.md)                     | diagnostique la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.<br/>                                                                                                                                             |
 | [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md)                           | Exporte un ordinateur virtuel, ou un instantané d’un ordinateur virtuel, vers un fichier.<br/>                                                                                                                                                               |
 | [**FormatError**](formaterror-msvm-virtualsystemmanagementservice.md)                                                 | Retourne une chaîne de message d’erreur mise en forme pour le tableau spécifié d’instances d' [**\_ erreur MSVM**](msvm-error.md) incorporées.<br/>                                                                                                               |
 | [**GenerateWwpn**](generatewwpn-msvm-virtualsystemmanagementservice.md)                                               | Génère un ensemble de noms WWPN (World World-of-Port).<br/>                                                                                                                                                                                       |
@@ -148,7 +148,7 @@ La classe **MSVM \_ VirtualSystemManagementService** possède ces méthodes.
 | [**SetInitialMachineConfigurationData**](msvm-virtualsystemmanagementservice-setinitialmachineconfigurationdata.md)   | Définit les données de configuration initiales de l’ordinateur d’une machine virtuelle.<br/>                                                                                                                                                                                         |
 | [**StartService**](msvm-virtualsystemmanagementservice-startservice.md)                                               | Cette méthode n'est pas prise en charge.<br/>                                                                                                                                                                                                           |
 | [**StopService**](msvm-virtualsystemmanagementservice-stopservice.md)                                                 | Cette méthode n'est pas prise en charge.<br/>                                                                                                                                                                                                           |
-| [**TestNetworkConnection**](msvm-virtualsystemmanagementservice-testnetworkconnection.md)                             | Teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.<br/>                                                                                                                                                 |
+| [**TestNetworkConnection**](msvm-virtualsystemmanagementservice-testnetworkconnection.md)                             | teste la connectivité réseau d’une machine virtuelle dans un environnement de virtualisation de réseau Windows.<br/>                                                                                                                                                 |
 | [**UpgradeSystemVersion**](msvm-virtualsystemmanagementservice-upgradesystemversion.md)                               | Met à niveau le système virtuel.<br/> En cas d’application aux paramètres système d’une configuration de système virtuel « en cours »<br/>                                                                                                                 |
 | [**ValidatePlannedSystem**](validateplannedsystem-msvm-virtualsystemmanagementservice.md)                             | Valide le système planifié spécifié.<br/>                                                                                                                                                                                                 |
 
@@ -605,7 +605,7 @@ Dernier État demandé ou souhaité pour l’élément. L’état réel de l’�
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -718,7 +718,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualSystemManagementService** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -728,8 +728,8 @@ L’accès à la classe **MSVM \_ VirtualSystemManagementService** peut être li
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

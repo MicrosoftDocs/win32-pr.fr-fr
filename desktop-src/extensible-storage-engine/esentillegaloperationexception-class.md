@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 49767b6fa24edd713bbe320abcf82f606d47fd35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3b9a5141716e7ddcfe5ef3a5c630801dff1e18ebccfbca64af95ec33743f567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117710311"
 ---
 # <a name="esentillegaloperationexception-class"></a>EsentIllegalOperationException, classe
 

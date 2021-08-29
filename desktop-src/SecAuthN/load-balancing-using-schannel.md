@@ -4,12 +4,12 @@ ms.assetid: 1B373496-1C1B-4D4B-8CAC-B572C58E43A2
 title: Équilibrage de charge à l’aide de Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dce190d665f4cc41eb0615a2ddc83e0ee54798d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57b4b65802a1d354e085cab31ecf3cc6c0a99e2c36cb2cb5e5ba2c56b786e952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922344"
 ---
 # <a name="load-balancing-using-schannel"></a>Équilibrage de charge à l’aide de Schannel
 

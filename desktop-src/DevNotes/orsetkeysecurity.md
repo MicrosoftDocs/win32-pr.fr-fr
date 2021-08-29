@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: ff63a7d896964f486b5fcb168c08513f8d5703be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 933bc37e8bc4a79191d781fa5981e8633939757482d6156a7a08f7da6a36cff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758429"
 ---
 # <a name="orsetkeysecurity-function"></a>ORSetKeySecurity fonction)
 
@@ -74,7 +74,7 @@ Si la fonction échoue, elle retourne un code d’erreur différent de zéro dé
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

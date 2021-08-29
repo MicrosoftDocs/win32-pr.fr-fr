@@ -8,12 +8,12 @@ keywords:
 - fournisseurs ADSI, implémenter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c362b04244580e448e7bb7bd78889e66db12fe
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 848744673fff9dc98622f17ff89b1a8a552076d57451a771cfc0af66151213ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821349"
 ---
 # <a name="implementation-issues-for-adsi-providers"></a>Problèmes d’implémentation pour les fournisseurs ADSI
 
@@ -23,7 +23,7 @@ Ensuite, implémentez les interfaces ADSI fondamentales, [**IADs**](/windows/des
 
 Troisièmement, implémentez les interfaces de gestion de schéma si votre service d’annuaire a un schéma sous-jacent : [**IADsClass**](/windows/desktop/api/Iads/nn-iads-iadsclass), [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty), [**IADsSyntax**](/windows/desktop/api/Iads/nn-iads-iadssyntax). S’il n’existe pas de schéma sous-jacent, utilisez ces interfaces pour extraire les classes et les propriétés utilisées par le service d’annuaire. Les schémas peuvent être utilisés pour publier les fonctionnalités de votre service d’annuaire sur les clients ADSI.
 
-## <a name="collections"></a>Regroupements
+## <a name="collections"></a>Collections
 
 Les composants du fournisseur ADSI peuvent suivre l’un des trois modèles pour la mise en cache des collections pendant l’énumération. Le choix d’un modèle de mise en cache détermine le comportement d’ADSI lorsqu’un objet d’une collection est supprimé du service d’annuaire sous-jacent externe à ADSI.
 
@@ -33,11 +33,11 @@ Les modèles de mise en cache sont les suivants :
 -   Collections mises en cache de façon incrémentielle. La collection est récupérée à partir du service d’annuaire sous-jacent, un objet à la fois lorsque [**IEnumVARIANT :: Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) est appelé. [**IEnumVARIANT :: Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) retourne au début de la collection dans le cache et **IEnumVARIANT :: Next** retourne les objets mis en cache jusqu’à ce que la fin du cache soit atteinte. les nouveaux objets sont alors ajoutés à partir du magasin sous-jacent. Lorsqu’une instance d’objet Active Directory se trouve dans le cache, le client ne prend pas connaissance de sa suppression du service d’annuaire sous-jacent jusqu’à ce qu’un [**IADs :: GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) ou [**IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) tente d’accéder à l’objet.
 -   Collections non mises en cache. La collection est récupérée à partir du service d’annuaire sous-jacent, un objet à la fois lorsque [**IEnumVARIANT :: Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) est appelé. [**IEnumVARIANT :: Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) retourne au début de la collection dans le magasin sous-jacent. **IEnumVARIANT :: Next** et **IEnumVARIANT :: Reset** Operations ne peuvent pas récupérer les objets supprimés, car les objets sont récupérés à la demande à partir du service d’annuaire sous-jacent. Seul l’objet actuel est mis en cache ; Si l’objet actuel est supprimé, le client ne prend pas connaissance de sa suppression du service d’annuaire sous-jacent jusqu’à ce qu’un [**IADs :: GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo) ou [**IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) tente d’accéder à l’objet.
 
-Quel que soit le modèle de mise en cache, sachez que l’énumération ADSI retourne Active Directory interfaces de service à l’appelant. Pour éviter la surcharge liée à l’obtention d’un nouveau pointeur d’interface, les applications ADSI doivent mettre en cache les pointeurs d’interface renvoyés pour les objets qu’ils envisagent de manipuler. Par exemple, une Visual Basic application qui énumère un conteneur et remplit une zone de liste avec des noms peut mettre en cache les pointeurs d’interface associés aux noms pour une utilisation ultérieure. Cette approche offre de meilleures performances que le remplissage de la zone de liste pendant l’énumération et l’obtention d’un nouveau pointeur d’interface lorsque l’utilisateur effectue une sélection.
+Quel que soit le modèle de mise en cache, sachez que l’énumération ADSI retourne Active Directory interfaces de service à l’appelant. Pour éviter la surcharge liée à l’obtention d’un nouveau pointeur d’interface, les applications ADSI doivent mettre en cache les pointeurs d’interface renvoyés pour les objets qu’ils envisagent de manipuler. par exemple, une Visual Basic application qui énumère un conteneur et remplit une zone de liste avec des noms peut mettre en cache les pointeurs d’interface associés aux noms pour une utilisation ultérieure. Cette approche offre de meilleures performances que le remplissage de la zone de liste pendant l’énumération et l’obtention d’un nouveau pointeur d’interface lorsque l’utilisateur effectue une sélection.
 
 ## <a name="about-dispatch-ids"></a>À propos des ID de dispatch
 
-[**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) est une interface d’automatisation définie par com pour les contrôleurs qui n’utilisent pas directement les interfaces com. L’accès à un objet via **IDispatch** est appelé accès lié au nom ou à liaison tardive, car il se produit au moment de l’exécution (« tardif ») et utilise des noms de chaîne de propriétés et de méthodes pour résoudre les références (« Name »). Au moment de l’exécution, les clients transmettent le nom de chaîne de la propriété ou de la méthode qu’ils souhaitent appeler dans la méthode [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames)(). Si la propriété ou la méthode existe sur l’objet, l’identificateur de dispatch (dispID) de la fonction correspondante est récupéré. Le dispID est ensuite utilisé pour exécuter la fonction par le biais de [**IDispatch :: Invoke**](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke)(). L’utilisation de **IDispatch**, les propriétés et les méthodes sur les interfaces exposées par un objet unique s’affichent sous la forme d’une liste plate. Étant donné que l’accès lié au nom requiert deux appels de fonction, il est moins efficace que l’utilisation directe d’une interface COM. Les clients sont encouragés à utiliser les interfaces COM ADSI sur les objets lorsque les performances sont à prendre en compte. Les contrôleurs Automation avancés tels que Visual Basic 4,0 peuvent appeler d’autres interfaces COM et **IDispatch**, si les interfaces sont conformes aux contraintes d’automatisation pour les types de données et le passage de paramètres.
+[**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) est une interface d’automatisation définie par com pour les contrôleurs qui n’utilisent pas directement les interfaces com. L’accès à un objet via **IDispatch** est appelé accès lié au nom ou à liaison tardive, car il se produit au moment de l’exécution (« tardif ») et utilise des noms de chaîne de propriétés et de méthodes pour résoudre les références (« Name »). Au moment de l’exécution, les clients transmettent le nom de chaîne de la propriété ou de la méthode qu’ils souhaitent appeler dans la méthode [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames)(). Si la propriété ou la méthode existe sur l’objet, l’identificateur de dispatch (dispID) de la fonction correspondante est récupéré. Le dispID est ensuite utilisé pour exécuter la fonction par le biais de [**IDispatch :: Invoke**](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke)(). L’utilisation de **IDispatch**, les propriétés et les méthodes sur les interfaces exposées par un objet unique s’affichent sous la forme d’une liste plate. Étant donné que l’accès lié au nom requiert deux appels de fonction, il est moins efficace que l’utilisation directe d’une interface COM. Les clients sont encouragés à utiliser les interfaces COM ADSI sur les objets lorsque les performances sont à prendre en compte. les contrôleurs Automation avancés tels que Visual Basic 4,0 peuvent appeler d’autres interfaces COM et **IDispatch**, si les interfaces sont conformes aux contraintes d’automatisation pour les types de données et le passage de paramètres.
 
 Les fournisseurs ADSI génèrent des DISPID de manière dynamique pour chaque objet Active Directory. Les DISPID récupérés par le biais de [**IDispatch :: GetIDsOfNames**](/windows/win32/api/oaidl/nf-oaidl-idispatch-getidsofnames) pour un objet donné sont les valeurs générées, mais pas les valeurs qui se trouvent dans le IDL de l’objet. Les utilisateurs [**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) doivent appeler **GetIDsOfNames** pour obtenir des DISPID valides au moment de l’exécution.
 
@@ -89,6 +89,6 @@ ADSI représente des propriétés en tant qu’objets de propriété dans le con
 
 Lorsqu’un fournisseur ne peut pas identifier l’interface qui doit être retournée en tant qu’interface principale, les **\_ IAD IID** doivent être retournées. Cela fournit un accès lié au nom à toutes les propriétés d’un objet via [**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) et les méthodes [**IADs :: obten**](/windows/desktop/api/Iads/nf-iads-iads-get), [**IADs :: GETEX**](/windows/desktop/api/Iads/nf-iads-iads-getex), [**iads ::P ut**](/windows/desktop/api/Iads/nf-iads-iads-put)et [**IADs ::P Utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) .
 
- 
+ 
 
- 
+ 

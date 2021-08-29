@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 698f9a050415568c06c8e10819cfed12a4a17181
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 4e2a5132ae950384a748af27d1d1f8de48952cf3
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986042"
 ---
 # <a name="jetcreateindex-function"></a>Fonction JetCreateIndex
 
@@ -114,7 +114,14 @@ Notez que **JetCreateIndex** a été remplacé par [JetCreateIndex2](./jetcreate
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Client</p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p>Serveur</p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | | <p>Unicode</p> | <p>Est implémenté en tant que <strong>JetCreateIndexW</strong> (Unicode) et <strong>JetCreateIndexA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Client</p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p>Serveur</p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | 
+| <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | 
+| <p>DLL</p> | <p>Requiert ESENT.dll.</p> | 
+| <p>Unicode</p> | <p>Est implémenté en tant que <strong>JetCreateIndexW</strong> (Unicode) et <strong>JetCreateIndexA</strong> (ANSI).</p> | 
 
 
 

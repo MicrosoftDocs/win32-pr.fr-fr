@@ -5,8 +5,8 @@ ms.assetid: a18a87e6-dcee-4e9f-8e8c-262fef36ab1a
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagEnableSPNServerPort
-- Méthode SessionFlagEnableSPNServerPort Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagEnableSPNServerPort
+- méthode SessionFlagEnableSPNServerPort Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagEnableSPNServerPort
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4153f088079b58b3b0e048f2cd8f38b3524754a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5eb309f8fd9d6351ff34201ec409256bad5160ef2cd0224f5cdbf5263ae05214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758929"
 ---
 # <a name="wsmansessionflagenablespnserverport-method"></a>Méthode WSMan. SessionFlagEnableSPNServerPort
 

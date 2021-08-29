@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e469e288e853ca88a0cf15c209882a8114e33509
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59c74f6933929b54be7e4933220358105f2dbe6d7be5f74db13be7c3092ffe17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537379"
 ---
 # <a name="cbasestreamcontrolcheckstreamstate-method"></a>Méthode CBaseStreamControl. CheckStreamState
 
@@ -64,7 +64,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode lorsque votre code confidentiel reçoit un exemple. Fournissez l’exemple uniquement si la valeur de retour est flux continu \_ . Si la valeur de retour est une annulation de flux \_ , ignorez l’exemple.
 
@@ -120,7 +120,7 @@ CMyPin::Receive(IMediaSample *pSample)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Strmctl. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Strmctl. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

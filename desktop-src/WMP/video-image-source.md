@@ -3,19 +3,19 @@ title: Source de l’image vidéo
 description: Source de l’image vidéo
 ms.assetid: 1141826e-8f25-466c-a33e-9f491b02ee67
 keywords:
-- Windows Media Player Mobile Skins, vidéo
+- Lecteur Windows Media Skins mobiles, vidéo
 - apparences, vidéo
 - référence pour les enveloppes, vidéo
 - vidéo dans les apparences, source d’image
 - source d’image pour les apparences, vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a47c43138452fd85419073846d26f4fa762860f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41a59c9db665981c582b2d9975468d1e4821e79f8a6622a7ffcd26c1b35f69e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054187"
 ---
 # <a name="video-image-source"></a>Source de l’image vidéo
 
@@ -28,9 +28,9 @@ Aucune image distincte n’est requise pour la zone d’affichage vidéo. Vous s
 [**Vidéo**](video.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

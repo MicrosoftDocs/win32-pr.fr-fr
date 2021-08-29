@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ca4478684e79dfb698dd30bb21132f597129fdac
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: adfa30d90087113f14b684440c21d6246fdc1f64
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987842"
 ---
 # <a name="jet_pwstr"></a>JET_PWSTR
 
@@ -46,6 +46,10 @@ Chaîne Unicode terminée par un caractère null (char \* ).
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 

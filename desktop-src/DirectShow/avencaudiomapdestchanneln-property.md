@@ -4,12 +4,12 @@ ms.assetid: 996c97d6-e4c6-4189-89cb-912d28327453
 title: Propriété AVEncAudioMapDestChannelN (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c16e8ab45c7ed7dca7a81f72596047598a629db7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 600f7fb92d52839768771434b116ec8d54915b20ab2e0c1f42ffbf0a1b8415b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824409"
 ---
 # <a name="avencaudiomapdestchanneln-property"></a>Propriété AVEncAudioMapDestChannelN
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **Consultez la section Notes.**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette rubrique de référence décrit un ensemble de propriétés associées. Chaque propriété mappe un canal d’entrée à un canal de sortie spécifié. Les propriétés suivantes sont définies.
 
@@ -60,8 +60,8 @@ Cette rubrique de référence décrit un ensemble de propriétés associées. Ch
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

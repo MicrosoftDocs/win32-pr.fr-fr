@@ -3,7 +3,7 @@ title: Propriété Ribbon. ApplicationMenu
 description: Représente le menu de l’application. | Propriété Ribbon. ApplicationMenu
 ms.assetid: 6945e976-8ac8-40fa-8e71-31812871b496
 keywords:
-- Ruban de la propriété Ribbon. ApplicationMenu
+- ruban. ApplicationMenu, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71263a19057d3f66747b1a40aaa2d0a46528e9b6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c9e6546e39690888b5ee4375fbeeb812450b18d05b77ddb2fd6d6c283fdf4e1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710489"
 ---
 # <a name="ribbonapplicationmenu-property"></a>Propriété Ribbon. ApplicationMenu
 
 Représente le menu de l’application.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Ribbon.ApplicationMenu>
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -98,8 +98,8 @@ Cette section de code affiche la déclaration de contrôle **Ribbon. Application
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -4,26 +4,26 @@ ms.assetid: 30e3c10b-1310-4194-8b83-221dfe73b03c
 title: Définition des propriétés dans l’objet ContentInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e386d5eb33dd1893b195a870425b2336ab9c316f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c17d82a05540512be34ba0d327ce006aa6215774da86a14ebfcf4339c85ab361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119101799"
 ---
 # <a name="setting-properties-in-the-contentinfo-object"></a>Définition des propriétés dans l’objet ContentInfo
 
 Lors de la création d’un fichier ASF, l’objet ContentInfo doit connaître les caractéristiques du contenu multimédia afin que les différents objets d’en-tête soient renseignés avec les valeurs correctes.
 
--   [Paramètres relatifs au contenu dans l’objet ContentInfo](#content-related-settings-in-the-contentinfo-object)
--   [Configuration de l’objet ContentInfo avec les paramètres de l’encodeur](#configuring-the-contentinfo-object-with-encoder-settings)
+-   [Paramètres relative au contenu dans l’objet ContentInfo](#content-related-settings-in-the-contentinfo-object)
+-   [configuration de l’objet ContentInfo avec l’encodeur Paramètres](#configuring-the-contentinfo-object-with-encoder-settings)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="content-related-settings-in-the-contentinfo-object"></a>Paramètres relatifs au contenu dans l’objet ContentInfo
+## <a name="content-related-settings-in-the-contentinfo-object"></a>Paramètres relative au contenu dans l’objet ContentInfo
 
-Les paramètres de configuration du contenu sont des paramètres de flux, qui sont contenus dans le profil et spécifient l’identificateur de flux, le type de média et les paramètres de compartiment avec fuite pour le récepteur multimédia. Une fois le profil défini sur l’objet ContentInfo en appelant [**IMFASFContentInfo :: SetProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile), ces valeurs sont reflétées dans l’objet d’en-tête ASF qui a été généré. Pour plus d’informations sur ces paramètres, consultez [création et configuration de flux ASF](creating-and-configuring-asf-streams.md).
+Les paramètres de configuration du contenu sont des paramètres de flux, qui sont contenus dans le profil et spécifient l’identificateur de flux, le type de média et les paramètres de compartiment avec fuite pour le récepteur multimédia. Une fois le profil défini sur l’objet ContentInfo en appelant [**IMFASFContentInfo :: SetProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile), ces valeurs sont reflétées dans l’objet d’en-tête ASF qui a été généré. Pour plus d’informations sur ces paramètres, consultez [création et configuration d’flux ASF](creating-and-configuring-asf-streams.md).
 
-## <a name="configuring-the-contentinfo-object-with-encoder-settings"></a>Configuration de l’objet ContentInfo avec les paramètres de l’encodeur
+## <a name="configuring-the-contentinfo-object-with-encoder-settings"></a>configuration de l’objet ContentInfo avec l’encodeur Paramètres
 
 Les données audio ou vidéo multimédia numériques sont complexes et occupent de grandes quantités de mémoire. Dans la plupart des cas, l’audio et la vidéo sont compressés à l’aide d’encodeurs avant d’être ajoutés à un fichier ASF. Dans Media Foundation, les encodeurs sont implémentés en tant que [Media Foundation transformations](media-foundation-transforms.md) (MFTS) avec une entrée et une sortie. Vous devez sélectionner le type de média de sortie en fonction du type de média du flux d’entrée et du type d’encodage que vous choisissez pour compresser le flux.
 

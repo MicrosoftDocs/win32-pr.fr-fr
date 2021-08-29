@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, interprétation de la liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 423564a844bfbf959de8a2fcf4dfff5ae86b8b6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5578683b06ac75b99e2865d55512449ad2217984234a9bf9d3cf7e8360c053e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020379"
 ---
 # <a name="interpreting-binding-information"></a>Interprétation des informations de liaison
 
@@ -66,9 +66,9 @@ status = RpcStringFree(&NetworkOptions);
 
 L’exemple de code précédent appelle les fonctions [**RpcBindingToStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingtostringbinding) et [**RpcStringBindingParse**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingparse) pour obtenir et analyser les informations dans un handle de liaison valide. Notez que la valeur **null** a été transmise en tant que deuxième paramètre à **RpcStringBindingParse**. Cela provoque l’ignorance de l’analyse de l’UUID de l’objet par cette fonction. Étant donné qu’elle n’analyse pas l’UUID, **RpcStringBindingParse** n’alloue pas de chaîne pour celle-ci. Cette technique permet à votre application d’allouer uniquement de la mémoire pour les informations qui vous intéressent à l’analyse et à l’analyse.
 
- 
+ 
 
- 
+ 
 
 
 

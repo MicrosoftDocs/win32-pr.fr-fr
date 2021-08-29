@@ -4,12 +4,12 @@ ms.assetid: 7f1e61e8-15e1-4a25-b864-eeadcac61108
 title: Considérations relatives à la programmation pour l’écriture de gestionnaires de ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bae64ead32c747a0e8499dcdc8821d36f01f06e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a20d84695a5bc0f378c8b93519a35b9a1d95bcc58d718520478e519707553b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388908"
 ---
 # <a name="programming-considerations-for-writing-resource-managers"></a>Considérations relatives à la programmation pour l’écriture de gestionnaires de ressources
 

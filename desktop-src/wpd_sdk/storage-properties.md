@@ -1,7 +1,7 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés de stockage suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés de stockage suivantes.
 ms.assetid: 234078c3-e703-41f3-9b18-ae61d8a36784
-title: Propriétés de stockage (PortableDevice. h)
+title: Stockage Propriétés (PortableDevice. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 404b45a6fe5193a0550b3ecc11feeae264125110
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0dbf88d02e59cca59e4bb3ee14ffd90c1741478f8b6a90ea296087388b9bb099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806509"
 ---
 # <a name="storage-properties"></a>Propriétés de stockage
 
-Appareils mobiles Windows prend en charge les propriétés de stockage suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés de stockage suivantes.
 
 
 

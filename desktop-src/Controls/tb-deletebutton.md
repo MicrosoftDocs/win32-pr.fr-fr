@@ -3,7 +3,7 @@ title: Message TB_DELETEBUTTON (commctrl. h)
 description: Supprime un bouton de la barre d’outils.
 ms.assetid: 6ba569f0-c400-4c0d-bc9f-3a82bcef0360
 keywords:
-- TB_DELETEBUTTON les contrôles de message Windows
+- TB_DELETEBUTTON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d9bbbca143351f70005990b5ac97fa4fa35cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 527bac884c36d8bcbf1ddee245156557e392cf1b4591b03c8af7cfc9cc3c8f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957898"
 ---
 # <a name="tb_deletebutton-message"></a>TO \_ DELETEBUTTON message
 
@@ -49,8 +49,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

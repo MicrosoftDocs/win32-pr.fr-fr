@@ -7,12 +7,12 @@ keywords:
 - API serveur HTTP, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f99045b24d0ef79c267615791c62da50ed8e40
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 47a73d23ffc8f498f4135e07f2b933eddf2896866336a70e11bd9bbf360cacdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950838"
 ---
 # <a name="http-server-api"></a>API de serveur HTTP
 
@@ -26,7 +26,7 @@ Cette API est conçue pour être utilisée par les programmeurs C/C++.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API du serveur HTTP est prise en charge sur les systèmes d’exploitation Windows Server 2003 et Windows XP avec Service Pack 2 (SP2). Sachez que Microsoft IIS 5 s’exécutant sur Windows XP avec SP2 ne peut pas partager le port 80 avec d’autres applications HTTP exécutées simultanément.
+l’API du serveur HTTP est prise en charge sur les systèmes d’exploitation Windows server 2003 et sur Windows XP avec Service Pack 2 (SP2). n’oubliez pas que Microsoft IIS 5 s’exécutant sur Windows XP avec SP2 ne peut pas partager le port 80 avec d’autres applications HTTP exécutées simultanément.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -47,7 +47,7 @@ L’API du serveur HTTP est prise en charge sur les systèmes d’exploitation W
 
 <dl> <dt>
 
-[Services HTTP Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
+[Windows Services HTTP (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page)
 </dt> </dl>
 
  

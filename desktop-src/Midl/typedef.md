@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfce98e5a83f8d2a5e2499a5ceceba755e68f2c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 999f0154de90f589f776a84bf030677c64a68f2471ebdd7a0d9838aa3074fa44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822039"
 ---
 # <a name="typedef-attribute"></a>typedef (attribut)
 
@@ -70,7 +70,7 @@ Spécifie un type défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La déclaration de **typedef** IDL est augmentée pour vous permettre d’associer des attributs de type aux types définis. Les attributs de type valides incluent **\[** [**handle**](handle.md) **\]** , **\[** [**\_ type de commutateur**](switch-type.md) **\]** , **\[** [**transmettre \_ en tant que**](transmit-as.md) **\]** ; l’attribut de pointeur **\[** [**ref**](ref.md) **\]** , **\[** [**unique**](unique.md) **\]** ou **\[** [**ptr**](ptr.md) **\]** ; et les attributs d’utilisation **\[** [**\_ handle de contexte**](context-handle.md) **\]** , **\[** [**chaîne**](string.md) **\]** et **\[** [**Ignorer**](ignore.md) **\]** .
 
@@ -133,12 +133,12 @@ L’instruction de **typedef** ACF s’affiche dans le corps du CCP. Notez que l
 [**transmettre \_ en tant que**](transmit-as.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

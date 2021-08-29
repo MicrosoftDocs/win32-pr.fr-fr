@@ -10,12 +10,12 @@ keywords:
 - Active Directory, utilisation de, liaison, utilisation d’objectGUID pour la liaison à l’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 045c6194cf27b1697cc478b547105fb10335c219
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 72c310ad1041c072dc126a761fab5fa104fa00c4f98e4fa01d45ca7bc24c11b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024487"
 ---
 # <a name="using-objectguid-to-bind-to-an-object"></a>Utilisation d’objectGUID pour la liaison à un objet
 
@@ -41,7 +41,7 @@ Lors de la liaison à l’aide du GUID d’objet, certaines méthodes et propri�
 Les méthodes **IADsContainer** suivantes ne sont pas prises en charge par les objets obtenus par la liaison à l’aide du GUID de l’objet :
 
 -   [**GetObject**](/windows/desktop/api/iads/nf-iads-iadscontainer-getobject)
--   [**Créés**](/windows/desktop/api/iads/nf-iads-iadscontainer-create)
+-   [**Créer**](/windows/desktop/api/iads/nf-iads-iadscontainer-create)
 -   [**Supprimer**](/windows/desktop/api/iads/nf-iads-iadscontainer-delete)
 -   [**CopyHere**](/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere)
 -   [**MoveHere**](/windows/desktop/api/iads/nf-iads-iadscontainer-movehere)
@@ -54,6 +54,6 @@ Si une application stocke ou met en cache des identificateurs ou des référence
 -   Il est facile de lier l’objet à l’aide du GUID de l’objet.
 -   Si l’objet est renommé ou déplacé, la propriété **objectGUID** fournit un identificateur unique qui peut être utilisé pour rechercher et identifier rapidement l’objet plutôt que d’avoir à composer une requête qui a des conditions pour toutes les propriétés qui identifieraient cet objet.
 
- 
+ 
 
- 
+ 

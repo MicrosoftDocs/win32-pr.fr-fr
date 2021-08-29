@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd3b074bdaf6c6d5617a55d6579a64f08ccb80c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c188ee65af0bd687dd8d64fe3fa6bbd62abac7158d30f595f89723b0df7891b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054407"
 ---
 # <a name="playerclosedcaption"></a>Player. closedCaption
 

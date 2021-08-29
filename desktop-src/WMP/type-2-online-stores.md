@@ -3,27 +3,27 @@ title: Tapez 2 magasins en ligne
 description: Tapez 2 magasins en ligne
 ms.assetid: b130ff6d-bd43-42df-8527-9c4558a7c414
 keywords:
-- Windows Media Player Online stores, tapez 2 magasins en ligne
+- Lecteur Windows Media des magasins en ligne, tapez 2 magasins en ligne
 - magasins en ligne, type 2 magasins en ligne
 - tapez 2 magasins en ligne, à propos de
-- Windows Media Player, type 2 magasins en ligne
+- Lecteur Windows Media, tapez 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4212db224b54de44dd115317bea8e961fe3351a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a45151ed78d4c91c115e35812f7da201574bbf07427346a736095a4a44ba3eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117385"
 ---
 # <a name="type-2-online-stores"></a>Tapez 2 magasins en ligne
 
 > [!Note]  
 > Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge.
 
- 
+ 
 
-Le lecteur Windows Media 11 prend en charge les magasins en ligne de type 1 et de type 2. Les magasins de type 1 sont plus profondément intégrés à l’interface utilisateur du lecteur que les magasins de type 2. Le lecteur Windows Media 10 prend en charge les magasins de type 2, mais pas les magasins de type 1. Cette documentation, qui s’applique uniquement aux magasins de type 2, est composée des sections suivantes.
+Lecteur Windows Media 11 prend en charge les magasins en ligne de type 1 et de type 2. Les magasins de type 1 sont plus profondément intégrés à l’interface utilisateur du lecteur que les magasins de type 2. Lecteur Windows Media 10 prend en charge les magasins de type 2, mais pas les magasins de type 1. Cette documentation, qui s’applique uniquement aux magasins de type 2, est composée des sections suivantes.
 
 
 
@@ -35,18 +35,18 @@ Le lecteur Windows Media 11 prend en charge les magasins en ligne de type 1 et d
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Windows Media Player Online stores**](windows-media-player-online-stores.md)
+[**Lecteur Windows Media Magasins en ligne**](windows-media-player-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

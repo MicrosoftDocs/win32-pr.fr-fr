@@ -4,12 +4,12 @@ ms.assetid: 3bebb329-3dd7-4b2e-8ff3-878aaf337a2c
 title: Affichage du signe insertion dans les chaînes bidirectionnelles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c76cce95362aa69564fd245ccad1da4a967dddc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49a2e4c9fa06a45b4c653b76395854ee37e0dfdb6f555926987ab4f1a4decb10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328799"
 ---
 # <a name="displaying-the-caret-in-bidirectional-strings"></a>Affichage du signe insertion dans les chaînes bidirectionnelles
 
@@ -25,7 +25,7 @@ Uniscribe utilise les conventions de positionnement du signe insertion indiquée
 | Collage         | Bord de fin du dernier caractère collé.      |
 | Avancer le signe insertion | Bord de fin du dernier caractère passé. |
 | Retrait du signe insertion  | Bord de tête du dernier caractère passé.  |
-| Accueil            | Bord de tête de la ligne.                        |
+| page d'accueil            | Bord de tête de la ligne.                        |
 | End             | Bord de fin de la ligne.                       |
 
 

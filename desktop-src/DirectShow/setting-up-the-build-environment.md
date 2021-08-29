@@ -1,37 +1,37 @@
 ---
-description: Création d’applications DirectShow
+description: génération d’Applications DirectShow
 ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
-title: Création d’applications DirectShow
+title: génération d’Applications DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c6ab8a0731e93eece734abd4380b092414ff5f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4e6c062c97d64373668ef8bfd7eaf02b5d514bd648c3bc5b67ac6803d1fd804f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106519174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951898"
 ---
-# <a name="building-directshow-applications"></a>Création d’applications DirectShow
+# <a name="building-directshow-applications"></a>génération d’Applications DirectShow
 
-Cette rubrique décrit les en-têtes et les bibliothèques nécessaires pour créer des applications DirectShow.
+cette rubrique décrit les en-têtes et les bibliothèques nécessaires pour générer des applications DirectShow.
 
-Les derniers en-têtes et bibliothèques DirectShow sont disponibles dans le [SDK Windows](https://msdn.microsoft.com/windows/aa904949.aspx).
+les derniers en-têtes et bibliothèques de DirectShow sont disponibles dans le [SDK Windows](https://msdn.microsoft.com/windows/aa904949.aspx).
 
 ## <a name="header-files"></a>Fichiers d’en-tête
 
-Toutes les applications DirectShow utilisent le fichier d’en-tête indiqué dans le tableau suivant.
+toutes les applications DirectShow utilisent le fichier d’en-tête indiqué dans le tableau suivant.
 
 
 
 | Fichier d'en-tête | Requis pour                 |
 |-------------|------------------------------|
-| DShow. h     | Toutes les applications DirectShow. |
+| DShow. h     | toutes les applications DirectShow. |
 
 
 
  
 
-Certaines interfaces DirectShow requièrent des fichiers d’en-tête supplémentaires. Ces exigences sont indiquées dans la référence de l’interface.
+certaines interfaces DirectShow requièrent des fichiers d’en-tête supplémentaires. Ces exigences sont indiquées dans la référence de l’interface.
 
 ## <a name="library-files"></a>Fichiers de bibliothèque
 
@@ -52,13 +52,13 @@ Utilisez les mêmes fichiers. lib pour les versions Debug et Release.
 
 ## <a name="filter-base-classes"></a>Filtrer les classes de base
 
-L’SDK Windows fournit un ensemble de classes C++ recommandées si vous écrivez un filtre DirectShow personnalisé. Ces classes sont fournies en tant qu’exemple de code, que vous pouvez compiler dans une bibliothèque statique. Pour plus d’informations, consultez [classes de base DirectShow](directshow-base-classes.md).
+l’SDK Windows fournit un ensemble de classes C++ recommandées si vous écrivez un filtre de DirectShow personnalisé. Ces classes sont fournies en tant qu’exemple de code, que vous pouvez compiler dans une bibliothèque statique. pour plus d’informations, consultez [DirectShow les Classes de Base](directshow-base-classes.md).
 
 ## <a name="redistributable-dlls"></a>Dll redistribuables
 
-Les applications DirectShow écrites pour Windows XP avec Service Pack 2 (SP2) et versions ultérieures n’ont pas besoin de redistribuer les dll DirectShow.
+DirectShow applications écrites pour Windows XP avec Service Pack 2 (SP2) et versions ultérieures n’ont pas besoin de redistribuer les dll DirectShow.
 
-Pour Windows XP avec Service Pack 1 (SP1) et versions antérieures, les dll DirectShow redistribuables sont disponibles dans le kit de développement logiciel (SDK) Microsoft DirectX. La version la plus récente de ces dll est la version 9.0 c. Aucun développement supplémentaire de ces dll redistribuables n’est prévu. Windows XP avec Service Pack 2 (SP2) contient les dll c version 9.0.
+pour Windows XP avec Service Pack 1 (SP1) et versions antérieures, les dll redistribuables DirectShow sont disponibles dans le kit de développement logiciel (SDK) Microsoft DirectX. La version la plus récente de ces dll est la version 9.0 c. Aucun développement supplémentaire de ces dll redistribuables n’est prévu. Windows XP avec Service Pack 2 (SP2) contient les dll c version 9.0.
 
 Les packages redstributable contiennent les dll suivantes :
 
@@ -116,7 +116,7 @@ Les packages redstributable contiennent les dll suivantes :
 
 <dl> <dt>
 
-[Génération de filtres DirectShow](building-directshow-filters.md)
+[génération de filtres de DirectShow](building-directshow-filters.md)
 </dt> </dl>
 
  

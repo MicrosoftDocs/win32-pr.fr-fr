@@ -4,22 +4,22 @@ ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Manipulation directe
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 6db2a50893914dfb25050768f88cb289a1ecf3ea
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f449079a1772fd6dd43b51a2e5af3920ab3e173e1dc8590567ed4555b6deaf31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022583"
 ---
 # <a name="direct-manipulation"></a>Manipulation directe
 
 Les API de manipulation directe vous permettent de créer des expériences utilisateur panoramiques, de zoom et de glissement. Pour ce faire, il traite les entrées tactiles sur une région ou un objet, génère des transformations de sortie et applique les transformations aux éléments d’interface utilisateur. Vous pouvez utiliser la manipulation directe pour optimiser la réactivité et réduire la latence par le biais du traitement d’entrée hors thread, du test de positionnement d’entrée hors thread facultatif et de la prédiction d’entrée/sortie.
 
-Toute application qui utilise la manipulation directe pour traiter les interactions tactiles affiche les animations Windows 8 fluides et les comportements de commentaires d’interaction qui se conforment aux [instructions relatives aux interactions utilisateur courantes](/windows/uwp/design/input/).
+toutes les applications qui utilisent la Manipulation directe pour traiter les interactions tactiles affichent le fluide Windows 8 les animations et les comportements de commentaires d’interaction qui se conforment aux [instructions relatives aux interactions utilisateur courantes](/windows/uwp/design/input/).
 
 ## <a name="developer-audience"></a>Public de développeurs
 
-L’API de manipulation directe est destinée aux développeurs expérimentés qui connaissent C/C++, qui ont une bonne compréhension du [modèle COM (Component Object Model)](../com/component-object-model--com--portal.md)et connaissent les concepts de la programmation Windows.
+l’API de Manipulation directe est destinée aux développeurs expérimentés qui connaissent C/C++, qui ont une bonne compréhension du [modèle COM (component Object Model)](../com/component-object-model--com--portal.md)et connaissent Windows concepts de programmation.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

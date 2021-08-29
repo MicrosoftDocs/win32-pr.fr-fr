@@ -1,32 +1,32 @@
 ---
-description: Le système d’exploitation Windows fournit des mécanismes pour faciliter les communications et le partage de données entre les applications. Collectivement, les activités activées par ces mécanismes sont appelées communications interprocessus (IPC).
+description: le système d’exploitation Windows fournit des mécanismes pour faciliter les communications et le partage de données entre les applications. Collectivement, les activités activées par ces mécanismes sont appelées communications interprocessus (IPC).
 ms.assetid: ad3fb0d9-d0ab-479e-b9a6-22a463b6728c
 title: Communications interprocessus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca9789da756ae5449e77237c1140386a6f5cfd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5632443187ba9e50ed6c7f1adb31e8a02a280735c99dd8ee5455d2f067ef263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756318"
 ---
 # <a name="interprocess-communications"></a>Communications interprocessus
 
-Le système d’exploitation Windows fournit des mécanismes pour faciliter les communications et le partage de données entre les applications. Collectivement, les activités activées par ces mécanismes sont appelées *communications interprocessus* (IPC). Certaines formes d’IPC facilitent la Division du travail entre plusieurs processus spécialisés. D’autres formes d’IPC facilitent la Division du travail entre les ordinateurs d’un réseau.
+le système d’exploitation Windows fournit des mécanismes pour faciliter les communications et le partage de données entre les applications. Collectivement, les activités activées par ces mécanismes sont appelées *communications interprocessus* (IPC). Certaines formes d’IPC facilitent la Division du travail entre plusieurs processus spécialisés. D’autres formes d’IPC facilitent la Division du travail entre les ordinateurs d’un réseau.
 
 En règle générale, les applications peuvent utiliser IPC catégorisé comme clients ou serveurs. Un *client* est une application ou un processus qui demande un service à partir d’une autre application ou d’un autre processus. Un *serveur* est une application ou un processus qui répond à une demande du client. De nombreuses applications agissent à la fois comme un client et un serveur, en fonction de la situation. Par exemple, une application de traitement de texte peut agir en tant que client pour demander un tableau récapitulatif des coûts de fabrication d’une application de feuille de calcul agissant comme un serveur. L’application de tableur, à son tour, peut agir en tant que client lors de la demande des niveaux de stock les plus récents à partir d’une application de contrôle d’inventaire automatisée.
 
 Une fois que vous avez décidé que votre application pourrait tirer parti d’IPC, vous devez décider de la méthode IPC disponible à utiliser. Il est probable qu’une application utilise plusieurs mécanismes IPC. Les réponses à ces questions déterminent si une application peut tirer parti de l’utilisation d’un ou de plusieurs mécanismes IPC.
 
 -   L’application doit-elle pouvoir communiquer avec d’autres applications exécutées sur d’autres ordinateurs sur un réseau, ou est-il suffisant pour que l’application communique uniquement avec les applications sur l’ordinateur local ?
--   L’application doit-elle être en mesure de communiquer avec des applications exécutées sur d’autres ordinateurs qui peuvent s’exécuter sous des systèmes d’exploitation différents (par exemple, Windows ou UNIX 16 bits) ?
+-   l’application doit-elle être en mesure de communiquer avec des applications exécutées sur d’autres ordinateurs qui peuvent s’exécuter sous des systèmes d’exploitation différents (par exemple, 16 bits Windows ou UNIX) ?
 -   L’utilisateur de l’application doit-il choisir les autres applications avec lesquelles l’application communique, ou l’application peut-elle trouver implicitement ses partenaires coopérants ?
 -   L’application doit-elle communiquer avec de nombreuses applications de manière générale, par exemple pour autoriser les opérations couper-coller avec une autre application, ou si ses exigences en matière de communication doivent être limitées à un ensemble restreint d’interactions avec d’autres applications spécifiques ?
 -   Les performances sont-elles un aspect critique de l’application ? Tous les mécanismes IPC incluent une quantité de surcharge.
 -   L’application doit-elle être une application GUI ou une application console ? Certains mécanismes IPC nécessitent une application GUI.
 
-Les mécanismes IPC suivants sont pris en charge par Windows :
+Les mécanismes IPC suivants sont pris en charge par les Windows :
 
 -   [Presse-papiers](#using-the-clipboard-for-ipc)
 -   [COM](#using-com-for-ipc)
@@ -50,13 +50,13 @@ Les applications qui utilisent OLE gèrent les *documents composés*, c’est-à
 
 La base d’OLE est le modèle COM (Component Object Model). Un composant logiciel qui utilise COM peut communiquer avec un large éventail d’autres composants, y compris ceux qui n’ont pas encore été écrits. Les composants interagissent en tant qu’objets et clients. COM distribué étend le modèle de programmation COM pour qu’il fonctionne sur un réseau.
 
-**Point clé :** OLE prend en charge les documents composés et permet à une application d’inclure des données incorporées ou liées qui, lorsqu’elles sont sélectionnées, démarrent automatiquement une autre application pour la modification des données. Cela permet à l’application d’être étendue par toute autre application qui utilise OLE. Les objets COM fournissent l’accès aux données d’un objet par le biais d’un ou plusieurs ensembles de fonctions associées, appelées *interfaces*. Pour plus d’informations, consultez Object Services COM et ActiveX.
+**Point clé :** OLE prend en charge les documents composés et permet à une application d’inclure des données incorporées ou liées qui, lorsqu’elles sont sélectionnées, démarrent automatiquement une autre application pour la modification des données. Cela permet à l’application d’être étendue par toute autre application qui utilise OLE. Les objets COM fournissent l’accès aux données d’un objet par le biais d’un ou plusieurs ensembles de fonctions associées, appelées *interfaces*. pour plus d’informations, consultez COM et ActiveX Object Services.
 
 ## <a name="using-data-copy-for-ipc"></a>Utilisation de la copie de données pour IPC
 
 La copie de données permet à une application d’envoyer des informations à une autre application à l’aide du message [**WM \_ COPYDATA**](../dataxchg/wm-copydata.md) . Cette méthode nécessite une collaboration entre l’application émettrice et l’application réceptrice. L’application réceptrice doit connaître le format des informations et être en mesure d’identifier l’expéditeur. L’application émettrice ne peut pas modifier la mémoire référencée par les pointeurs.
 
-**Point clé :** La copie de données peut être utilisée pour envoyer rapidement des informations à une autre application à l’aide de Windows Messaging. Pour plus d’informations, consultez [copie de données](../dataxchg/data-copy.md).
+**Point clé :** la copie de données peut être utilisée pour envoyer rapidement des informations à une autre application à l’aide de la messagerie Windows. Pour plus d’informations, consultez [copie de données](../dataxchg/data-copy.md).
 
 ## <a name="using-dde-for-ipc"></a>Utilisation de DDE pour IPC
 
@@ -66,7 +66,7 @@ Les formats de données utilisés par DDE sont les mêmes que ceux utilisés par
 
 Les échanges DDE peuvent se produire entre des applications qui s’exécutent sur le même ordinateur ou sur des ordinateurs différents sur un réseau.
 
-**Point clé :** DDE n’est pas aussi efficace que les nouvelles technologies. Toutefois, vous pouvez toujours utiliser DDE si d’autres mécanismes IPC ne sont pas appropriés ou si vous devez interagir avec une application existante qui prend uniquement en charge DDE. Pour plus d’informations, consultez [échange dynamique de données](../dataxchg/dynamic-data-exchange.md) et [échange dynamique de données bibliothèque de gestion](../dataxchg/dynamic-data-exchange-management-library.md).
+**Point clé :** DDE n’est pas aussi efficace que les nouvelles technologies. Toutefois, vous pouvez toujours utiliser DDE si d’autres mécanismes IPC ne sont pas appropriés ou si vous devez interagir avec une application existante qui prend uniquement en charge DDE. pour plus d’informations, consultez [échange dynamique de données](../dataxchg/dynamic-data-exchange.md) et [échange dynamique de données bibliothèque de gestion](../dataxchg/dynamic-data-exchange-management-library.md).
 
 ## <a name="using-a-file-mapping-for-ipc"></a>Utilisation d’un mappage de fichiers pour IPC
 
@@ -98,19 +98,19 @@ Les *canaux nommés* sont utilisés pour transférer des données entre des proc
 
 RPC permet aux applications d’appeler des fonctions à distance. Par conséquent, RPC rend IPC aussi simple que l’appel d’une fonction. RPC fonctionne entre les processus sur un seul ordinateur ou sur différents ordinateurs sur un réseau.
 
-Le RPC fourni par Windows est conforme à l’environnement de calcul distribué OSF (Open Software Foundation). Cela signifie que les applications qui utilisent RPC sont en mesure de communiquer avec les applications exécutées avec d’autres systèmes d’exploitation qui prennent en charge DCE. RPC prend automatiquement en charge la conversion des données pour prendre en compte les différentes architectures matérielles et l’ordre des octets entre les environnements dissemblables.
+le RPC fourni par Windows est conforme à l’environnement de calcul distribué OSF (Open Software Foundation). Cela signifie que les applications qui utilisent RPC sont en mesure de communiquer avec les applications exécutées avec d’autres systèmes d’exploitation qui prennent en charge DCE. RPC prend automatiquement en charge la conversion des données pour prendre en compte les différentes architectures matérielles et l’ordre des octets entre les environnements dissemblables.
 
 Les clients et les serveurs RPC sont étroitement couplés, tout en continuant à assurer des performances élevées. Le système utilise largement RPC pour faciliter une relation client/serveur entre les différentes parties du système d’exploitation.
 
 **Point clé :** RPC est une interface de niveau fonction, avec prise en charge de la conversion de données automatique et pour les communications avec d’autres systèmes d’exploitation. À l’aide de RPC, vous pouvez créer des applications distribuées hautement performantes et étroitement couplées. Pour plus d’informations, consultez [composants Microsoft RPC](/windows/desktop/Rpc/microsoft-rpc-components).
 
-## <a name="using-windows-sockets-for-ipc"></a>Utilisation de Windows Sockets pour IPC
+## <a name="using-windows-sockets-for-ipc"></a>utilisation de Windows sockets pour IPC
 
-Windows Sockets est une interface indépendante du protocole. Elle tire parti des fonctionnalités de communication des protocoles sous-jacents. Dans Windows Sockets 2, un descripteur de socket peut éventuellement être utilisé comme handle de fichier avec les fonctions d’e/s de fichier standard.
+Windows Sockets est une interface indépendante du protocole. Elle tire parti des fonctionnalités de communication des protocoles sous-jacents. dans Windows sockets 2, un handle de socket peut éventuellement être utilisé comme handle de fichier avec les fonctions d’e/s de fichier standard.
 
-Les sockets Windows sont basés sur les sockets d’abord répandus par Berkeley Software Distribution (BSD). Une application qui utilise Windows Sockets peut communiquer avec d’autres implémentations de socket sur d’autres types de systèmes. Toutefois, tous les fournisseurs de services de transport ne prennent pas en charge toutes les options disponibles.
+Windows Les sockets sont basés sur les sockets d’abord répandus par Berkeley Software Distribution (BSD). une application qui utilise Windows sockets peut communiquer avec d’autres implémentations de socket sur d’autres types de systèmes. Toutefois, tous les fournisseurs de services de transport ne prennent pas en charge toutes les options disponibles.
 
-**Point clé :** Windows Sockets est une interface indépendante du protocole qui prend en charge les fonctionnalités de mise en réseau actuelles et émergentes. Pour plus d’informations, consultez [Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2).
+**Point clé :** Windows sockets est une interface indépendante du protocole qui prend en charge les fonctionnalités de mise en réseau actuelles et émergentes. pour plus d’informations, consultez [Windows sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
  
 

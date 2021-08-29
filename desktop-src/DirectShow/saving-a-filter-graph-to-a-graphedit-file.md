@@ -1,17 +1,17 @@
 ---
-description: Enregistrement d’un graphique de filtre dans un fichier baGraphEdit
+description: enregistrement d’un Graph de filtre dans un fichier baGraphEdit
 ms.assetid: f7eeae3c-506b-484c-8fe5-ddd391af5a59
-title: Enregistrement d’un graphique de filtre dans un fichier baGraphEdit
+title: enregistrement d’un Graph de filtre dans un fichier baGraphEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe5fb24c40f11dbeb5dad8b542f0f152449f8951
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7b007dfef4a6e00ba4b3d94828da1652a2299b3f21f966cba7717452df57faa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951978"
 ---
-# <a name="saving-a-filter-graph-to-a-graphedit-file"></a>Enregistrement d’un graphique de filtre dans un fichier baGraphEdit
+# <a name="saving-a-filter-graph-to-a-graphedit-file"></a>enregistrement d’un Graph de filtre dans un fichier baGraphEdit
 
 L’exemple de code suivant montre comment enregistrer un graphique de filtre dans un fichier GraphEdit (. GRF). Cela peut être utile pour déboguer vos applications.
 
@@ -90,7 +90,7 @@ void __cdecl main(void)
 
 <dl> <dt>
 
-[Simulation de la génération de graphiques avec GraphEdit](simulating-graph-building-with-graphedit.md)
+[simulation d’Graph génération avec GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> <dt>
 
 [**StgCreateDocfile**](/windows/win32/api/coml2api/nf-coml2api-stgcreatedocfile)

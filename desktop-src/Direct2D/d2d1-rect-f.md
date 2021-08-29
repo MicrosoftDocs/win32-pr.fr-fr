@@ -6,12 +6,12 @@ keywords:
 - D2D1_RECT_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ce4700e093b9e82fd4334ae9e01485a7fcbb4c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7dc0f92dca8958fc939a4464ef7ddc1a3d8bde8b26a3ea3faefa7c55748870cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104043006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824699"
 ---
 # <a name="d2d1_rect_f"></a>D2D1 \_ rect \_ F
 
@@ -24,7 +24,7 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D2d1 \_ RECT \_ f** est un nouveau nom pour le struct [**\_ rect \_ f de D2D**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_f) déjà défini.
 
@@ -124,8 +124,8 @@ Pour obtenir un didacticiel connexe, consultez [création d’une application Di
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista, applications \[ \| UWP\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 pour applications \[ \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ desktop apps \|\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[ desktop apps \|\]<br/> |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>D2DBaseTypes. h (inclure D2d1. h)</dt> </dl>                               |
 

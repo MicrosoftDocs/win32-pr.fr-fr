@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103183
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d16c54ec9efb7d332a5e4ca56e13a96fd595daeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b303a0875a609889bc80b239888a857f420a465d55638616a589fd1b0e86bed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112778"
 ---
 # <a name="esentversion-members"></a>Membres EsentVersion
 
@@ -42,7 +42,7 @@ Le type [EsentVersion](./esentversion-class.md) expose les membres suivants.
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn350871(v=exchg.10).md">SupportsServer2003Features</a></td>
-<td>Obtient une valeur qui indique si la version actuelle de ESENT prend en charge les fonctionnalités disponibles dans la version Windows Server 2003 d’ESENT.</td>
+<td>obtient une valeur qui indique si la version actuelle de esent prend en charge les fonctionnalités disponibles dans la version 2003 du serveur Windows d’esent.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
@@ -52,17 +52,17 @@ Le type [EsentVersion](./esentversion-class.md) expose les membres suivants.
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn350861(v=exchg.10).md">SupportsVistaFeatures</a></td>
-<td>Obtient une valeur qui indique si la version actuelle de ESENT prend en charge les fonctionnalités disponibles dans la version Windows Vista d’ESENT.</td>
+<td>obtient une valeur qui indique si la version actuelle de esent prend en charge les fonctionnalités disponibles dans la version Windows Vista d’esent.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn350860(v=exchg.10).md">SupportsWindows7Features</a></td>
-<td>Obtient une valeur qui indique si la version actuelle de ESENT prend en charge les fonctionnalités disponibles dans la version Windows 7 d’ESENT.</td>
+<td>obtient une valeur qui indique si la version actuelle de esent prend en charge les fonctionnalités disponibles dans la version Windows 7 d’esent.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn350863(v=exchg.10).md">SupportsWindows8Features</a></td>
-<td>Obtient une valeur qui indique si la version actuelle de ESENT prend en charge les fonctionnalités disponibles dans la version Windows 8 d’ESENT.</td>
+<td>obtient une valeur qui indique si la version actuelle de esent prend en charge les fonctionnalités disponibles dans la version Windows 8 d’esent.</td>
 </tr>
 </tbody>
 </table>

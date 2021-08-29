@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: f1705b5bf7ac5eddd1ac39e14f3b91b7fd3728cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71edcfcc82922fb5070ffb3836afc8692cc4e076c59dcfac08ed8290e29cc0a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956588"
 ---
 # <a name="ntgdiddcreatemocomp-function"></a>NtGdiDdCreateMoComp fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ CREATEMOCOMPDATA DD**](/windows/win32/api/ddra
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

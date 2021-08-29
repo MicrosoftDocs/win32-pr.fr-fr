@@ -3,9 +3,9 @@ title: IWMPSettings muet, propriété
 description: La propriété Mute obtient ou définit une valeur indiquant si l’audio est muet.
 ms.assetid: d99e47db-70cc-41e0-aca9-b765b075e7b4
 keywords:
-- propriété muet Windows Media Player
-- propriété muet lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, propriété muet
+- Lecteur Windows Media de propriété muet
+- propriété muet Lecteur Windows Media, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, propriété muet
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67518bb9a6eccee13e4cc262f37341d30689439e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6d4cb13fd8884df7779b2780fd7014d058f32086d67ace286d9d8a9fd57cb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053407"
 ---
 # <a name="iwmpsettingsmute-property"></a>IWMPSettings :: Mute, propriété
 

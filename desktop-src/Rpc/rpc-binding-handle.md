@@ -6,12 +6,12 @@ keywords:
 - RPC_BINDING_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e37d14bc5186f05815c10f538b0c90bdddd353
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0218f1a7331a070340b7740c83f8464b2286de2698daf67ac1092aa5c057db03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018583"
 ---
 # <a name="rpc_binding_handle"></a>\_handle de liaison RPC \_
 
@@ -24,7 +24,7 @@ typedef I_RPC_HANDLE RPC_BINDING_HANDLE;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La bibliothèque Runtime utilise des informations de liaison pour établir une relation client-serveur qui autorise l’exécution d’appels de procédure distante. En fonction du contexte dans lequel un handle de liaison est créé, il est considéré comme un handle de liaison de serveur ou un handle de liaison client.
 
@@ -32,11 +32,11 @@ Un handle de liaison de serveur contient les informations nécessaires à un cli
 
 Un handle de liaison client ne peut pas être utilisé pour effectuer un appel de procédure distante. La bibliothèque Runtime RPC crée et fournit un handle de liaison client à une procédure de serveur appelé (également appelée routine de gestionnaire de serveur) en tant que paramètre de \_ handle de liaison RPC \_ . Le handle de liaison client contient des informations sur le client appelant.
 
-Les fonctions ** \* RpcBinding* _ _*et \* RpcNsBinding*_ retournent le code \_ d’état RPC \_ \_ de type incorrect \_ de \_ liaison quand une application fournit le type de handle de liaison incorrect.
+Les fonctions **RpcBinding \* *_ et _* RpcNsBinding \*** renvoient le code d’état RPC \_ \_ \_ de type incorrect \_ de \_ liaison quand une application fournit le type de handle de liaison incorrect.
 
 Une application peut partager un handle de liaison unique entre plusieurs threads d’exécution. La bibliothèque Runtime RPC gère les appels de procédure distante simultanés qui utilisent un seul handle de liaison. Toutefois, l’application est responsable de la liaison du contrôle d’accès concurrentiel pour les opérations qui modifient un handle de liaison. Ces opérations incluent les routines suivantes :
 
--   [_ *RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree)
+-   [**RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree)
 -   [**RpcBindingReset**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset)
 -   [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo)
 -   [**RpcBindingSetObject**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject)

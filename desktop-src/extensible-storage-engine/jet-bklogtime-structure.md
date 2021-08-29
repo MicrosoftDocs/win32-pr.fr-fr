@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2d6f8e3f77d905eb601441ad8ab3ca88bb08f59d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 0b54ba5bb6b4f5ed3f08b5d4cc950f77d199c525
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478525"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988242"
 ---
 # <a name="jet_bklogtime-structure"></a>Structure JET_BKLOGTIME
 
@@ -123,7 +123,11 @@ Cette structure est utilisée lors du débogage.
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

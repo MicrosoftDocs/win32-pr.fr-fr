@@ -1,19 +1,19 @@
 ---
-description: La fonction UiCreatePatchPackageEx prend un fichier de création de package (fichier. PCP) et génère une Windows Installer package correctif (package. msp). L’appel de Msimsp.exe est la méthode recommandée pour utiliser Patchwiz.dll.
+description: la fonction UiCreatePatchPackageEx prend un fichier de création de package (fichier. pcp) et génère une Windows Installer package correctif (package. msp). L’appel de Msimsp.exe est la méthode recommandée pour utiliser Patchwiz.dll.
 ms.assetid: 76d9a21d-73bc-41fc-8ed0-7d7d7deff815
 title: UiCreatePatchPackageEx (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac61371d1e7bf1809880c8f10a403d1730adc8e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e9c610aa6b03990eb4bb9fb34ce84568c9164a88ff2455b9c649436b3d327c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039398"
 ---
 # <a name="uicreatepatchpackageex-patchwizdll"></a>UiCreatePatchPackageEx (Patchwiz.dll)
 
-La fonction UiCreatePatchPackageEx prend un fichier de création de package (fichier. PCP) et génère une Windows Installer package correctif (package. msp). L’appel de [Msimsp.exe](msimsp-exe.md) est la méthode recommandée pour utiliser [Patchwiz.dll](patchwiz-dll.md).
+la fonction UiCreatePatchPackageEx prend un fichier de création de package (fichier. pcp) et génère une Windows Installer package correctif (package. msp). L’appel de [Msimsp.exe](msimsp-exe.md) est la méthode recommandée pour utiliser [Patchwiz.dll](patchwiz-dll.md).
 
 La fonction UiCreatePatchPackageEx est disponible à partir de Patchwiz.dll version 4,0 et étend les fonctionnalités de la fonction [UiCreatePatchPackage](uicreatepatchpackage-patchwiz-dll-.md) .
 
@@ -44,7 +44,7 @@ Chemin d’accès complet au fichier de propriétés de création de correctif (
 <span id="szPatchPath"></span><span id="szpatchpath"></span><span id="SZPATCHPATH"></span>*szPatchPath*
 </dt> <dd>
 
-Chemin d’accès complet au package de correctifs Windows Installer (fichier. msp) à créer. Ce paramètre peut avoir la **valeur null** ou être une chaîne vide, mais ne peut pas être omis. Si la valeur est **null** ou est une chaîne vide, la fonction utilise la valeur de PatchOutputPath dans la [table de propriétés (Patchwiz.dll)](properties-table-patchwiz-dll-.md).
+chemin d’accès complet au package de correctifs Windows Installer (fichier. msp) à créer. Ce paramètre peut avoir la **valeur null** ou être une chaîne vide, mais ne peut pas être omis. Si la valeur est **null** ou est une chaîne vide, la fonction utilise la valeur de PatchOutputPath dans la [table de propriétés (Patchwiz.dll)](properties-table-patchwiz-dll-.md).
 
 </dd> <dt>
 
@@ -110,9 +110,9 @@ Réservé. Ce paramètre doit avoir la valeur zéro.
 
 Consultez le tableau dans [valeurs de retour pour UiCreatePatchPackage](return-values-for-uicreatepatchpackage.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour obtenir un exemple de création d’un fichier. PCP et l’utilisation de [UiCreatePatchPackage](uicreatepatchpackage-patchwiz-dll-.md) pour générer un package de correctifs Windows Installer, consultez la section [exemple de mise à jour corrective de petite taille](a-small-update-patching-example.md).
+pour obtenir un exemple de création d’un fichier. pcp et l’utilisation de [UiCreatePatchPackage](uicreatepatchpackage-patchwiz-dll-.md) pour générer un package de correctifs Windows Installer, consultez la section [exemple de mise à jour corrective de petite taille](a-small-update-patching-example.md).
 
 La création d’un correctif requiert une image d’installation non compressée, telle qu’une image administrative ou une image d’installation non compressée à partir d’un CD-ROM. [UiCreatePatchPackage](uicreatepatchpackage-patchwiz-dll-.md) ne génère pas de correctifs binaires pour les fichiers dans les armoires.
 

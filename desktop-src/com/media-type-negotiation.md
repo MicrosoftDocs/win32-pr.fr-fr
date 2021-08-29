@@ -4,12 +4,12 @@ description: De nombreux protocoles Internet de la couche application sont basé
 ms.assetid: 7a2c9d8f-639a-4865-a62b-63330175f5f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb145fa3a76da6574172ddd24888f3b5da7ad85e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a8d9e2694d7df89eeeef8c0a3e7217a88c3bac27da3e68c38aae2ceae24fa56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130191"
 ---
 # <a name="media-type-negotiation"></a>Négociation Media-Type
 
@@ -36,7 +36,7 @@ Quel que soit le type de support à utiliser, le client est informé du choix au
 > [!Note]  
 > Si le contenu reçu est d’un type de média non reconnu, le client appelle automatiquement [**RegisterMediaTypes**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775118(v=vs.85)) pour inscrire le nouveau type.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,6 +45,6 @@ Quel que soit le type de support à utiliser, le client est informé du choix au
 [Monikers d’URL](url-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

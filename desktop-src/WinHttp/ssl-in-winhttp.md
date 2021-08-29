@@ -1,19 +1,19 @@
 ---
-description: Les services HTTP Microsoft Windows (WinHTTP) prennent en charge les transactions SSL (Secure Sockets Layer) (SSL), y compris les certificats clients. Cette rubrique décrit les concepts impliqués dans une transaction SSL et la façon dont ils sont gérés à l’aide de WinHTTP.
+description: les Services HTTP Microsoft Windows (WinHTTP) prennent en charge les transactions SSL (Secure Sockets Layer) (SSL), y compris les certificats clients. Cette rubrique décrit les concepts impliqués dans une transaction SSL et la façon dont ils sont gérés à l’aide de WinHTTP.
 ms.assetid: cb0a04f5-1026-4ad5-bb5b-c854064a5167
 title: SSL dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7952bb9a0227017927452502352c0354e69079c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a041d55de85250edb1932aa3df4d114af8ef89fce6e56c3763cb235168b65be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133032"
 ---
 # <a name="ssl-in-winhttp"></a>SSL dans WinHTTP
 
-Les services HTTP Microsoft Windows (WinHTTP) prennent en charge les transactions SSL (Secure Sockets Layer) (SSL), y compris les certificats clients. Cette rubrique décrit les concepts impliqués dans une transaction SSL et la façon dont ils sont gérés à l’aide de WinHTTP.
+les Services HTTP Microsoft Windows (WinHTTP) prennent en charge les transactions SSL (Secure Sockets Layer) (SSL), y compris les certificats clients. Cette rubrique décrit les concepts impliqués dans une transaction SSL et la façon dont ils sont gérés à l’aide de WinHTTP.
 
 ## <a name="secure-sockets-layer"></a>protocole SSL
 
@@ -79,7 +79,7 @@ Avant de renvoyer une demande contenant un certificat client, vous pouvez déter
 
 ### <a name="issuer-list-retrieval-for-ssl-client-authentication"></a>Récupération de la liste d’émetteurs pour l’authentification du client SSL
 
-Lorsque l’application cliente WinHttp envoie une demande à un serveur HTTP sécurisé qui requiert l’authentification du client SSL, WinHttp retourne une erreur que le certificat d' **\_ authentification du client WinHTTP a \_ \_ \_ \_ requis** si l’application n’a pas fourni de certificat client. Pour les ordinateurs qui exécutent Windows Server 2008 et Windows Vista, WinHttp permet à l’application de récupérer la liste d’émetteurs de certificats fournie par le serveur dans la demande d’authentification. La liste d’émetteurs spécifie une liste d’autorités de certification autorisées par le serveur pour émettre des certificats clients. L’application filtre la liste d’émetteurs pour obtenir le certificat requis.
+Lorsque l’application cliente WinHttp envoie une demande à un serveur HTTP sécurisé qui requiert l’authentification du client SSL, WinHttp retourne une erreur que le certificat d' **\_ authentification du client WinHTTP a \_ \_ \_ \_ requis** si l’application n’a pas fourni de certificat client. pour les ordinateurs qui exécutent sur Windows Server 2008 et Windows Vista, WinHttp permet à l’application de récupérer la liste d’émetteurs de certificats fournie par le serveur dans le test d’authentification. La liste d’émetteurs spécifie une liste d’autorités de certification autorisées par le serveur pour émettre des certificats clients. L’application filtre la liste d’émetteurs pour obtenir le certificat requis.
 
 L’application cliente WinHttp récupère la liste d’émetteurs quand [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest), ou [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) retourne **un \_ certificat d’authentification de \_ client WinHTTP \_ \_ \_ nécessaire**. Lorsque cette erreur est retournée, l’application appelle [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) à l’aide de l’option **WinHTTP liste d' \_ \_ \_ \_ émetteurs \_ de certificats client** . Le paramètre *lpBuffer* doit être suffisamment grand pour contenir un pointeur vers la structure [SecPkgContext \_ IssuerListInfoEx](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) . L’exemple de code suivant montre comment récupérer la liste d’émetteurs.
 
@@ -151,7 +151,7 @@ if (pClientCertChain)
 
 ### <a name="optional-client-ssl-certificates"></a>Certificats SSL client facultatifs
 
-À compter de Windows Server 2008 et Windows Vista, l’API WinHttp prend en charge les certificats clients facultatifs. Lorsque le serveur demande un certificat client, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest)ou [**WinHttpRecieveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) retourne une erreur message d' **authentification du \_ \_ client WinHTTP \_ \_ \_ requis** . Si le serveur demande le certificat, mais ne l’exige pas, l’application peut spécifier cette option pour indiquer qu’elle n’a pas de certificat. Le serveur peut choisir un autre schéma d’authentification ou autoriser un accès anonyme au serveur. L’application spécifie la macro de **\_ \_ \_ \_ contexte de certificat non client WinHTTP** dans le paramètre *lpBuffer* de [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) , comme indiqué dans l’exemple de code suivant.
+à partir de Windows Server 2008 et Windows Vista, l’API WinHttp prend en charge les certificats clients facultatifs. Lorsque le serveur demande un certificat client, [**WinHttpSendRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsendrequest)ou [**WinHttpRecieveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) retourne une erreur message d' **authentification du \_ \_ client WinHTTP \_ \_ \_ requis** . Si le serveur demande le certificat, mais ne l’exige pas, l’application peut spécifier cette option pour indiquer qu’elle n’a pas de certificat. Le serveur peut choisir un autre schéma d’authentification ou autoriser un accès anonyme au serveur. L’application spécifie la macro de **\_ \_ \_ \_ contexte de certificat non client WinHTTP** dans le paramètre *lpBuffer* de [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) , comme indiqué dans l’exemple de code suivant.
 
 ``` syntax
 BOOL fRet = WinHttpSetOption ( hRequest,
@@ -185,7 +185,7 @@ L’exemple de code suivant montre comment spécifier qu’un certificat avec le
 `HttpReq.SetClientCertificate("LOCAL_MACHINE\Personal\My Middle-Tier Certificate")`
 
 > [!Note]  
-> Dans certains langages, la barre oblique inverse est un caractère d’échappement. N’oubliez pas de modifier la chaîne de sélection du certificat afin de prendre en compte cette valeur. Par exemple, dans Microsoft JScript, utilisez deux barres obliques inverses contiguës au lieu d’une.
+> Dans certains langages, la barre oblique inverse est un caractère d’échappement. N’oubliez pas de modifier la chaîne de sélection du certificat afin de prendre en compte cette valeur. par exemple, dans Microsoft JScript, utilisez deux barres obliques inverses contiguës au lieu d’une.
 
  
 

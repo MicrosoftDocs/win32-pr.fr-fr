@@ -4,12 +4,12 @@ ms.assetid: ad7d20bc-5eab-4390-a48b-5ea8e97ead7d
 title: Exemple de MFT_Grayscale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273c562eb5985d0a329c434a8e4aa44119744496
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff29705476869b25aeb42157ebe4878131397988cc56eccc842fcb81134fb8db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102169"
 ---
 # <a name="mft_grayscale-sample"></a>\_Exemple de nuances de gris MFT
 
@@ -21,7 +21,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L’exemple MFT en \_ nuances de gris génère une dll qui est un serveur com pour la MFT. Avant d’utiliser la MFT, vous devez inscrire la DLL.
 
@@ -41,7 +41,7 @@ Pour voir la MFT en nuances de gris en cours d’utilisation, exécutez l' [exem
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_grayscale).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_grayscale).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

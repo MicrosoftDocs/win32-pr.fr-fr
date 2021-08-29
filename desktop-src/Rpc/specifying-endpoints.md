@@ -4,12 +4,12 @@ description: Spécifiant des points de terminaison connus et dynamiques dans l�
 ms.assetid: fc39b527-11e6-45a7-b3b5-8bcf469633d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 373fb2818dd14670f5a939aa524c81fcdb05e20b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0ff73f13f752e42917353a217f5a2fcfa8d1fcfa9dc60edf585c42d72b0d306e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106522636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017609"
 ---
 # <a name="specifying-endpoints"></a>Spécification des points de terminaison
 
@@ -42,6 +42,6 @@ Si tous les tests réussissent, le mappeur de point de terminaison retourne le p
 
 Les points de terminaison dynamiques sont automatiquement purgés de la base de données du mappeur de point de terminaison lorsque le processus serveur s’arrête. Vous pouvez supprimer le point de terminaison de la base de données du mappeur de point de terminaison avant de quitter le programme serveur à l’aide de la fonction [**RpcEpUnregister**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepunregister) , ou vous pouvez autoriser un nettoyage automatique pour gérer la suppression du point de terminaison.
 
- 
+ 
 
- 
+ 

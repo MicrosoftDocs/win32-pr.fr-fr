@@ -4,18 +4,18 @@ ms.assetid: 1ebfb194-002f-40ac-9be5-267861b6687b
 title: Vue d’ensemble des systèmes MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4206b36db7b3172c6e161745922e83490855c73c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d36b0ce6d98024187c9f194065520d388406f4feb95af6fd4df43b7a79e244e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148552"
 ---
 # <a name="overview-of-mpeg-2-systems"></a>Vue d’ensemble des systèmes MPEG-2
 
 Cette section fournit une vue d’ensemble générale et non technique de la couche de systèmes MPEG-2. Le système MPEG-2 est la norme qui définit la façon dont les flux audio et vidéo sont multiplexés dans MPEG-2.
 
-**Flux élémentaires**
+**Flux élémentaire**
 
 Le multiplexage MPEG-2 démarre avec un ou plusieurs flux d’octets, appelés flux élémentaires, qui contiennent des données vidéo, audio ou autres. Par exemple, une vidéo ES contient des images vidéo compressées, ainsi que des en-têtes de séquence, des en-têtes de groupe d’images et tout autre objet requis par le décodeur pour décoder le flux. La couche systèmes ne définit pas le contenu du flux d’octets ES.
 
@@ -61,7 +61,7 @@ Comme un flux de transport peut comporter plusieurs programmes, il doit exister 
 
 <dl> <dt>
 
-[Prise en charge MPEG-2 dans DirectShow](mpeg-2-support-in-directshow.md)
+[Prise en charge de MPEG-2 dans DirectShow](mpeg-2-support-in-directshow.md)
 </dt> </dl>
 
  

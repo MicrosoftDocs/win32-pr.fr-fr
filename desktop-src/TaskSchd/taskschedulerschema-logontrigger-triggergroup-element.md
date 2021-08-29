@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c89d0e593277f1c854850017412b49c22d8ac436
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a42aa17ae4cb5ca9177c5ff068745d506d89e0db8d71253148ab5adafa39baea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117758901"
 ---
 # <a name="logontrigger-triggergroup-element"></a>Élément LogonTrigger (triggerGroup)
 
@@ -59,7 +59,7 @@ L’élément **LogonTrigger** est défini par [**triggerGroup**](taskschedulers
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, un déclencheur LOGON est spécifié à l’aide de l’objet [**LogonTrigger**](logontrigger.md) .
 
@@ -91,8 +91,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui utilise un décle
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

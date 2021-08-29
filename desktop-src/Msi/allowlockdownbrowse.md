@@ -4,12 +4,12 @@ ms.assetid: 1cf83f77-75a4-48c3-961e-339c76ba4306
 title: AllowLockdownBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 187fe39a01e821b271050cdd8d6c8e96b6611d60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9af9f2c5eb4c455c9eeb0cc2f24abb674a84647b5616752afdc3b277c73b1f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821969"
 ---
 # <a name="allowlockdownbrowse"></a>AllowLockdownBrowse
 
@@ -25,7 +25,7 @@ Le paramètre par défaut est recommandé pour garantir un environnement sécuri
 
 **\_valeur DWORD reg**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La définition de cette stratégie permet également aux utilisateurs non administratifs d’exécuter des programmes arbitraires sur des privilèges LocalSystem s’ils disposent d’un package Windows Installer qui installe ou lance ces programmes.
 

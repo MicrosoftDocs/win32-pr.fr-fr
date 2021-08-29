@@ -4,12 +4,12 @@ ms.assetid: bf59ec6b-ac24-4a0b-9326-aea181b7539b
 title: Attribut de contrôle LeftScroll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99505e66f6f49b0a148b80a96d68bbef70d0f2b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e3bfbfd0ce92e337b7de3504847c39a3b2250562f05f18280a8f46916909fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043249"
 ---
 # <a name="leftscroll-control-attribute"></a>Attribut de contrôle LeftScroll
 
@@ -51,7 +51,7 @@ Si ce bit n’est pas défini, la barre de défilement se trouve sur le côté d
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit LeftScroll dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

@@ -4,12 +4,12 @@ description: Cet article donne une vue d’ensemble de certains des problèmes �
 ms.assetid: 44700352-a791-7ef7-0858-146214b0e3da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23bf8d66cada8aff00735fe6d6ac2d4f1369bc32
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 4ee9ad19fa15d9f0dc2671e77c7fb2408c96362420ddd70d6e6ad7795ba5b5f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "103941464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042559"
 ---
 # <a name="lockless-programming-considerations-for-xbox-360-and-microsoft-windows"></a>Considérations sur la programmation sans verrou pour Xbox 360 et Microsoft Windows
 
@@ -147,7 +147,7 @@ Certains processeurs réorganisent les écritures afin qu’elles soient visible
 
 ### <a name="xbox-360"></a>Xbox 360
 
-Bien que l’UC Xbox 360 ne réorganise pas les instructions, elle réorganise les opérations d’écriture, qui se terminent après les instructions elles-mêmes. Cette réorganisation des écritures est spécifiquement autorisée par le modèle de mémoire PowerPC.
+Bien que l’UC Xbox 360 ne réorganise pas les instructions, elle réorganise les opérations d’écriture, qui se terminent après les instructions elles-mêmes. cette réorganisation des écritures est spécifiquement autorisée par le modèle de mémoire PowerPC.
 
 Les écritures sur la Xbox 360 n’accèdent pas directement au cache L2. Au lieu de cela, pour améliorer la bande passante d’écriture dans le cache L2, elles passent par les files d’attente du magasin, puis pour le stockage des tampons. Les mémoires tampons de regroupement de magasins permettent d’écrire des blocs de 64 octets dans le cache L2 en une seule opération. Il existe huit mémoires tampons de regroupement de magasins, qui permettent d’écrire efficacement dans plusieurs zones de mémoire différentes.
 
@@ -169,7 +169,7 @@ Certains processeurs réorganisent les lectures afin qu’elles proviennent d’
 
 ### <a name="xbox-360"></a>Xbox 360
 
-Les absences dans le cache peuvent entraîner des retards de lecture, ce qui fait que les lectures proviennent de la mémoire partagée dans le désordre et que le minutage de ces absences du cache est fondamentalement imprévisible. La prérécupération et la prédiction de branche peuvent également entraîner la sortie de données de la mémoire partagée dans le désordre. Voici quelques exemples de la façon dont les lectures peuvent être réorganisées. Il peut y avoir d’autres possibilités. Cette réorganisation des lectures est spécifiquement autorisée par le modèle de mémoire PowerPC.
+Les absences dans le cache peuvent entraîner des retards de lecture, ce qui fait que les lectures proviennent de la mémoire partagée dans le désordre et que le minutage de ces absences du cache est fondamentalement imprévisible. La prérécupération et la prédiction de branche peuvent également entraîner la sortie de données de la mémoire partagée dans le désordre. Voici quelques exemples de la façon dont les lectures peuvent être réorganisées. Il peut y avoir d’autres possibilités. cette réorganisation des lectures est spécifiquement autorisée par le modèle de mémoire PowerPC.
 
 ### <a name="x86-and-x64"></a>x86 et x64
 
@@ -215,7 +215,7 @@ Le problème est que la lecture de la touche F1 dans P0Acquire peut lire à part
 
 les processeurs x86 et x64 ne réorganisent pas une écriture anticipée d’une lecture précédente. les processeurs x86 et x64 réorganisent uniquement les lectures anticipées des Écritures précédentes s’ils ciblent des emplacements différents.
 
-Les processeurs PowerPC peuvent réorganiser les lectures en avance sur les écritures et peuvent réorganiser les écritures avant les lectures, à condition qu’elles soient sur des adresses différentes.
+PowerPC Les processeurs peuvent réorganiser les lectures en avance sur les écritures et peuvent réorganiser les écritures avant les lectures, à condition qu’elles soient à des adresses différentes.
 
 ### <a name="reordering-summary"></a>Réorganisation du résumé
 
@@ -333,7 +333,7 @@ Il est également possible d’utiliser les intrinsèques [**\_ ReadBarrier**](h
 
 ## <a name="preventing-cpu-reordering"></a>Prévention de la réorganisation de l’UC
 
-La réorganisation de l’UC est plus subtile que le compilateur réorganisation. Vous ne voyez pas que cela se produit directement, vous voyez simplement des bogues inexplicable. Pour empêcher la réorganisation de l’UC des lectures et des écritures, vous devez utiliser des instructions de barrière de mémoire sur certains processeurs. Le nom à usage général d’une instruction de barrière de mémoire, sur Xbox 360 et sur Windows, est [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier). Cette macro est implémentée de manière appropriée pour chaque plateforme.
+La réorganisation de l’UC est plus subtile que le compilateur réorganisation. Vous ne voyez pas que cela se produit directement, vous voyez simplement des bogues inexplicable. Pour empêcher la réorganisation de l’UC des lectures et des écritures, vous devez utiliser des instructions de barrière de mémoire sur certains processeurs. le nom à usage général d’une instruction de barrière de mémoire, sur Xbox 360 et sur Windows, est [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier). Cette macro est implémentée de manière appropriée pour chaque plateforme.
 
 Sur Xbox 360, [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) est défini en tant que **lwsync** (Lightweight Sync), également disponible via le **\_ \_ lwsync** intrinsèque, qui est défini dans ppcintrinsics. h. **\_ \_ lwsync** sert également de barrière de mémoire du compilateur, ce qui empêche la réorganisation des lectures et des écritures par le compilateur.
 
@@ -352,9 +352,9 @@ L’instruction **lwsync** est une barrière de mémoire sur Xbox 360 qui synchr
 
  
 
-PowerPC possède également les instructions de synchronisation **iSync** et **EIEIO** (qui sont utilisées pour contrôler la réorganisation de la mémoire empêchant la mise en cache). Ces instructions de synchronisation ne doivent pas être nécessaires à des fins de synchronisation normales.
+PowerPC contient également les instructions de synchronisation **isync** et **eieio** (qui sont utilisées pour contrôler la réorganisation de la mémoire empêchant la mise en cache). Ces instructions de synchronisation ne doivent pas être nécessaires à des fins de synchronisation normales.
 
-Sur Windows, [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) est défini dans Winnt. h et vous donne une instruction de barrière de mémoire différente selon que vous compilez pour x86 ou x64. L’instruction de barrière de mémoire sert de barrière complète, empêchant toute réorganisation des lectures et des écritures sur le cloisonnement. Par conséquent, **MemoryBarrier** sur Windows offre une garantie de réorganisation plus forte que sur la Xbox 360.
+sur Windows, [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) est défini dans winnt. h et vous donne une instruction de barrière de mémoire différente selon que vous compilez pour x86 ou x64. L’instruction de barrière de mémoire sert de barrière complète, empêchant toute réorganisation des lectures et des écritures sur le cloisonnement. ainsi, **MemoryBarrier** sur Windows offre une garantie de réorganisation supérieure à celle de la Xbox 360.
 
 Sur la Xbox 360 et sur de nombreux autres processeurs, il est possible d’empêcher l’utilisation de la réorganisation de la lecture par le processeur. Si vous lisez un pointeur, puis utilisez ce pointeur pour charger d’autres données, l’UC garantit que les lectures du pointeur ne sont pas plus anciennes que la lecture du pointeur. Si votre indicateur de verrouillage est un pointeur et que toutes les lectures de données partagées sont en dehors du pointeur, le [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) peut être omis, pour une légère économie de performances.
 
@@ -377,13 +377,13 @@ L’instruction [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarr
 
 ## <a name="interlocked-functions-and-cpu-reordering"></a>Fonctions verrouillées et réorganisation de l’UC
 
-Parfois, la lecture ou l’écriture qui acquiert ou libère une ressource s’effectue à l’aide de l’une des fonctions **InterlockedXxx** . Sur Windows, cela simplifie les choses. étant donné que sur Windows, les fonctions **InterlockedXxx** sont toutes des barrières de mémoire saturée. Ils disposent en fait d’une barrière de mémoire processeur à la fois avant et après, ce qui signifie qu’il s’agit d’une barrière d’accès en lecture ou d’écriture complète.
+Parfois, la lecture ou l’écriture qui acquiert ou libère une ressource s’effectue à l’aide de l’une des fonctions **InterlockedXxx** . sur Windows, cela simplifie les choses. étant donné que sur Windows, les fonctions **InterlockedXxx** sont toutes des barrières de mémoire saturée. Ils disposent en fait d’une barrière de mémoire processeur à la fois avant et après, ce qui signifie qu’il s’agit d’une barrière d’accès en lecture ou d’écriture complète.
 
 Sur Xbox 360, les fonctions **InterlockedXxx** ne contiennent pas de barrières de mémoire processeur. Elles empêchent la réorganisation des lectures et des écritures par le compilateur, mais pas la réorganisation de l’UC. Par conséquent, dans la plupart des cas, lors de l’utilisation de fonctions **InterlockedXxx** sur Xbox 360, vous devez les précéder ou les suivre avec un **\_ \_ lwsync**, afin de leur donner une barrière d’acquisition en écriture ou de libération. Pour plus de commodité et pour faciliter la lisibilité, il existe des versions d' **acquisition** et de **publication** de nombreuses fonctions **InterlockedXxx** . Ils sont fournis avec une barrière de mémoire intégrée. Par exemple, [**InterlockedIncrementAcquire**](/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)) effectue un incrément de verrouillage suivi d’une barrière de mémoire **\_ \_ lwsync** pour fournir la fonctionnalité de lecture-acquisition complète.
 
-Il est recommandé d’utiliser les versions **Acquire** et **Release** des fonctions **InterlockedXxx** (dont la plupart sont également disponibles sur Windows, sans aucune pénalité de performances) pour rendre votre intention plus évidente et pour faciliter l’obtention des instructions de barrière de mémoire à l’endroit approprié. Toute utilisation de **InterlockedXxx** sur Xbox 360 sans barrière de mémoire doit être examinée très attentivement, car il s’agit souvent d’un bogue.
+il est recommandé d’utiliser les versions **acquire** et **Release** des fonctions **InterlockedXxx** (la plupart étant disponibles sur Windows, sans aucune pénalité en matière de performances) pour rendre votre intention plus évidente et faciliter l’obtention des instructions de la barrière de mémoire à l’endroit approprié. Toute utilisation de **InterlockedXxx** sur Xbox 360 sans barrière de mémoire doit être examinée très attentivement, car il s’agit souvent d’un bogue.
 
-Cet exemple montre comment un thread peut passer des tâches ou d’autres données à un autre thread à l’aide des versions **Acquire** et **Release** des fonctions **InterlockedXxxSList** . Les fonctions **InterlockedXxxSList** sont une famille de fonctions permettant de conserver une liste liée de façon unique et partagée sans verrou. Notez que les variantes d' **acquisition** et de **libération** de ces fonctions ne sont pas disponibles sur Windows, mais les versions régulières de ces fonctions constituent une barrière de mémoire complète sur Windows.
+Cet exemple montre comment un thread peut passer des tâches ou d’autres données à un autre thread à l’aide des versions **Acquire** et **Release** des fonctions **InterlockedXxxSList** . Les fonctions **InterlockedXxxSList** sont une famille de fonctions permettant de conserver une liste liée de façon unique et partagée sans verrou. notez que les variantes d' **acquisition** et de **libération** de ces fonctions ne sont pas disponibles sur Windows, mais les versions régulières de ces fonctions constituent une barrière de mémoire complète sur Windows.
 
 ``` syntax
 // Declarations for the Task class go here.
@@ -411,7 +411,7 @@ La norme C++ indique que les lectures de variables volatiles ne peuvent pas êtr
 
 Toutefois, les garanties de la norme ne sont pas suffisantes pour l’utilisation de volatile pour le Multi-Threading. La norme C++ n’empêche pas le compilateur de réorganiser les lectures et écritures non volatiles relatives aux lectures et écritures volatiles, et n’indique rien sur la prévention de la réorganisation de l’UC.
 
-Visual C++ 2005 va au-delà du C++ standard pour définir la sémantique de Multi-Threading pour l’accès aux variables volatiles. À compter de Visual C++ 2005, les lectures à partir des variables volatiles sont définies pour avoir une sémantique d’acquisition en lecture, et les écritures dans des variables volatiles sont définies pour avoir une sémantique en écriture. Cela signifie que le compilateur ne réorganise pas les lectures et les écritures qui se sont passées, et sous Windows, il s’assure que le processeur ne le fait pas non plus.
+Visual C++ 2005 va au-delà du C++ standard pour définir la sémantique de Multi-Threading pour l’accès aux variables volatiles. À compter de Visual C++ 2005, les lectures à partir des variables volatiles sont définies pour avoir une sémantique d’acquisition en lecture, et les écritures dans des variables volatiles sont définies pour avoir une sémantique en écriture. Cela signifie que le compilateur ne réorganise pas les lectures et les écritures qui se sont passées, et sur Windows il garantit que le processeur ne le fait pas non plus.
 
 Il est important de comprendre que ces nouvelles garanties s’appliquent uniquement à Visual C++ 2005 et aux futures versions de Visual C++. Les compilateurs d’autres fournisseurs implémentent généralement une sémantique différente, sans les garanties supplémentaires de Visual C++ 2005. En outre, sur Xbox 360, le compilateur n’insère aucune instruction pour empêcher le processeur de réorganiser les lectures et les écritures.
 
@@ -432,7 +432,7 @@ Les performances des instructions de synchronisation et des fonctions sur Xbox 3
 
 ## <a name="windows-performance"></a>Performances Windows
 
-Les performances des instructions de synchronisation et des fonctions sur Windows varient considérablement en fonction du type et de la configuration du processeur, et de la nature du code en cours d’exécution. Les systèmes multicœurs et multisockets prennent souvent plus de temps pour exécuter des instructions de synchronisation et l’acquisition de verrous prend plus de temps si un autre thread possède actuellement le verrou.
+les performances des instructions de synchronisation et des fonctions sur Windows varient considérablement en fonction du type et de la configuration du processeur, et de la nature du code en cours d’exécution. Les systèmes multicœurs et multisockets prennent souvent plus de temps pour exécuter des instructions de synchronisation et l’acquisition de verrous prend plus de temps si un autre thread possède actuellement le verrou.
 
 Toutefois, même certaines mesures générées à partir de tests très simples sont utiles :
 
@@ -441,7 +441,7 @@ Toutefois, même certaines mesures générées à partir de tests très simples 
 -   L’acquisition ou la libération d’une section critique a été mesurée en prenant 40-100 cycles.
 -   L’acquisition ou la libération d’un mutex a été mesurée comme s’effectuant environ 750-2500 cycles.
 
-Ces tests ont été effectués sur Windows XP sur une gamme de processeurs différents. Les courtes périodes étaient sur un ordinateur monoprocesseur, et plus longtemps sur un ordinateur multiprocesseur.
+ces tests ont été effectués sur Windows XP sur une gamme de processeurs différents. Les courtes périodes étaient sur un ordinateur monoprocesseur, et plus longtemps sur un ordinateur multiprocesseur.
 
 Bien que l’acquisition et la libération de verrous soient plus coûteuses que l’utilisation de la programmation sans verrou, il est même préférable de partager les données moins fréquemment, ce qui évite le coût.
 
@@ -457,8 +457,8 @@ Il n’est pas garanti que les algorithmes sans verrou soient plus rapides que l
 
 ## <a name="platform-differences-summary"></a>Résumé des différences de plateforme
 
--   Les fonctions **InterlockedXxx** empêchent la réorganisation du processeur en lecture/écriture sur Windows, mais pas sur la Xbox 360.
--   La lecture et l’écriture de variables volatiles à l’aide de Visual Studio C++ 2005 empêche la réorganisation de la lecture/écriture de l’UC sur Windows, mais sur Xbox 360, elle empêche uniquement la réorganisation en lecture/écriture du compilateur.
+-   les fonctions **InterlockedXxx** empêchent la réorganisation de la lecture/écriture de l’uc sur Windows, mais pas sur la Xbox 360.
+-   la lecture et l’écriture de variables volatiles à l’aide de Visual Studio C++ 2005 empêche la réorganisation de la lecture/écriture de l’uc sur Windows, mais sur Xbox 360, elle empêche uniquement la réorganisation en lecture/écriture du compilateur.
 -   Les écritures sont réorganisées sur Xbox 360, mais pas sur x86 ou x64.
 -   Les lectures sont réorganisées sur Xbox 360, mais sur x86 ou x64, elles sont réorganisées uniquement par rapport aux écritures, et uniquement si les lectures et les écritures ciblent des emplacements différents.
 
@@ -477,7 +477,7 @@ Il n’est pas garanti que les algorithmes sans verrou soient plus rapides que l
 
 -   Bibliothèque MSDN. «[**volatile (C++)**](https://msdn.microsoft.com/library/12a04hfd(v=VS.71).aspx). » Référence du langage C++.
 -   Vance Morrison. «[Comprendre l’impact des techniques de Low-Lock dans les applications multithread](/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps)». MSDN Magazine, octobre 2005.
--   Lyons, Michael. «[Modèle de stockage PowerPC et programmation Aix](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)». IBM developerWorks, 16 novembre 2005.
+-   Lyons, Michael. «[PowerPC modèle de Stockage et programmation AIX](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)». IBM developerWorks, 16 novembre 2005.
 -   McKenney, Paul E». «[classement de mémoire dans les microprocesseurs modernes, partie II](https://www.linuxjournal.com/article/8212)». Journal Linux, 2005 septembre. \[Cet article contient des informations détaillées sur x86.\]
 -   Intel Corporation. «[Commande de mémoire d’architecture Intel® 64](https://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf). » 2007 août. \[S’applique aux processeurs IA-32 et Intel 64.\]
 -   Niebler, Eric. «[Rapport de voyage : réunion ad hoc sur les threads en C++](https://www.artima.com/cppsource/threads_meeting.html)». Source C++, 17 octobre 2006.

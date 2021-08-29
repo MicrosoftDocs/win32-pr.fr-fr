@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: bf8e13cff80ddea4e102c045c174565e7e835274
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 65ec9eb21637268989b181e7a8f7099651d2ae3b4d357aa570dddc9ee4c270ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956578"
 ---
 # <a name="ntgdiddcreatesurface-function"></a>NtGdiDdCreateSurface fonction)
 
@@ -107,7 +107,7 @@ Est utilisé par l’API DirectDraw et ne doit pas être renseigné par le pilot
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 **NtGdiDdCreateSurface** retourne l’un des codes de rappel suivants.
 
@@ -122,7 +122,7 @@ Est utilisé par l’API DirectDraw et ne doit pas être renseigné par le pilot
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Il est recommandé que votre application appelle [IDirectDraw7 :: CreateSurface](/windows/win32/api/ddraw/nf-ddraw-idirectdraw7-createsurface) au lieu d’utiliser cette fonction.
 

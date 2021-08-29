@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0692afb2ff127f9456e6da3c7546c67ae22ded
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 09b303c3280b42858bb319bb49baa209c1f99cdac819a719743db403bfdc08ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585399"
 ---
 # <a name="iwmdrmlicensegetlicense-method"></a>IWMDRMLicense :: GetLicense, méthode
 
@@ -79,7 +79,7 @@ Reçoit le type de la licence retournée. Cette valeur est définie sur l’une 
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

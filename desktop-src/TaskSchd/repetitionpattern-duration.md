@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ff18330fd69bb54fdfb489b72f9470f707aed8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b649562d4d28f5427427e72c03172aecdc9cdac803b0239c020806673cb0bae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759208"
 ---
 # <a name="repetitionpatternduration-property"></a>RepetitionPattern. Duration, propriété
 
@@ -42,7 +42,7 @@ Durée de répétition du modèle. Le format de cette chaîne est PnYnMnDTnHnMnS
 
 Si aucune valeur n’est spécifiée pour la durée, le modèle est répété indéfiniment.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 
@@ -54,8 +54,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, la duré
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

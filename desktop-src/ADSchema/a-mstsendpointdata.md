@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5160ff53957e41c87a1d4873ffe0ffe7b0555753
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9f99ac6d28b5f7a96fc512b7e501fe5780ca1ab861833be6d6bf2fd6ec65c868
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960188"
 ---
 # <a name="ms-ts-endpoint-data-attribute"></a>attribut ms-TS-Endpoint-Data
 
