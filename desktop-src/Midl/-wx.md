@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b502cea5f686de2951f6f21ab92fdbffef779b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b5255b7256b82889f50b6bcffbc323e405f31d1423bb51a5b35b716dca170a25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913619"
 ---
 # <a name="wx-switch"></a>/WX (commutateur)
 
@@ -31,7 +31,7 @@ midl /WX
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le commutateur **/WX** est spécifié et que le commutateur [**/w**](-w.md)*n* n’est pas spécifié, tous les avertissements au niveau par défaut, Level 1, sont traités comme des erreurs.
 
@@ -57,9 +57,9 @@ AVERTISSEMENT : le niveau zéro (0) indique au compilateur MIDL de supprimer le
 [**/W**](-w.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

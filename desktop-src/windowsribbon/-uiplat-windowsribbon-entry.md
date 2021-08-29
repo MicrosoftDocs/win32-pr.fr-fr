@@ -25,12 +25,12 @@ keywords:
 - Ruban, sécurité
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 98f7dbf42d604f93c76bb9897aa25918d45d126f
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: c41c6cf833a65830809796aa1e69254cb0a6c9ea6ffc3ae161b644538f84a374
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393429"
 ---
 # <a name="windows-ribbon-framework"></a>Windows Infrastructure du ruban
 

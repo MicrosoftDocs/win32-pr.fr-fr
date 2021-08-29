@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ad7452698b4969e78ee14cf4144e1f5c7883892b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8a72f1900986de299db050d20ba4ecd74ed17f5135ac7b52bee8d895d1a4c518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578709"
 ---
 # <a name="cim_diskspacecheck-class"></a>\_Classe CIM DiskSpaceCheck
 
@@ -324,7 +324,7 @@ Mac OS
 
 </dt> <dd>
 
-ATT UNIX
+UNIX ATT
 
 </dd> <dt>
 
@@ -424,7 +424,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -506,7 +506,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -823,7 +823,7 @@ Cette propriété est héritée de la [**\_ vérification CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

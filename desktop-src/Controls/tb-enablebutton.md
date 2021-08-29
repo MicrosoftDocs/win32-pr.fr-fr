@@ -3,7 +3,7 @@ title: Message TB_ENABLEBUTTON (commctrl. h)
 description: Active ou désactive le bouton spécifié dans une barre d’outils.
 ms.assetid: d73851ee-f909-4b70-9514-c45cd3a7e999
 keywords:
-- TB_ENABLEBUTTON les contrôles de message Windows
+- TB_ENABLEBUTTON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caf2fe865d49f9c89e31b1701abfcbf7991ae72e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e4edc2fd7c1e088c376772f38c106cf12f41274de0bc5fda6385851c74126e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106515685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919099"
 ---
 # <a name="tb_enablebutton-message"></a>TO \_ ENABLEBUTTON message
 
@@ -47,7 +47,7 @@ Identificateur de commande du bouton à activer ou à désactiver.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un bouton a été activé, il peut être appuyé et activé.
 
@@ -57,8 +57,8 @@ Lorsqu’un bouton a été activé, il peut être appuyé et activé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

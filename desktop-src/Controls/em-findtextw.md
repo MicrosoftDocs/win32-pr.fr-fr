@@ -3,7 +3,7 @@ title: Message EM_FINDTEXTW (RichEdit. h)
 description: 'EM_FINDTEXTW message : recherche le texte Unicode dans un contrôle RichEdit.'
 ms.assetid: 0c1579f5-3b37-4e28-86a2-f4e03e195f38
 keywords:
-- EM_FINDTEXTW les contrôles de message Windows
+- EM_FINDTEXTW les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 325ff948c4c8f03e8051248f15928d8e8c56e52f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 80d7f84f299ad013051dc0f3e183b855f45c4203206d039cec8480a7dcac3bda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697749"
 ---
 # <a name="em_findtextw-message"></a>\_Message FINDTEXTW em
 
@@ -58,11 +58,11 @@ Structure [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la chaîne cible est trouvée, la valeur de retour est la position de base zéro du premier caractère de la correspondance. Si la cible est introuvable, la valeur de retour est-1.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 **Em \_ FINDTEXTW** utilise la structure [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) , tandis que [**em \_ FINDTEXTEXW**](em-findtextexw.md) utilise la structure [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) . La différence est que **FINDTEXTEXW** renvoie la plage de texte qui a été trouvée.
 
@@ -72,8 +72,8 @@ Si la chaîne cible est trouvée, la valeur de retour est la position de base z�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

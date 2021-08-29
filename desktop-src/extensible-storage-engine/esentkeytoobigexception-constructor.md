@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e7831d238bed4c25058f78f6e0a341be64228f11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 562f9b4822b1d8bcbb51adbcbec4cd4da5ad505e038f8e81576accc26d4c07bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480369"
 ---
 # <a name="esentkeytoobigexception-constructor"></a>Constructeur EsentKeyTooBigException
 

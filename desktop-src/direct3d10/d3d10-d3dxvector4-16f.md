@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: d3d46e6bc5423260e550fd026ca52420b1c392ca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 89543eed4b2b0a5f1f74752949617015e5d6b70a21fa8cfd5c3a8b3264cd7c43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753849"
 ---
 # <a name="d3dxvector4_16f-structure"></a>D3DXVECTOR4 \_ 16F, structure
 
@@ -64,7 +64,7 @@ Composant y.
 
 </dd> <dt>
 
-**z**
+**Lettre**
 </dt> <dd>
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
@@ -86,7 +86,7 @@ Composant w.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D3DXVECTOR4 \_ 16F** contient les extensions C++ suivantes.
 

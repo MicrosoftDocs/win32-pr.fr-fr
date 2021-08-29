@@ -3,30 +3,30 @@ title: À propos des objets cdrom et CdromCollection
 description: À propos des objets cdrom et CdromCollection
 ms.assetid: b764806b-d9e1-4c36-b86b-24613501c926
 keywords:
-- Lecteur Windows Media, objet cdrom
-- Windows Media Player Object Model, CDROM, objet
+- Lecteur Windows Media, objet Cdrom
+- Lecteur Windows Media modèle objet, objet Cdrom
 - modèle objet, objet cdrom
-- Contrôle ActiveX du lecteur Windows Media, objet cdrom
-- Contrôle ActiveX, objet cdrom
-- Contrôle ActiveX mobile pour Windows Media Player, objet cdrom
-- Windows Media Player Mobile, objet cdrom
+- Lecteur Windows Media ActiveX contrôle, objet Cdrom
+- contrôle ActiveX, objet Cdrom
+- Lecteur Windows Media contrôle Mobile ActiveX, objet Cdrom
+- Lecteur Windows Media Mobile, objet cdrom
 - Objet cdrom
 - Lecteur Windows Media, objet CdromCollection
-- Modèle objet du lecteur Windows Media, objet CdromCollection
+- Lecteur Windows Media modèle objet, objet CdromCollection
 - modèle objet, objet CdromCollection
-- Contrôle ActiveX du lecteur Windows Media, objet CdromCollection
-- Contrôle ActiveX, objet CdromCollection
-- Contrôle ActiveX Windows Media Player Mobile, objet CdromCollection
-- Windows Media Player Mobile, objet CdromCollection
+- Lecteur Windows Media ActiveX contrôle, objet CdromCollection
+- contrôle ActiveX, objet CdromCollection
+- Lecteur Windows Media contrôle Mobile ActiveX, objet CdromCollection
+- Lecteur Windows Media Mobile, objet CdromCollection
 - Objet CdromCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd8fca9f7097f67226e31173670ca2935969704a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a40601c44b9e4722fe1209bfaa72711c9121782e11d27c45e21d4ed02e2638ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765919"
 ---
 # <a name="about-the-cdrom-and-cdromcollection-objects"></a>À propos des objets cdrom et CdromCollection
 
@@ -65,9 +65,9 @@ Dans les deux cas, vous créez d’abord l’objet de collection (**CdromCollect
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

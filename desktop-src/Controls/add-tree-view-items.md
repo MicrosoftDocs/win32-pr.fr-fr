@@ -4,27 +4,27 @@ description: Vous ajoutez un élément à un contrôle Tree-View en envoyant le 
 ms.assetid: CD6376F4-8B1A-489D-8538-6C1620E98F76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75a7da0846b57f422de83984b197df0770286882
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2b769e1b854651363a597e7e13cd27dfc49d582a76032458f593eb5b197d7c01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922069"
 ---
 # <a name="how-to-add-tree-view-items"></a>Comment ajouter des éléments de Tree-View
 
 Vous ajoutez un élément à un contrôle Tree-View en envoyant le message [**TVM \_ INSERTITEM**](tvm-insertitem.md) au contrôle. Le message comprend l’adresse d’une structure [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-commctrl-tvinsertstructa) , en spécifiant l’élément parent, l’élément après lequel le nouvel élément est inséré et une structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) qui définit les attributs de l’élément. Les attributs incluent l’étiquette de l’élément, ses images sélectionnées et non sélectionnées, ainsi qu’une valeur 32 bits définie par l’application.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -152,9 +152,9 @@ BOOL InitTreeViewItems(HWND hwndTV)
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

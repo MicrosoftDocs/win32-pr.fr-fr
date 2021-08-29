@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0b1c36a1a44f38dac11a7e474d7fefb80a09948
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: e5948656e356c7369d8aa28e4178ebb063c46a15
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988292"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482375"
 ---
 # <a name="itssbtargetfarmname-property"></a>ITsSbTarget :: FarmName, propriété
 
@@ -61,12 +61,7 @@ Variable **BSTR** qui contient le nom de la batterie de serveurs.
 
 
 
-| Condition requise | Valeur |
-|--------|-------|
-| Client minimal pris en charge<br /> | Aucun pris en charge<br /> | 
-| Serveur minimal pris en charge<br /> | Windows Server 2012<br /> | 
-| MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | 
-| IID<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
+| | | Client minimal pris en charge<br /> | Aucun pris en charge<br /> | | Serveur minimal pris en charge<br /> | Windows Server 2012<br /> | | MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | | VAUT<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
 
 
 

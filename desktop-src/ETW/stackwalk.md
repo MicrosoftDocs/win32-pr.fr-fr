@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2ad873815cb5cea40c1a9d2f694eca8d0e90d11b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a5245964cf6a87c6bb09be0f3f83aa30b1b9337a2a5238be873d90ade90ba91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746529"
 ---
 # <a name="stackwalk-class"></a>StackWalk, classe
 
@@ -38,7 +38,7 @@ class StackWalk : MSNT_SystemTrace
 
 La classe **StackWalk** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour activer le suivi de pile des événements de noyau, appelez la fonction [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) et spécifiez les événements de noyau et les types pour lesquels vous souhaitez capturer la trace de la pile. Pour activer le suivi de pile pour d’autres événements, définissez le membre **EnableProperty** de l' [**activation des \_ \_ paramètres de trace**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) sur **événement activer la trace de la \_ \_ \_ pile \_ de propriétés**.
 
@@ -54,14 +54,14 @@ Utilisez le type d’événement suivant pour identifier l’événement réel l
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

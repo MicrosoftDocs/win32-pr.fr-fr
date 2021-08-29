@@ -4,12 +4,12 @@ ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
 title: Message WM_QUIT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e0d7413d65e9a0fb451fe63504f2ed5be02064
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26f6b999ff23d964c1998fe1cc2a9991e11ecfe71760800b1d678e2f71b89273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881519"
 ---
 # <a name="wm_quit-message"></a>\_Message WM Quit
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 Ce message n’a pas de valeur de retour, car il provoque l’arrêt de la boucle de message avant que le message ne soit envoyé à la procédure de fenêtre de l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ Quit** n’est pas associé à une fenêtre et ne sera donc jamais reçu via la procédure de fenêtre d’une fenêtre. Elle est extraite uniquement par les fonctions [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) ou [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) .
 

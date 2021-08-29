@@ -1,19 +1,19 @@
 ---
 title: Périphériques DirectInput et XUSB
-description: Le pilote de la classe de contrôleur commun Xbox (XUSB) sur Windows implémente l’interface en mode noyau pour la DLL XINPUT.
+description: le pilote de la classe XUSB (Xbox Common Controller class) sur Windows implémente l’interface en mode noyau pour la DLL XINPUT.
 ms.assetid: 8bf47b07-a1b6-7721-2136-3853e72c71ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b2b6d2857502c0e0209d94fb6d933618c180fd2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d4f06bb814fcf7a4eeffe76258f3f5689512cba60ca2e517ec7f0cff9870f353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926369"
 ---
 # <a name="directinput-and-xusb-devices"></a>Périphériques DirectInput et XUSB
 
-Le pilote de la classe de contrôleur commun Xbox (XUSB) sur Windows implémente l’interface en mode noyau pour la DLL XINPUT. Pour fournir une bonne expérience pour les titres hérités qui utilisent l’API [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) avec l’appareil de contrôleur commun, le pilote exporte également une interface de classe HID (Human Interface Device), qui est récupérée par DirectInput. Nous avons choisi le mappage de XUSB à HID en fonction d’un comportement classique dans un ensemble d’applications de jeu pour la version d’origine de XINPUT, et nous avons mis à jour le mappage des sous-types plus récents. Cette rubrique décrit le mappage.
+le pilote de la classe XUSB (Xbox Common Controller class) sur Windows implémente l’interface en mode noyau pour la DLL XINPUT. Pour fournir une bonne expérience pour les titres hérités qui utilisent l’API [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) avec l’appareil de contrôleur commun, le pilote exporte également une interface de classe HID (Human Interface Device), qui est récupérée par DirectInput. Nous avons choisi le mappage de XUSB à HID en fonction d’un comportement classique dans un ensemble d’applications de jeu pour la version d’origine de XINPUT, et nous avons mis à jour le mappage des sous-types plus récents. Cette rubrique décrit le mappage.
 
 ## <a name="human-interface-device-hid"></a>Périphérique d’interface utilisateur (HID)
 
@@ -52,16 +52,16 @@ Il s’agit du mappage par défaut qui est conçu autour du boîtier de commande
 |------------------------------|----------------|------------|------------|
 | Stick gauche                   | X, Y           | 0x01       | 0x30, 0x31 |
 | Stick droite                  | RX, Ry         | 0x01       | 0x33, 0x34 |
-| Déclencheur gauche + déclencheur droit | Lettre\*            | 0x01       | 0x32       |
+| Déclencheur gauche + déclencheur droit | Z\*            | 0x01       | 0x32       |
 | Touche D-haut, vers le haut, gauche, droite  | Commutateur Hat     | 0x01       | 0x39       |
-| Un                            | Bouton 1       | 0x09       | 0x01       |
+| A                            | Bouton 1       | 0x09       | 0x01       |
 | B                            | Bouton 2       | 0x09       | 0x02       |
 | X                            | Bouton 3       | 0x09       | 0x03       |
 | O                            | Bouton 4       | 0x09       | 0x04       |
 | LB (embosseur gauche)             | Bouton 5       | 0x09       | 0x05       |
 | RB (contre-choc droit)            | Bouton 6       | 0x09       | 0x06       |
 | RETOUR                         | Bouton 7       | 0x09       | 0x07       |
-| START                        | Bouton 8       | 0x09       | 0x08       |
+| ÉCRAN D’ACCUEIL                        | Bouton 8       | 0x09       | 0x08       |
 | LSB (bouton stick gauche)      | Bouton 9       | 0x09       | 0x09       |
 | RSB (bouton en forme de levier droit)     | Bouton 10      | 0x09       | 0x0A       |
 
@@ -75,14 +75,14 @@ Il s’agit du mappage conçu autour du contrôleur Arcade Stick. il est exposé
 | Contrôler                     | Nom d’utilisation HID | Page utilisation | ID d’utilisation |
 |-----------------------------|----------------|------------|----------|
 | Touche D-haut, vers le haut, gauche, droite | Commutateur Hat     | 0x01       | 0x39     |
-| Un                           | Bouton 1       | 0x09       | 0x01     |
+| A                           | Bouton 1       | 0x09       | 0x01     |
 | B                           | Bouton 2       | 0x09       | 0x02     |
 | X                           | Bouton 3       | 0x09       | 0x03     |
 | O                           | Bouton 4       | 0x09       | 0x04     |
 | LB (embosseur gauche)            | Bouton 5       | 0x09       | 0x05     |
 | RB (contre-choc droit)           | Bouton 6       | 0x09       | 0x06     |
 | RETOUR                        | Bouton 7       | 0x09       | 0x07     |
-| START                       | Bouton 8       | 0x09       | 0x08     |
+| ÉCRAN D’ACCUEIL                       | Bouton 8       | 0x09       | 0x08     |
 | Déclencheur gauche                | Bouton 9       | 0x09       | 0x09     |
 | Déclencheur droit               | Bouton 10      | 0x09       | 0x0A     |
 
@@ -95,9 +95,9 @@ Ce mappage est conçu à travers la roue de course Xbox et est exposé en tant q
 | Contrôler                                                        | Nom d’utilisation HID | Page utilisation | ID d’utilisation |
 |----------------------------------------------------------------|----------------|------------|----------|
 | Roue (Stick X gauche)                                           | X              | 0x01       | 0x30     |
-| Pédale d’accélérateur (déclencheur de droite) + pédale de frein (déclencheur gauche) | Lettre\*            | 0x01       | 0x32     |
+| Pédale d’accélérateur (déclencheur de droite) + pédale de frein (déclencheur gauche) | Z\*            | 0x01       | 0x32     |
 | Touche D-haut, vers le haut, gauche, droite                                    | Commutateur Hat     | 0x01       | 0x39     |
-| Un                                                              | Bouton 1       | 0x09       | 0x01     |
+| A                                                              | Bouton 1       | 0x09       | 0x01     |
 | B                                                              | Bouton 2       | 0x09       | 0x02     |
 | X                                                              | Bouton 3       | 0x09       | 0x03     |
 | O                                                              | Bouton 4       | 0x09       | 0x04     |
@@ -106,7 +106,7 @@ Ce mappage est conçu à travers la roue de course Xbox et est exposé en tant q
 | LSB (bouton stick gauche)                                        | Bouton 7       | 0x09       | 0x07     |
 | RSB (bouton en forme de levier droit)                                       | Bouton 8       | 0x09       | 0x08     |
 | RETOUR                                                           | Bouton 9       | 0x09       | 0x09     |
-| START                                                          | Bouton 10      | 0x09       | 0x0A     |
+| ÉCRAN D’ACCUEIL                                                          | Bouton 10      | 0x09       | 0x0A     |
 
 > [!Note]  
 > ( \* ) : Ceci est combiné de sorte que Z présente le comportement de centrage attendu par la plupart des titres pour les contrôles de frein et d’accélérateur ; cela signifie qu’il n’est pas possible de voir toutes les valeurs de combinaison de pédales possibles via [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)).
@@ -129,7 +129,7 @@ Ce mappage est conçu autour du manche de avion Xbox et est exposé comme un typ
 | LB (embosseur gauche)            | Bouton 5   | 0x09       | 0x05       |
 | RB (contre-choc droit)           | Bouton 6   | 0x09       | 0x06       |
 | RETOUR                        | Bouton 7   | 0x09       | 0x07       |
-| START                       | Bouton 8   | 0x09       | 0x08       |
+| ÉCRAN D’ACCUEIL                       | Bouton 8   | 0x09       | 0x08       |
 | LSB (bouton stick gauche)     | Bouton 9   | 0x09       | 0x09       |
 | RSB (bouton en forme de levier droit)    | Bouton 10  | 0x09       | 0x0A       |
 

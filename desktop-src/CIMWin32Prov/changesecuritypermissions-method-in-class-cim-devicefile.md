@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 73a772c17695a537e4a9a8518bf05b052c0417f6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 91b5fa3284b39729d87550f508fbad4fdf339d211f5a6beec429ef18095ff0e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925049"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_devicefile-class"></a>Méthode ChangeSecurityPermissions de la \_ classe CIM DeviceFile
 
@@ -177,7 +177,7 @@ Le système de fichiers n’est pas NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -240,7 +240,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

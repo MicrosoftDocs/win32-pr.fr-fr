@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bb8d1d37bd5d4db59942aaab7170119283c5cc7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e52ae224aee9db09ffa42cf19b3550a5ff6362326b0058d87e4d2a8b2da1851e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759409"
 ---
 # <a name="win32_process-class"></a>\_Classe de processus Win32
 
@@ -74,7 +74,7 @@ La [classe WMI](../wmisdk/retrieving-a-class.md) de **\_ processus Win32** repr�
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
 > [!NOTE]
-> Pour une discussion générale sur les processus et les threads dans Windows, consultez la rubrique [processus et threads](/ProcThread/processes-and-threads.md).
+> pour une présentation générale des processus et des threads dans Windows, consultez la rubrique [processus et threads](/ProcThread/processes-and-threads.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -146,8 +146,8 @@ La classe de **\_ processus Win32** possède ces méthodes.
 | Méthode                                                                   | Description                                                                                                                                                                                                                                                                               |
 |:-------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AttachDebugger**](attachdebugger-method-in-class-win32-process.md)   | Lance le débogueur actuellement inscrit pour un processus.<br/>                                                                                                                                                                                                                      |
-| [**Créés**](create-method-in-class-win32-process.md)                   | Crée un nouveau processus.<br/>                                                                                                                                                                                                                                                         |
-| [**GetAvailableVirtualSize**](getavailablevirtualsize-win32-process.md) | Récupère la taille actuelle, en octets, de l’espace d’adressage virtuel libre disponible pour le processus.<br/> **Windows server 2012, Windows 8, Windows 7, Windows server 2008 et Windows Vista :** Cette méthode n’est pas prise en charge avant Windows 8.1 et Windows Server 2012 R2.<br/> |
+| [**Créer**](create-method-in-class-win32-process.md)                   | Crée un nouveau processus.<br/>                                                                                                                                                                                                                                                         |
+| [**GetAvailableVirtualSize**](getavailablevirtualsize-win32-process.md) | Récupère la taille actuelle, en octets, de l’espace d’adressage virtuel libre disponible pour le processus.<br/> **Windows Server 2012, Windows 8, Windows 7, Windows Server 2008 et Windows Vista :** cette méthode n’est pas prise en charge avant Windows 8.1 et Windows Server 2012 R2.<br/> |
 | [**GetOwner**](getowner-method-in-class-win32-process.md)               | Récupère le nom d’utilisateur et le nom de domaine sous lesquels le processus s’exécute.<br/>                                                                                                                                                                                                    |
 | [**GetOwnerSid**](getownersid-method-in-class-win32-process.md)         | Récupère l’identificateur de sécurité (SID) pour le propriétaire d’un processus.<br/>                                                                                                                                                                                                            |
 | [**SetPriority**](setpriority-method-in-class-win32-process.md)         | Modifie la priorité d’exécution d’un processus.<br/>                                                                                                                                                                                                                                   |
@@ -301,7 +301,7 @@ Qualificateurs : [**Privileges**](../wmisdk/standard-wmi-qualifiers.md) ("SeDeb
 
 Chemin d’accès au fichier exécutable du processus.
 
-Exemple : « C : \\ \\ système Windows \\Explorer.Exe »
+exemple : « C : \\ Windows \\ système \\Explorer.Exe »
 
 </dd> <dt>
 
@@ -341,7 +341,7 @@ Unknown
 
 </dt> <dd>
 
-Autres
+Autre
 
 </dd> <dt>
 
@@ -1074,7 +1074,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Process and thread Functions \| GetProcessVersion »), [**DisplayName**](../wmisdk/standard-qualifiers.md) (« version de Windows »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Process and Thread functions \| GetProcessVersion"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("Windows Version")
 </dt> </dl>
 
 Version de Windows dans laquelle le processus est en cours d’exécution.
@@ -1139,9 +1139,9 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La classe de **\_ processus Win32** est dérivée du [**\_ processus CIM**](cim-process.md). Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
+La classe de **\_ processus Win32** est dérivée du [**\_ processus CIM**](cim-process.md). le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
 
 ### <a name="overview"></a>Vue d’ensemble
 
@@ -1161,7 +1161,7 @@ Vous pouvez surveiller les performances des processus avec la classe de [**\_ \_
 
 ## <a name="examples"></a>Exemples
 
-La [liste des propriétés de l’exemple de code PowerShell des classes WMI](https://Gallery.TechNet.Microsoft.Com/a7918bf3-bc03-4553-990f-aba13cf196b7) dans la Galerie TechNet décrit la classe de **\_ processus Win32** et renvoie les résultats au format Excel.
+la [liste des propriétés de l’exemple de code PowerShell des Classes WMI](https://Gallery.TechNet.Microsoft.Com/a7918bf3-bc03-4553-990f-aba13cf196b7) dans la galerie TechNet décrit la classe de **\_ processus Win32** et renvoie les résultats au format Excel.
 
 Le [processus de fin d’exécution sur plusieurs serveurs](https://Gallery.TechNet.Microsoft.Com/698c2512-2bbd-40ee-b3bf-a9cebdad2faf) met fin à un processus s’exécutant sur un ou plusieurs ordinateurs.
 

@@ -4,12 +4,12 @@ ms.assetid: 6cdee5d8-8aa0-4fad-9338-152ee33b8077
 title: UpgradeCode, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac1e5493ad651e609f6ef9d7ae14e07c0c15b5b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 77e42253dfe0466636783603f6b5098425503a9f0984363e11d4c7241b17a191
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809659"
 ---
 # <a name="upgradecode-property"></a>UpgradeCode, propriété
 
@@ -17,7 +17,7 @@ La propriété **UpgradeCode** est un GUID qui représente un ensemble connexe d
 
 Cette propriété est utilisée par l' [action RegisterProduct](registerproduct-action.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est fortement recommandé que les auteurs des packages d’installation spécifient une **UpgradeCode** pour leur application.
 
@@ -27,7 +27,7 @@ Il est fortement recommandé que les auteurs des packages d’installation spéc
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

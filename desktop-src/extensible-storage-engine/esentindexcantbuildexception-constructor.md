@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 31846f7a4a365c5bd8571cf45747046ade4a05c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44f0c896311ad2d2e064d1c7bc18aa941c5af2faf5d596afe8dbc3ad4dc94678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065249"
 ---
 # <a name="esentindexcantbuildexception-constructor"></a>Constructeur EsentIndexCantBuildException
 

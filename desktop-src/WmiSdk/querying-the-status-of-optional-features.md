@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Interrogation de l’état des fonctionnalités facultatives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ecffe6ddbe9b860c6f49fe12d3fed500c169bef
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a8a8cceccdfeec6f902a56e8903a1d41e504750e
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476705"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786685"
 ---
 # <a name="querying-the-status-of-optional-features"></a>Interrogation de l’état des fonctionnalités facultatives
 
@@ -20,7 +20,7 @@ vous pouvez utiliser Windows PowerShell applets de commande pour interroger l’
 
 **Pour récupérer toutes les instances de fonctionnalités facultatives présentes sur un ordinateur**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|
@@ -31,7 +31,7 @@ vous pouvez utiliser Windows PowerShell applets de commande pour interroger l’
 
 **Pour rechercher une fonctionnalité facultative en spécifiant le nom de la fonctionnalité**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|
@@ -47,7 +47,7 @@ vous pouvez utiliser Windows PowerShell applets de commande pour interroger l’
 
 **Pour rechercher des fonctionnalités facultatives en spécifiant l’état d’installation**
 
--   <span codelanguage="PowerShell"></span>
+
     
 | PowerShell | 
 |------------|

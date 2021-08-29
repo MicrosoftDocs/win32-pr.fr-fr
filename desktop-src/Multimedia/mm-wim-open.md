@@ -3,7 +3,7 @@ title: Message MM_WIM_OPEN (mmsystem. h)
 description: Le \_ \_ message d’ouverture Wim mm est envoyé à une fenêtre quand un appareil d’entrée Waveform-Audio est ouvert.
 ms.assetid: 4c646f58-c324-467e-871b-8fc36d5b89bc
 keywords:
-- Message MM_WIM_OPEN Windows Multimedia
+- message MM_WIM_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64ff028dcd9dc851d94699ef5cb75707429ba149
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4dc5271f4e2a49b762273b241133ea5c5826ebf1861ba9fe5eb4cf7832b164fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065439"
 ---
 # <a name="mm_wim_open-message"></a>MM \_ \_ message ouvert Wim
 
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

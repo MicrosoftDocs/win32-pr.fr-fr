@@ -4,12 +4,12 @@ ms.assetid: 920014c7-d1ef-4b98-8c92-c4169be52cb9
 title: Pinceau plein
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7cd7a2140ece4bf93ac6f8525be461b70e28fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceea0c2e6c61c02d36147cf7358fd39481f580c61717306755cd2fa46e652d0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037587"
 ---
 # <a name="solid-brush"></a>Pinceau plein
 

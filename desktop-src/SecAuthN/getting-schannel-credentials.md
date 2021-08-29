@@ -4,12 +4,12 @@ ms.assetid: 8f912af8-fd64-467a-b154-28c60cb14929
 title: Obtention des informations d’identification Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c2594b808387943cd2fc645a459dfbcd66ebc54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef4e088e0e0e0cb2edbc6a6551669cf4d8c5b8b3d2eb8cad38699e83001e5350
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623179"
 ---
 # <a name="getting-schannel-credentials"></a>Obtention des informations d’identification Schannel
 

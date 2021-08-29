@@ -44,12 +44,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 6cf9c102e5ba9732369604bea21876af66ca525b596736521e92e59e52ddf9e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 674f32294fafccc9a78f57125b919c230793a3e5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118207526"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623335"
 ---
 # <a name="common-wia-item-property-constants"></a>Constantes de propriété d’élément WIA courantes
 
@@ -61,19 +61,19 @@ Le préfixe « WIA » \_ \_ indique une propriété d’élément pour tous le
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constante/valeur</th>
-<th style="text-align: left;">Description</th>
+<th >Constante/valeur</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ACCESS_RIGHTS"></span><span id="wia_ipa_access_rights"></span><dl> <dt><strong>WIA_IPA_ACCESS_RIGHTS</strong></dt> <dt>PictureAccessRights</dt> </dl></td>
-<td style="text-align: left;">Cet indicateur contrôle l’accès à l’élément et indique si l’élément est supprimé.<br/> Obligatoire pour tous les éléments WIA 2,0.<br/> Type : <strong>VT_I4</strong>; En lecture/écriture ou en lecture seule, en fonction de la capacité de l’élément à modifier ses droits d’accès ; Valeurs valides : WIA_PROP_FLAG<br/> Le tableau suivant contient les cinq indicateurs qui sont valides avec cette propriété.<br/> 
+<td ><span id="WIA_IPA_ACCESS_RIGHTS"></span><span id="wia_ipa_access_rights"></span><dl> <dt><strong>WIA_IPA_ACCESS_RIGHTS</strong></dt> <dt>PictureAccessRights</dt> </dl></td>
+<td >Cet indicateur contrôle l’accès à l’élément et indique si l’élément est supprimé.<br/> Obligatoire pour tous les éléments WIA 2,0.<br/> Type : <strong>VT_I4</strong>; En lecture/écriture ou en lecture seule, en fonction de la capacité de l’élément à modifier ses droits d’accès ; Valeurs valides : WIA_PROP_FLAG<br/> Le tableau suivant contient les cinq indicateurs qui sont valides avec cette propriété.<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -108,19 +108,19 @@ Le préfixe « WIA » \_ \_ indique une propriété d’élément pour tous le
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_APP_COLOR_MAPPING"></span><span id="wia_ipa_app_color_mapping"></span><dl> <dt><strong>WIA_IPA_APP_COLOR_MAPPING</strong></dt> <dt>PictureAppColorMapping</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
+<td ><span id="WIA_IPA_APP_COLOR_MAPPING"></span><span id="wia_ipa_app_color_mapping"></span><dl> <dt><strong>WIA_IPA_APP_COLOR_MAPPING</strong></dt> <dt>PictureAppColorMapping</dt> </dl></td>
+<td ><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_BITS_PER_CHANNEL"></span><span id="wia_ipa_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_BITS_PER_CHANNEL</strong></dt> <dt>PictureBitsPerChannel</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nombre de bits par canal pour l’image. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_BITS_PER_CHANNEL"></span><span id="wia_ipa_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_BITS_PER_CHANNEL</strong></dt> <dt>PictureBitsPerChannel</dt> </dl></td>
+<td ><p>Contient le nombre de bits par canal pour l’image. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments d’image stockés et compatibles avec l’acquisition WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_BUFFER_SIZE"></span><span id="wia_ipa_buffer_size"></span><dl> <dt><strong>WIA_IPA_BUFFER_SIZE</strong></dt> <dt>PictureBufferSize</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la taille de la mémoire tampon, en octets, utilisée pendant un transfert de données. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_BUFFER_SIZE"></span><span id="wia_ipa_buffer_size"></span><dl> <dt><strong>WIA_IPA_BUFFER_SIZE</strong></dt> <dt>PictureBufferSize</dt> </dl></td>
+<td ><p>Contient la taille de la mémoire tampon, en octets, utilisée pendant un transfert de données. Le minipilote crée et gère cette propriété.</p>
 <p>Une application peut lire cette propriété pour déterminer la taille de mémoire tampon spécifiée par le pilote pour les transferts de données. Le service WIA lit également cette propriété pour allouer de la mémoire au minipilote pendant le transfert de données.</p>
 <p>Facultatif pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
@@ -135,25 +135,25 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_BYTES_PER_LINE"></span><span id="wia_ipa_bytes_per_line"></span><dl> <dt><strong>WIA_IPA_BYTES_PER_LINE</strong></dt> <dt>PictureBytesPerLine</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nombre d’octets d’une ligne d’analyse de l’image. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_BYTES_PER_LINE"></span><span id="wia_ipa_bytes_per_line"></span><dl> <dt><strong>WIA_IPA_BYTES_PER_LINE</strong></dt> <dt>PictureBytesPerLine</dt> </dl></td>
+<td ><p>Contient le nombre d’octets d’une ligne d’analyse de l’image. Le minipilote crée et gère cette propriété.</p>
 <p>Facultatif pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_CHANNELS_PER_PIXEL"></span><span id="wia_ipa_channels_per_pixel"></span><dl> <dt><strong>WIA_IPA_CHANNELS_PER_PIXEL</strong></dt> <dt>PictureChannelsPerPixel</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nombre de canaux par pixel pour l’image. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_CHANNELS_PER_PIXEL"></span><span id="wia_ipa_channels_per_pixel"></span><dl> <dt><strong>WIA_IPA_CHANNELS_PER_PIXEL</strong></dt> <dt>PictureChannelsPerPixel</dt> </dl></td>
+<td ><p>Contient le nombre de canaux par pixel pour l’image. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments d’image stockés et compatibles avec l’acquisition WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_COLOR_PROFILE"></span><span id="wia_ipa_color_profile"></span><dl> <dt><strong>WIA_IPA_COLOR_PROFILE</strong></dt> <dt>PictureColorProfile</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
+<td ><span id="WIA_IPA_COLOR_PROFILE"></span><span id="wia_ipa_color_profile"></span><dl> <dt><strong>WIA_IPA_COLOR_PROFILE</strong></dt> <dt>PictureColorProfile</dt> </dl></td>
+<td ><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_COMPRESSION"></span><span id="wia_ipa_compression"></span><dl> <dt><strong>WIA_IPA_COMPRESSION</strong></dt> <dt>PictureCompression</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le type de compression actuel utilisé. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_COMPRESSION"></span><span id="wia_ipa_compression"></span><dl> <dt><strong>WIA_IPA_COMPRESSION</strong></dt> <dt>PictureCompression</dt> </dl></td>
+<td ><p>Contient le type de compression actuel utilisé. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer le type de compression d’image ou définit cette propriété pour configurer le paramètre de compression.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. le symbole <strong>V</strong> indique que la constante est prise en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
@@ -224,8 +224,8 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_DATATYPE"></span><span id="wia_ipa_datatype"></span><dl> <dt><strong>WIA_IPA_DATATYPE</strong></dt> <dt>PictureDatatype</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le paramètre de type de données actuel pour l’appareil. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_DATATYPE"></span><span id="wia_ipa_datatype"></span><dl> <dt><strong>WIA_IPA_DATATYPE</strong></dt> <dt>PictureDatatype</dt> </dl></td>
+<td ><p>Contient le paramètre de type de données actuel pour l’appareil. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer le type de données de l’image. Une application écrit cette propriété pour définir le type de données actuel de l’image à transférer.</p>
 <p>Cette propriété est obligatoire pour tous les éléments WIA 2,0. Il doit être en lecture/écriture pour tous les éléments de l’acquisition WIA 2,0 et lecture uniquement pour les éléments de stockage WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>; accès pour les systèmes d’exploitation antérieurs à Windows Vista : cette propriété est en lecture seule pour les appareils photo et en lecture/écriture pour les scanneurs ; accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
@@ -318,8 +318,8 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_DEPTH"></span><span id="wia_ipa_depth"></span><dl> <dt><strong>WIA_IPA_DEPTH</strong></dt> <dt>PictureDepth</dt> </dl></td>
-<td style="text-align: left;"><p>WIA_IPA_DEPTH contient le paramètre de profondeur de bit d’une image. Le minipilote crée et gère cette propriété. Une application lit cette propriété pour déterminer le paramètre de profondeur de bit de l’image. L’application peut également être en mesure de définir cette valeur sur la profondeur de bits souhaitée.</p>
+<td ><span id="WIA_IPA_DEPTH"></span><span id="wia_ipa_depth"></span><dl> <dt><strong>WIA_IPA_DEPTH</strong></dt> <dt>PictureDepth</dt> </dl></td>
+<td ><p>WIA_IPA_DEPTH contient le paramètre de profondeur de bit d’une image. Le minipilote crée et gère cette propriété. Une application lit cette propriété pour déterminer le paramètre de profondeur de bit de l’image. L’application peut également être en mesure de définir cette valeur sur la profondeur de bits souhaitée.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un type de <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> et placez la valeur valide dans celui-ci.</p>
 <p>Cette propriété est obligatoire pour tous les éléments WIA 2,0. Il doit être en lecture/écriture pour tous les éléments de l’acquisition WIA 2,0 et lecture uniquement pour les éléments de stockage WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>; accès pour les systèmes d’exploitation antérieurs à Windows Vista : lecture/écriture ; accès pour Windows Vista et versions ultérieures : cette propriété est en lecture seule pour les éléments WIA_CATEGORY_FOLDER et WIA_CATEGORY_FINISHED_FILE, et en lecture/écriture pour toutes les autres catégories d’éléments WIA 2,0 ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
@@ -327,8 +327,8 @@ La propriété <strong>WIA_IPA_BUFFER_SIZE</strong> contient la quantité minima
 <p>WIA_DEPTH_AUTO est une valeur facultative, mais elle devient obligatoire lorsque WIA_DATA_AUTO est pris en charge pour WIA_IPA_DATATYPE.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_FILENAME_EXTENSION"></span><span id="wia_ipa_filename_extension"></span><dl> <dt><strong>WIA_IPA_FILENAME_EXTENSION</strong></dt> <dt>PictureFilenameExtension</dt> </dl></td>
-<td style="text-align: left;"><p>Contient l’extension de nom de fichier pour un format de fichier particulier. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_FILENAME_EXTENSION"></span><span id="wia_ipa_filename_extension"></span><dl> <dt><strong>WIA_IPA_FILENAME_EXTENSION</strong></dt> <dt>PictureFilenameExtension</dt> </dl></td>
+<td ><p>Contient l’extension de nom de fichier pour un format de fichier particulier. Le minipilote crée et gère cette propriété.</p>
 <p>Facultatif pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Le pilote met à jour cette propriété pour refléter la valeur actuelle de la propriété <a href="https://msdn.microsoft.com/library/ms796440.aspx">WIA_IPA_FORMAT</a> .</p>
@@ -345,8 +345,8 @@ L’extension de nom de fichier n’inclut pas le point.
 <p>Cette propriété est recommandée pour les pilotes qui prennent en charge les formats standard et est requise pour les pilotes qui implémentent des formats définis personnalisés. Il informe l’application de l’extension de nom de fichier correcte à utiliser pendant le transfert de fichiers au format privé. Par exemple, si A. Datum Corporation a créé un pilote WIA qui a transféré un fichier dans un nouveau format, l’entreprise peut spécifier une extension d' &quot; ADC &quot; . Cela permet aux applications de transférer des données dans ce format vers un fichier et de créer un nom de fichier tel que <em>MyFile. ADC</em>, ce qui est utile pour les personnes qui comprennent la nouvelle extension.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_FORMAT"></span><span id="wia_ipa_format"></span><dl> <dt><strong>WIA_IPA_FORMAT</strong></dt> <dt>PictureFormat</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le format actuel de l’image à transférer.</p>
+<td ><span id="WIA_IPA_FORMAT"></span><span id="wia_ipa_format"></span><dl> <dt><strong>WIA_IPA_FORMAT</strong></dt> <dt>PictureFormat</dt> </dl></td>
+<td ><p>Contient le format actuel de l’image à transférer.</p>
 <p>Une application lit cette propriété pour déterminer le format de l’image à recevoir. Une application écrit cette propriété pour définir le format. Cette propriété dépend de la propriété <a href="https://msdn.microsoft.com/library/ms795488.aspx">WIA_IPA_TYMED</a> . Le minipilote crée et gère cette propriété.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> type et placez la valeur valide dans celui-ci.</p>
 <p>Type : <strong>CLSID</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
@@ -519,31 +519,31 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_FULL_ITEM_NAME"></span><span id="wia_ipa_full_item_name"></span><dl> <dt><strong>WIA_IPA_FULL_ITEM_NAME</strong></dt> <dt>PictureFullItemName</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nom complet de l’élément (nom de l’élément, ainsi que les informations relatives au chemin d’accès). Le nom complet de l’élément est le même que le paramètre <em>bstrFullItemName</em> de la fonction de l’utilitaire de service <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> . Une application lit cette propriété pour déterminer l’élément utilisé actuellement et l’emplacement où se trouve cet élément dans l’arborescence des éléments. Chaque élément doit avoir un nom unique. Les applications utilisent généralement le nom complet de l’élément pour rechercher des éléments dans l’arborescence des éléments. Le service WIA crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_FULL_ITEM_NAME"></span><span id="wia_ipa_full_item_name"></span><dl> <dt><strong>WIA_IPA_FULL_ITEM_NAME</strong></dt> <dt>PictureFullItemName</dt> </dl></td>
+<td ><p>Contient le nom complet de l’élément (nom de l’élément, ainsi que les informations relatives au chemin d’accès). Le nom complet de l’élément est le même que le paramètre <em>bstrFullItemName</em> de la fonction de l’utilitaire de service <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> . Une application lit cette propriété pour déterminer l’élément utilisé actuellement et l’emplacement où se trouve cet élément dans l’arborescence des éléments. Chaque élément doit avoir un nom unique. Les applications utilisent généralement le nom complet de l’élément pour rechercher des éléments dans l’arborescence des éléments. Le service WIA crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_GAMMA_CURVES"></span><span id="wia_ipa_gamma_curves"></span><dl> <dt><strong>WIA_IPA_GAMMA_CURVES</strong></dt> <dt>PictureGammaCurves</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété est réservée à une utilisation future et n’est pas implémentée pour l’instant.</p>
+<td ><span id="WIA_IPA_GAMMA_CURVES"></span><span id="wia_ipa_gamma_curves"></span><dl> <dt><strong>WIA_IPA_GAMMA_CURVES</strong></dt> <dt>PictureGammaCurves</dt> </dl></td>
+<td ><p>Cette propriété est réservée à une utilisation future et n’est pas implémentée pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ICM_PROFILE_NAME"></span><span id="wia_ipa_icm_profile_name"></span><dl> <dt><strong>WIA_IPA_ICM_PROFILE_NAME</strong></dt> <dt>PictureIcmProfileName</dt> </dl></td>
-<td style="text-align: left;"><p>contient le nom de profil ICM nécessaire pour décoder correctement l’image. une application lit cette propriété pour déterminer le profil ICM à utiliser lors du traitement de l’image. Le service WIA crée et gère cette propriété en fonction de l’entrée ICMProfiles dans le fichier d’installation du pilote.</p>
+<td ><span id="WIA_IPA_ICM_PROFILE_NAME"></span><span id="wia_ipa_icm_profile_name"></span><dl> <dt><strong>WIA_IPA_ICM_PROFILE_NAME</strong></dt> <dt>PictureIcmProfileName</dt> </dl></td>
+<td ><p>contient le nom de profil ICM nécessaire pour décoder correctement l’image. une application lit cette propriété pour déterminer le profil ICM à utiliser lors du traitement de l’image. Le service WIA crée et gère cette propriété en fonction de l’entrée ICMProfiles dans le fichier d’installation du pilote.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_ITEM_CATEGORY"></span><span id="wia_ipa_item_category"></span><dl> <dt><strong>WIA_IPA_ITEM_CATEGORY</strong></dt> <dt>PictureItemCategory</dt> </dl></td>
-<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_IPA_ITEM_CATEGORY"></span><span id="wia_ipa_item_category"></span><dl> <dt><strong>WIA_IPA_ITEM_CATEGORY</strong></dt> <dt>PictureItemCategory</dt> </dl></td>
+<td ><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Les éléments WIA 2,0 sont regroupés en catégories qui définissent la façon dont un <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> doit être traité ou utilisé. Par exemple, si l’élément représente un flux, l’application doit s’attendre à ce qu’il contienne les propriétés du chargeur de documents requis et fonctionne comme un chargeur de documents. Si l’élément représente un fichier fini, une application WIA 2,0 doit la traiter ainsi, en supposant que les données sont statiques et situées sur l’appareil. (Les règles pour chaque élément sont définies dans leurs documents de spécification individuels.)</p>
 <p>Obligatoire pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_CLSID</strong>, Access : lecture seule, valeurs valides : <a href="-wia-wia2-itemcategoryguids.md"><strong>GUID de catégorie d’élément</strong></a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEM_FLAGS"></span><span id="wia_ipa_item_flags"></span><dl> <dt><strong>WIA_IPA_ITEM_FLAGS</strong></dt> <dt>PictureItemFlags</dt> </dl></td>
-<td style="text-align: left;"><p>Contient les indicateurs descriptifs pour un élément WIA. Les indicateurs d’élément sont les mêmes que ceux du paramètre <em>lObjectFlags</em> de la fonction de l’utilitaire de service <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> . Le service WIA crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_ITEM_FLAGS"></span><span id="wia_ipa_item_flags"></span><dl> <dt><strong>WIA_IPA_ITEM_FLAGS</strong></dt> <dt>PictureItemFlags</dt> </dl></td>
+<td ><p>Contient les indicateurs descriptifs pour un élément WIA. Les indicateurs d’élément sont les mêmes que ceux du paramètre <em>lObjectFlags</em> de la fonction de l’utilitaire de service <a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a> . Le service WIA crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer les valeurs d’indicateur descriptives de l’élément.</p>
 <p>Type : <strong>VT_I4</strong> accès : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Le tableau suivant contient les indicateurs qui sont valides avec cette propriété. un astérisque * indique que l’indicateur n’est pas pris en charge dans Windows Vista ou version ultérieure. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .) un double astérisque * * indique que l’indicateur n’est pas pris en charge dans Windows Server 2003 ou Windows Vista ou version ultérieure. le symbole <strong>V</strong> indique que l’indicateur est pris en charge uniquement dans Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> .)</p>
@@ -673,12 +673,12 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <tr class="even">
 <td>WIA_CATEGORY_FILM (racine)</td>
 <td>WiaItemTypeProgrammableDataSource WiaItemTypeTransfer WiaItemTypeImage WiaItemTypeFile WiaItemTypeFolder</td>
-<td>Aucun</td>
+<td>Aucune</td>
 </tr>
 <tr class="odd">
 <td>WIA_CATEGORY_FILM (enfants)</td>
 <td>WiaItemTypeProgrammableDataSource WiaItemTypeTransfer WiaItemTypeImage WiaItemTypeFile</td>
-<td>Aucun</td>
+<td>Aucune</td>
 </tr>
 <tr class="even">
 <td>WIA_CATEGORY_FOLDER</td>
@@ -696,51 +696,51 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_ITEM_NAME"></span><span id="wia_ipa_item_name"></span><dl> <dt><strong>WIA_IPA_ITEM_NAME</strong></dt> <dt>PictureItemName</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nom de l’élément. Une application lit cette propriété pour déterminer l’élément qu’elle utilise actuellement. Chaque élément a un nom unique. Le service WIA crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_ITEM_NAME"></span><span id="wia_ipa_item_name"></span><dl> <dt><strong>WIA_IPA_ITEM_NAME</strong></dt> <dt>PictureItemName</dt> </dl></td>
+<td ><p>Contient le nom de l’élément. Une application lit cette propriété pour déterminer l’élément qu’elle utilise actuellement. Chaque élément a un nom unique. Le service WIA crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEM_SIZE"></span><span id="wia_ipa_item_size"></span><dl> <dt><strong>WIA_IPA_ITEM_SIZE</strong></dt> <dt>PictureItemSize</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la taille actuelle, en octets, des données associées à l’élément. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_ITEM_SIZE"></span><span id="wia_ipa_item_size"></span><dl> <dt><strong>WIA_IPA_ITEM_SIZE</strong></dt> <dt>PictureItemSize</dt> </dl></td>
+<td ><p>Contient la taille actuelle, en octets, des données associées à l’élément. Le minipilote crée et gère cette propriété.</p>
 <p>Contains correspond à la taille totale des données transférées. Si cette valeur est égale à zéro, cela signifie que le minipilote n’a pas d’informations sur la taille exacte des données. (Ceci est courant pour les données compressées.) Une application lit cette valeur pour déterminer la taille de l’acquisition avant qu’elle ait lieu. Le service WIA lit cette propriété pour aider à allouer de la mémoire pour les transferts de données. Pour plus d’informations, consultez <a href="https://msdn.microsoft.com/library/ms792198.aspx">transfert de données vers une application WIA</a> si la propriété a la valeur zéro et que TYMED est configuré pour un transfert de fichiers, le service WIA n’alloue pas de mémoire pour le minipilote WIA.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_ITEM_TIME"></span><span id="wia_ipa_item_time"></span><dl> <dt><strong>WIA_IPA_ITEM_TIME</strong></dt> <dt>PictureItemTime</dt> </dl></td>
-<td style="text-align: left;"><p>Contient l’heure à laquelle l’image a été capturée à l’origine. Le minipilote crée et gère cette propriété. Cette propriété doit être signalée comme un vecteur de huit valeurs de <strong>mots</strong> sous la forme d’une structure SYSTEMTIME (décrite dans la documentation du kit de développement Platform SDK).</p>
+<td ><span id="WIA_IPA_ITEM_TIME"></span><span id="wia_ipa_item_time"></span><dl> <dt><strong>WIA_IPA_ITEM_TIME</strong></dt> <dt>PictureItemTime</dt> </dl></td>
+<td ><p>Contient l’heure à laquelle l’image a été capturée à l’origine. Le minipilote crée et gère cette propriété. Cette propriété doit être signalée comme un vecteur de huit valeurs de <strong>mots</strong> sous la forme d’une structure SYSTEMTIME (décrite dans la documentation du kit de développement Platform SDK).</p>
 <p>Facultatif pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_UI2</strong>  |  <strong>VT_VECTOR</strong> accès : lecture/écriture ou lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>PictureItemItemsStored</dt> </dl></td>
-<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>PictureItemItemsStored</dt> </dl></td>
+<td ><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Spécifie le nombre d’éléments stockés dans l’élément WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_MIN_BUFFER_SIZE"></span><span id="wia_ipa_min_buffer_size"></span><dl> <dt><strong>WIA_IPA_MIN_BUFFER_SIZE</strong></dt> <dt>PictureMinBufferSize</dt> </dl></td>
-<td style="text-align: left;"><p>Spécifie la taille de mémoire tampon minimale utilisée dans les transferts de données. Si le transfert de données est effectué via un mécanisme de rappel, la valeur de la propriété peut être aussi petite que 64 Ko. Toutefois, si le transfert est vers un fichier, la valeur de la propriété est le nombre d’octets nécessaires pour transférer une page de données à la fois. Le minipilote crée et gère cette propriété WIA.</p>
+<td ><span id="WIA_IPA_MIN_BUFFER_SIZE"></span><span id="wia_ipa_min_buffer_size"></span><dl> <dt><strong>WIA_IPA_MIN_BUFFER_SIZE</strong></dt> <dt>PictureMinBufferSize</dt> </dl></td>
+<td ><p>Spécifie la taille de mémoire tampon minimale utilisée dans les transferts de données. Si le transfert de données est effectué via un mécanisme de rappel, la valeur de la propriété peut être aussi petite que 64 Ko. Toutefois, si le transfert est vers un fichier, la valeur de la propriété est le nombre d’octets nécessaires pour transférer une page de données à la fois. Le minipilote crée et gère cette propriété WIA.</p>
 <p>Facultatif pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_NUMBER_OF_LINES"></span><span id="wia_ipa_number_of_lines"></span><dl> <dt><strong>WIA_IPA_NUMBER_OF_LINES</strong></dt> <dt>PictureNumberOfLines</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nombre de lignes contenues dans l’image (hauteur verticale de l’image en pixels). Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_NUMBER_OF_LINES"></span><span id="wia_ipa_number_of_lines"></span><dl> <dt><strong>WIA_IPA_NUMBER_OF_LINES</strong></dt> <dt>PictureNumberOfLines</dt> </dl></td>
+<td ><p>Contient le nombre de lignes contenues dans l’image (hauteur verticale de l’image en pixels). Le minipilote crée et gère cette propriété.</p>
 <p>Facultatif pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_PIXELS_PER_LINE"></span><span id="wia_ipa_pixels_per_line"></span><dl> <dt><strong>WIA_IPA_PIXELS_PER_LINE</strong></dt> <dt>PicturePixelsPerLine</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le nombre de pixels dans chaque ligne de l’image (la largeur de l’image en pixels). Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_PIXELS_PER_LINE"></span><span id="wia_ipa_pixels_per_line"></span><dl> <dt><strong>WIA_IPA_PIXELS_PER_LINE</strong></dt> <dt>PicturePixelsPerLine</dt> </dl></td>
+<td ><p>Contient le nombre de pixels dans chaque ligne de l’image (la largeur de l’image en pixels). Le minipilote crée et gère cette propriété.</p>
 <p>Facultatif pour tous les éléments WIA 2,0.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_PLANAR"></span><span id="wia_ipa_planar"></span><dl> <dt><strong>WIA_IPA_PLANAR</strong></dt> <dt>PicturePlanar</dt> </dl></td>
-<td style="text-align: left;"><p>cette propriété n’est pas prise en charge dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_IPA_PLANAR"></span><span id="wia_ipa_planar"></span><dl> <dt><strong>WIA_IPA_PLANAR</strong></dt> <dt>PicturePlanar</dt> </dl></td>
+<td ><p>cette propriété n’est pas prise en charge dans Windows Vista et versions ultérieures.</p>
 <p>Contient les options de compression des données d’image. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer les options de compression d’image ou définit les options de compression d’image actuelles.</p>
 <p>Type : <strong>VT_I4</strong>; Accès : lecture/écriture ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. Si l’appareil peut être défini sur une seule valeur, créez un type de WIA_PROP_LIST et placez la valeur valide dans celui-ci.</p>
@@ -768,14 +768,14 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_PREFERRED_FORMAT"></span><span id="wia_ipa_preferred_format"></span><dl> <dt><strong>WIA_IPA_PREFERRED_FORMAT</strong></dt> <dt>PicturePreferredFormat</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le format préféré pour les images que ce minipilote transfère. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_PREFERRED_FORMAT"></span><span id="wia_ipa_preferred_format"></span><dl> <dt><strong>WIA_IPA_PREFERRED_FORMAT</strong></dt> <dt>PicturePreferredFormat</dt> </dl></td>
+<td ><p>Contient le format préféré pour les images que ce minipilote transfère. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>CLSID</strong>, accès : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_PROP_STREAM_COMPAT_ID"></span><span id="wia_ipa_prop_stream_compat_id"></span><dl> <dt><strong>WIA_IPA_PROP_STREAM_COMPAT_ID</strong></dt> <dt>PicturePropStreamCompatId</dt> </dl></td>
-<td style="text-align: left;"><p>Spécifie un CLSID qui représente un ensemble de valeurs de propriétés de périphérique. Si un pilote de périphérique implémente cette fonctionnalité, les applications utilisent cette propriété pour déterminer si l’appareil prend en charge un ensemble de valeurs.</p>
+<td ><span id="WIA_IPA_PROP_STREAM_COMPAT_ID"></span><span id="wia_ipa_prop_stream_compat_id"></span><dl> <dt><strong>WIA_IPA_PROP_STREAM_COMPAT_ID</strong></dt> <dt>PicturePropStreamCompatId</dt> </dl></td>
+<td ><p>Spécifie un CLSID qui représente un ensemble de valeurs de propriétés de périphérique. Si un pilote de périphérique implémente cette fonctionnalité, les applications utilisent cette propriété pour déterminer si l’appareil prend en charge un ensemble de valeurs.</p>
 <p>Type : <strong>CLSID</strong>, accès : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>Le tableau suivant contient les 12 constantes qui sont valides avec cette propriété.</p>
 
@@ -841,19 +841,19 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_RAW_BITS_PER_CHANNEL"></span><span id="wia_ipa_raw_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_RAW_BITS_PER_CHANNEL</strong></dt> <dt>PictureRawBitsPerChannel</dt> </dl></td>
-<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_IPA_RAW_BITS_PER_CHANNEL"></span><span id="wia_ipa_raw_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_RAW_BITS_PER_CHANNEL</strong></dt> <dt>PictureRawBitsPerChannel</dt> </dl></td>
+<td ><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Contient le nombre de bits dans chaque canal. Cette propriété doit être signalée comme un vecteur de valeurs d’octets comme il y a de canaux, où le premier octet correspond au nombre de bits dans le premier canal, le deuxième octet au nombre de bits dans le deuxième canal, et ainsi de suite. Il doit y avoir autant d’entrées qu’il y a de canaux en fonction de WIA_IPA_CHANNELS_PER_PIXEL. Le pilote définit cette propriété lorsque l’application passe à WiaImgFmt_RAW. Pour les sous-types connus, il y a autant d’entrées que celles répertoriées dans le tableau sous WIA_IPA_RAW_SUBTYPE.</p>
 <p>Type : <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_REGION_TYPE"></span><span id="wia_ipa_region_type"></span><dl> <dt><strong>WIA_IPA_REGION_TYPE</strong></dt> <dt>PictureRegionType</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
+<td ><span id="WIA_IPA_REGION_TYPE"></span><span id="wia_ipa_region_type"></span><dl> <dt><strong>WIA_IPA_REGION_TYPE</strong></dt> <dt>PictureRegionType</dt> </dl></td>
+<td ><p>Cette propriété est réservée par pour une utilisation future et n’est pas implémentée pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_SUPPRESS_PROPERTY_PAGE"></span><span id="wia_ipa_suppress_property_page"></span><dl> <dt><strong>WIA_IPA_SUPPRESS_PROPERTY_PAGE</strong></dt> <dt>PictureSuppressPropertyPage</dt> </dl></td>
-<td style="text-align: left;"><p>Spécifie s’il faut supprimer les pages de propriétés générales des éléments sur l’appareil.</p>
+<td ><span id="WIA_IPA_SUPPRESS_PROPERTY_PAGE"></span><span id="wia_ipa_suppress_property_page"></span><dl> <dt><strong>WIA_IPA_SUPPRESS_PROPERTY_PAGE</strong></dt> <dt>PictureSuppressPropertyPage</dt> </dl></td>
+<td ><p>Spécifie s’il faut supprimer les pages de propriétés générales des éléments sur l’appareil.</p>
 <p>cette propriété est disponible sur Windows XP et versions ultérieures.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Le tableau suivant contient les constantes qui sont valides avec cette propriété. l’astérisque (*) indique que la constante n’est pas valide avec Windows Vista et versions ultérieures. (Disponible uniquement par le biais de l’interface <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> .)</p>
@@ -880,8 +880,8 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_TYMED"></span><span id="wia_ipa_tymed"></span><dl> <dt><strong>WIA_IPA_TYMED</strong></dt> <dt>PictureTymed</dt> </dl></td>
-<td style="text-align: left;"><p>Cette propriété contient le paramètre de méthode de transfert. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPA_TYMED"></span><span id="wia_ipa_tymed"></span><dl> <dt><strong>WIA_IPA_TYMED</strong></dt> <dt>PictureTymed</dt> </dl></td>
+<td ><p>Cette propriété contient le paramètre de méthode de transfert. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette propriété pour déterminer la méthode de transfert de données du minipilote.</p>
 <p>Obligatoire pour tous les éléments WIA 2,0 avec transfert.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
@@ -917,8 +917,8 @@ Lorsque cette propriété a la valeur WiaImgFmt_PDFA ou WiaImgFmt_XPS, et WIA_IP
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>PictureItemUploadItemSize</dt> </dl></td>
-<td style="text-align: left;"><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>PictureItemUploadItemSize</dt> </dl></td>
+<td ><p>pris en charge uniquement dans Windows Vista et versions ultérieures.</p>
 <p>Spécifie le nombre d’octets à télécharger pour un élément.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>

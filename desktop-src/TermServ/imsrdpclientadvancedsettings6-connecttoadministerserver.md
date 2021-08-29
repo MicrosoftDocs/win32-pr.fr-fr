@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings6 propriété ConnectToAdministerServer
-description: Récupère ou spécifie si le contrôle ActiveX doit tenter de se connecter au serveur à des fins d’administration.
+description: récupère ou spécifie si le contrôle de ActiveX doit tenter de se connecter au serveur à des fins d’administration.
 ms.assetid: b98f9b9b-a3e7-4a3c-a7e3-e388ce53c5c9
 ms.tgt_platform: multiple
 keywords:
@@ -29,16 +29,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9cad8d50e2e0a4c1ec18fbd33733dc394101a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0a1df4327a263f5bc77fa482e3f84bb971cd5fb047a7c2fed7c1092efdd4d06f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771669"
 ---
 # <a name="imsrdpclientadvancedsettings6connecttoadministerserver-property"></a>IMsRdpClientAdvancedSettings6 :: ConnectToAdministerServer, propriété
 
-Récupère ou spécifie si le contrôle ActiveX doit tenter de se connecter au serveur à des fins d’administration.
+récupère ou spécifie si le contrôle de ActiveX doit tenter de se connecter au serveur à des fins d’administration.
 
 Cette propriété est en lecture/écriture.
 
@@ -61,7 +61,7 @@ HRESULT get_ConnectToAdministerServer(
 
 **Variante \_ TRUE** pour obliger le contrôle ActiveX à tenter de se connecter au serveur à des fins d’administration. Sinon, **Variant \_ false**. La valeur par défaut **est \_ false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser **ConnectToAdministerServer**, vous devez exécuter le client Connexion Bureau À distance (RDC) version 6,1 ou ultérieure.
 
@@ -76,7 +76,7 @@ Pour utiliser **ConnectToAdministerServer**, vous devez exécuter le client Conn
 -   Désactive la redirection de fuseau horaire pour la session.
 -   Désactive Connexion Bureau à distance redirection du Service Broker pour les connexions Bureau à distance pour la session.
 -   Désactive Plug-and-Play redirection de périphérique pour la session.
--   Modifie le thème de session à distance en Windows Classic pour la session.
+-   modifie le thème de session à distance en Windows classique pour la session.
 
 ## <a name="requirements"></a>Configuration requise
 

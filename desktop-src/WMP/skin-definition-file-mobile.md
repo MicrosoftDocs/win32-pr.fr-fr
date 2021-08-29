@@ -3,19 +3,19 @@ title: Fichier de définition d’apparence (mobile)
 description: Fichier de définition d’apparence (mobile)
 ms.assetid: 76f5a17c-8126-4310-8cdf-72cdca98708b
 keywords:
-- Windows Media Player Mobile Skins, fichiers de définition d’apparence
+- Lecteur Windows Media Skins mobiles, fichiers de définition d’apparence
 - apparences, fichiers de définition d’apparence
 - fichiers pour les apparences, définition d’apparence
 - fichiers de définition d’apparence, à propos de
-- fichiers de définition d’apparence, Windows Media Player Mobile
+- fichiers de définition d’apparence, Lecteur Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f04fbf35483db3f10fe900982726952fa1ba1895
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 623f084e4ff445d6971ca0efbde8efa53eb1a250d792421ca898d8081a632695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507899"
 ---
 # <a name="skin-definition-file-mobile"></a>Fichier de définition d’apparence (mobile)
 
@@ -26,7 +26,7 @@ Les sections suivantes fournissent des détails sur la création du fichier de d
 -   [Création d’un fichier de définition d’apparence](creating-a-skin-definition-file.md)
 -   [Éditeurs de texte](text-editors.md)
 -   [Règles pour chaque ligne](rules-for-each-line.md)
--   [Éléments obligatoires](required-elements.md)
+-   [Éléments requis](required-elements.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

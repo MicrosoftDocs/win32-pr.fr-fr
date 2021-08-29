@@ -1,19 +1,19 @@
 ---
-description: Le codec XR JPEG natif est disponible via le composant WIC (Windows Imaging Component). Le format JPEG XR, que le codec prend en charge, est conçu pour la photographie numérique des consommateurs et des professionnels.
+description: le codec XR JPEG natif est disponible via le composant WIC (Windows Imaging Component). Le format JPEG XR, que le codec prend en charge, est conçu pour la photographie numérique des consommateurs et des professionnels.
 ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: Vue d’ensemble du codec XR JPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d39608535f9be09821d8db3615641a84fd95a6
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 5fb63bcc6764f01222bf9040d0dd727eb61a39f5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444461"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480745"
 ---
 # <a name="jpeg-xr-codec-overview"></a>Vue d’ensemble du codec XR JPEG
 
-Le codec XR JPEG natif est disponible via le composant WIC (Windows Imaging Component). Le format JPEG XR, que le codec prend en charge, est conçu pour la photographie numérique des consommateurs et des professionnels.
+le codec XR JPEG natif est disponible via le composant WIC (Windows Imaging Component). Le format JPEG XR, que le codec prend en charge, est conçu pour la photographie numérique des consommateurs et des professionnels.
 
 Le format JPEG XR peut atteindre jusqu’à deux fois l’efficacité de la compression du format JPEG d’origine, avec des artefacts de compression moins perceptibles. Les fonctionnalités des XR JPEG sont les suivantes :
 
@@ -29,7 +29,7 @@ Le format JPEG XR est défini dans les documents standard suivants :
 -   ITU-T T. 832 : *Information Technology – système de codage d’images JPEG XR-spécification de codage d’image*
 -   ISO/IEC 29199-2:2010 : *technologies de l’information : système de codage d’image XR JPEG, partie 2 : spécification de codage d’image*
 
-La norme JPEG XR est en grande partie basée sur le format de [photo HD](hdphoto-format-overview.md) , mais il existe des différences entre les deux formats. Dans Windows 8, le codec de photo HD a été mis à jour pour prendre en charge les XR JPEG. Désormais, l’encodeur génère toujours un flux de bits conforme XR JPEG. Le décodeur peut décoder des images JPEG XR et HD.
+La norme JPEG XR est en grande partie basée sur le format de [photo HD](hdphoto-format-overview.md) , mais il existe des différences entre les deux formats. dans Windows 8, le codec de Photo HD a été mis à jour pour prendre en charge les XR JPEG. Désormais, l’encodeur génère toujours un flux de bits conforme XR JPEG. Le décodeur peut décoder des images JPEG XR et HD.
 
 Des améliorations significatives des performances, par rapport au codec photo HD, ont été apportées au codec XR JPEG. Par exemple, le décodage d’image de sous-résolution, tel que la génération de miniatures, a été amélioré, ainsi que le décodage d’image de faible résolution. Nous vous recommandons d’utiliser le format JPEG XR au lieu du format HD photo.
 
@@ -75,7 +75,7 @@ Il est possible, et autorisé par la norme, d’incorporer le flux d’image à 
 
 Pour activer le mode de diffusion en continu uniquement, définissez la propriété **StreamOnly** .
 
-### <a name="image-quality-settings"></a>Paramètres de qualité de l’image
+### <a name="image-quality-settings"></a>qualité de l’Image Paramètres
 
 Plusieurs propriétés de codec contrôlent la qualité de l’image de sortie à partir de l’encodeur.
 
@@ -141,7 +141,7 @@ Définit la quantité de données de fréquence alpha à ignorer pendant un tran
 
 
 
-| Type de données | VARTYPE     | Plage | Default |
+| Type de données | VARTYPE     | Plage | Par défaut |
 |-----------|-------------|-------|---------|
 | **UCHAR** | **\_UI1 VT** | 0 – 4   | Aucun    |
 
@@ -155,7 +155,7 @@ Pour les images qui contiennent un canal alpha planaire, les valeurs suivantes s
 
 
 
-| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 1     | Les flexbits sont ignorés. Cela réduit arbitrairement la qualité du canal alpha planaire pour l’image transcodée. , sans modification de la résolution effective. La réduction exacte de la taille et de la qualité des fichiers dépend de nombreux facteurs et ne peut pas être spécifiée exactement.                                                                                                                                                                                           |
@@ -171,7 +171,7 @@ Pour les images qui contiennent un canal alpha entrelacé, la valeur suivante es
 
 
 
-| Value | Description                                                                                                                                 |
+| Valeur | Description                                                                                                                                 |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | 4     | Le canal alpha est complètement ignoré. Le format de pixel de l’image transcodée est modifié pour refléter la suppression du canal alpha. |
 
@@ -187,7 +187,7 @@ Définit la qualité de compression pour l’image de canal alpha planaire.
 
 
 
-| Type de données | VARTYPE     | Plage | Default |
+| Type de données | VARTYPE     | Plage | Par défaut |
 |-----------|-------------|-------|---------|
 | **UCHAR** | **\_UI1 VT** | 1 – 255 | 1       |
 
@@ -203,7 +203,7 @@ Spécifie si l’image est pivotée ou retournée quand elle est décodée.
 
 
 
-| Type de données | VARTYPE     | Plage                                                                     | Default                       |
+| Type de données | VARTYPE     | Plage                                                                     | Par défaut                       |
 |-----------|-------------|---------------------------------------------------------------------------|-------------------------------|
 | **UCHAR** | **\_UI1 VT** | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) | **WICBitmapTransformRotate0** |
 
@@ -217,7 +217,7 @@ Active ou désactive le transcodage du domaine compressé.
 
 
 
-| Type de données         | VARTYPE      | Default           |
+| Type de données         | VARTYPE      | Par défaut           |
 |-------------------|--------------|-------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ true** |
 
@@ -233,7 +233,7 @@ Active l’encodage dans l’ordre des fréquences. Les implémentations d’app
 
 
 
-| Type de données         | VARTYPE      | Default           |
+| Type de données         | VARTYPE      | Par défaut           |
 |-------------------|--------------|-------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ true** |
 
@@ -252,7 +252,7 @@ Définit le nombre de mosaïques horizontales.
 
 
 
-| Type de données  | VARTYPE     | Plage  | Default                      |
+| Type de données  | VARTYPE     | Plage  | Par défaut                      |
 |------------|-------------|--------|------------------------------|
 | **USHORT** | **\_UI2 VT** | de 0 à 4 095 | (largeur d’image – 1)  >> 8 |
 
@@ -268,7 +268,7 @@ Spécifie comment l’encodeur gère les limites des vignettes pendant un transc
 
 
 
-| Type de données         | VARTYPE      | Default            |
+| Type de données         | VARTYPE      | Par défaut            |
 |-------------------|--------------|--------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ false** |
 
@@ -286,7 +286,7 @@ Définit la quantité de données de fréquence d’image à ignorer pendant un 
 
 
 
-| Type de données | VARTYPE     | Plage | Default |
+| Type de données | VARTYPE     | Plage | Par défaut |
 |-----------|-------------|-------|---------|
 | **UCHAR** | **\_UI1 VT** | 0 – 3   | 0       |
 
@@ -298,7 +298,7 @@ Cette propriété s’applique uniquement si la propriété [CompressedDomainTra
 
 
 
-| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                             |
 | 1     | Les flexbits sont ignorés. Cela réduit arbitrairement la qualité de l’image transcodée sans modifier la résolution effective de l’image. La réduction exacte de la taille et de la qualité des fichiers dépend de nombreux facteurs et ne peut pas être spécifiée exactement. Cette valeur retourne une erreur spécifiée pour un canal alpha entrelacé.                                                                                |
@@ -319,7 +319,7 @@ Définit la qualité de l’image.
 
 
 
-| Type de données | VARTYPE    | Plage | Default |
+| Type de données | VARTYPE    | Plage | Par défaut |
 |-----------|------------|-------|---------|
 | **FLOAT** | **VT \_ R4** | 0 – 1.0 | 0.9     |
 
@@ -337,7 +337,7 @@ Spécifie s’il faut encoder l’alpha entrelacé ou le plan alpha entrelacé.
 
 
 
-| Type de données         | VARTYPE      | Default            |
+| Type de données         | VARTYPE      | Par défaut            |
 |-------------------|--------------|--------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ false** |
 
@@ -356,7 +356,7 @@ Active la compression des pertes.
 
 
 
-| Type de données         | VARTYPE      | Default        |
+| Type de données         | VARTYPE      | Par défaut        |
 |-------------------|--------------|----------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | VARIANTE \_ false |
 
@@ -372,7 +372,7 @@ Définit le niveau de filtrage de chevauchement. Avec le filtrage de chevaucheme
 
 
 
-| Type de données | VARTYPE     | Plage | Default |
+| Type de données | VARTYPE     | Plage | Par défaut |
 |-----------|-------------|-------|---------|
 | **UCHAR** | **\_UI1 VT** | 0 – 4   | 1       |
 
@@ -382,7 +382,7 @@ Définit le niveau de filtrage de chevauchement. Avec le filtrage de chevaucheme
 
 
 
-| Value | Description                                   |
+| Valeur | Description                                   |
 |-------|-----------------------------------------------|
 | 0     | Aucun chevauchement.                                   |
 | 1     | Un niveau de chevauchement, une mosaïque floue. (valeur par défaut). |
@@ -409,7 +409,7 @@ Active ou désactive l’encodage progressif.
 
 
 
-| Type de données         | VARTYPE      | Default            |
+| Type de données         | VARTYPE      | Par défaut            |
 |-------------------|--------------|--------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ false** |
 
@@ -419,7 +419,7 @@ Active ou désactive l’encodage progressif.
 
 
 
-| Value              | Description                |
+| Valeur              | Description                |
 |--------------------|----------------------------|
 | **VARIANTE \_ true**  | Mode séquentiel (par défaut). |
 | **VARIANTE \_ false** | Mode progressive.          |
@@ -434,7 +434,7 @@ Définit la qualité de compression.
 
 
 
-| Type de données | VARTYPE     | Plage | Default |
+| Type de données | VARTYPE     | Plage | Par défaut |
 |-----------|-------------|-------|---------|
 | **UCHAR** | **\_UI1 VT** | 1 – 255 | 1       |
 
@@ -452,7 +452,7 @@ Active ou désactive le mode de diffusion en continu uniquement.
 
 
 
-| Type de données         | VARTYPE      | Default            |
+| Type de données         | VARTYPE      | Par défaut            |
 |-------------------|--------------|--------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ false** |
 
@@ -462,7 +462,7 @@ Active ou désactive le mode de diffusion en continu uniquement.
 
 
 
-| Value              | Description                                                            |
+| Valeur              | Description                                                            |
 |--------------------|------------------------------------------------------------------------|
 | **VARIANTE \_ true**  | L’encodeur génère le flux d’images brutes sans métadonnées.             |
 | **VARIANTE \_ false** | L’encodeur génère le format de conteneur (flux d’image et métadonnées). |
@@ -477,7 +477,7 @@ Définit le sous-échantillonnage de chrominance. Cette propriété s’applique
 
 
 
-| Type de données | VARTYPE     | Plage | Default                                                  |
+| Type de données | VARTYPE     | Plage | Par défaut                                                  |
 |-----------|-------------|-------|----------------------------------------------------------|
 | **UCHAR** | **\_UI1 VT** | 0 – 3   | 3 Si [ImageQuality](#imagequality) > 0,8 ; sinon 1 |
 
@@ -487,41 +487,14 @@ Définit le sous-échantillonnage de chrominance. Cette propriété s’applique
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>3</td>
-<td>encodage 4:4:4. Préserve la résolution complète de Chroma.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>encodage 4:2:2. La résolution Chroma est 1/2 de la résolution de luminance.</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>encodage 4:2:0. La résolution Chroma est 1/4 de la résolution de luminance.</td>
-</tr>
-<tr class="even">
-<td>0</td>
-<td>Encodage 4:0:0. Ignore toutes les valeurs de chrominance et conserve uniquement la luminance.
-<blockquote>
-[!Note]<br />
-Ce mode n’est pas recommandé, car le codec utilise une définition de luminance légèrement modifiée pour améliorer les performances. Au lieu de cela, il est préférable de convertir l’image en monochrome avant l’encodage.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | 
+|-------|-------------|
+| 3 | encodage 4:4:4. Préserve la résolution complète de Chroma. | 
+| 2 | encodage 4:2:2. La résolution Chroma est 1/2 de la résolution de luminance. | 
+| 1 | encodage 4:2:0. La résolution Chroma est 1/4 de la résolution de luminance. | 
+| 0 | Encodage 4:0:0. Ignore toutes les valeurs de chrominance et conserve uniquement la luminance.<blockquote>[!Note]<br />Ce mode n’est pas recommandé, car le codec utilise une définition de luminance légèrement modifiée pour améliorer les performances. Au lieu de cela, il est préférable de convertir l’image en monochrome avant l’encodage.</blockquote><br /> | 
+
 
 
 
@@ -537,7 +510,7 @@ Spécifie s’il faut utiliser les propriétés [Quality](#image-quality-setting
 
 
 
-| Type de données         | VARTYPE      | Default            |
+| Type de données         | VARTYPE      | Par défaut            |
 |-------------------|--------------|--------------------|
 | **VARIANT \_ booléen** | **VT \_ bool** | **VARIANTE \_ false** |
 
@@ -551,7 +524,7 @@ Définit le nombre de mosaïques horizontales.
 
 
 
-| Type de données  | VARTYPE     | Plage  | Default                       |
+| Type de données  | VARTYPE     | Plage  | Par défaut                       |
 |------------|-------------|--------|-------------------------------|
 | **USHORT** | **\_UI2 VT** | de 0 à 4 095 | (hauteur d’image – 1)  >> 8 |
 

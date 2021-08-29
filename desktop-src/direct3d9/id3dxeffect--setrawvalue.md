@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: cc3ce5eb547032ced5d0d79c533cefd1d2daab3a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 10ba7dd5729d67fdd34180d737e835e0a22dc10de2126df3c8b07c2176a78fe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106543768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494049"
 ---
 # <a name="id3dxeffectsetrawvalue-method"></a>ID3DXEffect :: SetRawValue, méthode
 
@@ -85,7 +85,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : E \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 SetRawValue est un moyen très rapide de définir des constantes d’effet, car il effectue une copie de mémoire sans effectuer de validation ou de conversion de données (comme la conversion d’une matrice de lignes principales en colonne-matrice principale). Utilisez SetRawValue pour définir une série de constantes à effet contigu. Par exemple, vous pouvez définir un tableau de vingt matrices avec 20 appels à [**ID3DXBaseEffect :: SetMatrix**](id3dxbaseeffect--setmatrix.md) ou à l’aide d’un SetRawValue unique.
 

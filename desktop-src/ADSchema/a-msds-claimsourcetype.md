@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 034538eafbfaaf350b83b00d6b14d2da5935bbbb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d7bf9210d769cacaf16b179d629a8ced8f644c7100af53e7924827ac364619a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119296459"
 ---
 # <a name="ms-ds-claim-source-type-attribute"></a>attribut ms-DS-claim-source-type
 

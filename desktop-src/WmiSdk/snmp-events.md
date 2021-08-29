@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Événements SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 925ce6bb5eca0a3c067470255296ba6c9f66c0183b2b74aa6cfa4a25824446d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8efec74902039b9e196844e9d7fadbda01cd6036
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118816645"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625345"
 ---
 # <a name="snmp-events"></a>Événements SNMP
 
@@ -35,8 +35,8 @@ Un certain nombre de clés de Registre et de valeurs définissent le niveau et l
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,7 +58,7 @@ Un certain nombre de clés de Registre et de valeurs définissent le niveau et l
 <td><strong>REG_SZ</strong><br/> Définit le nom du fichier dans lequel la sortie de débogage est envoyée lorsque le type de journalisation est défini sur « file ». La valeur par défaut est' <WBEMLOGS> \wbemsnmp.log. ' Si le <WBEMLOGS> Répertoire ne peut pas être déterminé à partir de la section du Registre WMI, la valeur par défaut est « c:\wbemsnmp.log ». Si un partage est utilisé, tel que \\ machine\share\wbemsnmp.log ou M:\wbemsnmp.log où M : est \\ machine\share, le compte système local sur lequel WMI s’exécute doit disposer de droits d’accès en lecture/écriture au \\ machine\share.<br/></td>
 </tr>
 <tr class="even">
-<td>Niveau</td>
+<td>Level</td>
 <td><strong>REG_DWORD</strong><br/> Prend des valeurs entières comprises entre 0 et 2 ^ 32-1. La valeur est un masque logique constitué de 32 bits. Les masques de bits suivants sont combinés pour définir le type de sortie de débogage générée :<br/>
 <ul>
 <li>0 : fournisseur de classes SNMP appels de méthode <a href="/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices"><strong>IWbemServices</strong></a></li>

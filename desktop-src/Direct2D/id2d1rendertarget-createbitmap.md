@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 4576b9111d9180b395527bad8b06ee3f9a8eef2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ceac5f0245c1a724518cd0fd0df375a92e4a6b7eb4408551195e82770d86c148
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586999"
 ---
 # <a name="id2d1rendertargetcreatebitmap-methods"></a>ID2D1RenderTarget :: CreateBitmap, méthodes
 

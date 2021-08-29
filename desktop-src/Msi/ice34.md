@@ -4,12 +4,12 @@ ms.assetid: 23a88a5a-89e9-47bc-9c0a-6101ce03123c
 title: ICE34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7723cb530397eae66374b0f218db9ad8505195a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0952bbdc63c8cbfed6cb92a0e650d88cb61968282eec683b0df5685d5292b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528599"
 ---
 # <a name="ice34"></a>ICE34
 
@@ -19,11 +19,11 @@ Un groupe de cases d’option doit avoir une valeur par défaut pour que les uti
 
 ICE34 signale les tables manquantes.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE34 publiez un message d’erreur s’il existe une case d’option qui spécifie une propriété non valide.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE34 signale les erreurs suivantes pour l’exemple indiqué.
 

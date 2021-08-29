@@ -4,21 +4,21 @@ description: Structure de base d’un plug-in d’adaptateur de capteur impléme
 ms.assetid: 4e78f0c2-177c-4e69-8bb6-c548a6f1ac46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9316137bd42ada330fdbc845591ac2ecfd522342
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a6ab84a32f69bfcef418ae8b5fa70bd8b9d093d4b76691e8b074088da99917b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993819"
 ---
 # <a name="creating-a-sensor-adapter"></a>Création d’un adaptateur de capteur
 
 L’exemple de code suivant montre la structure de base d’un plug-in d’adaptateur de capteur implémenté en tant que bibliothèque de liens dynamiques (DLL) C++. Pour voir les implémentations de pseudocode de chaque fonction publique dans la DLL, accédez à fonctions de l' [adaptateur de capteur](sensor-adapter-functions.md). Si vous choisissez de ne pas fournir de fonctionnalités pour une fonction particulière, vous devez définir un stub pour celle-ci et retourner E \_ NOTIMPL.
 
 > [!Note]  
-> Vous pouvez créer des adaptateurs de capteur pour l’identification par Iris. Pour les empreintes digitales, utilisez la solution capteur de boîte de réception, disponible pour les utilisateurs finaux dans paramètres. Les personnalisations ne sont pas disponibles pour l’adaptateur du capteur d’empreintes digitales.
+> Vous pouvez créer des adaptateurs de capteur pour l’identification par Iris. pour les empreintes digitales, utilisez la solution de capteur de boîte de réception, disponible pour les utilisateurs finaux dans Paramètres. Les personnalisations ne sont pas disponibles pour l’adaptateur du capteur d’empreintes digitales.
 
- 
+ 
 
 ``` syntax
 C++
@@ -613,9 +613,9 @@ SensorAdapterControlUnitPrivileged(
 [Création de plug-ins d’adaptateur](creating-adapter-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 7977e59b-7ce1-4bb4-aae4-d67b7d646493
 title: CSP et le processus de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f5404fc3641a9a2c753158f5acb84850f3f0f29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfc1813f5f4bff96470c23ff8e777ef15458bddf7773663b4d16d9618e371a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100929"
 ---
 # <a name="csps-and-the-cryptography-process"></a>CSP et le processus de chiffrement
 
-Les fonctions [*CryptoAPI*](../secgloss/c-gly.md) utilisent des [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) pour effectuer le chiffrement et le déchiffrement, et pour fournir un stockage et une sécurité de clés. Ces fournisseurs de services de chiffrement sont des modules indépendants. Dans l’idéal, les fournisseurs de services de chiffrement sont écrits pour être indépendants d’une application particulière, de sorte que toute application s’exécute avec un grand nombre de fournisseurs de services de chiffrement. En réalité, cependant, certaines applications ont des exigences spécifiques qui requièrent un CSP personnalisé. Cela est comparé au modèle [*GDI*](../secgloss/g-gly.md) Windows. Les fournisseurs de services de chiffrement sont analogues aux pilotes de périphériques graphiques.
+Les fonctions [*CryptoAPI*](../secgloss/c-gly.md) utilisent des [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) pour effectuer le chiffrement et le déchiffrement, et pour fournir un stockage et une sécurité de clés. Ces fournisseurs de services de chiffrement sont des modules indépendants. Dans l’idéal, les fournisseurs de services de chiffrement sont écrits pour être indépendants d’une application particulière, de sorte que toute application s’exécute avec un grand nombre de fournisseurs de services de chiffrement. En réalité, cependant, certaines applications ont des exigences spécifiques qui requièrent un CSP personnalisé. cela est comparé au modèle [*GDI*](../secgloss/g-gly.md) Windows. Les fournisseurs de services de chiffrement sont analogues aux pilotes de périphériques graphiques.
 
 La qualité de protection des clés dans le système est un paramètre de conception du CSP et non du système dans son ensemble. Cela permet à une application de s’exécuter dans divers contextes de sécurité sans modification.
 

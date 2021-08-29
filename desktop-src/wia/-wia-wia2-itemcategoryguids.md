@@ -1,5 +1,5 @@
 ---
-description: Les éléments WIA (Windows Image Acquisition) 2,0 sont regroupés en catégories qui définissent la façon dont un IWiaItem2 doit être traité ou utilisé.
+description: Windows Image acquisition (WIA) 2,0 les éléments sont regroupés en catégories qui définissent la façon dont un IWiaItem2 doit être traité ou utilisé.
 ms.assetid: 927f4957-aedf-4eef-8892-91cf9b56e1a2
 title: GUID de catégorie d’élément WIA 2,0 (Wiadef. h)
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: e2785d7d82e28641ebeefad730f02b3561a537a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3100a4198af94857f6c22212576a446e84bad7439395f13099daa37832bc5ff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812829"
 ---
 # <a name="wia-20-item-category-guids"></a>GUID de catégorie d’élément WIA 2,0
 
-Les éléments WIA (Windows Image Acquisition) 2,0 sont regroupés en catégories qui définissent la façon dont un [**IWiaItem2**](-wia-iwiaitem2.md) doit être traité ou utilisé. Par exemple, si l’élément représente un flux, l’application doit s’attendre à ce qu’il contienne les propriétés du chargeur de documents requis et fonctionne comme un chargeur de documents. Si l’élément représente un fichier fini, une application WIA 2,0 doit la traiter ainsi, en supposant que les données sont statiques et situées sur l’appareil. (Les règles pour chaque élément sont définies dans leurs documents de spécification individuels.) Chaque catégorie a une constante de type GUID.
+Windows Image acquisition (WIA) 2,0 les éléments sont regroupés en catégories qui définissent la façon dont un [**IWiaItem2**](-wia-iwiaitem2.md) doit être traité ou utilisé. Par exemple, si l’élément représente un flux, l’application doit s’attendre à ce qu’il contienne les propriétés du chargeur de documents requis et fonctionne comme un chargeur de documents. Si l’élément représente un fichier fini, une application WIA 2,0 doit la traiter ainsi, en supposant que les données sont statiques et situées sur l’appareil. (Les règles pour chaque élément sont définies dans leurs documents de spécification individuels.) Chaque catégorie a une constante de type GUID.
 
 
 
@@ -54,8 +54,8 @@ Les éléments WIA (Windows Image Acquisition) 2,0 sont regroupés en catégorie
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 

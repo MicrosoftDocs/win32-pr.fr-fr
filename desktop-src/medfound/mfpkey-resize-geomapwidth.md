@@ -4,12 +4,12 @@ ms.assetid: 90b37ccf-7530-47bd-9b8e-721022616e45
 title: MFPKEY_RESIZE_GEOMAPWIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d07c0a6437378717bc62e42387b48c6a300b946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8907b36b887ac0c4f9a42fc7b81bdaa829ee76944dd9d1ba3252d327289dd14e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113269"
 ---
 # <a name="mfpkey_resize_geomapwidth-property"></a>MFPKEY \_ REdimensionner la \_ propriété GEOMAPWIDTH
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

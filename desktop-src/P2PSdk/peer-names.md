@@ -4,12 +4,12 @@ ms.assetid: b0d78b17-6f48-4294-b8a2-8fcc1a7f8ef1
 title: Noms de pairs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b18774939d5e0e9bad208999fbc6ca1e5f624300
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b3587cb27a0d47ebedb60e7987b035a0486e0b67e46fad12fe4673e490268be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775859"
 ---
 # <a name="peer-names"></a>Noms de pairs
 

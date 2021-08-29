@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d268867be9e859387d6f074afb9f5c8e27a2e20
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1918e797216e72e756017610d313bc45e67dab15eb67a129c916dd1d0b38fc24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761389"
 ---
 # <a name="msrassavedframedroute-attribute"></a>attribut msRASSavedFramedRoute
 
@@ -44,7 +44,7 @@ L’attribut **msRASSavedFramedRoute** est utilisé en interne. Ne modifiez pas 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

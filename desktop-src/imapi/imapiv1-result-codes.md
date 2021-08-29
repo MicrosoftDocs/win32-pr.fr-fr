@@ -48,12 +48,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80e8aba2a2d3d12628a45c6716c6f94a405d752f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8956c3975ebc57d069fd0b03ebae9b2ac4c3b720e216d8c132677afc1a7b3793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611809"
 ---
 # <a name="imapiv1-result-codes"></a>Codes de résultat IMAPIv1
 
@@ -109,8 +109,8 @@ Les méthodes des interfaces IMAPi retournent S \_ OK si la méthode a réussi. 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Imapierror. h</dt> </dl> |
 
 

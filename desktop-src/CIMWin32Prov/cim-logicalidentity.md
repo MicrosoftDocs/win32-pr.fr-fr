@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52780144a48cbb424ee037f71a56e238bb864311
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b390e0aab0a95ce7eccd7f819fd1f1bd24940760802e342f189f06fde57a8af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923009"
 ---
 # <a name="cim_logicalidentity-class-cimwin32-wmi-providers"></a>CIM_LogicalIdentity, classe (fournisseurs WMI CIMWin32)
 
@@ -84,7 +84,7 @@ Référence à un aspect de l’élément logique.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de **CIM \_ LogicalIdentity**, consultez [classes Win32](win32-provider.md).
 

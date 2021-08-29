@@ -4,12 +4,12 @@ description: Décrit comment utiliser des géométries Direct2D pour représente
 ms.assetid: aaf16fa7-23fd-4020-ae4c-b7832040732d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bd8ee9e0c33a9d9dc79af33db713541f34dbf0e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e987f49b352809d72debd52aeb2678c305fdfbff9698ed670e539561928b08e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260109"
 ---
 # <a name="geometries"></a>Géométries
 

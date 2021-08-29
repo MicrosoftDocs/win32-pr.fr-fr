@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7eb7b429e58773ae02624ed9a5b8ffd954103722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eed23fdacc4b49226fc6fd24704ce538ca40868a4af951af0f9ab50b1994e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969939"
 ---
 # <a name="esentslvspacewriteconflictexception-constructor"></a>Constructeur EsentSLVSpaceWriteConflictException
 

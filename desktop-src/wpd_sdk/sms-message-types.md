@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: a2e1ccfd074ff1f5287af22c5a8ebb3c6b3c661d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5b4ba0504f5407a49c04f84dd2ea3e152ee4de7bd78948a69046f257437eb75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006219"
 ---
 # <a name="sms_message_types-enumeration"></a>\_Énumération des types de messages SMS \_
 
@@ -54,7 +54,7 @@ Message binaire.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la commande [**wpd \_ \_ SMS \_ Send**](wpd-command-sms-send-command.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 7fe1b52d-4b06-48cd-afe5-2bd5495bb55e
 title: Table DuplicateFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 766f28b7984aedfc682a2bf23378d46ee0519c65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ade1be4296e800bdf0c92e004aa359c1e27d41ddd83283f4e414c4b68b2b5b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692609"
 ---
 # <a name="duplicatefile-table"></a>Table DuplicateFile
 
@@ -22,7 +22,7 @@ La table DuplicateFile contient les colonnes suivantes.
 | Colonne      | Type                         | Clé | Nullable |
 |-------------|------------------------------|-----|----------|
 | FileKey     | [Identificateur](identifier.md) | O   | N        |
-| -\_ | [Identificateur](identifier.md) | N   | N        |
+| Composant\_ | [Identificateur](identifier.md) | N   | N        |
 | fichier\_      | [Identificateur](identifier.md) | N   | N        |
 | DestName    | [Nom du fichier](filename.md)     | N   | O        |
 | DestFolder  | [Identificateur](identifier.md) | N   | O        |
@@ -70,7 +70,7 @@ Nom d’une propriété qui est le chemin d’accès complet à l’emplacement 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La table est traitée par l' [action DuplicateFiles](duplicatefiles-action.md) et l' [action RemoveDuplicateFiles](removeduplicatefiles-action.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 9196F8AF-3C48-445D-B2D5-E22A99759D92
 title: RIO_CQ (Mswsockdef.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69ca4376c5b130cccaefd7170f62878f31fd1457
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e86aac301dbf9bc9432b3f6a686e69e521be017d0ab775ba9f7deb3bc1a4b29a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121219"
 ---
 # <a name="rio_cq"></a>RIO \_ CQ
 
@@ -31,7 +31,7 @@ Type de données qui spécifie un descripteur de file d’attente d’achèvemen
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **Rio \_ CQ** est utilisé pour la notification d’achèvement d’e/s des demandes d’envoi et de réception de réseau par les extensions d’e/s inscrites par Winsock.
 
@@ -66,8 +66,8 @@ Si plusieurs threads tentent d’accéder au même **Rio \_ CQ** à l’aide de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                        |
 | En-tête<br/>                   | <dl> <dt>Mswsockdef. h (inclure mswsock. h)</dt> </dl> |
 
 

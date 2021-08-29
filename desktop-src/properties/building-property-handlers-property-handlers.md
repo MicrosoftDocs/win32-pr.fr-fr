@@ -4,12 +4,12 @@ ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initialisation des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4482af2a029a91049d421ee49eb0f439c5fd8d0e
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: c54c7a1a5e28c5a66e28f8b2470c8f1643678af2a15025a925a5ed5e89336c6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353529"
 ---
 # <a name="initializing-property-handlers"></a>Initialisation des gestionnaires de propriétés
 

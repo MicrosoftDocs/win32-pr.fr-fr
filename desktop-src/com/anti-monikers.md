@@ -4,12 +4,12 @@ description: OLE fournit une implémentation d’un type spécial de moniker app
 ms.assetid: 3b52d3bd-8375-4463-a0e3-5117fa96a1c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66d69c461268b486a040b36f59108bc8e8379656
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 57a0fb6183ff29a223ccf3a51f6f7e10a0a5c7670952354f7c917655e40d16d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071189"
 ---
 # <a name="anti-monikers"></a>Anti-monikers
 
@@ -40,9 +40,9 @@ Un anti-moniker est uniquement un inverse pour les types de monikers implément�
 [Monikers de pointeur](pointer-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

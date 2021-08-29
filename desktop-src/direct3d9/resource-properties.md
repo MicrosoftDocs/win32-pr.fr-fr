@@ -4,12 +4,12 @@ ms.assetid: 6ef6ce68-44fa-4964-8b61-2a37382eda1c
 title: Propriétés de ressource (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e7b53a23e489b5f53495c5d2626da1e2633c9cf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9876b4d3befd48af917d6c11c71d5c8bbc7b0098f48b7c66ac28fb30bdbdb943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026119"
 ---
 # <a name="resource-properties-direct3d-9"></a>Propriétés de ressource (Direct3D 9)
 

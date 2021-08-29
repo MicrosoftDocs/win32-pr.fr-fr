@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e808eaabb820f313d4781c542e3d5ce1b592ec58
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6aebe90c82b120de8ffa38dd2c212f717b3d0bcb38cc3864c1c4710cbfee7ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803899"
 ---
 # <a name="ms-ds-operations-for-az-role-bl-attribute"></a>ms-DS-Operations-for-AZ-Role-BL (attribut)
 
@@ -44,7 +44,7 @@ Lien vers l’arrière à partir de Az-Operation vers Az-Role objets qui y sont 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

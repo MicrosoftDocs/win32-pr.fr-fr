@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 163a7c3b679c979e5c800d2aa41ba2abb00e11f4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7d2a5db54a78dd393d9d9507860e68fb8f9f405d76930b730798454c521c20ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081639"
 ---
 # <a name="gldisableclientstate-function"></a>glDisableClientState fonction)
 
@@ -72,13 +72,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                             | Signification                                       |
+| Name                                                                                             | Signification                                       |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl> | le *tableau* n’est pas une valeur acceptée.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions [**glEnableClientState**](glenableclientstate.md) et **glDisableClientState** activent et désactivent différents tableaux individuels. Utilisez [**glIsEnabled**](glisenabled.md) ou [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) pour déterminer la valeur actuelle de toutes les fonctionnalités.
 

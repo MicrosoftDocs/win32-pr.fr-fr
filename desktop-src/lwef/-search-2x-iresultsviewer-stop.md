@@ -3,9 +3,9 @@ title: IResultsViewer Stop, méthode
 description: IResultsViewer Stop, méthode
 ms.assetid: 09ee3f4d-6064-4a30-b4a5-bfd596378055
 keywords:
-- Méthode Stop fonctionnalités d’environnement Windows héritées
-- Méthode Stop fonctionnalités d’environnement Windows héritées, interface IResultsViewer
-- Interface IResultsViewer fonctionnalités d’environnement Windows héritées, méthode Stop
+- méthode Stop Windows fonctionnalités d’environnement héritées
+- méthode Stop Windows fonctionnalités d’environnement héritées, interface IResultsViewer
+- fonctionnalités d’environnement Windows héritées de l’interface IResultsViewer, méthode Stop
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,20 +13,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a7134afe85f2942755da8862fc2fe0f1e1bc2e19
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0387bbe092a66a4e7f28a97a2c6c5f485b4716339e96dedbdd531dabaa1e2cc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451108"
 ---
 # <a name="iresultsviewerstop-method"></a>IResultsViewer :: Stop, méthode
 
 Cette méthode n’est pas implémentée.
 
- 
+ 
 
- 
+ 
 
 
 

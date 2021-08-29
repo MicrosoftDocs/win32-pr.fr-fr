@@ -1,6 +1,6 @@
 ---
 title: Guide de la documentation
-description: La documentation définie pour OpenGL dans Windows comprend cinq éléments.
+description: la documentation définie pour OpenGL dans Windows comprend cinq éléments.
 ms.assetid: 1672e9a3-10f0-4ae4-a6a3-b482a3bdda10
 keywords:
 - OpenGL sur Windows, documentation
@@ -8,16 +8,16 @@ keywords:
 - Guide de programmation OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc27d11b8d829efebf0914dbb1d67c872cf0196d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4bfd95840984de45f3d2a7191301e12d77376215fe34a9e8715e19fa58fcf5d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035199"
 ---
 # <a name="guide-to-documentation"></a>Guide de la documentation
 
-La documentation définie pour OpenGL dans Windows comprend cinq éléments.
+la documentation définie pour OpenGL dans Windows comprend cinq éléments.
 
 -   Le *Manuel de référence OpenGL* offre une vue d’ensemble du fonctionnement d’OpenGL et un ensemble de pages de référence détaillées. Les pages de référence couvrent toutes les 115 fonctions OpenGL distinctes, ainsi que les fonctions 43 dans la bibliothèque de l’utilitaire OpenGL (GLU).
 
@@ -38,17 +38,17 @@ La documentation définie pour OpenGL dans Windows comprend cinq éléments.
 
     En outre, le *Guide de programmation OpenGL* contient des annexes qui décrivent la bibliothèque de l’utilitaire OpenGL et la bibliothèque auxiliaire du Guide de programmation OpenGL.
 
--   Le troisième élément de documentation est cette vue d’ensemble. Il décrit l’implémentation Windows de OpenGL et fournit une vue d’ensemble de ses composants. Il aborde les concepts de contextes de rendu, les formats de pixel et les mémoires tampons. les fonctions WGL qui connectent OpenGL aux systèmes de fenêtrage Windows ; et les fonctions Windows qui prennent en charge les formats de pixel par fenêtre et la double mise en mémoire tampon de Windows pour les fenêtres graphiques OpenGL. Les fonctions WGL et les fonctions sont spécifiques à l’implémentation Windows d’OpenGL.
+-   Le troisième élément de documentation est cette vue d’ensemble. il décrit l’implémentation de Windows de OpenGL et fournit une vue d’ensemble de ses composants. Il aborde les concepts de contextes de rendu, les formats de pixel et les mémoires tampons. les fonctions WGL qui connectent OpenGL aux systèmes de fenêtrage Windows ; et les fonctions Windows qui prennent en charge les formats de pixels par fenêtre et la double mise en mémoire tampon de windows pour les fenêtres graphiques OpenGL. les fonctions WGL et les fonctions sont spécifiques à l’implémentation Windows de OpenGL.
 
--   Le quatrième élément de documentation est l’ensemble de pages de référence pour les fonctions WGL, les fonctions Windows mentionnées précédemment et la structure de données [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) .
+-   le quatrième élément de documentation est l’ensemble de pages de référence pour les fonctions WGL, les fonctions Windows mentionnées précédemment et la structure de données [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) .
 
--   Le cinquième élément de documentation est le Guide de Portage. Il aborde le déplacement du code OpenGL existant depuis d’autres environnements vers Windows.
+-   Le cinquième élément de documentation est le Guide de Portage. Il aborde le déplacement du code OpenGL existant à partir d’autres environnements vers Windows.
 
 Les deux premiers éléments sont les livres OpenGL officiels. ils ne sont pas inclus dans le Microsoft Windows SDK.
 
- 
+ 
 
- 
+ 
 
 
 

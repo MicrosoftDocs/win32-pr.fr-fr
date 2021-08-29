@@ -1,5 +1,5 @@
 ---
-description: Fournit des méthodes pour fournir des paramètres de navigateur. L’interface IItemPreviewerExt est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
+description: Fournit des méthodes pour fournir des paramètres de navigateur. l’interface IItemPreviewerExt est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 ms.assetid: d7d6cbb0-18bf-4e68-b7b4-307cadbced5c
 title: Interface IItemPreviewerExt
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 820ddfdf73d36a7cba968a721872b1e9fb33a72f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a652e24b87655d7d5ae5f03a944e3e0a5e649c4e680f87c0b023d68407f6a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969748"
 ---
 # <a name="iitempreviewerext-interface"></a>Interface IItemPreviewerExt
 
-Fournit des méthodes pour fournir des paramètres de navigateur. L’interface **IItemPreviewerExt** est prise en charge uniquement sur Windows XP et windows Server 2003 et ne doit plus être utilisée.
+Fournit des méthodes pour fournir des paramètres de navigateur. l’interface **IItemPreviewerExt** est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
 ## <a name="members"></a>Membres
 
@@ -46,11 +46,11 @@ L’interface **IItemPreviewerExt** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’interface **IItemPreviewerExt** est prise en charge uniquement sur Windows XP et windows Server 2003 et ne doit plus être utilisée.
+l’interface **IItemPreviewerExt** est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
-Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface **IItemPreviewerExt** et les API suivantes : les interfaces [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LinkType**](-search-linktype.md) .
+pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface **IItemPreviewerExt** et les api suivantes : les interfaces [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LINKTYPE**](-search-linktype.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -59,7 +59,7 @@ Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole t
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>          |
 
 

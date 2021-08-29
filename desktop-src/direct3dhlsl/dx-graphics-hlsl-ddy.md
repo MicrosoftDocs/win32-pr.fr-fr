@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d27e48a6d9ae237e4e58d1fd30afbac3b2b40d3d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 2545e820fc462c84ff691eb73ee113cd67c8f13bf9c8735d1076ac400fb53ef4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024409"
 ---
 # <a name="ddy"></a>ddy
 
@@ -72,11 +72,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge                                 |
+| Modèle de nuanceur                                                                | Pris en charge                                 |
 |-----------------------------------------------------------------------------|-------------------------------------------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui                                       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                                  | Oui                                       |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)                   | Oui                                       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui                                       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                                  | oui                                       |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)                   | oui                                       |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)                   | Oui dans PS \_ 2 \_ x ; non pris en charge dans PS \_ 2 \_ 0. |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                   | non                                        |
 
@@ -88,7 +88,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 

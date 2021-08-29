@@ -1,19 +1,19 @@
 ---
 title: API windowsnumerics. h
-description: Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans l’espace de noms Windows. Foundation. Numerics. Il étend les structs de Windows. Foundation. Numerics à une plage d’opérateurs et de fonctions mathématiques.
+description: Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans le Windows. Foundation. Numerics, espace de noms. Il étend les structs de Windows. Foundation. Numerics avec une plage d’opérateurs et de fonctions mathématiques.
 ms.assetid: 7aa15f80-c440-4dcb-a9a6-f1000a3a95da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 268caf0a0215c3d25a86a22fb51204472af481fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b9caa0dfee7876095bd76c147fad3cd863c92ebcb90d96842a266a9a980f526
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825189"
 ---
 # <a name="windowsnumericsh-apis"></a>API windowsnumerics. h
 
-Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans l’espace de noms [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) . Il étend les structs de **Windows. Foundation. Numerics** à une plage d’opérateurs et de fonctions mathématiques.
+Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans le [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) , espace de noms. Il étend les structs de **Windows. Foundation. Numerics** avec une plage d’opérateurs et de fonctions mathématiques.
 
 Cet espace de noms est disponible uniquement en C++. Son équivalent .NET est [System. Numerics](/dotnet/api/system.numerics?view=netframework-4.8).
 
@@ -28,4 +28,4 @@ Cet espace de noms est disponible uniquement en C++. Son équivalent .NET est [S
 | [**float4x4, structure**](float4x4-structure.md) | Matrice 4x4, utilisée pour les transformations 3D. |
 | [**structure du plan**](plane-structure.md) | Cette structure représente un plan à l’aide d’une valeur normale de vecteur 3D et d’une distance. |
 | [**Quaternion, structure**](quaternion-structure.md) | Vecteur à quatre dimensions, utilisé pour représenter une rotation. |
-| [**API d’interopérabilité numériques et DirectXMath Windows**](windows-numerics-and-directxmath-interop-apis.md) | Ces fonctions convertissent les types [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) vers et à partir des types DirectXMath SIMD [XMVECTOR](../dxmath/xmvector-data-type.md) et [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix). |
+| [**Windows les valeurs numériques et les api d’interopérabilité DirectXMath**](windows-numerics-and-directxmath-interop-apis.md) | Ces fonctions convertissent [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) types vers et à partir des types DIRECTXMATH SIMD [XMVECTOR](../dxmath/xmvector-data-type.md) et [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix). |

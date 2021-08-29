@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1af436e03f45c15324ef650f663a3668eedfc42b
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: a922dbb24a1dfa1214fcfe6bfd95cd5be4e01fa5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786095"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628145"
 ---
 # <a name="span-idvspixengineipixprogresscallbackspanipixprogresscallback-interface"></a><span id="vspixengine.ipixprogresscallback"></span>Interface IPixProgressCallback
 
@@ -38,7 +38,7 @@ L’interface **IPixProgressCallback** hérite de l’interface [**IUnknown**](/
 
 L’interface **IPixProgressCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixprogresscallback-progress-dword-dword"><strong>Avancement</strong></a></td><td ><p>Rappel qui avertit l’hôte de la progression d’une demande associée.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixprogresscallback-progress-dword-dword"><strong>Avancement</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte de la progression d’une demande associée.</p></td></tr></tbody></table>
 
  
 

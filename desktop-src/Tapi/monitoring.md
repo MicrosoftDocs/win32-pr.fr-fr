@@ -4,12 +4,12 @@ ms.assetid: 77735a42-049a-4f16-a502-ff6d31ef3cd0
 title: Surveillance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1bca5e4287d0aeb3aee89cceb72f725e95a3cb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22b94167e2356dbbd63e02defba5b914f26e5a6056a0167b5fd4c3e9f46cbaea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139962"
 ---
 # <a name="monitoring"></a>Surveillance
 

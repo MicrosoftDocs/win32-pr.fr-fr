@@ -17,12 +17,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f459d98ee2cc3c0bb1b57eb5cd4fb630d076836b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 867d96561459d009be8464f431307bfa373e8782
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983422"
 ---
 # <a name="jetgeterrorinfow-function"></a>JetGetErrorInfoW fonction)
 
@@ -99,5 +99,12 @@ La fonction [JET_ERRINFOBASIC_W](./jet-errinfobasic-w-structure.md) et [JET_ERRC
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows 8 Server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Remarque : seul le <strong>JetGetErrorInfoW</strong> (Unicode) est implémenté. Cette API n’a pas de version (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows 8 Server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Remarque : seul le <strong>JetGetErrorInfoW</strong> (Unicode) est implémenté. Cette API n’a pas de version (ANSI).</p> | 
 

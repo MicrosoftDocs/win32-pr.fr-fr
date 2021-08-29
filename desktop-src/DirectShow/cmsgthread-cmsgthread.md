@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 08d76ebecd09d95b7ba0fca22b300c1e402f5302
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 602ad73bb18ceb75e27d26b9665946f1aaccb679f2811b2dd913409e8eb3651d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585709"
 ---
 # <a name="cmsgthreadcmsgthread-constructor"></a>Constructeur CMsgThread. CMsgThread
 
@@ -40,7 +40,7 @@ CMsgThread();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La construction d’un objet de thread de message ne crée pas automatiquement le thread. Vous devez appeler la fonction membre [**CMsgThread :: CreateThread**](cmsgthread-createthread.md) pour créer le thread.
 
@@ -50,7 +50,7 @@ La construction d’un objet de thread de message ne crée pas automatiquement l
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Le tableau suivant résume une série d’étapes dans une interact
 ms.assetid: d868218d-7939-45d1-9e2f-3415c40f1a62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08d35285bdf613cb8ec5966fa438742004a97c0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 910b1097b21c75788cd802b7316efe023bfb9b61bec3414fd5b35a344e97114c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080909"
 ---
 # <a name="shutting-down-a-multicast-routing-protocol"></a>Arrêt d’un protocole de routage de multidiffusion
 

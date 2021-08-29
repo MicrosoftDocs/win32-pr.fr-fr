@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7707338a3c2268cba51146aa8462b3b244b149ac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f8b7579ce3ba9ddc8a1b2925685fce2e13d0c787df19df758862fabf4f5c611
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700559"
 ---
 # <a name="cim_elementconfiguration-class"></a>\_Classe CIM ElementConfiguration
 
@@ -83,7 +83,7 @@ Référence à l’élément système managé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

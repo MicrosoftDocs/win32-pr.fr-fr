@@ -1,6 +1,6 @@
 ---
-title: Variables d’état d’indicateur
-description: Variables d’état d’indicateur
+title: Hint, variables d’état
+description: Hint, variables d’état
 ms.assetid: 25605b0f-5fb6-457a-b86b-d85f91e6e76c
 keywords:
 - Variables d’état d’indicateur OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d62fd6feb1ecfbb943782cff2743b18730c86add
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3a89d589ef5ee3259d1371dc525784ce814d2ea6bad08d95337a4679c1b6635d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035105"
 ---
-# <a name="hint-state-variables"></a>Variables d’état d’indicateur
+# <a name="hint-state-variables"></a>Hint, variables d’état
 
 <dl> <dt><span id="GL_PERSPECTIVE_CORRECTION_HINT"></span><span id="gl_perspective_correction_hint"></span>indicateur de correction de la \_ perspective GL \_ \_</dt> <dd> 
 

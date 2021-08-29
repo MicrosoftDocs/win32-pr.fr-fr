@@ -1,19 +1,19 @@
 ---
-description: Les exemples C# et Visual Basic Scripting Edition (VBScript) suivants montrent comment exporter la configuration d’un ordinateur virtuel.
+description: les exemples C# et Visual Basic scripting Edition (VBScript) suivants montrent comment exporter la configuration d’un ordinateur virtuel.
 ms.assetid: 0B503B85-7EC0-409A-B610-E1C7FFBF3192
 title: Exportation de la configuration d’une machine virtuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e74a9984490c74be907f96ab408c64aa233ed09b
-ms.sourcegitcommit: 3d9eb6638763fee8b87c378657458f814182e36c
+ms.openlocfilehash: 7f2a52c9d4cae1e590749bc1b9b6f0dc4ddcad3542faabe808edd64fb3b2aa2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106544336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532539"
 ---
 # <a name="exporting-the-configuration-of-a-virtual-machine"></a>Exportation de la configuration d’une machine virtuelle
 
-Les exemples C# et Visual Basic Scripting Edition (VBScript) suivants montrent comment exporter la configuration d’un ordinateur virtuel. Vous trouverez des exemples qui illustrent l’exportation d’une machine virtuelle sur le [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) et l' [exportation d’une capture instantanée des rubriques relatives aux machines virtuelles](exporting-virtual-machines.md) .
+les exemples C# et Visual Basic scripting Edition (VBScript) suivants montrent comment exporter la configuration d’un ordinateur virtuel. Vous trouverez des exemples qui illustrent l’exportation d’une machine virtuelle sur le [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) et l' [exportation d’une capture instantanée des rubriques relatives aux machines virtuelles](exporting-virtual-machines.md) .
 
 Les utilitaires C# référencés se trouvent dans [les utilitaires courants pour les exemples de virtualisation (v2)](common-utilities-for-the-virtualization-samples-v2.md).
 

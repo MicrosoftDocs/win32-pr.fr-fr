@@ -4,12 +4,12 @@ description: Les fournisseurs d’appareils sont des objets inscrits que l’ord
 ms.assetid: 80c08993-0a8b-4ee9-93cd-bcc3c00e843b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67fac270342830045fc3bac9f0573f283d87dc6a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5cfb81f5fceacff490be47609973b897a5b9bd199122b24db39d12ada8ec7355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867679"
 ---
 # <a name="device-providers"></a>Fournisseurs d’appareils
 
@@ -27,6 +27,6 @@ Une fois la méthode [**Start**](/windows/desktop/api/Upnphost/nf-upnphost-iupnp
 
 Lorsque l’ordinateur est arrêté, l’hôte de l’appareil appelle la méthode [**IUPnPDeviceProvider :: Stop**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpdeviceprovider-stop) pour indiquer que le fournisseur de l’appareil a terminé ses opérations.
 
- 
+ 
 
- 
+ 

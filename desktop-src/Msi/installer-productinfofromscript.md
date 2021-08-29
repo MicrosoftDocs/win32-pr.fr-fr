@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a4c8e29adb93f68228008770a95ad9fb9185e966
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b0319c83cc981f36bc4d744bb34e96a684adf8d203bdf4f4dc6ab8472033639
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129369"
 ---
 # <a name="installerproductinfofromscript-property"></a>Programme d’installation ::P propriété roductInfoFromScript
 
@@ -43,7 +43,7 @@ Installer.ProductInfoFromScript = propVal
 
 Valeur de chaîne ou d’entier en fonction de l’attribut demandé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **ProductInfoFromScript** utilise la fonction [**MsiGetProductInfoFromScript**](/windows/desktop/api/Msi/nf-msi-msigetproductinfofromscripta) .
 
@@ -77,7 +77,7 @@ MsgBox  installer.ProductInfoFromScript("c:\scratch\orca.aas", 3)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 4,5 sur Windows Server 2003 et Windows XP<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 4,5 sur Windows Server 2003 et Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |
 | IID<br/>     | IID \_ IInstaller est défini en tant que 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 
@@ -90,7 +90,7 @@ MsgBox  installer.ProductInfoFromScript("c:\scratch\orca.aas", 3)
 [**Programme d’installation**](installer-object.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
+[non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\listboxes\listboxes.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fda5e6bb2d1d4c3c4f23e506900257c1b2ce64b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: fd4c4dcd456c3774fce5899313ce1ead2a464a23c3706ba549b5cf581034d0dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085129"
 ---
 # <a name="list-box"></a>Zone de liste
 

@@ -4,12 +4,12 @@ ms.assetid: C9C6082C-1AD8-436F-8BC0-33CA579DD84C
 title: Méthodes IAzScope
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce59c2d90dec79cf7af5247daf33173c818b17b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec039eae9e879524835e6e7372d561eb6b72442635cf6f654a222408194b543c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908679"
 ---
 # <a name="iazscope-methods"></a>Méthodes IAzScope
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ec054bde5431ee938b2bfd65ff101398ab54c660
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 0cf40f8a04ffd059aaadac76e0e309b8bd0ecb8b746e2f36c20f135af718d0ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120309"
 ---
 # <a name="discard-statement"></a>Instruction ignore
 
@@ -42,7 +42,7 @@ Cette instruction ne peut être appelée qu’à partir d’un nuanceur de pixel
 
 <dl> <dt>
 
-[Contrôle de Flow](dx-graphics-hlsl-flow-control.md)
+[Flow Régulation](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

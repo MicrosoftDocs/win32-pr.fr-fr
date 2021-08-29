@@ -4,12 +4,12 @@ ms.assetid: 8771a5f9-878b-43fd-8eaa-0bfc276194aa
 title: Propriété AVDecDDDynamicRangeScaleHigh (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 521cd631d92db73f23c7018adeda9bd321d23c1a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 725737b797d969d46293a9bf9e8f6d590e9fc51ac01d530fed6b8bc59c651629
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103529"
 ---
 # <a name="avdecdddynamicrangescalehigh-property"></a>Propriété AVDecDDDynamicRangeScaleHigh
 
@@ -40,7 +40,7 @@ La valeur de cette propriété est comprise dans la plage suivante.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété s’applique uniquement lorsque la valeur de la propriété [**AVDecDDOperationalMode**](avdecddoperationalmode-property.md) est eAVDecDDOperationalMode \_ .
 
@@ -50,8 +50,8 @@ Cette propriété s’applique uniquement lorsque la valeur de la propriété [*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

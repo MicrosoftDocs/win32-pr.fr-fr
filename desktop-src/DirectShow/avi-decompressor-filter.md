@@ -4,21 +4,21 @@ ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: Filtre de décompresseur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 214ccfeee18a01fa9c8d52ffbf4593b9de5664bb
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d0e7511c4243d2e36ff6270826201b4b6dc58246ed2a1d815f34ee14f9aff7ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689479"
 ---
 # <a name="avi-decompressor-filter"></a>Filtre de décompresseur AVI
 
-Le filtre de décompresseur AVI permet aux codecs du gestionnaire de compression vidéo (VCM) de joindre un graphique de filtres. L’application n’a pas besoin d’ajouter le filtre au graphique de filtre ; elle est automatiquement extraite par le gestionnaire de graphique de filtre, si nécessaire.
+Le filtre de décompresseur AVI permet aux codecs du gestionnaire de compression vidéo (VCM) de joindre un graphique de filtres. L’application n’a pas besoin d’ajouter le filtre au graphique de filtre ; elle est automatiquement extraite par le gestionnaire de Graph de filtre quand cela est nécessaire.
 
-Lorsque le gestionnaire de graphique de filtre crée un graphique pour afficher un fichier AVI, il vérifie le FOURCC dans l’en-tête AVI du fichier pour déterminer si le flux vidéo est compressé. Si c’est le cas, le gestionnaire de graphique de filtre ajoute le décompresseur AVI, qui recherche ensuite dans le registre un décompresseur installé pouvant gérer le fichier.
+lorsque le gestionnaire de Graph de filtre crée un graphique pour afficher un fichier avi, il vérifie le FOURCC dans l’en-tête AVI du fichier pour déterminer si le flux vidéo est compressé. si c’est le cas, le gestionnaire de Graph de filtre ajoute le décompresseur AVI, qui recherche ensuite dans le registre un décompresseur installé pouvant gérer le fichier.
 
 > [!Note]  
-> Les décompresseurs MPEG ne sont jamais implémentés en tant que codecs VCM, mais uniquement en tant que filtres DirectShow natifs.
+> les décompresseurs MPEG ne sont jamais implémentés en tant que codecs VCM, mais uniquement en tant que filtres de DirectShow natifs.
 
  
 
@@ -47,7 +47,7 @@ Sur son code PIN amont, le décompresseur AVI se connecte généralement au [sé
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: ad3c8d2e-f074-4db0-bb72-fb2181cbf687
 title: Constantes LINECALLHUBTRACKING_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bfae61e36551a7d186408c2c87e0727503540a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98d24b9641e7662871aef64f1358eeddfb58f5c9400b45aee405b8c6d8f134a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405189"
 ---
 # <a name="linecallhubtracking_-constants"></a>\_Constantes LINECALLHUBTRACKING
 
@@ -47,7 +47,7 @@ Les hubs d’appel sont suivis au niveau du fournisseur de services. Les appels 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

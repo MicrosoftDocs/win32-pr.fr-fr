@@ -4,12 +4,12 @@ ms.assetid: 1dd8af0e-280b-4fc4-bf75-45c5c7517365
 title: Réception de notifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bebaed2683f329fa267bdc926063d0b763190400
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2220c555a47e6ed015fb2a9465684f76b5b2ee12086c774dfa75ff12c967291e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912619"
 ---
 # <a name="getting-notifications"></a>Réception de notifications
 

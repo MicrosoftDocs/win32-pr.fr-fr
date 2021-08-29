@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 439ead6fa0868887cc5965205b22236abb5aada6
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 718dbade2997d41b6ad177a7fb9fe4f60c29b7149c499565f9c5de372caa8ba3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "103845658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737389"
 ---
 # <a name="imsrdpcameraredirconfigsymboliclink-property"></a>IMsRdpCameraRedirConfig :: SymbolicLink, propriété
 

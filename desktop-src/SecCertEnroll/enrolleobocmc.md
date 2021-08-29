@@ -4,12 +4,12 @@ ms.assetid: 14cc76c9-0e2b-498f-b058-244af6e9111e
 title: enrollEOBOCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca888d949054d695056d42045335f17dfca2f4d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74a9dbcddf5495f5a58d161e5bf086c737691b52312827d3420ca13a47440822
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882989"
 ---
 # <a name="enrolleobocmc"></a>enrollEOBOCMC
 
@@ -17,7 +17,7 @@ L’exemple enrollEOBOCMC crée une demande de certificat CMC pour le compte d�
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollEOBOCMC VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollEOBOCMC VC.
 
 ## <a name="discussion"></a>Discussions
 
@@ -26,7 +26,7 @@ Exemple enrollEOBOCMC :
 1.  Traite les arguments de ligne de commande suivants :
     -   Nom d’un modèle de certificat.
     -   Nom de l’utilisateur qui demande le certificat.
-    -   Nom d’un fichier d’échange d’informations personnelles (PFX) dans lequel enregistrer la demande.
+    -   nom d’un fichier de Exchange d’informations personnelles (PFX) dans lequel enregistrer la demande.
     -   Mot de passe à utiliser avec le fichier PFX.
     -   Nom de modèle d’agent d’inscription facultatif. Le modèle est utilisé pour créer un certificat d’agent d’inscription s’il n’en existe aucun dans le magasin de certificats.
 2.  Crée un objet [**IX509CertificateRequestCmc**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcmc) et l’initialise à l’aide du modèle de certificat spécifié sur la ligne de commande.

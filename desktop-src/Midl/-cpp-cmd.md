@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ad693f8dbf3ddc7acda6539b89930972ca81a87
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2b4510f175de35bb67b5986878330866fe86445a3145a7f10d951afb03805cbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896093"
 ---
 # <a name="cpp_cmd-switch"></a>\_commutateur cmd/CPP
 
@@ -38,7 +38,7 @@ Spécifie la commande qui appelle le préprocesseur. Cette commande permet aux d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' *argument \_ \_ binaire du préprocesseur C* du commutateur peut spécifier le chemin d’accès complet ; le suffixe et les guillemets de l’exe sont facultatifs. En règle générale, les développeurs utilisent le commutateur pour choisir une version particulière du préprocesseur Microsoft C/C++ ou équivalent dans l’environnement de génération. Dans ce cas, il n’est pas nécessaire d’utiliser le commutateur [**/CPP \_ OPT**](-cpp-opt.md) avec **/CPP \_ cmd**.
 
@@ -63,7 +63,7 @@ Quand le commutateur [**/CPP \_ OPT**](-cpp-opt.md) est présent, ce qui doit ê
 
 
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -94,9 +94,9 @@ Quand le commutateur [**/CPP \_ OPT**](-cpp-opt.md) est présent, ce qui doit ê
 [C-Configuration requise pour le préprocesseur pour MIDL](c-preprocessor-requirements-for-midl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9bf93641-efc2-416c-a91c-d8fe95729b67
 title: System. GPS. DestBearing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b51e7b6d462e5c6399b24598daf65786be9ff1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41d8e96e3245b7517f08b10082b78e949072781716675e51a5159ee3d739bac8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598899"
 ---
 # <a name="systemgpsdestbearing"></a>System. GPS. DestBearing
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

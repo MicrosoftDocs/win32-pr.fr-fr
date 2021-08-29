@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ead6e496d220619439b80fdc5c7601675fdb7ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5ca721f2176b5e600c4afc7d71cd23d0507083d3c112adb4cb36af3b8734da0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037759"
 ---
 # <a name="inapsystemhealthagentbindingflushcache-method"></a>INapSystemHealthAgentBinding :: FlushCache, méthode
 
@@ -62,7 +62,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 NapAgent gère un cache des SoHs récents fournis par des SHA différents. Ce cache est utile pour optimiser les performances au moment de l’amorçage, lorsque l’SHA peut ou non être lié au système.
 
@@ -74,8 +74,8 @@ L’algorithme SHA doit appeler [**Initialize**](inapsystemhealthagentbinding-in
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthAgent. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthAgent. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

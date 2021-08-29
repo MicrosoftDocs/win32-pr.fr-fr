@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3429e2c2ba78e013da9195961b76ff84ffda9b68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a529b0628c70cacaf822045e173ddda9205c3c7c9dd726f2a12f0d29410d4cec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080013"
 ---
 # <a name="enableipfiltersec-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableIPFilterSec de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur la carte.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la sécurité est activée, les caractéristiques de sécurité opérationnelles d’une carte réseau peuvent être contrôlées à l’aide de la méthode [**EnableIPSec**](enableipsec-method-in-class-win32-networkadapterconfiguration.md) spécifique à la carte réseau.
 

@@ -150,7 +150,7 @@
               items:
                 - name: Ajout d’un client
                   href: sdo-adding-a-client.md
-                - name: Modification des paramètres de numérotation
+                - name: modification du Paramètres d’accès à distance
                   href: sdo-changing-dial-in-settings.md
                 - name: Création d’une stratégie de demande de connexion
                   href: sdo-creating-a-connection-request-policy.md
@@ -338,5 +338,5 @@
                       href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-startservice
                     - name: Méthode StopService
                       href: /windows/desktop/api/SdoIas/nf-sdoias-isdoservicecontrol-stopservice
-    - name: Programmabilité SQL
+    - name: SQL Programmabilité
       href: sql-programmability.md

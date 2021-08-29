@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 633f78377e3c4f23f4b93ba2f76dc113eda11a39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 135097129067eebe95404358d2db12da87d51013bb1e959e30b613bc2a8b7653
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876379"
 ---
 # <a name="cryptcatcdfenummembersbycdftagex-function"></a>CryptCATCDFEnumMembersByCDFTagEx fonction)
 
@@ -97,7 +97,7 @@ Ce paramètre est réservé. ne l’utilisez pas.
 
 En cas de réussite, cette fonction retourne un pointeur vers une chaîne se terminant par un caractère **null** qui identifie un membre de fichier dans la section **CATALOGFILES** d’un CDF. La fonction **CryptCATCDFEnumMembersByCDFTagEx** retourne un pointeur **null** en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, vous appelez cette fonction dans une boucle pour énumérer tous les membres du fichier catalogue dans un CDF. Avant d’entrer dans la boucle, affectez à *pwszPrevCDFTag* la **valeur null**. La fonction retourne un pointeur vers le premier membre. Affectez à *pwszPrevCDFTag* la valeur de retour de la fonction pour les itérations suivantes de la boucle.
 
@@ -138,8 +138,8 @@ L’exemple suivant illustre la séquence correcte des assignations pour le para
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

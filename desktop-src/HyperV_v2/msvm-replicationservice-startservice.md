@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8ee39eb4943ed80bae976050d3fdad7477043dce
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e373baf8de3a61f87c227c1d30daee92bf6cfe4b77c4b28b170bd101d77f7c8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535689"
 ---
 # <a name="startservice-method-of-the-msvm_replicationservice-class"></a>Méthode StartService de la \_ classe MSVM ReplicationService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

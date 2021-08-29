@@ -1,5 +1,5 @@
 ---
-description: Connectez-vous à une autre instance d’un moteur distant sur l’ordinateur local.
+description: Connecter à une autre instance d’un moteur distant sur l’ordinateur local.
 MS-HAID: vspixengine.IServerConnectionCallback\_ConnectToEngine\_BOOL\_BSTR\_IPixEngine\_ptr\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,16 +17,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1506075066767cba95c7fec768fa27e858bd6a10
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc599900f7cd4b2b26ea2dcc0341ee0d683b8aa3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109739"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625535"
 ---
 # <a name="span-idvspixengineiserverconnectioncallback_connecttoengine_bool_bstr_ipixengine_ptr_ptrspaniserverconnectioncallbackconnecttoengine-method"></a><span id="vspixengine.iserverconnectioncallback_connecttoengine_bool_bstr_ipixengine_ptr_ptr"></span>IServerConnectionCallback :: ConnectToEngine, méthode
 
-Connectez-vous à une autre instance d’un moteur distant sur l’ordinateur local.
+Connecter à une autre instance d’un moteur distant sur l’ordinateur local.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,13 +50,13 @@ Chaîne COM contenant le nom de l’ordinateur local.
 *ppEngineCreated*   
 Au retour, adresse de l’instance du moteur.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
 ## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span>Voir aussi
 

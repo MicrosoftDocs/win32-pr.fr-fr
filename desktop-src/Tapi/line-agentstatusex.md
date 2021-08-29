@@ -4,12 +4,12 @@ ms.assetid: a0709367-9105-43af-9772-0161d94c098a
 title: Message LINE_AGENTSTATUSEX (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9ff1a39fd6aacf69922693a54198426d267720
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abc622d1df7b9d86009822f9920cf9f510c68b71a28952a4146e98bdbe69e9da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405220"
 ---
 # <a name="line_agentstatusex-message"></a>\_Message AGENTSTATUSEX de ligne
 

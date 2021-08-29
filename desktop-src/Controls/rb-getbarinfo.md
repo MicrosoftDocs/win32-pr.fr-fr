@@ -3,7 +3,7 @@ title: Message RB_GETBARINFO (commctrl. h)
 description: Récupère des informations sur le contrôle rebar et la liste d’images qu’il utilise.
 ms.assetid: d3d56b95-7540-4e45-bb2e-b9d41cfcca0d
 keywords:
-- RB_GETBARINFO les contrôles de message Windows
+- RB_GETBARINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d224c7c826bad0d5d6ae76ce5a4c2266632fa8a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58d1d1ee657f88b95b0caad254377ebca0db74b313fd7eb3fe102d4f488c14d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085089"
 ---
 # <a name="rb_getbarinfo-message"></a>\_Message GETBARINFO RB
 
@@ -49,8 +49,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

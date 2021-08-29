@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: b49a589fa1702f61e5a5daef806a5b36d464d0ec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 230c750c36b9241f6aa4840daf6a4f3a512d42a5dcd899bc555b44a48cb3ac53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750919"
 ---
 # <a name="d3dpresentstats-structure"></a>D3DPRESENTSTATS, structure
 
@@ -98,7 +98,7 @@ Cette valeur n'est pas utilisée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand une application 9Ex adopte le mode Flip (D3DSWAPEFFECT \_ FLIPEX), les applications peuvent détecter la suppression de frame en appelant GetPresentStatistics à tout moment. En effet, ils peuvent effectuer les opérations suivantes.
 

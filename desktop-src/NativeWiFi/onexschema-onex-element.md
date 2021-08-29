@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 4b3e3d91087a394efb7909d36d6244bfbf6115e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a0a58d4f06b30004620f7e222cdbf8a439c9bb57ab4f7ca97e3b86eaacb2e3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684869"
 ---
 # <a name="onex-element"></a>Élément OneX
 
@@ -25,7 +25,7 @@ L’élément OneX spécifie les informations de configuration 802.1 X pour un p
 
 L’espace de noms cible de l’élément OneX est `https://www.microsoft.com/networking/OneX/v1` . La plupart des éléments enfants de l’élément OneX se trouvent dans l' `OneX` espace de noms. Il existe une exception : l’élément [**EAPConfig**](onexschema-eapconfig-onex-element.md) est dans l' `https://www.microsoft.com/provisioning/EapHostConfig` espace de noms.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Seul l’élément [**EAPConfig**](onexschema-eapconfig-onex-element.md) est pris en charge. Les autres éléments, s’ils sont présents dans un profil, seront ignorés.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Seul l’élément [**EAPConfig**](onexschema-eapconfig-onex-element.md) est pris en charge. Les autres éléments, s’ils sont présents dans un profil, seront ignorés.
 
 ``` syntax
 <xs:element name="OneX">
@@ -245,7 +245,7 @@ L’espace de noms cible de l’élément OneX est `https://www.microsoft.com/ne
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour afficher la liste des éléments enfants dans une structure de type arborescence, consultez [éléments de schéma Onex](onexschema-elements.md).
 
@@ -256,7 +256,7 @@ Pour afficher la liste des éléments enfants dans une structure de type arbores
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

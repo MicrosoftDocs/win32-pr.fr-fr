@@ -3,7 +3,7 @@ title: Message EM_SETPAGEROTATE (RichEdit. h)
 description: Définit la disposition du texte pour un contrôle RichEdit.
 ms.assetid: 3c2a37fe-ee9f-4b34-87bf-7ac27d010afc
 keywords:
-- EM_SETPAGEROTATE les contrôles de message Windows
+- EM_SETPAGEROTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12eb595456bca444c92b536b0e428ee56a5903ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b243b521d318f16952000d17b6cd94a4806e43cf0d9099228a88aeb0def72dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079103"
 ---
 # <a name="em_setpagerotate-message"></a>\_Message SETPAGEROTATE em
 
@@ -63,18 +63,18 @@ Non utilisé ; doit être égal à zéro.
 
 La valeur de retour est la nouvelle valeur de disposition du texte.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message définit la disposition du texte pour l’ensemble du document. Toutefois, le contenu incorporé n’est pas pivoté et doit être pivoté séparément par l’application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

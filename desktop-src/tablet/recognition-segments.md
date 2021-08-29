@@ -4,12 +4,12 @@ ms.assetid: 5215a0bd-6dff-4cda-b2e5-c54f64680e02
 title: Segments de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7037849378477950b906b85efe6980c4246421
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35d43d2e3f700da2ee3ef780de9ac2ad23a17f4f8894163d8c011f6bfa9c5551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455349"
 ---
 # <a name="recognition-segments"></a>Segments de reconnaissance
 

@@ -4,12 +4,12 @@ ms.assetid: 5778e0c5-2f8d-4562-9c93-d6f6890a74e9
 title: ICEM07
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 696d5c92671c3a8347cb43714d43e646a3e14f33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef29ffc26658660e9acd09ba108779bf6902d1d0326963765f13b29c99b845ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894519"
 ---
 # <a name="icem07"></a>ICEM07
 
@@ -17,7 +17,7 @@ ICEM07 vérifie que l’ordre des fichiers dans la table de séquences correspon
 
 Le module de fusion CIEM est stocké dans un fichier de module de fusion. CUB appelé Mergemod. CUB et non dans le fichier. CUB contenant le CIEM utilisé pour la validation du package.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICEM07 publie une erreur si l’ordre des fichiers dans la table de fichiers ne correspond pas à l’ordre dans le fichier CAB.
 

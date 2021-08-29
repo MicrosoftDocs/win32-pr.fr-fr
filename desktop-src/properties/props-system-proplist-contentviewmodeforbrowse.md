@@ -4,12 +4,12 @@ ms.assetid: 30c15a29-b2cb-4273-8c07-8ef3baa7fee5
 title: System. PropList. ContentViewModeForBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c77340d94e1bbe23fa3dc533486d2ad4cd50c490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f3f3f7b3c33c706ab8d5933366e77262d5f1286f078395939807381ff514d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095801"
 ---
 # <a name="systemproplistcontentviewmodeforbrowse"></a>System. PropList. ContentViewModeForBrowse
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

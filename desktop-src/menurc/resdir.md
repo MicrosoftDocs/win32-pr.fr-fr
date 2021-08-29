@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b854a4af3367131f6a559e1fef5899fae8b81107
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9033e1f30e8f497b202fa8e3f84d4ecb582bb60c166f396a50ce194c9783075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825579"
 ---
 # <a name="resdir-structure"></a>RESDIR, structure
 
@@ -110,7 +110,7 @@ Icône ou curseur avec un identificateur ordinal unique.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une ou plusieurs structures **RESDIR** suivent immédiatement la structure [**NEWHEADER**](newheader.md) dans le fichier. res. Le membre **ResCount** de la structure **NEWHEADER** spécifie le nombre de structures **RESDIR** . Notez que la structure **RESDIR** se compose d’une structure [**ICONRESDIR**](iconresdir.md) ou d’une structure [**CURSORDIR**](cursordir.md) suivie des **plans**, **BitCount**, **BytesInRes** et **IconCursorId** . Si la **structure RESDIR** contient des informations sur un curseur, les deux premiers **mots** que le compilateur de ressources écrit dans la ressource de [ \_ curseur RT](/windows/desktop/menurc/resource-types) sont les membres **xHotSpot** et **yHotSpot** de la structure [**LOCALHEADER**](localheader.md) .
 

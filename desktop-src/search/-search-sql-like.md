@@ -4,12 +4,12 @@ ms.assetid: d4bcf406-1253-4e56-b770-79edd4a98205
 title: Prédicat LIKE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba042fb2fe3005e062e7961a048a81a64c0c144
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b2faa337ab96eb8cd32c262eb49c792f545de45
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886804"
 ---
 # <a name="like-predicate"></a>Prédicat LIKE
 
@@ -22,7 +22,7 @@ Le prédicat LIKE effectue une comparaison de critères spéciaux sur la colonne
 
 
 
-<column>Peut être un [identificateur](-search-sql-identifiers.md)standard ou délimité. La colonne est limitée aux propriétés dans la Banque de propriétés.
+La &lt; colonne &gt; peut être un [identificateur](-search-sql-identifiers.md)standard ou délimité. La colonne est limitée aux propriétés dans la Banque de propriétés.
 
 Le <littéral de caractère générique \_> est un littéral de chaîne. Elle est placée entre guillemets et peut éventuellement contenir des caractères génériques. La chaîne de correspondance peut contenir plusieurs caractères génériques si nécessaire. Le tableau suivant décrit les caractères génériques reconnus par le prédicat LIKE.
 

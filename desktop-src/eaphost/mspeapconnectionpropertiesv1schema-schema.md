@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6cf3120a37a73d7a7928b4405b958997175f1187
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 71e6b99880a0b0d3780b252b868be3b1d1e75f90d0dd6ed27ce667b2985ee5f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106511870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094261"
 ---
 # <a name="mspeapconnectionpropertiesv1-schema"></a>Schéma mspeapconnectionpropertiesv1
 
@@ -33,9 +33,9 @@ Le schéma mspeapconnectionpropertiesv1 définit les données de configuration d
 [Schéma mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

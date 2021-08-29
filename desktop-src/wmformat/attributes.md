@@ -1,6 +1,6 @@
 ---
-title: Attributs (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur les attributs dans le kit de développement logiciel (SDK) Windows Media format 11. Un attribut est un élément individuel de métadonnées.
+title: attributs (kit de développement logiciel (SDK) Windows Media Format 11)
+description: en savoir plus sur les attributs dans le kit de développement logiciel (SDK) Windows Media Format 11. Un attribut est un élément individuel de métadonnées.
 ms.assetid: 1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4
 keywords:
 - Windows Media Format SDK, attributs
@@ -9,18 +9,18 @@ keywords:
 - attributs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23738e20df2c6360b20b7c3da005cde6b3942d44
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: cf76a8235b3cb81d71a283b5e6c6e992300aaaa21ec840c3a3654e0777a644aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441229"
 ---
-# <a name="attributes-windows-media-format-11-sdk"></a>Attributs (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="attributes-windows-media-format-11-sdk"></a>attributs (kit de développement logiciel (SDK) Windows Media Format 11)
 
 Un attribut est un élément individuel de métadonnées. La plupart des attributs peuvent être définis par votre application et sont écrits dans l’en-tête d’un fichier ASF.
 
-Certains des attributs prédéfinis sont des attributs codés. Ces attributs ne sont pas stockés dans l’en-tête d’un fichier ASF, mais sont calculés par les objets du kit de développement logiciel (SDK) du format Windows Media lorsque le fichier est chargé. Étant donné que les attributs codés sont toujours calculés, ils sont en lecture seule par nature.
+Certains des attributs prédéfinis sont des attributs codés. ces attributs ne sont pas stockés dans l’en-tête d’un fichier ASF, mais sont calculés par les objets du kit de développement logiciel (SDK) du Format de média Windows lors du chargement du fichier. Étant donné que les attributs codés sont toujours calculés, ils sont en lecture seule par nature.
 
 Ce kit de développement logiciel (SDK) comprend de nombreuses définitions d’attributs que vous pouvez utiliser. Vous pouvez également créer vos propres attributs pour décrire le contenu.
 

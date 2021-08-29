@@ -3,9 +3,9 @@ title: External. changeViewOnlineList, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. changeViewOnlineList, méthode
 ms.assetid: d7a45ced-431f-4d35-8c9c-c6eeba6fcbf3
 keywords:
-- méthode changeViewOnlineList lecteur Windows Media
-- méthode changeViewOnlineList lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode changeViewOnlineList
+- Lecteur Windows Media de la méthode changeViewOnlineList
+- méthode changeViewOnlineList Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode changeViewOnlineList
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75e36adfa79b62863c3de78acf2adbd65011417b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2bfd5601dc1eaa1ad325a39e1a340537c3863eee48f26510acefbc57ecd0cdbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649259"
 ---
 # <a name="externalchangeviewonlinelist-method"></a>External. changeViewOnlineList, méthode
 
@@ -30,7 +30,7 @@ ms.locfileid: "106541673"
 
  
 
-La méthode **changeViewOnlineList** modifie la vue dans le lecteur Windows Media pour afficher une liste générée dynamiquement par le magasin en ligne.
+la méthode **changeViewOnlineList** modifie la vue dans Lecteur Windows Media pour afficher une liste générée dynamiquement par le magasin en ligne.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -69,14 +69,14 @@ External.changeViewOnlineList(
 *Paramètres* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant les paramètres transmis par le lecteur Windows Media au plug-in du magasin en ligne en appelant [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate). Ces paramètres ne sont pas interprétés par le lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne. Cette chaîne peut être vide
+**chaîne** contenant des paramètres qui Lecteur Windows Media transmis au plug-in du magasin en ligne en appelant [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate). ces paramètres ne sont pas interprétés par Lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne. Cette chaîne peut être vide
 
 </dd> <dt>
 
 *FriendlyName* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant un nom convivial, à afficher par le lecteur Windows Media, pour la liste dynamique.
+**chaîne** contenant un nom convivial, à afficher par Lecteur Windows Media, pour la liste dynamique.
 
 </dd> <dt>
 
@@ -90,7 +90,7 @@ Constante d’emplacement de bibliothèque qui spécifie le type des éléments 
 *ViewMode* \[ dans\]
 </dt> <dd>
 
-**Chaîne** qui spécifie le mode utilisé par le lecteur Windows Media pour afficher la liste dynamique. L’appelant doit définir ce paramètre sur l’une des valeurs suivantes, qui sont définies dans contentpartner. h :
+**chaîne** qui spécifie le mode utilisé par Lecteur Windows Media pour afficher la liste dynamique. L’appelant doit définir ce paramètre sur l’une des valeurs suivantes, qui sont définies dans contentpartner. h :
 
 ViewModeReport
 
@@ -108,9 +108,9 @@ ViewModeOrderedList
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le script sur une page de découverte appelle **changeViewOnlineList**, le lecteur Windows Media transmet certains des paramètres aux méthodes [IWMPContentPartner :: GetListContents](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents) et [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) , qui sont implémentées par le plug-in du magasin en ligne. Le tableau suivant montre la correspondance entre les paramètres des trois méthodes.
+lorsque le script sur une page de découverte appelle **changeViewOnlineList**, Lecteur Windows Media passe certains des paramètres aux méthodes [IWMPContentPartner :: GetListContents](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents) et [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) , qui sont implémentées par le plug-in du magasin en ligne. Le tableau suivant montre la correspondance entre les paramètres des trois méthodes.
 
 
 

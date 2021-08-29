@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ce597fb9e170b63335c56e30f8f8c4ddb30af66c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 65ed830a1bb0649ac2a1e934a6de958d16706ae5a39f544c42f91369d16c3f48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119218929"
 ---
 # <a name="cim_associatedsupplyvoltagesensor-class"></a>\_Classe CIM AssociatedSupplyVoltageSensor
 
@@ -145,7 +145,7 @@ Plage 1 et 2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ AssociatedSupplyVoltageSensor** est dérivée de [**CIM \_ AssociatedSensor**](cim-associatedsensor.md).
 

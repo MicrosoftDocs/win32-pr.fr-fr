@@ -4,12 +4,12 @@ ms.assetid: 26badfe6-3a5a-4c2e-9ef1-534c2e8573d0
 title: Structures de l’API de distribution d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcc9fbf86c242406aa86b7dd30497ba4c5085488
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc985ff7a1e8dccdaf9c26cee8380daeccbf4b803f563510c3524a9d5c0c2c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776029"
 ---
 # <a name="peer-distribution-api-structures"></a>Structures de l’API de distribution d’homologue
 

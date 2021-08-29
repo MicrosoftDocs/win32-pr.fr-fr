@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 72a92ea3d6b6d4b828e409cd08b896f54c4aa053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18790ad7fa550ad3cd9383de7bc5d0639c3bbf1ddb218152aa7e90dac3e6a411
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977459"
 ---
 # <a name="apijetsetsystemparameter-method-jet_instance-jet_sesid-jet_param-intptr-string"></a>Méthode API. JetSetSystemParameter (JET_INSTANCE, JET_SESID, JET_param, IntPtr, String)
 

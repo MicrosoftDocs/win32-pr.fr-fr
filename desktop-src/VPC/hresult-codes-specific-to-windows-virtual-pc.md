@@ -68,16 +68,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e77464662a694ebf917ff69d5014e19e17a817
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33c36147057a034e9abaeef456ab2aefbe2e49fd457f01c94b30923a7e3bdca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007399"
 ---
 # <a name="hresult-codes-specific-to-windows-virtual-pc"></a>Codes HRESULT spécifiques à Windows Virtual PC
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 
 
@@ -138,7 +138,7 @@ ms.locfileid: "104106072"
 | <span id="VM_E_VM_RUNNING"></span><span id="vm_e_vm_running"></span><dl> <dt>**Ordinateur virtuel \_ \_Machine virtuelle E \_ exécutant**</dt> <dt>0xA0040500</dt> </dl>                                                                               | La machine virtuelle est déjà en cours d’exécution.<br/>                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="VM_E_VM_RUNNING_OR_SAVED"></span><span id="vm_e_vm_running_or_saved"></span><dl> <dt>**Ordinateur virtuel \_ \_Machine virtuelle \_ en cours d’exécution \_ ou \_**</dt> <dt>0xA004020B</dt> </dl>                                                  | L’ordinateur virtuel est dans un État en cours d’exécution ou enregistré.<br/>                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="VM_E_VM_UNKNOWN"></span><span id="vm_e_vm_unknown"></span><dl> <dt>**Ordinateur virtuel \_ \_Machine virtuelle \_**</dt> <dt>0xA0040207</dt> inconnue </dl>                                                                               | La configuration est inconnue.<br/>                                                                                                                                                                                                                                                                                                                                                          |
-| <span id="VM_E_VMVIRTUALPC_OLDER_VERSION"></span><span id="vm_e_vmvirtualpc_older_version"></span><dl> <dt>**Ordinateur virtuel \_ E \_ VMVIRTUALPC \_ plus ancienne \_ version**</dt> <dt>0xA0040952</dt> </dl>                                 | Virtual PC 2007 et Windows Virtual PC sont tous deux installés.<br/>                                                                                                                                                                                                                                                                                                                             |
+| <span id="VM_E_VMVIRTUALPC_OLDER_VERSION"></span><span id="vm_e_vmvirtualpc_older_version"></span><dl> <dt>**Ordinateur virtuel \_ E \_ VMVIRTUALPC \_ plus ancienne \_ version**</dt> <dt>0xA0040952</dt> </dl>                                 | virtual pc 2007 et Windows virtual pc sont installés.<br/>                                                                                                                                                                                                                                                                                                                             |
 | <span id="VM_E_WRONG_HD_IMAGE_TYPE"></span><span id="vm_e_wrong_hd_image_type"></span><dl> <dt>**Ordinateur virtuel \_ E \_ mauvais \_ \_ \_ type d’image HD**</dt> <dt>0xA004067B</dt> </dl>                                                  | Le type d’image de l’image de disque dur virtuel est incorrect.<br/>                                                                                                                                                                                                                                                                                                                               |
 
 
@@ -149,7 +149,7 @@ ms.locfileid: "104106072"
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |
@@ -161,7 +161,7 @@ ms.locfileid: "104106072"
 
 <dl> <dt>
 
-[Constantes de Windows Virtual PC](windows-virtual-pc-constants.md)
+[Windows Constantes d’ordinateur virtuel](windows-virtual-pc-constants.md)
 </dt> </dl>
 
  

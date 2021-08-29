@@ -4,12 +4,12 @@ ms.assetid: 3836b064-241f-4276-af08-557bdc53bb36
 title: Chiffrements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9637fee72e6f9521968eed432dcd83947a5ddd01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d406b610964cb07e88295c472d89a600586308d482f02e7f04633f2a01be6b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883509"
 ---
 # <a name="ciphers"></a>Chiffrements
 

@@ -1,19 +1,19 @@
 ---
-description: Répertorie les interfaces de programmation d’applications (API) d’impression introduites dans Windows Vista.
+description: répertorie les interfaces de programmation d’applications (api) d’impression introduites dans Windows Vista.
 ms.assetid: 7a4eb5d7-b37d-4090-aea4-7274daa1e15c
-title: Nouveautés pour l’impression dans Windows Vista
+title: nouveautés pour l’impression dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b8648d57f48623e6db0f6311bb07ae24ac15d96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da41943d56f4cc49a6264c741519ef3a991925f3e3cfc61c154570499ce7b5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600269"
 ---
-# <a name="whats-new-for-printing-in-windows-vista"></a>Nouveautés pour l’impression dans Windows Vista
+# <a name="whats-new-for-printing-in-windows-vista"></a>nouveautés pour l’impression dans Windows Vista
 
-Répertorie les interfaces de programmation d’applications (API) d’impression introduites dans Windows Vista.
+répertorie les interfaces de programmation d’applications (api) d’impression introduites dans Windows Vista.
 
 Les fonctions et énumérations suivantes sont utilisées pour gérer les tickets d’impression.
 

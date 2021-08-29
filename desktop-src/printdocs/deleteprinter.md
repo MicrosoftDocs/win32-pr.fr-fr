@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 16d82a263b09c87f5c9b9725db48dd6634404ad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08ba5a38214e2d6fb7c9a0eedef7949551b66fd275d9a00c2d09eeab12a79bf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112569"
 ---
 # <a name="deleteprinter-function"></a>DeletePrinter fonction)
 
@@ -52,7 +52,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

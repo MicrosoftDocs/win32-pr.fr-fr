@@ -4,12 +4,12 @@ ms.assetid: 4421ab65-e44a-4d1f-8d9b-b187227429c6
 title: Vue d’ensemble de COPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41fc83293c1914ed69700cabb9507841d03a7ad3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f0ce4c3ee838b5d3888f5c1071fd5a4659963f0e68b3d5447f0b563335bb7269
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633569"
 ---
 # <a name="overview-of-copp"></a>Vue d’ensemble de COPP
 
@@ -17,7 +17,7 @@ Voici les étapes de base qu’une application doit effectuer pour utiliser le p
 
 **Récupérer la chaîne de certificats du pilote**
 
-1.  Générez un graphique de lecture DirectShow qui affiche la vidéo à l’aide du convertisseur de mixage vidéo (VMR-7 ou VMR-9) ou du filtre de [**convertisseur vidéo amélioré**](enhanced-video-renderer-filter.md) (EVR).
+1.  générez un graphique de lecture DirectShow qui restitue la vidéo à l’aide du convertisseur de mixage vidéo (vmr-7 ou vmr-9) ou du filtre de [**convertisseur vidéo amélioré**](enhanced-video-renderer-filter.md) (EVR).
 2.  Interrogez VMR pour obtenir l’interface [**IAMCertifiedOutputProtection**](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection) .
 3.  Appelez [**IAMCertifiedOutputProtection :: KeyExchange**](/windows/desktop/api/Strmif/nf-strmif-iamcertifiedoutputprotection-keyexchange). Cette méthode retourne un nombre aléatoire 128 bits du pilote, ainsi qu’une chaîne de certificats qui contient la clé publique RSA 2048 bits du pilote.
 

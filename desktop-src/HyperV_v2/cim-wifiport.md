@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 098bd0a3795f3e8e0531be5286a65b79d9f6ee0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a03b1fa986bbd03dd786678c57bd8896ec927ab707205d56e0889d9f2dc2be48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119427639"
 ---
 # <a name="cim_wifiport-class"></a>\_Classe CIM WiFiPort
 

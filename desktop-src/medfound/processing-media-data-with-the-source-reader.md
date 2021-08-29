@@ -4,12 +4,12 @@ ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Utilisation du lecteur source pour traiter les données multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b19bce4d83298693825037aef92a220d78ed7c7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ad5c8a21a2e547d005e4695a14fe9a6bd09d5d9a
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321449"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812145"
 ---
 # <a name="using-the-source-reader-to-process-media-data"></a>Utilisation du lecteur source pour traiter les données multimédias
 
@@ -138,27 +138,20 @@ Pour énumérer les types de média pour chaque flux, incrémentez l’index de 
 
 
 ```C++
-HRESULT EnumerateTypesForStream(IMFSourceReader *pReader, DWORD dwStreamIndex)
+HRESULT EnumerateMediaTypes(IMFSourceReader *pReader)
 {
     HRESULT hr = S_OK;
-    DWORD dwMediaTypeIndex = 0;
+    DWORD dwStreamIndex = 0;
 
     while (SUCCEEDED(hr))
     {
-        IMFMediaType *pType = NULL;
-        hr = pReader->GetNativeMediaType(dwStreamIndex, dwMediaTypeIndex, &pType);
-        if (hr == MF_E_NO_MORE_TYPES)
+        hr = EnumerateTypesForStream(pReader, dwStreamIndex);
+        if (hr == MF_E_INVALIDSTREAMNUMBER)
         {
             hr = S_OK;
             break;
         }
-        else if (SUCCEEDED(hr))
-        {
-            // Examine the media type. (Not shown.)
-
-            pType->Release();
-        }
-        ++dwMediaTypeIndex;
+        ++dwStreamIndex;
     }
     return hr;
 }
@@ -529,7 +522,7 @@ Le lecteur source est compatible avec Microsoft DirectX Video Acceleration (DXVA
 Lorsque vous fournissez un appareil Direct3D, le lecteur source alloue des exemples vidéo compatibles avec l’API de processeur vidéo DXVA. Vous pouvez utiliser le traitement vidéo DXVA pour effectuer la désentrelacement du matériel ou le mixage vidéo. Pour plus d’informations, consultez la page [traitement vidéo DXVA](dxva-video-processing.md). En outre, si le décodeur prend en charge la 2,0 DXVA, il utilisera le périphérique Direct3D pour effectuer un décodage accéléré par le matériel.
 
 > [!IMPORTANT]
-> À compter de Windows 8, [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) peut être utilisé à la place de [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9). Pour les applications du Windows Store, vous devez utiliser **IMFDXGIDeviceManager**. Pour plus d’informations, consultez les [API vidéo Direct3D 11](direct3d-11-video-apis.md).
+> à compter de Windows 8, [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) peut être utilisé à la place de [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9). pour les applications Windows store, vous devez utiliser **IMFDXGIDeviceManager**. Pour plus d’informations, consultez les [API vidéo Direct3D 11](direct3d-11-video-apis.md).
 
  
 

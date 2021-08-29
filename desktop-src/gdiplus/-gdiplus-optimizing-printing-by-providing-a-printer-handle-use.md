@@ -4,21 +4,21 @@ ms.assetid: 9be67cb2-4bf9-4758-af03-7d92dd04feaf
 title: Optimisation de l’impression en fournissant un handle d’imprimante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a247af3de037e220432c424c408b4055690ff861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c2284e28e0a32c828af5204d08651c576149e9d2ecfb0980f3c41936bd36cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612079"
 ---
 # <a name="optimizing-printing-by-providing-a-printer-handle"></a>Optimisation de l’impression en fournissant un handle d’imprimante
 
-L’un des constructeurs de la classe [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) reçoit un handle de contexte de périphérique et un handle d’imprimante. Lorsque vous envoyez des commandes GDI+ Windows à certaines imprimantes PostScript, les performances sont meilleures si vous créez votre objet **Graphics** avec ce constructeur particulier.
+L’un des constructeurs de la classe [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) reçoit un handle de contexte de périphérique et un handle d’imprimante. lorsque vous envoyez des commandes Windows GDI+ à certaines imprimantes PostScript, les performances sont meilleures si vous créez votre objet **graphics** avec ce constructeur particulier.
 
 L’application console suivante appelle [GetDefaultPrinter](../printdocs/getdefaultprinter.md) pour récupérer le nom de l’imprimante par défaut. Le code transmet le nom de l’imprimante à [CreateDC](/windows/win32/api/wingdi/nf-wingdi-createdcw) pour obtenir un handle de contexte de périphérique pour l’imprimante. Le code transmet également le nom de l’imprimante à [OpenPrinter](../printdocs/openprinter.md) pour obtenir un handle d’imprimante. Le handle de contexte de périphérique et le descripteur d’imprimante sont passés au constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Deux figures sont ensuite dessinées sur l’imprimante.
 
 > [!Note]  
-> La fonction [GetDefaultPrinter](../printdocs/getdefaultprinter.md) est prise en charge uniquement sur Windows 2000 et versions ultérieures.
+> la fonction [GetDefaultPrinter](../printdocs/getdefaultprinter.md) est prise en charge uniquement sur Windows 2000 et versions ultérieures.
 
  
 

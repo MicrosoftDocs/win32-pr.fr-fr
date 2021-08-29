@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0998ffb73fc02511d77440550c8c669b35a98563
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4dd45927e1cd73eff1c92a1ce55c92b82cbf2ae19d981d04677836c932efdb7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702659"
 ---
 # <a name="usn-source-attribute"></a>Attribut USN-Source
 
@@ -36,7 +36,7 @@ Valeur de l’attribut [**USN modifié**](a-usnchanged.md) de l’objet à parti
 | Fréquence des mises à jour  | Lorsque l’objet est modifié sur un répertoire distant qui a répliqué la modification dans le répertoire local. |
 | Attribute-Id      | 1.2.840.113556.1.4.896                                                                              |
 | System-ID-GUID    | 167758ad-47f3-11d1-a9c3-0000f80367c1                                                                |
-| Syntaxe            | [**Défini**](s-interval.md)                                                                      |
+| Syntaxe            | [**Intervalle**](s-interval.md)                                                                      |
 
 
 
@@ -46,7 +46,7 @@ Valeur de l’attribut [**USN modifié**](a-usnchanged.md) de l’objet à parti
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

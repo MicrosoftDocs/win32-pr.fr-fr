@@ -3,7 +3,7 @@ title: Attribut auteur
 description: L’attribut Author est le nom d’un artiste multimédia ou d’un acteur associé au contenu.
 ms.assetid: 6621a955-dd6b-4725-9690-0cc96e73d94f
 keywords:
-- Attribut auteur lecteur Windows Media
+- Lecteur Windows Media de l’attribut Author
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94ef73679aa3869a9a3d87b926b7f38464b1001
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28f7bd6acf39142f3947a4df623b4ce2450f3a872386f1f68ec8d7e600b831f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864879"
 ---
 # <a name="author-attribute"></a>Attribut auteur
 
@@ -28,7 +28,7 @@ L’attribut **Author** est le nom d’un artiste multimédia ou d’un acteur a
 -   [Éléments audio](audio-item-attributes.md)
 -   [Sélections de CD](cd-playlist-attributes.md)
 -   [Pistes de CD](cd-track-attributes.md)
--   [Fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [fichiers multimédias Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [Media. getItemInfoByType](media-getiteminfobytype.md)
 -   [Éléments de photo](photo-item-attributes.md)
@@ -36,13 +36,13 @@ L’attribut **Author** est le nom d’un artiste multimédia ou d’un acteur a
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia.
 
 Cet attribut peut avoir plusieurs valeurs. Pour récupérer toutes les valeurs d’un attribut à valeurs multiples, vous devez utiliser le *média*. méthode **getItemInfoByType** , pas le *média*. méthode **getItemInfo** .
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMAuthor.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMAuthor.
 
 L' **acteur** et l' **artiste** sont des alias de cet attribut.
 

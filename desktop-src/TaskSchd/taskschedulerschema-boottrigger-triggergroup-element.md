@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eb6ccf590893e19340662fd4c47e4aa68047b29d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a9067c5e343db0e3bce0972dc89bfc9fd8857d34a3ff9bd9fd65909c019c2e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119309569"
 ---
 # <a name="boottrigger-triggergroup-element"></a>Élément BootTrigger (triggerGroup)
 
@@ -68,7 +68,7 @@ L’élément **BootTrigger** est défini par le type complexe [**bootTriggerTyp
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, un déclencheur de démarrage est défini par l’objet [**BootTrigger**](boottrigger.md) .
 
@@ -84,8 +84,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déc
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

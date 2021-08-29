@@ -3,7 +3,7 @@ title: commande Seek
 description: La commande Seek passe à la position spécifiée et s’arrête. Les périphériques CD audio, Digital-Video, MIDI Sequencer, VCR, videodisc et Waveform-Audio reconnaissent cette commande.
 ms.assetid: e9e8ca14-d181-4f29-b4d3-c7f5b0301164
 keywords:
-- commande Seek Windows Multimedia
+- commande seek Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d40f3467d328e161245e77217b4ce6edfa9665ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 131b8138f67ae02d9a3d8f1e80693b0735368e2a622d5d8a7fe7c5a481da5542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892899"
 ---
 # <a name="seek-command"></a>commande Seek
 
@@ -96,7 +96,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) .
 

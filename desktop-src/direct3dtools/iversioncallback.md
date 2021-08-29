@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 905c6f085695ba20b7cdd3a363c3af5a833d598a
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: bd256ac6114eedcb327cd4ad7afdddf148db6c60
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122787485"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629562"
 ---
 # <a name="span-idvspixengineiversioncallbackspaniversioncallback-interface"></a><span id="vspixengine.iversioncallback"></span>Interface IVersionCallback
 
@@ -38,7 +38,7 @@ L’interface **IVersionCallback** hérite de l’interface [**IUnknown**](/wind
 
 L’interface **IVersionCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iversioncallback-versiontableready-guid-arr-uint"><strong>VersionTableReady</strong></a></td><td ><p>Fonction de rappel utilisée pour informer l’hôte des interfaces prises en charge.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iversioncallback-versiontableready-guid-arr-uint"><strong>VersionTableReady</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des interfaces prises en charge.</p></td></tr></tbody></table>
 
  
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0ee00394e81dadf147d54dffe0dc02199b2274e9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7c95ca7bff03cdd44e5bd5a331c696534e9a9ad43deacc49c181eb97fbc5ee9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491929"
 ---
 # <a name="id3dxtexturegutterhelpersettexelmap-method"></a>ID3DXTextureGutterHelper :: SetTexelMap, méthode
 

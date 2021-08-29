@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bf305b4028e223c36df0c8a59c5246228c5b8d40
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 65721977b535a799d3dfa679b026b2d1d06b3eb9d449e487ceaeeeacb135d625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106533548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034507"
 ---
 # <a name="playbackoperationcompleted-property"></a>PlaybackOperation. Completed, propriété
 
@@ -33,11 +33,11 @@ Cette propriété est en lecture/écriture.
 
 ```C++
 HRESULT put_Completed(
-  [in]  PlaybackOperationCompletedHandler *value
+  [in]  PlaybackOperationCompletedHandler *value
 );
 
 HRESULT get_Completed(
-  [out] PlaybackOperationCompletedHandler **value
+  [out] PlaybackOperationCompletedHandler **value
 );
 ```
 
@@ -54,9 +54,9 @@ Gestionnaire d'événements.
 [**PlaybackOperation**](playbackoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

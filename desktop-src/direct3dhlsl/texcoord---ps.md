@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9e871d1f91d89d0eb0ddadee34b5ac215916d0af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 476f618634ee42e1363a091f79c97410b3e3b765138696c5c12e8d3c3fcb5bdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043087"
 ---
 # <a name="texcoord---ps"></a>texcoord-PS
 
@@ -29,13 +29,13 @@ Interprète les données de coordonnée de texture (UVW1) en tant que données d
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -45,7 +45,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction interprète le jeu de coordonnées de texture (UVW1) correspondant au numéro de registre de destination en tant que données de couleur (RVBA). Si le jeu de coordonnées de texture contient moins de trois composants, les composants manquants ont la valeur 0. Le quatrième composant est toujours défini sur 1. Toutes les valeurs sont ancrées entre 0 et 1.
 
@@ -126,6 +126,6 @@ static CUSTOMVERTEX g_Vertices[]=
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,17 +1,17 @@
 ---
 description: Voici la liste de références pour les structures de périphérique téléphonique TAPI.
 ms.assetid: 0159a5d1-af1e-4e4b-910b-82f6ce128160
-title: Structures de l’appareil téléphonique
+title: Téléphone Structures d’appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f9c2448a00d0f226decf1615b3eb940ad5ad47f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4d8fe0f6edaedc06b1d2058300fb4682a623c47e75cc92d4c4b5e871cb25076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774039"
 ---
-# <a name="phone-device-structures"></a>Structures de l’appareil téléphonique
+# <a name="phone-device-structures"></a>Téléphone Structures d’appareils
 
 Voici la référence pour les structures de périphérique téléphonique, notamment :
 

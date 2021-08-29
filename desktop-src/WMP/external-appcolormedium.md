@@ -3,7 +3,7 @@ title: External. appColorMedium
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorMedium
 ms.assetid: 85381b64-6d6c-4e08-9d1d-05372c0b818c
 keywords:
-- External. appColorMedium Windows Media Player
+- External. appColorMedium Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db46980486ce4eff07a5da5bd1180c697daae2c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 902492a90363c09295f929feffcac5d60629033de2104f3c58127e3dbf880358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649579"
 ---
 # <a name="externalappcolormedium"></a>External. appColorMedium
 
@@ -28,7 +28,7 @@ ms.locfileid: "106526749"
 
  
 
-La propriété **appColorMedium** récupère la couleur moyenne grisée de l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorMedium** récupère la couleur de dégradé moyenne actuelle de l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorMedium
@@ -39,9 +39,9 @@ window.external.appColorMedium
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

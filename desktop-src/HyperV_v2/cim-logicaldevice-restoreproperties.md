@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c8298b4d88e3886c0f8d1321032f09379da7c9e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2472ca36acbc152340dc0b47a2a353d6ad168f88af560f1753994df70a81dde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046849"
 ---
 # <a name="restoreproperties-method-of-the-cim_logicaldevice-class"></a>Méthode RestoreProperties de la \_ classe du LOGICALDEVICE CIM
 

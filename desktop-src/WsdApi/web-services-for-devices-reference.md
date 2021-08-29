@@ -4,12 +4,12 @@ ms.assetid: 3aeeefab-2bb6-49d2-ab37-11358cd9185a
 title: Informations de référence sur les services Web sur les appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcaae866433c5e428bf53206d8a747f1641ca24c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e2ed28de07b596f33818ff9a1a4bacdc3dbdcee37df923997c25e3458c7462f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995179"
 ---
 # <a name="web-services-on-devices-reference"></a>Informations de référence sur les services Web sur les appareils
 

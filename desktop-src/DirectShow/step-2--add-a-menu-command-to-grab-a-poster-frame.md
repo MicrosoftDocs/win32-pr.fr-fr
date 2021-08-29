@@ -4,12 +4,12 @@ ms.assetid: 9a0f807b-5543-41d4-ad2a-030a4346131c
 title: 'Étape 2 : ajouter une commande de menu pour récupérer un cadre d’affiche'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d049dc4e79197cfbe0a86b065eaf67a5ea567a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f282ba112a9035edd9e75c9ea28709ec9c5dc137562ec75dbc5121de04dad864
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650899"
 ---
 # <a name="step-2-add-a-menu-command-to-grab-a-poster-frame"></a>Étape 2 : ajouter une commande de menu pour récupérer un cadre d’affiche
 

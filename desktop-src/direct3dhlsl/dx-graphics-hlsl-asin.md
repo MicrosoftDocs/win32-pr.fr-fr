@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a2f64865cb3172037f6630dc422a69aa4d135b1d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b7599eeb1a5de24e990e3fddcbd4e87241f9c8ee191f340ebdb9e172f84e8f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854989"
 ---
 # <a name="asin"></a>asin
 
@@ -49,7 +49,7 @@ Retourne l’arc sinus de la valeur spécifiée.
 
 Arcsinus du paramètre *x* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque composant du paramètre *x* doit être compris entre-π/2 et π/2.
 
@@ -72,9 +72,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui       |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | vs \_ 1 \_ 1  |
 
 

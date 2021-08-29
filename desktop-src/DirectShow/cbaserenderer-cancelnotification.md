@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3330f369c5fcc45fe051a1964a504d5d40fcd091
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be7366e6e22aa7e984fe4b50ea29edfa840d78380373d521c6cd8bfd226e1a42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635169"
 ---
 # <a name="cbaserenderercancelnotification-method"></a>Méthode CBaseRenderer. CancelNotification
 
@@ -49,13 +49,13 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                                  |
 |-----------------------------------------------------------------------------------------|----------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Aucun événement de minuterie en attente.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                          |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                          |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre appelle cette méthode lorsque la diffusion en continu s’arrête. La méthode annule tout rendu planifié.
 
@@ -65,7 +65,7 @@ Le filtre appelle cette méthode lorsque la diffusion en continu s’arrête. La
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,62 +4,62 @@ description: Manifeste de l’application (exécutable)
 ms.assetid: F46F33A6-0B2F-4086-9C6D-4AD43C26BCD3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de6f5a1d26af4b8ac6314655013ed56275bf7d73
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 4abd733bf1575a7f6106b0e6b2aaa068cffc56668dc595edc73ad0413c0c34e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104031985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549779"
 ---
 # <a name="app-executable-manifest"></a>Manifeste de l’application (exécutable)
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
 
-La section compatibilité du manifeste de l’application (exécutable) introduite dans Windows permet au système d’exploitation de déterminer les versions de Windows qu’une application a été conçue pour cibler. En outre, le manifeste de l’application permet à Windows de fournir le comportement attendu par l’application en fonction de la version de Windows ciblée par l’application.
+la section compatibilité du manifeste de l’application (exécutable) introduite dans Windows permet au système d’exploitation de déterminer les versions de Windows qu’une application a été conçue pour cibler. en outre, le manifeste de l’application permet à Windows de fournir le comportement attendu par l’application en fonction de la version de Windows ciblée par l’application.
 
-La section compatibilité du manifeste permet à Windows de fournir un nouveau comportement aux nouveaux logiciels tout en conservant la compatibilité des logiciels existants. Cette section permet également à Windows d’offrir une meilleure compatibilité dans les futures versions de Windows. Par exemple, une application qui déclare la prise en charge de Windows 8 uniquement dans la section compatibilité continuera à recevoir le comportement de Windows 8 dans les futures versions de Windows.
+la section compatibilité du manifeste permet à Windows de fournir un nouveau comportement aux nouveaux logiciels tout en conservant la compatibilité des logiciels existants. cette section vous aide à Windows offrir une meilleure compatibilité dans les futures versions de Windows également. par exemple, une application qui déclare uniquement la prise en charge de Windows 8 dans la section compatibilité continuera à recevoir Windows 8 comportement dans les futures versions de Windows.
 
 ## <a name="manifestation"></a>Manifestation
 
-Les applications sans section de compatibilité dans leur manifeste présentent le comportement de Windows Vista par défaut sur Windows 7 et Windows 8, ainsi que les versions futures de Windows. N’oubliez pas que Windows XP et Windows Vista ignorent cette section du manifeste et qu’il n’a aucun impact sur ces derniers.
+les applications sans section de compatibilité dans leur manifeste ont un comportement Windows Vista par défaut sur Windows 7, Windows 8 et les futures versions de Windows. n’oubliez pas que Windows XP et Windows Vista ignorent cette section du manifeste et qu’il n’a aucun impact sur ceux-ci.
 
-Ces composants Windows fournissent un comportement divergent en fonction de la section compatibilité :
+ces Windows composants fournissent un comportement divergent en fonction de la section compatibilité :
 
 **Pool de threads par défaut de l’appel de procédure distante (RPC)**
 
--   Windows 8 et Windows 7 : pour améliorer l’évolutivité et réduire le nombre de threads, RPC bascule vers le pool de threads NT (pool par défaut). Pour Windows Vista, RPC utilisait un pool de threads privés :
+-   Windows 8 et Windows 7 : pour améliorer l’extensibilité et réduire le nombre de threads, RPC basculé vers le pool de threads NT (pool par défaut). pour Windows Vista, RPC utilisait un pool de threads privés :
 
-    -   Pour les fichiers binaires compilés pour Windows 7 et les versions ultérieures de Windows, le pool par défaut est utilisé.
+    -   pour les fichiers binaires compilés pour Windows version 7 et les versions ultérieures de Windows, le pool par défaut est utilisé.
     -   Si I \_ RpcMgmtEnableDedicatedThreadPool est appelé avant l’appel d’une API RPC, le pool de threads privés est utilisé (comportement Vista).
     -   Si j' \_ RpcMgmtEnableDedicatedThreadPool est appelé après un appel RPC, le pool par défaut est utilisé, je \_ RpcMgmtEnableDedicatedThreadPool renvoie l’erreur 1764 et l’opération demandée n’est pas prise en charge.
 
--   Windows Vista (par défaut) : pour les fichiers binaires compilés pour Windows Vista et les versions antérieures de Windows, le pool privé est utilisé.
+-   Windows vista (par défaut) : pour les fichiers binaires compilés pour Windows Vista et les versions antérieures de Windows, le pool privé est utilisé.
 
 **Verrouillage DirectDraw**
 
--   Windows 8 et Windows 7 : les applications manifestées pour Windows 7 et les versions ultérieures du système d’exploitation ne peuvent pas appeler l’API Lock dans DDRAW pour verrouiller la mémoire tampon de la vidéo principale du bureau. Cela entraînera une erreur et un pointeur NULL pour le réplica principal est retourné. Ce comportement est appliqué même si Gestionnaire de fenêtrage composition n’est pas activée. Les applications dont la compatibilité est déclarée pour Windows 7 et les versions ultérieures ne doivent pas verrouiller la mémoire tampon vidéo principale à restituer.
+-   Windows 8 et Windows 7 : les applications manifestées pour Windows 7 et les versions ultérieures du système d’exploitation ne peuvent pas appeler l’API lock dans DDRAW pour verrouiller la mémoire tampon de la vidéo de bureau principale. Cela entraînera une erreur et un pointeur NULL pour le réplica principal est retourné. Ce comportement est appliqué même si Gestionnaire de fenêtrage composition n’est pas activée. les applications dont la compatibilité est déclarée pour Windows 7 et les versions ultérieures ne doivent pas verrouiller la mémoire tampon vidéo principale à restituer.
 -   Windows Vista (par défaut) : les applications peuvent acquérir un verrou sur la mémoire tampon vidéo principale, car les applications héritées dépendent de ce comportement. l’exécution de l’application désactive Gestionnaire de fenêtrage.
 
 **Transfert de bloc de bits (BitBlt) DirectDraw vers le réplica principal sans fenêtre de découpage**
 
--   Windows 8 et Windows 7 : les applications manifestes pour Windows 7 et les versions ultérieures de Windows ne sont pas en mesure d’effectuer un BitBlt dans la mémoire tampon vidéo principale du bureau sans fenêtre de découpage ; Cela génère une erreur et la zone BitBlt ne s’affiche pas. Windows applique ce comportement même si vous n’activez pas la composition Gestionnaire de fenêtrage. Les applications dont la compatibilité est déclarée pour Windows 7 et les versions ultérieures doivent effectuer un BitBlt dans une fenêtre de découpage.
+-   Windows 8 et Windows 7 : les applications qui se sont manifestées pour Windows 7 et les versions ultérieures de Windows ne peuvent pas exécuter bitblt dans la mémoire tampon vidéo principale du bureau sans fenêtre de découpage ; Cela génère une erreur et la zone BitBlt ne s’affiche pas. Windows applique ce comportement même si vous n’activez pas la Composition Gestionnaire de fenêtrage. les applications dont la compatibilité est déclarée pour Windows 7 et les versions ultérieures doivent effectuer un bitblt dans une fenêtre de découpage.
 -   Windows Vista (par défaut) : les applications doivent être en mesure d’effectuer un BitBlt sur le serveur principal sans fenêtre de découpage, car les applications héritées dépendent de ce comportement. l’exécution de cette application désactive l’Gestionnaire de fenêtrage.
 
 **API GetOverlappedResult**
 
--   Windows 8 et Windows 7 : résout une condition de concurrence dans laquelle une application multithread utilisant **GetOverlappedResult** peut retourner sans réinitialiser l’événement dans la structure OVERLAPPED, provoquant le retour prématuré de l’appel suivant à cette fonction.
--   Windows Vista (par défaut) : fournit le comportement avec la condition de concurrence sur laquelle les applications peuvent avoir une dépendance. Les applications qui doivent éviter cette concurrence avant le comportement de Windows 7 doivent attendre l’événement Overlapped et, lorsqu’elles sont signalées, appeler GetOverlappedResult avec bWait = = FALSe.
+-   Windows 8 et Windows 7 : résout une condition de concurrence dans laquelle une application multithread utilisant **GetOverlappedResult** peut retourner la valeur sans réinitialiser l’événement dans la structure overlapped, provoquant le retour prématuré de l’appel suivant à cette fonction.
+-   Windows Vista (par défaut) : fournit le comportement avec la condition de concurrence critique sur laquelle les applications peuvent avoir une dépendance. les applications qui doivent éviter cette concurrence avant le comportement Windows 7 doivent attendre l’événement overlapped et, lorsqu’elles sont signalées, appeler GetOverlappedResult avec bWait = = false.
 
 **État des thèmes de Shell en mode de contraste élevé**
 
 -   Windows 8 : retourne l’état des thèmes réels pour lorsqu’il est en mode de contraste élevé.
--   Windows 7 : retourne un thème non disponible en mode de contraste élevé, car DWM est toujours activé.
+-   Windows 7 : les retourne comme non disponible en mode de contraste élevé, car DWM est toujours activé.
 -   Windows Vista (par défaut) : retourne comme non disponible en mode de contraste élevé, car DWM est toujours activé.
 
 **Shell iPersistFile :: Save, méthode**
@@ -72,9 +72,9 @@ Ces composants Windows fournissent un comportement divergent en fonction de la s
 
 **Assistant Compatibilité des programmes (PCA)**
 
--   Windows 8 : les applications avec la section compatibilité n’obtiennent pas l’atténuation de l’APC.
--   Windows 7 : les applications avec la section compatibilité sont suivies pour détecter les problèmes de compatibilité potentiels pour les modifications apportées à Windows 8 (décrits dans ce document).
--   Windows Vista (par défaut) : les applications qui ne parviennent pas à s’installer correctement ou se bloquer pendant l’exécution dans certaines circonstances spécifiques obtiennent l’atténuation de l’APC. Pour plus d’informations, consultez la section ressources.
+-   Windows 8 : les applications avec la section compatibilité n’obtiennent pas l’atténuation de l’apc.
+-   Windows 7 : les applications avec la section compatibilité sont suivies pour détecter les éventuels problèmes de compatibilité relatifs aux modifications apportées à Windows 8 (décrit dans ce document).
+-   Windows Vista (par défaut) : les applications qui ne parviennent pas à s’installer correctement ou se bloquent pendant l’exécution dans certaines circonstances spécifiques obtiennent l’atténuation de l’APC. Pour plus d’informations, consultez la section ressources.
 
 ## <a name="leveraging-feature-capabilities"></a>Exploitation des fonctionnalités de fonctionnalités
 
@@ -88,24 +88,24 @@ Mettez à jour le manifeste d’application avec les dernières informations de 
 
 -   {e2011457-1546-43c5-a5fe-008deee3d3f0}
 
-    pour **Windows Vista**: il s’agit de la valeur par défaut pour le contexte Switchback
+    pour **Windows Vista**: il s’agit de la valeur par défaut pour le contexte switchback
 
 -   {35138b9a-5d96-4fbd-8e2d-a2440225f93a}
 
-    pour **Windows 7**: les applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement de Windows 7
+    pour **Windows 7**: les applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement Windows 7
 
 -   {4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}
 
-    pour **Windows 8**: les applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement de Windows 8
+    pour **Windows 8**: les applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement Windows 8
 
-Microsoft génère et publie des GUID pour les futures versions de Windows, si nécessaire.
+Microsoft génère et publie des guid pour les futures versions de Windows en fonction des besoins.
 
 Exemple XML d’un manifeste mis à jour :
 
 > [!Note]  
 > L’attribut et les noms de balise dans le manifeste de l’application respectent la casse.
 
- 
+ 
 
 
 ```XML
@@ -130,21 +130,21 @@ Les GUID pour tous les systèmes d’exploitation de l’exemple précédent off
 
 ## <a name="tests"></a>Tests
 
-Une application peut spécifier plusieurs ID de système d’exploitation pris en charge. Vous devez ajouter un ID de système d’exploitation pris en charge si vous avez testé ou si vous êtes en train de tester l’application sur le système d’exploitation. Windows Vista et les versions antérieures du système d’exploitation ne prêtent pas attention à ces entrées. À compter de Windows 7, Windows choisit le GUID de la version la plus élevée dans le manifeste jusqu’à la version Windows en cours d’exécution et donne à ce niveau la prise en charge de l’application. Pour vérifier que l’application fonctionne avec la nouvelle section de compatibilité du manifeste de l’application :
+Une application peut spécifier plusieurs ID de système d’exploitation pris en charge. Vous devez ajouter un ID de système d’exploitation pris en charge si vous avez testé ou si vous êtes en train de tester l’application sur le système d’exploitation. Windows Vista et les versions antérieures du système d’exploitation ne prêtent pas attention à ces entrées. à partir de Windows 7, Windows choisira le GUID de version le plus élevé dans le manifeste jusqu’à la version en cours d’exécution Windows, et fournira à ce niveau la prise en charge de l’application. Pour vérifier que l’application fonctionne avec la nouvelle section de compatibilité du manifeste de l’application :
 
-1.  Testez l’application avec la nouvelle section de compatibilité et la prise en charge d’ID = {4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38} pour vous assurer que l’application fonctionne correctement à l’aide du comportement Windows 8 le plus récent.
-2.  Testez l’application avec la nouvelle section de compatibilité et l’ID d’ID pris en charge = {35138b9a-5d96-4fbd-8e2d-a2440225f93a} pour vous assurer que l’application fonctionne correctement à l’aide du comportement de Windows 7.
-3.  Testez l’application avec la nouvelle section de compatibilité et l’ID d’ID pris en charge = {e2011457-1546-43C5-a5fe-008deee3d3f0} pour vous assurer que l’application fonctionne correctement à l’aide du comportement de Windows Vista.
+1.  testez l’application avec la nouvelle section de compatibilité et l’ID d’ID pris en charge = {4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38} pour vous assurer que l’application fonctionne correctement à l’aide du dernier comportement de Windows 8.
+2.  testez l’application avec la nouvelle section de compatibilité et l’ID d’ID pris en charge = {35138b9a-5d96-4fbd-8e2d-a2440225f93a} pour vous assurer que l’application fonctionne correctement à l’aide du comportement Windows 7.
+3.  testez l’application avec la nouvelle section de compatibilité et l’ID d’ID pris en charge = {e2011457-1546-43c5-a5fe-008deee3d3f0} pour vous assurer que l’application fonctionne correctement à l’aide du comportement Windows Vista.
 
 ## <a name="resources"></a>Ressources
 
 -   [QueryActCtxW fonction)](../sbscs/application-manifests.md)
 -   [Manifeste de contrôle de compte d’utilisateur](/previous-versions/bb756929(v=msdn.10))
--   [Manifestes d’application pour les applications Windows](../sbscs/application-manifests.md)
+-   [manifestes d’Application pour les applications Windows](../sbscs/application-manifests.md)
 -   [Gestionnaire de fenêtrage (DWM)](../dwm/dwm-overview.md)
 -   [Mise à jour des incompatibilités de contexte](https://support.microsoft.com/kb/978637)
 -   [Assistant Compatibilité des programmes](/previous-versions/bb756937(v=msdn.10))
 
- 
+ 
 
- 
+ 

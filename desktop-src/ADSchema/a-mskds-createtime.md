@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8554862d927e7011c616130b6cf4a4c298f2557a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ff647a129bfcc0c534f223e32a078ad91b532f086e3c2087083758dd8a71404c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104200607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704889"
 ---
 # <a name="ms-kds-createtime-attribute"></a>attribut ms-KDS-CreateTime
 

@@ -4,12 +4,12 @@ ms.assetid: 1d82b94b-4842-454a-aca4-823cd264ac52
 title: Magasins logiques et physiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a5441bac91e39b7f4c124daecd3a6a569c323c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69add3fbe8ebea9838dd45565f53685105d203e8a4e22958c490b931e1952152
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100789"
 ---
 # <a name="logical-and-physical-stores"></a>Magasins logiques et physiques
 
