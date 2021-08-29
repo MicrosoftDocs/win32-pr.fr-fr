@@ -3,7 +3,7 @@ title: Implémentation de CEchoPropPage OnInitDialog
 description: Implémentation de CEchoPropPage OnInitDialog
 ms.assetid: 568989b0-bc07-480f-8b5c-41bbada713f8
 keywords:
-- Plug-ins du lecteur Windows Media, pages de propriétés de l’exemple Echo
+- plug-ins Lecteur Windows Media, pages de propriétés de l’exemple Echo
 - plug-ins, pages de propriétés d’exemple Echo
 - plug-ins de traitement de signal numérique, pages de propriétés d’exemple Echo
 - Plug-ins DSP, pages de propriétés d’exemple Echo
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, CEchoPropPage OnInitDialog, méthode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0874c750914b5caecf86ffa61a0c42d38bb1c02e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa7f525ad5279b1215d597a043d0c091d51ddd4bf9fca8546dbcb90317a525f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135602"
 ---
 # <a name="implementing-cechoproppageoninitdialog"></a>Implémentation de CEchoPropPage :: OnInitDialog
 
@@ -117,9 +117,9 @@ SetDlgItemText(IDC_WETMIX, szStr);
 [**Modification de la page de propriétés de l’exemple Echo**](modifying-the-echo-sample-property-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

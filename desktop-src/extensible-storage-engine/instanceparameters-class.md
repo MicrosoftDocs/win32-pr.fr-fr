@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2be51a877ceb0f6a57f0bbb5232024f123805700
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 317d24bc57ca9debd9bd8d8bce4f2106c5f3072a4b9691e34dc73a65fdac9d3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112558"
 ---
 # <a name="instanceparameters-class"></a>InstanceParameters, classe
 
