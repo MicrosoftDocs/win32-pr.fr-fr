@@ -3,7 +3,7 @@ title: PLAYLIST. colonnes
 description: L’attribut Columns définit les colonnes qui apparaissent dans l’élément PLAYLIST.
 ms.assetid: a805ee06-cf73-4eab-bcda-c374e55cd11a
 keywords:
-- SÉLECTION. colonnes lecteur Windows Media
+- PLAYLIST. columns Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc5f8ef5dc76428ca892d079b60692e6949a5ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e648dd59ab7c650aad38379dbc7320446c262b4a4970caa1fcca612c4e21b443
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123249"
 ---
 # <a name="playlistcolumns"></a>PLAYLIST. colonnes
 
@@ -47,7 +47,7 @@ nom de la base de noms \_ = nom convivial ; nom de la base de noms \_ \_ = \_ n
 | Activée           | Réservé pour un usage futur.                                                                                                |
 | copyright         | Copyright de la sélection. Non utilisé avec les sélections de CD ou les éléments multimédias.                                               |
 | CreationDate      | Date et heure de création de l’entrée dans la bibliothèque. Utilisé uniquement avec les éléments de la bibliothèque.                     |
-| DigitallySecure   | Indique si l’élément est protégé par le gestionnaire de droits Windows Media. Utilisé uniquement avec les éléments multimédias de la bibliothèque. |
+| DigitallySecure   | indique si l’élément est protégé avec Windows Media Rights Manager. Utilisé uniquement avec les éléments multimédias de la bibliothèque. |
 | Duration          | Durée de l’élément multimédia.                                                                                         |
 | FileType          | Réservé pour un usage futur.                                                                                                |
 | Genre             | Genre de la sélection. Non utilisé avec les playlists des CDs.                                                            |
@@ -69,7 +69,7 @@ nom de la base de noms \_ = nom convivial ; nom de la base de noms \_ \_ = \_ n
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’une des colonnes n’existe pas dans la bibliothèque, elle est laissée vide.
 

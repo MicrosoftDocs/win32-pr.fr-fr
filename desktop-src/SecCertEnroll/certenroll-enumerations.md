@@ -4,12 +4,12 @@ ms.assetid: 8514fb89-1cf5-4e09-997c-17984efc4e03
 title: Énumérations CertEnroll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 982373d58b5f603fbe79d5f61fa2c6c7724e5e70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1e77316de5deb6d1f0ad0bb0a341dbeb4ab3241be9b333f6779e024278449e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903091"
 ---
 # <a name="certenroll-enumerations"></a>Énumérations CertEnroll
 
@@ -37,7 +37,7 @@ Les énumérations suivantes sont prises en charge par l’API d’inscription d
 | [**KeyIdentifierHashAlgorithm**](/windows/desktop/api/CertEnroll/ne-certenroll-keyidentifierhashalgorithm)                    | Spécifie l’algorithme utilisé pour hacher la clé publique dans une demande de certificat.                                                                                                                                                                                                                                            |
 | [**ObjectIdGroupId**](/windows/desktop/api/CertEnroll/ne-certenroll-objectidgroupid)                                          | Spécifie la catégorie ou le groupe auquel appartient un OID.                                                                                                                                                                                                                                                                 |
 | [**ObjectIdPublicKeyFlags**](/windows/desktop/api/CertEnroll/ne-certenroll-objectidpublickeyflags)                            | Spécifie si un algorithme de clé publique est utilisé pour la signature ou le chiffrement.                                                                                                                                                                                                                                          |
-| [**PFXExportOptions**](/windows/desktop/api/CertEnroll/ne-certenroll-pfxexportoptions)                                        | Spécifie la quantité d’une chaîne de certificats incluse lors de la création d’un message d’échange d’informations personnelles (PFX).                                                                                                                                                                                                       |
+| [**PFXExportOptions**](/windows/desktop/api/CertEnroll/ne-certenroll-pfxexportoptions)                                        | spécifie la quantité d’une chaîne de certificats incluse lors de la création d’un message de Exchange d’informations personnelles (PFX).                                                                                                                                                                                                       |
 | [**Pkcs10AllowedSignatureTypes**](/windows/desktop/api/CertEnroll/ne-certenroll-pkcs10allowedsignaturetypes)                  | Spécifie le type de signature autorisé lors de la signature d’une demande de certificat.                                                                                                                                                                                                                                            |
 | [**PolicyQualifierType**](/windows/desktop/api/CertEnroll/ne-certenroll-policyqualifiertype)                                  | Spécifie le type de qualificateur appliqué à une stratégie de certificat.                                                                                                                                                                                                                                                         |
 | [**PolicyServerUrlFlags**](/windows/desktop/api/Certenroll/ne-certenroll-policyserverurlflags)                                     | Contient les indicateurs de serveur de stratégie d’inscription de certificats (CEP).                                                                                                                                                                                                                                                               |

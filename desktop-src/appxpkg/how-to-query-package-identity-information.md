@@ -1,19 +1,19 @@
 ---
 title: Informations sur le manifeste du package d’application de requête (C++)
-description: Découvrez comment obtenir des informations à partir du manifeste de package d’application pour une application Windows à l’aide de l’API de Packaging.
+description: découvrez comment obtenir des informations à partir du manifeste de package d’application pour une application Windows à l’aide de l’API de packaging.
 ms.assetid: A29986F9-C620-48CD-87F8-525DFA076AAB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9940f92a4412be7731db2454d68b4429522b63f6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5407d19577fe917046e9664e9a946b3d9f4acc8c8a15cab1edfab2a934f0d93e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994179"
 ---
 # <a name="query-app-package-manifest-info-c"></a>Informations sur le manifeste du package d’application de requête (C++)
 
-Découvrez comment obtenir des informations à partir du manifeste de package d’application pour une application Windows à l’aide de l' [API de Packaging](interfaces.md).
+découvrez comment obtenir des informations à partir du manifeste de package d’application pour une application Windows à l’aide de l' [API de packaging](interfaces.md).
 
 ### <a name="create-a-package-manifest-reader"></a>Créer un lecteur de manifeste du package
 
@@ -355,6 +355,6 @@ CoUninitialize();
 [**IAppxManifestReader**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxmanifestreader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

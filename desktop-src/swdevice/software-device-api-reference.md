@@ -4,12 +4,12 @@ description: Cette référence décrit les fonctions de l’API du périphériqu
 ms.assetid: F7974EF3-AFF6-483C-9C95-542BB0BFA7E1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c6aa7f3cec4ddd43e29e4e0d8996957619587f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 199dbbd727672ea49b2817c421bd88268d53bcd3686af38d71355b91593497ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941549"
 ---
 # <a name="software-device-api-reference"></a>Informations de référence sur l’API de périphérique logiciel
 

@@ -4,12 +4,12 @@ ms.assetid: 97b9c9ec-e758-4928-b3fa-90d220bca5fb
 title: Conception d’objets et de compteurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9556882f5dd6c323697d9d41fa80727895550a5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb925c30fa285e3517d8d2ad777b12e60dc9c3cdb1fbd524974150c867a5e6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143982"
 ---
 # <a name="object-and-counter-design"></a>Conception d’objets et de compteurs
 
@@ -19,7 +19,7 @@ Un objet à instances multiples retourne une instance de l’objet pour chaque o
 
 Après avoir décidé si votre objet prend en charge une seule instance ou plusieurs instances, vous devez choisir le type de compteurs que vous souhaitez donner à l’objet. Par exemple, vous pouvez fournir des valeurs de compteur qui s’affichent sous forme de valeurs brutes, de taux ou de pourcentages.
 
-Pour obtenir la liste des types de compteurs prédéfinis que vous devez choisir, consultez la section types de compteurs du [Kit de déploiement de Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Selon le type de compteur, vous pouvez simplement fournir les données brutes, ou vous devrez peut-être également fournir des informations de temps et de fréquence et des données de compteur supplémentaires utilisées par le consommateur pour calculer une valeur affichable.
+pour obtenir la liste des types de compteurs prédéfinis que vous devez choisir, consultez la section types de compteurs du [Kit de déploiement Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Selon le type de compteur, vous pouvez simplement fournir les données brutes, ou vous devrez peut-être également fournir des informations de temps et de fréquence et des données de compteur supplémentaires utilisées par le consommateur pour calculer une valeur affichable.
 
 La méthode que vous utilisez pour collecter les données peut être aussi simple que l’incrémentation d’un compteur chaque fois qu’une routine particulière de l’application est appelée, ou il peut impliquer des calculs longs. Les compteurs et les minuteurs doivent s’incrémenter et ne jamais être effacés. Les compteurs peuvent être encapsulés, à condition qu’ils ne soient pas encapsulés deux fois par le consommateur. Votre application peut collecter et stocker des données pendant leur exécution normale, à condition qu’elles n’affectent pas ses performances.
 

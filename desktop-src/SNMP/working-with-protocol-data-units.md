@@ -7,12 +7,12 @@ keywords:
 - Unités de données de protocole SNMP, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e40f36fa28f7ff17974d79f4f8ac29b8b6130b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b61fff4aed06d548718df130801c5c64674ff0b10feaf52b8bfad208d441d4fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142762"
 ---
 # <a name="working-with-protocol-data-units"></a>Utilisation d’unités de données de protocole
 
@@ -34,13 +34,13 @@ L’application peut extraire et mettre à jour les éléments de données d’u
 
 
 
- 
+ 
 
 Pour plus d’informations, consultez [utilisation des listes de liaisons de variables](working-with-variable-binding-lists.md) et des objets de handle de [ressource](resource-handle-objects.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: abc21696-ea97-41ff-9341-6d9e9dcb19ec
 title: Attribut MF_PD_DURATION (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ace7bd4f897de0220c2c449ce4fa891ac52eb200
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9662e68c2380ad1ef9d009302a08d8798ab228fae0fe2b00528d37a4f7269c33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664099"
 ---
 # <a name="mf_pd_duration-attribute"></a>\_ \_ Attribut durée MF PD
 
@@ -21,7 +21,7 @@ Spécifie la durée d’une présentation, en unités de 100 nanosecondes.
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les sources multimédias peuvent définir cet attribut sur un descripteur de présentation pour indiquer la durée de la présentation.
 
@@ -59,8 +59,8 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

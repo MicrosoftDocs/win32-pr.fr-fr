@@ -3,9 +3,9 @@ title: IWMPMedia propriété imageSourceHeight
 description: La propriété imageSourceHeight obtient la hauteur de l’élément multimédia actuel en pixels.
 ms.assetid: d60f1713-7110-4605-9009-45825c380546
 keywords:
-- propriété imageSourceHeight lecteur Windows Media
-- propriété imageSourceHeight lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété imageSourceHeight
+- Lecteur Windows Media de la propriété imageSourceHeight
+- Lecteur Windows Media de la propriété imageSourceHeight, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété imageSourceHeight
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b80a702f119ba72220e5ac3ac86b524ce8c11c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2b2e50aecc0efc13db4fe8f2a78cffe4ed95833d55ca9b1de70af31191aec1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861779"
 ---
 # <a name="iwmpmediaimagesourceheight-property"></a>IWMPMedia :: imageSourceHeight, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property imageSourceHeight As System.Int32
 
 **System. Int32** qui correspond à la hauteur de l’élément multimédia.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément multimédia n’est pas celui en cours, cette propriété retourne la valeur zéro.
 

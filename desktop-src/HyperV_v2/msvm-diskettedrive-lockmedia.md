@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5f5f87354aa7c39534e8b32c8985c5d18b55caa9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 31cdddccf5a62c5f26f83351977090fa5c5a33e24476a3de4e88ee5e40938f8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431029"
 ---
 # <a name="lockmedia-method-of-the-msvm_diskettedrive-class"></a>Méthode LockMedia de la \_ classe DisketteDrive MSVM
 
@@ -46,7 +46,7 @@ uint32 LockMedia(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 en cas de réussite ; Sinon, retourne l’une des valeurs suivantes :
 

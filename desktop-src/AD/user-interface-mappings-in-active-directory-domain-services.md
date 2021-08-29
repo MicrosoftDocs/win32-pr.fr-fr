@@ -5,12 +5,12 @@ ms.assetid: a283e324-7057-4edc-ba28-dc002af40df3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a23e3ec05c6f2ce5cb007e1034c5e96dd6cff7d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 25e4b9c36c6de191715b08f245b92e90077062b45d2c5def83800ffbeece2070
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024506"
 ---
 # <a name="user-interface-mappings-in-active-directory-domain-services"></a>Mappages de l’interface utilisateur dans Active Directory Domain Services
 
@@ -18,9 +18,9 @@ L’interface utilisateur de Active Directory Domain Services comprend des feuil
 
 -   [Mappages pour le composant logiciel enfichable utilisateurs et ordinateurs Active Directory](mappings-for-the-active-directory-users-and-computers-snap-in.md)
 
- 
+ 
 
- 
+ 
 
 
 

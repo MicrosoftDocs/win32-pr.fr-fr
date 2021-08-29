@@ -7,12 +7,12 @@ keywords:
 - Liste de liaisons de variables SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26719c7dc987e61542f38a0b86db78c573793f98
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 35abc72501d1b3f93dcc6bf0004f5425e951e299f7948d239888ea010d295252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103723666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142714"
 ---
 # <a name="working-with-variable-binding-lists"></a>Utilisation des listes de liaisons de variables
 
@@ -31,13 +31,13 @@ L’application WinSNMP peut construire et manipuler des listes de liaisons de v
 
 
 
- 
+ 
 
 Pour plus d’informations sur les liaisons de variables et les listes de liaisons de variables, consultez [RFC1905](https://www.ietf.org/rfc/rfc1905.txt), « protocole Operations for version 2 of simple Network Management Protocol (SNMPv2) » et les [fonctions de liaison de variable](winsnmp-functions.md)winsnmp.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f34f8f39-f03c-4adf-afa8-9cb9ed48d149
 title: Recherche d’assemblys
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f257b7da8099508fb268623a175d8ebd8e9d8337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1d5ffe20d7453581bd76e8d2e737fde6cab5f470d22b516c6fc28a7182e9382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141922"
 ---
 # <a name="searching-for-assemblies"></a>Recherche d’assemblys
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59fac3449ee48659980681c836d24406c4db7e2b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57226d3497639107db9378926734a8a6d4507c3436aa65a89109d88d15f91d32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685859"
 ---
 # <a name="copyhelperattribute-function"></a>CopyHelperAttribute fonction)
 
@@ -44,16 +44,16 @@ HRESULT CopyHelperAttribute(
 *Dest* \[ . à\]
 </dt> <dd>
 
-Type : **\* [**\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)* _
+Type : **[ **\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)\***
 
 Structure à mettre à jour.
 
 </dd> <dt>
 
-_Source * \[ dans\]
+*Source* \[ dans\]
 </dt> <dd>
 
-Type : **\* [**\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)const* _
+Type : **\* [**\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute) const**
 
 Structure existante à copier.
 
@@ -61,7 +61,7 @@ Structure existante à copier.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les éléments suivants.
 
@@ -83,8 +83,8 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

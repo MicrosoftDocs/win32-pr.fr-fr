@@ -5,12 +5,12 @@ ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03fe69228021fe8d3f36f03e60cb2366b6132f59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7def50c94a044a521b32b75d8e04175ebe3c37ee741f5c22663924c774be1806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050277"
 ---
 # <a name="set-the-default-process-security-level-with-vbscript"></a>Définir le niveau de sécurité de processus par défaut avec VBScript
 
@@ -54,7 +54,7 @@ Next
 Pour plus d’informations sur la définition d’un autre niveau d’emprunt d’identité ou d’authentification dans un script, ou pour définir les valeurs par défaut d’un ordinateur, consultez les rubriques suivantes :
 
 -   [Modification des informations d’authentification par défaut à l’aide de VBScript](#changing-the-default-authentication-credentials-using-vbscript)
--   [Modification des paramètres d’emprunt d’identité par défaut à l’aide de VBScript](#changing-the-default-impersonation-levels-using-vbscript)
+-   [modification de l’emprunt d’identité par défaut Paramètres à l’aide de VBScript](#changing-the-default-impersonation-levels-using-vbscript)
 -   [Définition du niveau d’emprunt d’identité par défaut à l’aide du Registre](#setting-the-default-impersonation-level-using-the-registry)
 -   [Accès à l’objet SWbemSecurity dans VBScript](#accessing-the-swbemsecurity-object-in-vbscript)
 -   [**SWbemSecurity**](swbemsecurity.md)
@@ -104,9 +104,9 @@ Le tableau suivant répertorie les niveaux d’authentification que vous pouvez 
 
 | Nom/valeur                                                      | Description                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **WbemAuthenticationLevelDefault**<br/> 0<br/>      | Moniker : par défaut<br/> WMI utilise le paramètre d’authentification Windows par défaut. Il s’agit du paramètre recommandé qui permet à WMI de négocier au niveau requis par le serveur qui retourne des données. Toutefois, si l’espace de noms requiert le chiffrement, utilisez **WbemAuthenticationLevelPktPrivacy**.<br/> |
+| **WbemAuthenticationLevelDefault**<br/> 0<br/>      | Moniker : par défaut<br/> WMI utilise le paramètre d’authentification par défaut Windows. Il s’agit du paramètre recommandé qui permet à WMI de négocier au niveau requis par le serveur qui retourne des données. Toutefois, si l’espace de noms requiert le chiffrement, utilisez **WbemAuthenticationLevelPktPrivacy**.<br/> |
 | **WbemAuthenticationLevelNone**<br/> 1<br/>         | Moniker : aucun<br/> N’utilise aucune authentification.<br/>                                                                                                                                                                                                                                            |
-| **WbemAuthenticationLevelConnect**<br/> 2<br/>      | Moniker : se connecter<br/> Authentifie les informations d’identification du client uniquement lorsque le client établit une relation avec le serveur.<br/>                                                                                                                                                    |
+| **WbemAuthenticationLevelConnect**<br/> 2<br/>      | Moniker : Connecter<br/> Authentifie les informations d’identification du client uniquement lorsque le client établit une relation avec le serveur.<br/>                                                                                                                                                    |
 | **WbemAuthenticationLevelCall**<br/> 3<br/>         | Appeler<br/> Authentifie uniquement au début de chaque appel lorsque le serveur reçoit la demande.<br/>                                                                                                                                                                                      |
 | **WbemAuthenticationLevelPkt**<br/> 4<br/>          | Moniker : PKT<br/> Authentifie que toutes les données reçues proviennent du client attendu.<br/>                                                                                                                                                                                                   |
 | **WbemAuthenticationLevelPktIntegrity**<br/> 5<br/> | Moniker : PktIntegrity<br/> Authentifie et vérifie qu’aucune des données transférées entre le client et le serveur n’a été modifiée.<br/>                                                                                                                                                  |

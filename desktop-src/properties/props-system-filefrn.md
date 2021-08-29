@@ -4,12 +4,12 @@ ms.assetid: 65189671-1b55-4933-9dee-a120b38caa98
 title: System. FileFRN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9aa536e0cdda3f42fd9e03315156716ef499c5f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 704e387e89f914918effe5394c0ca66ab00d837123fe58beacfa5354dfc9a3a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727470"
 ---
 # <a name="systemfilefrn"></a>System. FileFRN
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

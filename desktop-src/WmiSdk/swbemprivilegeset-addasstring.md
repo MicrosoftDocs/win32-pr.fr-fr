@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b3a740141b14766080a09d01b36b5c0202351eda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f474f1650cae338a7790ac6d5cb66a248be6c6658d5f2577efcc56870000cc66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860059"
 ---
 # <a name="swbemprivilegesetaddasstring-method"></a>Méthode SWbemPrivilegeSet. AddAsString
 

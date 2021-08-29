@@ -6,12 +6,12 @@ keywords:
 - Référence MCI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27cc54f69e714960d189567e759cf4b254275807
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 6f2c8f91f779ca55d0915c31ac110d5aef77a5171fa4eed110e2911c5167c4df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106524836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039049"
 ---
 # <a name="mci-reference"></a>Référence MCI
 
@@ -137,7 +137,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**étapes de l' \_ étape MCI VCR \_ \_**](mci-vcr-step-parms.md)
 -   [**étapes de l' \_ étape MCI VD \_ \_**](mci-vd-step-parms.md)
 -   [**Demandez**](seek.md)
--   [**témoin**](signal.md)
+-   [**signal**](signal.md)
 -   [**première**](step.md)
 
 ## <a name="editing"></a>Modification
@@ -171,7 +171,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**les \_ PARMS ouverts MCI \_**](mci-open-parms.md)
 -   [**\_OVLY \_ ouvrir les \_ PARMS MCI**](mci-ovly-open-parms.md)
 -   [**affiche les PARMS de l' \_ onde MCI \_ \_**](mci-wave-open-parms.md)
--   [**afficher**](open.md)
+-   [**ouvert**](open.md)
 
 ## <a name="realizing-a-palette"></a>Réalisation d’une palette
 

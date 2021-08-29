@@ -4,12 +4,12 @@ ms.assetid: a92bc4d2-257a-478a-b10d-4fada4323c9b
 title: Niveaux de suivi Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b225558015fb823cd02028a1ae1433d3d0549896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e1dbc746b90d77353d19b381c8eceed82eceec0d878b347bb3aa309a0df939b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733149"
 ---
 # <a name="winsock-tracing-levels"></a>Niveaux de suivi Winsock
 
@@ -38,7 +38,7 @@ La liste suivante détaille les opérations de socket d’événements réseau W
 
     L’adresse IP locale est journalisée pour aider à mettre en corrélation les informations de suivi Winsock avec les appels de socket d’une application.
 
--   Se connecter
+-   Connecter
 
     L’adresse IP distante du socket connecté est journalisée pour aider à mettre en corrélation les informations de suivi Winsock avec les appels de socket d’une application.
 
