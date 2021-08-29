@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, description, liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b18b8d3872c830d90079ad740505fead14c1b3c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a08b0741b27360fe81c2ed713ee39189ef043073c03bc7e12d53165f8a09146c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021438"
 ---
 # <a name="essential-rpc-binding-terminology"></a>Terminologie des liaisons RPC essentielles
 
@@ -49,6 +49,6 @@ Les programmes clients créent une liaison avec le serveur pour établir une ses
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

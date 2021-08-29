@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a32a3ee275c32dde7d9f1484aa99dddeaf97a2e9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 054cb165a7c59f91bf7df31561a8a5c24a25b2a0acda39d4cb5f35791f30ea25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973379"
 ---
 # <a name="win32_logicaldisktopartition-class"></a>\_Classe LogicalDiskToPartition Win32
 
@@ -122,7 +122,7 @@ Cette propriété est héritée de [**CIM \_ BasedOn**](cim-basedon.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ LogicalDiskToPartition** est dérivée de [**CIM \_ LogicalDiskBasedOnPartition**](cim-logicaldiskbasedonpartition.md).
 

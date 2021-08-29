@@ -4,12 +4,12 @@ ms.assetid: 50b3ada0-bdf7-4c61-8cfc-17fbb4a7d1e6
 title: System. DRM. IsProtected
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1501cf969df9e7244908b1210d92c9de002646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74cb5d6a4492529612cf5b334ba72cf185dc2c4026a06641fe5b481455043472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059189"
 ---
 # <a name="systemdrmisprotected"></a>System. DRM. IsProtected
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

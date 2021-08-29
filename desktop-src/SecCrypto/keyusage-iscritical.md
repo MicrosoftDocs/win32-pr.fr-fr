@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b1829da9c9ddbcf5261f4cc595b72b8596193078
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1f383281d174b1a954566fb751fc3f3fa9f087648a60ede740f9efd5ec66007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408879"
 ---
 # <a name="keyusageiscritical-property"></a>KeyUsage. IsCritical, propriété
 
@@ -45,7 +45,7 @@ Si la **valeur est true**, l’extension KeyUsage est marquée comme critique.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

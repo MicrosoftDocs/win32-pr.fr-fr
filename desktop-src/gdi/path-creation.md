@@ -4,12 +4,12 @@ ms.assetid: 3691c3ab-f634-476d-a56b-1c187cb12120
 title: Création du chemin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caec86d5d7ca5548d021e3c959eac93633f8880c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: cf2acfeb5c3e31f2f846bff06cf0a0d5b880fc95ed314538036632a83076b8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831549"
 ---
 # <a name="path-creation"></a>Création du chemin
 
@@ -20,7 +20,7 @@ Pour créer un chemin d’accès et le sélectionner dans un DC, vous devez d’
 -   [**ArcTo**](/windows/desktop/api/Wingdi/nf-wingdi-arcto)
 -   [**Chord**](/windows/desktop/api/Wingdi/nf-wingdi-chord)
 -   [**CloseFigure**](/windows/desktop/api/Wingdi/nf-wingdi-closefigure)
--   [**Ellipse**](/windows/desktop/api/Wingdi/nf-wingdi-ellipse)
+-   [**Es**](/windows/desktop/api/Wingdi/nf-wingdi-ellipse)
 -   [**ExtTextOut**](/windows/desktop/api/Wingdi/nf-wingdi-exttextouta)
 -   [**LineTo**](/windows/desktop/api/Wingdi/nf-wingdi-lineto)
 -   [**MoveToEx**](/windows/desktop/api/Wingdi/nf-wingdi-movetoex)
@@ -40,7 +40,7 @@ Pour créer un chemin d’accès et le sélectionner dans un DC, vous devez d’
 Quand une application appelle [**EndPath**](/windows/desktop/api/Wingdi/nf-wingdi-endpath), le système sélectionne le chemin d’accès associé dans le contrôleur de réseau spécifié. (Si un autre chemin avait déjà été sélectionné dans le contrôleur de réseau, le système supprime ce chemin sans l’enregistrer.) Une fois que le système a sélectionné le chemin d’accès dans le contrôleur de réseau, une application peut fonctionner sur le chemin d’accès de l’une des manières suivantes :
 
 -   Dessine le contour du tracé (à l’aide du stylet actuel).
--   Peindre l’intérieur du tracé (à l’aide du pinceau actuel).
+-   Paint l’intérieur du tracé (à l’aide du pinceau actuel).
 -   Dessinez le contour et remplissez l’intérieur du tracé.
 -   Modifiez le chemin d’accès (en convertissant les courbes en segments de ligne).
 -   Convertit le tracé en tracé de clip.

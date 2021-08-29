@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b940a33d27d05fd75b154c6dc59c68b9e456d6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bf7025df1c7916f416b60a2f481cbbfd62ee86ffcebe97031e7212ab53163d32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835429"
 ---
 # <a name="unixhomedirectory-attribute"></a>attribut unixHomeDirectory
 
@@ -42,7 +42,7 @@ Contient le chemin d’accès absolu au répertoire de départ.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

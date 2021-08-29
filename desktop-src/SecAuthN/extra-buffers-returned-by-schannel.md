@@ -4,12 +4,12 @@ ms.assetid: 5fad1e76-6520-4ff7-b2b0-2cc2061062a1
 title: Mémoires tampons supplémentaires retournées par Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b0c9ce7a468b1b04389ad19f91785b64fb50e74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ac66964c2551c503dca6282ed0978174fd66ec27bffbd45c448479bd1a499c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994459"
 ---
 # <a name="extra-buffers-returned-by-schannel"></a>Mémoires tampons supplémentaires retournées par Schannel
 

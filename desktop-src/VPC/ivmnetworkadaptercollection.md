@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8005b88cb873f00708829672cdeb6563b606d42b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b532f96343ac0ced3598b8da9f74f1334e6a081e8217994ffce1d2314cadfc79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973957"
 ---
 # <a name="ivmnetworkadaptercollection-interface"></a>Interface IVMNetworkAdapterCollection
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit une collection de cartes d’interface réseau virtuelles. Pour obtenir un objet IVMNetworkAdapterCollection, utilisez les propriétés [**IVMVirtualMachine :: NetworkAdapters**](ivmvirtualmachine-networkadapters.md), [**IVMVirtualNetwork :: NetworkAdapters**](ivmvirtualnetwork-networkadapters.md)et [**IVMVirtualPC :: UnconnectedNetworkAdapters**](ivmvirtualpc-unconnectednetworkadapters.md) .
 
@@ -43,7 +43,7 @@ L’interface **IVMNetworkAdapterCollection** possède les propriétés suivante
 | Propriété                                                             | Type d’accès          | Description                                                                                                   |
 |:---------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmnetworkadaptercollection--newenum.md)<br/> | Lecture seule<br/> | Énumérateur de la collection.<br/>                                                                  |
-| [**Saut**](ivmnetworkadaptercollection-count.md)<br/>        | Lecture seule<br/> | Nombre d’interfaces réseau de cette collection.<br/>                                               |
+| [**Count**](ivmnetworkadaptercollection-count.md)<br/>        | Lecture seule<br/> | Nombre d’interfaces réseau de cette collection.<br/>                                               |
 | [**Élément**](ivmnetworkadaptercollection-item.md)<br/>          | Lecture seule<br/> | Objet [**IVMNetworkAdapter**](ivmnetworkadapter.md) qui correspond à l’index spécifié.<br/> |
 
 
@@ -56,7 +56,7 @@ L’interface **IVMNetworkAdapterCollection** possède les propriétés suivante
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                           |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                  |

@@ -4,12 +4,12 @@ ms.assetid: 10c33787-72d3-4e5d-b4dd-633b3fd29903
 title: Signatures numériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 299d84d1a1c71b6b6d709dbe67b4fa2c81f4b54e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76dfbf31de87edb2f62531266ee62378cadefa437ebd79913ac66bfc718d612d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875371"
 ---
 # <a name="digital-signatures"></a>Signatures numériques
 

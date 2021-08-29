@@ -3,7 +3,7 @@ title: Message EM_SETTYPOGRAPHYOPTIONS (RichEdit. h)
 description: Définit l’état actuel des options typographiques d’un contrôle RichEdit.
 ms.assetid: 000e72a6-3f8c-4735-8190-3ac06a2206ac
 keywords:
-- EM_SETTYPOGRAPHYOPTIONS les contrôles de message Windows
+- EM_SETTYPOGRAPHYOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0528e19aacec394c5af6250536fdc4f693e60ece
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aec3938e4322a13303ec2fc336b47d7e61a51eea58d49214001720a371f0326a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437449"
 ---
 # <a name="em_settypographyoptions-message"></a>\_Message SETTYPOGRAPHYOPTIONS em
 
@@ -58,7 +58,7 @@ Masque constitué d’un ou plusieurs indicateurs dans *wParam*. Seuls les indic
 
 Retourne la **valeur true** si *wParam* est valide, sinon **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le saut de ligne avancé est activé automatiquement par le contrôle RichEdit si nécessaire, par exemple pour la gestion de scripts complexes tels que l’arabe et l’hébreu, ainsi que pour les mathématiques. Elle est également nécessaire pour les paragraphes justifiés, la césure et d’autres fonctionnalités typographiques.
 
@@ -68,8 +68,8 @@ Le saut de ligne avancé est activé automatiquement par le contrôle RichEdit s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

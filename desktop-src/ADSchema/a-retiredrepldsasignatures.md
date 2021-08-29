@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a9a4cb4030a8d3aa24244bc2e7a2702e83686fc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d0521644304cef0af7d0b1ba01b582e5b5ae64b1921736925008e7394e4b1a46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646899"
 ---
 # <a name="retired-repl-dsa-signatures-attribute"></a>Retirée-REPL-DSA-attribut signatures
 
@@ -46,7 +46,7 @@ Effectue le suivi des identités de réplication DS passées d’un contrôleur 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

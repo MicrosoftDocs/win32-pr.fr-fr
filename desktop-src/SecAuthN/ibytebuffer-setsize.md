@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 85a6abc11f3e007f3c8d1057cb5c8785c8519ebf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0d210d7868542bf02b544c91b6f33e3ba6e5381f25462f2cfedce555858cecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016239"
 ---
 # <a name="ibytebuffersetsize-method"></a>IByteBuffer :: deinstalle, méthode
 
-\[La méthode **configure** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
+\[La méthode **configure** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
 
 La méthode **configure** modifie la taille de l’objet de flux.
 
@@ -52,7 +52,7 @@ Nouvelle taille du flux sous la forme d’un nombre d’octets
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **IByteBuffer :: configure** modifie la taille de l’objet de flux. Appelez cette méthode pour préallouer de l’espace pour le flux. Si le paramètre *libNewSize* est plus grand que la taille de flux actuelle, le flux est étendu à la taille indiquée en remplissant l’espace intermédiaire avec des octets de valeur non définie. Cette opération est semblable à la méthode [**IByteBuffer :: Write**](ibytebuffer-write.md) si le pointeur de recherche se trouve au-delà de la fin de flux actuelle.
 
@@ -85,8 +85,8 @@ if (FAILED(hr))
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardssp. h</dt> </dl>   |

@@ -4,27 +4,27 @@ description: Cette rubrique montre comment créer une instance d’un contrôle 
 ms.assetid: E4DBECA6-B3F2-405F-8D95-32FA2334114D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8427a5695c0b9c79c19d328f4abc2ab0ffb2e5a
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 308893b436760ad970025b93d49a368fa44b28c7913c433ff4febad105cc41b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104102569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063109"
 ---
 # <a name="how-to-create-an-ip-address-control"></a>Comment créer un contrôle d’adresse IP
 
 Cette rubrique montre comment créer une instance d’un contrôle d’adresse IP.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

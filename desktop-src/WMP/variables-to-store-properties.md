@@ -3,7 +3,7 @@ title: Variables pour stocker les propriétés
 description: Variables pour stocker les propriétés
 ms.assetid: a90a6e21-00fb-46f8-96c8-654d8f205905
 keywords:
-- Plug-ins du lecteur Windows Media, exemples de propriétés Echo
+- Lecteur Windows Media les plug-ins, exemples de propriétés Echo
 - plug-ins, exemples de propriétés d’écho
 - plug-ins de traitement de signal numérique, exemples de propriétés Echo
 - Plug-ins DSP, exemples de propriétés Echo
@@ -11,16 +11,16 @@ keywords:
 - Echo DSP, exemple de plug-in, variables pour le stockage des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d252962116ba9c72464273f9c4ea1688b151898
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa8a1ca4f7e83fe18dabafca6015059dc8ed01deb54ad9f9bc63515ded45c076
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001349"
 ---
 # <a name="variables-to-store-properties"></a>Variables pour stocker les propriétés
 
-Tout d’abord, vous aurez besoin d’une variable pour stocker le temps de retard. L’exemple par défaut créé par l’Assistant de plug-in du lecteur Windows Media fournit une variable nommée m \_ fScaleFactor pour stocker le multiplicateur de mise à l’échelle qu’il utilise pour le traitement. Cet exemple n’a plus besoin de cette variable. vous pouvez donc modifier son nom et son type pour stocker la valeur de délai.
+Tout d’abord, vous aurez besoin d’une variable pour stocker le temps de retard. l’exemple par défaut créé par l’assistant de Plug-in Lecteur Windows Media fournit une variable nommée m \_ fScaleFactor pour stocker le multiplicateur de mise à l’échelle qu’il utilise pour le traitement. Cet exemple n’a plus besoin de cette variable. vous pouvez donc modifier son nom et son type pour stocker la valeur de délai.
 
 1.  Remplacez chaque instance de m \_ fScaleFactor dans Echo. h et Echo. cpp par m \_ dwDelayTime.
 2.  Remplacez le type de données de m \_ fScaleFactor (Now m \_ dwDelayTime) de double par DWORD dans Echo. h.
@@ -63,9 +63,9 @@ m_fDryMix = 0.50;  // default to 50 percent dry
 [**Exemples de propriétés Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

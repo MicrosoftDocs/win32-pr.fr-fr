@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e4dd4fe00d1ee4a537741ce69240413e78aca85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8d828686a4308d9e0d76c7dd31dabd0644fdd802058fefceeec603d586e9b6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899819"
 ---
 # <a name="cim_serviceaffectselement-class"></a>\_Classe CIM ServiceAffectsElement
 
@@ -107,7 +107,7 @@ Effet sur l’élément managé. Ce tableau correspond au tableau **OtherElement
 
 \- Gère (5) : le service gère l’élément.
 
-\- Consomme (6) : l’exécution du service consomme une partie ou la totalité de l’élément associé à la suite de l’exécution du service. Par exemple, le service peut consommer des cycles de processeur, ce qui peut affecter les performances ou le stockage qui peut affecter à la fois les performances et l’intégrité. (Par exemple, le manque de stockage gratuit peut nuire à l’intégrité en réduisant la possibilité d’enregistrer l’État. ) « Consomme » peut être utilisé seul ou conjointement avec d’autres valeurs, en particulier « diminue les performances » et « dégrade l’intégrité ».
+\- Consomme (6) : l’exécution du service consomme une partie ou la totalité de l’élément associé à la suite de l’exécution du service. par exemple, le Service peut consommer des cycles de processeur, ce qui peut affecter les performances, ou Stockage qui peuvent affecter à la fois les performances et l’intégrité. (Par exemple, le manque de stockage gratuit peut nuire à l’intégrité en réduisant la possibilité d’enregistrer l’État. ) « Consomme » peut être utilisé seul ou conjointement avec d’autres valeurs, en particulier « diminue les performances » et « dégrade l’intégrité ».
 
 Les « Manage » et non « consomment » doivent être utilisés pour refléter les services d’allocation qui peuvent être fournis par un service.
 

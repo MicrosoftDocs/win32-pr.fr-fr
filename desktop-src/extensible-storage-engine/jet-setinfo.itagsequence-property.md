@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7c409903f90633f15daa8d289c72530db943f1c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62276cd7ec9936cc82383b20b59d9a6dc9708be2563238c02b06f6879dd7d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016479"
 ---
 # <a name="jet_setinfoitagsequence-property"></a>JET_SETINFO. itagSequence, propriété
 

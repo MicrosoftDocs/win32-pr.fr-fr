@@ -4,12 +4,12 @@ description: Latence du réseau et débit avec appel de procédure distante (RPC
 ms.assetid: 8285fd73-eb54-4c06-b01a-1bffafb7e675
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c51c4db75b904ac5feae8c4a1cc5965fc2b06e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e6b0989b7edf6e448a0cb2cbd78b46e4728833ebf67d7985d22bec2981721b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019625"
 ---
 # <a name="network-latency-and-throughput"></a>Latence et débit du réseau
 
@@ -29,15 +29,15 @@ La bande passante réseau et la latence du réseau sont des termes distincts. Le
 
 ## <a name="network-saturation"></a>Saturation du réseau
 
-Une certaine saturation se produit dans de nombreux réseaux. Les réseaux les plus faciles à saturer sont des liens de modem lents, tels que des modems analogiques 56k standard. Toutefois, les liaisons Ethernet avec de nombreux ordinateurs sur un seul segment peuvent également être saturées. Il en va de même pour les réseaux étendus avec une faible bande passante ou un lien surchargé, tel qu’un routeur ou un commutateur qui peut gérer une quantité limitée de trafic. Dans ce cas, si le réseau envoie plus de paquets que son lien le plus faible peut gérer, il supprime des paquets. Pour éviter toute congestion, la pile TCP Windows revient en arrière lorsque des paquets supprimés sont détectés, ce qui peut entraîner des retards importants.
+Une certaine saturation se produit dans de nombreux réseaux. Les réseaux les plus faciles à saturer sont des liens de modem lents, tels que des modems analogiques 56k standard. Toutefois, les liaisons Ethernet avec de nombreux ordinateurs sur un seul segment peuvent également être saturées. Il en va de même pour les réseaux étendus avec une faible bande passante ou un lien surchargé, tel qu’un routeur ou un commutateur qui peut gérer une quantité limitée de trafic. Dans ce cas, si le réseau envoie plus de paquets que son lien le plus faible peut gérer, il supprime des paquets. pour éviter toute congestion, la Windows pile TCP est redimensionnée lorsque des paquets supprimés sont détectés, ce qui peut entraîner des retards importants.
 
 ## <a name="packet-processing-implications"></a>Implications en matière de traitement des paquets
 
-Lorsque des programmes sont développés pour des environnements de niveau supérieur tels que RPC, COM et même Windows Sockets, les développeurs ont tendance à oublier la quantité de travail qui se produit en arrière-plan pour chaque paquet envoyé ou reçu. Lorsqu’un paquet arrive à partir du réseau, une interruption de la carte réseau est servie par l’ordinateur. Un appel de procédure différé (DPC) est alors mis en file d’attente et doit être effectué via les pilotes. Si une forme de sécurité est utilisée, il peut être nécessaire de déchiffrer le paquet ou le hachage de chiffrement vérifié. Un certain nombre de contrôles de validité doivent également être effectués à chaque État. Le paquet arrive uniquement à la destination finale : le code du serveur. L’envoi de plusieurs petits segments de données entraîne une surcharge de traitement des paquets pour chaque petit segment de données. L’envoi d’un grand segment de données tend à consommer beaucoup moins de temps processeur dans le système, même si le coût d’exécution de nombreux petits fragments par rapport à un grand segment peut être le même pour l’application serveur.
+lorsque des programmes sont développés pour des environnements de niveau supérieur tels que RPC, COM et même Windows sockets, les développeurs ont tendance à oublier la quantité de travail qui se produit en arrière-plan pour chaque paquet envoyé ou reçu. Lorsqu’un paquet arrive à partir du réseau, une interruption de la carte réseau est servie par l’ordinateur. Un appel de procédure différé (DPC) est alors mis en file d’attente et doit être effectué via les pilotes. Si une forme de sécurité est utilisée, il peut être nécessaire de déchiffrer le paquet ou le hachage de chiffrement vérifié. Un certain nombre de contrôles de validité doivent également être effectués à chaque État. Le paquet arrive uniquement à la destination finale : le code du serveur. L’envoi de plusieurs petits segments de données entraîne une surcharge de traitement des paquets pour chaque petit segment de données. L’envoi d’un grand segment de données tend à consommer beaucoup moins de temps processeur dans le système, même si le coût d’exécution de nombreux petits fragments par rapport à un grand segment peut être le même pour l’application serveur.
 
 ## <a name="example-1-a-poorly-designed-rpc-server"></a>Exemple 1 : serveur RPC mal conçu
 
-Imaginez une application qui doit accéder à des fichiers distants, et la tâche en cours consiste à concevoir une interface RPC pour manipuler le fichier distant. La solution la plus simple consiste à mettre en miroir les routines de fichier Studio pour les fichiers locaux. Cela peut entraîner un nettoyage et une interface familière trompeur. Voici un fichier. idl abrégé :
+Imagine une application qui doit accéder à des fichiers distants, et la tâche en cours consiste à concevoir une interface RPC pour manipuler le fichier distant. La solution la plus simple consiste à mettre en miroir les routines de fichier Studio pour les fichiers locaux. Cela peut entraîner un nettoyage et une interface familière trompeur. Voici un fichier. idl abrégé :
 
 ``` syntax
 typedef [context_handle] void *remote_file;
@@ -112,9 +112,9 @@ Toutefois, si un traitement doit être effectué sur les 20 premiers octets apr�
 
 En général, lorsque le réseau est impliqué, il est préférable de combiner autant d’appels que possible dans un appel unique. Si une application a deux activités indépendantes, utilisez des opérations asynchrones et laissez-les s’exécuter en parallèle. Pour l’essentiel, gardez le pipeline complet.
 
- 
+ 
 
- 
+ 
 
 
 

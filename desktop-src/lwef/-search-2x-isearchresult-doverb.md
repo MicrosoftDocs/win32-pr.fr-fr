@@ -3,9 +3,9 @@ title: Méthode DoVerb ISearchResult
 description: Réservé. | Méthode DoVerb ISearchResult
 ms.assetid: 74a2d4a5-14df-48fa-84f1-8064d509ba2f
 keywords:
-- Méthode de verbe des fonctionnalités d’environnement Windows héritées
-- Méthode DoVerb des fonctionnalités d’environnement Windows héritées, interface ISearchResult
-- Fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode DoVerb
+- méthode doverb Windows fonctionnalités d’environnement héritées
+- méthode doverb Windows fonctionnalités d’environnement, interface ISearchResult
+- fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode doverb
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d0626e6e9db80f77b51f7bcf22d6d2c26a0f85cf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b6b55f47d2a5872079bfbe9a54bd23275c4f134e0345dd94dd97f945d29adc5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106535137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014279"
 ---
 # <a name="isearchresultdoverb-method"></a>ISearchResult ::D méthode oVerb
 

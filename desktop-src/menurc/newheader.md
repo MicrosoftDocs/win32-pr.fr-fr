@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d215bc00ef414d4e626d3da657dcecfd7a8a6c8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8ce5407686d5e0e8ad4c0f17856241e9b47c70b2375f93f3b2b9046210d2faa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011769"
 ---
 # <a name="newheader-structure"></a>NEWHEADER, structure
 
@@ -85,7 +85,7 @@ Nombre de composants icône ou curseur dans le groupe de ressources.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une ou plusieurs structures [**RESDIR**](resdir.md) suivent immédiatement la structure **NEWHEADER** dans le fichier. res. Le membre **ResCount** spécifie le nombre de structures **RESDIR** .
 

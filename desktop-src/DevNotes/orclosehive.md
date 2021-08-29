@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: a7f018e2ccdb98de14f908224ade52d0cdf7819f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4852112ff1de3d0650c78b07a2ebbba780e89a485a176cf610fd2cf7b1fa234f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824829"
 ---
 # <a name="orclosehive-function"></a>ORCloseHive fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur différent de zéro défini dans Winerror. h. Vous pouvez utiliser la fonction [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) avec le format \_ message \_ de l' \_ indicateur système pour obtenir une description générique de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **ORCloseHive** libère toute la mémoire allouée par les fonctions de Registre hors connexion pour le compte de la ruche spécifiée.
 
@@ -64,7 +64,7 @@ Pour conserver les modifications apportées à la ruche, appelez la fonction [**
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

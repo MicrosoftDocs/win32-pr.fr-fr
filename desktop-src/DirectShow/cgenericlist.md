@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6de3a2dde8d4549221ef4f13decab167fcf6d560
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79bbc003770d7fec94af93a54386bccbfbd00c4cd2a8b3f9a8ff81e14aa7a6ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999419"
 ---
 # <a name="cgenericlist-class"></a>CGenericList, classe
 
@@ -64,7 +64,7 @@ typedef CGenericList<IUnknown> CBaseInterfaceList;
 | [**AddAfter**](cgenericlist-addafter.md)               | Insère un élément ou une liste après la position spécifiée.                    |
 | [**AddHead**](cgenericlist-addhead.md)                 | Ajoute un élément ou une liste au début de la liste.                           |
 | [**AddTail**](cgenericlist-addtail.md)                 | Ajoute un élément ou une liste à la fin de la liste.                          |
-| [**Trouver**](cgenericlist-find.md)                       | Récupère la première position qui contient l’élément spécifié.              |
+| [**Rechercher**](cgenericlist-find.md)                       | Récupère la première position qui contient l’élément spécifié.              |
 
 
 
@@ -76,7 +76,7 @@ typedef CGenericList<IUnknown> CBaseInterfaceList;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Mise en cache des informations d'identification
 ms.assetid: 6e411333-56fa-455b-a90a-f2b54f3c9545
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a139d0cd90495de87f42de08687fd3157acaf6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9354a1637e44ccb63c7f40db1cb7e8bc91aa6f42baf79712370531f627236cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047339"
 ---
 # <a name="credential-caching"></a>Mise en cache des informations d'identification
 
@@ -25,9 +25,9 @@ L’application détermine si les informations d’identification de la demande 
 
 Lorsqu’un en-tête d’authentification de base est inclus dans la demande, l’API du serveur HTTP analyse l’en-tête pour obtenir le nom d’utilisateur et le mot de passe. Le nom d’utilisateur est ensuite analysé dans les parties utilisateur et domaine. L’API du serveur HTTP met en cache le jeton d’accès, obtenu pour l’authentification de base, en fonction du nom d’utilisateur et de la clé de domaine. Lorsqu’une nouvelle demande est reçue, l’API du serveur HTTP récupère le jeton d’accès en fonction du nom d’utilisateur et du domaine. Le mot de passe de la demande est ensuite comparé au mot de passe mis en cache. Le jeton d’accès mis en cache est supprimé lorsque la limite de durée de vie (TTL) est atteinte.
 
- 
+ 
 
- 
+ 
 
 
 

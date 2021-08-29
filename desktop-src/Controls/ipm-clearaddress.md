@@ -3,7 +3,7 @@ title: Message IPM_CLEARADDRESS (commctrl. h)
 description: Efface le contenu du contrôle d’adresse IP.
 ms.assetid: 7ac3ec31-ee34-44af-b012-a7dc4246a847
 keywords:
-- IPM_CLEARADDRESS les contrôles de message Windows
+- IPM_CLEARADDRESS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dde87ee16d21314e7ca1bad3fd9ee51abc34073
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d0cc04237887d52a4643c8a290d29f0f4cbaac789d33a944f9d7b776140c796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085579"
 ---
 # <a name="ipm_clearaddress-message"></a>\_Message CLEARADDRESS IPM
 
@@ -45,8 +45,8 @@ La valeur de retour n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

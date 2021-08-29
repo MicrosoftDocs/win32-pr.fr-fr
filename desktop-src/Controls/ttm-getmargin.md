@@ -3,7 +3,7 @@ title: Message TTM_GETMARGIN (commctrl. h)
 description: Récupère les marges supérieure, gauche, inférieure et droite définies pour une fenêtre d’info-bulle. Une marge est la distance, en pixels, entre la bordure de la fenêtre d’info-bulle et le texte contenu dans la fenêtre d’info-bulle.
 ms.assetid: c33ee1de-5fbd-4c7e-a703-576c2ffd3052
 keywords:
-- TTM_GETMARGIN les contrôles de message Windows
+- TTM_GETMARGIN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb3e795d8eac14522f0994a342c7f781b7112ce
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6af1e7f460ad877c5c562f3a5aa47147a27606c54b9a4334eb8fb7b93716c33b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060549"
 ---
 # <a name="ttm_getmargin-message"></a>\_Message atténuation GETMARGIN
 
@@ -41,7 +41,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 | Valeur                                                                                                                                   | Signification                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <span id="top"></span><span id="TOP"></span><dl> <dt>**Retour au début**</dt> </dl>          | Distance entre la bordure supérieure et le texte de l’info-bulle, en pixels.<br/>         |
+| <span id="top"></span><span id="TOP"></span><dl> <dt>**top**</dt> </dl>          | Distance entre la bordure supérieure et le texte de l’info-bulle, en pixels.<br/>         |
 | <span id="left"></span><span id="LEFT"></span><dl> <dt>**gauche**</dt> </dl>       | Distance entre la bordure gauche et l’extrémité gauche du texte d’info-bulle, en pixels.<br/>   |
 | <span id="bottom"></span><span id="BOTTOM"></span><dl> <dt>**ballon**</dt> </dl> | Distance entre la bordure inférieure et le bas du texte de l’info-bulle, en pixels.<br/>   |
 | <span id="right"></span><span id="RIGHT"></span><dl> <dt>**Oui**</dt> </dl>    | Distance entre la bordure droite et l’extrémité droite du texte d’info-bulle, en pixels.<br/> |
@@ -56,7 +56,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, les quatre marges sont égales à zéro lorsque vous créez le contrôle ToolTip.
 
@@ -66,8 +66,8 @@ Par défaut, les quatre marges sont égales à zéro lorsque vous créez le cont
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

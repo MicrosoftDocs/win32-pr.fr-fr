@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 397bb50e0af0c9dcddcc535d0bcddb1c8d525cfc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 850dab231333ebf98d1b45e1d17d3df0a45fe83649bf01fc1a62d4f38e0db7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925299"
 ---
 # <a name="object-class-category-attribute"></a>Attribut de catégorie objet-classe
 
@@ -36,7 +36,7 @@ Cet attribut contient le type de classe, tel que abstract, auxiliaire ou Structu
 | Fréquence des mises à jour  | Cette valeur ne doit jamais changer.                                                 |
 | Attribute-Id      | 1.2.840.113556.1.2.370                                                          |
 | System-ID-GUID    | bf9679e6-0de6-11d0-a285-00aa003049e2                                            |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                            |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                            |
 
 
 
@@ -46,7 +46,7 @@ Cet attribut contient le type de classe, tel que abstract, auxiliaire ou Structu
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

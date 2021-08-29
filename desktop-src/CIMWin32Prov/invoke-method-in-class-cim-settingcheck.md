@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8c10246e841182aff1b49742694eeb3871d7862
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7524e0cfd79ad5d610592d8f33e380e473e4c5b9cb7460885d08c199fdf5e306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064809"
 ---
 # <a name="invoke-method-of-the-cim_settingcheck-class"></a>Méthode Invoke de la \_ classe CIM SettingCheck
 
@@ -49,7 +49,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -4,12 +4,12 @@ ms.assetid: 299393d2-7949-48ef-a36d-19bb8760fc4e
 title: MFNETSOURCE_ENABLE_RTSP, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac191e6e244a8e341fef0dccd274293f09846aaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ba4c41315465718458cb74697057a45dfbaeb5215c3c9bf5a8958231360921a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113529"
 ---
 # <a name="mfnetsource_enable_rtsp-property"></a>MFNETSOURCE \_ activer la \_ propriété RTSP
 
@@ -31,7 +31,7 @@ VT \_
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ Enable \_ RTSP** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
@@ -43,8 +43,8 @@ Les applications peuvent utiliser cette propriété pour configurer la source r�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

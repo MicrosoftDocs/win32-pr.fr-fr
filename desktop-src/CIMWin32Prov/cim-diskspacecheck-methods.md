@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_DiskSpaceCheck
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64499de13f9b9cc297d731ca5ae52dc903e83ad5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a50fa68f04c91f45d820495f023cec7bf61a38b460468ef598b01de612634c96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924139"
 ---
 # <a name="cim_diskspacecheck-methods"></a>\_Méthodes DISKSPACECHECK CIM
 

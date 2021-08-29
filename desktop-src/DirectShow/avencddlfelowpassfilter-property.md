@@ -4,12 +4,12 @@ ms.assetid: 9fb94ee1-9378-48de-b6e4-97038c15f1d7
 title: Propriété AVEncDDLFELowPassFilter (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1169daf1c5ec54ca69843cf8c9666c377de2387e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 148261b0b3601338aac267356702204042da75dbe0176694aec006edebe0c423
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000119"
 ---
 # <a name="avencddlfelowpassfilter-property"></a>Propriété AVEncDDLFELowPassFilter
 
@@ -31,8 +31,8 @@ Cette propriété est en lecture/écriture.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

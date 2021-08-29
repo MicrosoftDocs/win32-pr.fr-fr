@@ -4,12 +4,12 @@ ms.assetid: 4B1DA457-6A6A-4B5F-9F68-4064A1D49832
 title: Méthodes ISCardVerify
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3976279fa99d0617ca3a63fcb0d67d838150db59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d446a1596f1b6e1270d938b1940fce20c3a09248708edba8177da6214b72caf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013519"
 ---
 # <a name="iscardverify-methods"></a>Méthodes ISCardVerify
 

@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b8328775d87dd4df0fd015990d31db0751b729bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ee6624e5f557bb82924b4fa0f77d88a9cec35775a72009608120e8b8f2bd063
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874169"
 ---
 # <a name="id2d1rendertargetfillellipse-methods"></a>ID2D1RenderTarget :: FillEllipse, méthodes
 
@@ -34,7 +34,7 @@ Peint l’intérieur de l’ellipse spécifiée.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne retourne pas de code d’erreur en cas d’échec. Pour déterminer si une opération de dessin (telle que **FillEllipse**) a échoué, vérifiez les résultats retournés par les méthodes [**ID2D1RenderTarget :: EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) ou [**ID2D1RenderTarget :: Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) .
 

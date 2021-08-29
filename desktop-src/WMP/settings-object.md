@@ -1,9 +1,9 @@
 ---
-title: Settings (objet) (kit de développement logiciel Windows Media Player)
-description: L’objet Settings permet de modifier différents paramètres du lecteur Windows Media à l’aide des propriétés et méthodes suivantes.
+title: Paramètres objet (kit de développement logiciel Lecteur Windows Media)
+description: l’objet Paramètres fournit un moyen de modifier différents paramètres de Lecteur Windows Media à l’aide des propriétés et méthodes suivantes.
 ms.assetid: f22e8c37-f0c6-4268-a6ed-ce03cff5f3e5
 keywords:
-- Objet paramètres lecteur Windows Media
+- Paramètres Lecteur Windows Media d’objets
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d01a521dbccb351045f09dc15d71779fd9362cf4
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: e763a4792530b3ab0809c33277bdf92dc90fe4c0251b3d329b4c3f3f36b55f85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103841626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002359"
 ---
-# <a name="settings-object"></a>Settings (objet)
+# <a name="settings-object"></a>Paramètres Dessin
 
-L’objet **Settings** permet de modifier différents paramètres du lecteur Windows Media à l’aide des propriétés et méthodes suivantes.
+l’objet **Paramètres** fournit un moyen de modifier différents paramètres de Lecteur Windows Media à l’aide des propriétés et méthodes suivantes.
 
-L’objet **Settings** prend en charge les propriétés suivantes.
+l’objet **Paramètres** prend en charge les propriétés suivantes.
 
 
 
@@ -33,7 +33,7 @@ L’objet **Settings** prend en charge les propriétés suivantes.
 | [Démarrage automatique](settings-autostart.md)                       | Spécifie ou récupère une valeur indiquant si l’élément multimédia actuel commence à être lu automatiquement.                           |
 | [équilibrée](settings-balance.md)                           | Spécifie ou récupère le solde stéréo actuel.                                                                               |
 | [baseURL](settings-baseurl.md)                           | Spécifie ou récupère l’URL de base utilisée pour la résolution de chemin d’accès relative avec des commandes de script d’URL incorporées dans des fichiers multimédias. |
-| [defaultAudioLanguage](settings-defaultaudiolanguage.md) | Récupère l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans le lecteur Windows Media.                          |
+| [defaultAudioLanguage](settings-defaultaudiolanguage.md) | récupère l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans Lecteur Windows Media.                          |
 | [defaultFrame](settings-defaultframe.md)                 | Spécifie ou récupère le nom du frame utilisé pour afficher une URL qui est reçue dans un événement **commande** .                |
 | [enableErrorDialogs](settings-enableerrordialogs.md)     | Spécifie ou récupère une valeur indiquant si les boîtes de dialogue d’erreur s’affichent automatiquement.                                    |
 | [invokeURLs](settings-invokeurls.md)                     | Spécifie ou récupère une valeur indiquant si les événements d’URL doivent lancer un navigateur Web.                                        |
@@ -46,9 +46,9 @@ L’objet **Settings** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
-L’objet **Settings** prend en charge les méthodes suivantes.
+l’objet **Paramètres** prend en charge les méthodes suivantes.
 
 
 
@@ -60,9 +60,9 @@ L’objet **Settings** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
-L’objet **Settings** est accessible par le biais de la propriété suivante.
+l’objet **Paramètres** est accessible par le biais de la propriété suivante.
 
 
 
@@ -72,7 +72,7 @@ L’objet **Settings** est accessible par le biais de la propriété suivante.
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -81,9 +81,9 @@ L’objet **Settings** est accessible par le biais de la propriété suivante.
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Message HDM_GETITEMDROPDOWNRECT (commctrl. h)
 description: Obtient le rectangle englobant du bouton partagé pour un élément d’en-tête avec style HDF \_ SPLITBUTTON. Envoyez ce message de manière explicite ou à l’aide de la macro GetItemDropDownRect d’en-tête \_ .
 ms.assetid: d7188dfb-4ffa-4641-b210-2c2ec480ca13
 keywords:
-- HDM_GETITEMDROPDOWNRECT les contrôles de message Windows
+- HDM_GETITEMDROPDOWNRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b86f3df8de5224e79ca4e15ea18409e13972ca5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f02fa02dd04720a130bf6303927fed64aadc53f4f90acc70a60e2c0cf7afd7ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047169"
 ---
 # <a name="hdm_getitemdropdownrect-message"></a>\_Message HDM GETITEMDROPDOWNRECT
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**Rect**](/windows/win32/api/windef/ns-windef-rect)
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément d’en-tête doit être de style **HDF \_ SPLITBUTTON**.
 
@@ -57,8 +57,8 @@ L’élément d’en-tête doit être de style **HDF \_ SPLITBUTTON**.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

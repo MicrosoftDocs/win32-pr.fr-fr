@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-SQLPublication, classe
-description: Classe pour le stockage des propriétés de la publication SQL Server. Permet à l’utilisateur de parcourir les publications disponibles pour s’abonner à.
+title: classe MS-SQL-SQLPublication
+description: classe pour le stockage des propriétés de la publication SQL Server. Permet à l’utilisateur de parcourir les publications disponibles pour s’abonner à.
 ms.assetid: 12d71ea8-1d7f-44c8-adf2-8604114838f7
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de la classe MS-SQL-SQLPublication
-- Schéma AD de la classe mS-SQL-SQLPublication
+- schéma AD de la classe MS-SQL-SQLPublication
+- schéma AD de la classe mS-SQL-SQLPublication
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe63a9706b45e798efb53eeca6a1951bdbf5a6b1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c11a2f1da89ddc778cb63ebd0958e1cba38791d7239e1c276b50a7e07da8dd85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834609"
 ---
-# <a name="ms-sql-sqlpublication-class"></a>MS-SQL-SQLPublication, classe
+# <a name="ms-sql-sqlpublication-class"></a>classe MS-SQL-SQLPublication
 
-Classe pour le stockage des propriétés de la publication SQL Server. Permet à l’utilisateur de parcourir les publications disponibles pour s’abonner à.
+classe pour le stockage des propriétés de la publication SQL Server. Permet à l’utilisateur de parcourir les publications disponibles pour s’abonner à.
 
 
 
@@ -42,7 +42,7 @@ Classe pour le stockage des propriétés de la publication SQL Server. Permet à
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -69,9 +69,9 @@ Classe pour le stockage des propriétés de la publication SQL Server. Permet à
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -93,7 +93,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -114,11 +114,11 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -188,9 +188,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -212,7 +212,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -250,11 +250,11 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -325,9 +325,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -349,7 +349,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -390,11 +390,11 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -465,9 +465,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -489,7 +489,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -541,11 +541,11 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -616,9 +616,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -640,7 +640,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -699,11 +699,11 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -774,7 +774,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -798,7 +798,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -853,7 +853,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -863,11 +863,11 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**MS-SQL-AllowKnownPullSubscription**](a-ms-sql-allowknownpullsubscription.md)                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowQueuedUpdatingSubscription**](a-ms-sql-allowqueuedupdatingsubscription.md)       | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-AllowSnapshotFilesFTPDownloading**](a-ms-sql-allowsnapshotfilesftpdownloading.md)     | Faux     | **MS-SQL-SQLPublication**       |
-| [**Base de données MS-SQL**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-base de données**](a-ms-sql-database.md)                                                     | Faux     | **MS-SQL-SQLPublication**       |
 | [**Description de MS-SQL**](a-ms-sql-description.md)                                               | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-serveur de publication**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-Publisher**](a-ms-sql-publisher.md)                                                   | Faux     | **MS-SQL-SQLPublication**       |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                         | Faux     | **MS-SQL-SQLPublication**       |
 | [**MS-SQL-ThirdParty**](a-ms-sql-thirdparty.md)                                                 | Faux     | **MS-SQL-SQLPublication**       |
 | [**Type MS-SQL**](a-ms-sql-type.md)                                                             | Faux     | **MS-SQL-SQLPublication**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |

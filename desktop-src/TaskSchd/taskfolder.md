@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1ccad9331cf3df12ea5752fdd7e5ac94bfbeba6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3521c45e0492507cba3dcf509b53b748d5068dd592c45ff7a17fa8766ff8ff85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010939"
 ---
 # <a name="taskfolder-object"></a>Objet TaskFolder
 
@@ -66,7 +66,7 @@ L’objet **TaskFolder** a ces propriétés.
 | Propriété                                   | Type d’accès          | Description                                                                        |
 |:-------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------|
 | [**Nom**](taskfolder-name.md)<br/> | Lecture seule<br/> | Obtient le nom utilisé pour identifier le dossier qui contient une tâche.<br/> |
-| [**D**](taskfolder-path.md)<br/> | Lecture seule<br/> | Obtient le chemin d’accès à l’emplacement où le dossier est stocké.<br/>                            |
+| [**Chemin**](taskfolder-path.md)<br/> | Lecture seule<br/> | Obtient le chemin d’accès à l’emplacement où le dossier est stocké.<br/>                            |
 
 
 
@@ -82,8 +82,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

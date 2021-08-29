@@ -1,25 +1,25 @@
 ---
-title: Glossaire (kit de développement logiciel (SDK) Windows Media Player)
+title: glossaire (kit de développement logiciel (SDK) Lecteur Windows Media)
 description: Page de glossaire
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 804d9dcb-20c2-4b4e-b100-b800ba78a0fd
 keywords:
-- Lecteur Windows Media, Glossaire
-- Windows Media Player, termes
+- Lecteur Windows Media, glossaire
+- Lecteur Windows Media, termes
 - Lecteur Windows Media, definitios
 - glossaire
 - terms
 - definitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4985fd67f62787d93d926da422e229f807ca38
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 91c666c18516f343ac0a00b150f248c3c6341432cbfb977eddd28cae2e62feb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003629"
 ---
-# <a name="glossary-windows-media-player-sdk"></a>Glossaire (kit de développement logiciel (SDK) Windows Media Player)
+# <a name="glossary-windows-media-player-sdk"></a>glossaire (kit de développement logiciel (SDK) Lecteur Windows Media)
 
 <dl> <dt>
 
@@ -40,14 +40,14 @@ Format traditionnel dans lequel les données audio et vidéo sont transmises à 
 <span id="projectid515.anchor_window"></span><span id="PROJECTID515.ANCHOR_WINDOW"></span>**fenêtre d’ancrage**
 </dt> <dd>
 
-Petite fenêtre qui peut apparaître dans le coin inférieur droit de l’écran lorsque le lecteur Windows Media est en mode apparence. Vous pouvez utiliser la fenêtre pour revenir en mode complet et accéder à d’autres commandes.
+petite fenêtre qui peut apparaître dans le coin inférieur droit de l’écran lorsque Lecteur Windows Media est en mode apparence. Vous pouvez utiliser la fenêtre pour revenir en mode complet et accéder à d’autres commandes.
 
 </dd> <dt>
 
 <span id="projectid515.announcement"></span><span id="PROJECTID515.ANNOUNCEMENT"></span>**annonce**
 </dt> <dd>
 
-Métafichier Windows Media qui donne à un joueur les informations nécessaires pour recevoir du contenu. Les fichiers d’annonce contiennent des scripts Extensible Markup Language (XML).
+Windows métafichier multimédia qui donne à un joueur les informations nécessaires pour recevoir du contenu. Les fichiers d’annonce contiennent des scripts Extensible Markup Language (XML).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Méthode par laquelle un client reçoit un flux. Pendant une connexion de diffus
 <span id="projectid515.broadcast_multicast"></span><span id="PROJECTID515.BROADCAST_MULTICAST"></span>diffusion en **multidiffusion**
 </dt> <dd>
 
-Remise d’un flux par un serveur Windows Media à de nombreux clients. Du point de vue du client, une diffusion est une expérience sans connexion, car le client ne se connecte jamais à un serveur Windows Media.
+remise d’un flux par un serveur Windows Media à de nombreux clients. du point de vue du client, une diffusion est une expérience sans connexion, car le client ne se connecte jamais à un serveur Windows Media.
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ Pour convertir du contenu audio et vidéo dans un format numérique spécifié, 
 <span id="projectid515.error_correction"></span><span id="PROJECTID515.ERROR_CORRECTION"></span>**Correction des erreurs**
 </dt> <dd>
 
-Dans le lecteur Windows Media, processus permettant de s’assurer que les données audio numériques sont lues correctement à partir du lecteur de CD-ROM pendant la lecture ou la copie. L’utilisation de la correction des erreurs peut empêcher les bruits indésirables qui ne font pas partie de la documentation d’origine.
+dans Lecteur Windows Media, processus permettant de s’assurer que les données audio numériques sont lues à partir du lecteur de CD-rom avec précision lors de la lecture ou de la copie. L’utilisation de la correction des erreurs peut empêcher les bruits indésirables qui ne font pas partie de la documentation d’origine.
 
 </dd> <dt>
 
@@ -236,7 +236,7 @@ Nombre de trames vidéo affichées par seconde. Des fréquences d’images supé
 <span id="projectid515.full_mode"></span><span id="PROJECTID515.FULL_MODE"></span>**mode complet**
 </dt> <dd>
 
-État opérationnel par défaut du lecteur Windows Media à partir duquel toutes ses fonctionnalités sont disponibles. Le lecteur peut également apparaître en mode apparence, en mode mini-lecteur ou en mode plein écran.
+état opérationnel par défaut de Lecteur Windows Media à partir duquel toutes ses fonctionnalités sont disponibles. Le lecteur peut également apparaître en mode apparence, en mode mini-lecteur ou en mode plein écran.
 
 </dd> <dt>
 
@@ -278,14 +278,14 @@ Type de diffusion en continu qui détecte les conditions réseau et ajuste les p
 <span id="projectid515.library"></span><span id="PROJECTID515.LIBRARY"></span>**bibliothèque**
 </dt> <dd>
 
-Dans le lecteur Windows Media, il s’agit d’une base de données qui contient des informations sur les fichiers multimédias numériques d’un ordinateur, d’un lecteur réseau ou d’Internet.
+dans Lecteur Windows Media, il s’agit d’une base de données qui contient des informations sur les fichiers multimédias numériques d’un ordinateur, d’un lecteur réseau ou d’Internet.
 
 </dd> <dt>
 
 <span id="projectid515.licensed_file"></span><span id="PROJECTID515.LICENSED_FILE"></span>**fichier sous licence**
 </dt> <dd>
 
-Fichier Windows Media associé à une licence qui définit la façon dont le fichier peut être lu. Les restrictions indiquées dans la licence varient en fonction du créateur de la licence. Lorsqu’une piste de CD est copiée à l’aide du lecteur Windows Media, une licence peut être assignée au fichier nouvellement créé. Sous cette licence, le fichier ne peut être lu que sur l’ordinateur sur lequel le fichier a été créé.
+un fichier multimédia Windows qui a une licence associée qui définit la façon dont le fichier peut être lu. Les restrictions indiquées dans la licence varient en fonction du créateur de la licence. lorsqu’une piste de CD est copiée à l’aide de Lecteur Windows Media, une licence peut être assignée au fichier nouvellement créé. Sous cette licence, le fichier ne peut être lu que sur l’ordinateur sur lequel le fichier a été créé.
 
 </dd> <dt>
 
@@ -306,7 +306,7 @@ Image qui n’est pas affichée, mais qui définit à la place des régions sign
 <span id="projectid515.media_usage_rights"></span><span id="PROJECTID515.MEDIA_USAGE_RIGHTS"></span>**droits d’utilisation du média**
 </dt> <dd>
 
-Autorisations d’utilisation d’un fichier Windows Media protégé d’une manière particulière. Par exemple, un fournisseur de contenu, tel qu’un magasin de musique en ligne, peut vous donner le droit de lire une chanson sur votre ordinateur (un droit de lecture), de graver la chanson sur un CD audio (un droit de gravure) ou de synchroniser la chanson sur un appareil mobile (un droit de synchronisation). Le fournisseur de contenu détermine les termes des droits (par exemple, les droits qu’il vous accorde et pour la durée) et le composant Windows Media Digital Rights Management (DRM) applique ces droits. Également appelée licence.
+autorisations pour utiliser un fichier protégé Windows Media, d’une manière particulière. Par exemple, un fournisseur de contenu, tel qu’un magasin de musique en ligne, peut vous donner le droit de lire une chanson sur votre ordinateur (un droit de lecture), de graver la chanson sur un CD audio (un droit de gravure) ou de synchroniser la chanson sur un appareil mobile (un droit de synchronisation). le fournisseur de contenu détermine les termes des droits (par exemple, les droits qu’il vous accorde et pour la durée) et le composant Windows Media Digital Rights Management (DRM) applique ces droits. Également appelée licence.
 
 </dd> <dt>
 
@@ -320,7 +320,7 @@ Données relatives aux données. Le titre, l’objet, l’auteur et la taille so
 <span id="projectid515.metafile_playlist"></span><span id="PROJECTID515.METAFILE_PLAYLIST"></span>**sélection de métafichiers**
 </dt> <dd>
 
-Métafichier Windows Media qui contient des informations sur une série d’éléments multimédias numériques.
+métafichier Windows media qui contient des informations sur une série d’éléments multimédias numériques.
 
 </dd> <dt>
 
@@ -404,7 +404,7 @@ Collection de propriétés et de méthodes qui remplissent un but particulier et
 <span id="projectid515.online_store"></span><span id="PROJECTID515.ONLINE_STORE"></span>**boutique en ligne**
 </dt> <dd>
 
-Dans le lecteur Windows Media, il s’agit d’un site Web qui offre un contenu multimédia numérique par abonnement ou à l’achat.
+dans Lecteur Windows Media, il s’agit d’un site web qui offre un contenu multimédia numérique par abonnement ou à l’achat.
 
 </dd> <dt>
 
@@ -453,7 +453,7 @@ Appareil électronique mobile qui peut échanger des fichiers ou d’autres donn
 <span id="projectid515.preset"></span><span id="PROJECTID515.PRESET"></span>**présélection**
 </dt> <dd>
 
-Paramètre prédéfini. Pour le lecteur Windows Media, des présélections sont définies pour les paramètres de l’égaliseur et pour la plupart des visualisations.
+Paramètre prédéfini. par Lecteur Windows Media, des présélections sont définies pour les paramètres de l’égaliseur et pour la plupart des visualisations.
 
 </dd> <dt>
 
@@ -488,7 +488,7 @@ Serveur situé sur un réseau entre un logiciel client, tel qu’un navigateur W
 <span id="projectid515.publishing_point"></span><span id="PROJECTID515.PUBLISHING_POINT"></span>**point de publication**
 </dt> <dd>
 
-Emplacement de la mémoire organisée identifié par un nom sur un serveur Windows Media. Le nom fait partie de l’URL utilisée par un client lors de la demande de contenu à partir du serveur. Voir aussi : point de publication de diffusion, point de publication à la demande.
+emplacement de mémoire organisé qui est identifié par un nom sur un serveur multimédia Windows. Le nom fait partie de l’URL utilisée par un client lors de la demande de contenu à partir du serveur. Voir aussi : point de publication de diffusion, point de publication à la demande.
 
 </dd> <dt>
 
@@ -502,7 +502,7 @@ Voir la définition de : SAMI (Synchronized Accessible Media Interchange)
 <span id="projectid515.skin"></span><span id="PROJECTID515.SKIN"></span>**apparence**
 </dt> <dd>
 
-Interface utilisateur qui offre une apparence alternative et des fonctionnalités personnalisées pour les logiciels tels que Windows Media Player.
+interface utilisateur qui fournit une apparence alternative et des fonctionnalités personnalisées pour les logiciels tels que les Lecteur Windows Media.
 
 </dd> <dt>
 
@@ -516,7 +516,7 @@ Document XML qui spécifie les éléments d’une apparence, ainsi que leurs rel
 <span id="projectid515.skin_mode"></span><span id="PROJECTID515.SKIN_MODE"></span>**mode apparence**
 </dt> <dd>
 
-État opérationnel du lecteur Windows Media dans lequel son interface utilisateur est affichée en tant qu’apparence.
+état opérationnel de Lecteur Windows Media dans lequel son interface utilisateur est affichée sous la forme d’une apparence.
 
 </dd> <dt>
 
@@ -551,7 +551,7 @@ Méthode de distribution de médias numériques sur un réseau en continu. Les m
 <span id="projectid515.subscription_service"></span><span id="PROJECTID515.SUBSCRIPTION_SERVICE"></span>**service d’abonnement**
 </dt> <dd>
 
-Service proposé par un magasin en ligne qui vous permet de louer des fichiers Windows Media à des frais récurrents, après lesquels vous pouvez lire ou synchroniser les fichiers, en fonction du service.
+service proposé par un magasin en ligne qui vous permet de louer Windows fichiers multimédias à des frais récurrents, après lequel vous pouvez lire ou synchroniser les fichiers, en fonction du service.
 
 </dd> <dt>
 
@@ -565,7 +565,7 @@ Ensemble de règles sur un ordinateur et un périphérique portable qui autorise
 <span id="projectid515.synchronization"></span><span id="PROJECTID515.SYNCHRONIZATION"></span>**synchronisation**
 </dt> <dd>
 
-Dans le lecteur Windows Media, processus de gestion des fichiers multimédias numériques sur un appareil mobile en fonction des règles d’un partenariat ou d’actions spécifiées par l’utilisateur. Cela peut nécessiter la copie de fichiers multimédias numériques d’un ordinateur vers un appareil, la mise à jour des informations sur l’appareil ou la suppression de fichiers de l’appareil.
+dans Lecteur Windows Media, processus de gestion des fichiers multimédias numériques sur un appareil mobile en fonction des règles d’un partenariat ou d’actions spécifiées par l’utilisateur. Cela peut nécessiter la copie de fichiers multimédias numériques d’un ordinateur vers un appareil, la mise à jour des informations sur l’appareil ou la suppression de fichiers de l’appareil.
 
 </dd> <dt>
 
@@ -642,35 +642,35 @@ Protocole de transport sans connexion dans la pile de protocole TCP/IP utilisé 
 <span id="projectid515.visualization"></span><span id="PROJECTID515.VISUALIZATION"></span>**visualisation**
 </dt> <dd>
 
-Dans le lecteur Windows Media, affichage graphique qui change en réponse au signal audio.
+dans Lecteur Windows Media, affichage graphique qui change en réponse au signal audio.
 
 </dd> <dt>
 
-<span id="projectid515.windows_media_client"></span><span id="PROJECTID515.WINDOWS_MEDIA_CLIENT"></span>**Client Windows Media**
+<span id="projectid515.windows_media_client"></span><span id="PROJECTID515.WINDOWS_MEDIA_CLIENT"></span>**client multimédia Windows**
 </dt> <dd>
 
-Le contrôle ActiveX appelé Windows Media Player qui reçoit et restitue le contenu à partir des composants du serveur Windows Media. Le client peut se trouver sur le même ordinateur que le serveur ou sur un autre ordinateur.
+le contrôle ActiveX appelé Lecteur Windows Media qui reçoit et restitue le contenu à partir de Windows composants du serveur multimédia. Le client peut se trouver sur le même ordinateur que le serveur ou sur un autre ordinateur.
 
 </dd> <dt>
 
-<span id="projectid515.windows_media_file"></span><span id="PROJECTID515.WINDOWS_MEDIA_FILE"></span>**Fichier Windows Media**
+<span id="projectid515.windows_media_file"></span><span id="PROJECTID515.WINDOWS_MEDIA_FILE"></span>**Windows un fichier multimédia**
 </dt> <dd>
 
-Fichier qui contient des données audio, vidéo ou de script. Le contenu du fichier est encodé à l’aide de l’un des codecs Windows Media.
+Fichier qui contient des données audio, vidéo ou de script. le contenu du fichier est encodé à l’aide de l’un des codecs multimédias Windows.
 
 </dd> <dt>
 
-<span id="projectid515.windows_media_format"></span><span id="PROJECTID515.WINDOWS_MEDIA_FORMAT"></span>**Format Windows Media**
+<span id="projectid515.windows_media_format"></span><span id="PROJECTID515.WINDOWS_MEDIA_FORMAT"></span>**Format de média Windows**
 </dt> <dd>
 
-Format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de codecs Windows Media.
+format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de Windows codecs multimédias.
 
 </dd> <dt>
 
-<span id="projectid515.windows_media_metafile"></span><span id="PROJECTID515.WINDOWS_MEDIA_METAFILE"></span>**Métafichier Windows Media**
+<span id="projectid515.windows_media_metafile"></span><span id="PROJECTID515.WINDOWS_MEDIA_METAFILE"></span>**métafichier Windows Media**
 </dt> <dd>
 
-Dans les technologies Windows Media, fichier qui fournit des informations sur les fichiers Windows Media et leur présentation. Les extensions de nom de fichier pour les fichiers Windows Media sont. asx,. Wax,. wvx,. WMX et. NSC.
+dans Windows media technologies, fichier qui fournit des informations sur les fichiers multimédias Windows et leur présentation. les extensions de nom de fichier pour Windows les fichiers multimédias sont. asx,. wax,. wvx,. wmx et. nsc.
 
 </dd> <dt>
 

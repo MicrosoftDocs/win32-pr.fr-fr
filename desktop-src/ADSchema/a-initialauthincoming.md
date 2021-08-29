@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 973b00abd5b77b713fc03b5efb3d4cf45b97fc19
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8803ea2ffa4a8266f892fbce7117810d9755313c183423c160a6ed2051a78713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925449"
 ---
 # <a name="initial-auth-incoming-attribute"></a>Attribut initial-auth-entrant
 
@@ -45,7 +45,7 @@ Contient des informations sur une demande d’authentification entrante initiale
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

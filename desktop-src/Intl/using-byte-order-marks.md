@@ -4,12 +4,12 @@ ms.assetid: d9f1ef5c-6367-4183-9c07-01c73cb4debc
 title: Utilisation des marques d’ordre des octets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b72d2ec366020f4c82c418e654e1c7fa0b4c8c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b496787f5d20c887e7338e6f9a1f25c294074f25f6c69c151b46658172c500ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897859"
 ---
 # <a name="using-byte-order-marks"></a>Utilisation des marques d’ordre des octets
 

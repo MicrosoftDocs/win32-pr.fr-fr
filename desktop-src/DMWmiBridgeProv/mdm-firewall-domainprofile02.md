@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Firewall_DomainProfile02
-description: La \_ classe DomainProfile02 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+description: la \_ classe DomainProfile02 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 ms.assetid: 1d82ba2f-b61d-4976-a44b-4ae2054f9df5
 keywords:
 - Classe MDM_Firewall_DomainProfile02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea6f87597148b01be38ae092302d3098d7eeace
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a99c2476f5f9f77a2579fa02fe00ad2d78be8fce8d283baf7eca03e619f68bee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875229"
 ---
 # <a name="mdm_firewall_domainprofile02-class"></a>\_Classe DomainProfile02 du pare-feu MDM \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La \_ classe DomainProfile02 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+la \_ classe DomainProfile02 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -233,7 +233,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl> |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e17e0a8a4856b067907622ec3c8437f5e73a7e38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2bb893c0d77907832e160d54c73ee404ccddf6932d94a2ec75d0ecfc984f9014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831809"
 ---
 # <a name="coutputqueuereceivemultiple-method"></a>Méthode COutputQueue. ReceiveMultiple
 
@@ -74,13 +74,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                             | Description                                                                   |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Notification de fin de flux reçue avant le traitement de cet exemple.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                                           |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                                           |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’objet utilise un thread, cette méthode met en file d’attente tous les exemples passés dans le tableau. Dans le cas contraire, la méthode appelle la méthode [**IMemInputPin :: ReceiveMultiple**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivemultiple) sur la broche d’entrée.
 
@@ -90,7 +90,7 @@ Si l’objet utilise un thread, cette méthode met en file d’attente tous les 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Outputq. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Outputq. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

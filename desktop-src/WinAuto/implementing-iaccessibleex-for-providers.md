@@ -4,12 +4,12 @@ description: Cette section explique comment ajouter des fonctionnalités de four
 ms.assetid: c03dc552-7919-4a35-8ff2-4cdd822bc0b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9460ccbd243aef390b7ade0deb41626173c927a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: af83192ed445494a87ecccb1fd579aa49ac099468482ff9feefacf2357293660
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098489"
 ---
 # <a name="implementing-iaccessibleex-for-providers"></a>Implémentation de IAccessibleEx pour les fournisseurs
 
@@ -179,6 +179,6 @@ Un serveur [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautoma
 
 Un serveur [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) peut prendre en charge les propriétés UI Automation (telles que LabeledBy et IsRequiredForForm) en implémentant [**IRawElementProviderSimple :: GetPropertyValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue) et en fournissant un PROPERTYID entier qui identifie la propriété en tant que paramètre. Cette technique s’applique uniquement aux propriétés UI Automation qui ne sont pas incluses dans une interface de modèle de contrôle. Les propriétés associées à une interface de modèle de contrôle sont exposées par le biais de la méthode d’interface de modèle de contrôle. Par exemple, la propriété IsSelected du modèle de contrôle [SelectionItem](uiauto-implementingselectionitem.md) est exposée avec [**ISelectionItemProvider :: obtenir \_ IsSelected**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_isselected).
 
- 
+ 
 
- 
+ 

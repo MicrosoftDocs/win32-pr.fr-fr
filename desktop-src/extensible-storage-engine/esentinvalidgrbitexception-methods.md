@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101961
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 16a6e6b49ff3c84455d0532554569d1a005a7abd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19cea90f339457a9a50d2bab0f7d69ba9d07632f8c80919cac40fc5cb6f0896d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064779"
 ---
 # <a name="esentinvalidgrbitexception-methods"></a>Méthodes EsentInvalidGrbitException
 

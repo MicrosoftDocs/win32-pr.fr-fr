@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5d4a3a2375ca799f5dd35def03295f29f61c0583
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da25983f26a89d5b264ec616e887d465f0851e3c901e2f1fac1dbab0c48be5bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103179"
 ---
 # <a name="cbasestreamcontrolflushing-method"></a>CBaseStreamControl. Flush, méthode
 
@@ -53,7 +53,7 @@ Spécifie une valeur booléenne qui indique si le code PIN est vidé. Utilisez l
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le code confidentiel doit appeler cette méthode à partir de ses méthodes [**IPIN :: BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) et [**IPIN :: EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) . Spécifiez **true** dans **BeginFlush** et **false** dans **EndFlush**.
 
@@ -65,7 +65,7 @@ Cette méthode provoque l’arrêt de l’attente de la méthode [**CBaseStreamC
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Strmctl. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Strmctl. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

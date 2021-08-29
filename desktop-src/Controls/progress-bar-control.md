@@ -4,12 +4,12 @@ description: Une barre de progression est une fenêtre qu’une application peut
 ms.assetid: 1db7a5c9-71cd-4ebc-86b8-8159f30348fa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f00c80b1f9e97cec1657fe979a19437f607251b8
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4e46b8950da2cadcc1dc3d8f36d9005487be245440a76f700ec7fdfe2a196d87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061661"
 ---
 # <a name="about-progress-bar-controls"></a>À propos des contrôles de barre de progression
 
@@ -36,7 +36,7 @@ Des informations supplémentaires sont contenues dans les en-têtes suivants.
 
 Vous pouvez créer une barre de progression à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la classe de fenêtre [**Progress \_ Class**](common-control-window-classes.md) . Cette classe de fenêtre est inscrite lors du chargement de la DLL de contrôles communs. Pour plus d’informations, consultez [à propos des contrôles communs](common-controls-intro.md).
 
-Le contrôle est également disponible dans la boîte à outils Microsoft Visual Studio, où il est appelé contrôle de progression.
+le contrôle est également disponible dans la boîte à outils Microsoft Visual Studio, où il est appelé contrôle de progression.
 
 ### <a name="range-and-current-position"></a>Plage et position actuelle
 
@@ -65,7 +65,7 @@ Cette section décrit les messages traités par la procédure de fenêtre pour l
 
 
 
- 
+ 
 
 ### <a name="marquee-style"></a>Style de texte défilant
 
@@ -75,6 +75,6 @@ L’illustration suivante montre une barre de progression en mode palissade. La 
 
 ![capture d’écran d’une barre de progression qui déplace une surbrillance verte dans un rectangle gris pour indiquer la progression](images/pb-marquee.png)
 
- 
+ 
 
- 
+ 

@@ -1,17 +1,17 @@
 ---
-title: Gestion des erreurs dans COM (prise en main de Win32 et C++)
-description: Gestion des erreurs dans COM (prise en main de Win32 et C++)
+title: gestion des erreurs dans COM (Prise en main avec Win32 et C++)
+description: gestion des erreurs dans COM (Prise en main avec Win32 et C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b69cf89170087469fa6ef8587fb5377e6374f6a8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bfe85dc381ac35e75a3ee2f2fb1926a6ba6cb60c576c3d8250f457079f8a3bb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897459"
 ---
-# <a name="error-handling-in-com-get-started-with-win32-and-c"></a>Gestion des erreurs dans COM (prise en main de Win32 et C++)
+# <a name="error-handling-in-com-get-started-with-win32-and-c"></a>gestion des erreurs dans COM (Prise en main avec Win32 et C++)
 
 COM utilise des valeurs **HRESULT** pour indiquer la réussite ou l’échec d’un appel de méthode ou de fonction. Divers en-têtes du kit de développement logiciel (SDK) définissent différentes constantes **HRESULT** . Un ensemble commun de codes à l’ensemble du système est défini dans WinError. h. Le tableau suivant présente certains de ces codes de retour à l’ensemble du système.
 
@@ -311,7 +311,7 @@ Inconvénients
 
 ## <a name="next"></a>Suivant
 
-[Module 3. Graphiques Windows](module-3---windows-graphics.md)
+[Module 3. Windows Graphismes](module-3---windows-graphics.md)
 
  
 

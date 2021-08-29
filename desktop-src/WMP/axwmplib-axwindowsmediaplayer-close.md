@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. Close, méthode
-description: La méthode Close ferme le fichier multimédia numérique en cours, arrête la lecture dans le lecteur Windows Media et libère les ressources du lecteur Windows Media.
+description: la méthode close ferme le fichier multimédia numérique en cours, arrête la lecture dans Lecteur Windows Media et libère les ressources Lecteur Windows Media.
 ms.assetid: 3e555086-c31c-42d7-b671-0fd824f66641
 keywords:
-- méthode Close lecteur Windows Media
-- méthode Close lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, méthode Close
+- fermer la méthode Lecteur Windows Media
+- close, méthode Lecteur Windows Media, AxWindowsMediaPlayer, classe
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, méthode close
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1dc0c93e449e9ef1b00af7fb073068078f0fcc5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1cece6f4034a687a68cbd596bfe26a23c2fe70112c9e432c6f06b9065c1436c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737078"
 ---
 # <a name="axwindowsmediaplayerclose-method"></a>AxWindowsMediaPlayer. Close, méthode
 
-La méthode Close ferme le fichier multimédia numérique en cours, arrête la lecture dans le lecteur Windows Media et libère les ressources du lecteur Windows Media.
+la méthode close ferme le fichier multimédia numérique en cours, arrête la lecture dans Lecteur Windows Media et libère les ressources Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -52,13 +52,13 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode ferme le fichier multimédia numérique en cours, et non le lecteur Windows Media lui-même.
+cette méthode ferme le fichier multimédia numérique en cours, et non Lecteur Windows Media lui-même.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un bouton qui, lorsque vous cliquez dessus, arrête la lecture dans le lecteur Windows Media et libère les ressources en cours d’utilisation. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
+l’exemple suivant crée un bouton qui, lorsque vous cliquez dessus, arrête la lecture dans Lecteur Windows Media et libère les ressources en cours d’utilisation. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
 
 
 ```CSharp
@@ -100,7 +100,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

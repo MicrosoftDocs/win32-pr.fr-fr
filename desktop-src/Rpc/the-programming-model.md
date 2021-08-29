@@ -4,12 +4,12 @@ description: Au début de la programmation informatique, chaque programme était
 ms.assetid: b64d5338-a06a-4a27-bedb-c9011fa5a5a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bcc0fd51404290b3d673982001cb3ee91bf1747
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 852dfa1dfa007ad28a23679a49f7cf4df15995fded3f222df5cc7fb8f5ad3bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016827"
 ---
 # <a name="the-programming-model"></a>Le modèle de programmation
 
@@ -28,9 +28,9 @@ Microsoft RPC s’appuie sur ce modèle de programmation en permettant aux proc�
 -   Le premier élément est un fichier. idl/. ACF qui décrit précisément le mécanisme d’échange de données et de passage de paramètres entre l’appelant et la procédure appelée.
 -   Le deuxième élément est un ensemble d’API d’exécution qui fournissent aux développeurs un contrôle granulaire de l’appel de procédure distante, y compris des aspects de sécurité, la gestion de l’État sur le serveur, la spécification des clients qui peuvent communiquer avec le serveur, et ainsi de suite.
 
- 
+ 
 
- 
+ 
 
 
 

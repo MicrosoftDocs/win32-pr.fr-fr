@@ -4,23 +4,23 @@ description: Attributs d’élément audio
 ms.assetid: fbaff235-47bb-4fa2-8961-53dac26142dd
 keywords:
 - Lecteur Windows Media, attributs d’élément audio
-- Windows Media Player Mobile, attributs d’élément audio
-- Modèle d’objet du lecteur Windows Media, attributs d’élément audio
+- Lecteur Windows Media Mobile, attributs d’élément audio
+- Lecteur Windows Media modèle objet, attributs d’élément audio
 - modèle objet, attributs d’élément audio
-- Contrôle ActiveX, attributs d’élément audio
-- Contrôle ActiveX du lecteur Windows Media, attributs d’élément audio
-- Contrôle ActiveX mobile du lecteur Windows Media, attributs d’élément audio
+- contrôle de ActiveX, attributs d’élément audio
+- contrôle de ActiveX Lecteur Windows Media, attributs d’élément audio
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs d’élément audio
 - référence pour le modèle objet, les attributs d’élément audio
 - attributs, éléments audio
 - attributs d’élément audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7abdb134d24d79ffab6f671fd3280b21517ec0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dda5edbeb3303eedc06833eb23cc42fec41ecabd6121a0c01f162c1664703609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004019"
 ---
 # <a name="audio-item-attributes"></a>Attributs d’élément audio
 
@@ -91,7 +91,7 @@ Les attributs suivants sont disponibles pour un élément audio de la bibliothè
 -   [**Attribut WM/AlbumCoverURL**](wm-albumcoverurl-attribute.md)
 -   [**Attribut WM/AlbumTitle**](wm-albumtitle-attribute.md)
 -   [**Attribut WM/Category**](wm-category-attribute.md)
--   [**Attribut WM/composer**](wm-composer-attribute.md)
+-   [**attribut WM/Composer**](wm-composer-attribute.md)
 -   [**Attribut WM/conducteur**](wm-conductor-attribute.md)
 -   [**Attribut WM/ContentDistributor**](wm-contentdistributor-attribute.md)
 -   [**Attribut WM/ContentGroupDescription**](wm-contentgroupdescription-attribute.md)
@@ -111,7 +111,7 @@ Les attributs suivants sont disponibles pour un élément audio de la bibliothè
 -   [**Attribut WM/Provider**](wm-provider-attribute.md)
 -   [**Attribut WM/ProviderRating**](wm-providerrating-attribute.md)
 -   [**Attribut WM/ProviderStyle**](wm-providerstyle-attribute.md)
--   [**Attribut WM/Publisher**](wm-publisher-attribute.md)
+-   [**attribut WM/Publisher**](wm-publisher-attribute.md)
 -   [**Attribut WM/SubscriptionContentID**](wm-subscriptioncontentid-attribute.md)
 -   [**Attribut WM/subsous-titre**](wm-subtitle-attribute.md)
 -   [**Attribut WM/TrackNumber**](wm-tracknumber-attribute.md)
@@ -129,9 +129,9 @@ Les attributs suivants sont disponibles pour un élément audio de la bibliothè
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

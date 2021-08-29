@@ -5,12 +5,12 @@ ms.assetid: 9faa7759-cad5-4429-94b0-6cba145cfadb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efed7720388e61b9d6131acafd4b9bda17694d29
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cbf871f6aa1e36c3d93eb93853660d0aa9b083d89f4030446fedd8c883530694
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128619"
 ---
 # <a name="objects-and-properties"></a>Objets et propriétés
 
@@ -33,14 +33,14 @@ Le tableau suivant présente les types d’énumération qui énumèrent les pro
 
 
 
- 
+ 
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008.
 
- 
+ 
 
-## <a name="collections"></a>Regroupements
+## <a name="collections"></a>Collections
 
 Les objets sont souvent regroupés dans des collections. L’API SDO fournit des fonctionnalités, via l’interface de [**collection ISdo**](/windows/desktop/api/sdoias/nn-sdoias-isdocollection) , pour énumérer les objets dans une collection et pour ajouter et supprimer des objets d’une collection.
 
@@ -58,6 +58,6 @@ Le type de données pour toutes les propriétés qui correspondent aux collectio
 [Attributs pris en charge par SDO](/windows/desktop/Nps/sdo-sdo-supported-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

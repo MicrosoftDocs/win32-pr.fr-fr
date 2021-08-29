@@ -3,7 +3,7 @@ title: Message TCM_SETMINTABWIDTH (commctrl. h)
 description: Définit la largeur minimale des éléments dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl SetMinTabWidth.
 ms.assetid: c0be3d4e-774c-4233-820f-01ffbb69ecf0
 keywords:
-- TCM_SETMINTABWIDTH les contrôles de message Windows
+- TCM_SETMINTABWIDTH les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87208275ed52c638751352761961ce1f42e6944a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1136afa6952c30c51b619636e938b7887cd9dcf55da8d3f2d9c585ba9e1d82c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104699"
 ---
 # <a name="tcm_setmintabwidth-message"></a>\_Message SETMINTABWIDTH TCM
 
@@ -49,8 +49,8 @@ Retourne une valeur INT qui représente la largeur d’onglet minimale précéde
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

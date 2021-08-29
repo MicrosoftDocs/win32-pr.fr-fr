@@ -4,12 +4,12 @@ ms.assetid: 82866b07-5043-433f-974a-0a301d4b5491
 title: Listes de points
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57086a445209d9e60173910e07166a6149e0b8d2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f4cf0194c2083c2ebe6bb10741a6fdd41f92d12fface4ed9cbc9478e7a5a8fbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406713"
 ---
 # <a name="point-lists"></a>Listes de points
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102988
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1373bae39a235027cc7c767813ad1ca2e642857c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5320ed5a3e66985ab6c0baf4235c18bda9633eab533f10cb6f32cff21c58136a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064169"
 ---
 # <a name="esentsqllinknotsupportedexception-methods"></a>Méthodes EsentSQLLinkNotSupportedException
 

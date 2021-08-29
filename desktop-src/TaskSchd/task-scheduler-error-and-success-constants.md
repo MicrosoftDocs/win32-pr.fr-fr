@@ -55,12 +55,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d0347938020ca8937f2764e3b2c62a38fc9273
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9633282fd6a504a48db81ce852fad7a2aca16a4ee26a1d14ce4f052b6447ce4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080389"
 ---
 # <a name="task-scheduler-error-and-success-constants"></a>Planificateur de tâches les constantes d’erreur et de réussite
 
@@ -341,7 +341,7 @@ Une altération a été détectée dans la base de données de sécurité Planif
 
 
 
-Les services de sécurité Planificateur de tâches ne sont disponibles que sur Windows NT.
+Les services de sécurité Planificateur de tâches sont disponibles uniquement sur Windows NT.
 
 
 </dt> </dl> </dd> <dt>
@@ -638,8 +638,8 @@ Les paramètres de tâche n’autorisent pas le démarrage de la tâche à la de
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

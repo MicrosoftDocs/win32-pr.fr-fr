@@ -6,12 +6,12 @@ keywords:
 ms.topic: article
 ms.date: 05/17/2021
 ms.localizationpriority: low
-ms.openlocfilehash: 15e35f26b72ed8d685e8302f6222836507e5c6a3
-ms.sourcegitcommit: ae8c320a757558262167a4f4e385235b8d89035c
+ms.openlocfilehash: bac179764b253035e0e8f1ef422f07bffb58821b55390c9c87d985bde5d2cdf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112765533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062529"
 ---
 # <a name="firewall-dynamic-keywords"></a>Mots clés dynamiques de pare-feu
 
@@ -68,9 +68,9 @@ Le système d’exploitation lui-même n’impose aucune dépendance entre une r
 
 ## <a name="code-examples"></a>Exemples de code
 
-Pour essayer chacun de ces exemples de code, commencez par lancer Visual Studio et créez un nouveau projet basé sur le modèle de projet d' **application console** . Vous pouvez simplement remplacer le contenu de `main.cpp` par la liste de code.
+pour essayer chacun de ces exemples de code, lancez d’abord Visual Studio et créez un projet basé sur le modèle de projet d' **application Console** . Vous pouvez simplement remplacer le contenu de `main.cpp` par la liste de code.
 
-La plupart des exemples de code utilisent les [bibliothèques d’implémentation Windows (Wil)](https://github.com/Microsoft/wil). Un moyen pratique d’installer Wil consiste à accéder à Visual Studio, puis à cliquer sur **projet** \> **gérer les packages NuGet...** \> **Parcourir**, taper ou coller **Microsoft. Windows. ImplementationLibrary** dans la zone de recherche, sélectionner l’élément dans les résultats de la recherche, puis cliquer sur **installer** pour installer le package pour ce projet.
+la plupart des exemples de code utilisent les [bibliothèques d’implémentation de Windows (WIL)](https://github.com/Microsoft/wil). pour installer le WIL, il est pratique d’accéder à Visual Studio, de cliquer sur **Project** \> **gérer les Packages de NuGet...** \> **parcourir**, tapez ou collez **Microsoft. Windows. ImplementationLibrary** dans la zone de recherche, sélectionnez l’élément dans les résultats de la recherche, puis cliquez sur **installer** pour installer le package pour ce projet.
 
 > [!NOTE]
 > Les types de pointeurs pour les fonctions Free NetFw sont publiés via `NetFw.h` , mais une bibliothèque de liens statiques n’est pas publiée. Utilisez le modèle [LoadLibraryExW](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) / [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour appeler ces fonctions, comme indiqué dans ces exemples de code.

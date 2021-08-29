@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 711202ebc39649e7e1aea2a4459c3a7147eb2ff6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1aedd7e97716766f9dc0bb264df6d82ecfdb18951df135c5329898b86ae866a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836959"
 ---
 # <a name="search-guide-attribute"></a>Attribut Search-Guide
 
@@ -46,7 +46,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Classes utilisées dans        | [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Spécifie des informations sur les critères de recherche suggérés, qui peuven
 | Range-Upper            | \-                                                                                                                                                                                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                |
-| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Country**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+| Classes utilisées dans        | [**Autorité de certification**](c-certificationauthority.md)<br/> [**Pays ou région**](c-country.md)<br/> [**Localité**](c-locality.md)<br/> [**Organisation**](c-organization.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
 
 
 

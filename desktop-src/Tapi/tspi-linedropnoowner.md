@@ -4,12 +4,12 @@ ms.assetid: 43cdb118-c80b-4d52-bd0f-f4ad46e10b85
 title: TSPI_lineDropNoOwner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fea496daa65e61c2f15965ee8d93d7bd0e8882
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10aefccee58d28164281fe381abd58362b15b157cc901cb6851512211a9f00ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012149"
 ---
 # <a name="tspi_linedropnoowner"></a>TSPI \_ lineDropNoOwner
 
