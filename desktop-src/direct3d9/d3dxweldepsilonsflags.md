@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 9e67c8b0f0bf93c9da181a5bba9a694525bd9819
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c206718cd55a05d67d0a38d90c254238b63e964fa1f26149e75b57e09db359e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044487"
 ---
 # <a name="d3dxweldepsilonsflags-enumeration"></a>Énumération D3DXWELDEPSILONSFLAGS
 

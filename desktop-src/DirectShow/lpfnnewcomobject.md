@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Combase.h
-ms.openlocfilehash: f3ea5bc172bc22f7aa9dce1f348bba552520565f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f589404cd2a4bf5ff42b331cdf48a978d97e9a274a5fc01a483c804f5878b3eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501949"
 ---
 # <a name="lpfnnewcomobject-function-pointer"></a>Pointeur de fonction LPFNNewCOMObject
 
@@ -54,7 +54,7 @@ Pointeur vers une valeur **HRESULT** . Si le constructeur échoue, ce paramètre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne un pointeur vers une nouvelle instance de l’objet.
 
@@ -64,7 +64,7 @@ Retourne un pointeur vers une nouvelle instance de l’objet.
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>ComBase. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl> |
 
 
 

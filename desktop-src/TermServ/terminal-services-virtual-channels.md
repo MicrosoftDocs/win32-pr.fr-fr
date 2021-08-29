@@ -5,12 +5,12 @@ ms.assetid: f7bdebec-ecc3-4f28-9327-f0d2f169c142
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce78331841a41502aa337de19e9879d42d85fe1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2898288ee60ea409e3220dc7295f9baa704d804ddea2af5ef344a595ccd01c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869779"
 ---
 # <a name="remote-desktop-services-virtual-channels"></a>Services Bureau à distance des canaux virtuels
 
@@ -54,11 +54,11 @@ Quatre grandes classes d’utilisateurs de canaux virtuels ont été identifiée
 
 Pour plus d’informations, consultez [utilisation de services Bureau à distance canaux virtuels](using-terminal-services-virtual-channels.md).
 
-Si vous avez activé une application de canaux virtuels dans votre déploiement Services Bureau à distance, vous pouvez rendre l’application accessible aux ordinateurs clients qui accèdent au serveur hôte de session Bureau à distance à l’aide de l’Bureau à distance contrôle Microsoft ActiveX. Pour plus d’informations, consultez [canaux virtuels scriptables](scriptable-virtual-channels.md) et [utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md).
+si vous avez activé une application de canaux virtuels dans votre déploiement Services Bureau à distance, vous pouvez mettre l’application à la disposition des ordinateurs clients qui accèdent au serveur hôte de Session bureau à distance à l’aide de l’Bureau à distance contrôle Microsoft ActiveX. pour plus d’informations, consultez [canaux virtuels scriptables](scriptable-virtual-channels.md) et [utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 338556d9-e9a7-4926-a09c-8e2ce1627467
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 876722736a95b45918d8a5b9e229f4f9eda5840b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bd12ed5d755932777b0ad7fe38382ff1254a323bb78b3de44fbe92f4cff47422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657959"
 ---
 # <a name="dvc-implementation-details"></a>Détails de l’implémentation DVC
 
@@ -76,9 +76,9 @@ Exemple de code C++ qui montre comment créer le module de canal virtuel dynamiq
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

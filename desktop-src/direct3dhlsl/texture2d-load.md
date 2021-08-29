@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 3be8fb6260add06379f2441e49c74070ec366667
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 7262982c2edeba303a3f03a6f6222abf077e680cccecb589486b7c1c06c03484
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104990689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788079"
 ---
 # <a name="texture2dload-methods"></a>Texture2D :: Load, méthodes
 

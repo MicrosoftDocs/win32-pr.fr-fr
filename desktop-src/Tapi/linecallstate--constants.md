@@ -4,12 +4,12 @@ ms.assetid: 18d881ee-cf98-4dec-a561-333c2518935d
 title: Constantes LINECALLSTATE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d50301dfeca49513a919fba90cc960c7ccb572d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: edb16daf5875db637a255b626a6f90303ed7c7af69566b0b7db71695af4bc8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140102"
 ---
 # <a name="linecallstate_-constants"></a>\_Constantes LINECALLSTATE
 
@@ -177,7 +177,7 @@ L’appel existe, mais son état est actuellement inconnu. Cela peut être dû �
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 8 bits de poids fort peuvent définir un sous-état spécifique à l’appareil de l’un des États prédéfinis, à condition que l’un des \_ bits LINECALLSTATE définis ci-dessus soit également défini. Les 24 bits de poids faible sont réservés aux États prédéfinis.
 

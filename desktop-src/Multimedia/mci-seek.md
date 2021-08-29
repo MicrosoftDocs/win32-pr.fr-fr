@@ -3,7 +3,7 @@ title: Commande MCI_SEEK (mmsystem. h)
 description: La \_ commande MCI Seek change la position actuelle dans le contenu aussi rapidement que possible.
 ms.assetid: 5ffab964-a28d-4dc2-ac04-da501cd34d24
 keywords:
-- Commande MCI_SEEK Windows multimédia
+- commande MCI_SEEK Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e34f6fa823092968e74515a885e7a40db9f2d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d901bf92e3495dde9a16e7499dcaae850b5e50eab2b4df1af99ca39f290cc981
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430479"
 ---
 # <a name="mci_seek-command"></a>\_Commande MCI Seek
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ recherche MCI**](mci-seek-parms.md) . (L
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la taille de l’échantillon de données d’un appareil est supérieure à 1 octet (comme avec les données stéréo audio Wave), cette commande passe au début de l’échantillon le plus proche lorsqu’une position spécifiée ne coïncide pas avec le début d’un échantillon.
 
@@ -143,7 +143,7 @@ La direction de la recherche est inversée.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

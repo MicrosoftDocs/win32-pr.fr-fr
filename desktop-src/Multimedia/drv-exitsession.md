@@ -1,9 +1,9 @@
 ---
 title: Message DRV_EXITSESSION (mmsystem. h)
-description: Avertit le pilote que Windows se prépare à quitter. Le pilote doit se préparer à l’arrêt.
+description: informe le pilote que Windows se prépare à quitter. Le pilote doit se préparer à l’arrêt.
 ms.assetid: 8d200d64-b89b-47f1-ad21-ab86987efa4b
 keywords:
-- Message DRV_EXITSESSION Windows Multimedia
+- message DRV_EXITSESSION Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 236da457541af2d594bc708caf5b5ed07e58cc04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03b8579c82392bf965474248730c62a520e16341965b7b7d4e91824e40675ff8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691589"
 ---
 # <a name="drv_exitsession-message"></a>\_Message EXITSESSION
 
-Avertit le pilote que Windows se prépare à quitter. Le pilote doit se préparer à l’arrêt.
+informe le pilote que Windows se prépare à quitter. Le pilote doit se préparer à l’arrêt.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -47,7 +47,7 @@ Handle de l’instance du pilote installable.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 
@@ -59,7 +59,7 @@ Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

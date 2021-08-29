@@ -4,12 +4,12 @@ description: Cet article explique comment inscrire une application d’accessibi
 ms.assetid: 6F1F2AAE-B2E4-4F26-8BDF-A3DE8F5C5460
 ms.topic: article
 ms.date: 04/02/2019
-ms.openlocfilehash: be4c235fee01f5711d2ea6c29da6aaedd8c7a79238f79fb8d5c4ce5af92cb848
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a87fadac85906dfd07fd4c568185125039207d9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118829971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885201"
 ---
 # <a name="ease-of-access---assistive-technology-registration"></a>Inscription aux technologies d’assistance d’ergonomie
 
@@ -50,11 +50,11 @@ les valeurs de registre du nom et de la Description de l’Application doivent �
 
 Ces chaînes sont au format suivant, où les crochets pointent les éléments requis et les crochets signifient un élément facultatif.
 
-*@ <ResDllPath \\ ResDLLFilename>,- <resID> \[ ;<comment>\]*
+*@ <ResDllPath \\ ResDLLFilename>,- &lt; resID &gt; \[ ; &lt; Commentaire&gt;\]*
 
 *<ResDllPath \\ ResDLLFilename>* est le chemin d’accès à la dll de ressource. Le chemin d’accès peut contenir des variables d’environnement.
 
-*<resID>* ID de ressource de la chaîne.
+*&lt; resID &gt;* est l’ID de ressource de la chaîne.
 
 le *\[ Commentaire \]* contient des commentaires facultatifs.
 
@@ -247,13 +247,13 @@ Les valeurs de la table se trouvent sous la clé suivante :
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>Nom</th>
 <th>Type</th>
 <th>Données</th>
 </tr>
@@ -275,7 +275,7 @@ Les valeurs de la table se trouvent sous la clé suivante :
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -284,11 +284,11 @@ Les valeurs de la table se trouvent sous la clé suivante :
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;low vision&quot; />
    <Accommodation type=&quot;severe vision&quot; />
    <Accommodation type=&quot;mild cognitive&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -327,13 +327,13 @@ Si l’application fournit à la fois un lecteur d’écran et une loupe d’éc
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>Nom</th>
 <th>Type</th>
 <th>Données</th>
 </tr>
@@ -355,7 +355,7 @@ Si l’application fournit à la fois un lecteur d’écran et une loupe d’éc
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -364,11 +364,11 @@ Si l’application fournit à la fois un lecteur d’écran et une loupe d’éc
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;low vision&quot; />
    <Accommodation type=&quot;severe vision&quot; />
    <Accommodation type=&quot;mild cognitive&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -404,13 +404,13 @@ Les valeurs du composant loupe se trouvent dans la clé suivante :
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Name</th>
+<th>Nom</th>
 <th>Type</th>
 <th>Données</th>
 </tr>
@@ -432,7 +432,7 @@ Les valeurs du composant loupe se trouvent dans la clé suivante :
 <td><span data-codelanguage="XML"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -441,9 +441,9 @@ Les valeurs du composant loupe se trouvent dans la clé suivante :
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre><code><HCIModel>
+<td><pre><code>&lt;HCIModel&gt;
    <Accommodation type=&quot;mild vision&quot; />
-</HCIModel></code></pre></td>
+&lt;/HCIModel&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>

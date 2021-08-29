@@ -3,18 +3,18 @@ title: Police du texte
 description: Police du texte
 ms.assetid: 4f9e305b-bba0-4f39-974b-4ac511656bc3
 keywords:
-- Windows Media Player Mobile Skins, Text
+- Lecteur Windows Media Skins mobiles, texte
 - apparences, texte
 - informations de référence sur les apparences, le texte
 - texte dans les enveloppes, polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 968a6b8105141f8efae7b35f6aa57c73f5614e45
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3693c87a6865616f3f100879a59966c228675a7d9fdabe753cac7e8c3953b72d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763039"
 ---
 # <a name="text-font"></a>Police du texte
 
@@ -22,7 +22,7 @@ Vous devez définir la police utilisée par la zone d’affichage de texte que v
 
 **Valeurs de police**
 
-Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’être installé sur l’ordinateur de l’utilisateur. Si une police est introuvable sur l’ordinateur, une alternative est sélectionnée par le système d’exploitation. Le tableau suivant présente les polices qui se trouvent généralement sur les périphériques Windows Mobile 2003.
+Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’être installé sur l’ordinateur de l’utilisateur. Si une police est introuvable sur l’ordinateur, une alternative est sélectionnée par le système d’exploitation. le tableau suivant présente les polices qui se trouvent généralement sur Windows appareils mobiles 2003.
 
 
 
@@ -33,7 +33,7 @@ Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’�
 
 
 
- 
+ 
 
 **Valeurs de taille**
 
@@ -52,18 +52,18 @@ Les seules valeurs autorisées sont indiquées dans le tableau suivant.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Texte**](text.md)
+[**Financière**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

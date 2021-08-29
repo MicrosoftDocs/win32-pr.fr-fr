@@ -4,12 +4,12 @@ ms.assetid: ea519e5c-98b0-4a01-b2cc-e5ff736a5396
 title: Valeurs de retour de l’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2831fbce55523b3d55a649ef18fb6a622f3ec0ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce618e906bedd1834b0a10ad7569e691034d8071f156c0182e6505fa8444578d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141392"
 ---
 # <a name="authentication-return-values"></a>Valeurs de retour de l’authentification
 
@@ -32,7 +32,7 @@ L' [API du fournisseur réseau](network-provider-api.md) utilise les valeurs dé
 Les [fonctions de carte à puce](authentication-functions.md) retournent les valeurs de retour suivantes. Ces valeurs de retour sont définies dans Scarderr. h.
 
 > [!Note]  
-> Certaines valeurs de retour peuvent avoir la même valeur que les valeurs de retour Windows existantes qui indiquent une condition similaire. Pour plus d’informations sur les codes d’erreur non répertoriés ici, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
+> certaines valeurs de retour peuvent avoir la même valeur que les valeurs de retour Windows existantes qui indiquent une condition similaire. Pour plus d’informations sur les codes d’erreur non répertoriés ici, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
  
 

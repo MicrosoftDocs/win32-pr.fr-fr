@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_VideoController
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c08d43d710e88b4dabbf4bec6358906f1657c637
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3bf230dd3a66dfa5a0b9a14d8976e233d3dbb94fe71b89e4544854c3e25a3c8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505499"
 ---
 # <a name="cim_videocontroller-methods"></a>\_Méthodes VIDEOCONTROLLER CIM
 

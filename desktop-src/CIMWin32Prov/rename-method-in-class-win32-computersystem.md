@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2ca60021c921e47de3c7afd5b8ee0bb2ea5e6d12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f2a503cfac8e6cef8b32ee4e84cb8fa78f930d4e1126fcd0af488f3908c540f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077449"
 ---
 # <a name="rename-method-of-the-win32_computersystem-class"></a>Renommer la méthode de la \_ classe Win32 ComputerSystem
 
@@ -77,11 +77,11 @@ Retourne une valeur 0 (zéro) en cas de réussite. Une valeur de retour différe
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser la méthode **Rename** pour renommer un ordinateur si vous êtes membre du groupe Administrateurs local. Toutefois, vous ne pouvez pas utiliser la méthode à distance pour les ordinateurs du domaine.
 
-Si les paramètres du *mot de passe* et du *nom d’utilisateur* sont spécifiés, la connexion à WMI doit utiliser le niveau d’authentification de la confidentialité (**wbemAuthenticationLevelPktPrivacy** pour script et Visual Basic (VB)) du niveau d’authentification **RPC \_ C \_ \_ \_ \_** .
+si les paramètres du *mot de passe* et du *nom d’utilisateur* sont spécifiés, la connexion à WMI doit utiliser le niveau d’authentification de la confidentialité (**wbemAuthenticationLevelPktPrivacy** pour script et Visual Basic (VB)) du niveau d’authentification **RPC \_ C \_ \_ \_ \_** .
 
 Pour vous connecter à un ordinateur distant et spécifier des informations d’identification, utilisez la connexion à l’objet localisateur, qui est IWbemLocator pour C++ et SWbemLocator pour script et VB. N’utilisez pas la connexion du moniker.
 

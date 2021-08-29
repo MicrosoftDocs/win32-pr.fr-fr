@@ -4,12 +4,12 @@ ms.assetid: 8bf022f6-fd97-43f5-ac19-6a75ddb45f5e
 title: Interrogation de la prise en charge des tampons de profondeur (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfe7555c1fa0fccddcfcb12ff8bc53f1a0f5f81
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e1050edc61e5359cca0ac9c2990d35f27c8c8db6b193d219f928ac336e99d760
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118579"
 ---
 # <a name="querying-for-depth-buffer-support-direct3d-9"></a>Interrogation de la prise en charge des tampons de profondeur (Direct3D 9)
 

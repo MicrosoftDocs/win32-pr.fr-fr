@@ -1,5 +1,5 @@
 ---
-description: La \_ classe d’association CIM ServiceAccessBySAP représente les points d’accès pour un service. Par exemple, il est possible d’accéder à une imprimante par des points d’accès SAP, Macintosh ou de service Windows, qui sont potentiellement hébergés sur différents systèmes.
+description: La \_ classe d’association CIM ServiceAccessBySAP représente les points d’accès pour un service. par exemple, il est possible d’accéder à une imprimante par des points d’accès de service (sap) NetWare, Macintosh ou Windows, qui sont potentiellement hébergés sur différents systèmes.
 ms.assetid: 68311a56-b034-4a30-a885-74a745a738d8
 ms.tgt_platform: multiple
 title: Classe CIM_ServiceAccessBySAP
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e34b2af50a6475461ae4d39d156d26143fcb75f5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2fa927bdeb2a6554bf6b61822b1bf697984fb883857474e9a9890ac65af50a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919629"
 ---
 # <a name="cim_serviceaccessbysap-class"></a>\_Classe CIM ServiceAccessBySAP
 
-La classe d’association **CIM \_ ServiceAccessBySAP** représente les points d’accès pour un service. Par exemple, il est possible d’accéder à une imprimante par des points d’accès SAP, Macintosh ou de service Windows, qui sont potentiellement hébergés sur différents systèmes.
+La classe d’association **CIM \_ ServiceAccessBySAP** représente les points d’accès pour un service. par exemple, il est possible d’accéder à une imprimante par des points d’accès de service (sap) NetWare, Macintosh ou Windows, qui sont potentiellement hébergés sur différents systèmes.
 
 > [!IMPORTANT]
 > Les classes de la DMTF (Distributed Management Task Force) CIM (Common Information Model) sont les classes parentes sur lesquelles les classes WMI sont générées. WMI ne prend actuellement en charge que les [schémas de version CIM 2. x](https://dmtf.org/standards/cim/schemas).
@@ -89,7 +89,7 @@ Un [**\_ ServiceAccessPoint CIM**](cim-serviceaccesspoint.md) qui décrit un poi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ServiceAccessBySAP** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

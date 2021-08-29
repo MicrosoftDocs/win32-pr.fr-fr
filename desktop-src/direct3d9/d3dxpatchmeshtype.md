@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: d6a663e983b339d79ec89bf1b4ddfe7b4eaa9f1e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1e5953e81431878b293a554665ea2b1bac53e62d80ee3a6d20e55385a82b098d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119059"
 ---
 # <a name="d3dxpatchmeshtype-enumeration"></a>Énumération D3DXPATCHMESHTYPE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les correctifs triangulaires ont trois côtés et sont décrits dans [**D3DTRIPATCH \_ info**](d3dtripatch-info.md). Les correctifs de rectangle sont à quatre côtés et sont décrits dans [**D3DRECTPATCH \_ info**](d3drectpatch-info.md).
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 9a36a90c2146e6bdddb08d54174aa31d1fb64730
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3eedc12f26bf5b860776a997ae4519e9f38f779e6fb91d18ea21b7add7901747
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952559"
 ---
 # <a name="d3dgetdata_flush"></a>\_Vidage D3DGETDATA
 
@@ -28,7 +28,7 @@ Cette macro crée la valeur passée à [**GetData**](/windows/win32/api/d3d9help
 #define D3DGETDATA_FLUSH (1 << 0)
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’utilisation des requêtes, consultez [requêtes (Direct3D 9)](queries.md).
 

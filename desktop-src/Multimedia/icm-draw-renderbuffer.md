@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_RENDERBUFFER (VFW. h)
-description: Le \_ message RENDERBUFFER de dessin ICM \_ indique à un pilote de rendu de dessiner les frames qui lui ont été transmis. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawRenderBuffer.
+description: le ICM \_ \_ message RENDERBUFFER DRAW notifie à un pilote de rendu de dessiner les frames qui lui ont été transmis. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawRenderBuffer.
 ms.assetid: b21be12c-b8a5-49ea-b6b3-d2eb0077a8e9
 keywords:
-- Message ICM_DRAW_RENDERBUFFER Windows Multimedia
+- message ICM_DRAW_RENDERBUFFER Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccb02a1fbe334547b9679970ac7598df23237f12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 28a5066d5aa129ffad98aa82eb8d09ba91c0e42fca4edae501f8a7c1775d4be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526129"
 ---
-# <a name="icm_draw_renderbuffer-message"></a>\_Message RENDERBUFFER de dessin ICM \_
+# <a name="icm_draw_renderbuffer-message"></a>ICM \_ DESSINER le \_ message RENDERBUFFER
 
-Le **message \_ \_ RENDERBUFFER de dessin ICM** indique à un pilote de rendu de dessiner les frames qui lui ont été transmis. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawRenderBuffer**](/windows/desktop/api/Vfw/nf-vfw-icdrawrenderbuffer) .
+le **ICM \_ message \_ RENDERBUFFER DRAW** notifie à un pilote de rendu de dessiner les frames qui lui ont été transmis. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawRenderBuffer**](/windows/desktop/api/Vfw/nf-vfw-icdrawrenderbuffer) .
 
 
 ```C++
@@ -38,7 +38,7 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ce message avec un matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones.
 

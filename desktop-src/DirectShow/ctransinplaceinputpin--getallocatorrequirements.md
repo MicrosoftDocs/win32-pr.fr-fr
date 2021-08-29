@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dfa176cd5da0317821996593e19bb90396e82224
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2a192ef973d59529dc7ced0a81591a998ac532e903201114d675f4d51bb59543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907259"
 ---
 # <a name="ctransinplaceinputpingetallocatorrequirements-method"></a>Méthode CTransInPlaceInputPin. GetAllocatorRequirements
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la broche de sortie est connectée, cette méthode passe l’appel à la broche d’entrée en aval. Dans le cas contraire, elle retourne E \_ NOTIMPL.
 
@@ -75,7 +75,7 @@ Si la broche de sortie est connectée, cette méthode passe l’appel à la broc
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

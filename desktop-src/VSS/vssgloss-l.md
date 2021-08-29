@@ -5,12 +5,12 @@ ms.assetid: 3e8b9c48-9d2d-4055-b78d-c4a22d780764
 title: L (Service VSS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a568ed662019cbc0f3c0a242faf884df72acb015
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72ef027528155e3a1d72b1a8e9190fd2e2f8ebb71046dd942df37bf0467e0a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997949"
 ---
 # <a name="l-volume-shadow-copy-service"></a>L (Service VSS)
 

@@ -4,7 +4,7 @@ description: Risque de gravité des menaces.
 ms.assetid: 7C50AC74-16CB-4198-ABB2-D6999429F2EA
 keywords:
 - MPTHREAT_SEVERITY énumération des fonctionnalités d’environnement Windows héritées
-- PMPTHREAT_SEVERITY des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPTHREAT_SEVERITY de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eec7bff3b23a89ce8187798d8a69a9968cbc2bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f7fe63df6e3d6d9be3e12a25138927e95bf45626ba40bd009f9a7660029f667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665249"
 ---
 # <a name="mpthreat_severity-enumeration"></a>\_Énumération MPTHREAT Severity
 
@@ -70,8 +70,8 @@ typedef enum tagMPTHREAT_SEVERITY {
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

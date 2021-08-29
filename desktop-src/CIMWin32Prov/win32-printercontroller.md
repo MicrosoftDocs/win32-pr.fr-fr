@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ee38b827aed2dfffe1e7ef4f5049b16eee50791
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f987ee23b3dd7b65ec391e88200e59c86055e49a5cda23be4c529500359e789c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759519"
 ---
 # <a name="win32_printercontroller-class"></a>\_Classe PrinterController Win32
 
@@ -209,7 +209,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PrinterController** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

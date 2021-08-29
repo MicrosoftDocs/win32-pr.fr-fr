@@ -4,12 +4,12 @@ ms.assetid: dda87bcc-2315-4f0d-87a0-d5a33d5d929a
 title: À propos de l’arborescence d’éléments IWiaItem2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ae342f5a85e61b6384604dae703881c6888e3e1cf8e61cc8a39a32ac77ad436
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2df2b080b0945ea94a219e83874d82d685bab146
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119264425"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476365"
 ---
 # <a name="about-the-iwiaitem2-item-tree"></a>À propos de l’arborescence d’éléments IWiaItem2
 
@@ -63,84 +63,15 @@ Le tableau suivant montre le regroupement des catégories WIA avec les indicateu
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Catégorie WIA</th>
-<th>Indicateurs d’élément WIA valides</th>
-<th>Jeu de propriétés WIA</th>
-<th>Éléments WIA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>WIA_CATEGORY_AUTO</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFile</strong></a></li>
-</ul></td>
-<td>Le jeu de propriétés comprend les propriétés de l’analyseur configuré automatiquement.</td>
-<td>Élément auto WIA qui représente les paramètres d’analyse automatique configurés pour le scanneur.</td>
-</tr>
-<tr class="even">
-<td>WIA_CATEGORY_FEEDER</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-</ul></td>
-<td>Le jeu de propriétés comprend les propriétés du contrôle de l’analyseur du chargeur (généralement un jeu de propriétés d’image et de document spécifique).</td>
-<td>Éléments de chargeur WIA, y compris les éléments enfants qui représentent les pages frontale et précédente d’un document.</td>
-</tr>
-<tr class="odd">
-<td>WIA_CATEGORY_FILM</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-</ul></td>
-<td>Le jeu de propriétés comprend les propriétés du contrôle scanner de film (généralement un jeu de propriétés d’image et de document spécifique).</td>
-<td>Éléments de film WIA, y compris les éléments enfants qui représentent les trames d’analyse individuelles.</td>
-</tr>
-<tr class="even">
-<td>WIA_CATEGORY_FINISHED_FILE</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeAudio</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeVideo</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-</ul></td>
-<td>La propriété définie sur cet élément dépend du type d’élément signalé. Par exemple, <a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a> doit inclure des propriétés d’élément d’image, telles que les bits par pixel et ainsi de suite.</td>
-<td>Éléments de stockage WIA, y compris les éléments enfants qui représentent le contenu du fichier fini (fichiers de données tels que JPEG, HTML, TXT, etc.).</td>
-</tr>
-<tr class="odd">
-<td>WIA_CATEGORY_FLATBED</td>
-<td><ul>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a>: peut être présent si le scanneur prend en charge l’analyse de plusieurs éléments.</li>
-<li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeGenerated</strong></a>: peut être présent si l’application génère un élément WIA au cours d’une session d’analyse de plusieurs éléments.</li>
-</ul></td>
-<td>Le jeu de propriétés comprend des propriétés de contrôle de scanneur à plat (généralement un jeu de propriétés d’image et de document spécifique).</td>
-<td>Éléments à plat WIA, y compris les éléments enfants qui représentent des régions en cours d’analyse sur le plateau à plateau du scanneur.</td>
-</tr>
-</tbody>
-</table>
+
+| Catégorie WIA | Indicateurs d’élément WIA valides | Jeu de propriétés WIA | Éléments WIA | 
+|--------------|----------------------|------------------|-----------|
+| WIA_CATEGORY_AUTO | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFile</strong></a></li></ul> | Le jeu de propriétés comprend les propriétés de l’analyseur configuré automatiquement. | Élément auto WIA qui représente les paramètres d’analyse automatique configurés pour le scanneur. | 
+| WIA_CATEGORY_FEEDER | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li></ul> | Le jeu de propriétés comprend les propriétés du contrôle de l’analyseur du chargeur (généralement un jeu de propriétés d’image et de document spécifique). | Éléments de chargeur WIA, y compris les éléments enfants qui représentent les pages frontale et précédente d’un document. | 
+| WIA_CATEGORY_FILM | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li></ul> | Le jeu de propriétés comprend les propriétés du contrôle scanner de film (généralement un jeu de propriétés d’image et de document spécifique). | Éléments de film WIA, y compris les éléments enfants qui représentent les trames d’analyse individuelles. | 
+| WIA_CATEGORY_FINISHED_FILE | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeAudio</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeVideo</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li></ul> | La propriété définie sur cet élément dépend du type d’élément signalé. Par exemple, <a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a> doit inclure des propriétés d’élément d’image, telles que les bits par pixel et ainsi de suite. | Éléments de stockage WIA, y compris les éléments enfants qui représentent le contenu du fichier fini (fichiers de données tels que JPEG, HTML, TXT, etc.). | 
+| WIA_CATEGORY_FLATBED | <ul><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeProgrammableDataSource</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeImage</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeDocument</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeTransfer</strong></a></li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeFolder</strong></a>: peut être présent si le scanneur prend en charge l’analyse de plusieurs éléments.</li><li><a href="-wia-wia-item-type-flags.md"><strong>WiaItemTypeGenerated</strong></a>: peut être présent si l’application génère un élément WIA au cours d’une session d’analyse de plusieurs éléments.</li></ul> | Le jeu de propriétés comprend des propriétés de contrôle de scanneur à plat (généralement un jeu de propriétés d’image et de document spécifique). | Éléments à plat WIA, y compris les éléments enfants qui représentent des régions en cours d’analyse sur le plateau à plateau du scanneur. | 
+
 
 
 

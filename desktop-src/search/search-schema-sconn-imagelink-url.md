@@ -1,19 +1,19 @@
 ---
-description: L' <url> élément spécifie une URL vers la miniature pour ce connecteur de recherche. Si <imageLink> existe, cet élément est obligatoire. Elle n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; &gt; élément URL spécifie une URL vers la miniature pour ce connecteur de recherche. Si &lt; imageLink &gt; existe, cet élément est obligatoire. Elle n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: addb2614-9f4f-4cab-a678-b6020b8c4648
 title: Élément URL imageLink (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c97daaafcbf6336dd4d88c3c92315e656d137b1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 011142e509d34f4942027b90625c9692c7aa87ff
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513365"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882408"
 ---
 # <a name="imagelink-url-element-search-connector-schema"></a>Élément URL imageLink (schéma du connecteur de recherche)
 
-L' <url> élément spécifie une URL vers la miniature pour ce connecteur de recherche. Si <imageLink> existe, cet élément est obligatoire. Elle n’a pas d’éléments enfants ni d’attributs.
+L' &lt; &gt; élément URL spécifie une URL vers la miniature pour ce connecteur de recherche. Si &lt; imageLink &gt; existe, cet élément est obligatoire. Elle n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -51,9 +51,9 @@ L' <url> élément spécifie une URL vers la miniature pour ce connecteur de rec
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur peut être un chemin d’accès au système de fichiers local ou une URL. Le fichier image peut être l’un des types d’images de base pris en charge par Windows 7 (PNG, BMP, JPG, GIF).
+La valeur peut être un chemin d’accès au système de fichiers local ou une URL. le fichier image peut être l’un des types d’images de base pris en charge par Windows 7 (PNG, BMP, JPG, GIF).
 
 ## <a name="example-of-an-imagelinkurl-element"></a>Exemple d’élément imageLinkurl
 

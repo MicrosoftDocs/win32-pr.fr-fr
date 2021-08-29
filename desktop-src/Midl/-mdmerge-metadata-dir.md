@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd104ae63378056babdc804a93564be4005246c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e80dfb312b51d48b8ad5f0b81141a21c4d4115ccab2b06541f76d40286686c6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067619"
 ---
 # <a name="metadata_dir-switch-mdmerge"></a>/commutateur metadata_dir (MDMERGE)
 
@@ -38,9 +38,9 @@ Spécifie le répertoire qui contient les fichiers de métadonnées de plateform
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez ce commutateur pour spécifier l’emplacement du fichier de métadonnées principal pour Windows, nommé Windows. winmd.
+utilisez ce commutateur pour spécifier l’emplacement du fichier de métadonnées principal pour Windows, nommé Windows. winmd.
 
 ## <a name="examples"></a>Exemples
 

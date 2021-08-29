@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3234836a5582b2ba431788e0ec2b6ea434830f29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7677907a0709d77b5fed6d086d824fd670a23426a160d1d4abf752ae82e12e5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603469"
 ---
 # <a name="windows7grbitsreplayignorelostlogs-field"></a>Champ Windows7Grbits. ReplayIgnoreLostLogs
 

@@ -1,6 +1,6 @@
 ---
-title: Fichiers de bibliothèque, fichiers d’en-tête et paramètres du compilateur
-description: Fichiers de bibliothèque, fichiers d’en-tête et paramètres du compilateur
+title: fichiers de bibliothèque, fichiers d’en-tête et Paramètres du compilateur
+description: fichiers de bibliothèque, fichiers d’en-tête et Paramètres du compilateur
 ms.assetid: 7563bb3a-7bea-4e0c-8205-a16b276c8d1e
 keywords:
 - Windows Media Format SDK, fichiers de bibliothèque DRM
@@ -17,20 +17,20 @@ keywords:
 - DRM (gestion des droits numériques), paramètres du compilateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03b0b10ea03cc08d5b689b74f9c647f7d0138fac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 537742e40778120ff1b712b2170a1c451f7598b935717a574048b619321fa96d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084736"
 ---
-# <a name="library-files-header-files-and-compiler-settings"></a>Fichiers de bibliothèque, fichiers d’en-tête et paramètres du compilateur
+# <a name="library-files-header-files-and-compiler-settings"></a>fichiers de bibliothèque, fichiers d’en-tête et Paramètres du compilateur
 
-Les composants de programmation des API étendues du client Windows Media DRM sont définis dans le fichier d’en-tête wmdrmsdk. h et implémentés dans les bibliothèques wmdrmsdk. lib et mfuuid. lib.
+les composants de programmation des api étendues du Client Windows Media DRM sont définis dans le fichier d’en-tête wmdrmsdk. h et sont implémentés dans les bibliothèques wmdrmsdk. lib et mfuuid. lib.
 
-Certaines fonctionnalités des API étendues du client Windows Media DRM requièrent que vous obteniez une bibliothèque protégée de Microsoft. Cette bibliothèque, appelée bibliothèque stub dans cette documentation, est spécifique au destinataire et spécifie le niveau de sécurité de l’application pour vos applications. La bibliothèque stub remplace wmdrmsdk. lib ; vous ne devez jamais établir de liaison avec les deux.
+certaines des fonctionnalités des api étendues du Client Media DRM Windows requièrent que vous obteniez une bibliothèque protégée de Microsoft. Cette bibliothèque, appelée bibliothèque stub dans cette documentation, est spécifique au destinataire et spécifie le niveau de sécurité de l’application pour vos applications. La bibliothèque stub remplace wmdrmsdk. lib ; vous ne devez jamais établir de liaison avec les deux.
 
-**Remarque** La bibliothèque de stubs DRM est distincte de la bibliothèque de stubs utilisée par le reste du kit de développement logiciel (SDK) du format Windows Media, mais elle est autorisée à l’aide de la même méthode.
+**Remarque** la bibliothèque de stubs DRM est distincte de la bibliothèque de stubs utilisée par le reste du kit de développement logiciel (SDK) Windows Media Format, mais elle est concédée sous licence avec la même méthode.
 
 **Remarque** La bibliothèque de stubs DRM doit être liée à votre application après le fichier de bibliothèque Msvcrt. lib pour éviter les erreurs de l’éditeur de liens.
 
@@ -47,15 +47,15 @@ Le sous-système DRM ne peut pas être utilisé dans une version Debug. Si cette
 [**Prise en main**](drm-getting-started.md)
 </dt> <dt>
 
-[**Fichiers de bibliothèque et paramètres du compilateur**](library-files-and-compiler-settings.md)
+[**fichiers de bibliothèque et Paramètres du compilateur**](library-files-and-compiler-settings.md)
 </dt> <dt>
 
 [**Obtention de la bibliothèque DRM requise**](obtaining-the-required-drm-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

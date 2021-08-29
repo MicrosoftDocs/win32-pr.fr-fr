@@ -4,12 +4,12 @@ ms.assetid: 407702b2-5f4f-424d-a3ec-b0473e1b0da3
 title: Rubriques avancées sur la capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4c4e5a077f6f8b17543250efa0f10091f0917e8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8d80ba7615b0ad42bbfe62ae646a4cf7e58897cb678eae836b2b5329eda0e17c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690509"
 ---
 # <a name="advanced-capture-topics"></a>Rubriques avancées sur la capture
 
@@ -22,7 +22,7 @@ Cette section contient les rubriques suivantes :
 -   [Gestion des événements de redessin dans la capture vidéo](handling-repaint-events-in-video-capture.md)
 -   [Utilisation des catégories de code confidentiel](working-with-pin-categories.md)
 -   [Utilisation du filtre tee Smart](using-the-smart-tee-filter.md)
--   [Utilisation du mélangeur de superposition dans la capture vidéo](using-the-overlay-mixer-in-video-capture.md)
+-   [utilisation de la superposition Mixer dans la Capture vidéo](using-the-overlay-mixer-in-video-capture.md)
 -   [Broches de port vidéo](video-port-pins.md)
 -   [Type de format VideoInfo2](videoinfo2-format-type.md)
 -   [Création de filtres de Kernel-Mode](creating-kernel-mode-filters.md)

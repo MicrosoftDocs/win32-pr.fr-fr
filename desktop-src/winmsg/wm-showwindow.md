@@ -4,12 +4,12 @@ ms.assetid: dea7c9aa-eba7-4b93-a4c5-9b2d36999780
 title: Message WM_SHOWWINDOW (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbca6cbb4c73ff1cad31754b1b581e0c892970e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9b1952cff3db2dad62d7b22484680c3e4c4ff6070a0331c3d891ff2f764a062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931229"
 ---
 # <a name="wm_showwindow-message"></a>\_Message ShowWindow WM
 
@@ -61,7 +61,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) masque ou affiche la fenêtre, comme spécifié par le message. Si une fenêtre a le style [**WS \_ visible**](window-styles.md) lors de sa création, la fenêtre reçoit ce message après sa création, mais avant son affichage. Une fenêtre reçoit également ce message lorsque son état de visibilité est modifié par la fonction [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) ou [**ShowOwnedPopups**](/windows/win32/api/winuser/nf-winuser-showownedpopups) .
 
