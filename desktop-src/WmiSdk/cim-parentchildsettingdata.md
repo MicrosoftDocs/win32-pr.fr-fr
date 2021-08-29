@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2
-ms.openlocfilehash: 9b2b866c3d5ae15d3f5a97c971e8efec75e9164c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2b6fa9dc11f7d5e17fbc74e24a079a56647bee37b7c0251a281b767797ab801c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244659"
 ---
 # <a name="cim_parentchildsettingdata-class"></a>\_Classe CIM ParentChildSettingData
 

@@ -4,16 +4,16 @@ description: Installation du gestionnaire de fichiers et de flux
 ms.assetid: 8d007ea4-b75a-4b3f-965f-8091fcd4cb2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be94137df69ed35b57b1b8fbeb5c9640dd7636d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78ac1b08fb917ee27dc871082591a9118e6e2c40588bc9eb4961f41786c1fb9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785409"
 ---
 # <a name="file-and-stream-handler-installation"></a>Installation du gestionnaire de fichiers et de flux
 
-La bibliothèque AVIFile utilise des gestionnaires de fichiers et de flux installés pour la lecture et l’écriture de fichiers AVI et de flux. Un gestionnaire est installé lorsqu’il se trouve dans le répertoire système de Windows et le registre contient les informations suivantes requises pour décrire et identifier un gestionnaire :
+La bibliothèque AVIFile utilise des gestionnaires de fichiers et de flux installés pour la lecture et l’écriture de fichiers AVI et de flux. un gestionnaire est installé lorsqu’il se trouve dans le répertoire système Windows et que le registre contient les informations suivantes requises pour décrire et identifier un gestionnaire :
 
 -   Identificateur de classe de 16 octets pour le gestionnaire
 -   Brève description du gestionnaire
@@ -55,7 +55,7 @@ Ces entrées se composent des éléments suivants.
 
 
 
- 
+ 
 
 Un gestionnaire de fichiers peut avoir une ou plusieurs de ses propriétés stockées dans le registre. Les constantes suivantes identifient les propriétés actuellement associées à un fichier.
 
@@ -69,7 +69,7 @@ Un gestionnaire de fichiers peut avoir une ou plusieurs de ses propriétés stoc
 
 
 
- 
+ 
 
 Lorsque vous créez un gestionnaire de fichiers ou de flux, vous pouvez obtenir un nouvel identificateur en exécutant UUIDGEN.EXE. Utilisez toujours UUIDGEN.EXE pour créer un nouvel identificateur. Le nombre hexadécimal de 16 octets créé par cet exécutable identifie de manière unique votre gestionnaire.
 
@@ -100,11 +100,11 @@ Ces entrées se composent des éléments suivants.
 
 
 
- 
+ 
 
 Si vous distribuez votre flux ou votre gestionnaire de fichiers sans application d’installation pour l’installer dans le système de l’utilisateur, vous devez inclure un. Fichier REG pour que l’utilisateur puisse installer le gestionnaire. L’utilisateur utilisera l’éditeur du Registre pour créer des entrées de Registre pour votre flux ou votre gestionnaire de fichiers.
 
-L’exemple suivant montre le contenu d’un type standard. Fichier REG. La première entrée de l’exemple suivant est la chaîne descriptive du gestionnaire. La deuxième entrée identifie le fichier contenant le gestionnaire. La troisième entrée identifie les propriétés du gestionnaire de fichiers (dans ce cas, l’accès en lecture seule aux fichiers). La quatrième entrée associe le type de fichier traité par le gestionnaire (dans ce cas, les fichiers avec un. Extension de nom de fichier JPG) avec l’identificateur de classe.
+L’exemple suivant montre le contenu d’un type standard. Fichier REG. La première entrée de l’exemple suivant est la chaîne descriptive du gestionnaire. La deuxième entrée identifie le fichier contenant le gestionnaire. La troisième entrée identifie les propriétés du gestionnaire de fichiers (dans ce cas, l’accès en lecture seule aux fichiers). La quatrième entrée associe le type de fichier traité par le gestionnaire (dans ce cas, les fichiers avec une extension de nom de fichier .JPG) à l’identificateur de classe.
 
 
 ```C++
@@ -121,9 +121,9 @@ L’exemple suivant montre le contenu d’un type standard. Fichier REG. La prem
 
 Lors de la création de ce fichier, enregistrez-le avec un. Extension REG pour l’identifier comme fichier de mise à jour du Registre. Remplacez également un IID unique pour le code de 16 octets utilisé dans l’exemple.
 
- 
+ 
 
- 
+ 
 
 
 

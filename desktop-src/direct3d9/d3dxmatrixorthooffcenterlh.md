@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 704bdab1d486399b28117cd078f556beb1347f7b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2bc1bc3460f84340d52eeeb9518839e4a8655d0e2eb189af076750ea0011b3ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069288"
 ---
 # <a name="d3dxmatrixorthooffcenterlh-function-d3dx9mathh"></a>D3DXMatrixOrthoOffCenterLH, fonction (D3dx9math. h)
 
@@ -109,13 +109,13 @@ Valeur z maximale du volume de la vue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers le [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md)résultant.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La fonction [**D3DXMatrixOrthoLH**](d3dxmatrixortholh.md) est un cas particulier de la fonction **D3DXMatrixOrthoOffCenterLH** . Pour créer la même projection à l’aide de **D3DXMatrixOrthoOffCenterLH**, utilisez les valeurs suivantes : l =-w/2, r = w/2, b =-h/2 et t = h/2.
 

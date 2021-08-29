@@ -4,12 +4,12 @@ ms.assetid: 29b54315-7c4e-4b8c-ad79-0b85c7386860
 title: Utilisation des métriques TrueType portables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83360b620bde11e20726b0ee4124d35bf6cf00b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 9fb56eaa3111dad8592b1e1f6edbab2a64ced6e2a6c9b6e1a94baf8a5acc7120
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848999"
 ---
 # <a name="using-portable-truetype-metrics"></a>Utilisation des métriques TrueType portables
 

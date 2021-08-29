@@ -4,12 +4,12 @@ ms.assetid: b0e199b9-8d81-4445-92f7-de9b8a00a9cb
 title: Ressources et meilleures pratiques pour la résolution des problèmes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63a0a8acda3fff1627b37f41c2d81a67b37d66a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8704597f88bdf77e301dcf3f2099c27ad85eae656e3acdcbd6e43c134bb7e43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844489"
 ---
 # <a name="troubleshooting-language-resources-and-best-practices"></a>Ressources et meilleures pratiques pour la résolution des problèmes
 
@@ -23,7 +23,7 @@ Cette rubrique est organisée comme suit :
 -   [Test de la cohérence de l’analyseur lexical](#testing-word-breaker-consistency)
 -   [Test des entrées non valides dans l’analyseur lexical](#testing-for-invalid-input-in-the-word-breaker)
 
-### <a name="best-practices"></a>Bonnes pratiques
+### <a name="best-practices"></a>Meilleures pratiques
 
 -   Assurez-vous que le modèle de thread pour les ressources de langue a la valeur « both » dans le registre.
 -   Dans la mesure du possible, placez les données de langage dans une ressource de votre DLL plutôt que dans un fichier séparé. Cela simplifie l’installation et la sécurisation de la DLL. En outre, le fait de placer les données de langue dans une ressource permet d’améliorer les performances de ce composant de ressource de langue.

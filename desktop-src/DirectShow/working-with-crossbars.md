@@ -4,16 +4,16 @@ ms.assetid: 6e8ee9c3-6776-498b-ad38-36f8172a27ae
 title: Utilisation des conversions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3d3a1c43703ac662d44854b0fc6bad8b280c368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53686250b423c0bed245650be604fd8ec4b6a6ce713e5cde8582c66c8c4dc88f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964439"
 ---
 # <a name="working-with-crossbars"></a>Utilisation des conversions
 
-Si une carte de capture vidéo a plusieurs entrées physiques, ou si elle prend en charge plusieurs chemins d’accès matériels pour les données, le graphique de filtre peut contenir le filtre de la barre d' [affichage vidéo analogique](analog-video-crossbar-filter.md). Le générateur de graphiques de capture ajoute automatiquement ce filtre si nécessaire. il sera amont du filtre de capture. Selon le matériel, le graphique de filtre peut contenir plusieurs instances du filtre de la barre.
+Si une carte de capture vidéo a plusieurs entrées physiques, ou si elle prend en charge plusieurs chemins d’accès matériels pour les données, le graphique de filtre peut contenir le filtre de la barre d' [affichage vidéo analogique](analog-video-crossbar-filter.md). le générateur de Graph de Capture ajoute automatiquement ce filtre si nécessaire. il sera amont du filtre de capture. Selon le matériel, le graphique de filtre peut contenir plusieurs instances du filtre de la barre.
 
 Le filtre de distributeur expose l’interface [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar) , que vous pouvez utiliser pour acheminer une entrée particulière vers une sortie particulière. Par exemple, une carte vidéo peut avoir un connecteur coaxial et une entrée S-Video. Celles-ci sont représentées en tant que broches d’entrée sur le filtre de la barre. Pour sélectionner une entrée, acheminez la broche d’entrée correspondante vers la broche de sortie du distributeur, à l’aide de la méthode [**IAMCrossbar :: route**](/windows/desktop/api/Strmif/nf-strmif-iamcrossbar-route) .
 

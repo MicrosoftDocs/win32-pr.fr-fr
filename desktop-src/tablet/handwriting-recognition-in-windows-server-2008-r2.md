@@ -1,19 +1,19 @@
 ---
-description: Windows Server 2008 R2 ajoute la prise en charge de la reconnaissance de l’écriture manuscrite côté serveur à Windows. Cette rubrique explique comment reconnaître l’écriture manuscrite dans Windows Server 2008 R2.
+description: Windows Le serveur 2008 R2 ajoute la prise en charge de la reconnaissance de l’écriture manuscrite côté serveur à Windows. cette rubrique explique comment reconnaître l’écriture manuscrite dans Windows Server 2008 R2.
 ms.assetid: ec22391d-a6e8-49b0-8650-943a661cbcd3
-title: Reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
+title: reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
 ms.topic: article
 ms.date: 06/02/2020
-ms.openlocfilehash: e014a69919c6bdc87b149f761eece14bcc3d69a4
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 9dc13160d909cd7f0ab17b2ca40f0210e3a8f3fc732dcefbcec4d35dee0c26b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008692"
 ---
-# <a name="handwriting-recognition-in-windows-server-2008-r2"></a>Reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
+# <a name="handwriting-recognition-in-windows-server-2008-r2"></a>reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
 
-Windows Server 2008 R2 prend en charge la reconnaissance de l’écriture manuscrite côté serveur. La reconnaissance côté serveur permet à un serveur de reconnaître du contenu à partir d’une entrée de stylet sur des pages Web. Cela s’avère particulièrement utile lorsque les utilisateurs d’un réseau spécifient des termes qui sont interprétés à l’aide d’un dictionnaire personnalisé. Par exemple, si vous avez une application médicale qui a interrogé une base de données de serveur pour connaître les noms des patients, ces noms peuvent être ajoutés à une autre base de données qui serait transmise à l’aide de recherches à partir d’un formulaire Silverlight manuscrit.
+Windows Le serveur 2008 R2 prend en charge la reconnaissance de l’écriture manuscrite côté serveur. La reconnaissance côté serveur permet à un serveur de reconnaître du contenu à partir d’une entrée de stylet sur des pages Web. Cela s’avère particulièrement utile lorsque les utilisateurs d’un réseau spécifient des termes qui sont interprétés à l’aide d’un dictionnaire personnalisé. Par exemple, si vous avez une application médicale qui a interrogé une base de données de serveur pour connaître les noms des patients, ces noms peuvent être ajoutés à une autre base de données qui serait transmise à l’aide de recherches à partir d’un formulaire Silverlight manuscrit.
 
 ## <a name="set-up-your-server-for-server-side-recognition"></a>Configurer votre serveur pour la reconnaissance Server-Side
 
@@ -38,7 +38,7 @@ Ouvrez le gestionnaire de serveur comme vous l’avez fait pour la première ét
 ![Boîte de dialogue Sélectionner des rôles de serveurs avec les rôles serveur Web (IIS) et serveur d’applications sélectionnés](images/setup-server-2-select-server-roles.png)<br/>
 *Boîte de dialogue Sélectionner des rôles de serveurs avec les rôles serveur Web (IIS) et serveur d’applications sélectionnés*
 
-Lorsque vous sélectionnez le **serveur d’applications**, vous êtes invité à installer l’infrastructure ASP.net. Cliquez sur le bouton **Ajouter les fonctionnalités requises** . Une fois que vous avez cliqué sur **suivant**, une boîte de dialogue d’aperçu s’affiche. Cliquez sur **suivant**. La boîte de dialogue **Sélectionner des services de rôle** doit maintenant être disponible. Vérifiez que **serveur Web (IIS)** est sélectionné. L’illustration suivante montre la boîte de dialogue **Sélectionner les services de rôle** avec le serveur Web (IIS) activé.
+lorsque vous sélectionnez le **serveur d’applications**, vous êtes invité à installer le ASP.NET framework. Cliquez sur le bouton **Ajouter les fonctionnalités requises** . Une fois que vous avez cliqué sur **suivant**, une boîte de dialogue d’aperçu s’affiche. Cliquez sur **suivant**. La boîte de dialogue **Sélectionner des services de rôle** doit maintenant être disponible. Vérifiez que **serveur Web (IIS)** est sélectionné. L’illustration suivante montre la boîte de dialogue **Sélectionner les services de rôle** avec le serveur Web (IIS) activé.
 
 ![Boîte de dialogue Sélectionner les services de rôle avec le serveur Web (IIS) activé](images/setup-server-3-select-role-services.png)<br/>
 *Boîte de dialogue Sélectionner les services de rôle avec le serveur Web (IIS) activé*
@@ -63,46 +63,46 @@ Une fois que vous avez installé le service expérience utilisateur, le service 
 
 ## <a name="performing-server-side-recognition-using-silverlight"></a>Exécution de la reconnaissance des Server-Side à l’aide de Silverlight
 
-Cette section montre comment créer une application Web qui utilise Silverlight pour capturer une entrée d’écriture manuscrite. Pour programmer le module de reconnaissance dans Visual Studio 2008, procédez comme suit.
+Cette section montre comment créer une application Web qui utilise Silverlight pour capturer une entrée d’écriture manuscrite. pour programmer le module de reconnaissance dans Visual Studio 2008, procédez comme suit.
 
-- Installez et mettez à jour Visual Studio 2008 pour ajouter la prise en charge de Silverlight.
-- Créez un projet Silverlight dans Visual Studio 2008.
+- installez et mettez à jour Visual Studio 2008 pour ajouter la prise en charge de Silverlight.
+- créez un projet Silverlight dans Visual Studio 2008.
 - Ajoutez les références de service nécessaires à votre projet.
 - Créez un service WCF Silverlight pour la reconnaissance de l’encre.
 - Ajoutez la référence de service à votre projet client.
 - Ajoutez la classe InkCollector au projet InkRecognition.
 - Supprimer les directives de transport sécurisées de la configuration du client
 
-### <a name="install-and-update-visual-studio-2008-to-add-support-for-silverlight"></a>Installer et mettre à jour Visual Studio 2008 pour ajouter la prise en charge de Silverlight
+### <a name="install-and-update-visual-studio-2008-to-add-support-for-silverlight"></a>installer et mettre à jour Visual Studio 2008 pour ajouter la prise en charge de Silverlight
 
-Avant de commencer, vous devez effectuer les étapes suivantes sur votre serveur Windows Server 2008 R2.
+avant de commencer, vous devez effectuer les étapes suivantes sur votre serveur Windows server 2008 R2.
 
-- Installez Visual Studio 2008.
-- Installez [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=10986).
+- installez Visual Studio 2008.
+- installez [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=10986).
 - Installez le [Kit de développement logiciel (SDK) Microsoft Silverlight 5](https://www.microsoft.com/silverlight/).
 
 Après avoir installé ces applications et mises à jour, vous êtes prêt à créer votre application Web de reconnaissance côté serveur.
 
-### <a name="create-a-new-silverlight-web-project-in-visual-studio-2008"></a>Créer un projet Web Silverlight dans Visual Studio 2008
+### <a name="create-a-new-silverlight-web-project-in-visual-studio-2008"></a>créer un nouveau Project Web Silverlight dans Visual Studio 2008
 
 Dans le menu **Fichier**, cliquez sur **Nouveau projet**. Sélectionnez le modèle application Silverlight dans la \# liste projet Visual C. Nommez votre projet InkRecognition, puis cliquez sur **OK**. L’illustration suivante montre le \# projet Silverlight C sélectionné et nommé InkRecognition.
 
 ![\#projet Silverlight c sélectionné, avec le nom InkRecognition](images/project-1-new-project.png)<br/>
 *\#projet Silverlight c sélectionné, avec le nom InkRecognition*
 
-Une fois que vous avez cliqué sur **OK**, une boîte de dialogue vous invite à ajouter une application Silverlight à votre projet. Sélectionnez **Ajouter un nouveau projet Web ASP.net à la solution pour héberger Silverlight** , puis cliquez sur **OK**. L’illustration suivante montre comment configurer l’exemple de projet avant de cliquer sur **OK**.
+Une fois que vous avez cliqué sur **OK**, une boîte de dialogue vous invite à ajouter une application Silverlight à votre projet. sélectionnez **ajouter un nouveau ASP.NET projet Web à la solution pour héberger Silverlight** , puis cliquez sur **OK**. L’illustration suivante montre comment configurer l’exemple de projet avant de cliquer sur **OK**.
 
 ![Boîte de dialogue avec invite pour ajouter une application Silverlight à un projet](images/project-2-add-a-new-aspnetproject.png)<br/>
 *Boîte de dialogue avec invite pour ajouter une application Silverlight à un projet*
 
-### <a name="add-the-necessary-service-references-to-your-project"></a>Ajouter les références de service nécessaires à votre projet
+### <a name="add-the-necessary-service-references-to-your-project"></a>Ajoutez les références de service nécessaires à votre Project
 
 Vous avez maintenant votre projet client Silverlight générique (InkRecognition) avec un projet Web (InkRecognition. Web) configuré dans votre solution. Le projet s’ouvre avec page. xaml et default. aspx ouvert. Fermez ces fenêtres et ajoutez les références System. Runtime. Serialization et System. ServiceModel au projet InkRecognition en cliquant avec le bouton droit sur le dossier références dans le projet InkRecognition et en sélectionnant **Ajouter une référence**. L’illustration suivante montre la boîte de dialogue avec les références requises sélectionnées.
 
 ![Boîte de dialogue Ajouter des références avec System. Runtime. Serialization et System. ServiceModel sélectionné](images/project-3a-add-references-to-inkreco.png)<br/>
 *Boîte de dialogue Ajouter des références avec System. Runtime. Serialization et System. ServiceModel sélectionné*
 
-Ensuite, vous devez ajouter les références System. ServiceModel et Microsoft. Ink au projet InkRecognition. Web. La référence Microsoft. Ink n’apparaît pas dans les références .NET par défaut. par conséquent, recherchez Microsoft.Ink.dll dans votre dossier Windows. Une fois que vous avez localisé la DLL, ajoutez l’assembly aux références du projet : sélectionnez l’onglet **Parcourir** , accédez au dossier contenant Microsoft.Ink.dll, sélectionnez Microsoft.Ink.dll, puis cliquez sur **OK**. L’illustration suivante montre la solution du projet dans l’Explorateur Windows avec tous les assemblys de référence ajoutés.
+Ensuite, vous devez ajouter les références System. ServiceModel et Microsoft. Ink au projet InkRecognition. Web. la référence Microsoft. Ink n’apparaît pas dans les références .net par défaut. par conséquent, recherchez Microsoft.Ink.dll dans votre dossier de Windows. Une fois que vous avez localisé la DLL, ajoutez l’assembly aux références du projet : sélectionnez l’onglet **Parcourir** , accédez au dossier contenant Microsoft.Ink.dll, sélectionnez Microsoft.Ink.dll, puis cliquez sur **OK**. l’illustration suivante montre la solution du projet dans Windows Explorer avec tous les assemblys de référence ajoutés.
 
 ![projet InkRecognition dans l’Explorateur Windows avec tous les assemblys de référence ajoutés](images/project-3b-with-reference-assemblies.png)<br/>
 *projet InkRecognition dans l’Explorateur Windows avec tous les assemblys de référence ajoutés*
@@ -167,14 +167,14 @@ namespace InkRecognition.Web
 }
 ```
 
-### <a name="add-the-service-reference-to-your-client-project"></a>Ajouter la référence de service à votre projet client
+### <a name="add-the-service-reference-to-your-client-project"></a>Ajoutez la référence de service à votre Project client
 
 Maintenant que vous disposez de votre service WCF Silverlight pour InkRecognition, vous utiliserez le service à partir de votre application cliente. Cliquez avec le bouton droit sur le projet InkRecognition, puis sélectionnez **Ajouter une référence de service**. Dans la boîte de dialogue **Ajouter une référence de service** qui s’affiche, sélectionnez **découvrir** pour découvrir les services de la solution actuelle. InkRecognitionService s’affiche dans le volet services. Double-cliquez sur InkRecognitionService dans le volet services, remplacez l’espace de noms par InkRecognitionServiceReference, puis cliquez sur **OK**. L’illustration suivante montre la boîte de dialogue **Ajouter une référence de service** avec l’option InkRecognitionService sélectionnée et l’espace de noms modifié.
 
 ![Boîte de dialogue Ajouter une référence de service avec inkrecognitionservice sélectionné et espace de noms modifié](images/project-5-discover-service-reference.png)<br/>
 *Boîte de dialogue Ajouter une référence de service avec inkrecognitionservice sélectionné et espace de noms modifié*
 
-### <a name="add-the-inkcollector-class-to-the-inkrecognition-project"></a>Ajouter la classe InkCollector au projet InkRecognition
+### <a name="add-the-inkcollector-class-to-the-inkrecognition-project"></a>Ajoutez la classe InkCollector à la Project InkRecognition
 
 Cliquez avec le bouton droit sur le projet InkRecognition, cliquez sur **Ajouter**, puis sur **nouvel élément**. Dans le menu **Visual \# c** , sélectionnez **c \# classe**. Nommez la classe InkCollector. L’illustration suivante montre la boîte de dialogue avec la \# classe C sélectionnée et nommée.
 
@@ -417,9 +417,9 @@ L’illustration suivante montre le texte reconnu dans la liste déroulante de *
 ![Application dans awebpagewith texte reconnu dans la liste déroulante des résultats](images/demo-2.png)<br/>
 *Application dans awebpagewith texte reconnu dans la liste déroulante des résultats*
 
- 
+ 
 
- 
+ 
 
 
 

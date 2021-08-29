@@ -4,12 +4,12 @@ ms.assetid: 884989F2-134F-4AF8-90E3-BACFEF3F1411
 title: Propriétés ICspInformation
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cbfe9ad77913ac28dca6b05c2a3a5fbb667cf1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f92f1269a60edd373475967dcfe1d8e22ff96e772090df6cbb0a3ae3fb051aba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960719"
 ---
 # <a name="icspinformation-properties"></a>Propriétés ICspInformation
 

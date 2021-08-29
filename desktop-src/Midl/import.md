@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64ff13c069c6bba819720a9d1120a42c25af4b51
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cd389d56dff242132c628beedaf9c70d697f1fead0286aa0b59cd492a5a1e882
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040070"
 ---
 # <a name="import-attribute"></a>import (attribut)
 
@@ -38,7 +38,7 @@ Spécifie le nom du fichier d’en-tête, IDL ou ODL à importer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec la directive **Import** , toutes les instructions IDL dans le fichier importé, telles que typedefs, déclarations de constantes et définitions d’interface, deviennent disponibles pour l’importation. Fichier IDL.
 
@@ -62,7 +62,7 @@ Les règles suivantes s’appliquent :
 > [!Note]  
 > Le comportement de la directive **Import** est indépendant du mode compilateur MIDL commutateurs [**/ms. \_ ext**](-ms-ext.md) (valeur par défaut), [**/OSF**](-osf.md)et [**/app \_**](-app-config.md). Toutefois, le mode de compilateur (**/OSF** ou **/ms. \_ ext**) peut affecter la décoration d’attribut de pointeur sur les types importés. Pour plus d’informations [, consultez héritage de type d’attribut de pointeur](/windows/desktop/Rpc/pointer-attribute-type-inheritance).
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -100,6 +100,6 @@ import "part1.idl", "part2.idl", "part3.idl";
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

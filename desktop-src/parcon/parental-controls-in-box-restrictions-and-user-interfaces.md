@@ -4,12 +4,12 @@ ms.assetid: a00d9a3a-d052-492c-b9e7-3ecb1455a392
 title: Contrôle parental In-Box des restrictions & des interfaces utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5f155f8323fd6b006e510d75865ea25e278c70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9cb430a05d6e23b5ffa736398d30197aaec1dbbcdf6d1610ec8bc2db50d6556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846642"
 ---
 # <a name="parental-controls-in-box-restrictions--user-interfaces"></a>Contrôle parental In-Box des restrictions & des interfaces utilisateur
 
@@ -24,14 +24,14 @@ Plusieurs implémentations de restrictions sont fournies.
 
 -   Filtre de contenu Web intégré à l’aide d’un service d’évaluation dynamique gratuit. Configurable individuellement par utilisateur contrôlé.
 -   Filtre tout le trafic HTTP lorsqu’il est activé, retourne la page mise en forme personnalisée si elle est bloquée. Autorise des fonctionnalités acceptables avec tous les principaux navigateurs. En surveillant toutes les demandes HTTP et HTTPs pour une page, permet de bloquer des parties de page Web individuelles.
--   Hautement configurable à l’aide de l’interface utilisateur qui autorise ou bloque les listes d’URL, les présélections de catégories d’évaluation simplifiées ou le contrôle ActiveX de plus de 12 catégories, ainsi qu’une stratégie de blocage des téléchargements de fichiers.
+-   hautement configurable à l’aide de l’interface utilisateur qui autorise ou bloque les listes d’URL, les présélections de catégories d’évaluation simplifiées, ou ActiveX contrôle de plus de 12 catégories, ainsi qu’une stratégie de blocage des téléchargements de fichiers.
 
 > [!Note]  
 > Le blocage réel du téléchargement de fichiers requiert que les applications implémentent la restriction, en respectant le paramètre fourni.
 
  
 
--   Implémenté en tant que pilote de plateforme de filtrage Windows (WFP) communiquant avec le processus de surveillance de la sécurité de famille exécuté dans les sessions des utilisateurs. L’implémentation est passée d’un filtre LSP (Layered Service Provider) à un pilote de plateforme de filtrage Windows (WFP) qui communique avec le processus de surveillance de la sécurité des familles en cours d’exécution dans les sessions des utilisateurs.
+-   implémenté comme un pilote de plateforme de filtrage Windows (WFP) communiquant avec le processus de surveillance de la sécurité des familles en cours d’exécution dans les sessions des utilisateurs. l’implémentation est passée d’un filtre de fournisseur de services en couche (LSP) à un pilote de plateforme de filtrage Windows (WFP) communiquant avec le processus de surveillance de la sécurité des familles en cours d’exécution dans les sessions des utilisateurs.
 
     **Windows 7 et Windows Vista :** Implémenté comme un filtre LSP (Layered Service Provider) qui communique avec un service à droits limités pour la gestion et la surveillance globales. Le filtre reste dans la chaîne LSP lorsqu’il est désactivé, mais passe tout le trafic via. Cette implémentation est prise en charge uniquement pour les systèmes d’exploitation listés.
 
@@ -71,7 +71,7 @@ Plusieurs implémentations de restrictions sont fournies.
     -   Les autorisations d’écriture de la liste de contrôle d’accès NTFS sont révoquées de tout ce qui est autorisé pour l’exécution de l’utilisateur contrôlé.
     -   Si elle est bloquée et remplacée par la suite pour autoriser, l’application doit être redémarrée manuellement.
 -   Voici certaines exceptions :
-    -   Tous les fichiers binaires requis pour qu’un sous-ensemble de Windows fonctionne.
+    -   tous les fichiers binaires requis pour un sous-ensemble de base de Windows fonctionnent.
     -   Tous les fichiers exécutables qui s’inscrivent à l’aide d’une API doivent être autorisés pour un utilisateur donné.
     -   Jeux spécifiés comme étant autorisés sous des restrictions de jeux.
 -   Notez que la commande RunAs est bloquée par la conception d’un utilisateur quand GAR est activé.

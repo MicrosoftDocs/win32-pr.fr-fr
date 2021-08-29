@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3f840230047fbb1b0347e399bc60b4b905d868b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17b2891268ee9818486f7bbc9efa0baaaf652a4449145341e45747af96704d52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945308"
 ---
 # <a name="jet_sesidequals-method-jet_sesid"></a>JET_SESID. Equals, méthode (JET_SESID)
 
@@ -57,7 +57,7 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     Instance de à comparer à cette instance.

@@ -4,12 +4,12 @@ ms.assetid: b4746023-c131-4ac4-a34c-4bf3ef42bd00
 title: Propriété AVEncMPVGenerateHeaderSeqScaleExt (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4045e753d85ba59c6987158023b05e40474a612b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe28d8a742e7a70434b0a0c21e5b306cc767bfa7e73a9edc596c066ba4de76cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540849"
 ---
 # <a name="avencmpvgenerateheaderseqscaleext-property"></a>Propriété AVEncMPVGenerateHeaderSeqScaleExt
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVGenerateHeaderSeqScaleExt**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, l’encodeur génère des en-têtes d’extension de séquence Scalable.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, l’encodeur génère des en-têtes d’extension 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -3,9 +3,9 @@ title: Méthode ClosedCaption. getSAMIStyleName
 description: La méthode getSAMIStyleName récupère le nom d’un style pris en charge par le fichier SAMI actuel.
 ms.assetid: c2ffedf8-4622-44fe-9d92-b52ed3bf3b9a
 keywords:
-- méthode getSAMIStyleName lecteur Windows Media
-- méthode getSAMIStyleName lecteur Windows Media, classe ClosedCaption
-- Classe ClosedCaption lecteur Windows Media, méthode getSAMIStyleName
+- Lecteur Windows Media de la méthode getSAMIStyleName
+- méthode getSAMIStyleName Lecteur Windows Media, classe ClosedCaption
+- Lecteur Windows Media de la classe ClosedCaption, méthode getSAMIStyleName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96480e28e0341b822aaf6726e63a6038681a577f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7b7a8a23c47a464e1b192a4a652d87043765260a1016c707fa8d6c85c22b575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135802"
 ---
 # <a name="closedcaptiongetsamistylename-method"></a>Méthode ClosedCaption. getSAMIStyleName
 
@@ -49,11 +49,11 @@ strRetVal = ClosedCaption.getSAMIStyleName(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **chaîne** contenant le nom du style tel que spécifié dans le fichier sami.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les styles d’un fichier SAMI sont indexés dans l’ordre indiqué dans le fichier, à partir de zéro.
 

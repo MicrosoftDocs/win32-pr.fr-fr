@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 46489085aeee72ba3538ddf02d5e22a902b0eb10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f8ebdf6d0c41e2d7ef87b04d8c7433f91a0218215c192ac61e6dfbccd906dce5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068149"
 ---
 # <a name="statement-blocks"></a>Blocs d’instructions
 
@@ -41,9 +41,9 @@ Un bloc d’instructions indique également la sous-étendue. Les variables déc
 [Instructions (DirectX HLSL)](dx-graphics-hlsl-statements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 655e398398b45f625d2ef8a56a5527206b1510fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8c27599ce4d901b8d8f82332248b897b54f3932cd02497cbe96a42fd10576a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066535"
 ---
 # <a name="msmq-migrated-attribute"></a>Attribut MSMQ-Migrated
 
@@ -45,7 +45,7 @@ L’attribut **MSMQ-migrated** contient des informations en mode mixte MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

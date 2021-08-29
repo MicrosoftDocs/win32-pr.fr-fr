@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: d35e2d4b65cd41a49d8ed8edb3252295ca3baef3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c8d3108c59ddf810a815cbfa5f05a6fe66704325ffcee3f5dc2436b83c2c605d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987298"
 ---
 # <a name="d3dtextureop-enumeration"></a>Énumération D3DTEXTUREOP
 
@@ -302,7 +302,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres de ce type sont utilisés lors de la définition d’opérations de couleur ou alpha à l’aide des \_ valeurs D3DTSS COLOROP ou D3DTSS \_ ALPHAOP avec la méthode [**IDirect3DDevice9 :: SetTextureStageState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) .
 

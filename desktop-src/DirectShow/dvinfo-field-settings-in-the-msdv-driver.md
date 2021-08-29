@@ -1,17 +1,17 @@
 ---
-description: Paramètres de champ DVINFO dans le pilote MSDV
+description: Paramètres du champ DVINFO dans le pilote MSDV
 ms.assetid: f0723da5-4f53-4f83-a657-ae42815a784e
-title: Paramètres de champ DVINFO dans le pilote MSDV
+title: Paramètres du champ DVINFO dans le pilote MSDV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4205a680833b0e2f8c6be2dc4cb65faa60515867
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6823b13a055088df6e3e5ffa82c899a490a9b0d6b9b407b3b5244ca947c209b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966279"
 ---
-# <a name="dvinfo-field-settings-in-the-msdv-driver"></a>Paramètres de champ DVINFO dans le pilote MSDV
+# <a name="dvinfo-field-settings-in-the-msdv-driver"></a>Paramètres du champ DVINFO dans le pilote MSDV
 
 Cette section décrit comment le pilote MSDV remplit la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) .
 
@@ -52,7 +52,7 @@ Dans chaque table, la première colonne indique le code de champ, suivi du nombr
 Les remarques après chaque tableau fournissent des informations supplémentaires sur les champs sélectionnés. Pour obtenir une description complète, reportez-vous aux spécifications. En outre, certains champs n’ont pas la même signification dans SMPTE 314M/SMPTE 370 que dans IEC 61834.
 
 > [!Note]  
-> Actuellement, DirectShow ne prend pas en charge les formats DVCPRO. Les valeurs répertoriées pour les formats DVCPRO sont définies pour une utilisation ultérieure.
+> actuellement, DirectShow ne prend pas en charge les formats DVCPRO. Les valeurs répertoriées pour les formats DVCPRO sont définies pour une utilisation ultérieure.
 
  
 
@@ -60,7 +60,7 @@ Les remarques après chaque tableau fournissent des informations supplémentaire
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
 [Données DV au format de fichier AVI](dv-data-in-the-avi-file-format.md)

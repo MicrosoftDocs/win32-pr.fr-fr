@@ -4,12 +4,12 @@ description: Soyez efficace et naturel
 ms.assetid: 6642b41c-1833-41be-9de2-ef091cefaa45
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e4d7410283de231d9ee08ca586e3b8067ebffa
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 9d7ac01e8be3a08963bb7d931119b5e98808cedd637aa87600ce32a19bf57d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963449"
 ---
 # <a name="be-efficient-and-natural"></a>Soyez efficace et naturel
 

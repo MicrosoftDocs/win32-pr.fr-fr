@@ -4,12 +4,12 @@ ms.assetid: 763fb01e-5daf-4e9b-8ef1-9ae79c0a84cc
 title: Utilisation des services COM+ via CoEnterServiceDomain et CoLeaveServiceDomain
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d87931628e177374dd07b40e9917a56c168a81
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0977f92ed377a03487c768e42a5d14fdb710c115f4fa21e4149b125c2806e012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119380789"
 ---
 # <a name="using-com-services-through-coenterservicedomain-and-coleaveservicedomain"></a>Utilisation des services COM+ via CoEnterServiceDomain et CoLeaveServiceDomain
 

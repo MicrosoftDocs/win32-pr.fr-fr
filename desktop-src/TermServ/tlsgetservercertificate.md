@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3144245863ee4a4316bbce8333f03ca3901cb499
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42f32b939eff90a5043b1fc29d90534d2d51215522f1f5ff07ba45e817014936
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986939"
 ---
 # <a name="tlsgetservercertificate-function"></a>TLSGetServerCertificate fonction)
 

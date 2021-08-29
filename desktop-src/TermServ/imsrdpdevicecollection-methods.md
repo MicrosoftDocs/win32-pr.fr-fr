@@ -5,12 +5,12 @@ ms.assetid: 59B0E18E-6464-4A80-8CB4-3E73EC51F0DD
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5934cea8fd4473673b606a08a816e0851e70343
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 374e52d96c4cf42fc2a282128a9ff21c32a86fd0d87fa61da81c85072ca2ddb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138612"
 ---
 # <a name="imsrdpdevicecollection-methods"></a>Méthodes IMsRdpDeviceCollection
 
@@ -20,9 +20,9 @@ L’interface [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md) expose les
 
 -   [**Méthode RescanDevices**](imsrdpdevicecollection-rescandevices.md)
 
- 
+ 
 
- 
+ 
 
 
 

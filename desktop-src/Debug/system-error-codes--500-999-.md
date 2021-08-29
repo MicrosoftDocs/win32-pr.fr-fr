@@ -4,17 +4,17 @@ ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
 title: Codes d’erreur système (500-999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 02b35374fcb68f9b416948d5e39b2182f573b60f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9430f77c53be29ae0f8b1b4037b3c963b5ac69da446f4755fb19dc40501c69df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539199"
 ---
 # <a name="system-error-codes-500-999"></a>Codes d’erreur système (500-999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) (erreurs 500 à 999). Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -483,7 +483,7 @@ Le service Netlogon ne peut pas démarrer, car un autre service Netlogon en cour
 
 
 
-La base de données SAM sur un serveur Windows n’est pas très synchronisée avec la copie sur le contrôleur de domaine. Une synchronisation complète est nécessaire.
+la base de données SAM sur un serveur Windows n’est pas très synchronisée avec la copie sur le contrôleur de domaine. Une synchronisation complète est nécessaire.
 
 
 </dt> </dl> </dd> <dt>
@@ -496,7 +496,7 @@ La base de données SAM sur un serveur Windows n’est pas très synchronisée a
 
 
 
-Échec de l’API NtCreateFile. Cette erreur ne doit jamais être renvoyée à une application, il s’agit d’un espace réservé pour le redirecteur Windows LAN Manager à utiliser dans ses routines de mappage des erreurs internes.
+Échec de l’API NtCreateFile. cette erreur ne doit jamais être renvoyée à une application, il s’agit d’un espace réservé pour le redirecteur Windows Lan Manager à utiliser dans ses routines de mappage des erreurs internes.
 
 
 </dt> </dl> </dd> <dt>
@@ -639,7 +639,7 @@ Une opération de synchronisation de paire d’événements a été effectuée �
 
 
 
-La configuration d’un serveur Windows est incorrecte.
+une configuration incorrecte a été configurée pour un serveur Windows.
 
 
 </dt> </dl> </dd> <dt>
@@ -834,7 +834,7 @@ NTVDM a rencontré une erreur matérielle.
 
 
 
-{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% HS. Les données ont été perdues. Cette erreur peut être due à une défaillance du matériel de votre ordinateur ou de la connexion réseau. Essayez d’enregistrer ce fichier ailleurs.
+{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% hs. Les données ont été perdues. Cette erreur peut être due à une défaillance du matériel de votre ordinateur ou de la connexion réseau. Essayez d’enregistrer ce fichier ailleurs.
 
 
 </dt> </dl> </dd> <dt>
@@ -1172,7 +1172,7 @@ La liste de quotas spécifiée est incohérente en interne avec son descripteur.
 
 
 
-{Notification d’évaluation Windows} La période d’évaluation de cette installation de Windows a expiré. Ce système s’arrêtera dans 1 heure. Pour restaurer l’accès à cette installation de Windows, mettez à niveau cette installation à l’aide d’une distribution sous licence de ce produit.
+{Windows Notification d’évaluation} la période d’évaluation de cette installation de Windows a expiré. Ce système s’arrêtera dans 1 heure. pour restaurer l’accès à cette installation de Windows, mettez à niveau cette installation à l’aide d’une distribution sous licence de ce produit.
 
 
 </dt> </dl> </dd> <dt>
@@ -1185,7 +1185,7 @@ La liste de quotas spécifiée est incohérente en interne avec son descripteur.
 
 
 
-{Réadressage de DLL système non conforme} La DLL système% HS a été déplacée en mémoire. L’application ne s’exécutera pas correctement. Le réadressage s’est produit parce que la DLL% HS occupait une plage d’adresses réservée aux DLL système Windows. Le fournisseur qui fournit la DLL doit être contacté pour obtenir une nouvelle DLL.
+{Réadressage de DLL système non conforme} La DLL système% HS a été déplacée en mémoire. L’application ne s’exécutera pas correctement. le réadressage s’est produit parce que la DLL% hs occupait une plage d’adresses réservée aux dll système Windows. Le fournisseur qui fournit la DLL doit être contacté pour obtenir une nouvelle DLL.
 
 
 </dt> </dl> </dd> <dt>
@@ -1341,7 +1341,7 @@ Le fichier système %1 est devenu endommagé et a été remplacé.
 
 
 
-{Mémoire virtuelle minimale trop faible} La mémoire virtuelle de votre système est insuffisante. Windows est l’extension de la taille de votre fichier d’échange de mémoire virtuelle. Pendant ce processus, les demandes de mémoire pour certaines applications peuvent être refusées. Pour plus d’informations, consultez l’aide de.
+{Mémoire virtuelle minimale trop faible} La mémoire virtuelle de votre système est insuffisante. Windows améliore la taille du fichier d’échange de la mémoire virtuelle. Pendant ce processus, les demandes de mémoire pour certaines applications peuvent être refusées. Pour plus d’informations, consultez l’aide de.
 
 
 </dt> </dl> </dd> <dt>
@@ -1445,7 +1445,7 @@ Une tentative de suppression d’un processus a été effectuée, mais aucun por
 
 
 
-Cette version de Windows n’est pas compatible avec la version de comportement de la forêt de l’annuaire, du domaine ou du contrôleur de domaine.
+cette version de Windows n’est pas compatible avec la version de comportement de la forêt de l’annuaire, du domaine ou du contrôleur de domaine.
 
 
 </dt> </dl> </dd> <dt>
@@ -1796,7 +1796,7 @@ Cet état de niveau d’avertissement indique que l’état de transaction exist
 
 
 
-{Substitution de GUID} Lors de la traduction d’un identificateur global (GUID) vers un ID de sécurité Windows (SID), aucun préfixe GUID défini administrativement n’a été trouvé. Un préfixe de remplacement a été utilisé, ce qui ne compromettra pas la sécurité du système. Toutefois, cela peut fournir un accès plus restrictif que prévu.
+{Substitution de GUID} lors de la traduction d’un identificateur global (GUID) vers un ID de sécurité (SID) Windows, aucun préfixe GUID défini administrativement n’a été trouvé. Un préfixe de remplacement a été utilisé, ce qui ne compromettra pas la sécurité du système. Toutefois, cela peut fournir un accès plus restrictif que prévu.
 
 
 </dt> </dl> </dd> <dt>
@@ -2654,7 +2654,7 @@ Cela indique qu’une demande de notification de modification a été effectuée
 
 
 
-{Échec de la connexion sur le transport principal} Une tentative de connexion au serveur distant% HS sur le transport principal a été effectuée, mais la connexion a échoué. L’ordinateur a pu se connecter à un transport secondaire.
+{Connecter échec sur le Transport principal} Une tentative de connexion au serveur distant% HS sur le transport principal a été effectuée, mais la connexion a échoué. L’ordinateur a pu se connecter à un transport secondaire.
 
 
 </dt> </dl> </dd> <dt>
@@ -3200,7 +3200,7 @@ Un fichier de mise en veille prolongée valide a été invalidé et doit être a
 
 
 
-{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% HS ; les données ont été perdues. Cette erreur peut être due à des problèmes de connectivité réseau. Essayez d’enregistrer ce fichier ailleurs.
+{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% hs ; les données ont été perdues. Cette erreur peut être due à des problèmes de connectivité réseau. Essayez d’enregistrer ce fichier ailleurs.
 
 
 </dt> </dl> </dd> <dt>
@@ -3213,7 +3213,7 @@ Un fichier de mise en veille prolongée valide a été invalidé et doit être a
 
 
 
-{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% HS ; les données ont été perdues. Cette erreur a été retournée par le serveur sur lequel se trouve le fichier. Essayez d’enregistrer ce fichier ailleurs.
+{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% hs ; les données ont été perdues. Cette erreur a été retournée par le serveur sur lequel se trouve le fichier. Essayez d’enregistrer ce fichier ailleurs.
 
 
 </dt> </dl> </dd> <dt>
@@ -3226,7 +3226,7 @@ Un fichier de mise en veille prolongée valide a été invalidé et doit être a
 
 
 
-{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% HS ; les données ont été perdues. Cette erreur peut se produire si l’appareil a été supprimé ou si le média est protégé en écriture.
+{Échec de l’écriture différée} Windows n’a pas pu enregistrer toutes les données du fichier% hs ; les données ont été perdues. Cette erreur peut se produire si l’appareil a été supprimé ou si le média est protégé en écriture.
 
 
 </dt> </dl> </dd> <dt>
@@ -3537,8 +3537,8 @@ Erreur lors de l’exécution de l’opération InPage.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

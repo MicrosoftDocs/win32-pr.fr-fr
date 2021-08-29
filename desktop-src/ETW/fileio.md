@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 716528902a115e23eae5b49ef572b87a71d11e25
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: df82479b2bb2f82f93d83a655b4e5cd45003b0d6b211be24086365f139219ad6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041869"
 ---
 # <a name="fileio-class"></a>FileIo (classe)
 
@@ -38,7 +38,7 @@ class FileIo : MSNT_SystemTrace
 
 La classe **FileIo** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements d’e/s de fichier dans une session de journalisation du noyau NT, spécifiez l’indicateur d' **\_ \_ \_ \_ \_ e/s de fichier disque** de l’indicateur de trace d’événements dans le membre **EnableFlags** d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier un ou plusieurs des indicateurs suivants :
 
@@ -82,8 +82,8 @@ Les événements d’e/s de fichier sont journalisés au début de l’opératio
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

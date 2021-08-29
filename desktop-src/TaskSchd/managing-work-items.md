@@ -6,12 +6,12 @@ keywords:
 - éléments de travail Planificateur de tâches, gestion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33680d04da9d34f54085d182ed61edda9e8b232f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7aca2a904391926ae46749d72421fe20fe21932f758dc6e935883c4a2f750c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517659"
 ---
 # <a name="manipulating-work-items"></a>Manipuler des éléments de travail
 
@@ -20,7 +20,7 @@ L’interface [**IScheduledWorkItem**](/windows/desktop/api/Mstask/nn-mstask-isc
 > [!Note]  
 > Pour les propriétés d’un type d’élément de travail spécifique, reportez-vous à l’interface de ce type d’objet. Par exemple, vous ne pouvez pas définir le niveau de priorité d’un élément de travail ; Toutefois, vous pouvez utiliser les méthodes de l’interface [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) pour récupérer et définir la priorité d’une tâche.
 
- 
+ 
 
 Chaque fois que vous modifiez un élément de travail, vous devez appeler l’objet [**IPersistFile :: Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) pour enregistrer l’élément de travail modifié sur le disque. L’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) est une interface COM standard qui est prise en charge par l’interface [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) .
 
@@ -36,8 +36,8 @@ Chaque fois que vous modifiez un élément de travail, vous devez appeler l’ob
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

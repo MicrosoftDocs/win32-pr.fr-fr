@@ -4,12 +4,12 @@ ms.assetid: EC34A7A3-BF01-4F9E-BA79-131B76D4C58F
 title: Événement MEByteStreamCharacteristicsChanged (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e626f510927970aad3c51182fca3a6dfddb0009
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1401f420bf1c40a5449a91e2af9a6e1c328ea6591ee3b8eeacedd34213eab4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941759"
 ---
 # <a name="mebytestreamcharacteristicschanged-event"></a>Événement MEByteStreamCharacteristicsChanged
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement indique qu’une ou plusieurs des caractéristiques suivantes ont été modifiées :
 
@@ -43,8 +43,8 @@ Toutes les implémentations de [**IMFByteStream**](/windows/desktop/api/mfobject
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

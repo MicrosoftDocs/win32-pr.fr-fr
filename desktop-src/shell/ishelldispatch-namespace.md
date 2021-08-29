@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d1db0a3969350b4be4bc32e027bf2000036e099f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d870d6e4de6ac43c66a275bd9f5be54880badae8b7a575f13587c11c5c9b757f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942359"
 ---
 # <a name="ishelldispatchnamespace-method"></a>IShellDispatch. NameSpace, méthode
 
@@ -54,11 +54,11 @@ IShellDispatch.NameSpace( _
 
 Type : **variante**
 
-Dossier pour lequel créer l’objet [**dossier**](folder.md) . Il peut s’agir d’une chaîne qui spécifie le chemin d’accès au dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . Notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
+Dossier pour lequel créer l’objet [**dossier**](folder.md) . Il peut s’agir d’une chaîne qui spécifie le chemin d’accès au dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,15 +72,15 @@ Type : **[ **dossier**](folder.md)\*\***
 
 Référence d’objet à l’objet [**dossier**](folder.md) pour le dossier spécifié. Si le dossier n’est pas créé avec succès, cette valeur retourne **null**.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Namespace**](shell-namespace.md) .
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de l' [**espace de noms**](shell-namespace.md) dans JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation de l' [**espace de noms**](shell-namespace.md) dans JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -154,7 +154,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

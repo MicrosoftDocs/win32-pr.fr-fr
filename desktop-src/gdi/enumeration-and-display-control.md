@@ -4,12 +4,12 @@ ms.assetid: 834dee04-66fa-42eb-adff-c08a74c6cea8
 title: Énumération et contrôle d’affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8cdfd5e3b1c6ebb5ff0d4ebdfa1ab44b45c2c25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d5af1449100c667b6e1a964887c26e3301d6e14c748c3a822e3abdc7fe36da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965979"
 ---
 # <a name="enumeration-and-display-control"></a>Énumération et contrôle d’affichage
 

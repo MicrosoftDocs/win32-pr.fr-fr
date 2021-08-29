@@ -4,12 +4,12 @@ description: Rassemble les quatre texels qui seraient utilisés dans une opérat
 ms.assetid: 5F93BB70-7696-48E4-BCD3-91D5D42FF63E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5657265738f12331afc7596286f02170de2a635
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d3d613eed2f54db109dbddba59a240b535ccfbc8e4833b874719b6f3d4a51748
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067939"
 ---
 # <a name="gather4-sm5---asm"></a>gather4 (SM5-ASM)
 
@@ -37,7 +37,7 @@ Rassemble les quatre texels qui seraient utilisés dans une opération de filtra
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction se comporte comme l' [**exemple**](sample--sm4---asm-.md) d’instruction, mais un échantillon filtré n’est pas généré. Les quatre exemples qui contribuent au filtrage sont placés dans XYZW dans le sens inverse des aiguilles d’une montre, en commençant par l’échantillon dans le coin inférieur gauche de l’emplacement interrogé. Cela est identique à l’échantillonnage de point avec les deltas de coordonnée de texture (u, v) aux emplacements suivants : (-, +), (+, +), (+,-), (-,-), où l’amplitude des deltas est toujours la moitié d’un Texel.
 
@@ -57,7 +57,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -71,9 +71,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

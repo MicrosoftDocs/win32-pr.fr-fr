@@ -4,12 +4,12 @@ description: Cette rubrique explique comment contourner le pilote recevant des v
 ms.assetid: c832c199-59b8-4079-a159-45490a2f6a94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bacacf7704cffe12df44b9b0be667632307adb4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eb5021a197e4121603be374cd985a085a28faab8941316739a8985c0793004c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988299"
 ---
 # <a name="preventing-unwanted-null-pixel-shader-srvs"></a>Prévention des SRVs de nuanceurs de pixels NULL indésirables
 
@@ -26,9 +26,9 @@ La section de [référence 10Level9](d3d11-graphics-reference-10level9.md) répe
 [Direct3D 11 sur du matériel de niveau inférieur](overviews-direct3d-11-devices-downlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

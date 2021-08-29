@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 8f65b97ca3811212b73c6bdb12e9b889636dd6ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8064092e40ccde1f4ea97f8008a1063818a0f22533a484c02e0ca868d6908c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940658"
 ---
 # <a name="ianalysisalternate-interface"></a>Interface IAnalysisAlternate
 
@@ -47,7 +47,7 @@ L’interface **IAnalysisAlternate** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il existe de nombreuses variantes dans l’écriture manuscrite des utilisateurs. Pour cette raison, les reconnaissance de l’écriture manuscrite peuvent parfois convertir l’écriture manuscrite en texte qui diffère de celui prévu par l’utilisateur. Lorsqu’un [**IInkAnalyzer**](iinkanalyzer.md) effectue une analyse sur une collection de traits, le **IInkAnalyzer** recherche l’ensemble de mots le plus probable représenté par l’écriture manuscrite. En outre, le **IInkAnalyzer** trouve également des ensembles d’autres correspondances de reconnaissance, qui sont stockées dans une collection [**IAnalysisAlternates**](ianalysisalternates.md) . Pour qu’un utilisateur puisse tirer parti des alternatives de reconnaissance, vous devez créer une interface utilisateur qui permet à l’utilisateur de sélectionner le **IAnalysisAlternate** approprié.
 
@@ -61,7 +61,7 @@ Cette interface est équivalente à [System. Windows. Ink. AnalysisCore. Analysi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

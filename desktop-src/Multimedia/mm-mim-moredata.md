@@ -1,9 +1,9 @@
 ---
 title: Message MM_MIM_MOREDATA (mmsystem. h)
-description: Le \_ message mm MIM \_ MOREDATA est envoyé à une fenêtre de rappel lorsqu’un message MIDI est reçu par un périphérique d’entrée MIDI, mais que l’application ne traite pas les \_ messages de données MIM suffisamment rapidement pour suivre le pilote de périphérique d’entrée.
+description: le \_ message MM MIM \_ MOREDATA est envoyé à une fenêtre de rappel lorsqu’un message midi est reçu par un périphérique d’entrée midi, mais que l’application ne traite pas MIM des \_ messages de données suffisamment rapidement pour suivre le pilote de périphérique d’entrée.
 ms.assetid: 25d507f9-01d4-4a9a-afdd-693d74e3bd22
 keywords:
-- Message MM_MIM_MOREDATA Windows Multimedia
+- message MM_MIM_MOREDATA Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3079c537ddca056ca690537c27edd95826de1189
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 40ae87c08f993557b0e113f95288989712d611ef8c2fbff8c0d53b0e4fbc03e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807359"
 ---
-# <a name="mm_mim_moredata-message"></a>MM \_ \_ message MOREDATA MIM
+# <a name="mm_mim_moredata-message"></a>MM \_ MIM \_ message MOREDATA
 
-Le message **mm \_ MIM \_ MOREDATA** est envoyé à une fenêtre de rappel lorsqu’un message MIDI est reçu par un périphérique d’entrée MIDI, mais que l’application ne traite pas les messages de [**\_ données MIM**](mim-data.md) suffisamment rapidement pour suivre le pilote de périphérique d’entrée. La fenêtre reçoit ce message uniquement lorsque l’application spécifie l' \_ État des e/s midi \_ dans l’appel à la fonction [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen) .
+le message **MM \_ MIM \_ MOREDATA** est envoyé à une fenêtre de rappel lorsqu’un message midi est reçu par un périphérique d’entrée midi, mais que l’application ne traite pas MIM des messages de [**\_ données**](mim-data.md) suffisamment rapidement pour suivre le pilote de périphérique d’entrée. La fenêtre reçoit ce message uniquement lorsque l’application spécifie l' \_ État des e/s midi \_ dans l’appel à la fonction [**midiInOpen**](/windows/win32/api/mmeapi/nf-mmeapi-midiinopen) .
 
 
 ```C++
@@ -52,7 +52,7 @@ Spécifie le message MIDI qui a été reçu. Le message est empaqueté dans une 
 
 
 
-| Condition requise | Value | Description |
+| Condition requise | Valeur | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | Mot haut | Octet de poids fort | Non utilisé.                                           |
 |           | Octet de poids faible  | Contient un deuxième octet de données MIDI (si nécessaire).  |
@@ -73,25 +73,25 @@ Ce message ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Remarques
 
-Si votre application reçoit des données MIDI plus rapidement qu’elle ne peut les traiter, vous ne devez pas utiliser un mécanisme de rappel de fenêtre. Pour optimiser la vitesse, utilisez une fonction de rappel et utilisez le message [**MIM \_ MOREDATA**](mim-moredata.md) au lieu de mm \_ MIM \_ MOREDATA.
+Si votre application reçoit des données MIDI plus rapidement qu’elle ne peut les traiter, vous ne devez pas utiliser un mécanisme de rappel de fenêtre. pour optimiser la vitesse, utilisez une fonction de rappel et utilisez le message [**MIM \_ MOREDATA**](mim-moredata.md) au lieu de MM \_ MIM \_ MOREDATA.
 
-Une application ne doit effectuer qu’une quantité minime de traitement des \_ \_ messages MOREDATA MIM. (En particulier, les applications ne doivent pas appeler la fonction [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) pendant le traitement de mm \_ \_MOREDATA MIM.) Au lieu de cela, l’application doit placer les données d’événement dans une mémoire tampon, puis retourner.
+une application doit effectuer uniquement une quantité minimale de traitement de MM \_ MIM \_ messages MOREDATA. (En particulier, les applications ne doivent pas appeler la fonction [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) pendant le traitement de mm \_ MIM \_ MOREDATA.) Au lieu de cela, l’application doit placer les données d’événement dans une mémoire tampon, puis retourner.
 
-Lorsqu’une application reçoit un message de [**\_ \_ données MIM**](mm-mim-data.md) de mm après une série \_ de \_ messages MOREDATA MIM, elle a détecté des événements MIDI entrants et peut appeler en toute sécurité des fonctions nécessitant beaucoup de temps.
+lorsqu’une application reçoit un message de [**\_ \_ données de MIM mm**](mm-mim-data.md) après une série de messages de mm \_ MIM \_ MOREDATA, elle a détecté des événements MIDI entrants et peut appeler en toute sécurité des fonctions nécessitant beaucoup de temps.
 
 L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI est désactivé ; chaque message est développé pour inclure l’octet d’État MIDI.
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu. Aucun horodatage n’est disponible avec ce message. Pour les données d’entrée horodatées, vous devez utiliser les messages envoyés aux fonctions de rappel.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

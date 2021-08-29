@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility utilise trois classes de niveau syst
 ms.assetid: 3333fe6c-38cd-4e7e-be4b-94c9f824e7e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d14a0469527a7654dd3e323adb47d650866ca9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ab93b5780ceb960b7ad15ce220dcc8a7a0801aae8f7fec9cb8211417906b82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133632"
 ---
 # <a name="system-level-and-object-level-events"></a>Événements System-Level et Object-Level
 
@@ -33,9 +33,9 @@ Bien que le système génère des événements de niveau objet pour les objets [
 
 Les serveurs génèrent uniquement des événements de niveau objet pour les contrôles personnalisés pour lesquels ils implémentent l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) . Pour plus d’informations, consultez [éléments d’interface utilisateur personnalisés](custom-user-interface-elements.md).
 
- 
+ 
 
- 
+ 
 
 
 

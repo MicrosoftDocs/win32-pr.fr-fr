@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 45663cfd221c7a31abe5f85a494869b24d1ddd8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b654063cc448c8f8e87dcd57442d36b2ed2b2cf2d3135d0ab987c01ff1a7569
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983649"
 ---
 # <a name="cbaseinputpinsampleprops-method"></a>Méthode CBaseInputPin. SampleProps
 
@@ -50,7 +50,7 @@ Retourne l’adresse de la variable membre [**CBaseInputPin :: m \_ SampleProps
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

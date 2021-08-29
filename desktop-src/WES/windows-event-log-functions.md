@@ -1,19 +1,19 @@
 ---
-title: Fonctions du journal des événements Windows
-description: Le journal des événements Windows définit les fonctions suivantes que vous pouvez utiliser pour obtenir des événements à partir d’un canal ou d’un journal des événements, et pour obtenir les métadonnées d’un fournisseur et les événements qu’il génère.
+title: Windows Fonctions du journal des événements
+description: Windows Le journal des événements définit les fonctions suivantes que vous pouvez utiliser pour obtenir des événements à partir d’un canal ou d’un journal des événements, et pour obtenir les métadonnées d’un fournisseur et les événements qu’il génère.
 ms.assetid: 0bc008e4-c01c-482b-b910-49de3de22fab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893130b2881f2064151f56b6806cebdb9bf225d8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2f489ea2685e7b5e553308a041f8cc2190835aea146ab367903443c899698336
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031889"
 ---
-# <a name="windows-event-log-functions"></a>Fonctions du journal des événements Windows
+# <a name="windows-event-log-functions"></a>Windows Fonctions du journal des événements
 
-Le journal des événements Windows définit les fonctions suivantes que vous pouvez utiliser pour obtenir des événements à partir d’un canal ou d’un journal des événements, et pour obtenir les métadonnées d’un fournisseur et les événements qu’il génère.
+Windows Le journal des événements définit les fonctions suivantes que vous pouvez utiliser pour obtenir des événements à partir d’un canal ou d’un journal des événements, et pour obtenir les métadonnées d’un fournisseur et les événements qu’il génère.
 
 
 
@@ -47,7 +47,7 @@ Le journal des événements Windows définit les fonctions suivantes que vous po
 | [**EvtOpenLog**](/windows/desktop/api/WinEvt/nf-winevt-evtopenlog)                                           | Obtient un handle vers un canal ou un fichier journal que vous pouvez ensuite utiliser pour obtenir des informations sur le canal ou le fichier journal.                                                                                                    |
 | [**EvtOpenPublisherEnum**](/windows/desktop/api/WinEvt/nf-winevt-evtopenpublisherenum)                       | Obtient un handle que vous utilisez pour énumérer la liste des fournisseurs inscrits sur l’ordinateur.                                                                                                                         |
 | [**EvtOpenPublisherMetadata**](/windows/desktop/api/WinEvt/nf-winevt-evtopenpublishermetadata)               | Obtient un handle que vous utilisez pour lire les métadonnées du fournisseur spécifié.                                                                                                                                             |
-| [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession)                                   | Établit une connexion à un ordinateur distant que vous pouvez utiliser lors de l’appel des autres fonctions du journal des événements Windows.                                                                                                |
+| [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession)                                   | établit une connexion à un ordinateur distant que vous pouvez utiliser lors de l’appel de l’autre Windows fonctions du journal des événements.                                                                                                |
 | [**EvtQuery**](/windows/desktop/api/WinEvt/nf-winevt-evtquery)                                               | Exécute une requête pour récupérer les événements d’un canal ou d’un fichier journal qui correspondent aux critères de requête spécifiés.                                                                                                               |
 | [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender)                                             | Génère le rendu d’un fragment XML en fonction du contexte de rendu que vous spécifiez.                                                                                                                                          |
 | [**EvtSaveChannelConfig**](/windows/desktop/api/WinEvt/nf-winevt-evtsavechannelconfig)                       | Enregistre les modifications apportées à la configuration d’un canal.                                                                                                                                                              |
@@ -58,8 +58,8 @@ Le journal des événements Windows définit les fonctions suivantes que vous po
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

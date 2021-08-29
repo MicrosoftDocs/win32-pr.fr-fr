@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - RTSCom.dll
-ms.openlocfilehash: ee89872dab46ab845507fa0079ef007ebe5b5921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3122cb8c266a8c5cf29d0fe8780ecfc854654b189868a17f6aa19876d90fa18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008939"
 ---
 # <a name="gesturerecognizer-class"></a>Classe GestureRecognizer
 
@@ -30,7 +30,7 @@ Implémente l' [**interface IGestureRecognizer**](/windows/desktop/api/RTSCom/nn
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                   |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                       |
 | En-tête<br/>                   | <dl> <dt>RTSCom. h (nécessite également RTSCom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTSCom.dll</dt> </dl>                           |

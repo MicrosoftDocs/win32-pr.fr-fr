@@ -3,18 +3,18 @@ title: Référence multimédia
 description: Référence multimédia
 ms.assetid: 71e31f62-6aad-4b39-ba74-285c0a633e41
 keywords:
-- Windows Multimedia, référence
+- Windows multimédia, référence
 - multimédia, référence
 - Référence multimédia, à propos de
 - référence pour les éléments multimédias, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ea0987ca1c9453380ab633821da04a28117a13a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a85521039b1ca229f0baefaf8eac2b97d3cab7110fc82a02af9f8af765dd23d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038689"
 ---
 # <a name="multimedia-reference"></a>Référence multimédia
 
@@ -30,9 +30,9 @@ Les éléments suivants sont associés à des éléments multimédias :
 -   [Types multimédias](multimedia-types.md)
 -   [Constantes multimédias](multimedia-constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

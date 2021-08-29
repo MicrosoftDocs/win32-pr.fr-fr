@@ -4,12 +4,12 @@ ms.assetid: ad629dbd-49d8-43d0-95a8-03f2043e397e
 title: MFPKEY_PREFERRED_FRAMESIZE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe04ad37c6cd684e3179cbd16328346fd6f11dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a82fbc234235d0caf46b5c1a0fa3278fc98b174db318a894d735ec2878492de9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463239"
 ---
 # <a name="mfpkey_preferred_framesize-property"></a>\_Propriété de \_ trame préférée MFPKEY
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ UI4**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour spécifier une taille de cadre préférée, définissez les propriétés suivantes.
 

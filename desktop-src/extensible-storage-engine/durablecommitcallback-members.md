@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104391
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 47086ba03982e21703ca89c2da41121824121cb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d40b7d28eaa204fb5790bb5ea024da615004e17a63890bfab8638cb477267242
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066849"
 ---
 # <a name="durablecommitcallback-members"></a>Membres DurableCommitCallback
 
@@ -95,7 +95,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /></td>
-<td><a href="dn335442(v=exchg.10).md">Effet</a></td>
+<td><a href="dn335442(v=exchg.10).md">End</a></td>
 <td>Met fin à la session de validation durable.</td>
 </tr>
 <tr class="odd">

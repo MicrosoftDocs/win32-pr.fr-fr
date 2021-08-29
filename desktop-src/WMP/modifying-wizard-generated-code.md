@@ -3,29 +3,29 @@ title: Modification du code généré par l’Assistant
 description: Modification du code généré par l’Assistant
 ms.assetid: 391a7773-c3e2-499a-bb63-e5934537d963
 keywords:
-- Windows Media Player Mobile, plug-ins
-- Windows Media Player Mobile, plug-ins d’interface utilisateur
-- Plug-ins Windows Media Player Mobile
+- Lecteur Windows Media Périphériques mobiles, plug-ins
+- Lecteur Windows Media Périphériques mobiles, plug-ins d’interface utilisateur
+- Lecteur Windows Media Plug-ins mobiles
 - plug-ins, interface utilisateur
-- plug-ins, Windows Media Player Mobile
-- plug-ins d’interface utilisateur, Windows Media Player Mobile
-- Plug-ins d’interface utilisateur, Windows Media Player Mobile
+- plug-ins, Lecteur Windows Media Mobile
+- plug-ins d’interface utilisateur, Lecteur Windows Media Mobile
+- plug-ins d’interface utilisateur, Lecteur Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a83bda7cb265d0c2e039ada6d9d827c6da3faf63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2270acdf5472d502eba08ce9fe54b2864ddb7525895d6909bf1b3a5e3eba7d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106536876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134972"
 ---
 # <a name="modifying-wizard-generated-code"></a>Modification du code généré par l’Assistant
 
-Il y a plusieurs endroits dans le code de plug-in généré par l’Assistant que vous devez modifier pour que votre plug-in fonctionne avec le lecteur Windows Media 10 mobile. Le code que vous devez modifier est gras dans les exemples suivants.
+il y a plusieurs endroits dans le code de plug-in généré par l’assistant que vous devez modifier pour que votre plug-in fonctionne avec Lecteur Windows Media 10 Mobile. Le code que vous devez modifier est gras dans les exemples suivants.
 
 ## <a name="changes-to-wmpplugh"></a>Modifications apportées à wmpplug. h
 
-Les méthodes ANSI ne sont pas prises en charge sur les appareils exécutant Windows CE. vous devez donc modifier la méthode ANSI suivante générée par l’Assistant dans wmpplug. h :
+les méthodes ansi ne sont pas prises en charge sur les appareils exécutant Windows CE. vous devez donc modifier la méthode ansi suivante générée par l’assistant dans wmpplug. h :
 
 
 ```C++
@@ -132,28 +132,28 @@ hr = m_spCore->QueryInterface(__uuidof(IConnectionPointContainer), (void**)&spCo
 
 ## <a name="change-the-threading-model"></a>Modifier le modèle de thread
 
-Contrairement à ATL pour Windows, ATL pour Windows CE ne prend pas en charge le modèle de thread cloisonné car le modèle cloisonné requiert plus de ressources mémoire que les modèles de thread unique et de thread libre. Par conséquent, vous devez rechercher toutes les instances de cloisonnement Threading dans StdAfx. h et NetworkPlugin. RGS et les modifier pour indiquer le Threading libre.
+contrairement à atl pour Windows, atl pour Windows CE ne prend pas en charge le modèle de thread cloisonné car le modèle cloisonné requiert plus de ressources mémoire que les modèles de thread unique et de thread libre. Par conséquent, vous devez rechercher toutes les instances de cloisonnement Threading dans StdAfx. h et NetworkPlugin. RGS et les modifier pour indiquer le Threading libre.
 
-En outre, vous pouvez uniquement appeler le contrôle mobile du lecteur Windows Media 10 à partir du thread sur lequel il a été créé.
+en outre, vous pouvez uniquement appeler le contrôle Mobile Lecteur Windows Media 10 à partir du thread sur lequel il a été créé.
 
-## <a name="build-and-test-the-project"></a>Générer et tester le projet
+## <a name="build-and-test-the-project"></a>Générez et testez le Project
 
 Après avoir apporté ces modifications décrites ici, vous pouvez générer votre projet pour vérifier qu’il est compilé avant d’ajouter du code personnalisé.
 
-1.  Définissez la configuration de projet active sur Win32 (WCE ARMV4) debug ou Win32 (WCE ARMV4) Release.
-2.  Définissez la plateforme active sur Pocket PC 2003.
+1.  affectez à la configuration de projet active la version Debug win32 (WCE armv4) ou win32 (WCE armv4).
+2.  définissez la plateforme active sur Pocket PC 2003.
 3.  Cliquez sur l’élément de menu **générer** , puis sélectionnez **générer NetworkPlugin.dll**. Elle doit être compilée, téléchargée et inscrite sur votre appareil.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Création d’un plug-in d’interface utilisateur pour Windows Media Player 10 mobile**](creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md)
+[**création d’un Plug-in d’Interface utilisateur pour Lecteur Windows Media 10 Mobile**](creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

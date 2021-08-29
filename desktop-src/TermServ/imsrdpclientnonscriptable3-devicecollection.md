@@ -41,12 +41,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a545d2f4aaae2af68c14dd6531a2c57cf73711dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fff8bb9b263da2840ec24a45cff14f10d69d95d7b8d3da08fc75df63dd13dfd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138762"
 ---
 # <a name="imsrdpclientnonscriptable3devicecollection-property"></a>IMsRdpClientNonScriptable3 ::D propriété eviceCollection
 

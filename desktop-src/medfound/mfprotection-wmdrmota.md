@@ -1,19 +1,19 @@
 ---
-description: Spécifie l’autorité d’approbation de sortie (OTA) Windows Media Digital Rights Management (WMDRM).
+description: spécifie Windows l’autorité d’approbation de sortie (OTA) Media Digital Rights Management (WMDRM).
 ms.assetid: 88E73129-3EA9-49F8-BDE7-DB73402400CB
 title: Attribut MFPROTECTION_WMDRMOTA (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce049e2709ff88d8c65fe4b4c087f770b9baf5ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 335b05ca7df3d46ecc8ae1e2c2e110f0adcd33447baebb363271618ea2aa3e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848199"
 ---
 # <a name="mfprotection_wmdrmota-attribute"></a>\_Attribut MFPROTECTION WMDRMOTA
 
-Spécifie l’autorité d’approbation de sortie (OTA) Windows Media Digital Rights Management (WMDRM).
+spécifie Windows l’autorité d’approbation de sortie (OTA) Media Digital Rights Management (WMDRM).
 
 ## <a name="data-type"></a>Type de données
 
@@ -25,8 +25,8 @@ Spécifie l’autorité d’approbation de sortie (OTA) Windows Media Digital Ri
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

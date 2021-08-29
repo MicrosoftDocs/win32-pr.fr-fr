@@ -1557,7 +1557,7 @@
                       href: id3dxmatrixstack-multmatrixlocal.md
                     - name: Pop
                       href: id3dxmatrixstack-pop.md
-                    - name: Envoi de données (push)
+                    - name: Envoi (push)
                       href: id3dxmatrixstack-push.md
                     - name: RotateAxis
                       href: id3dxmatrixstack-rotateaxis.md

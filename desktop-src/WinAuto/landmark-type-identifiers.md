@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e0a926d5a6d894a9657b0ec8bc9f93638f090a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87cc838073588bea54f2eb0838032753f4a007d39557e1c657b2abc0e812eaf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133842"
 ---
 # <a name="landmark-type-identifiers"></a>Identificateurs de type d’éléments de repère
 
@@ -100,8 +100,8 @@ Indique que le repère est lié aux éléments de type de recherche.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                            |
 | En-tête<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 

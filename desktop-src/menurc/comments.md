@@ -4,12 +4,12 @@ description: RC prend en charge la syntaxe de style C pour les commentaires sur 
 ms.assetid: 045268fb-2d6e-446c-8b95-90e42baeb282
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fda05690df9b7e7fff6974d75d8275a2842b68
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c907543e5238d5cdfe71e4f97f2908abe3425ee54a5649707e9a0a8b45e32237
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847399"
 ---
 # <a name="comments-menus-and-other-resources"></a>Commentaires (menus et autres ressources)
 

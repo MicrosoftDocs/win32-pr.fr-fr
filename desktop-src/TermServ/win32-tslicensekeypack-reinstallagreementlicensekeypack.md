@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 821ff6dc538a670e03757253b616ff16489dc108
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15894ec80819cf39c7eaee45eb6f943e6fd8930618154be62e6a15969b597190
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513879"
 ---
 # <a name="reinstallagreementlicensekeypack-method-of-the-win32_tslicensekeypack-class"></a>Méthode ReinstallAgreementLicenseKeyPack de la \_ classe Win32 TSLicenseKeyPack
 
@@ -65,7 +65,7 @@ Le jeu de clés de licence provient d’un contrat de licence en volume sélecti
 1
 </dt> <dd>
 
-Le jeu de clés de licence provient d’un contrat de licence en volume entreprise pour les clients disposant de 250 ou plus d’ordinateurs. Le paramètre *sAgreementNumber* est le numéro d’inscription (sept chiffres numériques) trouvé dans le formulaire d’accord signé.
+le jeu de clés de licence provient d’un contrat de licence en volume Enterprise pour les clients disposant de 250 ou plus d’ordinateurs. Le paramètre *sAgreementNumber* est le numéro d’inscription (sept chiffres numériques) trouvé dans le formulaire d’accord signé.
 
 </dd> <dt>
 

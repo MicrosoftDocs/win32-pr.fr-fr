@@ -4,12 +4,12 @@ description: Réciproque au niveau du composant.
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa37499a981bae86333b071c2e96a37ccb8ac1a6
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: fd5d9dde852087d942b3b7afd7d067872a6a33ba6f683771fbf60909a36b451c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672279"
 ---
 # <a name="rcp-sm5---asm"></a>RCP (SM5-ASM)
 
@@ -57,7 +57,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bdd15624bf1c5accb6c8540abb630174d6f58bea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: daf4a4a6e875b4bae24c203472292cacce1d633054da513ebca9c558df12af51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571819"
 ---
 # <a name="statustext"></a>STATUSTEXT
 
@@ -29,7 +29,7 @@ value="wmpprop:player.status"
 tabstop="true"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela permet de créer un élément de **texte** qui affichera l’état de lecture. Toutes les propriétés de cet élément de **texte** peuvent être substituées en les spécifiant explicitement.
 

@@ -6,12 +6,12 @@ keywords:
 - Administration RAS RRAS, DLL d’administration RAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cb170e8cfa331ab9591aa509772c6f6a743fa49
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 59b6682a3ba16d5d96a0a6eb03cbe877d130b819c5054174388e4fe89764957f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104507743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036379"
 ---
 # <a name="about-ras-administration-dlls"></a>À propos des dll d’administration RAS
 
@@ -25,7 +25,7 @@ L’emplacement de la DLL d’administration RAS est spécifié dans le registre
 
 RAS prend en charge plusieurs DLL d’administration. Le registre prend en charge plusieurs emplacements de DLL. RAS appelle les fonctions dans les dll dans l’ordre dans lequel les dll sont répertoriées dans le registre ; consultez [configuration du registre des dll d’administration RAS](ras-administration-dll-registry-setup.md).
 
-**Serveur Windows 2000 :** RAS ne prend pas en charge plusieurs dll.
+**Windows serveur 2000 :** RAS ne prend pas en charge plusieurs dll.
 
 Une DLL d’administration RAS doit implémenter et exporter toutes les fonctions suivantes :
 
@@ -51,7 +51,7 @@ ou
 
 Si toutes les fonctions requises ne sont pas implémentées, RAS ne peut pas démarrer.
 
-**Serveur Windows 2000 :** Une DLL d’administration doit implémenter les fonctions [**MprAdminGetIpAddressForUser**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetipaddressforuser) et [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress) . Si la DLL implémente l’une de ces fonctions, elle doit également implémenter l’autre.
+**Windows serveur 2000 :** Une DLL d’administration doit implémenter les fonctions [**MprAdminGetIpAddressForUser**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetipaddressforuser) et [**MprAdminReleaseIpAddress**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminreleaseipaddress) . Si la DLL implémente l’une de ces fonctions, elle doit également implémenter l’autre.
 
 RAS appelle la fonction [**MprAdminInitializeDll**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininitializedll) lorsque le service Routage et accès distant démarre pour la première fois. La fonction **MprAdminInitializeDll** permet à la dll d’administration d’effectuer toute initialisation nécessaire. De même, RAS appelle le service [**MprAdminTerminateDll**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminterminatedll) lorsque le service de routage et d’accès distant s’arrête. Cette fonction permet à la DLL d’administration d’effectuer tout nettoyage nécessaire avant de quitter.
 
@@ -79,9 +79,9 @@ Le serveur RAS consigne une erreur dans le journal des événements système si 
 
 **Windows 2000/NT :** Plusieurs DLL d’administration ne sont pas prises en charge.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: Activation du système de fichiers projetés Windows
+title: activation d’Windows système de fichiers projeté
 description: Décrit comment activer ProjFS sur Windows
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/17/2018
 ms.topic: article
-ms.openlocfilehash: f903192190877631084e366bcaeafd8b5b0e7e72
-ms.sourcegitcommit: 42cdae4d2eca84713ab3f7a5c88f583a352991a8
+ms.openlocfilehash: ca891b9b7f89b3722ea9db1c606961d4ba47f0a1a1d05d1bebc2951c68e00f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "106510585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031259"
 ---
-# <a name="enabling-windows-projected-file-system"></a>Activation du système de fichiers projetés Windows
+# <a name="enabling-windows-projected-file-system"></a>activation d’Windows système de fichiers projeté
 
 ProjFS est fourni avec Windows en tant que composant facultatif.  Pour qu’un fournisseur puisse l’utiliser, il doit être activé.  Vous pouvez utiliser <!--the GUI or--> PowerShell pour activer ProjFS.
 

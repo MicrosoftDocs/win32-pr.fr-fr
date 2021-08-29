@@ -1,19 +1,19 @@
 ---
 description: Un objet de pool de stockage modélise un pool de stockage dans un sous-système de stockage.
 ms.assetid: a6104742-3ef9-4570-9728-3e6580953117
-title: Objet de pool de stockage
+title: Stockage Objet de pool
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c44719b825193faa75546ba1a0f7b42155a3e49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ee6ddd225c3c6e92f29bc4b4f338d9c3ef7ffc0cf0cc5e748d4bc71da319d19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986729"
 ---
-# <a name="storage-pool-object"></a>Objet de pool de stockage
+# <a name="storage-pool-object"></a>Stockage Objet de pool
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet de pool de stockage modélise un pool de stockage dans un sous-système de stockage.
 

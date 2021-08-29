@@ -3,7 +3,7 @@ title: Écriture de fichiers sur l’appareil
 description: Écriture de fichiers sur l’appareil
 ms.assetid: 66eaed16-032b-4ac0-a768-aded80f10255
 keywords:
-- Gestionnaire de périphériques Windows Media, écriture de fichiers sur des appareils
+- Windows Gestionnaire de périphériques de média, écriture de fichiers sur des appareils
 - Gestionnaire de périphériques, écriture de fichiers sur des appareils
 - Guide de programmation, écriture de fichiers sur des appareils
 - applications de bureau, écriture de fichiers sur des appareils
@@ -11,12 +11,12 @@ keywords:
 - écriture de fichiers sur des appareils, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d8b5234cc275eed1b4aa344c16a2b927b8122d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d797d792390e4da0f0ae86a2819e47769bffc810db239f947ea06c409552469b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957149"
 ---
 # <a name="writing-files-to-the-device"></a>Écriture de fichiers sur l’appareil
 
@@ -29,7 +29,7 @@ Les étapes suivantes montrent comment envoyer un fichier existant à l’appare
     -   Interrogez le fichier sur ses fonctionnalités de format. Pour plus d’informations, consultez [découverte des fonctionnalités de format des appareils](discovering-device-format-capabilities.md).
     -   Recherchez un format acceptable que l’application peut créer à partir du fichier d’origine.
     -   Si le fichier doit être transcodé, transcodez-le.
-3.  Recherchez un stockage parent pour le nouvel objet. Windows Media Gestionnaire de périphériques ne permet pas de découvrir l’emplacement de stockage standard pour tous les types de fichiers spécifiques (fichiers vidéo ou audio, WMV ou BMP, dossier « Favoris », etc.). vous devez donc examiner chaque appareil pour essayer de déterminer où stocker le nouvel objet. (D’autres applications appliquent une certaine structure de dossiers, par exemple, le lecteur Windows Media crée des albums, des sélections et des dossiers musicaux dans lesquels le dossier musique contient un artiste et une hiérarchie AlbumName. Pour cette raison, et comme certains périphériques n’ont peut-être pas été testés avec un logiciel autre que le lecteur Windows Media, sachez que le placement d’objets de sélection ou d’album dans un dossier autre que les dossiers de sélection ou d’albums peut parfois entraîner la non-fonctionnement des objets sur certains appareils.)
+3.  Recherchez un stockage parent pour le nouvel objet. Windows Media Gestionnaire de périphériques ne permet pas de détecter l’emplacement de stockage standard pour les types de fichiers spécifiques (fichiers vidéo ou audio, WMV ou BMP, dossier « Favoris », etc.). vous devez donc examiner chaque appareil pour essayer de déterminer où stocker le nouvel objet. (d’autres applications appliquent une certaine structure de dossiers, par exemple, Lecteur Windows Media crée des Albums, des listes de sélection et des dossiers Musique où le dossier Musique contient une hiérarchie AlbumName et Artist. pour cette raison, et comme certains périphériques n’ont peut-être pas été testés avec un logiciel autre que Lecteur Windows Media, sachez que le placement d’objets de sélection ou d’album dans un dossier autre que les dossiers de sélection ou d’albums peut parfois entraîner la non-fonctionnement des objets sur certains appareils.)
 4.  Si le stockage cible prend en charge [**IWMDMStorageControl3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3), créez une nouvelle interface de métadonnées en appelant [**IWMDMStorage3 :: CreateEmptyMetadataObject**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject). Définissez les métadonnées sur une interface [**IWMDMMetaData**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata) . Pour plus d’informations, consultez [définition de métadonnées sur un fichier](setting-metadata-on-a-file.md). Les seules métadonnées requises sont g \_ wszWMDMFormatCode (une valeur [**\_ FORMATCODE WMDM**](wmdm-formatcode.md) décrivant le contenu), mais plus vous pouvez fournir de métadonnées, plus le transfert sera efficace pour le fournisseur de services.
 5.  Envoyez le fichier à l’appareil à l’aide de la méthode [**Insert**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert), [**Insert2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2)ou [**Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3) . **Insert3** vous permet d’inclure les métadonnées sur l’appareil dans le cadre de la méthode. Pour plus d’informations, consultez [envoi du fichier à l’appareil](sending-the-file-to-the-device.md).
 
@@ -39,12 +39,12 @@ Du code illustrant chacune de ces étapes est fourni sur les pages de rubrique l
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

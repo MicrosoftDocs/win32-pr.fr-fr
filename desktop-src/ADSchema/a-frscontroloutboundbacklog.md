@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51b3201f782735658a53dcb0e802106c86267df4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15335b4cc528541781c6e41d1f210e663187e8920632bb08d42fb1d8a881c07f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119306699"
 ---
 # <a name="frs-control-outbound-backlog-attribute"></a>Attribut FRS-Control-Outbound-Backlog
 
@@ -45,7 +45,7 @@ Paire d’avertissements/erreurs pour le backlog sortant (nombre de fichiers).
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

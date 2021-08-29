@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a472f3e8d46eb6938215d8fc3110e4bf2e96c5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4f54c7227468e02c37eb5ddec01c292c63638cbc512fed3a8a0f836b44d0f9d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119304269"
 ---
 # <a name="is-ephemeral-attribute"></a>Attribut Is-Ephemeral
 
@@ -46,7 +46,7 @@ L’attribut **is-éphémère** n’est pas utilisé actuellement.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

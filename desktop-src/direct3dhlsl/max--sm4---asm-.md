@@ -4,12 +4,12 @@ description: Nombre maximal de virgule flottante au niveau du composant.
 ms.assetid: 005468AA-577E-441F-ACD5-37A691E62CDD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f64d88c581828f2563f6d5d8a6c57de6400f9bbf
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 1349db8dc991bc3168d546458279ddae29eb141676f3e24aad6602f1075c503f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854119"
 ---
 # <a name="max-sm4---asm"></a>Max (SM4-ASM)
 

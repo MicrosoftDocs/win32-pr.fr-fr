@@ -1,19 +1,19 @@
 ---
-description: À compter de Windows Vista, l’affichage des catégories du panneau de configuration fournit des liens vers les tâches sous chaque icône de l’élément du panneau de configuration, comme illustré ici.
+description: à partir de Windows Vista, l’affichage des catégories du panneau de configuration fournit des liens vers les tâches sous chaque icône de l’élément du panneau de configuration, comme illustré ici.
 ms.assetid: 54a03536-6fe6-4304-a555-58e5bca128b9
 title: Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b4e98e8a6e07f84e8012b58cefe8e0d249fc069
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7be43d98ea6c0f1cdf2d9c399aa1377d6b7b46a36fed10b3d6a4796ce49f92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943399"
 ---
 # <a name="creating-searchable-task-links-for-a-control-panel-item"></a>Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration
 
-À compter de Windows Vista, l’affichage des catégories du panneau de configuration fournit des liens vers les tâches sous chaque icône de l’élément du panneau de configuration, comme illustré ici.
+à partir de Windows Vista, l’affichage des catégories du panneau de configuration fournit des liens vers les tâches sous chaque icône de l’élément du panneau de configuration, comme illustré ici.
 
 ![Liens de tâches sur la page système et catégorie de maintenance](images/controlpaneltasklinks.png)
 
@@ -43,7 +43,7 @@ Les liaisons de tâches doivent être axées sur les utilisateurs finaux, et non
 
 ## <a name="creating-a-task-xml-file"></a>Création d’un fichier de tâche XML
 
-Les liens de tâche sont définis dans un fichier XML. Cette section fournit les détails d’un exemple de fichier. XML qui définit trois liens de tâches pour un élément du panneau de configuration appelé **bloc-notes**. Il définit les titres, les mots clés et les lignes de commande pour les liaisons de tâches. Il montre également comment spécifier les liens de tâches qui s’affichent sous quelle catégorie. Un élément du panneau de configuration qui est inscrit pour apparaître dans plusieurs catégories peut afficher différents liens en fonction de la catégorie. Les explications des différents éléments et informations fournis sont fournies sous forme de commentaires dans le document XML lui-même.
+Les liens de tâche sont définis dans un fichier XML. cette section fournit les détails d’un exemple .xml fichier qui définit trois liens de tâches pour un élément du panneau de configuration appelé **Bloc-notes**. Il définit les titres, les mots clés et les lignes de commande pour les liaisons de tâches. Il montre également comment spécifier les liens de tâches qui s’affichent sous quelle catégorie. Un élément du panneau de configuration qui est inscrit pour apparaître dans plusieurs catégories peut afficher différents liens en fonction de la catégorie. Les explications des différents éléments et informations fournis sont fournies sous forme de commentaires dans le document XML lui-même.
 
 
 ```
@@ -112,7 +112,7 @@ Les liens de tâche sont définis dans un fichier XML. Cette section fournit les
 
 
 > [!Note]  
-> À compter de Windows 7, un élément du panneau de configuration peut être identifié par son nom canonique plutôt que par son nom d’exécutable : l’élément **<SH : controlpanel>** peut être utilisé à la place de **<sh : Command>**. L’élément **<SH : controlpanel>** fournit également un attribut pour spécifier la page de l’élément auquel il doit s’ouvrir. L’exemple suivant illustre l’élément **<SH : controlpanel>** :
+> à partir de Windows 7, un élément du panneau de configuration peut être identifié par son nom canonique plutôt que par son nom d’exécutable : l’élément **<sh : controlpanel>** peut être utilisé à la place de **<sh : command>**. L’élément **<SH : controlpanel>** fournit également un attribut pour spécifier la page de l’élément auquel il doit s’ouvrir. L’exemple suivant illustre l’élément **<SH : controlpanel>** :
 
  
 
@@ -181,7 +181,7 @@ En guise de Convention, Microsoft a omis de petits mots tels que « comment fai
 [Affectation des catégories du panneau de configuration](assigning-control-panel-categories.md)
 </dt> <dt>
 
-[Accès au panneau de configuration en mode sans échec sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[accès au panneau de configuration en Mode Coffre sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

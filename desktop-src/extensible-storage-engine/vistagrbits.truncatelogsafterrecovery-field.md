@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 646bf659dc9270a4c5f40373b871c2c8700586a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 647d42de62c8fdc700191fc06e9445e1eb0e52e4b80bbc58a433f7b35bd8a666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967549"
 ---
 # <a name="vistagrbitstruncatelogsafterrecovery-field"></a>Champ VistaGrbits. TruncateLogsAfterRecovery
 

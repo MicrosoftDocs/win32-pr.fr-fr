@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e352acef945c09c6be592174dd86a46cd8689aca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82b659ff105ef79e481ba94ca05316f417860941f27f4d6eda732b98acd452e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033129"
 ---
 # <a name="imsrdpdevicedevicedescription-property"></a>IMsRdpDevice ::D propriété eviceDescription
 

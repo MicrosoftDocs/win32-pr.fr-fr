@@ -4,12 +4,12 @@ ms.assetid: 70610ddf-4c0b-4b9b-bd26-82c2753b9fa7
 title: Objets de l’analyseur de table des matières
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62266ffe5cea6e3be0467722c600bae57a84e216
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae6b755dd9f85b26b1a47032fa0bfc0eb31a0ad10e4a5d7ba9047947b28b0fa9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847699"
 ---
 # <a name="table-of-contents-parser-objects"></a>Objets de l’analyseur de table des matières
 

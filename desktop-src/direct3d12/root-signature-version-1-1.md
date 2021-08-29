@@ -5,12 +5,12 @@ ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04a7a32576efa4d93a8d26aa57282f06e0d5a02f
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 9be1f6cd024fe4f8a1121a1f4e43aae6c9bf2984f099cf2ea33ec45b758e3b03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069459"
 ---
 # <a name="root-signature-version-11"></a>Signature racine version 1.1
 
@@ -34,7 +34,7 @@ L’objectif de la version de signature racine 1,1 est de permettre aux applicat
 -   [Gestion des versions](#version-management)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 La version de signature racine 1,0 autorise le contenu des tas de descripteurs et la mémoire qu’ils pointent à être librement modifiés par les applications chaque fois que les listes de commandes/regroupements qui les référencent sont potentiellement en vol sur le GPU. Très souvent, cependant, les applications n’ont pas besoin de la flexibilité nécessaire pour modifier les descripteurs ou la mémoire une fois que les commandes qui les référencent ont été enregistrées.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1acf50e0cec59a7ee14fbd9d7760fb68b27c4de5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: eb5dc2939ea0fbc2c8037dc22c5b690e93a5727ecad6b2249e99e4c337340710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943099"
 ---
 # <a name="diskquotacontrolgiveusernameresolutionpriority-method"></a>Méthode DiskQuotaControl. GiveUserNameResolutionPriority
 
@@ -52,13 +52,13 @@ Expression d’objet qui prend la valeur de l’objet [**DIDiskQuotaUser**](didi
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la résolution de noms asynchrone est activée, les objets utilisateur sont placés dans une file d’attente. Par défaut, elles sont desservies dans l’ordre dans lequel elles sont placées dans la file d’attente. La méthode **GiveUserNameResolutionPriority** déplace un objet au début de la file d’attente afin qu’il soit en ligne à traiter.
 
 Utilisez la propriété [**UserNameResolution**](diskquotacontrol-usernameresolution.md) pour activer la résolution de noms asynchrone.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7770b46f-21c7-459f-9778-a86de70d467f
 title: SelectionAction ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eda06826f6ac649e2278441c944cdea0332689af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2353c967eb6a7a0160a647b51ac0eff87ad187499147f3c051bc8eb33086df88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040649"
 ---
 # <a name="selectionaction-controlevent"></a>SelectionAction ControlEvent,
 
@@ -25,11 +25,11 @@ Cet événement peut affecter uniquement les contrôles qui se trouvent dans la 
 
 ## <a name="argument"></a>Argument
 
-Aucun
+Aucun.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucun
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

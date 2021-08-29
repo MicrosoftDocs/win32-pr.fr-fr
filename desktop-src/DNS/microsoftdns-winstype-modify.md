@@ -1,6 +1,6 @@
 ---
 title: Modifier la méthode de la classe MicrosoftDNS_WINSType
-description: La méthode modify met à jour un enregistrement de ressource WINS (Windows Internet Name Service).
+description: la méthode Modify met à jour un enregistrement de ressource Windows Internet Name Service (WINS).
 ms.assetid: b61c429a-6b01-4b17-9312-bc5b69d1e76a
 keywords:
 - Modifier la méthode DNS
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1469d1a9d50c72cdf3699bdc2ab9b96f51dfce86
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf14bd6801900ea9b697ac7db0efea5970c7d5b06317aef4acdd073fc78b1b13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984629"
 ---
 # <a name="modify-method-of-the-microsoftdns_winstype-class"></a>Modifier la méthode de la \_ classe WINSType MicrosoftDNS
 
-La méthode **Modify** met à jour un enregistrement de ressource WINS (Windows Internet Name Service).
+la méthode **Modify** met à jour un enregistrement de ressource Windows Internet Name Service (WINS).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -104,7 +104,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

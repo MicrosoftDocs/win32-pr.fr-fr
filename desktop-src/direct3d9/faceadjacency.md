@@ -4,12 +4,12 @@ ms.assetid: dd30b3d6-767a-4d87-9b5c-1324738bcbb2
 title: FaceAdjacency
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0508b822f45c6796a793dc4b17caeaa1e30b4c3d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2dc6601ef99475a06afecb038cb0261df02e33545f760a85b2ed7f5bea4df717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849379"
 ---
 # <a name="faceadjacency"></a>FaceAdjacency
 

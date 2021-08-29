@@ -1,6 +1,6 @@
 ---
 title: Aide-attribut de nom de fichier
-description: Cet attribut a été utilisé pour Exchange 4,0. Il contenait le nom à utiliser pour le fichier lorsque le fournisseur a téléchargé les données d’aide sur un ordinateur client. Elle n’est pas utilisée pour les autres versions d’Exchange.
+description: cet attribut a été utilisé pour Exchange 4,0. Il contenait le nom à utiliser pour le fichier lorsque le fournisseur a téléchargé les données d’aide sur un ordinateur client. Elle n’est pas utilisée pour les autres versions de Exchange.
 ms.assetid: 3383b953-8a5c-4dfd-9d06-c35d29d6ea2d
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e049e34fe43cb17314f8483a2a77bd680a4e7fa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d14dc9ce29eea4a7bb0b3f15a35ec0a82bb947da862e658713cde1f64c241f42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119305299"
 ---
 # <a name="help-file-name-attribute"></a>Aide-attribut de nom de fichier
 
-Cet attribut a été utilisé pour Exchange 4,0. Il contenait le nom à utiliser pour le fichier lorsque le fournisseur a téléchargé les données d’aide sur un ordinateur client. Elle n’est pas utilisée pour les autres versions d’Exchange.
+cet attribut a été utilisé pour Exchange 4,0. Il contenait le nom à utiliser pour le fichier lorsque le fournisseur a téléchargé les données d’aide sur un ordinateur client. Elle n’est pas utilisée pour les autres versions de Exchange.
 
 
 
@@ -45,7 +45,7 @@ Cet attribut a été utilisé pour Exchange 4,0. Il contenait le nom à utiliser
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

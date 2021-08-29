@@ -3,7 +3,7 @@ title: Message RB_SETTOOLTIPS (commctrl. h)
 description: Associe un contrôle ToolTip au contrôle rebar.
 ms.assetid: b80e6a0d-2afe-45dd-8ab0-90e7bce00bc7
 keywords:
-- RB_SETTOOLTIPS les contrôles de message Windows
+- RB_SETTOOLTIPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 252c65907632ef737c91cbb6bc2746c5603c9181
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3508e26e43082410dbbbe6129fd3be847f8c73fc9bfb7d4bb0e0237c2bf6f0b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106532050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985429"
 ---
 # <a name="rb_settooltips-message"></a>\_Message SETTOOLTIPS RB
 
@@ -49,8 +49,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

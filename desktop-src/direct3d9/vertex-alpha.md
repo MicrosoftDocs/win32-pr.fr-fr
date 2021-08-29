@@ -4,12 +4,12 @@ ms.assetid: 2b0d842d-ee7d-4633-846d-96697153adc7
 title: Vertex alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f661c013e324a0bf209b4faca41d1974a41e81
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c2443b14d62698e342b7cbb9c4b79d30d3e11e32be76a3f584823ddf74b16685
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984539"
 ---
 # <a name="vertex-alpha-direct3d-9"></a>Vertex alpha (Direct3D 9)
 

@@ -12,12 +12,12 @@ api_name:
 - InstanceIndex
 api_type:
 - NA
-ms.openlocfilehash: 03f558e8cde983e26b349b906f06192ce49aeaf0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07d3372e870fd65c2b42f2eba79602cdadda2cbb40ef5cf4c121695863b77185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069489"
 ---
 # <a name="instanceindex-function"></a>InstanceIndex fonction)
 

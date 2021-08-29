@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101490
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 06ccdffc19bc4bd92a2787816508b36eca15594d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5db82707f4eabc03d98bdc671b2f1c0619166779fa1edbf3a4b76007525823d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066089"
 ---
 # <a name="esentdatabaseincompleteupgradeexception-methods"></a>Méthodes EsentDatabaseIncompleteUpgradeException
 

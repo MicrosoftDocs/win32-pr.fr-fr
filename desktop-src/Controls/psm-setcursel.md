@@ -3,7 +3,7 @@ title: Message PSM_SETCURSEL (Prsht. h)
 description: Active la page spécifiée dans une feuille de propriétés. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet SetCurSel.
 ms.assetid: 800aadde-cabc-424e-8e63-60fc7ce952d7
 keywords:
-- PSM_SETCURSEL les contrôles de message Windows
+- PSM_SETCURSEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f41f0ba2ec8d13a7bfc932b553b355399f76b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59b90c5163717712cbb085e0dcdaf1e08fdf64a6b88e59a73bd0a77364dca22b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985639"
 ---
 # <a name="psm_setcursel-message"></a>\_Message PSM SETCURSEL
 
@@ -47,7 +47,7 @@ Handle vers la page à activer. Une application peut spécifier l’index ou le 
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre qui perd l’activation reçoit le code de notification [PSN \_ KILLACTIVE](psn-killactive.md) , et la fenêtre qui obtient l’activation reçoit le code de [notification \_ PSN](psn-setactive.md) .
 
@@ -57,8 +57,8 @@ La fenêtre qui perd l’activation reçoit le code de notification [PSN \_ KILL
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9058a2ff-9b8e-48e5-accb-4810c8598294
 title: Événement PBT_APMRESUMESUSPEND (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d26357215853e0989851b6a9e731340a8dc2e6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c065d7997a152555cbd77153752cbaec77786aea5b95486ccf73985cc854ae0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961699"
 ---
 # <a name="pbt_apmresumesuspend-event"></a>\_Événement PBT APMRESUMESUSPEND
 
@@ -71,7 +71,7 @@ Réservé doit être égal à zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut recevoir cet événement uniquement si elle a reçu l’événement [PBT \_ APMSUSPEND](pbt-apmsuspend.md) avant la suspension de l’ordinateur. Dans le cas contraire, l’application recevra un événement [PBT \_ APMRESUMECRITICAL](pbt-apmresumecritical.md) .
 
@@ -85,8 +85,8 @@ Si le système sort de veille en raison d’un signal de réveil externe (éveil
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 070285336284e6d07b6333d28eff5c85c4dc6c5a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b7ef4ef612bfb2e91184d0e442115f712496f8bd788bb441bba7e7caa388031b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119305229"
 ---
 # <a name="home-directory-attribute"></a>Attribut Home-Directory
 
@@ -45,7 +45,7 @@ Répertoire de départ du compte. Si [**le**](a-homedrive.md) lecteur de disque 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

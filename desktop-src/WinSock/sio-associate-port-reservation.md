@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 69af4f396fabd32f948d7e43cbf348aa34fb1a9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a427cec68124cf0132b13a8d8420311106e8c8f3ba647ddcc912ef7f1415fb0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244949"
 ---
 # <a name="sio_associate_port_reservation-control-code"></a>Code de contrôle SIO_ASSOCIATE_PORT_RESERVATION
 
@@ -150,9 +150,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Une opération a été tentée sur un qui n’est pas un Socket. Cette erreur est retournée si le *descripteur* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est également retournée si l’IOCTL de **\_ réservation de \_ port \_ SIO Associate** n’est pas prise en charge par le fournisseur de transport. Cette erreur est également retournée lorsqu’une tentative d’utilisation de l’IOCTL de **\_ réservation de \_ port \_ SIO Associate** est effectuée sur un socket autre que UDP ou TCP. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL de **\_ réservation de \_ port \_ SIO Associate** est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
+l’IOCTL de **\_ réservation de \_ PORT \_ SIO ASSOCIATE** est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
 
 Les applications et les services qui doivent réserver des ports sont répartis en deux catégories.
 La première catégorie comprend des composants qui ont besoin d’un port particulier dans le cadre de leur fonctionnement.
@@ -192,7 +192,7 @@ L’IOCTL de **\_ réservation de \_ port \_ SIO Associate** peut échouer avec 
 
 L’IOCTL de **\_ réservation de \_ port \_ SIO Associate** transmise à la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** pour une réservation de port persistante ne peut être utilisée que dans une application lorsque l’utilisateur a ouvert une session en tant que membre du groupe administrateurs.
 Si **SIO \_ associer \_ la \_ réservation de port** IOCTL est utilisée dans une application lorsque l’utilisateur n’est pas membre du groupe administrateurs, l’appel de fonction échoue et **WSAEACCES** est retourné.
-L’utilisation de l’IOCTL de **\_ réservation de \_ port \_ SIO Associate** peut également échouer en raison du contrôle de compte d’utilisateur (UAC) sur Windows Vista et versions ultérieures.
+l’utilisation de l’IOCTL de **\_ réservation de \_ PORT \_ SIO ASSOCIATE** peut également échouer en raison du contrôle de compte d’utilisateur (UAC) sur Windows Vista et versions ultérieures.
 Si une application qui utilise cette IOCTL avec une réservation de port persistant est exécutée par un utilisateur ayant ouvert une session en tant que membre du groupe administrateurs autre que l’administrateur intégré, cet appel échoue, sauf si l’application a été marquée dans le fichier manifeste avec un **requestedExecutionLevel** défini sur *requireAdministrator*.
 Si l’application ne dispose pas de ce fichier manifeste, un utilisateur ayant ouvert une session en tant que membre du groupe administrateurs autre que l’administrateur intégré doit exécuter l’application dans un interpréteur de commandes amélioré en tant qu’administrateur intégré ( `RunAs administrator` ) pour que cette fonction aboutisse.
 

@@ -3,19 +3,19 @@ title: Élément BUTTONELEMENT
 description: Élément BUTTONELEMENT
 ms.assetid: 2c1bac51-8aea-4c73-b9b4-4ddbf1e4231b
 keywords:
-- Apparences du lecteur Windows Media, BUTTONELEMENT, élément
+- habillages Lecteur Windows Media, élément BUTTONELEMENT
 - Skins, BUTTONELEMENT, élément
 - Élément BUTTONELEMENT
 - référence pour les habillages, élément BUTTONELEMENT
 - éléments, BUTTONELEMENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d4cc69154821981874f0072f6282f708cc4826d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1aeef505a3bf0b07a2c25d21fa2a135e045934c589401829cf6aaccc8410a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135942"
 ---
 # <a name="buttonelement-element"></a>Élément BUTTONELEMENT
 
@@ -37,7 +37,7 @@ L’élément **BUTTONELEMENT** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **BUTTONELEMENT** prend en charge la méthode suivante.
 
@@ -49,7 +49,7 @@ L’élément **BUTTONELEMENT** prend en charge la méthode suivante.
 
 
 
- 
+ 
 
 L’élément **BUTTONELEMENT** peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -71,7 +71,7 @@ Les effets prédéfinis sont des éléments d' **effet** normal avec différents
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -80,9 +80,9 @@ Les effets prédéfinis sont des éléments d' **effet** normal avec différents
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

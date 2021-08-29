@@ -11,12 +11,12 @@ keywords:
 - lecteurs asynchrones, ouverture de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e714f51b56a7d9f3b18a774cd3b8c74bf05352
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2bc9dad56efa9556618a71bdd6c18500c43545085bdadaf4c6465fc3bf2e3aab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807639"
 ---
 # <a name="to-create-a-reader-and-open-a-file"></a>Pour créer un lecteur et ouvrir un fichier
 
@@ -47,9 +47,9 @@ Le lecteur prend également en charge l’utilisation de l’interface com **ISt
 [**Utilisation des méthodes de rappel**](using-the-callback-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

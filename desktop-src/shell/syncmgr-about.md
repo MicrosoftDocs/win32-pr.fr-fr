@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b51ce42dc78befe1bcce7dcd7af393ea80d22212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf31619baa5a8f92a319eb00075b483e6589f11b85802f3d2304cf15aa66800e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941109"
 ---
 # <a name="about-synchronization-manager"></a>À propos du gestionnaire de synchronisation
 

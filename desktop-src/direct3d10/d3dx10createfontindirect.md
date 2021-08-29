@@ -1,5 +1,5 @@
 ---
-description: Crée un objet de police. Remarque au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser DirectWrite et la bibliothèque DirectXTK, SpriteFont Class.
+description: Crée un objet de police. notez qu’au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser DirectWrite et la bibliothèque DirectXTK, SpriteFont class.
 ms.assetid: 057ee033-37d8-4fc1-9f35-776393fff008
 title: D3DX10CreateFontIndirect, fonction (D3DX10Core. h)
 ms.topic: reference
@@ -14,19 +14,19 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: ae69b02483a94a80a06ef52ee4857eb081cfcfb2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bfbbc2cdb0e8aad5851de40312bd7d646eb9e3af22e71f0638a7fa1e52f342f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989149"
 ---
 # <a name="d3dx10createfontindirect-function"></a>D3DX10CreateFontIndirect fonction)
 
 Crée un objet de police.
 
 > [!Note]  
-> Au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser [DirectWrite](../directwrite/direct-write-portal.md) et la bibliothèque [DirectXTK](https://github.com/Microsoft/DirectXTK) , la classe **SpriteFont** .
+> au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser [DirectWrite](../directwrite/direct-write-portal.md) et la bibliothèque [DirectXTK](https://github.com/Microsoft/DirectXTK) , la classe **SpriteFont** .
 
  
 

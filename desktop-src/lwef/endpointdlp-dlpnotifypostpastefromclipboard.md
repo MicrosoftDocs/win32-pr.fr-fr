@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations sur un document après la fin de l’opération coller à partir du presse-papiers.
-title: DlpNotifyPostPasteFromClipboard, fonction (endpointdlp. h)
+title: DlpNotifyPostPasteFromClipboard, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 69a5afbc41350092ebd4d433d2f4d7259ece82cf
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 8f40b8338164e992bc9102a37d386f9b470e2159cdc7507ca0cf4c4567fb524b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119349279"
 ---
 # <a name="dlpnotifypostpastefromclipboard-function"></a>DlpNotifyPostPasteFromClipboard fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une structure [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md)
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 
