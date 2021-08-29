@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, tableaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c5ca08740084783f615d2cd34b46f0de4a4020
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 19ed50ada64ae218d9097a1c188338762c7d20704dd4321d2b888ab5f7a5c7de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869649"
 ---
 # <a name="midl-arrays"></a>Tableaux MIDL
 
@@ -102,6 +102,6 @@ HRESULT proc1( [out] ArrayOfRef Parameter );
 
 Les stubs générés allouent le tableau et assignent des valeurs NULL à tous les pointeurs incorporés dans le tableau.
 
- 
+ 
 
- 
+ 

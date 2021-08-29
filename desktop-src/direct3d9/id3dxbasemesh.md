@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 58029639852b30f5de357bb2643583615c45485c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6f437ac6a67f684bd114ebba6aab1fcf8d828c680de88c338ab10ff39672e5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121741"
 ---
 # <a name="id3dxbasemesh-interface"></a>Interface ID3DXBaseMesh
 
@@ -65,7 +65,7 @@ L’interface **ID3DXBaseMesh** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un maillage est un objet constitué d’un ensemble de visages polygones. Une maille définit un ensemble de vertex et un ensemble de faces (les faces sont définies en termes de vertex et de normales de la maille).
 

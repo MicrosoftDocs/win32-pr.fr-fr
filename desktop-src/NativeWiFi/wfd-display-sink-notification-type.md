@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wfdsink.h
-ms.openlocfilehash: 25361b0f3529da0293f373117c7bf655635de852
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca16197da0137e40c25a75c139773b02674b6bf7c90bcae2b94ae0845d201e71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800609"
 ---
 # <a name="wfd_display_sink_notification_type-enumeration"></a>\_ \_ \_ Énumération des types de notification du récepteur d’affichage WFD \_
 
@@ -77,7 +77,7 @@ La notification est une notification déconnectée.
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Wfdsink. h</dt> </dl> |
 
 

@@ -3,19 +3,19 @@ title: Création du fichier VolumeThumb
 description: Création du fichier VolumeThumb
 ms.assetid: 1e096a38-5688-4f62-b58f-954e910c5259
 keywords:
-- Windows Media Player Mobile Skins, VolumeThumb Files
+- Lecteur Windows Media Skins mobiles, fichiers VolumeThumb
 - Skins, fichiers VolumeThumb
 - création d’apparences, de fichiers VolumeThumb
 - Fichiers VolumeThumb dans les habillages
 - Thumb, VolumeThumb, fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82ebe8a591ed7591b55679e6bdb81a361dd24efe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d07f929c377cb4ab52856c9061db45252f7461e257e341b0c1fcc0aa06c91585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863773"
 ---
 # <a name="creating-the-volumethumb-file"></a>Création du fichier VolumeThumb
 
@@ -34,9 +34,9 @@ Contient les deux images Thumb. Celui qui se trouve à gauche est l’état norm
 [**Création de l’illustration**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

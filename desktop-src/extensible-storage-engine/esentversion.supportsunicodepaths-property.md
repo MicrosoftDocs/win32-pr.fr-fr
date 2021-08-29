@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af001881acb516c5c2ce100f8d4cf490ba49d546
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ecd5dc8e9f0baaf7925b63b250c6099a187be490388311c9fdfa69ef4b1e587
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112758"
 ---
 # <a name="esentversionsupportsunicodepaths-property"></a>EsentVersion. SupportsUnicodePaths, propriété
 

@@ -4,12 +4,12 @@ description: Fonctions de feuille de propriétés
 ms.assetid: e7f63c55-a443-4c59-be75-8c214de98d97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef8ac8de43de31f8310cf7735102dfa6bcf3d1e8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 71924c84747abb9c4451878c99ef97dcb0a6250012b05485875d84162404e3b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104530687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064289"
 ---
 # <a name="property-sheet-functions"></a>Fonctions de feuille de propriétés
 

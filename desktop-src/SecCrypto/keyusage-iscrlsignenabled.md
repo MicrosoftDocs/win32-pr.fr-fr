@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 39bd8509ebc89719e5d06e5e60a300ec2cd9949a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47efa230eafe21918f33abcf409d8e1bba73a2c0d7ae0a3e9d1096018e33a11e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867689"
 ---
 # <a name="keyusageiscrlsignenabled-property"></a>KeyUsage. IsCRLSignEnabled, propriété
 
@@ -45,7 +45,7 @@ Si la **valeur est true**, le bit bit cRLSign est défini.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

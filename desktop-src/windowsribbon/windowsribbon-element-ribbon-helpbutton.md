@@ -3,7 +3,7 @@ title: Propriété Ribbon. HelpButton
 description: Représente un conteneur pour le bouton aide.
 ms.assetid: a64239b2-2440-4bcf-8fd7-079003de6d8c
 keywords:
-- Ruban de la propriété Ribbon. HelpButton
+- ruban. HelpButton, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49e343a5181479ede5d428937908ed4bf37764f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ba568fcd18ab16e1c8bd878dc786b2c415a0329d1bd430e78ec9b03a73424df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933190"
 ---
 # <a name="ribbonhelpbutton-property"></a>Propriété Ribbon. HelpButton
 
 Représente un conteneur pour le [bouton aide](windowsribbon-controls-helpbutton.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Ribbon.HelpButton>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ruban**](windowsribbon-element-ribbon.md).
 
@@ -93,8 +93,8 @@ Cette section de code affiche la déclaration de contrôle **Ribbon. HelpButton*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 
