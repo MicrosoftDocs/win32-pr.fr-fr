@@ -3,7 +3,7 @@ title: Message EM_GETCHARFORMAT (RichEdit. h)
 description: Détermine la mise en forme des caractères dans un contrôle RichEdit.
 ms.assetid: 210b8719-5ed7-49f2-bd93-8a4e1efab1e8
 keywords:
-- EM_GETCHARFORMAT les contrôles de message Windows
+- EM_GETCHARFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd71db4d3a13f2acfe33c2843b0d9aad46c6f9fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7fbd605aa82a1eb4c8219d5b2b73f797599c8018d056dff4ca6dd364d96790d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019807"
 ---
 # <a name="em_getcharformat-message"></a>\_Message GETCHARFORMAT em
 
@@ -66,8 +66,8 @@ Ce message retourne la valeur du membre **dwMask** de la structure [**Charformat
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

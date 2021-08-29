@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 65437fa0e06c303c7c2c29151f33f74f1678296d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: faf5532909e8f692aa2c438186a17cf9669170bb4a7d9666682d07ba8d4ea583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139162"
 ---
 # <a name="source-registrationinfotype-element"></a>Élément source (registrationInfoType)
 
@@ -43,7 +43,7 @@ L’élément **source** est défini par le type complexe [**registrationInfoTyp
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, la source d’une tâche est spécifiée à l’aide de la propriété [**RegistrationInfo. source**](registrationinfo-source.md) .
 
@@ -55,8 +55,8 @@ Pour le développement C++, la source d’une tâche est spécifiée à l’aide
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

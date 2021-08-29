@@ -4,12 +4,12 @@ description: Les barres d’outils prennent uniquement en charge les boutons ; 
 ms.assetid: 7B4DACEF-96BB-447E-AE8F-F55401C665E9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb8ae2189350b9ea2f4aaa0c3ea0b49727bd3415
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 6be124fd0759005344bab3338465b3e86f1b8afbded62755171be87a5a01682c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103841989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697412"
 ---
 # <a name="how-to-embed-nonbutton-controls-in-toolbars"></a>Comment incorporer des contrôles autres que des boutons dans les barres d’outils
 
@@ -20,20 +20,20 @@ Les barres d’outils prennent uniquement en charge les boutons ; par conséque
 > [!Note]  
 > Envisagez d’utiliser les [contrôles Rebar](rebar-controls.md) au lieu de placer des contrôles dans les barres d’outils.
 
- 
+ 
 
 N’importe quel type de fenêtre peut être placé dans une barre d’outils. L’exemple de code suivant ajoute un contrôle d’édition en tant qu’enfant de la fenêtre de contrôle de barre d’outils. Étant donné que la barre d’outils est créée, puis que le contrôle d’édition est ajouté, vous devez fournir de l’espace pour le contrôle d’édition. Pour ce faire, vous pouvez ajouter un séparateur en tant qu’espace réservé dans la barre d’outils, en définissant la largeur du séparateur sur le nombre de pixels que vous souhaitez réserver.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -132,12 +132,12 @@ Les notifications sont dirigées vers le parent d’origine. Par conséquent, le
 [Utilisation des contrôles ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

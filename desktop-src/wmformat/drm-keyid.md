@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97a60afa330a7cf967b42a4d06009d9c921d8f56
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c274123c04272fa4ba684a00f5d8f58fc395ce25e8b38bab534007d878c350e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027867"
 ---
 # <a name="drm_keyid"></a>\_KEYID DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ KeyId
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est présent uniquement pour le contenu DRM version 7. Il peut être défini à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) et il peut être récupéré avec [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Le même attribut de fichier peut être récupéré à l’aide de [**DRM \_ DRMHeader \_ KeyId**](drm-drmheader-keyid.md).
 
@@ -48,9 +48,9 @@ Cet attribut est identique à [**DRM \_ DRMHeader \_ KeyId**](drm-drmheader-keyi
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

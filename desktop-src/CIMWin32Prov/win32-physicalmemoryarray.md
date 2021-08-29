@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8a585b0399f7015113b02ff48dbeb85956c9e62b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6fc7fa287fa937a8c4926eb7fee5296983dda8a4350562ae82d3ca2ff279913
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079703"
 ---
 # <a name="win32_physicalmemoryarray-class"></a>\_Classe PhysicalMemoryArray Win32
 
@@ -402,7 +402,7 @@ Utilisez la propriété **MaxCapacityEx** à la place.
 
 Cette valeur provient du membre **capacité maximale** de la structure du tableau de la **mémoire physique** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Taille maximale de la mémoire (en octets) qui est installée pour ce tableau de mémoire spécifique. Si la taille est inconnue, la propriété reçoit la valeur 0 (zéro).
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** taille maximale de la mémoire (en octets) qui est installée pour ce tableau de mémoire spécifique. Si la taille est inconnue, la propriété reçoit la valeur 0 (zéro).
 
 </dd> <dt>
 
@@ -422,7 +422,7 @@ Taille maximale de mémoire (en kilo-octets) à installer pour ce tableau de mé
 
 Cette valeur provient du membre **capacité maximale étendue** de la structure du tableau de la **mémoire physique** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -930,7 +930,7 @@ Cette propriété est héritée de la [**\_ PhysicalPackage CIM**](cim-physicalp
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PhysicalMemoryArray** est dérivée de [**CIM \_ PhysicalPackage**](cim-physicalpackage.md).
 

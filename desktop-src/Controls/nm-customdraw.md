@@ -3,7 +3,7 @@ title: NM_CUSTOMDRAW le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle des opérations de dessin personnalisées. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 2ca51ee0-4431-45c0-880c-a8b74318d8a9
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW
+- NM_CUSTOMDRAW les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f91f5197c7ecaf0ae4356fe00c48221a83ebd7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff8f1a7fe570d88ce583bc0d0aaa34576f8c440836060904d182559e46c3950a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078913"
 ---
 # <a name="nm_customdraw-notification-code"></a>\_Code de notification CUSTOMDRAW nm
 
@@ -101,7 +101,7 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, les contrôles suivants prennent en charge la fonctionnalité de dessin personnalisée : en-tête, mode liste, rebar, barre d’outils, info-bulle, TrackBar et arborescence. Le dessin personnalisé est également pris en charge pour les contrôles Button si vous disposez d’un manifeste d’application pour vous assurer que Comctl32.dll version 6 est disponible.
 
@@ -113,8 +113,8 @@ Si ce message est géré dans une procédure de dialogue, vous devez définir la
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
