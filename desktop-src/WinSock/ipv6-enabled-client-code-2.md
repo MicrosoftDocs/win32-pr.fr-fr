@@ -4,12 +4,12 @@ ms.assetid: a68439cd-0b27-447b-9766-e661c32eee09
 title: Code client IPv6-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97823060c5d98927303259eaddc1d3096c93160d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e20b293e5d327783cd69485fcabaa89ba14ebfe678538a3c19b028d322eb4946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758009"
 ---
 # <a name="ipv6-enabled-client-code"></a>Code client IPv6-Enabled
 

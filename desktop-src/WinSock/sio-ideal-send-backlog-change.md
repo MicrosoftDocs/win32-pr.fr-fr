@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 4eb07efecd39774c60d47cbcf7245c5831760e06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa4141d3ef00b562082fbcff9804326e12bbef671ae8f5d593009fe9d06b7f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097519"
 ---
 # <a name="sio_ideal_send_backlog_change-control-code"></a>Code de contrôle SIO_IDEAL_SEND_BACKLOG_CHANGE
 
@@ -140,18 +140,18 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si la modification IOCTL du **\_ BACKLOG d' \_ envoi \_ \_ SIO idéale** n’est pas prise en charge par le fournisseur de transport. Cette erreur est également retournée lorsqu’une tentative d’utilisation de la **SIO de modification de \_ \_ BACKLOG d’envoi \_ \_ idéale** est effectuée sur un socket datagramme. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL **SIO de modification du \_ BACKLOG d' \_ envoi \_ \_ idéal** est prise en charge sur Windows Server 2008, Windows Vista avec Service Pack 1 (SP1) et les versions ultérieures du système d’exploitation.
+l’IOCTL **SIO de modification de \_ BACKLOG d' \_ envoi \_ \_ idéale** est prise en charge sur Windows Server 2008, Windows Vista avec Service Pack 1 (SP1) et les versions ultérieures du système d’exploitation.
 
-Lors de l’envoi de données via une connexion TCP à l’aide de Windows Sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé.
+lors de l’envoi de données via une connexion TCP à l’aide de Windows sockets, il est important de conserver une quantité suffisante de données en attente (envoyées mais non acceptées) dans TCP afin d’obtenir le débit le plus élevé.
 La valeur idéale pour la quantité de données en suspens pour obtenir le meilleur débit pour la connexion TCP est appelée taille du backlog d’envoi (ISB) idéal.
 La valeur ISB est une fonction du produit Bandwidth-Delay de la connexion TCP et de la fenêtre de réception publiée du récepteur (et en partie la quantité de congestion dans le réseau).
 
-La valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
+la valeur ISB par connexion est disponible à partir de l’implémentation du protocole TCP dans Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation.
 L’IOCTL **SIO de modification de \_ BACKLOG d' \_ envoi \_ \_ idéale** peut être utilisée par une application pour recevoir une notification lorsque la valeur ISB change de manière dynamique pour une connexion.
 
-Sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation, les **SIO de \_ \_ \_ journalisation des travaux en souffrance \_ d’envoi idéales** et SIO sont pris en charge sur les sockets orientés flux qui sont dans un état connecté. [**\_ \_ \_ \_**](sio-ideal-send-backlog-query.md)
+sur Windows Server 2008, Windows Vista avec SP1 et les versions ultérieures du système d’exploitation, les **SIO de \_ \_ \_ journalisation des travaux en souffrance \_ d’envoi idéales** et SIO sont pris en charge sur les sockets orientés flux qui sont dans un état connecté. [**\_ \_ \_ \_**](sio-ideal-send-backlog-query.md)
 
 La plage de la valeur ISB pour une connexion TCP peut théoriquement varier de 0 à 16 mégaoctets au maximum.
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a9adc4f2d58cea7b8b4b5ae9653a95716e907a3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95370c67a75ed2e07f827ea33488dcde16d09bd982287443c3f69886ea89d270
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561279"
 ---
 # <a name="esentconsistenttimemismatchexception-constructor"></a>Constructeur EsentConsistentTimeMismatchException
 

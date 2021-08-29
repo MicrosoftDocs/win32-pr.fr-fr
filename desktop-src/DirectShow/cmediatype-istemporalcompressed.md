@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 09c9770c23e0cd7f1f5140a5f9b9f18299ddaa23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ae3293be4ef73673ac4c89b7880b3f64da10ee1e8141dc72bf15bf40de22384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016317"
 ---
 # <a name="cmediatypeistemporalcompressed-method"></a>Méthode CMediaType. IsTemporalCompressed
 
@@ -50,7 +50,7 @@ Retourne la valeur du membre **bTemporalCompression** .
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

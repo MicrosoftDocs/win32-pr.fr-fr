@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3849e7629cea54cf13caace0691288d24335f3aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 170659c1a4c1b311d9c2dd60673db623061e9e695f37b0e8363587385531f892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604283"
 ---
 # <a name="instanceparametersrecovery-property"></a>InstanceParameters. Recovery, propriété
 

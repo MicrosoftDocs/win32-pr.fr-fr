@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8bbfac13e1536c0a8261e3c63a4308a84a60cf09
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 217015896779d592662655afd04216c1cd85d6ba
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474095"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988052"
 ---
 # <a name="jetgetattachinfoinstance-function"></a>JetGetAttachInfoInstance fonction)
 
@@ -101,7 +101,14 @@ Il est important de noter que cette API ne retourne pas d’erreur ou d’averti
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetAttachInfoInstanceW</strong> (Unicode) et <strong>JetGetAttachInfoInstanceA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetAttachInfoInstanceW</strong> (Unicode) et <strong>JetGetAttachInfoInstanceA</strong> (ANSI).</p> | 
 
 
 

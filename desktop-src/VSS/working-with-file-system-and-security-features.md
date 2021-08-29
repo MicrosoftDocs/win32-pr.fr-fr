@@ -1,19 +1,19 @@
 ---
-description: Vous trouverez ci-dessous des conseils pour l’interopérabilité correcte avec divers systèmes de fichiers et fonctionnalités de sécurité qui ont été introduits dans Windows Vista et Windows Server 2008.
+description: vous trouverez ci-dessous des conseils pour l’interopérabilité correcte avec divers systèmes de fichiers et fonctionnalités de sécurité qui ont été introduits dans Windows Vista et Windows Server 2008.
 ms.assetid: 3e8a1fd2-59e5-4f18-aafc-0ce5ac1e1cfa
 title: Utilisation du système de fichiers et des fonctionnalités de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12903599beb7ed153965f4b803ad8147fd32067a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d410f0e859d051e04ef18e26e57438e758785c29dae69295b57969afc7b4182f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124439"
 ---
 # <a name="working-with-file-system-and-security-features"></a>Utilisation du système de fichiers et des fonctionnalités de sécurité
 
-Vous trouverez ci-dessous des conseils pour l’interopérabilité correcte avec divers systèmes de fichiers et fonctionnalités de sécurité qui ont été introduits dans Windows Vista et Windows Server 2008.
+vous trouverez ci-dessous des conseils pour l’interopérabilité correcte avec divers systèmes de fichiers et fonctionnalités de sécurité qui ont été introduits dans Windows Vista et Windows Server 2008.
 
 ## <a name="interoperability-with-transactions"></a>Interopérabilité avec les transactions
 
@@ -33,38 +33,38 @@ Lors de la sauvegarde de fichiers, une application de sauvegarde doit identifier
 
 De même, lors de la restauration de fichiers, l’application de sauvegarde doit restaurer les liens physiques à l’aide de la fonction [**CreateHardLink**](/windows/win32/api/winbase/nf-winbase-createhardlinka) .
 
-Les applications de sauvegarde doivent également déclarer le privilège de nom de sauvegarde de SE \_ \_ pendant la phase de sauvegarde et le nom de restauration de se \_ \_ pendant la phase de restauration.
+les applications de sauvegarde doivent également déclarer le \_ privilège de nom de sauvegarde SE \_ au cours de la phase de sauvegarde et le \_ nom de restauration SE \_ au cours de la phase de restauration.
 
 ## <a name="permissions-and-privileges-required-by-backup-applications"></a>Autorisations et privilèges requis par les applications de sauvegarde
 
 Les applications de sauvegarde qui restaurent les fichiers système requièrent les privilèges suivants :
 
-<dl> nom de la sauvegarde de SE \_ \_  
-nom de la restauration de la SE \_ \_  
-\_nom de sécurité de se \_  
-SE \_ prendre le nom de la \_ propriété \_  
+<dl> SE \_ nom de la sauvegarde \_  
+SE \_ nom de la restauration \_  
+SE \_ nom de sécurité \_  
+SE \_ PRENDRE le nom de la \_ propriété \_  
 </dl>
 
 Les applications de sauvegarde doivent également demander \_ des droits d’accès en écriture au propriétaire lors de la phase de restauration.
 
-## <a name="windows-media-digital-rights-management"></a>Rights Management Windows Media Digital
+## <a name="windows-media-digital-rights-management"></a>Windows Rights Management Media Digital
 
-Le client Windows Media Digital Rights Management (DRM) conserve un répertoire de fichiers d’État et de licence sensibles dans le répertoire% ProgramData% \\ Microsoft \\ Windows \\ DRM. Les fichiers de ce répertoire doivent être purgés en même temps que les fichiers temporaires et les fichiers cache. Pour vous assurer que le client Windows DRM reste dans un état cohérent, vous devez éviter de sauvegarder ou de restaurer ces fichiers. Ce répertoire est listé dans la clé de Registre FilesNotToBackup. Pour plus d’informations sur la clé FilesNotToBackup, consultez [génération d’un jeu de sauvegarde](generating-a-backup-set.md).
+Windows le client Media Digital Rights Management (DRM) conserve un répertoire de fichiers d’état et de licence sensibles dans le répertoire% ProgramData% \\ Microsoft \\ Windows \\ DRM. Les fichiers de ce répertoire doivent être purgés en même temps que les fichiers temporaires et les fichiers cache. pour vous assurer que le client Windows DRM reste dans un état cohérent, vous devez éviter de sauvegarder ou de restaurer ces fichiers. Ce répertoire est listé dans la clé de Registre FilesNotToBackup. Pour plus d’informations sur la clé FilesNotToBackup, consultez [génération d’un jeu de sauvegarde](generating-a-backup-set.md).
 
 ## <a name="user-account-control"></a>Contrôle de compte d'utilisateur
 
-L’introduction du contrôle de compte d’utilisateur (UAC) dans Windows Vista signifie que, sauf indication contraire, les applications doivent s’exécuter sous un compte d’utilisateur standard. En outre, la fonctionnalité de virtualisation des fichiers et du Registre du contrôle de compte d’utilisateur modifie les emplacements où sont stockées les données utilisateur. Pour plus d’informations sur l’utilisation du contrôle de compte d’utilisateur et la virtualisation de fichier et de Registre, consultez les références suivantes :
+l’introduction du contrôle de compte d’utilisateur (UAC) dans Windows Vista signifie que, sauf indication contraire, les applications doivent s’exécuter sous un compte d’utilisateur standard. En outre, la fonctionnalité de virtualisation des fichiers et du Registre du contrôle de compte d’utilisateur modifie les emplacements où sont stockées les données utilisateur. Pour plus d’informations sur l’utilisation du contrôle de compte d’utilisateur et la virtualisation de fichier et de Registre, consultez les références suivantes :
 
 <dl>
 
-[Windows Vista et Windows Server 2008 Developer Story : exigences de développement d’applications Windows Vista pour le contrôle de compte d’utilisateur (UAC)](/previous-versions/aa905330(v=msdn.10))  
-[Exigences de développement d’applications Windows Vista pour la compatibilité du contrôle de compte d’utilisateur](/previous-versions/dotnet/articles/bb530410(v=msdn.10))  
+[le Windows vista et Windows Server 2008 developer Story : Windows vista Application Development requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10))  
+[Windows Conditions requises pour le développement d’applications Vista pour la compatibilité du contrôle de compte d’utilisateur](/previous-versions/dotnet/articles/bb530410(v=msdn.10))  
 [Mise à jour corrective du contrôle de compte d’utilisateur (UAC)](../msi/user-account-control--uac--patching.md)  
 </dl>
 
 ## <a name="bitlocker-drive-encryption"></a>Chiffrement de lecteur BitLocker
 
-Chiffrement de lecteur BitLocker est une nouvelle fonctionnalité de Windows Vista Enterprise, Windows Vista Ultimate et Windows Server 2008 qui offre un démarrage sécurisé et un chiffrement de volume complet. La compréhension de cette fonctionnalité est importante pour les développeurs d’applications de sauvegarde qui effectuent des restaurations hors connexion où les données devront peut-être être restaurées sur un lecteur chiffré.
+Chiffrement de lecteur BitLocker est une nouvelle fonctionnalité de Windows vista Enterprise, Windows vista Ultimate et Windows Server 2008 qui offre un démarrage sécurisé et un chiffrement de volume complet. La compréhension de cette fonctionnalité est importante pour les développeurs d’applications de sauvegarde qui effectuent des restaurations hors connexion où les données devront peut-être être restaurées sur un lecteur chiffré.
 
 Pour restaurer des données sur un lecteur chiffré, procédez comme suit :
 
@@ -73,7 +73,7 @@ Pour restaurer des données sur un lecteur chiffré, procédez comme suit :
 3.  Effectuez la restauration.
 4.  Démarrez dans le système d’exploitation restauré et activez Chiffrement de lecteur BitLocker.
 
-Pour obtenir des informations détaillées sur Chiffrement de lecteur BitLocker, y compris un guide pas à pas, consultez [chiffrement de lecteur BitLocker](https://www.microsoft.com/technet/windowsvista/security/bitlockr.mspx) sur le site Web Microsoft TechNet Windows Vista. Pour plus d’informations sur le fournisseur WMI Chiffrement de lecteur BitLocker, consultez [chiffrement de lecteur BitLocker Provider](../secprov/bitlocker-drive-encryption-provider.md).
+pour obtenir des informations détaillées sur Chiffrement de lecteur BitLocker, y compris un guide pas à pas, consultez [Chiffrement de lecteur BitLocker](https://www.microsoft.com/technet/windowsvista/security/bitlockr.mspx) sur le site web Microsoft TechNet Windows Vista. Pour plus d’informations sur le fournisseur WMI Chiffrement de lecteur BitLocker, consultez [chiffrement de lecteur BitLocker Provider](../secprov/bitlocker-drive-encryption-provider.md).
 
  
 

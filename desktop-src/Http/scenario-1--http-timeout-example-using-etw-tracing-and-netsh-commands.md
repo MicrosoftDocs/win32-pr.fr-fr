@@ -4,12 +4,12 @@ description: Grâce au suivi ETW, le workflow des données via le composant API 
 ms.assetid: b6b24161-c3da-4972-b49f-c545da2fc81e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa50f438aca664651b24db822f2b9e3a30da4682
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 41bcb9ea328a77641e551f192b7aa89a56dd983251ade8aab45e68251a82458d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104561660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870457"
 ---
 # <a name="scenario-1-http-timeout-example-using-etw-tracing-and-netsh-commands"></a>Scénario 1 : exemple de délai d’expiration HTTP utilisant le suivi ETW et les commandes netsh
 
@@ -23,11 +23,11 @@ Figure 1 : journal des erreurs HTTP pour le délai d’expiration
 
 Pour générer un rapport de suivi ETW pour le composant API du serveur HTTP, exécutez les étapes ci-dessous à partir de l’invite de commandes. Dans cet exemple, la trace est exécutée sur le serveur, car elle héberge l’application Web.
 
-Les étapes ci-dessous génèrent une trace appelée Httptrace. etl, puis convertissent la trace en un fichier CSV appelé httptrace.csv. Comme indiqué ci-dessous, le fournisseur ETW pour l’API du serveur HTTP est appelé Microsoft-Windows-HttpService. L’option de ligne de commande 0xFFF indique que tous les événements ETW pour ce fournisseur doivent être capturés.
+Les étapes ci-dessous génèrent une trace appelée Httptrace. etl, puis convertissent la trace en un fichier CSV appelé httptrace.csv. comme indiqué ci-dessous, le fournisseur ETW pour l’API du serveur HTTP est appelé Microsoft-Windows-HttpService. L’option de ligne de commande 0xFFF indique que tous les événements ETW pour ce fournisseur doivent être capturés.
 
 **Générer un rapport de suivi ETW**
 
-1.  Démarrer la trace ETW pour le composant de l’API serveur HTTP : l **ogman.exe Start Httptrace-p Microsoft-Windows-HTTPService 0xFFFF-o Httptrace. etl – ETS**
+1.  démarrer la trace ETW pour le composant de l’API serveur HTTP : l **ogman.exe start httptrace-p Microsoft-Windows-HttpService 0xffff-o httptrace. etl – ets**
 2.  Reproduisez le problème afin qu’il puisse être capturé dans la trace. Dans cet exemple, accédez à l’application Web à partir d’un ordinateur client, ce qui entraîne l’affichage du message «**Impossible d’afficher la page**» sur le client.
 3.  Maintenant que le problème a été reproduit, arrêtez la trace : **logman.exe Stop Httptrace – ETS**
 4.  Convertissez le rapport au format CSV : **tracerpt.exe Httptrace. etl-of CSV-o httptrace.csv**
@@ -35,14 +35,14 @@ Les étapes ci-dessous génèrent une trace appelée Httptrace. etl, puis conver
 
 ## <a name="viewing-the-trace-and-diagnosing"></a>Affichage du suivi et du diagnostic
 
-Le fichier CSV résultant pour les traces peut être affiché dans Excel ou tout outil qui prend en charge le format CSV. Le tableau 1 ci-dessous présente des extraits d’un exemple de fichier de trace (httptrace.csv). Dans le rapport de suivi, la colonne « Level » affiche une entrée avec une valeur de « 3 », qui correspond à un avertissement dans ETW. Le composant de l’API du serveur HTTP suit les niveaux ETW définis dans l’article suivant : ( https://msdn2.microsoft.com/library/aa382793.aspx) . Les niveaux ETW sont les suivants :
+le fichier csv résultant pour les traces peut être affiché dans Excel ou tout outil qui prend en charge le format CSV. Le tableau 1 ci-dessous présente des extraits d’un exemple de fichier de trace (httptrace.csv). Dans le rapport de suivi, la colonne « Level » affiche une entrée avec une valeur de « 3 », qui correspond à un avertissement dans ETW. Le composant de l’API du serveur HTTP suit les niveaux ETW définis dans l’article suivant : ( https://msdn2.microsoft.com/library/aa382793.aspx) . Les niveaux ETW sont les suivants :
 
 
 
-| Level | Signification      |
+| Niveau | Signification      |
 |-------|--------------|
 | 1     | Critique     |
-| 2     | Error        |
+| 2     | Erreur        |
 | 3     | Avertissement      |
 | 4     | Infomational |
 | 5     | Commentaires      |
@@ -55,22 +55,22 @@ Avec cet avertissement, le type d’événement (colonne de type) indique « Co
 
 
 
-| Nom d'événement                    | Type            | ID de l’événement | Version | Channel | Level |
+| Nom d'événement                    | Type            | ID de l’événement | Version | Canal | Niveau |
 |-------------------------------|-----------------|----------|---------|---------|-------|
 | EventTrace                    | En-tête          | 0        | 2       | 0       | 0     |
-| Microsoft-Windows-HttpService | ChgUrlGrpProp   | 28       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | AddUrl          | 31       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ChgReqQueueProp | 30       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ChgUrlGrpProp   | 28       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ChgSrvSesProp   | 29       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ChgSrvSesProp   | 29       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ConnConnect     | 21       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ConnIdAssgn     | 22       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | RecvReq         | 1        | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | Analyser           | 2        | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | LogFileWrite    | 51       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ConnCleanup     | 24       | 0       | 16      | 4     |
-| Microsoft-Windows-HttpService | ConnTimedOut    | 53       | 0       | 16      | 3     |
+| HttpService Microsoft-Windows | ChgUrlGrpProp   | 28       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | AddUrl          | 31       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ChgReqQueueProp | 30       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ChgUrlGrpProp   | 28       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ChgSrvSesProp   | 29       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ChgSrvSesProp   | 29       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ConnConnect     | 21       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ConnIdAssgn     | 22       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | RecvReq         | 1        | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | Analyser           | 2        | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | LogFileWrite    | 51       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ConnCleanup     | 24       | 0       | 16      | 4     |
+| HttpService Microsoft-Windows | ConnTimedOut    | 53       | 0       | 16      | 3     |
 
 
 
@@ -82,7 +82,7 @@ Dans cet exemple, l’expiration (événement ConnTimeOut) du minuteur d’en-t�
 
 ## <a name="adjusting-timeout-through-netsh-and-verifying-the-solution"></a>Ajustement du délai d’expiration via netsh et vérification de la solution
 
-Les commandes netsh pour HTTP listées ci-dessous permettent à un professionnel de l’informatique d’afficher et de configurer des valeurs de paramètres sur le composant de l’API du serveur HTTP. Les modifications effectuées via les commandes netsh HTTP affectent toutes les applications serveur hébergées par le composant API du serveur HTTP pour cet ordinateur. Ces modifications sont conservées entre les redémarrages du composant et les redémarrages de la machine. Les commandes netsh HTTP sont disponibles dans Windows Vista et Windows Server 2008 et remplacent l’outil HttpCfg.exe du kit de ressources techniques Windows Server 2003 lors de l’exécution sur Windows Vista et Windows Server 2008. Dans ce scénario, nous allons ajuster une valeur de délai d’attente, puis vérifier la solution. Les minuteurs existent dans le composant de l’API du serveur HTTP pour garantir la disponibilité et la protection contre la surconsommation par un utilisateur mal configuré ou malveillant. L’ajustement des minuteurs à partir des valeurs par défaut doit être soigneusement évalué par rapport à une attaque par déni de refus.
+Les commandes netsh pour HTTP listées ci-dessous permettent à un professionnel de l’informatique d’afficher et de configurer des valeurs de paramètres sur le composant de l’API du serveur HTTP. Les modifications effectuées via les commandes netsh HTTP affectent toutes les applications serveur hébergées par le composant API du serveur HTTP pour cet ordinateur. Ces modifications sont conservées entre les redémarrages du composant et les redémarrages de la machine. les commandes Netsh HTTP sont disponibles dans Windows vista et Windows Server 2008 et remplacent le HttpCfg.exe outil du Kit de ressources de Windows Server 2003 lorsqu’ils sont exécutés sur Windows Vista et Windows Server 2008. Dans ce scénario, nous allons ajuster une valeur de délai d’attente, puis vérifier la solution. Les minuteurs existent dans le composant de l’API du serveur HTTP pour garantir la disponibilité et la protection contre la surconsommation par un utilisateur mal configuré ou malveillant. L’ajustement des minuteurs à partir des valeurs par défaut doit être soigneusement évalué par rapport à une attaque par déni de refus.
 
 Dans cet exemple, les clients Web se trouvent derrière une connexion réseau lente, entraînant l' \_ événement ETW ConnectionIdle du minuteur. Après avoir pris en compte la cause des délais d’attente et l’équilibrage avec l’impact sur la charge du serveur, il est décidé d’augmenter les valeurs de délai d’attente à une valeur de 240 secondes. Vous pouvez afficher et configurer le minuteur à l’aide de la procédure suivante.
 

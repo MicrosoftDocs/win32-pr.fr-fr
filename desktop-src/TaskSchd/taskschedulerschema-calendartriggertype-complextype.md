@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a891f60d46f8826faed1cc4b95e4c55f6efa4f7f
-ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
+ms.openlocfilehash: 62b6aa2c3c1aff0e6e9cb706ede58c1b21af79fb7a5bae812a992e68bbd28b7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "107734164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866649"
 ---
 # <a name="calendartriggertype-complex-type"></a>Type complexe calendarTriggerType
 
@@ -80,8 +80,8 @@ En plus de l’élément enfant défini ici, l’élément [**CalendarTrigger**]
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

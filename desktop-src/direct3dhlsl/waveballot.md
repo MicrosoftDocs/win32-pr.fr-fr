@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e3cdd89fad7da1e4ba7f3d5e032370834166a114
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 40b6c4651ba99bf97f8ec3c57e31cceca23fe3907b67f81e93080d0a853c2301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104508197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119369369"
 ---
 # <a name="waveactiveballot-function"></a>WaveActiveBallot fonction)
 
@@ -47,7 +47,7 @@ Expression booléenne à évaluer.
 
 Uint4 contenant un masque de masque de l’évaluation de l’expression booléenne pour tous les couloirs actifs dans l’onde actuelle. Le bit le moins significatif correspond à la voie avec l’index zéro. Les bits correspondant aux couloirs inactifs sont nuls. Les bits qui sont supérieurs ou égaux à [**WaveGetLaneCount**](wavegetlanecount.md) seront nuls.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les différents GPU ont des largeurs de processeur SIMD différentes (nombre de voies Lane). La plupart de ces fonctions **WaveXXX** peuvent fonctionner au niveau d’abstraction où la largeur de l’ordinateur SIMD est masquée. Pour optimiser la portabilité du code sur les GPU, utilisez les fonctions intrinsèques qui ne reposent pas sur la largeur de l’ordinateur. Par exemple, utilisez :
 

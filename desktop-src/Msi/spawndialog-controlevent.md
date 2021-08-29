@@ -4,12 +4,12 @@ ms.assetid: 2a341039-60dd-4e6c-9ef3-bf482ca53917
 title: SpawnDialog ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71aec632332a87d047913b618aa2c39843849e5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2b0dd281e4306fab7c62d218781c2ad932b82f22b335d662181fb65891eeb5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628029"
 ---
 # <a name="spawndialog-controlevent"></a>SpawnDialog ControlEvent,
 
@@ -29,7 +29,7 @@ Chaîne qui est le nom de la nouvelle boîte de dialogue.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucun
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

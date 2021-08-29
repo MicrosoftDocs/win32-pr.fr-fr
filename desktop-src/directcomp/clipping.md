@@ -4,17 +4,17 @@ description: Cette rubrique décrit la prise en charge de Microsoft DirectCompos
 ms.assetid: B6E0D8F5-B6B9-40CC-B079-850AC8F2D538
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4feb537dfb41053dd1099eca7f122b3284dce95
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 446dda9cc95341dcce041dbfbfd32a9d0368e74b2a67aabe1a8b1c4856165ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043395"
 ---
 # <a name="clipping-directcomposition"></a>Découpage (DirectComposition)
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Le découpage permet d’afficher uniquement une partie d’une arborescence visuelle ou visuelle en limitant le rendu de l’arborescence ou du visuel à une zone rectangulaire particulière. Cette rubrique décrit la prise en charge de Microsoft DirectComposition pour les éléments visuels de découpage. Il comprend les sections suivantes :
 

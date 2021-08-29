@@ -4,12 +4,12 @@ ms.assetid: 028b1d01-3b66-4640-98f9-ca33f90ca516
 title: Exemple de transformation de personnalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ea655d1187b0271aba7ea56a46bacf95f5fb40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44a23edef68e749e6352b4356d09d674dabb6bb74f746b443926ca6730f7974f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066499"
 ---
 # <a name="a-customization-transform-example"></a>Exemple de transformation de personnalisation
 
@@ -21,7 +21,7 @@ Les ressources nécessaires pour personnaliser une application peuvent être dé
 
 Cet exemple montre comment créer une [transformation](transforms.md) pour personnaliser l’installation de l’application décrite dans [un exemple d’installation](an-installation-example.md). Le package d’installation d’origine installe toutes les fonctionnalités de l’exemple d’application, y compris la porte de fonctionnalités, qui permet aux utilisateurs d’afficher les informations d’admission pour le parc de parcs rouge. Certains groupes d’utilisateurs ont uniquement besoin des fonctionnalités d’application qui fournissent des informations sur la planification des événements et n’ont pas besoin de la fonctionnalité de porte. Ces groupes doivent également obtenir une liste de numéros de téléphone spéciale. La transformation doit donc faire deux choses : 1) personnaliser l’installation afin que ce groupe ne reçoive que les fonctionnalités d’application dont il a besoin et 2) fournisse les ressources nécessaires pour la nouvelle liste téléphonique.
 
-Un exemple d’interface utilisateur minimale pour cet exemple est fourni dans les [composants SDK Windows pour Windows Installer les développeurs](platform-sdk-components-for-windows-installer-developers.md) comme Uisample.msi de fichier. Si vous avez le kit de développement logiciel (SDK), vous avez accès à tous les outils et données nécessaires pour reproduire l’exemple de package d’installation, l’interface utilisateur et la transformation de personnalisation.
+un exemple d’interface utilisateur minimale pour cet exemple est fourni dans les [composants SDK Windows pour Windows Installer les développeurs](platform-sdk-components-for-windows-installer-developers.md) comme Uisample.msi de fichier. Si vous avez le kit de développement logiciel (SDK), vous avez accès à tous les outils et données nécessaires pour reproduire l’exemple de package d’installation, l’interface utilisateur et la transformation de personnalisation.
 
 La transformation de personnalisation présente les spécifications suivantes :
 
@@ -29,7 +29,7 @@ La transformation de personnalisation présente les spécifications suivantes :
 -   L’installation de MNP2000.msi à l’aide de la transformation de personnalisation n’installe pas la fonctionnalité porte, les fonctionnalités enfants de la fonctionnalité porte ou l’un des composants de la fonctionnalité de porte, même si l’utilisateur sélectionne le type complet d’installation.
 -   D’autres applications peuvent partager certains ou l’ensemble des composants de la fonctionnalité de la porte. Les packages d’installation de ces applications peuvent installer tous leurs composants sur l’ordinateur de l’utilisateur.
 -   La suppression de MNP2000.msi à l’aide de la transformation de personnalisation ne supprime pas les composants de la porte qui ont été installés par d’autres applications.
--   L’installation de MNP2000.msi avec la transformation de personnalisation installe également une nouvelle fonctionnalité de niveau supérieur, une \_ Liste téléphonique et un nouveau composant, téléphone, qui nécessite l’installation de la ressource, Phone.txt. L’utilisateur accède à la \_ fonctionnalité de liste téléphonique à l’aide d’un raccourci dans le répertoire menu.
+-   l’installation de MNP2000.msi avec la transformation de personnalisation installe également une nouvelle fonctionnalité de niveau supérieur, une liste de Téléphone \_ et un nouveau composant, Phone, qui nécessite l’installation de la ressource, Phone.txt. l’utilisateur accède à la \_ fonctionnalité de liste Téléphone à l’aide d’un raccourci dans le répertoire de Menu.
 
 [Continuer](customizing-an-original-database.md)
 

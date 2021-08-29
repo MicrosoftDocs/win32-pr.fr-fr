@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5ec7932117d1ff0bc058d2b9a131f77ff9e040bf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f2082420d4d86c9d7ab35dc03782580e5478845507be0e454f441e3784ec824a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656289"
 ---
 # <a name="win32_comsetting-class"></a>\_Classe de Comdéfinition Win32
 
@@ -105,7 +105,7 @@ Cette propriété est héritée [**du \_ paramètre CIM**](cim-setting.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ comdéfinition Win32** est dérivée du [**\_ paramètre CIM**](cim-setting.md).
 

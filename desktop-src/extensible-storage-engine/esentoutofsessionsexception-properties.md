@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102452
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ed47c1f1dff9695ec667ecc50bfbd6a129abd87b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acdca7ac5a3437bc54964bde41e4d608acb8390a1a0b250550bd902c1ffa707a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104566684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722419"
 ---
 # <a name="esentoutofsessionsexception-properties"></a>Propriétés EsentOutOfSessionsException
 
@@ -49,7 +49,7 @@ Le type [EsentOutOfSessionsException](./esentoutofsessionsexception-class.md) ex
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

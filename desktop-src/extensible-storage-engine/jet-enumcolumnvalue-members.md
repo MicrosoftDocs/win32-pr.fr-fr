@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103510
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2950caf527af07312f4f27c9464ee4088830fe1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cba3e1de231806f6f515ea83abc17b7f1328aedb5d4b81f69c6fb5e942c8eee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104566505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119110262"
 ---
 # <a name="jet_enumcolumnvalue-members"></a>Membres JET_ENUMCOLUMNVALUE
 

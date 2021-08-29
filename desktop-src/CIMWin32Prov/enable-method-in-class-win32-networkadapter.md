@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a7653d0bcda28ca333bc5c70bdcd69bce382787
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d81c46982940a1ebff443d196445ae9398901a7c8a9ad97a0217a0d22c86bff2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080053"
 ---
 # <a name="enable-method-of-the-win32_networkadapter-class"></a>Activer la méthode de la \_ classe NetworkAdapter Win32
 
@@ -42,13 +42,13 @@ Cette méthode n’a aucun paramètre.
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez rencontrer des difficultés lors de l’utilisation de cette méthode si votre application ne dispose pas de l’accès administrateur privilidges.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de script Visual Basic suivant active la première carte réseau et affiche l’état de la propriété **Netactived** . Pour plus d’informations, consultez la page [**SWbemObjectSet. ItemIndex**](/windows/desktop/wmisdk/swbemobjectset-itemindex).
+l’exemple de Script Visual Basic suivant active la première carte réseau et affiche l’état de la propriété **netactived** . Pour plus d’informations, consultez la page [**SWbemObjectSet. ItemIndex**](/windows/desktop/wmisdk/swbemobjectset-itemindex).
 
 
 ```VB
@@ -75,7 +75,7 @@ WScript.Echo "NetEnabled= " & colAdapters.ItemIndex(0).NetEnabled
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

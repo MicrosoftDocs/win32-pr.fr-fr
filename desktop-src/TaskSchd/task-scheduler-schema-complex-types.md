@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 32ef8a464b5a702530768a4317d431c5b8e52550
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb711e66671acb610a916dc74dc2b4ded3f99eed1bad70ac0a0d0d3f9d19b8b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125979"
 ---
 # <a name="task-scheduler-schema-complex-types"></a>Types complexes de schéma Planificateur de tâches
 
@@ -73,9 +73,9 @@ Les rubriques de cette section incluent une description de ce que le type comple
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

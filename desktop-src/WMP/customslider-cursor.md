@@ -3,7 +3,7 @@ title: CUSTOMSLIDER. Cursor
 description: L’attribut Cursor spécifie ou récupère la valeur du curseur de contrôle Slider qui apparaît lorsque la souris se trouve sur le curseur.
 ms.assetid: 965c21ab-18a0-4459-9d5b-0a35ea2c212f
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. Cursor
+- CUSTOMSLIDER. cursor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e836dc7ec6efececf81789efe43d8b19d0df1783
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f04d9886fffb1f6fad85ac5119348655484b23ee3d5f690c0ad805271e7f0eeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651569"
 ---
 # <a name="customslidercursor"></a>CUSTOMSLIDER. Cursor
 

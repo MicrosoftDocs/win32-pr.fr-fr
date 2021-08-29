@@ -4,12 +4,12 @@ ms.assetid: d88752cd-f59d-4214-b5b5-ce126500aa4e
 title: Reboot, propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d94b08a04f3e95d873f6fc233185ce623cafc25
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1de2dbba173d40d59be4ece4578267aa1f2829d62f6583c0ce05ef94598fa491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913039"
 ---
 # <a name="reboot-property"></a>Reboot, propriété
 
@@ -31,7 +31,7 @@ Vous pouvez supprimer certaines invites pour les redémarrages en définissant l
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le programme d’installation évalue uniquement le premier caractère de la propriété **reboot** .
 
@@ -41,7 +41,7 @@ Le programme d’installation évalue uniquement le premier caractère de la pro
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

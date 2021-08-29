@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9b09804b2ee6ad9fbda394a7fb8f9f188b46453
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5cc0abd9847c535ca9851355a593bdbd3495b594669e326c73a0bf986b8f75e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916039"
 ---
 # <a name="cimagepalettepreparepalette-method"></a>Méthode CImagePalette. PreparePalette
 
@@ -69,12 +69,12 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 Retourne S \_ si la palette a été mise à jour ou \_ false si elle n’a pas changé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la palette doit être mise à jour, cette méthode effectue les actions suivantes :
 
 -   Appelle [**CImagePalette :: MakePalette**](cimagepalette-makepalette.md) pour créer une nouvelle palette logique.
--   Envoie un événement de [**\_ \_ modification de palette EC**](ec-palette-changed.md) au gestionnaire de graphes de filtre.
+-   envoie un événement de [**\_ \_ modification de PALETTE EC**](ec-palette-changed.md) au gestionnaire de Graph de filtre.
 -   Appelle [**CBaseWindow :: SetPalette**](cbasewindow-setpalette.md) sur l’objet **CBaseWindow** .
 -   Appelle [**CDrawImage :: IncrementPaletteVersion**](cdrawimage-incrementpaletteversion.md) sur l’objet **CDrawImage** .
 
@@ -84,7 +84,7 @@ Si la palette doit être mise à jour, cette méthode effectue les actions suiva
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 833b5cb59095f5aecc8c0172857c8761fd92449a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afe2b475927d2ffec27c32bb32c0d5bb3afa38cea40ae84405fa659f5342b352
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716999"
 ---
 # <a name="wm_unichar-message"></a>\_Message WM UNICHAR
 
@@ -72,7 +72,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ UNICHAR** est similaire à [**WM \_ char**](wm-char.md), mais il utilise le format UTF (Unicode Transformation Format)-32, alors que **WM \_ char** utilise UTF-16.
 
@@ -88,8 +88,8 @@ Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont l
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

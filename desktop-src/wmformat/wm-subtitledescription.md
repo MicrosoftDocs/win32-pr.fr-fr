@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 659c4629b9441bce06e13397019a07db1054789d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b8a1506fbab9985e339c1af9c7db44cdd6fdea149648da7b8d8ffbd81e218a87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083943"
 ---
 # <a name="wmsubtitledescription"></a>WM/SubTitleDescription
 
@@ -42,9 +42,9 @@ Aucun.
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

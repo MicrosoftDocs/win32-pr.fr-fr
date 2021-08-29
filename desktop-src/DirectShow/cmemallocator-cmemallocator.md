@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1151572c32efe69cceb89e7a5ea5a045955b5f43
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9ef77a05eefc84975539bdc4e61b534a7ed5ee71d00e029bdf7ef2af8c19e666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016237"
 ---
 # <a name="cmemallocatorcmemallocator-constructor"></a>Constructeur CMemAllocator. CMemAllocator
 
@@ -71,7 +71,7 @@ Pointeur vers une variable qui reçoit une valeur **HRESULT** indiquant la réus
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

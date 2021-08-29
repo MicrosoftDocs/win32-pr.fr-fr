@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c369a6650c834ff9f35af6389c346daec86a954
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 932eb1947287ad6c24592f025301bcf42d5ffb4fc1924d1c18f771bc000396c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795569"
 ---
 # <a name="modify-method-of-the-microsoftdns_isdntype-class"></a>Modifier la méthode de la \_ classe ISDNType MicrosoftDNS
 
@@ -77,7 +77,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

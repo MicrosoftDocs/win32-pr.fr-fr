@@ -4,17 +4,17 @@ ms.assetid: 625f3774-4f8a-4208-ab30-43559b1fd6ce
 title: Accesseur Set de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce5149eb32468913aaefee733a6c1eacd7f76a18
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b1a7ab831e1c9230bd707af647bc0c6ab206e5a1bf9fdc653ef2195100158db0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697319"
 ---
 # <a name="property-setter"></a>Accesseur Set de propriété
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

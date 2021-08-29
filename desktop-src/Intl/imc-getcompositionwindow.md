@@ -4,12 +4,12 @@ ms.assetid: d2c60974-a602-4a42-8a45-870ee39df001
 title: Commande IMC_GETCOMPOSITIONWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b32b8f4414311d0727f622a1b552428cd31b0716
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dc32c183377967071b5f0cdea278a37a414a7eead422a5ed00750174a6667bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068089"
 ---
 # <a name="imc_getcompositionwindow-command"></a>\_Commande IMC GETCOMPOSITIONWINDOW
 
@@ -44,7 +44,7 @@ Pointeur vers une structure [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que l’IME peut ajuster la position d’une fenêtre de composition, une application utilise cette commande pour obtenir la position réelle pour décider s’il faut repositionner la fenêtre. La position Récupérée est dans les coordonnées de la fenêtre par rapport à la fenêtre qui a le focus d’entrée actuel.
 
@@ -56,7 +56,7 @@ Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas c
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

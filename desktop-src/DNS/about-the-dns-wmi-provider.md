@@ -6,16 +6,16 @@ keywords:
 - Domain Name System, fournisseur WMI, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9870f077fe3e93989cf1c1bdd837e95ceedd55fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08d85374cf2dc77e637363135f835d02432c0529d2d85e0f2c12b568b1f0247c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693249"
 ---
 # <a name="about-the-dns-wmi-provider"></a>À propos du fournisseur WMI DNS
 
-Les serveurs DNS mappent les adresses IP aux noms d’ordinateurs et d’ordinateurs en adresses IP. En procédant ainsi, ils fournissent le mécanisme permettant de localiser les ressources réseau. Le fournisseur WMI DNS permet aux applications d’interagir avec les serveurs DNS par le biais de l’infrastructure de gestion unifiée de Windows Management Instrumentation (WMI).
+Les serveurs DNS mappent les adresses IP aux noms d’ordinateurs et d’ordinateurs en adresses IP. En procédant ainsi, ils fournissent le mécanisme permettant de localiser les ressources réseau. le fournisseur wmi DNS permet aux applications d’interagir avec les serveurs dns par le biais de l’infrastructure de gestion unifiée de Windows Management Instrumentation (WMI).
 
 Les sections suivantes fournissent des informations supplémentaires sur DNS et le fournisseur WMI DNS.
 
@@ -29,11 +29,11 @@ Les sections suivantes fournissent des informations supplémentaires sur DNS et 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

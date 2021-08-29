@@ -4,21 +4,21 @@ ms.assetid: b32fab05-1bf0-43e9-8047-2a07231e01f7
 title: Types énumérés (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e09889c45b8121d02bd7a5febb090bd051731ef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a646c4fa7aadf501e38125f4ad22cdd84bc667e649f23b371106011f2d715815
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079089"
 ---
 # <a name="enumerated-types-directshow"></a>Types énumérés (DirectShow)
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-Les services d’édition DirectShow définissent les types énumérés suivants.
+DirectShow Les services d’édition définissent les types énumérés suivants.
 
 
 
@@ -35,7 +35,7 @@ Les services d’édition DirectShow définissent les types énumérés suivants
 
 <dl> <dt>
 
-[Référence C++ des services d’édition DirectShow](directshow-editing-services-c---reference.md)
+[DirectShow Référence C++ des services de modification](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

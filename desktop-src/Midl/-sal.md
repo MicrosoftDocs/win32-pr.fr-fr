@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef52eb510c71bfdb153b95a5d05e992359e39b6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 80097cbfbb7bebae3b84b65c9c228dd29992821a5bafa61830961f752c452950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067489"
 ---
 # <a name="sal-switch"></a>commutateur/SAL
 
@@ -31,7 +31,7 @@ midl /sal
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MIDL marquera les paramètres de pointeur et de tableau avec des annotations qui reflètent la description de paramètre dans le fichier IDL, telle qu’elle est appliquée par RPC et le moteur de conversion de NDR. MIDL ne crée pas d’annotations pour les paramètres dans les méthodes d’interface marquées avec l’attribut [**\[ local \]**](local.md), sauf si [**/SAL \_ local**](-sal-local.md) est également présent sur la ligne de commande. Pour remplacer l’annotation générée par MIDL, utilisez l’attribut [**\[ annoter \]**](annotate.md) .
 
@@ -50,9 +50,9 @@ Les annotations générées par MIDL ont toujours le préfixe \_ \_ RPC \_ et n�
 [**\[annoter\]**](annotate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

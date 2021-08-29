@@ -4,12 +4,12 @@ ms.assetid: 528c915c-296c-4620-8105-0b5d543e56a5
 title: Obtention d’informations sur l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2dce842f057efb65b6d0db3ad0407a19bf08435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f3136151dfc8613d116ff9d34d2e8a4702b36da66f73c765a3e47939d283ded
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649489"
 ---
 # <a name="getting-application-information"></a>Obtention d’informations sur l’application
 

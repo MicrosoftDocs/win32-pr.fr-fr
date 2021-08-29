@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 6c5917f845da0eec944e797d5f49f52d0ec26913
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd265602e9a4d517ad01a07e79ace43722fcb6cfe0062091a5f0379a5ab264a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628749"
 ---
 # <a name="sessiontargetpath-property"></a>Session. TargetPath, propriété
 
@@ -40,7 +40,7 @@ Session.TargetPath = propVal
 
 Nom d’une propriété de dossier obligatoire et sensible à la casse, comme spécifié par une clé primaire de la [table de répertoires](directory-table.md). Une erreur est générée si le dossier n’existe pas.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’essayez pas de configurer le chemin d’accès cible si les composants qui utilisent ces chemins d’accès sont déjà installés pour l’utilisateur actuel ou pour un autre utilisateur. Vérifiez la propriété [**ProductState**](productstate.md) pour déterminer si le produit qui contient le composant est installé.
 

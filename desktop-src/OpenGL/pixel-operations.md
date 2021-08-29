@@ -1,6 +1,6 @@
 ---
-title: Opérations de pixel
-description: Opérations de pixel
+title: Pixel, opérations
+description: Pixel, opérations
 ms.assetid: e60cc45b-867c-441a-b579-8c7dbd46ecd9
 keywords:
 - Opérations de pixel OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d36fc22ace4ee18303ce0eb16c5a10f901510f
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 62d64647ef68d9171c3dd52559dd87c963a40fe73d89c35c833bd3a8f1ad79d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553869"
 ---
-# <a name="pixel-operations"></a>Opérations de pixel
+# <a name="pixel-operations"></a>Pixel, opérations
 
 <dl> <dt><span id="GL_SCISSOR_TEST"></span><span id="gl_scissor_test"></span>\_test de ciseaux du GL \_</dt> <dd> 
 

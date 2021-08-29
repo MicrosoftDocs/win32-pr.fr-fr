@@ -4,12 +4,12 @@ ms.assetid: 7a4daba0-3497-482b-b7eb-d5596d314062
 title: Énumérations Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb6743474df2bca12937cf944a12b9543c72036f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26e13dc72b1ef137832060c8d64a5b7702e4f5b426435ac5661dab95b44b9a89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733138"
 ---
 # <a name="winsock-enumerations"></a>Énumérations Winsock
 
@@ -17,7 +17,7 @@ La liste suivante fournit des descriptions concises de chaque énumération Wins
 
 | Énumération | Description |
 |-|-|
-| [**\_État du \_ déclencheur de canal de contrôle \_**](/windows/win32/api/mstcpip/ne-mstcpip-control_channel_trigger_status) | Spécifie l’État à partir d’une requête pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de notification en temps réel** d’un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau d’arrière-plan dans une application Windows Runtime. |
+| [**\_État du \_ déclencheur de canal de contrôle \_**](/windows/win32/api/mstcpip/ne-mstcpip-control_channel_trigger_status) | spécifie l’état à partir d’une requête pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de NOTIFICATION en temps réel** d’un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau d’arrière-plan dans une application Windows Runtime. |
 | [**eWINDOW \_ , \_ méthode avancée**](/windows/win32/api/wsrm/ne-wsrm-ewindow_advance_method) | Spécifie le mode avancé de la fenêtre utilisé pour la multidiffusion fiable. |
 | [**Assur**](./guarantee-2.md) | N'est plus utilisé. |
 | [**\_type de mode MULTIdiffusion \_**](/windows/win32/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type) | Spécifie le mode de filtre pour les adresses de groupe de multidiffusion. |

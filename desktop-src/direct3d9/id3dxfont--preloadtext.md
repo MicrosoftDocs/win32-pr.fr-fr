@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 958979e3008cf9ae0b79e2de3591635187df0f12
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 874b2d6106a7dcbfb8992a8677a28841f7d44e8b1512c6258b7e3bef45770eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629869"
 ---
 # <a name="id3dxfontpreloadtext-method"></a>ID3DXFont ::P méthode reloadText
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en PreloadTextW. Dans le cas contraire, l’appel de fonction est résolu en PreloadTextA, car les chaînes ANSI sont utilisées.
 

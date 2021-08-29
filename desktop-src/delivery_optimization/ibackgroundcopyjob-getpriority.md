@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7ae9a865045ee1264a0598a3d3c1db8cc3c3b8bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0aec5a6e5b37dac895e339b7314cfb3a59d424e270ff993eaa6c6d45c496f7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755399"
 ---
 # <a name="ibackgroundcopyjobgetpriority-method"></a>Méthode ibackgroundcopyjob :: getPriority,, méthode
 
@@ -70,8 +70,8 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

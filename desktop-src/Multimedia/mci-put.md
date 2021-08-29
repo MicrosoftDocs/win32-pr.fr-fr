@@ -3,7 +3,7 @@ title: Commande MCI_PUT (mmsystem. h)
 description: La \_ commande MCI put définit les rectangles de la source, de la destination et du frame. Les appareils vidéo et vidéo numériques reconnaissent cette commande.
 ms.assetid: 9d81682b-6546-4e6d-a6df-e2de8c013b66
 keywords:
-- Commande MCI_PUT Windows multimédia
+- commande MCI_PUT Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8fa4af30aa2b3aa6f7cdd50f453bc8edca83334
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c34250f59122eca942309b840c4b66521a08b3eecc8ca89dfd480d6e9a6869d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689909"
 ---
 # <a name="mci_put-command"></a>\_Commande put MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants sont utilisés avec le type d’appareil **Digitalvideo** :
 
@@ -176,7 +176,7 @@ Pour les périphériques de superposition vidéo, *lpDest* pointe vers une struc
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

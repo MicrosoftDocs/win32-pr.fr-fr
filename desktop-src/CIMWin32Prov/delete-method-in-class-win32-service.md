@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4031184e23e99fc54237ed0b0b4196fe6c075c5b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d09109e753368f012c96da6d268acb43b14877f0a284291ff043c8dceb17132
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080123"
 ---
 # <a name="delete-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Méthode Delete de la classe Win32_Service (fournisseurs WMI CIMWin32)
 
@@ -40,7 +40,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -221,7 +221,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 À mesure que votre organisation change, vous pouvez décider de supprimer certains services de certains ordinateurs. Les services internes et tiers peuvent être supprimés à l’aide de WMI, tandis que les services du système d’exploitation peuvent être supprimés à l’aide de Sysocmgr.exe.
 
@@ -235,11 +235,11 @@ Lorsque vous vous préparez à supprimer des services, gardez à l’esprit les 
 
     La suppression d’un service à l’aide de WMI supprime les entrées de Registre associées sous HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services. Par conséquent, le service n’est plus installé et n’est pas disponible via le composant logiciel enfichable Services. Toutefois, WMI ne supprime pas le fichier exécutable, ce qui signifie que vous pouvez facilement réinstaller le service. Pour supprimer le fichier exécutable, vous devez récupérer le nom du chemin d’accès, puis supprimer le fichier.
 
--   La suppression d’un service Windows 2000 de base (par exemple, DHCP) à l’aide de WMI supprime les entrées de Registre pour ce service, mais ne supprime pas le raccourci du menu Outils d’administration ou supprime le service de l’Assistant composants de Windows. Cela peut dérouter quiconque tente de déterminer la façon dont l’ordinateur a été configuré.
+-   la suppression d’un service de base Windows 2000 (par exemple, DHCP) à l’aide de WMI supprime les entrées de registre pour ce service, mais ne supprime pas le raccourci du menu outils d’administration ou supprime le service de l’assistant Windows composants. Cela peut dérouter quiconque tente de déterminer la façon dont l’ordinateur a été configuré.
 
-    Par exemple, si vous supprimez le service DHCP à l’aide d’un script WMI, le service DHCP n’est plus listé dans le composant logiciel enfichable Services. Toutefois, un raccourci de non-fonctionnement vers la console DHCP reste dans le menu Outils d’administration. Si vous démarrez l’Assistant composants de Windows, il indique que le service DHCP est installé.
+    Par exemple, si vous supprimez le service DHCP à l’aide d’un script WMI, le service DHCP n’est plus listé dans le composant logiciel enfichable Services. toutefois, un raccourci non fonctionnel vers la console DHCP reste dans le menu outils d’administration. si vous démarrez l’assistant Windows composant, il indique que le service DHCP est installé.
 
-    Pour cette raison, vous devez toujours utiliser Sysocmgr.exe pour supprimer par programme les services Windows 2000.
+    pour cette raison, vous devez toujours utiliser Sysocmgr.exe pour supprimer par programmation Windows services 2000.
 
 ## <a name="examples"></a>Exemples
 

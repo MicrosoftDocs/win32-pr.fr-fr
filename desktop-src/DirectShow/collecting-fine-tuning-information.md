@@ -4,12 +4,12 @@ ms.assetid: 0d9ea896-e0a9-411b-9a10-e366e3686a34
 title: Collecte d’informations de Fine-Tuning
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27d191f677acc9306202bce141ef8f6683b43c61
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1a7148724473504631431780f320b1c1852f6de9fe5f8d29b38dca94882f37f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084439"
 ---
 # <a name="collecting-fine-tuning-information"></a>Collecte d’informations de Fine-Tuning
 

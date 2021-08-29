@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 90f02c6cac5fb3ef1edeaa8e03f7bc54a03acb49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7e64b056715a9f67255b6c16f62c64b65361562489ef47a37dd63548dd6e30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793739"
 ---
 # <a name="cbasecontrolwindowiscursorhidden-method"></a>Méthode CBaseControlWindow. IsCursorHidden
 
@@ -53,7 +53,7 @@ Pointeur vers la valeur de **m \_ bCursorHidden**.
 
 En cas d’appel sans paramètre, retourne OATRUE si le curseur est masqué ou OAFALSE si le curseur est visible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les objets internes doivent appeler cette fonction membre sans le paramètre *CursorHidden* pour éviter de verrouiller la section critique. Les objets externes accèdent à cette fonction membre avec le paramètre *CursorHidden* via la méthode [**IVideoWindow :: IsCursorHidden**](/windows/desktop/api/Control/nf-control-ivideowindow-iscursorhidden) .
 
@@ -63,7 +63,7 @@ Les objets internes doivent appeler cette fonction membre sans le paramètre *Cu
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 56eb16c99d867e3cad3be9018c279e3e69f4f122
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 16128d68d0b0443ae5cebf470b96f7e04bd63daedde7b41130bafca2692324ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106545319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916019"
 ---
 # <a name="cmediatypecmediatypeoperator-method-mtypeh---cmtype-parameter"></a>CMediaType. CMediaType :: Operator =, méthode (mtype. h)-paramètre cmtype
 
@@ -57,7 +57,7 @@ Retourne une référence à l’objet.
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Mtype. h (include streams. h)                                                                                     |
+| En-tête  | Mtype. h (include Flux. h)                                                                                     |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

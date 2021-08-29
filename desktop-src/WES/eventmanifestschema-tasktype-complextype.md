@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ccad6813624d0a27a093ff4baa7fc8b9a6aa8b14
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 42a8b3dfd91b879eec37040c314d15b8b3c802b2c4b674f7a573314659d5d51b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106535782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005809"
 ---
 # <a name="tasktype-complex-type"></a>Type complexe TaskType
 
@@ -81,7 +81,7 @@ Définit un composant ou un sous-composant d’une application.
 | message   | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Nom complet localisé de la tâche. La chaîne de message fait référence à une chaîne localisée dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. <br/>                                                                                                   |
 | name      | **QName**                                                         | Nom de la tâche.<br/>                                                                                                                                                                                                                                                                                 |
 | symbole    | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer la tâche dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour la tâche dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| value     | [**UInt16Type**](eventmanifestschema-hexint16type-simpletype.md) | Valeur numérique qui identifie de façon unique cette tâche dans la liste des tâches que le fournisseur définit. La valeur doit être comprise entre 1 et 239.<br/>                                                                                                                                             |
+| valeur     | [**UInt16Type**](eventmanifestschema-hexint16type-simpletype.md) | Valeur numérique qui identifie de façon unique cette tâche dans la liste des tâches que le fournisseur définit. La valeur doit être comprise entre 1 et 239.<br/>                                                                                                                                             |
 
 
 
@@ -118,8 +118,8 @@ L’exemple suivant montre comment spécifier une tâche.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

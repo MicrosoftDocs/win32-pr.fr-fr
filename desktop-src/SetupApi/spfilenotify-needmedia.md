@@ -4,12 +4,12 @@ ms.assetid: 6a7947de-1bb3-46e0-9334-405684e58e98
 title: Message d’SPFILENOTIFY_NEEDMEDIA (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6b856a95f3c2e200d1d81cfa00c05ef592c1759
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2ff4d65ddd4f82e1c401b157b67f39f9cc79e11b1113d502e993abe141b35d8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106523751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683109"
 ---
 # <a name="spfilenotify_needmedia-message"></a>\_Message SPFILENOTIFY NEEDMEDIA
 
@@ -66,8 +66,8 @@ La routine de rappel doit retourner l’un des éléments suivants.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -76,7 +76,7 @@ La routine de rappel doit retourner l’un des éléments suivants.
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

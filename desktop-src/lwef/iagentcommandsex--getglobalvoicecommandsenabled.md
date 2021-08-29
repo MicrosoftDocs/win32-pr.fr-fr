@@ -4,12 +4,12 @@ description: IAgentCommandsEx GetGlobalVoiceCommandsEnabled
 ms.assetid: 9c8fa978-a02b-4dfc-8cf7-e066c5b75122
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea7275bfe28190e06782cb2564dbf4868dd2c096
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 28aee044b9b25ff529a8c49943b6fd0bbb4d8175a5f3a9b6d482923170f4bdc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609489"
 ---
 # <a name="iagentcommandsexgetglobalvoicecommandsenabled"></a>IAgentCommandsEx::GetGlobalVoiceCommandsEnabled
 
@@ -41,6 +41,6 @@ Microsoft Agent ajoute automatiquement des paramètres vocaux (grammaire) pour l
 [**IAgentCommandsEx::SetGlobalVoiceCommandsEnabled**](iagentcommandsex--setglobalvoicecommandsenabled.md)
 
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ ms.assetid: 701cdfd4-9241-408c-8497-3983018e7da0
 title: 'ITAudioDeviceControl :: Set, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25aa3a6013ce79bdcea5345dcc00f52c96c8a8fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e6fc99d5f6084ff2d5d2226847a395a21c3dcaeb6156d769c768768f10d186c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775039"
 ---
 # <a name="itaudiodevicecontrolset-method"></a>ITAudioDeviceControl :: Set, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **Set** définit la valeur d’une [**propriété de périphérique audio**](audiodeviceproperty.md)donnée.
 

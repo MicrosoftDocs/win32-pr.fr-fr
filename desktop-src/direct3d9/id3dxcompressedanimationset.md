@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 33dd1017859be14924d8d40265696cfb552754ee
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2d0a86e00d216ab0e0b4080abfe4f96d412d06adc86cf50d5d57705bdbab9a1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106533711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118791"
 ---
 # <a name="id3dxcompressedanimationset-interface"></a>Interface ID3DXCompressedAnimationSet
 
@@ -49,7 +49,7 @@ L’interface **ID3DXCompressedAnimationSet** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Créer une animation d’image clé au format compressé définie avec [**D3DXCreateCompressedAnimationSet**](d3dxcreatecompressedanimationset.md).
 

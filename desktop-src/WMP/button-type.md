@@ -3,27 +3,27 @@ title: Type de bouton
 description: Type de bouton
 ms.assetid: 0c9e72d5-5cc4-4d6f-b184-2c8c8487e366
 keywords:
-- Windows Media Player Mobile Skins, types de boutons
+- Lecteur Windows Media Apparences mobiles, types de bouton
 - apparences, types de bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58eeb7402a13730fd7f4030d2e4326fe7f18e63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1eeece7250242af0eb78d1938ad827b238f2de2337b6a8acc0eeeefec5f52acf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123699"
 ---
 # <a name="button-type"></a>Type de bouton
 
 Les boutons se présentent sous deux types généraux : emplacement et région. Chaque type général a trois types spécifiques, en effectuant six types de boutons.
 
 > [!Note]  
-> Les types de boutons sont déconseillés dans les habillages pour Windows Media Player 10 mobile ou version ultérieure.
+> les types de boutons sont déconseillés dans les habillages pour Lecteur Windows Media 10 Mobile ou version ultérieure.
 
- 
+ 
 
 Types de boutons d’emplacement
 
@@ -39,7 +39,7 @@ Les boutons d’emplacement utilisent des coordonnées pour définir leurs empla
 
 
 
- 
+ 
 
 Types de boutons de région
 
@@ -55,7 +55,7 @@ Les boutons de région utilisent des zones de couleur dans l’image de la régi
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -64,9 +64,9 @@ Les boutons de région utilisent des zones de couleur dans l’image de la régi
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

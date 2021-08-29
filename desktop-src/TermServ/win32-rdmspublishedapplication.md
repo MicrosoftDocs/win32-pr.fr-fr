@@ -29,12 +29,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb003faf5e51c9da1f46f23c5f8d6b5ae977987c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a9fe777caf6d1308821fc74e4453839624bcf047811bcfe67275861586a85c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868099"
 ---
 # <a name="win32_rdmspublishedapplication-class"></a>\_Classe RDMSPublishedApplication Win32
 

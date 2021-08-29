@@ -4,12 +4,12 @@ ms.assetid: 7cab559f-3e9d-46bd-b00f-439e0922aeeb
 title: Mémoires tampons de vertex du prix final (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a86201c3ddc1cab6d492539caccc61c1430b3a2c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c99267945970e48c9447ad592433b304bd43d33ec05a8ebcef3287d2f3e68fd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564229"
 ---
 # <a name="fvf-vertex-buffers-direct3d-9"></a>Mémoires tampons de vertex du prix final (Direct3D 9)
 

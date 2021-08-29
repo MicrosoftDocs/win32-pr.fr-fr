@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2e76d4ac7ce80da645cad4acd8fea7cbeb0a9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eb5905babfa3bbdba8f580bd920426b159e86e1e0a5ccf7c3c59892f47a981da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930018"
 ---
 # <a name="forwardmessageexample"></a>ForwardMessageExample
 
@@ -955,9 +955,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

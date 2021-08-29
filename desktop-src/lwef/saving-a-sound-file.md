@@ -4,12 +4,12 @@ description: Enregistrement d’un fichier audio
 ms.assetid: b8b91883-e4d2-441a-b749-379c5ba661f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8249dbfbaf8e58b4bfd8e6eab52d833281f85e72
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 4b5fcdf57132bdf92aa572dc4c489809990ed46a1e3e9c4eb0311b42bc645c19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104211163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555833"
 ---
 # <a name="saving-a-sound-file"></a>Enregistrement d’un fichier audio
 

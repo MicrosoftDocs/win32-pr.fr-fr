@@ -1,34 +1,34 @@
 ---
 title: Utilisation de l’API du client des Services de déploiement Windows
-description: Dans les environnements où une solution standard de services de déploiement Windows (WDS) ne peut pas être utilisée pour installer Windows, l’API du client WDS permet aux développeurs d’écrire des applications de déploiement personnalisées.
+description: dans les environnements où une solution standard Windows Deployment Services (WDS) ne peut pas être utilisée pour installer Windows, l’API du client WDS permet aux développeurs d’écrire des applications de déploiement personnalisées.
 ms.assetid: abe2a7c7-989a-456e-80df-90d5b816db38
 keywords:
-- Services de déploiement Windows (services de déploiement Windows) à l’aide de l’API client
+- Windows services de déploiement Windows les services de déploiement, à l’aide de l’API client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 872422a5c84bf1d8ea7c3688b122ba2389c1e968
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6840f8327d1576a51d1f3d6cb7b097aaef87abc674bbbba0a004919ef5ce8366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760239"
 ---
 # <a name="using-the-windows-deployment-services-client-api"></a>Utilisation de l’API du client des Services de déploiement Windows
 
-Dans les environnements où une solution standard de services de déploiement Windows (WDS) ne peut pas être utilisée pour installer Windows, l’API du client WDS permet aux développeurs d’écrire des applications de déploiement personnalisées. Les applications peuvent utiliser cette API pour communiquer avec le serveur WDS pour obtenir des informations sur les images système disponibles sur le serveur. Les applications clientes WDS personnalisées doivent respecter les instructions suivantes.
+dans les environnements où une solution standard Windows Deployment Services (WDS) ne peut pas être utilisée pour installer Windows, l’API du client WDS permet aux développeurs d’écrire des applications de déploiement personnalisées. Les applications peuvent utiliser cette API pour communiquer avec le serveur WDS pour obtenir des informations sur les images système disponibles sur le serveur. Les applications clientes WDS personnalisées doivent respecter les instructions suivantes.
 
 ## <a name="install-the-wds-role-on-the-server"></a>Installer le rôle WDS sur le serveur
 
--   Les services de déploiement Windows (WDS) sont la version révisée des services d’installation à distance (RIS). vous aurez besoin du rôle serveur WDS sur le serveur pour implémenter des solutions clientes WDS personnalisées.
--   WDS remplace RIS comme composant standard à partir de Windows Server 2008 et Windows Server 2003 avec Service Pack 2 (SP2).
--   Vous devez mettre à jour le serveur RIS vers WDS sur Windows Server 2003 avec Service Pack 1 (SP1). Vous pouvez installer le rôle serveur WDS avec le [Kit d’installation automatisée (Windows AIK) (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
+-   Windows Services de déploiement (WDS) est la version révisée des services d’installation à distance (RIS), vous aurez besoin du rôle serveur WDS sur le serveur pour implémenter des solutions clientes WDS personnalisées.
+-   WDS remplace RIS comme composant standard à partir de Windows server 2008 et Windows server 2003 avec Service Pack 2 (SP2).
+-   vous devez mettre à jour le serveur RIS vers WDS sur Windows server 2003 avec Service Pack 1 (SP1). vous pouvez installer le rôle serveur WDS avec le [Kit d’installation automatisée (Windows AIK) (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
 
-## <a name="start-windows-pe-20"></a>Démarrer Windows PE 2,0
+## <a name="start-windows-pe-20"></a>démarrer Windows PE 2,0
 
-Windows PE 2,0 doit être démarré, s’il n’est pas déjà démarré. Le client WDS et les dll de prise en charge sont uniquement chargés par setup.exe lorsqu’il se trouve dans la phase de traitement de l’installation de Microsoft environnement de préinstallation Windows (WinPE) (Windows PE 2,0).
+Windows PE 2,0 doit être démarré, s’il n’est pas déjà démarré. le client WDS et les dll de prise en charge sont uniquement chargés par setup.exe lorsqu’il est dans la phase Microsoft environnement de préinstallation Windows (WinPE) (Windows PE 2,0) du traitement de l’installation.
 
--   Lorsqu’un nouvel ordinateur est connecté au réseau, vous pouvez utiliser la technologie de l’environnement d’exécution de prédémarrage (PXE) intégrée pour télécharger le programme de démarrage réseau. Pour plus d’informations sur le démarrage PXE d’un ordinateur pour installer Windows, consultez [le guide pas à pas de la mise à jour des services de déploiement Windows](/previous-versions/windows/it-pro/windows-vista/cc766320(v=ws.10)).
--   Une image de démarrage RAMDISK de Windows PE 2,0 peut être stockée dans le. Format WIM et téléchargé dans le cadre du processus de démarrage réseau. Windows PE peut ensuite être chargé et exécuté directement à partir de ce média.
+-   Lorsqu’un nouvel ordinateur est connecté au réseau, vous pouvez utiliser la technologie de l’environnement d’exécution de prédémarrage (PXE) intégrée pour télécharger le programme de démarrage réseau. pour plus d’informations sur le démarrage PXE d’un ordinateur pour installer Windows, consultez [le Guide pas à pas de la mise à jour des Services de déploiement Windows](/previous-versions/windows/it-pro/windows-vista/cc766320(v=ws.10)).
+-   une image de démarrage RAMDISK de Windows PE 2,0 peut être stockée dans le. Format WIM et téléchargé dans le cadre du processus de démarrage réseau. Windows PE peut ensuite être chargé et exécuté directement à partir de ce média.
 
 ## <a name="open-a-session-with-the-wds-server"></a>Ouvrir une session avec le serveur WDS
 
@@ -69,18 +69,18 @@ La fonctionnalité de journalisation de la bibliothèque cliente WDS permet d’
 
 -   Utilisez la fonction [**WdsCliInitializeLog**](/windows/win32/api/WdsClientAPI/nf-wdsclientapi-wdscliinitializelog) pour initialiser le journal pour la session du client WDS.
 -   Utilisez la fonction [**WdsCliLog**](/windows/win32/api/WdsClientAPI/nf-wdsclientapi-wdsclilog) pour écrire des messages d’événements dans le journal du serveur WDS.
--   Sur Windows Server 2008, le serveur WDS écrit les événements du client dans un journal des événements spécifique à l’application, qui peut être consulté via eventvwr.exe, ainsi que le journal des traces de débogage. Sur Windows Server 2003 avec la journalisation du débogage activée, le serveur WDS écrit les événements du client dans le fichier journal situé dans% windir% \\ Tracing \\ WDSServer. log. La journalisation du client WDS doit être activée sur le serveur pour capturer ces événements.
+-   sur Windows server 2008, le serveur WDS écrit les événements du client dans un journal des événements spécifique à l’application, qui est affichable via eventvwr.exe, ainsi que le journal des traces de débogage. sur Windows server 2003 avec la journalisation du débogage activée, le serveur WDS écrit les événements du client dans le fichier journal situé dans% windir% \\ tracing \\ wdsserver. log. La journalisation du client WDS doit être activée sur le serveur pour capturer ces événements.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[À propos de l’API des services de déploiement Windows](about-the-windows-deployment-services-api.md)
+[à propos de l’API Windows Deployment Services](about-the-windows-deployment-services-api.md)
 </dt> <dt>
 
 [Utilisation de l’API du serveur des Services de déploiement Windows](using-the-windows-deployment-services-server-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

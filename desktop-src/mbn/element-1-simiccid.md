@@ -7,12 +7,12 @@ MSHAttr:
 title: SimIccID (v4)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac7f11e31f6b92e7202ca7bcca50cad999c3432d
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: bd5dfbc04c021898b51307735dbb8a4de208b848
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986352"
 ---
 # <a name="span-idwwan_profile_v4element_1_simiccidspanmodemdmconfigprofilesimiccid-v4"></a><span id="WWAN_profile_v4.element_1_SimIccID"></span>ModemDMConfigProfile \/ SimIccID (v4)
 
@@ -60,7 +60,9 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

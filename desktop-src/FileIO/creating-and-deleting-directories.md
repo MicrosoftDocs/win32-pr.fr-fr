@@ -4,12 +4,12 @@ ms.assetid: 52d1d8a8-e5a7-44f5-9bf2-2a496ef79d32
 title: Création et suppression de répertoires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 140547594271e13bc78bfa78336f167f228879a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 862907ad3adef3a4502961820a6f5ffcb1cd932541b03226854d81372ca6e13f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533735"
 ---
 # <a name="creating-and-deleting-directories"></a>Création et suppression de répertoires
 

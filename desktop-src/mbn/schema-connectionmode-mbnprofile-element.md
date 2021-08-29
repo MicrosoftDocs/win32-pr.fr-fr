@@ -11,12 +11,12 @@ api_name:
 - ConnectionMode
 api_type:
 - Schema
-ms.openlocfilehash: d9c92227e26bb8858aef28d2f030ac2f84bed06d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0f2290928fba4be65d39129017a171fbd3d1e66e6ebab715f616e4edec9b13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607139"
 ---
 # <a name="connectionmode-mbnprofile-element"></a>Élément ConnectionMode (MBNProfile)
 
@@ -68,7 +68,7 @@ L’élément **ConnectionMode** est défini par l’élément [**MBNProfile**](
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

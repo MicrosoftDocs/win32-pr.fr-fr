@@ -4,12 +4,12 @@ description: Offrez la possibilité de regrouper logiquement des partages sur pl
 ms.assetid: ab7b3460-0bf6-4780-a50b-c3a82f7bd6b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9590e2b08ca60cc6262fdd21eb0726f72c17346
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2339a5cd23cfb0e6a124baa9f8e9af64a082f7f551005589e9bcbcd459b4a590
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754569"
 ---
 # <a name="distributed-file-system"></a>système de fichiers DFS
 

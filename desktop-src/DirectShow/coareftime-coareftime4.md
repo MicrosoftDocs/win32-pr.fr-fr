@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3d817128ee7a1e67fa1786a568d48e10e8b08b8e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0f20499b4352425d4ab3e31807c40a518d85e332f5ea6dfaca5f858ff212a3fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073873"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh"></a>Constructeur COARefTime. COARefTime (Ctlutil. h)
 
@@ -55,7 +55,7 @@ valeur **double** qui spécifie la durée de référence en secondes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

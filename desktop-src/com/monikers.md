@@ -4,12 +4,12 @@ description: Un moniker dans COM n’est pas seulement un moyen d’identifier u
 ms.assetid: ae0cd2f3-8ac0-4388-8781-e86fc4a26b3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf148d63611b5252eec9f5f5f69eacbcece8c65f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce557fe06ee6f4f5ce2ee08093c93934c9d060b8d4bc24e318a815ad6f95a4a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730949"
 ---
 # <a name="monikers"></a>Monikers
 
@@ -32,9 +32,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [COM (Component Object Model)](the-component-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

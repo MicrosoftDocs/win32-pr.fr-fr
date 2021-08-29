@@ -1,6 +1,6 @@
 ---
 title: Didacticiel Prise en main avec DirectWrite
-description: Ce document vous montre comment utiliser DirectWrite et Direct2D pour créer du texte simple contenant un seul format, puis du texte qui contient plusieurs formats.
+description: ce document vous montre comment utiliser DirectWrite et Direct2D pour créer du texte simple qui contient un format unique, puis du texte qui contient plusieurs formats.
 ms.assetid: cc2758d7-3f47-452a-8d81-3f777fe490ec
 keywords:
 - DirectWrite, didacticiel
@@ -15,22 +15,22 @@ keywords:
 - Interface IDWriteTextFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fb385ff78650a16599a32d76d7c51ba575de47
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ab22f611ea4658870990002bf98ac3c2ab9ffec32405ed8e67c32b819406496
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083467"
 ---
 # <a name="tutorial-getting-started-with-directwrite"></a>Didacticiel : Prise en main avec DirectWrite
 
-Ce document vous montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](rendering-by-using-direct2d.md) pour créer du texte simple contenant un seul format, puis du texte qui contient plusieurs formats.
+ce document vous montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](rendering-by-using-direct2d.md) pour créer du texte simple qui contient un format unique, puis du texte qui contient plusieurs formats.
 
 Ce didacticiel contient les éléments suivants :
 
 -   [Code source](#source-code)
 -   [Dessiner du texte simple](#drawing-simple-text)
-    -   [Partie 1 : déclarer des ressources DirectWrite et Direct2D.](#part-1-declare-directwrite-and-direct2d-resources)
+    -   [partie 1 : déclarer des ressources DirectWrite et Direct2D.](#part-1-declare-directwrite-and-direct2d-resources)
     -   [Partie 2 : créer des ressources indépendantes de l’appareil.](#part-2-create-device-independent-resources)
     -   [Partie 3 : créer des ressources Device-Dependent.](#part-3-create-device-dependent-resources)
     -   [Partie 4 : dessiner du texte à l’aide de la méthode DrawText de Direct2D.](#part-4-draw-text-by-using-the-direct2d-drawtext-method)
@@ -43,7 +43,7 @@ Ce didacticiel contient les éléments suivants :
 
 ## <a name="source-code"></a>Code source
 
-Le code source présenté dans cette vue d’ensemble est extrait de l' [exemple de Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples). Chaque partie est implémentée dans une classe distincte (SimpleText et MultiformattedText) et s’affiche dans une fenêtre enfant distincte. Chaque classe représente une fenêtre Microsoft Win32. En plus de la méthode *WndProc* , chaque classe contient les méthodes suivantes :
+le code source présenté dans cette vue d’ensemble est tiré de l' [exemple DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples). Chaque partie est implémentée dans une classe distincte (SimpleText et MultiformattedText) et s’affiche dans une fenêtre enfant distincte. Chaque classe représente une fenêtre Microsoft Win32. En plus de la méthode *WndProc* , chaque classe contient les méthodes suivantes :
 
 
 
@@ -59,13 +59,13 @@ Le code source présenté dans cette vue d’ensemble est extrait de l' [exemple
 
 
 
- 
+ 
 
-Vous pouvez utiliser l’exemple fourni ou suivre les instructions qui suivent pour ajouter [DirectWrite](direct-write-portal.md) et [Direct2D](rendering-by-using-direct2d.md) à votre propre application Win32. Pour plus d’informations sur l’exemple et les fichiers projet associés, consultez l' [exemple DirectWriteHelloWorld](/samples/browse/?redirectedfrom=MSDN-samples).
+vous pouvez utiliser l’exemple fourni ou suivre les instructions qui suivent pour ajouter [DirectWrite](direct-write-portal.md) et [Direct2D](rendering-by-using-direct2d.md) à votre propre application Win32. Pour plus d’informations sur l’exemple et les fichiers projet associés, consultez l' [exemple DirectWriteHelloWorld](/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## <a name="drawing-simple-text"></a>Dessiner du texte simple
 
-Cette section montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](../direct2d/direct2d-portal.md) pour afficher du texte simple avec un format unique, comme illustré dans la capture d’écran suivante.
+cette section montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](../direct2d/direct2d-portal.md) pour afficher du texte simple avec un format unique, comme illustré dans la capture d’écran suivante.
 
 ![capture d’écran de « Hello World using DirectWrite ! » dans un format unique](images/simplecropped.png)
 
@@ -88,11 +88,11 @@ L’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwrit
 
 L’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) est requise pour dessiner du texte qui utilise les deux processus décrits dans ce document.
 
-Avant de pouvoir créer un objet [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) ou tout autre objet [DirectWrite](direct-write-portal.md) , vous avez besoin d’une instance [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) . Vous utilisez un **IDWriteFactory** pour créer des instances **IDWriteTextFormat** et d’autres objets DirectWrite. Pour obtenir une instance de fabrique, utilisez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) .
+avant de pouvoir créer un objet [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) ou tout autre objet [DirectWrite](direct-write-portal.md) , vous avez besoin d’une instance [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) . vous utilisez un **IDWriteFactory** pour créer des instances **IDWriteTextFormat** et d’autres objets DirectWrite. Pour obtenir une instance de fabrique, utilisez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) .
 
-### <a name="part-1-declare-directwrite-and-direct2d-resources"></a>Partie 1 : déclarer des ressources DirectWrite et Direct2D.
+### <a name="part-1-declare-directwrite-and-direct2d-resources"></a>partie 1 : déclarer des ressources DirectWrite et Direct2D.
 
-Dans cette partie, vous déclarez les objets que vous utiliserez ultérieurement pour créer et afficher du texte sous la forme de membres de données privés de votre classe. Toutes les interfaces, fonctions et types de données pour [DirectWrite](direct-write-portal.md) sont déclarés dans le fichier d’en-tête *DWrite. h* , et ceux de [Direct2D](../direct2d/direct2d-portal.md) sont déclarés dans *d2d1. h*. Si vous ne l’avez pas encore fait, incluez ces en-têtes dans votre projet.
+Dans cette partie, vous déclarez les objets que vous utiliserez ultérieurement pour créer et afficher du texte sous la forme de membres de données privés de votre classe. toutes les interfaces, fonctions et types de données pour [DirectWrite](direct-write-portal.md) sont déclarés dans le fichier d’en-tête *dwrite. h* , et ceux de [Direct2D](../direct2d/direct2d-portal.md) sont déclarés dans *d2d1. h*. Si vous ne l’avez pas encore fait, incluez ces en-têtes dans votre projet.
 
 1.  Dans votre fichier d’en-tête de classe (SimpleText. h), déclarez des pointeurs vers des interfaces [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) et [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) en tant que membres privés.
     ```C++
@@ -126,7 +126,7 @@ Dans cette partie, vous déclarez les objets que vous utiliserez ultérieurement
 
 [Direct2D](rendering-by-using-direct2d.md) fournit deux types de ressources : les ressources dépendantes de l’appareil et les ressources indépendantes du périphérique. Les ressources dépendantes de l’appareil sont associées à un périphérique de rendu et ne fonctionnent plus si l’appareil est supprimé. Les ressources indépendantes du périphérique, en revanche, peuvent être utilisées en dernier pour l’étendue de votre application.
 
-Les ressources [DirectWrite](direct-write-portal.md) sont indépendantes des appareils.
+les ressources de [DirectWrite](direct-write-portal.md) sont indépendantes des appareils.
 
 Dans cette section, vous allez créer les ressources indépendantes du périphérique qui sont utilisées par votre application. Ces ressources doivent être libérées à l’aide d’un appel à la méthode **Release** de l’interface.
 
@@ -143,7 +143,7 @@ Certaines des ressources utilisées ne doivent être créées qu’une seule foi
 
     
 
-2.  Appelez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) pour créer une interface [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) , qui est l’interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . Vous utilisez la même fabrique pour instancier d’autres ressources DirectWrite.
+2.  appelez la fonction [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) pour créer une interface [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) , qui est l’interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . vous utilisez la même fabrique pour instancier d’autres ressources de DirectWrite.
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -341,7 +341,7 @@ La classe SimpleText est implémentée dans SimpleText. h et SimpleText. cpp.
 
 ## <a name="drawing-text-with-multiple-formats"></a>Dessin de texte avec plusieurs formats.
 
-Cette section montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](../direct2d/direct2d-portal.md) pour restituer du texte avec plusieurs formats, comme illustré dans la capture d’écran suivante.
+cette section montre comment utiliser [DirectWrite](direct-write-portal.md) et [Direct2D](../direct2d/direct2d-portal.md) pour restituer du texte avec plusieurs formats, comme illustré dans la capture d’écran suivante.
 
 ![capture d’écran de « Hello World using DirectWrite ! », avec certaines parties dans différents styles, tailles et formats](images/multiformattedcropped.png)
 
@@ -351,7 +351,7 @@ Pour créer du texte à plusieurs mises en forme, vous utilisez l’interface [*
 
 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) fournit également des méthodes de test de positionnement. Les métriques de test de positionnement retournées par ces méthodes sont relatives à la zone de disposition spécifiée lors de la création de l’objet d’interface **IDWriteTextLayout** à l’aide de la méthode [**CreateTextLayout**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout) de l’interface [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) .
 
-L’interface [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) est utilisée pour ajouter des fonctionnalités typographiques [OpenType](../intl/opentype-font-format.md) facultatives à une disposition de texte, telles que des lettres ornées et des ensembles de texte stylistiques alternatifs. Les fonctionnalités typographiques peuvent être ajoutées à une plage de texte spécifique dans une disposition de texte en appelant la méthode [**AddFontFeature**](/windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature) de l’interface **IDWriteTypography** . Cette méthode reçoit une structure de [**\_ \_ fonctionnalité de police DWRITE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) en tant que paramètre qui contient une constante d’énumération de **\_ \_ \_ balise de fonctionnalité de police DWRITE** et un paramètre d’exécution **UInt32** . Vous trouverez une liste des fonctionnalités OpenType inscrites dans le [Registre de balises de disposition OpenType](https://www.microsoft.com/typography/otspec/features_ae.htm) sur Microsoft.com. Pour obtenir les constantes d’énumération DirectWrite équivalentes, consultez **\_ \_ \_ balise de fonctionnalité de police DWRITE**.
+L’interface [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) est utilisée pour ajouter des fonctionnalités typographiques [OpenType](../intl/opentype-font-format.md) facultatives à une disposition de texte, telles que des lettres ornées et des ensembles de texte stylistiques alternatifs. Les fonctionnalités typographiques peuvent être ajoutées à une plage de texte spécifique dans une disposition de texte en appelant la méthode [**AddFontFeature**](/windows/win32/api/dwrite/nf-dwrite-idwritetypography-addfontfeature) de l’interface **IDWriteTypography** . Cette méthode reçoit une structure de [**\_ \_ fonctionnalité de police DWRITE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_feature_tag) en tant que paramètre qui contient une constante d’énumération de **\_ \_ \_ balise de fonctionnalité de police DWRITE** et un paramètre d’exécution **UInt32** . Vous trouverez une liste des fonctionnalités OpenType inscrites dans le [Registre de balises de disposition OpenType](https://www.microsoft.com/typography/otspec/features_ae.htm) sur Microsoft.com. pour obtenir les DirectWrite équivalentes des constantes d’énumération, consultez **\_ \_ \_ balise de fonctionnalité de police DWRITE**.
 
 ### <a name="part-1-create-an-idwritetextlayout-interface"></a>Partie 1 : créer une interface IDWriteTextLayout.
 
@@ -391,7 +391,7 @@ L’interface [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwrit
 
 La mise en forme, telle que la taille de la police, le poids et le soulignement, peut être appliquée aux sous-chaînes du texte à afficher à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
-1.  Définissez la taille de police de la sous-chaîne « di » de « DirectWrite » sur 100 en déclarant [**une \_ \_ plage de texte DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) et en appelant la méthode [**IDWriteTextLayout :: SetFontSize**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize) .
+1.  définissez la taille de police de la sous-chaîne « Di » de « DirectWrite » sur 100 en déclarant [**une \_ \_ plage de texte DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) et en appelant la méthode [**IDWriteTextLayout :: SetFontSize**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontsize) .
     ```C++
     // Format the "DirectWrite" substring to be of font size 100.
     if (SUCCEEDED(hr))
@@ -404,7 +404,7 @@ La mise en forme, telle que la taille de la police, le poids et le soulignement,
 
     
 
-2.  Soulignez la sous-chaîne « DirectWrite » en appelant la méthode [**IDWriteTextLayout :: SetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline) .
+2.  soulignez la sous-chaîne « DirectWrite » en appelant la méthode [**IDWriteTextLayout :: SetUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setunderline) .
     ```C++
     // Format the word "DWrite" to be underlined.
     if (SUCCEEDED(hr))
@@ -418,7 +418,7 @@ La mise en forme, telle que la taille de la police, le poids et le soulignement,
 
     
 
-3.  Affectez la valeur gras à l’épaisseur de la police pour la sous-chaîne « DirectWrite » en appelant la méthode [**IDWriteTextLayout :: SetFontWeight**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontweight) .
+3.  affectez la valeur gras à l’épaisseur de la police pour la sous-chaîne « DirectWrite » en appelant la méthode [**IDWriteTextLayout :: SetFontWeight**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setfontweight) .
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -516,6 +516,6 @@ Pour dessiner le texte avec les paramètres de disposition du texte spécifiés 
 
 La classe MultiformattedText est implémentée dans MultiformattedText. h et MultiformattedText. cpp.
 
- 
+ 
 
- 
+ 

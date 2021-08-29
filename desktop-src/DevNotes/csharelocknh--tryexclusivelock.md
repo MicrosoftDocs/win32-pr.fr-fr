@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Rwnh.dll
-ms.openlocfilehash: 8465e247807c4229821acef552e0786a5604a3b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28bd569c287b00cf6b0a146022ade6ce7f7bf29d5ced9eb5ef62341c873059c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654659"
 ---
 # <a name="csharelocknhtryexclusivelock-method"></a>CShareLockNH :: TryExclusiveLock, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la **valeur true** si la fonction est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

@@ -1,21 +1,21 @@
 ---
 description: Cette rubrique est l’étape 6 de la lecture audio/vidéo du didacticiel dans DirectShow.
 ms.assetid: febfe7fa-e5f1-4b37-942a-ed9f8c7c60c1
-title: 'Étape 6 : gérer les événements graphiques'
+title: 'étape 6 : gérer les événements de Graph'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3660e270a542a060ed5e5eee79d5c78c107fea4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 100d9fa4fab3b72144bcd18cafca1626d44f4868abef1a6d25e777f46749d707
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928169"
 ---
-# <a name="step-6-handle-graph-events"></a>Étape 6 : gérer les événements graphiques
+# <a name="step-6-handle-graph-events"></a>étape 6 : gérer les événements de Graph
 
-Cette rubrique est l’étape 6 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). Le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
+Cette rubrique est l’étape 6 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
 
-Lorsque l’application crée une nouvelle instance du gestionnaire de graphes de filtre, l’application appelle [**IMediaEventEx :: SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow). Cette méthode inscrit la fenêtre d’application pour recevoir des événements du graphique de filtre.
+lorsque l’application crée une nouvelle instance du filtre Graph Manager, elle appelle [**IMediaEventEx :: SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow). Cette méthode inscrit la fenêtre d’application pour recevoir des événements du graphique de filtre.
 
 
 ```C++
@@ -119,13 +119,13 @@ void CALLBACK OnGraphEvent(HWND hwnd, long evCode, LONG_PTR param1, LONG_PTR par
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Exemple de lecture DirectShow](directshow-playback-example.md)
+[DirectShow Exemple de lecture](directshow-playback-example.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
 [Réponse aux événements](responding-to-events.md)

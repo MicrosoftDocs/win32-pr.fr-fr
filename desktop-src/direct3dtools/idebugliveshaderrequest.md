@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1f8a5054b47eeed45929995cd022fa626dba7725
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: bb73aded8967797c1d7b85aa92865f17f23ba84c
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626385"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787455"
 ---
 # <a name="span-idvspixengineidebugliveshaderrequestspanidebugliveshaderrequest-interface"></a><span id="vspixengine.idebugliveshaderrequest"></span>Interface IDebugLiveShaderRequest
 
@@ -38,7 +38,7 @@ L’interface **IDebugLiveShaderRequest** hérite de l’interface [**IUnknown**
 
 L’interface **IDebugLiveShaderRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Demande à déboguer un nuanceur sur le GPU (débogage dynamique) vs CPU (débogage basé sur trace).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td ><p>Demande à déboguer un nuanceur sur le GPU (débogage dynamique) vs CPU (débogage basé sur trace).</p></td></tr></tbody></table>
 
  
 

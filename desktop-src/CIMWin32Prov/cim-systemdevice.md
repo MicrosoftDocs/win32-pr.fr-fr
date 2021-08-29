@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dbff9a0ead8790de9ab323509c8b2f1392e6ed6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a7857425074326dc3de7985fb7ecfbb909948a6b7a975aaa3e019a4a56e36df6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817599"
 ---
 # <a name="cim_systemdevice-class-cimwin32-wmi-providers"></a>CIM_SystemDevice, classe (fournisseurs WMI CIMWin32)
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ SystemDevice** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 

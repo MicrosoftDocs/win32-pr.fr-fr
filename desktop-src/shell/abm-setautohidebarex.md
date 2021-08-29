@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ba4e1474d3b57465fa68446fd7ab787c9a62570b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d98bbfe9566aa5edeccb7d340de28b1fa4b249d26b8ad740a718ddc5e6bc6a68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884819"
 ---
 # <a name="abm_setautohidebarex-message"></a>\_Message ABM SETAUTOHIDEBAREX
 
@@ -46,11 +46,11 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 Retourne la **valeur true** en cas de réussite, ou **false** si une erreur se produit ou si un appbar de masquage automatique est déjà inscrit pour le bord donné sur l’analyse donnée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système n’autorise qu’un seul appbar de masquage automatique pour chaque bord de chaque moniteur. Le moniteur est déterminé par le membre **RC** et le bord est déterminé par le membre **uEdge** de la structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-shellapi-appbardata) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

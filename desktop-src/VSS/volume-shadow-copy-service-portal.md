@@ -4,12 +4,12 @@ ms.assetid: 1eca1e3e-fc86-44b5-b3c4-bcee41bc5a43
 title: Service VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2159d39f407f7ae5dbde454ab6cf3562307d892c
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a79ce2eacbfbd45aa4bf4a0e5959072474261fb1540a28c50c8b3b972a2f2cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863919"
 ---
 # <a name="volume-shadow-copy-service"></a>Service VSS
 
@@ -25,10 +25,10 @@ VSS est pris en charge sur Microsoft Windows XP et versions ultérieures. Pour p
 
 Toutes les applications VSS 32 bits (demandeurs, fournisseurs et enregistreurs) doivent s’exécuter en tant qu’applications natives 32 bits ou 64 bits. Leur exécution sous WOW64 n’est pas prise en charge. Pour plus d’informations, consultez [configurations et restrictions prises en charge](usage-conventions.md).
 
-**Windows Server 2003 et Windows XP :** L’exécution de demandeurs VSS 32 bits sous WOW64 est prise en charge, mais pas pour les sauvegardes de l’état du système. L’exécution des fournisseurs et des enregistreurs VSS 32 bits sous WOW64 n’est pas prise en charge. La prise en charge de l’exécution de demandeurs 32 bits sous WOW64 a été supprimée dans Windows Vista et les versions ultérieures.
+**Windows Server 2003 et Windows XP :** L’exécution de demandeurs VSS 32 bits sous WOW64 est prise en charge, mais pas pour les sauvegardes de l’état du système. L’exécution des fournisseurs et des enregistreurs VSS 32 bits sous WOW64 n’est pas prise en charge. la prise en charge de l’exécution de demandeurs 32 bits sous WOW64 a été supprimée dans Windows Vista et les versions ultérieures.
 
 > [!Note]  
-> Un cliché instantané créé sur Windows Server 2003 R2 ou Windows Server 2003 ne peut pas être utilisé sur un ordinateur qui exécute Windows Server 2008 R2 ou Windows Server 2008. Un cliché instantané créé sur Windows Server 2008 R2 ou Windows Server 2008 ne peut pas être utilisé sur un ordinateur qui exécute Windows Server 2003. Toutefois, un cliché instantané créé sur Windows Server 2008 peut être utilisé sur un ordinateur qui exécute Windows Server 2008 R2, et vice versa.
+> un cliché instantané créé sur Windows server 2003 r2 ou Windows server 2003 ne peut pas être utilisé sur un ordinateur exécutant Windows server 2008 r2 ou Windows server 2008. un cliché instantané créé sur Windows server 2008 R2 ou Windows server 2008 ne peut pas être utilisé sur un ordinateur exécutant Windows server 2003. toutefois, un cliché instantané créé sur Windows server 2008 peut être utilisé sur un ordinateur exécutant Windows server 2008 R2, et vice versa.
 
  
 
@@ -39,7 +39,7 @@ Toutes les applications VSS 32 bits (demandeurs, fournisseurs et enregistreurs) 
 | Rubrique                                                          | Description                                                                                                                         |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [Vue d'ensemble](volume-shadow-copy-service-overview.md)<br/> | Décrit le modèle d’objet VSS, les stratégies de sauvegarde et de restauration, et comment créer des fournisseurs, des demandeurs et des enregistreurs VSS.<br/> |
-| [Informations de référence](volume-shadow-copy-reference.md)<br/>       | Décrit les classes, les types de données, les énumérations, les fonctions, les interfaces et les structures VSS.<br/>                                  |
+| [Référence](volume-shadow-copy-reference.md)<br/>       | Décrit les classes, les types de données, les énumérations, les fonctions, les interfaces et les structures VSS.<br/>                                  |
 
 
 
@@ -51,8 +51,8 @@ Toutes les applications VSS 32 bits (demandeurs, fournisseurs et enregistreurs) 
 
 |   Ressource                                 |   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows Vista et versions ultérieures            | VSS est disponible dans le kit de développement logiciel (SDK) Microsoft Windows. Vous pouvez installer le kit de développement logiciel (SDK) pour Windows 7 et Windows Server 2008 R2 à partir du [Centre de téléchargement Windows](https://www.microsoft.com/download/details.aspx?id=8279). Vous pouvez également télécharger la [version ISO](https://www.microsoft.com/download/details.aspx?id=8442) du kit de développement logiciel (SDK) à partir du centre de téléchargement Windows. Les versions précédentes du kit de développement logiciel (SDK) peuvent être téléchargées à partir de la [page de téléchargement SDK Windows](https://msdn.microsoft.com/windows/bb980924.aspx). |
-| Windows Server 2003 et Windows XP | VSS est disponible dans le kit de développement logiciel (SDK) Service VSS 7,2, que vous pouvez télécharger à partir du [Centre de téléchargement Windows](https://www.microsoft.com/download/details.aspx?id=23490). Notez que les fichiers vssapi. lib 64 bits dans les répertoires du répertoire Win2003 \\ obj peuvent être utilisés pour les versions 64 bits de Windows Server 2003 et Windows XP.                                                                                                                                                                 |
+| Windows Vista et versions ultérieures            | VSS est disponible dans le kit de développement logiciel (SDK) de Microsoft Windows. vous pouvez installer le kit de développement logiciel (SDK) pour Windows 7 et Windows Server 2008 R2 à partir du [centre de téléchargement Windows](https://www.microsoft.com/download/details.aspx?id=8279). vous pouvez également télécharger la [version ISO](https://www.microsoft.com/download/details.aspx?id=8442) du kit de développement logiciel (SDK) à partir du centre de téléchargement Windows. les versions précédentes du kit de développement logiciel (SDK) peuvent être téléchargées à partir de la [Page de téléchargement SDK Windows](https://msdn.microsoft.com/windows/bb980924.aspx). |
+| Windows Server 2003 et Windows XP | VSS est disponible dans le kit de développement logiciel (SDK) Service VSS 7,2, que vous pouvez télécharger à partir du [centre de téléchargement Windows](https://www.microsoft.com/download/details.aspx?id=23490). notez que les fichiers vssapi. lib 64 bits dans les répertoires du répertoire Win2003 \\ Obj peuvent être utilisés pour les versions 64 bits de Windows Server 2003 et Windows XP.                                                                                                                                                                 |
 
 
 

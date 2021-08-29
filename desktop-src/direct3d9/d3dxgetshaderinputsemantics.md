@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2032f241d6ca5c22506c0875a21f9d5b431920df
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc5818d8f41bcfa9be9114ac7d131d11ff0d1dded00c191031c325ca7aeb50d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791829"
 ---
 # <a name="d3dxgetshaderinputsemantics-function"></a>D3DXGetShaderInputSemantics fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez **D3DXGetShaderInputSemantics** pour retourner une liste des sémantiques d’entrée requises par le nuanceur. Il s’agit de la façon de déterminer le format de vertex d’entrée pour un nuanceur HLSL (High-Level Shader Language). Si le nuanceur a des entrées supplémentaires pour lesquelles votre déclaration de vertex est manquante, vous pouvez créer un flux de vertex supplémentaire avec un Stride de 0 qui contient les composants manquants avec des valeurs par défaut. Par exemple, cette technique peut être utilisée pour fournir la couleur de vertex par défaut pour les modèles qui ne le spécifient pas.
 

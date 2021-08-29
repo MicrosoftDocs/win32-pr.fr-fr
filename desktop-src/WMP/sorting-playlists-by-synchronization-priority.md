@@ -4,32 +4,32 @@ description: Tri des sélections par priorité de synchronisation
 ms.assetid: 0f7f1ed3-0639-47bf-bf8e-52ae0a1d7ab2
 keywords:
 - Lecteur Windows Media, sélections de synchronisation
-- Modèle objet du lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media modèle objet, sélections de synchronisation
 - modèle objet, sélections de synchronisation
 - Lecteur Windows Media Mobile, sélections de synchronisation
-- Contrôle ActiveX du lecteur Windows Media, sélections de synchronisation
-- Contrôle ActiveX Windows Media Player Mobile, sélections de synchronisation
-- Contrôle ActiveX, sélections de synchronisation
+- contrôle de ActiveX Lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections de synchronisation
+- contrôle de ActiveX, sélections de synchronisation
 - sélections, synchronisation
 - sélections de métafichiers, synchronisation
-- Sélections de métafichiers Windows Media, synchronisation
+- Windows Sélections de métafichiers multimédia, synchronisation
 - appareils mobiles, tri des sélections de synchronisation
 - sélections de synchronisation, tri
 - sélections de synchronisation, priorités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90624e8e1cab715e8a26e33f40a444d53ab35def
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: f2460dd9a0046074aa1cc4e26cb32ef7179537ced623b28a3243eca4e8f99bbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103841905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763439"
 ---
 # <a name="sorting-playlists-by-synchronization-priority"></a>Tri des sélections par priorité de synchronisation
 
 Le code suivant effectue un simple tri des sélections. Vous pouvez voir comment cette fonction est utilisée dans l’exemple de code dans l' [énumération des sélections de synchronisation](enumerating-synchronization-playlists.md). La fonction accepte les paramètres suivants :
 
--   *pPlaylist*. Pointeur vers la sélection du lecteur Windows Media à trier. Les éléments multimédias de la liste de lecture doivent pointer vers d’autres sélections, et non vers des fichiers multimédias numériques individuels.
+-   *pPlaylist*. pointeur vers la sélection de Lecteur Windows Media à trier. Les éléments multimédias de la liste de lecture doivent pointer vers d’autres sélections, et non vers des fichiers multimédias numériques individuels.
 -   *bstrSyncAttribute*. BSTR contenant le nom de l’attribut de partenariat de synchronisation pour l’appareil actuel (« Sync01 », « Sync02 », etc.).
 -   *plSelected*. Pointeur vers une variable de **type long** qui reçoit le nombre de sélections de synchronisation.
 
@@ -142,9 +142,9 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
 [**Attributs de synchronisation**](sync-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

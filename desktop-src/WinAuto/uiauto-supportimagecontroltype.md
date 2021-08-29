@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, image
 ms.topic: article
 ms.date: 10/08/2019
-ms.openlocfilehash: b91d55bf8e21813e180476146625172e3eab1a6d
-ms.sourcegitcommit: da8cc3fb3c9f14cb768855502a2b6815ddee13b6
+ms.openlocfilehash: 868db06a1ede025171e7a6cb9ef0d076267e095c9e17ed0ee7c65eb362f87590
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "106510036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122039"
 ---
 # <a name="image-control-type"></a>Image (type de contrôle)
 
@@ -56,7 +56,7 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou la définition est particulièrement pertinente pour les contrôles image. Pour plus d’informations sur les propriétés UI Automation, consultez [extraction de propriétés à partir d’éléments UI Automation](uiauto-propertiesforclients.md).
 
-| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -86,7 +86,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 Le tableau suivant répertorie les événements UI Automation nécessaires à la prise en charge des contrôles d’image. Pour plus d’informations sur les événements, consultez [UI Automation Events Overview](uiauto-eventsoverview.md).
 
-| Événement UI Automation                                                                                                                   | Notes                                                                                                                      |
+| Événement UI Automation                                                                                                                   | Remarques                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                      |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId. |                                                                                                                            |
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété NamePropertyId.                           |                                                                                                                            |
 | [**UIA \_ StructureChangedEventId**](uiauto-event-ids.md)                                                  |                                                                                                                            |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le World Wide Web Consortium (W3C) définit une image décorative comme une image qui n’ajoute pas d’informations au contenu d’une page. Pour plus d’informations, consultez la rubrique W3C sur les [images décoratifs](https://www.w3.org/WAI/tutorials/images/decorative/).
 

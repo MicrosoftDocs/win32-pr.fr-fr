@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 487c58bda5e3b891b0e14614fa6c91830bc7512e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ae9876195737506b8e0adc96f29bce0222371623
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985472"
 ---
 # <a name="span-idwwan_profile_v4element_authprotocolspanmbnprofileextauthprotocol-v4"></a><span id="WWAN_profile_v4.element_AuthProtocol"></span>MBNProfileExt \/ ... \/ AuthProtocol (v4)
 
@@ -74,7 +74,9 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

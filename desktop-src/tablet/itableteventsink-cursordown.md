@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 1f0ffbe8c300e3c227cd59d8ff391b8990873c56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 242e9ebdf2999c342e6ae7f4711a9f142b38a23e977e7dc9a44b906e0062bc2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820639"
 ---
 # <a name="itableteventsinkcursordown-method"></a>ITabletEventSink :: CursorDown, méthode
 
@@ -87,7 +87,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
@@ -98,9 +98,9 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

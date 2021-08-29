@@ -4,12 +4,12 @@ description: IAgentCommands insérer
 ms.assetid: f450aae4-db6f-4326-ae14-ddb68ab0953a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65f15df0c24e16a7554881cf3d0e6c41c4ee42b2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d249a64e3c04d396cea263429cf4ee7b51d536ae8c691761e169a9a52415130d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114689"
 ---
 # <a name="iagentcommandsinsert"></a>IAgentCommands :: Insert
 
@@ -87,6 +87,6 @@ Adresse d’une variable qui reçoit l’ID de la [**commande**](/windows/deskto
 [**IAgentCommands :: Add**](iagentcommands--add.md), [**IAgentCommands :: Remove**](iagentcommands--remove.md), [**IAgentCommands :: RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 

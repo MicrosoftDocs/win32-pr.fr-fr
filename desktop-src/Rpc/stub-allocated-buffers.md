@@ -4,12 +4,12 @@ description: Plutôt que de forcer un appel distinct pour chaque nœud de l’ar
 ms.assetid: 9911649d-00e8-47d8-b512-7d9b185d1e09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 956acf6452c1a4e7d04afcd1da263439436e3bad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2ad400c000f1112b6f69d5ba8ea48bfc50f947eadb736150f894fba68205e1a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127689"
 ---
 # <a name="stub-allocated-buffers"></a>Mémoires tampons de Stub-Allocated
 
@@ -40,6 +40,6 @@ L’attribut **\[ allocate \]** peut uniquement être appliqué aux types pointe
 
 Pour plus d’informations, consultez [allocation et désallocation de nœuds par nœud](node-by-node-allocation-and-deallocation.md).
 
- 
+ 
 
- 
+ 

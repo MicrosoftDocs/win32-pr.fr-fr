@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 22289511f454e0d3b128d0e73d32687924c7a7ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b84ebb7c95b192f5461fe0f4abb99a6f1d17ead74960ff8058629c81fd9a8771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981039"
 ---
 # <a name="cim_resourceallocationsettingdata-class"></a>\_Classe CIM ResourceAllocationSettingData
 
@@ -540,7 +540,7 @@ Type de ressource représenté par les paramètres d’allocation.
 
 <span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>
 
-**Extension de stockage** (19)
+**étendue du Stockage** (19)
 
 
 </dt> <dd></dd> <dt>
@@ -631,7 +631,7 @@ Type de ressource représenté par les paramètres d’allocation.
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**Volume de stockage** (32)
+**Volume de Stockage** (32)
 
 
 </dt> <dd></dd> <dt>

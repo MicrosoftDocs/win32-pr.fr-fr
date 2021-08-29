@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3b3cb4be93b8d960b39f0f5c5cf2b5a4809573cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 018a54652ef5c24562a6c5220aa24da00276dce4729608cf59162bc11c7d7aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012337"
 ---
 # <a name="attachproperties-callback-function"></a>AttachProperties fonction de rappel
 
@@ -120,7 +120,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers le premier oct
 
 Si la fonction échoue, la valeur de retour est un pointeur vers les données reconnues. Le paramètre *lpProtocol* passe le pointeur à la dll de l’analyseur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Moniteur réseau appelle la fonction **AttachProperties** pour chaque analyseur qui reconnaît un élément de données dans un frame. Notez que l’analyseur détermine les propriétés qui existent dans les données reconnues, ainsi que l’emplacement de chaque propriété.
 

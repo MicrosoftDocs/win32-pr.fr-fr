@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété Width de l’objet feuille, qui r
 ms.assetid: fe5d4c44-3eea-4b13-913e-09f4c97f3aaa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f0bfa7d2f77a358f9ac43d46bcc03abab80223
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 322981ba670ef4d660d5ad146948ffce0f78a25fb229ac6d1c2a6e96bce5e81c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715679"
 ---
 # <a name="width-property-propertysheet-object"></a>Width, propriété (objet feuille)
 

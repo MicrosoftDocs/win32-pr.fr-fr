@@ -4,12 +4,12 @@ ms.assetid: 4bd7a305-69ff-4892-bf03-df9c6479adab
 title: Objets de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb89dbacf73baaffbca9aa3791aa73937a69e80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49adf4b5073937ae12e86a60a07c64e9f9e9694b8ff65f7b03a49ed3af9fe805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080449"
 ---
 # <a name="stream-objects"></a>Objets de flux
 

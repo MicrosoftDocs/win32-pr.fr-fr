@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e12bba2b83f3956cf4b654c00b0650a6a0ce9a54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c19a455444459e78e2a98fde6386e733c9aa7f1848ed3bb7d2cd6bc22c3062cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698199"
 ---
 # <a name="d2dsampleinputatposition-function"></a>D2DSampleInputAtPosition fonction)
 
@@ -56,7 +56,7 @@ Position UV.
 
 La fonction retourne un **float4**, au format TEXCOORDN.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple suivant illustre la fonction utilisée dans un retour circulaire à la ligne.
 

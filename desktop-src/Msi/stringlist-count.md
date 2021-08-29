@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b880b6d6c7c995c2aff1a40e7e4fcc6908eb7c58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec60ee57edb7aea7ce65fe07892a57e6fe93706372ade8dc3745b5a2ee3ef42d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627309"
 ---
 # <a name="stringlistcount-property"></a>StringList. Count (propriété)
 
@@ -37,7 +37,7 @@ propVal = StringList.Count
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client doit vérifier que l’objet [**StringList**](stringlist-object.md) existe et n’est pas vide avant de référencer la propriété **Count** .
 

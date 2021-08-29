@@ -4,12 +4,12 @@ ms.assetid: 7f044ee5-b99e-4f0c-a680-b1e2672949fc
 title: Valeurs d’attribut de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4606726d5202a1453e98d5bf609084982f8f824e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e7867dec9e6494c3e6e3d864e8841785f6c4fac96b2bb54ead0f24b0cbe7ea6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636889"
 ---
 # <a name="synchronization-attribute-values"></a>Valeurs d’attribut de synchronisation
 
@@ -25,7 +25,7 @@ COM+ fournit les valeurs d’attribut de synchronisation suivantes :
 
 -   **Non pris en charge.** Un objet avec cette valeur ne participe jamais à la synchronisation, et ce quel que soit l’état de son appelant. Ce paramètre est disponible uniquement pour les composants qui ne sont pas transactionnels et qui n’utilisent pas le service [d’activation juste-à-temps (JIT) com+](com--just-in-time-activation.md) .
 
--   **Géré.** Un objet avec cette valeur participe à la synchronisation, le cas échéant. Vous déclarez cette valeur lorsque vous souhaitez qu’un objet partage dans la synchronisation de son appelant, mais ne nécessite pas de synchronisation propre.
+-   **Pris en charge.** Un objet avec cette valeur participe à la synchronisation, le cas échéant. Vous déclarez cette valeur lorsque vous souhaitez qu’un objet partage dans la synchronisation de son appelant, mais ne nécessite pas de synchronisation propre.
 
     Une bonne raison de définir votre attribut de synchronisation sur pris en charge est que ce paramètre peut être moins onéreux en termes de ressources système. Toutefois, il est plus difficile d’écrire votre composant en raison de la nécessité de le protéger contre les appels simultanés. L’implication de la définition de l’attribut de synchronisation sur pris en charge est que, dans certains cas, une instance de votre objet peut être créée de façon à ce qu’elle ne soit pas synchronisée. Si le modèle de thread du composant est libre ou les deux, vous devez protéger les données de votre instance avec un certain type de mécanisme de verrouillage. Si le modèle de thread est cloisonné (STA), vous n’aurez pas besoin de protéger les données de votre instance.
 

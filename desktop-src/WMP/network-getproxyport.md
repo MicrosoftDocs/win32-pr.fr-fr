@@ -3,9 +3,9 @@ title: Méthode Network. getProxyPort
 description: La méthode getProxyPort récupère le port proxy utilisé.
 ms.assetid: 76771750-3763-4029-b194-d8567b5f365e
 keywords:
-- méthode getProxyPort lecteur Windows Media
-- méthode getProxyPort lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode getProxyPort
+- Lecteur Windows Media de la méthode getProxyPort
+- Lecteur Windows Media de la méthode getProxyPort, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode getProxyPort
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3114b2188c0ccb0f6c260df33461fb117e7851e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83937bcb5d8180085ab97bfd71a0cb1653a65e8bca8cead952e4bf24e10ee690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054587"
 ---
 # <a name="networkgetproxyport-method"></a>Méthode Network. getProxyPort
 
@@ -53,7 +53,7 @@ retVal = Network.getProxyPort(
 
 Cette méthode retourne un **nombre** (**long**) contenant le port proxy utilisé. La valeur retournée est significative uniquement lorsque **getProxySettings** retourne une valeur de deux (utilisez des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -61,7 +61,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **getProxyPort** pour afficher les numéros de port du proxy du lecteur Windows Media actuels pour les protocoles MMS et http. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **getProxyPort** pour afficher les numéros de port du proxy Lecteur Windows Media actuel pour les protocoles MMS et HTTP. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

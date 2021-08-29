@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84d02148a9282137db77768ccca8e687de22c54f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 96fa0ac711516c7436a091b286251ad7b6b08baed5df905ac79dbc92516d9baf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804499"
 ---
 # <a name="frs-computer-reference-bl-attribute"></a>FRS-Computer-Reference-BL Attribute
 
@@ -45,7 +45,7 @@ Référence aux jeux de réplicas auxquels cet ordinateur appartient.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

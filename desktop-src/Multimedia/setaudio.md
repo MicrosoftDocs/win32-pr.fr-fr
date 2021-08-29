@@ -3,7 +3,7 @@ title: commande SetAudio
 description: La commande SetAudio définit les valeurs associées à la lecture et à la capture audio. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 ms.assetid: 78f6e365-fb51-4b1a-8dd7-0a2d5a047750
 keywords:
-- commande SetAudio multimédia Windows
+- commande setaudio Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4c022a03834a14995f19815ef8f52c0955dc449
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c3ffa98f3d8d4e1c21c12060cd3ebf38642b8edb4963ae01fc03001502dd9378
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688809"
 ---
 # <a name="setaudio-command"></a>commande SetAudio
 
@@ -114,7 +114,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les périphériques VCR, l’utilisation de SetAudio avec un indicateur qui désactive une piste individuelle (« suivre le *\_ numéro de suivi* ») peut entraîner la réception par votre application d’un message d’état indiquant que la commande n’a pas pu être exécutée. Certains magnétoscopes peuvent désactiver uniquement les combinaisons de pistes, pas les pistes individuelles. par exemple, la première piste audio et une piste vidéo d’une cassette vidéo. Dans ce cas, utilisez simplement SetAudio et [setvideo](setvideo.md) pour continuer à désactiver les autres pistes qui composent la combinaison. Le pilote désactive les pistes lorsqu’il reçoit la commande pour désactiver la dernière piste dans la combinaison.
 

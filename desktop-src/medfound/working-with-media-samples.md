@@ -4,12 +4,12 @@ ms.assetid: 10b547b1-6624-4d49-9852-a5fff4eb70e7
 title: Utilisation des exemples de supports
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a31fa8ff17c2dabcac9d110b530751d22fdf7b0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e9f6223db49fd3eab4063f329a5170c76661654cfda732e45491be8f96ef5d5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602239"
 ---
 # <a name="working-with-media-samples"></a>Utilisation des exemples de supports
 

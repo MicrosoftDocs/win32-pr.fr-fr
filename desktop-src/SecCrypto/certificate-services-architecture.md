@@ -4,12 +4,12 @@ ms.assetid: 6f217682-94bc-4d18-88ea-2f8a06eb83de
 title: Architecture des services de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b7e0545b2f0fe0dd8c30d1863ffdf52c64a9e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69d41a2dedb2ab576009a23f1a67417fb8230b4dfcc1d15629c2c9454469c734
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126872"
 ---
 # <a name="certificate-services-architecture"></a>Architecture des services de certificats
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44243f8d89658eab20183f349b195958119291d6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4e23b47224644c2271fcc09070edac47f57afcd398b81ed8193a0f8592d98666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762969"
 ---
 # <a name="ms-kds-kdf-param-attribute"></a>attribut ms-KDS-KDF-param
 

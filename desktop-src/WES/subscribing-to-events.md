@@ -4,18 +4,18 @@ description: Pour vous abonner aux événements, appelez la fonction EvtSubscrib
 ms.assetid: 1e86deeb-fc59-4658-9353-e4ced7ace89a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0889c4ff440a17696fe6d908ff98d632ff7058ca
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d52f39d17022562329cef791ed5989835a5a6e89733fa45ec82cab653eadfd34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124179"
 ---
 # <a name="subscribing-to-events"></a>Abonnement à des événements
 
 Pour vous abonner aux événements, appelez la fonction [**EvtSubscribe**](/windows/desktop/api/WinEvt/nf-winevt-evtsubscribe) . Vous pouvez vous abonner à des événements à partir d’un ou de plusieurs canaux d’administration ou opérationnels. Le canal peut exister sur l’ordinateur local ou sur un ordinateur distant. Pour spécifier les événements auxquels vous souhaitez vous abonner, vous pouvez utiliser une requête XPath ou une requête XML de structure. Pour plus d’informations sur l’écriture de la requête, consultez [consommation d’événements](consuming-events.md).
 
-Le journal des événements Windows fournit deux modèles pour l’abonnement aux événements :
+Windows Le journal des événements fournit deux modèles pour l’abonnement aux événements :
 
 -   Le modèle push transmet les événements de façon asynchrone à un rappel que vous implémentez.
 -   Le modèle d’extraction utilise un descripteur d’événement que vous créez pour vous signaler quand des événements qui correspondent à vos critères de requête sont disponibles. Vous énumérez ensuite les événements dans le jeu de résultats.
@@ -398,6 +398,6 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
 
 
- 
+ 
 
- 
+ 

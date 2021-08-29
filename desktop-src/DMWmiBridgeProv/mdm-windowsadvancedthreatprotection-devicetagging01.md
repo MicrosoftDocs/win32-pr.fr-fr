@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_WindowsAdvancedThreatProtection_DeviceTagging01
-description: La \_ classe WindowsAdvancedThreatProtection \_ DeviceTagging01 MDM est utilisée pour intégrer, déterminer l’état de configuration et d’intégrité et les points de terminaison annuler pour Windows Defender-protection avancée contre les menaces.
+description: la \_ classe WindowsAdvancedThreatProtection \_ DeviceTagging01 MDM est utilisée pour intégrer, déterminer l’état de configuration et d’intégrité, et les points de terminaison annuler pour Windows Defender Protection avancée contre les menaces.
 ms.assetid: b56d5d46-e994-404a-865a-c59bb948f2b3
 keywords:
 - Classe MDM_WindowsAdvancedThreatProtection_DeviceTagging01
@@ -19,18 +19,18 @@ api_type:
 - DllExport
 api_location:
 - DMWmiBridgeProv.dll
-ms.openlocfilehash: 12cf3863ba67f422b42572a6934807d86abbc0e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f095c39c78400f5d040ff00ab668f51c7d7abfaac2b0d872ed860f768ea55404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913409"
 ---
 # <a name="mdm_windowsadvancedthreatprotection_devicetagging01-class"></a>\_ \_ Classe DEVICETAGGING01 WindowsAdvancedThreatProtection MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La \_ classe WindowsAdvancedThreatProtection \_ DeviceTagging01 MDM est utilisée pour intégrer, déterminer l’état de configuration et d’intégrité et les points de terminaison annuler pour Windows Defender-protection avancée contre les menaces.
+la \_ classe WindowsAdvancedThreatProtection \_ DeviceTagging01 MDM est utilisée pour intégrer, déterminer l’état de configuration et d’intégrité, et les points de terminaison annuler pour Windows Defender Protection avancée contre les menaces.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -129,7 +129,7 @@ Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl> |

@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ScrollBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a25d0398ca8e094e1dbec5e06eb725f3e9d7edbb5c193fdc3699e166b118142
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 51e9da37ec8006eae0c710ed4dcd336caf76cf3a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119413369"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467786"
 ---
 # <a name="scrollbar-control-type"></a>ScrollBar (type de contrôle)
 
@@ -50,30 +50,11 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ScrollBar
-<ul>
-<li>Button (0, 2 ou 4)</li>
-<li>Thumb (0 ou 1)</li>
-</ul></li>
-</ul></td>
-<td>Non applicable. (Le contrôle de barre de défilement n’a pas de contenu.)</td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>ScrollBar<ul><li>Button (0, 2 ou 4)</li><li>Thumb (0 ou 1)</li></ul></li></ul> | Non applicable. (Le contrôle de barre de défilement n’a pas de contenu.) | 
+
 
 
 

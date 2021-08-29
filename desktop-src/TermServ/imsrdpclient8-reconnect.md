@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d62072c56852af6be2965ce63aecf4634de87d11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7c30c261d8387a98be5425cb1f8e60613fd1f9340a5414b7668f1c913317e25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990399"
 ---
 # <a name="imsrdpclient8reconnect-method"></a>IMsRdpClient8 :: reconnect, méthode
 
@@ -72,9 +72,9 @@ Nouvelle hauteur du bureau, en pixels. Consultez la propriété [**DesktopHeight
 *pReconnectStatus* \[ out, retval\]
 </dt> <dd>
 
-Tapez : **[**ControlReconnectStatus**](controlreconnectstatus.md) \** _
+Type : **[ **ControlReconnectStatus**](controlreconnectstatus.md)\***
 
-Pointeur vers une variable [_ *ControlReconnectStatus* *](controlreconnectstatus.md) qui reçoit l’état de l’opération de reconnexion.
+Pointeur vers une variable [**ControlReconnectStatus**](controlreconnectstatus.md) qui reçoit l’état de l’opération de reconnexion.
 
 </dd> </dl>
 

@@ -3,7 +3,7 @@ title: Message MCM_SETDAYSTATE (commctrl. h)
 description: Définit les États du jour pour tous les mois actuellement visibles dans un contrôle Month Calendar. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal SetDayState.
 ms.assetid: 518cb2a9-ea82-40b4-88ca-f901b6f9f8c4
 keywords:
-- MCM_SETDAYSTATE les contrôles de message Windows
+- MCM_SETDAYSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6174cc7d8d97d424d599671740530dd8014cc998
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9a0f06c3082d04f9d0e50ba76b92f214c358cbc61cbdbfb5992c4b3b14e5fed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078993"
 ---
 # <a name="mcm_setdaystate-message"></a>\_Message SETDAYSTATE MCM
 
@@ -47,7 +47,7 @@ Pointeur vers un tableau de valeurs [**MONTHDAYSTATE**](monthdaystate.md) qui d�
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut définir explicitement des informations d’état de jour en envoyant ce message, mais l’État ne sera pas conservé lorsqu’une autre partie du calendrier défilera vers l’affichage. Les informations d’État du jour sont généralement définies en réponse au code de notification [MCN \_ GETDAYSTATE](mcn-getdaystate.md) , qui est envoyé chaque fois que le contrôle doit être actualisé.
 
@@ -63,8 +63,8 @@ Gardez à l’esprit que le tableau au niveau de *lParam* doit contenir des vale
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

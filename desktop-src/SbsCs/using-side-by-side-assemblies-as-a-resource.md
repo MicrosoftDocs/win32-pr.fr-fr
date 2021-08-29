@@ -4,12 +4,12 @@ ms.assetid: f7963d37-93c4-49d6-af7d-fc692f632894
 title: Utilisation d’assemblys côte à côte en tant que ressource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b97265b48f4ce8f3c87a87ec4ca9ea2b8252819
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5eacfffb4c0e8d50db5d00ee514d68191b6550dac0f3df8d69713d5d351a323e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884508"
 ---
 # <a name="using-side-by-side-assemblies-as-a-resource"></a>Utilisation d’assemblys côte à côte en tant que ressource
 
@@ -17,7 +17,7 @@ Vous pouvez ajouter un manifeste à une application en tant que ressource dans l
 
 Si vous affectez \_ à l' \_ ID de ressource de manifeste la valeur 1, le chargeur utilise les dépendances d’assembly côte à côte spécifiées dans le manifeste en tant que processus par défaut. Tous les plug-ins utilisent également ce processus par défaut.
 
-Le tableau suivant résume la façon dont le chargeur utilise le manifeste pour les différentes valeurs de \_ l’ID de ressource de manifeste \_ lorsque l’application est compilée avec l’indicateur compatible-DISOLATION \_ \_ . Notez que les valeurs 1-16 sont réservées à une utilisation par Windows XP. Un développeur peut utiliser d’autres valeurs s’il souhaite gérer les contextes d’activation à l’aide des fonctions décrites dans la [référence de contexte d’activation](activation-context-reference.md).
+Le tableau suivant résume la façon dont le chargeur utilise le manifeste pour les différentes valeurs de \_ l’ID de ressource de manifeste \_ lorsque l’application est compilée avec l’indicateur compatible-DISOLATION \_ \_ . notez que les valeurs 1-16 sont réservées pour une utilisation par Windows XP. Un développeur peut utiliser d’autres valeurs s’il souhaite gérer les contextes d’activation à l’aide des fonctions décrites dans la [référence de contexte d’activation](activation-context-reference.md).
 
 
 

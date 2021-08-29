@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: de5689968d44277b01d6cb2256d41ddbbe573cd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b04859406a2600650caa1d822215291a84656d6909740008c2a87a9787f87a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501009"
 ---
 # <a name="msvm_guestserviceinterfacecomponentrequeststatechange-method"></a>MSVM \_ GuestServiceInterfaceComponent :: RequestStateChange, méthode
 
@@ -155,7 +155,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Code/valeur de retour                                                                                                                                                                       | Description         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                           | Opération réussie.<br/> |
+| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                           | Réussite.<br/> |
 | <dl> <dt>**Non pris en charge**</dt> <dt>1</dt> </dl>                                     |                     |
 | <dl> <dt>**Erreur 2 inconnue/non spécifiée**</dt> <dt></dt> </dl>                         |                     |
 | <dl> <dt>**Impossible de se terminer dans le délai d’expiration**</dt> <dt>3</dt> </dl>            |                     |
@@ -181,7 +181,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\\\\\Virtualisation racine \\ v2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

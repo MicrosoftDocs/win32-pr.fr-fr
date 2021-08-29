@@ -3,7 +3,7 @@ title: Message MCIWNDM_VALIDATEMEDIA (VFW. h)
 description: Le \_ message MCIWNDM VALIDATEMEDIA met à jour les emplacements de début et de fin du contenu, la position actuelle dans le contenu et le TrackBar en fonction du format d’heure actuel.
 ms.assetid: 98ac6227-fc90-4276-8e26-2bd005e35dc6
 keywords:
-- Message MCIWNDM_VALIDATEMEDIA Windows Multimedia
+- message MCIWNDM_VALIDATEMEDIA Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43cb6e6a4a7c320d4eb6472c3c72da2843d0814c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2db79f5714a9f48a2fdd73ff6eedecd0a14172e352e0a40ffbdccdd3aaaf4c2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428529"
 ---
 # <a name="mciwndm_validatemedia-message"></a>\_Message MCIWNDM VALIDATEMEDIA
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, vous n’avez pas besoin d’utiliser cette macro. Toutefois, si votre application modifie le format d’heure d’un appareil sans utiliser MCIWnd ; les emplacements de début et de fin du contenu, ainsi que le TrackBar, continuent à utiliser l’ancien format. Vous pouvez utiliser cette macro pour mettre à jour ces valeurs.
 

@@ -1,6 +1,6 @@
 ---
 description: 'Méthode Shell. BrowseForFolder : crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de renvoyer l’objet Folder du dossier sélectionné.'
-title: Shell. BrowseForFolder, méthode (shldisp. h)
+title: Shell.BrowseForFolder, méthode (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4cc44e5a-3578-448b-9b19-1b71e1ae2cb9
-ms.openlocfilehash: 26677173cce2b72d1a0ba6bdc941cd2407908712
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: e8d2499e130363e25d21cd3cbeb8e27d3b14ba9fc3a88f670084a82ffda2c098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883889"
 ---
 # <a name="shellbrowseforfolder-method"></a>Shell. BrowseForFolder, méthode
 
@@ -87,11 +87,11 @@ Valeur **entière** qui contient les options de la méthode. Il peut s’agir de
 
 Type : **variante**
 
-Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut pas parcourir plus haut dans l’arborescence que ce dossier. Si cette valeur n’est pas spécifiée, le dossier racine utilisé dans la boîte de dialogue est le bureau. Cette valeur peut être une chaîne qui spécifie le chemin d’accès du dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . Notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
+Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut pas parcourir plus haut dans l’arborescence que ce dossier. Si cette valeur n’est pas spécifiée, le dossier racine utilisé dans la boîte de dialogue est le bureau. Cette valeur peut être une chaîne qui spécifie le chemin d’accès du dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -107,9 +107,9 @@ Référence d’objet à l’objet [**dossier**](folder.md) du dossier sélectio
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **BrowseForFolder** pour afficher une fenêtre de navigation intitulée « example » enracinée dans le dossier Windows. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+l’exemple suivant utilise **BrowseForFolder** pour afficher une fenêtre de navigation intitulée « example » enracinée dans le dossier Windows. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -177,13 +177,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

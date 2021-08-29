@@ -14,12 +14,12 @@ keywords:
 - contrôle des données de frame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a577847dc20883c84af680d1c39e285a6085e70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f4cc9195a6c6032ee467f9d353b1dc57c1be0a03781a3b695ccb5453965f8cfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787309"
 ---
 # <a name="accessing-and-controlling-dwm-frame-data"></a>Accès et contrôle des données de frame DWM
 
@@ -37,9 +37,9 @@ Les fonctions de planification et de présentation multimédia sont les suivante
 -   [**DwmSetDxFrameDuration**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration). Définit le nombre d’actualisations dans lesquelles afficher le frame présenté.
 -   [**DwmSetPresentParameters**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters). Définit les paramètres présents pour la composition de frame.
 
- 
+ 
 
- 
+ 
 
 
 

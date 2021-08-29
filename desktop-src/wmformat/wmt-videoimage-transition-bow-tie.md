@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f77cd2782bad6e4f83b5a4d1e719b0c21d704fefd2d4cccacfc0690a4fb0fa4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45b61314709f6b0000281ac54e10f8aa702a9b24
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117843950"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471515"
 ---
 # <a name="wmt_videoimage_transition_bow_tie"></a>\_liaison d' \_ étrave de transition VIDEOIMAGE \_ WMT \_
 
@@ -31,50 +31,14 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Largeur</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Largeur de chaque côté triangulaire de l’égalité d’étrave.</td>
-</tr>
-<tr class="even">
-<td>Hauteur</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Hauteur de chaque côté triangulaire de l’égalité d’étrave.</td>
-</tr>
-<tr class="odd">
-<td>Sens</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie l’effet de lien d’étrave horizontal, dans lequel les triangles entrent à partir des côtés droit et gauche du cadre.</li>
-<li>1-spécifie l’effet de lien d’inclinaison vertical, dans lequel les triangles entrent en haut et en bas du cadre.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Largeur | <strong>fEffectPara0</strong> | Largeur de chaque côté triangulaire de l’égalité d’étrave. | 
+| Hauteur | <strong>fEffectPara1</strong> | Hauteur de chaque côté triangulaire de l’égalité d’étrave. | 
+| Sens | <strong>fEffectPara2</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie l’effet de lien d’étrave horizontal, dans lequel les triangles entrent à partir des côtés droit et gauche du cadre.</li><li>1-spécifie l’effet de lien d’inclinaison vertical, dans lequel les triangles entrent en haut et en bas du cadre.</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan.</li></ul> | 
+
 
 
 

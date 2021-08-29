@@ -3,7 +3,7 @@ title: Controls. currentAudioLanguageIndex
 description: La propriété currentAudioLanguageIndex spécifie ou récupère l’index de base un qui correspond au langage audio pour la lecture.
 ms.assetid: 9a1ae887-4e64-4758-a8a2-bf2e10a7a5c7
 keywords:
-- Controls. currentAudioLanguageIndex Windows Media Player
+- controls. currentAudioLanguageIndex Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1eb87873170c486782368f431f4fa8e3597b20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e783d42b957df40320b7c26814f7f05e93b94030518f45dc4b40d76f9ed32bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763869"
 ---
 # <a name="controlscurrentaudiolanguageindex"></a>Controls. currentAudioLanguageIndex
 
@@ -34,9 +34,9 @@ player.controls.currentAudioLanguageIndex
 
 Cette propriété est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
 Utilisez la propriété **audioLanguageCount** pour connaître le nombre de langues audio prises en charge.
 

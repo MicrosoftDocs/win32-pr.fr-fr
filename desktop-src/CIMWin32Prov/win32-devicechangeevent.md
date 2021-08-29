@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0f97ab262d95b70a69b06e15202a78d5c1364f90
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3599661e1801c65b0cfc3b8a1cae0f9e3e820ce0b2cdb6aab9266e8e67f70338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816629"
 ---
 # <a name="win32_devicechangeevent-class"></a>\_Classe DeviceChangeEvent Win32
 
@@ -130,7 +130,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **\_ DeviceChangeEvent Win32** est une classe abstraite dérivée de [**\_ \_ ExtrinsicEvent**](/windows/desktop/WmiSdk/--extrinsicevent).
 

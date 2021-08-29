@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e9680106c3346c8688daf629d8fa858b9239554b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e0b6eefa503d6f868cd8b4aeb51c499c73c76e1f4f097581cdf4959c616495c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117009"
 ---
 # <a name="esentrollbackerrorexception-constructor"></a>Constructeur EsentRollbackErrorException
 

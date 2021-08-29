@@ -3,7 +3,7 @@ title: Message MMIOM_OPEN (mmsystem. h)
 description: Le \_ message MMIOM Open est envoyé à une procédure d’e/s par la fonction mmioOpen pour demander l’ouverture ou la suppression d’un fichier.
 ms.assetid: 02b2cf22-21a3-4f49-b90e-7b44478c0168
 keywords:
-- Message MMIOM_OPEN Windows Multimedia
+- message MMIOM_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9ea2b5ddc0c79cb3efe00038a628373ce3665bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74cb4c54a7f35fe426cf528d5eb9e076a44bf4b7e06744628ba65fe1bf7cb410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106538818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065369"
 ---
 # <a name="mmiom_open-message"></a>MMIOM \_ ouvrir le message
 
@@ -67,7 +67,7 @@ Retourne MMSYSERR \_ NOerreur en cas de réussite ou une erreur dans le cas cont
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **dwFlags** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) contient des indicateurs passés à la fonction [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) .
 
@@ -83,7 +83,7 @@ Si l’application a passé une structure [**MMIOINFO**](/previous-versions//dd7
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

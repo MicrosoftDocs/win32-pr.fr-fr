@@ -1,19 +1,19 @@
 ---
-title: Barres d’État (contrôles Windows)
+title: barres d’état (contrôles de Windows)
 description: Une barre d’État est une fenêtre horizontale au bas d’une fenêtre parente dans laquelle une application peut afficher différents types d’informations d’État.
 ms.assetid: vs|controls|~\controls\status\status.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2d1130b25cf0dc6373021e063210b765aa34a5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: dc75802c7aa478a8bc02cf67bb8474a4535239261f3b398f564a9ad25a15f96d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816322"
 ---
-# <a name="status-bars-windows-controls"></a>Barres d’État (contrôles Windows)
+# <a name="status-bars-windows-controls"></a>barres d’état (contrôles de Windows)
 
-Une *barre d’État* est une fenêtre horizontale au bas d’une fenêtre parente dans laquelle une application peut afficher différents types d’informations d’État. La barre d’État peut être divisée en parties pour afficher plusieurs types d’informations. La capture d’écran suivante montre la barre d’État dans l’application Microsoft Windows Paint. Dans ce cas, la barre d’état contient le texte « pour obtenir de l’aide, cliquez sur rubriques d’aide dans le menu aide ». La barre d’État est la zone en bas de la fenêtre qui contient le texte d’aide et des informations de coordonnées.
+Une *barre d’État* est une fenêtre horizontale au bas d’une fenêtre parente dans laquelle une application peut afficher différents types d’informations d’État. La barre d’État peut être divisée en parties pour afficher plusieurs types d’informations. la capture d’écran suivante montre la barre d’état dans l’application Microsoft Windows Paint. Dans ce cas, la barre d’état contient le texte « pour obtenir de l’aide, cliquez sur rubriques d’aide dans le menu aide ». La barre d’État est la zone en bas de la fenêtre qui contient le texte d’aide et des informations de coordonnées.
 
 ![capture d’écran de l’application Paint, avec une barre d’État qui contient des indications sur l’aide en ligne](images/sb-paint.png)
 

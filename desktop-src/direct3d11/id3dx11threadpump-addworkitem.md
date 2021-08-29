@@ -1,6 +1,6 @@
 ---
 title: Méthode ID3DX11ThreadPump AddWorkItem (D3DX11core. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Ajoute un élément de travail à la pompe de thread.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Ajoute un élément de travail à la pompe de thread.'
 ms.assetid: 2578506c-6175-457a-bf10-94929bb3c0c4
 keywords:
 - Méthode AddWorkItem Direct3D 11
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf249405bd71287f93444ae8d23dab694027360
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: bbf0fda0ef2410ea7bd2e08a350d1e56e85c1beb999568ccfa4a653db1e22212
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119659"
 ---
 # <a name="id3dx11threadpumpaddworkitem-method"></a>ID3DX11ThreadPump :: AddWorkItem, méthode
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -93,7 +93,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

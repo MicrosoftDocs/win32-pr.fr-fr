@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e714b7c03e898b29b1ae02e3b19d65fde8dfcb91
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97346420f709707a239d7558fd871be1e685bb83301b06d37b1910e596515c2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125249"
 ---
 # <a name="imsrdpclienttransportsettings2gatewayencryptedotpcookiesize-property"></a>IMsRdpClientTransportSettings2 :: GatewayEncryptedOtpCookieSize, propriété
 

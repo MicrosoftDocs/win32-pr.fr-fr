@@ -4,12 +4,12 @@ ms.assetid: e9243c05-e943-4a42-ab73-e684900fc81d
 title: Modification des fonctions de comparaison du tampon de profondeur (D3D9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7589ea0035376c6e73bcb70a73fcca3b913c9ecc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11bdbb808b84fd95eb36e3ea66c4e6faf882826faf8a8c2ab3ed3b9b06f9da79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989319"
 ---
 # <a name="changing-depth-buffer-comparison-functions-d3d9"></a>Modification des fonctions de comparaison du tampon de profondeur (D3D9)
 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ff5356591db6ccd20de720efd898387240075f19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c84038dcaaed7fe56c06d195e269c4bb03f1c18a58b4ec4490dc8cae541b9a54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928359"
 ---
 # <a name="iamtimelinecompvtrackinsbefore-method"></a>IAMTimelineComp :: VTrackInsBefore, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                   | Description                               |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | Argument non valide.<br/>              |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | L’objet n’est pas une piste virtuelle.<br/> |
 
@@ -76,7 +76,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque piste virtuelle de la composition a un niveau de priorité unique. Les niveaux de priorité sont compris entre 0 et *n* -1, où *n* est le nombre de pistes virtuelles dans la composition. Pour les groupes vidéo, une piste virtuelle masque toutes les pistes virtuelles avec un niveau de priorité inférieur, sauf dans les endroits où la piste est vide ou contient une transition. Vous pouvez considérer les pistes virtuelles comme des couches dans la composition finale. La piste 1 est superposée au-dessus de la piste 0, la piste 2 est superposée au-dessus de la piste 1, et ainsi de suite.
 
@@ -92,7 +92,7 @@ Si la priorité spécifiée est supérieure au nombre actuel de suivis dans la c
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d616cfe856a19f4f8ffa5254254d3946b1544dc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7f7ced03d841d71e104384fff3f7abdfdd13890746f8052cf43264dacd22c03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083793"
 ---
 # <a name="wmdrm_import_content_key-structure"></a>\_Structure de \_ clé du contenu d’importation WMDRM \_
 
@@ -96,7 +96,7 @@ Adresse d’une mémoire tampon contenant la clé de contenu. La taille de la m�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure, y compris la mémoire tampon qui contient la clé de session, doit être chiffrée à l’aide de la clé de session et incluse dans le membre **pbEncryptedKeyMessage** de la structure d' [**importation/ \_ exportation \_ \_ WMDRM**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct) .
 
@@ -106,9 +106,9 @@ Cette structure, y compris la mémoire tampon qui contient la clé de session, d
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                      |
-| Version<br/>                  | SDK Windows Media format 11<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                      |
+| Version<br/>                  | Windows Kit de développement logiciel (SDK) Media format 11<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>Drmexternals. h</dt> </dl> |
 
 

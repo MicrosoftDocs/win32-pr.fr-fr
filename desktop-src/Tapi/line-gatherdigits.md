@@ -4,12 +4,12 @@ ms.assetid: 0d27904d-9743-44bf-a7bc-132459351e01
 title: Message LINE_GATHERDIGITS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f0c67c5a9bbd3f798a8f4343b36c311309633ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0b430f19d2a06b14c3412989d860205d6fda0ca7a698b83ef559016b3f0ba798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140152"
 ---
 # <a name="line_gatherdigits-message"></a>\_Message GATHERDIGITS de ligne
 
@@ -57,7 +57,7 @@ Inutilisé.
 *dwParam3* 
 </dt> <dd>
 
-« Nombre de cycles » (nombre de millisecondes écoulées depuis le démarrage de Windows) à partir duquel la collecte des chiffres est terminée. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
+le « nombre de cycles » (nombre de millisecondes depuis Windows démarré) à partir duquel la collecte des chiffres est terminée. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ GATHERDIGITS** est envoyé à l’application qui a initié la collecte des chiffres sur l’appel à l’aide de [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits).
 

@@ -5,12 +5,12 @@ ms.assetid: 0c837771-83fc-42a8-aadd-48e2a332c623
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ff139dc39ab59e0e1078db4c1ddbde7ecd76f7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fac725a2f6505d880e24ce198b5eddc57a262e5ae6e1f1c201263a4e0e2853d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533199"
 ---
 # <a name="abstract-classes"></a>classes abstraites
 
@@ -20,8 +20,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Country**](c-country.md)  
 [**Appareil**](c-device.md)  
@@ -40,8 +40,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Domaine**](c-domain.md)  
 [**IPSec-de base**](c-ipsecbase.md)  
@@ -55,8 +55,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Domaine**](c-domain.md)  
 [**Feuille**](c-leaf.md)  
 [**Retour au début**](c-top.md)  
@@ -66,8 +66,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Domaine**](c-domain.md)  
 [**IPSec-de base**](c-ipsecbase.md)  
@@ -81,8 +81,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Domaine**](c-domain.md)  
 [**IPSec-de base**](c-ipsecbase.md)  
@@ -96,8 +96,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Domaine**](c-domain.md)  
 [**IPSec-de base**](c-ipsecbase.md)  
@@ -111,8 +111,8 @@ Voici les classes abstraites définies par Active Directory.
 
 <dl>
 
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Domaine**](c-domain.md)  
 [**IPSec-de base**](c-ipsecbase.md)  
@@ -123,9 +123,9 @@ Voici les classes abstraites définies par Active Directory.
 [**Retour au début**](c-top.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

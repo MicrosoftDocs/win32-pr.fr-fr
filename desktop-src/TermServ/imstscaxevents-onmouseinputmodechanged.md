@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dbfef19aa79ba634a13d92b8d11866b8016e893
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c86ce3ba30dae836077189b79553e5e39b16f53f9846f41216697d110d1dfb20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512249"
 ---
 # <a name="imstscaxeventsonmouseinputmodechanged-method"></a>IMsTscAxEvents :: OnMouseInputModeChanged, méthode
 
@@ -54,7 +54,7 @@ Indique si la souris est en mode relatif.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Implémentez cette méthode dans votre récepteur d’événements pour recevoir une notification indiquant que le mode de saisie de la souris a changé.
 

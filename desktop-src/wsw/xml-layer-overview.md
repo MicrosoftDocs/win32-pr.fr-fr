@@ -3,17 +3,17 @@ title: Vue d’ensemble de la couche XML
 description: L’API XML dans WWSAPI est basée sur les objets lecteur XML et Writer XML, qui autorisent la lecture ou l’écriture de documents XML en mode avant uniquement. La couche XML offre à l’application un accès complet et un contrôle sur le contenu des messages.
 ms.assetid: 938ca257-fbb8-4569-b791-2148abb1a5a5
 keywords:
-- Vue d’ensemble des couches XML Services Web pour Windows
+- Vue d’ensemble de la couche XML Services Web pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9b5d062754adea7b48bd42a6a501ce17d0e332b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f8572a9b1d56935c6eb1a09455038b5837bca681a4e07d8ebd85bbb61610ce82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082973"
 ---
 # <a name="xml-layer-overview"></a>Vue d’ensemble de la couche XML
 
@@ -263,9 +263,9 @@ WsGetNamespaceFromPrefix     // Find a namespace bound to a prefix
 WsGetXmlAttribute            // Find an "xml:space" or "xml:lang" attribute in scope
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ MSHAttr:
 title: ProfileCreationType (dans MBNProfileExt)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 652d406689219c8a535e0a75ae7123180c7530a6
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 719e95406be13c6b47b6db32ec2c9f28fab0bde3
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885405"
+ms.locfileid: "122986872"
 ---
 # <a name="span-idwwan_profile_v4element_profilecreationtypespanprofilecreationtype-in-mbnprofileext"></a><span id="WWAN_profile_v4.element_ProfileCreationType"></span>ProfileCreationType (dans MBNProfileExt)
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur cet élément, consultez la documentation de l’
 [&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
 **&lt;ProfileCreationType&gt;**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <ProfileCreationType>
@@ -61,10 +61,12 @@ Les éléments suivants portent le même nom que celui-ci, mais ils ont un conte
 
 -   **[ProfileCreationType (dans ModemDMConfigProfile)](element-1-profilecreationtype.md)**
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

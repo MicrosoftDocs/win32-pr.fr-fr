@@ -4,12 +4,12 @@ ms.assetid: a0b38e2b-2390-49e5-b288-77c31636e696
 title: Message d’SPFILENOTIFY_FILEOPDELAYED (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38975506ff998ec09c4549ec95d9ddb620466cf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4c3034e7e3114bb3c55db48850cbe276c66702fc44cd67e54f0f1b47c93a2d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665099"
 ---
 # <a name="spfilenotify_fileopdelayed-message"></a>\_Message SPFILENOTIFY FILEOPDELAYED
 
@@ -85,8 +85,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -95,7 +95,7 @@ La valeur de retour est ignorée.
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

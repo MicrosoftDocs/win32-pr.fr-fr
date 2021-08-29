@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc683472d67775c4a2900695246d5f9ca920ca32
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6ebf9b7d3aa3590417897383f47595fe25baa0d77f0121d64af5242ba0c214d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013467"
 ---
 # <a name="union-attribute"></a>attribut Union
 
@@ -118,14 +118,14 @@ Un ou plusieurs déclarateurs C standard, tels que les identificateurs, les déc
 
 </dd> <dt>
 
-*tag* 
+*étiquette* 
 </dt> <dd>
 
 Spécifie une balise facultative.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MIDL prend en charge deux types d’unions discriminées : les [unions encapsulées](encapsulated-unions.md) et les unions qui ne sont pas [encapsulées](nonencapsulated-unions.md). L’Union encapsulée est compatible avec les implémentations précédentes de RPC (NCA version 1). L’Union non encapsulée élimine certaines des restrictions de l’Union encapsulée et fournit un discriminante plus visible que l’Union encapsulée.
 
@@ -147,7 +147,7 @@ La forme des unions doit être identique sur les plateformes pour garantir l’i
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [Unions qui ne sont pas encapsulées](nonencapsulated-unions.md)
@@ -162,9 +162,9 @@ La forme des unions doit être identique sur les plateformes pour garantir l’i
 [**type de commutateur \_**](switch-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

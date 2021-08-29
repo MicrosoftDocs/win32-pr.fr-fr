@@ -4,12 +4,12 @@ ms.assetid: c8188e28-ec1b-4746-86f6-5996ff271677
 title: Descripteurs de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63a54db1935108ab18666fb460a071d77c50f793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa39768d8467c162fdb0bebae874255c76e20e95750506ba81f32e538e26bc7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927819"
 ---
 # <a name="file-handles"></a>Descripteurs de fichiers
 

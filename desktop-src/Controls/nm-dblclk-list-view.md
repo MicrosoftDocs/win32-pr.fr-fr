@@ -3,7 +3,7 @@ title: Code de notification NM_DBLCLK (mode liste) (commctrl. h)
 description: Envoyé par un contrôle List-View lorsque l’utilisateur double-clique sur un élément avec le bouton gauche de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 28455109-177e-4932-88c5-500a3a91c13a
 keywords:
-- Contrôles Windows de code de notification NM_DBLCLK (mode liste)
+- NM_DBLCLK (mode liste) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: add6af24b4272631be7c2be387a7ffda899469b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c3590b417954f67c454b6cece979bdd6eac4706fa5dfc97b7dda30be6dde183c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919699"
 ---
 # <a name="nm_dblclk-list-view-notification-code"></a>\_DBLCLK nm (mode liste) Code de notification
 
@@ -49,7 +49,7 @@ NM_DBLCLK
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **iItem** de *lParam* est uniquement valide si l’utilisateur clique sur l’étiquette de la première colonne ou sur l’icône. Pour déterminer l’élément sélectionné lorsqu’un clic est effectué ailleurs dans une ligne, envoyez un message [**\_ SUBITEMHITTEST LVM**](lvm-subitemhittest.md) .
 
@@ -59,8 +59,8 @@ Le membre **iItem** de *lParam* est uniquement valide si l’utilisateur clique 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

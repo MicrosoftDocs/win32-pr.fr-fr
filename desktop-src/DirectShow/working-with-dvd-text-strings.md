@@ -4,12 +4,12 @@ ms.assetid: 6d415ebb-5cd0-4631-9404-f2ebabef2476
 title: Utilisation des chaînes de texte de DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d04a786e46c795f028edbe2b955e71715aaefb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a514ff06047e6a35edb3e10c85e1e88aee9b799255c4108e801f64ea44340941
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696689"
 ---
 # <a name="working-with-dvd-text-strings"></a>Utilisation des chaînes de texte de DVD
 

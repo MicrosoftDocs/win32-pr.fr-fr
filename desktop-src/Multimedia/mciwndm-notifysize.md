@@ -3,7 +3,7 @@ title: Message MCIWNDM_NOTIFYSIZE (VFW. h)
 description: Le \_ message MCIWNDM NOTIFYSIZE avertit la fenêtre parente d’une application que la taille de la fenêtre a changé.
 ms.assetid: 76e1f663-bfc6-4d3c-9486-c8c7f79e4265
 keywords:
-- Message MCIWNDM_NOTIFYSIZE Windows Multimedia
+- message MCIWNDM_NOTIFYSIZE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59db02d69302127937a7203729de9cc8b98a58f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6793aa6d0e0f3001a5c8c76b34ed6bbd1011ba17441fd709ee016d9d161a97b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525379"
 ---
 # <a name="mciwndm_notifysize-message"></a>\_Message MCIWNDM NOTIFYSIZE
 
@@ -45,7 +45,7 @@ Handle vers la fenêtre MCIWnd.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez activer la notification des modifications de la taille d’une fenêtre MCIWnd en spécifiant le \_ style de fenêtre NOTIFYSIZE MCIWNDF.
 

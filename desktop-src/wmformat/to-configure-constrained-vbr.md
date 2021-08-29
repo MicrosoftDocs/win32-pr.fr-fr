@@ -13,12 +13,12 @@ keywords:
 - profils, configuration du VBR restreint
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98d4e2a1bbea1b724fdde1cc820f19caf9dd77be
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84d4f9546d67040bb5fb1aa5e43de34323679fe27aaf26826b57c3f0307c1181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929239"
 ---
 # <a name="to-configure-constrained-vbr"></a>Pour configurer le VBR restreint
 
@@ -44,12 +44,12 @@ Pour configurer un flux dans un profil afin d’utiliser l’encodage VBR restre
 
 <dl> <dt>
 
-[**Configuration de flux VBR**](configuring-vbr-streams.md)
+[**Configuration de VBR Flux**](configuring-vbr-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

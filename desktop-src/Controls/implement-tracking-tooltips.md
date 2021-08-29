@@ -4,12 +4,12 @@ description: Les info-bulles de suivi restent visibles jusqu’à ce qu’elles 
 ms.assetid: 4BE1F9E6-92B6-4CA7-B89A-F2162BC86366
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a614fef7ed69cd8c2763f9370ce0011d51eb0c82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9b2aaf7475f6a4823e0628ab7010ae32bb8424ef0e90e52396ee20cbc7c7e35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085592"
 ---
 # <a name="how-to-implement-tracking-tooltips"></a>Comment implémenter des info-bulles de suivi
 
@@ -24,16 +24,16 @@ Le message [**atténuation \_ TRACKPOSITION**](ttm-trackposition.md) fait en sor
 -   Par défaut, l’info-bulle est affichée à côté de l’outil correspondant dans une position choisie par le contrôle. L’emplacement choisi est relatif aux coordonnées que vous fournissez à l’aide de ce message.
 -   Si vous incluez la valeur de **ttf \_ Absolute** dans le membre de la structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) , l’info-bulle est affichée à l’emplacement de pixel spécifié dans le message. Dans ce cas, le contrôle ne tente pas de modifier l’emplacement de la fenêtre d’info-bulle à partir des coordonnées que vous fournissez.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -44,7 +44,7 @@ Le membre **uFlags** de la structure [**TOOLINFO**](/windows/win32/api/commctrl/
 > [!Note]  
 > `g_toolItem` est une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) globale.
 
- 
+ 
 
 L’exemple suivant montre comment créer un contrôle ToolTip de suivi. L’exemple spécifie la zone cliente entière de la fenêtre principale comme outil.
 
@@ -165,9 +165,9 @@ case WM_MOUSEMOVE:
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,33 +1,33 @@
 ---
-description: L’exemple de PUASample.msi est un exemple de package Windows Installer 5,0 à double usage qui peut être installé dans le contexte d’installation par utilisateur ou par ordinateur sur Windows Server 2008 R2 et Windows 7.
+description: l’exemple de PUASample.msi est un exemple de package Windows Installer 5,0 à double usage qui peut être installé dans le contexte d’installation par utilisateur ou par ordinateur sur Windows Server 2008 R2 et Windows 7.
 ms.assetid: be018e8a-ca5f-4135-a019-970ec4173f23
 title: Exemple de création de package unique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e0ed56b8d7aaf8793416ba3ecab24c1f2a48ffe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 331ab64623a894082c06613db625c6fb568faf9eb16d67af995b89aee9bdfbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628239"
 ---
 # <a name="single-package-authoring-example"></a>Exemple de création de package unique
 
-L’exemple de PUASample.msi est un exemple de package Windows Installer 5,0 à double usage qui peut être installé dans le [contexte d’installation](installation-context.md) par utilisateur ou par ordinateur sur windows Server 2008 R2 et Windows 7. Cet exemple de package suit les instructions de développement décrites dans [création de package unique](single-package-authoring.md).
+l’exemple de PUASample.msi est un exemple de package Windows Installer 5,0 à double usage qui peut être installé dans le [contexte d’installation](installation-context.md) par utilisateur ou par ordinateur sur Windows Server 2008 R2 et Windows 7. Cet exemple de package suit les instructions de développement décrites dans [création de package unique](single-package-authoring.md).
 
 ## <a name="obtaining-a-copy-of-the-sample"></a>Obtention d’une copie de l’exemple
 
-Une copie de cet exemple et d’un Windows Installer éditeur de table de base de données, Orca.exe, se trouvent dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). L’exemple et l’éditeur de table sont fournis avec le kit de développement logiciel (SDK) Windows pour Windows Server 2008 R2 et Windows 7 en tant que fichiers d’installation Windows Installer PUASample1.msi et Orca.msi.
+une copie de cet exemple et d’un Windows Installer éditeur de table de base de données, Orca.exe, se trouvent dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). l’exemple et l’éditeur de table sont fournis avec le Kit de développement logiciel (sdk) Windows pour Windows Server 2008 R2 et Windows 7 en tant que fichiers d’installation Windows Installer PUASample1.msi et Orca.msi.
 
 ## <a name="system-requirements"></a>Configuration requise
 
-L’éditeur de base de données, [Orca.exe](orca-exe.md), requiert windows Server 2008 R2 et versions antérieures, ainsi que Windows 7 et versions antérieures. Le package à double usage, PUASample1.msi, peut être installé dans le [contexte d’installation](installation-context.md) par ordinateur ou par utilisateur sur windows Server 2008 R2 et Windows 7. PUASample1.msi peut être installé uniquement dans le contexte par ordinateur sur Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures. Vous pouvez installer l’éditeur de base de données pour examiner le contenu de PUASample1.msi sans installer l’exemple. Pour installer les packages de l’exemple ou de l’éditeur, vérifiez que la stratégie [DisableMSI](disablemsi.md) n’est pas définie sur une valeur qui bloque les installations d’applications.
+l’éditeur de base de données, [Orca.exe](orca-exe.md), requiert Windows Server 2008 R2 et versions antérieures, ainsi que Windows 7 et versions antérieures. le package à double usage, PUASample1.msi, peut être installé dans le [contexte d’installation](installation-context.md) par ordinateur ou par utilisateur sur Windows Server 2008 R2 et Windows 7. PUASample1.msi peut être installé uniquement dans le contexte par ordinateur sur Windows Server 2008 et versions antérieures, et Windows Vista et versions antérieures. Vous pouvez installer l’éditeur de base de données pour examiner le contenu de PUASample1.msi sans installer l’exemple. Pour installer les packages de l’exemple ou de l’éditeur, vérifiez que la stratégie [DisableMSI](disablemsi.md) n’est pas définie sur une valeur qui bloque les installations d’applications.
 
 ## <a name="identifying-a-dual-purpose-package"></a>Identification d’un package Dual-Purpose
 
-Les packages à double usage doivent initialiser la valeur de la propriété [**MSIINSTALLPERUSER**](msiinstallperuser.md) sur 1. Cela permet d’identifier le package comme étant en mesure de l’installer dans le contexte par ordinateur ou par utilisateur sur Windows Server 2008 R2 et Windows 7. Définissez la propriété **MSIINSTALLPERUSER** dans le package uniquement si elle a été écrite conformément aux instructions de développement décrites dans [création de package unique](single-package-authoring.md) et, si vous envisagez de fournir aux utilisateurs la possibilité d’installer le package dans le contexte par utilisateur ou par ordinateur. Un package à double usage doit également initialiser la valeur de la propriété [**ALLUSERS**](allusers.md) à 2. Cela spécifie par utilisateur comme contexte d’installation par défaut pour l’application. Si la valeur de la propriété **ALLUSERS** est différente de 2, Windows Installer ignore la propriété **MSIINSTALLPERUSER** .
+Les packages à double usage doivent initialiser la valeur de la propriété [**MSIINSTALLPERUSER**](msiinstallperuser.md) sur 1. cela permet d’identifier le package comme étant en mesure de l’installer dans le contexte par ordinateur ou par utilisateur sur Windows Server 2008 R2 et Windows 7. Définissez la propriété **MSIINSTALLPERUSER** dans le package uniquement si elle a été écrite conformément aux instructions de développement décrites dans [création de package unique](single-package-authoring.md) et, si vous envisagez de fournir aux utilisateurs la possibilité d’installer le package dans le contexte par utilisateur ou par ordinateur. Un package à double usage doit également initialiser la valeur de la propriété [**ALLUSERS**](allusers.md) à 2. Cela spécifie par utilisateur comme contexte d’installation par défaut pour l’application. si la valeur de la propriété **ALLUSERS** est différente de 2, Windows Installer ignore la propriété **MSIINSTALLPERUSER** .
 
-Utilisez un éditeur de base de données Windows Installer, tel que [Orca.exe](orca-exe.md), pour examiner le contenu de PUASample1.msi. La table des [Propriétés](property-table.md) de l’exemple de package contient les deux entrées suivantes.
+utilisez un éditeur de base de données Windows Installer, tel que [Orca.exe](orca-exe.md), pour examiner le contenu de PUASample1.msi. La table des [Propriétés](property-table.md) de l’exemple de package contient les deux entrées suivantes.
 
 [Propriété](property-table.md) Table (partielle)
 
@@ -46,7 +46,7 @@ L' [interface utilisateur](user-interface.md) de l’exemple de package contient
 
 [Boîte de dialogue](dialog-table.md) Table (partielle) 
 
-| Boîte de dialogue            | HCentering | VCentering | Largeur | Hauteur | Attributs | Intitulé           | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
+| Boîte de dialogue            | HCentering | VCentering | Largeur | Hauteur | Attributs | Titre           | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
 |-------------------|------------|------------|-------|--------|------------|-----------------|----------------|------------------|-----------------|
 | VerifyReadyDialog | 50         | 50         | 480   | 280    | 39         | \[ProductName\] | InstallPerUser | Suivant             | Annuler          |
 
@@ -58,7 +58,7 @@ La table de [contrôle](control-table.md) contient des entrées pour les [contr�
 
 [Contrôle](control-table.md) Table (partielle)
 
-| Dialogue\_          | Contrôler           | Type       | Attribut | Texte                                                   | Contrôle \_ suivant     |
+| Boîte de dialogue\_          | Contrôler           | Type       | Attribut | Texte                                                   | Contrôle \_ suivant     |
 |-------------------|-------------------|------------|-----------|--------------------------------------------------------|-------------------|
 | VerifyReadyDialog | Annuler            | Boutons | 3         | { \\ Tahoma10} &annuler                                    | Suivant              |
 | VerifyReadyDialog | Précédente          | Boutons | 3         | { \\ Tahoma10} <<&précédent                          | Annuler            |
@@ -76,7 +76,7 @@ La table [ControlEvent,](controlevent-table.md) spécifie le [ControlEvents](con
 
 [ControlEvent,](controlevent-table.md) Table (partielle) 
 
-| Dialogue\_          | contrôle\_         | Événement                 | Argument  | Condition                 | Commande |
+| Boîte de dialogue\_          | contrôle\_         | Événement                 | Argument  | Condition                 | Commande |
 |-------------------|-------------------|-----------------------|-----------|---------------------------|-------|
 | VerifyReadyDialog | InstallPerUser    | SpawnDialog           | OutOfDisk | OutOfDiskSpace = 1        | 1     |
 | VerifyReadyDialog | InstallPerUser    | EndDialog             | Renvoie    | OutOfDiskSpace <> 1 | 5     |
@@ -91,11 +91,11 @@ La table [ControlEvent,](controlevent-table.md) spécifie le [ControlEvents](con
 
  
 
-Le contrôle InstallPerUser doit être supprimé de l’interface utilisateur de toute installation à l’aide d’une Windows Installer version antérieure à Windows Installer Windows Installer 5,0. La table [ControlCondition](controlcondition-table.md) de l’exemple de package contient quatre entrées qui désactivent et masquent le contrôle InstallPerUser si la version actuelle est inférieure à Windows Installer 5,0. La table utilise la valeur de la propriété [**VersionMsi**](versionmsi.md) et la [syntaxe d’instruction conditionnelle](conditional-statement-syntax.md) pour définir cette condition. L’action spécifiée dans le champ action est exécutée uniquement si l’instruction dans le champ condition a la valeur true.
+le contrôle InstallPerUser doit être supprimé de l’interface utilisateur de toute installation à l’aide d’une Windows Installer version antérieure à Windows Installer Windows Installer 5,0. la table [ControlCondition](controlcondition-table.md) de l’exemple de package contient quatre entrées qui désactivent et masquent le contrôle InstallPerUser si la version actuelle est inférieure à Windows Installer 5,0. La table utilise la valeur de la propriété [**VersionMsi**](versionmsi.md) et la [syntaxe d’instruction conditionnelle](conditional-statement-syntax.md) pour définir cette condition. L’action spécifiée dans le champ action est exécutée uniquement si l’instruction dans le champ condition a la valeur true.
 
 [ControlCondition](controlcondition-table.md) Table (partielle)
 
-| Dialogue\_          | contrôle\_      | Action  | Condition               |
+| Boîte de dialogue\_          | contrôle\_      | Action  | Condition               |
 |-------------------|----------------|---------|-------------------------|
 | VerifyReadyDialog | InstallPerUser | Activer  | VersionMsi >= « 5,00 » |
 | VerifyReadyDialog | InstallPerUser | Désactiver | VersionMsi < « 5,00 »  |
@@ -108,7 +108,7 @@ Le contrôle InstallPerUser doit être supprimé de l’interface utilisateur de
 
 ## <a name="specifying-directory-structure"></a>Spécification de la structure de répertoires
 
-Utilisez l’éditeur de base de données pour examiner la table de [répertoire](directory-table.md) de PUASample1.msi. L’enregistrement de la table de répertoire ayant une chaîne vide dans son \_ champ parent de répertoire représente le répertoire racine des arborescences de répertoires source et cible. Si la propriété [**targetDir**](targetdir.md) n’est pas définie, le programme d’installation définit sa valeur au moment de l’installation sur la valeur de la propriété [**ROOTDRIVE**](rootdrive.md) . Si la propriété [**SourceDir**](sourcedir.md) n’est pas définie, le programme d’installation définit sa valeur sur l’emplacement du répertoire contenant le package Windows Installer (fichier. msi). Les noms de répertoires sont spécifiés à l’aide du \| format short long.
+Utilisez l’éditeur de base de données pour examiner la table de [répertoire](directory-table.md) de PUASample1.msi. L’enregistrement de la table de répertoire ayant une chaîne vide dans son \_ champ parent de répertoire représente le répertoire racine des arborescences de répertoires source et cible. Si la propriété [**targetDir**](targetdir.md) n’est pas définie, le programme d’installation définit sa valeur au moment de l’installation sur la valeur de la propriété [**ROOTDRIVE**](rootdrive.md) . si la propriété [**SourceDir**](sourcedir.md) n’est pas définie, le programme d’installation définit sa valeur sur l’emplacement du répertoire contenant le Windows Installer package (fichier .msi.) Les noms de répertoires sont spécifiés à l’aide du \| format short long.
 
 [Répertoire](directory-table.md) Table (partielle)
 
@@ -130,13 +130,13 @@ Utilisez l’éditeur de base de données pour examiner la table de [répertoire
 \[SourceDir\]  
 </dl>
 
-Au niveau de la cible, la table de [répertoires](directory-table.md) correspond aux chemins d’accès figurant dans le tableau suivant. Le programme d’installation définit les valeurs des propriétés [**ProgramFilesFolder**](programfilesfolder.md) et [**ProgramMenuFolder**](programmenufolder.md) sur les emplacements qui dépendent du [contexte d’installation](installation-context.md) et indique si le système est la version 32 bits ou 64 bits de Windows Server 2008 R2 et Windows 7. Les chemins d’accès aux dossiers cibles varient selon que l’utilisateur sélectionne une installation par utilisateur ou par ordinateur.
+Au niveau de la cible, la table de [répertoires](directory-table.md) correspond aux chemins d’accès figurant dans le tableau suivant. le programme d’installation définit les valeurs des propriétés [**ProgramFilesFolder**](programfilesfolder.md) et [**ProgramMenuFolder**](programmenufolder.md) sur les emplacements qui dépendent du [contexte d’installation](installation-context.md) et indique si le système est la version 32 bits ou 64 bits de Windows Server 2008 R2 et Windows 7. Les chemins d’accès aux dossiers cibles varient selon que l’utilisateur sélectionne une installation par utilisateur ou par ordinateur.
 
 | Contexte d’installation | Système                                                                              | Exemples de chemins                                                                                                                    |
 |----------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 32 bits<br/>           | % ProgramFiles% \\ msft \\ sample1<br/> % ALLUSERSPROFILE% \\ des \\ \\ programmes du menu démarrer \\ de Microsoft Windows<br/>                  |
-| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 64 bits<br/>           | % ProgramFiles (x86)% \\ msft \\ sample1<br/> % ALLUSERSPROFILE% \\ des \\ \\ programmes du menu démarrer \\ de Microsoft Windows<br/>             |
-| Per-User             | Windows Server 2008 R2 et Windows 7<br/> version 32 bits ou 64 bits<br/> | % USERPROFILE% \\ AppData \\ local \\ Programs \\ msft \\ sample1<br/> % APPDATA% \\ des \\ \\ programmes du menu démarrer \\ de Microsoft Windows<br/> |
+| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 32 bits<br/>           | % ProgramFiles% \\ msft \\ sample1<br/> % ALLUSERSPROFILE% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\<br/>                  |
+| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 64 bits<br/>           | % ProgramFiles (x86)% \\ msft \\ sample1<br/> % ALLUSERSPROFILE% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\<br/>             |
+| Per-User             | Windows Server 2008 R2 et Windows 7<br/> version 32 bits ou 64 bits<br/> | % USERPROFILE% \\ AppData \\ local \\ Programs \\ msft \\ sample1<br/> % APPDATA% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\<br/> |
 
 
 
@@ -148,9 +148,9 @@ Les applications par utilisateur doivent être stockées dans des sous-dossiers 
 
 Les données de configuration par utilisateur doivent être stockées dans le dossier Programs spécifié par la valeur de la propriété [**ProgramMenuFolder**](programmenufolder.md) . En règle générale, ce dossier se trouve à l’emplacement suivant.
 
-% APPDATA% \\ des \\ \\ programmes du menu démarrer \\ de Microsoft Windows
+% APPDATA% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\
 
-Si vous installez des composants [de Package Windows Installer 32 bits](32-bit-windows-installer-packages.md) , utilisez la propriété [**ProgramFilesFolder**](programfilesfolder.md) et [**CommonFilesFolder**](commonfilesfolder.md) dans la table [Directory](directory-table.md) . Si vous installez des composants [de Package Windows Installer 64 bits](64-bit-windows-installer-packages.md) , utilisez les propriétés [**ProgramFiles64Folder**](programfiles64folder.md) et [**CommonFiles64Folder**](commonfiles64folder.md) . Si votre application contient des versions 32 bits et 64 bits du même composant, avec le même nom, assurez-vous que ces versions sont enregistrées dans des répertoires différents ou attribuez-leur des noms différents.
+si vous installez des composants [de Package Windows Installer 32 bits](32-bit-windows-installer-packages.md) , utilisez la propriété [**ProgramFilesFolder**](programfilesfolder.md) et [**CommonFilesFolder**](commonfilesfolder.md) dans la table [Directory](directory-table.md) . si vous installez des composants [de Package Windows Installer 64 bits](64-bit-windows-installer-packages.md) , utilisez les propriétés [**ProgramFiles64Folder**](programfiles64folder.md) et [**CommonFiles64Folder**](commonfiles64folder.md) . Si votre application contient des versions 32 bits et 64 bits du même composant, avec le même nom, assurez-vous que ces versions sont enregistrées dans des répertoires différents ou attribuez-leur des noms différents.
 
 La table de [répertoire](directory-table.md) suivante fournit un exemple de disposition de répertoire compatible avec un package qui inclut des composants 32 bits et 64 bits et inclut certains composants qui sont partagés entre les applications.
 
@@ -196,9 +196,9 @@ Au niveau de la cible, cette table de [répertoires](directory-table.md) corresp
 
 | Contexte d’installation | Système                                                                              | Exemples de chemins                                                                                                                                                                                                                                                                                                                                         |
 |----------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 32 bits<br/>           | % ProgramFiles% \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % ProgramFiles% \\ fichiers communs \\ msft \\ sample1 \\ x32 \\ Shared<br/> % ProgramFiles (x86)% \\ msft \\ sample1 \\ x64 \\<br/> % ProgramFiles (x86)% \\ fichiers communs \\ msft \\ sample1 \\ x64 \\ partagés<br/> % ProgramData% \\ des \\ programmes du menu Démarrer de Microsoft Windows \\ \\ \\ sample1<br/>               |
-| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 64 bits<br/>           | % ProgramFiles (x86)% \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % ProgramFiles (x86)% \\ fichiers communs \\ msft \\ sample1 \\ x32 \\ Shared<br/> % ProgramFiles% \\ msft \\ sample1 \\ x64 \\ MyApp<br/> % ProgramFiles% \\ fichiers communs \\ msft \\ sample1 \\ x64 \\ partagé<br/> % ProgramData% \\ des \\ programmes du menu Démarrer de Microsoft Windows \\ \\ \\ sample1<br/>               |
-| Per-User             | Windows Server 2008 R2 et Windows 7<br/> version 32 bits ou 64 bits<br/> | % LOCALAPPDATA% \\ Programs \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % LOCALAPPDATA% \\ Programs \\ Common \\ msft \\ sample1 \\ x32 \\ Shared<br/> % LOCALAPPDATA% \\ Programs \\ msft \\ sample1 \\ x64 \\ MyApp<br/> % LOCALAPPDATA% \\ Programs \\ Common \\ msft \\ sample1 \\ x64 \\ Shared<br/> % APPDATA% \\ des \\ programmes du menu Démarrer de Microsoft Windows \\ \\ \\ sample1<br/> |
+| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 32 bits<br/>           | % ProgramFiles% \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % ProgramFiles% \\ fichiers communs \\ msft \\ sample1 \\ x32 \\ Shared<br/> % ProgramFiles (x86)% \\ msft \\ sample1 \\ x64 \\<br/> % ProgramFiles (x86)% \\ fichiers communs \\ msft \\ sample1 \\ x64 \\ partagés<br/> % ProgramData% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\ \\ Sample1<br/>               |
+| Per-Machine          | Windows Server 2008 R2 et Windows 7<br/> version 64 bits<br/>           | % ProgramFiles (x86)% \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % ProgramFiles (x86)% \\ fichiers communs \\ msft \\ sample1 \\ x32 \\ Shared<br/> % ProgramFiles% \\ msft \\ sample1 \\ x64 \\ MyApp<br/> % ProgramFiles% \\ fichiers communs \\ msft \\ sample1 \\ x64 \\ partagé<br/> % ProgramData% \\ Microsoft \\ Windows \\ programmes du Menu démarrer \\ \\ Sample1<br/>               |
+| Per-User             | Windows Server 2008 R2 et Windows 7<br/> version 32 bits ou 64 bits<br/> | % LOCALAPPDATA% \\ Programs \\ msft \\ sample1 \\ x32 \\ MonApp<br/> % LOCALAPPDATA% \\ Programs \\ Common \\ msft \\ sample1 \\ x32 \\ Shared<br/> % LOCALAPPDATA% \\ Programs \\ msft \\ sample1 \\ x64 \\ MyApp<br/> % LOCALAPPDATA% \\ Programs \\ Common \\ msft \\ sample1 \\ x64 \\ Shared<br/> % APPDATA% \\ Microsoft \\ Windows les \\ programmes du Menu démarrer \\ \\ Sample1<br/> |
 
 
 
@@ -212,7 +212,7 @@ Le développeur du package définit l’identificateur de fichier du fichier ex�
 
 [Fichier](file-table.md) Table (partielle) 
 
-| Fichier      | -\_      | FileName                     | FileSize | Version | Language | Attributs | Séquence |
+| Fichier      | Composant\_      | FileName                     | FileSize | Version | Langage | Attributs | Séquence |
 |-----------|------------------|------------------------------|----------|---------|----------|------------|----------|
 | MyAppFile | ProductComponent | PUASAMP1.EXE\|PUASample1.exe | 81920    |         |          | 0          | 1        |
 
@@ -220,7 +220,7 @@ Le développeur du package définit l’identificateur de fichier du fichier ex�
 
  
 
-Les valeurs à enregistrer dans le registre peuvent être spécifiées dans le champ de valeur de la table [du Registre](registry-table.md) sous forme de chaîne [mise en forme](formatted.md) . Utilisez l’identificateur de fichier défini dans le champ fichier de la table [file](file-table.md) et la \[ \# convention *filekey* \] du type mis en forme pour spécifier la valeur par défaut de la clé de Registre Paths de l’application. L’action d' [installation](install-action.md) de niveau supérieur effectue les actions dans la table [InstallExecuteSequence](installexecutesequence-table.md) . Une fois les actions [CostInitialize](costinitialize-action.md), [FileCost](filecost-action.md)et [InstallFinalize](installfinalize-action.md) effectuées dans ce tableau, la Windows Installer remplace la sous-chaîne mise en forme \[ \# MyAppFile \] dans la table du Registre par le chemin d’accès complet au fichier d’application.
+Les valeurs à enregistrer dans le registre peuvent être spécifiées dans le champ de valeur de la table [du Registre](registry-table.md) sous forme de chaîne [mise en forme](formatted.md) . Utilisez l’identificateur de fichier défini dans le champ fichier de la table [file](file-table.md) et la \[ \# convention *filekey* \] du type mis en forme pour spécifier la valeur par défaut de la clé de Registre Paths de l’application. L’action d' [installation](install-action.md) de niveau supérieur effectue les actions dans la table [InstallExecuteSequence](installexecutesequence-table.md) . une fois les actions [CostInitialize](costinitialize-action.md), [FileCost](filecost-action.md)et [InstallFinalize](installfinalize-action.md) effectuées dans ce tableau, la Windows Installer remplace la sous-chaîne mise en forme \[ \# MyAppFile \] dans la table du registre par le chemin d’accès complet au fichier d’application.
 
 L’exemple définit une propriété personnalisée, RegRoot, pour contenir l’emplacement de la clé racine et utilise une action personnalisée pour réinitialiser la valeur de la propriété si l’utilisateur choisit une installation par ordinateur. Utilisez la propriété personnalisée, RegRoot, dans toutes les valeurs de chaîne mises en forme qui référencent l’emplacement racine. Dans la table des [Propriétés](property-table.md) , le package PUASample.msi définit la propriété personnalisée et définit la valeur de REGROOT sur HKCU. Cela initialise la valeur de la propriété pour le contexte d’installation par utilisateur, le contexte par défaut recommandé pour les packages à double usage.
 
@@ -264,9 +264,9 @@ Les enregistrements suivants dans la table [du Registre](registry-table.md) effe
 
 | Registre              | Root | Clé                                                                     | Nom | Valeur                                                                            | Composant        |
 |-----------------------|------|-------------------------------------------------------------------------|------|----------------------------------------------------------------------------------|------------------|
-|                       | -1   | Logiciel \\ Microsoft \\ MyAppPathRegistrationLocation                      |      | \[RegRoot \] \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ path \\PUAPCT.exe | ProductComponent |
-| MyAppPathAlias        | -1   | Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ path \\PUAPCT.exe     |      | \[\#MyAppFile\]                                                                  | ProductComponent |
-| MyAppPathRegistration | -1   | Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ path \\PUASample1.exe |      | \[\#MyAppFile\]                                                                  | ProductComponent |
+|                       | -1   | Logiciel \\ Microsoft \\ MyAppPathRegistrationLocation                      |      | \[RegRoot \] \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ App paths \\PUAPCT.exe | ProductComponent |
+| MyAppPathAlias        | -1   | logiciel \\ Microsoft \\ Windows \\ les \\ chemins d’accès d’application CurrentVersion \\PUAPCT.exe     |      | \[\#MyAppFile\]                                                                  | ProductComponent |
+| MyAppPathRegistration | -1   | logiciel \\ Microsoft \\ Windows \\ les \\ chemins d’accès d’application CurrentVersion \\PUASample1.exe |      | \[\#MyAppFile\]                                                                  | ProductComponent |
 
 
 
@@ -274,13 +274,13 @@ Les enregistrements suivants dans la table [du Registre](registry-table.md) effe
 
 ## <a name="autoplay-cancel-registration"></a>Annulation de l’inscription automatique
 
-L' PUASample.msi effectue des inscriptions qui permettent à l’utilisateur de l’application d’empêcher le lancement de l' [exécution automatique du matériel](/previous-versions/windows/desktop/legacy/cc144210(v=vs.85)) pour les appareils sélectionnés. Pour plus d’informations sur l’inscription d’un gestionnaire pour annuler l’exécution automatique en réponse à un événement, consultez la rubrique [préparation du matériel et des logiciels à utiliser avec l’exécution automatique](/previous-versions//cc144208(v=vs.85)) dans la section extensibilité de l' [interpréteur](https://msdn.microsoft.com/library/bb762762.aspx) de commandes dans le [Guide du développeur de l’interpréteur](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85))de commandes. L’enregistrement suivant inscrit le gestionnaire spécifié dans le champ nom lorsque le composant ProductComponent est installé. La valeur-1 dans le champ racine est obligatoire pour spécifier l’Windows Installer que l’inscription doit être redirigée vers un emplacement qui dépend du contexte d’installation.
+L' PUASample.msi effectue des inscriptions qui permettent à l’utilisateur de l’application d’empêcher le lancement de l' [exécution automatique du matériel](/previous-versions/windows/desktop/legacy/cc144210(v=vs.85)) pour les appareils sélectionnés. Pour plus d’informations sur l’inscription d’un gestionnaire pour annuler l’exécution automatique en réponse à un événement, consultez la rubrique [préparation du matériel et des logiciels à utiliser avec l’exécution automatique](/previous-versions//cc144208(v=vs.85)) dans la section extensibilité de l' [interpréteur](https://msdn.microsoft.com/library/bb762762.aspx) de commandes dans le [Guide du développeur de l’interpréteur](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85))de commandes. L’enregistrement suivant inscrit le gestionnaire spécifié dans le champ nom lorsque le composant ProductComponent est installé. la valeur-1 dans le champ racine est obligatoire pour spécifier l’Windows Installer que l’inscription doit être redirigée vers un emplacement qui dépend du contexte d’installation.
 
 [Registre](registry-table.md) Tableau 
 
 | Registre                     | Root | Clé                                                                                             | Nom                                 | Valeur | Composant        |
 |------------------------------|------|-------------------------------------------------------------------------------------------------|--------------------------------------|-------|------------------|
-| MyAutoplayCancelRegistration | -1   | LOGICIEL \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ cancelautoplay \\ CLSID | 66A32FE6-229D-427b-A608-D273F40C034C |       | ProductComponent |
+| MyAutoplayCancelRegistration | -1   | logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ CancelAutoplay \\ CLSID | 66A32FE6-229D-427b-A608-D273F40C034C |       | ProductComponent |
 
 
 
@@ -288,14 +288,14 @@ L' PUASample.msi effectue des inscriptions qui permettent à l’utilisateur de 
 
 ## <a name="preview-handler-registration"></a>Aperçu du gestionnaire d’aperçus
 
-L' PUASample.msi effectue les inscriptions nécessaires à l’installation d’un [Gestionnaire d’aperçus](../shell/preview-handlers.md) qui permet une version d’évaluation en lecture seule des fichiers. PUA sans lancer l’application. Pour plus d’informations sur l’inscription des gestionnaires d’aperçus, consultez la rubrique [inscription des gestionnaires d’aperçus](../shell/how-to-register-a-preview-handler.md) dans la section extensibilité de l' [interpréteur](https://msdn.microsoft.com/library/bb762762.aspx) de commandes dans le Guide du développeur de l' [interpréteur](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85))de commandes. Les enregistrements suivants de la table [du Registre](registry-table.md) inscrivent le gestionnaire lors de l’installation du composant ProductComponent. La valeur-1 dans le champ racine est obligatoire pour spécifier l’Windows Installer que l’inscription doit être redirigée vers un emplacement qui dépend du contexte d’installation.
+L' PUASample.msi effectue les inscriptions nécessaires à l’installation d’un [Gestionnaire d’aperçus](../shell/preview-handlers.md) qui permet une version d’évaluation en lecture seule des fichiers. PUA sans lancer l’application. Pour plus d’informations sur l’inscription des gestionnaires d’aperçus, consultez la rubrique [inscription des gestionnaires d’aperçus](../shell/how-to-register-a-preview-handler.md) dans la section extensibilité de l' [interpréteur](https://msdn.microsoft.com/library/bb762762.aspx) de commandes dans le Guide du développeur de l' [interpréteur](/previous-versions/windows/desktop/legacy/bb776778(v=vs.85))de commandes. Les enregistrements suivants de la table [du Registre](registry-table.md) inscrivent le gestionnaire lors de l’installation du composant ProductComponent. la valeur-1 dans le champ racine est obligatoire pour spécifier l’Windows Installer que l’inscription doit être redirigée vers un emplacement qui dépend du contexte d’installation.
 
 [Registre](registry-table.md) Tableau
 
 | Registre                       | Root | Clé                                                                              | Nom                                   | Valeur                                        | Composant        |
 |--------------------------------|------|----------------------------------------------------------------------------------|----------------------------------------|----------------------------------------------|------------------|
 | MyPreviewHandlerRegistration1  | -1   | Classes de logiciels \\ \\ . PUA                                                          |                                        | puafile                                      | ProductComponent |
-| MyPreviewHandlerRegistration2  | -1   | Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ PreviewHandlers                    | {1531d583-8375-4d3f-b5fb-d23bbd169f22} | Gestionnaire d’aperçus de TEST Microsoft Windows PUA   | ProductComponent |
+| MyPreviewHandlerRegistration2  | -1   | logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ PreviewHandlers                    | {1531d583-8375-4d3f-b5fb-d23bbd169f22} | gestionnaire d’aperçus de TEST Microsoft Windows PUA   | ProductComponent |
 | MyPreviewHandlerRegistration3  | -1   | Classes de logiciels \\ \\ puafile \\ shellex \\ {8895b1c6-B41F-4c1c-A562-0d564250836f}      |                                        | {1531d583-8375-4d3f-b5fb-d23bbd169f22}       | ProductComponent |
 | MyPreviewHandlerRegistration4  | -1   | Classes de logiciels \\ \\ CLSID \\ {1531d583-8375-4d3f-b5fb-d23bbd169f22}                 |                                        | Per-User exemple de gestionnaire d’aperçus application 1 | ProductComponent |
 | MyPreviewHandlerRegistration5  | -1   | Classes de logiciels \\ \\ CLSID \\ {1531d583-8375-4d3f-b5fb-d23bbd169f22}                 | AppID                                  | {6d2b5079-2f0b-48dd-ab7f-97cec514d30b}       | ProductComponent |
