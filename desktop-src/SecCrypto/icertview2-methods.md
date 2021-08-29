@@ -4,12 +4,12 @@ ms.assetid: 22496D16-27F2-45F6-A746-897D18A7D6E7
 title: Méthodes ICertView2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc814da7cc9f583c1ccad009dfeeae452e391ae0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08c5effda709746652b94f7814df6a63bf3836815dde769532259e26d13a7fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005507"
 ---
 # <a name="icertview2-methods"></a>Méthodes ICertView2
 

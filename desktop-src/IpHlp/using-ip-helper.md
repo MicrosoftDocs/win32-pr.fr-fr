@@ -4,12 +4,12 @@ ms.assetid: f852626d-1977-4a6a-8ef5-851b9effe6c6
 title: Utilisation de l’assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c275feea507fddbd5e0d9a8586403596c1ac4e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0b14282d74d0e01983defb09b17c20cdc845fb2f7a60cf36b0ee21ef7de2ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388893"
 ---
 # <a name="using-ip-helper"></a>Utilisation de l’assistance IP
 

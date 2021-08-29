@@ -3,7 +3,7 @@ title: Message WM_CAP_FILE_ALLOCATE (VFW. h)
 description: Le \_ message WM \_ Cap \_ allocate crée (Préalloue) un fichier de capture d’une taille spécifiée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capFileAlloc.
 ms.assetid: 31ebe824-4a30-4212-9479-a5cbd8fc1e1d
 keywords:
-- Message WM_CAP_FILE_ALLOCATE Windows Multimedia
+- message WM_CAP_FILE_ALLOCATE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d36cec54e5775641118679b24b0d4b3b1767693
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e76f0e88642d7d28771090b0690191eb4e4e72f5749dc74a9e42d90bfea87812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781399"
 ---
 # <a name="wm_cap_file_allocate-message"></a>\_Message d' \_ allocation du fichier WM Cap \_
 
@@ -51,7 +51,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez améliorer considérablement les performances de capture de streaming en préallouant un fichier de capture suffisamment grand pour stocker un clip vidéo entier et en défragmentant le fichier de capture avant de capturer le clip.
 

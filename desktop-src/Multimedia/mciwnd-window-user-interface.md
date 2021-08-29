@@ -4,12 +4,12 @@ description: Interface utilisateur de la fenêtre MCIWnd
 ms.assetid: 422c5acb-bce5-4be2-96ba-5ab7f9dcc826
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c98c0b11b6868828625c6c6e605f005fe842d669
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 97b58661e46792675b0c2a23dd4ec1d9b98bca1a7bc84d16368595406be3f690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783340"
 ---
 # <a name="mciwnd-window-user-interface"></a>Interface utilisateur de la fenêtre MCIWnd
 
@@ -43,13 +43,13 @@ Le TrackBar situé à droite du bouton de **menu** représente la durée du cont
 Les contrôles MCIWnd peuvent également inclure un bouton d' **enregistrement** pour les appareils qui peuvent enregistrer. Le bouton **Enregistrer** est marqué d’un cercle rouge et s’affiche uniquement lorsque l’appareil est en capacité d’enregistrer.
 
 > [!Note]  
-> La fenêtre de lecture doit être alignée sur une limite de quatre pixels pour obtenir les meilleures performances de lecture vidéo. En général, Windows aligne automatiquement la fenêtre quand elle est créée. Si un utilisateur déplace ou étire la fenêtre à partir de sa position initiale, la vitesse de lecture de la vidéo peut être réduite de moitié.
+> La fenêtre de lecture doit être alignée sur une limite de quatre pixels pour obtenir les meilleures performances de lecture vidéo. en général, Windows aligne automatiquement la fenêtre lorsqu’elle est créée. Si un utilisateur déplace ou étire la fenêtre à partir de sa position initiale, la vitesse de lecture de la vidéo peut être réduite de moitié.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

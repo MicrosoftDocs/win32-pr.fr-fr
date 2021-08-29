@@ -53,10 +53,10 @@ Contient le RDN d’origine d’un objet supprimé.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 255                             |
@@ -74,10 +74,10 @@ Contient le RDN d’origine d’un objet supprimé.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Est de valeur unique       | True                            |
-| Est indexé             | False                           |
-| Dans le catalogue global      | False                           |
+| System-Only            | Vrai                            |
+| Est de valeur unique       | Vrai                            |
+| Est indexé             | Faux                           |
+| Dans le catalogue global      | Faux                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 255                             |
