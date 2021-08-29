@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4a3704507405ebb2d310ed7341cd1db174e00588
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 31ef4494f9bd4f87ae32cc9e7c9220b3c4300678c44d5b4c834110e149357d43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547399"
 ---
 # <a name="deleteex-method-of-the-cim_directory-class"></a>Méthode DeleteEx de la \_ classe de répertoire CIM
 
@@ -62,7 +62,7 @@ Chaîne qui représente le fichier enfant (ou le répertoire) à utiliser comme 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -185,7 +185,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

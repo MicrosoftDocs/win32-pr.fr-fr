@@ -4,12 +4,12 @@ ms.assetid: 287fd84a-dc8c-4a5c-b998-db5f2fbee5f1
 title: Utilisation de la liste Disk-Space
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a19f100fd5190472f5f6bfebaf74affe1a789cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f715f9e62cc1cbd6019752ab1e7c7ebb365947736b15fd153767c01586ddb008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664589"
 ---
 # <a name="using-the-disk-space-list"></a>Utilisation de la liste Disk-Space
 

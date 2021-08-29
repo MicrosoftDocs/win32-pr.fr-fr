@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 099344a295de2657b40218b993ab9c4cb6411353
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb727a573efebc2957d5eaddfb32d077d981503fb7bd8a7c9481e6841dcd901a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052039"
 ---
 # <a name="dbgbreak-macro"></a>DbgBreak macro)
 
@@ -65,7 +65,7 @@ DbgBreak("Unrecoverable error occurred.");
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl> |
 
 
 

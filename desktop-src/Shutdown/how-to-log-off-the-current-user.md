@@ -4,12 +4,12 @@ ms.assetid: 74be3505-c4bd-4ae2-aaed-700382839006
 title: Comment se déconnecter de l’utilisateur actuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e59ce625ae7da8a2a4a901fbb1429ab0f9b638c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 029f7b1a68973f248162871572284a2dd20ffaaf34618a7e986035abf5f78f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664379"
 ---
 # <a name="how-to-log-off-the-current-user"></a>Comment se déconnecter de l’utilisateur actuel
 

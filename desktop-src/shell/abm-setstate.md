@@ -1,5 +1,5 @@
 ---
-description: Définit les États Masquer automatiquement et toujours en haut de la barre des tâches Windows.
+description: définit les états masquer automatiquement et toujours en haut de la barre des tâches Windows.
 title: Message ABM_SETSTATE (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3cd21ca49d1a57d870c26e010420f978f1d9b88a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a50671a750f8ca1800cea200c2c58828803bc8a45ae055082c5b6d78959dd12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710869"
 ---
 # <a name="abm_setstate-message"></a>\_Message ABM SETSTATE
 
-Définit les États Masquer automatiquement et toujours en haut de la barre des tâches Windows.
+définit les états masquer automatiquement et toujours en haut de la barre des tâches Windows.
 
 
 ```C++
@@ -90,14 +90,14 @@ Masquer automatiquement et toujours en haut sur
 
 Retourne toujours la **valeur true**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 
 

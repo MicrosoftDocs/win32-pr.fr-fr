@@ -3,7 +3,7 @@ title: Propriété Ribbon. ContextualTabs
 description: Représente un conteneur pour les onglets contextuels.
 ms.assetid: 1f57a8d7-97ac-4007-8a36-c6aec5b85e6c
 keywords:
-- Ruban de la propriété Ribbon. ContextualTabs
+- ruban. ContextualTabs, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 790a7c93df71ab5117b591367c6b80fc0f8a748d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6853952574d955a04246b6fa02cbdd92e361ab65049560e402ae0728dc9ac09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710459"
 ---
 # <a name="ribboncontextualtabs-property"></a>Propriété Ribbon. ContextualTabs
 
 Représente un conteneur pour les onglets contextuels.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Ribbon.ContextualTabs>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ruban**](windowsribbon-element-ribbon.md).
 
@@ -135,8 +135,8 @@ Cette section de code illustre la déclaration de contrôle **Ribbon. Contextual
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

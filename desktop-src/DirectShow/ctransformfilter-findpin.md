@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1631651932d5adbc49fb59d44291dccea55fd41f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e7db3ddf7336d1b10890a2af16aa218e983edb747ca860d52006837ecac6c00f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087039"
 ---
 # <a name="ctransformfilterfindpin-method"></a>Méthode CTransformFilter. FindPin
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                       | Description                                           |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>              | Opération réussie.<br/>                                   |
+| <dl> <dt>**\_OK**</dt> </dl>              | Réussite.<br/>                                   |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>     | Mémoire insuffisante.<br/>                       |
 | <dl> <dt>**\_pointeur E**</dt> </dl>         | Argument de pointeur **null** .<br/>                 |
 | <dl> <dt>**VFW \_ E \_ \_ introuvable**</dt> </dl> | Impossible de trouver un code confidentiel avec cet identificateur.<br/> |
@@ -74,7 +74,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!IMPORTANT]
 > L’implémentation de cette méthode n’appelle pas [**IPIN :: QueryId**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryid) pour correspondre à l’identificateur de code confidentiel. Au lieu de cela, la méthode suppose que la broche d’entrée est nommée « in » et que la broche de sortie est nommée « out ». Si vous utilisez un autre jeu d’identificateurs de code confidentiel, substituez cette méthode.
@@ -87,7 +87,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

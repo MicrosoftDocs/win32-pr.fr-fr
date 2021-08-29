@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: acb0cb03f5e422695623bf6e183d1fd89f63ab60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dea6fb69e79988b1a823a12ecae3e37ebd97fc0662c6a2226cd40c9230581cf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739529"
 ---
 # <a name="takeownership-method-of-the-win32_tpm-class"></a>Méthode TakeOwnership de la \_ classe TPM Win32
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie certains des codes de retour courants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les méthodes [**IsEnabled**](isenabled-win32-tpm.md), [**isActivated**](isactivated-win32-tpm.md)et [**IsOwnershipAllowed**](isownershipallowed-win32-tpm.md) doivent toutes avoir la valeur true pour que **TakeOwnership** puisse s’effectuer correctement.
 
@@ -81,7 +81,7 @@ Vous devez utiliser la méthode [**ConvertToOwnerAuth**](converttoownerauth-win3
 
 La méthode **TakeOwnership** sauvegarde la valeur d’autorisation du propriétaire sur Active Directory si les paramètres de stratégie de groupe appropriés ont été configurés.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -89,8 +89,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                      |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>\_TPM. mof Win32</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

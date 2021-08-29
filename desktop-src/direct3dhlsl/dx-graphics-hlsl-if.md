@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: df4a1f049526422f39c3529395481548943c7e84
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 66c04a2ac9c995d3eafa0f93171483c784c72814
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118954"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473095"
 ---
 # <a name="if-statement"></a>if, instruction
 
@@ -41,33 +41,12 @@ Paramètre facultatif qui contrôle la façon dont l’instruction est compilée
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>branche</td>
-<td>Évaluez un seul côté de l’instruction if en fonction de la condition donnée.
-<blockquote>
-[!Note]<br />
-Lorsque vous utilisez le modèle de <a href="dx-graphics-hlsl-sm2.md">nuanceur 2. x</a> ou le <a href="dx-graphics-hlsl-sm3.md">modèle de nuanceur 3,0</a>, chaque fois que vous utilisez la création de branche dynamique, vous consommez des ressources. Ainsi, si vous utilisez la création de branche dynamique de façon excessive lorsque vous ciblez ces profils, vous pouvez recevoir des erreurs de compilation.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>aplatir</td>
-<td>Évaluez les deux côtés de l’instruction if et choisissez entre les deux valeurs résultantes.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| branche | Évaluez un seul côté de l’instruction if en fonction de la condition donnée.<blockquote>[!Note]<br />Lorsque vous utilisez le modèle de <a href="dx-graphics-hlsl-sm2.md">nuanceur 2. x</a> ou le <a href="dx-graphics-hlsl-sm3.md">modèle de nuanceur 3,0</a>, chaque fois que vous utilisez la création de branche dynamique, vous consommez des ressources. Ainsi, si vous utilisez la création de branche dynamique de façon excessive lorsque vous ciblez ces profils, vous pouvez recevoir des erreurs de compilation.</blockquote><br /> | 
+| aplatir | Évaluez les deux côtés de l’instruction if et choisissez entre les deux valeurs résultantes. | 
+
 
 
 
@@ -125,7 +104,7 @@ Une instruction **If** peut également utiliser un bloc Else facultatif. Si l’
 
 <dl> <dt>
 
-[Contrôle de Flow](dx-graphics-hlsl-flow-control.md)
+[Flow Régulation](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

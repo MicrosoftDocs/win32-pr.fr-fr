@@ -3,7 +3,7 @@ title: Macro MCI_TMSF_FRAME (Mciapi. h)
 description: La \_ macro MCI TMSF \_ Frame récupère le composant frames à partir d’un paramètre contenant des informations de pistes compressées/minutes/secondes/images (TMSF).
 ms.assetid: 1ba78d4f-4537-4955-abcc-842976b6b5b9
 keywords:
-- MCI_TMSF_FRAME macro multimédia Windows
+- MCI_TMSF_FRAME macro Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c5a6620137aea397c3f1bc04ff7fe821666d837
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90872f0a9391d30d7ec3af17e85203cebe433a4c24bde35e3a27db9b40ca30aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784229"
 ---
 # <a name="mci_tmsf_frame-macro"></a>\_Macro de \_ cadre TMSF MCI
 
@@ -51,7 +51,7 @@ Heure au format TMSF.
 
 Retourne le composant frames des informations de TMSF spécifiées.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure au format TMSF est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les pistes, le prochain octet le moins significatif contenant les minutes, le prochain octet le moins significatif contenant les secondes et l’octet le plus significatif contenant les frames.
 

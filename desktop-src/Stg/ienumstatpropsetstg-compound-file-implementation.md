@@ -6,12 +6,12 @@ keywords:
 - IEnumSTATPROPSETSTG Strctd STG, implémentation de fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9566af1a1956b3a951a996b6198f4a3161680042
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ed34688f4967263649c828ab76b73b4d5150142ffa826e291fa4a0cfb7f50750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663029"
 ---
 # <a name="ienumstatpropsetstg-compound-file-implementation"></a>Implémentation de fichiers IEnumSTATPROPSETSTG-Compound
 
@@ -21,7 +21,7 @@ L’implémentation de fichier composé de l’interface [**IEnumSTATPROPSETSTG*
 
 Appelez les méthodes de [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) pour énumérer les structures [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) , chacune fournissant des données sur l’un des jeux de propriétés associés à l’objet de stockage de fichiers composés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 <dl> <dt>
 
@@ -36,7 +36,7 @@ Obtient le suivant d’une ou plusieurs structures [**STATPROPSETSTG**](/windows
 > [!Note]  
 > Si vous créez toujours un jeu de propriétés à l’aide de [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create), alors, étant donné qu’un « GUID de caractère » est créé pour le nom de stockage, [**IEnumSTATPROPSETSTG :: Next**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg) retourne un fmtid non nul et valide pour le jeu de propriétés \[ STATPROPSETSTG. fmtid \] .
 
- 
+ 
 
 -   Le membre STATPROPSETSTG. grfFlags ne reflète pas nécessairement si le jeu de propriétés est ANSI ou non. Si PROPSETFLAG \_ ANSI est défini, le jeu de propriétés est absolument ANSI. Si PROPSETFLAG \_ ANSI est Clear, le jeu de propriétés peut être Unicode ou non-Unicode, car il n’est pas possible de savoir s’il s’agit d’un ANSI sans l’ouvrir.
 -   Le membre STATPROPSETSTG. grfFlags indique si le jeu de propriétés est simple ou non. par conséquent, le paramètre de l' \_ indicateur PROPSETFLAG non simple est toujours valide.
@@ -66,6 +66,6 @@ Copie l’état d’énumération actuel de cet énumérateur.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

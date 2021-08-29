@@ -3,7 +3,7 @@ title: Message EM_LIMITTEXT (winuser. h)
 description: 'EM_LIMITTEXT message : définit la limite de texte d’un contrôle d’édition.'
 ms.assetid: 5a605de7-8dc7-4c54-8f18-e0b08c720856
 keywords:
-- EM_LIMITTEXT les contrôles de message Windows
+- EM_LIMITTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80ce29d4ee5155f6b3c5c32609366982655a078
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 82797b0a7976296dfb71d217ccb52dd71358cfbcf1e59ed31421924e5a73e5d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048709"
 ---
 # <a name="em_limittext-message"></a>\_Message LIMITTEXT em
 
@@ -49,11 +49,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le **message \_ LIMITTEXT em** limite uniquement le texte que l’utilisateur peut entrer. Elle n’affecte pas le texte déjà présent dans le contrôle d’édition lorsque le message est envoyé, ni la longueur du texte copié dans le contrôle d’édition par le message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) . Si une application utilise le message **WM \_ SETTEXT** pour placer plus de texte dans un contrôle d’édition que celui spécifié dans le message **em \_ LIMITTEXT** , l’utilisateur peut modifier tout le contenu du contrôle d’édition.
 
@@ -69,8 +69,8 @@ Pour les contrôles d’édition sur une seule ligne, la limite de texte est soi
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

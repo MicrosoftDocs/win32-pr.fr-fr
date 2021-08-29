@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: ff2234f7-4758-43c7-a3c2-8fb980b27c04
-ms.openlocfilehash: e27e86fadab02616f91a4838acfc4be93e985ebd
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 06339659333a18334dae2e0604f0ad456699cef7f8343fd6dc00043bf782e01f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090759"
 ---
 # <a name="didiskquotauseraccountstatus-property"></a>DIDiskQuotaUser. AccountStatus, propriété
 
@@ -54,7 +54,7 @@ Cette propriété peut prendre l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

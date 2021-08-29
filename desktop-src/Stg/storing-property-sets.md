@@ -3,15 +3,15 @@ title: Stockage des jeux de propriétés
 description: Les applications peuvent exposer certaines données d’état de leurs documents afin que d’autres applications puissent les localiser et les lire.
 ms.assetid: 2e0b5f6c-da1d-47f2-a50d-1ac7f2f0c45d
 keywords:
-- Stockage de jeux de propriétés stockage structuré
+- stockage des jeux de propriétés Stockage structurés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60710b84b52fcc709f8ba3ad1e930d6f5a50a4cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: beae3d03889415fd920cb34d065c0ffd33e813b170d45dd73ae7c4d548f9296d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661779"
 ---
 # <a name="storing-property-sets"></a>Stockage des jeux de propriétés
 
@@ -20,11 +20,11 @@ Les applications peuvent exposer certaines données d’état de leurs documents
 > [!Note]  
 > Si vous stockez un jeu de propriétés qui est interne à votre application, vous pouvez ne pas vouloir suivre les indications ci-dessous. Pour exposer votre propriété à d’autres applications, suivez ces instructions.
 
- 
+ 
 
 **Pour stocker un jeu de propriétés dans un fichier composé**
 
-1.  Créez une instance [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) ou [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) dans le même niveau de la structure de stockage que ses flux de données. Suivez le nom de votre instance **IStorage** ou **IStream** avec « \\ 005 ». Les noms de flux et de stockage qui commencent par 0x05 sont réservés aux jeux de propriétés communes qui peuvent être partagés entre les applications. En outre, les flux commençant par cette valeur sont limités à 256 Ko. Les noms peuvent être sélectionnés à partir de noms et de formats publiés, ou en affectant la propriété définir un FMTID et en dérivant le nom à partir du FMTID conformément aux conventions décrites dans [conventions d’affectation de noms](storage-object-naming-conventions.md)pour les objets de stockage.
+1.  Créez une instance [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) ou [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) dans le même niveau de la structure de stockage que ses flux de données. Suivez le nom de votre instance **IStorage** ou **IStream** avec « \\ 005 ». Les noms de flux et de stockage qui commencent par 0x05 sont réservés aux jeux de propriétés communes qui peuvent être partagés entre les applications. En outre, les flux commençant par cette valeur sont limités à 256 Ko. les noms peuvent être sélectionnés à partir de noms et de formats publiés, ou en affectant la propriété définir un FMTID et en dérivant le nom du FMTID conformément aux conventions décrites dans [Stockage les conventions d’affectation](storage-object-naming-conventions.md)des noms d’objets.
 2.  Un jeu de propriétés peut être stocké dans une instance [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) unique ou dans une instance [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) contenant plusieurs flux et stockages. Dans le cas d’une instance de **IStorage** , le flux de contenu nommé contents est le flux principal contenant des valeurs de propriété, où certaines valeurs peuvent être des noms d’autres flux ou instances de stockage dans le stockage pour ce jeu de propriétés.
 3.  Spécifiez le CLSID de la classe d’objet qui peut afficher ou fournir un accès par programme aux valeurs de propriété. S’il n’existe aucune classe de ce type, le CLSID doit être défini sur l’identificateur de format du jeu de propriétés. Pour un jeu de propriétés qui utilise une instance de [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) , définissez le CLSID de l’instance de **IStorage** de manière à ce qu’il soit identique à celui stocké dans le flux de contenu ou à **CLSID \_ null**; valeur dans une instance **IStorage** nouvellement créée.
 4.  Vous avez la possibilité de spécifier des noms affichables qui constituent le contenu du dictionnaire.
@@ -60,9 +60,9 @@ IStorage (File): "C:\OLE\REVO.DOC"
 
 N’oubliez pas que le CLSID de l’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et les deux jeux de propriétés sont **CLSID \_ AnimalApp**. Cela identifie toute application qui peut afficher et/ou fournir un accès par programme à ces jeux de propriétés. Toute application peut lire les données dans les jeux de propriétés (le point derrière les jeux de propriétés), mais seules les applications identifiées avec l’identificateur de classe du CLSID \_ AnimalApp peuvent comprendre la signification des données dans les jeux de propriétés.
 
- 
+ 
 
- 
+ 
 
 
 

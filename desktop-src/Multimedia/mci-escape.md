@@ -3,7 +3,7 @@ title: Commande MCI_ESCAPE (mmsystem. h)
 description: La \_ commande d’échappement MCI envoie une chaîne directement à l’appareil. Les appareils Videodisc reconnaissent cette commande.
 ms.assetid: 56ebc717-f0f7-4612-8e51-57b13ff9d42b
 keywords:
-- Commande MCI_ESCAPE Windows multimédia
+- commande MCI_ESCAPE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab4bcd55590cb1b2cab5482eeb921118531002c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45a3c00955aa7476534f58c01f55e43d7cec562439741a9952372d19fda29a3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784524"
 ---
 # <a name="mci_escape-command"></a>\_Commande d’échappement MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure d' [**\_ \_ échappement \_ MCI VD**](mci-vd-escape-
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les données envoyées avec l' \_ échappement MCI sont dépendantes de l’appareil et sont généralement transmises directement au matériel associé à l’appareil.
 
@@ -91,7 +91,7 @@ Une chaîne de commande est spécifiée dans le membre **lpstrCommand** de la st
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

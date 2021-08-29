@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9f615cf2a46beb8c504de3dcc7d6fab1fc23da47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a84f02149b36fd881b88179dcfaff05b1186e241030ffa29aea461f1b20e17b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782189"
 ---
 # <a name="esentquotaexception-constructor-string-jet_err"></a>Constructeur EsentQuotaException (String, JET_err)
 

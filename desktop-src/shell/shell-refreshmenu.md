@@ -1,5 +1,5 @@
 ---
-description: En savoir plus sur la méthode Shell. RefreshMenu, qui actualise le contenu du menu Démarrer. Utilisé uniquement avec les systèmes antérieurs à Windows XP.
+description: en savoir plus sur la méthode Shell. RefreshMenu, qui actualise le contenu du menu Démarrer. utilisé uniquement avec les systèmes précédents Windows XP.
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: Shell. RefreshMenu, méthode (shldisp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 90020cd128f5cbc585bd7bc9ab33a8a81c745f8e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 57f3b40e699d575d8dda3df2e2bb9005742321e63d537bae1b2e7814f46a0f79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090139"
 ---
 # <a name="shellrefreshmenu-method"></a>Shell. RefreshMenu, méthode
 
-Actualise le contenu du menu **Démarrer** . Utilisé uniquement avec les systèmes antérieurs à Windows XP.
+Actualise le contenu du menu **Démarrer** . utilisé uniquement avec les systèmes précédents Windows XP.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -47,13 +47,13 @@ Cette méthode n’a aucun paramètre.
 
 ## <a name="remarks"></a>Remarques
 
-La fonctionnalité fournie par **RefreshMenu** est gérée automatiquement sous Windows XP ou version ultérieure. N’appelez pas cette méthode sous ce système d’exploitation.
+la fonctionnalité fournie par **RefreshMenu** est gérée automatiquement sous Windows XP ou version ultérieure. N’appelez pas cette méthode sous ce système d’exploitation.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **RefreshMenu** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **RefreshMenu** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -103,13 +103,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

@@ -3,7 +3,7 @@ title: Commande MCI_CLOSE (mmsystem. h)
 description: La \_ commande MCI Close libère l’accès à un appareil ou à un fichier. Tous les appareils reconnaissent cette commande.
 ms.assetid: 62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f
 keywords:
-- Commande MCI_CLOSE Windows multimédia
+- commande MCI_CLOSE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 417129595405aeb6c9a2345eb9c3f03f1e2731e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 047bea34aab9130cc609904d56ff95ba593271670b27a5bc3d763180ccf50418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784629"
 ---
 # <a name="mci_close-command"></a>\_Commande MCI Close
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fait de quitter une application sans fermer les périphériques MCI ouverts peut rendre l’appareil inaccessible. Votre application doit fermer explicitement chaque appareil ou fichier une fois qu’il est terminé. MCI décharge l’appareil lorsque toutes les instances de l’appareil ou tous les fichiers associés sont fermés.
 
@@ -80,7 +80,7 @@ Le fait de quitter une application sans fermer les périphériques MCI ouverts p
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

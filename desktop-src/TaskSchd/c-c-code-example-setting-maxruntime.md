@@ -6,12 +6,12 @@ keywords:
 - définition des propriétés de tâche Planificateur de tâches, durée maximale d’exécution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d75470a19a7b2a142a99c5f0c307404fc1bc1e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e6806d7c52e52f26258b5e3636a12c2c2c15c5a0cf9e0008a0ee2a84e115eba4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738469"
 ---
 # <a name="cc-code-example-setting-maxruntime"></a>Exemple de code C/C++ : définition de durée maximale
 
@@ -141,9 +141,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

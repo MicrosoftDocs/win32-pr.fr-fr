@@ -3,7 +3,7 @@ title: commande Where
 description: La commande WHERE récupère le rectangle spécifiant la zone source ou de destination. Ce rectangle a été spécifié à l’aide de la commande put. Les appareils vidéo et vidéo numériques reconnaissent cette commande.
 ms.assetid: 85c68ded-bd3e-4a48-9af7-58478615a7f0
 keywords:
-- commande Windows multimédia
+- Windows de commande multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c499eae8f0209c1ef93efb9677ae438dcf0e86
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 208ef15bf79d9d55e688a0988ab4c5f021ceb199acf5d0461619e275fc7b8bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781449"
 ---
 # <a name="where-command"></a>commande Where
 

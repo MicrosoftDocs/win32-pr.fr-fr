@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 290a9a8c7c1f930a9115d02d6bab7c968ecbdc86
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 78c2348434fd2cbe903305db4dfea45b5682fbd235e0d286f46315db27bf12b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706612"
 ---
 # <a name="default-object-category-attribute"></a>Attribut par défaut-objet-catégorie
 
@@ -46,7 +46,7 @@ Catégorie d’objet à utiliser pour l’objet, si aucune n’est spécifiée.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
