@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0a0c73343550768a9ccd061c702fae89d562d095
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d63cd0ed883862b727379b6fed3574d26f444eaf
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477905"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984512"
 ---
 # <a name="jetinit3-function"></a>Fonction JetInit3
 
@@ -95,7 +95,14 @@ Pour plus d’informations, consultez la section « Notes » de la rubrique [J
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Client</p> | <p>requiert Windows Vista.</p> | | <p>Serveur</p> | <p>requiert Windows Server 2008.</p> | | <p>En-tête</p> | <p>Déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | | <p>Unicode</p> | <p>Implémenté en tant que <strong>JetInit3W</strong> (Unicode) et <strong>JetInit3A</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Client</p> | <p>requiert Windows Vista.</p> | 
+| <p>Serveur</p> | <p>requiert Windows Server 2008.</p> | 
+| <p>En-tête</p> | <p>Déclaré dans esent. h.</p> | 
+| <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | 
+| <p>DLL</p> | <p>Requiert ESENT.dll.</p> | 
+| <p>Unicode</p> | <p>Implémenté en tant que <strong>JetInit3W</strong> (Unicode) et <strong>JetInit3A</strong> (ANSI).</p> | 
 
 
 

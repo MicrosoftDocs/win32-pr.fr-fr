@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: fa035b89c531f3b2d230ab849ba20b945dd2d25c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e2ed15da1c2eaf38ed8ac0617756ddb85d713f490b1a3a26af0db11da834b206
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106531260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119337209"
 ---
 # <a name="_ianalysisproxyeventscontextnodepropertiesupdated-event"></a>\_Événement IAnalysisProxyEvents :: ContextNodePropertiesUpdated
 
@@ -58,7 +58,7 @@ Objet [**IContextNode**](icontextnode.md) dont les propriétés sont mises à jo
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cet événement lorsque votre application gère sa propre structure de données, qui est synchronisée avec celle du [**IInkAnalyzer**](iinkanalyzer.md). Cet événement se produit pendant la phase de rapprochement de l’analyse de l’encre, ou en réponse à une méthode d’analyseur d’encre qui modifie les propriétés d’un [**IContextNode**](icontextnode.md) (consultez [**IContextNode :: GetPropertyData**](icontextnode-getpropertydata.md)).
 
@@ -70,7 +70,7 @@ Pour plus d’informations sur la synchronisation des données de votre applicat
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

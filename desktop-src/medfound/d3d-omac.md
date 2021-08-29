@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 21c710b21c31147f7208ddd1637426aeafb60234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05cf39bccc33eb1f993b0e86cfa89fc290832b422129441d99f028f3d826c3fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449542"
 ---
 # <a name="d3d_omac-structure"></a>D3D \_ OMAC, structure
 
@@ -52,8 +52,8 @@ Tableau d’octets qui contient la valeur MAC de chiffrement du message.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 382382b0c22c029f41c9ab33fb959287e5222d59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8e65be0d9b4424727d82a1178b7418fd832a1e5dbfc944efa295dbae55e5b1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679369"
 ---
 # <a name="swbemprivilegesetdeleteall-method"></a>SWbemPrivilegeSet. DeleteAll, méthode
 

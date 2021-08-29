@@ -1,6 +1,6 @@
 ---
-title: Constantes du journal des événements Windows (WinEvt. h)
-description: 'Le journal des événements Windows définit les constantes suivantes :'
+title: Windows Constantes du journal des événements (WinEvt. h)
+description: Windows Le journal des événements définit les constantes suivantes
 ms.assetid: d3a4a136-ca33-4dad-95ad-af1be6687843
 topic_type:
 - apiref
@@ -17,16 +17,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d592cea0eb1738f5ee04ce53faa9a5fa06c0d52a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7fe5ecd134749e3420b43c621e506930ede982a271652083086175cea1549ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620159"
 ---
-# <a name="windows-event-log-constants"></a>Constantes du journal des événements Windows
+# <a name="windows-event-log-constants"></a>Windows Constantes du journal des événements
 
-Le journal des événements Windows définit les constantes suivantes :
+Windows Le journal des événements définit les constantes suivantes :
 
 <dl> <dt>
 
@@ -114,8 +114,8 @@ Autorisation de contrôle d’accès All (lire, écrire, effacer et supprimer).
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>WinEvt. h</dt> </dl> |
 
 

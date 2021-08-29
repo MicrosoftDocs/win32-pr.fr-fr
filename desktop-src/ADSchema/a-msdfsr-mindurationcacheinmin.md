@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d12c607e8bf4eb1fe802fdda47a352706161ef10
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: be5999b0d5c92e3628b8bba6e8d72ba0250b62bd7944f42108624faa4a932ca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704959"
 ---
 # <a name="ms-dfsr-mindurationcacheinmin-attribute"></a>attribut ms-DFSR-MinDurationCacheInMin
 
@@ -36,13 +36,13 @@ Durée minimale, en minutes, avant la troncation des fichiers.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.30           |
 | System-ID-GUID    | 4c5d607a-ce49-444a-9862-82a95f5d1fcc |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

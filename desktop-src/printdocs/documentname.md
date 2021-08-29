@@ -4,12 +4,12 @@ ms.assetid: acb25fd6-6706-43ee-9ac0-539f20c13390
 title: DocumentName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d202ff1f5bac85fec3feac9f141834adfcd37e70
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 52e5cee22cbfe462b66fb7291156e1a325b17758ae402d201a847470297f8e11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092099"
 ---
 # <a name="documentname"></a>DocumentName
 
@@ -51,7 +51,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                             | Type de données         | Unité | Valeurs prises en charge | Résumé |
+| Nom                             | Type de données         | Unité | Valeurs prises en charge | Récapitulatif |
 |----------------------------------|-------------------|------|------------------|---------|
 | \_DocumentNameValue\_<br/> | string<br/> |      |                  |         |
 

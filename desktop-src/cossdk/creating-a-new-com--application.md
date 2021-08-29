@@ -4,12 +4,12 @@ ms.assetid: eec4e871-36c2-4e60-9808-1400efcfc60c
 title: Création d’une application COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09eb296ad0a5f2326b5d931f59a5075d001d89f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 93a899a1ab5a3680ab87d194c6fcb01a6b09bd8e063957fc79e251c874cb40ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070789"
 ---
 # <a name="creating-a-new-com-application"></a>Création d’une application COM+
 
@@ -51,7 +51,7 @@ La création d’une nouvelle application COM+ requiert deux étapes de base, co
 La nouvelle application s’affiche désormais sous le dossier **applications com+** dans l’arborescence de la console de l’outil d’administration Services de composants.
 
 > [!Note]  
-> À compter de Windows Server 2003, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Dans les versions précédentes, les contrôles d’accès étaient désactivés par défaut au niveau de l’application. Le résultat est que, par défaut, l’accès à une application COM+ est autorisé uniquement pour les utilisateurs qui se trouvent dans les rôles associés à l’application. (Voir [administration de la sécurité basée sur les rôles](role-based-security-administration.md).) Vous pouvez également autoriser l’accès à tous les utilisateurs en désactivant les vérifications d’accès sur une application COM+. (Voir [activation des vérifications d’accès pour une application](enabling-access-checks-for-an-application.md).)
+> à partir de Windows Server 2003, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Dans les versions précédentes, les contrôles d’accès étaient désactivés par défaut au niveau de l’application. Le résultat est que, par défaut, l’accès à une application COM+ est autorisé uniquement pour les utilisateurs qui se trouvent dans les rôles associés à l’application. (Voir [administration de la sécurité basée sur les rôles](role-based-security-administration.md).) Vous pouvez également autoriser l’accès à tous les utilisateurs en désactivant les vérifications d’accès sur une application COM+. (Voir [activation des vérifications d’accès pour une application](enabling-access-checks-for-an-application.md).)
 
  
 

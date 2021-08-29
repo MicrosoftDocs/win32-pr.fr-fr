@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a168f25381b807cc8c0cd17f7ba6764c3591513
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a1848165729b67a21ae65b506739ccf6d336f51afd51292bae7b66bcd067fdee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808669"
 ---
 # <a name="iwmdrmlicensegetanalogvideorestrictionlevels-method"></a>IWMDRMLicense :: GetAnalogVideoRestrictionLevels, méthode
 
@@ -60,7 +60,7 @@ Nombre d’éléments dans le tableau de restrictions. Si *rgAnalogVideoRestrict
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -72,7 +72,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez allouer de la mémoire pour le tableau de restrictions. Pour ce faire, appelez d’abord la méthode avec *rgAnalogVideoRestrictions* défini sur **null**, ce qui affectera à *pcRestrictions* la valeur du nombre d’éléments requis.
 

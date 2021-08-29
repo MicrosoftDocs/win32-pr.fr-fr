@@ -1,28 +1,28 @@
 ---
-title: Codes d’erreur (kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11)
-description: Découvrez les différents codes d’erreur qui peuvent être renvoyés par les technologies Windows Media, organisés par origine.
+title: Codes d’erreur (Windows Media Gestionnaire de périphériques 11 SDK)
+description: découvrez les différents codes d’erreur qui peuvent être retournés par Windows technologies multimédias, organisés par origine.
 ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
 keywords:
-- Gestionnaire de périphériques Windows Media, codes d’erreur
+- Windows Gestionnaire de périphériques de média, codes d’erreur
 - Gestionnaire de périphériques, codes d’erreur
 - Référence de programmation, codes d’erreur
-- informations de référence sur les Gestionnaire de périphériques Windows Media, codes d’erreur
+- référence pour Windows Gestionnaire de périphériques de média, codes d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c2d6cbf78348680b5c31a86fd2edd9117ec203d
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 510fdaf659ade7debfa2c7c84901bb998facef5e21dd99358c34cce243231c56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619939"
 ---
-# <a name="error-codes-windows-media-device-manager-11-sdk"></a>Codes d’erreur (kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11)
+# <a name="error-codes-windows-media-device-manager-11-sdk"></a>Codes d’erreur (Windows Media Gestionnaire de périphériques 11 SDK)
 
-Les méthodes de Gestionnaire de périphériques Windows Media peuvent retourner divers codes d’erreur. Certains d’entre eux sont spécifiques à Windows Media Gestionnaire de périphériques, tandis que d’autres sont définis par d’autres kits de développement logiciel (SDK) ou des kits de Portage utilisés pour créer un appareil et se propager aux méthodes Windows Media Gestionnaire de périphériques. Cette section décrit les différents codes d’erreur qui peuvent être renvoyés par les technologies Windows Media, organisés par origine.
+Windows Les méthodes Media Gestionnaire de périphériques peuvent retourner divers codes d’erreur. certaines d’entre elles sont spécifiques aux Gestionnaire de périphériques de média Windows, tandis que d’autres sont définies par d’autres kits de développement logiciel (sdk) ou des kits de portage utilisés pour créer un appareil et se propager vers les méthodes de Gestionnaire de périphériques de support Windows. cette section décrit les différents codes d’erreur qui peuvent être retournés par Windows technologies multimédias, organisés par origine.
 
-**Codes d’erreur de Gestionnaire de périphériques Windows Media**
+**Windows Codes d’erreur du Gestionnaire de périphériques de média**
 
-Les codes d’erreur suivants sont définis par le kit de développement logiciel (SDK) Gestionnaire de périphériques Windows Media.
+les codes d’erreur suivants sont définis par le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques.
 
 
 
@@ -56,7 +56,7 @@ Les codes d’erreur suivants sont définis par le kit de développement logicie
 
 Un fournisseur de services doit s’abstenir de retourner des codes d’échec génériques, par exemple, E \_ Fail. Elle doit retourner comme un code d’erreur spécifique, de sorte que si l’erreur est propagée à une application, l’application peut fournir des commentaires significatifs à l’utilisateur.
 
-Pour les erreurs dans les opérations liées au stockage et aux appareils, les fournisseurs de services doivent recourir à des codes d’erreur Win32. Les fournisseurs de services peuvent utiliser [HRESULT \_ de \_ Win32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir les codes d’erreur Windows en valeurs **HRESULT** et les utiliser comme valeurs de retour. Cette macro et les codes d’erreur sont définis dans Winerror. h, qui fait partie du kit de développement logiciel (SDK) de la plateforme.
+Pour les erreurs dans les opérations liées au stockage et aux appareils, les fournisseurs de services doivent recourir à des codes d’erreur Win32. les fournisseurs de services peuvent utiliser [hresult \_ de \_ WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir Windows codes d’erreur en valeurs **HRESULT** et les utiliser comme valeurs de retour. Cette macro et les codes d’erreur sont définis dans Winerror. h, qui fait partie du kit de développement logiciel (SDK) de la plateforme.
 
 **Codes d’erreur MTP**
 
@@ -98,9 +98,9 @@ Les appareils qui prennent en charge le protocole MTP (Media Transport Protocol)
 
  
 
-**Erreurs du kit de Portage Windows Media DRM pour appareils mobiles**
+**Windows Media DRM pour appareils portables Erreurs du kit de Portage**
 
-Les codes d’erreur suivants sont définis dans le kit de Portage Windows Media DRM pour appareils mobiles et peuvent être retournés par les méthodes qui appellent un appareil basé sur ce kit de Portage. Ces codes d’erreur sont liés aux problèmes DRM.
+les codes d’erreur suivants sont définis dans le kit de portage des médias DRM pour appareils mobiles Windows et peuvent être retournés par les méthodes qui appellent un appareil basé sur ce kit de portage. Ces codes d’erreur sont liés aux problèmes DRM.
 
 
 
@@ -251,9 +251,9 @@ Les codes d’erreur suivants sont définis dans le kit de Portage Windows Media
 
  
 
-**Erreurs du kit de développement logiciel (SDK) Windows Media Manager**
+**Windows Erreurs du kit de développement logiciel (SDK) Media Rights Manager**
 
-Il se peut que vous rencontriez une erreur définie dans le kit de développement logiciel (SDK) Windows Media Rights Manager. La liste des erreurs définies par ce kit de développement logiciel (SDK) est fournie dans [MSDN Library](/previous-versions//bb614577(v=vs.85)). Toutefois, les erreurs du kit de développement logiciel (SDK) Windows Media Manager suivantes n’ont pas été documentées.
+il se peut que vous rencontriez une erreur définie dans le kit de développement logiciel (SDK) Media Rights Manager Windows. La liste des erreurs définies par ce kit de développement logiciel (SDK) est fournie dans [MSDN Library](/previous-versions//bb614577(v=vs.85)). toutefois, les erreurs de Windows du kit de développement logiciel (SDK) Media Rights Manager suivantes n’ont pas été documentées.
 
 
 

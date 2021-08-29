@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c5783ed9611c16d875211f29d364fe3eaff29b57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67d2bf61cc317fee3dd04e464384020cfa04be9f601205e44d031c4fe4fa3ff8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693489"
 ---
 # <a name="msvm_assignabledevicedismountsettingdata-class"></a>MSVM \_ AssignableDeviceDismountSettingData, classe
 
@@ -113,7 +113,7 @@ Indique si les atténuations d’appareil doivent être en place avant d’autor
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

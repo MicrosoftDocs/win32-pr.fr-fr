@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102054
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e38e68970c0548cc1402d3ffe17d9d6c7e2ed9ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6628250ff5e93d44b92965e5f121858dac2b575b0d84457d8eba7ad953adce93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480419"
 ---
 # <a name="esentkeytruncatedexception-methods"></a>Méthodes EsentKeyTruncatedException
 

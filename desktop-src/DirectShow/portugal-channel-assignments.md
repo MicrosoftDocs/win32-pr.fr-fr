@@ -4,12 +4,12 @@ ms.assetid: b377b93a-dac9-4908-bc21-a0dcab528321
 title: Attributions de canaux Portugal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67a850ccf0da51c20b16a4ce7dc34bf5feeccbdf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f367dd0f9544c438f372928161f8701f5dd0229575843763e1203c7820f4e49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583550"
 ---
 # <a name="portugal-channel-assignments"></a>Attributions de canaux Portugal
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

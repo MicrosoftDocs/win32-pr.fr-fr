@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fc177e72e116394ffd6241e0616b84c9066a68a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 80bd3395d2841a3a47e2218b7d8a5e06e8403f3e9d1d4c94ea5a85e6b39939b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104991005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120063"
 ---
 # <a name="sign"></a>sign
 
@@ -68,9 +68,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge                   |
+| Modèle de nuanceur                                                                       | Pris en charge                   |
 |------------------------------------------------------------------------------------|-----------------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                         |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                         |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Oui (vs \_ 1 \_ 1 et PS \_ 1 \_ 4) |
 
 

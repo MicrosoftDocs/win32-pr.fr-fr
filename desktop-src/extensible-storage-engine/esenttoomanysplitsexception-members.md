@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103120
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f23facb26b0ced76c1870eb67b625fa05ff60194
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec192394f44fe5e046f46c4fbf1957630892ac9667e0e28bc05c74430c3d680a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618819"
 ---
 # <a name="esenttoomanysplitsexception-members"></a>Membres EsentTooManySplitsException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

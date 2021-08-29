@@ -4,12 +4,12 @@ description: Les registres d’entrée et de sortie suivants sont implémentés 
 ms.assetid: 8AE00EC6-0BDC-4F63-B95C-FF434B98D7CE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b787f4a1f7e647a49340d49796dc2986e442178f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf5bd34609ef289a0cf6671c21e21d219c4b8b19ea392e5f3103b6267ffaea58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672189"
 ---
 # <a name="registers---ds_5_0"></a>Registres-DS \_ 5 \_ 0
 
@@ -34,7 +34,7 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 
 
 
- 
+ 
 
 **Remarque 1 :** Le nuanceur de domaine voit les sorties du nuanceur de coque dans 2 ensembles distincts de registres. Les registres VCP peuvent voir tous les points de contrôle de sortie du nuanceur de coque. Les registres VPC peuvent voir toutes les données de sortie de la constante de correction du nuanceur de coque.
 
@@ -50,7 +50,7 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

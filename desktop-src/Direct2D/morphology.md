@@ -8,12 +8,12 @@ keywords:
 - effet d’érosion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f43cf41810ae0b16c9bc96dd37473a0231fc132c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0737c9153faad1f23337b20b6406f6c1a794a7e1efa25de154eb2f867a347b7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119385052"
 ---
 # <a name="morphology-effect"></a>Effet morphologique
 
@@ -30,7 +30,7 @@ Cet exemple montre la sortie de l’effet lors de l’utilisation du mode ÉROD.
 | Avant                                                     |
 |------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg) |
-| After                                                      |
+| Après                                                      |
 | ![image après la transformation.](images/7-morphology.png) |
 
 
@@ -72,7 +72,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Nom                           | Description                                                    |
+| Name                           | Description                                                    |
 |--------------------------------|----------------------------------------------------------------|
 | \_Mode morphologique \_ d2d1 \_ ÉROD  | La valeur maximale de chaque canal RVB dans le noyau est utilisée. |
 | \_Mode morphologique d2d1 \_ en \_ retard | La valeur minimale de chaque canal RVB dans le noyau est utilisée. |
@@ -111,8 +111,8 @@ Pour le mode ÉROD, la taille de la bitmap de sortie diminue :
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

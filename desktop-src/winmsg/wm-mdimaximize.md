@@ -4,12 +4,12 @@ ms.assetid: 7c5e4157-13f6-40d7-a64a-076bd14aca0d
 title: Message WM_MDIMAXIMIZE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8372bcb25f35a52793292de4fd94a4a9dadafe6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b187d4aed71d8582e4ea72686e30ee6339934a2bf6f5b4849fd8600c4a5552c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810509"
 ---
 # <a name="wm_mdimaximize-message"></a>\_Message WM MDIMAXIMIZE
 
@@ -46,7 +46,7 @@ Type : **zéro**
 
 La valeur de retour est toujours zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une fenêtre cliente MDI reçoit un message qui modifie l’activation de ses fenêtres enfants alors que la fenêtre enfant MDI active est agrandie, le système restaure la fenêtre enfant active et agrandit la fenêtre enfant qui vient d’être activée.
 

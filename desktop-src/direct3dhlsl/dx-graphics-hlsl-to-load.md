@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ba394fb13fd98793401b29e6343ef4fa9ff0194b7a86f22dda1e58439737b34b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01e8fccbf461befd8016d813098a542a98cdc858
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887215"
 ---
 # <a name="load-directx-hlsl-texture-object"></a>Load (objet texture HLSL DirectX)
 
@@ -124,7 +124,7 @@ Par exemple, pour accéder à une texture 2D, fournissez des coordonnées UV pou
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Le type de retour correspond au type dans la déclaration de l' *objet* . Par exemple, un objet Texture2D qui a été déclaré comme « Texture2d <uint4> myTexture ; » a une valeur de retour de type **uint4**.
+Le type de retour correspond au type dans la déclaration de l' *objet* . Par exemple, un objet Texture2D qui a été déclaré comme « Texture2d &lt; uint4 &gt; myTexture ; » a une valeur de retour de type **uint4**.
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 

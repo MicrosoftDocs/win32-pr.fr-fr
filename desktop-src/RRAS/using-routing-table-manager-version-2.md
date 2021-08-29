@@ -7,12 +7,12 @@ keywords:
 - Gestionnaire de table de routage version 2 RRAS, tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29bc7acab213325a0683de215995eeb2f635b102
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6b655cb08c1a1d30a219a34fe81d8b284ed379e3151f16c2ca43798da1f50d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025039"
 ---
 # <a name="using-routing-table-manager-version-2"></a>Utilisation du gestionnaire de tables de routage version 2
 
@@ -36,9 +36,9 @@ Cette section contient un exemple de code qui peut être utilisé lors du dével
 -   [Utiliser une liste d’itinéraires Client-Specific](use-a-client-specific-route-list.md)
 -   [Utiliser le rappel de notification d’événement](use-the-event-notification-callback.md)
 
- 
+ 
 
- 
+ 
 
 
 

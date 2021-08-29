@@ -3,9 +3,9 @@ title: Propriété de débit binaire IWMPNetwork
 description: La propriété de débit binaire obtient la vitesse de transmission actuelle en cours de réception.
 ms.assetid: f7dda557-3954-45ed-9eac-6d27109e2dfa
 keywords:
-- propriété de la vitesse de transmission Windows Media Player
-- propriété de la vitesse de transmission Windows Media Player, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété de vitesse de transmission
+- Lecteur Windows Media de propriétés de débit binaire
+- Lecteur Windows Media de propriétés de la vitesse de transmission, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété de vitesse de transmission
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f64039eb960a928f5268643e18d1a01b9034d5d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b4346a20c5c5b5a5ca68b2a90293afd9d657e472d335b9ee8bf2ad647ff0914
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098739"
 ---
 # <a name="iwmpnetworkbitrate-property"></a>IWMPNetwork :: transmission binaire, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bitRate As System.Int32
 
 **System. Int32** qui correspond à la vitesse de transmission.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cette propriété est une combinaison des vitesses de transmission des flux vidéo et audio.
 

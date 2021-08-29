@@ -4,12 +4,12 @@ ms.assetid: a6ab1708-dd82-4960-b908-f1daef7374ef
 title: Requêtes de métadonnées au format d’image natif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be5e9c0f853e4c5e48fb5eb41f2d2ab27b4f4d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 463315a1fb18f0f3dc177635f7e63505589e239257dc9cc25fcfa0773ddb25f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882379"
 ---
 # <a name="native-image-format-metadata-queries"></a>Requêtes de métadonnées au format d’image natif
 
@@ -17,7 +17,7 @@ Cette rubrique fournit une vue d’ensemble des requêtes de [langage de requêt
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Expression de stratégie de métadonnées de photo](#photo-metadata-policy-expression)
 -   [Métadonnées spécifiques au format de fichier](#file-format-specific-metadata)
     -   [Métadonnées GIF](#gif-metadata)
@@ -33,17 +33,17 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour comprendre cette rubrique, vous devez être familiarisé avec le système de métadonnées WIC (Windows Imaging Component), comme décrit dans la [vue d’ensemble des métadonnées WIC](-wic-about-metadata.md). Vous devez également être familiarisé avec le langage de requête utilisé pour lire et écrire des métadonnées, comme décrit dans [vue d’ensemble du langage de requête de métadonnées](-wic-codec-metadataquerylanguage.md).
+pour comprendre cette rubrique, vous devez être familiarisé avec le système de métadonnées wic (Windows Imaging Component), comme décrit dans [vue d’ensemble des métadonnées wic](-wic-about-metadata.md). Vous devez également être familiarisé avec le langage de requête utilisé pour lire et écrire des métadonnées, comme décrit dans [vue d’ensemble du langage de requête de métadonnées](-wic-codec-metadataquerylanguage.md).
 
 ## <a name="photo-metadata-policy-expression"></a>Expression de stratégie de métadonnées de photo
 
-En plus de prendre en charge le langage de requête de métadonnées, [WIC](-wic-api.md) accepte également les noms de propriété canoniques du [système de propriétés Windows](../properties/windows-properties-system.md). WIC prend en charge un sous-ensemble de l’espace de noms de propriété Windows qui s’applique aux formats d’image, comme décrit dans [stratégies de métadonnées de photos](photo-metadata-policies.md). Une propriété Windows utilisée en tant que requête de métadonnées WIC est appelée expression de stratégie de métadonnées de photo.
+en plus de prendre en charge le langage de requête de métadonnées, [WIC](-wic-api.md) accepte également les noms de propriété canoniques du [système de propriétés Windows](../properties/windows-properties-system.md). WIC prend en charge un sous-ensemble de l’espace de noms de propriété Windows qui concerne les formats d’image, comme décrit dans [stratégies de métadonnées de photos](photo-metadata-policies.md). une propriété de Windows utilisée en tant que requête de métadonnées WIC est appelée expression de stratégie de métadonnées de photo.
 
 Par exemple, l’expression de stratégie de métadonnées de photo pour l’indicateur d’orientation EXIF est :
 
 -   [System. photo. orientation](-wic-photoprop-system-photo-orientation.md)
 
-En général, les expressions de stratégie sont recommandées par rapport aux requêtes de métadonnées natives pour les éléments de métadonnées d’image courants qui sont couverts par l’espace de noms de propriété Windows. Le langage de requête de métadonnées est mieux adapté aux cas où un accès de bas niveau à des éléments de métadonnées d’image spécifiques est nécessaire ou pour des éléments de métadonnées personnalisés ou avancés qui ne sont pas pris en charge par le système de propriétés Windows. Pour plus d’informations, consultez [expressions de stratégie de métadonnées de photos](-wic-codec-metadataquerylanguage.md).
+en général, les expressions de stratégie sont recommandées par rapport aux requêtes de métadonnées natives pour les éléments de métadonnées d’image courants qui sont couverts par l’espace de noms de propriété Windows. le langage de requête de métadonnées est mieux adapté aux cas où un accès de bas niveau à des éléments de métadonnées d’image spécifiques est nécessaire ou pour des éléments de métadonnées personnalisés ou avancés qui ne sont pas pris en charge par le système de propriétés Windows. Pour plus d’informations, consultez [expressions de stratégie de métadonnées de photos](-wic-codec-metadataquerylanguage.md).
 
 ## <a name="file-format-specific-metadata"></a>Métadonnées spécifiques au format de fichier
 
@@ -96,7 +96,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin d’accès                                               | Nom                       | Type                                |
+| Chemin                                               | Nom                       | Type                                |
 |----------------------------------------------------|----------------------------|-------------------------------------|
 | /commentext ou/ \[ \* \] commentext où \* = 0 à N | Extension de commentaire          | VT \_ inconnu-lecteur/enregistreur de requêtes |
 | /commentext/TextEntry                              |                            | VT- \_ LPSTR                           |
@@ -124,7 +124,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin d’accès                            | Nom                      | Type                              |
+| Chemin                            | Nom                      | Type                              |
 |---------------------------------|---------------------------|-----------------------------------|
 | /grctlext                       | Extension de contrôle graphique | VT \_ inconnu-lecture/écriture de requêtes |
 | /grctlext/Disposal              |                           | \_UI1 VT                           |
@@ -161,7 +161,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin d’accès                                                   | Nom             | Type                                      |
+| Chemin                                                   | Nom             | Type                                      |
 |--------------------------------------------------------|------------------|-------------------------------------------|
 | /Text ou/ \[ \* \] Text où \* = 0 à N                 | Bloc de texte       | VT \_ /lecteur de requêtes de texte inconnu    |
 | /tEXt/{str = \* } où \* = mot clé d’identification du texte |                  | VT- \_ LPSTR                                 |
@@ -218,7 +218,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin d’accès                                          | Nom            | Type                                |
+| Chemin                                          | Nom            | Type                                |
 |-----------------------------------------------|-----------------|-------------------------------------|
 | /ifd                                          | 0 IFD           | VT \_ inconnu-lecteur/enregistreur de requêtes |
 | /IFD/{UShort = \* } où \* = 0 à 65535        | Entrée IFD par ID | Variable                            |
@@ -251,7 +251,7 @@ Le tableau suivant fournit les chemins d’accès aux requêtes de métadonnées
 
 
 
-| Chemin d’accès                                                               | Nom                 | Type                                          |
+| Chemin                                                               | Nom                 | Type                                          |
 |--------------------------------------------------------------------|----------------------|-----------------------------------------------|
 | /app0                                                              | App0                 | VT \_ inconnu-lecteur/enregistreur de requêtes APP0        |
 | /APP0/{UShort = 0}                                                   | Version              | \_UI2 VT                                       |
@@ -559,7 +559,7 @@ S’il n’existe pas de préfixe de schéma convivial pour un schéma particuli
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble des métadonnées WIC](-wic-about-metadata.md)

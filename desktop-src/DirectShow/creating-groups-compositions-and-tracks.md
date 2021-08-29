@@ -4,12 +4,12 @@ ms.assetid: c3bef3cd-5e3c-42c5-850f-b4cb00c414bd
 title: Création de groupes de compositions et de pistes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2808c2d096b52ad73da7d518d703bc25103751d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b6d0fa9812c3f7219882cc93be14f7ff4c0b1a8ae39f96d6798bdc93705cda8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908529"
 ---
 # <a name="creating-groups-compositions-and-tracks"></a>Création de groupes de compositions et de pistes
 

@@ -4,12 +4,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 title: S (Moniteur réseau)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a42c1e7ccc446ea702170dd7bd0a82ebe76716
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 140c775d71283e7783c2ba5a15a7840c7d42a7efbced79b15545dbbef89c15a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074509"
 ---
 # <a name="s-network-monitor"></a>S (Moniteur réseau)
 

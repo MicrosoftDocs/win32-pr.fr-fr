@@ -4,12 +4,12 @@ ms.assetid: 6dc340db-221e-4389-ba76-9f189f91866b
 title: Fichier de configuration WsdCodeGen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8c252c5361fda411e2b7eca4f906ba92085a552
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc9fcb4b10108b2c831ec005abaf7ce5e47904d37cc05b226fb8cfce43c5bb9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855909"
 ---
 # <a name="wsdcodegen-configuration-file"></a>Fichier de configuration WsdCodeGen
 
@@ -61,7 +61,7 @@ Les fichiers de configuration XML doivent suivre quelques règles générales po
 
 Pour obtenir la liste complète des éléments utilisés dans les fichiers de configuration WsdCodeGen, consultez [référence XML du fichier de configuration WsdCodeGen](wsdcodegen-configuration-file-xml-reference.md).
 
-Les exemples de fichiers de configuration sont fournis avec le SDK Windows. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
+les exemples de fichiers de configuration sont fournis avec le SDK Windows. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

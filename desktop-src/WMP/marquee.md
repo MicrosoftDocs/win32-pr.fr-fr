@@ -3,18 +3,18 @@ title: Chapiteau
 description: Chapiteau
 ms.assetid: 2715732a-25cc-4ba9-9aa6-181ebb9e1d1c
 keywords:
-- Windows Media Player Mobile Skins, palissades
+- Lecteur Windows Media Habillages mobiles, rectangles de sélection
 - apparences, rectangles de sélection
 - informations de référence sur les habillages, les cadres
 - textes défilant dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7efa2db2c6079d47d207240b18a57ebbf7e41ae1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d13d733f0cbf76cf6acdb29e57ce78f783ffd99933455d360a34f79dff6d9143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508442"
 ---
 # <a name="marquee"></a>Chapiteau
 
@@ -36,9 +36,9 @@ La section de texte défilant du fichier de définition d’apparence doit comme
 
 
 > [!Note]  
-> Pour assurer la compatibilité avec les versions de Windows Media Player Mobile antérieures à Windows Media Player 10 mobile, l’utilisation de « marquis » dans un fichier de définition d’apparence est toujours considérée comme valide.
+> pour assurer la compatibilité avec les versions de Lecteur Windows Media mobile antérieur à Lecteur Windows Media 10 mobile, l’utilisation de « Marquis » dans un fichier de définition d’apparence est toujours considérée comme valide.
 
- 
+ 
 
 Vous devez ensuite ajouter une ou plusieurs lignes qui contiennent des informations sur chacune des zones d’affichage de texte défilant dans votre apparence.
 
@@ -77,9 +77,9 @@ Pour obtenir un exemple de code de texte défilant, consultez la [section exempl
 [**Référence d’apparence**](skin-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Définition et récupération d’options Internet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 418bf21620cf7b7c4426844c95a39ef1fde04e11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de9440af59efc763e034615f7919e94c4cfe9227
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842602"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482485"
 ---
 # <a name="setting-and-retrieving-internet-options"></a>Définition et récupération d’options Internet
 
@@ -79,105 +79,25 @@ Le tableau suivant répertorie le type des descripteurs [**HINTERNET**](appendix
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type de handle</th>
-<th>Étendue</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>NULL</strong></td>
-<td>Paramètres d’option par défaut pour Internet Explorer.</td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_CONNECT_FTP</td>
-<td>Les paramètres d’option pour cette connexion à un serveur FTP. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers.</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_CONNECT_GOPHER</td>
-<td>Les paramètres d’option pour cette connexion à un serveur Gopher. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers.
-<blockquote>
-[!Note]<br />
-Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_CONNECT_HTTP</td>
-<td>Les paramètres d’option pour cette connexion à un serveur HTTP. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers.</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_FILE_REQUEST</td>
-<td>Paramètres d’option associés à cette demande de fichier.</td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_FTP_FILE</td>
-<td>Paramètres d’option associés à ce téléchargement de ressource FTP.</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_FTP_FILE_HTML</td>
-<td>Les paramètres d’option associés à ce téléchargement de ressource FTP au format HTML.</td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_FTP_FIND</td>
-<td>Paramètres d’option associés à cette recherche de fichiers sur un serveur FTP.</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_FTP_FIND_HTML</td>
-<td>Les paramètres d’option associés à cette recherche de fichiers sur un serveur FTP au format HTML.</td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_GOPHER_FILE</td>
-<td>Les paramètres d’option associés à ce téléchargement de ressource Gopher.
-<blockquote>
-[!Note]<br />
-Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_GOPHER_FILE_HTML</td>
-<td>Paramètres d’option associés à ce téléchargement de ressources Gopher au format HTML.
-<blockquote>
-[!Note]<br />
-Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_GOPHER_FIND</td>
-<td>Paramètres d’option associés à cette recherche de fichiers sur un serveur Gopher.
-<blockquote>
-[!Note]<br />
-Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_GOPHER_FIND_HTML</td>
-<td>Les paramètres d’option associés à cette recherche de fichiers sur un serveur Gopher au format HTML.
-<blockquote>
-[!Note]<br />
-Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>INTERNET_HANDLE_TYPE_HTTP_REQUEST</td>
-<td>Paramètres d’option associés à cette requête HTTP.</td>
-</tr>
-<tr class="odd">
-<td>INTERNET_HANDLE_TYPE_INTERNET</td>
-<td>Les paramètres d’option associés à cette instance des fonctions WinINet.</td>
-</tr>
-</tbody>
-</table>
+
+| Type de handle | Étendue | 
+|-------------|-------|
+| <strong>NULL</strong> | Paramètres d’option par défaut pour Internet Explorer. | 
+| INTERNET_HANDLE_TYPE_CONNECT_FTP | Les paramètres d’option pour cette connexion à un serveur FTP. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers. | 
+| INTERNET_HANDLE_TYPE_CONNECT_GOPHER | Les paramètres d’option pour cette connexion à un serveur Gopher. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers.<blockquote>[!Note]<br />Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_CONNECT_HTTP | Les paramètres d’option pour cette connexion à un serveur HTTP. Ces options affectent les opérations lancées à partir de ce handle <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> , telles que les téléchargements de fichiers. | 
+| INTERNET_HANDLE_TYPE_FILE_REQUEST | Paramètres d’option associés à cette demande de fichier. | 
+| INTERNET_HANDLE_TYPE_FTP_FILE | Paramètres d’option associés à ce téléchargement de ressource FTP. | 
+| INTERNET_HANDLE_TYPE_FTP_FILE_HTML | Les paramètres d’option associés à ce téléchargement de ressource FTP au format HTML. | 
+| INTERNET_HANDLE_TYPE_FTP_FIND | Paramètres d’option associés à cette recherche de fichiers sur un serveur FTP. | 
+| INTERNET_HANDLE_TYPE_FTP_FIND_HTML | Les paramètres d’option associés à cette recherche de fichiers sur un serveur FTP au format HTML. | 
+| INTERNET_HANDLE_TYPE_GOPHER_FILE | Les paramètres d’option associés à ce téléchargement de ressource Gopher.<blockquote>[!Note]<br />Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FILE_HTML | Paramètres d’option associés à ce téléchargement de ressources Gopher au format HTML.<blockquote>[!Note]<br />Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FIND | Paramètres d’option associés à cette recherche de fichiers sur un serveur Gopher.<blockquote>[!Note]<br />Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FIND_HTML | Les paramètres d’option associés à cette recherche de fichiers sur un serveur Gopher au format HTML.<blockquote>[!Note]<br />Windows XP et Windows Server 2003 R2 et versions antérieures uniquement.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_HTTP_REQUEST | Paramètres d’option associés à cette requête HTTP. | 
+| INTERNET_HANDLE_TYPE_INTERNET | Les paramètres d’option associés à cette instance des fonctions WinINet. | 
+
 
 
 
@@ -359,7 +279,7 @@ Dans Internet Explorer 5 et versions ultérieures, les options Internet peuvent 
 6.  Libérez la mémoire, allouée pour contenir les données d’option, à l’aide de la fonction [**GlobalFree**](/windows/desktop/api/winbase/nf-winbase-globalfree) .
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

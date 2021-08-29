@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101278
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 269e7f9b1da33de188e135cf331f06fa74c94414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ea314d2e473e8951f8fcace235acd73c96c3696bf0eb51f5c633ddca8f96655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117005"
 ---
 # <a name="esentcannotnestdistributedtransactionsexception-methods"></a>Méthodes EsentCannotNestDistributedTransactionsException
 

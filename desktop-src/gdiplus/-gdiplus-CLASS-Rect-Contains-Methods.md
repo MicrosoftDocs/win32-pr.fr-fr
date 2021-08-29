@@ -4,12 +4,12 @@ ms.assetid: 7f409554-5d84-4294-bbc9-55f57f40dc56
 title: Rect. Contains, méthodes
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 43f6edfc6b09557192b29470b49af91114c0b276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6fd18cdc832b2c1776519ca808bfcc72924320ddbbb397bdfd6aff57e3c86e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037197"
 ---
 # <a name="rectcontains-methods"></a>Rect. Contains, méthodes
 

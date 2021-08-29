@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0e88795bb3ee966bf2ad7fa50cc7d2180d7264bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7309d803421d4bf9221ba1d968d5034f940b016f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983772"
 ---
 # <a name="jet_setsysparam-structure"></a>Structure JET_SETSYSPARAM
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_setsysparam-structure"></a>Structure JET_SETSYSPARAM
 
 Un tableau de structures de **JET_SETSYSPARAM** indique un ensemble spécifique de paramètres système globaux définis comme argument lors de l’utilisation de la fonction [JetEnableMultiInstance](./jetenablemultiinstance-function.md) .
 
-**Windows XP :** Cette structure est introduite dans Windows XP.
+**Windows XP :** cette structure est introduite dans Windows XP.
 
 ```cpp
     typedef struct {
@@ -48,7 +48,7 @@ Un tableau de structures de **JET_SETSYSPARAM** indique un ensemble spécifique 
 
 ID du paramètre système qui sera défini.
 
-Pour obtenir la liste complète des paramètres système et leurs propriétés, consultez [paramètres système du moteur de stockage extensible](./extensible-storage-engine-system-parameters.md) .
+pour obtenir la liste complète des paramètres système et leurs propriétés, consultez [paramètres système du moteur de Stockage Extensible](./extensible-storage-engine-system-parameters.md) .
 
 **lParam**
 
@@ -64,35 +64,19 @@ Erreur résultant de l’appel à [JetSetSystemParameter](./jetsetsystemparamete
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté comme <strong>JET_ SETSYSPARAM_W</strong> (Unicode) et <strong>JET_ SETSYSPARAM_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_ SETSYSPARAM_W</strong> (Unicode) et <strong>JET_ SETSYSPARAM_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi
 
-[Paramètres système du moteur de stockage extensible](./extensible-storage-engine-system-parameters.md)  
+[paramètres système du moteur de Stockage Extensible](./extensible-storage-engine-system-parameters.md)  
 [JET_API_PTR](./jet-api-ptr.md)  
 [JET_ERR](./jet-err.md)  
 [JetEnableMultiInstance](./jetenablemultiinstance-function.md)  

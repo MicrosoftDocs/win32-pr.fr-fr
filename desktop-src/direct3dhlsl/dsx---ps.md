@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 701dbe0125d10850760e6a1f08a2f84a50c55fe2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 41307f89b4fe47276917cacb4bc5208388060feac4e63aacb4046abe87f00554
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103940575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673769"
 ---
 # <a name="dsx---ps"></a>DSX-PS
 
@@ -29,14 +29,14 @@ Calcule le taux de modification de l’axe x de la cible de rendu.
 
 
 
- 
+ 
 
 Où :
 
 -   l’heure d’été est un registre de destination.
 -   SRC est un registre de source d’entrée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ Où :
 
 
 
- 
+ 
 
 Le taux de modification calculé à partir du Registre source est une approximation sur le contenu du même registre dans le ou les pixels adjacents qui exécutent le nuanceur de pixels dans l’étape de verrouillage avec le pixel actuel.
 
@@ -62,9 +62,9 @@ Les instructions DSX et [DSY](dsy---ps.md) calculent leur résultat en examinant
 [texldd-PS](texldd---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

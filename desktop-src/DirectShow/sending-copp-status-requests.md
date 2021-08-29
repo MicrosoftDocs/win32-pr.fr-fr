@@ -4,12 +4,12 @@ ms.assetid: 9f9950ff-469f-4cea-924e-3f9471eb4838
 title: Envoi de demandes d’État COPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e5494b0e856df573bdbfc9b1554ab82be206a95
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 34407b5bb865167db65957e12121d6ce91f432eb5fcbd679527f657873dc35d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683829"
 ---
 # <a name="sending-copp-status-requests"></a>Envoi de demandes d’État COPP
 

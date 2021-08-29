@@ -4,12 +4,12 @@ description: Windows La plateforme de filtrage (WFP) permet d’auditer les év�
 ms.assetid: 30ff9cf7-bf93-4979-bacd-d76e5dadbef6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 854841685bab015fc0b9a4bc985762df46a7f0c89eae3d38b4b63e081107b70b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62e62995cfe227bc31897e6a5ca73fc09c780ce7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015407"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483055"
 ---
 # <a name="auditing"></a>Audit
 
@@ -19,121 +19,18 @@ Les événements audités sont les suivants :
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Catégorie d’audit</th>
-<th>Sous-catégorie d’audit</th>
-<th>Événements audités</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Modification de stratégie<br/> {6997984D-797A-11D9-BED3-505054503030}<br/></td>
-<td>Filtrage de la modification de stratégie de plateforme<br/> {0CCE9233-69AE-11D9-BED3-505054503030}<br/></td>
-<td><blockquote>
-[!Note]<br />
-Les nombres représentent les ID d’événements tels qu’ils sont affichés par observateur d’événements (eventvwr.exe).
-</blockquote>
-<br/> Ajout et suppression d’objets WFP :<br/>
-<ul>
-<li>légende persistante 5440 ajoutée</li>
-<li>5441-temps de démarrage ou filtre persistant ajouté</li>
-<li>5442 fournisseur persistant ajouté</li>
-<li>5443 contexte du fournisseur persistant ajouté</li>
-<li>5444 sous-couche persistante ajoutée</li>
-<li>5446 ajout ou suppression d’un appel au moment de l’exécution</li>
-<li>5447 filtre au moment de l’exécution ajouté ou supprimé</li>
-<li>5448 fournisseur d’exécution ajouté ou supprimé</li>
-<li>5449 contexte du fournisseur au moment de l’exécution ajouté ou supprimé</li>
-<li>sous-couche d’exécution 5450 ajoutée ou supprimée</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Accès aux objets<br/> {6997984A-797A-11D9-BED3-505054503030}<br/></td>
-<td>Filtrage de la suppression de paquets de plateforme <br/> {0CCE9225-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Paquets supprimés par WFP :<br/>
-<ul>
-<li>paquet 5152 abandonné</li>
-<li>5153 paquet refusé</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Accès aux objets<br/></td>
-<td>Filtrage de la connexion de plateforme <br/> {0CCE9226-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Connexions autorisées et bloquées :<br/>
-<ul>
-<li>5154 écoute autorisée</li>
-<li>5155 écoute bloquée</li>
-<li>5156 connexion autorisée</li>
-<li>5157 connexion bloquée</li>
-<li>5158 liaison autorisée</li>
-<li>liaison 5159 bloquée</li>
-</ul>
-<blockquote>
-[!Note]<br />
-Les connexions autorisées n’auditent pas toujours l’ID du filtre associé. Le FilterID pour TCP sera égal à 0, sauf si un sous-ensemble de ces conditions de filtrage est utilisé : UserID, AppID, Protocol, port distant.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Accès aux objets<br/></td>
-<td>Autres événements d’accès aux objets<br/> {0CCE9227-69AE-11D9-BED3-505054503030}<br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette sous-catégorie active un grand nombre d’audits. Les audits spécifiques à WFP sont répertoriés ci-dessous.
-</blockquote>
-<br/> État de prévention du déni de service :<br/>
-<ul>
-<li>5148 mode de prévention DoS WFP démarré</li>
-<li>5149 mode de prévention DoS WFP arrêté</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Ouverture/fermeture de session<br/> {69979849-797A-11D9-BED3-505054503030}<br/></td>
-<td>Mode principal IPsec<br/> {0CCE9218-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Négociation en mode principal IKE et AuthIP :<br/>
-<ul>
-<li>4650, 4651 Association de sécurité établie</li>
-<li>4652, échec de la négociation 4653</li>
-<li>4655 Association de sécurité terminée</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Ouverture/fermeture de session<br/></td>
-<td>Mode rapide IPsec <br/> {0CCE9219-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Négociation en mode rapide IKE et AuthIP :<br/>
-<ul>
-<li>5451 Association de sécurité établie</li>
-<li>5452 Association de sécurité terminée</li>
-<li>échec de la négociation 4654</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Ouverture/fermeture de session <br/></td>
-<td>Mode étendu IPsec<br/> {0CCE921A-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Négociation en mode étendu AuthIP :<br/>
-<ul>
-<li>4978 paquet de négociation non valide</li>
-<li>4979, 4980, 4981, 4982 Association de sécurité établie</li>
-<li>4983, échec de la négociation 4984</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Système<br/> {69979848-797A-11D9-BED3-505054503030}<br/></td>
-<td>Pilote IPsec<br/> {0CCE9213-69AE-11D9-BED3-505054503030}<br/></td>
-<td>Paquets ignorés par le pilote IPsec :<br/>
-<ul>
-<li>4963 paquet de texte en clair entrant supprimé</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Catégorie d’audit | Sous-catégorie d’audit | Événements audités | 
+|-------------------|----------------------|----------------|
+| Modification de stratégie<br /> {6997984D-797A-11D9-BED3-505054503030}<br /> | Filtrage de la modification de stratégie de plateforme<br /> {0CCE9233-69AE-11D9-BED3-505054503030}<br /> | <blockquote>[!Note]<br />Les nombres représentent les ID d’événements tels qu’ils sont affichés par observateur d’événements (eventvwr.exe).</blockquote><br /> Ajout et suppression d’objets WFP :<br /><ul><li>légende persistante 5440 ajoutée</li><li>5441-temps de démarrage ou filtre persistant ajouté</li><li>5442 fournisseur persistant ajouté</li><li>5443 contexte du fournisseur persistant ajouté</li><li>5444 sous-couche persistante ajoutée</li><li>5446 ajout ou suppression d’un appel au moment de l’exécution</li><li>5447 filtre au moment de l’exécution ajouté ou supprimé</li><li>5448 fournisseur d’exécution ajouté ou supprimé</li><li>5449 contexte du fournisseur au moment de l’exécution ajouté ou supprimé</li><li>sous-couche d’exécution 5450 ajoutée ou supprimée</li></ul> | 
+| Accès aux objets<br /> {6997984A-797A-11D9-BED3-505054503030}<br /> | Filtrage de la suppression de paquets de plateforme <br /> {0CCE9225-69AE-11D9-BED3-505054503030}<br /> | Paquets supprimés par WFP :<br /><ul><li>paquet 5152 abandonné</li><li>5153 paquet refusé</li></ul> | 
+| Accès aux objets<br /> | Filtrage de la connexion de plateforme <br /> {0CCE9226-69AE-11D9-BED3-505054503030}<br /> | Connexions autorisées et bloquées :<br /><ul><li>5154 écoute autorisée</li><li>5155 écoute bloquée</li><li>5156 connexion autorisée</li><li>5157 connexion bloquée</li><li>5158 liaison autorisée</li><li>liaison 5159 bloquée</li></ul><blockquote>[!Note]<br />Les connexions autorisées n’auditent pas toujours l’ID du filtre associé. Le FilterID pour TCP sera égal à 0, sauf si un sous-ensemble de ces conditions de filtrage est utilisé : UserID, AppID, Protocol, port distant.</blockquote><br /> | 
+| Accès aux objets<br /> | Autres événements d’accès aux objets<br /> {0CCE9227-69AE-11D9-BED3-505054503030}<br /> | <blockquote>[!Note]<br />Cette sous-catégorie active un grand nombre d’audits. Les audits spécifiques à WFP sont répertoriés ci-dessous.</blockquote><br /> État de prévention du déni de service :<br /><ul><li>5148 mode de prévention DoS WFP démarré</li><li>5149 mode de prévention DoS WFP arrêté</li></ul> | 
+| Ouverture/fermeture de session<br /> {69979849-797A-11D9-BED3-505054503030}<br /> | Mode principal IPsec<br /> {0CCE9218-69AE-11D9-BED3-505054503030}<br /> | Négociation en mode principal IKE et AuthIP :<br /><ul><li>4650, 4651 Association de sécurité établie</li><li>4652, échec de la négociation 4653</li><li>4655 Association de sécurité terminée</li></ul> | 
+| Ouverture/fermeture de session<br /> | Mode rapide IPsec <br /> {0CCE9219-69AE-11D9-BED3-505054503030}<br /> | Négociation en mode rapide IKE et AuthIP :<br /><ul><li>5451 Association de sécurité établie</li><li>5452 Association de sécurité terminée</li><li>échec de la négociation 4654</li></ul> | 
+| Ouverture/fermeture de session <br /> | Mode étendu IPsec<br /> {0CCE921A-69AE-11D9-BED3-505054503030}<br /> | Négociation en mode étendu AuthIP :<br /><ul><li>4978 paquet de négociation non valide</li><li>4979, 4980, 4981, 4982 Association de sécurité établie</li><li>4983, échec de la négociation 4984</li></ul> | 
+| Système<br /> {69979848-797A-11D9-BED3-505054503030}<br /> | Pilote IPsec<br /> {0CCE9213-69AE-11D9-BED3-505054503030}<br /> | Paquets ignorés par le pilote IPsec :<br /><ul><li>4963 paquet de texte en clair entrant supprimé</li></ul> | 
+
 
 
 

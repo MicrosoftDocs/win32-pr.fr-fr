@@ -1,6 +1,6 @@
 ---
-title: Types de données du collecteur d’événements Windows (Evcoll. h)
-description: Les types de données du collecteur d’événements Windows sont utilisés en tant que types de variables objet d’abonnement d’événement, types de paramètres de fonction et types de retour de fonction.
+title: Windows Types de données du collecteur d’événements (Evcoll. h)
+description: les types de données du collecteur d’événements Windows sont utilisés en tant que types de variables objet d’abonnement d’événement, types de paramètres de fonction et types de retour de fonction.
 ms.assetid: b78bdaf8-e034-40fe-acf8-632313e4fd94
 ms.tgt_platform: multiple
 keywords:
@@ -8,16 +8,16 @@ keywords:
 - EC_OBJECT_ARRAY_PROPERTY_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ccec141317644aa091eac44033b87b9e4495ddc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a8d0a3a0887fccebbd5cfb45042eaa59895febfa1001af93eed1161e9d33f8b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620569"
 ---
-# <a name="windows-event-collector-data-types"></a>Types de données du collecteur d’événements Windows
+# <a name="windows-event-collector-data-types"></a>Windows Types de données du collecteur d’événements
 
-Les types de données du collecteur d’événements Windows sont utilisés en tant que types de variables objet d’abonnement d’événement, types de paramètres de fonction et types de retour de fonction.
+les types de données du collecteur d’événements Windows sont utilisés en tant que types de variables objet d’abonnement d’événement, types de paramètres de fonction et types de retour de fonction.
 
 
 ```C++

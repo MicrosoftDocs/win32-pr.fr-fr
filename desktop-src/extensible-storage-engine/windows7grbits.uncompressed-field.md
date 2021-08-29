@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6b49106f7883754b0edd3589794cf737a1848411
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cf803218c257dd28df6553dd3cb55b54e93118152d8a4c4cfde44dd369ca9b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718709"
 ---
 # <a name="windows7grbitsuncompressed-field"></a>Windows7Grbits. champ non compressé
 

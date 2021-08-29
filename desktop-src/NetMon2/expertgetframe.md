@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2bd02bde8caf157b6df6b1dd772a8f7574df0e57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eba45f6ca01d4792a2093f5433b919794f1ac1c923f30c36f7a353babf5822f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911089"
 ---
 # <a name="expertgetframe-function"></a>ExpertGetFrame fonction)
 
@@ -115,7 +115,7 @@ Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour indique la raison de l’échec. Si la valeur de retour est NMERR \_ expert \_ Terminate, l’expert doit immédiatement procéder au nettoyage et au retour ; l’utilisateur a annulé l’exécution de l’expert.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous définissez FLAGs \_ Attach \_ Properties, l’appel nécessite plus de ressources que si vous ne définissez pas l’indicateur. Si l’indicateur n’est pas défini, un pointeur pointe vers le frame brut et vers les données relatives au frame. Si cet indicateur est défini, Moniteur réseau joint toutes les propriétés au frame en appelant chaque analyseur qui prétend une partie du frame. Il peut s’agir d’un processus lent.
 

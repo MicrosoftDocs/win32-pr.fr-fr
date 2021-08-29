@@ -4,12 +4,12 @@ ms.assetid: 3467b0c8-c27d-448a-8cbf-971307e4c408
 title: Propriété AVEncVideoInverseTelecineEnable (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31eac80651eb80d933c4f40ef22303c4858783d2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 83eabd445b6070cfc77aeb4499da4268cafc11560d2c8db106b7d5dbecf9eb46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342159"
 ---
 # <a name="avencvideoinversetelecineenable-property"></a>Propriété AVEncVideoInverseTelecineEnable
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncVideoInverseTelecineEnable**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, l’encodeur effectue un télécinéma inverse. Si vous n’avez pas besoin de télécinéma inverse, affectez la valeur **\_ false** à cette propriété. Pour effectuer un télécinéma inverse en dehors de l’encodeur, affectez la valeur **\_ false** à cette propriété et affectez à la propriété [**AVEncVideoOutputScanType**](avencvideooutputscantype-property.md) la valeur eAVEncVideoOutputScan \_ SameAsInput.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, l’encodeur effectue un télécinéma inverse. Si
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

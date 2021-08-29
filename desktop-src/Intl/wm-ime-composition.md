@@ -4,12 +4,12 @@ ms.assetid: 6de1c4c2-d910-487c-8b82-408cb6e02c44
 title: Message WM_IME_COMPOSITION (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d795c1e270be978927e3b93743de5fece7021b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb1212d3fcbdee239c122c26bdd19814d156f9c886883ed381f2e8f6f2a59839
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811589"
 ---
 # <a name="wm_ime_composition-message"></a>Message de composition du WM \_ IME \_
 
@@ -107,7 +107,7 @@ Le paramètre *lParam* peut également avoir une ou plusieurs des valeurs suivan
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter ce message si elle affiche lui-même des caractères de composition. Dans le cas contraire, il doit envoyer le message à la fenêtre IME.
 
@@ -123,7 +123,7 @@ Si aucune des valeurs de catalogues globaux \_ n’est définie, le message indi
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                                                                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                                                                                                      |
-| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h); </dt> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h);</dt> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: A7E8DE2A-8D31-4E84-8757-4A06BEFB1865
 title: Méthodes IAzRoleDefinition
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8faf6cf546b9e370b81991b234475f9e01c574f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9824b02fe369f6020bd38af3f259cefe21f91df1342879e86597a71ae22c53c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908729"
 ---
 # <a name="iazroledefinition-methods"></a>Méthodes IAzRoleDefinition
 

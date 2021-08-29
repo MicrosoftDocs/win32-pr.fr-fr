@@ -4,12 +4,12 @@ ms.assetid: da959bef-1e87-4638-9a77-4135c31a3d27
 title: MFPKEY_VIDEOWINDOW, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f33d10b3a589ef3bcfc945b2c3404c7b02cb7121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9e8e206a7d507fdfcad58a17436b0390077c11d88fc972a6166bde7887f79d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355619"
 ---
 # <a name="mfpkey_videowindow-property"></a>MFPKEY \_ propriété VIDEOWINDOW
 
@@ -27,7 +27,7 @@ VT \_
 
 3000
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre de mémoire tampon est l’un des paramètres de modèle de « compartiment perdu » utilisés dans le contrôle du taux de codec.
 
@@ -37,8 +37,8 @@ La fenêtre de mémoire tampon est l’un des paramètres de modèle de « comp
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

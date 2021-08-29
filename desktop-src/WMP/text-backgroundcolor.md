@@ -3,7 +3,7 @@ title: TEXT. backgroundColor
 description: L’attribut backgroundColor spécifie ou récupère la couleur d’arrière-plan du contrôle de texte.
 ms.assetid: 0c16318f-bf57-4c5f-85c1-46641124d431
 keywords:
-- TEXT. backgroundColor lecteur Windows Media
+- TEXT. backgroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bff833fad0b5ad60b49479c57dc51cbe82f48dbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65361f581a265b2fa65c8f64e3a05f165691d2c03276bd3412ecd86588f8ff73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901049"
 ---
 # <a name="textbackgroundcolor"></a>TEXT. backgroundColor
 
@@ -31,7 +31,7 @@ L’attribut **backgroundColor** spécifie ou récupère la couleur d’arrière
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer ou la valeur « None ». Sa valeur par défaut est « None », ce qui signifie que l’arrière-plan est transparent.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La couleur d’arrière-plan est définie pour la hauteur et la largeur du contrôle. Si la hauteur et la largeur ne sont pas définies, la couleur d’arrière-plan est définie sur la hauteur et la largeur du texte.
 

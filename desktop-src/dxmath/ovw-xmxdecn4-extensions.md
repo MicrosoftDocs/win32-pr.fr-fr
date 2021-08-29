@@ -4,12 +4,12 @@ ms.assetid: 0bf3ea27-1f50-47c3-b210-e8624e29ec36
 title: Extensions XMXDECN4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c96e111afc8e8db4fae844d7a1f9b7796f7906b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05ba0b5a39273749ea078790970f5f818cd51b2ebecf9c719a49f6eb4b10eefc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118269"
 ---
 # <a name="xmxdecn4-extensions"></a>Extensions XMXDECN4
 

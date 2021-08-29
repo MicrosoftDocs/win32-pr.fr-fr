@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c065c86548769ab8643a561c7aec3132728d5d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 96e6528b7155d79d0dbbf0f6f0d68f1edf535c00e4dfd12907e2cf558fcf58b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119325419"
 ---
 # <a name="parent-ca-attribute"></a>Attribut parent-CA
 
@@ -45,7 +45,7 @@ Nom unique d’un objet d’autorité de certification pour une autorité de cer
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: eef90ea3f1ed743ec5bee0eefa5afebc8c340077
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 544dd18f5d8ea3bd0afb166fac3b692bacfe47b67777fdcc65678a418111775a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921669"
 ---
 # <a name="cim_hostedfilesystem-class"></a>\_Classe CIM HostedFileSystem
 
@@ -89,7 +89,7 @@ Un système de fichiers [**CIM \_**](cim-filesystem.md) qui décrit le système 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ HostedFileSystem** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 

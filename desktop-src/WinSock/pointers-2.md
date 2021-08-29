@@ -1,19 +1,19 @@
 ---
-description: Tous les pointeurs utilisés par des applications avec des sockets Windows doivent être ÉLOIGNÉs, bien que cela ne concerne que les applications 16 bits et non significatives dans un 32 bits. Pour faciliter cette tâche, des définitions de type de données telles que LPHOSTENT sont fournies.
+description: tous les pointeurs utilisés par les applications avec Windows sockets doivent être éloignés, bien que cela ne concerne que les applications 16 bits et non significatives dans un 32 bits. Pour faciliter cette tâche, des définitions de type de données telles que LPHOSTENT sont fournies.
 ms.assetid: 49111309-1a2f-462c-b9f5-e6839e439ada
-title: Pointeurs (Windows Sockets 2)
+title: pointeurs (Windows sockets 2)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faa317a1b15394ed3c2899b8cab59360c49b8bbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3241952cd5db4f95e076a0fca87c76d4140b4cc099f001c0c267cbcb35bf2d9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121349"
 ---
-# <a name="pointers-windows-sockets-2"></a>Pointeurs (Windows Sockets 2)
+# <a name="pointers-windows-sockets-2"></a>pointeurs (Windows sockets 2)
 
-Tous les pointeurs utilisés par des applications avec des sockets Windows doivent être ÉLOIGNÉs, bien que cela ne concerne que les applications 16 bits et non significatives dans un 32 bits. Pour faciliter cette tâche, des définitions de type de données telles que **LPHOSTENT** sont fournies.
+tous les pointeurs utilisés par les applications avec Windows sockets doivent être éloignés, bien que cela ne concerne que les applications 16 bits et non significatives dans un 32 bits. Pour faciliter cette tâche, des définitions de type de données telles que **LPHOSTENT** sont fournies.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

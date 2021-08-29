@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fd6d200f6b22af46e648040e8299f40ec9ebae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ddc1862ee598a364f83ea89a4918efd513b4b789f1602aa4fb2b2208d9009167
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069719"
 ---
 # <a name="id3dx11effectoptimize-method"></a>ID3DX11Effect :: Optimize, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Retourne l’un des [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet utilise l’espace mémoire de deux façons différentes : pour stocker les informations requises par le runtime pour exécuter un effet, et pour stocker les métadonnées requises pour répercuter les informations dans une application à l’aide de l’API. Vous pouvez réduire la quantité de mémoire requise par un effet en appelant **ID3DX11Effect :: Optimize** , qui supprime les métadonnées de réflexion de la mémoire. Les méthodes d’API pour lire des variables ne fonctionnent plus une fois que les données de réflexion ont été supprimées.
 
@@ -73,7 +73,7 @@ Les méthodes suivantes échouent après l’appel de la méthode Optimize sur u
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

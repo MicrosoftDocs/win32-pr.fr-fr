@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ccc23b583370ef550686905cee5d05289e04ea4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 61cfb9b23f90c26d7b6bbfa0c296c72475463b85dac66df107a9e005bcfec610
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508289"
 ---
 # <a name="ms-ts-licenseversion4-attribute"></a>Attribut MS-TS-LicenseVersion4
 
@@ -42,7 +42,7 @@ Version de la quatrième licence d’accès client Terminal Server par utilisate
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4fe88913ad374923c11cf058a3dc0aa70580411e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2b9a3ec028b121cfcb76dfe857d4d12b34dca57410ffee177dd45a19e358e29a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341669"
 ---
 # <a name="cbaseinputpinreceive-method"></a>CBaseInputPin. Receive, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -68,7 +68,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La broche de sortie en amont appelle cette méthode pour remettre un échantillon à la broche d’entrée. La broche d’entrée doit effectuer l’une des opérations suivantes :
 
@@ -101,7 +101,7 @@ Dans la classe de base, cette méthode ne traite pas l’exemple. La classe dér
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

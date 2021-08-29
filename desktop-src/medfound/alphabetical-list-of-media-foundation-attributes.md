@@ -4,12 +4,12 @@ ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
 title: Liste alphabétique des attributs Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1a88689dd4bae8a0f64d77e446f6ae5b29377e
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 3966f7da4bd4b17905d9221c4fa85d164b121953fc646d828262f735f0fda45b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035587"
 ---
 # <a name="alphabetical-list-of-media-foundation-attributes"></a>Liste alphabétique des attributs Media Foundation
 

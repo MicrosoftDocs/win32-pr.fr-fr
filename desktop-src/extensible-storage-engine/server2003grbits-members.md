@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55107767
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 21008153606a6c35c76daf3c2758211f3fcdd42e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57e1dffd37dc54955ca2cb0ed28bc8aca37a35cb7ddc6792f497e7b8ca11513a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093199"
 ---
 # <a name="server2003grbits-members"></a>Membres Server2003Grbits
 
 Inclure les membres protégés  
 Inclure les membres hérités  
 
-Grbits qui ont été ajoutés à la version Windows Server 2003 d’ESENT.
+Grbits qui ont été ajoutés à la version 2003 du serveur Windows d’ESENT.
 
 Le type [Server2003Grbits](./server2003grbits-class.md) expose les membres suivants.
 

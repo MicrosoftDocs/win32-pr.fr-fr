@@ -3,20 +3,20 @@ title: Comment AMSI vous protège contre les programmes malveillants
 description: En tant que développeur d’applications, vous pouvez participer activement à la défense contre les programmes malveillants. Plus précisément, vous pouvez protéger vos clients contre les programmes malveillants basés sur des scripts dynamiques et à partir de voies non traditionnelles de cyberattaque.
 ms.topic: article
 ms.date: 02/27/2019
-ms.openlocfilehash: 0d6aee30034312073123f5ab14b1924fd01e6eac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c9ce09fdbf928395e2ca538add5fe7121c5ee49867c29205a9a39bce746a382
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440453"
 ---
 # <a name="how-the-antimalware-scan-interface-amsi-helps-you-defend-against-malware"></a>Comment l’interface d’analyse anti-programme malveillant (AMSI) vous permet de vous défendre contre les programmes malveillants
 
-Pour une introduction à l’interface de l’analyse anti-programme malveillant de Windows (AMSI), consultez [interface d’analyse anti-programme malveillant (AMSI)](antimalware-scan-interface-portal.md).
+pour obtenir une présentation de Windows l’interface AMSI (anti-programme anti-programme malveillant), consultez [interface d’analyse anti-programme malveillant (AMSI)](antimalware-scan-interface-portal.md).
 
 En tant que développeur d’applications, vous pouvez participer activement à la défense contre les programmes malveillants. Plus précisément, vous pouvez protéger vos clients contre les programmes malveillants basés sur des scripts dynamiques et à partir de voies non traditionnelles de cyberattaque.
 
-Par exemple, supposons que votre application soit scriptable : elle accepte le script arbitraire et l’exécute via un moteur de script. À l’endroit où un script est prêt à être fourni au moteur de script, votre application peut appeler les API AMSI Windows pour demander une analyse du contenu. De cette façon, vous pouvez déterminer en toute sécurité si le script est malveillant avant de décider de l’exécuter.
+Par exemple, supposons que votre application soit scriptable : elle accepte le script arbitraire et l’exécute via un moteur de script. à l’endroit où un script est prêt à être fourni au moteur de script, votre application peut appeler les api Windows AMSI pour demander une analyse du contenu. De cette façon, vous pouvez déterminer en toute sécurité si le script est malveillant avant de décider de l’exécuter.
 
 Cela est vrai même si le script a été généré au moment de l’exécution. Le script (malveillant ou autre) peut passer par plusieurs passages de débrouillage. Mais vous devez finalement fournir le moteur de script avec du code brut et non masqué. C’est là que vous appelez les API AMSI.
 
@@ -24,13 +24,13 @@ Voici une illustration de l’architecture AMSI, où votre propre application es
 
 ![architecture AMSI](images/AMSI7Archi.jpg)
 
-L’interface Windows AMSI est ouverte. Ce qui signifie que toute application peut l’appeler ; et tout moteur anti-programme malveillant inscrit peut traiter le contenu qui lui est soumis.
+l’interface Windows AMSI est ouverte. Ce qui signifie que toute application peut l’appeler ; et tout moteur anti-programme malveillant inscrit peut traiter le contenu qui lui est soumis.
 
 Nous n’avons pas besoin de limiter la discussion aux moteurs de script. Par exemple, votre application est une application de communication et elle analyse les messages instantanés à la recherche de virus avant de les afficher à vos clients. Ou peut-être votre logiciel est un jeu qui valide les plug-ins avant de les installer. Il existe de nombreuses opportunités et scénarios pour l’utilisation de AMSI.
 
 ## <a name="amsi-in-action"></a>AMSI en action
 
-Jetons un coup d’œil à AMSI en action. Dans cet exemple, Windows Defender est l’application qui appelle les API AMSI. Toutefois, vous pouvez appeler les mêmes API à partir de votre propre application.
+Jetons un coup d’œil à AMSI en action. dans cet exemple, Windows Defender est l’application qui appelle les api AMSI. Toutefois, vous pouvez appeler les mêmes API à partir de votre propre application.
 
 Voici un exemple de script qui utilise la technique XOR-Encoding pour masquer son intention (que cette intention soit bénigne ou non). Pour cette illustration, nous pouvons imaginer que ce script a été téléchargé à partir d’Internet.
 
@@ -38,9 +38,9 @@ Voici un exemple de script qui utilise la technique XOR-Encoding pour masquer so
 
 Pour rendre les choses plus intéressantes, nous pouvons entrer ce script manuellement sur la ligne de commande afin qu’il n’y ait pas de fichier réel à analyser. Cela reflète ce que l’on appelle une « menace de fichier ». Ce n’est pas aussi simple que d’analyser des fichiers sur disque. La menace peut être une porte dérobée qui réside uniquement dans la mémoire d’un ordinateur.
 
-Ci-dessous, nous voyons le résultat de l’exécution du script dans Windows PowerShell. Vous verrez que Windows Defender est en mesure de détecter l’exemple de test AMSI dans ce scénario compliqué, simplement à l’aide de la signature d’exemple de test AMSI standard.
+Ci-dessous, nous voyons le résultat de l’exécution du script dans Windows PowerShell. vous verrez que Windows Defender est en mesure de détecter l’exemple de test AMSI dans ce scénario compliqué, simplement à l’aide de la signature d’exemple de test AMSI standard.
 
-![Windows Defender-détection de l’exemple de test AMSI](images/AMSI9proper.png)
+![Windows Defender détection de l’exemple de test AMSI](images/AMSI9proper.png)
 
 ## <a name="amsi-integration-with-javascriptvba"></a>Intégration de AMSI avec JavaScript/VBA
 
@@ -55,19 +55,19 @@ Le flux de travail illustré ci-dessous décrit le flux de bout en bout d’un a
 - Lorsque des API Win32 ou COM spécifiques considérées comme étant à haut risque (également appelées *déclencheurs*) \[ 2 \] sont observées, l’exécution de la macro est interrompue et le contenu de la mémoire tampon circulaire est transmis à AMSI.
 - Le fournisseur de services anti-programmes malveillants AMSI inscrit répond avec un verdict pour indiquer si le comportement de la macro est malveillant.
 - Si le comportement est non malveillant, l’exécution de la macro se poursuit.
-- Dans le cas contraire, si le comportement est malveillant, Microsoft Office ferme la session en réponse à l’alerte \[ 3 \] , et l’antivirus peut mettre le fichier en quarantaine.
+- dans le cas contraire, si le comportement est malveillant, Microsoft Office ferme la session en réponse à l’alerte \[ 3 \] , et l’antivirus peut mettre le fichier en quarantaine.
 
 ## <a name="what-does-this-mean-for-you"></a>Qu’est-ce que cela signifie pour vous ?
 
-Pour les utilisateurs de Windows, tout logiciel malveillant qui utilise des techniques d’obscurcissement et de fraude sur les hôtes de script intégrés de Windows 10 est automatiquement inspecté à un niveau plus approfondi que jamais, offrant ainsi des niveaux de protection supplémentaires.
+pour les utilisateurs Windows, tous les logiciels malveillants qui utilisent des techniques d’obscurcissement et de fraude sur les hôtes de script intégrés d’Windows 10 sont automatiquement inspectés à un niveau plus approfondi que jamais, offrant ainsi des niveaux de protection supplémentaires.
 
-Pour vous, en tant que développeur d’applications, vous devez faire appel à votre application pour appeler l’interface AMSI de Windows si vous souhaitez tirer parti de l’analyse et de l’analyse supplémentaires du contenu potentiellement malveillant.
+pour vous, en tant que développeur d’applications, vous devez faire en sorte que votre application appelle l’interface Windows AMSI si vous souhaitez bénéficier d’une analyse et d’une analyse supplémentaires du contenu potentiellement malveillant.
 
-En tant que fournisseur de logiciels antivirus, vous pouvez envisager d’implémenter la prise en charge de l’interface AMSI. Dans ce cas, votre moteur aura un aperçu plus approfondi des données que les applications (y compris les hôtes de script intégrés à Windows 10) sont potentiellement malveillantes.
+En tant que fournisseur de logiciels antivirus, vous pouvez envisager d’implémenter la prise en charge de l’interface AMSI. dans ce cas, votre moteur aura des informations plus approfondies sur les données que les applications (y compris les hôtes de script intégrés de Windows 10) sont potentiellement malveillantes.
 
 ## <a name="more-background-info-about-fileless-threats"></a>Plus d’informations générales sur les menaces de fichiers
 
-Vous pouvez être curieux d’obtenir plus d’informations générales sur les types de menaces sans fichier que Windows AMSI est conçu pour vous aider à vous défendre contre. Dans cette section, nous allons jeter un coup d’œil au jeu de chat et de souris traditionnel qui s’exécute dans l’écosystème des logiciels malveillants.
+vous pouvez être curieux d’obtenir plus d’informations générales sur les types de menaces sans fichier que Windows AMSI est conçu pour vous aider à vous défendre contre. Dans cette section, nous allons jeter un coup d’œil au jeu de chat et de souris traditionnel qui s’exécute dans l’écosystème des logiciels malveillants.
 
 Nous allons utiliser PowerShell comme exemple. Mais vous pouvez tirer parti des mêmes techniques et processus que nous allons démontrer avec les langages &mdash; VBScript, Perl, Python, Ruby et bien plus encore.
 
@@ -103,13 +103,13 @@ Mais que se passe-t-il si l’obscurcissement est tellement trivial qu’il ress
 
 ![exemple de script intermédiaire trop Bénin pour la détection autonome](images/AMSI5.png)
 
-Dans cet exemple, nous téléchargeons une page Web et appelons du contenu à partir de celle-ci. Voici l’équivalent dans Visual Basic Script.
+Dans cet exemple, nous téléchargeons une page Web et appelons du contenu à partir de celle-ci. voici l’équivalent dans Visual Basic script.
 
-![équivalent dans Visual Basic Script](images/AMSI6.png)
+![équivalent dans Visual Basic script](images/AMSI6.png)
 
 Ce qui complique ces deux exemples, c’est que le moteur antivirus inspecte les fichiers ouverts par l’utilisateur. Si le contenu malveillant se trouve uniquement dans la mémoire, l’attaque peut potentiellement passer inaperçue.
 
-Cette section a montré les limitations de la détection à l’aide de signatures traditionnelles. Toutefois, si un script malveillant peut traverser plusieurs passages de débrouillage, il doit finalement fournir le moteur de script avec du code brut et non brouillé. Et à ce stade &mdash; , comme nous l’avons décrit dans la première section ci-dessus, &mdash; les hôtes de script intégrés de Windows 10 appellent les API AMSI pour demander une analyse de ce contenu non protégé. Et votre application peut faire la même chose.
+Cette section a montré les limitations de la détection à l’aide de signatures traditionnelles. Toutefois, si un script malveillant peut traverser plusieurs passages de débrouillage, il doit finalement fournir le moteur de script avec du code brut et non brouillé. et à ce stade &mdash; , comme nous l’avons décrit dans la première section ci-dessus, les &mdash; hôtes de script intégrés de Windows 10 appellent les api AMSI pour demander une analyse de ce contenu non protégé. Et votre application peut faire la même chose.
 
 ## <a name="related-resources"></a>Ressources associées
 

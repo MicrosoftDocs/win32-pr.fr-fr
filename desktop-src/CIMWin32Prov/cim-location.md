@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dd5a1c1c23d07020b45c1c5979a941f01baff0d0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aad8fb6ee174cd8619dea4243839f0dd8c555679f6ba176a09099e8a75e8a7df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923329"
 ---
 # <a name="cim_location-class"></a>\_Classe d’emplacement CIM
 
@@ -107,7 +107,7 @@ Chaîne de forme libre qui indique le positionnement d’un élément physique. 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de l' **\_ emplacement CIM**, consultez [classes Win32](win32-provider.md).
 

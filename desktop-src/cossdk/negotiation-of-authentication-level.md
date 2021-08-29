@@ -4,12 +4,12 @@ ms.assetid: 31353d02-bfe2-48ac-81a1-0e38895a8a75
 title: Négociation du niveau d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38b9983bd2a2df1d85cc6df4bfc0ba2a757b200f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 525a7830b15451d6af54c2422128ba12dcfb56db10a8c2509298ea0ef9821e00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070439"
 ---
 # <a name="negotiation-of-authentication-level"></a>Négociation du niveau d’authentification
 

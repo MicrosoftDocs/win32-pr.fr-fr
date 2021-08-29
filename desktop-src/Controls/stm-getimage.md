@@ -3,7 +3,7 @@ title: Message STM_GETIMAGE (winuser. h)
 description: Une application envoie un \_ message STM GETIMAGE pour récupérer un handle de l’image (icône ou bitmap) associé à un contrôle statique.
 ms.assetid: eb5fe67a-09be-4c13-89c6-0e2f23e8c081
 keywords:
-- STM_GETIMAGE les contrôles de message Windows
+- STM_GETIMAGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77fe0c3d00a2a957530160a5ce5a21b8a1cf84e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4ed6103934db21916f35b3ba6099da2592afe6ed12143a33d3c43314ebbb251
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119216907"
 ---
 # <a name="stm_getimage-message"></a>\_Message GETIMAGE STM
 
@@ -66,8 +66,8 @@ La valeur de retour est un handle vers l’image, le cas échéant ; dans le ca
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

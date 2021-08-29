@@ -15,12 +15,12 @@ keywords:
 - SetPixelShader, effet Direct3D 11
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73fb668f308869ef9cca5cce99d522f18a287f3c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5b62876aea57864dfc495410e85ec2a9db24cbe1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104101109"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625555"
 ---
 # <a name="effect-technique-syntax-direct3d-11"></a>Syntaxe d’effet technique (Direct3D 11)
 
@@ -46,8 +46,8 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,7 +62,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 </tr>
 <tr class="even">
 <td><span id="TechniqueName"></span><span id="techniquename"></span><span id="TECHNIQUENAME"></span><em>TechniqueName</em><br/></td>
-<td>facultatif. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet.<br/></td>
+<td>Optionnel. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="______________Annotations__"></span><span id="______________annotations__"></span><span id="______________ANNOTATIONS__"></span> <<em>Annotations</em> ><br/></td>
@@ -81,13 +81,13 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <td>dans Définissez un ou plusieurs groupes d’États tels que : <br/> 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>StateGroup</th>
-<th>Syntaxe</th>
+<th>Syntax</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +96,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -113,7 +113,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -131,7 +131,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -149,7 +149,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -165,7 +165,7 @@ Une technique d’effet est déclarée avec la syntaxe décrite dans cette secti
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -190,7 +190,7 @@ SetGeometryShader( ConstructGSWithSO( Shader, strStream0, strStream1, strStream2
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

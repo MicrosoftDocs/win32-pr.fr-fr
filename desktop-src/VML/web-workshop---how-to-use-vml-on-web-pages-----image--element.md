@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’élément image
-description: Cet article décrit l’utilisation de l’élément image dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
+description: cet article décrit l’utilisation de l’élément Image dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: 444c0b21-35f0-4e2d-ab6d-87a88229d9d2
 keywords:
 - Atelier Web, élément image
@@ -46,19 +46,19 @@ keywords:
 - attribut de propriété gamma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 572acef76afc42e02f476ca1825ef2541f596380
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 76e770f4c639f75e683d4f8f612263bc06a0f5f09cef769dbaf241541605d598
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512883"
 ---
 # <a name="using-the-image-element"></a>Utilisation de l’élément image
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: b9f53783-d4d8-4339-8cf3-5ad8305ff627
 title: Texture alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 694f8a72d3faede36c3e69ce1b6841b8f6450a3e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 248b09fbc6751b9f692153b19a907d0bc0d383e8d613708b2eb87db391380dbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026069"
 ---
 # <a name="texture-alpha-direct3d-9"></a>Texture alpha (Direct3D 9)
 

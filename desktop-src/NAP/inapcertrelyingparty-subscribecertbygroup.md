@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 053c3c2dbf00e706003988bd5769cb2aa9201c41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a8ed7f7dd97bf77e99e493a7c0521c62fcbcaaa776a364d0fe7e322e056de5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891441"
 ---
 # <a name="inapcertrelyingpartysubscribecertbygroup-method"></a>INapCertRelyingParty :: SubscribeCertByGroup, méthode
 
@@ -105,8 +105,8 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                               |
 | En-tête<br/>                   | <dl> <dt>NapCertRelyingParty. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCertRelyingParty. idl</dt> </dl> |
 

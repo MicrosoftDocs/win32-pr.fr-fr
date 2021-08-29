@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - mfplat.dll
-ms.openlocfilehash: c1838a3b09dc5375588d562aa503d555a186e394
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f4a2156bde837ef343aa4ca88a18230050d4af6df07012e46fc518d62d898af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113679"
 ---
 # <a name="mfcreatepathfromurl-function"></a>MFCreatePathFromURL fonction)
 
@@ -71,7 +71,7 @@ La fonction retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation associée. Pour appeler cette fonction, vous devez utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Mfplat.dll.
 
@@ -81,8 +81,8 @@ Cette fonction n’a pas de bibliothèque d’importation associée. Pour appele
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Mfplat.dll</dt> </dl> |
 
 

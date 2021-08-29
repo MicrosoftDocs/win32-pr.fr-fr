@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a7c5366525b51367a5348bc47b9acbe0fb799db4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ac32439be94234ee612bce4f3c962839099bb8239a1cfc8b48222129680d01e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107819"
 ---
 # <a name="iamtimelinegroupsetmediatype-method"></a>IAMTimelineGroup :: SetMediaType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                             | Description                                     |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                             |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                             |
 | <dl> <dt>**\_pointeur E**</dt> </dl>               | Argument de pointeur **null** .<br/>           |
 | <dl> <dt>**VFW \_ E \_ INVALIDMEDIATYPE**</dt> </dl> | Le type de média spécifié n’est pas valide.<br/> |
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les types de média suivants sont pris en charge :
 
@@ -88,7 +88,7 @@ Pour spécifier un format de compression pour le groupe, appelez la méthode [**
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

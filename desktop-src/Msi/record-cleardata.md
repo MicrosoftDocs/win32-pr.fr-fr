@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8046cc55cae430b8ea8040125035351db749500f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dbe196bdb8a6d0b459e1c69dddf674b0b5b83fd6d695977a4032338415c9e169
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692459"
 ---
 # <a name="recordcleardata-method"></a>Record. ClearData, méthode
 

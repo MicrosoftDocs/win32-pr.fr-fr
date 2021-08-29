@@ -4,12 +4,12 @@ description: Cette section décrit les fonctionnalités de la zone de liste.
 ms.assetid: 359bb363-5b97-4e0c-bdc4-bfa6a6504a76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674712226a79960e44ab99ed8e59c88b27984efb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a15622b073cea0a1ecfd9b8ce4039cc893e6a258a9ccee23733754fd4e900213
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922419"
 ---
 # <a name="about-list-boxes"></a>À propos des zones de liste
 
@@ -17,7 +17,7 @@ Un contrôle de zone de liste contient une liste simple à partir de laquelle l�
 
 Les éléments de zone de liste peuvent être représentés par des chaînes de texte, des bitmaps, ou les deux. Si la zone de liste n’est pas assez grande pour afficher tous les éléments de la zone de liste en même temps, la zone de liste fournit une barre de défilement. L’utilisateur fait défiler les éléments de la zone de liste et applique ou supprime l’état de la sélection, si nécessaire. La sélection d’un élément de zone de liste modifie son apparence, généralement en remplaçant les couleurs de texte et d’arrière-plan par celles spécifiées par les métriques du système d’exploitation approprié. Lorsque l’utilisateur sélectionne ou désélectionne un élément, le système envoie un message de notification à la fenêtre parente de la zone de liste.
 
-Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de la page de codes **CP \_ ACP** . Cela peut entraîner des problèmes. Par exemple, les caractères romains accentués dans une zone de liste non-Unicode dans Windows, la version japonaise sera tronquée. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
+Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de la page de codes **CP \_ ACP** . Cela peut entraîner des problèmes. par exemple, les caractères romains accentués dans une zone de liste non Unicode dans Windows, la version japonaise sera tronquée. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
 
 Cette section aborde les sujets suivants :
 
@@ -35,7 +35,7 @@ Cette section aborde les sujets suivants :
 
 ## <a name="creating-a-list-box"></a>Création d’une zone de liste
 
-Le moyen le plus simple de créer une zone de liste dans une boîte de dialogue consiste à la faire glisser de la boîte à outils dans Microsoft Visual Studio vers votre ressource de boîte de dialogue. Pour créer une zone de liste dynamiquement ou pour créer une zone de liste dans une fenêtre autre qu’une boîte de dialogue, utilisez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la classe de fenêtre de la zone de liste de [**WC \_**](common-control-window-classes.md) et les styles de zone de [liste](list-box-styles.md)appropriés.
+le moyen le plus simple de créer une zone de liste dans une boîte de dialogue consiste à la faire glisser de la boîte à outils dans Microsoft Visual Studio vers votre ressource de boîte de dialogue. Pour créer une zone de liste dynamiquement ou pour créer une zone de liste dans une fenêtre autre qu’une boîte de dialogue, utilisez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la classe de fenêtre de la zone de liste de [**WC \_**](common-control-window-classes.md) et les styles de zone de [liste](list-box-styles.md)appropriés.
 
 ## <a name="list-box-types-and-styles"></a>Types et styles de zone de liste
 
@@ -87,7 +87,7 @@ Le tableau suivant décrit comment la procédure prédéfinie de la zone de list
 
 
 
-| Message                                                   | response                                                                                                                                                                                                                         |
+| Message                                                   | Réponse                                                                                                                                                                                                                         |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_ADDFILE lb**](lb-addfile.md)                         | Insère un fichier dans une zone de liste de répertoires qui est remplie par la fonction [**DlgDirList**](/windows/desktop/api/Winuser/nf-winuser-dlgdirlista) et récupère l’index de la zone de liste de l’élément inséré.                                                                  |
 | [**LB \_ ADDSTRING**](lb-addstring.md)                     | Ajoute une chaîne à une zone de liste et retourne son index.                                                                                                                                                                               |

@@ -4,12 +4,12 @@ ms.assetid: 93BDC827-E84A-4460-A2DD-18EE87254426
 title: Classes vidéo
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8687dc1f4c00c363ca9277c8404b338a0b7f7851
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9a1880a37b6d71ef561cf702cce27a4b86f091701fcadbec59797343440238d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075249"
 ---
 # <a name="video-classes"></a>Classes vidéo
 

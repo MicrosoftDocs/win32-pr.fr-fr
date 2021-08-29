@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8498a9a6ce266e0646dbbdcb4f322c093d6e0cc3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a03b32006aecfb79f90a5f5aefeff542c53341b205031352974341926ed8eb26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907499"
 ---
 # <a name="ctransformfiltertransform-method"></a>CTransformFilter. Transform, méthode
 
@@ -68,13 +68,13 @@ La classe dérivée doit retourner une valeur **HRESULT** indiquant la réussite
 | Code de retour                                                                             | Description                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Ne fournissez pas cet exemple.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                    |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                    |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Substituez cette méthode pour produire des données de sortie. Lit les données d’entrée de l’exemple spécifié par le paramètre *pin* et écrit les nouvelles données dans l’exemple spécifié par le paramètre *moue* .
 
@@ -88,7 +88,7 @@ Si le filtre ne doit pas livrer cet exemple (par exemple, pour prendre en charge
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

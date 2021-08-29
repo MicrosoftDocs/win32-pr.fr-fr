@@ -4,12 +4,12 @@ ms.assetid: 25c3c70f-20e3-4e44-9c59-bb66b4bd14d9
 title: PageSourceColorProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b6acd064a6b0652720a6c0d783f10a7467fa16
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 9b2e1a12c6f42df1a8c7487e96dcd3e7f00d2e098707e7cf4608e0c00ee85176
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091879"
 ---
 # <a name="pagesourcecolorprofileuri"></a>PageSourceColorProfileURI
 
@@ -28,7 +28,7 @@ Spécifie la source du profil de couleurs.
 |----------------------------|-----------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                             |
 | Préfixe d’étendue <br/> | Page<br/>                                     |
-| Notes <br/>          | Lié à l’élément PageSourceColorProfile<br/> |
+| Remarques <br/>          | Lié à l’élément PageSourceColorProfile<br/> |
 
 
 

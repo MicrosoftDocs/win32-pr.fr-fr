@@ -4,12 +4,12 @@ ms.assetid: 7f5a3b36-9583-43fc-a977-321c00a48edb
 title: Création d’un mailslot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4cfbcf990162347d1e45da01c815002f39299e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ebdc255772c8dbe06ff3a1258c5d2176f595d4e6e0a162bfbe662ce15838881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350419"
 ---
 # <a name="creating-a-mailslot"></a>Création d’un mailslot
 

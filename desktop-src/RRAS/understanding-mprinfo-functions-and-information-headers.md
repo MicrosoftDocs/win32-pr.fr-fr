@@ -4,12 +4,12 @@ description: Les fonctions suivantes requièrent que l’appelant passe une stru
 ms.assetid: 389002c9-2d24-4b35-ab5b-801fe2091db9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 001c39bf28500d7261b3eb99abf0266470daf3d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac170b17b04bf9912636e9565e8fdf225c903fe5d6dcbf8ef02d619e5009d889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025419"
 ---
 # <a name="understanding-mprinfo-functions-and-information-headers"></a>Comprendre les fonctions et les en-têtes d’informations MprInfo
 
@@ -26,7 +26,7 @@ Les fonctions suivantes requièrent que l’appelant passe une structure ou un *
 
 
 
- 
+ 
 
 De même, les fonctions suivantes retournent des en-têtes d’informations.
 
@@ -39,7 +39,7 @@ De même, les fonctions suivantes retournent des en-têtes d’informations.
 
 
 
- 
+ 
 
 Pour les fonctions de transport, l’en-tête d’informations contient des informations globales pour le transport. Pour les fonctions client (InterfaceTransport), l’en-tête contient des informations spécifiques au client (par exemple, OSPF) en cours de gestion.
 
@@ -47,9 +47,9 @@ Les en-têtes d’informations et leur contenu doivent être manipulés uniqueme
 
 Les fonctions d’interface uniquement, telles que [**MprAdminInterfaceSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacesetinfo) , ne nécessitent pas l’utilisation de fonctions MprInfo. Les informations qui sont passées et retournées avec ces fonctions sont toujours sous la forme d’une structure d' [**\_ interface MPR**](/windows/desktop/api/Mprapi/ns-mprapi-mpr_interface_0) .
 
- 
+ 
 
- 
+ 
 
 
 

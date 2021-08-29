@@ -4,12 +4,12 @@ ms.assetid: 1b71dce1-8744-4114-9629-2a9d0afb7c43
 title: MFNETSOURCE_CONNECTIONBANDWIDTH, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6b852b3eb8dbfe5d3abc85e2223e868c5be708c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dd12a36db2529001d96729c2f019c017b333585c215106b4051a4deb7995a9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113559"
 ---
 # <a name="mfnetsource_connectionbandwidth-property"></a>MFNETSOURCE \_ propriété CONNECTIONBANDWIDTH
 
@@ -31,7 +31,7 @@ VT \_
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ CONNECTIONBANDWIDTH** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
@@ -43,8 +43,8 @@ Les applications peuvent utiliser cette propriété pour configurer la source r�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

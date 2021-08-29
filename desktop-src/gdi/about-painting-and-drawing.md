@@ -4,12 +4,12 @@ ms.assetid: 97d606a0-11d3-49c3-b045-8397f4bcfa54
 title: À propos de la peinture et du dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcb8ffa5b5c842dcd12d57967f2c20de0391824
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc0f121ebb2dc87a5cc2a8d767788eef691712c2e03366ef88e74e8ca1b00087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038357"
 ---
 # <a name="about-painting-and-drawing"></a>À propos de la peinture et du dessin
 
@@ -23,8 +23,8 @@ Pour que toutes les applications fonctionnent correctement et de manière coopé
 -   [Système de coordonnées de fenêtre](window-coordinate-system.md)
 -   [Régions de fenêtre](window-regions.md)
 -   [Arrière-plan de fenêtre](window-background.md)
--   [Fenêtres réduites](minimized-windows.md)
--   [Fenêtres redimensionnées](resized-windows.md)
+-   [Windows réduite](minimized-windows.md)
+-   [Windows redimensionné](resized-windows.md)
 -   [Zone non cliente](nonclient-area.md)
 -   [Zone de mise à jour de la fenêtre enfant](child-window-update-region.md)
 -   [Périphériques d’affichage](display-devices.md)
