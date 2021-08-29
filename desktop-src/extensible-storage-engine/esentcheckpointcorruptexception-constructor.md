@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8b80163fdbfdaeed27ff784ef42125949e0a55e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ccbf94faec74d9fdc262d18a82dce52b7cbcbfc514a28579b0833aa3756db8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785839"
 ---
 # <a name="esentcheckpointcorruptexception-constructor"></a>Constructeur EsentCheckpointCorruptException
 

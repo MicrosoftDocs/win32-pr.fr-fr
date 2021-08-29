@@ -4,17 +4,17 @@ description: Avec une zone de texte, les utilisateurs peuvent afficher, entrer o
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2b5257e9772465f26815abb0f6ecbe0ff357ba4b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f8627ad5069dc6bb34c490a3eea964e5c6abb654
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104530435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988432"
 ---
 # <a name="text-boxes"></a>Zones de texte
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une zone de texte, les utilisateurs peuvent afficher, entrer ou modifier un texte ou une valeur numérique.
 
@@ -56,51 +56,18 @@ Une zone de texte est un contrôle flexible avec plusieurs utilisations possible
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Entrée de données</strong><br/> Zone de texte à une seule ligne, sans contrainte, utilisée pour entrer ou modifier des chaînes courtes.<br/></td>
-<td><img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br/> Zone de texte à une seule ligne et sans contrainte.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Saisie de données mises en forme</strong><br/> Ensemble de zones de texte d’une seule ligne de taille fixe, qui permettent d’entrer des données avec un format spécifique. <br/></td>
-<td><img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br/> Zone de texte utilisée pour l’entrée de données mises en forme.<br/>
-<blockquote>
-[!Note]<br />
-La fonctionnalité de <a href="glossary.md">fermeture automatique</a> avance automatiquement le focus d’entrée d’une zone de texte à la suivante. L’un des inconvénients de cette approche est que les données ne peuvent pas être copiées ou collées en tant qu’unité unique.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Saisie de données assistée</strong><br/> Zone de texte sur une seule ligne, sans contrainte, utilisée pour entrer ou modifier des chaînes, combinée avec un bouton de commande qui aide les utilisateurs à sélectionner des valeurs valides.<br/></td>
-<td><img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br/> Dans cet exemple, la commande parcourir aide les utilisateurs à sélectionner des valeurs valides.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Entrée textuelle</strong><br/> Zone de texte multiligne, sans contrainte, utilisée pour entrer ou modifier des chaînes longues. <br/></td>
-<td><img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br/> Zone de texte multiligne, sans contrainte.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Entrée numérique</strong><br/> Zone de texte à une seule ligne, numérique uniquement utilisée pour entrer ou modifier des nombres, avec un <a href="ctrl-spin-controls.md">contrôle spin</a> facultatif pour faciliter l’entrée à l’aide de la souris. <br/></td>
-<td><img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br/> Zone de texte utilisée pour l’entrée numérique.<br/> La combinaison d’une zone de texte et de son contrôle spin associé est appelée <a href="ctrl-spin-controls.md">zone de sélection numérique</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Saisie du mot de passe et du code confidentiel</strong><br/> Zone de texte sur une seule ligne, sans contrainte, utilisée pour entrer des mots de passe et des codes confidentiels en toute sécurité.<br/></td>
-<td><img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br/> Zone de texte utilisée pour entrer des mots de passe.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Sortie des données</strong><br/> Zone de texte sur une seule ligne, en lecture seule, toujours affichée sans bordure, utilisée pour afficher des chaînes courtes. <br/></td>
-<td>Contrairement au texte statique, les données affichées à l’aide d’une zone de texte peuvent être défilées (utiles si les données sont plus larges que le contrôle), sélectionnées et copiées.<br/> <img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br/> Zone de texte d’une seule ligne, en lecture seule, utilisée pour afficher les données.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Sortie textuelle</strong><br/> Zone de texte multiligne en lecture seule utilisée pour afficher des chaînes longues. <br/></td>
-<td><img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br/> Zone de texte en lecture seule utilisée pour afficher les données.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Entrée de données</strong><br /> Zone de texte à une seule ligne, sans contrainte, utilisée pour entrer ou modifier des chaînes courtes.<br /> | <img src="images/ctrl-text-boxes-image2.png" alt="Screen shot of a text box with Display name label " /><br /> Zone de texte à une seule ligne et sans contrainte.<br /> | 
+| <strong>Saisie de données mises en forme</strong><br /> Ensemble de zones de texte d’une seule ligne de taille fixe, qui permettent d’entrer des données avec un format spécifique. <br /> | <img src="images/ctrl-text-boxes-image3.png" alt="Screen shot of a Product key text box " /><br /> Zone de texte utilisée pour l’entrée de données mises en forme.<br /><blockquote>[!Note]<br />La fonctionnalité de <a href="glossary.md">fermeture automatique</a> avance automatiquement le focus d’entrée d’une zone de texte à la suivante. L’un des inconvénients de cette approche est que les données ne peuvent pas être copiées ou collées en tant qu’unité unique.</blockquote><br /><br /> | 
+| <strong>Saisie de données assistée</strong><br /> Zone de texte sur une seule ligne, sans contrainte, utilisée pour entrer ou modifier des chaînes, combinée avec un bouton de commande qui aide les utilisateurs à sélectionner des valeurs valides.<br /> | <img src="images/ctrl-text-boxes-image4.png" alt="Screen shot of text box with Browse button" /><br /> Dans cet exemple, la commande parcourir aide les utilisateurs à sélectionner des valeurs valides.<br /> | 
+| <strong>Entrée textuelle</strong><br /> Zone de texte multiligne, sans contrainte, utilisée pour entrer ou modifier des chaînes longues. <br /> | <img src="images/ctrl-text-boxes-image5.png" alt="Screen shot of an Address text box " /><br /> Zone de texte multiligne, sans contrainte.<br /> | 
+| <strong>Entrée numérique</strong><br /> Zone de texte à une seule ligne, numérique uniquement utilisée pour entrer ou modifier des nombres, avec un <a href="ctrl-spin-controls.md">contrôle spin</a> facultatif pour faciliter l’entrée à l’aide de la souris. <br /> | <img src="images/ctrl-text-boxes-image6.png" alt="Screen shot of a text box for entering a wait time " /><br /> Zone de texte utilisée pour l’entrée numérique.<br /> La combinaison d’une zone de texte et de son contrôle spin associé est appelée <a href="ctrl-spin-controls.md">zone de sélection numérique</a>.<br /> | 
+| <strong>Saisie du mot de passe et du code confidentiel</strong><br /> Zone de texte sur une seule ligne, sans contrainte, utilisée pour entrer des mots de passe et des codes confidentiels en toute sécurité.<br /> | <img src="images/ctrl-text-boxes-image7.png" alt="Screen shot of a Password text box " /><br /> Zone de texte utilisée pour entrer des mots de passe.<br /> | 
+| <strong>Sortie des données</strong><br /> Zone de texte sur une seule ligne, en lecture seule, toujours affichée sans bordure, utilisée pour afficher des chaînes courtes. <br /> | Contrairement au texte statique, les données affichées à l’aide d’une zone de texte peuvent être défilées (utiles si les données sont plus larges que le contrôle), sélectionnées et copiées.<br /><img src="images/ctrl-text-boxes-image8.png" alt="Screen shot of a text box showing path to a folder " /><br /> Zone de texte d’une seule ligne, en lecture seule, utilisée pour afficher les données.<br /> | 
+| <strong>Sortie textuelle</strong><br /> Zone de texte multiligne en lecture seule utilisée pour afficher des chaînes longues. <br /> | <img src="images/ctrl-text-boxes-image9.png" alt="Screen shot of a Privacy information text box " /><br /> Zone de texte en lecture seule utilisée pour afficher les données.<br /> | 
+
 
 
 

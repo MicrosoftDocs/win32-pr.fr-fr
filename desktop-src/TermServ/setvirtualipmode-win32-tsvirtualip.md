@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 250633f5d41f5a4a7cb06a17ba9ae45bb444a018
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 39ec7007a82d274ca3ab6867eb5a4fe503cac4b37422a9ec8c267aa5f66da1db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058427"
 ---
 # <a name="setvirtualipmode-method-of-the-win32_tsvirtualip-class"></a>Méthode SetVirtualIPMode de la \_ classe Win32 TSVirtualIP
 

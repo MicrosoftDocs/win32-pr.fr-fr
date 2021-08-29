@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 16cb0362b5c1b1d432d72bb959103adbb7315069
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48e326c06c1cb9a17176e5fb71016c1cf23dde628eff9aed1f8e3b49d597786a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050057"
 ---
 # <a name="iswbemsinkeventsoncompleted-event"></a>Événement ISWbemSinkEvents :: OnCompleted
 
@@ -97,7 +97,7 @@ Une erreur réseau s’est produite, empêchant le fonctionnement normal.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un rappel asynchrone permet à un utilisateur non authentifié de fournir des données au récepteur. Cela pose des risques de sécurité pour vos scripts et vos applications. Pour éliminer les risques, utilisez une communication semi-synchrone ou synchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 

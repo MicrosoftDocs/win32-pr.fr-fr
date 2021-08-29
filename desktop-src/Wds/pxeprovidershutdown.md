@@ -3,7 +3,7 @@ title: PxeProviderShutdown fonction de rappel
 description: Appelé pour arrêter le fournisseur.
 ms.assetid: 436d7428-18f9-4b73-b346-79c9a0738c31
 keywords:
-- Fonction de rappel PxeProviderShutdown des services de déploiement Windows
+- fonction de rappel PxeProviderShutdown Windows les Services de déploiement
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 17698c5fa1f6ce6bd5443d0244ebc6ce6082ec33
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5efc7267a5b5e1c15d185b96419210f31981c56c887dd5a8ab7f1068eb4f20ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860789"
 ---
 # <a name="pxeprovidershutdown-callback-function"></a>PxeProviderShutdown fonction de rappel
 
@@ -57,7 +57,7 @@ Si l’arrêt du fournisseur réussit, le rappel doit retourner la **\_ réussit
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2003 avec les \[ applications de bureau SP2 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2003 avec les \[ applications de bureau SP2 uniquement\]<br/> |
 
 
 
@@ -65,7 +65,7 @@ Si l’arrêt du fournisseur réussit, le rappel doit retourner la **\_ réussit
 
 <dl> <dt>
 
-[Fonctions du serveur des services de déploiement Windows](windows-deployment-services-server-functions.md)
+[Windows Fonctions du serveur des services de déploiement](windows-deployment-services-server-functions.md)
 </dt> <dt>
 
 [*PxeProviderInitialize*](pxeproviderinitialize.md)

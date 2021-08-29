@@ -4,12 +4,12 @@ ms.assetid: a53c64cb-569f-454b-ae85-7b850228c954
 title: Implémentation du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b59f34f5f97925627184db7188aac0a9eb796a7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74139dca6cdf4c70977dc1cc17428447eb10455c29d1f865a9cd2aa604eb08ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890449"
 ---
 # <a name="implementing-register"></a>Implémentation du Registre
 

@@ -3,7 +3,7 @@ title: AmbientAttributes. passThrough
 description: L’attribut passThrough spécifie ou récupère une valeur indiquant si le contrôle passera tous les événements de souris au contrôle situé sous celui-ci.
 ms.assetid: 907ae233-3421-4e80-84be-64db4a3ab654
 keywords:
-- Lecteur Windows Media AmbientAttributes. passThrough
+- AmbientAttributes. passThrough Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27b786aeefc182caab904c644dfd00ab4e76fec3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8e71e9f7a56f7aa103e64ce739c34467f64cde2edb213c37d2d452b506dc5e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055002"
 ---
 # <a name="ambientattributespassthrough"></a>AmbientAttributes. passThrough
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utile si, par exemple, un contrôle de texte se trouve au-dessus d’un contrôle de bouton uniquement pour fournir une étiquette. Dans ce cas, les clics sur le contrôle de texte doivent être passés au contrôle bouton.
 

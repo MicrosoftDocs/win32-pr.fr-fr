@@ -1,25 +1,25 @@
 ---
-description: Les commandes netsh pour IPv6 fournissent un outil en ligne de commande que vous pouvez utiliser pour interroger et configurer des interfaces, des adresses, des caches et des itinéraires IPv6. Les commandes netsh interface IPv6 sont prises en charge sur Windows XP avec Service Pack 1 (SP1) et versions ultérieures.
+description: Les commandes netsh pour IPv6 fournissent un outil en ligne de commande que vous pouvez utiliser pour interroger et configurer des interfaces, des adresses, des caches et des itinéraires IPv6. les commandes Netsh interface IPv6 sont prises en charge sur Windows XP avec Service pack 1 (SP1) et versions ultérieures.
 ms.assetid: 68e17a55-4dd5-40cd-8996-25fa278ddd19
 title: Netsh.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aab092def0dc12071ee9dd62fd7554a53c9a7f97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c283206a8000c101b437bee851f9a78f6f20f0d87de544e8b5db49909ea9bf6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993639"
 ---
 # <a name="netshexe"></a>Netsh.exe
 
-Les commandes netsh pour IPv6 fournissent un outil en ligne de commande que vous pouvez utiliser pour interroger et configurer des interfaces, des adresses, des caches et des itinéraires IPv6. Les commandes netsh interface IPv6 sont prises en charge sur Windows XP avec Service Pack 1 (SP1) et versions ultérieures.
+Les commandes netsh pour IPv6 fournissent un outil en ligne de commande que vous pouvez utiliser pour interroger et configurer des interfaces, des adresses, des caches et des itinéraires IPv6. les commandes Netsh interface IPv6 sont prises en charge sur Windows XP avec Service pack 1 (SP1) et versions ultérieures.
 
-Netsh.exe possède de nombreuses sous-commandes pour IPv6. La liste complète des options pour netsh interface IPv6 est disponible à partir de l’invite de commandes sur Windows XP avec SP1 et versions ultérieures en tapant ce qui suit :
+Netsh.exe possède de nombreuses sous-commandes pour IPv6. la liste complète des options pour Netsh Interface IPv6 est disponible à partir de l’invite de commandes sur Windows XP avec SP1 et versions ultérieures en tapant ce qui suit :
 
 **netsh interface IPv6/ ?**
 
-La documentation sur toutes les commandes **netsh** pour IPv6 est également disponible en ligne sur TechNet. Pour plus d’informations sur **netsh** sur Windows Server 2008, consultez [commandes netsh pour l’interface (IPv4 et IPv6)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770948(v=ws.10)). Pour plus d’informations sur **netsh** sur Windows Server 2003, consultez [commandes netsh pour l’interface IPv6](/previous-versions/windows/it-pro/windows-server-2003/cc740203(v=ws.10)).
+La documentation sur toutes les commandes **netsh** pour IPv6 est également disponible en ligne sur TechNet. pour plus d’informations sur **netsh** sur Windows Server 2008, consultez [commandes netsh pour l’Interface (IPv4 et IPv6)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770948(v=ws.10)). pour plus d’informations sur **netsh** sur Windows Server 2003, consultez [commandes netsh pour l’Interface IPv6](/previous-versions/windows/it-pro/windows-server-2003/cc740203(v=ws.10)).
 
 Voici quelques-unes des commandes couramment utilisées pour IPv6, bien que de nombreuses autres commandes soient prises en charge :
 
@@ -125,7 +125,7 @@ Désinstalle le protocole IPv6 sur l’ordinateur local.
 
 ## <a name="netsh-commands-for-ipv4"></a>Commandes netsh pour IPv4
 
-Des commandes netsh similaires sont disponibles pour IPv4. La liste complète des options pour les commandes netsh à utiliser avec IPv4 est disponible à partir de l’invite de commandes sur Windows XP avec SP1 et versions ultérieures en tapant ce qui suit :
+Des commandes netsh similaires sont disponibles pour IPv4. la liste complète des options pour les commandes Netsh à utiliser avec IPv4 est disponible à partir de l’invite de commandes sur Windows XP avec SP1 et versions ultérieures en tapant ce qui suit :
 
 **netsh interface IP/ ?**
 

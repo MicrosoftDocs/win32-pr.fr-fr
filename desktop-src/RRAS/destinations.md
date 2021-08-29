@@ -4,12 +4,12 @@ description: Une destination dans la table de routage est une entrée réseau re
 ms.assetid: 115d86e3-f933-4601-af10-abaab287b509
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c0c758720824284147c2f35be004622157edb3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88195bb0bffab46495693f79a5e4329ec0e83c801c8ee4cf50d8d8bbe39b9ac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961129"
 ---
 # <a name="destinations"></a>Destinations
 
@@ -27,9 +27,9 @@ Une entrée de destination dans la table de routage comprend les éléments suiv
     -   Indicateurs associés au meilleur itinéraire dans cette vue.
     -   Handle vers tous les itinéraires qui sont dans un état de blocage dans cette vue.
 
- 
+ 
 
- 
+ 
 
 
 

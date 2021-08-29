@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, à l’aide des interfaces IADs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 878afa9350a45f18238bebb69df1a96eba52715e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 6f9759833e538292c6d6f472b05448d197a88164fadbb2ea2df64c4fe48669f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637507"
 ---
 # <a name="using-the-iads-interfaces"></a>Utilisation des interfaces IADs
 
@@ -31,7 +31,7 @@ L’interface [**IADs**](/windows/desktop/api/Iads/nn-iads-iads) est conçue pou
 
 ![objet ADSI prenant en charge l’interface IADs](images/ds2iads.png)
 
-La figure précédente montre un objet ADSI générique qui prend en charge les interfaces fondamentales [**IADs**](/windows/desktop/api/Iads/nn-iads-iads), [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject)et [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). Un objet ADSI, tel que celui-ci, gère des données à partir du magasin de données du service d’annuaire sous-jacent via les interfaces qu’il prend en charge. Ces données sont connues comme les propriétés de l’objet, et les routines qui obtiennent et définissent ces propriétés sont appelées méthodes de propriété. Les propriétés en lecture seule ont une méthode de propriété qui obtient la valeur de la propriété. Les propriétés en lecture/écriture ont deux méthodes : méthode qui définit la valeur et une qui obtient la valeur. Les propriétés sont implémentées sur chaque objet ADSI à l’aide d’un [cache de propriétés](the-adsi-attribute-cache.md). [**IADs :: obtient \_ ADsPath**](iads-property-methods.md) et **IADs ::p ut \_ ADsPath** sont des exemples de méthodes de propriété. Les méthodes de propriété ne sont pas visibles pour Visual Basic et d’autres clients Automation qui activent des références directes à la propriété. Par exemple, Visual Basic fait référence à **IADs :: ADsPath** directement à l’aide de la syntaxe **Object. ADsPath** . Pour plus d’informations, consultez [méthodes de propriété d’interface](interface-property-methods.md).
+La figure précédente montre un objet ADSI générique qui prend en charge les interfaces fondamentales [**IADs**](/windows/desktop/api/Iads/nn-iads-iads), [**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist), [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown), [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject)et [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). Un objet ADSI, tel que celui-ci, gère des données à partir du magasin de données du service d’annuaire sous-jacent via les interfaces qu’il prend en charge. Ces données sont connues comme les propriétés de l’objet, et les routines qui obtiennent et définissent ces propriétés sont appelées méthodes de propriété. Les propriétés en lecture seule ont une méthode de propriété qui obtient la valeur de la propriété. Les propriétés en lecture/écriture ont deux méthodes : méthode qui définit la valeur et une qui obtient la valeur. Les propriétés sont implémentées sur chaque objet ADSI à l’aide d’un [cache de propriétés](the-adsi-attribute-cache.md). [**IADs :: obtient \_ ADsPath**](iads-property-methods.md) et **IADs ::p ut \_ ADsPath** sont des exemples de méthodes de propriété. les méthodes de propriété ne sont pas visibles pour Visual Basic et d’autres clients Automation qui activent des références directes à la propriété. par exemple, Visual Basic fait référence à **IADs :: adspath** directement à l’aide de la syntaxe **Object. ADsPath** . Pour plus d’informations, consultez [méthodes de propriété d’interface](interface-property-methods.md).
 
 En outre, un objet ADSI interagit avec d’autres objets ADSI et directement à un espace de noms via des méthodes. Les méthodes s’exécutent immédiatement. Les exemples de méthodes sont les suivants [**: IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) et [**IADs :: GetInfo**](/windows/desktop/api/Iads/nf-iads-iads-getinfo).
 
@@ -47,6 +47,6 @@ La plupart des objets ADSI sont contenus dans d’autres objets. Le seul objet A
 
 La méthode [**IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) sur un objet conteneur stocke de manière permanente les propriétés mises en cache de l’objet conteneur ADSI dans le stockage, en plus des objets créés avec la méthode [**IADsContainer :: Create**](/windows/desktop/api/Iads/nf-iads-iadscontainer-create) . [**IADsContainer ::D supprim**](/windows/desktop/api/Iads/nf-iads-iadscontainer-delete) n’affecte pas le cache de propriétés, mais supprime l’élément de répertoire d’espace de noms sous-jacent représenté par cet objet.
 
- 
+ 
 
- 
+ 

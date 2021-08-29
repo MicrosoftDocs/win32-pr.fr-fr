@@ -3,9 +3,9 @@ title: Utilisation du modèle d’événement Media Foundation
 description: Utilisation du modèle d’événement Media Foundation
 ms.assetid: c07425dc-25d0-430b-a1f6-6373303a0cc7
 keywords:
-- Kit de développement logiciel (SDK) de format Windows Media, modèle d’événement DRM Media Foundation
-- Kit de développement logiciel (SDK) Windows Media format, Media Foundation modèle d’événement
-- Kit de développement logiciel (SDK) Windows Media format, modèle d’événement DRM
+- Windows Media Format SDK, DRM Media Foundation Event Model
+- Windows Media Format SDK, Media Foundation Event Model
+- Windows Kit de développement logiciel (SDK) Media format, modèle d’événement DRM
 - gestion des droits numériques (DRM), Media Foundation modèle d’événement
 - DRM (gestion des droits numériques), Media Foundation modèle d’événement
 - gestion des droits numériques (DRM), modèle d’événement
@@ -16,16 +16,16 @@ keywords:
 - IWMDRMEventGenerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58d48157072cf8814ff8ac74d97a965f9e772e3
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: c32c68d1d22c6b3d95c34efb5a919c82ecf5dd3755943e96f2507ae9f3391f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104030874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707389"
 ---
 # <a name="using-the-media-foundation-event-model"></a>Utilisation du modèle d’événement Media Foundation
 
-Les méthodes asynchrones prises en charge par les API étendues du client Windows Media DRM utilisent le même modèle d’événement que celui utilisé par le kit de développement logiciel (SDK) Media Foundation. Chaque objet qui prend en charge des méthodes asynchrones implémente l’interface [**IWMDRMEventGenerator**](iwmdrmeventgenerator.md) , qui peut être utilisée pour récupérer un événement lorsqu’une opération asynchrone est terminée.
+les méthodes asynchrones prises en charge par le Windows les api étendues du Client Media DRM utilisent le même modèle d’événement que celui utilisé par le kit de développement logiciel (SDK) Media Foundation. Chaque objet qui prend en charge des méthodes asynchrones implémente l’interface [**IWMDRMEventGenerator**](iwmdrmeventgenerator.md) , qui peut être utilisée pour récupérer un événement lorsqu’une opération asynchrone est terminée.
 
 L’interface **IWMDRMEventGenerator** hérite de l’interface **IMFMediaEventGenerator** , qui est décrite dans la documentation du kit de développement logiciel (SDK) Media Foundation.
 
@@ -51,9 +51,9 @@ Plusieurs méthodes asynchrones génèrent des événements qui contiennent des 
 [Documentation du kit de développement logiciel Media Foundation](https://www.microsoft.com/?ref=go)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

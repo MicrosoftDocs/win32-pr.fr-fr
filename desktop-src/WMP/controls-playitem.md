@@ -3,9 +3,9 @@ title: Controls. playItem, méthode
 description: La méthode playItem lit l’élément multimédia spécifié. | Controls. playItem, méthode
 ms.assetid: 410e315d-8d5f-4f45-82a7-4249e656c809
 keywords:
-- méthode playItem lecteur Windows Media
-- méthode playItem lecteur Windows Media, classe de contrôles
-- Classe Controls lecteur Windows Media, méthode playItem
+- Lecteur Windows Media de la méthode playItem
+- méthode playItem Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, méthode playItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9096e378a328f43147a0a94d97034c8e566b611
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6ea371b2e2593ccf9b16d555c60a150ddb6229a2fd884b894d7be41eb61830c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135722"
 ---
 # <a name="controlsplayitem-method"></a>Controls. playItem, méthode
 
@@ -53,17 +53,17 @@ Objet **multimédia** à lire.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’élément multimédia est chargé et lu automatiquement, quelle que soit la valeur des *paramètres*. propriété **AutoStart** . Pour charger un élément sans le lancer automatiquement, définissez *paramètres*. **démarrage automatique** sur false et attribution d’une valeur à *Player*. **URL**, après laquelle la **lecture** peut être appelée pour démarrer la lecture de l’élément.
+l’élément multimédia est chargé et lu automatiquement, quelle que soit la valeur de la *Paramètres*. propriété **AutoStart** . pour charger un élément sans le relire automatiquement, définissez *Paramètres*. **démarrage automatique** sur false et attribution d’une valeur à *Player*. **URL**, après laquelle la **lecture** peut être appelée pour démarrer la lecture de l’élément.
 
-Remarque
+Notes
 
 **playItem** fonctionne uniquement avec les éléments dans *currentPlaylist*. L’appel de **playItem** avec une référence à un élément multimédia enregistré n’est pas pris en charge.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise **playItem** pour lire un élément multimédia à partir de la sélection actuelle. L’élément à lire est choisi en fonction de sa position dans la sélection. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise **playItem** pour lire un élément multimédia à partir de la sélection actuelle. L’élément à lire est choisi en fonction de sa position dans la sélection. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c397e96d4f3b0dbb172c6e10eba4e09ff96e37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08099eef88751377e3e905e4883a694d78df095472c4e8dc39ed7d0af5f64505
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138542"
 ---
 # <a name="imsrdpdrivev2-interface"></a>Interface IMsRdpDriveV2
 

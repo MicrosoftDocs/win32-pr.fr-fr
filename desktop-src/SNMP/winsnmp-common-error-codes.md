@@ -4,16 +4,16 @@ description: La fonction SnmpGetLastError peut retourner un code d’erreur gén
 ms.assetid: c286750f-a542-4f61-a22c-d77debd45775
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beee49aef651784b0b8dc05c0114b7bf906be113
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37550478b37cdc75c2dea427e54b4d9d3d52dcc838273a09cf904cd4479baa4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142952"
 ---
 # <a name="winsnmp-common-error-codes"></a>Codes d’erreur courants WinSNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 La fonction [**SnmpGetLastError**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetlasterror) peut retourner un code d’erreur général après l’échec d’une fonction winsnmp. Le tableau suivant répertorie les codes d’erreur les plus courants de l’WinSNMP.
 
@@ -28,10 +28,10 @@ La fonction [**SnmpGetLastError**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpg
 
 
 
- 
+ 
 
 Les erreurs WinSNMP qui transmettent des informations spécifiques au contexte sont indiquées dans la page de référence de chaque fonction.
 
- 
+ 
 
- 
+ 

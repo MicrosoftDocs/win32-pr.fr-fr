@@ -4,12 +4,12 @@ ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
 title: Message WM_POWERBROADCAST (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b205a146b731bdf8cf9adc1563621232c24c10b4
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 38b57a6c21aeae03a8b42deb8af10d5ce88e96f92a33b632d71285fa4c0c986a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143162"
 ---
 # <a name="wm_powerbroadcast-message"></a>\_Message WM POWERBROADCAST
 
@@ -91,9 +91,9 @@ Une application doit retourner la **valeur true** si elle traite ce message.
 
 Le système envoie toujours un message [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) à chaque reprise du système. Si le système reprend en réponse à une entrée utilisateur, par exemple en appuyant sur une touche, le système envoie également un message **PBT \_ APMRESUMESUSPEND** après l’envoi de \_ APMRESUMEAUTOMATIC PBT.
 
-**WM \_** Les messages POWERBROADCAST ne font pas la distinction entre les différents États de faible consommation d’énergie. Une application peut déterminer uniquement que le système entre dans un état de faible consommation d’énergie. il ne peut pas déterminer l’état d’alimentation spécifique. Le système enregistre des détails sur les transitions d’état d’alimentation dans le journal des événements système de Windows.
+**WM \_** Les messages POWERBROADCAST ne font pas la distinction entre les différents États de faible consommation d’énergie. Une application peut déterminer uniquement que le système entre dans un état de faible consommation d’énergie. il ne peut pas déterminer l’état d’alimentation spécifique. le système enregistre des détails sur les transitions d’état d’alimentation dans le journal des événements système Windows.
 
-Pour empêcher le système de passer à un état de faible consommation dans Windows Vista, une application doit appeler [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) pour informer le système qu’elle est en cours d’utilisation.
+pour empêcher le système de passer à un état de faible consommation d’énergie dans Windows Vista, une application doit appeler [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) pour informer le système qu’elle est en cours d’utilisation.
 
 Les messages suivants ne sont pas pris en charge sur les systèmes d’exploitation spécifiés dans la section Configuration requise :
 
@@ -102,14 +102,14 @@ Les messages suivants ne sont pas pris en charge sur les systèmes d’exploitat
 - PBT_APMSTANDBY  
 - PBT_APMRESUMESTANDBY  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

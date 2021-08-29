@@ -4,12 +4,12 @@ description: Un appel RasDial doit spécifier les informations dont le gestionna
 ms.assetid: bc3885a4-3c1e-47bc-b622-072b33ac3b51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11d352772eec057edd6ab8c9f53640c50ea0fc73
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77a4bc7831673fb51a4c48177692674d6d2560ccec327dd3260dacb49e8ecfa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029119"
 ---
 # <a name="phone-book-files-and-connection-information"></a>Phone-Book les fichiers et les informations de connexion
 
@@ -21,6 +21,6 @@ Pour afficher la liste des entrées d’annuaire téléphonique à partir desque
 
 Pour établir une connexion sans utiliser une entrée de l’annuaire téléphonique, l’appel de [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) peut spécifier une chaîne vide pour le membre **szEntryName** de la structure [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) . Le membre **RASDIALPARAMS. szPhoneNumber** doit contenir le nombre à appeler. Dans ce cas, le gestionnaire de connexions d’accès à distance utilise le premier port de modem disponible et les valeurs par défaut pour tous les autres paramètres.
 
- 
+ 
 
- 
+ 

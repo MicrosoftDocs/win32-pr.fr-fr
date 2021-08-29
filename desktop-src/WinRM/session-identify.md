@@ -4,9 +4,9 @@ description: Interroge un ordinateur distant pour déterminer s’il prend en ch
 ms.assetid: b86ec9b8-8fc4-4c3e-aca7-2f7d039749df
 ms.tgt_platform: multiple
 keywords:
-- Identifiez la méthode Windows Remote Management
-- Identifier la méthode Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode d’identification
+- identifiez la méthode Windows Remote Management
+- identifier la méthode Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode d’identification
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f1caa5b1e44e4ca65082e33bca4d045e487c96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9e897a82644fec7bf206e99ea87ae2df82793a9717259b76fd9ca9d264c74f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642549"
 ---
 # <a name="sessionidentify-method"></a>Session. identify, méthode
 
@@ -54,7 +54,7 @@ Pour envoyer la demande en mode authentifié, utilisez la constante Authenticati
 
 Chaîne XML qui spécifie la version du protocole WS-Management, le fournisseur du système d’exploitation et, si la demande a été envoyée, la version du système d’exploitation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Session. identifier** est basé sur l’opération [protocole WS-Management](ws-management-protocol.md) définie en tant que wsmanIdentity. Cela est spécifié dans le paquet SOAP comme suit :
 
@@ -98,7 +98,7 @@ WScript.Echo Session.Identify
 
 <dl> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> <dt>
 
 [**IWSManSession :: identifier**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-identify)

@@ -4,12 +4,12 @@ ms.assetid: ee3dca97-a094-4de8-aacd-729abcef4965
 title: System. photo. Sharpity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61b6b1b3dc90df576b90b8de6d912a176872bfee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dc55ef353ff2d125eb0498407ae3c15cc5d561fa60ef1c4754b51f7a924e1b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970098"
 ---
 # <a name="systemphotosharpness"></a>System. photo. Sharpity
 
@@ -76,7 +76,7 @@ propertyDescription
             defineName = PHOTO_SHARPNESS_HARD
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

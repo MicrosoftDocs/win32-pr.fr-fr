@@ -3,7 +3,7 @@ title: BUTTONGROUP. Click
 description: La méthode click appelle le gestionnaire d’événements OnClick défini pour le BUTTONELEMENT avec l’index spécifié.
 ms.assetid: a853e0a4-af4c-46c4-a3f7-d2a403eeb390
 keywords:
-- BUTTONGROUP. cliquez sur lecteur Windows Media.
+- BUTTONGROUP. click Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59bc9400d70fc6b6e40cc34d5284d0ca76454062
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c082db33fa639bba26142c6637166ba5e925c94a5976bf27abae8d076be8f659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135922"
 ---
 # <a name="buttongroupclick"></a>BUTTONGROUP. Click
 
@@ -42,7 +42,7 @@ La méthode **Click** appelle le gestionnaire d’événements **OnClick** défi
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour fournir un autre moyen d’exécuter le code associé à un bouton contenu dans le **BUTTONGROUP**.
 

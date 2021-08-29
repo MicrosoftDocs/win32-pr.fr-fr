@@ -4,12 +4,12 @@ ms.assetid: 1f4215b2-dc71-4e6e-bc2e-3b43316806b9
 title: Table de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 612ab63aa36de6cf91ec8176eefec84cef591c55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0a7f72d1ee8cbbf05e39754ba1d06700f7b5d5f2e03c0a7ef3cb9b03b7d00f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145352"
 ---
 # <a name="property-table"></a>Table de propriétés
 
@@ -46,7 +46,7 @@ Valeur de chaîne localisable pour la propriété. Cela peut ne jamais avoir la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que vous ne pouvez pas utiliser la table de propriétés pour affecter à une propriété la valeur d’une autre propriété. Le programme d’installation ne fait rien de la chaîne de texte entrée dans la colonne valeur avant de définir la propriété dans la colonne propriété. Si FirstProperty est entré dans la colonne de propriété et \[ SecondProperty \] dans la colonne valeur, la valeur de FirstProperty est définie sur la chaîne de texte « \[ SecondProperty \] » et non sur la valeur de la propriété SecondProperty. Cela est nécessaire pour empêcher la création de références circulaires dans la table de propriétés. Au lieu de cela, vous pouvez définir une propriété sur une autre à l’aide d’un [type d’action personnalisé 51](custom-action-type-51.md).
 

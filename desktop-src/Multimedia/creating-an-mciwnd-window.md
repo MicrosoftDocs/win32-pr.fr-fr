@@ -7,12 +7,12 @@ keywords:
 - MCIWndCreate fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c205e87acf3e5f529d4b5cc9c9163b7fe887fe04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2a44096f4edbf590416a98e83b0efc2408a4bee93ee3a2814996bcae466937d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785799"
 ---
 # <a name="creating-an-mciwnd-window"></a>Création d’une fenêtre MCIWnd
 
@@ -39,11 +39,11 @@ case WM_COMMAND:
 > [!Note]  
 > Vous pouvez également spécifier **null** pour le handle de fenêtre parente et les styles de fenêtre, auquel cas les styles de fenêtre par défaut seraient WS \_ OVERLAPPED et WS \_ visible.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

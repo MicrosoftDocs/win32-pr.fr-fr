@@ -4,24 +4,24 @@ description: Sélections et objet PlaylistCollection
 ms.assetid: 63c8955b-34ad-447b-b734-657207bcecbb
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Windows Media Player Mobile, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
+- Lecteur Windows Media Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- contrôle de ActiveX, sélections
 - sélections, objet PlaylistCollection
 - sélections de métafichiers, objet PlaylistCollection
-- Sélections de métafichiers Windows Media, objet PlaylistCollection
+- Windows Sélections de métafichiers multimédia, objet PlaylistCollection
 - Objet PlaylistCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98744c2c5b97129db2824c42567802a374f90b6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 82e57b11f29c259b3e4174f53fe4ef75d688475d8a42df595f89a0e72fe6f06b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862029"
 ---
 # <a name="playlists-and-the-playlistcollection-object"></a>Sélections et objet PlaylistCollection
 
@@ -110,9 +110,9 @@ private IWMPPlaylist importPlaylist(string strPlaylistName, string strMetaFileNa
 [**Sélections et éléments multimédias**](playlists-and-media-items.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bce24afc715ec838ec0e4a5bd559cef4ff3658a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 758d088429549d4e79ba05ff46d4baa81c64e19dbc6bae072c1b08553cdbb5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802739"
 ---
 # <a name="ms-ts-default-to-main-printer-attribute"></a>attribut ms-TS-default-to-main-Printer
 
@@ -42,7 +42,7 @@ La valeur par défaut des services Terminal Server est l’imprimante principale
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

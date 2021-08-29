@@ -4,16 +4,16 @@ description: L’API SNMP définit les types de données suivants.
 ms.assetid: 147c24e2-cc7b-422c-822b-a2892d1ab044
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c50ef59a1c2b2f39f34564610efdd05fe4808478
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 561a6c3e63f1ad38f9552b48ed7ca879e7f82e060796391da127757821e7a299
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008917"
 ---
 # <a name="snmp-data-types"></a>Types de données SNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 L’API SNMP définit les types de données suivants.
 

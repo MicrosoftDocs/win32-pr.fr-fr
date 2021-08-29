@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, directionnels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96bd14242c9e051793371fa5304d538bb1aa0d34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfb177212bc43737614cc05917de88788e2653ffe8f14218ed69f02ffe281dac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895569"
 ---
 # <a name="directional-attributes"></a>Attributs directionnels
 
@@ -19,18 +19,18 @@ Appliquez des attributs directionnels aux paramètres pour indiquer la direction
 
 
 
-| Attribut              | Utilisation                                                                 |
+| Attribut              | Usage                                                                 |
 |------------------------|-----------------------------------------------------------------------|
-| [**in**](in.md)       | Le paramètre est passé de l’appelant à la fonction appelée. |
+| [**dans**](in.md)       | Le paramètre est passé de l’appelant à la fonction appelée. |
 | [**à**](out-idl.md) | Le paramètre est passé de la fonction appelée à l’appelant. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

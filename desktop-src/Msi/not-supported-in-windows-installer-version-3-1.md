@@ -1,23 +1,23 @@
 ---
-description: Les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 3.1 et versions antérieures.
+description: les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 3.1 et versions antérieures.
 ms.assetid: fbf75dbe-3fa1-424b-83bb-cfd0b179107c
-title: Non pris en charge dans Windows Installer 3,1
+title: non pris en charge dans Windows Installer 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a221d80f56c5737cc5ae92a040a005ae42449e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b33334133fafa5e37f8bd7dfe4edfd30962c4e605bf2a675661e9d57aca4184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106525711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145582"
 ---
-# <a name="not-supported-in-windows-installer-31"></a>Non pris en charge dans Windows Installer 3,1
+# <a name="not-supported-in-windows-installer-31"></a>non pris en charge dans Windows Installer 3,1
 
-Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 3,1 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. Consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. Pour plus d’informations sur les autres versions [de Windows Installer, consultez Nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
+les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 3,1 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. pour plus d’informations sur les autres versions [de Windows Installer, consultez nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
 
-Windows Installer 3,1 est disponible pour Windows Server 2003, Windows XP ou Windows 2000. Pour obtenir la liste de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+Windows le programme d’installation 3,1 est disponible pour Windows Server 2003, Windows XP ou Windows 2000. pour obtenir la liste de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
-Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 3,1 et versions antérieures.
+les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 3,1 et versions antérieures.
 
 [Fonctions du programme d’installation](installer-functions.md)
 
@@ -69,7 +69,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Install
 
 -   INSTALLLOGMODE \_ RMFILESINUSE
 
-[Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
+[Windows Programme d’installation sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
 
 -   attribut **msidbComponentAttributesDisableRegistryReflection** dans la [table des composants](component-table.md)
 
@@ -88,11 +88,11 @@ Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Install
     -   [**Programme d’installation. ProductElevated**](installer-productelevated.md)
     -   [**Programme d’installation. ProductInfoFromScript**](installer-productinfofromscript.md)
 
-## <a name="notes"></a>Notes
+## <a name="notes"></a>Remarques
 
-Le service Windows Installer doit s’exécuter sous Windows Vista pour permettre l’utilisation du [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md), du [*contrôle de compte d’utilisateur*](u-gly.md)et de la mise à [jour corrective du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md). Pour plus d’informations, consultez [utilisation de Windows Installer avec le gestionnaire de redémarrage](using-windows-installer-with-restart-manager.md) et [utilisation de Windows Installer avec](using-windows-installer-with-uac.md) [le contrôle de compte d’utilisateur](user-account-control--uac--patching.md)et la mise à jour corrective.
+le service Windows Installer doit s’exécuter sur Windows Vista pour permettre l’utilisation du [gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md), du [*contrôle de compte d’utilisateur*](u-gly.md)et des mises à [jour correctives du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md). pour plus d’informations, consultez [utilisation de Windows Installer avec le gestionnaire de redémarrage](using-windows-installer-with-restart-manager.md) et [utilisation de Windows Installer avec](using-windows-installer-with-uac.md) [le contrôle de compte d’utilisateur](user-account-control--uac--patching.md)et la mise à jour corrective.
 
-Windows Installer 3,1 prend en charge la protection de fichiers Windows (WFP) et ne prend pas en charge Protection des ressources Windows (WRP). WRP dans Windows Server 2008 et Windows Vista remplace WFP dans Windows Server 2003, Windows XP et Windows 2000. Pour plus d’informations sur les Windows Installer et WFP, consultez [utilisation de Windows Installer et de protection des ressources Windows](windows-resource-protection-on-windows-vista.md).
+Windows le programme d’installation 3,1 prend en charge la Protection de fichiers Windows (WFP) et ne prend pas en charge Protection des ressources Windows (WRP). WRP dans Windows server 2008 et Windows Vista remplace WFP dans Windows server 2003, Windows XP et Windows 2000. pour plus d’informations sur les Windows Installer et WFP, consultez [utilisation de Windows Installer et de Protection des ressources Windows](windows-resource-protection-on-windows-vista.md).
 
  
 

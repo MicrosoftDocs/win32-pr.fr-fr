@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9233b4c5332c47e8ae28a146e2c1e1c90de79c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08cdd6f5e0fc2ab13bd001bb43e06e517300b8427ce6f267b6cb8e58ac12889b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106540785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923830"
 ---
 # <a name="preferred-delivery-method-attribute"></a>Préféré-attribut de méthode de remise
 
@@ -36,7 +36,7 @@ La méthode X. 500-recommandée pour remettre à l’adresse du destinataire.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 2.5.4.28                             |
 | System-ID-GUID    | bf9679fe-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ La méthode X. 500-recommandée pour remettre à l’adresse du destinataire.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

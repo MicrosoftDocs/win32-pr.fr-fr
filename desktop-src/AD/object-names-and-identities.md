@@ -7,12 +7,12 @@ keywords:
 - noms d’objets et identités Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a803b4cc068a3ee0f9e2a75f61ff239c1d971bf3
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 93dc3e79cd40eebb47fe85b14f50130750cdb4a1cea884d8ebf50a89555d2ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025578"
 ---
 # <a name="object-names-and-identities"></a>Noms d’objets et identités
 
@@ -32,8 +32,8 @@ Le GUID de l’objet est un identificateur global unique affecté par Active Dir
 
 ## <a name="other-identities"></a>Autres identités
 
-Les instances d’objet peuvent avoir de nombreux autres attributs, et les attributs peuvent être utilisés pour l’identification par les applications. Par exemple, les objets principal de sécurité (instances des classes d’objets **utilisateur**, **ordinateur** et **groupe** ) ont des attributs **userPrincipalName**, **sAMAccountName** et **objectSID** . Ces attributs sont des « noms » très importants pour Windows 2000, mais ils ne font pas partie de l’identité de l’objet du point de vue du répertoire.
+Les instances d’objet peuvent avoir de nombreux autres attributs, et les attributs peuvent être utilisés pour l’identification par les applications. Par exemple, les objets principal de sécurité (instances des classes d’objets **utilisateur**, **ordinateur** et **groupe** ) ont des attributs **userPrincipalName**, **sAMAccountName** et **objectSID** . ces attributs sont des « noms » très importants pour Windows 2000, mais ils ne font pas partie de l’identité de l’objet du point de vue du répertoire.
 
- 
+ 
 
- 
+ 

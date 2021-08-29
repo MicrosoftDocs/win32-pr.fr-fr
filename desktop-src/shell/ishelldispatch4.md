@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
-ms.openlocfilehash: daec9c922a0bac05154c1108f236ddf336a2e380
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 057ef4082bac8d04c006d951db7d2d251be2f8c62e88af65bc1a69678514af81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969008"
 ---
 # <a name="ishelldispatch4-object"></a>Objet IShellDispatch4
 
@@ -46,24 +46,24 @@ L’objet **IShellDispatch4** a ces méthodes.
 | [**ExplorerPolicy**](ishelldispatch4-explorerpolicy.md)   | Obtient la valeur d’une stratégie Internet Explorer spécifiée.<br/> |
 | [**GetSetting**](ishelldispatch4-getsetting.md)           | Récupère un paramètre d’interpréteur de commandes global.<br/>                        |
 | [**ToggleDesktop**](ishelldispatch4-toggledesktop.md)     | Affiche ou masque le bureau.<br/>                           |
-| [**WindowsSecurity**](ishelldispatch4-windowssecurity.md) | Affiche la boîte de dialogue **sécurité Windows** .<br/>            |
+| [**WindowsSecurity**](ishelldispatch4-windowssecurity.md) | affiche la boîte de dialogue **Sécurité Windows** .<br/>            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur les services Windows, consultez la documentation relative aux [services](../services/services.md) .
+pour plus d’informations sur les services Windows, consultez la documentation sur les [services](../services/services.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Réception des notifications d’événements asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d883908475c796a6bcf31895f2928345541c940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c84f6c441fc5c468b0ce7d39477d52911c6ae3becb1c4c15b5130ffb041040c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130891"
 ---
 # <a name="receiving-asynchronous-event-notifications"></a>Réception des notifications d’événements asynchrones
 
@@ -76,7 +76,7 @@ End Sub
 
 ## <a name="receiving-asynchronous-event-notifications-in-c"></a>Réception de notifications d’événements asynchrones en C++
 
-Pour exécuter une notification asynchrone, vous créez un thread distinct uniquement pour surveiller et recevoir des événements à partir d’Windows Management Instrumentation (WMI). Lorsque ce thread reçoit un message, le thread notifie votre application principale.
+pour exécuter une notification asynchrone, vous créez un thread distinct uniquement pour surveiller et recevoir des événements à partir d’Windows Management Instrumentation (WMI). Lorsque ce thread reçoit un message, le thread notifie votre application principale.
 
 En dédiant un thread distinct, vous autorisez votre processus principal à exécuter d’autres activités en attendant l’arrivée d’un événement. La remise asynchrone des notifications améliore les performances, mais peut fournir moins de sécurité que vous ne le souhaitez. En C++, vous avez la possibilité d’utiliser l’interface [**IWbemUnsecuredApartment**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemunsecuredapartment) ou d’effectuer des vérifications d’accès sur les descripteurs de sécurité. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
 

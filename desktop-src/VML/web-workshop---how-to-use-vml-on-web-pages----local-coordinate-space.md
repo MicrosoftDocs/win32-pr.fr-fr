@@ -27,21 +27,21 @@ keywords:
 - dimensionnement des formes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c82d77ce16ae60bfc1249125d25b1139aeb8f44e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7449890bc28088f9464976ad89a4cce359655bb1f7a6577001856ccd99155a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057082"
 ---
 # <a name="using-local-coordinate-space"></a>Utilisation de l’espace de coordonnées local
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Comme vous l’avez appris, vous pouvez spécifier les attributs de style de **largeur** et de **hauteur** pour définir la taille d’une zone conteneur dans laquelle le contenu d’une forme ou d’un groupe sera rendu. Dans cette rubrique, nous allons expliquer l’espace de coordonnées local et la façon dont il est utilisé dans VML pour mettre à l’échelle des formes.
 
@@ -149,6 +149,6 @@ Il est également important de noter que la zone conteneur n’établit pas de z
 
 Pour plus d’informations sur cet élément, consultez la [spécification VML](https://www.w3.org/TR/NOTE-VML#-toc416858382) .
 
- 
+ 
 
- 
+ 

@@ -8,18 +8,18 @@ keywords:
 - utilisateurs Active Directory, qu’est-ce qu’un utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c59b2ea46474860268f327bcd03d2ba67ecea5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d5647caef184b1e2b18e7639f1540afde013a3ba33ab58adbd402296656ca44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024410"
 ---
 # <a name="what-is-a-user"></a>Qu’est-ce qu’un utilisateur ?
 
 Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Active Directory Domain Services. Les comptes d’utilisateur peuvent être utilisés par des utilisateurs humains ou des programmes, tels que les services système, pour se connecter à un ordinateur. Lorsqu’un utilisateur ouvre une session, le système vérifie le mot de passe de l’utilisateur en le comparant avec les données stockées dans l’objet utilisateur de l’utilisateur dans le serveur de Active Directory. Si le mot de passe est authentifié, autrement dit, le mot de passe présenté correspond au mot de passe stocké dans l’objet utilisateur, le système génère un jeton d’accès. Un jeton d’accès est un objet qui décrit le contexte de sécurité d’un processus ou d’un thread. Les données d’un jeton incluent l’identité de sécurité et les appartenances aux groupes du compte d’utilisateur associé au processus ou au thread. Chaque processus exécuté pour le compte de cet utilisateur dispose d’une copie de ce jeton d’accès.
 
-Chaque utilisateur ou application qui accède à des ressources dans un domaine Windows doit avoir un compte sur le serveur de Active Directory. Windows utilise ce compte d’utilisateur pour vérifier que l’utilisateur ou l’application a l’autorisation d’utiliser une ressource.
+chaque utilisateur ou application qui accède à des ressources dans un domaine Windows doit avoir un compte sur le serveur Active Directory. Windows utilise ce compte d’utilisateur pour vérifier que l’utilisateur ou l’application a l’autorisation d’utiliser une ressource.
 
 Un compte d’utilisateur peut être utilisé pour :
 
@@ -41,11 +41,11 @@ Un contact est utilisé uniquement à des fins de liste de distribution et de co
 
 La classe d’objet ordinateur hérite de la classe d’objet utilisateur. Un objet ordinateur représente un ordinateur ; Toutefois, l’ordinateur et les services locaux de l’ordinateur requièrent souvent l’accès au réseau et aux ressources partagées. Lorsque l’ordinateur accède à des ressources partagées, et non à l’utilisateur connecté à l’ordinateur, il a besoin d’un jeton d’accès de la même manière qu’un utilisateur humain connecté en tant qu’utilisateur. Lorsqu’un ordinateur accède au réseau, il utilise un jeton d’accès qui contient l’identificateur de sécurité pour le compte d’ordinateur de l’ordinateur et les groupes dont ce compte est membre.
 
-Un service peut s’exécuter dans le contexte de LocalSystem ou d’un compte de service spécifique. Sur les ordinateurs exécutant Windows 2000, un service qui s’exécute dans le contexte du compte LocalSystem utilise les informations d’identification de l’ordinateur.
+Un service peut s’exécuter dans le contexte de LocalSystem ou d’un compte de service spécifique. sur les ordinateurs qui exécutent Windows 2000, un service qui s’exécute dans le contexte du compte LocalSystem utilise les informations d’identification de l’ordinateur.
 
- 
+ 
 
- 
+ 
 
 
 

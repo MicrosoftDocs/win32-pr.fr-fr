@@ -4,12 +4,12 @@ ms.assetid: a369d4d7-bd4b-4b4d-846e-ad85251e9ffb
 title: Génération d’une commande APDU ISO7816-4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63987f27e74dd30b4520e6e09f27ae716d793d40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 411e8c6957269c68f10ed3c62b95104ef893dd02206e22becf6227b59b12e37b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141292"
 ---
 # <a name="building-an-iso7816-4-apdu-command"></a>Génération d’une commande APDU ISO7816-4
 

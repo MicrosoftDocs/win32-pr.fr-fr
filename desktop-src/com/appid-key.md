@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AppID COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b283a9cc47907cf418c2d7d6d613d151c7e5c5e6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: da7eb6e15c858a2bf0ecbb1b71589a8d7c471f317ac5deca792f2d07b680bcf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104383003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859709"
 ---
 # <a name="appid-key"></a>Clé AppID
 
@@ -45,9 +45,9 @@ Regroupe les options de configuration pour un ou plusieurs objets DCOM dans un e
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les AppID sont mappés à des exécutables et à des classes à l’aide de deux mécanismes différents :
 
@@ -60,12 +60,12 @@ Pour les serveurs COM, le mappage est généralement généré et écrit dans le
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {MyGuid}
-      AuthenticationLevel = 00000001
-   MyClient.exe
-      AppID = {MyGUID}
+   {MyGuid}
+      AuthenticationLevel = 00000001
+   MyClient.exe
+      AppID = {MyGUID}
 ```
 
- 
+ 
 
- 
+ 

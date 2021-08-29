@@ -4,16 +4,16 @@ description: La valeur de retour d’un appel de fonction WinSNMP peut être un 
 ms.assetid: f0723cc7-fa3b-4a72-93a0-49d40a1fedd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a8e42e7d27b1079398efb2970b385bfc4e732c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b0aee75d85bf2e9b48f0b3172332f4340b21271ec37a9bc1027d63750927710f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142812"
 ---
 # <a name="winsnmp-function-return-values"></a>Valeurs de retour de la fonction WinSNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 La valeur de retour d’un appel de fonction WinSNMP peut être un handle vers une ressource que l’implémentation de l’WinSNMP Microsoft alloue pour l’application WinSNMP.
 
@@ -31,7 +31,7 @@ Le tableau suivant répertorie les cinq types de descripteurs de ressources que 
 
 
 
- 
+ 
 
 Pour plus d’informations, consultez [objets descripteur de ressource](resource-handle-objects.md).
 
@@ -48,8 +48,8 @@ Le tableau suivant répertorie les valeurs d’État WinSNMP et leur significati
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

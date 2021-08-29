@@ -4,12 +4,12 @@ ms.assetid: cc52e2a2-08e0-4a66-a75f-975e50dbf654
 title: Vérification des erreurs (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 072ee8e456ed255da6945adef7a0bba872870a8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06d95f2fa9f770d8d1d67202c7145ccc590ef8c8579c2f0ab50bda7187aaf91b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140732"
 ---
 # <a name="error-checking"></a>Vérification des erreurs
 

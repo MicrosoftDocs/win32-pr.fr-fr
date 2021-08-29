@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b16074243094d410e8d39538b024120daa1871e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b186eac69317d0e17bf3c50fbfdb63d5e3e0074a8531b63c635913c31db9c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136642"
 ---
 # <a name="ivmnetworkadapterisethernetaddressdynamic-property"></a>IVMNetworkAdapter :: IsEthernetAddressDynamic, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Détermine si l’adresse Ethernet est générée dynamiquement.
 
@@ -65,7 +65,7 @@ Affectez la valeur VARIANT \_ true si l’adresse Ethernet doit être générée
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété doit avoir la valeur **true** (valeur par défaut) pour la plupart des interfaces réseau virtuelles. Si les logiciels de l’invité requièrent une adresse Ethernet statique, cette propriété doit avoir la valeur **false**.
 
@@ -75,7 +75,7 @@ Cette propriété doit avoir la valeur **true** (valeur par défaut) pour la plu
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

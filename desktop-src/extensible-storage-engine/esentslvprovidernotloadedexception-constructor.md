@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8107c62956c26a60baee00a7cbd77067f5574d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f556f678ece99376db34cb2c807456b8e5be57ab5839badc0da3f3e9e949237a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835119"
 ---
 # <a name="esentslvprovidernotloadedexception-constructor"></a>Constructeur EsentSLVProviderNotLoadedException
 

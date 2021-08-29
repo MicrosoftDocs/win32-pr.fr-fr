@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7db971f359a9cead2aae6083a934086d42c481
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b59ad120fee9faf9b6cc8eb62afacd61dcb73586f6a6314988ee7ff34be05732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055547"
 ---
 # <a name="wmdm_enum_prop_valid_values_form-enumeration"></a>\_ \_ \_ Énumération des valeurs valides du prop WMDM \_ enum \_
 
@@ -63,7 +63,7 @@ Les valeurs valides sont un jeu énuméré. Pour plus d’informations, consulte
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée dans la structure [**WMDM \_ prop \_ desc**](wmdm-prop-desc.md) pour spécifier la forme de valeurs valides pour une propriété.
 

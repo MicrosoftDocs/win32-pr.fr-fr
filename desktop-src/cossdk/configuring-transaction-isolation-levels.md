@@ -4,12 +4,12 @@ ms.assetid: a59e262c-41f2-4c80-a04c-50a39af8b009
 title: Configuration des niveaux d’isolation des transactions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d789b9eaed6dfdd2f2419c7eae391d628e75b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e91583df010669b9dfce092e5bb38490652b4bc407a4ec7b73c83da2078cf14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638109"
 ---
 # <a name="configuring-transaction-isolation-levels"></a>Configuration des niveaux d’isolation des transactions
 
@@ -19,7 +19,7 @@ COM+ fournit les niveaux d’isolation des transactions suivants.
 
 
 
-| Level            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Niveau            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | de données       | Les données lues par une transaction en cours ne peuvent pas être modifiées par une autre transaction jusqu’à ce que la transaction en cours se termine. Aucune nouvelle donnée ne peut être insérée qui affecterait la transaction en cours. Il s’agit du niveau d’isolement le plus sûr. il s’agit de la valeur par défaut.                                                                                                                                                                                                                                                                                                                                                    |
 | Lecture renouvelable  | Les données lues par une transaction en cours ne peuvent pas être modifiées par une autre transaction jusqu’à ce que la transaction en cours se termine. Tous les types de nouvelles données peuvent être insérés au cours d’une transaction.                                                                                                                                                                                                                                                                                                                                                                                                                       |

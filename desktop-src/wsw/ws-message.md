@@ -6,12 +6,12 @@ keywords:
 - WS_MESSAGE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aa9230648adfc6da3bab954a91d04d2e9991a8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3c3581a38e8e8dd93bafeba0375e6b41b14cbdd325ce30bcdc0e110624c6558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026120"
 ---
 # <a name="ws_message"></a>\_message WS
 
@@ -24,7 +24,7 @@ typedef struct _WS_MESSAGE WS_MESSAGE;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
@@ -34,8 +34,8 @@ Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécur
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>WebServices. h</dt> </dl> |
 
 

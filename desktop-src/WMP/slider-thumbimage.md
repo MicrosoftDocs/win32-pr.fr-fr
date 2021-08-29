@@ -3,7 +3,7 @@ title: Slider. thumbImage
 description: L’attribut thumbImage spécifie ou récupère l’image qui sera utilisée pour représenter la position actuelle du curseur.
 ms.assetid: 3aa69188-3443-483c-81a9-bf22832509d8
 keywords:
-- Slider. thumbImage lecteur Windows Media
+- slider. thumbImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b798dfbae24fe2cef3669d2fb372966e47254026
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0711cb7a652032db4b167040fbd604d1e561885926bf8fc7c31d1fedb65049e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995139"
 ---
 # <a name="sliderthumbimage"></a>Slider. thumbImage
 
@@ -31,7 +31,7 @@ L’attribut **thumbImage** spécifie ou récupère l’image qui sera utilisée
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **thumbImage** spécifie l’image qui sera utilisée pour représenter la position actuelle, ainsi que pour indiquer que l’utilisateur peut agir avec le contrôle. Si aucune image Thumb n’est spécifiée, le curseur est non interactif.
 

@@ -4,19 +4,19 @@ ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8-chaîne de l’agent utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d94d60930466b7243ad6ecc2b2d8d9c799e0e3da
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8222dc199d8023b34d092b5b68fca90a93d1a00a6e41618ee3c8ee3897ef535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995009"
 ---
 # <a name="internet-explorer-8---user-agent-string"></a>Internet Explorer 8-chaîne de l’agent utilisateur
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
  **Clients** -Windows XP, Windows Vista, Windows 7  
-**Serveurs** -windows Server 2003, windows Server 2008, windows Server 2008 R2  
+**serveurs** -Windows server 2003, Windows server 2008, Windows server 2008 R2  
 
 
 
@@ -59,8 +59,8 @@ Assurez-vous que vos applications gèrent correctement la nouvelle version « M
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>Compatibilité, performances, fiabilité et test d’utilisabilité
 
--   Exécutez vos applications et pages Web dans un environnement Internet Explorer 8 sous Windows Vista ou Windows XP pour vous assurer qu’elles se comportent de la manière souhaitée.
--   Vous pouvez également exécuter l’outil de test de compatibilité Internet Explorer (IECTT) fourni avec Application Compatibility Toolkit (ACT) pour localiser les problèmes potentiels liés aux mises à jour des fonctionnalités de sécurité.
+-   exécutez vos applications et pages web dans un environnement Internet Explorer 8 sur Windows Vista ou Windows XP pour vous assurer qu’ils se comportent de la manière souhaitée.
+-   vous pouvez également exécuter l’outil de Test de compatibilité Internet Explorer (IECTT) fourni avec le Shared Computer Toolkit de compatibilité des applications (ACT) pour localiser les problèmes potentiels dus aux mises à jour des fonctionnalités de sécurité.
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
@@ -68,7 +68,7 @@ Assurez-vous que vos applications gèrent correctement la nouvelle version « M
 -   [Chaîne de User-Agent d’Internet Explorer 8](/archive/blogs/ie/)
 -   [Vecteur de version et de chaîne de l’agent utilisateur](https://archive.msdn.microsoft.com/ie8whitepapers)
 -   [Hébergement et réutilisation](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))
--   [Téléchargement de l’outil Application Compatibility Toolkit](/windows-hardware/get-started/adk-install)
+-   [compatibilité des applications Shared Computer Toolkit téléchargement](/windows-hardware/get-started/adk-install)
 -   [Problèmes connus liés aux fonctionnalités de sécurité d’Internet Explorer](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))
 
  

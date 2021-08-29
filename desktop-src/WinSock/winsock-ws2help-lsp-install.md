@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2d95a77f68bafd29fde3bbf34336d9b31d2a412e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 561dec21f08b5e8ad06ade54427789ece877d79af4c1b5412bb995b1ff25d065
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860599"
 ---
 # <a name="winsock_ws2help_lsp_install-event"></a>Événement d’installation de l' \_ ws2help \_ LSP Winsock \_
 
 > [!Note]  
-> Les fournisseurs de services en couche sont déconseillés. À compter de Windows 8 et de Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
+> Les fournisseurs de services en couche sont déconseillés. à partir de Windows 8 et Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -74,7 +74,7 @@ Le membre **dwCatalogEntryId** de la structure [**WSAPROTOCOL \_ info**](/window
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement d' **installation de Winsock \_ ws2help \_ LSP \_** est suivi pour une opération d’installation LSP lorsqu’une entrée de protocole est installée dans le catalogue Winsock.
 
@@ -84,8 +84,8 @@ L’événement d' **installation de Winsock \_ ws2help \_ LSP \_** est suivi po
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

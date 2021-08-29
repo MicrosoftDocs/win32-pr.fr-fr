@@ -3,28 +3,28 @@ title: Gestion des informations de session
 description: Gestion des informations de session
 ms.assetid: 2ab862dc-62e1-44d6-ac81-7d3c574a779f
 keywords:
-- Windows Media Player Online stores, gestionnaire de téléchargement
+- Lecteur Windows Media des magasins en ligne, gestionnaire de téléchargement
 - magasins en ligne, gestionnaire de téléchargement
 - tapez 2 magasins en ligne, gestionnaire de téléchargement
-- Magasins en ligne du lecteur Windows Media, gestion des informations de session
+- Lecteur Windows Media des magasins en ligne, gestion des informations de session
 - magasins en ligne, gestion des informations de session
 - type 2 magasins en ligne, gestion des informations de session
-- Windows Media Player Online stores, informations de session
+- Lecteur Windows Media les magasins en ligne, informations de session
 - magasins en ligne, informations de session
 - type 2 magasins en ligne, informations de session
 - Lecteur Windows Media, gestionnaire de téléchargement
-- Gestionnaire de téléchargement du lecteur Windows Media
+- Lecteur Windows Media Gestionnaire de téléchargement
 - Gestionnaire de téléchargement
 - gestion des informations de session
 - informations de session
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 786892afebb26f64a97b300bd1a4bd7c46d44883
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b20bca3216f8e4a4247f513dccddf1cb155ef3c719ef104874e36da2bf6b018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135192"
 ---
 # <a name="maintaining-session-information"></a>Gestion des informations de session
 
@@ -109,9 +109,9 @@ La fonction entre ensuite dans une boucle. Chaque nom de cookie est généré so
 [**Utilisation du gestionnaire de téléchargement**](using-the-download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

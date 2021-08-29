@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 11281e69b70b2d87d354138a6313c8bca6673944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 450bc401a00c38b1f6782641dc5e869e6f3812abe5fb79f151c0ed3ad52eb939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472067"
 ---
 # <a name="driver_info_5-structure"></a>\_Structure info \_ 5 du pilote
 
@@ -66,7 +66,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 **pEnvironment**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64).
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64).
 
 </dd> <dt>
 

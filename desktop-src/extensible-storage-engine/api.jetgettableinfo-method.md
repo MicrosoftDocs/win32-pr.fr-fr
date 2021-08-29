@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 6edf2f9574ed90bc2e3154e9285abc05c45d5f0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffe926bcd13effd8909e62ee797f54bba5e3ad344d92cc448e0eb0064d62a855
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983239"
 ---
 # <a name="apijetgettableinfo-method"></a>API. JetGetTableInfo, méthode
 

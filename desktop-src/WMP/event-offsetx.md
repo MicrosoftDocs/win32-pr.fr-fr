@@ -3,7 +3,7 @@ title: Event. OffsetX
 description: L’attribut OffsetX récupère la coordonnée x du pointeur de la souris par rapport à l’élément déclenchant l’événement.
 ms.assetid: fce45c94-8b30-4da0-b587-23c4342ddb82
 keywords:
-- Event. OffsetX Windows Media Player
+- event. offsetx Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b308c203b82324ce092f2fe8e9febb248a5ce2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4328c00e3dcb2bf5b84d59a51263b5a46ba5bbf9c02ce85f1e5a1dfb488f539
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862759"
 ---
 # <a name="eventoffsetx"></a>Event. OffsetX
 

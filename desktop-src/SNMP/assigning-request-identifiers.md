@@ -4,12 +4,12 @@ description: Une application WinSNMP peut appeler la fonction SnmpCreatePdu ou l
 ms.assetid: 72559054-982f-4c2b-83d2-268f130f6ea2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 753f0ec1f5f3ca4347b6344aa111b91e735f06ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9914256a071d93ebebd932e6771758c4c76e2c419f8f9cf13a0323ca44ea7715
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009797"
 ---
 # <a name="assigning-request-identifiers"></a>Assignation d’identificateurs de demande
 
@@ -24,11 +24,11 @@ Lorsque l’implémentation exécute la stratégie de retransmission de l’appl
 > [!Note]  
 > Lorsque l’implémentation reçoit des interruptions d’une entité SNMPv1, elle attribue une valeur différente de zéro au **champ \_ ID** de la demande de la PDU. Cette valeur peut dupliquer un identificateur de demande utilisé par l’application dans un PDU de demande. Les applications doivent vérifier la duplication.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

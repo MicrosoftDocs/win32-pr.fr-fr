@@ -15,12 +15,12 @@ keywords:
 - Bloc RIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adca2cca96b45ecf0313f811b5df4e966be8fc0f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d01130a34759d8445913704a37406d93a1bbce0b8ad714f4467783e4b3a63b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144732"
 ---
 # <a name="creating-a-riff-chunk"></a>Création d’un bloc RIFF
 
@@ -45,6 +45,6 @@ Si vous connaissez la taille du champ de données dans un nouveau bloc, vous pou
 
 Une fois que vous avez créé un segment à l’aide de la fonction [**mmioCreateChunk**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiocreatechunk) , la position de fichier est définie sur le champ de données du segment (8 octets à partir du début du bloc). Si le segment est un bloc « RIFF » ou « LIST », la position de fichier est définie sur l’emplacement suivant le type de formulaire ou le type de liste (12 octets à partir du début du bloc).
 
- 
+ 
 
- 
+ 

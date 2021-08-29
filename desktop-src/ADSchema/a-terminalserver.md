@@ -1,6 +1,6 @@
 ---
 title: Attribut Terminal-Server
-description: Données opaques utilisées par Windows NT Terminal Server.
+description: Données opaques utilisées par le Windows NT Terminal Server.
 ms.assetid: eb7ec365-327b-4e2a-9ed8-1ea7ad04e94b
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6efde9450bcdcb0dfbca97ed5539a3b93c0ef60
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f6d2446c80910b957d08ca498c14c86b656df675c13ddacea00a91f47d0f0a83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081353"
 ---
 # <a name="terminal-server-attribute"></a>Attribut Terminal-Server
 
-Données opaques utilisées par Windows NT Terminal Server.
+Données opaques utilisées par le Windows NT Terminal Server.
 
 
 
@@ -45,7 +45,7 @@ Données opaques utilisées par Windows NT Terminal Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

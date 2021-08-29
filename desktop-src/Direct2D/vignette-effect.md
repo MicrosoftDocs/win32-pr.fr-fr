@@ -4,12 +4,12 @@ description: Atténue l’image d’entrée des bords en couleur définie par l�
 ms.assetid: 34da221f-44a2-1d01-d88d-d7846b9770b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3fe9302a86a49b060aa05ecb856ce43122d946d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0c4f955595cfcf081b6de20d7bf81427f83df82806d9eb64e6046921503782f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074966"
 ---
 # <a name="vignette-effect"></a>Effet vignette
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Vignette.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -51,8 +51,8 @@ Les propriétés de l’effet vignette sont définies par l’énumération [**d
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

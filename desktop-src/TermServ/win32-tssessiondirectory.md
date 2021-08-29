@@ -35,19 +35,19 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb50ed77b99f415ae551dfcf69655af5c1d77501
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f748eb3a84650a3188b55e90a6f13bb282fadbac285cdbc56722197d6d88a354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137582"
 ---
 # <a name="win32_tssessiondirectory-class"></a>\_Classe TSSessionDirectory Win32
 
 Définit les paramètres de configuration du Service Broker pour les connexions Bureau à distance Connexion Bureau à distance pour la classe [**Win32 \_ TSSessionDirectorySetting**](win32-tssessiondirectorysetting.md) .
 
 > [!Note]  
-> Dans Windows Server 2008 R2, le nom de session Broker TS (session Broker TS) a été modifié en service Broker pour les connexions Bureau à distance. Ces propriétés s’appliquent à tous les systèmes d’exploitation pris en charge, sauf indication contraire.
+> dans Windows Server 2008 R2, le nom de session broker TS (session broker TS) a été modifié en service broker pour les connexions bureau à distance. Ces propriétés s’appliquent à tous les systèmes d’exploitation pris en charge, sauf indication contraire.
 
  
 
@@ -627,11 +627,11 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour se connecter à l' \\ \\ \\ espace de \\ noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de six.
+Pour se connecter à l' \\ \\ \\ espace de \\ noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de six.
 
-L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -642,11 +642,11 @@ Set objServices = GetObject( _
 
 
 
-Dans Windows Server 2008, le nom de la fonctionnalité annuaire de sessions des services Terminal Server a été remplacé par session Broker des services Terminal Server.
+dans Windows Server 2008, le nom de la fonctionnalité annuaire de sessions des services terminal server a été remplacé par session Broker des services terminal server.
 
-Dans Windows Server 2008 R2, le nom de la fonctionnalité session Broker des services Terminal Server a été remplacé par Connexion Bureau à distance Broker.
+dans Windows Server 2008 R2, le nom de la fonctionnalité Session broker des Services Terminal server a été remplacé par Connexion Bureau à distance broker.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

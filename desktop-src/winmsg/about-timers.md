@@ -4,12 +4,12 @@ ms.assetid: 509a6fc4-ddee-4ff4-88a2-25dad4c48c2f
 title: À propos des minuteries
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3163dbfd5357de516e0202665cd76d017335593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fdcaa8c7e4a46f6d64aea17c84f9b137879a915489527e1b53cb391c1817560
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028507"
 ---
 # <a name="about-timers"></a>À propos des minuteries
 

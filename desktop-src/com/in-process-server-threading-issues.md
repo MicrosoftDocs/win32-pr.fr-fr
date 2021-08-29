@@ -4,12 +4,12 @@ description: Problèmes liés aux threads In-Process Server
 ms.assetid: 7bd6f62f-8c91-44bd-9a7f-d47988180eed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a9d02af739eac11a6adae62de76be9078ee8e32
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 50239af2c0e254f8ccead8065573df2e3ece39540bbdf8e5a205fe33dfe4f956
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567859"
 ---
 # <a name="in-process-server-threading-issues"></a>Problèmes liés aux threads In-Process Server
 

@@ -3,7 +3,7 @@ title: IWMPPlaylist. attributeName (VB et C)
 description: La propriété attributeName (la \_ méthode obtenir AttributeName dans C \) obtient le nom d’un attribut playlist spécifié par un index.
 ms.assetid: bb436657-5156-437e-af58-6497ad3b311b
 keywords:
-- IWMPPlaylist. attributeName (VB et C) lecteur Windows Media
+- IWMPPlaylist. attributeName (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 727d58a0cf875ed29efe9235448c1d597e81656a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b495554e4159214cbd5b1f7fa823dfeb373a11a1bfe2514d9ad07da497fa708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135382"
 ---
 # <a name="iwmpplaylistattributename-vb-and-c"></a>IWMPPlaylist. attributeName (VB et C#)
 
@@ -55,9 +55,9 @@ System.String get_attributeName(
 
 **System. String** qui est le nom de l’attribut playlist.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**IWMPPlaylist. AttributeName** est une propriété en lecture seule dans Visual Basic qui accepte un paramètre, tandis que en C#, elle est appelée méthode **IWMPPlaylist. obtenir \_ AttributeName** .
+**IWMPPlaylist. attributeName** est une propriété en lecture seule dans Visual Basic qui accepte un paramètre, tandis que en C#, elle est appelée méthode **IWMPPlaylist. obtenir \_ attributeName** .
 
 Le nombre d’attributs associés à une sélection est retourné par la propriété **IWMPPlaylist. attributeCount** .
 
@@ -65,7 +65,7 @@ Le nom retourné par cette propriété peut être fourni aux méthodes **setItem
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence des attributs](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 ## <a name="examples"></a>Exemples
 

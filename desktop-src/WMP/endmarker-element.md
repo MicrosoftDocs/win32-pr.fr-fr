@@ -1,9 +1,9 @@
 ---
 title: Élément ENDMARKER
-description: L’élément ENDMARKER spécifie un marqueur auquel le lecteur Windows Media cesse de restituer le flux.
+description: l’élément ENDMARKER spécifie un marqueur auquel Lecteur Windows Media cessera de restituer le flux.
 ms.assetid: 554f0612-1669-4da4-9c5f-cc8984ef897c
 keywords:
-- Élément ENDMARKER lecteur Windows Media
+- élément ENDMARKER Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 94d00eae3681775476af9c3169134b636e2904c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 276b17117d2f01d9bc40d7f171a6d0ff6ea2331da439266ac11bf8c25b5e4f25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996659"
 ---
 # <a name="endmarker-element"></a>Élément ENDMARKER
 
-L’élément **ENDMARKER** spécifie un marqueur auquel le lecteur Windows Media cesse de restituer le flux.
+l’élément **ENDMARKER** spécifie un marqueur auquel Lecteur Windows Media cessera de restituer le flux.
 
 ``` syntax
 <ENDMARKER
@@ -48,17 +48,17 @@ Nom d’un marqueur nommé dans l’index. La valeur par défaut est la fin du c
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **entry**, **ref** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément spécifie le marqueur dans lequel le lecteur Windows Media doit arrêter le rendu du flux défini dans l’élément d' **entrée** ou de **référence** parent.
+cet élément spécifie le marqueur où Lecteur Windows Media doit cesser de restituer le flux défini dans l' **entrée** parente ou l’élément **REF** .
 
-Remarque
+Notes
 
 Utilisez l’élément **ENDMARKER** avec l’attribut **Number** ou **Name** , mais pas les deux.
 
@@ -93,10 +93,10 @@ Si le marqueur spécifié par un élément **ENDMARKER** se produit plus tôt da
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

@@ -11,12 +11,12 @@ keywords:
 - tempo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3927d2f04e1b073b25c262437620325dc5cd040
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5db1c703272a477b36399335b68a81ce1e8711618acf205e702045704b24974
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805719"
 ---
 # <a name="querying-and-setting-the-tempo"></a>Interrogation et définition du tempo
 
@@ -26,9 +26,9 @@ Pour modifier le tempo, utilisez la commande [**MCI \_ Set**](mci-set.md) avec l
 
 La façon dont le tempo est représenté dépend du type de division de la séquence. Si le type de division est PPQN, le tempo est représenté en temps par minute. Si le type de division est l’un des types de division SMPTE, le tempo est représenté en images par seconde. Pour plus d’informations sur la détermination du type de division d’une séquence, consultez [récupération du type de division de séquence](retrieving-the-sequence-division-type.md).
 
- 
+ 
 
- 
+ 
 
 
 

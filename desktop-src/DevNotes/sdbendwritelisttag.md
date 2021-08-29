@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: f5f203e3b643fcae174eae3634b5d337a0d7276a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9367b3c807cf152ab0c7aeb35a0b6d0e93ea03bbd10ea0dacb327030e21553c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076023"
 ---
 # <a name="sdbendwritelisttag-function"></a>SdbEndWriteListTag fonction)
 
@@ -58,7 +58,7 @@ Handle de la base de données de shims.
 
 La fonction retourne **true** en cas de réussite ou **false** en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette fonction après avoir écrit toutes les entrées de liste. il marquera la fin de la liste.
 
@@ -68,8 +68,8 @@ Appelez cette fonction après avoir écrit toutes les entrées de liste. il marq
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

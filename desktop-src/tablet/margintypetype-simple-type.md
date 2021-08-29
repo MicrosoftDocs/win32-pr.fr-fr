@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 4e8a09e98611fabc54a029c9cac9cb37dfc1373f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1996b99729e177f7012db097644807a2bf7052f231e089052d5244b20d016ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031687"
 ---
 # <a name="margintypetype-simple-type"></a>Type simple MarginTypeType
 
@@ -41,7 +41,7 @@ Le type simple **MarginTypeType** est une **chaîne** qui est limitée par le mo
 
 -   `Left|Right`
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs valides pour l’attribut de **type** de l' [élément Margin](margin-element.md) sont « Left » et « Right ».
 
@@ -51,7 +51,7 @@ Les valeurs valides pour l’attribut de **type** de l' [élément Margin](margi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

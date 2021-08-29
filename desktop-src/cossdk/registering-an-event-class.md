@@ -4,12 +4,12 @@ ms.assetid: b9d59b9d-52ba-4c71-9226-9cb5b93ec3d4
 title: Inscription d’une classe d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89a5968b8cb5981db3eb39c446104e1801a18e2e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07cceddaf01cff9677bb36ecc5315c15c1fa59e2c21046c3b7cd2bb4f3749f69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047297"
 ---
 # <a name="registering-an-event-class"></a>Inscription d’une classe d’événements
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4e3ec8b74144daca7af1788c08270d998c139c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51e7e8dc85b2de12bce4a520f9bd491d5c865037f56c1ae0cf43800fe2f4fe96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802789"
 ---
 # <a name="ms-tapi-conference-blob-attribute"></a>attribut ms-TAPI-Conference-BLOB
 
@@ -44,7 +44,7 @@ BLOB de données binaire qui décrit les différentes propriétés d’une conf�
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

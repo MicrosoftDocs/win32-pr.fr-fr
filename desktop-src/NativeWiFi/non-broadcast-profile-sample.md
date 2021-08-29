@@ -4,12 +4,12 @@ ms.assetid: 564324ad-6723-4676-ab5c-0b5d2957d201
 title: Exemple de profil de non-diffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a09bfd9cf9eac724f882a9aa3cf16064f051fdf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8cab5a6ae274c90d1eeec40248ee73d04e610dba54e0024fca7eb3f463dabbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801019"
 ---
 # <a name="non-broadcast-profile-sample"></a>Exemple de profil de non-diffusion
 
@@ -17,7 +17,7 @@ L’exemple de profil de non diffusion peut être utilisé pour se connecter à 
 
 Cet exemple de profil est configuré pour utiliser Wi-Fi la sécurité d’accès protégé s’exécutant en mode personnel (WPA-Personal). Le protocole TKIP (Temporal Key Integrity Protocol) est utilisé pour le chiffrement. Les profils qui utilisent d’autres types de chiffrement et de sécurité peuvent également être configurés en tant que profils de non diffusion.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 643d0ea6b7583f26565ab7b9233f7df1dce9aead
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 566a2e112b4e9d64487292adafbd4fda016f3a4ceb695a473d958a374c0add8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144192"
 ---
 # <a name="glgetpolygonstipple-function"></a>glGetPolygonStipple fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetPolygonStipple** retourne un modèle de stipple de polygone 32 x 32 via le paramètre *Mask* . Le modèle est compressé en mémoire comme si [**glReadPixels**](glreadpixels.md) avec la *hauteur* et la *largeur* de 32, le *type* de \_ bitmap GL et le *format* de \_ l’index de couleur GL \_ ont été appelés, et le modèle stipple était stocké dans une mémoire tampon d’index de couleurs 32 x 32 interne. Contrairement à **glReadPixels**, toutefois, les opérations de transfert de pixels (décalage, décalage et carte de pixels) ne sont pas appliquées à l’image stipple retournée.
 

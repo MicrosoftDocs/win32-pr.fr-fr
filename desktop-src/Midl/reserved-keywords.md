@@ -7,12 +7,12 @@ keywords:
 - sérialisation en mode mixte MIDL
 ms.topic: article
 ms.date: 02/05/2021
-ms.openlocfilehash: 90af58bce974b2987500fdf28bc7a87a2e683715
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 1aa5162e898fa8832b0eec3f742384be74f2c725730123ab6871d9f53802451d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104211165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146342"
 ---
 # <a name="reserved-keywords"></a>Mots clés réservés
 Cette rubrique répertorie les mots clés réservés dans MIDL. Vous ne pouvez pas utiliser ces mots clés dans les noms de vos classes et membres d’exécution.
@@ -164,7 +164,7 @@ float
 
 handle_t
 
-consolidation
+hyper
 
 importer
 
@@ -188,7 +188,7 @@ midl_pragma
 
 module
 
-near
+située
 
 casse
 
@@ -357,7 +357,7 @@ immediatebind
 
 implicit_handle
 
-in
+commencer
 
 in_line
 
