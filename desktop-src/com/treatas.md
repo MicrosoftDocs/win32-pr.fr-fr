@@ -6,12 +6,12 @@ keywords:
 - Traiter la clé de registre COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4340b398d6a98b0445cee932da120e23355b71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc0808242b0732521bdd45a7b8fcdb65783ae83e5293f6c7fac39e51d50e609a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639319"
 ---
 # <a name="treatas"></a>TreatAs
 
@@ -21,11 +21,11 @@ Spécifie le CLSID d’une classe qui peut émuler la classe actuelle.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      TreatAs = {CLSID_TreatAs}
+   {CLSID}
+      TreatAs = {CLSID_TreatAs}
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** .
 
@@ -46,9 +46,9 @@ DCOM examine le registre local pour **traiteras**, même si vous appelez la fonc
 [**CoTreatAsClass**](/windows/desktop/api/Objbase/nf-objbase-cotreatasclass)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Montre comment écrire vos propres effets personnalisés à l’aid
 ms.assetid: 5D22CA84-6465-4882-863D-81A632ACDD9C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca6b15fe81ff4ccbd6cebbcee8c0d1955967056
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e14067ebeb7e52a521d7d46d210b79e37cb4377b3f763cb99e63b9e426bf805e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814921"
 ---
 # <a name="custom-effects"></a>Effets personnalisés
 
@@ -392,7 +392,7 @@ La valeur de type figurant dans le XML pour la propriété doit correspondre au 
 
 
 
- 
+ 
 
 ### <a name="map-the-new-property-to-getter-and-setter-methods"></a>Mapper la nouvelle propriété à des méthodes getter et setter
 
@@ -775,7 +775,7 @@ Si la transformation choisit de stocker ce paramètre en tant que variable de me
 
 ### <a name="creating-a-guid-for-the-pixel-shader"></a>Création d’un GUID pour le nuanceur de pixels
 
-Ensuite, la transformation doit définir un GUID unique pour le nuanceur de pixels lui-même. Cette valeur est utilisée lorsque [Direct2D](./direct2d-portal.md) charge le nuanceur en mémoire, ainsi que lorsque la transformation choisit le nuanceur de pixels à utiliser pour l’exécution. Des outils tels que guidgen.exe, qui sont inclus dans Visual Studio, peuvent être utilisés pour générer un GUID aléatoire.
+Ensuite, la transformation doit définir un GUID unique pour le nuanceur de pixels lui-même. Cette valeur est utilisée lorsque [Direct2D](./direct2d-portal.md) charge le nuanceur en mémoire, ainsi que lorsque la transformation choisit le nuanceur de pixels à utiliser pour l’exécution. des outils tels que guidgen.exe, inclus avec Visual Studio, peuvent être utilisés pour générer un GUID aléatoire.
 
 
 ```C++
@@ -793,7 +793,7 @@ DEFINE_GUID(GUID_SamplePixelShader, 0x00000000, 0x0000, 0x0000, 0x00, 0x00, 0x00
 
 Un nuanceur de pixels doit être chargé en mémoire avant de pouvoir être utilisé par la transformation.
 
-Pour charger le nuanceur de pixels en mémoire, la transformation doit lire le code d’octet du nuanceur compilé à partir du. Fichier CSO généré par Visual Studio (consultez la documentation [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) pour plus d’informations) dans un tableau d’octets. Cette technique est illustrée en détail dans l' [exemple du kit de développement logiciel (SDK) D2DCustomEffects](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
+Pour charger le nuanceur de pixels en mémoire, la transformation doit lire le code d’octet du nuanceur compilé à partir du. fichier CSO généré par Visual Studio (consultez la documentation [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) pour plus d’informations) dans un tableau d’octets. Cette technique est illustrée en détail dans l' [exemple du kit de développement logiciel (SDK) D2DCustomEffects](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects).
 
 Une fois que les données du nuanceur ont été chargées dans un tableau d’octets, appelez la méthode [**LoadPixelShader**](/windows/win32/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadpixelshader) sur l’objet [**ID2D1EffectContext**](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext) de l’effet. [Direct2D](./direct2d-portal.md) ignore les appels à **LoadPixelShader** lorsqu’un shader avec le même GUID a déjà été chargé.
 
@@ -1396,6 +1396,6 @@ void main(
 [Exemple de kit SDK D2DCustomEffects](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DCustomEffects)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: commande Delete
 description: La commande Delete supprime un segment de données d’un fichier. Les périphériques vidéo numériques et Waveform-Audio reconnaissent cette commande.
 ms.assetid: 9cf084f6-d64e-4487-9407-b68502b7cec9
 keywords:
-- commande Delete Windows multimédia
+- commande delete Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e356d4972384e676f2e521bd2ca102bb21d7ef2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fad34059ec75b0077fdc409cee8cd35a5495699
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844230"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468786"
 ---
 # <a name="delete-command"></a>commande Delete
 
@@ -53,39 +53,12 @@ Indicateur qui identifie un segment de données à supprimer. Le tableau suivant
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td><ul>
-<li>au niveau du <em>rectangle</em></li>
-<li><em>flux</em> de flux audio</li>
-<li>à partir de la <em>position</em></li>
-</ul></td>
-<td><ul>
-<li>pour <em>positionner</em></li>
-<li><em>flux</em> de flux vidéo</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WaveAudio</td>
-<td>à partir de la <em>position</em></td>
-<td>pour <em>positionner</em></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | Signification | 
+|-------|---------|---------|
+| digitalvideo | <ul><li>au niveau du <em>rectangle</em></li><li><em>flux</em> de flux audio</li><li>à partir de la <em>position</em></li></ul> | <ul><li>pour <em>positionner</em></li><li><em>flux</em> de flux vidéo</li></ul> | 
+| WaveAudio | à partir de la <em>position</em> | pour <em>positionner</em> | 
+
 
 
 
@@ -120,7 +93,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) .
 

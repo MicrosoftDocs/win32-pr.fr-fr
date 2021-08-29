@@ -4,19 +4,19 @@ ms.assetid: 3067d47f-9b1d-2051-fa24-2094418ea272
 title: Utilisation de D3DXMath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d463129a453a2b319dd72790bd4546dd90f63a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 649689d511e7dab3916f34845e19d8b4706a9c12
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863481"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477685"
 ---
 # <a name="working-with-d3dxmath"></a>Utilisation de D3DXMath
 
 D3DXMath est une bibliothèque d’assistance mathématique pour les applications Direct3D. D3DXMath est à long terme, est inclus dans D3DX 9 et D3DX 10, et les dates renvoient également aux versions antérieures de DirectX.
 
 > [!Note]  
-> La bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8. nous vous recommandons donc vivement d’effectuer la migration vers DirectXMath au lieu d’utiliser D3DXMath.
+> la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est dépréciée pour Windows 8. nous vous recommandons donc vivement de migrer vers DirectXMath au lieu d’utiliser D3DXMath.
 
  
 
@@ -31,7 +31,7 @@ Il est en général sécurisé d’effectuer un cast d’un XMVECTOR \* en une f
 Il est possible de convertir en toute sécurité un XMVECTOR \* en une fonction qui prend D3DXVECTOR2 \* ou D3DXVECTOR3 \* , mais pas l’inverse. Les deux problèmes d’alignement et le fait que D3DXVECTOR2 et D3DXVECTOR3 sont des structures plus petites rendent cela une opération risquée.
 
 > [!Note]  
-> D3DX (et par conséquent D3DXMath) est considéré comme hérité et n’est pas disponible pour les applications du Windows Store qui s’exécutent sur Windows 8 et qui n’est pas inclus dans le kit de développement logiciel (SDK) Windows 8 pour les applications de bureau.
+> D3DX (et par conséquent D3DXMath) est considéré comme hérité et n’est pas disponible pour Windows les applications du windows Store qui s’exécutent sur Windows 8 et qui ne sont pas incluses dans le kit de développement logiciel (SDK) Windows 8 pour les applications de bureau.
 
  
 
@@ -47,61 +47,19 @@ Lorsque vous travaillez avec Direct3D 10. x ou Direct3D 11, vous utilisez géné
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type D3DXMath</th>
-<th>DirectXMath équivalent</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3DXFLOAT16</td>
-<td><a href="half-data-type.md"><strong>CARACTÈRES</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXMATRIX</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a></td>
-</tr>
-<tr class="odd">
-<td>D3DXMATRIXA16</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> ou <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)"> <strong>XMFLOAT4X4A</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXQUATERNION<br/> D3DXPLANE<br/> D3DXCOLOR<br/></td>
-<td><a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> est utilisé au lieu d’avoir des types uniques. vous devrez probablement utiliser un <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"> <strong>XMFLOAT4</strong></a>
-<blockquote>
-[!Note]<br />
-[<strong>D3DXQUATERNION :: Operator *</strong>] (.. /Direct3D9/d3dxquaternion-extensions.MD) appelle la fonction <a href="/windows/desktop/direct3d9/d3dxquaternionmultiply"><strong>D3DXQuaternionMultiply</strong></a> , qui multiplie deux quaternions. Toutefois, à moins que vous n’utilisiez explicitement la fonction <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionmultiply"><strong>XMQuaternionMultiply</strong></a> , vous recevez une réponse incorrecte quand vous utilisez <a href="xmvector-operator-mul.md"><strong>XMVECTOR :: Operator *</strong></a> sur un Quaternion.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR2</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2"><strong>XMFLOAT2</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXVECTOR2_16F</td>
-<td><a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR3</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3"><strong>XMFLOAT3</strong></a></td>
-</tr>
-<tr class="even">
-<td>D3DXVECTOR4</td>
-<td><a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>(ou si vous pouvez garantir que les données sont alignées sur 16 octets, <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> ou <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)"><strong>XMFLOAT4A</strong></a> )<br/></td>
-</tr>
-<tr class="odd">
-<td>D3DXVECTOR4_16F</td>
-<td><a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| Type D3DXMath | DirectXMath équivalent | 
+|---------------|------------------------|
+| D3DXFLOAT16 | <a href="half-data-type.md"><strong>CARACTÈRES</strong></a> | 
+| D3DXMATRIX | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> | 
+| D3DXMATRIXA16 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> ou <a href="/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)"> <strong>XMFLOAT4X4A</strong></a> | 
+| D3DXQUATERNION<br /> D3DXPLANE<br /> D3DXCOLOR<br /> | <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> est utilisé au lieu d’avoir des types uniques. vous devrez probablement utiliser un <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"> <strong>XMFLOAT4</strong></a><blockquote>[!Note]<br />[<strong>D3DXQUATERNION :: Operator *</strong>](../direct3d9/d3dxquaternion-extensions.md) appelle la fonction <a href="/windows/desktop/direct3d9/d3dxquaternionmultiply"><strong>D3DXQuaternionMultiply</strong></a> , qui multiplie deux quaternions. Toutefois, à moins que vous n’utilisiez explicitement la fonction <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionmultiply"><strong>XMQuaternionMultiply</strong></a> , vous recevez une réponse incorrecte quand vous utilisez <a href="xmvector-operator-mul.md"><strong>XMVECTOR :: Operator *</strong></a> sur un Quaternion.</blockquote><br /> | 
+| D3DXVECTOR2 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat2"><strong>XMFLOAT2</strong></a> | 
+| D3DXVECTOR2_16F | <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf2"><strong>XMHALF2</strong></a> | 
+| D3DXVECTOR3 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3"><strong>XMFLOAT3</strong></a> | 
+| D3DXVECTOR4 | <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4"><strong>XMFLOAT4</strong></a>(ou si vous pouvez garantir que les données sont alignées sur 16 octets, <a href="xmvector-data-type.md"><strong>XMVECTOR</strong></a> ou <a href="/previous-versions/windows/desktop/legacy/ee419609(v=vs.85)"><strong>XMFLOAT4A</strong></a> )<br /> | 
+| D3DXVECTOR4_16F | <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmhalf4"><strong>XMHALF4</strong></a> | 
+
 
 
 

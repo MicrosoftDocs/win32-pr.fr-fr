@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: ad08c8b42b4dba99d324c00aff0a062ff0ef66b7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 72b4f16c80ff9c09b6ac47215624b2e2d6c158d7964095c391f3ed3321e067c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079549"
 ---
 # <a name="id2d1devicecontext4drawtext-methods"></a>ID2D1DeviceContext4 ::D méthodes rawText
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_Service
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d4e54669251ef28c695556ffec12733025e9422
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c9093e5ff20ffabeb9bd56110495f01e457d7a64cdeece5165207726c1ec55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919769"
 ---
 # <a name="cim_service-methods"></a>\_Méthodes de service CIM
 

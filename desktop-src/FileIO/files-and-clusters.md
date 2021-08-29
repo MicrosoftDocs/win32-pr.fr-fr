@@ -4,12 +4,12 @@ ms.assetid: 271bad79-c23b-45ee-938c-d17dae89db1a
 title: Fichiers et clusters
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75384900d5d487ab02bd19c13cc2c25e9a310b3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac1d5a4d6862aebf318e4aed58b940e802b1f67259aaf14c852c4eeed0cc7068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015311"
 ---
 # <a name="files-and-clusters"></a>Fichiers et clusters
 
@@ -21,7 +21,7 @@ Lorsqu’un fichier est créé, un flux par défaut sans nom est créé pour sto
 
 Les attributs de fichier ne sont pas stockés dans les flux de données avec les données de fichier, mais ils sont stockés ailleurs et gérés par le système d’exploitation.
 
-Toutes les données du système de fichiers, y compris le code et les répertoires d’amorçage du système, sont stockées par le système de fichiers NTFS dans les fichiers. D’autres systèmes de fichiers stockent ces informations dans des régions de disques externes au système de fichiers. L’un des avantages du stockage de ces informations dans des fichiers est que Windows peut localiser les informations, y accéder et les gérer facilement. D’autres avantages sont que chacun de ces fichiers peut être protégé par un descripteur de sécurité et, en cas de corruption partielle du disque, il peut être rapidement déplacé vers une partie plus sûre du disque.
+Toutes les données du système de fichiers, y compris le code et les répertoires d’amorçage du système, sont stockées par le système de fichiers NTFS dans les fichiers. D’autres systèmes de fichiers stockent ces informations dans des régions de disques externes au système de fichiers. l’un des avantages du stockage de ces informations dans des fichiers est que Windows peut localiser, accéder et gérer facilement les informations. D’autres avantages sont que chacun de ces fichiers peut être protégé par un descripteur de sécurité et, en cas de corruption partielle du disque, il peut être rapidement déplacé vers une partie plus sûre du disque.
 
 L’unité de stockage fondamentale de tous les systèmes de fichiers pris en charge est un *cluster*, qui est un groupe de secteurs. Cela permet au système de fichiers d’optimiser l’administration des données de disque indépendamment de la taille de secteur de disque définie par le contrôleur de disque matériel. Si le disque à administrer est volumineux et que de grandes quantités de données sont déplacées et organisées en une seule opération, l’administrateur peut ajuster la taille du cluster pour l’adapter à ce.
 

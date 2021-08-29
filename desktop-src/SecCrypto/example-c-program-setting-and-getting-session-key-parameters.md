@@ -4,12 +4,12 @@ ms.assetid: 00f93036-05c9-4585-842a-a42a7faea2a5
 title: 'Exemple de programme C : définition et obtention de paramètres de clé de session'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be59b8b47c5becd8576a409d659f99d97b7ee3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4047db45cfb9a1d0650b600e914329bcea22662741f0a29e2936eac69c3f0b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007497"
 ---
 # <a name="example-c-program-setting-and-getting-session-key-parameters"></a>Exemple de programme C : définition et obtention de paramètres de clé de session
 

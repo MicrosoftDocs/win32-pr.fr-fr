@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6647a506fc6f831202b42e6cba7fcfd71f397dc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05230668be1e6aaa5b67272d2f722a1c764ea2ec672b74f7d39445a70db8c74c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116649"
 ---
 # <a name="esentslvpagesnotdeletedexception-class"></a>EsentSLVPagesNotDeletedException, classe
 

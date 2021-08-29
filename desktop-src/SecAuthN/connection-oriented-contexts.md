@@ -4,12 +4,12 @@ ms.assetid: 82c6b1aa-304c-47f9-8e0f-ad70a89772aa
 title: Contextes de Connection-Oriented
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fb9430cbcfd0536d18cd5cbd965c9f4a71742eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b889b948f41916e3e741311ea4289c4214cdc256084af7bb455265dd69a7d00a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141162"
 ---
 # <a name="connection-oriented-contexts"></a>Contextes de Connection-Oriented
 

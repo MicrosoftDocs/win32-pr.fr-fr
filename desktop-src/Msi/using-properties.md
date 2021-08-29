@@ -4,12 +4,12 @@ ms.assetid: 5a2f1cd4-2bbd-414a-a814-8b9fdab434b4
 title: Utilisation de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edab44953f6ccd210d5baa3c446363a1131dc745
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5d0fda0c3be64c6441a6de6c870838406dddd608fe6fa87665407e720c8d7d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499199"
 ---
 # <a name="using-properties"></a>Utilisation de propriétés
 

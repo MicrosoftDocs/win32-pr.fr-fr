@@ -1,12 +1,12 @@
 ---
-title: Propriété des paramètres IRemoteDesktopClient
+title: propriété Paramètres IRemoteDesktopClient
 description: Récupère l’objet de paramètres pour le client de conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).
 ms.assetid: 59999489-9ad0-4b85-9643-3b8355b817c2
 ms.tgt_platform: multiple
 keywords:
-- Services Bureau à distance de propriétés de paramètres
-- Propriété de paramètres Services Bureau à distance, interface IRemoteDesktopClient
-- Services Bureau à distance de l’interface IRemoteDesktopClient, propriété de paramètres
+- propriété Paramètres Services Bureau à distance
+- Paramètres de propriété Services Bureau à distance, interface IRemoteDesktopClient
+- Services Bureau à distance de l’interface IRemoteDesktopClient, Paramètres propriété
 topic_type:
 - apiref
 api_name:
@@ -18,14 +18,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e84324eaa12610d7ab898cbcb181e7712bc021
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e6f3369948cb99e67a345348c79073109ff5a9f929a2ff09b1acb510930bb2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125019"
 ---
-# <a name="iremotedesktopclientsettings-property"></a>IRemoteDesktopClient :: Settings, propriété
+# <a name="iremotedesktopclientsettings-property"></a>IRemoteDesktopClient :: Paramètres, propriété
 
 Récupère l’objet de paramètres pour le client de conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).
 

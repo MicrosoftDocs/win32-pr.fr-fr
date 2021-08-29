@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0573ead0cf9b81568c4bf2101e317bef7faf148
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2bc0d11b18425431eadca22f3c541eecf0f3c194b8c6ce897932c33d1674b179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106539009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519579"
 ---
 # <a name="glunewtess-function"></a>gluNewTess fonction)
 
@@ -38,7 +38,7 @@ GLUtesselator* WINAPI gluNewTess(void);
 
 Cette fonction n’a pas de paramètres.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluNewTess** crée et retourne un pointeur vers un nouvel objet pavage. Fait référence à cet objet lors de l’appel de fonctions de pavage. Une valeur de retour de zéro signifie qu’il n’y a pas assez de mémoire à allouer à l’objet.
 

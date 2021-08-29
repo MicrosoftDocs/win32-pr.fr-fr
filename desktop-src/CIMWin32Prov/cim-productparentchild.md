@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3a5fd34cc3dffc6d5c8df7f7a76d9cada7856d57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8ea3b8487aee5101358c5eb0243d0122c3f2ee7f22b6b15ddc45eba97cc8e72e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921189"
 ---
 # <a name="cim_productparentchild-class"></a>\_Classe CIM ProductParentChild
 
@@ -86,7 +86,7 @@ Référence au produit parent dans l’Association.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

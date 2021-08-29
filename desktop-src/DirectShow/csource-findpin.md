@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: daa1e2404e7c6fbf1d879d71374298103bdc621f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2195e5a8540d393e4e45eb50a812041156765487904f3b9a4e6a8776def4cbf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073373"
 ---
 # <a name="csourcefindpin-method"></a>Méthode CSource. FindPin
 
@@ -57,7 +57,7 @@ Reçoit un pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le premier pin est toujours nommé « 1 »; le deuxième pin est nommé « 2 ». et ainsi de suite. Pour plus d’informations, consultez [**CSourceStream :: QueryId**](csourcestream-queryid.md).
 
@@ -83,7 +83,7 @@ Le premier pin est toujours nommé « 1 »; le deuxième pin est nommé « 2�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

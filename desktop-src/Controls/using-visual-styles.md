@@ -4,12 +4,12 @@ description: Cette rubrique explique comment utiliser l’API des styles visuels
 ms.assetid: 8b06f9ce-702c-48f8-8cf3-2718a09b8d77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe7025bdf7c589649ac62bed7a4ea4f55c418940
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: fab04bacb2abd72fabd1606de84aa7a594f4d8c35be1f2b81abb445c96aa233e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077753"
 ---
 # <a name="using-visual-styles-with-custom-and-owner-drawn-controls"></a>Utilisation de styles visuels avec des contrôles personnalisés et Owner-Drawn
 
@@ -163,6 +163,6 @@ case WM_THEMECHANGED:
 [Styles visuels](themes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

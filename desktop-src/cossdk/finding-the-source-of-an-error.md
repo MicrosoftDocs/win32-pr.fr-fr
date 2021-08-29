@@ -4,16 +4,16 @@ ms.assetid: d7287cf1-9501-4d37-b022-b56c8008220c
 title: Recherche de la source d’une erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9b505981f12a6f8b23adc22e92cfc7b7c4b77b7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0368f67294491148f9bc85b04ca02ab8e3707eb316261ea50138d7b9c356a2bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954079"
 ---
 # <a name="finding-the-source-of-an-error"></a>Recherche de la source d’une erreur
 
-Vous pouvez diagnostiquer la source et obtenir une description des erreurs d’application à l’aide de COM+ et d’autres outils. Si vous découvrez que l’erreur d’application est provoquée par COM+, vous pouvez interpréter le message d’erreur qui affiche le fichier winerror. h ou à l’aide de l’utilitaire Microsoft Visual C++ Error.
+Vous pouvez diagnostiquer la source et obtenir une description des erreurs d’application à l’aide de COM+ et d’autres outils. si vous découvrez que l’erreur d’application est provoquée par COM+, vous pouvez interpréter le message d’erreur qui affiche le fichier Winerror. h ou à l’aide de l’utilitaire Microsoft Visual C++ error.
 
 Si votre application serveur échoue ou provoque un comportement inattendu, vous devez d’abord déterminer l’emplacement où l’erreur s’est produite. Le système observateur d’événements effectue le suivi des événements de l’application, de la sécurité et du système. De nombreuses erreurs « silencieuses » sont enregistrées ici. Toutefois, toutes les erreurs ne sont pas affichées dans la observateur d’événements.
 

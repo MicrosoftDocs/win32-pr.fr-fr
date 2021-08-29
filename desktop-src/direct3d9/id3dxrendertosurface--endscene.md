@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d5aa0c1fbccb756ac612b813ad151813a782b122
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a1671b49250dc76b44078a997a89db6daa5b6e3a7586e53559ebc0b7f2646405
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103761995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790549"
 ---
 # <a name="id3dxrendertosurfaceendscene-method"></a>ID3DXRenderToSurface :: EndScene, méthode
 

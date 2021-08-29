@@ -4,12 +4,12 @@ ms.assetid: 817d5b66-620d-417a-b3ea-25162ec8f0f5
 title: Table de fréquence Unicable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64997bc843b150caff193758910a8d395d0e2a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84d8f56a38caf6dc11e91cda7123b83711609da1633b851f1243ed079eb4afc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650823"
 ---
 # <a name="unicable-frequency-table"></a>Table de fréquence Unicable
 

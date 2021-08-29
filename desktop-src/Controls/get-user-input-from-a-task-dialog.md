@@ -4,27 +4,27 @@ description: Pour effectuer une tâche, les utilisateurs envoient les détails d
 ms.assetid: 73CD8FBF-95C9-43C8-B9D8-3823840C23A9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd53c8051747187123821211ac7e17c9915b5fd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 1d034c434f5bd2fe5e3c2230765b21116c1eeb47a8ef4a057480a0f9e9d4c0cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436400"
 ---
 # <a name="how-to-get-user-input-from-a-task-dialog"></a>Comment obtenir une entrée d’utilisateur à partir d’une boîte de dialogue de tâche
 
 Pour effectuer une tâche, les utilisateurs envoient les détails de la tâche à l’application en configurant les contrôles dans la boîte de dialogue de tâche, puis en cliquant sur un bouton de commande (généralement **OK**).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -41,6 +41,6 @@ Les clics sur les boutons et les liens hypertexte sont reçus par la fonction [*
 [Utilisation des boîtes de dialogue de tâches](using-task-dialogs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 135f5c503beea38c2142b9a0f02c5ea0d5f52105
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: dab9359d117043ee0902df8869a3cf9bb8f30b27
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627955"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787175"
 ---
 # <a name="span-idvspixengineipixelhistorycallback2spanipixelhistorycallback2-interface"></a><span id="vspixengine.ipixelhistorycallback2"></span>Interface IPixelHistoryCallback2
 
@@ -38,7 +38,7 @@ L’interface **IPixelHistoryCallback2** hérite de l’interface [**IUnknown**]
 
 L’interface **IPixelHistoryCallback2** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistorycallback2-intersectionscallback-dword-pixelhistoryintersection-arr"><strong>IntersectionsCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte des informations d’intersection de l’historique des pixels retournées par la requête dans.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistorycallback2-primitivescallback-dword-pixelhistoryoperation-arr"><strong>PrimitivesCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte des informations d’opération primitives de l’historique des pixels retournées par la requête associée.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixelhistorycallback2-intersectionscallback-dword-pixelhistoryintersection-arr"><strong>IntersectionsCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte des informations d’intersection de l’historique des pixels retournées par la requête dans.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipixelhistorycallback2-primitivescallback-dword-pixelhistoryoperation-arr"><strong>PrimitivesCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte des informations d’opération primitives de l’historique des pixels retournées par la requête associée.</p></td></tr></tbody></table>
 
  
 

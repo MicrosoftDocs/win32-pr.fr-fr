@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dd374e827cb927df54a1ddd2e92fdc072f954af4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a28ec1c75e094b0368004c97b5ac3cddb4d8795a077b5f1c2979d1880f246d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975799"
 ---
 # <a name="esentbuffertoosmallexception-constructor"></a>Constructeur EsentBufferTooSmallException
 

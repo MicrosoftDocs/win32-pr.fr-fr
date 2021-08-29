@@ -4,12 +4,12 @@ ms.assetid: 0fd272ee-cf5f-4ba9-b8aa-ff0016f51d4b
 title: Déploiement de NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd7c44e0ad3b83854e56d18171072a7cb4615d5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3ca732bedaa833227e3960337dcf1ed068b7659a0f4c01849181e5bdfff7a7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982109"
 ---
 # <a name="deploying-transactional-ntfs"></a>Déploiement de NTFS transactionnel
 
@@ -17,7 +17,7 @@ Le NTFS transactionnel (TxF), comme la plupart des mécanismes de transaction, d
 
 Le mécanisme de contrôle de mise en cache utilisé par TxF est un indicateur connu sous le nom de fonction Forced Unit Access (FUA). Cet indicateur spécifie que le lecteur doit écrire les données sur un support de stockage stable avant la fin du signalement. À certains points critiques au sein d’une transaction, TxF doit émettre un FUA pour s’assurer que certaines données de contrôle nécessaires à la restauration d’une transaction ne sont pas perdues en cas de panne de courant.
 
-Les lecteurs de disque de classe serveur (SCSI et Fiber Channel) prennent généralement en charge l’indicateur FUA. À partir de Vista, Windows prend en charge l’indicateur FUA uniquement pour les disques SCSI et Fiber Channel.
+Les lecteurs de disque de classe serveur (SCSI et Fiber Channel) prennent généralement en charge l’indicateur FUA. à partir de Vista, Windows prend en charge l’indicateur FUA uniquement pour les disques SCSI et Fiber Channel.
 
 Sur les lecteurs de produit (ATA/SATA/USB), TxF présente des périodes de vulnérabilité pendant lesquelles une panne de courant peut entraîner l’incapacité de TxF à restaurer correctement la transaction, laissant ainsi les données dans un état incohérent, sauf si le cache d’écriture du lecteur est désactivé.
 

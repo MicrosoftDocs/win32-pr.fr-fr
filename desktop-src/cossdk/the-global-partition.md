@@ -4,12 +4,12 @@ ms.assetid: db11e6f5-0a3d-44ce-9a51-90d7e2b80981
 title: Partition globale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc218067bbf7170a1c2df6f306b6dfe5787ac2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 63fd66e8bb4401465a604b187d8638b60993b45c130d18ab2c4c5d054d9686d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636789"
 ---
 # <a name="the-global-partition"></a>Partition globale
 

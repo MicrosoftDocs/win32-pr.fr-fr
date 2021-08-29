@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: e1619e2e6e81e8a265600f8437a6633e18065f10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0679b80531c679beaee9eaf56be24ae16f6abea566b74d1928d4fa31fbf37747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144332"
 ---
 # <a name="ccheaprealloc-function"></a>CCHeapReAlloc fonction)
 

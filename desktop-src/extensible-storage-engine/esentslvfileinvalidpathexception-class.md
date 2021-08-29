@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3da8b969c8bed5a2f81b710a020a6ca4da78c348
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f28418acf30e9f10421d1c80d031cb586fee2d8be28c15791d01cd0f8725aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732729"
 ---
 # <a name="esentslvfileinvalidpathexception-class"></a>EsentSLVFileInvalidPathException, classe
 

@@ -7,20 +7,20 @@ keywords:
 - partage des listes d’affichage OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87d8d012e8e04455f76ca5d7bfe74229ac0b0ac8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 934789f3de00e6e0be451fc441416dfcbaa057b0b58b224fc57021db31575e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776629"
 ---
 # <a name="sharing-display-lists"></a>Partage des listes d’affichage
 
 Lorsque vous créez un contexte de rendu, il possède son propre espace de liste d’affichage. La fonction [**wglShareLists**](/windows/desktop/api/wingdi/nf-wingdi-wglsharelists) permet à un contexte de rendu de partager l’espace de liste d’affichage d’un autre contexte de rendu. Un nombre quelconque de contextes de rendu peut partager un seul espace de liste d’affichage.
 
- 
+ 
 
- 
+ 
 
 
 

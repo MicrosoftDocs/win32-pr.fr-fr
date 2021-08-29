@@ -4,12 +4,12 @@ description: Notifications d’affichage de liste
 ms.assetid: 6c5239ac-0599-4db8-9f44-c10fa0855b57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa864a75c09cceda523d753fb6ad195bab024e6e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 328db2ded5d58d994692733c65269847c7ba69456aebd158073dc81f47fb7ce6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971419"
 ---
 # <a name="list-view-notifications"></a>Notifications d’affichage de liste
 

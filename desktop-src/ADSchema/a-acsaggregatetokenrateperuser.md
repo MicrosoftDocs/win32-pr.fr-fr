@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db1a614e4e2a547d7922bcf47d026337b5e1ba94
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 514805e35ee39ffb66f8230e1539cb98281d3d683b9a4f6d65168c11cfd8a7cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929829"
 ---
 # <a name="acs-aggregate-token-rate-per-user-attribute"></a>ACS-attribut d’agrégat-jeton-taux par utilisateur
 
@@ -45,7 +45,7 @@ Taux de jetons maximal qu’un utilisateur peut avoir pour tous les flux.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

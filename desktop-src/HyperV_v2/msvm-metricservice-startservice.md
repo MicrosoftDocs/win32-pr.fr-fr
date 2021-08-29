@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2eed809d164b916b518e848ab889a7fe00b62b7f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 067a7f990410a33714041421c19bdf59d5f969a6e209c24ea3986cbc1442f22b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521339"
 ---
 # <a name="startservice-method-of-the-msvm_metricservice-class"></a>Méthode StartService de la \_ classe MSVM MetricService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

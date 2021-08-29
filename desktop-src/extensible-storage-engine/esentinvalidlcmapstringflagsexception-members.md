@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101981
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 50ab90056aadceec6c226fb3e9cc58f0a6258b83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56763dfcd1ba7360f9fe04ef4f37153644ce58dcfbc3e594eb0ce29936e775eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041137"
 ---
 # <a name="esentinvalidlcmapstringflagsexception-members"></a>Membres EsentInvalidLCMapStringFlagsException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

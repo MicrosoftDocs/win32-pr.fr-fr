@@ -4,12 +4,12 @@ ms.assetid: 2058e894-bde5-4690-a7aa-849d2e9cdc71
 title: Sauvegardes sans participation au rédacteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9a782fbcb9afe532f2f123151dc7998307157b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6bd1d402b53c48fd82085110e4d58600c92fbdd72defc47dee326c8fa1d4f66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119248279"
 ---
 # <a name="backups-without-writer-participation"></a>Sauvegardes sans participation au rédacteur
 
@@ -29,7 +29,7 @@ Il existe plusieurs situations qui nécessitent une application de sauvegarde po
 
 -   **Système sans Writers compatibles VSS**
 
-    Cette situation peut être relativement rare, car la plupart des systèmes qui peuvent être sauvegardés par une application de sauvegarde VSS auront une version de Windows compatible avec VSS, qui doit contenir des enregistreurs.
+    cette situation peut être relativement rare, car la plupart des systèmes qui peuvent être sauvegardés par une application de sauvegarde vss auront une version vss de Windows, qui doit contenir des enregistreurs.
 
     Toutefois, dans certains cas, ce problème peut survenir : par exemple, si vous sauvegardez un système sans la prise en charge de VSS, mais que le système utilise une appliance en réseau compatible VSS pour son stockage.
 

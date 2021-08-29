@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 7ae05b18f58927e05c952edbbfc1b6a6190cec19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a656667a8c32d4b21793cfc605654f1c80c31ce1d69fd274a7be81078f6cc2c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799929"
 ---
 # <a name="autoswitch-wlanprofile-element"></a>AutoSwitch (WLANProfile) (élément)
 
@@ -31,9 +31,9 @@ Si [**connectionMode**](wlan-profileschema-connectionmode-wlanprofile-element.md
 
 Une valeur de commutation automatique définie sur « true » entraîne une fréquence plus élevée d’analyse périodique des nouveaux réseaux. Cela peut entraîner une pollution accrue de la fréquence radio par rapport à ces analyses périodiques et une consommation énergétique accrue utilisée par la carte réseau sans fil.
 
-**Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé :** Les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Ces modifications sont conçues pour réduire la pollution de la fréquence radio, la consommation d’énergie et l’interruption du trafic en temps réel sur les réseaux sans fil. Le paramètre par défaut pour **AutoSwitch** lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. La valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Il est recommandé que la valeur de l’élément **AutoSwitch** utilisé par une application dans un profil de réseau local sans fil soit définie sur « false » pour réduire la fréquence de l’analyse périodique des nouveaux réseaux, à moins qu’il soit absolument nécessaire pour une application de définir cette valeur sur « true ».
+**Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé :** les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Ces modifications sont conçues pour réduire la pollution de la fréquence radio, la consommation d’énergie et l’interruption du trafic en temps réel sur les réseaux sans fil. Le paramètre par défaut pour **AutoSwitch** lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. la valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Il est recommandé que la valeur de l’élément **AutoSwitch** utilisé par une application dans un profil de réseau local sans fil soit définie sur « false » pour réduire la fréquence de l’analyse périodique des nouveaux réseaux, à moins qu’il soit absolument nécessaire pour une application de définir cette valeur sur « true ».
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="autoSwitch"
@@ -53,8 +53,8 @@ Pour afficher des exemples de profils qui utilisent l’élément **AutoSwitch**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

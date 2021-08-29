@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d10a06cbf123b71e1308b45c747ac8a840a5fe1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 180bc764d31aaeadba7b42d31cff02cdbefc0220499572160873dc43b58005ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070729"
 ---
 # <a name="idwritetextlayout3getlinemetrics-method"></a>IDWriteTextLayout3 :: GetLineMetrics, méthode
 
@@ -69,7 +69,7 @@ Taille réelle du tableau lineMetrics nécessaire.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si maxLineCount n’est pas assez grand \_ \_ , E \_ mémoire tampon insuffisante, qui est équivalente à HRESULT \_ de \_ Win32 (erreur de \_ mémoire tampon insuffisante \_ ), est retourné et actualLineCount est défini sur le nombre de lignes nécessaires.
 
@@ -80,7 +80,7 @@ Si maxLineCount n’est pas assez grand \_ \_ , E \_ mémoire tampon insuffisant
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                 |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 | Bibliothèque<br/>                  | <dl> <dt>DWrite. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

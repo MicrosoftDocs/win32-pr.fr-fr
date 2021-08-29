@@ -3,7 +3,7 @@ title: onfocus
 description: Le gestionnaire d’événements onfocus gère un événement qui se produit lorsque l’élément reçoit le focus clavier.
 ms.assetid: 02162494-cd80-4854-b75c-35b5e9891b0b
 keywords:
-- onfocus Windows Media Player
+- onfocus Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14b6dd9f2ad61e24e83c9e4300c9fdd4c91fa762
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e794187a8aa1119200bc31e8849f3172fcd472736c9c3e9bfc08604f23b222ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647179"
 ---
 # <a name="onfocus"></a>onfocus
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **onfocus** gère un événement qui se produit
 onfocus
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gestionnaire d’événements **onfocus** n’est pas applicable à l’élément **Effects** ou à l’élément **Popup** .
 

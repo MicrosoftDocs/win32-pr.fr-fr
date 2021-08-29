@@ -3,7 +3,7 @@ title: Message TBM_SETTIPSIDE (commctrl. h)
 description: Positionne un contrôle ToolTip utilisé par un contrôle TrackBar. Les contrôles TrackBar qui utilisent le \_ style des info-bulles tbs affichent des info-bulles.
 ms.assetid: 40a0eeb0-7bb4-4102-98ea-ee664799b934
 keywords:
-- TBM_SETTIPSIDE les contrôles de message Windows
+- TBM_SETTIPSIDE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c3ab1f6c601d9b243977d147f7503ce99788e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0bd98c82d91d8334f64724057c247f0145ccc36c887e8f5bea3291ecb0987d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077963"
 ---
 # <a name="tbm_settipside-message"></a>\_Message TBM SETTIPSIDE
 
@@ -62,8 +62,8 @@ Retourne une valeur qui représente l’emplacement précédent du contrôle Too
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

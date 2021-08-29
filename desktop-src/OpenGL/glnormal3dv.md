@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84f2c2cefd5b0373808347e8a9ef17eb2ca2f863
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fdfb7db639b60c8550e0405a3084eeb3211f0ed21dd20440445caa6a0e2230fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106525835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128159"
 ---
 # <a name="glnormal3dv-function"></a>glNormal3dv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau de trois éléments : les coordonnées x, y et z du no
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La normale actuelle est définie sur les coordonnées données chaque fois que vous appelez la fonction **glNormal3dv**.
 

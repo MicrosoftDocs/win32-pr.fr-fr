@@ -3,7 +3,7 @@ title: Attribut UserServiceRating
 description: L’attribut UserServiceRating est réservé pour une utilisation ultérieure.
 ms.assetid: e6113474-725d-4eb1-9c05-cff7749f2010
 keywords:
-- Attribut UserServiceRating lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserServiceRating
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 690a090aaa9d07ee850caee004242272368129f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1dc9b0f1131a02a4ce3fe05ebe2423116e7701e3bbb9ce7f5ea8faa1c1dce7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001589"
 ---
 # <a name="userservicerating-attribute"></a>Attribut UserServiceRating
 
@@ -29,7 +29,7 @@ L’attribut **UserServiceRating** est réservé pour une utilisation ultérieur
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les évaluations des utilisateurs sont représentées par des valeurs entières, comme décrit dans le tableau suivant. Quand vous spécifiez une valeur, utilisez l’une des valeurs de la colonne valeur d’écriture. Lorsque vous récupérez des valeurs, vous pouvez utiliser les plages de la colonne lecture des valeurs pour déterminer le nombre d’étoiles.
 

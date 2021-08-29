@@ -4,12 +4,12 @@ ms.assetid: 528412e7-c2b6-4ddd-86de-999252972421
 title: Composants SID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd44d0534cc56c6ef998c150810f14b3eda289d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9286f29015d96aef6a48726229812ad6fe73c23c59cb27aa553188cf2e9fc322
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907149"
 ---
 # <a name="sid-components"></a>Composants SID
 

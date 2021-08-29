@@ -4,12 +4,12 @@ ms.assetid: 507d350e-da0c-42d0-8a8d-77618ee5a1dd
 title: Attribut MF_SOURCE_READER_D3D_MANAGER (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43bf0d49bb2744ff8219f8d15a6316f11875455c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19b4f90713d6eb0529e51657d3f5a649394c3458c61d6cce2974b2214d9a202
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955119"
 ---
 # <a name="mf_source_reader_d3d_manager-attribute"></a>\_Attribut du \_ \_ Gestionnaire D3D du lecteur source MF \_
 
@@ -17,15 +17,15 @@ Contient un pointeur vers le [Gestionnaire de périphériques Microsoft Direct3D
 
 ## <a name="data-type"></a>Type de données
 
-**IDirect3DDeviceManager9 \* ou IMFDXGIDeviceManager \*** stocké sous la forme **IUnknown \** _
+**IDirect3DDeviceManager9 \* ou IMFDXGIDeviceManager \*** stocké en tant que **IUnknown \***
 
 ## <a name="getset"></a>Obtenir/définir
 
-Pour récupérer cet attribut, appelez [_ *IMFAttributes :: GetUnknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
+Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUnknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
 
 Pour définir cet attribut, appelez [**IMFAttributes :: setunknown,**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut peut être un pointeur vers l’interface [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) ou un [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager).
 
@@ -50,8 +50,8 @@ Vous ne définissez pas cet attribut si :
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Mfreadwrite. h</dt> </dl> |
 
 

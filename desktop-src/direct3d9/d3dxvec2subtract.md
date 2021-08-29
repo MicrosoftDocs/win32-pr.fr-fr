@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7c12f41da7594f3eff9743eed7a1b0780f36c5fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7570a3dcf0b6640724c274738a226e1a34cf6a651be69ef0851391074a494d47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104530885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119019"
 ---
 # <a name="d3dxvec2subtract-function"></a>D3DXVec2Subtract fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR2**](d3dxvector2.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui est la différence de deux vecteurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec2Subtract** peut être utilisée comme paramètre pour une autre fonction.
 

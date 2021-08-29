@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c42474db0ffa764c6fb3afd9f48591bd5880984f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c47f93e7d97fe2b31b93bd425dd9e769c83a0804106a760f9015eda93d9e19a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762619"
 ---
 # <a name="msmq-interval1-attribute"></a>Attribut MSMQ-Interval1
 
@@ -36,7 +36,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1308              |
 | System-ID-GUID    | 8ea825aa-3b7b-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ En mode mixte MSMQ, temps de réplication par défaut au sein d’un site.
 | Range-Upper            | \-                                                                                                        |
 | Search-Flags           | 0x00000000                                                                                                |
 | System-Flags           | 0x00000010                                                                                                |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 

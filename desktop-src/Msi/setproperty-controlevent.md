@@ -4,12 +4,12 @@ ms.assetid: a8e80d14-8d62-4398-9e53-9a0119a62d70
 title: ControlEvent, SetProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59326ddd9f576b4871de7c232318ffcdcdb4fb36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 850048ab550ea091fcd714835546305b81cdd001efd15e1f55f46f924b3a0308
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628609"
 ---
 # <a name="setproperty-controlevent"></a>ControlEvent, SetProperty
 
@@ -29,7 +29,7 @@ Nouvelle valeur de la propriété. {} pour null.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucun
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

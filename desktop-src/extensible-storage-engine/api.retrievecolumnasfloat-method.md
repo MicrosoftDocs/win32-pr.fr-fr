@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e348a4147e2a33ed4cda918063a894964fa304f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06f0306837c545dbba3986db009e768f58822d59405fb6c10a1e74c614e2c139
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786739"
 ---
 # <a name="apiretrievecolumnasfloat-method"></a>API. RetrieveColumnAsFloat, méthode
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

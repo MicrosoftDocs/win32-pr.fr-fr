@@ -4,12 +4,12 @@ ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: Filtre de séparateur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24335511e9b7b866c85792c2036a4d4b6d089f2a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 9c090fdf7eda5b785d0d4b05e622e3b31bd0f8a14c15d8bf6df100e5b391aa88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814399"
 ---
 # <a name="avi-splitter-filter"></a>Filtre de séparateur AVI
 
@@ -58,9 +58,9 @@ La durée d’entrelacement dans le fichier détermine la quantité de mémoire 
 
 ### <a name="seeking"></a>Cherche
 
-Si le fichier contient un flux vidéo, le séparateur AVI prend en charge la recherche par numéro de frame. Pour activer la recherche basée sur des frames, appelez [**IMediaSeeking :: SetTimeFormat**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-settimeformat) sur le [Gestionnaire de graphique de filtre](filter-graph-manager.md) avec le **\_ \_ cadre de format d’heure** de valeur.
+Si le fichier contient un flux vidéo, le séparateur AVI prend en charge la recherche par numéro de frame. pour activer la recherche basée sur des frames, appelez [**IMediaSeeking :: SetTimeFormat**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-settimeformat) sur le [gestionnaire de Graph de filtre](filter-graph-manager.md) avec le **FORMAT de date \_ \_** et d’heure de valeur.
 
-Si le fichier contient un flux audio, le séparateur AVI prend en charge la recherche par échantillon de nombre. Pour activer la recherche basée sur les exemples, appelez [**SetTimeFormat**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-settimeformat) sur le gestionnaire de graphique de filtre avec l’exemple de format de date et d' **heure \_ \_**.
+Si le fichier contient un flux audio, le séparateur AVI prend en charge la recherche par échantillon de nombre. pour activer la recherche basée sur les exemples, appelez [**SetTimeFormat**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-settimeformat) sur le gestionnaire de Graph de filtre avec l’exemple de FORMAT de date et d' **heure \_ \_**.
 
 Dans les deux cas, la broche de sortie pour ce flux doit être connectée à un filtre de convertisseur.
 
@@ -68,7 +68,7 @@ Dans les deux cas, la broche de sortie pour ce flux doit être connectée à un 
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

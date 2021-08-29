@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 363db88b67d29d92b1e79516056f5fa8e78ca22e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 065c38334017721a727172e8bb7e219f758bceabb030f4661c201eead1b3bb6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720969"
 ---
 # <a name="imediarenderer-interface"></a>Interface IMediaRenderer
 

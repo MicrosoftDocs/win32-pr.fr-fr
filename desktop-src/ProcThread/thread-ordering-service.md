@@ -4,18 +4,18 @@ ms.assetid: 5c37873a-ced4-447e-a6e1-55cfa8ab24b4
 title: Service de classement des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b3cd12b26124b47d506585425388a4542a70df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726f846f390f6ef3c586a4798374b41494b18b11371dd363e27fddc838a18049
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127999"
 ---
 # <a name="thread-ordering-service"></a>Service de classement des threads
 
 Le *service de classement des threads* contrôle l’exécution d’un ou plusieurs threads clients. Il garantit que chaque thread client s’exécute une fois pendant la période spécifiée et dans l’ordre relatif.
 
-**Windows Server 2003 et Windows XP :** Le service de classement des threads est disponible à partir de Windows Vista et de Windows Server 2008.
+**Windows Server 2003 et Windows XP :** le service de classement des threads est disponible à partir de Windows Vista et Windows Server 2008.
 
 Le service de classement des threads est désactivé par défaut et doit être démarré par l’utilisateur. Pendant que le service de classement des threads est en cours d’exécution, il est activé toutes les 5 secondes pour vérifier s’il existe une nouvelle demande, même si le système est inactif. Cela empêche le système de se mettre en veille pendant plus de 5 secondes, ce qui a pour effet de consommer davantage d’énergie. Si l’efficacité énergétique est essentielle pour l’application, il est préférable de ne pas utiliser le service de classement des threads et d’autoriser à la place le planificateur système à gérer l’exécution des threads.
 

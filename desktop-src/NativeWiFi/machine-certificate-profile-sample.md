@@ -4,12 +4,12 @@ ms.assetid: 4cc4cbb7-963f-4771-8a3d-2a37058c9011
 title: Exemple de profil de certificat d’ordinateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad892d26a3ec401364fba79132db82c3fa6c4157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afb76f0916f2a0d8287a5bf098983e0229c6682decbd3a72386e7b15809c27ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801099"
 ---
 # <a name="machine-certificate-profile-sample"></a>Exemple de profil de certificat d’ordinateur
 

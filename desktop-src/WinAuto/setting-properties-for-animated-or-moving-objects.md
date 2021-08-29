@@ -4,12 +4,12 @@ description: Pour les contrôles d’animation, tels que le contrôle d’animat
 ms.assetid: 8c5ebbc3-4066-452b-8f37-2fb595adea53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1551899305968471bf1425b5cc043be8329c2bd4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72dc4161145f46c6d376f9902d883512de317adc613099a6456634e60fceae16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998069"
 ---
 # <a name="setting-properties-for-animated-or-moving-objects"></a>Définition des propriétés des objets animés ou mobiles
 
@@ -21,9 +21,9 @@ C’est le cas, par exemple, du texte défilant, qui est divulgué progressiveme
 
 Par exemple, dans une fenêtre qui contient une zone rectangulaire qui affiche le mot « oui ! » dans le cadre d’un modèle figure-huit, le [**rôle**](role-property.md) est [**graphique de \_ système \_ de rôle**](object-roles.md), la propriété [**valeur**](value-property.md) est la chaîne affichée, la propriété [**emplacement**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) est le rectangle englobant autour du texte, et l’indicateur d’attribut [**animé du \_ système \_ d’État**](object-state-constants.md) est défini. La [**Description**](description-property.md) est « le mot oui ! » se déplace à travers l’écran dans un modèle à huit chiffres.» Le serveur génère uniquement les événements d' [**\_ objet \_ STATECHANGE**](event-constants.md) lorsque l’objet démarre ou arrête l’animation.
 
- 
+ 
 
- 
+ 
 
 
 

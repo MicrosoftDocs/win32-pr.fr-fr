@@ -3,9 +3,9 @@ title: IWMPDVD, méthode de reprise
 description: La méthode Resume retourne en mode lecture à partir du mode menu, en reprenant à la même position que lorsque le menu a été appelé.
 ms.assetid: 5ef3fbba-8872-42cc-aee1-4f18c11d6621
 keywords:
-- méthode Resume Windows Media Player
-- méthode Resume Windows Media Player, IWMPDVD interface
-- Interface IWMPDVD lecteur Windows Media, méthode Resume
+- Lecteur Windows Media de la méthode resume
+- resume, méthode Lecteur Windows Media, IWMPDVD, interface
+- Lecteur Windows Media de l’interface IWMPDVD, méthode resume
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b7a8910ef71152034964c5077c7b34b5a48668
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad0f3e5e264041ea852744792319ec2a7e0679bd6ef8e61a513ebe60a1777d09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760879"
 ---
 # <a name="iwmpdvdresume-method"></a>IWMPDVD :: Resume, méthode
 

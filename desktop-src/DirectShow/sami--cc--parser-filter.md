@@ -4,12 +4,12 @@ ms.assetid: 9b09dd86-3c22-4565-82a0-106d5ca2e42d
 title: Filtre de l’analyseur SAMI (CC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b77f0aa2d913b7f0295a078c8174ae483bb1cb62
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d93cb5f55ebbcd70359f5e2e9b57084752f6a6d8c8325a6d7037d52e5cf3cec4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102329"
 ---
 # <a name="sami-cc-parser-filter"></a>Filtre de l’analyseur SAMI (CC)
 
@@ -177,7 +177,7 @@ Ce filtre utilise l’interface [**IAsyncReader**](/windows/desktop/api/Strmif/n
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

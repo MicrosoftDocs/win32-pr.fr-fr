@@ -4,12 +4,12 @@ ms.assetid: 39f36efa-fe61-4310-b7ec-1ad6ef3f29fb
 title: EC_PALETTE_CHANGED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b66a97c152e90a6834d779407df8a11bb584b0d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6daae6af26259032389344fbcf3dd2ecd4c3468bbb32aa82056b49061bd0afe4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119316779"
 ---
 # <a name="ec_palette_changed"></a>\_palette EC \_ modifiée
 
@@ -58,7 +58,7 @@ Les convertisseurs vidéo envoient cet événement s’ils détectent une modifi
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

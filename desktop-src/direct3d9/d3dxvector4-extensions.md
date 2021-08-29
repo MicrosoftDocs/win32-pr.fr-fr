@@ -4,12 +4,12 @@ ms.assetid: 50c549b7-0371-4be5-b917-a1c38dd5edb1
 title: Extensions D3DXVECTOR4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 428b3d6cf1eefe36aed57bfb64619a644f4e2617
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 924c32664fdfcf28a2bbf1b6a6706a9598cc7e221076a43acf85a3af1bd5ac5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630359"
 ---
 # <a name="d3dxvector4-extensions"></a>Extensions D3DXVECTOR4
 

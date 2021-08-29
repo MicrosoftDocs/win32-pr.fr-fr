@@ -4,20 +4,20 @@ description: Un routeur est un serveur qui exécute le service RRAS. Ce serveur 
 ms.assetid: 49f96ea8-890a-4da8-bd7a-e3237f9fffb6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c45facee07cb21a9dd061c8626bf0c8d511fd8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e09c6764f5ad363fc91f0a1d29277b4b4004d7467ee209e23d292c1f8bf667c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672839"
 ---
 # <a name="router"></a>Routeur
 
 Un routeur est un serveur qui exécute le service RRAS. Ce serveur gère le transfert de données et exécute les protocoles de routage.
 
- 
+ 
 
- 
+ 
 
 
 

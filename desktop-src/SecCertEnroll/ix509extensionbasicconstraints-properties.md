@@ -4,12 +4,12 @@ ms.assetid: 4AD07F8A-B770-47D0-9C67-D44396B4CADA
 title: Propriétés IX509ExtensionBasicConstraints
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03fc058eebc9c7dd4e3ec4afaf2db8083fa60cbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c46a8b4ea1cf2b7efe26d85b0321a5df7e5dcff3731fb045eb79325b2768504f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668399"
 ---
 # <a name="ix509extensionbasicconstraints-properties"></a>Propriétés IX509ExtensionBasicConstraints
 

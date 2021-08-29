@@ -3,7 +3,7 @@ title: Message ACM_ISPLAYING (commctrl. h)
 description: Vérifie si un clip Audio-Video entrelacé (AVI) est lu. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro animer \_ IsPlaying.
 ms.assetid: ebb0c92a-99d2-49c1-9de1-8bdbd032be3a
 keywords:
-- ACM_ISPLAYING les contrôles de message Windows
+- ACM_ISPLAYING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f663872ce02b9520e3e033cb5bc5a3da12bb3c3c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: db85d2b25b0f8498c020a78b3e43cfe48877b0cb0b8b77fe33cbb4caa2a3f311
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079413"
 ---
 # <a name="acm_isplaying-message"></a>\_Message ISPLAYING ACM
 
@@ -53,8 +53,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

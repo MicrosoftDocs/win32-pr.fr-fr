@@ -4,12 +4,12 @@ description: Le mécanisme le plus courant pour la réutilisation d’objets dan
 ms.assetid: 56396c11-889a-4f28-8fa7-9e48c805c501
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d26e0c1d1e48596cb9acef740405c797f6f0f46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd2d90d3439bcb9fb6038940d860533a090ac68fbdee6ca9b2a832afb2803d03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678859"
 ---
 # <a name="containmentdelegation"></a>Imbrication/délégation
 
@@ -26,9 +26,9 @@ Il est facile d’implémenter la relation contenant-contenu pour un objet exter
 [Agrégation](aggregation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

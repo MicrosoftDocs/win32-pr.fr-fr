@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7434cb79e90f99ab946c86a97559079352956fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 534f002f785c48ff44a39b4bde4b03733b3d418a5c459fe14b4fb59d074b4f02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978039"
 ---
 # <a name="apijetossnapshotfreeze-method"></a>API. JetOSSnapshotFreeze, méthode
 

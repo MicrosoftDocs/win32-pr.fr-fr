@@ -4,12 +4,12 @@ ms.assetid: d9ed58e6-2731-4fde-8368-f727420eb773
 title: Gestion des volumes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acebdeda5b47a3f1a1753725c5419be36c2a65d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfebb44a2a12cfa8dfe5b62d7f6be92d09e19ca6c2e7d5180a746c055d397678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981769"
 ---
 # <a name="volume-management"></a>Gestion des volumes
 

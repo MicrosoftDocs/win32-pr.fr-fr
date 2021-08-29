@@ -4,12 +4,12 @@ ms.assetid: dac287a9-77ca-44d8-8019-b05e4c61dc52
 title: Ajout d’instances de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8085fa10f824f32dc76aef0f1e5f78ca05b22b93
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5af1a84435ec67c3f27615693e153c6a764e4451d93cb7ff5c73970a39587296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950799"
 ---
 # <a name="adding-property-instances"></a>Ajout d’instances de propriété
 

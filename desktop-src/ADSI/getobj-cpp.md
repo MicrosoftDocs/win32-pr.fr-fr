@@ -5,12 +5,12 @@ ms.assetid: d202e5ec-27b5-4809-a7fa-4a2e39c65295
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d58647208c68437c068d58cd9908bc08989141
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dc1bada2480c8d361ba6dc1b71928aa6d1a1f945c75e0202312cc7f3e34c97b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082573"
 ---
 # <a name="getobjcpp"></a>GETOBJ. COTISATIONS
 
@@ -37,8 +37,8 @@ Dans l’exemple de composant fournisseur, apparaît un exemple de code utilisé
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

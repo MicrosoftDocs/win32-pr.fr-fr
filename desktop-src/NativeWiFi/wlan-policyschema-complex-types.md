@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1666d67ca3bbc4d6171169d0bab0d3ec73286eb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ef1e0a7b64d4261c81443dd3aa1e306529db9e39f5d415fb4c35d40f3ad3753
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800339"
 ---
 # <a name="wlan_policy-schema-complex-types"></a>\_Types complexes de schéma de stratégie WLAN
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_VoltageSensor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 259af60a17a6b527acd235276afd3e4d89c9101d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 64791850031119dd6b373915e6292f1a10c1e2c73e7e095436acad3085dc576c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918739"
 ---
 # <a name="cim_voltagesensor-methods"></a>\_Méthodes capteur CIM
 

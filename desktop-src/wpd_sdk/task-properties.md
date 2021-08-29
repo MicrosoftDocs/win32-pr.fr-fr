@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés de tâche suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés de tâche suivantes.
 ms.assetid: 9bd6c2e1-740a-453d-b390-120700af7c93
 title: Propriétés de la tâche (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 829685ac3fa5737356c172ed9e66303b3d6115ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06c45e348ce4e5100cdf5fc353c10d901bc9e98d454468ecf92f0c99d166415e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445489"
 ---
 # <a name="task-properties"></a>Propriétés de la tâche
 
-Appareils mobiles Windows prend en charge les propriétés de tâche suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés de tâche suivantes.
 
 
 

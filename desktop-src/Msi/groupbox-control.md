@@ -4,12 +4,12 @@ ms.assetid: e1cdcf71-876f-4115-96a4-95d8a0f61a9b
 title: GroupBox, contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b5182284055d95719299b1fecb7dc3f7825176c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a3b0ce04006096f97ac28d0a3415e0246d3fbf8489e812e121097cfa25ff995
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649389"
 ---
 # <a name="groupbox-control"></a>GroupBox, contrôle
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser les attributs suivants avec le contrôle GroupBox. Pour mod
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe BUTTON à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles de groupe de la zone de **\_ groupe** de la catégorie **BS \_**, **WS \_ Child** et WS.
 
