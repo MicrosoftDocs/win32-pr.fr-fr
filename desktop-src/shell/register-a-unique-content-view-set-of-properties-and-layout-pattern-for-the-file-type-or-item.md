@@ -4,12 +4,12 @@ ms.assetid: EA5A3ADA-4DFD-4F85-A176-93577D822815
 title: Inscrire un ensemble de propriétés et un modèle de disposition d’affichage de contenu pour un type de fichier ou un élément
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e84861a0761f2f5ebb9737f62409c8f72e00bd
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 70a3df2b65f0c977b5898e2fa35a28091052dde508c0d381379303119068ab3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104321297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820499"
 ---
 # <a name="how-to-register-a-unique-content-view-set-of-properties-and-layout-pattern-for-the-file-type-or-item"></a>Comment inscrire un ensemble de propriétés d’affichage de contenu unique et un modèle de disposition pour le type de fichier ou l’élément
 
@@ -173,7 +173,7 @@ Une fois que vous avez compris le mode de résultats de la recherche, le mode de
 
     Les valeurs possibles pour (ContentViewModeForBrowse) sont les suivantes : prop : ~ System. ItemNameDisplay ; System. Author ; System. LayoutPattern. PlaceHolder ; System. Keywords ; System. DateModified ; ~ System. Size
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

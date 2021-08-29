@@ -16,17 +16,17 @@ keywords:
 - redimensionner la surface virtuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4bd30bfbd1de91444b7076184db597cd7a8c82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc7fd2ac653fe46ea4530a39e5dad364e312845b6950a2051b39896f7fbb1e61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787937"
 ---
 # <a name="composition-surface"></a>Surface de la composition
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique décrit les types de surfaces pris en charge par Microsoft DirectComposition.
 
@@ -125,6 +125,6 @@ Dans l’illustration suivante, le carré vert est la fenêtre d’affichage de 
 [Concepts DirectComposition](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ ms.assetid: 0f68628f-9d38-45ca-9487-95bf62075e00
 title: Événement PBT_APMQUERYSUSPENDFAILED (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1544cd5ed94ae0228c739e2ddb576b0bd77146eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4151829d2c00fc8d4577fb8a7231111df09eb1326985f274d4dcc9e8986b2b86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143362"
 ---
 # <a name="pbt_apmquerysuspendfailed-event"></a>\_Événement PBT APMQUERYSUSPENDFAILED
 
-\[PBT \_ APMQUERYSUSPENDFAILED peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de cet événement a été supprimée dans Windows Vista. Utilisez [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) à la place.\]
+\[PBT \_ APMQUERYSUSPENDFAILED peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de cet événement a été supprimée dans Windows Vista. Utilisez [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) à la place.\]
 
 Notifie les applications que l’autorisation de suspendre l’ordinateur a été refusée. Cet événement est diffusé si une application ou un pilote retournait une **requête de diffusion \_ \_ Deny** à un événement [ \_ APMQUERYSUSPEND PBT](pbt-apmquerysuspend.md) précédent.
 
@@ -73,7 +73,7 @@ Réservé doit être égal à zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications répondent généralement à cet événement en reprenant le fonctionnement normal.
 
@@ -83,8 +83,8 @@ Les applications répondent généralement à cet événement en reprenant le fo
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                                    |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                                           |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |

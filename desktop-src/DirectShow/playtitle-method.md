@@ -4,17 +4,17 @@ ms.assetid: 65361158-2d11-4d65-9e63-3db8eb7d821e
 title: Méthode PlayTitle
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01d4565ce59a3a248b00b79937982c7c7996fd38
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b8f1e465c178a6fc2732a0ca3b7249e007f89187e1e72f89b925678f7b3b598b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583703"
 ---
 # <a name="playtitle-method"></a>Méthode PlayTitle
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

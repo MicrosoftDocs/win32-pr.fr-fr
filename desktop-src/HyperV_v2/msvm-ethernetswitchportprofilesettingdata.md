@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 611fd40b14b961369a847d6bb7b7746ceec2bb85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d90106690346b98e466d35028eb09d67386b89e9a04e05642fe130ecac290164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789929"
 ---
 # <a name="msvm_ethernetswitchportprofilesettingdata-class"></a>MSVM \_ EthernetSwitchPortProfileSettingData, classe
 
@@ -88,7 +88,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du profil de port de commutateur Ethernet ».
+Brève description de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « profil de Port de commutateur Ethernet Paramètres ».
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : **WmiDataId** (11), **InterfaceVersion** (1), **InterfaceRevision** (0)
 </dt> </dl>
 
-Identificateur d’étiquette CDN.
+identificateur d’étiquette CDN.
 
 </dd> <dt>
 
@@ -120,7 +120,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (127), **WmiDataId** (12), **InterfaceVersion** (1), **InterfaceRevision** (0)
 </dt> </dl>
 
-Chaîne de l’étiquette CDN.
+chaîne d’étiquette CDN.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom complet de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du profil de port de commutateur Ethernet ».
+Nom complet de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « profil de Port de commutateur Ethernet Paramètres ».
 
 </dd> <dt>
 
@@ -332,8 +332,8 @@ Nom du fournisseur définissant le profil.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

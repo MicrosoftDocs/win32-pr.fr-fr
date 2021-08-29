@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b827aba4cb0871f7130e658299c6d8836557a156
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c7617faf06d6c6920a2096c2a44806ae2f5204906573205ca94bf9a32e327db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146372"
 ---
 # <a name="oleautomation-attribute"></a>oleautomation (attribut)
 
@@ -67,7 +67,7 @@ Spécifie le nom d’une interface Automation à partir de laquelle cette interf
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres et les types de retour spécifiés pour les membres d’une interface **\[ oleautomation \]** doivent être compatibles Automation, comme indiqué dans le tableau suivant.
 
@@ -86,19 +86,19 @@ Les paramètres et les types de retour spécifiés pour les membres d’une inte
 | **CURRENCY**                                    | nombre à virgule flottante fixe sur 8 octets.                                                                                                                                                                          |
 | **DATE**                                        | 64 bits, nombre de jours fractionnaires à virgule flottante depuis le 30 décembre 1899.                                                                                                                                     |
 | **SCODE**                                       | Pour les systèmes 16 bits : type d’erreur intégré qui correspond à l' \_ erreur VT.                                                                                                                                         |
-| **Enum typedef** Â  *MyEnum*                      | Entier signé dont la taille dépend du système.                                                                                                                                                               |
-| **Interface IDispatch \***                      | Pointeur vers l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) ( \_ Dispatch VT).                                                                                                                |
-| **Interface IUnknown \***                       | Pointeur vers une interface qui ne dérive pas de [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) (VT \_ inconnu). (Toute interface OLE peut être représentée par son interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) .) |
-| **dispinterface** Â  *TypeName \**                | Pointeur vers une interface dérivée de [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) ( \_ distribution vt).                                                                                                    |
-| **Coclasse** Â  *TypeName \**                      | Pointeur vers un nom de coclasse (VT \_ inconnu).                                                                                                                                                                      |
-| **\[ oleautomation, \] interface** Â   *TypeName \** | Pointeur vers une interface qui dérive de [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown).                                                                                                                                      |
+| **Enum typedef** Â *MyEnum*                      | Entier signé dont la taille dépend du système.                                                                                                                                                               |
+| **Interface IDispatch \** _                      | Pointeur vers l’interface [_ *IDispatch* *](/windows/win32/api/oaidl/nn-oaidl-idispatch) ( \_ Dispatch VT).                                                                                                                |
+| **Interface IUnknown \** _                       | Pointeur vers une interface qui ne dérive pas de [_ *IDispatch* *](/windows/win32/api/oaidl/nn-oaidl-idispatch) (VT \_ inconnu). (Toute interface OLE peut être représentée par son interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) .) |
+| **dispinterface** Â *TypeName \**                | Pointeur vers une interface dérivée de [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) ( \_ distribution vt).                                                                                                    |
+| **Coclasse** Â *TypeName \**                      | Pointeur vers un nom de coclasse (VT \_ inconnu).                                                                                                                                                                      |
+| **\[ oleautomation, \] interface** Â *TypeName \** | Pointeur vers une interface qui dérive de [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown).                                                                                                                                      |
 | **SAFEARRAY**(*TypeName*)                       | *TypeName* est l’un des types ci-dessus. Tableau de ces types.                                                                                                                                                   |
-| **TypeName \***                                 | *TypeName* est l’un des types ci-dessus. Pointeur vers un type.                                                                                                                                                      |
+| **Nom \** de la _                                 | _TypeName * est l’un des types ci-dessus. Pointeur vers un type.                                                                                                                                                      |
 | **Décimal**                                     | entier binaire non signé 96 bits mis à l’échelle par une puissance variable de 10. Type de données décimal qui fournit une taille et une échelle pour un nombre (comme en coordonnées).                                                       |
 
 
 
- 
+ 
 
 Un paramètre est compatible avec Automation si son type est un type compatible Automation, un pointeur vers un type compatible Automation ou un SAFEARRAY d’un type compatible Automation.
 
@@ -159,6 +159,6 @@ library Hello
 [**universel**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

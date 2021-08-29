@@ -3,9 +3,9 @@ title: Méthode IWMPPlaylistCollection newPlaylist
 description: La méthode newPlaylist retourne une interface IWMPPlaylist pour une nouvelle playlist vide dans la bibliothèque.
 ms.assetid: cc0cb356-9a90-421c-8d1a-b79585f71124
 keywords:
-- méthode newPlaylist lecteur Windows Media
-- méthode newPlaylist lecteur Windows Media, interface IWMPPlaylistCollection
-- Interface IWMPPlaylistCollection lecteur Windows Media, méthode newPlaylist
+- Lecteur Windows Media de la méthode newPlaylist
+- méthode newPlaylist Lecteur Windows Media, interface IWMPPlaylistCollection
+- Lecteur Windows Media de l’interface IWMPPlaylistCollection, méthode newPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbc455c5815cee1aaac139886bca1d847ddc62b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3971e8cd63a9d78f1c12cb912e6888d51abc9635e78be8d291a1d5535647292e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053447"
 ---
 # <a name="iwmpplaylistcollectionnewplaylist-method"></a>IWMPPlaylistCollection :: newPlaylist, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylistCollection.newPlaylist
 
 Interface **wmplib. IWMPPlaylist** pour la nouvelle sélection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode crée une sélection vide dans la bibliothèque. Pour remplir la sélection avec des éléments multimédias, utilisez **IWMPPlaylist. appendItem** ou **IWMPPlaylist. InsertItem**.
 
@@ -120,7 +120,7 @@ Dim newList As WMPLib.IWMPPlaylist = player.playlistCollection.newPlaylist(&quot
 [**IWMPPlaylist. insertItem (VB et C#)**](wmplibiwmpplaylist-iwmpplaylist-insertitem--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylistArray. Count (VB et C#)**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
+[**IWMPPlaylistArray. count (VB et C#)**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylistCollection (VB et C#)**](iwmpplaylistcollection--vb-and-c.md)

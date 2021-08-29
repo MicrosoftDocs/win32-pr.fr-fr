@@ -4,12 +4,12 @@ ms.assetid: 3d3871ac-518c-45a1-9e64-031f344f4527
 title: filtre de superposition Mixer 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b51dceb2a7f82a91fe30275cacfaad4ad78eded
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: d2a95303920b3894f668920c0012f9171a59222f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987352"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474955"
 ---
 # <a name="overlay-mixer-2-filter"></a>filtre de superposition Mixer 2
 
@@ -25,11 +25,7 @@ le tableau suivant contient des informations spécifiques à la superposition Mi
 
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| Types de média de broche d’entrée | Type de format : Format_VIDEOINFO2 | 
-| CLSID du filtre | CLSID_OverlayMixer2 | 
-| <a href="merit.md">Mérite</a> | <ul><li>MERIT_UNLIKELY</li><li>Windows Vista ou version ultérieure : MERIT_DO_NOT_USE</li></ul> | 
+| | | Types de média de broche d’entrée | Type de format : Format_VIDEOINFO2 | | CLSID du filtre | CLSID_OverlayMixer2 | | <a href="merit.md">Mérite</a> | <ul><li>MERIT_UNLIKELY</li><li>Windows Vista ou version ultérieure : MERIT_DO_NOT_USE</li></ul> | 
 
 
 

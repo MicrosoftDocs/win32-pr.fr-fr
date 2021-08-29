@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6b94e0ce5cd040a2ade970f566897d2eac339dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e663ce5f6b8fd4536942bd9426c230255aa5132c04a3e2ed0133d6d32d4e6272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401619"
 ---
 # <a name="controlclosestatus-enumeration"></a>Énumération ControlCloseStatus
 

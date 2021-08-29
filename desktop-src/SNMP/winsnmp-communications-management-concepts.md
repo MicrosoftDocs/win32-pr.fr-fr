@@ -1,22 +1,22 @@
 ---
 title: Concepts de la gestion des communications WinSNMP
-description: L’API WinSNMP fournit l’indépendance du transport réseau pour les applications de gestion de réseau basées sur SNMP qui s’exécutent dans les systèmes d’exploitation Microsoft Windows 2000 ou version ultérieure.
+description: l’API WinSNMP fournit l’indépendance du transport réseau pour les applications de gestion de réseau basées sur SNMP qui s’exécutent dans les systèmes d’exploitation Microsoft Windows 2000 ou version ultérieure.
 ms.assetid: 6d060204-8f97-434e-9449-93b26cd35993
 keywords:
 - Concepts de gestion des communications WinSNMP SNMP
 - Concepts de gestion des communications SNMP, WinSNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b08d60a82c7c17758326409674842cb17cb757f1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83a747cf9668d9b1f5b88472babefd7404ae22a70db5d0c1179cd8aff8d13cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142942"
 ---
 # <a name="winsnmp-communications-management-concepts"></a>Concepts de la gestion des communications WinSNMP
 
-L’API WinSNMP fournit l’indépendance du transport réseau pour les applications de gestion de réseau basées sur SNMP qui s’exécutent dans les systèmes d’exploitation Microsoft Windows 2000 ou version ultérieure. Le tableau suivant contient la liste des concepts de gestion des communications qui s’appliquent à la programmation avec WinSNMP.
+l’API WinSNMP fournit l’indépendance du transport réseau pour les applications de gestion de réseau basées sur SNMP qui s’exécutent dans les systèmes d’exploitation Microsoft Windows 2000 ou version ultérieure. Le tableau suivant contient la liste des concepts de gestion des communications qui s’appliquent à la programmation avec WinSNMP.
 
 
 
@@ -28,11 +28,11 @@ L’API WinSNMP fournit l’indépendance du transport réseau pour les applicat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

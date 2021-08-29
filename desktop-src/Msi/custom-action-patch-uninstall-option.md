@@ -4,12 +4,12 @@ ms.assetid: aa4d9e21-5316-42b5-a22e-c7a5becd3cae
 title: Option de désinstallation corrective de l’action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8486e299241c84890e09cd0bb80787153c3c9f0f4997643c657b9027ee1480ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24636181ec8fb9695b9d959a25b055a7e7c21d34
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120045009"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885040"
 ---
 # <a name="custom-action-patch-uninstall-option"></a>Option de désinstallation corrective de l’action personnalisée
 
@@ -31,7 +31,7 @@ Utilisez l’indicateur d’option suivant pour spécifier que le programme d’
 
 cet attribut peut être ajouté à une action personnalisée en le créant dans le package Windows Installer (fichier .msi). Une nouvelle action personnalisée avec cet attribut peut être ajoutée par un correctif. Une action personnalisée ayant cet attribut peut être mise à jour par un correctif. Cet attribut ne peut pas être ajouté ou supprimé par un correctif à une action personnalisée existante.
 
-si un correctif ajoute ou met à jour une action personnalisée avec cet attribut, Windows Installer exécute l’action personnalisée nouvelle ou mise à jour lorsque le correctif est désinstallé. Windows Le programme d’installation rend les mises à jour dans le correctif en cours de désinstallation disponibles pour l’action personnalisée de désinstallation des correctifs. le correctif doit inclure une [table *<PatchGUID>* MsiTransformView](msitransformview.md) pour fournir ces informations à Windows Installer.
+si un correctif ajoute ou met à jour une action personnalisée avec cet attribut, Windows Installer exécute l’action personnalisée nouvelle ou mise à jour lorsque le correctif est désinstallé. Windows Le programme d’installation rend les mises à jour dans le correctif en cours de désinstallation disponibles pour l’action personnalisée de désinstallation des correctifs. le correctif doit inclure une table [MsiTransformView *&lt; &gt; PatchGUID*](msitransformview.md) pour fournir ces informations à Windows Installer.
 
 lorsqu’un package qui contient une action personnalisée avec l’attribut **msidbCustomActionTypePatchUninstall** est installé à l’aide d’une version du programme d’installation antérieure à Windows Installer 4,0, le programme d’installation n’appelle pas l’action personnalisée lorsque le correctif est désinstallé. L’installation peut exécuter l’action personnalisée pendant l’installation, la réparation ou la mise à jour du package.
 
@@ -55,7 +55,7 @@ pour plus d’informations sur l’exécution d’une action personnalisée pend
 [Utilisation d’actions personnalisées](using-custom-actions.md)
 </dt> <dt>
 
-[MsiTransformView *<PatchGUID>*](msitransformview.md)
+[MsiTransformView *&lt; PatchGUID &gt;*](msitransformview.md)
 </dt> </dl>
 
  
