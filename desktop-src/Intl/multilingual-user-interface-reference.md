@@ -1,23 +1,23 @@
 ---
-description: Informations de référence sur l’interface utilisateur multilingue
+description: interface utilisateur multilingue Faire
 ms.assetid: b3fd76fd-dfc7-4983-b6f5-3ef566f8c14c
-title: Informations de référence sur l’interface utilisateur multilingue
+title: interface utilisateur multilingue Faire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf5416caa64c2fcaefd23462c76a6a8674ef1b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccefc964062fcc7dd0cce5ea223458b578d9f1dab87da689298d07e45c92587a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041209"
 ---
-# <a name="multilingual-user-interface-reference"></a>Informations de référence sur l’interface utilisateur multilingue
+# <a name="multilingual-user-interface-reference"></a>interface utilisateur multilingue Faire
 
-Les éléments suivants sont utilisés avec l’interface utilisateur multilingue :
+les éléments suivants sont utilisés avec interface utilisateur multilingue :
 
--   [Fonctions de l’interface utilisateur multilingue](multilingual-user-interface-functions.md)
--   [Macros de l’interface utilisateur multilingue](multilingual-user-interface-macros.md)
--   [Structures de l’interface utilisateur multilingue](multilingual-user-interface-structures.md)
+-   [interface utilisateur multilingue Mission](multilingual-user-interface-functions.md)
+-   [interface utilisateur multilingue Macros](multilingual-user-interface-macros.md)
+-   [interface utilisateur multilingue Celles](multilingual-user-interface-structures.md)
 -   [Utilitaires de ressource](resource-utilities.md)
 
  

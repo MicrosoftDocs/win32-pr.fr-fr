@@ -9,12 +9,12 @@ keywords:
 - Message MM_JOY1BUTTONUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f2337d392c0104dcb49839b19c5fb615481ee2a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 913af14abea7c1f888e3650739014ee0063e8ccea8c5b339eafcd688da80a47c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037889"
 ---
 # <a name="processing-joystick-messages"></a>Traitement des messages de manette de jeu
 
@@ -47,9 +47,9 @@ case MM_JOY1BUTTONUP :                 // button is up
 
 
 
- 
+ 
 
- 
+ 
 
 
 

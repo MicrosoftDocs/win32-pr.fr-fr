@@ -4,12 +4,12 @@ ms.assetid: c78eeb43-c713-42cc-a38f-f8aaa04f8dae
 title: Fonctions des compteurs de performances pour Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c777aa887b9dc42a061de95fb6f33dbf9d3dff7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c68fa9b417f6db987110d03fc0c3c88a920adf8cd70cf0ff5f844f26c0ef5c35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033519"
 ---
 # <a name="performance-counters-functions-for-visual-basic"></a>Fonctions des compteurs de performances pour Visual Basic
 

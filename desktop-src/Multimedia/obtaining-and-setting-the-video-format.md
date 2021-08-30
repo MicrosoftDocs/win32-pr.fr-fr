@@ -7,12 +7,12 @@ keywords:
 - capGetVideoFormatSize macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6890c3a1d653d43d24c5baa0790cc0d26040685b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 632711d0d80cb027c50fe5004e822ece6a627d24ded577d5b3f27936329d0816
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038469"
 ---
 # <a name="obtaining-and-setting-the-video-format"></a>Obtention et définition du format vidéo
 
@@ -42,6 +42,6 @@ Les applications peuvent utiliser la macro [**capSetVideoFormat**](/windows/desk
 [Utilisation de la capture vidéo](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

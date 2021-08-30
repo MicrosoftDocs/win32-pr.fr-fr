@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: defc63628e494465d7a31d8adcea758e538c4c9e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9fc82a4e710eb3b76d526b1efd254596018610280e214b2b13fc00c9c4055916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920339"
 ---
 # <a name="cim_replacementset-class"></a>\_Classe CIM ReplacementSet
 
@@ -86,7 +86,7 @@ Chaîne de forme libre qui définit une étiquette pour cette propriété. Cette
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

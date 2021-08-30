@@ -3,9 +3,9 @@ title: Méthode IWMPControls fastForward
 description: La méthode fastForward démarre la lecture rapide de l’élément multimédia dans le sens avant. | Méthode IWMPControls fastForward
 ms.assetid: 44609d63-1d1a-489c-ac17-60b6d3ddc588
 keywords:
-- méthode fastForward lecteur Windows Media
-- méthode fastForward lecteur Windows Media, interface IWMPControls
-- Interface IWMPControls lecteur Windows Media, méthode fastForward
+- Lecteur Windows Media de la méthode fastForward
+- méthode fastForward Lecteur Windows Media, interface IWMPControls
+- Lecteur Windows Media de l’interface IWMPControls, méthode fastForward
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d99307a7b188b238157af62833273b8c724eab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f283ef56f3831f58b8d57f3d172ad3b80163ee62fdaa24b05bdca02c68cafcf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031329"
 ---
 # <a name="iwmpcontrolsfastforward-method"></a>IWMPControls :: fastForward, méthode
 
@@ -53,9 +53,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **fastForward** lit le clip à cinq fois la vitesse normale. L’appel de **fastForward** équivaut à spécifier 5,0 pour le taux en définissant la propriété **IWMPSettings. rate** . Si la fréquence est modifiée par la suite ou si **IWMPControls. Play** ou **IWMPControls. Stop** est appelé, le lecteur Windows Media arrête le transfert rapide.
+La méthode **fastForward** lit le clip à cinq fois la vitesse normale. L’appel de **fastForward** équivaut à spécifier 5,0 pour le taux en définissant la propriété **IWMPSettings. rate** . si la fréquence est modifiée par la suite ou si **IWMPControls. play** ou **IWMPControls. stop** est appelé, Lecteur Windows Media interrompt le transfert rapide.
 
 La méthode **fastForward** ne fonctionne pas pour les diffusions en direct et certains types de média. Pour déterminer si vous pouvez avancer rapidement dans un clip, transmettez la valeur **System. String** « Fastforward » à la propriété **IWMPControls. IsAvailable** (méthode **IWMPControls. obtenir \_ isAvailable** en C#).
 
@@ -124,10 +124,10 @@ End Sub
 [**IWMPControls. isAvailable (VB et C#)**](iwmpcontrols-isavailable--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
+[**IWMPControls. play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls. stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. rate (VB et C#)**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)

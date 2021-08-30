@@ -4,12 +4,12 @@ description: Control Spy est un outil qui aide les développeurs à comprendre l
 ms.assetid: 27483100-debb-4d82-ac24-b97f933a6942
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3630953cb924f1fd416c56d4d58024b9aaf29421
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d32ad668ff1ac5912db67f48a99b31de8df09dfd417f4058ee4ff2dacfb55421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104032024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920979"
 ---
 # <a name="control-spy-v20"></a>Contrôler Spy v 2.0
 
@@ -19,7 +19,7 @@ Deux versions de Control Spy sont disponibles, une pour [Comctl32.dll version 5.
 
 Cette rubrique contient les sections suivantes.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Styles](#styles)
 -   [Messages](#messages)
 -   [Taille/couleur](#sizecolor)
@@ -69,12 +69,12 @@ Vous pouvez télécharger [Control Spy 2,0](https://www.microsoft.com/download/d
 **Méthodologique**
 </dt> <dt>
 
-[Contrôles Windows](window-controls.md)
+[Windows Commandes](window-controls.md)
 </dt> <dt>
 
 [Activation des styles visuels](cookbook-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

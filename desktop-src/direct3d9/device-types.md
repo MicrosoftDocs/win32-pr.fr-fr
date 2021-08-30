@@ -4,12 +4,12 @@ ms.assetid: 860f3de2-beaf-4df1-82d0-a4b7508156c2
 title: Types d’appareils (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c84efe80c022403c36e760860893f3619e1c9356
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 11c0ba90ffe4e80a99805f10e77246f1c8e11dec39f3ff1160577fbb2e2d9628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952199"
 ---
 # <a name="device-types-direct3d-9"></a>Types d’appareils (Direct3D 9)
 

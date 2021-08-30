@@ -1,17 +1,17 @@
 ---
-title: Modifications de Microsoft Agent dans Windows Vista
-description: Modifications de Microsoft Agent dans Windows Vista
+title: modifications de l’Agent Microsoft dans Windows Vista
+description: modifications de l’Agent Microsoft dans Windows Vista
 ms.assetid: 2498e8d5-2274-477c-a807-77443c76afb7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 440fb8afb7acb0118c1e48669089c083e935db5b
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: 14b9b4e1104152bb21a2ed120d749d92907c1f6be6f2392c299db639cd483bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961199"
 ---
-# <a name="microsoft-agent-changes-in-windows-vista"></a>Modifications de Microsoft Agent dans Windows Vista
+# <a name="microsoft-agent-changes-in-windows-vista"></a>modifications de l’Agent Microsoft dans Windows Vista
 
 \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
 

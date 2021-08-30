@@ -7,12 +7,12 @@ MSHAttr:
 title: IsExclusiveToOther
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57f53a270849dd2bcde7c394dddfe7cf9abe793c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: be2b66d4e3566b95f830291234faf099a8e28e29
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879892"
+ms.locfileid: "122986282"
 ---
 # <a name="span-idwwan_profile_v4element_isexclusivetootherspanisexclusivetoother"></a><span id="WWAN_profile_v4.element_IsExclusiveToOther"></span>IsExclusiveToOther
 
@@ -23,7 +23,7 @@ Spécifie que ce profil est exclusif à d’autres profils du ou des mêmes jeux
 [&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
 **&lt;IsExclusiveToOther&gt;**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <IsExclusiveToOther>
@@ -53,10 +53,12 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

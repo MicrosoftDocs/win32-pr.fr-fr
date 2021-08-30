@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f2af4c141fe0b64979c6fb6e5b7b0e6068d018d9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38ecbcf35ed46cb22a254289d617f9086780c087d932ba17a4cbd60bc1782f52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923139"
 ---
 # <a name="cim_logicaldiskbasedonvolumeset-class"></a>\_Classe CIM LogicalDiskBasedOnVolumeSet
 
@@ -127,7 +127,7 @@ Cette propriété est héritée de [**CIM \_ BasedOn**](cim-basedon.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ LogicalDiskBasedOnVolumeSet** est dérivée de [**CIM \_ BasedOn**](cim-basedon.md).
 

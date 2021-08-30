@@ -1,17 +1,17 @@
 ---
-title: Informations de référence sur l’API du système de fichiers projeté Windows
+title: Windows Informations de référence sur l’API du système de fichiers projeté
 description: Informations de référence pour l’interface de programmation ProjFS.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: cf48523890aa767beeabf35c7dd8413a4b1c20ad
-ms.sourcegitcommit: 62e758931c610782807c7c9fad284921a6c56232
+ms.openlocfilehash: fd6faa744c71757a9072e2546ac86fd6fae3374db2c8332aab90dbdf061e724c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "104381361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030985"
 ---
-# <a name="windows-projected-file-system-projfs-api-reference"></a>Informations de référence sur l’API ProjFS (Windows Projected File System)
+# <a name="windows-projected-file-system-projfs-api-reference"></a>Windows Informations de référence sur l’API du système de fichiers projeté (ProjFS)
 
 Cette section traite des API ProjFS déclarées dans projectedfslib. h, y compris les signatures de rappel.
 

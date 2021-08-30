@@ -4,12 +4,12 @@ ms.assetid: 5b6f12ba-9a41-4252-96c4-391bb8d75cd4
 title: Créer un modèle d’objet XPS vide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0588fc11deb4b3d980e978dfe8a5370bc170d506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78a2d57810a9a8bb500c4d9392b362f4e41e12f7c1a7384c029953a48e77d9a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950339"
 ---
 # <a name="create-a-blank-xps-om"></a>Créer un modèle d’objet XPS vide
 
@@ -105,7 +105,7 @@ L’exemple de code suivant suppose que l’initialisation, décrite dans [initi
 
 
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 Une fois que vous avez utilisé une interface [**IOpcPartUri**](/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi) pour créer un composant (par exemple, après avoir appelé la méthode **createDocument** dans l’exemple de code), libérez le pointeur vers cette interface, sauf si vous en avez besoin pour un autre appel.
 

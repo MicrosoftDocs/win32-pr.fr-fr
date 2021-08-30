@@ -4,27 +4,27 @@ description: Pour créer un contrôle Tree-View, utilisez la fonction CreateWind
 ms.assetid: FEC3BF62-3085-47D4-B82E-7BD7B34B397D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 136ec22cc4f3f88e57266a4c2ac88df542a39429
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5c217ed9d1ea29d1c563ee1bc4246b43528182383b6f8d1dd78dd4f73a220e9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920659"
 ---
 # <a name="how-to-create-a-tree-view-control"></a>Comment créer un contrôle de Tree-View
 
 Pour créer un contrôle Tree-View, utilisez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la valeur de l’arborescence [**WC \_**](common-control-window-classes.md) pour la classe Window. La classe de fenêtre d’arborescence est inscrite dans l’espace d’adressage de l’application lors du chargement de la DLL de contrôle commune. Pour vous assurer que la DLL est chargée, utilisez la fonction [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -81,7 +81,7 @@ HWND CreateATreeView(HWND hwndParent)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous créez un contrôle Tree-View, vous pouvez également lui envoyer un message [**WM \_ SetFont**](/windows/desktop/winmsg/wm-setfont) pour définir la police à utiliser pour le texte. Vous devez envoyer ce message avant d’insérer des éléments. Par défaut, une arborescence utilise la police du titre de l’icône. Bien que vous puissiez personnaliser la police par élément à l’aide d’un [dessin personnalisé](custom-draw.md), le contrôle d’arborescence utilise les dimensions de la police spécifiées par le message **WM \_ SetFont** pour déterminer l’espacement et la mise en page.
 
@@ -95,6 +95,6 @@ Lorsque vous créez un contrôle Tree-View, vous pouvez également lui envoyer u
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: Le modèle de sécurité Microsoft Windows vous permet de contrôler l’accès aux objets de travail. Pour plus d’informations sur la sécurité, consultez Access-Control modèle.
+description: le modèle de sécurité Microsoft Windows vous permet de contrôler l’accès aux objets de travail. Pour plus d’informations sur la sécurité, consultez Access-Control modèle.
 ms.assetid: 8d212292-f087-41e4-884e-cec4423dac49
 title: Sécurité de l’objet de travail et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f5207e459bab2ae444282355844401e0b82e9c
-ms.sourcegitcommit: 18023a15a4312c653a8dcc0feef23e3413a7f5dd
+ms.openlocfilehash: e62111a630b5fd8ee4639505bedec192155f3775f4c284ff1455b8eea63d21d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "106531236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978499"
 ---
 # <a name="job-object-security-and-access-rights"></a>Sécurité de l’objet de travail et droits d’accès
 
-Le modèle de sécurité Microsoft Windows vous permet de contrôler l’accès aux objets de travail. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
+le modèle de sécurité Microsoft Windows vous permet de contrôler l’accès aux objets de travail. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
 
 Vous pouvez spécifier un [descripteur de sécurité](../secauthz/security-descriptors.md) pour un objet de traitement lorsque vous appelez la fonction [**CreateJobObject**](/windows/desktop/api/WinBase/nf-winbase-createjobobjecta) . Si vous spécifiez NULL, l’objet de traitement obtient un descripteur de sécurité par défaut. Les listes de contrôle d’accès dans le descripteur de sécurité par défaut pour un objet de traitement proviennent du jeton principal ou d’emprunt d’identité du créateur.
 
@@ -43,7 +43,7 @@ Le tableau suivant répertorie les droits d’accès spécifiques aux travaux.
 | **Travail \_ \_ \_ Processus d’attribution d’objet** (0x0001)           | Requis pour appeler la fonction [**AssignProcessToJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-assignprocesstojobobject) pour assigner des processus à l’objet de traitement.                                                                                                                                                                                                                                                                                                                                                                |
 | **Travail \_ \_Requête d’objet** (0x0004)                     | Requis pour récupérer certaines informations sur un objet de traitement, telles que les attributs et les informations de comptabilité (consultez [**QueryInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-queryinformationjobobject) et [**IsProcessInJob**](/windows/win32/api/jobapi/nf-jobapi-isprocessinjob)).                                                                                                                                                                                                                                                                    |
 | **Travail \_ \_ \_ Attributs du jeu d’objets** (0x0002)           | Obligatoire pour appeler la fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) afin de définir les attributs de l’objet de traitement.                                                                                                                                                                                                                                                                                                                                                                |
-| **Travail \_ \_Attributs de \_ sécurité \_ du jeu d’objets** (0x0010) | Cet indicateur n’est pas pris en charge. Vous devez définir des limites de sécurité individuellement pour chaque processus associé à un objet de traitement. **Windows Server 2003 et Windows XP :** Requis pour appeler la fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) avec la classe d’informations **JobObjectSecurityLimitInformation** pour définir des limitations de sécurité pour les processus associés à l’objet de traitement. La prise en charge de cet indicateur a été supprimée dans Windows Vista et Windows Server 2008. <br/> |
+| **Travail \_ \_Attributs de \_ sécurité \_ du jeu d’objets** (0x0010) | Cet indicateur n’est pas pris en charge. Vous devez définir des limites de sécurité individuellement pour chaque processus associé à un objet de traitement. **Windows Server 2003 et Windows XP :** Requis pour appeler la fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) avec la classe d’informations **JobObjectSecurityLimitInformation** pour définir des limitations de sécurité pour les processus associés à l’objet de traitement. la prise en charge de cet indicateur a été supprimée dans Windows Vista et Windows Server 2008. <br/> |
 | **Travail \_ \_Fin** de l’objet (0x0008)                 | Requis pour appeler la fonction [**TerminateJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-terminatejobobject) pour mettre fin à tous les processus de l’objet de traitement.                                                                                                                                                                                                                                                                                                                                                                     |
 
 
@@ -56,7 +56,7 @@ Vous pouvez demander le droit accès à la **\_ \_ sécurité du système d’ac
 
 Vous devez définir des limitations de sécurité individuellement pour chaque processus associé à un objet de traitement, plutôt que de les définir pour l’objet de traitement lui-même. Pour plus d’informations, consultez [sécurité des processus et droits d’accès](process-security-and-access-rights.md).
 
-**Windows Server 2003 et Windows XP :** Vous pouvez utiliser la fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) pour définir des limites de sécurité pour l’objet de traitement. Cette fonctionnalité a été supprimée dans Windows Vista et Windows Server 2008.
+**Windows Server 2003 et Windows XP :** Vous pouvez utiliser la fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) pour définir des limites de sécurité pour l’objet de traitement. cette fonctionnalité a été supprimée dans Windows Vista et Windows Server 2008.
 
  
 

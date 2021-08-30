@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104100
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4f373f0323f3039ce6611019344c69e3c3f88cfc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 996167bcc12dc524cc3de87641ddb654eca1c034aef767fd2ba5caadbc3842b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016029"
 ---
 # <a name="server2003param-fields"></a>Champs Server2003Param
 

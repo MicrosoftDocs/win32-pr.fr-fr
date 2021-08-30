@@ -4,12 +4,12 @@ ms.assetid: 2d08bd05-5b0c-480c-91fd-b2bf321fc21e
 title: Instructions de base pour la conception d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6552022c3a9c2f50172164d1ed60811c5272e0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d33c8000a55c85737901eb242610a0391128bbc497d485fe3bcef017d86b9f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029799"
 ---
 # <a name="basic-guidelines-for-designing-com-applications"></a>Instructions de base pour la conception d’applications COM+
 
@@ -33,7 +33,7 @@ Pour tirer pleinement parti de COM+, vous pouvez utiliser quelques recommandatio
 [Conception de l’application COM+ à l’aide d’UML](designing-the-com--application-using-uml.md)
 </dt> <dt>
 
-[Conseils de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)
+[Astuces de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)
 </dt> <dt>
 
 [Optimisation des interactions avec le niveau de logique métier COM+](optimizing-interactions-with-the-com--business-logic-tier.md)
