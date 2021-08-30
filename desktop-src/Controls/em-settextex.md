@@ -3,7 +3,7 @@ title: Message EM_SETTEXTEX (RichEdit. h)
 description: Combine les fonctionnalités des messages WM \_ SETTEXT et em \_ REPLACESEL et ajoute la possibilité de définir du texte à l’aide d’une page de codes et d’utiliser du texte enrichi ou du texte brut.
 ms.assetid: 1ba9e4c0-7870-4057-8a8b-d0e6577349ac
 keywords:
-- EM_SETTEXTEX les contrôles de message Windows
+- EM_SETTEXTEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfdd7dece965f70fe41d40edf44d365795d44fc4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1227e88fc489c274a5c1b194aa79b4b031ad5f0c07bab4110e5b28b3c7cffbf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048039"
 ---
 # <a name="em_settextex-message"></a>\_Message SETTEXTEX em
 
@@ -57,8 +57,8 @@ Si l’opération échoue, la valeur de retour est zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

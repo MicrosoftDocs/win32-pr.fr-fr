@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: d29db08f16766f52be6fa223920956b7cca58768
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a340e0a104c9153b29bf45818bc6e3f87187447404cc8d01f9f7fef16324430
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917959"
 ---
 # <a name="id2d1geometrygetwidenedbounds-methods"></a>ID2D1Geometry :: GetWidenedBounds, méthodes
 

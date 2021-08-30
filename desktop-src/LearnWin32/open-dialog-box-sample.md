@@ -1,23 +1,23 @@
 ---
 title: Ouvrir l’exemple de boîte de dialogue
-description: Cet exemple d’application montre comment initialiser la bibliothèque COM (Component Object Model) et utiliser une API COM dans un programme Windows.
+description: cet exemple d’application montre comment initialiser la bibliothèque com (component Object Model) et utiliser une API com dans un programme Windows.
 ms.assetid: 7ff18d1f-a953-4a0e-8295-4d5e1df937e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b8831554d9a2e6fd925aff2c603e1dbfe19d3aa
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: 67914f39ce6a2c1b5c1a805b44551b2c28e0d8f459b0139f220f08e647604f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104568183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913709"
 ---
 # <a name="open-dialog-box-sample"></a>Ouvrir l’exemple de boîte de dialogue
 
-Cet exemple d’application montre comment initialiser la bibliothèque COM (Component Object Model) et utiliser une API COM dans un programme Windows.
+cet exemple d’application montre comment initialiser la bibliothèque com (component Object Model) et utiliser une API com dans un programme Windows.
 
 ## <a name="description"></a>Description
 
-L’exemple d’application ouvrir la boîte de dialogue affiche la boîte de dialogue **ouvrir** , comme indiqué dans la capture d’écran ci-dessous. L’exemple montre comment appeler un objet COM dans un programme Windows. Cet exemple est abordé dans [le module 2 : utilisation de com dans votre programme Windows](module-2--using-com-in-your-windows-program.md).
+L’exemple d’application ouvrir la boîte de dialogue affiche la boîte de dialogue **ouvrir** , comme indiqué dans la capture d’écran ci-dessous. l’exemple montre comment appeler un objet COM dans un programme Windows. cet exemple est abordé dans [le Module 2 : utilisation de COM dans votre programme Windows](module-2--using-com-in-your-windows-program.md).
 
 ![capture d’écran montrant la boîte de dialogue Ouvrir.](images/fileopen01.png)
 
@@ -28,5 +28,5 @@ Cet exemple est disponible [ici](https://github.com/microsoft/Windows-classic-sa
 ## <a name="related-topics"></a>Rubriques connexes
 
 * [Exemple : la boîte de dialogue Ouvrir](example--the-open-dialog-box.md)
-* [Apprendre à programmer pour Windows : exemple de code](learn-to-program-for-windows--sample-code.md)
+* [apprendre à programmer pour Windows : exemple de Code](learn-to-program-for-windows--sample-code.md)
 * [Module 2 : utilisation de COM dans votre programme Windows](module-2--using-com-in-your-windows-program.md)

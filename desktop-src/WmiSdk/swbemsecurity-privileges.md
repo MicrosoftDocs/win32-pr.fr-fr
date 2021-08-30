@@ -1,5 +1,5 @@
 ---
-description: La propriété Privileges est un objet SWbemPrivilegeSet. Cette propriété est utilisée pour activer ou désactiver des privilèges Windows spécifiques. Vous devrez peut-être définir l’un de ces privilèges pour effectuer des tâches spécifiques à l’aide de l’API Windows Management Instrumentation (WMI).
+description: La propriété Privileges est un objet SWbemPrivilegeSet. cette propriété est utilisée pour activer ou désactiver des privilèges de Windows spécifiques. vous devrez peut-être définir l’un de ces privilèges pour effectuer des tâches spécifiques à l’aide de l’API Windows Management Instrumentation (WMI).
 ms.assetid: 6e4cae22-23d6-4981-b38c-d298654e59ab
 ms.tgt_platform: multiple
 title: SWbemSecurity. Privileges, propriété (wbemdisp. h)
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6fd8e1c0f9b6667b49d0956bcea5ac9e187443d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4b2ca68f0377616d693c677281b90f2e4650fcacc941e205e1732ae5a91e4b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897499"
 ---
 # <a name="swbemsecurityprivileges-property"></a>SWbemSecurity. Privileges, propriété
 
-La propriété **Privileges** est un objet [**SWbemPrivilegeSet**](swbemprivilegeset.md) . Cette propriété est utilisée pour activer ou désactiver des privilèges Windows spécifiques. Vous devrez peut-être définir l’un de ces privilèges pour effectuer des tâches spécifiques à l’aide de l’API Windows Management Instrumentation (WMI).
+La propriété **Privileges** est un objet [**SWbemPrivilegeSet**](swbemprivilegeset.md) . cette propriété est utilisée pour activer ou désactiver des privilèges de Windows spécifiques. vous devrez peut-être définir l’un de ces privilèges pour effectuer des tâches spécifiques à l’aide de l’API Windows Management Instrumentation (WMI).
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -42,13 +42,13 @@ SWbemSecurity.Privileges As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce paramètre vous permet d’accorder ou de révoquer des privilèges dans le cadre d’une chaîne de moniker WMI. Pour obtenir la liste complète des valeurs applicables, consultez [**WbemPrivilegeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) et [**constantes de privilège**](privilege-constants.md).
 
 Vous pouvez modifier les privilèges définis pour les objets [**SWbemServices**](swbemservices.md), [**SWbemObject**](swbemobject.md), [**SWbemObjectSet**](swbemobjectset.md), [**SWbemObjectPath**](swbemobjectpath.md)et [**SwbemLocator**](swbemlocator.md) en ajoutant des objets [**SWbemPrivilege**](swbemprivilege.md) à la propriété **Privileges** .
 
-Il existe des différences fondamentales dans la façon dont les différentes versions de Windows gèrent les modifications des privilèges. Si vous développez une application qui est utilisée uniquement sur des plateformes Windows, vous pouvez définir ou révoquer des privilèges à tout moment.
+il existe des différences fondamentales dans la façon dont les différentes versions de Windows gèrent les modifications apportées aux privilèges. si vous développez une application qui est utilisée uniquement sur des plates-formes Windows, vous pouvez définir ou révoquer des privilèges à tout moment.
 
 L’exemple suivant définit **SeDebugPrivilege** sur la connexion initiale du moniker pour obtenir un objet [**SWbemServices**](swbemservices.md) .
 

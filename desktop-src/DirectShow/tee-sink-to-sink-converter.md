@@ -4,12 +4,12 @@ ms.assetid: 8ee5e20c-f37a-4a9b-9382-2ed94333c6ec
 title: Convertisseur de tee/récepteur à récepteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cf85e3eb58f601273ff352a3878d352ca0f0d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f3b1639572dc4809df4b326fabeac613bbb1b38b9392b32e1c1f54f717a0f44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050009"
 ---
 # <a name="teesink-to-sink-converter"></a>Convertisseur de tee/récepteur à récepteur
 
@@ -23,7 +23,7 @@ Le convertisseur de tee/Sink-to-Sink apparaît dans la catégorie de filtre « 
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: bc77e07231d086f15086662d60581d4c5992bf5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85f3cf97175b28750408d28a6e164f8aaa5fe71ec18bb89fff8e5c4583fb85cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041939"
 ---
 # <a name="recordreadstream-method"></a>Record. ReadStream, méthode
 
@@ -79,7 +79,7 @@ Interprétation et retour requis des octets de données.
 
 Cette méthode retourne une chaîne qui contient le nombre demandé d’octets lus à partir d’un champ d’enregistrement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur retournée d’un champ inexistant est une valeur vide. Si le flux a moins d’octets que le nombre demandé, la chaîne retournée est raccourcie de manière appropriée.
 

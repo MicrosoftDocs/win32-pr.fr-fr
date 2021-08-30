@@ -4,12 +4,12 @@ description: Référence du contrôle SysLink
 ms.assetid: a0f7fc19-408c-4e94-a55f-91556ff34036
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e8b63f64228993ac7b3423bed103137ed5c3743
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b83abe5f266cf5d032eca7c6357cb002f5ba9fd522b479b0635b47c04f745a62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969499"
 ---
 # <a name="syslink-control-reference"></a>Référence du contrôle SysLink
 

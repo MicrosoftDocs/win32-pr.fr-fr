@@ -1,19 +1,19 @@
 ---
-description: Vue d’ensemble du Data Flow dans DirectShow
+description: vue d’ensemble des Flow de données dans DirectShow
 ms.assetid: a1b30592-5106-44f5-8ee0-577573670167
-title: Vue d’ensemble du Data Flow dans DirectShow
+title: vue d’ensemble des Flow de données dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b5a34444991d6cba62026935f5ec2d7aa4eba77
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72b755b9472690913cf8a53d2c7a8575111e336e54a81835438aa8cc9e959ed5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107641"
 ---
-# <a name="overview-of-data-flow-in-directshow"></a>Vue d’ensemble du Data Flow dans DirectShow
+# <a name="overview-of-data-flow-in-directshow"></a>vue d’ensemble des Flow de données dans DirectShow
 
-Cette section fournit une vue d’ensemble générale du fonctionnement du workflow dans DirectShow. Vous trouverez plus d’informations dans d’autres sections de la documentation.
+Cette section fournit une vue d’ensemble générale du fonctionnement du workflow de données dans DirectShow. Vous trouverez plus d’informations dans d’autres sections de la documentation.
 
 Les données sont conservées dans des mémoires tampons, qui sont simplement des tableaux d’octets. Chaque mémoire tampon est encapsulée par un objet COM appelé *exemple de média*, qui implémente l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) . Les exemples sont créés par un autre type d’objet, appelé Allocator, qui implémente l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) . Un allocateur est attribué pour chaque connexion de code confidentiel, bien que deux connexions de code confidentiel ou plus peuvent partager le même allocateur. L’illustration suivante montre ce processus.
 
@@ -37,7 +37,7 @@ Quand le convertisseur libère son exemple, l’appel en attente du décodeur à
 
 <dl> <dt>
 
-[Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md)
+[données Flow dans le filtre Graph](data-flow-in-the-filter-graph.md)
 </dt> </dl>
 
  

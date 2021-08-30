@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b4e18fc2bb8c62bb86947b9eab35daae9d0242ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b28c80d20297e0ff0d4c3027424940067e4c447b388a5294d7a40bd52a290af9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989669"
 ---
 # <a name="d3dxvec2transformnormalarray-function-d3dx10mathh"></a>D3DXVec2TransformNormalArray, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointeur vers une structure D3DXVECTOR2 qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme le vecteur (pV->x, pV->y, 0, 0) par la matrice désignée par pM.
 

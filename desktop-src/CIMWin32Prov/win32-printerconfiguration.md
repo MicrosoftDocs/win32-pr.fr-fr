@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1927144484dbf427358735fc9d8ed66da56f3d8d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6fccf35ec4cfc075d91daee4c2db6b6f23617d1cd2b8b4b6b249df6bfa5dec2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971879"
 ---
 # <a name="win32_printerconfiguration-class"></a>\_Classe PrinterConfiguration Win32
 
@@ -162,7 +162,7 @@ Cette propriété est ignorée sauf si le pilote d’imprimante indique la prise
 
 </dd> <dt>
 
-**Color**
+**Couleur**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt32**
@@ -349,7 +349,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Numéro de version du pilote d’imprimante Windows. Les numéros de version sont créés et gérés par le fabricant du pilote.
+numéro de Version du pilote d’imprimante basé sur Windows. Les numéros de version sont créés et gérés par le fabricant du pilote.
 
 </dd> <dt>
 
@@ -404,7 +404,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Valeur spécifique de l’une des trois méthodes de correspondance des couleurs possibles (appelées intentions) qui doit être utilisée par défaut. Les applications ICM établissent des intentions à l’aide des fonctions ICM. Cette propriété peut supposer des valeurs prédéfinies de 1 à 3, ou des valeurs définies par le pilote, comprises entre 4 et 256. Les applications non-ICM peuvent utiliser cette valeur pour déterminer comment l’imprimante gère les travaux d’impression couleur.
+Valeur spécifique de l’une des trois méthodes de correspondance des couleurs possibles (appelées intentions) qui doit être utilisée par défaut. ICM applications établissent des intentions à l’aide des fonctions ICM. Cette propriété peut supposer des valeurs prédéfinies de 1 à 3, ou des valeurs définies par le pilote, comprises entre 4 et 256. les applications Non-ICM peuvent utiliser cette valeur pour déterminer comment l’imprimante gère les travaux d’impression couleur.
 
 <dt>
 
@@ -452,7 +452,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Mode de gestion de l’ICM. Pour une application non-ICM, cette propriété détermine si ICM est activé ou désactivé. Pour les applications ICM, le système examine cette propriété pour déterminer quelle partie du système d’ordinateur gère la prise en charge d’ICM.
+mode de gestion de ICM. pour une application non ICM, cette propriété détermine si ICM est activé ou désactivé. pour les applications ICM, le système examine cette propriété pour déterminer quelle partie du système de l’ordinateur gère la prise en charge de ICM.
 
 <dt>
 
@@ -744,7 +744,7 @@ Faible
 
 </dt> <dd>
 
-Moyenne
+Moyen
 
 </dd> <dt>
 
@@ -761,7 +761,7 @@ Moyenne
 
 </dd> <dt>
 
-**Mise à l’échelle**
+**Mettre à l'échelle**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt32**
@@ -804,7 +804,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Numéro de version des données d’initialisation pour l’appareil associé à l’imprimante Windows.
+numéro de Version des données d’initialisation pour l’appareil associé à l’imprimante Windows.
 
 </dd> <dt>
 
@@ -850,7 +850,7 @@ Télécharge les polices TrueType en tant que polices logicielles. Il s’agit d
 
 </dt> <dd>
 
-Remplace les polices de l’appareil par des polices TrueType. Il s’agit de l’action par défaut pour les imprimantes PostScript.
+Remplace les polices de l’appareil par des polices TrueType. il s’agit de l’action par défaut pour les imprimantes PostScript.
 
 </dd> </dl>
 
@@ -904,11 +904,11 @@ Cette propriété est obsolète. Utilisez plutôt la propriété **VerticalResol
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PrinterConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 Avant de pouvoir déterminer comment distribuer et utiliser au mieux vos ressources d’impression, vous devez avoir une connaissance détaillée de ces ressources. Par exemple, le service A peut avoir seulement trois imprimantes par rapport à cinq imprimantes dans le département B. Toutefois, si les imprimantes du service A peuvent imprimer 20 pages par minute et que les imprimantes du département B peuvent imprimer seulement 5 pages par minute, les utilisateurs du service A ont en fait davantage de capacité d’impression. Sans connaître les fonctionnalités détaillées de ces imprimantes, vous pouvez conclure par erreur que le service A est limité à la capacité d’impression et, par conséquent, acheter des imprimantes supplémentaires qui finissent par ne plus être utilisées.
 

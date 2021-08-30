@@ -3,7 +3,7 @@ title: Message EM_EXGETSEL (RichEdit. h)
 description: Récupère les positions des caractères de début et de fin de la sélection dans un contrôle RichEdit.
 ms.assetid: 60fcf13e-6c45-4f4e-9b54-70f0985122fb
 keywords:
-- EM_EXGETSEL les contrôles de message Windows
+- EM_EXGETSEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b97fb43a76f0f8ac91dd16c0cfa5700c5431eb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eec9656c4d94dbb8d9a92e90ce689f356bb7916151099d7d82ae8b3e3b3ccd5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915819"
 ---
 # <a name="em_exgetsel-message"></a>\_Message EXGETSEL em
 
@@ -53,8 +53,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1da55a57faac201a2dbf0ef4d8a9774157d9215d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab737bb74b687854d0d45469a9e2784389c9e5a09dafedaab91c739415d448b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044094"
 ---
 # <a name="cbasereferenceclock-class"></a>CBaseReferenceClock, classe
 
@@ -57,7 +57,7 @@ La `CBaseReferenceClock` classe implémente une horloge de référence.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe implémente une horloge de référence qui prend en charge les interfaces [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock) et [**IReferenceClockTimerControl**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclocktimercontrol) . Si un filtre peut fournir une horloge de référence pour le graphique de filtre, par exemple, en accédant à un périphérique matériel, il peut utiliser cette classe pour implémenter l’horloge.
 
@@ -90,7 +90,7 @@ Cette classe utilise un objet [**CAMSchedule**](camschedule.md) pour gérer la p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Refclock. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Refclock. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

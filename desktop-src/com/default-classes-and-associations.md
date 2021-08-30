@@ -4,12 +4,12 @@ description: Pour certaines catégories, une seule classe peut être associée e
 ms.assetid: 9c48615b-ab10-44e4-a032-49d5ee0c9b01
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 871c537535c57da0809effbe3ee8ec086a88fd5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e63eaa99d4f35c5a7f2451da2c5d9becb38e5af2dcf18aa71cf980e7446e1997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993419"
 ---
 # <a name="default-classes-and-associations"></a>Classes et associations par défaut
 
@@ -19,9 +19,9 @@ Pour associer une classe par défaut à une catégorie, introduisez une clé CLS
 
 ```
 HKEY_CLASSES_ROOT\CLSID
-   {catid}
-      TreatAs
-          = default clsid
+   {catid}
+      TreatAs
+          = default clsid
 ```
 
 Pendant l’installation, un composant peut vérifier l’existence de toutes les clés de classe par défaut pour ses catégories et présenter à l’utilisateur les options permettant de remplacer les paramètres actuels.
@@ -45,9 +45,9 @@ Pendant l’installation, un composant peut vérifier l’existence de toutes le
 [Gestionnaire de catégories de composants](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

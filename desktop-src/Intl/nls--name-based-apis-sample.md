@@ -4,12 +4,12 @@ ms.assetid: 0502dba0-a26f-4238-b68e-bb41ef17ff08
 title: 'NLS : exemple d’API basées sur un nom'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd5acab078f06e345184769b5a472e6d2f307c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52c7f8e244c1d86a5beba6ea77f2b9f26baf6169a39484a436484e6a7ab0b2df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040809"
 ---
 # <a name="nls-name-based-apis-sample"></a>NLS : exemple d’API basées sur un nom
 
@@ -19,7 +19,7 @@ L’exemple d’application utilise [**EnumSystemLocalesEx**](/windows/desktop/a
 
 La fonction de rappel d’énumération prise en charge par l’application peut prendre un ou plusieurs noms de paramètres régionaux en tant que paramètres. [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) transmet ces noms à la fonction de rappel dans la valeur *lParam* facultative. Si l’utilisateur entre les paramètres régionaux sur la ligne de commande, la fonction de rappel affiche uniquement les paramètres régionaux spécifiés au lieu d’afficher tous les paramètres régionaux.
 
-Pour chaque paramètre régional affiché, la fonction de rappel indique s’il s’agit des paramètres régionaux système, imprime la date actuelle à l’aide des formats par défaut des paramètres régionaux et affiche toutes les données des paramètres régionaux dans chaque [constante d’informations de paramètres régionaux](locale-information-constants.md) introduite dans Windows Vista, par exemple, [paramètres régionaux \_ SSCRIPTS](locale-sscripts.md).
+pour chaque paramètre régional affiché, la fonction de rappel indique s’il s’agit des paramètres régionaux système, imprime la date actuelle à l’aide des formats par défaut des paramètres régionaux et affiche toutes les données des paramètres régionaux dans chaque [constante d’informations de paramètres régionaux](locale-information-constants.md) introduite dans Windows Vista, par exemple, [paramètres régionaux \_ SSCRIPTS](locale-sscripts.md).
 
 L’exemple d’application analyse tous les paramètres régionaux d’entrée pour voir s’ils sont valides à l’aide de [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename).
 

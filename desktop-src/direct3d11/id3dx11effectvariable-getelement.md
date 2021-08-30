@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a5b887bb9e4c1d40f4d3eb0d36b9a7b4d2698b5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a61bd208bb9dfecd861a0fd9e25a974da4daeb40fbcaad2316d677cb61f44315
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894589"
 ---
 # <a name="id3dx11effectvariablegetelement-method"></a>ID3DX11EffectVariable :: GetElement, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la variable d’effet est un tableau, utilisez cette méthode pour retourner l’un des éléments.
 
@@ -67,7 +67,7 @@ Si la variable d’effet est un tableau, utilisez cette méthode pour retourner 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ceb4f70b-1179-416a-9030-3d87341cb956
 title: Actions en cours d’exécution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ab566b90ec43a33f3e70b994b01446700e353b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf9e167144a620589bc6f0641d7344a2d31254cd003412e746a41759c1143506
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039649"
 ---
 # <a name="running-actions"></a>Actions en cours d’exécution
 

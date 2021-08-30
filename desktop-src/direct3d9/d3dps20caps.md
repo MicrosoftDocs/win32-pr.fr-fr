@@ -4,12 +4,12 @@ ms.assetid: 41a8939f-eba5-47ca-8628-94b606b6f43d
 title: D3DD3DPSHADERCAPS2_0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4eed8fb6c7a5c4c4da31185dc4cc8c1661f7109
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 4b7b3b23c75971b0940f61b7d8f8d4ae2f496389b7ed0895f56349407f687af2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894509"
 ---
 # <a name="d3dd3dpshadercaps2_0"></a>D3DD3DPSHADERCAPS2 \_ 0
 

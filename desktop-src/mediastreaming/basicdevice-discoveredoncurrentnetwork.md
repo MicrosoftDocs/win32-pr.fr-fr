@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f6d4662458aa9f2c4a75a55915f9c828ac625330
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 95f1623d6f626eb324f58211a14d38b827d153e5a534ccf437d801a23357d0e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939789"
 ---
 # <a name="basicdevicediscoveredoncurrentnetwork-property"></a>BasicDevice. DiscoveredOnCurrentNetwork, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_DiscoveredOnCurrentNetwork(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -50,6 +50,6 @@ Pointeur vers une valeur booléenne qui est **true** si l’appareil se trouve s
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

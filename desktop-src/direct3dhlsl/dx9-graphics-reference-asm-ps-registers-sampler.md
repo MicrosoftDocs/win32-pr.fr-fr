@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 77875eed0827ad6bcb6d89111b13b6a31232dd86
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: abf8887f229669273b26c9afeb036821842bf19311a752654ba1b5909d943090
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982839"
 ---
 # <a name="sampler-direct3d-9-asm-ps"></a>Échantillonneur (Direct3D 9 ASM-PS)
 
@@ -32,7 +32,7 @@ L’échantillonneur doit être déclaré avant d’être utilisé avec l’inst
 
 
 
- 
+ 
 
 Les échantillonneurs sont des Pseudo-registres, car vous ne pouvez pas les lire ou les écrire directement.
 
@@ -53,6 +53,6 @@ L’échantillonnage d’une texture avec une dimension supérieure à celle pr�
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

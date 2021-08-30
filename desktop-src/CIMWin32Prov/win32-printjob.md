@@ -1,5 +1,5 @@
 ---
-description: Représente un travail d’impression généré par une application Windows. Toute unité de travail générée par la commande d’impression d’une application exécutée sur un ordinateur qui exécute sur un système d’exploitation Windows est un descendant ou un membre de cette classe.
+description: représente un travail d’impression généré par une application Windows. toute unité de travail générée par la commande d’impression d’une application exécutée sur un ordinateur qui exécute sur un système d’exploitation Windows est un descendant ou un membre de cette classe.
 ms.assetid: d884acba-e1b2-4d24-9b55-15d175a163d9
 ms.tgt_platform: multiple
 title: Classe Win32_PrintJob
@@ -42,16 +42,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 10f56034161a9313eed1b7d302ab790d153c0ee6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 62a8f09d6b96e12d75b30c80e5553d3138bcb342f7ca06b53920d897aaa51c57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971849"
 ---
 # <a name="win32_printjob-class"></a>\_Classe PrintJob Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) **\_ PrintJob Win32** représente un travail d’impression généré par une application Windows. Toute unité de travail générée par la commande d’impression d’une application exécutée sur un ordinateur qui exécute sur un système d’exploitation Windows est un descendant ou un membre de cette classe.
+la [classe WMI](../wmisdk/retrieving-a-class.md) **\_ PrintJob Win32** représente un travail d’impression généré par une application Windows. toute unité de travail générée par la commande d’impression d’une application exécutée sur un ordinateur qui exécute sur un système d’exploitation Windows est un descendant ou un membre de cette classe.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -107,7 +107,7 @@ La **classe \_ PrintJob Win32** possède ces méthodes.
 | Méthode                                                  | Description                       |
 |:--------------------------------------------------------|:----------------------------------|
 | [**Suspendre**](pause-method-in-class-win32-printjob.md)   | Suspend un travail d’impression.<br/>    |
-| [**Sort**](resume-method-in-class-win32-printjob.md) | Poursuit un travail d’impression.<br/> |
+| [**Reprendre**](resume-method-in-class-win32-printjob.md) | Poursuit un travail d’impression.<br/> |
 
 
 
@@ -137,7 +137,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Color**
+**Couleur**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -169,7 +169,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Format des données pour ce travail d’impression. Cela indique au pilote d’imprimante de convertir les données (texte générique, PostScript ou PCL) avant l’impression, ou d’imprimer dans un format brut (pour les graphiques et les images).
+Format des données pour ce travail d’impression. cela indique au pilote d’imprimante de convertir les données (texte générique, PostScript ou PCL) avant l’impression, ou d’imprimer dans un format brut (pour les graphiques et les images).
 
 Exemple : « texte »
 
@@ -204,7 +204,7 @@ Type d'accès : Lecture seule
 
 Nom du travail d’impression. L’utilisateur voit ce nom lors de l’affichage des documents en attente d’impression.
 
-Exemple : « Microsoft Word-Review.doc »
+exemple : « Microsoft Word-Review.doc »
 
 </dd> <dt>
 
@@ -608,14 +608,14 @@ Suspendu
 2 (0X2)
 </dt> <dd>
 
-Error
+Erreur
 
 </dd> <dt>
 
 4 (0x4)
 </dt> <dd>
 
-Suppression
+En cours de suppression
 
 </dd> <dt>
 
@@ -727,7 +727,7 @@ Cette propriété est héritée de la [**\_ tâche CIM**](cim-job.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ PrintJob Win32** est dérivée de la [**\_ tâche CIM**](cim-job.md).
 

@@ -1,6 +1,6 @@
 ---
 description: Énumère le contenu de la liste des derniers fichiers utilisés. Récupère éventuellement un élément de l’énumération.
-title: EnumMRUListW fonction)
+title: EnumMRUListW, fonction
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-ms.openlocfilehash: 1e6e4bd0820d35fec2a108a81eb1030567493e6a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 668b92ad8e89c4b3a4082142c7eb8cdc722b8b2f4ce01827319c0480e0d2e997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942999"
 ---
-# <a name="enummrulistw-function"></a>EnumMRUListW fonction)
+# <a name="enummrulistw-function"></a>EnumMRUListW, fonction
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
 
 Énumère le contenu de la liste des derniers fichiers utilisés. Récupère éventuellement un élément de l’énumération.
 
@@ -81,7 +81,7 @@ Taille de la mémoire tampon, y compris le caractère null de fin. Si la liste M
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **int**
 
@@ -91,11 +91,11 @@ Retourne l’une des valeurs suivantes.
 -   Retourne-1 si une erreur s’est produite.
 -   Sinon, retourne la taille de la chaîne retournée dans *lpData*, y compris le caractère null de fin. Si la liste MRU a été créée avec l’indicateur **\_ binaire MRU** , il s’agit de la taille en octets. Dans le cas contraire, il s’agit de la taille en caractères.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’est pas incluse dans un en-tête public ou une bibliothèque. Il est accessible par le biais de [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) ou extrait de comctl32.dll par son ordinal, qui est 403 pour **EnumMRUListW**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

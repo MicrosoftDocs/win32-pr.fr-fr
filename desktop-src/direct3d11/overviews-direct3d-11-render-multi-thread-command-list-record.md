@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer et enregistrer une liste de co
 ms.assetid: f5b90dfb-0b07-432e-813b-1541efbe3de5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 712f48386e0625c58a1f11c122d105064477ca8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a4590d7e6a3a309b756bbac154a3240541f1b525a0dd877e13ba77badccff841
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894449"
 ---
 # <a name="how-to-record-a-command-list"></a>Comment : enregistrer une liste de commandes
 
@@ -68,9 +68,9 @@ Pour voir un exemple de lecture d’une liste de commandes, consultez [Comment 
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

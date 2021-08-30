@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 18178e6d9d7f1e684af1d4fe74336e1f2a02eedc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e1fcbc92ebfaa33728dce5cc730b1d3109ff71305ac70d934e1473299ed55ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980649"
 ---
 # <a name="cim_videoheadoncontroller-class"></a>\_Classe CIM VideoHeadOnController
 

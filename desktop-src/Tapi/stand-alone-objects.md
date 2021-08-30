@@ -4,12 +4,12 @@ ms.assetid: 090fa8e5-58a5-46ee-89a3-bd97fcfbf0f0
 title: Objets Stand-Alone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e71fdea9c7ed4b66f57c3c0fe35625f35656555e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0094f4409fc6f2ec52d505e29a2f09a2bcff872b159fbd3fafdf7c4ec56f8861
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991769"
 ---
 # <a name="stand-alone-objects"></a>Objets Stand-Alone
 
@@ -19,7 +19,7 @@ TAPI 3 implique un certain nombre d’objets qui sont indépendants de ses cinq 
 
 | Interface                                             | Description                                                                                                                                                                                                   |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)                  | Fournit des méthodes pour permettre aux applications clientes Automation telles que Visual Basic de récupérer des informations de collecte.                                                                                             |
+| [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)                  | fournit des méthodes pour permettre aux applications clientes Automation telles que Visual Basic de récupérer des informations de collecte.                                                                                             |
 | [**ITCollection2**](/windows/desktop/api/Tapi3if/nn-tapi3if-itcollection2)                | Étend [**ITCollection**](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection) en fournissant des méthodes supplémentaires pour la modification des collections.                                                                                                       |
 | [**IDispatch**](/previous-versions/windows/desktop/automat/implementing-the-idispatch-interface) | Interface COM standard pour l’implémentation de l’automatisation.                                                                                                                                                           |
 | [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)                         | Interface COM standard pour l’obtention de pointeurs vers des interfaces d’objet.                                                                                                                                             |

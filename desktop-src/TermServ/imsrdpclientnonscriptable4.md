@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientNonScriptable4
-description: Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface IMsRdpClientNonScriptable3.
+description: fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface IMsRdpClientNonScriptable3.
 ms.assetid: 570a5722-94b9-4195-846a-10233d56002d
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aedea56733a2a98db4b966bd91d9337e38e61d0d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a13f8c03bcb9570d6afa3cca94092d34ec739b25f4a3e4ac33a84ac6afc7a37b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990159"
 ---
 # <a name="imsrdpclientnonscriptable4-interface"></a>Interface IMsRdpClientNonScriptable4
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
 
 ## <a name="members"></a>Membres
 

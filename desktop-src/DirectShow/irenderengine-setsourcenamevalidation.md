@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 96164a817fd04f505b32c17be1bff3268e847df8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7dbf4fadf296b318c74dea19e957c6d33056a81952991aa0cab981674b370313
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042819"
 ---
 # <a name="irenderenginesetsourcenamevalidation-method"></a>IRenderEngine :: SetSourceNameValidation, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -76,14 +76,14 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                            | Description                                    |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie.<br/>                            |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Réussite.<br/>                            |
 | <dl> <dt>**E \_ doit \_ initialiser le \_ convertisseur**</dt> </dl> | Le moteur de rendu n’a pas pu s’initialiser.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À l’aide du paramètre *pOverride* , vous pouvez fournir votre propre implémentation personnalisée de l’interface [**IMediaLocator**](imedialocator.md) . Par exemple, le localisateur de média par défaut n’avertit pas une application des fichiers qu’elle trouve (ou ne peut pas trouver). Pour contourner cette limitation, vous pouvez implémenter un localisateur de média personnalisé, ce qui en fait un wrapper pour la version par défaut. Ensuite, transmettez [**IMediaLocator :: FindMediaFile**](imedialocator-findmediafile.md) appelle directement à la version par défaut et examinez la valeur de retour.
 
@@ -95,7 +95,7 @@ Actuellement, cette méthode ne valide pas les sources chargées dynamiquement. 
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

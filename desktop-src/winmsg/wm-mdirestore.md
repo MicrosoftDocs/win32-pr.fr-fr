@@ -4,12 +4,12 @@ ms.assetid: bb99fda1-9eb5-4307-9326-9a417a046c22
 title: Message WM_MDIRESTORE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc2cf36a0b428e1e9003682a5e766f613fd7ba81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bc9a8b4a414a1f987ad51b01f94c50b336adb8a32a298a83a1a3b9de8b0bd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110698"
 ---
 # <a name="wm_mdirestore-message"></a>\_Message WM MDIRESTORE
 

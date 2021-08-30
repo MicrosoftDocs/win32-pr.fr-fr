@@ -4,12 +4,12 @@ ms.assetid: 00e97d02-ff43-4e1f-9806-abaeb9288058
 title: Utilisation des effets et des transitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99029269ac86e17246fd641341b071654582bc4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7503ffd929689e0c53ac2c273faf0a635fc581ee540acf03e8db6ea9647a1912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982179"
 ---
 # <a name="working-with-effects-and-transitions"></a>Utilisation des effets et des transitions
 
@@ -17,9 +17,9 @@ ms.locfileid: "103953184"
 
 Les effets modifient une seule séquence, piste ou composition. Les transitions créent des seques à partir d’une piste ou d’un compositionsto.
 
-Les [services d’édition DirectShow](directshow-editing-services.md) utilisent des objets de transformation DirectX pour ses transitions vidéo et leurs effets vidéo. Pour les transitions vidéo, utilisez n’importe quel objet de transformation DirectX à deux entrées 2D. Pour les effets vidéo, utilisez n’importe quel objet de transformation DirectX à un entrée en 2D. Microsoft ne prend plus en charge le développement d’objets de transformation DirectX tiers. Toutefois, plusieurs sont fournis avec DirectShow et d’autres sont fournis avec Microsoft Internet Explorer. Pour plus d’informations sur les transitions fournies avec Internet Explorer, consultez informations de référence sur les [filtres visuels et les transitions](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms532853(v=vs.85)).
+[DirectShow Services d’édition](directshow-editing-services.md) utilise des objets de transformation DirectX pour ses transitions vidéo et ses effets vidéo. Pour les transitions vidéo, utilisez n’importe quel objet de transformation DirectX à deux entrées 2D. Pour les effets vidéo, utilisez n’importe quel objet de transformation DirectX à un entrée en 2D. Microsoft ne prend plus en charge le développement d’objets de transformation DirectX tiers. toutefois, plusieurs sont fournis avec DirectShow et d’autres sont fournis avec Microsoft Internet Explorer. Pour plus d’informations sur les transitions fournies avec Internet Explorer, consultez informations de référence sur les [filtres visuels et les transitions](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms532853(v=vs.85)).
 
-Pour les effets audio, vous pouvez utiliser n’importe quel filtre d’effet audio DirectShow. DES fournit également un [effet d’enveloppe de volume](volume-envelope-effect.md) pour la définition du volume sur une piste ou un clip. DES ne prend pas en charge les transitions audio.
+pour les effets audio, vous pouvez utiliser n’importe quel DirectShow filtre d’effet audio. DES fournit également un [effet d’enveloppe de volume](volume-envelope-effect.md) pour la définition du volume sur une piste ou un clip. DES ne prend pas en charge les transitions audio.
 
 Cette section contient les rubriques suivantes :
 
@@ -33,7 +33,7 @@ Cette section contient les rubriques suivantes :
 
 <dl> <dt>
 
-[Utilisation des services de modification DirectShow](using-directshow-editing-services.md)
+[utilisation des Services de modification DirectShow](using-directshow-editing-services.md)
 </dt> </dl>
 
  

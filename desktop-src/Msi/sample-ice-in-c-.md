@@ -4,12 +4,12 @@ ms.assetid: 7e580f6b-8adf-4b11-9072-5b2e1506fabb
 title: Exemple de code ICE en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91897d4d056052b27025c87f13105e2cc54657df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61c1ddf7dc4f2e650086ee99610a666636cdf5c9770e5979d39258fd746d48ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039579"
 ---
 # <a name="sample-ice-in-c"></a>Exemple de code ICE en C++
 

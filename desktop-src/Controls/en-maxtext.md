@@ -3,7 +3,7 @@ title: EN_MAXTEXT le code de notification (winuser. h)
 description: Envoyé lorsque l’insertion de texte actuelle a dépassé le nombre spécifié de caractères pour le contrôle d’édition.
 ms.assetid: b03835d6-d06f-415a-97f2-d2b62b17e175
 keywords:
-- Contrôles Windows de code de notification EN_MAXTEXT
+- EN_MAXTEXT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 454b48fb232f2225696efacc44d54660d3a83185
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8af5935c55460373a0f81007caf037a021fb627d71afd0736af97cd040b23d51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047619"
 ---
 # <a name="en_maxtext-notification-code"></a>\_Code de notification en MAXTEXT
 
@@ -59,7 +59,7 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre parente reçoit toujours un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) pour cet événement, elle ne nécessite pas de masque de notification envoyé avec [**em \_ SETEVENTMASK**](em-seteventmask.md).
 
@@ -71,8 +71,8 @@ La fenêtre parente reçoit toujours un message de [**\_ commande WM**](/windows
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Message EM_CANREDO (RichEdit. h)
 description: Détermine s’il existe des actions dans la file d’attente de restauration par progression des contrôles.
 ms.assetid: 4a76adc8-f815-4cf7-8742-b7695e5a0f64
 keywords:
-- EM_CANREDO les contrôles de message Windows
+- EM_CANREDO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccfb12f8e72bdf5321151cd3a70b74f322a46591
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d8898ba469d52e4098c2430dff5234a3522a6fbd3569bec823ff776a3f1c420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916049"
 ---
 # <a name="em_canredo-message"></a>Message de la \_ CANREDO em
 
@@ -49,7 +49,7 @@ S’il y a des actions dans la file d’attente de rétablissement des contrôle
 
 Si la file d’attente de restauration par progression est vide, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour rétablir l’opération d’annulation la plus récente, envoyez le message [**em \_ Redo**](em-redo.md) .
 
@@ -59,8 +59,8 @@ Pour rétablir l’opération d’annulation la plus récente, envoyez le messag
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

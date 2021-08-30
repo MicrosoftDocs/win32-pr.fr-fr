@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a81ac091dc1905c1cbcd2c41575c907ce957e60c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e99aa3e88a13327d7de133b8207ee9626db23a4cbbef9c9ffcaca5582d8e10d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111509"
 ---
 # <a name="ishelldispatch2getsysteminformation-method"></a>Méthode IShellDispatch2. GetSystemInformation
 
@@ -58,7 +58,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,7 +72,7 @@ Type : **variante**
 
 Retourne la valeur des informations système demandées. Le type de retour dépend des informations système demandées. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. GetSystemInformation**](./shell-getsysteminformation.md) .
 
@@ -122,21 +122,21 @@ PhysicalMemoryInstalled
 
 Quantité de mémoire physique installée, en octets.
 
-Les éléments suivants sont valides uniquement sur Windows XP.
+les éléments suivants sont valides uniquement sur Windows XP.
 
-Fichiers ISO \_ professionnel
+Fichiers ISO \_ Professional
 
 **Booléen**
 
-Définir sur **true** si le système d’exploitation est Windows XP Professionnel Edition ; Sinon, **false**.
+définir sur **true** si le système d’exploitation est Windows XP Professional Edition ; Sinon, **false**.
 
 Fichiers ISO \_ personnel
 
 **Booléen**
 
-Définir sur **true** si le système d’exploitation est Windows XP Édition personnelle ; Sinon, **false**.
+définir sur **true** si le système d’exploitation est Windows XP édition personnelle ; Sinon, **false**.
 
-Les éléments suivants sont valides uniquement sur Windows XP et versions ultérieures.
+les éléments suivants sont valides uniquement sur Windows XP et versions ultérieures.
 
 Fichiers ISO \_ MEMBRE_DOMAINE
 
@@ -152,9 +152,9 @@ Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **GetSystemInformation** pour JScript et VBScript.
+les exemples suivants illustrent l’utilisation de **GetSystemInformation** pour JScript et VBScript.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -199,8 +199,8 @@ VBScript
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

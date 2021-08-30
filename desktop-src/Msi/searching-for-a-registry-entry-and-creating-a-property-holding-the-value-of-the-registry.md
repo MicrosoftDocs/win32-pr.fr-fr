@@ -1,15 +1,15 @@
 ---
-description: Pendant une installation Windows Installer, le programme d’installation peut rechercher une entrée de Registre et créer une propriété contenant la valeur du Registre.
+description: pendant une installation Windows Installer, le programme d’installation peut rechercher une entrée de registre et créer une propriété contenant la valeur du registre.
 ms.assetid: 3a663fc7-cdcf-4ac3-8251-836ba0d3cc11
 title: Recherche d’une entrée de Registre et création d’une propriété contenant la valeur du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82bd7572c0176f4870eed199800715190d9bbbf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57a1d02c7c39b6de07ddc0e76d202420386ae2c55d3f70106cd88432a53ec854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041119"
 ---
 # <a name="searching-for-a-registry-entry-and-creating-a-property-holding-the-value-of-the-registry"></a>Recherche d’une entrée de Registre et création d’une propriété contenant la valeur du Registre
 

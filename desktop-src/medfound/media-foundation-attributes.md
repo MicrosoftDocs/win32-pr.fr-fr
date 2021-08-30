@@ -4,12 +4,12 @@ ms.assetid: 445fc879-3c9e-409d-8d05-ecd1ff9afc19
 title: Attributs Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29e9283562ef3cd5cc8e52e64f8cd4bfdbc8658d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe919b015e9fd9a30903b1a8d770689ab09216495facc6f9784feee5bc967ab1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941769"
 ---
 # <a name="media-foundation-attributes"></a>Attributs Media Foundation
 

@@ -4,12 +4,12 @@ description: Cette rubrique décrit une manière possible de répondre à la \_ 
 ms.assetid: 847DD645-AE29-4F62-BC32-F235BA409E1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a368dd28c5347f438feff75fbddb129a420caae7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ae037c5756257451bb560144609c1647a102d4a5a91bfec2b7c24aa9c6c980f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047219"
 ---
 # <a name="how-to-handle-the-bcn_dropdown-notification-from-a-split-button"></a>Gestion \_ de la notification de liste déroulante BCN à partir d’un bouton partagé
 
@@ -17,16 +17,16 @@ Cette rubrique décrit une manière possible de répondre à la notification de 
 
 L’application C++ récupère les coordonnées clientes du bouton à partir de l’en-tête de notification et les convertit en coordonnées d’écran. Il crée ensuite un menu contextuel et l’affiche en bas du bouton. Pour que l’exemple reste simple, les raccourcis clavier ne sont pas implémentés pour le menu.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -137,6 +137,6 @@ case WM_NOTIFY:
 [Button](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

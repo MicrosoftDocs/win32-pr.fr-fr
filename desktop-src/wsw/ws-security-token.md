@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_TOKEN
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d52e69a46f206f1def7cc2e7e2d03c2e5f1369f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9b577188e5dbd718de36703aec4602f9dcc94f28a74fa45f8f66af49ccdd5cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109659"
 ---
 # <a name="ws_security_token"></a>\_jeton de sécurité WS \_
 
@@ -24,7 +24,7 @@ typedef struct _WS_SECURITY_TOKEN WS_SECURITY_TOKEN;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
@@ -34,8 +34,8 @@ Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécur
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>WebServices. h</dt> </dl> |
 
 

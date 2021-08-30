@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntdddisk.h
-ms.openlocfilehash: dc4457af2ce6e7759ef879900803504933a09978
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cba83d8f850151e217460595f5f4fc8831b99ee5ee30fc0bb908c0ca04a9cdce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981969"
 ---
 # <a name="ioctl_disk_are_volumes_ready-control-code"></a>\_Le disque IOCTL \_ est un code de \_ \_ contrôle prêt pour les volumes
 
@@ -124,8 +124,8 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>NTDDDISK. h</dt> </dl> |
 
 

@@ -1,18 +1,18 @@
 ---
-title: Glossaire de l’infrastructure du ruban Windows
+title: Windows Glossaire du Framework du ruban
 description: Page de glossaire
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 6fb35475-3b65-43c8-acca-1ec6c36f01c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81160b3e6e97fb3e8ccfb679bcd103ed97dc53eb
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 40dab764b73f23844277fc950e340b709417ef5ead656527632b1edd3e4bfffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104314008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933169"
 ---
-# <a name="windows-ribbon-framework-glossary"></a>Glossaire de l’infrastructure du ruban Windows
+# <a name="windows-ribbon-framework-glossary"></a>Windows Glossaire du Framework du ruban
 
 ## <a name="g"></a>G
 
@@ -73,10 +73,10 @@ Ensemble d’indicateurs de disposition qui spécifient la taille et l’Organis
 
 <dl> <dt>
 
-**Afficher**
+**Visualiser**
 </dt> <dd>
 
-Conteneur de niveau supérieur qui héberge les contrôles de l’interface utilisateur du ruban Windows.
+conteneur de niveau supérieur qui héberge Windows contrôles d’interface utilisateur du ruban.
 
 </dd> </dl>
 
@@ -84,16 +84,16 @@ Conteneur de niveau supérieur qui héberge les contrôles de l’interface util
 
 <dl> <dt>
 
-**Infrastructure de ruban Windows (ruban)**
+**Windows Infrastructure du ruban (ruban)**
 </dt> <dd>
 
 Système de présentation de commande riche qui expose les principales fonctionnalités d’une application par le biais d’une barre de commandes en haut d’une fenêtre d’application.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,21 @@
 ---
-description: Le cas échéant, la bibliothèque DbgHelp a été étendue pour prendre en charge les fenêtres 32 et 64 bits.
+description: Le cas échéant, la bibliothèque DbgHelp a été étendue pour prendre en charge les Windows 32 et 64 bits.
 ms.assetid: 34ec8cd3-3260-441d-b55f-4ea21c736eb1
 title: Plateforme d'appui améliorée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a7b0b4f5e343c1dbfcbb0d9434a662553c93d67
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 44389b0b46782318b3f017fe1baf8c2c0580d6993f9de4dfaa9ece64feae8c17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912357"
 ---
 # <a name="updated-platform-support"></a>Plateforme d'appui améliorée
 
-Le cas échéant, la bibliothèque DbgHelp a été étendue pour prendre en charge les fenêtres 32 et 64 bits. Les définitions de fonction et de structure d’origine sont toujours dans DbgHelp. h, mais des versions mises à jour de ces définitions sont compatibles avec Windows 64 bits. Si vous utilisez les fonctions mises à jour dans votre code, elles peuvent être compilées pour les fenêtres 32 et 64 bits. Votre code sera également plus efficace, car les fonctions d’origine appellent simplement les fonctions mises à jour pour effectuer le travail.
+Le cas échéant, la bibliothèque DbgHelp a été étendue pour prendre en charge les Windows 32 et 64 bits. Les définitions de fonction et de structure d’origine sont toujours dans DbgHelp. h, mais des versions mises à jour de ces définitions sont compatibles avec la Windows 64 bits. Si vous utilisez les fonctions mises à jour dans votre code, elles peuvent être compilées pour les Windows 32 et 64 bits. Votre code sera également plus efficace, car les fonctions d’origine appellent simplement les fonctions mises à jour pour effectuer le travail.
 
-Par exemple, DbgHelp. h contient des définitions pour **SymUnloadModule** (fonction d’origine) et **SymUnloadModule64** (fonction mise à jour). Ces définitions sont presque identiques, mais utilisent des types différents pour le paramètre *BaseOfDll* . (**SymUnloadModule** utilise le type **DWORD** , tandis que **SymUnloadModule64** utilise le type **DWORD64** .) Si vous écrivez votre code pour utiliser **SymUnloadModule64**, il peut être compilé pour les fenêtres 32 et 64 bits. Le code est également plus efficace que s’il s’agissait d’appeler **SymUnloadModule**.
+Par exemple, DbgHelp. h contient des définitions pour **SymUnloadModule** (fonction d’origine) et **SymUnloadModule64** (fonction mise à jour). Ces définitions sont presque identiques, mais utilisent des types différents pour le paramètre *BaseOfDll* . (**SymUnloadModule** utilise le type **DWORD** , tandis que **SymUnloadModule64** utilise le type **DWORD64** .) Si vous écrivez votre code pour utiliser **SymUnloadModule64**, il peut être compilé pour les Windows 32 et 64 bits. Le code est également plus efficace que s’il s’agissait d’appeler **SymUnloadModule**.
 
 La liste suivante répertorie les fonctions mises à jour :
 

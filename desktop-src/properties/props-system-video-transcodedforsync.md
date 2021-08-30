@@ -4,12 +4,12 @@ ms.assetid: B957A676-BC00-494c-A731-59237C98F5A5
 title: System. Video. TranscodedForSync
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4fa9801fe5a441b172725e7f0bbc05ecf7761f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a6d5df2d300c531d1c11fcf82aa099e0a30a194c209766720785986d3568741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944889"
 ---
 # <a name="systemvideotranscodedforsync"></a>System. Video. TranscodedForSync
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

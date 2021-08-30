@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Policy_Config01_ActiveXControls02
-description: Ce paramètre de stratégie détermine les sites d’installation ActiveX que les utilisateurs standard de votre organisation peuvent utiliser pour installer des contrôles ActiveX sur leurs ordinateurs.
+description: ce paramètre de stratégie détermine les sites d’installation ActiveX que les utilisateurs standard de votre organisation peuvent utiliser pour installer ActiveX contrôles sur leurs ordinateurs.
 ms.assetid: 242888ae-f07a-40b7-9539-29fcca9cfc40
 keywords:
 - Classe MDM_Policy_Config01_ActiveXControls02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 213edcea47bc0fd3379f753613c5b884963ca781
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef69cd2ad0de4e14b726d5a007273d098a69cd90522c25e5cec640de3f322d8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045719"
 ---
 # <a name="mdm_policy_config01_activexcontrols02-class"></a>\_Classe ActiveXControls02 de la stratégie MDM \_ Config01 \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-Ce paramètre de stratégie détermine les sites d’installation ActiveX que les utilisateurs standard de votre organisation peuvent utiliser pour installer des contrôles ActiveX sur leurs ordinateurs. Lorsque ce paramètre est activé, l’administrateur peut créer une liste des sites d’installation ActiveX approuvés spécifiés par l’URL de l’hôte.
+ce paramètre de stratégie détermine les sites d’installation ActiveX que les utilisateurs standard de votre organisation peuvent utiliser pour installer ActiveX contrôles sur leurs ordinateurs. Lorsque ce paramètre est activé, l’administrateur peut créer une liste des sites d’installation ActiveX approuvés spécifiés par l’URL de l’hôte.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -101,7 +101,7 @@ Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

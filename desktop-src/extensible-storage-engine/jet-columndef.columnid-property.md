@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1bffb512679d877a158d4acec576fc7dbd045054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c488dd2932c4126cb35fedc63528b53b622191c6af7b4d2cfdb3c75e72be92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968659"
 ---
 # <a name="jet_columndefcolumnid-property"></a>JET_COLUMNDEF. ColumnId, propriété
 

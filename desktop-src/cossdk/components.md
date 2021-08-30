@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f68013985beff427b5681c5b78c2c00df9e69263
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a532d9a9d4614fbaee880145ca35cb7654bf819e1d136dd971f93f55f3ec87e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991280"
 ---
 # <a name="components-collection"></a>Collection de composants
 
@@ -129,7 +129,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Représente le type de bits binaire d’un composant. Sur les systèmes qui utilisent Windows 64 bits, cette propriété permet de faire la distinction entre les composants 64 bits et les composants 32 bits. |
+| Description    | Représente le type de bits binaire d’un composant. sur les systèmes qui utilisent la Windows 64 bits, cette propriété permet de faire la distinction entre les composants 64 bits et les composants 32 bits. |
 | Accès         | Lecture seule                                                                                                                                                            |
 | Type           | Valeurs possibles longues : COMAdmin32BitComponent (0x1) COMAdmin64BitComponent (0X2)                                                                                       |
 | Default        | N/A                                                                                                                                                                 |
@@ -635,7 +635,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="synchronization"></a>Synchronization
+### <a name="synchronization"></a>Synchronisation
 
 
 

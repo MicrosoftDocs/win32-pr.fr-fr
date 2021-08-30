@@ -3,7 +3,7 @@ title: DrawTextExPrivWrap fonction)
 description: Dessine du texte mis en forme dans le rectangle spécifié. Cette fonction encapsule un appel à DrawTextEx.
 ms.assetid: 3212282c-1adb-4f7e-b4d7-7d833b26ac60
 keywords:
-- Contrôles Windows de la fonction DrawTextExPrivWrap
+- DrawTextExPrivWrap, fonction Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eba496a121af3ba88ed24ab6c9c7834c90153ec0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3381cd7aef94556cf80ddfc3ad828477e3a29c0fd57601ad27ff735d7b2f58f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916329"
 ---
 # <a name="drawtextexprivwrap-function"></a>DrawTextExPrivWrap fonction)
 
@@ -125,8 +125,8 @@ Pour des remarques supplémentaires, consultez [**DrawTextEx**](/windows/desktop
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 6,0 ou ultérieure)</dt> </dl> |
 
 

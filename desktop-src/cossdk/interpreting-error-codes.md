@@ -4,18 +4,18 @@ ms.assetid: df2fe03b-2f5f-4958-926f-17e3a025a9b5
 title: Interprétation des codes d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659ee7def9feff50d375a07ab201e1cca25bffd7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b5b15dfbfd183178132e6917aac04aab46c5ce90fac0fb59cdbb52cc30143159
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990879"
 ---
 # <a name="interpreting-error-codes"></a>Interprétation des codes d’erreur
 
 Une fois que vous avez déterminé quelle application est la source d’un problème, vous devez identifier l’erreur qui s’est produite. Les erreurs sont générées et signalées dans différents formats, selon le langage utilisé par votre application.
 
-Dans Microsoft Visual C++, les valeurs de réussite, d’avertissement et d’échec sont retournées à l’aide d’un nombre 32 bits connu sous le nom de **HRESULT**. Pour obtenir la liste des valeurs **HRESULT** définies par le système, consultez le fichier d’en-tête winerror. h inclus dans le SDK Windows. Ce fichier comprend tous les codes d’erreur et descriptions COM+. Pour plus d’informations sur les valeurs **HRESULT** , consultez [gestion des erreurs](/windows/desktop/com/error-handling-in-com).
+dans Microsoft Visual C++, les valeurs de réussite, d’avertissement et d’échec sont retournées à l’aide d’un nombre 32 bits connu sous le nom de **HRESULT**. pour obtenir la liste des valeurs **HRESULT** définies par le système, consultez le fichier d’en-tête Winerror. h inclus dans le SDK Windows. Ce fichier comprend tous les codes d’erreur et descriptions COM+. Pour plus d’informations sur les valeurs **HRESULT** , consultez [gestion des erreurs](/windows/desktop/com/error-handling-in-com).
 
 En langage Java, une instance de com. ms. com. ComFailException est levée pour indiquer un échec, où l’objet ComFailException spécifie un **HRESULT**. Une instance de com. ms. com. ComSuccessException indique la réussite avec une valeur de retour false. Pour plus d’informations sur l’interprétation de ces exceptions, consultez la documentation de Microsoft Visual J++.
 
@@ -24,9 +24,9 @@ En langage Java, une instance de com. ms. com. ComFailException est levée pour 
 
  
 
-Dans Visual Basic, vous pouvez récupérer des valeurs **HRESULT** en examinant la propriété Err. Number. Une description de l’erreur peut être récupérée à l’aide de la propriété Err. Description.
+dans Visual Basic, vous pouvez récupérer des valeurs **HRESULT** en examinant la propriété Err. Number. Une description de l’erreur peut être récupérée à l’aide de la propriété Err. Description.
 
-Vous pouvez également utiliser l’utilitaire ERRLOOK dans Microsoft Visual Studio pour récupérer un message d’erreur système ou un message d’erreur de module. ERRLOOK récupère le texte du message d’erreur automatiquement si vous glissez-déplacez une valeur hexadécimale ou décimale à partir du débogueur Visual Studio ou d’une autre application Automation. Vous pouvez également entrer une valeur en la tapant ou en la collant à partir du presse-papiers IDE et en cliquant sur l’option **Rechercher** .
+vous pouvez également utiliser l’utilitaire ERRLOOK dans Microsoft Visual Studio pour récupérer un message d’erreur système ou un message d’erreur de module. ERRLOOK récupère le texte du message d’erreur automatiquement si vous glissez-déplacez une valeur hexadécimale ou décimale à partir du débogueur Visual Studio ou d’une autre application Automation. Vous pouvez également entrer une valeur en la tapant ou en la collant à partir du presse-papiers IDE et en cliquant sur l’option **Rechercher** .
 
 La méthode C++ suivante imprime une description de l’erreur, en fonction de l’entrée **HRESULT**.
 

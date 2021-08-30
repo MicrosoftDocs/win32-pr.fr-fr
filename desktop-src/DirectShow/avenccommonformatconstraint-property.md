@@ -4,12 +4,12 @@ ms.assetid: 3d316561-352f-44f9-9978-01301a68e7b6
 title: Propriété AVEncCommonFormatConstraint (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71e79536959aaaa0c50403bdd79d005bd48c729e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2108255ca6f42596fe707c66b02e0e4dd38baa5b0f788073adff8cdb4677dd16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108680"
 ---
 # <a name="avenccommonformatconstraint-property"></a>Propriété AVEncCommonFormatConstraint
 
@@ -49,7 +49,7 @@ La valeur de cette propriété est un **BSTR** qui contient la représentation s
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications peuvent définir cette propriété pour spécifier le format cible. Les encodeurs peuvent également retourner cette propriété en tant que fonctionnalité.
 
@@ -59,8 +59,8 @@ Les applications peuvent définir cette propriété pour spécifier le format ci
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

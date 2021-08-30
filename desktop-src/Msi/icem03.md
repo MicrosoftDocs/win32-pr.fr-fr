@@ -4,12 +4,12 @@ ms.assetid: 8e2b5921-32cf-45e8-9906-30002574a712
 title: ICEM03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f368fa50a71153c41eebaa9ee5084449cf824993
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f061fbf63fa1874fef8764aee56b3e7caa41976a8280802041c54f088c663c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894609"
 ---
 # <a name="icem03"></a>ICEM03
 
@@ -17,7 +17,7 @@ ICEM03 vérifie que toutes les actions du module sont des actions de base ou qu�
 
 Le module de fusion CIEM est stocké dans un fichier de module de fusion. CUB appelé Mergemod. CUB et non dans le fichier. CUB contenant le CIEM utilisé pour la validation du package.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICEM03 publie les messages d’erreur pour un module contenant des actions dans une table de séquences qui n’est pas une action de base ou qui est dérivée d’une action de base valide.
 
@@ -38,7 +38,7 @@ valid base action.
 
 
 
-| Action  | Séquence | BaseAction | After | Condition |
+| Action  | Séquence | BaseAction | Après | Condition |
 |---------|----------|------------|-------|-----------|
 | Action1 |          | Action2    | 0     |           |
 | Action2 |          | Action1    | 0     |           |

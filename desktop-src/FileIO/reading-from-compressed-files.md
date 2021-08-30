@@ -4,12 +4,12 @@ ms.assetid: 9ceec1d4-37cd-4717-a731-dfb9cddb268c
 title: Lire à partir de fichiers compressés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c670e1ae473332451df72ddc394a234fa49e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca5ccc99aa20fc36f1055f22c01fbd4cab25337badeabbf34b02023889b7f3d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914499"
 ---
 # <a name="reading-from-compressed-files"></a>Lire à partir de fichiers compressés
 

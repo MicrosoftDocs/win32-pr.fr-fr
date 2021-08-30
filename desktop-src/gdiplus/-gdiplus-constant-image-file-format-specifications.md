@@ -4,12 +4,12 @@ ms.assetid: 659f5214-c43d-443d-9abc-62595766a3f7
 title: Spécifications des formats de fichiers image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 254bfb208d08968bb31f073c5e21fa3f5fcf175f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: c4776a485b21368ad1e9e229b26cc06f4f9f86c9313354f4f83d039d82ebdeaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943849"
 ---
 # <a name="image-file-format-specifications"></a>Spécifications des formats de fichiers image
 

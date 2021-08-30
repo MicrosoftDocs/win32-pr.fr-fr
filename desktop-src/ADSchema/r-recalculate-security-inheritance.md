@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e91310e4fad0cdc3d88c4b5af0c9aadb83a5ff
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d37db46bc3f2a952e0ea42bbab3480a2b8688a9ddeb16555c1c90b7dd22cb92a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922099"
 ---
 # <a name="recalculate-security-inheritance-extended-right"></a>Recalculer-sécurité-héritage-droit étendu
 
@@ -40,7 +40,7 @@ Droit étendu nécessaire pour forcer DS à recalculer l’héritage d’une lis
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

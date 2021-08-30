@@ -3,7 +3,7 @@ title: Message EM_SETOLECALLBACK (RichEdit. h)
 description: Fournit un contrôle Rich Edit à un objet IRichEditOleCallback que le contrôle utilise pour obtenir des ressources et des informations liées à OLE à partir du client.
 ms.assetid: bd1f8048-214c-4ac6-b826-bedabb1aaee5
 keywords:
-- EM_SETOLECALLBACK les contrôles de message Windows
+- EM_SETOLECALLBACK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edfc54db112bba42fc3d51b2e328fc7641990c7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9a7b16494bf0e34606809d5b4670a05d4ae3c60a6ea49c8103688c6e09676c98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048299"
 ---
 # <a name="em_setolecallback-message"></a>\_Message SETOLECALLBACK em
 
@@ -55,8 +55,8 @@ Si l’opération échoue, la valeur de retour est zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

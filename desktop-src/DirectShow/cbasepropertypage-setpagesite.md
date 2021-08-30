@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a165ff60971cef3d2373e0f07b2abee554308279
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5b3a58775a984fe0d9be69d33a5eee0d0e2af1b6f1bd609f399614bf99cdc3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916359"
 ---
 # <a name="cbasepropertypagesetpagesite-method"></a>Méthode CBasePropertyPage. SetPageSite
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                  | Description                    |
 |----------------------------------------------------------------------------------------------|--------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>            |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>            |
 | <dl> <dt>**E \_ inattendu**</dt> </dl> | Erreur inattendue.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode stocke le pointeur *pPageSite* dans la variable membre [**CBasePropertyPage :: m \_ pPageSite**](cbasepropertypage-m-ppagesite.md) .
 
@@ -74,7 +74,7 @@ La méthode stocke le pointeur *pPageSite* dans la variable membre [**CBasePrope
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

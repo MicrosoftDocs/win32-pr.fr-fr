@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e47283c962b377b70bc14efe998752d9009796df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 239af84466382d17c81edfae39378e384e8742138014f1429a59635be9633aa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919599"
 ---
 # <a name="cim_servicesapdependency-class-cimwin32-wmi-providers"></a>CIM_ServiceSAPDependency, classe (fournisseurs WMI CIMWin32)
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

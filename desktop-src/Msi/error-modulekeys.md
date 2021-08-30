@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 53d2ac37f8864318a83c13672c081ed5dea42b0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d33b546bea909700cc1a737043947d980006764daa86771820740570adf7f80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044599"
 ---
 # <a name="errormodulekeys-property"></a>Error. ModuleKeys, propriété
 
@@ -38,7 +38,7 @@ propVal = Error.ModuleKeys
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client est responsable de la libération de la collection de chaînes lorsqu’il n’est plus nécessaire.
 

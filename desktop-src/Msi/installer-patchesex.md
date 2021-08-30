@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e615a9d17dbf1a40332afc5b49b3c0c5446963ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3d5a2413b61d7f54ed26eefcf17e1a4cd7a98b9bc4dc485b11daf349343f0e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043658"
 ---
 # <a name="installerpatchesex-property"></a>Installer. PatchesEx, propriété
 
@@ -62,7 +62,7 @@ propVal = Installer.PatchesEx
 [**Correctif**](patch-object.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

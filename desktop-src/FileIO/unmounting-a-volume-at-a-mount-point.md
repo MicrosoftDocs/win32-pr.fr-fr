@@ -4,12 +4,12 @@ ms.assetid: 33049110-acf8-4db5-a9c4-bd4a884c8590
 title: Suppression d’un dossier monté
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b177aa2010d33b84aa98993d66952c50acb014e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a972e17decd2e923a2f789e1dd9156a07c2301d1ccecdaf55778b364b834cdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047749"
 ---
 # <a name="deleting-a-mounted-folder"></a>Suppression d’un dossier monté
 

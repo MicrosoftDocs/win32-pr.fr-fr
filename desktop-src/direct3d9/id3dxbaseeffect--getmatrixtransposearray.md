@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: c5f3709a31067b82e9752a9e97db6f3a2a323a19
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 98f3194ce2b57f533ab04e21a3b0e184ad9fe96af66704705880c08dd52b8e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893709"
 ---
 # <a name="id3dxbaseeffectgetmatrixtransposearray-method"></a>ID3DXBaseEffect :: GetMatrixTransposeArray, méthode
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une matrice transposée contient des données de colonne principales ; autrement dit, chaque vecteur est contenu dans une colonne.
 

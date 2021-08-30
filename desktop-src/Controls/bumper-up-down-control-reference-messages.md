@@ -4,12 +4,12 @@ description: Messages Up-Down
 ms.assetid: 5d21ee48-5182-4533-82e2-920cb3f028e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4094230faa9ee9c7563fdd914e3a06d90b52418a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5c5cab967d8a235175deb74ba7387d514ff8042c0a953e6b50a35fca3ce693c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106539416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968729"
 ---
 # <a name="up-down-messages"></a>Messages Up-Down
 

@@ -4,12 +4,12 @@ description: Le groupe de menus organise les commandes et les contrôles connexe
 ms.assetid: 5454f2a3-275b-47f4-ae97-d10dd12da5ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9862e78cbedf84b92c7540bec4de58288af5c9ef
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6f734b852df94bf953ccc8b89581da0253e070f33e9af6bec516dd4c923bd6f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933292"
 ---
 # <a name="menu-group"></a>Groupe de menus
 
@@ -115,13 +115,13 @@ La méthode de rappel [**IUICommandHandler :: UpdateProperty**](/windows/deskto
 > [!Note]  
 > Dans certains cas, une propriété peut être récupérée par le biais de la méthode [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et définie avec la méthode [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) .
 
- 
+ 
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle de groupe de menus.
 
 
 
-| Clé de propriété                                                                                     | Notes                                                                                                                                                                                                                         |
+| Clé de propriété                                                                                     | Remarques                                                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IU-au-dessus \_ \_ activé](windowsribbon-reference-properties-uipkey-enabled.md)                       | Prend en charge [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty). |
 | [KeyTip de l’interface utilisateur \_ \_](windowsribbon-reference-properties-uipkey-keytip.md)                         | Peut uniquement être mis à jour par le biais d’une invalidation.                                                                                                                                                                                     |
@@ -131,18 +131,18 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément de balisage MenuGroup**](windowsribbon-element-menugroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

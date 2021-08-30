@@ -1,19 +1,19 @@
 ---
-title: Bibliothèque de contrôles de l’infrastructure du ruban Windows
-description: Les rubriques contenues dans cette section décrivent l’ensemble des contrôles inclus avec l’infrastructure du ruban Windows. Les contrôles répertoriés ici sont les objets d’interface utilisateur d’un ruban qui exposent les fonctionnalités de commande.
+title: Windows Bibliothèque de contrôles de Framework du ruban
+description: les rubriques contenues dans cette section décrivent l’ensemble des contrôles inclus avec l’infrastructure de ruban Windows. Les contrôles répertoriés ici sont les objets d’interface utilisateur d’un ruban qui exposent les fonctionnalités de commande.
 ms.assetid: bda13e51-7e5f-4600-a6bd-9388bffd6ce2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 840b07bafe0c43cb7ab148a4413657b9722c409b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 065d69e52cee2300041eedd2d440d292a73e1dc46f5084545effc5e470bceee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933349"
 ---
-# <a name="windows-ribbon-framework-control-library"></a>Bibliothèque de contrôles de l’infrastructure du ruban Windows
+# <a name="windows-ribbon-framework-control-library"></a>Windows Bibliothèque de contrôles de Framework du ruban
 
-Les rubriques contenues dans cette section décrivent l’ensemble des contrôles inclus avec l’infrastructure du ruban Windows. Les contrôles répertoriés ici sont les objets d’interface utilisateur d’un ruban qui exposent les fonctionnalités de commande.
+les rubriques contenues dans cette section décrivent l’ensemble des contrôles inclus avec l’infrastructure de ruban Windows. Les contrôles répertoriés ici sont les objets d’interface utilisateur d’un ruban qui exposent les fonctionnalités de commande.
 
 -   [Introduction](#introduction)
 -   [Les contrôles](#windows-ribbon-framework-control-library)
@@ -43,7 +43,7 @@ Les contrôles de base se composent d’un ou de plusieurs boutons qui peuvent �
 > [!Note]  
 > Le [**compteur**](windowsribbon-element-spinner.md) est une exception, car il contient un contrôle d’édition.
 
- 
+ 
 
 Le tableau suivant répertorie les contrôles de base dans l’infrastructure du ruban.
 
@@ -52,14 +52,14 @@ Le tableau suivant répertorie les contrôles de base dans l’infrastructure du
 | Contrôler                                                  | Élément de balisage                                             |
 |----------------------------------------------------------|------------------------------------------------------------|
 | [Button](windowsribbon-controls-button.md)              | [**Bouton**](windowsribbon-element-button.md)             |
-| [Case à cocher](windowsribbon-controls-checkbox.md)         | [**CheckBox**](windowsribbon-element-checkbox.md)         |
+| [Case à cocher](windowsribbon-controls-checkbox.md)         | [**Activé**](windowsribbon-element-checkbox.md)         |
 | [Bouton aide](windowsribbon-controls-helpbutton.md)     | [**HelpButton**](windowsribbon-element-helpbutton.md)     |
 | [Spinner](windowsribbon-controls-spinner.md)            | [**Spinner**](windowsribbon-element-spinner.md)           |
 | [Bouton bascule](windowsribbon-controls-togglebutton.md) | [**ToggleButton**](windowsribbon-element-togglebutton.md) |
 
 
 
- 
+ 
 
 ### <a name="container-controls"></a>Contrôles de conteneur
 
@@ -94,7 +94,7 @@ Le tableau suivant décrit les contrôles de conteneur statiques dans l’infras
 
 
 
- 
+ 
 
 ### <a name="dynamic-containers"></a>Conteneurs dynamiques
 
@@ -117,7 +117,7 @@ Le tableau suivant répertorie les contrôles de conteneur dynamiques dans l’i
 
 
 
- 
+ 
 
 ### <a name="specialized-controls"></a>Contrôles spécialisés
 
@@ -134,7 +134,7 @@ Le tableau suivant répertorie les contrôles spécialisés dans l’infrastruct
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -143,6 +143,6 @@ Le tableau suivant répertorie les contrôles spécialisés dans l’infrastruct
 [Fonctionnement des commandes et des contrôles](windowsribbon-commandscontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

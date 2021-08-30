@@ -4,27 +4,27 @@ description: Pour créer des boutons de manière dynamique, vous utilisez la fon
 ms.assetid: A8C56D09-90A3-4C70-9907-61390521D1DA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dadc53f91f773e5fce9e29bdf1ae50cc59bfdfd
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: c4940016eaab8f64cd82f18579b31b13f2835ab8a0de00752eabfe81da316d6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920919"
 ---
 # <a name="how-to-create-a-button"></a>Comment créer un bouton
 
 Pour créer des boutons de manière dynamique, vous utilisez la fonction [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) ou [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) . Cette rubrique montre comment utiliser la fonction **CreateWindow** pour créer un bouton de commande par défaut.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

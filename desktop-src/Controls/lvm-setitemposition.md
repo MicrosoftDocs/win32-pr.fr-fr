@@ -3,7 +3,7 @@ title: Message LVM_SETITEMPOSITION (commctrl. h)
 description: Déplace un élément à une position spécifiée dans un contrôle List View (doit être en mode icône ou petite icône). Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetItemPosition.
 ms.assetid: dfb35af4-e6c3-40fc-9d7c-cf0d68a3ea01
 keywords:
-- LVM_SETITEMPOSITION les contrôles de message Windows
+- LVM_SETITEMPOSITION les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b95fcf2949f1e19677bd445c0f6c5f762db078d1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 111f961b668e13fa10fdfb00cdf430aba1bc9d0b1c0b04295e5777a46f5cb9a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915249"
 ---
 # <a name="lvm_setitemposition-message"></a>\_Message SETITEMPOSITION LVM
 
@@ -47,11 +47,11 @@ Index de l’élément de vue de liste.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle de vue de liste a le style de [**\_ réorganisation LVS**](list-view-window-styles.md) , les éléments du contrôle d’affichage de liste sont disposés après la définition de la position de l’élément.
 
-Sur Windows Vista, l’envoi de ce message à un contrôle List-View avec le style [**\_ AutoArrange LVS**](list-view-window-styles.md) ne fait rien, et la valeur de retour est **false**.
+sur Windows Vista, l’envoi de ce message à un contrôle list-view avec le style [**\_ autoarrange LVS**](list-view-window-styles.md) ne fait rien, et la valeur de retour est **false**.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -59,8 +59,8 @@ Sur Windows Vista, l’envoi de ce message à un contrôle List-View avec le sty
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

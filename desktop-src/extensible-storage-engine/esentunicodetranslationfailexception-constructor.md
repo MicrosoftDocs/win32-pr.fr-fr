@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3790caf98c20ef11929357c90b1083fd2c071eee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73ab83c64a6147507cdb4d215baa1feeb3a0cdf584d52f57bffa3a90e842aa3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969179"
 ---
 # <a name="esentunicodetranslationfailexception-constructor"></a>Constructeur EsentUnicodeTranslationFailException
 

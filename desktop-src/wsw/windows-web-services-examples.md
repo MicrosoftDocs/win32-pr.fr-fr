@@ -1,19 +1,19 @@
 ---
-title: Exemples de services Web Windows
-description: Les exemples suivants montrent comment utiliser l’API des services Web Windows.
+title: Windows Exemples de services Web
+description: les exemples suivants montrent comment utiliser Windows API de Services Web.
 ms.assetid: 8a557ef0-a88a-4257-a181-57f2dca9022f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e74aec03c4822fb9ba270076b5127dd37d145fb5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63e38dd32923336f63d5d5195fbae8c4ee8a3c20ce2d5568b8f7557aba34f340
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106521802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109749"
 ---
-# <a name="windows-web-services-examples"></a>Exemples de services Web Windows
+# <a name="windows-web-services-examples"></a>Windows Exemples de services Web
 
-Les exemples suivants montrent comment utiliser l’API des services Web Windows.
+les exemples suivants montrent comment utiliser Windows API de Services Web.
 
 -   [Exemples de modèle de service](service-model-examples.md)
 -   [Exemples de couche de canal TCP](tcp-channel-layer-examples.md)
@@ -122,9 +122,9 @@ Exemple qui illustre le modèle pour les fonctions asynchrones. [AsyncModelExamp
 
 ## <a name="security-channel-layer-examples"></a>Exemples de couche de canal de sécurité
 
-Sécurité de transport Windows sur TCP : client : [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).
+Windows la sécurité du transport via TCP : Client : [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).
 
-Sécurité de transport Windows sur les canaux nommés : client : [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md).
+Windows la sécurité de transport sur des canaux nommés : Client : [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md).
 
 Sécurité de transport SSL : client : [HttpClientWithSslExample](httpclientwithsslexample.md), serveur : [HttpServerWithSslExample](httpserverwithsslexample.md).
 
@@ -138,7 +138,7 @@ Les exemples suivants montrent comment traiter des documents WSDL et de stratég
 
 Nom d’utilisateur sur la sécurité SSL en mode mixte : [MetadataImportWithUsernameOverSslExample](metadataimportwithusernameoversslexample.md). Jeton émis sur la sécurité SSL en mode mixte : [MetadataImportWithIssuedTokenOverSslExample](metadataimportwithissuedtokenoversslexample.md). Certificat x509 sur la sécurité SSL en mode mixte : [MetadataImportWithX509OverSslExample](metadataimportwithx509oversslexample.md).
 
-## <a name="ws-metadata-exchange-example"></a>Exemple d’échange WS-Metadata
+## <a name="ws-metadata-exchange-example"></a>exemple de Exchange WS-Metadata
 
 Les exemples suivants montrent comment activer WS-MetadataExchange sur l' [ \_ \_ hôte WS service](ws-service-host.md).
 
@@ -156,15 +156,15 @@ Exemple complet qui montre comment implémenter un service de réplication de fi
 
 ## <a name="wcf-public-service-interoperation"></a>Interopérabilité du service public WCF
 
-Un client de services Web Windows communique avec un client de service WCF : [WcfPublicServiceSample](wcfpublicservicesample.md).
+un client de services Web Windows communique avec un client de service WCF : [WcfPublicServiceSample](wcfpublicservicesample.md).
 
 ## <a name="custom-http-proxy"></a>Proxy HTTP personnalisé
 
-Un client de services Web Windows communique avec un service ASMX TerraService à l’aide du client proxy personnalisé : [AsmxTerraServiceSampleWithCustomProxy](asmxterraservicesamplewithcustomproxy.md)
+un client de Services Web Windows communique avec un service ASMX TerraService à l’aide du client proxy personnalisé : [AsmxTerraServiceSampleWithCustomProxy](asmxterraservicesamplewithcustomproxy.md)
 
- 
+ 
 
- 
+ 
 
 
 

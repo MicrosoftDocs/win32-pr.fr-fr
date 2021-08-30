@@ -1,15 +1,15 @@
 ---
-description: Implémentez une page de propriétés dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.
+description: implémentez une page de propriétés dans le cadre de la création d’une page de propriétés de filtre pour un filtre de DirectShow personnalisé.
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: Étape 4. Créer la page de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d32cd9eacc98af5f273897a3837390ab5cc75f7a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b6cfc2847757e84eb7c59984a6f5042339d2d796562b92cbf7581a9ffb12b012
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107603"
 ---
 # <a name="step-4-create-the-property-page"></a>Étape 4. Créer la page de propriétés
 

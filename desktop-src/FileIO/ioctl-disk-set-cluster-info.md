@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntdddisk.h
-ms.openlocfilehash: 4ba0994dd1c9030e84c22e24b1eb4583eba7e3d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09aa5f228a1567cdccfac4faa67db8bd8209fc35ad68de174dcf9507c162d19a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107459"
 ---
 # <a name="ioctl_disk_set_cluster_info-control-code"></a>\_Code de \_ contrôle d' \_ informations de cluster IOCTL Disk Set \_
 
@@ -125,7 +125,7 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>NTDDDISK. h</dt> </dl> |
 
 
