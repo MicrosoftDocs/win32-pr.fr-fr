@@ -7,12 +7,12 @@ keywords:
 - Erreurs courantes AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c719aad39690932de51c58d0f8081a8c855980bd
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: ea02b1006cab476ca042a0026e66132af44cbaed
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104462675"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469246"
 ---
 # <a name="common-errors-ad-ds"></a>Erreurs courantes (AD DS)
 
@@ -20,40 +20,20 @@ Le tableau suivant contient une liste d’erreurs courantes qui peuvent se produ
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>HRESULT</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0x8007001F</td>
-<td>Échec général. Cette erreur se produit si vous tentez d’effectuer les opérations suivantes :
-<ul>
-<li>Ajoutez un groupe de domaine local à un groupe global ou universel ou à un groupe de domaine local dans un autre domaine. Les groupes locaux de domaine peuvent uniquement être ajoutés en tant que membres à d’autres groupes locaux de domaine dans le même domaine.</li>
-<li>Ajoutez un groupe universel à un groupe global. Les groupes universels peuvent être ajoutés à des groupes universels et locaux de domaine, mais pas à des groupes globaux.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>0x8007202F</td>
-<td><strong>ERROR_DS_CONSTRAINT_VIOLATION</strong>. Cette erreur se produit si vous tentez d’ajouter un groupe de sécurité à un autre groupe dans un domaine s’exécutant en mode mixte. Les groupes de sécurité ne peuvent pas être imbriqués en mode mixte ; les groupes de sécurité peuvent uniquement être imbriqués en mode natif.</td>
-</tr>
-</tbody>
-</table>
+
+| HRESULT | Description | 
+|---------|-------------|
+| 0x8007001F | Échec général. Cette erreur se produit si vous tentez d’effectuer les opérations suivantes :<ul><li>Ajoutez un groupe de domaine local à un groupe global ou universel ou à un groupe de domaine local dans un autre domaine. Les groupes locaux de domaine peuvent uniquement être ajoutés en tant que membres à d’autres groupes locaux de domaine dans le même domaine.</li><li>Ajoutez un groupe universel à un groupe global. Les groupes universels peuvent être ajoutés à des groupes universels et locaux de domaine, mais pas à des groupes globaux.</li></ul> | 
+| 0x8007202F | <strong>ERROR_DS_CONSTRAINT_VIOLATION</strong>. Cette erreur se produit si vous tentez d’ajouter un groupe de sécurité à un autre groupe dans un domaine s’exécutant en mode mixte. Les groupes de sécurité ne peuvent pas être imbriqués en mode mixte ; les groupes de sécurité peuvent uniquement être imbriqués en mode natif. | 
 
 
 
- 
 
- 
+ 
 
- 
+ 
+
+ 
 
 
 

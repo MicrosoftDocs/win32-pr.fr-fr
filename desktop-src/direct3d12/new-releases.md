@@ -1,18 +1,18 @@
 ---
-title: Nouveautés de Direct3D 12
+title: Nouveautés de Direct3D 12
 description: Cette rubrique décrit la nouvelle documentation Direct3D 12 la plus significative disponible pour les différentes versions.
 ms.assetid: 38F41E05-FECB-41DE-8D30-09733FBEAC48
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/05/2019
-ms.openlocfilehash: ec3ecc9e68fc4711def2c364793eca32804d8d04
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0ab45610eee3a2199fc91af639cee8175cc13030
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548485"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813091"
 ---
-# <a name="whats-new-in-direct3d-12"></a>Nouveautés de Direct3D 12
+# <a name="whats-new-in-direct3d-12"></a>Nouveautés de Direct3D 12
 
 Cette rubrique décrit la nouvelle documentation Direct3D 12 la plus significative disponible pour les différentes versions.
 
@@ -24,7 +24,7 @@ Pour plus d’informations sur l’obtention et l’installation de Direct3D, co
 
 ## <a name="windows-10-may-2019-update"></a>Mise à jour de Windows 10 de mai 2019
 
-Ces fonctionnalités et API ont été ajoutées ou mises à jour pour Windows 10, version 1903 (10,0 ; Build 18362) &mdash; également connu sous le nom de Windows 10 mai 2019 Update.
+ces fonctionnalités et api ont été ajoutées ou mises à jour pour Windows 10, version 1903 (10,0 ; Build 18362) &mdash; également connu sous le nom de Mise à jour de mai 2019 de Windows 10.
 
 - [VRS (variable-rate Shading)](./vrs.md). Vous permet d’allouer des performances de rendu/puissance à des vitesses qui varient d’un rendu à l’autre.
 - [Modèle de nuanceur HLSL 6,4](../direct3dhlsl/hlsl-shader-model-6-4-features-for-direct3d-12.md). Décrit les Machine Learning intrinsèques ajoutés au modèle de nuanceur HLSL 6,4.
@@ -47,14 +47,14 @@ L’énumération [**D3D12_RESOURCE_STATES**](/windows/win32/api/d3d12/ne-d3d12-
 
 ## <a name="windows-10-version-1809"></a>Windows 10, version 1809
 
-Ces fonctionnalités et API ont été ajoutées ou mises à jour pour Windows 10, version 1809 (10,0 ; Build 17763) &mdash; également connu sous le nom de Windows 10 octobre 2018 Update.
+ces fonctionnalités et api ont été ajoutées ou mises à jour pour Windows 10, version 1809 (10,0 ; Build 17763) &mdash; également connu sous le nom de Mise à jour d’octobre 2018 de Windows 10.
 
 - [Direct3D 12 Raytracing](./direct3d-12-raytracing.md)
 - [Passes de rendu Direct3D 12](./direct3d-12-render-passes.md)
 
 ## <a name="windows-10-version-1709"></a>Windows 10, version 1709
 
-Ces interfaces ont été ajoutées à la documentation Direct3D pour Windows 10, version 1709.
+ces interfaces ont été ajoutées à la documentation Direct3D pour Windows 10, version 1709.
 
 -   [**ID3D12Fence1**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence1) étend les fonctionnalités de création de clôtures en prenant en charge la récupération des indicateurs passés pour créer la clôture.
 -   [**ID3D12GraphicsCommandList2**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist2) étend la liste des commandes graphiques disponibles en prenant en charge l’écriture directe de valeurs immédiates dans une mémoire tampon.
@@ -66,7 +66,7 @@ L’énumération des [**\_ fonctionnalités D3D12**](/windows/win32/api/d3d12/n
 
 ## <a name="windows-10-version-1703"></a>Windows 10 version 1703
 
-Ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, version 1703.
+ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, version 1703.
 
 -   La méthode [**ID3D12Device2 :: CreatePipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) et la structure DESC du flux d' [**\_ \_ état \_ \_ du pipeline D3D12**](/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) représentent une méthode nouvelle et plus fiable pour créer des objets PSO et unifie les inteface pour la création de graphiques et de pipelines de calcul.
 -   La méthode [**ID3D12Device1 :: CreatePipelineLibrary1**](https://www.bing.com/search?q=**ID3D12Device1::CreatePipelineLibrary1**) développe l’interface de la bibliothèque de pipelines pour accepter les objets PSO créées avec la nouvelle structure d' [**État de \_ \_ \_ flux \_ de pipeline D3D12**](/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) unifiée.
@@ -89,7 +89,7 @@ Ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, 
 
 -   Révision des notes pour [**ID3D12GraphicsCommandList ::D iscardresource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource).
 -   Clarification de « l’état d’atténuation à commun » (voir [utilisation de barrières de ressources pour synchroniser les États des ressources dans Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)).
--   Le fichier d’en-tête D3dx12. h, référencé dans les [structures et fonctions d’assistance pour D3D12](helper-structures-and-functions-for-d3d12.md), peut être téléchargé directement à partir de [la bibliothèque d’assistance D3D12](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+-   Le fichier d’en-tête D3dx12. h, référencé dans les [structures et fonctions d’assistance pour D3D12](helper-structures-and-functions-for-d3d12.md), peut être téléchargé directement à partir de [la bibliothèque d’assistance D3D12](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 ## <a name="august-2016-documentation-update-2"></a>Documentation de 2016 août Update 2
 
@@ -104,7 +104,7 @@ Ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, 
 
 ## <a name="windows-10-version-1607"></a>Windows 10, version 1607
 
-Ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, version 1607.
+ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, version 1607.
 
 -   [Signature racine Version 1,1](root-signature-version-1-1.md) : vue d’ensemble des signatures racines mises à jour, ce qui permet aux applications de spécifier la façon dont les descripteurs statiques ou volatiles et les données sont, ce qui peut aider les optimisations des pilotes graphiques.
 -   La méthode [**ID3D12Device1 :: CreatePipelineLibrary**](/windows/win32/api/d3d12/nf-d3d12-id3d12device1-createpipelinelibrary) décrit les avantages de la création d’une bibliothèque de pipeline.
@@ -122,4 +122,4 @@ Ces rubriques ont été ajoutées à la documentation Direct3D pour Windows 10, 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+* [Guide de programmation de Direct3D 12](directx-12-programming-guide.md)

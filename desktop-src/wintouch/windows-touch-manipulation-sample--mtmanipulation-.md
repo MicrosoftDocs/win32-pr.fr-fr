@@ -1,29 +1,29 @@
 ---
-title: Exemple de manipulation tactile Windows (MTManipulation)
-description: Cette section décrit l’exemple de manipulation tactile Windows.
+title: Windows Exemple de manipulation tactile (MTManipulation)
+description: cette section décrit l’exemple de Manipulation tactile Windows.
 ms.assetid: 59b9279c-ffa3-42c3-a01f-3ea7aca8f235
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Tactile Windows, manipulations
-- Touch Windows, exemple de manipulation
+- Windows Toucher, exemple de code
+- Windows Toucher, manipulations
+- Windows Touch, exemple de manipulation
 - manipulations, exemple de code
 - manipulations, exemples de code
 - Manipulation, exemple
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: b93ac4d7cd6724d5475c919c74b90eaf106d2803
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3ec730f8bedfce20ea27b4cadc02ef56a9c444790e7e4e4748d1974cb61d28a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055872"
 ---
-# <a name="windows-touch-manipulation-sample-mtmanipulation"></a>Exemple de manipulation tactile Windows (MTManipulation)
+# <a name="windows-touch-manipulation-sample-mtmanipulation"></a>Windows Exemple de manipulation tactile (MTManipulation)
 
-Cette section décrit l’exemple de manipulation tactile Windows.
+cette section décrit l’exemple de Manipulation tactile Windows.
 
-L’exemple de manipulation tactile Windows montre comment traduire, faire pivoter et mettre à l’échelle un objet à l’aide de l’interface [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) et implémenter un récepteur d’événements [**_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) . La capture d’écran suivante montre comment l’exemple apparaît lorsqu’il est en cours d’exécution.
+l’exemple de Manipulation tactile Windows montre comment traduire, faire pivoter et mettre à l’échelle un objet à l’aide de l’interface [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) et implémenter un récepteur d’événements [**_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) . La capture d’écran suivante montre comment l’exemple apparaît lorsqu’il est en cours d’exécution.
 
 ![capture d’écran montrant l’exemple de manipulation tactile Windows, avec un rectangle blanc pivoté avec une rotation avec des lignes bleues tirées des angles opposés](images/mtmanipulation.png)
 
@@ -265,4 +265,4 @@ Une fois les points centraux, le facteur d’échelle et l’angle de rotation d
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Application de manipulation multipoint](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [exemple de manipulation et d’inertie](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [exemples tactiles Windows](windows-touch-samples.md)
+exemple d' [Application de manipulation multipoint](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [de manipulation et d’inertie](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [Windows exemples tactiles](windows-touch-samples.md)

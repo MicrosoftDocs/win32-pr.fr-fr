@@ -4,12 +4,12 @@ ms.assetid: 252c7180-61b1-485d-883d-36bf77357a29
 title: Concepts du distributeur de ressources COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f0fcf281d6d7b8ed0e087b6d77e4d686e28e1fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b7eda01fcffb8b7a9116a02ce405c5c93c02226dd7f28fa5ee191417f7f7a812
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096879"
 ---
 # <a name="com-resource-dispenser-concepts"></a>Concepts du distributeur de ressources COM+
 

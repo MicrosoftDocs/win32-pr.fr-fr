@@ -62,12 +62,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e8979b4e4842a4c84317b456802ed8f1beefea35
-ms.sourcegitcommit: 1d3c59a7066a75facc0565027251cad1ca1dd9c9
+ms.openlocfilehash: 5af63606dcdbc9fd355b739445f1b434b8903b21
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/18/2021
-ms.locfileid: "107594164"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623685"
 ---
 # <a name="semantics"></a>Sémantique
 
@@ -115,9 +115,9 @@ Ces sémantiques ont une signification lorsqu’elles sont attachées à un para
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -281,7 +281,7 @@ Lors de la migration de Direct3D 9 vers Direct3D 10 et versions ultérieures, vo
 
 ### <a name="user-clip-planes-in-hlsl"></a>Plans d’utilisateur en HLSL
 
-À compter de Windows 8, vous pouvez utiliser l’attribut de fonction **clipplanes** dans une [déclaration de fonction](dx-graphics-hlsl-function-syntax.md) HLSL plutôt que SV \_ ClipDistance pour que votre nuanceur fonctionne sur le niveau de [fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 x, ainsi que sur le niveau de \_ fonctionnalité 10 et ultérieur. Pour plus d’informations, consultez l' [image des plans d’utilisateur sur le matériel de niveau de fonctionnalité 9](./user-clip-planes-on-10level9.md).
+à partir de Windows 8, vous pouvez utiliser l’attribut de fonction **clipplanes** dans une [déclaration de fonction](dx-graphics-hlsl-function-syntax.md) HLSL plutôt que SV \_ ClipDistance pour que votre nuanceur fonctionne sur le niveau de [fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 x, ainsi que sur le niveau de \_ fonctionnalité 10 et supérieur. Pour plus d’informations, consultez l' [image des plans d’utilisateur sur le matériel de niveau de fonctionnalité 9](./user-clip-planes-on-10level9.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

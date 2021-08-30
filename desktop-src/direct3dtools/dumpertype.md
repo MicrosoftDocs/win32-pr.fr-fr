@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 04960536d04f393f69ca75432e4d36e66795255b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b08b1e4108d9d01ece2be9c7da053b3e15a88b9f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392823"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627575"
 ---
 # <a name="span-idvspixenginedumpertypespandumpertype-enumeration"></a><span id="vspixengine.dumpertype"></span>Énumération DUMPERTYPE
 
 Énumération utilisée pour indiquer le type de IGenericBufferDataRequest de mémoire tampon retourné.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -54,7 +54,7 @@ Valeur qui correspond à XML pour la fenêtre d’État.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

@@ -3,20 +3,20 @@ title: Utilisation de la gestion des couleurs sur Internet
 description: Les images de couleur et les graphiques sont un moyen de plus en plus important de communiquer des informations pour les utilisateurs d’Internet.
 ms.assetid: d4d922ec-0883-451a-98c1-94aae860ec6b
 keywords:
-- Windows Color System (WCS), problèmes Internet
-- WCS (système de couleurs Windows), problèmes Internet
+- Windows Système de couleurs (WCS), problèmes Internet
+- WCS (Windows Color System), problèmes Internet
 - gestion des couleurs des images, problèmes Internet
 - gestion des couleurs, problèmes Internet
 - couleurs, problèmes Internet
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f68963266f9c21ce4697a3526f7cecd455d2f2f
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 7c073f998f39a3767692471ef864ee30f0543446bcbeb8d91186e3cf77d2969c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106543546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090079"
 ---
 # <a name="using-color-management-on-the-internet"></a>Utilisation de la gestion des couleurs sur Internet
 

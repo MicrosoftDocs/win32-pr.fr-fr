@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6454b6080a4841ef261233ce304725ec4a08a1a793cfb657c87e20ef56592df0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1557190cf6afef34d234e5f8e3c7fe3f051f2b4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118647357"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881795"
 ---
 # <a name="cim_softwareelement-class-hyper-v-management"></a>Classe CIM_SoftwareElement (gestion Hyper-V)
 
@@ -1074,11 +1074,11 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. Logiciel de sous- \| composant DMTF \| 001,4»)
 </dt> </dl>
 
-Version du logiciel au format *<Major>* . *<Minor>* .*<Revision>* ou *<Major>* . *<Minor><letter><revision>*
+Version du logiciel au format *&lt; majeur &gt;*.*&lt; Mineure &gt;*. *&lt; Révision &gt;* ou *&lt; majeure &gt;**. &lt; &gt; &lt; &gt; &lt; Révision &gt; de la lettre mineure*.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

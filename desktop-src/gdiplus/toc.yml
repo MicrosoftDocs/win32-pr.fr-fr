@@ -15,7 +15,7 @@
               href: '-gdiplus-the-three-parts-of-gdi--about.md'
             - name: Structure de l’interface basée sur une classe
               href: '-gdiplus-the-structure-of-the-class-based-interface-about.md'
-        - name: Nouveautés de GDI+
+        - name: "Quelles sont les nouveautés de GDI+\_?"
           href: '-gdiplus-what-s-new-in-gdi--about.md'
           items:
             - name: Nouvelles fonctionnalités
@@ -45,7 +45,7 @@
               href: '-gdiplus-open-and-closed-curves-about.md'
             - name: Régions
               href: '-gdiplus-regions-about.md'
-            - name: Portion
+            - name: Découpage
               href: '-gdiplus-clipping-about.md'
             - name: Aplatissement des chemins
               href: '-gdiplus-flattening-paths-about.md'
@@ -258,7 +258,7 @@
               href: '-gdiplus-displaying-a-print-dialog-box-use.md'
             - name: Optimisation de l’impression en fournissant un handle d’imprimante
               href: '-gdiplus-optimizing-printing-by-providing-a-printer-handle-use.md'
-    - name: Référence GDI+
+    - name: GDI+ Faire
       href: '-gdiplus-class-gdi-reference.md'
       items:
         - name: Rappel DebugEventProc
@@ -563,10 +563,10 @@
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setstrokejoin
                     - name: SetWidthScale
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-setwidthscale
-            - name: Résultat
+            - name: Effet
               href: /windows/win32/api/gdipluseffects/nl-gdipluseffects-effect
               items:
-                - name: Résultat
+                - name: Effet
                   href: /windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-effect
                 - name: Méthodes Effect
                   href: '-gdiplus-class-effect-methods.md'
@@ -1394,7 +1394,7 @@
                       href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker
                     - name: StartFigure
                       href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-startfigure
-                    - name: Transform
+                    - name: Transformer
                       href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-transform
                     - name: Torsion
                       href: /windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-warp
@@ -1718,7 +1718,7 @@
                       href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setwrapmode
                     - name: TranslateTransform
                       href: /windows/win32/api/gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-translatetransform
-            - name: Matrix
+            - name: Matrice
               href: /windows/win32/api/gdiplusmatrix/nl-gdiplusmatrix-matrix
               items:
                 - name: Constructeur surchargé de la matrice
@@ -1737,7 +1737,7 @@
                   items:
                     - name: Clone
                       href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-clone
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-equals
                     - name: GetElements
                       href: /windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-getelements
@@ -2103,7 +2103,7 @@
                 - name: Méthodes de point
                   href: '-gdiplus-class-point-methods.md'
                   items:
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-point-equals
                     - name: Operator + (point&)
                       href: /previous-versions//ms535008(v=vs.85)
@@ -2126,7 +2126,7 @@
                 - name: 'PointF, méthodes'
                   href: '-gdiplus-class-pointf-methods.md'
                   items:
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-pointf-equals
                     - name: Operator + (PointF&)
                       href: /previous-versions//ms534997(v=vs.85)
@@ -2172,7 +2172,7 @@
                           href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)
                         - name: 'Contains (INT, INT)'
                           href: /previous-versions//ms534986(v=vs.85)
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-equals
                     - name: GetBottom
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rect-getbottom
@@ -2241,7 +2241,7 @@
                           href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)
                         - name: 'Contains (réel, réel)'
                           href: /previous-versions//ms534956(v=vs.85)
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-equals
                     - name: GetBottom
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom
@@ -2330,7 +2330,7 @@
                           href: /previous-versions//ms534918(v=vs.85)
                         - name: Complément (RectF&)
                           href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstrectf_)
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-equals
                     - name: Exclure la méthode surchargée
                       href: '-gdiplus-CLASS-Region-Exclude-Methods.md'
@@ -2407,7 +2407,7 @@
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-makeempty
                     - name: MakeInfinite
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-makeinfinite
-                    - name: Transform
+                    - name: Transformer
                       href: /windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-transform
                     - name: Traduire la méthode surchargée
                       href: '-gdiplus-CLASS-Region-Translate-Methods.md'
@@ -2467,7 +2467,7 @@
                   items:
                     - name: Vide
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-empty
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-size-equals
                     - name: opérateur +
                       href: /previous-versions//ms534751(v=vs.85)
@@ -2490,7 +2490,7 @@
                   items:
                     - name: Vide
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-empty
-                    - name: Égal à
+                    - name: Est égal à
                       href: /windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-equals
                     - name: opérateur +
                       href: /previous-versions//ms534742(v=vs.85)

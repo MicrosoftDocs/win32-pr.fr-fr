@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 4c478a1926d81001347e201869db87a4fbc2304c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc0eecf41683cf3e977e826742410823608f49067eb737544d201ff1b16c50dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116319"
 ---
 # <a name="jet_bkinfoequals-method"></a>JET_BKINFO. Equals (méthode)
 

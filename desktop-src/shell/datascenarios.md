@@ -4,18 +4,18 @@ ms.assetid: 7fce555c-a93d-4414-9119-7ae9acdd4d89
 title: Gestion des scénarios de transfert de données de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35855b66e4108580d5bac305855837563ca59785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50c834768a22ad48a3cc85ec33e79bb1acafb37f0e52537f4be33daee4337a5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057799"
 ---
 # <a name="handling-shell-data-transfer-scenarios"></a>Gestion des scénarios de transfert de données de Shell
 
 Le document d' [objet de données Shell](dataobject.md) a abordé l’approche générale utilisée pour transférer des données de Shell avec glisser-déplacer ou le presse-papiers. Toutefois, pour implémenter le transfert de données de Shell dans votre application, vous devez également comprendre comment appliquer ces principes généraux et techniques à différents moyens de transférer les données de l’interpréteur de commandes. Ce document présente les scénarios courants de transfert de données de Shell et explique comment les implémenter dans votre application.
 
--   [Recommandations générales](#general-guidelines)
+-   [Instructions générales](#general-guidelines)
 -   [Copie de noms de fichier du presse-papiers vers une application](#copying-file-names-from-the-clipboard-to-an-application)
     -   [Extraction des noms de fichiers de l’objet de données](#extracting-the-file-names-from-the-data-object)
 -   [Copie du contenu d’un fichier déplacé dans une application](#copying-the-contents-of-a-dropped-file-into-an-application)
@@ -59,20 +59,20 @@ Pour les sources de données :
 Pour les cibles de données :
 
 -   Les formats du presse-papiers de l’interpréteur de commandes, à l’exception de [CF \_ HDROP](clipboard.md), ne sont pas prédéfinis. Chaque format que vous souhaitez utiliser doit être inscrit en appelant [RegisterClipboardFormat](/windows/win32/api/winuser/nf-winuser-registerclipboardformata).
--   Implémenter et inscrire une cible de dépôt OLE. Évitez d’utiliser des cibles Windows 3,1 ou le message [**WM \_ DROPFILES**](wm-dropfiles.md) , si possible.
+-   Implémenter et inscrire une cible de dépôt OLE. évitez d’utiliser Windows cibles 3,1 ou le message [**WM \_ DROPFILES**](wm-dropfiles.md) , si possible.
 -   Les formats contenus dans un objet de données varient selon l’origine de l’objet. Étant donné que vous ne connaissez pas à l’avance l’origine d’un objet de données, ne supposez pas qu’un format particulier sera présent. L’objet de données doit énumérer les formats par ordre de qualité, en commençant par le meilleur. Ainsi, pour obtenir le meilleur format disponible, les applications énumèrent normalement les formats disponibles et utilisent le premier format de l’énumération qu’elles peuvent prendre en charge.
 -   Prenez en charge le glisser-déplacer. Vous pouvez personnaliser le menu contextuel du glissement en créant un [Gestionnaire de glisser-déplacer](context-menu-handlers.md).
 -   Si votre application accepte des fichiers existants, elle doit être en mesure de gérer le format [CF \_ HDROP](clipboard.md) .
--   En général, les applications qui acceptent des fichiers doivent également gérer les formats [CFSTR \_ FILECONTENTS](clipboard.md) / [CFSTR \_ FILEDESCRIPTOR](clipboard.md) . Tandis que les fichiers du système de fichiers ont le format [CF \_ HDROP](clipboard.md) , les fichiers des fournisseurs comme les extensions d’espace de noms utilisent généralement [CFSTR \_ FILECONTENTS](clipboard.md) / [CFSTR \_ FILEDESCRIPTOR](clipboard.md). Exemples : dossiers Windows CE, dossiers protocole FTP (FTP), dossiers Web et dossiers CAB. La source implémente normalement une interface [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) pour présenter les données de son stockage sous la forme d’un fichier.
+-   En général, les applications qui acceptent des fichiers doivent également gérer les formats [CFSTR \_ FILECONTENTS](clipboard.md) / [CFSTR \_ FILEDESCRIPTOR](clipboard.md) . Tandis que les fichiers du système de fichiers ont le format [CF \_ HDROP](clipboard.md) , les fichiers des fournisseurs comme les extensions d’espace de noms utilisent généralement [CFSTR \_ FILECONTENTS](clipboard.md) / [CFSTR \_ FILEDESCRIPTOR](clipboard.md). exemples : dossiers Windows CE, dossiers protocole FTP (FTP), dossiers web et dossiers CAB. La source implémente normalement une interface [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) pour présenter les données de son stockage sous la forme d’un fichier.
 -   N’oubliez pas que l’interpréteur de commandes peut utiliser des opérations de déplacement ou [de suppression](#handling-delete-on-paste-operations) en déplacement [optimisées](#handling-optimized-move-operations) lors du déplacement de fichiers. Votre application doit être en mesure de reconnaître ces opérations et de répondre de manière appropriée.
 
 ## <a name="copying-file-names-from-the-clipboard-to-an-application"></a>Copie de noms de fichier du presse-papiers vers une application
 
-**Scénario :** Un utilisateur sélectionne un ou plusieurs fichiers dans l’Explorateur Windows et les copie dans le presse-papiers. Votre application extrait les noms de fichiers et les colle dans le document.
+**Scénario :** un utilisateur sélectionne un ou plusieurs fichiers dans Windows Explorer et les copie dans le presse-papiers. Votre application extrait les noms de fichiers et les colle dans le document.
 
 Ce scénario peut être utilisé, par exemple, pour permettre à un utilisateur de créer un lien HTML en coupant et collant le fichier dans votre application. Votre application peut ensuite extraire le nom de fichier de l’objet de données et la traiter pour créer une balise d’ancrage.
 
-Quand un utilisateur sélectionne un fichier dans l’Explorateur Windows et le copie dans le presse-papiers, l’interpréteur de commandes crée un objet de données. Il appelle ensuite [**OleSetClipboard**](/windows/win32/api/ole2/nf-ole2-olesetclipboard) pour placer un pointeur vers l’interface [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) de l’objet de données dans le presse-papiers.
+quand un utilisateur sélectionne un fichier dans Windows Explorer et le copie dans le presse-papiers, l’interpréteur de commandes crée un objet de données. Il appelle ensuite [**OleSetClipboard**](/windows/win32/api/ole2/nf-ole2-olesetclipboard) pour placer un pointeur vers l’interface [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) de l’objet de données dans le presse-papiers.
 
 Lorsque l’utilisateur sélectionne la commande **coller** dans le menu ou la barre d’outils de votre application :
 
@@ -103,17 +103,17 @@ Le moyen le plus simple de récupérer des noms de fichiers à partir d’un obj
 
 ## <a name="copying-the-contents-of-a-dropped-file-into-an-application"></a>Copie du contenu d’un fichier déplacé dans une application
 
-**Scénario :** Un utilisateur fait glisser un ou plusieurs fichiers à partir de l’Explorateur Windows et les dépose dans la fenêtre de votre application. Votre application extrait le contenu du ou des fichiers et les colle dans l’application.
+**Scénario :** un utilisateur fait glisser un ou plusieurs fichiers à partir de Windows Explorer et les dépose dans la fenêtre de votre application. Votre application extrait le contenu du ou des fichiers et les colle dans l’application.
 
-Ce scénario utilise le glisser-déplacer pour transférer les fichiers de l’Explorateur Windows vers l’application. Avant l’opération, votre application doit :
+ce scénario utilise le glisser-déplacer pour transférer les fichiers de Windows Explorer vers l’application. Avant l’opération, votre application doit :
 
 1.  Appelez [RegisterClipboardFormat](/windows/win32/api/winuser/nf-winuser-registerclipboardformata) pour enregistrer les formats de presse-papiers Shell nécessaires.
 2.  Appelez [**RegisterDragDrop**](/windows/win32/api/ole2/nf-ole2-registerdragdrop) pour inscrire une fenêtre cible et l’interface [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) de votre application.
 
 Une fois que l’utilisateur a lancé l’opération en sélectionnant un ou plusieurs fichiers et en commençant à les faire glisser :
 
-1.  L’Explorateur Windows crée un objet de données et y charge les formats pris en charge.
-2.  L’Explorateur Windows appelle [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop) pour initier la boucle de glissement.
+1.  Windows L’Explorateur crée un objet de données et y charge les formats pris en charge.
+2.  Windows L’Explorateur appelle [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop) pour initier la boucle de glissement.
 3.  Lorsque l’image de glissement atteint votre fenêtre cible, le système vous avertit en appelant [**IDropTarget ::D ragenter**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragenter).
 4.  Pour déterminer ce que contient l’objet de données, appelez la méthode [**IDataObject :: EnumFormatEtc**](/windows/win32/api/objidl/nf-objidl-idataobject-enumformatetc) de l’objet de données. Utilisez l’objet énumérateur retourné par la méthode pour énumérer les formats contenus dans l’objet de données. Si votre application ne souhaite pas accepter l’un de ces formats, retournez DROPEFFECT \_ None. Dans le cadre de ce scénario, votre application doit ignorer tous les objets de données qui ne contiennent pas de formats utilisés pour transférer des fichiers, tels que [CF \_ HDROP](clipboard.md).
 5.  Lorsque l’utilisateur supprime les données, le système appelle [**IDropTarget ::D ROP**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-drop).
@@ -184,7 +184,7 @@ Les déplacements optimisés sont traités de la manière suivante :
 
 ## <a name="handling-delete-on-paste-operations"></a>Gestion des opérations de suppression sur le collage
 
-**Scénario :** Un ou plusieurs fichiers sont coupés à partir d’un dossier dans l’Explorateur Windows et collés dans une extension d’espace de noms. L’Explorateur Windows laisse les fichiers en surbrillance jusqu’à ce qu’il reçoive des commentaires sur le résultat de l’opération de collage.
+**Scénario :** un ou plusieurs fichiers sont coupés à partir d’un dossier dans Windows Explorer et collés dans une extension d’espace de noms. Windows L’Explorateur laisse les fichiers en surbrillance jusqu’à ce qu’il reçoive des commentaires sur le résultat de l’opération de collage.
 
 Traditionnellement, lorsqu’un utilisateur coupe des données, il disparaît immédiatement de l’affichage. Cela peut ne pas être efficace et peut entraîner des problèmes d’utilisation si l’utilisateur s’inquiète de ce qui est arrivé aux données. Une autre approche consiste à utiliser une opération de suppression sur collage.
 
@@ -253,7 +253,7 @@ Lorsque vous implémentez une extension d’espace de noms, vous devez normaleme
 
 La corbeille est un dossier virtuel qui est utilisé comme référentiel pour les fichiers qui ne sont plus nécessaires. Tant que la Corbeille n’a pas été vidée, l’utilisateur peut récupérer ultérieurement le fichier et le renvoyer au système de fichiers.
 
-Dans la plupart des cas, le transfert d’objets Shell à la corbeille fonctionne comme n’importe quel autre dossier. Toutefois, lorsqu’un utilisateur dépose un fichier sur la **Corbeille**, la source doit supprimer l’original, même si les commentaires du dossier indiquent une opération de copie. Normalement, une source de déplacement n’a aucun moyen de savoir dans quel dossier son objet de données a été déposé. Toutefois, pour les systèmes Windows 2000 et versions ultérieures, lorsqu’un objet de données est déposé sur la **Corbeille**, l’interpréteur de commandes appelle la méthode [**IDataObject :: SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) de l’objet de données avec un format [CFSTR \_ TARGETCLSID](clipboard.md) défini sur l’identificateur de classe (CLSID) de la Corbeille (CLSID \_ RecycleBin). Pour gérer correctement le cas de la corbeille, votre objet de données doit être en mesure de reconnaître ce format et de communiquer les informations à la source par le biais d’une interface privée.
+Dans la plupart des cas, le transfert d’objets Shell à la corbeille fonctionne comme n’importe quel autre dossier. Toutefois, lorsqu’un utilisateur dépose un fichier sur la **Corbeille**, la source doit supprimer l’original, même si les commentaires du dossier indiquent une opération de copie. Normalement, une source de déplacement n’a aucun moyen de savoir dans quel dossier son objet de données a été déposé. toutefois, pour les systèmes Windows 2000 et versions ultérieures, lorsqu’un objet de données est déposé sur la **corbeille**, l’interpréteur de commandes appelle la méthode [**IDataObject :: SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) de l’objet de données avec un format [CFSTR \_ TARGETCLSID](clipboard.md) défini sur l’identificateur de classe (clsid) de la corbeille (clsid \_ RecycleBin). Pour gérer correctement le cas de la corbeille, votre objet de données doit être en mesure de reconnaître ce format et de communiquer les informations à la source par le biais d’une interface privée.
 
 > [!Note]  
 > Quand [**IDataObject :: SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) est appelé avec un format [CFSTR \_ TARGETCLSID](clipboard.md) défini sur CLSID \_ RecycleBin, la source de données doit fermer tous les descripteurs ouverts aux objets qui sont transférés avant de retourner à partir de la méthode. Dans le cas contraire, vous risquez de créer des violations de partage.
@@ -262,7 +262,7 @@ Dans la plupart des cas, le transfert d’objets Shell à la corbeille fonctionn
 
 ## <a name="creating-and-importing-scrap-files"></a>Création et importation de fichiers bribes
 
-**Scénario :** Un utilisateur fait glisser des données à partir d’un fichier de données de l’application OLE et le dépose sur le bureau ou l’Explorateur Windows.
+**Scénario :** un utilisateur fait glisser des données à partir d’un fichier de données de l’application OLE et le dépose sur le bureau ou l’explorateur de Windows.
 
 Windows permet aux utilisateurs de faire glisser un objet à partir d’un fichier de données d’une application OLE et de le déposer sur le bureau ou sur un dossier du système de fichiers. Cette opération crée un *fichier bribe*, qui contient les données ou un lien vers les données. Le nom de fichier est extrait du nom abrégé inscrit pour le CLSID de l’objet et des données de [ \_ texte CF](clipboard.md) . Pour que l’interpréteur de commandes crée un fichier bribe contenant des données, l’interface [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) de l’application doit prendre en charge le \_ format de presse-papiers CF EMBEDSOURCE. Pour créer un fichier contenant un lien, **IDataObject** doit prendre en charge le \_ format CF LINKSOURCE.
 

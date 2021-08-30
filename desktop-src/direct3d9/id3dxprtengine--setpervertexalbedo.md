@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: da7a33a79cc50963e87d0eff15baf22ee8d79ce3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d40c91ea00be7b1194099764c3c6d029a9cacb10d5265fb560053b093f396c9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095829"
 ---
 # <a name="id3dxprtenginesetpervertexalbedo-method"></a>ID3DXPRTEngine :: SetPerVertexAlbedo, méthode
 

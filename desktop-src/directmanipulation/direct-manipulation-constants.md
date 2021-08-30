@@ -4,12 +4,12 @@ ms.assetid: 41A828F5-4AE3-4073-89EB-CC1279B9ECED
 title: Constantes de manipulation directe
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 5040191f22e92dcfb8c2ca26edd4080cd4cbb2be
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c99a9423eb84d2889307c4433ea5e6b8d941435710894116da3201b71b71ee8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094679"
 ---
 # <a name="direct-manipulation-constants"></a>Constantes de manipulation directe
 
@@ -25,8 +25,8 @@ Cette section fournit les spécifications de référence pour les constantes de 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                              |
 | MIDL<br/>                      | <dl> <dt>DirectManipulation. idl</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

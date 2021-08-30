@@ -1,19 +1,19 @@
 ---
-title: Interfaces de contrôles ActiveX
-description: Interfaces de contrôles ActiveX
+title: ActiveX Interfaces de contrôles
+description: ActiveX Interfaces de contrôles
 ms.assetid: c4ca5696-c461-4d65-b2a8-c689c056dac8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd7c4e0b726e9f330910bd468c237c72462fa21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a4d56bd5dbd4feb22341850189132d011bcf160421d9ef26904a3d147166b75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106532027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120549"
 ---
-# <a name="activex-controls-interfaces"></a>Interfaces de contrôles ActiveX
+# <a name="activex-controls-interfaces"></a>ActiveX Interfaces de contrôles
 
-Outre d’autres mécanismes de communication entre le contrôle et son client, la technologie des contrôles ActiveX spécifie les interfaces [**IOleControl**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrol) et [**IOleControlSite**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite) pour la communication de contrôle client. Il existe également l’interface [**IsimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) pour les conteneurs de contrôle simples.
+outre d’autres mécanismes de communication entre le contrôle et son client, ActiveX contrôle la technologie spécifie les interfaces [**IOleControl**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrol) et [**IOleControlSite**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite) pour la communication avec le contrôle du client. Il existe également l’interface [**IsimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) pour les conteneurs de contrôle simples.
 
 Toutefois, ces trois interfaces sont spécifiques aux contrôles et ne sont généralement pas utiles en dehors du contexte des contrôles. Ces interfaces sont définies comme suit.
 
@@ -47,18 +47,18 @@ interface ISimpleFrameSite : IUnknown
  
 ```
 
-Certains contrôles, comme une zone de groupe, sont simplement un conteneur simple d’autres contrôles. Dans ce cas, le contrôle simple, appelé simple cadre, n’a pas à implémenter toutes les spécifications du conteneur. Il peut déléguer la plupart des appels d’interface de ses contrôles contenus au conteneur qui gère le frame simple. Outre les appels d’interface, le frame simple doit également gérer les messages Windows qui peuvent provenir de contrôles qu’il contient. Pour cette raison, un conteneur fournit des [**IsimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) pour permettre à ces contrôles Frame simples de transmettre des messages vers le conteneur. [**PreMessageFilter**](/windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-premessagefilter) traite le message en premier ; [**PostMessageFilter**](/windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-postmessagefilter) est appelé après que le frame simple a traité le message lui-même.
+Certains contrôles, comme une zone de groupe, sont simplement un conteneur simple d’autres contrôles. Dans ce cas, le contrôle simple, appelé simple cadre, n’a pas à implémenter toutes les spécifications du conteneur. Il peut déléguer la plupart des appels d’interface de ses contrôles contenus au conteneur qui gère le frame simple. outre les appels d’interface, le frame simple doit également gérer Windows des messages qui proviennent potentiellement de contrôles qu’il contient. Pour cette raison, un conteneur fournit des [**IsimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) pour permettre à ces contrôles Frame simples de transmettre des messages vers le conteneur. [**PreMessageFilter**](/windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-premessagefilter) traite le message en premier ; [**PostMessageFilter**](/windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-postmessagefilter) est appelé après que le frame simple a traité le message lui-même.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Contrôles ActiveX](activex-controls.md)
+[ActiveX Commandes](activex-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

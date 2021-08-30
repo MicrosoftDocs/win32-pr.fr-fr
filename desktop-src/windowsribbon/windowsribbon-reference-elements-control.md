@@ -1,19 +1,19 @@
 ---
-title: Contrôles (infrastructure de ruban Windows)
-description: Documentation de référence pour les éléments de balisage de contrôle dans l’infrastructure de ruban Windows.
+title: contrôles (infrastructure de ruban Windows)
+description: documentation de référence pour les éléments de balisage de contrôle dans l’infrastructure de ruban Windows.
 ms.assetid: 417bdf54-c241-4eda-a97b-82a6f0d74019
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6d51f2446102cc01a8f2bad92c57fc0a5613ef5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f53b21d38698b6b0903c1db81459152fa961dbf1ca9f53440477e3e235ae322d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056399"
 ---
-# <a name="controls-windows-ribbon-framework"></a>Contrôles (infrastructure de ruban Windows)
+# <a name="controls-windows-ribbon-framework"></a>contrôles (infrastructure de ruban Windows)
 
-Documentation de référence pour les éléments de balisage de contrôle dans l’infrastructure de ruban Windows.
+documentation de référence pour les éléments de balisage de contrôle dans l’infrastructure de ruban Windows.
 
 
 
@@ -22,7 +22,7 @@ Documentation de référence pour les éléments de balisage de contrôle dans l
 | [**ApplicationMenu**](windowsribbon-element-applicationmenu.md)                                               | Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’application.<br/>                                                                                                                                                                    |
 | [**ApplicationMenu.RecentItems**](windowsribbon-element-applicationmenu-recentitems.md)                       | Représente un conteneur pour le contrôle d' [éléments récents](windowsribbon-controls-recentitems.md) dans le menu de l' [application](windowsribbon-controls-applicationmenu.md).<br/>                                                                              |
 | [**Bouton**](windowsribbon-element-button.md)                                                                 | Représente un contrôle [bouton](windowsribbon-controls-button.md) .<br/>                                                                                                                                                                                 |
-| [**CheckBox**](windowsribbon-element-checkbox.md)                                                             | Représente un contrôle de case [à cocher](windowsribbon-controls-checkbox.md) .<br/>                                                                                                                                                                            |
+| [**Activé**](windowsribbon-element-checkbox.md)                                                             | Représente un contrôle de case [à cocher](windowsribbon-controls-checkbox.md) .<br/>                                                                                                                                                                            |
 | [**ComboBox**](windowsribbon-element-combobox.md)                                                             | Représente un contrôle de[zone de liste déroulante](windowsribbon-controls-combobox.md).<br/>                                                                                                                                                                              |
 | [**ContextMap**](windowsribbon-element-contextmap.md)                                                         | Représente un mappage de paire [**ContextMenu**](windowsribbon-element-contextmenu.md) et [**MiniToolbar**](windowsribbon-element-minitoolbar.md) .<br/>                                                                                                  |
 | [**ContextMenu**](windowsribbon-element-contextmenu.md)                                                       | Représente un contrôle de menu contextuel.<br/>                                                                                                                                                                                                                |

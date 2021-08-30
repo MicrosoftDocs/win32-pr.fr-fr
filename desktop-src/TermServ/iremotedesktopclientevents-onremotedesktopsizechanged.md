@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a7431d1a6f41a6f87bb34fe1486c203168f2c3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da10c37bdebcf59fc6a19581dd5bd35f0b751349d447e05524e8c806e410b9a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124859"
 ---
 # <a name="iremotedesktopclienteventsonremotedesktopsizechanged-method"></a>IRemoteDesktopClientEvents :: OnRemoteDesktopSizeChanged, méthode
 

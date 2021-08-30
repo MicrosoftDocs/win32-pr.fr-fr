@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba07d28ac93f7dc511390a851d3c737a833ef3f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de22d8a6fc634ffbb16ac111de1ad20dc0638660c5091c835a44f256d9ed1d4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076619"
 ---
 # <a name="cbaseinputpincheckstreaming-method"></a>Méthode CBaseInputPin. CheckStreaming
 
@@ -48,7 +48,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                                           | Description                           |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                   |
 | <dl> <dt>**S \_ false**</dt> </dl>               | Le code PIN est en cours de vidage.<br/> |
 | <dl> <dt>**\_erreur d' \_ exécution VFW E \_**</dt> </dl> | Une erreur d’exécution s’est produite.<br/> |
 | <dl> <dt>**VFW \_ E \_ état incorrect \_**</dt> </dl>   | Le code PIN est arrêté.<br/>        |
@@ -57,7 +57,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe dérivée peut substituer cette méthode pour effectuer des vérifications supplémentaires. Dans la méthode de substitution, appelez également l’implémentation de la classe de base.
 
@@ -69,7 +69,7 @@ La méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) appelle ce
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

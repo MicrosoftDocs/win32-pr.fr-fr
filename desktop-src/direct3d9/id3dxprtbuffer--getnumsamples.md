@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b6889b710b92d52a48884098e68c58286c400330
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c73cb3067d143ca6da54d0bba4e12244332e4f91aad71efde1c281467bf863b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095869"
 ---
 # <a name="id3dxprtbuffergetnumsamples-method"></a>ID3DXPRTBuffer :: GetNumSamples, méthode
 
@@ -38,7 +38,7 @@ UINT GetNumSamples();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

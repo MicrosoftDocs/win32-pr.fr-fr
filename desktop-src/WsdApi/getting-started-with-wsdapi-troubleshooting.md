@@ -4,12 +4,12 @@ ms.assetid: d6877063-6cf9-48dc-8208-0f3fc85b6d6b
 title: Résolution des problèmes de Prise en main avec WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 413146288e6c7fc6e513f994fbe24d6ee9940897f22bcd5a715ae41f77f83c02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dec7fc848fddf412bde43a4f2cb94021b382820
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738615"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474905"
 ---
 # <a name="getting-started-with-wsdapi-troubleshooting"></a>Résolution des problèmes de Prise en main avec WSDAPI
 
@@ -53,77 +53,20 @@ Les tableaux suivants présentent certains problèmes qui peuvent empêcher les 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Problème</th>
-<th>Procédure de diagnostic</th>
-<th>Identification du problème</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Les messages <a href="hello-message.md">Hello</a>, <a href="probe-message.md">Probe</a>ou <a href="resolve-message.md">Resolve</a> ne sont pas transmis sur le réseau, car l’application n’énumère pas correctement les interfaces réseau de multidiffusion.</td>
-<td><a href="using-wsddebug-client-to-verify-multicast-traffic.md">Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion</a></td>
-<td>Les messages Hello, Probe ou Resolve n’apparaissent pas dans la sortie du client de débogage WSD. Les paquets n’apparaissent pas sur le réseau. Les paquets ne sont pas générés pour l’interface de bouclage ou pour d’autres interfaces.</td>
-</tr>
-<tr class="even">
-<td>Les messages de <a href="probe-message.md">sondage</a> ne sont pas envoyés par la multidiffusion UDP au port 3702 (pour les applications qui n’utilisent pas la découverte dirigée).</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a></td>
-<td>L’inspection du message indique qu’il a été envoyé au mauvais port.</td>
-</tr>
-<tr class="odd">
-<td>Le message de <a href="probe-message.md">sondage</a> ne contient pas d’élément <strong>types</strong> , ou l’élément <strong>types</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection du message indique que l’élément <strong>types</strong> n’est pas présent ou vide.</td>
-</tr>
-<tr class="even">
-<td>L’élément <strong>types</strong> d’un message de <a href="probe-message.md">sonde</a> ne contient pas les types auxquels un hôte doit répondre.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection du message indique que l’élément <strong>types</strong> contient une valeur incorrecte ou incorrecte.</td>
-</tr>
-<tr class="odd">
-<td>Un message <a href="probematches-message.md">messages ProbeMatches</a> n’a pas été envoyé en monodiffusion au port UDP à partir duquel la <a href="probe-message.md">sonde</a> a été envoyée.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection de la sortie indique qu’aucun message <a href="probematches-message.md">messages ProbeMatches</a>) n’a été envoyé ou que le message a été envoyé au mauvais port.
-<blockquote>
-[!Note]<br />
-Pour les applications qui utilisent la découverte dirigée, le <a href="probematches-message.md">messages ProbeMatches</a> doit être envoyé via HTTP ou HTTPS en réponse au message de <a href="probe-message.md">sondage</a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Le message <a href="probematches-message.md">messages ProbeMatches</a> ne contient pas d’élément <strong>latesto</strong> , ou l’élément <strong>latesto</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection du message indique que l’élément <strong>latesto</strong> n’est pas présent ou vide.</td>
-</tr>
-<tr class="odd">
-<td>La valeur de l’élément <strong>latesto</strong> dans un message <a href="probematches-message.md">messages ProbeMatches</a> ne correspond pas à la valeur de l’élément <strong>MessageID</strong> du message de <a href="probe-message.md">sondage</a> correspondant.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection du message indique que l’élément <strong>latesto</strong> contient une valeur incorrecte ou incorrecte.</td>
-</tr>
-<tr class="even">
-<td>L’élément <strong>XAddrs</strong> inclus dans un message <a href="probematches-message.md">messages ProbeMatches</a> n’est pas conforme aux <a href="xaddr-validation-rules.md">règles de validation XAddr</a>.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection du message indique que les <strong>XAddrs</strong> ne sont pas valides.</td>
-</tr>
-<tr class="odd">
-<td>La <a href="resolve-message.md">résolution</a> des messages n’est pas envoyée par la multidiffusion UDP au port 3702 (pour les applications qui n’utilisent pas la découverte dirigée).</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection de la sortie indique que le message de <a href="resolve-message.md">résolution</a> a été envoyé au mauvais port.</td>
-</tr>
-<tr class="even">
-<td>Un message <a href="resolvematches-message.md">ResolveMatches</a> n’a pas été envoyé en monodiffusion au port UDP à partir duquel un message de <a href="resolve-message.md">résolution</a> a été envoyé.</td>
-<td><a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a></td>
-<td>L’inspection de la sortie indique qu’aucun message <a href="resolvematches-message.md">ResolveMatches</a> n’a été envoyé ou que le message a été envoyé au mauvais port.</td>
-</tr>
-</tbody>
-</table>
+
+| Problème | Procédure de diagnostic | Identification du problème | 
+|---------|----------------------|------------------------|
+| Les messages <a href="hello-message.md">Hello</a>, <a href="probe-message.md">Probe</a>ou <a href="resolve-message.md">Resolve</a> ne sont pas transmis sur le réseau, car l’application n’énumère pas correctement les interfaces réseau de multidiffusion. | <a href="using-wsddebug-client-to-verify-multicast-traffic.md">Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion</a> | Les messages Hello, Probe ou Resolve n’apparaissent pas dans la sortie du client de débogage WSD. Les paquets n’apparaissent pas sur le réseau. Les paquets ne sont pas générés pour l’interface de bouclage ou pour d’autres interfaces. | 
+| Les messages de <a href="probe-message.md">sondage</a> ne sont pas envoyés par la multidiffusion UDP au port 3702 (pour les applications qui n’utilisent pas la découverte dirigée). | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> | L’inspection du message indique qu’il a été envoyé au mauvais port. | 
+| Le message de <a href="probe-message.md">sondage</a> ne contient pas d’élément <strong>types</strong> , ou l’élément <strong>types</strong> est vide. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection du message indique que l’élément <strong>types</strong> n’est pas présent ou vide. | 
+| L’élément <strong>types</strong> d’un message de <a href="probe-message.md">sonde</a> ne contient pas les types auxquels un hôte doit répondre. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection du message indique que l’élément <strong>types</strong> contient une valeur incorrecte ou incorrecte. | 
+| Un message <a href="probematches-message.md">messages ProbeMatches</a> n’a pas été envoyé en monodiffusion au port UDP à partir duquel la <a href="probe-message.md">sonde</a> a été envoyée. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection de la sortie indique qu’aucun message <a href="probematches-message.md">messages ProbeMatches</a>) n’a été envoyé ou que le message a été envoyé au mauvais port.<blockquote>[!Note]<br />Pour les applications qui utilisent la découverte dirigée, le <a href="probematches-message.md">messages ProbeMatches</a> doit être envoyé via HTTP ou HTTPS en réponse au message de <a href="probe-message.md">sondage</a> .</blockquote><br /> | 
+| Le message <a href="probematches-message.md">messages ProbeMatches</a> ne contient pas d’élément <strong>latesto</strong> , ou l’élément <strong>latesto</strong> est vide. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection du message indique que l’élément <strong>latesto</strong> n’est pas présent ou vide. | 
+| La valeur de l’élément <strong>latesto</strong> dans un message <a href="probematches-message.md">messages ProbeMatches</a> ne correspond pas à la valeur de l’élément <strong>MessageID</strong> du message de <a href="probe-message.md">sondage</a> correspondant. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection du message indique que l’élément <strong>latesto</strong> contient une valeur incorrecte ou incorrecte. | 
+| L’élément <strong>XAddrs</strong> inclus dans un message <a href="probematches-message.md">messages ProbeMatches</a> n’est pas conforme aux <a href="xaddr-validation-rules.md">règles de validation XAddr</a>. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection du message indique que les <strong>XAddrs</strong> ne sont pas valides. | 
+| La <a href="resolve-message.md">résolution</a> des messages n’est pas envoyée par la multidiffusion UDP au port 3702 (pour les applications qui n’utilisent pas la découverte dirigée). | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection de la sortie indique que le message de <a href="resolve-message.md">résolution</a> a été envoyé au mauvais port. | 
+| Un message <a href="resolvematches-message.md">ResolveMatches</a> n’a pas été envoyé en monodiffusion au port UDP à partir duquel un message de <a href="resolve-message.md">résolution</a> a été envoyé. | <a href="inspecting-network-traces-for-udp-ws-discovery.md">Inspection des suivis réseau pour UDP WS-Discovery</a> ou <a href="inspecting-network-traces-for-applications-using-directed-discovery.md">inspection des traces réseau pour les applications à l’aide de la découverte dirigée</a> | L’inspection de la sortie indique qu’aucun message <a href="resolvematches-message.md">ResolveMatches</a> n’a été envoyé ou que le message a été envoyé au mauvais port. | 
+
 
 
 
@@ -133,87 +76,22 @@ Pour les applications qui utilisent la découverte dirigée, le <a href="probema
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Problème</th>
-<th>Procédure de diagnostic</th>
-<th>Identification du problème</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>L’adresse de transport publiée par l’hôte est incorrecte.</td>
-<td><a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange</a></td>
-<td>L’inspection de XAddrs dans la sortie du client de débogage WSD indique que l’adresse de transport est incorrecte ou incorrecte.</td>
-</tr>
-<tr class="even">
-<td>Impossible d’établir une connexion TCP pour l’échange de métadonnées.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>La sortie de l’analyseur de paquets n’affiche pas l’échange de paquets suivant :
-<ul>
-<li>Paquet TCP SYN envoyé à partir du client</li>
-<li>Paquet TCP SYN/ACK envoyé à partir de l’hôte</li>
-<li>Paquet TCP ACK envoyé par le client</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Le client n’a pas envoyé de requête HTTP obtenir valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>Il n’y a aucune requête HTTP d’extraction dans la sortie de l’analyseur de paquets, ou la requête est incorrecte.</td>
-</tr>
-<tr class="even">
-<td>Le client n’a pas envoyé de message d' WS-Transfer d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>Il n’existe aucun WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">recevoir</a> de message dans la sortie de l’analyseur de paquets, ou le message est incorrect.</td>
-</tr>
-<tr class="odd">
-<td>L’hôte n’écoute pas sur le chemin d’accès de l’URL spécifié dans la requête HTTP.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets.</td>
-</tr>
-<tr class="even">
-<td>Le WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne contient pas <strong>d’élément à</strong> , ou l’élément <strong>à</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>L’inspection du message indique que l’élément <strong>to</strong> n’est pas présent ou vide.</td>
-</tr>
-<tr class="odd">
-<td>La valeur de l’élément <strong>to</strong> d’un WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne correspond pas à l’une des adresses de point de terminaison de l’hôte.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>L’inspection du message indique que la valeur de l’élément <strong>to</strong> ne correspond pas à l’une des adresses de point de terminaison publiées dans le message <a href="probematches-message.md">messages ProbeMatches</a> ou <a href="resolvematches-message.md">ResolveMatches</a> de l’hôte.</td>
-</tr>
-<tr class="even">
-<td>L’hôte n’a pas envoyé d’en-tête de réponse HTTP valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets, ou la requête est incorrecte.</td>
-</tr>
-<tr class="odd">
-<td>L’en-tête de réponse HTTP envoyé par l’hôte indique que la demande ne peut pas être terminée.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>L’en-tête de réponse a un code d’État autre que HTTP/1.1 200.</td>
-</tr>
-<tr class="even">
-<td>L’hôte n’a pas envoyé de message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> valide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>Il n’existe aucun message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> dans la sortie de l’analyseur de paquets ou le message est incorrect.</td>
-</tr>
-<tr class="odd">
-<td>Le message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne contient pas d’élément <strong>latesto</strong> , ou l’élément <strong>latesto</strong> est vide.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>L’inspection du message indique que l’élément <strong>latesto</strong> n’est pas présent ou vide.</td>
-</tr>
-<tr class="even">
-<td>La valeur de l’élément <strong>latesto</strong> dans un message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne correspond pas à la valeur de l’élément <strong>MessageID</strong> du message d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> correspondant.</td>
-<td><a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a></td>
-<td>L’inspection du message indique que l’élément <strong>latesto</strong> contient une valeur incorrecte ou incorrecte.</td>
-</tr>
-</tbody>
-</table>
+
+| Problème | Procédure de diagnostic | Identification du problème | 
+|---------|----------------------|------------------------|
+| L’adresse de transport publiée par l’hôte est incorrecte. | <a href="using-a-generic-host-and-client-for-http-metadata-exchange.md">Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange</a> | L’inspection de XAddrs dans la sortie du client de débogage WSD indique que l’adresse de transport est incorrecte ou incorrecte. | 
+| Impossible d’établir une connexion TCP pour l’échange de métadonnées. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | La sortie de l’analyseur de paquets n’affiche pas l’échange de paquets suivant :<ul><li>Paquet TCP SYN envoyé à partir du client</li><li>Paquet TCP SYN/ACK envoyé à partir de l’hôte</li><li>Paquet TCP ACK envoyé par le client</li></ul> | 
+| Le client n’a pas envoyé de requête HTTP obtenir valide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | Il n’y a aucune requête HTTP d’extraction dans la sortie de l’analyseur de paquets, ou la requête est incorrecte. | 
+| Le client n’a pas envoyé de message d' WS-Transfer d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> valide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | Il n’existe aucun WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">recevoir</a> de message dans la sortie de l’analyseur de paquets, ou le message est incorrect. | 
+| L’hôte n’écoute pas sur le chemin d’accès de l’URL spécifié dans la requête HTTP. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets. | 
+| Le WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne contient pas <strong>d’élément à</strong> , ou l’élément <strong>à</strong> est vide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | L’inspection du message indique que l’élément <strong>to</strong> n’est pas présent ou vide. | 
+| La valeur de l’élément <strong>to</strong> d’un WS-Transfer <a href="get--metadata-exchange--http-request-and-message.md">obtenir</a> le message ne correspond pas à l’une des adresses de point de terminaison de l’hôte. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | L’inspection du message indique que la valeur de l’élément <strong>to</strong> ne correspond pas à l’une des adresses de point de terminaison publiées dans le message <a href="probematches-message.md">messages ProbeMatches</a> ou <a href="resolvematches-message.md">ResolveMatches</a> de l’hôte. | 
+| L’hôte n’a pas envoyé d’en-tête de réponse HTTP valide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | Il n’y a aucune réponse HTTP dans la sortie de l’analyseur de paquets, ou la requête est incorrecte. | 
+| L’en-tête de réponse HTTP envoyé par l’hôte indique que la demande ne peut pas être terminée. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | L’en-tête de réponse a un code d’État autre que HTTP/1.1 200. | 
+| L’hôte n’a pas envoyé de message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> valide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | Il n’existe aucun message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> dans la sortie de l’analyseur de paquets ou le message est incorrect. | 
+| Le message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne contient pas d’élément <strong>latesto</strong> , ou l’élément <strong>latesto</strong> est vide. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | L’inspection du message indique que l’élément <strong>latesto</strong> n’est pas présent ou vide. | 
+| La valeur de l’élément <strong>latesto</strong> dans un message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> ne correspond pas à la valeur de l’élément <strong>MessageID</strong> du message d' <a href="get--metadata-exchange--http-request-and-message.md">extraction</a> correspondant. | <a href="inspecting-network-traces-for-http-metadata-exchange.md">Inspection des suivis réseau pour les métadonnées HTTP Exchange</a> | L’inspection du message indique que l’élément <strong>latesto</strong> contient une valeur incorrecte ou incorrecte. | 
+
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -4,12 +4,12 @@ ms.assetid: 4C397139-6553-4707-B737-7C31C5D423BA
 title: Encodeur audio MP3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ea2b22d2fe8cd51f9a2990970493e0415f34d3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 757d070a2cef404780379c6652e6ced0af220dd4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034159"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471685"
 ---
 # <a name="mp3-audio-encoder"></a>Encodeur audio MP3
 
@@ -29,61 +29,16 @@ Définissez les attributs suivants sur le type de média de sortie.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Type principal.</td>
-<td>Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Sous-type audio.</td>
-<td>Doit être <strong>MFAudioFormat_MP3</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Vitesse de transmission du flux MP3 encodé, en octets par seconde.</td>
-<td>L’encodeur prend en charge toutes les vitesses de transmission définies par la norme (32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256 ou 320 Kbits/s).<br/> Les vitesses de transmission par défaut sont de 128 Kbits/s pour mono et 320 kbps pour le stéréo.<br/> Utilisez cet attribut pour spécifier la vitesse de transmission encodée.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Nombre de canaux.</td>
-<td>Les valeurs suivantes sont admises :
-<ul>
-<li>1 (mono)</li>
-<li>2 (stéréo)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Échantillons par seconde.</td>
-<td>Les valeurs suivantes sont admises :
-<ul>
-<li>48000 (48 KHz)</li>
-<li>44100 (44,1 KHz)</li>
-<li>32000 (32 KHz)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a></td>
-<td>Données de codec supplémentaires.</td>
-<td>Cet attribut contient les 12 octets de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> qui suivent le membre <strong>wfx</strong> de cette structure.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Type principal. | Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Sous-type audio. | Doit être <strong>MFAudioFormat_MP3</strong>. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Vitesse de transmission du flux MP3 encodé, en octets par seconde. | L’encodeur prend en charge toutes les vitesses de transmission définies par la norme (32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256 ou 320 Kbits/s).<br /> Les vitesses de transmission par défaut sont de 128 Kbits/s pour mono et 320 kbps pour le stéréo.<br /> Utilisez cet attribut pour spécifier la vitesse de transmission encodée.<br /> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux. | Les valeurs suivantes sont admises :<ul><li>1 (mono)</li><li>2 (stéréo)</li></ul> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Échantillons par seconde. | Les valeurs suivantes sont admises :<ul><li>48000 (48 KHz)</li><li>44100 (44,1 KHz)</li><li>32000 (32 KHz)</li></ul> | 
+| <a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a> | Données de codec supplémentaires. | Cet attribut contient les 12 octets de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> qui suivent le membre <strong>wfx</strong> de cette structure. | 
+
 
 
 
@@ -168,8 +123,8 @@ L’encodeur MP3 ne prend pas en charge les formats suivants définis par la nor
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/> |
 
 
 

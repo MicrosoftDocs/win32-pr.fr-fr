@@ -5,12 +5,12 @@ ms.assetid: 6651a500-a95a-45a1-b46a-27b2e9b36a1c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8cfa177d6f09552238471ff29d81d0ac0b7351
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 938c8661387883229f73eb6dded1e4883a6783b15da68dca551bcf902a3bb9e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121709"
 ---
 # <a name="quota-management-for-remote-shells"></a>Gestion des quotas pour les shells distants
 
@@ -113,7 +113,7 @@ Les quotas peuvent être définis à l’aide d’un paramètre stratégie de gr
 **Pour définir un quota manuellement**
 
 1.  Ouvrez une fenêtre d’invite de commandes en tant qu’administrateur.
-2.  À l’invite de commandes, tapez **winrm set winrm/config/Winrs' @ {**_&lt; &gt; quota_*_= "_*_&lt; value &gt;_*_"} '_*
+2.  À l’invite de commandes, tapez **winrm set winrm/config/Winrs' @ {** _<Quota>_ *_= "_* _<Value>_ *_"} '_*
 
 Par exemple, pour augmenter le nombre maximal de shells par utilisateur de 5 à 7, tapez **winrm set winrm/config/Winrs' @ {MaxShellsPerUser = "7"} '**.
 

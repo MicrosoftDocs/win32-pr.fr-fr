@@ -4,12 +4,12 @@ ms.assetid: cd761a4a-42ad-4994-b1b8-0946d29c3d8b
 title: Lecture d’un clip de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 744db96c6dc384f2473f6c6d3361b24950a8881d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fe8773e2658d77b6c603e121d6498a8fb5235eec16d71726049d2d59ec1169f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061529"
 ---
 # <a name="how-to-play-a-file-clip"></a>Lecture d’un clip de fichier
 

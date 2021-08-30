@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101172
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8bd9d49a35ff9944bbe184b7bdffb91b88de86cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da07bdb477dc14e3d4cc07473031642496b12e54d73d79004acdec958c0b4780
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066564"
 ---
 # <a name="esentbadslvsignatureexception-properties"></a>Propriétés EsentBadSLVSignatureException
 
@@ -49,7 +49,7 @@ Le type [EsentBadSLVSignatureException](./esentbadslvsignatureexception-class.md
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

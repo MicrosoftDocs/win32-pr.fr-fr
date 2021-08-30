@@ -4,12 +4,12 @@ description: Écriture à accès aléatoire des composants 32 bits 1-4 dans la m
 ms.assetid: D166116A-CF4E-4020-9F6A-F9CEEFCDAB21
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c44b4d22a576853fb8b7d2c43fcb6a2d7fc9a448
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d2452f5b48b410b0a62dbd394c7c0501d99d34ba15c8c78291c02db58d65d090
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118199"
 ---
 # <a name="store_raw-sm5---asm"></a>stocker \_ brut (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104381217"
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction exécute 1-4 \* composants 32 bits écrits à partir de *src0* vers *dst0* à l’offset dans *dstByteOffset*. Il n’y a aucune conversion de format.
 
@@ -83,7 +83,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -95,7 +95,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -109,9 +109,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

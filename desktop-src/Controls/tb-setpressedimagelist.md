@@ -3,7 +3,7 @@ title: Message TB_SETPRESSEDIMAGELIST (commctrl. h)
 description: Définit la liste d’images utilisée par la barre d’outils pour afficher les boutons qui sont dans un état appuyé.
 ms.assetid: d0e061ec-3a89-4c2d-b7f7-5f2061098428
 keywords:
-- TB_SETPRESSEDIMAGELIST les contrôles de message Windows
+- TB_SETPRESSEDIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a3c6dafed6dbfdf2a654f4f95f1cef636ba762
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 118dcf5340b9fb60360657b1bd3ad9659ce265ef668fbd94e305e81342e0951e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061349"
 ---
 # <a name="tb_setpressedimagelist-message"></a>TO \_ SETPRESSEDIMAGELIST message
 
@@ -47,7 +47,7 @@ Handle de la liste d’images à définir. Si ce paramètre a la **valeur null**
 
 Retourne le handle de la liste d’images utilisée précédemment pour afficher les boutons dans un état appuyé, ou **null** si aucune liste d’images n’a été définie précédemment.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Votre application est chargée de libérer la liste d’images après la destruction de la barre d’outils.
@@ -107,8 +107,8 @@ Enfin, les boutons sont ajoutés au contrôle Toolbar avec un message [**\_ ADDB
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

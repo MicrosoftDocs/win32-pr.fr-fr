@@ -4,12 +4,12 @@ ms.assetid: 482fb11e-eb59-4de2-a2ad-c1960617e64b
 title: Liens de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2954c52bcc7b2d98ab5ebb8d732abcbc8f0dea81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6e73c67acd9aaba8efe21bba829b59b5cad9803beacf146a765636c0d65c0ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126993"
 ---
 # <a name="certificate-links"></a>Liens de certificat
 

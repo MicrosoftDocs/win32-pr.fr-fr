@@ -4,12 +4,12 @@ ms.assetid: 0cc40312-2298-4611-b60f-e0222ef793c3
 title: System.Document. Caution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7295b73b947d4423f5eae2f4df6e8cfeea4b826
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f42915f8fdf456162bae6242d91fbe0d12bfcfcb63a66c7e72ac3ab65b2d349
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059179"
 ---
 # <a name="systemdocumentsecurity"></a>System.Document. Caution
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,6 +1,6 @@
 ---
 title: Obtention de données à partir de l’ordinateur local
-description: Bien que Windows Remote Management et WS-Management protocole soient explicitement conçus pour la communication à distance, l’établissement d’une session sur l’ordinateur local est le cas le plus simple.
+description: bien que Windows Remote Management et WS-Management protocole soient explicitement conçus pour la communication à distance, l’établissement d’une session sur l’ordinateur local est le cas le plus simple.
 ms.assetid: 7f08b557-bbd4-4f67-b5e5-b84e8af58657
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,20 +10,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ccb71fd176bf3faf425ea57d06beb27788f41a62
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 311a5960fc1b2408532acdf1b8048f7146598857696b8f7aa653e457be8be3cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121749"
 ---
 # <a name="obtaining-data-from-the-local-computer"></a>Obtention de données à partir de l’ordinateur local
 
-Bien que Windows Remote Management et WS-Management protocole soient explicitement conçus pour la communication à distance, l’établissement d’une session sur l’ordinateur local est le cas le plus simple. Certains scripts peuvent nécessiter des données d’accès sur l’ordinateur local, ainsi que sur des ordinateurs distants.
+bien que Windows Remote Management et WS-Management protocole soient explicitement conçus pour la communication à distance, l’établissement d’une session sur l’ordinateur local est le cas le plus simple. Certains scripts peuvent nécessiter des données d’accès sur l’ordinateur local, ainsi que sur des ordinateurs distants.
 
-**WinRM version 2,0 :  **
+* * WinRM version 2,0 : * *
 
-Toutes les opérations sont considérées comme distantes et le service WinRM doit être démarré avant l’exécution d’une opération. Si une destination distante n’est pas spécifiée, l’hôte local est utilisé par défaut, et toutes les opérations sont envoyées au service WinRM local. Pour plus d’informations sur le démarrage du service WinRM, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+Toutes les opérations sont considérées comme distantes et le service WinRM doit être démarré avant l’exécution d’une opération. Si une destination distante n’est pas spécifiée, l’hôte local est utilisé par défaut, et toutes les opérations sont envoyées au service WinRM local. pour plus d’informations sur le démarrage du service WinRM, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 Lors de l’utilisation du service WinRM pour les opérations locales, les facteurs suivants doivent être pris en compte :
 
@@ -33,7 +33,7 @@ Lors de l’utilisation du service WinRM pour les opérations locales, les facte
 
 Chaque script WinRM doit commencer par l’établissement d’une session ou d’une connexion à un ordinateur en créant un objet de [**session**](session.md) . Une fois la session créée, vous pouvez utiliser les méthodes d’objet de **session** , telles que [**session. Enumerate**](session-enumerate.md) ou [**session. Invoke**](session-invoke.md) pour obtenir des données ou exécuter des méthodes.
 
-La création d’une session est quelque peu similaire à la [connexion](/windows/desktop/WmiSdk/wmi-tasks--connecting-to-the-wmi-service) à un espace de noms Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page)). La session est essentiellement une couche qui vous permet d’envoyer et de recevoir des données par le biais de messages [*SOAP*](windows-remote-management-glossary.md) et du protocole WS-Management. Pour plus d’informations, consultez [protocole WS-Management](ws-management-protocol.md).
+la création d’une session est quelque peu similaire à la [connexion](/windows/desktop/WmiSdk/wmi-tasks--connecting-to-the-wmi-service) à un espace de noms Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page)). La session est essentiellement une couche qui vous permet d’envoyer et de recevoir des données par le biais de messages [*SOAP*](windows-remote-management-glossary.md) et du protocole WS-Management. Pour plus d’informations, consultez [protocole WS-Management](ws-management-protocol.md).
 
 L’appel de la méthode [**WSMan. CreateSession**](wsman-createsession.md) pour créer un objet de [**session**](session.md) démarre une [*session*](windows-remote-management-glossary.md) qui se connecte au WinRM local.
 
@@ -55,7 +55,7 @@ L’appel de la méthode [**WSMan. CreateSession**](wsman-createsession.md) pour
 
     
 
-3.  Créez un [*URI*](windows-remote-management-glossary.md) de ressource pour identifier la [*ressource*](windows-remote-management-glossary.md) que vous souhaitez gérer ou pour laquelle vous souhaitez obtenir des données. Pour plus d’informations sur la mise en forme d’un URI, consultez [URI de ressource](resource-uris.md). Cet URI de ressource est destiné à une instance spécifique de la classe de [**\_ service WMI Win32**](/windows/desktop/CIMWin32Prov/win32-service) , le service WinMgmt. Pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+3.  Créez un [*URI*](windows-remote-management-glossary.md) de ressource pour identifier la [*ressource*](windows-remote-management-glossary.md) que vous souhaitez gérer ou pour laquelle vous souhaitez obtenir des données. Pour plus d’informations sur la mise en forme d’un URI, consultez [URI de ressource](resource-uris.md). Cet URI de ressource est destiné à une instance spécifique de la classe de [**\_ service WMI Win32**](/windows/desktop/CIMWin32Prov/win32-service) , le service WinMgmt. pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
 
     ```VB
     strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt"
@@ -109,15 +109,15 @@ Wscript.Echo xmlFile.TransformNode(xslFile)
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Référence Windows Remote Management](windows-remote-management-reference.md)
+[Windows Informations de référence sur la gestion à distance](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

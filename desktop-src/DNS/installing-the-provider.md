@@ -6,12 +6,12 @@ keywords:
 - Domain Name System, fournisseur WMI, installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9b4b976ccb1a600f56042cb75b500577335059966a82dbb1f9e77b04f7a4df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 722ca33b8359c613986bf551a0280ad4eb3ac9d2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119693039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880095"
 ---
 # <a name="installing-the-provider"></a>Installation du fournisseur
 
@@ -22,7 +22,7 @@ la procédure d’installation du fournisseur WMI DNS diffère selon la version 
 **pour installer le fournisseur WMI DNS sur Windows serveur 2000**
 
 1.  procurez-vous le fournisseur WMI DNS pour Windows 2000 à partir du Kit de ressources du serveur Windows 2000 ou téléchargez le fichier, Dnsprov.zip, à partir de : ftp://ftp.microsoft.com/reskit/win2000/
-2.  Copiez les fichiers du fournisseur WMI DNS (Dnsprov.dll) et Dnsschema. mof dans le <winntdir> \\ \\ répertoire system32 wbem.
+2.  Copiez les fichiers du fournisseur WMI DNS (Dnsprov.dll) et Dnsschema. mof dans le &lt; &gt; \\ répertoire winntdir system32 \\ WBEM.
 3.  Compilez le fichier MOF. Cela permet de personnaliser le schéma pour qu’il corresponde au serveur.
 
     **mofcomp Dnsschema. mof**

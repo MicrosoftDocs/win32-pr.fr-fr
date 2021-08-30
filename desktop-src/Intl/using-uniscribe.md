@@ -4,12 +4,12 @@ ms.assetid: d27e82df-ee97-4f55-bfab-0d1e10eaa1b7
 title: Utilisation de Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dcfcd602940c04aa8615d141dd9a83db1fa2e55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73d5e4b6e02c2d6440281eafff54e43948edbe0a0259e969f3c564effb38092d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130039"
 ---
 # <a name="using-uniscribe"></a>Utilisation de Uniscribe
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3f98e6205a45530a0dbcce09d095dfaa2267ccbb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 416f222b3b4a3f3d10c12baf482d1c94687ba23596fcfbc92e59e1b7dab731e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056727"
 ---
 # <a name="cbasecontrolwindowput_windowstyle-method"></a>CBaseControlWindow. put, \_ méthode WindowStyle
 
@@ -53,9 +53,9 @@ Nouveaux styles de fenêtre.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Soyez vigilant lorsque vous modifiez les styles de fenêtre. Dans la plupart des cas, une application doit récupérer le style actuel, puis ajouter ou supprimer les bits inappropriés. Cette procédure permet à différents styles de fenêtre internes utilisés par Windows de rester intacts.
+Soyez vigilant lorsque vous modifiez les styles de fenêtre. Dans la plupart des cas, une application doit récupérer le style actuel, puis ajouter ou supprimer les bits inappropriés. cette procédure autorise différents styles de fenêtre internes utilisés par Windows pour rester intacts.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -63,7 +63,7 @@ Soyez vigilant lorsque vous modifiez les styles de fenêtre. Dans la plupart des
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1407af6cd1b9d9f3580c0721c37e5b54811f813c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 557349bd52ee08fefe38fdc883c5b46c76ec2acb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482025"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625915"
 ---
 # <a name="span-idvspixenginedescriptor_heap_columnsspandescriptor_heap_columns-enumeration"></a><span id="vspixengine.descriptor_heap_columns"></span>\_Énumération des colonnes du tas de DEscripteur \_
 
 Énumération utilisée pour indiquer une colonne dans la visionneuse du tas du descripteur.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -153,7 +153,7 @@ Valeur qui correspond au nombre maximal de colonnes prises en charge.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

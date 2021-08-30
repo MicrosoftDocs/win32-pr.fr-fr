@@ -1,19 +1,19 @@
 ---
-description: Le \_32.dll Ws2 charge la dll d’interface du fournisseur de services dans le système à l’aide des mécanismes de chargement standard de la bibliothèque dynamique Microsoft Windows et l’initialise en appelant WSPStartup.
+description: le \_32.dll Ws2 charge la DLL d’interface du fournisseur de services dans le système à l’aide des mécanismes de chargement de bibliothèque dynamique Microsoft Windows standard et l’initialise en appelant WSPStartup.
 ms.assetid: 6df28d93-8757-45b3-8f05-86381c3be64e
 title: Initialisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84d6ef10db421ef15f2bb94eb67e96fc2cfc5924
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76570fe401fb064047581a60a4340daf71b5a583034baf67b8e9b830ccae0dc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097869"
 ---
 # <a name="initialization"></a>Initialisation
 
-Le *\_32.dllWs2* charge la dll d’interface du fournisseur de services dans le système à l’aide des mécanismes de chargement standard de la bibliothèque dynamique Microsoft Windows et l’initialise en appelant [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup). Cette valeur est généralement déclenchée par une application qui appelle [**Socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) ou [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) pour créer un socket à associer à un fournisseur de services dont la dll d’interface n’est pas actuellement chargée en mémoire. Le chemin d’accès à chaque DLL d’interface du fournisseur de services est stocké par le *\_32.dllWs2* au moment de l’installation du fournisseur de services. Pour plus d’informations, consultez [fonctions d’installation et de configuration](installation-and-configuration-functions-2.md) .
+le *\_32.dllWs2* charge la DLL d’interface du fournisseur de services dans le système à l’aide des mécanismes de chargement de bibliothèque dynamique Microsoft Windows standard et l’initialise en appelant [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup). Cette valeur est généralement déclenchée par une application qui appelle [**Socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) ou [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) pour créer un socket à associer à un fournisseur de services dont la dll d’interface n’est pas actuellement chargée en mémoire. Le chemin d’accès à chaque DLL d’interface du fournisseur de services est stocké par le *\_32.dllWs2* au moment de l’installation du fournisseur de services. Pour plus d’informations, consultez [fonctions d’installation et de configuration](installation-and-configuration-functions-2.md) .
 
 Au fil du temps, différentes versions peuvent exister pour les dll, les applications et les fournisseurs de services Winsock. Les nouvelles versions peuvent définir de nouvelles fonctionnalités et de nouveaux paramètres pour les structures de données et les paramètres de bits, etc. Les numéros de version indiquent donc comment interpréter diverses structures de données.
 
@@ -34,7 +34,7 @@ L’utilisation d’une table de dispatch (par opposition aux mécanismes de DLL
 
 Au moment où la structure d' [**\_ informations WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) pour une chaîne de protocole est installée, le chemin d’accès au premier fournisseur superposé dans la chaîne est également spécifié. Quand une chaîne de protocole est initialisée, le \_32.dll Ws2 utilise ce chemin pour charger la dll du fournisseur, puis appelle [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup). Étant donné que **WSPStartup** contient un pointeur vers la structure **WSAPROTOCOL \_ info** de la chaîne comme l’un de ses paramètres, les fournisseurs superposés peuvent déterminer le type de chaîne dans lequel ils sont initialisés et l’identité de la couche inférieure suivante dans la chaîne. Un fournisseur superposé chargera ensuite le fournisseur de protocole suivant dans la chaîne et l’initialise avec un appel à **WSPStartup**, et ainsi de suite. Chaque fois que la couche inférieure suivante est un autre fournisseur superposé, la structure d' **\_ informations WSAPROTOCOL** de la chaîne doit être référencée dans l’appel **WSPStartup** . Lorsque la couche inférieure suivante est un protocole de base (signifiant la fin de la chaîne), la structure d' **\_ informations WSAPROTOCOL** de la chaîne n’est plus propagée vers le bas. Au lieu de cela, la couche actuelle doit faire référence à une structure **WSAPROTOCOL \_ info** qui correspond au protocole que le fournisseur de base doit utiliser. Ainsi, le fournisseur de base n’a aucune notion de impliqué dans une chaîne de protocole.
 
-La table de dispatch fournie par un fournisseur superposé donné, dans de nombreux cas, duplique les points d’entrée d’un fournisseur sous-jacent. Le fournisseur superposé insère uniquement ses propres points d’entrée pour les fonctions dont il devait être directement impliqué. Notez, cependant, qu’il est impératif qu’un fournisseur en couches ne modifie pas le contenu de la table de l’appel qu’il a reçue lors de l’appel de [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup) sur la couche inférieure suivante dans une chaîne de protocole. Ces appels doivent être effectués directement sur la DLL Windows Sockets 2.
+La table de dispatch fournie par un fournisseur superposé donné, dans de nombreux cas, duplique les points d’entrée d’un fournisseur sous-jacent. Le fournisseur superposé insère uniquement ses propres points d’entrée pour les fonctions dont il devait être directement impliqué. Notez, cependant, qu’il est impératif qu’un fournisseur en couches ne modifie pas le contenu de la table de l’appel qu’il a reçue lors de l’appel de [**WSPStartup**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup) sur la couche inférieure suivante dans une chaîne de protocole. ces appels doivent être effectués directement sur la DLL Windows sockets 2.
 
  
 

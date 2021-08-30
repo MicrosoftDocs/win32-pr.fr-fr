@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df5ab5854ceddfb1a969742924c8063450e611bc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f2e2c891e303bf6e10c79ec06a71ef18a11b2df6e85d9f509f306f7515f4bf6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119699"
 ---
 # <a name="cd3dx12_pipeline_state_stream_gs-structure"></a>\_Structure de \_ \_ flux \_ GS d’État du pipeline CD3DX12
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure de [**\_ \_ bytecode de nuanceur D3D12**](
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 CD3DX12 \_ pipeline \_ \_ Stream état \_ GS est une spécialisation typedef du modèle de sous-objet de [**flux d' \_ État de pipeline \_ \_ \_ CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 

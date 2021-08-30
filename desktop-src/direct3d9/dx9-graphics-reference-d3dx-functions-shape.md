@@ -4,12 +4,12 @@ ms.assetid: 3bebc321-3053-4056-a0a7-5cd5031f7302
 title: Fonctions de dessin de forme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dbf0ebb4d5047748b7cbc5313251f9fdd73152f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3b965016d749de0c2fe2403462804eaebadc1a421f38b0e08752404f231953bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118869"
 ---
 # <a name="shape-drawing-functions"></a>Fonctions de dessin de forme
 

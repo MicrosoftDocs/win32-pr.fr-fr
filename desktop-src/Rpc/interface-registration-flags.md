@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f33111bc7dc1acdf5ec12ba81b91b9ec37d7b9994c1af3821c0997562f49e81a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ba4a94fe1100db3cb332d85593ea42617657119
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928895"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476975"
 ---
 # <a name="interface-registration-flags"></a>Indicateurs d’inscription de l’interface
 
@@ -31,67 +31,18 @@ Les constantes suivantes sont utilisées dans le paramètre *Flags* des fonction
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constante</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="0"></span><dl> <dt><strong>entre</strong></dt> </dl></td>
-<td style="text-align: left;">Sémantique d’interface standard.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH"></span><span id="rpc_if_allow_callbacks_with_no_auth"></span><dl> <dt><strong>RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH</strong></dt> </dl></td>
-<td style="text-align: left;">Lorsque cet indicateur d’interface est inscrit, le runtime RPC appelle le rappel de sécurité inscrit pour tous les appels, quelle que soit l’identité, la séquence de protocole ou le niveau d’authentification du client.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1. Lorsque cet indicateur n’est pas défini, RPC filtre automatiquement tous les appels non authentifiés avant qu’ils n’atteignent le rappel de sécurité.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="RPC_IF_ALLOW_LOCAL_ONLY"></span><span id="rpc_if_allow_local_only"></span><dl> <dt><strong>RPC_IF_ALLOW_LOCAL_ONLY</strong></dt> </dl></td>
-<td style="text-align: left;">Lorsque cet indicateur d’interface est inscrit, le runtime RPC rejette les appels effectués par les clients distants. Tous les appels locaux à l’aide de séquences de protocole ncadg_ * et ncacn_ * sont également rejetés, à l’exception de ncacn_np. RPC autorise les appels de ncacn_NP uniquement si l’appel n’est pas fourni par SRV. Les appels de Ncalrpc sont toujours traités.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="RPC_IF_AUTOLISTEN"></span><span id="rpc_if_autolisten"></span><dl> <dt><strong>RPC_IF_AUTOLISTEN</strong></dt> </dl></td>
-<td style="text-align: left;">Il s’agit d’une interface d' <strong>écoute automatique</strong> . Le temps d’exécution commence à écouter les appels dès que la première interface autolistn est inscrite et cesse d’écouter lorsque la dernière interface autolistn est désinscrite.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="RPC_IF_OLE"></span><span id="rpc_if_ole"></span><dl> <dt><strong>RPC_IF_OLE</strong></dt> </dl></td>
-<td style="text-align: left;">Réservé pour OLE. N’utilisez pas cet indicateur.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="RPC_IF_ALLOW_UNKNOWN_AUTHORITY"></span><span id="rpc_if_allow_unknown_authority"></span><dl> <dt><strong>RPC_IF_ALLOW_UNKNOWN_AUTHORITY</strong></dt> </dl></td>
-<td style="text-align: left;">Non implémenté actuellement.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="RPC_IF_ALLOW_SECURE_ONLY"></span><span id="rpc_if_allow_secure_only"></span><dl> <dt><strong>RPC_IF_ALLOW_SECURE_ONLY</strong></dt> </dl></td>
-<td style="text-align: left;">Limite les connexions aux clients qui utilisent un niveau d’autorisation supérieur à RPC_C_AUTHN_LEVEL_NONE. La spécification de cet indicateur permet aux clients de traverser la session <strong>null</strong> . sur Windows XP et Windows Server 2003, ces clients ne sont pas autorisés. Les clients qui échouent au test de RPC_IF_ALLOW_SECURE_ONLY reçoivent une erreur de RPC_S_ACCESS_DENIED. L’utilisation de l’indicateur RPC_IF_ALLOW_SECURE_ONLY n’implique pas ou ne garantit pas un niveau élevé de privilège sur la partie de l’utilisateur appelant. RPC vérifie uniquement que l’utilisateur dispose d’informations d’identification valides ; l’utilisateur appelant peut utiliser le compte invité ou d’autres comptes à faibles privilèges. N’assumez pas de privilèges élevés lorsque RPC_IF_ALLOW_SECURE_ONLY est utilisé.<br/> <strong>Windows NT 4,0 et Windows Me/98/95 :</strong><br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="RPC_IF_SEC_NO_CACHE"></span><span id="rpc_if_sec_no_cache"></span><dl> <dt><strong>RPC_IF_SEC_NO_CACHE</strong></dt> </dl></td>
-<td style="text-align: left;">Désactive la mise en cache des rappels de sécurité, en forçant un rappel de sécurité pour chaque appel RPC sur une interface donnée.<br/>
-<blockquote>
-[!Note]<br />
-cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constante | Description | 
+|----------|-------------|
+| <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | Sémantique d’interface standard.<br /> | 
+| <span id="RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH"></span><span id="rpc_if_allow_callbacks_with_no_auth"></span><dl><dt><strong>RPC_IF_ALLOW_CALLBACKS_WITH_NO_AUTH</strong></dt></dl> | Lorsque cet indicateur d’interface est inscrit, le runtime RPC appelle le rappel de sécurité inscrit pour tous les appels, quelle que soit l’identité, la séquence de protocole ou le niveau d’authentification du client.<br /><blockquote>[!Note]<br />cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1. Lorsque cet indicateur n’est pas défini, RPC filtre automatiquement tous les appels non authentifiés avant qu’ils n’atteignent le rappel de sécurité.</blockquote><br /> | 
+| <span id="RPC_IF_ALLOW_LOCAL_ONLY"></span><span id="rpc_if_allow_local_only"></span><dl><dt><strong>RPC_IF_ALLOW_LOCAL_ONLY</strong></dt></dl> | Lorsque cet indicateur d’interface est inscrit, le runtime RPC rejette les appels effectués par les clients distants. Tous les appels locaux à l’aide de séquences de protocole ncadg_ * et ncacn_ * sont également rejetés, à l’exception de ncacn_np. RPC autorise les appels de ncacn_NP uniquement si l’appel n’est pas fourni par SRV. Les appels de Ncalrpc sont toujours traités.<br /><blockquote>[!Note]<br />cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1.</blockquote><br /> | 
+| <span id="RPC_IF_AUTOLISTEN"></span><span id="rpc_if_autolisten"></span><dl><dt><strong>RPC_IF_AUTOLISTEN</strong></dt></dl> | Il s’agit d’une interface d' <strong>écoute automatique</strong> . Le temps d’exécution commence à écouter les appels dès que la première interface autolistn est inscrite et cesse d’écouter lorsque la dernière interface autolistn est désinscrite.<br /> | 
+| <span id="RPC_IF_OLE"></span><span id="rpc_if_ole"></span><dl><dt><strong>RPC_IF_OLE</strong></dt></dl> | Réservé pour OLE. N’utilisez pas cet indicateur.<br /> | 
+| <span id="RPC_IF_ALLOW_UNKNOWN_AUTHORITY"></span><span id="rpc_if_allow_unknown_authority"></span><dl><dt><strong>RPC_IF_ALLOW_UNKNOWN_AUTHORITY</strong></dt></dl> | Non implémenté actuellement.<br /> | 
+| <span id="RPC_IF_ALLOW_SECURE_ONLY"></span><span id="rpc_if_allow_secure_only"></span><dl><dt><strong>RPC_IF_ALLOW_SECURE_ONLY</strong></dt></dl> | Limite les connexions aux clients qui utilisent un niveau d’autorisation supérieur à RPC_C_AUTHN_LEVEL_NONE. La spécification de cet indicateur permet aux clients de traverser la session <strong>null</strong> . sur Windows XP et Windows Server 2003, ces clients ne sont pas autorisés. Les clients qui échouent au test de RPC_IF_ALLOW_SECURE_ONLY reçoivent une erreur de RPC_S_ACCESS_DENIED. L’utilisation de l’indicateur RPC_IF_ALLOW_SECURE_ONLY n’implique pas ou ne garantit pas un niveau élevé de privilège sur la partie de l’utilisateur appelant. RPC vérifie uniquement que l’utilisateur dispose d’informations d’identification valides ; l’utilisateur appelant peut utiliser le compte invité ou d’autres comptes à faibles privilèges. N’assumez pas de privilèges élevés lorsque RPC_IF_ALLOW_SECURE_ONLY est utilisé.<br /><strong>Windows NT 4,0 et Windows Me/98/95 :</strong><br /> | 
+| <span id="RPC_IF_SEC_NO_CACHE"></span><span id="rpc_if_sec_no_cache"></span><dl><dt><strong>RPC_IF_SEC_NO_CACHE</strong></dt></dl> | Désactive la mise en cache des rappels de sécurité, en forçant un rappel de sécurité pour chaque appel RPC sur une interface donnée.<br /><blockquote>[!Note]<br />cet indicateur est disponible à partir de Windows XP avec SP2 et Windows Server 2003 avec SP1.</blockquote><br /> | 
+
 
 
 

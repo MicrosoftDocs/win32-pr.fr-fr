@@ -4,12 +4,12 @@ ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
 title: Décodeur vidéo Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4afdd9609124ba1057f597c4b7a907654c62a321
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: b9fccfe5cf584dca639601b09d02957540d74cee
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982192"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475725"
 ---
 # <a name="microsoft-mpeg-2-video-decoder"></a>Décodeur vidéo Microsoft MPEG-2
 
@@ -136,12 +136,7 @@ Pour MPEG-1 et MPEG-2, le décodeur prend en charge les formats suivants :
 
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| Profils/niveaux | N’importe quelle combinaison des profils et niveaux suivants :<br /><ul><li>Profils : simple, main</li><li>Niveaux : faible, principal, élevé, élevé 1440</li></ul> | 
-| Formats de chrominance | 4:2:0 Chroma | 
-| Résolution maximale | 1920 × 1088 pixels | 
-| DXVA | Le décodeur prend en charge la version 1 et la version 2 de DirectX Video Acceleration (DXVA). | 
+| | | Profils/niveaux | N’importe quelle combinaison des profils et niveaux suivants :<br /><ul><li>Profils : simple, main</li><li>Niveaux : faible, principal, élevé, élevé 1440</li></ul> | | Formats Chroma | 4:2:0 Chroma | | Résolution maximale | 1920 × 1088 pixels | | DXVA | Le décodeur prend en charge la version 1 et la version 2 de DirectX Video Acceleration (DXVA). | 
 
 
 

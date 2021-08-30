@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4d7c835d5077d2bfee87025b202480a888de981
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 1405b0c4d2f902950dc9253d095f526f4d4866ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988582"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480445"
 ---
 # <a name="jetgetindexinfo-function"></a>Fonction JetGetIndexInfo
 
@@ -118,14 +118,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 #### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
-| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
-| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetIndexInfoW</strong> (Unicode) et <strong>JetGetIndexInfoA</strong> (ANSI).</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetIndexInfoW</strong> (Unicode) et <strong>JetGetIndexInfoA</strong> (ANSI).</p> | 
 
 
 

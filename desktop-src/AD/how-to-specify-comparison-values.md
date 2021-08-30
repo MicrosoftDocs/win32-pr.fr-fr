@@ -7,12 +7,12 @@ keywords:
 - Comment spécifier des valeurs de comparaison AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5babc7d9781895c9671594214e4e036a85ef951cdb4b97ba34d708d160dd8fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b847f681be876ff768a51a9f5da875cb653faa51
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118188120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881388"
 ---
 # <a name="how-to-specify-comparison-values"></a>Comment spécifier des valeurs de comparaison
 
@@ -59,7 +59,7 @@ La valeur spécifiée dans un filtre doit être un entier décimal. Les valeurs 
 
 
 
-" <attribute name> " est le **lDAPDisplayName** de l’attribut et "<value>"est la valeur à utiliser pour la comparaison.
+" <attribute name> " est le **lDAPDisplayName** de l’attribut et " &lt; value &gt; " est la valeur à utiliser pour la comparaison.
 
 L’exemple de code suivant affiche un filtre qui recherche les objets dont la valeur de **GroupType** est égale à l’indicateur de groupe **\_ \_ \_ universel de \_ type** de groupe ADS (8) et l’indicateur de **\_ sécurité de type de groupe \_ \_ \_ ADS** (0x80000000). Les deux indicateurs combinés égal à 0x80000008, qui sont convertis en décimal est 2147483656.
 

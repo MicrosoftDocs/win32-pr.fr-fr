@@ -4,27 +4,27 @@ description: Cette rubrique montre comment définir l’affichage en mosaïque p
 ms.assetid: BDE17F4B-3A15-48BB-8160-036AD0DC3B41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 616a9bb8a2c1707d903f0ebe2b6de86511dc6ce4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d746bc74b816a6c14447a7f1e7d57a552bf1a08581cbcbba3e51f48a2143caab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132039"
 ---
 # <a name="how-to-use-tile-views"></a>Utilisation des affichages en mosaïque
 
 Cette rubrique montre comment définir l’affichage en mosaïque pour un contrôle List View. En mode mosaïque, chaque élément est représenté par une grande icône avec une ou plusieurs lignes de texte d’accompagnement. Pour obtenir une illustration, consultez [à propos des contrôles de List-View](list-view-controls-overview.md).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

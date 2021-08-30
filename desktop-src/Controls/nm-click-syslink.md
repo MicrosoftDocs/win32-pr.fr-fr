@@ -3,7 +3,7 @@ title: Code de notification NM_CLICK (Syslink) (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle que l’utilisateur a cliqué sur un lien hypertexte avec le bouton gauche de la souris dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e92d7c92-f2c6-44aa-bce5-3bb07c184e7d
 keywords:
-- Contrôles Windows de code de notification NM_CLICK (Syslink)
+- Windows les contrôles de code de notification d’NM_CLICK (syslink)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea34682b0cfdfdf1206a133abe4fdb22b8af5cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8b3dd9b8ae4e0621898ceb50165af1d680340e352d6579a66e1f9355ec62e6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061749"
 ---
 # <a name="nm_click-syslink-notification-code"></a>\_Code de notification de clic (Syslink) nm
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMLINK**](/windows/win32/api/commctrl/ns-commctrl
 
 La valeur de retour est ignorée par le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Pour utiliser ce code de notification, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
@@ -62,8 +62,8 @@ La valeur de retour est ignorée par le contrôle.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

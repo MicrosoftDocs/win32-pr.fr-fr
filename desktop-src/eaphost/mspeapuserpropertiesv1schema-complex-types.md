@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9f51e2003cfa0d737d823a31b674df1b1d4d3d44
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 458e8242e79bc8284a88692511b537e442e039ff290a2b947b3b3cee7d85543c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106511320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117459"
 ---
 # <a name="mspeapuserpropertiesv1-schema-complex-types"></a>Types complexes de schéma mspeapuserpropertiesv1
 
@@ -32,9 +32,9 @@ Le schéma [mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md) déf
 [Schéma mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

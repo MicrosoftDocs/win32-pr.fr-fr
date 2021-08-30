@@ -4,16 +4,16 @@ ms.assetid: cc3c26ed-a007-4350-99be-0ebd94953689
 title: Calcul des valeurs de paramètre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dac0767d7d19bc4331e1a9ee032ec5b3eaae2e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ad23cb9c50413fed36dde205ef97be0139dd6152f0a301f230793ef2cb131684
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057769"
 ---
 # <a name="calculating-parameter-values"></a>Calcul des valeurs de paramètre
 
-Éventuellement, une mémoire tampon d’entrée peut être très volumineuse. Dans l’idéal, lorsque DMO traite la mémoire tampon, les paramètres suivent exactement leurs courbes dans tout le lot de données. Toutefois, un DMO a une certaine liberté dans la manière dont il calcule ces valeurs.
+Éventuellement, une mémoire tampon d’entrée peut être très volumineuse. dans l’idéal, lorsque le DMO traite la mémoire tampon, les paramètres suivent exactement leurs courbes dans tout le lot de données. toutefois, un DMO a une certaine liberté dans la manière dont il calcule ces valeurs.
 
 -   L’approche la plus précise consiste à calculer la valeur exacte pour chaque unité atomique de données ; par exemple, chaque exemple audio. Cette approche est la plus coûteuse en termes de calcul.
 -   Une autre approche consiste à découper les données en unités plus petites de taille fixe, comme les exemples 100. Cette approche crée un effet « escalier-Stepping ». Pour certains paramètres, cela peut être acceptable. Dans les effets audio, il peut créer des artefacts sonores.

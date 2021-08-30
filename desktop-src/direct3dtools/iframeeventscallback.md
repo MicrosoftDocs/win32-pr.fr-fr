@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 98815681db182c99a86c05c1ea22eaad41526438
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7a4359976fb0c4f74bce16dbd1b8e4a51b779f59bf9608517805cf8dffb660d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106519188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118119"
 ---
 # <a name="span-idvspixengineiframeeventscallbackspaniframeeventscallback-interface"></a><span id="vspixengine.iframeeventscallback"></span>Interface IFrameEventsCallback
 

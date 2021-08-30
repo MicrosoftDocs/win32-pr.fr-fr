@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e3630a486f6c8fcd456373445bd931d878fdc38e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 40853dc748167e011bc81e5407a797c402837c0d1461a94a3e1534f1e45c756c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096039"
 ---
 # <a name="d3dxvec4cross-function-d3dx9mathh"></a>D3DXVec4Cross, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le produit croisé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Cross** peut être utilisée comme paramètre pour une autre fonction.
 

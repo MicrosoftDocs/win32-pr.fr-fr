@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbe08e0315d4c4b906cdb897ac7ad5dd34d50fbf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d714fadce30748d337f9b6ff7a0d0aee59dbcb61e12744141c25bb78f07fa69c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094609"
 ---
 # <a name="dwm-blur-behind-constants"></a>Brouilleur de DWM derrière les constantes
 
@@ -72,8 +72,8 @@ Une valeur a été spécifiée pour le membre **fTransitionOnMaximized** .
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Dwmapi. h</dt> </dl> |
 
 

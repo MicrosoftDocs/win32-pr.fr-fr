@@ -4,12 +4,12 @@ ms.assetid: 01bf097a-0e02-4af9-94e3-e2b614875f72
 title: System. Devices. AepContainer. SupportsTelephony
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a032349b29dba136592f914e5c5ab4a93d4a895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82e53ab9767ff84231842cd86e0fbedbda90f935f845cf4770cbb05f98ccce28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091459"
 ---
 # <a name="systemdevicesaepcontainersupportstelephony"></a>System. Devices. AepContainer. SupportsTelephony
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,36 +1,36 @@
 - name: Stockage structuré
   href: structured-storage-start-page.md
   items:
-    - name: À propos du stockage structuré
+    - name: à propos des Stockage structurées
       href: about-structured-storage.md
       items:
-        - name: Avantages du stockage structuré
+        - name: avantages des Stockage structurées
           href: benefits-of-structured-storage.md
           items:
             - name: L’évolution des systèmes de fichiers
               href: the-evolution-of-file-systems.md
-            - name: Stockages et flux
+            - name: Stockages et Flux
               href: storages-and-streams.md
             - name: Fichiers composés
               href: compound-files.md
-        - name: Notions de base sur le stockage structuré
+        - name: notions de base de Stockage structurées
           href: structured-storage-fundamentals.md
           items:
-            - name: Objets COM et stockage structuré
+            - name: objets COM et Stockage structurés
               href: com-objects-and-structured-storage.md
-            - name: Conventions d’affectation de noms aux objets de stockage
+            - name: Stockage Conventions d’affectation des noms d’objets
               href: storage-object-naming-conventions.md
-            - name: Interfaces de stockage structuré
+            - name: Interfaces de Stockage structurées
               href: structured-storage-interfaces.md
-            - name: Fonctions de l’API de stockage structuré
+            - name: fonctions d’API Stockage structurées
               href: structured-storage-api-functions.md
               items:
-                - name: Modes d’accès de stockage structuré
+                - name: Modes d’accès structurés Stockage
                   href: structured-storage-access-modes.md
                   items:
                     - name: Indicateurs de transaction
                       href: transaction-flags.md
-                    - name: Indicateurs de création de stockage
+                    - name: Stockage Indicateurs de création
                       href: storage-creation-flags.md
                     - name: Indicateurs de création temporaires
                       href: temporary-creation-flags.md
@@ -49,7 +49,7 @@
                   href: predefined-property-set-format-identifiers.md
                 - name: Jeux de propriétés DocumentSummaryInformation et UserDefined
                   href: the-documentsummaryinformation-and-userdefined-property-sets.md
-            - name: Format du jeu de propriétés sérialisées de stockage structuré
+            - name: Format de jeu de propriétés sérialisé Stockage sérialisé
               href: structured-storage-serialized-property-set-format.md
               items:
                 - name: En-tête de jeu de propriétés
@@ -91,15 +91,15 @@
         - name: Stockage asynchrone
           href: asynchronous-storage.md
           items:
-            - name: Modes de stockage
+            - name: Stockage Façons
               href: storage-modes.md
             - name: Fichiers composés asynchrones
               href: asynchronous-compound-files.md
-            - name: Fonctionnement de la liaison asynchrone et du stockage
+            - name: fonctionnement de la liaison asynchrone et du Stockage
               href: how-asynchronous-binding-and-storage-work.md
             - name: Optimisation des fichiers composés
               href: compound-file-optimization.md
-    - name: Utilisation du stockage structuré
+    - name: utilisation de Stockage structurées
       href: using-structured-storage.md
       items:
         - name: Comment générer des exemples
@@ -115,10 +115,10 @@
               href: extracting-the-code-samples.md
             - name: Conventions de style de codage
               href: coding-style-conventions.md
-        - name: Exemples de stockage structuré
+        - name: exemples de Stockage structurés
           href: structured-storage-samples.md
           items:
-            - name: Exemple de client de stockage structuré (StoClien)
+            - name: exemple de Client structuré Stockage (StoClien)
               href: structured-storage-client-sample--stoclien-.md
               items:
                 - name: Présentation de StoClien
@@ -151,7 +151,7 @@
                           href: save-method---cpapfile.md
                         - name: 'Load, méthode-CPapFile'
                           href: load-method---cpapfile.md
-            - name: Exemple de serveur de stockage structuré (StoServe)
+            - name: exemple de serveur structuré Stockage (StoServe)
               href: structured-storage-server-sample--stoserve-.md
               items:
                 - name: Présentation de StoServe
@@ -179,7 +179,7 @@
         - name: Gestion des propriétés
           href: managing-properties.md
           items:
-            - name: Considérations sur le stockage des propriétés
+            - name: considérations relatives à la Stockage de propriétés
               href: property-storage-considerations.md
         - name: Gestion des jeux de propriétés
           href: managing-property-sets.md
@@ -195,7 +195,7 @@
                       items:
                         - name: Noms dans IStorage
                           href: names-in-istorage.md
-                        - name: Objets de stockage et de flux pour un jeu de propriétés
+                        - name: Stockage et objets de flux pour un jeu de propriétés
                           href: storage-vs--stream-for-a-property-set.md
                         - name: Définition de l’identificateur de classe du jeu de propriétés
                           href: setting-the-property-set-class-identifier.md
@@ -215,7 +215,7 @@
                   href: performance-characteristics.md
                 - name: Implémentation du jeu de propriétés d’informations de résumé
                   href: implementing-the-summary-information-property-set.md
-    - name: Référence de stockage structuré
+    - name: référence de Stockage structurée
       href: structured-storage-reference.md
       items:
         - name: Interfaces
@@ -342,9 +342,9 @@
               items:
                 - name: Créer
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create
-                - name: DELETE
+                - name: Supprimer
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-delete
-                - name: Enum
+                - name: Énumération
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-enum
                 - name: Ouvrir
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open
@@ -363,7 +363,7 @@
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletemultiple
                 - name: DeletePropertyNames
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletepropertynames
-                - name: Enum
+                - name: Énumération
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-enum
                 - name: ReadMultiple
                   href: /windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple

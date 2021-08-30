@@ -4,12 +4,12 @@ ms.assetid: c4efa821-fb9f-4606-898a-5be103581f39
 title: SENSOR_CATEGORY_ELECTRICAL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b3487b779cfefc78a541fcc72d1f2c5c5e7c0db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 155859dd82dbc9f43368d149c6d644bd42d4875661c87526b9fa66d7f20f0686
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126629"
 ---
 # <a name="sensor_category_electrical"></a>catégorie de capteur \_ \_ électrique
 
@@ -63,7 +63,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

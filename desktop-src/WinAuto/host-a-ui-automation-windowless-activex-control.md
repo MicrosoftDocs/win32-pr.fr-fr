@@ -1,35 +1,35 @@
 ---
-title: Héberger un contrôle ActiveX UI Automation sans fenêtre
-description: Découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles Microsoft ActiveX sans fenêtre qui implémentent l’automatisation d’interface utilisateur de Microsoft.
+title: héberger un contrôle de ActiveX sans fenêtre UI Automation
+description: découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles microsoft ActiveX sans fenêtre qui implémentent l’automatisation de l’interface utilisateur de microsoft.
 ms.assetid: A0F82968-F434-4F5E-8052-CF7CE65DB120
 keywords:
-- UI Automation, contrôle ActiveX sans fenêtre
-- Contrôle ActiveX sans fenêtre, UI Automation
+- UI Automation, contrôle de ActiveX sans fenêtre
+- contrôle de ActiveX sans fenêtre, UI Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77026d923ea6f0d2536cbd6a94966ec858443258
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c8f39983bc5252aabb9eb58dfcfd117fe8e07297e5545f0596fec777ab6f2e64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122169"
 ---
-# <a name="host-a-ui-automation-windowless-activex-control"></a>Héberger un contrôle ActiveX UI Automation sans fenêtre
+# <a name="host-a-ui-automation-windowless-activex-control"></a>héberger un contrôle de ActiveX sans fenêtre UI Automation
 
-Découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles Microsoft ActiveX sans fenêtre qui implémentent l’automatisation d’interface utilisateur de Microsoft. En suivant les étapes décrites ici, vous pouvez vous assurer que les contrôles sans fenêtre UI Automation qui sont hébergés dans votre conteneur de contrôle sont accessibles aux applications clientes de technologie d’assistance (AT).
+découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles microsoft ActiveX sans fenêtre qui implémentent l’automatisation de l’interface utilisateur de microsoft. En suivant les étapes décrites ici, vous pouvez vous assurer que les contrôles sans fenêtre UI Automation qui sont hébergés dans votre conteneur de contrôle sont accessibles aux applications clientes de technologie d’assistance (AT).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles ActiveX](/windows/desktop/com/activex-controls)
+-   [ActiveX Commandes](/windows/desktop/com/activex-controls)
 -   [UI Automation](entry-uiauto-win32.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
 -   Programmation Microsoft Win32 et COM (Component Object Model)
--   Contrôles ActiveX sans fenêtre
+-   contrôles ActiveX sans fenêtre
 -   Fournisseurs UI Automation
 
 ## <a name="instructions"></a>Instructions
@@ -141,18 +141,18 @@ Un conteneur de contrôle implémente l’interface [**IRawElementProviderWindow
 
 ### <a name="step-3-optional-implement-the-irawelementproviderhostingaccessibles-interface"></a>Étape 3 : facultatif : implémentez l’interface IRawElementProviderHostingAccessibles.
 
-Implémentez l’interface [**IRawElementProviderHostingAccessibles**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles) si votre conteneur de contrôle a une implémentation de fournisseur UI Automation qui est la racine d’une arborescence d’accessibilité qui inclut des contrôles ActiveX sans fenêtre qui prennent en charge Microsoft Active Accessibility. L’interface **IRawElementProviderHostingAccessibles** possède une méthode unique, [**GetEmbeddedAccessibles**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles), qui récupère les pointeurs d’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) de tous les contrôles ActiveX de Microsoft Active Accessibility qui sont hébergés par votre conteneur de contrôle.
+implémentez l’interface [**IRawElementProviderHostingAccessibles**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles) si votre conteneur de contrôle a une implémentation de fournisseur UI Automation qui est la racine d’une arborescence d’accessibilité qui inclut des contrôles de ActiveX sans fenêtre qui prennent en charge Microsoft Active Accessibility. l’interface **IRawElementProviderHostingAccessibles** possède une méthode unique, [**GetEmbeddedAccessibles**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles), qui récupère les pointeurs d’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) de tous les contrôles de ActiveX sans fenêtre basés sur Microsoft Active Accessibility qui sont hébergés par votre conteneur de contrôle.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Comment héberger un contrôle ActiveX sans fenêtre MSAA](host-an-msaa-windowless-activex-control.md)
+[comment héberger un contrôle de ActiveX sans fenêtre MSAA](host-an-msaa-windowless-activex-control.md)
 </dt> <dt>
 
-[Accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
+[accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shobjidl.idl
-ms.openlocfilehash: 2d36b11baffdc3f587924acd1732cbdfdb43d37f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6871aea0fc18ce64939fa1bba06946f8a3a1c260e341b1dfa500a71f273a883b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121579"
 ---
 # <a name="ipackagedebugsettingsresume-method"></a>IPackageDebugSettings :: Resume, méthode
 
@@ -54,7 +54,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque processus reçoit l’événement de [**reprise**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) . Il peut être utile pour les développeurs d’effectuer un pas à pas détaillé de la façon dont leurs applications répondent à cet événement.
 

@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 592301f0fcdbbb0d3d5babba446583d2e48db086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60dca8346d9a4cd11de4d53dd87611e79e01c45dba555f45907721fe529b352a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097498"
 ---
 # <a name="sio_query_transport_setting-control-code"></a>Code de contrôle SIO_QUERY_TRANSPORT_SETTING
 
@@ -148,25 +148,25 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur s n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si **le \_ \_ \_ paramètre de transport IOCTL de requête SIO** n’est pas pris en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le **\_ paramètre de \_ transport \_ de requête SIO** IOCTL est pris en charge sur windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
+le **\_ paramètre de \_ TRANSPORT \_ de requête SIO** IOCTL est pris en charge sur Windows 8, Windows Server 2012 et les versions ultérieures du système d’exploitation.
 
 Le **\_ paramètre de \_ transport \_ de requête SIO** IOCTL est un ioctl générique utilisé pour interroger les paramètres de transport sur un Socket.
 Le paramètre de transport interrogé est basé sur le [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) passé dans le paramètre *lpvInBuffer* .
 
 Le seul paramètre de transport actuellement défini est pour la fonctionnalité de **\_ fonctionnalité de \_ notification \_ en temps réel** sur un socket TCP.
 
-Si le [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) passé dans le paramètre *lpvInBuffer* a le membre GUID défini sur **la \_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’interrogation des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application du Windows Store.
+si le [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) passé dans le paramètre *lpvInBuffer* a le membre Guid défini sur **la \_ \_ \_ fonctionnalité de notification en temps réel**, il s’agit d’une demande d’interrogation des paramètres de notification en temps réel pour le socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application Windows Store.
 Le paramètre *lpvInBuffer* doit pointer vers une structure [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) .
 Le paramètre *lpvOutBuffer* doit pointer vers une structure de sortie de **paramètre de \_ notification en temps \_ \_ \_ réel** .
 Ce paramètre de transport s’applique uniquement aux sockets TCP.
 Ce paramètre de transport permet à WinInet ou aux services réseau similaires d’interroger un socket TCP donné pour déterminer l’état de [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) .
-Une application du Windows Store n’appellera pas cette IOCTL directement.
+une application du windows Store Windows n’appellera pas cette IOCTL directement.
 Si l’appel [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** réussit, cette IOCTL retourne une structure de sortie de **\_ \_ \_ paramètre \_ de notification en temps réel** avec l’état actuel.
 
 Le **\_ paramètre de \_ transport \_ de requête SIO** IOCTL permet à WinInet ou aux services réseau similaires d’interroger l’état du paramètre de transport d’un socket TCP donné pour déterminer si [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) est activé sur le Socket.
-Une application du Windows Store n’appellera pas cette IOCTL directement.
+une application du windows Store Windows n’appellera pas cette IOCTL directement.
 
 Cette IOCTL s’applique uniquement aux sockets TCP.
 

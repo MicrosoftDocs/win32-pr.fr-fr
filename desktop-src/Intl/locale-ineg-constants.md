@@ -4,12 +4,12 @@ ms.assetid: 3a1e4a63-31bd-4ff9-a3ca-af357389e179
 title: Constantes LOCALE_INEG *
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b17c61f0ca769206f30b84aa73cc3548ad9b915
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb5c40b2fc53e93653753eeb61048251a7fe55c6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318573"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626765"
 ---
 # <a name="locale_ineg-constants"></a>Paramètres régionaux \_ INEG \* constantes
 
@@ -19,8 +19,8 @@ Cette rubrique définit les \_ \* constantes INEG des paramètres régionaux uti
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ccdc81b21ba18fe3983a44655d23c9d463045b18
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 237880ab84bedc1671fdbf0eaa87e08ad0ba85ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880605"
 ---
 # <a name="sampler-type"></a>Type d’échantillonneur
 
@@ -163,7 +163,7 @@ Lorsque vous implémentez un effet, l’état de l’échantillonneur est l’un
 <td><pre><code>sampler MeshTextureSampler = 
 sampler_state
 {
-    Texture = <g_MeshTexture>;
+    Texture = &lt;g_MeshTexture&gt;;
     MipFilter = LINEAR;
     MinFilter = LINEAR;
     MagFilter = LINEAR;

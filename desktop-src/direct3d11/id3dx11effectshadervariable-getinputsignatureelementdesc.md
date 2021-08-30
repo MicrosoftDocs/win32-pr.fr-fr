@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf788370c26da1ba773d797de544b1a64750d90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 0f494d24e1a92fedb000847569841fb364338bb430c85bfd5e0bc8ab7aba4fb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069669"
 ---
 # <a name="id3dx11effectshadervariablegetinputsignatureelementdesc-method"></a>ID3DX11EffectShaderVariable :: GetInputSignatureElementDesc, méthode
 
@@ -78,7 +78,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Retourne l’un des [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet contient un ou plusieurs nuanceurs ; chaque nuanceur a une signature d’entrée et de sortie ; chaque signature contient un ou plusieurs éléments (ou paramètres). L’index du nuanceur identifie le nuanceur et l’index de l’élément identifie l’élément (ou le paramètre) dans la signature du nuanceur.
 
@@ -87,7 +87,7 @@ Un effet contient un ou plusieurs nuanceurs ; chaque nuanceur a une signature d
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

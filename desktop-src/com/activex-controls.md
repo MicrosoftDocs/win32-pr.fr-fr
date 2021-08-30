@@ -4,16 +4,16 @@ description: Contrôles ActiveX
 ms.assetid: e491b66c-d6ba-4476-8413-7a9e41c05e8d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b75aabfbf2b81b4a4d3a45a1868a6eebf6fd4e6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 50ed15af27b97b1f21a3b82907c5e4adcb74b9b0f588bb79c21c4b968da61822
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097079"
 ---
 # <a name="activex-controls"></a>Contrôles ActiveX
 
-La technologie des contrôles ActiveX repose sur une Fondation composée d’objets COM, connectables, de documents composés, de pages de propriétés, d’Automation OLE, de persistance d’objets et d’objets de police et d’image fournis par le système. Comme résumé ci-dessous, chacune de ces technologies de base joue un rôle dans les contrôles.
+ActiveX contrôle la technologie reposant sur une fondation composée d’objets COM, connectables, de documents composés, de pages de propriétés, d’automation OLE, de persistance d’objets et d’objets de police et d’image fournis par le système. Comme résumé ci-dessous, chacune de ces technologies de base joue un rôle dans les contrôles.
 
 <dl> <dt>
 
@@ -80,12 +80,12 @@ Outre ces fonctionnalités, les interfaces et fonctions suivantes sont spécifiq
 > [!Note]  
 > La bibliothèque système OleAut32.dll contient des implémentations des fonctions ([**OleCreatePropertyFrame**](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframe), [**OleCreatePropertyFrameIndirect**](/windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframeindirect), [**OleCreateFontIndirect**](/windows/desktop/api/OleCtl/nf-olectl-olecreatefontindirect), [**OleCreatePictureIndirect**](/windows/desktop/api/OleCtl/nf-olectl-olecreatepictureindirect), [**OleLoadPicture**](/windows/desktop/api/OleCtl/nf-olectl-oleloadpicture)et [**OleTranslateColor**](/windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor)). En outre, OleAut32.dll contient les implémentations des objets de police et d’image standard, ainsi qu’une bibliothèque de types pour toutes les interfaces utilisées avec les contrôles, ainsi que les structures de données et types de données supplémentaires.
 
- 
+ 
 
 Pour plus d'informations, voir les rubriques suivantes :
 
--   [Architecture des contrôles ActiveX](activex-controls-architecture.md)
--   [Interfaces de contrôles ActiveX](activex-controls-interfaces.md)
+-   [ActiveX Architecture des contrôles](activex-controls-architecture.md)
+-   [ActiveX Interfaces de contrôles](activex-controls-interfaces.md)
 -   [Propriétés et méthodes](properties-and-methods.md)
 -   [Événements de contrôle](control-events.md)
 -   [Représentation visuelle](visual-representation.md)
@@ -97,9 +97,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 <dl> <dt>
 
-[Instructions relatives au contrôle ActiveX et au conteneur de contrôles](activex-control-and-control-container-guidelines.md)
+[ActiveX Instructions relatives aux conteneurs de contrôle et de contrôle](activex-control-and-control-container-guidelines.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

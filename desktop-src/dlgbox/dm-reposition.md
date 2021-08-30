@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19425d4d77a62117f3fadfdd98f0629b81bf334c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52fd3978df92e379f4750b4140c137b915d0d1ae21ac0a5124d3e9d87e62d5c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117809"
 ---
 # <a name="dm_reposition-message"></a>\_Message de repositionnement DM
 
@@ -55,7 +55,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message n’a aucun effet si la boîte de dialogue est une fenêtre enfant.
 

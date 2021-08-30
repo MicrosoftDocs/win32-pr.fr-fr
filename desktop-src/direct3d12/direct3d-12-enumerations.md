@@ -5,18 +5,18 @@ ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 09/19/2019
-ms.openlocfilehash: 31cac62c8dfa6b1126d8ff2a7c134490c0c58038
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: b7991584cb72c147c65166622099b9d113d5f22f
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436224"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812926"
 ---
 # <a name="core-enumerations"></a>Principales énumérations
 
 Les énumérations suivantes sont déclarées dans d3d12. h.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 | Rubrique et description |
 |-|
@@ -95,6 +95,7 @@ Les énumérations suivantes sont déclarées dans d3d12. h.
 | [**D3D12_RAYTRACING_GEOMETRY_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_flags). Spécifie des indicateurs pour la géométrie Raytracing dans une structure [**D3D12_RAYTRACING_GEOMETRY_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc) . |
 | [**D3D12_RAYTRACING_GEOMETRY_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type). Spécifie le type de géométrie utilisé pour Raytracing. Utilisez une valeur de cette énumération pour spécifier le type Geometry dans un [**D3D12_RAYTRACING_GEOMETRY_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc). |
 | [**D3D12_RAYTRACING_INSTANCE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_instance_flags). Indicateurs pour une instance de structure d’accélération Raytracing. Ces indicateurs peuvent être utilisés pour remplacer des [**D3D12_RAYTRACING_GEOMETRY_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_flags) pour des instances individuelles. |
+| [**D3D12_RAYTRACING_PIPELINE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_pipeline_flags). Définit des constantes qui spécifient des indicateurs de configuration pour un pipeline Raytracing. |
 | [**D3D12_RAYTRACING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_tier). Spécifie le niveau de prise en charge du suivi de rayon sur le périphérique graphique. |
 | [**D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_beginning_access_type). Spécifie le type d’accès qu’une application reçoit aux ressources spécifiées lors de la transition dans une passe de rendu. |
 | [**D3D12_RENDER_PASS_ENDING_ACCESS_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_ending_access_type). Spécifie le type d’accès qu’une application reçoit aux ressources spécifiées à la transition en dehors d’une passe de rendu. |
@@ -114,6 +115,10 @@ Les énumérations suivantes sont déclarées dans d3d12. h.
 | [**D3D12_ROOT_SIGNATURE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags). Spécifie des options pour la disposition de signature racine.  |
 | [**D3D12_RTV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension). Identifie le type de ressource à afficher en tant que cible de rendu. |
 | [**D3D12_SAMPLER_FEEDBACK_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier). Définit les constantes qui spécifient la prise en charge des commentaires de l’échantillonneur. |
+| [**D3D12_SHADER_CACHE_CONTROL_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_control_flags). Définit des constantes qui spécifient les options de contrôle du cache du nuanceur. |
+| [**D3D12_SHADER_CACHE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_flags). Définit des constantes qui spécifient des indicateurs de cache de nuanceur. |
+| [**D3D12_SHADER_CACHE_KIND_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_kind_flags). Définit des constantes qui spécifient un type de cache de nuanceur. |
+| [**D3D12_SHADER_CACHE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_mode). Définit des constantes qui spécifient le mode du cache du nuanceur. |
 | [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags). Décrit le niveau de prise en charge de la mise en cache du nuanceur dans le pilote graphique actuel. |
 | [**D3D12_SHADER_COMPONENT_MAPPING**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping). Spécifie la façon dont la mémoire est routée par une vue de ressource de nuanceur (SRV).  |
 | [**D3D12_SHADER_MIN_PRECISION_SUPPORT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support). Décrit les options de prise en charge de la précision minimale pour les nuanceurs dans le pilote graphique actuel.  |

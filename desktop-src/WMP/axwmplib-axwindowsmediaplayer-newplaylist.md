@@ -3,9 +3,9 @@ title: Méthode AxWindowsMediaPlayer. newPlaylist
 description: La méthode newPlaylist renvoie une interface IWMPPlaylist pour une nouvelle sélection.
 ms.assetid: caee8ee5-6201-474d-a4cb-80e574f84f0b
 keywords:
-- méthode newPlaylist lecteur Windows Media
-- méthode newPlaylist lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, méthode newPlaylist
+- Lecteur Windows Media de la méthode newPlaylist
+- méthode newPlaylist Lecteur Windows Media, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, méthode newPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8dc82be7aae37b4c1334b79f84e9d607b4f73cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f35bbc1d1c8a0f1f76d685676e08119b659ad119176036ab377f9525ce1ab0e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123889"
 ---
 # <a name="axwindowsmediaplayernewplaylist-method"></a>Méthode AxWindowsMediaPlayer. newPlaylist
 
@@ -64,7 +64,7 @@ Public Function newPlaylist( _
 *bstrURL* 
 </dt> <dd>
 
-**System. String** qui est l’URL de la sélection de métafichiers Windows Media utilisée pour initialiser la nouvelle sélection.
+**System. String** qui est l’URL de la sélection de métafichier multimédia Windows qui est utilisée pour initialiser la nouvelle sélection.
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ Public Function newPlaylist( _
 
 Interface WMPLib. IWMPPlaylist qui représente la sélection nouvellement créée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le paramètre *du bstrURL* est une chaîne null ou de longueur nulle (""), cette méthode crée une **sélection** vide. Si le paramètre *bstrName* est une chaîne de longueur nulle (""), cette méthode applique le nom du métafichier actuel.
 
@@ -96,7 +96,7 @@ La nouvelle playlist créée avec cette méthode n’est pas ajoutée à la bibl
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)

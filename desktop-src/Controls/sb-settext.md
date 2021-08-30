@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fcf0a7928e87cbc614a59dc64b433223afa97bbdac3f45f1635cb8cfe7b34a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8a8ddf0ee02f88b468b0911e64b5308cc2e8784
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408882"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479735"
 ---
 # <a name="sb_settext-message"></a>\_Message SB SETTEXT
 
@@ -42,49 +42,16 @@ Le mot de poids fort de *wParam* est ignoré.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="0"></span><dl> <dt><strong>entre</strong></dt> </dl></td>
-<td>Le texte est dessiné avec une bordure qui apparaît plus bas que le plan de la fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl> <dt><strong>SBT_NOBORDERS</strong></dt> </dl></td>
-<td>Le texte est dessiné sans bordures.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl> <dt><strong>SBT_OWNERDRAW</strong></dt> </dl></td>
-<td>Le texte est dessiné par la fenêtre parente. <br/>
-<blockquote>
-[!Note]<br />
-Une barre d’état de mode simple ne prend pas en charge le dessin owner-drawn.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl> <dt><strong>SBT_POPOUT</strong></dt> </dl></td>
-<td>Le texte est dessiné avec une bordure qui doit apparaître plus haut que le plan de la fenêtre.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl> <dt><strong>SBT_RTLREADING</strong></dt> </dl></td>
-<td>Le texte s’affiche dans le sens inverse du texte de la fenêtre parente.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl> <dt><strong>SBT_NOTABPARSING</strong></dt> </dl></td>
-<td>Les caractères de tabulation sont ignorés.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | Le texte est dessiné avec une bordure qui apparaît plus bas que le plan de la fenêtre.<br /> | 
+| <span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl><dt><strong>SBT_NOBORDERS</strong></dt></dl> | Le texte est dessiné sans bordures.<br /> | 
+| <span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl><dt><strong>SBT_OWNERDRAW</strong></dt></dl> | Le texte est dessiné par la fenêtre parente. <br /><blockquote>[!Note]<br />Une barre d’état de mode simple ne prend pas en charge le dessin owner-drawn.</blockquote><br /> | 
+| <span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl><dt><strong>SBT_POPOUT</strong></dt></dl> | Le texte est dessiné avec une bordure qui doit apparaître plus haut que le plan de la fenêtre.<br /> | 
+| <span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl><dt><strong>SBT_RTLREADING</strong></dt></dl> | Le texte s’affiche dans le sens inverse du texte de la fenêtre parente.<br /> | 
+| <span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl><dt><strong>SBT_NOTABPARSING</strong></dt></dl> | Les caractères de tabulation sont ignorés.<br /> | 
+
 
 
 
@@ -99,7 +66,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Récupération de définitions de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d865b1a85eefa7e67b12ed4c0acc16ea9e19f9a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e442be310fa9d539833d31f88ab66253308c019e5f3fe37c5e97fc7b4f461475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995769"
 ---
 # <a name="retrieving-class-definitions"></a>Récupération de définitions de classe
 

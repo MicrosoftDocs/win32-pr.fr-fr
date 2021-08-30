@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9436415fb9361454fc5f872802516fa455ff980b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ccedfe8ddd3916eb8d1146235e7ae4cd863cc994bc8fe78f9db6e8d7e18d7888
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066449"
 ---
 # <a name="ms-pki-certificate-application-policy-attribute"></a>attribut ms-PKI-Certificate-application-Policy
 
@@ -44,7 +44,7 @@ Les OID de stratégie d’application d’un certificat.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

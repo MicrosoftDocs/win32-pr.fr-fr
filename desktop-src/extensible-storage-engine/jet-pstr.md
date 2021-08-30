@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 442af61595f8bfdd81d0d36d0d8687f0e0418761
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: c791b7e8ff070338f6c23b3b3f126e14aab38c4039faa8e9e2e16fd64a4d7080
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093489"
 ---
 # <a name="jet_pstr"></a>JET_PSTR
 
@@ -45,11 +45,24 @@ Chaîne ASCII terminée par un caractère null (char \* ).
 
 ### <a name="requirements"></a>Configuration requise
 
-
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>requiert Windows Vista.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Serveur</strong></p></td>
+<td><p>requiert Windows Server 2008.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>En-tête</strong></p></td>
+<td><p>Déclaré dans esent. h.</p></td>
+</tr>
+</tbody>
+</table>
 

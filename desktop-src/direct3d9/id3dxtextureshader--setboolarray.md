@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0799e4ef9d35a886e59fae44c37a841bcda3aed6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cd802f1b4052565242aa2e1d036f7cdb0d4acae59b6ce218ad7ca1eeabaa09dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095649"
 ---
 # <a name="id3dxtextureshadersetboolarray-method"></a>ID3DXTextureShader :: SetBoolArray, méthode
 

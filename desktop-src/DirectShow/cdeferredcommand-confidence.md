@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9718b6fb9d17d2d929c8ca74826003bf641e268e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebdc214e4affbcaf76b632c13b979374bb07c3175ecb9a12ec19a57767b30404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131369"
 ---
 # <a name="cdeferredcommandconfidence-method"></a>CDeferredCommand. Confidence, méthode
 
@@ -53,7 +53,7 @@ Pointeur vers le niveau de confiance.
 
 Retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’implémentation de cette méthode, consultez [**IDeferredCommand :: confidence**](/windows/desktop/api/Control/nf-control-ideferredcommand-confidence).
 
@@ -63,7 +63,7 @@ Pour plus d’informations sur l’implémentation de cette méthode, consultez 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

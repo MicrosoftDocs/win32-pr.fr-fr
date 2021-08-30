@@ -4,12 +4,12 @@ description: à compter de Windows Server 2008 et Windows Vista avec Service Pac
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4597c4bf1fd583b647e7ad74b7f1cb2cd41be9c0118226d502932c61f481cedd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 890dfbe297e5448d831ce2f149777a66db5ef7e7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118442363"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473055"
 ---
 # <a name="collecting-user-mode-dumps"></a>Collecte des vidages de User-Mode
 
@@ -17,53 +17,14 @@ ms.locfileid: "118442363"
 
 Cette fonctionnalité n’est pas activée par défaut. L’activation de la fonctionnalité requiert des privilèges d’administrateur. pour activer et configurer la fonctionnalité, utilisez les valeurs de registre suivantes sous la clé **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ Rapport d’erreurs Windows \\ LocalDumps** .
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Description</th>
-<th>Type</th>
-<th>Valeur par défaut</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>DumpFolder</strong></td>
-<td>Chemin d’accès où les fichiers de vidage doivent être stockés. Si vous n’utilisez pas le chemin d’accès par défaut, assurez-vous que le dossier contient des listes de contrôle d’accès qui permettent au processus de blocage d’écrire des données dans le dossier. Pour les pannes de service, le vidage est écrit dans des dossiers de profil spécifiques au service en fonction du compte de service utilisé. Par exemple, le dossier de profil des services système est%WINDIR%\System32\Config\SystemProfile. Pour les services réseau et locaux, le dossier est%WINDIR%\ServiceProfiles.<br/></td>
-<td>REG_EXPAND_SZ</td>
-<td>%LOCALAPPDATA%\CrashDumps</td>
-</tr>
-<tr class="even">
-<td><strong>DumpCount</strong></td>
-<td>Nombre maximal de fichiers de vidage dans le dossier. Lorsque la valeur maximale est dépassée, le fichier de vidage le plus ancien dans le dossier sera remplacé par le nouveau fichier de vidage.</td>
-<td>REG_DWORD</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td><strong>DumpType</strong></td>
-<td>Spécifiez l’un des types de vidages suivants :
-<ul>
-<li>0 : vidage personnalisé</li>
-<li>1 : mini-vidage</li>
-<li>2 : vidage complet</li>
-</ul></td>
-<td>REG_DWORD</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><strong>CustomDumpFlags</strong></td>
-<td>Options de vidage personnalisées à utiliser. Cette valeur est utilisée uniquement lorsque <strong>DumpType</strong> a la valeur 0.<br/> Les options sont une combinaison au niveau du bit des valeurs d’énumération <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type"><strong>MINIDUMP_TYPE</strong></a> .<br/></td>
-<td>REG_DWORD</td>
- <td><code>0x00000121</code> (<code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData == 0x00000001 | 0x00000020 | 0x00000100)</code></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | Type | Valeur par défaut | 
+|-------|-------------|------|---------------|
+| <strong>DumpFolder</strong> | Chemin d’accès où les fichiers de vidage doivent être stockés. Si vous n’utilisez pas le chemin d’accès par défaut, assurez-vous que le dossier contient des listes de contrôle d’accès qui permettent au processus de blocage d’écrire des données dans le dossier. Pour les pannes de service, le vidage est écrit dans des dossiers de profil spécifiques au service en fonction du compte de service utilisé. Par exemple, le dossier de profil des services système est%WINDIR%\System32\Config\SystemProfile. Pour les services réseau et locaux, le dossier est%WINDIR%\ServiceProfiles.<br /> | REG_EXPAND_SZ | %LOCALAPPDATA%\CrashDumps | 
+| <strong>DumpCount</strong> | Nombre maximal de fichiers de vidage dans le dossier. Lorsque la valeur maximale est dépassée, le fichier de vidage le plus ancien dans le dossier sera remplacé par le nouveau fichier de vidage. | REG_DWORD | 10 | 
+| <strong>DumpType</strong> | Spécifiez l’un des types de vidages suivants :<ul><li>0 : vidage personnalisé</li><li>1 : mini-vidage</li><li>2 : vidage complet</li></ul> | REG_DWORD | 1 | 
+| <strong>CustomDumpFlags</strong> | Options de vidage personnalisées à utiliser. Cette valeur est utilisée uniquement lorsque <strong>DumpType</strong> a la valeur 0.<br /> Les options sont une combinaison au niveau du bit des valeurs d’énumération <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type"><strong>MINIDUMP_TYPE</strong></a> .<br /> | REG_DWORD | <code>0x00000121</code> (<code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData = = 0x00000001 | 0x00000020 | 0x00000100</code> | 
+
 
 >[!NOTE]
 > Un vidage sur incident n’est pas collecté lorsque vous définissez le [débogage automatique pour les blocages d' **application**](../debug/configuring-automatic-debugging.md#configuring-automatic-debugging-for-application-crashes). 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f1156f59178275ff9406299fc553afacd3ce99a0488497f836d147ec1d63547
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: edc379375456feb5de50abdc68ff2cc2da463fbe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118606196"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475345"
 ---
 # <a name="imstscadvancedsettings-interface"></a>Interface IMsTscAdvancedSettings
 
@@ -41,72 +41,19 @@ L’interface **IMsTscAdvancedSettings** possède les propriétés suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Propriété</th>
-<th style="text-align: left;">Type d’accès</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-allowbackgroundinput.md"><strong>allowBackgroundInput</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le mode d’entrée d’arrière-plan est activé.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-bitmapperistence.md"><strong>BitmapPeristence</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la mise en cache bitmap est activée.<br/>
-<blockquote>
-[!Note]<br />
-La faute d’orthographe dans le nom de la propriété se trouve dans la version finale du contrôle.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-compress.md"><strong>Dens</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la compression est activée.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-containerhandledfullscreen.md"><strong>ContainerHandledFullScreen</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le mode plein écran géré par le conteneur est activé.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-disablerdpdr.md"><strong>DisableRdpdr</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si l’imprimante et la redirection du presse-papiers sont activées.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-iconfile.md"><strong>IconFile</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Spécifie le nom du fichier contenant les données d’icône qui seront accessibles lors de l’affichage du client en mode plein écran.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-iconindex.md"><strong>IndexIcône</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Spécifie l’index de l’icône dans le fichier icône actuel.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscadvancedsettings-keyboardlayoutstr.md"><strong>KeyBoardLayoutStr</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Spécifie le nom de l’identificateur de paramètres régionaux d’entrée actif (anciennement appelé disposition de clavier) à utiliser pour la connexion.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscadvancedsettings-plugindlls.md"><strong>PluginDlls</strong></a><br/></td>
-<td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Spécifie les noms des dll clientes du canal virtuel à charger.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Propriété | Type d’accès | Description | 
+|----------|-------------|-------------|
+| <a href="imstscadvancedsettings-allowbackgroundinput.md"><strong>allowBackgroundInput</strong></a><br /> | Lecture/écriture<br /> | Spécifie si le mode d’entrée d’arrière-plan est activé.<br /> | 
+| <a href="imstscadvancedsettings-bitmapperistence.md"><strong>BitmapPeristence</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la mise en cache bitmap est activée.<br /><blockquote>[!Note]<br />La faute d’orthographe dans le nom de la propriété se trouve dans la version finale du contrôle.</blockquote><br /> | 
+| <a href="imstscadvancedsettings-compress.md"><strong>Dens</strong></a><br /> | Lecture/écriture<br /> | Spécifie si la compression est activée.<br /> | 
+| <a href="imstscadvancedsettings-containerhandledfullscreen.md"><strong>ContainerHandledFullScreen</strong></a><br /> | Lecture/écriture<br /> | Spécifie si le mode plein écran géré par le conteneur est activé.<br /> | 
+| <a href="imstscadvancedsettings-disablerdpdr.md"><strong>DisableRdpdr</strong></a><br /> | Lecture/écriture<br /> | Spécifie si l’imprimante et la redirection du presse-papiers sont activées.<br /> | 
+| <a href="imstscadvancedsettings-iconfile.md"><strong>IconFile</strong></a><br /> | Écriture seule<br /> | Spécifie le nom du fichier contenant les données d’icône qui seront accessibles lors de l’affichage du client en mode plein écran.<br /> | 
+| <a href="imstscadvancedsettings-iconindex.md"><strong>IndexIcône</strong></a><br /> | Écriture seule<br /> | Spécifie l’index de l’icône dans le fichier icône actuel.<br /> | 
+| <a href="imstscadvancedsettings-keyboardlayoutstr.md"><strong>KeyBoardLayoutStr</strong></a><br /> | Écriture seule<br /> | Spécifie le nom de l’identificateur de paramètres régionaux d’entrée actif (anciennement appelé disposition de clavier) à utiliser pour la connexion.<br /> | 
+| <a href="imstscadvancedsettings-plugindlls.md"><strong>PluginDlls</strong></a><br /> | Écriture seule<br /> | Spécifie les noms des dll clientes du canal virtuel à charger.<br /> | 
+
 
 
 

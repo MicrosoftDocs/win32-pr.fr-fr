@@ -4,12 +4,12 @@ ms.assetid: 264cc7c3-987c-4832-85a2-087278a4d024
 title: Filtre de convertisseur de commande de script interne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b70fbcd7dc6347ec93a19558ef2306dffd5fb64
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 833c8b1034277019bfcaf222f78ab00a5c2cc8a8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982212"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478875"
 ---
 # <a name="internal-script-command-renderer-filter"></a>Filtre de convertisseur de commande de script interne
 
@@ -27,18 +27,7 @@ Pour obtenir un exemple d’utilisation de ce filtre, consultez l’article sur 
 
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| Interfaces de filtre | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | 
-| Types de média de broche d’entrée | <ul><li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li><li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li></ul> | 
-| Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
-| Types de média de broche de sortie | Non applicable | 
-| Interfaces de broche de sortie | Non applicable | 
-| CLSID du filtre | {48025243-2D39-11CE-875D-00608CB78066} | 
-| CLSID de page de propriétés | Aucune page de propriétés | 
-| Exécutable | Quartz.dll | 
-| <a href="merit.md">Mérite</a> | MERIT_PREFERRED + 1 | 
-| <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+| | | Filtrer les interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | | Types de média de broche d’entrée | <ul><li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li><li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li></ul> | | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | Types de média de broche de sortie | Non applicable | | Interfaces de broche de sortie | Non applicable | | CLSID du filtre | {48025243-2D39-11CE-875D-00608CB78066} | | CLSID de page de propriétés | Aucune page de propriétés | | Fichier exécutable | Quartz.dll | | <a href="merit.md">Mérite</a> | MERIT_PREFERRED + 1 | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
 
 
 

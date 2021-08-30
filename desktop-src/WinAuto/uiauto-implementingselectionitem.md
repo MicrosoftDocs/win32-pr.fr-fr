@@ -15,12 +15,12 @@ keywords:
 - interfaces, ISelectionItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 912be363ea8228d905a600de091d6cbe12b925fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8814041239c0f1f4ddae448ac170843631afd1950764c8c64dfc88ce47112404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098299"
 ---
 # <a name="selectionitem-control-pattern"></a>Modèle de contrôle SelectionItem
 
@@ -38,7 +38,7 @@ Cette rubrique contient les sections suivantes.
 
 Lorsque vous implémentez le modèle de contrôle **SelectionItem** , notez les conventions et recommandations suivantes :
 
--   Les contrôles à sélection unique qui gèrent des contrôles enfants qui implémentent [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot), tels que le curseur **résolution d’écran** dans la boîte de dialogue des **propriétés d’affichage** pour Windows, doivent implémenter [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider); leurs enfants doivent implémenter à la fois [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) et [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider).
+-   les contrôles à sélection unique qui gèrent des contrôles enfants qui implémentent [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot), tels que le curseur **résolution d’écran** dans la boîte de dialogue **propriétés d’affichage** pour Windows, doivent implémenter [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider); leurs enfants doivent implémenter à la fois [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) et [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider).
 
 ## <a name="required-members-for-iselectionitemprovider"></a>Membres requis pour **ISelectionItemProvider**
 
@@ -46,7 +46,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
-| Membres nécessaires                                                                                                                        | Type de membre | Notes |
+| Membres nécessaires                                                                                                                        | Type de membre | Remarques |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------|-------|
 | [**AddToSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-addtoselection)                                                                  | Méthode      | Aucun  |
 | [**IsSelected**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_isselected)                                                                          | Propriété    | Aucun  |
@@ -59,7 +59,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
- 
+ 
 
 Si le résultat d’une [**sélection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-select), d' [**un AddToSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection)ou d’un [**RemoveFromSelection**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionitempattern-removefromselection) est un élément sélectionné unique, un événement **ElementSelected** ([**UIA \_ SelectionItem \_ ElementSelectedEventId**](uiauto-event-ids.md)) doit être déclenché ; sinon, déclenchez les événements **ElementAddedToSelection** ([**UIA \_ SelectionItem \_ ElementAddedToSelectionEventId**](uiauto-event-ids.md)) ou **ElementRemovedFromSelection** ([**UIA \_ SelectionItem \_ ElementRemovedFromSelectionEventId**](uiauto-event-ids.md)) selon le cas.
 
@@ -76,9 +76,9 @@ Si le résultat d’une [**sélection**](/windows/desktop/api/UIAutomationClient
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

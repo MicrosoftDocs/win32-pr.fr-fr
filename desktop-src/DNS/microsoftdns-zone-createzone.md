@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e3780db9036e0fd7c87d91c769c3c6f5c6aaf9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22b03e544e89389a9836aa0d7b3dcb964791c7a50124946409481329fbbb122e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131689"
 ---
 # <a name="createzone-method-of-the-microsoftdns_zone-class"></a>Méthode CreateZone de la \_ classe de zone MicrosoftDNS
 
@@ -66,8 +66,8 @@ Type de zone. Les valeurs suivantes sont valides :
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>1</dt> </dl> | AD intégré.<br/>                                                                                           |
 | <dl> <dt>2</dt> </dl> | Zone secondaire.<br/>                                                                                          |
-| <dl> <dt>3</dt> </dl> | Zone de stub.<br/> **Windows Server 2003 :** Ce type de zone est introduit dans Windows Server 2003.<br/>      |
-| <dl> <dt>4</dt> </dl> | Redirecteur de zone.<br/> **Windows Server 2003 :** Ce type de zone est introduit dans Windows Server 2003.<br/> |
+| <dl> <dt>3</dt> </dl> | Zone de stub.<br/> **Windows Server 2003 :** ce type de zone est introduit dans Windows Server 2003.<br/>      |
+| <dl> <dt>4</dt> </dl> | Redirecteur de zone.<br/> **Windows Server 2003 :** ce type de zone est introduit dans Windows Server 2003.<br/> |
 
 
 

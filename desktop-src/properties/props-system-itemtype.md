@@ -4,12 +4,12 @@ ms.assetid: 530ba98a-09fd-438b-8872-9eee47f0cf54
 title: System. ItemType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0159a12e1cc3c6d85e461461cad20334a641fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 784a72c46e92ac5956532994df4f36758d42f440
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880714"
 ---
 # <a name="systemitemtype"></a>System. ItemType
 
@@ -31,14 +31,14 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
 La valeur de System. ItemType est conçue pour être analysée par programmation et peut être l’une des suivantes :
 
--   Extension de fichier qui pointe vers une valeur ProgID ( \_ racine de classes HKEY \_ \\ <ProgID> ) contenant le nom complet du type.
--   Valeur ProgID (classes HKEY \_ \_ RROOT \\ <ProgID> ), contenant le nom complet du type.
+-   Extension de fichier qui pointe vers une valeur ProgID ( \_ classe HKEY \_ root \\ &lt; ProgID &gt; ) qui contient le nom complet du type.
+-   Valeur ProgID (classes HKEY \_ \_ RROOT \\ &lt; ProgID &gt; ), contenant le nom complet du type.
 
 L’élément FriendlyTypeName d’un ProgID doit être une version localisée du nom de l’application ( @winword.dll ,-42), tandis que la valeur par défaut de la clé ProgID est un nom non localisé (Word.Document. 12).
 

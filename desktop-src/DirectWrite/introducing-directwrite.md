@@ -14,7 +14,7 @@ keywords:
 - DirectWrite, vue d’ensemble de l’API
 - DirectWrite, IDWriteFontFace
 - IDWriteFontFace
-- DirectWrite, rendu de texte
+- DirectWrite, rendu du texte
 - DirectWrite, modes de rendu
 - DirectWrite, interopérabilité GDI
 - DirectWrite, interopérabilité
@@ -24,40 +24,40 @@ keywords:
 - GDI (Graphics Device Interface)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4064feccbdbc03f4b2e4d0118e5ab704013d314e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 79fc0ef18287c5e3b923e42e585556f69a3186453ed2bfc205438f74bf50a449
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130855"
 ---
 # <a name="introducing-directwrite"></a>Présentation de DirectWrite
 
-Les personnes communiquent avec le texte tout le temps de leur vie quotidienne. C’est le principal moyen pour les utilisateurs de consommer un volume d’informations en plus important. Dans le passé, il était utilisé par le contenu imprimé, principalement des documents, des journaux, des livres, etc. De plus en plus, il s’agit d’un contenu en ligne sur son PC Windows. Un utilisateur Windows classique passe beaucoup de temps à lire à partir de son écran d’ordinateur. Ils peuvent surfer sur le Web, analyser le courrier électronique, rédiger un rapport, remplir une feuille de calcul ou écrire des logiciels, mais ce qu’ils font vraiment, c’est la lecture. Même si le texte et les polices sont performants presque toutes les parties de l’expérience utilisateur dans Windows, pour la plupart des utilisateurs, la lecture sur l’écran n’est pas aussi agréable que la lecture imprimée.
+Les personnes communiquent avec le texte tout le temps de leur vie quotidienne. C’est le principal moyen pour les utilisateurs de consommer un volume d’informations en plus important. Dans le passé, il était utilisé par le contenu imprimé, principalement des documents, des journaux, des livres, etc. de plus en plus, il s’agit d’un contenu en ligne sur son Windows PC. un utilisateur ordinaire Windows passe beaucoup de temps à lire à partir de son écran d’ordinateur. Ils peuvent surfer sur le Web, analyser le courrier électronique, rédiger un rapport, remplir une feuille de calcul ou écrire des logiciels, mais ce qu’ils font vraiment, c’est la lecture. même si le texte et les polices sont performants presque toutes les parties de l’expérience utilisateur dans Windows, pour la plupart des utilisateurs, la lecture à l’écran n’est pas aussi agréable que la lecture imprimée.
 
-Pour les développeurs d’applications Windows, l’écriture de code de gestion de texte est un défi en raison des exigences accrues pour une meilleure lisibilité, une mise en forme et un contrôle de disposition sophistiqués, ainsi que la prise en charge de plusieurs langues que l’application doit afficher. Même le système de gestion de texte le plus basique doit autoriser la saisie de texte, la mise en page, l’affichage, la modification et la copie et le collage. Les utilisateurs de Windows attendent généralement plus que ces fonctionnalités de base, nécessitant des éditeurs simples pour la prise en charge de plusieurs polices, de divers styles de paragraphes, d’images incorporées, d’une vérification orthographique et d’autres fonctionnalités. La conception d’interface utilisateur moderne n’est pas non plus limitée à un format simple, du texte brut, mais doit présenter une meilleure expérience en matière de polices de texte et de polices riches.
+pour les développeurs d’applications Windows, l’écriture de code de gestion de texte est un défi en raison des exigences accrues pour une meilleure lisibilité, une mise en forme et un contrôle de disposition sophistiqués, ainsi que la prise en charge de plusieurs langues que l’application doit afficher. Même le système de gestion de texte le plus basique doit autoriser la saisie de texte, la mise en page, l’affichage, la modification et la copie et le collage. Windows utilisateurs s’attendent à ce que ces fonctionnalités de base soient encore plus nombreuses, nécessitant des éditeurs simples pour la prise en charge de plusieurs polices, de divers styles de paragraphes, d’images incorporées, d’une vérification orthographique et d’autres fonctionnalités. La conception d’interface utilisateur moderne n’est pas non plus limitée à un format simple, du texte brut, mais doit présenter une meilleure expérience en matière de polices de texte et de polices riches.
 
-Il s’agit d’une introduction à la façon dont [DirectWrite](direct-write-portal.md) permet aux applications Windows d’améliorer l’expérience de texte pour l’interface utilisateur et les documents.
+il s’agit d’une introduction à la façon dont [DirectWrite](direct-write-portal.md) permet aux applications Windows d’améliorer l’expérience de texte pour l’interface utilisateur et les documents.
 
 ## <a name="improving-the-text-experience"></a>Amélioration de l’expérience de texte
 
-Les applications Windows modernes ont des exigences sophistiquées pour le texte dans leur interface utilisateur et leurs documents. Celles-ci incluent une meilleure lisibilité, la prise en charge d’une grande variété de langages et de scripts et des performances de rendu supérieures. En outre, la plupart des applications existantes nécessitent un moyen de transférer les investissements existants dans la base de code WindowsWin32.
+les applications Windows modernes ont des exigences sophistiquées pour le texte dans leur interface utilisateur et leurs documents. Celles-ci incluent une meilleure lisibilité, la prise en charge d’une grande variété de langages et de scripts et des performances de rendu supérieures. En outre, la plupart des applications existantes nécessitent un moyen de transférer les investissements existants dans la base de code WindowsWin32.
 
-[DirectWrite](direct-write-portal.md) fournit les trois fonctionnalités suivantes qui permettent aux développeurs d’applications Windows d’améliorer l’expérience de texte dans leurs applications : l’indépendance par rapport au système de rendu, la typographie de haute qualité et plusieurs couches de fonctionnalités.
+[DirectWrite](direct-write-portal.md) fournit les trois fonctionnalités suivantes qui permettent Windows aux développeurs d’applications d’améliorer l’expérience de texte dans leurs applications : l’indépendance par rapport au système de rendu, la typographie de haute qualité et plusieurs couches de fonctionnalités.
 
 ## <a name="rendering-system-independence"></a>Indépendance Rendering-System
 
-[DirectWrite](direct-write-portal.md) est indépendant de toute technologie graphique particulière. Les applications sont libres d’utiliser la technologie de rendu qui convient le mieux à leurs besoins. Cela permet aux applications de continuer à afficher certaines parties de leur application via GDI et d’autres parties via Direct3D ou [Direct2D](../direct2d/direct2d-portal.md). En fait, une application peut choisir d’afficher DirectWrite via une pile de rendu propriétaire.
+[DirectWrite](direct-write-portal.md) est indépendant de toute technologie graphique particulière. Les applications sont libres d’utiliser la technologie de rendu qui convient le mieux à leurs besoins. Cela permet aux applications de continuer à afficher certaines parties de leur application via GDI et d’autres parties via Direct3D ou [Direct2D](../direct2d/direct2d-portal.md). en fait, une application peut choisir de restituer DirectWrite par le biais d’une pile de rendu propriétaire.
 
 ## <a name="high-quality-typography"></a>Typographie High-Quality
 
-[DirectWrite](direct-write-portal.md) tire parti des avancées de la technologie de police [OpenType](../intl/opentype-font-format.md) pour permettre une typographie de haute qualité dans une application Windows. Le système de police DirectWrite fournit des services pour gérer l’énumération des polices, la police de substitution et la mise en cache des polices, qui sont toutes nécessaires aux applications pour la gestion des polices.
+[DirectWrite](direct-write-portal.md) tire parti des avancées de la technologie de police [OpenType](../intl/opentype-font-format.md) pour permettre une typographie de haute qualité dans une application Windows. le système de police DirectWrite fournit des services pour gérer l’énumération des polices, la police de substitution et la mise en cache des polices, qui sont toutes nécessaires aux applications pour la gestion des polices.
 
-La prise en charge [OpenType](../intl/opentype-font-format.md) fournie par [DirectWrite](direct-write-portal.md) permet aux développeurs d’ajouter à leurs applications des fonctionnalités typographiques avancées et la prise en charge du texte international.
+la prise en charge [OpenType](../intl/opentype-font-format.md) fournie par [DirectWrite](direct-write-portal.md) permet aux développeurs d’ajouter à leurs applications des fonctionnalités typographiques avancées et la prise en charge du texte international.
 
 ## <a name="support-for-advanced-typographic-features"></a>Prise en charge des fonctionnalités typographiques avancées
 
-[DirectWrite](direct-write-portal.md) permet aux développeurs d’applications de déverrouiller les fonctionnalités des polices OpenType qu’ils n’ont pas pu utiliser dans WINFORMS ou GDI. L’objet DirectWrite [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) expose un grand nombre des fonctionnalités avancées des polices OpenType, telles que les variantes stylistiques et les paraphes. Le kit de développement logiciel (SDK) Microsoft Windows fournit un ensemble d’exemples de polices [OpenType](../intl/opentype-font-format.md) conçues avec des fonctionnalités riches, telles que les polices Pericles et Pescadero. Pour plus d’informations sur les fonctionnalités OpenType, consultez [caractéristiques des polices OpenType](/previous-versions/dotnet/netframework-3.0/ms745109(v=vs.85)).
+[DirectWrite](direct-write-portal.md) permet aux développeurs d’applications de déverrouiller les fonctionnalités des polices OpenType qu’ils n’ont pas pu utiliser dans WinForms ou GDI. l’objet DirectWrite [**IDWriteTypography**](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) expose un grand nombre des fonctionnalités avancées des polices OpenType, telles que les variantes stylistiques et les paraphes. le kit de développement logiciel (SDK) Microsoft Windows fournit un ensemble d’exemples de polices [OpenType](../intl/opentype-font-format.md) conçues avec des fonctionnalités riches, telles que les polices pericles et Pescadero. Pour plus d’informations sur les fonctionnalités OpenType, consultez [caractéristiques des polices OpenType](/previous-versions/dotnet/netframework-3.0/ms745109(v=vs.85)).
 
 ## <a name="support-for-international-text"></a>Prise en charge du texte international
 
@@ -68,7 +68,7 @@ Les scripts suivants sont pris en charge :
 > [!Note]  
 > Pour les scripts marqués avec un \* , il n’y a pas de polices système par défaut. Les applications doivent installer les polices qui prennent en charge ces scripts.
 
- 
+ 
 
 -   Arabe
 -   Arménien
@@ -122,15 +122,15 @@ L’API Text Layout fournit les fonctionnalités de niveau le plus élevé dispo
 
 Les applications gourmandes en texte qui implémentent leur propre moteur de disposition peuvent utiliser la couche suivante : le processeur de script. Le processeur de script décompose un segment de texte en blocs de script et gère le mappage entre les représentations Unicode et la représentation de glyphe appropriée dans la police afin que le texte du script puisse s’afficher correctement dans la langue appropriée. Le système de disposition utilisé par la couche de l’API Text Layout est basé sur le système de polices et de traitement des scripts.
 
-La couche de rendu de glyphes est la couche de fonctionnalités la plus basse et fournit des fonctionnalités de rendu de glyphes pour les applications qui implémentent leur propre moteur de disposition de texte. La couche de rendu des glyphes est également utile pour les applications qui implémentent un convertisseur personnalisé pour modifier le comportement de dessin de glyphe par le biais de la fonction de rappel dans l’API de mise en forme du texte [DirectWrite](direct-write-portal.md) .
+La couche de rendu de glyphes est la couche de fonctionnalités la plus basse et fournit des fonctionnalités de rendu de glyphes pour les applications qui implémentent leur propre moteur de disposition de texte. la couche de rendu des glyphes est également utile pour les applications qui implémentent un convertisseur personnalisé pour modifier le comportement de dessin de glyphe par le biais de la fonction de rappel dans la [DirectWrite](direct-write-portal.md) API de mise en forme du texte.
 
-Le système de polices [DirectWrite](direct-write-portal.md) est disponible pour toutes les couches fonctionnelles de DirectWrite et permet à une application d’accéder aux informations sur les polices et les glyphes. Il est conçu pour gérer les technologies de polices et les formats de données courants. Le modèle de police DirectWrite suit la pratique typographique courante qui consiste à prendre en charge un nombre quelconque de poids, de styles et d’étirements dans la même famille de polices. Ce modèle, le même modèle suivi par WPF et CSS, spécifie que les polices qui diffèrent uniquement en poids (gras, clair, etc.), style (vertical, italique ou oblique) ou Stretch (étroit, condensé, large, etc.) sont considérées comme des membres d’une même famille de polices.
+le système de police [DirectWrite](direct-write-portal.md) est disponible pour toutes les couches fonctionnelles de DirectWrite et permet à une application d’accéder aux informations de police et de glyphe. Il est conçu pour gérer les technologies de polices et les formats de données courants. le modèle de police DirectWrite suit la pratique typographique courante qui consiste à prendre en charge un nombre quelconque de poids, de styles et d’étirements dans la même famille de polices. Ce modèle, le même modèle suivi par WPF et CSS, spécifie que les polices qui diffèrent uniquement en poids (gras, clair, etc.), style (vertical, italique ou oblique) ou Stretch (étroit, condensé, large, etc.) sont considérées comme des membres d’une même famille de polices.
 
 ### <a name="improved-text-rendering-with-cleartype"></a>Amélioration du rendu du texte avec ClearType
 
-L’amélioration de la lisibilité sur l’écran est une condition essentielle pour toutes les applications Windows. La preuve de la recherche en psychologie cognitive indique que nous devons être en mesure de reconnaître toutes les lettres avec précision et que même l’espacement entre les lettres est essentiel pour un traitement rapide. Les lettres et les mots qui ne sont pas symétriques sont perçus comme insupportable et dégradent l’expérience de lecture. Kevin Larson, Microsoft Advanced Read Technologies Group, a écrit un article sur le sujet qui a été publié dans Spectrum IEEE. L’article est appelé « technologie de texte » ( https://www.spectrum.ieee.org/print/5049) .
+l’amélioration de la lisibilité sur l’écran est une condition essentielle pour toutes les applications Windows. La preuve de la recherche en psychologie cognitive indique que nous devons être en mesure de reconnaître toutes les lettres avec précision et que même l’espacement entre les lettres est essentiel pour un traitement rapide. Les lettres et les mots qui ne sont pas symétriques sont perçus comme insupportable et dégradent l’expérience de lecture. Kevin Larson, Microsoft Advanced Read Technologies Group, a écrit un article sur le sujet qui a été publié dans Spectrum IEEE. L’article est appelé « technologie de texte » ( https://www.spectrum.ieee.org/print/5049) .
 
-Le texte de [DirectWrite](direct-write-portal.md) est rendu à l’aide de Microsoft ClearType, ce qui améliore la clarté et la lisibilité du texte. ClearType tire parti du fait que les écrans LCD modernes affichent des bandes RVB pour chaque pixel pouvant être contrôlé individuellement. DirectWrite utilise les dernières améliorations apportées à ClearType, d’abord inclus avec Windows Vista avec Windows Presentation Foundation, qui lui permet d’évaluer non seulement les lettres individuelles, mais également l’espacement entre les lettres. Avant ces améliorations ClearType, le texte avec une taille de « lecture » de 10 ou 12 points était difficile à afficher : nous pourrions placer 1 pixel entre les lettres, ce qui était souvent trop faible, ou 2 pixels, ce qui était souvent trop grand. L’utilisation de la résolution supplémentaire dans les sous-pixels nous fournit un espacement fractionnaire qui améliore l’uniformité et la symétrie de la page entière.
+le texte de [DirectWrite](direct-write-portal.md) est affiché à l’aide de Microsoft ClearType, ce qui améliore la clarté et la lisibilité du texte. ClearType tire parti du fait que les écrans LCD modernes affichent des bandes RVB pour chaque pixel pouvant être contrôlé individuellement. DirectWrite utilise les dernières améliorations apportées à ClearType, d’abord incluses avec Windows Vista avec Windows Presentation Foundation, ce qui lui permet d’évaluer non seulement les lettres individuelles, mais également l’espacement entre les lettres. Avant ces améliorations ClearType, le texte avec une taille de « lecture » de 10 ou 12 points était difficile à afficher : nous pourrions placer 1 pixel entre les lettres, ce qui était souvent trop faible, ou 2 pixels, ce qui était souvent trop grand. L’utilisation de la résolution supplémentaire dans les sous-pixels nous fournit un espacement fractionnaire qui améliore l’uniformité et la symétrie de la page entière.
 
 Les deux illustrations suivantes montrent comment les glyphes peuvent commencer sur n’importe quelle limite de sous-pixel lorsque le positionnement du sous-pixel est utilisé.
 
@@ -138,7 +138,7 @@ L’illustration suivante est rendue à l’aide de la version GDI du convertiss
 
 ![illustration de la « technologie » rendue sans le positionnement des sous-pixels](images/intro-03.png)
 
-L’illustration suivante est rendue à l’aide de la version [DirectWrite](direct-write-portal.md) du convertisseur ClearType, qui utilise le positionnement de sous-pixel.
+l’illustration suivante est rendue à l’aide de la version [DirectWrite](direct-write-portal.md) du convertisseur ClearType, qui utilise le positionnement de sous-pixel.
 
 ![illustration de la « technologie » rendue avec le positionnement des sous-pixels](images/intro-04.png)
 
@@ -150,13 +150,13 @@ Contrairement à l’un ou l’autre type de rendu ClearType GDI, le ClearType s
 
 L’API de chaîne de texte adopte par défaut le rendu de texte de sous-pixel, ce qui signifie qu’elle mesure le texte à sa résolution idéale indépendamment de la résolution d’affichage actuelle, et produit le résultat de positionnement du glyphe en fonction des largeurs d’avance de glyphe réellement mis à l’échelle et des décalages de positionnement.
 
-Pour le texte de grande taille, [DirectWrite](direct-write-portal.md) permet également l’anticrénelage le long de l’axe y pour rendre les bords plus lisses et rendre les lettres plus lisses comme le concepteur de polices. L’illustration suivante montre l’anticrénelage de direction y.
+dans le cas d’un texte de grande taille, [DirectWrite](direct-write-portal.md) permet également l’anticrénelage le long de l’axe des y pour rendre les bords plus lisses et restituer des lettres comme le concepteur de polices prévu. L’illustration suivante montre l’anticrénelage de direction y.
 
 ![illustration de « ClearType » rendue sous forme de texte GDI et de texte DirectWrite avec l’anticrénelage de direction y](images/intro-05.png)
 
-Bien que le texte [DirectWrite](direct-write-portal.md) soit positionné et rendu à l’aide de l’option ClearType sous-pixel par défaut, d’autres options de rendu sont disponibles. De nombreuses applications existantes utilisent GDI pour restituer la plupart de leur interface utilisateur, et certaines applications utilisent des contrôles d’édition du système qui continuent d’utiliser GDI pour le rendu du texte. Lorsque vous ajoutez du texte DirectWrite à ces applications, il peut être nécessaire de sacrifier les améliorations apportées à l’expérience de lecture fournies par la fonction ClearType de sous-pixel afin que le texte ait une apparence cohérente dans l’application.
+bien que [DirectWrite](direct-write-portal.md) texte soit positionné et rendu à l’aide de la valeur ClearType par défaut de sous-pixel, d’autres options de rendu sont disponibles. De nombreuses applications existantes utilisent GDI pour restituer la plupart de leur interface utilisateur, et certaines applications utilisent des contrôles d’édition du système qui continuent d’utiliser GDI pour le rendu du texte. lorsque vous ajoutez DirectWrite texte à ces applications, il peut être nécessaire de sacrifier les améliorations apportées à l’expérience de lecture fournies par la fonction ClearType de sous-pixel afin que le texte ait une apparence cohérente dans l’application.
 
-Pour répondre à ces exigences, [DirectWrite](direct-write-portal.md) prend également en charge les options de rendu suivantes :
+pour répondre à ces exigences, [DirectWrite](direct-write-portal.md) prend également en charge les options de rendu suivantes :
 
 -   Sous-pixel ClearType (valeur par défaut).
 -   ClearType sous-pixel avec anticrénelage à la fois dans les dimensions horizontales et verticales.
@@ -164,24 +164,24 @@ Pour répondre à ces exigences, [DirectWrite](direct-write-portal.md) prend ég
 -   GDI-largeur naturelle (utilisée par Microsoft Word Mode Lecture, par exemple).
 -   Compatible GDI-largeur (y compris l’image bitmap incorporée d’Extrême-Orient).
 
-Chacun de ces modes de rendu peut être affiné par le biais de l’API DirectWrite et du nouveau tuner ClearType de la boîte de réception Windows 7.
+chacun de ces modes de rendu peut être affiné par le biais de l’API DirectWrite et par le biais du nouveau tuner ClearType de la boîte de réception Windows 7.
 
 > [!Note]  
-> À compter de Windows 8, vous devez utiliser l’anticrénelage de texte en nuances de gris dans la plupart des cas. Pour en savoir plus, consultez la section suivante.
+> à partir de Windows 8, vous devez utiliser l’anticrénelage de texte en nuances de gris dans la plupart des cas. Pour en savoir plus, consultez la section suivante.
 
- 
+ 
 
 ### <a name="support-for-natural-layout"></a>Prise en charge de la disposition naturelle
 
-La disposition naturelle est indépendante de la résolution, de sorte que l’espacement des caractères ne change pas au fur et à mesure que vous effectuez un zoom avant ou arrière, ou en fonction de la résolution de l’affichage. L’un des avantages secondaires est que l’espacement est vrai pour la conception de la police. La disposition naturelle est rendue possible par la prise en charge de DirectWrite pour le rendu naturel, ce qui signifie que les glyphes individuels peuvent être positionnés sur une fraction d’un pixel.
+La disposition naturelle est indépendante de la résolution, de sorte que l’espacement des caractères ne change pas au fur et à mesure que vous effectuez un zoom avant ou arrière, ou en fonction de la résolution de l’affichage. L’un des avantages secondaires est que l’espacement est vrai pour la conception de la police. la disposition naturelle est rendue possible par la prise en charge par DirectWrite du rendu naturel, ce qui signifie que les glyphes individuels peuvent être positionnés sur une fraction d’un pixel.
 
-Bien que la disposition naturelle soit la valeur par défaut, certaines applications doivent restituer du texte avec le même espace et l’même apparence que GDI. Pour ces applications, DirectWrite fournit des modes de mesure naturel GDI et GDI classiques et des modes de rendu correspondants.
+Bien que la disposition naturelle soit la valeur par défaut, certaines applications doivent restituer du texte avec le même espace et l’même apparence que GDI. pour ces applications, DirectWrite fournit des modes de mesure natural gdi et gdi classiques et des modes de rendu correspondants.
 
-L’un des modes de rendu ci-dessus peut être combiné à l’un ou l’autre des deux modes d’anticrénelage : ClearType ou nuances de gris. L’anticrénelage ClearType simule une résolution plus élevée en manipulant individuellement les valeurs de couleur rouge, verte et bleue de chaque pixel. L’anticrénelage de nuances de gris calcule une seule valeur de couverture (ou alpha) pour chaque pixel. ClearType est la valeur par défaut, mais l’anticrénelage en nuances de gris est recommandé pour les applications du Windows Store, car il est plus rapide et compatible avec l’anticrénelage standard, tout en étant très lisible.
+L’un des modes de rendu ci-dessus peut être combiné à l’un ou l’autre des deux modes d’anticrénelage : ClearType ou nuances de gris. L’anticrénelage ClearType simule une résolution plus élevée en manipulant individuellement les valeurs de couleur rouge, verte et bleue de chaque pixel. L’anticrénelage de nuances de gris calcule une seule valeur de couverture (ou alpha) pour chaque pixel. ClearType est la valeur par défaut, mais l’anticrénelage en nuances de gris est recommandé pour les applications Windows store, car il est plus rapide et compatible avec l’anticrénelage standard, tout en étant très lisible.
 
 ## <a name="api-overview"></a>Présentation de l’API
 
-L’interface [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) est le point de départ pour l’utilisation de la fonctionnalité DirectWrite. La fabrique est l’objet racine qui crée un ensemble d’objets qui peuvent être utilisés ensemble.
+l’interface [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) est le point de départ pour l’utilisation des fonctionnalités de DirectWrite. La fabrique est l’objet racine qui crée un ensemble d’objets qui peuvent être utilisés ensemble.
 
 L’opération de mise en forme et de mise en page est un prérequis pour les opérations, car le texte doit être correctement mis en forme et disposé sur un ensemble de contraintes spécifié avant de pouvoir être dessiné ou testé. Pour ce faire, deux objets clés que vous pouvez créer avec un [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) sont [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) et [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout). Un objet **IDWriteTextFormat** représente les informations de mise en forme d’un paragraphe de texte. La fonction [**IDWriteFactory :: CreateTextLayout**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout) prend la chaîne d’entrée, les contraintes associées telles que la dimension de l’espace à remplir et l’objet **IDWriteTextFormat** , puis place le résultat entièrement analysé et mis en forme dans **IDWriteTextLayout** à utiliser dans les opérations suivantes.
 
@@ -258,13 +258,13 @@ HRESULT DemoApp::DrawHelloWorld(
 
 ## <a name="accessing-the-font-system"></a>Accès au système de polices
 
-En plus de spécifier un nom de famille de polices pour la chaîne de texte à l’aide de l’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) dans l’exemple ci-dessus, [DirectWrite](direct-write-portal.md) offre aux applications davantage de contrôle sur la sélection des polices grâce à l’énumération des polices et à la possibilité de créer une collection de polices personnalisée basée sur des polices de document incorporées.
+en plus de spécifier un nom de famille de polices pour la chaîne de texte à l’aide de l’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) dans l’exemple ci-dessus, [DirectWrite](direct-write-portal.md) offre aux applications davantage de contrôle sur la sélection des polices grâce à l’énumération des polices et à la possibilité de créer une collection de polices personnalisée basée sur des polices de document incorporées.
 
 L’objet [**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) est une collection de familles de polices. DirectWrite permet d’accéder à l’ensemble de polices installées sur le système par le biais d’une collection de polices spéciale appelée collection de polices système. Cela est obtenu en appelant la méthode [**GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) de l’objet [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) . Une application peut également créer une collection de polices personnalisée à partir d’un ensemble de polices énumérées par un rappel défini par l’application, c’est-à-dire des polices privées installées par une application, ou des polices incorporées dans un document.
 
 L’application peut ensuite appeler [**GetFontFamily**](/windows/win32/api/dwrite/nf-dwrite-idwritefont-getfontfamily) pour accéder à un objet FontFamily spécifique dans la collection, puis appeler [**IDWriteFontFamily :: GetFirstMatchingFont**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfirstmatchingfont) pour atteindre un objet [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) spécifique. L’objet **IDWriteFont** représente une police dans une collection de polices et expose des propriétés et quelques métriques de police de base.
 
-[**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) est un autre objet qui représente une police et expose un jeu complet de métriques sur une police. Le **IDWriteFontFace** peut être créé directement à partir d’un nom de police ; une application n’a pas besoin d’obtenir une collection de polices pour y accéder. Elle est utile pour une application de disposition de texte telle que Microsoft Word qui doit interroger les détails d’une police spécifique.
+[**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) est un autre objet qui représente une police et expose un jeu complet de métriques sur une police. Le **IDWriteFontFace** peut être créé directement à partir d’un nom de police ; une application n’a pas besoin d’obtenir une collection de polices pour y accéder. elle est utile pour une application de disposition de texte telle que Microsoft Word qui doit interroger les détails d’une police spécifique.
 
 Le diagramme suivant illustre la relation entre ces objets.
 
@@ -291,7 +291,7 @@ Le tableau suivant récapitule les scénarios d’utilisation des deux objets.
 
 
 
- 
+ 
 
 Voici un exemple d’application qui énumère les polices de la collection de polices système.
 
@@ -423,9 +423,9 @@ void wmain()
 
 ## <a name="text-rendering"></a>Rendu du texte
 
-Les API de rendu de texte permettent le rendu des glyphes dans une police [DirectWrite](direct-write-portal.md) sur une surface [Direct2D](../direct2d/direct2d-portal.md) ou une image bitmap indépendante du périphérique GDI, ou à convertir en plans ou bitmaps. Le rendu ClearType dans DirectWrite prend en charge le positionnement des sous-pixels avec une netteté et un contraste améliorés par rapport aux implémentations précédentes sur Windows. DirectWrite prend également en charge le texte noir et blanc avec alias pour prendre en charge les scénarios impliquant des polices d’Extrême-Orient avec des bitmaps incorporées, ou lorsque l’utilisateur a désactivé le lissage des polices de n’importe quel type.
+les api de rendu de texte permettent le rendu des glyphes dans une police [DirectWrite](direct-write-portal.md) à une surface [Direct2D](../direct2d/direct2d-portal.md) ou à une image bitmap indépendante du périphérique GDI, ou d’être convertis en plans ou en bitmaps. le rendu ClearType dans DirectWrite prend en charge le positionnement des sous-pixels avec une netteté et un contraste améliorés par rapport aux implémentations précédentes sur Windows. DirectWrite prend également en charge le texte en noir et blanc avec alias pour prendre en charge des scénarios impliquant des polices d’extrême-orient avec des bitmaps incorporées, ou lorsque l’utilisateur a désactivé le lissage des polices de n’importe quel type.
 
-Toutes les options sont réglables par tous les boutons ClearType disponibles accessibles par le biais des API [DirectWrite](direct-write-portal.md) , ainsi que par l’intermédiaire de la nouvelle applet du panneau de configuration du tuner ClearType Windows 7.
+toutes les options sont réglables par tous les boutons ClearType disponibles accessibles par le biais des api [DirectWrite](direct-write-portal.md) , ainsi que par l’intermédiaire de la nouvelle applet du panneau de configuration du tuner cleartype Windows 7.
 
 Deux API sont disponibles pour le rendu des glyphes : l’un fournissant un rendu accéléré par le matériel via [Direct2D](../direct2d/direct2d-portal.md) et l’autre fournissant un rendu logiciel à une image bitmap GDI. Une application utilisant [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) et l’implémentation du rappel [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) peuvent appeler l’une de ces fonctions en réponse à un rappel [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) . En outre, les applications qui implémentent leur propre disposition ou gèrent les données de niveau glyphe peuvent utiliser ces API.
 
@@ -437,16 +437,16 @@ Deux API sont disponibles pour le rendu des glyphes : l’un fournissant un ren
 
     Les applications peuvent utiliser la méthode [**IDWriteBitmapRenderTarget ::D rawglyphrun**](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) pour effectuer un rendu logiciel d’une série de glyphes dans une image bitmap 32-BPP. L’objet [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) encapsule une image bitmap et un contexte de périphérique de mémoire qui peut être utilisé pour le rendu des glyphes. Cette API est utile si vous souhaitez rester avec GDI, car vous disposez d’une base de code existante qui s’affiche dans GDI.
 
-Si vous disposez d’une application qui possède un code de disposition de texte qui utilise GDI et que vous souhaitez conserver son code de disposition existant mais utiliser [DirectWrite](direct-write-portal.md) uniquement pour l’étape finale du rendu des glyphes, [**IDWriteGdiInterop :: CreateFontFaceFromHdc**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) fournit le pont entre les deux API. Avant d’appeler cette fonction, l’application utilise la fonction **IDWriteGdiInterop :: CreateFontFaceFromHdc** pour obtenir une référence de type font-face d’un contexte de périphérique (Device Context).
+si vous disposez d’une application qui possède un code de disposition de texte qui utilise GDI et que vous souhaitez conserver son code de disposition existant mais utiliser [DirectWrite](direct-write-portal.md) juste pour l’étape finale du rendu des glyphes, [**IDWriteGdiInterop :: CreateFontFaceFromHdc**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc) fournit le pont entre les deux api. Avant d’appeler cette fonction, l’application utilise la fonction **IDWriteGdiInterop :: CreateFontFaceFromHdc** pour obtenir une référence de type font-face d’un contexte de périphérique (Device Context).
 
 > [!Note]  
 > Pour la plupart des scénarios, les applications n’ont peut-être pas besoin d’utiliser ces API de rendu de glyphe. Une fois qu’une application a créé un objet [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) , elle peut utiliser la méthode [**ID2D1RenderTarget ::D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) pour restituer le texte.
 
- 
+ 
 
 ## <a name="custom-rendering-modes"></a>Modes de rendu personnalisés
 
-Un certain nombre de paramètres affectent le rendu du texte, tels que gamma, le niveau ClearType, la géométrie des pixels et le contraste amélioré. Les paramètres de rendu sont encapsulés par un objet, qui implémente l’interface [**IDWriteRenderingParams**](/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams) publique. L’objet de paramètres de rendu est initialisé automatiquement en fonction des propriétés matérielles et/ou des préférences de l’utilisateur spécifiées par le biais de l’applet du panneau de configuration ClearType dans Windows 7. En règle générale, si un client utilise l’API de disposition [DirectWrite](direct-write-portal.md) , DirectWrite sélectionne automatiquement un mode de rendu qui correspond au mode de mesure spécifié.
+Un certain nombre de paramètres affectent le rendu du texte, tels que gamma, le niveau ClearType, la géométrie des pixels et le contraste amélioré. Les paramètres de rendu sont encapsulés par un objet, qui implémente l’interface [**IDWriteRenderingParams**](/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams) publique. l’objet de paramètres de rendu est initialisé automatiquement en fonction des propriétés matérielles et/ou des préférences de l’utilisateur spécifiées par le biais de l’applet du panneau de configuration ClearType dans Windows 7. en règle générale, si un client utilise l’API de disposition [DirectWrite](direct-write-portal.md) , DirectWrite sélectionne automatiquement un mode de rendu qui correspond au mode de mesure spécifié.
 
 Les applications qui souhaitent davantage de contrôle peuvent utiliser [**IDWriteFactory :: CreateCustomRenderingParams**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomrenderingparams) pour implémenter les différentes options de rendu. Cette fonction peut également être utilisée pour définir la valeur gamma, la géométrie des pixels et le contraste amélioré.
 
@@ -482,7 +482,7 @@ Voici les différentes options de rendu disponibles :
 
 ## <a name="gdi-interoperability"></a>Interopérabilité GDI
 
-L’interface [**IDWriteGdiInterop**](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) fournit une interopérabilité avec GDI. Cela permet aux applications de poursuivre leurs investissements existants dans les bases de code GDI et d’utiliser de manière sélective [DirectWrite](direct-write-portal.md) pour le rendu ou la mise en page.
+L’interface [**IDWriteGdiInterop**](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) fournit une interopérabilité avec GDI. cela permet aux applications de poursuivre leurs investissements existants dans les bases de code GDI et d’utiliser de manière sélective [DirectWrite](direct-write-portal.md) pour le rendu ou la disposition.
 
 Voici les API qui permettent à une application de migrer vers ou à partir du système de polices GDI :
 
@@ -504,10 +504,10 @@ Voici les API qui permettent à une application de migrer vers ou à partir du s
 
 ## <a name="conclusion"></a>Conclusion
 
-L’amélioration de l’expérience de lecture est très intéressante pour les utilisateurs, qu’ils soient sur l’écran ou sur papier. [DirectWrite](direct-write-portal.md) offre la facilité d’utilisation et le modèle de programmation en couches pour les développeurs d’applications afin d’améliorer l’expérience de texte pour leurs applications Windows. Les applications peuvent utiliser DirectWrite pour restituer un texte riche en format pour leur interface utilisateur et leurs documents avec l’API Layout. Pour les scénarios plus complexes, une application peut fonctionner directement avec des glyphes, accéder aux polices, etc. et exploiter la puissance de DirectWrite pour fournir une typographie de haute qualité.
+L’amélioration de l’expérience de lecture est très intéressante pour les utilisateurs, qu’ils soient sur l’écran ou sur papier. [DirectWrite](direct-write-portal.md) offre la facilité d’utilisation et le modèle de programmation en couches pour les développeurs d’applications afin d’améliorer l’expérience de texte pour leurs applications Windows. les Applications peuvent utiliser DirectWrite pour restituer un texte enrichi en format pour leur interface utilisateur et leurs documents avec l’API layout. pour les scénarios plus complexes, une application peut fonctionner directement avec des glyphes, accéder aux polices, etc. et exploiter la puissance de DirectWrite pour fournir une typographie de haute qualité.
 
-Les fonctionnalités d’interopérabilité de [DirectWrite](direct-write-portal.md) permettent aux développeurs d’applications de transférer leurs codes base Win32 existants et d’adopter DirectWrite de manière sélective au sein de leurs applications.
+les fonctionnalités d’interopérabilité de [DirectWrite](direct-write-portal.md) permettent aux développeurs d’applications de transférer leurs codes base Win32 existants et d’adopter DirectWrite de manière sélective dans leurs applications.
 
- 
+ 
 
- 
+ 

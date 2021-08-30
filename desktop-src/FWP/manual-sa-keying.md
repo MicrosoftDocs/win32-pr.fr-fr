@@ -1,19 +1,19 @@
 ---
 title: Génération manuelle de la clé SA
-description: L’exemple de code suivant montre comment créer des associations de sécurité (SA) à l’aide de la plateforme de filtrage Windows.
+description: l’exemple de code suivant montre comment créer des Associations de sécurité (SA) à l’aide de Windows plate-forme de filtrage.
 ms.assetid: a929456e-e824-44d3-97f7-be75716a1ecd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91834e4aedbbe199e37f458832fb30d31f696ba5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d13987b3e37eb6ded20f6001247a14d62a00b00fe9ca2e8bd794db33a92fe20b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075389"
 ---
 # <a name="manual-sa-keying"></a>Génération manuelle de la clé SA
 
-L’exemple de code suivant montre comment créer des associations de sécurité (SA) à l’aide de la plateforme de filtrage Windows.
+l’exemple de code suivant montre comment créer des Associations de sécurité (SA) à l’aide de Windows plate-forme de filtrage.
 
 
 ```C++
@@ -283,9 +283,9 @@ CLEANUP:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,15 +3,15 @@ title: Gestion des propriétés
 description: Chaque propriété se compose d’un identificateur de propriété (unique dans son jeu de propriétés), d’une balise de type Variant (VT ou VarType) qui représente le type d’une valeur et de la valeur elle-même.
 ms.assetid: d220ecb4-b014-4ac9-a636-9a493187cc87
 keywords:
-- Stockage structuré Strctd STG, utilisation, gestion des propriétés
+- structured Stockage Strctd Stg, utilisation, gestion des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10dd78a1f8a8484090728dba6fe149840e940461
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a792b734ae66c2f5077f4e3a98e6c0f3f53f97a482d7e4ade46de574c03153d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126399"
 ---
 # <a name="managing-properties"></a>Gestion des propriétés
 
@@ -30,18 +30,18 @@ Voici un exemple de la façon dont les propriétés sont représentées. Si une 
 
 
 
- 
+ 
 
 Toute application qui reconnaît le format du jeu de propriétés, en l’identifiant par son identificateur de format (FMTID), peut examiner la propriété avec un identificateur PID \_ ANIMALNAME, déterminer qu’il s’agit d’une chaîne se terminant par zéro, et lire et écrire la valeur. Bien que l’application puisse appeler [**IPropertyStorage :: ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) pour lire tout ou partie d’un jeu de propriétés (ayant obtenu d’abord un pointeur), l’application doit savoir comment interpréter le jeu de propriétés.
 
 Une valeur de propriété est passée via des interfaces de propriété en tant qu’instance du type [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant).
 
-Il est important de faire la distinction entre ces propriétés stockées (persistantes) et les propriétés d’exécution. Les constantes de valeur de type Variant portent des noms commençant par VT \_ . Toutefois, l’ensemble des PROPVARIANTs valides n’est pas entièrement équivalent à l’ensemble des VARIANTEs utilisées dans les contrôles ActiveX et Automation.
+Il est important de faire la distinction entre ces propriétés stockées (persistantes) et les propriétés d’exécution. Les constantes de valeur de type Variant portent des noms commençant par VT \_ . toutefois, l’ensemble des PROPVARIANTs valides n’est pas entièrement équivalent à l’ensemble des variantes utilisées dans l’automatisation et les contrôles de ActiveX.
 
 La seule différence entre les deux structures est l’ensemble autorisé de \_ balises VT (variant type/VarType) dans chaque. Lorsqu’un type de propriété donné peut être utilisé à la fois dans un VARIANT et un PROPVARIANT, la balise de type (la \_ valeur VT) a toujours une valeur identique. En outre, pour une valeur VT donnée \_ , la représentation en mémoire utilisée dans les variantes et PROPVARIANTs est identique. Pris ensemble, cette approche permet au système de type d’intercepter les balises de type non autorisées, tout en permettant à un client compétent d’implémenter une conversion de pointeur quand cela est approprié.
 
-Pour plus d’informations, consultez la section [Considérations sur le stockage des propriétés](property-storage-considerations.md)dans la section suivante.
+pour plus d’informations, consultez la section suivante, [Stockage considérations relatives](property-storage-considerations.md)à la propriété.
 
- 
+ 
 
- 
+ 

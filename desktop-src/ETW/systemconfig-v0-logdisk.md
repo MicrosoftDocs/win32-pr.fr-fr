@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 42b17cf31dcb3830cd35f046a7fcbad1858f8ae4f728fc1417339962a4be4441
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e07a5539d8916434fa86a257daf4ef8a2ba3a826
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880735"
 ---
 # <a name="systemconfig_v0_logdisk-class"></a>\_Classe SystemConfig v0 \_ LogDisk
 
@@ -118,7 +118,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **WmiDataId** (6), **Max** (4)
 </dt> </dl>
 
-Lettre de lecteur du disque, sous la forme « <letter> : ».
+Lettre de lecteur du disque, sous la forme « &lt; letter &gt; : ».
 
 </dd> <dt>
 
@@ -310,7 +310,7 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

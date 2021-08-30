@@ -1,5 +1,5 @@
 ---
-description: 'Mappe une fonction membre unique et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (DISPID), qui peuvent être utilisés lors des appels suivants à la fonction membre CMediaControl :: Invoke.'
+description: 'Cartes une seule fonction membre et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (dispid), qui peuvent être utilisés lors des appels suivants à la fonction membre CMediaControl :: Invoke.'
 ms.assetid: 9ce1b1aa-ea03-4a65-bff7-e46771cd0772
 title: CMediaControl. GetIDsOfNames, méthode (Ctlutil. h)
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f906db9540f0429e1e7831284e55edf8c29b6a03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d328a4311746f6fdab9cf7eaa3376c7ba49c2b13b9db1d3aaac19142d2d583d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055171"
 ---
 # <a name="cmediacontrolgetidsofnames-method"></a>CMediaControl. GetIDsOfNames, méthode
 
-Mappe une fonction membre unique et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (DISPID), qui peuvent être utilisés lors des appels suivants à la fonction membre [**CMediaControl :: Invoke**](cmediacontrol-invoke.md) .
+Cartes une seule fonction membre et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (dispid), qui peuvent être utilisés lors des appels suivants à la fonction membre [**CMediaControl :: Invoke**](cmediacontrol-invoke.md) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -92,7 +92,7 @@ Retourne l’une des valeurs suivantes.
 | <dl> <dt>**Impossible d’avoir un \_ \_ \_ CLSID inconnu**</dt> </dl> | Le CLSID n’a pas été reconnu.<br/>                                                                                                             |
 | <dl> <dt>**\_UNKNOWNNAME DISP \_**</dt> </dl>    | Un ou plusieurs noms sont inconnus. Les DISPID retournés contiennent \_ un DISPID inconnu pour chaque entrée correspondant à un nom inconnu.<br/> |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>          | Mémoire insuffisante.<br/>                                                                                                                            |
-| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie.<br/>                                                                                                                                  |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Réussite.<br/>                                                                                                                                  |
 
 
 
@@ -104,7 +104,7 @@ Retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
