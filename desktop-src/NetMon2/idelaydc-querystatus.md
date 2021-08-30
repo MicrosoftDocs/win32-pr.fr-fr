@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 13d1e34b57302d263b81ed64df0b136dc01177b2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 623601fc295c0f4bf91539c222e7c4986f35010a120086380d06d496a7756b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910489"
 ---
 # <a name="idelaydcquerystatus-method"></a>IDelaydC :: QueryStatus, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [NETWORKSTATUS](networkstatus.md) retournée qui ind
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -63,7 +63,7 @@ Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être appelée à tout moment après l’appel de [CreateNPPInterface](createnppinterface.md) . Il peut être appelé pour déterminer si le NPP est connecté au réseau, pour déterminer l’état de la capture en cours et pour déterminer si des déclencheurs sont en attente.
 

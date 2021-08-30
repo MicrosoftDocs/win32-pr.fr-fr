@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork getProxyPort
 description: La méthode getProxyPort retourne le port proxy utilisé.
 ms.assetid: fc94f3a9-458d-410c-98e9-a34be6e08c52
 keywords:
-- méthode getProxyPort lecteur Windows Media
-- méthode getProxyPort lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode getProxyPort
+- Lecteur Windows Media de la méthode getProxyPort
+- méthode getProxyPort Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode getProxyPort
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46fb388c2740e709e75579c01d216af677a826c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c59186ed06b1669ead0727c618f01bcb937ff5f6e32454f6e7a1678499803cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999949"
 ---
 # <a name="iwmpnetworkgetproxyport-method"></a>IWMPNetwork :: getProxyPort, méthode
 
@@ -64,13 +64,13 @@ Implements IWMPNetwork.getProxyPort
 
 **System. Int32** qui est le port proxy utilisé. La valeur est significative uniquement lorsque **IWMPNetwork. getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise **getProxyPort** pour afficher les numéros de port du proxy du lecteur Windows Media actuels pour les protocoles MMS et http. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise **getProxyPort** pour afficher les numéros de port de proxy Lecteur Windows Media actuels pour les protocoles MMS et HTTP. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

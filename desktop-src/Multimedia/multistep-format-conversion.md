@@ -10,12 +10,12 @@ keywords:
 - acmFormatSuggest fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e81ebd5bef17d6a97cb5735e15219c39d3116b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7853579b7ff96a6ce9b9eaceb8ce34058be874b718659ba44c88a721a5385b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038459"
 ---
 # <a name="multistep-format-conversion"></a>Conversion de format à étapes
 
@@ -27,9 +27,9 @@ La conversion en une seule étape se produit également lorsque le format source
 
 Les conversions les plus simples se produisent lorsque les formats source et destination sont tous deux des formats PCM. Lorsque le format source ou de destination n’est pas PCM, la conversion peut nécessiter une étape supplémentaire. Si les formats source et de destination ne sont pas PCM, la conversion nécessitera généralement plus d’une étape et, dans certains cas, la conversion peut ne pas être possible.
 
- 
+ 
 
- 
+ 
 
 
 

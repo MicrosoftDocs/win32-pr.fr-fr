@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 27d495804fb68bc74eda269c2dd7921540f05f5b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b83b52078ce7d1202a08ffd9c6fe9bce63656ee26b58716d3aebae9f97bf9f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929579"
 ---
 # <a name="rename-method-of-the-win32_useraccount-class"></a>Renommer la méthode de la \_ classe UserAccount Win32
 
@@ -152,7 +152,7 @@ Erreur interne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonctionnalité est implémentée en tant que méthode pour fournir un contexte distinct pour le nouveau nom qui peut être distingué de la valeur de propriété de clé pour le nom associé à l’instance à modifier.
 

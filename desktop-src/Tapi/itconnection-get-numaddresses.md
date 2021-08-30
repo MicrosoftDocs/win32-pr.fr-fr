@@ -4,16 +4,16 @@ ms.assetid: c3aef5df-02e9-4c7e-99aa-8e4043798bf4
 title: 'ITConnection :: get_NumAddresses, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b121275c6af8f026e7321e4fd85327e970eb78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13a2bae08e4d989b0ce9a64b651e777d3c9b1cb0744f63798f06bf182aede58a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991889"
 ---
 # <a name="itconnectionget_numaddresses-method"></a>ITConnection :: \_ NumAddresses, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ NumAddresses** obtient le nombre d’adresses à utiliser pour la session.
 

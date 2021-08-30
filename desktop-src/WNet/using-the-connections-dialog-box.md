@@ -4,12 +4,12 @@ description: La fonction WNetConnectionDialog crée une boîte de dialogue qui p
 ms.assetid: ef375004-e426-4dee-b318-b470721116fa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f69d0f32772e614d60598853af620ae3c6452f5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 28170246a213fb9aedb02693ab65e6acce79b6e6f4596eda2673a931ccf52485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955989"
 ---
 # <a name="using-the-connections-dialog-box"></a>Utilisation de la boîte de dialogue connexions
 
@@ -41,6 +41,6 @@ if(dwResult != NO_ERROR)
 
 Pour plus d’informations sur l’utilisation d’un gestionnaire d’erreurs défini par l’application, consultez [récupération des erreurs réseau](retrieving-network-errors.md).
 
- 
+ 
 
- 
+ 

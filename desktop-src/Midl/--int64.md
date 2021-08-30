@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0859152ae2561fce70cc21a4dc1fe36e53524df0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0379ad61cdd0296ef672f62063b9c3ca7bdae250e5a3f6c1bf940aaa54cf7254
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106511866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129729"
 ---
 # <a name="__int64-attribute"></a>\_\_Int64 (attribut)
 
@@ -38,7 +38,7 @@ Spécifie un identificateur MIDL valide. Les identificateurs MIDL valides se com
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’utilisation de **\_ \_ Int64**, consultez [**hyper**](hyper.md).
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur l’utilisation de **\_ \_ Int64**, consultez [**
 
 <dl> <dt>
 
-[**consolidation**](hyper.md)
+[**hyper**](hyper.md)
 </dt> <dt>
 
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
@@ -55,9 +55,9 @@ Pour plus d’informations sur l’utilisation de **\_ \_ Int64**, consultez [**
 [**tiers**](int.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 7921585039cab285589f2cdde0f328c033069a87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82c0c9e225e1efac86eac4f0e10df0ebab2f580dbb1fe484c81a4a6f97b37cdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033639"
 ---
 # <a name="pdhvbopenlog-function"></a>PdhVbOpenLog fonction)
 
@@ -38,7 +38,7 @@ Fonction PdhVbOpenLog ( \_ ByVal SzLogFileName en tant que LPCTSTR, \_ ByVal DWA
 
 Pointeur vers une chaîne qui spécifie le nom du fichier journal à ouvrir.
 
-Si le fichier journal contient des données SQL, le format du nom du fichier journal est **SQL :**_DataSourceName_*_!_* _Nom_fichier_journal_. Dans ce cas, la valeur du paramètre *lpdwLogType* est le \_ type de journal PDH \_ \_ SQL.
+si le fichier journal contient SQL données, le format du nom du fichier journal est **SQL :**_DataSourceName_*_!_* _Nom_fichier_journal_. Dans ce cas, la valeur du paramètre *lpdwLogType* est le \_ type de journal PDH \_ \_ SQL.
 
 </dd> <dt>
 
@@ -87,7 +87,7 @@ Pointeur vers une variable qui indique le type de fichier journal à ouvrir. Ce 
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | <span id="PDH_LOG_TYPE_UNDEFINED"></span><span id="pdh_log_type_undefined"></span><dl> <dt>**\_type de journal PDH \_ \_ non défini**</dt> </dl> | Format de fichier journal non défini.<br/>                                                                                   |
 | <span id="PDH_LOG_TYPE_CSV"></span><span id="pdh_log_type_csv"></span><dl> <dt>**\_type de journal PDH \_ \_ CSV**</dt> </dl>                   | Fichiers texte contenant des en-têtes de colonnes dans la première ligne et des exemples de données individuelles sur chaque ligne suivante.<br/> |
-| <span id="PDH_LOG_TYPE_SQL"></span><span id="pdh_log_type_sql"></span><dl> <dt>**\_type de journal PDH \_ \_ SQL**</dt> </dl>                   | Les données du fichier journal sont en SQL.<br/>                                                                          |
+| <span id="PDH_LOG_TYPE_SQL"></span><span id="pdh_log_type_sql"></span><dl> <dt>**\_type de journal PDH \_ \_ SQL**</dt> </dl>                   | Les données du fichier journal se trouvent dans SQL.<br/>                                                                          |
 | <span id="PDH_LOG_TYPE_TSV"></span><span id="pdh_log_type_tsv"></span><dl> <dt>**\_type de journal PDH \_ \_ TSV**</dt> </dl>                   | Identique au \_ type de journal PDH \_ \_ CSV.<br/>                                                                                 |
 | <span id="PDH_LOG_TYPE_BINARY"></span><span id="pdh_log_type_binary"></span><dl> <dt>**\_type de journal PDH \_ \_ binaire**</dt> </dl>          | Format du fichier journal binaire. Contient des fichiers journaux circulaires.<br/>                                                         |
 | <span id="PDH_LOG_TYPE_PERFMON"></span><span id="pdh_log_type_perfmon"></span><dl> <dt>**\_type de journal PDH \_ \_ Perfmon**</dt> </dl>       | Format du fichier journal Perfmon.<br/>                                                                                     |
@@ -148,7 +148,7 @@ Si la fonction échoue, la valeur de retour est un [code d’erreur système](/w
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous utilisez cette fonction pour écrire des données de performances dans un fichier journal, vous devez d’abord ouvrir une requête à l’aide de [**PdhVbOpenQuery**](pdhvbopenquery.md).
 
@@ -162,8 +162,8 @@ Notez que les fichiers journaux au format Perfmon ne peuvent être ouverts que p
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | Bibliothèque<br/>                  | <dl> <dt>PDH. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: f5fda405-8a09-495e-aa8c-b808a2f02b0f
 title: Mettre à niveau la table
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b48ce49f0f931209ccf472cd74b352c270353a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab3085de7bb834e907ce7b5f1edbee388f5e48b5f72489954aacf3d9e85c2de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039189"
 ---
 # <a name="upgrade-table"></a>Mettre à niveau la table
 
@@ -24,7 +24,7 @@ La table de mise à niveau contient les colonnes indiquées dans le tableau suiv
 | UpgradeCode    | [GUID](guid.md)             | O   | N        |
 | VersionMin     | [Text](text.md)             | O   | O        |
 | VersionMax     | [Text](text.md)             | O   | O        |
-| Language       | [Text](text.md)             | O   | O        |
+| Langage       | [Text](text.md)             | O   | O        |
 | Attributs     | [Integer](integer.md)       | O   | N        |
 | Supprimer         | [Correct](formatted.md)   | N   | O        |
 | ActionProperty | [Identificateur](identifier.md) | N   | N        |
@@ -49,7 +49,7 @@ La propriété [UpgradeCode](upgradecode.md) dans cette colonne spécifie le cod
 
 Limite inférieure de la plage de versions de produit détectée par [FindRelatedProducts](findrelatedproducts-action.md). Entrez **msidbUpgradeAttributesVersionMinInclusive** dans attributs pour inclure VersionMin dans la plage. Si VersionMin est égal à une chaîne vide (""), elle est évaluée de la même façon que 0. Si VersionMin a la valeur null, FindRelatedProducts ignore **msidbUpgradeAttributesVersionMinInclusive** et détecte toutes les versions précédentes. VersionMin et VersionMax ne doivent pas être tous les deux null.
 
-VersionMin doit être une version de produit valide, comme décrit pour la propriété [**ProductVersion**](productversion.md) . Notez que Windows Installer utilise uniquement les trois premiers champs de la version du produit. Si vous incluez un quatrième champ dans la version de votre produit, le programme d’installation ignore le quatrième champ.
+VersionMin doit être une version de produit valide, comme décrit pour la propriété [**ProductVersion**](productversion.md) . notez que Windows Installer utilise uniquement les trois premiers champs de la version du produit. Si vous incluez un quatrième champ dans la version de votre produit, le programme d’installation ignore le quatrième champ.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ VersionMin doit être une version de produit valide, comme décrit pour la propr
 
 Limite supérieure de la plage de versions de produit détectée par l’action [FindRelatedProducts](findrelatedproducts-action.md) . Entrez **msidbUpgradeAttributesVersionMaxInclusive** dans attributs pour inclure VersionMax dans la plage. Si VersionMax est une chaîne vide (""), elle est évaluée de la même façon que 0. Si VersionMax a la valeur null, FindRelatedProducts ignore **msidbUpgradeAttributesVersionMaxInclusive** et détecte toutes les versions de produit supérieures à (ou supérieures ou égales à) la limite inférieure spécifiée par VersionMin et **msidbUpgradeAttributesVersionMinInclusive**. VersionMin et VersionMax ne doivent pas être tous les deux null.
 
-VersionMax doit être une version de produit valide, comme décrit pour la propriété [**ProductVersion**](productversion.md) . Notez que Windows Installer utilise uniquement les trois premiers champs de la version du produit. Si vous incluez un quatrième champ dans la version de votre produit, le programme d’installation ignore le quatrième champ.
+VersionMax doit être une version de produit valide, comme décrit pour la propriété [**ProductVersion**](productversion.md) . notez que Windows Installer utilise uniquement les trois premiers champs de la version du produit. Si vous incluez un quatrième champ dans la version de votre produit, le programme d’installation ignore le quatrième champ.
 
 </dd> <dt>
 

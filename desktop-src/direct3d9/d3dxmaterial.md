@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 89079b716a8c5808255b2bc660f1d364bb97315f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c90b03f5d6526fc3545ff1ffe1d48dfea20f96ea4ae34602f885ce7f062003b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106524840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027409"
 ---
 # <a name="d3dxmaterial-structure"></a>D3DXMATERIAL, structure
 
@@ -62,7 +62,7 @@ Pointeur vers une chaîne qui spécifie le nom de fichier de la texture.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions [**D3DXLoadMeshFromX**](d3dxloadmeshfromx.md) et [**D3DXLoadMeshFromXof**](d3dxloadmeshfromxof.md) retournent un tableau de structures **D3DXMATERIAL** qui spécifient la couleur matérielle et le nom de la texture pour chaque matériau de la maille. L’application est ensuite requise pour charger la texture.
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d55b367c1e602d8fd0632c10587931ba4571d5f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3efcaaaa6a6e65d4b51fa4836d38cb145142011a3fb3858418424d96299e149a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077739"
 ---
 # <a name="documentversion-attribute"></a>attribut documentVersion
 
@@ -43,7 +43,7 @@ Le type d’attribut documentVersion spécifie le numéro de version d’un docu
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

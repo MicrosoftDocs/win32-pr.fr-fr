@@ -4,12 +4,12 @@ ms.assetid: 088a2111-f4ee-4bec-98a9-ac138950958b
 title: Considérations relatives à la sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd3078834b3a69f988d17e5cbfd5fa1bd1591e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d66b15d07251e1510f582807b4970dde7794905989b8e10973cf965d0c115911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034190"
 ---
 # <a name="security-considerations"></a>Considérations relatives à la sécurité
 
@@ -23,9 +23,9 @@ Les services de réseau pair à pair stockent des données dans l’arborescence
 
 ## <a name="guest-access-to-peer-networking-services"></a>Accès invité aux services de réseau pair à pair
 
-Un compte invité et les membres du groupe de sécurité Windows **invités** n’ont pas accès à la plupart des services homologues. Les applications doivent disposer d’un accès utilisateur local ou supérieur.
+un compte invité et les membres du groupe Sécurité Windows **invités** n’ont pas accès à la plupart des services homologues. Les applications doivent disposer d’un accès utilisateur local ou supérieur.
 
-## <a name="information-disclosure"></a>Information Disclosure (divulgation d’informations)
+## <a name="information-disclosure"></a>Divulgation d’informations
 
 La divulgation d’informations implique l’adresse, la base de données et les informations d’identification du groupe et de l’identité. Les sections suivantes identifient et définissent la divulgation d’informations.
 
@@ -36,7 +36,7 @@ La divulgation d’informations implique l’adresse, la base de données et les
 
 La capacité d’un utilisateur à se connecter à d’autres membres du groupe homologue ou à des nœuds de graphique d’homologue lorsqu’il est connecté est une fonctionnalité principale du réseau pair à pair. Lorsque vous êtes connecté à un groupe pair ou à un graphique, l’adresse IP actuelle d’un utilisateur peut être publiée dans un enregistrement de présence au sein du groupe homologue ou du graphique. Par défaut, toute personne participant à ce groupe ou graphique pair peut énumérer les membres du groupe ou du graphique et déterminer les adresses actuelles des membres. Cette capacité est un regroupement configurable et une propriété de représentation graphique d’homologue.
 
-**Divulgation de base de données** Les infrastructures de regroupement et de représentation graphique des pairs sont stockées sur le système de fichiers local. Tout utilisateur Windows disposant d’un accès administratif au système de fichiers local (par exemple, un administrateur local) peut accéder en théorie aux données de la base de données du graphique ou du groupe d’homologues local. Cela est cohérent avec la possibilité pour les administrateurs locaux d’accéder à toutes les données sur l’ordinateur local.
+**Divulgation de base de données** Les infrastructures de regroupement et de représentation graphique des pairs sont stockées sur le système de fichiers local. tout utilisateur Windows disposant d’un accès administratif au système de fichiers local (par exemple, un administrateur local) peut accéder en théorie aux données de la base de données du graphique ou du groupe d’homologues local. Cela est cohérent avec la possibilité pour les administrateurs locaux d’accéder à toutes les données sur l’ordinateur local.
 
 **Divulgation des informations d’identification de groupe et d’identité** Le regroupement d’égal à égal exige que les membres établissent des connexions entre eux pour s’authentifier à l’aide de chaînes de certificats X. 509 modifiées. Dans le cadre de l’authentification, les chaînes d’identité et de certificat d’appartenance de groupe (GMC) correspondantes de chaque membre sont échangées.
 

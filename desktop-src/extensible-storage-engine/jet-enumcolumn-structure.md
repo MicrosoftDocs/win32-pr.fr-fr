@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6ac89a45e37631b554fc7b2dc28266c95cfae3fba54debb427abfd8db621ea3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f0fa6d326120355e43b29cd87e13d5c0ebbf68b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118766087"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474535"
 ---
 # <a name="jet_enumcolumn-structure"></a>Structure JET_ENUMCOLUMN
 
@@ -58,44 +58,16 @@ ID de colonne qui a été énuméré.
 
 Code d’état de la colonne qui résulte de l’énumération de la colonne.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Codes d’erreur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errBadColumnId</p></td>
-<td><p>L’ID de colonne est en dehors des limites autorisées d’un ID de colonne.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errColumnNotFound</p></td>
-<td><p>La colonne décrite par l’ID de colonne n’existe pas dans la table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>Toutes les valeurs de cette colonne sont NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnPresent</p></td>
-<td><p>JET_bitEnumeratePresenceOnly a été spécifié et au moins une valeur de colonne non NULL aurait été retournée pour cette colonne.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnSingleValue</p></td>
-<td><p>JET_bitEnumerateCompressOutput a été spécifié et une seule valeur de colonne non NULL a été retournée pour cette colonne. Par conséquent, la forme compressée de <strong>JET_ENUMCOLUMN</strong> a été retournée. Pour plus d’informations, consultez <strong>JET_ENUMCOLUMN</strong> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p>L’ID de colonne dans le struct <a href="gg269251(v=exchg.10).md">JET_ENUMCOLUMNID</a> qui correspond à ce <strong>JET_ENUMCOLUMN</strong> struct était égal à zéro.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Codes d’erreur</p> | <p>Signification</p> | 
+|--------------------|----------------|
+| <p>JET_errBadColumnId</p> | <p>L’ID de colonne est en dehors des limites autorisées d’un ID de colonne.</p> | 
+| <p>JET_errColumnNotFound</p> | <p>La colonne décrite par l’ID de colonne n’existe pas dans la table.</p> | 
+| <p>JET_wrnColumnNull</p> | <p>Toutes les valeurs de cette colonne sont NULL.</p> | 
+| <p>JET_wrnColumnPresent</p> | <p>JET_bitEnumeratePresenceOnly a été spécifié et au moins une valeur de colonne non NULL aurait été retournée pour cette colonne.</p> | 
+| <p>JET_wrnColumnSingleValue</p> | <p>JET_bitEnumerateCompressOutput a été spécifié et une seule valeur de colonne non NULL a été retournée pour cette colonne. Par conséquent, la forme compressée de <strong>JET_ENUMCOLUMN</strong> a été retournée. Pour plus d’informations, consultez <strong>JET_ENUMCOLUMN</strong> .</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p>L’ID de colonne dans le struct <a href="gg269251(v=exchg.10).md">JET_ENUMCOLUMNID</a> qui correspond à ce <strong>JET_ENUMCOLUMN</strong> struct était égal à zéro.</p> | 
+
 
 
 **cEnumColumnValue**
@@ -136,26 +108,9 @@ Cette erreur est retournée si « Err = = JET_wrnColumnSingleValue ».
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

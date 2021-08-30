@@ -4,12 +4,12 @@ ms.assetid: B0F5E19F-36A6-4965-A119-42AF601A64BE
 title: À propos de la gestion Hyper-V
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 979f7307b681f084629f9242729d89be99785e78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3662b57ffea183342b29d87db8f77df10affb9a72838fdca2af0695cbf818e46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078269"
 ---
 # <a name="about-hyper-v-management"></a>À propos de la gestion Hyper-V
 

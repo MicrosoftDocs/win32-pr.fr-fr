@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre I, tels que importer une table d’adresses et un niveau d’installation.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre I, tels que importer une table d’adresses et un niveau d’installation.
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
 title: I (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e33b5cfb9c4545a5482b214e0413ab3e3d981109
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 3c8894b61907062c7b68cdb0a70e9b20e49729b8a3a04c76b9a59d82efbefdbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129449"
 ---
 # <a name="i-windows-installer"></a>I (Windows Installer)
 
@@ -20,7 +20,7 @@ ms.locfileid: "112010652"
 <span id="_msi_.idt_file_gly"></span><span id="_MSI_.IDT_FILE_GLY"></span>**fichier. IDT**
 </dt> <dd>
 
-Table de base de données du programme d’installation exporté. Pour plus d’informations, consultez [importation et exportation](importing-and-exporting.md) et [Windows Installer des extensions de fichier](windows-installer-file-extensions.md).
+Table de base de données du programme d’installation exporté. pour plus d’informations, consultez [importation et exportation](importing-and-exporting.md) et [Windows Installer des Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> <dt>
 

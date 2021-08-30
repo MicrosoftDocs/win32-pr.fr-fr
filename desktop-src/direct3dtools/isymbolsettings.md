@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 05cca9d8d61f8d90b6daf77b2ac8c34be432f8a1
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 7e11fe8c10152460a9e049cb8c2d1bd78a162b5d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627875"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786785"
 ---
 # <a name="span-idvspixengineisymbolsettingsspanisymbolsettings-interface"></a><span id="vspixengine.isymbolsettings"></span>Interface ISymbolSettings
 
@@ -38,7 +38,7 @@ L’interface **ISymbolSettings** hérite de l’interface [**IUnknown**](/windo
 
 L’interface **ISymbolSettings** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td style="text-align: left;"><p>Demande d’envoi de chemins d’accès aux symboles de débogage au moteur local (non distant).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isymbolsettings-updatesymbolsettings-symbolserverinfo"><strong>UpdateSymbolSettings</strong></a></td><td ><p>Demande d’envoi de chemins d’accès aux symboles de débogage au moteur local (non distant).</p></td></tr></tbody></table>
 
  
 

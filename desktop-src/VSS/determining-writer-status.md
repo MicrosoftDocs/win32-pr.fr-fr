@@ -4,12 +4,12 @@ ms.assetid: 676d5cff-bd28-43f0-a402-d184c96f0061
 title: Détermination de l’état de l’enregistreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 719322a18808748e92d412c48c7b7628fdac9d51
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: d16c22364ed0f8eea6f73280e33083da3dcb06205d9a36a348644aa18d159f3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032749"
 ---
 # <a name="determining-writer-status"></a>Détermination de l’état de l’enregistreur
 
@@ -21,7 +21,7 @@ Un demandeur doit avoir une compréhension bien définie de l’état de l’enr
     Lors du traitement d’une sauvegarde, un demandeur doit interroger un enregistreur à la suite de l’exécution des méthodes suivantes. Les demandeurs doivent appeler [**GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) après avoir appelé [**BackupComplete**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) pour que la session de l’enregistreur soit définie sur un état terminé.
 
     > [!Note]  
-    > Cela n’est nécessaire que sur Windows Server 2008 avec Service Pack 2 (SP2) et versions antérieures.
+    > cela est nécessaire uniquement sur Windows Server 2008 avec Service Pack 2 (SP2) et versions antérieures.
 
      
 

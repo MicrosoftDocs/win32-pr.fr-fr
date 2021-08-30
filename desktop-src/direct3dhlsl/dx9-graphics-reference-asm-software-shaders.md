@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: df101edd0362321847fb9c0baf7feb3cc865e2da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36676517a1979c2bd876ad3afdb84e83d596322f25015ac2cd934d48f23c5b33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949979"
 ---
 # <a name="software-shaders"></a>Nuanceurs de logiciels
 
@@ -22,7 +22,7 @@ Les nuanceurs de logiciels sont mis en œuvre pour permettre le développement d
 
 
 
-| Version   | Jeu de fonctionnalités                  | Spécifications                                                         |
+| Version   | Jeu de fonctionnalités                  | Configuration requise                                                         |
 |-----------|------------------------------|----------------------------------------------------------------------|
 | vs \_ 2 \_ SW | Toutes les fonctionnalités de vs \_ 2 \_ x | Pris en charge uniquement par le traitement du vertex logiciel et par un appareil de référence. |
 | vs \_ 3 \_ SW | Toutes les fonctionnalités de vs \_ 3 \_ 0 | Pris en charge uniquement par le traitement du vertex logiciel et par un appareil de référence. |
@@ -31,7 +31,7 @@ Les nuanceurs de logiciels sont mis en œuvre pour permettre le développement d
 
 
 
- 
+ 
 
 Certaines validations sont assouplies pour les nuanceurs de logiciels. Cela est utile à des fins de débogage et de prototypage. Les validations suivantes sont assouplies : (toutes les autres validations restent les mêmes)
 
@@ -51,7 +51,7 @@ Certaines validations sont assouplies pour les nuanceurs de logiciels. Cela est 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Certaines validations sont assouplies pour les nuanceurs de logiciels. Cela est 
 [Référence du nuanceur asm](dx9-graphics-reference-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

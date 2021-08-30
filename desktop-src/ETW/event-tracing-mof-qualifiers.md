@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 578699b04c5ba2d0f39afb2e8ff5141151bd208b
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: e118f5315316386426cff89fa1405b92b6dadb70
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122628438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885045"
 ---
 # <a name="event-tracing-mof-qualifiers"></a>Qualificateurs MOF de suivi d’événements
 
@@ -41,7 +41,7 @@ Le tableau suivant répertorie les qualificateurs que vous pouvez spécifier sur
 | Qualificateur        | Type de données   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Guid**         | **Chaîne**  | Obligatoire. GUID de chaîne qui identifie une classe d’événements. Par exemple, Guid ("{3F92E6E0-9886-434e-85DB-0D11D3904C0A}"). Les fournisseurs d’événements utilisent le GUID pour définir l' [**\_ \_ en-tête de suivi d’événement. Membre GUID**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) , afin que les consommateurs puissent déterminer la classe des événements qu’ils reçoivent.                                                                                                                                                                                                                                                                                  |
-| **EventVersion** | **Integer** | Ce qualificateur est facultatif pour la version la plus récente d’une classe de trace d’événements et est requis pour toutes les versions antérieures de la classe. La version la plus récente de la classe ne spécifie pas le qualificateur **EventVersion** ou a le numéro de version le plus élevé. Les numéros de version commencent par 0, par exemple EventVersion (0). En règle générale, lorsque vous créez une nouvelle version de la classe, vous renommez également la version précédente en <classname> \_ VN, où n est un nombre incrémentiel commençant à 0. Pour obtenir un exemple, consultez [**FileIO**](fileio.md) et [**FileIO \_ v0**](fileio-v0.md).<br/> |
+| **EventVersion** | **Integer** | Ce qualificateur est facultatif pour la version la plus récente d’une classe de trace d’événements et est requis pour toutes les versions antérieures de la classe. La version la plus récente de la classe ne spécifie pas le qualificateur **EventVersion** ou a le numéro de version le plus élevé. Les numéros de version commencent par 0, par exemple EventVersion (0). En règle générale, lorsque vous créez une nouvelle version de la classe, vous renommez également la version précédente en &lt; className &gt; \_ VN, où n est un nombre incrémentiel commençant à 0. Pour obtenir un exemple, consultez [**FileIO**](fileio.md) et [**FileIO \_ v0**](fileio-v0.md).<br/> |
 
 
 
@@ -56,7 +56,7 @@ Le tableau suivant répertorie les qualificateurs que vous pouvez spécifier sur
 | Qualificateur         | Valeur       | Description                                                                                                                                                                                                                                                                                                                                                                       |
 |-------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **EventType**     | **Integer** | Obligatoire. Identifie la classe de type d’événement. Par exemple, EventType (1). Le fournisseur d’événements utilise la même valeur de type d’événement pour définir l' [**\_ en-tête de suivi d’événement \_ . Class. type**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header). Si la même classe MOF est utilisée pour plusieurs types d’événements (parce qu’elles utilisent les mêmes données d’événement), spécifiez la valeur de type d’événement sous la forme d’un tableau d’entiers, par exemple EventType {12,15} . |
-| **EventTypeName** | **Chaîne**  | Optionnel. Décrit le type d’événement. Par exemple, EventTypeName (« Start »). Si la même classe MOF est utilisée pour plusieurs types d’événements (parce qu’elles utilisent les mêmes données d’événement), spécifiez la valeur du nom du type d’événement sous la forme d’un tableau de chaînes, par exemple, EventTypeName {"Start", "End"}. Les éléments du tableau EventTypeName correspondent directement au tableau EventType.                 |
+| **EventTypeName** | **Chaîne**  | Facultatif. Décrit le type d’événement. Par exemple, EventTypeName (« Start »). Si la même classe MOF est utilisée pour plusieurs types d’événements (parce qu’elles utilisent les mêmes données d’événement), spécifiez la valeur du nom du type d’événement sous la forme d’un tableau de chaînes, par exemple, EventTypeName {"Start", "End"}. Les éléments du tableau EventTypeName correspondent directement au tableau EventType.                 |
 
 
 

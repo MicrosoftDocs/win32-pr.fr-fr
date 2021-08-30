@@ -6,12 +6,12 @@ keywords:
 - WGL, fonctions, contextes de rendu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad8d3a8ea0333154d3145711829ab23e262fa485
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7efb419caa2771b8dbee0eb25c8b5bdaf2a673df565f82ab25df10cbcc11cc39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776839"
 ---
 # <a name="rendering-context-functions"></a>Rendu des fonctions de contexte
 
@@ -29,14 +29,14 @@ Cinq fonctions WGL gèrent les contextes de rendu, comme décrit dans le tableau
 
 
 
- 
+ 
 
 La fonction [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext) prend un handle de contexte de périphérique en tant que paramètre et retourne un handle de contexte de rendu. Le contexte de rendu créé est adapté au dessin sur l’appareil référencé par le handle de contexte de périphérique. En particulier, son format de pixel est le même que le format de pixel du contexte de périphérique. Après avoir créé un contexte de rendu, vous pouvez libérer ou supprimer le contexte de périphérique. Pour plus d’informations sur la création, l’obtention, le lancement et la suppression d’un contexte de périphérique, consultez [contextes de périphérique](/windows/desktop/gdi/device-contexts) .
 
 > [!Note]  
 > Le contexte de périphérique (Device Context) envoyé à [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext) doit être un contexte de périphérique d’affichage, un contexte de périphérique de mémoire ou un contexte de périphérique d’imprimante couleur qui utilise quatre bits ou plus par pixel. Le contexte de périphérique ne peut pas être un contexte de périphérique d’imprimante monochrome.
 
- 
+ 
 
 La fonction [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent) prend un handle de contexte de rendu et un handle de contexte de périphérique en tant que paramètres. Tous les appels OpenGL suivants effectués par le thread sont effectués par le biais de ce contexte de rendu et sont dessinés sur l’appareil référencé par ce contexte de périphérique. Le contexte de périphérique n’a pas besoin d’être le même que celui passé à **wglCreateContext** lorsque le contexte de rendu a été créé, mais il doit se trouver sur le même appareil et avoir le même format de pixel. L’appel à **wglMakeCurrent** crée une association entre le contexte de rendu fourni et le contexte de périphérique. Vous ne pouvez pas libérer ou supprimer le contexte de périphérique associé à un contexte de rendu actuel tant que vous n’avez pas effectué le contexte de rendu en cours.
 
@@ -59,6 +59,6 @@ La fonction [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldele
 
 Un thread a une erreur pour supprimer un contexte de rendu qui est le contexte de rendu d’un autre thread. Toutefois, si un contexte de rendu est le contexte de rendu actuel du thread appelant, **wglDeleteContext** vide toutes les commandes de dessin OpenGL et rend le contexte de rendu inactif avant de le supprimer. Dans ce cas, si vous utilisez **wglDeleteContext** pour rendre un contexte de rendu non actuel, le programmeur doit supprimer ou libérer le contexte de périphérique associé.
 
- 
+ 
 
- 
+ 

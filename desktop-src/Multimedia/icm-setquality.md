@@ -1,9 +1,9 @@
 ---
 title: Message ICM_SETQUALITY (VFW. h)
-description: Le \_ message SETQUALITY ICM fournit un pilote de compression vidéo avec un niveau de qualité à utiliser pendant la compression.
+description: le \_ message ICM SETQUALITY fournit un pilote de compression vidéo avec un niveau de qualité à utiliser pendant la compression.
 ms.assetid: 487ff1de-7178-440a-b38d-0b82a30d7297
 keywords:
-- Message ICM_SETQUALITY Windows Multimedia
+- message ICM_SETQUALITY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a1523996ad336e64d4b34143cc26cd8d0937d5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: adb840b3dc283d0cd81b4662322e0571b8e687bbdd4b6e7009a6fa1786e95920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784909"
 ---
-# <a name="icm_setquality-message"></a>\_Message SETQUALITY ICM
+# <a name="icm_setquality-message"></a>ICM \_ Message SETQUALITY
 
-Le **message \_ SETQUALITY ICM** fournit un pilote de compression vidéo avec un niveau de qualité à utiliser pendant la compression.
+le message **ICM \_ SETQUALITY** fournit un pilote de compression vidéo avec un niveau de qualité à utiliser pendant la compression.
 
 
 ```C++

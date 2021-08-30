@@ -4,16 +4,16 @@ ms.assetid: bd416109-fe76-4d55-bc63-3ebbcf32b92a
 title: Processus dans le contexte de sécurité du client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c9bafb576bd0d195ae762c69be885ac32f1071
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b3537f2f9dfa9129a84d0811d2e8c45ff91f5a987af0131d1f65ceedda6103d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907579"
 ---
 # <a name="processes-in-the-client-security-context"></a>Processus dans le contexte de sécurité du client
 
-Une application serveur peut appeler la fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) pour créer un nouveau processus qui s’exécute dans le [*contexte de sécurité*](/windows/desktop/SecGloss/s-gly)d’un client. Lorsqu’elle est appelée avec un [*jeton d’accès*](/windows/desktop/SecGloss/a-gly)client, **CreateProcessAsUser** requiert le \_ nom du ASSIGNPRIMARYTOKEN se et les privilèges d' \_ \_ augmentation \_ des noms de quotas \_ , qui sont conservés par les services Windows exécutés dans le [compte LocalSystem](/windows/desktop/Services/localsystem-account).
+Une application serveur peut appeler la fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) pour créer un nouveau processus qui s’exécute dans le [*contexte de sécurité*](/windows/desktop/SecGloss/s-gly)d’un client. lorsqu’elle est appelée avec un [*jeton d’accès*](/windows/desktop/SecGloss/a-gly)client, **CreateProcessAsUser** requiert le nom de la SE \_ ASSIGNPRIMARYTOKEN \_ et SE \_ augmenter les privilèges de nom de \_ QUOTA \_ , qui sont conservés par Windows services exécutés dans le [compte LocalSystem](/windows/desktop/Services/localsystem-account).
 
 La fonction [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) requiert également un [*jeton d’accès principal*](/windows/desktop/SecGloss/p-gly). Un serveur peut obtenir un jeton d’accès principal pour un client en [démarrant une session de connexion](client-logon-sessions.md) pour le client ou en [usurpant l’identité du client](client-impersonation.md) et en dupliquant le [*jeton d’emprunt d’identité*](/windows/desktop/SecGloss/i-gly).
 

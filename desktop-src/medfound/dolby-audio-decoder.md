@@ -4,12 +4,12 @@ ms.assetid: A968914A-E4C5-4472-8776-C73F5910089A
 title: Décodeur audio Dolby
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4f1d8ca21cb3ab86f1fdbeddf03624aaaffb0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ae38516edd935def5d9b2b041c942a729c45c61
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749261"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479865"
 ---
 # <a name="dolby-audio-decoder"></a>Décodeur audio Dolby
 
@@ -19,7 +19,7 @@ Le décodeur Dolby audio est une [Media Foundation transformation](media-foundat
 -   Dolby Digital plus, également appelé AC-3 amélioré (E-AC-3)
 
 > [!IMPORTANT]
-> Pour les versions de Windows antérieures à Windows 8, l’implémentation Microsoft de la technologie Dolby Digital est limitée aux termes du programme de gestion de licences Dolby Digital à utiliser par les applications Microsoft.
+> pour les versions de Windows antérieures à Windows 8, l’implémentation microsoft de la technologie dolby digital est limitée aux termes du programme de gestion de licences dolby digital à utiliser par les applications microsoft.
 
  
 
@@ -51,52 +51,15 @@ Le tableau suivant répertorie les attributs requis et facultatifs pour le type 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Pour plus d’informations, consultez le tableau précédent.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Taux d’échantillonnage, en échantillons par seconde.</td>
-<td>Optionnel. Les valeurs valides sont les suivantes : 48000, 44100, 32000, 24000, 22050 et 16000. Si cet attribut n’est pas défini, la valeur par défaut est 48000. <br/>
-<blockquote>
-[!Note]<br />
-Les flux Dolby AC-3 sont limités aux trois tarifs les plus élevés de cette liste.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.</td>
-<td>Optionnel. Les valeurs valides sont comprises entre 1 (mono) et 8 (configuration de canal 7,1). Si cet attribut n’est pas défini, la valeur par défaut est 2 (stéréo).</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. S’il est spécifié, la valeur doit être cohérente avec le nombre de canaux audio. Si l’attribut n’est pas défini, le décodeur utilise un masque de canal par défaut, en fonction du nombre de canaux.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Pour plus d’informations, consultez le tableau précédent. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Taux d’échantillonnage, en échantillons par seconde. | facultatif. Les valeurs valides sont les suivantes : 48000, 44100, 32000, 24000, 22050 et 16000. Si cet attribut n’est pas défini, la valeur par défaut est 48000. <br /><blockquote>[!Note]<br />Les flux Dolby AC-3 sont limités aux trois tarifs les plus élevés de cette liste.</blockquote><br /> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant. | facultatif. Les valeurs valides sont comprises entre 1 (mono) et 8 (configuration de canal 7,1). Si cet attribut n’est pas défini, la valeur par défaut est 2 (stéréo). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. S’il est spécifié, la valeur doit être cohérente avec le nombre de canaux audio. Si l’attribut n’est pas défini, le décodeur utilise un masque de canal par défaut, en fonction du nombre de canaux. | 
+
 
 
 
@@ -106,72 +69,19 @@ Le tableau suivant répertorie les configurations Dolby Channel prises en charge
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Configuration du canal</th>
-<th>Nombre de canaux</th>
-<th>Masques de canal</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1/0 (mono)</td>
-<td>1</td>
-<td>0x4 (<strong>SPEAKER_FRONT_CENTER</strong>)</td>
-</tr>
-<tr class="even">
-<td>2/0 (stéréo) ou 1 + 1 (double mono)</td>
-<td>2</td>
-<td>0x3 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>)</td>
-</tr>
-<tr class="odd">
-<td>3/0</td>
-<td>3</td>
-<td>0x7 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong> | SPEAKER_FRONT_CENTER)</td>
-</tr>
-<tr class="even">
-<td>2/1</td>
-<td>3</td>
-<td>0x103 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_BACK_CENTER</strong>)</td>
-</tr>
-<tr class="odd">
-<td>3/1</td>
-<td>4</td>
-<td>0x107 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_BACK_CENTER</strong>)</td>
-</tr>
-<tr class="even">
-<td>2/2</td>
-<td>4</td>
-<td>0x33 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_BACK_LEFT</strong>  |  <strong>SPEAKER_BACK_RIGHT</strong>)<br/> ou<br/> 0x603 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_SIDE_LEFT</strong>  |  <strong>SPEAKER_SIDE_RIGHT</strong>) <br/></td>
-</tr>
-<tr class="odd">
-<td>3/2</td>
-<td>5</td>
-<td>0x37 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_BACK_LEFT</strong>  |  <strong>SPEAKER_BACK_RIGHT</strong>)<br/> ou<br/> 0x607 (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_SIDE_LEFT</strong>  |  <strong>SPEAKER_SIDE_RIGHT</strong>) <br/></td>
-</tr>
-<tr class="even">
-<td>3/2 + LFE</td>
-<td>6</td>
-<td>0x3F (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_LOW_FREQUENCY</strong>  |  <strong>SPEAKER_BACK_LEFT</strong>  |  <strong>SPEAKER_BACK_RIGHT</strong>)<br/> ou<br/> 0x60F (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_LOW_FREQUENCY</strong>  |  <strong>SPEAKER_SIDE_LEFT</strong>  |  <strong>SPEAKER_SIDE_RIGHT</strong>)<br/></td>
-</tr>
-<tr class="odd">
-<td>3/2/2 + LFE
-<blockquote>
-[!Note]<br />
-Dolby Digital plus uniquement.
-</blockquote>
-<br/> <br/></td>
-<td>8</td>
-<td>0x63F (<strong>SPEAKER_FRONT_LEFT</strong>  |  <strong>SPEAKER_FRONT_RIGHT</strong>  |  <strong>SPEAKER_FRONT_CENTER</strong>  |  <strong>SPEAKER_LOW_FREQUENCY</strong>  |  <strong>SPEAKER_BACK_LEFT</strong>  |  <strong>SPEAKER_BACK_RIGHT</strong> | SPEAKER_SIDE_LEFT | SPEAKER_SIDE_RIGHT)</td>
-</tr>
-</tbody>
-</table>
+
+| Configuration du canal | Nombre de canaux | Masques de canal | 
+|-----------------------|--------------------|---------------|
+| 1/0 (mono) | 1 | 0x4 (<strong>SPEAKER_FRONT_CENTER</strong>) | 
+| 2/0 (stéréo) ou 1 + 1 (double mono) | 2 | 0x3 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong>) | 
+| 3/0 | 3 | 0x7 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | SPEAKER_FRONT_CENTER) | 
+| 2/1 | 3 | 0x103 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_BACK_CENTER</strong>) | 
+| 3/1 | 4 | 0x107 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_BACK_CENTER</strong>) | 
+| 2/2 | 4 | 0x33 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br /> ou<br /> 0x603 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>) <br /> | 
+| 3/2 | 5 | 0x37 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br /> ou<br /> 0x607 (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>) <br /> | 
+| 3/2 + LFE | 6 | 0x3F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong>)<br /> ou<br /> 0x60F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_SIDE_LEFT</strong> | <strong>SPEAKER_SIDE_RIGHT</strong>)<br /> | 
+| 3/2/2 + LFE<blockquote>[!Note]<br />Dolby Digital plus uniquement.</blockquote><br /><br /> | 8 | 0x63F (<strong>SPEAKER_FRONT_LEFT</strong> | <strong>SPEAKER_FRONT_RIGHT</strong> | <strong>SPEAKER_FRONT_CENTER</strong> | <strong>SPEAKER_LOW_FREQUENCY</strong> | <strong>SPEAKER_BACK_LEFT</strong> | <strong>SPEAKER_BACK_RIGHT</strong> | SPEAKER_SIDE_LEFT | SPEAKER_SIDE_RIGHT) | 
+
 
 
 
@@ -200,78 +110,19 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Pour plus d’informations, consultez le tableau précédent.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Taux d’échantillonnage, en échantillons par seconde.</td>
-<td>Obligatoire. Les valeurs valides sont les suivantes : 48000, 44100, 32000, 24000, 22050 et 16000. Le taux d’échantillonnage de sortie doit être identique au taux d’échantillonnage d’entrée. Le décodeur ne peut pas modifier la fréquence d’échantillonnage du flux.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.</td>
-<td>Requis pour la sortie PCM. <br/> Non nécessaire pour la sortie numérique. <br/> Si le type d’entrée est mono, stéréo ou double-mono (tout sans canal LFE), la seule valeur valide est 2, pour la sortie stéréo. Dans le cas contraire, la valeur peut être : <br/>
-<ul>
-<li>2 pour downmix stéréo</li>
-<li>6 pour les configurations de canal 5,1</li>
-<li>8 pour les configurations de canal 7,1</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Requis pour la sortie PCM si le nombre de canaux est supérieur à 2. La valeur doit être :<br/>
-<ul>
-<li>0x3 pour sortie stéréo</li>
-<li>0x3F pour sortie de canal 5,1</li>
-<li>0x63F pour la sortie du canal 7,1</li>
-</ul>
-Non nécessaire pour la sortie numérique. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits par échantillon audio.</td>
-<td>Requis pour la sortie PCM. La valeur doit être 32 pour <strong>MFAudioFormat_Float</strong>, et 16 pour <strong>MFAudioFormat_PCM</strong>.<br/> Non nécessaire pour la sortie numérique.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits de données audio valides dans chaque exemple audio.</td>
-<td>Facultatif pour la sortie PCM. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.<br/> Non nécessaire pour les sous-types de sortie numérique.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>Alignement de bloc, en octets.</td>
-<td>Facultatif pour la sortie PCM. Non nécessaire pour la sortie numérique.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Nombre moyen d’octets par seconde.</td>
-<td>Facultatif pour la sortie PCM. Non nécessaire pour la sortie numérique.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Pour plus d’informations, consultez le tableau précédent. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Taux d’échantillonnage, en échantillons par seconde. | Obligatoire. Les valeurs valides sont les suivantes : 48000, 44100, 32000, 24000, 22050 et 16000. Le taux d’échantillonnage de sortie doit être identique au taux d’échantillonnage d’entrée. Le décodeur ne peut pas modifier la fréquence d’échantillonnage du flux. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant. | Requis pour la sortie PCM. <br /> Non nécessaire pour la sortie numérique. <br /> Si le type d’entrée est mono, stéréo ou double-mono (tout sans canal LFE), la seule valeur valide est 2, pour la sortie stéréo. Dans le cas contraire, la valeur peut être : <br /><ul><li>2 pour downmix stéréo</li><li>6 pour les configurations de canal 5,1</li><li>8 pour les configurations de canal 7,1</li></ul> | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | Requis pour la sortie PCM si le nombre de canaux est supérieur à 2. La valeur doit être :<br /><ul><li>0x3 pour sortie stéréo</li><li>0x3F pour sortie de canal 5,1</li><li>0x63F pour la sortie du canal 7,1</li></ul>Non nécessaire pour la sortie numérique. <br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | Nombre de bits par échantillon audio. | Requis pour la sortie PCM. La valeur doit être 32 pour <strong>MFAudioFormat_Float</strong>, et 16 pour <strong>MFAudioFormat_PCM</strong>.<br /> Non nécessaire pour la sortie numérique.<br /> | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | Nombre de bits de données audio valides dans chaque exemple audio. | Facultatif pour la sortie PCM. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.<br /> Non nécessaire pour les sous-types de sortie numérique.<br /> | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | Alignement de bloc, en octets. | Facultatif pour la sortie PCM. Non nécessaire pour la sortie numérique. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Nombre moyen d’octets par seconde. | Facultatif pour la sortie PCM. Non nécessaire pour la sortie numérique. | 
+
 
 
 
@@ -298,9 +149,9 @@ Le décodeur audio Dolby implémente la méthode [**IMFTransform :: GetAttribut
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le décodeur accepte uniquement les flux Dolby bruts, comme défini par un/52B. Les charges utiles telles que les flux élémentaires paquets (PES) ne sont pas prises en charge. Pour Dolby Digital plus, le décodeur décode jusqu’à 5,1 canaux. Sur Windows 10, les flux de canal 7,1 sont décodés sans downmix. Sur les versions précédentes du système d’exploitation, si le flux est 7,1 canaux, seul le canal 5,1 downmix sera décodé. Si le flux est Dolby Digital plus avec plus d’un sous-flux indépendant, seul le sous-flux indépendant 0 est décodé. Le décodeur ignore les autres sous-flux indépendants. En outre, le décodeur ignore tous les sous-flux dépendants. Le décodeur prend en charge le déchiffrement et le décodage des flux protégés par la technologie de Rights Management numérique (DRM).
+Le décodeur accepte uniquement les flux Dolby bruts, comme défini par un/52B. les charges utiles telles que les Flux élémentaires par paquets (PES) ne sont pas prises en charge. Pour Dolby Digital plus, le décodeur décode jusqu’à 5,1 canaux. sur Windows 10, les flux de canal 7,1 sont décodés sans downmix. Sur les versions précédentes du système d’exploitation, si le flux est 7,1 canaux, seul le canal 5,1 downmix sera décodé. Si le flux est Dolby Digital plus avec plus d’un sous-flux indépendant, seul le sous-flux indépendant 0 est décodé. Le décodeur ignore les autres sous-flux indépendants. En outre, le décodeur ignore tous les sous-flux dépendants. Le décodeur prend en charge le déchiffrement et le décodage des flux protégés par la technologie de Rights Management numérique (DRM).
 
 Si le type de média d’entrée a une configuration de canal autre que mono, stéréo ou double-mono (tout cela sans canal LFE), le décodeur fournit deux options pour les configurations de canal de sortie :
 
@@ -322,7 +173,7 @@ La table MFT du décodeur est inscrite avec l’indicateur d' **énumération MF
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                          |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                  |
 | DLL<br/>                      | <dl> <dt>Msauddecmft.dll</dt> </dl> |
 

@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre Insertable COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26c2d5d781545be05821b801b9e16048d2a097927890a63ead8f602c34d95613
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 699de5db82981e5f0f1db1229d31f96620adcb8c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884315"
 ---
 # <a name="insertable-clsid-key"></a>Insertable (clé CLSID)
 
@@ -40,7 +40,7 @@ Utilisé avec les contrôles, cette entrée indique qu’un objet peut agir uniq
 
 <dl> <dt>
 
-[**<ProgID>**](-progid--key.md)
+[**&lt;ProgID&gt;**](-progid--key.md)
 </dt> </dl>
 
  

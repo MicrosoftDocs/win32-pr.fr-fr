@@ -1,6 +1,6 @@
 ---
 title: Un programme X Windows système OpenGL
-description: Le programme suivant est un programme X Windows système OpenGL avec le même code OpenGL utilisé dans AUXEDEMO. Exemple de programme fourni avec le kit de développement logiciel (SDK) Microsoft Platform. Comparez ce programme au programme Windows OpenGL dans le programme porté à Windows.
+description: Le programme suivant est un programme X Windows système OpenGL avec le même code OpenGL utilisé dans AUXEDEMO. Exemple de programme fourni avec le kit de développement logiciel (SDK) Microsoft Platform. comparez ce programme au programme Windows OpenGL dans le programme porté à Windows.
 ms.assetid: 8caab983-491f-46fa-b564-79191fa4a9ac
 keywords:
 - portage vers OpenGL, exemple
@@ -8,16 +8,16 @@ keywords:
 - X système de fenêtre, exemple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac03fdc0dac707f2a14d62d7955fa7533957f4de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0fe7be4c09c27d0a4fceb591e52674a4bbdf54361e6e752e9306e6fc19b9280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128349"
 ---
 # <a name="an-x-window-system-opengl-program"></a>Un programme X Windows système OpenGL
 
-Le programme suivant est un programme X Windows système OpenGL avec le même code OpenGL utilisé dans AUXEDEMO. Exemple de programme fourni avec le kit de développement logiciel (SDK) Microsoft Platform. Comparez ce programme au programme Windows OpenGL dans [le programme porté à Windows](the-program-ported-to-win32.md).
+Le programme suivant est un programme X Windows système OpenGL avec le même code OpenGL utilisé dans AUXEDEMO. Exemple de programme fourni avec le kit de développement logiciel (SDK) Microsoft Platform. comparez ce programme au programme Windows OpenGL dans [le programme porté à Windows](the-program-ported-to-win32.md).
 
 
 ```C++
@@ -272,9 +272,9 @@ GLvoid drawScene(GLvoid)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

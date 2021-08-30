@@ -4,12 +4,12 @@ ms.assetid: cb898228-dc45-4a2a-a82e-8d64523e9b85
 title: Enregistrement des États de vertex avec un StateBlock (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c6bc7fd291a2609ef60709f05a04fe8d27f8eb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d8f3ebef7bda74e30d84ff193a80df6bc6ce7eae83a648f9b7e1d05b89bdb269
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026109"
 ---
 # <a name="saving-vertex-states-with-a-stateblock-direct3d-9"></a>Enregistrement des États de vertex avec un StateBlock (Direct3D 9)
 
@@ -63,7 +63,7 @@ Le tableau suivant répertorie tous les États de rendu qui définissent l’ét
 | D3DRS \_ POINTSCALE \_ B                    | 0                      |
 | D3DRS \_ POINTSCALE \_ C                    | 0                      |
 | D3DRS \_ MULTISAMPLEANTIALIAS             | **TRUE**               |
-| D3DRS \_ MULTISAMPLEMASK                  | égale             |
+| D3DRS \_ MULTISAMPLEMASK                  | 0xffffffff             |
 | D3DRS \_ PATCHEDGESTYLE                   | D3DPATCHEDGE \_ discret |
 | D3DRS \_ pointe \_ Max.                   | 1                      |
 | D3DRS \_ INDEXEDVERTEXBLENDENABLE         | **FALSE**              |

@@ -3,7 +3,7 @@ title: Variables pour effectuer le traitement
 description: Variables pour effectuer le traitement
 ms.assetid: 02f194ea-cac0-410f-886f-2894dd6971c8
 keywords:
-- Plug-ins du lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
+- plug-ins Lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
 - plug-ins, ECHO, exemple DoProcessOutput, méthode
 - plug-ins de traitement de signal numérique, méthode DoProcessOutput d’exemple Echo
 - DSP plug-ins, ECHO, exemple DoProcessOutput, méthode
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, traitement de variables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e44f044aee6d893fba97cf921360444ec43db871
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2f856808c1e9a00602fe3d2fe03d4255fd79bcfeb44c2021f2434ea670706cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001339"
 ---
 # <a name="variables-to-perform-processing"></a>Variables pour effectuer le traitement
 
@@ -54,9 +54,9 @@ BYTE * pbEOFDelayBuffer = (m_pbDelayBuffer + m_cbDelayBuffer - sizeof(BYTE));
 [**Implémentation de CEcho ::D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

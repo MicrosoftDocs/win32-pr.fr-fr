@@ -4,12 +4,12 @@ ms.assetid: 8ef06f49-fda4-49e2-9b07-70453a2e897c
 title: Filtre de l’analyseur de fichiers multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a91196f9712dc05e64f1d70072d3af9d1c0a39f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 444eebb6ff16b7b6d5568b47c939f687bb3207c8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986471"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474625"
 ---
 # <a name="multi-file-parser-filter"></a>Filtre de l’analyseur de fichiers multiples
 
@@ -29,17 +29,7 @@ L’utilisation de ce filtre est déconseillée. Pour afficher plusieurs fichier
 
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| Interfaces de filtre | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
-| Types de média de broche d’entrée | <ul><li>Type majeur : MEDIATYPE_Stream</li><li>Sous-type : CLSID_MultFile</li><li>Type de format : GUID_NULL</li></ul> | 
-| Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
-| Types de média de broche de sortie | <ul><li>Type majeur : MEDIATYPE_File</li><li>Sous-type : GUID_NULL</li><li>Type de format : MEDIATYPE_File</li></ul> | 
-| Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
-| CLSID du filtre | CLSID_MultFile | 
-| Exécutable | Quartz.dll | 
-| <a href="merit.md">Mérite</a> | MERIT_UNLIKELY | 
-| <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+| | | Filtrer les interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | | Types de média de broche d’entrée | <ul><li>Type majeur : MEDIATYPE_Stream</li><li>Sous-type : CLSID_MultFile</li><li>Type de format : GUID_NULL</li></ul> | | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | Types de média de broche de sortie | <ul><li>Type majeur : MEDIATYPE_File</li><li>Sous-type : GUID_NULL</li><li>Type de format : MEDIATYPE_File</li></ul> | | Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | CLSID du filtre | CLSID_MultFile | | Fichier exécutable | Quartz.dll | | <a href="merit.md">Mérite</a> | MERIT_UNLIKELY | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
 
 
 

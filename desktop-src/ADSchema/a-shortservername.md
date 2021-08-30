@@ -1,6 +1,6 @@
 ---
 title: Attribut de nom de serveur de type short
-description: Nom du serveur compatible avec les versions antérieures à Windows 2000 pour les serveurs d’impression.
+description: nom de serveur compatible pré-Windows 2000 pour les serveurs d’impression.
 ms.assetid: 639704f4-e2b6-43e1-9b1b-6afffe8f0f6a
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e71b7cf5687b530bf76c673187d5152089d885d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fa6019d01dd6060c6e2e807a067d35746fa305caf7e2058c5de2d3a8cb3e3ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802239"
 ---
 # <a name="short-server-name-attribute"></a>Attribut de nom de serveur de type short
 
-Nom du serveur compatible avec les versions antérieures à Windows 2000 pour les serveurs d’impression.
+nom de serveur compatible pré-Windows 2000 pour les serveurs d’impression.
 
 
 
@@ -45,7 +45,7 @@ Nom du serveur compatible avec les versions antérieures à Windows 2000 pour le
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

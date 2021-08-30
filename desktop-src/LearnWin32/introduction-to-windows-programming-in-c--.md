@@ -1,24 +1,24 @@
 ---
 title: Présentation de la programmation Win32 en C++
-description: Cette section décrit certaines des conventions de base relatives à la terminologie et au codage utilisées dans la programmation Windows.
+description: cette section décrit certaines des conventions de base relatives à la terminologie et au codage utilisées dans Windows la programmation.
 ms.assetid: 95e9fe47-1a68-45a1-b841-1b1acef2ec92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb4bc32cb1d9b19ad339b1a00c2a22844fd1fb9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3c184df09db92c16bdba013ec9fdac7297cf1e378a8f0f365796a04b89efe87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897449"
 ---
 # <a name="intro-to-win32-programming-in-c"></a>Présentation de la programmation Win32 en C++
 
-Cette section décrit certaines des conventions de base relatives à la terminologie et au codage utilisées dans la programmation Windows.
+cette section décrit certaines des conventions de base relatives à la terminologie et au codage utilisées dans Windows la programmation.
 
 ## <a name="in-this-section"></a>Dans cette section
 
 -   [Préparer votre environnement de développement](prepare-your-development-environment.md)
--   [Conventions de codage Windows](windows-coding-conventions.md)
+-   [Windows Conventions de codage](windows-coding-conventions.md)
 -   [Utilisation de chaînes](working-with-strings.md)
 -   [Qu’est-ce qu’une fenêtre ?](what-is-a-window-.md)
 -   [WinMain : point d’entrée de l’application](winmain--the-application-entry-point.md)
@@ -30,12 +30,12 @@ Cette section décrit certaines des conventions de base relatives à la terminol
 [Bien démarrer avec Win32 et C++](learn-to-program-for-windows.md)
 </dt> <dt>
 
-[Module 1. Votre premier programme Windows](your-first-windows-program.md)
+[Module 1. votre premier programme de Windows](your-first-windows-program.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

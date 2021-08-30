@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, handles de liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e59faea2137cb037cab1e5969e53fff2c146ad31
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 78ca39a8d5a75b392692460ae8268bf60ad19824193060639fef5f9ffe87832d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869629"
 ---
 # <a name="midl-binding-handles"></a>Handles de liaison MIDL
 
@@ -29,6 +29,6 @@ Vous pouvez spécifier une variable globale comme handle de liaison à l’aide 
 
 Pour plus d’informations, consultez [liaison et Handles](/windows/desktop/Rpc/binding-and-handles).
 
- 
+ 
 
- 
+ 

@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf224d384206916043f6d865ba023045f47c53fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78fc744f8a53dd7cf25c69ce85d1d9380dc6defca59a1d0e2440feeb8249aaa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093159"
 ---
 # <a name="systemparametersbookmarkmost-property"></a>Propriété SystemParameters. BookmarkMost
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: fafa34d4a243e254e929f7c9a1d65d2a3fb9c8dd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4a6c0ac515457aee430dea7cc3f785ed2832aed5c566f84b9d4ee262ba8b5cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953569"
 ---
 # <a name="id3dx10fontpreloadcharacters-method"></a>ID3DX10Font ::P méthode reloadCharacters
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode génère des textures contenant des glyphes qui représentent les caractères d’entrée. Les glyphes sont dessinés sous la forme d’une série de triangles.
 

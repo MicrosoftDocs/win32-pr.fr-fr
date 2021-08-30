@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 9560280fa6f16699af907cdb5cf682b9c4bb1277
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: b1d3541eb91d4ee2e193db3a81f6524f72b615c029346d84e0c9a4d83e5b57a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965329"
 ---
 # <a name="iamfilterdataparsefilterdata-method"></a>IAMFilterData ::P méthode arseFilterData
 
@@ -69,18 +69,18 @@ Adresse d’une variable qui reçoit un pointeur vers les données décompressé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d'échec, retourne un code d'erreur.
 
 ## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> L’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
+> l’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -3,7 +3,7 @@ title: Message LVM_GETNEXTITEMINDEX (commctrl. h)
 description: Récupère l’index d’un élément d’un contrôle List View spécifié qui correspond aux propriétés et à la relation spécifiées avec un autre élément. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetNextItemIndex.
 ms.assetid: vs|controls|~\controls\listview\messages\lvm_getnextitemindex.htm
 keywords:
-- LVM_GETNEXTITEMINDEX les contrôles de message Windows
+- LVM_GETNEXTITEMINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfc393aee4f275e941a04bb3f23ee4c2c3ac529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b950399c671494066fd1a6633ba645a431f4dc34511b6f4c0300b424da63c5be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002499"
 ---
 # <a name="lvm_getnextitemindex-message"></a>\_Message GETNEXTITEMINDEX LVM
 
@@ -76,9 +76,9 @@ Spécifie la relation à l’élément listé dans le paramètre *wParam*. Il pe
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s’excluent mutuellement de tous les autres indicateurs en cours d’utilisation : LVNI \_ Previous, LVNI \_ VISIBLEONLY, LVNI \_ SAMEGROUPONLY, LVNI \_ VISIBLEORDER, LVNI \_ DIRECTIONMASK et LVNI \_ STATEMASK.
+notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s’excluent mutuellement de tous les autres indicateurs en cours d’utilisation : LVNI \_ PREVIOUS, LVNI \_ VISIBLEONLY, LVNI \_ SAMEGROUPONLY, LVNI \_ VISIBLEORDER, LVNI \_ DIRECTIONMASK et LVNI \_ STATEMASK.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -86,8 +86,8 @@ Notez que les indicateurs suivants, à utiliser uniquement avec Windows Vista, s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

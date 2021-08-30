@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66cb64509c82c11180ca3e1d2937dff5d077897d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e75fd8274e9f1901274c8002a6826b4c7633b3afae78d10ad9be2abad7d74ecf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028229"
 ---
 # <a name="cd3dx12_root_descriptor1-structure"></a>CD3DX12 \_ racine \_ DESCRIPTOR1, structure
 

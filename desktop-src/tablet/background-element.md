@@ -4,12 +4,12 @@ ms.assetid: 48527c4e-50fb-4800-ac87-1646234783ba
 title: Élément d’arrière-plan
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46388d56c04fc24ecd578788eecf9926ef01a301
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: 3585b8ca37fe86bd1c687601975ea0ad189d5746
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436584"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473895"
 ---
 # <a name="background-element"></a>Élément d’arrière-plan
 
@@ -33,43 +33,12 @@ Contient l’arrière-plan d’un élément [**JournalDocument**](journaldocumen
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Type</th>
-<th>Obligatoire</th>
-<th>Description</th>
-<th>Valeurs possibles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Obligatoire</td>
-<td>Spécifie le style de l’arrière-plan.</td>
-<td><ul>
-<li>Aucun</li>
-<li>Unie</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Couleur</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType</td>
-<td>Facultatif</td>
-<td>Spécifie la couleur de l'arrière-plan.</td>
-<td>Voir <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Type | Obligatoire | Description | Valeurs possibles | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | <strong>xs:string</strong> | Obligatoire | Spécifie le style de l’arrière-plan. | <ul><li>Aucun</li><li>Unie</li></ul> | 
+| <strong>Couleur</strong> | <a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType | Facultatif | Spécifie la couleur de l'arrière-plan. | Voir <a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType. | 
+
 
 
 

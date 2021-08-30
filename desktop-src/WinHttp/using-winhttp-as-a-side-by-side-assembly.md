@@ -4,12 +4,12 @@ ms.assetid: 524d926d-4d8a-4576-96fd-c533517ba28e
 title: Utilisation de WinHTTP comme assembly côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8c6312fb57f210e0324c1ae89bb785fd5b51bcb2b1ea4ba1a4959a3d0fd540
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f682586ba315932d8dc7812f7e74bd15e20e4ad6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119614089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882138"
 ---
 # <a name="using-winhttp-as-a-side-by-side-assembly"></a>Utilisation de WinHTTP comme assembly côte à côte
 
@@ -25,9 +25,9 @@ pour utiliser ce mécanisme afin de créer un lien vers la version 5,1 de winhtt
 
 L’exemple de manifeste ci-dessous illustre un manifeste d’application qui peut être utilisé pour la liaison à WinHTTP.
 
-Tous les attributs, à l’exception de « type » du « <assembly> <assemblyIdentity> », doivent être modifiés en fonction de votre application. Il en va de même pour le contenu de &lt; l' &gt; élément « Description ».
+Tous les attributs, à l’exception de « type » de l' « &lt; assembly &gt; &lt; assemblyIdentity &gt; », doivent être modifiés comme il convient pour votre application particulière. Il en va de même pour le contenu de &lt; l' &gt; élément « Description ».
 
-En outre, assurez-vous que l’attribut « processorArchitecture » de « <dependentAssembly> <assemblyIdentity> » correspond à l’attribut « processorArchitecture » du « <assembly> <assemblyIdentity> ». Ci-dessous, par exemple, les deux ont la valeur « x86 ».
+En outre, assurez-vous que l’attribut « processorArchitecture » de « &lt; dependentAssembly &gt; &lt; assemblyIdentity &gt; » correspond à l’attribut « processorArchitecture » de l' « &lt; assembly &gt; &lt; assemblyIdentity &gt; ». Ci-dessous, par exemple, les deux ont la valeur « x86 ».
 
 Toutes les valeurs qui ne sont pas spécifiques à votre application doivent prendre les formes indiquées ci-dessous.
 

@@ -5,12 +5,12 @@ ms.assetid: eab17aa9-590c-4da2-a1a9-6e50a11d1de7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b13aa0b78e459c85e7ba07e043e3da313b3f6118
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: df1747354f540db8b50aff23fa5dc8ad23289b11c7a003e8281b72c8f8c174fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104556967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099651"
 ---
 # <a name="accepting-a-connection-remote-desktop-services"></a>Acceptation d’une connexion (Services Bureau à distance)
 

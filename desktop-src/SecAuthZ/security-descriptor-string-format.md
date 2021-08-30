@@ -4,12 +4,12 @@ ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Format de chaîne de descripteur de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7fd6e9e2387deee63b5046086ed167a29fa54b
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: 1f338fa3e256f5f0b8dcb27e8260610d8f87594b2e999ab9587389d526165636
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907349"
 ---
 # <a name="security-descriptor-string-format"></a>Format de chaîne de descripteur de sécurité
 
@@ -57,9 +57,9 @@ Indicateurs de contrôle du descripteur de sécurité qui s’appliquent à la l
 
 | Contrôler               | Constante dans SDDL. h       | Signification                                       |
 |-----------------------|--------------------------|-----------------------------------------------|
-| P                   | SDDL \_ protégé          | L' \_ indicateur de \_ protection discrétionnaire se est défini.          |
-| AR                  | \_demande d' \_ héritage \_ automatique SDDL | L’indicateur de demande d’héritage automatique de la liste d’accès \_ discrétionnaire \_ \_ \_ est défini. |
-| AI                  | SDDL \_ \_ hérité automatiquement    | L' \_ indicateur d’héritage automatique de la liste de \_ \_ rédépendance se définit.    |
+| P                   | SDDL \_ protégé          | l' \_ indicateur de \_ protection DACL SE est défini.          |
+| AR                  | \_demande d' \_ héritage \_ automatique SDDL | l' \_ indicateur de \_ demande d’héritage automatique DACL SE \_ \_ est défini. |
+| AI                  | SDDL \_ \_ hérité automatiquement    | l' \_ indicateur SE DACL \_ AUTO \_ INHERITED est défini.    |
 | « AUCUN \_ contrôle d’accès \_ » | ACL de la \_ valeur SDDL null \_          | La liste de contrôle d’accès a la valeur null. **Windows server 2008, Windows Vista et Windows server 2003 :** Non disponible. |
 
 
@@ -82,13 +82,13 @@ Chaîne qui décrit une entrée du contrôle d’accès dans la liste DACL ou SA
 
 </dd> </dl>
 
-Les composants inutiles peuvent être omis de la chaîne de descripteur de sécurité. Par exemple, si l' \_ \_ indicateur de présence DACL se n’est pas défini dans le descripteur de sécurité d’entrée, [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) n’inclut pas de composant D : dans la chaîne de sortie. Vous pouvez également utiliser les indicateurs de bits des [**\_ informations de sécurité**](security-information.md) pour indiquer les composants à inclure dans une chaîne de descripteur de sécurité.
+Les composants inutiles peuvent être omis de la chaîne de descripteur de sécurité. par exemple, si l' \_ \_ indicateur de présence SE DACL n’est pas défini dans le descripteur de sécurité d’entrée, [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) n’inclut pas de composant D : dans la chaîne de sortie. Vous pouvez également utiliser les indicateurs de bits des [**\_ informations de sécurité**](security-information.md) pour indiquer les composants à inclure dans une chaîne de descripteur de sécurité.
 
 Le format de chaîne de descripteur de sécurité ne prend pas en charge les ACL **null** .
 
 Pour désigner une liste de contrôle d’accès vide, la chaîne de descripteur de sécurité comprend le jeton D : ou S : sans informations de chaîne supplémentaires.
 
-La chaîne de descripteur de sécurité stocke les bits de [**contrôle de DEscripteur de sécurité**](security-descriptor-control.md) de différentes façons. Les éléments \_ de la liste de réédition DACL se présentent \_ par la \_ \_ présence du jeton D : ou S : dans la chaîne. Les autres bits qui s’appliquent à la liste DACL ou SACL sont stockés dans les \_ indicateurs DACL et les \_ indicateurs SACL. Le propriétaire SE est \_ \_ par défaut, le groupe de se par défaut, le \_ \_ \_ DACL de se \_ par défaut et les \_ bits SACL par défaut de se ne \_ sont pas stockés dans une chaîne de descripteur de sécurité. Le \_ bit Auto \_ relatif de se n’est pas stocké dans la chaîne, mais [**convertstringsecuritydescriptortosecuritydescriptor a**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) définit toujours ce bit dans le descripteur de sécurité de sortie.
+La chaîne de descripteur de sécurité stocke les bits de [**contrôle de DEscripteur de sécurité**](security-descriptor-control.md) de différentes façons. le SE \_ DACL \_ présent ou SE les éléments \_ de la liste SACL \_ présents sont indiqués par la présence du jeton D : ou S : dans la chaîne. Les autres bits qui s’appliquent à la liste DACL ou SACL sont stockés dans les \_ indicateurs DACL et les \_ indicateurs SACL. par défaut, le propriétaire de la SE \_ \_ , SE \_ par défaut SE liste DACL par défaut, \_ \_ \_ et SE \_ \_ bits par défaut de la SACL ne sont pas stockés dans une chaîne de descripteur de sécurité. le \_ bit auto \_ relatif SE n’est pas stocké dans la chaîne, mais [**convertstringsecuritydescriptortosecuritydescriptor a**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) définit toujours ce bit dans le descripteur de sécurité de sortie.
 
 Les exemples suivants montrent des chaînes de descripteur de sécurité et les informations contenues dans les descripteurs de sécurité associés.
 

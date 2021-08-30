@@ -4,12 +4,12 @@ ms.assetid: 16278146-886f-433a-afe5-64f4894b1428
 title: Constantes LINECALLREASON_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab6d2411c652c13add1620ca6029cabbf2b878e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e9aa59b2589bc3c737da2feb76b6caeb97905af6871c770d653a2b18f1377b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866939"
 ---
 # <a name="linecallreason_-constants"></a>\_Constantes LINECALLREASON
 
@@ -177,7 +177,7 @@ L’appel a été récupéré en tant qu’appel parqué.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

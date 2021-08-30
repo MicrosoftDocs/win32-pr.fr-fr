@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7f94c9911fb7ab974f87cfed41e92b53ac0a66cb
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 4b7c53b27e6b1d5fdabc647d15f602c775873d60
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983562"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479585"
 ---
 # <a name="jet_threadstats-structure"></a>Structure JET_THREADSTATS
 
@@ -85,11 +85,7 @@ Taille totale, en octets, des enregistrements du journal des transactions qui on
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

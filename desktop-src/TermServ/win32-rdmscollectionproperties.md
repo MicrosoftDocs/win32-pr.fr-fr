@@ -26,12 +26,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7397ccc1afd350689ac1eeb984a62177140f50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bdc939edcba5176fd93ad7828bf4f7ea5368fb80c9e97f646f3f1ca4122ad55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868369"
 ---
 # <a name="win32_rdmscollectionproperties-class"></a>\_Classe RDMSCollectionProperties Win32
 
@@ -214,7 +214,7 @@ Type de données : **booléen**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Obtient et définit une valeur qui indique si RemoteFX est activé pour la machine virtuelle Master. **True** si RemoteFX est activé ; Sinon, **false**. La valeur par défaut de cette propriété est **false**.
+obtient et définit une valeur qui indique si RemoteFX est activé pour la machine virtuelle master. **TRUE** si RemoteFX est activé ; Sinon, **false**. La valeur par défaut de cette propriété est **false**.
 
 </dd> </dl>
 

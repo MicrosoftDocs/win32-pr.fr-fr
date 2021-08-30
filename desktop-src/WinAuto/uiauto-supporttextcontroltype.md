@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 902b3c7c523417abde2c60e1f8039ad9f2c322b8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7bc109bfba35f995384447014bc6642dcf3cd7f4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310590"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478795"
 ---
 # <a name="text-control-type"></a>Text (type de contrôle)
 
@@ -50,32 +50,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Texte</li>
-</ul></td>
-<td><ul>
-<li>Text (s’il s’agit de contenu)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Texte</li></ul> | <ul><li>Text (s’il s’agit de contenu)</li></ul> | 
 
 
 
- 
+
+ 
 
 Un contrôle de texte peut être utilisé seul comme étiquette ou texte statique dans un formulaire. Il peut également être contenu dans la structure de l’un des éléments suivants :
 
@@ -106,7 +89,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -123,7 +106,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -143,7 +126,7 @@ Le tableau suivant répertorie les événements UI Automation que les contrôles
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -158,9 +141,9 @@ Le tableau suivant répertorie les événements UI Automation que les contrôles
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

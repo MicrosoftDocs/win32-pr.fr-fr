@@ -7,12 +7,12 @@ keywords:
 - menus, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c376aa1d2f55fa482ca7a2f98f57ae15236bf26b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 67a61d0a0182957b6fa5b354f862fe6bd2a0133a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383523"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474735"
 ---
 # <a name="menus-menus-and-other-resources"></a>Menus (menus et autres ressources)
 
@@ -22,7 +22,7 @@ Cette section décrit les menus et explique comment les utiliser.
 
 
 
-| Nom                                 | Description                                                  |
+| Name                                 | Description                                                  |
 |--------------------------------------|--------------------------------------------------------------|
 | [À propos des menus](about-menus.md)       | Discute des menus.<br/>                                  |
 | [Utilisation des menus](using-menus.md)       | Fournit des exemples de code de tâches liées aux menus.<br/> |
@@ -36,7 +36,7 @@ Cette section décrit les menus et explique comment les utiliser.
 
 
 
-| Nom                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Name                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua)                                 | Ajoute un nouvel élément à la fin de la barre de menus, du menu déroulant, du sous-menu ou du menu contextuel spécifiés. Vous pouvez utiliser cette fonction pour spécifier le contenu, l’apparence et le comportement de l’élément de menu. <br/>                                                                                                                                                                                                  |
 | [**CheckMenuItem**](/windows/desktop/api/Winuser/nf-winuser-checkmenuitem)                           | Définit l’état de l’attribut coché de l’élément de menu spécifié comme étant activé ou désactivé.<br/>                                                                                                                                                                                                                                                                                                      |
@@ -64,7 +64,7 @@ Cette section décrit les menus et explique comment les utiliser.
 | [**HiliteMenuItem**](/windows/desktop/api/Winuser/nf-winuser-hilitemenuitem)                         | Met en surbrillance ou supprime la mise en surbrillance d’un élément dans une barre de menus. <br/>                                                                                                                                                                                                                                                                                                                                |
 | [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema)                         | Insère un nouvel élément de menu à la position spécifiée dans un menu.<br/>                                                                                                                                                                                                                                                                                                                                       |
 | [**IsMenu**](/windows/desktop/api/Winuser/nf-winuser-ismenu)                                         | Détermine si un handle est un handle de menu. <br/>                                                                                                                                                                                                                                                                                                                                                     |
-| [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua)                                     | Charge la ressource de menu spécifiée à partir du fichier exécutable (. exe) associé à une instance d’application. <br/>                                                                                                                                                                                                                                                                                        |
+| [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua)                                     | Charge la ressource de menu spécifiée à partir du fichier exécutable (.exe) associé à une instance d’application. <br/>                                                                                                                                                                                                                                                                                        |
 | [**LoadMenuIndirect**](/windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta)                     | Charge le modèle de menu spécifié en mémoire. <br/>                                                                                                                                                                                                                                                                                                                                                      |
 | [**MenuItemFromPoint**](/windows/desktop/api/Winuser/nf-winuser-menuitemfrompoint)                   | Détermine l’élément de menu, le cas échéant, à l’emplacement spécifié.<br/>                                                                                                                                                                                                                                                                                                                                  |
 | [**ModifyMenu**](/windows/desktop/api/Winuser/nf-winuser-modifymenua)                                 | Modifie un élément de menu existant. Cette fonction est utilisée pour spécifier le contenu, l’apparence et le comportement de l’élément de menu. <br/>                                                                                                                                                                                                                                                                           |
@@ -85,29 +85,11 @@ La fonction suivante est obsolète.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a></td>
-<td>Insère un nouvel élément de menu dans un menu, en déplaçant d’autres éléments vers le menu.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> a été remplacée par la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> . Toutefois, vous pouvez toujours utiliser <strong>InsertMenu</strong>, si vous n’avez pas besoin des fonctionnalités étendues de <strong>InsertMenuItem</strong>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Name | Description | 
+|------|-------------|
+| <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> | Insère un nouvel élément de menu dans un menu, en déplaçant d’autres éléments vers le menu.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> a été remplacée par la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> . Toutefois, vous pouvez toujours utiliser <strong>InsertMenu</strong>, si vous n’avez pas besoin des fonctionnalités étendues de <strong>InsertMenuItem</strong>.</blockquote><br /><br /> | 
+
 
 
 
@@ -117,7 +99,7 @@ La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><stron
 
 
 
-| Nom                                                  | Description                                                                                                                                                                          |
+| Name                                                  | Description                                                                                                                                                                          |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM, \_ commande**](wm-command.md)                     | Envoyé lorsque l’utilisateur sélectionne un élément de commande dans un menu, lorsqu’un contrôle envoie un message de notification à sa fenêtre parente, ou lorsqu’une touche d’accès rapide est traduite. <br/> |
 | [**WM \_ CONTEXTMENU**](wm-contextmenu.md)             | Indique à une fenêtre que l’utilisateur a cliqué avec le bouton droit de la souris (*cliquez avec le bouton droit*) dans la fenêtre.<br/>                                                                            |
@@ -139,7 +121,7 @@ La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><stron
 
 
 
-| Nom                                                       | Description                                                                                                                                                     |
+| Name                                                       | Description                                                                                                                                                     |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu)                         | Contient des informations sur le menu à activer. <br/>                                                                                                |
 | [**MENUBARINFO**](/windows/win32/api/winuser/ns-winuser-menubarinfo)                         | Contient des informations sur la barre de menus.<br/>                                                                                                                       |

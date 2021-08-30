@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Utilisation de la syntaxe de Active Directory appropriée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e321d6919c48103be930226cf11c4b3e82dcc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ce49b1be7b5ce906b5d697aa243c318c057d44fda3967545afe12f45a30dada
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120779"
 ---
 # <a name="using-the-proper-active-directory-syntax"></a>Utilisation de la syntaxe de Active Directory appropriée
 

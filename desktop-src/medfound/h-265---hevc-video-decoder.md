@@ -4,12 +4,12 @@ ms.assetid: BBE754E4-2AAD-4CFD-B53F-2B66693502EE
 title: Décodeur vidéo H. 265/HEVC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c20a83f82e106bd749deb8bf2350cc9e5a347a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c764353e04da0113b51c4efb0d39fad02c84b98859e154d24866229c3a524385
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777199"
 ---
 # <a name="h265--hevc-video-decoder"></a>Décodeur vidéo H. 265/HEVC
 
@@ -112,7 +112,7 @@ Les données d’entrée doivent être conformes à l’annexe B de l’ITU-T H.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                              |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                              |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>hevcdecoder.dll</dt> <dt>hevcdecoder_store.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: CustomControlTypeWithoutLocalizedControlType
 ms.assetid: F52E37AB-607B-4899-B59A-3E6EE87FFDA6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1970c8e0d4b97de6098f92c8182bfc0045a9e50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 320aa69c739274ceee863518d564a0aefb36f36c03e89125f31c3c2159742113
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030809"
 ---
 # <a name="customcontroltypewithoutlocalizedcontroltype"></a>CustomControlTypeWithoutLocalizedControlType
 
@@ -19,7 +19,7 @@ L’élément n’a pas la propriété LocalizedControlType définie
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -39,9 +39,9 @@ La plupart des lecteurs d’écran lisent le type de contrôle localisé pour d�
 [**UIA \_ LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Variables d’état de pixel
-description: Variables d’état de pixel
+title: Pixel, variables d’état
+description: Pixel, variables d’état
 ms.assetid: 79aeda3c-6d97-43fa-83f3-be400ba9990b
 keywords:
 - Variables d’état de pixel OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42ae0aa6fab7bb567f67055f0398a74549e519b6
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 8e243a4a854eb9cac80f8ce94fd12c5b63f01b6a413167797a80804c9df66717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034819"
 ---
-# <a name="pixel-state-variables"></a>Variables d’état de pixel
+# <a name="pixel-state-variables"></a>Pixel, variables d’état
 
 <dl> <dt><span id="GL_UNPACK_SWAP_BYTES"></span><span id="gl_unpack_swap_bytes"></span>\_octets de swap de décompression GL \_ \_</dt> <dd> 
 

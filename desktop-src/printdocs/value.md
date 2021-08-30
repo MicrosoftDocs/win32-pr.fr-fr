@@ -4,12 +4,12 @@ ms.assetid: 933528f6-8f34-4509-887c-c7c223c79367
 title: Valeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 739ce465408d1cd1447de5aeac2e314e879f48f69f13735855e628c8901c2c52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 345ef8a40b7c87db68259f2815b07cfda0e5bc57
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117685860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885998"
 ---
 # <a name="value"></a>Valeur
 
@@ -19,7 +19,7 @@ Un élément de valeur associe un littéral à un type.
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<Value>
+&lt;Valeur&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 
@@ -66,9 +66,9 @@ Un élément de valeur peut apparaître dans une propriété ou un élément Sco
 
  
 
-Pour se conformer à l’infrastructure du schéma d’impression, qui nécessite la présence d’un ou de plusieurs éléments de valeur dans les éléments qui prennent en charge des valeurs, une valeur absente ou non définie doit être représentée en présentant l’élément de valeur comme élément vide ; autrement dit, comme <Value></Value>.
+Pour se conformer à l’infrastructure du schéma d’impression, qui nécessite la présence d’un ou de plusieurs éléments de valeur dans les éléments qui prennent en charge des valeurs, une valeur absente ou non définie doit être représentée en présentant l’élément de valeur comme élément vide ; autrement dit, en tant que &lt; valeur &gt; &lt; /value &gt; .
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Définissez une valeur de type Decimal et initialisez-la sur « 128,5 ».
 

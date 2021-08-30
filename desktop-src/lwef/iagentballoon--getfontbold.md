@@ -4,12 +4,12 @@ description: IAgentBalloon GetFontBold
 ms.assetid: 5a55f771-d68e-4f66-8001-47c141661b06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858f6f42964db1bdd7ae548d308c6f6668b05631
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45dc48eeba39a889c5a7cbee9bc9caeef759571e98b904646c62cd903c444305
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962609"
 ---
 # <a name="iagentballoongetfontbold"></a>IAgentBalloon::GetFontBold
 
@@ -36,9 +36,9 @@ Adresse d’une valeur qui reçoit la valeur **true** si la police est en gras e
 
 Le style de police utilisé dans une bulle de mot de caractères est défini dans l’éditeur de caractères Microsoft Agent. Elle ne peut pas être modifiée par une application. Toutefois, l’utilisateur peut remplacer les paramètres de police pour tous les caractères par le biais de la feuille de propriétés de l’agent Microsoft.
 
- 
+ 
 
- 
+ 
 
 
 

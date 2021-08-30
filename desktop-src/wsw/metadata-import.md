@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c36ffdf9bcbf0d63bdef473cc52cd4d545e5a3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 4b8b213971a8d4e9872bde86f4ef9c7693eb104aa7289f5fdf3dbf32ce239ab0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103734989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089559"
 ---
 # <a name="metadata-import"></a>Importation de métadonnées
 

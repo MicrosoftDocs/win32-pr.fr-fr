@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 338d1f03f8d1e63086bb260c9854c7dcf3e88514
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2def2063498cc28de0f0e81efe4e34a382276e8d54466c5da321feea201e47a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031709"
 ---
 # <a name="iwmdrmdeviceapp2querydevicestatus2-method"></a>IWMDRMDeviceApp2 :: QueryDeviceStatus2, méthode
 
@@ -64,7 +64,7 @@ Une ou plusieurs des valeurs **DWORD** suivantes spécifiant les fonctionnalité
 | \_INDIVSTATUS du \_ client de requête WMDRM \_ | Demander si les composants DRM de l’ordinateur doivent être individualisés.       |
 | CLOCKSTATUS de l' \_ appareil de requête WMDRM \_ \_ | Demander si l’horloge sécurisée de l’appareil doit être ajoutée ou mise à jour.        |
 | ISREVOKED de l' \_ appareil de requête WMDRM \_ \_   | Demander si l’appareil est révoqué.                                         |
-| ISWMDRM de l' \_ appareil de requête WMDRM \_ \_     | Demander si l’appareil prend en charge Windows Media DRM 10 pour les appareils mobiles. |
+| ISWMDRM de l' \_ appareil de requête WMDRM \_ \_     | demander si l’appareil prend en charge Windows Media DRM 10 pour les appareils mobiles. |
 
 
 
@@ -81,7 +81,7 @@ Zéro, une ou plusieurs des valeurs **DWORD** suivantes spécifiant l’état de
 
 | Statut                      | Description                                              |
 |-----------------------------|----------------------------------------------------------|
-| \_ISWMDRM d’appareil WMDRM \_      | L’appareil prend en charge Windows Media DRM.                   |
+| \_ISWMDRM d’appareil WMDRM \_      | l’appareil prend en charge Windows DRM Media.                   |
 | \_NEEDCLOCK d’appareil WMDRM \_    | L’appareil n’a pas d’horloge sécurisée.                 |
 | \_appareil WMDRM \_ révoqué      | L’appareil a été révoqué.                             |
 | \_NEEDINDIV du client WMDRM \_    | Les composants DRM de l’ordinateur doivent être individualisés. |
@@ -95,7 +95,7 @@ Zéro, une ou plusieurs des valeurs **DWORD** suivantes spécifiant l’état de
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -110,9 +110,9 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode doit être appelée avant d’effectuer des actions restreintes sur du contenu DRM, telles que le transfert de contenu DRM sur l’appareil ou l’obtention d’informations de contrôle. Si les valeurs récupérées par *pdwStatus* indiquent qu’une action doit être exécutée (par exemple, une individualisation pour le bureau ou l’acquisition d’une horloge pour l’appareil), l’application doit appeler [**IWMDRMDeviceApp :: AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) et transmettre la valeur *pdwStatus* Récupérée de cette fonction au paramètre *dwFlags* dans **AcquireDeviceData**. Si la valeur zéro est retournée, l’appareil ne prend pas en charge Windows Media DRM 10 pour les appareils mobiles et aucune action n’est nécessaire. Pour plus d’informations, consultez [gestion du contenu protégé dans l’application](handling-protected-content-in-the-application.md) .
+Cette méthode doit être appelée avant d’effectuer des actions restreintes sur du contenu DRM, telles que le transfert de contenu DRM sur l’appareil ou l’obtention d’informations de contrôle. Si les valeurs récupérées par *pdwStatus* indiquent qu’une action doit être exécutée (par exemple, une individualisation pour le bureau ou l’acquisition d’une horloge pour l’appareil), l’application doit appeler [**IWMDRMDeviceApp :: AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) et transmettre la valeur *pdwStatus* Récupérée de cette fonction au paramètre *dwFlags* dans **AcquireDeviceData**. si la valeur zéro est retournée, l’appareil ne prend pas en charge Windows Media DRM 10 pour les appareils mobiles et aucune action n’est nécessaire. Pour plus d’informations, consultez [gestion du contenu protégé dans l’application](handling-protected-content-in-the-application.md) .
 
 ## <a name="requirements"></a>Configuration requise
 

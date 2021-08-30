@@ -3,9 +3,9 @@ title: Propriété errorDescription IWMPErrorItem
 description: La propriété errorDescription obtient une description de l’erreur.
 ms.assetid: a9914c24-1d10-422a-bcba-80be9fb85108
 keywords:
-- propriété errorDescription Windows Media Player
-- propriété errorDescription lecteur Windows Media, interface IWMPErrorItem
-- Interface IWMPErrorItem lecteur Windows Media, propriété errorDescription
+- propriété errorDescription Lecteur Windows Media
+- propriété errorDescription Lecteur Windows Media, interface IWMPErrorItem
+- Lecteur Windows Media de l’interface IWMPErrorItem, propriété errorDescription
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8725099d1ce49eae8f378b2571dc4030f60611e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2976db1b8c67a3b467dfed87eeab13ff9ab46d21f0778dc0542b97080f231943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031189"
 ---
 # <a name="iwmperroritemerrordescription-property"></a>IWMPErrorItem :: errorDescription, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property errorDescription As System.String
 
 **System. String** qui est la description de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez définir **IWMPSettings. enableErrorDialogs** sur **false** si vous choisissez d’afficher des messages d’erreur personnalisés.
 

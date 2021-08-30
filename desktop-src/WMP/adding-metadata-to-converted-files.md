@@ -3,24 +3,24 @@ title: Ajout de métadonnées aux fichiers convertis
 description: Ajout de métadonnées aux fichiers convertis
 ms.assetid: 97588651-23de-43ab-b884-76d8af95ab93
 keywords:
-- Windows Media Player, processus de conversion
-- Plug-ins du lecteur Windows Media, conversion
+- Lecteur Windows Media, processus de conversion
+- plug-ins Lecteur Windows Media, conversion
 - plug-ins, conversion
 - plug-ins de conversion, ajout de métadonnées aux fichiers convertis
 - ajout de métadonnées aux fichiers convertis
 - métadonnées, ajouter aux fichiers convertis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd4ae47318089149564f64832c95e4cee1b27f26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98d040c9f083258d24398ce29c84dbe8b25a525d8c8d3bc617a0adddbb2ba8df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031559"
 ---
 # <a name="adding-metadata-to-converted-files"></a>Ajout de métadonnées aux fichiers convertis
 
-Les fichiers convertis doivent contenir certaines métadonnées pour garantir une expérience utilisateur optimale. Au minimum, les fichiers convertis doivent contenir les attributs principaux figurant dans les [instructions d’utilisation des métadonnées Windows Media](/previous-versions/ms867702(v=msdn.10)).
+Les fichiers convertis doivent contenir certaines métadonnées pour garantir une expérience utilisateur optimale. au minimum, les fichiers convertis doivent contenir les attributs principaux figurant dans les [instructions d’utilisation des métadonnées de support Windows](/previous-versions/ms867702(v=msdn.10)).
 
 Pour les fichiers musicaux, définissez la valeur de **WM/MediaClassPrimaryID** sur D1607DBC-E323-4BE2-86A1-48A42A28441E.
 
@@ -34,7 +34,7 @@ Définissez la valeur de **WM/UniqueFileIdentifier** sur l’ID de contenu. Cela
 
 Définissez une valeur pour **WM/WMShadowFileSourceFileType**.
 
-Pour le contenu protégé, utilisez le kit de développement logiciel (SDK) Windows Media format pour définir l’attribut **DRM \_ DRMHeader \_ CONTENTID** sur l’ID de contenu.
+pour le contenu protégé, utilisez le kit de développement logiciel (SDK) Windows Media Format pour définir l’attribut **\_ \_ ContentID DRM DRMHeader** sur l’ID de contenu.
 
 Pour le contenu protégé, définissez une valeur pour **WM/WMShadowFileSourceDRMType**.
 
@@ -48,6 +48,6 @@ Pour le contenu protégé, définissez une valeur pour **WM/WMShadowFileSourceDR
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 9aac1d61-8b61-4f0f-b037-afe4a60302de
 title: Objets BLOB de clé publique DSS version 3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5cc4894000f284dfd5d1b1dd9e9a7353e4eee0b09a42edc63de76e8eaa93184
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 077aa9bb10569fac60d965ee6d5938984f3d579c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875259"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473415"
 ---
 # <a name="dss-version-3-public-key-blobs"></a>Objets BLOB de clé publique DSS version 3
 
@@ -42,53 +42,17 @@ Le tableau suivant décrit chaque composant de l’objet BLOB de clé.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Champ</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Blobheader</td>
-<td>Structure <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc"><strong>BLOBHEADER</strong></a> . Le membre <strong>bType</strong> doit avoir la valeur PublicKeyBlob.</td>
-</tr>
-<tr class="even">
-<td>Dsspubkeyver3</td>
-<td>Structure <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a> . Le membre <strong>magique</strong> doit être défini sur &quot; DSS3 &quot; (0x33535344) pour les clés publiques. Notez que la valeur hexadécimale est simplement un encodage <a href="/windows/desktop/SecGloss/a-gly"><em>ASCII</em></a> de &quot; DSS3.&quot;<br/></td>
-</tr>
-<tr class="odd">
-<td>P</td>
-<td>La valeur P est située directement après la structure <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a> , et doit toujours être la longueur, en octets, du champ <strong>bitlenP</strong> DSSPUBKEY_VER3 (longueur binaire de P) divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little-endian</em></a> ).</td>
-</tr>
-<tr class="even">
-<td>Q</td>
-<td>La valeur Q est située directement après la valeur P et doit toujours être la longueur en octets du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenQ</strong> divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ).</td>
-</tr>
-<tr class="odd">
-<td>G</td>
-<td>La valeur G est située directement après la valeur Q et doit toujours être la longueur, en octets, du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenP</strong> (longueur de bit de P) divisé par huit. Si la longueur des données est un ou plusieurs octets plus courts que P divisés par 8, les données doivent être complétées par les octets nécessaires (de zéro valeur) pour que les données soient de la longueur souhaitée (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little-endian</em></a> ).</td>
-</tr>
-<tr class="even">
-<td>J</td>
-<td>La valeur J est située directement après la valeur G et doit toujours être la longueur en octets du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenJ</strong> divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ). Si la valeur bitlenQ est 0, la valeur est absente de l’objet BLOB.</td>
-</tr>
-<tr class="odd">
-<td>O</td>
-<td>La valeur Y, (G ^ X) mod P, est située directement après la valeur J et doit toujours être la longueur, en octets, de la <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a>membre<strong>bitlenP</strong> (longueur de bit de P) divisé par huit. Si la longueur des données résultant du calcul de (G ^ X) mod P est un ou plusieurs octets plus courts que P divisé par 8, les données doivent être complétées par les octets nécessaires (de zéro valeur) pour que les données soient de la longueur souhaitée (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ).
-<blockquote>
-[!Note]<br />
-Lorsque cette structure est utilisée avec <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a> avec la valeur <em>dwParam</em> KP_PUB_PARAMS, cette valeur n’est pas incluse dans l’objet BLOB.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Champ | Description | 
+|-------|-------------|
+| Blobheader | Structure <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc"><strong>BLOBHEADER</strong></a> . Le membre <strong>bType</strong> doit avoir la valeur PublicKeyBlob. | 
+| Dsspubkeyver3 | Structure <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a> . Le membre <strong>magique</strong> doit être défini sur « DSS3 » (0x33535344) pour les clés publiques. Notez que la valeur hexadécimale est simplement un encodage <a href="/windows/desktop/SecGloss/a-gly"><em>ASCII</em></a> de « DSS3 ».<br /> | 
+| P | La valeur P est située directement après la structure <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a> , et doit toujours être la longueur, en octets, du champ <strong>bitlenP</strong> DSSPUBKEY_VER3 (longueur binaire de P) divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little-endian</em></a> ). | 
+| Q | La valeur Q est située directement après la valeur P et doit toujours être la longueur en octets du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenQ</strong> divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ). | 
+| G | La valeur G est située directement après la valeur Q et doit toujours être la longueur, en octets, du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenP</strong> (longueur de bit de P) divisé par huit. Si la longueur des données est un ou plusieurs octets plus courts que P divisés par 8, les données doivent être complétées par les octets nécessaires (de zéro valeur) pour que les données soient de la longueur souhaitée (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little-endian</em></a> ). | 
+| J | La valeur J est située directement après la valeur G et doit toujours être la longueur en octets du membre <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a><strong>bitlenJ</strong> divisé par huit (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ). Si la valeur bitlenQ est 0, la valeur est absente de l’objet BLOB. | 
+| O | La valeur Y, (G ^ X) mod P, est située directement après la valeur J et doit toujours être la longueur, en octets, de la <a href="/previous-versions/windows/desktop/legacy/aa381983(v=vs.85)"><strong>DSSPUBKEY_VER3</strong></a>membre<strong>bitlenP</strong> (longueur de bit de P) divisé par huit. Si la longueur des données résultant du calcul de (G ^ X) mod P est un ou plusieurs octets plus courts que P divisé par 8, les données doivent être complétées par les octets nécessaires (de zéro valeur) pour que les données soient de la longueur souhaitée (format<a href="/windows/desktop/SecGloss/l-gly"><em>Little endian</em></a> ).<blockquote>[!Note]<br />Lorsque cette structure est utilisée avec <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a> avec la valeur <em>dwParam</em> KP_PUB_PARAMS, cette valeur n’est pas incluse dans l’objet BLOB.</blockquote><br /><br /> | 
+
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a799c890887df730fdad97ad4d08fa500a6dd4b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84f8fe5c427a40c6fd27dbe7c9938ae05715fcde0d98563251f964e085a75a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967169"
 ---
 # <a name="windows7apijetprereadkeys-method-jet_sesid-jet_tableid-byte-int32--int32-int32-int32-prereadkeysgrbit"></a>Méthode Windows7Api. JetPrereadKeys (JET_SESID, JET_TABLEID, Byte \[ \] \[ \] , Int32, Int32, Int32, Int32, PrereadKeysGrbit)
 

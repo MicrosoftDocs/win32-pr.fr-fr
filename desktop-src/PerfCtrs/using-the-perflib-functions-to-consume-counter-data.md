@@ -3,16 +3,16 @@ title: Utilisation des fonctions PerfLib pour consommer des données de compteur
 description: Les fonctions de l’API PerfLib peuvent être utilisées pour consommer des données de compteur de performances v2 directement lorsque PDH ne peut pas être utilisé.
 ms.date: 08/17/2020
 ms.topic: article
-ms.openlocfilehash: 9fec3bb97ec32ff98e2b317b737023da81147bdd
-ms.sourcegitcommit: f7cf41ffc79d1ffead9de2fc61677201f94b423a
+ms.openlocfilehash: 154ce2e60df34fc91f83f2b51b48d78cf170191091df55b85b44560ae271ce3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "106513745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033149"
 ---
 # <a name="using-the-perflib-functions-to-consume-counter-data"></a>Utilisation des fonctions PerfLib pour consommer des données de compteurs
 
-Utilisez les fonctions de consommateur PerfLib pour consommer des données de performances à partir de fournisseurs de données de performances v2 lorsque vous ne pouvez pas utiliser les [fonctions d’assistance des données de performance (PDH)](using-the-pdh-functions-to-consume-counter-data.md). Ces fonctions peuvent être utilisées lors de l’écriture d’applications OneCore pour collecter des countersets v2 ou lorsque vous devez collecter des countersets v2 avec des dépendances et une surcharge minimales.
+Utilisez les fonctions de consommateur PerfLib pour consommer des données de performances à partir de fournisseurs de données de performances v2 lorsque vous ne pouvez pas utiliser les [fonctions d’assistance des données de performance (PDH)](using-the-pdh-functions-to-consume-counter-data.md). ces fonctions peuvent être utilisées lors de l’écriture d’OneCore applications pour collecter des countersets v2 ou lorsque vous devez collecter des countersets v2 avec des dépendances et une surcharge minimales.
 
 > [!TIP]
 > Les fonctions de consommateur de PerfLib v2 sont plus difficiles à utiliser que les fonctions de performance Data Helper (PDH) et ne prennent en charge que la collecte de données à partir de fournisseurs v2. Les fonctions PDH doivent être préférées pour la plupart des applications.
@@ -54,10 +54,10 @@ Plusieurs requêtes peuvent être associées à un descripteur de requête. Quan
 
 Chaque requête spécifie un GUID du CounterSet, un filtre de nom d’instance, un filtre d’ID d’instance facultatif et un filtre d’ID de compteur facultatif.
 
-- Le GUID du CounterSet est requis. Elle indique le GUID du CounterSet à partir duquel la requête collectera les données. Cela est similaire à la `FROM` clause d’une requête SQL.
-- Le filtre de nom d’instance est requis. Il indique un modèle de caractère générique que le nom d’instance doit mettre en correspondance pour que l’instance soit incluse dans la requête, en `*` indiquant « tout caractère » et en `?` indiquant « un caractère ». Pour les countersets d’instance unique, cette valeur **doit** être une chaîne de longueur nulle `""` . Pour les countersets multi-instances, cette valeur **doit** être une chaîne non vide (utilisez `"*"` pour accepter tous les noms d’instance). Cela est similaire à une `WHERE InstanceName LIKE NameFilter` clause d’une requête SQL.
-- Le filtre de l’ID d’instance est facultatif. S’il est présent (par exemple, s’il est défini sur une valeur autre que `0xFFFFFFFF` ), il indique que la requête doit uniquement collecter les instances où l’ID d’instance correspond à l’ID spécifié. En cas d’absence (c’est-à-dire si `0xFFFFFFFF` la valeur est), elle indique que la requête doit accepter tous les ID d’instance. Cela est similaire à une `WHERE InstanceId == IdFilter` clause d’une requête SQL.
-- Le filtre de l’ID de compteur est facultatif. Si elle est présente (c’est-à-dire si elle est définie sur une valeur autre que `PERF_WILDCARD_COUNTER` ), elle indique que la requête doit collecter un compteur unique, similaire à une `SELECT CounterName` clause d’une requête SQL. En cas d’absence (c’est-à-dire si `PERF_WILDCARD_COUNTER` la valeur est), elle indique que la requête doit collecter tous les compteurs disponibles, comme dans une `SELECT *` clause d’une requête SQL.
+- Le GUID du CounterSet est requis. Elle indique le GUID du CounterSet à partir duquel la requête collectera les données. cela est similaire à la `FROM` clause d’une requête de SQL.
+- Le filtre de nom d’instance est requis. Il indique un modèle de caractère générique que le nom d’instance doit mettre en correspondance pour que l’instance soit incluse dans la requête, en `*` indiquant « tout caractère » et en `?` indiquant « un caractère ». Pour les countersets d’instance unique, cette valeur **doit** être une chaîne de longueur nulle `""` . Pour les countersets multi-instances, cette valeur **doit** être une chaîne non vide (utilisez `"*"` pour accepter tous les noms d’instance). cela est similaire à une `WHERE InstanceName LIKE NameFilter` clause d’une requête de SQL.
+- Le filtre de l’ID d’instance est facultatif. S’il est présent (par exemple, s’il est défini sur une valeur autre que `0xFFFFFFFF` ), il indique que la requête doit uniquement collecter les instances où l’ID d’instance correspond à l’ID spécifié. En cas d’absence (c’est-à-dire si `0xFFFFFFFF` la valeur est), elle indique que la requête doit accepter tous les ID d’instance. cela est similaire à une `WHERE InstanceId == IdFilter` clause d’une requête de SQL.
+- Le filtre de l’ID de compteur est facultatif. si elle est présente (c’est-à-dire si elle est définie sur une valeur autre que `PERF_WILDCARD_COUNTER` ), elle indique que la requête doit collecter un compteur unique, similaire à une `SELECT CounterName` clause d’une requête de SQL. en cas d’absence (c’est-à-dire si `PERF_WILDCARD_COUNTER` la valeur est), elle indique que la requête doit collecter tous les compteurs disponibles, comme dans une `SELECT *` clause d’une requête de SQL.
 
 Utilisez **PerfAddCounters** pour ajouter des requêtes à un handle de requête. Utilisez **PerfDeleteCounters** pour supprimer des requêtes d’un handle de requête.
 

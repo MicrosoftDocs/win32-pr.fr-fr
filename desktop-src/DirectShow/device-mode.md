@@ -4,12 +4,12 @@ ms.assetid: d56021be-616b-41cd-8cf0-9e0d314f62cd
 title: Modèle d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4657fbb49e2619d75911c18185109805116b9647
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe1e73f77dcbda1caa670264a7fec4a21ba6bbe78414aaa59cb1416bdd0d0d6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075929"
 ---
 # <a name="device-mode"></a>Modèle d’appareil
 

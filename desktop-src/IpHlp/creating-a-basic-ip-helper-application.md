@@ -4,12 +4,12 @@ ms.assetid: b53f1cf5-3659-407e-8279-5c94333f3017
 title: Création d’une application d’assistance IP de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baae961f8ffb6aa899e96fd05f0cb9f0c41469ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e8c5db341bbc14b60f47654b887b0345bbbc96a097463c63a1d0bba9e648ef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086459"
 ---
 # <a name="creating-a-basic-ip-helper-application"></a>Création d’une application d’assistance IP de base
 
@@ -43,15 +43,15 @@ ms.locfileid: "104321082"
     >
     > Le fichier d’en-tête *iphlpapi. h* est requis pour les applications qui utilisent les fonctions d’assistance IP. Le fichier d’en-tête *iphlpapi. h* contient automatiquement d’autres fichiers d’en-tête avec des structures et des énumérations utilisées par les fonctions d’assistance IP.
     >
-    > Les nouvelles fonctions d’assistance IP introduites dans Windows Vista et les versions ultérieures sont définies dans le fichier d’en-tête *Netioapi. h* qui est automatiquement inclus dans le fichier d’en-tête *iphlpapi. h* . Le fichier d’en-tête *Netioapi. h* ne doit jamais être utilisé directement.
+    > les nouvelles fonctions d’assistance IP introduites dans Windows Vista et versions ultérieures sont définies dans le fichier d’en-tête *Netioapi. h* qui est automatiquement inclus dans le fichier d’en-tête *Iphlpapi. h* . Le fichier d’en-tête *Netioapi. h* ne doit jamais être utilisé directement.
     >
     > La plupart des structures et énumérations utilisées par les fonctions d’assistance IP sont définies dans les fichiers d’en-tête *Iprtrmib. h*, *Ipexport. h* et *IPTypes. h* . Ces fichiers d’en-tête sont automatiquement inclus dans le fichier d’en-tête *iphlpapi. h* et ne doivent jamais être utilisés directement.
     >
-    > Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé. Certaines des structures sont maintenant définies dans les fichiers d’en-tête *Ipmib. h*, *tcpmib. h* et *Udpmib. h* , et non dans le fichier d’en-tête *Iprtrmib. h* . Le fichier d’en-tête *Ipmib. h* comprend automatiquement le fichier d’en-tête *ifmib. h* . Notez que ces fichiers d’en-tête sont automatiquement inclus dans *Iprtrmib. h*, qui est inclus automatiquement dans le fichier d’en-tête *iphlpapi. h* .
+    > dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé. Certaines des structures sont maintenant définies dans les fichiers d’en-tête *Ipmib. h*, *tcpmib. h* et *Udpmib. h* , et non dans le fichier d’en-tête *Iprtrmib. h* . Le fichier d’en-tête *Ipmib. h* comprend automatiquement le fichier d’en-tête *ifmib. h* . Notez que ces fichiers d’en-tête sont automatiquement inclus dans *Iprtrmib. h*, qui est inclus automatiquement dans le fichier d’en-tête *iphlpapi. h* .
     >
-    > Le fichier d’en-tête *Winsock2. h* pour Windows sockets 2,0 est requis par la plupart des applications utilisant les API d’assistance IP. Lorsque le fichier d’en-tête *Winsock2. h* est requis, la \# ligne include de ce fichier doit être placée avant la \# ligne include pour le fichier d’en-tête *iphlpapi. h* .
+    > le fichier d’en-tête *Winsock2. h* pour Windows sockets 2,0 est requis par la plupart des applications utilisant les api d’assistance IP. Lorsque le fichier d’en-tête *Winsock2. h* est requis, la \# ligne include de ce fichier doit être placée avant la \# ligne include pour le fichier d’en-tête *iphlpapi. h* .
     >
-    > Le fichier d’en-tête *Winsock2. h* inclut en interne les éléments principaux du fichier d’en-tête *Windows. h* . il n’y a donc pas \# de ligne include pour le fichier d’en-tête *Windows. h* dans les applications d’assistance IP. Si une \# ligne include est nécessaire pour le fichier d’en-tête *Windows. h* , elle doit être précédée de la \# macro define Win32 \_ maigre \_ and \_ Mean. Pour des raisons historiques, l’en-tête *Windows. h* inclut par défaut le fichier d’en-tête *Winsock. h* pour Windows Sockets 1,1. Les déclarations du fichier d’en-tête *Winsock. h* pour Windows sockets 1,1 seront en conflit avec les déclarations dans le fichier d’en-tête *Winsock2. h* requis par Windows Sockets 2,0. La \_ \_ \_ macro moyenne et moyenne Win32 empêche le fichier d’en-tête *Winsock. h* d’être inclus dans le fichier d’en-tête *Windows. h* . Vous trouverez ci-dessous un exemple illustrant cette illustration.
+    > le fichier d’en-tête *Winsock2. h* inclut en interne les éléments principaux du fichier d’en-tête *Windows. h* . il n’y a donc pas de \# ligne include pour le fichier d’en-tête *Windows. h* dans les applications d’assistance IP. si une \# ligne include est nécessaire pour le fichier d’en-tête *Windows. h* , elle doit être précédée de la \# macro define WIN32 \_ maigre \_ AND \_ MEAN. pour des raisons historiques, l’en-tête *Windows. h* inclut par défaut le fichier d’en-tête *Winsock. h* pour Windows sockets 1,1. les déclarations du fichier d’en-tête *Winsock. h* pour Windows sockets 1,1 sont en conflit avec les déclarations dans le fichier d’en-tête *Winsock2. h* requis par Windows sockets 2,0. la \_ \_ \_ macro moyenne et moyenne WIN32 empêche le fichier d’en-tête *Winsock. h* d’être inclus dans le fichier d’en-tête *Windows. h* . Vous trouverez ci-dessous un exemple illustrant cette illustration.
 
      
 
@@ -76,9 +76,9 @@ ms.locfileid: "104321082"
 
     > [!Note]
     >
-    > Cette application d’assistance IP de base utilise uniquement des structures de données d’adresse IP et des fonctions de conversion d’adresse IP à chaîne à partir de Windows Sockets 2,0. Ces fonctions Windows Sockets peuvent être utilisées sans appeler [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) pour initialiser les ressources Windows Sockets et [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) lorsqu’elles sont terminées à l’aide de ces ressources.
+    > cette application d’assistance ip de base utilise uniquement des structures de données d’adresse ip et des fonctions de conversion d’adresse ip à chaîne de Windows sockets 2,0. ces fonctions de Windows sockets peuvent être utilisées sans l’appel de [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) pour initialiser les ressources de sockets Windows et [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) lorsqu’elles sont terminées à l’aide de ces ressources.
     >
-    > Dans les applications d’assistance IP qui utilisent d’autres fonctions Winsock autres que cette adresse IP pour les fonctions de chaîne, la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) doit être appelée pour initialiser les ressources Windows Sockets avant d’appeler des fonctions Windows Sockets et [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) doit être appelé lorsque l’application est exécutée à l’aide des ressources Windows Sockets.
+    > dans les applications d’assistance ip qui utilisent d’autres fonctions Winsock autres que cette adresse ip pour les fonctions de chaîne, la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) doit être appelée pour initialiser Windows ressources sockets avant d’appeler des fonctions de sockets Windows et [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) doit être appelée lorsque l’application est exécutée à l’aide des ressources de sockets Windows.
 
      
 

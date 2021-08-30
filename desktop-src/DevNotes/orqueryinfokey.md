@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: b38a0dd35b1fe1755fbcbc3bcac3da379ee57e6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb7bf6d4a9440e648844e6e18d9b4965b0240de98f8f27f4aac142276142515b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058609"
 ---
 # <a name="orqueryinfokey-function"></a>ORQueryInfoKey fonction)
 
@@ -148,7 +148,7 @@ Si la mémoire tampon *lpClass* est trop petite pour recevoir le nom de la class
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

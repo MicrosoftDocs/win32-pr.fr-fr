@@ -3,7 +3,7 @@ title: Message PGM_GETDROPTARGET (commctrl. h)
 description: Récupère le pointeur d’interface IDropTarget d’un contrôle de pagineur. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro de radiomessagerie \_ GetDropTarget.
 ms.assetid: 6b548c30-2d32-4372-90e4-346a27dda218
 keywords:
-- PGM_GETDROPTARGET les contrôles de message Windows
+- PGM_GETDROPTARGET les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b90f7f9667dd30a79b9345eec211a6ebfcd7a12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1d07add613674166ebc4bf4cba460088e5e95d9704eead5ad382851bf4e79f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985889"
 ---
 # <a name="pgm_getdroptarget-message"></a>\_Message GETDROPTARGET PGM
 
@@ -49,8 +49,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

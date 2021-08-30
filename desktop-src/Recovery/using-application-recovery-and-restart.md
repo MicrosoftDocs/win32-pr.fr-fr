@@ -4,12 +4,12 @@ description: Une application peut utiliser la récupération et le redémarrage 
 ms.assetid: 28cbb4c0-a287-4302-b3a9-daddc69adb40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d5bf0b9bd0e0f6cc257ee785ab5df6febc8fef
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 88a844e7bb8795dae26fa2900b539651cdab3f07877dce83403bd37126dac197
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073649"
 ---
 # <a name="using-application-recovery-and-restart"></a>Utilisation de la récupération et du redémarrage de l’application
 
@@ -19,7 +19,7 @@ Lorsque vous vous inscrivez pour la récupération ou le redémarrage, les infor
 
 Si vous vous inscrivez au redémarrage et que votre application rencontre une exception non gérée, WER affiche la même boîte de dialogue à l’utilisateur, mais donne la possibilité de redémarrer le programme au lieu de fermer le programme. Si vous vous inscrivez pour la récupération et le redémarrage, la récupération se produit en premier ; l’application est ensuite arrêtée et redémarrée.
 
-Une application qui ne répond pas est traitée de la même façon. Une application est considérée comme ne répondant pas si elle ne répond pas aux messages Windows pendant cinq secondes et que l’utilisateur tente ensuite d’interagir avec l’application. l’utilisateur verra (ne répond pas) dans la barre de titre. WER est activé quand l’utilisateur clique sur le bouton Fermer du système.
+Une application qui ne répond pas est traitée de la même façon. une application est considérée comme ne répondant pas si elle ne répond pas aux messages Windows pendant cinq secondes et que l’utilisateur tente ensuite d’interagir avec l’application. l’utilisateur verra (ne répond pas) dans la barre de titre. WER est activé quand l’utilisateur clique sur le bouton Fermer du système.
 
 Vous devez vous inscrire pour la récupération ou le redémarrage, ou supprimer l’inscription, avant que l’application ne réponde ou qu’elle rencontre une exception non gérée. Toutefois, dans votre rappel de récupération, vous pouvez modifier la ligne de commande de redémarrage.
 
@@ -28,8 +28,8 @@ Pour plus d’informations sur l’inscription pour la récupération ou le red�
 -   [Inscription pour la récupération d’application](registering-for-application-recovery.md)
 -   [Inscription au redémarrage de l’application](registering-for-application-restart.md)
 
-Pour obtenir des exemples qui implémentent les fonctionnalités de récupération et de redémarrage, consultez les exemples AppRecovery et AppRestart dans le SDK Windows situé dans le \\ dossier WinBase WindowsErrorReporting.
+pour obtenir des exemples qui implémentent les fonctionnalités de récupération et de redémarrage, consultez les exemples AppRecovery et AppRestart dans le SDK Windows situé dans le \\ dossier WinBase WindowsErrorReporting.
 
- 
+ 
 
- 
+ 

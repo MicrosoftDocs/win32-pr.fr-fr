@@ -4,12 +4,12 @@ ms.assetid: 82a93f57-8273-45bf-81d7-50a673845ae1
 title: Fonctions d’agrégation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30d504a9343116bc23e847728716eeaa79fc2d26d993e962dd81ccd43669e22a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47eb73c5208fa5552073ef5cef0e85736cfdf45c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119094953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885362"
 ---
 # <a name="aggregate-functions"></a>Fonctions d’agrégation
 
@@ -32,16 +32,16 @@ La partie fonction peut inclure l’une des fonctions et la syntaxe suivantes :
 
 | Fonction                                                              | Description                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Moy ( <column> )                                                   | Renvoie la moyenne des valeurs d'un groupe. S’applique uniquement aux nombres.                                                                                                                                      |
-| BYFREQUENCY ( <column> , <N> )                                | Retourne les N valeurs de colonne les plus fréquentes des résultats dans le groupe. Comprend également le nombre de fois où chaque valeur s’est produite et les identificateurs de document pour les résultats qui contiennent chaque valeur retournée. |
+| Moy ( &lt; colonne &gt; )                                                   | Renvoie la moyenne des valeurs d'un groupe. S’applique uniquement aux nombres.                                                                                                                                      |
+| BYFREQUENCY ( &lt; colonne &gt; , &lt; N &gt; )                                | Retourne les N valeurs de colonne les plus fréquentes des résultats dans le groupe. Comprend également le nombre de fois où chaque valeur s’est produite et les identificateurs de document pour les résultats qui contiennent chaque valeur retournée. |
 | CHILDCOUNT ()                                                          | Retourne le nombre d’éléments d’un groupe (à l’exception des sous-groupes). S’il existe plusieurs niveaux de regroupement, retourne le nombre de groupes enfants immédiats.                                                  |
 | COUNT ()                                                               | Retourne le nombre d’éléments dans un groupe et tous les sous-groupes.                                                                                                                                                   |
-| DATERANGE ( <column> )                                             | Retourne les limites inférieure et supérieure des valeurs de colonne trouvées dans le groupe de résultats de groupe. Valide uniquement pour les propriétés FILETIME.                                                                               |
-| PREMIER ( <column> , <N> )                                      | Retourne les N premières valeurs de colonne des résultats feuille trouvés dans un groupe.                                                                                                                                       |
-| MAX ( <column> )                                                   | Retourne la valeur maximale de l'expression. S’applique uniquement aux nombres ou aux dates.                                                                                                                              |
-| MIN ( <column> )                                                   | Retourne la valeur minimale de l'expression. S’applique uniquement aux nombres ou aux dates.                                                                                                                              |
-| REPRESENTATIVEOF ( <column> , <idRepresentative> , <N> ) | Retourne N valeurs idRepresentative, chacune sélectionnée à partir de l’un des sous-ensembles de résultats qui a une valeur de colonne unique. Chaque valeur est également retournée avec un identificateur de document qui a la valeur idRepresentative. |
-| SUM ( <column> )                                                   | Retourne la somme des valeurs d’un groupe. S’applique uniquement aux nombres.                                                                                                                                          |
+| DATERANGE ( &lt; colonne &gt; )                                             | Retourne les limites inférieure et supérieure des valeurs de colonne trouvées dans le groupe de résultats de groupe. Valide uniquement pour les propriétés FILETIME.                                                                               |
+| FIRST ( &lt; colonne &gt; , &lt; N &gt; )                                      | Retourne les N premières valeurs de colonne des résultats feuille trouvés dans un groupe.                                                                                                                                       |
+| MAX ( &lt; colonne &gt; )                                                   | Retourne la valeur maximale de l'expression. S’applique uniquement aux nombres ou aux dates.                                                                                                                              |
+| MIN ( &lt; colonne &gt; )                                                   | Retourne la valeur minimale de l'expression. S’applique uniquement aux nombres ou aux dates.                                                                                                                              |
+| REPRESENTATIVEOF ( &lt; colonne &gt; , &lt; idRepresentative &gt; , &lt; N &gt; ) | Retourne N valeurs idRepresentative, chacune sélectionnée à partir de l’un des sous-ensembles de résultats qui a une valeur de colonne unique. Chaque valeur est également retournée avec un identificateur de document qui a la valeur idRepresentative. |
+| SUM ( &lt; colonne &gt; )                                                   | Retourne la somme des valeurs d’un groupe. S’applique uniquement aux nombres.                                                                                                                                          |
 
 
 

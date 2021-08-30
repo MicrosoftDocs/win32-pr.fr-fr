@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable6, interface
-description: Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface IMsRdpClientNonScriptable5.
+description: fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface IMsRdpClientNonScriptable5.
 ms.tgt_platform: multiple
 keywords:
 - Services Bureau à distance de l’interface IMsRdpClientNonScriptable6
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 0d6793452ebf59f1974831aef0fa10f2469d8e92
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 6beede518b346ff4934730eb6fa8c3ed9f80dec980be031f9d09e774aeb359a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104385487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033219"
 ---
 # <a name="imsrdpclientnonscriptable6-interface"></a>IMsRdpClientNonScriptable6, interface
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
 
 Une instance de cette interface est obtenue en appelant [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur l’objet [**IMsTscAx**](imstscax-interface.md) , en passant **IID \_ IMsRdpClientNonScriptable6**.
 

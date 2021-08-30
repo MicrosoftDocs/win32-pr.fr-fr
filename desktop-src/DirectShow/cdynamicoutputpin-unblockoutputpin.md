@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60bcde3ccad01e19f3802e2cd19f0f6b873380ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed4255d64531363e2018da3aa716316428a3d7d1b960521aa478c658b59b48b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055859"
 ---
 # <a name="cdynamicoutputpinunblockoutputpin-method"></a>Méthode CDynamicOutputPin. UnblockOutputPin
 
@@ -49,7 +49,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                           |
 |-----------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le code pin a déjà été débloqué.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                   |
 
 
 
@@ -61,7 +61,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

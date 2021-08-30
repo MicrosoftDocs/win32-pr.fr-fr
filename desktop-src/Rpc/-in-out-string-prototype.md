@@ -4,12 +4,12 @@ description: Le prototype de fonction suivant utilise un paramètre unique \ in,
 ms.assetid: 5a652b79-11ca-4780-aac1-60a22f96b4af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed8ed47c02ea3e08672d529bf7ce9f627925518
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 92fe0b2e39f6f3bda532b030cac1ec4c15a03b7bb5447401e0f1f43ebda466ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024309"
 ---
 # <a name="in-out-string-prototype"></a>\[in, out, prototype de chaîne \]
 
@@ -44,6 +44,6 @@ void Analyze(char *pchInOut)
 }
 ```
 
- 
+ 
 
- 
+ 

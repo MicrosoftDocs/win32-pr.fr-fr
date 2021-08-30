@@ -4,12 +4,12 @@ ms.assetid: 069d64e9-106a-42b7-8dea-a44fc0c6e0cd
 title: Table des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b721996767fa98209f0e13530f8f1bb1ba8cca07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1888628137fcf07cab07d011325ff685809cff68
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201794"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474945"
 ---
 # <a name="component-table"></a>Table des composants
 
@@ -17,7 +17,7 @@ La table des composants répertorie les composants et contient les colonnes suiv
 
 
 
-| Colonne      | Type                         | Clé | Nullable |
+| Colonne      | Type                         | Clé : | Nullable |
 |-------------|------------------------------|-----|----------|
 | Composant   | [Identificateur](identifier.md) | O   | N        |
 | ComponentId | [GUID](guid.md)             | N   | O        |
@@ -71,68 +71,29 @@ Clé externe vers la colonne une de la table de répertoires.
 Cette colonne contient un indicateur binaire qui spécifie les options d’exécution à distance. Ajoutez le bit indiqué à la valeur totale de la colonne pour inclure une option.
 
 > [!Note]  
-> Dans le cas d’un fichier. msi en cours de téléchargement à partir d’un emplacement Web, les indicateurs d’attribut ne doivent pas être configurés pour permettre à un composant d’être exécuté à partir de la source. Il s’agit d’une limitation de la Windows Installer et peut retourner un état de fonctionnalité de INSTALLSTATE \_ BADCONFIG.
+> Dans le cas d’un fichier .msi téléchargé à partir d’un emplacement Web, les indicateurs d’attribut ne doivent pas être définis de façon à autoriser l’exécution d’un composant à partir de la source. il s’agit d’une limitation de la Windows Installer et peut retourner un état de fonctionnalité de INSTALLSTATE \_ BADCONFIG.
 
  
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Indicateur de bit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesLocalOnly</strong></dt> <dt>0</dt> <dt>0x0000</dt> </dl> Le composant ne peut pas être exécuté à partir de la source. Définissez ce bit pour tous les composants appartenant à une fonctionnalité pour empêcher l’exécution de la fonctionnalité à partir du réseau ou de l’exécution à partir de la source. Notez que si une fonctionnalité ne possède aucun composant, la fonctionnalité affiche toujours exécuter à partir de la source et exécuter à partir de mon ordinateur comme options valides.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesSourceOnly</strong></dt> <dt>1</dt> <dt>0x0001</dt> </dl> Le composant ne peut être exécuté qu’à partir de la source. Définissez ce bit pour tous les composants appartenant à une fonctionnalité pour empêcher l’exécution de la fonctionnalité à partir de-My-Computer. Notez que si une fonctionnalité ne possède aucun composant, la fonctionnalité affiche toujours exécuter à partir de la source et exécuter à partir de mon ordinateur comme options valides.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesOptional</strong></dt> <dt>2</dt> <dt>0x0002</dt> </dl> Le composant peut s’exécuter localement ou à partir de la source.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesRegistryKeyPath</strong></dt> <dt>4</dt> <dt>0x0004</dt> </dl> Si ce bit est défini, la valeur dans la colonne keyPath est utilisée comme clé dans la <a href="registry-table.md">table du Registre</a>. Si le champ de valeur de l’enregistrement correspondant dans la table du Registre est null, le champ de nom de cet enregistrement ne doit pas contenir &quot; + &quot; , &quot; - &quot; ou &quot; * &quot; . Pour plus d’informations, consultez la description du champ Name dans la <a href="registry-table.md">table Registry</a>.<br/> La définition de ce bit est recommandée pour les entrées de Registre écrites dans la ruche HKCU. Cela permet de s’assurer que le programme d’installation écrit les entrées de Registre HKCU nécessaires lorsqu’il y a plusieurs utilisateurs sur le même ordinateur.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesSharedDllRefCount</strong></dt> <dt>8</dt> <dt>0x0008</dt> </dl> Si ce bit est défini, le programme d’installation incrémente le nombre de références dans le registre de DLL partagé du fichier de clé du composant. Si ce bit n’est pas défini, le programme d’installation incrémente le décompte de références uniquement si le nombre de références existe déjà.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesPermanent</strong></dt> <dt>16</dt> <dt>0x0010</dt> </dl> Si ce bit est défini, le programme d’installation ne supprime pas le composant pendant une désinstallation. Le programme d’installation inscrit un client système supplémentaire pour le composant dans les paramètres du Registre Windows Installer.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesODBCDataSource</strong></dt> <dt>32</dt> <dt>0x0020</dt> </dl> Si ce bit est défini, la valeur dans la colonne keyPath est une clé dans la <a href="odbcdatasource-table.md">table ODBCDataSource</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesTransitive</strong></dt> <dt>64</dt> <dt>0x0040</dt> </dl> Si ce bit est défini, le programme d’installation réévalue la valeur de l’instruction dans la colonne condition lors de la réinstallation. Si la valeur était précédemment false et a été remplacée par true, le programme d’installation installe le composant. Si la valeur était précédemment true et a été remplacée par false, le programme d’installation supprime le composant même si le composant a d’autres produits comme clients.<br/> Ce bit ne doit être défini que pour les composants transitifs. Consultez <a href="using-transitive-components.md">utilisation des composants transitives</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesNeverOverwrite</strong></dt> <dt>128</dt> <dt>0x0080</dt> </dl> Si ce bit est défini, le programme d’installation n’installe pas ou ne réinstalle pas le composant si un fichier de chemin d’accès de clé ou une entrée de registre de chemin d’accès de clé pour le composant existe déjà. L’application s’inscrit elle-même en tant que client du composant.<br/> Utilisez cet indicateur uniquement pour les composants qui sont enregistrés par la table du Registre. N’utilisez pas cet indicateur pour les composants enregistrés par l' <a href="appid-table.md">AppID</a>, la <a href="class-table.md">classe</a>, l' <a href="extension-table.md">extension</a>, le <a href="progid-table.md">ProgID</a>, le <a href="mime-table.md">MIME</a>et les <a href="verb-table.md">tables de verbes</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributes64bit</strong></dt> <dt>256</dt> <dt>0x0100</dt> </dl> Définissez ce bit sur marquer comme un composant 64 bits. Cet attribut facilite l’installation des packages qui incluent des composants 32 bits et 64 bits. Si ce bit n’est pas défini, le composant est inscrit en tant que composant 32 bits.<br/> S’il s’agit d’un composant 64 bits qui remplace un composant 32 bits, définissez ce bit et attribuez un nouveau GUID dans la colonne ComponentId.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Définissez ce bit pour désactiver la <a href="/windows/desktop/WinProg64/registry-reflection">réflexion du Registre</a> sur toutes les clés de Registre existantes et nouvelles affectées par ce composant. Si ce bit est défini, le Windows Installer appelle le <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> sur chaque clé à laquelle le composant accède. Ce bit est disponible avec la version 4,0 de Windows Installer. Ce bit est ignoré sur les systèmes 32 bits. Ce bit est ignoré sur les versions 64 bits de Windows XP.<br/>
-<blockquote>
-[!Note]<br />
-les applications Windows 32 bits qui s’exécutent sur l’émulateur Windows 64 bits (WOW64) font référence à une vue différente du registre que les applications 64 bits. La réflexion du Registre copie certaines valeurs du Registre entre ces deux vues du Registre.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt> <dt>1024</dt> <dt>0x0400</dt> </dl> Définissez ce bit pour un composant dans un package correctif afin d’éviter de laisser des composants orphelins sur l’ordinateur. Si un patch suivant est installé, marqué avec la valeur <strong>msidbPatchSequenceSupersedeEarlier</strong> dans sa table <a href="msipatchsequence-table.md">MsiPatchSequence</a> pour remplacer le premier correctif, Windows Installer 4,5 et versions ultérieures peuvent annuler l’inscription et désinstaller les composants marqués avec la valeur <strong>msidbComponentAttributesUninstallOnSupersedence</strong> . Si le composant n’est pas marqué avec ce bit, l’installation d’un correctif de remplacement peut sortir d’un composant inutilisé sur l’ordinateur.<br/> La définition de la propriété <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> a le même effet que la définition de ce bit pour tous les composants.<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4,0 et versions antérieures</a>:</strong> la valeur <strong>msidbComponentAttributesUninstallOnSupersedence</strong> n’est pas prise en charge et est ignorée.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesShared</strong></dt> <dt>2048</dt> <dt>0x0800</dt> </dl> Si un composant est marqué avec cette valeur d’attribut dans au moins un package installé sur le système, le programme d’installation traite le composant comme étant marqué dans tous les packages. Si un package qui partage le composant marqué est désinstallé, Windows Installer 4,5 peut continuer à partager la version la plus récente du composant sur le système, même si cette version la plus récente a été installée par le package en cours de désinstallation. <br/> Si la stratégie DisableSharedComponent est définie sur 1, aucun package n’obtient la fonctionnalité de composant partagé activée par ce bit.<br/> <strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4,0 et versions antérieures</a>:</strong> la valeur <strong>msidbComponentAttributesShared</strong> n’est pas prise en charge et est ignorée.<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Indicateur de bit | 
+|----------|
+| <dl><dt><strong>msidbComponentAttributesLocalOnly</strong></dt><dt>0</dt><dt>0x0000</dt></dl> Le composant ne peut pas être exécuté à partir de la source. Définissez ce bit pour tous les composants appartenant à une fonctionnalité pour empêcher l’exécution de la fonctionnalité à partir du réseau ou de l’exécution à partir de la source. Notez que si une fonctionnalité ne possède aucun composant, la fonctionnalité affiche toujours exécuter à partir de la source et exécuter à partir de mon ordinateur comme options valides.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesSourceOnly</strong></dt><dt>1</dt><dt>0x0001</dt></dl> Le composant ne peut être exécuté qu’à partir de la source. Définissez ce bit pour tous les composants appartenant à une fonctionnalité pour empêcher l’exécution de la fonctionnalité à partir de-My-Computer. Notez que si une fonctionnalité ne possède aucun composant, la fonctionnalité affiche toujours exécuter à partir de la source et exécuter à partir de mon ordinateur comme options valides.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesOptional</strong></dt><dt>2</dt><dt>0x0002</dt></dl> Le composant peut s’exécuter localement ou à partir de la source.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesRegistryKeyPath</strong></dt><dt>4</dt><dt>0x0004</dt></dl> Si ce bit est défini, la valeur dans la colonne keyPath est utilisée comme clé dans la <a href="registry-table.md">table du Registre</a>. Si le champ de valeur de l’enregistrement correspondant dans la table de Registre est null, le champ de nom de cet enregistrement ne doit pas contenir « + », « - » ou « * ». Pour plus d’informations, consultez la description du champ Name dans la <a href="registry-table.md">table Registry</a>.<br /> La définition de ce bit est recommandée pour les entrées de Registre écrites dans la ruche HKCU. Cela permet de s’assurer que le programme d’installation écrit les entrées de Registre HKCU nécessaires lorsqu’il y a plusieurs utilisateurs sur le même ordinateur.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesSharedDllRefCount</strong></dt><dt>8</dt><dt>0x0008</dt></dl> Si ce bit est défini, le programme d’installation incrémente le nombre de références dans le registre de DLL partagé du fichier de clé du composant. Si ce bit n’est pas défini, le programme d’installation incrémente le décompte de références uniquement si le nombre de références existe déjà.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesPermanent</strong></dt><dt>16</dt><dt>0x0010</dt></dl> Si ce bit est défini, le programme d’installation ne supprime pas le composant pendant une désinstallation. le programme d’installation inscrit un client système supplémentaire pour le composant dans les paramètres du registre Windows Installer.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesODBCDataSource</strong></dt><dt>32</dt><dt>0x0020</dt></dl> Si ce bit est défini, la valeur dans la colonne keyPath est une clé dans la <a href="odbcdatasource-table.md">table ODBCDataSource</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesTransitive</strong></dt><dt>64</dt><dt>0x0040</dt></dl> Si ce bit est défini, le programme d’installation réévalue la valeur de l’instruction dans la colonne condition lors de la réinstallation. Si la valeur était précédemment false et a été remplacée par true, le programme d’installation installe le composant. Si la valeur était précédemment true et a été remplacée par false, le programme d’installation supprime le composant même si le composant a d’autres produits comme clients.<br /> Ce bit ne doit être défini que pour les composants transitifs. Consultez <a href="using-transitive-components.md">utilisation des composants transitives</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesNeverOverwrite</strong></dt><dt>128</dt><dt>0x0080</dt></dl> Si ce bit est défini, le programme d’installation n’installe pas ou ne réinstalle pas le composant si un fichier de chemin d’accès de clé ou une entrée de registre de chemin d’accès de clé pour le composant existe déjà. L’application s’inscrit elle-même en tant que client du composant.<br /> Utilisez cet indicateur uniquement pour les composants qui sont enregistrés par la table du Registre. N’utilisez pas cet indicateur pour les composants enregistrés par l' <a href="appid-table.md">AppID</a>, la <a href="class-table.md">classe</a>, l' <a href="extension-table.md">extension</a>, le <a href="progid-table.md">ProgID</a>, le <a href="mime-table.md">MIME</a>et les <a href="verb-table.md">tables de verbes</a>.<br /> | 
+| <dl><dt><strong>msidbComponentAttributes64bit</strong></dt><dt>256</dt><dt>0x0100</dt></dl> Définissez ce bit sur marquer comme un composant 64 bits. Cet attribut facilite l’installation des packages qui incluent des composants 32 bits et 64 bits. Si ce bit n’est pas défini, le composant est inscrit en tant que composant 32 bits.<br /> S’il s’agit d’un composant 64 bits qui remplace un composant 32 bits, définissez ce bit et attribuez un nouveau GUID dans la colonne ComponentId.<br /> | 
+| <dl><dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt><dt>512</dt><dt>0x0200</dt></dl> Définissez ce bit pour désactiver la <a href="/windows/desktop/WinProg64/registry-reflection">réflexion du Registre</a> sur toutes les clés de Registre existantes et nouvelles affectées par ce composant. si ce bit est défini, le Windows Installer appelle le <a href="/windows/desktop/api/winreg/nf-winreg-regdisablereflectionkey"><strong>RegDisableReflectionKey</strong></a> sur chaque clé à laquelle le composant accède. ce bit est disponible avec la version 4,0 de Windows Installer. Ce bit est ignoré sur les systèmes 32 bits. ce bit est ignoré sur les versions 64 bits de Windows XP.<br /><blockquote>[!Note]<br />les applications 32 bits Windows s’exécutant sur l’émulateur de Windows 64 bits (WOW64) font référence à une vue différente du registre que les applications 64 bits. La réflexion du Registre copie certaines valeurs du Registre entre ces deux vues du Registre.</blockquote><br /><br /> | 
+| <dl><dt><strong>msidbComponentAttributesUninstallOnSupersedence</strong></dt><dt>1024</dt><dt>0x0400</dt></dl> Définissez ce bit pour un composant dans un package correctif afin d’éviter de laisser des composants orphelins sur l’ordinateur. si un patch suivant est installé, marqué avec la valeur <strong>msidbPatchSequenceSupersedeEarlier</strong> dans sa table <a href="msipatchsequence-table.md">MsiPatchSequence</a> pour remplacer le premier correctif, Windows Installer 4,5 et versions ultérieures peuvent annuler l’inscription et désinstaller les composants marqués avec la valeur <strong>msidbComponentAttributesUninstallOnSupersedence</strong> . Si le composant n’est pas marqué avec ce bit, l’installation d’un correctif de remplacement peut sortir d’un composant inutilisé sur l’ordinateur.<br /> La définition de la propriété <strong>MSIUNINSTALLSUPERSEDEDCOMPONENTS</strong> a le même effet que la définition de ce bit pour tous les composants.<br /><strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4,0 et versions antérieures</a>:</strong> la valeur <strong>msidbComponentAttributesUninstallOnSupersedence</strong> n’est pas prise en charge et est ignorée.<br /><br /> | 
+| <dl><dt><strong>msidbComponentAttributesShared</strong></dt><dt>2048</dt><dt>0x0800</dt></dl> Si un composant est marqué avec cette valeur d’attribut dans au moins un package installé sur le système, le programme d’installation traite le composant comme étant marqué dans tous les packages. si un package qui partage le composant marqué est désinstallé, Windows Installer 4,5 peut continuer à partager la version la plus récente du composant sur le système, même si cette version la plus récente a été installée par le package en cours de désinstallation. <br /> Si la stratégie DisableSharedComponent est définie sur 1, aucun package n’obtient la fonctionnalité de composant partagé activée par ce bit.<br /><strong><a href="not-supported-in-windows-installer-4-0.md">Windows Installer 4,0 et versions antérieures</a>:</strong> la valeur <strong>msidbComponentAttributesShared</strong> n’est pas prise en charge et est ignorée.<br /><br /> | 
+
 
 
 
@@ -162,11 +123,11 @@ Si la valeur n’est pas null, keyPath est soit une clé primaire dans le [Regis
 
 Étant donné que les dossiers créés par le programme d’installation sont supprimés lorsqu’ils sont vides, vous devez créer une entrée dans la [table CreateFolder](createfolder-table.md) pour installer un composant qui se compose d’un dossier vide.
 
-Notez que si un composant Windows Installer contient un fichier ou une clé de Registre protégés par [protection des ressources Windows](/windows/desktop/Wfp/windows-resource-protection-portal) (WRP) ou un fichier protégé par la protection de fichiers Windows (WFP), cette ressource doit être utilisée comme chemin d’accès au keyPath du composant. Dans ce cas, Windows Installer n’installe pas, ne met pas à jour ou ne supprime pas le composant. Vous ne devez pas inclure de ressources protégées dans un package d’installation. Au lieu de cela, vous devez utiliser les [mécanismes de remplacement des ressources pris en charge](/windows/desktop/Wfp/supported-file-replacement-mechanisms) pour protection des ressources Windows. Pour plus d’informations, consultez [utilisation de Windows Installer et protection des ressources Windows](windows-resource-protection-on-windows-vista.md).
+notez que si un composant Windows Installer contient un fichier ou une clé de registre protégés par [Protection des ressources Windows](/windows/desktop/Wfp/windows-resource-protection-portal) (WRP) ou un fichier protégé par Windows protection de fichier (WFP), cette ressource doit être utilisée comme chemin d’accès au keypath du composant. dans ce cas, Windows Installer n’installe pas, ne met pas à jour ou ne supprime pas le composant. Vous ne devez pas inclure de ressources protégées dans un package d’installation. au lieu de cela, vous devez utiliser les [mécanismes de remplacement des ressources pris en charge](/windows/desktop/Wfp/supported-file-replacement-mechanisms) pour Protection des ressources Windows. pour plus d’informations, consultez [utilisation de Windows Installer et Protection des ressources Windows](windows-resource-protection-on-windows-vista.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la relation entre les composants et les fonctionnalités, consultez [table](feature-table.md)des fonctionnalités.
 

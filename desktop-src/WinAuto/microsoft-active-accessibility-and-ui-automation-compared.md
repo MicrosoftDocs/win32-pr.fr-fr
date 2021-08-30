@@ -4,16 +4,16 @@ description: Cette rubrique fournit des résumés des principales différences e
 ms.assetid: ba963e53-6fb8-4bc1-8883-62547f52b0e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c90c4bffd0646aea592e19adc51ca020b2c90d5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2affcbb8471d5e9831aa788d65ee2d7dca71dac8b21337fe51dcfa8bdf8a9724
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998289"
 ---
 # <a name="microsoft-active-accessibility-and-ui-automation-compared"></a>Comparaison entre Microsoft Active Accessibility et UI Automation
 
-L’API Windows Automation est constituée de deux technologies : Microsoft Active Accessibility et Microsoft UI Automation. Microsoft Active Accessibility est la technologie d’accessibilité héritée qui a été introduite comme un complément de plateforme pour Windows 95, tandis que l’automatisation d’interface utilisateur est une technologie plus récente et plus puissante qui se limite aux limitations inhérentes à Microsoft Active Accessibility.
+l’API Windows automation est constituée de deux technologies : microsoft Active Accessibility et microsoft UI automation. microsoft Active Accessibility est la technologie d’accessibilité héritée qui a été introduite en tant que complément de plateforme pour Windows 95, alors que l’automatisation d’interface utilisateur est une technologie plus récente et plus puissante qui se limite aux limitations inhérentes à Microsoft Active Accessibility.
 
 Cette rubrique fournit des résumés des principales différences entre Microsoft Active Accessibility et UI Automation. Il comprend les sections suivantes :
 
@@ -30,7 +30,7 @@ Cette rubrique fournit des résumés des principales différences entre Microsof
 
 ## <a name="basic-design-principles"></a>Principes de conception de base
 
-Bien que Microsoft Active Accessibility et UI Automation soient deux technologies différentes, les principes de conception de base sont similaires. L’objectif des deux technologies est d’exposer des informations riches sur les éléments d’interface utilisateur utilisés dans les applications Windows. Les développeurs d’outils d’accessibilité peuvent utiliser ces informations pour créer des logiciels qui rendent les applications s’exécutant sur Windows plus accessibles aux personnes souffrant de troubles de la vision, de l’audition ou du mouvement.
+Bien que Microsoft Active Accessibility et UI Automation soient deux technologies différentes, les principes de conception de base sont similaires. l’objectif des deux technologies est d’exposer des informations riches sur les éléments d’interface utilisateur utilisés dans les applications Windows. les développeurs d’outils d’accessibilité peuvent utiliser ces informations pour créer des logiciels qui rendent les applications s’exécutant sur Windows plus accessibles aux personnes souffrant de troubles de la vision, de l’audition ou du mouvement.
 
 Microsoft Active Accessibility et UI Automation exposent le modèle d’objet d’interface utilisateur sous la forme d’une arborescence hiérarchique, enracinée sur le bureau. Microsoft Active Accessibility représente des éléments d’interface utilisateur individuels comme des *objets accessibles*, et UI Automation les représente comme des *éléments Automation*. Ils font tous deux référence à l’outil d’accessibilité ou au programme d’automatisation logicielle en tant que *client*. Toutefois, Microsoft Active Accessibility fait référence à l’application ou au contrôle qui offre l’interface utilisateur pour l’accessibilité en tant que *serveur*, tandis que l’automatisation d’interface utilisateur se réfère à ceci comme *fournisseur*.
 
@@ -42,7 +42,7 @@ Pour plus d’informations, consultez [vue d’ensemble des propriétés UI Auto
 
 ## <a name="msaa-roles-and-ui-automation-control-patterns"></a>Rôles MSAA et modèles de contrôle UI Automation
 
-Microsoft a conçu le modèle d’objet Microsoft Active Accessibility en même temps que Windows 95. Le modèle est basé sur des « rôles » définis il y a une décennie, et vous ne pouvez pas prendre en charge de nouveaux comportements de l’interface utilisateur ou fusionner deux ou plusieurs rôles ensemble. Il n’existe pas de modèle d’objet de texte, par exemple, pour aider les technologies d’assistance à gérer du contenu Web complexe. UI Automation expose ces limitations en introduisant des modèles de contrôle qui permettent aux objets de prendre en charge plusieurs rôles, et le modèle de contrôle de [texte](uiauto-implementingtextandtextrange.md) UI Automation offre un modèle d’objet de texte à part entière.
+microsoft a conçu le modèle d’objet microsoft Active Accessibility en même temps que Windows version de 95. Le modèle est basé sur des « rôles » définis il y a une décennie, et vous ne pouvez pas prendre en charge de nouveaux comportements de l’interface utilisateur ou fusionner deux ou plusieurs rôles ensemble. Il n’existe pas de modèle d’objet de texte, par exemple, pour aider les technologies d’assistance à gérer du contenu Web complexe. UI Automation expose ces limitations en introduisant des modèles de contrôle qui permettent aux objets de prendre en charge plusieurs rôles, et le modèle de contrôle de [texte](uiauto-implementingtextandtextrange.md) UI Automation offre un modèle d’objet de texte à part entière.
 
 ## <a name="object-model-navigation"></a>Navigation dans le modèle objet
 
@@ -58,11 +58,11 @@ Avec UI Automation, à mesure que de nouveaux éléments d’interface utilisate
 
 ## <a name="transitioning-from-msaa"></a>Transition depuis MSAA
 
-L’infrastructure de l’API d’automatisation Windows assure la prise en charge de la transition des serveurs Microsoft Active Accessibility aux fournisseurs UI Automation. L’interface [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) permet d’ajouter à la prise en charge des propriétés UI Automation et des modèles de contrôle spécifiques à des serveurs Microsoft Active Accessibility hérités sans avoir à réécrire la totalité de l’implémentation. L’interface **IAccessibleEx** permet également aux clients Microsoft Active Accessibilitys in-process d’accéder directement aux interfaces du fournisseur UI Automation, plutôt qu’à l’aide des interfaces du client UI Automation. Pour plus d’informations, consultez [l’interface IAccessibleEx](iaccessibleex.md).
+l’infrastructure de l’API automation Windows fournit la prise en charge de la transition des serveurs Microsoft Active Accessibility aux fournisseurs UI automation. L’interface [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) permet d’ajouter à la prise en charge des propriétés UI Automation et des modèles de contrôle spécifiques à des serveurs Microsoft Active Accessibility hérités sans avoir à réécrire la totalité de l’implémentation. L’interface **IAccessibleEx** permet également aux clients Microsoft Active Accessibilitys in-process d’accéder directement aux interfaces du fournisseur UI Automation, plutôt qu’à l’aide des interfaces du client UI Automation. Pour plus d’informations, consultez [l’interface IAccessibleEx](iaccessibleex.md).
 
 ## <a name="choosing-microsoft-active-accessibility-ui-automation-or-iaccessibleex"></a>Choix de Microsoft Active Accessibility, UI Automation ou IAccessibleEx
 
-Cette section vous aide à déterminer la solution API d’automatisation Windows à utiliser pour implémenter un produit de technologie d’assistance ou à rendre votre application accessible aux produits de technologie d’assistance.
+cette section vous aide à déterminer quelle solution API d’automatisation d’Windows utiliser pour implémenter un produit de technologie d’assistance ou pour rendre votre application accessible aux produits de technologie d’assistance.
 
 ### <a name="new-applications-and-controls"></a>Nouvelles applications et contrôles
 
@@ -87,7 +87,7 @@ Pour plus d’informations, consultez [l’interface IAccessibleEx](iaccessiblee
 
 <dl> <dt>
 
-[Vue d’ensemble de l’API Windows Automation](windows-automation-api-overview.md)
+[Windows Vue d’ensemble de l’API Automation](windows-automation-api-overview.md)
 </dt> <dt>
 
 [Microsoft Active Accessibility](microsoft-active-accessibility.md)
@@ -99,6 +99,6 @@ Pour plus d’informations, consultez [l’interface IAccessibleEx](iaccessiblee
 [Interface IAccessibleEx](iaccessibleex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

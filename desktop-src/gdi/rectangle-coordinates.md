@@ -4,12 +4,12 @@ ms.assetid: 93c63dcb-6c8e-4c8b-aa19-6f8952d75e2e
 title: Coordonnées des rectangles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb8a3fbc3f42c6d69a3d0eac6555b85fbfc1eecb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bf39ba5676b56fc3b9a32fbdd002944955d9e977e93eb4a7943c8a07be75946
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092789"
 ---
 # <a name="rectangle-coordinates"></a>Coordonnées des rectangles
 

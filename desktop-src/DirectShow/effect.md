@@ -1,20 +1,20 @@
 ---
-description: Résultat
+description: Effet
 ms.assetid: 5674901e-6646-4243-8ef9-5784ceae4bdb
-title: Résultat
+title: Effet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afb2a79104b5d59af79b559ac934dec7b62b9ce
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fab481317936b59c0c7cf0d4ad3041aba37a85c93aa6d4dc3b3c93e671393265
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965479"
 ---
-# <a name="effect"></a>Résultat
+# <a name="effect"></a>Effet
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

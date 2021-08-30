@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 0aad6cbcd21830ad127b9537749dfb1c05a4c9ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ca5e71de36503406e5cc45f136fc7e86eb3ec2cc0324d4a1a75d81cf1bc6fa4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100779"
 ---
 # <a name="keyusageisdataenciphermentenabled-property"></a>KeyUsage. IsDataEnciphermentEnabled, propriété
 
@@ -45,7 +45,7 @@ Si la **valeur est true**, le bit DataEncipherment est défini.
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
