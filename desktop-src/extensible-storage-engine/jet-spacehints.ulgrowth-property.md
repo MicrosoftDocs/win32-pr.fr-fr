@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 946975a1777778871ecb8ae66c8e567e7c2ffcd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 293450e968092443021817037c0da1bde3c4e04870dfa0eee4ae9bcb3deea2af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016439"
 ---
 # <a name="jet_spacehintsulgrowth-property"></a>JET_SPACEHINTS. ulGrowth, propriété
 

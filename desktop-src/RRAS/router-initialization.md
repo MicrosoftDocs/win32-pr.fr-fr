@@ -6,12 +6,12 @@ keywords:
 - routeurs RRAS, initialisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f4d45c10ef7b44b6dfe9d2d84149c77c81c5752
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf3cbb55e4488da750a0fb8e8f813a5a5116a1d9e1caadad81eaefe4e12a79eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081109"
 ---
 # <a name="router-initialization"></a>Initialisation du routeur
 
@@ -25,9 +25,9 @@ Les gestionnaires de routeur examinent les informations globales reçues de DIM.
 
 À chaque étape, les informations transmises à l’entité suivante sont opaques pour l’entité qui le précède. Autrement dit, DIM n’interprète pas les informations globales pour le gestionnaire de routeur IP, au-delà du fait que les informations sont destinées au gestionnaire de routeur IP. De même, le gestionnaire de routeur IP n’interprète pas les informations spécifiques au protocole OSPF au-delà du fait qu’il s’agit d’informations OSPF.
 
- 
+ 
 
- 
+ 
 
 
 

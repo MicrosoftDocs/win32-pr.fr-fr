@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2ca929459658af64243e8895f97b81cfd18e1f0e6cde9349dc4cba5625cb54c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5852f819bbfbd6929888f3a89e2882255386de25
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119283"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623135"
 ---
 # <a name="span-idvspixenginepixenginepoint4dspanpixenginepoint4d-structure"></a><span id="vspixengine.pixenginepoint4d"></span>PixEnginePoint4D, structure
 
@@ -51,7 +51,7 @@ Valeur du composant W homogène.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 
