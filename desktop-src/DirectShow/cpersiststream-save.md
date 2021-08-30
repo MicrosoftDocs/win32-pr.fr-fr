@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c16e4820f846d2d60382fabd6aafe3ad82880193
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 66822a789872ef166d5c5476c496a2543d7896bbba65eddeecf0556ce64ba89f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915569"
 ---
 # <a name="cpersiststreamsave-method"></a>CPersistStream. Save, méthode
 
@@ -61,7 +61,7 @@ Indicateur qui spécifie s’il faut réinitialiser l’indicateur de modificati
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode **IPersistStream :: Save** . Il appelle **writeInt** avec la version logicielle, appelle [**CPersistStream :: WriteToStream**](cpersiststream-writetostream.md) avec le flux dans *pstm*, puis réinitialise **mPS \_ fDirty**.
 
@@ -71,7 +71,7 @@ Cette fonction membre implémente la méthode **IPersistStream :: Save** . Il a
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>PStream. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Pstream. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

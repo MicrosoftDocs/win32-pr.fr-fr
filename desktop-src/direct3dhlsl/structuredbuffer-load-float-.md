@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 883d483044a27e35848457e70e22888dd5ad6320
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 4e68ea973edfbcdf3caa8bae0c5ff92693ac15ffccf5230bbf5dcf30d83a9bae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095029"
 ---
 # <a name="structuredbufferloadint-function"></a>StructuredBuffer :: Load (int), fonction
 
@@ -54,13 +54,13 @@ Tapez :
 
 Le type de retour correspond au type dans la déclaration pour l’objet [**StructuredBuffer**](sm5-object-structuredbuffer.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

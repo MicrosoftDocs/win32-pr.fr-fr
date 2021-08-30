@@ -4,12 +4,12 @@ ms.assetid: c7b6ea86-e919-45b8-a1f9-bd18c3aed163
 title: Événements de source de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c40755a32f610b33ef3a5c66d3acb448223813
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fee97d0d13aa96b4b0c480535836e827e9cdea47a551c371082d71a65c1c8021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106527263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941639"
 ---
 # <a name="media-source-events"></a>Événements de source de média
 

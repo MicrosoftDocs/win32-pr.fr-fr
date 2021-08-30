@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 1b5dc9620f3b1860b27af973432aa4218c05b63b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68e3f3608ac1aeff0f6d54ee7c94c39b76b0df08bb7dc41b05063f9cf53c48a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036839"
 ---
 # <a name="pf_handoffset-structure"></a>PF \_ HANDOFFSET, structure
 
@@ -54,7 +54,7 @@ Tableau de structures [ \_ HANDOFFENTRY PF](pf-handoffentry.md) qui définissent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La [structure \_ PARSERINFO de PF](pf-parserinfo.md) utilise la structure **\_ HANDOFFSET de PF** pour répertorier les éléments suivants :
 

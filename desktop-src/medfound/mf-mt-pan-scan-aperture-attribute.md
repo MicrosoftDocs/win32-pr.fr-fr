@@ -4,12 +4,12 @@ ms.assetid: faa577fd-6572-46b9-9c6c-f91c47832cb5
 title: Attribut MF_MT_PAN_SCAN_APERTURE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4a798ba96315126daab94ba92e8791bfeac77db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61d9b8d4ed5e8fe8887c229d83ffc276bf4d90b968834161ab60cc5d102095bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940609"
 ---
 # <a name="mf_mt_pan_scan_aperture-attribute"></a>Attribut d’ouverture de l' \_ \_ analyse panoramique MF MT \_ \_
 
@@ -19,7 +19,7 @@ Définit l’ouverture Pan/Scan, qui est la région 4 × 3 de la vidéo qui doit
 
 Tableau d’octets
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de l’attribut est une structure [**MFVideoArea**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea) .
 
@@ -37,8 +37,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

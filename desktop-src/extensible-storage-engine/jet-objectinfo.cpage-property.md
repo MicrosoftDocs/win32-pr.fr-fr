@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 57785f95d78f6059e7f34f2b8cc97cd7eaa6596e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00d51554f870d0e608ab1997b9ee0f6dd73a1c49d3000b0fdf2173b9f642268c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093579"
 ---
 # <a name="jet_objectinfocpage-property"></a>JET_OBJECTINFO. cPage, propriété
 

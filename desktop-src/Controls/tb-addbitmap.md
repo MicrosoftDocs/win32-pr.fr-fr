@@ -3,7 +3,7 @@ title: Message TB_ADDBITMAP (commctrl. h)
 description: Ajoute une ou plusieurs images à la liste des images de bouton disponibles pour une barre d’outils.
 ms.assetid: 9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a
 keywords:
-- TB_ADDBITMAP les contrôles de message Windows
+- TB_ADDBITMAP les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d83cba4b4dec9b490a3e8f41db9cc7721dd23b08
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61b024c224ab305c4a13942c62a2de8d769d2f23b82d21ef295e024bae82f563
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919229"
 ---
 # <a name="tb_addbitmap-message"></a>TO \_ ADDBITMAP message
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**TBADDBITMAP**](/windows/win32/api/commctrl/ns-com
 
 Retourne l’index de la première nouvelle image en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la barre d’outils a été créée à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , vous devez envoyer le message [**to \_ BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) à la barre d’outils avant d’envoyer **to \_ ADDBITMAP**.
 
@@ -80,8 +80,8 @@ int index = SendMessage (hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&tb);
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

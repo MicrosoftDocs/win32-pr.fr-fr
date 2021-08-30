@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd6ee2ac155aa3fc4873ee1a5eb890774b50978
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a28b034fd5a6a66f6984a279bc317b629972dedee2962d2466975fc69476a445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009969"
 ---
 # <a name="imsrdpclient2connectedstatustext-property"></a>IMsRdpClient2 :: ConnectedStatusText, propriété
 
@@ -95,11 +95,11 @@ La propriété **ConnectedStatusText** contient le texte affiché dans la zone c
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Texte à afficher dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté. Il s’agit du texte qui est visible, par exemple, lorsque l’utilisateur bascule le contrôle en mode plein écran dans un navigateur Web, un scénario qui laisse une partie du contrôle hébergé dans le navigateur.
 
-La méthode **obtenir \_ ConnectedStatusText** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pConnectedStatusText* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Cela n’est pas nécessaire pour les Visual Basic et les clients de script.
+La méthode **obtenir \_ ConnectedStatusText** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pConnectedStatusText* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . cela n’est pas nécessaire pour les Visual Basic et les clients de script.
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté. Vous pouvez vérifier si le contrôle est connecté en appelant la méthode [**IMsTscAx :: \_ Connect Connected**](imstscax-connected.md) .
 

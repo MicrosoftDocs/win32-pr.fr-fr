@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 97a300a7d47c0858aee7f93e1ff859ff6344866cb1155018f19b80f06142ecc9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 97a76cbab7f591f353c05714dae551b873b74e88
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119853344"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626215"
 ---
 # <a name="span-idvspixengineeventcolumnidspaneventcolumnid-enumeration"></a><span id="vspixengine.eventcolumnid"></span>Énumération EVENTCOLUMNID
 
 Énumération utilisée pour indiquer des ID de colonne connus ; Il s’agit d’ID de colonne que toutes les implémentations doivent prendre en charge.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -69,7 +69,7 @@ ID qui correspond à l’ID de thread.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

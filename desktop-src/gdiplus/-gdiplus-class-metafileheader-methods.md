@@ -4,12 +4,12 @@ ms.assetid: 3a42418c-820b-46f6-bb7f-48c82520cd94
 title: Méthodes MetafileHeader
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4f9f0d4e2c7327f1ebb50aeb73aa1813ecfc0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 3dbab1313a418fe29e760829550e05b305eda967c33820463681e383e587080d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944129"
 ---
 # <a name="metafileheader-methods"></a>Méthodes MetafileHeader
 

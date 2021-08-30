@@ -8,12 +8,12 @@ keywords:
 - interpolation de frame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c62f95322920576eec0f10f3e4d61a279fdc4cf
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9b10691bd2a1f3e6257810efd1e243d099cd4cfa85f0b2522369786602792614
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007009"
 ---
 # <a name="frame-interpolation"></a>Interpolation de frame
 
@@ -21,7 +21,7 @@ L’interpolation de frames est le processus de création de trames vidéo inter
 
 Comme il s’agit d’une fonctionnalité de décodage, elle n’implique aucune option d’encodage spéciale et n’ajoute aucune surcharge au contenu. L’interpolation de frame est spécifiée en tant que paramètre de sortie dans l’objet lecteur.
 
-Seul le codec Windows Media Video 9 prend en charge l’interpolation de trame.
+seul le codec Windows Media Video 9 prend en charge l’interpolation de trame.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -36,9 +36,9 @@ Seul le codec Windows Media Video 9 prend en charge l’interpolation de trame.
 [**Paramètres de sortie**](output-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

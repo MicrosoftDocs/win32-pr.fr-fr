@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: dcdf88c8bb8b4b4a42ee88a6041e1b151e855c63
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fac461185840f836ec0bdec02f7cdbb3ebd06bf0a190b05e465378bd85f231ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046349"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemsnapshotservice-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualSystemSnapshotService
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

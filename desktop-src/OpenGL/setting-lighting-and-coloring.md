@@ -7,20 +7,20 @@ keywords:
 - éclairage OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e7434a1341c29388b7ae4a393dba8544126a38
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f0f262ea690d97b88a1d2935e0133651719276ff16a9f34b592a10b9fc49983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776649"
 ---
 # <a name="setting-lighting-and-coloring"></a>Définition de l’éclairage et de la coloration
 
-En plus de spécifier les couleurs et les vecteurs normaux, vous pouvez définir les conditions d’éclairage souhaitées avec [**\* GlLight**](gllight-functions.md) et [**glLightModel \***](gllightmodel-functions.md), ainsi que les propriétés de matériau souhaitées avec [**glMaterial \***](glmaterial-functions.md). Les fonctions associées pour contrôler la façon dont les calculs d’éclairage sont effectués sont [**glShadeModel**](glshademodel.md), [**glFrontFace**](glfrontface.md)et [**glColorMaterial**](glcolormaterial.md).
+En plus de spécifier les couleurs et les vecteurs normaux, vous pouvez définir les conditions d’éclairage souhaitées avec [ * *glLight \** _](gllight-functions.md) et [_*glLightModel \**_](gllightmodel-functions.md), ainsi que les propriétés de matériau souhaitées avec [_*glMaterial \**_](glmaterial-functions.md). Les fonctions associées pour contrôler la façon dont les calculs d’éclairage sont effectués incluent [_ *glShadeModel* *](glshademodel.md), [**glFrontFace**](glfrontface.md)et [**glColorMaterial**](glcolormaterial.md).
 
- 
+ 
 
- 
+ 
 
 
 

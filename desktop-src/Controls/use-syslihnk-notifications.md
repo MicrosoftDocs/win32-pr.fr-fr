@@ -4,27 +4,27 @@ description: Deux messages de notification sont associés au contrôle SysLink \
 ms.assetid: 77E80EB2-180B-4EDD-9FB5-9930E8886CA6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 864a2b8942b1244be51f5c284e6ce07d973ed4db
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 2fb8a3c8f0f589e17e6fe413b8232876e131734aa053b9a091b83e7d94b14b7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "106511277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132059"
 ---
 # <a name="how-to-use-syslink-notifications"></a>Utilisation des notifications SysLink
 
 Deux messages de notification sont associés au contrôle SysLink : un pour la souris (un[clic nm ( \_ Syslink)](nm-click-syslink.md)) et l’autre pour le clavier ([ \_ retour nm](nm-return.md)).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -73,12 +73,12 @@ case WM_NOTIFY:
 [Utilisation des contrôles SysLink](using-syslink-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

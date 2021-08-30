@@ -4,12 +4,12 @@ ms.assetid: 946ab34a-f52a-4720-8516-cdcae2883d9b
 title: Fonctions d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3634996aa7217e88dab81dd65e5f61cbd8c015a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7eef1d7f6cb789809e32c0c93eb6d06689a4a3f163652cf90ec2ff890a321cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883959"
 ---
 # <a name="authentication-functions"></a>Fonctions d’authentification
 
@@ -160,7 +160,7 @@ Les fonctions suivantes assurent la prise en charge de la sécurité pour les me
 
 Les fonctions suivantes sont implémentées par les [packages de sécurité](#sspi-functions) contenus dans les packages d’authentification du [*fournisseur de support de sécurité*](/windows/desktop/SecGloss/s-gly) / [](/windows/desktop/SecGloss/a-gly) (SSP/APS).
 
-Dans les tableaux suivants, le premier ensemble de fonctions est implémenté par les packages de sécurité SSP/AP de Windows XP. Le deuxième ensemble de fonctions est implémenté par les packages de sécurité SSP/AP uniquement.
+dans les tableaux suivants, le premier ensemble de fonctions est implémenté par les packages de sécurité Windows XP SSP/AP. Le deuxième ensemble de fonctions est implémenté par les packages de sécurité SSP/AP uniquement.
 
 L' [*autorité de sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA) accède à ces fonctions à l’aide de la structure de [**\_ \_ table de fonctions SECPKG**](/windows/desktop/api/Ntsecpkg/ns-ntsecpkg-secpkg_function_table) fournie par la fonction [**SpLsaModeInitialize**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-splsamodeinitializefn) SSP/AP.
 
@@ -306,7 +306,7 @@ Les fonctions suivantes sont disponibles pour SSP/APs.
 | [**GetUserAuthData**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_get_user_auth_data)               | Retourne les données d’autorisation d’un utilisateur.<br/>                                                                                                                                                                                                                                                                                                              |
 | **GetUserCredentials**                                   | Pas encore implémenté.                                                                                                                                                                                                                                                                                                                                               |
 | [**ImpersonateClient**](/previous-versions/windows/desktop/legacy/aa375494(v=vs.85))           | Appelée par les [*packages de sécurité*](/windows/desktop/SecGloss/s-gly) pour emprunter l’identité de l’utilisateur du package.<br/>                                                                                                                                                                                                          |
-| [**MapBuffer**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_map_buffer)                           | Mappe une structure [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-secbuffer) dans l’espace d’adressage du package d’authentification du [*fournisseur de support de sécurité*](/windows/desktop/SecGloss/s-gly) / [](/windows/desktop/SecGloss/a-gly) (SSP/AP).<br/>              |
+| [**MapBuffer**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_map_buffer)                           | Cartes une structure [**SecBuffer**](/windows/desktop/api/Sspi/ns-sspi-secbuffer) dans l’espace d’adressage du package d’authentification du [*fournisseur de Support de sécurité*](/windows/desktop/SecGloss/s-gly) / [](/windows/desktop/SecGloss/a-gly) (SSP/AP).<br/>              |
 | [**OpenSamUser**](/windows/desktop/api/Ntsecpkg/nc-ntsecpkg-lsa_open_sam_user)                       | Récupère un handle vers un compte d’utilisateur dans la base de données du [*Gestionnaire de comptes de sécurité*](/windows/desktop/SecGloss/s-gly) (Sam).<br/>                                                                                                                                                               |
 | [**RegisterNotification**](/windows/win32/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification)     | Fournit un mécanisme par lequel le [*package de sécurité*](/windows/desktop/SecGloss/s-gly) est notifié. La notification peut se produire à intervalles fixes, lorsqu’un objet d’événement est signalé ou pendant certains événements système.<br/>                                                                                          |
 | **SaveSupplementalCredentials**                          | Obsolète. Ne pas utiliser.<br/>                                                                                                                                                                                                                                                                                                                                   |
@@ -338,7 +338,7 @@ Un [*package de sécurité*](/windows/desktop/SecGloss/s-gly) dans un package d�
 Une dll [*Gina*](/windows/desktop/SecGloss/g-gly) doit exporter les fonctions suivantes.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
@@ -391,7 +391,7 @@ Les fonctions suivantes offrent la possibilité de se connecter à un utilisateu
 [*Gina*](/windows/desktop/SecGloss/g-gly) Les dll peuvent appeler les fonctions de prise en charge [*Winlogon*](/windows/desktop/SecGloss/w-gly) suivantes.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
@@ -689,7 +689,7 @@ Le kit de développement logiciel (SDK) de carte à puce fournit les fonctions s
 | [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea)                                           | Remplacé par [**SCardUIDlgSelectCard**](/windows/desktop/api/Winscard/nf-winscard-scarduidlgselectcarda), qui affiche la boîte de dialogue **Sélectionner une carte** à puce.<br/>                                                                               |
 | [**SCardAccessStartedEvent**](/windows/desktop/api/Winscard/nf-winscard-scardaccessstartedevent)                           | Obtient un handle d’événement lorsque le démarrage d’un gestionnaire de ressources de carte à puce est signalé.                                                                                                                                 |
 | [**SCardAddReaderToGroup**](/windows/desktop/api/Winscard/nf-winscard-scardaddreadertogroupa)                               | Ajoute un [*lecteur*](/windows/desktop/SecGloss/r-gly) à un groupe de lecteurs.                                                                                                                       |
-| [**SCardAudit**](/windows/desktop/api/Winscard/nf-winscard-scardaudit)                                                     | Écrit des messages d’événements dans le journal des applications Windows Microsoft-Windows-SmartCard-audit/Authentication.                                                                                                               |
+| [**SCardAudit**](/windows/desktop/api/Winscard/nf-winscard-scardaudit)                                                     | écrit des messages d’événements dans le journal des applications Windows Microsoft-Windows-SmartCard-Audit/authentication.                                                                                                               |
 | [**SCardBeginTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardbegintransaction)                               | Démarre une [*transaction*](/windows/desktop/SecGloss/t-gly).                                                                                                                        |
 | [**SCardCancel**](/windows/desktop/api/Winscard/nf-winscard-scardcancel)                                                   | Met fin à toutes les actions en suspens dans un [*contexte*](/windows/desktop/SecGloss/c-gly).                                                                                                 |
 | **SCardCancelTransaction**                                                           | Réservé pour un usage futur.                                                                                                                                                                                             |
@@ -766,7 +766,7 @@ Voici d’autres fonctions utilisées pour l’authentification.
 | Fonction                                                                   | Description                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddSecurityPackage**](/windows/desktop/api/Sspi/nf-sspi-addsecuritypackagea)                           | Ajoute un [*fournisseur de support de sécurité*](/windows/desktop/SecGloss/s-gly) à la liste des fournisseurs pris en charge par [Microsoft Negotiate](microsoft-negotiate.md).<br/>                                                                                                                              |
-| [**ChangeAccountPassword**](/windows/desktop/api/Sspi/nf-sspi-changeaccountpassworda)                     | Modifie le mot de passe d’un compte de domaine Windows à l’aide du [fournisseur de support de sécurité](sspi.md)spécifié.<br/>                                                                                                                                                                                                                                         |
+| [**ChangeAccountPassword**](/windows/desktop/api/Sspi/nf-sspi-changeaccountpassworda)                     | modifie le mot de passe d’un compte de domaine Windows à l’aide du [fournisseur de Support de sécurité](sspi.md)spécifié.<br/>                                                                                                                                                                                                                                         |
 | [**CredMarshalTargetInfo**](/windows/desktop/api/NTSecPkg/nf-ntsecpkg-credmarshaltargetinfo)                     | Sérialise la cible spécifiée dans un tableau de valeurs d’octets.<br/>                                                                                                                                                                                                                                                                                           |
 | [**DeleteSecurityPackage**](/windows/desktop/api/Sspi/nf-sspi-deletesecuritypackagea)                     | Supprime un [*fournisseur de support de sécurité*](/windows/desktop/SecGloss/s-gly) de la liste des fournisseurs pris en charge par [Microsoft Negotiate](microsoft-negotiate.md).<br/>                                                                                                                         |
 | [**LsaManageSidNameMapping**](/previous-versions/windows/desktop/legacy/jj902653(v=vs.85))                 | Ajoute ou supprime les mappages de SID/noms de l’ensemble de mappages inscrit auprès du service de recherche LSA.<br/>                                                                                                                                                                                                                                                          |

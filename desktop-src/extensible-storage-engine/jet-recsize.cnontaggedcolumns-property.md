@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61ac6bc827c5fe96def43bc6d1ffa68f139a90c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89fb9e5872555c6bd16f8ffa75711b974ae566f1b0fd8f9652c3eec2435ca7c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093439"
 ---
 # <a name="jet_recsizecnontaggedcolumns-property"></a>JET_RECSIZE. cNonTaggedColumns, propriété
 

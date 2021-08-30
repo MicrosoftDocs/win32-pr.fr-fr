@@ -4,12 +4,12 @@ ms.assetid: e0917a8c-f43a-412d-9b91-9d5f80779f41
 title: Attribut de contrôle FixedVolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c524bd228d19dbef823df00eff83e34df503a438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d872c4bf891aaa3d93a755058b0047598cb80b0e07629cca7f8f8fc981af8ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828849"
 ---
 # <a name="fixedvolume-control-attribute"></a>Attribut de contrôle FixedVolume
 
@@ -39,7 +39,7 @@ Si ce bit n’est pas défini, le contrôle répertorie les volumes dans l’ins
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit FixedVolume dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

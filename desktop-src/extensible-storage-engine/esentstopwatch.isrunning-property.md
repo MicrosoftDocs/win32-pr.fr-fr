@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3ebd99a742794dbe7d482db7eb4345b1ff41a46e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b090120ad79fa5f66934d98985401fc2dd9f778ca2d1ee6268560e533e9ceb2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093949"
 ---
 # <a name="esentstopwatchisrunning-property"></a>EsentStopwatch. IsRunning, propriété
 

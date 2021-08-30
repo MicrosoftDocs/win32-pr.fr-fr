@@ -3,7 +3,7 @@ title: Événement CurrentPlaylistItemAvailable de l’objet AxWindowsMediaPlaye
 description: L’événement CurrentPlaylistItemAvailable se produit lorsque la sélection actuelle est disponible. | Événement CurrentPlaylistItemAvailable de l’objet AxWindowsMediaPlayer
 ms.assetid: 101807c9-b00f-4351-a9a3-5413a52496f4
 keywords:
-- Événement CurrentPlaylistItemAvailable de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement CurrentPlaylistItemAvailable de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be9362a569fe8296284d92204628627c74ae3b44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e80eac2720d7035d68fa3e94efcaf3205287cd04795a6ccf99c36106d797a8a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098779"
 ---
 # <a name="currentplaylistitemavailable-event-of-the-axwindowsmediaplayer-object"></a>Événement CurrentPlaylistItemAvailable de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de la sélection actuelle peut être utilisé pour récupérer l’interface **IWMPPlaylist** correspondante à partir de l’interface IWMPPlaylistArray qui est retournée à partir de la méthode IWMPPlaylistCollection. GetByName.
 
@@ -73,7 +73,7 @@ Le nom de la sélection actuelle peut être utilisé pour récupérer l’interf
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)

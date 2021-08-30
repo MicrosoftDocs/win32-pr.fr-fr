@@ -4,12 +4,12 @@ ms.assetid: 66a70388-f975-45c5-9c34-d56b903b5a06
 title: System. Search. Résumé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5232c121bdb410cc59e8a34711312a23c0c4f281
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8124c08f98b99f6c7b1a920c124972142ed80b7552ef3399686fd817365340a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774539"
 ---
 # <a name="systemsearchautosummary"></a>System. Search. Résumé
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

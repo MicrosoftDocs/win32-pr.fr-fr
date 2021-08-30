@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, liste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aac6ecb2e0fc7092507816cf9bbea4f450121c1ec8a2e6a57db3d377506af9d7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d08b052811e2ebf61214ce8b146740943f4e3d14
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570459"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471171"
 ---
 # <a name="list-control-type"></a>List (type de contrôle)
 
@@ -50,43 +50,12 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Contient les éléments qui correspondent aux contrôles.</td>
-<td>Supprime les informations redondantes de l’arborescence pour permettre aux technologies d’assistance d’utiliser le plus petit ensemble d’informations qui est significatif pour l’utilisateur final.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>List
-<ul>
-<li>DataItem (0 ou plus)</li>
-<li>ListItem (0 ou plus)</li>
-<li>Group (0 ou plus)</li>
-<li>ScrollBar (0, 1 ou 2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>DataItem (0 ou plus)</li>
-<li>ListItem (0 ou plus)</li>
-<li>Group (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| Contient les éléments qui correspondent aux contrôles. | Supprime les informations redondantes de l’arborescence pour permettre aux technologies d’assistance d’utiliser le plus petit ensemble d’informations qui est significatif pour l’utilisateur final. | 
+| <ul><li>List<ul><li>DataItem (0 ou plus)</li><li>ListItem (0 ou plus)</li><li>Group (0 ou plus)</li><li>ScrollBar (0, 1 ou 2)</li></ul></li></ul> | <ul><li>List<ul><li>DataItem (0 ou plus)</li><li>ListItem (0 ou plus)</li><li>Group (0 ou plus)</li></ul></li></ul> | 
+
 
 
 

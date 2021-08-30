@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e14812fda7971ffe045e8e36752c983cf5350402
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c128cefe67da15f017ae21dfd7293b86c0deedf04eb1da35018475a2ed37d002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918809"
 ---
 # <a name="cim_unitarycomputersystem-class"></a>\_Classe CIM UnitaryComputerSystem
 
@@ -774,7 +774,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ UnitaryComputerSystem** est dérivée de [**CIM \_ ComputerSystem**](cim-computersystem.md).
 

@@ -4,18 +4,18 @@ ms.assetid: a91c1ffe-1bdd-49bb-aa6a-71667a1ed812
 title: Action WriteEnvironmentStrings
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc3a9d64a1140fc883d94e8d3733608d29dc2d39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59686dc6c9d4982e2705b610e871cf0ead029bf4672b98244a43d9602df88155
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786499"
 ---
 # <a name="writeenvironmentstrings-action"></a>Action WriteEnvironmentStrings
 
 L’action WriteEnvironmentStrings modifie les valeurs des variables d’environnement.
 
-Les variables d’environnement ne changent pas pour l’installation en cours lorsque l’action WriteEnvironmentStrings ou l' [action RemoveEnvironmentStrings](removeenvironmentstrings-action.md) est exécutée. Sur Windows 2000, Windows Server 2003, Windows XP et Windows Vista, ces informations sont stockées dans le registre et un message [**WM \_ SETTINGCHANGE**](../winmsg/wm-settingchange.md) est envoyé pour informer le système des modifications une fois l’installation terminée. Un autre processus peut recevoir la notification des modifications en gérant ces messages. Aucun message n’est envoyé si le redémarrage du système est en attente. Un package peut utiliser la propriété [**MsiSystemRebootPending**](msisystemrebootpending.md) pour vérifier si un redémarrage du système est en attente.
+Les variables d’environnement ne changent pas pour l’installation en cours lorsque l’action WriteEnvironmentStrings ou l' [action RemoveEnvironmentStrings](removeenvironmentstrings-action.md) est exécutée. sur Windows 2000, Windows Server 2003, Windows XP et Windows Vista, ces informations sont stockées dans le registre et un message [**WM \_ SETTINGCHANGE**](../winmsg/wm-settingchange.md) est envoyé pour informer le système des modifications une fois l’installation terminée. Un autre processus peut recevoir la notification des modifications en gérant ces messages. Aucun message n’est envoyé si le redémarrage du système est en attente. Un package peut utiliser la propriété [**MsiSystemRebootPending**](msisystemrebootpending.md) pour vérifier si un redémarrage du système est en attente.
 
 Le programme d’installation exécute l’action WriteEnvironmentStrings uniquement lors de l’installation ou de la réinstallation d’un composant, et exécute l' [action RemoveEnvironmentStrings](removeenvironmentstrings-action.md) uniquement pendant la suppression d’un composant.
 

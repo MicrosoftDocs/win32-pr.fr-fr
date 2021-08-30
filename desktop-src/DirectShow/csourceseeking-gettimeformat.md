@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4a56f9a490699d68d7a043e9385ad458562058f5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a7e1bf5765a4d3069d1298e0f39043429299c327d514f747bb6b1e658ac49cab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054269"
 ---
 # <a name="csourceseekinggettimeformat-method"></a>Méthode CSourceSeeking. GetTimeFormat
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit un GUID de format d’heure. Consultez [*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                               | Description                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>      | Succès<br/>                |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Valeur de pointeur **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le seul format d’heure pris en charge par la classe de base est le format d’heure du \_ \_ \_ temps de support (unités de 100 nanosecondes).
 
@@ -74,7 +74,7 @@ Le seul format d’heure pris en charge par la classe de base est le format d’
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

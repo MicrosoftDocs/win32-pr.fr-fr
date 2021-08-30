@@ -4,12 +4,12 @@ description: Messages de contrôle de radiomessagerie
 ms.assetid: 9f0f9f7c-49c5-4c44-9c0a-692a62383550
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33689132216ac96899339aa482c3f26c7f69a0d5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: baf20a4322dc8bf51ec179c3136a3efb3c2a55a871d67c3663be746581e49407
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970899"
 ---
 # <a name="pager-control-messages"></a>Messages de contrôle de radiomessagerie
 

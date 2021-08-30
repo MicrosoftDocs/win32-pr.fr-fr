@@ -20,12 +20,12 @@ ms.topic: article
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 973db6c56dda5bde8614dffa13f461761934fcde
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 199348fc23282a104c66f153b5c1ea43027464e5aa2522db61c6658d3425bdc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106535728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007689"
 ---
 # <a name="color-space-type-identifiers"></a>Identificateurs de types d’espace de couleurs
 
@@ -120,7 +120,7 @@ Obtenir un tableau d’espace colorimétrique CIEBasedCMYK à partir du profil C
 [Concepts de base de la gestion des couleurs](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Constantes ICM](wcs-constants.md)
+[constantes ICM](wcs-constants.md)
 </dt> </dl>
 
  

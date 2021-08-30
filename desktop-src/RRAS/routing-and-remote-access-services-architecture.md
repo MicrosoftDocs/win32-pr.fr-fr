@@ -1,21 +1,21 @@
 ---
-title: Architecture des services de routage et d’accès à distance
-description: L’illustration suivante présente une vue architecturale générale du routeur Windows 2000.
+title: Architecture du Access Services du routage et du service distant
+description: l’illustration suivante présente une vue architecturale générale du routeur Windows 2000.
 ms.assetid: 599435e2-e2f3-4632-8a79-441172aacf13
 keywords:
-- Routage et accès à distance service RRAS, architecture des services de routage et d’accès à distance RRAS
+- routage et accès à distance Service rras, routage et Architecture Access Services distante rras
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3e72f7c61bc9cb558b020c3470718a7f419c04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4dba268c1ac40b1a5ff7bdea00209975c46756f9fedc6d942f761c6ab84799f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036082"
 ---
-# <a name="routing-and-remote-access-services-architecture"></a>Architecture des services de routage et d’accès à distance
+# <a name="routing-and-remote-access-services-architecture"></a>Architecture du Access Services du routage et du service distant
 
-L’illustration suivante présente une vue architecturale générale du routeur Windows 2000.
+l’illustration suivante présente une vue architecturale générale du routeur Windows 2000.
 
 Les composants spécifiques à la famille de protocoles IP sont affichés en gris clair. Les composants spécifiques à la famille de protocoles IPX sont affichés en gris foncé. Les composants généraux de toutes les familles de protocoles ne sont pas ombrés.
 
@@ -29,9 +29,9 @@ Interfaces DIM (Dynamic interface Manager) avec les services PPP et TAPI afin de
 
 ![vue architecturale générale du routeur Windows 2000](images/rtarch.png)
 
- 
+ 
 
- 
+ 
 
 
 

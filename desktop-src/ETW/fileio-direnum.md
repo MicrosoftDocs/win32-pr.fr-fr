@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 12f8fd8b4629ac11e7316caae0690982c210e4bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae510da16d3b0b53ddf0c5643cab17878dbc42344650d438ee1914f2b3e05ec4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829799"
 ---
 # <a name="fileio_direnum-class"></a>FileIo \_ DirEnum, classe
 
@@ -190,18 +190,18 @@ Identificateur du thread qui effectue l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’énumération de répertoires et les événements de notification d’annuaire sont enregistrés lorsqu’un répertoire est énuméré ou lorsqu’une notification de modification de répertoire est envoyée aux écouteurs inscrits, respectivement.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4d028634364ca59ae293d9ebb60a464974ccd74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8199543491c27272cea96e994e9fc301c0ed53e2783fb2abff5677241c75dde4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053609"
 ---
 # <a name="ctransforminputpinbeginflush-method"></a>Méthode CTransformInputPin. BeginFlush
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                             |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                     |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                     |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | La broche de sortie n’est pas connectée.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**CBaseInputPin :: BeginFlush**](cbaseinputpin-beginflush.md) du pin. Elle appelle ensuite la méthode [**CTransformFilter :: BeginFlush**](ctransformfilter-beginflush.md) du filtre pour remettre l’appel en aval.
 
@@ -65,7 +65,7 @@ Cette méthode appelle la méthode [**CBaseInputPin :: BeginFlush**](cbaseinput
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

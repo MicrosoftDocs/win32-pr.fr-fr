@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: 04e935c668e858ae3d22936e8a63f9116ebd6ab2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa1fa4636b0302e058bc0a308e5d87da11d9bec3d12d678b9eb6057521479689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938589"
 ---
 # <a name="itipautocompleteclientpreferredrects-method"></a>ITipAutocompleteClient ::P méthode referredRects
 
@@ -78,7 +78,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                                  | Description                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                                                                                                                                                                                                                                                            |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                                                                                                                                                                                                                                                            |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Appelez la [**méthode ITipAutocompleteClient :: RequestShowUI**](itipautocompleteclient-requestshowui.md) pour définir la fenêtre Liste de saisie semi-automatique des fenêtres contextuelles avant d’appeler la [**méthode ITipAutocompleteClient ::P referredrects**](itipautocompleteclient-preferredrects.md).<br/> |
 | <dl> <dt>**E \_ échec**</dt> </dl>       | Une erreur non spécifiée s'est produite.<br/>                                                                                                                                                                                                                                      |
 
@@ -86,7 +86,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit de la méthode appelée par le fournisseur de saisie semi-automatique lorsqu’il est sur le présent d’afficher l’interface utilisateur de saisie semi-automatique. Le client modifie le rectangle préféré du fournisseur spécifié par *prcACList* à l’aide de l’argument *prcModified* .
 
@@ -98,7 +98,7 @@ Appelez la [**méthode ITipAutocompleteClient :: RequestShowUI**](itipautocompl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                       |
 | En-tête<br/>                   | <dl> <dt>TipAutoComplete. h (nécessite également PenInputPanel \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |

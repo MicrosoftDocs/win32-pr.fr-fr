@@ -1,6 +1,6 @@
 ---
 title: WMDRMCreateProvider, fonction (wmdrmsdk. h)
-description: La fonction WMDRMCreateProvider crée une fabrique de classes qui peut créer les autres objets des API étendues du client Windows Media DRM.
+description: la fonction WMDRMCreateProvider crée une fabrique de classes qui peut créer les autres objets du Windows les api étendues du Client DRM Media.
 ms.assetid: 25ec2fbf-136a-4f40-b2d3-f35b42178c60
 keywords:
 - WMDRMCreateProvider fonction Windows Media format
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdf7a102d969ce916f8a5692d994c183305409a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 82de65423d5bc6ad2fbd55e3d8e4c97e8f63f6f7d6b6203e092176a4afc0183c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006559"
 ---
 # <a name="wmdrmcreateprovider-function"></a>WMDRMCreateProvider fonction)
 
-La fonction **WMDRMCreateProvider** crée une fabrique de classes qui peut créer les autres objets des API étendues du client Windows Media DRM. Cette fonction ne nécessite pas de bibliothèque de stubs de la part de Microsoft et crée des objets qui ne prennent pas en charge les fonctionnalités DRM protégées.
+la fonction **WMDRMCreateProvider** crée une fabrique de classes qui peut créer les autres objets du Windows les api étendues du Client DRM Media. Cette fonction ne nécessite pas de bibliothèque de stubs de la part de Microsoft et crée des objets qui ne prennent pas en charge les fonctionnalités DRM protégées.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,7 +50,7 @@ Reçoit un pointeur vers l’interface [**IWMDRMProvider**](iwmdrmprovider.md) d
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

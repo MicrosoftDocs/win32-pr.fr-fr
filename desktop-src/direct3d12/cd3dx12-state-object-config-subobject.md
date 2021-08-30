@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/05/2021
-ms.openlocfilehash: 294dda04f9550e437f91f6f5595206a4113a975ee182ac900b6c4804b3100fb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 952bf1cd1b2833a4e4a2bf0a91892fbb1d6f797c
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118346559"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812853"
 ---
 # <a name="cd3dx12_state_object_config_subobject-class"></a>Classe CD3DX12_STATE_OBJECT_CONFIG_SUBOBJECT
 

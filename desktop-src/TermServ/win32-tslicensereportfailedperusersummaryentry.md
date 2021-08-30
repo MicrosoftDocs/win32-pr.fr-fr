@@ -18,12 +18,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f086d275c064f5df18ee01a3a38639a40913f3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3eefa2e4547bb42f2888fd1cc466e9a9abbb97f0b381f6fc439244bdb59a065
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008429"
 ---
 # <a name="win32_tslicensereportfailedperusersummaryentry-class"></a>\_Classe TSLicenseReportFailedPerUserSummaryEntry Win32
 

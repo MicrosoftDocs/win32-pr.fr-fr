@@ -4,12 +4,12 @@ ms.assetid: a96b04f6-504c-4fd1-b62e-c08ba2b616e5
 title: Fonction InitializeSecurityContext (NTLM) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: f858d765f9030f10ff94909e3b7b7ffa9fd1fcd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdda4ba83941291a4f72a53fd7a70e579e8410c1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210018"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470995"
 ---
 # <a name="initializesecuritycontext-ntlm-function"></a>Fonction InitializeSecurityContext (NTLM)
 
@@ -75,8 +75,19 @@ Indicateurs de bits qui indiquent les demandes pour le contexte. Tous les packag
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>Le [*package de sécurité*](../secgloss/s-gly.md) alloue des tampons de sortie pour vous. Lorsque vous avez fini d’utiliser les tampons de sortie, libérez-les en appelant la fonction [<strong>FreeContextBuffer</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-freecontextbuffer).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>Chiffrez les messages à l’aide de la fonction [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl> <dt><strong>ISC_REQ_CONNECTION</strong></dt> </dl></td><td>Le [*contexte de sécurité*](../secgloss/s-gly.md) ne gère pas les messages de mise en forme. Il s’agit de la valeur par défaut.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>Lorsque des erreurs se produisent, le tiers distant est averti.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>Signer des messages et vérifier des signatures à l’aide des fonctions [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD) et [<strong>MakeSignature</strong>] (makesignature.MD).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>La stratégie d’authentification mutuelle du service sera satisfaite.<br/><blockquote>[!Caution]<br />
-Cela ne signifie pas nécessairement que l’authentification mutuelle est effectuée, mais uniquement que la stratégie d’authentification du service est satisfaite. Pour vous assurer que l’authentification mutuelle est effectuée, appelez la fonction [<strong>QueryContextAttributes (NTLM)</strong>] (QueryContextAttributes--NTLM.MD).</blockquote><br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Détectez les messages relus qui ont été encodés à l’aide des fonctions [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD) ou [<strong>MakeSignature</strong>] (makesignature.MD).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Détecte les messages reçus en dehors de la séquence.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Prend en charge une connexion orientée flux.<br/></td></tr></tbody></table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl><dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt></dl> | Le [*package de sécurité*](../secgloss/s-gly.md) alloue des tampons de sortie pour vous. Lorsque vous avez fini d’utiliser les tampons de sortie, libérez-les en appelant la fonction [<strong>FreeContextBuffer</strong>](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .<br /> | 
+| <span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl><dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt></dl> | Chiffrez les messages à l’aide de la fonction [<strong>EncryptMessage</strong>](encryptmessage--general.md) .<br /> | 
+| <span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl><dt><strong>ISC_REQ_CONNECTION</strong></dt></dl> | Le [*contexte de sécurité*](../secgloss/s-gly.md) ne gère pas les messages de mise en forme. Cette valeur est la valeur par défaut.<br /> | 
+| <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl><dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt></dl> | Lorsque des erreurs se produisent, le tiers distant est averti.<br /> | 
+| <span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl><dt><strong>ISC_REQ_INTEGRITY</strong></dt></dl> | Signer des messages et vérifier des signatures à l’aide des fonctions [<strong>EncryptMessage</strong>](encryptmessage--general.md) et [<strong>MakeSignature</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl><dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt></dl> | La stratégie d’authentification mutuelle du service sera satisfaite.<br /><blockquote>[!Caution]<br />Cela ne signifie pas nécessairement que l’authentification mutuelle est effectuée, mais uniquement que la stratégie d’authentification du service est satisfaite. Pour vous assurer que l’authentification mutuelle est effectuée, appelez la fonction [<strong>QueryContextAttributes (NTLM)</strong>](querycontextattributes--ntlm.md) .</blockquote><br /> | 
+| <span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl><dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt></dl> | Détectez les messages relus qui ont été encodés à l’aide des fonctions [<strong>EncryptMessage</strong>](encryptmessage--general.md) ou [<strong>MakeSignature</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl><dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt></dl> | Détecte les messages reçus en dehors de la séquence.<br /> | 
+| <span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl><dt><strong>ISC_REQ_STREAM</strong></dt></dl> | Prend en charge une connexion orientée flux.<br /> | 
+
 
 
 
@@ -153,7 +164,7 @@ Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’he
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la fonction retourne l’un des codes de réussite suivants.
 
@@ -191,7 +202,7 @@ Si la fonction échoue, la fonction retourne l’un des codes d’erreur suivant
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant est chargé de déterminer si les attributs de contexte finaux sont suffisants. Si, par exemple, la confidentialité a été demandée mais n’a pas pu être établie, certaines applications peuvent choisir d’arrêter immédiatement la connexion.
 
@@ -242,8 +253,8 @@ Les appelants en mode noyau présentent les différences suivantes : le nom cib
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

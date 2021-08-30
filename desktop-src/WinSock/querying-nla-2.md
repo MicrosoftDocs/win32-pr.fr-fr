@@ -4,16 +4,16 @@ ms.assetid: 531b6269-5f35-44c1-ad0f-c5f103029893
 title: Interrogation de NLA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac7a4f57e14bb967b04d3a9fd6fe66717da3878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f10244eb4d3549db21287f57746a07d5363dc916e70ae141f941a4064e070be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097649"
 ---
 # <a name="querying-nla"></a>Interrogation de NLA
 
-Pour obtenir la notification des réseaux logiques invalidés, utilisez la fonction [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl) pour vous inscrire aux événements de changement d’emplacement réseau. Deux méthodes peuvent être utilisées pour déterminer si un emplacement réseau précédemment valide est devenu non valide : des méthodes d’interrogation ou une notification utilisant des e/s avec chevauchement ou une messagerie Windows.
+Pour obtenir la notification des réseaux logiques invalidés, utilisez la fonction [**WSANSPIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsanspioctl) pour vous inscrire aux événements de changement d’emplacement réseau. deux méthodes peuvent être utilisées pour déterminer si un emplacement réseau précédemment valide est devenu non valide : des méthodes d’interrogation ou une notification utilisant des e/s avec chevauchement ou la messagerie Windows.
 
 Les requêtes sont formées à l’aide des fonctions [**WSALookupServiceBegin**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicebegina), [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta) et [**WSALookupServiceEnd**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupserviceend) pour énumérer tous les réseaux logiques disponibles. L’utilisation de chacune de ces fonctions est expliquée individuellement dans le reste de cette section, en commençant par la fonction **WSALookupServiceBegin** .
 
@@ -51,7 +51,7 @@ Le handle de recherche retourné par NLA dans le paramètre *lphLookup* est priv
 
 NLA retourne la valeur zéro en cas de réussite, comme défini dans la page de référence de la fonction [**WSALookupServiceBegin**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicebegina) . Dans le cas contraire, NLA prend en charge les codes d’erreur suivants.
 
-| Error                    | Signification                                                                                                                                                     |
+| Erreur                    | Signification                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSANOTINITIALISED        | Un appel réussi à la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) pour initialiser NLA n’a pas été effectué.                                                   |
 | WSAEINVAL                | Un ou plusieurs paramètres ne sont pas valides, ou les paramètres spécifiés dans l’appel de fonction s’appliquent à des protocoles autres que l’adresse IP.                                         |
@@ -99,7 +99,7 @@ NLA retourne la valeur zéro en cas de réussite. Les clients d’NLA doivent co
 
 Sinon, l’appel de la fonction [**WSALookupServiceNext**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicenexta)pour NLA prend en charge les codes d’erreur suivants.
 
-| Error                    | Signification                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Erreur                    | Signification                                                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSANOTINITIALISED        | Un appel réussi à la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) qui a initialisé NLA n’a pas été effectué.                                                                                                                                                                                                                                                                                                |
 | \_descripteur WSA non valide \_     | Le descripteur de recherche fourni dans le paramètre *RECHERCHEH* n’était pas un handle NLA valide. Les clients doivent d’abord appeler la fonction [**WSALookupServiceBegin**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupservicebegina) et recevoir un handle NLA valide pour obtenir les résultats de la requête.                                                                                                                                                               |
@@ -114,11 +114,11 @@ Sinon, l’appel de la fonction [**WSALookupServiceNext**](/windows/desktop/api/
 
 ## <a name="step-3-terminate-the-query"></a>Étape 3 : terminer la requête
 
-Lorsque toutes les requêtes à NLA sont terminées et qu’une application n’exige plus l’utilisation de NLA, un appel à la fonction [**WSALookupServiceEnd**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupserviceend) doit être effectué. N’appelez pas **WSALookupServiceEnd** si l’application reçoit une notification de modification en fonction de la requête envoyée. Pour plus d’informations sur la réception de notifications, consultez [notification d’NLA](notification-from-nla-2.md) . Comme la plupart des fournisseurs de services Windows Sockets, NLA conserve un décompte de références pour ses clients. L’appel de la fonction **WSALookupServiceEnd** lorsque les requêtes à NLA sont effectuées permet de libérer les ressources système qui ne sont plus requises par NLA.
+Lorsque toutes les requêtes à NLA sont terminées et qu’une application n’exige plus l’utilisation de NLA, un appel à la fonction [**WSALookupServiceEnd**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupserviceend) doit être effectué. N’appelez pas **WSALookupServiceEnd** si l’application reçoit une notification de modification en fonction de la requête envoyée. Pour plus d’informations sur la réception de notifications, consultez [notification d’NLA](notification-from-nla-2.md) . comme la plupart des fournisseurs de services de sockets Windows, NLA conserve un décompte de références pour ses clients. L’appel de la fonction **WSALookupServiceEnd** lorsque les requêtes à NLA sont effectuées permet de libérer les ressources système qui ne sont plus requises par NLA.
 
 NLA prend en charge les codes d’erreur suivants pour les appels de fonction [**WSALookupServiceEnd**](/windows/desktop/api/Winsock2/nf-winsock2-wsalookupserviceend) .
 
-| Error                | Signification                                                                                                   |
+| Erreur                | Signification                                                                                                   |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | WSANOTINITIALISED    | Un appel réussi à la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) pour initialiser NLA n’a pas été effectué. |
 | \_descripteur WSA non valide \_ | Le handle fourni dans le paramètre *RECHERCHEH* n’était pas un handle NLA valide.                             |

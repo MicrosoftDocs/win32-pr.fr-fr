@@ -8,12 +8,12 @@ keywords:
 - enregistrements d’accès OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 851fac28cda979a383d183a12c79656bfebcbb0f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c42c057014a4f5a1533e1f5c42683b93f08c31c287dc29f56ea797a5b360d545
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776739"
 ---
 # <a name="selection"></a>Sélection
 
@@ -22,13 +22,13 @@ Selection retourne le contenu actuel de la pile de noms, qui est un tableau de n
 > [!Note]  
 > Appelez [**glSelectBuffer**](glselectbuffer.md) avant de mettre OpenGL en mode de sélection avec [**glRenderMode**](glrendermode.md). La totalité du contenu de la pile de noms n’est pas retournée tant que vous n’avez pas appelé **glRenderMode** pour utiliser OpenGL en mode de sélection.
 
- 
+ 
 
 Manipuler la pile de noms avec [**glInitNames**](glinitnames.md), [**glLoadName**](glloadname.md), [**glPushName**](glpushname.md)et [**glPopName**](glpopname.md). Vous pouvez également utiliser [**gluPickMatrix**](glupickmatrix.md) pour la sélection.
 
- 
+ 
 
- 
+ 
 
 
 

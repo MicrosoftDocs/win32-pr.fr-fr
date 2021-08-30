@@ -4,27 +4,27 @@ description: Cette rubrique montre comment utiliser les zones de travail d’aff
 ms.assetid: 7A803B66-7827-49A3-8D87-6A037C09A19A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8d3ed4142e6933e662f03f268723db145c7eb00
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6898603df0ce86d6b5da5e6e178ceaa85a9e3842925ca77fa90bbda990ba3085
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132069"
 ---
 # <a name="how-to-use-list-view-working-areas"></a>Comment utiliser List-View zones de travail
 
 Cette rubrique montre comment utiliser les zones de travail d’affichage de liste. Les zones de travail sont des zones virtuelles rectangulaires qui peuvent être utilisées pour organiser des éléments dans un contrôle List-affichage États. Une zone de travail n’est pas une fenêtre et ne peut pas avoir de bordure visible. Par défaut, le contrôle d’affichage de liste n’a pas de zones de travail. En créant une zone de travail, vous pouvez créer une bordure vide à gauche, en haut ou à droite des éléments ou provoquer l’affichage d’une barre de défilement horizontale quand il n’y en a pas normalement.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -153,9 +153,9 @@ int GetItemWorkingArea(HWND hWndListView, int iItem)
 [Utilisation de contrôles List-View](using-list-view-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

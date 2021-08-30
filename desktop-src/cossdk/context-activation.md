@@ -4,12 +4,12 @@ ms.assetid: e5602af2-5852-4c34-a792-6742e90b7d41
 title: Activation du contexte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a652615d6c1288887085c857817e32e3a3b4081c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ab785040e6cf28b609fe80d4160da90bd3fe640b2229cf982993c8573378e4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096849"
 ---
 # <a name="context-activation"></a>Activation du contexte
 

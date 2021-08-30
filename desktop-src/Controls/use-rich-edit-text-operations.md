@@ -4,12 +4,12 @@ description: Une application peut envoyer des messages pour récupérer ou Reche
 ms.assetid: 95D88F9A-3DD1-48E4-B6FF-3168F2D25846
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b54619e1ce5952b7c0d06527c6aca2402a4e714
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 91018dfd2c13c589530b9e3d5abe5399a8128bb5904e66c5aceacb692ae0d0ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132078"
 ---
 # <a name="how-to-use-rich-edit-text-operations"></a>Utilisation des opérations de modification de texte enrichi
 
@@ -21,16 +21,16 @@ Pour récupérer une plage de texte spécifiée, utilisez le message [**em \_ GE
 
 Vous pouvez rechercher une chaîne dans un contrôle Rich Edit à l’aide des [**messages \_ em TexteCherché**](em-findtext.md) ou [**em \_ FINDTEXTEX**](em-findtextex.md) , ou de leurs équivalents Unicode, [**em \_ FINDTEXTW**](em-findtextw.md) et [**em \_ FINDTEXTEXW**](em-findtextexw.md). La structure [**TexteCherché**](/windows/win32/api/richedit/ns-richedit-findtexta) utilisée avec les versions non étendues spécifie la plage de texte à rechercher et la chaîne à rechercher. Les versions étendues utilisent une structure [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) , qui spécifie les mêmes informations et reçoit également les points de début et de fin de la plage de caractères du texte trouvé. Vous pouvez également spécifier des options comme si la recherche respecte la casse.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -70,7 +70,7 @@ BOOL FindTextInSelection(HWND hRich, WCHAR* target)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Microsoft Rich Edit 3,0 prend également en charge la fonction de l’éditeur de méthode d’entrée (IME) HexToUnicode, qui permet à un utilisateur d’effectuer une conversion entre des valeurs hexadécimales et Unicode à l’aide de touches d’accès rapide. Pour plus d’informations, consultez [HEXTOUNICODE IME](/windows/desktop/Intl/hextounicode-ime).
 
@@ -81,9 +81,9 @@ Microsoft Rich Edit 3,0 prend également en charge la fonction de l’éditeur d
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

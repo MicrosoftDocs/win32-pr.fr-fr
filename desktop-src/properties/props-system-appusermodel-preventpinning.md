@@ -1,15 +1,15 @@
 ---
-description: Désactive la possibilité d’épingler un raccourci ou une fenêtre dans la barre des tâches ou dans le menu Démarrer. Cette propriété rend également l’élément inéligible pour l’inclusion dans la liste des plus fréquemment utilisés (MFU) du menu Démarrer.
+description: désactive la possibilité d’épingler un raccourci ou une fenêtre à la barre des tâches ou au menu Démarrer. cette propriété rend également l’élément inéligible pour l’inclusion dans la liste la plus fréquemment utilisée (MFU) du menu Démarrer.
 ms.assetid: 86239BF8-BCFC-4e76-BF94-5ABA4639562C
 title: System. AppUserModel. PreventPinning
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7804c615bcb35909610b06622bd25fe3dccdd0f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd697ac59980601e3f7389b9d42c8a01dc63dabe0354ca09795f8ec913a4def5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938649"
 ---
 # <a name="systemappusermodelpreventpinning"></a>System. AppUserModel. PreventPinning
 
@@ -43,7 +43,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

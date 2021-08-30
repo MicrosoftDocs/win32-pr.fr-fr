@@ -9,12 +9,12 @@ keywords:
 - DsAddSidHistory Active Directory, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6e987a55f7fe39a8e4705f6aca9e44189e0f7a2
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 796bd2bfb46ac8323a4fac7e9b6498a63faf58c8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122881832"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465616"
 ---
 # <a name="using-dsaddsidhistory"></a>Utilisation de DsAddSidHistory
 
@@ -78,16 +78,16 @@ HKEY_LOCAL_MACHINE
 
 La définition de cette valeur active les appels RPC sur le transport TCP. Cela est nécessaire car, par défaut, les interfaces SAMRPC sont accessibles à distance uniquement sur les canaux nommés. L’utilisation de canaux nommés aboutit à un système de gestion des informations d’identification adapté aux utilisateurs connectés de manière interactive à effectuer des appels en réseau, mais n’est pas flexible pour un processus système qui effectue des appels réseau avec les informations d’identification fournies par l’utilisateur. RPC sur TCP est plus adapté à cet effet. La définition de cette valeur ne diminue pas la sécurité du système. Si cette valeur est créée ou modifiée, le contrôleur de domaine source doit être redémarré pour que ce paramètre prenne effet.
 
-Un nouveau groupe local, « &lt; SrcDomainName &gt; $ $ $ », doit être créé dans le domaine source à des fins d’audit.
+Un nouveau groupe local, « <SrcDomainName> $ $ $ », doit être créé dans le domaine source à des fins d’audit.
 
 ## <a name="auditing"></a>Audit
 
 Les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sont auditées pour s’assurer que les administrateurs de domaine source et de destination sont en mesure de détecter le moment où cette fonction a été exécutée. L’audit est obligatoire dans les domaines source et de destination. **DsAddSidHistory** vérifie que le mode d’audit est activé dans chaque domaine et que l’audit de gestion des comptes des événements de réussite/échec est activé. Dans le domaine de destination, un événement d’audit « ajouter l’historique des SID » unique est généré pour chaque opération **DsAddSidHistory** réussie ou ayant échoué.
 
-Les événements d’audit « ajouter un historique des SID » uniques ne sont pas disponibles sur les systèmes Windows NT 4,0. Pour générer des événements d’audit qui reflètent sans ambiguïté l’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur le domaine source, il effectue des opérations sur un groupe spécial dont le nom est l’identificateur unique dans le journal d’audit. Un groupe local, « &lt; SrcDomainName &gt; $ $ $ », dont le nom est composé du nom NetBIOS du domaine source est ajouté avec trois signes dollar ($) (code ASCII = 0X24 et Unicode = U + 0024), doit être créé sur le contrôleur de domaine source avant d’appeler **DsAddSidHistory**. Chaque utilisateur source et groupe global qui est une cible de cette opération est ajouté à, puis supprimé de l’appartenance de ce groupe. Cela génère des événements ajouter un membre et supprimer un membre dans le domaine source, qui peuvent être analysés en recherchant des événements qui référencent le nom du groupe.
+Les événements d’audit « ajouter un historique des SID » uniques ne sont pas disponibles sur les systèmes Windows NT 4,0. Pour générer des événements d’audit qui reflètent sans ambiguïté l’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur le domaine source, il effectue des opérations sur un groupe spécial dont le nom est l’identificateur unique dans le journal d’audit. Un groupe local, « <SrcDomainName> $ $ $ », dont le nom est composé du nom NetBIOS du domaine source est ajouté avec trois signes dollar ($) (code ASCII = 0x24 et Unicode = U + 0024), doit être créé sur le contrôleur de domaine source avant d’appeler **DsAddSidHistory**. Chaque utilisateur source et groupe global qui est une cible de cette opération est ajouté à, puis supprimé de l’appartenance de ce groupe. Cela génère des événements ajouter un membre et supprimer un membre dans le domaine source, qui peuvent être analysés en recherchant des événements qui référencent le nom du groupe.
 
 > [!Note]  
-> les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur des groupes locaux dans un domaine source Windows NT 4,0 ou Windows 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au &lt; &gt; groupe local « SrcDomainName $ $ $ » spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
+> les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur les groupes locaux dans une Windows NT 4,0 ou Windows domaine source en mode mixte 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au <SrcDomainName> groupe local "$ $ $" spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
 
  
 

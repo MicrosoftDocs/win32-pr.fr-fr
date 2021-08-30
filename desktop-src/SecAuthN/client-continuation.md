@@ -4,12 +4,12 @@ ms.assetid: b4c4c38c-0286-49b1-b93d-4c6b885fe0f6
 title: Continuation du client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca363489cf87a8fdf2743a8c26a7848c257212e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 007a6fbc3d9fd887b041bf23267ddb804665d733e057c717041ae02b3bb53513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883449"
 ---
 # <a name="client-continuation"></a>Continuation du client
 

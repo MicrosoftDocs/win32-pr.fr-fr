@@ -4,12 +4,12 @@ ms.assetid: 4c8dd376-2288-451c-bb16-cdb088e41046
 title: Anglais (États-Unis) Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5222a1fa1ed00f2e08246aa0ac969158e55c63b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ba6682d668da92552906f4a6e9f2f995ee494f0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953013"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627335"
 ---
 # <a name="english-united-states-factoids"></a>Anglais (États-Unis) Factoids
 
@@ -19,9 +19,9 @@ Le tableau suivant répertorie les formats disponibles pour chaque Factoid utili
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +72,7 @@ Les formats tels que 300 Ko et 1 Mo ne sont pas pris en charge.
 <td>(206) 555-1212<br/> 1-206-555-1212<br/> 1-800-555-1212<br/> 555-1212<br/></td>
 </tr>
 <tr class="even">
-<td>TEMPS<br/></td>
+<td>TIME<br/></td>
 <td>Heure écrite en anglais (États-Unis).<br/></td>
 <td>15:05<br/> 3:03<br/> 04:10<br/> 3:17:35<br/> 2:34:35<br/> 5:40:49 PM<br/> 11:23:23 PM<br/> 7:30<br/> 14:03<br/></td>
 </tr>

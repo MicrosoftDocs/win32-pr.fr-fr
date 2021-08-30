@@ -4,12 +4,12 @@ description: Avec un contrôle de la divulgation progressive, les utilisateurs p
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 1d561ea6e4f937c6e162f9eaa1f452e73d7de20c9f94c41785641062c21cd1a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9daf06722430861a79fb638cbb6211ae50010a0e
+ms.sourcegitcommit: 0ab75073bbeec7ca2899f8051626a8b772073f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117676074"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "122401012"
 ---
 # <a name="progressive-disclosure-controls"></a>Contrôles de divulgation progressive
 
@@ -93,11 +93,11 @@ Les contrôles de divulgation progressive sont généralement affichés sans ét
 
 Alors que les utilisateurs peuvent déterminer les éléments ci-dessus par essai et par erreur, vous devez essayer de rendre cette expérimentation inutile.
 
-Les contrôles de divulgation progressive ont un [intuitivité](glossary.md)relativement faible, ce qui signifie que leurs propriétés visuelles suggèrent la manière dont elles sont utilisées, bien que faiblement. Le tableau suivant compare l’apparence des contrôles de divulgation progressive courants :
+Les contrôles de divulgation progressive ont un avantage [relativement faible,](glossary.md)ce qui signifie que leurs propriétés visuelles suggèrent la manière dont elles sont utilisées, bien que faiblement. Le tableau suivant compare l’apparence des contrôles de divulgation progressive courants :
 
 
 
-| Contrôler | Objectif  | Apparence | Glyphe indique |
+| Control | Objectif  | Apparence | Glyphe indique |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | **Chevrons**<br/> ![capture d’écran des chevrons gauche/droit et haut/flèche vers le haut ](images/progressive-disclosure-controls-image7.png)<br/>                 | **Afficher tout :** Affichez ou masquez les éléments restants dans le contenu entièrement ou partiellement masqué. Les éléments sont affichés sur place (à l’aide d’un chevron simple) ou dans un menu contextuel (à l’aide d’un double Chevron).<br/> | Les chevrons pointent dans la direction dans laquelle l’action aura lieu.<br/>                                                        | État futur<br/>        |
 | **Flèches**<br/> ![capture d’écran des flèches gauche/droite et haut/bas ](images/progressive-disclosure-controls-image8.png)<br/>                     | **Afficher les options :** Affichez un menu contextuel.<br/>                                                                                                                                                    | Les flèches pointent dans la direction dans laquelle l’action doit se produire.<br/>                                                          | État futur<br/>        |
@@ -247,7 +247,7 @@ Les flèches d’aperçu sont réservées aux situations où un chevron standard
 
     ![capture d’écran de l’étiquette avec le triangle pointant vers la droite ](images/progressive-disclosure-controls-image26.png)
 
-    Même si cet exemple n’est pas un modèle de divulgation progressive, l’utilisation d’une flèche suggère que les commandes s’affichent dans une fenêtre contextuelle.
+    Bien que cet exemple ne soit pas un modèle de divulgation progressive, l’utilisation d’une flèche suggère que les commandes s’affichent dans une fenêtre indépendante.
 
     **Correct :**
 
@@ -357,7 +357,7 @@ Lorsque vous faites référence à des contrôles de divulgation progressive :
 -   Pour décrire l’interaction de l’utilisateur, utilisez le clic. Si nécessaire pour plus de clarté, utilisez cliquer sur... pour développer ou réduire.
 -   Dans la mesure du possible, mettez en forme l’étiquette à l’aide de texte en gras. Sinon, placez l’étiquette entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 -   (Pour un chevron) Pour déterminer la taille du fichier, cliquez sur **Détails**.
 -   (Pour une flèche) Pour afficher toutes les options, cliquez sur la flèche en regard de la zone de **recherche** .

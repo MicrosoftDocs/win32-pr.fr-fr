@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 205a88ecbd67dcf3b009577fa7384e074cc68487
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a35bccad8421a47e50e6b7a39e7a259852d90af12452056a604f742ad817d36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987689"
 ---
 # <a name="setprovider-method-of-the-win32_sessiondirectoryvmmplugin-class"></a>Méthode SetProvider de la \_ classe Win32 SessionDirectoryVMMPlugin
 

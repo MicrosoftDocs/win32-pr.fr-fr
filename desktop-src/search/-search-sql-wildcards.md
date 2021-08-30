@@ -4,12 +4,12 @@ ms.assetid: 9d141c7a-a721-416e-aa61-dabdb6533462
 title: Utilisation de caractères génériques dans le prédicat CONTAINs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 013e49f97cf23c7a00aca7bb287edd19951520f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 760a9b4b8dae1392bf5590639775ba1b4fe534c99120322c05cc16432c1fa5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944559"
 ---
 # <a name="using-wildcard-characters-in-the-contains-predicate"></a>Utilisation de caractères génériques dans le prédicat CONTAINs
 

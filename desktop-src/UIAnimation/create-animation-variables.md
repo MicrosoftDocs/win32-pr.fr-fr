@@ -1,21 +1,21 @@
 ---
 title: Créer des variables d’animation
-description: Une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide de l’animation Windows.
+description: une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide d’Windows animation.
 ms.assetid: 360aa157-cb50-400a-b373-45885410469d
 keywords:
 - variables d’animation Windows animation, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c059a924e22700bb4abd794435ad708a2775a9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb81e2f94f987ad6b9c923083c76565fa75b2cc665753233c8a84b6eb1a1d52a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008229"
 ---
 # <a name="create-animation-variables"></a>Créer des variables d’animation
 
-Une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide de l’animation Windows.
+une application doit créer une variable d’animation pour chaque caractéristique visuelle qui doit être animée à l’aide d’Windows animation.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -32,7 +32,7 @@ Les variables d’animation sont passées en tant que paramètres lors de la con
 
 ### <a name="animating-colors"></a>Animer des couleurs
 
-L’exemple de code suivant provient de MainWindow. cpp dans l’animation Windows Samples animation [pilotée](application-driven-animation-sample.md) par l’application et [animation pilotée par un minuteur](timer-driven-animation-sample.md). Dans l’exemple, trois variables d’animation sont créées à l’aide de [**CreateAnimationVariable**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable) pour représenter les couleurs d’arrière-plan. Le code utilise également les méthodes [**SetLowerBound**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound) et [**SetUpperBound**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound) pour contrôler la valeur de la variable d’animation.
+l’exemple de code suivant est extrait de MainWindow. cpp dans l’Windows animation exemples d’animation [pilotée](application-driven-animation-sample.md) par l’Application et [animation pilotée par un minuteur](timer-driven-animation-sample.md). Dans l’exemple, trois variables d’animation sont créées à l’aide de [**CreateAnimationVariable**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createanimationvariable) pour représenter les couleurs d’arrière-plan. Le code utilise également les méthodes [**SetLowerBound**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound) et [**SetUpperBound**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound) pour contrôler la valeur de la variable d’animation.
 
 
 ```
@@ -112,7 +112,7 @@ private:
 
 ### <a name="animating-x-and-y-coordinates"></a>Animation des coordonnées x et y
 
-L’exemple de code suivant est extrait de thumbnail. cpp dans l' [exemple de présentation](/windows/desktop/UIAnimation/grid-layout-sample)de la grille d’animation Windows. consultez la méthode CMainWindow :: CreateAnimationVariables. Deux variables d’animation sont créées pour représenter les coordonnées X et Y de chaque objet.
+l’exemple de code suivant est extrait de Thumbnail. cpp dans l' [exemple de présentation](/windows/desktop/UIAnimation/grid-layout-sample)de la grille d’Animation Windows ; consultez la méthode CMainWindow :: CreateAnimationVariables. Deux variables d’animation sont créées pour représenter les coordonnées X et Y de chaque objet.
 
 
 ```C++
@@ -203,9 +203,9 @@ Avant de commencer cette étape, vous devez avoir terminé cette étape : [cré
 [**IUIAnimationVariable::SetUpperBound**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound)
 </dt> <dt>
 
-[Vue d’ensemble des animations Windows](scenic-animation-api-overview.md)
+[Windows Vue d’ensemble de l’animation](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

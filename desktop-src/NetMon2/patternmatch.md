@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 286a331f4baeb1dde79a720385c61606835248f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bb92e2ae9a00c06e799c2e7378a40de09160e9bf94625e15a5a0e2091a5dae1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037059"
 ---
 # <a name="patternmatch-structure"></a>PATTERNMATCH, structure
 
@@ -110,7 +110,7 @@ Modèle à faire correspondre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée pour construire un filtre de capture. Pour plus d’informations sur l’implémentation de cette structure, consultez [filtres de capture](capture-filters.md).
 

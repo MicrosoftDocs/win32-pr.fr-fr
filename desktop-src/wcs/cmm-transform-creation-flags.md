@@ -5,12 +5,12 @@ ms.assetid: f3942929-272c-4f08-98ac-a4d14d2f6ac4
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852ef5c080c361bfffb6915d808787d46e63ba5c
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: c5b9e8ca5ba6ed9960ba819a417c7cbfe994a9cda1cdb81f3d1b855144a5f6a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106522482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934989"
 ---
 # <a name="cmm-transform-creation-flags"></a>Indicateurs de création de transformation CMM
 
@@ -24,7 +24,7 @@ Toutes les fonctions qui utilisent ces indicateurs passent ou reçoivent des val
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | ACTIVER la vérification de la \_ gamme \_     | Utilisez cette transformation pour la vérification de la gamme de couleurs.                                                                                                       |
 | UTILISER \_ \_ Colorimétrie relative | Ne conservez pas le point blanc. Si la gamme de sortie ne prend pas en charge une couleur donnée, utilisez la couleur la plus proche prise en charge. Consultez rendu des intentions. |
-| \_traduction rapide             | Rechercher uniquement la couleur. N’interpolez pas la couleur.                                                                                            |
+| FAST \_ TRADUIRE             | Rechercher uniquement la couleur. N’interpolez pas la couleur.                                                                                            |
 | PRESERVEBLACK               | Insère le GMMP de génération noir approprié comme dernier GMMP dans la séquence de transformation                                                     |
 | \_toujours WCS                 | Utilisez le chemin de code WCS même pour les transformations ICC.                                                                                               |
 | \_transformation séquentielle       | Indicateur de création de transformation pour la création d’une transformation de couleur séquentielle (non optimisée).                                                           |
@@ -56,7 +56,7 @@ En passant du \_ mode preuve au meilleur \_ mode, la qualité de la sortie s’a
 [Concepts de base de la gestion des couleurs](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Constantes ICM](wcs-constants.md)
+[constantes ICM](wcs-constants.md)
 </dt> </dl>
 
  

@@ -11,12 +11,12 @@ keywords:
 - bibliothèque de sphères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586974c5874aee73121e536cbadca4564a18c250
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e842f18aa699ab3f719c7aefed765d84c60684dd2ab654325d9d1f5cbb93c03b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776529"
 ---
 # <a name="the-iris-gl-sphere-library"></a>Bibliothèque de sphères du GL IRIS
 
@@ -42,7 +42,7 @@ Le tableau suivant répertorie les fonctions Quadrics OpenGL.
 
 
 
- 
+ 
 
 Vous pouvez utiliser un objet quadric pour tous les Quadrics que vous souhaitez afficher de la même manière. L’exemple de code suivant utilise deux objets quadric pour dessiner quatre Quadrics, deux d’entre eux texturés.
 
@@ -71,9 +71,9 @@ gluSphere(plainQuad, 5.0, 20, 20);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

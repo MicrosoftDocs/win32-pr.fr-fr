@@ -3,7 +3,7 @@ title: Message TBM_SETLINESIZE (commctrl. h)
 description: Définit le nombre de positions logiques du curseur de la barre de défilement en réponse à une entrée au clavier à partir des touches de direction, telles que les touches ou. Les positions logiques sont les incréments de l’entier dans la plage de la plage de la barre de défilement minimale à la position maximale du curseur.
 ms.assetid: 7fe3f9b8-2ddf-4460-882f-6be439f83daa
 keywords:
-- TBM_SETLINESIZE les contrôles de message Windows
+- TBM_SETLINESIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec898ed09b20f15023ef04a399f5644df746e495
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb340b69f8e7ebba1da1ade7869308b2caacc29f37125c9ab5075a6401e89bc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046149"
 ---
 # <a name="tbm_setlinesize-message"></a>\_Message TBM SETLINESIZE
 
@@ -43,7 +43,7 @@ Nouvelle taille de ligne.
 
 Retourne une valeur 32 bits qui spécifie la taille de ligne précédente.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut de la taille de ligne est 1.
 
@@ -55,8 +55,8 @@ Le TrackBar envoie également un message [**WM \_ HSCROLL**](wm-hscroll.md) ou [
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 45fba2a9781b0af9848be934423e5329fb6217ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a43292577f50c2d0a15560147c9e01b246d53dd5f210c00a017984d07ca913b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971949"
 ---
 # <a name="esentioexception-constructor"></a>Constructeur EsentIOException
 

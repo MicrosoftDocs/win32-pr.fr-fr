@@ -4,12 +4,12 @@ description: Pour obtenir un exemple de code, consultez exemple d’annotation d
 ms.assetid: 29be74c7-a7c2-41f4-8b94-5771988b74ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3a3e8d003d863372e21a413fad56bc93b977ee3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e676b11cc87b4f89dec6b37438ac7176bd13d5333d40970c8f275780f3d43125
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098059"
 ---
 # <a name="using-value-map-annotation"></a>Utilisation de l’annotation de mappage de valeur
 
@@ -73,7 +73,7 @@ ms.locfileid: "104382011"
 
     
 
-    | Paramètre                   | Utilisé pour                                                |
+    | Paramètre                   | Usage                                                |
     |-----------------------------|---------------------------------------------------------|
     | MSAAPROPID \_ ROLEMAP         | Pour définir une carte de rôle pour les contrôles d’affichage de liste ou d’arborescence.  |
     | MSAAPROPID \_ STATEMAP        | Pour définir une table d’État pour les contrôles d’affichage de liste ou d’arborescence. |
@@ -82,7 +82,7 @@ ms.locfileid: "104382011"
 
     
 
-     
+     
 
 4.  **Nettoyage.**
 
@@ -92,6 +92,6 @@ ms.locfileid: "104382011"
 
 Pour obtenir un exemple de code, consultez [exemple d’annotation de mappage de valeur](value-map-annotation-sample.md).
 
- 
+ 
 
- 
+ 

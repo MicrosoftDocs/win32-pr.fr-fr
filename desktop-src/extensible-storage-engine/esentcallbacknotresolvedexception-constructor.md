@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5210305c5f5763c17e43fce77d9626a2d633755b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4d7a5cb503fead5d1fcde735bfd9a793b2cd1d0d39ed357780af651ab689380
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785819"
 ---
 # <a name="esentcallbacknotresolvedexception-constructor"></a>Constructeur EsentCallbackNotResolvedException
 

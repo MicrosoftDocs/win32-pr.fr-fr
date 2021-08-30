@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: d18bee8a69fd8663ea54973d6e4e8219f5f74e27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 287da7980da8e2837d44852b4cd2ecf2f098604a6478ab6c534104f82fb1fddf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097449"
 ---
 # <a name="frequencyrangedescriptor-class"></a>FrequencyRangeDescriptor, classe
 

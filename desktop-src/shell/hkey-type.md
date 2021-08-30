@@ -24,12 +24,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4de4595b55716d58df04a598dd6ba298f22829d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78c5c7537794e3a00e9aa2015956ecc6946830d98b5fffcdf0d7351c878cfe0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009459"
 ---
 # <a name="registry-data-types"></a>Types de données de Registre
 
@@ -54,7 +54,7 @@ Ces types de données peuvent être utilisés pour spécifier le type d’une va
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

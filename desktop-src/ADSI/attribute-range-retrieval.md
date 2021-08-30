@@ -7,12 +7,12 @@ keywords:
 - ADSI-récupération de plage d’attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994b1c4535ebce264386b088a53b730e679147f07b4bef9fe99d3a45a63461fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc140a713feb141890478f830bbd24a95a4e7ef7
+ms.sourcegitcommit: 3fbe7c00125bed49e333b44b2ed733079e4a1cac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117840576"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "122208165"
 ---
 # <a name="attribute-range-retrieval"></a>Récupération de plage d’attributs
 
@@ -50,7 +50,7 @@ Il existe plusieurs façons de récupérer une plage de valeurs de propriété. 
 
 si un langage automation est utilisé, les objets d’annuaire d’ActiveX (ADO) peuvent être utilisés pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation d’ADO pour la récupération de plages, consultez [utilisation d’ADO pour la récupération de plages](using-ado-for-range-retrieval.md).
 
-Si vous utilisez C++, les interfaces [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) et [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) peuvent être utilisées pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation de **IDirectorySearch** et **IDirectoryObject** pour la récupération de plages, consultez [utilisation de IDirectorySearch et IDirectoryObject pour la récupération de plages](using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md).
+Si vous utilisez C++, les interfaces [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) et [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) peuvent être utilisées pour récupérer une plage de valeurs de propriété. Pour plus d’informations sur l’utilisation de **IDirectorySearch** et **IDirectoryObject** pour la récupération de plages, consultez [utilisation de IDirectorySearch et IDirectoryObject pour la récupération de plages](using-idirectorysearch-and-idirectoryobject-for-range-retrieval.md).  Ce type de récupération doit être effectué sur les requêtes avec un type d’étendue de base (ADS_SCOPE_BASE).
 
  
 

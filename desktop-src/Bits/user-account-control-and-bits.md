@@ -4,12 +4,12 @@ description: Lorsqu’un utilisateur administrateur ouvre une session sur l’or
 ms.assetid: 02439ab3-b885-4a2f-b507-0c48d2b30b76
 ms.topic: article
 ms.date: 7/12/2019
-ms.openlocfilehash: 3017b3a0d816ba393d1427c5c1d2315a68b2dcc0
-ms.sourcegitcommit: be77ed1f97d3be57a2f42070589de21b66034adf
+ms.openlocfilehash: 1893c9abc9d783cea6b8ff17e5bcbef47cfc613890c97b45530257950659887d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "103940763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004679"
 ---
 # <a name="bits-security-tokens-and-administrator-accounts"></a>Sécurité BITS, jetons et comptes d’administrateur
 
@@ -36,12 +36,12 @@ Un utilisateur qui se trouve dans le groupe administrateurs peut exécuter un pr
 Un utilisateur standard ne peut pas énumérer ou modifier des travaux appartenant à d’autres utilisateurs.
 
 ## <a name="integrity-level"></a>Niveau d’intégrité
-En plus de l’état élevé, le niveau d’intégrité du jeton peut déterminer si l’utilisateur peut modifier un travail. Un client ne peut pas modifier les travaux créés par un jeton avec un niveau d’intégrité supérieur. En particulier, de nombreux jetons de système local ont un niveau d’intégrité supérieur au niveau d’intégrité d’une fenêtre avec élévation de privilèges, et ne peuvent donc pas être modifiés par un administrateur à partir d’une fenêtre de commande avec élévation de privilèges ordinaire. Par exemple, les Windows Update et les tâches SMS s’exécutent en tant que LocalSystem qui a un niveau d’intégrité supérieur à celui d’un jeton élevé, de sorte qu’un administrateur ne peut pas modifier ou supprimer ces travaux. Pour modifier ce travail, créez une tâche Planificateur de tâches qui s’exécute en tant que système local. La tâche peut exécuter une application console qui utilise l’API BITS, ou la tâche peut exécuter un script qui appelle BitsAdmin.exe. Pour déterminer le niveau d’intégrité utilisé, appelez la méthode [**IBackgroundCopyJob4 :: GetOwnerIntegrityLevel**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerintegritylevel) .
+En plus de l’état élevé, le niveau d’intégrité du jeton peut déterminer si l’utilisateur peut modifier un travail. Un client ne peut pas modifier les travaux créés par un jeton avec un niveau d’intégrité supérieur. En particulier, de nombreux jetons de système local ont un niveau d’intégrité supérieur au niveau d’intégrité d’une fenêtre avec élévation de privilèges, et ne peuvent donc pas être modifiés par un administrateur à partir d’une fenêtre de commande avec élévation de privilèges ordinaire. par exemple, les Windows Update et les tâches SMS s’exécutent en tant que LocalSystem qui a un niveau d’intégrité supérieur à celui d’un jeton élevé, de sorte qu’un administrateur ne peut pas modifier ou supprimer ces travaux. Pour modifier ce travail, créez une tâche Planificateur de tâches qui s’exécute en tant que système local. La tâche peut exécuter une application console qui utilise l’API BITS, ou la tâche peut exécuter un script qui appelle BitsAdmin.exe. Pour déterminer le niveau d’intégrité utilisé, appelez la méthode [**IBackgroundCopyJob4 :: GetOwnerIntegrityLevel**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-getownerintegritylevel) .
 
 ## <a name="service-identity"></a>Identité du service
-À partir de la mise à jour de Windows 10 mai 2019 (10,0 ; Build 18362), les travaux BITS démarrés à partir d’un service conserveront l’identité de service. Cela permet aux services qui souhaitent utiliser BITS de télécharger des fichiers vers ou de télécharger des fichiers à partir d’un répertoire dont les autorisations sont liées au SID de service. En outre, le trafic réseau est correctement attribué au service qui a demandé le travail BITS au lieu d’être attribué à BITS.
+à partir de la Mise à jour de mai 2019 de Windows 10 (10,0 ; Build 18362), les travaux BITS démarrés à partir d’un service conserveront l’identité de service. Cela permet aux services qui souhaitent utiliser BITS de télécharger des fichiers vers ou de télécharger des fichiers à partir d’un répertoire dont les autorisations sont liées au SID de service. En outre, le trafic réseau est correctement attribué au service qui a demandé le travail BITS au lieu d’être attribué à BITS.
 
- 
+ 
 
 
 

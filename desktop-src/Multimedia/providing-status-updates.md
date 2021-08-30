@@ -10,12 +10,12 @@ keywords:
 - MCIWndSetTimers macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fd53c9580f3ae9be09817979178d10e60765ea3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a71ad60ce3970c21adec75af04f3c896eef4c933816002bc8b4c8c3acabcd5a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037579"
 ---
 # <a name="providing-status-updates"></a>Fourniture de mises à jour d’État
 
@@ -27,9 +27,9 @@ Vous pouvez définir la période de mise à jour utilisée par le minuteur de fe
 
 Votre application peut définir simultanément la période de mise à jour pour les deux minuteurs à l’aide de la macro [**MCIWndSetTimers**](/windows/desktop/api/Vfw/nf-vfw-mciwndsettimers) . Le stockage de la valeur de la période de mise à jour est limité à 16 bits. Si vous avez besoin d’une quantité plus importante pour une période de mise à jour, définissez les minuteries individuellement.
 
- 
+ 
 
- 
+ 
 
 
 

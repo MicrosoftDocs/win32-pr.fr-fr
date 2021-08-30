@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 271a278f48c10a89fa6f552c3e1a7b4a83f274f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f9a04cbc9281009ee0b270cc2dfd7b73e23a5378a2116362f63344c8d7475d7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986339"
 ---
 # <a name="d3dzbuffertype-enumeration"></a>Énumération D3DZBUFFERTYPE
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres de ce type énuméré sont utilisés avec l' \_ État de rendu D3DRS ZENABLE.
 

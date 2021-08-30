@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 42c675f61fc8b42790aeb811ec275554b355a392
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15fef5786487a0e5dad6aa96f4061a2e7414773e2f269ea9834cc3dd17211e3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003849"
 ---
 # <a name="create-method-of-the-win32_process-class"></a>Créer une méthode de la \_ classe de processus Win32
 
@@ -62,7 +62,7 @@ Lecteur et répertoire actifs pour le processus enfant. La chaîne requiert que 
 *ProcessStartupInformation* \[ dans\]
 </dt> <dd>
 
-Configuration de démarrage d’un processus Windows. Pour plus d’informations, consultez [**Win32 \_ ProcessStartup**](win32-processstartup.md).
+configuration de démarrage d’un processus de Windows. Pour plus d’informations, consultez [**Win32 \_ ProcessStartup**](win32-processstartup.md).
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ Retourne la valeur 0 (zéro) si le processus a été créé avec succès, et tou
 **Autre** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez créer une instance de la classe [**Win32 \_ ProcessStartup**](win32-processstartup.md) pour configurer le processus avant d’appeler cette méthode.
 
@@ -173,7 +173,7 @@ else
 
 
 
-L’exemple de code VBScript suivant crée un processus Notepad sur l’ordinateur local. [**Win32 \_ ProcessStartup**](win32-processstartup.md) est utilisé pour configurer les paramètres de processus.
+l’exemple de code VBScript suivant crée un processus de Bloc-notes sur l’ordinateur local. [**Win32 \_ ProcessStartup**](win32-processstartup.md) est utilisé pour configurer les paramètres de processus.
 
 
 ```VB
