@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: a7239253238b0d9b7e606329b10f05b3645b7e16
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: fd9598cb18790c78b32cddc04afb20e4a1a44efb111f2d562df2c6e1fe3f34fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104101133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953629"
 ---
 # <a name="idodownloadpause-method"></a>IDODownload ::P méthode ause
 
@@ -39,6 +39,6 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | Do. h |

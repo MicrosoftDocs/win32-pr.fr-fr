@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 489d42a72033ba942a359d8f3244b154dae9e3c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bea89e2868d88d6b075ac5d6ad405172f6720939c909e5b4db3352acbad0041
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945319"
 ---
 # <a name="jet_setcolumncontentequals-method"></a>JET_SETCOLUMN. Méthode ContentEquals
 
@@ -61,7 +61,7 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_SETCOLUMN](./jet-setcolumn-class.md)  
     
     Instance de à comparer à cette instance.

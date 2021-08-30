@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.ApplicationModel.h
-ms.openlocfilehash: e4f1801960f2d3b9183550e18fb76378bf4f17f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16a9d61dc68d296d39ab5a76b634d136a8e88b8987ac4990696a43ab396b68e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898659"
 ---
 # <a name="isuspendingdeferral-interface"></a>Interface ISuspendingDeferral
 
@@ -50,8 +50,8 @@ L’interface **ISuspendingDeferral** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>Windows. ApplicationModel. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Windows. ApplicationModel. idl</dt> </dl> |
 

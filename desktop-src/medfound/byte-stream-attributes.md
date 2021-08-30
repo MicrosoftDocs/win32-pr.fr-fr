@@ -4,12 +4,12 @@ ms.assetid: d57a57e9-87e4-4f7f-943a-63fd2ad1d1a6
 title: Attributs de flux d’octets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0471905925b397f4f83ad457384b5e9b4790b54c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bccc6b6a73d58b3b5817f6c5654a4968c3f4677c0dca9ad4d184e93ee82d8206
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959369"
 ---
 # <a name="byte-stream-attributes"></a>Attributs de flux d’octets
 

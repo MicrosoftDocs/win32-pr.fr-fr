@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3b4ebafc1441741a352f4573709495228bf13e4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 86f2a0f33bfe00b65dc6e2e8a77d1e29e0ad4ea05888d6dba86797898bc8cfb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952779"
 ---
 # <a name="createmediarendereroperationcompleted-property"></a>CreateMediaRendererOperation. Completed, propriété
 
@@ -33,11 +33,11 @@ Cette propriété est en lecture/écriture.
 
 ```C++
 HRESULT put_Completed(
-  [in]  ICreateMediaRendererCompletedHandler value
+  [in]  ICreateMediaRendererCompletedHandler value
 );
 
 HRESULT get_Completed(
-  [out] ICreateMediaRendererCompletedHandler *value
+  [out] ICreateMediaRendererCompletedHandler *value
 );
 ```
 
@@ -54,9 +54,9 @@ Gestionnaire d'événements.
 [**CreateMediaRendererOperation**](createmediarendereroperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

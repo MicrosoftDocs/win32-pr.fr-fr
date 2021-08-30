@@ -4,12 +4,12 @@ ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: Comportement de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81d007c653ed3f019892e944d9fa4203dc6de11
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: e887608dba50092b6b7b94f81052073f2bbfa34c7353b614380e6c0f5ec50bf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947309"
 ---
 # <a name="user-interface-behavior"></a>Comportement de l’interface utilisateur
 

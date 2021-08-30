@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 49974b966e1378350e8e5475ef14bb092b3aaea1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13e487be4aaa8a9b1222429d2b78ff7b1b0ebdce854cbe9911e5a1b931299d3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923339"
 ---
 # <a name="cim_logicaldevice-class-cimwin32-wmi-providers"></a>CIM_LogicalDevice, classe (fournisseurs WMI CIMWin32)
 
@@ -94,7 +94,7 @@ La classe **CIM \_ LogicalDevice** possède ces méthodes.
 
 | Méthode                                                                   | Description                                                                                                                              |
 |:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Réinitialiser**](reset-method-in-class-cim-logicaldevice.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Initialisation**](reset-method-in-class-cim-logicaldevice.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-logicaldevice.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -375,7 +375,7 @@ Code d’erreur Configuration Manager Win32.
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd></dd> <dt>
@@ -431,7 +431,7 @@ Code d’erreur Configuration Manager Win32.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd></dd> <dt>
@@ -515,14 +515,14 @@ Code d’erreur Configuration Manager Win32.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-**Windows est toujours en cours de configuration de cet appareil.** (25)
+**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-**Windows est toujours en cours de configuration de cet appareil.** (26)
+**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd></dd> <dt>
@@ -557,7 +557,7 @@ Code d’erreur Configuration Manager Win32.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd></dd> </dl>
@@ -1034,7 +1034,7 @@ Nom du système d’étendue.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les caractéristiques de l’appareil logique qui gèrent l’opération ou la configuration sont contenues ou associées à l’objet **\_ LogicalDevice CIM** . Les propriétés opérationnelles de l’imprimante, par exemple, sont des formats de papier pris en charge ou des erreurs détectées. Les propriétés de configuration de l’appareil capteur, par exemple, sont des paramètres de seuil. Diverses configurations peuvent exister pour un périphérique logique et sont contenues dans les objets de [**\_ paramètres CIM**](cim-setting.md) , qui sont associés à l’unité logique.
 

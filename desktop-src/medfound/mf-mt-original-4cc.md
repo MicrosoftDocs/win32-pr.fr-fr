@@ -4,12 +4,12 @@ ms.assetid: 2e6ef198-5754-4ded-9fe3-61edd0742a17
 title: Attribut MF_MT_ORIGINAL_4CC (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b374ba3ef74cb98925edcc5d809e1fd5e0b7fbcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff7f53ac5a7ca8bc55ad8958d79b67c291d9c263faf33706aa580b3d4b86cfb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955529"
 ---
 # <a name="mf_mt_original_4cc-attribute"></a>\_ \_ Attribut 4cc d’origine MF MT \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En fonction du fichier source, la source du média AVI peut définir cet attribut sur les types de médias qu’elle propose.
 
@@ -49,8 +49,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

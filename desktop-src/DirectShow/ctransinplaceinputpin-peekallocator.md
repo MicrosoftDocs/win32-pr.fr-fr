@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f7a5f7cb0fbe754890b1d7930bb54c6fca47afa5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fbebca79b560ae2dfd10f95fc7b5f454228da017d6682b6f939ad504c624be72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999149"
 ---
 # <a name="ctransinplaceinputpinpeekallocator-method"></a>Méthode CTransInPlaceInputPin. PeekAllocator
 
@@ -40,7 +40,7 @@ IMemAllocator* PeekAllocator();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la variable de membre [**CBaseInputPin :: m \_ pAllocator**](cbaseinputpin-m-pallocator.md) .
 
@@ -50,7 +50,7 @@ Retourne la variable de membre [**CBaseInputPin :: m \_ pAllocator**](cbaseinpu
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

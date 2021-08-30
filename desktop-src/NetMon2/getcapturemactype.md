@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 73569109db5b958e854135461a0e480178d0105a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4405d1b0c5618951360c8b22732796dffdffeb557849388159411c9a17924591
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910799"
 ---
 # <a name="getcapturemactype-function"></a>GetCaptureMacType fonction)
 
@@ -67,7 +67,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le descripteur de la capture peut être obtenu de plusieurs façons, en fonction de la personne qui effectue l’appel. Pour les experts, le descripteur est spécifié dans le membre **hCapture** de la structure [EXPERTSTARTUPINFO](expertstartupinfo.md) . Pour les analyseurs, le handle de capture peut être obtenu en appelant la fonction [GetFrameCaptureHandle](getframecapturehandle.md) .
 

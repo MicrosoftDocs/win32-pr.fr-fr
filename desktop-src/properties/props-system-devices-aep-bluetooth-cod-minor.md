@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth du code mineur du périphérique.
+description: classe Bluetooth du code mineur du périphérique.
 ms.assetid: 56923491-8d03-418a-a0b5-c27206c3f8b0
-title: System. Devices. AEP. Bluetooth. DCO. minor
+title: System. Devices. AEP. Bluetooth. COD. mineur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d928b34323ba8ca7d37035842234a011bb2b6c8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a312a9e2b0d2cefcc51632d29205091d55f5437991c20be74f97ec0c7c9e77d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946229"
 ---
-# <a name="systemdevicesaepbluetoothcodminor"></a>System. Devices. AEP. Bluetooth. DCO. minor
+# <a name="systemdevicesaepbluetoothcodminor"></a>System. Devices. AEP. Bluetooth. COD. mineur
 
-Classe Bluetooth du code mineur du périphérique.
+classe Bluetooth du code mineur du périphérique.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,16 +4,16 @@ ms.assetid: d9634586-8315-46d3-9ffc-bfa9a4d7738e
 title: Interfaces COM Rendezvous
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6df7fbdac45480ae7aa9d5968209f22fabe9a4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05978b3536b2bb6d3cb384372c00f9052c2d602b51fb52e79f88d6f8eff2ca32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080479"
 ---
 # <a name="rendezvous-com-interfaces"></a>Interfaces COM Rendezvous
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le tableau suivant répertorie les objets COM et les interfaces associés aux contrôles de conférence Rendezvous.
 

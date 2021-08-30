@@ -3,7 +3,7 @@ title: Structure de MCI_OVLY_LOAD_PARMS (mmsystem. h)
 description: La \_ structure des PARMS de charge OVLY MCI contient des \_ \_ informations pour la \_ commande de chargement MCI pour les périphériques de superposition vidéo.
 ms.assetid: 701c27da-72bf-493d-a679-9e0bd210215d
 keywords:
-- Structure de MCI_OVLY_LOAD_PARMS Windows multimédia
+- structure MCI_OVLY_LOAD_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2029e92f7991f1ae5d8d0bdbabc76eef456a36ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc966b51224246dbceda46927f605c214ba4809a1cca451813a1075811fa5225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039099"
 ---
 # <a name="mci_ovly_load_parms-structure"></a>\_OVLY de \_ charge de chargement MCI \_
 
@@ -59,11 +59,11 @@ Nom du fichier à charger.
 **Release**
 </dt> <dd>
 
-Identifie la zone de la mémoire tampon vidéo à mettre à jour. Les structures [Rect](/previous-versions//ms536136(v=vs.85)) sont gérées différemment dans MCI et dans d’autres parties de Windows. dans MCI, **RC. Right** contient la largeur du rectangle et **RC. Bottom** contient sa hauteur.
+Identifie la zone de la mémoire tampon vidéo à mettre à jour. Les structures [Rect](/previous-versions//ms536136(v=vs.85)) sont gérées différemment dans MCI et dans d’autres parties de Windows ; dans MCI, **RC. Right** contient la largeur du rectangle et **RC. Bottom** contient sa hauteur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

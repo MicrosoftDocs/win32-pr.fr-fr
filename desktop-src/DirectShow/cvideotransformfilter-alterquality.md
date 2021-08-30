@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1de0985b8cb3a8db6f45c247e717042cf344655f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6cd2568bfc9518e2eeaf0399fa53796e305d246c511e5ee5bea1d3a1cacf7712
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998619"
 ---
 # <a name="cvideotransformfilteralterquality-method"></a>Méthode CVideoTransformFilter. AlterQuality
 
@@ -53,7 +53,7 @@ Structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-quality) qui con
 
 Retourne E \_ Fail.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée lorsque la broche de sortie reçoit un message de qualité (par le biais de la méthode [**IQualityControl :: Notify**](/windows/desktop/api/Strmif/nf-strmif-iqualitycontrol-notify) ).
 
@@ -65,7 +65,7 @@ La valeur de fin de *q* est stockée dans la variable de membre **m \_ itrLate**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Vtrans. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Vtrans. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

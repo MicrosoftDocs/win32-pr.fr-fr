@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b92775eca87a88659326aa5b34eb0c15109ed8a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e70e91780ba1c0d1e1a3d204a6d99826e80a2fe23cbac4125d0b6300e4fdf005
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083889"
 ---
 # <a name="ctransinplacefilterinputpin-method"></a>Méthode CTransInPlaceFilter. InputPin
 
@@ -50,7 +50,7 @@ Retourne la variable de membre [**CTransformFilter :: m \_ pInput**](ctransform
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

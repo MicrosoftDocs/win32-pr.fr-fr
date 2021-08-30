@@ -4,12 +4,12 @@ ms.assetid: 6b5267d8-b102-410c-bdc9-831555ca2f84
 title: Formes de chiffres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6e6581b8b0eb87ae09b387c038c1ceba43125ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03fa63f26cceb3c3e819e754461330bb190a260013211c4a37e05eb0c816164d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083019"
 ---
 # <a name="digit-shapes"></a>Formes de chiffres
 
@@ -29,7 +29,7 @@ L’arabe et de nombreuses autres langues ont des formes classiques pour les nom
 
 Unicode fournit des points de code distincts pour chaque forme de chiffre. Ainsi, pour accéder à des formes de chiffres de langue spéciales, votre application peut utiliser les codes de caractères Unicode appropriés pour les chiffres ci-dessus, U + 0030 à U + 0039. Ces codes sont toujours affichés avec la forme appropriée, selon la disponibilité de la police.
 
-Les codes de caractères Unicode U + 0030 à U + 0039 représentent les chiffres européens de 0 à 9, mais leur forme de chiffres peut être modifiée. Les API de texte GDI et DirectWrite fournissent des mécanismes permettant aux applications de contrôler ce comportement. (Voir, par exemple, [**ScriptApplyDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution) ou [**IDWriteTextAnalysisSink :: SetNumberSubstitution**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution).) Le comportement dans certains contrôles de l’interpréteur de commandes et les infrastructures d’interface utilisateur peut répondre aux paramètres régionaux de l’utilisateur pour la substitution de chiffres ; les paramètres [régionaux \_ IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE peuvent être utilisés pour obtenir les paramètres de substitution de chiffres par défaut pour différents paramètres régionaux ou les paramètres de bureau de l’utilisateur actuel pour la substitution de chiffres.
+Les codes de caractères Unicode U + 0030 à U + 0039 représentent les chiffres européens de 0 à 9, mais leur forme de chiffres peut être modifiée. les api de texte GDI et DirectWrite fournissent des mécanismes permettant aux applications de contrôler ce comportement. (Voir, par exemple, [**ScriptApplyDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptapplydigitsubstitution) ou [**IDWriteTextAnalysisSink :: SetNumberSubstitution**](/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissink-setnumbersubstitution).) Le comportement dans certains contrôles de l’interpréteur de commandes et les infrastructures d’interface utilisateur peut répondre aux paramètres régionaux de l’utilisateur pour la substitution de chiffres ; les paramètres [régionaux \_ IDIGITSUBSTITUTION](locale-idigitsubstitution.md) LCTYPE peuvent être utilisés pour obtenir les paramètres de substitution de chiffres par défaut pour différents paramètres régionaux ou les paramètres de bureau de l’utilisateur actuel pour la substitution de chiffres.
 
 ## <a name="native-digits"></a>Chiffres natifs
 

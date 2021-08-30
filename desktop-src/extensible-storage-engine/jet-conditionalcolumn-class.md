@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 23b116ce88b24702711d74f610c208a72c44addf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a93eb5f5ffe0d13f78f5d387b37c4d17bd969a697dfb11998f5d7dcc821f1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017619"
 ---
 # <a name="jet_conditionalcolumn-class"></a>Classe JET_CONDITIONALCOLUMN
 

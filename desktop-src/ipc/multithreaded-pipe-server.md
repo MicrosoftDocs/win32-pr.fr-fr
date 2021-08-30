@@ -4,12 +4,12 @@ ms.assetid: 4657e814-0e7f-45b5-8ddb-17ec0c3612ba
 title: Serveur de canaux multithread
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64f974ad5ce23b850ab900ea4d34a219851528ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d15d5fd2cdaea5f4cb063ce9496d04e023d1b969f711dc72f577fb4c3634cbb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015245"
 ---
 # <a name="multithreaded-pipe-server"></a>Serveur de canaux multithread
 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 9c8505f54d6ee9f6b2ec02216fd875fddbc619de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8bf19ee67c08fc674681ade174966fe415a950103099011f52102e8c6edede7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083879"
 ---
 # <a name="iamtimelinegroupsetsmartrecompressformat-method"></a>IAMTimelineGroup :: SetSmartRecompressFormat, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -58,7 +58,7 @@ Pointeur vers une structure décrivant le format de compression. Actuellement, s
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, appelez la méthode [**IAMTimelineGroup :: SetMediaType**](iamtimelinegroup-setmediatype.md) sur le même groupe pour spécifier un format non compressé.
 
@@ -74,7 +74,7 @@ Le format de recompression intelligente n’est pas persistant. Si une applicati
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
@@ -102,7 +102,7 @@ Le format de recompression intelligente n’est pas persistant. Si une applicati
 [Moteur de rendu intelligent](smart-render-engine.md)
 </dt> <dt>
 
-[Écriture d’un projet dans un fichier](writing-a-project-to-a-file.md)
+[écriture d’un Project dans un fichier](writing-a-project-to-a-file.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a890c79f6835dc0f44257fc1adf5d00b976a87c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d535677dd291fb7acd503491bda9344bd10723e7ab9a9e4945bf65b7fb800b2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106536905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015659"
 ---
 # <a name="wm_ncmbuttonup-message"></a>\_Message WM NCMBUTTONUP
 
@@ -56,7 +56,7 @@ Structure de [**points**](/previous-versions//dd162808(v=vs.85)) qui contient le
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez également utiliser les macros [**obten \_ x \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) et [**obten \_ Y \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) pour extraire les valeurs des coordonnées x et y de *lParam*.
 

@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les spécifications des fonctions de rappel utilisées par Windows Installer validation de package.
+description: cette section décrit les spécifications des fonctions de rappel utilisées par Windows Installer validation de package.
 ms.assetid: c96e5682-d43c-460f-8aee-6ba7b0b9769e
 title: Fonctions de rappel de validation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f2b517e319d79f2f32f197b0c74e4c1eefed30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e50438f2f7c044239c6af4c0c46c8ad3e5ba391a4d2228e35da463ea8c50e48b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039499"
 ---
 # <a name="validation-callback-functions"></a>Fonctions de rappel de validation
 
-Cette section décrit les spécifications des fonctions de rappel utilisées par Windows Installer validation de package.
+cette section décrit les spécifications des fonctions de rappel utilisées par Windows Installer validation de package.
 
 [**LPDISPLAYVAL**](/windows/desktop/api/evalcom2/nc-evalcom2-lpdisplayval)
 

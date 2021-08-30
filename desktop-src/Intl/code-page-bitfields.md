@@ -4,12 +4,12 @@ ms.assetid: 830b1a88-cb0c-4719-b857-4cc2cd67dd5d
 title: Champs de page de codes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08f9df44ac14d935a026a10ab1e71eb7378840de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bfd16bb04f88201b571759cd09eb9d3e99ef43eb7c7b1c1c40c93e246833aa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898749"
 ---
 # <a name="code-page-bitfields"></a>Champs de page de codes
 

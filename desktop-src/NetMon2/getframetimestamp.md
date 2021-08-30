@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 37a75f946a5fc0ddb2b32d99334368a272fdf2e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29be85c3181e9ae3ffeab9c6bf9ea3a8c2795b47b8a3e2c1f9afc8732ec7840c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910729"
 ---
 # <a name="getframetimestamp-function"></a>GetFrameTimeStamp fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est l’horodatage du frame en micr
 
 Si la fonction échoue, la valeur de retour est moins un (-1).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **GetFrameTimeStamp** retourne un horodatage qui indique le temps écoulé entre le début du processus de capture et l’enregistrement du frame.
 

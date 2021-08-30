@@ -3,7 +3,7 @@ title: Commande MCI_RESTORE (mmsystem. h)
 description: La \_ commande de restauration MCI copie une image bitmap d’un fichier vers la mémoire tampon de trame. Les périphériques vidéo numériques reconnaissent cette commande. Cette commande effectue l’action inverse de la \_ commande de capture MCI.
 ms.assetid: ed309cc6-72a3-4abb-aef2-40a55381d8b6
 keywords:
-- Commande MCI_RESTORE Windows multimédia
+- commande MCI_RESTORE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b0c82db597a0e347f382c7cda55ce507f4e6dcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a51753dbb5ed265bc9d60d5aafed38a9618854cb63500c1bf58e4d20b87a1ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038889"
 ---
 # <a name="mci_restore-command"></a>\_Commande de restauration MCI
 
@@ -68,9 +68,9 @@ Pointeur vers une structure de [**\_ paramètres de \_ restauration \_ DGV MCI**
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’implémentation peut reconnaître un grand nombre de formats d’image, mais une image bitmap indépendante du périphérique (DIB) Windows est toujours acceptée.
+l’implémentation peut reconnaître un grand nombre de formats d’image, mais un Windows bitmap indépendante du périphérique (DIB) est toujours accepté.
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques vidéo numériques :
 
@@ -98,7 +98,7 @@ Le membre **RC** de la structure identifiée par *lpRestore* contient un rectang
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

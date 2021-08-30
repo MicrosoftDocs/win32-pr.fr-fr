@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 0cdf885bc705f667421c2040f2dfe44a7e097307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20fe01ef939f9016af3fde38e6149169bfcc1b7748645faf1077ad628e14a575
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017709"
 ---
 # <a name="instance-constructor"></a>Constructeur d’instance
 

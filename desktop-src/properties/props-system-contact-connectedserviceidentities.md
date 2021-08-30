@@ -4,12 +4,12 @@ ms.assetid: 265032ef-4cc7-4fcc-8294-d14ca184c4f2
 title: System. contact. ConnectedServiceIdentities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56453c2a609be7d5d86801cdfe6d0b3541c14d69
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 384530dfd68acc0185da3ecab1dee869b7f789da29bf1ab9dd01b53dc8451664
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946715"
 ---
 # <a name="systemcontactconnectedserviceidentities"></a>System. contact. ConnectedServiceIdentities
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

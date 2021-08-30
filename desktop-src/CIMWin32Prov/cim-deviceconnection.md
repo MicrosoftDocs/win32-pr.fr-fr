@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b8179287686439ea31c19d700a785de7fff47659
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: da27b652058a6205cb7dcc6ffa6527beac066482eb331aefd79351a3ee1fc113
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924529"
 ---
 # <a name="cim_deviceconnection-class-cimwin32-wmi-providers"></a>CIM_DeviceConnection, classe (fournisseurs WMI CIMWin32)
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ DeviceConnection** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

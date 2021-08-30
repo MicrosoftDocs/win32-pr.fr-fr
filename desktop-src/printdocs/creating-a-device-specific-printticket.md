@@ -4,12 +4,12 @@ ms.assetid: 487f294f-dfe0-48f8-9077-06c55c3af8f1
 title: Création d’un Device-Specific PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 497b825bd875ada534c8c467cd18d90f2db9a2a7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 119b0062a7d5effa5c4a4f45570c8f9430faa963934cdec80c8005c2bc8e7699
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950249"
 ---
 # <a name="creating-a-device-specific-printticket"></a>Création d’un Device-Specific PrintTicket
 

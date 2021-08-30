@@ -4,12 +4,12 @@ ms.assetid: d0863304-0f10-47fa-8b86-d552e004f4dd
 title: System. contact. JobInfo2CompanyAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dea60d16f102f6c120de9c101b2104b570e515f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d316699720e1f79e7c84ca39f71ce7c2a7923c352be630bbe367c3b7b8a0f469
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011369"
 ---
 # <a name="systemcontactjobinfo2companyaddress"></a>System. contact. JobInfo2CompanyAddress
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

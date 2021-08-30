@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 28f1ee1ddb0193f9ccdaa4976e4963e748091f37
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: c31305f70698ed59cbb0b6403547f5da51766b1a8859a453a8f6ab5cdfd56dc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103940573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949469"
 ---
 # <a name="texm3x3vspec---ps"></a>texm3x3vspec-PS
 
@@ -29,14 +29,14 @@ Effectue une multiplication de matrice 3x3 et utilise le résultat pour effectue
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction effectue la dernière ligne d’une opération de multiplication de matrice 3x3, interprète le vecteur résultant comme un vecteur normal pour refléter un vecteur de rayons oculaires, puis utilise le vecteur réfléchi comme une adresse de texture pour une recherche de texture. Il fonctionne de la même façon que [texm3x3spec-PS](texm3x3spec---ps.md), sauf que le vecteur de rayon oculaire est extrait du quatrième composant des coordonnées de texture. La multiplication de matrice 3x3 est généralement utile pour orienter un vecteur normal vers l’espace tangent correct pour la surface rendue.
 
@@ -134,9 +134,9 @@ Cet exemple requiert la configuration de la phase de texture suivante.
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

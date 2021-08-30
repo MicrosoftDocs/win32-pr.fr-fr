@@ -4,12 +4,12 @@ ms.assetid: 81937ef2-af86-4434-8000-dd944ad14e9c
 title: System. GPS. ImgDirectionRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3463905d1c1781c753df7eda23ce24fced012ca1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6be3ec9489d07ad550b2bc88c28de038a970b02e984df404019abdcd1714d91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945699"
 ---
 # <a name="systemgpsimgdirectionref"></a>System. GPS. ImgDirectionRef
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

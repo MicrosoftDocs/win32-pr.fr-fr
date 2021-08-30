@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 5834183229580c1aadbcbe80e54a30e9b9b60c03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a027059854ba02e4a846660435731f140b6d04cb8d96f714fd63f1d24757ca1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083719"
 ---
 # <a name="imediadetget_streamtype-method"></a>IMediaDet :: \_ StreamType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Reçoit le GUID de type principal pour le type de média.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode récupère le membre **MajorType** de la structure [**du \_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) . La structure du **\_ \_ type de média am** décrit le format du flux, et le membre **MajorType** est un GUID qui indique la catégorie générale, telle que l’audio ou la vidéo. Pour un flux vidéo, le GUID est la \_ vidéo de MediaType. Pour le son, il s’agit de l’audio de MEDIATYPE \_ . Pour récupérer l’ensemble de la structure du **\_ \_ type de média am** , appelez la méthode [**IMediaDet :: obtenir \_ StreamMediaType**](imediadet-get-streammediatype.md) .
 
@@ -70,7 +70,7 @@ Si le détecteur de média est en mode de manipulation bitmap, cette méthode re
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

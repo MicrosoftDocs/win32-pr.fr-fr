@@ -6,12 +6,12 @@ keywords:
 - size_is
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7159c68d6bc3c1485c14db20d97c488916cb7b22
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae585e058332979823e5c1f4c7de7e9a1de6037c1c53c12585e17c2bbc309365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016689"
 ---
 # <a name="the-size_is-attribute"></a>La \[ taille \_ est un \] attribut
 
@@ -33,7 +33,7 @@ interface arraytest
 > [!Note]  
 > L’astérisque ( \* ) qui marque l’espace réservé pour la dimension variable-tableau est facultatif.
 
- 
+ 
 
 Le stub serveur doit allouer de la mémoire sur le serveur qui correspond à la mémoire sur le client pour ce paramètre. La variable qui spécifie la taille doit toujours être au moins un \[ [](/windows/desktop/Midl/in) \] paramètre in. L' **attribut directionnel est requis pour que la valeur taille soit définie à l’entrée sur le stub serveur. \[ \]** Cette valeur de taille fournit les informations dont le stub serveur a besoin pour allouer la mémoire.
 
@@ -46,6 +46,6 @@ Le paramètre de taille peut également être \[ in, [out](/windows/desktop/Midl
 [Plusieurs niveaux de pointeurs](multiple-levels-of-pointers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

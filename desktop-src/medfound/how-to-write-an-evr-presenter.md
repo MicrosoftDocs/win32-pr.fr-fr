@@ -4,12 +4,12 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: Comment écrire un présentateur EVR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e80c2c6397282b93aef1db0e5c491234e045472
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: f44839d8b48af0a6977bdc6a3af515190e15edef7f5db986bcb888fe69ded7da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958410"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>Comment écrire un présentateur EVR
 
@@ -426,9 +426,45 @@ Voici quelques recommandations pour implémenter les méthodes dans cette interf
 
 
 
-
-| | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"> <strong>OnClockStart</strong></a> | <ol><li>Définissez l’État présentateur sur démarré.</li><li>Si le <em>llClockStartOffset</em> n’est pas <strong>PRESENTATION_CURRENT_POSITION</strong>, videz la file d’attente du présentateur des exemples. (Cela équivaut à recevoir un message de <strong>MFVP_MESSAGE_FLUSH</strong> .)</li><li>Si une demande d’étape de frame précédente est toujours en attente, traitez la demande (consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>). Sinon, essayez de traiter la sortie à partir du mélangeur (consultez traitement de la <a href="#processing-output">sortie</a>.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"> <strong>OnClockStop</strong></a> | <ol><li>Définissez l’État présentateur sur arrêté.</li><li>Videz la file d’attente du présentateur des exemples.</li><li>Annulez toute opération de l’étape de frame en attente.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> | Affectez à l’État présentateur la valeur Paused. | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> | Traitez le même que <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> , mais ne videz pas la file d’attente des exemples. | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"> <strong>OnClockSetRate</strong></a> | <ol><li>Si le taux passe de zéro à différent de zéro, annulez l’exécution pas à pas de la trame.</li><li>Stockez le nouveau taux d’horloge. Le taux d’horloge affecte le moment où les exemples sont présentés. Pour plus d’informations, consultez <a href="#scheduling-samples">planification des exemples</a>.</li></ol> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
+<td><ol>
+<li>Définissez l’État présentateur sur démarré.</li>
+<li>Si le <em>llClockStartOffset</em> n’est pas <strong>PRESENTATION_CURRENT_POSITION</strong>, videz la file d’attente du présentateur des exemples. (Cela équivaut à recevoir un message de <strong>MFVP_MESSAGE_FLUSH</strong> .)</li>
+<li>Si une demande d’étape de frame précédente est toujours en attente, traitez la demande (consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>). Sinon, essayez de traiter la sortie à partir du mélangeur (consultez traitement de la <a href="#processing-output">sortie</a>.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
+<td><ol>
+<li>Définissez l’État présentateur sur arrêté.</li>
+<li>Videz la file d’attente du présentateur des exemples.</li>
+<li>Annulez toute opération de l’étape de frame en attente.</li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
+<td>Affectez à l’État présentateur la valeur Paused.</td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
+<td>Traitez le même que <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> , mais ne videz pas la file d’attente des exemples.</td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
+<td><ol>
+<li>Si le taux passe de zéro à différent de zéro, annulez l’exécution pas à pas de la trame.</li>
+<li>Stockez le nouveau taux d’horloge. Le taux d’horloge affecte le moment où les exemples sont présentés. Pour plus d’informations, consultez <a href="#scheduling-samples">planification des exemples</a>.</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -563,17 +599,86 @@ Le tableau suivant répertorie les événements que le présenteur envoie, ainsi
 
 
 
-
-| Événement | Description | 
-|-------|-------------|
-| <a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a> | Le présentateur a terminé le rendu de toutes les trames après le message de MFVP_MESSAGE_ENDOFSTREAM.<br /><ul><li><em>Param1</em>: HRESULT indiquant l’état de l’opération.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#end-of-stream">fin de flux</a>.<br /> | 
-| <a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a> | L’appareil Direct3D a changé.<br /><ul><li><em>Param1</em>: non utilisé.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#managing-the-direct3d-device">gestion du périphérique Direct3D</a>.<br /> | 
-| <a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a> | Une erreur s’est produite et nécessite l’arrêt de la diffusion en continu.<br /><ul><li><em>Param1</em>: <strong>HRESULT</strong> indiquant l’erreur qui s’est produite.</li><li><em>Param2</em>: non utilisé.</li></ul> | 
-| <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | Spécifie la durée pendant laquelle le présentateur prend le rendu de chaque image. (Facultatif.)<br /><ul><li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient la durée de traitement de la trame, en unités de 100 nanosecondes.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez traitement de la <a href="#processing-output">sortie</a>.<br /> | 
-| <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | Spécifie le temps de décalage actuel dans les échantillons de rendu. Si la valeur est positive, les exemples sont en arrière-plan. Si la valeur est négative, les échantillons sont en avance sur Schedule. (Facultatif.)<br /><ul><li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient le temps de retard, en unités de 100 nanosecondes.</li><li><em>Param2</em>: non utilisé.</li></ul> | 
-| <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | Envoyé immédiatement après <strong>EC_STEP_COMPLETE</strong> si la vitesse de lecture est égale à zéro. Cet événement contient l’horodatage du frame qui a été affiché.<br /><ul><li><em>Param1</em>: 32 bits inférieurs de l’horodatage.</li><li><em>Param2</em>: 32 bits supérieurs de l’horodatage.</li></ul>Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br /> | 
-| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | Le présentateur a terminé ou annulé une étape de frame.<br /><ul><li><em>Param1</em>: non utilisé.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br /><blockquote>[!Note]<br />Une version précédente de la documentation A décrit <em>param1</em> de manière incorrecte. Ce paramètre n’est pas utilisé pour cet événement.</blockquote><br /> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Événement</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
+<td>Le présentateur a terminé le rendu de toutes les trames après le message de MFVP_MESSAGE_ENDOFSTREAM.<br/>
+<ul>
+<li><em>Param1</em>: HRESULT indiquant l’état de l’opération.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul>
+Pour plus d’informations, consultez <a href="#end-of-stream">fin de flux</a>.<br/></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
+<td>L’appareil Direct3D a changé.<br/>
+<ul>
+<li><em>Param1</em>: non utilisé.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul>
+Pour plus d’informations, consultez <a href="#managing-the-direct3d-device">gestion du périphérique Direct3D</a>.<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
+<td>Une erreur s’est produite et nécessite l’arrêt de la diffusion en continu.<br/>
+<ul>
+<li><em>Param1</em>: <strong>HRESULT</strong> indiquant l’erreur qui s’est produite.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
+<td>Spécifie la durée pendant laquelle le présentateur prend le rendu de chaque image. (Facultatif.)<br/>
+<ul>
+<li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient la durée de traitement de la trame, en unités de 100 nanosecondes.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul>
+Pour plus d’informations, consultez traitement de la <a href="#processing-output">sortie</a>.<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
+<td>Spécifie le temps de décalage actuel dans les échantillons de rendu. Si la valeur est positive, les exemples sont en arrière-plan. Si la valeur est négative, les échantillons sont en avance sur Schedule. (Facultatif.)<br/>
+<ul>
+<li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient le temps de retard, en unités de 100 nanosecondes.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
+<td>Envoyé immédiatement après <strong>EC_STEP_COMPLETE</strong> si la vitesse de lecture est égale à zéro. Cet événement contient l’horodatage du frame qui a été affiché.<br/>
+<ul>
+<li><em>Param1</em>: 32 bits inférieurs de l’horodatage.</li>
+<li><em>Param2</em>: 32 bits supérieurs de l’horodatage.</li>
+</ul>
+Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
+<td>Le présentateur a terminé ou annulé une étape de frame.<br/>
+<ul>
+<li><em>Param1</em>: non utilisé.</li>
+<li><em>Param2</em>: non utilisé.</li>
+</ul>
+Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br/>
+<blockquote>
+[!Note]<br />
+Une version précédente de la documentation A décrit <em>param1</em> de manière incorrecte. Ce paramètre n’est pas utilisé pour cet événement.
+</blockquote>
+<br/></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1500,7 +1605,7 @@ Cette section décrit un algorithme permettant d’implémenter l’exécution p
 -   *step_queue*. Une file d’attente de pointeurs [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) .
 -   *step_state*. À tout moment, le présentateur peut être dans l’un des États suivants en ce qui concerne le pas à pas détaillé de la trame : 
 
-    | State         | Description                                                                                                                                                                                                     |
+    | État         | Description                                                                                                                                                                                                     |
     |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | NOT_STEPPING | Pas de cadre pas à pas.                                                                                                                                                                                             |
     | WAITING       | Le présentateur a reçu le message **MFVP_MESSAGE_STEP** , mais l’horloge n’a pas démarré.                                                                                                                  |

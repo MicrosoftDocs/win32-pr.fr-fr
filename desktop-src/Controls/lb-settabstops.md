@@ -3,7 +3,7 @@ title: Message LB_SETTABSTOPS (winuser. h)
 description: Définit les positions des taquets de tabulation dans une zone de liste.
 ms.assetid: b96b974e-b1e6-4361-98bb-4dc21c752690
 keywords:
-- LB_SETTABSTOPS les contrôles de message Windows
+- LB_SETTABSTOPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f21927aaf82624242e8d42ef4a7459f1e36cdf74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d842b0c7e2cdcc792227ecb390fa3bc2a4c9d210b7c028b266c867a0c473808
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085319"
 ---
 # <a name="lb_settabstops-message"></a>\_Message SETTABSTOPS lb
 
@@ -47,7 +47,7 @@ Pointeur vers le premier membre d’un tableau d’entiers contenant les taquets
 
 Si tous les onglets spécifiés sont définis, la valeur de retour est **true**; Sinon, la **valeur est false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour répondre au message **lb \_ SETTABSTOPS** , la zone de liste doit avoir été créée avec le [**style \_ USETABSTOPS**](list-box-styles.md) .
 
@@ -57,7 +57,7 @@ Si *lParam* pointe vers plus d’une valeur unique, un taquet de tabulation sera
 
 Les valeurs spécifiées par *lParam* se trouvent dans les unités de modèle de boîte de dialogue, qui sont les unités indépendantes du périphérique utilisées dans les modèles de boîte de dialogue. Pour convertir des mesures à partir d’unités de modèle de boîte de dialogue en unités d’écran (pixels), utilisez la fonction [**MapDialogRect**](/windows/desktop/api/winuser/nf-winuser-mapdialogrect) .
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : la mémoire tampon désignée par *lParam* doit résider dans la mémoire accessible en écriture, même si le message ne modifie pas le tableau.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : la mémoire tampon vers laquelle pointe *lParam* doit résider dans la mémoire accessible en écriture, même si le message ne modifie pas le tableau.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -65,8 +65,8 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : la mémoire tam
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

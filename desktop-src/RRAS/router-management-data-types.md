@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae22df0061c893d3ea44f0850b9ce2c1e73490f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79bb42ba961dda1e6eec6dc7e8b190110988e12fa652713bb103501735cb482b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081099"
 ---
 # <a name="router-management-data-types"></a>Types de données de gestion de routeur
 
@@ -44,7 +44,7 @@ La [**structure \_ \_ \_ PARAMS2 de configuration du tunnel IKEV2**](/windows/de
 
 
 
-La [**structure \_ \_ \_ PARAMS1 de configuration du tunnel IKEV2**](/windows/desktop/api/mprapi/ns-mprapi-ikev2_tunnel_config_params1) est prise en charge sur Windows Server 2008 R2 et les versions antérieures.
+la [**structure \_ \_ \_ PARAMS1 de configuration du TUNNEL IKEV2**](/windows/desktop/api/mprapi/ns-mprapi-ikev2_tunnel_config_params1) est prise en charge sur Windows Server 2008 R2 et versions antérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -64,7 +64,7 @@ Le protocole [**IKEv2 du routeur si la structure \_ \_ \_ \_ CONFIG0 personnalis
 
 
 
-Le [**MPR \_ si \_**](/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0) la structure CUSTOMINFOEX0 est prise en charge sur Windows Server 2012.
+[**MPR si la structure \_ \_ CUSTOMINFOEX0**](/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0) est prise en charge sur Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>

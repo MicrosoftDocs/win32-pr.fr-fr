@@ -4,12 +4,12 @@ description: Certaines constantes d’effet doivent uniquement être initialisé
 ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65c64f9e642e867e9398722d4590a4c2ce9193b4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: dfa27e817299df9398bd6fa1752e636162d9b97f7b886a372b71c5d0845dff41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953079"
 ---
 # <a name="set-effect-state-direct3d-11"></a>État de l’effet défini (Direct3D 11)
 

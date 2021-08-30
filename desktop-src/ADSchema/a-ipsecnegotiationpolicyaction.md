@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b4157fa763e36a37bc260c07483b1f23532990
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d74504ff0b5c01adc150791e9fe28f0dbb183ad120d8b191b260270bda84518e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106539021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925079"
 ---
 # <a name="ipsec-negotiation-policy-action-attribute"></a>Attribut IPSEC-Negotiation-Policy-action
 
@@ -45,7 +45,7 @@ L’attribut **IPSec-Negotiation-Policy-action** est destiné à un usage intern
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

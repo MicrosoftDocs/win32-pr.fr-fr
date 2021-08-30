@@ -3,7 +3,7 @@ title: Message MCIWNDM_PLAYFROM (VFW. h)
 description: Le \_ message MCIWNDM PLAYFROM lit le contenu d’un périphérique MCI à partir de l’emplacement spécifié jusqu’à la fin du contenu ou jusqu’à ce qu’une autre commande arrête la lecture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndPlayFrom.
 ms.assetid: 1c47f8eb-2a1b-4671-a9f8-fd6d59a5c7c6
 keywords:
-- Message MCIWNDM_PLAYFROM Windows Multimedia
+- message MCIWNDM_PLAYFROM Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c0fa1b3f4b3359e1609b3ba12009fe5879c304a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67f9f2885b67f82c2285bcaacb395c626dbe460800a2683f72dad0730999e843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037989"
 ---
 # <a name="mciwndm_playfrom-message"></a>\_Message MCIWNDM PLAYFROM
 
@@ -49,7 +49,7 @@ Emplacement de départ. Les unités de l’emplacement de départ dépendent du 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez également spécifier un emplacement de départ et un emplacement de fin pour la lecture à l’aide de la macro [**MCIWndPlayFromTo**](/windows/desktop/api/Vfw/nf-vfw-mciwndplayfromto) .
 

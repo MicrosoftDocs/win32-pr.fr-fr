@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 022d4f618c09652c368f6664b194b4ebafc81717
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4d1d7ff2207c19c079ea2405a9cd04744ea6e770f53a7b9e3a68e99dd779caa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910709"
 ---
 # <a name="getmacaddressfromblob-function"></a>GetMacAddressFromBlob fonction)
 

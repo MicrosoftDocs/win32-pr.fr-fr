@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f16d3a14f3c4f54f64364488322007a99c0f7cd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b05144b542fd1daa1fc59e12d8ab9ec7031c4a3a5eb6506e9d1316a29b4424ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039489"
 ---
 # <a name="viewfetch-method"></a>View. Fetch, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le même objet d' [**enregistrement**](record-object.md) doit être utilisé pour récupérer les données dans plusieurs lignes, sinon l’objet doit être libéré en étant hors de portée. L’enregistrement peut être testé pour la fin du jeu de résultats à l’aide de la syntaxe « if FetchRecord Is Nothing ».
 

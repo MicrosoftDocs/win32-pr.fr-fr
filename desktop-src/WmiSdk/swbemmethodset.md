@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d47c4dc8335077d6f8568be4b56200558942ac39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 238df7081bab7324b187bde10c109e7ca15a717373f2ffa1ff7a831532007d75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954929"
 ---
 # <a name="swbemmethodset-object"></a>Objet SWbemMethodSet
 
@@ -60,7 +60,7 @@ L’objet **SWbemMethodSet** a ces propriétés.
 
 | Propriété                                         | Type d’accès          | Description                                       |
 |:-------------------------------------------------|:---------------------|:--------------------------------------------------|
-| [**Saut**](swbemmethodset-count.md)<br/> | Lecture seule<br/> | Nombre d’éléments dans la collection<br/> |
+| [**Count**](swbemmethodset-count.md)<br/> | Lecture seule<br/> | Nombre d’éléments dans la collection<br/> |
 
 
 

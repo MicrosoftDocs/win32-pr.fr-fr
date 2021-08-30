@@ -4,12 +4,12 @@ description: Un itinéraire est un \ 0034 ; chemin réseau \ 0034 ; à une des
 ms.assetid: c5a75308-42da-4ef9-a712-9987c87eef84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afd55ec1188383f4cdef55511aae7a9c2cf59303
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d78d03821ad767561441b7fc853ebac73af420ef6c239456b1d4fac59e244af8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081059"
 ---
 # <a name="routes-and-the-best-route"></a>Itinéraires et le meilleur itinéraire
 
@@ -41,9 +41,9 @@ Normalement, la préférence d’un itinéraire est déterminée par la préfér
 
 La préférence est normalement utilisée pour indiquer la priorité entre les clients. Par exemple, un administrateur peut attribuer à OSPF une préférence inférieure à celle de RIP. Dans ce cas, les itinéraires OSPF sont préférables aux itinéraires RIP.
 
- 
+ 
 
- 
+ 
 
 
 

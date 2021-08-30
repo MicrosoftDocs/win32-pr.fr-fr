@@ -4,12 +4,12 @@ ms.assetid: 34a1f37c-0fbf-451b-bb55-80ad85bcd4de
 title: Affichage et sortie WYSIWYG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c03e4fa653c0d8e891cb079a7a7e7a003f9ad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36ee426665508bee1299c1fe2c84cbcdcd647fa3989c053744a339ba1f1ad109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947176"
 ---
 # <a name="wysiwyg-display-and-output"></a>Affichage et sortie WYSIWYG
 
@@ -19,7 +19,7 @@ Pour compenser les différences de lisibilité entre les écrans et la page impr
 
 Pour obtenir un effet WYSIWYG lors du dessin de texte, deux problèmes connexes sont impliqués : faire en sorte que les caractères individuels aient le même aspect et la disposition de page indépendante du périphérique. Pour résoudre le premier problème, une application peut utiliser la fonction [**CreateFont**](/windows/desktop/api/wingdi/nf-wingdi-createfonta) pour spécifier le nom de la police et la taille d’une police idéale (ou logique), puis appeler la fonction [**SelectObject**](/windows/desktop/api/wingdi/nf-wingdi-selectobject) pour identifier le contexte de périphérique d’affichage ou d’imprimante. Lorsque l’application appelle **SelectObject** , le système sélectionne une police physique qui est la correspondance la plus proche possible à la police logique spécifiée. Lorsque le système sélectionne la police d’affichage, il choisit une police physique supérieure à la taille réelle. Cela se produit en raison du plus grand pouce logique sur l’affichage. Toutefois, du point de vue de l’utilisateur, il semble très proche de la hauteur correcte. Lorsque le système sélectionne la police de l’imprimante, il choisit une police physique qui correspond réellement à la taille demandée. Pour plus d’informations sur les polices et la sortie de texte, consultez [polices et texte](/windows/desktop/gdi/fonts-and-text).
 
-Le deuxième problème, en ce qui concerne la mise en page indépendante du périphérique, peut être résolu par l’utilisation des métriques TrueType. Cela est vrai même si vous conservez la compatibilité avec les versions 16 bits de Windows. Pour plus d’informations, consultez [utilisation des métriques TrueType portables](/windows/desktop/gdi/using-portable-truetype-metrics).
+Le deuxième problème, en ce qui concerne la mise en page indépendante du périphérique, peut être résolu par l’utilisation des métriques TrueType. Cela est vrai même lorsque vous conservez la compatibilité avec les versions 16 bits de Windows. Pour plus d’informations, consultez [utilisation des métriques TrueType portables](/windows/desktop/gdi/using-portable-truetype-metrics).
 
 Pour obtenir un effet WYSIWYG lors du dessin de graphiques bitmap, une application peut récupérer la largeur et la hauteur, en pouces logiques, de l’écran et de la page imprimée. À l’aide de ces valeurs, l’application peut créer des facteurs de mise à l’échelle horizontale et verticale pour maintenir la proportion d’images bitmap lorsqu’elles sont dessinées sur une imprimante. Pour plus d’informations sur les bitmaps et la sortie bitmap, consultez [bitmaps](/windows/desktop/gdi/bitmaps).
 
