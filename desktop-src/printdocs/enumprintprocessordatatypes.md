@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 39742aff1fce73b6dac138e77f2f8c794428ff3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6985181abca6fa6116fe39ab02ff5b60431bd44d771fedbcad179ba9e949a9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091989"
 ---
 # <a name="enumprintprocessordatatypes-function"></a>EnumPrintProcessorDatatypes fonction)
 
@@ -104,7 +104,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -113,7 +113,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro.
 
 v
 
-À compter de Windows Vista, les informations sur le type de données des serveurs d’impression distants sont récupérées à partir d’un cache local.
+à partir de Windows Vista, les informations de type de données des serveurs d’impression distants sont récupérées à partir d’un cache local.
 
 ## <a name="requirements"></a>Configuration requise
 

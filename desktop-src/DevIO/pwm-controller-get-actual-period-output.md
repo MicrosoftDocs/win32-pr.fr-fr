@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: f63057299a8ef37ed1b38151958d2e0061ad2727
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f51f360e7b6ff3966ed58d8ec3a171d8bbbfb54672c50c31852e71ab6750f95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088139"
 ---
 # <a name="pwm_controller_get_actual_period_output-structure"></a>Structure de sortie de la récupération de la \_ \_ \_ \_ période réelle \_ du contrôleur PWM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Contient la période de signal de sortie effective pour un contrôleur de modulation d’impulsions (PWM).
 
@@ -54,8 +54,8 @@ La période de signal de sortie effective telle qu’elle sera mesurée sur les 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                             |
 | Version KMDF minimale<br/>     | 1,19<br/>                                                                                  |
 | Version UMDF minimale<br/>     | 2.19<br/>                                                                                  |
 | En-tête<br/>                   | <dl> <dt>PWM. h (include PWM. h)</dt> </dl> |

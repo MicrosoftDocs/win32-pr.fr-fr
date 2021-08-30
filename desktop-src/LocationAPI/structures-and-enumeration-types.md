@@ -4,16 +4,16 @@ ms.assetid: a1d9d274-2861-4818-8fa1-d8d66edf27b3
 title: Structures et types énumération (API location)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67a73c27cb2ad6dc0dcd0c2b92f4e9ba52e98fb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e8cfea31e8822147cc33710239b31dcd4b982ca3b523dfb6f118d1969af703c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129809"
 ---
 # <a name="structures-and-enumeration-types-location-api"></a>Structures et types énumération (API location)
 
-\[L’API emplacement Win32 peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt l’API [**Windows. Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) . \]
+\[L’API emplacement Win32 peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt l' [**Windows. API Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) . \]
 
 L’API d’emplacement définit les types d’énumération suivants.
 

@@ -1,19 +1,19 @@
 ---
-description: Facultatif <description> élément spécifie une description pour ce connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; élément facultatif description &gt; spécifie une description pour ce connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: 0e9d806c-7dfd-4e7f-8843-15a4e22f317f
 title: Description, élément (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a9d82fd6ad3ae45c4a8c3700c4822387a81880d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0fd7314f29fb6a402416d861069cf048ecfac0c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882484"
 ---
 # <a name="description-element-search-connector-schema"></a>Description, élément (schéma du connecteur de recherche)
 
-Facultatif <description> élément spécifie une description pour ce connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+L' &lt; élément facultatif description &gt; spécifie une description pour ce connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,7 +45,7 @@ Facultatif <description> élément spécifie une description pour ce connecteur 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La description doit être conviviale, car elle peut être utilisée dans les info-bulles.
 

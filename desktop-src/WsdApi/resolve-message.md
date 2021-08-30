@@ -4,12 +4,12 @@ ms.assetid: b963bd2a-47cb-4f8d-8272-a586e6d6a047
 title: Résoudre le message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ed3ab1778fada267a72207309eb8cb515727d5
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: c9b5cad7ef90d954772a3bd3c537658993c4e986
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627765"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879712"
 ---
 # <a name="resolve-message"></a>Résoudre le message
 
@@ -80,23 +80,23 @@ Un message de résolution a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>Résoudre</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Resolve
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>L’action Resolve SOAP identifie le message en tant que message de résolution.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
     urn:uuid:38d1c3d9-8d73-4424-8861-6b7ee2af24d3
-</wsa:MessageID></code></pre></td>
+&lt;/wsa:MessageID&gt;</code></pre></td>
 <td>Contient l’identificateur de message, qui est référencé dans un message <a href="resolvematches-message.md">ResolveMatches</a> .</td>
 </tr>
 <tr class="odd">
 <td>Adresse</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>Contient l’adresse du point de terminaison qui est résolu.</td>
 </tr>
 </tbody>

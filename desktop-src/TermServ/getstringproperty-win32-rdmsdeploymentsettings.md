@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f26a570becbbae6b0d768c399acd3dd2954ecdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4a7cb338cd6f6858bba0536b012effb8621eee0d68dc386eceb79cdfd694e30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033689"
 ---
 # <a name="getstringproperty-method-of-the-win32_rdmsdeploymentsettings-class"></a>Méthode GetStringProperty de la \_ classe RDMSDeploymentSettings Win32
 

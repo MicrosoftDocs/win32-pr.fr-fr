@@ -1,15 +1,15 @@
 ---
-description: Si un seul des fichiers a un numéro de version, le Windows Installer utilise la logique illustrée par le diagramme de fluide suivant pour déterminer s’il faut remplacer tous les fichiers installés appartenant au composant.
+description: si un seul des fichiers a un numéro de version, le Windows Installer utilise la logique illustrée par le diagramme de fluide suivant pour déterminer s’il faut remplacer tous les fichiers installés appartenant au composant.
 ms.assetid: 1eda5521-6e23-49b8-9870-f5370def487e
 title: Un fichier a une version
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417060119f8b13b1545161faa80552c79e8ca9aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97e0dd1fd27dc5a0438e1cf5b6bbd787348d0971a378344536096ce7b99008fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129233"
 ---
 # <a name="one-file-has-a-version"></a>Un fichier a une version
 

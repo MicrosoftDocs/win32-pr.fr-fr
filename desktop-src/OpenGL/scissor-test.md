@@ -7,20 +7,20 @@ keywords:
 - test de ciseaux OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c8cb4b0deb78bb91357c4bc0b6670eb4cb19835
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2e5dc42e9891b2fd1be7d9acc8579c498c0fd0ec7b03e8da9b0bbf340bac45b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034709"
 ---
 # <a name="scissor-test"></a>Test de ciseaux
 
 Le test [**glScissor**](glscissor.md) spécifie un rectangle arbitraire aligné sur l’écran en dehors duquel les fragments seront ignorés.
 
- 
+ 
 
- 
+ 
 
 
 
