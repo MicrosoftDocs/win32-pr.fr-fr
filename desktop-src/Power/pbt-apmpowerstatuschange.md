@@ -4,12 +4,12 @@ ms.assetid: dc56fee3-e0df-4f8e-8a41-92460279280a
 title: Événement PBT_APMPOWERSTATUSCHANGE (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ed67f7ba064d44614196da4190ce18a996bd5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d92739182bdee624e54f11d4fe4b430e32c35e0a9f215e795081a713ea67b41f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961639"
 ---
 # <a name="pbt_apmpowerstatuschange-event"></a>\_Événement PBT APMPOWERSTATUSCHANGE
 
@@ -71,7 +71,7 @@ Réservé doit être égal à zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter cet événement en appelant la fonction [**GetSystemPowerStatus**](/windows/desktop/api/Winbase/nf-winbase-getsystempowerstatus) pour récupérer l’état actuel de l’alimentation de l’ordinateur. En particulier, l’application doit vérifier les membres **ACLineStatus**, **BatteryFlag**, **BatteryLifeTime** et **BatteryLifePercent** de la structure [**\_ \_ État**](/windows/desktop/api/Winbase/ns-winbase-system_power_status) de l’alimentation du système pour toute modification. Cet événement peut se produire lorsque la durée de la batterie chute à moins de 5 minutes, ou lorsque le pourcentage de la durée de vie de la batterie passe sous 10 pour cent, ou si la durée de vie de la batterie change de 3%.
 
@@ -81,8 +81,8 @@ Une application doit traiter cet événement en appelant la fonction [**GetSyste
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

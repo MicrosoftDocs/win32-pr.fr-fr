@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6bb108498501df50a43964f5b069860d10c39258
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2120364b4e2239bbd83333019138adf5fc01b672203037c2fb43c9907433e8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977829"
 ---
 # <a name="apijetrenametable-method"></a>API. JetRenameTable, méthode
 

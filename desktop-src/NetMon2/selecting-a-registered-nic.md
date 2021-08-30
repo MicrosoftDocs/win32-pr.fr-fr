@@ -4,12 +4,12 @@ ms.assetid: ca1fb07f-7eee-419f-b25d-49718d02fc7d
 title: Sélection d’une carte réseau enregistrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b7047d5bbb46797210e18782c672cfd81b9cf8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7643a7bc19cabe6617de92b07a297f635c318686c02ca7caa157128300ed2d10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074422"
 ---
 # <a name="selecting-a-registered-nic"></a>Sélection d’une carte réseau enregistrée
 

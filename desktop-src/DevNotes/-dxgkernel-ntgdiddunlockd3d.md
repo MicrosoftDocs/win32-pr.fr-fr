@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 207f647cadc81a797d71a607fdfd6f73ea38f475
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57332d267e35016b51587ce57ae05a5547523f3b7947d3d7afe3b238e55ff9bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045380"
 ---
 # <a name="ntgdiddunlockd3d-function"></a>NtGdiDdUnlockD3D fonction)
 

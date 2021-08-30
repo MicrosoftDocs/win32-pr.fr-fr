@@ -3,7 +3,7 @@ title: Message CB_SETHORIZONTALEXTENT (winuser. h)
 description: Une application envoie le \_ message CB SETHORIZONTALEXTENT pour définir la largeur, en pixels, par laquelle une zone de liste peut faire défiler horizontalement (la largeur avec défilement).
 ms.assetid: 85e8ff4f-ad9a-451c-b791-bd442b32d716
 keywords:
-- CB_SETHORIZONTALEXTENT les contrôles de message Windows
+- CB_SETHORIZONTALEXTENT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f51e505f36f7cfd3fa47644a288db4a97ba89ca4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8aac1fc0d10a38b292a4f37b3b170060d7e76ef5c8d303f39180b3f5063ffee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089019"
 ---
 # <a name="cb_sethorizontalextent-message"></a>\_Message SETHORIZONTALEXTENT CB
 
@@ -49,8 +49,8 @@ Ce paramètre n'est pas utilisé.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

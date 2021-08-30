@@ -1,9 +1,9 @@
 ---
 title: Événement Click de l’objet AxWindowsMediaPlayer
-description: L’événement Click se produit lorsque l’utilisateur clique sur un bouton de la souris sur un contrôle du lecteur Windows Media.
+description: l’événement Click se produit lorsque l’utilisateur clique sur un bouton de la souris sur un contrôle Lecteur Windows Media.
 ms.assetid: 41a719a2-103a-46b5-806d-5c21c4a09e00
 keywords:
-- Événement Click de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement Click de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d316e5dc4c12e75d75dd0b292c1df6db974bc6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b47fb38f4397accbd1930a745427e32c6b10095d50ab4ccb475b7a74d2033588
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098859"
 ---
 # <a name="click-event-of-the-axwindowsmediaplayer-object"></a>Événement Click de l’objet AxWindowsMediaPlayer
 
-L’événement Click se produit lorsque l’utilisateur clique sur un bouton de la souris sur un contrôle du lecteur Windows Media.
+l’événement Click se produit lorsque l’utilisateur clique sur un bouton de la souris sur un contrôle Lecteur Windows Media.
 
 ``` syntax
 [C#]
@@ -72,7 +72,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

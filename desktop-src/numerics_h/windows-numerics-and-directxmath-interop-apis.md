@@ -1,9 +1,9 @@
 ---
-title: API d’interopérabilité numériques et DirectXMath Windows (Windowsnumerics. h)
-description: Ces fonctions convertissent les types Windows. Foundation. Numerics vers et à partir des types DirectXMath SIMD XMVECTOR et XMMATRIX.
+title: Windows des valeurs numériques et des api DirectXMath interop (Windowsnumerics. h)
+description: Ces fonctions convertissent Windows. Foundation. Numerics types vers et à partir des types DirectXMath SIMD XMVECTOR et XMMATRIX.
 ms.assetid: 05851054-196E-4955-B9C5-85C2E33EF488
 keywords:
-- API d’interopérabilité numériques et DirectXMath Windows
+- Windows les valeurs numériques et les api d’interopérabilité DirectXMath
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e39057c92eeed87c3f429acb56f0afa2468ded
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4b84a67dfa239647ae14530d8d1b4185f340df3df98afb36a0b65c52fc5c5da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112839"
 ---
-# <a name="windows-numerics-and-directxmath-interop-apis"></a>API d’interopérabilité numériques et DirectXMath Windows
+# <a name="windows-numerics-and-directxmath-interop-apis"></a>Windows les valeurs numériques et les api d’interopérabilité DirectXMath
 
-Ces fonctions convertissent les types [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) vers et à partir des types DirectXMath SIMD [XMVECTOR](../dxmath/xmvector-data-type.md) et [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
+Ces fonctions convertissent [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) types vers et à partir des types DIRECTXMATH SIMD [XMVECTOR](../dxmath/xmvector-data-type.md) et [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 
 ## <a name="functions"></a>Fonctions
 

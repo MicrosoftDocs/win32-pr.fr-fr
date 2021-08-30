@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: ba1b9533fe5dfa2cfd163a1f92b34a43d7dbd741
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0d2489031254dc3d97fd65690de208c0fa9fd37a3bdb2b039a6a8f076092edb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070169"
 ---
 # <a name="d3dxmatrix-structure-d3dx10mathh"></a>D3DXMATRIX, structure (D3DX10Math. h)
 
@@ -50,7 +50,7 @@ Composant (i, j) de la matrice, où i est le numéro de ligne et j le numéro de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les programmeurs C ne peuvent pas utiliser la structure D3DXMATRIX, ils doivent utiliser la structure D3DMATRIX. Les programmeurs C++ peuvent tirer parti des opérateurs surchargés et des opérateurs d’assignation, unaires et binaires (y compris l’égalité).
 

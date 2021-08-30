@@ -1,19 +1,19 @@
 ---
 title: Fonctions d’adaptateur de capteur
-description: Un adaptateur de capteur encapsule un périphérique biométrique et fournit une interface standard qui permet au service de biométrie Windows de configurer le capteur, de capturer des échantillons et de contrôler le workflow de données biométriques pour le moteur de traitement.
+description: un adaptateur de capteur encapsule un périphérique biométrique et fournit une interface standard qui permet au service de Windows biométrique de configurer le capteur, de capturer des échantillons et de contrôler le workflow de données biométriques pour le moteur de traitement.
 ms.assetid: 32cf28d3-cb78-442d-81db-7827f55b0ba8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cefc5e9221a56a7766e6af6a47449db4405b369
-ms.sourcegitcommit: 8a30948ba97ab969fcaa7f7ff05b853f59d8bd5c
+ms.openlocfilehash: 4ebad4ef849eab4ce0ac2dad110f6272733f1b62da19c47ffc2fe0ec0d3699c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "103724326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101179"
 ---
 # <a name="sensor-adapter-functions"></a>Fonctions d’adaptateur de capteur
 
-Un adaptateur de capteur encapsule un périphérique biométrique et fournit une interface standard qui permet au service de biométrie Windows de configurer le capteur, de capturer des échantillons et de contrôler le workflow de données biométriques pour le moteur de traitement. Les fonctions suivantes doivent être implémentées par le développeur de l’adaptateur. Elles sont appelées par le service de biométrie Windows.
+un adaptateur de capteur encapsule un périphérique biométrique et fournit une interface standard qui permet au service de Windows biométrique de configurer le capteur, de capturer des échantillons et de contrôler le workflow de données biométriques pour le moteur de traitement. Les fonctions suivantes doivent être implémentées par le développeur de l’adaptateur. elles sont appelées par le service biométrique Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -31,11 +31,11 @@ Un adaptateur de capteur encapsule un périphérique biométrique et fournit une
 | [**SensorAdapterDeactivate**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_deactivate_fn)<br/>                           | Permet à l’adaptateur de capteur d’effectuer les tâches nécessaires pour mettre le composant de capteur dans un état d’inactivité.<br/>                                                    |
 | [**SensorAdapterDetach**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn)<br/>                                   | Libère les ressources spécifiques à l’adaptateur attachées au pipeline.<br/>                                                                                                     |
 | [**SensorAdapterExportSensorData**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_export_sensor_data_fn)<br/>               | Récupère l’exemple biométrique capturé le plus récemment mis en forme en tant que structure [**\_ Bir standard WINBIO**](winbio-bir.md) .<br/>                                        |
-| [**SensorAdapterFinishCapture**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn)<br/>                     | Appelée par le Windows Biometric Framework pour attendre la fin d’une opération de capture lancée par la fonction SensorAdapterStartCapture.<br/>                                                                                       |
+| [**SensorAdapterFinishCapture**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn)<br/>                     | appelée par le Windows Biometric Framework pour attendre la fin d’une opération de capture lancée par la fonction SensorAdapterStartCapture.<br/>                                                                                       |
 | [**SensorAdapterGetIndicatorStatus**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn)<br/>           | Récupère une valeur qui indique si l’indicateur de capteur est activé ou désactivé.<br/>                                                                                       |
 | [*SensorAdapterNotifyPowerChange*](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_notify_power_change_fn)<br/>               | Reçoit une notification concernant une modification de l’état d’alimentation de l’ordinateur et prépare l’adaptateur de capteur en conséquence.<br/>                                                     |
-| [**SensorAdapterPipelineCleanup**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_cleanup_fn)<br/>                 | Permet à l’adaptateur de capteur d’effectuer un nettoyage dans qui requiert l’aide des composants du moteur ou de la carte de stockage.<br/>                                   |
-| [**SensorAdapterPipelineInit**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_init_fn)<br/>                       | Permet à l’adaptateur de capteur d’effectuer toute initialisation qui reste incomplète et qui requiert l’aide du moteur ou des composants de l’adaptateur de stockage.<br/> |
+| [**SensorAdapterPipelineCleanup**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_cleanup_fn)<br/>                 | donne à l’adaptateur de capteur la possibilité d’effectuer un nettoyage dans qui requiert l’aide du moteur ou des composants de l’adaptateur Stockage.<br/>                                   |
+| [**SensorAdapterPipelineInit**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_init_fn)<br/>                       | permet à l’adaptateur de capteur d’effectuer toute initialisation qui reste incomplète et qui requiert l’aide du moteur ou Stockage composants de l’adaptateur.<br/> |
 | [**SensorAdapterPushDataToEngine**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn)<br/>               | Met le contenu actuel de l’exemple de mémoire tampon à la disposition de l’adaptateur du moteur.<br/>                                                                                  |
 | [**SensorAdapterQueryCalibrationFormats**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_calibration_formats_fn)<br/> | Détermine l’ensemble des formats d’étalonnage pris en charge par l’adaptateur de capteur.<br/>                                                                                        |
 | [**SensorAdapterQueryExtendedInfo**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_query_extended_info_fn)<br/>             | Détermine les fonctionnalités et les limitations du composant de capteur biométrique.<br/>                                                                                    |

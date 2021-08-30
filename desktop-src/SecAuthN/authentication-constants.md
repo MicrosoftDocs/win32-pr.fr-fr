@@ -4,12 +4,12 @@ ms.assetid: 3e5b7fd8-01bf-4090-b68f-006b7e2228a9
 title: Constantes d’authentification (authentification)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d671f356f11ccaf1f5aece1dc1168d3106d578c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83345ffde59816a8c15276963cd9d60f2d2d24d179ed06acd2175aacb33ba2c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101389"
 ---
 # <a name="authentication-constants-authentication"></a>Constantes d’authentification (authentification)
 
@@ -37,7 +37,7 @@ La gestion des informations d’identification utilise les constantes suivantes 
 Les fonctions d’interface [*Gina*](/windows/desktop/SecGloss/g-gly) et les fonctions de prise en charge [*Winlogon*](/windows/desktop/SecGloss/w-gly) utilisent les valeurs définies suivantes.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 

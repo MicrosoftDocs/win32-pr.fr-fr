@@ -4,12 +4,12 @@ ms.assetid: faa0dc85-2a66-4c69-acf6-d8d281063512
 description: 'En savoir plus sur : principes de base de COM'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63127039f6f8dc37cdd9b433137d8f0498402407
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec8a87a9f1fa5e975e56395ea5f5bb50180061a6b7ba1cbdb7f0f3391651662c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071069"
 ---
 # <a name="com-fundamentals"></a>Notions de base de COM
 

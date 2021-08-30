@@ -4,12 +4,12 @@ description: AeDebug définit les options de débogage à distance pour COM.
 ms.assetid: 0708a6e5-7bb0-4bbe-a4fd-efeaa9f4a701
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43c9df4ab08b3b3884681ba117afc638d4bc32f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 929b9a06d39f9cd9ed8b5fcdad17421f4cd29e7842b8796078b86175c70eb248
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071219"
 ---
 # <a name="aedebug"></a>AeDebug
 
@@ -17,7 +17,7 @@ ms.locfileid: "106510813"
 
 ## <a name="registry-key"></a>Clé de Registre
 
-**HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ DebugObjectRPCEnabled \\ AeDebug**
+**HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersion \\ DebugObjectRPCEnabled \\ AeDebug**
 
 
 
@@ -28,7 +28,7 @@ ms.locfileid: "106510813"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ ms.locfileid: "106510813"
 [**ORPC \_ dbg \_ tout**](orpc-dbg-all.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

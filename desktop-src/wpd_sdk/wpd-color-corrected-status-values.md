@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: ec6bfcaa3933bb70c3064f829e701509e3ff32f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 94caa345c0c7bee6c500109d6ebc6cbedd0aefae5254a254dbc5af907e0be737
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089589"
 ---
 # <a name="wpd_color_corrected_status_values-enumeration"></a>\_ \_ \_ Énumération des valeurs d’État corrigées de couleurs wpd \_
 
@@ -62,7 +62,7 @@ L’image n’a pas été et ne doit pas être corrigée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Indique l’état de couleur corrigé d’une image. Cette énumération est utilisée par la propriété de l' [ \_ \_ \_ \_ État couleur corrigée de l’image wpd](image-properties.md) .
 

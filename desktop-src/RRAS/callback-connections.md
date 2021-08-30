@@ -4,12 +4,12 @@ description: RAS prend en charge les connexions dans lesquelles le serveur dista
 ms.assetid: 25f0e84d-8900-4efe-b07d-59f25186c976
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9aabe3bf5503f16d7d27e44e02dc19ccb2a6f2e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b72d10285c6920befe7a508bf69ef1e5d21c19e8632534f94dd8ccb9a0ed1743
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030429"
 ---
 # <a name="callback-connections"></a>Connexions de rappel
 
@@ -30,10 +30,10 @@ Si l’appel de [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) active l
 > [!Note]  
 > Si les États suspendus ne sont pas activés, il existe une autre signification lorsque **szCallbackNumber** pointe vers une chaîne d’astérisques « \* ». Dans ce cas, l’astérisque indique que le numéro de rappel est stocké dans le fichier de l’annuaire téléphonique spécifié par l’appel [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) .
 
- 
+ 
 
 Dans le cas d’un rappel, l’appel à [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) ne retourne pas de valeur tant que le serveur n’a pas rappelé le client.
 
- 
+ 
 
- 
+ 

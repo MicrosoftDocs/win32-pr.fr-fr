@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes Win32_LogicalDisk
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a50d0fc3235c72bf5864b8998d5851d2a0eeca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc2422468edd875ba9e85a042113772210b7918ab05e1487cf9ff546f9543ccc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973409"
 ---
 # <a name="win32_logicaldisk-methods"></a>\_Méthodes logiques Win32
 

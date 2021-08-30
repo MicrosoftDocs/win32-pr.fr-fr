@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1dadd1c187773df3ca41ac0e1e4daf06fb54761b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a05a04e1012824e1204318fc3bddaf3e0317c32f3e53fa0e6a5a46f7dd1b50a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103189"
 ---
 # <a name="cbasepropertypageshow-method"></a>CBasePropertyPage. Show, méthode
 
@@ -48,7 +48,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                  | Description                    |
 |----------------------------------------------------------------------------------------------|--------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>            |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>            |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Argument non valide.<br/>   |
 | <dl> <dt>**E \_ inattendu**</dt> </dl> | Erreur inattendue.<br/> |
 
@@ -56,7 +56,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

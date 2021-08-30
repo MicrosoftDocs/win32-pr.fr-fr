@@ -3,9 +3,9 @@ title: IWMPControls méthode Next
 description: La méthode suivante définit l’élément suivant dans la sélection comme élément actuel.
 ms.assetid: 3f82ef25-a1e0-4845-b0ed-dd6463719577
 keywords:
-- méthode suivante lecteur Windows Media
-- méthode Next lecteur Windows Media, interface IWMPControls
-- IWMPControls interface Windows Media Player, Next, méthode
+- méthode suivante Lecteur Windows Media
+- next, méthode Lecteur Windows Media, IWMPControls, interface
+- Lecteur Windows Media de l’interface IWMPControls, méthode next
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8444ba7d9209759cb64c4b582e1af9d074332ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa7b2fcb4a05078f1eefe90c266d636ec80cff219226246c622ce6040824c45d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031279"
 ---
 # <a name="iwmpcontrolsnext-method"></a>IWMPControls :: Next, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la sélection se trouve sur la dernière entrée **lors de** l’appel de la méthode, la première entrée de la sélection devient la dernière.
 
@@ -123,10 +123,10 @@ End Sub
 [**Interface IWMPControls (VB et C#)**](iwmpcontrols--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Previous (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md)
+[**IWMPControls. previous (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls. stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> </dl>
 
  

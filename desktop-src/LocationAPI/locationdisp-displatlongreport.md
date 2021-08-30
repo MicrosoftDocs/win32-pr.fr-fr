@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 1b9629f22aee33670463b2a0832c12d520a9b8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af6d0df9dfa3bec9249cb2e55cb34dc552ce6a19be26495430a8d602a4427da1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129869"
 ---
 # <a name="locationdispdisplatlongreport-object"></a>LocationDisp. DispLatLongReport, objet
 
-\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l’API [**Windows. Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l' [**Windows. API Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Représente un rapport de latitude/longitude.
 
@@ -50,7 +50,7 @@ L’objet **LocationDisp. DispLatLongReport** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez récupérer cet objet via la propriété [**LatLongReport**](locationdisp-latlongreportfactory-latlongreport.md) de l’objet [**LatLongReportFactory**](locationdisp-latlongreportfactory.md) . Vous pouvez recevoir cet objet via l’événement [**NewLatLongReport**](newlatlongreport.md) .
 
@@ -60,7 +60,7 @@ Vous pouvez récupérer cet objet via la propriété [**LatLongReport**](locatio
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                  |
 
 

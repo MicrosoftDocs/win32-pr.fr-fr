@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 700cbb29fe34700da953df5a20aa94d5a2df4a06
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 378853de9470e4416f287abcb251b60cce532a69
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985662"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466196"
 ---
 # <a name="jetrestoreinstance-function"></a>Fonction JetRestoreInstance
 
@@ -101,14 +101,7 @@ Les différentes étapes de la récupération auront des entrées de journal des
 #### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
-| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetRestoreInstanceW</strong> (Unicode) et <strong>JetRestoreInstanceA</strong> (ANSI).</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetRestoreInstanceW</strong> (Unicode) et <strong>JetRestoreInstanceA</strong> (ANSI).</p> | 
 
 
 

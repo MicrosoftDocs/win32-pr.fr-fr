@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b3e1f3a21b5e5f901ef039b9cff0cdd52d415d5
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: e89ef10fede80b6b48bf0177c2eb7d883c072633
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983022"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468316"
 ---
 # <a name="jet_tablecreate3-structure"></a>Structure JET_TABLECREATE3
 
@@ -179,12 +179,7 @@ Le nombre d’objets créés est égal à la somme des colonnes, des tables et d
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_TABLECREATE3_W</strong> (Unicode) et <strong>JET_TABLECREATE3_A</strong> (ANSI).</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_TABLECREATE3_W</strong> (Unicode) et <strong>JET_TABLECREATE3_A</strong> (ANSI).</p> | 
 
 
 

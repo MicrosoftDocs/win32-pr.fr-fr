@@ -4,12 +4,12 @@ description: Fonctions de modèle de contrôle déconseillées
 ms.assetid: 06434b07-7592-4909-8c4e-064382bdbf98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f646f9a9e3139d487785e344b9d3fc242b1a40e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f9b5a058ef908b3e83166224863e48113ef966f7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379685"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466456"
 ---
 # <a name="deprecated-control-pattern-functions"></a>Fonctions de modèle de contrôle déconseillées
 
@@ -28,452 +28,64 @@ ms.locfileid: "104379685"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-dockpattern_setdockposition"><strong>DockPattern_SetDockPosition</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation de Microsoft à la place.
-</blockquote>
-<br/> Ancre l’élément UI Automation au <em>DockPosition</em> demandé dans un conteneur d’ancrage.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-expandcollapsepattern_collapse"><strong>ExpandCollapsePattern_Collapse</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Masque tous les nœuds, contrôles ou contenu descendants de l’élément UI Automation.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-expandcollapsepattern_expand"><strong>ExpandCollapsePattern_Expand</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Développe un contrôle à l’écran pour afficher plus d’informations.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-gridpattern_getitem"><strong>GridPattern_GetItem</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Obtient le nœud d’un élément dans une grille.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-invokepattern_invoke"><strong>InvokePattern_Invoke</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Envoie une requête pour activer un contrôle et initier son action unique et non équivoque.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-itemcontainerpattern_finditembyproperty"><strong>ItemContainerPattern_FindItemByProperty</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère un nœud dans un nœud conteneur, en fonction d’une valeur de propriété spécifiée.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_dodefaultaction"><strong>LegacyIAccessiblePattern_DoDefaultAction</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Exécute l’action Microsoft Active Accessibility par défaut pour l’élément.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_getiaccessible"><strong>LegacyIAccessiblePattern_GetIAccessible</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère un objet <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible"><strong>IAccessible</strong></a> qui correspond à l’élément UI Automation.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_select"><strong>LegacyIAccessiblePattern_Select</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Effectue une sélection Microsoft Active Accessibility.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_setvalue"><strong>LegacyIAccessiblePattern_SetValue</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Définit la propriété de valeur de Active Accessibility Microsoft pour le nœud.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-multipleviewpattern_getviewname"><strong>MultipleViewPattern_GetViewName</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère le nom d'un affichage spécifique au contrôle.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-multipleviewpattern_setcurrentview"><strong>MultipleViewPattern_SetCurrentView</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Définit un contrôle sur une disposition différente.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-rangevaluepattern_setvalue"><strong>RangeValuePattern_SetValue</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Définit la valeur d’un contrôle qui a une plage numérique.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollitempattern_scrollintoview"><strong>ScrollItemPattern_ScrollIntoView</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait défiler la zone de contenu d’un objet conteneur pour afficher l’élément UI Automation dans la zone visible (fenêtre d’affichage) du conteneur.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollpattern_scroll"><strong>ScrollPattern_Scroll</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait défiler la zone actuellement visible de la zone de contenu avec l' <a href="/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-scrollamount"><strong>ScrollAmount</strong></a>spécifié, horizontalement, verticalement, ou les deux.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollpattern_setscrollpercent"><strong>ScrollPattern_SetScrollPercent</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait défiler un conteneur vers une position spécifique horizontalement, verticalement, ou les deux.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_addtoselection"><strong>SelectionItemPattern_AddToSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Ajoute un élément non sélectionné à une sélection dans un contrôle.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_removefromselection"><strong>SelectionItemPattern_RemoveFromSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Supprime un élément de la sélection dans un conteneur de sélection.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_select"><strong>SelectionItemPattern_Select</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Sélectionne un élément dans un conteneur de sélection.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-synchronizedinputpattern_cancel"><strong>SynchronizedInputPattern_Cancel</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait en sorte que le fournisseur UI Automation arrête d’écouter la souris ou l’entrée au clavier.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-synchronizedinputpattern_startlistening"><strong>SynchronizedInputPattern_StartListening</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait en sorte que le fournisseur UI Automation commence à écouter la souris ou l’entrée au clavier.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_get_documentrange"><strong>TextPattern_get_DocumentRange</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Obtient la plage de texte pour le document entier.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_get_supportedtextselection"><strong>TextPattern_get_SupportedTextSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Vérifie si le contenu du conteneur de texte peut être sélectionné et désélectionné.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_getselection"><strong>TextPattern_GetSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Obtient la plage actuelle du texte sélectionné à partir d’un conteneur de texte prenant en charge le modèle de texte.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_getvisibleranges"><strong>TextPattern_GetVisibleRanges</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère un tableau de plages de texte disjointes à partir d'un conteneur de texte où chaque plage de texte commence à la première ligne partiellement visible et se termine à la dernière ligne partiellement visible. Par exemple, une disposition à plusieurs colonnes dans laquelle les colonnes sont partiellement déplacées hors de la zone visible de la fenêtre d’affichage et le contenu se déplace du bas d’une colonne vers le haut de la suivante.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_rangefromchild"><strong>TextPattern_RangeFromChild</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Obtient la plage de texte étendue par un nœud donné.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_rangefrompoint"><strong>TextPattern_RangeFromPoint</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère la plage de texte dégénérée (vide) la plus proche des coordonnées d’écran spécifiées.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_addtoselection"><strong>TextRange_AddToSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Ajoute à la collection existante de texte en surbrillance dans un conteneur de texte qui prend en charge les sélections multiples et disjointes en mettant en surbrillance le texte supplémentaire correspondant aux points de terminaison de <em>début</em> et de <em>fin</em> de la plage de texte appelante.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_clone"><strong>TextRange_Clone</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Copie une plage de texte.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_compare"><strong>TextRange_Compare</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Compare deux plages de texte.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_compareendpoints"><strong>TextRange_CompareEndpoints</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Retourne une valeur indiquant si deux plages de texte ont des points de terminaison identiques.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_expandtoenclosingunit"><strong>TextRange_ExpandToEnclosingUnit</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Développe la plage de texte jusqu’à une unité plus grande ou plus petite, telle qu’un caractère, un mot, une ligne ou une page.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_findattribute"><strong>TextRange_FindAttribute</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Recherche dans une direction spécifiée la première partie du texte prenant en charge un attribut de texte spécifié.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_findtext"><strong>TextRange_FindText</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Retourne la première plage de texte dans la direction spécifiée qui contient le texte que le client recherche.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getattributevalue"><strong>TextRange_GetAttributeValue</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Obtient la valeur d’un attribut de texte pour une plage de texte.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getboundingrectangles"><strong>TextRange_GetBoundingRectangles</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Récupère le nombre minimal de rectangles englobants qui peuvent encadrer la plage, un rectangle par ligne.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getchildren"><strong>TextRange_GetChildren</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Retourne tous les éléments UI Automation contenus dans la plage de texte spécifiée.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getenclosingelement"><strong>TextRange_GetEnclosingElement</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Retourne le nœud pour le prochain fournisseur le plus petit qui couvre la plage.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_gettext"><strong>TextRange_GetText</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Retourne le texte d’une plage de texte, jusqu’à un nombre spécifié de caractères.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_move"><strong>TextRange_Move</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Déplace la plage de texte du nombre spécifié d’unités demandées par le client.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_moveendpointbyrange"><strong>TextRange_MoveEndpointByRange</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Déplace un point de terminaison d’une plage vers le point de terminaison d’une autre plage.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_moveendpointbyunit"><strong>TextRange_MoveEndpointByUnit</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Déplace un point de terminaison de la plage du nombre d’unités spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_removefromselection"><strong>TextRange_RemoveFromSelection</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Supprime le texte sélectionné, correspondant à la plage de texte appelante <em>TextPatternRangeEndpoint_Start</em> et <em>TextPatternRangeEndpoint_End</em> points de terminaison, à partir d’une collection existante de texte sélectionné dans un conteneur de texte qui prend en charge les sélections multiples et disjointes.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_scrollintoview"><strong>TextRange_ScrollIntoView</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait défiler le texte afin que la plage spécifiée soit visible dans la fenêtre d’affichage.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_select"><strong>TextRange_Select</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Sélectionne une plage de texte.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-togglepattern_toggle"><strong>TogglePattern_Toggle</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Bascule un contrôle à son prochain état pris en charge.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_move"><strong>TransformPattern_Move</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Déplace un élément à un emplacement spécifié sur l’écran.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_resize"><strong>TransformPattern_Resize</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Redimensionne un élément à l’écran.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_rotate"><strong>TransformPattern_Rotate</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Fait pivoter un élément à l’écran.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-valuepattern_setvalue"><strong>ValuePattern_SetValue</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Définit la valeur de texte d’un élément.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-virtualizeditempattern_realize"><strong>VirtualizedItemPattern_Realize</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Rend l'élément virtuel totalement accessible en tant qu'élément UI Automation.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_close"><strong>WindowPattern_Close</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Ferme une fenêtre ouverte.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_setwindowvisualstate"><strong>WindowPattern_SetWindowVisualState</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Définit l’état visuel d’une fenêtre ; par exemple, pour agrandir une fenêtre.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_waitforinputidle"><strong>WindowPattern_WaitForInputIdle</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.
-</blockquote>
-<br/> Provoque le blocage du code appelant pendant la durée spécifiée ou jusqu’à ce que le processus associé bascule dans un état d’inactivité (en fonction de l’échéance la plus proche).<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-dockpattern_setdockposition"><strong>DockPattern_SetDockPosition</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation de Microsoft à la place.</blockquote><br /> Ancre l’élément UI Automation au <em>DockPosition</em> demandé dans un conteneur d’ancrage.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-expandcollapsepattern_collapse"><strong>ExpandCollapsePattern_Collapse</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Masque tous les nœuds, contrôles ou contenu descendants de l’élément UI Automation.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-expandcollapsepattern_expand"><strong>ExpandCollapsePattern_Expand</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Développe un contrôle à l’écran pour afficher plus d’informations.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-gridpattern_getitem"><strong>GridPattern_GetItem</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Obtient le nœud d’un élément dans une grille.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-invokepattern_invoke"><strong>InvokePattern_Invoke</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Envoie une requête pour activer un contrôle et initier son action unique et non équivoque.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-itemcontainerpattern_finditembyproperty"><strong>ItemContainerPattern_FindItemByProperty</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère un nœud dans un nœud conteneur, en fonction d’une valeur de propriété spécifiée.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_dodefaultaction"><strong>LegacyIAccessiblePattern_DoDefaultAction</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Exécute l’action Microsoft Active Accessibility par défaut pour l’élément.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_getiaccessible"><strong>LegacyIAccessiblePattern_GetIAccessible</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère un objet <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible"><strong>IAccessible</strong></a> qui correspond à l’élément UI Automation.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_select"><strong>LegacyIAccessiblePattern_Select</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Effectue une sélection Microsoft Active Accessibility.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-legacyiaccessiblepattern_setvalue"><strong>LegacyIAccessiblePattern_SetValue</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Définit la propriété de valeur de Active Accessibility Microsoft pour le nœud.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-multipleviewpattern_getviewname"><strong>MultipleViewPattern_GetViewName</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère le nom d'un affichage spécifique au contrôle.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-multipleviewpattern_setcurrentview"><strong>MultipleViewPattern_SetCurrentView</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Définit un contrôle sur une disposition différente.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-rangevaluepattern_setvalue"><strong>RangeValuePattern_SetValue</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Définit la valeur d’un contrôle qui a une plage numérique.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollitempattern_scrollintoview"><strong>ScrollItemPattern_ScrollIntoView</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait défiler la zone de contenu d’un objet conteneur pour afficher l’élément UI Automation dans la zone visible (fenêtre d’affichage) du conteneur.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollpattern_scroll"><strong>ScrollPattern_Scroll</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait défiler la zone actuellement visible de la zone de contenu avec l' <a href="/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-scrollamount"><strong>ScrollAmount</strong></a>spécifié, horizontalement, verticalement, ou les deux.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-scrollpattern_setscrollpercent"><strong>ScrollPattern_SetScrollPercent</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait défiler un conteneur vers une position spécifique horizontalement, verticalement, ou les deux.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_addtoselection"><strong>SelectionItemPattern_AddToSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Ajoute un élément non sélectionné à une sélection dans un contrôle.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_removefromselection"><strong>SelectionItemPattern_RemoveFromSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Supprime un élément de la sélection dans un conteneur de sélection.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-selectionitempattern_select"><strong>SelectionItemPattern_Select</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Sélectionne un élément dans un conteneur de sélection.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-synchronizedinputpattern_cancel"><strong>SynchronizedInputPattern_Cancel</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait en sorte que le fournisseur UI Automation arrête d’écouter la souris ou l’entrée au clavier.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-synchronizedinputpattern_startlistening"><strong>SynchronizedInputPattern_StartListening</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait en sorte que le fournisseur UI Automation commence à écouter la souris ou l’entrée au clavier.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_get_documentrange"><strong>TextPattern_get_DocumentRange</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Obtient la plage de texte pour le document entier.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_get_supportedtextselection"><strong>TextPattern_get_SupportedTextSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Vérifie si le contenu du conteneur de texte peut être sélectionné et désélectionné.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_getselection"><strong>TextPattern_GetSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Obtient la plage actuelle du texte sélectionné à partir d’un conteneur de texte prenant en charge le modèle de texte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_getvisibleranges"><strong>TextPattern_GetVisibleRanges</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère un tableau de plages de texte disjointes à partir d'un conteneur de texte où chaque plage de texte commence à la première ligne partiellement visible et se termine à la dernière ligne partiellement visible. Par exemple, une disposition à plusieurs colonnes dans laquelle les colonnes sont partiellement déplacées hors de la zone visible de la fenêtre d’affichage et le contenu se déplace du bas d’une colonne vers le haut de la suivante.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_rangefromchild"><strong>TextPattern_RangeFromChild</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Obtient la plage de texte étendue par un nœud donné.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textpattern_rangefrompoint"><strong>TextPattern_RangeFromPoint</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère la plage de texte dégénérée (vide) la plus proche des coordonnées d’écran spécifiées.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_addtoselection"><strong>TextRange_AddToSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Ajoute à la collection existante de texte en surbrillance dans un conteneur de texte qui prend en charge les sélections multiples et disjointes en mettant en surbrillance le texte supplémentaire correspondant aux points de terminaison de <em>début</em> et de <em>fin</em> de la plage de texte appelante.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_clone"><strong>TextRange_Clone</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Copie une plage de texte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_compare"><strong>TextRange_Compare</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Compare deux plages de texte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_compareendpoints"><strong>TextRange_CompareEndpoints</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Retourne une valeur indiquant si deux plages de texte ont des points de terminaison identiques.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_expandtoenclosingunit"><strong>TextRange_ExpandToEnclosingUnit</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Développe la plage de texte jusqu’à une unité plus grande ou plus petite, telle qu’un caractère, un mot, une ligne ou une page.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_findattribute"><strong>TextRange_FindAttribute</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Recherche dans une direction spécifiée la première partie du texte prenant en charge un attribut de texte spécifié.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_findtext"><strong>TextRange_FindText</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Retourne la première plage de texte dans la direction spécifiée qui contient le texte que le client recherche.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getattributevalue"><strong>TextRange_GetAttributeValue</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Obtient la valeur d’un attribut de texte pour une plage de texte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getboundingrectangles"><strong>TextRange_GetBoundingRectangles</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Récupère le nombre minimal de rectangles englobants qui peuvent encadrer la plage, un rectangle par ligne.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getchildren"><strong>TextRange_GetChildren</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Retourne tous les éléments UI Automation contenus dans la plage de texte spécifiée.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_getenclosingelement"><strong>TextRange_GetEnclosingElement</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Retourne le nœud pour le prochain fournisseur le plus petit qui couvre la plage.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_gettext"><strong>TextRange_GetText</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Retourne le texte d’une plage de texte, jusqu’à un nombre spécifié de caractères.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_move"><strong>TextRange_Move</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Déplace la plage de texte du nombre spécifié d’unités demandées par le client.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_moveendpointbyrange"><strong>TextRange_MoveEndpointByRange</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Déplace un point de terminaison d’une plage vers le point de terminaison d’une autre plage.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_moveendpointbyunit"><strong>TextRange_MoveEndpointByUnit</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Déplace un point de terminaison de la plage du nombre d’unités spécifié.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_removefromselection"><strong>TextRange_RemoveFromSelection</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Supprime le texte sélectionné, correspondant à la plage de texte appelante <em>TextPatternRangeEndpoint_Start</em> et <em>TextPatternRangeEndpoint_End</em> points de terminaison, à partir d’une collection existante de texte sélectionné dans un conteneur de texte qui prend en charge les sélections multiples et disjointes.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_scrollintoview"><strong>TextRange_ScrollIntoView</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait défiler le texte afin que la plage spécifiée soit visible dans la fenêtre d’affichage.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-textrange_select"><strong>TextRange_Select</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Sélectionne une plage de texte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-togglepattern_toggle"><strong>TogglePattern_Toggle</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Bascule un contrôle à son prochain état pris en charge.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_move"><strong>TransformPattern_Move</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Déplace un élément à un emplacement spécifié sur l’écran.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_resize"><strong>TransformPattern_Resize</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Redimensionne un élément à l’écran.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-transformpattern_rotate"><strong>TransformPattern_Rotate</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Fait pivoter un élément à l’écran.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-valuepattern_setvalue"><strong>ValuePattern_SetValue</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Définit la valeur de texte d’un élément.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-virtualizeditempattern_realize"><strong>VirtualizedItemPattern_Realize</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Rend l'élément virtuel totalement accessible en tant qu'élément UI Automation.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_close"><strong>WindowPattern_Close</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Ferme une fenêtre ouverte.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_setwindowvisualstate"><strong>WindowPattern_SetWindowVisualState</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Définit l’état visuel d’une fenêtre ; par exemple, pour agrandir une fenêtre.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-windowpattern_waitforinputidle"><strong>WindowPattern_WaitForInputIdle</strong></a><br /> | <blockquote>[!Note]<br />Cette fonction est déconseillée. Les applications clientes doivent utiliser les interfaces COM UI Automation à la place.</blockquote><br /> Provoque le blocage du code appelant pendant la durée spécifiée ou jusqu’à ce que le processus associé bascule dans un état d’inactivité (en fonction de l’échéance la plus proche).<br /> | 
+
 
 
 

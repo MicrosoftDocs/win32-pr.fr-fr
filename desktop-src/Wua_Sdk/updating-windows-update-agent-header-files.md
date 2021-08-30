@@ -1,19 +1,19 @@
 ---
-description: Mise à jour pour les fichiers d’en-tête de l’API de l’agent de Windows Update (WUA).
+description: mise à jour pour les fichiers d’en-tête de l’API de l’Agent de Windows Update (WUA).
 ms.assetid: 241052d0-d704-42e2-b6f3-03f3fa16b645
-title: Mise à jour des fichiers d’en-tête d’agent Windows Update
+title: mise à jour des fichiers d’en-tête d’Agent Windows Update
 ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: 27cdea5011ac5ab8e740005ecd6895cbf05da68b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 721e0024846cb77fed3be07d7c49d329eec101247241242d9097620dfd0e57a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071283"
 ---
-# <a name="updating-windows-update-agent-header-files"></a>Mise à jour des fichiers d’en-tête d’agent Windows Update
+# <a name="updating-windows-update-agent-header-files"></a>mise à jour des fichiers d’en-tête d’Agent Windows Update
 
-Les API de l’agent de Windows Update étaient auparavant un téléchargement séparé. Ils sont désormais inclus dans le cadre du SDK Windows. Pour télécharger le SDK Windows accédez à [cette page](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+les api de l’Agent de Windows Update étaient auparavant un téléchargement séparé. ils sont désormais inclus dans le cadre du SDK Windows. pour télécharger le SDK Windows accédez à [cette page](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
-Pour plus d’informations sur la mise à jour de WUA, consultez [mise à jour de l’agent de Windows Update](updating-the-windows-update-agent.md).
+pour plus d’informations sur la mise à jour de WUA, consultez [mise à jour de l’Agent de Windows Update](updating-the-windows-update-agent.md).
 

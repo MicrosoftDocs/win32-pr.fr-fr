@@ -4,12 +4,12 @@ ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
 title: Décodeur vidéo H. 264
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d70b7e0f01dcf283729aebd58e2f361513edaba2ea12fde217968a7935cda9f2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4488328fed3fe6a46feabb7eac99761ee673c3f4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119449169"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468846"
 ---
 # <a name="h264-video-decoder"></a>Décodeur vidéo H. 264
 
@@ -52,41 +52,14 @@ Pour éviter une modification de format initiale, fournissez autant d’informat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>Fréquence d’images.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>Dimensions de l’image.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>Mode entrelacé.
-<blockquote>
-[!Note]<br />
-Dans la vidéo H. 264, la structure entrelacée peut changer de manière dynamique, donc la valeur recommandée de cet attribut est <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Les informations entrelacées dans le flux élémentaire vidéo sont prioritaires sur le type de média. Pour plus d’informations, consultez l' <a href="video-interlacing.md">entrelacement de vidéos</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Proportions de pixels.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Fréquence d’images. | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Dimensions de l’image. | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Mode entrelacé.<blockquote>[!Note]<br />Dans la vidéo H. 264, la structure entrelacée peut changer de manière dynamique, donc la valeur recommandée de cet attribut est <strong>MFVideoInterlace_MixedInterlaceOrProgressive</strong>. Les informations entrelacées dans le flux élémentaire vidéo sont prioritaires sur le type de média. Pour plus d’informations, consultez l' <a href="video-interlacing.md">entrelacement de vidéos</a>.</blockquote><br /><br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Proportions de pixels. | 
+
 
 
 
@@ -153,39 +126,9 @@ Le décodeur prend en charge les formats suivants :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Profils/niveaux</td>
-<td>Les profils de base, principal et élevé, jusqu’au niveau 5,1. (Pour plus d’informations, consultez la spécification ITU-T H. 264.)</td>
-</tr>
-<tr class="even">
-<td>Formats de chrominance</td>
-<td>4:2:0 Chroma ou monochrome</td>
-</tr>
-<tr class="odd">
-<td>Résolution minimale</td>
-<td>48 × 48 pixels</td>
-</tr>
-<tr class="even">
-<td>Résolution maximale</td>
-<td>4096 × 2304 pixels<br/> La résolution maximale garantie pour l’accélération DXVA est de 1920 × 1088 pixels ; à des résolutions supérieures, le décodage s’effectue avec DXVA, s’il est pris en charge par le matériel sous-jacent ; sinon, le décodage est effectué avec le logiciel.<br/>
-<blockquote>
-[!Note]<br />
-dans Windows 7, la résolution maximale prise en charge est de 1920 × 1088 pixels pour le décodage logiciel et DXVA.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>DXVA</td>
-<td>Le décodeur prend en charge la version 2 DXVA, mais pas la version 1 de la version DXVA. Le décodage DXVA est pris en charge uniquement pour les flux de bits de ligne de base, principal et de profil principal compatibles. (Les flux de bits de base compatibles avec les principaux sont définis comme <strong>profile_idc</strong>= 66 et <strong>constrained_set1_flag</strong>= 1.)</td>
-</tr>
-</tbody>
-</table>
+
+| | | Profils/niveaux | Les profils de base, principal et élevé, jusqu’au niveau 5,1. (Pour plus d’informations, consultez la spécification ITU-T H. 264.) | | Formats Chroma | 4:2:0 Chroma ou monochrome | | Résolution minimale | 48 × 48 pixels | | Résolution maximale | 4096 × 2304 pixels<br /> La résolution maximale garantie pour l’accélération DXVA est de 1920 × 1088 pixels ; à des résolutions supérieures, le décodage s’effectue avec DXVA, s’il est pris en charge par le matériel sous-jacent ; sinon, le décodage est effectué avec le logiciel.<br /><blockquote>[!Note]<br />dans Windows 7, la résolution maximale prise en charge est de 1920 × 1088 pixels pour le décodage logiciel et DXVA.</blockquote><br /><br /> | | DXVA | Le décodeur prend en charge la version 2 DXVA, mais pas la version 1 de la version DXVA. Le décodage DXVA est pris en charge uniquement pour les flux de bits de ligne de base, principal et de profil principal compatibles. (Les flux de bits de base compatibles avec les principaux sont définis comme <strong>profile_idc</strong>= 66 et <strong>constrained_set1_flag</strong>= 1.) | 
+
 
 
 

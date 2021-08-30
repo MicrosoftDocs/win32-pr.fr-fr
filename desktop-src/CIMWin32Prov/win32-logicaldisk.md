@@ -1,5 +1,5 @@
 ---
-description: Représente une source de données qui correspond à un périphérique de stockage local réel sur un système informatique exécutant Windows.
+description: Représente une source de données qui correspond à un périphérique de stockage local réel sur un système d’ordinateur exécutant Windows.
 ms.assetid: 134a90cc-b2c3-4ade-a317-b96c4aabe63d
 ms.tgt_platform: multiple
 title: Classe Win32_LogicalDisk
@@ -56,12 +56,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ad1472f14e73d06c19ccc0808794a47f7588cf9b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6ccd719adf39bcd27ebdf8c22f5da6ac3d541b1127eb5c66fc9566ccb2a25434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973399"
 ---
 # <a name="win32_logicaldisk-class"></a>\_Classe disque logique Win32
 
@@ -478,7 +478,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Code d’erreur Windows Configuration Manager.
+Windows Code d’erreur Configuration Manager.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -537,12 +537,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -621,12 +621,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -749,7 +749,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -760,7 +760,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -815,7 +815,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -1095,7 +1095,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| , fonctions du système de fichiers [**GetVolumeInformation**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa))
 </dt> </dl>
 
-Longueur maximale d’un composant de nom de fichier pris en charge par le lecteur Windows. Un composant de nom de fichier est cette partie d’un nom de fichier entre barres obliques inverses. La valeur peut être utilisée pour indiquer que les noms longs sont pris en charge par le système de fichiers spécifié. Par exemple, pour un système de fichiers FAT prenant en charge les noms longs, la fonction stocke la valeur 255, plutôt que l’indicateur 8,3 précédent. Les noms longs peuvent également être pris en charge sur les systèmes qui utilisent le système de fichiers NTFS.
+longueur maximale d’un composant de nom de fichier pris en charge par le lecteur Windows. Un composant de nom de fichier est cette partie d’un nom de fichier entre barres obliques inverses. La valeur peut être utilisée pour indiquer que les noms longs sont pris en charge par le système de fichiers spécifié. Par exemple, pour un système de fichiers FAT prenant en charge les noms longs, la fonction stocke la valeur 255, plutôt que l’indicateur 8,3 précédent. Les noms longs peuvent également être pris en charge sur les systèmes qui utilisent le système de fichiers NTFS.
 
 Exemple : 255
 
@@ -1410,7 +1410,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1537,7 +1537,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« win32api \| Windows Networking Functions \| WNetGetConnection »)
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows fonctions réseau \| WNetGetConnection")
 </dt> </dl>
 
 Chemin d’accès réseau à l’unité logique.
@@ -1900,7 +1900,7 @@ Exemple : « A8C3-D032 »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ disque logique Win32** est dérivée du [**\_ disque logique CIM**](cim-logicaldisk.md) qui dérive de [**CIM \_ StorageExtent**](cim-storageextent.md). La classe **CIM \_ StorageExtent** est dérivée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1921,7 +1921,7 @@ L’exemple de code VBScript de l' [extracteur d’informations WMI](https://Gal
 
 La [récupération d’informations sur le disque à l’aide de WMI/CIM...](https://Gallery.TechNet.Microsoft.Com/Get-Disk-info-using-wmicim-ff0bd352) L’exemple de code PowerShell sur la Galerie TechNet utilise le **\_ disque logique Win32** pour récupérer **DeviceID**, **nom_volume** et la **taille** d’un appareil cible. En particulier, cet exemple comprend une gestion rigoureuse des exceptions et retourne un seul objet par ordinateur, plutôt que par disque.
 
-Les scripts d’entreprise impliquent souvent la configuration du matériel et des logiciels sur des ordinateurs distants. à son tour, vous devez savoir, à l’avance, le type de lecteur de disque installé sur un ordinateur. Par exemple, un script qui installe une application sur le lecteur E fonctionne uniquement si le lecteur E est un disque dur. Si le lecteur E représente une disquette ou un lecteur de CD-ROM, le script échoue. Le code suivant identifie les lecteurs et les types de lecteurs installés sur un ordinateur.
+Enterprise l’écriture de scripts implique souvent la configuration du matériel et des logiciels sur des ordinateurs distants ; à son tour, vous devez savoir, à l’avance, le type de lecteur de disque installé sur un ordinateur. Par exemple, un script qui installe une application sur le lecteur E fonctionne uniquement si le lecteur E est un disque dur. Si le lecteur E représente une disquette ou un lecteur de CD-ROM, le script échoue. Le code suivant identifie les lecteurs et les types de lecteurs installés sur un ordinateur.
 
 
 ```VB

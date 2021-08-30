@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b8007b7387a09e31f49dbc833f657bc959ee11e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f7b2c499716bb8da3d2cc9a7db5dd06a2341c5d75876468f5e81853a8120944
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071459"
 ---
 # <a name="swbemsink-object"></a>Objet SWbemSink
 
@@ -46,7 +46,7 @@ L’objet **SWbemSink** a ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un rappel asynchrone permet à un utilisateur non authentifié de fournir des données au récepteur. Cela pose des risques de sécurité pour vos scripts et vos applications. Pour éliminer les risques, utilisez une communication semi-synchrone ou une communication synchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
@@ -86,7 +86,7 @@ En revanche, dans un script semi-synchrone, une requête est émise et le script
 
 Toutefois, lors de l’interrogation d’un journal des événements, l’intervalle entre le moment où la requête est émise et le moment où un script semi-synchrone peut se terminer et le retour des informations peut prendre des heures. En plus de cela, le script peut manquer de mémoire et échouer de manière autonome avant de terminer.
 
-Pour les journaux des événements avec un grand nombre d’enregistrements, la différence de temps de traitement peut être considérable. Sur un ordinateur de test basé sur Windows 2000 avec 2 000 enregistrements dans le journal des événements, une requête semi-synchrone qui a récupéré tous les événements et les a affichés dans une fenêtre de commande a duré 10 minutes 45 secondes. Une requête asynchrone qui a effectué la même opération a duré une minute de 54 secondes.
+Pour les journaux des événements avec un grand nombre d’enregistrements, la différence de temps de traitement peut être considérable. sur un ordinateur de test Windows 2000 avec 2 000 enregistrements dans le journal des événements, une requête semi-synchrone qui a récupéré tous les événements et les a affichés dans une fenêtre de commande a duré 10 minutes 45 secondes. Une requête asynchrone qui a effectué la même opération a duré une minute de 54 secondes.
 
 ## <a name="examples"></a>Exemples
 

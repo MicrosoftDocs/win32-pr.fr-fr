@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f5365bd9aca023d42d9f2ab1d9de5d242497b8b21842004b2bb508f362752bd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6421c054080e250bca4e673a66dcc4096a541519
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004497"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466439"
 ---
 # <a name="encryptafterhardwaretest-method-of-the-win32_encryptablevolume-class"></a>Méthode EncryptAfterHardwareTest de la \_ classe Win32 EncryptableVolume
 
@@ -95,7 +95,7 @@ Combinaison de 32 bits avec les bits suivants actuellement définis.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -105,78 +105,18 @@ Cette méthode est retournée immédiatement. Si le volume est déjà entièreme
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code/valeur de retour</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>S_OK</strong></dt> <dt>0 (0x0)</dt> </dl></td>
-<td>La méthode a réussi.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> <dt>2147942487 (0x80070057)</dt> </dl></td>
-<td>Le paramètre <em>EncryptionMethod</em> est fourni, mais il n’est pas dans la plage connue ou ne correspond pas au paramètre de stratégie de groupe actuel.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt> <dt>2150694958 (0x8031002E)</dt> </dl></td>
-<td>Il n’existe aucune clé de chiffrement pour le volume.<br/> Désactivez les protecteurs de clé à l’aide de la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> , ou utilisez l’une des méthodes suivantes pour spécifier les protecteurs de clé pour le volume :
-<ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt> <dt>2150694942 (0x8031001E)</dt> </dl></td>
-<td>Le volume ne peut pas être chiffré car cet ordinateur est configuré pour faire partie d’un cluster de serveurs.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_NO_PROTECTORS_TO_TEST</strong></dt> <dt>2150694971 (0x8031003B)</dt> </dl></td>
-<td>Aucun protecteur de clé de type &quot; TPM &quot; , &quot; TPM et pin &quot; , TPM, &quot; code confidentiel et clé de démarrage &quot; , TPM et clé de &quot; démarrage &quot; ou &quot; clé externe ne &quot; peut être trouvé. Le test matériel concerne uniquement les protecteurs de clé précédents.<br/> Si vous souhaitez toujours exécuter un test matériel, vous devez utiliser l’une des méthodes suivantes pour spécifier les protecteurs de clé pour le volume :
-<ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_NOT_DECRYPTED</strong></dt> <dt>2150694969 (0x80310039)</dt> </dl></td>
-<td>Le volume est partiellement ou entièrement chiffré.<br/> Le test matériel s’applique avant le chiffrement. Si vous souhaitez toujours exécuter le test, utilisez d’abord la méthode <a href="decrypt-win32-encryptablevolume.md"><strong>Decrypt</strong></a> , puis utilisez l’une des méthodes suivantes pour ajouter des protecteurs de clé :
-<ul>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>FVE_E_NOT_OS_VOLUME</strong></dt> <dt>2150694952 (0x80310028)</dt> </dl></td>
-<td>Le volume est un volume de données.<br/> Le test matériel s’applique uniquement aux volumes qui peuvent démarrer le système d’exploitation. Exécutez cette méthode sur le volume du système d’exploitation actuellement démarré.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt> <dt>2150694956 (0x8031002C)</dt> </dl></td>
-<td>Aucun protecteur de clé du type de &quot; mot de passe numérique &quot; n’est spécifié. Le stratégie de groupe nécessite une sauvegarde des informations de récupération pour Active Directory Domain Services. Pour ajouter au moins un protecteur de clé de ce type, utilisez la méthode <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Code/valeur de retour | Description | 
+|-------------------|-------------|
+| <dl><dt><strong>S_OK</strong></dt><dt>0 (0x0)</dt></dl> | La méthode a réussi.<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt><dt>2147942487 (0x80070057)</dt></dl> | Le paramètre <em>EncryptionMethod</em> est fourni, mais il n’est pas dans la plage connue ou ne correspond pas au paramètre de stratégie de groupe actuel.<br /> | 
+| <dl><dt><strong>FVE_E_CANNOT_ENCRYPT_NO_KEY</strong></dt><dt>2150694958 (0x8031002E)</dt></dl> | Il n’existe aucune clé de chiffrement pour le volume.<br /> Désactivez les protecteurs de clé à l’aide de la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> , ou utilisez l’une des méthodes suivantes pour spécifier les protecteurs de clé pour le volume :<ul><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> | 
+| <dl><dt><strong>FVE_E_CLUSTERING_NOT_SUPPORTED</strong></dt><dt>2150694942 (0x8031001E)</dt></dl> | Le volume ne peut pas être chiffré car cet ordinateur est configuré pour faire partie d’un cluster de serveurs.<br /> | 
+| <dl><dt><strong>FVE_E_NO_PROTECTORS_TO_TEST</strong></dt><dt>2150694971 (0x8031003B)</dt></dl> | Aucun protecteur de clé de type « TPM », « TPM et PIN », « TPM et PIN et clé de démarrage », « TPM et clé de démarrage » ou « clé externe » ne peut être trouvé. Le test matériel concerne uniquement les protecteurs de clé précédents.<br /> Si vous souhaitez toujours exécuter un test matériel, vous devez utiliser l’une des méthodes suivantes pour spécifier les protecteurs de clé pour le volume :<ul><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> | 
+| <dl><dt><strong>FVE_E_NOT_DECRYPTED</strong></dt><dt>2150694969 (0x80310039)</dt></dl> | Le volume est partiellement ou entièrement chiffré.<br /> Le test matériel s’applique avant le chiffrement. Si vous souhaitez toujours exécuter le test, utilisez d’abord la méthode <a href="decrypt-win32-encryptablevolume.md"><strong>Decrypt</strong></a> , puis utilisez l’une des méthodes suivantes pour ajouter des protecteurs de clé :<ul><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> | 
+| <dl><dt><strong>FVE_E_NOT_OS_VOLUME</strong></dt><dt>2150694952 (0x80310028)</dt></dl> | Le volume est un volume de données.<br /> Le test matériel s’applique uniquement aux volumes qui peuvent démarrer le système d’exploitation. Exécutez cette méthode sur le volume du système d’exploitation actuellement démarré.<br /> | 
+| <dl><dt><strong>FVE_E_POLICY_PASSWORD_REQUIRED</strong></dt><dt>2150694956 (0x8031002C)</dt></dl> | Aucun protecteur de clé du type « mot de passe numérique » n’est spécifié. Le stratégie de groupe nécessite une sauvegarde des informations de récupération pour Active Directory Domain Services. Pour ajouter au moins un protecteur de clé de ce type, utilisez la méthode <a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a> .<br /> | 
+
 
 
 

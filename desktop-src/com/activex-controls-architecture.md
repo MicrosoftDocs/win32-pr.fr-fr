@@ -1,21 +1,21 @@
 ---
-title: Architecture des contrôles ActiveX
-description: La technologie des contrôles ActiveX s’appuie sur une base de nombreux objets et interfaces de niveau inférieur dans OLE. Les interfaces exactes disponibles sur un contrôle varient en fonction de ses capacités. Cette section examine de plus près les fonctionnalités qu’un contrôle peut fournir.
+title: ActiveX Architecture des contrôles
+description: la technologie de contrôle de ActiveX s’appuie sur une base de nombreux objets et interfaces de niveau inférieur dans OLE. Les interfaces exactes disponibles sur un contrôle varient en fonction de ses capacités. Cette section examine de plus près les fonctionnalités qu’un contrôle peut fournir.
 ms.assetid: 42959a11-8bfb-4f7e-ba27-5dc1ed49cdaa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0592d774e1930623803d0769fb7890709a2f21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cde527bcfc5e683d35da8f267a6cb8b22a85cb6d84e77b905ef30325deb1d850
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071239"
 ---
-# <a name="activex-controls-architecture"></a>Architecture des contrôles ActiveX
+# <a name="activex-controls-architecture"></a>ActiveX Architecture des contrôles
 
-La technologie des contrôles ActiveX s’appuie sur une base de nombreux objets et interfaces de niveau inférieur dans OLE. Les interfaces exactes disponibles sur un contrôle varient en fonction de ses capacités. Cette section examine de plus près les fonctionnalités qu’un contrôle peut fournir.
+la technologie de contrôle de ActiveX s’appuie sur une base de nombreux objets et interfaces de niveau inférieur dans OLE. Les interfaces exactes disponibles sur un contrôle varient en fonction de ses capacités. Cette section examine de plus près les fonctionnalités qu’un contrôle peut fournir.
 
-Les contrôles ActiveX sont utilisés pour fournir les blocs de construction permettant de créer des interfaces utilisateur dans des applications. Par exemple, un bouton qui lance une action dans l’application conteneur quand l’utilisateur clique dessus est un contrôle simple. Les aspects suivants sont impliqués dans la fourniture de ces blocs de construction d’interface utilisateur :
+les contrôles ActiveX sont utilisés pour fournir les blocs de construction permettant de créer des interfaces utilisateur dans des applications. Par exemple, un bouton qui lance une action dans l’application conteneur quand l’utilisateur clique dessus est un contrôle simple. Les aspects suivants sont impliqués dans la fourniture de ces blocs de construction d’interface utilisateur :
 
 -   Un contrôle peut être incorporé dans son client de conteneur pour prendre en charge une activité de l’interface utilisateur au sein du client. Ainsi, un contrôle doit fournir une représentation visuelle de lui-même lorsqu’il est incorporé dans le conteneur et doit fournir un moyen d’enregistrer son état, par exemple ses valeurs de propriété et sa position dans son conteneur. Le client doit prendre en charge un conteneur avec des objets incorporés dans celui-ci.
 -   En activant le contrôle à l’aide d’un clavier ou d’une souris, l’utilisateur final lance une action dans l’application cliente. Ainsi, un contrôle doit répondre à l’activité du clavier et doit être en mesure de communiquer avec son client pour qu’il puisse notifier son conteneur de ses activités et déclencher des événements dans le client.
@@ -28,14 +28,14 @@ En raison de son rôle dans la fourniture des blocs de construction de l’inter
 <span id="Properties_and_methods"></span><span id="properties_and_methods"></span><span id="PROPERTIES_AND_METHODS"></span>Propriétés et méthodes
 </dt> <dd>
 
-Comme tout objet OLE, un contrôle peut fournir une grande partie de ses fonctionnalités via un ensemble d’interfaces entrantes avec des propriétés et des méthodes. Le conteneur peut fournir des propriétés ambiantes supplémentaires et peut prendre en charge l’extension des propriétés du contrôle par le biais de l’agrégation. Ces fonctionnalités reposent sur OLE Automation, les pages de propriétés, les objets connectables et les technologies de contrôle ActiveX.
+Comme tout objet OLE, un contrôle peut fournir une grande partie de ses fonctionnalités via un ensemble d’interfaces entrantes avec des propriétés et des méthodes. Le conteneur peut fournir des propriétés ambiantes supplémentaires et peut prendre en charge l’extension des propriétés du contrôle par le biais de l’agrégation. ces fonctionnalités reposent sur l’automatisation OLE, les pages de propriétés, les objets connectables et les technologies de contrôle ActiveX.
 
 </dd> <dt>
 
 <span id="Events"></span><span id="events"></span><span id="EVENTS"></span>Événements
 </dt> <dd>
 
-En plus de fournir des propriétés et des méthodes, un contrôle ActiveX peut également fournir des interfaces sortantes pour notifier son client d’événements. Le client doit prendre en charge la gestion de ces événements. Ces fonctionnalités utilisent l’automatisation OLE et les objets connectables.
+en plus de fournir des propriétés et des méthodes, un contrôle de ActiveX peut également fournir des interfaces sortantes pour notifier son client d’événements. Le client doit prendre en charge la gestion de ces événements. Ces fonctionnalités utilisent l’automatisation OLE et les objets connectables.
 
 </dd> <dt>
 
@@ -73,12 +73,12 @@ La plupart de ces fonctionnalités impliquent à la fois le contrôle et son con
 
 <dl> <dt>
 
-[Contrôles ActiveX](activex-controls.md)
+[ActiveX Commandes](activex-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

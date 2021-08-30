@@ -4,12 +4,12 @@ ms.assetid: 59296384-5e78-44dd-8019-f1df6668928b
 title: Objets de traitement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e6d9758faf2b66f047ca60dbba91601b202b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 883ad9745b2c5116bdd0d6b83aaa6f22bcca55d2b3551f07c3d43d70102c0556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978479"
 ---
 # <a name="job-objects"></a>Objets de traitement
 
@@ -28,7 +28,7 @@ Pour créer un objet de traitement, utilisez la fonction [**CreateJobObject**](/
 
 Pour associer un processus à un travail, utilisez la fonction [**AssignProcessToJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-assignprocesstojobobject) . Une fois qu’un processus est associé à un travail, l’Association ne peut pas être interrompue. Un processus peut être associé à plusieurs travaux dans une hiérarchie de travaux imbriqués. Pour plus d’informations, consultez [tâches imbriquées](nested-jobs.md).
 
-**Windows 7, Windows server 2008 R2, Windows XP avec SP3, Windows server 2008, Windows Vista et Windows server 2003 :** Un processus ne peut être associé qu’à un seul travail. Les travaux ne peuvent pas être imbriqués. La capacité à imbriquer des travaux a été ajoutée dans Windows 8 et Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows XP avec SP3, Windows server 2008, Windows Vista et Windows Server 2003 :** Un processus ne peut être associé qu’à un seul travail. Les travaux ne peuvent pas être imbriqués. la capacité à imbriquer des travaux a été ajoutée dans Windows 8 et Windows Server 2012.
 
 Vous pouvez spécifier un descripteur de sécurité pour un objet de traitement lorsque vous appelez la fonction [**CreateJobObject**](/windows/desktop/api/WinBase/nf-winbase-createjobobjecta) . Pour plus d’informations, consultez [sécurité et droits d’accès à l’objet de traitement](job-object-security-and-access-rights.md).
 
@@ -59,7 +59,7 @@ Pour définir les limites d’un travail, utilisez la fonction [**SetInformation
 
 Les limites de sécurité doivent être définies individuellement pour chaque processus associé à un objet de traitement. Pour plus d’informations, consultez [sécurité des processus et droits d’accès](process-security-and-access-rights.md).
 
-**Windows XP avec SP3 et Windows Server 2003 :** La fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) peut être utilisée pour définir des limites de sécurité pour tous les processus associés à un objet de traitement. À compter de Windows Vista, les limites de sécurité doivent être définies individuellement pour chaque processus associé à un objet de traitement.
+**Windows XP avec SP3 et Windows Server 2003 :** La fonction [**SetInformationJobObject**](/windows/win32/api/jobapi2/nf-jobapi2-setinformationjobobject) peut être utilisée pour définir des limites de sécurité pour tous les processus associés à un objet de traitement. à partir de Windows Vista, les limites de sécurité doivent être définies individuellement pour chaque processus associé à un objet de traitement.
 
 Si le travail est imbriqué, les travaux parents dans la hiérarchie influencent la limite appliquée pour le travail. Pour plus d’informations, consultez [tâches imbriquées](nested-jobs.md).
 
@@ -86,7 +86,7 @@ Pour fermer un handle d’objet de traitement, utilisez la fonction [**CloseHand
 
 ## <a name="managing-a-process-tree-that-uses-job-objects"></a>Gestion d’une arborescence de processus qui utilise des objets de traitement
 
-À compter de Windows 8 et de Windows Server 2012, une application peut utiliser des [tâches imbriquées](nested-jobs.md) pour gérer une arborescence de processus qui utilise plus d’un objet de traitement. Toutefois, une application qui doit s’exécuter sur Windows 7, Windows Server 2008 R2 ou des versions antérieures de Windows qui ne prennent pas en charge les travaux imbriqués doit gérer l’arborescence de processus d’une autre manière.
+à partir de Windows 8 et Windows Server 2012, une application peut utiliser des [tâches imbriquées](nested-jobs.md) pour gérer une arborescence de processus qui utilise plusieurs objets de traitement. toutefois, une application qui doit s’exécuter sur Windows 7, Windows Server 2008 R2 ou des versions antérieures de Windows qui ne prennent pas en charge les travaux imbriqués doit gérer l’arborescence de processus d’une autre manière.
 
 Si un outil doit gérer une arborescence de processus qui utilise des objets de traitement et qu’il n’est pas possible d’utiliser des tâches imbriquées, l’outil et les membres de l’arborescence de processus doivent coopérer. Utilisez l’une des options suivantes :
 

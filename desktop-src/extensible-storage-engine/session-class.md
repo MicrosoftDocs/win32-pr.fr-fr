@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1bbfa62205965237d0dc2416b94c9e8b130ce31e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b24dceeb86f22f8b72f227f9f5649960aaf8ae941777081f183af106004b85d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115559"
 ---
 # <a name="session-class"></a>Session class (Classe Session)
 

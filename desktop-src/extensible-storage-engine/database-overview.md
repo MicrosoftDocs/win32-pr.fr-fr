@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269290(v=EXCHG.10)
 ms:contentKeyID: 32765582
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 473ffc7f11b3688f0f0904ae15a366ef7d6812d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0b90e1faec861c995c5f9f789af9b4dda68cfb68c704c6ace6d3b367a2e209f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976353"
 ---
 # <a name="database-overview"></a>Présentation de la base de données
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="database-overview"></a>Présentation de la base de données
 

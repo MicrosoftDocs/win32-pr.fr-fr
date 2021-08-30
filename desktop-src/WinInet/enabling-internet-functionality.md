@@ -4,12 +4,12 @@ description: Avant d’utiliser les fonctions WinINet, l’application doit tent
 ms.assetid: 80747c0d-5a09-4ffa-a0ca-b051b82acbf8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23f4780b508059c088e2948829662171fd6df46f
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 60f4c45aed970651e2bae6b6742097653f393dd9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885493"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468066"
 ---
 # <a name="enabling-internet-functionality"></a>Activation des fonctionnalités Internet
 
@@ -47,13 +47,13 @@ Les fonctions WinINet prennent en charge les proxys de type SOCKS uniquement si 
 
 WinINet reconnaît deux types de proxies : les proxys de type CERN (HTTP uniquement) et les proxys FTP TIS (FTP uniquement). Si Internet Explorer est installé, WinINet prend également en charge les proxys de type SOCKS. [**Internetconnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) suppose, par défaut, que le proxy spécifié est un proxy CERN. Si le type d’accès est défini sur INTERNET \_ Open \_ type direct ou sur la \_ \_ \_ \_ préconfiguration de type Open Internet, le paramètre *LpszProxyName* de [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) doit avoir la valeur **null**. Dans le cas contraire, la valeur transmise à *lpszProxyName* doit contenir les proxies dans une chaîne délimitée par des espaces. Les listes de proxy peuvent contenir le numéro de port utilisé pour accéder au proxy.
 
-Pour répertorier un proxy pour un protocole spécifique, la chaîne doit respecter le format « » &lt; protocole de protocole &gt; &lt; &gt; ://<nom du proxy \_> « ». Les protocoles valides sont HTTP, HTTPs et FTP. Par exemple, pour répertorier un proxy FTP, une chaîne valide serait « » ftp = ftp://FTP \_ proxy \_ Name : 21 " », où FTP \_ proxy \_ Name est le nom du proxy FTP et 21 le numéro de port qui doit être utilisé pour accéder au proxy. Si le proxy utilise le numéro de port par défaut pour ce protocole, le numéro de port peut être omis. Si un nom de proxy est listé par lui-même, il est utilisé comme proxy par défaut pour tous les protocoles qui n’ont pas de proxy spécifique spécifié. Par exemple, « http = https://http\_proxy other » utilise \_ un proxy HTTP pour toutes les opérations http, tandis que tous les autres protocoles utiliseraient other.
+Pour répertorier un proxy pour un protocole spécifique, la chaîne doit respecter le format « » <protocol> <protocol> ://<\_ nom du proxy> « ». Les protocoles valides sont HTTP, HTTPs et FTP. Par exemple, pour répertorier un proxy FTP, une chaîne valide serait « » ftp = ftp://FTP \_ proxy \_ Name : 21 " », où FTP \_ proxy \_ Name est le nom du proxy FTP et 21 le numéro de port qui doit être utilisé pour accéder au proxy. Si le proxy utilise le numéro de port par défaut pour ce protocole, le numéro de port peut être omis. Si un nom de proxy est listé par lui-même, il est utilisé comme proxy par défaut pour tous les protocoles qui n’ont pas de proxy spécifique spécifié. Par exemple, « http = https://http\_proxy other » utilise \_ un proxy HTTP pour toutes les opérations http, tandis que tous les autres protocoles utiliseraient other.
 
 Par défaut, la fonction suppose que le proxy spécifié par *lpszProxyName* est un proxy CERN. Une application peut spécifier plusieurs proxys, y compris des proxies différents pour les différents protocoles. Par exemple, si vous spécifiez «"ftp = ftp://FTP-GW HTTP = https://jericho:99 proxy" ", les demandes FTP sont effectuées via le proxy FTP-GW, qui écoute le port 21, et les requêtes http sont effectuées via un proxy CERN appelé Jéricho, qui écoute le port 99. Sinon, les requêtes HTTP sont effectuées via le proxy CERN appelé proxy, qui écoute le port 80. Notez que si l’application utilise uniquement FTP, par exemple, elle n’a pas besoin de spécifier « » ftp = ftp://FTP-GW : 21 " ». Il peut spécifier simplement «« FTP-GW »». Une application est uniquement requise pour spécifier les noms de protocole si elle utilise plusieurs protocoles par handle renvoyé par [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena).
 
 ### <a name="listing-the-proxy-bypass"></a>Affichage du contournement du proxy
 
-Les noms d’hôtes ou adresses IP qui ne doivent pas être envoyés au proxy peuvent être répertoriés dans la liste de contournement du proxy. Cette liste peut contenir des caractères génériques, « \* », qui obligent l’application à contourner le serveur proxy pour les adresses qui correspondent au modèle spécifié. Pour répertorier plusieurs adresses et noms d’hôtes, séparez-les par des points-virgules dans la chaîne de contournement du proxy. Si la &lt; macro « locale &gt; » est spécifiée, la fonction contourne le proxy pour tout nom d’hôte qui ne contient pas de point.
+Les noms d’hôtes ou adresses IP qui ne doivent pas être envoyés au proxy peuvent être répertoriés dans la liste de contournement du proxy. Cette liste peut contenir des caractères génériques, « \* », qui obligent l’application à contourner le serveur proxy pour les adresses qui correspondent au modèle spécifié. Pour répertorier plusieurs adresses et noms d’hôtes, séparez-les par des points-virgules dans la chaîne de contournement du proxy. Si la <local> macro «» est spécifiée, la fonction contourne le proxy pour tout nom d’hôte qui ne contient pas de point.
 
 Par défaut, WinINet contournera le proxy pour les demandes qui utilisent les noms d’hôte « localhost », « Loopback », « 127.0.0.1 » ou « \[ :: 1 \] ». Ce comportement existe parce qu’un serveur proxy distant ne résout généralement pas correctement ces adresses.
 

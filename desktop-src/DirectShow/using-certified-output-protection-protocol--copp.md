@@ -4,12 +4,12 @@ ms.assetid: 23eebe93-416b-48c8-a05f-019e38b9a660
 title: Utilisation du protocole COPP (Certified Output Protection Protocol)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76460e335985c2aab7f9047b55d2df05aace0269
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c97ee1daf62f2d1fb42cdb63e02ae31991c168cfeaaf4437c2e77643fc6cbd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086769"
 ---
 # <a name="using-certified-output-protection-protocol-copp"></a>Utilisation du protocole COPP (Certified Output Protection Protocol)
 
@@ -21,7 +21,7 @@ Le protocole COPP (Certified Output Protection Protocol) permet à une applicati
 
 Si la carte graphique prend en charge l’un de ces mécanismes, l’application peut utiliser COPP pour définir le niveau de protection.
 
-COPP définit un protocole qui est utilisé pour établir un canal de communication sécurisé avec le pilote Graphics. Il utilise des codes d’authentification de message (Mac) pour vérifier l’intégrité des commandes COPP transmises entre l’application et le pilote d’affichage. L’application utilise COPP en appelant des méthodes sur l’interface [**IAMCertifiedOutputProtection**](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection) du filtre de convertisseur de mixage vidéo DIRECTSHOW (VMR-7 ou VMR-9).
+COPP définit un protocole qui est utilisé pour établir un canal de communication sécurisé avec le pilote Graphics. Il utilise des codes d’authentification de message (Mac) pour vérifier l’intégrité des commandes COPP transmises entre l’application et le pilote d’affichage. l’application utilise COPP en appelant des méthodes sur l’interface [**IAMCertifiedOutputProtection**](/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection) du filtre de convertisseur de mixage vidéo DirectShow (vmr-7 ou vmr-9).
 
 COPP ne définit rien sur les stratégies de droits numériques qui peuvent s’appliquer au contenu multimédia numérique. En outre, COPP n’implémente aucun système de protection de sortie. Le protocole COPP permet simplement de définir et d’interroger des niveaux de protection sur la carte graphique, à l’aide des systèmes de protection fournis par l’adaptateur.
 

@@ -4,12 +4,12 @@ ms.assetid: 6be05df7-e8ff-4110-8f73-a62eb31fd414
 title: Utilisation des files d’attente de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7bb41b830742ca871d44cadac9bd26a9967aa1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80c288c6aad2d6d95e99362c8479a0d75cbb5699d448c984e9a3fef317c4d16b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012189"
 ---
 # <a name="using-work-queues"></a>Utilisation des files d’attente de travail
 

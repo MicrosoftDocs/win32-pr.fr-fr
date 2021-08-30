@@ -9,12 +9,12 @@ keywords:
 - déclencheurs inactifs Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 501be9b73e3ec355b998697fb5e87c5163224b71
-ms.sourcegitcommit: 857e701bbd35004661bb047e1f24622af9ff1dd7
+ms.openlocfilehash: 5f21f11939808f147020d29e4d10e04b62b404820c413f88fab3bafe2654d6d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "103734668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072592"
 ---
 # <a name="task-idle-conditions"></a>Conditions d’inactivité de la tâche
 
@@ -22,13 +22,13 @@ Une tâche peut être gérée de plusieurs façons lorsque l’ordinateur entre 
 
 ## <a name="detecting-the-idle-state"></a>Détection de l’état inactif
 
-Dans Windows 7, le Planificateur de tâches vérifie que l’ordinateur est en état d’inactivité toutes les 15 minutes. Planificateur de tâches recherche un état inactif à l’aide de deux critères : absence de l’utilisateur et consommation de ressources insuffisante. L’utilisateur est considéré comme absent s’il n’y a pas d’entrée de clavier ou de souris pendant cette période. L’ordinateur est considéré comme inactif si tous les processeurs et tous les disques étaient inactifs pendant plus de 90% du dernier intervalle de détection. (Une exception serait pour n’importe quelle application de type de présentation qui définit les ES \_ AFFICHER l' \_ indicateur obligatoire. Cet indicateur force la planification des tâches à ne pas considérer le système comme étant inactif, quelle que soit l’activité de l’utilisateur ou la consommation des ressources.)
+dans Windows 7, le Planificateur de tâches vérifie que l’ordinateur est en état d’inactivité toutes les 15 minutes. Planificateur de tâches recherche un état inactif à l’aide de deux critères : absence de l’utilisateur et consommation de ressources insuffisante. L’utilisateur est considéré comme absent s’il n’y a pas d’entrée de clavier ou de souris pendant cette période. L’ordinateur est considéré comme inactif si tous les processeurs et tous les disques étaient inactifs pendant plus de 90% du dernier intervalle de détection. (Une exception serait pour n’importe quelle application de type de présentation qui définit les ES \_ AFFICHER l' \_ indicateur obligatoire. Cet indicateur force la planification des tâches à ne pas considérer le système comme étant inactif, quelle que soit l’activité de l’utilisateur ou la consommation des ressources.)
 
-Dans Windows 7, Planificateur de tâches considère qu’un processeur est inactif même lorsque les threads de faible priorité (priorité de thread < normale) s’exécutent.
+dans Windows 7, Planificateur de tâches considère qu’un processeur est inactif même lorsque les threads de faible priorité (priorité de thread < normale) s’exécutent.
 
-Dans Windows 7, lorsque le Planificateur de tâches détecte que l’ordinateur est inactif, le service attend uniquement l’entrée utilisateur pour marquer la fin de l’état inactif.
+dans Windows 7, lorsque le Planificateur de tâches détecte que l’ordinateur est inactif, le service attend uniquement l’entrée utilisateur pour marquer la fin de l’état inactif.
 
-Dans Windows 8, Planificateur de tâches effectue les mêmes vérifications générales d’absence et de consommation des ressources. Toutefois, Planificateur de tâches s’appuie sur le sous-système d’alimentation du système d’exploitation pour détecter la présence de l’utilisateur. Par défaut, l’utilisateur est considéré comme absent après quatre minutes, sans clavier ou entrée de souris. L’heure de vérification de la consommation des ressources est raccourcie à 10 minutes lorsque l’utilisateur est présent. Lorsque l’utilisateur est absent, la durée de la vérification est réduite à 30 secondes. Planificateur de tâches effectue des vérifications de la consommation des ressources supplémentaires pour les événements suivants :
+dans Windows 8, Planificateur de tâches effectue les mêmes vérifications générales d’absence et de consommation des ressources. Toutefois, Planificateur de tâches s’appuie sur le sous-système d’alimentation du système d’exploitation pour détecter la présence de l’utilisateur. Par défaut, l’utilisateur est considéré comme absent après quatre minutes, sans clavier ou entrée de souris. L’heure de vérification de la consommation des ressources est raccourcie à 10 minutes lorsque l’utilisateur est présent. Lorsque l’utilisateur est absent, la durée de la vérification est réduite à 30 secondes. Planificateur de tâches effectue des vérifications de la consommation des ressources supplémentaires pour les événements suivants :
 
 -   État de présence de l’utilisateur modifié
 -   Source d’alimentation AC/DC modifiée
@@ -36,9 +36,9 @@ Dans Windows 8, Planificateur de tâches effectue les mêmes vérifications gén
 
 Lorsque l’un des événements ci-dessus se produit, Planificateur de tâches teste l’ordinateur en cas d’inactivité depuis la dernière heure de vérification. En pratique, cela signifie que Planificateur de tâches pouvez déclarer le système comme inactif immédiatement après la détection de l’absence de l’utilisateur, si les autres conditions ont été remplies depuis la dernière heure de vérification.
 
-Dans Windows 8, les seuils d’UC et d’e/s sont définis sur 80%.
+dans Windows 8, les seuils d’uc et d’e/s sont définis sur 80%.
 
-Lors de la détection de l’état inactif dans Windows 8 Server, Planificateur de tâches ne prend pas en compte la présence ou l’absence d’un utilisateur. Pour marquer la fin de l’état inactif, Planificateur de tâches révise la consommation des ressources une fois en 90 minutes.
+lors de la détection de l’état inactif dans Windows 8 serveur, Planificateur de tâches ne prend pas en compte la présence ou l’absence d’un utilisateur. Pour marquer la fin de l’état inactif, Planificateur de tâches révise la consommation des ressources une fois en 90 minutes.
 
 ## <a name="defining-an-idle-trigger"></a>Définition d’un déclencheur inactif
 
@@ -77,7 +77,7 @@ Si une tâche est déclenchée par un déclencheur inactif, la propriété [**Wa
 
 Les applications peuvent contrôler les conditions d’inactivité en définissant les propriétés dans les interfaces [**IIdleSettings**](/windows/desktop/api/taskschd/nn-taskschd-iidlesettings) et [**IIdleTrigger**](/windows/win32/api/taskschd/nn-taskschd-iidletrigger) .
 
-En cas de lecture ou d’écriture de code XML, ces conditions sont spécifiées dans l’élément [**Settings**](taskschedulerschema-settings-tasktype-element.md) du schéma planificateur de tâches.
+en cas de lecture ou d’écriture de code XML, ces conditions sont spécifiées dans l’élément [**Paramètres**](taskschedulerschema-settings-tasktype-element.md) du schéma Planificateur de tâches.
 
 ## <a name="cycling-idle-condition"></a>Condition d’inactivité du cycle
 

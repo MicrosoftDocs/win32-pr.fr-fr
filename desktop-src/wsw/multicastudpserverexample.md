@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74497f99c384d082671b01b4874a6f54e6805de3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11dbb427dfc0a957bb08f42b63d54c3121cf6444ad8f7ad507262f59d60c1375
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089479"
 ---
 # <a name="multicastudpserverexample"></a>MulticastUdpServerExample
 
@@ -616,9 +616,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

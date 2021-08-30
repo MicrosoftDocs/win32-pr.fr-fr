@@ -3,7 +3,7 @@ title: Message PSM_RECALCPAGESIZES (Prsht. h)
 description: Recalcule la taille de page d’une feuille de propriétés standard ou d’Assistant après l’ajout ou la suppression de pages. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro PropSheet RecalcPageSizes.
 ms.assetid: 42257ea3-0471-4c67-adcd-01cd2669a51e
 keywords:
-- PSM_RECALCPAGESIZES les contrôles de message Windows
+- PSM_RECALCPAGESIZES les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ae2030f432e8c52ed6208be34d429b4579edb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 222a6de62f7ee416f32648956b6ad5430958a311f5f7d3b34969d116beea2580
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088619"
 ---
 # <a name="psm_recalcpagesizes-message"></a>\_Message PSM RECALCPAGESIZES
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une feuille de propriétés est créée, elle est dimensionnée pour correspondre à sa collection initiale de pages. Pour assurer la compatibilité avec les versions précédentes des contrôles communs, les feuilles de propriétés et les assistants ne se redimensionnent pas automatiquement quand les pages sont ajoutées ou supprimées par la suite. Avec les contrôles communs [version 5,80](common-control-versions.md), les applications doivent envoyer un message **PSM \_ RECALCPAGESIZES** après l’ajout ou la suppression de pages avec [**PSM \_ ADDPAGE**](psm-addpage.md), [**PSM \_ INSERTPAGE**](psm-insertpage.md), [**PSM \_ REMOVEPAGE**](psm-removepage.md)ou leurs macros équivalentes. Elle garantit que la feuille de propriétés est correctement dimensionnée pour sa collection de pages actuelle. Si ce message n’est pas envoyé, certaines pages de la feuille de propriétés peuvent être tronquées ou trop volumineuses.
 
@@ -62,8 +62,8 @@ Lorsqu’une feuille de propriétés est créée, elle est dimensionnée pour co
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

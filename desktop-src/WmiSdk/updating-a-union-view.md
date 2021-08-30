@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Mise à jour d’une vue Union
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b051147ab40aacbf9032c5a0998d5894148985c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7061181971a6f97a0bbde0992b64a8bdb3be8c7441fb4e90cb8fdcd0d675a221
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030329"
 ---
 # <a name="updating-a-union-view"></a>Mise à jour d’une vue Union
 

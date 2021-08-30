@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: c03542797848bc4c974df1069a1c7c3d208f2a47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fc9795329041aa6ec47ff5ebc2116eb8ff5c799869ef6cbf447e68a184cceae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977429"
 ---
 # <a name="apimakekey-method"></a>API. MakeKey, méthode
 

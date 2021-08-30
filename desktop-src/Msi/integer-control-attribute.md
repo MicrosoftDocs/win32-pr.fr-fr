@@ -4,12 +4,12 @@ ms.assetid: 58db9451-d152-439b-b7cf-39ddea84bcc9
 title: Attribut de contrôle entier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6310f6348a533874ce4dc176043a489b595c28b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9311e0a665a8bb71c0cf672a7ca9b71ca0638c678eb5913cab51437f408a378
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996499"
 ---
 # <a name="integer-control-attribute"></a>Attribut de contrôle entier
 
@@ -39,7 +39,7 @@ Si ce bit est défini sur un contrôle, la propriété associée spécifiée dan
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit entier dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

@@ -3,11 +3,11 @@ title: Acquisition de licences
 description: Acquisition de licences
 ms.assetid: dde33d57-6c63-4e1a-8398-5db466fb22fa
 keywords:
-- SDK Windows Media format, API étendues du client DRM
+- Windows Kit de développement logiciel (SDK) Media format, API étendues clientes DRM
 - Windows Media Format SDK, API étendues du client
 - Windows Media Format SDK, API étendues
 - Windows Media Format SDK, API
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
+- Windows Media Format SDK, gestion des droits numériques (DRM)
 - Windows Media Format SDK, acquisition de licences
 - Windows Media Format SDK, licences
 - gestion des droits numériques (DRM), API étendues du client
@@ -24,18 +24,18 @@ keywords:
 - API étendues clientes, acquisition de licences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c024789823ca0cd1b38959d78535ce71e2514897
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e604db93561ac4e9b5e382436a4ec729e33890608d1dcb7c93cbe8372aa8898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089789"
 ---
 # <a name="acquiring-licenses"></a>Acquisition de licences
 
-Un scénario courant pour acquérir des licences est lorsqu’un utilisateur dispose d’un fichier Windows Media protégé et tente d’accéder au contenu pour la première fois. Étant donné que les API étendues du client Windows Media DRM sont distinctes des routines de gestion de fichiers ASF, le scénario d’acquisition de licence de base, bien qu’pris en charge, nécessite plus d’appels d’API que l’utilisation du kit de développement logiciel (SDK) du format Windows Media et du SDK Media Foundation.
+un scénario courant pour acquérir des licences est lorsqu’un utilisateur a un fichier multimédia Windows protégé et tente d’accéder au contenu pour la première fois. étant donné que les api étendues du Client de Media DRM Windows sont séparées des routines de gestion de fichiers ASF, le scénario d’acquisition de licence de base, bien qu’pris en charge, nécessite plus d’appels d’API que l’utilisation du sdk Windows Media Format et du kit de développement logiciel (sdk) Media Foundation.
 
-Cette section décrit comment utiliser les API étendues du client Windows Media DRM pour acquérir des licences stockées dans le magasin de licences local sur un ordinateur client. Elle contient les rubriques suivantes.
+cette section décrit comment utiliser les api étendues du Client Windows Media DRM pour acquérir des licences stockées dans le magasin de licences local sur un ordinateur Client. Elle contient les rubriques suivantes.
 
 
 
@@ -48,7 +48,7 @@ Cette section décrit comment utiliser les API étendues du client Windows Media
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -57,9 +57,9 @@ Cette section décrit comment utiliser les API étendues du client Windows Media
 [**Guide de programmation**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

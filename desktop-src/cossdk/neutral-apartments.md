@@ -4,12 +4,12 @@ ms.assetid: 679742af-7c04-4b0e-822a-a43e1aafa936
 title: Cloisonnements neutres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac3bdff2670e4f99ad94af20278eaca6a38861e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: beea8fbc3d007b26274d4a2b9d4cfd1ac0b604991ad9039b5053ccf534a5c6d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070429"
 ---
 # <a name="neutral-apartments"></a>Cloisonnements neutres
 

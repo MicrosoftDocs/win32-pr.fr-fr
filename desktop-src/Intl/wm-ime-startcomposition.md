@@ -4,12 +4,12 @@ ms.assetid: 2740d009-8685-4f70-9b01-67b71f4ddcbd
 title: Message WM_IME_STARTCOMPOSITION (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7bd9a93b4c6c2e8dba6658c84b5f431dd9a54e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1c45e429277fc2621956646f2f4d5c1162a5ad516b90fd2d4d1e60ffe01e30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086479"
 ---
 # <a name="wm_ime_startcomposition-message"></a>\_ \_ Message STARTCOMPOSITION de l’IME WM
 
@@ -37,7 +37,7 @@ Ce message n’a pas de paramètres.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est une notification à une fenêtre IME permettant d’ouvrir sa fenêtre de composition. Une application doit traiter ce message si elle affiche lui-même des caractères de composition.
 

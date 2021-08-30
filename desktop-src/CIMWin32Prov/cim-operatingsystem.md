@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 76dc59331d3e4fed7c2b79dd95de4ecef02d67d26ab4c9aa66df5d9d7d5a7215
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbdec7fce68231b59d1b2be3cea1c265e9daddea
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020987"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887109"
 ---
 # <a name="cim_operatingsystem-class"></a>\_Classe CIM OperatingSystem
 
@@ -110,7 +110,7 @@ La classe **CIM \_ OperatingSystem** possède ces méthodes.
 
 | Méthode                                                           | Description                                                                                                                            |
 |:-----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| [**Reboot**](reboot-method-in-class-cim-operatingsystem.md)     | Méthode de la classe qui arrête le système informatique, puis le redémarre. Non implémenté par WMI.<br/>                                 |
+| [**Redémarrer**](reboot-method-in-class-cim-operatingsystem.md)     | Méthode de la classe qui arrête le système informatique, puis le redémarre. Non implémenté par WMI.<br/>                                 |
 | [**Correct**](shutdown-method-in-class-cim-operatingsystem.md) | Méthode de classe qui décharge les programmes et les dll jusqu’au point où il est possible de mettre hors tension l’ordinateur en toute sécurité. Non implémenté par WMI.<br/> |
 
 
@@ -223,7 +223,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Distribué**
+**Graphique**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -1175,8 +1175,8 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 </dd> </dl>
 
@@ -1188,7 +1188,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

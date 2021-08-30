@@ -3,7 +3,7 @@ title: NM_DBLCLK (barre d’État) Code de notification (commctrl. h)
 description: Notifie la fenêtre parente d’un contrôle de barre d’État que l’utilisateur a double-cliqué dans le contrôle avec le bouton gauche de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 4c02c76d-2bdb-48ef-aa8e-635d0e200eb1
 keywords:
-- NM_DBLCLK (barre d’État) contrôles Windows de code de notification
+- NM_DBLCLK (barre d’état) Windows des contrôles de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28866effbc4143dc9d0d5a3800f88711c99f88db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de3704d2a8674233d0cd5dce04849db6b0f794bc7fe5032b149de15411a3c068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088829"
 ---
 # <a name="nm_dblclk-status-bar-notification-code"></a>\_DBLCLK nm (barre d’État) Code de notification
 
@@ -55,8 +55,8 @@ Retourne la **valeur true** pour indiquer que le clic de souris a été géré e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

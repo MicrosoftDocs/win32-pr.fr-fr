@@ -4,12 +4,12 @@ ms.assetid: d028d808-0530-43cc-8a5f-2e29f52e0399
 title: Fonctions du fournisseur de services TUISPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 739c5d025189d44e7929db47c35c189ed0cc0826
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46a94bb05d84d0406664588383495c898a80177af73874563bcd5ea4ec05eb3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072809"
 ---
 # <a name="tuispi-service-provider-functions"></a>Fonctions du fournisseur de services TUISPI
 

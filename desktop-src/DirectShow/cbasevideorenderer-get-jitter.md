@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ef39cdb1b7a77dab22db9728268bf7b23b9fcefb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ac86cb74267c508a1f0f266455955e486d3686548202d2a524ee4a49288793e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052279"
 ---
 # <a name="cbasevideorendererget_jitter-method"></a>CBaseVideoRenderer. obtient la \_ méthode d’instabilité
 
@@ -53,7 +53,7 @@ Pointeur vers l’écart type du temps d’intertramage, en millisecondes.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode [**IQualProp :: obtient \_ Gigu**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-iqualprop-get_jitter) .
 
@@ -63,7 +63,7 @@ Cette fonction membre implémente la méthode [**IQualProp :: obtient \_ Gigu**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

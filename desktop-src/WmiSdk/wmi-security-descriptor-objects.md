@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Objets descripteurs de sécurité WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc315e955c2d449d0dea0db97684cc352257cd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edc6f843928e26dd6ac1e081441b60226f6dac885adf5df05021dc2dd7d17737
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030275"
 ---
 # <a name="wmi-security-descriptor-objects"></a>Objets descripteurs de sécurité WMI
 
@@ -21,14 +21,14 @@ WMI a des objets et des méthodes qui vous permettent de lire et manipuler les d
 -   [\_Objet Win32 SecurityDescriptor](/windows)
 -   [DACL et SACL](#dacl-and-sacl)
 -   [\_ACE Win32, \_ approuvé Win32, \_ sid Win32](/windows)
--   [Exemple : vérification de l’accès aux imprimantes](#example-checking-who-has-access-to-printers)
+-   [Exemple : vérification Qui a accès aux imprimantes](#example-checking-who-has-access-to-printers)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="the-role-of-security-descriptors"></a>Rôle des descripteurs de sécurité
 
 Les descripteurs de sécurité définissent les attributs de sécurité des objets sécurisables tels que les fichiers, les clés de Registre, les espaces de noms WMI, les imprimantes, les services ou les partages. Un descripteur de sécurité contient des informations sur le propriétaire et le groupe principal d’un objet. Un fournisseur peut comparer le descripteur de sécurité des ressources à l’identité d’un utilisateur demandeur et déterminer si l’utilisateur a le droit d’accéder à la ressource demandée par un utilisateur. Pour plus d’informations, consultez [accès aux objets sécurisables WMI](access-to-wmi-securable-objects.md).
 
-Certaines méthodes WMI, telles que [**est**](--systemsecurity-getsd.md), retournent un descripteur de sécurité dans le format de tableau d’octets binaire. À compter de Windows Vista, utilisez les méthodes de la classe [**Win32 \_ SecurityDescriptorHelper**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) pour convertir un descripteur de sécurité binaire en une instance de [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor), qui peut être manipulée plus facilement. Pour plus d’informations, consultez [modification de la sécurité d’accès sur des objets sécurisables](changing-access-security-on-securable-objects.md).
+Certaines méthodes WMI, telles que [**est**](--systemsecurity-getsd.md), retournent un descripteur de sécurité dans le format de tableau d’octets binaire. à partir de Windows Vista, utilisez les méthodes de la classe [**win32 \_ SecurityDescriptorHelper**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) pour convertir un descripteur de sécurité binaire en une instance de [**win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor), qui peut être manipulée plus facilement. Pour plus d’informations, consultez [modification de la sécurité d’accès sur des objets sécurisables](changing-access-security-on-securable-objects.md).
 
 ## <a name="access-control-and-wmi-security-objects"></a>Objets de sécurité Access Control et WMI
 
@@ -89,7 +89,7 @@ Le diagramme suivant montre le contenu d’une instance de l' [**\_ ACE Win32**]
 
 ![contenu d’une \- instance ACE Win32](images/win32-ace.png)
 
-## <a name="example-checking-who-has-access-to-printers"></a>Exemple : vérification de l’accès aux imprimantes
+## <a name="example-checking-who-has-access-to-printers"></a>Exemple : vérification Qui a accès aux imprimantes
 
 L’exemple de code VBScript suivant montre comment utiliser le descripteur de sécurité de l’imprimante. Le script appelle la méthode [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer) dans la classe [**Win32 \_ Printer**](/windows/desktop/CIMWin32Prov/win32-printer) pour obtenir le descripteur, puis détermine s’il existe une liste de Access Control discrétionnaire (DACL) présente dans le descripteur de sécurité. S’il existe une liste de contrôle d’accès discrétionnaire, le script obtient la liste des entrées de Access Control (ACE) à partir de la liste DACL. Chaque ACE est représenté par une instance de [**l' \_ entrée**](/previous-versions/windows/desktop/secrcw32prov/win32-ace)du contrôle d’accès Win32. Le script vérifie chaque ACE pour obtenir le nom de l’utilisateur et détermine si l’utilisateur a accès à l’imprimante. L’utilisateur est représenté par une instance de [**\_ confiance Win32**](/previous-versions/windows/desktop/secrcw32prov/win32-trustee) incorporée dans l' **instance \_ ACE Win32** .
 
@@ -152,7 +152,7 @@ Next
 [Maintenance de la sécurité WMI](maintaining-wmi-security.md)
 </dt> <dt>
 
-[Contrôle d’accès](/windows/desktop/SecAuthZ/access-control)
+[Access Control](/windows/desktop/SecAuthZ/access-control)
 </dt> <dt>
 
 [Accès aux espaces de noms WMI](access-to-wmi-namespaces.md)

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 690dc595471baa5514d7f1ab84a8f6def16ee5b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fff97be43f5689acd51b811e81d72e053f4c7ae6b4df398329016304bf418535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995649"
 ---
 # <a name="swbemservicesdelete-method"></a>SWbemServices. Delete, méthode
 
@@ -123,7 +123,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **SWbemServices. Delete** peut être utilisée lorsque la propriété de clé pour l’objet n’a pas de valeur, car cette méthode requiert uniquement un chemin d’accès d’objet comme entrée. Cette méthode peut être utilisée dans les situations où [**SWbemObject. \_ Delete**](swbemobject-delete-.md) échoue pour une valeur de clé manquante. Si l’objet est validé dans WMI via [**SWbemObject. put \_**](swbemobject-put-.md), un objet [**SWbemObjectPath**](swbemobjectpath.md) a été obtenu par le biais de l’appel.
 

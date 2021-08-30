@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: 1e6d0988966d1eb58a21668cad559308eadbd3eb
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d06773526048ed819f0f855b44644e9d7738ca77
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983172"
 ---
 # <a name="extensible-storage-engine-files"></a>fichiers de moteur d’Stockage Extensible
 
@@ -40,7 +40,9 @@ le moteur de Stockage Extensible utilise les types de fichiers suivants :
 Ce tableau contient une vue d’ensemble des noms de fichiers de données qui sont gérés par ESE. pour Windows Vista et versions ultérieures, le paramètre JET_paramLegacyNames a un impact sur les noms de fichiers utilisés.
 
 
-| | |  | 
+| Étiquette | Valeur |
+|--------|-------|
+|  | 
 
 
 

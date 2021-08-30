@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: 77923055-9d00-4528-bda7-b602a26b577f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1be3ea518b63118fc80b02b382943c40ba2fd13b15713488b351b5d6cc827e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb8e1b4119754d524bccfbe4153e12783d9bd38d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119696489"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467086"
 ---
 # <a name="status-bar"></a>Barre d’état
 
@@ -31,37 +31,13 @@ Cette section contient des informations sur les éléments de programmation util
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa"><strong>CreateStatusWindow</strong></a></td>
-<td>Crée une fenêtre d’État, qui est généralement utilisée pour afficher l’état d’une application. La fenêtre apparaît généralement au bas de la fenêtre parente et contient le texte spécifié.
-<blockquote>
-[!Note]<br />
-Cette fonction est obsolète. Utilisez <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa"><strong>CreateWindow</strong></a> à la place.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a> dessine le texte spécifié dans le style d’une fenêtre d’État avec des bordures.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-menuhelp"><strong>MenuHelp</strong></a></td>
-<td>Traite les messages <a href="/windows/desktop/menurc/wm-menuselect"><strong>WM_MENUSELECT</strong></a> et <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> et affiche le texte d’aide à propos du menu en cours dans la fenêtre d’état spécifiée.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Contenu | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createstatuswindowa"><strong>CreateStatusWindow</strong></a> | Crée une fenêtre d’État, qui est généralement utilisée pour afficher l’état d’une application. La fenêtre apparaît généralement au bas de la fenêtre parente et contient le texte spécifié.<blockquote>[!Note]<br />Cette fonction est obsolète. Utilisez <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa"><strong>CreateWindow</strong></a> à la place.</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a> | La fonction <a href="/windows/desktop/api/Commctrl/nf-commctrl-drawstatustexta"><strong>DrawStatusText</strong></a> dessine le texte spécifié dans le style d’une fenêtre d’État avec des bordures.<br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-menuhelp"><strong>MenuHelp</strong></a> | Traite les messages <a href="/windows/desktop/menurc/wm-menuselect"><strong>WM_MENUSELECT</strong></a> et <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> et affiche le texte d’aide à propos du menu en cours dans la fenêtre d’état spécifiée.<br /> | 
+
 
 
 

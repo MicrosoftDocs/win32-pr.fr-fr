@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 930b828e1b715cfcb53275192ed76a7df7d116ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8e76636a28f1eaa8f3bd948c29e4ab6b2440c75bb4265f6d3c1bf281599bbf6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051949"
 ---
 # <a name="dexter_value-structure"></a>Structure de valeur DEXTERity \_
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -53,7 +53,7 @@ Valeur de la propriété.
 
 </dd> <dt>
 
-**rt**
+**t**
 </dt> <dd>
 
 Heure à laquelle la propriété assume la valeur, par rapport au début de la transition ou de l’effet.

@@ -1,20 +1,20 @@
 ---
 title: API de requête de package
-description: En savoir plus sur l’API de requête de package, que vous pouvez utiliser pour obtenir des informations sur les packages d’application installés sur le système. Chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste décrivant le logiciel à Windows.
+description: En savoir plus sur l’API de requête de package, que vous pouvez utiliser pour obtenir des informations sur les packages d’application installés sur le système. chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste qui décrit le logiciel à Windows.
 ms.assetid: EDDFC8B1-E224-4921-BED6-FC81711BA5BF
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 5632edf661b4ea82177473bbb35f2674674500c6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0669f6a48aff7ca2e7a9669e65405b76b29060c0b57f310021994c2c59c569e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994189"
 ---
 # <a name="package-query-api"></a>API de requête de package
 
-En savoir plus sur l’API de requête de package, que vous pouvez utiliser pour obtenir des informations sur les packages d’application installés sur le système. Chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste décrivant le logiciel à Windows.
+En savoir plus sur l’API de requête de package, que vous pouvez utiliser pour obtenir des informations sur les packages d’application installés sur le système. chaque package d’application contient les fichiers qui constituent une application Windows et un fichier manifeste qui décrit le logiciel à Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

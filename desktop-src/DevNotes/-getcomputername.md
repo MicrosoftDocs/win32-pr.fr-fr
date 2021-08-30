@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Msmdun80.dll
 - Sqlunirl.dll
-ms.openlocfilehash: a8fc124e9a5b036e1be83e49e504d2a4d42ea27a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3049a51b59562a1f5b512f7cb6cace6eff995644d1524680ff0d3ec176efed7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103849"
 ---
 # <a name="_getcomputername-function"></a>\_GetComputerName (fonction)
 

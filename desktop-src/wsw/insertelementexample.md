@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdcd0e6cc2b36bcdd1bb3e9ecbedfccdf1b8b3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 243d5a515c75040f4a16aa140ca397e622489ecd28d31989baabe0be3936db9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089539"
 ---
 # <a name="insertelementexample"></a>InsertElementExample
 
@@ -292,9 +292,9 @@ Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

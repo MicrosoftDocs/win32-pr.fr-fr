@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4415f405b95f341b645ca1dccbf254df2ffc7167
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b147a8910ef3574b93389088af798a84265dd7f929b458e9bd94232cc586a17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070609"
 ---
 # <a name="ieventsystem2verifytransientsubscribers-method"></a>IEventSystem2 :: VerifyTransientSubscribers, méthode
 

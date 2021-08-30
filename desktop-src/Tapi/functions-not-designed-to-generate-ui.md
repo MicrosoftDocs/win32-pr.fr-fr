@@ -4,12 +4,12 @@ ms.assetid: 46f87947-bfcd-48ad-8c33-7ea4d9caa34c
 title: Fonctions non conçues pour générer l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70bd7ed1395136d1a2d2a31b060127395e8804ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2a0cfb8168f4338ca5263abc067b141338caf1e24bef68c21241cfd6e53690d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013209"
 ---
 # <a name="functions-not-designed-to-generate-ui"></a>Fonctions non conçues pour générer l’interface utilisateur
 

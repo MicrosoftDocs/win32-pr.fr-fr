@@ -3,9 +3,9 @@ title: IWMPMedia propriété durationString
 description: La propriété durationString obtient une chaîne indiquant la durée de l’élément multimédia actuel au format HH MM SS.
 ms.assetid: de33c737-d73e-41f0-9c1b-944279194738
 keywords:
-- propriété durationString lecteur Windows Media
-- propriété durationString lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété durationString
+- Lecteur Windows Media de la propriété durationString
+- Lecteur Windows Media de la propriété durationString, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété durationString
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9e6bc732388036aa9e79aeedd988de94fa263bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2aa0ec19ff6cfa48056f399108cc0d943073cac67af80474c4e7640d39887b8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031179"
 ---
 # <a name="iwmpmediadurationstring-property"></a>IWMPMedia ::d propriété urationString
 
@@ -51,7 +51,7 @@ Public ReadOnly Property durationString As System.String
 
 **System. String** qui correspond à la durée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette propriété est utilisée avec un élément multimédia autre que celui spécifié dans AxWindowsMediaPlayer. currentMedia, elle ne peut pas contenir de valeur valide. Si l’élément multimédia est inférieur à une heure, la partie heures de la valeur de retour est omise.
 
@@ -118,7 +118,7 @@ End Sub
 [**Interface IWMPMedia (VB et C#)**](iwmpmedia--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPMedia. Duration (VB et C#)**](wmplibiwmpmedia-iwmpmedia-duration--vb-and-c.md)
+[**IWMPMedia. duration (VB et C#)**](wmplibiwmpmedia-iwmpmedia-duration--vb-and-c.md)
 </dt> </dl>
 
  

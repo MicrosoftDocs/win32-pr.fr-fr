@@ -4,12 +4,12 @@ ms.assetid: e807da7e-ba7d-4c54-957a-7cff7b9f399b
 title: Interfaces d’assembly côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd3c9ad74f32b622021df395831123085a3a9f6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a021ff8497f1619317dc6709e07f8e55e7ca86286acdc1353358a14092af034
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977179"
 ---
 # <a name="side-by-side-assembly-interfaces"></a>Interfaces d’assembly côte à côte
 

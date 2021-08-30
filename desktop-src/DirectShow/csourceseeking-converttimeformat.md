@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6ba5c6808e091f48baac7d8928e327f45773e13a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2d88384a52188d21aef5ab9a3af8841dd8acd507f1ba03b4fd93eba0c0da75b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103129"
 ---
 # <a name="csourceseekingconverttimeformat-method"></a>Méthode CSourceSeeking. ConvertTimeFormat
 
@@ -73,7 +73,7 @@ Pointeur vers le GUID du format d’heure du format à convertir. Si la **valeur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -81,7 +81,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                                  | Description                          |
 |----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>         | Succès<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Argument non valide<br/>          |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null**<br/> |
 
@@ -89,7 +89,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le seul format d’heure pris en charge par la classe de base est le format d’heure du \_ \_ \_ temps de support (unités de 100 nanosecondes). Cette méthode retourne E \_ INVALIDARG, sauf dans le cas trivial où *PTargetFormat* et *pSourceFormat* spécifient tous deux le temps de \_ format du \_ média \_ .
 
@@ -99,7 +99,7 @@ Le seul format d’heure pris en charge par la classe de base est le format d’
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

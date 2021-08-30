@@ -1,27 +1,27 @@
 ---
-description: Un correctif Windows Installer (fichier. msp) est un fichier utilisé pour fournir des mises à jour à des applications Windows Installer.
+description: un correctif Windows Installer (fichier. msp) est un fichier utilisé pour fournir des mises à jour à des applications Windows Installer.
 ms.assetid: f59736d7-0b5a-466c-ab60-f210ccccb07f
 title: Packages de correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56b4bb5b7e182c8118f5a40c45be440784b92099
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c933ff632774652c7c2a6f23a57ea94ebfff20ac5ac263006a567f66e628ac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074829"
 ---
 # <a name="patch-packages"></a>Packages de correctifs
 
-Un correctif Windows Installer (fichier. msp) est un fichier utilisé pour fournir des mises à jour à des applications Windows Installer. Le correctif est un package autonome qui contient toutes les informations requises pour mettre à jour l’application. Un package correctif (fichier. msp) peut être bien plus petit que le package Windows Installer (fichier. msi) pour l’ensemble de l’application mise à jour. Pour plus d’informations sur la distribution de petites mises à jour pour les applications, consultez réduction de la [taille des correctifs](reducing-patch-size.md).
+un correctif Windows Installer (fichier. msp) est un fichier utilisé pour fournir des mises à jour à des applications Windows Installer. Le correctif est un package autonome qui contient toutes les informations requises pour mettre à jour l’application. un package correctif (fichier. msp) peut être bien plus petit que le package Windows Installer (fichier .msi) pour l’ensemble de l’application mise à jour. Pour plus d’informations sur la distribution de petites mises à jour pour les applications, consultez réduction de la [taille des correctifs](reducing-patch-size.md).
 
-Un package correctif contient les mises à jour réelles de l’application et décrit les versions de l’application qui peuvent recevoir le correctif. Les correctifs contiennent au minimum deux transformations de base de données. Une transformation met à jour les informations dans la base de données d’installation de l’application. L’autre transformation ajoute des informations que le programme d’installation utilise pour l’application de correctifs aux fichiers. Le programme d’installation utilise les informations fournies par les transformations pour appliquer les fichiers correctifs stockés dans le flux de fichier CAB du package correctif. Un package de correctifs n’a pas de base de données comme un package d’installation (fichier. msi).
+Un package correctif contient les mises à jour réelles de l’application et décrit les versions de l’application qui peuvent recevoir le correctif. Les correctifs contiennent au minimum deux transformations de base de données. Une transformation met à jour les informations dans la base de données d’installation de l’application. L’autre transformation ajoute des informations que le programme d’installation utilise pour l’application de correctifs aux fichiers. Le programme d’installation utilise les informations fournies par les transformations pour appliquer les fichiers correctifs stockés dans le flux de fichier CAB du package correctif. Un package de correctifs n’a pas de base de données comme un package d’installation (fichier .msi.)
 
-À partir de Windows Installer version 3,0, les packages de correctifs peuvent contenir des informations qui décrivent la séquence de mise à jour corrective pour le correctif par rapport à d’autres mises à jour dans la table [MsiPatchSequence](msipatchsequence-table.md) et des informations descriptives supplémentaires dans la table [MsiPatchMetadata](msipatchmetadata-table.md) .
+à partir de Windows Installer version 3,0, les packages de correctifs peuvent contenir des informations qui décrivent la séquence de mise à jour corrective pour le correctif par rapport à d’autres mises à jour dans la table [MsiPatchSequence](msipatchsequence-table.md) et des informations descriptives supplémentaires dans la table [MsiPatchMetadata](msipatchmetadata-table.md) .
 
 Les utilisateurs peuvent installer des applications et des mises à jour à partir d’une image administrative réseau. Bien que les packages de correctifs puissent être appliqués aux installations administratives, la méthode recommandée pour fournir des mises à jour consiste à faire en sorte que les utilisateurs installent l’application d’origine, puis appliquent les correctifs à l’instance locale de l’application sur leur ordinateur. Cela permet aux utilisateurs de synchroniser avec l’image administrative. Si un correctif est appliqué à l’installation administrative, tous les clients de cette installation administrative doivent remettre en cache et réinstaller l’application pour recevoir la mise à jour. Tant qu’un utilisateur n’est pas remis en cache et réinstallé, il ne peut pas installer les installations à la demande et de réparation à partir de l’installation d’administration corrigée.
 
-À partir de Windows Installer 3,0, les utilisateurs non-administrateurs peuvent appliquer des correctifs aux applications gérées par l’utilisateur une fois que le correctif a été approuvé par un administrateur. Pour plus d’informations sur la façon de procéder, consultez Mise à [jour corrective des Applications Per-User gérées](patching-per-user-managed-applications.md). Une autre méthode consiste à utiliser la mise à jour corrective des comptes d’utilisateur avec le moins de privilèges possible.
+à partir de Windows Installer 3,0, les utilisateurs non-administrateurs peuvent appliquer des correctifs aux applications gérées par l’utilisateur une fois que le correctif a été approuvé par un administrateur. Pour plus d’informations sur la façon de procéder, consultez Mise à [jour corrective des Applications Per-User gérées](patching-per-user-managed-applications.md). Une autre méthode consiste à utiliser la mise à jour corrective des comptes d’utilisateur avec le moins de privilèges possible.
 
 > [!Note]  
 > Si la stratégie [AllowLockdownPatch](allowlockdownpatch.md) a été définie, les utilisateurs non-administrateurs peuvent appliquer un correctif à une application existante tout en exécutant une installation avec des privilèges élevés. Cette méthode n’est pas recommandée, car elle permet d’appliquer des correctifs non approuvés à une application pouvant s’exécuter avec des privilèges élevés.

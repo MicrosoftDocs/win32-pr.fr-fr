@@ -6,12 +6,12 @@ keywords:
 - Compilateur MIDL MIDL, appeler
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b7e03abc49007b823f509acb35bd34ce6e47d80
-ms.sourcegitcommit: 1e8e6e6f27c909900cfa8be58b042456331a82ad
+ms.openlocfilehash: 013dec774729a3567d321ae1394fb50b17134564bce50349977a95d2c669717d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "106510848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086379"
 ---
 # <a name="invoking-the-midl-compiler"></a>Appel du compilateur MIDL
 
@@ -19,9 +19,9 @@ Le compilateur MIDL peut générer du code pour différentes plateformes et vers
 
 Exécutez le compilateur MIDL à partir de la ligne de commande à l’aide de la commande suivante :
 
- *<  options >* MIDL **NomFichier. idl**
+**MIDL**  *<* **options** _>_ **nom de fichier. idl**
 
-où *<  options >* représente les options de ligne de commande que vous souhaitez utiliser, et nom_fichier. idl est le nom du fichier MIDL à compiler.
+où * < ***options** _>_ représente les options de ligne de commande que vous souhaitez utiliser, et nom_fichier. idl est le nom du fichier MIDL à compiler.
 
 Une liste complète des commutateurs et options du compilateur MIDL est disponible quand vous utilisez le compilateur MIDL [**/Help**](-help-.md) et/ ? Active. Les commutateurs sont organisés par catégories. Pour plus d’informations, consultez la [Référence du Command-Line MIDL](midl-command-line-reference.md).
 

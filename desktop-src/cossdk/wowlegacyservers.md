@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: cf417193ea4cea861f585068d139a855f80242a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 17b5f48c64969ae3796f2f81a3e886b1de1e326f220ad886ce3a202deb4fc1c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029149"
 ---
 # <a name="wowlegacyservers-collection"></a>Collection WOWLegacyServers
 

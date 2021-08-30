@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3c57663d763926d68e5a552ebaf66edff2172e7e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a623ac6b6ede3f3920ae792bdfb87b7678bdb3047d7bff44f373371fd4cd5c41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099919"
 ---
 # <a name="runonlyifidle-settingstype-element"></a>Élément RunOnlyIfIdle (settingsType)
 
@@ -42,7 +42,7 @@ L’élément **RunOnlyIfIdle** est défini par le type complexe [**settingsType
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement C++, consultez la [**propriété RunOnlyIfIdle de ITaskSettings**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifidle).
 
@@ -54,8 +54,8 @@ Pour le développement de scripts, consultez [**TaskSettings. RunOnlyIfIdle**](t
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

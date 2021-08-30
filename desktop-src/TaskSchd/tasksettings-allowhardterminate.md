@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c38e117ebc3d2175b952f01698987ccb65f7af5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9f6886a43a3c63df80c392b04dc35aa4f3331af52048c0bbe9e86aaf4005f638
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099759"
 ---
 # <a name="tasksettingsallowhardterminate-property"></a>TaskSettings. AllowHardTerminate, propriété
 
@@ -42,7 +42,7 @@ TaskSettings.AllowHardTerminate As Boolean
 
 Si la valeur est true, la tâche peut être arrêtée à l’aide de [**TerminateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess). Si la valeur est false, la tâche ne peut pas être arrêtée à l’aide de **TerminateProcess**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [AllowHardTerminate](taskschedulerschema-allowhardterminate-settingstype-element.md) du schéma planificateur de tâches.
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, ce param
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

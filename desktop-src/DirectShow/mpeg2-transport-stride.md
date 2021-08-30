@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
-ms.openlocfilehash: 5153f6f79c2807634149222a126a7256a65ffe8a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: eaea633aa543c4b8fa2ddaf95f0914b759eb5f75bf2352f55e5811766d4e001d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051033"
 ---
 # <a name="mpeg2_transport_stride-structure"></a>\_Structure Stride de transport MPEG2 \_
 
@@ -112,7 +112,7 @@ Si le type de média ne contient pas de bloc de format (**pbFormat** a la **vale
 
 <dl> <dt>
 
-[Structures DirectShow](directshow-structures.md)
+[DirectShow Celles](directshow-structures.md)
 </dt> <dt>
 
 [Types de média MPEG-2](mpeg-2-media-types.md)

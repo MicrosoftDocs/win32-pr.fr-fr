@@ -1,15 +1,15 @@
 ---
-description: Définissez un mécanisme de définition de la propriété dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.
+description: définissez un mécanisme pour définir la propriété dans le cadre de la création d’une page de propriétés de filtre pour un filtre de DirectShow personnalisé.
 ms.assetid: 1912af22-11dc-4864-8c20-91675d4f45d9
 title: Étape 1. Définir un mécanisme pour définir la propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 191014c35e27974c52961c2c6218e3a83effcc99
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3048ae4a88fd9ab707319aa825eaaf687f1022ab5f544ff17191be453a3e9c2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050419"
 ---
 # <a name="step-1-define-a-mechanism-for-setting-the-property"></a>Étape 1. Définir un mécanisme pour définir la propriété
 
@@ -19,7 +19,7 @@ Le filtre doit prendre en charge un moyen pour la page de propriétés de commun
 -   Prendre en charge les propriétés d’automatisation, via **IDispatch**.
 -   Exposer l’interface **IPropertyBag** et définir un ensemble de propriétés nommées.
 
-Cet exemple utilise une interface COM personnalisée, nommée ISaturation. Il ne s’agit pas d’une interface DirectShow réelle. elle est définie uniquement pour cet exemple. Commencez par déclarer l’interface dans un fichier d’en-tête, avec l’identificateur d’interface (IID) :
+Cet exemple utilise une interface COM personnalisée, nommée ISaturation. il ne s’agit pas d’une interface DirectShow réelle ; elle est définie uniquement pour cet exemple. Commencez par déclarer l’interface dans un fichier d’en-tête, avec l’identificateur d’interface (IID) :
 
 
 ```C++

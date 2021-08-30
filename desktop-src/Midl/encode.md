@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c2a35c6d6910229a9e14026f6727db5c3176050
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 15a62a170fbad60ea05b1574b54d09042a433d1684761a66a36a4c86dbef6b9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979609"
 ---
 # <a name="encode-attribute"></a>Encode (attribut)
 
@@ -91,7 +91,7 @@ Spécifie un type défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ encode \]** fait en sorte que le compilateur MIDL génère du code qu’une application peut utiliser pour sérialiser des données dans une mémoire tampon. L' **\[** attribut [**Decode**](decode.md) **\]** génère le code pour démarshaler les données d’une mémoire tampon.
 
@@ -140,6 +140,6 @@ interface regress
 [**décoder**](decode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

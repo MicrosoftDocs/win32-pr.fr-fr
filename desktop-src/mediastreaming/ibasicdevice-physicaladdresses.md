@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2f1cd87435c78e1f6877d1bb6afd1b38981b05dc
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3721b7472e952d2535c892dc562125ba6d2d0ce518e8bb9c0fe7e86a4e8fb33c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011799"
 ---
 # <a name="ibasicdevicephysicaladdresses-method"></a>IBasicDevice ::P méthode hysicalAddresses
 
@@ -50,7 +50,7 @@ Reçoit une collection énumérable de pointeurs vers des adresses physiques.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

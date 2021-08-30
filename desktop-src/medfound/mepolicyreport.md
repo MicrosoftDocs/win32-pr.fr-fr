@@ -4,12 +4,12 @@ ms.assetid: 4906f6c3-1570-421f-aef1-914bd338bb1f
 title: Événement MEPolicyReport (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0053fb551a69b820beeb4237211cb9af446f97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e29b726a77fa6c631e6135eea4933d81c05748673249222bcb7efd543d640af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114069"
 ---
 # <a name="mepolicyreport-event"></a>Événement MEPolicyReport
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les attributs et les codes d’État pour cet événement dépendent du système de protection de contenu spécifique appliqué par la sortie approuvée.
 
@@ -37,8 +37,8 @@ Les attributs et les codes d’État pour cet événement dépendent du système
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

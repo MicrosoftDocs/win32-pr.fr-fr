@@ -4,12 +4,12 @@ description: IAgentCommandsEx AddEx
 ms.assetid: 54be4793-89ac-475b-8a6a-5b8c18bb4b38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7487bb7c7af0295d82355c7a1f7fb50e30aa6e1f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 134f7b0ae7c2b635aaa15beec203b8eea661e4ca925c0ed0eda9dcab314294c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961839"
 ---
 # <a name="iagentcommandsexaddex"></a>IAgentCommandsEx :: AddEx
 
@@ -89,6 +89,6 @@ Adresse d’une variable qui reçoit l’ID de la [**commande**](/windows/deskto
 [**IAgentCommands :: Add**](iagentcommands--add.md), [**IAgentCommandsEx :: SetHelpContextID**](iagentcommandsex--sethelpcontextid.md), [**IAgentCommand :: SetCaption**](iagentcommand--setcaption.md), [**IAgentCommand :: SetEnabled**](iagentcommand--setenabled.md), [**IAgentCommand :: setVisible**](iagentcommand--setvisible.md), [**IAgentCommand :: SetVoice**](iagentcommand--setvoice.md), [**IAgentCommands :: Insert**](iagentcommands--insert.md), [**IAgentCommandsEx :: InsertEx**](iagentcommandsex--insertex.md), [**IAgentCommands :: Remove**](iagentcommands--remove.md), [**IAgentCommands :: RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 
