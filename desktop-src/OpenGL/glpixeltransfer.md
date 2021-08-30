@@ -4,12 +4,12 @@ description: Ces fonctions définissent les modes de transfert de pixels.
 ms.assetid: c14349c0-ff50-441f-b9fd-8b0f5114fd8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3684adc58ab2be02eef03a56581593f22aa3294
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 752000a1c25ae46724aeb91a2c705226ac6ac4715e3c718dddc0e671d46d6d58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128049"
 ---
 # <a name="glpixeltransfer-functions"></a>glPixelTransfer, fonctions
 
@@ -18,9 +18,9 @@ Ces fonctions définissent les modes de transfert de pixels :
 -   [**glPixelTransferf**](glpixeltransferf.md)
 -   [**glPixelTransferi**](glpixeltransferi.md)
 
- 
+ 
 
- 
+ 
 
 
 

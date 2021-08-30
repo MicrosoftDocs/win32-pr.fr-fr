@@ -4,12 +4,12 @@ description: Cette section fournit des informations sur la migration vers Direct
 ms.assetid: 3ec8b5c2-01e6-4fbe-ada7-43898db63bbe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83ade0a0d32d3f8b5c07e6653955c0c407c8fa8f
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9267005305fa001ff1c2867968048a1915c58120
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104316625"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480775"
 ---
 # <a name="migrating-to-direct3d-11"></a>Migration vers Direct3D 11
 
@@ -109,46 +109,14 @@ La conversion de programmes écrits pour utiliser l’API Direct3D 10 ou 10,1 es
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Solution 10/10.1</th>
-<th>11 solution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>API de réflexion HLSL (D3D10Compile *, D3DX10Compile*) et nuanceur de nuanceur</td>
-<td>D3DCompiler (voir D3DCompiler. h)
-<blockquote>
-[!Note]<br />
-Pour les applications du Windows Store, les <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">API D3DCompiler</a> sont prises en charge uniquement pour le développement, et non pour le déploiement.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Effets 10</td>
-<td>Les <a href="https://github.com/Microsoft/FX11">effets 11</a> sont disponibles en ligne dans la source partagée.
-<blockquote>
-[!Note]<br />
-Cette solution n’est pas adaptée aux applications du Windows Store, car elle nécessite les <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">API D3DCompiler</a> au moment de l’exécution (déploiement).
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Mathématiques D3DX9/D3DX10</td>
-<td><a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a></td>
-</tr>
-<tr class="even">
-<td>D3DX10</td>
-<td>D3DX11 dans le SDK DirectX hérité <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a>, <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a>et <a href="https://github.com/Microsoft/DirectXMesh">DirectXMesh</a> offrent des alternatives à de nombreuses technologies dans les bibliothèques d3dx10 et D3DX11 héritées.<br/> <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> et <a href="/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offrent une prise en charge de haute qualité pour le rendu des polices et des lignes de style.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Solution 10/10.1 | 11 solution | 
+|------------------|-------------|
+| API de réflexion HLSL (D3D10Compile *, D3DX10Compile*) et nuanceur de nuanceur | D3DCompiler (voir D3DCompiler. h)<blockquote>[!Note]<br />pour les applications Windows store, les <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">api D3DCompiler</a> sont prises en charge uniquement pour le développement, et non pour le déploiement.</blockquote><br /> | 
+| Effets 10 | Les <a href="https://github.com/Microsoft/FX11">effets 11</a> sont disponibles en ligne dans la source partagée.<blockquote>[!Note]<br />cette solution ne convient pas aux applications Windows store, car elle nécessite les <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">api D3DCompiler</a> lors de l’exécution (déploiement).</blockquote><br /> | 
+| Mathématiques D3DX9/D3DX10 | <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a> | 
+| D3DX10 | D3DX11 dans le SDK DirectX hérité <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a>, <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a>et <a href="https://github.com/Microsoft/DirectXMesh">DirectXMesh</a> offrent des alternatives à de nombreuses technologies dans les bibliothèques d3dx10 et D3DX11 héritées.<br /><a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> et <a href="/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offrent une prise en charge de haute qualité pour le rendu des lignes et des polices de style.<br /> | 
+
 
 
 
@@ -210,18 +178,18 @@ Une fois votre code mis à jour pour utiliser l’API Direct3D 11, de nombreuses
     -   Liaison de nuanceur dynamique
     -   Pavage via les nuanceurs de la coque et du domaine
     -   Nouveaux formats de compression de bloc : BC6H pour les images HDR, BC7 pour les images standard haute fidélité
--   Utilisation de la [technologie 10level9](overviews-direct3d-11-devices-downlevel.md) pour le rendu sur de nombreux appareils de nuanceur 2,0 et modèle de nuanceur 3,0 via l’API DIrect3D 11 pour la prise en charge de matériel vidéo de bas de gamme sur Windows Vista et Windows 7.
+-   utilisation de la [technologie 10level9](overviews-direct3d-11-devices-downlevel.md) pour le rendu sur de nombreux appareils de nuanceur 2,0 et modèle de nuanceur 3,0 via l’API DIrect3D 11 pour la prise en charge de matériel vidéo de bas de gamme sur Windows Vista et Windows 7.
 -   Tirer parti du périphérique de rendu logiciel WARP.
 
 ## <a name="new-features-for-directx-111"></a>Nouvelles fonctionnalités de DirectX 11,1
 
-Windows 8 comprend d’autres améliorations graphiques DirectX à prendre en compte lors de l’implémentation de votre code graphique DirectX, notamment [Direct3D 11,1](direct3d-11-features.md), [DXGI 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Windows Display Driver Model (WDDM) 1,2](/windows-hardware/drivers/display/wddm-in-windows-8), le matériel de [niveau de fonctionnalité](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, les contextes de périphérique Direct2D et d’autres améliorations.
+Windows 8 inclut d’autres améliorations de directx graphics à prendre en compte quand vous implémentez votre code directx graphics, notamment [Direct3D 11,1](direct3d-11-features.md), [DXGI 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Windows Display Driver Model (WDDM) 1,2](/windows-hardware/drivers/display/wddm-in-windows-8), le matériel de [niveau de fonctionnalité](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, les contextes de périphérique Direct2D et d’autres améliorations.
 
-La prise en charge partielle de [Direct3D 11,1](direct3d-11-features.md) est également disponible sur Windows 7, par le biais de la [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), disponible via la [mise à jour de plateforme pour Windows 7](https://support.microsoft.com/kb/2670838).
+la prise en charge partielle de [Direct3D 11,1](direct3d-11-features.md) est disponible sur Windows 7 et via la [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), disponible via la [mise à jour de plateforme pour Windows 7](https://support.microsoft.com/kb/2670838).
 
 ## <a name="new-features-for-directx-112"></a>Nouvelles fonctionnalités de DirectX 11,2
 
-Le Windows 8.1 comprend [Direct3D 11,2](direct3d-11-2-features.md), [DXGI 1,3](/windows/desktop/direct3ddxgi/dxgi-1-3-improvements), ainsi que d’autres améliorations.
+le Windows 8.1 comprend [Direct3D 11,2](direct3d-11-2-features.md), [DXGI 1,3](/windows/desktop/direct3ddxgi/dxgi-1-3-improvements), ainsi que d’autres améliorations.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

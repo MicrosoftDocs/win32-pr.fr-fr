@@ -4,16 +4,16 @@ description: Les définitions de certains types de variable SNMP et les types de
 ms.assetid: 2d87aeee-6fcb-4837-b091-6a9def8a9acb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d656add1b177b50e24b30a11d9fe008dcdfdf9bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9af0af150f60ba2f9ba3871dda44308105e857977cc43b472f6ce698761dbc8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127609"
 ---
 # <a name="snmp-variable-types-and-request-pdu-types"></a>Types de variables SNMP et types de PDU de demande
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 Les définitions de certains types de variable SNMP et les types de PDU de demande ont changé. Le fichier SNMP. h mappe les anciens types aux nouveaux types correspondants.
 
@@ -32,7 +32,7 @@ Vous devez utiliser les nouveaux types de variables SNMP listés dans le tableau
 
 
 
- 
+ 
 
 ## <a name="modified-snmp-pdu-request-types"></a>Types de demandes PDU SNMP modifiés
 
@@ -48,8 +48,8 @@ Vous devez utiliser les nouveaux types de PDU SNMP figurant dans le tableau ci-d
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

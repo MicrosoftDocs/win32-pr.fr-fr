@@ -1,19 +1,19 @@
 ---
-description: L' <searchConnectorDescription> élément est l’élément conteneur de niveau supérieur d’une définition de connecteur de recherche.
+description: L' &lt; &gt; élément searchConnectorDescription est l’élément conteneur de niveau supérieur d’une définition de connecteur de recherche.
 ms.assetid: 383CAA20-56CA-4bdc-AC79-E57A1D59785C
 title: Élément searchConnectorDescription (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91be0345ae2770e28437f13cdc754a1855f050210b85a03a4eb5c6c3726af98b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eddf7c2795f5c87009bc17b5fa3899d339ceed3c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885965"
 ---
 # <a name="searchconnectordescription-element-library-schema"></a>Élément searchConnectorDescription (schéma de bibliothèque)
 
-L' <searchConnectorDescription> élément est l’élément conteneur de niveau supérieur d’une définition de connecteur de recherche. l' <searchConnectorDescription> élément est une extension du <searchConnectorDescriptionType> type d’élément associé à Windows les connecteurs de recherche fédérés ; toutefois, vous ne pouvez pas inclure de connecteurs de recherche pour Windows recherche fédérée ou des gestionnaires de protocole dans une bibliothèque.
+L' &lt; &gt; élément searchConnectorDescription est l’élément conteneur de niveau supérieur d’une définition de connecteur de recherche. l' &lt; &gt; élément searchConnectorDescription est une extension du &lt; type d' &gt; élément searchConnectorDescriptionType associé à Windows les connecteurs de recherche fédérés ; toutefois, vous ne pouvez pas inclure de connecteurs de recherche pour Windows recherche fédérée ou des gestionnaires de protocole dans une bibliothèque.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -104,22 +104,22 @@ reportez-vous à la documentation du schéma dans [Windows Search](/previous-ver
 | Élément parent                                                                                               | Éléments enfants                        |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [Élément searchConnectorDescriptionList (schéma de bibliothèque)](schema-library-searchconnectordescriptionlist.md) | <isSearchOnlyI. TEM>             |
-|                                                                                                              | <description>                   |
-|                                                                                                              | <iconReference>                 |
-|                                                                                                              | <imageLink>                     |
-|                                                                                                              | <author>                        |
-|                                                                                                              | <dateCreated>                   |
-|                                                                                                              | <templateInfo>                  |
-|                                                                                                              | <locationProvider>              |
-|                                                                                                              | <scope>                         |
-|                                                                                                              | <propertyStore>                 |
-|                                                                                                              | <domain>                        |
-|                                                                                                              | <supportsAdvancedQuerySyntax>   |
-|                                                                                                              | <isDefaultSaveLocation>         |
-|                                                                                                              | <isDefaultNonOwnerSaveLocation> |
-|                                                                                                              | <isIndexed>                     |
-|                                                                                                              | <simpleLocation>                |
-|                                                                                                              | <includeInStartMenu>            |
+|                                                                                                              | &lt;description&gt;                   |
+|                                                                                                              | &lt;iconReference&gt;                 |
+|                                                                                                              | &lt;imageLink&gt;                     |
+|                                                                                                              | &lt;auteur&gt;                        |
+|                                                                                                              | &lt;dateCreated&gt;                   |
+|                                                                                                              | &lt;templateInfo&gt;                  |
+|                                                                                                              | &lt;locationProvider&gt;              |
+|                                                                                                              | &lt;scope&gt;                         |
+|                                                                                                              | &lt;propertyStore&gt;                 |
+|                                                                                                              | &lt;domaine&gt;                        |
+|                                                                                                              | &lt;supportsAdvancedQuerySyntax&gt;   |
+|                                                                                                              | &lt;isDefaultSaveLocation&gt;         |
+|                                                                                                              | &lt;isDefaultNonOwnerSaveLocation&gt; |
+|                                                                                                              | &lt;isIndexed&gt;                     |
+|                                                                                                              | &lt;simpleLocation&gt;                |
+|                                                                                                              | &lt;includeInStartMenu&gt;            |
 
 
 
@@ -131,7 +131,7 @@ reportez-vous à la documentation du schéma dans [Windows Search](/previous-ver
 
 | Attribut | Description                                                                      |
 |-----------|----------------------------------------------------------------------------------|
-| publisher | Facultatif. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
+| publisher | facultatif. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
 | product   | Facultatif. Nom complet du produit auquel le connecteur de recherche s’applique. |
 
 
@@ -140,7 +140,7 @@ reportez-vous à la documentation du schéma dans [Windows Search](/previous-ver
 
 ## <a name="remarks"></a>Remarques
 
-l' <searchConnectorDescription> élément d’une bibliothèque utilise la même définition de schéma que le <searchConnectorDescription> pour la recherche Windows fédérée. bien qu’ils utilisent les mêmes schémas, les connecteurs de recherche pour Windows la recherche fédérée ne peuvent pas être inclus dans une bibliothèque.
+l' &lt; &gt; élément searchConnectorDescription d’une bibliothèque utilise la même définition de schéma que le &lt; searchConnectorDescription &gt; pour Windows recherche fédérée. bien qu’ils utilisent les mêmes schémas, les connecteurs de recherche pour Windows la recherche fédérée ne peuvent pas être inclus dans une bibliothèque.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -8,12 +8,12 @@ keywords:
 - application d’animations DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecba1bde3c430acbb49f640dc7611452f0967746
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 03142fbf536c13a3a47b93488779a71688e6b018
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474225"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787185"
 ---
 # <a name="how-to-apply-animations"></a>Comment appliquer des animations
 
@@ -94,7 +94,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 
@@ -102,7 +102,7 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 | <pre><code>if (SUCCEEDED(hr)){    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);}</code></pre> | 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 
 | C++ | 

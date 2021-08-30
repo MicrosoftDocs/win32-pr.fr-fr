@@ -4,12 +4,12 @@ description: Chaque extension de classe d’assistance est associée à un certa
 ms.assetid: 9ff3266d-5ffc-4a00-be24-2f85461c6ea6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6457e144abdeb1dbed1e33bb10e21302f918da8cdc5a6fd2090f3665e83f0316
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 166f07760dc8905f35c82c63d58fa2faa804aeb8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117798496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883827"
 ---
 # <a name="registering-ndf-helper-class-extensions"></a>Inscription des extensions de classe d’assistance NDF
 
@@ -48,7 +48,7 @@ La procédure suivante montre comment ajouter des extensions de classe d’assis
     | Valeur         | Type       | Signification                                                                                                                                                                 |
     |---------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | **IDENTIFICATEUR**     | SZ de REG \_    | Chaîne qui contient l’ID de classe COM de la classe d’assistance.                                                                                                            |
-    | **Version**   | SZ de REG \_    | Chaîne qui contient les versions principales et secondaires de la classe d’assistance dans le format <major> <minor> .                                                        |
+    | **Version**   | SZ de REG \_    | Chaîne qui contient les versions majeures et mineures de la classe d’assistance au format &lt; mineur majeur &gt; &lt; &gt; .                                                        |
     | **Publié** | \_valeur DWORD reg | La valeur 1 signifie que cette classe d’assistance est supposée être appelée directement à partir du client de diagnostic. 0 signifie qu’il ne peut être appelé qu’à partir d’une autre classe d’assistance. |
     | **Parent**    | SZ de REG \_    | Chaîne qui nomme la classe d’assistance extensible Microsoft qui est étendue.                                                                                       |
 

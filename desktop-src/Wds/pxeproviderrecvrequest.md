@@ -3,7 +3,7 @@ title: PxeProviderRecvRequest fonction de rappel
 description: Appelée lorsqu’une demande est reçue d’un client.
 ms.assetid: 704972d5-177a-490e-881f-d2b3025babda
 keywords:
-- Fonction de rappel PxeProviderRecvRequest des services de déploiement Windows
+- fonction de rappel PxeProviderRecvRequest Windows les Services de déploiement
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a173c6ba356d98dfd44beb64033f491b9c200d58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6dc2ef36c26e667e55870d38f450891e9e91134c297d09ba12157452e4d01442
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098649"
 ---
 # <a name="pxeproviderrecvrequest-callback-function"></a>PxeProviderRecvRequest fonction de rappel
 
@@ -111,7 +111,7 @@ Valeur de contexte passée à la fonction [**PxeRegisterCallback**](/windows/des
 
 Si le fournisseur a correctement traité la demande du client, le rappel doit retourner la **\_ réussite** de l’erreur et l' **\_ \_ action de démarrage PXE** vers laquelle pointe le paramètre de *Pacte* contient l’action de démarrage appropriée pour cette demande. Si le fournisseur traitera la demande du client de manière asynchrone, le rappel doit retourner des **\_ e/s d’erreur \_ en attente** et appeler la fonction [**PxeAsyncRecvDone**](/windows/desktop/api/WdsPxe/nf-wdspxe-pxeasyncrecvdone) lorsque la demande du client a été traitée. En cas d’échec, un code d’erreur approprié doit être retourné et le système se poursuivra comme si l’action de démarrage **\_ \_ rejetée par PXE BA** avait été spécifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type de paquets détectés par un fournisseur peut être modifié à l’aide de la fonction [**PxeProviderSetAttribute**](/windows/desktop/api/WdsPxe/nf-wdspxe-pxeprovidersetattribute) .
 
@@ -122,7 +122,7 @@ Le type de paquets détectés par un fournisseur peut être modifié à l’aide
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2003 avec les \[ applications de bureau SP2 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2003 avec les \[ applications de bureau SP2 uniquement\]<br/> |
 
 
 
@@ -130,7 +130,7 @@ Le type de paquets détectés par un fournisseur peut être modifié à l’aide
 
 <dl> <dt>
 
-[Fonctions du serveur des services de déploiement Windows](windows-deployment-services-server-functions.md)
+[Windows Fonctions du serveur des services de déploiement](windows-deployment-services-server-functions.md)
 </dt> <dt>
 
 [**PxeRegisterCallback**](/windows/desktop/api/WdsPxe/nf-wdspxe-pxeregistercallback)

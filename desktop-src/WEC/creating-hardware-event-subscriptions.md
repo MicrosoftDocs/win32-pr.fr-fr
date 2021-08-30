@@ -5,12 +5,12 @@ ms.assetid: 646ab546-500e-44ee-8b08-2f835e57e3e6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54ee32d590143ed8a1ffacec6f59ad3b3094c2d2a22d0df66b0cb0d3521f83e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a56f2fa627de3a640e03be7c60f3950d06f752b3
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117751111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885846"
 ---
 # <a name="creating-hardware-event-subscriptions"></a>Création d’abonnements aux événements matériels
 
@@ -43,7 +43,7 @@ La procédure suivante définit comment créer l’abonnement aux événements S
 
 2.  Créez un abonnement aux événements en exécutant la commande suivante dans une fenêtre d’invite de commandes (le programme Wecutil.exe se trouve dans le répertoire% SYSTEMROOT% \\ system32) :
 
-     *<path> \\wsmanselrg.xml* de la ressource.
+     *&lt; &gt; \\wsmanselrg.xmldu chemin d’accès* à la ressource.
 
 3.  Assurez-vous que l’abonnement est actif en exécutant la commande suivante dans une fenêtre d’invite de commandes :
 

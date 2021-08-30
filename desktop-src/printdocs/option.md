@@ -4,12 +4,12 @@ ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: Option
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1f02f506c61353698bc4386541ea96dbf858790dd7c34c6d80b8dc2542c46a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6da0c50443f1a431d4f4032741669ed08e6235b3
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882205"
 ---
 # <a name="option"></a>Option
 
@@ -19,7 +19,7 @@ Un élément option contient tous les éléments Property et ScoredProperty asso
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<Option>
+&lt;Option&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 

@@ -28,16 +28,16 @@ keywords:
 - masquer Lecteur Windows Media contrôle de ActiveX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcb0b29bbbc1b2eb978c5bd9f29a58aa02bf629d5c6befe9f1dc68bbc92d280
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5cf7c25f75538f1e20a08ef252b20212df48a565
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118339180"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882268"
 ---
 # <a name="hiding-the-windows-media-player-control"></a>masquage du contrôle Lecteur Windows Media
 
-l’objet Lecteur Windows Media ActiveX est incorporé dans une page web à l’aide de l’élément objet. contrairement aux versions antérieures, l’élément objet qui définit Lecteur Windows Media doit être placé dans la section de corps d’une page web, entre les <BODY> et </BODY> MetaTags. placer l’Lecteur Windows Media objet ActiveX dans la section d’en-tête d’une page web pour masquer l’interface utilisateur peut produire des résultats inattendus.
+l’objet Lecteur Windows Media ActiveX est incorporé dans une page web à l’aide de l’élément objet. contrairement aux versions antérieures, l’élément objet qui définit Lecteur Windows Media doit être placé dans la section de corps d’une page web, entre le &lt; corps &gt; et </BODY> MetaTags. placer l’Lecteur Windows Media objet ActiveX dans la section d’en-tête d’une page web pour masquer l’interface utilisateur peut produire des résultats inattendus.
 
 si vous placez le contrôle Lecteur Windows Media ActiveX dans la section corps d’une page web, l’interface utilisateur du contrôle s’affiche. Si vous ne souhaitez pas qu’il s’affiche et que vous souhaitiez créer votre propre interface utilisateur, affectez la valeur zéro aux attributs Height et Width de l’élément objet.
 

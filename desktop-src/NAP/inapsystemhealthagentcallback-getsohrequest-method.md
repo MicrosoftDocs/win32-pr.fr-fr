@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c9203a782be34be66e84fa8238a678647a4359df8cde3408aa8de99e73fcce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96b9770607685dbd69e115f4f18d646b6d552fae
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118133768"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884475"
 ---
 # <a name="inapsystemhealthagentcallbackgetsohrequest-method"></a>INapSystemHealthAgentCallback :: GetSoHRequest, méthode
 
@@ -69,9 +69,9 @@ Pointeur COM vers un objet [**INapSystemHealthAgentRequest**](inapsystemhealthag
 
 Quand une valeur de retour (à l’exception **\_ de HRESULT de \_ Win32 (RPC \_ S \_ Server \_ non disponible)**) est retournée par votre implémentation, le système NAP construit et retourne un [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) à la SHV correspondante avec les types et valeurs d’attribut suivants :
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  sohAttributeTypeSystemHealthId &lt; identifi&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) =  [ **failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
--   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = <> de code d’erreur
+-   [](sohattributetype-enum.md)  =  sohAttributeTypeErrorCodes &lt; erreur : code&gt;
 
 ## <a name="remarks"></a>Remarques
 
@@ -83,7 +83,7 @@ L’analyse de l’état d’intégrité ne doit pas être effectuée dans le ca
 
 Si l’algorithme SHA prend beaucoup de temps pour générer une SoH, la SoH mise en cache doit être retournée au NapAgent. S’il n’y a aucune déclaration SoH mise en cache à retourner, le SHA doit immédiatement retourner une SoH avec les valeurs et types d’attributs suivants :
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  sohAttributeTypeSystemHealthId &lt; identifi&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) =  [ **failureCategoryClientCommunication**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  =  E/r [ **NAP \_ \_ non \_ mis en cache \_**](nap-error-constants.md)
 
@@ -95,11 +95,11 @@ Lorsque cette méthode est appelée, s’il existe une SoH dans le cache de NapA
 
 Pour les Sha non liés qui sont inscrits auprès du système, le système NAP construit et envoie un SoHRequest au VALIDateur correspondant avec les types et valeurs d’attribut suivants :
 
--   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  sohAttributeTypeSystemHealthId &lt; identifi&gt;
 -   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md) =  [ **failureCategoryClientComponent**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md)  =  [ **NAP \_ E \_ non \_ initialisé**](nap-error-constants.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

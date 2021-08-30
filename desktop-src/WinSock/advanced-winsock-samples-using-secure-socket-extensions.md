@@ -4,12 +4,12 @@ ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
 title: Exemples de Winsock avancés utilisant Secure Socket extensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ead38a7e62be527e91474ac921803327647ca6cefd1ec68778d03e1c68c1bf3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 477ae91194ef09469cfd857ac36aebabbd4d0f53
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119412169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886226"
 ---
 # <a name="advanced-winsock-samples-using-secure-socket-extensions"></a>Exemples de Winsock avancés utilisant Secure Socket extensions
 
@@ -47,7 +47,7 @@ Exécutez la commande suivante pour obtenir d’autres options d’utilisation p
 
 Ensuite, sur l’ordinateur A, démarrez le client TCP en exécutant la commande suivante dans une invite de commandes :
 
-**stcpclient.exe <nom complet DNS-for-machine-B>**
+**stcpclient.exe &lt; nom complet-DNS-pour-machine-B&gt;**
 
 À ce stade, la connexion doit être établie en toute sécurité.
 

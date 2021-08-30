@@ -6,16 +6,16 @@ keywords:
 - type_UserFree
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e923388b37a39a325c0868deca7e7926a3d7705
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e852f18380ef3df01b3428badc7c7c75b70e0b03
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885669"
 ---
 # <a name="the-type_userfree-function"></a>Type \_ UserFree (fonction)
 
-La fonction **<type> \_ UserFree** est une fonction d’assistance pour les attributs de marshaling de \[ [ \_ câble](/windows/desktop/Midl/wire-marshal) \] et d' \[ [utilisateur \_](/windows/desktop/Midl/user-marshal) \] . Les stubs appellent cette fonction pour libérer les données côté serveur. La fonction est définie comme suit :
+La fonction de **&lt; type &gt; \_ UserFree** est une fonction d’assistance pour les attributs de marshaling de \[ [ \_ câble](/windows/desktop/Midl/wire-marshal) \] et d' \[ [utilisateur \_](/windows/desktop/Midl/user-marshal) \] . Les stubs appellent cette fonction pour libérer les données côté serveur. La fonction est définie comme suit :
 
 ``` syntax
 void __RPC_USER  <type>_UserFree(
@@ -23,7 +23,7 @@ void __RPC_USER  <type>_UserFree(
     <type_name>  __RPC_FAR *  pMyObj );
 ```
 
-Le <type> dans le nom de fonction correspond au type utilisateur spécifié dans la définition de type de marshaling de **\[ \_ \] câble** ou d' **\[ utilisateur \_ \]** .
+Le &lt; type &gt; dans le nom de la fonction correspond à l’utilisateur-type spécifié dans la définition de type de marshaling de **\[ câble \_ \]** ou d' **\[ utilisateur \_ \]** .
 
 Le paramètre *pFlags* est un pointeur vers un champ d’indicateur **long non signé** . Le mot supérieur de l’indicateur contient des indicateurs de représentation de données NDR tels que définis par l’ETCD OSF pour les représentations à virgule flottante, d’ordre d’octet et de caractère. Le mot inférieur contient un indicateur de contexte de marshaling tel que défini par le canal COM. La disposition exacte des indicateurs dans le champ est décrite dans [la fonction type d' \_ utilisateur](the-type-usersize-function.md).
 
@@ -44,6 +44,6 @@ Les exceptions doivent être interceptées et gérées localement, les exception
 [Marshal d’utilisateur \_](/windows/desktop/Midl/user-marshal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 0552d301-5105-490f-962b-135c8c2e936b
 title: ScoredProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb600f3fa30c475f7bf28ab1e4c12b19875b6ef49e4f6f3537aead95bf47b999
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57ad42d49e65fffebad0aec7730ab8ce85f41876
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119033887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882222"
 ---
 # <a name="scoredproperty"></a>ScoredProperty
 
@@ -19,7 +19,7 @@ Un élément ScoredProperty déclare une propriété qui est intrinsèque à une
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<ScoredProperty>
+&lt;ScoredProperty&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 
@@ -57,7 +57,7 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 Un élément ScoredProperty ne peut pas avoir de dépendances de configuration.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Déclarez un élément ScoredProperty nommé MediaSizeWidth avec la valeur 11.
 

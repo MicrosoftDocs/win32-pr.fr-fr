@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: Décodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b9990965092c04b6ddc9e7b6c7b4d26cf577937
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 9daf50196029f484264ddb33c8e10a25e61cb0dc
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122483105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885387"
 ---
 # <a name="aac-decoder"></a>Décodeur AAC
 
@@ -109,11 +109,11 @@ Les taux d’échantillonnage supérieurs à 48 kHz ne sont pas pris en charge.
 
 Le décodeur prend en charge jusqu’à 6 canaux audio. Pour chaque configuration de haut-parleur, le décodeur s’attend à ce que les éléments syntaxiques AAC apparaissent dans un certain ordre. Le tableau suivant répertorie les configurations de conférencier prises en charge. La troisième colonne de la table répertorie les éléments syntaxiques attendus et leur ordre, en utilisant la notation suivante :
 
--   <SCE1>: Le single_channel_element (SCE) associé au haut-parleur central.
--   <SCE2>: SCE associée à l’orateur Back central.
--   <CPE1>: Le channel_pair_element (CPE) associé aux haut-parleurs frontaux.
--   <CPE2>: L’ECP associé aux enceintes Back (ou Side)
--   <LFE>: Le lfe_channel_element (LFE).
+-   &lt;SCE1 &gt; : le single_channel_element (SCE) associé au haut-parleur central.
+-   &lt;SCE2 &gt; : SCE associée au haut-parleur central.
+-   &lt;CPE1 &gt; : le channel_pair_element (CPE) associé aux haut-parleurs frontaux.
+-   &lt;CPE2 &gt; : CPE associé aux haut-parleurs Back (ou Side)
+-   &lt;LFE &gt; : le lfe_channel_element (LFE).
 
 Pour plus d’informations sur ces éléments syntaxiques, reportez-vous à la norme ISO/IEC 13818-7.
 
@@ -121,14 +121,14 @@ Pour plus d’informations sur ces éléments syntaxiques, reportez-vous à la n
 
 | Configuration       | Masque de canal                                                                                                                                                              | Éléments syntaxiques AAC                          |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Mono                | **SPEAKER_FRONT_CENTER**                                                                                                                                                | <SCE1>                                    |
-| Stéréo ou double mono | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT**                                                                                                                     | <CPE1>                                    |
-| 2/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_CENTER**                                                                                        | <CPE1><SCE1>                        |
-| 2/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                                              | <CPE1><CPE2>                        |
-| 3/0                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER**                                                                                       | <SCE1><CPE1>                        |
-| 3/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_CENTER**                                                          | <SCE1><CPE1><SCE2>            |
-| 3/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                | <SCE1><CPE1><CPE2>            |
-| 3/2 + LFE           | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_LOW_FREQUENCY** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT** | <SCE1><CPE1><CPE2><LFE> |
+| Mono                | **SPEAKER_FRONT_CENTER**                                                                                                                                                | &lt;SCE1&gt;                                    |
+| Stéréo ou double mono | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT**                                                                                                                     | &lt;CPE1&gt;                                    |
+| 2/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_CENTER**                                                                                        | &lt;CPE1 &gt; &lt; SCE1&gt;                        |
+| 2/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                                              | &lt;CPE1 &gt; &lt; CPE2&gt;                        |
+| 3/0                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER**                                                                                       | &lt;SCE1 &gt; &lt; CPE1&gt;                        |
+| 3/1                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_CENTER**                                                          | &lt;SCE1 &gt; &lt; CPE1 &gt; &lt; SCE2&gt;            |
+| 3/2                 | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT**                                | &lt;SCE1 &gt; &lt; CPE1 &gt; &lt; CPE2&gt;            |
+| 3/2 + LFE           | **SPEAKER_FRONT_LEFT** \| **SPEAKER_FRONT_RIGHT** \| **SPEAKER_FRONT_CENTER** \| **SPEAKER_LOW_FREQUENCY** \| **SPEAKER_BACK_LEFT** \| **SPEAKER_BACK_RIGHT** | &lt;SCE1 &gt; &lt; CPE1 &gt; &lt; CPE2 &gt; &lt; LFE&gt; |
 
 
 
@@ -220,7 +220,7 @@ Les deux derniers octets de [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) 
 
 si la mise à jour du supplément Platform pour Windows vista est installée, le décodeur audio AAC est disponible sur Windows vista, mais il est accessible sur Windows vista uniquement à l’aide du [lecteur Source](source-reader.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

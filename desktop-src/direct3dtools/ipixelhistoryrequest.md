@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3648be71cded740a1aae01e325a525d94baa9cec
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: cf924728886576811f06695d9eb3ab9fd25243d3
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622555"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786365"
 ---
 # <a name="span-idvspixengineipixelhistoryrequestspanipixelhistoryrequest-interface"></a><span id="vspixengine.ipixelhistoryrequest"></span>Interface IPixelHistoryRequest
 
@@ -38,7 +38,7 @@ L’interface **IPixelHistoryRequest** hérite de l’interface [**IUnknown**](/
 
 L’interface **IPixelHistoryRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Demande une liste de résultats de l’historique des pixels dans le pixel, le rendu cible/UAV et le frame spécifiés.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixelhistoryrequest-requestasync-dword-point2d-dword-ipixelhistorycallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Demande une liste de résultats de l’historique des pixels dans le pixel, le rendu cible/UAV et le frame spécifiés.</p></td></tr></tbody></table>
 
  
 

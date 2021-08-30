@@ -4,16 +4,16 @@ ms.assetid: ce6661b0-7ed2-452f-a54c-6705d14f3298
 title: Contrôle d’inscription de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e417a9db7984cbb58b7c2e3b51d828b6d61a97b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19499dad8c3d8b4d9720b285a4377c2f7b6b1903ca27f9e1cba17224fe1c857
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127122"
 ---
 # <a name="certificate-enrollment-control"></a>Contrôle d’inscription de certificat
 
-Le contrôle d’inscription de certificat peut être utilisé par une application qui doit demander qu’un certificat soit émis pour un objet nommé. Il est conçu pour accepter des données sous la forme d’une chaîne binaire (BSTR). Les données peuvent provenir d’une page Web ou de l’interface utilisateur du système de développement Visual Basic ou Visual C++. La sortie du contrôle d’inscription de certificats est une demande de \# certificat PKCS 10 qui peut être envoyée à une [*autorité de certification*](../secgloss/c-gly.md) .
+Le contrôle d’inscription de certificat peut être utilisé par une application qui doit demander qu’un certificat soit émis pour un objet nommé. Il est conçu pour accepter des données sous la forme d’une chaîne binaire (BSTR). les données peuvent provenir d’une page web ou de l’interface utilisateur du système de développement Visual Basic ou Visual C++. La sortie du contrôle d’inscription de certificats est une demande de \# certificat PKCS 10 qui peut être envoyée à une [*autorité de certification*](../secgloss/c-gly.md) .
 
 ![contrôle d’inscription de certificat](images/xen-arch.png)
 
@@ -25,7 +25,7 @@ Lorsque le certificat demandé est retourné par l’autorité de certification,
 
 Le contrôle d’inscription de carte à puce est utilisé par un administrateur pour s’inscrire au nom des utilisateurs de carte à puce. Le processus d’inscription entraîne l’émission d’un certificat stocké sur la carte à puce d’un utilisateur.
 
-Le contrôle d’inscription de carte à puce est contenu dans Scrdenrl.dll et se compose d’un objet, **SCrdEnr**. Aucun autre objet n’est inclus dans Scrdenrl.dll. Cet objet d’inscription de carte à puce peut être utilisé avec un langage de script, tel que Visual Basic Scripting Edition (VBScript).
+Le contrôle d’inscription de carte à puce est contenu dans Scrdenrl.dll et se compose d’un objet, **SCrdEnr**. Aucun autre objet n’est inclus dans Scrdenrl.dll. cet objet d’inscription de carte à puce peut être utilisé avec un langage de script, tel que Visual Basic scripting Edition (VBScript).
 
 Un [*lecteur de carte à puce*](../secgloss/r-gly.md) doit être installé sur l’ordinateur exécutant le contrôle d’inscription de carte à puce.
 
