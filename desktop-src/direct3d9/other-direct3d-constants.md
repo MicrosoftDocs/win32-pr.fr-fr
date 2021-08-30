@@ -4,12 +4,12 @@ ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: Autres constantes Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da78bf4ca08c8e1e2a09608a1a446d24e5846fb7
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 456df7cbbcc451a06ff7b01bffe6df4941d25db9c5eeb4f6d47053057fa0ec25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069009"
 ---
 # <a name="other-direct3d-constants"></a>Autres constantes Direct3D
 

@@ -4,12 +4,12 @@ ms.assetid: 68459b22-0f35-444a-969e-29695e735774
 title: élément messageStructureDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a116658fc7ce7f985b7b717c7a7b4ce38be4637
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 403463d42126d59258be2b274ca4c82bcfbf4198e516a75e632acf323860e920
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071439"
 ---
 # <a name="messagestructuredefinitions-element"></a>élément messageStructureDefinitions
 
@@ -65,7 +65,7 @@ Les structures de message sont référencées par le code stub et le proxy gén�
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

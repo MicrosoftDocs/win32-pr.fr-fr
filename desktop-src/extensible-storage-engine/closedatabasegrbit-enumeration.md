@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 225fd92af61edac7abfabb90375b6f91442262bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdbfad982d12c9e310d717114be4fe89bd995f1713742618f4d3ee5a5c6309a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976696"
 ---
 # <a name="closedatabasegrbit-enumeration"></a>Énumération CloseDatabaseGrbit
 
@@ -70,7 +70,7 @@ public enum CloseDatabaseGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 </tbody>

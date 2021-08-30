@@ -4,16 +4,16 @@ ms.assetid: bd92a0f4-98d9-497a-99b9-0cf432347daf
 title: Correspondance opérationnelle avec le pilote de périphérique de compensation de mouvement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cca960ed8cbdae212bbe5e9f3b25316125a7456
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 703b9a76f0a49797210496825417a2326fff686c19b2eafa827b148f5fa62a81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051519"
 ---
 # <a name="operational-correspondence-with-motion-compensation-device-driver"></a>Correspondance opérationnelle avec le pilote de périphérique de compensation de mouvement
 
-Cette section contient une description du côté pilote de périphérique de compensation de mouvement de l’interface DirectX VA. (Référence : Windows 2000 DDK-pilotes graphiques-Guide de conception-3,0 DirectDraw DDI-3,12 Motion compensation. Consultez le kit DDK Windows pour obtenir de la documentation sur les structures en caractères gras.)
+Cette section contient une description du côté pilote de périphérique de compensation de mouvement de l’interface DirectX VA. (référence : Windows 2000 DDK-pilotes graphiques-Guide de conception-3,0 DirectDraw DDI-3,12 Motion Compensation. consultez le Windows DDK pour obtenir de la documentation sur les structures en gras.)
 
 Les éléments suivants font référence aux entrées accessibles via la structure **DD \_ MOTIONCOMPCALLBACKS** :
 

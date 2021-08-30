@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b37b2f5f3fe9cfce78e16530df8b94e4333e9a33
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89e9dd6850b93718c218b3d3f465b8f549a9a614b5e9f898a622b03ee2cfc340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921049"
 ---
 # <a name="cim_realizes-class"></a>CIM \_ réalise la classe
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ réalise** la dérivation de la [**\_ dépendance CIM**](cim-dependency.md).
 

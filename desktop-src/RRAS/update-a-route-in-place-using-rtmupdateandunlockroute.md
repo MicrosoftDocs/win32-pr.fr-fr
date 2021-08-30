@@ -4,12 +4,12 @@ description: La procédure suivante décrit les étapes utilisées pour mettre �
 ms.assetid: 3598a28f-8ade-4b3f-9d31-4f2c84df2dd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cb79b86645d77f0ee44ffd06b8ef6f403dbd8ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95429383b3c13bfb0a02282425c004f77205ba494ac4026c8b066db0726b9966
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101719"
 ---
 # <a name="update-a-route-in-place-using-rtmupdateandunlockroute"></a>Mettre à jour un itinéraire sur place à l’aide de RtmUpdateAndUnlockRoute
 
@@ -22,7 +22,7 @@ La procédure suivante décrit les étapes utilisées pour mettre à jour un iti
     > [!Note]  
     > Si le client ajoute des informations aux membres **voisins** ou **NextHopsList** , le client doit appeler [**RtmReferenceHandles**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreferencehandles) pour incrémenter explicitement le nombre de références que le gestionnaire de tables de routage conserve sur l’objet tronçon suivant. De même, si le client supprime des informations du membre **NextHopsList** , le client doit appeler [**RtmReleaseNextHops**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmreleasenexthops) pour décrémenter le décompte de références.
 
-     
+     
 
 3.  Appelez [**RtmUpdateAndUnlockRoute**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmupdateandunlockroute) pour informer le gestionnaire de table de routage qu’une modification a eu lieu. Le gestionnaire de table de routage valide les modifications, met à jour la destination pour refléter les nouvelles informations, puis déverrouille l’itinéraire.
 
@@ -84,9 +84,9 @@ if (Status == NO_ERROR)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 3bedba3d9747847a3f4514fe0fcfd6fd3648b890
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 266fa1fa5363a2b1a6c29dc3ac5327c29a4906e287b7b274ec468d950bb80181
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067489"
 ---
 # <a name="texture1darraysamplecmp-methods"></a>Texture1DArray :: SampleCmp, méthodes
 

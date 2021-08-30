@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4270059d02aec10905ea8aed7754bfb3a34c6897
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b1b6bc1edf52b77486bb25bc3459004916e3599c
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479145"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786105"
 ---
 # <a name="id3dx11effect-interface"></a>Interface ID3DX11Effect
 
@@ -77,7 +77,7 @@ Le système d’effet regroupe les informations requises pour le rendu dans un e
 >
 > Si vous appelez [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur un objet **ID3DX11Effect** pour récupérer l’interface [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , **QueryInterface** retourne E \_ nointerface. Pour contourner ce problème, utilisez le code suivant :
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | | | <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 

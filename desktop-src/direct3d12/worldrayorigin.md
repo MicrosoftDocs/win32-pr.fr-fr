@@ -12,12 +12,12 @@ api_name:
 - WorldRayOrigin
 api_type:
 - NA
-ms.openlocfilehash: 456d93bf36ceeaac0627d90ed9355453265969b6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c5c1de535e7efc73f633c5656a5c799db34161e06d07df012d4bfccb94012c7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119439"
 ---
 # <a name="worldrayorigin"></a>WorldRayOrigin
 
@@ -30,7 +30,7 @@ float3 WorldRayOrigin();
 
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette fonction peut être appelée à partir des types de nuanceur Raytracing suivants :
 

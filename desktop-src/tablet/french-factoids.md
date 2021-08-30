@@ -4,12 +4,12 @@ ms.assetid: c4fef6b9-b770-4e2d-a8f2-634206dccb2e
 title: Français Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417e19dd3237dcd0aa92bd615c6f931997f536af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5eef204a20049902f52601d2ce007ba2c2090af
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034023"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622905"
 ---
 # <a name="french-factoids"></a>Français Factoids
 
@@ -19,9 +19,9 @@ Le tableau suivant répertorie les formats disponibles pour chaque Factoid utili
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

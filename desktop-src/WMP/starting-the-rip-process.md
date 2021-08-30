@@ -4,22 +4,22 @@ description: Démarrage du processus RIP
 ms.assetid: 82ffc114-ddad-41be-af80-6c1bd29cb0d4
 keywords:
 - Lecteur Windows Media, extraction de CD
-- Modèle d’objet du lecteur Windows Media, extraction de CD
+- modèle d’objet Lecteur Windows Media, extraction de CD
 - modèle d’objet, extraction de CD
-- Contrôle Windows Media Player ActiveX, extraction de CD
-- Contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile, extraction de CD
+- contrôle de ActiveX Lecteur Windows Media, extraction de CD
+- contrôle de ActiveX, extraction de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, extraction de CD
+- Lecteur Windows Media Mobile, extraction de CD
 - Extraction de CD, démarrage du processus RIP
 - extraction de CD, démarrage du processus RIP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2107b053abf8747d7add8fcedc26a2386ae5fd84
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 47d6d4e7bac4de9fc82f26d7231020e002570553ecdd6447c55f981601e5830a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106512714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002159"
 ---
 # <a name="starting-the-rip-process"></a>Démarrage du processus RIP
 
@@ -61,9 +61,9 @@ HRESULT hr = m_spCdromRip->stopRip();
 [**Sélection d’éléments pour l’extraction**](selecting-items-for-ripping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

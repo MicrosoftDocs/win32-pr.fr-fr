@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d7caabd46d5a97e29e31bdd86793fca01113a708
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8a0afb037960a0e5b0deb0bb7c9deb0230e1f49
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109595"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627635"
 ---
 # <a name="span-idvspixenginedescriptor_heap_header_columnsspandescriptor_heap_header_columns-enumeration"></a><span id="vspixengine.descriptor_heap_header_columns"></span>\_ \_ Énumération des colonnes d’en-tête du tas Descriptor \_
 
 Énumération utilisée pour indiquer un en-tête colonne dans la visionneuse du tas du descripteur
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -48,7 +48,7 @@ Valeur qui correspond à l’en-tête de colonne Flags.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

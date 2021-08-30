@@ -7,12 +7,12 @@ keywords:
 - wire_marshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a85c83cb47cc799c52ad649ac02dd4f2c6a690b9c546a1e47654a2fe2304ca04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2b54c923c59fd2146b5b1c3db898f6606a1a3d0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881186"
 ---
 # <a name="the-wire_marshal-attribute"></a>Attribut de \_ Marshal de câble
 
@@ -22,16 +22,16 @@ Vous utilisez l' \[ attribut **Wire \_ Marshal** \] pour spécifier un type de d
 
 Votre type spécifique à votre application peut être un type simple, composite ou pointeur. La restriction principale est que l’instance de type doit avoir une taille de mémoire fixe et bien définie. Si la taille de votre instance de type doit être modifiée, utilisez un champ de pointeur plutôt qu’un tableau conforme. Vous pouvez également définir un pointeur vers le type modifiable.
 
-Vous devez fournir les routines pour le dimensionnement, le marshaling et le démarshaling des données, ainsi que la libération de la mémoire associée. Le tableau suivant décrit les quatre noms de routines fournis par l’utilisateur. <type>Est le type utilisateur spécifié dans la définition de type de \[ **\_ Marshal de câble** \] .
+Vous devez fournir les routines pour le dimensionnement, le marshaling et le démarshaling des données, ainsi que la libération de la mémoire associée. Le tableau suivant décrit les quatre noms de routines fournis par l’utilisateur. Le &lt; type &gt; est le type utilisateur spécifié dans la définition de \[ type de **\_ Marshal de câble** \] .
 
 
 
 | Routine                                                            | Description                                                               |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [<type>\_Utilisateurs](the-type-usersize-function.md)           | Dimensionne la mémoire tampon de données RPC avant le marshaling côté client ou côté serveur. |
-| [<type>\_UserMarshal](the-type-usermarshal-function.md)     | Marshale les données côté client ou côté serveur.                           |
-| [<type>\_UserUnmarshal](the-type-userunmarshal-function.md) | Démarshale les données côté client ou côté serveur.                         |
-| [<type>\_UserFree](the-type-userfree-function.md)           | Libère les données côté serveur.                                        |
+| [&lt;type d' &gt; \_ utilisateur](the-type-usersize-function.md)           | Dimensionne la mémoire tampon de données RPC avant le marshaling côté client ou côté serveur. |
+| [&lt;tapez &gt; \_ UserMarshal](the-type-usermarshal-function.md)     | Marshale les données côté client ou côté serveur.                           |
+| [&lt;tapez &gt; \_ UserUnmarshal](the-type-userunmarshal-function.md) | Démarshale les données côté client ou côté serveur.                         |
+| [&lt;tapez &gt; \_ UserFree](the-type-userfree-function.md)           | Libère les données côté serveur.                                        |
 
 
 
@@ -39,9 +39,9 @@ Vous devez fournir les routines pour le dimensionnement, le marshaling et le dé
 
 Ces routines fournies par le programmeur sont fournies par le client ou l’application serveur en fonction des attributs directionnels.
 
-Si le paramètre est \[ uniquement [dans](/windows/desktop/Midl/in) \] , le client transmet au serveur. Le client a besoin des fonctions **<type> \_ Users** et **<type> \_ UserMarshal** . Le serveur a besoin des fonctions **<type> \_ UserUnmarshal** et **<type> \_ UserFree** .
+Si le paramètre est \[ uniquement [dans](/windows/desktop/Midl/in) \] , le client transmet au serveur. Le client a besoin du **&lt; type &gt; \_ Users** et des fonctions **&lt; &gt; \_ UserMarshal** . Le serveur a besoin du **&lt; type &gt; \_ UserUnmarshal** et des fonctions **&lt; &gt; \_ UserFree de type** .
 
-Pour un \[ paramètre en [sortie](/windows/desktop/Midl/out-idl) \] seule, le serveur transmet au client. Le serveur a besoin des fonctions **<type> \_ Users** et **<type> \_ UserMarshal** , tandis que le client a besoin de la fonction **<type> \_ UserMarshal** .
+Pour un \[ paramètre en [sortie](/windows/desktop/Midl/out-idl) \] seule, le serveur transmet au client. Le serveur a besoin des fonctions **&lt; type &gt; \_ Users** et **&lt; &gt; \_ UserMarshal** , tandis que le client a besoin du **&lt; type &gt; \_ UserMarshal** function.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -1,21 +1,21 @@
 ---
 title: Définition de la priorité cible du serveur DFS
-description: La définition de priorités de serveur DFS est une fonctionnalité disponible dans Microsoft Windows Server 2003 avec Service Pack 1 (SP1) et les systèmes d’exploitation ultérieurs.
+description: la définition de priorités de serveur DFS est une fonctionnalité disponible dans Microsoft Windows server 2003 avec Service Pack 1 (SP1) et les systèmes d’exploitation ultérieurs.
 ms.assetid: 0aacebf7-49cc-4287-a5c4-0d25a416d227
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e784a540a67f624ca5b8075009cd862c6063427
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23140a1e35d1980427012a0728f5acbc62f3ac0ef5dc288183e50f1ce29255a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895669"
 ---
 # <a name="dfs-server-target-prioritization"></a>Définition de la priorité cible du serveur DFS
 
-La définition de priorités de serveur DFS est une fonctionnalité disponible dans Microsoft Windows Server 2003 avec Service Pack 1 (SP1) et les systèmes d’exploitation ultérieurs. Cette fonctionnalité permet aux serveurs DFS de tirer parti des informations de coût de site Active Directory disponibles pour hiérarchiser les cibles dans les références des clients.
+la définition de priorités de serveur DFS est une fonctionnalité disponible dans Microsoft Windows server 2003 avec Service Pack 1 (SP1) et les systèmes d’exploitation ultérieurs. Cette fonctionnalité permet aux serveurs DFS de tirer parti des informations de coût de site Active Directory disponibles pour hiérarchiser les cibles dans les références des clients.
 
-Avant Windows Server 2003 avec SP1, les cibles étaient regroupées en deux ensembles : un groupe pour contenir toutes les cibles dans le même site que le client. et un autre groupe pour toutes les autres cibles. Ces cibles partageant le même site que le client sont appelées « dans le site » et si le coût des sites est activé, un coût spécifique est attribué à chaque site, avec des coûts de site inférieurs par rapport à ceux d’une valeur supérieure.
+avant Windows Server 2003 avec SP1, les cibles étaient regroupées en deux ensembles : un groupe pour contenir toutes les cibles dans le même site que le client. et un autre groupe pour toutes les autres cibles. Ces cibles partageant le même site que le client sont appelées « dans le site » et si le coût des sites est activé, un coût spécifique est attribué à chaque site, avec des coûts de site inférieurs par rapport à ceux d’une valeur supérieure.
 
 Avec la disponibilité de ces données de coût de site, les cibles de serveur peuvent être classées par ordre de priorité pour des stratégies de basculement de serveur DFS plus efficaces. Dans le passé, ce niveau granulaire de détails n’était pas disponible et les administrateurs devaient recourir à des moyens artificiels (tels que des sites factices dans Active Directory) pour prendre en charge des exigences encore plus simples, telles que la désignation de serveurs spécifiques en tant que serveur de « sauvegarde » ou « secondaire » dans le cas où un serveur DFS « principal » échoue. Désormais, avec les détails supplémentaires fournis par les stratégies de basculement de site, des stratégies de basculement à plusieurs niveaux sont possibles.
 

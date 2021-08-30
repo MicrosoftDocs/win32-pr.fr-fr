@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1875da055f2719afca454d225c3bebd13b404b3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b89da903ee3d0814f2c6d599e1418886efc414a129dd7197282fc66e9e7d78d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125719"
 ---
 # <a name="processtokensidtype-principaltype-element"></a>Élément ProcessTokenSidType (principalType)
 
@@ -40,11 +40,11 @@ L’élément **ProcessTokenSidType** est défini par le type complexe [**princi
 
 | Élément                                                                  | Dérivé de                                                           | Description                                                    |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
-| [**Directeur**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | Spécifie les informations d’identification de sécurité pour un principal.<br/> |
+| [**Principal**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | Spécifie les informations d’identification de sécurité pour un principal.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement C++, le type de SID de processus est spécifié à l’aide de la propriété [**IPrincipal2 ::P rocesstokensidtype**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal2-get_processtokensidtype) .
 
@@ -68,8 +68,8 @@ Le code XML suivant définit le type de SID de processus de la tâche.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

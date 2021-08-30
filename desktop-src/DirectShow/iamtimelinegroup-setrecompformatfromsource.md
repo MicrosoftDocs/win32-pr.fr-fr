@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: adf4bfcf9d76ed40092eba7c612f4213c7aacb0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd54f8a555e104fecd87b755cf5938cf9c67654e1d8e2ba07b88920c0c047604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905019"
 ---
 # <a name="iamtimelinegroupsetrecompformatfromsource-method"></a>IAMTimelineGroup :: SetRecompFormatFromSource, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                             | Description                                                                                            |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                                                                                    |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                                                                                    |
 | <dl> <dt>**E \_ aucune \_ chronologie**</dt> </dl>          | Le groupe n’est pas dans une chronologie.<br/>                                                         |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>           | Mémoire insuffisante.<br/>                                                                        |
 | <dl> <dt>**\_pointeur E**</dt> </dl>               | Argument de pointeur **null** .<br/>                                                                  |
@@ -70,7 +70,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode recherche le fichier source associé à *pSource*, récupère le type de média du premier flux vidéo dans le fichier et définit le format de compression de groupe à l’aide de ce type. Pour plus d’informations sur les formats de compression, consultez [**IAMTimelineGroup :: SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md).
 
@@ -80,7 +80,7 @@ Cette méthode recherche le fichier source associé à *pSource*, récupère le 
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

@@ -5,12 +5,12 @@ Robots: noindex, nofollow
 ms.assetid: A6311538-D7CC-4A23-A145-14AF3BBFC4C4
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: 8406c41a2666f9014bac27452572c6f88b84e6bf
-ms.sourcegitcommit: 01a4383738056cf3de4f45f36d98ef73d4dc694d
+ms.openlocfilehash: f4185e673b94f08449b44c6987c3b3c6e16ca193326b57f4f13d2bb77faae43a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070209"
 ---
 # <a name="device-access-glossary"></a>Glossaire de l’accès aux appareils
 
@@ -28,7 +28,7 @@ Environnement d’exécution hautement restreint dans lequel un processus s’ex
 **Binding**
 </dt> <dd>
 
-Association d’un objet d’accès d’appareil à une interface d’appareil particulière. Si la liaison est réussie, les applications du Windows Store peuvent utiliser l’objet d’accès de l’appareil en tant que répartiteur pour communiquer avec le pilote de périphérique.
+Association d’un objet d’accès d’appareil à une interface d’appareil particulière. si la liaison est réussie Windows, les applications du windows Store peuvent utiliser l’objet d’accès de l’appareil en tant que répartiteur pour communiquer avec le pilote de périphérique.
 
 </dd> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7dca0209f745d5034bde2da852829b99d7dcb8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49bca85d44f13f304ad566b2d0ab39cb800abd36af4c922c0ae5619bb2703009
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992309"
 ---
 # <a name="orpc_init_args-structure"></a>ORPC \_ Init, \_ structure d’arguments
 

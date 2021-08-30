@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre DefaultAccessPermission COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e6c132096807b8c234259071758ebd361421f8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95e41803dc70a894e2c230c5c6231a4b7ab7c166c7926a8fff900ebd183a41da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993409"
 ---
 # <a name="defaultaccesspermission"></a>DefaultAccessPermission
 
@@ -20,16 +20,16 @@ Définit la liste de Access Control (ACL) des principaux qui peuvent accéder au
 > [!Caution]  
 > Il n’est pas recommandé de modifier cette valeur, car cela affecte toutes les applications serveur COM qui ne définissent pas leur propre sécurité au niveau du processus, et peut les empêcher de fonctionner correctement. Si vous modifiez cette valeur pour affecter les paramètres de sécurité d’une application COM particulière, vous devez à la place modifier les paramètres de sécurité à l’ensemble du processus pour cette application COM particulière. Pour plus d’informations sur la définition de la sécurité au niveau du processus, consultez Définition de la [sécurité au niveau du processus](setting-processwide-security.md).
 
- 
+ 
 
 ## <a name="registry-entry"></a>Entrée de Registre
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   DefaultAccessPermission = ACL
+   DefaultAccessPermission = ACL
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur **\_ binaire de Reg** .
 
@@ -52,9 +52,9 @@ Cette valeur fournit un niveau simple d’administration centralisée de l’acc
 [Définition de la sécurité au niveau du processus](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

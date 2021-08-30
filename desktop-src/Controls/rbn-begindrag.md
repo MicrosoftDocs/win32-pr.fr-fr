@@ -3,7 +3,7 @@ title: RBN_BEGINDRAG le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsque l’utilisateur commence à faire glisser une bande. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e1565b31-7694-43cc-87ee-c9294a0612cd
 keywords:
-- Contrôles Windows de code de notification RBN_BEGINDRAG
+- RBN_BEGINDRAG les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c797e026484b32e68408cf720a1d4681d066c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 53089c9bae4924c03f7069fad9c4cbde5d9c600777627297004f132c6a9cac33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985349"
 ---
 # <a name="rbn_begindrag-notification-code"></a>\_Code de notification RBN BEGINDRAG
 
@@ -55,8 +55,8 @@ Retourne zéro pour permettre au Rebar de continuer l’opération glisser, ou u
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

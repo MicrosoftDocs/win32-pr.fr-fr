@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 04aeb445be91426e7995ecd01c9326cda586a447
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 295889510b96a085865eeff45ba976278519670adbd596b24e6aea829a29df4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966718"
 ---
 # <a name="cbasecontrolwindowput_backgroundpalette-method"></a>CBaseControlWindow. put \_ BackgroundPalette, méthode
 
@@ -53,7 +53,7 @@ Indicateur booléen Automation (0 est désactivé, 1 est activé).
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour lire une vidéo dans une autre application ou un autre document, l’application peut utiliser sa propre palette. Il peut demander à la vidéo d’utiliser la palette de premier plan actuelle plutôt que sa propre palette en affectant la valeur 1 à cet indicateur. Si cette valeur est définie sur 0, la fenêtre installe et réalise sa propre palette par défaut. Si vous demandez à la fenêtre d’utiliser une palette différente, vous risquez de nuire aux performances.
 
@@ -63,7 +63,7 @@ Pour lire une vidéo dans une autre application ou un autre document, l’applic
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

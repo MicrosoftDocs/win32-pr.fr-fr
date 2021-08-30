@@ -4,12 +4,12 @@ ms.assetid: 478cc11e-afbd-411a-ab84-b8ca7c3aa503
 title: Événement WPCEVENT_MEDIA_PLAYBACK (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfdf4e884cc0e87f579d245676f78232a5ae0177
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 036f88b657ea53a0d1a44679cc55c5cd109f9d16cada16f1812d301b472ef93b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951133"
 ---
 # <a name="wpcevent_media_playback-event"></a>Événement de lecture du \_ média WPCEVENT \_
 
@@ -75,7 +75,7 @@ Métadonnées de l’album pour le contenu.
 
 </dd> <dt>
 
-*Explicitement* 
+*Explicite* 
 </dt> <dd>
 
 Valeur de l’énumération [**WPC \_ Media \_ Explicit**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_media_explicit) qui indique des informations sur l’évaluation explicite du fichier multimédia.
@@ -95,7 +95,7 @@ Valeur de l’énumération [**WPCFLAG \_ ISBLOCKED**](/windows/win32/api/wpceve
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

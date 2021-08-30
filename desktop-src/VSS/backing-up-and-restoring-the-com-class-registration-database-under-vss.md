@@ -4,12 +4,12 @@ ms.assetid: 5a282158-63b0-4c15-9bfc-0d61f5fe8716
 title: Sauvegarde et restauration de la base de données d’inscription de classe COM+ sous VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae21489330693f0ce0d23b8639507121b9b00302
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b248408d3c1a712fa37c55fd851bc7cc72662ac4da91422e6b1086d4b022107
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124579"
 ---
 # <a name="backing-up-and-restoring-the-com-class-registration-database-under-vss"></a>Sauvegarde et restauration de la base de données d’inscription de classe COM+ sous VSS
 

@@ -4,12 +4,12 @@ ms.assetid: 33FDB96F-F483-4AEB-BD94-2F5D17775DF5
 title: Propriétés ICertificateAttestationChallenge
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b768fed24cc4e3b3cd06c22b7c92993d2b87a005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fc51e04cb96fa64be69adcbe8a7aeedf8a38f3a01ada0d0e3bc5a1b60d8edf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976829"
 ---
 # <a name="icertificateattestationchallenge-properties"></a>Propriétés ICertificateAttestationChallenge
 

@@ -4,12 +4,12 @@ ms.assetid: f2993544-2124-4fb0-8bb3-59f5d8e76b83
 title: Propriété PATCH
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e870c480c1fdff0f979701e059bfcd6eb187a4a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1938ab76e7250d86f5fa40dd6fc64a9f1341982356ed98924ebdad3abd2f2868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926269"
 ---
 # <a name="patch-property"></a>Propriété PATCH
 
@@ -17,9 +17,9 @@ Le programme d’installation définit la propriété **patch** sur une liste de
 
 La valeur de la propriété **patch** est la liste des correctifs en cours d’installation. Chaque correctif de la liste est représenté par le chemin d’accès complet au package du correctif (fichier. msp). Les chemins d’accès complets de la liste sont séparés par des points-virgules.
 
-**Windows Installer 2,0 :** Plusieurs correctifs ne sont pas pris en charge. Windows Installer 3,0 est requis pour appliquer plusieurs correctifs.
+**Windows Installer 2,0 :** Plusieurs correctifs ne sont pas pris en charge. Windows Le programme d’installation 3,0 est requis pour appliquer plusieurs correctifs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous créez un package de correctifs à l’aide de [Msimsp.exe](msimsp-exe.md) et [Patchwiz.dll](patchwiz-dll.md) vous pouvez spécifier qu’une action ou une boîte de dialogue s’exécute uniquement lorsqu’un correctif particulier est appliqué. Lorsque vous créez le package de correctifs, par exemple test. msp, vous créez une image mise à niveau du produit et un fichier de propriétés de création de correctifs. Lors de la création du fichier de propriétés de création de correctifs, vous pouvez entrer un nom de propriété, par exemple PATCHFORTEST, dans le champ MediaSrcPropName de la table [ImageFamilies](imagefamilies-table-patchwiz-dll-.md) . Lorsque vous créez les tables de séquence de l’image mise à niveau du produit, vous pouvez inclure dans la colonne condition de la table de séquence une instruction conditionnelle pour l’action ou la boîte de dialogue que vous souhaitez rendre conditionnelle.
 
@@ -53,7 +53,7 @@ Si test. msp n’est pas appliqué, le programme d’installation ne l’inclut 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

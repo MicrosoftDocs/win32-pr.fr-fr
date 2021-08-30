@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 82ec05a24f4cccc89cece666b18cb63412a78259
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a71798459f487724705b25db019a1f20d77f87ad5a2e4173b47282db062508ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079799"
 ---
 # <a name="ldrregisterdllnotification-function"></a>LdrRegisterDllNotification fonction)
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
 
 Enregistre une notification lorsqu’une DLL est chargée pour la première fois. Cette notification se produit avant que la liaison dynamique ait lieu.
 
@@ -44,7 +44,7 @@ NTSTATUS NTAPI LdrRegisterDllNotification(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Ce paramètre doit être égal à zéro.
@@ -78,7 +78,7 @@ Si la fonction réussit, elle retourne l' **état \_ Success**.
 
 Les formulaires et la signification des codes d’erreur de **NTSTATUS** sont répertoriés dans le fichier d’en-tête Ntstatus. h disponible dans le kit WDK et sont décrits dans la documentation WDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK. Vous pouvez également utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
 
@@ -88,8 +88,8 @@ Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’i
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 

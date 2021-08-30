@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Aux_klib.h
-ms.openlocfilehash: 9faa706ca3603a1796d70e2f208e9b3b2e518c45
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2fec3554faee39cb965f9b5dabe83e2d436bb7a1b8bc5995ea139cbd5761852
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045329"
 ---
 # <a name="aux_module_extended_info-structure"></a>\_Structure des \_ informations étendues du module aux \_
 
@@ -70,7 +70,7 @@ Chemin d’accès complet du module.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La bibliothèque d’objets qui implémente cette API peut être téléchargée à partir d' [ici](https://www.microsoft.com/?ref=go).
 
@@ -80,7 +80,7 @@ La bibliothèque d’objets qui implémente cette API peut être téléchargée 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque d’API auxiliaires Windows version 1,0 ou ultérieure<br/>                          |
+| Composant redistribuable<br/> | Windows Bibliothèque d’API auxiliaire version 1,0 ou ultérieure<br/>                          |
 | En-tête<br/>          | <dl> <dt>Aux \_ klib. h</dt> </dl> |
 
 

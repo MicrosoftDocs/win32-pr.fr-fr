@@ -4,12 +4,12 @@ ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implémentation de IAMErrorLog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 378d48ec9047da6068e8d95143f8b10b7016faea
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1baea90daa2ccca9fc5ea5db6329a2c56d44d310
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465236"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786925"
 ---
 # <a name="implementing-iamerrorlog"></a>Implémentation de IAMErrorLog
 
@@ -65,7 +65,7 @@ if( pExtraInfo )    // Report extra information, if any.
 > [!Note]  
 > Ne libérez pas la variante vers laquelle pointe
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | | | <pre><code>pExtraInfo</code></pre> | 

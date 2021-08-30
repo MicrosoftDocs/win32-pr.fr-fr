@@ -9,12 +9,12 @@ keywords:
 - RPC appel de procédure distante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3461116468bf1d686d1a5695924e5fe66007b35
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45f6d56ce76e2eebbec191d4235e53b3cb25e499a4397072cd369e02535757cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018218"
 ---
 # <a name="remote-procedure-call"></a>Appel de procédure distante
 
@@ -32,7 +32,7 @@ RPC est conçu pour être utilisé par les programmeurs C/C++. Vous devez vous f
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Les bibliothèques Runtime RPC sont incluses avec Windows. Les composants de l’environnement de développement RPC sont installés lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows. Pour plus d’informations, consultez [installation de l’environnement de programmation RPC](installing-the-rpc-programming-environment.md).
+Les bibliothèques Runtime RPC sont incluses avec Windows. les composants de l’environnement de développement RPC sont installés lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows. Pour plus d’informations, consultez [installation de l’environnement de programmation RPC](installing-the-rpc-programming-environment.md).
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -41,7 +41,7 @@ Les bibliothèques Runtime RPC sont incluses avec Windows. Les composants de l�
 | Rubrique                                                                           | Description                                                                                                                      |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [Meilleures pratiques de programmation RPC](best-rpc-programming-practices.md)<br/> | Conseils sur les pratiques de programmation RPC qui permettent de créer les meilleures applications RPC possibles.<br/>                            |
-| [Vue d’ensemble](overviews.md)<br/>                                            | Informations générales sur l’incorporation de RPC dans vos applications client/serveur.<br/>                                     |
+| [Vue d'ensemble](overviews.md)<br/>                                            | Informations générales sur l’incorporation de RPC dans vos applications client/serveur.<br/>                                     |
 | [Référence](reference.md)<br/>                                           | Documentation des types, fonctions et constantes RPC.<br/>                                                                 |
 | [Moteur de rapport de non-remise RPC](rpc-ndr-engine.md)<br/>                                 | Documentation du moteur de marshaling pour les composants RPC et DCOM, le moteur de représentation de données réseau (NDR) RPC.<br/> |
 

@@ -1,9 +1,9 @@
 ---
 title: Message MM_MIM_CLOSE (mmsystem. h)
-description: Le \_ message de \_ fermeture MIM mm est envoyé à une fenêtre lorsqu’un périphérique d’entrée MIDI est fermé.
+description: le \_ message MM MIM \_ fermer est envoyé à une fenêtre lorsqu’un périphérique d’entrée MIDI est fermé.
 ms.assetid: 261021aa-4df6-44d8-aad3-5f98b1213459
 keywords:
-- Message MM_MIM_CLOSE Windows Multimedia
+- message MM_MIM_CLOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ce511365b1faa49faefaf4ed25c5b8befb2288
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87e1ee579f09fbd379f1fa353d602657194b0848d040210a713d0492a7e42311
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807389"
 ---
-# <a name="mm_mim_close-message"></a>MM \_ \_ message de fermeture MIM
+# <a name="mm_mim_close-message"></a>MM \_ MIM \_ fermer le message
 
-Le message de **\_ \_ fermeture MIM mm** est envoyé à une fenêtre lorsqu’un périphérique d’entrée MIDI est fermé.
+le message **MM \_ MIM \_ fermer** est envoyé à une fenêtre lorsqu’un périphérique d’entrée MIDI est fermé.
 
 
 ```C++
@@ -56,7 +56,7 @@ Réservé n’utilisez pas.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le descripteur d’appareil n’est plus valide une fois que ce message a été envoyé.
 
@@ -68,7 +68,7 @@ Le descripteur d’appareil n’est plus valide une fois que ce message a été 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

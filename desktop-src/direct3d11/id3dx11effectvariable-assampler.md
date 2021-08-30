@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1213320950377f6981348a158c3d8c8ef4d4fd0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a6c71e8e2cdc89860c8edf82a0c008c03f4a154ab23cee882ed1e9eaaad2939
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894599"
 ---
 # <a name="id3dx11effectvariableassampler-method"></a>ID3DX11EffectVariable :: AsSampler, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectSamplerVariable**](id3dx11effectsamplervariable.md)\*
 
 Pointeur vers une variable d’échantillonneur. Consultez [**ID3DX11EffectSamplerVariable**](id3dx11effectsamplervariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 AsSampler retourne une version de la variable Effect qui a été spécialisée pour une variable d’échantillonneur. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données d’échantillonnage.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

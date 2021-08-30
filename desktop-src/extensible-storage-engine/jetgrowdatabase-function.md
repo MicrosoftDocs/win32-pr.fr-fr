@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 710e41b29c55ec435db6eb1b9e1536740819478e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 4928bbf4b057192a846b627a6bdc821244726333
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984572"
 ---
 # <a name="jetgrowdatabase-function"></a>JetGrowDatabase fonction)
 
@@ -87,7 +87,13 @@ La taille du fichier peut ne pas correspondre au nombre de pages retournées dan
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

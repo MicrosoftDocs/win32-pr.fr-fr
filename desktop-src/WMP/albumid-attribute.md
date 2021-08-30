@@ -3,7 +3,7 @@ title: Attribut AlbumID
 description: L’attribut AlbumID est un identificateur unique pour l’album.
 ms.assetid: 0412d91a-11a7-434c-8717-a71d85655679
 keywords:
-- Attribut AlbumID lecteur Windows Media
+- Lecteur Windows Media de l’attribut AlbumID
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 339253c82554579fa549371e2ebe4cb2f1926cc5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2690e4b6dd6bf6c8d795c8a06aca9c65c3f2c17513cf9b8ab8d55419b00d517
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124069"
 ---
 # <a name="albumid-attribute"></a>Attribut AlbumID
 
@@ -27,7 +27,7 @@ L’attribut **AlbumID** est un identificateur unique pour l’album.
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

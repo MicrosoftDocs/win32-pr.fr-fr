@@ -3,7 +3,7 @@ title: Message LB_GETTEXTLEN (winuser. h)
 description: Obtient la longueur d’une chaîne dans une zone de liste.
 ms.assetid: 866730bc-ffd4-42fd-9cea-5d326e129189
 keywords:
-- LB_GETTEXTLEN les contrôles de message Windows
+- LB_GETTEXTLEN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1f76bf3574b09b76d5f1010dcb59c8245555dc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f15d0d5ab89e9917e2062fe0e46505416d2eb3e7c8ca1e0cb0412952a10b8c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085469"
 ---
 # <a name="lb_gettextlen-message"></a>\_Message GETTEXTLEN lb
 
@@ -34,7 +34,7 @@ Obtient la longueur d’une chaîne dans une zone de liste.
 
 Index de base zéro de la chaîne.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
 
 </dd> <dt>
 
@@ -51,7 +51,7 @@ La valeur de retour est la longueur de la chaîne, dans **TCHAR** s, à l’excl
 
 Si le paramètre *wParam* ne spécifie pas d’index valide, la valeur de retour est lb \_ Err.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans certaines conditions, la valeur de retour est supérieure à la longueur réelle du texte. Cela se produit avec certains mélanges d’ANSI et Unicode, et est dû au système d’exploitation qui autorise l’existence possible de caractères DBCS (Double-Byte Character Set) dans le texte. Toutefois, la valeur de retour sera toujours au moins égale à la longueur réelle du texte. vous pouvez donc toujours l’utiliser pour guider l’allocation de mémoire tampon. Ce comportement peut se produire lorsqu’une application utilise à la fois des fonctions ANSI et des boîtes de dialogue courantes, qui utilisent Unicode.
 
@@ -65,8 +65,8 @@ Si la zone de liste a un style owner-drawn, mais pas le style [**\_ HASSTRINGS k
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

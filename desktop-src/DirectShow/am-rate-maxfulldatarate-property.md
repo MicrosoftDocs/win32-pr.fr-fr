@@ -4,12 +4,12 @@ ms.assetid: 66e6885b-7ad7-4912-85e4-ea36855bfde6
 title: AM_RATE_MaxFullDataRate, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4e3b1ba4d15268ffb8a32c0e808393b85efe55b
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 971633e29ac2a33ab255987b0d2d0beb502dcda33220767ede70699ec4da8aea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928799"
 ---
 # <a name="am_rate_maxfulldatarate-property"></a>\_ \_ Propriété MAXFULLDATARATE rate AM
 

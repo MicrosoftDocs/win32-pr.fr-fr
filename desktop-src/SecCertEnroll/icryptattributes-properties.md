@@ -4,12 +4,12 @@ ms.assetid: 47D26C1C-535F-4100-BEEC-F7681F6D38BD
 title: Propriétés ICryptAttributes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d6434f3c85f1d1b5796f2409da67a10a4953451
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac74e5f132474fcb10026a8697f3ee42fceda1f2451a970d96b9a76703c333de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976649"
 ---
 # <a name="icryptattributes-properties"></a>Propriétés ICryptAttributes
 

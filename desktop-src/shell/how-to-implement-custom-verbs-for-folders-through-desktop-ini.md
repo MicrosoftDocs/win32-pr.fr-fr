@@ -1,19 +1,19 @@
 ---
-description: Dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier à l’aide de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez Comment personnaliser des dossiers avec des Desktop.ini.
+description: dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier à l’aide de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez Comment personnaliser des dossiers avec des Desktop.ini.
 ms.assetid: F03AB35D-FBFE-46C2-A37F-F70C18219B9A
 title: Comment implémenter des verbes personnalisés pour les dossiers via Desktop.ini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 133726133abe884863a0b4d2abc0cc76aab1310a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f49b3f12d51848d08e6480d4180a3768b807703e5655e3fcfcddffcdaf16b734
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111779"
 ---
 # <a name="how-to-implement-custom-verbs-for-folders-through-desktopini"></a>Comment implémenter des verbes personnalisés pour les dossiers via Desktop.ini
 
-Dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier à l’aide de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez [Comment personnaliser des dossiers avec des Desktop.ini](how-to-customize-folders-with-desktop-ini.md).
+dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier à l’aide de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez [Comment personnaliser des dossiers avec des Desktop.ini](how-to-customize-folders-with-desktop-ini.md).
 
 > [!Note]  
 > Desktop.ini fichiers doivent toujours être marqués comme étant  +  **masqués** par le système afin qu’ils ne soient pas affichés aux utilisateurs.
@@ -49,7 +49,7 @@ HKEY_CLASSES_ROOT
                (Default) = %SystemRoot%\system32\notepad.exe %1\desktop.ini
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Ces verbes peuvent être les verbes par défaut. dans ce cas, le double-clic sur le dossier active le verbe.

@@ -4,12 +4,12 @@ ms.assetid: cd2c068a-dbbc-42c5-bc92-bbb73f0259d1
 title: MFPKEY_DECODERCOMPLEXITYREQUESTED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e017361d7e8267d33ecb2cfdbce2a6e79758fac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83330e3e413967d3b97d6531f8bbaf6ebd7809f732885849d0bf7b8f62d55ef5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954229"
 ---
 # <a name="mfpkey_decodercomplexityrequested-property"></a>MFPKEY \_ propriété DECODERCOMPLEXITYREQUESTED
 
@@ -35,7 +35,7 @@ VT \_ BSTR
 
 CANAL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le codec tentera d’encoder le contenu à l’aide du modèle de conformité de périphérique spécifié par cette valeur. Le modèle réel auquel le contenu encodé est conforme peut être récupéré à partir de la propriété [MFPKEY \_ DECODERCOMPLEXITYPROFILE](mfpkey-decodercomplexityprofileproperty.md) après l’encodage.
 
@@ -59,8 +59,8 @@ Cette propriété doit avoir l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

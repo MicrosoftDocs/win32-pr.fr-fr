@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 86e3e84deae73e206f41e9ea25e02b5d11373f3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1074fd6bd6fd75cb838b3c399dcb1505c5644145522f552862e77e05da70a0c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996419"
 ---
 # <a name="manipulating-class-and-instance-information"></a>Manipulation des informations relatives aux classes et aux instances
 
-WMI fournit diverses techniques pour récupérer et manipuler des informations sur les classes et les instances WMI, à l’aide de Microsoft PowerShell, Visual Basic Scripting Edition (VBScript) et C++.
+WMI fournit diverses techniques pour récupérer et manipuler des informations sur les classes et les instances wmi, à l’aide de Microsoft PowerShell, Visual Basic scripting Edition (VBScript) et C++.
 
 Le tableau suivant répertorie les rubriques qui traitent des techniques de récupération et de manipulation des informations d’instance et de classe WMI.
 
@@ -42,7 +42,7 @@ Le tableau suivant répertorie les rubriques qui traitent des techniques de réc
 
 ## <a name="manipulating-data-using-vbscript"></a>Manipulation de données à l’aide de VBScript
 
-Vous pouvez utiliser l’accès direct pour accéder aux propriétés WMI d’une classe ou d’une instance WMI directement sur un [**SWbemObject**](swbemobject.md), plutôt qu’à l’aide de la [collection](accessing-a-collection.md) de propriétés de cet objet. Vous pouvez également exécuter des méthodes sur cet objet dans le style natif du langage de programmation plutôt que d’utiliser le [**SWbemServices.Exeappel cMethod**](swbemservices-execmethod.md) . Par exemple, la méthode [**Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) dans le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) avait trois paramètres dans Windows 2000, mais a quatre paramètres dans Windows Server 2003.
+Vous pouvez utiliser l’accès direct pour accéder aux propriétés WMI d’une classe ou d’une instance WMI directement sur un [**SWbemObject**](swbemobject.md), plutôt qu’à l’aide de la [collection](accessing-a-collection.md) de propriétés de cet objet. Vous pouvez également exécuter des méthodes sur cet objet dans le style natif du langage de programmation plutôt que d’utiliser le [**SWbemServices.Exeappel cMethod**](swbemservices-execmethod.md) . par exemple, la méthode [**create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) dans le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) comportait trois paramètres dans Windows 2000, mais a quatre paramètres dans Windows Server 2003.
 
 À l’aide de l’accès direct, vous pouvez traiter les propriétés et les méthodes WMI comme s’il s’agissait de propriétés et de méthodes Automation de [**SWbemObject**](swbemobject.md).
 

@@ -16,12 +16,12 @@ keywords:
 - modèles de contrôle dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51abcfd316f5ab892155cf248d5473bd4e387227
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 59a993c6a17115fa27770e3adcfdc7ad62846082f618c24b07de92c7f0515208
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899569"
 ---
 # <a name="ui-automation-control-patterns-overview"></a>Vue d'ensemble des modèles de contrôle UI Automation
 
@@ -32,7 +32,7 @@ UI Automation utilise des modèles de contrôle pour représenter les comporteme
 > [!Note]  
 > Un contrôle d’agrégation est généré avec des contrôles enfants qui fournissent l’interface utilisateur pour les fonctionnalités exposées par le parent, et le parent doit implémenter tous les modèles de contrôle qui sont généralement associés à ses contrôles enfants. Il n’est pas nécessaire que ces mêmes modèles de contrôle soient, à leur tour, implémentés par les contrôles enfants.
 
- 
+ 
 
 Cette rubrique contient les sections suivantes :
 
@@ -66,15 +66,15 @@ Le tableau suivant décrit les modèles de contrôle UI Automation. Le tableau r
 
 
 
-| Nom                                                          | Interface du fournisseur                                                      | Interface client                                                                              | Description                                                                                                                                                                                                                     |
+| Name                                                          | Interface du fournisseur                                                      | Interface client                                                                              | Description                                                                                                                                                                                                                     |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Annotation](uiauto-implementingannotation.md)               | [**IAnnotationProvider**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider)           | [**IUIAutomationAnnotationPattern**](/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern)           | Utilisé pour exposer les propriétés d’une annotation dans un document, par exemple des commentaires dans la marge qui sont connectés au texte du document.                                                                                           |
 | [Ancrer](uiauto-implementingdock.md)                           | [**IDockProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idockprovider)                           | [**IUIAutomationDockPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdockpattern)                           | Utilisé pour les contrôles qui peuvent être ancrés dans un conteneur d’ancrage, par exemple, les barres d’outils ou les palettes d’outils.                                                                                                                            |
 | [Déplacez](/windows/desktop/WinAuto/uiauto-implementingdrag)                       | [**IDragProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idragprovider)                           | [**IUIAutomationDragPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdragpattern)                           | Utilisé pour prendre en charge les contrôles pouvant être glissés, ou les contrôles qui comportent des éléments pouvant être glissés.                                                                                                                                                           |
 | [DropTarget](/windows/desktop/WinAuto/uiauto-implementingdroptarget)           | [**IDropTargetProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idroptargetprovider)               | [**IUIAutomationDropTargetPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationdroptargetpattern)               | Utilisé pour prendre en charge les contrôles qui peuvent être la cible d’une opération glisser-déplacer.                                                                                                                                                   |
 | [ExpandCollapse](uiauto-implementingexpandcollapse.md)       | [**IExpandCollapseProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider)       | [**IUIAutomationExpandCollapsePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationexpandcollapsepattern)       | Utilisé pour les contrôles qui peuvent être développés ou réduits, par exemple, les éléments de menu dans une application, comme le menu fichier.                                                                                                          |
-| [Grid](uiauto-implementinggrid.md)                           | [**IGridProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igridprovider)                           | [**IUIAutomationGridPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationgridpattern)                           | Utilisé pour les contrôles qui prennent en charge les fonctionnalités de grille, telles que le dimensionnement et le déplacement vers une cellule spécifiée, par exemple la grande vue d’icône dans l’Explorateur Windows ou les tableaux simples dans Microsoft Office Word.                               |
-| [GridItem](uiauto-implementinggriditem.md)                   | [**IGridItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igriditemprovider)                   | [**IUIAutomationGridItemPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationgriditempattern)                   | Utilisé pour les contrôles qui ont des cellules dans des grilles. Les cellules individuelles doivent prendre en charge le modèle GridItem, par exemple, chaque cellule dans l’affichage détaillé de l’Explorateur Windows.                                                                   |
+| [Grid](uiauto-implementinggrid.md)                           | [**IGridProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igridprovider)                           | [**IUIAutomationGridPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationgridpattern)                           | utilisé pour les contrôles qui prennent en charge la fonctionnalité de grille, tels que le dimensionnement et le déplacement vers une cellule spécifiée, par exemple, la grande vue d’icône dans Windows Explorer ou les tableaux simples dans Microsoft Office Word.                               |
+| [GridItem](uiauto-implementinggriditem.md)                   | [**IGridItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igriditemprovider)                   | [**IUIAutomationGridItemPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationgriditempattern)                   | Utilisé pour les contrôles qui ont des cellules dans des grilles. les cellules individuelles doivent prendre en charge le modèle GridItem, par exemple, chaque cellule dans Windows vue détaillée de l’explorateur.                                                                   |
 | [Appeler](uiauto-implementinginvoke.md)                       | [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider)                       | [**IUIAutomationInvokePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern)                       | Utilisé pour les contrôles qui peuvent être appelés, tels que les boutons.                                                                                                                                                                         |
 | [ItemContainer](uiauto-implementingitemcontainer.md)         | [**IItemContainerProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iitemcontainerprovider)         | [**IUIAutomationItemContainerPattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationitemcontainerpattern)         | Utilisé pour les contrôles qui peuvent contenir d’autres éléments.                                                                                                                                                                                 |
 | [LegacyIAccessible](uiauto-implementinglegacyiaccessible.md) | [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider) | [**IUIAutomationLegacyIAccessiblePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern) | Utilisé pour exposer les propriétés et les méthodes de Microsoft Active Accessibility aux clients UI Automation.                                                                                                                                  |
@@ -103,7 +103,7 @@ Le tableau suivant décrit les modèles de contrôle UI Automation. Le tableau r
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -118,6 +118,6 @@ Le tableau suivant décrit les modèles de contrôle UI Automation. Le tableau r
 [Mappage de modèle de contrôle pour les clients UI Automation](uiauto-controlpatternmapping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineVirtualTrack fournit des méthodes pour travailler avec des pistes virtuelles dans les services de modification DirectShow (DES). Les compositions et les suivis prennent en charge cette interface.
+description: l’interface IAMTimelineVirtualTrack fournit des méthodes pour travailler avec des pistes virtuelles dans DirectShow Services d’édition (DES). Les compositions et les suivis prennent en charge cette interface.
 ms.assetid: 69d1d2ea-d33f-406d-a9ca-ddfb890bed34
 title: Interface IAMTimelineVirtualTrack (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 2295f1c336270818242f0d992a369e6a66f9237a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9eba273793e97c5fb92fdabb365eb2402fc6feb6fbc571f1ec1ef1a0a4b3692
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982769"
 ---
 # <a name="iamtimelinevirtualtrack-interface"></a>Interface IAMTimelineVirtualTrack
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineVirtualTrack` interface fournit des méthodes pour travailler avec des pistes virtuelles dans les [services de modification DirectShow](directshow-editing-services.md) (des). Les compositions et les suivis prennent en charge cette interface.
+l' `IAMTimelineVirtualTrack` interface fournit des méthodes pour travailler avec des pistes virtuelles dans [DirectShow Services d’édition](directshow-editing-services.md) (DES). Les compositions et les suivis prennent en charge cette interface.
 
 ## <a name="members"></a>Membres
 
@@ -51,7 +51,7 @@ L’interface **IAMTimelineVirtualTrack** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -59,7 +59,7 @@ L’interface **IAMTimelineVirtualTrack** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

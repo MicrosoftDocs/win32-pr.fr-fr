@@ -4,12 +4,12 @@ ms.assetid: c768a38e-0b64-4254-b844-ade567eaea8f
 title: GraphicsPath. AddPolygon, méthodes (Gdipluspath. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bf9cf4a78170273410ff40157825c609f29ecf5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d977162ea68497af509469e018d04f2f2103c7143bcf5efc2bf6d4c95741b5a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964679"
 ---
 # <a name="graphicspathaddpolygon-methods"></a>GraphicsPath. AddPolygon, méthodes
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes AddPolygon de la classe [**GraphicsPath
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

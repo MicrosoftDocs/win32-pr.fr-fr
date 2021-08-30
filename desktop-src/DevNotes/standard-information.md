@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4927553ac593475f8659932468227362ae19fe59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d0ddba05eee5d822020cfbb2e4b30976bb3c7570e1613f457ee3fd373494e0da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984059"
 ---
 # <a name="standard_information-structure"></a>\_Structure d’informations standard
 
@@ -63,7 +63,7 @@ Identificateur de sécurité du fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez qu’il n’y a aucun fichier d’en-tête associé pour cette structure.
 

@@ -4,12 +4,12 @@ description: En savoir plus sur la fenêtre Options de caractères avancés, qui
 ms.assetid: c54e462e-d60a-42ce-96ad-3db531c6f9fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adc51f60ab56467a3896a41ff20153cd423e831d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 436e63e72e0d5cff2432e52ca4c839844f2e5d0f369a7304c1bd26f724b91384
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960839"
 ---
 # <a name="advanced-character-options-window-microsoft-agent-user-interface"></a>Fenêtre Options des caractères avancés (interface utilisateur de l’agent Microsoft)
 

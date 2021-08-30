@@ -4,12 +4,12 @@ ms.assetid: 1055CD55-4B25-4EEC-AF1B-C84C52287F8F
 title: Attribut MF_SOURCE_READER_ENABLE_ADVANCED_VIDEO_PROCESSING (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6978239c5c1c466c78a310b38b5d10bd41f9e004
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e873252dc67269124283b8e79760938d0f3302d348f21ea5506172cbe7b42ec3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113719"
 ---
 # <a name="mf_source_reader_enable_advanced_video_processing-attribute"></a>\_Lecteur source MF-activer l’attribut de \_ \_ \_ \_ traitement vidéo avancé \_
 
@@ -19,7 +19,7 @@ Active le traitement vidéo avancé par le [lecteur source](source-reader.md), n
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut a la **valeur true**, le lecteur source peut insérer un processeur vidéo dans le pipeline de traitement, ce qui permet les types de conversion de format suivants :
 
@@ -52,8 +52,8 @@ Cet attribut est similaire à l' [attribut \_ lecteur source MF activer l’attr
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mfreadwrite. h</dt> </dl> |
 
 

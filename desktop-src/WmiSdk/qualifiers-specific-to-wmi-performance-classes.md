@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs spécifiques aux classes de performance WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0129819b618869a14ba127abe47735ca3cac9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c91072c2a737c66a438345b9fa9ac2f8cdc5fcb3ee4ff40a54b915fb8801f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996069"
 ---
 # <a name="qualifiers-specific-to-wmi-performance-classes"></a>Qualificateurs spécifiques aux classes de performance WMI
 

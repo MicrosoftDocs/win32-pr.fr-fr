@@ -3,7 +3,7 @@ title: LBN_SETFOCUS le code de notification (winuser. h)
 description: Indique à l’application que la zone de liste a reçu le focus clavier. La fenêtre parente de la zone de liste reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: d9e5e035-98a5-4ece-ba40-6d341c101859
 keywords:
-- Contrôles Windows de code de notification LBN_SETFOCUS
+- LBN_SETFOCUS les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88e56043982cec6606f7c78d3469ab2583951f88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5380fe2a6d22047f633954e41c6854323256ec6d4a72a6571420ffbe472da560
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085169"
 ---
 # <a name="lbn_setfocus-notification-code"></a>\_Code de notification LBN SetFocus
 
@@ -59,8 +59,8 @@ Handle vers la zone de liste.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

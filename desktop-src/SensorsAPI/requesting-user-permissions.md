@@ -4,12 +4,12 @@ ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Demande d’autorisations utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41e103426388d2db49bb5a8fb01d3370207ec49b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2bb6c977306ff68f40fb8d3a77b598114cb6f77feeb35d4beca96c05fbce224
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992679"
 ---
 # <a name="requesting-user-permissions"></a>Demande d’autorisations utilisateur
 

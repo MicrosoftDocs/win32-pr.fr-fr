@@ -4,12 +4,12 @@ description: En savoir plus sur l’accès aux services vocaux avec l’interfac
 ms.assetid: 99cf630d-3bd1-403a-833a-9173a84fe3c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f87bf5cf88141344d5328592c9e823c7365c5d5
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: cbc481a72ee4693d4980104e10c76fdade1b9deee9171ce2e82643e21ce53c12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963479"
 ---
 # <a name="accessing-speech-services-microsoft-agent-server-interface"></a>Accès aux services vocaux (interface du serveur Microsoft Agent)
 

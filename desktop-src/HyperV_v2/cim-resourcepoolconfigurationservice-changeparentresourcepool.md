@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6ef852d6af8f0973b6b3f29fca5fcd90e9ce726a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7030cb4ed9333ad5c56722954a24a1ee7bff351a15873423dbfe6e8dca1830d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980899"
 ---
 # <a name="changeparentresourcepool-method-of-the-cim_resourcepoolconfigurationservice-class"></a>Méthode ChangeParentResourcePool de la \_ classe CIM ResourcePoolConfigurationService
 

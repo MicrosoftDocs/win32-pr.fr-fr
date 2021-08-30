@@ -4,12 +4,12 @@ ms.assetid: 883bc7cf-f52f-4cb5-a942-b42b429b17a9
 title: Attribut MF_ACTIVATE_VIDEO_WINDOW (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a23253c0cd1e4ae90659838acbb58056f770419
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5249d98f7a3850d68e83be43cb851c4089253ba7fc782724631a2983285c9ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826929"
 ---
 # <a name="mf_activate_video_window-attribute"></a>\_Attribut de \_ fenêtre vidéo d’activation MF \_
 
@@ -21,7 +21,7 @@ Handle vers la fenêtre de découpage vidéo.
 
 Traiter en tant que **\_ pointeur DWORD** (**HWND**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique à l’objet d’activation pour le convertisseur vidéo amélioré (EVR). La valeur est définie automatiquement quand vous appelez [**MFCreateVideoRendererActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatevideorendereractivate) pour créer l’objet d’activation EVR.
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

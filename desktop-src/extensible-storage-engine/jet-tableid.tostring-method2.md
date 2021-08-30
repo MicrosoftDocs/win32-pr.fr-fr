@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7b53cc699e0b6a1bfeac4a54adee075fe5f9c5c7
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: bfe616426efc60673191744d07d7f641b5fe5f9ec0787b7aea606a4c58ddc329
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106537743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115789"
 ---
 # <a name="jet_tableidtostring-method"></a>JET_TABLEID. Méthode ToString
 

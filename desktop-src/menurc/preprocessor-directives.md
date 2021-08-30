@@ -6,12 +6,12 @@ keywords:
 - compilateur de ressources, directives de préprocesseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e8c32f1d32dab784d5d947fdf64b7018451a5a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cff779f74c43e1498136b9f1b9d4a6e90fbeb453b8fb7cb2f6cbe3489af74e95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847269"
 ---
 # <a name="preprocessor-directives-menus-and-other-resources"></a>Directives de préprocesseur (menus et autres ressources)
 
@@ -22,7 +22,7 @@ Vous pouvez utiliser les directives décrites dans le tableau suivant en fonctio
 | Directive                     | Description                                                           |
 |-------------------------------|-----------------------------------------------------------------------|
 | [**\#définition**](-define.md)   | Définit un nom spécifié en lui assignant une valeur donnée.               |
-| [**\#elif**](-elif.md)       | Marque une clause facultative d’un bloc de compilation conditionnelle.          |
+| [**\#Elif**](-elif.md)       | Marque une clause facultative d’un bloc de compilation conditionnelle.          |
 | [**\#else**](-else.md)       | Marque la dernière clause facultative d’un bloc de compilation conditionnelle.    |
 | [**\#endif**](-endif.md)     | Marque la fin d’un bloc de compilation conditionnelle.                     |
 | [**\#que**](-if.md)           | Compile conditionnellement le script si une expression spécifiée a la valeur true.  |
@@ -35,7 +35,7 @@ Vous pouvez utiliser les directives décrites dans le tableau suivant en fonctio
 
  
 
-Pour définir des symboles pour vos identificateurs de ressource, utilisez la directive **\# define** pour les définir dans un fichier d’en-tête. Incluez cet en-tête dans le script de ressources et le code source de votre application. De même, vous définissez les valeurs des attributs de ressource et des styles en incluant Windows. h dans le script de ressources.
+Pour définir des symboles pour vos identificateurs de ressource, utilisez la directive **\# define** pour les définir dans un fichier d’en-tête. Incluez cet en-tête dans le script de ressources et le code source de votre application. de même, vous définissez les valeurs des attributs et des styles de ressource en incluant Windows. h dans le script de ressources.
 
 RC traite les fichiers avec les extensions. c et. h d’une manière spéciale. Il part du principe qu’un fichier avec l’une de ces extensions ne contient pas de ressources. Si un fichier a l’extension de nom de fichier. c ou. h, RC ignore toutes les lignes du fichier, à l’exception des directives de préprocesseur. Par conséquent, pour inclure un fichier qui contient des ressources dans un autre script de ressources, indiquez au fichier d’inclure une extension autre que. c ou. h.
 

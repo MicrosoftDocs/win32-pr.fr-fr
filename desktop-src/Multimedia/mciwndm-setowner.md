@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETOWNER (VFW. h)
 description: Le \_ message MCIWNDM de la conlocalité définit la fenêtre de réception des messages de notification associés à la fenêtre MCIWnd. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSetOwner.
 ms.assetid: c2d0f9d5-bf60-4036-a613-65ba1ed83110
 keywords:
-- Message MCIWNDM_SETOWNER Windows Multimedia
+- message MCIWNDM_SETOWNER Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3989632e83a65cda5e805bd91da3f502ca387d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2a45fb1f7893641fe1e1f4f0bb2e79b31f33c465811e9dec83869af90d819414
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807749"
 ---
 # <a name="mciwndm_setowner-message"></a>\_Message MCIWNDM
 

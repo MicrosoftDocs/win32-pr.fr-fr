@@ -4,12 +4,12 @@ description: Les info-bulles sont similaires aux info-bulles standard, mais elle
 ms.assetid: 59FEA8B6-772D-4BEF-A18C-945EC6A56FA2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe578f69092a35a7f3ccc5eaa6a5987128ebdd66
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6639c79ccb66e20277435149d97f4c9529ccf9e36638c0e5c0be199432ff3a1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085682"
 ---
 # <a name="how-to-implement-balloon-tooltips"></a>Comment implémenter des info-bulles
 
@@ -27,16 +27,16 @@ L’illustration suivante montre une info-bulle centrée sur l’outil.
 
 Si vous souhaitez spécifier l’emplacement des points de séquence, définissez l’indicateur de **\_ suivi ttf** dans le membre **UFlags** de la structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) de l’info-bulle. Vous spécifiez ensuite la coordonnée en envoyant un message [**atténuation \_ TRACKPOSITION**](ttm-trackposition.md) , avec les coordonnées x et y dans la valeur *lParam* . Si **ttf \_ CENTERTIP** est également défini, la tige pointe toujours vers la position spécifiée par le message **atténuation \_ TRACKPOSITION** .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -81,9 +81,9 @@ if (hwndTooltip)
 [**Styles d’info-bulle**](tooltip-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les technologies de document qui sont prises en charge par Microsoft Windows.
+description: Cette section décrit les technologies de document prises en charge par Microsoft Windows.
 ms.assetid: 14ae2c97-8596-46db-a55c-ef706d2cd00b
 title: Documents XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 625c2f04a43db9433fe125b52a4bbc08e37fb4f4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 587f9b421c64287647e39d13d98a9f826f591d7be907ac14df21d649b3a66c80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092113"
 ---
 # <a name="xps-documents"></a>Documents XPS
 
-Cette section décrit les technologies de document qui sont prises en charge par Microsoft Windows.
+Cette section décrit les technologies de document prises en charge par Microsoft Windows.
 
 -   [Choix d’une technologie de document](#choosing-a-document-technology)
 -   [Dans cette section](#in-this-section)
@@ -29,34 +29,34 @@ Microsoft fournit plusieurs technologies de documents différentes pour prendre 
 
     XPS et OpenXPS sont pris en charge dans Windows 8 et les versions ultérieures de Windows. Consultez le diagramme précédent pour déterminer le scénario d’utilisation approprié pour XPS et OpenXPS. Pour plus d’informations sur ces technologies de documents, consultez [Open XML Paper Specification (en anglais) (OpenXPS)](https://www.ecma-international.org/publications/standards/Ecma-388.htm).
 
-    Dans le cas de l’utilisation de OpenXPS avec Windows 8 et Windows Server 2012, la prise en charge est fournie uniquement via l' [API de document XPS](documents-xps.md) .
+    dans le cas de l’utilisation de OpenXPS avec Windows 8 et Windows Server 2012, la prise en charge est fournie uniquement via l' [API de Document XPS](documents-xps.md)
 
-    Si vous devez effectuer une conversion entre Microsoft XPS (MSXPS) et OpenXPS, Microsoft a fourni un outil (XPSConverter.exe) qui vous permet de convertir des documents au format OpenXPS et vice versa. L’outil fait partie du kit WDK (Windows Driver Kit). Pour télécharger le kit WDK, consultez [Comment obtenir le kit WDK](/windows-hardware/drivers/download-the-wdk).
+    Si vous devez effectuer une conversion entre Microsoft XPS (MSXPS) et OpenXPS, Microsoft a fourni un outil (XPSConverter.exe) qui vous permet de convertir des documents au format OpenXPS et vice versa. l’outil fait partie du Kit de pilotes Windows (WDK). Pour télécharger le kit WDK, consultez [Comment obtenir le kit WDK](/windows-hardware/drivers/download-the-wdk).
 
-    Pour plus d’informations sur OpenXPS et Windows 8, consultez [prise en charge de OpenXPS dans Windows](/windows-hardware/drivers/print/driver-support-for-openxps).
+    pour plus d’informations sur OpenXPS et Windows 8, consultez [prise en charge de OpenXPS dans Windows](/windows-hardware/drivers/print/driver-support-for-openxps).
 
 -   **API de document XPS**
 
-    L’API de document XPS est une API Windows native qui prend en charge le modèle d’objet XPS. L’API de document XPS a été introduite dans Windows 7 et peut être utilisée dans les programmes en mode utilisateur et les pilotes d’imprimante XPSDrv.
+    l’api de Document xps est une api Windows native qui prend en charge le modèle d’objet xps. l’API de Document XPS a été introduite dans Windows 7 et peut être utilisée dans les programmes en mode utilisateur et les pilotes d’imprimante XPSDrv.
 
     Pour plus d’informations, consultez l’API de document XPS et l' [API de signature numérique XPS](xps-digital-signatures.md).
 
-    \*L’API de document XPS est également prise en charge dans Windows Vista avec Service Pack 2 (SP2) avec la mise à jour de plateforme pour Windows Vista et Windows Server 2008 avec SP2 à l’aide de la mise à jour de plateforme pour Windows Server 2008. Pour plus d’informations sur la mise à jour de plateforme pour Windows Vista ou la mise à jour de plateforme pour Windows Server 2008, consultez [mise à jour de la plateforme pour Windows Vista](/windows/desktop/win7ip/platform-update-for-windows-vista-portal) .
+    \*l’API de Document XPS est également prise en charge dans Windows vista avec Service Pack 2 (SP2) avec la mise à jour de plateforme pour Windows Vista et Windows server 2008 avec sp2 à l’aide de la mise à jour de plateforme pour Windows server 2008. pour plus d’informations sur la mise à jour de plateforme pour Windows vista ou la mise à jour de plateforme pour Windows Server 2008, consultez [mise à jour de plateforme pour Windows vista](/windows/desktop/win7ip/platform-update-for-windows-vista-portal) .
 
 -   **.NET Framework**
 
     .NET Framework fournit une prise en charge des documents XPS pour les programmes en mode utilisateur et de code géré.
 
-    .NET Framework 3,0 est pris en charge sur Windows XP avec Service Pack 2 (SP2) et les versions ultérieures des systèmes d’exploitation clients Windows, et sur Windows Server 2003 avec Service Pack 2 (SP2) et les versions ultérieures des systèmes d’exploitation Windows Server.
+    .NET Framework 3,0 est pris en charge sur Windows XP avec service pack 2 (sp2) et les versions ultérieures de Windows systèmes d’exploitation clients, et sur Windows server 2003 avec service pack 2 (sp2) et versions ultérieures de Windows systèmes d’exploitation serveur.
 
-    .NET Framework 3,5 est pris en charge sur les versions Windows XP des systèmes d’exploitation clients Windows et sur Windows Server 2003 et versions ultérieures des systèmes d’exploitation Windows Server.
+    .NET Framework 3,5 est pris en charge sur les versions Windows XP de Windows systèmes d’exploitation client et sur Windows server 2003 et versions ultérieures de Windows systèmes d’exploitation serveur.
 
     > [!Note]  
-    > Nous recommandons l’utilisation de .NET Framework pour la création de documents XPS dans des applications clientes uniquement, et non dans des applications serveur, à moins que l’application ne se ferme régulièrement, comme c’est le cas pour une application cliente.
+    > nous recommandons l’utilisation de .NET Framework pour la création de documents XPS dans des applications clientes uniquement, et non dans des applications serveur, à moins que l’application ne se ferme régulièrement, comme c’est le cas pour une application cliente.
 
      
 
-    Pour plus d’informations sur la prise en charge des documents dans .NET Framework, consultez [Windows Presentation Foundation documents](/previous-versions/dotnet/netframework-3.0/ms749165(v=vs.85)).
+    pour plus d’informations sur la prise en charge des documents dans .NET Framework, consultez [Windows Presentation Foundation Documents](/previous-versions/dotnet/netframework-3.0/ms749165(v=vs.85)).
 
 > [!Note]  
 > Pour travailler avec des documents XPS dans un programme, utilisez l’API de document XPS native ou le .NET Framework. l’utilisation simultanée des deux dans le même programme n’est pas prise en charge.
@@ -65,7 +65,7 @@ Microsoft fournit plusieurs technologies de documents différentes pour prendre 
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Cette section décrit les technologies de document Windows natives prises en charge par Microsoft Windows.
+cette section décrit les technologies de document Windows natives prises en charge par Microsoft Windows.
 
 
 

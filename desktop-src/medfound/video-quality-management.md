@@ -4,16 +4,16 @@ ms.assetid: 3617adf2-ed7b-4788-abce-58bc22a14511
 title: Gestion de la qualité vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 233ccd54cfcb98742abef9a91241e903c07ba549
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d441178cd5b360bb9f8fb9bfc4d903fd9a5a3848
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951473"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479845"
 ---
 # <a name="video-quality-management"></a>Gestion de la qualité vidéo
 
-Cette rubrique décrit certaines améliorations apportées au pipeline vidéo dans Windows 7, pour Microsoft Media Foundation et Microsoft DirectShow.
+cette rubrique décrit certaines améliorations apportées au pipeline vidéo dans Windows 7, pour Microsoft Media Foundation et Microsoft DirectShow.
 
 Dans un monde parfait, la vidéo ne se détournerait jamais, quelle que soit la résolution vidéo ou la charge de l’UC/GPU. En réalité, bien entendu, le pipeline vidéo doit être capable de faire face aux ressources matérielles limitées et il doit pouvoir adapter la lecture à l’environnement système de manière adaptative. Les objectifs de la gestion de la qualité vidéo sont les suivants :
 
@@ -25,7 +25,7 @@ Dans un monde parfait, la vidéo ne se détournerait jamais, quelle que soit la 
 
 Certains de ces objectifs sont contraires, en particulier sur les systèmes bas de gamme. En général, il existe un compromis entre la vitesse et la qualité. Le problème est plus répréhensible que la réduction modérée de la qualité visuelle. L’importance relative de la consommation d’énergie varie en fonction de l’environnement. sur un ordinateur portable fonctionnant sur batterie, il est très important.
 
-Dans Windows 7, le rendu vidéo amélioré (EVR) offre une meilleure prise en charge de la gestion de la qualité vidéo. Le pipeline Media Foundation et le pipeline DirectShow ont été mis à jour pour tirer parti de ces fonctionnalités. Une approche à deux branches est utilisée :
+dans Windows 7, le rendu vidéo amélioré (EVR) offre une meilleure prise en charge de la gestion de la qualité vidéo. le pipeline Media Foundation et le pipeline DirectShow ont été mis à jour pour tirer parti de ces fonctionnalités. Une approche à deux branches est utilisée :
 
 -   Avant le démarrage de la lecture, le pipeline peut effectuer des optimisations statiques, en fonction des paramètres de gestion de l’alimentation de l’utilisateur et des informations sur le matériel.
 -   Après le démarrage de la lecture, le pipeline peut appliquer des optimisations dynamiques, en fonction des performances d’exécution.
@@ -49,11 +49,11 @@ Si vous activez les optimisations statiques, vous devez définir deux autres att
 
 Ces deux attributs aident le pipeline à calculer le paramètre le plus efficace pour la gestion de la qualité.
 
-Les optimisations dynamiques sont effectuées par le gestionnaire de qualité. Vous n’avez rien à faire pour activer le gestionnaire de qualité ; elle est automatiquement activée. Le gestionnaire de qualité existait dans Windows Vista ; dans Windows 7, EVR peut répondre mieux aux messages du gestionnaire de qualité.
+Les optimisations dynamiques sont effectuées par le gestionnaire de qualité. Vous n’avez rien à faire pour activer le gestionnaire de qualité ; elle est automatiquement activée. le gestionnaire de qualité existait dans Windows Vista ; dans Windows 7, EVR peut répondre mieux aux messages du gestionnaire de qualité.
 
 ## <a name="quality-management-in-directshow"></a>Gestion de la qualité dans DirectShow
 
-DirectShow prend en charge les optimisations statiques et dynamiques pour la lecture de DVD. Pour activer ces optimisations dans une application de lecture de DVD, définissez les indicateurs suivants dans le paramètre *dwFlags* de la méthode **IDvdGraphBuilder :: RenderDvdVideoVolume** :
+DirectShow prend en charge les optimisations statiques et dynamiques pour la lecture des DVD. Pour activer ces optimisations dans une application de lecture de DVD, définissez les indicateurs suivants dans le paramètre *dwFlags* de la méthode **IDvdGraphBuilder :: RenderDvdVideoVolume** :
 
 
 
@@ -66,10 +66,10 @@ DirectShow prend en charge les optimisations statiques et dynamiques pour la lec
 
  
 
-D’autres applications DirectShow peuvent activer des optimisations dynamiques en appelant la méthode [**IEVRFilterConfigEx :: SetConfigPrefs**](/windows/desktop/api/evr/nf-evr-ievrfilterconfigex-setconfigprefs) directement sur le filtre EVR. Spécifiez l’indicateur **EVRFilterConfigPrefs \_ EnableQoS** .
+d’autres applications de DirectShow peuvent activer des optimisations dynamiques en appelant la méthode [**IEVRFilterConfigEx :: SetConfigPrefs**](/windows/desktop/api/evr/nf-evr-ievrfilterconfigex-setconfigprefs) directement sur le filtre EVR. Spécifiez l’indicateur **EVRFilterConfigPrefs \_ EnableQoS** .
 
 > [!Note]  
-> Les optimisations statiques dans DirectShow sont limitées à la lecture des DVD.
+> les optimisations statiques dans DirectShow sont limitées à la lecture des DVD.
 
  
 
@@ -81,34 +81,12 @@ Définissez les indicateurs suivants sur le mélangeur EVR en appelant la métho
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Indicateurs</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><strong>MFVideoMixPrefs_ForceHalfInterlace</strong></li>
-<li><strong>MFVideoMixPrefs_AllowDropToHalfInterlace</strong></li>
-</ul></td>
-<td>Ignorez le deuxième champ de chaque trame entrelacée.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li><strong>MFVideoMixPrefs_AllowDropToBob</strong></li>
-<li><strong>MFVideoMixPrefs_ForceBob</strong></li>
-</ul></td>
-<td>Utilisez la désentrelacement Bob, même si le pilote prend en charge un mode de désentrelacement de qualité supérieure.</td>
-</tr>
-</tbody>
-</table>
+
+| Indicateurs | Description | 
+|-------|-------------|
+| <ul><li><strong>MFVideoMixPrefs_ForceHalfInterlace</strong></li><li><strong>MFVideoMixPrefs_AllowDropToHalfInterlace</strong></li></ul> | Ignorez le deuxième champ de chaque trame entrelacée. | 
+| <ul><li><strong>MFVideoMixPrefs_AllowDropToBob</strong></li><li><strong>MFVideoMixPrefs_ForceBob</strong></li></ul> | Utilisez la désentrelacement Bob, même si le pilote prend en charge un mode de désentrelacement de qualité supérieure. | 
+
 
 
 
@@ -118,41 +96,13 @@ Définissez les indicateurs suivants sur le présentateur EVR en appelant la mé
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Indicateurs</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><strong>MFVideoRenderPrefs_ForceOutputThrottling</strong></li>
-<li><strong>MFVideoRenderPrefs_AllowOutputThrottling</strong></li>
-</ul></td>
-<td>Limiter la sortie pour correspondre à la bande passante GPU.</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li><strong>MFVideoRenderPrefs_ForceBatching</strong></li>
-<li><strong>MFVideoRenderPrefs_AllowBatching</strong></li>
-</ul></td>
-<td>Batch Direct3D présente des appels. Cette optimisation permet au système d’entrer les États inactifs plus fréquemment, ce qui peut réduire la consommation d’énergie.</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>MFVideoRenderPrefs_ForceScaling</li>
-<li>MFVideoRenderPrefs_AllowScaling</li>
-</ul></td>
-<td>Effectue un mixage vidéo à l’aide d’un rectangle plus petit que le rectangle de sortie. Mettez à l’échelle le résultat avec la taille de sortie correcte.</td>
-</tr>
-</tbody>
-</table>
+
+| Indicateurs | Description | 
+|-------|-------------|
+| <ul><li><strong>MFVideoRenderPrefs_ForceOutputThrottling</strong></li><li><strong>MFVideoRenderPrefs_AllowOutputThrottling</strong></li></ul> | Limiter la sortie pour correspondre à la bande passante GPU. | 
+| <ul><li><strong>MFVideoRenderPrefs_ForceBatching</strong></li><li><strong>MFVideoRenderPrefs_AllowBatching</strong></li></ul> | Batch Direct3D présente des appels. Cette optimisation permet au système d’entrer les États inactifs plus fréquemment, ce qui peut réduire la consommation d’énergie. | 
+| <ul><li>MFVideoRenderPrefs_ForceScaling</li><li>MFVideoRenderPrefs_AllowScaling</li></ul> | Effectue un mixage vidéo à l’aide d’un rectangle plus petit que le rectangle de sortie. Mettez à l’échelle le résultat avec la taille de sortie correcte. | 
+
 
 
 

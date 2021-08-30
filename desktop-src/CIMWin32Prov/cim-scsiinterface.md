@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1211b142681f15aa8b4d5e61c1d2165a59f5a62c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f9015c68504eaeda9bf4ea89e306aaa4c0efe2808f5cf419bfcccbe93207ead7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920009"
 ---
 # <a name="cim_scsiinterface-class"></a>\_Classe CIM SCSIInterface
 
@@ -235,7 +235,7 @@ Nombre de délais d’expiration SCSI qui se sont produits depuis la dernière r
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ SCSIInterface** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

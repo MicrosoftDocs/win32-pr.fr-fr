@@ -3,7 +3,7 @@ title: TEXT. hoverForegroundColor
 description: L’attribut hoverForegroundColor spécifie ou récupère la couleur de texte utilisée pour le contrôle de texte lorsque le curseur de la souris pointe dessus.
 ms.assetid: 6d956ea3-8395-416f-ad22-a70b7beaf9c4
 keywords:
-- TEXT. hoverForegroundColor Windows Media Player
+- TEXT. hoverForegroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b4039d87dca77ce5150df41528a385e76d8f62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7f9675eca27ff094b0929a1b138c189c65978227b35702a47a776e0262e36f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002019"
 ---
 # <a name="texthoverforegroundcolor"></a>TEXT. hoverForegroundColor
 
@@ -31,7 +31,7 @@ L’attribut **hoverForegroundColor** spécifie ou récupère la couleur de text
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si **hoverForegroundColor** n’est pas spécifié, **foregroundColor** est utilisé.
 

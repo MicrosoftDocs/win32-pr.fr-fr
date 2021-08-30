@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1611eda876532f32534e24257478b3a5986af3aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4878d2937d6a8e3b14a72a1055fd4d044ad047629d9e63cced375d4f75ddb60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984549"
 ---
 # <a name="changezonetype-method-of-the-microsoftdns_zone-class"></a>Méthode ChangeZoneType de la \_ classe de zone MicrosoftDNS
 

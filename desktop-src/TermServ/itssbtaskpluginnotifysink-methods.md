@@ -5,12 +5,12 @@ ms.assetid: D22C72A3-E71B-4F00-85BA-0BAE3EFABEE4
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2fcf8617efc64194952fad8e273decae2209a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 68ee3ce87e7f5faa7446a4e60618dd939d914d417eca92a6541b5b59eac4f7b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989659"
 ---
 # <a name="itssbtaskpluginnotifysink-methods"></a>Méthodes ITsSbTaskPluginNotifySink
 
@@ -48,9 +48,9 @@ Notifie le Service Broker pour les connexions Bureau à distance que l’état d
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 887f0035b50efd860149410e50dd6abff301968d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b7fb3ab1c47ded6fe6ca6548ca6c90b3027e30280acf819d5d024fd0bd554d58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119049"
 ---
 # <a name="d3dxtessellaterectpatch-function"></a>D3DXTessellateRectPatch fonction)
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez [**D3DXRectPatchSize**](d3dxrectpatchsize.md) pour connaître le nombre de vertex et d’index de sortie dont la fonction de pavage a besoin.
 

@@ -4,12 +4,12 @@ ms.assetid: 26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e
 title: '\#Extensions PKCS 10'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ba71f0a24f50503fd92b3b9670b787dea3b9ad2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e6db808250b2c3c2a7e29980b115dae3a22f0f37b4912c74332433e2dcf4f2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993279"
 ---
 # <a name="pkcs-10-extensions"></a>\#Extensions PKCS 10
 

@@ -19,12 +19,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2e0ecb22fe9936c9843c603211b0594599de7fcd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: bab3561ba51f2086f6af186ff5954e512d41e78f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985002"
 ---
 # <a name="jetcreatetablecolumnindex4w-function"></a>JetCreateTableColumnIndex4W fonction)
 
@@ -57,7 +57,7 @@ Identificateur de base de données à utiliser pour l’appel d’API.
 
 Pointeur vers une structure [JET_TABLECREATE3](./jet-tablecreate3-structure.md) qui définit la table à créer. Pour plus d’informations, consultez [JET_TABLECREATE3](./jet-tablecreate3-structure.md) .
 
-### <a name="return-value"></a>Valeur de retour
+### <a name="return-value"></a>Valeur retournée
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ese (extensible Stockage Enginge) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
@@ -106,7 +106,13 @@ Comme avec la fonction [JetOpenTable](./jetopentable-function.md) , lorsque l’
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | | <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
+| <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

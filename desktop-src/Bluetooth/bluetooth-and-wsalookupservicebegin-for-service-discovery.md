@@ -6,12 +6,12 @@ keywords:
 - Bluetooth et WSALookupServiceBegin pour la détection de Service Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30049adfb02fb6478e581e4a6fdefdfe5b6960bdbc872f30be5fe482a28ac541
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8e6da97e8277478da7102bf21d33c68f9d1b8a3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004249"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481615"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-service-discovery"></a>Bluetooth et WSALookupServiceBegin pour la détection de Service
 
@@ -43,65 +43,20 @@ La connexion SDP à l’appareil distant ne reste pas active une fois que la fon
 
 Les indicateurs, répertoriés dans le tableau ci-dessous, sont utilisés dans le paramètre *dwControlFlags* des fonctions [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) et [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) pour contrôler les résultats de la requête. Les **lup \_ Containers** et **lup \_ FLUSHCACHE** Flags sont utilisés par la fonction **WSALookupServiceBegin** ; le reste des indicateurs est utilisé dans les appels à la fonction **WSALookupServiceNext** .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Indicateur</th>
-<th>Résultat</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>LUP_CONTAINERS</strong></td>
-<td>Ne doit pas être défini.</td>
-</tr>
-<tr class="even">
-<td><strong>LUP_FLUSHCACHE</strong></td>
-<td>Les applications doivent généralement spécifier <strong>LUP_FLUSHCACHE</strong>. Cet indicateur indique au système d’ignorer toutes les informations mises en cache et d’établir une connexion SDP par voie hertzienne à l’appareil spécifié pour effectuer la recherche SDP. Cette opération sans mise en cache peut prendre plusieurs secondes (tandis qu’une recherche mise en cache est retournée rapidement). Bluetooth ne met pas en cache de manière proactive les enregistrements SDP à partir des appareils proches, ni ne met en cache de manière agressive les requêtes précédentes. Par conséquent, les applications doivent prévoir que les requêtes ne peuvent pas retourner de résultats (avec le code d’erreur <strong>WSASERVICE_NOT_FOUND</strong>) si <strong>LUP_FLUSHCACHE</strong> n’est pas spécifié. les données mises en cache disponibles à l’aide de l’interface Windows sockets peuvent être améliorées à l’avenir.</td>
-</tr>
-<tr class="odd">
-<td><strong>LUP_RES_SERVICE</strong></td>
-<td>retourne des informations sur l’adresse du Bluetooth local. Cet indicateur n’a d’effet que si <strong>LUP_RETURN_ADDR</strong> est également spécifié.</td>
-</tr>
-<tr class="even">
-<td><strong>LUP_RETURN_NAME</strong></td>
-<td>Retourne le nom complet du service dans le membre <strong>lpszServiceInstanceName</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> pour chaque appel à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><strong>LUP_RETURN_TYPE</strong></td>
-<td>Retournez l’ID de classe de service dans le membre <strong>lpServiceClassId</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> .
-<blockquote>
-[!Note]<br />
-L’utilisation de cet indicateur s’applique uniquement à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina"><strong>WSALookupServiceBegin</strong></a> . Cette valeur est toujours égale à zéro pour <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>LUP_RETURN_ADDR</strong></td>
-<td>Retourne une adresse dans le membre <strong>lpcsaBuffer</strong> à utiliser avec les appels de fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>Connect</strong></a> . L’adresse retournée contient le numéro de port.</td>
-</tr>
-<tr class="odd">
-<td><strong>LUP_RETURN_BLOB</strong></td>
-<td>retourne les enregistrements SD correspondants dans le membre <strong>lpBlob</strong> , mis en forme conformément à la spécification d’enregistrement SDP Bluetooth.</td>
-</tr>
-<tr class="even">
-<td><strong>LUP_RETURN_ALL</strong></td>
-<td>Retourne toutes les informations relatives aux indicateurs ci-dessus.</td>
-</tr>
-<tr class="odd">
-<td><strong>LUP_RETURN_COMMENT</strong></td>
-<td>Retournez la description du service dans le membre <strong>lpszComment</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> pour chaque appel à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> .</td>
-</tr>
-<tr class="even">
-<td><strong>LUP_FLUSHPREVIOUS</strong></td>
-<td>Ignore l’enregistrement suivant disponible et retourne l’enregistrement qui le suit.</td>
-</tr>
-</tbody>
-</table>
+
+| Indicateur | Résultat | 
+|------|--------|
+| <strong>LUP_CONTAINERS</strong> | Ne doit pas être défini. | 
+| <strong>LUP_FLUSHCACHE</strong> | Les applications doivent généralement spécifier <strong>LUP_FLUSHCACHE</strong>. Cet indicateur indique au système d’ignorer toutes les informations mises en cache et d’établir une connexion SDP par voie hertzienne à l’appareil spécifié pour effectuer la recherche SDP. Cette opération sans mise en cache peut prendre plusieurs secondes (tandis qu’une recherche mise en cache est retournée rapidement). Bluetooth ne met pas en cache de manière proactive les enregistrements SDP à partir des appareils proches, ni ne met en cache de manière agressive les requêtes précédentes. Par conséquent, les applications doivent prévoir que les requêtes ne peuvent pas retourner de résultats (avec le code d’erreur <strong>WSASERVICE_NOT_FOUND</strong>) si <strong>LUP_FLUSHCACHE</strong> n’est pas spécifié. les données mises en cache disponibles à l’aide de l’interface Windows sockets peuvent être améliorées à l’avenir. | 
+| <strong>LUP_RES_SERVICE</strong> | retourne des informations sur l’adresse du Bluetooth local. Cet indicateur n’a d’effet que si <strong>LUP_RETURN_ADDR</strong> est également spécifié. | 
+| <strong>LUP_RETURN_NAME</strong> | Retourne le nom complet du service dans le membre <strong>lpszServiceInstanceName</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> pour chaque appel à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> . | 
+| <strong>LUP_RETURN_TYPE</strong> | Retournez l’ID de classe de service dans le membre <strong>lpServiceClassId</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> .<blockquote>[!Note]<br />L’utilisation de cet indicateur s’applique uniquement à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina"><strong>WSALookupServiceBegin</strong></a> . Cette valeur est toujours égale à zéro pour <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a>.</blockquote><br /> | 
+| <strong>LUP_RETURN_ADDR</strong> | Retourne une adresse dans le membre <strong>lpcsaBuffer</strong> à utiliser avec les appels de fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-connect"><strong>Connect</strong></a> . L’adresse retournée contient le numéro de port. | 
+| <strong>LUP_RETURN_BLOB</strong> | retourne les enregistrements SD correspondants dans le membre <strong>lpBlob</strong> , mis en forme conformément à la spécification d’enregistrement SDP Bluetooth. | 
+| <strong>LUP_RETURN_ALL</strong> | Retourne toutes les informations relatives aux indicateurs ci-dessus. | 
+| <strong>LUP_RETURN_COMMENT</strong> | Retournez la description du service dans le membre <strong>lpszComment</strong> de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> pour chaque appel à la fonction <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta"><strong>WSALookupServiceNext</strong></a> . | 
+| <strong>LUP_FLUSHPREVIOUS</strong> | Ignore l’enregistrement suivant disponible et retourne l’enregistrement qui le suit. | 
+
 
 
 

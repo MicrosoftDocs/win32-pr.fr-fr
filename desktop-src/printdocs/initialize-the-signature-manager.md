@@ -4,12 +4,12 @@ ms.assetid: 4c4c6e8f-4ee0-4089-a283-1082baee5054
 title: Initialiser le gestionnaire de signatures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2796838a9cd041859f0eb47bf4aeafb2a8d5356
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc9a9f960c639e20c6c7d4debbfd2276553d3ba90b7af083d39a97f887ee81ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948769"
 ---
 # <a name="initialize-the-signature-manager"></a>Initialiser le gestionnaire de signatures
 
@@ -17,7 +17,7 @@ Cette rubrique explique comment initialiser le gestionnaire de signature pour un
 
 Avant d’utiliser les exemples de code suivants dans votre programme, lisez l’exclusion de responsabilité dans les [tâches de programmation de signature numérique courantes](basic-digital-signature-programming-tasks.md).
 
-Pour utiliser les fonctionnalités de Windows 7 de l’API de chiffrement, définissez les informations de chiffrement d’OID sur le symbole de **\_ \_ \_ \_ \_ champs supplémentaires** comme suit :
+pour utiliser les fonctionnalités Windows 7 de l’API Crypto, définissez les informations de chiffrement d’OID sur le symbole de **\_ \_ \_ \_ \_ champs supplémentaires** comme suit :
 
 
 ```C++

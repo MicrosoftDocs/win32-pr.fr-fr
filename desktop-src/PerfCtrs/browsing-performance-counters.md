@@ -4,12 +4,12 @@ ms.assetid: 44c5cfa8-6449-45d8-ac30-979b99c086de
 title: Exploration des compteurs de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b73ceac3faf0cddc251d7e7ebdbccff5e905519d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a07a7b1557d1f923d1cc8011f11e6b43aac8130c517f2cab04787abdb9e2cd17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978889"
 ---
 # <a name="browsing-performance-counters"></a>Exploration des compteurs de performances
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102859
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5e0f8959633f754d5a6a745e3e3c5a8c730a945e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f43cfec003b79b21e29136dd819b3dd56a78881e4db934fd3063c7ab81d63a96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103756718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781567"
 ---
 # <a name="esentslvfileunknownexception-methods"></a>Méthodes EsentSLVFileUnknownException
 

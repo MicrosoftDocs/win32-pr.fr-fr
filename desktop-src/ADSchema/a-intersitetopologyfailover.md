@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c4e9cad98bade7fd69178a8fce795d0b92f35b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 673ee6bcc4e608f19f4c795342d7927ba2489de67322273fd419c04e16caf27a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925249"
 ---
 # <a name="inter-site-topology-failover-attribute"></a>Inter-site-topologie-attribut de basculement
 
@@ -36,7 +36,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1248              |
 | System-ID-GUID    | b7c69e60-2cc7-11d2-854e-00a0c983f608 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Indique le temps qui doit s’écouler depuis la dernière activité Keep-Alive 
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 

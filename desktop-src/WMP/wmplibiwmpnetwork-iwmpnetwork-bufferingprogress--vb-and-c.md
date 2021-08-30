@@ -3,9 +3,9 @@ title: IWMPNetwork propriété bufferingProgress
 description: La propriété bufferingProgress obtient le pourcentage de la mise en mémoire tampon terminée.
 ms.assetid: 8dc9f31e-7c34-4714-a633-d92c3da3052b
 keywords:
-- propriété bufferingProgress lecteur Windows Media
-- propriété bufferingProgress lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété bufferingProgress
+- Lecteur Windows Media de la propriété bufferingProgress
+- Lecteur Windows Media de la propriété bufferingProgress, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété bufferingProgress
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da8a27ba41e5c4e201a5bdf0197992c30bce80b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f068f842a6e8e42f46a6fe8953aeeb667366b5925729594a2ccd60bd789c8afc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999999"
 ---
 # <a name="iwmpnetworkbufferingprogress-property"></a>IWMPNetwork :: bufferingProgress, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bufferingProgress As System.Int32
 
 **System. Int32** qui correspond à la progression de la mise en mémoire tampon exprimée en pourcentage.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -151,7 +151,7 @@ End Sub
 [**AxWindowsMediaPlayer. URL (VB et C#)**](axwmplib-axwindowsmediaplayer-url--vb-and-c.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer. Buffering, événement (VB et C#)**](axwmplib-axwindowsmediaplayer-buffering.md)
+[**événement AxWindowsMediaPlayer. buffering (VB et C#)**](axwmplib-axwindowsmediaplayer-buffering.md)
 </dt> <dt>
 
 [**Interface IWMPNetwork (VB et C#)**](iwmpnetwork--vb-and-c.md)

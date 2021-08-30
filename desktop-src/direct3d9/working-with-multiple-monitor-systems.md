@@ -4,12 +4,12 @@ ms.assetid: c3503d62-d9f9-4eec-8af3-ebcbfe7064d4
 title: Utilisation de systèmes à plusieurs moniteurs (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 184a11f06d2296100a0b546e29770f44977b4de3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 97cea4625038f701288676b95fc86c5ed7d56b292795c14b43031affa817bd8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025729"
 ---
 # <a name="working-with-multiple-monitor-systems-direct3d-9"></a>Utilisation de systèmes à plusieurs moniteurs (Direct3D 9)
 
@@ -33,7 +33,7 @@ Lorsque vous créez un nouveau périphérique à l’aide du même objet [**IDir
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

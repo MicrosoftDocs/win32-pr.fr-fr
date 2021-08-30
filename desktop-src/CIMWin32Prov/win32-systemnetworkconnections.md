@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e90562dd4f98a00cf848fb83a9e3051b387241e4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8004ab6cecfec7ac17a0aee15e3b7869a2d35977901971f8b5dbf3790313c942
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828019"
 ---
 # <a name="win32_systemnetworkconnections-class"></a>\_Classe SystemNetworkConnections Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant la connexion réseau à ce système in
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemNetworkConnections** est dérivée de [**CIM \_ SystemComponent**](cim-systemcomponent.md).
 

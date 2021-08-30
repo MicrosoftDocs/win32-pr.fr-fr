@@ -4,12 +4,12 @@ ms.assetid: fe9515da-9e77-469a-aa0b-d2f0f8035699
 title: Types de données de liste de Disk-Space
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9c2bf06af97f7fb3de762c35c455566d88a9f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c6d75fb88651e0d97a9ac71cacfe28a8b6b01869d033fba53245981eca1835f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975924"
 ---
 # <a name="disk-space-list-data-types"></a>Types de données de liste de Disk-Space
 

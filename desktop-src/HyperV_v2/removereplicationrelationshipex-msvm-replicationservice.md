@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c57ed7f9a88789d04a20de0fd199d460b47c1eb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de7dafaccca7ba9290a8dc3b696bd6aa1acea1b9808b080ab75b9c62f79d65f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980049"
 ---
 # <a name="msvm_replicationserviceremovereplicationrelationshipex-method"></a>MSVM \_ ReplicationService :: RemoveReplicationRelationshipEx, méthode
 
@@ -110,7 +110,7 @@ Le **système n’est pas disponible** (32777)
 **Fichier introuvable** (32779)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour un ordinateur virtuel de réplication, la réplication principale ne peut pas être supprimée si la réplication étendue est activée.
 
@@ -121,7 +121,7 @@ Pour un ordinateur virtuel de réplication, la réplication principale ne peut p
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\\\\\Virtualisation racine \\ v2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 065e1735ca0228046cfb08e2fb441d3cdc02af74
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 07e991b6431a4f1c1752f60f20c46d93e10803d4b2821da5d39162c2eebedfda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081472"
 ---
 # <a name="glpixelzoom-function"></a>glPixelZoom fonction)
 
@@ -65,13 +65,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glPixelZoom** spécifie des valeurs pour les facteurs de zoom *x* et *y* . Pendant l’exécution de [**glDrawPixels**](gldrawpixels.md) ou [**glCopyPixels**](glcopypixels.md), si (*x*<sub>r</sub> ,*y*<sub>r</sub> ) est la position raster actuelle, et qu’un élément donné se trouve dans la *n* *ième ligne et la* énième colonne du rectangle de pixels, alors les pixels dont les centres se trouvent dans le rectangle avec des angles à
 

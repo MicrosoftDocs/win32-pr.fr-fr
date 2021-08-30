@@ -1,19 +1,19 @@
 ---
-description: L' &lt; &gt; élément URL spécifie une URL qui représente l’étendue du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+description: L' <url> élément spécifie une URL qui représente la portée du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: 5afd84aa-98e3-4118-845a-d4efad19a488
 title: Élément URL scopeItem (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63a1db669f7365f04bed49c769ab695ab674b20b
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 7b0e43d48bcf74cb2990e76fa3382adbfa7e1acd1d6a3aad59498ebb3c5d9edd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090919"
 ---
 # <a name="scopeitem-url-element-search-connector-schema"></a>Élément URL scopeItem (schéma du connecteur de recherche)
 
-L' &lt; &gt; élément URL spécifie une URL qui représente l’étendue du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
+L' <url> élément spécifie une URL qui représente la portée du connecteur de recherche. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -62,7 +62,7 @@ L' &lt; &gt; élément URL spécifie une URL qui représente l’étendue du con
 
 La valeur peut être un chemin d’accès au système de fichiers local ou une URL.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple suivant montre une étendue de recherche qui comprend C : \\ ExampleFolder et tous ses dossiers enfants, à l’exception de c : \\ ExampleFolder \\ ExcludeMe.
 

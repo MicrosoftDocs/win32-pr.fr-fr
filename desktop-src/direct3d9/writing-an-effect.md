@@ -4,12 +4,12 @@ ms.assetid: 361dd260-526a-4484-8dc9-3857874e5023
 title: Écriture d’un effet (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0f456c5a2bce66f782b4da7d426de5c86bbb33
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d6d625d09f57b68f6447982769d0ff4d4731e6aaaeff330b1cec639c4dffec8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068799"
 ---
 # <a name="writing-an-effect-direct3d-9"></a>Écriture d’un effet (Direct3D 9)
 

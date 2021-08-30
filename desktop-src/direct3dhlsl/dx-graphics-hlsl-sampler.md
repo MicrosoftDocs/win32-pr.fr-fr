@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c0206f7030d3b3a05570e74273d9510bb9c2592c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ccdc81b21ba18fe3983a44655d23c9d463045b18
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119574"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624995"
 ---
 # <a name="sampler-type"></a>Type d’échantillonneur
 
@@ -28,7 +28,7 @@ Utilisez la syntaxe suivante pour déclarer l’état de l’échantillonneur ai
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -149,14 +149,14 @@ Lorsque vous implémentez un effet, l’état de l’échantillonneur est l’un
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Différences entre Direct3D 9 et Direct3D 10 :<br/> Voici un exemple partiel d’un échantillonneur Direct3D 9 issu de l’exemple <a href="https://msdn.microsoft.com/library/Ee416223(v=VS.85).aspx">BasicHLSL</a>.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -177,7 +177,7 @@ sampler_state
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

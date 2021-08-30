@@ -9,12 +9,12 @@ keywords:
 - pilotes installables, fonction DriverProc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6865d5e13425fe873e74ac77af5ae66401280e6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e0ef36f035b177baad49073af88147974d18585f54581dc2d3ad61872877559e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106511685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785888"
 ---
 # <a name="creating-a-driverproc-function"></a>Création d’une fonction DriverProc
 
@@ -106,6 +106,6 @@ LONG DriverProc(DWORD dwDriverId, HDRVR hdrvr, UINT msg,
 
 
 
- 
+ 
 
- 
+ 

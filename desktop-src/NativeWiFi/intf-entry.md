@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: e08efc8c95374f268efe21f963357e9c4f34ae35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e93a9a0214e9ca46e6ae6872e0d341cd703ed9331622dfbc27bd5a949ece61c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801309"
 ---
 # <a name="intf_entry-structure"></a>\_Structure d’entrée INTF
 
-\[**INTF \_ L’entrée** n’est plus prise en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**INTF \_ l’entrée** n’est plus prise en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 Contient des informations détaillées sur une interface requise par un client RPC.
 
@@ -208,7 +208,7 @@ Spécifie les fonctionnalités du pilote.
 
 | Valeur                                                                                                                                                                                                                                                         | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="INTFCAP_MAX_CIPHER_MASK"></span><span id="intfcap_max_cipher_mask"></span><dl> <dt>**INTFCAP \_ 0x000000FF \_ \_ masque de CHIFFREment Max**</dt> <dt></dt> </dl> | Les bits d’ordre inférieur de ce membre sont utilisés pour indiquer le chiffrement maximal pris en charge. Les valeurs possibles sont certaines des valeurs d’énumération définies dans la structure d' **\_ état NDIS 802 \_ 11 \_ WEP \_** dans le fichier d’en-tête *NtDDNdis. h* inclus dans le SDK Windows.<br/> La \_ valeur Ndis802 11Encryption1Enabled (2) indique que le chiffrement WEP est pris en charge. TKIP et AES ne sont pas pris en charge, et une clé de transmission peut être ou non disponible. <br/> La \_ valeur Ndis802 11Encryption2Enabled (9) indique que le protocole TKIP et le chiffrement WEP sont pris en charge. AES n’est pas pris en charge et une clé de transmission est disponible. <br/> La \_ valeur de 11Encryption3Enabled Ndis802 (11) indique que AES, TKIP et WEP sont pris en charge, et une clé de transmission est disponible. <br/> Le Ndis802 \_ 11EncryptionNotSupported (8) indique que la clé WEP n’est pas prise en charge. <br/> |
+| <span id="INTFCAP_MAX_CIPHER_MASK"></span><span id="intfcap_max_cipher_mask"></span><dl> <dt>**INTFCAP \_ 0x000000FF \_ \_ masque de CHIFFREment Max**</dt> <dt></dt> </dl> | Les bits d’ordre inférieur de ce membre sont utilisés pour indiquer le chiffrement maximal pris en charge. les valeurs possibles sont certaines des valeurs d’énumération définies dans la structure d' **\_ état NDIS 802 \_ 11 \_ WEP \_** dans le fichier d’en-tête *NtDDNdis. h* inclus dans le SDK Windows.<br/> La \_ valeur Ndis802 11Encryption1Enabled (2) indique que le chiffrement WEP est pris en charge. TKIP et AES ne sont pas pris en charge, et une clé de transmission peut être ou non disponible. <br/> La \_ valeur Ndis802 11Encryption2Enabled (9) indique que le protocole TKIP et le chiffrement WEP sont pris en charge. AES n’est pas pris en charge et une clé de transmission est disponible. <br/> La \_ valeur de 11Encryption3Enabled Ndis802 (11) indique que AES, TKIP et WEP sont pris en charge, et une clé de transmission est disponible. <br/> Le Ndis802 \_ 11EncryptionNotSupported (8) indique que la clé WEP n’est pas prise en charge. <br/> |
 | <span id="INTFCAP_SSN"></span><span id="intfcap_ssn"></span><dl> <dt>**INTFCAP \_**</dt> <dt>0x00000100</dt> SSN </dl>                                       | Indique la prise en charge d’un réseau sécurisé simple (SSN) qui est un sous-ensemble de 802.11 i. <br/> SSN modifie régulièrement la clé de chiffrement, au lieu de la norme WEP (Wired Equivalent Privacy), qui utilise une clé statique. Pour que SSN fonctionne, le chiffrement maximal pris en charge doit être au moins TKIP. Le numéro de sécurité sociale a été développé par un consortium de fournisseurs dans 2002 en tant qu’approche temporaire pour améliorer la sécurité des réseaux locaux sans fil pendant la réalisation de la norme IEEE 802.11 i.<br/>                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="INTFCAP_80211I"></span><span id="intfcap_80211i"></span><dl> <dt>**INTFCAP \_ 80211I**</dt> <dt>0x00000200</dt> </dl>                              | Indique la prise en charge de la norme IEEE 802.11 i.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
@@ -276,7 +276,7 @@ Données binaires utilisées avec d’autres indicateurs de contrôle lors de la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure d' **\_ entrée INTF** est utilisée par les fonctions [**WZCQueryInterface**](wzcqueryinterface.md) et [**WZCRefreshInterface**](wzcrefreshinterface.md) .
 
@@ -296,7 +296,7 @@ typedef struct
 Le membre *pData* pointe vers les données binaires. *DwDataLen* indique le nombre d’octets pointés par *pData*.
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* n’est pas disponible dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* n’est pas disponible dans le SDK Windows.
 
  
 
@@ -307,7 +307,7 @@ Le membre *pData* pointe vers les données binaires. *DwDataLen* indique le nomb
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                       |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl> |

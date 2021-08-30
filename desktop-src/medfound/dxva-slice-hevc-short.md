@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 0d0f88e1534ef3d901023ebdee8ce9c36a8c2cc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b59008947e636e7d4252b678a79b28c128c4a7b122b97c9337fb41ddc062fd54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958579"
 ---
 # <a name="dxva_slice_hevc_short-structure"></a>\_ \_ \_ Structure abrégée HEVC de la tranche DXVA
 
@@ -76,7 +76,7 @@ Si l’analyse de flux binaire hors hôte est utilisée, cette valeur indique le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **DXVA \_ Slice \_ HEVC \_ short** contient des données de contrôle de tranche qui sont transmises à l’accélérateur matériel à partir du décodeur logiciel hôte.
 
@@ -87,7 +87,7 @@ Si l’analyse de flux binaire hors hôte est utilisée, cette valeur indique le
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>DXVA. h</dt> </dl> |
 
 

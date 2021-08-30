@@ -1,19 +1,19 @@
 ---
-description: Vous pouvez utiliser l’outil d’administration Services de composants pour importer dans des applications spécifiques des composants qui ont déjà été inscrits sur votre ordinateur en tant que composants COM dans le Registre Windows.
+description: vous pouvez utiliser l’outil d’administration Services de composants pour importer dans des applications spécifiques des composants qui ont déjà été inscrits sur votre ordinateur en tant que composants COM dans le registre Windows.
 ms.assetid: 5310e08a-5146-41f8-ae65-8467b921abd4
 title: Importation de composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1b67d944e9b8880b3edd0583569155fffecb23b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 69385e14759716e775ce608307b3ef12828e5f628539e58a1d214d6c11506e66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953979"
 ---
 # <a name="importing-components"></a>Importation de composants
 
-Vous pouvez utiliser l’outil d’administration Services de composants pour importer dans des applications spécifiques des composants qui ont déjà été inscrits sur votre ordinateur en tant que composants COM dans le Registre Windows. L’importation d’un composant n’installe pas les informations d’interface ou de méthode requises pour définir les propriétés de l’interface ou pour configurer l’accès au composant à partir d’un client distant. Par conséquent, si possible, vous devez installer plutôt que d’importer des composants non configurés.
+vous pouvez utiliser l’outil d’administration Services de composants pour importer dans des applications spécifiques des composants qui ont déjà été inscrits sur votre ordinateur en tant que composants COM dans le registre Windows. L’importation d’un composant n’installe pas les informations d’interface ou de méthode requises pour définir les propriétés de l’interface ou pour configurer l’accès au composant à partir d’un client distant. Par conséquent, si possible, vous devez installer plutôt que d’importer des composants non configurés.
 
 > [!Note]  
 > Lorsque vous importez un composant dans une application COM+, COM+ ne remplit pas les informations d’interface et de méthode du composant. Lors de l’exportation d’un proxy d’application, COM+ ne fournit pas d’informations de marshaling (bibliothèques de types ou proxy/stubs) pour une partie ou l’ensemble des interfaces. L’exportation de proxys d’application contenant des composants importés échouera ou entraînera l’émission d’un avertissement.

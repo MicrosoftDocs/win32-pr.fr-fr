@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS_QUERY (VFW. h)
-description: Le message de requête de compression ICM \_ \_ interroge un pilote de compression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut compresser un format d’entrée spécifique dans un format de sortie spécifique.
+description: le \_ message de requête ICM compresser \_ interroge un pilote de compression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut compresser un format d’entrée spécifique dans un format de sortie spécifique.
 ms.assetid: 6d0e735e-8252-4507-b8be-1ba87774f637
 keywords:
-- Message ICM_COMPRESS_QUERY Windows Multimedia
+- message ICM_COMPRESS_QUERY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a00482cc39f21ef6ddfb241f0534924c503200
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75a68bf93a3d3ea96447dd061d859ccbf4483124dc8955fbd6efc39c180d782c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785019"
 ---
-# <a name="icm_compress_query-message"></a>Message de requête de \_ compression ICM \_
+# <a name="icm_compress_query-message"></a>ICM \_ Compresser le \_ message de requête
 
-Le message de **\_ \_ requête** de compression ICM interroge un pilote de compression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut compresser un format d’entrée spécifique dans un format de sortie spécifique. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery) .
+le message de **\_ \_ requête ICM compresser** interroge un pilote de compression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut compresser un format d’entrée spécifique dans un format de sortie spécifique. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressQuery**](/windows/desktop/api/Vfw/nf-vfw-iccompressquery) .
 
 
 ```C++
@@ -56,7 +56,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne ICERR \_ OK si la compression spécifiée est prise en charge ou ICERR BADFORMAT dans le \_ cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un pilote reçoit ce message, il doit examiner la structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) associée à *lpbiInput* pour déterminer s’il peut compresser le format d’entrée.
 

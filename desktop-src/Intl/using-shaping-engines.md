@@ -4,12 +4,12 @@ ms.assetid: 3cdd18f3-51d3-4d1c-be31-f5709074cbe7
 title: Utilisation de moteurs de mise en forme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a106e993aba515af38edd2b809ef60454a186cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceb0fd75e0612340bc5051f844dda5e9d66c22eb56a88b0c497891a15faaa75d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897849"
 ---
 # <a name="using-shaping-engines"></a>Utilisation de moteurs de mise en forme
 

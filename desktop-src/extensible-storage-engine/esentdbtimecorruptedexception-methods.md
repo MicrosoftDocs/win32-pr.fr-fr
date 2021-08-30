@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101463
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3da287c7311935a77ac7ff4c2e689a0e50333233
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4367018dcd9c650a6d51008bbd8475aee5512b338dcc40998d9700b96472b4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974376"
 ---
 # <a name="esentdbtimecorruptedexception-methods"></a>Méthodes EsentDbTimeCorruptedException
 

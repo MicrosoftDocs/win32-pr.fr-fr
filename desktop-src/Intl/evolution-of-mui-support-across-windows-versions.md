@@ -4,12 +4,12 @@ ms.assetid: a3bda96e-6a54-41b3-88d3-9da88d7c0416
 title: évolution de la prise en charge MUI sur les Versions Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e08ff181cf34daa95710d5bf57a294703a88ef
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: e6fc25364a3b03ca7513b89d088d08f305ee2c0f7416b23d469bb6fc0c73d4bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041539"
 ---
 # <a name="evolution-of-mui-support-across-windows-versions"></a>évolution de la prise en charge MUI sur les Versions Windows
 
@@ -67,13 +67,43 @@ avec l’infrastructure mui améliorée qui est disponible à partir de Windows 
 
 
 
-
-| Category | Support | 
-|----------|---------|
-| Types de ressources pris en charge | <ul><li>Ressource Win32/non managée : .DLL/.EXE/. OCX</li><li>Inscriptions liées à l’interpréteur de commandes</li><li>Ressources liées à la gestion : journal des événements, fichiers de composant logiciel enfichable/MSC</li><li>WMI : MOF/MFL</li><li>Stratégie de groupe : ADMX/ADML</li><li>Resources.dll géré</li></ul> | 
-| Outils de développement | <ul><li>pour Win32 : RC.exe, MUIRCT.exe et Visual Studio 2005 et versions ultérieures</li></ul> | 
-| Prise en charge limitée des types de ressources | <ul><li>fichiers d’aide *. chm</li></ul> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Assistance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Types de ressources pris en charge</td>
+<td><ul>
+<li>Ressource Win32/non managée : .DLL/.EXE/. OCX</li>
+<li>Inscriptions liées à l’interpréteur de commandes</li>
+<li>Ressources liées à la gestion : journal des événements, fichiers de composant logiciel enfichable/MSC</li>
+<li>WMI : MOF/MFL</li>
+<li>Stratégie de groupe : ADMX/ADML</li>
+<li>Resources.dll géré</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Outils de développement</td>
+<td><ul>
+<li>pour Win32 : RC.exe, MUIRCT.exe et Visual Studio 2005 et versions ultérieures</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Prise en charge limitée des types de ressources</td>
+<td><ul>
+<li>fichiers d’aide *. chm</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 

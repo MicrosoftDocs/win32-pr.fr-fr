@@ -4,12 +4,12 @@ ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: Fonctions de processus et de thread
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ebb1e281feb83b4a0da0c230792399d8e21684f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f187244e65008e3b4e082578af56a734d7e7571747fa7e3a565b0aa99904de66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081399"
 ---
 # <a name="process-and-thread-functions"></a>Fonctions de processus et de thread
 
@@ -86,7 +86,7 @@ Les fonctions suivantes sont utilisées avec les [processus](child-processes.md)
 | [**GetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex)         | Récupère les tailles minimale et maximale du jeu de travail du processus spécifié.                                                                                                                 |
 | [**GetProcessorSystemCycleTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime)       | Récupère le temps de cycle que chaque processeur dans le groupe spécifié a passé à exécuter des appels de procédure différés (DPC) et des routines de service d’interruption (routines).                                         |
 | [**GetStartupInfo**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | Récupère le contenu de la structure [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) qui a été spécifiée lors de la création du processus appelant.                                                       |
-| [**IsImmersiveProcess**](/windows/desktop/api/Winuser/nf-winuser-isimmersiveprocess)                         | Détermine si le processus appartient à une application du Windows Store.                                                                                                                                |
+| [**IsImmersiveProcess**](/windows/desktop/api/Winuser/nf-winuser-isimmersiveprocess)                         | détermine si le processus appartient à une application du windows Store Windows.                                                                                                                                |
 | [**NeedCurrentDirectoryForExePath**](/windows/win32/api/processenv/nf-processenv-needcurrentdirectoryforexepatha) | Détermine si le répertoire actif doit être inclus dans le chemin de recherche pour l’exécutable spécifié.                                                                                  |
 | [**OpenProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess)                                       | Ouvre un objet processus local existant.                                                                                                                                                       |
 | [**QueryFullProcessImageName**](/windows/desktop/api/WinBase/nf-winbase-queryfullprocessimagenamea)           | Récupère le nom complet de l’image exécutable pour le processus spécifié.                                                                                                                    |
@@ -99,7 +99,7 @@ Les fonctions suivantes sont utilisées avec les [processus](child-processes.md)
 | [**SetProcessInformation**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)                   | Définit des informations pour le processus spécifié.                                                                                                                                                   |
 | [**SetProcessMitigationPolicy**](/windows/desktop/api/Processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy)         | Définit la stratégie d’atténuation pour le processus appelant.                                                                                                                                           |
 | [**SetProcessPriorityBoost**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost)               | Désactive la capacité du système à augmenter temporairement la priorité des threads du processus spécifié.                                                                                 |
-| [**SetProcessRestrictionExemption**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | Exempte le processus appelant des restrictions empêchant les processus de bureau d’interagir avec l’environnement des applications du Windows Store. Cette fonction est utilisée par les outils de développement et de débogage. |
+| [**SetProcessRestrictionExemption**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | exempte le processus appelant des restrictions empêchant les processus de bureau d’interagir avec l’environnement de l’application Windows Store. Cette fonction est utilisée par les outils de développement et de débogage. |
 | [**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)     | Définit les paramètres d’arrêt pour le processus en cours d’appel.                                                                                                                                   |
 | [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize)             | Définit les tailles minimale et maximale de la plage de travail pour le processus spécifié.                                                                                                                     |
 | [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex)         | Définit les tailles minimale et maximale de la plage de travail pour le processus spécifié.                                                                                                                     |

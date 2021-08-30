@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 501f98ec1b360e3eaa10988c140f30b86dcacb5a
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 6d51d8c918b9c6dfc8f4dde652bbabe7fe3c17ae
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987342"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475565"
 ---
 # <a name="extensible-storage-engine-system-parameters"></a>paramètres système du moteur de Stockage Extensible
 
@@ -66,17 +66,5 @@ JET_paramX
 Description du paramètre système JET_paramX.
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| <p>Valeur par défaut :</p> | <p>Valeur par défaut du paramètre.</p> | 
-| <p>Tapez :</p> | <p>Type de données du paramètre.</p> | 
-| <p>Plage valide :</p> | <p>Valeurs autorisées pour le paramètre.</p> | 
-| <p>Étendue :</p> | <p>Le paramètre est-il global ou par instance ?</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Le paramètre peut-il être défini si des instances existent ?</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Le paramètre peut-il être défini lors de son initialisation ?</p> | 
-| <p>Affecte la disposition physique :</p> | <p>Le paramètre affecte-t-il les fichiers sur le disque ?</p> | 
-| <p>Affecte la fiabilité :</p> | <p>Le paramètre affecte-t-il la fiabilité du moteur ?</p> | 
-| <p>Affecte les performances :</p> | <p>Le paramètre affecte-t-il les performances du moteur ?</p> | 
-| <p>Affecte les ressources :</p> | <p>Le paramètre affecte-t-il les ressources du moteur ?</p> | 
-| <p>Disponibilité :</p> | <p>les versions de Windows qui prennent en charge le paramètre.</p> | 
+| | | <p>Valeur par défaut :</p> | <p>Valeur par défaut du paramètre.</p> | | <p>Tapez :</p> | <p>Type de données du paramètre.</p> | | <p>Plage valide :</p> | <p>Valeurs autorisées pour le paramètre.</p> | | <p>Étendue :</p> | <p>Le paramètre est-il global ou par instance ?</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Le paramètre peut-il être défini si des instances existent ?</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Le paramètre peut-il être défini lors de son initialisation ?</p> | | <p>Affecte la disposition physique :</p> | <p>Le paramètre affecte-t-il les fichiers sur le disque ?</p> | | <p>Affecte la fiabilité :</p> | <p>Le paramètre affecte-t-il la fiabilité du moteur ?</p> | | <p>Affecte les performances :</p> | <p>Le paramètre affecte-t-il les performances du moteur ?</p> | | <p>Affecte les ressources :</p> | <p>Le paramètre affecte-t-il les ressources du moteur ?</p> | | <p>Disponibilité :</p> | <p>les versions de Windows qui prennent en charge le paramètre.</p> | 
 

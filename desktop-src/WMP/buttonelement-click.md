@@ -3,7 +3,7 @@ title: BUTTONELEMENT. Click
 description: La méthode click appelle le gestionnaire d’événements OnClick défini pour BUTTONELEMENT.
 ms.assetid: ede09c10-f52f-4a9f-ae68-1091642ee6bd
 keywords:
-- BUTTONELEMENT. cliquez sur Windows Media Player
+- BUTTONELEMENT. click Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8aba2cddaa59eede23d5aa18529ba9589855dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e25e3ffe2e840d255041caef97da76850adb797ffe1113b8c6ac6918050dbb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902339"
 ---
 # <a name="buttonelementclick"></a>BUTTONELEMENT. Click
 
@@ -35,7 +35,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour fournir un autre moyen d’exécuter le code associé à un bouton.
 

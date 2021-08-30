@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 33817fa4aa55747ecf9d4e89f5dcf406160c0c67
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e11fcfefb817a2ecc94914cccd96335100e2e2ae1c072af3bd9bf879f4d1e46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972639"
 ---
 # <a name="win32_networkprotocol-class"></a>\_Classe NetworkProtocol Win32
 
@@ -121,7 +121,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP1 \_ sans connexion »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP1 \_ sans connexion »)
 </dt> </dl>
 
 Le protocole prend en charge le service sans connexion. Un service sans connexion (datagramme) décrit un protocole de communication ou un transport dans lequel les paquets de données sont acheminés indépendamment les uns des autres et peuvent suivre différents itinéraires et arriver dans un ordre différent de celui dans lequel ils ont été envoyés. À l’inverse, un service orienté connexion fournit un circuit virtuel par le biais duquel les paquets de données sont reçus dans l’ordre dans lequel ils ont été transmis. Si la connexion entre les ordinateurs échoue, l’application est avertie.
@@ -155,7 +155,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| Protocol \_ info \| dwServiceFlags \| XP \_ garanti \_ Delivery »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ garanti \_ delivery »)
 </dt> </dl>
 
 Le protocole prend en charge la remise des paquets de données. Si cet indicateur a la **valeur false**, il est incertain que toutes les données envoyées atteindront la destination prévue.
@@ -171,7 +171,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ \_ ordre garanti »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ \_ ordre garanti »)
 </dt> </dl>
 
 Le protocole permet de s’assurer que les données arrivent dans l’ordre dans lequel elles ont été envoyées. N’oubliez pas que cette caractéristique ne garantit pas la distribution des données, mais uniquement leur ordre.
@@ -205,7 +205,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| iMaxSockAddr »), [**unités**](../wmisdk/standard-qualifiers.md) (« caractères »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| iMaxSockAddr »), [**units**](../wmisdk/standard-qualifiers.md) (« characters »)
 </dt> </dl>
 
 Longueur maximale d’une adresse de socket prise en charge par le protocole. Les adresses de socket peuvent être des éléments tels qu’une URL ( `www.microsoft.com` ) ou une adresse IP ( `130.215.24.1` ).
@@ -221,7 +221,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwMessageSize »), [**unités**](../wmisdk/standard-qualifiers.md) (« caractères »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwMessageSize »), [**units**](../wmisdk/standard-qualifiers.md) (« characters »)
 </dt> </dl>
 
 Taille maximale des messages prise en charge par le protocole. Il s’agit de la taille maximale d’un message qui peut être envoyé ou reçu par l’hôte. Pour les protocoles qui ne prennent pas en charge le tramage de message, la taille maximale réelle d’un message qui peut être envoyé à une adresse donnée peut être inférieure à cette valeur.
@@ -237,7 +237,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ \_ orienté message »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ \_ orienté MESSAGE »)
 </dt> </dl>
 
 Le protocole est orienté message. Un protocole orienté message utilise des paquets de données pour transférer des informations. À l’inverse, les protocoles orientés flux transfèrent les données sous la forme d’un flux continu d’octets.
@@ -253,7 +253,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| iMinSockAddr »), [**unités**](../wmisdk/standard-qualifiers.md) (« caractères »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| iMinSockAddr »), [**units**](../wmisdk/standard-qualifiers.md) (« characters »)
 </dt> </dl>
 
 Longueur minimale d’une adresse de socket prise en charge par le protocole.
@@ -269,7 +269,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32 \_ API \| Windows Sockets structures \| Protocol \_ info \| lpProtocol")
+qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| lpProtocol")
 </dt> </dl>
 
 Nom du protocole.
@@ -287,7 +287,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ Pseudo \_ Stream »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ PSEUDO \_ STREAM »)
 </dt> </dl>
 
 Le protocole est un protocole orienté message qui peut recevoir des paquets de données de longueur variable ou des données diffusées en continu pour toutes les opérations de réception. Cette capacité facultative est utile lorsqu’une application ne souhaite pas que le protocole trame des messages et nécessite des caractéristiques orientées flux. Si la **valeur est true**, le protocole est Pseudo-orienté en flux continu.
@@ -411,7 +411,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ prend en charge la \_ diffusion »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ prend en charge \_ BROADCAST »)
 </dt> </dl>
 
 Le protocole prend en charge un mécanisme de diffusion des messages sur le réseau.
@@ -427,7 +427,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ Connect \_ Data »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ CONNECT \_ DATA »)
 </dt> </dl>
 
 Le protocole autorise la connexion des données sur le réseau.
@@ -443,7 +443,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ déconnecte les \_ données »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ déconnecte les \_ données »)
 </dt> </dl>
 
 Le protocole autorise la déconnexion des données sur le réseau.
@@ -459,7 +459,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ chiffre »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ chiffre »)
 </dt> </dl>
 
 Le protocole prend en charge le chiffrement des données.
@@ -475,7 +475,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| Protocol \_ info \| dwServiceFlags \| XP \_ Expedited \_ Data »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ expedited \_ DATA »)
 </dt> </dl>
 
 Le protocole prend en charge les données expédiées (également appelées données urgentes) sur le réseau. Les données expédiées peuvent contourner le contrôle de Flow et recevoir la priorité sur les paquets de données normaux.
@@ -491,7 +491,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| Protocol \_ info \| dwServiceFlags \| XP \_ fragmentation »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ FRAGMENTATION »)
 </dt> </dl>
 
 Le protocole prend en charge la transmission des données par fragments. L’unité de transfert maximale (MTU) du réseau physique est masquée dans les applications. Chaque type de média a une taille de trame maximale qui ne peut pas être dépassée. La couche de liaison Découvre la MTU et la signale aux protocoles utilisés.
@@ -507,7 +507,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ normal \_ Close »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ normal \_ CLOSE »)
 </dt> </dl>
 
 Le protocole prend en charge les opérations de fermeture en deux phases, également appelées « opérations de fermeture gracieuse ». Si ce n’est pas le cas, le protocole prend en charge uniquement les opérations de fermeture abandonnées.
@@ -523,7 +523,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ allocation de bande passante \_ »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| protocole \_ INFO \| dwServiceFlags \| XP \_ ALLOCATION de bande passante \_ »)
 </dt> </dl>
 
 Le protocole a un mécanisme permettant d’établir et de maintenir une bande passante.
@@ -539,7 +539,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| protocole \_ info \| dwServiceFlags \| XP \_ prend en charge la \_ multidiffusion »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| PROTOCOL \_ INFO \| dwServiceFlags \| XP \_ prend en charge la \_ multidiffusion »)
 </dt> </dl>
 
 Le protocole prend en charge la multidiffusion.
@@ -555,14 +555,14 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows Sockets structures \| WSAPROTOCOL \_ info \| dwServiceFlags1 \| XP1 \_ QoS \_ pris en charge »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32 \_ API \| Windows sockets Structures \| WSAPROTOCOL \_ INFO \| dwServiceFlags1 \| XP1 \_ QOS \_ pris en charge »)
 </dt> </dl>
 
 Le protocole peut prendre en charge la qualité de service (QoS) par le fournisseur de services en couche sous-jacent ou le transporteur de transport. La qualité de service (QoS) est un ensemble de composants qui activent la différenciation et le traitement préférentiel pour les sous-ensembles de données transmises sur le réseau. La qualité de service (QoS) signifie que les sous-ensembles de données obtiennent une priorité plus élevée ou un service garanti lors du parcours d’un réseau.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ NetworkProtocol** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

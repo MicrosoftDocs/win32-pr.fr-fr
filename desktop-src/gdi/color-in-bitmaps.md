@@ -4,12 +4,12 @@ ms.assetid: c315dd6e-87ee-4905-b193-186ea580ac0a
 title: Couleur dans les bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 834744f35ccc8bd0c8714fa5bbb438b59c8b8db3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 782951cfaee0d50fe426505868d01bc5d3fd791f9d8ea0b1e3bca94e28680b7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849240"
 ---
 # <a name="color-in-bitmaps"></a>Couleur dans les bitmaps
 

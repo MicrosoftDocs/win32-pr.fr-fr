@@ -4,12 +4,12 @@ ms.assetid: 0381f862-2f16-4b4d-be48-40f7fe151585
 title: Mode de lecture non rendu VMR (Allocator personnalisé-présentateur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad9cd4dcb5e5b2f1965d49c7f31b4ef8c9ebd78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa458cdf50fc4bcacba7261ef72f18145ebe1ca1fa719a689118cae551306fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049279"
 ---
 # <a name="vmr-renderless-playback-mode-custom-allocator-presenters"></a>Mode de lecture non rendu VMR (Allocator personnalisé-présentateur)
 

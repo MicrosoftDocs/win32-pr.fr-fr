@@ -1,21 +1,21 @@
 ---
-description: L' <property> élément spécifie une propriété utilisée par la bibliothèque. Ces propriétés étant spécifiques à la bibliothèque, il n’existe aucun ensemble prédéfini de noms de propriétés à utiliser. Cet élément est facultatif et n’a pas d’éléments enfants.
+description: L' &lt; &gt; élément Property spécifie une propriété utilisée par la bibliothèque. Ces propriétés étant spécifiques à la bibliothèque, il n’existe aucun ensemble prédéfini de noms de propriétés à utiliser. Cet élément est facultatif et n’a pas d’éléments enfants.
 ms.assetid: 8BF6EC7A-A87E-45fe-A8F0-4B49594E9E7B
 title: Property, élément (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 481122db633750b042172561eedace81fe1d752e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: f2c08577e6f2e3310f3f1966737edb7e9bf31de7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885615"
 ---
 # <a name="property-element-library-schema"></a>Property, élément (schéma de bibliothèque)
 
-L' <property> élément spécifie une propriété utilisée par la bibliothèque. Ces propriétés étant spécifiques à la bibliothèque, il n’existe aucun ensemble prédéfini de noms de propriétés à utiliser. Cet élément est facultatif et n’a pas d’éléments enfants.
+L' &lt; &gt; élément Property spécifie une propriété utilisée par la bibliothèque. Ces propriétés étant spécifiques à la bibliothèque, il n’existe aucun ensemble prédéfini de noms de propriétés à utiliser. Cet élément est facultatif et n’a pas d’éléments enfants.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <!-- property -->
@@ -66,7 +66,7 @@ L' <property> élément spécifie une propriété utilisée par la bibliothèque
 
 ## <a name="remarks"></a>Remarques
 
-la configuration requise pour l’élément <nom canonique> correspond à la configuration requise pour la recherche Windows et le système de propriétés Windows. La chaîne doit être de type canonique.
+la configuration requise pour l' &lt; élément de nom canonique &gt; correspond à la configuration requise pour la recherche de Windows et le système de propriétés Windows. La chaîne doit être de type canonique.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

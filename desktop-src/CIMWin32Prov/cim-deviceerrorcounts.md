@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1602e68b7254811ba8c09726feda8baa7bf23d29
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e4f81531a281766d152174c77219b17dff60b626f58cbad0f9907129d9e379f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924539"
 ---
 # <a name="cim_deviceerrorcounts-class"></a>\_Classe CIM DeviceErrorCounts
 
@@ -289,7 +289,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

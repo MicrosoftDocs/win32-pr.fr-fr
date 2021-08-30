@@ -3,7 +3,7 @@ title: External. Task
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La propriété de tâche récupère le nom du volet de tâches actuel.
 ms.assetid: 8f3269bd-41aa-43b9-b8b9-f6c35c0ca2b2
 keywords:
-- External. tâche lecteur Windows Media
+- External. task Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e220eb9aa86c1db65e2b1cbcfa0177a40181cebf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aab4c20a5b5c6143e5c3023fde695c3809474a009dbb24acf812e3ccfbee2068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901929"
 ---
 # <a name="externaltask"></a>External. Task
 

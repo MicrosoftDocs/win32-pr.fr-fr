@@ -4,16 +4,16 @@ ms.assetid: f4ee2cc8-8a49-4e4a-b8cf-b4ae2bc7e753
 title: Table UpgradedImages (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48dcecc94786cbe783f21e6e005b645586f2e894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86a50a172511966922186bd91ff387ce4437deca64a704f65fd1ecdff8153192
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809519"
 ---
 # <a name="upgradedimages-table-patchwizdll"></a>Table UpgradedImages (Patchwiz.dll)
 
-La table UpgradedImages contient des informations sur les images mises à niveau du produit. L’image mise à niveau doit être une image d’installation entièrement décompressée de la version la plus récente du produit, par exemple, une image administrative ou une image d’installation non compressée à partir d’un CD-ROM. Un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau. La table UpgradedImages est requise dans la base de données de création de correctifs (fichier. PCP) et est utilisée par [UiCreatePatchPackageEx](uicreatepatchpackageex--patchwiz-dll-.md).
+La table UpgradedImages contient des informations sur les images mises à niveau du produit. L’image mise à niveau doit être une image d’installation entièrement décompressée de la version la plus récente du produit, par exemple, une image administrative ou une image d’installation non compressée à partir d’un CD-ROM. un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau. La table UpgradedImages est requise dans la base de données de création de correctifs (fichier. PCP) et est utilisée par [UiCreatePatchPackageEx](uicreatepatchpackageex--patchwiz-dll-.md).
 
 Une table UpgradedImages contenant au moins un enregistrement est requise dans chaque base de données de création de correctif (fichier. PCP). Cette table est utilisée par [UiCreatePatchPackageEx](uicreatepatchpackageex--patchwiz-dll-.md).
 
@@ -47,7 +47,7 @@ Le champ mis à niveau est un identificateur arbitraire permettant de connecter 
 <span id="MsiPath"></span><span id="msipath"></span><span id="MSIPATH"></span>MsiPath
 </dt> <dd>
 
-Ce champ spécifie le chemin d’accès complet, y compris le nom de fichier, à l’emplacement du fichier. msi pour l’image mise à niveau. Il s’agit de l’emplacement des fichiers sources de l’image mise à niveau.
+Ce champ spécifie le chemin d’accès complet, y compris le nom de fichier, à l’emplacement du fichier .msi de l’image mise à niveau. Il s’agit de l’emplacement des fichiers sources de l’image mise à niveau.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Clé étrangère dans la [table ImageFamilies](imagefamilies-table-patchwiz-dll-
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que chaque image mise à niveau puisse être regroupée dans une famille d’images distincte, le regroupement d’images mises à niveau qui partagent des fichiers peut rendre le fichier. msp plus petit.
 

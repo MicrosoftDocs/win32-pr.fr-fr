@@ -4,16 +4,16 @@ ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Utilisation du convertisseur de mixage vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5baf7d559eed0d3111876924520952b55c6da2e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b16bbce539d21d756a7a1a648aab09105434da26ae586163f5f8bfe0edba77b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049499"
 ---
 # <a name="using-the-video-mixing-renderer"></a>Utilisation du convertisseur de mixage vidéo
 
-En termes de performances et d’étendue des fonctionnalités, le filtre de mixage vidéo (VMR) représente la prochaine génération de rendu vidéo sur la plateforme Windows. VMR remplace le [mélangeur de recouvrement](overlay-mixer-filter.md) et le [convertisseur vidéo](video-renderer-filter.md), et ajoute de nombreuses nouvelles fonctionnalités de mixage.
+en termes de performances et d’étendue des fonctionnalités, le filtre de mixage vidéo (VMR) représente la prochaine génération de rendu vidéo sur la plateforme Windows. VMR remplace l' [Mixer de recouvrement](overlay-mixer-filter.md) et le [convertisseur vidéo](video-renderer-filter.md), et ajoute de nombreuses nouvelles fonctionnalités de mixage.
 
 Il existe deux versions de VMR :
 
@@ -30,10 +30,10 @@ Cet article contient les sections suivantes. Sauf mention contraire, les informa
 
 -   [À propos du rendu de mixage vidéo](about-the-video-mixing-render.md)
 -   [Modes de fonctionnement VMR](vmr-modes-of-operation.md)
--   [Création d’un graphique de filtre VMR-9](building-a-vmr-9-filter-graph.md)
+-   [Génération d’un filtre VMR-9 Graph](building-a-vmr-9-filter-graph.md)
 -   [Utilisation du mode de mixage VMR](using-vmr-mixing-mode.md)
 -   [Définition des préférences de désentrelacement](setting-deinterlace-preferences.md)
--   [Utilisation de VMR pour les développeurs de filtres DirectShow](using-the-vmr-for-directshow-filter-developers.md)
+-   [utilisation de VMR pour les développeurs de filtre DirectShow](using-the-vmr-for-directshow-filter-developers.md)
 -   [Utilisation du protocole COPP (Certified Output Protection Protocol)](using-certified-output-protection-protocol--copp.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

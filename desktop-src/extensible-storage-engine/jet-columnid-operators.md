@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh565023(v=EXCHG.10)
 ms:contentKeyID: 39512694
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 44dfa44d2303d5fdc3550cbc71983f534798b5ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8109b5af007c7b12818d032beae48a577f819b6da951ebefc706bf6ca89e536b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968459"
 ---
 # <a name="jet_columnid-operators"></a>Opérateurs JET_COLUMNID
 

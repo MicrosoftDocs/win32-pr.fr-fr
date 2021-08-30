@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df7b354d05e882373715e4c49498c9daff41652
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5e4d0f67e57b25fdb3c7e0d54ec0ba4d0dfebc1ce1a04818a2df5ab9a266672f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925209"
 ---
 # <a name="inter-site-topology-generator-attribute"></a>Inter-site-topologie-attribut-générateur
 
@@ -46,7 +46,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Cet attribut sera utilisé pour prendre en charge le basculement pour l’ordina
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 

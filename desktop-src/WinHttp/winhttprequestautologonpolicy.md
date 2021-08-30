@@ -13,12 +13,12 @@ api_type:
 - IDLDef
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: dab3dc14dd194e36b9b4d1225f77161005b9d21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2db50abfa413fc8ed80724ce2955407624c836a14809da678989753668794f6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899079"
 ---
 # <a name="winhttprequestautologonpolicy-enumeration"></a>Énumération WinHttpRequestAutoLogonPolicy
 
@@ -62,12 +62,12 @@ L’authentification n’est pas utilisée automatiquement.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir la stratégie d’ouverture de session automatique, appelez la méthode [**SetAutoLogonPolicy**](iwinhttprequest-setautologonpolicy.md) et spécifiez l’une des constantes précédentes.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
 
  
 
@@ -77,8 +77,8 @@ Pour définir la stratégie d’ouverture de session automatique, appelez la mé
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

@@ -4,18 +4,18 @@ ms.assetid: 14346fef-7923-4f30-bca8-96a29c0f820d
 title: RÉINSTALLER la propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5147b4120968991aa3cb6caf438b7565281fc6f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4bcd434e27ddde10a8e6489022c3635fa0e608c280f91bacde4e9b1065549a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082629"
 ---
 # <a name="reinstall-property"></a>RÉINSTALLER la propriété
 
 La valeur de la propriété **réinstaller** est une liste de fonctionnalités délimitée par des virgules qui doivent être réinstallées. Les fonctionnalités indiquées doivent être présentes dans la colonne fonctionnalité [du tableau des fonctionnalités.](feature-table.md) Pour réinstaller toutes les fonctionnalités, utilisez réinstaller = ALL sur la ligne de commande.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que les noms de fonctionnalités respectent la casse.
 
@@ -47,7 +47,7 @@ Le programme d’installation définit la propriété [**présélectionnée**](p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

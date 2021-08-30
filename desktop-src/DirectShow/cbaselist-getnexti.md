@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f96be8d8cdf286a4017e56af7050970d45e8a56e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b45556c1657961bdebf378f7e3908501f0bf5b971cf0c6533a55477b05a40ad9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983508"
 ---
 # <a name="cbaselistgetnexti-method"></a>Méthode CBaseList. GetNextI
 
@@ -53,7 +53,7 @@ Référence à une valeur de POSITION.
 
 Retourne un pointeur vers l’élément. Si *RP* a la **valeur null**, la méthode retourne la **valeur null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode avance l’indicateur de position à la position suivante. Si l’indicateur de position se déplace au-delà de la fin de la liste, la méthode lui affecte la **valeur null**.
 
@@ -63,7 +63,7 @@ Cette méthode avance l’indicateur de position à la position suivante. Si l�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

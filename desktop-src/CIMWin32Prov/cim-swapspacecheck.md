@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4da1fb99e0a11a1c0975fd57166af44ad481081c747f1c7991e6a565d5260ed0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fe90152d9cc1a9ca5d508f89d7e5511a62c224d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887412"
 ---
 # <a name="cim_swapspacecheck-class"></a>\_Classe CIM SwapSpaceCheck
 
@@ -816,8 +816,8 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 Cette propriété est héritée de la [**\_ vérification CIM**](cim-check.md).
 
@@ -829,7 +829,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

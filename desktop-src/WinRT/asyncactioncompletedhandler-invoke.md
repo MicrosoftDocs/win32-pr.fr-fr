@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: 1cba9c48fa955b82fdc337ba641acbd4c62f6406
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f106dca9d1d01b2da12ffb527f3556a0a44cf535167e5af79adbd69e4a097055
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898649"
 ---
 # <a name="asyncactioncompletedhandlerinvoke-method"></a>AsyncActionCompletedHandler :: Invoke, méthode
 
@@ -42,7 +42,7 @@ HRESULT Invoke(
 *asyncInfo* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction) \** _
+Type : **[ **IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction)\***
 
 Action asynchrone qui signale la fin de l’opération.
 
@@ -50,7 +50,7 @@ Action asynchrone qui signale la fin de l’opération.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

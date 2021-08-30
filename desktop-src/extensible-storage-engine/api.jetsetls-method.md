@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d11d0790bb1d9340c427fd1b836d927527c6ca63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c6b8dfe425576b7340f637a3f9942a25aeb28391adbdf3417b65afe0e0e84b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977579"
 ---
 # <a name="apijetsetls-method"></a>API. JetSetLS, méthode
 
-Permet à l’application d’associer un handle de contexte appelé stockage local avec un curseur ou la table associée à ce curseur. Ce descripteur de contexte peut être utilisé par l’application pour stocker les données auxiliaires associées à un curseur ou une table. L’application est notifiée ultérieurement à l’aide d’un rappel d’exécution lorsque le handle de contexte doit être libéré. Cela permet d’associer l’État alloué dynamiquement à un curseur ou une table.
+permet à l’application d’associer un handle de contexte appelé Stockage Local avec un curseur ou la table associée à ce curseur. Ce descripteur de contexte peut être utilisé par l’application pour stocker les données auxiliaires associées à un curseur ou une table. L’application est notifiée ultérieurement à l’aide d’un rappel d’exécution lorsque le handle de contexte doit être libéré. Cela permet d’associer l’État alloué dynamiquement à un curseur ou une table.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

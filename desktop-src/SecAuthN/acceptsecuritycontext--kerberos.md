@@ -4,12 +4,12 @@ ms.assetid: 838eaaa7-6fce-4ed1-bd69-6e76a804c67b
 title: AcceptSecurityContext (Kerberos), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 2c379aa0f111e24d534bb14746df4b0e7cbbc9c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7ac9fa53b90cc68a5299235f5bc7183e10dac4a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518310"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628661"
 ---
 # <a name="acceptsecuritycontext-kerberos-function"></a>AcceptSecurityContext (Kerberos) (fonction)
 
@@ -130,19 +130,19 @@ Pointeur vers une structure d' [**horodatage**](timestamp.md) qui reçoit l’he
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne l’une des valeurs suivantes.
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Code/valeur de retour</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>Échec de la fonction. La mémoire disponible est insuffisante pour terminer l’action demandée.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>Échec de la fonction. Une erreur qui n’a pas été mappée à un code d’erreur SSPI s’est produite.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>Échec de la fonction. Le handle passé à la fonction n’est pas valide.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>Échec de la fonction. Le jeton passé à la fonction n’est pas valide.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>L’ouverture de session a échoué.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>Échec de la fonction. Aucune autorité n’a pu être contactée pour l’authentification. Cela peut être dû aux conditions suivantes :<br/><ul><li>Le nom de domaine du tiers d’authentification est incorrect.</li><li>Le domaine n’est pas disponible.</li><li>La relation d’approbation a échoué.</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000L</dt> </dl></td><td>La fonction a réussi. Le [*contexte de sécurité*](../secgloss/s-gly.md) reçu du client a été accepté. Si un jeton de sortie a été généré par la fonction, il doit être envoyé au processus client.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_UNSUPPORTED_FUNCTION</strong></dt> <dt>0x80090302L</dt> </dl></td><td>Échec de la fonction. Un indicateur d’attribut de contexte qui n’est pas valide (ASC_REQ_DELEGATE ou ASC_REQ_PROMPT_FOR_CREDS) a été spécifié dans le paramètre <em>fContextReq</em> . Cette valeur peut être retournée lors de l’utilisation du SSP Schannel.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>La fonction a réussi. Le serveur doit appeler [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-CompleteAuthToken) et transmettre le jeton de sortie au client. Le serveur attend ensuite un jeton de retour du client, puis effectue un autre appel à [<strong>AcceptSecurityContext (Kerberos)</strong>] (AcceptSecurityContext--Kerberos.MD).<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>La fonction a réussi. Le serveur doit terminer la génération du message à partir du client, puis appeler la fonction [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-CompleteAuthToken).<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>La fonction a réussi. Le serveur doit envoyer le jeton de sortie au client et attendre un jeton retourné. Le jeton retourné doit être passé dans <em>pInput</em> pour un autre appel à [<strong>AcceptSecurityContext (Kerberos)</strong>] (AcceptSecurityContext--Kerberos.MD).<br/></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Code/valeur de retour</th><th>Description</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>Échec de la fonction. La mémoire disponible est insuffisante pour terminer l’action demandée.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>Échec de la fonction. Une erreur qui n’a pas été mappée à un code d’erreur SSPI s’est produite.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>Échec de la fonction. Le handle passé à la fonction n’est pas valide.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>Échec de la fonction. Le jeton passé à la fonction n’est pas valide.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>L’ouverture de session a échoué.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>Échec de la fonction. Aucune autorité n’a pu être contactée pour l’authentification. Cela peut être dû aux conditions suivantes :<br/><ul><li>Le nom de domaine du tiers d’authentification est incorrect.</li><li>Le domaine n’est pas disponible.</li><li>La relation d’approbation a échoué.</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000L</dt> </dl></td><td>La fonction a réussi. Le [*contexte de sécurité*](../secgloss/s-gly.md) reçu du client a été accepté. Si un jeton de sortie a été généré par la fonction, il doit être envoyé au processus client.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_UNSUPPORTED_FUNCTION</strong></dt> <dt>0x80090302L</dt> </dl></td><td>Échec de la fonction. Un indicateur d’attribut de contexte qui n’est pas valide (ASC_REQ_DELEGATE ou ASC_REQ_PROMPT_FOR_CREDS) a été spécifié dans le paramètre <em>fContextReq</em> . Cette valeur peut être retournée lors de l’utilisation du SSP Schannel.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>La fonction a réussi. Le serveur doit appeler [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-CompleteAuthToken) et transmettre le jeton de sortie au client. Le serveur attend ensuite un jeton de retour du client, puis effectue un autre appel à [<strong>AcceptSecurityContext (Kerberos)</strong>] (AcceptSecurityContext--Kerberos.MD).<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>La fonction a réussi. Le serveur doit terminer la génération du message à partir du client, puis appeler la fonction [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-CompleteAuthToken).<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>La fonction a réussi. Le serveur doit envoyer le jeton de sortie au client et attendre un jeton retourné. Le jeton retourné doit être passé dans <em>pInput</em> pour un autre appel à [<strong>AcceptSecurityContext (Kerberos)</strong>] (AcceptSecurityContext--Kerberos.MD).<br/></td></tr></tbody></table>
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcceptSecurityContext (Kerberos)** est l’équivalent serveur de la fonction [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos.md) .
 
@@ -171,8 +171,8 @@ Une fois le [*contexte de sécurité*](../secgloss/s-gly.md) établi, l’applic
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

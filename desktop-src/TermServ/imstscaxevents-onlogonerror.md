@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f45fe23c992f14a421c00a4feefd9c4ed95aff07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29e2b7e13b4471b476ae00ff4cd810a7955c4e3224744435d37f5a962db834cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125099"
 ---
 # <a name="imstscaxeventsonlogonerror-method"></a>IMsTscAxEvents :: OnLogonError, méthode
 
@@ -208,7 +208,7 @@ Le mot de passe a expiré. L’utilisateur doit mettre à jour son mot de passe 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Implémentez cette méthode dans votre récepteur d’événements pour recevoir une notification indiquant qu’une erreur d’ouverture de session s’est produite.
 

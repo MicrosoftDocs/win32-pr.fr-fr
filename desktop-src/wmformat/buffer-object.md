@@ -10,16 +10,16 @@ keywords:
 - objets de mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8a9a3c6acfa0b0780b07f2853f60fdd68d0eaf
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 349fcbf5207d28a693950875b4a9b1da1b3ee4bc3bff40361e57c0a004ce6c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106509641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931569"
 ---
 # <a name="buffer-object"></a>Objet de mémoire tampon
 
-Un objet buffer est utilisé pour contenir des exemples et les fournir entre les objets du kit de développement logiciel (SDK) Windows Media format et votre application. Lorsque vous écrivez un fichier, vous transmettez vos exemples d’entrée au writer à l’aide d’objets de mémoire tampon. Quand vous lisez un fichier, l’objet lecteur ou l’objet lecteur synchrone fournit des exemples à votre application dans les objets buffer.
+un objet buffer est utilisé pour contenir des exemples et les fournir entre les objets du kit de développement logiciel (SDK) du Format multimédia Windows et votre application. Lorsque vous écrivez un fichier, vous transmettez vos exemples d’entrée au writer à l’aide d’objets de mémoire tampon. Quand vous lisez un fichier, l’objet lecteur ou l’objet lecteur synchrone fournit des exemples à votre application dans les objets buffer.
 
 Pour écrire des exemples dans un fichier, vous pouvez créer un objet de mémoire tampon à l’aide de la méthode [**IWMWriter :: AllocateSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample) . Pour la lecture des exemples, l’objet lecteur et l’objet lecteur synchrone créent tous deux des objets de mémoire tampon en interne. Si vous le souhaitez, vous pouvez allouer vos propres objets de mémoire tampon pour la lecture de fichier à l’aide de [**IWMReaderAllocatorEx :: AllocateForOutputEx**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforoutputex) ou [**IWMReaderAllocatorEx :: AllocateForStreamEx**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex).
 
@@ -36,7 +36,7 @@ Les interfaces suivantes sont prises en charge par chaque objet de mémoire tamp
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Les interfaces suivantes sont prises en charge par chaque objet de mémoire tamp
 [**Objets**](objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

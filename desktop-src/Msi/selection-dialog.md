@@ -4,12 +4,12 @@ ms.assetid: 76e0f369-839e-4dc0-bb42-c48dbf1511f3
 title: Boîte de dialogue de sélection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d5a6b8700bbbdefe2bd1b2270797b34b0cebfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5876f6015631d175bd22e342db17788d468038e4a999aa78ae5a3a33fd028c47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040699"
 ---
 # <a name="selection-dialog"></a>Boîte de dialogue de sélection
 

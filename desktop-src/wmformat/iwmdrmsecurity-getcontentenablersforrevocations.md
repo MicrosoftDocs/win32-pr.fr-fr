@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd47ac3b44a1d74cb42113513a44c4b48689a93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60b7e998871dc64e21d0d63535228cc007cc923f6e3cc0f92e691f1f685fbe08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110309"
 ---
 # <a name="iwmdrmsecuritygetcontentenablersforrevocations-method"></a>IWMDRMSecurity :: GetContentEnablersForRevocations, méthode
 
@@ -74,7 +74,7 @@ Tableau contenant les types des certificats dans le tableau *rgpbCerts* . Le nom
 |-------------------------------|----------------------------------------------------------------|
 | \_application REVOCATIONTYPE \_ WMDRM    | Spécifie un certificat d’application.                          |
 | \_appareil REVOCATIONTYPE \_ WMDRM | Spécifie un certificat d’appareil.                                |
-| \_REVOCATIONTYPE WMDRM \_ CARDEA | Spécifie un certificat DRM Windows Media pour les périphériques réseau. |
+| \_REVOCATIONTYPE WMDRM \_ CARDEA | spécifie un certificat DRM Windows pour les périphériques réseau. |
 
 
 
@@ -112,7 +112,7 @@ Nombre d’éléments dans le tableau *prgContentEnablers* . Si *prgContentEnabl
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -124,7 +124,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous utilisez l’interface **IMFContentEnabler** pour renouveler des composants révoqués, vous devez clarifier le processus pour l’utilisateur. Cette clarification doit être apportée car le processus de mise à jour envoie des informations de l’ordinateur client vers un site Web Microsoft.
 

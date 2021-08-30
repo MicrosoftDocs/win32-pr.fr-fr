@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: fa159727c6e13a894148391b9508afad4b8dacfc
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a0becbcef7e71f6859a9e4f09e81f98459911724127ade97e84de09e94a956f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941919"
 ---
 # <a name="imfmediastreamsourcesamplerequest-interface"></a>Interface IMFMediaStreamSourceSampleRequest
 
@@ -44,9 +44,9 @@ L’interface **IMFMediaStreamSourceSampleRequest** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**MFMediaStreamSourceSampleRequest** est implémenté par la classe Runtime [**Windows. Media. Core. MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest?view=winrt-19041) .
+**MFMediaStreamSourceSampleRequest** est implémenté par le [**Windows. Classe Runtime Media. Core. MediaStreamSourceSampleRequest**](/uwp/api/Windows.Media.Core.MediaStreamSourceSampleRequest?view=winrt-19041) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,8 +54,8 @@ L’interface **IMFMediaStreamSourceSampleRequest** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                       |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                       |
 | MIDL<br/>                      | <dl> <dt>Mfidl. idl</dt> </dl> |
 
 

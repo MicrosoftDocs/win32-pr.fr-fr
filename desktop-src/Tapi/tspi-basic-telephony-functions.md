@@ -4,12 +4,12 @@ ms.assetid: 4250f3a0-a66a-4a6e-8566-d71be7463179
 title: Fonctions de téléphonie de base TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5308def0c94df9fa59f2022bf25c4dbb1843e2f8
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 4f5b8b4b61da6462588115463bc56b7a573e6f81215d0f9a1189983762a21062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034129"
 ---
 # <a name="tspi-basic-telephony-functions"></a>Fonctions de téléphonie de base TSPI
 
@@ -23,7 +23,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 -   [Négociation de version de ligne](#line-version-negotiation)
 -   [Appels effectués](#making-calls)
 -   [Ouverture et fermeture des appareils en ligne](#opening-and-closing-line-devices)
--   [Négociation de version de téléphone](#phone-version-negotiation)
+-   [Téléphone Négociation de version](#phone-version-negotiation)
 -   [Initialisation et arrêt du TSP](#tsp-initialization-and-shutdown)
 
 ## <a name="tsp-initialization-and-shutdown"></a>Initialisation et arrêt du TSP
@@ -43,7 +43,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
  
 
-## <a name="phone-version-negotiation"></a>Négociation de version de téléphone
+## <a name="phone-version-negotiation"></a>Téléphone Négociation de version
 
 
 

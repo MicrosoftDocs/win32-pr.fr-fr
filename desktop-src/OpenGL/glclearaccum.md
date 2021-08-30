@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3098e87a47509b8c05035171a8f31e57d8618424
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e4e5b02b52ac72e5694b1c5f912dd8dd98fb8dda5b623b28addd20fccbb7dd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082069"
 ---
 # <a name="glclearaccum-function"></a>glClearAccum fonction)
 
@@ -81,13 +81,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glClearAccum** spécifie les valeurs rouge, vert, bleu et alpha utilisées par [**glClear**](glclear.md) pour effacer la mémoire tampon d’accumulation.
 

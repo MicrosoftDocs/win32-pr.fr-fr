@@ -13,12 +13,12 @@ keywords:
 - VFW (vidéo pour Windows), interfaces du gestionnaire de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9d75c0142d77c3c13a6d6563a22fc241e06a22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df0547f260fdf6b3d6b0b308cf5af6fef2b4dae17a1d4e8a1699385f1be2e9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785469"
 ---
 # <a name="custom-file-and-stream-handler-interfaces"></a>Interfaces personnalisées de gestionnaire de fichiers et de flux
 
@@ -30,9 +30,9 @@ Les interfaces suivantes sont utilisées avec les gestionnaires de fichiers et d
 -   [**IAVIStreaming**](/windows/desktop/api/Vfw/nn-vfw-iavistreaming)
 -   [**IGetFrame**](/windows/desktop/api/Vfw/nn-vfw-igetframe)
 
- 
+ 
 
- 
+ 
 
 
 

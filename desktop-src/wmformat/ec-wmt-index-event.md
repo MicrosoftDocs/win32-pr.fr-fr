@@ -1,25 +1,25 @@
 ---
-title: EC_WMT_INDEX_EVENT (kit de développement logiciel (SDK) Windows Media format 11)
+title: EC_WMT_INDEX_EVENT (kit de développement logiciel (SDK) Windows Media Format 11)
 description: événement d’index de l’WMT de la EC \_ \_ \_
 ms.assetid: 46e6a011-7f25-470b-9e10-fa59f0ddbf22
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, EC_WMT_INDEX_EVENT
+- Windows Media Format SDK, EC_WMT_INDEX_EVENT
 - DirectShow, EC_WMT_INDEX_EVENT
 - EC_WMT_INDEX_EVENT
 - ASF (Advanced Systems Format), EC_WMT_INDEX_EVENT
 - ASF (format avancé des systèmes), EC_WMT_INDEX_EVENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f34bca14ed02ac78fcfc77d1b9b716f75115a24f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: fd6efe81f6ea924b234dced2d38a11eda240b5de1b9edbe1e4f66c541e7a1b65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110476"
 ---
-# <a name="ec_wmt_index_event-windows-media-format-11-sdk"></a>EC_WMT_INDEX_EVENT (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="ec_wmt_index_event-windows-media-format-11-sdk"></a>EC_WMT_INDEX_EVENT (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Envoyé par le kit de développement logiciel (SDK) de format Windows Media lorsqu’une application utilise le writer ASF pour indexer les fichiers Windows Media Video.
+envoyé par le kit de développement logiciel (SDK) de Format multimédia Windows lorsqu’une application utilise le Writer ASF pour indexer des fichiers Windows Media Video.
 
 Paramètres
 
@@ -47,7 +47,7 @@ Si *lParam1* a été \_ fermé par WMT ou si WMT \_ a démarré, *lParam2* est �
 
 <dl> <dt>
 
-[**Informations de référence sur DirectShow QASF**](directshow-qasf-reference.md)
+[**DirectShow Référence QASF**](directshow-qasf-reference.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: ef828da8-61cd-43d9-a5fe-e09a1f8af5c7
 title: Vue d’ensemble de MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42e4e92c9103b27b35be427a74174c644a285266
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 6893c6483fff33e251718b243a8a7b02148f1f6d65845eea831930184cfee381
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122625775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040756"
 ---
 # <a name="overview-of-mui"></a>Vue d’ensemble de MUI
 
@@ -78,13 +78,13 @@ le tableau suivant fournit une présentation détaillée de la prise en charge d
 
 <table>
 <colgroup>
-<col  />
-<col  />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Category</th>
-<th>Support</th>
+<th>Assistance</th>
 </tr>
 </thead>
 <tbody>

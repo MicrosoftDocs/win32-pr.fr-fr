@@ -4,12 +4,12 @@ description: Cet article fournit des cas de test pour les jeux pour Windows.
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aeda677a32d73ccb305eb350b9c4c1231bb0bf4
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 104bf659e439108bc18cf30dd1bef40a63197e7c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886429"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625107"
 ---
 # <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>jeux pour Windows cas de Test : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
@@ -302,7 +302,7 @@ Cette exigence a été supprimée.
 <li>Définissez le système sur PPP 150% : <br/> Windows Vista : panneau de configuration : personnalisation, ajuster la taille de police (DPI), résolution personnalisée. Définissez sur 150%.<br/> Windows 7 : panneau de configuration : affichage, défini sur plus de 150%.<br/></li>
 <li>Exécutez le processus et le jeu d’installation pour vérifier qu’il n’y a aucun problème avec les écrans détourés ou les boîtes de dialogue.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Vérifiez que &lt; l’élément dpiAware &gt; true </dpiAware> est contenu dans le manifeste incorporé.<br/> Utiliser l’outil : Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Vérifiez que l’élément <dpiAware>true</dpiAware> est contenu dans le manifeste incorporé.<br/> Utiliser l’outil : Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -1122,7 +1122,7 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
     3.  Dans la fenêtre de recherche, tapez \*.dll
     4.  Pour chaque fichier : cliquez avec le bouton droit sur le fichier, puis cliquez sur Propriétés.
 
-        -   dans Windows XP : cliquez sur l’onglet Version. Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis. \[4.3\]
+        -   dans Windows XP : cliquez sur l’onglet Version. Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis. \[4,3\]
         -   dans Windows Vista et Windows 7 : cliquez sur l’onglet détails. Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. le nom de la société n’est pas visible dans la page de propriétés Windows Vista ou Windows 7 \[ 4,3\]
 
     5.  Répétez cette vérification pour les fichiers .exe
@@ -1188,7 +1188,7 @@ Voici quelques remarques pour chacun des outils de test répertoriés dans les s
 
 Cet outil est exécuté à partir d’une invite de commandes à l’emplacement où se trouve MT.exe.
 
-Exemple :
+Exemple :
 
 ``` syntax
 mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
@@ -1223,7 +1223,7 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
 
 Cet outil est exécuté à partir d’une invite de commandes à l’emplacement où se trouve threadhijacker.exe.
 
-Exemple :
+Exemple :
 
 ``` syntax
 threadhijacker.exe /process:str

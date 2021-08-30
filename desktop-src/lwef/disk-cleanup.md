@@ -9,12 +9,12 @@ keywords:
 - inscription, gestionnaires de nettoyage de disque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61ce7fc96e16cb27168e00196b65d48d378758a47594122cca978dc1a1f4de94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 217366c4e7da2d4fc3b53b7cf32ef418916247d3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118479891"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622275"
 ---
 # <a name="creating-a-disk-cleanup-handler"></a>Création d’un gestionnaire de nettoyage de disque
 
@@ -223,9 +223,9 @@ En général, le nom de la clé contenant les informations d’un gestionnaire e
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -236,7 +236,7 @@ En général, le nom de la clé contenant les informations d’un gestionnaire e
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Valeur par défaut</td>
 <td>REG_SZ</td>
 <td>CLSID du gestionnaire enregistré sous <strong>HKEY_CLASSES_ROOT</strong> \ <strong>CLSID</strong>.</td>
 </tr>
@@ -309,7 +309,7 @@ le résultat de ce scénario est que le gestionnaire de nettoyage de disque rech
 <td>Nombre de jours qui doivent s’écouler depuis le dernier accès à un fichier ou lors de la création d’un répertoire pour ce fichier ou ce répertoire en vue du nettoyage.</td>
 </tr>
 <tr class="even">
-<td>Priorité</td>
+<td>Priority</td>
 <td>REG_DWORD ou REG_BINARY</td>
 <td>Détermine l’ordre d’exécution du gestionnaire par rapport à d’autres gestionnaires. Plus le nombre est élevé, plus il est haut dans le processus exécuté par le gestionnaire. Il n’existe aucune plage définie. aucun nombre n’est acceptable.</td>
 </tr>

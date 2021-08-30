@@ -4,12 +4,12 @@ ms.assetid: 008e0cc4-bc12-47e8-a8b7-d4fa9395fceb
 title: Obtention d’informations sur le volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fc5323c3f82db1115a81902f156e9366abad31e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5fb7f30cac87e43ba5fb1675251fd18fe2ed042bd7950d192ab750c38eaf3f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130719"
 ---
 # <a name="obtaining-volume-information"></a>Obtention d’informations sur le volume
 
@@ -17,7 +17,7 @@ La fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-g
 
 En général, vous devez éviter d’utiliser des mémoires tampons statiques pour les noms de fichiers et les chemins d’accès. Utilisez plutôt les valeurs retournées par [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) pour allouer les tampons selon vos besoins. Si vous devez utiliser des mémoires tampons statiques, réservez 256 caractères pour les noms de fichiers et 260 caractères pour les chemins d’accès.
 
-Les fonctions [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) et [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) récupèrent les chemins d’accès au répertoire système et au répertoire Windows, respectivement.
+les fonctions [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) et [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) récupèrent les chemins d’accès au répertoire système et au répertoire Windows, respectivement.
 
 La fonction [**GetDiskFreeSpace**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea) récupère des informations organisationnelles sur un volume, y compris le nombre d’octets par secteur, le nombre de secteurs par cluster, le nombre de clusters libres et le nombre total de clusters. Toutefois, **GetDiskFreeSpace** ne peut pas signaler des tailles de volume supérieures à 2 Go. Pour vous assurer que votre application fonctionne avec des disques durs de grande capacité, utilisez la fonction [**GetDiskFreeSpaceEx**](/windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa) .
 

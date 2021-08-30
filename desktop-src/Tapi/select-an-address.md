@@ -5,12 +5,12 @@ title: Sélectionner une adresse
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: da41059c38328ff00271e4fa561561eecf83e1cb
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 1da79ffa0f2bd3264bb97e0c78eebe7b06045c63ec927d709fffef2786e2870c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106537300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072839"
 ---
 # <a name="select-an-address"></a>Sélectionner une adresse
 

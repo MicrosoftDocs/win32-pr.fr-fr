@@ -3,7 +3,7 @@ title: Commande MCI_WHERE (mmsystem. h)
 description: La \_ commande MCI qui obtient le rectangle de découpage du périphérique vidéo.
 ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
 keywords:
-- Commande MCI_WHERE Windows multimédia
+- commande MCI_WHERE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6619131319863d1159a3bdb8bb85d366243544a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 922c68340cd776c8c23c0c1b60c3aa4de67e4e713d27e54510d2bf0f6978f442
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783739"
 ---
 # <a name="mci_where-command"></a>\_Commande MCI Where
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants sont utilisés avec le type d’appareil **Digitalvideo** :
 
@@ -163,7 +163,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpQuery* pointe
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

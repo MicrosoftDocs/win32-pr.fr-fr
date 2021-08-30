@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a111d1e617745de1109f8359da158e642e93d17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79adffc396a581daee16218fc5d39a6480805f0f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033075"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481855"
 ---
 # <a name="systemmonitordatasourcetype-property"></a>SystemMonitor ::D propriété ataSourceType
 
 Récupère ou définit la source des données du compteur de performance.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```VB
@@ -44,36 +44,19 @@ Source des données du compteur de performance. Pour connaître les valeurs poss
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type d'exception</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>System.ArgumentException</strong></td>
-<td>Vous pouvez recevoir cette exception pour l’une des raisons suivantes :
-<ul>
-<li>La valeur de la source de données spécifiée n’est pas valide.</li>
-<li>Si la source de données est un fichier journal, SYSMON ne peut pas trouver l’un des fichiers spécifiés. La valeur de Err. Number est 0xC0000BD1.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Type d'exception | Condition | 
+|----------------|-----------|
+| <strong>System.ArgumentException</strong> | Vous pouvez recevoir cette exception pour l’une des raisons suivantes :<ul><li>La valeur de la source de données spécifiée n’est pas valide.</li><li>Si la source de données est un fichier journal, SYSMON ne peut pas trouver l’un des fichiers spécifiés. La valeur de Err. Number est 0xC0000BD1.</li></ul> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Avant Windows Vista :** Vous ne pouvez pas ajouter ou supprimer des fichiers journaux de la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de cette propriété est définie sur sysmonLogFiles. Définissez uniquement la valeur de cette propriété sur sysmonLogFiles après avoir créé ou modifié la collection de fichiers journaux.
+**avant Windows Vista :** Vous ne pouvez pas ajouter ou supprimer des fichiers journaux de la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de cette propriété est définie sur sysmonLogFiles. Définissez uniquement la valeur de cette propriété sur sysmonLogFiles après avoir créé ou modifié la collection de fichiers journaux.
 
 En outre, vous ne pouvez pas modifier les propriétés [**SqlDsnName**](systemmonitor-sqldsnname.md) et [**SqlLogSetName**](systemmonitor-sqllogsetname.md) si la valeur de cette propriété ne doit pas être définie sur sysmonSqlLog. Définissez uniquement la valeur de cette propriété sur sysmonSqlLog après avoir modifié les noms du serveur et de la base de données.
 

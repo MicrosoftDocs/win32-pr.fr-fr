@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxgi1_3.h
-ms.openlocfilehash: 56d1f35ea5a4ce26a0d9ccb5ee0d79035f74a0ad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eaa668235ca5893e74b3019d02f2cc8cd899e8661669252e14c458aababfda82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984089"
 ---
 # <a name="idxgifactory3getcreationflags-method"></a>IDXGIFactory3 :: GetCreationFlags, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Indicateurs de création.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **GetCreationFlags** retourne les indicateurs passés à la fonction [**CreateDXGIFactory2**](/windows/desktop/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2) ou construits implicitement par [**CreateDXGIFactory**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory), [**CreateDXGIFactory1**](/windows/desktop/api/DXGI/nf-dxgi-createdxgifactory1), [**D3D11CreateDevice**](/windows/win32/api/d3d11/nf-d3d11-d3d11createdevice)ou [**D3D11CreateDeviceAndSwapChain**](/windows/win32/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain).
 

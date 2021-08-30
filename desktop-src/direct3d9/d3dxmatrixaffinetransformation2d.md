@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a6edd0658eb80ec53d19b6c136a672cb78a2087b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5f891a4e6e745fe2a6e215f3dd126c5b0faa11ba39b49ff2404c79c0cc12528
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119159"
 ---
 # <a name="d3dxmatrixaffinetransformation2d-function-d3dx9mathh"></a>D3DXMatrixAffineTransformation2D, fonction (D3dx9math. h)
 
@@ -95,7 +95,7 @@ Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de transformation affine.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction calcule la matrice de transformation affine avec la formule suivante, avec la concaténation de matrice évaluée dans l’ordre de gauche à droite :
 

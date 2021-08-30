@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a437c30e6ddb0e551498480f7589791bce59feaf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 11f501cc22412ede77c01a7bdb11e6a6fb1a6a312838424d0dab56d3e165bb14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804239"
 ---
 # <a name="ms-ds-additional-sam-account-name-attribute"></a>ms-DS-supplémentaire-Sam-Account-Name (attribut)
 
@@ -44,7 +44,7 @@ Cet attribut est utilisé pour stocker les noms de compte SAM qui correspondent 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: 897e8a13-d9c5-4f98-8785-c0f053a11f3d
 title: Action RemoveShortcuts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 151f5fac6733e61b7ba27320a5e79c522abcc3e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f01c16845b260502ecd286649c2bf246e86d7247c40f14d840e29f9676004c48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128959"
 ---
 # <a name="removeshortcuts-action"></a>Action RemoveShortcuts
 

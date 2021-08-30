@@ -3,7 +3,7 @@ title: AFFICHER. agrandir
 description: La méthode Maximize agrandit la vue.
 ms.assetid: c419f7a8-e340-4b67-a5f0-967ed6794aa6
 keywords:
-- AFFICHER. maximiser le lecteur Windows Media
+- afficher. maximiser le Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a65c3c600f95c76253bbba1a5ac40e94909518da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d057890f0a63925c11ee92dcadc514a9446aed1fb61175f5b49ee261944852ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122699"
 ---
 # <a name="viewmaximize"></a>AFFICHER. agrandir
 

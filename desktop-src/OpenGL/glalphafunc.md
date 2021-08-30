@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cf96cfe2be0224c9c2e2409fc68805b530ae1f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a0bdc04f899b9002c72eda0d4e64bf6f3bad64f8e77c5fd5daff9324fda744f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082249"
 ---
 # <a name="glalphafunc-function"></a>glAlphaFunc fonction)
 
@@ -82,14 +82,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *Func* n’est pas une valeur acceptée.<br/>                                                                                          |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le test alpha ignore les fragments en fonction du résultat d’une comparaison entre les valeurs alpha des fragments entrants et une valeur de référence constante. La fonction **glAlphaFunc** spécifie la référence et la fonction de comparaison. La comparaison est effectuée uniquement si le test alpha est activé. (Pour plus d’informations sur GL \_ \_Test alpha, consultez [**glEnable**](glenable.md).)
 

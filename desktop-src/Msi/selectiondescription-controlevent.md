@@ -4,12 +4,12 @@ ms.assetid: 29ae9aec-764f-4ff2-9c08-805538130cb1
 title: SelectionDescription ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 901db4efbed03341243d1b978dab0b8759fbc02c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ac1d7a6fdfa4e215e0f659b5f3341404e2376f5e82f3c1d019a35e833995e9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040579"
 ---
 # <a name="selectiondescription-controlevent"></a>SelectionDescription ControlEvent,
 
@@ -25,11 +25,11 @@ Ce ControlEvent, nécessite que l’interface utilisateur soit exécutée au niv
 
 ## <a name="argument"></a>Argument
 
-Aucun
+Aucun.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucun
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

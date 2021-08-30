@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0af264b66838e7c039ef3f99a4f365ebab55c293
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254b2325873c2037b50f6cc0b013865589c23e2197ca113dbcc41bae6dd8a352
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041699"
 ---
 # <a name="cim_aggregationmetricvalue-class"></a>\_Classe CIM AggregationMetricValue
 

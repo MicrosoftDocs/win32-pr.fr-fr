@@ -3,9 +3,9 @@ title: IWMPNetwork propriété receivedPackets
 description: La propriété receivedPackets obtient le nombre de paquets reçus.
 ms.assetid: 2a79dc81-4c7a-45d6-bc2b-b19ff5704c3b
 keywords:
-- propriété receivedPackets lecteur Windows Media
-- propriété receivedPackets lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété receivedPackets
+- Lecteur Windows Media de la propriété receivedPackets
+- Lecteur Windows Media de la propriété receivedPackets, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété receivedPackets
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90c62b4d90039f07177e8fcdc971cb66e0044aee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 405018dbd4f597f4affb7e3b2af826379054a8e66b48dd112a6bbe9f18273fb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956089"
 ---
 # <a name="iwmpnetworkreceivedpackets-property"></a>IWMPNetwork :: receivedPackets, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property receivedPackets As System.Int32
 
 **System. Int32** qui correspond au nombre de paquets reçus.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. La valeur n’est pas réinitialisée si la lecture est suspendue.
 

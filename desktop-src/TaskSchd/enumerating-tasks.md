@@ -7,21 +7,21 @@ keywords:
 - énumération des tâches Planificateur de tâches, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dda98cf40bc1ea360d20bcf13084faa692aa22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2340dee7b90d9e6e24bf2c7aefcd081295f708d662023109720ede8a26264f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959629"
 ---
 # <a name="enumerating-tasks"></a>Énumération des tâches
 
 Planificateur de tâches 1,0 fournit un objet d’énumération pour l’énumération des tâches dans le [*dossier tâches planifiées*](s.md).
 
 > [!Note]  
-> Pour qu’un ordinateur Windows Server 2003, Windows XP ou Windows 2000 crée, surveille ou contrôle des tâches sur un ordinateur Windows Vista, certaines opérations doivent être effectuées sur l’ordinateur Windows Vista. Pour plus d’informations, consultez l’article [Tâches MSBuild](tasks.md).
+> pour un ordinateur Windows Server 2003, Windows XP ou Windows 2000 pour créer, surveiller ou contrôler des tâches sur un ordinateur Windows vista, certaines opérations doivent être effectuées sur l’ordinateur Windows vista. Pour plus d’informations, consultez l’article [Tâches MSBuild](tasks.md).
 
- 
+ 
 
 ## <a name="using-the-enumeration-object"></a>Utilisation de l’objet d’énumération
 
@@ -47,9 +47,9 @@ Pour obtenir un exemple d’énumération des tâches dans le dossier tâches pl
 [Informations sur la tâche Planificateur de tâches 1,0](task-scheduler-1-0-task-informatation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

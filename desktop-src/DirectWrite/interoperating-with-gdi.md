@@ -10,12 +10,12 @@ keywords:
 - GDI (Graphics Device Interface)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41c7c99e6bfac0aabddd4a1568b64cd425ccb25b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4bd7fca876f560b9f791f80e3e97ccd57d232aa6f038cea5189c36b10c787a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902659"
 ---
 # <a name="interoperating-with-gdi"></a>Interopérabilité avec GDI
 
@@ -30,11 +30,11 @@ Cette vue d’ensemble contient les éléments suivants :
 
 ## <a name="introduction"></a>Introduction
 
-[DirectWrite](direct-write-portal.md) fournit des méthodes pour la conversion entre la structure LogFont de GDI et les interfaces de police DirectWrite. Cela vous permet d’utiliser GDI pour une partie ou la totalité de l’énumération et de la sélection des polices, tout en tirant parti des fonctionnalités et des performances améliorées de DirectWrite. DirectWrite possède également des interfaces pour le rendu sur une image bitmap si vous souhaitez afficher du texte sur une surface GDI.
+[DirectWrite](direct-write-portal.md) fournit des méthodes pour la conversion entre la structure LOGFONT de GDI et DirectWrite interfaces de police. Cela vous permet d’utiliser GDI pour une partie ou la totalité de l’énumération et de la sélection des polices, tout en tirant parti des fonctionnalités améliorées et des performances de DirectWrite. DirectWrite possède également des interfaces pour le rendu sur une image bitmap si vous souhaitez afficher du texte sur une surface GDI.
 
 ## <a name="part-1-idwritegdiinterop"></a>Partie 1 : IDWriteGdiInterop
 
-L’interface [**IDWriteGdiInterop**](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) est utilisée pour effectuer une conversion entre les structures de police GDI et les interfaces de police [DirectWrite](direct-write-portal.md) , ainsi que pour créer un objet [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) . Récupérez un objet **IDWriteGdiInterop** à l’aide de la méthode [**IDWriteFactory :: GetGdiInterop**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop) , comme indiqué dans le code suivant.
+l’interface [**IDWriteGdiInterop**](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) est utilisée pour effectuer des conversions entre les structures de police GDI et les interfaces de police [DirectWrite](direct-write-portal.md) , ainsi que pour créer un objet [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) . Récupérez un objet **IDWriteGdiInterop** à l’aide de la méthode [**IDWriteFactory :: GetGdiInterop**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getgdiinterop) , comme indiqué dans le code suivant.
 
 
 ```C++
@@ -62,14 +62,14 @@ if (SUCCEEDED(hr))
 
 
 
-Toutefois, [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) n’encapsule pas toutes les mêmes informations qu’un LogFont. Une structure LOGFONT contient la taille de la police, le poids, le style, le soulignement, le barré, le nom du type de police et d’autres informations. Les objets **IDWriteFont** contiennent des informations sur une police, son poids et son style, mais pas la taille de police, le soulignement, etc. Avec [DirectWrite](direct-write-portal.md), les éléments de mise en forme tels que ceux-ci sont encapsulés par un objet [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) ou, pour des plages de texte spécifiques, un objet [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
+Toutefois, [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) n’encapsule pas toutes les mêmes informations qu’un LogFont. Une structure LOGFONT contient la taille de la police, le poids, le style, le soulignement, le barré, le nom du type de police et d’autres informations. Les objets **IDWriteFont** contiennent des informations sur une police, son poids et son style, mais pas la taille de police, le soulignement, etc. avec [DirectWrite](direct-write-portal.md), les éléments d’informations de mise en forme tels que ceux-ci sont encapsulés par un objet [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) ou, pour des plages de texte spécifiques, un objet [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
 Vous avez la possibilité de convertir un [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) en LogFont à l’aide de [**IDWriteGdiInterop :: ConvertFontToLOGFONT**](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-convertfonttologfont).
 
 ## <a name="part-3-rendering"></a>Partie 3 : rendu
 
-Pour afficher du texte DirectWrite sur une surface GDI, vous utilisez un convertisseur de texte personnalisé. Consultez la rubrique [rendu dans une surface GDI](render-to-a-gdi-surface.md) .
+pour afficher DirectWrite texte dans une surface GDI, vous utilisez un convertisseur de texte personnalisé. Consultez la rubrique [rendu dans une surface GDI](render-to-a-gdi-surface.md) .
 
- 
+ 
 
- 
+ 

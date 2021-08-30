@@ -3,7 +3,7 @@ title: Command. Comment, propriété
 description: Représente un commentaire, ou annotation, pour une commande.
 ms.assetid: 4ac5c7d4-9627-4703-bd3c-594d9497ba24
 keywords:
-- Commande. Comment, propriété du ruban Windows
+- propriété Command. Comment Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f7df2131234623dd30fc90339634a932eca5bd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4eef6b5366f61f15fda808ca60264de5d28322b8b41a2d6e986e36282a95fbd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931639"
 ---
 # <a name="commandcomment-property"></a>Command. Comment, propriété
 
 Représente un commentaire, ou annotation, pour une commande.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.Comment/>
@@ -47,9 +47,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -91,8 +91,8 @@ L’exemple suivant illustre le balisage pour un élément [**Command**](windows
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: db3daffd23a566a55e47e5a65aca16e1e8582355
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 79282091b1cb940db9438e0f024849f236e503db394d61f3ebb9e028bf916a91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067259"
 ---
 # <a name="eaptlsconnectionpropertiesv1-schema-elements"></a>Éléments de schéma eaptlsconnectionpropertiesv1
 
@@ -47,9 +47,9 @@ Le schéma [eaptlsconnectionpropertiesv1](eaptlsconnectionpropertiesv1schema-sch
 [Schéma eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

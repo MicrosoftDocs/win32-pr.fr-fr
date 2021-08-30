@@ -4,12 +4,12 @@ description: Cette rubrique fournit des conseils sur la prise en main de la prog
 ms.assetid: 661f13a6-c73d-8513-2bad-0ef9d1a361a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75899dacdfba829fc1a83e9393e6aa58574c9f30
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 7657a5177527f1c13bfb1f0fdd643963a4f670d72b774e4142413231e7e3c58b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102365"
 ---
 # <a name="coding-for-multicore-on-xbox-360-and-windows"></a>Programmation pour le multicœur sur Xbox 360 et Windows
 
@@ -39,7 +39,7 @@ Le thread de mise à jour de jeu est toujours une image à l’avance du thread 
 
 Dans la plupart des cas, tout le rendu est toujours effectué sur un thread unique, mais il s’agit d’un thread différent de la mise à jour du jeu.
 
-L' \_ indicateur MULTITHREAD D3DCREATE est parfois utilisé pour autoriser le rendu sur un thread et la création de ressources sur d’autres threads. cet indicateur est ignoré sur la Xbox 360 et vous devez éviter de l’utiliser sur Windows. Sur Windows, la spécification de cet indicateur Force D3D à consacrer beaucoup de temps à la synchronisation, ce qui ralentit le thread de rendu.
+L' \_ indicateur MULTITHREAD D3DCREATE est parfois utilisé pour autoriser le rendu sur un thread et la création de ressources sur d’autres threads. cet indicateur est ignoré sur la Xbox 360 et vous devez éviter de l’utiliser sur Windows. sur Windows, la spécification de cet indicateur force D3D à consacrer beaucoup de temps à la synchronisation, ce qui ralentit le thread de rendu.
 
 ### <a name="file-decompression"></a>Décompression de fichiers
 
@@ -53,7 +53,7 @@ Quand vous utilisez un thread de décompression de fichiers, vous devez toujours
 
 Il existe de nombreux niceties graphiques qui améliorent l’apparence du jeu, mais ne sont pas strictement nécessaires. Il s’agit notamment d’animations Cloud, de simulations de cheveux, d’ondes procédurales, de végétation procédurales, de particules supplémentaires ou d’une physique sans jeu de mesures.
 
-Étant donné que ces effets n’affectent pas le jeu de résultats, ils ne provoquent pas de problèmes de synchronisation difficiles : ils peuvent se synchroniser avec les autres threads une fois par image ou moins souvent. En outre, sur les jeux pour Windows, ces effets peuvent ajouter de la valeur pour les joueurs avec des processeurs multicœurs, tout en étant omis en mode silencieux sur les ordinateurs à cœur unique, offrant ainsi un moyen facile de mettre à l’échelle sur un large éventail de fonctionnalités.
+Étant donné que ces effets n’affectent pas le jeu de résultats, ils ne provoquent pas de problèmes de synchronisation difficiles : ils peuvent se synchroniser avec les autres threads une fois par image ou moins souvent. en outre, sur les jeux pour Windows ces effets peuvent ajouter de la valeur pour les joueurs avec des processeurs multicœurs, tout en étant omis en mode silencieux sur les ordinateurs à cœur unique, donnant ainsi un moyen simple de mettre à l’échelle sur un large éventail de fonctionnalités.
 
 ### <a name="physics"></a>Physique
 
@@ -63,7 +63,7 @@ Les bibliothèques qui prennent en charge l’exécution physique sur plusieurs 
 
 ## <a name="example-multithreaded-designs"></a>Exemples de conceptions multithread
 
-Les jeux pour Windows doivent s’exécuter sur des ordinateurs avec différents nombres de cœurs de processeur. La plupart des ordinateurs de jeu n’ont toujours qu’un seul cœur, bien que le nombre de machines à deux cœurs augmente rapidement. Un jeu typique pour Windows peut fractionner sa charge de travail en un thread pour la mise à jour et le rendu, avec des threads de travail facultatifs pour l’ajout de fonctionnalités supplémentaires. En outre, certains threads d’arrière-plan pour les e/s de fichier et la mise en réseau seraient probablement utilisés. La figure 1 illustre les threads, ainsi que les principaux points de transfert de données.
+les jeux pour Windows doivent s’exécuter sur des ordinateurs avec différents nombres de cœurs de processeur. La plupart des ordinateurs de jeu n’ont toujours qu’un seul cœur, bien que le nombre de machines à deux cœurs augmente rapidement. un jeu typique pour Windows peut endommager sa charge de travail en un seul thread pour la mise à jour et le rendu, avec des threads de travail facultatifs pour l’ajout de fonctionnalités supplémentaires. En outre, certains threads d’arrière-plan pour les e/s de fichier et la mise en réseau seraient probablement utilisés. La figure 1 illustre les threads, ainsi que les principaux points de transfert de données.
 
 **Figure 1. Conception de threads dans un jeu pour Windows**
 
@@ -115,7 +115,7 @@ Les threads de technologie SMT ou HT partagent les ressources du cœur de l’UC
 
 Les threads de technologie SMT ou HT partagent plus de manière significative les caches d’instructions et de données L1. Si leurs modèles d’accès à la mémoire sont incompatibles, ils peuvent mettre un terme à la lutte contre le cache et provoquer de nombreux échecs dans le cache. Dans le pire des cas, les performances totales du noyau de l’UC peuvent réellement diminuer lorsqu’un deuxième thread est exécuté. Sur Xbox 360, il s’agit d’un problème relativement simple. La configuration de la Xbox 360 est connue (trois cœurs d’UC chacun avec deux threads matériels) et les développeurs attribuent leurs threads logiciels à des threads d’UC spécifiques et peuvent mesurer pour déterminer si leur conception de threads leur donne des performances supplémentaires.
 
-Sur Windows, la situation est plus compliquée. Le nombre de threads et leur configuration varient d’un ordinateur à l’ordinateur, et la détermination de la configuration est compliquée. La fonction [**GetLogicalProcessorInformation**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) fournit des informations sur la relation entre les différents threads matériels, et cette fonction est disponible sur Windows Vista, Windows 7 et Windows XP SP3. Par conséquent, pour l’instant, vous devez utiliser l’instruction CPUID et les algorithmes fournis par Intel et AMD pour décider du nombre de threads « réels » dont vous disposez. Pour plus d’informations, consultez les références.
+sur Windows, la situation est plus compliquée. Le nombre de threads et leur configuration varient d’un ordinateur à l’ordinateur, et la détermination de la configuration est compliquée. la fonction [**GetLogicalProcessorInformation**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) fournit des informations sur la relation entre les différents threads matériels, et cette fonction est disponible sur Windows Vista, Windows 7 et Windows XP SP3. Par conséquent, pour l’instant, vous devez utiliser l’instruction CPUID et les algorithmes fournis par Intel et AMD pour décider du nombre de threads « réels » dont vous disposez. Pour plus d’informations, consultez les références.
 
 L’exemple CoreDetection dans le kit de développement logiciel (SDK) DirectX contient un exemple de code qui utilise la fonction [**GetLogicalProcessorInformation**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) ou l’instruction CPUID pour retourner la topologie de base de l’UC. L’instruction CPUID est utilisée si **GetLogicalProcessorInformation** n’est pas pris en charge sur la plateforme actuelle. CoreDetection se trouve aux emplacements suivants :
 
@@ -175,7 +175,7 @@ La valeur de retour de [**CreateThread**](/windows/win32/api/processthreadsapi/n
 
 Les ressources du thread ne seront pas libérées tant que le thread n’est pas terminé et que le handle de thread n’a pas été fermé. Par conséquent, il est important de fermer le handle de thread avec [**CloseHandle**](/windows/win32/api/handleapi/nf-handleapi-closehandle) lorsque vous en avez terminé avec ce dernier. Si vous devez attendre que le thread se termine par [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject), veillez à ne pas fermer le descripteur tant que l’attente n’est pas terminée.
 
-Sur Xbox 360, vous devez assigner explicitement des threads logiciels à un thread matériel particulier à l’aide de **XSetThreadProcessor**. Dans le cas contraire, tous les threads enfants resteront sur le même thread matériel que le parent. Sur Windows, vous pouvez utiliser [**SetThreadAffinityMask**](/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask) pour suggérer fortement au système d’exploitation les threads matériels sur lesquels votre thread doit s’exécuter. Cette technique doit généralement être évitée sur Windows, car vous ne savez pas quels autres processus sont en cours d’exécution sur le système. Il est généralement préférable de laisser le planificateur Windows attribuer vos threads aux threads de matériel inactifs.
+Sur Xbox 360, vous devez assigner explicitement des threads logiciels à un thread matériel particulier à l’aide de **XSetThreadProcessor**. Dans le cas contraire, tous les threads enfants resteront sur le même thread matériel que le parent. sur Windows, vous pouvez utiliser [**SetThreadAffinityMask**](/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask) pour suggérer fortement au système d’exploitation les threads matériels sur lesquels votre thread doit s’exécuter. cette technique doit généralement être évitée sur Windows, car vous ne savez pas quels autres processus sont en cours d’exécution sur le système. il est généralement préférable de laisser le planificateur de Windows affecter vos threads à des threads matériels inactifs.
 
 La création de threads est une opération coûteuse. Les threads doivent être créés et détruits rarement. Si vous souhaitez créer et détruire des threads fréquemment, utilisez un pool de threads qui attendent un travail à la place.
 
@@ -254,7 +254,7 @@ Certaines méthodes de synchronisation sont plus rapides que d’autres. Toutefo
 
 Certaines opérations, telles que l’allocation de mémoire, peuvent être amenées à utiliser des primitives de synchronisation pour fonctionner correctement. Par conséquent, les allocations fréquentes à partir du segment de mémoire partagé par défaut entraînent une synchronisation fréquente, ce qui entraîne une perte de performances. Éviter des allocations fréquentes ou utiliser des segments de mémoire par thread (à l’aide du segment de mémoire \_ sans \_ sérialisation si vous utilisez HeapCreate) peut éviter cette synchronisation masquée.
 
-Une autre cause de la synchronisation masquée est D3DCREATE \_ multithread, ce qui entraîne l’utilisation par D3D sur Windows de la synchronisation sur de nombreuses opérations. (L’indicateur est ignoré sur la Xbox 360.)
+une autre cause de la synchronisation masquée est D3DCREATE \_ multithread, ce qui amène D3D sur Windows à utiliser la synchronisation sur de nombreuses opérations. (L’indicateur est ignoré sur la Xbox 360.)
 
 Les données par thread, également appelées « stockage local des threads », peuvent être un moyen important d’éviter la synchronisation. Visual C++ vous permet de déclarer des variables globales comme étant par thread à l’aide de la syntaxe **\_ \_ declspec (thread)** .
 
@@ -287,7 +287,7 @@ L’instruction RDTSC est un moyen d’accéder à des informations de temporisa
 
 ## <a name="debugging"></a>Débogage
 
-Visual Studio prend entièrement en charge le débogage multithread pour Windows et Xbox 360. La fenêtre threads Visual Studio vous permet de basculer entre les threads afin de voir les différentes piles d’appels et variables locales. La fenêtre threads vous permet également de figer et de libérer des threads particuliers.
+Visual Studio prend entièrement en charge le débogage multithread pour Windows et Xbox 360. la fenêtre Visual Studio threads vous permet de basculer entre les threads afin de voir les différentes piles d’appels et variables locales. La fenêtre threads vous permet également de figer et de libérer des threads particuliers.
 
 Sur Xbox 360, vous pouvez utiliser la variable méta **\@ hwthread** dans la fenêtre Espion pour afficher le thread matériel sur lequel le thread logiciel actuellement sélectionné est en cours d’exécution.
 
@@ -333,12 +333,12 @@ Le débogueur de noyau (KD) et WinDBG prennent également en charge le débogage
 
 La programmation multithread peut être délicate et certains bogues multithreads s’affichent rarement, ce qui les rend difficiles à trouver et à corriger. L’une des meilleures façons de les vider consiste à effectuer des tests sur un large éventail d’ordinateurs, en particulier ceux avec quatre processeurs ou plus. Le code multithread qui fonctionne parfaitement sur un ordinateur à thread unique peut échouer instantanément sur un ordinateur à quatre processeurs. Les caractéristiques de performances et de minutage des processeurs AMD et Intel peuvent varier considérablement. Veillez donc à tester sur les ordinateurs multiprocesseurs basés sur les processeurs des deux fournisseurs.
 
-## <a name="windows-vista-and-windows-7-improvements"></a>Améliorations apportées à Windows Vista et Windows 7
+## <a name="windows-vista-and-windows-7-improvements"></a>Windows améliorations apportées à Vista et Windows 7
 
-Pour les jeux ciblant les versions plus récentes de Windows, il existe un certain nombre d’API qui peuvent simplifier la création d’applications multithread évolutives. Cela est particulièrement vrai avec la nouvelle API ThreadPool et certaines primitives syncrhonziation supplémentaires (variables de condition, verrou de lecture/écriture allégé et initialisation unique). Vous trouverez une vue d’ensemble de ces technologies dans les articles suivants du magazine MSDN :
+pour les jeux ciblant les versions plus récentes de Windows, il existe un certain nombre d’api qui peuvent simplifier la création d’applications multithread évolutives. Cela est particulièrement vrai avec la nouvelle API ThreadPool et certaines primitives syncrhonziation supplémentaires (variables de condition, verrou de lecture/écriture allégé et initialisation unique). Vous trouverez une vue d’ensemble de ces technologies dans les articles suivants du magazine MSDN :
 
 -   [Améliorez l’évolutivité avec les nouvelles API de pool de threads](/archive/msdn-magazine/2007/october/pooled-threads-improve-scalability-with-new-thread-pool-apis)
--   [Nouvelles primitives de synchronisation avec Windows Vista](/archive/msdn-magazine/2007/june/concurrency-synchronization-primitives-new-to-windows-vista)
+-   [nouvelles primitives de synchronisation pour Windows Vista](/archive/msdn-magazine/2007/june/concurrency-synchronization-primitives-new-to-windows-vista)
 
 Les applications utilisant les [fonctionnalités Direct3D 11](../direct3d11/direct3d-11-features.md) sur ces systèmes d’exploitation peuvent également tirer parti de la nouvelle conception pour la création d’objets simultanés et des listes de commandes de contexte différées pour une meilleure évolutivité pour le rendu multithread.
 

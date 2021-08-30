@@ -4,17 +4,17 @@ ms.assetid: a08e079c-41be-475a-9e88-ee46d17fe938
 title: Utilisation du séparateur MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f60505ef242c2ed9c1eab3031a005a2582b99608
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e43ba5a45d20de7af5e996b8e2837971de08c0f486a880e01f9f28a45f8ab385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049549"
 ---
 # <a name="using-the-mpeg-2-splitter"></a>Utilisation du séparateur MPEG-2
 
 > [!Note]  
-> À compter de Microsoft® Windows® XP, le filtre de séparateur MPEG-2 est déconseillé. Utilisez plutôt le [démultiplexeur MPEG-2](mpeg-2-demultiplexer.md) .
+> à partir de Microsoft® Windows® XP, le filtre de séparateur MPEG-2 est déconseillé. Utilisez plutôt le [démultiplexeur MPEG-2](mpeg-2-demultiplexer.md) .
 
  
 
@@ -51,7 +51,7 @@ Le filtre de séparateur MPEG-2 prend en charge les interfaces suivantes.
 
 <dl> <dt>
 
-[Prise en charge MPEG-2 dans DirectShow](mpeg-2-support-in-directshow.md)
+[Prise en charge de MPEG-2 dans DirectShow](mpeg-2-support-in-directshow.md)
 </dt> </dl>
 
  

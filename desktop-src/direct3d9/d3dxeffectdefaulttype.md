@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: ffd31167d712a8270011c061cd6328aa9214352e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 25b197503b4f709c376a80c1fde0a89f96656da330be6bd26a4b1ebc1c8f47a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119199"
 ---
 # <a name="d3dxeffectdefaulttype-enumeration"></a>Énumération D3DXEFFECTDEFAULTTYPE
 

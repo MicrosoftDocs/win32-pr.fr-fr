@@ -4,12 +4,12 @@ ms.assetid: f89a1268-e364-41ec-a6a8-1f6331dbb787
 title: Algorithmes de fournisseur Diffie-Hellman/Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e4fb88e3a50e15a6690340ab3fbcee91da1193a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d432a533c1f863aa9f3495f0f38147800246812b1f10bb8a728a650548b4a89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100839"
 ---
 # <a name="diffie-hellmanschannel-provider-algorithms"></a>Algorithmes de fournisseur Diffie-Hellman/Schannel
 

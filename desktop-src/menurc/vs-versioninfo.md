@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e2758d5553e192357296868e2dbb62f7a6733ded
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3915cc68ea3207936d8a55c21f4f1e9b0d1d092ec2c4ab80ba210ba6bbc10dd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846919"
 ---
 # <a name="vs_versioninfo-structure"></a>Structure de VS \_ VERSIONINFO
 
@@ -134,9 +134,9 @@ Tableau de zéro ou une structure [**StringFileInfo**](stringfileinfo.md) , et z
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. Cette structure a été créée uniquement pour représenter l’Organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
+Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. cette structure a été créée uniquement pour représenter l’organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
 
 ## <a name="requirements"></a>Configuration requise
 

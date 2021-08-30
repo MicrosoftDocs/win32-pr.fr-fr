@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 45af79c4fb01c95b25803788f79588a3880fe264
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8abbfaf93250f6c80888d82b291f4294d893703a383552fbef94d50c6fc57f1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893349"
 ---
 # <a name="id3dxfile-interface"></a>Interface ID3DXFile
 
@@ -48,7 +48,7 @@ L’interface **ID3DXFile** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet ID3DXFile contient également un magasin de modèles local. Ce stockage local peut être ajouté à uniquement avec les méthodes [**ID3DXFile :: RegisterEnumTemplates**](id3dxfile--registerenumtemplates.md) et [**ID3DXFile :: RegisterTemplates**](id3dxfile--registertemplates.md) .
 

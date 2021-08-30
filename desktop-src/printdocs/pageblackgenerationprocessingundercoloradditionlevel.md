@@ -4,12 +4,12 @@ ms.assetid: da957aca-1655-4e8d-9e7b-4da0f253293b
 title: PageBlackGenerationProcessingUnderColorAdditionLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b496fbe890f53d1da8d1054cc5a19fe6318811
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c3e29073e0c27d433b96137983b10aab4ac0969b1b90010178b4fdd796f2043d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948229"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionlevel"></a>PageBlackGenerationProcessingUnderColorAdditionLevel
 
@@ -28,7 +28,7 @@ Décrit l’encre chromatique chromatique (en gris, les ratios de composants) à
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
-| Notes <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
+| Remarques <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
 
 
 
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

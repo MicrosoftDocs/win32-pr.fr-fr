@@ -5,12 +5,12 @@ ms.assetid: ebbcfeff-fa5a-44b6-80d2-831ff45e5c0e
 title: P (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b20d4971b256497e1ea91f3143164c41118bd81c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3db857f3f718bc6b4aee41ff78e3ef2318a3a5a0ec3eba28e48f169eedc6c314
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126179"
 ---
 # <a name="p-telephony-api"></a>P (API de téléphonie)
 

@@ -1,19 +1,19 @@
 ---
-description: 'Les valeurs de Registre WFP se trouvent dans la clé de Registre suivante : HKLM \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon.'
+description: 'les valeurs de registre WFP se trouvent dans la clé de registre suivante : HKLM \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Winlogon.'
 ms.assetid: d4da7f24-1e5d-4ea2-98e8-049e7eaefae1
 title: Valeurs de Registre WFP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31cb8db23800ebbead68f34eaf0fa9fffd772f01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a363a462e32d797b2032d222d6c6195a65493481668620401bc31daa3eb53fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999179"
 ---
 # <a name="wfp-registry-values"></a>Valeurs de Registre WFP
 
-\[Les valeurs de Registre WFP ne sont pas prises en charge à partir de Windows Vista.\]
+\[les valeurs de registre WFP ne sont pas prises en charge à partir de Windows Vista.\]
 
 WFP utilise plusieurs valeurs de Registre pour les paramètres de personnalisation. Les valeurs de Registre WFP se trouvent dans la clé de Registre suivante :
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ca339eb2e2a4ec0fb441c5ed1a657608d71248bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 723ff669a44a7459f52a389e1ad61d236d00489a95e1bbf1038ce9c6eb21caab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980889"
 ---
 # <a name="createresourcepool-method-of-the-cim_resourcepoolconfigurationservice-class"></a>Méthode CreateResourcePool de la \_ classe CIM ResourcePoolConfigurationService
 
@@ -57,7 +57,7 @@ Tableau de zéro ou plusieurs [**périphériques \_ LogicalDevice CIM**](cim-log
 
 </dd> <dt>
 
-*ResourceType* \[in\]
+*ResourceType* \[ dans\]
 </dt> <dd>
 
 Le type de ressources que le pool créé doit gérer. Si *HostResources* contient des éléments, cette propriété doit avoir le même type.

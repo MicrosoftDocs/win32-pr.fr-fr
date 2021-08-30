@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 0337bc6865742c6d625c02a7ef4850c7ac25ffc8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52e1eac751df495f47b60d76b0dac96dc8c1dda806394eafbe71bd470a1c657c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118070"
 ---
 # <a name="idcompositionshadoweffectsetblue-methods"></a>IDCompositionShadowEffect :: SetBlue, méthodes
 

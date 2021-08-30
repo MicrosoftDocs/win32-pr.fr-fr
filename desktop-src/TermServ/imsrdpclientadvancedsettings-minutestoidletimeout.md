@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b5e42258ed670ac0323723cafe7b2792f8c5bd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3d39d4f69931194683c928c6dfd7dc7809c22f5f8b4d2d82395acc8aa9ddfe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870909"
 ---
 # <a name="imsrdpclientadvancedsettingsminutestoidletimeout-property"></a>IMsRdpClientAdvancedSettings :: MinutesToIdleTimeout, propriété
 
@@ -92,7 +92,7 @@ Nouvelle durée, en minutes. La valeur par défaut est zéro, ce qui désactive 
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

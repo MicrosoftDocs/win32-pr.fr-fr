@@ -1,27 +1,27 @@
 ---
 description: Un fichier de configuration d’éditeur est un fichier XML qui redirige globalement les applications et les assemblys de à l’aide d’une version d’un assembly côte à côte vers une autre version du même assembly.
 ms.assetid: b10752af-80a7-4027-b525-90333d0d010a
-title: Fichiers de configuration du serveur de publication
+title: Publisher Fichiers de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cc5d7d7b7ffdad3d1179a7f8c66a347d91e0a03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78c85c3067d4b36dcaee36853adfcd04a4808a1c017098c636ebffc593394428
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101639"
 ---
-# <a name="publisher-configuration-files"></a>Fichiers de configuration du serveur de publication
+# <a name="publisher-configuration-files"></a>Publisher Fichiers de configuration
 
-Un fichier de configuration d’éditeur est un fichier XML qui redirige globalement les applications et les assemblys de à l’aide d’une version d’un assembly côte à côte vers une autre version du même assembly. En règle générale, l’éditeur de l’assembly émet une mise à jour ou un correctif de sécurité compatible pour chaque assembly en émettant un fichier de configuration d’éditeur à installer avec une mise à jour Service Pack. C’est ce que l’on appelle la configuration du serveur de [publication](publisher-configuration.md). Pour plus d’informations sur ce type de [configuration](configuration.md) , consultez Configuration de l’éditeur.
+Un fichier de configuration d’éditeur est un fichier XML qui redirige globalement les applications et les assemblys de à l’aide d’une version d’un assembly côte à côte vers une autre version du même assembly. En règle générale, l’éditeur de l’assembly émet une mise à jour ou un correctif de sécurité compatible pour chaque assembly en émettant un fichier de configuration d’éditeur à installer avec une mise à jour Service Pack. C’est ce que l’on appelle la configuration du serveur de [publication](publisher-configuration.md). pour plus d’informations sur ce type de [configuration](configuration.md) , consultez Publisher configuration.
 
-Les fichiers de configuration du serveur de publication possèdent les éléments et les attributs suivants. Pour obtenir une liste complète du schéma XML, consultez [schéma du fichier de configuration](publisher-configuration-file-schema.md)de l’éditeur.
+Publisher fichiers de configuration possèdent les éléments et les attributs suivants. pour obtenir une liste complète du schéma XML, consultez [Publisher schéma du fichier de Configuration](publisher-configuration-file-schema.md).
 
 
 
 | Élément               | Attributs                | Obligatoire |
 |-----------------------|---------------------------|----------|
-| **assembly**          |                           | Oui      |
+| **chargeur**          |                           | Oui      |
 |                       | **manifestVersion**       | Oui      |
 | **assemblyIdentity**  |                           | Oui      |
 |                       | **type**                  | Oui      |
@@ -42,15 +42,15 @@ Les fichiers de configuration du serveur de publication possèdent les élément
 
 ## <a name="file-location"></a>Emplacement du fichier
 
-Les fichiers de configuration du serveur de publication doivent être installés dans le dossier WinSxS. Ils sont généralement installés en tant que fichiers distincts, mais les fichiers de configuration du serveur de publication peuvent également être inclus en tant que ressource dans une DLL. Un fichier de configuration d’éditeur ne peut pas être inclus en tant que ressource dans un fichier EXE. Un fichier EXE peut inclure un [manifeste d’application](application-manifests.md) en tant que ressource.
+Publisher fichiers de configuration doivent être installés dans le dossier WinSxS. Ils sont généralement installés en tant que fichiers distincts, mais les fichiers de configuration du serveur de publication peuvent également être inclus en tant que ressource dans une DLL. Un fichier de configuration d’éditeur ne peut pas être inclus en tant que ressource dans un fichier EXE. Un fichier EXE peut inclure un [manifeste d’application](application-manifests.md) en tant que ressource.
 
 ## <a name="file-name-syntax"></a>Syntaxe du nom de fichier
 
 Le nom de fichier d’un fichier de configuration d’éditeur possède la *stratégie* de formulaire. *majeure*. *mineure*. *AssemblyName* , où *major* et *Minor* font référence aux parties majeures et secondaires de la [version d’assembly](assembly-versions.md) qui est affectée. Le *AssemblyName* fait référence au nom de l’assembly.
 
-Par exemple, un fichier de configuration d’éditeur pour la version 6,0 de l’assembly Microsoft. Windows. Common-Controls porterait le nom suivant :
+Par exemple, un fichier de configuration d’éditeur pour la version 6,0 de Microsoft. Windows. L’assembly de contrôles communs porterait le nom suivant :
 
-<dl> Policy. 6.0. Microsoft. Windows. Common-Controls  
+<dl> Policy. 6.0. Microsoft. Windows. Contrôles communs  
 </dl>
 
 N’utilisez pas de fichiers de configuration de stratégie pour incrémenter la version majeure ou mineure d’un assembly. Par exemple, ne redirigez pas la version 6.0.0.0 vers 7.0.0.0 ou 6.1.0.0. Lorsqu’une application fait référence à une version d’assembly, telle que 6.0.0.0, côte à côte vérifie la présence de fichiers de configuration de stratégie avec les versions principales et secondaires spécifiées, par exemple 6,0. L’application est ensuite redirigée vers une autre version de l’assembly, par exemple 6.0.1.0. Si un fichier de configuration d’éditeur incrémente la version majeure ou mineure d’un assembly, la redirection ultérieure de l’assembly peut nécessiter l’émission de plusieurs fichiers de configuration de stratégie.
@@ -85,7 +85,7 @@ L’élément **assembly** a les attributs suivants.
 
 Décrit et identifie de façon unique un assembly côte à côte.
 
-En tant que premier sous-élément d’un élément **assembly** , l’élément **assemblyIdentity** décrit l’assembly côte à côte dont une ou plusieurs de ses dépendances d’assembly ont été modifiées. Le fichier de configuration du serveur de publication redirige les dépendances de l’assembly identifié. Par exemple, l' **assemblyIdentity** suivant indique que le fichier de configuration du serveur de publication affecte les dépendances de l’assembly x86 Microsoft. Windows. pop 6.0.0.0.
+En tant que premier sous-élément d’un élément **assembly** , l’élément **assemblyIdentity** décrit l’assembly côte à côte dont une ou plusieurs de ses dépendances d’assembly ont été modifiées. Le fichier de configuration du serveur de publication redirige les dépendances de l’assembly identifié. Par exemple, l' **assemblyIdentity** suivant indique que le fichier de configuration du serveur de publication affecte les dépendances de Microsoft x86. Windows. Assembly 6.0.0.0 pop.
 
 ``` syntax
 <assemblyIdentity 
@@ -96,7 +96,7 @@ En tant que premier sous-élément d’un élément **assembly** , l’élément
      processorArchitecture="x86"/>
 ```
 
-En tant que premier sous-élément d’un élément **dependentAssembly** , **assemblyIdentity** décrit une dépendance d’assembly côte à côte. Le fichier de configuration du serveur de publication reconfigure l’identité de cet assembly côte à côte obligatoire. La modification est spécifiée dans une **bindingRedirect**. Par exemple, l’état **assemblyIdentity** suivant modifie les dépendances de Microsoft. Windows. SampleAssembly version 2.0.0.0 avec une dépendance sur Microsoft. Windows. SampleAssembly version 2.0.1.0.
+En tant que premier sous-élément d’un élément **dependentAssembly** , **assemblyIdentity** décrit une dépendance d’assembly côte à côte. Le fichier de configuration du serveur de publication reconfigure l’identité de cet assembly côte à côte obligatoire. La modification est spécifiée dans une **bindingRedirect**. Par exemple, l’état **assemblyIdentity** suivant modifie les dépendances de Microsoft. Windows. SampleAssembly version 2.0.0.0 à une dépendance sur Microsoft. Windows. SampleAssembly version 2.0.1.0.
 
 ``` syntax
 <dependency>
@@ -119,10 +119,10 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | Spécifie le type d’assembly. Obligatoire. Dans le champ **assemblyIdentity** de l’assembly affecté, la valeur de l’attribut **type** doit être définie sur Win32-Policy. La valeur Win32-Policy doit être en minuscules.<br/> Dans le champ **assemblyIdentity** de la dépendance de l’assembly en cours de modification, la valeur de l’attribut **type** doit être définie sur Win32. La valeur Win32 doit être en lettres minuscules.<br/>                                                                                                                                                                                                             |
 | **name**                  | Nomme un assembly de manière unique. Obligatoire. Dans l’objet **assemblyIdentity** de l’assembly affecté, le nom a la *stratégie* de formulaire. *majeure*. *mineure*. *AssemblyName* , où *major* et *Minor* font référence aux parties majeures et secondaires de la version de l' [assembly](assembly-versions.md).<br/> Dans l' **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, le nom se présente sous la forme Organization.Division.Name. Par exemple, Microsoft. Windows. MysampleApp.<br/>                                                                                                                                                                                 |
-| **language**              | Identifie le langage de l’assembly. Optionnel. Dans l’objet **assemblyIdentity** de l’assembly affecté, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation dans le monde entier (langue neutre), omettez cet attribut.<br/> Dans le **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, si l’assembly est spécifique à la langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                                                                                            |
+| **language**              | Identifie le langage de l’assembly. Facultatif. Dans l’objet **assemblyIdentity** de l’assembly affecté, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation dans le monde entier (langue neutre), omettez cet attribut.<br/> Dans le **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, si l’assembly est spécifique à la langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                                                                                            |
 | **processorArchitecture** | Spécifie le processeur qui exécute l’application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **version**               | Spécifie la version de l’assembly. Utilisez la syntaxe de version en quatre parties : MMMM. nnnn. oooo. pppp Obligatoire uniquement dans le **assemblyIdentity** du contexte def. Ne spécifiez pas l’attribut de version dans le **assemblyIdentity** du contexte de référence.                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Un publicKeyToken est requis pour tous les assemblys côte à côte partagés. Le publicKeyToken utilisé pour le fichier de configuration du serveur de publication doit être la même clé que celle utilisée pour l’assembly signé. Les fichiers de configuration du serveur de publication peuvent être signés à l’aide des mêmes outils que ceux utilisés avec les assemblys. consultez [exemple de signature d’assembly](assembly-signing-example.md) et [création de fichiers et catalogues signés](creating-signed-files-and-catalogs.md). |
+| **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Un publicKeyToken est requis pour tous les assemblys côte à côte partagés. Le publicKeyToken utilisé pour le fichier de configuration du serveur de publication doit être la même clé que celle utilisée pour l’assembly signé. Publisher fichiers de configuration peuvent être signés à l’aide des mêmes outils que ceux utilisés avec les assemblys, consultez [exemple de signature d’assembly](assembly-signing-example.md) et [création de fichiers et catalogues signés](creating-signed-files-and-catalogs.md). |
 
 
 
@@ -164,9 +164,9 @@ Cet élément a les attributs répertoriés dans le tableau suivant.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers de configuration du serveur de publication ne spécifient pas de fichiers. Notez que les fichiers de stratégie spécifiques à une langue sont distincts du fichier de configuration du serveur de publication.
+Publisher fichiers de configuration ne spécifient pas de fichiers. Notez que les fichiers de stratégie spécifiques à une langue sont distincts du fichier de configuration du serveur de publication.
 
 ## <a name="example"></a>Exemple
 

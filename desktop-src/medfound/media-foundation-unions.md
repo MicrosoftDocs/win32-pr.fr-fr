@@ -4,12 +4,12 @@ ms.assetid: 03d97d26-714d-4aec-bb92-0772f09b7cca
 title: Media Foundation des unions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32514148a7620f15ff38df9f124bc93aa752e92f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ddc421dab926a1a30471b7b053fdd5a068ba39d6402653956d606e9692fd44b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106542096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957459"
 ---
 # <a name="media-foundation-unions"></a>Media Foundation des unions
 

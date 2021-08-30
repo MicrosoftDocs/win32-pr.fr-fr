@@ -4,16 +4,16 @@ description: Mouvement de la souris
 ms.assetid: 54366E9B-470A-4155-8A5F-425BAC8AC1A5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14176310882651cdeb2939d0db55368ff133ea11
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: f15c5d6be5e7b018bc7e9c5d07f50871018ee20730d0a9b8a005294eded044a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106531241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979807"
 ---
 # <a name="mouse-movement"></a>Mouvement de la souris
 
-Lorsque la souris se déplace, Windows publie un message [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) . Par défaut, **WM \_ MOUSEMOVE** accède à la fenêtre qui contient le curseur. Vous pouvez remplacer ce comportement en *capturant* la souris, qui est décrite dans la section suivante.
+lorsque la souris se déplace, Windows publie un message [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) . Par défaut, **WM \_ MOUSEMOVE** accède à la fenêtre qui contient le curseur. Vous pouvez remplacer ce comportement en *capturant* la souris, qui est décrite dans la section suivante.
 
 Le message [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) contient les mêmes paramètres que les messages pour les clics de souris. Les 16 bits les plus bas de *lParam* contiennent la coordonnée x, et les 16 bits suivants contiennent la coordonnée y. Utilisez les macros [**obten \_ X \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) et [**obten \_ Y \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) pour décompresser les coordonnées de *lParam*. Le paramètre *wParam* contient une opération or au niveau du bit, indiquant l’état des autres **boutons de la** souris plus les touches Maj et Ctrl. Le code suivant obtient les coordonnées de la souris à partir de *lParam*.
 

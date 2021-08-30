@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd54b4a40ad8d5a95aa198122828f2eb4070ef96
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 47d720de43f10a4fd25fa6bf692afc4b474bf90256fb19ff2b8bc3f125cfc89a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760629"
 ---
 # <a name="ms-wmi-intdefault-attribute"></a>attribut ms-WMI-intDefault
 
@@ -36,7 +36,7 @@ Valeur par défaut pour les objets de paramètre entier WMI 32 bits.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1628              |
 | System-ID-GUID    | 1b0c07f8-76dd-4060-A1E1-70084619dc90 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ Valeur par défaut pour les objets de paramètre entier WMI 32 bits.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

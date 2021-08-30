@@ -4,12 +4,12 @@ description: Les structures suivantes sont déclarées dans dxcore_interface. h.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 9bb31d549b8e8957eaa31be8c6d55aa4b604d013
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7888f25c90cc309fb36705b87349707ba1220afa2bd844420743ff8e71f5b4f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117739"
 ---
 # <a name="dxcore-structures"></a>Structures DXCore
 

@@ -4,12 +4,12 @@ ms.assetid: ae5955f9-e52a-41d7-a199-800e37a3e936
 title: Génération automatique de des mipmaps (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fda5b765d42ffa10f8cc5998daa66ae36c2bc75
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 17db4ccc44ed46be514e4013f31f0ed63fd5ae58d900c32465277a7c978b59cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952609"
 ---
 # <a name="automatic-generation-of-mipmaps-direct3d-9"></a>Génération automatique de des mipmaps (Direct3D 9)
 

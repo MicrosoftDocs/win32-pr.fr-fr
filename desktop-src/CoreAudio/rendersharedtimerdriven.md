@@ -4,12 +4,12 @@ ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d2814f359668f8724d3deb65a7c2a9eeff5b06
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 37aace64636ff132006c3059f7e056c4312322d4b1b8f52c07c71e07c2186de5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984879"
 ---
 # <a name="rendersharedtimerdriven"></a>RenderSharedTimerDriven
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour afficher les donn
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -31,7 +31,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [API MMDevice](mmdevice-api.md) pour l’énumération et la sélection des appareils multimédias.
 -   WASAPI pour les opérations de gestion de flux.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -52,7 +52,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ RenderSharedTimerDriven \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ RenderSharedTimerDriven \\ ... |
 
 
 
@@ -62,9 +62,9 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple RenderSharedTimerDriven, procédez comme suit :
 
-1.  Ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderSharedTimerDriven.
-2.  Exécutez la commande `start WASAPIRenderSharedTimerDriven.sln` dans le répertoire RenderSharedTimerDriven pour ouvrir le projet WASAPIRenderSharedTimerDriven dans la fenêtre Visual Studio.
-3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderSharedTimerDriven. vcproj.
+1.  ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderSharedTimerDriven.
+2.  exécutez la commande `start WASAPIRenderSharedTimerDriven.sln` dans le répertoire RenderSharedTimerDriven pour ouvrir le projet WASAPIRenderSharedTimerDriven dans la fenêtre Visual Studio.
+3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderSharedTimerDriven. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

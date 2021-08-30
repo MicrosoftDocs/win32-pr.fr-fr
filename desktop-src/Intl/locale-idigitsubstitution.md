@@ -4,12 +4,12 @@ ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
 title: LOCALE_IDIGITSUBSTITUTION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5fe8adf06cbca11bd5d262edf299b0f043286d4494c36172f9f7a461e17eeb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6288da45212d55bdc5ad505e432cfb848ad9bdf6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118948720"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631902"
 ---
 # <a name="locale_idigitsubstitution"></a>paramètres régionaux \_ IDIGITSUBSTITUTION
 
@@ -19,8 +19,8 @@ ms.locfileid: "118948720"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

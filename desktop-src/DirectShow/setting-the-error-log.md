@@ -4,18 +4,18 @@ ms.assetid: 2e3124e3-32d0-4eb6-9c1d-91b625018ac4
 title: Définition du journal des erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac96fb90570408ca41be06656f7cf1704e9f48dc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5d28c337d146927ee624dad6f350d163e4bde3756acaf6fb0418821cc7ac5c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904199"
 ---
 # <a name="setting-the-error-log"></a>Définition du journal des erreurs
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Après avoir implémenté la classe de journalisation des erreurs, créez une nouvelle instance de la classe. Ensuite, donnez aux [services de modification DirectShow](directshow-editing-services.md) un pointeur en appelant la méthode [**IAMSetErrorLog ::p ut \_ ErrorLog**](iamseterrorlog-put-errorlog.md) sur la chronologie. Interrogez la chronologie de l’interface **IAMSetErrorLog** . Pour vous assurer que toutes les erreurs sont journalisées, vous devez appeler cette méthode avant de charger, d’enregistrer ou de rendre la chronologie.
+Après avoir implémenté la classe de journalisation des erreurs, créez une nouvelle instance de la classe. ensuite, donnez à [DirectShow Services de modification](directshow-editing-services.md) un pointeur en appelant la méthode [**IAMSetErrorLog ::p ut \_ ErrorLog**](iamseterrorlog-put-errorlog.md) sur la chronologie. Interrogez la chronologie de l’interface **IAMSetErrorLog** . Pour vous assurer que toutes les erreurs sont journalisées, vous devez appeler cette méthode avant de charger, d’enregistrer ou de rendre la chronologie.
 
 
 ```C++

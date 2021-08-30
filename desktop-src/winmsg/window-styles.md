@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 title: Styles de fenêtre (winuser. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad646e73144bccdc0868967f58e42221bbb044af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b6fdc465e6a1f50fe2b2acf00fe34dfc2af2452aafc5574b325bab107be95cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931919"
 ---
 # <a name="window-styles"></a>Styles de fenêtre
 

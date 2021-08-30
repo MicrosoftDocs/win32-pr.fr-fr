@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9099b0839b6b55676d5a8afdfb913948e70bbb7f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 56d1acb150b4af3f096b8ebf8c5a91caef831ebc03f84df10440b95110bc018e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953159"
 ---
 # <a name="cd3dx12_root_parameter-structure"></a>\_Structure de \_ paramètre racine CD3DX12
 

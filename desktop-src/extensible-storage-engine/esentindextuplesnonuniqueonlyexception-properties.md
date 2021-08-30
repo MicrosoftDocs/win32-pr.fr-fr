@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101860
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b682bc26b0f9ffdd4a982fbece8fb9b852254158
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d48374b8f15bb9869392bb184c1b557ae91b2fc560de3efd802d04d326bbfd64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784033"
 ---
 # <a name="esentindextuplesnonuniqueonlyexception-properties"></a>Propriétés EsentIndexTuplesNonUniqueOnlyException
 
@@ -49,7 +49,7 @@ Le type [EsentIndexTuplesNonUniqueOnlyException](./esentindextuplesnonuniqueonly
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

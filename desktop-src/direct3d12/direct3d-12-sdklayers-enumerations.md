@@ -5,12 +5,12 @@ ms.assetid: 6E76C857-128E-4F0E-9711-72C4CF6C835C
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746c0def35c8eb282264cb4ab0b40eb5c08f0f9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 108e8bce1627c37cd0c6f9ffbacfeb1bea991bb0fca97adda116a3c8f0e1b9fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069639"
 ---
 # <a name="debug-layer-enumerations"></a>Énumérations de couche de débogage
 

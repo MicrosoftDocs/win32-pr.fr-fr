@@ -4,12 +4,12 @@ ms.assetid: 247ad0a6-ce65-45f1-a0d5-51ad135000aa
 title: System. AppUserModel. StartPinOption
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43cdef82a90488ce87bbf182323b00d62a5cdfea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd2467a6a734e8dc8f1e30aed9ba0a5b986191c457186aff1d145c95cc838f19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059979"
 ---
 # <a name="systemappusermodelstartpinoption"></a>System. AppUserModel. StartPinOption
 
@@ -48,7 +48,7 @@ propertyDescription
             defineToken = APPUSERMODEL_STARTPINOPTION_USERPINNED
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

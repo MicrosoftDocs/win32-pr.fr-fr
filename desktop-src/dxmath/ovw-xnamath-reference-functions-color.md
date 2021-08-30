@@ -4,12 +4,12 @@ ms.assetid: 857e2aed-d082-d990-1c67-e22ce3d07310
 title: Fonctions de couleur de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d3cc7870012da5aa016bb1a353e8eacc85eda8
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 1004ac944e9d5857c0a75c16be71a0d308a1dbf0f107150185963477002b8758
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979389"
 ---
 # <a name="directxmath-library-color-functions"></a>Fonctions de couleur de la bibliothèque DirectXMath
 

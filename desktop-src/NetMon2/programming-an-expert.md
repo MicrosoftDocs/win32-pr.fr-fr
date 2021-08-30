@@ -4,12 +4,12 @@ ms.assetid: 6a3834b7-753f-42cc-986f-3d7e8bf79fd9
 title: Programmation d’un expert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df633d971558f9b14374680b09a22771e10ea0d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38de0a60c8224ce0912039ea5fbb06e2cdc958e317eccfb83d524ce632b0d539
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979179"
 ---
 # <a name="programming-an-expert"></a>Programmation d’un expert
 
@@ -25,7 +25,7 @@ Le tableau suivant répertorie les points d’entrée de DLL et les fonctions d�
 |------------------------------------------------------|--------------------|-------------------------------------------------|
 | [**DllMain**](dllmain-expert.md)                    | Fonction d’entrée de DLL | Oui                                             |
 | [**Inscrire un expert**](register-expert.md)           | Fonction d’entrée de DLL | Oui                                             |
-| [**Utilisez**](run.md)                                   | Fonction d’entrée de DLL | Oui                                             |
+| [**Exécuter**](run.md)                                   | Fonction d’entrée de DLL | Oui                                             |
 | [**Configurer**](configure.md)                       | Fonction d’entrée de DLL | Uniquement si l’expert fournit la configuration utilisateur. |
 | [**ExpertIndicateStatus**](expertindicatestatus.md) | Fonction expert    | Oui                                             |
 | [**ExpertSubmitEvent**](expertsubmitevent.md)       | Fonction expert    | Oui                                             |

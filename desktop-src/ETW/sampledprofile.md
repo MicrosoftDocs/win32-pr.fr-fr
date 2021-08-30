@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3d7a69eef1a2a7988569ffcd930b73a559e18d90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52b0eeeff1c0640455b935cf1140ab285d937f35db02d098def39a60a06571a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041629"
 ---
 # <a name="sampledprofile-class"></a>SampledProfile, classe
 
@@ -100,18 +100,18 @@ Identificateur du thread qui s’exécutait au moment où le processeur a été 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces événements fournissent un profil d’exécution échantillonné. L’événement enregistre ce qui a été exécuté sur le processeur. Vous pouvez utiliser les événements d’image pour identifier le module binaire contenant cette instruction. Vous pouvez ensuite utiliser ces informations pour créer un profil d’exécution pendant la durée de la trace.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

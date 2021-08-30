@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c6721b95d3375cb9f48744b2f7d28afd92a5024e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 800b105a847daad0c551795aee3bf20b9ce8d118
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982782"
 ---
 # <a name="span-idwwan_profile_v4element_1_usernamespanmodemdmconfigprofileusername-v4"></a><span id="WWAN_profile_v4.element_1_UserName"></span>ModemDMConfigProfile \/ ... \/ Nom d’utilisateur (v4)
 
@@ -74,7 +74,9 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

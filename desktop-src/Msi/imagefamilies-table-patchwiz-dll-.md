@@ -4,12 +4,12 @@ ms.assetid: 06a77b35-b593-47e6-9083-46a6b65b7481
 title: Table ImageFamilies (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ece99e3c42626eb2155f16f2198703dc31b682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c528faae7db4e485956a5eacb23a3421354c3f030011e1291bd2946d9783f67f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894139"
 ---
 # <a name="imagefamilies-table-patchwizdll"></a>Table ImageFamilies (Patchwiz.dll)
 
@@ -19,7 +19,7 @@ Une table ImageFamilies contenant au moins un enregistrement est requise dans ch
 
 La table ImageFamilies contient les informations de mise à jour corrective qui doivent être ajoutées à la [table multimédia](media-table.md). Un correctif ajoute une entrée à la table des médias. Chaque enregistrement dans les tables ImageFamilies fait référence à un groupe d’images de produits associées qui ont été mises à jour vers la version la plus récente du produit.
 
-La table ImageFamilies contient les colonnes suivantes. Une valeur NULL peut être utilisée dans les colonnes MediaSrcPropName, MediaDiskId et FileSequenceStart si le correctif est appliqué avec Windows Installer et Patchwiz.dll version 2,0.
+La table ImageFamilies contient les colonnes suivantes. une valeur null peut être utilisée dans les colonnes MediaSrcPropName, MediaDiskId et FileSequenceStart si le correctif est appliqué avec Windows Installer et Patchwiz.dll version 2,0.
 
 
 
@@ -43,7 +43,7 @@ La table ImageFamilies contient les colonnes suivantes. Une valeur NULL peut êt
 <span id="Family"></span><span id="family"></span><span id="FAMILY"></span>Famille
 </dt> <dd>
 
-La valeur entrée dans ce champ est un identificateur pour un groupe d’images de produits associées qui ont été mises à jour vers la version la plus récente du produit. Limité à un total de 8 caractères alphanumériques ou traits de soulignement. Le programme d’installation incorpore un flux de fichier cab dans le Windows Installer fichier correctif (fichier. msp) de chaque famille dans la table. Le fichier cab contient les correctifs binaires et les nouveaux fichiers nécessaires à la mise à jour d’une image cible dans une image mise à niveau du produit. Le programme d’installation préfixe le nom de famille avec PCW \_ CAB \_ pour générer le nom de flux de l’armoire qu’il entre dans le champ Cabinet de la nouvelle entrée de [table de médias](media-table.md) .
+La valeur entrée dans ce champ est un identificateur pour un groupe d’images de produits associées qui ont été mises à jour vers la version la plus récente du produit. Limité à un total de 8 caractères alphanumériques ou traits de soulignement. le programme d’installation incorpore un flux de fichier cab dans le Windows Installer fichier correctif (fichier. msp) de chaque famille dans la table. Le fichier cab contient les correctifs binaires et les nouveaux fichiers nécessaires à la mise à jour d’une image cible dans une image mise à niveau du produit. Le programme d’installation préfixe le nom de famille avec PCW \_ CAB \_ pour générer le nom de flux de l’armoire qu’il entre dans le champ Cabinet de la nouvelle entrée de [table de médias](media-table.md) .
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ Le programme d’installation entre cette valeur dans le champ VolumeLabel du no
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le correctif ajoute le nom de l’armoire dans le fichier. msp au champ Cabinet du nouvel enregistrement ajouté à la [table multimédia](media-table.md). Étant donné qu’il s’agit d’un fichier CAB incorporé, le nom est préfixé avec un \# caractère «». Le correctif ajoute une propriété au champ source du nouvel enregistrement dans la table multimédia. Deux correctifs ne peuvent pas avoir la même propriété source.
 

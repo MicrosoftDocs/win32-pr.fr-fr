@@ -4,12 +4,12 @@ ms.assetid: 3b106a81-99b6-4ac6-95be-537fc14e0510
 title: Référence ICE du module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df445ad214808edfa40a47f036436877f5c0ba34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6936c8d67693e5468f44583d5bfced540a4214bcb27dcc6d10fcd84a4fc99262
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042959"
 ---
 # <a name="merge-module-ice-reference"></a>Référence ICE du module de fusion
 

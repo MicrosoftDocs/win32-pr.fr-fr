@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 89c15e3076a95f8fee3f2f2970fc59da5cf3bf4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 892709431e1f521ce4c70f6783d0fb9156b544e4d2c4e95282a1879a9bb70885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983299"
 ---
 # <a name="cdynamicoutputpinchangemediatype-method"></a>Méthode CDynamicOutputPin. ChangeMediaType
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                                                                                                                      |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                                                                                                                      |
 | <dl> <dt>**E \_ échec**</dt> </dl>                | Échec. Le filtre propriétaire n’a peut-être pas appelé [**CDynamicOutputPin :: SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md).<br/> |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Le pin n’est pas connecté.<br/>                                                                                                     |
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) avant d’appeler cette méthode.
 
@@ -79,7 +79,7 @@ En revanche, si le code pin en aval ne prend pas en charge **IPinConnection**, o
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

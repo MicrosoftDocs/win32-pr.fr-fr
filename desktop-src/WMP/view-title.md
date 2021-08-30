@@ -3,7 +3,7 @@ title: VIEW. title
 description: L’attribut title spécifie ou récupère le titre de la vue.
 ms.assetid: c23a2880-cb20-4a0f-9ce6-3fa3aec7f8ff
 keywords:
-- AFFICHER. titre lecteur Windows Media
+- VIEW. title Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0446d068b4a61f6befbad9390437dc4574d7f1d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c27d14f0a1ce41e45b4c012113549ce5a2c2b35d24764b675ab64326537a67e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001289"
 ---
 # <a name="viewtitle"></a>VIEW. title
 
@@ -31,7 +31,7 @@ L’attribut **title** spécifie ou récupère le titre de la **vue**.
 
 Cet attribut est une **chaîne** spécifiée au moment de la conception et en lecture seule par la suite. Elle peut comporter jusqu’à 255 caractères et n’a pas de valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le titre spécifié ou récupéré est le nom complet du thème.
 
