@@ -7,12 +7,12 @@ keywords:
 - Gestionnaire de table de routage version 2 RRAS, types de données simples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6dbd7530799c1c7e1702e0384d51b37a77dda0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 86ae258f085915ed36355148e5a200989be0cab4703ea5bf6cebeda850af8f00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035989"
 ---
 # <a name="routing-table-manager-version-2-simple-data-types"></a>Types de données simples de la version 2 du gestionnaire de table de routage
 
@@ -36,11 +36,11 @@ L’API RTMv2 définit plusieurs types de données simples. Le tableau suivant r
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

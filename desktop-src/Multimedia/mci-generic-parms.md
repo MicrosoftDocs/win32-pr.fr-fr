@@ -3,7 +3,7 @@ title: Structure MCI_GENERIC_PARMS (Mciapi. h)
 description: La \_ \_ structure des PARMS génériques MCI contient le handle de la fenêtre qui reçoit les messages de notification. Cette structure est utilisée pour les messages de commande MCI qui ont des listes de paramètres vides.
 ms.assetid: 706e406c-d263-4347-932c-e5f125acfe0f
 keywords:
-- Structure de MCI_GENERIC_PARMS Windows multimédia
+- structure MCI_GENERIC_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1f96482ed5ec7e27253f234031cd099600bf1b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e2da55b721c7567b5fbc52d965cf753f896ee28fa4d76e094c7867434a69791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784309"
 ---
 # <a name="mci_generic_parms-structure"></a>\_Structure des \_ PARMS génériques MCI
 
@@ -47,7 +47,7 @@ Le mot de poids faible spécifie un handle de fenêtre utilisé pour l' \_ indic
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les structures **MCI \_ Close \_ parms** et **MCI \_ réalisent \_** les mêmes que la structure des **\_ \_ parms génériques MCI** .
 

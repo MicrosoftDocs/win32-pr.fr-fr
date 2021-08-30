@@ -18,12 +18,12 @@ keywords:
 - Erreurs Waveform MCI-audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faf64e8cd4ec6d061422bcf14d17dfb4c4317ee4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d626ad885d2c06a856a0c2444dcfcaee919942b0d57616671dc07d35a5acd062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804069"
 ---
 # <a name="waveform-audio-errors"></a>Erreurs de Waveform-Audio
 
@@ -46,11 +46,11 @@ Les valeurs de retour supplémentaires suivantes sont définies pour les périph
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

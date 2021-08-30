@@ -3,7 +3,7 @@ title: Message DTM_GETSYSTEMTIME (commctrl. h)
 description: Obtient l’heure actuellement sélectionnée à partir d’un contrôle de sélecteur de dates et d’heures (PAO) et la place dans une structure SYSTEMTIME spécifiée. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro DateTime GetSystemtime.
 ms.assetid: 81c95187-109c-4b36-98ea-a2e77ce42d9a
 keywords:
-- DTM_GETSYSTEMTIME les contrôles de message Windows
+- DTM_GETSYSTEMTIME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e14d8c998720cc987a03877e1918e97304bf769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 00555079a018f0ed2d8c16fb3efdf23fd710656f318f1bb2bd66a167b25ce135
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877879"
 ---
 # <a name="dtm_getsystemtime-message"></a>\_Message DTM GETSYSTEMTIME
 
@@ -49,8 +49,8 @@ Retourne GDT \_ valide si les informations d’heure ont été placées avec suc
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

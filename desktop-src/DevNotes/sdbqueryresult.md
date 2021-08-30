@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9c631438d36116d47bfcb8675c390fb2974271c8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 772d30bec52758eb2ce1c39e0dcaa415c1eab25b81628e5b2865d3bdeed1b3a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815292"
 ---
 # <a name="sdbqueryresult-structure"></a>SDBQUERYRESULT, structure
 
@@ -194,8 +194,8 @@ GUID des bases de données de shims. Notez que **sdb \_ Max \_ SDBS** est défin
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

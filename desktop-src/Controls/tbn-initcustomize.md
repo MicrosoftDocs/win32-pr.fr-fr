@@ -3,7 +3,7 @@ title: TBN_INITCUSTOMIZE le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’une barre d’outils que la personnalisation a commencé. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: f4b9a1b0-94f7-4b2b-81b3-772da09134d2
 keywords:
-- Contrôles Windows de code de notification TBN_INITCUSTOMIZE
+- TBN_INITCUSTOMIZE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5e855374699a100bf78019f1ca3d89857bc7c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9bbf66e9974e444fd8544e20cb4878e662bb94b4b1f958404794783e52664c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876609"
 ---
 # <a name="tbn_initcustomize-notification-code"></a>\_Code de notification TBN INITCUSTOMIZE
 
@@ -55,8 +55,8 @@ Retourne TBNRF \_ HIDEHELP pour supprimer le bouton aide.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e58512ee538c2dc74251d9db6c0b86e6f185ed31
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9c73cee3077c23b08291efd3b9051fd694d2fe9a106368c80debbf2441448e32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026169"
 ---
 # <a name="id3dxprtcompbufferistexture-method"></a>ID3DXPRTCompBuffer :: IsTexture, méthode
 
@@ -38,7 +38,7 @@ BOOL IsTexture();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 

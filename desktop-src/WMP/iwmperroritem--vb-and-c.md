@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPErrorItem (VB et C) (WMP. h)
+title: interface IWMPErrorItem (VB et C) (Wmp. h)
 description: Fournit l’accès aux informations d’erreur.
 ms.assetid: 7f1571e1-4e3a-4f06-b9fa-9add34266537
 keywords:
-- IWMPErrorItem (VB et C) interface Windows Media Player
-- Interface IWMPErrorItem (VB et C), le lecteur Windows Media, décrit
+- interface IWMPErrorItem (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPErrorItem (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65864900e16cf1b4309677ba89e7d5f1eca84442
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6cee0bbe4bd648e13db778387d9ab4a5cb1738409530a28e56310b71dfdd0e6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003609"
 ---
-# <a name="iwmperroritem-vb-and-c-interface"></a>Interface IWMPErrorItem (VB et C#)
+# <a name="iwmperroritem-vb-and-c-interface"></a>interface IWMPErrorItem (VB et C#)
 
 Fournit l’accès aux informations d’erreur.
 
@@ -56,7 +56,7 @@ Procurez-vous une interface **IWMPErrorItem** à l’aide de la propriété suiv
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPErrorItem (VB et C#)** ne définit aucun membre.
+l’interface **IWMPErrorItem (VB et C#)** ne définit aucun membre.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -72,7 +72,7 @@ L’interface **IWMPErrorItem (VB et C#)** ne définit aucun membre.
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPErrorItem2 (VB et C#)**](iwmperroritem2--vb-and-c.md)

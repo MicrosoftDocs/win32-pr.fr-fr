@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les interfaces fournies
 ms.assetid: 96691e00-9ed0-b31c-fbe9-4daaba0daf98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2d9f2c777a7b98c5cbc78a130c0a1431be5971d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6fbf50cd4913f1d66e82c1791777777a639a1d8c6bd7e9b08f41be35af5c0bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926429"
 ---
 # <a name="xaudio2-interfaces"></a>Interfaces XAudio2
 

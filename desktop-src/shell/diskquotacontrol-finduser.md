@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e5767d28-4c0a-49bc-a1d3-ba809411456d
-ms.openlocfilehash: eab539a5ec5a360ae28fc87d5ffbb9dd4f9f1cc8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 1f9478c064e424fc74778d89c22219966036d6388607dd4493b2330127543843
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009549"
 ---
 # <a name="diskquotacontrolfinduser-method"></a>Méthode DiskQuotaControl. FindUser
 
@@ -48,11 +48,11 @@ Valeur de chaîne qui contient le nom d’ouverture de session de l’utilisateu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne une expression d’objet qui prend la valeur de l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne un objet [**DIDiskQuotaUser**](didiskquotauser-object.md) même s’il n’y a aucune entrée pour l’utilisateur dans le fichier de quota. Le seuil d’avertissement et les limites de quota matériel sont définis pour l’objet utilisateur retourné sur les valeurs par défaut du volume.
 
@@ -74,7 +74,7 @@ End Function
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4fe6dad14399b5b124b0146ea8b7ca101c8fa817
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d37e618e2e0b7b142546368c7559e9696d31efec812945da851113b4497591ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983329"
 ---
 # <a name="cdynamicoutputpincdynamicoutputpin-constructor"></a>Constructeur CDynamicOutputPin. CDynamicOutputPin
 
@@ -87,7 +87,7 @@ Pointeur vers une chaîne de caractères larges contenant l’identificateur de 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

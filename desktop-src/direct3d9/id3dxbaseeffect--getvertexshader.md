@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: ad6bb7cbf7c483ccaffa83b0e828c867026957fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5d8c4ccec2f741e17db8c74255cca7d8bbf803237dda94d5f2a3983562468759
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026539"
 ---
 # <a name="id3dxbaseeffectgetvertexshader-method"></a>ID3DXBaseEffect :: GetVertexShader, méthode
 

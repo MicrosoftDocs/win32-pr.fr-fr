@@ -4,12 +4,12 @@ description: Microsoft RPC prend en charge deux méthodes différentes pour l’
 ms.assetid: 10dd8e71-668a-46bf-ab5d-e4b1e0e56a46
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 367c4d052301ac1100d84cf18dc63e1540ed34b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ac09f29c4912228207e5c09d4551f408a76788d3d3ecf999aae2fcc1c63ded6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018037"
 ---
 # <a name="security-methods"></a>Méthodes de sécurité
 
@@ -22,9 +22,9 @@ Cette section fournit des vues d’ensemble de la sécurité SSPI et de la sécu
 -   [interface du fournisseur de la prise en charge de la sécurité (Security Support Provider Interface ou SSPI)](security-support-provider-interface-sspi-.md)
 -   [Sécurité de transport](transport-security.md)
 
- 
+ 
 
- 
+ 
 
 
 

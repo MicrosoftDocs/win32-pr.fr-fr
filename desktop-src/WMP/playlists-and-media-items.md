@@ -4,23 +4,23 @@ description: Sélections et éléments multimédias
 ms.assetid: 281c744d-380e-4200-8585-a3f378bc1c36
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Windows Media Player Mobile, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
+- Lecteur Windows Media Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- contrôle de ActiveX, sélections
 - sélections, éléments multimédias
 - sélections de métafichiers, éléments multimédias
-- Sélections de métafichiers Windows Media, éléments multimédias
+- Windows Sélections de métafichiers multimédia, éléments multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4716a8ce07e7b0ec8348ce1a6981e23291335e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 95ef42f4c79c8239af9278532c8bd09e320725a9d3bb36b361995e25fa905257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862079"
 ---
 # <a name="playlists-and-media-items"></a>Sélections et éléments multimédias
 
@@ -132,9 +132,9 @@ pList.removeItem(currMedia);
 
 
 > [!Note]  
-> Les utilisateurs peuvent modifier le contenu d’une sélection en dehors de votre application. Chaque fois que vous manipulez les éléments d’une sélection, vous devez surveiller et gérer les événements liés aux playlists du contrôle du lecteur Windows Media pour vous assurer que votre code fonctionne correctement. Ces événements sont *Player*. **CurrentPlaylistChange** et *Player*. **PlaylistChange**.
+> Les utilisateurs peuvent modifier le contenu d’une sélection en dehors de votre application. chaque fois que vous manipulez les éléments d’une sélection, vous devez surveiller et gérer les événements liés aux playlists du contrôle Lecteur Windows Media pour vous assurer que votre code fonctionne correctement. Ces événements sont *Player*. **CurrentPlaylistChange** et *Player*. **PlaylistChange**.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -149,9 +149,9 @@ pList.removeItem(currMedia);
 [**Objet playlist**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

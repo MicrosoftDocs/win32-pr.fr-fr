@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cscmig.dll
-ms.openlocfilehash: 50b387a1ff99a95fcbe0fae8fe8ad93d14c335b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99f3ed77dde867fecee6fd85b3a499fcd491f9fbef8b7a8aac0a5d7db5fe7550
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984419"
 ---
 # <a name="cscfindnextfilew-function"></a>CSCFindNextFileW fonction)
 
@@ -105,7 +105,7 @@ Pointeur vers une structure [**fileTime**](/windows/win32/api/minwinbase/ns-minw
 
 Cette fonction retourne **true** si elle est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

@@ -4,12 +4,12 @@ ms.assetid: 4a610588-556e-489f-ac14-73e5e6b776fe
 title: Mise à jour corrective des régions sélectionnées d’un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 778df4b0cc98eeacd1106929b18c7461c6fa9e70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24c075a3632dd6cf4d39a98467503c584cbf34a15311f37d0c8aabe0990bc74e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926231"
 ---
 # <a name="patching-selected-regions-of-a-file"></a>Mise à jour corrective des régions sélectionnées d’un fichier
 

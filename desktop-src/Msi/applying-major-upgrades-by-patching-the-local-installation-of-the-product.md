@@ -4,12 +4,12 @@ ms.assetid: be651457-5c66-478b-89d5-3d7607702b8e
 title: Application de mises à niveau majeures en appliquant des correctifs à l’installation locale du produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 043d106ed9f8d6455ab4412959b70854a526a4e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a8ee1aab4290e7cf81004f440af739b1adcd3442bd31d0e5c991db129874ff3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927069"
 ---
 # <a name="applying-major-upgrades-by-patching-the-local-installation-of-the-product"></a>Application de mises à niveau majeures en appliquant des correctifs à l’installation locale du produit
 
@@ -25,8 +25,8 @@ Une mise à niveau majeure peut être appliquée à une application en corrigean
 1.  Lancez l’installation du correctif à partir de la ligne de commande ou à l’aide d’un fichier exécutable. Pour lancer à partir de la ligne de commande, utilisez msiexec/p patch. msp. Pour lancer à partir d’un exécutable, appelez [**MsiApplyPatch**](/windows/desktop/api/Msi/nf-msi-msiapplypatcha) ou la [**méthode ApplyPatch**](installer-applypatch.md) et fournissez les mêmes arguments de ligne de commande.
 2.  Lors de la mise à jour corrective d’une installation du client, le programme d’installation ignore la source d’installation et poursuit la mise à jour corrective des fichiers déjà installés sur l’ordinateur de l’utilisateur.
 3.  Le programme d’installation modifie tous les composants corrigés marqués en tant que code d’exécution à partir de la source pour s’exécuter localement. Les utilisateurs ne peuvent pas exécuter ces composants à partir de la source tant que le correctif reste sur l’ordinateur.
-4.  Le programme d’installation ajoute toutes les transformations utilisées pour mettre à jour le fichier. msi ou ajoute des informations spécifiques aux correctifs au profil de l’utilisateur.
-5.  Le programme d’installation met en cache le fichier. msi sur l’ordinateur de l’utilisateur afin qu’il puisse effectuer une installation à la demande, une réinstallation et une réparation de l’application. Après l’application d’un correctif à une installation autonome, le programme d’installation référence deux listes sources ou plus dans des fichiers externes : une pour la source d’origine et une pour chaque correctif appliqué.
+4.  Le programme d’installation ajoute toutes les transformations utilisées pour mettre à jour le fichier .msi ou ajoute des informations spécifiques aux correctifs dans le profil de l’utilisateur.
+5.  Le programme d’installation met en cache le fichier .msi sur l’ordinateur de l’utilisateur afin qu’il puisse effectuer l’installation à la demande, la réinstallation et la réparation de l’application. Après l’application d’un correctif à une installation autonome, le programme d’installation référence deux listes sources ou plus dans des fichiers externes : une pour la source d’origine et une pour chaque correctif appliqué.
 
  
 

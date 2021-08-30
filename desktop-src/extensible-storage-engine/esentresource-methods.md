@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102608
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c07cd44075284e4e8fd736102f62f702e055db99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5e5ca0f686d25d3244f3ba949a0eedb028d1f05bbaebc7636dc2a79104c907c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018779"
 ---
 # <a name="esentresource-methods"></a>Méthodes EsentResource
 

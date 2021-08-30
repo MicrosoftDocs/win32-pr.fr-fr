@@ -1,9 +1,9 @@
 ---
-title: Settings. muet
+title: Paramètres. muet
 description: La propriété muet spécifie et récupère une valeur indiquant si l’audio est muet.
 ms.assetid: d6d4b46d-5631-4af7-bd99-21674f067121
 keywords:
-- Settings. muet Windows Media Player
+- Paramètres. muet Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7061439e9e091b2ad1cf6be49873d7e3895132b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26c3a6d510f2b5906ea604a783f59b6246ac8b302a2a77d8941237361ee888eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002389"
 ---
-# <a name="settingsmute"></a>Settings. muet
+# <a name="settingsmute"></a>Paramètres. muet
 
 La propriété **muet** spécifie et récupère une valeur indiquant si l’audio est muet.
 
@@ -76,7 +76,7 @@ L’exemple suivant crée un élément de case à cocher HTML qui permet à l’
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

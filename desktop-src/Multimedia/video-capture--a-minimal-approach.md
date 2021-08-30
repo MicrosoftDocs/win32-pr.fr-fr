@@ -3,16 +3,16 @@ title: Vidéo capture une approche minime
 description: Vidéo capture une approche minime
 ms.assetid: e39ff590-69c0-4927-90c2-786c6082068f
 keywords:
-- Video for Windows (VFW), capture vidéo
+- vidéo pour Windows (VFW), capture vidéo
 - VFW (vidéo pour Windows), capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a65d5d5bbdc00dfd947c5d917e514d72e3ac069
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1aab625117d6c887bee2febdbd693ee58116fbdfe127afd41ecf9cef7e9c83bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804299"
 ---
 # <a name="video-capture-a-minimal-approach"></a>Capture vidéo : approche minimale
 
@@ -58,6 +58,6 @@ Une fois que votre application a créé une fenêtre de capture de la classe de 
 
 Dans une application, vous pouvez arrêter la diffusion en continu de données capturées dans un fichier en envoyant le message [**WM \_ Cap \_ Stop**](wm-cap-stop.md) (ou macro [**capCaptureStop**](/windows/desktop/api/Vfw/nf-vfw-capcapturestop) ) à une fenêtre de capture. Vous pouvez également abandonner l’opération de capture en envoyant le message [**WM \_ Cap \_ Abort**](wm-cap-abort.md) (ou la macro [**capCaptureAbort**](/windows/desktop/api/Vfw/nf-vfw-capcaptureabort) ) à une fenêtre de capture.
 
- 
+ 
 
- 
+ 

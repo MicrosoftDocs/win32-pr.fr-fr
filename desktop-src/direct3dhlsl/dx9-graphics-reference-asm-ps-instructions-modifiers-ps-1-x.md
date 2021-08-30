@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9291d818252c95bc11fae72bd3311ec733a45fa
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 0a10bbc5d0cda167c8fb81626e732b02e7da7370110614ce5f7055e683d0e04b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024219"
 ---
 # <a name="modifiers-for-ps_1_x"></a>Modificateurs pour PS \_ 1 \_ X
 

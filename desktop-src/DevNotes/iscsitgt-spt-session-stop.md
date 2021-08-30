@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e4501fbe2d1bbf884448d6b6a9476ee4782d3da7
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: dba4c54e6fbae3ef947ec5ac5f5c4b178434566d15cc0591104dd38a8e456fb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103869673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001479"
 ---
 # <a name="iscsitgt_spt_session_stop-structure"></a>\_Structure d' \_ arrêt de session SPT ISCSITGT \_
 
-\[La structure suivante peut être utilisée dans Windows Server 2012 R2. Il sera peut-être modifié ou indisponible dans les versions ultérieures.\]
+\[la structure suivante peut être utilisée dans Windows Server 2012 R2. Il sera peut-être modifié ou indisponible dans les versions ultérieures.\]
 
 Utilisé avec l' [**IOCTL \_ SCSI \_ miniport**](/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport) IOCTL et le \_ \_ \_ \_ Code de contrôle 0x101 (CTLCODE ISCSITGT SPT session end) pour arrêter une session.
 
@@ -62,7 +62,7 @@ Handle opaque représentant une session.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/> |
 | Fin de la prise en charge des clients<br/>    | Aucun pris en charge<br/>                               |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                       |
 

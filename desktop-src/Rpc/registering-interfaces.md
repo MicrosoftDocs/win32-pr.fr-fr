@@ -4,12 +4,12 @@ description: Inscription d’une interface d’appel de procédure distante (RPC
 ms.assetid: c22e3fa8-98be-461a-b06d-292d3f655ffc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ea9e851e8c9663c8f66d983d3400b1ee398a9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91a4a6b3c5762a2f9ae74aef5440a5be072f6686b795016df6e9324c240baea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018839"
 ---
 # <a name="registering-interfaces"></a>Inscription des interfaces
 
@@ -144,7 +144,7 @@ Le tableau suivant récapitule les actions que la bibliothèque Runtime utilise 
 
 
 
- 
+ 
 
 L’UUID d’objet de l’appel est l’UUID d’objet trouvé dans un handle de liaison pour un appel de procédure distante.
 
@@ -155,7 +155,7 @@ Le serveur inscrit le type pour le EPV Manager en appelant [**RpcServerRegisterI
 > [!Note]  
 > L’UUID de l’objet Nil reçoit toujours automatiquement l’UUID de type Nil. Il est interdit de spécifier un UUID d’objet Nil dans la routine [**RpcObjectSetType**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectsettype) .
 
- 
+ 
 
 ## <a name="dispatching-a-remote-procedure-call-to-a-server-manager-routine"></a>Distribution d’un appel de procédure distante à une routine de gestion de serveur
 
@@ -173,20 +173,20 @@ Un cas simple où le serveur enregistre le EPV Manager par défaut, est décrit 
 
 
 
- 
+ 
 
 **Table de registre des objets**
 
 
 
-| UUID de l’objet             | Type d'objet |
+| UUID de l’objet             | Type d’objet |
 |-------------------------|-------------|
 | Pli                     | Pli         |
 | (Tout autre UUID d’objet) | Pli         |
 
 
 
- 
+ 
 
 **Mappage du handle de liaison à un vecteur de point d’entrée (EPV)**
 
@@ -199,7 +199,7 @@ Un cas simple où le serveur enregistre le EPV Manager par défaut, est décrit 
 
 
 
- 
+ 
 
 Les étapes suivantes décrivent les actions que la bibliothèque Runtime du serveur RPC prend, comme indiqué dans les tableaux précédents, lorsqu’un client avec l’interface UUID *uuid1* l’appelle.
 
@@ -237,13 +237,13 @@ Supposons que le serveur offre plusieurs interfaces et plusieurs implémentation
 
 
 
- 
+ 
 
 **Table de registre des objets**
 
 
 
-| UUID de l’objet      | Type d'objet |
+| UUID de l’objet      | Type d’objet |
 |------------------|-------------|
 | *UUID*          | *uuid3*     |
 | *uuidB*          | *uuid7*     |
@@ -256,7 +256,7 @@ Supposons que le serveur offre plusieurs interfaces et plusieurs implémentation
 
 
 
- 
+ 
 
 **Mappage du handle de liaison à un vecteur de point d’entrée**
 
@@ -273,7 +273,7 @@ Supposons que le serveur offre plusieurs interfaces et plusieurs implémentation
 
 
 
- 
+ 
 
 Les étapes suivantes décrivent les actions effectuées par la bibliothèque Runtime du serveur, comme indiqué dans les tableaux précédents, lorsqu’un client avec l’interface UUID *uuid2* et l’UUID d’objet *uuidC* l’appelle.
 
@@ -304,7 +304,7 @@ Cette fonction retourne l’une des valeurs suivantes.
 
 
 
- 
+ 
 
 ## <a name="supplying-your-own-object-inquiry-function"></a>Fournir votre propre fonction de recherche d’objets
 
@@ -351,9 +351,9 @@ Par exemple, vous pouvez fournir votre propre fonction de recherche d’objets l
 [**RpcServerUnregisterIfEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverunregisterifex)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

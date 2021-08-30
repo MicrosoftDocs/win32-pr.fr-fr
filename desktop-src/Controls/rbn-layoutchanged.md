@@ -3,7 +3,7 @@ title: RBN_LAYOUTCHANGED le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsque l’utilisateur modifie la disposition des bandes du contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e937d151-bfaa-41c0-a134-e70ff2f75d07
 keywords:
-- Contrôles Windows de code de notification RBN_LAYOUTCHANGED
+- RBN_LAYOUTCHANGED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d1fc14578435fc786ecc5496cec96eb2224b4d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b509fa3bf4d68dbf5c6eacc1eede5cf75a58c4c7fde1960b355408d02ffd5e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984969"
 ---
 # <a name="rbn_layoutchanged-notification-code"></a>\_Code de notification RBN LAYOUTCHANGED
 
@@ -55,8 +55,8 @@ La valeur de retour de cette notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

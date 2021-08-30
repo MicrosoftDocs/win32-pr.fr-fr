@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_CALLBACK_STATUS (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ callback \_ Status définit une fonction de rappel d’État dans l’application. AVICap appelle cette procédure à chaque modification de l’état de la fenêtre de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetCallbackOnStatus.
 ms.assetid: 451ba9f9-7bfb-4c57-af6c-d5f691f39618
 keywords:
-- Message WM_CAP_SET_CALLBACK_STATUS Windows Multimedia
+- message WM_CAP_SET_CALLBACK_STATUS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 493893a51d51b1ce61d43ff54461bb71c08a9f6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5a74c92f35f9cd504fdbf332315a3a4ad8ac336e61571d68cff8b4cee73c869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891869"
 ---
 # <a name="wm_cap_set_callback_status-message"></a>\_Message d' \_ \_ État de rappel \_ de la définition de l’embout WM
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel d’État, de type [**capStatusCallback**](/
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications peuvent éventuellement définir une fonction de rappel d’État. Si cette valeur est définie, AVICap appelle cette procédure dans les cas suivants :
 

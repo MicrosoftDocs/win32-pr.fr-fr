@@ -4,12 +4,12 @@ ms.assetid: 924ae169-b65e-4cd7-84a4-d206222233c8
 title: Propriétés ISystemInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5494bf171f7afecf41a6c31ffac9bb103b739518
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 494f0ab237ab34177f6aaceb6a19d58e7cfc6241427fe5aa6e30d52fc291df70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859939"
 ---
 # <a name="isysteminformation-properties"></a>Propriétés ISystemInformation
 

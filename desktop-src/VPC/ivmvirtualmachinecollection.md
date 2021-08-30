@@ -1,6 +1,6 @@
 ---
 title: Interface IVMVirtualMachineCollection (VPCCOMInterfaces. h)
-description: Définit la collection de machines virtuelles au sein de Windows Virtual PC. Pour obtenir un objet IVMVirtualMachineCollection, utilisez la propriété VirtualMachines IVMVirtualPC.
+description: définit la collection d’ordinateurs virtuels au sein d’Windows virtual PC. Pour obtenir un objet IVMVirtualMachineCollection, utilisez la propriété VirtualMachines IVMVirtualPC.
 ms.assetid: 3d34e791-2dba-4529-b489-96a0c6227294
 keywords:
 - Virtual PC de l’interface IVMVirtualMachineCollection
@@ -15,18 +15,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e27426f96e409a1e67eb519e7a864ee7461879a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d3ca6a04d95d20a6e18e5fe70b285becc6fb1744e1465dad4e20d0c28d9fa45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006789"
 ---
 # <a name="ivmvirtualmachinecollection-interface"></a>Interface IVMVirtualMachineCollection
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Définit la collection de machines virtuelles au sein de Windows Virtual PC. Pour obtenir un objet **IVMVirtualMachineCollection** , utilisez la propriété [**IVMVirtualPC :: VirtualMachines**](ivmvirtualpc-virtualmachines.md) .
+définit la collection d’ordinateurs virtuels au sein d’Windows virtual PC. Pour obtenir un objet **IVMVirtualMachineCollection** , utilisez la propriété [**IVMVirtualPC :: VirtualMachines**](ivmvirtualpc-virtualmachines.md) .
 
 ## <a name="members"></a>Membres
 
@@ -43,7 +43,7 @@ L’interface **IVMVirtualMachineCollection** possède les propriétés suivante
 | Propriété                                                             | Type d’accès          | Description                                                                    |
 |:---------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmvirtualmachinecollection--newenum.md)<br/> | Lecture seule<br/> | Énumérateur de la collection.<br/>                                   |
-| [**Saut**](ivmvirtualmachinecollection-count.md)<br/>        | Lecture seule<br/> | Nombre de machines virtuelles dans ce regroupement.<br/>                  |
+| [**Count**](ivmvirtualmachinecollection-count.md)<br/>        | Lecture seule<br/> | Nombre de machines virtuelles dans ce regroupement.<br/>                  |
 | [**Élément**](ivmvirtualmachinecollection-item.md)<br/>          | Lecture seule<br/> | Objet ordinateur virtuel qui correspond à l’index spécifié.<br/> |
 
 
@@ -56,7 +56,7 @@ L’interface **IVMVirtualMachineCollection** possède les propriétés suivante
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                           |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                  |

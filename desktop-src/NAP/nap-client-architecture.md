@@ -1,24 +1,24 @@
 ---
 title: Architecture du client NAP
-description: Un client NAP est un ordinateur exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou Windows Server 2008 qui comprend la plateforme NAP.
+description: un client nap est un ordinateur exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou Windows Server 2008 qui comprend la plateforme NAP.
 ms.assetid: 163c33c9-b18b-49f9-a2a1-fd90a1dc0826
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15862eaa6ae4f4c1f79c53cf9d540aedec295e8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be876cf7f0cf53c1c3c5885d94c43f45c1f79759d80490a0647d5e7d7678fba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037612"
 ---
 # <a name="nap-client-architecture"></a>Architecture du client NAP
 
 > [!Note]  
 > La plate-forme de protection d’accès réseau n’est pas disponible à partir de Windows 10
 
- 
+ 
 
-Un client NAP est un ordinateur exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou Windows Server 2008 qui comprend la plateforme NAP.
+un client nap est un ordinateur exécutant Windows XP avec Service Pack 3 (SP3), Windows Vista ou Windows Server 2008 qui comprend la plateforme NAP.
 
 Cette illustration montre l’architecture de la plateforme NAP sur un client NAP.
 
@@ -32,7 +32,7 @@ L’architecture du client NAP se compose des éléments suivants :
 
 -   Une couche de composants de l’agent d’intégrité système (SHA)
 
-    Un composant SHA gère et signale un ou plusieurs éléments de l’intégrité du système. Par exemple, il peut y avoir un SHA pour les signatures antivirus et un SHA pour les mises à jour du système d’exploitation. Un SHA peut être mis en correspondance avec un serveur de mise à jour, qui est un ordinateur qui contient des ressources de mise à jour d’intégrité auxquelles les clients NAP peuvent accéder pour remédier à leur état non conforme. Par exemple, un SHA pour vérifier les signatures antivirus est mis en correspondance avec le serveur qui contient le dernier fichier de signature antivirus. Il n’est pas nécessaire de disposer d’un serveur de mise à jour correspondant. Par exemple, un agent SHA peut simplement vérifier les paramètres du système local pour s’assurer qu’un pare-feu basé sur l’hôte est activé. Windows Vista et Windows XP Service Pack 3 incluent l’agent d’intégrité de la sécurité Windows (WSHA) qui surveille les paramètres du Security Center Windows. Les fournisseurs de logiciels tiers ou Microsoft peuvent fournir des SHA supplémentaires à la plate-forme NAP.
+    Un composant SHA gère et signale un ou plusieurs éléments de l’intégrité du système. Par exemple, il peut y avoir un SHA pour les signatures antivirus et un SHA pour les mises à jour du système d’exploitation. Un SHA peut être mis en correspondance avec un serveur de mise à jour, qui est un ordinateur qui contient des ressources de mise à jour d’intégrité auxquelles les clients NAP peuvent accéder pour remédier à leur état non conforme. Par exemple, un SHA pour vérifier les signatures antivirus est mis en correspondance avec le serveur qui contient le dernier fichier de signature antivirus. Il n’est pas nécessaire de disposer d’un serveur de mise à jour correspondant. Par exemple, un agent SHA peut simplement vérifier les paramètres du système local pour s’assurer qu’un pare-feu basé sur l’hôte est activé. Windows Vista et Windows XP Service Pack 3 incluent l’Agent d’intégrité des Sécurité Windows (WSHA) qui surveille les paramètres du centre d’Sécurité Windows. Les fournisseurs de logiciels tiers ou Microsoft peuvent fournir des SHA supplémentaires à la plate-forme NAP.
 
 -   Agent NAP
 
@@ -50,7 +50,7 @@ Les sections suivantes décrivent en détail les composants de l’architecture 
 
 Un client de contrainte de mise en conformité NAP demande un certain niveau d’accès à un réseau, passe l’état d’intégrité de l’ordinateur à un point de contrainte de mise en conformité NAP qui fournit l’accès au réseau. Les points de contrainte de mise en conformité NAP sont des ordinateurs ou des périphériques d’accès réseau qui utilisent NAP ou peuvent être utilisés avec NAP pour exiger l’évaluation de l’état d’intégrité d’un client NAP et fournir un accès réseau ou une communication limité. Si l’intégrité de l’ordinateur n’est pas conforme, la protection d’accès réseau (EC) NAP indique l’État restreint du client NAP à d’autres composants de l’architecture du client NAP.
 
-La protection d’accès réseau (NAP) pour la plateforme NAP fournie dans Windows XP avec SP3, Windows Vista et Windows Server 2008 est la suivante :
+la protection d’accès réseau ECs pour la plateforme nap fournie dans Windows XP avec SP3, Windows Vista et Windows Server 2008 sont les suivantes :
 
 -   IPsec NAP IPsec pour les communications protégées par IPsec.
 -   Une protection d’accès réseau (NAP) EAPHost pour les connexions authentifiées par 802.1 X.
@@ -58,15 +58,15 @@ La protection d’accès réseau (NAP) pour la plateforme NAP fournie dans Windo
 -   Une configuration d’adresse IPv4 DHCP NAP pour DHCP.
 -   Une passerelle TS NAP pour les connexions de passerelle TS.
 
-Pour Windows XP avec SP3, il existe des connexions NAP et sans fil authentifiées NAP pour 802.1 X.
+pour Windows XP avec SP3, il existe des connexions NAP et sans fil authentifiées pour 802.1 x.
 
 ### <a name="ipsec-nap-ec"></a>IPsec NAP EC
 
-La protection d’accès réseau (EC) IPsec est un composant qui obtient les SSoH de l’agent NAP et les envoie à une autorité HRA, un ordinateur exécutant Windows Server 2008 et Internet Information Services (IIS) qui obtient les certificats d’intégrité d’une autorité de certification (CA) pour les ordinateurs conformes. La protection d’accès réseau IPsec EC est connue sous le nom de partie de confiance IPsec dans le composant logiciel enfichable de configuration du client NAP. Le EC IPsec NAP interagit également avec les éléments suivants :
+la protection d’accès réseau (EC) IPsec est un composant qui obtient l’SSoH de l’Agent nap et l’envoie à une autorité HRA, un ordinateur exécutant Windows Server 2008 et Internet Information Services (IIS) qui obtient les certificats d’intégrité d’une autorité de certification (CA) pour les ordinateurs conformes. La protection d’accès réseau IPsec EC est connue sous le nom de partie de confiance IPsec dans le composant logiciel enfichable de configuration du client NAP. Le EC IPsec NAP interagit également avec les éléments suivants :
 
 -   Magasin de certificats pour stocker le certificat d’intégrité.
--   Les composants IPsec dans Windows pour s’assurer que le certificat d’intégrité est utilisé pour la communication protégée par IPsec.
--   Le pare-feu basé sur l’hôte (tel que le pare-feu Windows) afin que le trafic protégé par IPsec soit autorisé par le pare-feu.
+-   les composants IPsec dans Windows pour s’assurer que le certificat d’intégrité est utilisé pour la communication protégée par IPsec.
+-   le pare-feu basé sur l’hôte (par exemple, Windows pare-feu) afin que le trafic protégé par IPsec soit autorisé par le pare-feu.
 
 ### <a name="eaphost-nap-ec"></a>Protection d’accès réseau EAPHost
 
@@ -96,9 +96,9 @@ L’agent NAP fournit les services suivants :
 -   Conserve l’État restreint du système et collecte des informations d’État à partir de chaque SHA.
 -   Passe SoHRs à l’algorithme SHA approprié.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -366,7 +366,7 @@
     - name: Glossaire
       href: glossary-gly.md
       items:
-        - name: Un
+        - name: A
           href: a-gly.md
         - name: C
           href: c-gly.md

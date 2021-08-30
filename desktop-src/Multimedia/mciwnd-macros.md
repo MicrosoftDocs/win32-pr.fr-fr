@@ -10,12 +10,12 @@ keywords:
 - MCIWnd, macros
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79addd5944a491e2e3fc946a0e8ccce65055d5ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e67b950c7cf89462df4095c7a93357c98d40f96654ff0da6eedc4cf373f0e87d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783399"
 ---
 # <a name="mciwnd-macros"></a>MCIWnd, macros
 
@@ -98,9 +98,9 @@ Les macros suivantes sont utilisées avec MCIWnd.
 [Référence MCIWnd](mciwnd-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

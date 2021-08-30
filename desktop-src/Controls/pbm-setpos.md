@@ -3,7 +3,7 @@ title: Message PBM_SETPOS (commctrl. h)
 description: Définit la position actuelle d’une barre de progression et redessine la barre pour refléter la nouvelle position.
 ms.assetid: 9ebeaa19-0f42-4af7-85d8-aae22498fd6f
 keywords:
-- PBM_SETPOS les contrôles de message Windows
+- PBM_SETPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a157f6a220f4932d39d13f08df79afa99d7348
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bf9c6a4c21439f93f3459a5061daf28192081a042cc663a644110a1e54d2c54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986149"
 ---
 # <a name="pbm_setpos-message"></a>\_Message PBM SetPos
 
@@ -43,7 +43,7 @@ Entier signé qui devient la nouvelle position.
 
 Retourne la position précédente.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *wParam* est en dehors de la plage du contrôle, la position est définie sur la limite la plus proche.
 
@@ -55,8 +55,8 @@ N’envoyez pas ce message à un contrôle dont le style [**PBS est \_ défilant
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

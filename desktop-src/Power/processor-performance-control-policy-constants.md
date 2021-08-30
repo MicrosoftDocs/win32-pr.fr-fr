@@ -4,12 +4,12 @@ ms.assetid: 928ba485-f767-47df-8b57-7630c68068a7
 title: Constantes de la stratégie de contrôle des performances du processeur (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9597750f37d9efda80d4bb2bfff7bc121982e7d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d80b2a91e90047619e582c2e82f1c84d3003df960998bcc037677a8d6200b408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886939"
 ---
 # <a name="processor-performance-control-policy-constants"></a>Constantes de la stratégie de contrôle des performances du processeur
 
@@ -32,9 +32,9 @@ Les constantes de stratégie de contrôle des performances du processeur indique
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
-| En-tête<br/>                   | <dl> <dt>Winnt. h (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
+| En-tête<br/>                   | <dl> <dt>winnt. h (inclure Windows. h)</dt> </dl> |
 
 
 

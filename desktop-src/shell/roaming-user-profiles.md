@@ -1,5 +1,5 @@
 ---
-description: Si un ordinateur exécute Windows 2000 Server ou une version ultérieure sur un réseau, les utilisateurs peuvent stocker leurs profils sur le serveur. Ces profils sont appelés profils utilisateur itinérants.
+description: si un ordinateur exécute Windows serveur 2000 ou version ultérieure sur un réseau, les utilisateurs peuvent stocker leurs profils sur le serveur. Ces profils sont appelés profils utilisateur itinérants.
 title: Profils utilisateur itinérants
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e3b95374b06c4efc665b231b4c7e1f1d81861dea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 05d86b89bcb3e6b79d3f66af6abb1970ae31b7956fa82fc26ba0fec5a1351aa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820409"
 ---
 # <a name="roaming-user-profiles"></a>Profils utilisateur itinérants
 
-Si un ordinateur exécute Windows 2000 Server ou une version ultérieure sur un réseau, les utilisateurs peuvent stocker leurs profils sur le serveur. Ces profils sont appelés *profils utilisateur itinérants*.
+si un ordinateur exécute Windows serveur 2000 ou version ultérieure sur un réseau, les utilisateurs peuvent stocker leurs profils sur le serveur. Ces profils sont appelés *profils utilisateur itinérants*.
 
 Les profils utilisateur itinérants présentent les avantages suivants :
 

@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_STOP_PLAY (VFW. h)
-description: Le \_ message ICM Draw \_ Stop \_ Play avertit un pilote de rendu quand une opération de lecture est terminée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStopPlay.
+description: le \_ message ICM DRAW \_ STOP \_ PLAY avertit un pilote de rendu quand une opération de lecture est terminée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStopPlay.
 ms.assetid: cfe2ee98-80d0-4554-bcbd-9873769da674
 keywords:
-- Message ICM_DRAW_STOP_PLAY Windows Multimedia
+- message ICM_DRAW_STOP_PLAY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea3964b623c93d452ab7bf9a32c6b9d9b1573fec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddb5ed2d437a3abc0d24972ee739905a72d2333509e7213973bab9459c7c947a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784979"
 ---
-# <a name="icm_draw_stop_play-message"></a>Message d’arrêt de la \_ \_ \_ lecture ICM
+# <a name="icm_draw_stop_play-message"></a>ICM \_ DESSINER le message d’arrêt de la \_ \_ lecture
 
-Le message **ICM \_ Draw \_ Stop \_ Play** avertit un pilote de rendu quand une opération de lecture est terminée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStopPlay**](/windows/desktop/api/Vfw/nf-vfw-icdrawstopplay) .
+le message **ICM \_ DRAW \_ STOP \_ PLAY** avertit un pilote de rendu quand une opération de lecture est terminée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStopPlay**](/windows/desktop/api/Vfw/nf-vfw-icdrawstopplay) .
 
 
 ```C++
@@ -38,9 +38,9 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Utilisez ce message lorsque l’opération de lecture est terminée. Utilisez le message [**ICM \_ Draw \_ Stop**](icm-draw-stop.md) pour terminer le minutage.
+Utilisez ce message lorsque l’opération de lecture est terminée. utilisez le [**ICM \_ dessiner \_**](icm-draw-stop.md) le message d’arrêt pour terminer le minutage.
 
 ## <a name="requirements"></a>Configuration requise
 

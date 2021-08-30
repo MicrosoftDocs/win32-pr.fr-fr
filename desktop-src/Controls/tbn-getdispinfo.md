@@ -3,15 +3,15 @@ title: TBN_GETDISPINFO le code de notification (commctrl. h)
 description: Récupère les informations d’affichage d’un élément de barre d’outils. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ed6e4141-2bf8-4a92-8349-f3833c87fcf3
 keywords:
-- Contrôles Windows de code de notification TBN_GETDISPINFO
+- TBN_GETDISPINFO les contrôles de Windows de code de notification
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5f3a0a47adfe7f172f7a4d0e4c9139b67aef01d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ffa2afafee64a82fb440d3d1e3031899ab94c0614d32449062ca29426aaa6a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876849"
 ---
 # <a name="tbn_getdispinfo-notification-code"></a>\_Code de notification TBN GETDISPINFO
 
@@ -47,8 +47,8 @@ La valeur de retour est ignorée par le contrôle.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TBN \_ GETDISPINFOW** (Unicode) et **TBN \_ GETDISPINFOA** (ANSI)<br/>           |
 

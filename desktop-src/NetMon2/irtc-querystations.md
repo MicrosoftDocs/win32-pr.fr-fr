@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 1a0cebd789284dd41c293424a70686f30eb4601d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 951bdc096a432ae57004962f21c60d37f5fc44fec548a7e3364a5f8b28696da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037249"
 ---
 # <a name="irtcquerystations-method"></a>IRTC :: QueryStations, méthode
 
@@ -65,7 +65,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être appelée à tout moment après l’appel de la méthode [**CreateNPPInterface**](createnppinterface.md) . Un appel à cette méthode est un appel synchrone, qui peut prendre plusieurs secondes pendant que Moniteur réseau attend que les ordinateurs distants répondent à la requête. Seuls les ordinateurs sur le sous-réseau local peuvent être interrogés.
 

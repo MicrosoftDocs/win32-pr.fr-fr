@@ -4,12 +4,12 @@ ms.assetid: 24a5c13c-573a-4fc2-ac19-98188c9eb68a
 title: Utilisation d’objets Semaphore
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ded28014c7e832ab5bdc96d724d57e314d0cc857
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: f66ca0dc941852efd20d1d17bca1c1730fb6bac9782c86c50ef8fdd9e94bd043
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106525314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034689"
 ---
 # <a name="using-semaphore-objects"></a>Utilisation d’objets Semaphore
 

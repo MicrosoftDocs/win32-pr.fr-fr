@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 732e08304ea749519615f8f6c570eefbd7c3c6a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 276c07ef2059352dd77ea69d378b7b5ec8328c9425dafd5a20264e8204aa9099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804508"
 ---
 # <a name="friendly-names-attribute"></a>Attribut Friendly-Names
 
@@ -45,7 +45,7 @@ Liste des définitions de noms d’affichage par défaut prises en charge par un
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

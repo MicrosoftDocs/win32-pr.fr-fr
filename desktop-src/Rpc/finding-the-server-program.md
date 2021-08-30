@@ -6,20 +6,20 @@ keywords:
 - Appel de procédure distante RPC, tâches, recherche du programme serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73b822dbca1a927e13f01d7c91aa7c78267db4d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d4732bb1b47efc2614c79d5f36426c7d9f2118e2c9026f5a76aaf4b11ce54fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106530783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021219"
 ---
 # <a name="finding-the-server-program"></a>Recherche du programme serveur
 
 Une fois que l’exécution RPC côté client se connecte à un système hôte serveur demandé dans le handle de liaison, la bibliothèque Runtime RPC du client recherche le processus serveur. Pour ce faire, il interroge le mappage du point de terminaison sur le système hôte du serveur. Le mappage de point de terminaison contient des informations sur le point de terminaison sur lequel le serveur est à l’écoute.
 
- 
+ 
 
- 
+ 
 
 
 

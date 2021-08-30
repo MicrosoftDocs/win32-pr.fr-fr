@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 45ea9ccf7d3a43e325073f04e28bbd392fa34998
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b6bb2cd36d6ce8ca422d680a05a1e84318d745981a8ca15d9de0be3dfe45c03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879389"
 ---
 # <a name="capicom_certificate_include_option-enumeration"></a>Le certificat CAPICOM \_ \_ inclut l' \_ énumération des options
 
@@ -36,7 +36,7 @@ Le type d’énumération d' **\_ \_ \_ option de certificat CAPICOM** définit 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’énumération d' **\_ \_ \_ option de certificat CAPICOM** est utilisé par la méthode [**Certificate. Save**](certificate-save.md) .
 
@@ -46,7 +46,7 @@ Le type d’énumération d' **\_ \_ \_ option de certificat CAPICOM** est utili
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

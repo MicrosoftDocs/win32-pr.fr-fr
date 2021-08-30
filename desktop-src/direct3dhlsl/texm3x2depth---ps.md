@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 26d2c3efd1a31681520828b18d606d618d8c900a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 17d3f04cd722664992911759ae1f5f6a4bd5947e0b46e37dc61b62b999ac8d47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892529"
 ---
 # <a name="texm3x2depth---ps"></a>texm3x2depth-PS
 
@@ -29,14 +29,14 @@ Calculez la valeur de profondeur à utiliser pour le test de profondeur pour ce 
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction doit être utilisée avec l’instruction [texm3x2pad-PS](texm3x2pad---ps.md) .
 
@@ -103,9 +103,9 @@ Lors de l’échantillonnage multiple, l’utilisation de cette instruction éli
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,18 +6,18 @@ keywords:
 - Windows Media Format SDK, flux de texte
 - ASF (Advanced Systems Format), flux de texte
 - ASF (format de systèmes avancés), flux de texte
-- Windows Media Format SDK, flux
+- Windows Media Format SDK, Streams
 - ASF (Advanced Systems Format), flux
 - ASF (format de systèmes avancés), flux
 - flux de texte, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae43314fd11a05e150811c523281a5f11831cccf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ca3710badb2fae232e4ac81111c1dc268a68e11a91b5105dc306d7d80697628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929299"
 ---
 # <a name="text-streams"></a>Flux de texte
 
@@ -27,15 +27,15 @@ Les flux de texte contiennent du texte brut stocké dans des exemples. Votre app
 
 <dl> <dt>
 
-[**Flux arbitraires**](arbitrary-streams.md)
+[**Flux arbitraire**](arbitrary-streams.md)
 </dt> <dt>
 
-[**Configuration de flux de texte**](configuring-text-streams.md)
+[**Configuration de la Flux de texte**](configuring-text-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

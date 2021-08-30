@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ea8f3da122b8c8dbc6ba113d8088f71d5b19f104
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8501e94ef465e37a3e2d850d9541597f72367b57a9f76b476876d70a9db05e19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928578"
 ---
 # <a name="ctransinplacefiltertypesmatch-method"></a>Méthode CTransInPlaceFilter. TypesMatch
 
@@ -50,7 +50,7 @@ Retourne la **valeur true** si les types de média d’entrée et de sortie sont
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

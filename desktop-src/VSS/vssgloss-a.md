@@ -5,12 +5,12 @@ ms.assetid: 928341a3-ed3a-4db0-9648-1a5efaff5435
 title: A (Service VSS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e654c0742c824ae7ad17d91e3a2ffa65c9e6bf77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05d858294c5647e62d1eb949b3fa336d3dcc513a9a374443e0fe9621f1721800
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986539"
 ---
 # <a name="a-volume-shadow-copy-service"></a>A (Service VSS)
 
@@ -28,7 +28,7 @@ A [B](vssgloss-b.md) [C](vssgloss-c.md) [D](vssgloss-d.md) [e](vssgloss-e.md) [F
 <span id="base.vssgloss_active_directory"></span><span id="BASE.VSSGLOSS_ACTIVE_DIRECTORY"></span>**Active Directory**
 </dt> <dd>
 
-Active Directory Service (ADSI) est un service basé sur COM qui fournit un mécanisme de localisation, d’identification et d’accès aux utilisateurs et aux ressources disponibles dans un système d’environnement informatique distribué. En particulier, le service Active Directory est utilisé pour gérer les informations d’annuaire d’entreprise en vue de leur distribution par un serveur de domaine Windows.
+Active Directory Service (ADSI) est un service basé sur COM qui fournit un mécanisme de localisation, d’identification et d’accès aux utilisateurs et aux ressources disponibles dans un système d’environnement informatique distribué. en particulier, le service Active Directory est utilisé pour gérer les informations d’annuaire d’entreprise en vue de leur distribution par un serveur de domaine Windows.
 
 </dd> <dt>
 

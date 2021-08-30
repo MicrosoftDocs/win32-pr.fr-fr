@@ -4,12 +4,12 @@ ms.assetid: E2D8DA99-4EA2-4847-B699-80A6994C66C0
 title: Améliorations de DXGI 1.2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd274918d179bc7adeb8dd132fe604cf56d80f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 98f1903ca75615a887295a856bb5804c6d8f17d150ae41258ec9438fdb95196b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025619"
 ---
 # <a name="dxgi-12-improvements"></a>Améliorations de DXGI 1.2
 
@@ -60,7 +60,7 @@ Pour plus d’informations sur la modification des valeurs de données lorsque v
 
 ## <a name="desktop-duplication"></a>Duplication des postes de travail
 
-Windows 8 désactive les pilotes de mise en miroir Windows 2000 Display Driver Model (XDDM) standard. DXGI 1,2 fournit l’API de duplication de bureau comme alternative. L’API de duplication de bureau fournit un accès à distance à l’image de bureau pour les scénarios de collaboration.
+Windows 8 désactive les pilotes de miroir du modèle de pilote d’affichage (XDDM) standard Windows 2000. DXGI 1,2 fournit l’API de duplication de bureau comme alternative. L’API de duplication de bureau fournit un accès à distance à l’image de bureau pour les scénarios de collaboration.
 
 L’API de duplication de bureau est constituée des méthodes suivantes.
 
@@ -78,7 +78,7 @@ Pour plus d’informations sur l’utilisation de l’API de duplication de bure
 
 ## <a name="improved-usage-of-shared-resources-and-synchronized-events"></a>Amélioration de l’utilisation des ressources partagées et des événements synchronisés
 
-Dans les versions précédentes de Windows, les applications utilisent l’interrogation continue pour déterminer si l’unité de traitement graphique (GPU) a fini de traiter des commandes arbitraires. DXGI 1,2 permet à une application d’effectuer la mise en file d’attente d’un événement sur un appareil DXGI. L’application peut ensuite attendre que l’appareil DXGI signale l’événement pour déterminer que le GPU a fini d’exécuter toutes les commandes de rendu. DXGI 1,2 permet à plusieurs appareils de partager une ressource par le biais d’un handle NT.
+dans les versions précédentes de Windows, les applications utilisent l’interrogation continue pour déterminer si l’unité de traitement graphique (GPU) a fini de traiter des commandes arbitraires. DXGI 1,2 permet à une application d’effectuer la mise en file d’attente d’un événement sur un appareil DXGI. L’application peut ensuite attendre que l’appareil DXGI signale l’événement pour déterminer que le GPU a fini d’exécuter toutes les commandes de rendu. DXGI 1,2 permet à plusieurs appareils de partager une ressource par le biais d’un handle NT.
 
 Vous pouvez utiliser l’API DXGI 1,2 et l’API Direct3D 11,1 suivantes pour partager des ressources et synchroniser des événements.
 
@@ -102,7 +102,7 @@ Vous pouvez utiliser la méthode [**ID3D11Debug :: SetFeatureMask**](/windows/w
 
 ## <a name="gpu-preemption-at-finer-granularity-levels-for-wddm-12-driver-model"></a>Préemption GPU à des niveaux de granularité plus fins pour le modèle de pilote WDDM 1,2
 
-À compter du modèle de pilote WDDM (Windows Display Driver Model) 1,2, le planificateur WDDM peut préempter l’exécution des tâches de l’application par le GPU à des niveaux de granularité plus précis. DXGI 1,2 vous permet de déterminer les niveaux de granularité de préemption du GPU.
+à partir du modèle de pilote wddm (Windows Display Driver model) 1,2, le planificateur WDDM peut préempter l’exécution des tâches de l’application par le GPU à des niveaux de granularité plus fine. DXGI 1,2 vous permet de déterminer les niveaux de granularité de préemption du GPU.
 
 Cette fonctionnalité DXGI 1,2 est constituée de la méthode suivante.
 
@@ -110,7 +110,7 @@ Cette fonctionnalité DXGI 1,2 est constituée de la méthode suivante.
 
 ## <a name="debugging-apis"></a>API de débogage
 
-Le kit de développement logiciel (SDK) Windows 8 fournit des fonctionnalités de débogage supplémentaires. Vous pouvez utiliser les API DXGI suivantes à partir de Dxgidebug.dll pour déboguer votre application :
+le kit de développement logiciel (SDK) Windows 8 fournit des fonctionnalités de débogage supplémentaires. Vous pouvez utiliser les API DXGI suivantes à partir de Dxgidebug.dll pour déboguer votre application :
 
 -   [**DXGIGetDebugInterface**](/windows/desktop/api/DXGIDebug/nf-dxgidebug-dxgigetdebuginterface)
 -   [**IDXGIDebug**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgidebug)

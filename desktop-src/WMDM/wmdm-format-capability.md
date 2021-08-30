@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f8dbdd81aff63a819624cdb1c778cb9bec712b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c42c654bc07e6e47e5ead5b374f6cd16b20c2fc3e36433eb68006b1e270c1ca6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004799"
 ---
 # <a name="wmdm_format_capability-structure"></a>Structure de la \_ capacité de format WMDM \_
 
@@ -55,7 +55,7 @@ Pointeur vers un tableau de structures de [**\_ \_ configuration prop WMDM**](wm
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure de **\_ \_ capacité de format WMDM** fournit un mécanisme flexible pour exprimer les fonctionnalités de l’appareil pour un format particulier.
 

@@ -4,12 +4,12 @@ ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: Élément, nœud
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc4d39a592b5b6328bd31ff37761cfd3f0138c0
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: c1dd4258628fbd40c19f8cb1acf3fd0bacbc5557abb967b879dcb78031736288
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008589"
 ---
 # <a name="groupnode-element"></a>Élément, nœud
 
@@ -23,7 +23,7 @@ Contient un ensemble d’éléments ([**paragraphe**](paragraph-element.md), [**
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Humidité**](content-element--journal-reader.md)
+[**Content**](content-element--journal-reader.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
@@ -33,11 +33,11 @@ Contient un ensemble d’éléments ([**paragraphe**](paragraph-element.md), [**
 
 [**Dessin**](drawing-element.md)
 
-[**Text**](text-element.md)
+[**Financière**](text-element.md)
 
 [**Image**](docimage-element.md)
 
-[**Indicateur**](flag-element.md)
+[**Activé**](flag-element.md)
 
 ## <a name="attributes"></a>Attributs
 

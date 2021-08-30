@@ -1,6 +1,6 @@
 ---
 title: Types de médias (déconseillé)
-description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | Types de médias
+description: pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez Windows Media Audio et les api de codec vidéo et DSP. | Types de médias
 ms.assetid: e56ed247-eb4d-42aa-914a-d4138ba45cfb
 keywords:
 - Types de supports Windows Media format
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 825b35db69cbd653202cfb5a46da732a7138fed2
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: b7bd80080d5fc02ee2e8ef953fc3cc6903430e13d176771417b703922d58dc58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106540115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929949"
 ---
 # <a name="media-types"></a>Types de médias
 
-Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez [Windows Media Audio et les api de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
 
  
 

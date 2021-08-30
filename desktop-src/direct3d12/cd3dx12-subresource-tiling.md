@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07677c8a8367f58016a0236cf0b5558b852bef01
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c36a0625b2389783ea4dafa65930e3095329e5bf5e2cfd4c57813e5251f81b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987979"
 ---
 # <a name="cd3dx12_subresource_tiling-structure"></a>\_Structure de mosaïques de sous-ressources CD3DX12 \_
 

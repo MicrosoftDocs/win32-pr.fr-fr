@@ -4,12 +4,12 @@ description: Une description d’appareil UPnP est un document XML qui décrit l
 ms.assetid: b2a7d342-958c-439d-8b17-b4fdc5fbad12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b52df95de15481c7004704b6f67cd9478083ac88
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7949bf275416f8d4754028f0cd0fe9ac70e3a18c381107cba94569a0b1ec4dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008099"
 ---
 # <a name="creating-a-device-description"></a>Création d’une description d’appareil
 
@@ -18,7 +18,7 @@ Une [*Description d’appareil*](d-gly.md) UPnP est un document XML qui décrit 
 > [!Note]  
 > Il peut y avoir des problèmes lors de l’utilisation de la description du service à partir de www.upnp.org.
 
- 
+ 
 
 Le développeur d’un appareil doit fournir des descriptions de l’appareil et du service pour l’appareil.
 
@@ -33,12 +33,12 @@ Les éléments d’une description d’appareil que le développeur d’un appar
 > [!Note]  
 > Toutes les URL générées par l’hôte d’appareil sont des URL relatives. Les URL sont relatives à l’emplacement du document de description de l’appareil, qui est envoyé dans l’annonce initiale de l’appareil.
 
- 
+ 
 
 > [!IMPORTANT]
 > N’ajoutez pas de commentaires au document de description de l’appareil, car cela peut entraîner des échecs d’inscription lorsque l’hôte de l’appareil Plug-and-Play universel tente d’analyser le document.
 
- 
+ 
 
 ## <a name="string-length-limitations"></a>Limitations de longueur de chaîne
 
@@ -55,9 +55,9 @@ Les longueurs de chaîne suivantes sont utilisées dans l’API de l’hôte d�
 -   **serviceType** – 64 octets
 -   **ServiceId** – 64 octets
 
- 
+ 
 
- 
+ 
 
 
 

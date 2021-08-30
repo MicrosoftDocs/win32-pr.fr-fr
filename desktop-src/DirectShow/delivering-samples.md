@@ -4,12 +4,12 @@ ms.assetid: 31aabb6d-dec6-41fa-b24d-35a77b67bc4a
 title: Exemples de livrables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 083bc8c88649c04bdf9f93f86ebcc277ee48e75e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 979b08a2aec8f33794f0f06ec80b6de10d9e270c40186c1e30e665bcee5ce7b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928559"
 ---
 # <a name="delivering-samples"></a>Exemples de livrables
 
@@ -30,9 +30,9 @@ Un code confidentiel peut rejeter un échantillon pour plusieurs raisons :
 
 La méthode **Receive** doit retourner S \_ false dans le premier cas, et un code d’échec dans les autres cas. Le filtre amont doit cesser d’envoyer des exemples quand le code de retour est différent de S \_ OK.
 
-Vous pouvez considérer les trois premiers cas comme des défaillances « attendues », dans le sens où le filtre était dans un état incorrect pour recevoir des exemples. Une défaillance inattendue serait une erreur qui amène le code confidentiel à rejeter un échantillon, même si le code PIN est dans un état de réception. Si une erreur de ce type se produit, le code PIN doit envoyer une notification de fin de flux en aval et envoyer un événement [**EC \_ ERRORABORT**](ec-errorabort.md) au gestionnaire de graphique de filtre.
+Vous pouvez considérer les trois premiers cas comme des défaillances « attendues », dans le sens où le filtre était dans un état incorrect pour recevoir des exemples. Une défaillance inattendue serait une erreur qui amène le code confidentiel à rejeter un échantillon, même si le code PIN est dans un état de réception. si une erreur de ce type se produit, le code pin doit envoyer une notification de fin de flux en aval et envoyer un événement [**EC \_ ERRORABORT**](ec-errorabort.md) au gestionnaire de Graph de filtre.
 
-Dans les classes de base DirectShow, la méthode [**CBaseInputPin :: CheckStreaming**](cbaseinputpin-checkstreaming.md) vérifie les cas d’échec généraux (vidage, arrêt, etc.). La classe dérivée doit vérifier les erreurs qui sont spécifiques au filtre. En cas d’erreur, la méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) envoie la notification de fin de flux et l' \_ événement EC ERRORABORT.
+dans les classes de base DirectShow, la méthode [**CBaseInputPin :: CheckStreaming**](cbaseinputpin-checkstreaming.md) vérifie les cas d’échec généraux (vidage, arrêt, etc.). La classe dérivée doit vérifier les erreurs qui sont spécifiques au filtre. En cas d’erreur, la méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) envoie la notification de fin de flux et l' \_ événement EC ERRORABORT.
 
 **Modèle d’extraction : demande d’un exemple**
 

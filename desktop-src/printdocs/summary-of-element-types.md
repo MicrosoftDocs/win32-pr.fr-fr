@@ -4,12 +4,12 @@ ms.assetid: 48b259e0-10ff-4964-a8de-a54ae3731c60
 title: Résumé des types d’éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0d339a192facc84483f7625b26781af4169bda
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a86d94122eab23d9b9864de25d393a0ae2c5d0a68a827f68740dc706d8f0af9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823962"
 ---
 # <a name="summary-of-element-types"></a>Résumé des types d’éléments
 

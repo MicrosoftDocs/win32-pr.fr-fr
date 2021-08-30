@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1cd9cae29cfa608c9f3c0c36ebfe3ca7f903c809
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 48d37ff004f8b58591b6cf5457dab54f985d50be44b487c52bf63fa63da137c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002869"
 ---
 # <a name="win32_devicesettings-class"></a>\_Classe DeviceSettings Win32
 
@@ -84,7 +84,7 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ DeviceSettings** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 

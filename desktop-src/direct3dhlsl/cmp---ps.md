@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: da3da1062d02e995876a1f67e5c4e19518774760
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e7cafc386d56995eafee5541a02a6ec2d22201b7689a83f79a4e818b1741ed17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983279"
 ---
 # <a name="cmp---ps"></a>CMP-PS
 
@@ -29,7 +29,7 @@ Choisissez src1 si src0 >= 0. Dans le cas contraire, choisissez src2. La compara
 
 
 
- 
+ 
 
 where
 
@@ -38,7 +38,7 @@ where
 -   src1 est un registre source.
 -   src2 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -48,7 +48,7 @@ where
 
 
 
- 
+ 
 
 Il existe quelques limitations supplémentaires pour les versions 1 \_ 2 et 1 \_ 3 :
 
@@ -84,9 +84,9 @@ cmp r0, c0, r1, r2   // r0 is assigned 1,0,0,0 based on the following:
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

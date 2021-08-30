@@ -4,12 +4,12 @@ description: augmente ou diminue le contraste d’une image.
 ms.assetid: c0cc0f86-f6d4-e951-0cdd-dbad488e0793
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6f287b1309aceadc4709bae3b1c2101a06df32d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad766b33f82a409395186f219321cf1035d49fe447c29fb3a95071c985c18397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814898"
 ---
 # <a name="contrast-effect"></a>Effet de contraste
 
@@ -24,7 +24,7 @@ La fonction Contrast modifie chaque valeur de canal de couleur à l’aide de de
 -   [Exemples d’images](#example-images)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-images"></a>Exemples d’images
@@ -35,7 +35,7 @@ Avant
 
 ![l’image avant l’effet est appliquée](images/contrast-effect-before.png)
 
-After
+Après
 
 ![une image après l’effet est appliquée](images/contrast-effect-after.png)
 
@@ -62,8 +62,8 @@ Les propriétés de l’effet de contraste sont définies par l’énumération 
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

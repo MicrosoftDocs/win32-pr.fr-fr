@@ -3,7 +3,7 @@ title: Message PSM_SETHEADERTITLE (Prsht. h)
 description: Définit le texte du titre de l’en-tête de la page intérieure d’un Assistant. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro PropSheet SetHeaderTitle.
 ms.assetid: 19d4badf-d99d-4a28-92d4-33bcf5d23944
 keywords:
-- PSM_SETHEADERTITLE les contrôles de message Windows
+- PSM_SETHEADERTITLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8140eef4aa09e9dd19d8baaf8193a836b105482e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 743eda08070769c9fd603efc878e27672cc4bdfabac5af71c07566f710660818
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106527154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985439"
 ---
 # <a name="psm_setheadertitle-message"></a>\_Message PSM SETHEADERTITLE
 
@@ -49,7 +49,7 @@ Nouveau sous-titre d’en-tête.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez la page actuelle, elle est immédiatement repeinte pour afficher le nouveau titre.
 
@@ -59,8 +59,8 @@ Si vous spécifiez la page actuelle, elle est immédiatement repeinte pour affic
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **PSM \_ SETHEADERTITLEW** (Unicode) et **PSM \_ SETHEADERTITLEA** (ANSI)<br/>  |
 

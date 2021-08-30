@@ -4,12 +4,12 @@ ms.assetid: 803220d0-7963-4fc4-8451-a979e54a9cc3
 title: Décodage des données signées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdfd327746c5d0ba8e7089e1c273817b76c16370
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3466736f6c8aab36184c02b918625a609a83c78c6f0142d3201d4c264d67441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875679"
 ---
 # <a name="decoding-signed-data"></a>Décodage des données signées
 

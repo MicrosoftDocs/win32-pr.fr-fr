@@ -1,5 +1,5 @@
 ---
-description: Les méthodes des appareils mobiles Windows peuvent retourner divers codes d’erreur HRESULT.
+description: Windows Les méthodes d’appareils mobiles peuvent retourner divers codes d’erreur HRESULT.
 ms.assetid: 496aa709-53c8-4593-8cb8-28ace1e90759
 title: Constantes d’erreur (PortableDevice. h)
 ms.topic: reference
@@ -57,16 +57,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 578774b047f7babdb0ea04c46fd659a561f3053e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2892f123fbcd2b4a39e236dc309eab5b82ded9a7236f8e2485ed06b411ad78e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006309"
 ---
 # <a name="error-constants"></a>Constantes d’erreur
 
-Les méthodes des appareils mobiles Windows peuvent retourner divers codes d’erreur **HRESULT** . Certains sont spécifiques aux appareils mobiles Windows, tandis que d’autres sont définis par d’autres kits de développement logiciel (SDK) ou des kits de Portage utilisés pour créer un appareil. Cette section décrit les différents codes d’erreur qui peuvent être retournés, organisés par origine.
+Windows Les méthodes d’appareils mobiles peuvent retourner divers codes d’erreur **HRESULT** . certains sont spécifiques à Windows appareils portables, tandis que d’autres sont définis par d’autres kits de développement logiciel (sdk) ou des kits de portage utilisés pour créer un appareil. Cette section décrit les différents codes d’erreur qui peuvent être retournés, organisés par origine.
 
 WPD définit les constantes d’erreur suivantes.
 
@@ -91,7 +91,7 @@ WPD définit les constantes d’erreur suivantes.
 
 
 
-Il se peut que vous rencontriez une erreur définie dans le kit de développement logiciel (SDK) Windows Media Rights Manager. La liste des erreurs définies par ce kit de développement logiciel (SDK) est fournie dans MSDN Library. Toutefois, les erreurs du kit de développement logiciel (SDK) Windows Media Manager suivantes n’étaient pas incluses dans cette documentation.
+il se peut que vous rencontriez une erreur définie dans le kit de développement logiciel (SDK) Media Rights Manager Windows. La liste des erreurs définies par ce kit de développement logiciel (SDK) est fournie dans MSDN Library. toutefois, les erreurs de la Windows du kit de développement logiciel (SDK) Media Rights Manager suivantes n’étaient pas incluses dans cette documentation.
 
 
 
@@ -102,7 +102,7 @@ Il se peut que vous rencontriez une erreur définie dans le kit de développemen
 
 
 
-L’API WPD peut retourner des codes d’erreur Windows standard à l’application. Le tableau suivant répertorie les codes d’erreur Windows standard les plus couramment utilisés et les conditions d’erreur courantes lors de l’utilisation d’un périphérique WPD.
+l’api WPD peut retourner des codes d’erreur standard Windows à l’application. le tableau suivant répertorie les codes d’erreur Windows standard les plus couramment utilisés et les conditions d’erreur courantes lors de l’utilisation d’un périphérique WPD.
 
 Les codes d’erreur Win32 sont convertis en **HRESULT** s à l’aide de la macro **HRESULT \_ de \_ Win32** .
 

@@ -18,12 +18,12 @@ keywords:
 - mciSendString fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 063db1986d3bff2416ad17886afb3b6281e20165
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 27d7603821a20dd154548cdf3cc69b84d54df1d549e9f3c87362e10a03e8e9bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783439"
 ---
 # <a name="mcisendstring-errors"></a>Erreurs mciSendString
 
@@ -48,8 +48,8 @@ Les erreurs suivantes sont retournées par la fonction [**mciSendString**](/prev
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

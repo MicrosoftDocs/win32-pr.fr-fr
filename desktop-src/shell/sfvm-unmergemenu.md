@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6c83df7ca42d66f320339901a176dc9d4d38ff37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 058335543a82330f33bc058cfe366c8d9b8d803e13ec57d1d04a9863e1772c95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008929"
 ---
 # <a name="sfvm_unmergemenu-message"></a>\_Message SFVM UNMERGEMENU
 
@@ -46,7 +46,7 @@ Handle du menu en cours de suppression.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0351290b8dee260d52362702d520b01e1bcb7af3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fee8b9222358f343b6a8e23435815c8c484a6c8ce86625303e127174d300a197
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026869"
 ---
 # <a name="id3dxallocatehierarchycreatemeshcontainer-method"></a>ID3DXAllocateHierarchy :: CreateMeshContainer, méthode
 

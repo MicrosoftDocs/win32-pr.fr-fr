@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvol.h
-ms.openlocfilehash: 8121e1b89c88ad05a2c2be8537d7170bfabfc412
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe89e17688bb5566ade0530ce9a1710b5b2c52c7656bf335a89be63a2ca051d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927659"
 ---
 # <a name="ioctl_volume_is_csv-control-code"></a>\_Le volume IOCTL \_ est \_ le code de contrôle CSV
 
@@ -125,7 +125,7 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Ntddvol. h</dt> </dl> |
 
 

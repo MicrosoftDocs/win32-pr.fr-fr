@@ -1,19 +1,19 @@
 ---
-description: Envoyé lorsqu’une application utilise le filtre d’enregistreur ASF WM pour indexer Windows Media Video fichiers.
+description: envoyé lorsqu’une application utilise le filtre d’enregistreur ASF WM pour indexer Windows Media Video fichiers.
 ms.assetid: e5f69aa1-f9b0-4403-acab-25d1f971a876
 title: EC_WMT_INDEX_EVENT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc28e10b1d0e4a559bb10fbc521e232d08e08b54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f76518e72249eb325cb07626c66c66ad7668d772f4b4bc8fe2e0236ff4b37b44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928409"
 ---
 # <a name="ec_wmt_index_event-dshowh"></a>EC_WMT_INDEX_EVENT (DShow. h)
 
-Envoyé lorsqu’une application utilise le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) pour indexer Windows Media Video fichiers.
+envoyé lorsqu’une application utilise le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) pour indexer Windows Media Video fichiers.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -62,7 +62,7 @@ Si *lParam1* a été \_ fermé par WMT ou si WMT \_ a démarré, *lParam2* est �
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

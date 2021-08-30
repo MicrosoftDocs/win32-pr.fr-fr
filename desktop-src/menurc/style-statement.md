@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67cd8f6af4a6baa2f36b66855cbe9faa2b0e5120
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 88d74ced35b6b5a2f6c04004fbd2e161df7ba16ff5111577835b93363291c114
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886763"
 ---
 # <a name="style-statement"></a>STYLE (instruction)
 
@@ -36,8 +36,8 @@ Style de fenêtre. Ce paramètre peut être une valeur entière ou une combinais
 
 </dd> </dl>
 
-Pour obtenir la liste des styles de fenêtre, consultez [styles de fenêtre](/windows/desktop/winmsg/window-styles). Pour obtenir la liste des styles de boîte de dialogue, consultez [styles de modèle](../dlgbox/about-dialog-boxes.md)de boîte de dialogue. Si vous utilisez les valeurs de style de la fenêtre ou de la boîte de dialogue, vous devez inclure Windows. h.
+Pour obtenir la liste des styles de fenêtre, consultez [styles de fenêtre](/windows/desktop/winmsg/window-styles). Pour obtenir la liste des styles de boîte de dialogue, consultez [styles de modèle](../dlgbox/about-dialog-boxes.md)de boîte de dialogue. si vous utilisez les valeurs de style de la fenêtre ou de la boîte de dialogue, vous devez inclure Windows. h.
 
- 
+ 
 
- 
+ 

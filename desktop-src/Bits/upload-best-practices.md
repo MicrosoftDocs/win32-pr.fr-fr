@@ -1,17 +1,17 @@
 ---
-title: Télécharger les meilleures pratiques
+title: Télécharger Meilleures pratiques
 description: Highloads peut provoquer diverses conditions de délai d’attente du serveur, ce qui peut, à son tour, augmenter la charge lorsque le client effectue une nouvelle tentative.
 ms.assetid: 8210f849-2aae-497b-b5dd-af25f6f4b8bf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b95a229ff1e229c41fde8fd377e347f91cf43010
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a2ad85fd7552ed42068ecd02830321fedcec4d147ba9beb8b766dda2e76ab49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004669"
 ---
-# <a name="upload-best-practices"></a>Télécharger les meilleures pratiques
+# <a name="upload-best-practices"></a>Télécharger Meilleures pratiques
 
 Highloads peut provoquer diverses conditions de délai d’attente du serveur, ce qui peut, à son tour, augmenter la charge lorsque le client effectue une nouvelle tentative. En outre, un grand nombre de connexions en suspens consommeront plus de ressources serveur et compliqueront la situation. En plus de cela, si l’application principale n’est pas écrite pour gérer les conditions de charge élevée, elle peut se bloquer ou se comporter de façon inappropriée. L’application doit effectuer les étapes suivantes pour limiter la charge sur le serveur principal.
 
@@ -23,9 +23,9 @@ L’application serveur doit résider sur une URL différente de l’URL de tél
 
 Il est conseillé de limiter la charge sur le serveur d’applications en fonction des valeurs de débit éprouvées. Vous devez utiliser les propriétés IIS, **MaxBandwidth** et **MaxConnections**, pour limiter la charge sur le serveur d’applications.
 
- 
+ 
 
- 
+ 
 
 
 

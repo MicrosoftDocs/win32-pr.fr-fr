@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6695df796e54e85ba32dcd63cce2940e00a0199c
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 1cf647fb70b6d2896991bda2e8558ad34407f3427a2eef2d2ce8cd4295c95486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106528584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813999"
 ---
 # <a name="cgenericlistaddtail-method-wxlisth---plist-parameter"></a>Méthode CGenericList. AddTail (Wxlist. h)-paramètres plist
 
@@ -57,7 +57,7 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | Wxlist. h (include streams. h) |
+| En-tête | Wxlist. h (inclure Flux. h) |
 | Bibliothèque| Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

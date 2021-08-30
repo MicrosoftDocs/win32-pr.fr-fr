@@ -7,12 +7,12 @@ keywords:
 - MCIWndNew macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec46f61ef4624ba613025f01b081ccc1ebda1cad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 050b3b3f55fdd412a1c5ecab70cbb34fd63f85c0ea7144e1407a97f299444aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785459"
 ---
 # <a name="customizing-the-recording-process"></a>Personnalisation du processus d’enregistrement
 
@@ -89,9 +89,9 @@ case WM_COMMAND:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

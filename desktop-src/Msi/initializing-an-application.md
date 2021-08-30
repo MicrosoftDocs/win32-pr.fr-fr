@@ -4,12 +4,12 @@ ms.assetid: cfeaf9b9-f772-49f9-8b6f-e7fd0c93cc9f
 title: Initialisation d’une application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221c5d97f0febb23ba73f98605ee6ec0e853940c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 635b87c326fde0645206a3aabddb55ed0b047b2b9dd1f8501e60cbd7af1e3989
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821399"
 ---
 # <a name="initializing-an-application"></a>Initialisation d’une application
 

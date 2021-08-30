@@ -4,12 +4,12 @@ ms.assetid: b6c450c0-e97f-472d-ae09-fa1e062aeb9e
 title: OPM_GET_DVI_CHARACTERISTICS (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a6f996b0397db509a45af6e243359c581df333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f507d9d9c1f1df0efe1b3c5b0696c178ed6fdfe5d285fde2eb5d1def62e8d007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887429"
 ---
 # <a name="opm_get_dvi_characteristics"></a>\_ \_ caractéristiques DVI de l’offre OPM \_
 
@@ -27,7 +27,7 @@ Demande si un connecteur DVI (Digital Video Interface) prend en charge DVI versi
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette requête est réussie, le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) contient l’une des valeurs suivantes.
 
@@ -50,8 +50,8 @@ Cette requête est prise en charge uniquement lorsque le type de connecteur phys
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

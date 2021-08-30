@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2b15f2a83d8cb20f7204e58dd12d5f94491904c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c5ff423945de7208de6b876d20d602589e4472671d26f709903b9c34cb7f35c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928639"
 ---
 # <a name="cbaserendererpreparereceive-method"></a>Méthode CBaseRenderer. PrepareReceive
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                             | Description                                |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                        |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                        |
 | <dl> <dt>**E \_ échec**</dt> </dl>                  | Échec.<br/>                         |
 | <dl> <dt>**E \_ inattendu**</dt> </dl>            | Erreur inattendue.<br/>               |
 | <dl> <dt>**exemple de VFW \_ E \_ \_ rejeté**</dt> </dl> | Le filtre supprime cet exemple.<br/> |
@@ -66,7 +66,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre appelle cette méthode à l’intérieur de la méthode [**CBaseRenderer :: Receive**](cbaserenderer-receive.md) , avant d’afficher un exemple. Si le filtre est en cours d’exécution, cette méthode planifie l’exemple de rendu.
 
@@ -80,7 +80,7 @@ Si l’algorithme de planification détermine que l’exemple doit être supprim
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
