@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0f9961ba4b29b688de198828a5e217b3c8c86c1e
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: fc7a16ad31835b9369ef61388bb4548ce44020ea
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122787155"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630828"
 ---
 # <a name="span-idvspixengineiframeeventscallbackspaniframeeventscallback-interface"></a><span id="vspixengine.iframeeventscallback"></span>Interface IFrameEventsCallback
 
@@ -38,7 +38,7 @@ L’interface **IFrameEventsCallback** hérite de l’interface [**IUnknown**](/
 
 L’interface **IFrameEventsCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframeeventscallback-getsupportedeventcolumns-dword-eventcolumnid-arr-bstr-arr"><strong>GetSupportedEventColumns</strong></a></td><td ><p>Obtient des informations sur les colonnes (types de données d’événement) prises en charge par la liste d’événements.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/iframeeventscallback-resultcallback-dword-dword-dword-dword-variant-arr"><strong>ResultCallback</strong></a></td><td ><p>Fonction de rappel utilisée pour informer l’hôte d’informations sur les événements dans la liste des événements.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventscallback-getsupportedeventcolumns-dword-eventcolumnid-arr-bstr-arr"><strong>GetSupportedEventColumns</strong></a></td><td style="text-align: left;"><p>Obtient des informations sur les colonnes (types de données d’événement) prises en charge par la liste d’événements.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventscallback-resultcallback-dword-dword-dword-dword-variant-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte d’informations sur les événements dans la liste des événements.</p></td></tr></tbody></table>
 
  
 
