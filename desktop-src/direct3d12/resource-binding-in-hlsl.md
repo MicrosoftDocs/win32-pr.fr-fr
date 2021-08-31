@@ -5,12 +5,12 @@ ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 711ccdee71ff916445be68d03b84b7621aa04cf3
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 12e2ca3519d878eb57850a93bc49b77d9f35ff53
+ms.sourcegitcommit: 6b7d467e04e583c90de065e16d5dbd32033ed0eb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550384"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123213350"
 ---
 # <a name="resource-binding-in-hlsl"></a>Liaison de ressources en HLSL
 
@@ -56,7 +56,7 @@ Texture2D<float4> tex1[] : register(t0)
 La table de descripteurs correspondante peut être :
 
 ``` syntax
-DescriptorTable( CBV(b1), UAV(u0, numDescriptors = 4), SRV(t0, numDescriptors=unbounded)
+DescriptorTable( CBV(b1), UAV(u0, numDescriptors = 4), SRV(t0, numDescriptors=unbounded) )
 ```
 
 Un tableau non lié en HLSL ne correspond pas à un nombre fixe défini avec `numDescriptors` dans la table du descripteur, et une taille fixe dans le langage HLSL correspond à une déclaration non liée dans la table du descripteur.
