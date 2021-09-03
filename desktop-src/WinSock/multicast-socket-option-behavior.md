@@ -4,12 +4,12 @@ ms.assetid: a411e831-7b28-4ab5-a09a-650db99a7cd5
 title: Comportement des options de socket de multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd10094750bea59b844ad1fcdac70be0c7f9646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 460b13fb710e86ef81fb64b48b697f7e73ccf392
+ms.sourcegitcommit: 9942a888f172981e276def0c6b84fb0266fcb02d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033978"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "123399765"
 ---
 # <a name="multicast-socket-option-behavior"></a>Comportement des options de socket de multidiffusion
 
@@ -17,7 +17,7 @@ Cette page décrit le comportement des options de socket de multidiffusion en fo
 
 Par exemple, cette page décrit le comportement lorsque l' \_ option de \_ Socket d’appartenance source d’ajout d’adresses IP \_ est définie sur un socket pour lequel l’option d’appartenance à une source d’ajout d’adresses IP \_ \_ \_ a déjà été définie avec la paire groupe/source spécifiée sur la même interface réseau. Il est autorisé à appeler IP \_ Add \_ source \_ membership sur le même groupe sur une autre interface réseau.
 
-Cette page vous aide à concevoir et à dépanner les applications de multidiffusion Windows Sockets. 
+cette page vous aide à concevoir et à dépanner correctement les applications de multidiffusion Windows sockets. 
 
 <table>
 <thead>
@@ -25,12 +25,12 @@ Cette page vous aide à concevoir et à dépanner les applications de multidiffu
 <th>Option de socket initiale</th>
 <th>Option de socket suivante en conflit</th>
 <th>Erreur retournée</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="4">IP_ADD_MEMBERSHIP $ {REMOVE} $<br />
+<td rowspan="4">IP_ADD_MEMBERSHIP<br />
 </td>
 <td>IP_ADD_MEMBERSHIP</td>
 <td>WSAEADDRNOTAVAIL</td>
@@ -61,7 +61,7 @@ Cette page vous aide à concevoir et à dépanner les applications de multidiffu
 <td>La création d’appels d’option de socket sur une paire groupe ou groupe/source qui n’est pas actuellement dans la liste d’inclusion (en raison de la suppression de l’appartenance, ou autre) entraîne une erreur.</td>
 </tr>
 <tr class="even">
-<td rowspan="3">IP_ADD_SOURCE_MEMBERSHIP $ {REMOVE} $<br />
+<td rowspan="3">IP_ADD_SOURCE_MEMBERSHIP<br />
 </td>
 <td>IP_ADD_MEMBERSHIP</td>
 <td>WSAEADDRNOTAVAIL</td>
@@ -80,7 +80,7 @@ Cette page vous aide à concevoir et à dépanner les applications de multidiffu
 
 </tr>
 <tr class="odd">
-<td rowspan="2">IP_DROP_SOURCE_MEMBERSHIP $ {REMOVE} $<br />
+<td rowspan="2">IP_DROP_SOURCE_MEMBERSHIP<br />
 </td>
 <td>IP_UNBLOCK_SOURCE</td>
 <td>WSAEINVAL</td>
@@ -93,7 +93,7 @@ Cette page vous aide à concevoir et à dépanner les applications de multidiffu
 
 </tr>
 <tr class="odd">
-<td rowspan="3">IP_BLOCK_SOURCE $ {REMOVE} $<br />
+<td rowspan="3">IP_BLOCK_SOURCE<br />
 </td>
 <td>IP_BLOCK_SOURCE</td>
 <td>WSAEADDRNOTAVAIL</td>

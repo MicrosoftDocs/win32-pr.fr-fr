@@ -4,12 +4,12 @@ ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: Comment modifier les pixels d’une source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbfa25a5f09742066c4e67af1fb1735aa038f086d6a107e88ae34e7b7c597770
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0638995d31dcb43b488b1538f46af6cf0512e76c
+ms.sourcegitcommit: c7d3858df5155856dcd9d4cb091d2fa3d28a8f0d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965388"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "123421366"
 ---
 # <a name="how-to-modify-the-pixels-of-a-bitmap-source"></a>Comment modifier les pixels d’une source bitmap
 
@@ -80,7 +80,7 @@ Pour modifier les pixels d’une source bitmap
     {
        hr = m_pIWICFactory->CreateBitmapFromSource(
           pIDecoderFrame,          // Create a bitmap from the image frame
-          WICBitmapCacheOnDemand,  // Cache metadata when needed
+          WICBitmapCacheOnDemand,  // Cache bitmap pixels on first access
           &pIBitmap);              // Pointer to the bitmap
     }
     ```
