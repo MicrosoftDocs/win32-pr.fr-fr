@@ -4,12 +4,12 @@ ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: Verrouillage et déverrouillage des plages d’octets dans les fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccd18fc8a5e2f143cb58717f72abbc135421ee802ff93b651dad0916ed8a953
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8ea12d2563f1c5e163eb019b37c42bdeb8eed8b
+ms.sourcegitcommit: ccf7dea7222b925441486fa564a1a61b69395562
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118951158"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "123463058"
 ---
 # <a name="locking-and-unlocking-byte-ranges-in-files"></a>Verrouillage et déverrouillage des plages d’octets dans les fichiers
 
@@ -18,7 +18,7 @@ Bien que le système permet à plusieurs applications d’ouvrir un fichier et d
 Les fonctions [**lockfile**](/windows/desktop/api/FileAPI/nf-fileapi-lockfile) et [**LockFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-lockfileex) verrouillent une plage spécifiée d’octets dans un fichier. La plage peut s’étendre au-delà de la fin actuelle du fichier. Le verrouillage d’une partie d’un fichier donne aux threads du processus de verrouillage un accès exclusif à la plage d’octets spécifiée à l’aide du handle de fichier spécifié. Les tentatives d’accès à une plage d’octets verrouillée par un autre processus échouent toujours. Si le processus de verrouillage tente d’accéder à une plage d’octets verrouillés via un deuxième descripteur de fichier, la tentative échoue.
 
 > [!Note]  
-> Les fichiers mappés en mémoire ne sont pas pris en charge avec les verrous de plage d’octets.
+> Les verrous de plage d’octets sont ignorés lors de l’utilisation de fichiers mappés en mémoire.
 
  
 

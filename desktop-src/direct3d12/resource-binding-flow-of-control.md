@@ -1,27 +1,20 @@
 ---
 title: Vue d’ensemble de la liaison de ressources
-description: La clé de la liaison de ressources dans DirectX 12 est l’un des concepts d’un descripteur, de tables de descripteurs, de tas de descripteurs et d’une signature racine.
+description: Les clés pour la compréhension de la liaison de ressources dans DirectX 12 sont les concepts des descripteurs, des tables de descripteurs, des tas de descripteurs et des signatures racines.
 ms.assetid: 92E100CA-822D-46B1-BD37-FF57C3FB703D
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc7e78255c123777716eddb43d9443e19113b34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 657e380c58182fee8ad2c82f3af0c6fdd5ffec76
+ms.sourcegitcommit: 8a211d404470a6a2790733ed2894cfaf92bddd70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104042"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "123464102"
 ---
 # <a name="resource-binding-overview"></a>Vue d’ensemble de la liaison de ressources
 
-La clé de la liaison de ressources dans DirectX 12 est l’un des concepts d’un *descripteur*, de *tables de descripteurs*, de *tas de descripteurs* et d’une *signature racine*.
-
--   [Ressources et pipeline graphique](#resources-and-the-graphics-pipeline)
--   [Types et vues de ressources](#resource-types-and-views)
--   [Workflow de liaison de ressources de contrôle](#resource-binding-overview)
--   [Sous-allocation](#suballocation)
--   [Libération des ressources](#freeing-resources)
--   [Rubriques connexes](#related-topics)
+Les clés pour la compréhension de la liaison de ressources dans DirectX 12 sont les concepts des descripteurs, des tables de descripteurs, des tas de descripteurs et des signatures racines.
 
 ## <a name="resources-and-the-graphics-pipeline"></a>Ressources et pipeline graphique
 
@@ -73,7 +66,7 @@ Les vues de ressources sont similaires, mais légèrement différentes de celles
 
 Seules les quatre premières de ces vues sont réellement visibles pour les nuanceurs, reportez-vous aux [tas du descripteur visible du nuanceur](shader-visible-descriptor-heaps.md) et aux [tas de descripteurs visibles non nuanceur](non-shader-visible-descriptor-heaps.md).
 
-## <a name="resource-binding-flow-of-control"></a>Workflow de liaison de ressources de contrôle
+## <a name="resource-binding-flow-of-control"></a>Flow-of-Control de la liaison de ressources
 
 En se concentrant uniquement sur les signatures racines, les descripteurs racine, les constantes racine, les tables de descripteurs et les tas de descripteurs, le déroulement de la logique de rendu d’une application doit être similaire à ce qui suit :
 
@@ -110,15 +103,4 @@ L’attente du rendu des frames est probablement la manière la plus grossière 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-<dl> <dt>
-
-[Liaison de ressource](resource-binding.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Liaison de ressource](resource-binding.md)

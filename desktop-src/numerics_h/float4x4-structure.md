@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c918ee81ddac31d697ff3885e04e8cb530cd31a98f842c109f9d281786ee2539
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 549c9328dad3bb04c7e4a46ead6a1aedbe04cfe6
+ms.sourcegitcommit: 8a211d404470a6a2790733ed2894cfaf92bddd70
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119825269"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "123464123"
 ---
 # <a name="float4x4-structure"></a>float4x4, structure
 
@@ -40,7 +40,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="functions"></a>Fonctions
 
-| Nom | Description |
+| Name | Description |
 |-|-|
 | `float4x4 make_float4x4_billboard(float3 const& objectPosition, float3 const& cameraPosition, float3 const& cameraUpVector, float3 const& cameraForwardVector)` | Crée un panneau sphérique qui pivote autour de la position d’un objet spécifié, à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_?constrained_billboard(float3 const& objectPosition, float3 const& cameraPosition, float3 const& rotateAxis, float3 const& cameraForwardVector, float3 const& objectForwardVector)` | Crée un panneau cylindrique qui pivote autour d’un axe spécifié, à l’aide d’un système de coordonnées droitier. |
@@ -59,15 +59,15 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float4x4 make_float4x4_rotation_z(float radians)` | Crée une matrice de rotation de l’axe z, centrée sur l’origine. |
 | `float4x4 make_float4x4_rotation_z(float radians, float3 const& centerPoint)` | Crée une matrice de rotation de l’axe z, centrée sur le point spécifié. |
 | `float4x4 make_float4x4_from_axis_angle(float3 const& axis, float angle)` | Crée une matrice qui pivote autour d'un vecteur arbitraire. |
-| `float4x4 make_float4x4_?perspective_field_of_view(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)` | Crée une matrice de projection de perspective basée sur un champ de vue, à l’aide d’un système de coordonnées droitier. |
+| `float4x4 make_float4x4_perspective_field_of_view(float fieldOfView, float aspectRatio, float nearPlaneDistance, float farPlaneDistance)` | Crée une matrice de projection de perspective basée sur un champ de vue, à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_perspective(float width, float height, float nearPlaneDistance, float farPlaneDistance)` | Crée une matrice de projection de perspective à l’aide d’un système de coordonnées droitier. |
-| `float4x4 make_float4x4_?perspective_off_center(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)` | Crée une matrice de projection de perspective personnalisée, à l’aide d’un système de coordonnées droitier. |
+| `float4x4 make_float4x4_perspective_off_center(float left, float right, float bottom, float top, float nearPlaneDistance, float farPlaneDistance)` | Crée une matrice de projection de perspective personnalisée, à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_orthographic(float width, float height, float zNearPlane, float zFarPlane)` | Crée une matrice de projection orthographique à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_?orthographic_off_center(float left, float right, float bottom, float top, float zNearPlane, float zFarPlane)` | Crée une matrice de projection orthographique personnalisée, à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_look_at(float3 const& cameraPosition, float3 const& cameraTarget, float3 const& cameraUpVector)` | Crée une matrice de vue à l’aide d’un système de coordonnées droitier. |
 | `float4x4 make_float4x4_world(float3 const& position, float3 const& forward, float3 const& up)` | Crée une matrice universelle à l’aide d’un système de coordonnées droitier. Cela peut être utilisé pour positionner des objets dans l’espace 3D. |
-| `float4x4 make_float4x4_?from_quaternion(quaternion const& quaternion)` | Crée une matrice de rotation à partir d’un Quaternion. |
-| `float4x4 make_float4x4_?from_yaw_pitch_roll(float yaw, float pitch, float roll)` | Crée une matrice de rotation à partir d’un lacet, du tangage et du roulis spécifiés. |
+| `float4x4 make_float4x4_from_quaternion(quaternion const& quaternion)` | Crée une matrice de rotation à partir d’un Quaternion. |
+| `float4x4 make_float4x4_from_yaw_pitch_roll(float yaw, float pitch, float roll)` | Crée une matrice de rotation à partir d’un lacet, du tangage et du roulis spécifiés. |
 | `float4x4 make_float4x4_shadow(float3 const& lightDirection, plane const& plane)` | Crée une matrice qui aplanit la géométrie dans un plan spécifié en la faisant correspondre à une ombre provenant d'une source de lumière spécifiée. |
 | `float4x4 make_float4x4_reflection(plane const& value)` | Crée une matrice qui reflète le système de coordonnées pour un plan spécifié. |
 | `bool is_identity(float4x4 const& value)` | Vérifie s’il s’agit d’une matrice d’identité. |
@@ -87,7 +87,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="operators"></a>Opérateurs
 
-| Nom | Description |
+| Name | Description |
 |-|-|
 | `float4x4 operator+ (float4x4 const& value1, float4x4 const& value2)` | Ajoute chaque composant d’une matrice à une autre matrice. |
 | `float4x4 operator- (float4x4 const& value1, float4x4 const& value2)` | Soustrait chaque composant d’une matrice d’une autre matrice. |
@@ -123,7 +123,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float m43` | Valeur à la ligne 4 colonne 3 de la matrice. |
 | `float m44` | Valeur à la ligne 4 colonne 4 de la matrice. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|
