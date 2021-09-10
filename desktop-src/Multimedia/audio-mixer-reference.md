@@ -12,12 +12,12 @@ keywords:
 - référence pour les mixages audio, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1602a9ac0631a3e81430285c8cd862215a437c72b03b41d87fad6cefa7e41827
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be1d86f305714d72631b56495753417699b1a146
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786219"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367567"
 ---
 # <a name="audio-mixer-reference"></a>référence de Mixer Audio
 

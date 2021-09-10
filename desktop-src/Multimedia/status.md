@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bd209ed04e51671ce7d9c8a7ae88a79073836c2e
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626114"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363924"
 ---
 # <a name="status-command"></a>commande Status
 
@@ -832,7 +832,7 @@ La commande suivante retourne le mode actuel de l’appareil « mySound ».
 status mysound mode
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

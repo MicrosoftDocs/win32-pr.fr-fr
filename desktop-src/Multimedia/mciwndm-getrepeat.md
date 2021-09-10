@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5045f56f2d189884e6d2dee978ec8800fa9c24c3ff01fc3fe93680b4ae7f53af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef47dc4f639c7aa34f7a00341e6ad2e19be909d1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118374196"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364271"
 ---
 # <a name="mciwndm_getrepeat-message"></a>\_Message MCIWNDM GETREPEAT
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la **valeur true** si la lecture continue est activée ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

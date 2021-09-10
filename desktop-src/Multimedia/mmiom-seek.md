@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea33db15de3a4617561c437f2d5086afbf4bff2155e657677b171b1413b1c96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4855ec4e610f1456e1bf26ee05800e31933f05fd
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065299"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364567"
 ---
 # <a name="mmiom_seek-message"></a>MMIOM le \_ message de recherche
 
@@ -72,7 +72,7 @@ Retourne la nouvelle position de fichier. En cas d’erreur, la valeur de retour
 
 La procédure d’e/s est responsable de la gestion de la position de fichier actuelle dans le membre **lDiskOffset** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

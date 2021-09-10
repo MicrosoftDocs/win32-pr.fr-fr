@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44305a5a441e4d12a1b3f43029ae3a41f7642c13b15a50f74a1acab158c2ed58
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 12daa4d9e107a9ba687331731ee9fd7e6f0dc886
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807179"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367564"
 ---
 # <a name="mm_mixm_control_change-message"></a>\_Message de \_ modification du contrôle MIXM mm \_
 
@@ -56,7 +56,7 @@ Identificateur de contrôle pour le contrôle de mixage qui a changé d’État.
 
 Une application doit ouvrir un dispositif de mixage et spécifier une fenêtre de rappel pour recevoir le message de **\_ modification de \_ contrôle \_ mm MIXM** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

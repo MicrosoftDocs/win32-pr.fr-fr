@@ -7,12 +7,12 @@ keywords:
 - MCIWndCreate fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a75f9798c1bfe0ec4f67da0f990018143efd0285541b49a9035b9749a36de1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e459a0e7d93543af126287a776b64130595ad11
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065659"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364367"
 ---
 # <a name="about-the-mciwnd-window-class"></a>À propos de la classe de fenêtre MCIWnd
 

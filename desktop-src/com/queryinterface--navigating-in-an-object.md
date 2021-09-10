@@ -4,12 +4,12 @@ description: QueryInterface, navigation dans un objet
 ms.assetid: 7dec015f-7609-40eb-a71e-f6e9c9b9f8ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbb25f76f87b43f6fc4fc4d3a1a3eb65c19960942769818a83f176fc62f72c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3dbd44d200bf0a992f47bc375d0782bdadacf6a3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119611069"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363628"
 ---
 # <a name="queryinterface-navigating-in-an-object"></a>QueryInterface : navigation dans un objet
 

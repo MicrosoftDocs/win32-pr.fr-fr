@@ -4,12 +4,12 @@ description: L’une des fonctionnalités les plus utiles des monikers est que v
 ms.assetid: ea2453f3-7a64-4ce0-87c2-de6224ca71df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad815cdb89dda7f58fe1507d43a07a14d24875309668297e20ec51114dd65d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b5375bb505ff3737fb4e0cdea894790d93c0051
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117737025"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363356"
 ---
 # <a name="composite-monikers"></a>Monikers composites
 

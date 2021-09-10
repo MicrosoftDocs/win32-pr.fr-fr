@@ -4,12 +4,12 @@ description: Suivi des références
 ms.assetid: 1e2cf555-3b96-42d5-a0bb-abb720c93520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1321c922cc0a7493e3e4792f7c0f925618330c2e42665296fb06792635a4ea70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f45607a495e973ec33acde6d97cb1f83259a27c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118309762"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363511"
 ---
 # <a name="reference-tracking"></a>Suivi des références
 

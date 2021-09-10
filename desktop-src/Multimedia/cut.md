@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5a39010ad7dd07ccff38291441bb0aa05a54ee65da1b865d7ac82ed77fbfdd6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33571309e1dd249f20e577c97b8c6e1b950eda09
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144562"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363731"
 ---
 # <a name="cut-command"></a>commande couper
 
@@ -82,7 +82,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 La modification devient permanente uniquement lorsque les données sont enregistrées de manière explicite ; Toutefois, la lecture agit comme si les données avaient été supprimées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

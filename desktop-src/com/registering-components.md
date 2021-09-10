@@ -4,12 +4,12 @@ description: Inscription des composants
 ms.assetid: d7fd231b-17ec-42ad-9144-df7ed5ffb17b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b58a987bba4ef7767cfc7346730f5f22e2c1eaab8ae3eed76cd33be0ad778902
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d683ae419466d62d764283cfa8706981de402a9
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992299"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363548"
 ---
 # <a name="registering-components"></a>Inscription des composants
 

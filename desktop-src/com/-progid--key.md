@@ -5,11 +5,11 @@ ms.assetid: f9ef2934-0815-4a6f-9283-8f748eee083b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0a9ef64515d2dda4512af0086970cb2ab61b4830
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032226"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363347"
 ---
 # <a name="progid-key"></a>Clé ProgID
 
@@ -26,13 +26,13 @@ Un identificateur programmatique (ProgID) est une entrée de Registre qui peut �
 | [**IDENTIFICATEUR**](clsid.md)                  | Associe un ProgID à un CLSID.                                  |
 | [**Insertable**](insertable-progid.md) | Indique que cette classe peut être insérée dans des conteneurs OLE 2.       |
 | [**Protocol**](protocol.md)            | Indique que cette classe OLE 2 peut être insérée dans les conteneurs OLE 1. |
-| [**Shell**](shell.md)                  | Fournit les informations d’impression et d' **ouverture de fichier** du shell Windows 3,1. |
+| [**Shell**](shell.md)                  | fournit les informations d’impression et d' **ouverture de fichier** Windows 3,1. |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser un ProgID dans des situations de programmation où il n’est pas possible d’utiliser un CLSID. Les ProgID ne doivent pas apparaître dans l’interface utilisateur. Il n’est pas garanti que les ProgID soient uniques, donc ils ne peuvent être utilisés que lorsque des collisions de noms sont gérables.
 

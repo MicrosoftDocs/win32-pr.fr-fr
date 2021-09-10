@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccab622381208b8213414ed8b156a84e431afffc55acdf2323b0c0a2d31014f3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 11b60b8a5d93ac80befc8beeb6665399efe44f1e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429629"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364239"
 ---
 # <a name="mciwndm_can_save-message"></a>MCIWNDM \_ peut \_ enregistrer le message
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la **valeur true** si l’appareil prend en charge l’enregistrement ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

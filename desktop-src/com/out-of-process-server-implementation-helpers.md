@@ -5,11 +5,11 @@ ms.assetid: 18641a84-56f8-4d27-9ddb-fa64011ac8ba
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 264d3f26b179b3ecb659ef93785c8c223b6c524e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382975"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363352"
 ---
 # <a name="out-of-process-server-implementation-helpers"></a>Assistances pour l’implémentation de serveur hors processus
 
@@ -51,6 +51,6 @@ Pour éliminer ces conditions de concurrence et simplifier la tâche de l’enre
 [Responsabilités du serveur COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

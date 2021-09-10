@@ -5,11 +5,11 @@ ms.assetid: fb5dcb2b-b0e3-4f37-a8e7-b84b9a265227
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 23c95d422213b8e33ac89b89408ed95724f0769b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463763"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363560"
 ---
 # <a name="self-registration"></a>Self-Registration
 
@@ -73,6 +73,6 @@ Le serveur doit enregistrer le chemin d’accès complet de l’emplacement d’
 [Inscription d’objets dans le ROT](registering-objects-in-the-rot.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

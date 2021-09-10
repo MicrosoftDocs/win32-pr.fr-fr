@@ -3,7 +3,7 @@ title: Commande MCI_SAVE (mmsystem. h)
 description: La \_ commande MCI Save enregistre le fichier actif.
 ms.assetid: 286e6f31-cb93-443b-8191-8c363b366eae
 keywords:
-- Commande MCI_SAVE Windows multimédia
+- commande MCI_SAVE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a241c0379731e870940cd676c33ae192efc5d297
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464626"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363883"
 ---
 # <a name="mci_save-command"></a>\_Commande d’enregistrement MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure d' [**\_ \_ enregistrement MCI**](mci-save-parms.md)
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande est prise en charge par les appareils qui renvoient la **valeur true** lorsque vous appelez la commande [MCI \_ GETDEVCAPS](mci-getdevcaps.md) avec l' \_ indicateur MCI GETDEVCAPS \_ CAN \_ Save.
 
@@ -123,7 +123,7 @@ Le membre **RC** de la structure identifiée par *lpSave* contient un rectangle 
 
 Pour les périphériques de superposition vidéo, le paramètre *lpSave* pointe vers une structure [**MCI \_ OVLY \_ Save \_ PARMS**](/previous-versions//dd743447(v=vs.85)) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -131,7 +131,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpSave* pointe 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

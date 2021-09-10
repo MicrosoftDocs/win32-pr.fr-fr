@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fde4c9fec3972fe0e22b0a562454e1ef680e9ccae3851c272d28468fc2c91f74
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 00ba54c9263e23fdd9830be892e4559ae3755c07
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429669"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364228"
 ---
 # <a name="mciwndm_can_eject-message"></a>MCIWNDM \_ peut \_ éjecter le message
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la **valeur true** si l’appareil peut éjecter son média ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

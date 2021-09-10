@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec038e0eb1e46c46162c9a2139f03881689db5fe1ee5993a8e135e5d92d67984
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f06cd6a400f742b49dc29063e8473465ad7e32dc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138402"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363967"
 ---
 # <a name="mci_make_tmsf-macro"></a>MCI \_ Make \_ TMSF macro
 
@@ -91,7 +91,7 @@ La macro **MCI \_ Make \_ TMSF** est définie comme suit :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

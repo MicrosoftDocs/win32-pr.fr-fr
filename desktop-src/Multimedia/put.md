@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08732b0ed55464fa1a288cc13a9ac19609b480644ffa4c9dfbeb140cedbbd3c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d22fb7c74c1ed469e609e7dcfdd3d36ba355cc5
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118372378"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363695"
 ---
 # <a name="put-command"></a>commande put
 
@@ -123,7 +123,7 @@ Les régions de cet exemple sont définies comme suit :
 -   Les données vidéo seront placées dans une région de 200 par 200 pixels dans le coin supérieur gauche de la mémoire tampon de trame.
 -   Les transferts sont effectués à partir de la région 200-par 200-pixels située dans le coin supérieur gauche de la mémoire tampon de trame vers la fenêtre de destination.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

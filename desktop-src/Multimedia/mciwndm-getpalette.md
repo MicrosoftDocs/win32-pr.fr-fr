@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319fe1fedc21c064896c3316d0a45132c034b73c25bf107ee667269a13ed678b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: faec3dd5d9c401d943fbc55ca58e452d3fb25497
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118137700"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364267"
 ---
 # <a name="mciwndm_getpalette-message"></a>\_Message MCIWNDM GETPALETTE
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne le handle de la palette en cas de réussite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

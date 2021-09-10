@@ -8,12 +8,12 @@ keywords:
 - Services MIDI, formats d’heure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db5a77fa3f137babe3b6da77cb089688fe18380c281107c14e8440a702df7652
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf191c857c45896c916ace4656d33bd3dd558f04
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037519"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364451"
 ---
 # <a name="requesting-time-formats"></a>Demande de formats d’heure
 

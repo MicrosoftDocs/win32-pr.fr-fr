@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESS (VFW. h)
-description: Le \_ message de décompression ICM indique à un pilote de décompression vidéo de décompresser une trame de données dans une mémoire tampon définie par l’application.
+description: le \_ message ICM décompresser indique à un pilote de décompression vidéo de décompresser une trame de données dans une mémoire tampon définie par l’application.
 ms.assetid: 666f2ebf-80a5-4846-861d-c79c3001c5a0
 keywords:
-- Message ICM_DECOMPRESS Windows Multimedia
+- message ICM_DECOMPRESS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0c890a8ca15202f57fdaa02922e364af75f7b952
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033130"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364156"
 ---
-# <a name="icm_decompress-message"></a>\_Message de décompression ICM
+# <a name="icm_decompress-message"></a>ICM \_ Décompresser le message
 
-Le message de décompression **ICM \_** indique à un pilote de décompression vidéo de décompresser une trame de données dans une mémoire tampon définie par l’application.
+le message **ICM \_ décompresser** indique à un pilote de décompression vidéo de décompresser une trame de données dans une mémoire tampon définie par l’application.
 
 
 ```C++
@@ -56,13 +56,13 @@ Taille, en octets, de [**ICDECOMPRESS**](/windows/desktop/api/Vfw/ns-vfw-icdecom
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le message [**ICM \_ Draw**](icm-draw.md) .
+si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le [**ICM \_ dessiner**](icm-draw.md) le message.
 
-Le pilote renvoie une erreur si ce message est reçu avant le message de début de la [**\_ \_ décompression ICM**](icm-decompress-begin.md) .
+le pilote renvoie une erreur si ce message est reçu avant le message de début de la [**ICM de \_ décompression \_**](icm-decompress-begin.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

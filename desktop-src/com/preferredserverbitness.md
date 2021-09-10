@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre PreferredServerBitness COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b003fd4bdd861cbfd82e249123831e4e017eaeef1ad76b95121244fd415ae0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 107a8c5b1504c5a59ca2ab178cd46236335d44ca
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118309984"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363588"
 ---
 # <a name="preferredserverbitness"></a>PreferredServerBitness
 

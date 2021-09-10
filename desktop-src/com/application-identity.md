@@ -4,12 +4,12 @@ description: L’identité d’une application est le compte utilisé pour exéc
 ms.assetid: bd2e90d0-6d00-46e0-beac-8fdade52b797
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f05e82f6975959761e988ae6a8239ea51a1ecea8bc55e1c7bc750b9414fd2927
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d58d5ab55ab8440238c95ffe01198be2a34a707e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793839"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363408"
 ---
 # <a name="application-identity"></a>Identité de l'application
 

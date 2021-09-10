@@ -12,12 +12,12 @@ keywords:
 - traitement des données MIDI à partir de deux sources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9a5eb31c4c6b4b965321b7458d058a3547426b95236d6e0b52d6eb0f55b3e74
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 513dcd16036f6f833aec6813f75c6c082925f666
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805789"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364516"
 ---
 # <a name="processing-midi-data-from-two-midi-sources"></a>Traitement des données MIDI à partir de deux sources MIDI
 

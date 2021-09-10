@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c02019bb6375aa18fd37ba34d2603839b37291d58822858b0b9cabc01e47d7b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53d7ad2745ab53c2e04a1588ddbf1b1e5d755202
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678339"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364227"
 ---
 # <a name="icm_set_status_proc-message"></a>ICM \_ DÉFINIR \_ le \_ message de procédure d’État
 
@@ -62,7 +62,7 @@ La prise en charge de ce message est facultative, mais fortement recommandée si
 
 Une application peut envoyer ce message périodiquement à une fonction de rappel d’État pendant des opérations de longue durée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

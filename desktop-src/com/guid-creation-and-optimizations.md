@@ -4,12 +4,12 @@ description: Création et optimisations de GUID
 ms.assetid: 698322f2-db89-4553-90c6-4278e96716dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dc1b0cc52312768759daca35824f8e7e515629131ac2c301a17d7ae99d6455
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdc113675bae329d862c0b504851d4732243a84c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119731429"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363671"
 ---
 # <a name="guid-creation-and-optimizations"></a>Création et optimisations de GUID
 

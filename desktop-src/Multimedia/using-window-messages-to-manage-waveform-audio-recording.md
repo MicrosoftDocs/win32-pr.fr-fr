@@ -14,12 +14,12 @@ keywords:
 - Message MM_WIM_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c709df27be25a8a3f4c5a9be6528e28b4e8bab9251b04b6c397a7ef3fc8efd9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70bb1cfe1ed0f7ba6052fc1eb6af8fca8355d87d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118135651"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367740"
 ---
 # <a name="using-window-messages-to-manage-waveform-audio-recording"></a>Utilisation de messages de fenêtre pour gérer Waveform-Audio enregistrement
 

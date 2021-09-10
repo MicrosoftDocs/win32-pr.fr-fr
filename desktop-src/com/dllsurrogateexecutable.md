@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre DllSurrogateExecutable COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fc12af22d1f85c2d2e5ff6e75b2904c5fc5eea636a64e314f997ff36a44e38
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 877297673b0a518006ecf903f447984f9023da34
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119373379"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363567"
 ---
 # <a name="dllsurrogateexecutable"></a>DllSurrogateExecutable
 

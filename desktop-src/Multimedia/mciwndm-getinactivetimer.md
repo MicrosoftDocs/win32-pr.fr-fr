@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec8de85796139b98e76d631a9386493752dad9942241069a7f1a5ab535fab72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a270aeffdee59b7749aa87a0e711204960d74d7f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038079"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364260"
 ---
 # <a name="mciwndm_getinactivetimer-message"></a>\_Message MCIWNDM GETINACTIVETIMER
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la période de mise à jour, en millisecondes. La valeur par défaut est 2000 millisecondes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

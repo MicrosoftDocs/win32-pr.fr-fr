@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ecf151b0c22b4de96421b4c11239ce147a21b6d60808b1d84506f3bad699954
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f756a76408d01cb72ee1762f14bb8a5eab19e475
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117987369"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364191"
 ---
 # <a name="icm_draw_gettime-message"></a>ICM \_ DESSINER le \_ message GETTIME
 
@@ -53,7 +53,7 @@ Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
 Ce message est généralement pris en charge par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones. Le message peut également être envoyé si le matériel est utilisé en tant que maître de synchronisation.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

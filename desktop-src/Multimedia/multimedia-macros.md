@@ -10,12 +10,12 @@ keywords:
 - macros multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9cdad8be1acfb92db2f58762fb5debe834dd52f7b5519f3ed4ed4d43d55cbd8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aef29d18fc53d46e96de2a13d6e9e39e75e4dc6b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806759"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364024"
 ---
 # <a name="multimedia-macros"></a>Macros multimédias
 

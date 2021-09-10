@@ -4,12 +4,12 @@ description: Apartments (cloisonnés) multithread
 ms.assetid: d3e6acd9-cd5c-4a2c-8526-4f43db3b606b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f69271b4fb6447d48c15fa9005d39020075af09bcc327b12ce539a739c33f8d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc2594f9341fc662b068fb7e007e538282a31273
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047917"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363339"
 ---
 # <a name="multithreaded-apartments"></a>Apartments (cloisonnés) multithread
 

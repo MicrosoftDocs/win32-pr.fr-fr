@@ -5,11 +5,11 @@ ms.assetid: 7133daa4-43b2-402e-a8ac-b357bea745d9
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0ca0af764bebf54590442f87f0b4ffdb1a681012
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730468"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363583"
 ---
 # <a name="registering-the-dll-server-for-surrogate-activation"></a>Inscription du serveur DLL pour l’activation du remplacement
 
@@ -49,6 +49,6 @@ Il est préférable de configurer un serveur de DLL conçu pour s’exécuter se
 [Partage de substitution](surrogate-sharing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

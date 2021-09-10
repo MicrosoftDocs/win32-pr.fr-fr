@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 432c3fcd89a4841840559e44400716834df260b533d2cf40daa9da5e6a8fb6f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec8463c68f304fe216049568e0df518cbe1d0090
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784599"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363799"
 ---
 # <a name="mci_cue-command"></a>\_Commande MCI CUE
 
@@ -174,7 +174,7 @@ Un périphérique de sortie Waveform-Audio doit être en signal. Il s’agit de 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

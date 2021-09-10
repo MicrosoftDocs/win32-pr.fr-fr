@@ -4,12 +4,12 @@ description: Parfois, le client a besoin d’un contrôle affiné sur la sécuri
 ms.assetid: 72925ca2-78c9-47d9-8760-63f6379326d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8ef969039dcfdc12449b7a8d0a3d63729ab5f84061ade1a743d21a1b6b34331
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b38fe83e8ce8841cc9029808a6947ec67d4eaf4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118309094"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363507"
 ---
 # <a name="setting-security-at-the-interface-proxy-level"></a>Définition de la sécurité au niveau du proxy d’interface
 

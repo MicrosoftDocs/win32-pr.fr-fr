@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3fdbee3757e1fd3aada5292b86cc37577ccb718315c5b81140ceb14278c37c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ef3a803791a4f8dfe94d128d42ea06a7b28e739
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012617"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364315"
 ---
 # <a name="mciwndm_realize-message"></a>MCIWNDM \_ réaliser le message
 
@@ -53,7 +53,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 **MCIWNDM \_ RÉALISEz** l’utilisation de la palette du périphérique MCI et appelle la fonction [**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) . Si votre application gère explicitement les messages [**WM \_ PALETTECHANGED**](/windows/desktop/gdi/wm-palettechanged) et [**WM \_ QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) , vous devez utiliser ce message dans votre application au lieu d’utiliser **RealizePalette**. Si le corps de l’un de ces gestionnaires de messages contient uniquement **RealizePalette**, transférez le message à la fenêtre MCIWnd, qui réalise automatiquement la palette.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

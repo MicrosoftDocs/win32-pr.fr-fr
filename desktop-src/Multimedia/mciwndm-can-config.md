@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ef5b8e4f8e1ab09f128b1294034bbb715c834c3e867f31bbaae0cb6bd620be5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 816a8c1dfaec6fc7d7854f8873ce05e74e4de6bc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119525529"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364231"
 ---
 # <a name="mciwndm_can_config-message"></a>MCIWNDM \_ peut \_ configurer un message
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la **valeur true** si l’appareil prend en charge la configuration ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

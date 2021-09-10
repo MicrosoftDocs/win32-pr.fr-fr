@@ -5,11 +5,11 @@ ms.assetid: 277f44bb-72b7-4409-955d-2cd53bc99467
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fa0c6cae15818e5cdb3931f71f0d4be1ac1baef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310833"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363555"
 ---
 # <a name="registering-a-running-exe-server"></a>Inscription d’un serveur exécutable en cours d’exécution
 
@@ -39,9 +39,9 @@ Le serveur d’un objet de classe doit appeler [**CoRevokeClassObject**](/window
 [Inscription automatique](self-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

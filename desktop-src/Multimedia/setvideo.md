@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 674b8b35c21fa54f1c2ecfc8b9dff531266c319b827d675da46be04e6c7abe8e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3fa4c3d1e3b90b9ab0c5bf5791dacd541c8a8bc0
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805379"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363907"
 ---
 # <a name="setvideo-command"></a>commande setvideo
 
@@ -119,7 +119,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Pour les périphériques VCR, l’utilisation de setvideo avec un indicateur qui désactive une piste individuelle (« suivre le *\_ numéro de suivi* ») peut entraîner la réception par votre application d’un message d’état indiquant que la commande n’a pas pu être exécutée. Certains magnétoscopes peuvent désactiver uniquement les combinaisons de pistes, pas les pistes individuelles. par exemple, la première piste audio et une piste vidéo d’une cassette vidéo. Dans ce cas, utilisez simplement [SetAudio](setaudio.md) et setvideo pour continuer à désactiver les autres pistes qui composent la combinaison. Le pilote désactive les pistes lorsqu’il reçoit la commande pour désactiver la dernière piste dans la combinaison.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

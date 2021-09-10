@@ -10,12 +10,12 @@ keywords:
 - Fenêtre MCIWnd, classe de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb94841975e721b76bde7287709197c5457966ccb8def9f72dda426307b3732
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb89c386c3cf3d3d3885501981a1066430e31fb7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136127"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364368"
 ---
 # <a name="using-the-mciwnd-window-class"></a>Utilisation de la classe de fenêtre MCIWnd
 

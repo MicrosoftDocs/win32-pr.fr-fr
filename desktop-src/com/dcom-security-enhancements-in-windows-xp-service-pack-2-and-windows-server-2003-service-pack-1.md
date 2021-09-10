@@ -4,12 +4,12 @@ description: Windows server XP service pack 2 (SP2) et Windows server 2003 servi
 ms.assetid: 1917834c-5216-4ef3-a0c2-d8ca63cef53d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d093186f3d0a028112248409b71e0d71ed084e15cc075a1aced7a589aa0733ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4ad51807e27a9b97e8b05e467d8a84881c3993a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501329"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363383"
 ---
 # <a name="dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1"></a>améliorations de la sécurité DCOM dans Windows XP service pack 2 et Windows Server 2003 service pack 1
 
@@ -53,7 +53,7 @@ par défaut, les paramètres de restriction des ordinateurs Windows XP SP2 sont 
 | Autorisation        | Administrateur                                                                                             | Tout le monde                                            | Anonyme               |
 |-------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-------------------------|
 | Lancer<br/> | Lancement local<br/> Activation locale<br/> Lancement distant<br/> Activation distante<br/> | Lancement local<br/> Activation locale<br/> |                         |
-| Accès<br/> |                                                                                                           | Accès local<br/> Accès à distance<br/>    | Accès local<br/> |
+| Access<br/> |                                                                                                           | Accès local<br/> Accès à distance<br/>    | Accès local<br/> |
 
 
 
@@ -66,7 +66,7 @@ par défaut, les paramètres de restriction des ordinateurs Windows Server 2003 
 | Autorisation        | Administrateur                                                                                             | Utilisateurs du modèle COM distribué (groupe intégré)                                                                    | Tout le monde                                            | Anonyme                                        |
 |-------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
 | Lancer<br/> | Lancement local<br/> Activation locale<br/> Lancement distant<br/> Activation distante<br/> | Lancement local<br/> Activation locale<br/> Lancement distant<br/> Activation distante<br/> | Lancement local<br/> Activation locale<br/> | N/A<br/>                                   |
-| Accès<br/> | N/A<br/>                                                                                            | Accès local<br/> Accès à distance<br/>                                                          | Accès local<br/> Accès à distance<br/>    | Accès local<br/> Accès à distance<br/> |
+| Access<br/> | N/A<br/>                                                                                            | Accès local<br/> Accès à distance<br/>                                                          | Accès local<br/> Accès à distance<br/>    | Accès local<br/> Accès à distance<br/> |
 
 
 

@@ -4,12 +4,12 @@ description: Les valeurs de Registre associées à la \_ \_ \\ \\ clé OLE Micro
 ms.assetid: 871ae88f-ed2c-4078-8160-b0a490390426
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1648f12cd3983c73f5fdae040d4b81a833cce64995d98c19ef804e2941af48e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02406bca5dd69098f8cd49c2fba5f067852fcc5f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363467"
 ---
 # <a name="hkey_local_machinesoftwaremicrosoftole"></a>HKEY \_ local \_ machine \\ Software \\ Microsoft \\ OLE
 

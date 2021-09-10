@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b274536e934f426ef5e545e758c2f7bf918d552c42085650fc7c81a6a47c842e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3b294d4c461970a3304f09088cf63a6564acd50c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807089"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364568"
 ---
 # <a name="mmiom_writeflush-message"></a>\_Message MMIOM WRITEFLUSH
 
@@ -62,7 +62,7 @@ La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset
 
 Ce message est équivalent au message [**d' \_ écriture MMIOM**](mmiom-write.md) , à ceci près qu’il demande que la procédure d’e/s vide ses mémoires tampons internes, le cas échéant. À moins qu’une procédure d’e/s effectue une mise en mémoire tampon interne, ce message peut être géré exactement comme le message d' **\_ écriture MMIOM** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

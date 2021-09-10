@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23206d169ad5e273927ead247c44194660c8d6b201c725e1b4d4ab24fd5e1544
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83a20e0cc5466ac9ff28a59543543069fa9acd05
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803376"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363868"
 ---
 # <a name="mci_setvideo-command"></a>\_Commande MCI SETVIDEO
 
@@ -341,7 +341,7 @@ Le membre **dwNumber** de la structure identifiée par *lpSetVideo* contient l�
 
 Pour les périphériques VCR, le paramètre *lpSetVideo* pointe vers une structure [**MCI \_ VCR \_ SETVIDEO \_ PARMS**](mci-vcr-setvideo-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

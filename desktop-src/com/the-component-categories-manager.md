@@ -5,11 +5,11 @@ ms.assetid: bd43ef98-2299-4c8a-9f35-bf9aceb074ab
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2fdf301e1b344bbc2403fd656dd90447ccffc357
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462195"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363540"
 ---
 # <a name="the-component-categories-manager"></a>Gestionnaire de catégories de composants
 
@@ -41,9 +41,9 @@ Pour faciliter la gestion des catégories de composants et garantir la cohérenc
 [Définition des catégories de composants](defining-component-categories.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

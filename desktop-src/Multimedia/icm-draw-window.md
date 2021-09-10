@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1f66ca5beefa3d7eb774174bccc9d9482aebddd4a82341e9c83bb265d7788e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 290b123fadcaf46a315c42e3ce9a530c5d5d36c8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690920"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364211"
 ---
 # <a name="icm_draw_window-message"></a>ICM \_ DESSINER un \_ message de fenêtre
 
@@ -55,7 +55,7 @@ Ce message est pris en charge par le matériel qui effectue sa propre décompres
 
 Les pilotes vidéo-superposition utilisent ce message pour dessiner lorsque la fenêtre est masquée ou déplacée. quand une fenêtre spécifiée pour [**ICM \_ DRAW \_ BEGIN**](icm-draw-begin.md) est complètement masquée par d’autres fenêtres, le rectangle de destination est vide. Les pilotes doivent désactiver le matériel de superposition vidéo lorsque cette condition se produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

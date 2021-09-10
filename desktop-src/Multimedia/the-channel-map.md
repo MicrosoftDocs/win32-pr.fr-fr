@@ -12,12 +12,12 @@ keywords:
 - messages de canal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d514b5af6df6426db7cc5a313d1c6a52070a49c22a8a04e8cd2a9c34f49d80
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c87027c74ebddea9b51545d15bfa90e52dee95a8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688283"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364536"
 ---
 # <a name="the-channel-map"></a>Carte de canal
 

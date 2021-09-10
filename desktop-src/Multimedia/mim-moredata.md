@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 130a07d1d205e9944c7be6ab9ad1294e09d0ebdcdb81d5befc5468ff5a65218f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6342823e13a085b377a3e71f28a0f9ff016681c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119782969"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364412"
 ---
 # <a name="mim_moredata-message"></a>MIM \_ Message MOREDATA
 
@@ -81,7 +81,7 @@ L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI e
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

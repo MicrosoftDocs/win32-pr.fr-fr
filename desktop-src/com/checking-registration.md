@@ -4,12 +4,12 @@ description: Vérification de l’inscription
 ms.assetid: 7df63955-d838-4518-8473-0c1a24e90f69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd7d7f03f1d76b780b49bec5d744a02beca9a3dc45417bf8c6efddd8ff5a9e9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee215fd052ffc242900eead069a8b72fd25b31d5
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501649"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363531"
 ---
 # <a name="checking-registration"></a>Vérification de l’inscription
 

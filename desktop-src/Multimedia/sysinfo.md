@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a0af11370fd3968a2f5a6cf296ea04507f18d517665071674cfa8a4573e1a4f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4751a5633462afe1ca8e8cd9abee1afeb16ac242
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688329"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364000"
 ---
 # <a name="sysinfo-command"></a>commande sysinfo
 
@@ -88,7 +88,7 @@ La commande suivante renvoie le nom (l’alias d’appareil) du premier périph�
 sysinfo waveaudio name 1 open
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9fad34059ec75b0077fdc409cee8cd35a5495699
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468786"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363736"
 ---
 # <a name="delete-command"></a>commande Delete
 
@@ -105,7 +105,7 @@ La commande suivante supprime les données Waveform-Audio de 1 milliseconde à 9
 delete mysound from 1 to 900
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

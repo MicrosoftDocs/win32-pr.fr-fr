@@ -13,12 +13,12 @@ keywords:
 - ouverture de périphériques de sortie MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0976e265fe253d02bc9662e6ea9b376d5acc4b5fd9f62e56642b56df53ce135
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ca7a7e1db461b29700ec7c7c61ee140073bc345
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136708"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364491"
 ---
 # <a name="opening-midi-output-devices"></a>Ouverture de périphériques de sortie MIDI
 

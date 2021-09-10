@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8c40d2c8b2c7c4cb309b5c6e5b21dcd29e6c8ee27b9ca8c97556cb14927a121
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2215f8df3ea6f7b36b224318ebac68175ff9c265
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428539"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364335"
 ---
 # <a name="mciwndm_setvolume-message"></a>\_Message MCIWNDM SETVOLUME
 
@@ -49,7 +49,7 @@ Nouveau niveau de volume. Spécifiez 1000 pour le niveau de volume normal. Spéc
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - acmStreamClose fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ec1050066b92a356067085b491f5ddbf4bded47789c6e15a5187ea74c47c0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9645342aa9f19b2c31de77dc9d1031122ed0b2ac
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144808"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364051"
 ---
 # <a name="converting-data-from-one-format-to-another"></a>Conversion de données d’un format à un autre
 

@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre ServiceParameters COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 103b55269b700beaf5c85e3408e3597e63fb9140e4dc79fe4bb895ff6767bfc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 235de1052df72e88e2093647928ed68ab67451cd
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129961"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363331"
 ---
 # <a name="serviceparameters"></a>ServiceParameters
 

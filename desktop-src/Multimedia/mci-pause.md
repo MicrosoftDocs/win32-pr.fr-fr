@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2318a10e7b03bf89d616bd6ff2373cdf785b0bb4015ab4b308ead57d7f9223
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b076397ca9ab770d6f9c23cc5b64853bdd2f07ee
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803497"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363791"
 ---
 # <a name="mci_pause-command"></a>\_Commande d’interruption MCI
 
@@ -74,7 +74,7 @@ La différence entre les commandes d' [ \_ arrêt MCI](mci-stop.md) et de \_ Pau
 
 Pour les périphériques vidéo numériques, le paramètre *lpPause* pointe vers une structure de [**\_ \_ pause \_ MCI DGV**](/previous-versions//dd743395(v=vs.85)) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

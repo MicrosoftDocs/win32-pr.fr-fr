@@ -5,11 +5,11 @@ ms.assetid: ae434165-4429-4ef0-b083-60abdfc50de0
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 706c788f103d3d616b5a3087522b5f06b417e972
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510711"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363596"
 ---
 # <a name="ntlmssp"></a>NTLMSSP
 
@@ -30,6 +30,6 @@ NTLM prend également en charge le niveau d’emprunt d’identité du délégu�
 [Packages COM et de sécurité](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

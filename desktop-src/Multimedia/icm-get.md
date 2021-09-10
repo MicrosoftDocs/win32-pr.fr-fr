@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8885faf7b0605378ace3004165004384a582c9d49a0a8ce047122c108b6cb8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e23cd994546be41b5f938331b2dc632897635c32
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038729"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364212"
 ---
 # <a name="icm_get-message"></a>ICM \_ RECEVOIR un message
 
@@ -60,7 +60,7 @@ Retourne la quantité de mémoire, en octets, requise pour stocker les informati
 
 La structure utilisée pour représenter les informations d’État est spécifique au pilote et est définie par le pilote.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

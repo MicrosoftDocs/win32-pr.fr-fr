@@ -13,12 +13,12 @@ keywords:
 - ouverture de périphériques d’entrée MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d260674194e7f066e5095e30a78c94b241a60b32304888aceb8db9ae06ccfea6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5d4c1271cee1e6a47c35f8c555932d87d1055065
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806269"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364436"
 ---
 # <a name="opening-midi-input-devices"></a>Ouverture de périphériques d’entrée MIDI
 

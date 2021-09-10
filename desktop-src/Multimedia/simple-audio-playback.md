@@ -14,12 +14,12 @@ keywords:
 - Wave audio, fonction PlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6388f9800f93080e995ae537c2458a22da033ab2149b4bfca114c25025d97434
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 256feded06de4ee92ee415f14bb08adc7fb4456e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688689"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367708"
 ---
 # <a name="simple-audio-playback"></a>Lecture audio simple
 

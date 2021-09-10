@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c610904512e2b39a5c0f16781c1d9f27155f7826941aebfc66fcd9259f7ee8a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fe75048a53023dab67bef4048d6149438ad54d2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119525419"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364295"
 ---
 # <a name="mciwndm_notifymode-message"></a>\_Message MCIWNDM NOTIFYMODE
 
@@ -56,7 +56,7 @@ Entier correspondant au mode MCI.
 
 Vous pouvez activer la notification des modifications de mode d’un appareil MCI en spécifiant le \_ style de fenêtre MCIWNDF NOTIFYMODE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

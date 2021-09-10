@@ -8,12 +8,12 @@ keywords:
 - AVICap, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c2433636e575888d913e86b584e11ba685b582f8093f75cbc68b1affd40a5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c53bcb3330511675d61fa835ddd460cf5b136e83
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118370148"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367780"
 ---
 # <a name="video-capture-windows-multimedia"></a>Capture vidéo (multimédia Windows)
 

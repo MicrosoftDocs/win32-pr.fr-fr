@@ -4,12 +4,12 @@ description: Désactivation de la sécurité
 ms.assetid: 31dbf140-474d-4304-bcbf-13d6a6ce9175
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1617c65cc3984f50d381e1f6fb90a708e89ac7d7727e9ba9083e7794868681d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 646dc97e0d74230f9a555fec96d8ce37d2c1a92d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991369"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363608"
 ---
 # <a name="turning-off-security"></a>Désactivation de la sécurité
 

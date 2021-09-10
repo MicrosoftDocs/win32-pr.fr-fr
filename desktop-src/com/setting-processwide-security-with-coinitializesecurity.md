@@ -4,12 +4,12 @@ description: La fonction CoInitializeSecurity vous permet de contrôler les scé
 ms.assetid: 20b66868-fb9a-489f-97a2-59a8a825c8d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88c3e601897e9f2313682a3474c1760bc211285d8fa81a82f67d114681a7a57f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 567a6dfaf47dbd278fc248558cd25969c733b24a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119610889"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363504"
 ---
 # <a name="setting-process-wide-security-with-coinitializesecurity"></a>Définition de la sécurité Process-Wide avec CoInitializeSecurity
 

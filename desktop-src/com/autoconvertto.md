@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AutoConvertTo COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ea2b32445bb7107dcbfdc2aec8aee518fdd474674e76fdbd820265d06b6160
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 160f6591ed318ad7622e0bf3c0af5187f95d3be3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363419"
 ---
 # <a name="autoconvertto"></a>AutoConvertTo
 

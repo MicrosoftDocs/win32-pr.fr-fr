@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AppID COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da7eb6e15c858a2bf0ecbb1b71589a8d7c471f317ac5deca792f2d07b680bcf8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b283a9cc47907cf418c2d7d6d613d151c7e5c5e6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859709"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363392"
 ---
 # <a name="appid-key"></a>Clé AppID
 

@@ -7,12 +7,12 @@ keywords:
 - Informations de référence sur MCI, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b65932790320bc8dead6ae2f19e463d66783b72c5e4ef839ca714fe7f59a7b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddd081d34795c4bf46890c3f19c05119d63e9c09
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118374402"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363756"
 ---
 # <a name="mci-structures"></a>Structures MCI
 

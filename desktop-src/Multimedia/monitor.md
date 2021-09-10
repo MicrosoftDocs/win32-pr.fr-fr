@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bef9a47db68856196dc84aefb3c5f110941189dec80f62b369eae13c60932d71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4ccbe1d8919c232ab88d04081dad242944868893
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038809"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363903"
 ---
 # <a name="monitor-command"></a>commande Monitor
 
@@ -80,7 +80,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 La source de la présentation bascule automatiquement vers l’espace de travail après une commande [Play](play.md), [Step](step.md), [Pause](pause.md), [CUE](cue.md) « Output » ou [Seek](seek.md) . La commande d' [enregistrement](record.md) ne change pas automatiquement les sources de présentation, ce qui permet à votre application de ne pas afficher de vidéo lors de son enregistrement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

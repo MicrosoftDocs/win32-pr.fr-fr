@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3270dce8b2127cce783c7c3b8bf21102590cd3e82d74a3e990a3117c59772381
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41b4d630dbc9dbc7403e93cd0bda3de2eef1e5cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119783689"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363871"
 ---
 # <a name="mci_window-command"></a>\_Commande de fenêtre MCI
 
@@ -140,7 +140,7 @@ Le membre **lpstrText** de la structure identifiée par *lpWindow* contient l’
 
 Pour les périphériques de superposition vidéo, le paramètre *lpWindow* pointe vers une structure de fenêtre d’affichage [**MCI \_ OVLY \_ \_**](mci-ovly-window-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

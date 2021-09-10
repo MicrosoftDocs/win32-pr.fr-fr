@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57caf05182f01ef1e6aec6939946a23ca0acf6f3f82ec29be04ec7e3a49cb782
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eefea0f6344fb598fac1f0413bba5c377c5914e6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117987234"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364204"
 ---
 # <a name="icm_draw_start_play-message"></a>ICM \_ DESSINER le \_ message de début de \_ lecture
 
@@ -64,7 +64,7 @@ les unités pour *lFrom* et *lTo* sont spécifiées avec le message [**ICM \_ DR
 
 Si l’heure de fin est inférieure à l’heure de début, la direction de la lecture est inversée.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

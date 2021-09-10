@@ -9,12 +9,12 @@ keywords:
 - audio auxiliaire, prise en charge du format standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30a90d38f7419b6fbdb3de951c0aa2205ccd3dd9ff5366eb1e69eab945220db1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9d0933a82ca8da53c89e1cb8b7d32b40dc89ae0c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119497279"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367751"
 ---
 # <a name="determining-nonstandard-format-support"></a>Détermination de la prise en charge des formats non standard
 

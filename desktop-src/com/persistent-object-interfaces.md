@@ -4,12 +4,12 @@ description: Un objet persistant implémente une ou plusieurs interfaces d’obj
 ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97ee1062c80a5c40d139965e0e3bebf96cbda534062322e218e2f5a7da586ff0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5df8920f1242d077044654d1090adcc0e3f3f05c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120409"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363651"
 ---
 # <a name="persistent-object-interfaces"></a>Interfaces d’objets persistants
 
@@ -31,7 +31,7 @@ Par exemple, le tableau suivant répertorie plusieurs types d’objets qui perme
 
 
 
-| Category                            | Interfaces d’objets persistantes généralement prises en charge                                                                                                                                                         |
+| Catégorie                            | Interfaces d’objets persistantes généralement prises en charge                                                                                                                                                         |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Monikers<br/>                 | [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream)<br/>                                                                                                                                                      |
 | Objets OLE incorporables<br/>   | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [ **IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |

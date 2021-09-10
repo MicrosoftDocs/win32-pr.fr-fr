@@ -13,12 +13,12 @@ keywords:
 - cartes clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a89c23d6326e19cb5680906155d5ee2e8dbcc32735fabd8625658410ef4ddfa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddd962f848343ea493204d494943a99eedcc56a5
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119781849"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364539"
 ---
 # <a name="summary-of-maps-and-midi-messages"></a>résumé des Messages Cartes et MIDI
 

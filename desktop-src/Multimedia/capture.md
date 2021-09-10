@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68bc32fd247cbe3519fbffad778b33679e3b71c652b476f557db5a910e87721c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bdf5edce248fc5402245e36e869cddc97ba3430a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118941517"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363692"
 ---
 # <a name="capture-command"></a>commande capture
 
@@ -79,7 +79,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Cette commande peut échouer si l’appareil est en train de visionner des vidéos animées ou d’exécuter d’autres opérations gourmandes en ressources. Si la mémoire tampon de trame est mise à jour en temps réel, la mise à jour s’interrompt momentanément afin qu’une image complète soit capturée. Si l’appareil interrompt la mise à jour, il peut y avoir un effet visuel ou audible. Si le format de fichier, l’algorithme de compression et les niveaux de qualité n’ont pas été définis, leurs valeurs par défaut sont utilisées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

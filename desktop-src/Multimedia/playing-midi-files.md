@@ -15,12 +15,12 @@ keywords:
 - mémoires tampons de flux, lire des fichiers MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ddb915ce19072a119f692df738d69f8de6807a8b14f47ef7b8e0428814976c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bee66ba0687807554cdd416debc1428499d2f2fc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805899"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364483"
 ---
 # <a name="playing-midi-files"></a>Jeux de fichiers MIDI en train de fonctionner
 

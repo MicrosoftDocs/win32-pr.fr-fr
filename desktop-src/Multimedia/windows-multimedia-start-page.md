@@ -9,12 +9,12 @@ keywords:
 - multimédia, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3df2dfc07e94eef731cfff8550dd97904240f544bfa5e1c71fd7f70237fd076c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb559a7514db9af0aaef39124c35ed727e593cd1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687119"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363675"
 ---
 # <a name="windows-multimedia"></a>Windows Media
 

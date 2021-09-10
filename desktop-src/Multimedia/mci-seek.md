@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d901bf92e3495dde9a16e7499dcaae850b5e50eab2b4df1af99ca39f290cc981
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d0e34f6fa823092968e74515a885e7a40db9f2d7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430479"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363852"
 ---
 # <a name="mci_seek-command"></a>\_Commande MCI Seek
 
@@ -135,7 +135,7 @@ La direction de la recherche est inversée.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

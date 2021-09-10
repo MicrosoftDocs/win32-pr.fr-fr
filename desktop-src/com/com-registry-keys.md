@@ -4,12 +4,12 @@ description: Clés de registre COM
 ms.assetid: 08406092-eb77-4001-a4fa-659ce945e4d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80800bda0123823fec85a514c19031d485b17baca729969b4e74e5f08516eecd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76b85bb84b0a6f2e6ccc233b68af2889f4cb11ab
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048497"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363420"
 ---
 # <a name="com-registry-keys"></a>Clés de registre COM
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5525066f4c377cc093e1e7a0dedd4edf7463792c136214a519da9744917cbc89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b2cea636c3c879da642da753c4fd084b06c4334
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119525509"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364240"
 ---
 # <a name="mciwndm_changestyles-message"></a>\_Message MCIWNDM CHANGESTYLES
 
@@ -56,7 +56,7 @@ Nouveaux paramètres de style pour la fenêtre. Spécifiez zéro pour ce paramè
 
 Retourne zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

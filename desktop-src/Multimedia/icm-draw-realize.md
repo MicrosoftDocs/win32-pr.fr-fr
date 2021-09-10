@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_REALIZE (VFW. h)
-description: Le \_ message d’établissement de dessin ICM \_ informe un pilote de rendu de réaliser sa palette de dessin pendant le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawRealize.
+description: le \_ message ICM dessiner \_ , informe un pilote de rendu pour réaliser sa palette de dessin pendant le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawRealize.
 ms.assetid: 501540cd-41e2-4f80-abf8-2ec2179970a9
 keywords:
-- Message ICM_DRAW_REALIZE Windows Multimedia
+- message ICM_DRAW_REALIZE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dd054c16caae55cba25c30098337e54b0ec4b681
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384487"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364196"
 ---
-# <a name="icm_draw_realize-message"></a>\_Message d’établissement de dessin ICM \_
+# <a name="icm_draw_realize-message"></a>ICM \_ DESSINER le message de réalisation \_
 
-Le message d' **établissement de dessin ICM informe \_ \_** un pilote de rendu de réaliser sa palette de dessin pendant le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawRealize**](/windows/desktop/api/Vfw/nf-vfw-icdrawrealize) .
+le **message \_ ICM \_ dessiner** , informe un pilote de rendu pour réaliser sa palette de dessin pendant le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawRealize**](/windows/desktop/api/Vfw/nf-vfw-icdrawrealize) .
 
 
 ```C++
@@ -56,11 +56,11 @@ Indicateur d’arrière-plan. Spécifiez **true** pour réaliser la palette en t
 
 Retourne ICERR \_ OK si la palette de dessin est réalisée ou ICERR \_ non prise en charge si la palette associée aux données décompressées est obtenue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les pilotes doivent répondre à ce message uniquement si la palette de dessin est différente de la palette décompressée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84d067b01dbce8aaab7c78ab24c3d11fc5d4a3a19b9bfdb663eb653ebc0c553c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 043a0fc15260f7448df8d009a6b468616244269d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118374241"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364235"
 ---
 # <a name="mciwndm_can_play-message"></a>MCIWNDM \_ peut \_ lire le message
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la **valeur true** si l’appareil prend en charge la diffusion des données ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

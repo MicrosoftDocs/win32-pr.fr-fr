@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 158e0b52f01431886fd8a70e89efadfdd7335258c0808cdb6780bf06071e3280
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aeae2ac3cb57f8ddbb2343ee3f42d30fa8def370
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807589"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364328"
 ---
 # <a name="mciwndm_setrepeat-message"></a>\_Message MCIWNDM SETREPEAT
 
@@ -53,7 +53,7 @@ Retourne zéro.
 
 À l’heure actuelle, MCIAVI est le seul périphérique qui prend en charge la lecture continue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

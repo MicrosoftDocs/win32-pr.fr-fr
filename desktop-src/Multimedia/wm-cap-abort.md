@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 904edb47c371ee13ed3492fd9257e3933bf2f001010d7dd2b0177a7729500813
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2843e3c4d59b62f2b58be20cef63ed0dc2e79d4b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117800654"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367772"
 ---
 # <a name="wm_cap_abort-message"></a>\_Message WM Cap \_ Abort
 
@@ -44,7 +44,7 @@ L’opération de capture doit donner l’utilisation de ce message.
 
 Utilisez le message [**WM \_ Cap \_ Stop**](wm-cap-stop.md) pour interrompre la capture de l’étape à la position actuelle, puis capturez l’audio.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 61c1e9290cbe04cfe33e1192b95b86ca03fd5ea5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379779"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363496"
 ---
 # <a name="srptrustlevel"></a>SRPTrustLevel
 
@@ -21,13 +21,13 @@ Définit le niveau de confiance de la stratégie de restriction logicielle (SRP)
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      SRPTrustLevel = value
+   {AppID_GUID}
+      SRPTrustLevel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il s’agit d’une valeur **reg \_ DWORD** qui est disponible à partir de Windows XP.
+il s’agit d’une valeur **REG \_ DWORD** qui est disponible à partir de Windows XP.
 
 
 
@@ -38,7 +38,7 @@ Il s’agit d’une valeur **reg \_ DWORD** qui est disponible à partir de Wind
 
 
 
- 
+ 
 
 Si la valeur **SRPTrustLevel** n’existe pas, la valeur par défaut sécurisée \_ LEVELID \_ interdit est utilisée. Si **SRPTrustLevel** est de type incorrect ou hors limites, com renvoie l’erreur comadmin \_ E \_ SAFERINVALID. En cas d’échec de l’activation d’un tri en raison de vérifications d’approbation de SRP, COM renvoie l’erreur CO \_ E \_ ACTIVATIONFAILED.
 
@@ -55,9 +55,9 @@ Si la valeur **SRPTrustLevel** n’existe pas, la valeur par défaut sécurisée
 [**SRPRunningObjectChecks**](srprunningobjectchecks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

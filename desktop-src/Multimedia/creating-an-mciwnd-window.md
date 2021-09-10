@@ -7,12 +7,12 @@ keywords:
 - MCIWndCreate fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2a44096f4edbf590416a98e83b0efc2408a4bee93ee3a2814996bcae466937d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c205e87acf3e5f529d4b5cc9c9163b7fe887fe04
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785799"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364376"
 ---
 # <a name="creating-an-mciwnd-window"></a>Création d’une fenêtre MCIWnd
 

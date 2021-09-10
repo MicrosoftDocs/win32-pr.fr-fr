@@ -36,12 +36,12 @@ keywords:
 - informations de référence sur l’audio wavefore, enregistrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd83f843de130d247749acfc87a67c60948871bb8cd878f9aa180fcd385fb13
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c74b37984b2d3fab5dad1ea0df4f1f62dfa1855e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687419"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367663"
 ---
 # <a name="waveform-audio-reference"></a>Référence sur l’audio Waveform
 
@@ -61,7 +61,7 @@ Cette section répertorie les fonctions, structures et messages associés à la 
 -   [**PlaySound**](/previous-versions//dd743680(v=vs.85))
 -   [**sndPlaySound**](/previous-versions//dd798676(v=vs.85))
 
-## <a name="errors"></a>Errors
+## <a name="errors"></a>Erreurs
 
 -   [**waveInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveingeterrortext)
 -   [**waveOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgeterrortext)

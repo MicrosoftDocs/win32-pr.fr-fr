@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESS_QUERY (VFW. h)
-description: Le message de requête de décompression ICM \_ \_ interroge un pilote de décompression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut décompresser un format d’entrée spécifique dans un format de sortie spécifique.
+description: le \_ message de requête ICM décompresser \_ interroge un pilote de décompression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut décompresser un format d’entrée spécifique dans un format de sortie spécifique.
 ms.assetid: 622dd1de-3f7a-4841-913c-282c2ad766f4
 keywords:
-- Message ICM_DECOMPRESS_QUERY Windows Multimedia
+- message ICM_DECOMPRESS_QUERY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 838c946a38f9c2fda0c9178a36107af73f539a03
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511585"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364180"
 ---
-# <a name="icm_decompress_query-message"></a>\_Message de requête de décompression ICM \_
+# <a name="icm_decompress_query-message"></a>ICM \_ Message de requête de décompression \_
 
-Le message de **\_ \_ requête** de décompression ICM interroge un pilote de décompression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut décompresser un format d’entrée spécifique dans un format de sortie spécifique. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) .
+le message de **\_ \_ requête ICM décompresser** interroge un pilote de décompression vidéo pour déterminer s’il prend en charge un format d’entrée spécifique ou s’il peut décompresser un format d’entrée spécifique dans un format de sortie spécifique. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressQuery**](/windows/desktop/api/Vfw/nf-vfw-icdecompressquery) .
 
 
 ```C++
@@ -56,7 +56,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne ICERR \_ OK si la décompression spécifiée est prise en charge ou ICERR BADFORMAT dans le \_ cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

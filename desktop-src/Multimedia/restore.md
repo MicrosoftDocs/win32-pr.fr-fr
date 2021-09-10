@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e82fdec2480cfe2fc1b41901872aef7e41ee468d1adc3924df17a27e40031e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2d7f0f236b26e3e73807b32485442d597e93d40
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689189"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363992"
 ---
 # <a name="restore-command"></a>commande Restore
 
@@ -79,7 +79,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Les appareils peuvent reconnaître un large éventail de formats d’image. une image bitmap indépendante du périphérique Windows est toujours reconnue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

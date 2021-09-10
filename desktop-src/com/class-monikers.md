@@ -4,12 +4,12 @@ description: Bien que les classes soient généralement identifiées directement
 ms.assetid: 63f5d256-cb61-4673-b5d6-da5c1d89dfa5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 499a117372cd7364fc52b3503b30175a4be11afb9e28e3dd32adbf1007185f85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80886ce49ea25d2fb5acbf4dddf550c9d2c3ae29
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048690"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363360"
 ---
 # <a name="class-monikers"></a>Monikers de classe
 

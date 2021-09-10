@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f66bbac900b69841fd7cba814aad339731b75727
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029822"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363700"
 ---
 # <a name="about-avifile-functions-and-macros"></a>À propos des fonctions et macros AVIFile
 
@@ -21,13 +21,13 @@ Les fonctions et macros AVIFile gèrent les informations dans des fichiers basé
 > [!Note]  
 > Bien que les fonctions et macros AVIFile fonctionnent avec n’importe quel fichier RIFF, cette vue d’ensemble illustre leur utilisation avec les fichiers AVI uniquement. Les fichiers AVI sont généralement des fichiers basés sur le temps utilisés avec les macros et les fonctions AVIFile.
 
- 
+ 
 
 Les fonctions et les macros AVIFile sont contenues dans une bibliothèque de liens dynamiques. Pour initialiser la bibliothèque, utilisez la fonction [**AVIFileInit**](/windows/desktop/api/Vfw/nf-vfw-avifileinit) . Après l’initialisation de la bibliothèque, vous pouvez utiliser l’une des fonctions ou macros AVIFile. Pour libérer la bibliothèque, utilisez la fonction [**AVIFileExit**](/windows/desktop/api/Vfw/nf-vfw-avifileexit) . AVIFile conserve un décompte de références des applications qui utilisent la bibliothèque, mais pas celles qui l’ont publié. Vos applications doivent équilibrer chaque utilisation de **AVIFileInit** avec un appel à **AVIFileExit** pour libérer complètement la bibliothèque une fois que chaque application a terminé de l’utiliser.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Utilisation de fonctions et de macros AVIFile
 ms.assetid: 1866cd31-6f84-4791-96e3-505917715f8c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b9e1ff9aff7da03fc2babdb9e7009cb2ea78d135942153bc59066e4b0809e0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4630e1a72b7411c767a5b3b95143837cf2ddea11
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363704"
 ---
 # <a name="using-avifile-functions-and-macros"></a>Utilisation de fonctions et de macros AVIFile
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c34250f59122eca942309b840c4b66521a08b3eecc8ca89dfd480d6e9a6869d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c8fa4af30aa2b3aa6f7cdd50f453bc8edca83334
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689909"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363768"
 ---
 # <a name="mci_put-command"></a>\_Commande put MCI
 
@@ -168,7 +168,7 @@ Le membre **RC** de la structure identifiée par *lpDest* contient un rectangle 
 
 Pour les périphériques de superposition vidéo, *lpDest* pointe vers une structure [**MCI \_ OVLY \_ rect \_ PARMS**](mci-ovly-rect-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
