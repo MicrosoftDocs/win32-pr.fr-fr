@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b6b1793ff7653e87a631ce1a4599345ec78f4015
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379909"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369231"
 ---
 # <a name="multimedia-recording"></a>Enregistrement multimédia
 
@@ -23,11 +23,11 @@ Si votre application nécessite une plus grande sophistication, vous pouvez auto
 > [!Note]  
 > Certains périphériques, tels que les CD audio et MCIAVI, sont utilisés uniquement pour la lecture. D’autres périphériques, tels que les périphériques audio Waveform, peuvent être utilisés pour l’enregistrement. Si vous spécifiez un appareil qui ne peut pas être enregistré, MCIWnd omet le bouton **Enregistrer** dans la barre d’outils.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

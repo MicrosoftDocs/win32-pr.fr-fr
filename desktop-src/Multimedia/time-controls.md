@@ -12,12 +12,12 @@ keywords:
 - contrôle de la milliseconde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d79c93ccc3168fd012077bbd7a6545bd6171a02401bc8b42fc8530666aa10d20
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8099d764533b8e68bcdaa7b9c6f71472fc552aa3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804919"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368863"
 ---
 # <a name="time-controls"></a>Contrôles de temps
 
@@ -25,7 +25,7 @@ Les contrôles de temps permettent à l’utilisateur d’entrer des données re
 
 
 
-| Contrôler     | Description                                                                                            |
+| Control     | Description                                                                                            |
 |-------------|--------------------------------------------------------------------------------------------------------|
 | Microseconde | Prend en charge les données de minutage exprimées en microsecondes. La plage de valeurs acceptables est comprise entre 0 et (232 – 1). |
 | Milliseconde | Prend en charge les données de minutage exprimées en millisecondes. La plage de valeurs acceptables est comprise entre 0 et (232 – 1). |

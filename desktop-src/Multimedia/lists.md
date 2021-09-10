@@ -17,12 +17,12 @@ keywords:
 - MUX (multiplexeur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f15e1c89e564ddd3b6c263b91242a3e4dc0382fd36f86554ec6bd0556191ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d475816d7090ee241a1508cc054b12742c4ab27
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118139394"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368831"
 ---
 # <a name="lists"></a>Listes
 
@@ -30,7 +30,7 @@ Les contrôles de liste fournissent des États à sélection unique ou à sélec
 
 
 
-| Contrôler           | Description                                                                                                                                                                                                                                                                      |
+| Control           | Description                                                                                                                                                                                                                                                                      |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sélection simple     | Limite la sélection de contrôle à un élément à la fois. Contrairement au contrôle multiplexeur, ce contrôle peut être utilisé pour contrôler plus que les lignes de la source audio. Par exemple, vous pouvez utiliser ce contrôle pour sélectionner un filtre à passage faible dans une liste de filtres pris en charge par un appareil de mixage. |
 | Multiplexeur (multiplexeur) | Limite la sélection de ligne à une ligne source à la fois.                                                                                                                                                                                                                       |

@@ -13,12 +13,12 @@ keywords:
 - DIB (bitmap indépendante du périphérique)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b7de2fb3613ffd8211a654565b4d07ce386c0d8006fd98338337b5fd165b7f9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 63cfe88ec93e539fec74539c09d2f8a8446984ac
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119496759"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368455"
 ---
 # <a name="drawdib"></a>DrawDib
 

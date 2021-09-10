@@ -8,12 +8,12 @@ keywords:
 - AVIStreamSampleToTime fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0528fea9ea10e28a418d253bd1abe6c599a952fe95a8c8f6c86807abe0e41159
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5252aa938d32c323da9fcf7ae106d11db0ff2fb4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805859"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369255"
 ---
 # <a name="positioning-in-streams"></a>Positionner dans Flux
 

@@ -4,12 +4,12 @@ description: Création d’une table de fonctions virtuelles pour un gestionnair
 ms.assetid: 8f43b0d4-6710-4175-8da0-aafd6b6d753a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8281cee5a385a6a37e03e657facf4790fed504b18e38fb7b1825a2dce5690fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98c6398c34182218b902f276f98e513ce296f394
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144722"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368244"
 ---
 # <a name="creating-a-virtual-function-table-for-a-stream-handler"></a>Création d’une table de fonctions virtuelles pour un gestionnaire de flux
 

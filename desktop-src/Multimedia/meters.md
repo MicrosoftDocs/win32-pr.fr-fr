@@ -18,11 +18,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f36f1bebfca22b963e5c1eb6fede3f2786b35199
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463143"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368844"
 ---
 # <a name="meters"></a>Mètres
 
@@ -30,7 +30,7 @@ Le compteur contrôle les données de mesure en passant par une ligne audio. Ces
 
 
 
-| Contrôler  | Description                                                                                                                                            |
+| Control  | Description                                                                                                                                            |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Boolean  | Mesure si une valeur entière est FALSe/OFF (zéro) ou TRUE/ON (valeur différente de zéro).                                                                            |
 | Peak     | Mesure la déviation de 0 dans les directions positive et négative. La plage de valeurs entières pour le compteur de pic est comprise entre – 32 768 et 32 767. |
@@ -39,8 +39,8 @@ Le compteur contrôle les données de mesure en passant par une ligne audio. Ces
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3293be6917917581957df0f5dae9456274f1d2cc3eeffff5ea971c3596209a62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd3bfc5dc463d84c935f994519060c33f89b8c0a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369393"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368036"
 ---
 # <a name="wm_cap_set_scale-message"></a>Message de mise à l’échelle du jeu de \_ connexions WM \_ \_
 
@@ -55,7 +55,7 @@ La mise à l’échelle des images d’aperçu contrôle la présentation imméd
 
 La mise à l’échelle n’a aucun effet lors de l’utilisation de la superposition pour afficher la vidéo dans la mémoire tampon de trame.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

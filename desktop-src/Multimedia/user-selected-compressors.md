@@ -8,12 +8,12 @@ keywords:
 - ICCompressorChoose fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c855acb1ecd69876009d0cc3eb6a3b3f4129cc252183e40c5b2d00289be82842
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbbba48b919265ea6e0bab2c3d891f628c4e660a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118370799"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369020"
 ---
 # <a name="user-selected-compressors"></a>Compresseurs User-Selected
 

@@ -4,12 +4,12 @@ description: Raccourcis et variantes de commande
 ms.assetid: 4f854c78-435c-4a10-8938-645ad605fff3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 532a3379b5eb6dced9ccebb3e04e76be87fdca7ea5af341b647cb0205888c283
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a82ce41aaa9cc5744a2f199a7f7761111734e848
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807919"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368092"
 ---
 # <a name="command-shortcuts-and-variations"></a>Raccourcis et variantes de commande
 

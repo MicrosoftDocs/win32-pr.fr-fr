@@ -4,12 +4,12 @@ description: Pilotes de capture et audio
 ms.assetid: b4e18499-6d2e-49be-bef6-83b9a109519b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35c0d37d62d03720b90986e6bf4a7d38c7b9884d700f1949f58a91998ceb6ef0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 32f35d0880effb86ff19dce1bacf3bfd6dabf385
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119691798"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368719"
 ---
 # <a name="capture-and-audio-drivers"></a>Pilotes de capture et audio
 

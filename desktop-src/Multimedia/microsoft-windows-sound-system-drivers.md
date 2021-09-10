@@ -11,12 +11,12 @@ keywords:
 - WSS Pilotes NT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02320fd17a5c3edf20f043fab015169ff0c9bb62b4abffd71e0e66f197f8941e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 153cb8fa8159ec34e52c9d246bfd0b6f34329a40
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118137521"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369124"
 ---
 # <a name="microsoft-windows-sound-system-drivers"></a>pilotes Microsoft Windows Sound System
 

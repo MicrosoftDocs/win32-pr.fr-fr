@@ -8,12 +8,12 @@ keywords:
 - ICDecompressEx, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5006a019fd3fcf24a08f620186af8eb09d9516e103722395ed96722b48696cb8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 25614f157436056f7f24c340f6cc6f4dbc62d9ae
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495599"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369023"
 ---
 # <a name="image-data-decompression"></a>Décompression Image-Data
 

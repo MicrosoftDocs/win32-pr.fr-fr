@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc44efae992f2967cb069c0866fbb7f9febed51ea73f94853a1b017bc57a068
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 256b5f7913c83ddd278f3f3a05552b3d81070c73
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369680"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367887"
 ---
 # <a name="wm_cap_driver_get_name-message"></a>\_Message d' \_ extraction du pilote WM Cap \_ \_
 
@@ -60,7 +60,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de c
 
 Le nom est une chaîne de texte Récupérée à partir de la zone de ressources du pilote. Les applications doivent allouer environ 80 octets pour cette chaîne. Si le pilote ne contient pas de ressource de nom, le nom de chemin d’accès complet du pilote figurant dans le registre ou dans le fichier SYSTEM.INI est retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

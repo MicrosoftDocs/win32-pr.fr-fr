@@ -13,12 +13,12 @@ keywords:
 - DrawDib, images compressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e03b41d5af776c39f7d100e9478bd408011d61d8e3d661cb80bd9ab52f08c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 238f3e9ba822e16a7568775378b24f69bbca12de
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118942087"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368460"
 ---
 # <a name="about-the-drawdib-functions"></a>À propos des fonctions DrawDib
 

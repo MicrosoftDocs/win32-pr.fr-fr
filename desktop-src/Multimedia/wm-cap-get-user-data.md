@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a79a513d415d166ab2715a181a6d8fc366b60480caf2982f6bbc53eadf90d96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02951667600acba115f506a610b167b72b69ea99
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892029"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367940"
 ---
 # <a name="wm_cap_get_user_data-message"></a>\_Message d' \_ extraction \_ de \_ données utilisateur de l’embout WM
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne une valeur enregistrée précédemment à l’aide du message [**WM \_ embout \_ Set \_ User \_ Data**](wm-cap-set-user-data.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

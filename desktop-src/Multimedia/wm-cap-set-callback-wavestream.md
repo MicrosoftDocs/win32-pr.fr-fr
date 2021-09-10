@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4a8ef585a3ceb35aa07fe4e31c5819ce3e56d20b0bfd2d6c5f588fc25c335b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d36abc7848de082e033cfc25d4f15d90c86cf3b2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118622518"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367996"
 ---
 # <a name="wm_cap_set_callback_wavestream-message"></a>\_ \_ \_ Message WAVESTREAM de rappel \_ défini par WM Cap
 
@@ -55,7 +55,7 @@ La fenêtre de capture appelle la procédure avant d’écrire la mémoire tampo
 
 Si une fonction de rappel de flux Wave est utilisée, elle doit être installée avant le démarrage de la session de capture et elle doit rester activée pendant toute la durée de la session. Elle peut être désactivée après la fin de la capture de streaming.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

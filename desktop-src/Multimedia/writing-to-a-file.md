@@ -6,12 +6,12 @@ keywords:
 - AVIFileWriteData fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7bf46125d9da8b9e5e0668f504028db8b011c99c780b545f9ea99accc0a9ecf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58c9a6b9a399d8581909c99da615e32ef4487cbb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119891769"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368684"
 ---
 # <a name="writing-to-a-file"></a>Écriture dans un fichier
 

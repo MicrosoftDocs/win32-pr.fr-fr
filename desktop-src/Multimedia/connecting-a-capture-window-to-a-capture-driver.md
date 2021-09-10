@@ -14,12 +14,12 @@ keywords:
 - capDriverDisconnect macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf74b5dc7cda0fdb73c8f9bd73f61de5ecefc157c20816c110d71e04bba6c196
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c189ad3ea5631e269ffbe85f20a143b074486f22
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144902"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368815"
 ---
 # <a name="connecting-a-capture-window-to-a-capture-driver"></a>Connexion d’une fenêtre de capture à un pilote de capture
 

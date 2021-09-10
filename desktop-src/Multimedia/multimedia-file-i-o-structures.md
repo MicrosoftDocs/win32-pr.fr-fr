@@ -3,7 +3,7 @@ title: Structures d’e/s de fichier multimédia
 description: Structures d’e/s de fichier multimédia
 ms.assetid: 1429d874-554a-4476-997b-51803ef7cd98
 keywords:
-- Multimédia Windows, structures d’e/s de fichier
+- Windows multimédia, structures d’e/s de fichier
 - multimédia, structures d’e/s de fichier
 - entrée multimédia, structures d’e/s de fichier
 - e/s de fichier multimédia, structures
@@ -16,11 +16,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ee8b1e9c7a14bced5a18fe58e51dbb8cc9aa6693
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381945"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369204"
 ---
 # <a name="multimedia-file-io-structures"></a>Structures d’e/s de fichier multimédia
 
@@ -36,6 +36,6 @@ Les structures suivantes sont utilisées avec les e/s de fichier multimédia.
 [Référence d’e/s de fichier multimédia](multimedia-file-i-o-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

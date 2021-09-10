@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 816aeb26455ba375b4446edc275ec4fbaa318b67b1fea64bd6049760f45d8235
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d851f73df7adbc205585eb7c69ad9d4d969aba66
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118135442"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367860"
 ---
 # <a name="wm_cap_dlg_videocompression-message"></a>\_Message WM Cap \_ DLG \_ VIDEOCOMPRESSION
 
@@ -44,7 +44,7 @@ Utilisez ce message avec des pilotes de capture qui fournissent des frames uniqu
 
 La compression n’affecte pas les frames copiés dans le presse-papiers.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - Niveau de MPC 1, configuration minimale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c098850061bda909d63ae996d522b6caa9ff102a5b01def172fe35ef437c5bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5b6daa3b6849d53d6a0d68cdf448df170422e25
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118139857"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369084"
 ---
 # <a name="level-1-system-resources"></a>Ressources système de niveau 1
 

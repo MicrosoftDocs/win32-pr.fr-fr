@@ -10,12 +10,12 @@ keywords:
 - Message DRV_OPEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fabb833b0aa3adef444f8242d540eb48dcbe381ebc5c7f62c6dedc0d5e9160e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7e23f933567d125dd07f81047ea8868c12f41ac
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786199"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368727"
 ---
 # <a name="callback-functions"></a>Fonctions de rappel
 

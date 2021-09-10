@@ -6,12 +6,12 @@ keywords:
 - Fonctions de rappel AVICap, état
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f07539b016ea344f2a38d54a7274d01006532ed040ea3fa96990bff09e22d470
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 40b4b4bf4cad5f689f1e146986f9d1b55b00f1aa
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037159"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369292"
 ---
 # <a name="status-callback-functions"></a>Fonctions de rappel d’État
 

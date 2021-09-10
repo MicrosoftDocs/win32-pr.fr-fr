@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bceac7a821a42227a388de6ebc2b9ea548156ec80d1e5baba7f1e1ad708002d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ded89ea8999fa2b29f576a6d047f5147d492bc2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369328"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368055"
 ---
 # <a name="wm_cap_stop-message"></a>Message d’arrêt de l' \_ embout WM \_
 
@@ -44,7 +44,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 L’opération de capture doit donner l’utilisation de ce message. Utilisez le message [**WM \_ Cap \_ Abort**](wm-cap-abort.md) pour abandonner l’opération de capture en cours.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

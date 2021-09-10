@@ -15,12 +15,12 @@ keywords:
 - Référence des e/s de fichier, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06d61b06c16b12a9276adc0d858a3170dae2f7d636cc63a9ac6cc032a65c978c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a0f833b7fb6677e064c19897e276d3961038cfc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136900"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368391"
 ---
 # <a name="multimedia-file-io-reference"></a>Référence d’e/s de fichier multimédia
 

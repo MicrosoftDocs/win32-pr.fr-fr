@@ -8,12 +8,12 @@ keywords:
 - AVICap, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 166bdcf06e700023a197334b0e63f612398485affe21dc9ffbc6e7ac0800926a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cef19834e244f6070a1d8bb3383dcac017e4d161
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804309"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367855"
 ---
 # <a name="video-capture-reference"></a>Référence de capture vidéo
 

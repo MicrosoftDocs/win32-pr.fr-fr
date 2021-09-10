@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7bedb760a444abe9b0667592855d701dc24a02b8ee57ea15ab30912a5e216d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3daf88c69edbb8bad6257456b95a86c8a68df328
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119686829"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367975"
 ---
 # <a name="wm_cap_pal_paste-message"></a>\_Coller le message WM capuchon \_ PAL \_
 
@@ -44,7 +44,7 @@ Si une erreur se produit et qu’une fonction de rappel d’erreur est définie 
 
 Un pilote de capture utilise une palette lorsqu’il est requis par le format vidéo numérisé spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

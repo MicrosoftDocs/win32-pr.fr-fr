@@ -12,12 +12,12 @@ keywords:
 - Structures MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e418260ae9bdda69d4ba44e4206e470613274715da1593bd24cd4d45c9ff4c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d30f5d145aae2c553b18693c2465a8a9ac7b85c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118137531"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369183"
 ---
 # <a name="midi-structures"></a>Structures MIDI
 

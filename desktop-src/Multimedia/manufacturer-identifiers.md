@@ -10,12 +10,12 @@ keywords:
 - sociétés multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 384a3ff6dc90104f98c323c5206b0fa4eb219484c67bdbb40db6e2b85ffad04c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd45026e6982068ef4e71afb049de2e1c6b18473
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138797"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369127"
 ---
 # <a name="manufacturer-identifiers"></a>Identificateurs de fabricant
 

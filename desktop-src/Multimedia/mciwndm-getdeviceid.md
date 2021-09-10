@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETDEVICEID (VFW. h)
 description: Le \_ message MCIWNDM GETDEVICEID récupère l’identificateur du périphérique MCI actuellement ouvert à utiliser avec la fonction mciSendCommand. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetDeviceID.
 ms.assetid: 188f15fa-579a-438e-a812-9a2b684127c0
 keywords:
-- Message MCIWNDM_GETDEVICEID Windows Multimedia
+- message MCIWNDM_GETDEVICEID Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b2f2271b18dcf8f295594031ab2c7c80dd8dec06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032469"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364252"
 ---
 # <a name="mciwndm_getdeviceid-message"></a>\_Message MCIWNDM GETDEVICEID
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne l’identificateur de l’appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETDEVICE (VFW. h)
 description: Le \_ message MCIWNDM GETDEVICE récupère le nom de l’appareil MCI actuellement ouvert. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetDevice.
 ms.assetid: e69a73a6-a927-4536-98c7-ee7d5b16668a
 keywords:
-- Message MCIWNDM_GETDEVICE Windows Multimedia
+- message MCIWNDM_GETDEVICE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 32664508a577db9d5a077e3cb4fd00aab34fbdf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464519"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364251"
 ---
 # <a name="mciwndm_getdevice-message"></a>\_Message MCIWNDM GETDEVICE
 
@@ -56,11 +56,11 @@ Pointeur vers une mémoire tampon définie par l’application pour retourner le
 
 Retourne zéro en cas de réussite ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne se terminant par un caractère NULL contenant le nom de l’appareil est plus longue que la mémoire tampon, MCIWnd la tronque.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

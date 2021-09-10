@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_AUDIOFORMAT (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ AUDIOFORMAT définit le format audio à utiliser lors de la diffusion en continu ou de l’étape de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetAudioFormat.
 ms.assetid: 8bffa401-3d36-43bb-9f69-988ebc69b860
 keywords:
-- Message WM_CAP_SET_AUDIOFORMAT Windows Multimedia
+- message WM_CAP_SET_AUDIOFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8c519ed936d2e71d9eee88435a94acc8c567a9a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104152"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368012"
 ---
 # <a name="wm_cap_set_audioformat-message"></a>\_Message AUDIOFORMAT de l’ensemble de connexions WM \_ \_
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmea
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

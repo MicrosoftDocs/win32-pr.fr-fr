@@ -4,12 +4,12 @@ ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Fonctions du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a81f5aff4dad00691f606911c1cf092933aa121eaf7a2d25aacbcc8a83948b89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc2cfadd3753b7a269667fee22955f8465495458
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885212"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368556"
 ---
 # <a name="registry-functions"></a>Fonctions du Registre
 

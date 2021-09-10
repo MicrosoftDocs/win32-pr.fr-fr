@@ -13,12 +13,12 @@ keywords:
 - mmioSetBuffer fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 826fabfb7e51b80bf406721b3d5e7b094f83c1c3fe2061f7edea0810a41dc639
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad2171f4f09b933a3de5ec1e99750261fdda2f80
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145082"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368404"
 ---
 # <a name="changing-the-io-buffer-size"></a>Modification de la taille de la mémoire tampon d’e/s
 

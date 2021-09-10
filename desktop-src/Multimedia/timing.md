@@ -9,12 +9,12 @@ keywords:
 - débogage DrawDib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc4324de5336a00b246ad644794ce8d0b3491bb644f34e8fc22dc8a7e460ba1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: adddd43ff5067d08334a40f2e52e79109c8a8bb7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688079"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369380"
 ---
 # <a name="timing-windows-multimedia"></a>minutage (Windows multimédia)
 

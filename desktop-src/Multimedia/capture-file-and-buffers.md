@@ -4,12 +4,12 @@ description: Capturer un fichier et des mémoires tampons
 ms.assetid: dde40b0b-d76e-4675-9118-43dc839d5314
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5c1cb2b6486f212911e8acc39779c532e7f03e1d12426ba419b0eb7668283e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d3c4646a11863032c7242394dfee2da6051a701d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119691709"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368711"
 ---
 # <a name="capture-file-and-buffers"></a>Capturer un fichier et des mémoires tampons
 

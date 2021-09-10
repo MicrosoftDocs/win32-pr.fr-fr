@@ -10,12 +10,12 @@ keywords:
 - capSetAudioFormat macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5891e8c244487895c51d68dd92fc4935f8981a36cf67d81437ff45f58950527b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e362abd393097ae8763b44b3ee3474685ffd5c2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118375698"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368631"
 ---
 # <a name="audio-format"></a>Format audio
 

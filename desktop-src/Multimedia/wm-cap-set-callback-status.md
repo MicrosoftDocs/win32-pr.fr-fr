@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a74c92f35f9cd504fdbf332315a3a4ad8ac336e61571d68cff8b4cee73c869
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 493893a51d51b1ce61d43ff54461bb71c08a9f6a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119891869"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367988"
 ---
 # <a name="wm_cap_set_callback_status-message"></a>\_Message d' \_ \_ État de rappel \_ de la définition de l’embout WM
 
@@ -58,7 +58,7 @@ Les applications peuvent éventuellement définir une fonction de rappel d’Ét
 -   Une palette optimale est créée.
 -   Le nombre de frames capturés est signalé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

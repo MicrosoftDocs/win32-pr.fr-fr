@@ -13,12 +13,12 @@ keywords:
 - VFW (vidéo pour Windows), gestionnaires de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 719c5312c5ba1e783e0cd4cdb81565f66241e4662772ca441283571f0335fb31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94e1872aa8a2f5c55df0db43860e318c792801e8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145155"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368212"
 ---
 # <a name="about-custom-file-and-stream-handlers"></a>À propos des gestionnaires de fichiers et de flux personnalisés
 

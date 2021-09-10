@@ -4,12 +4,12 @@ description: Contrôle de l’appareil
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6878e5e759f3eddb5e98d241d9a8d081005e3545dc2f0054b46630619eaa06fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9e0e0b59127d160cc44418fd4bce1f9f670d13de
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119497239"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368148"
 ---
 # <a name="device-control-windows-multimedia"></a>contrôle de l’appareil (Windows multimédia)
 

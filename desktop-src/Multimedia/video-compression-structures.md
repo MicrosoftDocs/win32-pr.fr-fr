@@ -7,12 +7,12 @@ keywords:
 - VFW (vidéo pour Windows), structures VCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e447e87a689df068d7f1df5956c76a0e4d5f39b8d4ba3f58592f1d1e33c7fca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f42a01af4ab49b7470568ab931c95072b786251
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118370058"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369391"
 ---
 # <a name="video-compression-structures"></a>Structures de compression vidéo
 

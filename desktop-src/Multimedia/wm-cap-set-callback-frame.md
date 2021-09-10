@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f85321483639135db31750cacf76cc5f0dc4ad42e96474efa1dc17ac84ba4a79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b91c2f30ac0875e2f45592d3aa7e0a3ce9c296b7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369507"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367964"
 ---
 # <a name="wm_cap_set_callback_frame-message"></a>\_Message de \_ \_ \_ trame de rappel de la définition de l’embout WM
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la capture en co
 
 La fenêtre de capture appelle la fonction de rappel avant d’afficher des images d’aperçu. Cela permet à une application de modifier le frame si vous le souhaitez. Cette fonction de rappel n’est pas utilisée pendant la capture vidéo en continu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

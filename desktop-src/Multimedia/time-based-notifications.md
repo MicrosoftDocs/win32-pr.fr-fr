@@ -9,12 +9,12 @@ keywords:
 - notifications de manette de jeu basées sur le temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80052d5e728a7a5b00e6177a36c30f470fe80daeafbe39a12aa4c9a883766534
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 15dff2a6140bd993157f20e92488afce1b646e20
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688249"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369327"
 ---
 # <a name="time-based-notifications"></a>Notifications de Time-Based
 

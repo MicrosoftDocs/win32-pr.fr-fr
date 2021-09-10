@@ -13,11 +13,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c66e6ebaac73bf8eb779119750cb390481152c3f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940951"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369063"
 ---
 # <a name="installable-driver-functions-and-messages"></a>Fonctions et messages des pilotes installables
 
@@ -32,10 +32,10 @@ Lorsque vous n’avez plus besoin du pilote installable, vous pouvez le fermer �
 Vous pouvez utiliser les fonctions et messages des pilotes installables pour ouvrir et gérer n’importe quel pilote pouvant être installé. Toutefois, il est recommandé d’utiliser d’abord des services standard (tels que [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen), [**waveOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage)et [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) pour les périphériques de sortie Waveform), le cas échéant. S’il n’existe pas de services standard pour un pilote multimédia, ouvrez et gérez le pilote à l’aide des fonctions et des messages du pilote installable.
 
 > [!Note]  
-> Les fonctions [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) et [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) sont les fonctions préférées à utiliser pour envoyer des messages à un pilote et pour obtenir un descripteur d’une instance de module. Toutefois, l’ancienne fonction [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle) a été incluse pour assurer la compatibilité avec les versions précédentes du système d’exploitation Windows.
+> Les fonctions [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) et [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) sont les fonctions préférées à utiliser pour envoyer des messages à un pilote et pour obtenir un descripteur d’une instance de module. toutefois, l’ancienne fonction [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle) a été incluse pour assurer la compatibilité avec les versions précédentes du système d’exploitation Windows.
 
- 
+ 
 
- 
+ 
 
- 
+ 

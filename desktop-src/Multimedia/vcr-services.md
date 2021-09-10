@@ -9,12 +9,12 @@ keywords:
 - Pilote VISCA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0397e56c589c357edc9e0be1999b51d358f8caced60117af5c20c7954a1edb49
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 77d884c38d224182db7eef8db0f0cd80b14e3a08
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804519"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368180"
 ---
 # <a name="vcr-services"></a>Services VCR
 

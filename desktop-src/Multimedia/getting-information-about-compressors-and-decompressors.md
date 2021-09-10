@@ -8,12 +8,12 @@ keywords:
 - ICGetInfo fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 404b6acacd97b514edcf0328a8127f97152554015694eba3f8e5bf3b76214de3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c619d13559d99b570af200298f29fcd8238c7d4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678610"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368956"
 ---
 # <a name="getting-information-about-compressors-and-decompressors"></a>Obtention d’informations sur les compresseurs et les décompresseurs
 

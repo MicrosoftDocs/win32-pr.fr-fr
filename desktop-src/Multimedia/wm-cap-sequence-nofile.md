@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d9344b53a52caa2e536483a339439a6d942ff1fea0313767d0e1be520c09b48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0a08f470989b8000e9757c1cb81924b875b5303
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118940727"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368007"
 ---
 # <a name="wm_cap_sequence_nofile-message"></a>\_ \_ Message nofile de séquence de l’embout WM \_
 
@@ -54,7 +54,7 @@ Pendant la capture en continu, la fenêtre de capture peut éventuellement émet
 -   [**WM \_ Cap \_ Set \_ callback \_ VIDEOSTREAM**](wm-cap-set-callback-videostream.md)
 -   [**WM \_ Cap \_ Set \_ callback \_ WAVESTREAM**](wm-cap-set-callback-wavestream.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

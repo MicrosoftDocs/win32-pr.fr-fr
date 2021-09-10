@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea5b4a192b774572ea374b08d4a4128389281e44ee00614806841b0b007d978b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 542b8e49f740bfc265824947237841dede1f6065
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119803549"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367935"
 ---
 # <a name="wm_cap_set_user_data-message"></a>\_Message WM Cap \_ Set \_ User \_ Data
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la capture en co
 
 En général, ce message est utilisé pour pointer vers un bloc de données associé à une fenêtre de capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

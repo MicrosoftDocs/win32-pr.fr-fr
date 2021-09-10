@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9435a7f0790c8ffe88f6b7ea6228bb2f442b23f5dcb15e2722e59b75c671588
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 12b3f59edfc9bf01f6bd2af3b9028f8e3315e2de
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687019"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367919"
 ---
 # <a name="wm_cap_file_set_capture_file-message"></a>\_Message du \_ \_ fichier de capture du jeu de fichiers de \_ l’embout WM \_
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si le nom de fichie
 
 Ce message stocke le nom de fichier dans une structure interne. Il ne crée pas, n’alloue pas ou n’ouvre pas le fichier spécifié. Le nom de fichier de capture par défaut est C : \\CAPTURE.AVI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
