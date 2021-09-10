@@ -4,12 +4,12 @@ ms.assetid: fe517d88-7b03-4dc3-b3db-6a92665bca8e
 title: Ruches du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11920a7b70a8aeb78b08aee2c25b89c4de5457b5cb96a480fc1f75fff6c6a35a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05f942a275855c710de53a0d93df0b4654dd596f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117763626"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368524"
 ---
 # <a name="registry-hives"></a>Ruches du Registre
 
@@ -25,7 +25,7 @@ La plupart des fichiers de prise en charge pour les ruches se trouvent dans le r
 
 | Extension       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| aucun<br/> | Copie complète des données Hive.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Aucun<br/> | Copie complète des données Hive.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | . Alt<br/> | Une copie de sauvegarde de la ruche critique du système de l' **\_ \_ ordinateur \\ local HKEY** . Seule la clé système a un fichier. Alt.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | .log<br/> | Journal des transactions des modifications apportées aux clés et aux entrées de valeur dans la ruche.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | . SAV<br/> | Copie de sauvegarde d’une ruche.<br/> **Windows Server 2003 et Windows XP/2000 :** Copie des fichiers Hive tels qu’ils ont été examinés à la fin de l’étape en mode texte dans le programme d’installation. Le programme d’installation comporte deux étapes : le mode texte et le mode graphique. La ruche est copiée dans un fichier. SAV après l’étape en mode texte du programme d’installation pour la protéger contre les erreurs qui peuvent se produire en cas d’échec de la phase en mode graphique du programme d’installation. Si le programme d’installation échoue pendant l’étape en mode graphique, seule l’étape en mode graphique se répète lorsque l’ordinateur est redémarré. le fichier. SAV est utilisé pour restaurer les données Hive.<br/> |

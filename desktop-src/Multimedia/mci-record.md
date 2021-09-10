@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 327b9ed9b138b581bec17d8bfcfe19ae67bb07d59be2781af54e22a85e2133c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec1cd15974753b8f40abd87b8d93622c090e2a57
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803450"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363807"
 ---
 # <a name="mci_record-command"></a>\_Commande d’enregistrement MCI
 
@@ -158,7 +158,7 @@ Recherchez l’appareil au début du support, commencez l’enregistrement de la
 
 Pour les périphériques VCR, *lpRecord* pointe vers une structure d' [**\_ \_ enregistrement \_ de magnétoscope MCI**](mci-vcr-record-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

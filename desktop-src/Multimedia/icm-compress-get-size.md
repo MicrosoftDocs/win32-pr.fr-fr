@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS_GET_SIZE (VFW. h)
-description: Le message de taille de la \_ compression ICM \_ \_ demande que le pilote de compression vidéo fournisse la taille maximale d’une trame de données lorsqu’elle est compressée dans le format de sortie spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressGetSize.
+description: le \_ message ICM compresser la taille de l' \_ extraction \_ demande que le pilote de compression vidéo fournisse la taille maximale d’une trame de données lorsqu’elle est compressée dans le format de sortie spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressGetSize.
 ms.assetid: 6910e588-e60f-43b1-8fa6-113c2ec32a53
 keywords:
-- Message ICM_COMPRESS_GET_SIZE Windows Multimedia
+- message ICM_COMPRESS_GET_SIZE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 38b0b61c78cc684de27d1e9a2747498e30eb3fe9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942634"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364112"
 ---
-# <a name="icm_compress_get_size-message"></a>Message de taille de la \_ compression ICM \_ \_
+# <a name="icm_compress_get_size-message"></a>ICM \_ \_Message d’extraction de taille de compression \_
 
-Le message de **\_ \_ \_ taille de la compression ICM** demande que le pilote de compression vidéo fournisse la taille maximale d’une trame de données lorsqu’elle est compressée dans le format de sortie spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) .
+le message **ICM \_ compresser la \_ \_ taille** de l’extraction demande que le pilote de compression vidéo fournisse la taille maximale d’une trame de données lorsqu’elle est compressée dans le format de sortie spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressGetSize**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetsize) .
 
 
 ```C++
@@ -56,13 +56,13 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne le nombre maximal d’octets qu’un seul Frame compressé peut occuper.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les applications envoient ce message pour déterminer la taille d’une mémoire tampon à allouer pour le frame compressé.
 
 Le pilote doit calculer la taille du plus grand Frame possible en fonction des formats d’entrée et de sortie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

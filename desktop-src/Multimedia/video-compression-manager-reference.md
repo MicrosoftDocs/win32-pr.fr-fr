@@ -7,12 +7,12 @@ keywords:
 - VFW (vidéo pour Windows), gestionnaire de compression vidéo (VCM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adffe57bd731736ed434dfdfa3c4ded4e643c66a0b5f9ea1c6085a71285e45c4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c801df7ecdf0f6468762c2742235d4ef627f5aee
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804269"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364099"
 ---
 # <a name="video-compression-manager-reference"></a>Référence du gestionnaire de compression vidéo
 

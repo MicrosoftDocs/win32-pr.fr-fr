@@ -6,12 +6,12 @@ keywords:
 - Clé de registre de l’interface COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cda0cc29331521025a9274dca7b85080be2ddd5a9b631d2660eadaa13fe4941a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ae31de7af534a58b4973629f2b889f3332047f6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048147"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363440"
 ---
 # <a name="interface-key"></a>Clé d'interface
 

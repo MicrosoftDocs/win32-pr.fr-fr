@@ -10,12 +10,12 @@ keywords:
 - notifications de manette de jeu basées sur les événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b50e973434d5f5706c92a22f76846ada150bfc7caf3f5ba88c3f385f7eaf84e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1aa36809942593cdbe21b61af0d4f07f02b186a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526179"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368972"
 ---
 # <a name="event-based-notifications"></a>Notifications de Event-Based
 

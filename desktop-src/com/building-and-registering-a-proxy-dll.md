@@ -4,12 +4,12 @@ description: Si vous avez choisi le marshaling proxy/stub pour votre application
 ms.assetid: 939e6eed-2a2d-4d90-8fbb-c07142e7ba70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 634cb7a17551a4b7925d0be3065c71037cc1d7ae8bf28c10fcdaee74771c302e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37d4cafbe2be56d9e9a02a451e3daf905496c424
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048847"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363296"
 ---
 # <a name="building-and-registering-a-proxy-dll"></a>Génération et inscription d’une DLL proxy
 

@@ -14,12 +14,12 @@ keywords:
 - Bloc RIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5967165996b2a7fb9ed9b40c9a1f3c5608cd3bb4eb1e6cf05ae351f6ce6f2a7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 50cca3792ccded248951065c7b69f2e50d27e0ba
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117801924"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364396"
 ---
 # <a name="resource-interchange-file-format-services"></a>Services de format de fichier de l’échange de ressources
 

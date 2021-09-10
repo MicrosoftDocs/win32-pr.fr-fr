@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c0ce777304b38145931aa490afbe722be6c7b2dc067e55aae15c5defd46b50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1df28ad7f950b8ce995fd308622db8c429393cb8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117802599"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364035"
 ---
 # <a name="mm_acm_filterchoose-message"></a>MM \_ \_ message FILTERCHOOSE ACM
 
@@ -77,7 +77,7 @@ Si l’application traite l' \_ \_ opération d’ajout de filtre FILTERCHOOSE, 
 
 Si l’application traite une opération de vérification, l’application doit précéder la valeur de retour avec **SetWindowLong** (HWND, DWL \_ MSGRESULT, (long) **false**) pour empêcher la boîte de dialogue de répertorier cette sélection ou avec **SetWindowLong** (HWND, DWL \_ MSGRESULT, (long)**true**) pour permettre à la boîte de dialogue de répertorier cette sélection. En cas de traitement d’une opération d’ajout, l’application doit précéder le retour avec **SetWindowLong** (HWND, DWL \_ MSGRESULT, (long)**false**) pour indiquer qu’aucun ajout supplémentaire n’est nécessaire ou avec **SetWindowLong** (HWND, DWL \_ MSGRESULT, (long)**true**) si d’autres ajouts sont nécessaires.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

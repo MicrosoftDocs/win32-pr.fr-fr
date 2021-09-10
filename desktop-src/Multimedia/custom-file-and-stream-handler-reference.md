@@ -13,12 +13,12 @@ keywords:
 - VFW (vidéo pour Windows), référence du gestionnaire de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b749ce13aec02b885f8e727b4ec805d89ea715e555b7815bdb5502e64b59a9d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dba66745b10a84378790eca2a0bee36cfe3b222
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144582"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368215"
 ---
 # <a name="custom-file-and-stream-handler-reference"></a>Informations de référence sur les fichiers et les gestionnaires de flux personnalisés
 

@@ -3,7 +3,7 @@ title: Macro MCI_HMS_MINUTE (Mciapi. h)
 description: La \_ macro MCI HMS \_ minute récupère le composant minutes à partir d’un paramètre contenant des informations sur les heures/minutes/secondes (HMS) compressées.
 ms.assetid: d083f769-9825-48cc-80f9-34ce3ef66ad6
 keywords:
-- MCI_HMS_MINUTE macro multimédia Windows
+- MCI_HMS_MINUTE macro Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 49c91d2dcb13ea6b206df2a0dbc0d6a2e7096e59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106210"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363956"
 ---
 # <a name="mci_hms_minute-macro"></a>\_Macro MCI HMS \_ minute
 
@@ -51,7 +51,7 @@ Heure au format HMS.
 
 Retourne le composant « minutes » des informations de HMS spécifiées.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure au format HMS est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les heures, le prochain octet le moins significatif contenant les minutes et le prochain octet le moins significatif contenant les secondes. L’octet le plus significatif n’est pas utilisé.
 
@@ -64,7 +64,7 @@ La macro **MCI \_ HMS \_ minute** est définie comme suit :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

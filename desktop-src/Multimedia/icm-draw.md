@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e44216e523da62e0dde22abed8d88b9b8aacd8f68119a88f3177f45ecd910029
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0840c6df2c69f4d3e45600cf8599c214b36200a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784989"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364163"
 ---
 # <a name="icm_draw-message"></a>ICM \_ DESSINER un message
 
@@ -68,7 +68,7 @@ Si l' \_ indicateur de PRÉROLL ICDRAW est défini dans **dwFlags**, cette image
 
 si vous souhaitez que le pilote décompresse les données dans une mémoire tampon, envoyez le message [**ICM \_ décompresser**](icm-decompress.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

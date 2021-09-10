@@ -4,12 +4,12 @@ description: Classes et serveurs
 ms.assetid: cc88be56-0d96-47d2-b23b-6a6ad376bdae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30b87ce6b52e73f8ac4e465202b787a2c65dc563f3d7c0678ef82b91601351d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d319fd985b812692e6d0bfc421c4bb9da2a2605c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993799"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363532"
 ---
 # <a name="classes-and-servers"></a>Classes et serveurs
 

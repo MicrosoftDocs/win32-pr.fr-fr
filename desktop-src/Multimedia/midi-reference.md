@@ -17,12 +17,12 @@ keywords:
 - Référence MIDI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da65f193bbdc6b67d317fac7546d4f5d7826d89307d1800c565febf0c7a8b6d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c21542867faf1e09d68dc4fc81a50d25f56b5c5e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428349"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364344"
 ---
 # <a name="midi-reference"></a>Informations de référence MIDI
 

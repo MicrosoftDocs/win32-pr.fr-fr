@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42213685b43d73ca0b71698b201f4c54358254d8be5b8f1e2063da1a60ada4f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f2bbbf1b09b8c5954a2149edd16cb213a08fb3a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117987919"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364183"
 ---
 # <a name="icm_decompress_set_palette-message"></a>ICM \_ Décompresser le \_ \_ message de palette
 
@@ -55,7 +55,7 @@ Ce message ne doit pas affecter la décompression déjà en cours ; au lieu de 
 
 Ce message est principalement utilisé lorsqu’un pilote décompresse des images à l’écran et qu’une autre application qui utilise une palette est au premier plan, forçant le pilote de décompression à s’adapter à un ensemble de couleurs étranger.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

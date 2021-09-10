@@ -11,12 +11,12 @@ keywords:
 - DrawDibChangePalette fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db474a9e983c442f21fd479342ac8b0786719f36f1494e307154c6cc0a0bd50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5935831d8996c424a386f86082282f9cf7c1c12
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893019"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369271"
 ---
 # <a name="palettes"></a>Palettes
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0634d858b04fbbdf5d3a6024dbd9fdea4ee06d99
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106513560"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363563"
 ---
 # <a name="remoteservername"></a>RemoteServerName
 
@@ -21,11 +21,11 @@ Configure le client de façon à ce qu’il demande à l’objet d’être exéc
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      RemoteServerName = name
+   {AppID_GUID}
+      RemoteServerName = name
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **RemoteServerName** permet une gestion de configuration simple des applications clientes ; ils peuvent être écrits sans noms de serveurs codés en dur et peuvent être configurés en modifiant les valeurs de Registre **RemoteServerName** des classes d’objets qu’ils utilisent.
 
@@ -38,6 +38,6 @@ Comme décrit dans la documentation de l’énumération [**CLSCTX**](/windows/w
 [Inscription des serveurs COM](registering-com-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

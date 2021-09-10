@@ -7,12 +7,12 @@ keywords:
 - VFW (vidéo pour Windows), VCM messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd02ff74d104f67d67ab2949d28763a603ada73a3f23fba5435a2c83aeaad4d9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b86c94d120031e273789fb8f27e37eed6804b61
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804279"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364103"
 ---
 # <a name="video-compression-messages"></a>Messages de compression vidéo
 

@@ -12,12 +12,12 @@ keywords:
 - mmioFOURCC macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96dd724876a3c4b6ac37424b49411edac5929c61d1fcf6c8c18275b1d6ae9dd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c83540b49d83ee325479542e5a2917ac61ce19b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785309"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368415"
 ---
 # <a name="generating-four-character-codes"></a>Génération de codes Four-Character
 

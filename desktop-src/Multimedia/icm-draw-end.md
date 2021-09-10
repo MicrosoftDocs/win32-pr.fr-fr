@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_END (VFW. h)
-description: Le \_ message ICM Draw \_ end indique à un pilote de rendu de décompresser l’image actuelle à l’écran et de libérer les ressources allouées pour la décompression et le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawEnd.
+description: le \_ message ICM DRAW \_ END indique à un pilote de rendu de décompresser l’image actuelle à l’écran et de libérer les ressources allouées pour la décompression et le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawEnd.
 ms.assetid: 03910752-6122-4a5a-84ff-2cecf66cf439
 keywords:
-- Message ICM_DRAW_END Windows Multimedia
+- message ICM_DRAW_END Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e420ac37791bc6c5aa7f660d71005be65fc87fff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741964"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364172"
 ---
-# <a name="icm_draw_end-message"></a>Message de fin de \_ dessin ICM \_
+# <a name="icm_draw_end-message"></a>ICM \_ DESSINER le \_ message de fin
 
-Le message **ICM \_ Draw \_ end** indique à un pilote de rendu de décompresser l’image actuelle à l’écran et de libérer les ressources allouées pour la décompression et le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawEnd**](/windows/desktop/api/Vfw/nf-vfw-icdrawend) .
+le message **ICM \_ DRAW \_ END** indique à un pilote de rendu de décompresser l’image actuelle à l’écran et de libérer les ressources allouées pour la décompression et le dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawEnd**](/windows/desktop/api/Vfw/nf-vfw-icdrawend) .
 
 
 ```C++
@@ -38,11 +38,11 @@ lParam = 0;
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les messages de **\_ \_ fin** de dessin [**ICM \_ \_**](icm-draw-begin.md) et ICM ne sont pas imbriqués. Si votre pilote reçoit **le \_ dessin \_ ICM, commencez** la décompression avec **les nouveaux paramètres \_ \_** pour arrêter la décompression.
+le [**ICM \_ dessiner \_ commencer**](icm-draw-begin.md) et **ICM \_ dessiner \_** les messages de fin ne sont pas imbriqués. si votre pilote reçoit **ICM \_ \_ commencer** avant que la décompression ne s’arrête avec **ICM \_ dessiner \_**, il doit redémarrer la décompression avec les nouveaux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

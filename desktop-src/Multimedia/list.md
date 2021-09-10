@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8881c85d146ce869e41d234a72190901135d233f8e45d580d5f568c4ccc48da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5d0a171c6768caf1b947a0d07cb46e5cccd28c6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118139472"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363748"
 ---
 # <a name="list-command"></a>Commande list
 
@@ -105,7 +105,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Pour les périphériques VCR, vous devez spécifier « source vidéo » ou « source audio » avec les indicateurs « nombre » ou « nombre ». Si « Count » est spécifié, le nombre total d’entrées de vidéo ou audio est retourné. Si « number » est spécifié, le pilote retourne un type correspondant à l’entrée. Le type peut être l’un des suivants : « Tuner », « line », « Svideo », « aux » ou « Generic ». En règle générale, vous devez d’abord interroger le magnétoscope pour obtenir le « nombre », puis utiliser le nombre comme plage pour l’indicateur « nombre ». Les nombres « sources » commencent à 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

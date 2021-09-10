@@ -4,12 +4,12 @@ description: La façon dont vous configurez la sécurité COM pour votre applica
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d57ccbbc8fc96b7c94e90fd3925dfb2ffff07225c34ebe1da34353f42b08b3ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62cacef6d4e3aab59cb3b603125c36dd17d07846
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993229"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363604"
 ---
 # <a name="determining-your-security-needs"></a>Détermination de vos besoins en matière de sécurité
 

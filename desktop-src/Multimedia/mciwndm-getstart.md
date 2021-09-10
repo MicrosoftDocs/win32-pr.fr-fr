@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0efb5689009fdd6928afd1d2f232bcb1bbeb2160aecf3d79ddb263ed6f315de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 63cbe88df006f1f98854e42259074d82bbd87dc1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429229"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364276"
 ---
 # <a name="mciwndm_getstart-message"></a>\_Message MCIWNDM GETSTART
 
@@ -42,7 +42,7 @@ Retourne l’emplacement au format d’heure actuel.
 
 En règle générale, la valeur de retour est zéro ; Toutefois, certains appareils utilisent un emplacement de départ différent de zéro. La recherche de cet emplacement définit l’appareil au début du support.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

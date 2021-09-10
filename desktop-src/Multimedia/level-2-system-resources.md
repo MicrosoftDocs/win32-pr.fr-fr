@@ -10,12 +10,12 @@ keywords:
 - MPC niveau 2, configuration minimale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a39f4c72bb79669187645e82fe11effd420ad70f86cc32abb2e6065dc47ffd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a543514aa89f6f9a6e1756de800ed8e387114538
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118139695"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369092"
 ---
 # <a name="level-2-system-resources"></a>Ressources système de niveau 2
 

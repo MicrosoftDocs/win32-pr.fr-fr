@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AppID (CLSID) COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d4737e3ca79d0e3bee805a92741fa4a19e409f761b328478340e30c07c872a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d605587d125a5555b553457056db00a6f4dcad07
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048877"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363572"
 ---
 # <a name="appid-clsid-key"></a>AppID (clé CLSID)
 

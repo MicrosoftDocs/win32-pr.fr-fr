@@ -4,12 +4,12 @@ description: Associe une extension de nom de fichier à un ProgID.
 ms.assetid: 018998a8-c0da-43ea-bae2-3b184897eb9b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d7624b63d257e0d0edf168956c862c911ba728da955e8eea3ca54f6ce452878
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e602266f3c851975c2f8e008ced5dfc8e2d40b64
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071229"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363460"
 ---
 # <a name="file_extension-key"></a>Clé de> de l’extension de fichier <\_
 

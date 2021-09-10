@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESSEX_BEGIN (VFW. h)
-description: Le \_ message DECOMPRESSEX de \_ début ICM indique à un pilote de compression vidéo de préparer la décompression des données.
+description: le \_ message ICM DECOMPRESSEX \_ BEGIN notifie un pilote de compression vidéo pour préparer la décompression des données.
 ms.assetid: 35298274-91b5-4df0-b4b0-4a71d6a49990
 keywords:
-- Message ICM_DECOMPRESSEX_BEGIN Windows Multimedia
+- message ICM_DECOMPRESSEX_BEGIN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 77ea082c91d48a9964348b762ce13631cd80af30
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742956"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364167"
 ---
-# <a name="icm_decompressex_begin-message"></a>Message de début de \_ DECOMPRESSEX ICM \_
+# <a name="icm_decompressex_begin-message"></a>ICM \_ DECOMPRESSEX le \_ message de début
 
-Le **message \_ DECOMPRESSEX de \_ début ICM** indique à un pilote de compression vidéo de préparer la décompression des données.
+le message **ICM \_ DECOMPRESSEX \_ BEGIN** notifie un pilote de compression vidéo pour préparer la décompression des données.
 
 
 ```C++
@@ -56,15 +56,15 @@ Taille, en octets, de [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdec
 
 Retourne ICERR \_ OK si la décompression spécifiée est prise en charge ou ICERR BADFORMAT dans le \_ cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le pilote reçoit ce message, il doit allouer des tampons et effectuer des opérations qui prennent du temps pour pouvoir traiter efficacement les messages [**\_ DECOMPRESSEX ICM**](icm-decompressex.md) .
+lorsque le pilote reçoit ce message, il doit allouer des tampons et effectuer toutes les opérations qui prennent du temps afin qu’il puisse traiter [**ICM messages \_ DECOMPRESSEX**](icm-decompressex.md) efficacement.
 
-Si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le message d’accueil de [**\_ \_ dessin ICM**](icm-draw-begin.md) .
+si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le message [**ICM \_ DRAW \_ BEGIN**](icm-draw-begin.md) .
 
-Les messages End **\_ DECOMPRESSEX \_ Begin** et [**ICM \_ DECOMPRESSEX \_ end**](icm-decompressex-end.md) ne sont pas imbriqués. Si votre pilote reçoit **des \_ DECOMPRESSEX \_ ICM** avant que la décompression ne soit arrêtée avec l' **\_ \_ extrémité DECOMPRESSEX ICM**, il doit redémarrer la décompression avec les nouveaux paramètres.
+les messages de fin de **ICM \_ DECOMPRESSEX \_ BEGIN** et [**ICM \_ DECOMPRESSEX \_**](icm-decompressex-end.md) ne sont pas imbriqués. si votre pilote reçoit **ICM \_ DECOMPRESSEX \_ BEGIN** avant que la décompression ne soit arrêtée avec **ICM \_ \_ terminaison DECOMPRESSEX**, il doit redémarrer la décompression avec les nouveaux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

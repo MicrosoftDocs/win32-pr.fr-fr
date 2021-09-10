@@ -8,12 +8,12 @@ keywords:
 - CAPDRIVERCAPS, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6f717f1a7c19878ceeca2cccc2db309be3e62e0febf90dcb23376db73eed17
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d15a3b1e01ccff738494f287126b7e1ab033056
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806569"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368063"
 ---
 # <a name="obtaining-the-capabilities-of-a-capture-driver"></a>Obtention des fonctionnalités d’un pilote de capture
 

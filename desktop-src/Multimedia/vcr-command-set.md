@@ -4,12 +4,12 @@ description: Jeu de commandes VCR
 ms.assetid: e17ec75d-a98f-46ea-8bef-7e45e1696f43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00fdc15ca4f8c151a8202642bcd11a650fa5481c979ab794552675fb109c75ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa6f84b4542b6ea87b5d05ae8d1cda2374fcac2c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118370255"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368111"
 ---
 # <a name="vcr-command-set"></a>Jeu de commandes VCR
 
@@ -24,7 +24,7 @@ Les magnétoscopes prennent en charge l’ensemble de commandes suivant.
 | [**signal**](cue.md)                 | [**\_signal MCI**](mci-cue.md)                 |
 | [**antigel**](freeze.md)           | [**\_blocage MCI**](mci-freeze.md)           |
 | [**évaluer**](./windows-multimedia-start-page.md)             | [**\_index MCI**](mci-index.md)             |
-| [**méta**](info.md)               | [**\_infos MCI**](mci-info.md)               |
+| [**info**](info.md)               | [**\_infos MCI**](mci-info.md)               |
 | [**tarifs**](list.md)               | [**\_liste MCI**](mci-list.md)               |
 | [**marque**](mark.md)               | [**\_marque MCI**](mci-mark.md)               |
 | [**suspen**](pause.md)             | [**\_Pause MCI**](mci-pause.md)             |

@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre CallFailureLoggingLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 819d132a8cd0f1741eb3b825a17f02387b200e80f2dba6913821e77f9a0913cc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4432f21f333d5aa5f8b3cebbd6f0fa339cf0f13a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119793819"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363512"
 ---
 # <a name="callfailurelogginglevel"></a>CallFailureLoggingLevel
 
@@ -33,7 +33,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 | Valeur | Description                                                                            |
 |-------|----------------------------------------------------------------------------------------|
 | 1     | Consignez toujours les échecs lors d’un appel dans le processus serveur COM.                           |
-| 2     | Ne consigne jamais de défaillances au cours d’un appel dans le processus serveur COM. Il s'agit de la valeur par défaut. |
+| 2     | Ne consigne jamais de défaillances au cours d’un appel dans le processus serveur COM. Il s’agit de la valeur par défaut. |
 
 
 

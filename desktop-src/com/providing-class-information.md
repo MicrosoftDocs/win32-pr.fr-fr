@@ -4,12 +4,12 @@ description: Fournir des informations sur la classe
 ms.assetid: 808d9a39-4511-4aba-a23f-3c929970503b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a042283ca9ba6eb29bceeacef2c32f9bd401ef09e92eafbc737711d0d930336
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc4505a12d4a7f50a605cbd04cae33805db2b19b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119500119"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363656"
 ---
 # <a name="providing-class-information"></a>Fournir des informations sur la classe
 

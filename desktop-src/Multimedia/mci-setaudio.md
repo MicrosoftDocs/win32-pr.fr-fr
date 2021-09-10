@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b882209b8a9debc2c01e4f5c6f852d418c1a5cd321a764af022d19c58fe32a21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20605ff78c62a8e688778692d5ca8f8e1342a968
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803396"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363867"
 ---
 # <a name="mci_setaudio-command"></a>\_Commande MCI SETAUDIO
 
@@ -338,7 +338,7 @@ Le membre dwNumber de la structure identifiée par lpSetAudio contient l’entr�
 
 Pour les périphériques VCR, le paramètre *lpSetAudio* pointe vers une structure [**MCI \_ VCR \_ SETAUDIO \_ PARMS**](mci-vcr-setaudio-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

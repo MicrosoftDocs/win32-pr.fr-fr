@@ -3,7 +3,7 @@ title: Escape, commande
 description: La commande Escape envoie des informations spécifiques à l’appareil à un appareil. Les appareils Videodisc reconnaissent cette commande.
 ms.assetid: 16e0e2b6-6d98-440a-86c1-eca8201ad61a
 keywords:
-- commande d’échappement Windows multimédia
+- commande escape Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b04f7a2ef6c2e91adc9b24a044d0a7e941843f9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510113"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363739"
 ---
 # <a name="escape-command"></a>Escape, commande
 
@@ -72,7 +72,7 @@ La commande suivante envoie la chaîne d’échappement « SA » à l’appare
 escape videodisc SA
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

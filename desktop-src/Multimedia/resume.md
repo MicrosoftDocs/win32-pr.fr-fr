@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7e4a728e3ca89e2b4ddc21809830d5af3be9a2b04e004f99d5a792a9be5da01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87f01fd96e2b25e191608c7c6abf70bfd842158d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117801891"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363995"
 ---
 # <a name="resume-command"></a>Resume, commande
 
@@ -64,7 +64,7 @@ La commande suivante poursuit la diffusion ou l’enregistrement de l’appareil
 resume newsound
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

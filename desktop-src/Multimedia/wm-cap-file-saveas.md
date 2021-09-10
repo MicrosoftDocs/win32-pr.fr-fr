@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a200b8e73d81072961ec4e6aa7c8e1dd989bf2d8c3e0480c75908a8761ee93b1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aca099fefab7ca0f4ef391b1b65e89938a947a01
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687009"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367911"
 ---
 # <a name="wm_cap_file_saveas-message"></a>\_Message de \_ fichier \_ SaveAs de l’embout de fichier WM
 
@@ -59,7 +59,7 @@ Si l’opération de copie échoue en raison d’une erreur de disque plein, le 
 
 En règle générale, un fichier de capture est préalloué pour le plus grand segment de capture attendu et seule une partie de celui-ci peut être utilisée pour capturer des données. Ce message copie uniquement la partie du fichier contenant les données de capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

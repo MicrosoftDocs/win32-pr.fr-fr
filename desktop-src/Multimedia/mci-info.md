@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d53acbdfeb0c13b4b9e201d1bea23008dfbaa83221007152181fe685d09957
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e9f6ba5be1c2a4ce94b880a87a468c594bc5b676
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039198"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363824"
 ---
 # <a name="mci_info-command"></a>\_Commande MCI info
 
@@ -261,7 +261,7 @@ Obtient le nom de produit de la sortie actuelle et sa valeur est spécifique à 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

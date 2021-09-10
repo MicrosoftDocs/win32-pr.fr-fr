@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e76f0e88642d7d28771090b0690191eb4e4e72f5749dc74a9e42d90bfea87812
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d36cec54e5775641118679b24b0d4b3b1767693
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119781399"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367900"
 ---
 # <a name="wm_cap_file_allocate-message"></a>\_Message d' \_ allocation du fichier WM Cap \_
 
@@ -55,7 +55,7 @@ Si une erreur se produit et qu’une fonction de rappel d’erreur est définie 
 
 Vous pouvez améliorer considérablement les performances de capture de streaming en préallouant un fichier de capture suffisamment grand pour stocker un clip vidéo entier et en défragmentant le fichier de capture avant de capturer le clip.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

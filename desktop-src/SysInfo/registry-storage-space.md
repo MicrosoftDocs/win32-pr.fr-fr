@@ -4,12 +4,12 @@ ms.assetid: fa85ff87-3d72-4f71-856a-f43df7d19aa8
 title: espace de Stockage du registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d00414edbd34452fd6943a4d73a2ebe85af5d38884ddd0ca77f1d8fb41ae6e0c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90b776498528d6c7deaacd92f9e010758b5d57c0
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885077"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368532"
 ---
 # <a name="registry-storage-space"></a>espace de Stockage du registre
 

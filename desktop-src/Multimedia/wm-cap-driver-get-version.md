@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49f6bed4513383c5dd889639a78e9f00e409fe347bfd6b64b112ea830571ae55
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ced70f2d0159ef4bbad3f2d7a8027c30b2c71a5f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687089"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367892"
 ---
 # <a name="wm_cap_driver_get_version-message"></a>Message de la version du \_ pilote WM Cap \_ \_ \_
 
@@ -60,7 +60,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de c
 
 Les informations de version sont une chaîne de texte Récupérée à partir de la zone de ressources du pilote. Les applications doivent allouer environ 40 octets pour cette chaîne. Si les informations de version ne sont pas disponibles, une chaîne **null** est retournée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

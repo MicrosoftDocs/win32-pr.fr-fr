@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre LoadUserSettings COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4b82bd89015baa4c73c9200013e49c76523951218dfde62bbe39300eefdfe0a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e14282b00bc2c2d9b989e19480047f115623d55
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119731039"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363587"
 ---
 # <a name="loadusersettings"></a>LoadUserSettings
 

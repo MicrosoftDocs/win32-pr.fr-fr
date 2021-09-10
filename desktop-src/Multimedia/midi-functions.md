@@ -12,12 +12,12 @@ keywords:
 - Fonctions MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d61af940dd52c0fe067eed930fdac6421d6ac19c5e4b3c04de23c0125f8b678b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fd900afd6b839ed5fed7afffb34c40aee8a07618
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807552"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369167"
 ---
 # <a name="midi-functions"></a>Fonctions MIDI
 

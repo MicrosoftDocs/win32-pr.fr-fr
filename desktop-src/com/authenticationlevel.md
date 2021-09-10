@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre AuthenticationLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7968382ea97243c1116dd6785be34a0d1c3e6eafc6cb9ee13f16b939029a6611
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 697b04bcf4992c8a6943bcb515fa0a4eae616fec
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120529"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363484"
 ---
 # <a name="authenticationlevel"></a>AuthenticationLevel
 

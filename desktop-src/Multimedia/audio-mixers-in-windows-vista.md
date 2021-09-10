@@ -1,25 +1,25 @@
 ---
-title: Mixages audio dans Windows Vista
-description: Mixages audio dans Windows Vista
+title: mixages Audio dans Windows Vista
+description: mixages Audio dans Windows Vista
 ms.assetid: 541cb5f3-b5ca-436f-88dd-6ef8459c6157
 keywords:
-- audio multimédia, mélangeurs audio Windows Vista
-- audio, mélangeurs audio Windows Vista
+- audio multimédia, Windows de mixage audio Vista
+- audio, Windows les mixages audio Vista
 - mixages audio, Windows Vista
 - mélangeurs, Windows Vista
-- Mélangeurs audio Windows Vista
+- Windows Mixages audio Vista
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0610e9f16e13c19a253fbd9f6fac5ef452fa68ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104552176"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368652"
 ---
-# <a name="audio-mixers-in-windows-vista"></a>Mixages audio dans Windows Vista
+# <a name="audio-mixers-in-windows-vista"></a>mixages Audio dans Windows Vista
 
-À compter de Windows Vista, certains contrôles de mixage sont implémentés dans des logiciels plutôt que sur du matériel. Par exemple, les contrôles de volume sont implémentés à l’aide de l’API de session audio Windows (WASAPI). Ces contrôles n’affectent pas directement les paramètres matériels. En outre, ils sont associés à une session audio spécifique au processus, de sorte que les modifications affectent l’application appelante, mais n’affectent pas les autres applications.
+à partir de Windows Vista, certains contrôles de mixage sont implémentés dans des logiciels plutôt que sur du matériel. par exemple, les contrôles de volume sont implémentés à l’aide de l’API de session audio Windows (WASAPI). Ces contrôles n’affectent pas directement les paramètres matériels. En outre, ils sont associés à une session audio spécifique au processus, de sorte que les modifications affectent l’application appelante, mais n’affectent pas les autres applications.
 
 Chaque périphérique de point de terminaison audio dispose d’une disposition de mélangeur standard, implémentée dans le logiciel.
 
@@ -41,9 +41,9 @@ Tous les contrôles d’un point de terminaison manipulent le même contrôle lo
 
 Cette disposition standard est fournie à des fins de compatibilité avec les applications existantes qui utilisent les fonctions de mixage audio. Les nouvelles applications doivent éviter d’utiliser ces fonctions.
 
- 
+ 
 
- 
+ 
 
 
 

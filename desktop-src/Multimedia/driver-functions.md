@@ -10,12 +10,12 @@ keywords:
 - référence pour les pilotes installables, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe7933a37b23e6e8fa7611202d6859a2b9cc80196204d32333228c43feb2890
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7524b4877b82d2071af14ec1eea4f7d6d7e313c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144402"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368927"
 ---
 # <a name="driver-functions"></a>Fonctions du pilote
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 699de5db82981e5f0f1db1229d31f96620adcb8c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884315"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363324"
 ---
 # <a name="insertable-clsid-key"></a>Insertable (clé CLSID)
 

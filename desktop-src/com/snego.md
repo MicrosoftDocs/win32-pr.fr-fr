@@ -4,12 +4,12 @@ description: Snego, dont l’identificateur de service d’authentification est 
 ms.assetid: 2087a84c-d302-4511-9f02-2d20ee9e0d8e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a82f8da58cc77ebfd4debd0763ad4af6e1c96d3e88d9ede69ff82a28e3d8a5ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 676b6428d6b7e79893214c2d234dcfc43992e190
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129811"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363591"
 ---
 # <a name="snego"></a>Snego
 

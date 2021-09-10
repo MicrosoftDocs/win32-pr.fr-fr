@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3ffa98f3d8d4e1c21c12060cd3ebf38642b8edb4963ae01fc03001502dd9378
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4c022a03834a14995f19815ef8f52c0955dc449
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688809"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363915"
 ---
 # <a name="setaudio-command"></a>commande SetAudio
 
@@ -118,7 +118,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Pour les périphériques VCR, l’utilisation de SetAudio avec un indicateur qui désactive une piste individuelle (« suivre le *\_ numéro de suivi* ») peut entraîner la réception par votre application d’un message d’état indiquant que la commande n’a pas pu être exécutée. Certains magnétoscopes peuvent désactiver uniquement les combinaisons de pistes, pas les pistes individuelles. par exemple, la première piste audio et une piste vidéo d’une cassette vidéo. Dans ce cas, utilisez simplement SetAudio et [setvideo](setvideo.md) pour continuer à désactiver les autres pistes qui composent la combinaison. Le pilote désactive les pistes lorsqu’il reçoit la commande pour désactiver la dernière piste dans la combinaison.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

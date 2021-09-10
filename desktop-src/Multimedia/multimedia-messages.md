@@ -3,7 +3,7 @@ title: Messages multimédias
 description: Messages multimédias
 ms.assetid: cf02e26a-899b-4677-a84e-c0ec196a8cfb
 keywords:
-- Multimédia Windows, messages
+- Windows multimédia, messages
 - multimédia, messages
 - Référence multimédia, messages
 - référence pour les messages multimédias
@@ -11,63 +11,63 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 61faeed51ede5005746d50a204fa25a6dd46df17
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940130"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364027"
 ---
 # <a name="multimedia-messages"></a>Messages multimédias
 
 Les messages suivants sont utilisés avec le multimédia.
 
--   [**ICM \_ à propos de**](icm-about.md)
--   [**\_compression ICM**](icm-compress.md)
--   [**début de la \_ compression ICM \_**](icm-compress-begin.md)
--   [**fin de la \_ compression ICM \_**](icm-compress-end.md)
--   [**\_ \_ informations sur les trames de compression ICM \_**](icm-compress-frames-info.md)
--   [**FORMAT d’extraction de la \_ compression ICM \_ \_**](icm-compress-get-format.md)
--   [**taille d’extraction de la \_ compression ICM \_ \_**](icm-compress-get-size.md)
--   [**\_requête de compression ICM \_**](icm-compress-query.md)
--   [**\_configuration ICM**](icm-configure.md)
--   [**décompression ICM \_**](icm-decompress.md)
--   [**début de la \_ décompression ICM \_**](icm-decompress-begin.md)
--   [**\_fin de décompression ICM \_**](icm-decompress-end.md)
--   [**FORMAT d’extraction de la \_ décompression ICM \_ \_**](icm-decompress-get-format.md)
--   [**\_DÉcompresser \_ la \_ palette ICM**](icm-decompress-get-palette.md)
--   [**\_requête de décompression ICM \_**](icm-decompress-query.md)
--   [**\_palette DÉcompresser le \_ jeu de \_ couleurs**](icm-decompress-set-palette.md)
--   [**\_DECOMPRESSEX ICM**](icm-decompressex.md)
--   [**\_début de DECOMPRESSEX ICM \_**](icm-decompressex-begin.md)
--   [**\_fin de DECOMPRESSEX ICM \_**](icm-decompressex-end.md)
--   [**\_requête DECOMPRESSEX \_ ICM**](icm-decompressex-query.md)
--   [**\_dessin ICM**](icm-draw.md)
--   [**\_début de dessin ICM \_**](icm-draw-begin.md)
--   [**\_CHANGEPALETTE de dessin ICM \_**](icm-draw-changepalette.md)
--   [**\_fin de dessin ICM \_**](icm-draw-end.md)
--   [**\_vidage de dessin ICM \_**](icm-draw-flush.md)
--   [**\_palette d' \_ extraction de dessin ICM \_**](icm-draw-get-palette.md)
--   [**ICM de \_ dessin ICM \_**](icm-draw-gettime.md)
--   [**requête ICM de \_ dessin \_**](icm-draw-query.md)
--   [**ICM- \_ créer \_**](icm-draw-realize.md)
--   [**\_RENDERBUFFER de dessin ICM \_**](icm-draw-renderbuffer.md)
--   [**ICM \_ dessin \_ setTime**](icm-draw-settime.md)
--   [**\_début de dessin ICM \_**](icm-draw-start.md)
--   [**\_début de \_ la \_ lecture ICM**](icm-draw-start-play.md)
--   [**\_arrêter le dessin ICM \_**](icm-draw-stop.md)
--   [**\_arrêt de \_ la \_ lecture ICM**](icm-draw-stop-play.md)
--   [**\_SUGGESTFORMAT de dessin ICM \_**](icm-draw-suggestformat.md)
--   [**\_fenêtre de dessin ICM \_**](icm-draw-window.md)
--   [**\_récupération ICM**](icm-get.md)
--   [**\_GETBUFFERSWANTED ICM**](icm-getbufferswanted.md)
--   [**\_GETDEFAULTKEYFRAMERATE ICM**](icm-getdefaultkeyframerate.md)
--   [**\_GETDEFAULTQUALITY ICM**](icm-getdefaultquality.md)
+-   [**ICM \_ OBTENIR**](icm-about.md)
+-   [**ICM \_ Dens**](icm-compress.md)
+-   [**ICM \_ début de la compression \_**](icm-compress-begin.md)
+-   [**ICM \_ compresser la \_ fin**](icm-compress-end.md)
+-   [**ICM \_ INFO compresser les \_ frames \_**](icm-compress-frames-info.md)
+-   [**ICM \_ \_format d’extraction de compression \_**](icm-compress-get-format.md)
+-   [**ICM \_ COMPRESSION de la \_ taille d’extraction \_**](icm-compress-get-size.md)
+-   [**ICM \_ compresser la \_ requête**](icm-compress-query.md)
+-   [**ICM \_ CONFIGURER**](icm-configure.md)
+-   [**ICM \_ DÉCOMPRESSER**](icm-decompress.md)
+-   [**ICM \_ début de la décompression \_**](icm-decompress-begin.md)
+-   [**ICM \_ fin de décompression \_**](icm-decompress-end.md)
+-   [**ICM \_ FORMAT d’extraction de décompression \_ \_**](icm-decompress-get-format.md)
+-   [**ICM \_ décompresser l’extraction de la \_ \_ palette**](icm-decompress-get-palette.md)
+-   [**ICM \_ décompresser la \_ requête**](icm-decompress-query.md)
+-   [**ICM \_ décompresser le \_ jeu de \_ palette**](icm-decompress-set-palette.md)
+-   [**ICM \_ DECOMPRESSEX**](icm-decompressex.md)
+-   [**ICM \_ début de DECOMPRESSEX \_**](icm-decompressex-begin.md)
+-   [**ICM \_ fin de DECOMPRESSEX \_**](icm-decompressex-end.md)
+-   [**ICM \_ \_requête DECOMPRESSEX**](icm-decompressex-query.md)
+-   [**ICM \_ NULLE**](icm-draw.md)
+-   [**ICM \_ début de dessin \_**](icm-draw-begin.md)
+-   [**ICM \_ DESSIN \_ CHANGEPALETTE**](icm-draw-changepalette.md)
+-   [**ICM \_ DESSINER la \_ fin**](icm-draw-end.md)
+-   [**ICM \_ DESSINER le \_ vidage**](icm-draw-flush.md)
+-   [**ICM \_ DESSINER \_ la \_ palette**](icm-draw-get-palette.md)
+-   [**ICM \_ DESSINER \_ GETTIME**](icm-draw-gettime.md)
+-   [**ICM \_ CRÉER une \_ requête**](icm-draw-query.md)
+-   [**ICM \_ DESSINER \_**](icm-draw-realize.md)
+-   [**ICM \_ DESSIN \_ RENDERBUFFER**](icm-draw-renderbuffer.md)
+-   [**ICM \_ DESSINER \_ setTime**](icm-draw-settime.md)
+-   [**ICM \_ démarrer le dessin \_**](icm-draw-start.md)
+-   [**ICM \_ DESSIN \_ Démarrer la \_ lecture**](icm-draw-start-play.md)
+-   [**ICM \_ DESSINER \_ arrêter**](icm-draw-stop.md)
+-   [**ICM \_ DESSINER \_ arrêter la \_ lecture**](icm-draw-stop-play.md)
+-   [**ICM \_ DESSIN \_ SUGGESTFORMAT**](icm-draw-suggestformat.md)
+-   [**ICM \_ \_fenêtre dessin**](icm-draw-window.md)
+-   [**ICM \_ TÉLÉCHARGER**](icm-get.md)
+-   [**ICM \_ GETBUFFERSWANTED**](icm-getbufferswanted.md)
+-   [**ICM \_ GETDEFAULTKEYFRAMERATE**](icm-getdefaultkeyframerate.md)
+-   [**ICM \_ GETDEFAULTQUALITY**](icm-getdefaultquality.md)
 -   [**ICM \_ GETINFO**](icm-getinfo.md)
--   [**\_GETQUALITY ICM**](icm-getquality.md)
--   [**\_GETSTATE ICM**](icm-getstate.md)
--   [**procédure de définition de l' \_ \_ État ICM \_**](icm-set-status-proc.md)
--   [**\_SETQUALITY ICM**](icm-setquality.md)
--   [**de \_ la CCI.**](icm-setstate.md)
+-   [**ICM \_ GETQUALITY**](icm-getquality.md)
+-   [**ICM \_ GETSTATE**](icm-getstate.md)
+-   [**ICM \_ DÉFINIR \_ la \_ procédure d’État**](icm-set-status-proc.md)
+-   [**ICM \_ SETQUALITY**](icm-setquality.md)
+-   [**ICM \_ SETSTATE**](icm-setstate.md)
 -   [**configuration de MCIWNDM \_ CAN \_**](mciwndm-can-config.md)
 -   [**MCIWNDM \_ peut \_ éjecter**](mciwndm-can-eject.md)
 -   [**MCIWNDM \_ peut \_ jouer**](mciwndm-can-play.md)
@@ -124,13 +124,13 @@ Les messages suivants sont utilisés avec le multimédia.
 -   [**MCIWNDM \_ SETVOLUME**](mciwndm-setvolume.md)
 -   [**MCIWNDM \_ SETZOOM**](mciwndm-setzoom.md)
 -   [**MCIWNDM \_ VALIDATEMEDIA**](mciwndm-validatemedia.md)
--   [**\_fermeture MIM**](mim-close.md)
--   [**\_données MIM**](mim-data.md)
--   [**\_erreur MIM**](mim-error.md)
--   [**\_LONGDATA MIM**](mim-longdata.md)
--   [**\_LONGERROR MIM**](mim-longerror.md)
--   [**\_MOREDATA MIM**](mim-moredata.md)
--   [**MIM \_ ouvert**](mim-open.md)
+-   [**MIM \_ PLUS**](mim-close.md)
+-   [**MIM \_ MÉTADONNÉE**](mim-data.md)
+-   [**MIM \_ Erreurs**](mim-error.md)
+-   [**MIM \_ LONGDATA**](mim-longdata.md)
+-   [**MIM \_ LONGERROR**](mim-longerror.md)
+-   [**MIM \_ MOREDATA**](mim-moredata.md)
+-   [**MIM \_ AFFICHER**](mim-open.md)
 -   [**MM \_ \_ FILTERCHOOSE ACM**](mm-acm-filterchoose.md)
 -   [**MM \_ \_ FORMATCHOOSE ACM**](mm-acm-formatchoose.md)
 -   [**\_JOY1BUTTONDOWN mm**](mm-joy1buttondown.md)
@@ -143,13 +143,13 @@ Les messages suivants sont utilisés avec le multimédia.
 -   [**\_JOY2ZMOVE mm**](mm-joy2zmove.md)
 -   [**\_MCINOTIFY mm**](mm-mcinotify.md)
 -   [**\_MCISIGNAL mm**](mm-mcisignal.md)
--   [**MM \_ MIM \_ proche**](mm-mim-close.md)
--   [**MM \_ \_ données MIM**](mm-mim-data.md)
--   [**MM \_ \_ erreur MIM**](mm-mim-error.md)
--   [**MM \_ \_ LONGDATA MIM**](mm-mim-longdata.md)
--   [**MM \_ \_ LONGERROR MIM**](mm-mim-longerror.md)
--   [**MM \_ \_ MOREDATA MIM**](mm-mim-moredata.md)
--   [**MM \_ MIM \_ ouvert**](mm-mim-open.md)
+-   [**MM \_ MIM \_ fermer**](mm-mim-close.md)
+-   [**MM \_ MIM \_ données**](mm-mim-data.md)
+-   [**MM \_ MIM \_ erreur**](mm-mim-error.md)
+-   [**MM \_ MIM \_ LONGDATA**](mm-mim-longdata.md)
+-   [**MM \_ MIM \_ LONGERROR**](mm-mim-longerror.md)
+-   [**MM \_ MIM \_ MOREDATA**](mm-mim-moredata.md)
+-   [**MM \_ MIM \_ ouverts**](mm-mim-open.md)
 -   [**\_modification du \_ contrôle \_ MIXM mm**](mm-mixm-control-change.md)
 -   [**MM \_ \_ modification de ligne MIXM \_**](mm-mixm-line-change.md)
 -   [**\_fermeture MOM de mm \_**](mm-mom-close.md)
@@ -240,9 +240,9 @@ Les messages suivants sont utilisés avec le multimédia.
 [Référence multimédia](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

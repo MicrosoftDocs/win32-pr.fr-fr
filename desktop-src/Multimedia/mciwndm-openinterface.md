@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83097ad6301dbfdb4636a8478c2df8e544207df334efd27fe9695f15e0693533
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c40453f4d587429508a5aae19bc432fc46088ae
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118373497"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364303"
 ---
 # <a name="mciwndm_openinterface-message"></a>\_Message MCIWNDM OPENINTERFACE
 
@@ -49,7 +49,7 @@ Pointeur vers une interface IAVI qui pointe vers un fichier ou un flux de donné
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Fonctions de rappel AVICap, yield
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e87a3c986378bee05078b8cab28a0647827a1102ef1809558a47dcd5123af2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3666ea24a1d37402ffc13c09ca8ab95fcd19e1f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369133"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369415"
 ---
 # <a name="yield-callback-functions"></a>Générer des fonctions de rappel
 

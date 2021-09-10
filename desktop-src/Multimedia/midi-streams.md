@@ -9,11 +9,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4237e1590f3af2e15a3b0b9fedea2fea4c9c40fc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101596"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364520"
 ---
 # <a name="midi-streams"></a>Flux MIDI
 
@@ -36,8 +36,8 @@ Les fonctions suivantes fonctionnent avec les flux.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

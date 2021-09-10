@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre SRPActivateAsActivatorChecks COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c88accfb436124f13fc25eea9a5ee3621c7784fb509de7d842765bf0a072c977
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b66ae6b1c7f267f48f24441c04e95eea75e4345
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118104270"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363499"
 ---
 # <a name="srpactivateasactivatorchecks"></a>SRPActivateAsActivatorChecks
 

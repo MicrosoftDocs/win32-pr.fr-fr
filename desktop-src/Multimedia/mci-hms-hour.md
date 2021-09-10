@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97b8000e642d18f8499be5f8622a1cf7540fefbd041b7d34f23e1fd5e231815a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a7ecab8b5de7712a9c1a5ebd5c0a4401b264d7ee
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039269"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363952"
 ---
 # <a name="mci_hms_hour-macro"></a>HMS de la \_ \_ macro d’heure MCI
 
@@ -64,7 +64,7 @@ La macro **MCI \_ HMS \_ Hour** est définie comme suit :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

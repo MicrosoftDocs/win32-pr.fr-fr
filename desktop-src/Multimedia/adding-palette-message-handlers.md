@@ -8,12 +8,12 @@ keywords:
 - DrawDibDraw fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5b17512025cadf0e457b596a3bfc07399db4eb9185195f4c836ee154d5ff64a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 679990dce5977430eb2a46fc3cd06622246d357f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808629"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368471"
 ---
 # <a name="adding-palette-message-handlers"></a>Ajout de gestionnaires de messages de palette
 

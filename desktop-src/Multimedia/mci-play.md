@@ -3,7 +3,7 @@ title: Commande MCI_PLAY (mmsystem. h)
 description: La \_ commande MCI Play signale à l’appareil qu’il doit commencer à transmettre des données de sortie. Les périphériques CD audio, Digital-Video, MIDI Sequencer, videodisc, VCR et Waveform-Audio reconnaissent cette commande.
 ms.assetid: d912ab49-63f0-40a9-aa4c-f9463782b54c
 keywords:
-- Commande MCI_PLAY Windows multimédia
+- commande MCI_PLAY Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2f985a8d5d6be7ad42702afc898b3aaf437ef320
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844405"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363796"
 ---
 # <a name="mci_play-command"></a>\_Commande MCI Play
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ lecture MCI**](mci-play-parms.md) . (Les
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent à tous les appareils prenant en charge MCI \_ Play :
 
@@ -153,7 +153,7 @@ Les indicateurs supplémentaires suivants sont utilisés avec le type d’appare
 
 <dl> <dt>
 
-<span id="MCI_VD_PLAY_FAST"></span><span id="mci_vd_play_fast"></span>MCI \_ VD \_ Play \_ Fast
+<span id="MCI_VD_PLAY_FAST"></span><span id="mci_vd_play_fast"></span>\_Fast de \_ lecture MCI VD \_
 </dt> <dd>
 
 Jouez rapidement.
@@ -188,7 +188,7 @@ La vitesse de lecture est incluse dans le membre **dwSpeed** de la structure ide
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -196,7 +196,7 @@ La vitesse de lecture est incluse dans le membre **dwSpeed** de la structure ide
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

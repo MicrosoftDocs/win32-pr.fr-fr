@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETFILENAME (VFW. h)
 description: Le \_ message MCIWNDM GETFILENAME récupère le nom de fichier actuellement utilisé par un périphérique MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetFileName.
 ms.assetid: d61b1b6d-0fae-4732-993c-41e08a4e05be
 keywords:
-- Message MCIWNDM_GETFILENAME Windows Multimedia
+- message MCIWNDM_GETFILENAME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 232a1d829b5cdd6da23e7dd3fb0294b95ca79f4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508341"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364256"
 ---
 # <a name="mciwndm_getfilename-message"></a>\_Message MCIWNDM GETFILENAME
 
@@ -56,11 +56,11 @@ Pointeur vers une mémoire tampon définie par l’application pour retourner le
 
 Retourne zéro en cas de réussite ou 1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne se terminant par un caractère NULL contenant le nom de fichier est plus longue que la mémoire tampon, MCIWnd tronque le nom de fichier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

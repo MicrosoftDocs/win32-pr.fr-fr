@@ -4,12 +4,12 @@ description: Référence AVIFile
 ms.assetid: 73532d83-89c2-4911-8558-ce110e9f0f95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b4bbda5374f5b1418c166aae5efcc06168b522b2cae0f3b6d2c8fe3c069c36
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0291d0ac5864a9b370e79a98fa061770d05bca03
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808319"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363703"
 ---
 # <a name="avifile-reference"></a>Référence AVIFile
 

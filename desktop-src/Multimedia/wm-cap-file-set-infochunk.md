@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06d64f88a87af63e5afc513e0e2cf2df53d64570bec099a2f8f2846d781fc0b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 067ba00563a5ca511f13b23615fc4542090ba397
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892069"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367924"
 ---
 # <a name="wm_cap_file_set_infochunk-message"></a>\_ \_ \_ Message INFOCHUNK du jeu de fichiers \_ de la casquette WM
 
@@ -55,7 +55,7 @@ Si une erreur se produit et qu’une fonction de rappel d’erreur est définie 
 
 Plusieurs segments d’informations inscrits peuvent être ajoutés à un fichier AVI. Une fois qu’un segment d’informations est défini, il continue à être ajouté aux fichiers de capture suivants jusqu’à ce que l’entrée soit effacée ou que toutes les entrées de segment d’information soient effacées. Pour effacer une entrée unique, spécifiez le segment d’informations dans le membre **fccInfoID** et la **valeur null** dans le membre **lpData** de la structure [**CAPINFOCHUNK**](/windows/win32/api/vfw/ns-vfw-capinfochunk) . Pour effacer toutes les entrées, spécifiez **null** dans **fccInfoID**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

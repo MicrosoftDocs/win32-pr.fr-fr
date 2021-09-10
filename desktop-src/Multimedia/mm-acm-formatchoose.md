@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cceaa67bc0ce4ee922b48d1cff20eb2bf6414f93506dcc70ccd6e0e912211544
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35808e06521cbd83d07f8d6c799779a16f50236b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119782959"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364044"
 ---
 # <a name="mm_acm_formatchoose-message"></a>MM \_ \_ message FORMATCHOOSE ACM
 
@@ -78,7 +78,7 @@ Si votre application traite une opération de vérification, elle peut empêcher
 
 Si votre application traite une opération d’ajout, elle peut indiquer qu’aucun ajout supplémentaire n’est requis en appelant la fonction **SetWindowLong** avec *NINDEX* défini sur DWL \_ MSGRESULT et *lNewLong* défini sur **false** (cast en type de données **long** ). Pour indiquer que des ajouts supplémentaires sont nécessaires, appelez cette fonction avec *lNewLong* défini sur **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

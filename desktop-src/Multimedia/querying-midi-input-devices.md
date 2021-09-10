@@ -13,12 +13,12 @@ keywords:
 - interrogation des périphériques d’entrée MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81340f767c1ef3acf3105f78d2cef000f7548361b387e6887ecc4136437dbe6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a92bec8733887e20c25f37d1de3dd493e555c8a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118371931"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364435"
 ---
 # <a name="querying-midi-input-devices"></a>Interrogation des périphériques d’entrée MIDI
 

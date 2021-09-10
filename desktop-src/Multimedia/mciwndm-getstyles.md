@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036bd687c5d7828fade23994b9141488354added5ee38d38bafc9c5ce22a954c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 983e37291977edf2473c2b603cd5b40792fb7989
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119783289"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364279"
 ---
 # <a name="mciwndm_getstyles-message"></a>\_Message MCIWNDM GETSTYLES
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne une valeur représentant les styles actuels de la fenêtre MCIWnd. La valeur de retour est l’opérateur or au niveau du bit des styles de fenêtre MCIWnd (indicateurs MCIWNDF).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

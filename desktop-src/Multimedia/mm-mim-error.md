@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b2f615434d47a60297991e170a27acd2c6fabefcb5fed0b71624d373a35ed5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76b45988259601b40a804f9eb8acfbb085bddcda
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117802417"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364423"
 ---
 # <a name="mm_mim_error-message"></a>MM \_ MIM \_ message d’erreur
 
@@ -56,7 +56,7 @@ Message MIDI non valide. Le message est empaqueté dans une valeur **DWORD** ave
 
 Ce message ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

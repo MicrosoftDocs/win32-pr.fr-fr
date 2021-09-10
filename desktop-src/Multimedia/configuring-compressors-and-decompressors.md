@@ -8,12 +8,12 @@ keywords:
 - ICQueryConfigure macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 073a9ac7eb56c0870d7a08d8ed9fd221a2626bb6be83cc4683cd86c4bfa907db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88d388a52047a1aea7936cc494dafc0d1a2d6dec
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144922"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364076"
 ---
 # <a name="configuring-compressors-and-decompressors"></a>Configuration des compresseurs et des décompresseurs
 

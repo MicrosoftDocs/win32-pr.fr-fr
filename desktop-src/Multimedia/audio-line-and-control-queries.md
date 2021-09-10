@@ -12,12 +12,12 @@ keywords:
 - mixages, lignes audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c417b55273ba3f7f96cd857979c73003ed0f88c2161e1c2ac14d934fddcff1e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec581f2ddb54b06de8fa1a1b1356d9b80422ad5c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692109"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368644"
 ---
 # <a name="audio-line-and-control-queries"></a>Requêtes audio et de contrôle
 

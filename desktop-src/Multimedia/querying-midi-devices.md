@@ -9,12 +9,12 @@ keywords:
 - interrogation d’appareils MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3546971a17a5a8002f0e6d4205ceee5ca796babeb2b27df911cfca5a5911371c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 066648d6e9ce89e03b26940cb27f3b62b6a03c07
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118372314"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364448"
 ---
 # <a name="querying-midi-devices"></a>Interrogation d’appareils MIDI
 

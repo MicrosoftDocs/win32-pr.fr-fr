@@ -6,12 +6,12 @@ keywords:
 - MCIWndGetError macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1626b48bd04d5c7311767ab277abb4cbdd9d1a6104724ca244ab9544077a4f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37e40e78c72dc378baa37b56dbb2d5718ae2d85b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117988557"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368959"
 ---
 # <a name="error-messages-and-notifications"></a>Messages d’erreur et notifications
 

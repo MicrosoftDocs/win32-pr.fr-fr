@@ -4,12 +4,12 @@ description: Substituts de DLL
 ms.assetid: fe30c0ae-1d19-4a5f-8ee3-8a5337c79c44
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 808efe4a431a703282a705000d2fe18f6b4cfcde121d95c39fe65541b0260503
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 313c3fcbd07b4c6317dfb6ac8ede772fc62035f0
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993249"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363571"
 ---
 # <a name="dll-surrogates"></a>Substituts de DLL
 

@@ -10,12 +10,12 @@ keywords:
 - waveInOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6391ca5bfe0690d2235504057865fb588f08d0359417ccbcc04b6a7e5eb082
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c92b7f49b9d170ceb8ebce287025ce0e0c1c5530
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117802306"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367732"
 ---
 # <a name="opening-waveform-audio-input-devices"></a>Ouverture de Waveform-Audio périphériques d’entrée
 

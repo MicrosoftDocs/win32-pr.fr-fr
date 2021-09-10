@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62c291b736b0138386c235703c29fffdae470d011f55284e8aaac4c4cfd604a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ce1e37709477ba6080219e5225b3fde02dfed75
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119691139"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364199"
 ---
 # <a name="icm_draw_settime-message"></a>ICM \_ DESSINER un \_ message setTime
 
@@ -55,7 +55,7 @@ En général, le pilote compare la valeur spécifiée avec le numéro de frame a
 
 Utilisez ce message lorsque le matériel effectue sa propre décompression, synchronisation et dessin asynchrones, et que le matériel s’appuie sur un signal de synchronisation externe (le matériel n’est pas utilisé en tant que maître de synchronisation).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

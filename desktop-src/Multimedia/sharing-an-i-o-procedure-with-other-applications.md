@@ -12,11 +12,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bd7931bde28338cc625c828128e05047d8ec3370
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381836"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368447"
 ---
 # <a name="sharing-an-io-procedure-with-other-applications"></a>Partage d’une procédure d’e/s avec d’autres applications
 
@@ -28,6 +28,6 @@ Si vous souhaitez partager une procédure d’e/s avec d’autres applications, 
 
 Pour utiliser la procédure d’e/s partagée, une application doit d’abord appeler la fonction dans la DLL pour installer la procédure d’e/s.
 
- 
+ 
 
- 
+ 

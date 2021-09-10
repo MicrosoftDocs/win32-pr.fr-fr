@@ -4,12 +4,12 @@ description: Licences et IClassFactory2
 ms.assetid: 2bead555-8c62-4f48-a4c6-6f0942ec75f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8248b24d6b629d42e9ca631b1574c5a6719f0f4f626b2ea22792c3196c591e3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9376d5187588ba14da434161309409bf1d189a8f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120096929"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363375"
 ---
 # <a name="licensing-and-iclassfactory2"></a>Licences et IClassFactory2
 

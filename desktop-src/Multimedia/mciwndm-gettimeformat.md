@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3badb7c7722db6444d3bd928535790876e0a128e69e50323cea3fe39c2dd987a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a09f969c009ff23bc0951ed2efbc0dbf7aa95dda
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117985907"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364280"
 ---
 # <a name="mciwndm_gettimeformat-message"></a>\_Message MCIWNDM GETTIMEFORMAT
 
@@ -82,7 +82,7 @@ Un périphérique MCI peut prendre en charge un ou plusieurs des formats d’heu
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

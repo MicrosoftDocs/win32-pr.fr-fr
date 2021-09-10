@@ -7,12 +7,12 @@ keywords:
 - MCIWndSaveDialog macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c097da1970aafa67fd9d5e94dc37024da2d2a29c3a04f2b2f5739f434b87e21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55bb2cd89a72af4412b2555dd9b7c88f2d277ac8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805469"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369287"
 ---
 # <a name="saving-recorded-content"></a>Enregistrement du contenu enregistré
 

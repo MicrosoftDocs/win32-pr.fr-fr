@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33a6ee9c080e2dfc7a779abd4ae2a788bbe136ddcab1ef529714639065553ad0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e358aa3ab589af0be1e4e490c141ed41baeb5874
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118140947"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364100"
 ---
 # <a name="icm_compress_begin-message"></a>ICM \_ Compresser le \_ message de début
 
@@ -62,7 +62,7 @@ le pilote doit allouer et initialiser les tables ou la mémoire dont il a besoin
 
 VCM enregistre les paramètres du message de **début de \_ compression \_ ICM** le plus récent. les messages de [**\_ \_ fin**](icm-compress-end.md) compresser les **ICM de \_ compression \_ BEGIN** et ICM ne sont pas imbriqués. si votre pilote reçoit **ICM la compression \_ \_ commencent** avant l’arrêt de la compression avec **ICM \_ \_ fin** de compression, il doit redémarrer la compression avec les nouveaux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

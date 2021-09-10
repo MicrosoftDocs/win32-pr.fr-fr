@@ -12,12 +12,12 @@ keywords:
 - mixages, lignes audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7089ac3fdee1ec07309a9844a1be282b435b4858061c6defdbca9be84463d95a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a7720a178931f98415cafb38a92383037a4011e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144804"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368820"
 ---
 # <a name="control-types"></a>Types de contrôles
 
@@ -27,7 +27,7 @@ Les services de mixage incluent les classes suivantes de contrôles standard à 
 -   [Faders](faders.md)
 -   [Listes](lists.md)
 -   [Mètres](meters.md)
--   [Nombres](numbers.md)
+-   [Nombreux](numbers.md)
 -   [Curseurs](sliders.md)
 -   [Commutateurs](switches.md)
 -   [Contrôles de temps](time-controls.md)

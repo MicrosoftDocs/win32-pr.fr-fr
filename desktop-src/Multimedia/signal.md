@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db007a03738f13bb9acc0733b67bcd38de4b97f2b194bb16cdfcd85f798cfdc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4fd96b8970ebbb6502306c6d2d5fd8c49f172cad
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037179"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363983"
 ---
 # <a name="signal-command"></a>signal, commande
 
@@ -82,7 +82,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Le handle de fenêtre utilisé pour la notification des messages de saisie semi-automatique de commande est également utilisé pour la signalisation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

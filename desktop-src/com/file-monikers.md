@@ -4,12 +4,12 @@ description: Monikers de fichiers
 ms.assetid: 923f798d-d789-4e6d-b27e-dd5a72f92abf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa51d000964bcfe7cad29db333bbbbc68b3a94d0f977c47b29affab4eed0b139
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5c18beeff04804b11f04c0a2c211f2dd09dd60d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048287"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363364"
 ---
 # <a name="file-monikers"></a>Monikers de fichiers
 

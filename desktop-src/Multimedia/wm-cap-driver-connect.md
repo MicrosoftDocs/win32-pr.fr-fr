@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b0e54d496302488db653505321778bcd22546bd2ed9b2180aa0e15cb6969f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d73fdeb89968926429f7225912e3d1b3b348e287
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118622628"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367876"
 ---
 # <a name="wm_cap_driver_connect-message"></a>\_Message de \_ connexion du pilote WM Cap \_
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si le pilote de cap
 
 La connexion d’un pilote de capture à une fenêtre de capture déconnecte automatiquement tout pilote de capture précédemment connecté.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

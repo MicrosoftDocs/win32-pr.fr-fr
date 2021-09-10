@@ -6,12 +6,12 @@ keywords:
 - Fonctions de rappel AVICap, contrôle de capture précis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d365482f5f6309f9642aa5c8b497b58a1d9416e398e5c3624191d777e006b23e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0749d420d7a1999d074546a0cf577fdaceb72483
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118372659"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369279"
 ---
 # <a name="precise-capture-control"></a>Contrôle de capture précis
 

@@ -3,7 +3,7 @@ title: Services MIDI
 description: Services MIDI
 ms.assetid: 884066c2-6927-4f5b-902b-8baef9a4a0d7
 keywords:
-- Windows Multimedia, services MIDI
+- Windows des services multimédias, MIDI
 - multimédia, services MIDI
 - audio multimédia, services MIDI
 - audio, services MIDI
@@ -13,11 +13,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fc412ddec21245e9682a2a2e79e3f8031d2a6918
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381901"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364395"
 ---
 # <a name="midi-services"></a>Services MIDI
 
@@ -30,6 +30,6 @@ La plupart des applications peuvent utiliser les mémoires tampons de séquence 
 -   [Demande de formats d’heure](requesting-time-formats.md)
 -   [Gestion des erreurs avec les fonctions MIDI](handling-errors-with-midi-functions.md)
 
- 
+ 
 
- 
+ 

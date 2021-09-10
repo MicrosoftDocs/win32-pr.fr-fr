@@ -4,12 +4,12 @@ description: Ajout de fonctions de rappel à une application
 ms.assetid: b7bde1be-b229-4e00-8906-22d7dcf9ea04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dcd72b1a95a416398f482b90d7cd15cd80e1698a66a4b1c482bc92fc523ab2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d4f5f3dc43227f92305032decaf917bf521d95b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118941827"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367791"
 ---
 # <a name="adding-callback-functions-to-an-application"></a>Ajout de fonctions de rappel à une application
 

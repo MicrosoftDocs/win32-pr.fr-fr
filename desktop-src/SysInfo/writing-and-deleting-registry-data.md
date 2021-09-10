@@ -4,12 +4,12 @@ ms.assetid: 75ac826a-f169-400c-b6d6-3e3ec9ebf996
 title: Écriture et suppression de données de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd4e80dc3320d1af0931e111c82f473e0edf56ac071443397ffc3da0918f7be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d5185c98f39a37512ec56fb994d5f1c4ba4b61ee
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883991"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368551"
 ---
 # <a name="writing-and-deleting-registry-data"></a>Écriture et suppression de données de Registre
 

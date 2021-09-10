@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_FLUSH (VFW. h)
-description: Le \_ \_ message de vidage de dessin ICM indique à un pilote de rendu de restituer le contenu de toutes les mémoires tampons d’image qui sont en attente de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawFlush.
+description: le \_ \_ message de vidage de dessin ICM notifie un pilote de rendu pour afficher le contenu de toutes les mémoires tampons d’image qui sont en attente de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawFlush.
 ms.assetid: c29ed751-c773-4476-98fe-6edef3ff0cf4
 keywords:
-- Message ICM_DRAW_FLUSH Windows Multimedia
+- message ICM_DRAW_FLUSH Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 38ec42c51222313f7d3599c3b4f264dbd21a9434
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513791"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364187"
 ---
-# <a name="icm_draw_flush-message"></a>Message de vidage de \_ dessin ICM \_
+# <a name="icm_draw_flush-message"></a>ICM \_ DESSINER le \_ message de vidage
 
-Le message de **\_ \_ vidage de dessin ICM** indique à un pilote de rendu de restituer le contenu de toutes les mémoires tampons d’image qui sont en attente de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawFlush**](/windows/desktop/api/Vfw/nf-vfw-icdrawflush) .
+le message de **\_ \_ vidage de dessin ICM** notifie un pilote de rendu pour afficher le contenu de toutes les mémoires tampons d’image qui sont en attente de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawFlush**](/windows/desktop/api/Vfw/nf-vfw-icdrawflush) .
 
 
 ```C++
@@ -38,11 +38,11 @@ lParam = 0;
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utilisé uniquement par le matériel qui effectue sa propre décompression asynchrone, son minutage et son dessin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

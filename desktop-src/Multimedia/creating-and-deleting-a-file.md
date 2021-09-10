@@ -16,12 +16,12 @@ keywords:
 - mmioOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91a2ee8e70508e2c5dc3b24c084cf0b081b6629a519703ef43a15845ef3ec76a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c22cd6330874d0b5da74d69193359c025c709c79
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785729"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368407"
 ---
 # <a name="creating-and-deleting-a-file"></a>Création et suppression d’un fichier
 

@@ -4,12 +4,12 @@ description: Plusieurs valeurs affectent la sécurité des applications COM, not
 ms.assetid: c5b6b821-6bc9-43a3-b540-d187efe2533d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07e0a95da867557e7210625a5e668a6955f83fa0c9c4cb679187d2e22dcb172f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b04c04df77932f1775c4b67579c5d08416e72034
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117918110"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363616"
 ---
 # <a name="security-values"></a>Valeurs de sécurité
 

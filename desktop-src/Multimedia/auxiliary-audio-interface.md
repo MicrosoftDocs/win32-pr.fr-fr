@@ -19,12 +19,12 @@ keywords:
 - audio Wave, périphériques audio auxiliaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: effd30748914724cf089b47b9c7d8d1848cfef121d7eb1233738477f31c1e902
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4daa76f2c4f33b7cc04e90313550ad2f254fc7e6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808349"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367700"
 ---
 # <a name="auxiliary-audio-interface"></a>Interface audio auxiliaire
 

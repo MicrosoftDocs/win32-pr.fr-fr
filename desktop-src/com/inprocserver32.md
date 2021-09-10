@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre InprocServer32 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9904aa636bbfb8dc0bc01cac85e041aedfcd34364bd62ac7b0e4e5a9f904750f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0daae9d495ad588e0dc710b63fe7d7ae9f48c11d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119567819"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363312"
 ---
 # <a name="inprocserver32"></a>InprocServer32
 

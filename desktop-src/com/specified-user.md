@@ -5,11 +5,11 @@ ms.assetid: ec7684fb-a9f1-4ef2-a7d4-07caf24b6023
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: acce63aa502a8966cd0eb53c90dcca3c4454e80b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106532026"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363523"
 ---
 # <a name="specified-user"></a>Utilisateur spécifié
 
@@ -23,7 +23,7 @@ L’exécution en tant que compte d’utilisateur fixe est plus sécurisée que 
 
 <dl> <dt>
 
-[Identité de l’application](application-identity.md)
+[Identité de l'application](application-identity.md)
 </dt> <dt>
 
 [Utilisateur interactif](interactive-user.md)
@@ -35,9 +35,9 @@ L’exécution en tant que compte d’utilisateur fixe est plus sécurisée que 
 [Identité du service](service-identity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

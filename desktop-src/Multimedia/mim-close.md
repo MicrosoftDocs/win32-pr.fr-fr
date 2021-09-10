@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b1509573d5c69fd2e95cabeb8ba2c4059d5d37c9cfe3c957ec8b8f75f5abfa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5549d9bef1e802b0b34ab6437b1386519a25d349
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428169"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364340"
 ---
 # <a name="mim_close-message"></a>MIM \_ FERMER le message
 
@@ -60,7 +60,7 @@ Ce message ne retourne pas de valeur.
 
 Le descripteur d’appareil n’est plus valide une fois que ce message a été envoyé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

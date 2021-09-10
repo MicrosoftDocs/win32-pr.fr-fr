@@ -5,11 +5,11 @@ ms.assetid: 731fef03-d204-48e7-b33a-801e97a9d2c2
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2c08d4dd1175b5a7681f79fa9049772af245a031
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309530"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363639"
 ---
 # <a name="persistent-object-state"></a>État persistant de l’objet
 
@@ -29,9 +29,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Clients et serveurs COM](com-clients-and-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

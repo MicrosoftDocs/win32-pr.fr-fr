@@ -10,12 +10,12 @@ keywords:
 - type de division de séquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b28bb7e32097b888cdd3dec739eaccfc2a37dfe14060168fb11f0a7ca3d00e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6586a33fe4a5225fdcdca21e413104388d5831d3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117801803"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364551"
 ---
 # <a name="retrieving-the-sequence-division-type"></a>Récupération du type de division de séquence
 

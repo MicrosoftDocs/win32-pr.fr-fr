@@ -10,12 +10,12 @@ keywords:
 - waveInAddBuffer fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d798cb1b6a8a22f4c695bced89dd669346ad2bb6452179df1d3278af8681aa49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 539f722a705d489064d38eccdf6d89e80ccb1518
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138932"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367727"
 ---
 # <a name="managing-waveform-audio-recording"></a>Gestion de l’enregistrement Waveform-Audio
 

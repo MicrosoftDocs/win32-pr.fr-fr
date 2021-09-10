@@ -13,12 +13,12 @@ keywords:
 - Contrôle PAN QSound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e902e3ead0416cb4b2a7d56d289f91779563109cb9494784635affc75069dfe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4d1d7644255e2fa9ee6384cbb5102df81c2a1eb0
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805349"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368847"
 ---
 # <a name="sliders-windows-multimedia"></a>curseurs (Windows multimédia)
 
@@ -26,7 +26,7 @@ Les contrôles Slider sont généralement des contrôles horizontaux qui peuvent
 
 
 
-| Contrôler    | Description                                                                                                               |
+| Control    | Description                                                                                                               |
 |------------|---------------------------------------------------------------------------------------------------------------------------|
 | Curseur     | A une plage comprise entre – 32 768 et 32 767. Le pilote de mixage définit les limites de ce contrôle.                               |
 | Panoramique        | A une plage comprise entre – 32 768 et 32 767. Le pilote de mixage définit les limites de ce contrôle, 0 étant la valeur de milieu de gamme. |

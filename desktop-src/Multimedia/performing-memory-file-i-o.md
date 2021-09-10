@@ -11,12 +11,12 @@ keywords:
 - mmioOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90a2b1e2e47ffccc21b2684dcb6bd285b7e55470776fb57eb382a969091a19e8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 82c3e98bbd3636fb88c834957ba2c3fb856406a8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805889"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368431"
 ---
 # <a name="performing-memory-file-io"></a>Exécution des e/s de fichier de mémoire
 

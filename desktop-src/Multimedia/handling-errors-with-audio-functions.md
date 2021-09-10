@@ -11,12 +11,12 @@ keywords:
 - audio auxiliaire, Erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dbb332ed0be06a829c169bdf333f3f4ce73a6e9dff81b22949174216dd4017d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfcc803ae741635b3b29fb9909f530fe041e477a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141082"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367716"
 ---
 # <a name="handling-errors-with-audio-functions"></a>Gestion des erreurs avec les fonctions audio
 

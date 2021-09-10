@@ -7,12 +7,12 @@ keywords:
 - capFileAlloc macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 687a14fa0f3a01a65ad2cb90062fcd4e237eb3e94ef99460d77883bd26df9213
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7442b08170fb6f018555c043c59d96860701ed4f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678760"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368740"
 ---
 # <a name="disk-space-preallocation-for-the-capture-file"></a>Préallocation d’espace disque pour le fichier de capture
 

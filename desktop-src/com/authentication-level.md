@@ -4,12 +4,12 @@ description: Le niveau d’authentification contrôle la sécurité qu’un clie
 ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c468408a22f1ea0c0fae67d7ce3d5f5b40f8a6342538614c1619acd40574ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 250661e4a8da42ffd91f37e282a39fbb52b6328a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118311149"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363615"
 ---
 # <a name="authentication-level"></a>Niveau d’authentification
 

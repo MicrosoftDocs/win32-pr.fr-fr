@@ -3,7 +3,7 @@ title: Message DRV_CONFIGURE (mmsystem. h)
 description: Indique au pilote installable d’afficher sa boîte de dialogue de configuration et de permettre à l’utilisateur de spécifier de nouveaux paramètres pour l’instance de pilote d’installation donnée.
 ms.assetid: 0d99fad7-ce79-4574-9fd8-262f7e758866
 keywords:
-- Message DRV_CONFIGURE Windows Multimedia
+- message DRV_CONFIGURE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 30a761e7bda7188e93b02e436f2e952bed61bee9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942829"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364119"
 ---
 # <a name="drv_configure-message"></a>DRV \_ configurer le message
 
@@ -73,13 +73,13 @@ Retourne l’une des valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Certains pilotes installables ajoutent des informations de configuration à la valeur affectée à la valeur de registre associée au pilote.
 
 Les valeurs de retour de DRV \_ Cancel, DRV \_ OK et DRV \_ restart sont obsolètes. elles ont été remplacées par DRVCNF \_ Cancel, DRVCNF \_ OK et DRVCNF \_ Restart, respectivement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -87,7 +87,7 @@ Les valeurs de retour de DRV \_ Cancel, DRV \_ OK et DRV \_ restart sont obsolè
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ keywords:
 - E/s (entrée et sortie), exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758829e114ebc5c756f61b749adbd2472572dda94e346ac140714d83051c34ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 477e7b07394b33326030b0eeebae8eb1a6415c1f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136174"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368396"
 ---
 # <a name="using-multimedia-file-io"></a>Utilisation des e/s de fichier multimédia
 

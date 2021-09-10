@@ -3,7 +3,7 @@ title: Commande MCI_FREEZE (mmsystem. h)
 description: La \_ commande MCI Freeze fige le mouvement à l’écran. Les appareils vidéo numérique, vidéo-superposition et VCR reconnaissent cette commande.
 ms.assetid: 6f90984a-24dc-4046-8234-986b2125bab4
 keywords:
-- Commande MCI_FREEZE Windows multimédia
+- commande MCI_FREEZE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 705117aef85fe69382657c647240849b515afa07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032554"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363827"
 ---
 # <a name="mci_freeze-command"></a>\_Commande de blocage MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants sont utilisés par le type d’appareil **Digitalvideo** :
 
@@ -137,7 +137,7 @@ Le membre **RC** de la structure identifiée par *lpFreeze* contient un rectangl
 
 Pour les périphériques de superposition vidéo, le paramètre *lpFreeze* pointe vers une structure [**MCI \_ OVLY \_ rect \_ PARMS**](mci-ovly-rect-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -145,7 +145,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpFreeze* point
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

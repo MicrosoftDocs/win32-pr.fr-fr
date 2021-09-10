@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre LegacySecureReferences COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef3a4ab964d73fa4b194c734f28c23ff068239370088c090051464129b6caf14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2776bf3661013f1e622bbc2e1c553f2551c62808
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736546"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363508"
 ---
 # <a name="legacysecurereferences"></a>LegacySecureReferences
 

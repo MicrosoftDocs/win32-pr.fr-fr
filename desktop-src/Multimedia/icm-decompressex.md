@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESSEX (VFW. h)
-description: Le \_ message DECOMPRESSEX ICM indique à un pilote de compression vidéo de décompresser un frame de données directement à l’écran, d’effectuer une décompression vers un DIB inversé ou de décompresser des images décrites dans des rectangles source et de destination.
+description: le \_ message ICM DECOMPRESSEX indique à un pilote de compression vidéo de décompresser un frame de données directement à l’écran, de décompresser un DIB inversé ou de décompresser les images décrites avec les rectangles source et de destination.
 ms.assetid: ed253280-c246-4e86-91f1-ad1e1132d732
 keywords:
-- Message ICM_DECOMPRESSEX Windows Multimedia
+- message ICM_DECOMPRESSEX Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3d33451547bc598250a97e73682712e157aa13a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033129"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364164"
 ---
-# <a name="icm_decompressex-message"></a>\_Message DECOMPRESSEX ICM
+# <a name="icm_decompressex-message"></a>ICM \_ Message DECOMPRESSEX
 
-Le **message \_ DECOMPRESSEX ICM** indique à un pilote de compression vidéo de décompresser un frame de données directement à l’écran, d’effectuer une décompression vers un DIB inversé ou de décompresser des images décrites dans des rectangles source et de destination.
+le message **ICM \_ DECOMPRESSEX** indique à un pilote de compression vidéo de décompresser un frame de données directement à l’écran, de décompresser un DIB inversé ou de décompresser les images décrites avec les rectangles source et de destination.
 
 
 ```C++
@@ -56,15 +56,15 @@ Taille, en octets, de [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdec
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ce message est similaire à [**la \_ décompression ICM**](icm-decompress.md) , sauf qu’elle utilise la structure [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdecompressex) pour définir ses informations de décompression.
+ce message est similaire à [**ICM \_ décompresser**](icm-decompress.md) , à ceci près qu’il utilise la structure [**ICDECOMPRESSEX**](/windows/desktop/api/Vfw/ns-vfw-icdecompressex) pour définir ses informations de décompression.
 
-Si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le message [**ICM \_ Draw**](icm-draw.md) .
+si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le [**ICM \_ dessiner**](icm-draw.md) le message.
 
-Le pilote retourne une erreur si ce message est reçu avant le message de [**\_ \_ début de DECOMPRESSEX ICM**](icm-decompressex-begin.md) .
+le pilote renvoie une erreur si ce message est reçu avant le message [**ICM \_ DECOMPRESSEX \_ BEGIN**](icm-decompressex-begin.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Commande MCI_RECORD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27033dde148a6f99a1168eea4d6c0a97aea82881638ccb6d6f5535632e897148
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4248b2d4bbdd984ad23a772f0adca04581afca1d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119805509"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368183"
 ---
 # <a name="recording"></a>Enregistrement
 

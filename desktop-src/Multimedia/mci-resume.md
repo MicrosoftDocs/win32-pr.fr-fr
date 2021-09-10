@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4872162e4f4913d7165d9ec69e6cc1164b3be40919facacbfd1a94d569a46c89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd83b6d753cd223235b8b11f2d4b0be4c828ec28
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038339"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363879"
 ---
 # <a name="mci_resume-command"></a>\_Commande de reprise MCI
 
@@ -72,7 +72,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Cette commande reprend la lecture et l’enregistrement sans modifier le jeu de positions de suivi actuel avec [l' \_ enregistrement](mci-record.md) [MCI \_ Play](mci-play.md) ou MCI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

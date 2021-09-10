@@ -4,12 +4,12 @@ description: Noms des appareils
 ms.assetid: 0ba06439-cc33-43e1-a094-09bcc5e2f6b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85183a1b23817352ba9e45e8dbb2aaa70493430cd092f357e1eaa8e9bf179d65
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e516f7f8eed338067dc373f8509f46598e198c71
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119497269"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368151"
 ---
 # <a name="device-names"></a>Noms des appareils
 

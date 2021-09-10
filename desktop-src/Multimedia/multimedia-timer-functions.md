@@ -12,12 +12,12 @@ keywords:
 - Référence de minuterie, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c35825753483b5664e9c328b37c95ff07c2229950868407a98cec7b9ea07a14
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e03546531702c101cca9cab137432951fa00c38d
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038649"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369228"
 ---
 # <a name="multimedia-timer-functions"></a>Fonctions du minuteur multimédia
 

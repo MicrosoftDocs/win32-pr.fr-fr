@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73b93f042193c50a810ac23285224ddd234a23b2070f8db2d56d216fee037c37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 482fd744d7e6e163059330148b6e3f081d435880
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118373214"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363927"
 ---
 # <a name="paste-command"></a>commande Coller
 
@@ -57,7 +57,7 @@ Un ou plusieurs des indicateurs suivants.
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | au niveau du *rectangle*        | Spécifie l’emplacement dans le frame où les données sont collées. L’angle supérieur gauche du *rectangle* correspond au coin supérieur gauche des données ajoutées. Si le rectangle a une taille différente de zéro dans X ou Y, le contenu du presse-papiers est mis à l’échelle dans ces dimensions lorsqu’elles sont collées dans le cadre. En cas d’omission, le *rectangle* a comme valeur par défaut l’ensemble du frame. Si cet indicateur est spécifié en mode « Insert » (valeur par défaut), toute région située à l’extérieur du rectangle est peinte avec une couleur unie.                       |
 | *flux* de flux audio | Spécifie le flux audio dans l’espace de travail affecté par la commande. S’il n’existe qu’un seul flux audio dans le presse-papiers, les données audio sont collées dans le *flux* désigné. Si plusieurs flux audio existent dans le presse-papiers, le *flux* indique le numéro de départ des séquences de flux. Si vous utilisez cet indicateur et que vous souhaitez également coller la vidéo, vous devez également utiliser l’indicateur « flux vidéo ». (Si aucun indicateur n’est spécifié, tous les flux audio et vidéo sont collés et conservent leurs numéros de flux d’origine.) |
-| insert                | Spécifie que les données sont insérées dans l’espace de travail. Toutes les données qui suivent le point d’insertion sont déplacées vers l’avant dans l’espace de travail pour faire de la place. Il s'agit de la valeur par défaut.                                                                                                                                                                                                                                                                                                                                                    |
+| insert                | Spécifie que les données sont insérées dans l’espace de travail. Toutes les données qui suivent le point d’insertion sont déplacées vers l’avant dans l’espace de travail pour faire de la place. Il s’agit de la valeur par défaut.                                                                                                                                                                                                                                                                                                                                                    |
 | overwrite             | Spécifie que les données sont copiées dans l’espace de travail en écrivant sur les données existantes après le point d’insertion. Les indicateurs « Insert » et « overwrite » déterminent si les images sont détruites ou déplacées pendant l’opération de collage, et non la manière dont les données sont collées dans chaque image.                                                                                                                                                                                                                                              |
 | pour *positionner*         | Spécifie la position dans l’espace de travail à laquelle les données sont collées. En cas d’omission, sa valeur par défaut est la position actuelle.                                                                                                                                                                                                                                                                                                                                                                                                    |
 | *flux* de flux vidéo | Spécifie le flux vidéo dans l’espace de travail affecté par la commande. S’il n’existe qu’un seul flux vidéo dans le presse-papiers, les données vidéo sont collées dans le *flux* désigné. Si plusieurs flux vidéo existent dans le presse-papiers, le *flux* indique le numéro de départ des séquences de flux. Si vous utilisez cet indicateur et que vous souhaitez également coller l’audio, vous devez également utiliser l’indicateur « flux audio ». (Si aucun indicateur n’est spécifié, tous les flux audio et vidéo sont collés et conservent leurs numéros de flux d’origine.) |
@@ -83,7 +83,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Aucun signal n’est présent dans les données copiées à partir du presse-papiers. La modification devient permanente uniquement lorsque les données sont enregistrées de manière explicite ; Toutefois, la lecture agit comme si les données avaient été ajoutées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

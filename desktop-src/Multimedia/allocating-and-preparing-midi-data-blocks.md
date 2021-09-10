@@ -16,12 +16,12 @@ keywords:
 - Services MIDI, blocs de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 137556c1344e6f2e8db8557d45a70c5981fa7bab99e7452cc1f756b4a8ee159b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 48b23a72dfd46035a3d23743faa7228e5fe85aaf
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808489"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364384"
 ---
 # <a name="allocating-and-preparing-midi-data-blocks"></a>Allocation et préparation des blocs de données MIDI
 

@@ -11,12 +11,12 @@ keywords:
 - Fonction PlaySound, comparée à la fonction sndPlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1921ec4ef91f6266b48ee80d7f42be4540124c0b5c98dc18438ce0d16c398c2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5723b1937c974e6c622c1f2010e8d2129e787cdd
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118370849"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369324"
 ---
 # <a name="the-playsound-function"></a>La fonction PlaySound
 

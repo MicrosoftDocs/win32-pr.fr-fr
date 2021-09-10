@@ -10,12 +10,12 @@ keywords:
 - chaînes de commande multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 986a1fc9e2a97671b04d8ba8a4a5cd033e176a94f6a8e898b4f899b7a9c707a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ae4ec8f9b0efa783028850a6cd03cbc0bed20caf
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038769"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363988"
 ---
 # <a name="multimedia-command-strings"></a>Chaînes de commande multimédia
 
@@ -33,17 +33,17 @@ Les chaînes de commande suivantes sont utilisées avec le multimédia.
 -   [sortie](escape.md)
 -   [antigel](freeze.md)
 -   [index](./windows-multimedia-start-page.md)
--   [méta](info.md)
+-   [info](info.md)
 -   [list](list.md)
 -   [load](load.md)
 -   [marque](mark.md)
 -   [socle](monitor.md)
 -   [open](open.md)
--   [coller](paste.md)
+-   [Insérer](paste.md)
 -   [pause](pause.md)
 -   [répétition](play.md)
 -   [posé](put.md)
--   [qualitative](quality.md)
+-   [qualité](quality.md)
 -   [optimiser](realize.md)
 -   [enregistrement](record.md)
 -   [reserve](reserve.md)

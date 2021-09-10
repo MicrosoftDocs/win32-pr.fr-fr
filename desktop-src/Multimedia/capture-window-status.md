@@ -8,12 +8,12 @@ keywords:
 - CAPSTATUS, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 367d35c3869adb6f4e960fa472e0cd6a22483c37fa981e886b3a78f0b7410029
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e6019009c8510abe3429c1043527156c55f0c4f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118375285"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368804"
 ---
 # <a name="capture-window-status"></a>État de la fenêtre de capture
 

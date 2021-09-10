@@ -12,12 +12,12 @@ keywords:
 - référence pour les mixages audio, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 731932f5f84f21e17c6d0939a9bdd7c9bdc8f72729d3994d15eb5ab2e208c8b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2bc692aa00692376ce228a659e9c8f8d3a6e39a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808338"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368655"
 ---
 # <a name="audio-mixer-structures"></a>Structures de Mixer Audio
 

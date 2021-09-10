@@ -21,12 +21,12 @@ keywords:
 - Services MIDI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1ce20164c42342c52defd27e7f3ccdfb0a44ec9a4e0a6679c1b190270fc62e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43c476807f750f9e90788377588f6c9af96561aa
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526689"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364355"
 ---
 # <a name="about-midi"></a>À propos de MIDI
 

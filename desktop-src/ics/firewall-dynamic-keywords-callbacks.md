@@ -6,12 +6,12 @@ keywords:
 ms.topic: article
 ms.date: 05/17/2021
 ms.localizationpriority: low
-ms.openlocfilehash: fbb4b92f4a1ac9f7cedcd5b9bcb47792977fb757ee8e3715af8474c757e51a3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6707ecebdd09359fc6b692a0ebf3d95a645676af
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118759172"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "124361261"
 ---
 # <a name="firewall-dynamic-keywords-callbacks"></a>Rappels de mots clés dynamiques de pare-feu
 

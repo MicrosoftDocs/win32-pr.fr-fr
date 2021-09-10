@@ -4,12 +4,12 @@ ms.assetid: 266d5c8e-1bcd-48e5-bc06-2fbc956d8658
 title: Sécurité de la clé de Registre et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0797eeff4923574007c2e1d7751121767c894f91a42316ff5d581ee2d18b6d51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73c80f21d296a88425024745d7442847a187cd43
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885202"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368527"
 ---
 # <a name="registry-key-security-and-access-rights"></a>Sécurité de la clé de Registre et droits d’accès
 

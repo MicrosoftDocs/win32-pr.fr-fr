@@ -13,12 +13,12 @@ keywords:
 - envoi de messages MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ab8fd8d09295cc40a3ea9b5d8070603a4e7813030b4f04f92a51f7f8709f5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9dbe2a2854abf9dd1ba67a93954c0823ac387b86
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892729"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364499"
 ---
 # <a name="sending-midi-messages-with-stream-buffers"></a>Envoi de messages MIDI avec des mémoires tampons de flux
 

@@ -8,12 +8,12 @@ keywords:
 - enregistrement de l’audio MIDI, état d’exécution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f4d782e1e25c718ddd177d1d9baf471d0715d70680b65920052e85d6fffc551
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0a4d12a19f525a6fa673747063774bf4507d65b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118371344"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364439"
 ---
 # <a name="receiving-running-status-messages"></a>Réception des messages de Running-Status
 

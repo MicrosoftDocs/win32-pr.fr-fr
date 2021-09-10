@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre CLSID COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd390fc6a1ccb15e128245c3b6a80e2b4ca57f41de9e9c21e93ebe4c708783d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa9253446a039e47996366c7dfdb51c01f9b1993
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119854979"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363424"
 ---
 # <a name="clsid-key"></a>Clé CLSID
 
@@ -29,7 +29,7 @@ Un CLSID est un identificateur global unique qui identifie un objet de classe CO
 | [**AutoConvertTo**](autoconvertto.md)                       | Spécifie la conversion automatique d’une classe d’objets donnée en une nouvelle classe d’objets.                                                |
 | [**Traitement autotraité**](autotreatas.md)                           | Définit automatiquement le CLSID de la clé [**TreatAs**](treatas.md) sur la valeur spécifiée.                                              |
 | [**AuxUserType**](auxusertype.md)                           | Spécifie le nom complet et les noms d’application de l’application.                                                                     |
-| [**Contrôler**](control.md)                                   | identifie un objet en tant que contrôle ActiveX.                                                                                              |
+| [**Control**](control.md)                                   | identifie un objet en tant que contrôle ActiveX.                                                                                              |
 | [**Conversion**](conversion.md)                             | Utilisé par la boîte de dialogue **convertir** pour déterminer les formats qu’une application peut lire et écrire.                                           |
 | [**DataFormats**](dataformats.md)                           | Spécifie les formats de données par défaut et principaux pris en charge par une application.                                                                 |
 | [**DefaultIcon**](defaulticon.md)                           | Fournit des informations sur l’icône par défaut pour les présentations sous forme d’objets.                                                                   |
@@ -45,7 +45,7 @@ Un CLSID est un identificateur global unique qui identifie un objet de classe CO
 | [**ProgID**](progid.md)                                     | Associe un ProgID à un CLSID.                                                                                                        |
 | [**ToolBoxBitmap32**](toolboxbitmap32.md)                   | Identifie le nom de module et l’ID de ressource pour une image bitmap de 16 x 16 à utiliser pour la face d’un bouton de barre d’outils ou de boîte à outils.                      |
 | [**TreatAs**](treatas.md)                                   | Spécifie le CLSID d’une classe qui peut émuler la classe actuelle.                                                                       |
-| [**DoVerb**](verb.md)                                         | Spécifie les verbes à inscrire pour une application.                                                                                 |
+| [**Verbe**](verb.md)                                         | Spécifie les verbes à inscrire pour une application.                                                                                 |
 | [**Version**](version.md)                                   | Spécifie le numéro de version du contrôle.                                                                                             |
 | [**VersionIndependentProgID**](versionindependentprogid.md) | Associe un ProgID à un CLSID. Cette valeur est utilisée pour déterminer la version la plus récente d’une application d’objet.                           |
 

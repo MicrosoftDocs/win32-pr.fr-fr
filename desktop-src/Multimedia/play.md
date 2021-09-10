@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da0df530f1c7a0166dcbb7c852fe491127a9e187d1cb6cb953ec46b2533ac00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dbf262db152677ef5a2f29de9526152c1d48d4c9
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363688"
 ---
 # <a name="play-command"></a>commande Play
 
@@ -113,7 +113,7 @@ La commande suivante lit l’appareil « mySound » de la position 1000 à la 
 play mysound from 1000 to 2000 notify
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

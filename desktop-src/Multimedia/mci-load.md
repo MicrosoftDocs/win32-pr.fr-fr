@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e318e79bf24e51fec69f97a0dcb56395cb1a8917a31105deae062a865169b778
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb00ebe9dc9107c4673fc323fcb7719a89beffd4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138537"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363831"
 ---
 # <a name="mci_load-command"></a>\_Commande de chargement MCI
 
@@ -94,7 +94,7 @@ Le membre **RC** de la structure identifiée par *lpLoad* contient un rectangle 
 
 Pour les périphériques de superposition vidéo, le paramètre *lpLoad* pointe vers une structure de paramètres de [**\_ \_ charge \_ MCI OVLY**](mci-ovly-load-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 805befc3f83c79b157e040004dcf382dccaf07b240b3b846892b8fb035f826ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58ef6590770e8a9ece3eb8abaffb4dbca0b1a4d4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118135155"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367943"
 ---
 # <a name="wm_cap_get_status-message"></a>Message d’état de l' \_ \_ extraction WM \_
 
@@ -60,7 +60,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de c
 
 La structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) contient l’état actuel de la fenêtre de capture. Étant donné que cet État est dynamique et change en réponse à différents messages, l’application doit initialiser cette structure après avoir envoyé le message [**WM \_ Cap \_ DLG \_ VIDEOFORMAT**](wm-cap-dlg-videoformat.md) (ou à l’aide de la macro [**capDlgVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat) ) et chaque fois qu’il doit activer les éléments de menu ou déterminer l’état réel de la fenêtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

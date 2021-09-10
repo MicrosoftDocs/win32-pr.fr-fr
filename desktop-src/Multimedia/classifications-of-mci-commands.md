@@ -6,12 +6,12 @@ keywords:
 - Commandes MCI, classifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b532c56d1cdecac50cb24b14bf4f1b51c401dd5bb2501d1c421064659f1ef2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1524e6aa2094679e91acddb9dbfbb8cb480eb39f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807928"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363679"
 ---
 # <a name="classifications-of-mci-commands"></a>Classifications des commandes MCI
 
@@ -49,8 +49,8 @@ Tous les périphériques MCI prennent en charge les commandes requises suivantes
 |----------------------------------|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | [**Faculté**](capability.md) | [**\_GETDEVCAPS MCI**](mci-getdevcaps.md) | Obtient les fonctionnalités d’un appareil.                                                                                     |
 | [**plus**](close.md)           | [**\_fermeture MCI**](mci-close.md)           | Ferme l’appareil.                                                                                                        |
-| [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             | Obtient des informations textuelles à partir d’un appareil.                                                                                |
-| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             | Initialise l’appareil.                                                                                                   |
+| [**info**](info.md)             | [**\_infos MCI**](mci-info.md)             | Obtient des informations textuelles à partir d’un appareil.                                                                                |
+| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             | Initialise l’appareil.                                                                                                   |
 | [**status**](status.md)         | [**\_État MCI**](mci-status.md)         | Obtient des informations d’État à partir de l’appareil. Certains indicateurs de cette commande ne sont pas requis. il s’agit également d’une commande de base. |
 
 
@@ -105,7 +105,7 @@ Les commandes étendues suivantes sont disponibles avec les types d’appareils 
 | [**optimiser**](realize.md)     | [**MCI- \_ réalise**](mci-realize.md)     | digitalvideo            | Indique à l’appareil de sélectionner et de réaliser sa palette dans un contexte de périphérique de la fenêtre affichée. |
 | [**setaudio**](setaudio.md)   | [**\_SETAUDIO MCI**](mci-setaudio.md)  | digitalvideo            | Définit les paramètres audio de la vidéo.                                                                  |
 | [**setvideo**](setvideo.md)   | [**\_SETVIDEO MCI**](mci-setvideo.md)  | digitalvideo            | Définit les paramètres vidéo.                                                                            |
-| [**signal**](signal.md)       | [**\_signal MCI**](mci-signal.md)       | digitalvideo            | Identifie une position spécifiée avec un signal.                                                    |
+| [**témoin**](signal.md)       | [**\_signal MCI**](mci-signal.md)       | digitalvideo            | Identifie une position spécifiée avec un signal.                                                    |
 | [**toupie**](spin.md)           | [**\_spin MCI**](mci-spin.md)           | videodisc               | Démarre le disque en rotation ou arrête la rotation du disque.                                         |
 | [**première**](step.md)           | [**\_étape MCI**](mci-step.md)           | digitalvideo, videodisc | Exécute un ou plusieurs frames vers l’avant ou vers l’arrière.                                             |
 | [**libérer**](unfreeze.md)   | [**MCI- \_ libérer**](mci-unfreeze.md)   | superposition                 | Permet à la mémoire tampon de trame d’acquérir des données vidéo.                                                   |

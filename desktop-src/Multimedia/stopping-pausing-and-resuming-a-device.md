@@ -8,12 +8,12 @@ keywords:
 - Commande MCI_RESUME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5485365a6c846556a1037f55a0b211755ce0f93162bc6720c7241353fc8625b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1ddcd9618608226dec108d62754964fe6401d429
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037099"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368263"
 ---
 # <a name="stopping-pausing-and-resuming-a-device"></a>Arrêt, suspension et reprise d’un appareil
 

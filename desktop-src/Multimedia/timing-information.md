@@ -15,12 +15,12 @@ keywords:
 - ticks
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a75be9964457c64c7c1da59cb93aab2e423f72e861ba496494a5007025461c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f2daf5b1847456e8fb518665521e484118fead79
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119804739"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364527"
 ---
 # <a name="timing-information"></a>Informations de minutage
 

@@ -15,12 +15,12 @@ keywords:
 - fin de l’exclusivité (EOX)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c0073d9fc016e21e401e4cb2e7c28b4fd1aa5e3180801975df4e334243b953
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 15778fc8a1a48c34b69915aafb7e3139153b5882
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689259"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364495"
 ---
 # <a name="resetting-midi-output"></a>Réinitialisation de la sortie MIDI
 

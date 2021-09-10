@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ada80894f9260d0c37323d645694e10b0bcef92e52ebd670764bb9a0c436f837
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8c1b9f81712c842e06085c323ca2110c8e06784
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784579"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363816"
 ---
 # <a name="mci_delete-command"></a>\_Commande de suppression MCI
 
@@ -131,7 +131,7 @@ Un emplacement de fin est inclus dans le membre **dwTo** de la structure identif
 
 Pour les périphériques audio Waveform, le paramètre *lpDelete* pointe vers une structure [**MCI \_ Wave \_ supprimer \_ PARMS**](mci-wave-delete-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

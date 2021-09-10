@@ -24,12 +24,12 @@ keywords:
 - pilotes de décompresseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacb3d94feee3da290bf9c1cc90cab92f2aade083effd8a01cb17906c22e0f4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14b861d381dfc28307c090dbb71b93db8e58e90a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118140995"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368988"
 ---
 # <a name="how-the-audio-compression-manager-works"></a>Fonctionnement du gestionnaire de compression audio
 

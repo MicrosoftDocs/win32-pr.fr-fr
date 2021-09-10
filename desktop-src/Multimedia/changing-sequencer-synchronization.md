@@ -6,12 +6,12 @@ keywords:
 - MCI_SET message de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f7f31544b7b9ceb00109551718b9984dd2aa506557848e0d63e77724c4be32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bffdc1606624f63fa05a9cc03c68fe64781620f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526419"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368276"
 ---
 # <a name="changing-sequencer-synchronization"></a>Modification de la synchronisation de Sequencer
 

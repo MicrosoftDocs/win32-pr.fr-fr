@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9b9a24614a40c5efb545b91a80069bf915c77c4b7d8fb289ed581f750ac0cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1134255b73e579841800af6cd5f6900965217106
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118135081"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368031"
 ---
 # <a name="wm_cap_set_previewrate-message"></a>\_Message PREVIEWRATE de l’ensemble de connexions WM \_ \_
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de c
 
 Le mode aperçu utilise des ressources processeur importantes. Les applications peuvent désactiver l’aperçu ou réduire le taux d’aperçu lorsqu’une autre application a le focus. Pendant la capture vidéo en continu, la tâche d’aperçu est moins prioritaire que l’écriture d’images sur le disque, et les images d’aperçu ne sont affichées que si aucune autre mémoire tampon n’est disponible pour l’écriture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

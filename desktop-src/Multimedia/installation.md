@@ -12,12 +12,12 @@ keywords:
 - installation des pilotes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a01ef47952f3d5a62c0dce246bf24689d37f11326f0f3ec251f7afc19c822fa9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29f82a23a781e62553d6488331b2c832104fd770
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118140677"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369068"
 ---
 # <a name="installation-windows-multimedia"></a>Installation (Windows multimédia)
 

@@ -4,12 +4,12 @@ description: Le stub, comme le proxy, est constitué d’un ou plusieurs éléme
 ms.assetid: ed7d5546-2d19-4055-b078-62b39d0317b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f182cd2d47eec18f129d53d57c283d54862660a126d2d9e171989695418b3a8e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 109936ae16827dce7779b080902dbca74a8dfc51
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678423"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363660"
 ---
 # <a name="stub"></a>Talon
 

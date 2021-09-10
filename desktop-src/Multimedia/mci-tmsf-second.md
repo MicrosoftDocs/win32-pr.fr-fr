@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92dc8f7771df35e9ddc712d263e805ba1e844ca42cde607d7204dc6dc7b350d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 722949487400f80ed72f9e120d5dbf8678ab81a3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784198"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363976"
 ---
 # <a name="mci_tmsf_second-macro"></a>TMSF de la \_ \_ deuxième macro MCI
 
@@ -64,7 +64,7 @@ La macro **MCI \_ TMSF \_ second** est définie comme suit :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

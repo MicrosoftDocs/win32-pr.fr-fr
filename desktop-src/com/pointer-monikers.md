@@ -4,12 +4,12 @@ description: Un moniker de pointeur identifie un objet qui ne peut exister qu’
 ms.assetid: 9895f03d-7110-41c1-a934-87010f9ad380
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcdf96497751b3f777c292c56d35b2c04432da84b352e20c4dd8b0917dedb16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aebebfce908571b69a5b8ce05f589a4ca4b30977
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047897"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363368"
 ---
 # <a name="pointer-monikers"></a>Monikers de pointeur
 

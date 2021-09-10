@@ -4,12 +4,12 @@ description: La sécurité de l’appel détermine si un client a l’autorisati
 ms.assetid: 7ce162d0-20e0-4385-ad9f-472f2c17b060
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6d8d8f4a48baed00655761e89a12f0aa84846a0a2defdc0b2e444b2bee9103f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a838a9c7936c126a1fedeeafc977f55641b63c5b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118550563"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363612"
 ---
 # <a name="turning-off-call-security"></a>Désactivation de la sécurité de l’appel
 

@@ -1,9 +1,9 @@
 ---
 title: Message MIM_LONGERROR (mmsystem. h)
-description: Le \_ message MIM LONGERROR est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un message système exclusif midi non valide ou incomplet est reçu.
+description: le \_ message MIM LONGERROR est envoyé à une fonction de rappel d’entrée midi lorsqu’un message système exclusif midi non valide ou incomplet est reçu.
 ms.assetid: 7e3b0716-33c4-449c-a200-e5ba72428dc1
 keywords:
-- Message MIM_LONGERROR Windows Multimedia
+- message MIM_LONGERROR Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 631c4fdcd31eef01d691aea80100427d116ae7d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464503"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364416"
 ---
-# <a name="mim_longerror-message"></a>\_Message MIM LONGERROR
+# <a name="mim_longerror-message"></a>MIM \_ Message LONGERROR
 
-Le message **MIM \_ LONGERROR** est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un message système exclusif midi non valide ou incomplet est reçu.
+le message **MIM \_ LONGERROR** est envoyé à une fonction de rappel d’entrée midi lorsqu’un message système exclusif midi non valide ou incomplet est reçu.
 
 
 ```C++
@@ -56,11 +56,11 @@ Heure à laquelle les données ont été reçues par le pilote de périphérique
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon retournée n’est peut-être pas pleine. Pour déterminer le nombre d’octets enregistrés dans la mémoire tampon retournée, utilisez le membre **dwBytesRecorded** de la structure [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) spécifiée par *lpMidiHdr*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -68,7 +68,7 @@ La mémoire tampon retournée n’est peut-être pas pleine. Pour déterminer le
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bff21682f08dfdcda120f5efb5f7f8629a9e93e21faaf27ff4ee9ee59da8c762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e64f2796ca1c2de10222330217a0e1deb7883baa
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038699"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364223"
 ---
 # <a name="icm_getdefaultkeyframerate-message"></a>ICM \_ Message GETDEFAULTKEYFRAMERATE
 
@@ -49,7 +49,7 @@ Adresse qui doit contenir l’espacement de l’image clé préféré.
 
 Retourne ICERR \_ OK si le pilote prend en charge ce message ou ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

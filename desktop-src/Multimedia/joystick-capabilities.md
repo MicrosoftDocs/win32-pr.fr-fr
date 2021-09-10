@@ -11,12 +11,12 @@ keywords:
 - joysticks, fréquences d’interrogation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 311109468485a8174d9567516e747ef786019cc105c378ee91b55fa2f123c5cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b317d5a0c8deb48b49224fd051ecb7ce5a0bbced
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118140447"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369060"
 ---
 # <a name="joystick-capabilities"></a>Fonctionnalités de la manette de jeu
 

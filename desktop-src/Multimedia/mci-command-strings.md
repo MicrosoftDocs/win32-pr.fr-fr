@@ -7,12 +7,12 @@ keywords:
 - Informations de référence sur MCI, chaînes de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc2934f8770c7a68db7f1706705424d554bbd5f4840a7e19b0c57b695a9bad90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7298a1ad4d571446532f7198e5bd41ae988194e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784609"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363680"
 ---
 # <a name="mci-command-strings"></a>Chaînes de commande MCI
 
@@ -23,24 +23,24 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**attire**](capture.md)
 -   [**plus**](close.md)
 -   [**configurer**](configure.md)
--   [**reprographie**](copy.md)
+-   [**copy**](copy.md)
 -   [**signal**](cue.md)
 -   [**réduis**](cut.md)
 -   [**supprimer**](delete.md)
 -   [sortie](escape.md)
 -   [**antigel**](freeze.md)
 -   [**évaluer**](./windows-multimedia-start-page.md)
--   [**méta**](info.md)
+-   [**info**](info.md)
 -   [**tarifs**](list.md)
 -   [**chargera**](load.md)
 -   [**marque**](mark.md)
 -   [**socle**](monitor.md)
--   [**ouvert**](open.md)
--   [**coller**](paste.md)
+-   [**afficher**](open.md)
+-   [**Insérer**](paste.md)
 -   [**suspen**](pause.md)
 -   [**répétition**](play.md)
 -   [**posé**](put.md)
--   [**qualitative**](quality.md)
+-   [**qualité**](quality.md)
 -   [**optimiser**](realize.md)
 -   [**enregistrement**](record.md)
 -   [**reserve**](reserve.md)
@@ -53,7 +53,7 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**settimecode**](settimecode.md)
 -   [**settuner**](settuner.md)
 -   [**setvideo**](setvideo.md)
--   [**signal**](signal.md)
+-   [**témoin**](signal.md)
 -   [**toupie**](spin.md)
 -   [**status**](status.md)
 -   [**première**](step.md)

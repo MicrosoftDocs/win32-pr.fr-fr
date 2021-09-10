@@ -4,12 +4,12 @@ description: Types d’appareils
 ms.assetid: 6556fa6a-5906-4afb-ab7d-ef41a0e22d13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 167eedddfc61960de35e979480c44b8f2efab5bf89738047446196b81a95a5b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e27ed77debb663a1d90e03512832ca83e6e276d3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119497159"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368156"
 ---
 # <a name="device-types"></a>Types d’appareils
 
@@ -19,7 +19,7 @@ Le tableau suivant répertorie les types de périphériques définis. L’implé
 
 
 
-| Type d'appareil      | Constante                      | Description                                      |
+| Type d’appareil      | Constante                      | Description                                      |
 |------------------|-------------------------------|--------------------------------------------------|
 | **cdaudio**      | \_ \_ CD audio MCI \_ devtype       | Lecteur audio CD                                  |
 | **anciens**          | \_dat devtype \_ MCI             | Lecteur de bandes audio numérique                        |

@@ -3,7 +3,7 @@ title: Macro MCI_MAKE_HMS (Mciapi. h)
 description: La \_ macro MCI make \_ HMS crée une valeur d’heure sous forme d’heures/minutes/secondes (HMS) à partir des valeurs d’heures, de minutes et de secondes fournies.
 ms.assetid: 470e89eb-36e1-4b05-babd-4c986adc88dd
 keywords:
-- MCI_MAKE_HMS macro multimédia Windows
+- MCI_MAKE_HMS macro Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f37c95df89ed6a799575e964ae274e01e329ef1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743141"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363963"
 ---
 # <a name="mci_make_hms-macro"></a>MCI \_ Make \_ HMS macro
 
@@ -67,7 +67,7 @@ Nombre de secondes.
 
 Retourne l’heure au format compressé HMS.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure au format HMS est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les heures, le prochain octet le moins significatif contenant les minutes et le prochain octet le moins significatif contenant les secondes. L’octet le plus significatif n’est pas utilisé.
 
@@ -82,7 +82,7 @@ La macro **MCI \_ Make \_ HMS** est définie comme suit :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

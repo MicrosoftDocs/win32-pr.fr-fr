@@ -10,12 +10,12 @@ keywords:
 - structures multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f3a67105f7b413758fbcd83ba6319cfdc01d2cab96da93efe51c1ed08aeb61d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f31a95d2004443e25a60eb6c22010d20495ef0bc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806749"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368071"
 ---
 # <a name="multimedia-structures"></a>Structures multimédias
 

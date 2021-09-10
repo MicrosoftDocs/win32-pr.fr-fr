@@ -6,12 +6,12 @@ keywords:
 - AVIFileGetStream fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 634d1e21bc324c85636bd607e14669d3577b2b4b0b3296881af62baefb0b0db3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ca06378862ec543e9da8f671eca50841c85d744
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038299"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363708"
 ---
 # <a name="opening-streams-in-an-avi-file-and-closing-the-file"></a>ouverture de Flux dans un fichier AVI et fermeture du fichier
 

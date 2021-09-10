@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62c2aef6915d1e3cc325d5b9f8e1c7fe176a878c2d84080b5f8a77eaf034afc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3ab04ba5cf0a2b507370a4b777c19fd60a05c30
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119783864"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363960"
 ---
 # <a name="mci_vd_play_parms-structure"></a>\_Structure des \_ PARMS de lecture MCI VD \_
 
@@ -77,7 +77,7 @@ Lorsque vous assignez des données aux membres de cette structure, définissez l
 
 Vous pouvez utiliser la structure des [**\_ \_ parms de lecture MCI**](mci-play-parms.md) à la place des **\_ \_ \_ parms de lecture MCI** , si vous n’utilisez pas les membres de données étendus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

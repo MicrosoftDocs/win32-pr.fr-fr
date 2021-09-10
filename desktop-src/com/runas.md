@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b3139d12864eb92cc153b919dc4b9b9a4059379d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509682"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363568"
 ---
 # <a name="runas"></a>RunAs
 
@@ -21,18 +21,18 @@ Configure une classe pour qu’elle s’exécute sous un compte d’utilisateur 
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      RunAs = value
+   {AppID_GUID}
+      RunAs = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur spécifie le nom d’utilisateur et doit être au format *nom d'* utilisateur, *domaine ***\\*** nom* d’utilisateur ou de la chaîne « utilisateur interactif ». Vous pouvez également spécifier les chaînes « NT Authority \\ LocalService » (pour le service local) et « NT Authority \\ NetworkService » (pour service réseau). Vous pouvez également spécifier la chaîne « NT Authority \\ System » lorsque {*AppID \_ GUID*} fait référence à un serveur com déjà démarré ou à une entrée dans la table de classe. Toutefois, vous ne pouvez pas utiliser « NT Authority \\ System » avec un serveur com qui n’est pas déjà démarré. Le mot de passe par défaut pour « NT Authority \\ LocalService », « NT Authority \\ NetworkService » et « NT Authority \\ System » est «» (chaîne vide).
+La valeur spécifie le nom d’utilisateur et doit être de la forme *NomUtilisateur*, *domaine * nom d’utilisateur **\\**  ou de la chaîne « utilisateur interactif ». Vous pouvez également spécifier les chaînes « NT Authority \\ LocalService » (pour le service local) et « NT Authority \\ NetworkService » (pour service réseau). Vous pouvez également spécifier la chaîne « NT Authority \\ System » lorsque {* AppID \_ GUID *} fait référence à un serveur com déjà démarré ou à une entrée dans la table de classe. Toutefois, vous ne pouvez pas utiliser « NT Authority \\ System » avec un serveur com qui n’est pas déjà démarré. Le mot de passe par défaut pour « NT Authority \\ LocalService », « NT Authority \\ NetworkService » et « NT Authority \\ System » est «» (chaîne vide).
 
 > [!Note]  
-> À compter de Windows Vista, un mot de passe vide n’est plus requis pour configurer les paramètres « autorité NT \\ LocalService », « autorité NT \\ NetworkService » et « système d’autorité NT \\ ». 
+> à partir de Windows Vista, un mot de passe vide n’est plus nécessaire pour configurer les paramètres « autorite authority \\ localservice », « nt authority \\ networkservice » et « nt authority \\ system ». 
 
- 
+ 
 
 Les classes configurées pour s’exécuter en tant qu’utilisateur particulier ne peuvent pas être inscrites sous une autre identité, donc les appels à [**CoRegisterClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject) avec ce CLSID échouent, sauf si le processus a été lancé par com pour le compte d’une demande d’activation réelle.
 
@@ -47,9 +47,9 @@ Pour les identités **runas** utilisées par les serveurs DCOM, le compte d’ut
 La valeur **runas** n’est pas utilisée pour les serveurs configurés pour être exécutés en tant que services. Les services COM qui doivent s’exécuter sous une identité autre que LocalSystem doivent définir le nom d’utilisateur et le mot de passe appropriés à l’aide de l’applet du panneau de configuration des services ou des fonctions du contrôleur de service. (Pour plus d’informations sur ces fonctions, consultez [services](/windows/desktop/Services/services).)
 
 > [!Note]  
-> À compter de Microsoft Windows Server 2003, la classe AppID est lue explicitement à partir de **HKEY \_ local \_ machine \\ Software \\ classes \\ AppID**, qui, contrairement à la plupart des clés de Registre, n’est pas interchangeable avec l' **\_ \_ \\ AppID racine des classes HKEY**.
+> à compter de Microsoft Windows Server 2003, la classe appid est lue explicitement à partir de **hkey \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Classes \\ appid**, qui, contrairement à la plupart des clés de registre, n’est pas interchangeable avec l' **\_ \_ \\ appid racine des classes hkey**.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,6 +58,6 @@ La valeur **runas** n’est pas utilisée pour les serveurs configurés pour êt
 [Inscription des serveurs COM](registering-com-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

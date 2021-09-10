@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70e5786ef67fe66c7ad0dac463824dcd49bfb34e4c8239ddca74ed60e3861bea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fda38bbc79461b7c5ccaf9b3a32c2c3a0f9e3e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118369517"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368015"
 ---
 # <a name="wm_cap_set_callback_capcontrol-message"></a>\_ \_ \_ Message CAPCONTROL de rappel Set callback \_ de WM
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite ou **false** si une capture de s
 
 Une fonction de rappel unique est utilisée pour permettre à l’application de contrôler précisément le moment où la capture de la diffusion en continu commence et se termine. La fenêtre de capture appelle d’abord la procédure avec *nState* défini sur le \_ préroll CONTROLCALLBACK une fois que toutes les mémoires tampons ont été allouées et que toutes les autres préparations de capture sont terminées. Cela donne à l’application la possibilité de Prérouler des sources vidéo, en retournant à partir de la fonction de rappel à l’enregistrement exact du moment. La valeur de retour **true** de la fonction de rappel continue la capture et la valeur de retour **false** abandonne la capture. Une fois la capture commencée, cette fonction de rappel est appelée fréquemment avec *nState* défini sur la \_ capture CONTROLCALLBACK pour permettre à l’application de terminer la capture en renvoyant **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

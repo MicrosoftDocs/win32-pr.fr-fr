@@ -14,12 +14,12 @@ keywords:
 - sélection de formats restreints
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994fffa7ef13f6febe41eb766b4ecaef7eb735f11f58d36f37adfccbb152bffa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 800945f4003c0fbe47d7916e0a1bf707745ff6d8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117802039"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364068"
 ---
 # <a name="producing-a-dialog-box-for-selecting-restricted-formats"></a>Génération d’une boîte de dialogue pour la sélection de formats restreints
 

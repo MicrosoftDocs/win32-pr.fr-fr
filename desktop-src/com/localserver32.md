@@ -6,12 +6,12 @@ keywords:
 - Clé de registre LocalServer32 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 105cb352ffa3833c59e5ee8d042689e82e77b29dbcea7e49608d0047876bdd37
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4fd068f51f33b6c283384198c0206bc9c3b6357f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859399"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363327"
 ---
 # <a name="localserver32"></a>LocalServer32
 

@@ -9,12 +9,12 @@ keywords:
 - Données audio PCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3831d9760580f294573a4bc1bec3aef1d42cf345b2d714a897b22940a89a0c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1534cf660c2f2423dc526c3d29f8eca06878fc0c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136053"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367767"
 ---
 # <a name="using-the-waveformatex-structure"></a>Utilisation de la structure WAVEFORMATEX
 

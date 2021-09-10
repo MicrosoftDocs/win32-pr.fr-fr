@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre MachineAccessRestriction COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce78aa749618b93dfe8cbe62fad5ec0e51504f4bad0067b17628ac0226c24b2e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a9d99e747b8a38dbb41cb8a6a8adc0935d3f9fa8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896189"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363384"
 ---
 # <a name="machineaccessrestriction"></a>MachineAccessRestriction
 

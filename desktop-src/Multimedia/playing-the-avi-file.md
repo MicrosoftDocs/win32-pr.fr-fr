@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9e0c490a61bbd53dd62a8223a3ded1aa047ce071d1d2544a2b26d1a9152450b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31754bd5f66b455abc76d363c5ff3e5e286e8040
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038014"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368319"
 ---
 # <a name="playing-the-avi-file"></a>Lit le fichier AVI
 

@@ -8,12 +8,12 @@ keywords:
 - ICCompress fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf638467e3685b24a65cd47492faed6660e77e5c49864a339a3874eb81e9b5af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b8f59a163a9b5a74d2d2fe984417069985fa86a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038679"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369007"
 ---
 # <a name="image-data-compression"></a>Compression Image-Data
 

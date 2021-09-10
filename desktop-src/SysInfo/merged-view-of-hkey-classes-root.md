@@ -4,12 +4,12 @@ ms.assetid: 3815d487-2d58-4ba8-85d2-cae6a642a791
 title: Vue fusionnée de HKEY_CLASSES_ROOT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52b48be32ec524cdac42808d7f4efddfc78854b56133e647d6f5a9b06ae88bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8597db976922db9ca348488b0092c41ba7c7489
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885417"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368516"
 ---
 # <a name="merged-view-of-hkey_classes_root"></a>Vue fusionnée de la \_ racine de la classe HKEY \_
 

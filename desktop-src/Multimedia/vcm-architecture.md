@@ -7,12 +7,12 @@ keywords:
 - VFW (vidéo pour Windows), architecture VCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7676fe7786b8674ddca957a75c33336294b65a9df18d53fe4b9c7f493092b66f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89b672c86053086f63127aae586517fac4906326
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118135597"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369356"
 ---
 # <a name="vcm-architecture"></a>Architecture VCM
 

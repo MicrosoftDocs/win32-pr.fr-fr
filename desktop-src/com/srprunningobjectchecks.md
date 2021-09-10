@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre SRPRunningObjectChecks COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c416b5f430540282873e37c5e74ef2cccc1c564f4a5b27842ba2a49e99cc8769
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ad307856bcfdd30cfaa6c731551ac6570d2bec6
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129791"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363500"
 ---
 # <a name="srprunningobjectchecks"></a>SRPRunningObjectChecks
 

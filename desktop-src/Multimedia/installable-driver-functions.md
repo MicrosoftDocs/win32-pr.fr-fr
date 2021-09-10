@@ -3,7 +3,7 @@ title: Fonctions du pilote installables
 description: Fonctions du pilote installables
 ms.assetid: f3acbfa0-66d4-452b-b1df-ef6b46d1eb39
 keywords:
-- Windows Multimedia, fonctions pilotes installables
+- Windows les fonctions de pilote multimédia et installables
 - fonctions de pilote multimédia et installables
 - pilotes installables, fonctions
 - informations de référence sur les pilotes installables, fonctions
@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fb74d3f3fee362e63a11a745df68256fdf618f87
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940861"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124369036"
 ---
 # <a name="installable-driver-functions"></a>Fonctions du pilote installables
 
@@ -34,6 +34,6 @@ Les fonctions de cette section peuvent être utilisées dans une application pou
 [Informations de référence sur les pilotes installables](installable-driver-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: dace2f65-df60-419a-8be8-ab60668e6396
 title: Virtualisation du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f14d8a82a12be74d3c5f2963e8b4edf47baaa85c4a8299e4ff632284bbac83fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 642bda46b43fc0b4f7efa60cfcd9e2178643811f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117763586"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368540"
 ---
 # <a name="registry-virtualization"></a>Virtualisation du Registre
 

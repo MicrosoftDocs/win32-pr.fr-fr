@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e58333b108891a8bcd0e0548d4dcd0db2f2606d1259f0934f19b8f6804afab3b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 423186096c88a8f1ff74987ff57c6b49dc6c3131
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689679"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363951"
 ---
 # <a name="mci_update-command"></a>\_Commande de mise à jour MCI
 
@@ -97,7 +97,7 @@ Une application utilise cet indicateur lorsqu’elle reçoit un message de [**\_
 
 Pour les périphériques vidéo numériques, le paramètre *lpDest* pointe vers une structure de [**\_ \_ mise \_ à jour MCI DGV**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_update_parms) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

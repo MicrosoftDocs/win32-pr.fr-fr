@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0f59f56a6d542120d088d764d1b301329a7f0b167f25952587a9e743878643e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 570968af05424597a7fe2b59e86e0364694e0e1f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138750"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363751"
 ---
 # <a name="mark-command"></a>commande Mark
 
@@ -79,7 +79,7 @@ Retourne zéro en cas de réussite ou une erreur.
 
 Les marques sont des signaux spéciaux écrits dans le contenu qui peuvent être détectés par le magnétoscope lors de recherches à grande vitesse. Les marques sont spécifiques au magnétoscope.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

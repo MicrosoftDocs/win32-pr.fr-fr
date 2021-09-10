@@ -4,12 +4,12 @@ description: la sécurité dans COM est fermement basée sur la sécurité fourn
 ms.assetid: c9f6d06c-da24-48ea-908a-2462c33f7ee3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b197a632494545e5a151110ca17f1cf1ae1df7577a897284d1e5d437b74093f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e5e462317d85f7c445d4d8a5ae0aa4d9d3ee724
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117918120"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363379"
 ---
 # <a name="security-in-com"></a>Sécurité dans COM
 

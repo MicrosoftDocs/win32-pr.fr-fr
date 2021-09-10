@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre DefaultIcon COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 680994bdd4d4cd6ec6a3d192ca737af27f9190f6179571b3c8aaca5d86b55c5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0079fb02f4429c1939f54d643e0a6b08fbc90eb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501259"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363436"
 ---
 # <a name="defaulticon"></a>DefaultIcon
 

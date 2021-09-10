@@ -4,12 +4,12 @@ ms.assetid: db747656-b414-4594-ad39-6b476799060c
 title: Clés prédéfinies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3805aaababb1a8fbdb41ca51e10e263bdee6c78f852b79a8baaa8c0fa6c200b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d26668f6a5ac80339c99062cc83a270bcb62e8a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885276"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368508"
 ---
 # <a name="predefined-keys"></a>Clés prédéfinies
 

@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcdcdf2ec566bafc962114d691c1962533b843d4c9299d01107eaaf132ea3050
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdf922118a1b332bfe1fe8e744114a6d1d6bf4cd
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048677"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363487"
 ---
 # <a name="authentication-level-constants"></a>Constantes de niveau d’authentification
 
@@ -43,7 +43,7 @@ Ces valeurs spécifient un niveau d’authentification, qui indique la quantité
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ keywords:
 - ACM (gestionnaire de compression audio), pilotes locaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4cce1310a487e772ac6f65680221f065335951d7d1d6c6dd22c4178c0d985f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 000bf7bded89b778f271599d5ce0f8d7f7bd5f72
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692329"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364048"
 ---
 # <a name="adding-drivers-within-an-application"></a>Ajout de pilotes dans une application
 
