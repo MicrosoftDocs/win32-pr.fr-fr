@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e770d03b847352152846d1095bc528bff8e8eacbcdbb1c9fc46450d21dc185bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 783910389f2b9be9193c8f7bb0722f70261f5fce
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065399"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367660"
 ---
 # <a name="mm_wom_open-message"></a>MM \_ WOM \_ ouvrir le message
 
@@ -56,7 +56,7 @@ Réservé doit être égal à zéro.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

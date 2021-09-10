@@ -5,11 +5,11 @@ ms.assetid: aaa09a1b-deb8-424f-a911-ae22d39919d3
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: eefaa47d159d776a3c931ca48de0dd3161c29913
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102377"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363299"
 ---
 # <a name="registering-com-servers"></a>Inscription des serveurs COM
 
@@ -32,6 +32,6 @@ Pour plus d’informations sur l’inscription, consultez les rubriques suivante
 [Responsabilités du serveur COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

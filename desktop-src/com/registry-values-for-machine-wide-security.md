@@ -5,11 +5,11 @@ ms.assetid: f1db42b8-4328-4b39-b87f-583382395235
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2e7addfb59bd8074a5a1392e5f74f9cee73d64f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939825"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363476"
 ---
 # <a name="registry-values-for-system-wide-security"></a>Valeurs de Registre pour la sécurité System-Wide
 
@@ -36,9 +36,9 @@ Les valeurs nommées qui affectent les paramètres de sécurité par défaut à 
 [Définition de la sécurité Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

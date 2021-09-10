@@ -4,12 +4,12 @@ description: Avec l’avènement du modèle d’objet de composant distribué, i
 ms.assetid: 2ee4d950-dfd5-4965-bd77-a600e878be59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52df6deb3f83f253fc46436ba992dc3fc10f74d84e43c6027fd4426b3171a838
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3502604d62e6a5129ca3e3538761722909c0198f
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070999"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363648"
 ---
 # <a name="designing-remotable-interfaces"></a>Conception d’interfaces accessibles à distance
 

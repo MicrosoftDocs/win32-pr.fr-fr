@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f21570d37fba9bc0c9595715715a9291aedd30650081edfa5d50f7264cf16c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b89eb457b63012aa9ee5624efef95945258d42c8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803460"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363863"
 ---
 # <a name="mci_reserve-command"></a>\_Commande de réserve MCI
 
@@ -92,7 +92,7 @@ Le membre **dwSize nul** de la structure identifiée par *lpReserve* spécifie l
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - messages MIDI exclusifs système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aad97371f56c042e5acd230aba6144f5f9734a594b370a791422b2e8f8148861
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 073ebc0fe111ef19e2edb098e6bdb170c13abc3e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037259"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364443"
 ---
 # <a name="sending-system-exclusive-messages"></a>Envoi de messages de System-Exclusive
 

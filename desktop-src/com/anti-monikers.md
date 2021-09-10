@@ -4,12 +4,12 @@ description: OLE fournit une implémentation d’un type spécial de moniker app
 ms.assetid: 3b52d3bd-8375-4463-a0e3-5117fa96a1c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57a0fb6183ff29a223ccf3a51f6f7e10a0a5c7670952354f7c917655e40d16d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 66d69c461268b486a040b36f59108bc8e8379656
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071189"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363359"
 ---
 # <a name="anti-monikers"></a>Anti-monikers
 

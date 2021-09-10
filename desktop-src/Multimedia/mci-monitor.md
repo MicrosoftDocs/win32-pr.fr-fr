@@ -3,7 +3,7 @@ title: Commande MCI_MONITOR (mmsystem. h)
 description: La \_ commande MCI Monitor spécifie la source de la présentation. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: b6c476ef-d1a4-477d-a104-dda10be60915
 keywords:
-- Commande MCI_MONITOR Windows multimédia
+- commande MCI_MONITOR Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6aa2f36b0e486143dc348d2e150422b2b082ecf7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942436"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363804"
 ---
 # <a name="mci_monitor-command"></a>\_Commande MCI Monitor
 
@@ -68,7 +68,7 @@ Pointeur vers une structure [**MCI \_ DGV \_ Monitor \_ PARMS**](/windows/deskto
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques vidéo numériques :
 
@@ -90,7 +90,7 @@ Une constante indiquant que la source du moniteur est incluse dans le membre **d
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -98,7 +98,7 @@ Une constante indiquant que la source du moniteur est incluse dans le membre **d
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

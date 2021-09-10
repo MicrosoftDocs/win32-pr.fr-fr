@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c70c7b8dda57d91e595bd65223a2fd33ef904679e35a38aaacbaf263b525258f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 007a5d954b9b879f87c5e8ffe2d0774d0d1d85a3
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065569"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364580"
 ---
 # <a name="mm_joy1buttonup-message"></a>MM \_ message JOY1BUTTONUP
 
@@ -88,7 +88,7 @@ Coordonnée y de la manette de jeu par rapport au coin supérieur gauche de la z
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

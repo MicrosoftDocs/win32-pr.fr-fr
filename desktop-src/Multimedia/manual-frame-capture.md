@@ -11,12 +11,12 @@ keywords:
 - capCaptureSingleFrameClose macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e9024f8759697248b1aadf2f46f902c4bf706c9d10417281d9b5c4f61fc1e94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26899032d8e81be437e8f29acf36f0a37703c560
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138854"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368748"
 ---
 # <a name="manual-frame-capture"></a>Capture manuelle des frames
 

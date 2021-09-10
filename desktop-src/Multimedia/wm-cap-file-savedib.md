@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66d6dd9b8675e1fb8625349afc4b3f86347d71d605407d5c99fbca291ade744d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2155febfdac1b3f24133df47ce206c8e5ec33d3a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119803809"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367916"
 ---
 # <a name="wm_cap_file_savedib-message"></a>\_ \_ Message SAVEDIB de fichier de la file d' \_ attente WM
 
@@ -55,7 +55,7 @@ Si une erreur se produit et qu’une fonction de rappel d’erreur est définie 
 
 Si le pilote de capture fournit des frames dans un format compressé, cet appel tente de décompresser le frame avant d’écrire le fichier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

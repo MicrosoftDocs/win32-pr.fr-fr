@@ -9,12 +9,12 @@ keywords:
 - ICDrawEnd macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c32c87c751705dea6dc6e00c2f48635d685d87f7d900422efb980b22012e052e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de20d23c0ded51d1933918c16da3f8827b77f796
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037899"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364096"
 ---
 # <a name="preparing-to-draw-data"></a>Préparation du dessin des données
 

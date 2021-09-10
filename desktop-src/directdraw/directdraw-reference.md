@@ -4,12 +4,12 @@ description: Cette section contient des informations de référence sur les él�
 ms.assetid: 1E94E191-5EB1-439F-B6D2-C9B8F20214CC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f35c23e031f6527bf69a80b5d7f9978e62dce51d6b4e121c17c213207e86ab9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d00f11696663b0861c67962f66d68ec92a83d27
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118504467"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "124360790"
 ---
 # <a name="directdraw-reference"></a>Référence DirectDraw
 
@@ -17,7 +17,7 @@ Cette section contient des informations de référence sur les éléments d’in
 
 
 
-| Category                                                                                                                                                                                                                                         | Description                                                                         |
+| Catégorie                                                                                                                                                                                                                                         | Description                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <span id="DirectDraw_Interfaces"></span><span id="directdraw_interfaces"></span><span id="DIRECTDRAW_INTERFACES"></span>[Interfaces DirectDraw](directdraw-interfaces.md)<br/>                                                            | Cette section contient des pages de référence pour les interfaces DirectDraw.<br/>         |
 | <span id="DirectDraw_Functions"></span><span id="directdraw_functions"></span><span id="DIRECTDRAW_FUNCTIONS"></span>[Fonctions DirectDraw](directdraw-functions.md)<br/>                                                                 | Cette section contient des pages de référence pour les fonctions DirectDraw.<br/>          |

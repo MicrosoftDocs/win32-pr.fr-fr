@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa64b17fb3910e518e5b5d4318f8d988cf71f8c314f047a5f2eed1ff80cc843d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7026bd984e1d79775aac52caad56c87be6e8098e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119783020"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364292"
 ---
 # <a name="mciwndm_notifymedia-message"></a>\_Message MCIWNDM NOTIFYMEDIA
 
@@ -56,7 +56,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient le no
 
 Vous pouvez activer la notification des modifications de média en spécifiant le \_ style de fenêtre MCIWNDF NOTIFYMEDIA.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

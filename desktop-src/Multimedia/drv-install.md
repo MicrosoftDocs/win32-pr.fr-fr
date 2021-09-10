@@ -3,7 +3,7 @@ title: Message DRV_INSTALL (mmsystem. h)
 description: Avertit le pilote qui est en cours d’installation. Le pilote doit créer et initialiser toutes les clés et valeurs de Registre nécessaires et vérifier que les pilotes et le matériel de prise en charge sont installés et correctement configurés.
 ms.assetid: 8ee7b30b-600b-49f3-93a7-8faa7b87cfd8
 keywords:
-- Message DRV_INSTALL Windows Multimedia
+- message DRV_INSTALL Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 15c91c71a4cb65bfaffa07bf16e09bec0d16b7b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942826"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364139"
 ---
 # <a name="drv_install-message"></a>Message d’installation de DRV \_
 
@@ -66,13 +66,13 @@ Retourne l’une des valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *lParam1* n’est pas utilisé.
 
 Certains pilotes installables ajoutent des informations de configuration à la valeur affectée à la valeur de registre associée au pilote.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -80,7 +80,7 @@ Certains pilotes installables ajoutent des informations de configuration à la v
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ keywords:
 - création de fichiers MIDI, attributions de clés standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe148c2fe1bb562aad994608a8c87c35e84bccb7d63ba1bc3ee3e5dd3bbc56a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6fcfec1b5089fa3c58c18eb8990156df12db0ae
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065639"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364356"
 ---
 # <a name="authoring-guidelines-for-midi-files"></a>Instructions de création pour les fichiers MIDI
 

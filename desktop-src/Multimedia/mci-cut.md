@@ -3,7 +3,7 @@ title: Commande MCI_CUT (mmsystem. h)
 description: La \_ commande MCI Cut supprime les données du fichier et les copie dans le presse-papiers. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 09bb505b-715a-4393-80f0-e9ba270a8ac1
 keywords:
-- Commande MCI_CUT Windows multimédia
+- commande MCI_CUT Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c564451596f115daca8514785449abf001e224ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942438"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363815"
 ---
 # <a name="mci_cut-command"></a>\_Commande MCI Cut
 
@@ -68,7 +68,7 @@ Pointeur vers une structure [**MCI \_ DGV \_ Cut \_ PARMS**](/windows/desktop/ap
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques vidéo numériques :
 
@@ -109,7 +109,7 @@ Un emplacement de fin est inclus dans le membre **dwTo** de la structure identif
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -117,7 +117,7 @@ Un emplacement de fin est inclus dans le membre **dwTo** de la structure identif
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ description: Implémentation du décompte de références
 ms.assetid: d4fd98c9-afa4-4c5c-a3c9-44d34881cbdb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efa2a3e9827d35d07fa88b62c6f1097fcb3ad3ae3b5b75764deeac1c9c271050
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0d4dfe2b0faf2fc6557d1b089e33ae6ce4b98cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048157"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363635"
 ---
 # <a name="implementing-reference-counting"></a>Implémentation du décompte de références
 

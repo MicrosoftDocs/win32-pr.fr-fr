@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcfd90b53f1cc42030bd00e6553d52de0f036ff274b3d4ff942c48667e4347b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b71770dec6a92693a50e8e0210da3f9b8028587c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065309"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364564"
 ---
 # <a name="mmiom_rename-message"></a>MMIOM \_ REnommer le message
 
@@ -56,7 +56,7 @@ Pointeur vers une chaîne contenant le nouveau nom de fichier.
 
 Si le fichier est correctement renommé, la valeur de retour est zéro. Si le fichier spécifié est introuvable, la valeur de retour est MMIOERR \_ FILENOTFOUND.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

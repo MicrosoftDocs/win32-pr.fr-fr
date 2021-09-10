@@ -9,12 +9,12 @@ keywords:
 - ICRemove fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82a34f1818f9a60226c0f3cead8186ae3fa163ebe1782c0c83e7cfb5b633c1b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd65f0fc06dc1d5e90cb136f5cf4ea429c220d77
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144979"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368828"
 ---
 # <a name="compressor-and-decompressor-installation-and-removal"></a>Installation et suppression du compresseur et du décompresseur
 

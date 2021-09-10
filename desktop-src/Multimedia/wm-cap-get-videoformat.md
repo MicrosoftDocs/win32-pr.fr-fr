@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afae3ea79b29cad6a758272f8f3952fdfb830a2b3d6d60f9fc5b4ca5042179fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 072d71366efee550b037d4a20388817954937854
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118622618"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367951"
 ---
 # <a name="wm_cap_get_videoformat-message"></a>Message WM d' \_ \_ extraction de \_ VIDEOFORMAT
 
@@ -60,7 +60,7 @@ Retourne la taille, en octets, du format vidéo ou zéro si la fenêtre de captu
 
 Étant donné que les formats vidéo compressés varient en fonction de la taille requise, les applications doivent d’abord récupérer la taille, puis allouer de la mémoire et enfin demander les données au format vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

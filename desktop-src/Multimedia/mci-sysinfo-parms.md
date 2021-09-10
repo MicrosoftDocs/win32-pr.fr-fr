@@ -3,7 +3,7 @@ title: Structure MCI_SYSINFO_PARMS (Mciapi. h)
 description: La \_ \_ structure de l’option MCI sysinfo PARMS contient des informations pour la \_ commande MCI sysinfo.
 ms.assetid: 433649ed-7c00-440d-84f3-164949e01cc4
 keywords:
-- Structure de MCI_SYSINFO_PARMS Windows multimédia
+- structure MCI_SYSINFO_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bf143bb0d895dc03df38bbb0a657467d506eac77
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513576"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363944"
 ---
 # <a name="mci_sysinfo_parms-structure"></a>\_Structure des \_ PARMS MCI sysinfo
 
@@ -79,11 +79,11 @@ Type d’appareil. Ce membre peut être l’une des valeurs indiquées dans les 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: nombres (Windows multimédia)
-description: Nombres
+description: À l’aide de nombres
 ms.assetid: d416c4c2-a3e1-45a2-9ae1-82050a5e471b
 keywords:
 - mixages audio, contrôles
@@ -16,12 +16,12 @@ keywords:
 - contrôle non signé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c9e1bacdea3f52129d78eea2f0bc7134df08b7077c83510bd8de824777e524
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f02c4ffd40f1058fae51af3798135840394be918
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806619"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368852"
 ---
 # <a name="numbers-windows-multimedia"></a>nombres (Windows multimédia)
 
@@ -29,7 +29,7 @@ Les contrôles Number permettent à l’utilisateur d’entrer des données num�
 
 
 
-| Contrôler  | Description                                                                                                                         |
+| Control  | Description                                                                                                                         |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Signé   | Autorise les valeurs entières entrées dans la plage comprise entre – 231 et (231 – 1).                                                               |
 | Non signé | Autorise les valeurs entières entrées dans la plage comprise entre 0 et (232 – 1).                                                                   |

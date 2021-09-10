@@ -6,12 +6,12 @@ keywords:
 - Commande MCI_CLOSE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f81ddaf42ef5509b55271159b8e36ac56584b92734a6b04e5b555041596530
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 824d156baa72ee404f29ae490d4d9816078f4d15
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119498079"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368191"
 ---
 # <a name="closing-a-device"></a>Fermeture d’un appareil
 

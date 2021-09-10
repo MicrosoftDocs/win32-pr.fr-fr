@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66c752f192e8f74f2c6e861e581fd22a561bafd9ff6c0f369ba669bc4bf87fb4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e41686ce41b82dc48ee6c22ac556606c79c5b24a
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429429"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364243"
 ---
 # <a name="mciwndm_eject-message"></a>MCIWNDM \_ éjecter le message
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2e585a44c19093fa0d20ab4870f579c67cd568c3a693523242b84910e6589d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac8d31f1806a9c12f764c679548564aa053c3041
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118373268"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363696"
 ---
 # <a name="open-command"></a>ouvrir une commande
 
@@ -133,7 +133,7 @@ open waveaudio!right.wav
 
 Le pilote MCIWAVE requiert un périphérique audio Wave asynchrone.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

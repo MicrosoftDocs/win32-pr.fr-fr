@@ -4,12 +4,12 @@ description: Windows prend en charge NTLMSSP (fournisseur de Support de sécurit
 ms.assetid: a0c095a8-93b7-4350-aac6-a9a066cccffd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15ec80a1ea610725716da3640b6e38b2fd0f3282ce6ce778e632c6a5c8e72c8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6720ddd56869c5ce93ae70eb313fbe12c140b42
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048717"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363599"
 ---
 # <a name="com-and-security-packages"></a>Packages COM et de sécurité
 
@@ -21,7 +21,7 @@ Le tableau suivant indique les niveaux d’authentification pris en charge par l
 
 | Authentification serveur/client                                                                                           | Prise en charge des packages de sécurité                                         |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| Ni le nom de l’autre.<br/>                                                                      | Aucun<br/>                                                  |
+| Ni le nom de l’autre.<br/>                                                                      | None<br/>                                                  |
 | Le client peut authentifier le serveur, mais pas l’inverse.<br/>                                                 | Schannel<br/>                                              |
 | Le client ne peut pas détecter le serveur, mais le serveur peut obtenir l’ID d’utilisateur du client.<br/>                    | NTLMSSP<br/>                                               |
 | Authentification mutuelle : le client et le serveur peuvent tous les deux connaître le nom de l’autre, si l’autorisation est accordée.<br/> | NTLMSSP (localement), protocole Kerberos V5 et Schannel<br/> |

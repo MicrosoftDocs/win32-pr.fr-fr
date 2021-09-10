@@ -10,12 +10,12 @@ keywords:
 - MIDIEVENT, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 072c2541ab6b731686fc63c59b11b0dfff529ef9cab347d41fbddf13e9b60b04
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 801a7f0dbeabd0d7aebeae0387af415a831e4658
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688499"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364523"
 ---
 # <a name="stream-buffer-format"></a>Format de mémoire tampon de flux
 

@@ -8,12 +8,12 @@ keywords:
 - ICSetStatusProc fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44707cb6a8fbdb19b1d71fed6c71498b51936b9d089354277c6767586b4b8267
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39ef5449e8d4e985217ee60f075d22b16dcc5c3b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118373492"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368996"
 ---
 # <a name="monitoring-the-progress-of-compressors-and-decompressors"></a>Surveillance de la progression des compresseurs et des décompresseurs
 

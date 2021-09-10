@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 720d8c2f919d2b00955892a42ba8fca95b2b426c3cbb396aa4ac71a5cf912307
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 538659eb9878be819ee6ec1506403fcce314eb0b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690949"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364200"
 ---
 # <a name="icm_draw_start-message"></a>ICM \_ DESSINER le \_ message de début
 
@@ -46,7 +46,7 @@ lorsque le pilote reçoit ce message, il doit commencer à afficher les données
 
 le **ICM \_ dessiner \_ démarrer** et [**ICM \_ dessiner \_**](icm-draw-stop.md) les messages d’arrêt ne sont pas imbriques. si votre pilote reçoit **ICM \_ dessin \_ démarrer** avant l’arrêt du rendu avec **ICM \_ trace \_ STOP**, il doit redémarrer le rendu avec de nouveaux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

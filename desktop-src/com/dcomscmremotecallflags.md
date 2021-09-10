@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre DCOMSCMRemoteCallFlags COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d658b80d347e684aa42aebad936a863b9bca2138b3118508849a730e11878d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6fda58975e40ac6ac1633db8aa78f2c7636f9103
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678828"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363515"
 ---
 # <a name="dcomscmremotecallflags"></a>DCOMSCMRemoteCallFlags
 

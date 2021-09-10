@@ -7,12 +7,12 @@ keywords:
 - VCM (Video Compression Manager), ouverture de compresseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1969748949aeb023f889bc651ccd028f19c3e18fe6cf1ba088b4f4ec29292f35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08b51e0221c495d5e2d0782f4e56e0778c0d2462
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144992"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368783"
 ---
 # <a name="compressor-and-decompressor-basics"></a>Concepts de base du compresseur et du décompresseur
 

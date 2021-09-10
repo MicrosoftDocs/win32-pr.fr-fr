@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42749fb2f99c446dbd45bc6e2497287ab3b0ce987c9343ed4580735c760cc892
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c84a8ebb3e97d4543f68f3a237add8eed7706ae2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429249"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364275"
 ---
 # <a name="mciwndm_getspeed-message"></a>\_Message MCIWNDM GETSPEED
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne la vitesse de lecture en cas de réussite. La valeur de la vitesse normale est 1000. Des valeurs plus élevées indiquent des vitesses supérieures, les valeurs inférieures indiquent des vitesses plus basses.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

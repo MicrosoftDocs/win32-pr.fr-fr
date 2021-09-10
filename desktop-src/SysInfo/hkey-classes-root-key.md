@@ -4,12 +4,12 @@ ms.assetid: b404875f-11e1-48f2-98d2-0378a0646ed3
 title: Clé de HKEY_CLASSES_ROOT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca75fc0b736c156e2e0dbe8ad07ff84cbbaa0a9ee1484de74e4f670703b2d875
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e7aebe0e59424eb5ff7584fe61c2c5089eb887b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885681"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368511"
 ---
 # <a name="hkey_classes_root-key"></a>\_Clé racine de classes HKEY \_
 

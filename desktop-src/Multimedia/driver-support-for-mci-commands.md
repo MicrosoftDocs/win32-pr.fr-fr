@@ -4,12 +4,12 @@ description: Prise en charge des pilotes pour les commandes MCI
 ms.assetid: 1adea076-c04e-4613-a793-60de41b2e9db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2aa2bb806e869adcf4355b8b43ac529240a5c35dfc8ce49d43672baf0bd976
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64b57e28feaa3fd1e0b4d7f3edc7c95df3f00e83
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526289"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368159"
 ---
 # <a name="driver-support-for-mci-commands"></a>Prise en charge des pilotes pour les commandes MCI
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9bd3aa35875791d6fa916d9d6831bdcb83a6db43be6e5859ce582243606f666
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15d5a616085028132c83fd71c46f7d409bf48a14
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118138635"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363847"
 ---
 # <a name="mci_list-command"></a>\_Commande de liste MCI
 
@@ -210,7 +210,7 @@ Répertorier les entrées ou les types vidéo.
 
 Pour les périphériques VCR, *lpList* pointe vers une structure de [**\_ \_ liste \_ de magnétoscopes MCI**](mci-vcr-list-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

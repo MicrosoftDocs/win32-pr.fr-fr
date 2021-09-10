@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07006ddfb38e1a57f6e08cb73d9b33021d139b9542245aec137e0969378140e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33b17e3796192344ef974fed1af7229d41746aaf
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117803968"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363752"
 ---
 # <a name="mci_break-command"></a>\_Commande MCI Break
 
@@ -97,7 +97,7 @@ Désactive toute clé d’arrêt existante pour l’appareil indiqué.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

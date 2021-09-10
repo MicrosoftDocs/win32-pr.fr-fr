@@ -7,12 +7,12 @@ keywords:
 - AVIFileRelease fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cca5cfdce177e119d178ca09dd447b7d4e3b6a52c1881f059b72e4424f9c54c3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 68e1c51c4747e03bf4f18a8e6c560e45798e1c8c
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120038319"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368700"
 ---
 # <a name="opening-and-closing-files"></a>Ouverture et fermeture de fichiers
 

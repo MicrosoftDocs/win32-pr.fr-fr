@@ -9,12 +9,12 @@ keywords:
 - capFileGetCaptureFile macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e48ecd727accccb868d0f78c68a833ac6ec6655bada23db8a56f2a9aeaffd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4856649906e09f212d2f8992c9d4fb9b8f4c37d4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118941594"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368724"
 ---
 # <a name="capture-filename"></a>Nom du fichier de capture
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75d9c5a99414f0b755efbae005365d89665a2b2bc5a4673436101066ec740564
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b512e90612a02681008474c7f1323f17304422d2
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144412"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364132"
 ---
 # <a name="drv_disable-message"></a>DRV- \_ message de désactivation
 
@@ -46,7 +46,7 @@ Les paramètres *dwDriverId*, *lParam1* et *lParam2* ne sont pas utilisés.
 
 Après la désactivation du pilote, le système envoie généralement au pilote un message de fin de la commande [**DRV \_**](drv-free.md) avant de supprimer le pilote de la mémoire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

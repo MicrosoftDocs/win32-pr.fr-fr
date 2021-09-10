@@ -11,12 +11,12 @@ keywords:
 - acmFilterDetails fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84bf182846da280f4810c84c75a02e76baaae9082ecaf2df8ea1797fd867e8b8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 641f2b9993d9c916113d14eaf92925e916409619
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689129"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364071"
 ---
 # <a name="retrieving-a-string-that-describes-a-filter"></a>Récupération d’une chaîne décrivant un filtre
 

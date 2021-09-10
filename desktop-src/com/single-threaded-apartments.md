@@ -4,12 +4,12 @@ description: Single-Threaded Apartments
 ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f9b969a48fd83ac82307c42bf4e801168bcf97f83536045fc078b19e3eb77d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f0a8cb1422b6866d9e0d043fdd46c895e6d335b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129821"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363343"
 ---
 # <a name="single-threaded-apartments"></a>Single-Threaded Apartments
 

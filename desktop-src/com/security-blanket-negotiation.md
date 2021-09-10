@@ -5,11 +5,11 @@ ms.assetid: 5a01912d-611c-4a6e-ab9d-0243cba331f1
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e51407de908eaaf0f79eea452046f8e424ccf900
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031931"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363488"
 ---
 # <a name="security-blanket-negotiation"></a>Négociation de sécurité permanente
 
@@ -21,7 +21,7 @@ Une couverture de sécurité est un groupe de valeurs qui décrivent les paramè
 -   Niveau d’authentification
 -   Niveau d'emprunt d'identité
 -   Identité d’authentification
--   Fonctions
+-   Fonctionnalités
 -   Liste de contrôle d’accès (ACL) (serveurs uniquement)
 
 La négociation permanente de sécurité est le processus utilisé par COM pour choisir les paramètres de sécurité d’un proxy lors de sa création. Ce processus implique la comparaison de la couverture de sécurité du serveur avec la couverture de sécurité du client et l’utilisation de ces valeurs pour créer une couverture de sécurité par défaut appropriée pour le proxy. Les paragraphes suivants expliquent l’origine des préversions de sécurité du client et du serveur, et décrivent comment COM négocie la couverture de sécurité pour le proxy à l’aide des couvertures de sécurité du client et du serveur.
@@ -43,6 +43,6 @@ Une fois que la couverture de sécurité par défaut a été calculée, ses vale
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

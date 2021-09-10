@@ -4,12 +4,12 @@ description: L’un des aspects essentiels de COM est la façon dont les clients
 ms.assetid: 5d1d8613-3087-443d-8547-a767c8ba4959
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79d189b464c8e3a32ff378951067275ab29f5fbabc0b2777c2b2226d632a8bfb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d7c3e29e4a4a3e2fcefe1c3473350d3423a8c24
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048657"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363303"
 ---
 # <a name="com-clients-and-servers"></a>Clients et serveurs COM
 

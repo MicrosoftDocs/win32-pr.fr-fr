@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre AccessPermission COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 641512d34b963879ceb3d1a6266a017836879b224b228edb3ad62d61300fb03e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e6210eba77f614b16c8fde59948b350ad150909
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118551343"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363388"
 ---
 # <a name="accesspermission"></a>AccessPermission
 

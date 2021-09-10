@@ -5,11 +5,11 @@ ms.assetid: b33ca3b0-0423-4338-b3d6-4bb3db3d3e1b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a735fa12e175ecec5dc2a7ed741843d713532e19
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031933"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363404"
 ---
 # <a name="impersonation"></a>Emprunt d'identité
 
@@ -33,6 +33,6 @@ Vous pouvez utiliser la fonction [**OpenProcessToken**](/windows/desktop/api/pro
 [Délégation et emprunt d’identité](delegation-and-impersonation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

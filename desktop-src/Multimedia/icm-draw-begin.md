@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_BEGIN (VFW. h)
-description: Le \_ message ICM Draw \_ Begin notifie un pilote de rendu pour préparer le dessin de données.
+description: le \_ message ICM DRAW \_ BEGIN notifie un pilote de rendu pour préparer le dessin de données.
 ms.assetid: e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8
 keywords:
-- Message ICM_DRAW_BEGIN Windows Multimedia
+- message ICM_DRAW_BEGIN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: db7b9e20a0b0621038e1c7e092a871a6727566cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942631"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364171"
 ---
-# <a name="icm_draw_begin-message"></a>Message de début du \_ dessin ICM \_
+# <a name="icm_draw_begin-message"></a>ICM \_ DESSINER le \_ message de début
 
-Le message **ICM \_ Draw \_ Begin** notifie un pilote de rendu pour préparer le dessin de données.
+le message **ICM \_ DRAW \_ BEGIN** notifie un pilote de rendu pour préparer le dessin de données.
 
 
 ```C++
@@ -67,13 +67,13 @@ Retourne ICERR \_ OK si le pilote prend en charge le dessin des données à l’
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si vous souhaitez que le pilote décompresse les données dans une mémoire tampon, envoyez le message de début de la [**\_ \_ décompression ICM**](icm-decompress-begin.md) .
+si vous souhaitez que le pilote décompresse les données dans une mémoire tampon, envoyez le message de début de la [**ICM de \_ décompression \_**](icm-decompress-begin.md) .
 
-Les messages de [**\_ \_ fin**](icm-draw-end.md) de dessin **ICM \_ \_** et ICM ne sont pas imbriqués. Si votre pilote reçoit **le \_ dessin \_ ICM, commencez** la décompression avec **les nouveaux paramètres \_ \_** pour arrêter la décompression.
+le **ICM \_ dessiner \_ commencer** et [**ICM \_ dessiner \_**](icm-draw-end.md) les messages de fin ne sont pas imbriqués. si votre pilote reçoit **ICM \_ \_ commencer** avant que la décompression ne s’arrête avec **ICM \_ dessiner \_**, il doit redémarrer la décompression avec les nouveaux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

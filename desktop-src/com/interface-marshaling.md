@@ -4,12 +4,12 @@ description: Marshaling d’interface
 ms.assetid: 71069bd3-5f90-406a-be78-bb1af9b1c1c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cdee8762fb9ef69507fb5b2c4295531dd87a98d5174ab4e10f05a66cab718d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f5112b67e643fb95e1025fd4ed297043f81f576e
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029869"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363287"
 ---
 # <a name="interface-marshaling"></a>Marshaling d’interface
 

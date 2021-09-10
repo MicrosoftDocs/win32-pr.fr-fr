@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre FileType COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2899b69c2f433fbd3587bdd7baa6c17c4f8cc4c9cd32100dcd672f9d213d4d3b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9a2e331588b627ee5ce9a9c1b69631f1e8a1dbe4
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119462498"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363464"
 ---
 # <a name="filetype-key"></a>Clé FileType
 

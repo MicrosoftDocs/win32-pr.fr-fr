@@ -5,11 +5,11 @@ title: À propos du Registre
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 28c7f567cd1f72a7c017cf4e7a9d32054a20445b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536394"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368492"
 ---
 # <a name="about-the-registry"></a>À propos du Registre
 
@@ -18,7 +18,7 @@ Les rubriques suivantes décrivent le registre et les fonctions que vous pouvez 
 <dl>
 
 [Structure du Registre](structure-of-the-registry.md)  
-[Espace de stockage du Registre](registry-storage-space.md)  
+[espace de Stockage du registre](registry-storage-space.md)  
 [Clés prédéfinies](predefined-keys.md)  
 [Ruches du Registre](registry-hives.md)  
 [Catégories de données](categories-of-data.md)  

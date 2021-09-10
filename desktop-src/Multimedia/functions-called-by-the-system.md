@@ -19,12 +19,12 @@ keywords:
 - ACM (gestionnaire de compression audio), procédures relatives aux pilotes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b8a8c3615ae0124d4701f8d37d332e652d8390ef165cec8dc57d881cd328fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1324ea168892d54f21754658607476c35075910
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678618"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368964"
 ---
 # <a name="functions-called-by-the-system"></a>Fonctions appelées par le système
 

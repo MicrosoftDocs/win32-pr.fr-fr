@@ -12,12 +12,12 @@ keywords:
 - audio auxiliaire, appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e02ca4ceaf8e8a8b2f84ea69be437145f0f92b375904a0121c17abc7870fa831
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f80c499f18b60f0919214c91eeec834ed72c3e1
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808109"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367703"
 ---
 # <a name="changing-the-volume-of-auxiliary-audio-devices"></a>Modification du volume de Audio-Devices auxiliaires
 

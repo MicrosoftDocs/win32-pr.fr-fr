@@ -3,7 +3,7 @@ title: Commande MCI_SYSINFO (mmsystem. h)
 description: La \_ commande MCI sysinfo récupère des informations sur les périphériques MCI.
 ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
 keywords:
-- Commande MCI_SYSINFO Windows multimédia
+- commande MCI_SYSINFO Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e722625449893771726a83738c3b0d7bc8bc523c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942237"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363943"
 ---
 # <a name="mci_sysinfo-command"></a>\_Commande MCI sysinfo
 
@@ -96,7 +96,7 @@ Pointeur vers une structure de valeur [**MCI \_ sysinfo \_**](mci-sysinfo-parms.
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **wDeviceType** de la structure identifiée par *lpSysInfo* est utilisé pour indiquer le type d’appareil de la requête. Si le paramètre *wDeviceID* est défini sur MCI \_ All \_ Device \_ ID, il remplace la valeur de **wDeviceType**. Pour obtenir la liste des types d’appareils, consultez [types d’appareils MCI](mci-device-types.md).
 
@@ -104,7 +104,7 @@ Les valeurs de retour de type entier sont des valeurs **DWORD** retournées dans
 
 Les valeurs de retour de chaîne sont des chaînes terminées par le caractère null retournées dans la mémoire tampon vers laquelle pointe le membre **lpstrReturn** de la structure identifiée par *lpSysInfo*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -112,7 +112,7 @@ Les valeurs de retour de chaîne sont des chaînes terminées par le caractère 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

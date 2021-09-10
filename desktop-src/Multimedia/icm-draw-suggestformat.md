@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 843dd2d398f5be6476a148922f3244113e94ab3fe3c10bac9ee08caefb8c4828
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c97c8782b16336427b3832f36b5a06987399df1b
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495948"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364208"
 ---
 # <a name="icm_draw_suggestformat-message"></a>ICM \_ DESSINER le \_ message SUGGESTFORMAT
 
@@ -62,7 +62,7 @@ Le pilote doit examiner le format spécifié dans le membre **lpbiIn** de la str
 
 Le cas échéant, le pilote peut utiliser le descripteur de compresseur installable passé dans le membre **hicDecompressor** de [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) pour effectuer des sélections plus complexes. Par exemple, si le format d’entrée est données JPEG de 24 bits, un convertisseur peut interroger le décompresseur pour déterminer s’il peut être décompressé dans un format YUV (qui peut être dessiné plus efficacement) avant de sélectionner le format à suggérer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

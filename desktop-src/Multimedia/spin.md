@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4b643d1f641f7f7faf2711bc2fa8ec43efe7ca1e60a2fb178191870c5ce2354
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c25e25f5a44ad6e6c9562d05653ab25cb2950b8
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118136451"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363999"
 ---
 # <a name="spin-command"></a>spin, commande
 
@@ -83,7 +83,7 @@ La commande suivante démarre un appareil videodisc.
 spin videodisc up
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

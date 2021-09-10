@@ -4,12 +4,12 @@ description: Les serveurs DLL partagent un substitut s’ils ont des identités 
 ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e159fff59144773633cfbe35bb1486e9eeb1014d02e23e0c9b95bcd817bb53
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6f6a934f03d42113cf73df4f059ac108801d21ea
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119678409"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363580"
 ---
 # <a name="surrogate-sharing"></a>Partage de substitution
 

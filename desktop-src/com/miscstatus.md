@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre MiscStatus COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41aa5a5ab7f777eb6aa19d919c69ca219c9364cd1d6e5e9471cb677300d4ebb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: abee49776577df61dc8b7d4e94a0621dfdd8b216
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992349"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363448"
 ---
 # <a name="miscstatus"></a>MiscStatus
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c7b4fb75f78f8468a204217f5a4fa1593a1c50d5db541a83070a7faed41cc5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0029ad03c1b7fe855e8485b2719b11628fac1103
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037479"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363919"
 ---
 # <a name="save-command"></a>Save, commande
 
@@ -104,7 +104,7 @@ La commande suivante enregistre l’intégralité de la mémoire tampon vidéo d
 save vboard c:\vcap\vcapfile.tga
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETACTIVETIMER (VFW. h)
 description: Le \_ message MCIWNDM SETACTIVETIMER définit la période de mise à jour utilisée par MCIWnd pour mettre à jour le TrackBar dans la fenêtre MCIWnd, mettre à jour les informations de position affichées dans la barre de titre de la fenêtre et envoyer des messages de notification à la fenêtre parente lorsque la fenêtre MCIWnd est active. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSetActiveTimer.
 ms.assetid: a30c0091-d9bb-44a3-a7b0-d1be30adcd9c
 keywords:
-- Message MCIWNDM_SETACTIVETIMER Windows Multimedia
+- message MCIWNDM_SETACTIVETIMER Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1924a991f0627009a8e622c8f8be086b2e045635
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104713"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364319"
 ---
 # <a name="mciwndm_setactivetimer-message"></a>\_Message MCIWNDM SETACTIVETIMER
 
@@ -49,7 +49,7 @@ Période de mise à jour, en millisecondes. La valeur par défaut est 500 millis
 
 Ce message ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

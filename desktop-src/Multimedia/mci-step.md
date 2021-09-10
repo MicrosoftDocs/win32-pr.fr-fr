@@ -3,7 +3,7 @@ title: Commande MCI_STEP (mmsystem. h)
 description: La \_ commande d’étape MCI dénombre les frames d’un ou de plusieurs frames. Les appareils Digital-Video, VCR et CAV-format videodisc reconnaissent cette commande.
 ms.assetid: 8d976840-fe9d-4393-b9fc-10f847166b1b
 keywords:
-- Commande MCI_STEP Windows multimédia
+- commande MCI_STEP Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: cd81b3ad0e1f10c14d68df12399045149f686a8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102845"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363936"
 ---
 # <a name="mci_step-command"></a>\_Commande d’étape MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande prend en charge les appareils qui renvoient la **valeur true** à l' \_ GETDEVCAPS MCI \_ a \_ un indicateur vidéo de la commande [MCI \_ GETDEVCAPS](mci-getdevcaps.md) .
 
@@ -132,7 +132,7 @@ Le membre **dwFrames** de la structure identifiée par *lpStep* spécifie le nom
 
 Pour les appareils videodisc, le paramètre *lpStep* pointe vers une structure d’étape de la [**\_ \_ séquence \_ MCI**](mci-vd-step-parms.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -140,7 +140,7 @@ Pour les appareils videodisc, le paramètre *lpStep* pointe vers une structure d
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

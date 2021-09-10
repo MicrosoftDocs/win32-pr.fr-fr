@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cef214fe36c713e63659fcbd4dde2021c8d410b36ea9f5525ed54c76c5c4b6a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3c4fa2a26e1fe5fa111585ce0a59422a2fe9b072
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495859"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364220"
 ---
 # <a name="icm_getquality-message"></a>ICM \_ Message GETQUALITY
 
@@ -49,7 +49,7 @@ Adresse qui doit contenir la valeur de qualité actuelle. Les valeurs de qualit�
 
 Retourne ICERR \_ OK si le pilote prend en charge ce message ou ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

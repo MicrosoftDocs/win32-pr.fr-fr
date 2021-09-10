@@ -4,12 +4,12 @@ description: Synchronisation des appels
 ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9969c968294a3dfdbfbc4cb78d40e64ad65c17392bf3b9fd09fc7a5f99b9049b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec9254aceaaa8a6fa26d56d4a86987cc955b90dc
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048737"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363304"
 ---
 # <a name="call-synchronization"></a>Synchronisation des appels
 

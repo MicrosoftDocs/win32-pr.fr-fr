@@ -4,12 +4,12 @@ description: Le moniker d’élévation COM autorise les applications qui s’ex
 ms.assetid: 1595ebb8-65af-4609-b3e7-a21209e64391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d11980c9c6a54a06991d6f2ab189640414dc5072dd913e450ce6fe33487f747
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acc80774764cb99e63ed3334a8c0f9c8cedd2500
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118103862"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363624"
 ---
 # <a name="the-com-elevation-moniker"></a>Moniker d’élévation COM
 
@@ -31,7 +31,7 @@ Toutes les fonctionnalités COM ne sont pas compatibles avec l’élévation. Le
 -   Un processus élevé à l’aide du mécanisme de contrôle de compte d’utilisateur ne charge pas les classes par utilisateur lors des activations COM. Pour les applications COM, cela signifie que les classes COM de l’application doivent être installées dans la ruche de Registre **HKEY \_ local \_ machine** si l’application doit être utilisée à la fois par des comptes non privilégiés et privilégiés. Les classes COM de l’application doivent uniquement être installées dans la ruche des **\_ utilisateurs HKEY** si l’application n’est jamais utilisée par des comptes privilégiés.
 -   La fonction glisser-déplacer n’est pas autorisée pour les applications avec élévation de privilèges non élevées.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 Afin d’utiliser le moniker d’élévation pour activer une classe COM, la classe doit être configurée pour s’exécuter en tant qu’utilisateur de lancement ou en tant qu’identité d’application’Activate As Activator'. Si la classe est configurée pour s’exécuter sous n’importe quelle autre identité, l’activation retourne l’erreur la valeur de CO \_ E \_ runas \_ \_ doit \_ être \_ AAA.
 

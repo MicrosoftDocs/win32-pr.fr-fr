@@ -7,12 +7,12 @@ keywords:
 - termAVI fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22045e23c3dcc6f05279fe9ddf999586923e0bf828757cd14a490f10c045c715
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ac540d670b15eaf1befb1d2f253223e3571ecee
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119806229"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368367"
 ---
 # <a name="opening-multiple-avi-files"></a>Ouverture de plusieurs fichiers AVI
 

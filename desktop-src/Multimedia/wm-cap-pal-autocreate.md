@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a18d805ef394388de2265845f4e21bebb98d94391b851a60ed38d46e9872fecc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ba70de46167121aa9a83959c6d9e202039f65cd
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117800639"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124367956"
 ---
 # <a name="wm_cap_pal_autocreate-message"></a>Message de création d’un \_ \_ message d’attente PAL PAC \_
 
@@ -62,7 +62,7 @@ Si une erreur se produit et qu’une fonction de rappel d’erreur est définie 
 
 La séquence vidéo échantillonnée doit inclure toutes les couleurs souhaitées dans la palette. Pour obtenir la meilleure palette, vous devrez peut-être échantillonner l’intégralité de la séquence plutôt qu’une partie de celle-ci.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

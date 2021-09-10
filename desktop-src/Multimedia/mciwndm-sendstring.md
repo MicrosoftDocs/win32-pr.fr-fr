@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b98ee008346821c2d489b19d01bb372c37cd3d541380fd8dae3b72bf613051f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d36a034a3459803b1652bafed4eb389866add211
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037929"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364320"
 ---
 # <a name="mciwndm_sendstring-message"></a>\_Message MCIWNDM SENDSTRING
 
@@ -55,7 +55,7 @@ Le gestionnaire de messages pour **MCIWNDM \_ SENDSTRING** ajoute un alias d’a
 
 Pour obtenir la chaîne de retour, qui contient le résultat de la commande, envoyez le message [**MCIWNDM \_ RETURNSTRING**](mciwndm-returnstring.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

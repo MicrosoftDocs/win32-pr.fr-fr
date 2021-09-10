@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3a47bc198f9d78effeed0a58a2b580df46a0a15a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190874"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124368271"
 ---
 # <a name="using-mci-command-messages"></a>Utilisation des messages de commande MCI
 
@@ -36,9 +36,9 @@ Cette section contient des exemples montrant comment effectuer les tâches suiva
 -   [Récupération des informations de Track-Specific de disque compact](retrieving-compact-disc-track-specific-information.md)
 -   [Enregistrement avec un appareil Waveform-Audio](recording-with-a-waveform-audio-device.md)
 
- 
+ 
 
- 
+ 
 
 
 

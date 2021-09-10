@@ -17,12 +17,12 @@ keywords:
 - filtrage des données Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d4d29d51462e486d206694a1d0628af91e15c2f60b7c1addc6ee6dd2574130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34055e62f13e3bc60ec538e6c2ba41edab5e0c37
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065649"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364040"
 ---
 # <a name="about-the-audio-compression-manager"></a>À propos du gestionnaire de compression audio
 

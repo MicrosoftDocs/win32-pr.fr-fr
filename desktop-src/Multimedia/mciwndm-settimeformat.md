@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79620aecba07b11ed63dfc43fd2d70b41728586b36649b4b13aace9d1364197c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcec1f0db5accad93211bf1eb6f1c9297e2b9f33
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117802893"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124364332"
 ---
 # <a name="mciwndm_settimeformat-message"></a>\_Message MCIWNDM SETTIMEFORMAT
 
@@ -55,7 +55,7 @@ Une application peut spécifier des formats d’heure autres que des images ou d
 
 Si vous souhaitez définir le format d’heure sur des images ou des millisecondes, vous pouvez également utiliser la macro [**MCIWndUseFrames**](/windows/desktop/api/Vfw/nf-vfw-mciwnduseframes) ou [**MCIWndUseTime**](/windows/desktop/api/Vfw/nf-vfw-mciwndusetime) . Pour obtenir la liste des formats d’heure, consultez la macro [**MCIWndGetTimeFormat**](/windows/desktop/api/Vfw/nf-vfw-mciwndgettimeformat) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

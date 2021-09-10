@@ -6,12 +6,12 @@ keywords:
 - Référence MCI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2c8f91f779ca55d0915c31ac110d5aef77a5171fa4eed110e2911c5167c4df
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 27cc54f69e714960d189567e759cf4b254275807
+ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039049"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124363727"
 ---
 # <a name="mci-reference"></a>Référence MCI
 
@@ -137,12 +137,12 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**étapes de l' \_ étape MCI VCR \_ \_**](mci-vcr-step-parms.md)
 -   [**étapes de l' \_ étape MCI VD \_ \_**](mci-vd-step-parms.md)
 -   [**Demandez**](seek.md)
--   [**signal**](signal.md)
+-   [**témoin**](signal.md)
 -   [**première**](step.md)
 
 ## <a name="editing"></a>Modification
 
--   [**reprographie**](copy.md)
+-   [**copy**](copy.md)
 -   [**réduis**](cut.md)
 -   [**supprimer**](delete.md)
 -   [**\_copie MCI**](mci-copy.md)
@@ -155,7 +155,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**\_Collage MCI**](mci-paste.md)
 -   [**\_annulation MCI**](mci-undo.md)
 -   [**supprimer les PARMS de l' \_ onde MCI \_ \_**](mci-wave-delete-parms.md)
--   [**coller**](paste.md)
+-   [**Insérer**](paste.md)
 -   [**uler**](undo.md)
 
 ## <a name="miscellaneous"></a>Divers
@@ -171,7 +171,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**les \_ PARMS ouverts MCI \_**](mci-open-parms.md)
 -   [**\_OVLY \_ ouvrir les \_ PARMS MCI**](mci-ovly-open-parms.md)
 -   [**affiche les PARMS de l' \_ onde MCI \_ \_**](mci-wave-open-parms.md)
--   [**ouvert**](open.md)
+-   [**afficher**](open.md)
 
 ## <a name="realizing-a-palette"></a>Réalisation d’une palette
 
@@ -187,7 +187,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 ## <a name="retrieving-information"></a>Récupération des informations
 
 -   [**Faculté**](capability.md)
--   [**méta**](info.md)
+-   [**info**](info.md)
 -   [**tarifs**](list.md)
 -   [**\_informations d’DGV MCI \_ \_**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_info_parmsa)
 -   [**\_liste de DGV MCI \_ \_ PARMS**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_list_parmsa)
@@ -232,7 +232,7 @@ Cette section répertorie les fonctions, les structures, les messages, les macro
 -   [**\_réserve MCI**](mci-reserve.md)
 -   [**\_restauration MCI**](mci-restore.md)
 -   [**socle**](monitor.md)
--   [**qualitative**](quality.md)
+-   [**qualité**](quality.md)
 -   [**reserve**](reserve.md)
 -   [**restauration**](restore.md)
 
