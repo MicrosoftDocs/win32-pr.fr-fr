@@ -4,12 +4,12 @@ ms.assetid: 981a3def-1e59-4703-ad97-c8cd5431375d
 title: Définition des composants du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae83d5fa02182c40fa209453484db23706db2f261f41324cd4d86894d9e78dd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ade4476fa1bf54a0ab4f64d0d43d72265ac1eb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091645"
 ---
 # <a name="defining-installer-components"></a>Définition des composants du programme d’installation
 

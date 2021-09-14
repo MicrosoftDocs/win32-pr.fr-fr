@@ -4,12 +4,12 @@ ms.assetid: fefff18b-892a-440e-9f57-d23aeb99af74
 title: Propriété MSIRESTARTMANAGERCONTROL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 912f529187560aa5fffff90407573e5438139d2b2d26345645752c8d30416f60
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8d965f1b814ce2969a6253ba227672c54769791
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119706"
 ---
 # <a name="msirestartmanagercontrol-property"></a>Propriété MSIRESTARTMANAGERCONTROL
 
@@ -29,13 +29,13 @@ la propriété **MSIRESTARTMANAGERCONTROL** spécifie si le package Windows Inst
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété **MSIRESTARTMANAGERCONTROL** est ignorée si le [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) n’est pas disponible ou est désactivé.
 
 La valeur de cette propriété peut être modifiée à l’aide de transformations ou de mises à niveau de personnalisation. La modification de la valeur de cette propriété à partir d’actions personnalisées n’a aucun effet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

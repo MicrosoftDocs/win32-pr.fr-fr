@@ -4,12 +4,12 @@ ms.assetid: 70ded07a-7be6-4189-a1ae-281917f42a1e
 title: Protection de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4421b07ee4ed88dffe0e46d1121d5d4117b471a84ffcf4f85738bd8be912f09c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd30df8084c91a62c28414f4a8142397ee777e52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809066"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094081"
 ---
 # <a name="memory-protection"></a>Protection de la mémoire
 

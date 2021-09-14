@@ -4,12 +4,12 @@ ms.assetid: ae8319ad-8136-4201-9fcf-ea58ce05f88b
 title: Table MsiPatchSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc529c0f7d1a4cdd1bab568f64507922d6e28f539636600f88dea603c4fe1a52
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a1e63252b98156a5eac1ebdc5ed5d94c7a42ec93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119714"
 ---
 # <a name="msipatchsequence-table"></a>Table MsiPatchSequence
 
@@ -66,7 +66,7 @@ La présence de l’attribut **msidbPatchSequenceSupersedeEarlier** dans une lig
 
 Un correctif de [petite mise à jour](small-updates.md) ne peut pas remplacer une [mise à niveau mineure](minor-upgrades.md) ou une [mise à niveau majeure](major-upgrades.md) en tout cas, même si **msidbPatchSequenceSupersedeEarlier** est défini. 
 
-| Name                                   | Valeur | Signification                                                           |
+| Nom                                   | Valeur | Signification                                                           |
 |----------------------------------------|-------|-------------------------------------------------------------------|
 |                                        | 0x00  | Indique une valeur de séquencement simple.                              |
 | **msidbPatchSequenceSupersedeEarlier** | 0x01  | Indique un correctif qui remplace les correctifs antérieurs dans cette famille. |

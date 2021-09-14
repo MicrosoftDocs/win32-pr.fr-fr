@@ -4,18 +4,18 @@ ms.assetid: 75a2a8d0-e803-4c3e-86ba-3dc77181e277
 title: Screeny, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d420bde071fd0dbbfa28dd712a261618b78426fca58fe1021adb5d8094ca842
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a35b0ae89c8eda4257b1eb962e86a5aa3ff10b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119665"
 ---
 # <a name="screeny-property"></a>Screeny, propriété
 
 Le programme d’installation définit la propriété **screeny** sur la hauteur de l’écran en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

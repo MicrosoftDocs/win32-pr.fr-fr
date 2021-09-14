@@ -4,12 +4,12 @@ ms.assetid: 1ea60477-f6c9-44ae-969c-515dfb0c607e
 title: TSP Unimodem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4562ad7692c288a963db27b6859fa5c472d8ff80017e2726c277fbf9d24452be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 115cc4fd159b2e62062171131f583bad19dc9b00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120011899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118802"
 ---
 # <a name="unimodem-tsp"></a>TSP Unimodem
 

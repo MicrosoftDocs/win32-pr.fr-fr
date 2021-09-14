@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9eab33e5aff861c1afecaafa52e04964ef286c5835e0a6992a3d369210f8927
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6d018d47dd5cbcc8192dee490965bd06c56d0e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093825"
 ---
 # <a name="u-switch"></a>Commutateur/u
 
@@ -38,7 +38,7 @@ Spécifie un nom défini à passer au préprocesseur C comme s’il s’agissait
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Plusieurs directives **/u** peuvent être utilisées dans une ligne de commande. L’espace blanc entre le commutateur **/u** et le nom non défini est facultatif.
 

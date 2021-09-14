@@ -4,12 +4,12 @@ description: Utilisation de plusieurs niveaux de pointeurs dans l’appel de pro
 ms.assetid: d45b9b20-3b21-4d46-9097-8aacb4e4e921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 866c4424679f69daf3a5d88f137d55bd485824ef08498266882d84931a6d03f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a61a917ee29c982505c601d7b0dd0721e94e4678
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119038"
 ---
 # <a name="multiple-levels-of-pointers"></a>Plusieurs niveaux de pointeurs
 

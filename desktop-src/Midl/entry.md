@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f6dab1681cb04adbd48c4a27c14a359c87624870a43c118c6dd1a589689c00f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e596284a83c48bcfc84ef4f7985aed7c33ba7da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093618"
 ---
 # <a name="entry-attribute"></a>entry (attribut)
 
@@ -74,7 +74,7 @@ Spécifie une ou plusieurs instructions de définition d’élément de module.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la variable *EntryID* de l’attribut **\[ entry \]** est une chaîne, il s’agit d’un point d’entrée nommé. Si *EntryID* est un nombre, le point d’entrée est défini par un ordinal. Cet attribut fournit un moyen d’obtenir l’adresse d’une fonction dans un module.
 

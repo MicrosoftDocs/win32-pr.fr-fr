@@ -4,12 +4,12 @@ ms.assetid: 0c4b7183-a43a-4c91-b01e-9f377500ba38
 title: Attribut de contrôle de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 249951290e59d8e76f11cae66ab61956727068c99713ed2e5a18a40c9c9a7522
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c3f4eb83f6f796180d3125025afedbc08d956d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141858"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119658"
 ---
 # <a name="text-control-attribute"></a>Attribut de contrôle de texte
 

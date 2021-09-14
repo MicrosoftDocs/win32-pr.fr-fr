@@ -6,12 +6,12 @@ keywords:
 - Référence de ligne de commande MIDL, syntaxe générale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa3d3ded263237dffa425cebe3dea49b169e3494045cfc8b0d27cc249c5ebed1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14baa145c7be03467a24bd4298cf2f502d93b6ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118384262"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093578"
 ---
 # <a name="general-midl-command-line-syntax"></a>Syntaxe générale de la ligne de commande MIDL
 
@@ -47,7 +47,7 @@ Spécifie le nom du fichier IDL. Ce fichier a généralement l’extension. idl,
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les listes suivantes affichent les noms par défaut des fichiers générés pour un fichier IDL nommé Name. idl. Vous pouvez utiliser des commutateurs de ligne de commande pour remplacer ces noms par défaut. Notez que le nom du fichier IDL peut avoir une extension autre que. idl ou aucune extension.
 

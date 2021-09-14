@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 3b2019756213c4e27accf89162e5ba8c541fe23689246bf2f1f47186505f3766
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8358afdbb303baf623cef6fc32e00d758570d30c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119257"
 ---
 # <a name="getframedstaddressoffset-function"></a>GetFrameDstAddressOffset fonction)
 
@@ -64,19 +64,19 @@ Longueur de l’adresse de destination, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est le décalage (en octets) du type d’adresse demandé.
 
 Si la fonction échoue, la valeur de retour est moins un (-1).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre *AddressType* est défini sur le \_ type d’adresse \_ Ethernet, la valeur de retour de la fonction **GetFrameDstAddressOffset** est toujours égale à zéro. Le décalage d’une adresse Ethernet est toujours égal à zéro.
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetFrameDstAddressOffset** .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

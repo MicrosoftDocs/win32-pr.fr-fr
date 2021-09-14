@@ -4,12 +4,12 @@ ms.assetid: D53BD414-F140-496E-884F-5A4EC4F0AAC4
 title: Événements de suivi de gestion de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb395082d46ddd668cbb91ee396f211a4055472f49682ab75efc90cedca7ad5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73ca05260b6c29ecae765c047691b81a26116fb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809006"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094097"
 ---
 # <a name="memory-management-tracing-events"></a>Événements de suivi de gestion de la mémoire
 

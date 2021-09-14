@@ -4,12 +4,12 @@ ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
 title: Constantes SID de capacité (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e37a06c0bd0115c4f7d05753825477b5de4948d1ddb9576aea46933a63cbf409
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55809cbb341bcbe60578043778bc824e09b8a295
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117783213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118917"
 ---
 # <a name="capability-sid-constants"></a>Constantes SID de capacité
 
@@ -147,11 +147,11 @@ Un compte a accès au stockage amovible.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la construction d’un SID de fonctionnalité, vous devez inclure l’autorité de package, l' \_ \_ \_ autorité {0,0,0,0,0,15} de package d’application de sécurité, dans l’appel à la fonction [**AllocateAndInitializeSid**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid) . En outre, vous avez besoin du RID de base et du nombre RID pour les fonctionnalités intégrées, le RID de base des fonctionnalités de sécurité \_ \_ \_ (0x00000003L) et le \_ nombre RID de capacités builtin de sécurité \_ \_ \_ (2L).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,11 +6,11 @@ ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
 ms.openlocfilehash: 5da0a0e6f9ad3b0559fdf2d8e375e6d25e7d2fdf
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475741"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118898"
 ---
 # <a name="privilege-constants-authorization"></a>Constantes de privilège (autorisation)
 
@@ -83,11 +83,11 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les constantes de privilège sont définies en tant que chaînes dans Winnt. h. par exemple, la \_ constante SE AUDIT \_ NAME est définie sur « SeAuditPrivilege ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

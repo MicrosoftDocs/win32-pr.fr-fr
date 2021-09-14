@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 33911ba5ff55ef5e3dd377613dd98532ecd97486
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093769"
 ---
 # <a name="bindable-attribute"></a>bindable (attribut)
 
@@ -160,6 +160,6 @@ dispinterface MyObject
 [**vararg**](vararg.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

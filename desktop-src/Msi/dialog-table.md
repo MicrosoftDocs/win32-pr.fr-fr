@@ -4,12 +4,12 @@ ms.assetid: 981386dd-4fee-4003-8c62-16933cc5bd14
 title: Table de boîtes de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554bc551b41a7ebeaa8b63b2a0d1b74a0f55cfb1d7a087936a394a060286caba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 09a210ad051eec950dcff8f8f940a1df11bf74c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091582"
 ---
 # <a name="dialog-table"></a>Table de boîtes de dialogue
 
@@ -24,10 +24,10 @@ La table de boîte de dialogue contient les colonnes suivantes.
 | Boîte de dialogue           | [Identificateur](identifier.md)       | O   | N        |
 | HCentering       | [Integer](integer.md)             | N   | N        |
 | VCentering       | [Integer](integer.md)             | N   | N        |
-| Width            | [Integer](integer.md)             | N   | N        |
-| Height           | [Integer](integer.md)             | N   | N        |
+| Largeur            | [Integer](integer.md)             | N   | N        |
+| Hauteur           | [Integer](integer.md)             | N   | N        |
 | Attributs       | [DoubleInteger](doubleinteger.md) | N   | O        |
-| Titre            | [Correct](formatted.md)         | N   | O        |
+| Intitulé            | [Correct](formatted.md)         | N   | O        |
 | \_Premier contrôle   | [Identificateur](identifier.md)       | N   | N        |
 | \_Valeur par défaut du contrôle | [Identificateur](identifier.md)       | N   | O        |
 | Annuler le contrôle \_  | [Identificateur](identifier.md)       | N   | O        |
@@ -132,7 +132,7 @@ Le contrôle Cancel est masqué lors de la restauration ou de la suppression des
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs entières pour la largeur et la hauteur se trouvent dans les [unités d’installation](installer-units.md), et non dans les unités de boîte de dialogue.
 

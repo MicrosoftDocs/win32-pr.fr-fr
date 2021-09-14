@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: 284d6c87bf5a3b26d6c3f379a710966be21006d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516834"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119269"
 ---
 # <a name="getenabledprotocols-function"></a>GetEnabledProtocols fonction)
 
@@ -46,7 +46,7 @@ Handle de la capture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un pointeur vers une structure [PROTOCOLTABLE](protocoltable.md) qui répertorie tous les Protocoles activés dans la capture.
 
@@ -56,7 +56,7 @@ Si la fonction échoue, la valeur de retour est **null**.
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetEnabledProtocols** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

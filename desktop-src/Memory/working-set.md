@@ -4,12 +4,12 @@ ms.assetid: ff05276a-1d40-4844-b649-10e32e3f1937
 title: Plage de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0d5b773098769d5358956099e2c2ed994677e33138ff05ae5a14d1115f09e6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4985e7eb526d5dda8469ccc2f46bfe6fd050c745
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094005"
 ---
 # <a name="working-set"></a>Plage de travail
 

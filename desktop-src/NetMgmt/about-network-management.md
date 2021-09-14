@@ -4,12 +4,12 @@ description: les fonctions de gestion de réseau vous permettent de gérer les p
 ms.assetid: c1c5fba2-95f5-4d47-81ce-0701009d86d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4281aadb0a6585f1a882f58c8edaa13475f9edcbeb5d87ecc9d1d52b6dbeed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 609155e595e02ce9ec1f6231c7280078f84e1623
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119326"
 ---
 # <a name="about-network-management"></a>À propos de la gestion de réseau
 

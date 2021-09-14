@@ -4,12 +4,12 @@ ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
 title: WLAN_REASON_CODE (wlanapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f24b0ab902610408eb7b80b4a962fcc81d4598244714b8f30f0ebf350a7e628
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba0ae705244541063564431809cffa953a0f3fd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119374"
 ---
 # <a name="wlan_reason_code"></a>\_Code de raison WLAN \_
 
@@ -273,7 +273,7 @@ Le tableau suivant répertorie les codes de raison 802.1 X. Les éléments de sc
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 un ensemble limité de codes de raison est pris en charge sur Windows xp avec service pack 3 (SP3) et sur l’API de réseau local sans fil pour Windows XP avec service pack 2 (SP2). les codes d’erreur de validation de profil pris en charge sur Windows xp avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
 
@@ -301,7 +301,7 @@ les codes d’erreur 802.1 x pris en charge sur Windows xp avec SP3 et sur l’A
 -   \_mode d' \_ authentification non valide du profil \_ Onex \_
 -   \_Propriétés de \_ \_ connexion EAP \_ non valide du profil Onex \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

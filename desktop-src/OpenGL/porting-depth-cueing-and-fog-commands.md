@@ -15,12 +15,12 @@ keywords:
 - brouillard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05cb71e15b109b792f892f00f506f654ddd0bfd25118c3bef268e245c6588777
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fd9f65a29e0ae594bf9344cd960d3fc2b9aa646
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119138"
 ---
 # <a name="porting-depth-cueing-and-fog-commands"></a>Cueing de profondeur de Portage et commandes de brouillard
 

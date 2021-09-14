@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Wzcsapi.dll
 ms.openlocfilehash: b2a2c886f59843dd1bf1316053c603faf4cc112a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867901"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119338"
 ---
 # <a name="wzcenuminterfaces-function"></a>WZCEnumInterfaces fonction)
 
-\[**WZCEnumInterfaces** n’est plus pris en charge à compter de Windows Vista et de windows Server 2008. Utilisez plutôt la fonction [**WlanEnumInterfaces**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces) . Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**WZCEnumInterfaces** n’est plus pris en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt la fonction [**WlanEnumInterfaces**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces) . Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 La fonction **WZCEnumInterfaces** énumère toutes les interfaces de réseau local sans fil gérées par le service de configuration sans fil Zero.
 
@@ -58,7 +58,7 @@ Pointeur vers une structure [**de \_ \_ table de clé INTFS**](intfs-key-table.m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
@@ -87,7 +87,7 @@ Pour les appels suivants à d’autres fonctions de configuration sans fil sans 
 Si le **WZCEnumInterfaces** retourne \_ une erreur, l’appelant doit appeler [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) pour libérer les mémoires tampons internes allouées pour les données retournées une fois que ces informations ne sont plus nécessaires.
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* et le fichier de bibliothèque d’importation *wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* et le fichier de bibliothèque d’importation *Wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
 
  
 
@@ -96,7 +96,7 @@ Si le **WZCEnumInterfaces** retourne \_ une erreur, l’appelant doit appeler [*
 L’exemple suivant énumère les interfaces de réseau local sans fil sur l’ordinateur local géré par le service de configuration sans fil Zero et imprime la valeur du GUID d’interface pour chaque interface.
 
 > [!Note]  
-> Cet exemple échoue sur Windows Vista et versions ultérieures.
+> cet exemple échouera sur Windows Vista et versions ultérieures.
 
  
 
@@ -228,14 +228,14 @@ int wmain()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                         |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl>   |

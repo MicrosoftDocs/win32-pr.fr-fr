@@ -4,12 +4,12 @@ description: La procédure suivante décrit comment utiliser le gestionnaire de 
 ms.assetid: 8d2b4129-c595-4b11-9771-6dc953f4db40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 764086166fc895d44f1a555f453d2941487c5d999adfa8d38581a12f07c9c45c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38956ee8d04bc377809e93579080d9b767c3da3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118957"
 ---
 # <a name="using-restart-manager-with-a-primary-installer"></a>Utilisation du gestionnaire de redémarrage avec un programme d’installation principal
 

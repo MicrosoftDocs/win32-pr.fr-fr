@@ -4,12 +4,12 @@ ms.assetid: a3c1e7fb-5f97-41db-bdc8-bd3ddb695c42
 title: Table MsiPatchOldAssemblyFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4570b862773d2dc1d5b9c7458dbc1ccd8825ce77bf504d5e0fb2bf116d7a095
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c995e4f6d6622dd3d7d1c96c9ef1297a787b66d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119559079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119737"
 ---
 # <a name="msipatcholdassemblyfile-table"></a>Table MsiPatchOldAssemblyFile
 
@@ -46,7 +46,7 @@ Clé étrangère vers la [table MsiPatchOldAssemblyName](msipatcholdassemblyname
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Windows Le programme d’installation utilise la table MsiPatchOldAssemblyFile et la [table MsiPatchOldAssemblyName](msipatcholdassemblyname-table.md) lors de la mise à jour corrective des assemblys installés dans le global assembly cache (GAC). Lors de la publication d’une version plus récente d’un assembly, le nom fort de l’assembly est modifié. Les deux tables identifient ensemble l’ancien nom d’assembly pour un assembly mis à jour. Cela permet au programme d’installation d’utiliser l’ancien nom d’assembly pour rechercher le fichier d’origine dans le GAC et d’appliquer un correctif binaire. Sans ces informations, le programme d’installation devra peut-être accéder à la source d’installation d’origine afin de corriger un assembly installé dans le GAC.
 

@@ -4,12 +4,12 @@ ms.assetid: 1b4fb5d1-49d3-40fb-8557-db16eea880aa
 title: contrôle d’édition (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d31a486e11a3a3cf0553c73e00ab745b5135d13553bc8c72831e63de37a7f2c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8b9d37dadbb955732b52a07c472b52efe95c75f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091433"
 ---
 # <a name="edit-control-windows-installer"></a>contrôle d’édition (Windows Installer)
 
@@ -44,7 +44,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe EDIT à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ WS Border**, **WS \_ Child**, **WS \_ TABSTOP** et **WS \_ Group** .
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e77eb93a78553ccbc95b1671dc215012eeccc56b0bff8ea23e47f68aaf51e10b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 379aa3cbef4df872f8b133017b1b06a6c73e8181
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117807335"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093733"
 ---
 # <a name="callback-attribute"></a>attribut de rappel
 
@@ -54,7 +54,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -75,7 +75,7 @@ Spécifie un déclarateur C standard, comme des identificateurs, des déclarateu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction de **\[ rappel \]** est utile lorsque le serveur doit obtenir des informations à partir du client. si les applications serveur étaient prises en charge sur Windows 3. *x*, le serveur peut passer un appel à une procédure distante sur le Windows 3. *x* Server pour obtenir les informations nécessaires. La fonction de rappel remplit la même fonction et permet au serveur d’interroger le client à la recherche d’informations dans le contexte de l’appel d’origine.
 
@@ -119,10 +119,10 @@ Les rappels peuvent être imbriqués à n’importe quelle profondeur.
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
 [**/osf**](-osf.md)

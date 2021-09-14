@@ -4,12 +4,12 @@ ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
 title: Message WM_POWER (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd525b4bf229fdb04dac4c1d1492a52dad44317344f58a2f0807ba9afbdc962
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc53fd165ee1cefe8970f85daea04b931a673b33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119070"
 ---
 # <a name="wm_power-message"></a>\_Message d’alimentation WM
 
@@ -78,17 +78,17 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur retournée par une application dépend de la valeur du paramètre *wParam* . Si *wParam* est **un \_ SUSPENDREQUEST PWR**, la valeur de retour est la valeur **PWR \_ échoue** pour empêcher le système de passer à l’État Suspended ; sinon, il s’agit d’un **PWR \_ OK**. Si *wParam* est **PWR \_ SUSPENDRESUME** ou **PWR \_ CRITICALRESUME**, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est diffusé uniquement à une application qui s’exécute sur un système qui est conforme à la spécification BIOS (Advanced Power Management System) de base de la gestion avancée de l’alimentation (APM). Le message est diffusé par le pilote de gestion de l’alimentation à chaque fenêtre retournée par la fonction **EnumWindows** .
 
 Le mode suspendu est l’État dans lequel la plus grande quantité d’économies d’énergie se produit, mais toutes les données et tous les paramètres opérationnels sont conservés. Le contenu de la mémoire vive (RAM) est conservé, mais de nombreux appareils sont susceptibles d’être désactivés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

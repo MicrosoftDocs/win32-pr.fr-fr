@@ -4,12 +4,12 @@ ms.assetid: d4c022d2-a8c4-4b4e-8a6c-b14e1bc6effe
 title: Incorporation de transformations de personnalisation en tant que sous-stockage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 175c2bd1e52a58d6c73e1e46f8b95501b016bc0e4e1069b86c9c53f47859f20c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfd275d36b37b2e29ae166a2a464a62495d2ca9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947000"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091418"
 ---
 # <a name="embedding-customization-transforms-as-substorage"></a>Incorporation de transformations de personnalisation en tant que sous-stockage
 

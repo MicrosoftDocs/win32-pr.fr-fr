@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93753d1aa73d378ff093cf2d315e144461f466a42910e1778060be05defb911a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4d6e54b963c9637c4f5a583fc9d8f44a0f2880e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119014137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093894"
 ---
 # <a name="no_format_opt-switch"></a>commutateur d’option de mise en forme de/non \_ \_
 
@@ -31,7 +31,7 @@ midl /no_format_opt
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, MIDL élimine les descripteurs de type et de procédure en double afin de réduire la taille du code stub généré. L’utilisation du commutateur **\_ \_ OPT au format/non** désactive ce comportement d’optimisation.
 

@@ -6,12 +6,12 @@ keywords:
 - MIDL du compilateur MIDL, MIDL et RPC MIDL, fichiers générés pour RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa7b1735c4312013d42f667d27498f40b502846118e61be1697ae78368a41fff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76e6725d50bd4ccffdfb85ffc283e3f74d0f1628
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093601"
 ---
 # <a name="files-generated-for-an-rpc-interface"></a>Fichiers générés pour une interface RPC
 

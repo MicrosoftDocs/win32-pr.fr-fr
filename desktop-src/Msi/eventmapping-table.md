@@ -4,12 +4,12 @@ ms.assetid: 63c9ba3e-aa8a-475b-8360-4aec78ed19db
 title: Table EventMapping
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f17380e3e91669926ef50532c36fec71f44d61eb2ed7273d053defe45fa874e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d6e9a7b5b4283b5d70102123dcb11e3e9e844221
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119963109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091306"
 ---
 # <a name="eventmapping-table"></a>Table EventMapping
 
@@ -21,7 +21,7 @@ La table EventMapping contient les colonnes suivantes.
 
 | Colonne    | Type                         | Clé | Nullable |
 |-----------|------------------------------|-----|----------|
-| Boîte de dialogue\_  | [Identificateur](identifier.md) | O   | N        |
+| Dialogue\_  | [Identificateur](identifier.md) | O   | N        |
 | contrôle\_ | [Identificateur](identifier.md) | O   | N        |
 | Événement     | [Identificateur](identifier.md) | O   | N        |
 | Attribut | [Identificateur](identifier.md) | N   | N        |
@@ -62,7 +62,7 @@ Nom de l’attribut de contrôle \_ défini lors de la réception de l’événe
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La [table ControlEvent,](controlevent-table.md) spécifie les événements de contrôle qui sont démarrés lorsqu’un utilisateur interagit avec un contrôle de [bouton](pushbutton-control.md)de commande, un [contrôle de case à cocher](checkbox-control.md)ou un [contrôle SelectionTree](selectiontree-control.md). Il s’agit des seuls contrôles qu’un utilisateur peut utiliser pour initier des événements de contrôle.
 

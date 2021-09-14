@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, référence, autres types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b4b3f04ae25af92a6e0a80c8d4727a45dc7306ce54ee5e69361587de875fda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 173adedfc53bebe6c1985e2dd750b71ab8de9373
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119010"
 ---
 # <a name="other-rpc-types"></a>Autres types RPC
 

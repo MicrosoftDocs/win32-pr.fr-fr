@@ -4,12 +4,12 @@ ms.assetid: 8a2e8683-502a-4893-8b4f-5e2cf464a933
 title: Types de données des compteurs de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23208978cfc3c0a67c7547598f26e506a5571a54d0d5ddfc93b7ecff38f9c559
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38f9800288494eb82f675265b6e0b801c783668d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119674739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119101"
 ---
 # <a name="performance-counters-data-types"></a>Types de données des compteurs de performances
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c93d61bff28ad0aa4306047755c88419d0b925431f9b3ea476ec957dcd62b98
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 62ed845c73c36fbbfe4ea7dea952ee4541b043a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093890"
 ---
 # <a name="no_def_idir-switch"></a>\_commutateur/non Def \_ idir
 
@@ -31,7 +31,7 @@ midl /no_def_idir
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand aucun répertoire n’est spécifié avec le commutateur [**/i**](-i.md) , le commutateur **/non \_ Def \_ idir** demande au compilateur MIDL de rechercher uniquement le répertoire actif.
 

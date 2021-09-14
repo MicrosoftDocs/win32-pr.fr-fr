@@ -4,12 +4,12 @@ description: Pour qu’un client crée une session mutuellement authentifiée av
 ms.assetid: 4d9977f8-0efb-4559-977e-3eba4e277bc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19c0ba17916fb9f9c91ac959ea961c19d0f0a03e31d4caa11784dc123b54c5a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 554ffecff6eb019b4712e6b2d9f5c6319db492e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118927218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119001"
 ---
 # <a name="principal-names"></a>Noms principaux
 

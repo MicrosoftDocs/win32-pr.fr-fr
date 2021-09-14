@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dea4951a407f09c1407c6e897938460d780e0429e888210e7e1ade392b5e94af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4383df496a791859f7249766f0dbb59266d28e93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119383179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093626"
 ---
 # <a name="endpoint-attribute"></a>attribut de point de terminaison
 
@@ -45,7 +45,7 @@ Spécifie une chaîne qui représente la désignation du point de terminaison po
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **\[ point de terminaison \]** spécifie une famille de transport telle que le protocole orienté connexion TCP/IP, un protocole orienté connexion NetBIOS ou le protocole orienté connexion de canal nommé. L’utilisation de l’attribut de **\[ point de terminaison \]** est cohérente avec d’autres méthodes pour ajouter un point de terminaison, et ne fournit pas de services supplémentaires ou spéciaux pour le point de terminaison ; il fournit simplement un raccourci pour appeler l’API.
 

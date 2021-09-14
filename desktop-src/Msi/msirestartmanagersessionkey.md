@@ -4,22 +4,22 @@ ms.assetid: efbf11f2-38ab-4509-aa01-23fa8cfdaa60
 title: Propriété MsiRestartManagerSessionKey
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f48fe8d2ce4b287afc5c222acdc1f71eec393ff9a1ab1773a822e30405e6a317
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 489095e0af617c7ae403811f0eab800c5502e3bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119702"
 ---
 # <a name="msirestartmanagersessionkey-property"></a>Propriété MsiRestartManagerSessionKey
 
 Le programme d’installation définit la valeur de la propriété **MsiRestartManagerSessionKey** sur la clé de session pour la session du [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) . Les actions personnalisées peuvent utiliser la clé de session pour rejoindre la session du [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le programme d’installation définit la valeur de la propriété **MsiRestartManagerSessionKey** lors de l’initialisation, puis efface la valeur lors de l’action [InstallValidate](installvalidate-action.md) . Les actions personnalisées qui ont besoin de la valeur de la propriété **MsiRestartManagerSessionKey** doivent être prévenues de l’action InstallValidate dans la séquence d’action.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

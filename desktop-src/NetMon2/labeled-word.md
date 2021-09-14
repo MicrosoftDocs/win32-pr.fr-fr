@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Netmon.h
 ms.openlocfilehash: 445b24245d2e9d15c1c2b6d69de20c464cbf1724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119221"
 ---
 # <a name="labeled_word-structure"></a>Structure de mot ÉTIQUETÉe \_
 
@@ -58,7 +58,7 @@ Description textuelle ou étiquette qui s’affiche lorsque la valeur de mot sp�
 
 Le membre **lpLabeledWordTable** de la structure [Set](set.md) pointe vers un tableau de structures Set pour définir une ou plusieurs paires valeur d’étiquette. Ces paires sont utilisées lorsque vous souhaitez afficher une étiquette à la place d’une valeur de mot spécifique trouvée dans un paquet de protocole.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

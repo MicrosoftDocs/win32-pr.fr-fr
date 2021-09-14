@@ -5,11 +5,11 @@ title: Structures de gestion de la mémoire
 ms.topic: article
 ms.date: 11/06/2018
 ms.openlocfilehash: dc9f2837941c26f0ff9fed5b7d65a00f6bd254a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953170"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094098"
 ---
 # <a name="memory-management-structures"></a>Structures de gestion de la mémoire
 
@@ -19,7 +19,7 @@ Les structures suivantes sont utilisées avec la gestion de la mémoire.
 
 | Rubrique | Description |
 |-|-|
-| [**\_ \_ informations sur la cible d’appel cfg \_**](-cfg-call-target-info.md) | Représente des informations sur les cibles d’appel pour la protection du workflow de contrôle (CFG). |
+| [**\_ \_ informations sur la cible d’appel cfg \_**](-cfg-call-target-info.md) | représente des informations sur les cibles d’appel pour Control Flow Guard (CFG). |
 | [**\_ \_ informations sur les ressources d’optimisation du tas \_**](/windows/desktop/api/winnt/ns-winnt-heap_optimize_resources_information) | Spécifie des indicateurs pour une opération HeapOptimizeResources lancée avec [**HeapSetInformation**](/windows/desktop/api/HeapApi/nf-heapapi-heapsetinformation). |
 | [**\_ \_ exigences relatives à l’adresse mémoire**](/windows/desktop/api/winnt/ns-winnt-mem_address_requirements) | Spécifie l’adresse de base et l’alignement les plus bas et les plus hauts dans le cadre d’un paramètre étendu à une fonction qui gère la mémoire virtuelle. |
 | [**MEM \_ ( \_ paramètre étendu)**](/windows/desktop/api/winnt/ns-winnt-mem_extended_parameter) | Représente un paramètre étendu pour une fonction qui gère la mémoire virtuelle. |

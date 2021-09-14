@@ -1,21 +1,21 @@
 ---
 description: Des modifications significatives ont été apportées au modèle de services pour améliorer les performances, la fiabilité, la sécurité, la gestion et l’administration des services.
 ms.assetid: b1c09468-51e1-4ffd-bf07-6faa9f9336dd
-title: Modifications de service pour Windows Vista
+title: modifications de Service pour Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e6ba96cc0c69e2bda4e19e7d093098c578e31c4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862386"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118853"
 ---
-# <a name="service-changes-for-windows-vista"></a>Modifications de service pour Windows Vista
+# <a name="service-changes-for-windows-vista"></a>modifications de Service pour Windows Vista
 
 Des modifications significatives ont été apportées au modèle de services pour améliorer les performances, la fiabilité, la sécurité, la gestion et l’administration des services.
 
-Le tableau suivant résume les améliorations apportées aux services pour Windows Vista.
+le tableau suivant résume les améliorations apportées aux services pour Windows Vista.
 
 
 
@@ -28,7 +28,7 @@ Le tableau suivant résume les améliorations apportées aux services pour Windo
 | <span id="Running_with_Least_Privilege"></span><span id="running_with_least_privilege"></span><span id="RUNNING_WITH_LEAST_PRIVILEGE"></span>Exécution avec privilèges minimum<br/>                         | Les services peuvent s’exécuter sous n’importe quel compte qui contient les privilèges requis (LocalService, NetworkService, LocalSystem, un compte de domaine ou un compte local) et indiquer les privilèges requis en appelant [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) avec les **\_ \_ \_ \_ informations de privilèges requis** pour la configuration de service. Le SCM supprime tous les privilèges qui ne sont pas requis.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="Service_Isolation"></span><span id="service_isolation"></span><span id="SERVICE_ISOLATION"></span>Isolation du service<br/>                                                                     | Un service peut isoler des objets, tels que des fichiers ou des clés de Registre, pour son usage exclusif en les sécurisant à l’aide d’une entrée de contrôle d’accès qui contient un SID de service. Une fois ce SID affecté à un service, le propriétaire du service peut modifier les listes de contrôle d’accès des objets pour accorder l’accès au SID. Cela permet à un service d’accéder à des objets spécifiques sans s’exécuter sous un compte à privilèges élevés ou réduire la sécurité sur les objets. Pour définir le SID du service, appelez [**ChangeServiceConfig2**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfig2a) avec les **\_ \_ \_ \_ informations SID du service de configuration de service**.<br/>                                                                                                                                                                                                                                     |
 | <span id="Service_State_Change_Notifications"></span><span id="service_state_change_notifications"></span><span id="SERVICE_STATE_CHANGE_NOTIFICATIONS"></span>Notifications de modification de l’état du service<br/> | Les services peuvent s’inscrire pour être avertis lorsqu’un service est créé, supprimé ou a une modification de l’État à l’aide de la fonction [**NotifyServiceStatusChange**](/windows/desktop/api/Winsvc/nf-winsvc-notifyservicestatuschangea) . Cela est plus efficace que l’appel de la fonction [**QueryServiceStatusEx**](/windows/desktop/api/Winsvc/nf-winsvc-queryservicestatusex) dans une boucle pour interroger l’État.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| <span id="Session_0_Isolation"></span><span id="session_0_isolation"></span><span id="SESSION_0_ISOLATION"></span>Isolation de la session 0<br/>                                                             | Les services s’exécutent toujours dans la session 0. Avant Windows Vista, le premier utilisateur à se connecter était également affecté à la session 0. À présent, la session 0 est réservée exclusivement aux services et autres applications qui ne sont pas associés à une session utilisateur interactive. (Le premier utilisateur à se connecter est connecté à la session 1, le deuxième utilisateur à se connecter est connecté à la session 2, et ainsi de suite.) La session 0 ne prend pas en charge les processus qui interagissent avec l’utilisateur.<br/> Cette modification signifie qu’un service ne peut pas poster ou envoyer un message à une application et qu’une application ne peut pas envoyer ou poster un message à un service. En outre, les services ne peuvent pas afficher directement un élément de l’interface utilisateur, par exemple une boîte de dialogue. Un service peut utiliser la fonction [**WTSSendMessage**](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssendmessagea) pour afficher une boîte de dialogue dans une autre session.<br/> |
+| <span id="Session_0_Isolation"></span><span id="session_0_isolation"></span><span id="SESSION_0_ISOLATION"></span>Isolation de la session 0<br/>                                                             | Les services s’exécutent toujours dans la session 0. avant Windows Vista, le premier utilisateur à se connecter était également affecté à la session 0. À présent, la session 0 est réservée exclusivement aux services et autres applications qui ne sont pas associés à une session utilisateur interactive. (Le premier utilisateur à se connecter est connecté à la session 1, le deuxième utilisateur à se connecter est connecté à la session 2, et ainsi de suite.) La session 0 ne prend pas en charge les processus qui interagissent avec l’utilisateur.<br/> Cette modification signifie qu’un service ne peut pas poster ou envoyer un message à une application et qu’une application ne peut pas envoyer ou poster un message à un service. En outre, les services ne peuvent pas afficher directement un élément de l’interface utilisateur, par exemple une boîte de dialogue. Un service peut utiliser la fonction [**WTSSendMessage**](/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssendmessagea) pour afficher une boîte de dialogue dans une autre session.<br/> |
 
 
 

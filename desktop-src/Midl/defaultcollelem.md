@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 45fdbd59ca954d955fc5598b2bc2dc7a39ee14b2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031186"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093681"
 ---
 # <a name="defaultcollelem-attribute"></a>defaultcollelem (attribut)
 
@@ -45,7 +45,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de la propriété* 
+*property-name* 
 </dt> <dd>
 
 Nom de la propriété.
@@ -114,6 +114,6 @@ End Sub
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

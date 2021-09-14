@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fecf58696618f1f0f359754bc29aa10680dd1717fe55ffe9fc3e87d0b361b76f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4448693c1c1ab19b2ea13050cc9ab817bdc25e7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118355342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118790"
 ---
 # <a name="valuequeries-eventtriggertype-element"></a>Élément ValueQueries (eventTriggerType)
 
@@ -43,7 +43,7 @@ L’élément **ValueQueries** est défini par le type complexe [**eventTriggerT
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété ValueQueries de IEventTrigger**](/windows/desktop/api/taskschd/nf-taskschd-ieventtrigger-get_valuequeries).
 
@@ -53,7 +53,7 @@ Pour le développement de scripts, consultez [**EventTrigger. ValueQueries**](ev
 
 Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déclencheur d’événement à l’aide de cet élément, consultez [exemple de déclencheur d’événements (XML)](/previous-versions//aa446889(v=vs.85)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

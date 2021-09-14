@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 7c50945b8de53b6d058556e3b5c995d3ec17bfdc8f8d55ec3dc2e6e56089b2a1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 14bf40538eafb3c8e78b68b7a435d0d37d401960
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119800759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119382"
 ---
 # <a name="maxstart-onex-element"></a>Élément maxStart (OneX)
 
@@ -46,7 +46,7 @@ Cet élément est facultatif. Quand maxStart n’est pas spécifié dans un prof
 
 L’élément **Maxstart** est défini par l’élément [**Onex**](onexschema-onex-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

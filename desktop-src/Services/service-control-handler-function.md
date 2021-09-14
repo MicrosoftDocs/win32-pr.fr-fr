@@ -5,11 +5,11 @@ title: Fonction du gestionnaire de contrôle des services
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1303bff45421ee7206d02be9ee30066324648823
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118845"
 ---
 # <a name="service-control-handler-function"></a>Fonction du gestionnaire de contrôle des services
 
@@ -23,7 +23,7 @@ Un programme de contrôle de service peut envoyer des demandes de contrôle à l
 
 Si un service accepte le code de contrôle d' **\_ \_ arrêt du contrôle de service** , il doit s’arrêter lors de la réception, en accédant à l’état d’arrêt du **service \_ \_ en attente** ou d' **\_ arrêt du service** . Une fois que le SCM a envoyé ce code de contrôle, il n’envoie pas d’autres codes de contrôle.
 
-**Windows XP :** Si le service **ne retourne aucune \_ erreur** et continue à s’exécuter, il continue à recevoir les codes de contrôle. Ce comportement a été modifié à partir de Windows Server 2003 et Windows XP avec Service Pack 2 (SP2).
+**Windows XP :** Si le service **ne retourne aucune \_ erreur** et continue à s’exécuter, il continue à recevoir les codes de contrôle. ce comportement a été modifié à partir de Windows Server 2003 et Windows XP avec Service Pack 2 (SP2).
 
 Le gestionnaire de contrôle doit retourner dans un délai de 30 secondes, sinon le SCM renvoie une erreur. Si un service doit effectuer un traitement long lorsque le service exécute le gestionnaire de contrôle, il doit créer un thread secondaire pour effectuer le traitement long, puis retourner à partir du gestionnaire de contrôle. Cela empêche le service de relier le répartiteur de contrôle. Par exemple, lors de la gestion de la demande d’arrêt pour un service qui prend beaucoup de temps, créez un autre thread pour gérer le processus d’arrêt. Le gestionnaire de contrôle doit simplement appeler [**SetServiceStatus**](/windows/desktop/api/Winsvc/nf-winsvc-setservicestatus) avec le service qui arrête le message **\_ \_ en attente** et retourne.
 

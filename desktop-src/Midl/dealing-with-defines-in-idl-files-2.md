@@ -7,12 +7,12 @@ keywords:
 - définit MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c8a63423943d72326b16d53272f63d6efbe7d614661990560b00989be04cf1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b4af77979824c2e76352d6f28bef72161249845d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093690"
 ---
 # <a name="dealing-with-defines-in-idl-files"></a>Gestion des \# définitions dans les fichiers IDL
 

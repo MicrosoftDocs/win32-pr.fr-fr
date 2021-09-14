@@ -4,12 +4,12 @@ description: L’API d’assistance IP est utilisée par une application pour co
 ms.assetid: 67dbe639-aff5-4628-9471-63f50504962d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e977dd585f9759a4eef93daca55e0ff95abdc98085393577afabb4ae6e5908ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3e5936ce9987262fe24cfd6cf718a426b6123b89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119990799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118770"
 ---
 # <a name="using-teredo-with-ip-helper"></a>Utilisation de Teredo avec l’assistance IP
 

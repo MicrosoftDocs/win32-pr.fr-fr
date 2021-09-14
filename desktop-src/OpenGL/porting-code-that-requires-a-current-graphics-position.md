@@ -11,12 +11,12 @@ keywords:
 - positions raster
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2354264ed5ad022c0657c95a31007ad33df2882d3c9ab2c44cfafeea99b53d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd7e7cbbaf0a22385c83569775758e24f70cd210
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119485789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119157"
 ---
 # <a name="port-code-that-needs-a-current-graphics-position"></a>Code de port qui a besoin d’une position graphique actuelle
 

@@ -4,12 +4,12 @@ description: L’exemple de code suivant montre comment créer un nouveau compte
 ms.assetid: 1e180b8e-b948-4836-b789-cb9dff0829e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d9b54b3e3b157bfed33b3f2429024e005b9b859bba563c0173b2ca02ab5f499
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfd02a9d2053310c50e40957e6afee6e3a4a5ab1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119309"
 ---
 # <a name="creating-a-new-computer-account"></a>Création d’un compte d’ordinateur
 

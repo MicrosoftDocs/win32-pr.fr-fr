@@ -4,12 +4,12 @@ ms.assetid: 088e91e0-734a-4f18-8ceb-cfa4f904f75c
 title: ScriptInProgress ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b2e92baf6f1ad3fd4a7ffb714aede88dc90d664564dd5d18f4c97e4d3bdc8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 788fdc9c0acec5979a835a6cd2a0ec09cc6f0c38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119662"
 ---
 # <a name="scriptinprogress-controlevent"></a>ScriptInProgress ControlEvent,
 

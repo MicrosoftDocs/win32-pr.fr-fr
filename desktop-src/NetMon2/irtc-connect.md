@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: da7ff72414a1702a1849f76f658f0fbf85116b9b831e800148d5a6165da7ac17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba62f3341b18ddfdbf09af4eec701322d901ab79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119234"
 ---
 # <a name="irtcconnect-method"></a>IRTC :: Connecter, méthode
 
@@ -79,7 +79,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -104,7 +104,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque la méthode **Connecter** est appelée, le NPP appelle automatiquement la méthode **IRTC :: configure** à l’aide de l’objet BLOB fourni par *hInputBlob*. notez que les codes d’erreur retournés par l’appel à **IRTC :: configure** sont passés en retour et retournés par l’appel de **IRTC :: Connecter** .
 
@@ -126,7 +126,7 @@ L’objet BLOB d’erreur retourné dans *hErrorBlob* contient des informations 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

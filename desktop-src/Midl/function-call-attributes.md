@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, appel de fonction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3800b62bb6b94aac330ecf0b06761d62227a4ed6100f2fabdde5b61cd952d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4d53407abf464d7b201c49d9cb2b1d3f3625b9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093581"
 ---
 # <a name="function-call-attributes"></a>Attributs d’appel de fonction
 
@@ -27,7 +27,7 @@ Les programmes peuvent utiliser ces attributs sur des fonctions individuelles au
 | [**idempotent**](idempotent.md) | L’appel ne change pas d’État et retourne les mêmes informations chaque fois qu’il est appelé avec les mêmes paramètres d’entrée.                                                                                                                                     |
 | [**rappel**](callback.md)     | Désigne une fonction qui réside dans l’application cliente, que le serveur peut appeler pour obtenir des informations à partir du client.                                                                                                                             |
 | [**appeler \_ en tant que**](call-as.md)      | Cartes une fonction qui n’est pas accessible à distance à un appel de procédure distante.                                                                                                                                                                                                   |
-| [**local**](local.md)           | Désigne une procédure locale pour laquelle MIDL ne génère pas de code stub.                                                                                                                                                                                   |
+| [**localisé**](local.md)           | Désigne une procédure locale pour laquelle MIDL ne génère pas de code stub.                                                                                                                                                                                   |
 
 
 

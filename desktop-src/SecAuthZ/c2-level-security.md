@@ -4,12 +4,12 @@ ms.assetid: e81f31bb-6314-4493-844a-65032e3cf90b
 title: Sécurité de niveau C2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e6b3ec6070c681ab5b4db2214656dbf3e1f9bbd2a8798e0edc9d29cf72b9bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1653221b30d6556e4b0c6c1fd2eec194b46d7bf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117783615"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118918"
 ---
 # <a name="c2-level-security"></a>Sécurité de niveau C2
 

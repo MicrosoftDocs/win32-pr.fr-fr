@@ -4,12 +4,12 @@ ms.assetid: afa3fbd9-9f54-4f72-ab5d-cb0dbbd9946c
 title: Détermination de la page de codes d’une base de données d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89825c99e0652c0ef324c99f8906281f3c87ed58bef099886220faa6a9311583
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 212978cbce0e73ae495a0ed10ea9070cce6bd374
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118637848"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091614"
 ---
 # <a name="determining-an-installation-databases-code-page"></a>Détermination de la page de codes d’une base de données d’installation
 

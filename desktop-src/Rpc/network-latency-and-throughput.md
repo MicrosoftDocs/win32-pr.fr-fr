@@ -4,12 +4,12 @@ description: Latence du réseau et débit avec appel de procédure distante (RPC
 ms.assetid: 8285fd73-eb54-4c06-b01a-1bffafb7e675
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e6b0989b7edf6e448a0cb2cbd78b46e4728833ebf67d7985d22bec2981721b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5c51c4db75b904ac5feae8c4a1cc5965fc2b06e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019625"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119026"
 ---
 # <a name="network-latency-and-throughput"></a>Latence et débit du réseau
 

@@ -4,12 +4,12 @@ ms.assetid: 6e0b391a-d840-4f01-af12-4708ce6c9ce8
 title: Propriété MsiPatchRemovalList
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93df2cdfc658875526c049ca7503e66a5c318df896a604a82c18751ac3358285
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2af522d9570297f2ff911b501bc543cf4b5971c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119721"
 ---
 # <a name="msipatchremovallist-property"></a>Propriété MsiPatchRemovalList
 
@@ -19,11 +19,11 @@ les développeurs peuvent utiliser la propriété **MsiPatchRemovalList** pour c
 
 L’action personnalisée peut obtenir les GUID des correctifs qui sont supprimés de la valeur de la propriété **MsiPatchRemovalList** . L’action personnalisée peut déterminer si l’état d’installation du correctif est appliqué, obsolète ou remplacé en appelant la fonction [**MsiGetPatchInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa) ou la propriété [**PatchProperty**](patch-patchproperty.md) de l' [objet patch](patch-object.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la suppression des correctifs, consultez [suppression des correctifs](removing-patches.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

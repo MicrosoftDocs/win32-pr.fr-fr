@@ -4,12 +4,12 @@ ms.assetid: c7976de9-65f4-4552-8f8c-e7a32ef4821d
 title: Action DeleteServices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bd00b9d077239402817bdf40dc10ee1de9bdbff4b52998742434933c3e9dd8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c5fc22bbb0c11cd546f1ffbb9f3ad98e06efae3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091634"
 ---
 # <a name="deleteservices-action"></a>Action DeleteServices
 
@@ -38,7 +38,7 @@ Les actions des services doivent être utilisées dans l’ordre suivant :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette action nécessite que l’utilisateur soit un administrateur ou qu’il dispose de privilèges élevés avec l’autorisation de supprimer des services ou que l’application fasse partie d’une installation gérée.
 

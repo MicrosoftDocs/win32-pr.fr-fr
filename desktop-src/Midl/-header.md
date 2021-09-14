@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 816310f0b584f3c30d351e0d036e1f18c2f23962
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093933"
 ---
 # <a name="header-switch"></a>commutateur/Header
 
@@ -72,9 +72,9 @@ Si *filename* n’inclut pas de chemin d’accès explicite, le fichier est écr
 [**/proxy**](-proxy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

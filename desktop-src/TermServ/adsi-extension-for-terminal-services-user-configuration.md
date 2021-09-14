@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ee18d197d4b185f0563c36b7fbdb673908324476
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316043"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118758"
 ---
 # <a name="adsi-extension-for-remote-desktop-services-user-configuration"></a>Extension ADSI pour la configuration de l’utilisateur Services Bureau à distance
 
@@ -20,7 +20,7 @@ Une extension ADSI (Active Directory Service Interface) est un objet COM spécia
 
 L’extension ADSI pour Services Bureau à distance Configuration utilisateur étend un objet ADSI qui permet aux administrateurs de domaine d’écrire des scripts qui automatisent la maintenance des propriétés utilisateur spécifiques à Services Bureau à distance.
 
-L’extension ADSI pour Services Bureau à distance Configuration utilisateur est incluse dans Windows Server.
+l’extension ADSI pour Services Bureau à distance configuration utilisateur est incluse dans Windows Server.
 
 Pour plus d'informations, voir les rubriques suivantes :
 
@@ -29,6 +29,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 Pour obtenir des informations générales sur ADSI, consultez [Extensions ADSI](/windows/desktop/ADSI/adsi-extensions), [le cache des attributs ADSI](/windows/desktop/ADSI/the-adsi-attribute-cache)et [Active Directory interfaces de service](/windows/desktop/ADSI/active-directory-service-interfaces-adsi).
 
- 
+ 
 
- 
+ 

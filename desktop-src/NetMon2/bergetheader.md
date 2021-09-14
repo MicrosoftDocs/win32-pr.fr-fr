@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: d6dfd50856202e78177d2ad259b16638f466d9bca236a691c65802ce2758c948
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e2213b15b6b4d2cbaa15b3b9aa9de028e20a62d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012305"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119298"
 ---
 # <a name="bergetheader-function"></a>BERGetHeader fonction)
 
@@ -78,13 +78,13 @@ Pointeur vers le contenu d’en-tête.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit (autrement dit, un en-tête de choix BER valide est trouvé), la valeur de retour est **true**.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

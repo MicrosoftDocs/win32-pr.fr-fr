@@ -4,12 +4,12 @@ ms.assetid: 14cff39d-2692-466b-8f2c-de2eb9384e91
 title: Gestion de la mémoire (gestion de la mémoire)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0547d6111ba2723792987ee54b865c931704bfe07dce6a68497dbe45813268c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce8406a63616df7b8eebcb68f66c56cab9fce53e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094094"
 ---
 # <a name="memory-management-memory-management"></a>Gestion de la mémoire (gestion de la mémoire)
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1274226ae9768d45bb11e1a1f5b55caeddcc247a74a7ac08e03e3fcdacb0e7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e0e9c1d7f27c56f81905081fd9ef24c8c490391b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093938"
 ---
 # <a name="dlldata-switch"></a>commutateur/dlldata
 
@@ -38,7 +38,7 @@ Nom du fichier source C que le compilateur MIDL génère pour la DLL du proxy.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fichier spécifié par le *nom de fichier* doit être lié à la dll du proxy. Le fichier dlldata contient des points d’entrée et des structures de données requis par la fabrique de classe pour la DLL du proxy. Ces structures de données spécifient les interfaces d’objet contenues dans la DLL du proxy. Le fichier dlldata spécifie également l’identificateur de classe de la fabrique de classe pour la DLL du proxy. Il s’agit toujours de l’UUID (IID) de la première interface du premier fichier proxy (par ordre alphabétique).
 

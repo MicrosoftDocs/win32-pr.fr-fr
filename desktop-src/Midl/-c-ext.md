@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b8b3f179c2ce56b8e8ab6802b2d4bf5dd96c458e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106538587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093973"
 ---
 # <a name="c_ext-switch"></a>\_commutateur/c ext
 
@@ -63,9 +63,9 @@ Pour plus d’informations sur les qualificateurs de déclaration, consultez la 
 [Syntaxe générale de la ligne de commande MIDL](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

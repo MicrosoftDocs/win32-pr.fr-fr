@@ -4,12 +4,12 @@ ms.assetid: c8d0b2b5-61eb-4ab0-b09d-c54c282b730e
 title: Numérotation prédictive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d930a0a49751c7f1851600e277d2cf201f0acbe1a9da3f7be5aa9f2e4b38439c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 576ebffff5d4b9925fd50ecce082e4f515065c5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118813"
 ---
 # <a name="predictive-dialing"></a>Numérotation prédictive
 

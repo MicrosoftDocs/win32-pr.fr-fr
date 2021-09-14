@@ -4,12 +4,12 @@ ms.assetid: aff16483-a9ed-4675-8e87-8adf695605ee
 title: Table FeatureComponents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7635a43784ee7e8fbb71c7161bb07d39ffe5238177ea2a7cdaabdeb18dc41e20
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d6c93a7c020f179843916b063b48e2e4d19f7bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091241"
 ---
 # <a name="featurecomponents-table"></a>Table FeatureComponents
 
@@ -22,7 +22,7 @@ La table FeatureComponents contient les colonnes suivantes.
 | Colonne      | Type                         | Clé | Nullable |
 |-------------|------------------------------|-----|----------|
 | Fonctionnalité\_   | [Identificateur](identifier.md) | O   | N        |
-| -\_ | [Identificateur](identifier.md) | O   | N        |
+| Composant\_ | [Identificateur](identifier.md) | O   | N        |
 
 
 
@@ -46,7 +46,7 @@ Clé externe dans la première colonne de la [table de composants](component-tab
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe une limite maximale de 1600 composants par fonctionnalité.
 

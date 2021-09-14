@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a1078a3eec25d6b6fdf44268ae915c20e7a2a9cf0c07a29730461bd544a7a0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90691aede68f8e43ae95a4bd6c6f7fb4e2ecad29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117808854"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093886"
 ---
 # <a name="no_robust-switch"></a>\_Sélecteur de commutateur robuste
 
@@ -31,7 +31,7 @@ midl /no_robust
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avec MIDL version 6.0.359 et ultérieure, le compilateur MIDL définit [**/Robust**](-robust.md) par défaut. Le commutateur de ligne de commande **\_ fiable/non** doit être utilisé pour désactiver la fonctionnalité **/Robust** si des stubs générés doivent s’exécuter sur Microsoft WindowsÂ NT, WindowsÂ 95/98 ou sur WindowsÂ me.
 

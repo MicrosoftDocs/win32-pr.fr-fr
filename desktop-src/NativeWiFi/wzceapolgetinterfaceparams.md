@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Wzcsapi.dll
 ms.openlocfilehash: bc89fd2defb75662fa90b5ed00c7969d483da590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119345"
 ---
 # <a name="wzceapolgetinterfaceparams-function"></a>WZCEapolGetInterfaceParams fonction)
 
-\[**WZCEapolGetInterfaceParams** n’est plus pris en charge à compter de Windows Vista et de windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**WZCEapolGetInterfaceParams** n’est plus pris en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 La fonction **WZCEapolGetInterfaceParams** obtient les paramètres de configuration EAPOL pour l’interface de réseau local sans fil spécifiée.
 
@@ -82,27 +82,27 @@ Pointeur vers une structure [**EAPOL \_ INTF \_ params**](eapol-intf-params.md) 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-Retourne l’erreur \_ de réussite si l’opération se termine correctement ; sinon, retourne l’un des codes d’erreur système Windows.
+retourne l’erreur \_ de réussite si l’opération se termine correctement ; sinon, retourne l’un des codes d’erreur système Windows.
 
 ## <a name="remarks"></a>Notes
 
 Si le **WZCEapolGetInterfaceParams** retourne \_ une erreur, l’appelant doit appeler [**LocalFree**](/windows/win32/api/winbase/nf-winbase-localfree) pour libérer les mémoires tampons internes allouées pour les données retournées une fois que ces informations ne sont plus nécessaires.
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* et le fichier de bibliothèque d’importation *wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* et le fichier de bibliothèque d’importation *Wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                         |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl>   |

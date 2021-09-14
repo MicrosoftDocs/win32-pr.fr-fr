@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efd443389439b6d012533d3184739dfa849d672d76a8eced0e8ea244601d4122
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1865d19c54b9c59654f07162d2480aa5b29c47f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119490249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119193"
 ---
 # <a name="glteximage1d-function"></a>glTexImage1D fonction)
 
@@ -133,7 +133,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                                                                                                                        |
+| Nom                                                                                                  | Signification                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *cible* n’était pas une \_ texture GL.<br/>                                                                                                                                                                                    |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *format* n’était pas une constante de *format* acceptée. Seules les constantes de format autres que l' \_ index du stencil GL et le composant de \_ \_ profondeur GL \_ sont acceptées. Pour obtenir la liste des valeurs possibles, consultez la description du paramètre *format* .<br/> |
@@ -147,7 +147,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glTexImage1D** spécifie une image de texture unidimensionnelle. La texturation mappe une partie d’une *image de texture* spécifiée sur chaque primitive graphique pour laquelle la texturation est activée. La texturation unidimensionnelle est activée et désactivée à l’aide de [**glEnable**](glenable.md) et **GLDISABLE** avec argument GL \_ texture \_ 1D.
 
@@ -169,7 +169,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glTexImageI
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ texture \_ 1D
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

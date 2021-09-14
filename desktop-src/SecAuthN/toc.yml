@@ -1,4 +1,4 @@
-- name: Authentification
+- name: Authentication
   href: authentication-portal.md
   items:
     - name: À propos de l’authentification
@@ -242,8 +242,12 @@
                     - name: Suites de chiffrement dans TLS/SSL (SSP Schannel)
                       href: cipher-suites-in-schannel.md
                       items:
+                        - name: Suites de chiffrement TLS dans Windows 11
+                          href: tls-cipher-suites-in-windows-11.md
+                        - name: Suites de chiffrement TLS dans Windows 10 v20H2 et v21H1
+                          href: tls-cipher-suites-in-windows-10-v20H2.md
                         - name: Suites de chiffrement TLS dans Windows Server 2022
-                          href: ./tls-cipher-suites-in-windows-server-2022.md
+                          href: tls-cipher-suites-in-windows-server-2022.md
                         - name: Suites de chiffrement TLS dans Windows 10 v1903
                           href: tls-cipher-suites-in-windows-10-v1903.md
                         - name: Suites de chiffrement TLS dans Windows 10 v1809

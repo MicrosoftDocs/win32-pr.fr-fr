@@ -4,12 +4,12 @@ ms.assetid: 1d810f71-9bf5-4c5c-a573-c35081f604cf
 title: Gestion des mots de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99aaf133d23390a6f4efce97940c5116fddf91b45776dfd6847b2712b15b74ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f3d3a5ab2bc034500159adb25dab02b47eb43bcd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120035469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118890"
 ---
 # <a name="handling-passwords"></a>Gestion des mots de passe
 

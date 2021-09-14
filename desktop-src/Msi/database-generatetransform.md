@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5c07e7483a43ea4f69eac473c76747447932fba57e53e22f79fa0663d4babc86
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5f7fca94c0765722dc2d0b21524c15265f99e7b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091706"
 ---
 # <a name="databasegeneratetransform-method"></a>Database. GenerateTransform, méthode
 
@@ -56,11 +56,11 @@ Nom du fichier de transformation généré. Cette étape est facultative.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une transformation peut ajouter des colonnes clés non primaires à la fin d’une table. Impossible de créer une transformation qui ajoute des colonnes clés primaires à une table. Impossible de créer une transformation qui modifie l’ordre, les noms ou les définitions des colonnes.
 
@@ -68,7 +68,7 @@ Cette méthode retourne une valeur booléenne. Elle retourne la valeur TRUE si u
 
 Si la méthode échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

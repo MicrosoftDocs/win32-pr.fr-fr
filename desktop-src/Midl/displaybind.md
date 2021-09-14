@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f331ee62128501237671d01524c0f74df5ebc3b9da37dbf6ba3f71f9a5df460
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f015954a7b1fe07d4ecf61e9a4ba4da4c932e65c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118384603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093650"
 ---
 # <a name="displaybind-attribute"></a>displaybind (attribut)
 
@@ -65,7 +65,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction à laquelle l’attribut **\[ displaybind \]** sera appliqué.
@@ -79,7 +79,7 @@ Liste des paramètres de la fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les propriétés qui ont l’attribut **\[ displaybind \]** doivent également avoir l' **\[** attribut pouvant être [**lié**](bindable.md) **\]** . Un objet peut prendre en charge la liaison de données mais ne pas avoir cet attribut.
 

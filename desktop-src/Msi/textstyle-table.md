@@ -4,12 +4,12 @@ ms.assetid: a351e67a-8f51-41bf-9202-56488b870fa7
 title: Table TextStyle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f8a5b3141314722bc5b92e34ea214fa8e1505babfbc8b7f942899e6c6779c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c9993362228e37f01c0e53683755f7bd1310eaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118623487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119637"
 ---
 # <a name="textstyle-table"></a>Table TextStyle
 

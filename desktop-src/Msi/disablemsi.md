@@ -4,12 +4,12 @@ ms.assetid: 7f941559-54c3-4802-b827-5954bd4669f8
 title: DisableMSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 846b8fb8c2c1127e59c82cce138a0956756d3447d6628cb61ef170a91e6290b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbf8a784f5e8090bf6ba2007091c22cf4bc070c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118378557"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091509"
 ---
 # <a name="disablemsi"></a>DisableMSI
 

@@ -4,12 +4,12 @@ description: Traditionnellement, le fait de disposer d’un système monolithiqu
 ms.assetid: 6055bcef-e34c-4f2d-92b9-9aec75cf3cec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859b2a0a83e7f12bd7caf372e60acf2736a114a0cdf46893830032a47a548019
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 82cd1ea3301d68e77562a63c542bc075692e5192
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118924170"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118998"
 ---
 # <a name="the-model-for-distributed-systems"></a>Modèle pour les systèmes distribués
 

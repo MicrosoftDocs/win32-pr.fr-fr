@@ -4,12 +4,12 @@ description: Les attributs de tableau peuvent également être utilisés avec de
 ms.assetid: a01b904c-fbe8-4af4-8393-6864f7ef7364
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52f7dac2b6d093fa56383ecaf976a83acf13fec9aa0c3820c1d608ccb69e9e9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6eb7bcf94d97e1f35fdd6ab432ea5869e47f79ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118928080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119041"
 ---
 # <a name="multidimensional-arrays"></a>Tableaux multidimensionnels
 

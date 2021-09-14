@@ -4,12 +4,12 @@ ms.assetid: 8269cb92-bd3f-411f-8395-fe06ed550cc5
 title: Manifestchk.vbs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 686843d1b4ab099d44a33b715f65564a12834f54ed6e8f62310df0aedbe53de1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 09aff347fbd8b6f44c4e38f123870fa5ee8df572
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118946"
 ---
 # <a name="manifestchkvbs"></a>Manifestchk.vbs
 

@@ -4,12 +4,12 @@ ms.assetid: 605c7b97-70bd-467a-9438-47b05d8b6b5d
 title: bibliothèques de Dynamic-Link (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bcd2548851dcef4dcf08c53f168ec0f6b43ee036a1c250f9f65f072427a19e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5f9ff0113d97d219220a4f42030c1563f16ce7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118378261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091450"
 ---
 # <a name="dynamic-link-libraries-windows-installer"></a>bibliothèques de Dynamic-Link (Windows Installer)
 

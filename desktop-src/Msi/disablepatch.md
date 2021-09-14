@@ -4,12 +4,12 @@ ms.assetid: 2719aaa5-bdcb-4326-8767-7e890bb5df0e
 title: DisablePatch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3a4232ba5d41e4c72f4a171a747521af7d8a4aca5f54eb1e9097806bd2ab54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4df2a74f6212ffc5de71bd2de0b03fb7e910bd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091506"
 ---
 # <a name="disablepatch"></a>DisablePatch
 

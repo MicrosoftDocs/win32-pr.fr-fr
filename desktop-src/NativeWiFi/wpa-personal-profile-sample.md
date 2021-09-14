@@ -4,12 +4,12 @@ ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
 title: Exemple de profil de WPA-Personal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d196a327672ae31cb52d275be79193860fd89fff29f169be63018f5b848a4268
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 334076d4b0cf10372ed845265a1fff652f0879b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119361"
 ---
 # <a name="wpa-personal-profile-sample"></a>Exemple de profil de WPA-Personal
 

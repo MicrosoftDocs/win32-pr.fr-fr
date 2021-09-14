@@ -4,12 +4,12 @@ ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: À propos des compteurs de performance
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 8a80ac907ef842e4564f0e67daa173fee165bc93d8fa568920df8ffc24b8c9a1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dec7c71e99ab614ee64e3d1e8c9620f0be78c14a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119117"
 ---
 # <a name="about-performance-counters"></a>À propos des compteurs de performance
 

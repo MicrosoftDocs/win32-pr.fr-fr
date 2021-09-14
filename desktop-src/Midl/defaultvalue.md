@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f38fe7dfc99c5c9c1c6a7cae1a5fdd5750c5f3e9af37e56706b27300876da1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04f4efaac16325ec77721665a4dee14c9514a192
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093678"
 ---
 # <a name="defaultvalue-attribute"></a>defaultvalue (attribut)
 
@@ -51,7 +51,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction à laquelle l’attribut **\[ DefaultValue \]** sera appliqué.
@@ -93,7 +93,7 @@ Spécifie zéro, un ou plusieurs paramètres supplémentaires, chacun d’entre 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur par défaut que vous spécifiez pour le paramètre peut être n’importe quelle constante, ou une expression qui correspond à une constante, qui peut être représentée par un **Variant**. Plus précisément, vous ne pouvez pas appliquer l’attribut **\[ \] DefaultValue** à un paramètre qui est une structure, un tableau ou un type **SAFEARRAY** .
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f14f4906de9e843c9413411c9d45ba927cc40ee4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507630"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093646"
 ---
 # <a name="double-attribute"></a>attribut double
 
@@ -63,9 +63,9 @@ Le type **double** ne peut pas apparaître dans les déclarations [**const**](co
 [**typedef**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

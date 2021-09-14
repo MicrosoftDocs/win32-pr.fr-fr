@@ -4,12 +4,12 @@ ms.assetid: a68fa617-834c-4ad9-b922-fac3a648ad75
 title: Format des données de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ea20d0cc0be6174fdd945c4bf956d7df60a067cd9f20b3d08d9762d75b8b97a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88029634594843a50fd6010993eb6517dce831f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119085"
 ---
 # <a name="performance-data-format"></a>Format des données de performances
 

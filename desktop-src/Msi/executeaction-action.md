@@ -4,12 +4,12 @@ ms.assetid: 61878317-ac87-4f6e-9375-12a78969e29e
 title: Action ExecuteAction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20555af337f8774aec6c58769f2235da97ae763e044665e407a8dc29e75de750
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2970a0fb4e9297264071769ac7415cd2acf866b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636886"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091293"
 ---
 # <a name="executeaction-action"></a>Action ExecuteAction
 
@@ -23,7 +23,7 @@ Cette action doit être séquencée une fois que toutes les informations nécess
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action ExecuteAction est exécutée avec des privilèges système si le service d’installation est activé. Les actions de niveau supérieur, telles que l' [action d’installation](install-action.md), l' [action de publication](advertise-action.md)et l' [action d’administration](admin-action.md) incluent une logique interne qui détermine si l’appel de l’action ExecuteAction requiert la séquence d’exécution ou la séquence d’interface utilisateur.
 

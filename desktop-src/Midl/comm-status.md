@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 719f66d6849a21d67d9349a9e9fd728defb4a0663e4436701d06f20209f4d5b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd4952d03a80dbbffb135043d024b0c0eb18966f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118384698"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093721"
 ---
 # <a name="comm_status-attribute"></a>\_attribut de statut comm
 
@@ -45,7 +45,7 @@ Spécifie zéro, un ou plusieurs attributs de fonction ACF, tels que l' **\[ \_ 
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -66,7 +66,7 @@ Spécifie le paramètre pour la fonction tel qu’il est défini dans le fichier
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **\[ \_ état \] comm** peut être utilisé en tant qu’attribut de fonction ou en tant qu’attribut de paramètre, mais il ne peut apparaître qu’une seule fois par fonction. Elle peut être appliquée à la fonction ou à un paramètre dans chaque fonction.
 

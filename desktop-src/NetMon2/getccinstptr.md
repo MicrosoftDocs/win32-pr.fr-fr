@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: 2f078e91829b5324218b901e41e000d37b4cd6a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119278"
 ---
 # <a name="getccinstptr-function"></a>GetCCInstPtr fonction)
 
@@ -43,7 +43,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers les données d
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

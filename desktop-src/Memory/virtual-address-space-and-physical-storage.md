@@ -4,12 +4,12 @@ ms.assetid: 5e8fca7a-b85f-4bbd-80c1-e580a815fdce
 title: espace d’adressage virtuel et Stockage physique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 774e0af302fbd965f16b09a88d6dabb7c95948855c8d939d3c856ebe098337d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7d36445eb2639cbfc4db2a6e4abaf28b9af87cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118386154"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094014"
 ---
 # <a name="virtual-address-space-and-physical-storage"></a>espace d’adressage virtuel et Stockage physique
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 44dc2667b6affda58df8ce781be7b82b0e961f725555c4d68bd98dfce54878d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06e4170b34dcdca97bc0bae6bb48b4a057a8e9b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118877"
 ---
 # <a name="extendedpropertiesadd-method"></a>ExtendedProperties. Add, méthode
 
@@ -48,11 +48,11 @@ Objet [**ExtendedProperty**](extendedproperty.md) qui représente la propriété
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

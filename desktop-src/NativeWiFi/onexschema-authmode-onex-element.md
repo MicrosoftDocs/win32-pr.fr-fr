@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 09ae99a7bd1ca5e28be0087aef52729e4f6fa566fa7ee5b1e99ed8a73e0542f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d699b27746226c3eb1550cfd9250e229b40a22e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117798057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119413"
 ---
 # <a name="authmode-onex-element"></a>Élément authMode (OneX)
 
@@ -65,11 +65,11 @@ Cet élément est facultatif. Quand authMode n’est pas spécifié dans un prof
 
 L’élément **authmode** est défini par l’élément [**Onex**](onexschema-onex-element.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce paramètre peut être défini sur la ligne de commande à l’aide de la commande **netsh wlan set profileparameter** . Pour plus d’informations, consultez [commandes netsh pour réseau local sans fil (WLAN)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

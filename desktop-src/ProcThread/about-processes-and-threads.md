@@ -4,12 +4,12 @@ ms.assetid: 055458cf-9fc7-4a16-be14-1122b3cf0251
 title: À propos des processus et des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62cbce9375d3c27fd58d6bab48c11fe2bdb825dfc729c2176dd2f14eba0a958e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 650eab4421971bdc08e71c031aec433ed84471bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119054"
 ---
 # <a name="about-processes-and-threads"></a>À propos des processus et des threads
 

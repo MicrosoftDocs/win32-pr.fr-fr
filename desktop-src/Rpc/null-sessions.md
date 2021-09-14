@@ -4,12 +4,12 @@ description: Parfois, un appel arrivant sur la session NULL peut apparaître com
 ms.assetid: 5d113d20-c7af-4fb3-ba17-d0715671f290
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5476a49513019fe15afa4a30beae08104533a6621a84c4e0d1de4e9f315275ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68fe0542d86dd2e6b903a08834293d6cc2f09828
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119018"
 ---
 # <a name="null-sessions"></a>Sessions null
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 072d71366efee550b037d4a20388817954937854
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367951"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119445"
 ---
 # <a name="wm_cap_get_videoformat-message"></a>Message WM d' \_ \_ extraction de \_ VIDEOFORMAT
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne la taille, en octets, du format vidéo ou zéro si la fenêtre de capture n’est pas connectée à un pilote de capture. Pour les formats vidéo qui nécessitent une palette, la palette active est également retournée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que les formats vidéo compressés varient en fonction de la taille requise, les applications doivent d’abord récupérer la taille, puis allouer de la mémoire et enfin demander les données au format vidéo.
 

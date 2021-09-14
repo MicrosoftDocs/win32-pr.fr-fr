@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f44b3a2f11094c37edf24f5fc00bbd8229d65dc2a54292acd2ca3221472e85
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f43e8c10592fcf99ea294327c400c579ce45bf6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093638"
 ---
 # <a name="enable_allocate-attribute"></a>activer l' \_ attribut d’allocation
 
@@ -57,7 +57,7 @@ Nom de l’interface à laquelle l’attribut **\[ Enable \_ allcoate \]** sera 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En mode par défaut, le stub serveur Active l’environnement de mémoire uniquement lorsque l’attribut **\[ Enable \_ allocate \]** est utilisé. L’environnement de gestion de la mémoire doit être activé pour que la mémoire puisse être allouée à l’aide de [**RpcSmAllocate**](/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate). En mode **OSF** (lorsque vous compilez à l’aide du commutateur [**/OSF**](-osf.md) ), le stub active automatiquement cet environnement, ou à la demande lorsque l’attribut **\[ Enable \_ allocate \]** est utilisé.
 
