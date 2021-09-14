@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c81869b1ca575efa960fc00eea09536ca4b6b2f43a5e637c5dc6a9d7632983
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: afdd58536a5cdd18d39a331df4b18c9bbae93842
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985661"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117506"
 ---
 # <a name="psm_insertpage-message"></a>\_Message PSM INSERTPAGE
 
@@ -38,7 +38,7 @@ Où la page doit être insérée. Affectez la valeur **null** à ce paramètre p
 
 | Valeur                                                                                                                                             | Signification                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt></dt><dt>index</dt> </dl>            | Si le paramètre *wParam* est inférieur à MAXUSHORT (l’entier Short non signé le plus grand), *wParam* spécifie l’index de base zéro de la nouvelle page. Par exemple, pour faire de la page insérée la troisième page sur la feuille de propriétés, affectez la valeur 2 à *wParam* . Pour en faire la première page, affectez la valeur 0 à *wParam* . Si *wParam* a une valeur supérieure au nombre de pages et inférieure à MAXUSHORT, la page est ajoutée.<br/> |
+| <dl> <dt></dt> <dt>index</dt> </dl>            | Si le paramètre *wParam* est inférieur à MAXUSHORT (l’entier Short non signé le plus grand), *wParam* spécifie l’index de base zéro de la nouvelle page. Par exemple, pour faire de la page insérée la troisième page sur la feuille de propriétés, affectez la valeur 2 à *wParam* . Pour en faire la première page, affectez la valeur 0 à *wParam* . Si *wParam* a une valeur supérieure au nombre de pages et inférieure à MAXUSHORT, la page est ajoutée.<br/> |
 | <dl> <dt></dt><dt>hpageInsertAfter</dt> </dl> | Si vous définissez le paramètre *wParam* sur le handle HPROPSHEETPAGE d’une page existante, la nouvelle page est insérée après celle-ci.<br/>                                                                                                                                                                                                                                                                                          |
 
 
@@ -54,11 +54,11 @@ Handle vers la page à insérer. La page doit d’abord être créée par un app
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro si la page a été correctement insérée, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les pages après le point d’insertion sont décalées vers la droite pour s’adapter à la nouvelle page.
 
@@ -87,7 +87,7 @@ Vous pouvez ajouter ou supprimer des pages en réponse à ces notifications, à 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

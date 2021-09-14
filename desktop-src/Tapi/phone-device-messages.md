@@ -4,12 +4,12 @@ ms.assetid: b84c77ae-5d0f-416c-83c5-f7874168d996
 title: Téléphone Messages de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef5de7f4fa08c68e5d0a88fdb9f5fe7f983c2d7d2e655d69348724832d4690e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a212b66113fce867b3bb0cc7a1cb8f8a382192c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011092"
 ---
 # <a name="phone-device-messages"></a>Téléphone Messages de l’appareil
 

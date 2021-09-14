@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 54e5b75cfe6492e13df15e404ed5a554dca8e2d39034e5715677bddbb6bb7f1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f70a6183d89e165b667bad7a2eae393447f652f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118787271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010336"
 ---
 # <a name="texture2dgathercmpalpha-methods"></a>Texture2D :: GatherCmpAlpha, méthodes
 

@@ -4,12 +4,12 @@ ms.assetid: e4c50bd6-a256-407f-af3b-b24383a30ea0
 title: Téléphone Boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e72288133615b19e622434b8727608aaec9a9136dd58eaa03e339708c42a13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee3e65c34096c0cf043b85d80c9c726c6bef982d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011104"
 ---
 # <a name="phone-buttons"></a>Téléphone Boutons
 

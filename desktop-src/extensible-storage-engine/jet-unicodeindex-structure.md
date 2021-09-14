@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: cb2779c75d525e45e9140d8f70665a09fe202b21
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294955"
 ---
 # <a name="jet_unicodeindex-structure"></a>Structure JET_UNICODEINDEX
 
@@ -64,15 +64,15 @@ Ces indicateurs sont passés à [LCMapString](/windows/win32/api/winnls/nf-winnl
 | <p>LCMAP_SORTKEY</p> | <p>Mandatory.</p> | 
 | <p>LCMAP_BYTEREV</p> | <p>facultatif.</p> | 
 | <p>NORM_IGNORECASE</p> | <p>facultatif.</p> | 
-| <p>NORM_IGNORENONSPACE</p> | <p>facultatif.</p> | 
-| <p>NORM_IGNORESYMBOLS</p> | <p>facultatif.</p> | 
-| <p>NORM_IGNOREKANATYPE</p> | <p>facultatif.</p> | 
-| <p>NORM_IGNOREWIDTH</p> | <p>facultatif.</p> | 
-| <p>SORT_STRINGSORT</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNORENONSPACE</p> | <p>Optionnel.</p> | 
+| <p>NORM_IGNORESYMBOLS</p> | <p>Optionnel.</p> | 
+| <p>NORM_IGNOREKANATYPE</p> | <p>Optionnel.</p> | 
+| <p>NORM_IGNOREWIDTH</p> | <p>Optionnel.</p> | 
+| <p>SORT_STRINGSORT</p> | <p>Optionnel.</p> | 
 
 
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

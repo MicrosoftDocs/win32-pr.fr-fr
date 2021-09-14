@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e009a027bcd47dbfa0bd8be95e761e912e7d2a72d55245e263e303fe61603da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aed1cdd742d78473266db07899796de5a5450310
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117377"
 ---
 # <a name="psn_wizback-notification-code"></a>\_Code de notification PSN WIZBACK
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 pour permettre à l’Assistant de passer à la page précédente. Retourne-1 pour empêcher l’Assistant de modifier les pages. Pour afficher une page particulière, retournez son identificateur de ressource de boîte de dialogue. Si la boîte de dialogue a été spécifiée avec l’indicateur [**PSP \_ DLGINDIRECT**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) , cette notification retourne le pointeur vers le modèle de boîte de dialogue.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur de **\_ MSGRESULT DWL** et retourner **true**. Par exemple :
 
@@ -94,7 +94,7 @@ Supposons, par exemple, qu’un Assistant se compose d’une page d’introducti
 
 Notez que cette technique est nécessaire uniquement si votre Assistant supprime les pages dynamiquement. Si votre Assistant ajoute uniquement des pages dynamiquement, ce processus n’est pas nécessaire.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

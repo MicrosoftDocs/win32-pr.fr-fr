@@ -6,7 +6,7 @@ keywords:
 - atomes
 - tables Atom
 - noms Atom
-- Échange dynamique de données (DDE), atomes
+- échange dynamique de données (DDE), atomes
 - DDE (échange dynamique de données), atomes
 - tables Atom globales
 - tables Atom locales
@@ -15,17 +15,17 @@ keywords:
 ms.topic: article
 ms.date: 08/25/2020
 ms.openlocfilehash: 92a8304e1e96c7385ddb11ba6391258acbe62a26
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292059"
 ---
 # <a name="about-atom-tables"></a>À propos des tables Atom
 
 Une *table Atom* est une table définie par le système qui stocke des chaînes et des identificateurs correspondants. Une application place une chaîne dans une table Atom et reçoit un entier 16 bits, appelé *Atom*, qui peut être utilisé pour accéder à la chaîne. Une chaîne placée dans une table Atom est appelée un *nom Atom*.
 
-Le système fournit un certain nombre de tables Atom. Chaque table Atom remplit un rôle différent. Par exemple, les applications échange dynamique de données (DDE) utilisent la [table Atom globale](#global-atom-table) pour partager des chaînes nom d’élément et nom de rubrique avec d’autres applications. Au lieu de passer des chaînes réelles, une application DDE transmet des atomes globaux à son application partenaire. Le partenaire utilise les atomes pour obtenir les chaînes de la table Atom.
+Le système fournit un certain nombre de tables Atom. Chaque table Atom remplit un rôle différent. par exemple, les applications échange dynamique de données (DDE) utilisent la [table atom globale](#global-atom-table) pour partager des chaînes nom d’élément et nom de rubrique avec d’autres applications. Au lieu de passer des chaînes réelles, une application DDE transmet des atomes globaux à son application partenaire. Le partenaire utilise les atomes pour obtenir les chaînes de la table Atom.
 
 Les applications peuvent utiliser des tables Atom locales pour stocker leurs propres associations nom-élément.
 

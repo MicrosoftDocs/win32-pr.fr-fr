@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a011db4e18509761c232bcf5439e33445128ef77c50945f84662a7b7956f607f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 47ae9e5ad097bc188b8de1e76a09448c57aa9b83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119468219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295119"
 ---
 # <a name="libraryid-attribute"></a>Id_bibliothèque (attribut)
 
@@ -30,13 +30,13 @@ L’attribut **ID_bibliothèque** est l’identificateur de la bibliothèque à 
 -   [**Éléments de sélection**](playlist-attributes-ref.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un élément multimédia peut appartenir à la bibliothèque locale de l’utilisateur actuel ou il peut appartenir à une bibliothèque qui a été mise à la disposition d’un autre utilisateur sur le réseau local ou sur Internet.
 
 La valeur de cet attribut est la même que la valeur retournée par la méthode [**IWMPLibrary2 :: getItemInfo**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

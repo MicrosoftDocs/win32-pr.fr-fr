@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eaf1a5221e186ebe5f01f942ec99d82906ea87ef7f1b8f73860bade24ab1751
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ae5f90670c79797ef8576c5e6e3911255ab5fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117401"
 ---
 # <a name="psn_killactive-notification-code"></a>\_Code de notification PSN KILLACTIVE
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour empêcher la page de perdre l’activation, ou **false** pour l’autoriser.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application gère ce code de notification pour valider les informations entrées par l’utilisateur.
 
@@ -62,7 +62,7 @@ Pour définir une valeur de retour, la procédure de la boîte de dialogue de la
 
 Si la procédure de la boîte de dialogue affecte la \_ **valeur true** à DWL MSGRESULT, une boîte de message doit s’afficher pour expliquer le problème à l’utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

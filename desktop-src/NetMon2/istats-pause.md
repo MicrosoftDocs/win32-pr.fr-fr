@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 2d1bab0d66a081c175d997e093d7dd1ff2b0d1c9622ecff73e0b3b1473edc885
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d9e9f04ce3d25399866c711dad7a853f2c43c2ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011543"
 ---
 # <a name="istatspause-method"></a>IStats ::P méthode ause
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est suspendue, les nouveaux frames ne sont pas capturés tant qu’un appel à la méthode [IStats :: Resume](istats-resume.md) n’a pas redémarré la capture.
 
@@ -65,7 +65,7 @@ Lorsque vous utilisez les méthodes **IStats ::P ause** et **IStats :: Resume*
 
 Pour redémarrer l’appel de capture [IStats :: Resume](istats-resume.md). Pour arrêter la capture, appelez [IStats :: Stop](istats-stop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e7b656f5497065378af87408fa87fc16cf9ca2cef3cc710f52a1cd643c2927
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f38db77c1c60ef60ce713d41a6112b42235b79a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118409731"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117385"
 ---
 # <a name="psn_setactive-notification-code"></a>\_Code de notification PSN
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur zéro pour accepter l’activation, ou-1 pour activer la page suivante ou précédente (selon que l’utilisateur a cliqué sur le bouton **suivant** ou **précédent** ). Pour définir l’activation sur une page particulière, retournez l’identificateur de ressource de la page.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le \_ Code de notification PSN est envoyé avant que la page ne soit visible. Une application peut utiliser ce code de notification pour initialiser des données dans la page.
 
@@ -60,7 +60,7 @@ Le \_ Code de notification PSN est envoyé avant que la page ne soit visible. Un
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit utiliser la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur MSGRESULT de la boîte de \_ dialogue, et la procédure de boîte de dialogue doit retourner **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

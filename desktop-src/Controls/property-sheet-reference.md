@@ -4,12 +4,12 @@ description: Cette section contient des informations sur la programmation des é
 ms.assetid: f4fa9815-eab8-4b0b-ae5f-0bce4374223a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d50661ece6985c16f299b514fa59068bf06f115b49c0f0bbea783cf637c2c921
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c42b7b4c1be7d0dc11613da36f78abbad847d6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119826029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117562"
 ---
 # <a name="property-sheet"></a>Feuille de propriétés
 

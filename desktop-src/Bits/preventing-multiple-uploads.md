@@ -4,12 +4,12 @@ description: Lorsque vous téléchargez un fichier, le service BITS crée un ID 
 ms.assetid: 97283f8e-d2fa-4383-9b92-a05f46680443
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c08555acf8bcdc99576675b0ec5852f322f7b37fea9821f3f0156352a29b61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae59bb1d605af7e4dd53b0c1d66618b6816e7886
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119701699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117937"
 ---
 # <a name="preventing-multiple-uploads"></a>Empêcher plusieurs chargements
 

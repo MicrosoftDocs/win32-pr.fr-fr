@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1acfe884106414a8d9fd24d2d93e58b5766db884996b569fdd59f7aaf6fa0f74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75a6f2e482427c8325c86f1d2091be48d767ae0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118274706"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118369"
 ---
 # <a name="eaphostconfig-schema-elements"></a>Éléments de schéma eaphostconfig
 

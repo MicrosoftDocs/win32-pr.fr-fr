@@ -4,12 +4,12 @@ description: Cette rubrique contient des informations sur un paramètre qui indi
 ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dbf32dfacdf1dc0b8ed3bc51c986ae572e43300263565254ad6b3a48a981beb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d01e3fda902c23c86279a9a4d75889ebfeff4d55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010623"
 ---
 # <a name="show-sounds-and-audio-description-flag"></a>Afficher les sons (et l’indicateur de description audio)
 

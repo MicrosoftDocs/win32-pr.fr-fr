@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f941ac90fa86cdd16dedf5349c0a6d614c57f49bc91009f5d62c56bb83144bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a73271098340ea0cf0a645472b5ef6333ae0f4b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118332074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010750"
 ---
 # <a name="iwmpcontrolsstop-method"></a>IWMPControls :: Stop, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPControls.stop
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette méthode oblige Lecteur Windows Media à libérer toutes les ressources système qu’il utilise, telles que le périphérique audio. Toutefois, l’élément multimédia actuel n’est pas libéré.
 
@@ -102,7 +102,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

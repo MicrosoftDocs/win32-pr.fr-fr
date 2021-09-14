@@ -4,12 +4,12 @@ description: Cette section décrit les interfaces utilisées par le client Micro
 ms.assetid: dd7cdcf1-3511-424f-b729-b71a7e11cdd8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356bd61a3f4a4626c8cc382c924b62967c01ddb201b8411eaa5451c822ede38a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a08859784d18905adbed463ac776bb2e717211f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010539"
 ---
 # <a name="ui-automation-element-interfaces-for-clients"></a>Interfaces d’élément UI Automation pour les clients
 

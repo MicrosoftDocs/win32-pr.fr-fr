@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73aaf5f3c536027801a85f8d38120e6e14c5d366a6d727498a5bc1d1200cb041
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20c1730413a4918b0f748099fbd55714339a7e9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295938"
 ---
 # <a name="microsoft-windows-media-drm-client-functions"></a>fonctions du Client Microsoft Media DRM pour Microsoft Windows
 

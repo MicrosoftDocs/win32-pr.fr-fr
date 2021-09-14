@@ -9,12 +9,12 @@ keywords:
 - Registre, type 1 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e42b1b75b64a8736c1491ccc058fe5548d78808ba51e142b3272d17d3c0eba9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1329ad69e91ebce41b258d1e148403f62caceb96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010918"
 ---
 # <a name="registry-keys-and-entries-for-a-type-1-online-store"></a>Clés et entrées de Registre pour un magasin de type 1 en ligne
 

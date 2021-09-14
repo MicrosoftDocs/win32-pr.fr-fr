@@ -4,12 +4,12 @@ description: AccEvent (Observateur d’événements accessible) permet aux déve
 ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb2192bf6973444bf2bfc307ff4613d9d1c593d5a22f9800ecb61bc310b3a210
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76e6fa4896c0cfe3155536537099b1c00af8ebe5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118327800"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010728"
 ---
 # <a name="accessibility-tools---accevent-accessible-event-watcher"></a>Outils d’accessibilité-AccEvent (Observateur d’événements accessible)
 
@@ -20,7 +20,7 @@ ms.locfileid: "118327800"
 > [!NOTE]
 > **AccEvent** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 **AccEvent** peut être utilisé pour examiner les données d’accessibilité sur les systèmes qui n’ont pas d’automatisation d’interface utilisateur, ils ont été écrits à l’origine pour Microsoft Active Accessibility. Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 
@@ -80,7 +80,7 @@ la boîte de dialogue **Paramètres d’événements UIA** contient les volets s
 
     Sélectionnez les événements qui vous intéressent.
 
-- **Étendue**
+- **Portée**
 
     Sélectionnez l’élément d’interface utilisateur auquel vous souhaitez que **AccEvent** écoute les événements.
 

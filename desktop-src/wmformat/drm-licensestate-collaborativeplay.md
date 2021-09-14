@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc437a29ba8d54240c7bdd41a86ef8d1cc2b1205973b1c5f4a1d7c95170020db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d3c768a0b94c24c640f258e83d328d4458b4028
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118029593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295919"
 ---
 # <a name="drm_licensestate_collaborativeplay"></a>\_LICENSESTATE DRM \_ CollaborativePlay
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ LicenseState \_ CollaborativePlay
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

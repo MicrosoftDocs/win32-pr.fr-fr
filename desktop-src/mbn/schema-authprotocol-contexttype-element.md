@@ -11,12 +11,12 @@ api_name:
 - AuthProtocol
 api_type:
 - Schema
-ms.openlocfilehash: 65b944b2966c9b5cac307f6f8efe6af2f42a1ffa5b4f2f400074caa0efe9f84e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8626d17a234784491c5f186f800943a6ab208bf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118109"
 ---
 # <a name="authprotocol-contexttype-element"></a>Élément AuthProtocol (contextType)
 
@@ -62,7 +62,7 @@ Cet élément est facultatif et n’est utilisé que pour les profils GSM. Si l�
 
 L’élément **AuthProtocol** est défini par le type complexe [**ContextType**](schema-contexttype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

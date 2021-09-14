@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 50133ddd509cc740bd8f1ad7466e5d5e10f570e9a2a257a4fc98e81f8120da4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d45aefba55626684a9a211b61c5c9270ebd4062c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118313225"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010407"
 ---
 # <a name="swbemqualifiername-property"></a>Propriété SWbemQualifier.Name
 
@@ -42,7 +42,7 @@ SWbemQualifier.Name As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

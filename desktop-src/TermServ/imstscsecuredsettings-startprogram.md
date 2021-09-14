@@ -25,11 +25,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7e79612855117f48e629e9a06246f3fad922d37f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118650"
 ---
 # <a name="imstscsecuredsettingsstartprogram-property"></a>IMsTscSecuredSettings :: StartProgram, propriété
 
@@ -64,13 +64,13 @@ Retourne **S \_ OK** en cas de réussite.
 
 Si la valeur de cette propriété n’est pas définie, la commande d’interpréteur de commandes de l’utilisateur de la session est exécutée. La commande d’interpréteur de commandes sera lue à partir de la valeur de Registre suivante sur le serveur :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Winlogon** \\ **Shell**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **WinLogon** \\ **Shell**
 
 Pour plus d’informations, consultez la rubrique [fourniture de la sécurité du client RDP](providing-for-rdp-client-security.md) .
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

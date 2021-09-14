@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d789c10b6586b92562962d9d25d09a166d25901f3f5f1c7dd6076a85138ad985
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8a89ed851d54d142d5a8253fe94707848b6df7de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120067009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291986"
 ---
 # <a name="apiretrievecolumnasuint16-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. RetrieveColumnAsUInt16 (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -86,14 +86,14 @@ public static Nullable<ushort> RetrieveColumnAsUInt16(
     
     ColumnID à récupérer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[UInt16](/dotnet/api/system.uint16)\>  
 Données extraites de la colonne sous la forme d’un UInt16. NULL si la colonne est null.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

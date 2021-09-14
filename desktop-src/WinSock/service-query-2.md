@@ -4,12 +4,12 @@ ms.assetid: 94d77f7b-824a-4686-b270-9c662976bbc0
 title: Requête de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5452c94c3768cbff387b0125fe183a3026f7ab6c64d90325341ce5f2a9366de4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 951ad1950c0f1d97ab0ca6d06f79ed6ff0180d96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117740418"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118510"
 ---
 # <a name="service-query"></a>Requête de service
 

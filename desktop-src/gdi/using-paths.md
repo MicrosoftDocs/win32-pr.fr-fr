@@ -5,11 +5,11 @@ title: Utilisation des chemins d’accès
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b6139ab6bdd6dd6c574d8464584496a1e1741c4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115298"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118282"
 ---
 # <a name="using-paths"></a>Utilisation des chemins d’accès
 

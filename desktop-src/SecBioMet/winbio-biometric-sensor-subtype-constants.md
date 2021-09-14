@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cb98e4645b3e65a5dd56d60450acbc0d949ea673afec25baba6d335217ffa0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26229634f3d404921f877bb65d83f7d75634ecbe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911032"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011169"
 ---
 # <a name="winbio_biometric_sensor_subtype-constants"></a>\_ \_ Constantes de sous-type de capteur BIOmétrique WINBIO \_
 
@@ -35,7 +35,7 @@ Les constantes suivantes peuvent être utilisées comme masque de masque pour le
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

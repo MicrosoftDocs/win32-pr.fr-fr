@@ -9,12 +9,12 @@ keywords:
 - fournisseurs, création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb0cdd1eae7f2c617fe3e09d456bdb063d3c416e07507cd16ca2ec732ec82f90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8da09b5bcef605dd4979a15433c708e04e49534d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118114722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292495"
 ---
 # <a name="ui-automation-provider-programmers-guide"></a>Guide du programmeur du fournisseur UI Automation
 

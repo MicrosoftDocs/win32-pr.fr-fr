@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 340ea7ed85e05795dbc3949a29c5384871dfe840aa25ed4f9b2f07e1d4264de1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1d96cfe8124b47a9b6ce546379af1313a02ea26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119852229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292055"
 ---
 # <a name="id3dxmatrixstackgettop-method-d3dx10h"></a>ID3DXMATRIXStack :: GetTop, méthode (D3DX10. h)
 
@@ -38,19 +38,19 @@ D3DXMATRIX* GetTop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Cette méthode retourne un pointeur vers une structure D3DXMATRIX représentant la matrice actuelle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il n’est pas garanti que le pointeur D3DXMATRIX retourné par cette méthode soit valide après les opérations de pile suivantes.
 
 Notez que cette méthode ne supprime pas la matrice actuelle du haut de la pile ; au lieu de cela, elle retourne simplement la matrice actuelle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

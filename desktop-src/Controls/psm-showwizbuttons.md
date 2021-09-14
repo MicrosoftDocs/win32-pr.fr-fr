@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86bbad4d6f0ce8a084709c04110d093e4d79b806226bdc1fa651278b4054fa8d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22e8d1fc54d556240ef3fa6d6b6185a669978b84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117422"
 ---
 # <a name="psm_showwizbuttons-message"></a>\_Message PSM SHOWWIZBUTTONS
 
@@ -59,11 +59,11 @@ Une ou plusieurs des valeurs utilisées dans *wParam*, en spécifiant les bouton
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les assistants affichent trois ou quatre boutons sous chaque page. Ce message est utilisé pour spécifier les boutons à afficher. Les assistants s' **affichent** normalement, **annulent** et un bouton **suivant** ou **Terminer** . Le bouton **Annuler** est toujours visible.
 
@@ -73,7 +73,7 @@ Si vous utilisez la macro [**PropSheet \_ ShowWizButtons**](/windows/desktop/api
 
 Si votre gestionnaire de notifications utilise [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) pour envoyer un message **PSM \_ SHOWWIZBUTTONS** , ne faites rien qui affectera le focus de la fenêtre tant que le gestionnaire ne sera pas retourné. Par exemple, si vous appelez [**MessageBox**](/windows/desktop/api/winuser/nf-winuser-messagebox) immédiatement après avoir utilisé **PostMessage** pour envoyer des **\_ SHOWWIZBUTTONS PSM**, la boîte de message reçoit le focus. Étant donné que les messages publiés ne sont pas remis tant qu’ils n’atteignent pas le début de la file d’attente de messages, le message **\_ SHOWWIZBUTTONS PSM** n’est pas remis tant que l’Assistant n’a pas perdu le focus sur la boîte de message. Par conséquent, la feuille de propriétés ne sera pas en mesure de définir correctement le focus pour les boutons.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

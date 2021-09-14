@@ -4,12 +4,12 @@ description: Une application de bureau de grande qualité est puissante et, en m
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a9c191a92ccf6147d37deca191a861220c4a925035bf39c92e7e7d062fa14184
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 74433514f61b37ba1c9941c8134767be5458ebc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119221727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295983"
 ---
 # <a name="how-to-design-a-great-user-experience-for-desktop-applications"></a>Comment concevoir une expérience utilisateur idéale pour les applications de bureau
 

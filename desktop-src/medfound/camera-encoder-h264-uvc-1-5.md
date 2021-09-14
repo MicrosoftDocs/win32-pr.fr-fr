@@ -4,12 +4,12 @@ ms.assetid: B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C
 title: Encodeurs d’appareil photo UVC 1,5 H. 264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a7ba895ae06e6f8cfa036bf890aa7a6b8d82c5e38c432951f44cb44899c580
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e0bffc2380098600be9acb4786c6a6598a99aee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191875"
 ---
 # <a name="h264-uvc-15-camera-encoders"></a>Encodeurs d’appareil photo UVC 1,5 H. 264
 

@@ -5,12 +5,12 @@ ms.assetid: 771277DF-D50A-4701-93D9-951D7EF8E7E1
 title: R (applications isolées et assemblys côte à côte)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54022cee203ece2a3fa12290554d7d742265b07c80d9b29c3d7a0575a8eb7a3c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1052ce7388375fccbec23e7e6b42dc5b32ef6435
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011335"
 ---
 # <a name="r-isolated-applications-and-side-by-side-assemblies"></a>R (applications isolées et assemblys côte à côte)
 

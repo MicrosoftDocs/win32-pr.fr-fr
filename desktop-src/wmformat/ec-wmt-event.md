@@ -12,12 +12,12 @@ keywords:
 - ASF (format avancé des systèmes), EC_WMT_EVENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbe0e53a759515914a352707550e281aca3aebe096f168352c36c1ff4200b2ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebe74baaba676a97e609b4c03cd4db9010bd8f6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118029218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295186"
 ---
 # <a name="ec_wmt_event-windows-media-format-11-sdk"></a>EC_WMT_EVENT (kit de développement logiciel (SDK) Windows Media Format 11)
 

@@ -4,12 +4,12 @@ ms.assetid: 8f0066ca-c464-480d-b38f-3c1134fc51b7
 title: MFPKEY_RESIZE_DST_WIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e3da156b3c7b9ae698c5b189cfd35cde501fb956b093a2a312add3cec52674d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d1837de9180fd20a7fea5921bfa08bc2adfc35a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294879"
 ---
 # <a name="mfpkey_resize_dst_width-property"></a>Propriété de largeur de l' \_ heure d’été de REdimensionnement MFPKEY \_ \_
 
@@ -27,7 +27,7 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

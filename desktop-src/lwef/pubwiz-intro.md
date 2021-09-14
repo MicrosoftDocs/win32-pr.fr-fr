@@ -10,12 +10,12 @@ keywords:
 - assistants de publication, Assistant commande d’impression en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d576d04579847d2e65bbc59399d11689259f8e64823a3c3068cafad912ff8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b4e6d3c515edae23d0e74f550e000bdfdfacf03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118246669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118182"
 ---
 # <a name="publishing-wizards-introduction"></a>Présentation des assistants de publication
 

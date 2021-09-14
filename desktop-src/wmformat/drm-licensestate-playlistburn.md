@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 362689f9a6946674c5102fa4c73042c08d610197d6e771c3159fbe5fc959e846
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 812fe11f1318eadcc37fde242187695ef5101387
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119708969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295906"
 ---
 # <a name="drm_licensestate_playlistburn"></a>\_LICENSESTATE DRM \_ PlaylistBurn
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ LicenseState \_ PlaylistBurn
 
 **\_binaire de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

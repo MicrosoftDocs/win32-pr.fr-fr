@@ -17,12 +17,12 @@ keywords:
 - boîtes de dialogue, police
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8544fcb60e499a360f60d1701863a11138d3f16fb06a770a9a2763800d908e12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9a752ce53ecf496c58efb0c346a8c3d67c4f1b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118785885"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118413"
 ---
 # <a name="font-dialog-box"></a>Police, boîte de dialogue
 

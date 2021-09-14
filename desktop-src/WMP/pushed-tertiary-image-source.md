@@ -10,12 +10,12 @@ keywords:
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 649730c877f9f5063737c16638b2c27d5e25a7d5578c2c7bce75f9f4fb24b71b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65a37f79ab3c5fbf02eed1f0a02219a517b12ce1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118834208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010954"
 ---
 # <a name="pushed-tertiary-image-source"></a>Source d’image tertiaire envoyée
 

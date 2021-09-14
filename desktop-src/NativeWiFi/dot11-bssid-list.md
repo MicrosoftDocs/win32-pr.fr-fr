@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windot11.h
-ms.openlocfilehash: 8abcd2e711d5598c59bb8d4b7aed0f291364f94d04ec17a5fc80de2fd32939eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 345053a8d39ea37bea2fa2350dcc426420aed422
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011615"
 ---
 # <a name="dot11_bssid_list-structure"></a>Structure de liste des \_ BSSID DOT11 \_
 
@@ -70,7 +70,7 @@ Liste d’identificateurs BSS. Un identificateur BSS est stocké en tant que typ
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

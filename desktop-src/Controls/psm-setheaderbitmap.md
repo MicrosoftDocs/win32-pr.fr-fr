@@ -6,12 +6,12 @@ keywords:
 - PSM_SETHEADERBITMAP les contrôles de Windows de message
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 229c137fad93e86e82c6ad254ab0c2181b83a1696dd1ba3e74b1912d9cc0a805
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa90b1e086f9f41d51c78c4dc5a678eb6a884fde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117445"
 ---
 # <a name="psm_setheaderbitmap-message"></a>\_Message PSM SETHEADERBITMAP
 

@@ -4,12 +4,12 @@ description: Un contrôle de pagineur est un conteneur de fenêtre qui est utili
 ms.assetid: VS|Controls|~\controls\pager\pager.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12b2e4c4dab20647fcb8e4f1ba79a3a7c860a15d7aa2e639f3bbf719320d1ff4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28d0b5aa01b72ca5feb8170d6d9fd218a433509b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119798972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117750"
 ---
 # <a name="about-pager-controls"></a>À propos des contrôles de pagineur
 

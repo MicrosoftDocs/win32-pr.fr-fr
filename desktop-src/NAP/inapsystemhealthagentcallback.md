@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7221dada78494f808ca0b98673b351a3a93c8088cc883bb7ed6324619c8ebc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11d08dd9cf77d36ca33902c63831135a0cc2fe5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117799147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011638"
 ---
 # <a name="inapsystemhealthagentcallback-interface"></a>Interface INapSystemHealthAgentCallback
 
@@ -56,7 +56,7 @@ L’interface **INapSystemHealthAgentCallback** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

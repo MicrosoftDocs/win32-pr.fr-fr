@@ -4,12 +4,12 @@ description: Cette rubrique fournit des résumés des principales différences e
 ms.assetid: ba963e53-6fb8-4bc1-8883-62547f52b0e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2affcbb8471d5e9831aa788d65ee2d7dca71dac8b21337fe51dcfa8bdf8a9724
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c90c4bffd0646aea592e19adc51ca020b2c90d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010684"
 ---
 # <a name="microsoft-active-accessibility-and-ui-automation-compared"></a>Comparaison entre Microsoft Active Accessibility et UI Automation
 

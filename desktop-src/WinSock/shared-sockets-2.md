@@ -4,12 +4,12 @@ ms.assetid: f7cf40e9-f3a6-4b62-8a78-df25464e2365
 title: Sockets partagés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e3f2663aa618b1bacab40b1cb29735c972e1d8b9e9db3528ee5079a336747c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb6753b01f6389254756254d2ebe196af8e2a8a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119612909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118509"
 ---
 # <a name="shared-sockets"></a>Sockets partagés
 

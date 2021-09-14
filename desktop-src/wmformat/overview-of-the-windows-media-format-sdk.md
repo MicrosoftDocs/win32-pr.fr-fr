@@ -8,12 +8,12 @@ keywords:
 - ASF (format de systèmes avancés), création et modification de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b80436415a6017d0429493b1d4b5be92dcb682f572796e5e9e1c3cfaa8795e66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb4f58be5d377e44fc0f68c89ad580a554902c58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846425"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295863"
 ---
 # <a name="overview-of-the-windows-media-format-sdk"></a>présentation du kit de développement logiciel (SDK) Windows Media Format
 

@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e58618a59beb484e09967af42bd75c527a87693d7aed25cb86857e776c382d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3eb13ccb79a9cf2c309a32772a73b393756c7bdd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117756916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118673"
 ---
 # <a name="imstscnonscriptablebinarysalt-property"></a>IMsTscNonScriptable :: BinarySalt, propriété
 
@@ -83,7 +83,7 @@ Nouvelle partie Salt binaire pour un mot de passe encodé binaire.
 
 Retourne **E \_ NOTIMPL**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

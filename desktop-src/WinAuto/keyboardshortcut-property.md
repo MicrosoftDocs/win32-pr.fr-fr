@@ -4,12 +4,12 @@ description: La propriété KeyboardShortcut décrit une touche ou une combinais
 ms.assetid: 42587468-f069-4ef1-868e-ac6a285e1715
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1cc82525bcfedbd370eebcfa6df078f5c98cfff7baf13d1e7e454648c054c87
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 002c925151f3f1acc136190d7807d7bc814d30b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010696"
 ---
 # <a name="keyboardshortcut-property"></a>Propriété KeyboardShortcut
 

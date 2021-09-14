@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - ServerCompProv.dll
-ms.openlocfilehash: eddbd71108a5b6b65de329e1c110c965f437e4c24f7ba0a681935ba5075351fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1be8a2ea1d646e9d882febc7c8eba08b69bb69f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312136"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292431"
 ---
 # <a name="win32_serverfeature-class"></a>\_Classe ServerFeature Win32
 
@@ -210,7 +210,7 @@ Proxy RPC sur HTTP
 
 48
 
-SMTP Server (Serveur SMTP)
+Serveur SMTP
 
 49
 
@@ -262,7 +262,7 @@ Client d'impression Internet
 
 64
 
-[Protocole PNRP (Peer Name Resolution Protocol)](/windows)
+[Protocole PNRP](/windows)
 
 65
 
@@ -564,7 +564,7 @@ Hôte de session Bureau à distance<br/> [changement de nom](/windows)<br/>
 
 132
 
-Passerelle des services Bureau à distance<br/> [changement de nom](/windows)<br/>
+Passerelle Bureau à distance<br/> [changement de nom](/windows)<br/>
 
 133
 
@@ -758,7 +758,7 @@ compression du contenu dynamique
 
 174
 
-Outils des gestion
+Outils de gestion
 
 175
 
@@ -1442,7 +1442,7 @@ Nom
 
 411
 
-[moteur Windows PowerShell 2,0](/windows)
+[Moteur Windows PowerShell 2.0](/windows)
 
 412
 
@@ -1454,7 +1454,7 @@ Nom
 
 1 000
 
-[Service de Desired State Configuration Windows PowerShell](/windows)
+[Service Desired State Configuration Windows PowerShell](/windows)
 
 .NET Framework 4,5-fonctionnalités (418)
 
@@ -1554,7 +1554,7 @@ Numéro d’identification de la fonctionnalité de serveur parent. Cette propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lisez le [Windows server 2008 Gestionnaire de serveur Technical Overview](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) pour en savoir plus sur les fonctionnalités du serveur.
 
@@ -3231,7 +3231,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

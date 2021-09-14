@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a6ce10494c44f6eecd78e44d4bcf97d5e46da7d6281a5ef614a9e737acae68c0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5fae5416a4b3cbeda0d8c63f6834c0406e628013
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119972589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117902"
 ---
 # <a name="win32_onboarddevice-class"></a>\_Classe OnBoardDevice Win32
 
@@ -408,7 +408,7 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> <dt>
 
-**Référence (SKU)**
+**Référence SKU**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -570,11 +570,11 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ OnBoardDevice** est dérivée de [**CIM \_ PhysicalComponent**](cim-physicalcomponent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

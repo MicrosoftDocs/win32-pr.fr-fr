@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8fb3d2b5c9d50ea8b63c513e4fd9e7297afe236c5ccd16711d9bf4371e76a8d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc7c8841fe275d19752f8b774de5766b95824339
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118274291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118362"
 ---
 # <a name="certificatestore-credentialssourceparameters-element"></a>Élément CertificateStore (CredentialsSourceParameters)
 
@@ -37,7 +37,7 @@ L’élément **CertificateStore** est défini par le type complexe [**Credentia
 
 Les éléments **CertificateStore** et [**Smartcard**](eaptlsconnectionpropertiesv1schema-smartcard-credentialssourceparameters-element.md) ne peuvent pas être utilisés simultanément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa40313a8b8c11c48b37cf2ae0593cb1bbc85353303f7c8840e7e5eb55ea7ca9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c13366348da075fab48e7a2f12381f51f7d87bf4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117769"
 ---
 # <a name="nm_tooltipscreated-toolbar-notification-code"></a>\_Code de notification TOOLTIPSCREATED nm (barre d’outils)
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTOOLTIPSCREATED**](/windows/win32/api/commctrl/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le contrôle ToolBar ignore la valeur de retour de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

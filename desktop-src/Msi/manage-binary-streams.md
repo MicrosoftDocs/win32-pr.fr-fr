@@ -4,12 +4,12 @@ ms.assetid: f96d1fdd-81c8-4fb2-a23e-fda49ace8bef
 title: Gérer les Flux binaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32de268cc42a6dbb806d6f3c1503d8bb0cdf32aba037bf48da678ecb86fe2775
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 877631a40157a5d286ef0c2575732a6d561eefb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011923"
 ---
 # <a name="manage-binary-streams"></a>Gérer les Flux binaires
 

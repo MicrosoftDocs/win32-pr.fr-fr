@@ -3,12 +3,12 @@ description: Programmation de DirectX avec COM.
 title: Programmation de DirectX avec COM
 ms.topic: article
 ms.date: 01/29/2019
-ms.openlocfilehash: 660f030e56d0b84325f7b90a9e2cc8e3864587660dd452611f41c78241220f54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67fc7a35f42439e1a9eeef1b2895d88dc0dbf5d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117962"
 ---
 # <a name="programming-directx-with-com"></a>Programmation de DirectX avec COM
 

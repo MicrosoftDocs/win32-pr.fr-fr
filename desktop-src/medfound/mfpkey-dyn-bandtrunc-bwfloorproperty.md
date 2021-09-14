@@ -4,12 +4,12 @@ ms.assetid: dce530cf-26f6-49bf-bca2-8de5cd8e395a
 title: MFPKEY_DYN_BANDTRUNC_BWFLOOR, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0311923a446449a27a675eb25d75c93d1ec377851d39a8b4a91f054b86f0919
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73b21bc372b433d2c91a991d7ed041cc0632b86c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119463529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294891"
 ---
 # <a name="mfpkey_dyn_bandtrunc_bwfloor-property"></a>MFPKEY \_ dyn \_ BANDTRUNC \_ BWFLOOR, propriété
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ R4**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: L’implémentation des meilleures pratiques décrites dans cette s
 ms.assetid: ef694361-49b7-424c-a583-1eadc2519db7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f596378c55b5f99af5b24fa60a23d980407392298fe2ad656579730fbab709
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38d9f70828610d04255b61ad3ee533d23c514867
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118327869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010731"
 ---
 # <a name="accessibility-best-practices"></a>Meilleures pratiques d'accessibilité
 
@@ -21,7 +21,7 @@ Cette rubrique contient les sections suivantes.
     -   [Activer l'accès par programmation à tous les éléments de l'interface utilisateur et le texte](#enable-programmatic-access-to-all-ui-elements-and-text)
     -   [Placer des noms, titres et descriptions sur les objets, les cadres et les pages de l'interface utilisateur](#place-names-titles-and-descriptions-on-ui-objects-frames-and-pages)
     -   [Vérifier que les événements par programmation sont déclenchés par toutes les activités de l'interface utilisateur](#ensure-programmatic-events-are-triggered-by-all-ui-activities)
--   [Paramètres de l’utilisateur](#user-settings)
+-   [Paramètres utilisateur](#user-settings)
     -   [Respecter tous les paramètres au niveau du système et ne pas interférer avec les fonctions d'accessibilité](#respect-all-system-wide-settings-and-do-not-interfere-with-accessibility-functions)
 -   [Conception de l'interface utilisateur visuelle](#visual-ui-design)
     -   [Ne pas Hard-Code les couleurs](#do-not-hard-code-colors)

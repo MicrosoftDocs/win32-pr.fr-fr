@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d35c6f54679389b411417e5539382fd322c0873e6dba87fc90efb93b8be7ba1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6a588ebff7c8e56bb559a2cc9faa1d6290fbd8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118503422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295015"
 ---
 # <a name="wm_choosefont_setlogfont-message"></a>\_ \_ Message SETLOGFONT WM CHOOSEFONT
 
@@ -51,17 +51,17 @@ Pointeur vers une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-lo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand vous appelez la fonction [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour créer une boîte de dialogue de **police** , vous pouvez utiliser le membre **lpLogFont** de la structure [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) pour spécifier une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) contenant les valeurs initiales de la boîte de dialogue. Utilisez le message **WM \_ CHOOSEFONT \_ SETLOGFONT** pour spécifier une structure **LOGFONT** avec des valeurs différentes lorsque la boîte de dialogue **police** est ouverte.
 
 En règle générale, vous envoyez le message **WM \_ CHOOSEFONT \_ SETLOGFONT** à partir d’une procédure de hook [**CFHookProc**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) . La procédure de hook peut également envoyer les messages [**WM \_ CHOOSEFONT \_ GETLOGFONT**](wm-choosefont-getlogfont.md) et [**WM \_ CHOOSEFONT \_ SETFLAGS**](wm-choosefont-setflags.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -95,7 +95,7 @@ En règle générale, vous envoyez le message **WM \_ CHOOSEFONT \_ SETLOGFONT**
 [**\_CHOOSEFONT WM \_ SETFLAGS**](wm-choosefont-setflags.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

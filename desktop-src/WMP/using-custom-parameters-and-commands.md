@@ -3,13 +3,13 @@ title: Utilisation de paramètres et de commandes personnalisés
 description: Utilisation de paramètres et de commandes personnalisés
 ms.assetid: 6b0bfd19-1672-41e3-9b7f-c8d541168c0e
 keywords:
-- Sélections de métafichiers Windows Media, paramètres personnalisés
+- Windows Sélections de métafichiers multimédias, paramètres personnalisés
 - sélections, paramètres personnalisés
 - sélections de métafichiers, paramètres personnalisés
-- Sélections de métafichiers Windows Media, commandes personnalisées
+- Windows Sélections de métafichiers multimédias, commandes personnalisées
 - sélections, commandes personnalisées
 - sélections de métafichiers, commandes personnalisées
-- Sélections de métafichiers Windows Media, paramètres
+- Windows Sélections de métafichiers multimédia, paramètres
 - sélections, paramètres
 - sélections de métafichiers, paramètres
 - paramètres personnalisés
@@ -22,11 +22,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 59f577fa4f3af71799b163389f85987d8723e045
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840210"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010844"
 ---
 # <a name="using-custom-parameters-and-commands"></a>Utilisation de paramètres et de commandes personnalisés
 
@@ -70,9 +70,9 @@ L’exemple de sélection de métafichier suivant illustre l’utilisation de l�
 [**Utilisation des sélections de métafichiers**](using-metafile-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

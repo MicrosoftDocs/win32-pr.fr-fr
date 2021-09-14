@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 27a43f8ea2902af7e2847e032da18543ffdbb228c2aa3e49fde63ce7cd727512
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b64816589e3d4d0a2e3ace7be5c895e3d2cf22f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011530"
 ---
 # <a name="istats-interface"></a>Interface IStats
 
@@ -40,7 +40,7 @@ L’interface **IStats** possède ces méthodes.
 | Méthode                                                                | Description                                                                                                                                               |
 |:----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Configurer**](istats-configure.md)                                 | Configure le déclencheur, la correspondance de modèle et la taille de mémoire tampon du fichier de capture.<br/>                                                                    |
-| [**Connecter**](istats-connect.md)                                     | Connecte le NPP au réseau.<br/>                                                                                                               |
+| [**Connexion**](istats-connect.md)                                     | Connecte le NPP au réseau.<br/>                                                                                                               |
 | [**Déconnecter**](istats-disconnect.md)                               | Déconnecte le NPP du réseau.<br/>                                                                                                          |
 | [**GetControlState**](istats-getcontrolstate.md)                     | Récupère l’état de la [*capture*](c.md), qui indique si la capture est en cours d’exécution ou en pause.<br/>                        |
 | [**GetConversationStatistics**](istats-getconversationstatistics.md) | Récupère les informations de [*session*](s.md) et de [*station*](s.md) relatives à la capture en cours.<br/> |
@@ -48,15 +48,15 @@ L’interface **IStats** possède ces méthodes.
 | [**Suspendre**](istats-pause.md)                                         | Arrête temporairement la capture en cours.<br/>                                                                                                         |
 | [**QueryStations**](istats-querystations.md)                         | Récupère une liste de tous les ordinateurs qui utilisent Moniteur réseau pour capturer des données sur un sous-réseau.<br/>                                                  |
 | [**QueryStatus**](istats-querystatus.md)                             | Récupère l’état du NPP.<br/>                                                                                                               |
-| [**Reprendre**](istats-resume.md)                                       | Redémarre une capture suspendue.<br/>                                                                                                                     |
-| [**Activer**](istats-start.md)                                         | Démarre la capture.<br/>                                                                                                                            |
-| [**Erreur**](istats-stop.md)                                           | Arrête la capture en cours.<br/>                                                                                                                     |
+| [**Sort**](istats-resume.md)                                       | Redémarre une capture suspendue.<br/>                                                                                                                     |
+| [**Démarrer**](istats-start.md)                                         | Démarre la capture.<br/>                                                                                                                            |
+| [**Arrêter**](istats-stop.md)                                           | Arrête la capture en cours.<br/>                                                                                                                     |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

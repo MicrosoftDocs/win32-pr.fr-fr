@@ -4,12 +4,12 @@ ms.assetid: 6adcf414-2c5a-451c-b30a-d1c161886c9a
 title: Définition des propriétés personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b78516913c898e3b3d814e96a40d227cc3cc1cc70c13a290949f91eb9f447c6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd91ee4d4e657ce0d6c01330d85e8df4ef57a36d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119348049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295263"
 ---
 # <a name="defining-custom-properties"></a>Définition des propriétés personnalisées
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: 90c5907f86f7586710e8a65e60874587491674f2dc4d73d0632279f8b1b3c119
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa90cb1344e7c087a601a74991598e509daed226
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118049"
 ---
 # <a name="commitspooldata-function"></a>CommitSpoolData fonction)
 
@@ -62,13 +62,13 @@ Nombre d’octets validés dans le spouleur d’impression.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne un handle au fichier de mise en file d’attente.
 
 Si la fonction échoue, elle retourne une \_ valeur de handle non valide \_ .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications qui envoient un travail d’impression de spouleur peuvent appeler [**GetSpoolFileHandle**](getspoolfilehandle.md) , puis écrire directement les données dans le handle de fichier de mise en file d’attente en appelant [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile). Pour informer le spouleur d’impression que le fichier contient des données qui sont prêtes à être rendues, l’application doit appeler **CommitSpoolData** et fournir le nombre d’octets disponibles.
 
@@ -76,7 +76,7 @@ Si **CommitSpoolData** est appelée plusieurs fois, chaque appel doit utiliser l
 
 Avant d’appeler **CommitSpoolData**, les applications doivent définir le pointeur de fichier à la position qu’il avait avant d’écrire des données dans le fichier. Dans le processus de rendu des données dans le fichier du spouleur, le spouleur d’impression déplace le pointeur de fichier spool *cbCommit* octets de la valeur actuelle du pointeur de fichier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,11 +12,11 @@ api_name:
 api_type:
 - Schema
 ms.openlocfilehash: dac98101dade85fbbaa63275933885241ef206fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191896"
 ---
 # <a name="context-mbnprofile-element"></a>Élément context (MBNProfile)
 
@@ -39,13 +39,13 @@ Cet élément peut avoir au maximum une occurrence.
 
 L’élément **Context** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

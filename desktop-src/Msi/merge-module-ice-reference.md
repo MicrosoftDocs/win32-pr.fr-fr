@@ -4,12 +4,12 @@ ms.assetid: 3b106a81-99b6-4ac6-95be-537fc14e0510
 title: Référence ICE du module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6936c8d67693e5468f44583d5bfced540a4214bcb27dcc6d10fcd84a4fc99262
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df445ad214808edfa40a47f036436877f5c0ba34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011890"
 ---
 # <a name="merge-module-ice-reference"></a>Référence ICE du module de fusion
 
@@ -25,7 +25,7 @@ La liste suivante fournit des liens vers chaque module de fusion ICE.
 | [ICEM04](icem04.md) | Vérifie que les tables vides requises du module de fusion sont effectivement vides.                                                                                                                                                                                 |
 | [ICEM05](icem05.md) | Recherche les associations non valides avec les composants.                                                                                                                                                                                                         |
 | [ICEM06](icem06.md) | Recherche des références non valides aux fonctionnalités par le module.                                                                                                                                                                                                 |
-| [ICEM07](icem07.md) | Valide que l’ordre des fichiers dans les tables de séquence et dans [MergeModule.CABfichier inet](mergemodule-cabinet.md) correspond.                                                                                                                               |
+| [ICEM07](icem07.md) | Valide que l’ordre des fichiers dans les tables de séquence et dans le fichier [MergeModule. cab](mergemodule-cabinet.md) correspond.                                                                                                                               |
 | [ICEM08](icem08.md) | Garantit qu’un module n’exclut pas les éléments dont il dépend.                                                                                                                                                                                          |
 | [ICEM09](icem09.md) | Vérifie que le module de fusion gère en toute sécurité les répertoires prédéfinis.                                                                                                                                                                                    |
 | [ICEM10](icem10.md) | Vérifie qu’un module de fusion ne contient pas de propriétés non autorisées dans la [table de propriétés](property-table.md).                                                                                                                                         |

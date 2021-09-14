@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0a820c6a84cd4f5437e74b615e4c12083686b8294aab4b7ae78e26e767969ab2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17907c62ace9f75c8d807e56d35b91f4c28e5f42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118677485"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117925"
 ---
 # <a name="cim_sparegroup-class"></a>\_Classe CIM SpareGroup
 
@@ -337,7 +337,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ SpareGroup** est dérivée de [**CIM \_ RedundancyGroup**](cim-redundancygroup.md).
 
@@ -345,7 +345,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

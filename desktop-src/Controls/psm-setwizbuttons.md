@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7efb92b60d6e7728ec109b79415ec488d7bc276cdead337c0778e12847da66
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e79cb7b6fbc0c91e1e94df62c2c8401839ace2d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117426"
 ---
 # <a name="psm_setwizbuttons-message"></a>\_Message PSM SETWIZBUTTONS
 
@@ -61,11 +61,11 @@ Valeur qui spécifie les boutons de la feuille de propriétés qui sont activés
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si votre gestionnaire de notifications utilise [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) pour envoyer un message **PSM \_ SETWIZBUTTONS** , ne faites rien qui affectera le focus de la fenêtre tant que le gestionnaire ne sera pas retourné. Par exemple, si vous appelez [**MessageBox**](/windows/desktop/api/winuser/nf-winuser-messagebox) immédiatement après avoir utilisé **PostMessage** pour envoyer des **\_ SETWIZBUTTONS PSM**, la boîte de message reçoit le focus. Étant donné que les messages publiés ne sont pas remis tant qu’ils n’atteignent pas le début de la file d’attente de messages, le message **\_ SETWIZBUTTONS PSM** n’est pas remis tant que l’Assistant n’a pas perdu le focus sur la boîte de message. Par conséquent, la feuille de propriétés ne sera pas en mesure de définir correctement le focus pour les boutons.
 
@@ -73,7 +73,7 @@ Si vous envoyez le \_ message SETWIZBUTTONS PSM lors de la gestion de la notific
 
 Les assistants affichent trois ou quatre boutons sous chaque page. Ce message est utilisé pour spécifier les boutons qui sont activés. Les assistants s' **affichent** normalement, **annulent** et un bouton **suivant** ou **Terminer** . En général, vous activez uniquement le bouton **suivant** pour la page d’accueil, **suivant** et **précédent** pour les pages intérieures, et en **arrière** et en **fin** pour la page de fin. Le bouton **Annuler** est toujours activé. Normalement, la définition de PSWIZB \_ Finish ou PSWIZB \_ DISABLEDFINISH remplace le bouton **suivant** par un bouton **Terminer** . Pour afficher les boutons **suivant** et **Terminer** simultanément, définissez l' \_ indicateur PSH WIZARDHASFINISH dans le membre **dwFlags** de la structure [**PROPSHEETHEADER**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2) de l’Assistant lorsque vous créez l’Assistant. Chaque page affiche ensuite les quatre boutons.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

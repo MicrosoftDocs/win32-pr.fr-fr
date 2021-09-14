@@ -4,12 +4,12 @@ description: Pour localiser les enfants d’un objet ou pour déterminer la tail
 ms.assetid: ba08814f-87bc-4b47-8b61-179a48d5092f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34911b13a4c9bad2bfd79cb32d5654265878568ad00475ade08a87a23150b49f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c26d055246e038611e881bd353bcc865c5e77136
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118828270"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010674"
 ---
 # <a name="navigation-through-hit-testing-and-screen-location"></a>Navigation via le test de positionnement et l’emplacement à l’écran
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c499713b3c6496759d94229e291138b0cb07de9e9f35d116eb19b4a7aeb3829
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de7f4fb5e679a6b5767635c70e2ffb5eda3ba800
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118553967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292199"
 ---
 # <a name="running-a-program-from-the-command-line-based-on-an-event"></a>Exécution d’un programme à partir de la ligne de commande en fonction d’un événement
 

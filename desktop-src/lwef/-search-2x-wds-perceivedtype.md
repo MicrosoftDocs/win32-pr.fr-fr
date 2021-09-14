@@ -4,12 +4,12 @@ description: PerceivedType est une propriété qui classifie un élément dans l
 ms.assetid: 47a5cf55-79f6-48e7-a585-72fc3d7d53d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de2baa37a46a9bd78e6e8a7ad94806dffe3a918046253bb09d4dab6090838b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afaf7d8b827495a94b441e5504762dd53dbe733c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119610829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295451"
 ---
 # <a name="perceived-types-legacy-windows-environment-features"></a>Types perçus (fonctionnalités héritées de l’environnement Windows)
 

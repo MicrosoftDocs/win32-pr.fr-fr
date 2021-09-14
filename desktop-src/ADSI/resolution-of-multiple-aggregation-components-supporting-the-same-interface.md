@@ -8,12 +8,12 @@ keywords:
 - résolution de plusieurs composants d’agrégation prenant en charge la même interface ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e7c55fbc499ab3747b65ace9e869a0d5930894211d73a07ab1078eef8614694
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f58b7b606a05543444a172e2f76b436f6048431
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119082323"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117953"
 ---
 # <a name="resolution-of-multiple-aggregation-components-supporting-the-same-interface"></a>Résolution de plusieurs composants d’agrégation prenant en charge la même interface
 

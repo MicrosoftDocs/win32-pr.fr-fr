@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 68015cc4e834aaa1baaec0046a472d5a290cb22b0d0879e6d6f2fccfd9d21d67
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dbbeccdf6c3fa9d586c841de661ed351ec37d9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011254"
 ---
 # <a name="iscard-interface"></a>Interface ISCard
 
@@ -59,7 +59,7 @@ L’interface **ISCard** possède ces méthodes.
 | [**Detach**](iscard-detach.md)                 | Ferme la connexion ouverte à la carte à puce.<br/>                                                                                                                                                                        |
 | [**LockSCard**](iscard-lockscard.md)           | Réclame un accès exclusif à la carte à puce.<br/>                                                                                                                                                                           |
 | [**Rattacher**](iscard-reattach.md)             | Réinitialise et réinitialise la carte à puce.<br/>                                                                                                                                                                             |
-| [**Transaction**](iscard-transaction.md)       | Exécute une opération d’écriture et de lecture sur l’objet de commande de carte à puce ([*unité de données de protocole d’application*](../secgloss/a-gly.md)).<br/> |
+| [**Libellé**](iscard-transaction.md)       | Exécute une opération d’écriture et de lecture sur l’objet de commande de carte à puce ([*unité de données de protocole d’application*](../secgloss/a-gly.md)).<br/> |
 | [**UnlockScard**](iscard-unlockscard.md)       | Libère l’accès exclusif à la carte à puce.<br/>                                                                                                                                                                         |
 
 
@@ -76,15 +76,15 @@ L’interface **ISCard** possède les propriétés suivantes.
 |:-------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Atr**](iscard-get-atr.md)<br/>               | Lecture seule<br/> | Récupère la [*chaîne ATR*](../secgloss/a-gly.md) de la carte à puce.<br/>                                                                   |
 | [**CardHandle**](iscard-get-cardhandle.md)<br/> | Lecture seule<br/> | Récupère le handle de la carte à puce connectée.<br/>                                                                                                                                  |
-| [**Contexte**](iscard-get-context.md)<br/>       | Lecture seule<br/> | Récupère le handle de [*contexte du gestionnaire de ressources*](../secgloss/r-gly.md) actuel.<br/>                            |
-| [**Protocole**](iscard-get-protocol.md)<br/>     | Lecture seule<br/> | Récupère l’identificateur du protocole en cours d’utilisation sur la carte à puce.<br/>                                                                                                        |
+| [**Context**](iscard-get-context.md)<br/>       | Lecture seule<br/> | Récupère le handle de [*contexte du gestionnaire de ressources*](../secgloss/r-gly.md) actuel.<br/>                            |
+| [**Protocol**](iscard-get-protocol.md)<br/>     | Lecture seule<br/> | Récupère l’identificateur du protocole en cours d’utilisation sur la carte à puce.<br/>                                                                                                        |
 | [**Statut**](iscard-get-status.md)<br/>         | Lecture seule<br/> | Récupère l' [*État*](../secgloss/s-gly.md) actuel de la [*carte à puce*](../secgloss/s-gly.md) .<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

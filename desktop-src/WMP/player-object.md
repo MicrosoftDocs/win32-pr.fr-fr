@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ee314862aad1237036d5a7fa6a5627f42a6185d1ab6914f1e11ec19a831b755
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0bdf6443557477c15497a36d4976b13d0cfea2fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119616699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292551"
 ---
 # <a name="player-object"></a>Objet Player
 
@@ -87,7 +87,7 @@ L’objet Player prend en charge les événements suivants. Les événements mar
 | [AudioLanguageChange](player-player-audiolanguagechange.md)                                     | Se produit lorsque le langage audio actuel change.                                  |
 | [des réponses](player-player-buffering.md)                                                         | se produit lorsque le contrôle de Lecteur Windows Media commence ou termine la mise en mémoire tampon.           |
 | [CdromMediaChange](player-player-cdrommediachange.md)                                           | Se produit lorsqu’un CD ou un DVD est inséré ou éjecté d’un lecteur de CD ou DVD.      |
-| [Cliquez sur](player-player-click.md)\*                                                              | Se produit lorsque l’utilisateur clique sur un bouton de la souris.                                      |
+| [Cliquez sur](player-player-click.md) \*                                                              | Se produit lorsque l’utilisateur clique sur un bouton de la souris.                                      |
 | [CurrentItemChange](player-player-currentitemchange.md)                                         | Se produit lorsque *contrôle*. modifications de **CurrentItem** .                                  |
 | [CurrentMediaItemAvailable](player-player-currentmediaitemavailable.md)                         | Se produit lorsqu’un élément de métadonnées graphiques dans l’élément multimédia actuel devient disponible. |
 | [CurrentPlaylistChange](player-player-currentplaylistchange.md)                                 | Se produit lors d’un changement dans la sélection actuelle.                       |

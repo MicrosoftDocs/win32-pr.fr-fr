@@ -4,12 +4,12 @@ ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: Connexion de PrintCapabilities au schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65b82efc36798cc39439ff1dcf30d10c02b33aaa7ca4b0e92be5ce3e305875dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 661a8eb93c6f788381713c0c6620e8a09a53648f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118038"
 ---
 # <a name="connecting-printcapabilities-with-the-print-schema"></a>Connexion de PrintCapabilities au schéma d’impression
 

@@ -367,12 +367,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a439e09731e99af42c2e0c25585be6f4514a92cf171cc74ec6e4dcafbae597da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4979afccf4dfc40e6d6a6298188969903d654d88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118310795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118493"
 ---
 # <a name="com-error-codes-comadmin-filter-graphics"></a>Codes d’erreur COM (comadmin, filtre, graphiques)
 
@@ -743,7 +743,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

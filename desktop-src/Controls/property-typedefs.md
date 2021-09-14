@@ -4,12 +4,12 @@ description: Cette rubrique contient des informations sur les valeurs définies 
 ms.assetid: b0e22022-fea9-43d1-8ef0-7a1c518760f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf20429d5eb5bd45ea850e3b77c5734ab6b8e0fa0e63fe4c1d2b1c918f837f1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed0869ac80332a5dbdb146ee255f5c9e73f4a812
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117557"
 ---
 # <a name="property-identifiers-windows-controls"></a>identificateurs de propriété (contrôles Windows)
 
@@ -23,14 +23,14 @@ Le tableau suivant répertorie les types de propriété primitifs. Les valeurs d
 
 | Type de données       | Description                              | Type retourné                          | Fonction de récupération                                                                                                     |
 |-----------------|------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| TMT \_ bool       | **True** ou **false**                    | Boolean                                | [**GetThemeBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebool), [ **GetThemeSysBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysbool)                                       |
+| TMT \_ bool       | **True** ou **false**                    | Booléen                                | [**GetThemeBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebool), [ **GetThemeSysBool**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysbool)                                       |
 | \_couleur TMT      | Valeur de couleur RVB                          | [**COLORREF**](/windows/desktop/gdi/colorref) , structure | [**GetThemeColor**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemecolor), [ **GetThemeSysColor**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesyscolor)                                   |
 | TMT \_ DISKSTREAM | Flux de disque                              | **HINSTANCE**                          | [**GetThemeStream**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemestream)                                                                               |
 | \_énumération TMT       | Valeur énumérée                         | Énumération                            | [**GetThemeEnumValue**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeenumvalue).                                                                        |
 | \_nom de fichier TMT   | Nom de fichier relatif au répertoire du thème | Tableau **WCHAR**                        | [**GetThemeFilename**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemefilename)                                                                           |
 | \_police TMT       | Description de la police                         | [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) , structure   | [**GetThemeFont**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemefont), [ **GetThemeSysFont**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysfont)                                       |
 | TMT \_ HBITMAP    | Bitmap                                   | Identificateur **HBITMAP**                     | [**GetThemeBitmap**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemebitmap)                                                                               |
-| TMT \_ int        | Nombre signé                            | Entier                                | [**GetThemeInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeint), [**GetThemeSysInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysint), [**GetThemeMetric**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthememetric) |
+| TMT \_ int        | Nombre signé                            | Integer                                | [**GetThemeInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeint), [**GetThemeSysInt**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemesysint), [**GetThemeMetric**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthememetric) |
 | \_international TMT    | Liste d’entiers                         | Structure [**Intl**](/windows/desktop/api/UxTheme/ns-uxtheme-intlist)   | [**GetThemeIntList**](/windows/desktop/api/UxTheme/nf-uxtheme-getthemeintlist)                                                                             |
 | \_marges TMT    | Marges : à gauche, en haut, à droite et en bas    | [**Marges**](/windows/desktop/api/Uxtheme/ns-uxtheme-margins) , structure   | [**GetThemeMargins**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthememargins)                                                                             |
 | \_position TMT   | Emplacement d’un élément                      | [**Point**](/previous-versions//dd162805(v=vs.85)) , structure       | [**GetThemePosition**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemeposition)                                                                           |
@@ -50,7 +50,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                        | Remarques                                                                                                                                                                                                           |
+| id                        | Notes                                                                                                                                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TMT \_ ALWAYSSHOWSIZINGBAR  | **True** si la barre de dimensionnement associée au composant et à l’État doit toujours être affichée.                                                                                                                           |
 | \_REdimensionnement automatique TMT             | **True** si la zone de légende non client associée au composant et à l’État varient avec la largeur du texte.                                                                                                                 |
@@ -84,7 +84,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                           | Remarques                                                                                                                                                                                          |
+| id                           | Notes                                                                                                                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TMT \_ ACCENTCOLORHINT         | Couleur utilisée comme indicateur de couleur d’accentuation pour les contrôles personnalisés.                                                                                                                                    |
 | TMT \_ ACTIVEBORDER            |                                                                                                                                                                                                |
@@ -159,7 +159,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID              | Remarques |
+| id              | Notes |
 |-----------------|-------|
 | TMT \_ ATLASIMAGE |       |
 
@@ -171,7 +171,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| Énumération         | Valeurs de la propriété                                                                                                                                                                                                                                            | Remarques                                                                                                                                                |
+| Énumération         | Valeurs de la propriété                                                                                                                                                                                                                                            | Notes                                                                                                                                                |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BGTYPE              | \_image BT, BT \_ BORDERFILL                                                                                                                                                                                                                              | Type de dessin de base pour ce composant.                                                                                                                |
 | BORDERTYPE          | BT \_ Rect, BT \_ ROUNDRECT, \_ ellipses BT                                                                                                                                                                                                                       | Type de bordure dessinée si cette partie est un remplissage de bordure.                                                                                              |
@@ -197,7 +197,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                  | Remarques                                                                                                                                        |
+| id                  | Notes                                                                                                                                        |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | TMT \_ GLYPHIMAGEFILE | Nom de fichier de l’image de glyphe associée à ce composant et à cet État.                                                                        |
 | \_image TMT      | Nom de fichier de l’image associée à ce composant et à cet État, ou nom de fichier de base pour plusieurs images associées à ce composant et à cet État. |
@@ -215,7 +215,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                    | Remarques                                                                                                |
+| id                    | Notes                                                                                                |
 |-----------------------|------------------------------------------------------------------------------------------------------|
 | TMT \_ BODYFONT         |                                                                                                      |
 | TMT \_ CAPTIONFONT      |                                                                                                      |
@@ -236,7 +236,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                       | Remarques                                                                                                                                                                                                            |
+| id                       | Notes                                                                                                                                                                                                            |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TMT \_ ALPHALEVEL          | Valeur alpha (0-255) utilisée pour [**DrawThemeIcon**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemeicon).                                                                                                                                         |
 | TMT \_ ALPHATHRESHOLD      | Valeur alpha minimale (0-255) qu’un pixel doit avoir pour être considéré comme opaque.                                                                                                                                  |
@@ -297,7 +297,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                       | Remarques |
+| id                       | Notes |
 |--------------------------|-------|
 | TMT \_ TRANSITIONDURATIONS |       |
 
@@ -309,7 +309,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                  | Remarques                                                                   |
+| id                  | Notes                                                                   |
 |---------------------|-------------------------------------------------------------------------|
 | TMT \_ CAPTIONMARGINS | Marges qui définissent où le texte de légende peut être placé dans un composant. |
 | TMT \_ CONTENTMARGINS | Marges qui définissent où le contenu peut être placé dans un composant.      |
@@ -323,7 +323,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                    | Remarques                                                                                                        |
+| id                    | Notes                                                                                                        |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|
 | TMT \_ MinSize          | Taille minimale pour laquelle le fichier image normal peut être utilisé avant de passer au plus petit fichier image suivant.   |
 | TMT \_ MINSIZE1         | Taille minimale pour laquelle le premier petit fichier image peut être utilisé.                                            |
@@ -343,7 +343,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                       | Remarques                         |
+| id                       | Notes                         |
 |--------------------------|-------------------------------|
 | TMT \_ ANIMATIONBUTTONRECT |                               |
 | TMT \_ ATLASRECT           |                               |
@@ -358,7 +358,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                      | Remarques                     |
+| id                      | Notes                     |
 |-------------------------|---------------------------|
 | TMT \_ CAPTIONBARHEIGHT   | Hauteur de la barre de légende.       |
 | TMT \_ CAPTIONBARWIDTH    | Largeur de la barre de légende.        |
@@ -379,7 +379,7 @@ Voici les valeurs définies pour les propriétés de thème, regroupées par typ
 
 
 
-| ID                   | Remarques                                               |
+| id                   | Notes                                               |
 |----------------------|-----------------------------------------------------|
 | \_alias TMT           |                                                     |
 | TMT \_ ATLASINPUTIMAGE |                                                     |

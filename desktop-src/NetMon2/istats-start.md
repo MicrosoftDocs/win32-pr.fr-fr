@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 494ec12a0bb9c5c312f34e9cc53e82bfcbe155f90c38b98b2ba807e9c87b6945
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011535"
 ---
 # <a name="istatsstart-method"></a>IStats :: Start, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors du redémarrage de la capture à l’aide des méthodes IStats :: Start et [IStats :: Stop](istats-stop.md) , vous devez appeler la méthode [IStats :: configure](istats-configure.md) pour reconfigurer la connexion chaque fois que vous appelez IStats :: Start pour redémarrer la capture de données.
 
@@ -66,7 +66,7 @@ Lors du redémarrage de la capture à l’aide des méthodes IStats :: Start et
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

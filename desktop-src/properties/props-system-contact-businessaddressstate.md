@@ -4,12 +4,12 @@ ms.assetid: 4e0af488-61af-4f1a-b0a2-eff8b9fbbc3a
 title: System. contact. BusinessAddressState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c0ce8f2f44e5cda9705877ae6fe317398892564e765b5abde28fa10ca6bd35
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31f53a29cc067d8ea8af9564b7a07707887cff00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119662249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294839"
 ---
 # <a name="systemcontactbusinessaddressstate"></a>System. contact. BusinessAddressState
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

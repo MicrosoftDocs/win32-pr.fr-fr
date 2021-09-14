@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1c2e3d5e2ce8ee4253ae0c31e3b88fc34ed4e3927487ebfae60be6ba5e7c448
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cb8ea28c36ca06548128954298e35c0cc20de5b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120125589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118713"
 ---
 # <a name="imsrdppreferredredirectioninfo-interface"></a>Interface IMsRdpPreferredRedirectionInfo
 
@@ -47,7 +47,7 @@ L’interface **IMsRdpPreferredRedirectionInfo** possède les propriétés suiva
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 propriété DisableRemoteAppCapsCheck
-description: Spécifie si le contrôle ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.
+description: spécifie si le contrôle de ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.
 ms.assetid: dcc44d4b-ece5-4f5b-a00a-f90d7a2fa11a
 ms.tgt_platform: multiple
 keywords:
@@ -20,15 +20,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d4f65b0e1b56b3a1152f71aff25d4cf65a4420d1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467022"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011027"
 ---
 # <a name="imsrdpclientnonscriptable5disableremoteappcapscheck-property"></a>IMsRdpClientNonScriptable5 ::D propriété isableRemoteAppCapsCheck
 
-Spécifie si le contrôle ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur. Si cette propriété contient **la \_ valeur variant true**, le contrôle ne doit pas vérifier les fonctionnalités RemoteApp du serveur. Si cette propriété contient **la \_ valeur false**, le contrôle peut vérifier les fonctionnalités RemoteApp du serveur.
+spécifie si le contrôle de ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur. Si cette propriété contient **la \_ valeur variant true**, le contrôle ne doit pas vérifier les fonctionnalités RemoteApp du serveur. Si cette propriété contient **la \_ valeur false**, le contrôle peut vérifier les fonctionnalités RemoteApp du serveur.
 
 Cette propriété est en lecture/écriture.
 
@@ -51,7 +51,7 @@ HRESULT get_DisableRemoteAppCapsCheck(
 
 Spécifie la nouvelle valeur de la propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

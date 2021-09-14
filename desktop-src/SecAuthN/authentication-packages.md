@@ -4,12 +4,12 @@ ms.assetid: b0d7bca1-b4bb-4b3f-822e-04a6a500cd9a
 title: Packages d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d556489d520ebf45224e3e9b8a5526cc4debcf1c7e7ab95028ecd9e35a6de217
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff02017b653521d80741bcdf3c205ab924c4bceb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011322"
 ---
 # <a name="authentication-packages"></a>Packages d’authentification
 

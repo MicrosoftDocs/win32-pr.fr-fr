@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5e7301c1fb697f4dbbceea2d4dc46af1d884fe4b3e06166b5c24aa43502a73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c3125235d5f8d19963b85284e7dbe40c7af408d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292539"
 ---
 # <a name="playercdrommediachange-event"></a>Événement Player. CdromMediaChange
 
@@ -49,11 +49,11 @@ Player.CdromMediaChange(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’index du lecteur de CD correspond à l’index d’un objet **cdrom** dans le **CdromCollection**.
 
@@ -61,7 +61,7 @@ la valeur des paramètres d’événement est spécifiée par Lecteur Windows Me
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

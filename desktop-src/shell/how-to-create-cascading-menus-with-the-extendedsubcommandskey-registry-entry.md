@@ -1,19 +1,19 @@
 ---
-description: Dans Windows 7 et versions ultérieures, vous pouvez utiliser la sous-clé ExtendedSubCommandsKey pour créer des menus en cascade étendus.
+description: dans Windows 7 et versions ultérieures, vous pouvez utiliser la sous-clé ExtendedSubCommandsKey pour créer des menus en cascade étendus.
 ms.assetid: 6E8B4FB7-D4DB-4DBC-AF6F-59D02CB6AB13
 title: Créer des menus en cascade avec l’entrée de Registre ExtendedSubCommandsKey
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 220a38825ae250a0d58d30bc7de93f290f819eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756514"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296119"
 ---
 # <a name="how-to-create-cascading-menus-with-the-extendedsubcommandskey-registry-entry"></a>Comment créer des menus en cascade avec l’entrée de Registre ExtendedSubCommandsKey
 
-Dans Windows 7 et versions ultérieures, vous pouvez utiliser la sous-clé **ExtendedSubCommandsKey** pour créer des menus en cascade étendus.
+dans Windows 7 et versions ultérieures, vous pouvez utiliser la sous-clé **ExtendedSubCommandsKey** pour créer des menus en cascade étendus.
 
 La capture d’écran suivante est un exemple de menu en cascade étendu.
 
@@ -55,7 +55,7 @@ Assurez-vous que la valeur par défaut de la sous-clé *menu de test cascade 2* 
 
 ### <a name="step-3"></a>Étape 3 :
 
-Remplissez les sous-verbes à l’aide de l’une des implémentations de verbe statique suivantes. Notez que la sous-clé CommandFlags représente les valeurs EXPCMDFLAGS. Si vous souhaitez ajouter un séparateur avant ou après l’élément de menu cascade, utilisez ECF \_ SEPARATORBEFORE (0x20) ou ECF \_ SEPARATORAFTER (0x40). Pour obtenir une description de ces indicateurs Windows 7 et versions ultérieures, consultez [**IExplorerCommand :: GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF \_ SEPARATORBEFORE fonctionne uniquement pour les éléments de menu de niveau supérieur. MUIVerb est de type **reg \_ SZ** et CommandFlags est de type **reg \_ DWORD**.
+Remplissez les sous-verbes à l’aide de l’une des implémentations de verbe statique suivantes. Notez que la sous-clé CommandFlags représente les valeurs EXPCMDFLAGS. Si vous souhaitez ajouter un séparateur avant ou après l’élément de menu cascade, utilisez ECF \_ SEPARATORBEFORE (0x20) ou ECF \_ SEPARATORAFTER (0x40). pour obtenir une description des indicateurs Windows 7 et versions ultérieures, consultez [**IExplorerCommand :: GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF \_ SEPARATORBEFORE fonctionne uniquement pour les éléments de menu de niveau supérieur. MUIVerb est de type **reg \_ SZ** et CommandFlags est de type **reg \_ DWORD**.
 
 ```
 HKEY_CLASSES_ROOT

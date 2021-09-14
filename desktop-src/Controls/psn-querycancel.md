@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bff5ed6203d255a18c40044febb2f7afd9ab42e15c5a9d8ae9fa1a1a56518693
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f27d39a7a02d80235db5f8fbe31809dcc913d51c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119798619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117393"
 ---
 # <a name="psn_querycancel-notification-code"></a>\_Code de notification PSN QUERYCANCEL
 
@@ -45,17 +45,17 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour empêcher l’opération d’annulation, ou **false** pour l’autoriser.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce code de notification est généralement envoyé lorsqu’un utilisateur clique sur le bouton **Annuler** . Elle est également envoyée lorsqu’un utilisateur clique sur le bouton **X** dans l’angle supérieur droit de la feuille de propriétés ou appuie sur la touche ÉCHAP. Une page de feuille de propriétés peut gérer ce code de notification pour demander à l’utilisateur de vérifier l’opération d’annulation.
 
 Pour définir une valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur de retour de la fonction \_ MSGRESULT. La procédure de la boîte de dialogue doit retourner **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

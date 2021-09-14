@@ -11,12 +11,12 @@ api_name:
 - AutoConnectOnInternet
 api_type:
 - Schema
-ms.openlocfilehash: 3a10804e91ee34125c25c320a49b5f7251f720ed9ce6c770c2aa4af5167a8511
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd08e93572d7d0af8b490ac079e3057413c469ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117881474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118105"
 ---
 # <a name="autoconnectoninternet-mbnprofile-element"></a>Élément AutoConnectOnInternet (MBNProfile)
 
@@ -34,7 +34,7 @@ Si la valeur est **false**, la logique de connexion automatique du service haut 
 
 L’élément **AutoConnectOnInternet** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

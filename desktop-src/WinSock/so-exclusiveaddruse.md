@@ -5,11 +5,11 @@ title: Option de socket SO_EXCLUSIVEADDRUSE (Winsock2. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 90d4747150f918a7e9c4ce37ec209e7261d1a00c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516870"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292223"
 ---
 # <a name="so_exclusiveaddruse-socket-option"></a>SO \_ EXCLUSIVEADDRUSE option de socket
 
@@ -163,11 +163,11 @@ Première liaison
 
 *Caractère générique*
 
-*Spécifique*
+*Plus*
 
 *Caractère générique*
 
-*Spécifique*
+*Plus*
 
 $ {ROWSPAN3} $*donc \_ EXCLUSIVEADDRUSE*$ {Remove} $  
 
@@ -181,7 +181,7 @@ $ {ROWSPAN3} $*donc \_ EXCLUSIVEADDRUSE*$ {Remove} $
 
 Échec (10048)
 
-*Spécifique*
+*Plus*
 
 Échec (10048)
 
@@ -213,7 +213,7 @@ $ {ROWSPAN3} $*no options*$ {Remove} $
 
 Échec (10048)
 
-*Spécifique*
+*Plus*
 
 Échec (10048)
 
@@ -245,7 +245,7 @@ Opération réussie\*
 
 Succès
 
-*Spécifique*
+*Plus*
 
 Échec (10013)
 
@@ -286,7 +286,7 @@ L’option si oui \_ peut être définie sur un socket pour empêcher le port de
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

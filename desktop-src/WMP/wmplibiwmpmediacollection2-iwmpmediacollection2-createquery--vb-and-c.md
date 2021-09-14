@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1644748008e2b222fef0101a96892d480ad4723b9892b94e0e69c387b54e53d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 318b27a20ba801e1fbed58ff79c5bed7841f8c29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292522"
 ---
 # <a name="iwmpmediacollection2createquery-method"></a>IWMPMediaCollection2 :: createQuery, méthode
 
@@ -49,11 +49,11 @@ Implements IWMPMediaCollection2.createQuery
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPQuery** qui représente une nouvelle requête vide.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La création d’une nouvelle requête est la première étape de la création d’une requête composée.
 
@@ -107,7 +107,7 @@ Next i
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

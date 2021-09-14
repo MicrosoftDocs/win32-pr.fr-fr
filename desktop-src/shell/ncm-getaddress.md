@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 27f5beec56a0125d26cc359f40b5033eda1f035f2dec7666725264ec6fd59ba7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d5effa69a23a61a602efaf1172de09a09889e32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117677967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296107"
 ---
 # <a name="ncm_getaddress-message"></a>\_Message NCM GETADDRESS
 
@@ -47,7 +47,7 @@ NCM_GETADDRESS
 *PV* \[ in, out\]
 </dt> <dd>Pointeur vers une structure <a href="/windows/win32/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> pour recevoir des informations d’adresse réseau sous forme analysée, si le format et le type d’adresse dans le contrôle spécifié par *HWND* sont validés. L’application appelante est chargée d’allouer la mémoire pour cette structure.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs suivantes de type **HRESULT**.
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs suivantes de type **HRESULT**.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le message **NCM \_ GETADDRESS** pour valider une adresse réseau dans un contrôle d’adresse réseau par rapport à un masque de type d’adresse réseau prédéfini. Pour instancier, utilisez la classe **msctls \_ NetAddress** définie dans shellapi. h. Appelez [**InitNetworkAddressControl**](/windows/desktop/api/Shellapi/nf-shellapi-initnetworkaddresscontrol) au moment de l’exécution avant d’envoyer ce message. Cette commande initialise la bibliothèque de contrôles communs qui contient le contrôle d’adresse réseau.
 
@@ -75,7 +75,7 @@ Les représentations de l’adresse IP (Internet Protocol) versions 4 et 6 (v4/V
 
 Définissez le masque de type d’adresse réseau à l’aide du message [**NCM \_ SETALLOWTYPE**](ncm-setallowtype.md) avant d’envoyer la macro **NCM \_ GETADDRESS** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bbb5139b1420ea3dbfbc9e37a9dc07421788bb051acb40449e9c0117031320e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1eb0881672c9e3bf51214cff93cb3f68d802b04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911051"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011160"
 ---
 # <a name="winbio_bir_quality-constants"></a>\_ \_ Constantes de qualité WINBIO Bir
 
@@ -33,7 +33,7 @@ Les indicateurs suivants sont utilisés par le membre **DataQuality** de la stru
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

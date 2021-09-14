@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9d36dfcd7e0273dd76e15b204fa9976f6732f53252242b70a61d2089e853b611
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4eb16cc341eb6e5dcee87216a52e9e3de94d1b65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117972593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011147"
 ---
 # <a name="storeimport-method"></a>Store. Import, méthode
 
@@ -48,11 +48,11 @@ Chaîne qui contient les certificats encodés à importer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!IMPORTANT]
 > Lorsque cette méthode est appelée à partir d’un script Web, le script doit accéder aux certificats numériques sur l’ordinateur local. Si vous autorisez le script à accéder à vos certificats numériques, le site Web à partir duquel le script est exécuté aura également accès aux informations personnelles stockées dans les certificats. La première fois que cette méthode est appelée à partir d’un domaine particulier, une boîte de dialogue est générée dans laquelle l’utilisateur doit indiquer si l’accès aux certificats doit être autorisé.
@@ -61,7 +61,7 @@ Cette méthode ne retourne pas de valeur.
 
 Si le magasin n’est pas ouvert avec l’autorisation de lecture/écriture, cette méthode échoue. Bien que cette méthode puisse être utilisée avec les magasins de mémoire, toute modification apportée à un magasin de mémoire n’est pas conservée lors de la fermeture de la Banque.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

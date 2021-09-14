@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a10283f2dee05c7babf94ef8bee4c2cf01fe256d24bbea2cd3e54d0afb15f1d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba80ea119056c131f1dd94cdf1f39a84371b7052
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119261529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117793"
 ---
 # <a name="nm_setfocus-date-time-notification-code"></a>\_Code de notification nm SetFocus (date et heure)
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

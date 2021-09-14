@@ -551,12 +551,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ba1a890b25392d4903c2aa9055b529e22ed9df9ac656a97014dbb0bff205246
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4e260c4dfcd6d19a789ae7ddecfadc2528037cf9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118498"
 ---
 # <a name="com-error-codes-security-and-setup"></a>Codes d’erreur COM (sécurité et configuration)
 
@@ -1111,7 +1111,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

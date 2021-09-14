@@ -50,12 +50,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4700c549fa82f932ed12e3f4eeb02f2d557db3f940b394e0f2f875ac6dd7dffb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d8f996e70873d5584bb80bbf4f40f71a7deae8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119000689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118677"
 ---
 # <a name="imstscadvancedsettingsiconfile-property"></a>IMsTscAdvancedSettings :: IconFile, propriété
 
@@ -87,13 +87,13 @@ Chemin d’accès qualifié complet du fichier icône ou fichier contenant les d
 
 Retourne **S \_ false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’extension de nom de fichier d’un fichier d’icône est « . ico ».
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

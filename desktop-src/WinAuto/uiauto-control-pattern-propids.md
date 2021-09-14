@@ -91,12 +91,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0690f1695f6a52190e9e459e34d2e51b19c7429980ee05f30f1ffc4af388faa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e94bb4471db89dd66d560ae2da090f06367b8fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010570"
 ---
 # <a name="control-pattern-property-identifiers"></a>Identificateurs de propriété de modèle de contrôle
 
@@ -189,7 +189,7 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les pr
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -205,7 +205,7 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les pr
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des propriétés UI Automation](uiauto-propertiesoverview.md)

@@ -4,12 +4,12 @@ ms.assetid: 5b8fd559-b1be-4552-a7be-19ad107855af
 title: Entrées autorun. inf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221e0a99e6352b5cfe50f3c3c0c2939933ff6c6f862e1a03b54127968b9c1838
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 56d93244f177d107bddc720fab1d0c774fd94735
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119937159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296126"
 ---
 # <a name="autoruninf-entries"></a>Entrées autorun. inf
 
@@ -79,7 +79,7 @@ action=@[filepath\]filename,-resourceID
 
     ID de la chaîne dans le fichier binaire.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 la clé d' **action** est utilisée uniquement dans Windows XP Service Pack 2 (SP2) ou version ultérieure. Il est uniquement pris en charge pour les lecteurs de type lecteur \_ amovible et lecteur \_ fixe. Dans le cas d’un disque \_ amovible, la clé d' **action** est requise. une commande d' **action** dans le fichier Autorun. inf d’un CD audio ou d’un DVD de film est ignorée, et ces médias continuent de se comporter comme dans Windows XP Service Pack 1 (SP1) et versions antérieures.
 
@@ -108,7 +108,7 @@ CustomEvent=CustomEventName
 
     Chaîne de texte contenant le nom de l’événement de contenu de lecture automatique. Le nom ne doit pas comporter plus de 100 caractères alphanumériques.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Vous pouvez inclure un nom d’événement personnalisé dans le fichier autorun. inf d’un volume. Lorsque l’exécution automatique invite l’utilisateur à utiliser une application avec le volume, il affiche uniquement les applications qui ont été inscrites pour le nom d’événement personnalisé spécifié. Pour plus d’informations sur la façon dont vous pouvez inscrire une application en tant que gestionnaire pour votre événement de contenu de lecture automatique personnalisé, consultez [lancement automatique avec exécution](/previous-versions/windows/apps/hh452731(v=win.10)) automatique ou [inscription d’un gestionnaire d’événements](how-to-register-an-event-handler.md).
 
@@ -138,7 +138,7 @@ icon=iconfilename[,index]
 
     Nom d’un fichier. ico, .bmp, .exe ou .dll contenant les informations sur l’icône. Si un fichier contient plusieurs icônes, vous devez également spécifier un index de base zéro de l’icône.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 l’icône, ainsi que l’étiquette, représente le lecteur compatible avec la fonction AutoRun dans l’interface utilisateur Windows. par exemple, dans l’explorateur de Windows, le lecteur est représenté par cette icône au lieu de l’icône de lecteur standard. Le fichier de l’icône doit se trouver dans le même répertoire que le fichier spécifié par la commande [ouvrir](#parameters) .
 
@@ -173,7 +173,7 @@ label=LabelText
 
  
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 l’étiquette, ainsi qu’une icône, représente le lecteur prenant en charge l’exécution automatique dans l’interface utilisateur Windows.
 
@@ -224,7 +224,7 @@ UseAutoPlay=1
 
 
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 actuellement, **UseAutoPlay** est applicable uniquement sur Windows XP ou version ultérieure et uniquement sur un lecteur que [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) détermine comme étant du type **lecteur \_ CDROM**.
 
@@ -292,7 +292,7 @@ shellexecute=[filepath\]filename[param1, [param2]...]
 
     Contient tous les paramètres supplémentaires qui doivent être passés à [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa).
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Cette entrée est semblable à [Open](#parameters), mais elle vous permet d’utiliser les informations d' [Association de fichiers](fa-intro.md) pour exécuter l’application.
 
@@ -313,7 +313,7 @@ shell=verb
 
     Verbe qui correspond à la commande de menu. Le verbe et sa commande de menu associée doivent être définis dans le fichier autorun. inf avec une entrée de [ \\ verbe de Shell](#shellverb) .
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Quand un utilisateur clique avec le bouton droit sur l’icône du lecteur, un menu contextuel s’affiche. Si un fichier autorun. inf est présent, la commande de menu contextuel par défaut est extraite de celui-ci. Cette commande s’exécute également lorsque l’utilisateur double-clique sur l’icône du lecteur.
 
@@ -345,7 +345,7 @@ shell\verb=MenuText
 
     Ce paramètre spécifie le texte affiché dans le menu contextuel. Si elle est omise, le *verbe* est affiché. *MenuText* peut être à casse mixte et peut contenir des espaces. Vous pouvez définir une touche de raccourci pour l’élément de menu en plaçant une esperluette (&) devant la lettre.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Quand un utilisateur clique avec le bouton droit sur l’icône du lecteur, un menu contextuel s’affiche. L’ajout d’entrées de **\\ verbe de Shell** au fichier autorun. inf du lecteur vous permet d’ajouter des commandes à ce menu contextuel.
 
@@ -447,7 +447,7 @@ DriverPath=directorypath
 
     chemin d’accès à un répertoire qui Windows recherche des fichiers de pilote, ainsi que tous ses sous-répertoires.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 N’utilisez pas de lettres de lecteur dans *DirectoryPath* , car elles sont modifiées d’un ordinateur à l’autre.
 

@@ -1,6 +1,6 @@
 ---
 title: Interface IMsTscSecuredSettings
-description: Comprend des méthodes pour récupérer et définir des propriétés du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques. | Interface IMsTscSecuredSettings
+description: comprend des méthodes permettant de récupérer et de définir les propriétés du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité URL Internet Explorer spécifiques. | Interface IMsTscSecuredSettings
 ms.assetid: 1136dbc5-abe6-40e0-b44f-700a1460fbd2
 ms.tgt_platform: multiple
 keywords:
@@ -17,15 +17,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2037393147bd5a2e35d6eb803951890c9b5e7de5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531774"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118662"
 ---
 # <a name="imstscsecuredsettings-interface"></a>Interface IMsTscSecuredSettings
 
-Comprend des méthodes pour récupérer et définir des propriétés du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques. Les propriétés incluent celles qui spécifient le mode du contrôle client (mode plein écran ou mode fenêtre) et le programme à démarrer lors de la connexion au serveur hôte de session Bureau à distance (hôte de session Bureau à distance). Ces méthodes sont également disponibles via l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) .
+comprend des méthodes permettant de récupérer et de définir les propriétés du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité URL Internet Explorer spécifiques. Les propriétés incluent celles qui spécifient le mode du contrôle client (mode plein écran ou mode fenêtre) et le programme à démarrer lors de la connexion au serveur hôte de session Bureau à distance (hôte de session Bureau à distance). Ces méthodes sont également disponibles via l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) .
 
 ## <a name="members"></a>Membres
 
@@ -41,7 +41,7 @@ L’interface **IMsTscSecuredSettings** possède les propriétés suivantes.
 
 | Propriété                                                              | Type d’accès           | Description                                                                |
 |:----------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------|
-| [**FullScreen**](imstscsecuredsettings-fullscreen.md)<br/>     | Lecture/écriture<br/> | État plein écran du contrôle client.<br/>                    |
+| [**Large**](imstscsecuredsettings-fullscreen.md)<br/>     | Lecture/écriture<br/> | État plein écran du contrôle client.<br/>                    |
 | [**StartProgram**](imstscsecuredsettings-startprogram.md)<br/> | Lecture/écriture<br/> | Programme à démarrer sur le serveur distant lors de la connexion.<br/> |
 | [**WorkDir**](imstscsecuredsettings-workdir.md)<br/>           | Lecture/écriture<br/> | Répertoire de travail du programme de démarrage.<br/>                     |
 
@@ -55,7 +55,7 @@ Pour plus d’informations sur les méthodes de cette interface, consultez la ru
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

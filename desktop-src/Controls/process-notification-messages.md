@@ -4,12 +4,12 @@ description: Une feuille de propriétés envoie \_ des messages de notification 
 ms.assetid: 82768E43-97BA-451A-9373-D5B8FD06ABED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9baf0c58fdbcbe5378dd46e828a2d29a7c91832174c9564660a82c5ab70997a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2c544910e44e0c865e738427285d7488147b9c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119575479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117601"
 ---
 # <a name="how-to-process-notification-messages"></a>Comment traiter des messages de notification
 

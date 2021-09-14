@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: 2d1c83ced842dbb876fea89271a160df2ca07fb9f02f415b13f8f1a46bc8dc79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7815e75f3ef7ef8d908b7d2b26f2e5f9d3630009
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011616"
 ---
 # <a name="dot11_bss_type-enumeration"></a>\_ \_ Énumération des types BSS DOT11
 
@@ -62,7 +62,7 @@ Spécifie l’infrastructure ou le réseau IBSS.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

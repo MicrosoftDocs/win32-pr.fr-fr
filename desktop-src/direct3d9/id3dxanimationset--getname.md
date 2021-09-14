@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 39985e7ebb00ca597d0e7d1149ed312aec59bb83865ca1c78296dca1167cb05b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78e65ad60fa409e3ebfe5c11c969776d79e95fde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118522367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292047"
 ---
 # <a name="id3dxanimationsetgetname-method"></a>ID3DXAnimationSet :: GetName, méthode
 
@@ -38,13 +38,13 @@ LPCSTR GetName();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **LPCSTR**](../winprog/windows-data-types.md)**
 
 Nom de l’ensemble d’animations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

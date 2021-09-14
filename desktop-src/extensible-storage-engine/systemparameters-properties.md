@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.syst
 ms:contentKeyID: 55104035
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 13b2735f699fe2943dcb63bf262c8c708e61df754ed6799f2fb948119755d2e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12e18b6c045758c8e9fd7ffb91f728c78dcf2e24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117890677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118309"
 ---
 # <a name="systemparameters-properties"></a>Propriétés SystemParameters
 
@@ -155,7 +155,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [SystemParameters (classe)](./systemparameters-class.md)
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103104
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ba81c0360c97c466904eac4a841f01ffdb011351e12cf21a1624ace14f1ed80c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 430dac065367ea7ff3d7db1a7f64bba2e7048b03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117707129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294975"
 ---
 # <a name="esenttoomanyopendatabasesexception-methods"></a>Méthodes EsentTooManyOpenDatabasesException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentTooManyOpenDatabasesException, classe](./esenttoomanyopendatabasesexception-class.md)
 

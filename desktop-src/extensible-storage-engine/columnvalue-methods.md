@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.colu
 ms:contentKeyID: 55100957
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 300ea93d41a8d8fff79553b1d685491b99141e70410e25a5209aeb6081655382
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 492cfe913d46c69ba1cc38f68c7f36bedebc4f35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119738179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292163"
 ---
 # <a name="columnvalue-methods"></a>Méthodes ColumnValue
 
@@ -75,7 +75,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnValue, classe](./columnvalue-class.md)
 

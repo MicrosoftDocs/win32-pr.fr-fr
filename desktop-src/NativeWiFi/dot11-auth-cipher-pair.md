@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: 84e4abde6192cf1be92b21df0c6a79125a198e0fde28e304cf583d76ea91689f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fd1a8ef03d5c5cb897d95b768f8ab48705098d74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011617"
 ---
 # <a name="dot11_auth_cipher_pair-structure"></a>\_Structure de \_ paire de chiffrement d’authentification DOT11 \_
 
@@ -54,11 +54,11 @@ Algorithme de chiffrement qui utilise un type énuméré de l' [**\_ \_ algorith
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La \_ structure de \_ paire de chiffrement d’authentification DOT11 \_ définit un algorithme d’authentification et de chiffrement qui peut être activé ensemble pour les connexions réseau BSS (Basic Service Set).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

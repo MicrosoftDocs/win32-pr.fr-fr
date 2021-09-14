@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility est conçu pour être utilisé avec 
 ms.assetid: 8eb36d2c-0c2f-4311-8690-52ce070c9f33
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fa4c06d528281552c47b987a07fba416376b3291f40315770ed98be944554e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2483f4f6679926ef2f87c380d4ac0febcc88652
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010727"
 ---
 # <a name="active-accessibility-and-ui-automation"></a>Active Accessibility et UI Automation
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur les similitudes et les différences entre Microso
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Prise en main](getting-started.md)

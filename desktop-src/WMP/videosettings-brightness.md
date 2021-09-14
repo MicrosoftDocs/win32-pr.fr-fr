@@ -3,7 +3,7 @@ title: VIDEOSETTINGS. Brightness
 description: L’attribut Brightness spécifie ou récupère le paramètre de luminosité de la vidéo.
 ms.assetid: c23c195d-47f5-44d2-b3f9-b323a2cdea80
 keywords:
-- VIDEOSETTINGS. luminosité lecteur Windows Media
+- VIDEOSETTINGS. brightness Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b53c480794e95832ea0f091aca61dfab6df6a25e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010797"
 ---
 # <a name="videosettingsbrightness"></a>VIDEOSETTINGS. Brightness
 
@@ -31,13 +31,13 @@ L’attribut **Brightness** spécifie ou récupère le paramètre de luminosité
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) dont la valeur est comprise entre-127 et + 127 et une valeur par défaut de 0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|-----------------------------------------------------------------|
-| Version<br/> | Version du lecteur Windows Media pour Windows XP ou version ultérieure<br/> |
+| Version<br/> | version de Lecteur Windows Media pour Windows XP ou version ultérieure<br/> |
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ecfa82844a45c6a5c2fcdabbc867c08d5531fd7c9d92a16c5eb8cbd9090af01
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 63f986c6cec9a035424aaafe1c51f4dc0d3ee014
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119440703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295795"
 ---
 # <a name="serialization"></a>Sérialisation
 

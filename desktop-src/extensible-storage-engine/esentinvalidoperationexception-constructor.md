@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d7c2b6530fd1cb68457e4dd76bcd6ca07f27380391995e340e57843a5b311f6d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba04ed35e120f2c395d3d2de93ff0c65dc92a56c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119454529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292595"
 ---
 # <a name="esentinvalidoperationexception-constructor"></a>Constructeur EsentInvalidOperationException
 
@@ -54,7 +54,7 @@ public EsentInvalidOperationException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentInvalidOperationException, classe](./esentinvalidoperationexception-class.md)
 

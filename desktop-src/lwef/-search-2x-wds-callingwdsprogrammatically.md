@@ -4,12 +4,12 @@ description: Microsoft Windows Desktop Search (WDS) 2. x peut être interrogé p
 ms.assetid: 38426f63-2039-410e-8c70-ebd9fc269d74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8879001bcf284affd03ff472ac9327445b799acd44465b5bae9a8cb2d819b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0dc76264b7939311273fbda334292dfb255cde8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118976899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292131"
 ---
 # <a name="calling-wds-programmatically"></a>Appeler WDS par programmation
 
@@ -42,7 +42,7 @@ La méthode se présente sous la forme :
 
 ## <a name="sql-queries"></a>Requêtes SQL
 
-La méthode **ISearchDesktop.ExecuteSQLQuery** est utilisée pour envoyer des requêtes de base de données WDS directes. la syntaxe des requêtes est similaire à celle utilisée pour SharePoint Server, ainsi que la possibilité d’utiliser des clauses de groupe de SQL de style Monarch. La requête est exécutée sur l’index exactement telle qu’elle est transmise sans traitement supplémentaire de la syntaxe de requête avancée comme le fait l’API ExecuteQuery.
+La méthode **ISearchDesktop. ExecuteSQLQuery** est utilisée pour envoyer des requêtes de base de données WDS directes. la syntaxe des requêtes est similaire à celle utilisée pour SharePoint Server, ainsi que la possibilité d’utiliser des clauses de groupe de SQL de style Monarch. La requête est exécutée sur l’index exactement telle qu’elle est transmise sans traitement supplémentaire de la syntaxe de requête avancée comme le fait l’API ExecuteQuery.
 
 https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/\_tahoe\_search\_sql\_syntax.asp
 

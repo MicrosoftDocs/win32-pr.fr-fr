@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 975581aaca4aad2511396e8ec426a7bf2a4720ff54202d42fbe932c0c2e9464d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4a7442ce16e2ff30ca2d9b3bd529d37382d1df41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119513119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118682"
 ---
 # <a name="imstscadvancedsettingscontainerhandledfullscreen-property"></a>IMsTscAdvancedSettings :: ContainerHandledFullScreen, propriété
 
@@ -100,7 +100,7 @@ Définissez ce paramètre sur **true** pour activer le mode ou une autre valeur 
 
 Retourne **S \_ OK** en cas de réussite. Retourne **S \_ false** s’il n’est pas pris en charge.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand ce mode est activé, le conteneur actuel traite le commutateur dans et hors du mode plein écran. Cette méthode doit être utilisée uniquement si le conteneur actuel a besoin d’un contrôle étendu sur le comportement du mode plein écran. Quand cette propriété est définie, le contrôle n’entre pas en mode plein écran en réponse à la combinaison de touches de raccourci du mode plein écran (CTRL + ALT + ATTN); au lieu de cela, les événements [**IMsTscAxEvents :: OnRequestGoFullScreen**](imstscaxevents-onrequestgofullscreen.md) et [**IMsTscAxEvents :: OnRequestLeaveFullScreen**](imstscaxevents-onrequestleavefullscreen.md) sont appelés. Pour plus d’informations sur ces événements, consultez [**IMsTscAxEvents**](imstscaxevents-interface.md) .
 
@@ -108,7 +108,7 @@ La plupart des applications de conteneur n’ont pas besoin d’utiliser le mode
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -19,12 +19,12 @@ keywords:
 - sécurité, balise requestedExecutionLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f88ba97be98795be3725efaf76cf01297d7a00a2bb0112b0211581b3e0e4035f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12f2f5cf006c0adaf9b170a4ed11abd9afd52012
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292487"
 ---
 # <a name="security-considerations-for-assistive-technologies"></a>Considérations relatives à la sécurité pour les technologies d’assistance
 

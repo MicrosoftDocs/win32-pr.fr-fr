@@ -4,12 +4,12 @@ description: Il existe trois types d’annotations dynamiques pris en charge dan
 ms.assetid: 113fea65-982e-4291-9d60-bbb57282f3f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58d30abe3d34fc61a9c85ebce0f6f6e38d51a43b70bef7d28f82adc4b476d74
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0453d3b5d05e2713d1a57fb0f475d4ec2a481b02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010595"
 ---
 # <a name="types-of-dynamic-annotation"></a>Types d’annotation dynamique
 

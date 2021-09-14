@@ -3,7 +3,7 @@ title: Message PGM_SETSCROLLINFO (commctrl. h)
 description: Définit les paramètres de défilement du contrôle de pagineur, y compris la valeur du délai d’attente, les lignes par délai d’attente et les pixels par ligne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro de radiomessagerie \_ SetScrollInfo.
 ms.assetid: e02450b8-f2b5-45b2-9395-d7412119849c
 keywords:
-- PGM_SETSCROLLINFO les contrôles de message Windows
+- PGM_SETSCROLLINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0d8fc230e1a12968d0eb29f8ba512848df42b64b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843426"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117622"
 ---
 # <a name="pgm_setscrollinfo-message"></a>\_Message SETSCROLLINFO PGM
 
-\[Destiné à un usage interne ; non recommandé pour une utilisation dans les applications. Ce message n’est peut-être pas pris en charge dans les versions futures de Windows.\]
+\[Destiné à un usage interne ; non recommandé pour une utilisation dans les applications. Ce message n’est peut-être pas pris en charge dans les versions ultérieures de Windows.\]
 
 Définit les paramètres de défilement du contrôle de pagineur, y compris la valeur du délai d’attente, les lignes par délai d’attente et les pixels par ligne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro de [**radiomessagerie \_ SetScrollInfo**](/windows/desktop/api/Commctrl/nf-commctrl-pager_setscrollinfo) .
 
@@ -45,7 +45,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
@@ -59,14 +59,14 @@ La valeur *wParam* Timeout contrôle la vitesse à laquelle le contrôle de pagi
 
 Par défaut, à chaque événement de défilement, le contrôle de pagineur fait défiler un montant égal à la largeur ou à la hauteur entière du contrôle, selon que le contrôle de pagineur a une orientation horizontale ou verticale. Les valeurs de *lParam* sont utilisées pour remplacer la valeur de défilement par défaut. Si les valeurs autres que zéro sont fournies, la valeur de défilement est le produit des deux valeurs (LOWORD (*lParam*) \* HIWORD (*lParam*)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

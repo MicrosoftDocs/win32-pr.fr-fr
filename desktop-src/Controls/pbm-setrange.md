@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5dca4e4be30b50627d8583a67801dc5cb246ef65e9cd267e6d7b3ee3ed7869
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9e588170c80378082eab7e419e9425e716b8caf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117694"
 ---
 # <a name="pbm_setrange-message"></a>\_Message PBM
 
@@ -43,17 +43,17 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne les valeurs de la plage précédente en cas de réussite, ou zéro dans le cas contraire. [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) spécifie la valeur minimale précédente et [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) spécifie la valeur maximale précédente.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous ne définissez pas les valeurs de plage, le système définit la valeur minimale sur 0 et la valeur maximale sur 100. Étant donné que ce message exprime la plage en tant qu’entier non signé 16 bits, il peut s’étendre de 0 à 65 535. La valeur minimale de la plage peut être comprise entre 0 et 65 535. De même, la valeur maximale peut être comprise entre 0 et 65 535.
 
 Pour définir une plage plus grande, appelez [**PBM \_ SETRANGE32**](pbm-setrange32.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

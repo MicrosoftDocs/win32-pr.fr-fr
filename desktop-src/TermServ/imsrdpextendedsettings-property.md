@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7deeb0e4d6d0f393bae09bacc9ff6709defe51bf6ca6128cbeb64e2f4f6e35cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1eadc8ce59e5a2bd50a4e61ad75b5124b24c21b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118729"
 ---
 # <a name="imsrdpextendedsettingsproperty-property"></a>IMsRdpExtendedSettings ::P propriété opriétés
 
@@ -53,7 +53,7 @@ HRESULT get_Property(
 
 Valeur de la propriété nommée.
 
-| Nom de la propriété | Type de données | Accès | Peut être modifié après le démarrage de la connexion | Description |
+| Nom de la propriété | Type de données | Access | Peut être modifié après le démarrage de la connexion | Description |
 |----------|-----------|--------|-----------------------------------------|-------------|
 | ConnectToChildSession | **VT \_ bool** | Lecture/écriture | Oui | Si vous affectez la **valeur true** à cette propriété, le contrôle client se connecte à la session enfant sur l’ordinateur local au lieu d’un serveur distant. Si cette propriété est définie sur **true**, vous ne pouvez pas vous connecter à un serveur distant, car toutes les connexions sont redirigées vers localhost. Pour plus d’informations sur les sessions enfants, consultez [sessions enfants](child-sessions.md). |
 | DisableCredentialsDelegation | **VT \_ bool** | Lecture/écriture | Non | Si la **valeur est true**, les informations d’identification ne sont pas envoyées au serveur distant. |
@@ -63,7 +63,7 @@ Valeur de la propriété nommée.
 | ManualClipboardSyncEnabled | **VT \_ bool** | Lecture/écriture | Oui | Si cette propriété a la **valeur true** , cela signifie que les presse-papiers locaux et distants ne seront pas synchronisés automatiquement. Au lieu de cela, l’interface [**IMsRdpClipboard**](imsrdpclipboard.md) doit être utilisée pour synchroniser les formats du presse-papiers du presse-papiers local vers le presse-papiers distant et le presse-papiers distant vers le presse-papiers local. |
 | ZoomLevel | ***VT \_ UI4** | Lecture/écriture | Oui | implémente la fonctionnalité de Zoom à l’aide du contrôle de ActiveX RDP. La fonctionnalité de zoom est disponible dans le menu **système** de RDP. La propriété **zoomLevel** n’a aucun effet en mode RemoteApp et en mode plein écran. [**IMsRdpClientAdvancedSettings :: SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) et **zoomLevel** s’excluent mutuellement. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - attributs d’éléments vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2b3fa64fe3898708a3df85b01fadbb372d1fad76abe99379ec914016c602585
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ab23559ca6322ffd6ebc38517a73d802d7001ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010820"
 ---
 # <a name="video-item-attributes"></a>Attributs d’éléments vidéo
 

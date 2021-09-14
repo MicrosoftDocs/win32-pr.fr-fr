@@ -18,12 +18,12 @@ keywords:
 - Windows Encodeur multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64a89c06f031c9cf8214888efb35f2986135f88207fc94a631e1e111c94ce16d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de244445a7c1301c7a14ef273b81ac9fd9cbfb62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295854"
 ---
 # <a name="profiles"></a>Profils
 

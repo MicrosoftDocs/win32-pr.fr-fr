@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: fe08288929a5f14c4a920c52121c2ccfbdb35888f2ed220291e30e53a3ef0c6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24a56e832600b551dd3ab43ea93d59c5805af630
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118364834"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011529"
 ---
 # <a name="labeled_bit-structure"></a>Structure de bits ÉTIQUETÉe \_
 
@@ -62,13 +62,13 @@ Chaîne ou étiquette qui s’affiche lorsque le BIT spécifié dans **BitNumber
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un tableau de **structures \_ binaires étiquetées** est utilisé pour définir un ensemble de paires de bits d’étiquette. Un pointeur vers le tableau est spécifié dans le membre **lpLabeledBit** de la structure [Set](set.md) . Les paires sont utilisées lorsque vous souhaitez afficher une étiquette en fonction de la valeur de chaque BIT. En général, ce type de jeu est utilisé pour indiquer la valeur d’activation ou de désactivation de BITs.
 
 Lorsqu’un jeu de bits est spécifié, Moniteur réseau affiche uniquement les BITs inclus dans le tableau de structures d' **ensemble** . Les BITs qui ne sont pas dans la structure **Set** ne sont pas affichés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

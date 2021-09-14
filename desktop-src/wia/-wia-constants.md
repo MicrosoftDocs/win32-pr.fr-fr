@@ -1,19 +1,19 @@
 ---
 title: Constantes WIA
-description: 'Les rubriques suivantes traitent des constantes d’acquisition d’image Windows (WIA) : WIA Device CommandsWIA Property ConstantsProperty AttributesImage Intent ConstantsWIA Event IdentifiersWIA type d’élément SpecifiersWIA FlagsError CodesWIA 2,0 catégorie d’élément GUIDsWIA 2,0 constantes de taille de page'
+description: 'les rubriques suivantes traitent de Windows constantes d’Acquisition d’Image (wia) : wia Device CommandsWIA Property ConstantsProperty AttributesImage intent ConstantsWIA Event IdentifiersWIA type d’élément SpecifiersWIA type FlagsError CodesWIA 2,0 catégorie d’élément GUIDsWIA 2,0 constantes de taille de Page'
 ms.assetid: 710a7cc6-23a2-43ef-8e18-5592ac262b9f
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 72b50a5c6962589a282a5c50df235a1752dfa96c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295967"
 ---
 # <a name="wia-constants"></a>Constantes WIA
 
-Les rubriques suivantes traitent des constantes WIA (Windows Image Acquisition) :
+les rubriques suivantes couvrent Windows constantes d’Acquisition d’images (WIA) :
 
 -   [**Commandes de l’appareil WIA**](-wia-wia-device-commands.md)
 -   [Constantes de propriété WIA](-wia-wia-property-constants.md)

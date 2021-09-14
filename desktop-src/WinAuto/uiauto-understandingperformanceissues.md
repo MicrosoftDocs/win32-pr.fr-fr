@@ -10,12 +10,12 @@ keywords:
 - clients, modèle de contrôle TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24846fea2f35cd9d265ab4f898b60dba2fc4e959b9a0f8bd7baea4661855f0a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 61d8d9b9b6c5cb0ef3ed34c6960e5aeafa623068
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292459"
 ---
 # <a name="understanding-performance-issues"></a>Compréhension des problèmes de performances
 

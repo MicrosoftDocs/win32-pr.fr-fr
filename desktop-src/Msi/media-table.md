@@ -4,12 +4,12 @@ ms.assetid: f9789f1d-35bf-40d6-9724-d5a160a0d06d
 title: Table des médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29939553e64fb6558aa6480fb69b7beab208a4ccb3e2c9ce55c4d8fcbfc18cc9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a59cd8bf864aa890891873ed92a39225c6eebdf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805094"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011910"
 ---
 # <a name="media-table"></a>Table des médias
 
@@ -78,7 +78,7 @@ Ce champ est utilisé uniquement par la mise à jour corrective et n’est pas v
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le nom du fichier cab est précédé d’un signe dièse ( \# ), les fichiers qui font référence à cet enregistrement de table de média sont empaquetés dans un fichier CAB stocké dans la base de données sous la forme d’un flux distinct.
 

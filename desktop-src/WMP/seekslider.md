@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a294eede05ec2b2f0f84e925aa299c9bcb2388ee2151385e48f2c68e6b4c1328
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59808fa7c41acfcc28b715362b8724c7f113faee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118833338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010868"
 ---
 # <a name="seekslider"></a>SEEKSLIDER
 
@@ -34,11 +34,11 @@ onDragEnd="jscript:player.controls.currentPosition=value;"
 useForegroundProgress="true"
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cela crée un contrôle **Slider** qui recherche le fichier multimédia à n’importe quelle position. Les info-bulles sont localisées. Toutes les propriétés de ce **curseur** peuvent être remplacées en les spécifiant explicitement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb9f14b037d8757469497e644d870a887e6db36172b171f31b00d5615ff39532
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5642a5354d934b37ee58007a9fb260befe201edd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118409810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117386"
 ---
 # <a name="psn_reset-notification-code"></a>\_Code de notification de réinitialisation PSN
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les modifications apportées depuis le dernier code de notification d' [ \_ application PSN](psn-apply.md) sont annulées, sauf dans le cas de [**PSH \_ AEROWIZARD**](/windows/desktop/api/Prsht/ns-prsht-propsheetheadera_v2), qui ne prend pas en charge ce code de notification.
 
@@ -64,7 +64,7 @@ Une application peut utiliser ce code de notification comme opportunité d’eff
 
 N’appelez pas la fonction [**EndDialog**](/windows/desktop/api/winuser/nf-winuser-enddialog) lors du traitement de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

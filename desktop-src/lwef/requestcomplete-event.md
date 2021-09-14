@@ -4,12 +4,12 @@ description: Événement RequestComplete
 ms.assetid: 543b79d1-f09d-4061-a1a8-8c8ab496bceb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf5202cc6aee6e8727651279fd216d5f0e5676025584c9cb66c4c6ad958da54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 551aecdcfbeab76ab45e6211affef794ff37d876
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118746556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118173"
 ---
 # <a name="requestcomplete-event"></a>Événement RequestComplete
 
@@ -41,7 +41,7 @@ Se produit lorsque le serveur termine une demande en file d’attente.
 
 </dd> </dl>
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Cet événement retourne un objet de [**requête**](/windows/desktop/lwef/the-request-object) . Étant donné que les demandes sont traitées de façon asynchrone, vous pouvez utiliser cet événement pour déterminer à quel moment le serveur a terminé le traitement d’une requête (par exemple, une méthode d' [**extraction**](get-method.md), de [**lecture**](play-method.md)ou de [**parole**](speak-method.md) ) pour synchroniser cet événement avec d’autres actions générées par votre application. Le serveur envoie l’événement uniquement au client qui a créé la référence à l’objet de **requête** et uniquement si vous avez défini une variable globale pour la référence à la demande :
 

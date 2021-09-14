@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 94898dbbf193254165850ee696d2fea72d6d446908021dfbb5fd32f1920b7010
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f6082523926d70e670e0b792c6e7e8f41c7c1a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118512950"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295603"
 ---
 # <a name="source-register-negate"></a>Négation du Registre source
 
@@ -33,7 +33,7 @@ Effectue une négation (y =-x) sur tous les composants du Registre.
 
 Registre source. Pour plus d’informations sur les types de registres, consultez les [registres PS 1 \_ \_ 1 \_ \_ PS 1 \_ \_ 2 \_ \_ \_ \_ \_ \_ \_ \_ ](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)PS 1 3 PS 1 4.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contenu du Registre n’est pas modifié. Le modificateur est appliqué uniquement aux données lues à partir du Registre. L’opération de négation est appliquée aux quatre canaux de couleurs (RVBA).
 
@@ -43,7 +43,7 @@ Ce modificateur s’exclut mutuellement avec le [Registre source inversé](dx9-g
 
 Ce modificateur est destiné à être utilisé uniquement avec des instructions arithmétiques.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 L’exemple suivant montre comment utiliser ce modificateur.
 

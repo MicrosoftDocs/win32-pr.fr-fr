@@ -4,12 +4,12 @@ ms.assetid: b3eb9c48-f4c4-42f1-b189-1fa42670008e
 title: 'Comment : récupérer un contexte de périphérique d’impression'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f723ece0e00d58ed684029e0eb3202d637443bd7f0e9d8878024346b9d79ba9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39fde55450273e42f3429f173150296fdd67a1c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119600559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291919"
 ---
 # <a name="how-to-retrieve-a-printer-device-context"></a>Comment : récupérer un contexte de périphérique d’impression
 

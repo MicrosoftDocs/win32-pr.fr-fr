@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 4d3c5ea50ae50edc3d6be16ad771229ea82801f4
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122625735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295227"
 ---
 # <a name="flowmenulayout-element"></a>Élément FlowMenuLayout
 
 Représente une disposition horizontale avec des sauts de ligne pour les éléments d’une galerie.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <FlowMenuLayout
@@ -56,21 +56,21 @@ Représente une disposition horizontale avec des sauts de ligne pour les éléme
 <tr class="odd">
 <td><strong>Colonnes</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Spécifie le nombre d’éléments à afficher sur une seule ligne.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> Entier positif ou négatif. <br/> La valeur par défaut est <strong>2</strong>. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Manipulation</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Une poignée de redimensionnement attachée à la liste déroulante de la Galerie. <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> None<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Barr<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Virage<br/> </dt> <dd> Par défaut. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Lignes</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Spécifie le nombre de lignes d’élément à afficher sans défilement. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> Entier positif ou négatif. <br/> La valeur par défaut est <strong>-1</strong> qui spécifie d’afficher autant de lignes d’éléments que possible.<br/> </dd> </dl></td>
 </tr>
@@ -95,7 +95,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Obligatoire.
 

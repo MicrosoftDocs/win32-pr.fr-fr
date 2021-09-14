@@ -4,12 +4,12 @@ description: Cette section fournit des informations sur l’utilisation de l’a
 ms.assetid: 4ae8efb0-3500-4c6b-82d5-f72fbd8aaa2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4900c8838b820230ae3c7ba5770b92e01b2ccff01459c499603bfb98b6c5ced
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 224a46e0bd4b09d99fdf5c614f1ed0455215f575
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292238"
 ---
 # <a name="direct-annotation"></a>Annotation directe
 

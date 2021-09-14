@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e20b9a1644b2272ee06ff8a792198f79ffebca8b8a971b690c1be1160830aae8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7617c7361c5f2ae76331c5f1b59eb845f6806395
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118719885"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296091"
 ---
 # <a name="specifying-a-namespace-extensions-location"></a>Spécification de l’emplacement d’une extension d’espace de noms
 

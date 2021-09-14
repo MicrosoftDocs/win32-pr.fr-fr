@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 95b5134a2c7f7411ffcf2860f8829225a7271089c824b4e4c8731de78ffa4a61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4279bef86d761ed0eb7d90ad3b8dee46e0f17f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118440801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295251"
 ---
 # <a name="iwiadevmgr2selectdevicedlgid-method"></a>IWiaDevMgr2 :: SelectDeviceDlgID, méthode
 
@@ -100,7 +100,7 @@ Pointeur vers une chaîne qui reçoit la chaîne d’identificateur de l’appar
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -118,7 +118,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode crée et affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner un appareil WIA 2,0 pour l’acquisition d’images. Si un appareil est sélectionné avec succès, la méthode **IWiaDevMgr2 :: SelectDeviceDlgID** passe sa chaîne d’identificateur à l’application par le biais de son paramètre *pbstrDeviceID* .
 
@@ -129,7 +129,7 @@ L’application peut limiter les appareils affichés à l’utilisateur à des t
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

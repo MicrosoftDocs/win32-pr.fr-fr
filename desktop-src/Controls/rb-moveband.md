@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ab45f63b46b8bb883ef9f1fd8708f915dba2a6860ef2f6fabb09e2b00bd8fe6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 146103c4c3d70fc0514729a00eac152c4847b85c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119798539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117253"
 ---
 # <a name="rb_moveband-message"></a>\_Message MOVEBAND RB
 
@@ -43,17 +43,17 @@ Index de base zéro de la nouvelle position de la bande.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message modifiera probablement l’index d’autres bandes dans le contrôle rebar. Si une bande est déplacée de l’index 6 à l’index 0, toutes les bandes comprises entre auront l’index incrémenté d’une unité.
 
 *lParam* ne doit jamais être supérieur au nombre de bandes moins un. Le nombre de bandes peut être obtenu avec le message [**RB \_ GETBANDCOUNT**](rb-getbandcount.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: 2ded8753-0102-4d0b-bf92-0d1084aeca59
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 213d20bb220ef35d9ebca326962137b784635716
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010600"
 ---
 # <a name="toolbar-control-msaa-ui-element-reference"></a>Toolbar, contrôle (référence des éléments d’interface utilisateur MSAA)
 

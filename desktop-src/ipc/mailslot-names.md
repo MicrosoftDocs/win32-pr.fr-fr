@@ -4,12 +4,12 @@ ms.assetid: 1ef522a4-9786-427c-a18a-ae1f0a05cc50
 title: Noms des mailslot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6f96cc5300b3472abe7d6e824266bd0abd0e7b668e38f9f3462eee3cbf3dfb6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bf03718a7e603fe891e00d82c2b0b06fab63f8f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119716899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292327"
 ---
 # <a name="mailslot-names"></a>Noms des mailslot
 

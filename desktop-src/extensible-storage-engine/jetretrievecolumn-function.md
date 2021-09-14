@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: f8a9ce96be028329dea18f32459fbde88b80b75f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985622"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295478"
 ---
 # <a name="jetretrievecolumn-function"></a>Fonction JetRetrieveColumn
 
@@ -142,7 +142,7 @@ En cas de réussite, la valeur de colonne pour la colonne donnée, est copiée d
 
 En cas d’échec, l’emplacement du curseur reste inchangé et aucune donnée n’est copiée dans la mémoire tampon fournie.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cet appel est utilisé une seule fois pour récupérer des données de taille fixe ou connue pour des colonnes qui ne sont pas à valeurs multiples. Toutefois, lorsque les données de la colonne ont une taille inconnue, cet appel est généralement utilisé deux fois. Elle est appelée en premier pour déterminer la taille des données afin de pouvoir allouer l’espace de stockage nécessaire. Le même appel est ensuite refait pour récupérer les données de la colonne. Lorsque le nombre réel de valeurs est inconnu, car une colonne est à valeurs multiples, l’appel est généralement utilisé trois fois. Commencez par obtenir le nombre de valeurs, puis deux fois plus pour allouer le stockage et récupérer les données réelles.
 
@@ -156,7 +156,7 @@ La récupération de la valeur de colonne AutoIncrement à partir de la mémoire
 
 Lors de la récupération de toutes les colonnes avec balises, à valeurs multiples et éparses, en affectant à *ColumnID* la valeur 0 (zéro), les colonnes sont récupérées dans l’ordre *ColumnID* , de la *plus petite à la plus ancienne* à *ColumnID*. Le même ordre des valeurs de colonne est retourné chaque fois que les valeurs de colonne sont récupérées. L’ordre est déterministe.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

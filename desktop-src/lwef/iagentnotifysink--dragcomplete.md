@@ -4,12 +4,12 @@ description: IAgentNotifySink DragComplete
 ms.assetid: b2d9b9c2-709e-4988-aa92-f129e3836fc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b63c24abd41f0509293ba2fafeb055f195a4d13ad354662e8d32d0fb1715e1fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb93fbc7bae1ac43d534962659b850561bd50a6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118477027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295450"
 ---
 # <a name="iagentnotifysinkdragcomplete"></a>IAgentNotifySink ::D ragComplete
 

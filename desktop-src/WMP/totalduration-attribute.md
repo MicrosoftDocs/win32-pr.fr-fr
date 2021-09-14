@@ -3,7 +3,7 @@ title: Attribut TotalDuration
 description: L’attribut TotalDuration est la durée de l’exécution de l’élément.
 ms.assetid: 7615fea6-997a-43af-a46f-c8df68a359d9
 keywords:
-- Attribut TotalDuration lecteur Windows Media
+- Lecteur Windows Media de l’attribut TotalDuration
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5693675ec8fdfbf592a79684c47a155a4ddc1610
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118549"
 ---
 # <a name="totalduration-attribute"></a>Attribut TotalDuration
 
@@ -35,13 +35,13 @@ Cet attribut est stocké uniquement dans le cache de la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|-----------------------------------------------------------------------------------------------------------|
-| Version<br/> | Le lecteur Windows Media série 9 Windows Media Player 10 ou version ultérieure ne prend pas en charge cet attribut<br/> |
+| Version<br/> | Lecteur Windows Media série 9 Lecteur Windows Media 10 ou version ultérieure ne prend pas en charge cet attribut<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5b331d7d-9440-4e0d-a73b-48a2a556c31c
 title: Présentation des cartes à puce au système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07cd65135e1580792135a1042729f2002f4437697fa0548a4f6cd776650485b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b9134dd9efce17b60f3495bf7bfc36b03c34ed3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011276"
 ---
 # <a name="introducing-smart-cards-to-the-system"></a>Présentation des cartes à puce au système
 

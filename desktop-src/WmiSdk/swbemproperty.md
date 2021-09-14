@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 51f4b1b22849fc5a6ae22f49c5c30411563efb9d133cf2440c301eabfde18e0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c71db4063f5de6b48b2e8213f21ca1320a880fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119898069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010420"
 ---
 # <a name="swbemproperty-object"></a>Objet SWbemProperty
 
@@ -43,16 +43,16 @@ L’objet **SWbemProperty** a ces propriétés.
 | [**CIMType**](swbemproperty-cimtype.md)<br/>          | Lecture seule<br/>  | Type de cette propriété.<br/>                                                                                             |
 | [**IsArray**](swbemproperty-isarray.md)<br/>          | Lecture seule<br/>  | Valeur booléenne qui indique si cette propriété a un type de tableau.<br/>                                                   |
 | [**IsLocal**](swbemproperty-islocal.md)<br/>          | Lecture seule<br/>  | Valeur booléenne qui indique si cette propriété est locale.<br/>                                                            |
-| [**Nom**](swbemproperty-name.md)<br/>                | Lecture seule<br/>  | Nom de cette propriété WMI.<br/>                                                                                         |
-| [**Lancé**](swbemproperty-origin.md)<br/>            | Lecture seule<br/>  | Contient la classe d’origine de cette propriété.<br/>                                                                   |
+| [**Nomme**](swbemproperty-name.md)<br/>                | Lecture seule<br/>  | Nom de cette propriété WMI.<br/>                                                                                         |
+| [**Origine**](swbemproperty-origin.md)<br/>            | Lecture seule<br/>  | Contient la classe d’origine de cette propriété.<br/>                                                                   |
 | [**Qualificateurs\_**](swbemproperty-qualifiers-.md)<br/> | Lecture seule<br/>  | Objet [**SWbemQualifierSet**](swbemqualifierset.md) , qui est la collection de qualificateurs pour cette propriété.<br/> |
-| [**Valeur**](swbemproperty-value.md)<br/>              | Lecture/écriture<br/> | Valeur réelle de cette propriété. Il s’agit de la propriété Automation par défaut de cet objet.<br/>                             |
+| [**Ajoutée**](swbemproperty-value.md)<br/>              | Lecture/écriture<br/> | Valeur réelle de cette propriété. Il s’agit de la propriété Automation par défaut de cet objet.<br/>                             |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - clients, modèle de contrôle SpreadsheetItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09d34aeb484da056920a2b77d47ca199e11c00c99832412e9bf007807c49563
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31495086614f34aeff378a8565200fa03f2dad62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010577"
 ---
 # <a name="accessing-spreadsheet-content"></a>Accès au contenu d’une feuille de calcul
 

@@ -4,12 +4,12 @@ description: Cette section montre comment traiter les notifications de sélecteu
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81846d22f3c946d1bfdf661823429fd092b78647cf0ebcb0d683d2600ddcaf17
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ffa1214ebd671b4ae222990bde4b44586e6d7b11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117602"
 ---
 # <a name="how-to-process-date-and-time-picker-notifications"></a>Comment traiter les notifications de sélecteur de date et d’heure
 

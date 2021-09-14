@@ -4,12 +4,12 @@ description: Balise MRK
 ms.assetid: 1bc04853-f919-4f6f-90c2-21ac836bb1e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb91ed828073ca059a291350fdd7d8f5c3056cd9bfa04b61976b9d71386441e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 805a66b9ce5863bda7b7b95317bcab9cf1d80f32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118475889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118213"
 ---
 # <a name="mrk-tag"></a>Balise MRK
 
@@ -41,7 +41,7 @@ Définit un signet dans le texte parlé.
 
 </dd> </dl>
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Quand le serveur traite un signet, il génère un événement Bookmark. Vous devez spécifier un nombre supérieur à zéro (0) et différent de 2147483647 ou 2147483646.
 

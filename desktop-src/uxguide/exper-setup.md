@@ -1,17 +1,17 @@
 ---
-title: Installation
+title: Programme d’installation
 description: Les utilisateurs ne bénéficient pas de l’installation de logiciels, donc les expériences d’installation modernes doivent être simples, efficaces et sans problème.
 ms.assetid: ed0265a6-4c39-4a1f-9493-e316a6519df7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 905411c5ae08d2112943088d514ab300abb19ec2b8081158ebdfd896fc2c61ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e5de6f15dd797dd1d1362d1b515122b78c770f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119818272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295998"
 ---
-# <a name="setup"></a>Installation
+# <a name="setup"></a>Programme d’installation
 
 > [!NOTE]
 > ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
@@ -34,7 +34,7 @@ L’expérience d’installation associée à la première utilisation du progra
 
 alors que tous les programmes Microsoft Windows ont besoin d’un programme d’installation, vous avez le choix entre l’emplacement des paramètres du programme :
 
--   Installation
+-   Programme d’installation
 -   Première utilisation du programme
 -   Options de programme centralisées
 -   Dans le contexte de l’utilisation de la fonctionnalité

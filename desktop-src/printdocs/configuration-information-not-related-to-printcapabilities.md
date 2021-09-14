@@ -4,12 +4,12 @@ ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Informations de configuration non liées à PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 029ab303eb73e9720c266e7ef7443ce5a259a1668961bd2961a4029019cb3685
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 40e4ac332d6e9b106ab9d68c29d03366761c01d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119846319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118041"
 ---
 # <a name="configuration-information-not-related-to-printcapabilities"></a>Informations de configuration non liées à PrintCapabilities
 

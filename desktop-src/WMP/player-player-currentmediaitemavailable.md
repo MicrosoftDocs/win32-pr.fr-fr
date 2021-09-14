@@ -3,9 +3,9 @@ title: Événement Player. CurrentMediaItemAvailable
 description: L’événement CurrentMediaItemAvailable se produit lorsqu’un élément de métadonnées graphiques de l’élément multimédia actuel devient disponible. | Événement Player. CurrentMediaItemAvailable
 ms.assetid: dc692b14-67d3-4867-8f99-ddfcf7d1610c
 keywords:
-- Événement CurrentMediaItemAvailable lecteur Windows Media
-- Événement CurrentMediaItemAvailable lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement CurrentMediaItemAvailable
+- Lecteur Windows Media d’événements CurrentMediaItemAvailable
+- Lecteur Windows Media d’événements CurrentMediaItemAvailable, classe Player
+- Lecteur Windows Media de classe Player, événement CurrentMediaItemAvailable
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f7f25d085c354cf18966ec37f822a080db56cf16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523964"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010998"
 ---
 # <a name="playercurrentmediaitemavailable-event"></a>Événement Player. CurrentMediaItemAvailable
 
@@ -49,7 +49,7 @@ Player.CurrentMediaItemAvailable(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -57,11 +57,11 @@ Cet événement ne retourne pas de valeur.
 
 Dans la mesure où la lecture peut commencer avant le téléchargement complet d’un élément multimédia, les graphiques de métadonnées contenus dans l’élément multimédia (par exemple, les jaquettes de la couverture de l’album) peuvent ne pas être disponibles au début de la lecture. Cet événement vous avertit à la fin du téléchargement d’un élément de graphique de métadonnées. Vous pouvez ensuite récupérer l’objet **Media** en passant la valeur de *bstrItemName* à *MediaCollection*. méthode **GetByName** , après laquelle vous pouvez accéder à l’élément de graphique de métadonnées à l’aide d’un *média*. **getItemInfoByType** et en spécifiant **WM/image** comme nom d’attribut.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

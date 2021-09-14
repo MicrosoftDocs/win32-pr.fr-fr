@@ -11,12 +11,12 @@ api_name:
 - Compression
 api_type:
 - Schema
-ms.openlocfilehash: 9715114bc44cebef9f342795e2c46283b8737c2478d9af9bd983deca50d3114e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0da6665f69c2791669f75b91e847081dbcc351e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118101"
 ---
 # <a name="compression-contexttype-element"></a>Élément compression (contextType)
 
@@ -54,7 +54,7 @@ Cet élément est facultatif. Si cet élément n’est pas spécifié, le systè
 
 L’élément **compression** est défini par le type complexe [**ContextType**](schema-contexttype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1b39c2be625ff88869d27e6210e49496352af868c73557d2657c509fd0e79f82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32261a6fd8c5cf4382832d8286d63ce5d44fb542
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011143"
 ---
 # <a name="storeload-method"></a>Store. Load, méthode
 
@@ -76,11 +76,11 @@ Valeur de l’énumération de l' [**indicateur de \_ \_ stockage \_ de clé CAP
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode **Load** est appelée sur un magasin de mémoire, tous les conteneurs de clé créés sont supprimés lors de la suppression du magasin de mémoire. Par exemple, si un fichier. pfx est chargé dans un magasin de mémoire et ajouté ultérieurement à un magasin système (tel que le magasin My) à partir du magasin de mémoire, le certificat du magasin My ne contient pas de clé. Dans ce cas, le fichier. pfx doit être chargé directement dans le magasin My.
 
@@ -90,7 +90,7 @@ Si le mot de passe ne parvient pas à déchiffrer le fichier de clé privée, le
 
 Si le certificat en cours de chargement dans le magasin est le même que celui qui existe déjà, la méthode **Load** supprime le certificat existant du magasin, puis ajoute le nouveau certificat. Le nouveau certificat héritera des propriétés du certificat existant. Le conteneur de clé privée existant est remplacé par le nouveau conteneur de clé privée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

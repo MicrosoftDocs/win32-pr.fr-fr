@@ -4,12 +4,12 @@ ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
 title: Attribut MF_MT_AVG_BIT_ERROR_RATE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4828485dce2b8aca7a3b55c55acd39c22df6b05a71aa34cf9853270d1ac29dde
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 21eb33d1bc1636dd047dbd56ce6b7ad3a683f356
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119664279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294919"
 ---
 # <a name="mf_mt_avg_bit_error_rate-attribute"></a>\_Attribut de \_ taux d’erreur moyen des \_ bits \_ \_ MF
 
@@ -19,13 +19,13 @@ Taux d’erreur de données, en erreurs de bits par seconde, pour un type de mé
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut correspond au membre **dwBitErrorRate** des structures [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) et [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) .
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

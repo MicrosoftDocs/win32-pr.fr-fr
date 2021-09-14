@@ -4,12 +4,12 @@ ms.assetid: 739e2f9e-b8f1-4ee1-8706-9a069773a3de
 title: Indicateurs de protection de CGMS-A (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe52f6b6f8c282e9dacebd6528373fc8ba7b7717a8e721d7d414117585bb188
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3329ae13741490f2783d548baeead65ba59bc5ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118065138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191871"
 ---
 # <a name="cgms-a-protection-flags"></a>Indicateurs de protection de CGMS-A
 
@@ -28,11 +28,11 @@ Les constantes dans le tableau suivant spécifient les niveaux de protection pou
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces indicateurs sont équivalents aux constantes d’énumération de **\_ niveau de \_ protection \_ Copp CGMSA** utilisées dans le protocole Copp (Certified Output Protection Protocol).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

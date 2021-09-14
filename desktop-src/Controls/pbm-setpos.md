@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf9c6a4c21439f93f3459a5061daf28192081a042cc663a644110a1e54d2c54
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d8a157f6a220f4932d39d13f08df79afa99d7348
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117698"
 ---
 # <a name="pbm_setpos-message"></a>\_Message PBM SetPos
 
@@ -39,17 +39,17 @@ Entier signé qui devient la nouvelle position.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la position précédente.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si *wParam* est en dehors de la plage du contrôle, la position est définie sur la limite la plus proche.
 
 N’envoyez pas ce message à un contrôle dont le style [**PBS est \_ défilant**](progress-bar-control-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9cb69321fe3ac2456c71024270ddf508ff6eac0a76b336cc3115f4882b3d35a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72dcbf1dcb06939ab74398c39bb89bc512dbb47b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119506889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010779"
 ---
 # <a name="viewbackgroundimagehueshift"></a>VUE. backgroundImageHueShift
 
@@ -31,11 +31,11 @@ L’attribut **backgroundImageHueShift** spécifie ou récupère la valeur de d�
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur est comprise entre 0,0 et 360,0, avec une valeur par défaut de 0,0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut modifie la valeur de teinte des images spécifiées par l’attribut **BackgroundImage** s’il a été spécifié et fait référence à une image BMP de 8 bits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

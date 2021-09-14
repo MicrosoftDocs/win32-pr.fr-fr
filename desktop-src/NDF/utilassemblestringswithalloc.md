@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38473f45e2bd4c53b964bb38ec285cdf3eea091a96d72684c1d801b949f4d0a8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dae121b1d5f2d968f696190c64828be91adc71da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011629"
 ---
 # <a name="utilassemblestringswithalloc-function"></a>UtilAssembleStringsWithAlloc fonction)
 
@@ -106,7 +106,7 @@ Valeur à passer comme premier argument de mise en forme à [**StringCchPrintf**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -123,7 +123,7 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - services de déploiement Windows RIS voir services de déploiement Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 100483541420015ed84a95543f2f94bafb2d509d44e6b321b53729caa94588cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b35bebb000b383552f12d259ca17552165e9247f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292242"
 ---
 # <a name="windows-deployment-services"></a>Services de déploiement Windows
 

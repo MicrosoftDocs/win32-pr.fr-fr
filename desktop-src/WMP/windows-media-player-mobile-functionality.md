@@ -1,22 +1,22 @@
 ---
-title: Fonctionnalités mobile du lecteur Windows Media
-description: Fonctionnalités mobile du lecteur Windows Media
+title: Lecteur Windows Media Fonctionnalités mobiles
+description: Lecteur Windows Media Fonctionnalités mobiles
 ms.assetid: a698210b-1188-4161-bdb4-aa7dac3f0cbf
 keywords:
-- Windows Media Player Mobile, Skins
-- Apparences mobiles du lecteur Windows Media, actions disponibles
-- Windows Media Player Mobile Skins, fonctions disponibles
-- Skins, Windows Media Player Mobile
+- Lecteur Windows Media Mobile, apparences
+- Lecteur Windows Media Skins mobiles, actions disponibles
+- Lecteur Windows Media Skins mobiles, fonctions disponibles
+- skins, Lecteur Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 16d9aa0949bc648fff48fa72218e6a9689aeee58
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010764"
 ---
-# <a name="windows-media-player-mobile-functionality"></a>Fonctionnalités mobile du lecteur Windows Media
+# <a name="windows-media-player-mobile-functionality"></a>Lecteur Windows Media Fonctionnalités mobiles
 
 Les actions suivantes sont disponibles pour l’utilisateur de votre apparence :
 
@@ -39,12 +39,12 @@ Les sections suivantes décrivent les types d’éléments que vous pouvez crée
 
 <dl> <dt>
 
-[**Apparences mobiles du lecteur Windows Media**](windows-media-player-mobile-skins.md)
+[**Lecteur Windows Media Skins mobiles**](windows-media-player-mobile-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -29,12 +29,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18248e862c3d5981e9c34b29522b1cd75d2b61cf78a52613b3d28a1d2c98b4fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd283c2dfeddc48b6bd12f8317ec352cb62e4973
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011113"
 ---
 # <a name="stgm-constants"></a>Constantes STGM
 
@@ -48,9 +48,9 @@ Pour plus d’informations sur les transactions, consultez la section Notes.
 
 
 
-| Groupe                      | Indicateur                         | Valeur       |
+| Group                      | Indicateur                         | Valeur       |
 |----------------------------|------------------------------|-------------|
-| Accès                     | **\_lecture STGM**               | 0x00000000L |
+| Access                     | **\_lecture STGM**               | 0x00000000L |
 |                            | **\_écriture STGM**              | 0x00000001L |
 |                            | **STGM \_ ReadWrite**          | 0x00000002L |
 | Partage                    | **\_partage STGM \_ Deny \_ None**  | 0x00000040L |
@@ -317,7 +317,7 @@ Indique que le fichier sous-jacent doit être détruit automatiquement lorsque l
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez combiner ces indicateurs, mais vous ne pouvez choisir qu’un seul indicateur de chaque groupe d’indicateurs associés. En général, un indicateur de chacun des groupes d’accès et de partage doit être spécifié pour toutes les fonctions et méthodes qui utilisent ces constantes. Les indicateurs d’autres groupes sont facultatifs.
 
@@ -395,7 +395,7 @@ Lorsqu’un objet de stockage est obtenu par une opération d’ouverture en mod
 
 Sachez que, si un élément de stockage est modifié par un objet de stockage qui n’est pas en mode simple, il n’est pas possible, encore une fois, d’ouvrir cet élément de stockage en mode simple.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 87c54141-41e2-4eaa-ae3b-84598e8281d9
 title: Structures de données de résolution de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e6f3b889d295241bb0cdb9c0182babf0c5b8115e7eff7e86c27b65c992c452
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bf1f76607ade81503a1057dc21890ac38d5ec265
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010468"
 ---
 # <a name="name-resolution-data-structures"></a>Structures de données de résolution de noms
 

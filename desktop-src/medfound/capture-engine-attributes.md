@@ -4,12 +4,12 @@ ms.assetid: C153F0AD-4E8B-41DA-B7FB-8D10AC20D22E
 title: Attributs du moteur de capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e79d0410407d12b46c0577615088f0f925b8558169d02140486b9fdc8fb303
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1340fa69f80d456a29331d303f313d41c31ee41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191868"
 ---
 # <a name="capture-engine-attributes"></a>Attributs du moteur de capture
 

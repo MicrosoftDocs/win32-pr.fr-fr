@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: b5732d956e28c89ef3fba6d5beeea7077468c9e9154a48e4ffb327a36280d11f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ce11ec2d3d8202574ab23074531c393c9fecb98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011239"
 ---
 # <a name="iscardcmdget_apdureply-method"></a>ISCardCmd :: \_ ApduReply, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers la mémoire tampon d’octets (mappée via un objet **IStream** ) 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour déterminer la longueur de la réponse APDU, appelez [**obtenir \_ ApduReplyLength**](iscardcmd-get-apdureplylength.md).
 
@@ -110,7 +110,7 @@ if (lLe > 0)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

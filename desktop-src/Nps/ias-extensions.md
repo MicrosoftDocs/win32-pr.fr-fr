@@ -5,12 +5,12 @@ ms.assetid: f459025f-fe5e-4ffa-a651-c70a4f8234ae
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8db32889f266861809a0637dd380eb9f5d2ba7265bdf16d6a9404ed96a5420a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ddd6f9bd0be7479726110b41d6060a7e5c836bb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011518"
 ---
 # <a name="network-policy-server-extensions"></a>Extensions du serveur NPS (Network Policy Server)
 

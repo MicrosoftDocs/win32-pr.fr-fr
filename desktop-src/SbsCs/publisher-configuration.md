@@ -4,12 +4,12 @@ ms.assetid: 9146c81e-8f43-4854-bbc4-1daaeb5fdda8
 title: Publisher Configuré
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1134fa29775fc34384f5da19e660d91de10532110304caf8b6ecacbb92fec87e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c50ceb5263830cb1778aaaede673974cd7faca75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011336"
 ---
 # <a name="publisher-configuration"></a>Publisher Configuré
 

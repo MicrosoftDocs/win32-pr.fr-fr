@@ -10,12 +10,12 @@ keywords:
 - Echo DSP, exemple de plug-in, test
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0757988f5b6d06c3566be5cae12e4b472ab694786c75cce2170638e3e69eb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c47746f9e09db7b6cd0b93ec4eac74afaaba278b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292263"
 ---
 # <a name="using-the-echo-sample-dsp-plug-in"></a>Utilisation du plug-in Echo Sample DSP
 

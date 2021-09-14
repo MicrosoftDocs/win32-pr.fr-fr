@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35006c7c7f4cc66cc9ce5e387a362f423db43b6b7aab914d26360dd08d13b37b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e2e99850b17b0f2b06948a09b70a89e67e65a50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118410312"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117766"
 ---
 # <a name="nm_tooltipscreated-notification-code"></a>\_Code de notification TOOLTIPSCREATED nm
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTOOLTIPSCREATED**](/windows/win32/api/commctrl/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Sauf spécification contraire, le contrôle ignore la valeur de retour de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

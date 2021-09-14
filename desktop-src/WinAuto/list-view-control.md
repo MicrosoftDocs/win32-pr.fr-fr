@@ -4,12 +4,12 @@ description: Un contrôle d’affichage de liste affiche une collection d’él�
 ms.assetid: 412a029f-fb64-4365-aa64-26cbdf3a50d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eceba4b5b85c170e72f7beea783e1f423bb060dec081d951500008cef8a6af07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2bc6ff108140408662cf36e46738cb79548ece9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118325406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010693"
 ---
 # <a name="list-view-control-msaa-ui-element-reference"></a>Contrôle List-View (référence des éléments d’interface utilisateur MSAA)
 
@@ -66,7 +66,7 @@ Un contrôle List-View prend en charge les propriétés [**IAccessible**](/windo
 
  
 
-## <a name="notes"></a>Remarques
+## <a name="notes"></a>Notes
 
 -   Microsoft Active Accessibility n’expose pas le texte de l’élément d’affichage de liste dans les applications qui utilisent une fonction de rappel pour ajouter le texte à l’élément.
 -   Les éléments de vue de liste découpés n’ont pas de [**système d’état défini \_ \_ invisible**](object-state-constants.md) . Pour déterminer si un élément de liste est tronqué, les clients peuvent comparer les coordonnées de l’élément retournées par [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) avec la zone de découpage de la fenêtre.

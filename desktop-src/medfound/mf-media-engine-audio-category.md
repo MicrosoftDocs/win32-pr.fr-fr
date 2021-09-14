@@ -4,12 +4,12 @@ ms.assetid: 0F2DB9A7-64ED-4952-BCB3-F2B15BA37D2A
 title: Attribut MF_MEDIA_ENGINE_AUDIO_CATEGORY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2939c5ac839544acb8dd65c2ecae1769c7dd79bb78b19fe40c1f8ae27865ca03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d22cd3795886b78afae03ba4b592d4657857f76b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294923"
 ---
 # <a name="mf_media_engine_audio_category-attribute"></a>\_Attribut de \_ \_ catégorie audio du moteur multimédia MF \_
 
@@ -19,13 +19,13 @@ Spécifie la catégorie du flux audio.
 
 **[**\_catégorie de flux audio \_**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category)**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un membre de l’énumération de [**\_ \_ catégorie de flux audio**](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category) .
 
 Cet attribut est utilisé avec la méthode [**IMFMediaEngineClassFactory :: CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) pour initialiser le moteur multimédia. L’attribut est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Restart Manager restart Mgr, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98003ff4193ce26eb4ed2a3bdab60db8d58adf86698c6b9369a80b8043458579
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec1cfd300d554e311ab43cc0a9413514b6b60081
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011364"
 ---
 # <a name="about-restart-manager"></a>À propos du gestionnaire de redémarrage
 

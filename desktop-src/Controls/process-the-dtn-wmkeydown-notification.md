@@ -4,12 +4,12 @@ description: Cette rubrique montre comment traiter une notification DTN \_ WMKEY
 ms.assetid: CD521C62-CF52-4FFF-A598-E5EBA34471FB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbef0804afb388f9cadad60b04bf93ce4730ef255476f0c7f216edfd24846a19
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cec97ffc5853743c357081b974d155ee0e0977d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117581"
 ---
 # <a name="how-to-process-the-dtn_wmkeydown-notification"></a>Comment traiter la notification DTN \_ WMKEYDOWN
 

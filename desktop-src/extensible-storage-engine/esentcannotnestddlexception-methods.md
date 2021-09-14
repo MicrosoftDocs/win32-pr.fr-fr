@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101166
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6a8a51292048251d3f2c76d1f252ea83c60dc9f7d41ccc0c5e37993dad34cb5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7805bf07f210faa4b9a59bba4b15db99b024d75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117714907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291959"
 ---
 # <a name="esentcannotnestddlexception-methods"></a>Méthodes EsentCannotNestDDLException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentCannotNestDDLException, classe](./esentcannotnestddlexception-class.md)
 

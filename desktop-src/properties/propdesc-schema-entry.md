@@ -4,12 +4,12 @@ ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: Présentation du schéma de description de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85dbb0f20c5c4a206069e80aa308a26908bf90ee0d00cf80712a342e834411e8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 51d9e7c2b6fb4b599f977c0c49ad1cb2514fe8d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119554559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296183"
 ---
 # <a name="understanding-the-property-description-schema"></a>Présentation du schéma de description de propriété
 

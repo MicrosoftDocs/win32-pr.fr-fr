@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 93180f168820acce2bf2564ef108c509713a22e68cfa16fbb8f2abeff17b5bc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ea37ae758ec599198fc35a1fd2a4b89ff25a087
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118313521"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010434"
 ---
 # <a name="swbemprivilegesetitem-method"></a>SWbemPrivilegeSet. Item, méthode
 
@@ -51,7 +51,7 @@ Obligatoire. L’une des constantes WMI du groupe [**WbemPrivilegeEnum**](/windo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, l’objet [**SWbemPrivilege**](swbemprivilege.md) demandé est retourné.
 
@@ -94,7 +94,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

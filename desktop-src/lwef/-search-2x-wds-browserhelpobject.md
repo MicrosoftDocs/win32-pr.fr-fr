@@ -5,11 +5,11 @@ ms.assetid: 8d9fa541-530e-4917-a6d9-4e04549ce32e
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ac2be6be30889e8f759ee3cf7529250a5513ce58
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292134"
 ---
 # <a name="calling-wds-from-web-pages"></a>Appel de WDS à partir de pages Web
 

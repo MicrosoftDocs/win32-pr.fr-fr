@@ -4,12 +4,12 @@ ms.assetid: 478a5570-9cf6-4f4a-b42a-bbfffd313187
 title: Types de données d’autorisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cac46f6dd75126a0eada6034097074b66622fcc1bac6195ae044c551c01cbec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54a9177389acb55d52f8bbdd331fd7659fe8a8a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011206"
 ---
 # <a name="authorization-data-types"></a>Types de données d’autorisation
 

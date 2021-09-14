@@ -18,11 +18,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: 2b8456422088e9914562b87b2b114629bd80003c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010383"
 ---
 # <a name="swbemrefreshableitemobject-property"></a>SWbemRefreshableItem. Object, propriété
 
@@ -47,7 +47,7 @@ SWbemRefreshableItem.Object As Object
 
 Cette propriété a la **valeur null** , sauf si [**SWbemRefreshableItem. isset**](swbemrefreshableitem-isset.md) a la **valeur false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

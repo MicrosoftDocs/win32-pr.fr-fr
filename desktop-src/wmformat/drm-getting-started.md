@@ -21,12 +21,12 @@ keywords:
 - API étendues du client, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6283fe4f796ff5f43312b5ecb9c445c5e0661f77a354a41cee41fd39c911a596
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c0962d75d6d01de381056faa0204e683c48583b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119881163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295935"
 ---
 # <a name="getting-started-with-microsoft-windows-media-drm-client"></a>Prise en main avec Microsoft Windows Media DRM Client
 

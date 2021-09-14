@@ -4,12 +4,12 @@ description: Les dépendances de configuration font référence au fait que cert
 ms.assetid: 9b1f3f49-2a4a-4413-9708-a430011314e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a56e05e7b41ecfacf26556cdc7c38fa00087b440e92b476b2d6121f7ee082574
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20f01c8e7bd9a036a53048996ec5a38246471f67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118042"
 ---
 # <a name="configuration-dependency-in-the-printcapabilities-schema"></a>Dépendance de configuration dans le schéma PrintCapabilities
 

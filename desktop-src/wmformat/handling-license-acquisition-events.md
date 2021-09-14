@@ -15,12 +15,12 @@ keywords:
 - DRM (gestion des droits numériques), événements d’acquisition de licence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7eab9afe85d4e58ae422134e5268c5b411058cf5048f774994b0cc02b173fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d5e31fd5b108f41d5b0925918fdf1c83764bcf7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295175"
 ---
 # <a name="handling-license-acquisition-events"></a>Gestion des événements d’acquisition de licence
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment traiter une notification de format de
 ms.assetid: 74E29438-2F50-4ADD-B0C4-DB3450BF08D7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 941c148332c36711e68b7c3b773fdb47acef202c5fd2a67f5620319f06c7fbc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e8de1e1a80d04f9a7f9e9d0cfcda198118e67c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119696939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117589"
 ---
 # <a name="how-to-process-the-dtn_formatquery-notification"></a>Comment traiter la notification DTN \_ FORMATQUERY
 

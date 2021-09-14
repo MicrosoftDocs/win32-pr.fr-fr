@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8e76bad23d79e261a27df5b83a94d4e477b21cde5057bb2587ffb49c93382df0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 030fafb4ccf041c2804179f8adf0088ca3fba845
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011546"
 ---
 # <a name="istatsgetconversationstatistics-method"></a>IStats :: GetConversationStatistics, méthode
 
@@ -79,7 +79,7 @@ Indicateur utilisé pour indiquer à Moniteur réseau d’effacer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -98,13 +98,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être appelée uniquement lorsque la capture de données est en cours ; Lorsque la capture en cours est suspendue, un appel à cette méthode échoue.
 
 Pour démarrer une capture, appelez la méthode [**IStats :: Start**](istats-start.md) . Pour récupérer d’autres types de statistiques, appelez [**IStats :: GetTotalStatistics**](istats-gettotalstatistics.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

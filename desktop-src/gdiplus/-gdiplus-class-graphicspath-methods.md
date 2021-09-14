@@ -5,11 +5,11 @@ title: Méthodes GraphicsPath
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d1020b9aef289e4f594611a04fdd58a990336965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972975"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292142"
 ---
 # <a name="graphicspath-methods"></a>Méthodes GraphicsPath
 
@@ -64,7 +64,7 @@ Cette rubrique répertorie les méthodes de la classe [**GraphicsPath**](/window
 -   [**Clone**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-clone)
 -   [**CloseAllFigures**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-closeallfigures)
 -   [**CloseFigure**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-closefigure)
--   [**Aplatir**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-flatten)
+-   [**Écrasé**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-flatten)
 -   [**GetBounds (Rect \* , matrice \* , stylet \* )**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-getbounds(outrect_inconstmatrix_inconstpen))
 -   [**GetBounds (RectF \* , matrice \* , stylet \* )**](/previous-versions//ms535584(v=vs.85))
 -   [**GetFillMode**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-getfillmode)
@@ -83,7 +83,7 @@ Cette rubrique répertorie les méthodes de la classe [**GraphicsPath**](/window
 -   [**IsVisible (PointF&, graphiques \* )**](/previous-versions//ms535574(v=vs.85))
 -   [**IsVisible (INT, INT, Graphics \* )**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-isvisible(inint_inint_inconstgraphics))
 -   [**IsVisible (point&, graphiques \* )**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspath-isvisible(inconstpoint__inconstgraphics))
--   [**Décrire**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-outline)
+-   [**Plan**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-outline)
 -   [**Réinitialiser**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-reset)
 -   [**TVA**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-reverse)
 -   [**SetFillMode**](/windows/desktop/api/Gdipluspath/nf-gdipluspath-graphicspath-setfillmode)

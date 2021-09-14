@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 52735983429a60061a548bf4cce71b7b128f4b6e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292475"
 ---
 # <a name="hyperlink-control-type"></a>HYPERLINK (type de contrôle)
 
@@ -119,7 +119,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de contrôle HyperLink doit être appliqué uniquement à un objet qui, lorsque vous cliquez dessus, provoque l’exécution de la navigation. elle ne doit pas être appliquée au conteneur du lien hypertexte. Par exemple, seules les « zones réactives » cliquables à l’intérieur d’une image interactive doivent avoir le type de contrôle **Hyperlink** . Il en va de même pour les liens hypertexte dans un champ de texte ou un conteneur de documents. Dans ce cas, seul le texte ou l’image du lien hypertexte doit avoir le type de contrôle **Hyperlink** , et non le conteneur.
 
@@ -129,7 +129,7 @@ Le modèle de contrôle [Text](uiauto-implementingtextandtextrange.md) est idéa
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

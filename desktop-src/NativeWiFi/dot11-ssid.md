@@ -14,11 +14,11 @@ api_type:
 api_location:
 - wlantypes.h
 ms.openlocfilehash: e319d22db33a627be631f9b6b0ee36591bc7a5bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011607"
 ---
 # <a name="dot11_ssid-structure"></a>\_Structure SSID DOT11
 
@@ -60,14 +60,14 @@ Le SSID spécifié par le membre **ucSSID** n’est pas une chaîne ASCII termin
 
 Un SSID générique est un SSID dont le membre **uSSIDLength** a la valeur zéro. Lorsque le SSID souhaité est défini sur le SSID générique, la station 802,11 peut se connecter à n’importe quel réseau BSS (Service Set) de base.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                        |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wlantypes. h (inclure Windot11. h)</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: Message RB_BEGINDRAG (commctrl. h)
 description: Place le contrôle rebar en mode glisser-déplacer. Ce message n’entraîne pas l' \_ envoi d’une notification BEGINDRAG RBN.
 ms.assetid: 1e3e4928-cb84-4fd4-8056-84de1f791d1c
 keywords:
-- RB_BEGINDRAG les contrôles de message Windows
+- RB_BEGINDRAG les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 41865baa2bf6c640595296be9c157201d0cc16d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466090"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117361"
 ---
 # <a name="rb_begindrag-message"></a>\_Message BEGINDRAG RB
 
@@ -43,7 +43,7 @@ Valeur **DWORD** qui contient les coordonnées de début de la souris. La coordo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
@@ -51,14 +51,14 @@ La valeur de retour de ce message n’est pas utilisée.
 
 Les **messages \_ RB BEGINDRAG**, [**RB \_ DRAGMOVE**](rb-dragmove.md)et [**RB \_ ENDDRAG**](rb-enddrag.md) vous permettent d’implémenter une interface [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleidl-idroptarget) pour un contrôle rebar. Vous envoyez le **message \_ RB BEGINDRAG** en réponse à [**IDropTarget ::D ragenter**](/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter), envoyez le message **RB \_ DRAGMOVE** en réponse à [**IDropTarget ::D Ragover**](/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover)et au message **RB \_ ENDDRAG** en réponse à [**IDropTarget ::D ROP**](/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop) et [**IDropTarget ::D ragleave**](/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

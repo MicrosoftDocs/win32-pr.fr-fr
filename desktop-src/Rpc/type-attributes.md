@@ -4,12 +4,12 @@ description: Les attributs de type appel de procédure distante (RPC) et MIDL qu
 ms.assetid: cd7fd582-6162-4154-9dff-6c86c344b9ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5da8f3beb62f443b95a42283d4625200812436bce1bc667edc07d68f2542544
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 378fbc91f17e77baff7e259bd3551a47fde653cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011167"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011396"
 ---
 # <a name="type-attributes"></a>Attributs de type
 

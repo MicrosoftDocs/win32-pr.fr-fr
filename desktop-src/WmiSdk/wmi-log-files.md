@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fichiers journaux WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fff9064dd82484568282f649b3380f544d9ba58a569e36583664806d47b5e9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a51dfe4efbec32e60812980511676f723fd5aee9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117739426"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292415"
 ---
 # <a name="wmi-log-files"></a>Fichiers journaux WMI
 

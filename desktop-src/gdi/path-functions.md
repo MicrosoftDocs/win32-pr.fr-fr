@@ -4,12 +4,12 @@ ms.assetid: 68390601-1542-41dc-bea0-78f6c3318806
 title: fonctions de chemin d’accès (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 700298056ac595b0e9208c0b8535d7a3d2e822e048e4c656d0b4501947764533
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ab85e52392b3e600877f8f5adac08d5de77e873
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118759425"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118285"
 ---
 # <a name="path-functions-windows-gdi"></a>fonctions de chemin d’accès (Windows GDI)
 

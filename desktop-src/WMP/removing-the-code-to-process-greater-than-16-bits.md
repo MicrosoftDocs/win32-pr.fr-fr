@@ -3,7 +3,7 @@ title: Suppression du code pour traiter une valeur supérieure à 16 bits
 description: Suppression du code pour traiter une valeur supérieure à 16 bits
 ms.assetid: 90c165e1-bc77-42a5-878d-056762c62991
 keywords:
-- Plug-ins du lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
+- plug-ins Lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
 - plug-ins, ECHO, exemple DoProcessOutput, méthode
 - plug-ins de traitement de signal numérique, méthode DoProcessOutput d’exemple Echo
 - DSP plug-ins, ECHO, exemple DoProcessOutput, méthode
@@ -12,15 +12,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ec33332ee332d0ca7b615844ba8ad5cd7b00eb2f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840066"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010906"
 ---
 # <a name="removing-the-code-to-process-greater-than-16-bits"></a>Suppression du code pour traiter une valeur supérieure à 16 bits
 
-Dans la mesure où cet exemple traite uniquement des données audio 8 bits ou 16 bits, vous devez modifier le code dans **CEcho :: ValidateMediaType** pour retourner le \_ type DMO E \_ \_ non \_ accepté pour les types de média supérieurs à 16 bits. Pour ce faire, vous devez modifier le code dans le bloc switch qui teste les formats de type WAVE \_ \_ extensible. Remplacez le code de l’Assistant par l’exemple de code suivant :
+étant donné que cet exemple traite uniquement l’audio 8 bits ou 16 bits, vous devez modifier le code dans **CEcho :: ValidateMediaType** pour retourner DMO \_ \_ TYPE E \_ non \_ accepté pour les types de média supérieurs à 16 bits. Pour ce faire, vous devez modifier le code dans le bloc switch qui teste les formats de type WAVE \_ \_ extensible. Remplacez le code de l’Assistant par l’exemple de code suivant :
 
 
 ```C++
@@ -49,9 +49,9 @@ Ensuite, supprimez ou commentez les sections de code dans **DoProcessOutput** qu
 [**Implémentation de CEcho ::D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

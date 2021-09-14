@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a57da81dbcccf4dcfbb896417e15c8788bb8d3f6baba71a57a6a99f053a3ba45
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aebf628eb9387acd4fd10f100f2f80570d1b021b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119433679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117762"
 ---
 # <a name="nm_tvstateimagechanging-notification-code"></a>\_Code de notification TVSTATEIMAGECHANGING nm
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMTVSTATEIMAGECHANGING**](/windows/win32/api/comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée par le contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

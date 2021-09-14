@@ -4,12 +4,12 @@ description: Traditionnellement, le déchargement d’une DLL qui traite les app
 ms.assetid: d3880578-e542-418c-803a-fd00d0bfde7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e581ff142c7453f4a9e9f1e40a5ab9991257a350a84b2fcb2ea08a0e157288cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1192b013a06def4bb1ee49e08e43b7165c9edfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011379"
 ---
 # <a name="unloading-a-server-with-outstanding-context-handles"></a>Déchargement d’un serveur avec des handles de contexte en attente
 

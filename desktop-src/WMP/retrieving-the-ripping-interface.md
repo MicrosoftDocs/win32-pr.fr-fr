@@ -15,12 +15,12 @@ keywords:
 - Interface IWMPCdromRip
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2179e4f38eee121d7b8fefc028adf232eb724264362396c8cacedfcc55b162d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 903fa285404700e35363a94239c79706e7af0e34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010890"
 ---
 # <a name="retrieving-the-ripping-interface"></a>Récupération de l’interface d’extraction
 

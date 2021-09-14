@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdca65c26c6ab1195dcd0d7fc3f44b36e39bed1d15e97627664754c918e57e96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 539e8fbbeed3d865a0878236745b7a3c74c76d27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118694687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117958"
 ---
 # <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a>Exemple de code pour l’ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
 

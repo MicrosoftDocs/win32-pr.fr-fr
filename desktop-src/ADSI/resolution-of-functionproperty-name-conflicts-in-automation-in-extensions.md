@@ -8,12 +8,12 @@ keywords:
 - extensions ADSI, résolution des conflits de noms de fonctions et de propriétés dans Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53701c95672fe209cb57a15e3292e1269dc37e66e36f041110dd502f8a8a1486
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d9a7ac99b99ecdf0ee1b940f066d9e8166a15542
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117954"
 ---
 # <a name="resolution-of-functionproperty-name-conflicts-in-automation-in-extensions"></a>Résolution des conflits de nom de fonction/propriété dans l’automatisation dans les extensions
 

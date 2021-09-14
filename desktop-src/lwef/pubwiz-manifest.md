@@ -10,12 +10,12 @@ keywords:
 - Window. external, manifeste de transfert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48d7f4ea3f9cd392f4b0bab50e1e558613fc7485d4f44a27472cd48ad898b3ba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20fa7b3a35a6f06e2939b6c25f82d12c2b98a7f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118178"
 ---
 # <a name="using-the-transfer-manifest"></a>Utilisation du manifeste de transfert
 

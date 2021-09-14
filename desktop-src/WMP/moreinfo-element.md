@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 925783b6bd48fbc8b944d7b8fd2a2b94a9954c7036114145b99b015b90cbb6d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efc54fe9745566ec7eaa87b7f0f4645b07a055f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292567"
 ---
 # <a name="moreinfo-element"></a>Élément MOREINFO
 
@@ -50,7 +50,7 @@ Il peut s’agir d’une chaîne contenant un nom de fenêtre ou de l’une des 
 | \_Occult  | Le document se charge dans une nouvelle fenêtre de navigateur.                                                                              |
 | \_self   | le document se charge dans le même frame que le document actif contenant le contrôle Lecteur Windows Media.                |
 | \_parent | Le document se charge dans le frame parent immédiat du frame actuel, ou le frame actuel s’il n’y a pas de frame parent. |
-| \_top    | Le document se charge dans la fenêtre de navigateur complète, en remplaçant tous les autres frames ou documents.                                  |
+| \_Retour au début    | Le document se charge dans la fenêtre de navigateur complète, en remplaçant tous les autres frames ou documents.                                  |
 
 
 
@@ -69,7 +69,7 @@ Il peut s’agir d’une chaîne contenant un nom de fenêtre ou de l’une des 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément spécifie une URL vers un site Web, une adresse de messagerie **ou une commande de script. L’utilisateur peut accéder à la cible de l’URL en cliquant sur le graphique ou le texte associé à l’élément MOREINFO** . Les détails dépendent de l’élément parent de l’élément **moreinfo** :
 
@@ -108,7 +108,7 @@ si le métafichier est ouvert dans le Lecteur Windows Media autonome, l’attrib
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

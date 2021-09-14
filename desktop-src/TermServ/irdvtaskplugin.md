@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe76f0b0b92286d5a4b7db5126706fd55bdb6f580c11fda1dcaa55a47be4678c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59e90e899e8084f7fbc6b0b6f11067061eaa807b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118129168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118609"
 ---
 # <a name="irdvtaskplugin-interface"></a>Interface IRDVTaskPlugin
 
@@ -63,7 +63,7 @@ L’interface **IRDVTaskPlugin** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’agent de tâche est exécuté sur l’ordinateur virtuel lorsque cet ordinateur virtuel est planifié pour une mise à jour du système. L’agent de tâche met à jour l’ordinateur virtuel lorsque la méthode [**StartTask**](irdvtaskplugin-starttask.md) est appelée.
 
@@ -91,13 +91,13 @@ Sous cette clé de Registre, ajoutez les valeurs suivantes :
 
 Bien que cette interface soit prise en charge sur les systèmes d’exploitation identifiés dans la configuration requise ci-dessous, elle est utilisée uniquement si la machine virtuelle est hébergée sur Windows Server 2012.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a56eca450757086b3d334d8f64fa41c4cf297f903963498afe958bee802705eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1ef13a5f9269dbc24566e95ce37101d10afa6c90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119464189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292202"
 ---
 # <a name="creating-a-wmi-script"></a>Création d’un script WMI
 
@@ -115,7 +115,7 @@ Get-WMIObject -Class Win32_WmiSetting
 <span id="...create_a_WMI_query_"></span><span id="...create_a_wmi_query_"></span><span id="...CREATE_A_WMI_QUERY_"></span>... créer une requête WMI ?
 </dt> <dd>
 
-Pour VBScript et l’API de script pour WMI, utilisez la méthode [**SWbemServices.ExecQuery**](swbemservices-execquery.md) .
+Pour VBScript et l’API de script pour WMI, utilisez la méthode [**SWbemServices. ExecQuery**](swbemservices-execquery.md) .
 
 Pour PowerShell, utilisez le paramètre *-query* . Vous pouvez également filtrer à l’aide du paramètre *-Filter* .
 
@@ -149,7 +149,7 @@ get-wmiObject -Class Win32_LogicalDisk -Filter &quot;DeviceID = &#39;C:&#39;&quo
 <span id="...enumerate_through_a_list_of_WMI_objects_"></span><span id="...enumerate_through_a_list_of_wmi_objects_"></span><span id="...ENUMERATE_THROUGH_A_LIST_OF_WMI_OBJECTS_"></span>... énumérer une liste d’objets WMI ?
 </dt> <dd>
 
-Pour VBScript et l’API de script pour WMI, utilisez l’objet de conteneur [**SWbemObjectSet**](swbemobjectset.md) , qui est traité dans le script en tant que collection pouvant être énumérée. Vous pouvez récupérer une **SWbemObjectSet** à partir d’un appel de [**SWbemServices. InstancesOf**](swbemservices-instancesof.md) ou [**SWbemServices.ExecQuery**](swbemservices-execquery.md).
+Pour VBScript et l’API de script pour WMI, utilisez l’objet de conteneur [**SWbemObjectSet**](swbemobjectset.md) , qui est traité dans le script en tant que collection pouvant être énumérée. Vous pouvez récupérer une **SWbemObjectSet** à partir d’un appel de [**SWbemServices. InstancesOf**](swbemservices-instancesof.md) ou [**SWbemServices. ExecQuery**](swbemservices-execquery.md).
 
 PowerShell est en mesure de récupérer et de gérer les énumérations comme tout autre objet. WMI n’a rien d’particulier.
 

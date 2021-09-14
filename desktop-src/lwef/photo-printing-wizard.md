@@ -7,12 +7,12 @@ keywords:
 - IDropTarget, Assistant impression de photos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38199f7977e428f41cbc0560e0eab9ad2e106709579255ec8c3a1e74d7f7a402
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 708f051f658739cebd08e4f8643e5dd7fc0c6f7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118475444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118209"
 ---
 # <a name="photo-printing-wizard"></a>Assistant impression de photos
 

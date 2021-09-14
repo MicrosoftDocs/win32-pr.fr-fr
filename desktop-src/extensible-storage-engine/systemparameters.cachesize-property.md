@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0d3f059a40c5ec7bb35b90ec4cddf584d586ace3a039e7c48e5957ee3606ba79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0981f02df3b807ab56fa20922d1e245f00c2df34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118294"
 ---
 # <a name="systemparameterscachesize-property"></a>SystemParameters. CacheSize, propriété
 
@@ -65,7 +65,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [SystemParameters (classe)](./systemparameters-class.md)
 

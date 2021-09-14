@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 237880ab84bedc1671fdbf0eaa87e08ad0ba85ce
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880605"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295619"
 ---
 # <a name="sampler-type"></a>Type d’échantillonneur
 
@@ -136,7 +136,7 @@ La partie droite de chaque expression correspond à la valeur affectée à chaqu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous implémentez un effet, l’état de l’échantillonneur est l’un des différents types d’État que vous devrez peut-être configurer dans le pipeline pour le rendu. Pour obtenir la liste de tous les États possibles que vous pouvez définir dans un effet, consultez :
 

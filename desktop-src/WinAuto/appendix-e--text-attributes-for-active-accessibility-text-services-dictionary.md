@@ -4,12 +4,12 @@ description: Cette annexe fournit des informations sur les attributs de texte dÃ
 ms.assetid: 9e405140-c151-4f00-91c5-777c84c41806
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539583f05e5140d96594490b0038b1a629f7760b13e4de223f6a8a3304c3901b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 588c827764d17c2576efaa5e3117527e23d1da26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010712"
 ---
 # <a name="appendix-e-text-attributes-for-active-accessibility-text-services-dictionary"></a>Annexe EÂ : attributs de texte pour Active Accessibility dictionnaire des services de texte
 

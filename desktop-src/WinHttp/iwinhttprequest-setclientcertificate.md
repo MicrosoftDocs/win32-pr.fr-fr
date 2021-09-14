@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 1f878b93fe0db24334f406c2a6c85663e7f37a05095998f157cbf44878b39daf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b346451e87b62116d7202b476e554c84604ea48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118562895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010473"
 ---
 # <a name="iwinhttprequestsetclientcertificate-method"></a>IWinHttpRequest :: SetClientCertificate, méthode
 
@@ -47,11 +47,11 @@ Spécifie l’emplacement, le [*magasin de certificats*](glossary.md)et l’obje
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La chaîne spécifiée dans le paramètre *ClientCertificate* se compose de l’emplacement du certificat, du magasin de certificats et du nom d’objet délimités par des barres obliques inverses. Pour plus d’informations sur les composants de la chaîne de certificat, consultez [certificats clients](ssl-in-winhttp.md).
 
@@ -88,7 +88,7 @@ HttpReq.Send();
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

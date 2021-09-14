@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd70b442e7179d516d2e9c60b81e6c52b0f696f5719a255871e8687773bf71ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69ee9ea259bca6bf66eb81fcd17b13d509d5a065
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118747348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118257"
 ---
 # <a name="mpscan_resources-structure"></a>\_Structure des ressources MPSCAN
 
@@ -64,7 +64,7 @@ Tableau de ressources. Consultez [**MPRESOURCE \_ info**](mpresource-info.md).
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

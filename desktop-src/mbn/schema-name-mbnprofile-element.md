@@ -11,12 +11,12 @@ api_name:
 - Name
 api_type:
 - Schema
-ms.openlocfilehash: 84d08327233c42135a68d13792ecc9379e1456dc753429355c5a103a011f8ded
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 621f79abeaf50ff927dcf229531019420e3b879f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118085"
 ---
 # <a name="name-mbnprofile-element"></a>Élément Name (MBNProfile)
 
@@ -34,7 +34,7 @@ L’élément est obligatoire.
 
 L’élément **Name** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

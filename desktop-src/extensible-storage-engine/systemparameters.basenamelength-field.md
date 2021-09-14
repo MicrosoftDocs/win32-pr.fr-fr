@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 752aef95613b1d91536034b7e6d7bdcc5082623b436cc3b448ce8403cb586a3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 688e6efcf51fc874e89140c2543fcca9d26c194c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117890647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118306"
 ---
 # <a name="systemparametersbasenamelength-field"></a>Champ SystemParameters. BaseNameLength
 
@@ -55,7 +55,7 @@ public const int BaseNameLength
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [SystemParameters (classe)](./systemparameters-class.md)
 

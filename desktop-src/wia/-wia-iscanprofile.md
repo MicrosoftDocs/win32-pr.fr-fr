@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofiles.idl
-ms.openlocfilehash: 1de80ac23ffa3e2687e2e6d0449f7a273067d5899204c479f9b62e8571190d61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e02352eef16a9b899e4c635f11c5d10b3ab5113
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119450829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295255"
 ---
 # <a name="iscanprofile-interface"></a>Interface IScanProfile
 
@@ -56,7 +56,7 @@ L’interface **IScanProfile** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Tout appareil [**IWiaItem2**](-wia-iwiaitem2.md) peut avoir un profil de numérisation. Toutefois, les éléments **IWiaItem2** de type WIA la \_ catégorie \_ \_ fichier fini et la racine de catégorie WIA \_ \_ ne peuvent pas avoir de profils.
 
@@ -70,7 +70,7 @@ Les `<ProfileGUID>` `<DeviceID>` éléments et ne peuvent pas être modifiés un
 
 L' `<Properties>` élément contient des `<Property>` enfants. Utilisez-les pour ajouter n’importe quel élément ou propriété d’appareil WIA 2,0 au profil. Vous pouvez également développer votre propre image acquisition `<Property>` Children. Cela rend le schéma de profil d’analyse extensible. (Pour plus d’informations sur l’extension du schéma, consultez [définition des propriétés personnalisées](-wia-defining-custom-properties.md), [**IScanProfile :: GetProperty**](-wia-iscanprofile-getproperty.md)et [**IScanProfile :: SetProperty**](-wia-iscanprofile-setproperty.md).)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

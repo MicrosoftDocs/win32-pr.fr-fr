@@ -16,12 +16,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 851edf0d2291d41212cf44829219235426463733ce95a99c3d59187eba490ca4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87f7d0fec341bb79bfe9b8dd739b63a9ba3a66ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117931806"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010845"
 ---
 # <a name="using-borders-in-windows-media-download-packages-deprecated"></a>utilisation des bordures dans les Packages de téléchargement de médias Windows (déconseillés)
 

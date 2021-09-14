@@ -4,12 +4,12 @@ ms.assetid: 71B50B44-6025-4EEC-8B37-53D80CF37B07
 title: Attribut MF_NALU_LENGTH_SET (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f409cb3c1846667ac21e7d46c559eefb0afc4fe4efbce1f454454d286733157
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a01034cf62758787747882da40ac703d205fa55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119104385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295399"
 ---
 # <a name="mf_nalu_length_set-attribute"></a>\_ \_ Attribut Set de longueur Nalu MF \_
 
@@ -19,7 +19,7 @@ Indique que les informations de longueur NALU sont envoyées en tant qu' **objet
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cet attribut sur le type de média d’entrée de MEDIASUBTYPE \_ H264 –.
 
@@ -27,7 +27,7 @@ Définissez \_ \_ la longueur de Nalu MF \_ définie sur le type de média d’e
 
 L' **objet BLOB** contenant les informations de longueur Nalu peut être récupéré à partir de l’attribut d' [ \_ \_ \_ informations de longueur Nalu MF](mf-nalu-length-information.md) sur l’exemple d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

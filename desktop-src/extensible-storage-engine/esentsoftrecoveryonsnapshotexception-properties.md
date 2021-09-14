@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102965
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d807f73e5d6d869577a55f0cf19d9adbb349f1b4d50efc6f5810058387b66c8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9098b3810adbb4a1d03f2c6a037fcf4e2174e127
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118078704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294979"
 ---
 # <a name="esentsoftrecoveryonsnapshotexception-properties"></a>Propriétés EsentSoftRecoveryOnSnapshotException
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSoftRecoveryOnSnapshotException, classe](./esentsoftrecoveryonsnapshotexception-class.md)
 

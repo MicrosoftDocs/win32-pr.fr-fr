@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 468e9fb0500c4a514b7b0a9dddea023f0851b9f7ba783504548f2285810ffffa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b424a47405aa8f32276019a85902bd51b173cc1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011587"
 ---
 # <a name="lanpolicy-element"></a>Élément LANPolicy
 
@@ -81,19 +81,19 @@ L’espace de noms cible de l’élément **LANPolicy** est `https://www.microso
 
 | Élément                                                                           | Type                                                     | Description                                                                                                                                                                          |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**descriptive**](lan-policyschema-description-lanpolicy-element.md)             | [**nameType**](lan-policyschema-nametype-simpletype.md) | Contient la description d’une stratégie de réseau local câblé. <br/>                                                                                                                          |
+| [**description**](lan-policyschema-description-lanpolicy-element.md)             | [**nameType**](lan-policyschema-nametype-simpletype.md) | Contient la description d’une stratégie de réseau local câblé. <br/>                                                                                                                          |
 | [**enableAutoConfig**](lan-policyschema-enableautoconfig-globalflags-element.md) | boolean                                                  | Spécifie si les machines utilisent le service de configuration automatique intégré pour gérer les connexions aux réseaux câblés qui requièrent l’authentification de couche 2 (par exemple, 802.1 X).<br/> |
 | [**globalFlags**](lan-policyschema-globalflags-lanpolicy-element.md)             |                                                          | Contient les paramètres globaux de la configuration automatique des réseaux câblés. <br/>                                                                                          |
-| [**nomme**](lan-policyschema-name-lanpolicy-element.md)                           | [**nameType**](lan-policyschema-nametype-simpletype.md) | Contient le nom d’une stratégie de réseau local câblé. <br/>                                                                                                                                 |
+| [**name**](lan-policyschema-name-lanpolicy-element.md)                           | [**nameType**](lan-policyschema-nametype-simpletype.md) | Contient le nom d’une stratégie de réseau local câblé. <br/>                                                                                                                                 |
 | [**profileList**](lan-policyschema-profilelist-lanpolicy-element.md)             |                                                          | Contient une liste de profils à appliquer au niveau du domaine ou de l’ordinateur. <br/>                                                                                                |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour afficher la liste des éléments enfants dans une structure de type arborescence, consultez [ \_ éléments de schéma de stratégie LAN](lan-policyschema-elements.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

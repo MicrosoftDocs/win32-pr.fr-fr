@@ -4,18 +4,18 @@ ms.assetid: a7e33d01-5baf-4843-937b-ebed723edbbd
 title: LogonUser, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d31931d355435482d46097652d3c31f63ea570e19b072ecdebcda026cb7e37
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c488ba2985b7f0936d4a8ebd77eae3bac47895d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011930"
 ---
 # <a name="logonuser-property"></a>LogonUser, propriété
 
 La propriété **LogonUser** est le nom d’utilisateur de l’utilisateur actuellement connecté. Défini par le programme d’installation par un appel système à [**getUserName**](/windows/win32/api/winbase/nf-winbase-getusernamea).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

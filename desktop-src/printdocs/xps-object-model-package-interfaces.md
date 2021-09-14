@@ -4,12 +4,12 @@ ms.assetid: 9e269b18-e5b1-4801-b8e7-473750443c6d
 title: Interfaces du package OM XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6732531e3874046bbd174c363db24e304da95b9596b810014abb52a795e720c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1465f5d6782e29f9c37f899b59790302e21ebf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117970"
 ---
 # <a name="xps-om-package-interfaces"></a>Interfaces du package OM XPS
 
@@ -20,8 +20,8 @@ Les interfaces de package représentent le niveau supérieur du modèle d’obje
 | Nom de l’interface                                                  | Interfaces enfants logiques                                                                                                            | Description                                                                                    |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [**IXpsOMPackage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage)<br/>               | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/> [**IXpsOMCoreProperties**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties)<br/> | Modèle d’objet XPS complet qui correspond au package qui contient le document XPS.<br/> |
-| [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)<br/>   | Aucun<br/>                                                                                                                     | Active la sérialisation incrémentielle des pages de document dans un package.<br/>                   |
-| [**IXpsOMCoreProperties**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties)<br/> | Aucun<br/>                                                                                                                     | Accède aux métadonnées du document. <br/>                                                    |
+| [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter)<br/>   | None<br/>                                                                                                                     | Active la sérialisation incrémentielle des pages de document dans un package.<br/>                   |
+| [**IXpsOMCoreProperties**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties)<br/> | None<br/>                                                                                                                     | Accède aux métadonnées du document. <br/>                                                    |
 
 
 

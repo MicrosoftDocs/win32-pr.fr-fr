@@ -10,12 +10,12 @@ keywords:
 - inscrire, Assistant commande d’impression en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f5e3f43fe981558fcbf8573eb8768646f112f4816486159cc7c16d71e40e5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 497133d7f0a769fce987745a2341a2e501fe7a2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118177"
 ---
 # <a name="registering-a-service"></a>Inscription d’un service
 

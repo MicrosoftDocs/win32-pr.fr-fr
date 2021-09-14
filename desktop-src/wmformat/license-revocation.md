@@ -13,12 +13,12 @@ keywords:
 - révocation de licences de contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a5acac14eaaf95996b7768b81d449847eeb7469c063d604317438fa26090939
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47f2794401f1bc136d2f2cd828839bf1e82b663a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295875"
 ---
 # <a name="license-revocation-windows-media-format-sdk"></a>révocation de licence (kit de développement logiciel (SDK) Windows Media Format)
 

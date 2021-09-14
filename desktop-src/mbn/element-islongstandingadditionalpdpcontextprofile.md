@@ -7,12 +7,12 @@ MSHAttr:
 title: IsLongStandingAdditionalPdpContextProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 599cb29ca4d95eb5e3708e991a18a6c25064045e
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 2e257666dc91bd2a2153790e0ca4a32a72985075
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478185"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118141"
 ---
 # <a name="span-idwwan_profile_v4element_islongstandingadditionalpdpcontextprofilespanislongstandingadditionalpdpcontextprofile"></a><span id="WWAN_profile_v4.element_IsLongStandingAdditionalPdpContextProfile"></span>IsLongStandingAdditionalPdpContextProfile
 
@@ -20,10 +20,10 @@ Spécifie que ce profil est un profil de contexte PDP supplémentaire à long te
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<IsLongStandingAdditionalPdpContextProfile>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;IsLongStandingAdditionalPdpContextProfile&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <IsLongStandingAdditionalPdpContextProfile>
@@ -53,10 +53,12 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
-| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

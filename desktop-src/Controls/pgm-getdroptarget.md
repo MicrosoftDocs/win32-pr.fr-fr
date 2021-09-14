@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1d07add613674166ebc4bf4cba460088e5e95d9704eead5ad382851bf4e79f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2b90f7f9667dd30a79b9345eec211a6ebfcd7a12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117653"
 ---
 # <a name="pgm_getdroptarget-message"></a>\_Message GETDROPTARGET PGM
 
@@ -39,11 +39,11 @@ Pointeur vers un pointeur [**IDropTarget**](/windows/desktop/api/oleidl/nn-oleid
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

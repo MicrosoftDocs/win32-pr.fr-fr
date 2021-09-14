@@ -16,12 +16,12 @@ keywords:
 - outils pour les tests automatisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8055a024c31df615125f2b8b64251a7b3c6eafb6f271c1890e1f49264350c10c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 269ff32cae26f8bb8ea6bb5b55ac91f1e0486685
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292455"
 ---
 # <a name="using-ui-automation-for-automated-testing"></a>Utilisation d'UI Automation pour des tests automatisés
 
@@ -54,7 +54,7 @@ Sans le modèle unifié de modèles de contrôle fournis par UI Automation, les 
 
 | Type de contrôle | Infrastructure d’interface utilisateur | Propriété spécifique à l’infrastructure | Propriété UI Automation |
 |--------------|--------------|-----------------------------|------------------------|
-| Bouton       | WPF          | Content                     | Nom de la propriété          |
+| Bouton       | WPF          | Contenu                     | Nom de la propriété          |
 | Bouton       | Win32        | Caption                     | Nom de la propriété          |
 | Image        | HTML         | alt                         | Nom de la propriété          |
 

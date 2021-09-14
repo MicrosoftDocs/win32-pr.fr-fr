@@ -4,12 +4,12 @@ description: Une boîte de dialogue est une fenêtre temporaire créée par une 
 ms.assetid: 7d132c2c-eab1-4132-b2b6-fa1f8b142f58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52abc4f08dabb8bfc96c83b5323951135bc4042d87b4e443e29fb1ecd5592852
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 75214998ac54659196bd64100b806e5768df176e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292239"
 ---
 # <a name="dialog-box-msaa-ui-element-reference"></a>Boîte de dialogue (référence des éléments d’interface utilisateur MSAA)
 
@@ -61,7 +61,7 @@ Une boîte de dialogue prend en charge les propriétés [**IAccessible**](/windo
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet Dialog ne prend pas en charge la méthode [**\_ accChild**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchild) . Pour obtenir un pointeur d’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) vers un contrôle sur une boîte de dialogue, les clients doivent obtenir le handle de fenêtre du contrôle, puis appeler [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow).
 

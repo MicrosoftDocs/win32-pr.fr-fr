@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8fa76e0d3a826e5a4fb5eabbe2346de82efbcbf0f60324bb73976487f43a4698
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c9d27eb5b40d652035882efc311d9735bcbdd23e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120100059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011048"
 ---
 # <a name="command-exectype-element"></a>Élément Command (execType)
 
@@ -42,7 +42,7 @@ L’élément **Command** est défini par le type complexe [**execType**](tasksc
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété arguments de IExecAction**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments).
 
@@ -52,7 +52,7 @@ Pour le développement de scripts, consultez [**ExecAction. arguments**](execact
 
 Pour obtenir un exemple complet du code XML d’une tâche qui utilise une action exécutable, consultez [exemple de déclencheur d’heure (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

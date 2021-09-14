@@ -7,12 +7,12 @@ keywords:
 - application DirectX, application Windows Store
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 870c575fc24da5632582e30b9786d8c800161e5ad1a1cfbc765aa5ec33db3f94
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9d5e09484bef67546047214702fab7d2d0a5c48d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295687"
 ---
 # <a name="prerequisites-for-developing-with-directx"></a>Conditions préalables pour le développement avec DirectX
 

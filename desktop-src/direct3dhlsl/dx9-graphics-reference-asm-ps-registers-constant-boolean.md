@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 4868be7c22ce5a6a1881ad7db8acf0af65330c04
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295611"
 ---
 # <a name="constant-boolean-register-hlsl-ps-reference"></a>Registre booléen constant (référence PS HLSL)
 
@@ -33,7 +33,7 @@ Le comportement des constantes de nuanceur a changé entre Direct3D 8 et Direct3
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,6 +42,6 @@ Le comportement des constantes de nuanceur a changé entre Direct3D 8 et Direct3
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

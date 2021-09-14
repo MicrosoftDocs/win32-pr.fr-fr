@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 522d4a0ea52f4cee495e689e8f0cdc91d7362ec3a1ee37ab81a911bc980d3209
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13d8206b4e423fb01be3277a9dd0ca3a49b59129
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118410035"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117409"
 ---
 # <a name="psn_apply-notification-code"></a>PSN \_ appliquer le code de notification
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Définissez PSNRET \_ NOERROR pour indiquer que les modifications apportées à cette page sont valides et ont été appliquées. Si toutes les pages définissent PSNRET \_ NOERROR, la feuille de propriétés peut être détruite. Pour indiquer que les modifications apportées à cette page ne sont pas valides et que la feuille de propriétés n’est pas détruite, définissez l’une des valeurs de retour suivantes :
 
@@ -54,7 +54,7 @@ Définissez PSNRET \_ NOERROR pour indiquer que les modifications apportées à 
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la \_ valeur de MSGRESULT DWL, et la procédure de boîte de dialogue doit retourner **true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand l’utilisateur clique sur le bouton OK, appliquer ou fermer, la feuille de propriétés envoie une notification [PSN \_ KILLACTIVE](psn-killactive.md) à la page active, ce qui lui donne la possibilité de valider les modifications de l’utilisateur. Si les modifications sont valides, la feuille de propriétés envoie un \_ Code de notification d’application PSN à chaque page, en la dirigeant pour appliquer les nouvelles propriétés à l’élément correspondant.
 
@@ -78,7 +78,7 @@ Pour recevoir ce code de notification, une page doit définir la \_ valeur DWL M
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

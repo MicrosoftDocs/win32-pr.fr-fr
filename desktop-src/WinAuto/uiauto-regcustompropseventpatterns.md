@@ -24,12 +24,12 @@ keywords:
 - implémentation de gestionnaires de modèles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7205d088f76f235b3078d5a053202f3d39b609389ef6adbc5dbdbca18d9b652b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b6b157e8f08a2c0be74af6b9f53d3578d1e4d03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118564053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292491"
 ---
 # <a name="register-custom-properties-events-and-control-patterns"></a>Inscrire des propriétés personnalisées, des événements et des modèles de contrôle
 
@@ -519,7 +519,7 @@ HRESULT RegisterPattern()
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Conception de propriétés, d’événements et de modèles de contrôle personnalisés](uiauto-designingcustompropseventpatterns.md)

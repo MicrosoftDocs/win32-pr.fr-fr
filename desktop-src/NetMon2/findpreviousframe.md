@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: a3bd6378691b63fc7f4db2455f713ffd0cf2a0281da2411dc494244ad3f00ba4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: deabf10702ca41c23101c5f60c9459e094e567fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117982526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011564"
 ---
 # <a name="findpreviousframe-function"></a>FindPreviousFrame fonction)
 
@@ -96,19 +96,19 @@ Numéro de trame le plus bas dans la capture dans laquelle la recherche est effe
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un handle vers le frame précédent.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre de capture est défini principalement par *ProtocolName*, qui est la seule entrée de filtre requise ; vous pouvez ajouter des informations *DestinationAddress* et *sourceAddress* pour augmenter la vitesse de capture.
 
 *ProtocolOffset* est retourné à l’analyseur appelant, ce qui ajoute ce **DWORD** au pointeur retourné par le verrouillage du frame (avec [PARSERTEMPORARYLOCKFRAME](parsertemporarylockframe.md)) pour obtenir le LPBYTE du protocole recherché. Au retour, le HFRAME qui a réussi le filtre est donné à l’analyseur. Si l’analyseur constate que le frame n’est pas celui qui est recherché, l’analyseur peut remettre ce HFRAME à la fonction **FindPreviousFrame** pour récupérer le frame suivant. Les adresses source et de destination, qui ne sont pas nécessaires, peuvent être transmises en tant que **valeurs NULL**. En cas d’utilisation, ces adresses peuvent être de type adresse \_ \_ IP, et ainsi de suite, pas seulement des types Mac.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

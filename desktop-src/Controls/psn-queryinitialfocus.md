@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffc82fe11893e728fbc9301868d9acdca5f7110bedfd37b4a16b473de0821f33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc542332440009f6564f384b415657e725edda00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117389"
 ---
 # <a name="psn_queryinitialfocus-notification-code"></a>\_Code de notification PSN QUERYINITIALFOCUS
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour spécifier le contrôle qui doit recevoir le focus, retournez le handle du contrôle. Sinon, retournez zéro et le focus sera placé dans le contrôle par défaut. Pour définir la valeur de retour, la procédure de la boîte de dialogue doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec une valeur **\_ MSGRESULT DWL** et retourner **true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application ne doit pas appeler la fonction [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) lors de la gestion de ce code de notification. Retourne le handle du contrôle qui doit recevoir le focus, et le gestionnaire de feuille de propriétés gère la modification du focus.
 
@@ -69,7 +69,7 @@ case PSN_QUERYINITIALFOCUS :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

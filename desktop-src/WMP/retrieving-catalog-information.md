@@ -17,12 +17,12 @@ keywords:
 - récupération des informations de catalogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae3b28da6d2d5f5143dab0664c10d0c906f971a6a60e4fdb502f4331fa71f408
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e721d6ba3e4d6b5106cf44446d4c96ed842ccd61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118570200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010898"
 ---
 # <a name="retrieving-catalog-information"></a>Récupération des informations de catalogue
 

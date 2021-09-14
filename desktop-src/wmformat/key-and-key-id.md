@@ -12,12 +12,12 @@ keywords:
 - KID (ID de la clé)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae448cd0c973ad11b55df6365039240ebe2c6ebadb3eda5f70b7f8dd1bfbfbc7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca7f74521fdf0f6cc268b8af1259f8468087f45b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119929959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295886"
 ---
 # <a name="key-and-key-id"></a>ID de clé et de clé
 

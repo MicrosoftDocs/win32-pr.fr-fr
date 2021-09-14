@@ -11,12 +11,12 @@ api_name:
 - contextType
 api_type:
 - Schema
-ms.openlocfilehash: 58189cf27f667b3d7e5e6c387a52143b8c757724106e8d9941d31d2582002b0d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63d221c6bd388196abfb73a8ac38a26de516d0df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118744446"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118097"
 ---
 # <a name="contexttype-complex-type"></a>Type complexe contextType
 
@@ -118,7 +118,7 @@ Le type complexe **ContextType** spécifie le contexte connenction d’un appare
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

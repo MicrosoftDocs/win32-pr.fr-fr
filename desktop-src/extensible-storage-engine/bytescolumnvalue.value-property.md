@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ffe33303a84f9a5726ae64ae08ba9de65e355d5bfd59f318dcb84baa8053b83f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0804a7a05640336be77e5f446ad99227db592f04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117717097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010312"
 ---
 # <a name="bytescolumnvaluevalue-property"></a>BytesColumnValue. Value (propriété)
 
@@ -66,7 +66,7 @@ Entrer \[\]
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [BytesColumnValue, classe](./bytescolumnvalue-class.md)
 

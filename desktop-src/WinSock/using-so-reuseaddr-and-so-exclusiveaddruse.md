@@ -4,12 +4,12 @@ ms.assetid: b37a3e33-65ee-43b1-bc8b-3280db7ebee4
 title: Utilisation de SO_REUSEADDR et SO_EXCLUSIVEADDRUSE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d58b0249ab19b4c7a1655a1c65130d545d328ef4fba3fd56ae9b05a911cb3fe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aaa4024f031102cbd634c235bb39f4c7860e6c1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120121143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292447"
 ---
 # <a name="using-so_reuseaddr-and-so_exclusiveaddruse"></a>Utilisation \_ de so REUSEADDR et so \_ EXCLUSIVEADDRUSE
 
