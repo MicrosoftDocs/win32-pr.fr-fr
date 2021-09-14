@@ -4,12 +4,12 @@ ms.assetid: 90c52d71-5d5b-479c-8e29-06c9f0f6da4a
 title: Types construits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85ed62c4a59bfc0944ad5e31673ab0ea9031c0175014c8fc1c6b6f2cc071b153
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a515e6e03ebf3c95ff1cabc1bf7f12eb423df27d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118904488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095949"
 ---
 # <a name="constructed-types"></a>Types construits
 

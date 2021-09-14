@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f0cbd79f0ce89ace1189ca0bc13dbb2df4bf8b053dbddc62e52b391cc58080bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34149fae8ac273565f98c3f39adb31b61b406ade
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117936786"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324358"
 ---
 # <a name="event-schema-elements"></a>Éléments du schéma d’événement
 

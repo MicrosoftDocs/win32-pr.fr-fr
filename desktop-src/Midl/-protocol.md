@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 555482677afff83d9f52e06c7b8e445504d222c8
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122887373"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093857"
 ---
 # <a name="protocol-switch"></a>commutateur/Protocol
 
@@ -69,7 +69,7 @@ Le stub généré prend en charge tous les protocoles disponibles pour un enviro
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 RPC marshale et démarshale les données en fonction d’un protocole strict Wire, également appelé syntaxe de transfert, qui définit la représentation de la transmission de données, telles que l’ordre dans lequel les données membres sont marshalées, l’alignement des données sur le câble, les informations supplémentaires incluses avec les données, entre autres. Microsoft RPC est compatible avec le protocole NDR (Network Data Representation) de l’ETCD OSF. dans la version 64 bits de Windows XP, Microsoft introduit un NDR64 de protocole expérimental qui est optimisé pour le transfert de données 64 bits. NDR64 n’est pas à compatibilité descendante avec le protocole DCE.
 

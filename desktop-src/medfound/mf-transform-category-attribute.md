@@ -4,12 +4,12 @@ ms.assetid: cebd64ea-b20f-4ccc-805f-0deab3096bc3
 title: Attribut MF_TRANSFORM_CATEGORY_Attribute (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66adac9b1b9f07b3053ff871a12d17163ae2b5f1a2ef644885b54cb8ed281437
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd3c64fd5e19bba10646957e7c247294b6d82a97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313861"
 ---
 # <a name="mf_transform_category_attribute-attribute"></a>\_Attribut d' \_ attribut de catégorie de transformation MF \_
 
@@ -27,11 +27,11 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetGuid**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est défini sur les pointeurs [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) retournés par la fonction [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 866992a7-95c4-4094-87bb-e6d8eeb24317
 title: Création d’un descripteur de sécurité pour un nouvel objet en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb97acf8a2c7c35d42c54a10baeabaa193f880d11a505ac459e6c705be28dd8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17687b60999bc4e6828c9769eec32ec4ce5afb54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096113"
 ---
 # <a name="creating-a-security-descriptor-for-a-new-object-in-c"></a>Création d’un descripteur de sécurité pour un nouvel objet en C++
 

@@ -4,12 +4,12 @@ ms.assetid: B18E322C-7954-473D-81A2-F181FBA9BDAC
 title: Attribut MF_MEDIA_ENGINE_COREWINDOW (Mfmediaengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69283c2c29bd4fbe1723d0ae6c610357e0841355595ad72e33d3bffd1ca3f58c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a66f06dcc23b74e6f42a3c6d0da401103a45bbac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118060551"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314038"
 ---
 # <a name="mf_media_engine_corewindow-attribute"></a>\_ \_ Attribut COREWINDOW du moteur multimédia MF \_
 
@@ -19,11 +19,11 @@ Fenêtre principale.
 
 **ICoreWindow \* *_ stocké en tant que _* IUnknown\***
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations, consultez [**interface ICoreWindow**](/uwp/api/Windows.UI.Core.ICoreWindow?view=winrt-19041).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

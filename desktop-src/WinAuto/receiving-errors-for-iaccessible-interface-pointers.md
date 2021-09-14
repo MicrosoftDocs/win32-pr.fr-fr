@@ -4,12 +4,12 @@ description: Cette rubrique décrit les situations dans lesquelles vous pouvez r
 ms.assetid: 408bfa47-fda0-4a25-89c1-da41d967ad61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d36a29c688966526d5431e1fe2f643e39b378779d122d22f38dea2089a5191c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e54d3bd9e39dae9c5de9ad1644e5955bd5fb90d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118115140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010659"
 ---
 # <a name="receiving-errors-for-iaccessible-interface-pointers"></a>Réception d’erreurs pour les pointeurs d’interface IAccessible
 

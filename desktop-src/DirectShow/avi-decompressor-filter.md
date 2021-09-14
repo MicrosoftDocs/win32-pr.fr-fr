@@ -4,12 +4,12 @@ ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: Filtre de décompresseur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e7511c4243d2e36ff6270826201b4b6dc58246ed2a1d815f34ee14f9aff7ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 214ccfeee18a01fa9c8d52ffbf4593b9de5664bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111509"
 ---
 # <a name="avi-decompressor-filter"></a>Filtre de décompresseur AVI
 

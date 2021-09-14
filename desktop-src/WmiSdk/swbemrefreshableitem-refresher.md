@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0df186aa66671ef7b832cf95954f28b8b620e98f7ec9c38e178d801c5f145735
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 513cd7a89c640f6fe79bdc4be554cefe7393abcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117921870"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010381"
 ---
 # <a name="swbemrefreshableitemrefresher-property"></a>SWbemRefreshableItem. actualiser, propriété
 
@@ -42,7 +42,7 @@ SWbemRefreshableItem.Refresher As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

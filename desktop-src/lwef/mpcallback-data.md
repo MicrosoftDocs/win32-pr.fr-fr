@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d1eb129101c341485a1e6b5763a0325cbf586a6e51e5e2875b4465696c39df8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9741ca479eeb9770a3ae8c2aedbc51a8a2643033
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117883651"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236435"
 ---
 # <a name="mpcallback_data-structure"></a>\_Structure de données MPCALLBACK
 
@@ -277,7 +277,7 @@ Lorsque le **type** est  ==  **MPCALLBACK \_ MALWARETOAST**. Consultez [**\_ don
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

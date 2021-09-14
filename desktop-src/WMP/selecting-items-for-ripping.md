@@ -14,12 +14,12 @@ keywords:
 - extraction de CD, sélection d’éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea677028fab6b3c39466e916bd8bb59ea8cee4d370730c096cbb98978f4abc49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfc18ded43b609be6c7ac1f16833b0c8a33505ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119646649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010861"
 ---
 # <a name="selecting-items-for-ripping"></a>Sélection d’éléments pour l’extraction
 

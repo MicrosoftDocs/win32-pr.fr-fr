@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbeb5e83b0c572fe09cad987e63712a57fd9bde1e059e5d3aeacf1e41f4316a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28f51c06fec5e360793d5314f5fa9904c8d03850
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118570492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010939"
 ---
 # <a name="ratingorg-attribute"></a>Attribut RatingOrg
 
@@ -33,7 +33,7 @@ Cet attribut est stocké uniquement dans le cache de la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

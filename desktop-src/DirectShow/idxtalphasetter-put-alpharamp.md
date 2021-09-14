@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 88661c40ea0824d643909f688a7d86251c434e0e3dcc88d8a3aec97dcb6b40c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc6c0eb4d5286081de9abe0c7c6d58092d111573
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324905"
 ---
 # <a name="idxtalphasetterput_alpharamp-method"></a>IDxtAlphaSetter ::p ut \_ AlphaRamp, méthode
 
@@ -52,11 +52,11 @@ Rampe alpha sous la forme d’un pourcentage. Par exemple, 1,0 est 100%. Pour d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous affectez une valeur non négative à cette propriété, vous devez également désactiver la propriété alpha en appelant **put \_ alpha** avec une valeur négative. Dans le cas contraire, l’effet ne sera pas correctement rendu.
 
@@ -70,7 +70,7 @@ Si vous affectez une valeur non négative à cette propriété, vous devez égal
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 115f8e5bbb34cff06b75447e863aeae0a6ec61f99064356b0600b261860f8568
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7095e29daf18dc111caf37038b06b0beff5245a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117991688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093718"
 ---
 # <a name="const-attribute"></a>attribut const
 
@@ -103,7 +103,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*function-name* 
+*nom de fonction* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -117,7 +117,7 @@ Spécifie zéro, un ou plusieurs attributs directionnels, attributs de champ, at
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 MIDL vous permet de déclarer des types entier constant, caractère, chaîne et booléen dans le corps de l’interface du fichier IDL. Les déclarations de type **const** sont reproduites dans le fichier d’en-tête généré en tant que directives de **\# définition** .
 
@@ -158,7 +158,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [Types de base MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**Boolean**](boolean.md)
+[**Booléen**](boolean.md)
 </dt> <dt>
 
 [**poids**](byte.md)
@@ -167,7 +167,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**rappel**](callback.md)
 </dt> <dt>
 
-[**Char**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [**handle de contexte \_**](context-handle.md)
@@ -179,10 +179,10 @@ HRESULT GetName([out] wchar_t * const pszName );
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
-[**local**](local.md)
+[**localisé**](local.md)
 </dt> <dt>
 
 [**long**](long.md)
@@ -197,7 +197,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**ref**](ref.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)

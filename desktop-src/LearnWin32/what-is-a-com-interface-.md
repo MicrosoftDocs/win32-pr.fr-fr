@@ -4,12 +4,12 @@ description: Qu’est-ce qu’une interface COM ?
 ms.assetid: 36f27a58-cc63-4b67-bdcb-8f9a19650c6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4a6eac63fb6395e04f36c89826a392046c906a70105e19bb6b9514975d89197
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da703569beae7a9aa2fc41bcea0214cc9aa488ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118387600"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094277"
 ---
 # <a name="what-is-a-com-interface"></a>Qu’est-ce qu’une interface COM ?
 

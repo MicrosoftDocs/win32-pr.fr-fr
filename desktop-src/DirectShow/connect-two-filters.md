@@ -4,12 +4,12 @@ ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
 title: Connecter Deux filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab83e8608c088fde6d06c0a44621f1c066f177ecf76cbc8ba3f55d31218b49ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7e70e607c510490e7ed841ea44303153a94e83f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111234"
 ---
 # <a name="connect-two-filters"></a>Connecter Deux filtres
 

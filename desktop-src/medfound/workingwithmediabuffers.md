@@ -4,12 +4,12 @@ ms.assetid: 6d0c51b8-0d79-4f04-8e90-0cea4f3b1427
 title: utilisation de mémoires tampons de média DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 311778898fbfa669a602cd189fb5518f7a2814089a87ed33fba7e303c4327cac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c870b3a4a035c71a4dcadf9a38b4c2a150097e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118236955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313537"
 ---
 # <a name="working-with-dmo-media-buffers"></a>utilisation de mémoires tampons de média DMO
 

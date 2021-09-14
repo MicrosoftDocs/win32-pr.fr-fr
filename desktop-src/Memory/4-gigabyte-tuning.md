@@ -4,12 +4,12 @@ ms.assetid: 991eb86f-9e6f-4084-8b6f-f979e42104b5
 title: 'Réglage à 4 gigaoctets : BCDEdit et Boot.ini'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84c8cd7b824669abbe684af91d848f445fe287c333c04abc08c676f3e125d2b4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f997ae09748370d5ec8ec246da80b6440d7aaf45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118386694"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094233"
 ---
 # <a name="4-gigabyte-tuning-bcdedit-and-bootini"></a>Réglage à 4 gigaoctets : BCDEdit et Boot.ini
 

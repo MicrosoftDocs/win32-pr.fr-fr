@@ -4,12 +4,12 @@ ms.assetid: 23321700-64d3-45e3-929a-8f5df64dc4be
 title: Constantes LINEREQUESTMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20bb6d9322c84010eafecd8eb4686cb4017eee9945223fd83dfb6e4ba50ea333
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 52fb227c192a6e65577e8cbcc757dec4427c2249
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120073029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324704"
 ---
 # <a name="linerequestmode_-constants"></a>\_Constantes LINEREQUESTMODE
 
@@ -47,11 +47,11 @@ Cette constante est obsolète. Ne pas utiliser.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

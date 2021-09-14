@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2368ada89245d35d58e34162e7e5cf07db815f6969e8c7579a91509275651c77
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 359d3cb7d7cd62d209c309ef4339651ee6cd852a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111334"
 ---
 # <a name="cbaserendererclearpendingsample-method"></a>Méthode CBaseRenderer. ClearPendingSample
 
@@ -40,11 +40,11 @@ virtual HRESULT ClearPendingSample();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

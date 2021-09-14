@@ -5,11 +5,11 @@ title: Filtre de convertisseur audio (WaveOut)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5d66d92357b41b6fa23018acf6d44b966eb77fab
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987652"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112162"
 ---
 # <a name="audio-renderer-waveout-filter"></a>Filtre de convertisseur audio (WaveOut)
 

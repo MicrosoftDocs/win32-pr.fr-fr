@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a68e91fbdaafc2a1857a95e059125bf62347777edfbcc764868ceea0a8fce578
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 583da688e3495ebc2eb9d6f71972658c6426469c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119519589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011473"
 ---
 # <a name="glugetnurbsproperty-function"></a>gluGetNurbsProperty fonction)
 
@@ -67,11 +67,11 @@ Pointeur vers l’emplacement dans lequel la valeur de la propriété nommée es
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez **gluGetNurbsProperty** pour récupérer les propriétés stockées dans un objet NURBS. Ces propriétés affectent le mode de rendu des courbes et des surfaces NURBS. Pour plus d’informations sur les propriétés NURBS, consultez [**gluNurbsProperty**](glunurbsproperty.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

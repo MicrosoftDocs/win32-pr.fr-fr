@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba06dcd8809e53c5cfdf552a2c2c80b4d51faa5b80594b72ea1b50e2e7a2c0a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acd67f49c5fa689fb4418789aae7c4d6c9a305a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910731"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095965"
 ---
 # <a name="winbio_database_type-constants"></a>\_Constantes de type de base de données WINBIO \_
 
@@ -45,7 +45,7 @@ Les indicateurs suivants peuvent être utilisés pour le membre **attributes** d
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

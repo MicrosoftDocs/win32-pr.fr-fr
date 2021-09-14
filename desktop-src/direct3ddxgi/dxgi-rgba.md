@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - DXGItype.h
-ms.openlocfilehash: 2c1ef7bd65645fa68e699b6f70894e72452a707eac29ab0d35e56364a66604bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0447d6470401d4136fbfd36f6d9c089e331b14b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119627419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295703"
 ---
 # <a name="dxgi_rgba-structure"></a>DXGI \_ RVBA, structure
 
@@ -70,7 +70,7 @@ Valeur à virgule flottante qui spécifie le composant alpha d’une couleur. Ce
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez définir les membres de cette structure sur des valeurs situées en dehors de la plage comprise entre 0 et 1 pour implémenter des effets inhabituels. Les valeurs supérieures à 1 produisent des lumières fortes qui ont tendance à nettoyer une scène. Les valeurs négatives produisent des lumières sombres qui suppriment en fait la lumière d’une scène.
 
@@ -85,7 +85,7 @@ typedef D3DCOLORVALUE DXGI_RGBA;
 
 Vous pouvez utiliser **dxgi \_ RVBA** avec [**IDXGISwapChain1 :: SetBackgroundColor**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor), [**IDXGISwapChain1 :: GetBackgroundColor**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor)et le [**\_ \_ mode Alpha dxgi**](/windows/desktop/api/DXGI1_2/ne-dxgi1_2-dxgi_alpha_mode).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

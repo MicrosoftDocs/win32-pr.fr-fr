@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e420ac37791bc6c5aa7f660d71005be65fc87fff
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110897"
 ---
 # <a name="icm_draw_end-message"></a>ICM \_ DESSINER le \_ message de fin
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le [**ICM \_ dessiner \_ commencer**](icm-draw-begin.md) et **ICM \_ dessiner \_** les messages de fin ne sont pas imbriqués. si votre pilote reçoit **ICM \_ \_ commencer** avant que la décompression ne s’arrête avec **ICM \_ dessiner \_**, il doit redémarrer la décompression avec les nouveaux paramètres.
 

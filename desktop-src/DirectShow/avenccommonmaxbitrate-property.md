@@ -4,12 +4,12 @@ ms.assetid: 053fdad0-dc5f-4af1-84a6-bb7c0dac7e79
 title: Propriété AVEncCommonMaxBitRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0981a8f3fea67fa6e3dc4564ef2d2777af130bc02079050e63f571d7199e626
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d03844935e909591b2fe3c7244db79e77e7936f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111970"
 ---
 # <a name="avenccommonmaxbitrate-property"></a>Propriété AVEncCommonMaxBitRate
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

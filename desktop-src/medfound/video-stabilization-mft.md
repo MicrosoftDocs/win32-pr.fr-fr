@@ -5,11 +5,11 @@ title: Stabilisation vidéo MFT (Camerauicontrol. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 65eb64b05e41842b1f7b3ad2e49a6c064be08f0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313593"
 ---
 # <a name="video-stabilization-mft"></a>Stabilisation vidéo MFT
 
@@ -68,9 +68,9 @@ Une instance du DSP de stabilisation vidéo peut être créée de l’une des ma
 -   En appelant [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). Le DSP de stabilisation vidéo est enregistré sous la catégorie d' **\_ \_ \_ effet vidéo de la catégorie MFT** .
 -   En appelant la fonction COM **CoCreateInstance** en lui transmettant le CLSID CLSID **\_ CMSVideoDSPMFT**. Pour utiliser cette méthode, vous devez inclure wmcodecdsp. h et établir une liaison avec wmcodecdspuuid. lib.
 
-En outre, le DSP de stabilisation vidéo prend en charge l’instanciation à l’aide de Windows Runtime en tant qu’extension Windows Media. Il est défini sur [**Windows. Media. VideoEffects**](/uwp/api/Windows.Media.VideoEffects?view=winrt-19041)et son nom complet est « Windows. Media. VideoEffects. VideoStabilization ».
+en outre, le DSP de stabilisation vidéo prend en charge l’instanciation à l’aide de Windows Runtime en tant qu’Extension de média Windows. Elle est définie sur le [**Windows. Media. VideoEffects**](/uwp/api/Windows.Media.VideoEffects?view=winrt-19041), et son nom complet est «Windows. Media. VideoEffects. VideoStabilization».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

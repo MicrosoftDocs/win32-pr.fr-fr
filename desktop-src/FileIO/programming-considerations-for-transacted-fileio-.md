@@ -4,12 +4,12 @@ ms.assetid: a1ef1ce1-42f6-4627-ab64-e7f41fa23e94
 title: Considérations relatives à la programmation pour NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3150746b1cb34495178cc8318805587f3d08f17e04cb8227e95a9c52ddce3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e79dc7eba4de1258c294d3e41f8042f3cb01dc87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120047939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009872"
 ---
 # <a name="programming-considerations-for-transactional-ntfs"></a>Considérations relatives à la programmation pour NTFS transactionnel
 

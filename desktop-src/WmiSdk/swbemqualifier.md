@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 25315805a4cabc901fab9b7f28cca6c023fc18389b6d94f8f459c91fd785b361
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e9a49832ffa1e38fbe6ee0f71e1f6a39c1b0ba2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119463734"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010402"
 ---
 # <a name="swbemqualifier-object"></a>Objet SWbemQualifier
 
@@ -43,16 +43,16 @@ L’objet **SWbemQualifier** a ces propriétés.
 | [**IsAmended**](swbemqualifier-isamended.md)<br/>                       | Lecture seule<br/>  | Valeur booléenne qui indique si ce qualificateur a été localisé à l’aide d’une opération de fusion.<br/> |
 | [**IsLocal**](swbemqualifier-islocal.md)<br/>                           | Lecture seule<br/>  | Valeur booléenne qui indique si ce qualificateur est local.<br/>                                   |
 | [**IsOverridable**](swbemqualifier-isoverridable.md)<br/>               | Lecture/écriture<br/> | Valeur booléenne qui indique si ce qualificateur peut être substitué lorsqu’il est propagé.<br/>          |
-| [**Nom**](swbemqualifier-name.md)<br/>                                 | Lecture seule<br/>  | Nom de ce qualificateur.<br/>                                                                    |
+| [**Nomme**](swbemqualifier-name.md)<br/>                                 | Lecture seule<br/>  | Nom de ce qualificateur.<br/>                                                                    |
 | [**PropagatesToInstance**](swbemqualifier-propagatestoinstance.md)<br/> | Lecture/écriture<br/> | Valeur booléenne qui indique si ce qualificateur peut être propagé à une instance.<br/>           |
 | [**PropagatesToSubClass**](swbemqualifier-propagatestosubclass.md)<br/> | Lecture seule<br/>  | Valeur booléenne qui indique si ce qualificateur peut être propagé à une sous-classe.<br/>            |
-| [**Valeur**](swbemqualifier-value.md)<br/>                               | Lecture/écriture<br/> | Valeur de type variant de ce qualificateur. Il s’agit de la propriété par défaut de cet objet.<br/>              |
+| [**Ajoutée**](swbemqualifier-value.md)<br/>                               | Lecture/écriture<br/> | Valeur de type variant de ce qualificateur. Il s’agit de la propriété par défaut de cet objet.<br/>              |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

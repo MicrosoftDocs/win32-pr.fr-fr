@@ -1,20 +1,20 @@
 ---
-title: Classes de contrôles ActiveX Bureau à distance
-description: Les classes suivantes implémentent le contrôle ActiveX Bureau à distance.
+title: Bureau à distance ActiveX les classes de contrôle
+description: les classes suivantes implémentent le contrôle Bureau à distance ActiveX.
 ms.assetid: 5680DFB3-63EC-4F34-B1A6-08E1521A1827
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fe04f54a377799ede752c0f7868f822faed044a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324659"
 ---
-# <a name="remote-desktop-activex-control-classes"></a>Classes de contrôles ActiveX Bureau à distance
+# <a name="remote-desktop-activex-control-classes"></a>Bureau à distance ActiveX les classes de contrôle
 
-Les classes suivantes implémentent le contrôle ActiveX Bureau à distance.
+les classes suivantes implémentent le contrôle Bureau à distance ActiveX.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -198,13 +198,13 @@ Contrôle client Microsoft Terminal Services-version 1
 [**RemoteDesktopClient**](remotedesktopclient.md)
 </dt> <dd>
 
-Implémente l’application Microsoft Windows Store Bureau à distance le contrôle client-version 1
+implémente l’application Microsoft Windows Store Bureau à distance le contrôle Client-version 1
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

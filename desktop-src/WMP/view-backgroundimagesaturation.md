@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 934c10ee090f99d456c38a5eb56512d3adb9b748d45b166167b49f3249d819e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c9d7f5807bcb5fd90dae211d80faf78006b6b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119506859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010778"
 ---
 # <a name="viewbackgroundimagesaturation"></a>VUE. backgroundImageSaturation
 
@@ -31,11 +31,11 @@ L’attribut **backgroundImageSaturation** spécifie ou récupère la valeur de 
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur est comprise entre 0,0 et 2,0, avec une valeur par défaut de 1,0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut modifie la valeur de saturation des images spécifiées par l’attribut **BackgroundImage** s’il a été spécifié et fait référence à une image BMP de 8 bits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

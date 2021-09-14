@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 562b157f26078c6f4d5b3cffe47417fa18fe608d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093766"
 ---
 # <a name="async-attribute"></a>attribut Async
 
@@ -61,7 +61,7 @@ Pour déclarer une fonction RPC comme asynchrone, commencez par déclarer la fon
 > [!Note]  
 > L’attribut Async ne peut pas être utilisé avec le commutateur de ligne de commande [**/OSF**](-osf.md) .
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -97,6 +97,6 @@ interface AsyncIface
 [RPC asynchrone](/windows/desktop/Rpc/asynchronous-rpc)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5091815cf38060c30b82aa33fd05ad6be9d6c390
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314843"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093809"
 ---
 # <a name="aggregatable-attribute"></a>aggregatable (attribut)
 
@@ -95,6 +95,6 @@ coclass Form
 [Syntaxe du fichier ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

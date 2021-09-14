@@ -4,12 +4,12 @@ ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: AM_RATE_ResetOnTimeDisc, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c42b8e9d158f644d9e630555d96bf4d06e4ea9ef3cddced67742c057d0ab3859
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e867bff1f344e80ffd06c9c40276515f2cd4920c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120079519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112293"
 ---
 # <a name="am_rate_resetontimedisc-property"></a>\_ \_ Propriété RESETONTIMEDISC rate AM
 
@@ -31,7 +31,7 @@ Cette propriété est en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété prend en charge les changements de taux d’accélération. Si la valeur de cette propriété est **true** et que le décodeur reçoit un exemple d’entrée avec l' \_ indicateur AM Sample \_ TIMEDISCONTINUITY, la trame décodée doit avoir le même horodatage que le frame d’entrée.
 
@@ -39,7 +39,7 @@ Pour récupérer l' \_ \_ indicateur TIMEDISCONTINUITY AM, appelez [**IMediaSamp
 
 pour plus d’informations, consultez [améliorations de la lecture de DVD dans Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

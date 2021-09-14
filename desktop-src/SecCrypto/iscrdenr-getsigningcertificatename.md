@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 29933856eb644e638e9e58c8da0b0e3d6234e4f0175925c8a1fb5b48b126e3ee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8d9a8a84067e82a18e5066721f3e7f39d075c339
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119622399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324753"
 ---
 # <a name="iscrdenrgetsigningcertificatename-method"></a>ISCrdEnr :: getSigningCertificateName, méthode
 
@@ -68,7 +68,7 @@ Pointeur vers une chaîne qui retourne le nom du certificat de signature. Le cer
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -80,11 +80,11 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom du certificat de signature. Le certificat de signature est utilisé pour signer la [*demande de certificat*](../secgloss/c-gly.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **getSigningCertificateName** retourne le nom du sujet du certificat que vous (ou un autre administrateur) avez sélectionné lors d’un appel précédent réussi à [**ISCrdEnr :: selectSigningCertificate**](iscrdenr-selectsigningcertificate.md) ou [**ISCrdEnr :: setSigningCertificate**](iscrdenr-setsigningcertificate.md). Cette méthode appelle la fonction [**CertGetNameString**](/windows/desktop/api/Wincrypt/nf-wincrypt-certgetnamestringa) pour récupérer le nom de l’objet en fonction de la séquence décrite pour la \_ \_ \_ \_ valeur de type d’affichage simple du nom de certificat du paramètre *dwType* de **CertGetNameString**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adf4f1b2065eb1b251f0c555f8c33e424e43aefd04377ed894edb90c121aacb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4f2f8eb2baa401f1bc8519da5ca555a1fe428ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086010"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295943"
 ---
 # <a name="drm_flags"></a>\_Indicateurs DRM
 
@@ -31,7 +31,7 @@ La **propriété \_ indicateurs DRM** est utilisée avec le contenu DRM version 
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous pouvez ajouter ou modifier cette valeur. Dans d’autres objets (éditeur de métadonnées, lecteur et lecteur synchrone), cette valeur est en lecture seule. Utilisez [**IWMHeaderInfo :: setAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute) pour définir cette propriété lors de la création de contenu DRM version 1.
 

@@ -4,12 +4,12 @@ ms.assetid: 7863dbee-aa48-4024-886c-1056d7141e60
 title: Authentification (authentification)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84b1fc677271518df764fefb3bb53ee6b2761b779c0433df963ec06a2ee09055
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3989944068ade080b6b819dc34b77c914ed2e73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011321"
 ---
 # <a name="authentication-authentication"></a>Authentification (authentification)
 

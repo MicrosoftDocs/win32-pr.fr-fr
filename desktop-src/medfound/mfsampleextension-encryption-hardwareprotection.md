@@ -4,12 +4,12 @@ ms.assetid: 01241090-E596-4D4C-92BE-E8D38394B8EE
 title: Attribut MFSampleExtension_Encryption_HardwareProtection (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef76e0333e308193f0d8152de9310ed5d30ae84c0f509bc9d9847f7bb94937e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7817c8024acf665d5666e2a0535ecae51dd8b9ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235919"
 ---
 # <a name="mfsampleextension_encryption_hardwareprotection-attribute"></a>\_Attribut HardwareProtection de chiffrement MFSampleExtension \_
 
@@ -23,7 +23,7 @@ Spécifie si un exemple de média est protégé par le matériel.
 
 La valeur 0 indique que l’exemple n’est pas protégé par un matériel. Une valeur différente de zéro indique que l’exemple est protégé par le matériel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

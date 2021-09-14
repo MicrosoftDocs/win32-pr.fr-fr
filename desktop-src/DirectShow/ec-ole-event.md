@@ -4,12 +4,12 @@ ms.assetid: 477c6456-c96c-4d3d-b877-2a426510de29
 title: EC_OLE_EVENT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0753b5b5235be370a29416d9845d3b531640617c9607bd911187f94e013483e6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: af10f606187dae5fa4d361a1d86deea29fa093f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119639649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111141"
 ---
 # <a name="ec_ole_event"></a>\_événement OLE \_ EC
 
@@ -41,7 +41,7 @@ Aucun.
 
 Par Convention, le premier paramètre contient des informations de type (par exemple, « Text ») et le deuxième paramètre contient la chaîne de texte.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

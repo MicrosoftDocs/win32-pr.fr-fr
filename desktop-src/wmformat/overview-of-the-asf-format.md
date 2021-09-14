@@ -8,12 +8,12 @@ keywords:
 - ASF (format des systèmes avancés), vue d’ensemble du format
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee075330e9c68ef1fbdadea12c70fd8deec584f99f8dadd31cb55070dc11eee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2858ae1845629c25b52d4c15b5ce7fbb5eb82146
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119930559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295866"
 ---
 # <a name="overview-of-the-asf-format"></a>Vue d’ensemble du format ASF
 

@@ -4,12 +4,12 @@ ms.assetid: 7e4ae4b8-e7b2-49b3-97b7-374b69006a2f
 title: Importation de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2678eb2c6fb1c53f0d052c6bb1553af0f3d773b75d057969c66d74a39e499f35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2957dbec645bb85121c9748de83bc5c96ad04b05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021375"
 ---
 # <a name="importing-the-user-interface"></a>Importation de l’interface utilisateur
 

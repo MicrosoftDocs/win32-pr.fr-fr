@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c0b6684722478ef913a5d03d5e50c2f7d76fc692696661357b970388397b494
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9ab64f76243065e28ebf83eedb0845f30642751
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118570640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010950"
 ---
 # <a name="query-object"></a>Objet Query
 

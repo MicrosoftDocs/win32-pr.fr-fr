@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff27f8082d384c5c244951b5dd237f21cb60875c0912cf742c4f8b2d3ea1f018
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a09a92b718881670ed5625fd5aa94a23193cdd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118358692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324876"
 ---
 # <a name="glnormal3b-function"></a>glNormal3b fonction)
 
@@ -67,7 +67,7 @@ Spécifie la coordonnée z du nouveau vecteur normal actuel.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La normale actuelle est définie sur les coordonnées données chaque fois que vous appelez la fonction **glNormal3b** .
 
@@ -79,7 +79,7 @@ Les normales spécifiées avec **glNormal3b** n’ont pas besoin d’avoir une l
 
 [**glIsEnable**](glisenabled.md) avec argument GL \_ Normalize
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

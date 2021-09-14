@@ -4,12 +4,12 @@ ms.assetid: b89cf0c7-bf9f-4bcb-b008-8b7c792f3300
 title: Windows Solution de sécurité des familles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc5e5749201fc849e7c9476c97c6fbd3dc5ee5b2d3f26ed3988eb72ac59c1ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a2d8776893468df4f4877c7220436f505ab1e6f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235656"
 ---
 # <a name="windows-family-safety-solution"></a>Windows Solution de sécurité des familles
 

@@ -4,12 +4,12 @@ ms.assetid: 28181f8c-8c03-4962-a142-c35d0dd88940
 title: DisableSharedComponent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7576406e14b0f9ac48a26735b984302c2d765b784484022a85ec50244ee8df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c7a1d4c2bae3f499722890e06502c7a289e6921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118143100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091494"
 ---
 # <a name="disablesharedcomponent"></a>DisableSharedComponent
 

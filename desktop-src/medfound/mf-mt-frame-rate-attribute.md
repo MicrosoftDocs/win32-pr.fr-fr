@@ -4,12 +4,12 @@ ms.assetid: 8336559c-06f1-478e-b921-e9eae7425230
 title: Attribut MF_MT_FRAME_RATE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bb49da7667286c17bfa500a8a90a9f7083e786483120e40ba2d635710668a4d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8df2ef4268bd643d9f65eb16c3f7257bcaceb1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313989"
 ---
 # <a name="mf_mt_frame_rate-attribute"></a>\_Attribut de \_ fréquence d’images MF MF \_
 
@@ -19,7 +19,7 @@ Fréquence d’images d’un type de média vidéo, en images par seconde.
 
 **UINT64**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fréquence d’images est exprimée sous la forme d’un rapport. Les 32 bits supérieurs de la valeur de l’attribut contiennent le numérateur et les 32 inférieurs contiennent le dénominateur. Par exemple, si la fréquence d’images est de 30 images par seconde (FPS), le ratio est de 30/1. Si la fréquence d’images est de 29,97 fps, le ratio est de 30000/1001.
 
@@ -73,7 +73,7 @@ inline HRESULT GetFrameRate(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

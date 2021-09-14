@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 551f5a60013aa3a903dcb3e35cc4c25a9f83dc67fff2a6ab5c7bfd62a041feee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 974f9530006c03a041d9d444c41f9c5ca01569c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093850"
 ---
 # <a name="robust-switch"></a>commutateur/Robust
 
@@ -41,7 +41,7 @@ Ces commutateurs sont identiques dans leurs fonctionnalités. Ils spécifient la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’utilisation du commutateur **/Robust** génère des informations supplémentaires qui permettent au moteur de représentation de données réseau d’effectuer une vérification des erreurs au moment de l’exécution sur des arguments corrélés dans des tableaux dynamiques, des unions et des pointeurs d’interface [**out**](out-idl.md) dans des applications DCOM. Le commutateur **/Robust** est uniquement disponible sous WindowsÂ 2000 et les versions ultérieures de Windows.
 

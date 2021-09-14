@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103168
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 89ad0721fa6be27608134ba00d21a4e2fca7c6d7f2d149d372f86a1f7d6626ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afb7b33654377241bb4cd14145ce73b823c61ddb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010247"
 ---
 # <a name="esentupdatemustversionexception-methods"></a>Méthodes EsentUpdateMustVersionException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentUpdateMustVersionException, classe](./esentupdatemustversionexception-class.md)
 

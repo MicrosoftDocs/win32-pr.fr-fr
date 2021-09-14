@@ -4,12 +4,12 @@ ms.assetid: 254f003f-b3fd-40ab-a472-6bae93f11326
 title: Propriété AVDecVideoSoftwareDeinterlaceMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c48f60b0d54487ab2ee227c72e2a4f068b520542a6bcfe424fb384984a33db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e728b12d11def7f35c207bb8f76a5c763675397b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663450"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112038"
 ---
 # <a name="avdecvideosoftwaredeinterlacemode-property"></a>Propriété AVDecVideoSoftwareDeinterlaceMode
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVDecVideoSoftwareDeinterlaceMode**](/windows/desktop/api/codecapi/ne-codecapi-eavdecvideosoftwaredeinterlacemode) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

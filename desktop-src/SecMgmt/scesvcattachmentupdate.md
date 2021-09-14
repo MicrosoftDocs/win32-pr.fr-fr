@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: b04d8a144373ae493a956e2166ea6dab34d844c71504f303766e8de7915b9a70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bc4c9426f6a085c72f2fc3d872de4d7da59156b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228912"
 ---
 # <a name="scesvcattachmentupdate-callback-function"></a>SceSvcAttachmentUpdate fonction de rappel
 
@@ -53,11 +53,11 @@ Informations de configuration mises à jour. La structure de données utilisée 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette fonction réussit, elle retourne SCESTATUS \_ Success. Sinon, elle retourne un code d’erreur. Pour plus d’informations sur les codes d’erreur de configuration de la sécurité, consultez [Attachment Return values](management-return-values.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SceSvcAttachmentUpdate** doit effectuer les opérations suivantes :
 
@@ -70,7 +70,7 @@ La fonction **SceSvcAttachmentUpdate** doit effectuer les opérations suivantes�
 
 Pour plus d’informations, consultez [implémentation de SceSvcAttachmentUpdate](implementing-scesvcattachmentupdate.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

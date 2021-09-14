@@ -4,12 +4,12 @@ ms.assetid: 99ee6f50-1de7-41ea-be5b-135730138d5d
 title: Attribut MFT_TRANSFORM_CLSID_Attribute (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0122b783d8b321aa2a5c7788a589e19625b6a2bde8e37b0b659b0a1192f8c7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b5ca1aa6a9d7691200761509e1a5e407a6c7db6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313717"
 ---
 # <a name="mft_transform_clsid_attribute-attribute"></a>Attribut de l' \_ \_ attribut CLSID de transformation MFT \_
 
@@ -35,7 +35,7 @@ Notez que la fonction [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenu
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

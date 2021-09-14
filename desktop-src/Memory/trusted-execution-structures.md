@@ -4,12 +4,12 @@ ms.assetid: 61F99132-E947-4EA4-86A0-914CE316B53A
 title: Structures d’exécution approuvées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9349c8c4e4c04ecc664ccab668abe55cdca1e1720b6fa17fd35bb7139f53f19c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44d934ec26f9973697b987bf3a816e95d94ea591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118386250"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094021"
 ---
 # <a name="trusted-execution-structures"></a>Structures d’exécution approuvées
 

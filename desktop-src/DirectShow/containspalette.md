@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6c9e5ab793dfaadb868cc09cfbe25e59c02dc338b470992b81ab1990581e5c19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9417d9dd39f958e4a4caf68ef368d231a2097de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111229"
 ---
 # <a name="containspalette-function"></a>ContainsPalette fonction)
 
@@ -50,11 +50,11 @@ Pointeur vers une structure [**VIDEOINFOHEADER**](/previous-versions/windows/des
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si bitdepth est inférieur ou égal à 8 (**bmiHeader. biBitCount**), ou si le nombre d’index de couleurs est supérieur à zéro (**bmiHeader. biClrUsed**). Sinon, retourne **false** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

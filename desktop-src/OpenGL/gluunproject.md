@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f88c303e6a9471f0de38f891c7b376785d29b5052432ef234fa531861400841e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f45311171dd3d71c9e699953c049e0813f2df361
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119488399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011452"
 ---
 # <a name="gluunproject-function"></a>gluUnProject fonction)
 
@@ -111,17 +111,17 @@ Coordonnée de l’objet z calculé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est GL \_ true.
 
 Si la fonction échoue, la valeur de retour est GL \_ false.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluUnProject** mappe les coordonnées de fenêtre spécifiées en coordonnées d’objet à l’aide de *modelMatrix*, *projMatrix* et *Viewport*. Le résultat est stocké dans *objX*, *objy* et *objz*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

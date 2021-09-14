@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b49c4e0c086a52eda2705d72cf2a2ff22c759290
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940191"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093746"
 ---
 # <a name="c-preprocessor-requirements-for-midl"></a>C-Configuration requise pour le préprocesseur pour MIDL
 
@@ -29,7 +29,7 @@ midl /cpp_cmd preprocessor_name filename
 <span id="preprocessor_name"></span><span id="PREPROCESSOR_NAME"></span>*nom du préprocesseur \_*
 </dt> <dd>
 
-Spécifie le nom du préprocesseur à utiliser par MIDL. Peut être spécifié avec un chemin d’accès au fichier binaire. L’extension. exe est facultative.
+Spécifie le nom du préprocesseur à utiliser par MIDL. Peut être spécifié avec un chemin d’accès au fichier binaire. L’extension de .exe est facultative.
 
 </dd> <dt>
 
@@ -66,9 +66,9 @@ MIDL accepte uniquement la directive de préprocesseur de ligne. Par conséquent
 
 Pour plus d’informations, consultez [gestion des \# définitions dans les fichiers IDL](dealing-with-defines-in-idl-files-2.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: La \_ \_ fonction Allocate de l’utilisateur MIDL est une procédu
 ms.assetid: 3def405c-da05-4cce-9dc4-499864a0de6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb8e064fc16a303660be96a4a3c47aa361c4616f54a8cb825c1fce5334543fc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12b2e3196de79992f5856b7117b25f05ad782d26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118924248"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011410"
 ---
 # <a name="the-midl_user_allocate-function"></a>La fonction d’allocation de l' \_ utilisateur MIDL \_
 

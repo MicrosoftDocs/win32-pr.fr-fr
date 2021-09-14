@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6179c87e6566a18f2c47046007a17c6073a51e0afcdce4925b50d327adf528f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7907640a9641cff3c94475318bf499415b25184
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118605116"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324457"
 ---
 # <a name="setbasevhdpath-method-of-the-win32_rdmsdeploymentsettings-class"></a>Méthode SetBaseVHDPath de la \_ classe Win32 RDMSDeploymentSettings
 
@@ -50,11 +50,11 @@ Nouveau chemin de déploiement du disque dur virtuel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 en cas de réussite, sinon retourne un code d’erreur WMI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

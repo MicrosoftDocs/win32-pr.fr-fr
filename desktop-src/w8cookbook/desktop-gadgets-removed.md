@@ -9,12 +9,12 @@ keywords:
 - Barre latérale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f254c4794c93c6afeeec9374e7c1c73f7d538c82b343ffaea984369a72231deb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5c37c058a75aca82d7727566041af4c30f3bb474
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295979"
 ---
 # <a name="desktop-gadgets-removed"></a>Gadgets du Bureau supprimés
 

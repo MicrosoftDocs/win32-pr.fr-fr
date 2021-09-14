@@ -4,12 +4,12 @@ description: Les fonctions utilitaires suivantes prennent en charge l’API NAP.
 ms.assetid: 0819067c-cca5-4140-8b4d-f3b996826152
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9b421069804a4047b511b775c7ffafe5b4b987eb0b0ad5105f48df0ed990e22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 260c423909011c81f52ea89ce8d3137b35c55167
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118620780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110562"
 ---
 # <a name="nap-utility-functions"></a>Fonctions de l’utilitaire NAP
 

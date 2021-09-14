@@ -4,12 +4,12 @@ ms.assetid: 636b0ce8-cf08-4536-9b41-79512b02a066
 title: Événement WPCEVENT_WEB_URLVISIT (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9524909ee78d14395e2f208fe265b3abc31240d2036788b8b84c4fea05aac9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b1075ae930cdaa9ee539dbc17a8c13d5c2a41add
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235614"
 ---
 # <a name="wpcevent_web_urlvisit-event"></a>\_ \_ Événement URLVISIT Web WPCEVENT
 
@@ -75,7 +75,7 @@ Chaîne délimitée d’identificateurs de catégorie qui sont bloqués.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

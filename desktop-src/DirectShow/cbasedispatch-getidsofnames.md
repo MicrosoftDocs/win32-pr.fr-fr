@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9153dd2412018321374f558539690d5d146d8547d6247874bf5c1c79f1d4d9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f3b718c95d588ffdc7fa63902e6b26ffbf11fd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660026"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296814"
 ---
 # <a name="cbasedispatchgetidsofnames-method"></a>CBaseDispatch. GetIDsOfNames, méthode
 
@@ -81,7 +81,7 @@ Pointeur vers un tableau qui reçoit les DISPID. Chaque élément de reçoit un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -97,13 +97,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode se comporte comme la méthode **IDispatch :: GetIDsOfNames** , mais le paramètre *riid* spécifie l’interface sur laquelle récupérer les DISPID. (Dans la version **IDispatch** , le paramètre *riid* est réservé.)
 
 Si la méthode retourne DISP \_ E \_ UNKNOWNNAME, les DISPID retournés contiennent DISPID \_ Unknown pour chaque entrée correspondant à un nom inconnu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

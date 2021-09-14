@@ -4,12 +4,12 @@ ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Utilisation du convertisseur de mixage vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b16bbce539d21d756a7a1a648aab09105434da26ae586163f5f8bfe0edba77b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5baf7d559eed0d3111876924520952b55c6da2e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240599"
 ---
 # <a name="using-the-video-mixing-renderer"></a>Utilisation du convertisseur de mixage vidéo
 

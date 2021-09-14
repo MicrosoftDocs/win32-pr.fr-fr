@@ -4,12 +4,12 @@ ms.assetid: 2383ee2a-182b-4190-989d-be923fcf812b
 title: Utilisation de l’API de fournisseur réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23f624607c7489f974a09086e37d50d4bc8aa60e56f48787fcf4ac461d25fb1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0cfaebf1c4b895742a5ef11aa38d97296e1e3bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096229"
 ---
 # <a name="using-network-provider-api"></a>Utilisation de l’API de fournisseur réseau
 

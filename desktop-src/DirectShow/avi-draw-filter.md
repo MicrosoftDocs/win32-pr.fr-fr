@@ -5,11 +5,11 @@ title: Filtre de dessin AVI
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 44eb62bd686d0604f6a0c4966fa8af4a4ad0d69d
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987182"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111506"
 ---
 # <a name="avi-draw-filter"></a>Filtre de dessin AVI
 
@@ -36,7 +36,7 @@ Le filtre de dessin AVI est automatiquement placé dans un graphique de lecture 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que le filtre de dessin AVI et le [filtre de capture VFW](vfw-capture-filter.md) se connectent tous deux au même matériel, ils ne peuvent pas se trouver dans le même graphique de filtre.
 

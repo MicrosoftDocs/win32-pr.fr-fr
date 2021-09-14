@@ -1,34 +1,34 @@
 ---
 title: Stratégies de groupe
-description: Service de transfert intelligent en arrière-plan (BITS) utilise les stratégies de groupe suivantes pour configurer les paramètres et les transferts BITS. Pour plus d’informations sur la version de BITS utilisée par les différentes versions de Windows, consultez la rubrique nouveautés.
+description: Service de transfert intelligent en arrière-plan (BITS) utilise les stratégies de groupe suivantes pour configurer les paramètres et les transferts BITS. pour plus d’informations sur la version de BITS utilisée par les différentes versions de Windows, consultez la rubrique nouveautés.
 ms.assetid: 32c7e2b1-bac2-4708-a30c-f6b2a816c1a4
 ms.topic: article
 ms.date: 10/04/2018
 ms.openlocfilehash: f3ff0070c489759055bdaae1d2e68d8718a7bae5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190803"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296983"
 ---
 # <a name="group-policies"></a>Stratégies de groupe
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation de la gestion des appareils mobiles (MDM) pour définir des stratégies pour Service de transfert intelligent en arrière-plan (BITS), consultez la page [CSP de stratégie](/windows/client-management/mdm/policy-configuration-service-provider).
 
-Service de transfert intelligent en arrière-plan (BITS) utilise les stratégies de groupe suivantes pour configurer les paramètres et les transferts BITS. Pour plus d’informations sur la version de BITS utilisée par les différentes versions de Windows, consultez la rubrique [Nouveautés](what-s-new.md) .
+Service de transfert intelligent en arrière-plan (BITS) utilise les stratégies de groupe suivantes pour configurer les paramètres et les transferts BITS. pour plus d’informations sur la version de BITS utilisée par les différentes versions de Windows, consultez la rubrique [nouveautés](what-s-new.md) .
 
 > [!NOTE]  
 > Si la valeur de stratégie n’est pas définie, BITS utilise la valeur de stratégie par défaut.
 
 **Pour activer une stratégie BITS**
 
-1.  Ouvrez stratégie de groupe en entrant **gpedit. msc/gpcomputer : «***ComputerName***»** dans la fenêtre **exécuter** ou à l’invite de commandes dans une fenêtre cmd.
+1.  Ouvrez Stratégie de groupe en entrant **gpedit. msc/gpcomputer : «**_ComputerName_*_»_* dans la fenêtre **exécuter** ou à l’invite de commandes dans une fenêtre cmd.
 2.  Les stratégies BITS se trouvent sous **Configuration ordinateur**, **modèles d’administration**, **réseau**, **service de transfert intelligent en arrière-plan**.
 3.  Cliquez avec le bouton droit sur la stratégie, puis sélectionnez **modifier**.
 4.  Suivez les instructions relatives à l’activation et à la définition de la stratégie.
 
-Les stratégies de groupe pour bits se trouvent dans le registre à l’adresse **HKEY \_ local \_ machine** \\ **Software** \\ **Policies** \\ **Microsoft** \\ **Windows** \\ **bits**. Notez que seules les stratégies configurées sont répertoriées dans le registre.
+les stratégies de groupe pour BITS se trouvent dans le registre à l’adresse **HKEY \_ LOCAL \_ MACHINE** \\ **Software** \\ **policies** \\ **Microsoft** \\ **Windows** \\ **BITS**. Notez que seules les stratégies configurées sont répertoriées dans le registre.
 
 |Stratégie|Description|
 |-|-|
@@ -44,7 +44,7 @@ BITS utilise les stratégies de groupe suivantes pour activer et configurer la m
 
 |Stratégie|Description|
 |-|-|
-|DisableBranchCache<br/>BITS 4,0|Par défaut, la fonctionnalité Windows BranchCache est activée. Définissez cette stratégie pour empêcher les clients BITS de transférer du contenu à l’aide de Windows BranchCache.<br/>**Remarque**: ce paramètre n’affecte pas l’utilisation de Windows BranchCache par des applications autres que bits. Cette stratégie ne s’applique pas aux transferts BITS par le biais du protocole SMB (Server Message Block). Ce paramètre n’a aucun effet si les paramètres d’administration de l’ordinateur pour Windows Branch cache désactivent son utilisation complète.|
+|DisableBranchCache<br/>BITS 4,0|par défaut, la fonctionnalité Windows BranchCache est activée. définissez cette stratégie pour empêcher les clients BITS de transférer du contenu à l’aide de la Windows BranchCache.<br/>**remarque**: ce paramètre n’affecte pas l’utilisation de Windows BranchCache par les applications autres que BITS. Cette stratégie ne s’applique pas aux transferts BITS par le biais du protocole SMB (Server Message Block). ce paramètre n’a aucun effet si les paramètres d’administration de l’ordinateur pour Windows Branch Cache désactivent son utilisation complète.|
 
 Le service BITS utilise les stratégies de groupe suivantes pour configurer la limitation de bande passante.
 

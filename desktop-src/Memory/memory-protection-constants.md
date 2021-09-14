@@ -5,18 +5,18 @@ title: Constantes de protection mémoire (Winnt. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 187e8e1f4e137823451771309c9cce19db2e7fbd9c5b57597b51cfc58ca61297
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 641fab68024d9db96f50327f7c78d51f3f9bca01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094082"
 ---
 # <a name="memory-protection-constants"></a>Constantes de protection de la mémoire
 
 Les options de protection de la mémoire sont les suivantes : vous devez spécifier l’une des valeurs suivantes lors de l’allocation ou de la protection d’une page en mémoire. Les attributs de protection ne peuvent pas être assignés à une partie d’une page ; elles ne peuvent être affectées qu’à une page entière.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ```cpp
 STDMETHODIMP CExtBuffer::FInit
@@ -91,7 +91,7 @@ Les constantes suivantes peuvent uniquement être utilisées avec la fonction [*
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 717d5234bd419fec7107a6d983ece026b4558935
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380895"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093974"
 ---
 # <a name="app_config-switch"></a>\_commutateur de configuration/App
 
@@ -54,9 +54,9 @@ Pour plus d’informations sur le commutateur de configuration **/app \_** , con
 [Syntaxe générale de la ligne de commande MIDL](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

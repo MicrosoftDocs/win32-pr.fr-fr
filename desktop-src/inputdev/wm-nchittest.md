@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f54c397db10e8ecd6b2ed3c67a73affde4507ea59a265d502f28ada97b8a68e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9bf14e817831c099988e9fb3fee57ae0731ef621
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295459"
 ---
 # <a name="wm_nchittest-message"></a>\_Message WM NCHITTEST
 
@@ -54,7 +54,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) est l’une des valeurs suivantes, indiquant la position de la zone réactive du curseur.
 
@@ -93,7 +93,7 @@ La valeur de retour de la fonction [**DefWindowProc**](/windows/desktop/api/winu
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 
@@ -114,7 +114,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
 **Windows Vista :** Lorsque vous créez des frames personnalisés qui incluent les boutons de légende standard, ce message doit d’abord être transmis à la fonction [**DwmDefWindowProc**](/windows/desktop/api/dwmapi/nf-dwmapi-dwmdefwindowproc) . Cela permet à l’Gestionnaire de fenêtrage (DWM) de fournir des tests de positionnement pour les boutons de légende. Si **DwmDefWindowProc** ne gère pas le message, un traitement supplémentaire de **WM \_ NCHITTEST** peut être nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -142,7 +142,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 [**Obtient \_ le \_ lParam Y**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

@@ -48,12 +48,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5789483cf7fb8e604d1aeed16e848d2cf5d89a34eb1256ed81054e1863e8f4f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c7e13f299f985382dafd5f990041b0016d23072
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010527"
 ---
 # <a name="event-identifiers-uiautomationclienth"></a>Identificateurs d’événements (UIAutomationClient. h)
 
@@ -103,7 +103,7 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les é
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

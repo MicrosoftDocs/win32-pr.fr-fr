@@ -4,12 +4,12 @@ description: Utilisation de Color dans Direct2D
 ms.assetid: 74b1f12c-b1de-4df1-85ba-0cf7a0009499
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efe6ded6d181ebcbca402161fe6af0b8fb8dd65f7d082632474136a9bd1ff551
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb195a4ad0bdd9ff32f1123a8a57ff2ce0aadbde
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119631520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094286"
 ---
 # <a name="using-color-in-direct2d"></a>Utilisation de Color dans Direct2D
 
@@ -25,8 +25,8 @@ Direct2D utilise le mod√®le de couleurs RVB, dans lequel les couleurs sont form√
 | 0   | 0     | 1    | Bleu    |
 | 0   | 1     | 1    | Cyan    |
 | 1   | 0     | 1    | Magenta |
-| 1   | 1     | 0    | Yellow  |
-| 1   | 1     | 1    | White   |
+| 1   | 1     | 0    | Jaune  |
+| 1   | 1     | 1    | Blancs   |
 
 
 

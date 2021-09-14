@@ -4,12 +4,12 @@ ms.assetid: 86fd8d6f-a742-457d-bb30-d04542431a0a
 title: Composants de filtre VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dda6e8d37e1b5ac8c00da024fe78d4e18e38eed1e1735e787284d389769cff8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b597f6ac1b52f81ddc26d18e3fe0c6d16bae9515
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127238961"
 ---
 # <a name="vmr-filter-components"></a>Composants de filtre VMR
 

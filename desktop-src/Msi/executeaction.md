@@ -4,22 +4,22 @@ ms.assetid: c0cd93d6-dd52-43c7-8f99-c04db96e3239
 title: EXECUTEACTION, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ababa4aa0edcfbdf1072fd8b7bbe78a63f50bc7b782ee212c63baf4f63e26d4e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab58a304aef6bf94e14c1bf6b2f3b8c4970c5a9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091282"
 ---
 # <a name="executeaction-property"></a>EXECUTEACTION, propriété
 
 La propriété **ExecuteAction** est définie pour déterminer l’action de niveau supérieur lancée par l' [action EXECUTEACTION](executeaction-action.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions de niveau supérieur, telles que [action d’installation](install-action.md), [action de publication](advertise-action.md)et [action d’administration](admin-action.md) , définissent la propriété **EXECUTEACTION** sur le nom de l’action de niveau supérieur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

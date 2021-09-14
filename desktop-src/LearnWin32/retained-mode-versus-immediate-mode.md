@@ -5,11 +5,11 @@ ms.assetid: 0a98e8ee-4bc1-490c-867e-42bceae8a1f8
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6ec3b89cd300f957211a9d4990c35ccbb70fa2b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104565825"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094298"
 ---
 # <a name="retained-mode-versus-immediate-mode"></a>Mode de conservation et mode immédiat
 
@@ -29,9 +29,9 @@ Les API en mode mémorisé peuvent être plus simples à utiliser, car l’API e
 
 [Votre premier programme Direct2D](your-first-direct2d-program.md)
 
- 
+ 
 
- 
+ 
 
 
 

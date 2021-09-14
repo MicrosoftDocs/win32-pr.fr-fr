@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f65fec198a0784bf076eb90224318bd36a88ba3ed96258ffd2014a27da5c8f8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5905624bad252475cdde12c003f31a734e64dd2e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911268"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096006"
 ---
 # <a name="winbio_anti_spoof_policy_action-enumeration"></a>\_ \_ \_ Énumération des actions de stratégie anti-usurpation WINBIO \_
 
@@ -64,7 +64,7 @@ Supprime l’intégralité de la stratégie d’antiusurpation pour le facteur b
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

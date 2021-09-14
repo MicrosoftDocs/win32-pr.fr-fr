@@ -4,12 +4,12 @@ ms.assetid: 10e35d7f-06b8-427f-9309-167358ccbd6f
 title: Propriété AVEncAudioInputContent (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e5132e276d5e526e83a84415f50f22e4a6bce1bc985d830285825e4a1c72a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0a2006efa769169e0fe3debc7c025bc829a3586
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112014"
 ---
 # <a name="avencaudioinputcontent-property"></a>Propriété AVEncAudioInputContent
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncAudioInputContent**](/windows/win32/api/codecapi/ne-codecapi-eavencaudioinputcontent) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f287c1cf-c464-42a3-985d-f892db5e1f5f
 title: Référence ICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 209054d9c278ef28e685131157cfe6fd0951154fec88ab5a876d5898c3bf1722
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53c249692150923ebd7752c2c69e306ebcc69d2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946680"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021641"
 ---
 # <a name="ice-reference"></a>Référence ICE
 

@@ -4,12 +4,12 @@ ms.assetid: 2c2ef8b8-7bee-4cd8-ad87-b48d6a48aa0e
 title: EC_SCRUB_TIME (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d4d3cc09d286f6955dda30aeb77288b75e90e8c66777a5f9f16246507f64b45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 530362520f8e80ef06a769383f82dee1d60d66c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119686089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111097"
 ---
 # <a name="ec_scrub_time"></a>\_temps de nettoyage ce \_
 
@@ -41,7 +41,7 @@ Aucun.
 
 Le présentateur pour le filtre EVR ( [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) ) envoie ce message à EVR lorsqu’il termine une étape de trame.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

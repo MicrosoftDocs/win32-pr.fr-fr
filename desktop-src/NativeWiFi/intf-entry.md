@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: 8e93a9a0214e9ca46e6ae6872e0d341cd703ed9331622dfbc27bd5a949ece61c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e08efc8c95374f268efe21f963357e9c4f34ae35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011600"
 ---
 # <a name="intf_entry-structure"></a>\_Structure d’entrée INTF
 
@@ -276,7 +276,7 @@ Données binaires utilisées avec d’autres indicateurs de contrôle lors de la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure d' **\_ entrée INTF** est utilisée par les fonctions [**WZCQueryInterface**](wzcqueryinterface.md) et [**WZCRefreshInterface**](wzcrefreshinterface.md) .
 
@@ -300,7 +300,7 @@ Le membre *pData* pointe vers les données binaires. *DwDataLen* indique le nomb
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

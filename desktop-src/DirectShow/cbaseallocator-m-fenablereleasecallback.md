@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2fc1dfebb051ddffffce341547562901153b47bd5da002ebd847965593a73d93
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 626f1e8f4101eb48e79bc1cf679d1b91be9b2b31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010155"
 ---
 # <a name="cbaseallocatorm_fenablereleasecallback-member"></a>CBaseAllocator :: m \_ fEnableReleaseCallback, membre
 
@@ -36,7 +36,7 @@ BOOL m_fEnableReleaseCallback;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

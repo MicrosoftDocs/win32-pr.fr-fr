@@ -4,12 +4,12 @@ ms.assetid: dcc4db5c-0274-4a8a-89a4-66cda62e1520
 title: MFNETSOURCE_ENABLE_HTTP, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09d033594e223b8219f168e86d82ef02012bfafd4be9d758a438d042356735f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 004868c92962702b774a8f6c0a9b75708c5727b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117874765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313829"
 ---
 # <a name="mfnetsource_enable_http-property"></a>MFNETSOURCE \_ activer la \_ propriété http
 
@@ -31,13 +31,13 @@ VT \_
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ Enable \_ http** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

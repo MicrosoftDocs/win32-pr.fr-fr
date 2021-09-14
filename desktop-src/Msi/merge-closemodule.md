@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 83f0238a1e65a6c3551b7fea5262fe91d74705287aba0714dfbb4b3cc3a37976
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8688ae06cedca1e3b75290f7831f7d3539e3ec21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021349"
 ---
 # <a name="mergeclosemodule-method"></a>Merge. CloseModule, méthode
 
@@ -38,11 +38,11 @@ Merge.CloseModule()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fermeture d’un module de fusion n’affecte pas les erreurs qui n’ont pas été récupérées.
 
@@ -50,7 +50,7 @@ La fermeture d’un module de fusion n’affecte pas les erreurs qui n’ont pas
 
 Consultez fonction [**CloseModule**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closemodule) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

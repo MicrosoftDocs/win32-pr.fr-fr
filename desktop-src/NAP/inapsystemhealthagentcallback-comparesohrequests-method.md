@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3af26786c8ef021794876d8876ae5d8faee65b8cbbfc39b434b000ff502c64c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c6713f3de47cfbde6df67662f89ab3c094d0674
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118939434"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011645"
 ---
 # <a name="inapsystemhealthagentcallbackcomparesohrequests-method"></a>INapSystemHealthAgentCallback :: CompareSoHRequests, méthode
 
@@ -70,7 +70,7 @@ Pointeur vers un **booléen** qui a la **valeur true** si *LHS* et *RHS* sont s�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -85,7 +85,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode de rappel est déclarée par le système NAP et doit être implémentée par l’enregistreur SHA.
 
@@ -95,7 +95,7 @@ Si les Sha ont placé des ID incrémentiels ou des horodateurs dans leur SoH, le
 
 Si les utilisateurs de l’intégrité du système n’ont pas placé de datage ou d’ID dans leur SoHs, ils peuvent choisir de ne pas implémenter cette fonction et de retourner **E \_ NOTIMPL**. Dans ce cas, le NapAgent effectue une comparaison au niveau des octets sur [**SoHRequests**](/windows/win32/api/naptypes/ns-naptypes-soh).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

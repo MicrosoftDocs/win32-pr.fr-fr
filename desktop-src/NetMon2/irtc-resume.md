@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: f8b8cebaf14f5e6a42a938a8fe585934137a899f8afaeb2d28533c0c0cfa18b3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55e5cb66eecbee96df9573e9347d1f32e3508d2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021068"
 ---
 # <a name="irtcresume-method"></a>IRTC :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas capturées tant qu’un appel à la méthode [IRTC :: Resume](idelaydc-resume.md) n’a pas redémarré la capture.
 
@@ -64,7 +64,7 @@ Lorsque vous utilisez les méthodes **Pause** et **Resume** pour contrôler la c
 
 Pour arrêter la capture, appelez la méthode [IRTC :: Stop](irtc-stop.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

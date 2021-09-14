@@ -4,12 +4,12 @@ ms.assetid: fbf319bb-4e24-46e3-81bc-d407b26220fb
 title: Sélection d’une carte d’interface réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1f93341bb169f2672579ac6764186925b7190f1ac52c698e2426e1c20d3e854
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8315a97cc8457d86614fc25c87c39b1b9794c7fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021031"
 ---
 # <a name="selecting-a-network-interface-card"></a>Sélection d’une carte d’interface réseau
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca4a87e15d3810605038231eaec066e9f26ed079aca0d0715c72e7c69ed8d600
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c43abf137bb267468deeb9d4bd47546275ba6c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117799481"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011663"
 ---
 # <a name="inapsohprocessor-interface"></a>Interface INapSoHProcessor
 
@@ -54,7 +54,7 @@ L’interface **INapSoHProcessor** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

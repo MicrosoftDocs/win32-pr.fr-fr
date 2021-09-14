@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: cf9d6168f416d1bdab47a4c2952ac60ee7e67397
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324715"
 ---
 # <a name="systemmonitorlogfilename-property"></a>SystemMonitor. LogFileName, propriété
 
@@ -45,7 +45,7 @@ Property LogFileName As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Chemin d’accès au fichier journal. Vous pouvez spécifier un chemin d’accès absolu, relatif ou UNC. L’extension de nom de fichier journal doit être. csv,. TSV ou. BLG.
+Chemin d’accès au fichier journal. Vous pouvez spécifier un chemin d’accès absolu, relatif ou UNC. L’extension de nom de fichier journal doit être .csv,. TSV ou. BLG.
 
 ## <a name="exceptions"></a>Exceptions
 
@@ -68,7 +68,7 @@ La définition de cette propriété échoue si la collection [**LogFiles**](syst
 
 Vous devez utiliser l’outil Logman.exe ou le composant logiciel enfichable MMC Perfmon. msc pour générer les fichiers journaux que vous ajoutez à ce regroupement. Pour Perfmon. msc, les journaux de compteur se trouvent sous **journaux et alertes de performance**. Pour plus d’informations sur l’utilisation de Logman.exe ou Perfmon. msc, recherchez logman ou à l’aide de performances, respectivement, dans le **Centre d’aide et de support**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
 title: MFPKEY_TOTALFRAMES, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0a45c67bd457fc792af2f2f3d99f6cc346fe01dbebe735b9340c79ccc54fe27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfbdd02de8ae37918bb81691ad545b0cc3ebbca7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117872973"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313777"
 ---
 # <a name="mfpkey_totalframes-property"></a>MFPKEY \_ propriété TOTALFRAMES
 
@@ -23,11 +23,11 @@ Spécifie le nombre total de trames vidéo transmises à l’encodeur pendant le
 
 VT \_
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez récupérer cette valeur une fois que vous avez terminé de passer des exemples.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 345652b9da5ed5087793606d963d6cf9b8ce225587ee150c27f6410ae99b8d25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ff902e34e07ebd34edcb73797baa131eec8b222
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117808436"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093801"
 ---
 # <a name="allocate-attribute"></a>Allocate (attribut)
 
@@ -52,7 +52,7 @@ Spécifie un type défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **\[ allocate \]** a les options valides suivantes.
 

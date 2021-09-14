@@ -4,12 +4,12 @@ ms.assetid: f0199137-0a40-40ca-b3cf-ff8eef4309cc
 title: ICEM11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 157248d62f43a0b1a791220e2aeb917ba8273d31b93de69078f9876cddbd2748
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 403a36435ce2367fc356934740e6d022f5457698
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021422"
 ---
 # <a name="icem11"></a>ICEM11
 
@@ -17,7 +17,7 @@ ICEM11 vérifie qu’un module de fusion configurable répertorie la [table Modu
 
 ce ICEM est disponible dans le fichier Mergemod. cub fourni dans le kit de développement logiciel (SDK) Windows Installer 2,0 et versions ultérieures. pour plus d’informations, consultez [SDK Windows components for Windows Installer developers](platform-sdk-components-for-windows-installer-developers.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICEM11 publie une erreur si le module contient une table ModuleConfiguration ou ModuleSubstitution non listée dans le tableau ModuleIgnoreTable.
 
@@ -48,7 +48,7 @@ table. These tables must be listed in the ModuleIgnoreTable table.
 
 | Table de charge de travail   | Ligne              | Colonne | Valeur        |
 |---------|------------------|--------|--------------|
-| Contrôler | Dialog1; Control1 | Texte   | \[IconKey1\] |
+| Control | Dialog1; Control1 | Texte   | \[IconKey1\] |
 
 
 

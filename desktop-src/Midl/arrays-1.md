@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2e189eb1784a4ff24b799c7a4d4482d0f56b20e3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106527141"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093786"
 ---
 # <a name="arrays-attribute"></a>Array, attribut
 
@@ -67,18 +67,18 @@ Spécifie l’identificateur de type, le type de base, le [**struct**](struct.md
 *pointeur-decl* 
 </dt> <dd>
 
-Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé en C, construit à partir de l' **\*** indicateur, modificateurs tels que **Far** et le qualificateur [**const**](const.md).
+Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé en C, construit à partir de l' **\* *indicateur _, des modificateurs tels que _* Far** et le qualificateur [**const**](const.md).
 
 </dd> <dt>
 
 *déclarateur de tableau* 
 </dt> <dd>
 
-Spécifie le nom du tableau, suivi de l’une des constructions suivantes pour chaque dimension du tableau : «**\[ \]**», « **\[\*\]** », «**\[ ***Const1*** \]**» ou «**\[ ***Lower...*** Upper \]**», où *Lower* et *Upper* sont des valeurs constantes qui représentent les limites inférieure et supérieure. La constante *inférieure* doit être égale à zéro.
+Spécifie le nom du tableau, suivi de l’une des constructions suivantes pour chaque dimension du tableau : «**\[ \]**», « **\[\*\]** », « **\[** _Const1_ *_\]_* » ou « **\[** _Lower... Upper_ *_\]_* », où *Lower* et *Upper* sont des valeurs constantes qui représentent les limites inférieure et supérieure. La constante *inférieure* doit être égale à zéro.
 
 </dd> <dt>
 
-*tag* 
+*étiquette* 
 </dt> <dd>
 
 Spécifie une balise facultative pour la structure ou l’Union.
@@ -149,7 +149,7 @@ Les tableaux dans MIDL utilisent un style semblable à, mais pas exactement iden
 [Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
 </dt> <dt>
 
-[**tenir**](ignore.md)
+[**ignore**](ignore.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -185,15 +185,15 @@ Les tableaux dans MIDL utilisent un style semblable à, mais pas exactement iden
 [**transmettre \_ en tant que**](transmit-as.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

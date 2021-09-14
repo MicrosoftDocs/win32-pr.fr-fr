@@ -4,12 +4,12 @@ ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
 title: Message SFVM_GETDETAILSOF (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6fd850a3f500a1d259ebdcae9e5c549ef76a8eab0d5e1d14c1385fbba8d27ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6170c0fc8dc29435b2c6f2bb033f30706ccb7b33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118048448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296075"
 ---
 # <a name="sfvm_getdetailsof-message"></a>\_Message SFVM GETDETAILSOF
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**DETAILSINFO**](/windows/desktop/api/shlobj_core/n
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

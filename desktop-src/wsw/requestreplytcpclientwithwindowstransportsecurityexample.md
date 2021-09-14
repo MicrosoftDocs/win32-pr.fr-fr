@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa97da03ff62c704275d9f8094af40e34f49260fa5e13faf764559ebdf019ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4216a05010c2e0fbca8ea0968314c2b61f4c3a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119083183"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295815"
 ---
 # <a name="requestreplytcpclientwithwindowstransportsecurityexample"></a>RequestReplyTcpClientWithWindowsTransportSecurityExample
 

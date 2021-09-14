@@ -4,12 +4,12 @@ description: Un contrôle Slider, également appelé contrôle TrackBar, permet 
 ms.assetid: 8df4ed1d-d63c-49d7-94f1-df2113643484
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c23d92799a8a644d5e5e00c695d628cb827ba60f73cc3a0d7b7f5dc505a6c2c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b03c39d6638557b9dfff90740132d3e22a7e2511
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118564427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010619"
 ---
 # <a name="slider-control-msaa-ui-element-reference"></a>Slider, contrôle (référence des éléments d’interface utilisateur MSAA)
 

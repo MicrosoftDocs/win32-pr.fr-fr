@@ -9,12 +9,12 @@ keywords:
 - ASF (format des systèmes avancés), Guide de programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9de2bab3d832f97c59c7facf7904f3b5ac7cad932438fd53b0d03c32cf026d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f4ea4f6819a31693d7c9d149717324ef6dcc65a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117654387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295851"
 ---
 # <a name="windows-media-format-sdk-programming-guide"></a>Windows Guide de programmation du SDK Media format
 

@@ -4,12 +4,12 @@ ms.assetid: f36238dc-2152-4faf-835e-1027ef1af73b
 title: Propriété AVEncVideoOutputScanType (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31b2e5912b67a88249389987c5ac7e6796f611160d483527cdbb9e4165636180
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 908936c3277c429f7216c930b648083744793530
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111533"
 ---
 # <a name="avencvideooutputscantype-property"></a>Propriété AVEncVideoOutputScanType
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoOutputScanType**](/windows/win32/api/codecapi/ne-codecapi-eavencvideooutputscantype) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

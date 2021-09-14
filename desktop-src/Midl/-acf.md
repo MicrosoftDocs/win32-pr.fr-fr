@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37248ac346350f618eebc5ca81af144ecee91ce2acf40c39b9e980b574df4764
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e24d66982628fbd0052e8a3f573901c430e8b8b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118386126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093982"
 ---
 # <a name="acf-switch"></a>commutateur/ACF
 
@@ -38,7 +38,7 @@ Spécifie le nom du CCP. Un espace blanc peut ou non être présent entre le com
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, le compilateur MIDL construit le nom du CCP en remplaçant l’extension de nom de fichier IDL (généralement. idl) par. ACF. Quand le commutateur **/ACF** est présent, le CCP prend son nom à partir du nom de fichier spécifié. Le commutateur **/ACF** s’applique uniquement au fichier IDL spécifié sur la ligne de commande du compilateur MIDL. Elle ne s’applique pas aux fichiers importés.
 

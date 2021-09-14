@@ -4,12 +4,12 @@ description: Une procédure de fenêtre est simplement une fonction qui est appe
 ms.assetid: 2f03961e-a886-4947-8f5d-62543c6b8815
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b0cde27195ba0dfc16668da11beac243821902995a9d01daa337f8962944343
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e275833c30c612b5b40ab29d089d07ed7794b429
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094361"
 ---
 # <a name="managing-application-state"></a>Gestion de l’état de l’application
 

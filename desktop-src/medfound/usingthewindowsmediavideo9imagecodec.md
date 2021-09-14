@@ -4,12 +4,12 @@ ms.assetid: b77e955b-767b-4b64-9421-bacac9edf09c
 title: utilisation de la catégorie d’images Windows Media Video 9,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c630be78ec3edef1a47322b31f6a2331f15134a0cdffa4107b5a79daa86e9091
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44b545d37b61a1c89ffdd69615b28f636aa98b32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972628"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313630"
 ---
 # <a name="using-the-windows-media-video-91-image-category"></a>utilisation de la catégorie d’images Windows Media Video 9,1
 

@@ -4,12 +4,12 @@ description: 'les rubriques suivantes fournissent des informations sur les tâch
 ms.assetid: 310ad39a-35cd-452c-bb41-dd9eb84b1813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de307d065e2f6eb39c80936842cb4a281c51f0939ee72a476f2f2243c75b6bc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c00694fc033ec6f907ea5ff7571d5cda6555ccd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119772579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228882"
 ---
 # <a name="task-scheduler-10-task-information"></a>Informations sur la tâche Planificateur de tâches 1,0
 
@@ -37,7 +37,7 @@ Les rubriques suivantes fournissent des informations sur les tâches développé
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de l’Planificateur de tâches](about-the-task-scheduler.md)

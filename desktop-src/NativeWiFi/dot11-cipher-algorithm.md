@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: c99ef5b648c5503743de6f51ce7d035d75dbe1f3e5593d473a374813f4000566
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcbd61476458b5ed906ee57af6ab22b35f0378d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119780239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011611"
 ---
 # <a name="dot11_cipher_algorithm-enumeration"></a>\_Énumération de l’algorithme de chiffrement DOT11 \_
 
@@ -118,7 +118,7 @@ Spécifie la fin de la plage utilisée pour définir des algorithmes de chiffrem
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

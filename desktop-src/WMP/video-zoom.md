@@ -3,7 +3,7 @@ title: VIDEO. Zoom
 description: L’attribut zoom spécifie le pourcentage de mise à l’échelle de la vidéo.
 ms.assetid: 71c0e5a6-f7c4-46cf-a180-083d2926ba20
 keywords:
-- VIDEO. Zoom lecteur Windows Media
+- VIDEO. zoom Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 8b989cabcf84244976bda728d12c97697338f742
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525323"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010801"
 ---
 # <a name="videozoom"></a>VIDEO. Zoom
 
@@ -39,7 +39,7 @@ Si la **largeur** et la **hauteur** sont spécifiées et que la fenêtre vidéo 
 
 Si la propriété **shrinkToFit** a la valeur false, la vidéo change de proportion lors du zoom, pour s’adapter à l’espace disponible. Si **shrinkToFit** a la valeur true, la vidéo sera réduite pour s’ajuster à la dimension la plus restrictive, tout en conservant ses proportions d’origine.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

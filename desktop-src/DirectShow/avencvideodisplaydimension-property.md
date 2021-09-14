@@ -4,12 +4,12 @@ ms.assetid: db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d
 title: Propriété AVEncVideoDisplayDimension (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe4c6f6fbcd3f4746b4ee3b807ebb098c1bfce728c9c01614943f05351f5bb18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57e5f611525e68f6f47c442c6e733c6c3e7de14d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111657"
 ---
 # <a name="avencvideodisplaydimension-property"></a>Propriété AVEncVideoDisplayDimension
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Les 16 bits supérieurs de la valeur contiennent la largeur, en pixels. Les 16 bits inférieurs contiennent la hauteur, en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,15 +5,15 @@ title: AM_RATE_ReverseMaxFullDataRate, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a6e70a330433c8ea6e8116db944d8fb3d2ffff4d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112286"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>\_ \_ Propriété REVERSEMAXFULLDATARATE rate AM
 
-S’applique à Windows Vista et versions ultérieures.
+s’applique à Windows Vista et versions ultérieures.
 
 Retourne la vitesse de lecture inversée maximale du décodeur. La valeur de la propriété est la valeur absolue de la vitesse inversée maximale x 10000. Par exemple, si la vitesse inversée maximale est-2,0, la valeur de cette propriété est 20000.
 
@@ -33,11 +33,11 @@ Cette propriété est en lecture seule.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
-Les décodeurs qui prennent en charge la lecture inversée en douceur doivent exposer cette propriété. Pour plus d’informations, consultez [améliorations de la lecture de DVD dans Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
+Les décodeurs qui prennent en charge la lecture inversée en douceur doivent exposer cette propriété. pour plus d’informations, consultez [améliorations de la lecture de DVD dans Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

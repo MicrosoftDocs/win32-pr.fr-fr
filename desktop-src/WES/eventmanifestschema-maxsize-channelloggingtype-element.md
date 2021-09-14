@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 569b69cdfaf43cbb38382529e55565f19f0e398a2a7adb69d4d2860b36839b0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a27b2224a64eadf1637f3d2f7f44973f4614536
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324365"
 ---
 # <a name="maxsize-channelloggingtype-element"></a>maxSize (ChannelLoggingType) (élément)
 
@@ -32,7 +32,7 @@ Taille maximale, en octets, du fichier journal.
 
 L’élément **MaxSize** est défini par le type complexe [**ChannelLoggingType**](eventmanifestschema-channelloggingtype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

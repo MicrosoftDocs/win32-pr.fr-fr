@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ea38c08d051a2363699643f3b68ea5999fc5014c65716f974e3df6e6d83938
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f981b78dc2d9f152a4a7d1f40c4a2d1f120944b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324883"
 ---
 # <a name="glmultmatrixf-function"></a>glMultMatrixf fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glMultMatrix** multiplie la matrice actuelle par celle spécifiée dans *m*. Autrement dit, si M est la matrice actuelle et T est la matrice transmise à **glMultMatrix**, m est remplacé par m T.
 
@@ -83,7 +83,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glMultMatri
 
 matrice de texture **glGet** avec argument GL \_ \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

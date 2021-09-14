@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aba73244c3dc5217bcfe7350462200cd3226f0607c6d68ce5c6bcb8f5574b7df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2269464efb09e8c513ab2bdebb24744a6b32a671
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117943236"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011052"
 ---
 # <a name="comhandler-actiongroup-element"></a>Comgèrer (actionGroup) (élément)
 
@@ -49,11 +49,11 @@ L’élément **comgérer** est défini par [**actionGroup**](taskschedulerschem
 | Élément                                                               | Type                                                         | Description                                                       |
 |-----------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | [**ClassId**](taskschedulerschema-classid-comhandlertype-element.md) | [**guidType**](taskschedulerschema-guidtype-simpletype.md)  | Spécifie l’identificateur de la classe de gestionnaire.<br/>         |
-| [**Données**](taskschedulerschema-data-comhandlertype-element.md)       | [**Décimal**](taskschedulerschema-datatype-complextype.md) | Spécifie des données supplémentaires associées au gestionnaire.<br/> |
+| [**Données**](taskschedulerschema-data-comhandlertype-element.md)       | [**dataType**](taskschedulerschema-datatype-complextype.md) | Spécifie des données supplémentaires associées au gestionnaire.<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications définissent une action de gestionnaire COM à l’aide de l’interface [**IComHandlerAction**](/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction) .
 
@@ -79,7 +79,7 @@ Le code XML suivant définit une action de gestionnaire COM.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

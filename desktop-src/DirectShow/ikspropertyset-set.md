@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: f3669acb7f2d3049b909a4dc2c24363bf478c9b44ad0a91528e1e8ea466399fe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b233cea7e131919d94b00afeb5a6e2ea3703c738
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119639189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240708"
 ---
 # <a name="ikspropertysetset-method"></a>IKsPropertySet :: Set, méthode
 
@@ -87,7 +87,7 @@ Sise de la mémoire tampon *pPropData* , en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -103,7 +103,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. l’interface **IKsControl** , documentée dans le DirectShow DDK, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur.
@@ -112,7 +112,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 Vous devez inclure KS. h avant ksproxy. h.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

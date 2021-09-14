@@ -9,12 +9,12 @@ keywords:
 - radio.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b473bfaa960dd499fae7eb309d02ccbd693b70061d0975c58357bd72e9dcc410
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5271f3a87b32d27996f61e444723f537a09cb827
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010948"
 ---
 # <a name="radiocsv"></a>radio.csv
 
@@ -35,7 +35,7 @@ La colonne format dans le tableau ci-dessous décrit la façon dont chaque champ
 | Category           | Oui      | chaîne Unicode                                                                                                       | Non utilisé dans cette version. Doit être vide.                                                                                         |
 | Description        | Non       | Chaîne Unicode. Exemple : Upbeat-friendly Music pour les artistes ayant essayé et réel qui ne déçu pas.<br/> | Description conviviale de l’affichage dans les pages de propriétés. Il est recommandé de ne pas dépasser 256 caractères.                   |
 | Popularité         | Oui      | Entier non négatif ou valeur décimale. Exemple : 31<br/>                                                         | Classement de la popularité parmi les alimentations radio. Peut avoir la valeur 0.                                                                                    |
-| StarRating         | Non       | Float. exemple : 3,21<br/>                                                                                       | Facultatif. La valeur, généralement comprise entre 0 et 5, est arrondie au 1/4 le plus proche pour l’affichage dans l’interface utilisateur.                   |
+| StarRating         | Non       | Float. exemple : 3,21<br/>                                                                                       | Optionnel. La valeur, généralement comprise entre 0 et 5, est arrondie au 1/4 le plus proche pour l’affichage dans l’interface utilisateur.                   |
 | IsSubscriptionOnly | Oui      | Propriété booléenne. Peut avoir la valeur 0 ou 1.                                                                                              | Indique si le flux est disponible par abonnement uniquement.                                                                      |
 | IsRecentlyAdded    | Oui      | Propriété booléenne. Peut avoir la valeur 0 ou 1.                                                                                              | Indique si ce flux a été ajouté récemment.                                                                                    |
 | IsFeatured         | Oui      | Propriété booléenne. Peut avoir la valeur 0 ou 1.                                                                                              | Indique si le flux est en vedette.                                                                                            |

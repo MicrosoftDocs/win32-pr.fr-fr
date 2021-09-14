@@ -4,12 +4,12 @@ ms.assetid: 2bba1068-ae03-4388-be4d-9865e42e440e
 title: Création d’un objet d’application en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a434bb87d064a7fe19698e78565577238f75051fbf233e36ddf2da1725987c06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86885124e2fff52bc5cce2260e3d7fb727b58eb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096105"
 ---
 # <a name="creating-an-application-object-in-c"></a>Création d’un objet d’application en C++
 

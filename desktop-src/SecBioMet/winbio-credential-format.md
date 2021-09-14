@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82185bdb9d8170abbdba04e758010443dc8be6a37e198edb27a137024dacf9af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa28ea56c7af9f78947e64587740300a70f763ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011156"
 ---
 # <a name="winbio_credential_format-enumeration"></a>\_Énumération du format des informations d’identification WINBIO \_
 
@@ -63,7 +63,7 @@ Les informations d’identification du mot de passe ont été encapsulées avec 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

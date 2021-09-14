@@ -4,12 +4,12 @@ ms.assetid: 05a6b036-1f7f-473f-9813-a1e1534e0f0d
 title: Contextes de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c843889df6aec3f82e8cb8516a7c23ccbf7a6de9957f9a0c572f6e6ca63ac75d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53103dc1269c05e5a2c162133d21e167d8035c2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916678"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096334"
 ---
 # <a name="stream-contexts"></a>Contextes de flux
 

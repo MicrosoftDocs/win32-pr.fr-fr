@@ -4,12 +4,12 @@ ms.assetid: a37d9371-0d9f-44a8-b8b3-9fbfcfad1a51
 title: Attribut MF_MT_DV_AAUX_SRC_PACK_0 (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34161ac9c5fbc21249fc15c4f97de6390e62581666b28001acc2fd621f5377e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19f37f7f6110f6a04f025864e95488782b855128
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314009"
 ---
 # <a name="mf_mt_dv_aaux_src_pack_0-attribute"></a>\_ \_ \_ \_ Attribut Pack 0 de SRC MT DV AAUX SRC \_ Pack \_ 0
 
@@ -19,13 +19,13 @@ Pack source audio auxiliaire (AAUX) pour le premier bloc audio dans un type de m
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet attribut correspond au membre **dwDVAAuxSrc** de la structure [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) DirectShow.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

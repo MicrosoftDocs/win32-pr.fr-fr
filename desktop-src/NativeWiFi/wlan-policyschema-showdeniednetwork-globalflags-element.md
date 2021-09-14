@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 04c6c95f9c9db4c6b88a5258ced4b272947a932342a82d380be36210c3196521
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33049dad00e5fda22e3f739d3dc200a282481a8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110393"
 ---
 # <a name="showdeniednetwork-globalflags-element"></a>Élément showDeniedNetwork (globalFlags)
 
@@ -33,7 +33,7 @@ Cet élément est obligatoire. Lorsqu’un profil est créé par le service de c
 
 L’élément **showDeniedNetwork** est défini par l’élément [**globalFlags**](wlan-policyschema-globalflags-wlanpolicy-element.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

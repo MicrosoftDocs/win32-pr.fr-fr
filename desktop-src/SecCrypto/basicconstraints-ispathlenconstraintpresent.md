@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c6faf267508476f423efaff6b012a25114eca25e7bc21c51c51b9a3e66dde802
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9809b6747bac548b14b37384719dbe2660188582
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324759"
 ---
 # <a name="basicconstraintsispathlenconstraintpresent-property"></a>BasicConstraints. IsPathLenConstraintPresent, propriété
 
@@ -39,7 +39,7 @@ BasicConstraints.IsPathLenConstraintPresent As Boolean
 
 Si la **valeur est true**, la contrainte de longueur de chemin d’accès est présente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

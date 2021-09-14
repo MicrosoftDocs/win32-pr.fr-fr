@@ -5,11 +5,11 @@ title: Propriété AVEncDDDynamicRangeCompressionControl (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dc60b15344b3d141eaad415a1399c3cd31d15bad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111897"
 ---
 # <a name="avencdddynamicrangecompressioncontrol-property"></a>Propriété AVEncDDDynamicRangeCompressionControl
 
@@ -29,14 +29,14 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncDDDynamicRangeCompressionControl**](/windows/win32/api/codecapi/ne-codecapi-eavencdddynamicrangecompressioncontrol) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

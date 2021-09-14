@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e1e9cd15c1b219d07518c9630880a5010226c96c63d57539ffb66fab3a6c02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39a9e44de464f58fd1ffc0606551b9a0203ae9e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643093"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093645"
 ---
 # <a name="dual-attribute"></a>dual (attribut)
 
@@ -61,7 +61,7 @@ Nom de l’interface à laquelle l’attribut **double** sera appliqué.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les interfaces identifiées par l’attribut **double** doivent être compatibles avec l’automatisation et être dérivées de [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). Cet attribut n’est pas autorisé sur les dispinterfaces.
 

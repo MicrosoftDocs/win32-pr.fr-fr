@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9435be90761abf88927789fad4380172f0ef6f31427848195d3aa14ea4112cf2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f92eba7f0f585b9bbff7a8eb52ab13ec0d74aaa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747395"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010976"
 ---
 # <a name="playermediacollectionattributestringchanged-event"></a>Événement Player. MediaCollectionAttributeStringChanged
 
@@ -65,11 +65,11 @@ Player.MediaCollectionAttributeStringChanged(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand un utilisateur modifie des métadonnées de bibliothèque, l’objet **MediaCollection** est mis à jour et cet événement se déclenche pour chaque attribut modifié.
 
@@ -77,7 +77,7 @@ la valeur des paramètres d’événement est spécifiée par Lecteur Windows Me
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

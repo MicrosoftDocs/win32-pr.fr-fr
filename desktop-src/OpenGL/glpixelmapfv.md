@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e447e471f1a37f4d0c8c6bd8fb3ce548bb5657e49afafa01e785b0870ebdd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97124eeca8051ec23d9a4fea03a98468d320af8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118938354"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324850"
 ---
 # <a name="glpixelmapfv-function"></a>glPixelMapfv fonction)
 
@@ -101,7 +101,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glPixelMap** définit les tables de traduction, ou *Maps*, utilisées [**par glCopyPixels**](glcopypixels.md), [**glCopyTexImage1D**](glcopyteximage1d.md), [**glCopyTexImage2D**](glcopyteximage2d.md), [**glCopyTexSubImage1D**](glcopytexsubimage1d.md), [**glCopyTexSubImage2D**](glcopytexsubimage2d.md), [**glDrawPixels**](gldrawpixels.md), [**glReadPixels**](glreadpixels.md), [**glTexImage1D**](glteximage1d.md), [**glTexImage2D**](glteximage2d.md), [**glTexSubImage1D**](gltexsubimage1d.md)et [**glTexSubImage2D**](gltexsubimage2d.md). L’utilisation de ces mappages est décrite entièrement dans la rubrique [**glPixelTransfer**](glpixeltransfer.md) , et en partie dans les rubriques relatives aux commandes de pixels et d’images de texture. Seule la spécification des mappages est décrite dans cette rubrique.
 
@@ -122,11 +122,11 @@ Le tableau suivant indique les tailles et les valeurs initiales de chaque mappag
 | \_ \_ carte de pixels GL \_ I \_ à \_ R | index des couleurs   | R             | 1            | 0.0           |
 | \_ \_ carte de pixels GL \_ I \_ à \_ G | index des couleurs   | G             | 1            | 0.0           |
 | \_ \_ carte de pixels GL \_ I \_ à \_ B | index des couleurs   | B             | 1            | 0.0           |
-| \_ \_ carte de pixels GL \_ I \_ à \_ A | index des couleurs   | A             | 1            | 0.0           |
+| \_ \_ carte de pixels GL \_ I \_ à \_ A | index des couleurs   | Un             | 1            | 0.0           |
 | \_ \_ carte de pixels GL \_ r \_ vers \_ r | R             | R             | 1            | 0.0           |
 | \_ \_ carte de pixels GL \_ g \_ à \_ g | G             | G             | 1            | 0.0           |
 | \_ \_ carte de pixels GL \_ b \_ à \_ b | B             | B             | 1            | 0.0           |
-| \_mappage de pixel GL \_ \_ a \_ à \_ un | A             | A             | 1            | 0.0           |
+| \_mappage de pixel GL \_ \_ a \_ à \_ un | Un             | A             | 1            | 0.0           |
 
 
 
@@ -156,7 +156,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glPixelMap*
 
 **glGet** avec argument table de la \_ carte de pixels max. GL \_ \_ \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

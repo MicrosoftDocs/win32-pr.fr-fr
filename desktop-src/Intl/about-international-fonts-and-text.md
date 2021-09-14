@@ -4,12 +4,12 @@ ms.assetid: a47303b5-f49b-4d6c-b061-9d6475530e83
 title: Gestion des polices internationales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4c44661b234a95abb4d40f2204382b3d074bf1d7c0bb1c68a241345211695f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96ade599577f97c696d3205e32bfaaca106ddaae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120083049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240486"
 ---
 # <a name="international-font-management"></a>Gestion des polices internationales
 

@@ -4,12 +4,12 @@ ms.assetid: 97707ce7-4c65-4d0e-ba69-47fdaee73a9b
 title: Fonctions globales et locales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a71d7832f90a420e6be87fe6599cc8c9e4722ddf45b789663ed9b39eab4e5449
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf356647f92f0e7d82e914a91020c438363ff082
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094138"
 ---
 # <a name="global-and-local-functions"></a>Fonctions globales et locales
 

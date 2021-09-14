@@ -4,12 +4,12 @@ ms.assetid: a350f25a-7cda-4879-82d1-151a3da7d8ec
 title: Création d’un magasin de stratégies d’autorisation en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90eeb30fd1e66bc69760f8bf3d714419fe818dbda06c1b8e2eb059aeb579ca74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1fdff3ba26457510440c8d0e603bc993a4878281
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782525"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096086"
 ---
 # <a name="creating-an-authorization-policy-store-in-c"></a>Création d’un magasin de stratégies d’autorisation en C++
 

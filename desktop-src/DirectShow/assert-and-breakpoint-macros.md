@@ -5,15 +5,15 @@ title: Macros Assert et Breakpoint
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d4771fb7e302ec9e1093fca82d7842212e0b68e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109734"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112198"
 ---
 # <a name="assert-and-breakpoint-macros"></a>Macros Assert et Breakpoint
 
-Les [classes de base DirectShow](directshow-base-classes.md) fournissent plusieurs macros qui effectuent des assertions ou génèrent des points d’arrêt.
+les [Classes de Base DirectShow](directshow-base-classes.md) fournissent plusieurs macros qui effectuent des assertions ou génèrent des points d’arrêt.
 
 
 

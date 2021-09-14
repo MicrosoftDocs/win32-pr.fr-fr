@@ -4,12 +4,12 @@ ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: élément faultInfo
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 921a7dedfffbe7bfb3e402775258636ed9ccd3e74c72d65a5c76cea40d7ed4b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e3788af9aeb31d1ed84522bc6b177143ec0607b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119049677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010364"
 ---
 # <a name="faultinfo-element"></a>élément faultInfo
 
@@ -42,7 +42,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs possibles sont 1 (paramètres d’erreur inclus) et 0 (paramètres d’erreur exclus). Par défaut, les paramètres d’erreur sont exclus.
 

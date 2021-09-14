@@ -4,12 +4,12 @@ ms.assetid: d32c4a03-59e8-4fdd-9d5a-e7ef0eb25e84
 title: prise en charge de l’API Wifi Native sur Windows XP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc284ed24a6aa6ddb266b410a6233c15e063bf909aa9c82f0afa3dc070c9289
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4cd422c6589b37f516b9d45d072489c9d5e00b82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021138"
 ---
 # <a name="native-wifi-api-support-on-windows-xp"></a>prise en charge de l’API Wifi Native sur Windows XP
 

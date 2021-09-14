@@ -248,7 +248,7 @@ Enfin, n’oubliez pas de définir le curseur lorsque la fenêtre reçoit un mes
 
 
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 Dans ce module, vous avez appris à gérer l’entrée au clavier et à la souris. Comment définir des raccourcis clavier ; et comment mettre à jour l’image de curseur pour refléter l’état actuel du programme.
 

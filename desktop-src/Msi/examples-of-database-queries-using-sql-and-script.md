@@ -4,12 +4,12 @@ ms.assetid: aa38dbe5-411d-432e-b3fe-09994fc59c75
 title: exemples de requêtes de base de données utilisant des SQL et des scripts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f137927ba47c4fae5eef4534b7dfab1fa5c8fa1af2ba28d27669cc4605f836b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbd839151b40ddd5e9a265c6c370c27a4a9fd125
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091302"
 ---
 # <a name="examples-of-database-queries-using-sql-and-script"></a>exemples de requêtes de base de données utilisant des SQL et des scripts
 
@@ -51,7 +51,7 @@ Cela insère l’enregistrement suivant dans la table des [fonctionnalités](fea
 
 
 
-| Fonctionnalité | Parent de la fonctionnalité \_ | Titre  | Description | Affichage | Niveau | Répertoire\_ | Attributs |
+| Fonctionnalité | Parent de la fonctionnalité \_ | Intitulé  | Description | Affichage | Level | Répertoire\_ | Attributs |
 |---------|-----------------|--------|-------------|---------|-------|-------------|------------|
 | Tennis  | Sport           | Tennis | Oppos  | 25      | 3     | SPORTDIR    | 2          |
 

@@ -4,12 +4,12 @@ ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: Entrées de Registre (authentification)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 388cbe42d085543d5e7d4df1c9705504864b370cf94eb32f4025eaba12b89ea8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d50b413d99d2bc31a7af4e8e101ab27e51a8892
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118919445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229079"
 ---
 # <a name="registry-entries-authentication"></a>Entrées de Registre (authentification)
 

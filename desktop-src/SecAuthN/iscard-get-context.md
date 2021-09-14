@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 82094d51912031655585cacde0b156451107276bc08ca1be6dc6d82bdbb3229d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b5aba075d755b644a78cca23a827a70966f4ffd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011263"
 ---
 # <a name="iscardget_context-method"></a>ISCard :: obtient le \_ contexte, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers le handle de contexte lors du retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -64,7 +64,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contexte du gestionnaire de ressources est défini en appelant la fonction de [*carte à puce*](../secgloss/s-gly.md) [**SCardEstablishContext**](/windows/desktop/api/Winscard/nf-winscard-scardestablishcontext).
 
@@ -91,7 +91,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

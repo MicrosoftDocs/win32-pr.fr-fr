@@ -4,12 +4,12 @@ description: Lorsque l’utilisateur ferme une fenêtre, cette action déclenche
 ms.assetid: f0449f11-0569-4a3a-92bc-bced7e0db516
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aaf6922f730e63fa9ab38a8f6baa9009dabf77b2ffeddc2117dcd09ffc08a9b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6422966d6b0351654632a1c77b7ebf07e2b5ffef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119328783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094430"
 ---
 # <a name="closing-the-window"></a>Fermeture de la fenêtre
 

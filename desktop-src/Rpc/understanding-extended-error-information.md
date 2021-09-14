@@ -4,12 +4,12 @@ description: Les informations d’erreur étendues sont un tableau d’enregistr
 ms.assetid: 1b112e49-bdb2-4014-b86d-3c6d8ebe4fcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e003214198b06f04479ec4c1a8d23cb1acedafda49eefcf2880741416901323e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b2918caa446f7cee9c4eaa609a5713c9cb385e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011389"
 ---
 # <a name="understanding-extended-error-information"></a>Description des informations d’erreur étendues
 

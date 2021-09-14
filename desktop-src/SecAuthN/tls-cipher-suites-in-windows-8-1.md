@@ -3,13 +3,13 @@ description: Suites de chiffrement TLS dans Windows 8.1
 ms.assetid: 48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C
 title: Suites de chiffrement TLS dans Windows 8.1
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 316dc649379f785662d1d818d0af11d882c33f1236113a0c8a8f71458b7e964b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.date: 09/10/2021
+ms.openlocfilehash: 448473f237a84263239013d833af30ebbfe3ca8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096274"
 ---
 # <a name="tls-cipher-suites-in-windows-81"></a>Suites de chiffrement TLS dans Windows 8.1
 

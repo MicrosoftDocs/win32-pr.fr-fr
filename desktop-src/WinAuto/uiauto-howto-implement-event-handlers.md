@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment impl�
 ms.assetid: 6b6549b8-795b-45a8-8fef-59842cc990e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09448bd9088b8338e9de14079b2ee446bf43f4e2c41e15ce17114eda958ed210
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 159e95e739ae73f1c37d99ae065032fd680f0720
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010509"
 ---
 # <a name="how-to-implement-event-handlers"></a>Comment implémenter des gestionnaires d’événements
 
@@ -637,7 +637,7 @@ cleanup:
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Abonnement à des événements UI Automation](uiauto-eventsforclients.md)

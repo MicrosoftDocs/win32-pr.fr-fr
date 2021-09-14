@@ -4,12 +4,12 @@ ms.assetid: cd342f0f-a3dc-4623-a18f-c45071795ef4
 title: DMO Configuration minimale requise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7acc4f664d32112512120f2f20687051a0bff193e00adb7ad595e6975c522fce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a1c26267f50619062fb8396f93b7578db4d3d8c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119749139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324923"
 ---
 # <a name="dmo-minimum-requirements"></a>DMO Configuration minimale requise
 

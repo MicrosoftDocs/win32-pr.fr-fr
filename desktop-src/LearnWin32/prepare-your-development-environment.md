@@ -4,12 +4,12 @@ description: Préparer votre environnement de développement
 ms.assetid: 5a3fd27e-ec8f-41eb-9d31-86d6d9f70862
 ms.topic: article
 ms.date: 10/03/2019
-ms.openlocfilehash: 8245326ba0d7862836336cf050eb3abf1873139873bde8b9bab238ff5a738942
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec42509ea81efce4bb17365d3bf08d36c2a4f415
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094310"
 ---
 # <a name="prepare-your-development-environment"></a>Préparer votre environnement de développement
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da899207456cece58216874c7540a032326e4180e9484590e2effd619eea72f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b23162f8606ed68dc90a0cb6debdcc903e0ccd0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118614333"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229398"
 ---
 # <a name="glstencilop-function"></a>glStencilOp fonction)
 
@@ -95,7 +95,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le stencil, tel que la mise en mémoire tampon *z*, permet d’activer et de désactiver le dessin par pixel. Vous dessinez dans les plans de stencil à l’aide de primitives de dessin OpenGL, puis vous affichez la géométrie et les images à l’aide des plans de gabarit pour masquer des parties de l’écran. Le stencil est généralement utilisé dans les algorithmes de rendu multipasses pour obtenir des effets spéciaux, tels que les décalques, le mode plan et le rendu de géométrie solide constructive.
 
@@ -121,7 +121,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glStencilOp
 
 [**glIsEnabled**](glisenabled.md) avec l’argument \_ test de stencil du GL \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bf60fab7-866b-4659-8316-653509ac5112
 title: Formats de persistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1853dc316d25395a30a15b02734ea4b7ed901b92379e04faa42f5abe5e768af5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7a8edd88a4b170d2299832a205d80dc6704aea66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119596639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296043"
 ---
 # <a name="persistence-formats"></a>Formats de persistance
 

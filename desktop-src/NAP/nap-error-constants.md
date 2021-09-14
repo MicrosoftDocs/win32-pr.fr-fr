@@ -30,12 +30,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 411500ea5f0fc3ba0f1d4067a6befe902a81af3154c91e76c36425c289616eb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b871d6f00174f05ab580aad54395851fa70af877
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118620838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110589"
 ---
 # <a name="nap-error-constants"></a>Constantes d’erreur NAP
 
@@ -310,7 +310,7 @@ Le SHV a expiré sur la demande.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

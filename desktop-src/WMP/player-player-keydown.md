@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a067e0125bea6bcabec591d6c1f3ec6fc5a2ee1b0d649a02009690c89d68952e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 226430421977a58eca02b7a42cf0349f2a5ff520
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010989"
 ---
 # <a name="playerkeydown-event"></a>Player. KeyOut, événement
 
@@ -57,11 +57,11 @@ Player.KeyDown(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’argument *nKeyCode* spécifie une clé physique. Les tableaux suivants indiquent les valeurs possibles pour les clés principales sur un clavier standard.
 
@@ -135,7 +135,7 @@ la valeur des paramètres d’événement est spécifiée par Lecteur Windows Me
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

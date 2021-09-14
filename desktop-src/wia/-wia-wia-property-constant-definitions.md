@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6539e14daf6a1fc124c177713f3056b981fd6c00ac9a41392ed03ae8759319cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fec89e2e10b019b7186482609d3ab4089ede692
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127295966"
 ---
 # <a name="wia-property-constant-definitions"></a>Définitions de constantes de propriété WIA
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1de8bcbd0eb47f03aaff46b4292a8afe226ca8a221ec570537351af8e509801
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e96f4a93882e02589d7f15b74ba5cb225f506d69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010780"
 ---
 # <a name="viewbackgroundimage"></a>VIEW. backgroundImage
 
@@ -31,13 +31,13 @@ L’attribut **BackgroundImage** spécifie ou récupère l’image d’arrière-
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les formats pris en charge sont BMP, JPG, GIF et PNG. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **backgroundImageHueShift** et **backgroundImageSaturation** .
 
 dans un package Windows Media Download, si vous spécifiez l’attribut **backgroundImage** pour un élément **VIEW** , vous devez également spécifier l’attribut **backgroundColor** pour cet élément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 10f3e0dd09b37821a00f2c10f99c0ea6d509ff388e9d7394a8b2c4958438f979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bec068622683172116bf8c4f6e88450d5752920
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118364844"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110353"
 ---
 # <a name="labeled_dword-structure"></a>\_Structure DWORD étiquetée
 
@@ -54,11 +54,11 @@ Description textuelle ou étiquette qui s’affiche lorsque la valeur DWORD spé
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le membre **lpLabeledDwordTable** de la structure [Set](set.md) pointe vers un tableau de structures d' **ensemble** qui définissent un ou plusieurs membres **étiquette** des paires valeur DWORD. Les paires sont utilisées lorsque vous souhaitez afficher une étiquette à la place d’une valeur DWORD spécifique trouvée dans le paquet de protocole.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

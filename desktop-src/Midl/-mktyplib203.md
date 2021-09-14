@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc887560401986b9a7d5e0f0aa7c8b36d61874bf245a88ade7a149cd084f1ee3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84e8fd972355c2f6d37300c60f4bf74e76bf4396
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119014147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093906"
 ---
 # <a name="mktyplib203-switch"></a>commutateur/mktyplib203
 
@@ -31,7 +31,7 @@ midl /mktyplib203
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour pouvoir utiliser le commutateur **/mktyplib203** , le fichier d’entrée doit respecter la syntaxe ODL exactement, ce qui signifie que vous ne pouvez pas placer d’instructions en dehors du bloc de bibliothèque. Exemples
 

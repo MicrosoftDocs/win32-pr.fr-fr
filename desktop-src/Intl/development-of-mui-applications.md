@@ -4,12 +4,12 @@ ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: Développement d’applications MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32cc647069577a2ff3b137573b85308aa66e685df2310c2ea01973d19d1dc0d0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb4a3278b4cc70969c1aa968de895d99fd3363a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240377"
 ---
 # <a name="development-of-mui-applications"></a>Développement d’applications MUI
 

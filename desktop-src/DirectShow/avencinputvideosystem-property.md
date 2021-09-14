@@ -4,12 +4,12 @@ ms.assetid: a4ad7ca2-bab0-42f7-a098-a5ff6853b109
 title: Propriété AVEncInputVideoSystem (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28970a5f4312503fa6a2c5f1e81d29ef7028ea3e7c214ffe08bb9e6729af4fcc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8012b814a50f7c543b2b72682871fe29545d4b80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111821"
 ---
 # <a name="avencinputvideosystem-property"></a>Propriété AVEncInputVideoSystem
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncInputVideoSystem**](/windows/desktop/api/codecapi/ne-codecapi-eavencinputvideosystem) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

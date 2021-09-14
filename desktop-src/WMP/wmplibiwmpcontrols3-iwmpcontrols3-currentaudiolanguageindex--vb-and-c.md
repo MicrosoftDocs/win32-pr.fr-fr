@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c5e17c40908dbc76c61fe60c1b3d885b709d7b1e9282136957e0617ae52ea7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4fb36eea4038322cacd7f233892151ab77e5eea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010744"
 ---
 # <a name="iwmpcontrols3currentaudiolanguageindex-property"></a>IWMPControls3 :: currentAudioLanguageIndex, propriété
 
@@ -48,13 +48,13 @@ Public Property currentAudioLanguageIndex As System.Int32
 
 **System. Int32** qui est l’index de base un de la langue.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour le contenu multimédia Windows, les propriétés et les méthodes associées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
 Utilisez la propriété **audioLanguageCount** pour connaître le nombre de langues audio prises en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

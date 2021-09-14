@@ -4,12 +4,12 @@ ms.assetid: d959769d-113f-4af2-89d4-ad3f5322de33
 title: Table MsiShortcutProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d7cf51d8016cdc87008a6cc9a20daee1f35131af7ea0f5827c67da7f45a6e46
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f295feabd6ff9b1677fdcf47791959b0fbb8a920
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944426"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021311"
 ---
 # <a name="msishortcutproperty-table"></a>Table MsiShortcutProperty
 
@@ -24,7 +24,7 @@ La table MsiShortcutProperty contient les colonnes suivantes.
 | Colonne              | Type                         | Clé | Nullable |
 |---------------------|------------------------------|-----|----------|
 | MsiShortcutProperty | [Identificateur](identifier.md) | O   | N        |
-| Gestionnaires\_          | [Identificateur](identifier.md) | N   | N        |
+| Raccourci\_          | [Identificateur](identifier.md) | N   | N        |
 | PropertyKey         | [Correct](formatted.md)   | N   | N        |
 | PropVariantValue    | [Correct](formatted.md)   | N   | N        |
 
@@ -68,7 +68,7 @@ Plusieurs propriétés peuvent être définies sur un raccourci. Si la même pro
 
 Windows Le programme d’installation peut définir des propriétés de raccourci uniquement lorsque le raccourci est installé ou réinstallé. Un correctif qui ne réinstalle pas un raccourci qui a déjà été installé ne met pas à jour les propriétés du raccourci. Un correctif peut mettre à jour les propriétés en incluant un tableau de [raccourcis](shortcut-table.md) dans le package correctif et en réinstallant le raccourci.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 [Windows Installer Message d’erreur](windows-installer-error-messages.md) 1946 est retourné en tant qu’avertissement et l’installation se poursuit, si Windows Installer ne parvient pas à définir une propriété de raccourci spécifiée dans la table MsiShortcutProperty.
 

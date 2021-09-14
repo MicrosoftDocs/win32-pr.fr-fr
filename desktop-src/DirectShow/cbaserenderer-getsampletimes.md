@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2d759cbcf2a9638b54e6194bcac7e7b24254c0d37987995d511fb4ffce85f1ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c389c2ea55ddb15c59fe30e03f392d68aa3b5ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111313"
 ---
 # <a name="cbaserenderergetsampletimes-method"></a>Méthode CBaseRenderer. GetSampleTimes
 
@@ -65,7 +65,7 @@ Pointeur vers une variable qui reçoit l’heure de fin.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -82,13 +82,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre appelle cette méthode pour déterminer comment il doit gérer un exemple. Si la valeur de retour est \_ OK, le filtre restitue l’exemple immédiatement. Si la valeur de retour est \_ false, le filtre planifie l’exemple de rendu en fonction des horodatages. Si la valeur de retour est un code d’erreur, le filtre rejette l’exemple.
 
 Cette méthode retourne S \_ OK si l’exemple n’a pas de datage ou si le filtre n’a pas d’horloge de référence. Sinon, elle retourne la valeur de la méthode [**CBaseRenderer :: ShouldDrawSampleNow**](cbaserenderer-shoulddrawsamplenow.md) . Dans la classe de base, **ShouldDrawSampleNow** retourne toujours S \_ false. La classe dérivée peut substituer ce comportement. Par exemple, si la classe dérivée implémente la gestion du contrôle de qualité, elle peut retourner E \_ Fail pour supprimer un exemple.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

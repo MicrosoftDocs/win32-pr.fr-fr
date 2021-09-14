@@ -1,9 +1,9 @@
 ---
 title: VUE. returnToMediaCenter
-description: La méthode returnToMediaCenter renvoie l’utilisateur au mode complet du lecteur Windows Media.
+description: la méthode returnToMediaCenter retourne l’utilisateur au mode complet de Lecteur Windows Media.
 ms.assetid: eebf0679-5704-498c-8eb3-f7710e0cb1fe
 keywords:
-- AFFICHER. returnToMediaCenter lecteur Windows Media
+- affichage. returnToMediaCenter Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,15 +14,15 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 9c5f0c86bdd15140ba92261d1f5e8c510d77afc7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010767"
 ---
 # <a name="viewreturntomediacenter"></a>VUE. returnToMediaCenter
 
-La méthode **returnToMediaCenter** renvoie l’utilisateur au mode complet du lecteur Windows Media.
+la méthode **returnToMediaCenter** retourne l’utilisateur au mode complet de Lecteur Windows Media.
 
 ``` syntax
         elementID.returnToMediaCenter()
@@ -51,7 +51,7 @@ Cette méthode ne retourne pas de valeur.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

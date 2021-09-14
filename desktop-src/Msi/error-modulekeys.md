@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 9d33b546bea909700cc1a737043947d980006764daa86771820740570adf7f80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53d2ac37f8864318a83c13672c081ed5dea42b0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091345"
 ---
 # <a name="errormodulekeys-property"></a>Error. ModuleKeys, propriété
 
@@ -38,7 +38,7 @@ propVal = Error.ModuleKeys
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le client est responsable de la libération de la collection de chaînes lorsqu’il n’est plus nécessaire.
 
@@ -48,7 +48,7 @@ La collection est vide si les valeurs ne s’appliquent pas au type de l’erreu
 
 Consultez la fonction [**obtenir \_ ModuleKeys**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_modulekeys) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 22e8c6118914c791e04226dfa11d2c3bd9548368
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324233"
 ---
 # <a name="visual-ui-automation-verify"></a>Vérification de l’interface utilisateur Visual Automation
 

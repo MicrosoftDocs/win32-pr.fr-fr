@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 4ca5751128714e137e9fe3d46351b28f1383cd79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236495"
 ---
 # <a name="transactionbegin-method"></a>Transaction. Begin, méthode
 
@@ -55,7 +55,7 @@ public void Begin()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [classe de transaction](./transaction-class.md)
 

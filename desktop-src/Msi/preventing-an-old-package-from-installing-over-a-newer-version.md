@@ -4,12 +4,12 @@ ms.assetid: f46e82bd-70b3-46a2-8246-a1eadfdc589d
 title: Empêcher l’installation d’un ancien package sur une version plus récente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e992cc1e32d2b25e5af587c00ca4f8ee28e4b09fd3100cb12b382ae90f8c1d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 320ab062c4ffbc740d85c59ece3d3baaa63f4209
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110978"
 ---
 # <a name="preventing-an-old-package-from-installing-over-a-newer-version"></a>Empêcher l’installation d’un ancien package sur une version plus récente
 

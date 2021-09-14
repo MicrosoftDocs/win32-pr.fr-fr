@@ -1,7 +1,16 @@
 ---
-title : WinMain le point d’entrée de l’application Description : WinMain : the application point Entry ms. AssetID : 389da5d4-d0f9-4339-BE6C-0f4fecc59316 ms. topic : article ms. Date : 05/31/2018
+title: WinMain le point d’entrée de l’application
+description: chaque Windows programme comprend une fonction de point d’entrée nommée WinMain ou wWinMain.
+ms.assetid: 389da5d4-d0f9-4339-be6c-0f4fecc59316
+ms.topic: article
+ms.date: 09/10/2021
+ms.openlocfilehash: 590dee4b9871853812f48f22b5cce568257cca16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094257"
 ---
-
 # <a name="winmain-the-application-entry-point"></a>WinMain : point d’entrée de l’application
 
 chaque Windows programme comprend une fonction de point d’entrée nommée **WinMain** ou **wWinMain**. Voici la signature pour **wWinMain**.
@@ -31,7 +40,7 @@ Comment le compilateur sait-il appeler **wWinMain** au lieu de la fonction **pri
 > [!Note]  
 > La bibliothèque CRT effectue des tâches supplémentaires dans **main**. Par exemple, tous les initialiseurs statiques sont appelés avant le **wWinMain**. Bien que vous puissiez demander à l’éditeur de liens d’utiliser une fonction de point d’entrée différente, utilisez la valeur par défaut si vous liez à la bibliothèque CRT. Sinon, le code d’initialisation du CRT sera ignoré, avec des résultats imprévisibles. (Par exemple, les objets globaux ne seront pas initialisés correctement.)
 
- 
+ 
 
 Voici une fonction **WinMain** vide.
 
@@ -52,6 +61,6 @@ Maintenant que vous disposez du point d’entrée et que vous comprenez certaine
 
 [Module 1. votre premier programme de Windows](your-first-windows-program.md).
 
- 
+ 
 
- 
+ 

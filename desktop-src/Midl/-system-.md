@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 01b6455807aedb99d7bd525c69fffc524dbe25d4
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093837"
 ---
 # <a name="ltsystemgt-switch"></a>/&lt;&gt;commutateur système
 
@@ -69,7 +69,7 @@ un environnement de Windows 64 bits basé sur des Micro-appareils américain, te
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le commutateur **/ &lt; système &gt;** est fonctionnellement identique à l’option de MIDL [**/env**](-env.md) et est reconnu par le compilateur MIDL uniquement pour la compatibilité descendante avec mktyplib. Si vous générez un nouveau Makefile, utilisez le commutateur **/env** .
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Appel d’une requête synchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f089ac5a2d315aa55fe7af7e648d3b001bae032b92ed5b7d67a1b6b120b96561
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2d4bb2ff61a1c94bf7390a65d51e773ad943a45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118556117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010463"
 ---
 # <a name="invoking-a-synchronous-query"></a>Appel d’une requête synchrone
 
@@ -88,7 +88,7 @@ La procédure suivante décrit comment émettre une requête de données synchro
 
 **Pour émettre une requête de données synchrones dans VBScript**
 
-1.  Décrivez votre requête à WMI à l’aide de [**SWbemServices.ExecQuery**](swbemservices-execquery.md). Cette méthode retourne une [**SWbemObjectSet**](swbemobjectset.md).
+1.  Décrivez votre requête à WMI à l’aide de [**SWbemServices. ExecQuery**](swbemservices-execquery.md). Cette méthode retourne une [**SWbemObjectSet**](swbemobjectset.md).
 
     ```VB
     GetObject("winmgmts:").ExecQuery _

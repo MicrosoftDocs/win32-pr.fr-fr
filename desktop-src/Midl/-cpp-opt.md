@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c3b7845feb36cd09d96fc64cb7397e4daf001957f6ce7a6f5e797707caafd32
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 00e352a89ddadfc0a92e33e964afb5f0d9e9df6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093954"
 ---
 # <a name="cpp_opt-switch"></a>\_commutateur/CPP opt
 
@@ -42,7 +42,7 @@ Des guillemets sont requis lorsque plusieurs options sont utilisées, et pour le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’utilisez pas ce commutateur à moins qu’il y ait une raison spécifique. Pour obtenir des informations importantes sur le prétraitement, consultez la [Configuration requise pour le préprocesseur C pour MIDL](c-preprocessor-requirements-for-midl.md) .
 

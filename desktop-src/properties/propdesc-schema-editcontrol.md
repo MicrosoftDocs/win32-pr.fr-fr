@@ -5,11 +5,11 @@ title: editControl
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 213d6fba3f03f90e0d5a2702226dd8596462b289
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296186"
 ---
 # <a name="editcontrol"></a>editControl
 
@@ -19,7 +19,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [ed
 
 Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété innée ne peut pas être modifiée.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -53,7 +53,7 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -91,7 +91,7 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valeur par défaut</td>
+<td>Default</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Les types par défaut sont répertoriés ci-dessous. Tout autre type entraîne l’utilisation du &quot; contrôle de texte &quot; . 
 <table>
 <thead>

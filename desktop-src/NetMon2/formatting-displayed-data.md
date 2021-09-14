@@ -5,11 +5,11 @@ title: Mise en forme des données affichées
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 017946dab9db443cf7083109dd75ccee1f6d278a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525144"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011559"
 ---
 # <a name="formatting-displayed-data"></a>Mise en forme des données affichées
 

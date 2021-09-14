@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1795068aae1a5a8c3e793b828d5a80dbab369e16f9c5383af367b66d0febc738
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 553d99dee7dd08218680fc0b43e6e12237c4f8fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093818"
 ---
 # <a name="zp-switch"></a>/ZP (commutateur)
 
@@ -38,7 +38,7 @@ Spécifie le niveau de compression des structures dans le système cible. La val
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le commutateur **/ZP** désigne le niveau de compression des structures dans le système cible. La valeur de niveau d’empaquetage correspond à la valeur de l’option **/ZP** utilisée par le compilateur Microsoft C/C++. Pour plus d’informations, consultez la documentation de programmation de Microsoft C/C++.
 

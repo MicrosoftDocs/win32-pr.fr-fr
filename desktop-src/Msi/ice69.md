@@ -4,12 +4,12 @@ ms.assetid: 6ab8f3b7-19e9-46f3-b09e-36bdb43d6f55
 title: ICE69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 183a62989ff39387639af1a9e1feeeddc3e0567f28915ca3857ba6dd5f58f68c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95bd00efc6b141bfa872470adcc9e88a63a2c52d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021504"
 ---
 # <a name="ice69"></a>ICE69
 
@@ -17,7 +17,7 @@ ICE69 vérifie que toutes les sous-chaînes de la forme \[ $componentkey \] dans
 
 Les problèmes de référencement entre composants proviennent de la façon dont les chaînes [mises en forme](formatted.md) sont évaluées. Si le composant référencé avec la \[ propriété $componentkey \] est déjà installé et n’est pas modifié pendant l’installation actuelle (par exemple, s’il est réinstallé, déplacé vers la source, etc.), l’expression \[ $componentkey \] prend la valeur null, car l’état d’action du composant dans \[ $componentkey \] est null. Des problèmes similaires peuvent se produire pendant les opérations de mise à niveau et de réparation.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE69 retourne une erreur si un \[ $componentkey \] sous-chaîne d’une chaîne [mise en forme](formatted.md) fait référence à un composant d’une autre fonctionnalité. ICE69 retourne un avertissement si un \[ $componentkey \] sous-chaîne d’une chaîne mise en forme fait référence à un composant dans la même fonctionnalité. (La table [FeatureComponents](featurecomponents-table.md) est utilisée pour déterminer ce mappage. Elle doit être mappée à la même fonctionnalité pour l’avertissement. Le fait de référencer des composants dans des fonctionnalités parentes ou de référencer des composants dans des fonctionnalités enfants est considéré comme une erreur.)
 
@@ -53,7 +53,7 @@ Les tables de [verbes](verb-table.md) et d' [Extensions](extension-table.md) son
 
 
 
-| Extension | DoVerb\_ | Argument                |
+| Extension | Verbe\_ | Argument                |
 |-----------|--------|-------------------------|
 | TST       | ouvert   | -v \[ $COMP 1 \] \[ $COMP 2\] |
 
@@ -110,7 +110,7 @@ La colonne argument de la table de classes est validée comme le [raccourci](sho
 
 [Raccourci](shortcut-table.md)
 
-[DoVerb](verb-table.md)
+[Verb](verb-table.md)
 
 [Extension](extension-table.md)
 

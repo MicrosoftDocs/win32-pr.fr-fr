@@ -7,12 +7,12 @@ keywords:
 - MIDL de MkTypLib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ae20e00dab492a140f48c9de683abeac04676824bd6513ccf086889b4460e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a54b6103cc230e1c5e6700b0ddc93312c767f9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093666"
 ---
 # <a name="differences-between-midl-and-mktyplib"></a>Différences entre MIDL et MkTypLib
 

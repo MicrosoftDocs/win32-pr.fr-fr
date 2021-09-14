@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b0f9ba435d5c413ea152c2bc9b492486ccc1be94
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842190"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093785"
 ---
 # <a name="array-and-sized-pointer-attributes"></a>Attributs de tableau et de Sized-Pointer
 
@@ -19,7 +19,7 @@ MIDL fournit un ensemble complet de fonctionnalités pour passer des tableaux de
 
 
 
-| Attribut                       | Utilisation                                                                                                                                                                                                |
+| Attribut                       | Usage                                                                                                                                                                                                |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**la taille \_ est**](size-is.md)     | Spécifie la quantité de mémoire à allouer pour les pointeurs dimensionnés, les pointeurs dimensionnés aux pointeurs dimensionnés et les tableaux à une ou plusieurs dimensions.                                                         |
 | [**le nombre maximal \_ est**](max-is.md)       | Valeur maximale d’un index de tableau.                                                                                                                                                                |
@@ -31,7 +31,7 @@ MIDL fournit un ensemble complet de fonctionnalités pour passer des tableaux de
 
 
 
- 
+ 
 
 MIDL prend en charge trois types de pointeurs : les pointeurs de référence, les pointeurs uniques et les pointeurs complets. Ces pointeurs sont spécifiés par les attributs de pointeur [**ref**](ref.md), [**unique**](unique.md)et [**ptr**](ptr.md).
 
@@ -67,6 +67,6 @@ L’IDL DCE n’autorise pas l’application explicite d’un même attribut de 
 
 Pour plus d’informations sur l’utilisation de tableaux et de pointeurs MIDL dans les appels de procédure distante, consultez [tableaux et pointeurs](/windows/desktop/Rpc/arrays-and-pointers).
 
- 
+ 
 
- 
+ 

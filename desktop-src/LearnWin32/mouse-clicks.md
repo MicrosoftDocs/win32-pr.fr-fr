@@ -4,12 +4,12 @@ description: Réponse aux clics de souris
 ms.assetid: FED1CA3B-94C6-4780-B82D-C10171F36D98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 947b50726e79fbf29c4f013d4ac0a449c009c1817b74b1a8063e63a68c4dd6c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32c37903264ca638aeca1c0b28fb2ea7fa792660
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094338"
 ---
 # <a name="responding-to-mouse-clicks"></a>Réponse aux clics de souris
 

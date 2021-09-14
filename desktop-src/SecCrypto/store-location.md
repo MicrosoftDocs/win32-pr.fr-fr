@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 42afe40dffde5a0375928d355508ec75a4076f17
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011144"
 ---
 # <a name="storelocation-property"></a>Store. Location, propriété
 
@@ -43,13 +43,13 @@ Valeur d' [**emplacement du \_ magasin \_ CAPICOM**](capicom-store-location.md) 
 
 La valeur de la propriété **location** est identique à la valeur fournie pour le paramètre *StoreLocation* de la méthode [**Open**](store-open.md) lors de l’ouverture du magasin.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,1 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,1 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8fbd7960-f3f0-4326-ad1d-12b636c0039e
 title: Libération de la mémoire virtuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60c5f78da34573126cfb20d7bc16f803ec603c818a3147f388c9661245d6c408
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a7628ed53f956d5cd13f0c7d2d1157443d529129
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094150"
 ---
 # <a name="freeing-virtual-memory"></a>Libération de la mémoire virtuelle
 

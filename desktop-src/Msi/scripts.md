@@ -4,12 +4,12 @@ ms.assetid: d859713f-b8b8-4eb0-b678-52b5d880bd20
 title: scripts ;
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af49e1863d43956e8ec799e467d8391873458d1879f78455abda9ee06fb739aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 114a11c12e94dd2f3285757bd01167f14b412ac6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239921"
 ---
 # <a name="scripts"></a>scripts ;
 

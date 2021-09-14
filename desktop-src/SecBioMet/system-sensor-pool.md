@@ -4,12 +4,12 @@ description: collection d’unités biométriques partageables qui fournissent l
 ms.assetid: 308306a9-e12c-4ff6-92c3-a36667a5e548
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c73a187c81812355d574b6c4fb867aad8f832c504f7ec79289879565cf73bcf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 729ae9487b91b57b2e9568817c92e44b4b7197f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011182"
 ---
 # <a name="system-sensor-pool"></a>Pool de capteurs système
 

@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ae5b85f9a909e82395a0a75cf66fb2957c4b03d9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093710"
 ---
 # <a name="cpp_quote-attribute"></a>\_attribut de guillemets CPP
 
@@ -65,12 +65,12 @@ cpp_quote("#define UNICODE")
 [**port**](import.md)
 </dt> <dt>
 
-[**pragma**](pragma.md)
+[**Bali**](pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 3137f58b-1aec-4bd6-a3b2-d1db6c8b96e4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c175bafe1ebde3367c20529a6d76d7933a42f343de56216649735c942105aa65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dec07ee86dcb5d10dc289e8095c83771ebe9a8b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119058537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324513"
 ---
 # <a name="sample-webpage-included-with-the-remote-desktop-activex-control"></a>exemple de page web inclus avec le contrôle de ActiveX Bureau à distance
 

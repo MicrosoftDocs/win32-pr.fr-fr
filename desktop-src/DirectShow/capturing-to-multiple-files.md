@@ -4,12 +4,12 @@ ms.assetid: 6073a891-e9f5-442d-a2d9-3a7b97f7f735
 title: Capture dans plusieurs fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79ce7a1b4b91a0f78031a661e2c2e10895b4a21b1cfb068ca505429468a3af1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b40091acff8edffbe84550b03d1ccd4073ddb6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296887"
 ---
 # <a name="capturing-to-multiple-files"></a>Capture dans plusieurs fichiers
 

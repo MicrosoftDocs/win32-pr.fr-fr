@@ -4,12 +4,12 @@ ms.assetid: 02401edc-362b-4f6c-b10b-c46b30b3ebe7
 title: Fonctions vidéo et image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab4b57f804c1da1e4a6da0ca4625e3503ed9987077a80f1f98dde91cf2e27f6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c55e439a17dd570b6e939d1cb84d836f9100eaf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119432119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240576"
 ---
 # <a name="video-and-image-functions"></a>Fonctions vidéo et image
 
@@ -54,7 +54,7 @@ ces fonctions et macros manipulent les structures de format vidéo DirectShow.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plupart des macros et des fonctions décrites dans la section sont conçues pour manipuler les structures **VIDEOINFOHEADER** et **VIDEOINFO** pour les bitmaps RGB. Utilisez ces macros avec précaution : la plupart d’entre elles partent du principe que la structure spécifiée a été initialisée correctement. Un grand nombre d’entre eux supposent également que la structure **BITMAPINFOHEADER** est la taille standard ; autrement dit, `biSize == sizeof(BITMAPINFOHEADER)` .
 

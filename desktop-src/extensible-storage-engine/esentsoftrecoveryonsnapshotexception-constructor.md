@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ec918e573e3ca1c98da77e7ef3fd2b6bc760d2c65a382bb087ef38cfa47de1f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8f19792ec5c60498a87175ac064a9af04560981
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118770767"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297030"
 ---
 # <a name="esentsoftrecoveryonsnapshotexception-constructor"></a>Constructeur EsentSoftRecoveryOnSnapshotException
 
@@ -54,7 +54,7 @@ public EsentSoftRecoveryOnSnapshotException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSoftRecoveryOnSnapshotException, classe](./esentsoftrecoveryonsnapshotexception-class.md)
 
