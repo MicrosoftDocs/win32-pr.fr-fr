@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f5cfe971ebdb85f444b20e66fcfaf77f87448f71b3a677bea104a5068daac9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38f7a5658dbd92f4208e084f1df47a4dc3582156
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117505"
 ---
 # <a name="psm_indextopage-message"></a>\_Message PSM INDEXTOPAGE
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle HPROPSHEETPAGE de la page de feuille de propriétés spécifiée par *wParam* en cas de réussite. Sinon, elle retourne zéro.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

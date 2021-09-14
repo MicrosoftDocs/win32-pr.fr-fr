@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d89cecf1d1df5c370ab9a00ae1251df9df7ef919f9959b998407a9fb5881178
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6264bc0191f091d3819081ddd67e428b64c84570
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119696159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116682"
 ---
 # <a name="tb_hittest-message"></a>TO \_ message HITTEST
 
@@ -39,11 +39,11 @@ Pointeur vers une structure de [**points**](/previous-versions//dd162805(v=vs.85
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur entière. Si la valeur de retour est zéro ou une valeur positive, il s’agit de l’index de base zéro de l’élément de non-séparateur dans lequel se trouve le point. Si la valeur de retour est négative, le point ne se situe pas dans un bouton. La valeur absolue de la valeur de retour est l’index d’un élément de séparateur ou de l’élément de non-séparateur le plus proche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

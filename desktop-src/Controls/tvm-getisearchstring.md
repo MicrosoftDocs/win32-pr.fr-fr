@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79838b2b0d2f109216caf970d33d51b4a3c1369da7b1fc47f5a53e45c3ee82fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa968d78a1a99dd3b1eb90055cf2c1d2de51db86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115694"
 ---
 # <a name="tvm_getisearchstring-message"></a>TVM \_ GETISEARCHSTRING message
 
@@ -41,17 +41,17 @@ Pointeur vers la mémoire tampon qui reçoit la chaîne de recherche incrémenti
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre de caractères dans la chaîne de recherche incrémentielle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Avertissement de sécurité :** L’utilisation incorrecte de ce message peut compromettre la sécurité de votre programme. Vous devez allouer une mémoire tampon suffisamment grande pour contenir la chaîne. Appelez tout d’abord le message qui passe **null** dans *lParam*. Cela retourne le nombre de caractères, à l’exception de **null**, qui sont requis. Ensuite, appelez le message une seconde fois pour récupérer la chaîne. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
 Si le contrôle Tree-View n’est pas en mode de recherche incrémentielle, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

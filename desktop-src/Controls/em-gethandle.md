@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f09ade5545197df2dbc9310b708cd7521334bba68f41a14329dd865e84fdee6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88a466394b48d2d726621e50a7e2c5df2f747f08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117890"
 ---
 # <a name="em_gethandle-message"></a>\_Message em GETHANDLE
 
@@ -43,11 +43,11 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un handle de mémoire qui identifie la mémoire tampon qui contient le contenu du contrôle d’édition. Si une erreur se produit, telle que l’envoi du message à un contrôle d’édition sur une seule ligne, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la fonction réussit, l’application peut accéder au contenu du contrôle d’édition en effectuant un cast de la valeur de retour vers [**HLOCAL**](/windows/desktop/WinProg/windows-data-types) et en la passant à [**LocalLock**](/windows/desktop/api/winbase/nf-winbase-locallock). **LocalLock** retourne un pointeur vers une mémoire tampon qui est un tableau de char s ou **WCHAR** se terminant par un **caractère** null, selon qu’une fonction ANSI ou Unicode a créé le contrôle. Par exemple, si [**CreateWindowExA**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) a été utilisé, la mémoire tampon est un tableau de **char** s, mais si **CreateWindowExW** a été utilisé, la mémoire tampon est un tableau de **WCHAR** s. L’application ne peut pas modifier le contenu de la mémoire tampon. Pour déverrouiller la mémoire tampon, l’application appelle [**LocalUnlock**](/windows/desktop/api/winbase/nf-winbase-localunlock) avant d’autoriser le contrôle d’édition à recevoir de nouveaux messages.
 
@@ -60,7 +60,7 @@ Si votre application ne peut pas respecter les restrictions imposées par **em \
 
 **Modification riche :** Le message de **em \_ GETHANDLE** n’est pas pris en charge. Les contrôles RichEdit ne stockent pas de texte sous la forme d’un simple tableau de caractères.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

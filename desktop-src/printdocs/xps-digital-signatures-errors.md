@@ -4,12 +4,12 @@ ms.assetid: d20707b0-55ea-438a-8ce3-972c61678928
 title: Erreurs de l’API de signature numérique XPS (XpsDigitalSignature. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e40cea4b7d0e9997157c8b18c7f364ac7ac58b2b9edc6faec62cbe98685fcb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c82c6f5efe7e67d27f7d94b5d1db2732139fa59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119711359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117985"
 ---
 # <a name="xps-digital-signature-api-errors"></a>Erreurs de l’API de signature numérique XPS
 
@@ -32,11 +32,11 @@ Le tableau suivant répertorie toutes les valeurs **HRESULT** qui peuvent être 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Certaines méthodes de l’API de signature numérique XPS effectuent des appels à l’API de création de [package](/previous-versions/windows/desktop/opc/packaging) . Pour plus d’informations sur les valeurs de retour de l’API de Packaging, consultez [Packaging Errors](/previous-versions/windows/desktop/opc/packaging-errors).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

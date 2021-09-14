@@ -4,12 +4,12 @@ ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Utilisation des procédures de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f05e5999b216ad8c51be4de6fdec80b5f58ff94956f8c1129d74c3f7075a90eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79e0508119a2ba62c813c32e8fd0c00bd3dd1e85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234731"
 ---
 # <a name="using-window-procedures"></a>Utilisation des procédures de fenêtre
 

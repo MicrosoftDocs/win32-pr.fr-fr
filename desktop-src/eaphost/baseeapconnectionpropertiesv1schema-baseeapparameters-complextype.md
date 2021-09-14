@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4ae3abf23b19badb123f8eb49097c6b3e9d7ac6d26fc0132f34b84de5ac24c01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3bfb9f6c833900967525467202421cf94166405
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118086953"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191976"
 ---
 # <a name="baseeapparameters-complex-type---connection-properties"></a>Type complexe BaseEapParameters-propriétés de connexion
 
@@ -47,15 +47,15 @@ Le type complexe **BaseEapParameters** définit l’élément d’espace réserv
 
 | Élément                                                                            | Type    | Description                                     |
 |------------------------------------------------------------------------------------|---------|-------------------------------------------------|
-| [**Type**](baseeapconnectionpropertiesv1schema-type-baseeapparameters-element.md) | entier | Une instance de schéma est autorisée ici.<br/> |
+| [**Entrer**](baseeapconnectionpropertiesv1schema-type-baseeapparameters-element.md) | entier | Une instance de schéma est autorisée ici.<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans **BaseEapParameters** , la méthode peut définir les éléments constitutifs. La méthode effectue également une validation de schéma sur les éléments dans **BaseEapParameters**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

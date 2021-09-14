@@ -11,12 +11,12 @@ api_name:
 - Description
 api_type:
 - Schema
-ms.openlocfilehash: 5ff00dbc03503b51faa9dc734db61fd912da0ecf8f10f19adcbfb17b510c4834
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02bec9af9900b622622757433c6241d9df7bde36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118744456"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118093"
 ---
 # <a name="description-mbnprofile-element"></a>Description (MBNProfile) (élément)
 
@@ -32,7 +32,7 @@ Il s’agit d’une chaîne d’une longueur maximale de 255 caractères.
 
 L’élément **Description** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

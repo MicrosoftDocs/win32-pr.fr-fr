@@ -4,12 +4,12 @@ ms.assetid: 14bdae6c-9dcd-401e-8c43-5391e00cf7e3
 title: Nouveautés (compteurs de performances)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2c86a6a9ea644f1c650137cc392a2d54b6e8eedb34881d6b759d7b6c51635d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f0c1189a185351eabae438a01c6f111952f164e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119674699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119090"
 ---
 # <a name="whats-new-with-performance-counters"></a>Nouveautés des compteurs de performances
 

@@ -4,12 +4,12 @@ description: Une zone de groupe est un cadre rectangulaire étiqueté qui entour
 ms.assetid: 5b5ffb36-3ed1-44cd-af87-5cddf46c56a6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 335382225e2d9dbb5a216e5aa64dbb5d6047d34845e2bfd72a4866ebafa0fca3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67f930383f2d4412d30027971c6cab2bd3edcccd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118039894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234965"
 ---
 # <a name="group-boxes"></a>Zones de groupe
 

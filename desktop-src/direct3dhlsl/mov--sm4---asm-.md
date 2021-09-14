@@ -4,12 +4,12 @@ description: Déplacement au niveau du composant. | MOV (SM4-ASM)
 ms.assetid: A8865237-59D3-4332-9F09-157E10C4FFC6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 247e3838841d63c3cadf2e075fd088b534bf56ea19b8869b7cffe91e9f75e6c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f029cd8a31a9348e729681878773c225b87b9fbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118426"
 ---
 # <a name="mov-sm4---asm"></a>MOV (SM4-ASM)
 
@@ -35,7 +35,7 @@ Déplacement au niveau du composant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les modificateurs, autres que Swizzle, supposent que les données sont à virgule flottante. L’absence de modificateurs déplace uniquement les données sans modifier les bits.
 
@@ -57,11 +57,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

@@ -1,15 +1,15 @@
 ---
-description: Groupe
+description: Group
 ms.assetid: d1391664-df1d-4b2f-9625-d3be09cc1110
 title: Groupe (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 611399f1c328e9af199aef0867ce1d57334daeea9cd5483d5bf89a9997624136
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aed716c9e2564273db20afb7a21b40fe2ff56a83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119536499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119921"
 ---
 # <a name="group-directshow"></a>Groupe (DirectShow)
 

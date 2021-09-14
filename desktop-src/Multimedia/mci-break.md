@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 33b17e3796192344ef974fed1af7229d41746aaf
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363752"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119617"
 ---
 # <a name="mci_break-command"></a>\_Commande MCI Break
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ sauts MCI**](mci-break-parms.md) .
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devrez peut-être appuyer plusieurs fois sur la touche pause pour interrompre une opération d’attente. Le fait d’appuyer sur la touche Attn après l’annulation d’un appareil peut envoyer la pause à une application. Si une application a une action définie pour le code de clé virtuelle, elle peut répondre par inadvertance à l’arrêt. Par exemple, une application utilisant VK \_ Annuler pour une touche accélérateur peut répondre à la touche CTRL + ATTN par défaut si elle est appuyée après l’annulation d’une attente.
 

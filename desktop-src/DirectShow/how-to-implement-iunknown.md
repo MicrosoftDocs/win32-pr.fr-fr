@@ -4,12 +4,12 @@ ms.assetid: 4e363ccb-9725-4be6-bb31-283bf1d658f5
 title: Comment implémenter IUnknown
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1f905ac7e31be955a7b24f8504fc6b52ca8031e4a7deef86ef8bccd537b5ca6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e27c12e25d56adab1841a375ac6c1ce0857a73b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119748699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119857"
 ---
 # <a name="how-to-implement-iunknown"></a>Comment implémenter IUnknown
 

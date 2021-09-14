@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15110b5801555947eed434b8148aec3cc753f6eec359f32b96cd67a5b2649f31
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e9db31dd452161a31575b6f7184a34c35dea71e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118675011"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124236"
 ---
 # <a name="win32_quickfixengineering-class"></a>\_Classe QuickFixEngineering Win32
 
@@ -351,7 +351,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ QuickFixEngineering** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -387,7 +387,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 508630ee8a377e1542f823c1afb21521206369aa3ce489c58afae47efa268880
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bef25cd811890e82273fd5d634633e25e7ec460c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118331941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122658"
 ---
 # <a name="iwmpmediacollectiongetattributestringcollection-method"></a>IWMPMediaCollection :: getAttributeStringCollection, méthode
 
@@ -69,11 +69,11 @@ Implements IWMPMediaCollection.getAttributeStringCollection
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPStringCollection** pour les valeurs récupérées.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -153,7 +153,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

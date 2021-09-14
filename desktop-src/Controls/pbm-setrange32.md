@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e29022b4b3cb1c42c8e661e8366324ac10ae9853f104f31722dae8852edf71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55fcf91c794ec9ae3880d67f8df947f87fec413d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117690"
 ---
 # <a name="pbm_setrange32-message"></a>\_Message PBM SETRANGE32
 
@@ -43,15 +43,15 @@ Valeur de plage maximale. Cette valeur doit être supérieure à *wParam*. Par d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui contient la limite inférieure 16 bits précédente dans son [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) et la limite supérieure 16 bits précédente dans son [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). Si les plages précédentes étaient des valeurs 32 bits, la valeur de retour est composée des **LOWORD** s des deux limites de 32 bits.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer les valeurs de 32 bits les plus élevées et les plus basses, utilisez le message [**PBM \_ GETRANGE**](pbm-getrange.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

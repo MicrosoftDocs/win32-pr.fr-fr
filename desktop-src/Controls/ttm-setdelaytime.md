@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd5b4f3d20cd99872adeeb66776d71a1e4125a066890a3bab4793caf04de8f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43b633dc75baa0a8f385cf8cdb9bf7e9fa254809
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119914069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115817"
 ---
 # <a name="ttm_setdelaytime-message"></a>\_Message atténuation SETDELAYTIME
 
@@ -56,11 +56,11 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les délais d’attente par défaut sont basés sur le temps de double-clic. Pour le double-clic par défaut de 500 ms, les temps de délai initial, autopop et de réaffichage sont de 500 ms, 5 000 MS et 100 ms respectivement. Le fragment de code suivant utilise la fonction [**GetDoubleClickTime**](/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime) pour déterminer les trois délais pour tous les systèmes.
 
@@ -75,7 +75,7 @@ reshow = GetDoubleClickTime() / 5;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

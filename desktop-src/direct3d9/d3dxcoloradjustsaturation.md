@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 71ed9b6ebdefe41b466bb790cc4d0226991ce2866aee9fed765c19c87f6085b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 878cdd83a04f594da3133eda314486af96ac3d56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119495839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120430"
 ---
 # <a name="d3dxcoloradjustsaturation-function-d3dx9mathh"></a>D3DXColorAdjustSaturation, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Valeur de saturation. Ce paramètre interpole de manière linéaire entre la cou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est le résultat de l’ajustement de saturation.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le canal alpha d’entrée est copié, sans modification, sur le canal alpha de sortie.
 
@@ -105,7 +105,7 @@ r = g = b = 0.2125*r + 0.7154*g + 0.0721*b
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

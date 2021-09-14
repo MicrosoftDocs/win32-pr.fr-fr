@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85f8a324613820b94e0bd2c49d8fa78136038471f820dd2b9ed8e38ace15f0cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 719de4c2391ff924c9f6deb8cb4206cfdb56c3ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115637"
 ---
 # <a name="tvm_insertitem-message"></a>TVM- \_ message INSERTITEM
 
@@ -41,11 +41,11 @@ Pointeur vers une structure [**TVINSERTSTRUCT**](/windows/win32/api/commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle **HTREEITEM** au nouvel élément en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

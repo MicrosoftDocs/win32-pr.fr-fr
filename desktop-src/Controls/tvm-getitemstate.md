@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff562af5a97684caa3e5b17ab47d0f67f82a6789e2510cf1598a3189073fda81
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b851ff3845743c802a2a914a0f40d5d9eb65c6a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119261259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115673"
 ---
 # <a name="tvm_getitemstate-message"></a>TVM \_ GETITEMSTATE message
 
@@ -43,11 +43,11 @@ Masque utilisé pour spécifier les États à interroger. Elle est équivalente 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **uint** avec les bits d’État appropriés ayant la valeur **true**. Seuls les bits qui sont spécifiés par *lParam* et qui ont la **valeur true** seront définis. Cette valeur est équivalente au membre d' **État** de [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

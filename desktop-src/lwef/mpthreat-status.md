@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d800cbfb0adbeb994586a69e38ac4a1ad2a8957091508b147bd582fef5233e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 978a152d6f14d7b3577ece0a2e8bd5a8ba741a3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118476261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118241"
 ---
 # <a name="mpthreat_status-enumeration"></a>\_Énumération de l’État MPTHREAT
 
@@ -92,7 +92,7 @@ typedef enum tagMPTHREAT_STATUS {
 <span id="MP_THREAT_STATUS_BLOCK_FAILED"></span><span id="mp_threat_status_block_failed"></span>**\_échec du \_ bloc d’état des menaces MP \_ \_**
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

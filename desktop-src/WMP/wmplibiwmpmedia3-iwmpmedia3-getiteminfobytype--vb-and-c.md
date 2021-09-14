@@ -3,9 +3,9 @@ title: Méthode IWMPMedia3 getItemInfoByType
 description: La méthode getItemInfoByType retourne la valeur de l’attribut correspondant au type d’attribut et à l’index spécifiés.
 ms.assetid: e4cf14b4-3c59-485f-a573-734a0076647b
 keywords:
-- méthode getItemInfoByType lecteur Windows Media
-- méthode getItemInfoByType lecteur Windows Media, interface IWMPMedia3
-- Interface IWMPMedia3 lecteur Windows Media, méthode getItemInfoByType
+- Lecteur Windows Media de la méthode getItemInfoByType
+- méthode getItemInfoByType Lecteur Windows Media, interface IWMPMedia3
+- Lecteur Windows Media de l’interface IWMPMedia3, méthode getItemInfoByType
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b2f37992201d5d19397724071f8c2a4b8e851aac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122666"
 ---
 # <a name="iwmpmedia3getiteminfobytype-method"></a>IWMPMedia3 :: getItemInfoByType, méthode
 
@@ -78,7 +78,7 @@ Implements IWMPMedia3.getItemInfoByType
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Object** qui est la valeur de l’attribut. Le type de conversion de cet objet dépend du type de l’attribut.
 
@@ -96,7 +96,7 @@ Si l’élément multimédia provient d’une bibliothèque qui a été récupé
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

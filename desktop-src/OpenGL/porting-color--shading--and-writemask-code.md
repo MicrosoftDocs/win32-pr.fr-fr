@@ -17,12 +17,12 @@ keywords:
 - Portage OpenGL à partir de IRIS GL, writemask
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9d3fcb9cf47b45b4b1174cb20e3259dbb883c2fd0414d255a418c52b50fa28e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9f8bc35986bc0f9d7076411fecbd9c1fa5d7bfbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119485779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119154"
 ---
 # <a name="porting-color-shading-and-writemask-code"></a>Portage de la couleur, de l’ombrage et du code Writemask
 

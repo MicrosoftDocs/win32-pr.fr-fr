@@ -13,12 +13,12 @@ keywords:
 - autorisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5feaae3ebf55359f664e40df26b52912d727446ad715cd552d92cc1d090ad0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0aec86b4facec4babed4afed04ca342903670dbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117747736"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192763"
 ---
 # <a name="permissions-registry-entry"></a>Entrée de registre des autorisations
 

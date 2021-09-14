@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2295812303a1c459dea70619dfe43e466f5e3ebaa09d77c421451be7526107ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0ef61e949ff8fb63d9113b0a1ecbfebc76424a3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117832257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120034"
 ---
 # <a name="cbem_getcombocontrol-message"></a>\_Message CBEM GETCOMBOCONTROL
 
@@ -35,11 +35,11 @@ Obtient le handle du contrôle de zone de liste déroulante enfant.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle de zone de liste déroulante dans le contrôle ComboBoxEx.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65c2a5d49da302a1cdf2b702408d02e8f5f2fc5f0da5eb7f392af75d0581b1fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cf0330e7e68d8b4e3747c019e0841f872d279c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192336"
 ---
 # <a name="externalplaymedia-method"></a>External. playMedia, méthode
 
@@ -56,15 +56,15 @@ External.playMedia(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est uniquement disponible pour les pages Web hébergées dans la fonctionnalité de **Guide** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

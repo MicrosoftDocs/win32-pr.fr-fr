@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f90d95184fd789530831628cb6e121e32ce258d4541769c47926d2fb46eb710c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d217c784fa5f994e88ee2de78f2e1944091d724
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897934"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120814"
 ---
 # <a name="storeadd-method"></a>Store. Add, méthode
 
@@ -48,11 +48,11 @@ Expression qui correspond à un objet de [**certificat**](certificate.md) à ajo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!IMPORTANT]
 > Lorsque cette méthode est appelée sur un magasin système à partir d’un script Web, le script doit accéder aux certificats numériques sur l’ordinateur local. Si vous autorisez le script à accéder à vos certificats numériques, le site Web à partir duquel le script est exécuté aura également accès aux informations personnelles stockées dans les certificats. La première fois que cette méthode est appelée à partir d’un domaine particulier, une boîte de dialogue est générée dans laquelle l’utilisateur doit indiquer si l’accès aux certificats doit être autorisé.
@@ -63,7 +63,7 @@ Si le magasin n’est pas ouvert en mode lecture/écriture, cette méthode écho
 
 Si le certificat ajouté au magasin est le même que celui qui existe déjà, la méthode **Add** supprime le certificat existant du magasin, puis ajoute le nouveau certificat. Le nouveau certificat hérite des propriétés du certificat existant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

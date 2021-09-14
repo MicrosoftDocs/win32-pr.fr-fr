@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb42d878840ad05f0854ec7ca9cb50dc1b3be2a55b3b65ddf652d961b6d818b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35586d3483d1d487f740a1a3d991c884c814f452
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119312439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117733"
 ---
 # <a name="pbm_getbarcolor-message"></a>\_Message PBM GETBARCOLOR
 
@@ -35,17 +35,17 @@ Obtient la couleur de la barre de progression.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la couleur de la barre de progression.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit de la couleur définie par le message [**PBM \_ SETBARCOLOR**](pbm-setbarcolor.md) . La valeur par défaut est CLR \_ par défaut, qui est définie dans commctrl. h.
 
 Cette fonction affecte uniquement le mode classique, et non aucun style visuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

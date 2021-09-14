@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7758385699a0d280f808a21db4c56487c466c716b3ae0236f77130847cea3aa8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e5933668eca907f36414113091b8901bfb9c110
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116114"
 ---
 # <a name="tdm_click_button-message"></a>Message de bouton de \_ clic TDM \_
 
@@ -43,15 +43,15 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’ID de bouton spécifié par *wParam* est envoyé à la fonction de rappel [**TaskDialogCallbackProc**](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback) dans le cadre d’un [ \_ \_ clic sur](tdn-button-clicked.md) le code de notification du bouton TDN. Une fois que la fonction de rappel a été retournée, la boîte de dialogue de tâche est fermée si l’opération \_ a été retournée à partir de la fonction de rappel. Si S \_ false a été retourné à partir de la fonction de rappel, la boîte de dialogue de tâche reste active.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

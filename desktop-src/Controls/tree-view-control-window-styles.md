@@ -27,12 +27,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4652f94f2ec2e8a661bb6f54c635365286a73f62a2894b464a6be49023434e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75cde7f641653d217d1162d1c3e432630a867f96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115913"
 ---
 # <a name="tree-view-control-window-styles"></a>Styles de fenêtre de contrôle Tree-View
 
@@ -61,7 +61,7 @@ Cette section répertorie les styles de fenêtre utilisés lors de la création 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

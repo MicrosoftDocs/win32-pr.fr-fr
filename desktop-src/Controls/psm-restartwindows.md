@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ff80191ebed8929a3d7b5079f1bf381ae9ad82ad82c2c177d8f7366e8734dc0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eb12126ae0a2b9187a941ccc1aff53186a0cda7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117466"
 ---
 # <a name="psm_restartwindows-message"></a>\_Message PSM RESTARTWINDOWS
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application doit envoyer ce message uniquement en réponse au code de notification [PSN \_ apply](psn-apply.md) ou [PSN \_ KILLACTIVE](psn-killactive.md) . Vous pouvez envoyer le **message \_ RESTARTWINDOWS PSM** de manière explicite ou à l’aide de la macro [**PropSheet \_ RESTARTWINDOWS**](/windows/desktop/api/Prsht/nf-prsht-propsheet_restartwindows) .
 
@@ -58,7 +58,7 @@ Ce message force la fonction [**feuille**](/windows/desktop/api/Prsht/nf-prsht-p
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

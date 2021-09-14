@@ -4,12 +4,12 @@ ms.assetid: 2b7a0ab7-bf7e-473d-ab43-8b79478d4453
 title: 'Comment : afficher la progression du travail d’impression'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec61c07844262b258fb052d08d8d20e9285a8f7e9bb83808ea61eddaf32f3a88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9effc778f6affaba5b53cbd96a7a428ea5554d8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118073"
 ---
 # <a name="how-to-display-the-print-job-progress"></a>Comment : afficher la progression du travail d’impression
 

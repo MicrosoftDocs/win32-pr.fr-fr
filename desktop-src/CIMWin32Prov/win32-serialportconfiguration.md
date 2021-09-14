@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 07052c0366b32904ef6bf6f52b15f3ea98022ba8385120ec60cdefe5714e2c4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 065d069b261472e3347a115cfbbff652812b6622
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124226"
 ---
 # <a name="win32_serialportconfiguration-class"></a>\_Classe SerialPortConfiguration Win32
 
@@ -755,11 +755,11 @@ Le **XOnXOffOutFlowControl** spécifie si le contrôle de Flow Xon ou XOFF est u
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ SerialPortConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

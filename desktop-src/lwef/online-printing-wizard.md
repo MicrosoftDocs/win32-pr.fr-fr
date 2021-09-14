@@ -7,12 +7,12 @@ keywords:
 - icônes, Assistant impression en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc402f1fe5853c7a255ea45940d62efcd092c424be6905287315c5cfe5fc7504
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8536eea7a51eddb2dbb46d10c9291a60edfdc74e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191919"
 ---
 # <a name="online-printing-wizard"></a>Assistant impression en ligne
 

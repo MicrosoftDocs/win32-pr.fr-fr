@@ -4,12 +4,12 @@ ms.assetid: 9ebdcf51-e095-4173-97d6-7754560abfb5
 title: 'ITMedia :: get_NumPorts, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 928f1622c26159720a5eaabe42a16dd5513705c4d9abe9ad75db47160ab3e218
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc223ddd5d210d2c1d440c52ca4201ccd6334b08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118865002"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120645"
 ---
 # <a name="itmediaget_numports-method"></a>ITMedia :: \_ NumPorts, méthode
 
@@ -39,7 +39,7 @@ Pointeur vers le nombre de ports.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

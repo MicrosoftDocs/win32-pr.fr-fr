@@ -4,12 +4,12 @@ ms.assetid: cfb683fa-4f46-48b5-9a28-f4625a9cb8cd
 title: Fonctions de tas
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8171b75abf879eb50204d55541557bdbf5359bd1e8f956d147e49a9d61656d06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0e591c1e349ed6806cbebe00a178a99e63bb412
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094137"
 ---
 # <a name="heap-functions"></a>Fonctions de tas
 

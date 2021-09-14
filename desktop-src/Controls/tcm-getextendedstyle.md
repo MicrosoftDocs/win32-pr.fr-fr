@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be5c4618fe039fcd05a73e409f0e8ddd7042694d526f902d432d2513bbef96e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8280b7043591dd4fdd0b453c5baea5fe014bd3d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116218"
 ---
 # <a name="tcm_getextendedstyle-message"></a>\_Message GETEXTENDEDSTYLE TCM
 
@@ -35,11 +35,11 @@ Récupère les styles étendus en cours d’utilisation pour le contrôle Tab. V
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui représente les styles étendus actuellement utilisés pour le contrôle Tab. Cette valeur est une combinaison de [styles étendus](tab-control-extended-styles.md)de contrôle d’onglet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

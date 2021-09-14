@@ -15,11 +15,11 @@ api_location:
 - d3dxof.lib
 - d3dxof.dll
 ms.openlocfilehash: 0a1e084108580277432aaeb61086b43a97dbd9f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118434"
 ---
 # <a name="idirectxfile-interface"></a>Interface IDirectXFile
 
@@ -62,7 +62,7 @@ typedef interface IDirectXFile *LPDIRECTXFILE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

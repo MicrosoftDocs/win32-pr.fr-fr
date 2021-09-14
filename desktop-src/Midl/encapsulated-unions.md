@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, unions encapsulées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bc8f8f830d49430551af7d6450b0174742b9436afcdba764e9fa6494c957d9c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4489a043ff3690ddb31a8acccf359dcd76940aa7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119895359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093637"
 ---
 # <a name="encapsulated-unions"></a>Unions encapsulées
 

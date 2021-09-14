@@ -17,11 +17,11 @@ topic_type:
 - APIRef
 - kbSyntax
 ms.openlocfilehash: 36007bc1a7aecb25c2b6d61f74dd826e888a314b
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624755"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118158"
 ---
 # <a name="span-idwwan_profile_v4element_1_contextspanmodemdmconfigprofilecontext-v4"></a><span id="WWAN_profile_v4.element_1_Context"></span>\/Contexte ModemDMConfigProfile (v4)
 
@@ -35,7 +35,7 @@ Spécifie les paramètres requis pour établir une connexion de données.
 [\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
 &nbsp;&nbsp;**\<Context\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <Context>
@@ -50,7 +50,7 @@ Spécifie les paramètres requis pour établir une connexion de données.
 </Context>
 ```
 
-### <a name="key"></a>Clé :
+### <a name="key"></a>Clé
 
 `?`   facultatif (zéro ou un)
 
@@ -103,7 +103,7 @@ Aucun.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Valeur par défaut</td>
+<td>Default</td>
 <td>Le type d’adresse IP doit être choisi par la ou les couches inférieures</td>
 </tr>
 <tr class="even">
@@ -163,7 +163,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 <table>
 <colgroup>

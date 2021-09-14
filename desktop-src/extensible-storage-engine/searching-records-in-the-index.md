@@ -8,16 +8,16 @@ ms:contentKeyID: 32765631
 ms.date: 04/11/2016
 ms.topic: article
 ms.openlocfilehash: 89a4ffe1f1c13280f236442ae218580fa5699741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543708"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118310"
 ---
 # <a name="searching-records-in-the-index"></a>Recherche d’enregistrements dans l’index
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="searching-records-in-the-index"></a>Recherche d’enregistrements dans l’index
 

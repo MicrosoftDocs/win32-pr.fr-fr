@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 685e97ec28241348ff4a969c444b6da5638aeba01af8be35cc5490a0d2be0a95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 683a495398e7fe0718ee0642c7760b0a8590538c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119846959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118437"
 ---
 # <a name="idirectxfileregistertemplates-method"></a>IDirectXFile :: RegisterTemplates, méthode
 
@@ -59,13 +59,13 @@ Taille de la mémoire tampon vers laquelle pointe pvData, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : DXFILEERR \_ BADFILEFLOATSIZE, DXFILEERR \_ BADFILETYPE, DXFILEERR \_ BADFILEVERSION, DXFILEERR \_ BADVALUE, DXFILEERR \_ PARSEERROR.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fragment de code suivant fournit un exemple d’appel à **RegisterTemplates** et des exemples de contenu pour la mémoire tampon vers laquelle pvData pointe.
 
@@ -91,7 +91,7 @@ Le fragment de code suivant fournit un exemple d’appel à **RegisterTemplates*
 
 Tous les modèles doivent spécifier un nom et un identificateur unique universel (UUID).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

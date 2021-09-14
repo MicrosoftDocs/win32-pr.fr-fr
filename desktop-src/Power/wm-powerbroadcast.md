@@ -4,12 +4,12 @@ ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
 title: Message WM_POWERBROADCAST (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38b57a6c21aeae03a8b42deb8af10d5ce88e96f92a33b632d71285fa4c0c986a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b205a146b731bdf8cf9adc1563621232c24c10b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119061"
 ---
 # <a name="wm_powerbroadcast-message"></a>\_Message WM POWERBROADCAST
 
@@ -83,11 +83,11 @@ Si le paramètre *wParam* est [PBT \_ POWERSETTINGCHANGE](pbt-powersettingchange
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner la **valeur true** si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système envoie toujours un message [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) à chaque reprise du système. Si le système reprend en réponse à une entrée utilisateur, par exemple en appuyant sur une touche, le système envoie également un message **PBT \_ APMRESUMESUSPEND** après l’envoi de \_ APMRESUMEAUTOMATIC PBT.
 
@@ -102,7 +102,7 @@ Les messages suivants ne sont pas pris en charge sur les systèmes d’exploitat
 - PBT_APMSTANDBY  
 - PBT_APMRESUMESTANDBY  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

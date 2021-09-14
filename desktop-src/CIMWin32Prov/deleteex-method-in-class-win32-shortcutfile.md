@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: df69d6dea546a4bbd361e6663b93274c4f4f30f15c2d59bcf23d06f1cb614478
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbe382ca57c4bdef36b19742313965c8bac68fd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118419458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230574"
 ---
 # <a name="deleteex-method-of-the-win32_shortcutfile-class"></a>Méthode DeleteEx de la \_ classe Win32 ShortcutFile
 
@@ -57,7 +57,7 @@ Nomme le fichier ou le répertoire enfant à utiliser comme point de départ pou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -154,7 +154,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

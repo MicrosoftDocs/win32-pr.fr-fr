@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54d94da64bd01b17addeb8f65def177e7e7e5d7daccbafb1629d1158f8c6636d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d17ebb6caa2c33282dccbb117980fc970cd45477
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116062"
 ---
 # <a name="tdm_set_progress_bar_range-message"></a>Message de plage de la barre de progression de l' \_ ensemble TDM \_ \_ \_
 
@@ -43,11 +43,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne les valeurs minimale et maximale précédentes, en cas de réussite, ou zéro dans le cas contraire. [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient la valeur minimale et [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient la valeur maximale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

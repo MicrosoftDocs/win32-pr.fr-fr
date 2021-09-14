@@ -4,12 +4,12 @@ description: Méthode Play
 ms.assetid: 7e89341a-b4d3-4bea-8e7f-31c649ff06b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 980c13cbf11e86a25485558fb3ff2ade703010eb180e86291f206ea152f3c0be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1d06f4275d7b4c0959a59536c8b20a95c14ab1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118247085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191912"
 ---
 # <a name="play-method-legacy-windows-environment-features"></a>Play, méthode (fonctionnalités d’environnement de Windows héritées)
 

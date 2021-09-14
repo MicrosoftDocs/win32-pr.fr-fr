@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 229b269e8d9677e0ffdedffb3d91029a473292082409830ac26490bf34680075
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4dec5130edb0b8ef30af1397be501fa9cd5d5744
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118617035"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311793"
 ---
 # <a name="gldepthfunc-function"></a>glDepthFunc fonction)
 
@@ -50,7 +50,7 @@ Spécifie la fonction de comparaison de profondeur. Les constantes symboliques s
 | Valeur                                                                                                                                                   | Signification                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | <span id="GL_NEVER"></span><span id="gl_never"></span><dl> <dt>**GL \_ jamais**</dt> </dl>          | Ne passe jamais.<br/>                                                                                  |
-| <span id="GL_LESS"></span><span id="gl_less"></span><dl> <dt>**GL \_ moins**</dt> </dl>             | Passe si la valeur *z* entrante est inférieure à la valeur *z* stockée. Il s'agit de la valeur par défaut.<br/> |
+| <span id="GL_LESS"></span><span id="gl_less"></span><dl> <dt>**GL \_ moins**</dt> </dl>             | Passe si la valeur *z* entrante est inférieure à la valeur *z* stockée. Il s’agit de la valeur par défaut.<br/> |
 | <span id="GL_LEQUAL"></span><span id="gl_lequal"></span><dl> <dt>**\_LEQUAL GL**</dt> </dl>       | Passe si la valeur z entrante est inférieure ou égale à la valeur z stockée.<br/>                    |
 | <span id="GL_EQUAL"></span><span id="gl_equal"></span><dl> <dt>**GL \_ égal**</dt> </dl>          | Passe si la valeur z entrante est égale à la valeur z stockée.<br/>                                 |
 | <span id="GL_GREATER"></span><span id="gl_greater"></span><dl> <dt>**GL \_ supérieur**</dt> </dl>    | Passe si la valeur z entrante est supérieure à la valeur z stockée.<br/>                             |
@@ -80,7 +80,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glDepthFunc** spécifie la fonction utilisée pour comparer chaque valeur *z* de pixel entrante avec la valeur *z* présente dans la mémoire tampon de profondeur. La comparaison est effectuée uniquement si le test de profondeur est activé. (Voir [**glEnable**](glenable.md) avec l’argument GL \_ TEST de profondeur \_ .)
 
@@ -92,7 +92,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glDepthFunc
 
 [**glIsEnabled**](glisenabled.md) avec argument de profondeur du GL d’arguments \_ \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

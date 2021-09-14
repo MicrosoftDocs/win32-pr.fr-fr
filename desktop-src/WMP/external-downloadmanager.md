@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d828435c43f57406e637312245b2bb3ae3e7c35510c9b2daf478a7fec39b599
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f55e6371f5c8d1e5dfcb17762340a82e8d921c17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119649209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192399"
 ---
 # <a name="externaldownloadmanager"></a>External. DownloadManager
 
@@ -39,11 +39,11 @@ window.external.DownloadManager
 
 Cette propriété est un objet **downloadmanager** en lecture seule.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 dans Lecteur Windows Media 10 ou version ultérieure, la propriété et l’objet **DownloadManager** sont accessibles uniquement à partir des volets de tâches du service de magasin en ligne. Vous ne pouvez pas utiliser **downloadmanager** à partir d’autres fonctionnalités où l’objet **externe** est disponible, par exemple HTMLView, le mode Info Center et les informations sur l’album.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

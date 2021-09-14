@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d17e9da965e5e45c6fe11bc319436c00663fdc6348d3d2457b3c15472f6f3868
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c4d09e07dfa2be86e11fa33863f091732955714
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169825"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117550"
 ---
 # <a name="psm_addpage-message"></a>Message de la \_ ADDPAGE PSM
 
@@ -43,11 +43,11 @@ Handle vers la page à ajouter. La page doit avoir été créée par un appel pr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La nouvelle page ne doit pas être supérieure à la plus grande page actuellement dans la feuille de propriétés, car la feuille de propriétés n’est pas redimensionnée pour s’ajuster à la nouvelle page.
 
@@ -62,7 +62,7 @@ Un certain nombre de messages et un appel de fonction se produisent pendant que 
 
 si vous avez besoin de modifier une page de feuille de propriétés pendant que vous gérez l’un de ces messages ou lorsque [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) est en cours d’exécution, publiez un message Windows privé. Votre application ne recevra pas ce message tant que le gestionnaire de feuille de propriétés n’aura pas terminé ses tâches. Vous pouvez ensuite modifier la liste des pages.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

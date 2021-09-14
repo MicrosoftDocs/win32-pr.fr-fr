@@ -13,12 +13,12 @@ keywords:
 - documentation, téléchargement Lecteur Windows Media SDK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f3e1921a8b1eb87112050e9bb91508d5e32020df4210e3243cce2e8fcee4c3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad1515b48b9c6491ba4202e2074a17808d066d8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120525"
 ---
 # <a name="for-more-information-wmp-sdk"></a>Pour plus d’informations (kit de développement logiciel (SDK) WMP)
 

@@ -4,12 +4,12 @@ ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Responsabilités des fournisseurs PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 146082452c00c89c70768f641faaea97fee997fe01a20c0d99842bc5b961bfbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70cc04137eacdd2395205b96233db3c53964bc02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118470214"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191863"
 ---
 # <a name="responsibilities-of-printcapabilities-providers"></a>Responsabilités des fournisseurs PrintCapabilities
 

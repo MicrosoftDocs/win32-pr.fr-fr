@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102332
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 870e91ee05c76f5a3d5528a97a00dc0d60b405f4cb76d377ac5d0160207d16c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 925386905f742ac7a9fdc69d37e6d1c7308c1b85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119363799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292355"
 ---
 # <a name="esentmustdisableloggingfordbupgradeexception-members"></a>Membres EsentMustDisableLoggingForDbUpgradeException
 
@@ -93,7 +93,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentMustDisableLoggingForDbUpgradeException, classe](./esentmustdisableloggingfordbupgradeexception-class.md)
 

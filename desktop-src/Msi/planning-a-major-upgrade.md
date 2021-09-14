@@ -4,12 +4,12 @@ ms.assetid: 69ad4928-e750-47c2-8668-c9e3deff8066
 title: Planification d’une mise à niveau majeure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a07ece8acf0dbc37ecdfddaa3505e5e54a283a8e8efd7b4eb0dc1a0a365a461e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88ca6b82e53a38dde8131525eb885a5f17603ac6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118377370"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119674"
 ---
 # <a name="planning-a-major-upgrade"></a>Planification d’une mise à niveau majeure
 

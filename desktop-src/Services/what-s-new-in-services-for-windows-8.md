@@ -4,12 +4,12 @@ ms.assetid: 42BC7325-4FAC-493E-95AC-AEF660F499C0
 title: Nouveautés des services pour Windows 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc5b3b97bda816a2c8676d55d670deecea3222482776a01e8dccf314326a608a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0087739c503a05875ba1a7eac5f77d33d8d1abac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118888131"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120726"
 ---
 # <a name="whats-new-in-services-for-windows-8"></a>Nouveautés des services pour Windows 8
 

@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f5db9c6cc3b6cc49f968c4eb39821b8b9857b0df
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230777"
 ---
 # <a name="bluetooth-and-wsaqueryset-for-service-inquiry"></a>Bluetooth et WSAQUERYSET pour la recherche de Service
 
@@ -68,7 +68,7 @@ Bluetooth et WSALookupServiceNext
 [Bluetooth Faire](bluetooth-reference.md)
 </dt> <dt>
 
-[**OBJET BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
+[**BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 </dt> <dt>
 
 [**\_service de requête BTH \_**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_service)

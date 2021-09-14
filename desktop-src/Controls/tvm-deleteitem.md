@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef0165ffaf1f0f04b32cda43e21c97fed012ad6d61b32f8919612f8924f7c66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8783fd5acdf7319699cdc67cbb3ea075e4dbbc28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115742"
 ---
 # <a name="tvm_deleteitem-message"></a>TVM- \_ message DELETEITEM
 
@@ -39,11 +39,11 @@ Supprime un élément et tous ses enfants d’un contrôle Tree-View. Vous pouve
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il n’est pas possible de supprimer des éléments en réponse à une notification telle que [TVN \_ SELCHANGING](tvn-selchanging.md).
 
@@ -55,7 +55,7 @@ Si l’étiquette de l’élément est en cours de modification, l’opération 
 
 Si vous supprimez tous les éléments d’un contrôle Tree-View qui a le style de [**\_ défilement TV**](tree-view-control-window-styles.md) , les éléments ajoutés ultérieurement peuvent ne pas s’afficher correctement. Pour plus d’informations, consultez [**TreeView \_ DeleteAllItems**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_deleteallitems).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

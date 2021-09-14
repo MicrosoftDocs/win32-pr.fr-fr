@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: babff5ad74d943d64f5ad61354447498e91e1325c99c82b32183fbc62eabafdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1387e69622e84990a197dc5a374d1c3449393408
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117830200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117717"
 ---
 # <a name="pbm_setbarcolor-message"></a>\_Message PBM SETBARCOLOR
 
@@ -43,15 +43,15 @@ Valeur **COLORREF** qui spécifie la nouvelle couleur de barre de l’indicateur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la couleur de la barre de l’indicateur de progression précédente, ou CLR \_ par défaut si la couleur de la barre de l’indicateur de progression est la couleur par défaut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque les styles visuels sont activés, ce message n’a aucun effet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

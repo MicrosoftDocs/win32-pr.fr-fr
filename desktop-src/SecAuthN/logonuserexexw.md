@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Advapi32.dll
-ms.openlocfilehash: 8e6b7c5b377ffa7b517ccd19d1dfbffa08d26191af3822f9d9b17cc02c33d055
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35ec65e7899f45a5222ae12b08992e77ea67f306
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922334"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123477"
 ---
 # <a name="logonuserexexw-function"></a>LogonUserExExW fonction)
 
@@ -168,7 +168,7 @@ Pointeur vers une structure [**de \_ limites de quota**](/windows/desktop/api/Wi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la fonction retourne une valeur différente de zéro.
 
@@ -187,7 +187,7 @@ Un utilisateur est considéré comme connecté s’il existe au moins un jeton. 
 
 Si le paramètre facultatif *pTokenGroups* est fourni, LSA n’ajoutera pas automatiquement le SID local ou le SID d’ouverture de session.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

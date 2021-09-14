@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06583aaef7f41a2752ace9c67599c1d299b72f87cb9984674994ede10d89525b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84b88588238c9a7e4158fe21bca8904bf6f39b51
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122806"
 ---
 # <a name="repetitionpattern-object"></a>Objet RepetitionPattern
 
@@ -43,14 +43,14 @@ L’objet **RepetitionPattern** a ces propriétés.
 | Propriété                                                                    | Type d’accès           | Description                                                                                                                                        |
 |:----------------------------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Duration**](repetitionpattern-duration.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit la durée de répétition du modèle.<br/>                                                                                          |
-| [**Défini**](repetitionpattern-interval.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit la durée entre chaque redémarrage de la tâche.<br/>                                                                       |
+| [**Intervalle**](repetitionpattern-interval.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit la durée entre chaque redémarrage de la tâche.<br/>                                                                       |
 | [**StopAtDurationEnd**](repetitionpattern-stopatdurationend.md)<br/> | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique si une instance en cours d’exécution de la tâche est arrêtée à la fin de la durée du modèle de répétition.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 
@@ -70,7 +70,7 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, le modè
 
 Pour plus d’informations et pour obtenir un exemple de code pour cette propriété, consultez [exemple de déclencheur quotidien (script)](daily-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

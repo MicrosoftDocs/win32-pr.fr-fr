@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, description, informations de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5178dfccbb00f7509c9cc829f3dda411fd54015849fd23ee825346008b030ee2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97edddb164525a0a5f68a432f359aae3ce0dee8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120018783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311429"
 ---
 # <a name="registry-information"></a>Informations de Registre
 

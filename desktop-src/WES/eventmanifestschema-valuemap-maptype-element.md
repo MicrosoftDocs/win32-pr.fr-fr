@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2d350060044bc66662947eb583c35337f642d77586fd7af24b2be99dc4a2d69f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aea7a02a1d744687e3ba2083fa4eb67472ee08e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192900"
 ---
 # <a name="valuemap-maptype-element"></a>valueMap (MapType), élément
 
@@ -32,7 +32,7 @@ Définit une liste de paires nom/valeur qui mappent des valeurs entières et des
 
 L’élément **valueMap** est défini par le type complexe [**maptype**](eventmanifestschema-maptype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, recherche du programme serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d4732bb1b47efc2614c79d5f36426c7d9f2118e2c9026f5a76aaf4b11ce54fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73b822dbca1a927e13f01d7c91aa7c78267db4d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127311525"
 ---
 # <a name="finding-the-server-program"></a>Recherche du programme serveur
 

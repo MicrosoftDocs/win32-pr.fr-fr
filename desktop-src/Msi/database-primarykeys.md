@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 50cbc29aa87f2dcaf9d347b1439b3914ba50a7a585d5c37c25823b10c8e5ca36
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc266bc2e563e6f32b7ff9b8c7c8cb0df69b723d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119382919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091693"
 ---
 # <a name="databaseprimarykeys-property"></a>Propriété Database. PrimaryKeys
 
@@ -39,11 +39,11 @@ propVal = Database.PrimaryKeys
 
 Nom obligatoire d’une table existante. Une erreur est générée si la table n’existe pas.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété **PrimaryKeys** ne peut pas être utilisée avec la table [ \_ tables](-tables-table.md) ou la [ \_ Table Columns](-columns-table.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

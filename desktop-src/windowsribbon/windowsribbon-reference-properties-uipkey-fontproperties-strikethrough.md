@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété Strikethrough FontProperties barré 
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746172ec2209861615375e73dee3f2336950a2dd93e76b33893190e9f7e8bc18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b684704fdd90a8dd1b88b14db2b52540b15fccb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850303"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234779"
 ---
 # <a name="ui_pkey_fontproperties_strikethrough"></a>IU \_ \_ FontProperties \_ barré
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_FONTPROPERTIES
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ FontProperties \_ barré est utilisée par une application pour interroger l’état du bouton **barré** .
 

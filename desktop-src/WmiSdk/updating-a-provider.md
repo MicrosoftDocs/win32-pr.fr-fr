@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Mise à jour d’un fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8c40a3d50672115478ae62135774f5a1aad93373bd5b844402e89462b44fd0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4869e6e9f7fbddc3081922f476ca021934065a18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192191"
 ---
 # <a name="updating-a-provider"></a>Mise à jour d’un fournisseur
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71651853d0d403c25a0f8c554bd31c2ae649bcf0258b6f1f578a03cc65a3b539
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 13e3cb6688ab918da0dfae8affed36903e6dcea7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985665"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117486"
 ---
 # <a name="psm_pagetoindex-message"></a>\_Message PSM PAGETOINDEX
 
@@ -43,11 +43,11 @@ Handle HPROPSHEETPAGE vers la page de la feuille de propriétés.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de base zéro de la page de feuille de propriétés spécifiée par *lParam* en cas de réussite. Sinon, retourne -1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

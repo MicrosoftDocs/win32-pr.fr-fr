@@ -4,12 +4,12 @@ ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
 title: MFPKEY_PASSESUSED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ab020c4b683dc87ced3ffda8665b6b0e62b65cf81001c23c00b39f64ba146b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6cb09949049db1910a419becec3423b0bb7c365
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117873046"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235961"
 ---
 # <a name="mfpkey_passesused-property"></a>MFPKEY \_ propriété PASSESUSED
 
@@ -27,11 +27,11 @@ VT \_
 
 1
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette valeur ne peut pas dépasser la valeur de [MFPKEY \_ PASSESRECOMMENDED](mfpkey-passesrecommendedproperty.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e67b2ac40834075b31ccf2415a52c96448b8143dde3d6bc67f9c515e1f601a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c9bc3d9985591a08b96be2f21d55b8a6cade9b7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120104869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116202"
 ---
 # <a name="tcm_getrowcount-message"></a>\_Message GETROWCOUNT de TCM
 
@@ -35,15 +35,15 @@ Récupère le nombre actuel de lignes d’onglets dans un contrôle onglet. Vous
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre de lignes d’onglets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Seuls les contrôles onglet avec le [**style \_ multiligne TCS**](tab-control-styles.md) peuvent avoir plusieurs lignes d’onglets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

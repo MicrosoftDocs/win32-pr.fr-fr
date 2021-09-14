@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c05452197fb71ca436fea4854346efa90f53ce6b3396e66af7e9b7ccb6615200
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28fde51466ba506802c8dbc5379f1628fd943fa8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118120387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192892"
 ---
 # <a name="valuemaptype-complex-type"></a>Type complexe ValueMapType
 
@@ -64,7 +64,7 @@ Définit une liste de mappages nom/valeur entre les valeurs entières et les val
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

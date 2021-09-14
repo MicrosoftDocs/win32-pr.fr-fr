@@ -4,12 +4,12 @@ ms.assetid: ad996a03-e94e-4743-90a2-aa390984a231
 title: Application des niveaux de gestion parentale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58bb9613af2bafb353df15bd84849724890faeb5c1191701cf2599522fd26fe7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7548721613c36369aaa34e5b5a62b665100e9495
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119941"
 ---
 # <a name="enforcing-parental-management-levels"></a>Application des niveaux de gestion parentale
 

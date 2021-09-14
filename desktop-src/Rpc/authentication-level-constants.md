@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03c27fa63a437c3c8a93c3d2e5e1f1983e341d5709e986c83459a3f505b46c6f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 114e5624b2cbc8af0b86a29daff2c1761f6fee39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120080919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123498"
 ---
 # <a name="authentication-level-constants"></a>Constantes au niveau de l’authentification
 
@@ -43,11 +43,11 @@ Les constantes de niveau d’authentification représentent les niveaux d’auth
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quelle que soit la valeur spécifiée par la constante, **Ncalrpc** utilise toujours le niveau de confidentialité de la \_ déclaration d’authentification RPC C \_ \_ \_ \_ .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

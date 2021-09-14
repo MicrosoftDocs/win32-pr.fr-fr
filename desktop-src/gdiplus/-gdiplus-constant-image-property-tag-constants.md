@@ -4,12 +4,12 @@ ms.assetid: 1eba4b91-bbf4-4f82-b2d7-65f331a84859
 title: Constantes de balise de propriété d’image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 509caf20659628909d225bb2dc34a4dbaa27047c08e361b28e9777141f213751
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dea9a6c3b8ea7ad9f0693032d3bc779bc414d9b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117696417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120213"
 ---
 # <a name="image-property-tag-constants"></a>Constantes de balise de propriété d’image
 

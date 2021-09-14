@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: ee942d66-fbbe-4da0-af5f-4fbc5854c58d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9cd9952cb49c91b54965238ffba30a02021ae449df368137361a21c24cd371
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84413b9bd25f57f88b2151ce1851a9519bbe6834
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119797509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115917"
 ---
 # <a name="tree-view"></a>Arborescence
 
@@ -221,7 +221,7 @@ Cette section contient des informations sur les éléments de programmation util
 | [**NMTVDISPINFOEX**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoexa)                 | Contient des informations relatives aux informations de notification étendues TreeView.<br/>                                                                                                                                                                                                                                                                           |
 | [**NMTVGETINFOTIP**](/windows/win32/api/commctrl/ns-commctrl-nmtvgetinfotipa)                 | Contient et reçoit les informations d’élément d’arborescence nécessaires à l’affichage d’une info-bulle pour un élément. Cette structure est utilisée avec le code de notification [TVN \_ GETINFOTIP](tvn-getinfotip.md) . <br/>                                                                                                                                                                      |
 | [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmtvitemchange)                 | Contient des informations sur une modification d’élément d’arborescence. Cette structure est envoyée avec les notifications [TVN \_ ITEMCHANGED](tvn-itemchanged.md) et [TVN \_ ITEMCHANGING](tvn-itemchanging.md) . <br/>                                                                                                                                                                   |
-| [**NMTVITEMRECT**](/previous-versions/windows/desktop/legacy/bb773428(v=vs.85))                     | Non pris en charge actuellement.<br/>                                                                                                                                                                                                                                                                                                                                 |
+| [**NMTVITEMRECT**](/previous-versions/windows/desktop/legacy/bb773428(v=vs.85))                     | Actuellement non pris en charge.<br/>                                                                                                                                                                                                                                                                                                                                 |
 | [**NMTVKEYDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmtvkeydown)                       | Contient des informations sur un événement de clavier dans un contrôle Tree-View. Cette structure est utilisée avec le code de notification KeyOut [TVN \_ ](tvn-keydown.md) . La structure est identique à la structure de la **\_ touche TV** , mais elle a été renommée pour suivre les conventions d’affectation de noms actuelles. <br/>                                                                       |
 | [**NMTVSTATEIMAGECHANGING**](/windows/win32/api/commctrl/ns-commctrl-nmtvstateimagechanging) | Contient des informations sur un code de notification de modification d’image d’état d’affichage d’arborescence.<br/>                                                                                                                                                                                                                                                                           |
 | [**TVGETITEMPARTRECTINFO**](/windows/win32/api/commctrl/ns-commctrl-tvgetitempartrectinfo)   | Contient des informations permettant d’identifier la « zone d’accès » pour une partie spécifiée d’un élément d’arborescence. La structure est utilisée avec le message [**TVM \_ GETITEMPARTRECT**](tvm-getitempartrect.md) et la [**macro \_ GETITEMPARTRECT TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getitempartrect) .<br/>                                                                                         |

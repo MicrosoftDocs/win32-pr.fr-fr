@@ -4,12 +4,12 @@ ms.assetid: ff4e61be-dbaa-4cfa-8c72-43e99fe1c3cb
 title: Mode LSA et mode utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa965cd66f43548243c1e62329e6d9d337a2a0123344a8cb9f10915846a765f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd8fadde30fe60c38a2b8ccb1f158d94ec7d5603
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123450"
 ---
 # <a name="lsa-mode-vs-user-mode"></a>Mode LSA et mode utilisateur
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5240d20f98b7b2c57f25226ae870024ebea660809defcd8f9cc9c9cfaf53164
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c11c299bc8817cc1627c40b3c465cd182e0f4c67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118858955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122886"
 ---
 # <a name="registeredtaskcollection-object"></a>Objet RegisteredTaskCollection
 
@@ -51,7 +51,7 @@ L’objet **RegisteredTaskCollection** a ces propriétés.
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [affichage des noms et des États des tâches (script)](displaying-task-names-and-state--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

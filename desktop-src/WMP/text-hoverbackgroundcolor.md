@@ -3,7 +3,7 @@ title: TEXT. hoverBackgroundColor
 description: L’attribut hoverBackgroundColor spécifie ou récupère la couleur d’arrière-plan utilisée pour le contrôle de texte lorsque le curseur de la souris pointe dessus.
 ms.assetid: bde05125-9cbc-42c8-a610-4c8c9ca40f73
 keywords:
-- TEXT. hoverBackgroundColor Windows Media Player
+- TEXT. hoverBackgroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fcef23163dd7ce34026a7c0ad8ed7a1297db5c66
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120509"
 ---
 # <a name="texthoverbackgroundcolor"></a>TEXT. hoverBackgroundColor
 
@@ -37,7 +37,7 @@ Si **hoverBackgroundColor** n’est pas spécifié, **backgroundColor** est util
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

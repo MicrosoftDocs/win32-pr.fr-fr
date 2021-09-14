@@ -5,12 +5,12 @@ ms.assetid: cabec269-b8e5-406e-a608-5f3313c4e874
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cae14a57e8b8fedec45b261e142bfdbdbd1691f8df424b9076160f31baa287a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a573898a21727c53f4586d483b58492573485f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120577"
 ---
 # <a name="remote-desktop-connection-broker-classes"></a>Classes Connexion Bureau à distance Broker
 

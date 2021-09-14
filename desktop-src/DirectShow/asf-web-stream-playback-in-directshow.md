@@ -4,12 +4,12 @@ ms.assetid: c7818c62-24af-4eac-84b8-f76be4ca6c09
 title: Lecture de flux Web ASF dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c28d9d3b7ea4fba5537383a846e6eff64f3815eefa21613c6056a15a5e497f77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d14a83d2baf9c11aa824f5d6358f62790c16b30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112209"
 ---
 # <a name="asf-web-stream-playback-in-directshow"></a>Lecture de flux Web ASF dans DirectShow
 

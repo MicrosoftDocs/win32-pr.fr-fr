@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d81c46982940a1ebff443d196445ae9398901a7c8a9ad97a0217a0d22c86bff2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a7653d0bcda28ca333bc5c70bdcd69bce382787
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120113"
 ---
 # <a name="enable-method-of-the-win32_networkadapter-class"></a>Activer la méthode de la \_ classe NetworkAdapter Win32
 
@@ -38,11 +38,11 @@ uint32 Enable();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez rencontrer des difficultés lors de l’utilisation de cette méthode si votre application ne dispose pas de l’accès administrateur privilidges.
 
@@ -75,7 +75,7 @@ WScript.Echo "NetEnabled= " & colAdapters.ItemIndex(0).NetEnabled
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

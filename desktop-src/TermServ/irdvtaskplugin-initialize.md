@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c14f4a002a0b33e403c02dba74385edd21e211fb27bcfb144c7a9ddc080a40fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9530be7334e1f3fefa7f73007334e448362a95ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118606102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118625"
 ---
 # <a name="irdvtaskplugininitialize-method"></a>IRDVTaskPlugin :: Initialize, méthode
 
@@ -51,19 +51,19 @@ Pointeur vers une interface [**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifys
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

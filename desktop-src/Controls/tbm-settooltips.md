@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a17aad8324946a96ab47344c2edc05abf76e02fba64a459b85f4af7b924bc7a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8d60c7e108db926b85e7d9e1167f33c1ed807a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119261389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116357"
 ---
 # <a name="tbm_settooltips-message"></a>\_Message TBM SETTOOLTIPS
 
@@ -39,15 +39,15 @@ Handle vers un contrôle ToolTip existant.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un contrôle TrackBar est créé avec le style des [**\_ info-bulles tbs**](trackbar-control-styles.md) , il crée un contrôle ToolTip par défaut qui apparaît à côté du curseur, en affichant la position actuelle du curseur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

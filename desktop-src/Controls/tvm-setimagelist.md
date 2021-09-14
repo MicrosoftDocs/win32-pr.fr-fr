@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df79089c7a2071c6af702da9ef862178738ede3dccff312c3fbae7dbefe4de56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f308cb8a56b2e74a5703af144bac03c271efc95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115602"
 ---
 # <a name="tvm_setimagelist-message"></a>TVM \_ SETIMAGELIST message
 
@@ -54,15 +54,15 @@ Handle de la liste d’images. Si *lParam* a la **valeur null**, le message supp
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle vers la liste d’images précédente, le cas échéant, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle Tree-View ne détruit pas la liste d’images spécifiée avec ce message. Votre application doit détruire la liste d’images lorsqu’elle n’est plus nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

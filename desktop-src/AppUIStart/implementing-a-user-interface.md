@@ -4,12 +4,12 @@ description: cette section décrit certaines des tâches associées à l’impl�
 ms.assetid: 889791a7-d12c-4ec6-9b04-8fed14ecdb2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7967474781e180ab29a42fce6884cc391515eef0211107852659eace3490e712
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0941458e046a85dc6e27a684d8aa3a7ea609e889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119702339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120149"
 ---
 # <a name="implementing-a-user-interface"></a>Implémentation d’une interface utilisateur
 

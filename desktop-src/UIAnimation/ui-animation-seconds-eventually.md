@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 066bfdc879edf234209532080d23ca3fe813b9218cebc7fba99710bc1ca61acf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22448287599707b10de147224047525745b072c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119058157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192480"
 ---
 # <a name="ui_animation_seconds_eventually"></a>\_secondes d’animation de l’interface utilisateur \_ \_
 
@@ -31,7 +31,7 @@ indique que Windows Animation peut retarder le démarrage planifié d’un story
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

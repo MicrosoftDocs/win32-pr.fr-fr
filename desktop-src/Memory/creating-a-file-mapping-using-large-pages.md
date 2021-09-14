@@ -4,12 +4,12 @@ ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: Création d’un mappage de fichier à l’aide de pages de grande taille
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df68cc483856d0fe7f329b4f5e6e5c8a424a8c0e55958ca1da8de1ce51cbf71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 49a852de187f6798904ef1795dca5955663283f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094194"
 ---
 # <a name="creating-a-file-mapping-using-large-pages"></a>Création d’un mappage de fichier à l’aide de pages de grande taille
 

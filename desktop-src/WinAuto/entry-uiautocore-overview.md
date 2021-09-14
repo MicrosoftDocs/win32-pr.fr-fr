@@ -15,12 +15,12 @@ keywords:
 - API Microsoft UI Automation pour Microsoft Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d62627d1e096738abad67d7bb2bcf0e482052c5e5b4e0e913d9c2ea0ee56c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ba8147a8dd7f8d03340fad43465c225a174e606
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118522"
 ---
 # <a name="ui-automation-fundamentals"></a>Notions de base d'UI Automation
 

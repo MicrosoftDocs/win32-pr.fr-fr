@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c7f345c33b7f6049da19d64a8cb5b2247ae5045ba7e979f9880d34d32b19fe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ba2d5bc6f966d9b10c0dadccb221086e64de827
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119490239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119190"
 ---
 # <a name="glteximage2d-function"></a>glTexImage2D fonction)
 
@@ -141,7 +141,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                                                                                                                        |
+| Nom                                                                                                  | Signification                                                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *cible* n’était pas une \_ texture GL \_ 2D.<br/>                                                                                                                                                                                |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *format* n’était pas une constante de *format* acceptée. Seules les constantes de format autres que l' \_ index du stencil GL et le composant de \_ \_ profondeur GL \_ sont acceptées. Pour obtenir la liste des valeurs possibles, consultez la description du paramètre *format* .<br/> |
@@ -155,7 +155,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glTexImage2D** spécifie une image de texture à deux dimensions. La texturation mappe une partie d’une *image de texture* spécifiée sur chaque primitive graphique pour laquelle la texturation est activée. La texturation à deux dimensions est activée et désactivée à l’aide de [**glEnable**](glenable.md) et **glDisable** avec l’argument GL \_ texture \_ 2D.
 
@@ -177,7 +177,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glTexImage2
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ texture \_ 2D
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

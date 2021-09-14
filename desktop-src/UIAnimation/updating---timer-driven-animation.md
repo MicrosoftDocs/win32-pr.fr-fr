@@ -9,12 +9,12 @@ keywords:
 - transitions Windows Animation, ajouter à la table de montage séquentiel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f992ae7720fea692d5e0b813e6cb9c35fab61d4bf2c781c928d9c8fcd08adb33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ee85aac4db11371c9a1e4a2aa254421d217cfd5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118999639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192468"
 ---
 # <a name="create-a-storyboard-and-add-transitions"></a>Créer une table de montage séquentiel et ajouter des transitions
 

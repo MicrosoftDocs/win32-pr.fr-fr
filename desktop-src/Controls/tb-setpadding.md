@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da488c7aab3a6856fd1bd8db6911336eb52881da396e287937678600158d9655
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65fae53f7e7702528915af7631bd675f11188b71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116529"
 ---
 # <a name="tb_setpadding-message"></a>TO \_ SETPADDING message
 
@@ -43,15 +43,15 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui contient le remplissage horizontal précédent dans le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) et le remplissage vertical précédent dans le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)), en pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de remplissage sont utilisées pour créer une zone vide entre le bord du bouton et l’image et/ou le texte du bouton. L’emplacement et la quantité de remplissage réellement appliqués dépendent du type du bouton et de la présence ou non d’une image. Le remplissage horizontal est appliqué à droite et à gauche du bouton, et le remplissage vertical est appliqué à la fois au haut et au bas du bouton. Le remplissage est appliqué uniquement aux boutons qui ont le style de [**\_ redimensionnement automatique TBSTYLE**](toolbar-control-and-button-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

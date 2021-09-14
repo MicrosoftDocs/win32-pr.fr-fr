@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 18ac3dba88d9cf781393b01b6594777426b7195e6f68afa0fd00a5bddb01f129
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 786fa3491919659fca60700cfb086023c3fdef3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118033"
 ---
 # <a name="core_printer_driver-structure"></a>Structure du pilote d' \_ imprimante principale \_
 
@@ -72,11 +72,11 @@ Chemin d’accès au package de pilotes qui contient le pilote d’imprimante pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure peut représenter le pilote de base d’un fabricant sur lequel les pilotes de différents modèles d’imprimante sont dépendants.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

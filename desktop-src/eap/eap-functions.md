@@ -6,12 +6,12 @@ keywords:
 - Fonctions EAP, liste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357c09ad269f03edd8527931e120d0f1c33bf68bd8821740aa7e8db83c5d6172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cf2d29ad662d92a04f24b9dd1a6de1d4ef8a3c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120342"
 ---
 # <a name="eap-functions"></a>Fonctions EAP
 

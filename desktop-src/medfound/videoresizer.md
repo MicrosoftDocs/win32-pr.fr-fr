@@ -4,12 +4,12 @@ ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
 title: Dimensionnement vidéo DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d26dcc53baf38336656d870acc5583066e0816a0bf963217db1da54513ee18
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff7826f21cadc6d30bc2b8b04bbcc741c2bf31bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119721319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235775"
 ---
 # <a name="video-resizer-dsp"></a>Dimensionnement vidéo DSP
 
@@ -85,7 +85,7 @@ Le redimensionnement vidéo DSP prend en charge les sous-types de médias d’en
 -   [MFPKEY \_ REdimensionner \_ PANSCANAPHEIGHT](mfpkey-resize-panscanapheight.md)
 -   [MFPKEY \_ PIXELASPECTRATIO](mfpkey-pixelaspectratio.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le rôle d’application vidéo redimensionnement DSP est implémenté en tant qu’objet COM pouvant agir en tant que DMO ou MFT. l’objet a un identificateur de classe unique (CLSID), qu’il agisse en tant que DMO ou MFT. pour plus d’informations sur le moment où un DSP agit en tant que DMO ou MFT, consultez [processeurs de Signal numérique](windowsmediadigitalsignalprocessors.md).
 
@@ -123,7 +123,7 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [**\_ouverture de \_ l' \_ affichage \_ de la version MF**](mf-mt-minimum-display-aperture-attribute.md)
 -   [**\_ouverture de \_ l' \_ analyse \_ panoramique MF MT**](mf-mt-pan-scan-aperture-attribute.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

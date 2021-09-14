@@ -4,12 +4,12 @@ description: en savoir plus sur les valeurs de registre de la méthode EAP Authe
 ms.assetid: 9374f9f7-b088-4e3a-ac96-8ccbeda87bb7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1db88a910a40519533ffddae40c1e1cc04d36b62f3d3ad6543ddd4a2999373e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a710ca6f09914c8d111c42a8323a9c39c51f898
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118405"
 ---
 # <a name="eap-authenticator-method-registry-values"></a>valeurs de registre de la méthode Authenticator EAP
 

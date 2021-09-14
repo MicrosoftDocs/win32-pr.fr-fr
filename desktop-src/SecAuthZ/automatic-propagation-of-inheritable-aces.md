@@ -4,12 +4,12 @@ ms.assetid: 0aa49b9b-13e3-4ef9-921d-ea47a013e5a1
 title: Propagation automatique des ACE pouvant être héritées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3257c038174549eebb8d960f8f4bc0601f95a928478e2a783f93f4a1444a22d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fab03c73a1c926468e46a0d0492e512dab42af6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117783716"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118930"
 ---
 # <a name="automatic-propagation-of-inheritable-aces"></a>Propagation automatique des ACE pouvant être héritées
 

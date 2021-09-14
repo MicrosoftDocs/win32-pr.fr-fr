@@ -4,12 +4,12 @@ ms.assetid: 11558ae9-1056-48bf-96f5-94a051df41c3
 title: Objets de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd011663e13d8d6992355d99cc643e2f7243f8385ae75f9274367bfc43fe5f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 299cbd6225b3cc7629378f5fe500fc36ccbe8e86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120694"
 ---
 # <a name="synchronization-objects"></a>Objets de synchronisation
 

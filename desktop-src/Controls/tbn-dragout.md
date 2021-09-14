@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad707fa357a487e271bbe03039745b97521542a1305f9745a71a56044060c950
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54fa61ef183b56b882c6ecdcb9d0d59edbf13e80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077943"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116329"
 ---
 # <a name="tbn_dragout-notification-code"></a>\_Code de notification TBN DRAGOUT
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMTOOLBAR**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce code de notification permet à une application d’implémenter la fonctionnalité glisser-déplacer pour les boutons de barre d’outils. Lors du traitement de ce code de notification, l’application commence l’opération de glisser-déplacer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

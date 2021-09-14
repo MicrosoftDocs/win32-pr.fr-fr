@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: 57463a7025ea816b6fe6bcaa8b964231458903de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526551"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119982"
 ---
 # <a name="cimageallocatorcreateimagesample-method"></a>Méthode CImageAllocator. CreateImageSample
 
@@ -57,7 +57,7 @@ Longueur de la mémoire tampon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un objet [**CImageSample**](cimagesample.md) .
 
@@ -67,13 +67,13 @@ Cette méthode crée un nouvel exemple de support, implémenté comme un objet *
 
 Si vous dérivez une nouvelle classe Allocator de [**CImageAllocator**](cimageallocator.md) et un nouvel exemple de classe de support à partir de [**CImageSample**](cimagesample.md), vous devez substituer cette méthode pour créer une instance de votre classe d’exemple de support.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

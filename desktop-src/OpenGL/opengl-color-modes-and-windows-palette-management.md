@@ -9,12 +9,12 @@ keywords:
 - modes de couleurs OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf91ebb45e99368596cb48cb625f0eb6de025e6664144f104f6a9c17951a1e7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa3d63778301ec55b962f3f66e79d99cee09be9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233550"
 ---
 # <a name="opengl-color-modes-and-windows-palette-management"></a>Modes de couleurs OpenGL et gestion de la Palette de Windows
 

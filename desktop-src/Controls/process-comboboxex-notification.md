@@ -4,12 +4,12 @@ description: Cette rubrique montre comment traiter les messages de notification 
 ms.assetid: 375634BC-CDD6-4D72-A41E-FCBFCBFE7F03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ec73c31020283afe5876567a57fc1fbd8a23cee123e9dc417c14c57a86709a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a9787e22aa01d51478ca55f0dde5d7ac944decb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119575489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117605"
 ---
 # <a name="how-to-process-comboboxex-notifications"></a>Traitement des notifications ComboBoxEx
 

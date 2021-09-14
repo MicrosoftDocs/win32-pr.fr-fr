@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 86cb3ee7c9d62d943a369dd18cb4471e0682c1c1d0f5e6193a6f34b8c0451203
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 013215af3f5005e68b396312d0ef13fa974d8a32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117859851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235253"
 ---
 # <a name="folderitemverbsitem-method"></a>FolderItemVerbs. Item, méthode
 
@@ -48,7 +48,7 @@ Index de base zéro de l'élément à récupérer. Cette valeur doit être infé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
@@ -170,7 +170,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

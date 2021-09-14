@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b337cff6e8a21ab859c78625c613a71da45d134f1cae0ff40d7f501fa6ce3466
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2844fef209aedf6819aeaa5a5b6b8a2d698b39a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118120377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192852"
 ---
 # <a name="event-schema-complex-types"></a>Types complexes de schéma d’événement
 
@@ -28,7 +28,7 @@ Voici les types complexes définis par le schéma d’événement.
 | [**Décimal**](eventschema-datafieldtype-complextype.md)                          | Définit un élément de données.<br/>                                                                                                                                                                           |
 | [**DebugDataType**](eventschema-debugdatatype-complextype.md)                     | définit les données qui peuvent être journalisées pour Windows événements du préprocesseur de trace logiciel (WPP).<br/>                                                                                                      |
 | [**EventDataType**](eventschema-eventdatatype-complextype.md)                     | Définit les éléments de données d’événement et les structures qui contiennent les données d’événement.<br/>                                                                                                                      |
-| [**Type d’événement**](eventschema-eventtype-complextype.md)                             | Définit le nœud racine du schéma d’événement.<br/>                                                                                                                                                     |
+| [**EventType**](eventschema-eventtype-complextype.md)                             | Définit le nœud racine du schéma d’événement.<br/>                                                                                                                                                     |
 | [**ProcessingErrorDataType**](eventschema-processingerrordatatype-complextype.md) | Définit une erreur qui s’est produite lors du rendu des données d’événement pour l’événement.<br/>                                                                                                                   |
 | [**RenderingInfoType**](eventschema-renderingtype-complextype.md)                 | Définit les messages rendus pour l’événement.<br/>                                                                                                                                                   |
 | [**SystemPropertiesType**](eventschema-systempropertiestype-complextype.md)       | Définit les informations qui identifient le fournisseur et comment il a été activé, l’événement, le canal vers lequel l’événement a été écrit et les informations système telles que les ID de processus et de thread.<br/> |

@@ -3,7 +3,7 @@ title: Attribut FileType
 description: L’attribut FileType est l’extension de nom de fichier de trois lettres, par exemple \ 0034 ; WMA \ 0034 ; ou \ 0034 ; mp3 \ 0034 ;.
 ms.assetid: 0ddfd368-1fb6-4053-bf6f-efda0d9c66ba
 keywords:
-- Attribut FileType lecteur Windows Media
+- attribut FileType Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 265ed72a22120690dc81bd1bb93cee2445edc758
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535364"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192267"
 ---
 # <a name="filetype-attribute"></a>Attribut FileType
 
@@ -38,13 +38,13 @@ Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans le lecteur Windows Media 10 ou version ultérieure)<br/> |
+| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans Lecteur Windows Media 10 ou version ultérieure)<br/> |
 
 
 

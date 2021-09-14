@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4e1799039081ed8250cb062aa3d1348a2fe8a8dbdcfa768fab74855d18d8e9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d7557d40c6dcec38ce629d949a8db9915714821
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831670"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120017"
 ---
 # <a name="em_getoleinterface-message"></a>\_Message GETOLEINTERFACE em
 
@@ -43,13 +43,13 @@ Pointeur vers un pointeur qui reçoit l’objet [**IRichEditOle**](/windows/desk
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est une valeur différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

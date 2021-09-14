@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)
 title: Modèle XMVectorPermute (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd3f7071edaf659991c1294d29a154d3a319d5faee982537025e107cf9621f55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37271cbb165f1e9c1769ef3a55e47f1e07310a81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120358"
 ---
 # <a name="xmvectorpermute-template"></a>Modèle XMVectorPermute
 
@@ -46,7 +46,7 @@ template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t Permu
 
 Retourne le vecteur permuté qui résulte de la combinaison des vecteurs sources.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si les 4 index ne référencent qu’un seul vecteur (c’est-à-dire qu’ils se trouvent tous dans la plage 0-3 ou dans la plage 4-7), utilisez [**XMVectorSwizzle**](xmvectorswizzle-template.md) à la place pour obtenir de meilleures performances.
 
@@ -67,7 +67,7 @@ Les constantes [XM \_ permute \_](ovw-xnamath-reference-constants.md) sont fourn
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

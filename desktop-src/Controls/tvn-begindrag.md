@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95952ee42dfe8eb8dd1a46c66dcd452f41cbc9723fa175c2a0d1fc75056c31ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08f47f55a5e2eae552f64234a8e43ef0961f38c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115530"
 ---
 # <a name="tvn_begindrag-notification-code"></a>\_Code de notification TVN BEGINDRAG
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle d’arborescence avec le style [**TV \_ DISABLEDRAGDROP**](tree-view-control-window-styles.md) style n’envoie pas ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

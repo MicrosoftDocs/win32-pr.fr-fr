@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c01db02ef1bfd194330483c8dd7e71eba7ed09d9b347aee4b4813f413950c65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c7144e03955fb67ed90cad4a4336bf782ca1566
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192351"
 ---
 # <a name="externalonviewchange-event"></a>External. OnViewChange, événement
 
@@ -42,7 +42,7 @@ il s’agit d’une propriété en écriture seule qui spécifie le nom de la fo
 
 La fonction qui gère cet événement n’accepte aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la vue dans Lecteur Windows Media peut changer pour l’une des raisons suivantes :
 
@@ -52,7 +52,7 @@ la vue dans Lecteur Windows Media peut changer pour l’une des raisons suivante
 
 lorsque la vue change dans Lecteur Windows Media, le lecteur appelle [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) pour obtenir l’URL de la page de découverte suivante à afficher. Toutefois, avant que le lecteur n’affiche la page nouvelle détection, il déclenche l’événement **OnViewChange** . si le gestionnaire d’événements **OnViewChange** appelle [External. cancelNavigate](external-cancelnavigate.md), Lecteur Windows Media n’affiche pas la page nouvelle détection. Au lieu de cela, il continue d’afficher la page de découverte actuelle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

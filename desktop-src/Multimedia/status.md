@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bd209ed04e51671ce7d9c8a7ae88a79073836c2e
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119454"
 ---
 # <a name="status-command"></a>commande Status
 
@@ -820,7 +820,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne des informations dans le paramètre *lpszReturnString* de [**mciSendString**](/previous-versions//dd757161(v=vs.85)). Les informations dépendent du type de demande.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) .
 

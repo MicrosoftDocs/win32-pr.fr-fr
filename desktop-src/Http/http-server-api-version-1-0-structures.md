@@ -7,12 +7,12 @@ keywords:
 - Structures HTTP, API serveur HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0bae846a4ee67312e428afe59c6215cda85050a70988ff6cb5e3e6c9ffa4067
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67cdd426bbe9329e089352999acf5c0f79b6f94f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118150322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234017"
 ---
 # <a name="http-server-api-version-10-structures"></a>Structures de la version 1,0 de l’API du serveur HTTP
 

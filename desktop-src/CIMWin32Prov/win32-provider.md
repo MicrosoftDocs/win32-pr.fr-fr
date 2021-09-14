@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fournisseur Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dca4426f849b59dfbfb5f667c32e8e3b9cd47ca7482fd3547d631592a080f968
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0dfb29b6f80ed833de0f4185070d46770c6cd2f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118007772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124237"
 ---
 # <a name="win32-provider"></a>Fournisseur Win32
 

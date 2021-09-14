@@ -4,12 +4,12 @@ description: Microsoft UI Automation est une infrastructure d’accessibilité q
 ms.assetid: 700ca38d-ff40-472b-a95a-11fa94c3bc1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55951bf103906aace627a03ab84557d6a555aa793f1e0cec7ff2c81598e71558
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8006c79299cc1f736dc43555968443f634d4a51
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118525"
 ---
 # <a name="ui-automation"></a>Automatisation de l’interface utilisateur
 

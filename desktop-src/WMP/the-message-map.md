@@ -3,18 +3,18 @@ title: La table des messages
 description: La table des messages
 ms.assetid: 4640b0f5-625e-4a9e-86f5-3e75d0afb40d
 keywords:
-- Plug-ins du lecteur Windows Media, table des messages
+- plug-ins Lecteur Windows Media, table des messages
 - plug-ins, table des messages
 - plug-ins d’interface utilisateur, table des messages
 - Plug-ins d’interface utilisateur, table des messages
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6ea7fc04caf752383368ab6e51ae19c82e8c3515
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029320"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118558"
 ---
 # <a name="the-message-map"></a>La table des messages
 
@@ -40,9 +40,9 @@ END_MSG_MAP()
 [**Implémentation de CPluginWindow**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

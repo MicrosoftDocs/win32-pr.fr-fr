@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fa0134ca1c3cf88e0e25f253cca4ebeb16a89b5bdaa982cf4e9e96e85bfb1d35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3521ee9e76aecd486093f903d336c08553e0e4ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118988699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120429"
 ---
 # <a name="d3dxcolorlerp-function"></a>D3DXColorLerp fonction)
 
@@ -79,13 +79,13 @@ Paramètre qui interpole de manière linéaire entre les couleurs pC1 et pC2, en
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est le résultat de l’interpolation linéaire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction **D3DXColorLerp** peut être utilisée comme paramètre pour une autre fonction.
 
@@ -101,7 +101,7 @@ pOut->r = pC1->r + s * (pC2->r - pC1->r);
 
 Si vous effectuez une interpolation linéaire entre les couleurs A et B, et que s est égal à 0, la couleur résultante est. Si s est 1, la couleur résultante est la couleur B.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

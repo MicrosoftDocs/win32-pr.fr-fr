@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d8b9f5398ba63c0e6108adfefd51d0546180db4536dbd95615e5b15dddde523
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b01bbad5ef48b5f709f93f018c56b5798907d08c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118940217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119433"
 ---
 # <a name="inapcertrelyingpartyunsubscribecertbygroup-method"></a>INapCertRelyingParty :: UnSubscribeCertByGroup, méthode
 
@@ -62,7 +62,7 @@ Doit avoir la **valeur null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’un des codes d’erreur suivants en fonction du résultat de cette opération.
 
@@ -78,13 +78,13 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 S’il n’y a pas d’autres abonnés à HCS, NapAgent supprimera les certificats d’intégrité correspondants du magasin de l’ordinateur local.
 
 Avant d’appeler cette méthode, appelez [**SubscribeCertByGroup**](inapcertrelyingparty-subscribecertbygroup.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

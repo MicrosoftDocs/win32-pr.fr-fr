@@ -5,11 +5,11 @@ title: Démarrage d’un service
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3c8f30bb7f6ce9695a050033314a62ae870250c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120746"
 ---
 # <a name="starting-a-service"></a>Démarrage d’un service
 

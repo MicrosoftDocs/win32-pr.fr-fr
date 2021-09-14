@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: 3dd7ce876501486b9bec4dbad63ce5812b910b32b9dcdaa1eb80aff3e7cc415e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36457eebf5c38b32bb46eb8cfa44cae104f1bc6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119337"
 ---
 # <a name="wzcqueryinterface-function"></a>WZCQueryInterface fonction)
 
@@ -96,7 +96,7 @@ Un ensemble de champs correctement récupérés.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
@@ -116,7 +116,7 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes de retou
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le membre **wszGuid** de la structure d' [**\_ entrée INTF**](intf-entry.md) vers laquelle pointe le paramètre *pIntf* doit contenir un GUID d’interface pour une interface de réseau local sans fil. Une liste d’interfaces de réseau local sans fil peut être récupérée en appelant la fonction [**WZCEnumInterfaces**](wzcenuminterfaces.md) .
 
@@ -133,7 +133,7 @@ Si la fonction **WZCQueryInterface** retourne \_ une erreur, l’appelant doit a
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

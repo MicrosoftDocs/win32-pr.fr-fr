@@ -4,12 +4,12 @@ ms.assetid: 4c8de310-49e6-4d90-a920-0c715351c86a
 title: connexion de votre Service Web dans Windows recherche fédérée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4980b2d62f766806cf89856b8ef9e5231284be0dfea3258d2e5d5155e7a46598
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45632d1d3c7b820ab1f39db0896c9f2927b24ccb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119456719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127313230"
 ---
 # <a name="connecting-your-web-service-in-windows-federated-search"></a>connexion de votre Service Web dans Windows recherche fédérée
 

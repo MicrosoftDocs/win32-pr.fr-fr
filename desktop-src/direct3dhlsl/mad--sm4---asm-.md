@@ -4,12 +4,12 @@ description: Ajout par multiplication au niveau du composant.
 ms.assetid: 1C24AF49-AA32-4D3A-8478-C9BAC4FE7D77
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc4569cc656aa723c2923ad19b601cd37ff850868627db5bc0613b50b016dcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d34823cdb3545f29426117b35903c97c08c5807
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117906720"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192048"
 ---
 # <a name="mad-sm4---asm"></a>Mad (SM4-ASM)
 
@@ -37,7 +37,7 @@ Multiplier par le composant & ajouter.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction s’applique aux étapes suivantes du nuanceur :
 
@@ -57,11 +57,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

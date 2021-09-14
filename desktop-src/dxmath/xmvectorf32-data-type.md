@@ -4,12 +4,12 @@ ms.assetid: bafaa59f-fd1b-e252-cbbd-903df796fde0
 title: Type de données XMVECTORF32 (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1a39de246e3e0e4ab9a96197dbe4a286cb6ecabe327d60e5c506795af79dd11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e56e79ea678ede0afcac3523c09da725ede00d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120373"
 ---
 # <a name="xmvectorf32-data-type"></a>Type de données XMVECTORF32
 
@@ -22,7 +22,7 @@ typedef XMVECTORF32 vectorf32;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir la liste des fonctionnalités supplémentaires, telles que les constructeurs et les opérateurs, disponibles à l’aide `XMVECTORF32` de lors de la programmation en C++, consultez [Extensions XMVECTORF32](ovw-xmvectorf32-extensions.md).
 
@@ -47,7 +47,7 @@ data = floatingVector;
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f342e3322c0db60f46b0de353c2bbd2f6abe28717aa8ee23db8a3a9f26473113
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b15babf2fd5d97377991d1827ea8947e9d794600
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078323"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116734"
 ---
 # <a name="tb_getpadding-message"></a>TO \_ GETPADDING message
 
@@ -35,11 +35,11 @@ Récupère le remplissage pour un contrôle de barre d’outils.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** qui contient la marge intérieure horizontale dans le mot bas et la marge intérieure verticale dans le mot haut, en pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

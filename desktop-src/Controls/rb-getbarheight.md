@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c6cf5758de66c7474e344e38b68473601fe9cd01bf9060de688d8e4a30c45ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a32eaaa10934f950e30cb429f1fc9e7d3df26bdc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078713"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117329"
 ---
 # <a name="rb_getbarheight-message"></a>\_Message GETBARHEIGHT RB
 
@@ -35,11 +35,11 @@ Récupère la hauteur du contrôle rebar.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **uint** qui représente la hauteur, en pixels, du contrôle.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 1ad7ce342c1e0053622bfb77161ecd1e5d81c25d09af179108065b445dd4dc35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d42af1912365a4237889e4e46d0fb3343377c772
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118365074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119230"
 ---
 # <a name="irtcpause-method"></a>IRTC ::P méthode ause
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est dans un état suspendu, les nouveaux frames ne sont pas capturés jusqu’à ce que la méthode [IRTC :: Resume](irtc-resume.md) soit appelée pour redémarrer la capture.
 
@@ -65,7 +65,7 @@ Lorsque vous utilisez les méthodes **IRTC ::P ause** et **IRTC :: Resume** po
 
 Pour redémarrer l’appel de capture [IRTC :: Resume](irtc-resume.md). Pour arrêter la capture, appelez [IRTC :: Stop](irtc-stop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

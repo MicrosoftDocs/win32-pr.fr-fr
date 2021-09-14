@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: f62173747472820f1642578778b67f3cdc3403523d6ae28453888dae3d6d1a23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c808bddde5b9b4e4a87a8608c1efb3999ce1f391
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118053"
 ---
 # <a name="closespoolfilehandle-function"></a>CloseSpoolFileHandle fonction)
 
@@ -54,15 +54,15 @@ Handle du fichier spouleur en cours de fermeture. Si [**CommitSpoolData**](commi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **True**, si elle est réussie, **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Votre application ne doit pas appeler [**ClosePrinter**](closeprinter.md) sur *hPrinter* tant qu’elle n’a pas accédé au fichier spool pour la dernière fois. Ensuite, il doit appeler **CloseSpoolFileHandle** suivi de **ClosePrinter**. Toute tentative d’accès au descripteur de fichier de mise en file d’attente après la fermeture du *hPrinter* d’origine échoue, même si le descripteur de fichier lui-même n’a pas été fermé. **CloseSpoolFileHandle** échoue si **ClosePrinter** est appelé en premier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

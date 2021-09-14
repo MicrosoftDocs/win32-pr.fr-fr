@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a08cafbeafeccb2235cb9b653f997aa8c60bd5fd21a3ccbc92e572fa5d3d0db
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 08195cddc96c8b92f403be6940f31099e21151f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117446"
 ---
 # <a name="psm_setfinishtext-message"></a>\_Message PSM SETFINISHTEXT
 
@@ -45,15 +45,15 @@ Pointeur vers le nouveau texte pour le bouton **Terminer** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, le bouton **Terminer** n’a pas d’accélérateur clavier. Vous pouvez créer une touche d’accès rapide avec ce message en incluant une esperluette (&) dans la chaîne de texte que vous attribuez à *lParam*. Par exemple, « &Finish » définit F comme touche accélérateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

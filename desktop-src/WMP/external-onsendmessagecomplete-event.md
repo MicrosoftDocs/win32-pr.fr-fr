@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1dede59d2c52f20050a490e6ded1389e63884e598868e9736195280e3269a72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05d4de69a753811537f60ae8a3244cfaf012f60d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192355"
 ---
 # <a name="externalonsendmessagecomplete-event"></a>External. OnSendMessageComplete, événement
 
@@ -65,7 +65,7 @@ La même chaîne qui a été passée dans le paramètre **param** de **SendMessa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **SendMessage** appelle [IWMPContentPartner :: SendMessage](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage), qui retourne de manière asynchrone. Autrement dit, il retourne avant que le magasin en ligne ne termine le traitement du message. Lorsque le magasin en ligne a terminé le traitement du message, il appelle [IWMPContentPartnerCallback :: SendMessageComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete), qui à son tour appelle le gestionnaire d’événements **OnSendMessageComplete** du script.
 
@@ -73,7 +73,7 @@ Lorsque le magasin en ligne appelle **IWMPContentPartnerCallback :: SendMessage
 
 aucun des paramètres (*Msg*, *Param*, *Result*) du gestionnaire d’événements **OnSendMessageComplete** n’est interprété par Lecteur Windows Media. Les paramètres n’ont de sens que dans le magasin en ligne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

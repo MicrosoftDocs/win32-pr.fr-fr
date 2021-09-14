@@ -4,12 +4,12 @@ ms.assetid: 58cc052d-31af-4410-81b9-defbad08a1dc
 title: Découpage (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a57534c5934270374af356956285ad13838630666795d9f06a2623cbd3b453ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 156ae2209a3b7135cde2804103531eaf7b519d73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118067633"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120226"
 ---
 # <a name="clipping-gdi"></a>Découpage (GDI+)
 

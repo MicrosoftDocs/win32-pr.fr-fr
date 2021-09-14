@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 488c78ff00b75c42f6646e314c75d63445c7400eb9130464b126e75bcf2df942
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d4b20f1908f441c38e23aa7428f8c8edb8a192c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119434189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116281"
 ---
 # <a name="tbn_mapaccelerator-notification-code"></a>\_Code de notification TBN MAPACCELERATOR
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMCHAR**](/windows/win32/api/commctrl/ns-commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 TRUE si **NMCHAR. dwItemNext** est défini sur une valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

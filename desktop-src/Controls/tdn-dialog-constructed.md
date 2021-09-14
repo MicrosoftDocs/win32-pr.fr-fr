@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f9d2e6497c1ed13e653edbd84a6fae05690367721201b0a0024bd524460195
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c8d3360a8cee3542037ea927363de8cab69977e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120104469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116038"
 ---
 # <a name="tdn_dialog_constructed-notification-code"></a>Code de notification de la \_ boîte de dialogue TDN \_
 
@@ -53,11 +53,11 @@ Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

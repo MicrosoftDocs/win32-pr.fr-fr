@@ -6,12 +6,12 @@ keywords:
 - TBN_GETDISPINFO les contrôles de Windows de code de notification
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ffa2afafee64a82fb440d3d1e3031899ab94c0614d32449062ca29426aaa6a8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f5f3a0a47adfe7f172f7a4d0e4c9139b67aef01d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116298"
 ---
 # <a name="tbn_getdispinfo-notification-code"></a>\_Code de notification TBN GETDISPINFO
 
@@ -37,11 +37,11 @@ Pointeur vers une structure [**NMTBDISPINFO**](/windows/desktop/api/Commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée par le contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

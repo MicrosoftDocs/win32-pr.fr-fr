@@ -4,12 +4,12 @@ description: cette section contient des informations sur l’utilisation de l’
 ms.assetid: c2855190-584b-406d-acff-5ffbf10dbb5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f87c8d0b4dbe851562b0b298cac55b051397b42e6710c536c900c9755fd6e512
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8aca9896eabf1f785cef590993a0e6184f70c39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119510829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192116"
 ---
 # <a name="using-windows-event-log"></a>utilisation du journal des événements Windows
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ef08d33903f002e3aaa8975580a770b941cf4330e8d8e2260dc9a0a4947713
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 598f5fc30a9063befff384a8f081027b69fb9512
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119798559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117261"
 ---
 # <a name="rb_minimizeband-message"></a>\_Message MINIMIZEBAND RB
 
@@ -39,11 +39,11 @@ Index de base zéro de la bande à réduire.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

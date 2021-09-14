@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8887d8a7f868e3b9f0ef97e804d3a3c22a629b6136d1d1da9daa69d1cc6137
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 88334b9eb9791ee20be4b9defd6e979f788c5067
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120079849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117850"
 ---
 # <a name="nm_releasedcapture-header-notification-code"></a>\_Code de notification RELEASEDCAPTURE nm (en-tête)
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le contrôle ignore la valeur de retour de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

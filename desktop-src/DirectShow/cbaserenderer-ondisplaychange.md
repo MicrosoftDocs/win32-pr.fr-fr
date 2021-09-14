@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3f7fc5d733d90ab88f1114558947b6e72958c1d8b18d507ce612c1865fc400e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e99a8626d523e8b14b013acc9d2ead462f48df3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230429"
 ---
 # <a name="cbaserendererondisplaychange-method"></a>Méthode CBaseRenderer. OnDisplayChange
 
@@ -40,15 +40,15 @@ BOOL OnDisplayChange();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si l’événement a été publié, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les convertisseurs vidéo doivent appeler cette méthode en réponse aux \_ messages WM DISPLAYCHANGE. Si la broche d’entrée est connectée, la méthode envoie \_ un \_ événement de modification d’affichage EC au gestionnaire de graphique de filtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

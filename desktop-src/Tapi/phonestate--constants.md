@@ -4,12 +4,12 @@ ms.assetid: 5db53dd4-606a-40b9-9159-b67a0ea1e400
 title: Constantes PHONESTATE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 675a68e252e32cba718f9e506e7d45c95210348c1b9951877d79a30dfae8a462
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6346251f6947aebb2a5941389843e2abcec77c4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119773879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118825"
 ---
 # <a name="phonestate_-constants"></a>\_Constantes PHONESTATE
 
@@ -257,11 +257,11 @@ L’utilisation du téléphone par l’application est temporairement suspendue.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

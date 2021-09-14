@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6bdf4c36bcf66d46a5c5ee7df16ac04a4461bd3a88de91e175b81e89ce496e1b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7acd13e2d2d09e6e491a2f338aef2fe7564b82b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120076239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119994"
 ---
 # <a name="cimageallocatoralloc-method"></a>CImageAllocator. Alloc, méthode
 
@@ -40,7 +40,7 @@ HRESULT Alloc();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est appelée par la méthode [**CBaseAllocator :: Commit**](cbaseallocator-commit.md) , lorsque le filtre valide l’allocateur.
 
@@ -63,7 +63,7 @@ Cette méthode crée une liste d’exemples de médias, qui sont implémentés e
 
 En interne, cette méthode appelle [**CImageAllocator :: CreateDIB**](cimageallocator-createdib.md) pour créer chaque DIB, et [**CImageAllocator :: CreateImageSample**](cimageallocator-createimagesample.md) pour créer chaque exemple.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

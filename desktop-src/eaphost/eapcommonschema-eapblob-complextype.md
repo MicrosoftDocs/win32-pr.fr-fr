@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 293a418f4cb726ea1fc58f02c2fe5bec784ceeb87dcb1cf3a09db89b1672eb8c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 180b256808eb024a28f576ad7cf7a5f3dc88e58f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119948299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127118389"
 ---
 # <a name="eapblob-complex-type"></a>Type complexe EapBlob
 
@@ -29,7 +29,7 @@ Le type complexe **EapBlob** n’est pas utilisé.
 <xs:complexType name="EapBlob" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ff6f08e257acf85a8a3f073f43c3c81e65817900f8154e1701ab73fe10c2368
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5683fb1c85e470ca7c82b069929de0351ea7cffe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119253779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120618"
 ---
 # <a name="monthlytriggermonthsofyear-property"></a>MonthlyTrigger. MonthsOfYear, propriété
 
@@ -40,7 +40,7 @@ MonthlyTrigger.MonthsOfYear As short
 
 Un masque de bits qui indique les mois de l’année pendant laquelle la tâche s’exécute.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant montre le mappage du masque de bits utilisé par cette propriété.
 
@@ -67,7 +67,7 @@ Le tableau suivant montre le mappage du masque de bits utilisé par cette propri
 
 Lors de la lecture ou de l’écriture de votre propre XML pour une tâche, les mois de l’année sont spécifiés à l’aide de l’élément [**months**](taskschedulerschema-months-monthlyscheduletype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

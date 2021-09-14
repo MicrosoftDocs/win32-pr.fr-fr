@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74397223f20668487e78cea15e2e1507026ee65089e5011065b3f177514e899b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16acb41d1145c176799dd7997b56a850bb45ece7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118408811"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115750"
 ---
 # <a name="ttn_show-notification-code"></a>TTN \_ afficher le code de notification
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 [Version 4,70](common-control-versions.md). Pour afficher l’info-bulle dans son emplacement par défaut, retournez zéro. Pour personnaliser la position de l’info-bulle, repositionnez la fenêtre d’info-bulle avec la fonction [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) et retournez la **valeur true**.
 
@@ -54,11 +54,11 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un rectangle de fenêtre d’info-bulle est un peu plus grand que son rectangle d’affichage de texte, et son origine est décalée vers le haut et vers la gauche. Si vous devez positionner avec précision le rectangle d’affichage du texte d’une info-bulle, le message [**atténuation \_ ADJUSTRECT**](ttm-adjustrect.md) convertit un rectangle d’affichage de texte dans le rectangle de fenêtre d’info-bulle correspondant et vice versa.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

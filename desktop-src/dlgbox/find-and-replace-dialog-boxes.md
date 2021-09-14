@@ -18,12 +18,12 @@ keywords:
 - boîtes de dialogue, remplacer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59bc5da5a8780a4f08bbf4bf757e1703d8d9120fdefe9d1730e515ffc6feae40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e3cf2c5217d586c0a5ada74fb7dd72aaca5f804
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118503484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191999"
 ---
 # <a name="find-and-replace-dialog-boxes"></a>Boîtes de dialogue Rechercher et remplacer
 

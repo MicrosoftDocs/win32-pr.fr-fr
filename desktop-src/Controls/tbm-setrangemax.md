@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f26b4a588e67164b96db8256116466206d0274a5bc64caedbcb1ccf25135ce62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b43997725e2fa88db3f9d4dc2fec1d51255cbb0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116390"
 ---
 # <a name="tbm_setrangemax-message"></a>\_Message TBM SETRANGEMAX
 
@@ -43,15 +43,15 @@ Position maximale du curseur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la position actuelle du curseur est supérieure au nouveau maximum, le message **TBM \_ SETRANGEMAX** définit la position du curseur sur la nouvelle valeur maximale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

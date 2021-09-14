@@ -5,11 +5,11 @@ title: stringFormat
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6eb40ec92ed7b31486062b5cca027eb5257e07af
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235500"
 ---
 # <a name="stringformat"></a>stringFormat
 
@@ -17,7 +17,7 @@ Spécifie comment [**IPropertyDescription :: FormatForDisplay**](/windows/win32
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [stringFormat]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -46,7 +46,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [st
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 

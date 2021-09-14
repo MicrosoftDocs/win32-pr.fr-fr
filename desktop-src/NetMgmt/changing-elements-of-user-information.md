@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau fournissent divers niveaux d’
 ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3161bb4d689b70f85f6c20c7c302779d0f685e8bcace43cffdee68b2cda2d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e1aa6ec8d7fed30d38d25adc67974d8bad8ab1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119314"
 ---
 # <a name="changing-elements-of-user-information"></a>Modification des éléments des informations utilisateur
 

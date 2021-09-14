@@ -4,12 +4,12 @@ description: gestion des erreurs dans COM (Prise en main avec Win32 et C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe85dc381ac35e75a3ee2f2fb1926a6ba6cb60c576c3d8250f457079f8a3bb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b69cf89170087469fa6ef8587fb5377e6374f6a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094390"
 ---
 # <a name="error-handling-in-com-get-started-with-win32-and-c"></a>gestion des erreurs dans COM (Prise en main avec Win32 et C++)
 

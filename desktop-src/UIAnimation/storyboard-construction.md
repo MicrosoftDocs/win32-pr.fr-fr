@@ -10,12 +10,12 @@ keywords:
 - interpolateurs Windows Animation, description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca78e4638ad7c3930be25b9ff826e5fa533d2af62cc4907b7a17d4c5b636f239
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119514091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192512"
 ---
 # <a name="storyboard-overview"></a>Vue d’ensemble du storyboard
 

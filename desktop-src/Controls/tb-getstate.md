@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de1757cfd71427904dc7060cc0084c64b82f143e1a8db666e40fe9e08c64c7ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3b5c50978da78218be7f3d47208c0ea430ff36c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118168235"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116714"
 ---
 # <a name="tb_getstate-message"></a>TO \_ GETSTATE message
 
@@ -39,11 +39,11 @@ Identificateur de commande du bouton pour lequel des informations doivent être 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne les informations d’État du bouton en cas de réussite, ou-1 dans le cas contraire. Les informations d’État du bouton peuvent être une combinaison des valeurs figurant dans États des boutons de la [**barre d’outils**](toolbar-button-states.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dbc3624b0712c39bf4498efbe1615d463cb21758d505aae00ed7e571a28f7d9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb12576acbc8b50befa5d0856343b61e325b9478
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118958908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124247"
 ---
 # <a name="win32_programgrouporitem-class"></a>\_Classe ProgramGroupOrItem Win32
 
@@ -238,11 +238,11 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ ProgramGroupOrItem** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

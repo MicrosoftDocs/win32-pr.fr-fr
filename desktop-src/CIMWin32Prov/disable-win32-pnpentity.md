@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 499e189d7262454e61df9c93a583bc2ed2b62da6bc8a9fa9f12a018c25813de8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59d08d14f8dbf32941554dcecc372d73c60bef60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118419429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120118"
 ---
 # <a name="disable-method-of-the-win32_pnpentity-class"></a>Désactivation de la méthode de la \_ classe PnPEntity Win32
 
@@ -47,7 +47,7 @@ Indique si un redémarrage est nécessaire.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

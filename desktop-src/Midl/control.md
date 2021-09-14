@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b6372ffb7f7d9f19769e419b12c0b109736a9867360224e023f1b622c653854
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 982327d581ddb606f733e9efbbcb89e2f9972cf4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643678"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093709"
 ---
 # <a name="control-attribute"></a>attribut de contrôle
 
@@ -60,7 +60,7 @@ Instructions MIDL qui spécifient les membres de la [**bibliothèque**](library.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut vous permet de marquer des bibliothèques de types qui décrivent des contrôles afin qu’elles ne soient pas affichées dans les navigateurs de type destinés aux objets non visuels.
 

@@ -5,11 +5,11 @@ ms.assetid: 4dfb3180-3ca5-4e22-b7a1-4e6b132431fb
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a8c6b646290ef6352a529a37243a6ea30c8b0d39
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119301"
 ---
 # <a name="requirements-for-network-management-functions-on-active-directory-domain-controllers"></a>Configuration requise pour les fonctions de gestion de réseau sur les contrôleurs domaine Active Directory
 
@@ -19,7 +19,7 @@ Des exigences d’accès différentes s’appliquent aux requêtes d’informati
 
 ## <a name="queries"></a>Requêtes
 
-Pour les requêtes, l’ACL par défaut autorise tous les utilisateurs authentifiés et les membres du groupe «[accès compatible pré-Windows 2000](/windows/desktop/SecAuthZ/allowing-anonymous-access)» à lire et énumérer les informations. Les fonctions répertoriées ci-dessous sont affectées :
+pour les requêtes, la liste de contrôle d’accès par défaut autorise tous les utilisateurs authentifiés et les membres du groupe «[accès compatible pré-Windows 2000](/windows/desktop/SecAuthZ/allowing-anonymous-access)» à lire et énumérer les informations. Les fonctions répertoriées ci-dessous sont affectées :
 
 -   [**NetGroupEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupenum), [**NetGroupGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetinfo), [**NetGroupGetUsers**](/windows/desktop/api/Lmaccess/nf-lmaccess-netgroupgetusers)
 -   [**NetLocalGroupEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupenum), [**NetLocalGroupGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetinfo), [**NetLocalGroupGetMembers**](/windows/desktop/api/Lmaccess/nf-lmaccess-netlocalgroupgetmembers)
@@ -29,9 +29,9 @@ Pour les requêtes, l’ACL par défaut autorise tous les utilisateurs authentif
 -   [**NetUserEnum**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserenum), [**NetUserGetGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetgroups), [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo), [**NetUserGetLocalGroups**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetlocalgroups), [**NetUserModalsGet**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusermodalsget)
 -   [**NetWkstaGetInfo**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstagetinfo), [ **NetWkstaUserEnum**](/windows/desktop/api/Lmwksta/nf-lmwksta-netwkstauserenum)
 
-L’accès anonyme aux informations de groupe nécessite que l’utilisateur anonyme soit explicitement ajouté au groupe « accès compatible pré-Windows 2000 ». Cela est dû au fait que les jetons anonymes n’incluent pas le SID du groupe tout le monde.
+l’accès anonyme aux informations de groupe nécessite que l’utilisateur anonyme soit explicitement ajouté au groupe « accès compatible pré-Windows 2000 ». Cela est dû au fait que les jetons anonymes n’incluent pas le SID du groupe tout le monde.
 
-**Windows 2000 :** Par défaut, le groupe « accès compatible avec les versions antérieures à Windows 2000 » comprend tous les membres. Cela permet l’accès anonyme (ouverture de session anonyme) aux informations si le système autorise l’accès anonyme. Les administrateurs peuvent supprimer tout le monde du groupe « accès compatible avec les versions antérieures à Windows 2000 » à tout moment. La suppression de tout le monde du groupe restreint l’accès aux informations aux utilisateurs authentifiés uniquement. Pour plus d’informations sur l’accès anonyme, consultez [identificateurs de sécurité](/windows/desktop/SecAuthZ/security-identifiers) et [sid connus](/windows/desktop/SecAuthZ/well-known-sids).
+**Windows 2000 :** par défaut, le groupe « accès compatible pré-Windows 2000 » comprend tous les membres. Cela permet l’accès anonyme (ouverture de session anonyme) aux informations si le système autorise l’accès anonyme. les administrateurs peuvent supprimer tout le monde du groupe « accès Compatible pré-Windows 2000 » à tout moment. La suppression de tout le monde du groupe restreint l’accès aux informations aux utilisateurs authentifiés uniquement. Pour plus d’informations sur l’accès anonyme, consultez [identificateurs de sécurité](/windows/desktop/SecAuthZ/security-identifiers) et [sid connus](/windows/desktop/SecAuthZ/well-known-sids).
 
 Vous pouvez remplacer la valeur système par défaut en définissant la clé suivante dans le registre à la valeur 1 :
 
@@ -52,6 +52,6 @@ En règle générale, les appelants doivent avoir un accès en écriture à l’
 
 Pour plus d’informations sur le contrôle de l’accès aux objets sécurisables, consultez [Access Control](/windows/desktop/SecAuthZ/access-control), [privilèges](/windows/desktop/SecAuthZ/privileges)et [objets sécurisables](/windows/desktop/SecAuthZ/securable-objects). Pour plus d’informations sur l’appel de fonctions qui requièrent des privilèges d’administrateur, consultez [exécution avec des privilèges spéciaux](/windows/desktop/SecBP/running-with-special-privileges).
 
- 
+ 
 
- 
+ 

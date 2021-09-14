@@ -21,12 +21,12 @@ keywords:
 - licences, énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27913a5a35ce9af1f5a4d6fa3cbae808bc2abe89afd5edb05aa927fe4c39227
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29b1384e08a6789fedca9704f36ad8da1e31b4ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848195"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230958"
 ---
 # <a name="enumerating-licenses-in-the-local-license-store"></a>Énumération des licences dans le magasin de licences local
 

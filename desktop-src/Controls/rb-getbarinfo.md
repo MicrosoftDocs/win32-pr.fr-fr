@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d1d1ee657f88b95b0caad254377ebca0db74b313fd7eb3fe102d4f488c14d1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d224c7c826bad0d5d6ae76ce5a4c2266632fa8a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117326"
 ---
 # <a name="rb_getbarinfo-message"></a>\_Message GETBARINFO RB
 
@@ -39,11 +39,11 @@ Pointeur vers une structure [**REBARINFO**](/windows/win32/api/commctrl/ns-commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
