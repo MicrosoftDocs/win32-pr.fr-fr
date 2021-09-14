@@ -4,12 +4,12 @@ ms.assetid: 3a8cd206-0112-4840-8c9d-773483f5c771
 title: Table MsiAssembly
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acda246bd6baba75d0f7e8d53f515a25abb0c163c2d3ef0b1b9705c123b8e69e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b54bd6e58e2ff6d12c582309c23856a7bb825b2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119381379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230130"
 ---
 # <a name="msiassembly-table"></a>Table MsiAssembly
 
@@ -86,7 +86,7 @@ si la colonne d’attributs a la valeur NULL, le programme d’installation trai
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 S’il existe au moins une entrée dans la table MsiAssembly, la [table InstallExecuteSequence](installexecutesequence-table.md) doit contenir l' [action MsiPublishAssemblies](msipublishassemblies-action.md)et l' [action MsiUnpublishAssemblies](msiunpublishassemblies-action.md).
 

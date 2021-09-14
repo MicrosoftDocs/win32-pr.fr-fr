@@ -4,12 +4,12 @@ ms.assetid: f08f751d-877b-4b17-8015-7108d5fd8195
 title: Action MoveFiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b8581cd19569109c0f7697b5dfebf33e91b33da9ba84d15caf424242e4e21ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f06db0cef12753652bf94bf05875b2c2f9d4067c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230136"
 ---
 # <a name="movefiles-action"></a>Action MoveFiles
 
@@ -33,7 +33,7 @@ L’action MoveFiles doit venir après l’action [InstallValidate](installvalid
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La table MoveFiles contient une colonne nommée « options » qui spécifie les fichiers sources à déplacer ou à copier. Un fichier source déplacé est supprimé une fois qu’il a été copié vers un nouvel emplacement. Pour connaître la syntaxe exacte, consultez la [table MoveFile](movefile-table.md).
 

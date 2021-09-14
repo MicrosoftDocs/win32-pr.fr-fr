@@ -4,12 +4,12 @@ ms.assetid: 9ba47bdc-90c8-444a-ba8b-71c723b54556
 title: Table MoveFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d90afe8a5fb950f2e6fdb96ba0f8af4f8969226a5dc219bc9cd0598481beb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2340626e745627c3c6146998c851a076d21ab81a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945094"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230147"
 ---
 # <a name="movefile-table"></a>Table MoveFile
 
@@ -97,7 +97,7 @@ Valeur entière spécifiant le mode d’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si un \* caractère générique «» est entré dans la colonne SourceName de la table MoveFile et qu’un nom de fichier de destination est spécifié dans la colonne DestName, tous les fichiers déplacés ou copiés conservent les noms dans les sources.
 

@@ -4,12 +4,12 @@ ms.assetid: a125aecc-57d9-4c8e-873e-d5315eaafa56
 title: Table ModuleInstallUISequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb8f2868fbad03439758cd45a79a71febb5e2a9b0b863c2ee9ea0597f5b112f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ca6771daa0b95acbc23e2d60eddda5420e417db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945364"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230178"
 ---
 # <a name="moduleinstalluisequence-table"></a>Table ModuleInstallUISequence
 
@@ -85,7 +85,7 @@ Instruction conditionnelle qui indique si l’action est exécutée. NULL prend 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette table est présente, la [table InstallUISequence](installuisequence-table.md) doit également être présente dans le module de fusion.
 

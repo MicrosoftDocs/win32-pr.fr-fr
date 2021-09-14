@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 7a43398020c49f2a6dab1cd56fc0244c4be88e2e45e38e0f6bd63c119bbf66a3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f74fe09572b95ff1508021b3fa2ae4f9888f2d5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230352"
 ---
 # <a name="idxtjpegput_maskname-method"></a>IDxtJpeg ::p ut \_ MaskName, méthode
 
@@ -52,11 +52,11 @@ Spécifie le nom du fichier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour revenir à un masque intégré, définissez la propriété **MaskNum** .
 
@@ -70,7 +70,7 @@ Pour revenir à un masque intégré, définissez la propriété **MaskNum** .
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

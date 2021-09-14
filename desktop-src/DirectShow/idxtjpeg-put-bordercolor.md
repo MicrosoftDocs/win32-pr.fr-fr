@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c88c35144cce5f71e87c51211e94b93a337639d545b64addec974c77909d8f81
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: faacc76eaa120467aa6cfb6c318aac0d9baec334
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230364"
 ---
 # <a name="idxtjpegput_bordercolor-method"></a>IDxtJpeg ::p ut \_ BorderColor, méthode
 
@@ -52,11 +52,11 @@ Spécifie la couleur sous la forme d’un nombre hexadécimal au format 0xRRGGBB
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -68,7 +68,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

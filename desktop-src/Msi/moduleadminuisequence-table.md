@@ -4,12 +4,12 @@ ms.assetid: c71477e7-22bc-420a-9902-39bbf98b4ee5
 title: Table ModuleAdminUISequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91afd53eefd8e73f6222a2c40388560f0db611dc7a7989747f539164964f7eb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e128aebd6481c077827f4d1ba2b487eafe6132d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117804558"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230237"
 ---
 # <a name="moduleadminuisequence-table"></a>Table ModuleAdminUISequence
 
@@ -85,7 +85,7 @@ Instruction conditionnelle qui indique si l’action est exécutée. NULL prend 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 <dl> <dt>
 

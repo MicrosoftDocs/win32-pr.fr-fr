@@ -4,12 +4,12 @@ ms.assetid: 9ff87993-74f6-4436-b0a9-d7ebed6555bd
 title: Table ModuleIgnoreTable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46337b74f6822b374314a9248f0377ec63359c6576a6ca1398a931d27e548138
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7b0191f616eced187411a148e40e0ae6575cca6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230195"
 ---
 # <a name="moduleignoretable-table"></a>Table ModuleIgnoreTable
 
@@ -38,7 +38,7 @@ Nom de la table dans le module de fusion qui ne doit pas être fusionnée dans l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour réduire la taille du fichier. msm, il est recommandé aux développeurs de supprimer les tables inutilisées des modules destinés à la redistribution plutôt que de répertorier ces tables dans la table ModuleIgnoreTable.
 

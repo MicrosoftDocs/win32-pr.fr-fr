@@ -4,12 +4,12 @@ ms.assetid: c28d9afa-152c-43b5-9892-7a38fae8c593
 title: Table ModuleExclusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 008d10e65d81b5668821e1a999cf08f5a10c55db3372a4b0230d560462a977c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8fb4cc136937d5a01bd16a42c138532dd524ee1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230190"
 ---
 # <a name="moduleexclusion-table"></a>Table ModuleExclusion
 

@@ -4,12 +4,12 @@ ms.assetid: 8e94c31f-b3a7-4f3a-aec4-32b0e1dd5400
 title: Table ModuleSubstitution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66fbbb0898a254b181d02eca78f33709f8c0e037de140a37893ea3887af6390
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e27789f723af87e228bada91b79a16d7dc4d2d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118628586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230172"
 ---
 # <a name="modulesubstitution-table"></a>Table ModuleSubstitution
 
@@ -85,7 +85,7 @@ Cette colonne contient une chaîne qui fournit un modèle de mise en forme pour 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La table ModuleSubstition est utilisée par les [modules de fusion configurables](configurable-merge-modules.md). Mergemod.dll version 2,0 ou ultérieure est nécessaire pour créer un module de fusion configurable.
 
