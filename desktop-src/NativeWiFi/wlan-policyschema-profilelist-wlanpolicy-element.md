@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 4c7478f38ba7336738325bac6872866cd570288b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110410"
 ---
 # <a name="profilelist-wlanpolicy-element"></a>Élément profileList (WLANPolicy)
 
@@ -41,14 +41,14 @@ Les profils doivent être basés sur [le \_ schéma de profil WLAN](wlan-profile
 
 L’élément **profileList** est défini par l’élément [**WLANPolicy**](wlan-policyschema-wlanpolicy-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

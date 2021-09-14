@@ -14,12 +14,12 @@ keywords:
 - gravure de CD, récupération de l’état du lecteur et du disque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 664315972158b4cf68e7f766f98be095a27d7fa8496f983305cc6baaafe784d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3eab66581c336f642fd53b22f81949847d0a1c89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010893"
 ---
 # <a name="retrieving-the-drive-and-disc-status"></a>Récupération de l’état du lecteur et du disque
 

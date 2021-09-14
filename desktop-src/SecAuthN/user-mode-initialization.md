@@ -4,12 +4,12 @@ ms.assetid: 8f28177f-335a-4fa2-bf66-2ec1698bebec
 title: Initialisation du mode utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09be7c4c00937473e2ecc3d6b01bb7c59a2842085a133f381b5a8a10bd9b215f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 473b06daf2e1c3612b02583d203ce4cd9afebabd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096242"
 ---
 # <a name="user-mode-initialization"></a>Initialisation du mode utilisateur
 

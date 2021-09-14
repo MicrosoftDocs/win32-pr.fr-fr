@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beb9e82a27717b33bcd0e06f5cd5bc23a3c43bc3a67cf70068f1a9eeb31b08bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e422bbe59414d75541127b41e5e2cc1829adaaa7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011157"
 ---
 # <a name="winbio_bir-structure"></a>WINBIO \_ Bir, structure
 
@@ -71,7 +71,7 @@ Structure de [**\_ \_ données WINBIO Bir**](winbio-bir-data.md) facultative qui
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’utilisation de décalages plutôt que de pointeurs permet de faciliter la sérialisation du BIR et de la traduction moins compliquée entre les environnements 32 et 64 bits ou entre l’utilisateur et le mode noyau.
 
@@ -79,7 +79,7 @@ le BIR est compatible avec l’infrastructure de Format de Exchange biométrique
 
 Si cette structure contient une valeur *StandardDataBlock* , le paramètre de *type* de l’en-tête spécifié par le paramètre *HeaderBlock* doit être défini sur le **\_ \_ \_ \_ type de format ANSI 381 WINBIO**. il s’agit du seul format de données standard pris en charge par la version actuelle du Windows Biometric Framework.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ab3736e3ad5b0bcf10bed1fb606d3e6283715a6b10c44dcb4923920597d5e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 937e56e438feadc646329c673af4454cb39eaddd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095950"
 ---
 # <a name="winbio_extended_enrollment_status-structure"></a>WINBIO \_ \_ structure d’état d’inscription étendue \_
 
@@ -202,7 +202,7 @@ Nombre d’échantillons pour le bord droit de l’empreinte digitale requis pou
 
 </dd> </dl> </dd> <dt>
 
-**IRI**
+**Iris**
 </dt> <dd>
 
 Informations sur l’état d’une inscription en cours pour les modèles d’IRIS.
@@ -262,7 +262,7 @@ Réservé.
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

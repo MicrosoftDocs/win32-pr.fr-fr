@@ -5,11 +5,11 @@ title: Message PHONE_CLOSE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4d9a7641b437a10098806fc7ad52aa64200ca015
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011103"
 ---
 # <a name="phone_close-message"></a>Message de fermeture du téléphone \_
 
@@ -61,7 +61,7 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
@@ -71,7 +71,7 @@ Le message de **\_ fermeture du téléphone** est envoyé à une application uni
 
 Un appareil téléphonique ouvert peut également être fermé de force une fois que l’utilisateur a modifié la configuration de ce téléphone ou de son pilote. Si l’utilisateur souhaite que les modifications de configuration soient effectives immédiatement (par opposition à après le redémarrage du système suivant), et que ces modifications affectent la vue actuelle de l’application de l’appareil (par exemple, une modification des fonctionnalités de l’appareil), un fournisseur de services peut forcer la fermeture de l’appareil téléphonique.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

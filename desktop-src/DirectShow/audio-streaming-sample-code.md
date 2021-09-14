@@ -4,12 +4,12 @@ ms.assetid: f3ba32c5-c3de-4f6b-bc89-f7860ca5f65b
 title: Exemple de code de streaming audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdd93279c92813db61c44b4f7d45b478ea89bc188415fb0b5966a1d6e550cf7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ba09e4d0305fa2eca92755422a76fd06130c51c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119384899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112150"
 ---
 # <a name="audio-streaming-sample-code"></a>Exemple de code de streaming audio
 

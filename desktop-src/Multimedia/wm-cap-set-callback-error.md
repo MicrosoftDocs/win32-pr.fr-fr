@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 40f50d62112d71f78196a17b958dc7d3d10702e1
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110753"
 ---
 # <a name="wm_cap_set_callback_error-message"></a>Message d’erreur de rappel de l' \_ \_ ensemble de connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel d’erreur, de type [**capErrorCallback**](/
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications peuvent éventuellement définir une fonction de rappel d’erreur. Si cette valeur est définie, AVICap appelle la procédure d’erreur dans les situations suivantes :
 

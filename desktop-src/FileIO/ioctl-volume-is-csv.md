@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvol.h
-ms.openlocfilehash: fe89e17688bb5566ade0530ce9a1710b5b2c52c7656bf335a89be63a2ca051d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8121e1b89c88ad05a2c2be8537d7170bfabfc412
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009922"
 ---
 # <a name="ioctl_volume_is_csv-control-code"></a>\_Le volume IOCTL \_ est \_ le code de contrôle CSV
 
@@ -112,13 +112,13 @@ Pour les opérations avec chevauchement, [**DeviceIoControl**](/windows/desktop/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine correctement, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) retourne une valeur différente de zéro.
 
 Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) retourne la valeur zéro (0). Pour obtenir des informations détaillées sur l’erreur, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

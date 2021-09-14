@@ -4,12 +4,12 @@ ms.assetid: 6B3CB513-43E8-4D30-B5A0-CD2E9C9F46BA
 title: CODECAPI_AVEncVideoROIEnabled, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f86185f6dbb9dfe16a84e7e85c3faddc8da3a7c1ead91dee2b1086e6fafa456
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 345e6ba27a983be910f0dc0ea5d3db34191bdcb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119346979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236244"
 ---
 # <a name="codecapi_avencvideoroienabled-property"></a>CODECAPI \_ propriété AVEncVideoROIEnabled
 
@@ -23,13 +23,13 @@ Indique si l’attribut [MFSampleExtension \_ ROIRectangle](mfsampleextension-ro
 
 **CODECAPI \_ AVEncVideoROIEnabled**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur par défaut est 0.
 
 Si un MFT d’encodeur accepte une valeur différente de zéro, il est supposé que l’encodeur honorera l’attribut [MFSampleExtension \_ ROIRectangle](mfsampleextension-roirectangle.md) défini sur l’exemple d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

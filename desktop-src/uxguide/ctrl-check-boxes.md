@@ -5,11 +5,11 @@ ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 90d8c342f24c1c34f20a7a8d7ec5f0e9e150fb80
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235002"
 ---
 # <a name="check-boxes"></a>Cases à cocher
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d01bd86cb3004cb3f481222f392ba47bd1c47373f55c37ee8f0e7ded57a3d268
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61ec30cf22b36fe97902d6eb6d6949daeb751f8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010977"
 ---
 # <a name="playermediacollectionattributestringadded-event"></a>Événement Player. MediaCollectionAttributeStringAdded
 
@@ -57,11 +57,11 @@ Player.MediaCollectionAttributeStringAdded(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’un élément multimédia est ajouté à la bibliothèque, ses métadonnées sont ajoutées à l’objet **MediaCollection** et cet événement est déclenché pour chaque attribut ajouté.
 
@@ -69,7 +69,7 @@ la valeur des paramètres d’événement est spécifiée par Lecteur Windows Me
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

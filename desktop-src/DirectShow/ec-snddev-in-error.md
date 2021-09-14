@@ -4,12 +4,12 @@ ms.assetid: 13f8641b-7881-4f1c-816c-77c140e48ed4
 title: EC_SNDDEV_IN_ERROR (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bfc65b751010288ed37fc1596e020887e6ea901c451dcdac729fe05ea33f93a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 26f9b95055483b1bda812179f1a1bf132d12de7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111077"
 ---
 # <a name="ec_snddev_in_error"></a>EC \_ SNDDEV \_ en \_ erreur
 
@@ -37,7 +37,7 @@ Valeur DWORD indiquant l’erreur renvoyée par l’appel de périphérique audi
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Avec une zone de recherche, les utilisateurs peuvent localiser rapi
 ms.assetid: e2d77b36-e001-403c-9b66-2d136c394a24
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 71e0ce45e2fd0b84b0abda9462f2cb42c945790e93ea06e7dfc6ece0f65ffd65
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e9d1fca8fdb96b17098cee79fd5b62ecd7ab7531
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119842936"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234947"
 ---
 # <a name="search-boxes"></a>Zones de recherche
 
@@ -128,7 +128,7 @@ Spécifications visuelles pour la recherche régulière.
 
 -   **Affectez au raccourci clavier de la zone de recherche la valeur Ctrl + E.**
 
-### <a name="functionality"></a>Fonctionnalités
+### <a name="functionality"></a>Fonctionnalité
 
 -   **Prenez en charge la recherche instantanée dans la mesure du possible.** Fournissez des recherches régulières et instantanées s’il existe des scénarios dans lesquels les recherches régulières méritent un temps d’attente supplémentaire.
 -   Les recherches régulières doivent retourner des résultats pertinents dans un délai de cinq secondes et la recherche instantanée doit retourner les résultats dans les deux secondes. Après ce stade, la fonction de recherche peut continuer à remplir les résultats moins pertinents dans le temps, tant que le programme est réactif et que les utilisateurs peuvent effectuer d’autres tâches. Vous devrez peut-être indexer vos données de recherche pour garantir cette réactivité.

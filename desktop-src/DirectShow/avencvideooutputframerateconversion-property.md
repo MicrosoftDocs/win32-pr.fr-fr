@@ -4,12 +4,12 @@ ms.assetid: c3946942-5a61-4a15-ace6-da2f63c01963
 title: Propriété AVEncVideoOutputFrameRateConversion (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fa09b8370faf7f56336d129661d02e514bb6fc192f8dec0e1b19b5ee53f381
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2687ce33af1717631f156df12de38dafff8d1871
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111537"
 ---
 # <a name="avencvideooutputframerateconversion-property"></a>Propriété AVEncVideoOutputFrameRateConversion
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoOutputFrameRateConversion**](/windows/win32/api/codecapi/ne-codecapi-eavencvideooutputframerateconversion) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

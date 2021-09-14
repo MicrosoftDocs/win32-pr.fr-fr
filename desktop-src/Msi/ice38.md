@@ -4,22 +4,22 @@ ms.assetid: f1548b04-78c2-461a-a729-9a8c4856d0d8
 title: ICE38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae3f90b7f6c0624da266b23dee3a50489f34604d6c99783b337eeca77bb32ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d001d244160f939a73e697e677bf43a1f5f825f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021566"
 ---
 # <a name="ice38"></a>ICE38
 
 ICE38 valide que chaque composant en cours d’installation sous le profil de l’utilisateur actuel spécifie également une clé de Registre sous la racine **HKEY \_ Current \_ User** dans la colonne keyPath de la [table Component](component-table.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE38 publie une erreur si un composant installé sous le profil de l’utilisateur ne spécifie pas de clé de Registre HKCU.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE38 signale les erreurs suivantes pour l’exemple indiqué.
 

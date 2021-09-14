@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c4552829482a604b368a6710c62d0fc0b26a94aa3bb33b67ef386f2785d6c90e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0538229053b5d47ca1bdc8f30b38a0937e36cb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010169"
 ---
 # <a name="cbaseallocatorgetfreecount-method"></a>Méthode CBaseAllocator. GetFreeCount
 
@@ -49,15 +49,15 @@ Adresse d’une variable qui reçoit le nombre d’exemples qui ne sont pas en c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode implémente la méthode [**IMemAllocatorCallbackTemp :: GetFreeCount**](/windows/desktop/api/Strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount) . L’Allocator n’expose pas l’interface IMemAllocatorCallbackTemp, sauf si l’indicateur *fEnableReleaseCallback* a la valeur **true** dans le constructeur CBaseAllocator.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

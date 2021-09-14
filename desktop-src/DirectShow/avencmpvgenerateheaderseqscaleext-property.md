@@ -4,12 +4,12 @@ ms.assetid: b4746023-c131-4ac4-a34c-4bf3ef42bd00
 title: Propriété AVEncMPVGenerateHeaderSeqScaleExt (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe28d8a742e7a70434b0a0c21e5b306cc767bfa7e73a9edc596c066ba4de76cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4045e753d85ba59c6987158023b05e40474a612b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111754"
 ---
 # <a name="avencmpvgenerateheaderseqscaleext-property"></a>Propriété AVEncMPVGenerateHeaderSeqScaleExt
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVGenerateHeaderSeqScaleExt**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur est **\_ true**, l’encodeur génère des en-têtes d’extension de séquence Scalable.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

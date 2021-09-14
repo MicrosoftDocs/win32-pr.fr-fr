@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 54b45779f4954f1cee454b5cf171e374e215555902e3389c7c47f5a59bc989eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 080b9d3e3ab6dbfc0ed8afc8ac0476981b7c26e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010447"
 ---
 # <a name="swbemprivilegesetadd-method"></a>SWbemPrivilegeSet. Add, méthode
 
@@ -59,7 +59,7 @@ Valeur booléenne qui active ou désactive ce privilège. La valeur par défaut 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, la méthode retourne un objet [**SWbemPrivilege**](swbemprivilege.md) qui représente le nouveau privilège. Dans le cas contraire, un objet null est retourné.
 
@@ -80,7 +80,7 @@ Erreur non spécifiée.
 
 Un exemple de code utilisant cette méthode est décrit dans la rubrique [**SWbemPrivilegeSet**](swbemprivilegeset.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

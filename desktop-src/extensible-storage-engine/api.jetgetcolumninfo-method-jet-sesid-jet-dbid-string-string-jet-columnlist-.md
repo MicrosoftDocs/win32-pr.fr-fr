@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4a2f872c3ff5e0a865fb135426251955936bff0a9423a40e428cbb75d622d15b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f3f0ea95e82217f0d9b44e6a00558d3530a7616
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118085357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010330"
 ---
 # <a name="apijetgetcolumninfo-method-jet_sesid-jet_dbid-string-string-jet_columnlist"></a>Méthode API. JetGetColumnInfo (JET_SESID, JET_DBID, String, String, JET_COLUMNLIST)
 
@@ -101,7 +101,7 @@ public static void JetGetColumnInfo(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

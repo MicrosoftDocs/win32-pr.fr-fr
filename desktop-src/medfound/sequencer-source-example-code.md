@@ -4,12 +4,12 @@ ms.assetid: 6f39a297-33a9-414a-9d41-47aec54eaa6b
 title: Code de l’exemple de source Sequencer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3098faa0b979d6ad3baa96256c0ffac1eb14f482df5caff966ebc1cda3957f50
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a587a9b77413ad22ac49111489cf3e1b89cadf8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120012355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235890"
 ---
 # <a name="sequencer-source-example-code"></a>Code de l’exemple de source Sequencer
 

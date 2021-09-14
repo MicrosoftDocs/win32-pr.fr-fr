@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b474ea95dcb2e3bd5c756cefa825463f3384e798492ccdcf794641a16fbfc450
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5d68b43fba64be82908d73803113f871b08c93c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110545"
 ---
 # <a name="uninitializenapagentnotifier-function"></a>UninitializeNapAgentNotifier fonction)
 
@@ -52,11 +52,11 @@ Valeur [**NapNotifyType**](/windows/win32/api/naptypes/ne-naptypes-napnotifytype
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction n’est pas thread-safe.
 
@@ -64,7 +64,7 @@ Chaque processus abonné aux notifications de service NapAgent du *type* spécif
 
 Cette fonction échoue en silence si le processus n’a pas précédemment appelé [**InitializeNapAgentNotifier**](initializenapagentnotifier.md) pour le type de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

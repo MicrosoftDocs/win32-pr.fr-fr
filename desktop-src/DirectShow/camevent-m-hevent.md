@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxutil.h
-ms.openlocfilehash: 159a095ae57c96249c70e5821a3926264009ebc2493ad1386742489325428075
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53e8a16146cf29255a62f6f5f90371bd2ad2f8f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111374"
 ---
 # <a name="cameventm_hevent-member"></a>CAMEvent :: m \_ hEvent, membre
 
@@ -33,7 +33,7 @@ HANDLE m_hEvent;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

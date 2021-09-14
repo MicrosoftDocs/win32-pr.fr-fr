@@ -4,12 +4,12 @@ ms.assetid: a2a26bac-93b6-4d94-94fc-42c9821935a0
 title: Création d’un package de notifications Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c84d0290f7afeba7a427f5c50caf1638fd88bfdb4b52ee513a9b1c0506aed9df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0127674967ee3155d42e143a1b142d8c83137c56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096446"
 ---
 # <a name="creating-a-winlogon-notification-package"></a>Création d’un package de notifications Winlogon
 

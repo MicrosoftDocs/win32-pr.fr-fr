@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 36660e4e360ff0df31bb3a76d06c50e5d366c894
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110542"
 ---
 # <a name="sohattributevalue-union"></a>SoHAttributeValue Union
 
@@ -284,14 +284,14 @@ Ces types d’attributs sont consommés par le système NAP :
 
 Le reste du [**SoHAttributeTypes**](sohattributetype-enum.md) est conçu de manière purement normative pour une utilisation par les programmes d’intégrité des intégrité et les SHV.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>NapProtocol. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapProtocol. idl</dt> </dl> |
 

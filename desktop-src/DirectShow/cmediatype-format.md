@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d68b84f5c27798022dbf5c54544793a0fb053dd24c3b2e1a10edd29705420b70
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bbfa7508ac8bb7e95134231c3567a9b6d4701224
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111257"
 ---
 # <a name="cmediatypeformat-method"></a>CMediaType. format, méthode
 
@@ -40,11 +40,11 @@ BYTE* Format() const;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le membre **pbFormat** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

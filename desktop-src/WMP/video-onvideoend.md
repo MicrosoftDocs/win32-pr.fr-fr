@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1030691da7ddba4a5da36b52461958919acfae2149de8679d0adfb4fa908f6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 849c993a3bb4770fec08e08088bd055bc68bb850
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118333045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010817"
 ---
 # <a name="videoonvideoend"></a>VIDÉO. onvideoend
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **onvideoend** gère un événement qui se prod
 onvideoend 
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

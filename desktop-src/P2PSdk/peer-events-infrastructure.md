@@ -4,12 +4,12 @@ ms.assetid: a056da1c-b8f9-4dad-8df9-df24c6b359b7
 title: Infrastructure des événements homologues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a889f59e4429e64258c047dfbf0249bb4dca125bfc3f9d659e6042dd40be9443
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6347ad6a7dd0cf2fae4a0aa623bfda48ab0aa9f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119775949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096565"
 ---
 # <a name="peer-events-infrastructure"></a>Infrastructure des événements homologues
 

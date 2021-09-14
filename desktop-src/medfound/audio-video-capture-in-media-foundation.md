@@ -5,15 +5,15 @@ title: Capture audio/vidéo en Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 506c14ee4ab94a27cfafbe18a97ffa8f05676f1f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106525800"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236369"
 ---
 # <a name="audiovideo-capture-in-media-foundation"></a>Capture audio/vidéo en Media Foundation
 
-Microsoft Media Foundation prend en charge la capture audio et vidéo. Les périphériques de capture vidéo sont pris en charge par le pilote de classe UVC et doivent être compatibles avec UVC 1,1. Les périphériques de capture audio sont pris en charge via l’API de session audio Windows (WASAPI).
+Microsoft Media Foundation prend en charge la capture audio et vidéo. Les périphériques de capture vidéo sont pris en charge par le pilote de classe UVC et doivent être compatibles avec UVC 1,1. les périphériques de capture audio sont pris en charge via l’API de Session audio Windows (WASAPI).
 
 Un périphérique de capture est représenté dans Media Foundation par un objet de source multimédia, qui expose l’interface [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) . Dans la plupart des cas, l’application n’utilise pas directement cette interface, mais utilise une API de niveau supérieur, telle que le [lecteur source](source-reader.md) , pour contrôler l’appareil de capture.
 

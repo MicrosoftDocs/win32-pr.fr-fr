@@ -4,12 +4,12 @@ description: Une barre d’État est une zone en bas d’une fenêtre principale
 ms.assetid: 09dc03d9-d730-4f03-86a8-7b39d9a55369
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: fa76563adbd3810b48339cc49014441512e3d76a0ac7484ff632f64f635b4cf6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3458b301c10cb4b9d6ca3a26a71b59e1011ec5a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119934178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234918"
 ---
 # <a name="status-bars-design-basics"></a>Barres d’État (notions de base sur la conception)
 

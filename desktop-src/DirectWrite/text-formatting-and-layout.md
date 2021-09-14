@@ -12,11 +12,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e9e5790742a3d3caf7f962a6b5e2b3111c626f28
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380753"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009969"
 ---
 # <a name="text-formatting-and-layout"></a>Mise en forme et disposition du texte
 

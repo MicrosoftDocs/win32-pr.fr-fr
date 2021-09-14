@@ -4,12 +4,12 @@ ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
 title: AM_RATE_QueryLastRateSegPTS, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34e7b54e618829d9768b4d08a0a76defcf2c91758be6b916b6e570b368191e89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72c6e3e00985ba6e714bf48d349fd5af5c9593b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112294"
 ---
 # <a name="am_rate_querylastratesegpts-property"></a>\_ \_ Propriété QUERYLASTRATESEGPTS rate AM
 
@@ -29,11 +29,11 @@ Cette propriété est définie pour la version 1,1 de ce jeu de propriétés ; 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre source peut utiliser cette propriété pour synchroniser les changements de taux sur plusieurs flux audio et vidéo.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

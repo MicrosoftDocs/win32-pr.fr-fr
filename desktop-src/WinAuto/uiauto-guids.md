@@ -4,12 +4,12 @@ description: Cette rubrique décrit les GUID utilisés avec la fonction UiaLooku
 ms.assetid: b8e9e33c-9781-4f50-bbb7-a9950409f2e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 361341b7a2c58d8e2ee2842bd0d9d7f50ed0680aa9845f84b7b70b905976f5d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c5203f63fa3f05e1d25e5623815101cd48ada34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118324720"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010520"
 ---
 # <a name="deprecated-guids"></a>GUID déconseillés
 

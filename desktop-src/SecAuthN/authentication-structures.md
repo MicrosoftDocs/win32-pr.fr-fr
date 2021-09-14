@@ -4,12 +4,12 @@ ms.assetid: 576f5dec-8bd5-4686-be68-30746de1d511
 title: Structures d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed42e076a92336a85e38435ed7be1064d7be024bf0c10fbb4c8823d64ecf0bc6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 855fdfac46ba26640594330cf110621fd8587288
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011310"
 ---
 # <a name="authentication-structures"></a>Structures d’authentification
 

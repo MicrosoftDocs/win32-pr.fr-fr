@@ -4,12 +4,12 @@ description: La bibliothèque de tests UI Automation (bibliothèque de tests UIA
 ms.assetid: A11341E5-71FC-442C-8F78-C40E717BF798
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2c02433eaaa9f5d5658ca9f469803042b0a637bb20e6cdce72299bf7c4643f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e64200673d45f800e1e18dee2afd5c4acd2b604f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133526"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010581"
 ---
 # <a name="ui-automation-test-library"></a>Bibliothèque de tests UI Automation
 

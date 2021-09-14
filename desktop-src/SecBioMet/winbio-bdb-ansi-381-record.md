@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e30cd66348245aa3090fb21188d7d1cea347c1b28ee51243d2effd9b52609f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f30af31d88349dbe02066f231cdff21293aebe90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119480339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096002"
 ---
 # <a name="winbio_bdb_ansi_381_record-structure"></a>\_Structure d’enregistrement WINBIO BDB \_ ANSI \_ 381 \_
 
@@ -111,7 +111,7 @@ Réservé. Doit être défini sur zéro (0).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le membre *position* spécifie la zone de la main ou le Palm utilisé pour créer l’échantillon biométrique. le Windows Biometric Framework (WBF) prend actuellement en charge uniquement la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de position.
 
@@ -136,7 +136,7 @@ Le membre *position* spécifie la zone de la main ou le Palm utilisé pour crée
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

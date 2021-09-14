@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a39dca7e03f934a67e2e6d80545e92d16e9a9d852e70405f24e2e089fc5559
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 574ed93c9c6f8d1f964e38ee14541d57bd5c34da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011470"
 ---
 # <a name="glugetstring-function"></a>gluGetString fonction)
 
@@ -47,7 +47,7 @@ Le numéro de version de GLU ( \_ version Glu) ou des appels d’extension spéc
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluGetString** retourne un pointeur vers une chaîne statique se terminant par null. Quand le *nom* est Glu \_ version, la chaîne retournée est une valeur qui représente le numéro de version de Glu. Le format du numéro de version est le suivant :
 
@@ -69,7 +69,7 @@ Les noms d’extension ne peuvent pas contenir d’espaces.
 
 La fonction **gluGetString** est valide pour GLU version 1,1 ou ultérieure.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

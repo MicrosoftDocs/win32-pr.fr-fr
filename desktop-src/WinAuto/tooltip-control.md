@@ -5,11 +5,11 @@ ms.assetid: d3a65d7b-b882-4a1a-bac2-6995b64cf4af
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 37557fd116084fc9ac53e8567afc90eda339750d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010597"
 ---
 # <a name="tooltip-control-msaa-ui-element-reference"></a>ToolTip, contrôle (référence des éléments d’interface utilisateur MSAA)
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3492684d6a3fb017776a2c5946da859cc8c74418660d60c3c9622915aee20dce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ae92245b6a8b6cff89805a73dd724e5aeac43a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119043457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010352"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatintuint-function-for-texture3d"></a>Fonction SampleLevel :: SampleLevel (S, float, float, int, uint) pour Texture3D
 
@@ -114,7 +114,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

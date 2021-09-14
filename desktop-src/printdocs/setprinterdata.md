@@ -17,12 +17,12 @@ api_location:
 - Winspool.drv
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 7b28c61030271b9de2e946fd59cddf5253a80cd4faec40ee66ceb2ae6cefdce3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36af84fe665d68fd7996a0b81fbbf291314cc69e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118233948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235595"
 ---
 # <a name="setprinterdata-function"></a>SetPrinterData fonction)
 
@@ -88,7 +88,7 @@ Taille, en octets, du tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une **erreur de \_ réussite**.
 
@@ -174,7 +174,7 @@ dans Windows 7 et les versions ultérieures de Windows, les travaux d’impressi
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e892114e8ce0c0d61f0b6ade915ef3c24cb13ace8add95e90749140aa9985f3b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7ceeac91266a2799d7ef248857de9b7d4d38ee2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010116"
 ---
 # <a name="cbaserendererm_pposition-member"></a>CBaseRenderer :: m \_ pPosition, membre
 
@@ -36,7 +36,7 @@ CRendererPosPassThru *m_pPosition;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

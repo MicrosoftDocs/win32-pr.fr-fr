@@ -4,12 +4,12 @@ description: Un bouton de commande est un petit objet rectangulaire utilisé pou
 ms.assetid: 26dbe4a0-4110-4569-bac6-fa0a95c785dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4056b1b2bd8f80e79916db0056de176962bd7d3d86c2b62420deaf57f90e8de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e188b58501509fd934ab6396a21beb209857661
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119644489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010661"
 ---
 # <a name="push-button-msaa-ui-element-reference"></a>Push Button (référence des éléments d’interface utilisateur MSAA)
 

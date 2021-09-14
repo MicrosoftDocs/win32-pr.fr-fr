@@ -4,12 +4,12 @@ ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: Procédure d’activation manuelle de la saisie semi-automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7df686e4c5a4a6e96b1faf82e4926dffc73398b360e3e6235d6a61451eae189
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aee4b327c6ccdd62fd921c56cfb046edb8527bc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117859706"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235248"
 ---
 # <a name="how-to-enable-autocomplete-manually"></a>Procédure d’activation manuelle de la saisie semi-automatique
 

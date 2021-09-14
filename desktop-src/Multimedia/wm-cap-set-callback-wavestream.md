@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d36abc7848de082e033cfc25d4f15d90c86cf3b2
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367996"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110738"
 ---
 # <a name="wm_cap_set_callback_wavestream-message"></a>\_ \_ \_ Message WAVESTREAM de rappel \_ défini par WM Cap
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel de flux Wave, de type [**capWaveStreamCallba
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fenêtre de capture appelle la procédure avant d’écrire la mémoire tampon audio sur le disque. Cela permet aux applications de modifier la mémoire tampon audio si vous le souhaitez.
 

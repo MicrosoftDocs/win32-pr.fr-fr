@@ -4,12 +4,12 @@ ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
 title: Événement WPCEVENT_CUSTOM (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8082e03aa6dfea8cd2fd461feec093de71a1ada8051b8fb88295d0bbbf570b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d20cb2450cd18bb0c77993622d226cfc06dff6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235650"
 ---
 # <a name="wpcevent_custom-event"></a>\_Événement personnalisé WPCEVENT
 
@@ -17,7 +17,7 @@ ms.locfileid: "119951549"
 
 Les événements sont affichés dans l' **Observateur d’activité** dans l' **autre** section avec la hiérarchie suivante :
 
-1.  Éditeur
+1.  Publisher
 
 2.  Application
 
@@ -97,7 +97,7 @@ Chaîne personnalisée qui fournit des informations supplémentaires sur la rais
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

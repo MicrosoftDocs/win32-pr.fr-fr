@@ -4,12 +4,12 @@ ms.assetid: c4452c29-2d06-4c71-b960-26c805c29227
 title: MFPKEY_MAXDECLATENCYMS, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1b5aa867df416c91b7fe747a0177d92d278ab02e191a542b7ee21fdf814e103
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2330278788736e7ca71538b583346f11c817a85f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737874"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236058"
 ---
 # <a name="mfpkey_maxdeclatencyms-property"></a>MFPKEY \_ propriété MAXDECLATENCYMS
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_ UI4**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

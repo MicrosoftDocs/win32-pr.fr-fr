@@ -4,12 +4,12 @@ ms.assetid: fdb4f3a8-1447-4e1e-a208-0f9b717f7626
 title: MFPKEY_NOISEEDGEREMOVAL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 128ab89cd12c31186cf99e0c01454986bfe950a3d0a68b6196db6df205dea02a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30acd92bae7693d0714e42d6b4f832a521557bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235997"
 ---
 # <a name="mfpkey_noiseedgeremoval-property"></a>MFPKEY \_ propriété NOISEEDGEREMOVAL
 
@@ -33,7 +33,7 @@ En règle générale, un bord de cadre bruyant est le nombre de données de l’
 
 Si le codec est défini pour supprimer les bords bruyants, il duplique les lignes adjacentes à la périphérie bruyante pour remplir le cadre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: 1a1d4db3-f80a-4dd2-9033-104627d103a5
 title: EC_NEW_PIN (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a718926ce114766680a87d4618b2e1c03bf793f9de567a98d5b7654b49803b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35b253f87281c32ce5b5b0cb2653201b8df70d30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820121"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111146"
 ---
 # <a name="ec_new_pin"></a>\_nouveau \_ code confidentiel ce
 
 Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00555079a018f0ed2d8c16fb3efdf23fd710656f318f1bb2bd66a167b25ce135
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3e14d8c998720cc987a03877e1918e97304bf769
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239357"
 ---
 # <a name="dtm_getsystemtime-message"></a>\_Message DTM GETSYSTEMTIME
 
@@ -39,11 +39,11 @@ Pointeur vers une structure [**SystemTime**](/windows/desktop/api/minwinbase/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne GDT \_ valide si les informations d’heure ont été placées avec succès dans *lParam*. Retourne GDT \_ None si le contrôle a été défini sur le style [**DTS \_ SHOWNONE**](date-and-time-picker-control-styles.md) et que la case à cocher Control n’a pas été activée. Retourne \_ une erreur GDT si une erreur se produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

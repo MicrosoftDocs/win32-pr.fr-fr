@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df59b10400729150a13f2a8a5476c46507867777f71641a01ea0c08e064b4c40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 829bd0423ab6add41b17f59d308aea850c5b2f42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910515"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095954"
 ---
 # <a name="winbio_extended_engine_info-structure"></a>\_Structure d' \_ informations du moteur étendu WINBIO \_
 
@@ -189,7 +189,7 @@ Nombre d’échantillons corrects pour le bord droit de l’empreinte digitale r
 
 </dd> </dl> </dd> </dl> </dd> <dt>
 
-**IRI**
+**Iris**
 </dt> <dd>
 
 Informations sur les fonctionnalités et les exigences d’inscription de l’adaptateur de moteur pour une unité biométrique liée aux modèles d’IRIS.
@@ -237,7 +237,7 @@ Réservé. Doit être zéro.
 
 </dd> </dl> </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

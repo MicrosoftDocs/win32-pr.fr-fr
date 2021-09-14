@@ -15,12 +15,12 @@ keywords:
 - interfaces, ISpreadsheetItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d5feaa32b5fe79635c6acc01e1e0b18b9ba77c382ba3f07c64f7cb3e921b06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88ba050c5a5c8b10c68695fdf1a05d845353e638
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118324369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010474"
 ---
 # <a name="spreadsheetitem-control-pattern"></a>Modèle de contrôle SpreadsheetItem
 
@@ -47,7 +47,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                         | Type de membre | Remarques                                                                                                                                                                                                                                                                                  |
+| Membres nécessaires                                                                         | Type de membre | Notes                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Formule**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-get_formula)                           | Propriété    | L’implémentation d’une propriété de [**formule**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-get_formula) distincte est nécessaire, car la propriété de [valeur](value-property.md) d’une cellule retourne généralement la valeur calculée de la cellule. La propriété **Formula** doit avoir la **valeur null** si aucune formule n’est définie. |
 | [**GetAnnotationObjects**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationobjects) | Méthode      | Retourne un tableau de fournisseurs d’éléments qui font référence aux annotations liées à cette cellule. Les pointeurs dans le tableau peuvent avoir la valeur null si une annotation n’a pas de fournisseur lié.                                                                                                       |
@@ -63,7 +63,7 @@ Ce modèle de contrôle n’est associé aucun événement.
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Types de contrôle et leurs modèles de contrôle pris en charge](uiauto-controlpatternmapping.md)

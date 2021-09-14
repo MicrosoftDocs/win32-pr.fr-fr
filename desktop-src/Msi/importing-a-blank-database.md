@@ -4,12 +4,12 @@ ms.assetid: e239bbe4-3290-40f0-9f28-0e8aa4ed23f8
 title: Importation d’une base de données vide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3d2c0a7b0fa8d6364a9eef66b830f94e3523c2dfece9c6e1ec459d146ace11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b654b0de118013e8f211a9b06e896cc3f486faf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946596"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021394"
 ---
 # <a name="importing-a-blank-database"></a>Importation d’une base de données vide
 

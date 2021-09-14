@@ -4,12 +4,12 @@ ms.assetid: dfc21263-dbb6-424c-9e1f-56bd4dda1314
 title: Regroupements (autorisation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d4c73b2c03b6732aa86567d1bcb072bb1d1f877482862c7629a7880570d4a1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 904c257dd777698d880c15a1f8e6c881217ac60d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096121"
 ---
 # <a name="collections-authorization"></a>Regroupements (autorisation)
 

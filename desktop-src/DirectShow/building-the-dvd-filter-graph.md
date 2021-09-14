@@ -4,12 +4,12 @@ ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Génération du filtre de DVD Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 049c8bc52fd382be863cdf5a0e6b124534e0b9280d28536abc58a6f4e64e81e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96d15c7d84ec138771e1f5da8be4270faae049cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662645"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111410"
 ---
 # <a name="building-the-dvd-filter-graph"></a>Génération du filtre de DVD Graph
 

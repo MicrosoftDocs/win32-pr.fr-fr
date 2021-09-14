@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9195eb1fc3ca1f13e64376c0200cbb2e6ec4589e6740a74b1ff7670c0951df25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 739ac61007e619055c28732c5c5aa763e84054fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118333276"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010929"
 ---
 # <a name="ref-element"></a>Élément REF
 
@@ -50,7 +50,7 @@ URL de tout contenu multimédia pris en charge par Lecteur Windows Media.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément spécifie une URL pour un élément de contenu multimédia. l’URL peut pointer vers n’importe quel type de média pris en charge, à l’aide de n’importe quel protocole pris en charge par Lecteur Windows Media.
 
@@ -85,7 +85,7 @@ Toute tentative de lecture d’un média Flash qui comprend du son avec le premi
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -36,12 +36,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1b6475433d2c0d1432e7501e6cbda46436c5a54fd13d5f254f79b678b3f7bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2d2ab5c41a3c2af26312c97a67d1179b50fd759
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011166"
 ---
 # <a name="winbio_biometric_type-constants"></a>\_Constantes de type de biométrie WINBIO \_
 
@@ -79,7 +79,7 @@ les constantes suivantes représentent les types biométriques standard définis
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

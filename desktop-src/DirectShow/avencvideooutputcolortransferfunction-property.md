@@ -4,12 +4,12 @@ ms.assetid: 89efb1c7-cf77-465c-b6b3-5f89773c524b
 title: Propriété AVEncVideoOutputColorTransferFunction (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 841cbdb85f9faf8e395c9cfd54a2ddd4bae831714a848b34c659d3153e0aefe6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba86d9afa507804e631614936e941952f17797c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119342049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111546"
 ---
 # <a name="avencvideooutputcolortransferfunction-property"></a>Propriété AVEncVideoOutputColorTransferFunction
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoColorTransferFunction**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideocolortransferfunction) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

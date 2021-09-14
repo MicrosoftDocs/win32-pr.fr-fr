@@ -4,12 +4,12 @@ ms.assetid: a625b103-0a55-4268-a01a-6a464a56fec2
 title: MFPKEY_MOTIONSEARCHLEVEL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b53c6bf8f94b2b9817249d96cffbfa0da251dbbcb0545c141230de90f80485af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 231c2c0ae70466d41f4bf348ec47ee0a74cb135b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119555409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236003"
 ---
 # <a name="mfpkey_motionsearchlevel-property"></a>MFPKEY \_ propriété MOTIONSEARCHLEVEL
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété peut être définie sur l’une des valeurs suivantes.
 
@@ -47,7 +47,7 @@ Cette propriété peut être définie sur l’une des valeurs suivantes.
 
 Par défaut, le codec effectue une recherche de mouvement uniquement dans le canal de luminance. L’inclusion d’informations Chroma dans l’estimation de mouvement peut améliorer considérablement la qualité de la vidéo encodée. La recherche de mouvement avec la luminance et la chrominance réelle produira la meilleure qualité vidéo, mais à un coût de performances optimal. Les deux modes dynamiques (-1 et-2) et la luminance avec le mode Chroma entier le plus proche fournissent des compromis raisonnables entre qualité et performances.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

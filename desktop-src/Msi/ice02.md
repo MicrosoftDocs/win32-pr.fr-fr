@@ -4,12 +4,12 @@ ms.assetid: 864404f1-439d-49a2-973d-4e6e1618863e
 title: ICE02
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b97696ee4a8f93d49237dbac8661b6bfc72e478922c87b9095620bc5c29dc546
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1975203825d079d5eeb1ec5e4183767dd68625bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021634"
 ---
 # <a name="ice02"></a>ICE02
 
@@ -17,7 +17,7 @@ ICE02 valide le fait que certaines références entre le [composant](component-t
 
 Le programme d’installation utilise la colonne keyPath de la table Component pour détecter la présence du composant figurant dans la colonne Component. La colonne keyPath contient une clé dans le registre ou les tables de fichiers. Ces deux tables ont une colonne de composant \_ qui contient une clé dans la table des composants pointant vers le composant qui contrôle l’entrée ou le fichier de registre. Ces références doivent être réciproques.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE02 publie un message d’erreur s’il trouve une référence qui doit être réciproque et ne l’est pas.
 
@@ -36,7 +36,7 @@ File: 'Red_File' cannot be the key file for Component: 'Blue'. The file belongs 
 | Composant | KeyPath   |
 |-----------|-----------|
 | Rouge       | \_Fichier rouge |
-| Bleu      | \_Fichier rouge |
+| Blue      | \_Fichier rouge |
 
 
 
@@ -49,7 +49,7 @@ File: 'Red_File' cannot be the key file for Component: 'Blue'. The file belongs 
 | Colonne de fichier | Composant\_ |
 |-------------|-------------|
 | \_Fichier rouge   | Rouge         |
-| \_Fichier Blue  | Bleu        |
+| \_Fichier Blue  | Blue        |
 
 
 

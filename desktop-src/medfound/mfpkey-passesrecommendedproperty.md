@@ -4,12 +4,12 @@ ms.assetid: 7e21cd0f-f13f-4321-b246-f1adaa5c6094
 title: MFPKEY_PASSESRECOMMENDED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af869c6acca584547083b3de245913a35680306b47feabaf2a602a3c1c15e87e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 433e0a0d254c09965976e5659bacfacf3be06643
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119826359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235962"
 ---
 # <a name="mfpkey_passesrecommended-property"></a>MFPKEY \_ propriété PASSESRECOMMENDED
 
@@ -23,11 +23,11 @@ g \_ wszWMVCPassesRecommended, g \_ wszWMCPMaxPasses
 
 VT \_
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez récupérer la valeur de cette propriété en appelant [IWMCodecProps :: GetCodecProp](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop). Si vous utilisez **IPropertyBag**, vous devez d’abord définir la valeur FourCC du format compressé souhaité à l’aide de la propriété [ \_ FourCC MFPKEY](mfpkey-fourccproperty.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

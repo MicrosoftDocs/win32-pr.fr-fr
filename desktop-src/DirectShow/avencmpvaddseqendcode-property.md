@@ -4,12 +4,12 @@ ms.assetid: ef606207-2ee3-420b-afae-67c764e05e54
 title: Propriété AVEncMPVAddSeqEndCode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba3d757bd3023ca9539172c96f6f276bc1833eb7c4e24c8b2bb3adc6038d77c4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1a21adcf8b817e0049da3308760e20cdd0e9d473
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111789"
 ---
 # <a name="avencmpvaddseqendcode-property"></a>Propriété AVEncMPVAddSeqEndCode
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVAddSeqEndCode**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur est **\_ true**, l’encodeur ajoute un code de fin de séquence à la fin du flux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

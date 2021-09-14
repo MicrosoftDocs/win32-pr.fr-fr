@@ -4,16 +4,16 @@ ms.assetid: 57dcf1cd-f27f-4bd3-a5a8-9e978a2d213e
 title: Écriture de la portion de filtre ETYPE/SAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da18b8e2d7d5fc081ea941070644379e6e988a5c697b7ee09ee76a8fdd0c083e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1b072d123ca18d3aa2b3f2c91db4a8461473a854
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120036789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110349"
 ---
 # <a name="writing-etypesap-filter-portion"></a>Écriture de la portion de filtre ETYPE/SAP
 
-La partie ETYPE/SAP du filtre de capture notifie au pilote Moniteur réseau d’accepter des frames qui ont une combinaison spécifique de ETYPE et de [*points d’accès de service*](s.md) (SAP). Les types ETYPE et SAP sont les deux façons dont les protocoles de bas niveau tels que Ethernet, LLC et Snap indiquent le protocole qui les suit. En particulier :
+La partie ETYPE/SAP du filtre de capture notifie au pilote Moniteur réseau d’accepter des frames qui ont une combinaison spécifique de ETYPE et de [*points d’accès de service*](s.md) (SAP). Les types ETYPE et SAP sont les deux façons dont les protocoles de bas niveau tels que Ethernet, LLC et Snap indiquent le protocole qui les suit. Plus précisément :
 
 -   Ethernet spécifie un ETYPE
 -   LLC spécifie un SAP

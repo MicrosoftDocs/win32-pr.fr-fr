@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a871022c51a906bd078125ae6aa6aa30c2e97024279f3309ca4ece58c00a88f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 182a4ffe254e946f1b8deca2c5034e665a58f7ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011148"
 ---
 # <a name="winbio_event-constants"></a>\_Constantes d’événement WINBIO
 
@@ -33,7 +33,7 @@ Les constantes suivantes peuvent être utilisées dans la fonction [**WinBioRegi
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

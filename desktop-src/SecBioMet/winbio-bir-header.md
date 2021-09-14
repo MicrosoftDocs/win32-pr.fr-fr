@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2166a206dd1590f83e16bc67482d3b42e24717efae4c44e54a99b9aa7d83b84
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1479c0db3ee826d79cf95a311215c8cf76f1c96b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011162"
 ---
 # <a name="winbio_bir_header-structure"></a>\_Structure d' \_ en-tête Bir WINBIO
 
@@ -105,7 +105,7 @@ Valeur qui spécifie le format des données d’en-tête. Il peut s’agir d’u
 
 </dd> <dt>
 
-**Sous-type**
+**Subtype**
 </dt> <dd>
 
 Valeur de sous- **\_ \_ type biométrique WINBIO** qui spécifie le sous-facteur associé aux données biométriques. Pour plus d’informations, consultez la section Notes et [**\_ \_ constantes de sous-types biométriques WINBIO**](winbio-biometric-subtype-constants.md).
@@ -197,7 +197,7 @@ Structure [**de \_ \_ format enregistrée par WINBIO**](winbio-registered-format
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *SubType* spécifie le sous-facteur associé aux données biométriques. actuellement, le Windows Biometric Framework (WBF) prend uniquement en charge la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de sous-type :
 
@@ -235,7 +235,7 @@ Si l’un des bits suivants est déclaré, la structure **d' \_ \_ en-tête Bir 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

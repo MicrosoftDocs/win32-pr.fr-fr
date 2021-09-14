@@ -4,12 +4,12 @@ ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
 title: Structure TAPI_AUDIO_STREAM_CONFIG_CAPS (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51fc4777e6d174f7d4aaeac9bbd3f6d467123275b4030c9fa21363223584e8b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: daec587a8e760bedd3ab9c6b3469ef8f70b72383
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118861218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011058"
 ---
 # <a name="tapi_audio_stream_config_caps-structure"></a>\_Structure d' \_ \_ \_ embouts de la configuration du flux audio TAPI
 
@@ -121,7 +121,7 @@ Granularité des valeurs d’octets par seconde.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

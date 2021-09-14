@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 210936d102cdf7c55f25106ec5f6dc8e962c3af7679e6c5294ea10b6e833c8f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e81cfc92ac2778ae559fcd9fb8db2b0cd7bb866
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010174"
 ---
 # <a name="acm_stop-message"></a>\_Message d’arrêt ACM
 
@@ -35,11 +35,11 @@ Arrête la diffusion d’un clip AVI dans un contrôle d’animation. Vous pouve
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

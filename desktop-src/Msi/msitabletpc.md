@@ -4,18 +4,18 @@ ms.assetid: b178a98e-b6f8-4ff8-b554-e47c3b39f892
 title: Propriété MsiTabletPC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac47dd0d8db3c0e882a965685bb1507dc0103f3e965dfbcb8f4857ada19e17ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bf2878dbaa895e0924a50900d331db0b879edc1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145608"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021309"
 ---
 # <a name="msitabletpc-property"></a>Propriété MsiTabletPC
 
 le programme d’installation définit la propriété **MsiTabletPC** sur une valeur différente de zéro si le système d’exploitation actuel est Windows XP édition Tablet PC. Le programme d’installation utilise la fonction [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) avec **SM \_ TABLETPC**, et la propriété reçoit la valeur différente de zéro retournée par cette fonction. si le système actuel n’est pas Windows XP édition Tablet PC, la fonction **GetSystemMetrics** retourne la valeur zéro et le programme d’installation ne définit pas cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,17 +5,17 @@ title: ICE45
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0651d94c296ae14f66b562841c3c4e2bca7b8e32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202541"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021553"
 ---
 # <a name="ice45"></a>ICE45
 
 ICE45 valide que les colonnes de champ de bits dans la base de données ne définissent pas de bits réservés sur 1.
 
-Les bits réservés ne fournissent aucune fonctionnalité dans les versions actuelles du programme d’installation, mais peuvent l’être dans les versions ultérieures. Ils doivent avoir la valeur 0 pour être compatibles avec les futures versions de Windows Installer.
+Les bits réservés ne fournissent aucune fonctionnalité dans les versions actuelles du programme d’installation, mais peuvent l’être dans les versions ultérieures. ils doivent avoir la valeur 0 pour être compatibles avec les futures versions de Windows Installer.
 
 ## <a name="result"></a>Résultats
 
@@ -70,7 +70,7 @@ Row 'Dialog1.Edit2' in table 'Control' has bits set in the 'Attribute'
 
 
 
-| Boîte de dialogue  | Contrôler | Attributs |
+| Boîte de dialogue  | Control | Attributs |
 |---------|---------|------------|
 | Dialog1 | Edit1   | 2 097 152    |
 | Dialog1 | Edit2   | 1 048 576    |

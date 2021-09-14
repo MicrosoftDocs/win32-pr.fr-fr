@@ -4,12 +4,12 @@ ms.assetid: d5bcdf54-061a-436b-8b1a-61ef7d7c90bf
 title: Propriété AVEncCommonBufferOutLevel (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77159af0f328dcc6003c21bfa91544070d121e9aad4f8f42caf02853c218926e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90d99cdea909a1fd1c3777aac4868a570161c3fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120103499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111982"
 ---
 # <a name="avenccommonbufferoutlevel-property"></a>Propriété AVEncCommonBufferOutLevel
 
@@ -29,13 +29,13 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété est disponible uniquement si la durée d’encodage est définie à l’avance, à l’aide de la propriété [**AVEncVideoNoOfFieldsToEncode**](avencvideonooffieldstoencode-property.md) ou de la propriété [**AVEncAudioIntervalToEncode**](avencaudiointervaltoencode-property.md) .
 
 Pour la vidéo MPEG, cette propriété définit le remplissage du vérificateur de mémoire tampon vidéo (VBV) à la fin du processus d’encodage. Il prend en charge la concaténation de flux pendant l’encodage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f720a9b6-930a-4ed7-9798-1c72fa7a11ff
 title: EC_FULLSCREEN_LOST (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf9384bec15969c904636f37db21ab19674bd2468542c2984ce80aa1773c3c6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf36b5652ea5f7cde26950a18de086af0862dac7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120079129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111178"
 ---
 # <a name="ec_fullscreen_lost"></a>perte de la \_ fullscreen EC \_
 
@@ -41,7 +41,7 @@ Aucun.
 
 Lorsque le [convertisseur plein écran](full-screen-renderer-filter.md) perd l’activation, il envoie cet événement. Lorsqu’un autre convertisseur vidéo bascule en mode plein écran, le gestionnaire de graphique de filtre envoie cet événement, en réponse à un événement [**EC \_ Activate**](ec-activate.md) du convertisseur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

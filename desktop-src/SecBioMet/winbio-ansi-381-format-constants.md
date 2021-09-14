@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 625731bfcf880de8dd78e6f3ca942edb2732612a7e4199cee8caed223043fe65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c79701560ad6256e91adcf8360e2ce5866df1e9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096029"
 ---
 # <a name="winbio_ansi_381_format-constants"></a>\_ \_ Constantes de FORMAT ANSI 381 WINBIO \_
 
@@ -33,7 +33,7 @@ Les valeurs suivantes peuvent être utilisées dans la structure de [**\_ \_ for
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

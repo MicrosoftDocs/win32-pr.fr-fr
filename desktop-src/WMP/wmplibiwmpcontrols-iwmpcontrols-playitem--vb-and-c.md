@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fabab78fe60120110f72176885e3b5825699b83782272dfbef0b48c165d1d02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b2ac11f93409128eccc88c1d916144615d77476
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119761029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010752"
 ---
 # <a name="iwmpcontrolsplayitem-method"></a>IWMPControls ::p méthode layItem
 
@@ -60,15 +60,15 @@ Interface **wmplib. IWMPMedia** pour l’élément multimédia.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément multimédia est chargé et lu automatiquement, quelle que soit la valeur de la propriété **IWMPSettings. AutoStart** . Pour charger un élément sans le lire automatiquement, définissez **IWMPSettings. AutoStart** sur **false** et affectez une valeur à **AxWindowsMediaPlayer. URL**, après quoi **IWMPControls. Play** peut être appelé pour démarrer la lecture de l’élément.
 
-Notes
+Remarque
 
 **playItem** fonctionne uniquement avec les éléments dans **AxWindowsMediaPlayer. currentPlaylist**. L’appel de **playItem** avec une référence à un élément multimédia enregistré n’est pas pris en charge.
 
@@ -107,7 +107,7 @@ player.Ctlcontrols.playItem(Media)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

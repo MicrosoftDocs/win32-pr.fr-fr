@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 46e535560332c43d250b0a26183036342c8cca29144e3d2d1803582387af6bd8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf7873407196c98868ca45c73db503568f8259e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011300"
 ---
 # <a name="ibytebufferrevert-method"></a>IByteBuffer :: Revert, méthode
 
@@ -39,11 +39,11 @@ HRESULT Revert();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi et que le flux a été rétabli à sa version précédente.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ignore les modifications apportées à un flux transactionnel depuis la dernière opération de validation.
 
@@ -62,7 +62,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

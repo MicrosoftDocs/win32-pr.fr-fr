@@ -4,12 +4,12 @@ ms.assetid: f9a36315-083c-4ebb-9d36-d55fc1f21621
 title: MFNETSOURCE_CACHEENABLED, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6954359ed91fe402d785fec9e63f470c31abc85432e519b2e06bcb1d679933dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad6f38398e44eaa25da7a5b1f88a76edb8e40924
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236112"
 ---
 # <a name="mfnetsource_cacheenabled-property"></a>MFNETSOURCE \_ propriété CACHEENABLED
 
@@ -31,7 +31,7 @@ VT \_
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ CACHEENABLED** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
@@ -39,7 +39,7 @@ Les applications peuvent utiliser cette propriété pour configurer la source r�
 
 La valeur par défaut de cette propriété est **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

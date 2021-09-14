@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e1755d26abd07c2a5faf0e1a1a2914ee624926911c4a8012d24280f8402cf5aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a8c3214ebe3d88ce8b50aff000d64270ec50a6f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117702163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236537"
 ---
 # <a name="transaction-constructor"></a>Constructeur de transaction
 
@@ -66,7 +66,7 @@ public Transaction(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [classe de transaction](./transaction-class.md)
 

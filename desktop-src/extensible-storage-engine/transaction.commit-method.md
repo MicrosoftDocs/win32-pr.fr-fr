@@ -15,11 +15,11 @@ dev_langs:
 - VB
 - other
 ms.openlocfilehash: 2fde0f0d6a4f666b1a9513e39934240073cef6a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556436"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236489"
 ---
 # <a name="transactioncommit-method"></a>Transaction. Commit, méthode
 
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [classe de transaction](./transaction-class.md)
 

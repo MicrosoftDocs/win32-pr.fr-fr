@@ -4,12 +4,12 @@ description: Cet exemple montre comment implémenter des fonctions de diagnostic
 ms.assetid: 18e66d09-e565-4b86-8bc3-600f2159a4bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1fd8fd7683aded0573034ffec56097256093c61e2bb0f9ec2e7bcd353ff8d3b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e5b2a0dbcba29449b8f21850fa0669f8154dcbd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119802109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110462"
 ---
 # <a name="ndf-helper-class-extension"></a>Extension de classe d’assistance NDF
 

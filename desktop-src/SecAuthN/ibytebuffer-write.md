@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 0033d4f4ee03629d2bedf9f232a43607100bcdca8bfaab457c2236bbfad603d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b5f9b60a296041a18fbd850f1405088f5b0da2ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096406"
 ---
 # <a name="ibytebufferwrite-method"></a>IByteBuffer :: Write, méthode
 
@@ -64,11 +64,11 @@ Adresse d’une variable de **type long** où cette méthode écrit le nombre r�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **IByteBuffer :: Write** écrit les données spécifiées dans un objet de flux. Le pointeur de recherche est ajusté pour le nombre d’octets réellement écrits. Le nombre d’octets réellement écrits est retourné dans le paramètre *pcbWritten* . Si le nombre d’octets est de zéro octet, l’opération d’écriture n’a aucun effet.
 
@@ -100,7 +100,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

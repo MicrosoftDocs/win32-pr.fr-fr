@@ -4,12 +4,12 @@ ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: Implémentation de IWICBitmapFrameDecode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4b49e3636f5d81202b1060d868ecb40bb99d095dd9f26b6afd0d40c5f5fd0d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 394b5858ec5eee37ef1c7f52b766806c4a0c1a92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205763"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234863"
 ---
 # <a name="implementing-iwicbitmapframedecode"></a>Implémentation de IWICBitmapFrameDecode
 
@@ -102,7 +102,7 @@ Seuls les codecs ayant des formats de pixel indexés doivent implémenter la mé
 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Implémentation de IWICBitmapSource](-wic-imp-iwicbitmapsource.md)

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 679d0bfe4b87f934f223ad83f1fd1ee341b5ce891736727a4faa537d782d3687
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2da6a2ae73aa5b987ea3b8f8789f81ed0b4cdf06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235601"
 ---
 # <a name="findfirstprinterchangenotification-function"></a>FindFirstPrinterChangeNotification fonction)
 
@@ -97,7 +97,7 @@ Indicateur qui détermine la catégorie des imprimantes pour lesquelles les noti
 
  
 
-Lorsque cet indicateur est défini sur zéro (0), **FindFirstPrinterChangeNotification** ne fonctionne que pour les imprimantes 2D. Il s'agit de la valeur par défaut.
+Lorsque cet indicateur est défini sur zéro (0), **FindFirstPrinterChangeNotification** ne fonctionne que pour les imprimantes 2D. Il s’agit de la valeur par défaut.
 
 </dd> <dt>
 
@@ -110,13 +110,13 @@ Pour obtenir la liste des champs qui peuvent être analysés, voir [**Printer \_
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est un handle vers un objet de notification de modification associé à l’imprimante ou au serveur d’impression spécifié.
 
 Si la fonction échoue, la valeur de retour est une valeur de handle non valide \_ \_ .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -142,7 +142,7 @@ Les appelants de **FindFirstPrinterChangeNotification** doivent s’assurer que 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

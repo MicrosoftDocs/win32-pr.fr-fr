@@ -4,12 +4,12 @@ ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
 title: WLX_SAS_TYPE_XXX (Winwlx. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 568308d064b576f036d18aaa2d150cb1c6b7f0a2d89ee60d9410fcad123351d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a75c7d7a71855700c4c8c233db3cfc18e06b9d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096161"
 ---
 # <a name="wlx_sas_type_xxx"></a>\_type wlx \_ SAS \_ xxx
 
@@ -38,7 +38,7 @@ Toutes les valeurs comprises entre zéro et 127 sont réservées pour les types 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

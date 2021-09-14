@@ -4,12 +4,12 @@ ms.assetid: c4885152-d7d2-4749-a79a-e0effd38837d
 title: Création de graphiques de filtre pour écrire des fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe53dcee310be34c321dfc2e988807184735a24b0793d68e3ca7dea10d0b29e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0581672f9fd3e4bfa5e2c678c3bd3c0d3ea22fa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662745"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111426"
 ---
 # <a name="building-filter-graphs-to-write-asf-files"></a>Création de graphiques de filtre pour écrire des fichiers ASF
 

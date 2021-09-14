@@ -4,12 +4,12 @@ description: Les unions requièrent des mots clés MIDL spéciaux pour prendre e
 ms.assetid: e7c8296c-893d-4df7-913a-f969733e1917
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fde18cca09f4db81af8eada2ae102a1bea373ed7859b3a7fc2bb9637f28d584
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c562815d78ab931bd4d6590b5465647e72f4bf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011387"
 ---
 # <a name="union-keyword-rpc"></a>mot clé Union (RPC)
 

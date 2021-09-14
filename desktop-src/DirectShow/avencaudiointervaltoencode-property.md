@@ -4,12 +4,12 @@ ms.assetid: 2ef2241b-5ec4-4694-a0c9-7db395321471
 title: Propriété AVEncAudioIntervalToEncode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeaf8b65469ba5d0df93b92fb7ef8b0b10d7fd783dfa3b481ddab2d4cf6a0548
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7847f203c73846c8c8ef0415d91cd09677f53d21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112010"
 ---
 # <a name="avencaudiointervaltoencode-property"></a>Propriété AVEncAudioIntervalToEncode
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncAudioIntervalToEncode**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

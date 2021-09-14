@@ -31,11 +31,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 32c11c609f78cc96862f9c2f15d93266f40ae941
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318558"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236543"
 ---
 # <a name="snapshotpreparegrbit-enumeration"></a>Énumération SnapshotPrepareGrbit
 
@@ -74,7 +74,7 @@ public enum SnapshotPrepareGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">
@@ -93,6 +93,6 @@ public enum SnapshotPrepareGrbit
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)

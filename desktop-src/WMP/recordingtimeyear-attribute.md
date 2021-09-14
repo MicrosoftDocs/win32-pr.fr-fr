@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 588dd160e59c6b7d8f3467784f2cff8bb1d0c4c408d75dae083070ad5bc04e5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92c4a2ac73a0c975e5e35d19ff3d247479b4bb0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118333577"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010932"
 ---
 # <a name="recordingtimeyear-attribute"></a>Attribut RecordingTimeYear
 
@@ -29,13 +29,13 @@ L’attribut **RecordingTimeYear** est la partie année de la date de l’enregi
 -   [Éléments de photo](photo-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

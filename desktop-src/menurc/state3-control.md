@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53a2c6b6078b13d9aa7b69506f51dc58335f414884b53447b5f7a16c37497a91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24333fa9567db5613896f26429b72ff68e029335
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117686866"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235680"
 ---
 # <a name="state3-control"></a>Contrôle STATE3
 

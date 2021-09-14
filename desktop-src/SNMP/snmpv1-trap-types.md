@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7067a6bf5aa1ea11135279484cb74722b8bcc197b507f6bba9b30e35630a2861
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1091bc6af4fa4b1ddfadbaf35e3e69250ded6dcb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011355"
 ---
 # <a name="snmpv1-trap-types"></a>Types d’interruptions SNMPv1
 
@@ -45,7 +45,7 @@ Les types d’interruptions SNMPv1 décrivent un ensemble prédéfini de types d
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

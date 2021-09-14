@@ -4,12 +4,12 @@ ms.assetid: 43f4445e-7bfa-4242-b3ef-4a4fe113f8a4
 title: Interface utilisateur (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c6cec4351fdbd4d2eb79364ebcf65b5c3259b4f37a06e6d86375cadc9b06abb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de66e6c1d1058350f94d68c0d4c99c55ba9aa6c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239861"
 ---
 # <a name="user-interface-windows-installer"></a>Interface utilisateur (Windows Installer)
 

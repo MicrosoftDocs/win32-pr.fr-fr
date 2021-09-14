@@ -4,12 +4,12 @@ ms.assetid: 54c84cdb-50a1-4f5e-a18f-0477d90c74d2
 title: Classement des octets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554b9f00b67fcd602daee0ed33443e228e4e3976f334506d949e3af79fef7e8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47af5ea9d22c01e6ae1ad3d78af48b4216f71ecc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118560179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010471"
 ---
 # <a name="byte-ordering"></a>Classement des octets
 

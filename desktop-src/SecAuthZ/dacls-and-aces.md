@@ -4,12 +4,12 @@ ms.assetid: be9633fb-14ef-42d2-9269-84287b35b653
 title: DACL et ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07bf87c2bd5f64b7178eca9d9fedd695a8b618430bf505f74be297780e48f774
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c28bf351fd59f634a7c7bf960aedac1c76659ad3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096073"
 ---
 # <a name="dacls-and-aces"></a>DACL et ACE
 

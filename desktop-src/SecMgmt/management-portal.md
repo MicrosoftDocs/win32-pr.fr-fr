@@ -5,11 +5,11 @@ title: Gestion de la sécurité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4fffeb33013029737db62d3db2b4c10448dac6a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531736"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011136"
 ---
 # <a name="security-management"></a>Gestion de la sécurité
 
@@ -21,7 +21,7 @@ Les technologies de gestion de la sécurité Microsoft incluent l’API de strat
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API de stratégie LSA, l’API de filtre de mot de passe, l’API plus sécurisée et l’API de pièces jointes de sécurité de service sont destinées à être utilisées par les développeurs d’applications qui permettent aux administrateurs de gérer et de sécuriser leurs systèmes. Les développeurs doivent être familiarisés avec les langages de programmation C et C++ et avec la programmation basée sur Windows.
+L’API de stratégie LSA, l’API de filtre de mot de passe, l’API plus sécurisée et l’API de pièces jointes de sécurité de service sont destinées à être utilisées par les développeurs d’applications qui permettent aux administrateurs de gérer et de sécuriser leurs systèmes. les développeurs doivent être familiarisés avec les langages de programmation C et C++ et avec la programmation basée sur Windows.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

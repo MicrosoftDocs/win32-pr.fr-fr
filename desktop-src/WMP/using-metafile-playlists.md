@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ec4cd47584aaba961d9faa3ba2058ab45145839787f702755ccb7a00fffbe827
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 71f245d1fc1610174f842347a15dfcfaa13286e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119465859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010847"
 ---
 # <a name="using-metafile-playlists"></a>Utilisation des sélections de métafichiers
 

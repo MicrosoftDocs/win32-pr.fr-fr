@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 705c8dd0635294b066897db99c0770b5f6622c75
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106535099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011494"
 ---
 # <a name="gltranslated-function"></a>glTranslated fonction)
 
@@ -56,7 +56,7 @@ Coordonnée *y* d’un vecteur de translation.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Coordonnée *z* d’un vecteur de translation.
@@ -87,7 +87,7 @@ Les fonctions suivantes récupèrent les informations relatives à [**glTranslat
 
 matrice de texture **glGet** avec argument GL \_ \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 90433df4-5a96-4bc2-a780-93306abcb0a4
 title: Propriété AVEncMPVGOPSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7c82ae5c613bb3e78069be3f39f652d840e19c5d62d095fe020f4186bf975f3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8c8907d0992153039b1af9a9a0e82ee5782b525d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119258449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111746"
 ---
 # <a name="avencmpvgopsize-property"></a>Propriété AVEncMPVGOPSize
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Les encodeurs peuvent implémenter cette propriété en tant que jeu énuméré ou en tant que plage linéaire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Définissez cette propriété avant de démarrer un enregistrement.
 
@@ -37,7 +37,7 @@ Définissez cette propriété avant de démarrer un enregistrement.
 
 La taille de GOP 0 est dépendante de l’encodeur et les encodeurs peuvent choisir différentes tailles de groupe d’images en fonction de leur implémentation/qualité/performance. Les encodeurs doivent honorer la taille de groupe d’images et tronquer les frames B dans ce cas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

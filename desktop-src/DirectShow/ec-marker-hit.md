@@ -4,18 +4,18 @@ ms.assetid: b7a2b134-eff8-4431-b4ca-78bbd6eba008
 title: EC_MARKER_HIT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cecde4aa4b9cb7d3f24f41eedefc7d0146258ccb0374a8c4d97094d1a4722d86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 473992ae5dc5433c17ae9f7429810f07821eab7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111149"
 ---
 # <a name="ec_marker_hit"></a>\_marquage EC \_ atteint
 
 Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

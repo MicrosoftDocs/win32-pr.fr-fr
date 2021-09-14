@@ -4,12 +4,12 @@ ms.assetid: 2d8cf5be-1252-4b58-89b1-f5c53ea17d0e
 title: Référence de fichier RIFF AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68cfe9cd0ef27f5aa7a02870392938e14f84caa1a041b0f7677ddbd703920bc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83f28a7254ac9eb927381e313603ffd2bd0d050c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111497"
 ---
 # <a name="avi-riff-file-reference"></a>Référence de fichier RIFF AVI
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 532a41bb9e39f844b3a485fc236ae8d03450d45cdcb45d92c8cfa94d9af4a4bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 451078a6167ff7ca89ad4153c416826af8ac6d05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111317"
 ---
 # <a name="cbaserenderergetstate-method"></a>Méthode CBaseRenderer. GetState
 
@@ -57,7 +57,7 @@ Pointeur vers une variable qui reçoit un membre du type énuméré d' [**\_ Ét
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -73,11 +73,11 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CBaseFilter :: GetState**](cbasefilter-getstate.md) . Quand le convertisseur est suspendu, il ne termine pas la transition d’État tant qu’il n’a pas reçu d’exemple à restituer. Si le délai d’attente expire avant la fin de la transition d’État, la méthode retourne le niveau intermédiaire de l' \_ État VFW S \_ \_ .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

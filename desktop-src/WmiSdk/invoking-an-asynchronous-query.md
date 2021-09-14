@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Appel d’une requête asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ae188e3826562b1de68357db34dca6cea60a40e4be07c16946b13ed3eb3007
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14a0e297c6a1955d0006d888fc95f5e827f5cb75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118993069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010458"
 ---
 # <a name="invoking-an-asynchronous-query"></a>Appel d’une requête asynchrone
 

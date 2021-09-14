@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 34cc43aea463c186d68c0fa0cadc447ba2a02acb
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236568"
 ---
 # <a name="jetupdate2-function"></a>Fonction JetUpdate2
 
@@ -114,13 +114,13 @@ En cas de réussite, l’opération d’ouverture de mise à jour sur le curseur
 
 En cas d’échec, aucune modification de type n’est apportée à la base de données. Avant que les fonctions de rappel Insert et Before Replace aient été appelées, mais après l’appel d’insert et after Replace, les rappels n’auront pas été appelés, puisque ce dernier ne peut pas provoquer l’échec d’une mise à jour. Le tampon de copie de curseur reste dans son état préparé, afin que l’opportunité existe pour corriger de façon incrémentielle les problèmes qui ont provoqué des erreurs et retenter l’opération de mise à jour.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les limitations de taille d’enregistrement sont appliquées par [JetSetColumn](./jetsetcolumn-function.md), et non en général par [JetUpdate](./jetupdate-function.md). La seule exception est lorsque l’indicateur de compatibilité JET_bitUpdateCheckESE97Compatibility est utilisé. Dans ce cas, l’enregistrement entier est vérifié, car une opération [JetSetColumn](./jetsetcolumn-function.md) individuelle qui a dépassé la limite peut être compensée par un appel ultérieur à [JetSetColumn](./jetsetcolumn-function.md).
 
 Pour plus d’informations, consultez la section Notes dans [JetUpdate](./jetupdate-function.md) .
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2117aec6fada67bddce9f07a6c985c73a3dcd93ef217ed7fe77dc46cc5659d26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2946f8b1f745c0db123ed33dab312cbbe9d16c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010431"
 ---
 # <a name="swbemprivilegeset-object"></a>Objet SWbemPrivilegeSet
 
@@ -47,7 +47,7 @@ L’objet **SWbemPrivilegeSet** a ces méthodes.
 | [**AddAsString**](swbemprivilegeset-addasstring.md) | Ajoute un objet [**SWbemPrivilege**](swbemprivilege.md) à la collection **SWbemPrivilegeSet** à l’aide d’une chaîne de privilèges.<br/>                                    |
 | [**DeleteAll**](swbemprivilegeset-deleteall.md)     | Supprime tous les privilèges de la collection.<br/>                                                                                                              |
 | [**Élément**](swbemprivilegeset-item.md)               | Récupère un objet [**SWbemPrivilege**](swbemprivilege.md) de la collection. Il s’agit de la méthode par défaut de cet objet.<br/>                                 |
-| [**Installez**](swbemprivilegeset-remove.md)           | Supprime un objet [**SWbemPrivilege**](swbemprivilege.md) de la collection.<br/>                                                                              |
+| [**Supprimer**](swbemprivilegeset-remove.md)           | Supprime un objet [**SWbemPrivilege**](swbemprivilege.md) de la collection.<br/>                                                                              |
 
 
 
@@ -193,7 +193,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

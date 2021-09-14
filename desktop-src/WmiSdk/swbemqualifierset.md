@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: e74b495313e8061cc6e08e255d1d055bb2f72a92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010388"
 ---
 # <a name="swbemqualifierset-object"></a>Objet SWbemQualifierSet
 
@@ -47,7 +47,7 @@ L’objet **SWbemQualifierSet** a ces méthodes.
 |:-------------------------------------------|:------------------------------------------------------------------------------------------------------------|
 | [**Complémentaires**](swbemqualifierset-add.md)       | Ajoute un objet [**SWbemQualifier**](swbemqualifier.md) à la collection **SWbemQualifierSet** .<br/> |
 | [**Élément**](swbemqualifierset-item.md)     | Retourne un objet nommé [**SWbemQualifier**](swbemqualifier.md) à partir de la collection.<br/>             |
-| [**Installez**](swbemqualifierset-remove.md) | Supprime un qualificateur nommé de la collection.<br/>                                                   |
+| [**Supprimer**](swbemqualifierset-remove.md) | Supprime un qualificateur nommé de la collection.<br/>                                                   |
 
 
 
@@ -61,13 +61,13 @@ L’objet **SWbemQualifierSet** a ces propriétés.
 
 | Propriété                                            | Type d’accès          | Description                                                                     |
 |:----------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------|
-| [**Saut**](swbemqualifierset-count.md)<br/> | Lecture seule<br/> | Contient le nombre d’éléments d’une collection **SWbemQualifierSet** .<br/> |
+| [**Count**](swbemqualifierset-count.md)<br/> | Lecture seule<br/> | Contient le nombre d’éléments d’une collection **SWbemQualifierSet** .<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

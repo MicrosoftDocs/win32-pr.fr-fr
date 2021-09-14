@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1134255b73e579841800af6cd5f6900965217106
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368031"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110713"
 ---
 # <a name="wm_cap_set_previewrate-message"></a>\_Message PREVIEWRATE de l’ensemble de connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Vitesse, en millisecondes, à laquelle les nouveaux frames sont capturés et aff
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mode aperçu utilise des ressources processeur importantes. Les applications peuvent désactiver l’aperçu ou réduire le taux d’aperçu lorsqu’une autre application a le focus. Pendant la capture vidéo en continu, la tâche d’aperçu est moins prioritaire que l’écriture d’images sur le disque, et les images d’aperçu ne sont affichées que si aucune autre mémoire tampon n’est disponible pour l’écriture.
 

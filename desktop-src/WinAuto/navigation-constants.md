@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3e5c3a39c1b628ea03d1e036265ba7787e15bb70ce550e06b43b8efcd02c14a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8de5f4eaa3fc7fb24583e49bdd14acb9633b2bd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010675"
 ---
 # <a name="navigation-constants"></a>Constantes de navigation
 
@@ -47,7 +47,7 @@ Les constantes de navigation Microsoft Active Accessibility sont les suivantes 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

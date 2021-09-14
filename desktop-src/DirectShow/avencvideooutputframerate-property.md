@@ -4,12 +4,12 @@ ms.assetid: 72e16c7d-977e-4269-9576-afc789e31826
 title: Propriété AVEncVideoOutputFrameRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f1e1105ad98564b8d837f35e574be25bcd6cb9506a2adddbc115129fcb65564
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad4cb675c266d146936a3402934e51486ded5b02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111541"
 ---
 # <a name="avencvideooutputframerate-property"></a>Propriété AVEncVideoOutputFrameRate
 
@@ -46,13 +46,13 @@ La valeur de cette propriété est un ratio qui définit la fréquence d’image
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications peuvent définir cette propriété pour spécifier la fréquence d’images de sortie. Les encodeurs peuvent également retourner cette propriété en tant que fonctionnalité. En fonction de l’encodeur, la valeur peut être limitée à la fréquence d’images d’entrée. Si ce n’est pas le cas, l’encodeur est en mesure de convertir la fréquence d’images en interne. Consultez la [**propriété AVEncVideoOutputFrameRateConversion**](avencvideooutputframerateconversion-property.md).
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

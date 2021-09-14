@@ -3,9 +3,9 @@ title: IWMPControls2 Step, méthode
 description: La méthode STEP fait passer l’élément multimédia vidéo actuel au frame suivant ou au frame précédent et fige la lecture.
 ms.assetid: c5cb720f-527f-45b6-ae8a-4da0e3e34618
 keywords:
-- méthode STEP du lecteur Windows Media
-- Step, méthode lecteur Windows Media, interface IWMPControls2
-- Interface IWMPControls2 lecteur Windows Media, méthode STEP
+- step, méthode Lecteur Windows Media
+- step, méthode Lecteur Windows Media, IWMPControls2, interface
+- Lecteur Windows Media de l’interface IWMPControls2, méthode step
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4cfb65dd20de506a8f303121b23668e2fbf14dc4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541363"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010747"
 ---
 # <a name="iwmpcontrols2step-method"></a>IWMPControls2 :: Step, méthode
 
@@ -60,7 +60,7 @@ Valeur **System. Int32** indiquant le nombre de frames à exécuter avant le gel
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -68,7 +68,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne prend actuellement en charge que les paramètres 1 ou-1, de sorte que vous ne pouvez exécuter qu’un seul Frame à la fois.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 03d1512f-35a6-4b3a-9a0e-97e17bd9b126
 title: Recherche de chaînes redirigées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c4e1a46b2c12af839e4c5b562eba18a80c8e814e5a6071dca925a14a46d0ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f11600ad57c04de54d914c2c876b67967dfa1467
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119788479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239970"
 ---
 # <a name="locating-redirected-strings"></a>Recherche de chaînes redirigées
 

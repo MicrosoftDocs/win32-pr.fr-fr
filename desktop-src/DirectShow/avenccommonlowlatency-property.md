@@ -4,12 +4,12 @@ ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
 title: Propriété AVEncCommonLowLatency (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b53c4b0122e595c930828f400600fc22b5a03977a781adab0e3a2f42b1048ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a13dd59b7aa09f6b0f2aa6a4c31031d090d41c85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111974"
 ---
 # <a name="avenccommonlowlatency-property"></a>Propriété AVEncCommonLowLatency
 
@@ -25,11 +25,11 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncCommonLowLatency**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La latence du décodage est définie comme la quantité de données que le décodeur doit mettre en mémoire tampon. Par exemple, la définition de cette propriété sur la **\_ valeur variant true** sur un encodeur vidéo MPEG limite les types de structures GOP que l’encodeur peut utiliser.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

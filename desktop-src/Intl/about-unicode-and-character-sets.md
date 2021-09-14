@@ -4,12 +4,12 @@ ms.assetid: 539ad3c7-45ef-476b-bedc-48986f184796
 title: À propos d’Unicode et des jeux de caractères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 215386394a6cc39106a8492bd3e8b4125a317b4dbcf7530efd75c80db10b1fdc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfeada7db7db1171ccccea2415d93e911c3c3b97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119898979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240474"
 ---
 # <a name="about-unicode-and-character-sets"></a>À propos d’Unicode et des jeux de caractères
 

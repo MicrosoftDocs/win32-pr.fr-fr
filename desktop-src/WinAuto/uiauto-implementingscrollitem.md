@@ -16,11 +16,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7233dfe649d166a3172ff2dda3122895f259abcc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010485"
 ---
 # <a name="scrollitem-control-pattern"></a>Modèle de contrôle ScrollItem
 
@@ -48,11 +48,11 @@ La méthode suivante est requise pour l’implémentation de l’interface [**IS
 
 | Membres nécessaires                                                    | Type de membre | Notes |
 |---------------------------------------------------------------------|-------------|-------|
-| [**ScrollIntoView**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollitemprovider-scrollintoview) | Méthode      | Aucun  |
+| [**ScrollIntoView**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iscrollitemprovider-scrollintoview) | Méthode      | None  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune propriété ni à aucun événement.
 
@@ -72,9 +72,9 @@ Ce modèle de contrôle n’est associé à aucune propriété ni à aucun évé
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

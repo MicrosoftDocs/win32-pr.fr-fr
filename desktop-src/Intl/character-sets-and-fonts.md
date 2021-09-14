@@ -4,12 +4,12 @@ ms.assetid: 32d0ddab-4b3f-473e-bf92-3230b3746079
 title: Jeux de caractères et polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eeee925f55887ac8120474f14b727ea244dc02c3b1e7908f424c0dbf09d502b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43dbf3dae2875ec6d714419bb45411f3208bfe5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240437"
 ---
 # <a name="character-sets-and-fonts"></a>Jeux de caractères et polices
 

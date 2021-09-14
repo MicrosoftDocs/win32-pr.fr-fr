@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-calendar-l1-1-0.dll
 - kernel32legacy.dll
-ms.openlocfilehash: db6bf4fc20c24e91a0af29dc8ee81f7a77ef5cb1c0f0e0f6c5a0a792e52eb903
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0130bf62c742d0565b1c98c138ac8c71ddf7a67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240300"
 ---
 # <a name="getcalendardateformatex-function"></a>GetCalendarDateFormatEx fonction)
 
@@ -113,7 +113,7 @@ Taille, en caractères, de la mémoire tampon *lpDateStr* . L’application peut
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre de caractères écrits dans la mémoire tampon *lpDateStr* en cas de réussite. Si le paramètre *cchDate* a la valeur 0, la fonction retourne le nombre de caractères requis pour contenir la chaîne de Date mise en forme, y compris le caractère null de fin.
 
@@ -124,13 +124,13 @@ Cette fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informatio
 -   ERREUR \_ : indicateurs non valides \_ . Les valeurs fournies pour les indicateurs ne sont pas valides.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La première Date prise en charge par cette fonction est le 1er janvier 1601.
 
 Cette fonction n’a pas de fichier d’en-tête ou de fichier de bibliothèque associé. L’application peut appeler [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) avec le nom de la DLL (Kernel32.dll) pour obtenir un handle de module. Il peut ensuite appeler [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) avec ce handle de module et le nom de cette fonction pour recevoir l’adresse de la fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

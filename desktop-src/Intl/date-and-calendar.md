@@ -4,12 +4,12 @@ ms.assetid: 32772cba-eb30-4cd3-adaf-57fb8425a6d5
 title: Date et calendrier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3f200ccd60a5a5d121a8774c01808794e744b98d8611210fcc98b0f8e5e1f3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96a3c21965bfbf8c4215b478e5c3b4adbae579ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240384"
 ---
 # <a name="date-and-calendar"></a>Date et calendrier
 

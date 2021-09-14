@@ -4,12 +4,12 @@ ms.assetid: 7a1bc160-a06c-4d57-b429-e39167893a45
 title: Mis en forme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58cd21a53a3f77a646d6da0fac04480bd709ab8f1d7ddcb918d5362a0a366c8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cdd15dca46839b25dbf186d8a741b7a5c37c05f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119649639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021705"
 ---
 # <a name="formatted"></a>Mis en forme
 

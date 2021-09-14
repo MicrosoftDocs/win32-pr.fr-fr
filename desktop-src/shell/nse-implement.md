@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: a8d56f15d22df733a7a2970b93459a00cbbc93d129de03286660fc44e16d2e6a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c05f5d2e4c21a923856c7324ad2d407230fa7595
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120090199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235206"
 ---
 # <a name="implementing-the-basic-folder-object-interfaces"></a>Implémentation des interfaces d’objets de dossier de base
 

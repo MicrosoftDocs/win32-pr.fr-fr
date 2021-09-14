@@ -4,12 +4,12 @@ ms.assetid: 67db7ee1-88ec-4e4f-be5e-8b4a7a652bca
 title: Sous-types de vidéos analogiques (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb40aec061f7ec59c03a425cc80b4e1ea7f568845fdd0769f4d32fdfc110caf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a45021badb630b071a57479cb74874fec6f77da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112225"
 ---
 # <a name="analog-video-subtypes"></a>Sous-types de vidéos analogiques
 
@@ -37,7 +37,7 @@ Les sous-types de vidéos analogiques suivants sont désormais obsolètes. Utili
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

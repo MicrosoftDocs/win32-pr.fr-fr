@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: a22e9f21ab1c3d296a770c53bc6ad5847264b703
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236610"
 ---
 # <a name="jetterm-function"></a>Fonction JetTerm
 
@@ -73,11 +73,11 @@ Si cette fonction est réussie, l’instance spécifiée est arrêtée. Le descr
 
 Si cette fonction échoue en raison d’une erreur d’utilisation, l’instance reste dans un état initialisé et rien ne change. Dans le cas contraire, l’instance est toujours arrêtée en fonction de la réussite de l’opération. La différence est que l’instance doit passer par la récupération après incident lorsqu’elle est ensuite initialisée. Le moteur essaiera de vider le plus de données possible pour réduire la quantité de récupération requise. Conceptuellement, un tel échec de **JetTerm** n’est pas différent d’un blocage de processus.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Si le processus hôte d’une instance se ferme pour une raison quelconque avant que **JetTerm** soit appelé avec succès sur cette instance, l’instance est considérée comme étant dans un état de blocage. La récupération après incident se produira lors de la prochaine tentative d’initialisation de cette instance.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

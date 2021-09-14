@@ -10,12 +10,12 @@ keywords:
 - Registre, plug-ins de conversion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e6741a27c665b8a99cda2c756fa28cbdbb16f92564f26c16e077c5c5be8859
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 301d24e38cb4672936923cea9edd7fe6b3d2dc5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119861539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010921"
 ---
 # <a name="registering-conversion-plug-ins"></a>Inscription des plug-ins de conversion
 
@@ -28,7 +28,7 @@ La liste des extensions de nom de fichier inscrites est conservée sous la forme
 | Valeur                  | Paramètre                                                     |
 |------------------------|-------------------------------------------------------------|
 | **Runtime**            | 13                                                          |
-| **Autorisations**        | 8 (autorisation pour la bibliothèque).                             |
+| **autorisations**        | 8 (autorisation pour la bibliothèque).                             |
 | **ConvertPluginCLSID** | ID de classe du plug-in de conversion, au format de registre. |
 
 

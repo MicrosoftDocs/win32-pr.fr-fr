@@ -4,12 +4,12 @@ description: Les barres de défilement permettent à un utilisateur de choisir l
 ms.assetid: a4ec1708-d751-4526-bd69-9796c43872a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6acb609ee56d6e766a2f94cf75406211741ba0a711699f4e8c912790dc71cffe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: df381e0d532991f164f2c17d0a261dd3c5006619
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119734329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010636"
 ---
 # <a name="scroll-bar-msaa-ui-element-reference"></a>Barre de défilement (référence des éléments d’interface utilisateur MSAA)
 
@@ -117,7 +117,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     Les parties d’une barre de défilement verticale portent les noms suivants.
 
-    | Partie                | Name        |
+    | Partie                | Nom        |
     |---------------------|-------------|
     | Fenêtre barre de défilement   | Barr  |
     | Bouton de flèche haut    | « Aligner vers le haut »   |
@@ -134,7 +134,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-    | Partie               | Name           |
+    | Partie               | Nom           |
     |--------------------|----------------|
     | Fenêtre barre de défilement  | Horizontal   |
     | Bouton de direction gauche  | « Colonne à gauche »  |

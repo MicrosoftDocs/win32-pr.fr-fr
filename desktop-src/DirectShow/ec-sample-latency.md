@@ -4,12 +4,12 @@ ms.assetid: 8bd202fb-3015-41a2-ad14-862f64cb252f
 title: EC_SAMPLE_LATENCY (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 612c553916dc19685224bb512f6627363dba439883553d82c59f153324f5eda7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee90d42e6464eccc4bc93b1052e29392b74bb2d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119686149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111098"
 ---
 # <a name="ec_sample_latency"></a>latence de l' \_ exemple EC \_
 
@@ -43,7 +43,7 @@ Un présentateur personnalisé pour le filtre EVR ( [**Enhanced Video Renderer**
 
 La façon la plus simple de calculer *lParam1* est la suivante : *QPC maintenant*   *QPC Target*, où *QPC* est désormais l’heure de l’horloge, et *QPC Target* est l’heure de la présentation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

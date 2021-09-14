@@ -4,12 +4,12 @@ ms.assetid: 8301ed4f-9458-410b-af19-4f055656005a
 title: Access Control client/serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c943d9d1e1f1cc5dcc405f49ab200aa30618f7eefb86c7f26342f005f23249fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92b1d349abb2d55f00b9801c9bb493437fa858eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096118"
 ---
 # <a name="clientserver-access-control"></a>Access Control client/serveur
 

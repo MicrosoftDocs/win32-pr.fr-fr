@@ -4,12 +4,12 @@ description: Architecture côté serveur NAP
 ms.assetid: b05c52d5-1f90-41d4-a540-d20e70e54bcb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f5921cd6b2dc7ebbff06b357775677eaae2305475752b6ea92e33ad7afd390
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6dac585d3c455a1a40f2037b71c0e33cd2bd4847
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117799005"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110577"
 ---
 # <a name="nap-server-side-architecture"></a>Architecture côté serveur NAP
 

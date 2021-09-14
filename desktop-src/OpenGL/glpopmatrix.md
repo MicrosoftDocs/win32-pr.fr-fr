@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c0f10456c1038da46d9070689713a8237f876bec7ce7da40acf3d81d89ad15
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 41424a8af3ca6599edc7a66f9e498632640022c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096609"
 ---
 # <a name="glpopmatrix-function"></a>glPopMatrix fonction)
 
@@ -57,7 +57,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe une pile de matrices pour chaque mode de matrice. En \_ mode MODELVIEW GL, la profondeur de la pile est au moins égale à 32. Dans les deux autres modes, \_ la projection GL et \_ la texture GL, la profondeur est au moins égale à 2. La matrice actuelle dans n’importe quel mode est la matrice située en haut de la pile pour ce mode.
 
@@ -85,7 +85,7 @@ matrice de texture **glGet** avec argument GL \_ \_
 
 **glGet** avec argument de la profondeur de la \_ \_ pile texture Max \_ . GL \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

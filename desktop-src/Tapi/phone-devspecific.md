@@ -4,12 +4,12 @@ ms.assetid: e3e803dd-b041-48b7-9acf-a89989370204
 title: Message PHONE_DEVSPECIFIC (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 578ba0960963f85ff597d9a6bc87ff3369a6c837ed58367bd82d62a13341e988
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c817f273a49fdcda36995cec335811fb06c8a917
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120072899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011087"
 ---
 # <a name="phone_devspecific-message"></a>\_Message DEVSPECIFIC téléphone
 
@@ -61,11 +61,11 @@ Spécifique à l’appareil.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

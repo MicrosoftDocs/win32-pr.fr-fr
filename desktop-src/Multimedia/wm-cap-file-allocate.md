@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1d36cec54e5775641118679b24b0d4b3b1767693
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367900"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110798"
 ---
 # <a name="wm_cap_file_allocate-message"></a>\_Message d' \_ allocation du fichier WM Cap \_
 
@@ -51,7 +51,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez améliorer considérablement les performances de capture de streaming en préallouant un fichier de capture suffisamment grand pour stocker un clip vidéo entier et en défragmentant le fichier de capture avant de capturer le clip.
 

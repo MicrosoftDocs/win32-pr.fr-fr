@@ -5,12 +5,12 @@ ms.assetid: 33bacbf0-c558-497a-a08a-95eb398fad97
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58e3f73b8e7a3d7db8ac109e84c9c638845af441b58568156782710fdac0968a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fd6f26e926958ceba5418a72849b75a66b11d2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119058241"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011016"
 ---
 # <a name="writing-data-by-using-a-dvc-channel"></a>Écriture de données à l’aide d’un canal DVC
 

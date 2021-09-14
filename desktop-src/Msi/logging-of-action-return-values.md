@@ -4,12 +4,12 @@ ms.assetid: 653bbf45-ac2c-4f8a-a978-960e0c42e6e4
 title: Journalisation des valeurs de retour d’action
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 756fa633ef486c3dae4b689acf439f8dbf7786c20f740fb4784de30e764dc9fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aaaa203fee1fbb02bef070d065a9838383ea588b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021373"
 ---
 # <a name="logging-of-action-return-values"></a>Journalisation des valeurs de retour d’action
 
@@ -17,7 +17,7 @@ Le programme d’installation écrit les valeurs suivantes dans le journal lorsq
 
 
 
-| Code d’erreur                       | Les valeurs retournées par les appels de fonction MsiExec.exe et InstMsi.exe | Valeurs qui s’affichent dans le journal. | Description                                                                                                                                                                                                                                                                     |
+| Code d'erreur                       | Les valeurs retournées par les appels de fonction MsiExec.exe et InstMsi.exe | Valeurs qui s’affichent dans le journal. | Description                                                                                                                                                                                                                                                                     |
 |----------------------------------|----------------------------------------------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fonction d’erreur \_ \_ non \_ appelée     | 1626                                                           | 0                              | Une fonction n’a pas pu être exécutée.                                                                                                                                                                                                                                               |
 | ERREUR de \_ réussite                   | 0                                                              | 1                              | Une action s’est terminée avec succès.                                                                                                                                                                                                                                               |

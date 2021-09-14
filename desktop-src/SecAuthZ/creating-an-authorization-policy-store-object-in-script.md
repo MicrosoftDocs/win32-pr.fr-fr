@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 409a22df52d2914cd205700afccfc7a59f19031d924a921b5f2e5101621a895a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: feb02c80408210b663524e2aa914852a853e80ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782194"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096077"
 ---
 # <a name="creating-an-authorization-policy-store-object-in-script"></a>Création d’un objet du magasin de stratégies d’autorisation dans le script
 

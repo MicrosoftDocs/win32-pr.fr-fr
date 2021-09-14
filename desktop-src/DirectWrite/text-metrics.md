@@ -4,12 +4,12 @@ description: pour faciliter la mise en page, la sélection personnalisée des po
 ms.assetid: 9df8c675-6f4d-4de7-916e-7dc51f5f04aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e5c5eecce93eac3726195410cf5b215bd65de3d7e48248a68d6d96858f8fed
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 73647ae4521b23afb399a4c66c8b25cdc46ba1b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119329239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009968"
 ---
 # <a name="text-metrics"></a>Mesures de texte
 

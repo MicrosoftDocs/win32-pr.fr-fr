@@ -4,12 +4,12 @@ ms.assetid: 65fb4db3-e505-457a-9159-dba0b506ea0b
 title: Protocole de négociation TLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fe32e11127bf46088aa04e58dd6444620cea327c08d2609e01749efcb1e00df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0c7cfa9e9db54a6035abe147ce00bbde59bcc86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096265"
 ---
 # <a name="tls-handshake-protocol"></a>Protocole de négociation TLS
 
@@ -23,7 +23,7 @@ Le protocole de négociation TLS ( [*Transport Layer Security*](../secgloss/t-gl
 
 Le client et le serveur effectuent un contact et choisissent la suite de chiffrement qui sera utilisée dans l’échange de messages.
 
-## <a name="authentication"></a>Authentification
+## <a name="authentication"></a>Authentication
 
 Dans TLS, un serveur prouve son identité au client. Le client peut également avoir besoin de prouver son identité au serveur. L’infrastructure à clé publique, l’utilisation de [*paires de clés publiques/privées*](../secgloss/p-gly.md), est la base de cette authentification. La méthode exacte utilisée pour l’authentification est déterminée par la suite de chiffrement négociée.
 

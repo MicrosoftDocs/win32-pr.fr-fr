@@ -5,11 +5,11 @@ title: Message PHONE_REPLY (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 091920c631bf56d58959d60288a1af039495d2d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540936"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011079"
 ---
 # <a name="phone_reply-message"></a>\_Message de réponse téléphonique
 
@@ -61,7 +61,7 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
@@ -69,7 +69,7 @@ Pas de valeur de retour.
 
 Les fonctions qui exécutent de façon asynchrone renvoient une valeur d’identificateur de demande positive à l’application. Cet identificateur de demande est retourné avec le message de réponse pour identifier la demande qui a été effectuée. L’autre paramètre du message **de \_ réponse téléphonique** porte l’indication de réussite ou d’échec. Les erreurs possibles sont les mêmes que celles définies par la fonction correspondante. Ce message ne peut pas être désactivé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

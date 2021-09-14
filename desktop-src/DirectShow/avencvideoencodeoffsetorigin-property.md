@@ -4,12 +4,12 @@ ms.assetid: 8ce8b3b8-dd91-41e1-a4ba-b0c2d9d0edd2
 title: Propriété AVEncVideoEncodeOffsetOrigin (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fdc4ffd1f168fa98ce71937b5ddc22d429c573481575432e94964fdfc5205b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7db4d685942b8c21f2d5047003f2172c54b1d50d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111650"
 ---
 # <a name="avencvideoencodeoffsetorigin-property"></a>Propriété AVEncVideoEncodeOffsetOrigin
 
@@ -29,11 +29,11 @@ Cette propriété est en lecture/écriture.
 
 Les 16 bits supérieurs de la valeur contiennent le décalage par rapport au bord gauche du frame d’entrée, en pixels. Les 16 bits inférieurs contiennent le décalage par rapport au bord supérieur du frame d’entrée, en pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications peuvent définir cette propriété pour rogner la vidéo d’entrée. Utilisez la propriété [**AVEncVideoEncodeDimension**](avencvideoencodedimension-property.md) pour spécifier la largeur et la hauteur du rectangle de découpage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

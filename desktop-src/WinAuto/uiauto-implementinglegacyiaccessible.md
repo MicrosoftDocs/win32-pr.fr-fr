@@ -15,12 +15,12 @@ keywords:
 - interfaces, ILegacyIAccessibleProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 993dcba736be2232ffceb1e6ab0b1dd26b58722b1bb3c26886103229fc7574a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2cffbd205b072f6f900ea5b5eb5a9f6ddfb5ddc5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118827193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010494"
 ---
 # <a name="legacyiaccessible-control-pattern"></a>Modèle de contrôle LegacyIAccessible
 
@@ -51,19 +51,19 @@ Les propriétés, méthodes et événements suivants sont des membres du modèle
 | Membres                                                                        | Type de membre | Notes                                                                                                                                |
 |--------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | [**ChildId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_childid)                   | Propriété    | Retourne **CHILDID \_ Self** (0) pour un objet non enfant.                                                                                |
-| [**Nœud**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction)       | Propriété    | Aucun                                                                                                                                 |
-| [**Description**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description)           | Propriété    | Aucun                                                                                                                                 |
-| [**Aide**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help)                         | Propriété    | Aucun                                                                                                                                 |
-| [**KeyboardShortcut**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut) | Propriété    | Aucun                                                                                                                                 |
-| [**Nomme**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name)                         | Propriété    | Aucun                                                                                                                                 |
+| [**Nœud**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction)       | Propriété    | None                                                                                                                                 |
+| [**Description**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description)           | Propriété    | None                                                                                                                                 |
+| [**Aide**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help)                         | Propriété    | None                                                                                                                                 |
+| [**KeyboardShortcut**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut) | Propriété    | None                                                                                                                                 |
+| [**Nomme**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name)                         | Propriété    | None                                                                                                                                 |
 | [**Rôle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_role)                         | Propriété    | Utilisez la fonction [**GetRoleText**](/windows/desktop/api/Oleacc/nf-oleacc-getroletexta) pour récupérer une chaîne localisée.                                                    |
 | [**GetSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-getselection)         | Méthode      | Récupère un pointeur d’interface [**IUIAutomationElementArray**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray) .                                |
 | [**État**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_state)                       | Propriété    | Utilisez la fonction [**GetStateText**](/windows/desktop/api/Oleacc/nf-oleacc-getstatetexta) pour récupérer une chaîne localisée.                                                  |
-| [**Valeur**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value)                       | Propriété    | Aucun                                                                                                                                 |
-| [**DoDefaultAction**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction)   | Méthode      | Aucun                                                                                                                                 |
-| [**GetIAccessible**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible)     | Méthode      | Aucun                                                                                                                                 |
+| [**Valeur**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value)                       | Propriété    | None                                                                                                                                 |
+| [**DoDefaultAction**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction)   | Méthode      | None                                                                                                                                 |
+| [**GetIAccessible**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible)     | Méthode      | None                                                                                                                                 |
 | [**Sélectionner**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-select)                     | Méthode      | L’indicateur de sélection est une valeur Microsoft Active Accessibility **SELFLAG** . Pour plus d’informations, consultez [constantes SELFLAG](selflag.md). |
-| [**SetValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue)                 | Méthode      | Aucun                                                                                                                                 |
+| [**SetValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue)                 | Méthode      | None                                                                                                                                 |
 
 
 

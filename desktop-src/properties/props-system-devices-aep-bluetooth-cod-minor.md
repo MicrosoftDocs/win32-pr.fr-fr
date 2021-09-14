@@ -4,12 +4,12 @@ ms.assetid: 56923491-8d03-418a-a0b5-c27206c3f8b0
 title: System. Devices. AEP. Bluetooth. COD. mineur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a312a9e2b0d2cefcc51632d29205091d55f5437991c20be74f97ec0c7c9e77d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d928b34323ba8ca7d37035842234a011bb2b6c8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119946229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235397"
 ---
 # <a name="systemdevicesaepbluetoothcodminor"></a>System. Devices. AEP. Bluetooth. COD. mineur
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

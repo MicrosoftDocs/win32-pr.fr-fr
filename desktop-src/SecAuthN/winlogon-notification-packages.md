@@ -4,12 +4,12 @@ ms.assetid: 2245f7d3-714b-4405-aa0e-70f4697e7c64
 title: Packages de notification Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13a2caad2e33ab15ffdb4faa30829709603c2ae6e39c5a0c6d9ee7039470b77a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b863737250edcf78cdb2f07d9ad444db63600a68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096169"
 ---
 # <a name="winlogon-notification-packages"></a>Packages de notification Winlogon
 

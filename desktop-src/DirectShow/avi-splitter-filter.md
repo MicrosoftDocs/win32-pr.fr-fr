@@ -4,12 +4,12 @@ ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: Filtre de séparateur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c090fdf7eda5b785d0d4b05e622e3b31bd0f8a14c15d8bf6df100e5b391aa88
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 24335511e9b7b866c85792c2036a4d4b6d089f2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111493"
 ---
 # <a name="avi-splitter-filter"></a>Filtre de séparateur AVI
 
@@ -34,7 +34,7 @@ Le filtre de séparateur AVI est utilisé pour la lecture des fichiers AVI. Il a
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce filtre est généralement connecté au filtre de [source de fichier Async](file-source--async--filter.md) sur sa broche d’entrée. Il peut se connecter à n’importe quel filtre dont la broche de sortie prend en charge [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) et offre le type de média correct à la broche d’entrée du filtre de séparateur avi.
 

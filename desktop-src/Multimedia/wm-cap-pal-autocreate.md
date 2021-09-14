@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7ba70de46167121aa9a83959c6d9e202039f65cd
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127110786"
 ---
 # <a name="wm_cap_pal_autocreate-message"></a>Message de création d’un \_ \_ message d’attente PAL PAC \_
 
@@ -58,7 +58,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La séquence vidéo échantillonnée doit inclure toutes les couleurs souhaitées dans la palette. Pour obtenir la meilleure palette, vous devrez peut-être échantillonner l’intégralité de la séquence plutôt qu’une partie de celle-ci.
 

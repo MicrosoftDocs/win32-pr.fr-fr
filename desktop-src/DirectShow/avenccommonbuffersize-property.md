@@ -4,12 +4,12 @@ ms.assetid: 3315785e-306f-44d6-ac39-796025a2da3a
 title: Propriété AVEncCommonBufferSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69eb0c4829d30f3eff0297b7e591686f671d0d67967a65dc76695878d74b454e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c677c483c320c9dceef391f45c5d8bf163eece0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111981"
 ---
 # <a name="avenccommonbuffersize-property"></a>Propriété AVEncCommonBufferSize
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange). Les plages de paramètres ne sont pas prises en charge pour les encodeurs de caméra H. 264 UVC 1,5.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour certains formats vidéo, la taille de la mémoire tampon est spécifiée en bits et, pour d’autres, elle est spécifiée en octets. Consultez les remarques ci-dessous pour obtenir des informations spécifiques.
 
@@ -41,7 +41,7 @@ Pour les caméras de codage UVC 1,5 H264 –, la valeur CPB envoyée à l’enco
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

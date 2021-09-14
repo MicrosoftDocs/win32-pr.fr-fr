@@ -4,12 +4,12 @@ ms.assetid: 9271bd4b-57b1-4b1b-bfee-d6ae5f49a154
 title: Transition de réinitialisation SMPTE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40db8097b61d1b750f8e17067bda08f94a54504c8e990656b7416d84a9a1c089
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47de62c450ff0d75f72e5fac466801991b987834
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050433"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240696"
 ---
 # <a name="smpte-wipe-transition"></a>Transition de réinitialisation SMPTE
 
@@ -50,7 +50,7 @@ Propriétés
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette transition prend en charge les réinitialisations SMPTE standard suivantes :
 
@@ -92,7 +92,7 @@ Cette transition prend en charge les réinitialisations SMPTE standard suivantes
 | 72     | Scie, haut                 | 264    | Centrer radial, gauche, droite                  |
 | 73     | Scie, vertical            | 301    | Matrice, horizontal                          |
 | 74     | Scie, horizontal          | 302    | Matrice, vertical                            |
-| 101    | Zone                           | 303    | Matrice, diagonale, haut à gauche                  |
+| 101    | Box                           | 303    | Matrice, diagonale, haut à gauche                  |
 | 102    | Losange                       | 304    | Matrice, diagonale, en haut à droite                 |
 | 103    | Triangle, haut                  | 305    | Matrice, diagonale, bas à droite              |
 | 104    | Triangle, droite               | 306    | Matrice, diagonale, bas à gauche               |

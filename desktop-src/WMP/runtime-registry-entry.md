@@ -13,12 +13,12 @@ keywords:
 - entrées de Registre du Runtime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 677cb5edb397089a7c432e2464a4d38d6cf5f4c4948070bbef1b1b9cb5c5bebf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bf485038965184add320e49c29482672c770f48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117933679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010879"
 ---
 # <a name="runtime-registry-entry"></a>Entrée du Registre du Runtime
 
@@ -28,7 +28,7 @@ l’entrée **Runtime** spécifie la technologie sous-jacente que Lecteur Window
 
 
 
-|   Name   |   Type         |   Valeur                                                       |
+|   Nom   |   Type         |   Valeur                                                       |
 |----------|----------------|---------------------------------------------------------------|
 | Runtime  | **\_valeur DWORD reg** | Entier positif qui identifie la technologie sous-jacente. |
 

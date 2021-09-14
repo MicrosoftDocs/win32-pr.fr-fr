@@ -4,12 +4,12 @@ ms.assetid: b0e6bf16-b1d1-453d-8b58-272565c3d6e6
 title: Propriété balance
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4faa8bcacb8c4603dcb67ee6cc617ced4b31bd7afa3afa16d3ba3831040a004
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1334fcc51695f04ab0026ded8c68c17cb07aa0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111474"
 ---
 # <a name="balance-property"></a>Propriété balance
 
@@ -28,7 +28,7 @@ La `Balance` propriété définit ou récupère le solde du haut-parleur pour la
 
 Retourne une valeur entière représentant les niveaux de solde. La plage d’entrée autorisée est comprise entre-10 000 et 10 000. La valeur 0 définit un équilibre neutre, c’est-à-dire que les haut-parleurs gauche et droit reçoivent le même signal audio amplitude.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est en lecture/écriture avec une valeur par défaut de 0, ce qui signifie que les deux enceintes reçoivent des signaux audio équivalents. Comme avec la propriété [**volume**](volume-property.md) , Units correspond à 0,01 décibels (multiplié par-1 lorsque
 

@@ -4,12 +4,12 @@ ms.assetid: 0a016542-306e-48b4-8b0c-b9e4e915513e
 title: Événement WPCEVENT_IM_CONTACT (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: baac4bf5648b27f2e8d446a79bb2d90d52f0aac416e30d031d3b81d430a6927b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9747f7ede57f7a1d77af0f0e8e5425401ee32b36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235631"
 ---
 # <a name="wpcevent_im_contact-event"></a>\_Événement de \_ contact WPCEVENT im
 
@@ -82,7 +82,7 @@ Valeur de l’énumération [**WPCFLAG \_ ISBLOCKED**](/windows/win32/api/wpceve
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

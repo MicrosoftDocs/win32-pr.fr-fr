@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c11c8d23130393102f39b716e16c0a6433a40122ad176a525b40e2e1a21b0360
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c1294745938e245deda8296f2ce4d1df386b9f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096662"
 ---
 # <a name="components"></a>Composants
 

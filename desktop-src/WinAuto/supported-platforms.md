@@ -4,12 +4,12 @@ description: microsoft Active Accessibility prend en charge la plupart des plate
 ms.assetid: 04133938-8b2f-49d2-86cd-592e47d5d70f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9f3920c52ef0ea9a45d8277bb234855056acaa80e3c420935ea06f88c475d54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07e8b8532e018ee5057f23d2be6f752aa6c3019a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010614"
 ---
 # <a name="supported-platforms"></a>Plateformes prises en charge
 

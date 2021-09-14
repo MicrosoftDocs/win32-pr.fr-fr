@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 67a61d0a0182957b6fa5b354f862fe6bd2a0133a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235704"
 ---
 # <a name="menus-menus-and-other-resources"></a>Menus (menus et autres ressources)
 
@@ -22,7 +22,7 @@ Cette section décrit les menus et explique comment les utiliser.
 
 
 
-| Name                                 | Description                                                  |
+| Nom                                 | Description                                                  |
 |--------------------------------------|--------------------------------------------------------------|
 | [À propos des menus](about-menus.md)       | Discute des menus.<br/>                                  |
 | [Utilisation des menus](using-menus.md)       | Fournit des exemples de code de tâches liées aux menus.<br/> |
@@ -36,7 +36,7 @@ Cette section décrit les menus et explique comment les utiliser.
 
 
 
-| Name                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Nom                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua)                                 | Ajoute un nouvel élément à la fin de la barre de menus, du menu déroulant, du sous-menu ou du menu contextuel spécifiés. Vous pouvez utiliser cette fonction pour spécifier le contenu, l’apparence et le comportement de l’élément de menu. <br/>                                                                                                                                                                                                  |
 | [**CheckMenuItem**](/windows/desktop/api/Winuser/nf-winuser-checkmenuitem)                           | Définit l’état de l’attribut coché de l’élément de menu spécifié comme étant activé ou désactivé.<br/>                                                                                                                                                                                                                                                                                                      |
@@ -86,7 +86,7 @@ La fonction suivante est obsolète.
 
 
 
-| Name | Description | 
+| Nom | Description | 
 |------|-------------|
 | <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> | Insère un nouvel élément de menu dans un menu, en déplaçant d’autres éléments vers le menu.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> a été remplacée par la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> . Toutefois, vous pouvez toujours utiliser <strong>InsertMenu</strong>, si vous n’avez pas besoin des fonctionnalités étendues de <strong>InsertMenuItem</strong>.</blockquote><br /><br /> | 
 
@@ -99,7 +99,7 @@ La fonction suivante est obsolète.
 
 
 
-| Name                                                  | Description                                                                                                                                                                          |
+| Nom                                                  | Description                                                                                                                                                                          |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM, \_ commande**](wm-command.md)                     | Envoyé lorsque l’utilisateur sélectionne un élément de commande dans un menu, lorsqu’un contrôle envoie un message de notification à sa fenêtre parente, ou lorsqu’une touche d’accès rapide est traduite. <br/> |
 | [**WM \_ CONTEXTMENU**](wm-contextmenu.md)             | Indique à une fenêtre que l’utilisateur a cliqué avec le bouton droit de la souris (*cliquez avec le bouton droit*) dans la fenêtre.<br/>                                                                            |
@@ -121,7 +121,7 @@ La fonction suivante est obsolète.
 
 
 
-| Name                                                       | Description                                                                                                                                                     |
+| Nom                                                       | Description                                                                                                                                                     |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu)                         | Contient des informations sur le menu à activer. <br/>                                                                                                |
 | [**MENUBARINFO**](/windows/win32/api/winuser/ns-winuser-menubarinfo)                         | Contient des informations sur la barre de menus.<br/>                                                                                                                       |

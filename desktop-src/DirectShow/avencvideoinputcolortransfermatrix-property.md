@@ -4,12 +4,12 @@ ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
 title: Propriété AVEncVideoInputColorTransferMatrix (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41927641a43b104d59248cdcba5743dda647cf24afeb3970e9a87cd87b983b54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 362c73f5527f5db30e906b46e93a9e6f7c1733fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111589"
 ---
 # <a name="avencvideoinputcolortransfermatrix-property"></a>Propriété AVEncVideoInputColorTransferMatrix
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncVideoColorTransferMatrix**](/windows/desktop/api/codecapi/ne-codecapi-eavencvideocolortransfermatrix) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

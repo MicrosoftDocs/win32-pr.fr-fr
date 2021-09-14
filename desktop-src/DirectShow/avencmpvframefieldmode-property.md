@@ -4,12 +4,12 @@ ms.assetid: bf21ea55-662f-4a69-8528-67592b8b8645
 title: Propriété AVEncMPVFrameFieldMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab8098ee905f2d47c2ff2704e2d2d2c9733f868b90ac92e2afed9ba1fdf9d67
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bac16a4002cc7bdc074c78d5c3452438f7c3ad91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119641239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111781"
 ---
 # <a name="avencmpvframefieldmode-property"></a>Propriété AVEncMPVFrameFieldMode
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVEncMPVFrameFieldMode**](/windows/desktop/api/codecapi/ne-codecapi-eavencmpvframefieldmode) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

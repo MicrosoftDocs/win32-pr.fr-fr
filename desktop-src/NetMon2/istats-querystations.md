@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b2d4ead22b3e7308aee3c44b3ff6dff407591cbe675b09a3300f3e7a8720726c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 99c3be3926191c27ad038034373e411b5c22d9fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119742639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011541"
 ---
 # <a name="istatsquerystations-method"></a>IStats :: QueryStations, méthode
 
@@ -49,7 +49,7 @@ Lors de la sortie, cette structure retourne le nombre d’ordinateurs qui captur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,13 +65,13 @@ Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être appelée à tout moment après l’appel de [CreateNPPInterface](createnppinterface.md) . Un appel à cette méthode est un appel synchrone, qui peut prendre plusieurs secondes pour s’exécuter Moniteur réseau attend que les ordinateurs distants répondent à la requête. Seuls les ordinateurs sur le sous-réseau local peuvent être interrogés.
 
 Il vous incombe d’allouer la mémoire pour la structure [QUERYTABLE](querytable.md) et de libérer de la mémoire une fois que la table n’est plus nécessaire. Cette exigence comprend la mémoire nécessaire pour le tableau [STATIONQUERY](stationquery.md) utilisé dans QUERYTABLE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

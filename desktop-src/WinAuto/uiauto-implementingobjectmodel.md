@@ -15,12 +15,12 @@ keywords:
 - interfaces, IObjectModelProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62081f8fb841e7827f589fd2441c7b6411810f9a71c1c1962a0dfcf8b0e37180
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54ff115233faf19f93963153a0b2a0a1ff52c3f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118114992"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010489"
 ---
 # <a name="objectmodel-control-pattern"></a>ObjectModel (modèle de contrôle)
 

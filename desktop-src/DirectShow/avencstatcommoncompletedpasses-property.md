@@ -4,12 +4,12 @@ ms.assetid: 19286f26-96f1-429c-9d6a-5e9b98597cd2
 title: Propriété AVEncStatCommonCompletedPasses (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5950a8f013dc697b0e8178e65610971776c0bd7bba233a58d164c05080f966f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2927e501963d450cbc08106e7860dfbfd2d7d98a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119275869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111674"
 ---
 # <a name="avencstatcommoncompletedpasses-property"></a>Propriété AVEncStatCommonCompletedPasses
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture seule.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

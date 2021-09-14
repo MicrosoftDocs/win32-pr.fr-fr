@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9f3b92cca8d17af8814a7891d0d4f97c7e003b1a999a42c63b6abe59d50e8ac9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 416101df1c3ae8542d3d2cd170b873407f007c67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010432"
 ---
 # <a name="swbempropertycimtype-property"></a>SWbemProperty. CIMType, propriété
 
@@ -42,7 +42,7 @@ SWbemProperty.CIMType As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur les types valides pour cette propriété, consultez [**WbemCimtypeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemcimtypeenum).
 
@@ -50,7 +50,7 @@ Les instances d’objets incorporés sont stockées dans des objets composites e
 
 Les références d’objet dans une classe d’association sont stockées dans des propriétés de type **\_ référence CIM**. Pour déterminer les chemins d’accès aux objets réels, vous devez examiner le qualificateur **CimType** de la propriété type de **\_ référence CIM** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

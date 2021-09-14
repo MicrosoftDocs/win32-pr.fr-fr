@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 87c308f4895eb3e78a35338fe39afb3d775da095
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236603"
 ---
 # <a name="jetunregistercallback-function"></a>JetUnregisterCallback fonction)
 
@@ -86,11 +86,11 @@ Si cette fonction réussit, le rappel spécifié sera désinscrit pour les raiso
 
 Si cette fonction échoue, le rappel spécifié n’est pas annulé. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Le masque de masque donné doit correspondre exactement au masque de données spécifié lors de l’inscription du rappel. Le moteur de base de données ne prend pas actuellement en charge la suppression d’un sous-ensemble de ces notifications et ne renvoie pas d’erreur lorsque cette tentative est effectuée.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

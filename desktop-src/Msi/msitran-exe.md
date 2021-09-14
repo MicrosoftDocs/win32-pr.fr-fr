@@ -4,12 +4,12 @@ ms.assetid: cfc7b907-78d7-4a78-bab4-ede9012d5a36
 title: Msitran.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e09803623024bb593897411a5e852aa953335c31fd88f9e2e1922b89b53e9abf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a69936155fb3880f43e0f7563bc6aabd59f53703
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021299"
 ---
 # <a name="msitranexe"></a>Msitran.exe
 

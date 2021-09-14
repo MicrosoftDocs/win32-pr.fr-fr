@@ -4,12 +4,12 @@ ms.assetid: d6217250-63ff-4dff-a357-ff4aaa764695
 title: Propriété AVEncVideoEncodeDimension (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d99a0c14cbb3f67f7aa1c634a59c5f4cb9184dcd861bc8f14023c4afcebcefa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f63d0a5c0d1c6af7c20620c315ad25c16eac528
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111653"
 ---
 # <a name="avencvideoencodedimension-property"></a>Propriété AVEncVideoEncodeDimension
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Les 16 bits supérieurs de la valeur contiennent la largeur en pixels, et les 16 bits inférieurs contiennent la hauteur en pixels.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les applications peuvent définir cette propriété pour rogner la vidéo d’entrée. La taille spécifiée doit être inférieure à la taille des images vidéo d’entrée. Utilisez la propriété [**AVEncVideoEncodeOffsetOrigin**](avencvideoencodeoffsetorigin-property.md) pour spécifier les angles gauche et supérieur du rectangle de découpage.
 
@@ -39,7 +39,7 @@ Cette propriété est également utilisée avec les [encodeurs de caméra H. 264
 
 Pour les encodeurs de caméra UVC 1,5, [AVEncVideoEncodeOffsetOrigin](avencvideoencodeoffsetorigin-property.md) n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

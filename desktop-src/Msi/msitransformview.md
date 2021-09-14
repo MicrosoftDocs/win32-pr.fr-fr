@@ -5,11 +5,11 @@ title: MsiTransformView
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8e1b6c46ebfcfb82ee23ce6acec998490f53fe67
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882233"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111050"
 ---
 # <a name="msitransformview"></a>MsiTransformView
 
@@ -23,7 +23,7 @@ Cette table doit être nommée MsiTransformView *&lt; PatchGUID &gt;* table, où
 
 
 
-| Colonne  | Type                         | Clé : | Nullable |
+| Colonne  | Type                         | Clé | Nullable |
 |---------|------------------------------|-----|----------|
 | Table de charge de travail   | [Identificateur](identifier.md) | O   | N        |
 | Colonne  | [Text](text.md)             | O   | N        |
@@ -74,7 +74,7 @@ Valeur actuelle de la base de données de référence ou numéro de colonne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions personnalisées de désinstallation des correctifs s’exécutent lorsque le correctif est désinstallé. Elles ne s’exécutent pas lorsque le produit est désinstallé. Utilisez l' [option de désinstallation corrective action personnalisée](custom-action-patch-uninstall-option.md) et le tableau ci-dessous pour exécuter une opération personnalisée uniquement lorsque le correctif est en cours de désinstallation.
 

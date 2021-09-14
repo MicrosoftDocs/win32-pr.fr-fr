@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e84afd1d4e4ffb013a2029f7d56a223f0aef2f019bc3beb11bd7bd6c202b88d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9ac328c772b740a0d7ab05be4c6ea9f2a24f852e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111314"
 ---
 # <a name="cbaserendererinactive-method"></a>CBaseRenderer. inactive, méthode
 
@@ -40,15 +40,15 @@ virtual HRESULT Inactive();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée appelle cette méthode à partir de sa propre méthode [**CRendererInputPin :: inactive**](crendererinputpin-inactive.md) . Le filtre appelle la méthode [**CBaseRenderer :: ClearPendingSample**](cbaserenderer-clearpendingsample.md) pour libérer l’exemple le plus récent.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: Exemple de filtre Async
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 099931e9a20c977da18a67f9fe232c2ec391dd4e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033544"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112190"
 ---
 # <a name="async-filter-sample"></a>Exemple de filtre Async
 
@@ -17,7 +17,7 @@ ms.locfileid: "104033544"
 
 L’exemple de filtre Async est un filtre de lecteur de fichier qui prend en charge le téléchargement progressif. Cet exemple de filtre implémente les interfaces [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) et [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) . Il prend en charge les fichiers MPEG, mais pas les fichiers AVI.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 Cet exemple comprend une petite application en ligne de commande, Memfile.exe, qui illustre le filtre. Les arguments de ligne de commande spécifient un fichier multimédia et une vitesse de transmission, en kilo-octets par seconde. L’application lit le fichier en mémoire à la vitesse spécifiée et lit le fichier. Pour ce faire, il crée une instance du filtre, ajoute le filtre au graphique de filtre et restitue la broche de sortie du filtre.
 
@@ -29,15 +29,15 @@ Le filtre d’exemple Async ne prend pas en charge les fichiers AVI, car il ne p
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : \[ exemples *racine SDK* \] \\ \\ \\ filtres DirectShow multimédias \\ \\ asynchrones.
+cet exemple est installé sous le chemin d’accès suivant : \[ exemples *racine du kit de développement logiciel (SDK)* \] \\ \\ \\ DirectShow \\ filtres \\ asynchrones.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 
 
  

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 022d12b78416ce4ec84cf02ae8696f17bf5c315a207ae04f28a8980f6aaac073
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 455752375b76e574923ccdd96d1d05fc9142c16c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118544597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010356"
 ---
 # <a name="bits_job_transfer_policy-enumeration"></a>Énumération BITS_JOB_TRANSFER_POLICY
 
@@ -81,7 +81,7 @@ Spécifie que le travail sera transféré uniquement lorsque la connectivité es
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

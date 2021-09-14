@@ -4,12 +4,12 @@ ms.assetid: 200355f8-e472-4497-8d36-c77f6b2cf5c7
 title: Affectations de canal Autriche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3324e47aea4fc9ef5326a6f96d784b36ebf30f9b0bb4419b312480d580aa90f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12f7ca86799e733f989c0de01faba23cb5eb581d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117824259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112133"
 ---
 # <a name="austria-channel-assignments"></a>Affectations de canal Autriche
 

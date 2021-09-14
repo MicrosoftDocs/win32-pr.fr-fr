@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 595139b91e0fb19ac6ef479831604663dea1981e401aa807ba2bb3cd24a29a41
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfe21f2961cd4cb1df31a1fdb3f407a71d6e6d68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119488429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011456"
 ---
 # <a name="glutessproperty-function"></a>gluTessProperty fonction)
 
@@ -79,11 +79,11 @@ Valeur de la propriété indiquée.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **gluTessProperty** contrôle les propriétés stockées dans un objet pavage. Ces propriétés affectent la manière dont les polygones sont interprétés et rendus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c1cd6d20731e38b9f234d2e4a10e97a68c7cf2521258034663d949131b193faf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b0f4662b4884da227a64768cc29bce4c615f8f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010193"
 ---
 # <a name="takeownershipex-method-of-the-win32_pagefile-class"></a>Méthode TakeOwnerShipEx de la \_ classe du fichier d’échange Win32
 
@@ -70,7 +70,7 @@ Si la **valeur est true**, la modification de la propriété sera appliquée de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -167,7 +167,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

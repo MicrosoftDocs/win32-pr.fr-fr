@@ -4,12 +4,12 @@ ms.assetid: 2b4d11c1-767c-4466-8291-7959d841ae65
 title: Propriété AVEncMPVIntraDCPrecision (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e50d4a6b222d9860a16216a1395b9f5a2b10d23e6242315a61e8224d37810c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55d4bdd3c08f49586eb2663829271ae4166d917e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119276129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111745"
 ---
 # <a name="avencmpvintradcprecision-property"></a>Propriété AVEncMPVIntraDCPrecision
 
@@ -29,11 +29,11 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plage habituelle de cette propriété est comprise entre 8 et 11 bits. Si la valeur est égale à zéro, l’encodeur sélectionne la précision.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ title: numberFormat
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2e9db77cc68dab7038a1b5b9c50d49f5381ee948
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883660"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235524"
 ---
 # <a name="numberformat"></a>numberFormat
 
@@ -61,7 +61,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -85,7 +85,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 <tbody>
 <tr class="odd">
 <td>formatas</td>
-<td>Public. Facultatif. La valeur par défaut est &quot; général &quot; . Spécifie le format d’affichage. Les valeurs valides sont les suivantes. 
+<td>Public. Optionnel. La valeur par défaut est &quot; général &quot; . Spécifie le format d’affichage. Les valeurs valides sont les suivantes. 
 <table>
 <thead>
 <tr class="header">
@@ -145,7 +145,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 </tr>
 <tr class="even">
 <td>formatDurationAs</td>
-<td>Public. Facultatif. La valeur par défaut est &quot; hh : mm : SS &quot; . S’applique uniquement si <em>formatas &quot; = &quot; Duration</em>. Requiert que la propriété soit UInt64. Les valeurs valides sont les suivantes. 
+<td>Public. Optionnel. La valeur par défaut est &quot; hh : mm : SS &quot; . S’applique uniquement si <em>formatas &quot; = &quot; Duration</em>. Requiert que la propriété soit UInt64. Les valeurs valides sont les suivantes. 
 <table>
 <thead>
 <tr class="header">

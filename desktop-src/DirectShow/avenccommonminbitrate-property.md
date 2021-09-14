@@ -4,12 +4,12 @@ ms.assetid: 57ef6c08-3bad-4d8d-8daf-61041b878802
 title: Propriété AVEncCommonMinBitRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65488b3a855d4b664c96a1d7abfc1718a35e94c466877c68848a1acf25a3bfe4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95c9b6e84675994d2aca7548f6c13d6558ebc020
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111958"
 ---
 # <a name="avenccommonminbitrate-property"></a>Propriété AVEncCommonMinBitRate
 
@@ -29,11 +29,11 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’encodeur applique la vitesse de transmission minimale en renforçant la qualité d’encodage en fonction des besoins.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

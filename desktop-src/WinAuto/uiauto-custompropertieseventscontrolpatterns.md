@@ -14,11 +14,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b6a80fb7d4323f3f0ec51971d5fcbfc09989e634
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512643"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010558"
 ---
 # <a name="custom-properties-events-and-control-patterns"></a>Propriétés personnalisées, événements et modèles de contrôle
 
@@ -33,7 +33,7 @@ L’API Microsoft UI Automation spécifie un ensemble de propriétés, des modè
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des propriétés UI Automation](uiauto-propertiesoverview.md)
@@ -48,9 +48,9 @@ L’API Microsoft UI Automation spécifie un ensemble de propriétés, des modè
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

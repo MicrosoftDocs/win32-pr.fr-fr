@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: dd80b408765985b2e009b2e580eb1bf81b08cb5ea1f2e7aaa5ed628a76073a27
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bbbf033fc9ad5a25b3bcf5c22028ac1237f46c14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096410"
 ---
 # <a name="ibytebufferstat-method"></a>IByteBuffer :: stat, méthode
 
@@ -56,11 +56,11 @@ Spécifie que cette méthode ne retourne pas certains des champs de la structure
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **IByteBuffer :: stat** récupère un pointeur vers la structure **STATSTRUCT** qui contient des informations sur ce flux ouvert.
 
@@ -84,7 +84,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

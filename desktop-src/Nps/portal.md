@@ -5,12 +5,12 @@ ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d1f604d7cea69bcc8866176f612c76d2e6820bc4a00aa58d3760761ef59270b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0d1dfc680c8a23ca1e80f52230736b3ab586cc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118362305"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011514"
 ---
 # <a name="network-policy-server"></a>Serveur de stratégie réseau
 

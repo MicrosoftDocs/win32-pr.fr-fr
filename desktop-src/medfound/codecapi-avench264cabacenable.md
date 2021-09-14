@@ -4,12 +4,12 @@ ms.assetid: E09DD142-A685-425E-94CD-A8E2EA73E869
 title: CODECAPI_AVEncH264CABACEnable, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9c3099f5208b020a61a12e718788459130a1c121ba0634b3e259c439f44f53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5db4a23377b79102165f0582d6a2ee47f53d8c1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118744142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236316"
 ---
 # <a name="codecapi_avench264cabacenable-property"></a>CODECAPI \_ propriété AVEncH264CABACEnable
 
@@ -27,7 +27,7 @@ Active ou désactive le codage arithmétique binaire CABAC (Context-adaptative) 
 
 Si la valeur est **\_ true**, CABAC est activé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

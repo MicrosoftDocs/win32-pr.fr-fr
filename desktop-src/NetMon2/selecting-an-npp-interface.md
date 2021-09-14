@@ -4,12 +4,12 @@ ms.assetid: 269b26f5-b794-4920-98da-505eda83c990
 title: Sélection d’une interface NPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4336c4ff2408aa89d723dd451174ef6dca81eba39c17c52aefdc829018e71483
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e8dba919302190e1fd89c859f61fca14aaf7d6e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021025"
 ---
 # <a name="selecting-an-npp-interface"></a>Sélection d’une interface NPP
 

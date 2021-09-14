@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 28ffd9c35cf2ce0bed976531b18141e583c3e109c434a888df216bf1eab606a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f228d91985fb9ba9d62bfc09e67d65eafc645a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118787243"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010334"
 ---
 # <a name="texture2dgathercmpred-methods"></a>Texture2D :: GatherCmpRed, méthodes
 

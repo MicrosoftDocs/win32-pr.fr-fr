@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d8015ec159b3a72ccbdf19afe76569cb3b4ce28b72c7752ac2e9bd1abd5da2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b64535aafd93fe183a48cc5e1a687ffac5183657
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117931321"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010777"
 ---
 # <a name="viewbackgroundtiled"></a>VUE. backgroundTiled
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

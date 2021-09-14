@@ -4,12 +4,12 @@ ms.assetid: 625b7868-2ec0-4edb-acb2-c6e511ae1050
 title: System. photo. ExposureTimeNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fee4c5b18a95c24ccab472dec9c479e0837600f8ddf1ae14896ef512326b3a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94bb7bf075fff3c2191c2e60c357dd715d5268ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118723884"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235313"
 ---
 # <a name="systemphotoexposuretimenumerator"></a>System. photo. ExposureTimeNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

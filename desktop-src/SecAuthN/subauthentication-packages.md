@@ -4,12 +4,12 @@ ms.assetid: e1f202c2-8574-4193-a99a-3922a4446013
 title: Packages de sous-authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0072f122bb093f107264dddcfee5f148eb60c6046ef46ed56e161f5620889947
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18f0d96a971c35d33002bdab8a23cb5e59207193
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916641"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096333"
 ---
 # <a name="subauthentication-packages"></a>Packages de sous-authentification
 

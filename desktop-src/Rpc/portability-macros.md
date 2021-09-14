@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20aa6ebda92d7c3998082fdbb5e5f07aa1be22f37a6ec65a8e81327b8614565a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c184365496db7757524a12f1b0807c3c53e24b27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019223"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096490"
 ---
 # <a name="portability-macros"></a>Macros de portabilité
 
@@ -90,7 +90,7 @@ Pour établir une liaison correcte avec les bibliothèques Runtime Microsoft RPC
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

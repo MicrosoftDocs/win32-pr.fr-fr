@@ -4,12 +4,12 @@ ms.assetid: 4fa8b5f3-8c01-44fb-b6fd-8dbf38e3d361
 title: Constantes LOCALE_IDEFAULT *
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0524ea64d9924439e14ae6cb3cf16fed8a5f97ffb1e95d5f7fea98d5b6c61329
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cf9c440c27a2fe551eae7d03d66cc43b500e8f68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120106779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240222"
 ---
 # <a name="locale_idefault-constants"></a>Paramètres régionaux \_ IDEFAULT \* constantes
 

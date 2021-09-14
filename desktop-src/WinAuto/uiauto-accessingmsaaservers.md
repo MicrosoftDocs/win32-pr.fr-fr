@@ -14,12 +14,12 @@ keywords:
 - clients, accès aux serveurs de Active Accessibility
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e6f6ccbc29695b7ca5d1413025a50a7bcf4a9cf679dbcd6a0b8f3160ff0b399
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 97319028203351cd9f45b39d133fa38727d6861e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010578"
 ---
 # <a name="accessing-microsoft-active-accessibility-servers"></a>Accès aux serveurs Microsoft Active Accessibility
 
@@ -44,7 +44,7 @@ La méthode [**IUIAutomationLegacyIAccessiblePattern :: GetIAccessible**](/wind
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [UI Automation et Active Accessibility](uiauto-msaa.md)

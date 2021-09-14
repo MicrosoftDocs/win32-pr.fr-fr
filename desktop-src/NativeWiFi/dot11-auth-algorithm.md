@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: 774b2218a451f4cbaa85e6b77559c0d5761b0b132ebdf9d3f11c15ea6658e7bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b14886c62448194b79eab2e0302ce5608ad282d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117798469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011620"
 ---
 # <a name="dot11_auth_algorithm-enumeration"></a>\_Énumération de l’algorithme d’authentification DOT11 \_
 
@@ -130,7 +130,7 @@ L’énumérateur de **\_ fin du fabricant d’authentification \_ algorithme \_
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

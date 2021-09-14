@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103645
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0669d00b9c28e5299c5b9f55f0931ec7d22921eddad5e2b6b4876199057d111d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66b6ada105e6f6d12cb754f288478e85d75a07e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118254266"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236652"
 ---
 # <a name="jet_indexcreate-properties"></a>Propriétés de la JET_INDEXCREATE
 
@@ -100,7 +100,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_INDEXCREATE](./jet-indexcreate-class.md)
 

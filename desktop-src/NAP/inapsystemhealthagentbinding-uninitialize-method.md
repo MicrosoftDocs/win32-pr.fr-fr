@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eeefaad67130772a44103c721cc9f4efd02d3b43f54fc27c8d2f1bd40983522
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a863e9d742610ab764a3b7a00966e8e112278317
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119802759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011656"
 ---
 # <a name="inapsystemhealthagentbindinguninitialize-method"></a>INapSystemHealthAgentBinding :: Uninitialize, méthode
 
@@ -45,7 +45,7 @@ HRESULT Uninitialize();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -63,13 +63,13 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 NapAgent bloque l’exécution de cet appel de méthode jusqu’à ce que tous les appels existants sur les interfaces de liaison et de rappel se terminent.
 
 L’algorithme SHA doit appeler [**Initialize**](inapsystemhealthagentbinding-initialize-method.md) avant d’appeler cette méthode ou toute autre méthode de l’interface [**INapSystemHealthAgentBinding2**](inapsystemhealthagentbinding2.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

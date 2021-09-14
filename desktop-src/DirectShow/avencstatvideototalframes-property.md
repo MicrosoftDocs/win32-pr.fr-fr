@@ -4,12 +4,12 @@ ms.assetid: 3de49105-3c74-4a52-9cac-465b4abfcbf5
 title: Propriété AVEncStatVideoTotalFrames (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 461708e9006db183992cf550bf7f98eeaeacbfe16c100675ab4992b54f0768d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d76adda51e6d16676a2a957fd16a5aac2a15691e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118663440"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111670"
 ---
 # <a name="avencstatvideototalframes-property"></a>Propriété AVEncStatVideoTotalFrames
 
@@ -25,13 +25,13 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncStatVideoTotalFrames**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est disponible une fois l’encodage terminé.
 
 La valeur de cette propriété est le nombre total de trames envoyées à l’encodeur, y compris les frames qui ont été supprimés. Pour obtenir le nombre de frames encodés, lisez la propriété [**AVEncStatVideoCodedFrames**](avencstatvideocodedframes-property.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

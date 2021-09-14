@@ -4,12 +4,12 @@ ms.assetid: 6ff4ebcc-2362-4397-ae77-2d378db8c7e2
 title: Interrogation des attributs d’un contexte Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f00f6d5f0660bbb3a0d4ce5890ab415325707dbda4087d025a010efdb3fd38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6951aee242b12cc5fcc7f9c52de7e793c2e92733
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118919938"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096370"
 ---
 # <a name="querying-the-attributes-of-an-schannel-context"></a>Interrogation des attributs d’un contexte Schannel
 

@@ -4,12 +4,12 @@ ms.assetid: d41ed713-0159-4325-bc44-f4a3eea10aa2
 title: Propriété AVEncMPVDefaultBPictureCount (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95604d8b3849175e579d276fa006f5a8c4d2833a167228316c4cf830b01618b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2026ddcb6a2b4ce813bd8ba2f6144f0c4a32344
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119276259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111785"
 ---
 # <a name="avencmpvdefaultbpicturecount-property"></a>Propriété AVEncMPVDefaultBPictureCount
 
@@ -29,13 +29,13 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 avant Windows 8, cette propriété s’applique aux encodeurs vidéo MPEG. à partir de Windows 8, cette propriété est utilisée par les encodeurs vidéo MPEG, WMV et H. 264.
 
 Si l’encodeur prend en charge cette propriété, il peut être utilisé pour contrôler la structure du groupe d’images (GOP).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

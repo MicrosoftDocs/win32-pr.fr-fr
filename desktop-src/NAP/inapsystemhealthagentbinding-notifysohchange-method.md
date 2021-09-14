@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a418a78e0d21178f3dd1889816873afb1c7ec7212da48be5d75e44d40d0a61d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b18c03be03c4bc5282e9ea62ec10d5356871cf5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011657"
 ---
 # <a name="inapsystemhealthagentbindingnotifysohchange-method"></a>INapSystemHealthAgentBinding :: NotifySoHChange, méthode
 
@@ -45,7 +45,7 @@ HRESULT NotifySoHChange();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 D’autres codes d’erreur spécifiques à COM peuvent également être retournés.
 
@@ -63,7 +63,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 SHA ne doit pas appeler cette API de façon spéculative, car cela entraîne un échange SoH sur le câble. Les appels à cette API doivent être effectués uniquement lorsque cela est nécessaire.
 
@@ -71,7 +71,7 @@ NapAgent ne contient pas ce thread pour traiter la modification de SoH. Au lieu 
 
 L’algorithme SHA doit appeler [**Initialize**](inapsystemhealthagentbinding-initialize-method.md) avant d’appeler cette méthode ou toute autre méthode de l’interface [**INapSystemHealthAgentBinding2**](inapsystemhealthagentbinding2.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

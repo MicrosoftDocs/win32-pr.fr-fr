@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility est une technologie COM (Component O
 ms.assetid: f3e31c6f-c49e-4a61-99f1-b695ece2bfc9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421cc8cdb11d7c6e812460f13276fcbd3db42afda1c60272eb3426f7794601b4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bef277e54c34b64747811c4db40ecfb8fa1fb6bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118565047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010682"
 ---
 # <a name="microsoft-active-accessibility"></a>Microsoft Active Accessibility
 

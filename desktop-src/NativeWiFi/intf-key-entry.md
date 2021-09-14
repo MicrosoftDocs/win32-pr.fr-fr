@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: 8d14c65d49d7ed28e2756c2a690cb4a7efa9000417e896a206710bf4365f8cd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91f25708e79be4f85c4200bd690404ff39f567d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011597"
 ---
 # <a name="intf_key_entry-structure"></a>Structure d’entrée de \_ clé INTF \_
 
@@ -48,14 +48,14 @@ Pointeur vers le GUID d’interface représenté sous la forme d’une chaîne U
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > le fichier d’en-tête *Wzcsapi. h* n’est pas disponible dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

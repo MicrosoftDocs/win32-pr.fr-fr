@@ -4,12 +4,12 @@ ms.assetid: ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2
 title: Gestion des messages de progression à l’aide de MsiSetExternalUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a0d91a38bc89511a3119a30bdd3b229b1094ce2aa834c17ea84a9cc6aabb59
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30cab15cbbed030ecaa43f7c034df4661555243d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021663"
 ---
 # <a name="handling-progress-messages-using-msisetexternalui"></a>Gestion des messages de progression à l’aide de MsiSetExternalUI
 

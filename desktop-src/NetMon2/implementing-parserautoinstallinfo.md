@@ -4,12 +4,12 @@ ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
 title: Implémentation de ParserAutoInstallInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d1c797f53ad110392fea304cc0a610fdb0f9346c745e2f7dea2bff16208e05
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6d79a9ba5036673acb076be9f3634dae7556b5bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119743079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021067"
 ---
 # <a name="implementing-parserautoinstallinfo"></a>Implémentation de ParserAutoInstallInfo
 

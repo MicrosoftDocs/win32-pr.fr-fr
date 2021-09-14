@@ -4,12 +4,12 @@ ms.assetid: 834cac0a-0c84-49aa-baf2-32bae26e215b
 title: Attribut MF_SD_ASF_EXTSTRMPROP_LANGUAGE_ID_INDEX (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f77b53a4156cf21a23680618da010db781e0c7c75d7d4decb2f9e1136c5dbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2afcf2388d2c0641aede4ff0eaccac9178207fb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118474067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236136"
 ---
 # <a name="mf_sd_asf_extstrmprop_language_id_index-attribute"></a>MF \_ SD \_ ASF \_ EXTSTRMPROP \_ \_ ID d' \_ index de langue
 
@@ -19,7 +19,7 @@ Spécifie la langue utilisée par un flux dans un fichier ASF (Advanced Systems 
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut s’applique aux descripteurs de flux pour le contenu ASF. La valeur est un index dans la liste des langues contenues dans l’attribut [**MF \_ PD \_ ASF \_ LANGLIST**](mf-pd-asf-langlist-attribute.md) .
 
@@ -29,7 +29,7 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 Vous pouvez également obtenir la balise de langue en interrogeant le descripteur de flux pour l’attribut de [**\_ \_ langage SD MF**](mf-sd-language-attribute.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

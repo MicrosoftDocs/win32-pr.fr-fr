@@ -4,12 +4,12 @@ ms.assetid: dce4dd10-1d5f-40a3-8a7e-ec708d3123c7
 title: Vérification de l’accès aux objets privés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f31f8ed05c16eed09cdd45da78f8fe58ecf41e283f6e6c37e7bc0480e63422d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6b7b3d8b2cd933b00be0be9f1f2b077f5c7a2d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117783173"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096129"
 ---
 # <a name="checking-access-to-private-objects"></a>Vérification de l’accès aux objets privés
 

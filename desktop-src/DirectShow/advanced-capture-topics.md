@@ -4,12 +4,12 @@ ms.assetid: 407702b2-5f4f-424d-a3ec-b0473e1b0da3
 title: Rubriques avancées sur la capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d80ba7615b0ad42bbfe62ae646a4cf7e58897cb678eae836b2b5329eda0e17c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4c4e5a077f6f8b17543250efa0f10091f0917e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119690509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112338"
 ---
 # <a name="advanced-capture-topics"></a>Rubriques avancées sur la capture
 

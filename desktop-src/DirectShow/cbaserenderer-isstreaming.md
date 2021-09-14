@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 12a2c84f3b370ea0f70211f399e9d242a4a87cb314937cf58a9aa4c88b78f71a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9cc47e2897338e2ac8a8eeee74424630ce57ccda
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127111297"
 ---
 # <a name="cbaserendererisstreaming-method"></a>Méthode CBaseRenderer. IsStreaming
 
@@ -40,11 +40,11 @@ BOOL IsStreaming();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’indicateur [**CBaseRenderer :: m \_ bStreaming**](cbaserenderer-m-bstreaming.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

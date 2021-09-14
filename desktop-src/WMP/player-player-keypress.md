@@ -3,9 +3,9 @@ title: Événement Player. KeyPress
 description: L’événement KeyPress se produit lorsqu’une touche est enfoncée et libérée. | Événement Player. KeyPress
 ms.assetid: fc51dfd3-7968-464a-a4e2-669ffcb52a59
 keywords:
-- Événement KeyPress lecteur Windows Media
-- Événement KeyPress lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, KeyPress, événement
+- Lecteur Windows Media d’événement keypress
+- Lecteur Windows Media de l’événement keypress, classe Player
+- Lecteur Windows Media de classe Player, événement keypress
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c78b72dd703c13019c71b23af53790aa974927f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010988"
 ---
 # <a name="playerkeypress-event"></a>Événement Player. KeyPress
 
@@ -49,7 +49,7 @@ Player.KeyPress(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -57,11 +57,11 @@ Cet événement ne retourne pas de valeur.
 
 Cet événement se produit lorsque la séquence de touches génère un caractère imprimable du clavier, la touche CTRL combinée à un caractère de l’alphabet standard ou l’un des quelques caractères spéciaux, et la touche entrée ou retour arrière.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
