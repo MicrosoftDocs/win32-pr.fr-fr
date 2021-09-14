@@ -5,17 +5,17 @@ title: Action RemoveEnvironmentStrings
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5c958f2095d2b8562bbd7518ef691634186a9128
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021272"
 ---
 # <a name="removeenvironmentstrings-action"></a>Action RemoveEnvironmentStrings
 
 L’action RemoveEnvironmentStrings modifie les valeurs des variables d’environnement.
 
-Notez que les variables d’environnement ne changent pas pour l’installation en cours lors de l’exécution de l’action [WriteEnvironmentStrings](writeenvironmentstrings-action.md) ou RemoveEnvironmentStrings. Sur Windows 2000, ces informations sont stockées dans le registre et un message est envoyé pour notifier le système de modifications une fois l’installation terminée. Un nouveau processus, ou un autre processus qui vérifie ces messages, utilisera les nouvelles variables d’environnement.
+Notez que les variables d’environnement ne changent pas pour l’installation en cours lors de l’exécution de l’action [WriteEnvironmentStrings](writeenvironmentstrings-action.md) ou RemoveEnvironmentStrings. sur Windows 2000, ces informations sont stockées dans le registre et un message est envoyé pour notifier le système de modifications une fois l’installation terminée. Un nouveau processus, ou un autre processus qui vérifie ces messages, utilisera les nouvelles variables d’environnement.
 
 Le programme d’installation exécute l' [action WriteEnvironmentStrings](writeenvironmentstrings-action.md) uniquement lors de l’installation ou de la réinstallation d’un composant, et exécute l’action RemoveEnvironmentStrings uniquement pendant la suppression d’un composant.
 

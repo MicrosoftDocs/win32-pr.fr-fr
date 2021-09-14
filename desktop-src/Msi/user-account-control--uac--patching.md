@@ -4,12 +4,12 @@ ms.assetid: f7d64f61-24c8-4037-a10b-d68d0e9e3c42
 title: Mise à jour corrective du contrôle de compte d’utilisateur (UAC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 689da3d09541199d6ff231e4f6ce909d7342025ab443d79e4db47aee9deb2733
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d111a39245ab15b24c1734d278a8e0a477e68a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021235"
 ---
 # <a name="user-account-control-uac-patching"></a>Mise à jour corrective du contrôle de compte d’utilisateur (UAC)
 

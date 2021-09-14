@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40ed6797cd7f40eb68e40a9eac90eb250badd461011e5490c0f4c8473571bb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dece95c65e900119c7043c0d5eda22bf473e6c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012298"
 ---
 # <a name="mcm_getcursel-message"></a>\_Message GETCURSEL MCM
 
@@ -39,11 +39,11 @@ Pointeur vers une structure [**SystemTime**](/windows/desktop/api/minwinbase/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire. Ce message échouera toujours lorsqu’il sera appliqué aux contrôles de calendrier mensuel définis sur le style [**MCS \_ MultiSelect**](month-calendar-control-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

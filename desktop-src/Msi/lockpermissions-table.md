@@ -4,12 +4,12 @@ ms.assetid: 7c20e211-7704-49c2-a0c5-aaa695a09764
 title: Table LockPermissions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6724f9559f8bf4b5c0aac4581dab6ad7496e2c0e8e023636e621214760c26c99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c07402b80caec7beff68083567f2ff2fb9bf5eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011937"
 ---
 # <a name="lockpermissions-table"></a>Table LockPermissions
 
@@ -25,7 +25,7 @@ La table LockPermissions contient les colonnes suivantes.
 |------------|------------------------------------|-----|----------|
 | LockObject | [Identificateur](identifier.md)       | O   | N        |
 | Table de charge de travail      | [Text](text.md)                   | O   | N        |
-| Domaine     | [Correct](formatted.md)         | O   | O        |
+| Domain     | [Correct](formatted.md)         | O   | O        |
 | Utilisateur       | [Correct](formatted.md)         | O   | N        |
 | Autorisation | [DoubleInteger](doubleinteger.md) | N   | O        |
 
@@ -92,7 +92,7 @@ La valeur null entrée dans cette colonne est réservée à une utilisation ult�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions [InstallFiles](installfiles-action.md), [WriteRegistryValues](writeregistryvalues-action.md)et [CreateFolders](createfolders-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

@@ -5,11 +5,11 @@ title: Table de fichier
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 59838001101bbc65af50bff3f2b00b540976e4b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021747"
 ---
 # <a name="file-table"></a>Table de fichier
 
@@ -22,11 +22,11 @@ La table de fichiers contient les colonnes suivantes.
 | Colonne      | Type                               | Clé | Nullable |
 |-------------|------------------------------------|-----|----------|
 | Fichier        | [Identificateur](identifier.md)       | O   | N        |
-| -\_ | [Identificateur](identifier.md)       | N   | N        |
+| Composant\_ | [Identificateur](identifier.md)       | N   | N        |
 | FileName    | [Nom du fichier](filename.md)           | N   | N        |
 | FileSize    | [DoubleInteger](doubleinteger.md) | N   | N        |
 | Version     | [Version](version.md)             | N   | O        |
-| Language    | [Langage](language.md)           | N   | O        |
+| Langage    | [Langage](language.md)           | N   | O        |
 | Attributs  | [Integer](integer.md)             | N   | O        |
 | Séquence    | [Integer](integer.md)             | N   | N        |
 
@@ -127,7 +127,7 @@ Bien que les numéros de séquence internes soient affectés aux fichiers compre
 
 Pour les fichiers qui ne sont pas compressés, les numéros de séquence n’ont pas besoin d’être uniques. Par exemple, si tous vos fichiers sont décompressés et que tous les fichiers résident sur un disque, vous pouvez attribuer à tous les fichiers le même numéro de séquence.
 
-La limite maximale est de 32767 fichiers. Pour créer un package Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
+La limite maximale est de 32767 fichiers. pour créer un package Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
 
 </dd> </dl>
 
@@ -143,7 +143,7 @@ Le tableau suivant récapitule les combinaisons possibles de valeurs dans la col
 
 
 
-| Version | Language | Description                                                                     |
+| Version | Langage | Description                                                                     |
 |---------|----------|---------------------------------------------------------------------------------|
 | 1.2.3.4 | 1033     | Version et langue.                                                       |
 | 1.2.3.4 | Nul   | La version, mais pas de langue.                                                    |

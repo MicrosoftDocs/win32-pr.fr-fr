@@ -4,12 +4,12 @@ ms.assetid: ea519e5c-98b0-4a01-b2cc-e5ff736a5396
 title: Valeurs de retour de l’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce618e906bedd1834b0a10ad7569e691034d8071f156c0182e6505fa8444578d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2831fbce55523b3d55a649ef18fb6a622f3ec0ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011316"
 ---
 # <a name="authentication-return-values"></a>Valeurs de retour de l’authentification
 

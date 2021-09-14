@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 214a9e947c7aba34f0cc65d1df8d56a57b9d1087e168824494f64e30bd8098e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95d7930d7943b26ebba1bb194d083ca8beb9dcf0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021100"
 ---
 # <a name="frametable-structure"></a>FRAMETABLE, structure
 
@@ -78,7 +78,7 @@ Tableau réel des descripteurs de frame.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

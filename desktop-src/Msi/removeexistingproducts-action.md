@@ -4,12 +4,12 @@ ms.assetid: 3e96283b-1085-4ace-b004-2fd94310eeb2
 title: Action RemoveExistingProducts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3118ebd01aa39b0d9a5dad29ad1c3563c869ed5e0ebc8dfefd5ecd5c89301f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dea3b792b02352277e8f29fa422b093fe876b560
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021270"
 ---
 # <a name="removeexistingproducts-action"></a>Action RemoveExistingProducts
 
@@ -38,7 +38,7 @@ L’action RemoveExistingProducts doit être planifiée dans la séquence d’ac
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Windows Le programme d’installation définit la propriété [**UPGRADINGPRODUCTCODE**](upgradingproductcode.md) lors de l’exécution de cette action.
 

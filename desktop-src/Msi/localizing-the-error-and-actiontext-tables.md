@@ -4,12 +4,12 @@ ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: Localisation des tables Error et ActionText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1839141b80afd1d28aa9e9317da10d79aea41232f9e7ebde0db7971d22f5141
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c45428d9f0d3c4b8dcafbf489f7316225a83f032
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629464"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011943"
 ---
 # <a name="localizing-the-error-and-actiontext-tables"></a>Localisation des tables Error et ActionText
 
@@ -29,7 +29,7 @@ Vous pouvez importer les tables Error et ActionText localisées dans votre base 
 | 1030             | 0x406                | 1252            | DAN          | Danois-Danemark               | da-DK            |
 | 1031\*           | 0x407                | 1252            | DEU          | Allemand – Allemagne              | de-DE            |
 | 1032             | 0x408                | 1253            | ELL          | Grec-Grèce                | el-GR            |
-| 1033\*           | 0x409                | 1252            | ENU          | French - France       | fr-FR            |
+| 1033\*           | 0x409                | 1252            | ENU          | French - France       | en-US            |
 | 3082\*           | 0xC0A                | 1252            | ESN          | Espagnol-moderne-tri-Espagne | es-ES            |
 | 1061             | 0x425                | 1257            | ETI          | Estonien                      | Et-EE            |
 | 1035             | 0x40B                | 1252            | FIN          | Finnois-Finlande             | fi-FI            |

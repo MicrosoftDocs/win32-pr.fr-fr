@@ -4,12 +4,12 @@ ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Identificateurs de propriété primitifs de chiffrement (bcrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5452c6a55388998a08577cb19ef2fba6905faddbdf28f5f8051b7bc8d9d1c375
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71f4996a216fbc4fbf63216f99b5f630c4769e97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013678"
 ---
 # <a name="cryptography-primitive-property-identifiers"></a>Identificateurs de la propriété primitive de chiffrement
 
@@ -334,7 +334,7 @@ Taille, en octets, de la longueur d’une signature pour une clé. Ce type de do
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

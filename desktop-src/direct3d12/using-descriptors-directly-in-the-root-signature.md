@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a3f32b423b017477e66ea3ae32eee509ec455d85
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813231"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012840"
 ---
 # <a name="using-descriptors-directly-in-the-root-signature"></a>Utilisation directe des descripteurs dans la signature racine
 

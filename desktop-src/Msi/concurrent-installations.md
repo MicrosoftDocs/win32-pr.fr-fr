@@ -4,12 +4,12 @@ ms.assetid: 579ae4ee-47a0-440e-81ca-ea8bf60c5349
 title: Installations simultanées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09264df8c47c08f7d1512b46d65572d3572d5190f960254c8ed13182dd668657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d89f2ef4af062c8151935fefab471603f79d7633
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092066"
 ---
 # <a name="concurrent-installations"></a>Installations simultanées
 

@@ -4,12 +4,12 @@ ms.assetid: 946ab34a-f52a-4720-8516-cdcae2883d9b
 title: Fonctions d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7eef1d7f6cb789809e32c0c93eb6d06689a4a3f163652cf90ec2ff890a321cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3634996aa7217e88dab81dd65e5f61cbd8c015a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011329"
 ---
 # <a name="authentication-functions"></a>Fonctions d’authentification
 

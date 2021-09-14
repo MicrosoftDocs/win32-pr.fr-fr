@@ -5,12 +5,12 @@ title: ALLUSERS, propriété
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: b6412707d6ef46b55d1f8add3de56a24e6f970dc9fa7f0353dce6ec9efa9f531
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f4e490216a16b6ef36cdb90efebbbf24a7b1b9cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092722"
 ---
 # <a name="allusers-property"></a>ALLUSERS, propriété
 
@@ -30,7 +30,7 @@ La valeur de la propriété **ALLUSERS** , au moment de l’installation, déter
 
 -   si la valeur de la propriété **ALLUSERS** n’est pas égale à 2, le Windows Installer ignore la valeur de la propriété [**MSIINSTALLPERUSER**](msiinstallperuser.md) .
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ```xml
   <!-- Disallow user from installing for all users -->
@@ -46,11 +46,11 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 
 Le contexte d’installation par défaut recommandé est par utilisateur. Si **ALLUSERS** n’est pas défini, le programme d’installation effectue une installation par utilisateur. Vous pouvez vous assurer que la propriété **ALLUSERS** n’a pas été définie en définissant sa valeur sur une chaîne vide (""), ALLUSERS = "".
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le [contexte d’installation](installation-context.md) détermine les valeurs des propriétés [**DesktopFolder**](desktopfolder.md), [**ProgramMenuFolder**](programmenufolder.md), [**StartMenuFolder**](startmenufolder.md), [**startupfolder**](startupfolder.md), [**TemplateFolder**](templatefolder.md), [**AdminToolsFolder**](admintoolsfolder.md), [**ProgramFilesFolder**](programfilesfolder.md), [**CommonFilesFolder**](commonfilesfolder.md), [**ProgramFiles64Folder**](programfiles64folder.md)et [**CommonFiles64Folder**](commonfiles64folder.md) . Le contexte d’installation détermine les parties du registre où les entrées de la [table du Registre](registry-table.md) et de la [table RemoveRegistry](removeregistry-table.md), avec-1 dans la colonne racine, sont écrites ou supprimées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

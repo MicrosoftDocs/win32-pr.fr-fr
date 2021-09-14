@@ -4,12 +4,12 @@ ms.assetid: 8b180b71-1e80-47c0-bb44-d5fcecabaed2
 title: Contrôle Line
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb4dc02db9c701c0c5156a0e3f3e15a039893bae290fc7e8bee7dfce64f2eb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba3b7374574e2a0087e7dae8d0ffa9f097be9f45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011965"
 ---
 # <a name="line-control"></a>Contrôle Line
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe statique à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il a les styles **SS \_ ETCHEDHORZ** et **SS \_ 3D enfoncé** .
 

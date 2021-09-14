@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c73677b10743434bb9548c8d6add95100c4cf017d25bb44d7436e2f68b9ca4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d73fe450e5ea5f8ceee48436dbbe05570d0d818a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119673109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013880"
 ---
 # <a name="ras_port_1-structure"></a>\_Structure du port RAS \_ 1
 
@@ -133,7 +133,7 @@ Structure [**de \_ \_ \_ résultat de projection PPP RAS**](ras-ppp-projection-r
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

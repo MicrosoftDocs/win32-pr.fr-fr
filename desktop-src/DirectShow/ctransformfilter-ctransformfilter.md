@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 44061a753ef61c784298fe23e70f21fe410a9f0ad5f360acc10cb1fd16dd5f80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fce67bbe22361bdbae0cd3e51768e0cf0743d97d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012232"
 ---
 # <a name="ctransformfilterctransformfilter-constructor"></a>Constructeur CTransformFilter. CTransformFilter
 
@@ -65,11 +65,11 @@ Identificateur de classe du filtre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le constructeur ne crée pas les codes confidentiels du filtre. Cela se produit lors du premier appel à la méthode [**GetPin**](ctransformfilter-getpin.md) . Le constructeur initialise les variables de membre [**m \_ pInput**](ctransformfilter-m-pinput.md) et [**m \_ pOutput**](ctransformfilter-m-poutput.md) à la **valeur null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

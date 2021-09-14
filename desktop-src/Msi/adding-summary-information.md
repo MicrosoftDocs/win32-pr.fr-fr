@@ -4,12 +4,12 @@ ms.assetid: 9775959f-5ab2-43cd-8cc8-9d81945b4ec6
 title: Ajout d’informations de résumé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1dc43ba8df737fb4d7c30998ec6c9581376df6ef6274140e68ec767e3a416f5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd26486e0082a05b05fbdc9609881083e10cddb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119328579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092810"
 ---
 # <a name="adding-summary-information"></a>Ajout d’informations de résumé
 
@@ -17,7 +17,7 @@ Les propriétés d’informations récapitulatives suivantes doivent être défi
 
 
 
-| Propriété informations de synthèse                                                   | Données                                   | Remarques                                                                                                                                                                                                                                                                                                                                                                                                |
+| Propriété informations de synthèse                                                   | Données                                   | Notes                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Modèle**](template-summary.md)(plateforme et langue)<br/>         | ; 1033                                  | Plateforme et langage utilisé par la base de données. Si la spécification de la plateforme est manquante dans la valeur de la propriété Résumé du [**modèle**](template-summary.md) , le programme d’installation suppose l’architecture Intel. La propriété [**ProductLanguage**](productlanguage.md) de la base de données est généralement utilisée pour cette propriété Summary. L’ID de langue de l’exemple indique que le package utilise l’anglais (États-Unis). |
 | [**Numéro de révision**](revision-number-summary.md)(code de package)<br/>    | {4966AEC4-3C59-4B07-9B98-1B6A7103C0D3} | Il s’agit du [GUID](guid.md) du code du package qui identifie de façon unique l’exemple de package. Si vous reproduisez cet exemple, utilisez un utilitaire tel que GUIDGEN pour générer un GUID différent pour votre package. Les résultats de GUIDGEN contiennent des caractères minuscules, Notez que vous devez remplacer tous les caractères minuscules par des majuscules pour un code de package valide. Consultez [codes de package](package-codes.md).             |
@@ -32,11 +32,11 @@ Les autres propriétés du flux d’informations de résumé ne sont pas requise
 
 
 
-| Propriété informations de synthèse                                 | Données                                                                             | Remarques                                                                                                              |
+| Propriété informations de synthèse                                 | Données                                                                             | Notes                                                                                                              |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| [**Titre**](title-summary.md)                               | Base de données d’installation                                                            | Informe les utilisateurs que cette base de données est destinée à une installation plutôt qu’à une transformation ou un correctif.                        |
-| [**Objet**](subject-summary.md)                           | MNP2000                                                                          | Les explorateurs de fichiers peuvent afficher ce fichier comme produit à installer avec cette base de données.                                  |
-| [**Mot**](keywords-summary.md)                         | Programme d’installation, MSI, base de données                                                         | Les explorateurs de fichiers capables d’effectuer des recherches par mot clé peuvent rechercher ces mots.                                    |
+| [**Intitulé**](title-summary.md)                               | Base de données d’installation                                                            | Informe les utilisateurs que cette base de données est destinée à une installation plutôt qu’à une transformation ou un correctif.                        |
+| [**Subject**](subject-summary.md)                           | MNP2000                                                                          | Les explorateurs de fichiers peuvent afficher ce fichier comme produit à installer avec cette base de données.                                  |
+| [**Mots clés**](keywords-summary.md)                         | Programme d’installation, MSI, base de données                                                         | Les explorateurs de fichiers capables d’effectuer des recherches par mot clé peuvent rechercher ces mots.                                    |
 | [**Auteur**](author-summary.md)                             | Microsoft Corporation                                                            | Nom du fabricant du produit.                                                                                |
 | [**Commentaires**](comments-summary.md)                         | cette base de données du programme d’installation contient la logique et les données requises pour installer Bloc-notes. | Informe les utilisateurs sur l’objectif de cette base de données.                                                                  |
 | [**Création de l’application**](creating-application-summary.md) | Orca                                                                             | Application utilisée pour créer la base de données d’installation. L’exemple spécifie l’éditeur de base de données Orca comme exemple. |

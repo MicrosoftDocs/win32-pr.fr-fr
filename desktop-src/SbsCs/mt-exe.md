@@ -5,11 +5,11 @@ title: Mt.exe
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2a7f963c5131606da3f7be80185fef84a750e4de
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011349"
 ---
 # <a name="mtexe"></a>Mt.exe
 
@@ -66,7 +66,7 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="odd">
 <td>-dll</td>
-<td>Spécifie le nom du fichier de bibliothèque de liens dynamiques (DLL). L’option <strong>-dll</strong> est requise par <strong>mt.exe</strong> si les options <strong>-RGS</strong> ou <strong>-TLB</strong> sont utilisées. Spécifiez le nom de la DLL que vous envisagez de générer à partir des fichiers. RGS ou. tlb.<br/> Par exemple, la commande suivante demande une opération qui génère un manifeste à partir de fichiers. RGS et. tlb.<br/> <strong>mt.exe-RGS : testreg1. RGS-TLB : testlib1. tlb -dll:test.dll-remplacements : Rep. manifest-Identity : &quot; Microsoft. Windows. SampleAssembly, processorArchitecture = x86, version = 6.0.0.0, type = Win32, publicKeyToken = a5aaf5ba15723d5 &quot; : rgstlb. manifest</strong><br/></td>
+<td>Spécifie le nom du fichier de bibliothèque de liens dynamiques (DLL). L’option <strong>-dll</strong> est requise par <strong>mt.exe</strong> si les options <strong>-RGS</strong> ou <strong>-TLB</strong> sont utilisées. Spécifiez le nom de la DLL que vous envisagez de générer à partir des fichiers. RGS ou. tlb.<br/> Par exemple, la commande suivante demande une opération qui génère un manifeste à partir de fichiers. RGS et. tlb.<br/> <strong>mt.exe-RGS : testreg1. RGS-TLB : testlib1. tlb-dll:test.dll-remplacements : Rep. manifest-Identity : &quot; Microsoft. Windows. SampleAssembly, processorArchitecture = x86, version = 6.0.0.0, type = Win32, publicKeyToken = a5aaf5ba15723d5 &quot; : rgstlb. manifest</strong><br/></td>
 </tr>
 <tr class="even">
 <td>-remplacements</td>
@@ -74,15 +74,15 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="odd">
 <td>-managedassemblyname</td>
-<td>Génère un manifeste à partir de l’assembly managé spécifié. Utilisez avec l’option <strong>-nodependency</strong> pour générer un manifeste sans éléments de dépendance. Utilisez avec l’option <strong>-Category</strong> pour générer un manifeste avec des balises de catégorie. Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le fichier out. manifest à partir de managed.dll.<br/> <strong>mt.exe -managedassemblyname:managed.dll : out. manifest</strong> <br/></td>
+<td>Génère un manifeste à partir de l’assembly managé spécifié. Utilisez avec l’option <strong>-nodependency</strong> pour générer un manifeste sans éléments de dépendance. Utilisez avec l’option <strong>-Category</strong> pour générer un manifeste avec des balises de catégorie. Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le fichier out. manifest à partir de managed.dll.<br/> <strong>mt.exe-managedassemblyname:managed.dll : out. manifest</strong> <br/></td>
 </tr>
 <tr class="even">
 <td>-nodépendance</td>
-<td>Spécifie une opération qui génère un manifeste sans éléments de dépendance. L’option <strong>-nodependency</strong> requiert l’option <strong>-managedassemblyname</strong> . Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le manifeste out. à partir de managed.dll sans informations de dépendance.<br/> <strong>mt.exe -managedassemblyname:managed.dll : out. manifeste-nodependency</strong><br/></td>
+<td>Spécifie une opération qui génère un manifeste sans éléments de dépendance. L’option <strong>-nodependency</strong> requiert l’option <strong>-managedassemblyname</strong> . Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le manifeste out. à partir de managed.dll sans informations de dépendance.<br/> <strong>mt.exe-managedassemblyname:managed.dll : out. manifest-nodependency</strong><br/></td>
 </tr>
 <tr class="odd">
 <td>-catégorie</td>
-<td>Spécifie une opération qui génère un manifeste avec des balises de catégorie. L’option <strong>-Category</strong> requiert l’option <strong>-managedassemblyname</strong> . Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le fichier out. manifest à partir de managed.dll avec des balises de catégorie.<br/> <strong>mt.exe -managedassemblyname:managed.dll : out. manifest-catégorie</strong><br/></td>
+<td>Spécifie une opération qui génère un manifeste avec des balises de catégorie. L’option <strong>-Category</strong> requiert l’option <strong>-managedassemblyname</strong> . Par exemple, si managed.dll est un assembly managé, la ligne de commande suivante génère le fichier out. manifest à partir de managed.dll avec des balises de catégorie.<br/> <strong>mt.exe-managedassemblyname:managed.dll : out. manifest-catégorie</strong><br/></td>
 </tr>
 <tr class="even">
 <td>-nologo</td>
@@ -94,7 +94,7 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="even">
 <td>-inputresource</td>
-<td>Spécifie une opération effectuée sur un manifeste obtenu à partir d’une ressource de type RT_MANIFEST. Si l’option <strong>-inputresource</strong> est utilisée sans spécifier l’identificateur de ressource, <em> <resource_id> </em> , l’opération utilise la valeur CREATEPROCESS_MANIFEST_RESOURCE. <br/> Par exemple, la commande suivante demande une opération qui fusionne un manifeste à partir d’une DLL, d' dll_with_manifest.dll et d’un fichier manifeste, man2. manifest. Les manifestes fusionnés sont reçus par un manifeste dans le fichier de ressources d’une autre DLL, dll_with_merged_manifests. <br/> <strong>mt.exe -inputresource:dll_with_manifest.dll ; #1-manifest man2. manifest -outputresource:dll_with_merged_manifest.dll ; #3</strong><br/> Pour extraire le manifeste d’une DLL, spécifiez le nom du fichier DLL. Par exemple, la commande suivante extrait le manifeste à partir de lib1.dll et man3. manifest reçoit le manifeste extrait.<br/> <strong>mt.exe -inputresource:lib.dll ; #1 : man3. manifest</strong><br/></td>
+<td>Spécifie une opération effectuée sur un manifeste obtenu à partir d’une ressource de type RT_MANIFEST. Si l’option <strong>-inputresource</strong> est utilisée sans spécifier l’identificateur de ressource, <em> <resource_id> </em> , l’opération utilise la valeur CREATEPROCESS_MANIFEST_RESOURCE. <br/> Par exemple, la commande suivante demande une opération qui fusionne un manifeste à partir d’une DLL, d' dll_with_manifest.dll et d’un fichier manifeste, man2. manifest. Les manifestes fusionnés sont reçus par un manifeste dans le fichier de ressources d’une autre DLL, dll_with_merged_manifests. <br/> <strong>mt.exe-inputresource:dll_with_manifest.dll ; #1-manifest man2. manifest-outputresource:dll_with_merged_manifest.dll ; #3</strong><br/> Pour extraire le manifeste d’une DLL, spécifiez le nom du fichier DLL. Par exemple, la commande suivante extrait le manifeste à partir de lib1.dll et man3. manifest reçoit le manifeste extrait.<br/> <strong>mt.exe-inputresource:lib.dll ; #1 : man3. manifest</strong><br/></td>
 </tr>
 <tr class="odd">
 <td>-outputresource</td>
@@ -102,7 +102,7 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="even">
 <td>-UpdateResource</td>
-<td>Spécifie une opération équivalente à l’utilisation des options <strong>-inputresource</strong> et <strong>-outputresource</strong> avec des arguments identiques. Par exemple, la commande suivante demande une opération qui calcule un hachage des fichiers dans le chemin d’accès spécifié et met à jour le manifeste d’une ressource d’un fichier exécutable portable (PE, Portable Executable).<br/> <strong>mt.exe -updateresource:dll_with_manifest.dll ; #1-hashupdate : f : \Files</strong>.<br/></td>
+<td>Spécifie une opération équivalente à l’utilisation des options <strong>-inputresource</strong> et <strong>-outputresource</strong> avec des arguments identiques. Par exemple, la commande suivante demande une opération qui calcule un hachage des fichiers dans le chemin d’accès spécifié et met à jour le manifeste d’une ressource d’un fichier exécutable portable (PE, Portable Executable).<br/> <strong>mt.exe-updateresource:dll_with_manifest.dll ; #1-hashupdate : f : \Files</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td>-hashupdate</td>

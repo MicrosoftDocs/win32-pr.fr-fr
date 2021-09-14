@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 48f657f565c239f797fd67b108ce3b18b692dfabc0248e1005465e9123ac492d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d46c1284b208975126067ff295507b51def9133b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907170"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013640"
 ---
 # <a name="sslcomputeeapkeyblock-function"></a>SslComputeEapKeyBlock fonction)
 
@@ -102,7 +102,7 @@ Définissez sur **\_ indicateur de \_ serveur \_ NCRYPT** pour indiquer qu’il 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -118,7 +118,7 @@ Si la fonction échoue, elle retourne une valeur d’erreur différente de zéro
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

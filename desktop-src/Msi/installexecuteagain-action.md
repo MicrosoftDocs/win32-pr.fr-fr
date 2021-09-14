@@ -4,12 +4,12 @@ ms.assetid: 60ff844f-f8bf-4a55-9523-ba526dac9e29
 title: Action InstallExecuteAgain
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2133fcf7acee7027337864eb8e33b6b297499e96979155f066538edbd6fec00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 57865c3eec28afa454e440e056d1ee964528f889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012073"
 ---
 # <a name="installexecuteagain-action"></a>Action InstallExecuteAgain
 
@@ -25,7 +25,7 @@ L’action InstallExecute intervient entre l' [action InstallInitialize](install
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action InstallExecuteAgain effectue la même opération que l' [action InstallExecute](installexecute-action.md). Étant donné que les tables de séquence n’ont qu’une seule clé primaire, la colonne d’action, la même action ne peut pas être répétée dans une table de séquences particulière. Il existe deux actions qui font la même chose, InstallExecute et InstallExecuteAgain, dans les cas où la fonctionnalité de InstallExecute est nécessaire deux fois dans la [table InstallExecuteSequence](installexecutesequence-table.md). Pour plus d’informations, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

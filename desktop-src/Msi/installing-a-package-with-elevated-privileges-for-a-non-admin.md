@@ -4,12 +4,12 @@ ms.assetid: 61b9297e-f45e-4f50-9001-9bae580e1bf4
 title: Installation d’un package avec des privilèges élevés pour un non-administrateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 603d2a39fd20a6ae2971a29e615887041e2a1fbf64989e93d5a1046f96102b5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec81de333d6ca388017e03c96f739d7bd258a7c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012057"
 ---
 # <a name="installing-a-package-with-elevated-privileges-for-a-non-admin"></a>Installation d’un package avec des privilèges élevés pour un non-administrateur
 

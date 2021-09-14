@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: f138f928548e870f7ffa6acfaeb251c7ea5b573add324960a86c4b303b9343f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 021c5395dbca6275161a53cb7e8a0c2247ab9410
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011219"
 ---
 # <a name="iscardcmdget_replystatus-method"></a>ISCardCmd :: \_ ReplyStatus, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers le mot qui correspond à l’état de retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir le mot d’État du message de la réponse APDU, appelez [**put \_ ReplyStatus**](iscardcmd-put-replystatus.md).
 
@@ -101,7 +101,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

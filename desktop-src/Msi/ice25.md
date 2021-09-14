@@ -4,12 +4,12 @@ ms.assetid: e6e3ea44-a1d4-451a-b326-e8fb7ed4adeb
 title: ICE25
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2715ce629ad22b872b8d38d0c6848236b9f1af9378a0a652b702e7b72cbd7dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0d966c4c374d6e61e30b44a41ad88bed8bf907f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021588"
 ---
 # <a name="ice25"></a>ICE25
 
@@ -18,11 +18,11 @@ ICE25 vérifie qu’un fichier .msi satisfait à toutes ses dépendances et excl
 -   Toutes les dépendances de module de fusion indiquées dans la [table ModuleDependency](moduledependency-table.md) du fichier .msi sont satisfaites par au moins un module de fusion répertorié dans la [table ModuleSignature](modulesignature-table.md).
 -   Aucun module de fusion exclu dans la [table ModuleExclusion](moduleexclusion-table.md) n’est pas compatible avec les modules de fusion répertoriés dans la [table ModuleSignature](modulesignature-table.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE25 publie un message d’erreur si .msi fichier a été précédemment fusionné avec un module de fusion incompatible ou s’il n’a pas été fusionné avec un module de fusion nécessaire.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE25 publie les erreurs suivantes pour l’exemple indiqué.
 

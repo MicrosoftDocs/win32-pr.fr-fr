@@ -4,12 +4,12 @@ ms.assetid: 1d887c4c-095c-4e1e-8b9a-7761acda2cbf
 title: Fournisseurs de services de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d07fab7f7406b4932ed5c08ab2c8743f8ebde57893aed4564f8fdf40758b5af4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25dfa6c190e7a09ed4dfceafb983878906e8e3b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011305"
 ---
 # <a name="base-service-providers"></a>Fournisseurs de services de base
 

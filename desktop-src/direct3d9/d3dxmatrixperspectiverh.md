@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 3c583b74366a0a00054bbeced1ece2bd3d1c1cd2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012768"
 ---
 # <a name="d3dxmatrixperspectiverh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveRH, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Valeur Z du plan d’affichage Far.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de projection de perspective à droite.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Tous les paramètres de la fonction **D3DXMatrixPerspectiveRH** sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 
@@ -113,7 +113,7 @@ Cette fonction utilise la formule suivante pour calculer la matrice retournée.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

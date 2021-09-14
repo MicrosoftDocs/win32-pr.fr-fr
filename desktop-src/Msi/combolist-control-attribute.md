@@ -4,12 +4,12 @@ ms.assetid: 79af4bb0-1e0f-4df3-ae25-d2798842adb6
 title: Attribut de contrôle ComboList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71e0a53357d91c5c5a016f65e8e1e0fb341b15cae1ea2c6cf480e536fa109067
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2dcb1c51e8eccaba03c3b4d905b0501e8a3f97a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145378"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092181"
 ---
 # <a name="combolist-control-attribute"></a>Attribut de contrôle ComboList
 
@@ -33,7 +33,7 @@ Si ce bit n’est pas défini, la zone de liste déroulante contient un champ d�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur un contrôle, incluez le bit ComboList dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

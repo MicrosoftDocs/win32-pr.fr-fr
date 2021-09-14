@@ -4,12 +4,12 @@ ms.assetid: 26671cb9-a200-4520-8b52-4cff3f71a2f2
 title: Générer un fichier CAB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ca9e30822d0683aa09dc015ec2fd98d1f598c70e0fd63fd00f66a6bcdf3edf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3df2355c247ff602d644d2865ec3b9d9a8447ca4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021693"
 ---
 # <a name="generate-file-cabinet"></a>Générer un fichier CAB
 

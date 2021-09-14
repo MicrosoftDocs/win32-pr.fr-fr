@@ -15,12 +15,12 @@ keywords:
 - destinés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45041dde0902f983648c6d258f4c4a8220085d0d8bbeddc6fbdbc970033a50ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c775670b7ae49e41fed35c192385c72e72e880b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118933029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020970"
 ---
 # <a name="porting-lighting-and-materials-functions"></a>Portage des fonctions d’éclairage et de matériaux
 

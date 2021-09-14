@@ -4,12 +4,12 @@ ms.assetid: 2d4bc2be-cce6-45e6-b6a7-7ff96d28eb96
 title: installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f478bddeb04ca9112610bd88338437002082204cc62078bde200539a8a18b6bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e807e22c9c5dea67ece5ead0ded95f06ab203689
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012037"
 ---
 # <a name="installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp"></a>installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP
 

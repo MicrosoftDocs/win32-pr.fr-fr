@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: a2a6ad8647f5c3cb579c69b7e54418599853d0bfa777b48ef734974073c8233a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc35f2686a32ce07e1ca630d3ccad3c47b36ca2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119577599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011231"
 ---
 # <a name="iscardcmdget_lefield-method"></a>ISCardCmd :: \_ LeField, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers la valeur du champ le au retour.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -85,7 +85,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

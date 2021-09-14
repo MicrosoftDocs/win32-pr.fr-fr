@@ -4,12 +4,12 @@ ms.assetid: b7988385-c87e-443c-8ec3-84ab3c172eab
 title: Configuration par application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccecdd184ec9c23d3b06a698abeba01b266e558c72851cefb283d3a98adffaae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b17543c9972deefe2a2beda1f5eeba1c5ace2ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142022"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011343"
 ---
 # <a name="per-application-configuration"></a>Configuration par application
 

@@ -4,12 +4,12 @@ ms.assetid: 91fc47c1-520a-4002-9dbe-4ee2b56f84b3
 title: Type RTF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 269b378644fbf41e906993097cea8bb4fb27f969cbda046aab59700896513774
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a81c708183596d794f20e38bf89c073472e3affb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021268"
 ---
 # <a name="rtf-type"></a>Type RTF
 

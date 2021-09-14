@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3877fb52a1e2268d24974ee3575c712d27a107f4429398ada9de1ebf5e728675
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 995df3afa5185d8f50278899ac6a5d67dc6d230e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012293"
 ---
 # <a name="ccmdqueuesetsyncsource-method"></a>Méthode CCmdQueue. SetSyncSource
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IReferenceClock**](/windows/desktop/api/Strmif/nn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

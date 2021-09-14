@@ -12,12 +12,12 @@ keywords:
 - B-spline rationnelle non uniforme (NURBS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a57de3a3b413d909ed034e9d355f4099c196a89b1e7ed93a69fe99ea72fca54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7260750db4d221743d3e764d6dd30e2de499383
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127014005"
 ---
 # <a name="porting-nurbs-surfaces"></a>Portage des surfaces NURBS
 

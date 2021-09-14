@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 8a49c63a948cd25abe97dfc58e10a97720eae248
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012533"
 ---
 # <a name="jet_callback-callback-function"></a>JET_CALLBACK fonction de rappel
 
@@ -86,7 +86,7 @@ la fonction retourne l’un des [codes d’erreur du moteur d’Stockage Extensi
 
 En cas d’échec, l’opération qui a émis le rappel peut se poursuivre normalement ou échouer. Pour plus d’informations sur l’utilisation du code d’erreur par l’opération, consultez [JET_CBTYP](./jet-cbtyp.md) .
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Si le rappel passe un curseur à l’application, il est important de savoir que ce curseur est intentionnellement limité à un ensemble de fonctionnalités plus réduit pour éviter la récursivité et d’autres ugliness. Les opérations suivantes sont autorisées :
 
@@ -130,7 +130,7 @@ Si le rappel passe un curseur à l’application, il est important de savoir que
 
 Lorsque vous concevez votre rappel, prenez en compte le fait que même avec ces restrictions, il est toujours possible que le rappel échoue.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

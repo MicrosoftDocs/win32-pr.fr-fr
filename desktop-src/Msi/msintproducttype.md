@@ -4,12 +4,12 @@ ms.assetid: 6bbc8283-5911-4fbd-8a0f-09c398280e74
 title: Propriété MsiNTProductType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e4c5083e5d1f0195e2e8a8e0cc46213853cb5cf1431535afee7e5362ff5eda
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fe7fef0791f5842163812b62a7314578d480676c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021315"
 ---
 # <a name="msintproducttype-property"></a>Propriété MsiNTProductType
 
@@ -43,7 +43,7 @@ pour les systèmes d’exploitation antérieurs à Windows 2000, le programme d�
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 42139d33-2d56-4d29-998f-5512bb795d44
 title: Constantes de droits de compte (Ntsecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4285561761908308f67585544bef6c87d2f0ebbaa25de9989f53fcab051b79b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d5b16b75af89773df969ec78b771986b0a73dfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785366"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013743"
 ---
 # <a name="account-rights-constants"></a>Constantes de droits de compte
 
@@ -36,7 +36,7 @@ Les constantes de compte suivantes permettent de contrôler la capacité d’ouv
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les \_ droits de refus SE remplacent les droits de compte correspondants. un administrateur peut attribuer un SE \_ refuser le droit à un compte pour remplacer les droits d’ouverture de session qu’un compte peut avoir en raison d’une appartenance à un groupe. par exemple, vous pouvez attribuer le \_ \_ nom d’ouverture de session réseau SE \_ à tout le monde, mais attribuer le \_ \_ \_ nom d’ouverture de session réseau SE refuser \_ le droit aux administrateurs d’empêcher l’administration à distance des ordinateurs.
 
@@ -44,7 +44,7 @@ Toutes les fonctions LSA mentionnées dans la présentation ci-dessus prennent e
 
 Les constantes droites de compte précédentes sont définies en tant que chaînes dans Ntsecapi. h. par exemple, la SE \_ \_ constante de nom d’ouverture de session INTERACTIVE \_ est définie comme « SeInteractiveLogonRight ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

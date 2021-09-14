@@ -4,12 +4,12 @@ ms.assetid: 074ef4d5-3ac1-4bdb-90c5-9798d89a749f
 title: Contrôle PathEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed7655cc893c30f417c9a7ef374eb6d4ade10dfd618ca328e1be2fc7a0e0a9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65d1237199f202e6c674ab4526ccd4747b02c09b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118377612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021279"
 ---
 # <a name="pathedit-control"></a>Contrôle PathEdit
 
@@ -43,7 +43,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle PathEdit est dérivé du contrôle d' [édition](edit-control.md) .
 

@@ -4,12 +4,12 @@ ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: Création d’un hachage avec CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f57d56c4be7dc2f947dbb1869e63fb1789f57e9b4fe6b3a7a06e3cce15580ab8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 735f95182b63facee687f408ea4a07e09399e562
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907818"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013668"
 ---
 # <a name="creating-a-hash-with-cng"></a>Création d’un hachage avec CNG
 

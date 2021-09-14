@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 84a4e51129458479be28d9d1f04740bf211259945ca80a5c8648320b9c71cc96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 245125d8139df1e1ec2cc78e0be05d99ee98774d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119833509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012494"
 ---
 # <a name="jet_rstmapsznewdatabasename-property"></a>JET_RSTMAP. szNewDatabaseName, propriété
 
@@ -66,7 +66,7 @@ Type : [System. String](/dotnet/api/system.string)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_RSTMAP](./jet-rstmap-class.md)
 

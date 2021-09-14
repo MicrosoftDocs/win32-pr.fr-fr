@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: be2dc0ed209f4d7be5c36be25579c69149c554ab159590339297b4180f461062
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1535d2b4b67861b42719506ebd48cca4c49d5c38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119577739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011241"
 ---
 # <a name="iscardcmdget_apdulength-method"></a>ISCardCmd :: \_ ApduLength, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers la longueur du APDU.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer l' [*unité de données de protocole d’application*](../secgloss/a-gly.md) (APDU) brute à partir de la mémoire tampon d’octets mappée à l’aide d’un **IStream** qui contient le message APDU, appelez [**obtenir \_ APDU**](iscardcmd-get-apdu.md).
 
@@ -95,7 +95,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

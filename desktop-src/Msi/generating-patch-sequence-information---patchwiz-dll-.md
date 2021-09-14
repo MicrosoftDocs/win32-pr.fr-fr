@@ -4,12 +4,12 @@ ms.assetid: 03e7eea6-1a37-4c86-a9da-109fbaf20728
 title: Génération d’informations sur les séquences de correctifs (PATCHWIZ.DLL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03094d9df26f4565db5b3a31c9a27c58a0bb45dac8aac93b2fefce34104d58c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff82166f33266a58cd3ef299b2546b04a94ebb14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021684"
 ---
 # <a name="generating-patch-sequence-information-patchwizdll"></a>Génération d’informations sur les séquences de correctifs (PATCHWIZ.DLL)
 

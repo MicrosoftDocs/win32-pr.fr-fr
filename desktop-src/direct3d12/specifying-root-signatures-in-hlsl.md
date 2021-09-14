@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2dad0da9f84d68fc1acbf53332d1cae4075f0faa
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107492281"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012871"
 ---
 # <a name="specifying-root-signatures-in-hlsl"></a>Spécification de signatures racine en langage HLSL
 
@@ -287,7 +287,7 @@ Pour la gestion des signatures racines créées par HLSL, le tableau suivant fou
 
 
 
-| Courbes | Ligne de commande                                                                 | Description                                                                                                                                                                                                                              |
+| Ligne | Ligne de commande                                                                 | Description                                                                                                                                                                                                                              |
 |------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | `fxc /T ps_5_1 shaderWithRootSig.hlsl /Fo rs1.fxo`                           | Compile un nuanceur pour la cible de nuanceur de pixels 5,1, la source du nuanceur se trouve dans le fichier shaderWithRootSig. HLSL, qui comprend une signature racine. Le nuanceur et la signature racine sont compilés en tant qu’objets BLOB distincts dans le fichier binaire RS1. FXO.    |
 | 2    | `fxc /dumpbin rs1.fxo /extractrootsignature /Fo rs1.rs.fxo`                  | Extrait la signature racine du fichier créé par la ligne 1, de sorte que le fichier RS1. RS. FXO contient simplement une signature racine.                                                                                                                      |

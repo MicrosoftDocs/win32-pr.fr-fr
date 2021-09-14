@@ -4,12 +4,12 @@ ms.assetid: f2aace82-3b42-4790-a817-1b874a702938
 title: ListBox, contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8ba99e0328fe2ca8096ba5aa19f7b359be805d5e233cb12208a9604160971e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb90adad5cae83a70aee1601319a68e8e3004f35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011957"
 ---
 # <a name="listbox-control"></a>ListBox, contrôle
 
@@ -44,7 +44,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe LISTBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles **WS \_ TABSTOP**, **WS \_ Group** et **WS \_ Child** . Si le bit de style de contrôle trié est activé, le contrôle est créé avec les styles **\_ Notify**, **WS \_ VSCROLL** et **WS \_ Border** . dans le cas contraire, le contrôle est créé avec le style **\_ standard lbs** .
 

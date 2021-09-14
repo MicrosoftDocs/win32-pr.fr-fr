@@ -4,18 +4,18 @@ ms.assetid: 68c25703-a217-42cc-833e-0568216813a9
 title: Propriété ARPCOMMENTS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 616e172e1e863b452526ce4dedafb010c32388f99bee83c396b878972492e787
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6ac8ed0d5fe1491e30564d6c982d81605f4d5d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119559149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092609"
 ---
 # <a name="arpcomments-property"></a>Propriété ARPCOMMENTS
 
 La propriété **ARPCOMMENTS** fournit les commentaires du panneau de configuration Ajout/suppression de programmes, qui sont écrits sous la [clé de Registre Uninstall](uninstall-registry-key.md). Cette propriété peut être définie par la ligne de commande ou une transformation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

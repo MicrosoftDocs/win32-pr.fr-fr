@@ -4,12 +4,12 @@ description: Compilez toujours les fichiers. idl à l’aide du commutateur/Robu
 ms.assetid: bb2fd026-3ad8-4bb5-b05e-4835b874882f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3d6a7c93cbd97e2c65cc83e6933b3204dddbcf2c0e088dfbc0d98bbdb6628d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db395841842331d9297a782fdcd8ea7573139f9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011375"
 ---
 # <a name="use-the-robust-flag"></a>Utiliser l’indicateur/Robust
 

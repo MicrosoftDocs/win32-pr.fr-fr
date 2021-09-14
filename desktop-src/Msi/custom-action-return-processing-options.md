@@ -4,12 +4,12 @@ ms.assetid: a09b3a0e-564e-41aa-af0d-2e46776f291b
 title: Options de traitement des retours d’actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2dd719271e6291decbd2123d5cf1525121769704b3fc4177c8b301662697689
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f8664ff489280993a7fc52117f3d19bccb023b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118947977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091857"
 ---
 # <a name="custom-action-return-processing-options"></a>Options de traitement des retours d’actions personnalisées
 

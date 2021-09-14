@@ -4,18 +4,18 @@ ms.assetid: 10c178c5-1eae-4191-b79c-9285810efb6a
 title: Propriété COMPADDLOCAL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c442ede6e8affaaddef1dc028a8a6fffc5b780afd536bbc3eaa52e6949df8fc7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e403459f0355c28d66da00170b9c649084afbb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092141"
 ---
 # <a name="compaddlocal-property"></a>Propriété COMPADDLOCAL
 
 La valeur de la propriété **COMPADDLOCAL** est une liste de GUID de composant à partir de la colonne ComponentID de la [table de composants](component-table.md), délimitée par des virgules, qui doivent être installées localement. Le programme d’installation utilise cette liste pour déterminer les fonctionnalités qui sont configurées pour être installées localement, en fonction des composants spécifiés. Pour chaque ID de composant listé, le programme d’installation examine toutes les fonctionnalités liées à ce composant par le biais de la table [FeatureComponents](featurecomponents-table.md) et installe la fonctionnalité qui nécessite le moins d’espace disque à installer. Les composants listés doivent être présents dans la colonne composant de la table des [composants](component-table.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que les noms des composants respectent la casse. Notez également que si l’indicateur de bit SourceOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter à partir de la source.
 
@@ -38,7 +38,7 @@ Par exemple, si la ligne de commande spécifie : ADDLOCAL = ALL, ADDSOURCE = My
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

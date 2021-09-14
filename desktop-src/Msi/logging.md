@@ -4,12 +4,12 @@ ms.assetid: d8649808-5dc3-4496-8c2f-da9b1512b5aa
 title: journalisation (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e49993419b03e3c092fdf4d2b6d9d118ca4dc2d3d641c82c4fc829cbfd6b68c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a461051022791e414fe7e211e4dde33c7e83101b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945634"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021371"
 ---
 # <a name="logging-windows-installer"></a>journalisation (Windows Installer)
 

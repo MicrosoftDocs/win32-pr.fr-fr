@@ -4,12 +4,12 @@ ms.assetid: 1e30472d-6ba5-410a-a81b-07ed225dcb69
 title: Table _Streams
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23f3796a3abb402027dc9985991a6ba673f5381d8f35657e7d80b0714c40f1e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9607097b32acc8a3c2350a00db0b9721a4aa353
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093021"
 ---
 # <a name="_streams-table"></a>\_Flux Tableau
 
@@ -44,7 +44,7 @@ Données binaires non mises en forme.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour copier un flux de données OLE (par exemple, un objet du type de données [Binary](binary.md) ) d’un fichier dans une base de données, créez un enregistrement dans la \_ table Flux et entrez le nom du flux de données dans la colonne nom de cet enregistrement, puis copiez les données du fichier dans la colonne de données à l’aide de [**MsiRecordSetStream**](/windows/desktop/api/Msiquery/nf-msiquery-msirecordsetstreama). Utilisez [**MsiViewModify**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewmodify) pour insérer le nouvel enregistrement dans la table.
 

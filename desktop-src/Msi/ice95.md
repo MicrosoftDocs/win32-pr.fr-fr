@@ -4,18 +4,18 @@ ms.assetid: 8ba73536-65a5-4658-846c-76356f16b81c
 title: ICE95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f0f7d44554385c33648036f314406971193afc079b5aa8e72cf595695797ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 14144c7739dfcc1f1b5e66d92d8e6c1c46ed49fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021453"
 ---
 # <a name="ice95"></a>ICE95
 
 ICE95 vérifie la table de contrôle et la [table BBControl](bbcontrol-table.md) pour vérifier que les contrôles de [tableau](control-table.md) blanc s’intègrent à tous les panneaux.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 Si l’une des conditions suivantes est vraie, un contrôle d’affichage des panneaux ne peut pas être contenu dans un panneau. ICE95 publie les avertissements suivants.
 
@@ -32,7 +32,7 @@ Si l’une des conditions suivantes est vraie, un contrôle d’affichage des pa
 
  
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ICE95 signale les avertissements suivants pour l’exemple :
 
@@ -47,7 +47,7 @@ Table de contrôle (partielle) (partielle)
 
 
 
-| Contrôler  | Type      | Largeur | Hauteur |
+| Control  | Type      | Largeur | Hauteur |
 |----------|-----------|-------|--------|
 | Control1 | Blanc | 300   | 100    |
 | Control2 | Blanc | 100   | 300    |

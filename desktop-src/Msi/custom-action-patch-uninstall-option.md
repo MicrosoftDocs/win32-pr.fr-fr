@@ -5,11 +5,11 @@ title: Option de désinstallation corrective de l’action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 24636181ec8fb9695b9d959a25b055a7e7c21d34
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885040"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091869"
 ---
 # <a name="custom-action-patch-uninstall-option"></a>Option de désinstallation corrective de l’action personnalisée
 
@@ -27,7 +27,7 @@ Utilisez l’indicateur d’option suivant pour spécifier que le programme d’
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet attribut peut être ajouté à une action personnalisée en le créant dans le package Windows Installer (fichier .msi). Une nouvelle action personnalisée avec cet attribut peut être ajoutée par un correctif. Une action personnalisée ayant cet attribut peut être mise à jour par un correctif. Cet attribut ne peut pas être ajouté ou supprimé par un correctif à une action personnalisée existante.
 

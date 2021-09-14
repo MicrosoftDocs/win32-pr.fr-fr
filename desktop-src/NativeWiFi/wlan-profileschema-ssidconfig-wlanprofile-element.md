@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 6df6edc3affa551d62473b616562257cd422fcc4a4021ea7e4ef05ba3c8af9dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5665b385c3264ff9d36e79ad671c8f9e8377d4bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118619039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021132"
 ---
 # <a name="ssidconfig-wlanprofile-element"></a>Élément SSIDConfig (WLANProfile)
 
@@ -109,7 +109,7 @@ L’élément **SSIDConfig** est défini par l’élément [**WLANProfile**](wla
 
 Pour afficher des exemples de profils qui utilisent l’élément **SSIDConfig** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

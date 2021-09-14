@@ -5,12 +5,12 @@ ms.assetid: 3928ff39-ed17-4a61-bb72-a3c9be16ae45
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50422990a45dd59c2bedc3ac90bddcf06f7796cd3308daf03a11db0dca38f0b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 569f7ce633bfb70fdba5e7055a80ad73ebd0fb6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013065"
 ---
 # <a name="boolean-wmi"></a>booléen (WMI)
 

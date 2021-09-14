@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: af5b5daf50a2e9487ddbf18450735a525f771717a94dc37ab20222c6c6fbe288
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 98663587fab3722d689c9d34578d60daad922a2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120115249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012435"
 ---
 # <a name="regionregion-constructors"></a>Constructeurs Region. Region
 

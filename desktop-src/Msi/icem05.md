@@ -4,12 +4,12 @@ ms.assetid: 1bf4041e-b198-4897-8719-8505fd8180ec
 title: ICEM05
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee34dbc16b9cf3aeaa16aec9b5d62671cd51036c563bfb8561815ad3c21d0ec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e62ca481ef836c2675c381817fe2242e37384818
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021434"
 ---
 # <a name="icem05"></a>ICEM05
 
@@ -17,7 +17,7 @@ ICEM05 vérifie que le module de fusion est correctement associé aux composants
 
 Le module de fusion CIEM est stocké dans un fichier de module de fusion. CUB appelé Mergemod. CUB et non dans le fichier. CUB contenant le CIEM utilisé pour la validation du package.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICEM05 publie une erreur si la base de données du module associe de manière incorrecte des composants et le module.
 

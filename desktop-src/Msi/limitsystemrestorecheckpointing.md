@@ -4,12 +4,12 @@ ms.assetid: 706d6c85-3876-4205-b7da-b0fd709e65dd
 title: LimitSystemRestoreCheckpointing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cbea03dcab5db690f6fc06725dbb38a376310e967b9e92a9fcb0c59daab0180
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b7606d266b4e9e42f6287669df9b3ab33a3ad9f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119763509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011968"
 ---
 # <a name="limitsystemrestorecheckpointing"></a>LimitSystemRestoreCheckpointing
 

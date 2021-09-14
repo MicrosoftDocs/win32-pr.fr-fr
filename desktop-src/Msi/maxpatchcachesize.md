@@ -4,12 +4,12 @@ ms.assetid: 986cd521-6907-420d-a2e9-5e0da0069834
 title: MaxPatchCacheSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85291977073d1ab65c43ce9c4307e7c97519133330769e56c4b9dc7a883972dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8d9930f4a52d3ea0126a19d4dfadae359321f56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013057"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021353"
 ---
 # <a name="maxpatchcachesize"></a>MaxPatchCacheSize
 

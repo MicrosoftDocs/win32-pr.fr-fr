@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd6af5bc48629c71964f1d6845bb25de556ad49c9ab0fa408835e04aad4ef707
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b09dd92b97166b8d973328ec95e466abbda116bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012256"
 ---
 # <a name="csourceseekingsetpositions-method"></a>Méthode CSourceSeeking. SetPositions
 
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les indicateurs suivants sont pris en charge :
 
@@ -102,7 +102,7 @@ Pour plus d’informations, consultez [**IMediaSeeking :: SetPositions**](/wind
 
 Cette méthode met à jour les valeurs des variables [**membres CSourceSeeking :: m \_ RtStart**](csourceseeking-m-rtstart.md) et [**CSourceSeeking :: m \_ rtStop**](csourceseeking-m-rtstop.md) , puis appelle les méthodes virtuelles pures [**CSourceSeeking :: modifiez l'**](csourceseeking-changestart.md) et [**CSourceSeeking :: ChangeStop**](csourceseeking-changestop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

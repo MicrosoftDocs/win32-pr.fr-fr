@@ -4,12 +4,12 @@ ms.assetid: 924858b7-8956-4636-b7c7-c902aa822ee1
 title: Table d’extension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d664df812b723d7ab6c9b966b09fac8c57a35b655e123f720fdb87bdf431146
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ef52f7248f44dcb63255244bbd8abd4ac8181d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091269"
 ---
 # <a name="extension-table"></a>Table d’extension
 
@@ -72,7 +72,7 @@ Une clé externe dans la première colonne de la table de [fonctionnalités](fea
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La table d’extension est référencée lorsque l’action [RegisterExtensionInfo](registerextensioninfo-action.md) ou l’action [UnRegisterExtensionInfo](unregisterextensioninfo-action.md) est exécutée.
 

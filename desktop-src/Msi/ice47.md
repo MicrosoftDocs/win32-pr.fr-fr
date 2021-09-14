@@ -4,22 +4,22 @@ ms.assetid: e3101569-4d0b-48c9-8ba2-6f0de0c39e74
 title: ICE47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fdcf1f71af9bb8784c15b159836d329a94e7e6f33b34c31cbba72f9b31349a5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: baa04c2df52571f56612242d2dc7da8b5a91647c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119381949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021547"
 ---
 # <a name="ice47"></a>ICE47
 
 ICE47 vérifie la [fonctionnalité](feature-table.md) et les tables [FeatureComponents](featurecomponents-table.md) pour les fonctionnalités avec 1600 ou plus de composants.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE47 publie un message d’erreur si une fonctionnalité dépasse la limite maximale de 1600 composants par fonctionnalité.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ICE47 signale l’avertissement suivant :
 

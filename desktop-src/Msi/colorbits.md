@@ -4,18 +4,18 @@ ms.assetid: a4cb81dc-2499-4918-a82a-f5fd0e9e9593
 title: Propriété ColorBits
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da16d4294b8024cf538adadf75613261cd2c1534b5ee9644bfa5db9696eb98a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2da25cab7dde035e6b7c0922c0544bca7c134937
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380816"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092197"
 ---
 # <a name="colorbits-property"></a>Propriété ColorBits
 
 Le programme d’installation définit la propriété **ColorBits** sur le nombre de bits de couleur adjacents pour chaque pixel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

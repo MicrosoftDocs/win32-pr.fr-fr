@@ -9,12 +9,12 @@ keywords:
 - RAS RAS, voir accès à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e300061c328751f288634faf2f36ab0391ba41d7079e4f42c842d31b3e29397
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95a4b1c06656b51395c8c4fc666e59d6115bd839
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117788284"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011432"
 ---
 # <a name="remote-access"></a>Accès à distance
 

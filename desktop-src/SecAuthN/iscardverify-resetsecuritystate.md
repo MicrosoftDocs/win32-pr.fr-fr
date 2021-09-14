@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6cf1d27298e5bc37288b209547e82f29cfba1393dc3c654563977fbd3f0bf0ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba96d400258fb58957c8c263438160d6710806db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013779"
 ---
 # <a name="iscardverifyresetsecuritystate-method"></a>ISCardVerify :: ResetSecurityState, méthode
 
@@ -38,7 +38,7 @@ HRESULT ResetSecurityState();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes :
 
@@ -53,7 +53,7 @@ La méthode retourne l’une des valeurs possibles suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour réactiver le [*contexte de sécurité*](../secgloss/s-gly.md) sans réinitialiser, appelez [**Unblock**](/previous-versions/windows/desktop/legacy/aa377269(v=vs.85)).
 
@@ -61,7 +61,7 @@ Pour obtenir la liste de toutes les méthodes définies par cette interface, con
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

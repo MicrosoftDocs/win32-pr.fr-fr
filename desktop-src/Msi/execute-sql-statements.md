@@ -4,12 +4,12 @@ ms.assetid: 1027b187-1237-43d1-9905-8fcdaec63903
 title: exécuter des instructions SQL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7893da9c49ad1aaff4d19726cbcfce86f80293d9ffaa4c8e01569dd83a2d3b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99da54f85b02ee867003b140d505f5754f58cc00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091294"
 ---
 # <a name="execute-sql-statements"></a>exécuter des instructions SQL
 

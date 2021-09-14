@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c4d7a5cb503fead5d1fcde735bfd9a793b2cd1d0d39ed357780af651ab689380
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5210305c5f5763c17e43fce77d9626a2d633755b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012604"
 ---
 # <a name="esentcallbacknotresolvedexception-constructor"></a>Constructeur EsentCallbackNotResolvedException
 
@@ -54,7 +54,7 @@ public EsentCallbackNotResolvedException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentCallbackNotResolvedException, classe](./esentcallbacknotresolvedexception-class.md)
 

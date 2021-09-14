@@ -4,12 +4,12 @@ ms.assetid: 0c7534d7-3372-49c4-992c-9b519279982d
 title: Gestion des informations de domaine approuvé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a945705efaedf56920ee2170deeab9da0d01802259a57aca5cda2fac9d531aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b7df297b8c83ebe9054ca6f04b657905c21fae6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118894089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013602"
 ---
 # <a name="managing-trusted-domain-information"></a>Gestion des informations de domaine approuvé
 

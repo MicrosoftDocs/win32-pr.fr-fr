@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9faae26fcf132abfa424b0db7a88670735d30727
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364116"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021187"
 ---
 # <a name="icm_configure-message"></a>ICM \_ CONFIGURER le message
 
@@ -49,7 +49,7 @@ Handle de la fenêtre parente de la boîte de dialogue affichée. Vous pouvez d�
 
 Retourne ICERR \_ OK si le pilote prend en charge ce message ou ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est différent du message [**de \_ configuration du DRV**](drv-configure.md) utilisé pour la configuration matérielle. la boîte de dialogue de ce message doit permettre à l’utilisateur de définir et de modifier l’état interne référencé par les messages [**ICM \_ GETSTATE**](icm-getstate.md) et [**ICM \_ SETSTATE**](icm-setstate.md) . Par exemple, cette boîte de dialogue peut permettre à l’utilisateur de modifier des paramètres affectant le niveau de qualité et d’autres options de compression similaires.
 

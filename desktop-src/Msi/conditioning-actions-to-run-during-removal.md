@@ -4,12 +4,12 @@ ms.assetid: 67b205bb-11d8-454f-b5d5-93330219f6cc
 title: Mesures de conditionnement à exécuter pendant la suppression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18fa9596dd6868b105f87c795ad70b6edc5ebac96381ffcc2b8b951947c87568
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad0e84f21b42f569744af9b8a7a46bb1e3df7a85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144322"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092049"
 ---
 # <a name="conditioning-actions-to-run-during-removal"></a>Mesures de conditionnement à exécuter pendant la suppression
 

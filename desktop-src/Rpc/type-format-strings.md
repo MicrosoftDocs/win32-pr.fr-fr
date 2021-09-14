@@ -4,12 +4,12 @@ description: Les caractères de format dénotent les objets qui intéressent le 
 ms.assetid: 71117082-07b0-4ba4-a920-09be8d8427ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42f4aa17494cbef0f3bcc232f89104e3502f94de4a3285a1da6cc0229af0fe26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f618d857e487f86e2d28ed18300d82e94b76e3a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011395"
 ---
 # <a name="type-format-strings"></a>Chaînes de format de type
 

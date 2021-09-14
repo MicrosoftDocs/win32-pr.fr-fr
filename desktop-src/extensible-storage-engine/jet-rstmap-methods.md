@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103891
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f8738b5ba96ffab03fffa2ca14dbe0aa4fbbd4098d0ec8ff73c0b55a4079bfa7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf6039380f219df753492aa82306303482a430c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118763174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012493"
 ---
 # <a name="jet_rstmap-methods"></a>Méthodes JET_RSTMAP
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_RSTMAP](./jet-rstmap-class.md)
 

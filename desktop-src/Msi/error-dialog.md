@@ -4,12 +4,12 @@ ms.assetid: 11d4fe8b-ec5f-4576-95e5-c86344f0195c
 title: Boîte de dialogue d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8582996ad4380d8adc62f684f638092857b45d464e7e8ef150c1fed141027f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a153f5e6ee38235f830937d794a9ca9b81314583
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091353"
 ---
 # <a name="error-dialog"></a>Boîte de dialogue d’erreur
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 43644f8ef19b81331f9f2d88d4dac03d654379d51174a50e994d3642cb86eabc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f33a0ba8218ae38d8fb31cefb6910f5b2c16484d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117804729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021336"
 ---
 # <a name="mergemerge-method"></a>Merge. Merge, méthode
 
@@ -57,11 +57,11 @@ Clé d’une entrée dans la [table des répertoires](directory-table.md) de la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fois la fusion terminée, les composants du module sont attachés à la fonctionnalité identifiée par la *fonctionnalité*. Cette fonctionnalité n’est pas créée et doit être une fonctionnalité existante. Notez que la méthode **Merge** obtient toutes les références de fonctionnalités dans le module et remplace la référence de fonctionnalité pour toutes les occurrences du GUID null dans la base de données du module. Pour plus d’informations, consultez [référencement des fonctionnalités dans les modules de fusion](referencing-features-in-merge-modules.md).
 
@@ -75,7 +75,7 @@ Si des conflits de fusion se produisent, y compris des exclusions, ils sont plac
 
 Consultez [**Merge**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-merge) , fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

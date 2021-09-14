@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 073e922ce8c1a79e81d991c869743148b5a581503192a10dfb9cd6e64707d83e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5fcbcfa1a8b6c1aa9922b98a7699bdf2bf4b0fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118906671"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013620"
 ---
 # <a name="sslexportkey-function"></a>SslExportKey fonction)
 
@@ -114,7 +114,7 @@ Réservé pour un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -132,7 +132,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslExportKey** facilite le transport des clés de session d’un processus à un autre, ainsi que l’exportation de la partie publique d’une clé éphémère.
 
@@ -140,7 +140,7 @@ Lorsque vous exportez des clés de session, le type d’objet BLOB est opaque, c
 
 Lors de l’exportation de la partie publique d’une clé éphémère, le type d’objet BLOB doit être le type approprié, par exemple, l’objet BLOB **\_ \_ public \_** ou l' **\_ \_ objet BLOB ECCPUBLIC ncrypt**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

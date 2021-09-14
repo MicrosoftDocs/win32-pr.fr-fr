@@ -4,12 +4,12 @@ ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
 title: journalisation des événements (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08c1aa4808727a220ec104cb3e7bfdff2741dcb2366ca1468288a082baab813b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce7fdaf29ec0c638d3c85b82c74cca2bbede63c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091317"
 ---
 # <a name="event-logging-windows-installer"></a>journalisation des événements (Windows Installer)
 
@@ -34,7 +34,7 @@ pour plus d’informations sur l’activation de la journalisation documentée s
 <tr class="header">
 <th>ID de l’événement</th>
 <th>Message</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

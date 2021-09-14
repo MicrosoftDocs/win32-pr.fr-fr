@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, compilation et liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2500a763db149eca914060dd7920548883fa57fbd5642485a41f5a55c65cd2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1991e39cc028c01066cd8f13344765787374fa08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011419"
 ---
 # <a name="compiling-and-linking"></a>Compilation et liaison
 

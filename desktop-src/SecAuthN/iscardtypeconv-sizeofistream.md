@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: ec150fdf5a6f296b5728131cd59bb6863016fe46fe0769e6159e43b236f77a95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 603a01dc6cb4727d59a7fb82c3270c08a495f021
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013782"
 ---
 # <a name="iscardtypeconvsizeofistream-method"></a>ISCardTypeConv :: SizeOfIStream, méthode
 
@@ -56,7 +56,7 @@ Pointeur vers l’entier non signé long qui peut contenir l’intégralité de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -74,7 +74,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

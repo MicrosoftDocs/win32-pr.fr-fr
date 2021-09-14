@@ -4,12 +4,12 @@ ms.assetid: 137c3ad8-e47c-4cc5-b5c5-ea130236551a
 title: Type d’identificateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab1061f6d813b0803dbe1aa0d8e49e7f93cffba6e100f778901441f4bc4ed710
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: af6d4e63b473c9ba0705c093f1dec5bcdbc1e26f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118634780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021403"
 ---
 # <a name="identifier-type"></a>Type d’identificateur
 

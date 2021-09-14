@@ -4,12 +4,12 @@ ms.assetid: 81fbc039-3c86-4086-a565-57a4ea2c12fb
 title: ComboBox, contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 664244a4e14b198bf532551bb67abdd405fa780d394312de4c5f2ad093885f7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1531d843cc8b1e1e7f1f545afe4a9a9793765a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145578"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092185"
 ---
 # <a name="combobox-control"></a>ComboBox, contrôle
 
@@ -45,7 +45,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe COMBOBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ CBS AUTOHSCROLL**, **WS \_ TABSTOP**, **WS \_ Group** et **WS \_ Child** . Si le bit ComboList est activé, il possède également le style de liste déroulante CBS. sinon, il a le style de **\_ liste déroulante CBS** . **\_**
 

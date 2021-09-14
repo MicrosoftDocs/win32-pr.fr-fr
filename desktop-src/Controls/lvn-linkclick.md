@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e89db641bc17e8c3d9d548bdf502e077c88dfc6c7452f8059b085c3432d23bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd69fb463e71523fcbd4eeb65a6a718d27847c09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012306"
 ---
 # <a name="lvn_linkclick-notification-code"></a>\_Code de notification LVN LINKCLICK
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMLVLINK**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant montre comment une application peut répondre à ce code de notification dans son gestionnaire de messages [**WM \_ Notify**](wm-notify.md) . L’exemple bascule l’État réduit du groupe et définit le texte de lien approprié.
 
@@ -77,7 +77,7 @@ case LVN_LINKCLICK:
 }
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

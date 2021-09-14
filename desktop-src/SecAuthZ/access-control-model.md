@@ -4,12 +4,12 @@ ms.assetid: fd3b718a-5eff-4894-9fc6-d157ddb67330
 title: Modèle de Access Control
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b24be0b2ea358d5afc15c42384c9e068d2ff606e6fbadae36483109989cedf22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 253f03e5703020512cbbee6fbaae168d8adb97f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118914555"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013754"
 ---
 # <a name="access-control-model"></a>Modèle de Access Control
 

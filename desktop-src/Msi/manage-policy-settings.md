@@ -4,12 +4,12 @@ ms.assetid: 17cfed46-503f-4124-9f0e-1655fda153d0
 title: Gérer des paramètres de stratégie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1261c48ec7cc7e51a8556b7565075fa9e92bd60481da08f4f311a3de995a91f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a86684e75e09fa0a588c2d1d0d999488d6e89fae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021356"
 ---
 # <a name="manage-policy-settings"></a>Gérer des paramètres de stratégie
 

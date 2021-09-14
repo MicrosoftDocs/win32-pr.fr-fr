@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 25feef7de3d23a843983d9a0ef6dd6d828fe14784fe5e25883d3ff1b4e6ef783
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2811b7daad23b60692039683b117e2a3d51489ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013596"
 ---
 # <a name="iscommandblocked-method-of-the-win32_tpm-class"></a>Méthode IsCommandBlocked de la \_ classe TPM Win32
 
@@ -210,7 +210,7 @@ Les valeurs de bit peuvent être combinées pour spécifier entièrement ce qui 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -226,7 +226,7 @@ Toutes les erreurs Win32 peuvent être retournées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode lit les clés de Registre suivantes :
 
@@ -260,7 +260,7 @@ La valeur de retour de la méthode peut être dérivée comme suit :
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

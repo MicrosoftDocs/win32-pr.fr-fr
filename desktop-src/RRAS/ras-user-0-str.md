@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbb4b04ddf3b81d330825b3333899e149d2f7b0d1f30c19106c6977e5291846f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c79a6b946ed9d10cd2bfc989f8cde27fad2ffa92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011433"
 ---
 # <a name="ras_user_0-structure"></a>Structure de l' \_ utilisateur RAS \_ 0
 
@@ -73,7 +73,7 @@ Chaîne Unicode se terminant par un caractère null qui spécifie le numéro de 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

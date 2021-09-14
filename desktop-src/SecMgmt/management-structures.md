@@ -5,11 +5,11 @@ title: Structures de gestion de la sécurité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2212332b65d89a8d2c1f5a24601a59cca041ff42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013617"
 ---
 # <a name="security-management-structures"></a>Structures de gestion de la sécurité
 

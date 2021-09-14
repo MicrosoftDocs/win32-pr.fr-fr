@@ -4,12 +4,12 @@ ms.assetid: 1ddde4e2-90a9-4dd8-a4f9-b6802d0b11cf
 title: Table _Columns
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cbb603c077d7873cdfbea88070e555902883ba579b422627b2581aca04745b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d896f330e5fc2e13b5f172581341eb11a09617d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118640474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093046"
 ---
 # <a name="_columns-table"></a>\_Table colonnes
 
@@ -22,7 +22,7 @@ La \_ Table Columns contient les colonnes suivantes.
 | Colonne | Type                   | Clé | Nullable |
 |--------|------------------------|-----|----------|
 | Table de charge de travail  | [Text](text.md)       | O   | N        |
-| Nombre | [Integer](integer.md) | O   | N        |
+| Number | [Integer](integer.md) | O   | N        |
 | Nom   | [Text](text.md)       | N   | N        |
 
 
@@ -54,7 +54,7 @@ Nom de la colonne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 étant donné que la \_ table columns est une table système qui ne peut pas être modifiée par le biais de requêtes SQL, vous ne pouvez pas obtenir les clés primaires avec la fonction [**MsiDatabaseGetPrimaryKeys**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegetprimarykeysa) ou la [**propriété PrimaryKeys**](database-primarykeys.md).
 

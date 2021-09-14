@@ -4,12 +4,12 @@ ms.assetid: 5d413fb7-99da-49f3-ace3-ec285df2e634
 title: gestion des pages de codes (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea72f8ad2b9553cb6db8d2a143e8db985d77c31c051644a34baad7be0d0294d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6db2788a1bfc6bdb49ec1402d5bba8a1a2594b30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092202"
 ---
 # <a name="code-page-handling-windows-installer"></a>gestion des pages de codes (Windows Installer)
 

@@ -5,12 +5,12 @@ ms.assetid: 85934873-8889-4564-A717-28A00614B38C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73383659727fea4ef385e56788ce97e18e7976dc5d040a4c1f3a6fc51c3616d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d51d30c7a99250ee0842b79d76ccebb6150bcf9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119608279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012937"
 ---
 # <a name="non-shader-visible-descriptor-heaps"></a>Tas du descripteur non visible par le nuanceur
 
@@ -43,10 +43,10 @@ Même les tables de descripteur ont des options dans lesquelles une application 
 
 |                   | Nuanceur visible, UC en écriture seule                                   | Non-nuanceur visible, lecture/écriture de l’UC                                       |
 |-------------------|------------------------------------|----------------------------------------|
-| **CBV, SRV, UAV** | oui                                | oui                                    |
-| **ÉCHANTILLONNEUR**       | oui                                | oui                                    |
-| **Retour au fournisseur**           | non                                 | oui                                    |
-| **VUE**           | non                                 | oui                                    |
+| **CBV, SRV, UAV** | Oui                                | Oui                                    |
+| **ÉCHANTILLONNEUR**       | Oui                                | Oui                                    |
+| **Retour au fournisseur**           | non                                 | Oui                                    |
+| **VUE**           | non                                 | Oui                                    |
 
 
 

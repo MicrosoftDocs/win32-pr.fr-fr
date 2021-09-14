@@ -5,12 +5,12 @@ ms.assetid: B20C5575-0616-43F7-9AC9-5F802E5597B5
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da14e34bfc881e000eb4f4557a0dddef3cee3d0ab55343a9e5597a483af39adc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e60782519de6f655882717c4ea657668129a6ce3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119632042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012939"
 ---
 # <a name="multi-engine-n-body-gravity-simulation"></a>Simulation de gravité n-corps multi-moteur
 
@@ -20,7 +20,7 @@ L’exemple **D3D12nBodyGravity** montre comment effectuer un travail de calcul 
 -   [Créer les mémoires tampons SRV et UAV](#create-the-srv-and-uav-buffers)
 -   [Créer les CBV et les mémoires tampons de vertex](#create-the-cbv-and-vertex-buffers)
 -   [Synchroniser les threads de rendu et de calcul](#synchronize-the-rendering-and-compute-threads)
--   [Exécuter l’exemple](#run-the-sample)
+-   [Exécution de l'exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="create-the-root-signatures"></a>Créer les signatures racines
@@ -283,7 +283,7 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 | [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist)                              |            |
 | [**ExecuteCommandLists**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)       |            |
 | [**InterlockedIncrement**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedincrement)                     |            |
-| [**Témoin**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
+| [**Signal**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                                 |            |
 | [**SetEventOnCompletion**](/windows/win32/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion)            |            |
 | [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject)                         |            |
 | [**InterlockedGetValue**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchange)                |            |

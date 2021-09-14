@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ecfa02354ad3662a6fd9060fff80b74635c63ade57539fbbd1307fa1d65e8872
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 24313b908f1271f270e28b08058c415ed82396fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012289"
 ---
 # <a name="ccmdqueuesettimeadvise-method"></a>Méthode CCmdQueue. SetTimeAdvise
 
@@ -40,15 +40,15 @@ void SetTimeAdvise();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre appelle la méthode [**IReferenceClock :: AdviseTime**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime) pour configurer une notification pour l’heure la plus ancienne dans la file d’attente. Les commandes à durée de présentation différées sont toujours vérifiées. Si le graphique de filtre est en mode d’exécution, les commandes différées utilisant le temps de flux sont également vérifiées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

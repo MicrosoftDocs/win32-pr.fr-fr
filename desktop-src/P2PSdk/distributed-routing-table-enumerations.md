@@ -4,12 +4,12 @@ ms.assetid: 38ce95a0-1603-42c2-8a5e-4370f52c8fc9
 title: Énumérations de tables de routage distribuées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ff0a955aed8d6ed6cdf14f3d0e7f6ac2605960123f8008c831dbef5be2da98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c432b156a9299a9f70026a394a6fd97f06528a25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013941"
 ---
 # <a name="distributed-routing-table-enumerations"></a>Énumérations de tables de routage distribuées
 

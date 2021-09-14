@@ -4,12 +4,12 @@ ms.assetid: 3982eac8-8272-4fb4-870c-390a0b6bd9a1
 title: Action CreateFolders
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61182143488627c4724e470bf7f5158ed524cb4bc344c972c6744d14f773f6cd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 349388bf07fe867fc2cd88df6b5c7a76d28a1bf2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091909"
 ---
 # <a name="createfolders-action"></a>Action CreateFolders
 
@@ -33,7 +33,7 @@ L’action CreateFolders doit être exécutée avant l’action [InstallFiles](i
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le programme d’installation ne supprime pas automatiquement les dossiers créés par l’action CreateFolders pendant la désinstallation de l’application. Le programme d’installation supprime uniquement les dossiers si l' [action RemoveFolders](removefolders-action.md) est incluse dans la séquence d’action.
 

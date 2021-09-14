@@ -4,18 +4,18 @@ ms.assetid: d37cce18-6c65-4ee3-b6ab-27a51fb6853f
 title: Propriété AppDataFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b58f26f7af6403b857e98aaab93f27467fd4d75f0576d5cf1ba618d2134d301e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: daa66e77160bcbfbf5884ae12c767107ad7c13d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092689"
 ---
 # <a name="appdatafolder-property"></a>Propriété AppDataFolder
 
 l’Windows Installer définit la valeur de la propriété **AppDataFolder** sur le chemin d’accès complet du dossier d’itinérance de l’utilisateur actuel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

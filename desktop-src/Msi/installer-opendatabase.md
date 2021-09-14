@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: aab1e66dd4208817f854db88c57db5b6269a7a0b912242da649dffcf24cabab3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 897e683fd56ce3e7496dd945ee068a9e6f0c0f77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012138"
 ---
 # <a name="installeropendatabase-method"></a>Installer. OpenDatabase, méthode
 
@@ -70,11 +70,11 @@ Un paramètre de la liste suivante ou une chaîne qui contient le nom du chemin 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet [**de base de données**](database-object.md) qui représente la base de données du programme d’installation existante ou nouvelle qui a été ouverte.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’une base de données est ouverte comme sortie d’une autre base de données, le flux d’informations de synthèse de la base de données de sortie est en fait un miroir en lecture seule de la base de données d’origine et ne peut donc pas être modifié. En outre, elle n’est pas conservée avec la base de données. Pour créer ou modifier les informations de résumé de la base de données de sortie, vous devez la fermer, puis la rouvrir.
 
@@ -86,7 +86,7 @@ Appelez toujours la méthode [**Commit**](database-commit.md) sur une base de do
 
 Si la méthode échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

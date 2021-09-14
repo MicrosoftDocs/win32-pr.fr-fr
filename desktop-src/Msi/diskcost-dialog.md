@@ -4,12 +4,12 @@ ms.assetid: fdf9bdf5-b847-426e-949a-63af76358cea
 title: Boîte de dialogue DiskCost
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bbb07dbeae28e6c29de083a64a33170c1a1825a276c0258156e505d4ae6da05
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93753fee084804f96db9c0e9c45e9c12573b9e79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091490"
 ---
 # <a name="diskcost-dialog"></a>Boîte de dialogue DiskCost
 

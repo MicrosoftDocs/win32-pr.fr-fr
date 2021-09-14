@@ -4,12 +4,12 @@ ms.assetid: 83d8bc62-679e-410f-a95c-ffe13952b710
 title: ICE81
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97bcf3228282339acd76ae4f20638cc24aeddf5279212b91aca0ece2b21867d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cd2fef8da1027fc739ce8e6e979ca998a1cd053a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119580809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021480"
 ---
 # <a name="ice81"></a>ICE81
 
@@ -17,7 +17,7 @@ ICE81 valide la table [MsiDigitalCertificate](msidigitalcertificate-table.md), l
 
 Notez que ICE03 vérifie que l’entrée dans la colonne de table de la table MsiDigitalSignature est « Media ».
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE81 publie les avertissements suivants pour les certificats numériques non utilisés ou non référencés.
 

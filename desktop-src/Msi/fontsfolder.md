@@ -4,18 +4,18 @@ ms.assetid: a0a2200e-cae4-4c33-8ed3-376620e80467
 title: Propriété FontsFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d2421848825a3ead944fcb7815f446896e9a5a6bf39baaad69c43f4480181d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a40f21b34dcc37ef7583bb476afac5e960476e10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021712"
 ---
 # <a name="fontsfolder-property"></a>Propriété FontsFolder
 
 Le programme d’installation définit la propriété **FontsFolder** sur le chemin d’accès complet du dossier polices système.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

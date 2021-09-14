@@ -4,12 +4,12 @@ ms.assetid: 437ceef2-730f-47ae-9b1f-dfc7c6d2d132
 title: EnableUserControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 911d8c56b1ea4d161030b252141e1930bd8298cea98b52b09511175d132e6a2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 257496be3815a20bbc855b456bb74e4cc8f61684
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118637005"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091401"
 ---
 # <a name="enableusercontrol"></a>EnableUserControl
 

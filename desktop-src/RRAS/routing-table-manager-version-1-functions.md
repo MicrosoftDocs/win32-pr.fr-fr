@@ -7,12 +7,12 @@ keywords:
 - Gestionnaire de table de routage version 1 RRAS, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7d898a180499cafb2f3a128ed81a72e0fea783b8b3620192034694a59a6709
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2337ea09b4dd116f9db90c37e0a1ea3ea2a62b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120027219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013845"
 ---
 # <a name="routing-table-manager-version-1-functions"></a>Fonctions de la version 1 du gestionnaire de table de routage
 

@@ -4,12 +4,12 @@ ms.assetid: 63666848-cbac-4853-8b91-89303f9854c0
 title: Fonctions de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55553e29b2ae9fb8e60db2f421fd8aa68cee1c6b79542c7d3d61ef5bcef490f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0431a672e93c94e06a71812471aa3c74d0ac2f96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118888961"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013554"
 ---
 # <a name="service-functions"></a>Fonctions de service
 

@@ -4,12 +4,12 @@ ms.assetid: c4a0f4d8-818d-4e60-908b-adaa2a54de95
 title: Installations Multiple-Package
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d525c2904d25fb06403f85914f2b04fce2ebc57f22801a2413b2f09ad1c396
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65fa30893f353d6661a7f77fe23fe55b4c9b22c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943410"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021292"
 ---
 # <a name="multiple-package-installations"></a>Installations Multiple-Package
 

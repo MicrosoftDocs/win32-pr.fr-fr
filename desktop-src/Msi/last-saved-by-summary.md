@@ -4,12 +4,12 @@ ms.assetid: 6da171d9-29db-4524-abc6-77db8fbfca38
 title: Dernier enregistrement par propriété de résumé
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9299dc6a00af4e48eb3901842aba58a3c8d9a9c1d98d3a3e1e0f05bfccc4333
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5dfd1c00863eee3bc31728783042ada8298b2067
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011983"
 ---
 # <a name="last-saved-by-summary-property"></a>Dernier enregistrement par propriété de résumé
 
@@ -21,7 +21,7 @@ Dans une transformation, cette propriété Summary contient les ID de plateforme
 
 Dans un package correctif, cette propriété Summary contient une liste délimitée par des points-virgules de noms de sous-stockage de transformation dans l’ordre dans lequel ils sont appliqués par ce correctif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

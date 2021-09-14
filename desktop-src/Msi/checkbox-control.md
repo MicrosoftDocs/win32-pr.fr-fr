@@ -4,12 +4,12 @@ ms.assetid: 939cc08f-7efd-4ff4-a846-6419e512a18f
 title: CheckBox, contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16acc6b515b7b3cbacc67d79ea408131d94f8ab9d83a63e76c612f64a084992
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3771fc2cfefcd73919a5f10d5cf9f279ee3feb82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120075129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092277"
 ---
 # <a name="checkbox-control"></a>CheckBox, contrôle
 
@@ -43,7 +43,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe BUTTON à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Elle possède les styles de **\_ case à cocher BS**, **WS \_ TABSTOP**, **WS \_ Group**, **WS \_ Child** et **BS \_ multilines** .
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9414abf23fef43e6ca6521e5deb5f26a475b19eca861c96a1c8e6f2cb4fcee19
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29b1fe3b358b7afc26c8e09be148a7e8485e8ead
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119833269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012488"
 ---
 # <a name="jet_snprogequals-method-object"></a>JET_SNPROG. Equals, méthode (Object)
 
@@ -62,14 +62,14 @@ public override bool Equals(
     
     Objet à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SNPROG](./jet-snprog-class.md)
 

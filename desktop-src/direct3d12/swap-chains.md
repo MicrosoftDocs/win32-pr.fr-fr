@@ -5,12 +5,12 @@ ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e98fc2baf63d7d80fefc190f2d01da33ea24d420e647b4f0c57df7ec4c501f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebbc7ec1b62ba620b42bc85c1c1f491ff7ba952d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012867"
 ---
 # <a name="swap-chains"></a>Chaînes de permutation
 

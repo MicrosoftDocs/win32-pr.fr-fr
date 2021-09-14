@@ -4,12 +4,12 @@ ms.assetid: a64a617a-b2ae-471f-a88f-a73f0fc3a791
 title: Interface utilisateur de carte à puce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b94a82889d196b01f8a1d1ca6af7b4788398d9508accc2d5ca245f7929d9d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc558446516149529e9a98d28aa9fe94f80b2777
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118917329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011214"
 ---
 # <a name="smart-card-user-interface"></a>Interface utilisateur de carte à puce
 

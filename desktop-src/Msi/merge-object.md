@@ -4,12 +4,12 @@ ms.assetid: 3f76ee8a-d195-4a69-99a3-31ef2c1c72d5
 title: Objet Merge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8382fd3c0b94e3e450d56a62fdd9d0a330cdd37fad72a6da926581b6336bc7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1379202d4f252560a381f8af09b30741faa060ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021335"
 ---
 # <a name="merge-object"></a>Objet Merge
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: bbfc455951e76548694415434e0ee4b53893d594b8f0f31419e516bc466ed2c4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7960a8bb1c3ed1b2fc86c93f371b2f05d299b97b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119744853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021126"
 ---
 # <a name="addresspair-structure"></a>ADDRESSPAIR, structure
 
@@ -84,7 +84,7 @@ Adresse source de l’élément de la paire d’adresses.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les indicateurs du membre **AddressFlags** peuvent être combinés. Par exemple, le paramètre suivant exclut le frame si l’adresse source spécifiée est détectée.
 
@@ -94,7 +94,7 @@ ADDRESS_FLAGS_MATCH_SOURCE|ADDRESS_FLAGS_EXCLUDED
 
 Pour plus d’informations sur l’implémentation de cette structure, consultez [filtres de capture](capture-filters.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

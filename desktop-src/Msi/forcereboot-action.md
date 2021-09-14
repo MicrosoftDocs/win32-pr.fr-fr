@@ -4,12 +4,12 @@ ms.assetid: e1bcdd59-8cbc-46f7-b908-c8cbc2ea0539
 title: Action ForceReboot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c41af6b656222a31ab75c9df3f2fa9f94af415f94d6d0b50010c0b25c5742502
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 807bab474f1faacfbc7684797b7a0b7b74f354d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636070"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021710"
 ---
 # <a name="forcereboot-action"></a>Action ForceReboot
 
@@ -43,7 +43,7 @@ L’action ForceReboot doit être comprise entre [InstallInitialize](installinit
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action ForceReboot doit toujours être utilisée avec une instruction conditionnelle de sorte que le programme d’installation déclenche un redémarrage uniquement lorsque cela est nécessaire. Par exemple, un redémarrage peut être nécessaire uniquement si un fichier particulier est remplacé ou si un composant particulier est installé. Chaque installation de produit est unique et une action personnalisée peut être nécessaire pour déterminer si un redémarrage est nécessaire. La condition sur l’action ForceReboot utilise généralement la propriété [**AFTERREBOOT**](afterreboot.md) .
 

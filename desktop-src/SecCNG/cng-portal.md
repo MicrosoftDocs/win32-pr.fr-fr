@@ -4,12 +4,12 @@ ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
 title: 'API de chiffrement : nouvelle génération'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfb5be604ea1dc8bdfc38ba37f0f202d1b95f334109e592a087e4da57b678cfb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d485f8371905961c63fbab66b29d0db544e3271
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908230"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013679"
 ---
 # <a name="cryptography-api-next-generation"></a>API de chiffrement : nouvelle génération
 

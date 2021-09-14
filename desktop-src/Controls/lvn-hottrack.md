@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab311b17f287b695a6b21d333f7183fdda272029e2c57dfe468527d765d1602
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c677b69fa21cdbe3680442304f6745cfb3a907de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117830430"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012313"
 ---
 # <a name="lvn_hottrack-notification-code"></a>\_Code de notification LVN HOTTRACK
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro pour permettre à la vue de liste d’effectuer son traitement de sélection normal. Si l’application retourne une valeur différente de zéro, l’élément n’est pas sélectionné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 49e3808fdad44e4bc3cb7312c1b352874eab3b768920f23ac198811d29f6c8ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e383c532d496ed217bdb7743b8171d732d61b2d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118630327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012100"
 ---
 # <a name="installerprovidecomponent-method"></a>Installer. ProvideComponent, méthode
 
@@ -84,11 +84,11 @@ Définit le mode d’installation. Ce paramètre peut avoir l’une des valeurs 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **ProvideComponent** combine les fonctionnalités de [**UseFeature**](installer-usefeature.md), [**ConfigureFeature**](installer-configurefeature.md)et [**ComponentPath**](installer-componentpath.md). La méthode **ProvideComponent** simplifie la séquence d’appel, mais incrémente également le nombre d’utilisations et doit être utilisée avec précaution afin d’éviter des nombres d’utilisations inexacts. La méthode **ProvideComponent** offre également moins de flexibilité qu’une série d’appels individuels aux méthodes et propriétés mentionnées précédemment.
 
@@ -96,7 +96,7 @@ Si l’application est en cours de récupération à la suite d’une situation 
 
 L’option msiInstallModeExisting ne peut pas être utilisée en association avec les indicateurs msiReinstallMode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

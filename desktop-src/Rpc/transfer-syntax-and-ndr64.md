@@ -4,12 +4,12 @@ description: Le protocole câble NDR, également appelé syntaxe de transfert, p
 ms.assetid: 30b3843a-172c-4d08-beed-c68bcb68daaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 433e68689ec4c960adbb43ddc19ec3e9e37765db57cfe6bf87c86c096720b771
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dfec9bc1569ef9a42d0bc844c3b098736f714ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011408"
 ---
 # <a name="transfer-syntax-and-ndr64"></a>Syntaxe de transfert et NDR64
 

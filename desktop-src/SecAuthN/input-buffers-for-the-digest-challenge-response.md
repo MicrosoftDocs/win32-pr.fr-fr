@@ -4,12 +4,12 @@ ms.assetid: 0df02be2-f42e-46d0-a206-765adf3d7a72
 title: Mémoires tampons d’entrée pour la réponse de stimulation Digest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c5bdc71e93c6c10bfcd2d911dccf8cc464a5a7a3040f97953d377be9eaf7ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 982923782b13e37a5e3531717dabf47016c60932
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011283"
 ---
 # <a name="input-buffers-for-the-digest-challenge-response"></a>Mémoires tampons d’entrée pour la réponse de stimulation Digest
 

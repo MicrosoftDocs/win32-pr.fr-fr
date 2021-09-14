@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: edc4d1a9e33139372d0f397053d233a28c9e2445ba270a47e7dbfe97090eb6a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc26056a3ec3e8820c363d97f92c7eb382cd0622
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021110"
 ---
 # <a name="expertfreememory-function"></a>ExpertFreeMemory fonction)
 
@@ -54,17 +54,17 @@ Pointeur vers la mémoire que Moniteur réseau alloue. Le pointeur *pMemory* peu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit. la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour indique la raison de l’échec. Si la valeur de retour est NMERR \_ expert \_ Terminate, l’expert nettoie immédiatement et retourne.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il est important de noter qu’un expert doit utiliser les fonctions d’allocation de mémoire Moniteur réseau pour la gestion de la mémoire. Si votre expert échoue au moment de l’exécution, l’utilisation de ces fonctions permettra à Moniteur réseau de libérer la mémoire qu’il a allouée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

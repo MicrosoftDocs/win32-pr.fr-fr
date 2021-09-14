@@ -4,12 +4,12 @@ ms.assetid: 58271b4b-c7c7-454d-b6dd-9c01a51900ce
 title: Tables de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d04e2124a90458af3fd4757c352b1f0e5aaf05b6d54e1300b554717fa00d7f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ebdf00107682dbec25d45f267901209094b50594
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119692909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091673"
 ---
 # <a name="database-tables"></a>Tables de base de données
 
@@ -17,7 +17,7 @@ le tableau suivant identifie les tables de base de données Windows Installer.
 
 
 
-| Table                                                                      | Description                                                                                                                                                                                                                                                               |
+| Table de charge de travail                                                                      | Description                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [ActionText](actiontext-table.md)                                         | Répertorie le texte dans une boîte de dialogue de progression ou dans le journal des actions.                                                                                                                                                                                                                        |
 | [AdminExecuteSequence](adminexecutesequence-table.md)                     | Répertorie les actions d’administration dans l’ordre.                                                                                                                                                                                                                                          |
@@ -55,7 +55,7 @@ le tableau suivant identifie les tables de base de données Windows Installer.
 | [FeatureComponents](featurecomponents-table.md)                           | Définit les relations entre les fonctionnalités et les composants.                                                                                                                                                                                                                             |
 | [File](file-table.md)                                                     | Liste complète des fichiers sources avec leurs attributs.                                                                                                                                                                                                                      |
 | [FileSFPCatalog](filesfpcatalog-table.md)                                 | Associe les fichiers spécifiés aux fichiers de catalogue.                                                                                                                                                                                                                        |
-| [Police](font-table.md)                                                     | Informations de Registre pour les fichiers de polices.                                                                                                                                                                                                                                      |
+| [Font](font-table.md)                                                     | Informations de Registre pour les fichiers de polices.                                                                                                                                                                                                                                      |
 | [Icône](icon-table.md)                                                     | Contient les fichiers d’icône.                                                                                                                                                                                                                                                  |
 | [IniFile](inifile-table.md)                                               | Informations nécessaires à la définition dans un fichier de .ini.                                                                                                                                                                                                                                |
 | [IniLocator](inilocator-table.md)                                         | Recherche un fichier ou un répertoire à l’aide d’un fichier .ini.                                                                                                                                                                                                                        |
@@ -113,7 +113,7 @@ le tableau suivant identifie les tables de base de données Windows Installer.
 | [TextStyle](textstyle-table.md)                                           | Répertorie les styles de texte utilisés dans les contrôles de texte.                                                                                                                                                                                                                              |
 | [Exportation](typelib-table.md)                                               | Répertorie les informations de Registre pour les bibliothèques de types.                                                                                                                                                                                                                            |
 | [UIText](uitext-table.md)                                                 | Répertorie les versions localisées de certaines chaînes utilisées dans l’interface utilisateur.                                                                                                                                                                                                      |
-| [DoVerb](verb-table.md)                                                     | Répertorie des informations sur les verbes de commande pour les extensions de nom de fichier.                                                                                                                                                                                                                  |
+| [Verb](verb-table.md)                                                     | Répertorie des informations sur les verbes de commande pour les extensions de nom de fichier.                                                                                                                                                                                                                  |
 | [\_Validation](-validation-table.md)                                      | Répertorie les noms et les valeurs des colonnes de toutes les tables.                                                                                                                                                                                                                             |
 | [\_Colonnes](-columns-table.md)                                            | Catalogue de colonnes en lecture seule.                                                                                                                                                                                                                                                 |
 | [\_Flux](-streams-table.md)                                            | Répertorie les flux de données OLE incorporés.                                                                                                                                                                                                                                          |

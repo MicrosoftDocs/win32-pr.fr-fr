@@ -4,18 +4,18 @@ ms.assetid: 1bf05680-fcba-4fbb-8f8c-4203a90346ce
 title: Propriété COMPADDDEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84fdd56c7fd2a74dc9266b7c1648f7e3ce36ccc41c12db2472772c0001b07839
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0e96d2259f0610a3030e79f8685c498a0fb2d83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118145239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092145"
 ---
 # <a name="compadddefault-property"></a>Propriété COMPADDDEFAULT
 
 La valeur de la propriété **COMPADDDEFAULT** est une liste de GUID de composant à partir de la colonne ComponentID de la [table de composants](component-table.md), délimitée par des virgules, qui sont installées dans leur configuration par défaut. Pour chaque ID de composant dans la liste, le programme d’installation installe la fonctionnalité qui nécessite le moins d’espace disque. Les ID de composant dans la liste doivent être présents dans la colonne ComponentId de la [table des composants](component-table.md). Une fonctionnalité est installée dans le même état d’installation que si l’utilisateur avait demandé une installation à la demande de la fonctionnalité. L’État est déterminé par les bits définis pour la fonctionnalité dans la colonne attributs de la [table de fonctionnalités](feature-table.md), et par les bits définis pour les composants de la fonctionnalité dans la colonne attributs de la table des composants.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que si l’indicateur de bit SourceOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter à partir de la source.
 
@@ -38,7 +38,7 @@ Par exemple, si la ligne de commande spécifie : ADDLOCAL = ALL, ADDSOURCE = My
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

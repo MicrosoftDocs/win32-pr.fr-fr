@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 284598a4e576a2c8c6df3b4b52b13f16d8752d2a035e22ef26d80882168b1f8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98983f61cfa7efd1b1eee5b4bbdfaf57e988238b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117902520"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012644"
 ---
 # <a name="apijetstopserviceinstance-method"></a>API. JetStopServiceInstance, méthode
 
@@ -64,7 +64,7 @@ public static void JetStopServiceInstance(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

@@ -17,11 +17,11 @@ api_type:
 api_location:
 - WmiProv.dll
 ms.openlocfilehash: a88b80773ec60b161df51fc759cc932d5c53c931
-ms.sourcegitcommit: cfcac5a083b72fd7f2a5188166d470cc0e95d02d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "109626691"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013079"
 ---
 # <a name="wmimonitorconnectionparams-class"></a>WmiMonitorConnectionParams, classe
 
@@ -94,14 +94,14 @@ Type de connexion de la technologie de sortie vidéo. Les valeurs valides sont d
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                         |
 | Espace de noms<br/>                | \\WMI racine<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |

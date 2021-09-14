@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102666
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f79996ae11b144b011c9a6a646aea6b00f68c36ab4a6a02733e3cd425a875971
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27f93bed8267b2d42f563b77a1a29a30c3f9e971
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012581"
 ---
 # <a name="esentrollbackrequiredexception-properties"></a>Propriétés EsentRollbackRequiredException
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentRollbackRequiredException, classe](./esentrollbackrequiredexception-class.md)
 

@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetLanguageID
 ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85eecd54f7642a0f82cef5fc8846c10b562f0474aa166beee7056e62782e780c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 036e1d41878adaae878a5961b45d190971d790af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118477855"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012370"
 ---
 # <a name="iagentcharacterexsetlanguageid"></a>IAgentCharacterEx::SetLanguageID
 
@@ -38,7 +38,7 @@ Entier long spécifiant l’ID de langue du caractère. l’id de langue (LANGID
 
 
 
-| Langage              | ID     |  Langage             | ID     |
+| Langage              | id     |  Langage             | id     |
 |-----------------------|--------|-----------------------|--------|
 | Arabe (Arabie)        | 0x0401 | Italien               | 0x0410 |
 | Basque                | 0x042d | Japonais              | 0x0411 |
@@ -49,7 +49,7 @@ Entier long spécifiant l’ID de langue du caractère. l’id de langue (LANGID
 | Danois                | 0x0406 | Portugais (Brésil)   | 0x0416 |
 | Néerlandais                 | 0x0413 | Roumain              | 0x0418 |
 | Anglais (Royaume-Uni)     | 0x0809 | Russe               | 0x0419 |
-| Anglais (États-Unis)          | 0x0409 | Slovaque             | 0x041B |
+| Anglais (US)          | 0x0409 | Slovaque             | 0x041B |
 | Finnois               | 0x040B | Slovène             | 0x0424 |
 | Français                | 0x040C | Espagnol               | 0x0C0A |
 | Allemand                | 0x0407 | Suédois               | 0x041D |

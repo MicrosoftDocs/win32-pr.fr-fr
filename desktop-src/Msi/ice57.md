@@ -4,12 +4,12 @@ ms.assetid: 3c82efa7-9cf3-4bcd-8ec4-b81d1d7aa0a6
 title: ICE57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d875264ed1fbc0f7dedac863c21801e5180ae879c9c255af7cf4b36e5d402970
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a59d609e5d7de0011666be0b5cc5e76417d8e67d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635160"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021527"
 ---
 # <a name="ice57"></a>ICE57
 
@@ -19,7 +19,7 @@ La combinaison de données par utilisateur et par ordinateur dans le même compo
 
 Consultez la propriété [**ALLUSERS**](allusers.md) .
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE57 publie une erreur s’il trouve un composant contenant à la fois des entrées de Registre par ordinateur et par utilisateur, des fichiers, des chemins d’accès de clé de répertoire ou des raccourcis non publiés.
 

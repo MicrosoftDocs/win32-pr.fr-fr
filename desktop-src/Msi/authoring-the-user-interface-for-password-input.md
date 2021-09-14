@@ -4,12 +4,12 @@ ms.assetid: aa4ff8b8-cbbb-4b18-83b3-279e52d9f6d3
 title: Création de l’interface utilisateur pour l’entrée de mot de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b558243e24e4977d8e28311ac7643c118a26cdf62c89366694a16227b30c1969
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b37cd7bb9531cbf63a443011656f200717dc0214
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092441"
 ---
 # <a name="authoring-the-user-interface-for-password-input"></a>Création de l’interface utilisateur pour l’entrée de mot de passe
 
@@ -21,7 +21,7 @@ Les [attributs de contrôle](control-attributes.md) du contrôle de modification
 
 
 
-| Boîte de dialogue\_ | contrôle\_            | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété         | Texte | Contrôle \_ suivant | Aide |
+| Dialogue\_ | contrôle\_            | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété         | Texte | Contrôle \_ suivant | Aide |
 |----------|----------------------|------|-----|-----|-------|--------|------------|------------------|------|---------------|------|
 | MyDialog | TestUserPasswordEdit | Modifier | 25  | 120 | 300   | 20     | 2097155    | TESTUSERPASSWORD |      | Annuler        |      |
 

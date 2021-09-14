@@ -4,12 +4,12 @@ ms.assetid: bfa918b8-8d90-4e14-8a06-6c3d5b5dc13b
 title: Générer une transformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba16c894ec32bf300f1572eb26311be70315872b9711ca46573ce65e18802308
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92617c2e007b9deb01685679d4940095285b8218
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142766"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021697"
 ---
 # <a name="generate-a-transform"></a>Générer une transformation
 

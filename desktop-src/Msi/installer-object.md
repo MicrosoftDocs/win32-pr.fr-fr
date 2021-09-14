@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Msi.dll
 ms.openlocfilehash: 4afddcce55a739ad322be10c736a6e9119f5c9eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543160"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012140"
 ---
 # <a name="installer-object"></a>Objet installer
 
@@ -94,7 +94,7 @@ L’objet **installer** possède ces propriétés.
 | [**ComponentsEx**](installer-componentsex.md)<br/>                   |                       | Retourne un objet [**RecordList**](recordlist-object.md) qui répertorie les composants installés.<br/> **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** Non pris en charge.<br/>                                    |
 | [**Environnement**](installer-environment.md)<br/>                     | Lecture/écriture<br/> | Valeur de chaîne pour une variable d’environnement du processus en cours.<br/>                                                                                                                                                                        |
 | [**FeatureParent**](installer-featureparent.md)<br/>                 |                       | Spécifie la fonctionnalité parente d’une fonctionnalité.<br/>                                                                                                                                                                                                  |
-| [**Fonctionnalités**](installer-features.md)<br/>                           |                       | Retourne un objet [**StringList**](stringlist-object.md) énumérant l’ensemble des fonctionnalités publiées pour le produit spécifié.<br/>                                                                                                               |
+| [**Éléments**](installer-features.md)<br/>                           |                       | Retourne un objet [**StringList**](stringlist-object.md) énumérant l’ensemble des fonctionnalités publiées pour le produit spécifié.<br/>                                                                                                               |
 | [**FeatureState**](installer-featurestate.md)<br/>                   |                       | Retourne l’état installé d’une fonctionnalité.<br/>                                                                                                                                                                                                   |
 | [**FeatureUsageCount**](installer-featureusagecount.md)<br/>         |                       | Retourne le nombre de fois que la fonctionnalité a été utilisée.<br/>                                                                                                                                                                                 |
 | [**FeatureUsageDate**](installer-featureusagedate.md)<br/>           |                       | Retourne la date de la dernière utilisation de la fonctionnalité spécifiée.<br/>                                                                                                                                                                                  |
@@ -115,13 +115,13 @@ L’objet **installer** possède ces propriétés.
 | [**ShortcutTarget**](installer-shortcuttarget.md)<br/>               |                       | Examine un raccourci et retourne son produit, son nom de fonctionnalité et son composant, le cas échéant.<br/>                                                                                                                                                       |
 | [**SummaryInformation**](installer-summaryinformation.md)<br/>       |                       | Retourne un objet [**SummaryInfo**](summaryinfo-object.md) qui peut être utilisé pour examiner, mettre à jour et ajouter des propriétés au flux d’informations de synthèse d’un package ou d’une transformation.<br/>                                                              |
 | [**UILevel**](installer-uilevel.md)<br/>                             | Lecture/écriture<br/> | Indique le type d’interface utilisateur à utiliser lors de l’ouverture et du traitement des packages suivants dans l’espace de processus actuel.<br/>                                                                                                           |
-| [**Version**](installer-version.md)<br/>                             |                       | Retourne la représentation sous forme de chaîne de la version actuelle de Windows Installer.<br/>                                                                                                                                                              |
+| [**Version**](installer-version.md)<br/>                             |                       | retourne la représentation sous forme de chaîne de la version actuelle de Windows Installer.<br/>                                                                                                                                                              |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -140,7 +140,7 @@ L’objet **installer** possède ces propriétés.
 [Utilisation de l’interface d’automatisation](using-the-automation-interface.md)
 </dt> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

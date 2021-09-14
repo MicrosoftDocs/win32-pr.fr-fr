@@ -1,20 +1,20 @@
 ---
-title: Composition et inscription de SPN pour le service Windows Sockets SCP
+title: composition et inscription de spn pour le Service de sockets Windows basé sur SCP
 description: L’exemple de code suivant montre comment composer et inscrire les noms principaux de service (SPN) pour un service. Appelez ce code à partir de votre programme d’installation de service après avoir appelé CreateService et créé le point de connexion de service (SCP) du service.
 ms.assetid: 3957af10-974a-415f-b8fb-d9b52ac5a82d
 ms.tgt_platform: multiple
 keywords:
-- noms principaux de service Active Directory, composition et inscription de SPN pour un service Windows Sockets SCP
+- noms principaux de service active directory, composition et inscription de spn pour un service de sockets Windows basé sur SCP
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d754d51c0ad34b1623bdc84fc8178b04d33515ed
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012368"
 ---
-# <a name="composing-and-registering-spns-for-scp-based-windows-sockets-service"></a>Composition et inscription de SPN pour le service Windows Sockets SCP
+# <a name="composing-and-registering-spns-for-scp-based-windows-sockets-service"></a>composition et inscription de spn pour le Service de sockets Windows basé sur SCP
 
 L’exemple de code suivant montre comment composer et inscrire les noms principaux de service (SPN) pour un service. Appelez ce code à partir de votre programme d’installation de service après avoir appelé [**CreateService**](/windows/desktop/api/winsvc/nf-winsvc-createservicea) et créé le point de connexion de service (SCP) du service.
 
@@ -57,6 +57,6 @@ DsFreeSpnArray(ulSpn, pspn);
 
 Vous pouvez utiliser du code similaire pour annuler l’inscription de vos SPN lors de la désinstallation de votre service. Spécifiez l’opération de suppression du SPN du service de nom principal de service DS au lieu du **\_ SPN DS \_ Ajouter le \_ SPN \_**. **\_ \_ \_ \_**
 
- 
+ 
 
- 
+ 

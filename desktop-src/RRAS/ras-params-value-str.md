@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07453b707012c966fc298cc61973cb056b42d741d861a22204c17eec5265317f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6f8cc6d693b32b1bbe6f05e8d32ca31a48cfb29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119909599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013882"
 ---
 # <a name="ras_params_value-union"></a>Union des valeurs des \_ paramètres RAS \_
 
@@ -76,7 +76,7 @@ Pointeur vers une mémoire tampon qui contient la valeur de chaîne d’un param
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

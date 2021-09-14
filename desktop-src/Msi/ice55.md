@@ -4,18 +4,18 @@ ms.assetid: e23e43ce-942f-4f6b-b5fd-cf366f7a7fe5
 title: ICE55
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044b9993c6c50dce32c04f98d8e000f0faae4280d244c4656d7b0cbed7b49749
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 239093e3502a1731c3248918750c18aa1b3e1f18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021533"
 ---
 # <a name="ice55"></a>ICE55
 
 ICE55 valide que tous les objets LockPermission existent et ont des valeurs d’autorisation valides.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE55 publie une erreur si un LockObject listé dans la [table LockPermissions](lockpermissions-table.md) n’existe pas ou si aucun niveau de privilège n’est spécifié dans la colonne autorisation.
 
@@ -34,7 +34,7 @@ Could not find item 'File3' in table 'File' which is referenced
 
 
 
-| LockObject | Table de charge de travail | Domaine | Utilisateur  | Autorisation |
+| LockObject | Table de charge de travail | Domain | Utilisateur  | Autorisation |
 |------------|-------|--------|-------|------------|
 | Fichier1      | Fichier  |        | guest |            |
 | Fichier3      | Fichier  |        | guest | 1          |

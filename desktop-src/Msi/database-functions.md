@@ -4,12 +4,12 @@ ms.assetid: 95516437-9708-4f4e-a5c2-7bcd4741c776
 title: Fonctions de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6214dadc413a2c4e2d5f257c396438c850446fb9106fb70970bdb971f4653d44
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e4a4233437d24944c8bb7fe5c7de6412e700022b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091713"
 ---
 # <a name="database-functions"></a>Fonctions de base de données
 

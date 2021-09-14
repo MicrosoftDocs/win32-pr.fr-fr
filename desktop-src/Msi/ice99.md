@@ -4,18 +4,18 @@ ms.assetid: a7657c14-6542-4a7b-a8f7-727b109cfc39
 title: ICE99
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25744243ad5de8adc6a88ebc09890eb006d94e929a56e469ce802ad67f9a230b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7d70aeaf6480e45db5b47f76434f93e49adf317
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021443"
 ---
 # <a name="ice99"></a>ICE99
 
 ICE99 vérifie qu’aucun nom de propriété entré dans la table de [répertoire](directory-table.md) ne duplique un nom réservé pour l’utilisation publique ou privée de l’Windows Installer.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE99 publie l’erreur suivante.
 
@@ -29,7 +29,7 @@ ICE99 publie l’erreur suivante.
 
  
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ICE99 signale l’erreur suivante pour l’exemple :
 

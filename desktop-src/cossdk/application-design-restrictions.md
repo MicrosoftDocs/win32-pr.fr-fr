@@ -4,12 +4,12 @@ ms.assetid: 951d20c8-7908-40d8-a9d5-d321340c97f3
 title: Restrictions relatives à la conception d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b98e7b7d8dddf1cd74224573d355e1f42d75c8ae6122d20977bbc1b38ffb99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1c4307a979866e3df9f019e69b858e8347c295b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117917543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013022"
 ---
 # <a name="application-design-restrictions"></a>Restrictions relatives à la conception d’applications
 

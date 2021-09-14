@@ -4,12 +4,12 @@ ms.assetid: f7f1cf89-f211-4511-8260-b48c898c1cf6
 title: Gérer les informations récapitulatives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf5ad72ee4f308831077ec2f732b92a70f407c560b204d10f2d3db63d1bb9bb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 02ff360bd56dabc57b3a7ffccdba8c4f90346193
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021355"
 ---
 # <a name="manage-summary-information"></a>Gérer les informations récapitulatives
 
@@ -31,7 +31,7 @@ spécifiez le chemin d’accès à la base de données Windows Installer. Si auc
 | PID | Nom        | Description                                                                                                                                                                                                                                                                                      |
 |-----|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | codepage    | Page de codes ANSI des chaînes de texte dans les informations récapitulatives. Pour plus d’informations, consultez propriété Résumé de la [**page de codes**](codepage-summary.md) .                                                                                                                                                           |
-| 2   | Titre       | Type de Windows Installer package. Pour plus d’informations, consultez la [**propriété Summary de titre**](title-summary.md).                                                                                                                                                                                    |
+| 2   | Intitulé       | Type de Windows Installer package. Pour plus d’informations, consultez la [**propriété Summary de titre**](title-summary.md).                                                                                                                                                                                    |
 | 3   | Objet     | Nom complet du produit. Pour plus d’informations, consultez la [**propriété Résumé**](subject-summary.md)de l’objet.                                                                                                                                                                                               |
 | 4   | Auteur      | Creator, généralement le nom du fournisseur. Pour plus d’informations, consultez [**propriété Summary**](author-summary.md)de l’auteur.                                                                                                                                                                                     |
 | 5   | Mots clés    | Liste des mots clés à utiliser par l’Explorateur de fichiers. Pour plus d’informations, consultez la [**propriété Résumé des mots clés**](keywords-summary.md).                                                                                                                                                                       |

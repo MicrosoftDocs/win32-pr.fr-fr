@@ -12,12 +12,12 @@ api_name:
 - RAY_FLAG
 api_type:
 - NA
-ms.openlocfilehash: fdc177040cac7324545172319c318d07cded6dba42cfeed4756a7afaa88439aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75d67293e489eee0f1d100002965c017de7c682c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123711"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012915"
 ---
 # <a name="ray-generation-shader"></a>Nuanceur de création de rayon
 

@@ -4,12 +4,12 @@ description: Microsoft RPC prend en charge l’utilisation de canaux DCE. Bien q
 ms.assetid: 9de4f6dc-0aa9-446e-b68c-e0d1e247fea7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01168d9018c6848327965ba039754106fdb7c9a444c99ef0b7e8da0ee45b3ee7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43e9c98f4d4191a064d78cff2c918077f27d676f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119010857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011369"
 ---
 # <a name="using-asynchronous-rpc-with-dce-pipes"></a>Utilisation de RPC asynchrone avec les canaux DCE
 

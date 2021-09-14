@@ -4,12 +4,12 @@ ms.assetid: 74a28696-6387-4d62-8955-4708ba5872bb
 title: ControlEvent, EndDialog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f6e61ab12f072e31d6e4efc5f3d2b27ef8629c933baad65fb101b1078ca1f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f08449bffe29093e32066e92e1b8fc739efa02d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118378251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091393"
 ---
 # <a name="enddialog-controlevent"></a>ControlEvent, EndDialog
 
@@ -26,7 +26,7 @@ Le tableau suivant répertorie l’action de l’événement résultant de diff�
 | Argument | Action par le programme d’installation                                                                                                                                                             |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quitter     | La séquence de l’Assistant est fermée et le contrôle retourne au programme d’installation avec la valeur UserExit. Cet argument ne peut pas être utilisé dans une boîte de dialogue qui est l’enfant d’une autre boîte de dialogue. |
-| Recommencer    | La séquence de l’Assistant est fermée et le contrôle retourne au programme d’installation avec la valeur de suspension. Cet argument ne peut pas être utilisé dans une boîte de dialogue qui est l’enfant d’une autre boîte de dialogue.  |
+| Réessayer    | La séquence de l’Assistant est fermée et le contrôle retourne au programme d’installation avec la valeur de suspension. Cet argument ne peut pas être utilisé dans une boîte de dialogue qui est l’enfant d’une autre boîte de dialogue.  |
 | Ignorer   | La séquence de l’Assistant est fermée et le contrôle retourne au programme d’installation avec la valeur terminée. Cet argument ne peut pas être utilisé dans une boîte de dialogue qui est l’enfant d’une autre boîte de dialogue. |
 | Renvoie   | Le contrôle retourne au parent de la boîte de dialogue présente, ou s’il n’existe aucun parent, le contrôle retourne au programme d’installation avec la valeur Success.                                 |
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c4c234c0e8fdf60706696c40d2e95a3c00bcf2b9d55f57e06396bd691f07b34b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e32168db9530bbef45add078260004b51cb1c98e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118078640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012548"
 ---
 # <a name="esentspavailextcacheoutofmemoryexception-class"></a>EsentSPAvailExtCacheOutOfMemoryException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSPAvailExtCacheOutOfMemoryException](./esentspavailextcacheoutofmemoryexception-members.md)
 

@@ -4,12 +4,12 @@ ms.assetid: 0bbec06a-0a2b-430a-a361-317a319da615
 title: AlwaysInstallElevated a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc015dad8096db16d8b70238a5fd7e07544b83f9a9e3d1a5045be9d12bbb30cd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c07e705e3e46a28049b6fb85eda96930d645a867
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092714"
 ---
 # <a name="alwaysinstallelevated"></a>AlwaysInstallElevated a
 
@@ -31,7 +31,7 @@ Si la valeur AlwaysInstallElevated a n’est pas définie sur « 1 » sous les
 
 Notez qu’une fois que la stratégie par ordinateur pour AlwaysInstallElevated a est activée, tout utilisateur peut définir son paramètre par utilisateur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur l’interaction de cette stratégie avec les sources d’installation, consultez [gestion des sources d’installation](managing-installation-sources.md).
 

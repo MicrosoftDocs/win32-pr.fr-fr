@@ -4,12 +4,12 @@ ms.assetid: b1d499d9-4fd3-4996-84a1-c32acefbb98f
 title: Élimination des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f025c6487293d07df7963514b79f551045398f8d86f51dd7ab98b589a605e762
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a705ce5919ffd36e6fc860403e11db56c6df1592
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091422"
 ---
 # <a name="eliminating-patches"></a>Élimination des correctifs
 

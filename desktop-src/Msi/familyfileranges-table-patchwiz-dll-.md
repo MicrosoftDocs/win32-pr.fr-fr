@@ -4,12 +4,12 @@ ms.assetid: 2e77605a-d909-4a17-977c-18281a96c36c
 title: Table FamilyFileRanges (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b0559f4cea1061f9cf0c1438140e7abba8b00908233a1a1d608ae5dbd8b79ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2940d45d82efae3e61842ee0f6b4e46e3f77ef3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636896"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091254"
 ---
 # <a name="familyfileranges-table-patchwizdll"></a>Table FamilyFileRanges (Patchwiz.dll)
 
@@ -66,7 +66,7 @@ Les valeurs peuvent être décimales ou hexadécimales. [Patchwiz.dll](patchwiz-
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les décalages et les longueurs entrés dans RetainOffsets et RetainLengths ne doivent pas spécifier des plages qui se chevauchent.
 

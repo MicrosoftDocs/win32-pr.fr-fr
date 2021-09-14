@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: bb08be6ad4e916a6dc7b1521dee7aac2dcac55c2bd0ac541278c9e00e34b6ed0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b62e67154ab48f8378c96a78c8bd54765962c3fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119577689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011235"
 ---
 # <a name="iscardcmdget_apdureplylength-method"></a>ISCardCmd :: \_ ApduReplyLength, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers la taille du message APDU de réponse.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer une valeur APDU de réponse existante, appelez la [**\_ ApduReply**](iscardcmd-get-apdureply.md).
 
@@ -95,7 +95,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

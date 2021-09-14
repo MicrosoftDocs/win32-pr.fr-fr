@@ -4,24 +4,24 @@ ms.assetid: 91dd58cf-6c8c-4d20-a829-c43301a30d7f
 title: Propriété AdminProperties
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f59d2452e244bd22110ab918dff61279bf9d27f3c8735f37474aea894d0d02
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 739a0e29526ac7c6d9c094bc492cde1d04cdd0f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092773"
 ---
 # <a name="adminproperties-property"></a>Propriété AdminProperties
 
 Le **AdminProperties** doit être créé dans la [table de propriétés](property-table.md). La valeur de **AdminProperties** est une liste de noms de propriétés séparés par des points-virgules. Le programme d’installation enregistre les valeurs de ces propriétés listées au moment de l' [installation administrative](administrative-installation.md). Lorsque les utilisateurs installent à partir de l’image administrative, l’installation utilise les valeurs enregistrées des propriétés, plutôt que les valeurs du fichier .msi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les noms de propriétés dans la liste peuvent être des lettres majuscules et minuscules (propriétés privées) ou tout en majuscules (propriétés publiques).
 
 Cette propriété ne doit jamais se terminer par un point-virgule.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

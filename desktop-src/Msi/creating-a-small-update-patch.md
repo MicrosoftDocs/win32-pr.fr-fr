@@ -4,12 +4,12 @@ ms.assetid: 0e57c2aa-e86a-4161-9749-c7963182a6d5
 title: Création d’un correctif de mise à jour de petite taille
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2c3dffac099358b924914b5dbd86871ba370241c42a2e3fd5caef2d8f12ff4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d948c871baed7fbc15545ed9669c9864ce954799
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379394"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091889"
 ---
 # <a name="creating-a-small-update-patch"></a>Création d’un correctif de mise à jour de petite taille
 

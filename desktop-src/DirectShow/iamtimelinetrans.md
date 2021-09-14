@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineTrans fournit des méthodes de manipulation des transitions dans les services de modification DirectShow (DES).
+description: l’interface IAMTimelineTrans fournit des méthodes de manipulation des transitions dans les Services d’édition DirectShow.
 ms.assetid: e29ff0cc-0e48-4a72-8a1b-051ed62c8130
 title: Interface IAMTimelineTrans (qedit. h)
 ms.topic: reference
@@ -15,20 +15,20 @@ api_location:
 - strmiids.lib
 - strmiids.dll
 ms.openlocfilehash: cd3c39d0a5434befdd5607b340fef936644bf48e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012194"
 ---
 # <a name="iamtimelinetrans-interface"></a>Interface IAMTimelineTrans
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineTrans` interface fournit des méthodes pour la manipulation des transitions dans les [services de modification DirectShow](directshow-editing-services.md) (des). Une transition est une progression entre une couche vidéo et le rendu composite de toutes les couches vidéo avec une priorité plus faible. Une transition peut être ajoutée à n’importe quel objet Timeline qui expose l’interface [**IAMTimelineTransable**](iamtimelinetransable.md) . Pour définir les propriétés d’une transition, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
+l' `IAMTimelineTrans` interface fournit des méthodes pour la manipulation des transitions dans les [Services d’édition DirectShow](directshow-editing-services.md) . Une transition est une progression entre une couche vidéo et le rendu composite de toutes les couches vidéo avec une priorité plus faible. Une transition peut être ajoutée à n’importe quel objet Timeline qui expose l’interface [**IAMTimelineTransable**](iamtimelinetransable.md) . Pour définir les propriétés d’une transition, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
 
 L’objet de transition DES est en fait un wrapper pour un objet de transformation DirectX. Tout objet de transformation DirectX à 2 entrées peut être utilisé pour implémenter l’effet visuel de la transition. Microsoft ne prend plus en charge le développement d’objets de transformation DirectX tiers. Pour spécifier l’objet de transformation DirectX pour une transition, appelez la méthode [**IAMTimelineObj :: SetSubObjectGUID**](iamtimelineobj-setsubobjectguid.md) .
 
@@ -69,11 +69,11 @@ L’interface **IAMTimelineTrans** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

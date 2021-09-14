@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6d0b0a4b416c5adb97b1a9efba1fbd5f6142b0e0fb761c6d4c0b277ac0cda7e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef9f45c8176645c5937b5ad74045130ff8cd8c06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954578"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012295"
 ---
 # <a name="ccmdqueueremove-method"></a>CCmdQueue. Remove, méthode
 
@@ -49,11 +49,11 @@ Pointeur vers l’objet **CDeferredCommand** à supprimer de la file d’attente
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne VFW \_ E \_ \_ introuvable si l’objet est introuvable dans la file d’attente. Sinon, retourne S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

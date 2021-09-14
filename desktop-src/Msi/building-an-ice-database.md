@@ -4,12 +4,12 @@ ms.assetid: 69151d5a-be6e-4947-862d-cea65306c536
 title: Génération d’une base de données ICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e078517f8942454320e3f743d7379bbfeb22a7c44afe635a8276568a56c27f1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f51043aa9b3c1591fa3262492c117aba35f23d92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092337"
 ---
 # <a name="building-an-ice-database"></a>Génération d’une base de données ICE
 

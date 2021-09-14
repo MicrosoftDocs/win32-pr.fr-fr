@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 4fad74e1647413b66ebc6910e739750699f4e641c961eff59ecaacbf1e7a41f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0a1d93ba6a9a4dc0304daba11c5868b77ece43b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091702"
 ---
 # <a name="databasemerge-method"></a>Database. Merge, méthode
 
@@ -54,11 +54,11 @@ Nom facultatif d’une table qui contient les noms des tables contenant les conf
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) et la méthode **Merge** de l’objet [**Database**](database-object.md) ne peuvent pas être utilisées pour fusionner un module inclus dans un package d’installation. ils ne doivent pas être utilisés pour fusionner des [Modules de fusion](merge-modules.md) dans un package de Windows Installer. Pour inclure un module de fusion dans un package d’installation, les auteurs des packages d’installation doivent suivre les instructions décrites dans la rubrique [application de modules de fusion](applying-merge-modules.md) .
 
@@ -72,7 +72,7 @@ Pour que la table d’erreurs reste, le gestionnaire d’erreurs doit valider la
 
 Si la méthode échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

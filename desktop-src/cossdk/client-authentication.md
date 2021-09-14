@@ -4,12 +4,12 @@ ms.assetid: c1b11f58-5bab-45d9-a686-86c95415990e
 title: Client Authentication (Authentification du client)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 472f16e32cb99f9f2c89c21012f1faa7f96af17878c34d16400f7d505c324398
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd24edf341fc2033807587b01fd37420d781d5f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013009"
 ---
 # <a name="client-authentication"></a>Client Authentication (Authentification du client)
 

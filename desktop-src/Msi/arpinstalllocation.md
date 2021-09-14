@@ -4,22 +4,22 @@ ms.assetid: f4635241-ac18-4bc5-b043-c6e42c0b456e
 title: Propriété ARPINSTALLLOCATION
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 011f77e79f3e2acd8abd7862e249c3a2daeab6c7b2b1b04d109352a1f8d4b08e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69e4e94cf4eb07b00a5534bf9b8b366ef361c6e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118639431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092598"
 ---
 # <a name="arpinstalllocation-property"></a>Propriété ARPINSTALLLOCATION
 
 La propriété **ARPINSTALLLOCATION** est le chemin d’accès complet au dossier principal de l’application.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Doit généralement être défini par une action personnalisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

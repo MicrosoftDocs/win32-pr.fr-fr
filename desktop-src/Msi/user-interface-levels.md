@@ -5,11 +5,11 @@ title: Niveaux d’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7bbe932ea10b62d20ca06a027b935ff04289cdef
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021233"
 ---
 # <a name="user-interface-levels"></a>Niveaux d’interface utilisateur
 
@@ -23,7 +23,7 @@ Windows Le programme d’installation fournit aux développeurs de packages la p
 | Interface utilisateur complète | Affiche les boîtes de dialogue modales et non modales qui ont été créées dans l’interface utilisateur interne. Affiche les boîtes de <a href="error-dialog.md">dialogue d’erreur</a> créées.<blockquote>[!Note]<br />Les boîtes de dialogue modales nécessitent une entrée d’utilisateur pour que l’installation puisse continuer et sont spécifiées en définissant le <a href="modal-dialog-style-bit.md">bit de style de boîte de dialogue modale</a> dans la colonne attributs de la table de <a href="dialog-table.md">boîtes de dialogue</a> . Une boîte de dialogue non modale ne nécessite pas d’entrée d’utilisateur pour que l’installation se poursuive.</blockquote><br /> Une interface utilisateur complète présente généralement le comportement de l' <a href="user-interface-wizard-behavior.md">Assistant interface utilisateur</a>.<br /> | 
 | Interface utilisateur réduite | Affiche toutes les boîtes de dialogue non modales qui ont été créées dans l’interface utilisateur. N’affiche pas de boîtes de dialogue modales créées. Affiche les boîtes de <a href="error-dialog.md">dialogue d’erreur</a> créées. Affiche des messages d' <a href="authoring-disk-prompt-messages.md">invite de disque</a> . Affiche les boîtes de <a href="filesinuse-dialog.md">dialogue FilesInUse</a> . | 
 | Interface utilisateur de base | Affiche les boîtes de dialogue non modales intégrées qui affichent les messages de progression. Affiche des boîtes de dialogue d’erreur intégrées. N’affiche pas de boîtes de dialogue créées. Invite les utilisateurs à insérer un disque en affichant une boîte de dialogue contenant la valeur de la propriété <a href="diskprompt.md"><strong>DiskPrompt</strong></a> . | 
-| Aucun | None signifie une installation sans assistance qui n’affiche aucune interface utilisateur. | 
+| None | None signifie une installation sans assistance qui n’affiche aucune interface utilisateur. | 
 
 
 

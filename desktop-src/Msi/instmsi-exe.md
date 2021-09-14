@@ -4,12 +4,12 @@ ms.assetid: 74ea4530-3a73-4169-b0b7-f0272229192d
 title: Instmsi.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d2177fbb145dbfe2817dba2207cff95e5d80b801cc2f442085ba396f461870f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 229d748cda68731627a6af2af992e321755b5ca2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012021"
 ---
 # <a name="instmsiexe"></a>Instmsi.exe
 
@@ -56,7 +56,7 @@ Les options de ligne de commande ne respectent pas la casse.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les applications d' [amorçage](bootstrapping.md) qui utilisent Instmsi.exe pour installer le Windows Installer avec une autre application peuvent nécessiter un redémarrage du système supplémentaire. Il peut s’agit d’un redémarrage supplémentaire en plus des redémarrages nécessaires pour installer l’application.
 

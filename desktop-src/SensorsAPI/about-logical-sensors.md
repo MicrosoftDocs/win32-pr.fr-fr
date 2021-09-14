@@ -4,12 +4,12 @@ ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: À propos des capteurs logiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 655bb7a6e67223bb959b155e55f6cc059ffd8280bc8c08fb00d4d88cb2c8b0a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be6f8687575aaedbb006eb2ad6ebaad9cf8d3ab6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003890"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013567"
 ---
 # <a name="about-logical-sensors"></a>À propos des capteurs logiques
 
@@ -30,9 +30,9 @@ Pour essayer d’utiliser un exemple de capteur logique, consultez [à propos de
 
 [**ILogicalSensorManager**](/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)) présente les méthodes suivantes :
 
--   [**Connecter**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
+-   [**Connexion**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
 -   [**Déconnecter**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))
--   [**Supprimer**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))
+-   [**Désinstaller l’interface**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))
 
 lorsque vous appelez [**Connecter**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)), l’API de capteur crée une instance du pilote de capteur, si elle n’existe pas déjà, puis connecte le capteur logique à la plateforme. Cela signifie que le capteur logique apparaît avec d’autres capteurs dans le panneau de configuration **emplacement et autres capteurs** . Lorsque vous appelez [**Disconnect**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)), l’API Sensor déconnecte le capteur logique et le supprime du panneau de configuration. L’appel de **Disconnect** ne supprime pas le capteur logique de **Gestionnaire de périphériques**. par conséquent, les appels futurs à **Connecter** entraînent une connexion beaucoup plus rapide au capteur logique.
 

@@ -4,18 +4,18 @@ ms.assetid: 5a3232b0-8194-4df5-9e6b-a1c7df5a216c
 title: Propriété ARPREADME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9dc0a31c698ba32b9681d61a3ca7139a503a149fc4e5423f26ce94f8e0debd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 702c6d51e1c83b71cd3c3a9b6755ce78f7624dfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092570"
 ---
 # <a name="arpreadme-property"></a>Propriété ARPREADME
 
 La propriété **ARPREADME** fournit le fichier Lisez-moi ajout/suppression de programmes du panneau de configuration pour l’application écrite sous la [clé de Registre Uninstall](uninstall-registry-key.md). Cette propriété peut être définie par la ligne de commande ou une transformation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

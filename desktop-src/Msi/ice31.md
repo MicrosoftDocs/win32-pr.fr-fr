@@ -4,12 +4,12 @@ ms.assetid: 07e60774-0e26-4a50-b818-a8f074512e3e
 title: ICE31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 783c8b842f80707bbd1ca833fbc7ad1f154a47a0d3aa24377ee58a1c6549bf7b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4797d577ceaa2a2b7838f1f03a8577d9a633fb65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021580"
 ---
 # <a name="ice31"></a>ICE31
 
@@ -27,7 +27,7 @@ ICE31 publie un message d’erreur pour les styles non définis, les noms de sty
 
 ICE31 publie un avertissement si la balise de style n’est pas au début de la ligne, ou si un contrôle a plusieurs balises de style.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE31 publie les erreurs suivantes pour l’exemple illustré :
 
@@ -44,7 +44,7 @@ ICE31 publie l’avertissement suivant pour l’exemple illustré :
 
 
 
-| Boîte de dialogue  | Contrôler  | Texte                                                                                                                                                                |
+| Boîte de dialogue  | Control  | Texte                                                                                                                                                                |
 |---------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Boîte de dialogue | Control0 | { \\ OKStyle} il s’agit du texte à afficher.                                                                                                                             |
 | Boîte de dialogue | Control1 | {&OKStyle} Il s’agit du texte à afficher.                                                                                                                              |

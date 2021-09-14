@@ -4,12 +4,12 @@ ms.assetid: 78cec3fc-c653-487a-b41c-a43c42e3a157
 title: Propriété ADDDEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e854df38b58a19f41f98cf1f96657dafdda0c4134c7085c50b4c9c4528b3164e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43960b6d70d704337f373031ab4972bcb95dada7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118639703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092877"
 ---
 # <a name="adddefault-property"></a>Propriété ADDDEFAULT
 
@@ -17,7 +17,7 @@ La valeur de la propriété **AddDefault** est une liste de fonctionnalités dé
 
 Une fonctionnalité indiquée dans la propriété **AddDefault** est installée dans le même état d’installation que si l’utilisateur a demandé une installation à la demande de la fonctionnalité. L’État est déterminé par les bits définis pour la fonctionnalité dans la colonne attributs de la table de [fonctionnalités](feature-table.md), et les bits définis pour les composants de la fonctionnalité dans la colonne attributs de la [table des composants](component-table.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les noms des fonctionnalités respectent la casse.
 
@@ -43,7 +43,7 @@ Par exemple :
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue, ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

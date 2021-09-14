@@ -4,12 +4,12 @@ ms.assetid: f302eb02-2ef5-42ee-a18f-59f7e60b38df
 title: Automatisation de l’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72cb7370c3b1a90324b612108e9ec1ef17c7030d3372d303da74ced95298ab02
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a0ef3f56da64e442594a7685a77efb9a06e3fe08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013019"
 ---
 # <a name="automating-com-administration"></a>Automatisation de l’administration COM+
 

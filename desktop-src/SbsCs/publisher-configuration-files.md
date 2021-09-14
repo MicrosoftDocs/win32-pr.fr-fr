@@ -4,12 +4,12 @@ ms.assetid: b10752af-80a7-4027-b525-90333d0d010a
 title: Publisher Fichiers de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c85c3067d4b36dcaee36853adfcd04a4808a1c017098c636ebffc593394428
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4cc5d7d7b7ffdad3d1179a7f8c66a347d91e0a03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011337"
 ---
 # <a name="publisher-configuration-files"></a>Publisher Fichiers de configuration
 
@@ -119,7 +119,7 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | Spécifie le type d’assembly. Obligatoire. Dans le champ **assemblyIdentity** de l’assembly affecté, la valeur de l’attribut **type** doit être définie sur Win32-Policy. La valeur Win32-Policy doit être en minuscules.<br/> Dans le champ **assemblyIdentity** de la dépendance de l’assembly en cours de modification, la valeur de l’attribut **type** doit être définie sur Win32. La valeur Win32 doit être en lettres minuscules.<br/>                                                                                                                                                                                                             |
 | **name**                  | Nomme un assembly de manière unique. Obligatoire. Dans l’objet **assemblyIdentity** de l’assembly affecté, le nom a la *stratégie* de formulaire. *majeure*. *mineure*. *AssemblyName* , où *major* et *Minor* font référence aux parties majeures et secondaires de la version de l' [assembly](assembly-versions.md).<br/> Dans l' **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, le nom se présente sous la forme Organization.Division.Name. Par exemple, Microsoft. Windows. MysampleApp.<br/>                                                                                                                                                                                 |
-| **language**              | Identifie le langage de l’assembly. Facultatif. Dans l’objet **assemblyIdentity** de l’assembly affecté, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation dans le monde entier (langue neutre), omettez cet attribut.<br/> Dans le **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, si l’assembly est spécifique à la langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                                                                                            |
+| **language**              | Identifie le langage de l’assembly. Optionnel. Dans l’objet **assemblyIdentity** de l’assembly affecté, si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation dans le monde entier (langue neutre), omettez cet attribut.<br/> Dans le **assemblyIdentity** pour la dépendance de l’assembly en cours de modification, si l’assembly est spécifique à la langue, spécifiez le code de langue DHTML. Si l’assembly est destiné à une utilisation mondiale (langue neutre), définissez la valeur sur « \* ».<br/>                                                                                                                            |
 | **processorArchitecture** | Spécifie le processeur qui exécute l’application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **version**               | Spécifie la version de l’assembly. Utilisez la syntaxe de version en quatre parties : MMMM. nnnn. oooo. pppp Obligatoire uniquement dans le **assemblyIdentity** du contexte def. Ne spécifiez pas l’attribut de version dans le **assemblyIdentity** du contexte de référence.                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Un publicKeyToken est requis pour tous les assemblys côte à côte partagés. Le publicKeyToken utilisé pour le fichier de configuration du serveur de publication doit être la même clé que celle utilisée pour l’assembly signé. Publisher fichiers de configuration peuvent être signés à l’aide des mêmes outils que ceux utilisés avec les assemblys, consultez [exemple de signature d’assembly](assembly-signing-example.md) et [création de fichiers et catalogues signés](creating-signed-files-and-catalogs.md). |
@@ -164,7 +164,7 @@ Cet élément a les attributs répertoriés dans le tableau suivant.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Publisher fichiers de configuration ne spécifient pas de fichiers. Notez que les fichiers de stratégie spécifiques à une langue sont distincts du fichier de configuration du serveur de publication.
 

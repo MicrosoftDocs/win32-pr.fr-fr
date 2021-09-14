@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 075fba028dd045c831adb84a7133fd524398fc74037b7e3c31116b76a4c95a1c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c0de387c0101e7b79e64486089abcbd49f5d60d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091373"
 ---
 # <a name="errordatabasekeys-property"></a>Error. DatabaseKeys, propriété
 
@@ -38,7 +38,7 @@ propVal = Error.DatabaseKeys
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le client est responsable de la libération de la collection de chaînes lorsqu’il n’est plus nécessaire.
 
@@ -48,7 +48,7 @@ La collection est vide si les valeurs ne s’appliquent pas au type de l’erreu
 
 Consultez la fonction [**obtenir \_ DatabaseKeys**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_databasekeys) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

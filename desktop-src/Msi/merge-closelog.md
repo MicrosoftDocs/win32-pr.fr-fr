@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 39cccfac44878fd22d81b59e91c07998a1eaea1c91289ec803a8110b493dc593
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93756a2a5431e8c2ec8b2d7ac57840065e1bed90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119926739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011907"
 ---
 # <a name="mergecloselog-method"></a>Merge. CloseLog, méthode
 
@@ -38,7 +38,7 @@ Merge.CloseLog()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -46,7 +46,7 @@ Cette méthode ne retourne pas de valeur.
 
 Consultez fonction [**CloseLog**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closelog) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

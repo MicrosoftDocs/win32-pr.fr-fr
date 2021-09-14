@@ -5,12 +5,12 @@ ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 480819cbd421b30cbf54a58578c02056d37d7e36bf2ead845c19e438df54cbb7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a928f50aea0f5e9046fa6752b9b68435f3214d2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012898"
 ---
 # <a name="creating-and-recording-command-lists-and-bundles"></a>Création et enregistrement des listes de commandes et des offres groupées
 
@@ -52,7 +52,7 @@ Si ce paramètre a la valeur NULL, un État par défaut est utilisé.
 
 ## <a name="recording-command-lists"></a>Enregistrement des listes de commandes
 
-Immédiatement après sa création, les listes de commandes sont dans l’état d’enregistrement. Vous pouvez également réutiliser une liste de commandes existante en appelant I [**D3D12GraphicsCommandList :: Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), qui laisse également la liste de commandes dans l’État Recording. Contrairement à [**ID3D12CommandAllocator :: Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset), vous pouvez appeler **Reset** lorsque la liste de commandes est toujours en cours d’exécution. Un modèle classique consiste à soumettre une liste de commandes, puis à la réinitialiser immédiatement pour réutiliser la mémoire allouée pour une autre liste de commandes. Notez qu’une seule liste de commandes associée à chaque allocateur de commande peut être dans un état d’enregistrement à un moment donné.
+Immédiatement après sa création, les listes de commandes sont dans l’état d’enregistrement. Vous pouvez également réutiliser une liste de commandes existante en appelant [**ID3D12GraphicsCommandList :: Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset), qui laisse également la liste de commandes dans l’État Recording. Contrairement à [**ID3D12CommandAllocator :: Reset**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandallocator-reset), vous pouvez appeler **Reset** lorsque la liste de commandes est toujours en cours d’exécution. Un modèle classique consiste à soumettre une liste de commandes, puis à la réinitialiser immédiatement pour réutiliser la mémoire allouée pour une autre liste de commandes. Notez qu’une seule liste de commandes associée à chaque allocateur de commande peut être dans un état d’enregistrement à un moment donné.
 
 Une fois qu’une liste de commandes est dans l’État enregistrement, il vous suffit d’appeler les méthodes de l’interface [**ID3D12GraphicsCommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) pour ajouter des commandes à la liste. La plupart de ces méthodes activent les fonctionnalités Direct3D courantes qui seront familières aux développeurs Microsoft Direct3D 11. les autres API sont nouvelles pour Direct3D 12.
 

@@ -4,12 +4,12 @@ ms.assetid: 52b1c537-efb6-4bb8-9e7f-b4848be52a71
 title: Table _Validation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a42fbe2a2f8da4abceb04912eee2a12edd708ff88d979fbf45f7de8051dc80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 666f00ccccda11706dce6a8d7e04e0efea91b7cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118640444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093005"
 ---
 # <a name="_validation-table"></a>\_Tableau de validation
 
@@ -21,7 +21,7 @@ La \_ table de validation contient les colonnes suivantes.
 
 | Colonne      | Type                               | Clé | Nullable |
 |-------------|------------------------------------|-----|----------|
-| Table       | [Identificateur](identifier.md)       | O   | N        |
+| Table de charge de travail       | [Identificateur](identifier.md)       | O   | N        |
 | Colonne      | [Identificateur](identifier.md)       | O   | N        |
 | Nullable    | [Text](text.md)                   | N   | N        |
 | MinValue    | [DoubleInteger](doubleinteger.md) | N   | O        |
@@ -132,7 +132,7 @@ Description des données stockées dans la colonne.
 [ICE32](ice32.md)  
 </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le champ de catégorie de ce tableau s’applique uniquement aux données de chaîne. Si le champ de colonne fait référence à une colonne avec des données binaires, le type de données binaire doit être spécifié dans le champ catégorie. Les types de colonne de données Integer ignorent le champ Category pendant la validation.
 

@@ -4,12 +4,12 @@ ms.assetid: f1bb2dc0-4236-4bd7-89a2-f4416b5b9dda
 title: Téléchargement d’une installation à partir d’Internet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5195b0ec0e5c36e7b6866232c498c02a9f4022d207cd86cc229a49ec5a5e8bac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b971129aa2df30bf567be67f0f244b60868ec11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118637766"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091462"
 ---
 # <a name="downloading-an-installation-from-the-internet"></a>Téléchargement d’une installation à partir d’Internet
 

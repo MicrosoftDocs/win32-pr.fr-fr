@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 59d1a4d8491175acb0f833cbafb430faae9b36b38a179970b7a99d6b0077591d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: faea1699657efd92049068e48ff361c48242e9c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907160"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013642"
 ---
 # <a name="sslcomputeclientauthhash-function"></a>SslComputeClientAuthHash fonction)
 
@@ -102,7 +102,7 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -120,13 +120,13 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslComputeClientAuthHash** calcule le hachage qui est envoyé dans le message de vérification du certificat de la négociation SSL. La valeur de hachage est calculée en créant un hachage qui contient le secret principal avec un hachage de tous les messages de négociation précédents envoyés ou reçus. Pour plus d’informations sur la séquence de négociation SSL, consultez [Description du protocole de transfert de SSL (Secure Sockets Layer) (SSL)](https://support.microsoft.com/kb/257591).
 
 La manière dont le hachage est calculé dépend du protocole et de la suite de chiffrement utilisés. En outre, le hachage dépend du type de clé d’authentification du client utilisé ; le paramètre *pszAlgId* indique le type de clé utilisé pour l’authentification du client.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

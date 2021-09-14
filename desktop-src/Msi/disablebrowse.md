@@ -4,12 +4,12 @@ ms.assetid: 51806a4c-4ae5-42e9-9d58-8032108164cb
 title: DisableBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e565cca833d8d771b5bc28dea4483049868995a06acc9a42116611a1df6ce098
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 014d71993f05d52783aafbd1cfc73a986ade62e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119745569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091534"
 ---
 # <a name="disablebrowse"></a>DisableBrowse
 
@@ -25,7 +25,7 @@ DisableBrowse remplace AllowLockdownBrowse et empêche la navigation même si Al
 
 **\_valeur DWORD reg**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans certains cas, avec DisableBrowse défini, un utilisateur non administratif peut toujours être en charge d’installer des applications gérées à partir de sources sur un support correctement étiqueté. La définition de la stratégie DisableBrowse désactive uniquement la possibilité d’accéder aux sources. Il peut être utilisé pour empêcher un utilisateur non administratif d’accéder à une nouvelle source lors d’une installation, d’une réinstallation ou d’une réparation à la demande. Si [AllowLockdownMedia](allowlockdownmedia.md) est défini, l’utilisateur non administratif peut toujours installer une application gérée à partir d’un média correctement étiqueté.
 

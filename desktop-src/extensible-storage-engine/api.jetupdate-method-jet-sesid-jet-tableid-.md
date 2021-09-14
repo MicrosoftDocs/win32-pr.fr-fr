@@ -21,11 +21,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: f1875353e8a5b4a23302a5f008af2cfa42a89b11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012633"
 ---
 # <a name="apijetupdate-method-jet_sesid-jet_tableid"></a>Méthode API. JetUpdate (JET_SESID, JET_TABLEID)
 
@@ -74,7 +74,7 @@ JetUpdate est la dernière étape de l’exécution d’une instruction INSERT o
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

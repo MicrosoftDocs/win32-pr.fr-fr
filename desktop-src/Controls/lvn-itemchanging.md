@@ -3,7 +3,7 @@ title: LVN_ITEMCHANGING le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View qu’un élément est en modification. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ed6b5fc2-7e8c-4392-aa39-498b18922a98
 keywords:
-- Contrôles Windows de code de notification LVN_ITEMCHANGING
+- LVN_ITEMCHANGING les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6183cd218792a34276db75dce5953189a8118674
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942920"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012308"
 ---
 # <a name="lvn_itemchanging-notification-code"></a>\_Code de notification LVN ITEMCHANGING
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour empêcher la modification, ou **false** pour autoriser la modification.
 
@@ -53,14 +53,14 @@ Retourne la **valeur true** pour empêcher la modification, ou **false** pour au
 
 Si le contrôle List-View a le style [**LVS \_ OWNERDATA**](list-view-window-styles.md) , les \_ codes de notification LVN ITEMCHANGING ne sont pas envoyés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 15a8fe7bdf71f72c8a297a63060a86a42ca67733967d72495afecc315b2ad197
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d8f156c44d7577810047ff0122205b5714056b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118144856"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127092109"
 ---
 # <a name="componentcontext-property"></a>Composant. Context, propriété
 
@@ -30,7 +30,7 @@ Contexte déterminé pour être applicable au composant en question. Cette propr
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

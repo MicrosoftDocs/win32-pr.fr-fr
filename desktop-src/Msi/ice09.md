@@ -4,12 +4,12 @@ ms.assetid: b4e11d75-4214-49de-ac12-6f360771ad73
 title: ICE09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c890189e69fc7473e96909af368e5905877dca9d43f32ebcc2903fcf25fc6a5a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 01cd20a1b354888877be0f5d456b6d6af2bdec82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021622"
 ---
 # <a name="ice09"></a>ICE09
 

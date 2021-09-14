@@ -4,12 +4,12 @@ ms.assetid: 6838f59b-e1bc-42c6-a7fe-3d32791adfac
 title: Type d’action personnalisée 22
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fe14690ec1d966abfe1ead0b7856360270570f30e2aaf2e93ea81181962ec8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a00b4772b1d2532c0291223cc5c4b6a63ead9324
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118637903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091817"
 ---
 # <a name="custom-action-type-22"></a>Type d’action personnalisée 22
 
@@ -65,7 +65,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 une action personnalisée écrite en JScript ou VBScript requiert l' [**objet de Session**](session-object.md)d’installation. Il s’agit de l' **objet de session** de type et le programme d’installation l’attache au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
 

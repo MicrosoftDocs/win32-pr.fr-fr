@@ -4,12 +4,12 @@ ms.assetid: 1281ee21-a154-4275-a9e6-6e92fff548ed
 title: ICEM13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678b89e14cb699bb6207be5c2e14473de2a743494b47ff5ae5e0ccda2a9cc9cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3286906cf162f24dce7105835544c3a387993ac6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021421"
 ---
 # <a name="icem13"></a>ICEM13
 
@@ -17,7 +17,7 @@ ICEM13 vérifie que le module de fusion ne contient pas d’assemblys de straté
 
 ce ICEM est disponible dans le fichier Mergemod. cub fourni dans le kit de développement logiciel (SDK) Windows Installer 2,0 et versions ultérieures. pour plus d’informations, consultez [SDK Windows components for Windows Installer developers](platform-sdk-components-for-windows-installer-developers.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICEM13 publie un message d’avertissement s’il trouve un composant spécifié dans le champ composant de la [table MsiAssembly](msiassembly-table.md) du module de fusion qui est une stratégie ou un assembly de configuration d’éditeur.
 

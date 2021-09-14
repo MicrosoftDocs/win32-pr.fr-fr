@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: b97569f967c76c985eb05099a21ed10e90456563a871f3e5d9803c6a5875ebdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d52324edd4a502388ac6064de07a6ab58a68074d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013787"
 ---
 # <a name="iscarddatabaselistcardinterfaces-method"></a>ISCardDatabase :: ListCardInterfaces, méthode
 
@@ -56,7 +56,7 @@ Pointeur vers les GUID d’interface en cas de réussite ; **Null** si l’opé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -73,7 +73,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer le [*fournisseur de services principal*](../secgloss/p-gly.md) de la carte à puce, appelez [**GetProviderCardId**](iscarddatabase-getprovidercardid.md).
 
@@ -114,7 +114,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

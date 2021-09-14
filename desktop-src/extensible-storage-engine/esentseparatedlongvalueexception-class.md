@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fcfa7780269ad05e54e7cf1d4cd4309bacba4f633323e1d9d63bd42926f5fe35
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d35977f8b27914799097188030f6b91afd055d08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981660"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012564"
 ---
 # <a name="esentseparatedlongvalueexception-class"></a>EsentSeparatedLongValueException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSeparatedLongValueException](./esentseparatedlongvalueexception-members.md)
 

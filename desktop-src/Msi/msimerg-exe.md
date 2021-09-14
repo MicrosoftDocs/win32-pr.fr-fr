@@ -4,12 +4,12 @@ ms.assetid: db0c9ae5-a8e8-4eff-ae14-67dcce352483
 title: Msimerg.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02ed496f74cdddec7b53f5f343bc852dd828f4e66f34a166f77af079f04ed328
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0555aa7bd762b92ed67d0bac1487159fadb73a6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119679519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021329"
 ---
 # <a name="msimergexe"></a>Msimerg.exe
 

@@ -15,12 +15,12 @@ keywords:
 - transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755e2dc0ed6b53f3a2ee5ef5310369b734a58cba27481b8b478eef63fdfe5722
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1c6219640085370202b8dbebad9a2e9d4992b4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020965"
 ---
 # <a name="porting-matrix-and-transformation-functions"></a>Fonctions de transformation et de matrice de Portage
 
@@ -86,7 +86,7 @@ Le tableau suivant répertorie les fonctions de matrice OpenGL et leurs fonction
 | **pushmatrix**                | [**glPushMatrix**](glpushmatrix.md)                                                   | Exécute un push de la pile de matrice actuelle d’une unité, en dupliquant la matrice actuelle.                                                                                                       |
 | **rotation**,**rot**<br/> | [**glRotated**](glrotate.md),[**glRotatef**](glrotate.md)<br/>                 | Fait pivoter le système de coordonnées actuel d’après l’origine par rapport au point donné. Notez que la **rotation pivotait** uniquement sur les axes x, y et z. |
 | **scale**                     | [**glScaled**](glscale.md),[**glScalef**](glscale.md)<br/>                     | Multiplie la matrice actuelle par une matrice de mise à l’échelle.                                                                                                                                 |
-| **Traduire**                 | [**glTranslatef**](gltranslate.md),[**glTranslated**](gltranslate.md)<br/>     | Déplace l’origine du système de coordonnées jusqu’au point spécifié, en multipliant la matrice actuelle par une matrice de translation.                                                              |
+| **traduire**                 | [**glTranslatef**](gltranslate.md),[**glTranslated**](gltranslate.md)<br/>     | Déplace l’origine du système de coordonnées jusqu’au point spécifié, en multipliant la matrice actuelle par une matrice de translation.                                                              |
 | **fenetre**                    | [**glFrustum**](glfrustum.md)                                                         | Coordonnées données pour les plans de découpage, multiplie la matrice actuelle par une matrice de perspective.                                                                                  |
 
 

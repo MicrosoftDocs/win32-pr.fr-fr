@@ -4,12 +4,12 @@ ms.assetid: 3ce441e0-e709-415c-af64-b1ded7b04f6b
 title: Contrôle des États de sélection des fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd269e5b7b0c810df6f7f0909d56b98cdd1c54c9b51eacc40656fe48fc32f8e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fadedf4b6038f8257d06671e0774afc258391898
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379904"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091957"
 ---
 # <a name="controlling-feature-selection-states"></a>Contrôle des États de sélection des fonctionnalités
 

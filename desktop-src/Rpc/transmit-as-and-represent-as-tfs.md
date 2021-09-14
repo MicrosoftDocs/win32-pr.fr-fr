@@ -4,12 +4,12 @@ description: Transmettre \_ en tant que et représenter \_ comme partage la mêm
 ms.assetid: 70fbb4bf-0892-4c26-9790-9fc21ff8c0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ada873ee6e928a08dfe1d9a93928e3b00835c9f2394bde3a5194b56cce58911
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69267741536314c3e30e2270e7be61edfdb5caff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011406"
 ---
 # <a name="transmit_as-and-represent_as"></a>Transmettre \_ en tant que et représenter \_ comme
 

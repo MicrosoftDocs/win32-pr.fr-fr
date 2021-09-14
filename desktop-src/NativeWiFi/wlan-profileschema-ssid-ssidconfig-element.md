@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5d58ed866e79269e604fe49ad8afe65d557f27a90d0be03904b8d27da5ac5c2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 644a4afbd10fbfff870007befda964fc9babd593
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118619056"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021136"
 ---
 # <a name="ssid-ssidconfig-element"></a>Élément SSID (SSIDConfig)
 
@@ -87,7 +87,7 @@ L’élément **SSID** est défini par l’élément [**SSIDConfig**](wlan-profi
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Bien que les éléments [**Hex**](wlan-profileschema-hex-ssid-element.md) et [**Name**](wlan-profileschema-name-ssid-element.md) soient facultatifs, au moins un élément **Hex** ou [**Name**](wlan-profileschema-name-ssid-element.md) doit apparaître en tant qu’enfant de l’élément **SSID** .
 
@@ -99,7 +99,7 @@ Lorsqu’un SSID est stocké dans un profil, l’élément [**Hex**](wlan-profil
 
 Pour afficher des exemples de profils qui utilisent l’élément **SSID** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

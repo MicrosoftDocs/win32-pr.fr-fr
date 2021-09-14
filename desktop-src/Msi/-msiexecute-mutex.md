@@ -4,12 +4,12 @@ ms.assetid: 2186422d-ccb2-4f7e-8c6d-326c00e0d9a9
 title: Mutex _MSIExecute
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cbca288c2d75051c1d6247a1123c453509c635df2872c3724d27d9a2fa27cc6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c22a9ca79e83e8593c2ee99884965acfd414ff4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127093030"
 ---
 # <a name="_msiexecute-mutex"></a>\_Mutex MSIExecute
 

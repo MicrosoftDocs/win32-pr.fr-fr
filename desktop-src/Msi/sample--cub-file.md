@@ -4,12 +4,12 @@ ms.assetid: 609cd16a-4421-4082-855d-229f5ba7117b
 title: Exemple de fichier. CUB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7aadbaca8bde7091f38d5ce8ccc39926ec6c595aa33e65e488136e89cccfc81
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e937b779e2a620ffc17cf936e37f74867f3dfdd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021259"
 ---
 # <a name="sample-cub-file"></a>Exemple de fichier. CUB
 

@@ -4,12 +4,12 @@ ms.assetid: 1a9244e6-2773-435a-8569-806df3a0cd39
 title: Afficher les paramètres par défaut du contexte de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 366c4ecb861b64d2b69836832259e6820e0f8809e4aa478d074220d133ccec55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8abcf79339d4f1cc158253d46cc3eb02ec41311
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117887276"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012480"
 ---
 # <a name="display-device-context-defaults"></a>Afficher les paramètres par défaut du contexte de périphérique
 
@@ -21,7 +21,7 @@ Lors de la création d’un contexte de périphérique d’affichage, le systèm
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Couleur d’arrière-plan                      | Paramètre de couleur d’arrière-plan dans le panneau de configuration (généralement, blanc).                                                                               |
 | Mode arrière-plan                       | MANIÈRE                                                                                                                                        |
-| Bitmap                                | Aucun                                                                                                                                          |
+| Bitmap                                | None                                                                                                                                          |
 | Brush                                 | \_pinceau blanc                                                                                                                                  |
 | Origine du pinceau                          | (0, 0)                                                                                                                                         |
 | Zone de découpage                       | Fenêtre entière ou zone cliente avec la région de mise à jour découpée, selon le cas. Les fenêtres enfants et pop-up dans la zone cliente peuvent également être découpées. |

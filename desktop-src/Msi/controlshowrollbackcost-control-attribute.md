@@ -4,12 +4,12 @@ ms.assetid: a3ed4d8a-170b-4708-afc2-03d2a5b665a3
 title: Attribut de contrôle ControlShowRollbackCost
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a888df328062a81637b36dc3fcfbe178d6e49bd4aee01c65b2d2e3524fb321
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7947777a356933ab74051163b6b9b023736dbb2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118379924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127091949"
 ---
 # <a name="controlshowrollbackcost-control-attribute"></a>Attribut de contrôle ControlShowRollbackCost
 
@@ -35,7 +35,7 @@ Si ce bit n’est pas défini et que la propriété [**PROMPTROLLBACKCOST**](pro
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut de contrôle est ignoré si [**PROMPTROLLBACKCOST**](promptrollbackcost.md) = D ou F.
 
