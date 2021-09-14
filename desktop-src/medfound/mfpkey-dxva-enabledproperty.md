@@ -4,12 +4,12 @@ ms.assetid: 6220310f-5760-4ddb-944b-752b97bf4696
 title: MFPKEY_DXVA_ENABLED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1165fcef344b667ea1b7bb6fe88c5243ea8824d86572f79c826805e5f46f02f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a92dd2a27292b0616b30f417ebd8de271c333e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119954059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227507"
 ---
 # <a name="mfpkey_dxva_enabled-property"></a>\_Propriété MFPKEY DXVA \_ Enabled
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VARIANTE \_ false**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

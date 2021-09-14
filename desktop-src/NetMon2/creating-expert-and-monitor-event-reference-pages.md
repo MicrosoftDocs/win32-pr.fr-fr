@@ -4,12 +4,12 @@ ms.assetid: 78d6e8cf-785e-4d5f-a78d-9ef9da9bc3e0
 title: Création d’un expert et surveillance des pages de référence des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5826ab0aaa71461f6b4e56b9330e00c5af6aae26952d84af88c380da6dfe41fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33c84610c7a1088e994fc852c64a7893f73f7909
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144232"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229715"
 ---
 # <a name="creating-expert-and-monitor-event-reference-pages"></a>Création d’un expert et surveillance des pages de référence des événements
 

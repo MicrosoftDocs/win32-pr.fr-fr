@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 659ad34c01ca6c74a24f6bbf5f5bef42df46f94f06b7e03541f9caf3398b39e5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b4c4893edcf02fa18da3dc207a49f87c91b2a9ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119768189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296806"
 ---
 # <a name="cbasefilterstop-method"></a>CBaseFilter. Stop, méthode
 
@@ -40,17 +40,17 @@ HRESULT Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode [**CBasePin :: inactive**](cbasepin-inactive.md) sur chacune des broches connectées du filtre. Il définit également l’état du filtre sur état \_ arrêté.
 
 Quand le filtre s’arrête, il doit rejeter les exemples en amont, arrêter la diffusion des exemples en aval, arrêter les threads de travail et libérer toutes les ressources qu’il utilisait pour la diffusion en continu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

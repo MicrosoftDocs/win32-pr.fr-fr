@@ -4,12 +4,12 @@ ms.assetid: F37C3596-E273-4144-87B9-D589EBB82C0B
 title: Suites de chiffrement TLS dans Windows 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2761098142d82f37c3bb22dd038bb2dc158155c12db8ca5ad31887f2f4724a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a204fabb91ddafc6b4d55c10b58503b4b81ca45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096273"
 ---
 # <a name="tls-cipher-suites-in-windows-8"></a>Suites de chiffrement TLS dans Windows 8
 

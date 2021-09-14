@@ -4,12 +4,12 @@ description: Selon la spécification DCE, chaque fichier IDL doit définir des a
 ms.assetid: ab8821ce-d52a-42bf-aa5e-582bb24adf93
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf0b365cecf2880fa2746536c3f1d80505f5d7534b95017f8abb18ceecd9d09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 182b7d46774484a9520424fd82bcff2d7103aa3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096505"
 ---
 # <a name="pointer-attribute-type-inheritance"></a>Héritage de type de Pointer-Attribute
 
@@ -21,7 +21,7 @@ Le compilateur MIDL assigne des attributs de pointeur aux pointeurs à l’aide 
 
 
 
-| Priorité | Description                                                                                                                |
+| Priority | Description                                                                                                                |
 |----------|----------------------------------------------------------------------------------------------------------------------------|
 | 1        | Les attributs de pointeur explicites sont appliqués au pointeur au niveau de la définition ou de l’utilisation du site.                                      |
 | 2        | La valeur par défaut est l’attribut **\[ \_ par défaut \] du pointeur** dans le fichier IDL qui définit le type.                               |

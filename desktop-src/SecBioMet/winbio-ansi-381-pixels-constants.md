@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9aedfa0e45e7e8b2e55fab5dd5e6fc6df82e0d2bacd3a5bf41e753280b00284
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0d18c06b30eb70f197f107ff1a0e6c4014ce445
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911406"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096026"
 ---
 # <a name="winbio_ansi_381_pixels-constants"></a>\_ \_ Constantes WINBIO ANSI 381 \_ pixels
 
@@ -27,7 +27,7 @@ Les constantes suivantes peuvent être utilisées pour spécifier des unités d�
 <dl> <span id="WINBIO_ANSI_381_PIXELS_PER_INCH"></span><span id="winbio_ansi_381_pixels_per_inch"></span>**WINBIO \_ ANSI \_ 381 \_ pixels \_ par \_ pouce** <span id="WINBIO_ANSI_381_PIXELS_PER_CM"></span> <span id="winbio_ansi_381_pixels_per_cm"></span> **WINBIO \_ ANSI \_ 381 \_ pixels \_ par \_ cm**  
 </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

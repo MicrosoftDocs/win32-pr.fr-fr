@@ -4,12 +4,12 @@ ms.assetid: a146427b-f3f1-4221-b2eb-ee7da451314a
 title: WLX_LOGON_OPTION_XXX (Winwlx. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae482fa7af757a18fc3a38f809befbee94e4d59753cde8e35e01d172bcc065d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fa8909f562b87eb3a8147b0684d9676b9ac55d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118914758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096158"
 ---
 # <a name="wlx_logon_option_xxx"></a>\_option de connexion wlx \_ \_ xxx
 
@@ -32,7 +32,7 @@ Une fois la connexion établie, votre DLL GINA peut utiliser cette valeur pour s
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

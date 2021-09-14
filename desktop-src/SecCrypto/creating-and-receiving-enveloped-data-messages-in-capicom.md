@@ -4,12 +4,12 @@ ms.assetid: 2acd0b58-1028-478d-bfa1-b02fa457d7e3
 title: Création et réception de messages de données enveloppés dans CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4024516333b7dd416f788f181f2ac36e5e0f4e015953cdab26d08b48da16c49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 672d56383ac635a295847777c0e557bbe7c40b69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228983"
 ---
 # <a name="creating-and-receiving-enveloped-data-messages-in-capicom"></a>Création et réception de messages de données enveloppés dans CAPICOM
 

@@ -4,12 +4,12 @@ ms.assetid: 48b0f389-5b3c-4b13-ad23-a8bc6bcd1850
 title: Événements de notification Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ea7359ef4d1d053e438d30564fcededbf3a0ccb10275cd6e4f669c2a20c54b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58827dc2699c92dfc3a814d2366608e1bd3fb662
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785714"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096181"
 ---
 # <a name="winlogon-notification-events"></a>Événements de notification Winlogon
 

@@ -4,12 +4,12 @@ ms.assetid: 86ffc8c0-727d-437f-ac36-10df6563b0be
 title: Modèle SSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a5d915a8937f57105e2478b41955cc5789fba25791e7f118a84dc4fa38e12fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55cf79185693f40694d1bc6de319376b037fb853
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916816"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096366"
 ---
 # <a name="sspi-model"></a>Modèle SSPI
 

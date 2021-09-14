@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: f531d0d5f55bea1fe63875a9feb508eb8b4c0e830705bfad2603cc52664c6f44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd671a11edd9977695eeaf858e38f962b3dd0962
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229098"
 ---
 # <a name="iscardcmdencapsulate-method"></a>ISCardCmd :: encapsuler, méthode
 
@@ -68,7 +68,7 @@ Casse ISO 7816-4 pour les transmissions [*T = 0*](../secgloss/t-gly.md) .
 **\_Cas ISO \_ 4**
 </dt> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -85,7 +85,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour générer une commande APDU, appelez [**BuildCmd**](iscardcmd-buildcmd.md).
 
@@ -113,7 +113,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

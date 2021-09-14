@@ -4,12 +4,12 @@ description: Implémentation du canal côté client dans l’appel de procédure
 ms.assetid: d790f859-47a9-4b6c-a218-8cbe05db21b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11ecae4d01e8da37c3ce65ee530643dc84abdc47da71c0e4dacbcdff21c37317
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5666656f1f7296c252395255c17902a91cb32a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120022653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096529"
 ---
 # <a name="client-side-pipe-implementation"></a>Implémentation du canal Client-Side
 

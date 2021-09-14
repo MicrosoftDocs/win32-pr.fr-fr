@@ -4,12 +4,12 @@ description: Vous pouvez optimiser votre application afin que le stub serveur ne
 ms.assetid: 340334e2-94ac-4be2-a16d-38bc4c64e7db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 998a8daa9883582d110545bcee60714f1bb9129b1bab48b99407f3a4d6898d5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7237fe6136918e5495ee1f22bac0991d71c5dbf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096526"
 ---
 # <a name="persistent-storage-on-the-server"></a>Stockage persistant sur le serveur
 

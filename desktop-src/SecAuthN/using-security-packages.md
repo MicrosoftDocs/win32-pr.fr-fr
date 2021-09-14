@@ -5,11 +5,11 @@ title: Utilisation de packages de sécurité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: df24bba0f910ba74a633e8a43f961cee4fb505db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096218"
 ---
 # <a name="using-security-packages"></a>Utilisation de packages de sécurité
 
@@ -18,7 +18,7 @@ L' [*interface SSPI (Security Support Provider Interface*](../secgloss/s-gly.md)
 -   [Package de sécurité Kerberos](#kerberos-security-package)
 -   [Package de sécurité NTLM](#ntlm-security-package)
 
-Les protocoles [*Kerberos*](../secgloss/k-gly.md) et NTLM sont implémentés en tant que packages de sécurité à partir du fournisseur SSP ( [*Security support Provider*](../secgloss/s-gly.md) ) Secur32.dll fourni avec le système d’exploitation. Par défaut, la prise en charge de l’authentification Kerberos et NTLM est chargée par l' [*autorité de sécurité locale*](../secgloss/l-gly.md) (LSA) sur un ordinateur au démarrage du système. Dans les domaines Windows Server ou Windows, les deux packages peuvent être utilisés pour authentifier les ouvertures de session réseau et les connexions client/serveur. Celui qui est utilisé dépend des capacités de l’ordinateur de l’autre côté de la connexion. Le protocole Kerberos est toujours préféré, s’il est disponible.
+Les protocoles [*Kerberos*](../secgloss/k-gly.md) et NTLM sont implémentés en tant que packages de sécurité à partir du fournisseur SSP ( [*Security support Provider*](../secgloss/s-gly.md) ) Secur32.dll fourni avec le système d’exploitation. Par défaut, la prise en charge de l’authentification Kerberos et NTLM est chargée par l' [*autorité de sécurité locale*](../secgloss/l-gly.md) (LSA) sur un ordinateur au démarrage du système. dans les domaines Windows Server ou Windows, les deux packages peuvent être utilisés pour authentifier les connexions réseau et les connexions client/serveur. Celui qui est utilisé dépend des capacités de l’ordinateur de l’autre côté de la connexion. Le protocole Kerberos est toujours préféré, s’il est disponible.
 
 Après l’établissement d’un contexte de sécurité pour un utilisateur interactif, une autre instance du package Kerberos ou NTLM peut être chargée par un processus s’exécutant dans le contexte de sécurité de l’utilisateur afin de prendre en charge l’échange, la signature, la vérification, le chiffrement et le déchiffrement des messages. Toutefois, aucun processus autre que l’autorité LSA n’est autorisé à accéder aux [*clés de session*](../secgloss/s-gly.md) ou aux tickets dans le cache des informations d’identification.
 

@@ -4,12 +4,12 @@ ms.assetid: a9a30255-a78a-41aa-9dfd-340902f4c550
 title: Contenu d’une réponse de stimulation Digest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af2a4fd199dfe9e97d69628adb0e6012bc4941929b9c1e96e00de8c42d53eba7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7168a7e6a468ecc7d573ef0bd853ec6db255b19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096454"
 ---
 # <a name="contents-of-a-digest-challenge-response"></a>Contenu d’une réponse de stimulation Digest
 

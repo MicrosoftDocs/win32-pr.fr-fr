@@ -4,12 +4,12 @@ ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: Protocole d’accès Digest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45fea65fc25df87ef434e7bfea5cb81690cdc06f82b72882438fe4475a1895b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86aa8f05580c27c866c0568dbc67c4d5ba5c2016
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096326"
 ---
 # <a name="the-digest-access-protocol"></a>Protocole d’accès Digest
 

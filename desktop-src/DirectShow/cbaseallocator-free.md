@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e77555094625bfc6a31a0527fc3223a124b012e72c28ea76e5774de289d63391
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3534eac01a6769e090c8c808f16cc6ad5c6b84c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296855"
 ---
 # <a name="cbaseallocatorfree-method"></a>CBaseAllocator. free, méthode
 
@@ -40,15 +40,15 @@ virtual void Free() = 0;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après l’appel de la méthode de [**dévalidation**](cbaseallocator-decommit.md) , l’allocateur appelle cette méthode lorsqu’il libère le dernier exemple multimédia. La classe dérivée doit implémenter cette méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

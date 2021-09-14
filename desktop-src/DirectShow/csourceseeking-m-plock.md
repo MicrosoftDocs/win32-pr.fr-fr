@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3f230fcaee4ebb59520319d5dfd7cf8295ce8721716cd1ffb02b534e242bd99b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f8de9159e917d24701635a428e0f5e6a1b9cb55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296707"
 ---
 # <a name="csourceseekingm_plock-member"></a>CSourceSeeking :: m \_ pLock, membre
 
@@ -36,7 +36,7 @@ CCritSec *m_pLock;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

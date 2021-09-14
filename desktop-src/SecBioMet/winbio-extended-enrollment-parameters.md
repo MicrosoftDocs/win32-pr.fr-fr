@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55173b5badfb8764cfc9c681f4ed92e2f0d1c50e5db09075185af9e5db2e6433
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4f041d131bcee540a75a131b4179947fbe8e394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095953"
 ---
 # <a name="winbio_extended_enrollment_parameters-structure"></a>\_Structure des \_ paramètres d’inscription étendue WINBIO \_
 
@@ -56,11 +56,11 @@ L’une des [**\_ \_ constantes de sous-type biométrique WINBIO**](winbio-biome
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 le Windows Biometric Framework passe cette structure à la méthode [**EngineAdapterSetEnrollmentParameters**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn) lors d’une opération d’inscription.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

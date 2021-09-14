@@ -5,11 +5,11 @@ title: Constantes de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2b27c3977369ca1da969ced6370e93f23bb65385
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297110"
 ---
 # <a name="directxmath-library-constants"></a>Constantes de la bibliothèque DirectXMath
 

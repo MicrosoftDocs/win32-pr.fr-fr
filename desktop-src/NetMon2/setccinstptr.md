@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 8a438327a6c1e160ea989434666ae535660d9b5ef26fc9289a3afa9d80d3f63e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 323e6334c90358dd8725f3f9092142275cfe491a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229596"
 ---
 # <a name="setccinstptr-function"></a>SetCCInstPtr fonction)
 
@@ -46,7 +46,7 @@ Pointeur vers les données d’instance ajoutées à la capture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Aucun.
 
@@ -54,7 +54,7 @@ Aucun.
 
 Utilisez cette fonction pour stocker un pointeur vers un bloc qui a été alloué avec la fonction **CCHeapAlloc** . Chaque analyseur peut définir une seule instance de données sur une capture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

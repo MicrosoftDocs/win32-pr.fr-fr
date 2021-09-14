@@ -4,12 +4,12 @@ ms.assetid: 3db8eebd-2e26-4c77-8f66-7d08436c9e42
 title: GUID de type d’exclusion mutuelle ASF (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fc035248610c8f58928347093dad4470f58f9818dc99fee1d88ac3fc0d13d88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a6fedc766e26c35bb967054a704b732ca03e8a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035537"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296382"
 ---
 # <a name="asf-mutual-exclusion-type-guids"></a>GUID de type d’exclusion mutuelle ASF
 
@@ -26,7 +26,7 @@ Les GUID suivants définissent les types de l’objet d’exclusion mutuelle pou
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

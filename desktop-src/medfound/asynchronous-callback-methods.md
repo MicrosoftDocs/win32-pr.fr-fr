@@ -4,12 +4,12 @@ ms.assetid: ea778eaa-6460-4a93-bd6a-1857ea8b6230
 title: Méthodes de rappel asynchrones
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e59fec2423d6bc1b02a3f5ce05855419596bc92ea54062303ebd1315d087e489
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0064873a5b026b6910597ebc9911f56f00584b03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296362"
 ---
 # <a name="asynchronous-callback-methods"></a>Méthodes de rappel asynchrones
 

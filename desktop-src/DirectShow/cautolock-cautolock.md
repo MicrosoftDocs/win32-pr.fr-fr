@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 11267b444df319e339bcf13b30f200868a0f62d67712ed147513c2f8bc7d000c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fed29011d4fe581ed146f64800351a3f1053d957
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296874"
 ---
 # <a name="cautolockcautolock-constructor"></a>Constructeur CAutoLock. CAutoLock
 
@@ -49,7 +49,7 @@ Pointeur vers un objet [**CCritSec**](ccritsec.md) , qui contient un objet de se
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

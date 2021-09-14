@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: a8fd41bff4700915c43ab709efa0033905cc5895c81839d399f81fc7bc4317e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df0fc00f0bd51e89da432e6f3b0143ce6092cedb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119064099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229655"
 ---
 # <a name="duplicateblob-function"></a>DuplicateBlob fonction)
 
@@ -54,13 +54,13 @@ Handle vers l’objet BLOB dupliqué.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est une valeur NMERR qui décrit l’erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e3baab16ee7c3f825f317d7aa2c585cb4d8ae7d6d030b6f59a1555b95343015
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75b6a8301ea5dab7d860e5bd7fb32c69277bad63
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118910542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095957"
 ---
 # <a name="winbio_event-structure"></a>\_Structure d’événement WINBIO
 
@@ -185,11 +185,11 @@ valeur **HRESULT** qui contient \_ un ou un code d’erreur qui résulte des cal
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 appelez la fonction [**WinBioRegisterEventMonitor**](/windows/desktop/api/Winbio/nf-winbio-winbioregistereventmonitor) pour inscrire une routine de rappel afin de recevoir des notifications d’événements de la Windows Biometric Framework. Le rappel est une fonction personnalisée que vous devez définir pour votre application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

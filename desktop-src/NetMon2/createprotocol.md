@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 173f744406ef2b360c0af7158e397c2001f146b9f2339bf6aaf3468b9a1465dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b35f9505758256750ae02d24d6c2a84ed0646b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117796350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229733"
 ---
 # <a name="createprotocol-function"></a>CreateProtocol fonction)
 
@@ -62,13 +62,13 @@ Taille de la structure **ENTRYPOINTS** . Moniteur réseau fournit une \_ macro d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un handle vers le protocole.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La DLL de l’analyseur appelle **CreateProtocol** pendant son implémentation de [DllMain](dllmain-parser.md). La fonction **CreateProtocol** est appelée quand le système d’exploitation charge la dll de l’analyseur pour la première fois.
 
@@ -91,7 +91,7 @@ Les points d’entrée référencés dans le paramètre *lpEntryPoints* incluent
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

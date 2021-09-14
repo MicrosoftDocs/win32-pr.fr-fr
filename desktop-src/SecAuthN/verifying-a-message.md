@@ -5,17 +5,17 @@ title: Vérification d’un message
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0ebf62be707efcbd3ab3a5eca5345261ca1a0fde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096197"
 ---
 # <a name="verifying-a-message"></a>Vérification d’un message
 
 L’exemple suivant montre le code permettant de recevoir et de vérifier un message signé. L’exemple reçoit la mémoire tampon de signature et sa taille dans SignatureBuffer et SignatureBufferSize, ainsi que la mémoire tampon des messages et sa taille dans MessageBuffer et MessageBufferSize.
 
-L’exemple suppose qu’une variable **SecHandle** nommée phContext et une structure de **Socket** nommée s sont initialisées. Pour les déclarations et les initiations de ces variables, consultez [utilisation de SSPI avec un client Windows Sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de SSPI avec un serveur Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Ce code inclut les appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
+L’exemple suppose qu’une variable **SecHandle** nommée phContext et une structure de **Socket** nommée s sont initialisées. pour les déclarations et les initiations de ces variables, consultez [utilisation de sspi avec un Client Windows sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de sspi avec un serveur de sockets Windows](using-sspi-with-a-windows-sockets-server.md). Ce code inclut les appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
 
 
 ```C++

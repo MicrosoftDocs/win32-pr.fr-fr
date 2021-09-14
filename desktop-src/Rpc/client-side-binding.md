@@ -4,12 +4,12 @@ description: Les handles de liaison sont composés d’une séquence de protocol
 ms.assetid: 0a3bed37-95c7-4f4a-9ed3-9d57f69db523
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc566d408b27884cacefe07a181f26971352e1f29f9f47dfd41b3d56a8276515
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f42ed5d2af21eff1091e0ba48718426bf17501e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096534"
 ---
 # <a name="client-side-binding"></a>Liaison côté client
 

@@ -5,11 +5,11 @@ title: MFPKEY_RESIZE_DST_TOP, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296290"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>\_Propriété Top de l’heure d’été de REdimensionnement MFPKEY \_ \_
 
@@ -27,14 +27,14 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

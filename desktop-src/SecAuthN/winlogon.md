@@ -4,12 +4,12 @@ ms.assetid: 232d1dcc-5388-480c-8d27-caf8ded4575d
 title: Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5fadf0e8b196376d610847aeff9de621417e18f5b1c68f87a1b38509b49fcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 413b577e475478dfce71571ef37419559ef5e80a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096162"
 ---
 # <a name="winlogon"></a>Winlogon
 

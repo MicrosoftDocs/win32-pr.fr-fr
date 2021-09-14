@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 9bb84cc6a8492c729926b644a246b8ee8a03e1de4c2eae6e3de1fd88c5ba339f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 296d755a0b082b46122432936d30614019b8b9a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004917"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228929"
 ---
 # <a name="scesvcattachmentanalyze-callback-function"></a>SceSvcAttachmentAnalyze fonction de rappel
 
@@ -45,11 +45,11 @@ Pointeur vers une structure d' [**\_ \_ informations de rappel SCESVC**](/window
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette fonction réussit, elle retourne SCESTATUS \_ Success. Sinon, elle retourne un code d’erreur. Pour plus d’informations sur les codes d’erreur de configuration de la sécurité, consultez [Attachment Return values](management-return-values.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SceSvcAttachmentAnalyze** doit effectuer les opérations suivantes :
 
@@ -60,7 +60,7 @@ La fonction **SceSvcAttachmentAnalyze** doit effectuer les opérations suivantes
 
 Pour plus d’informations, consultez [implémentation de SceSvcAttachmentAnalyze](implementing-scesvcattachmentanalyze.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

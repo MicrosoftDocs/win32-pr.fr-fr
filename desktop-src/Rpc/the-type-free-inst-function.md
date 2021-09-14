@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3754106cf8e0cc6e338f91d6c233181aa33038eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096486"
 ---
 # <a name="the-type_free_inst-function"></a>Type \_ Free \_ inst, fonction
 
@@ -45,9 +45,9 @@ void __RPC_USER DOUBLE_LINK_TYPE_free_inst(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

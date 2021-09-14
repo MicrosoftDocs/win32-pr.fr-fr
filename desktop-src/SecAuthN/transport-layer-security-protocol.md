@@ -4,12 +4,12 @@ ms.assetid: af541a51-fabc-4abd-ae67-268bd984ab92
 title: Protocole TLS (Transport Layer Security)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bed6bc76b6a491105607c3110cda32723bbba75fdf55abe97f7667f397060209
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf35fbfb59fee80617e6eccab66d7cec538e61ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915591"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096245"
 ---
 # <a name="transport-layer-security-protocol"></a>Protocole TLS (Transport Layer Security)
 

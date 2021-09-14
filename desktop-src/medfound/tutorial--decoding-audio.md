@@ -4,12 +4,12 @@ ms.assetid: ed40e201-c6ed-444f-bdaa-a5f33d1cc068
 title: 'Didacticiel : décodage de l’audio'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4ad5dbac47680c4d8faa73affa711b987edf220e05324d88cd0ffbda3bb93e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 539eb6d9f48419b62fa1c379c636abaf2bb0a63a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296223"
 ---
 # <a name="tutorial-decoding-audio"></a>Didacticiel : décodage de l’audio
 

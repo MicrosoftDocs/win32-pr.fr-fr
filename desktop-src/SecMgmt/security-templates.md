@@ -4,12 +4,12 @@ ms.assetid: 116ad2c9-7c60-418a-9083-41e9c33d5029
 title: Modèles de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 270d50a17fdf4cb6f756d0b00b9b4e04c2d0374769026b37783d628e2c0e76ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5de8f4d16c0a88d28378eaf6742c661665a7cac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004878"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228899"
 ---
 # <a name="security-templates"></a>Modèles de sécurité
 

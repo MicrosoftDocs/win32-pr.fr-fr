@@ -4,12 +4,12 @@ ms.assetid: e597f6e6-6e07-4afb-8905-26e4af961685
 title: Méthodes image. SaveAdd (Gdiplusheaders. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b9a18e1c74bf858db8ee3f8877a714338c1ed8b08a87b9e501dcc980bb6f78e2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2b65c6fe56507538f092edc7128497de5cb2f00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119717589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296438"
 ---
 # <a name="imagesaveadd-methods"></a>Méthodes image. SaveAdd
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes SaveAdd de la classe [**image**](/windo
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

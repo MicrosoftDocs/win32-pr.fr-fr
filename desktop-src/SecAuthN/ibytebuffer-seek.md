@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 70c4af327fad5014c5d6dec80dd29441f51a03639a108249991c83f53e5d2be8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eacfedc3ed23a7a4cf1f60e6c6ac21936c3c94f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096414"
 ---
 # <a name="ibytebufferseek-method"></a>IByteBuffer :: Seek, méthode
 
@@ -76,11 +76,11 @@ Pointeur vers l’emplacement où cette méthode écrit la valeur du nouveau poi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **Seek** modifie le pointeur de recherche, de sorte que les opérations de lecture et d’écriture suivantes peuvent avoir lieu à un emplacement différent dans l’objet de flux. Il s’agit d’une erreur de recherche avant le début du flux. Toutefois, il ne s’agit pas d’une erreur de recherche au-delà de la fin du flux. La recherche au-delà de la fin du flux est utile pour les opérations d’écriture suivantes, car le flux à ce moment sera étendu à la position de recherche immédiatement avant la fin de l’opération d’écriture.
 
@@ -105,7 +105,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

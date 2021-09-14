@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: cb06ab6e08a674a186bcdb260140915c378db9affc13b17db33d9132109cec78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9458ff74f29cd8eb7a75da0a3628a2dd1519ba43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229704"
 ---
 # <a name="deregister-callback-function"></a>Annuler l’inscription de la fonction de rappel
 
@@ -46,7 +46,7 @@ Handle du protocole pour une base de données spécifique.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Aucun.
 
@@ -68,7 +68,7 @@ Lors de l’implémentation de l’annulation de l' **inscription**, la dll de l
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

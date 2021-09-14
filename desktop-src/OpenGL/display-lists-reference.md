@@ -7,12 +7,12 @@ keywords:
 - Référence des listes d’affichage OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f320815fd83ab82c4feaf2eef011f6f5b1ca0b6bb7dfbdca3e0e8a8e799c5f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfa1182650a87041fcfbe7cbf3169bbd62b58625
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119889169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229535"
 ---
 # <a name="display-lists-reference"></a>Référence des listes d’affichage
 

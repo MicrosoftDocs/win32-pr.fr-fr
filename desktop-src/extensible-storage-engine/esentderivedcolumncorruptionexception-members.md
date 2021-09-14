@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101500
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a7848a4894ce34e6130a305dbe305ec863cb25e18c44e8be25b5604aa6476d9e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43854b42ce900d19aa71f53ec5191fcd8f8951c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119481403"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297074"
 ---
 # <a name="esentderivedcolumncorruptionexception-members"></a>Membres EsentDerivedColumnCorruptionException
 
@@ -166,7 +166,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDerivedColumnCorruptionException, classe](./esentderivedcolumncorruptionexception-class.md)
 

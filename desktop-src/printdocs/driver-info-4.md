@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: d42f74ce58c126130bd28820283c0b4262d3e3ce6b05106ae9ff74bc280ae234
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b737947b19e93a6b8de0563128a0f1be412101ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119353929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296202"
 ---
 # <a name="driver_info_4-structure"></a>\_Structure info \_ 4 du pilote
 
@@ -128,7 +128,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie les 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

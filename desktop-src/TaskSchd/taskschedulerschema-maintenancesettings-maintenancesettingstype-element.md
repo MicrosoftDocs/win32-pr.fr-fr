@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5724a5dff942377af783970e5d011e8f8a1ce9123039112917a3f652372495d5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca68876d8742ea04faa972d2ea7fd5f4b2071ffc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119309339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228707"
 ---
 # <a name="maintenancesettings-maintenancesettingstype-element"></a>Élément MaintenanceSettings (maintenanceSettingsType)
 
@@ -51,11 +51,11 @@ L’élément **MaintenanceSettings** est défini par le type complexe [**mainte
 |------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Échéance**](taskschedulerschema-deadline-element.md)   |         | Spécifie la durée après laquelle le planificateur de tâches tente de démarrer la tâche pendant la maintenance automatique d’urgence, si elle n’a pas pu se terminer pendant une maintenance régulière. <br/> |
 | [**Exclusif**](taskschedulerschema-exclusive-element.md) | boolean | Si la valeur est true, la tâche est démarrée en mode exclusif parmi les autres tâches de maintenance. <br/>                                                                                                 |
-| [**Heures**](taskschedulerschema-period-element.md)       |         | Spécifie la fréquence à laquelle la tâche doit être démarrée pendant la maintenance automatique. <br/>                                                                                                      |
+| [**Période**](taskschedulerschema-period-element.md)       |         | Spécifie la fréquence à laquelle la tâche doit être démarrée pendant la maintenance automatique. <br/>                                                                                                      |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour la programmation en C++, ce paramètre inactif est spécifié à l’aide de la propriété [**ITaskSettings3 :: MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings) .
 
@@ -75,7 +75,7 @@ Le code XML suivant définit un élément Settings qui indique à Planificateur 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

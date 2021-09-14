@@ -4,12 +4,12 @@ ms.assetid: 7bc26f7b-c355-448a-9f23-4ccfffea2fef
 title: Fournisseur de services de wrappers de fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeec4a8a5125e8fe19201a6c810eb87705eb7b5614b49fb455e8a96af63c8d26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37b7d22fea8e450111e1611f2ec069697c229a32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785842"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096201"
 ---
 # <a name="vendor-wrapper-service-provider"></a>Fournisseur de services de wrappers de fournisseur
 

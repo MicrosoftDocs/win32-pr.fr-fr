@@ -13,12 +13,12 @@ keywords:
 - listen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fa3fc1285a9035173da80cc7a9821535409b872b171f7822708c379ff01543
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e442cfc0593ab5be297902487c7c3ccdf056b4e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296958"
 ---
 # <a name="bluetooth-and-listen-select-and-closesocket"></a>Bluetooth et écouter, sélectionner et opération closesocket
 

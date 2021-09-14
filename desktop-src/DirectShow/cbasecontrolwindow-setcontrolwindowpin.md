@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e9ab7cbb5d199b0908c2eb51ffb5a70eda7eb1336bd66a1645daad61b3202d69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1aa3d4960799c2286e17709258ea90b76332bc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296827"
 ---
 # <a name="cbasecontrolwindowsetcontrolwindowpin-method"></a>Méthode CBaseControlWindow. SetControlWindowPin
 
@@ -49,15 +49,15 @@ Pointeur vers le code confidentiel avec lequel l’interface est synchronisée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre définit la \_ variable de membre m pPin comme étant égale au paramètre pPin. Comme décrit dans le constructeur, l’interface peut être appelée uniquement lorsque le filtre a été connecté avec succès. L’objet est passé par le biais de cette fonction membre au code confidentiel avec lequel il doit se synchroniser. dans la plupart des cas, il détermine si le code confidentiel est connecté chaque fois qu’il a une méthode d’interface appelée et retourne VFW \_ E \_ non \_ connecté en cas d’échec.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

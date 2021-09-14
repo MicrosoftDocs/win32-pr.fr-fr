@@ -4,12 +4,12 @@ ms.assetid: 4fa044c7-cce2-4a43-8f68-16cf3a4daaee
 title: utilisation de SSPI avec un serveur de sockets Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d47a8aac18ea89f479b61e004c59131f1d2c312d34ddae01db2bd022377ea475
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4dde8f5ab88dbd0c1fd95f1fdfee8d192a55087
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096205"
 ---
 # <a name="using-sspi-with-a-windows-sockets-server"></a>utilisation de SSPI avec un serveur de sockets Windows
 

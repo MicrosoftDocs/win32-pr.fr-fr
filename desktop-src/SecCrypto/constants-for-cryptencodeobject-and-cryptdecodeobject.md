@@ -5,11 +5,11 @@ title: Constantes pour CryptEncodeObject et CryptDecodeObject
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0d7ecd6346c0fc11720a4da292030aaf3c0958b8
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622745"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229038"
 ---
 # <a name="constants-for-cryptencodeobject-and-cryptdecodeobject"></a>Constantes pour CryptEncodeObject et CryptDecodeObject
 
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les constantes, extensions et attributs prédéfi
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant fournit des détails supplémentaires sur des valeurs *lpszStructType* spécifiques.
 
@@ -348,7 +348,7 @@ Pour plus d’informations sur ENTRY_INDEX et VALUE_INDEX constantes définies p
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

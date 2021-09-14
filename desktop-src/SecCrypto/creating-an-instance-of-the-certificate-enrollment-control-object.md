@@ -4,12 +4,12 @@ ms.assetid: f5b1e99e-163e-43bc-b60a-c800054d3dbf
 title: Création d’une instance de l’objet de contrôle d’inscription de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a054dc40a5a504f4d474c604711ee49d918d7667d408deb2fa353fb8f6dd073
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d832df46649541ede1b7882341004a9c4e59ac38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117769009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228989"
 ---
 # <a name="creating-an-instance-of-the-certificate-enrollment-control-object"></a>Création d’une instance de l’objet de contrôle d’inscription de certificat
 

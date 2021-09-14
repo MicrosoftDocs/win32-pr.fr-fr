@@ -4,12 +4,12 @@ ms.assetid: 283CB634-25EA-47F5-A2E3-0913F7D3D9DC
 title: Suites de chiffrement TLS dans Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec429fa3175c93da20dedd4e0b55905b6d3bd0cbe5aceb0872b7ec065ecc6064
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70cbb6905c2505e53b3083e86cb04084eff824b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096277"
 ---
 # <a name="tls-cipher-suites-in-windows-7"></a>Suites de chiffrement TLS dans Windows 7
 

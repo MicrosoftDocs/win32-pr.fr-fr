@@ -4,12 +4,12 @@ ms.assetid: 1c4f3d1b-1fdb-4fde-8f69-bcfac1a33663
 title: GraphicsPath. AddBezier, méthodes
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: cccc873116a52d240333c58a9626de2603470b230e6526b406bc68bc5abdb7d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1598986fad5e2da8adf81a280c96d7dcd52697e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119613229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296442"
 ---
 # <a name="graphicspathaddbezier-methods"></a>GraphicsPath. AddBezier, méthodes
 

@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a42aa17ae4cb5ca9177c5ff068745d506d89e0db8d71253148ab5adafa39baea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c89d0e593277f1c854850017412b49c22d8ac436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117758901"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228720"
 ---
 # <a name="logontrigger-triggergroup-element"></a>Élément LogonTrigger (triggerGroup)
 
@@ -59,7 +59,7 @@ L’élément **LogonTrigger** est défini par [**triggerGroup**](taskschedulers
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de scripts, un déclencheur LOGON est spécifié à l’aide de l’objet [**LogonTrigger**](logontrigger.md) .
 
@@ -85,7 +85,7 @@ L’attribut indiqué ci-dessous est défini par les types d’éléments comple
 
 Pour obtenir un exemple complet du code XML d’une tâche qui utilise un déclencheur LOGON, consultez [exemple de déclencheur de connexion (XML)](logon-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

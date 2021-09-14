@@ -5,11 +5,11 @@ ms.assetid: 658AF249-4935-41AF-972A-D8CDEABA76AA
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c93d21d9ac044e2ad4d63e954a4732a15794b123
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381155"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297130"
 ---
 # <a name="ge-sm4---asm"></a>GE (SM4-ASM)
 

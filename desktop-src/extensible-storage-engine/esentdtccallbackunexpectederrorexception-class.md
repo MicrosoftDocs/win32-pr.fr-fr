@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7ec2d5c2e204d0babeaf1e671d6096b8c52a9b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868110"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297070"
 ---
 # <a name="esentdtccallbackunexpectederrorexception-class"></a>EsentDTCCallbackUnexpectedErrorException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDTCCallbackUnexpectedErrorException](./esentdtccallbackunexpectederrorexception-members.md)
 

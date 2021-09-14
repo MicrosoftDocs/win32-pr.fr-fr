@@ -7,12 +7,12 @@ keywords:
 - test de la mémoire tampon de profondeur OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bf6d74dea76d9fd5190d71f9882f9f773dcca0fdc4c78435ea8c3a1406f3ef7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac837641af79f2c24a4f85cfa93ac0754226bea7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119889179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229541"
 ---
 # <a name="depth-buffer-test"></a>Test de la mémoire tampon de profondeur
 

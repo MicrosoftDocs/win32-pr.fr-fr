@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102906
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 89cc7b1c77dec5a134d06b3c1d8ab948f4ff1bc44bb19f4d3aa779c5e83dd262
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bad636da29522e8a5e130adce94ad1f6bb727969
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120116589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297031"
 ---
 # <a name="esentslvrootpathinvalidexception-properties"></a>Propriétés EsentSLVRootPathInvalidException
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSLVRootPathInvalidException, classe](./esentslvrootpathinvalidexception-class.md)
 

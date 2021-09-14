@@ -4,12 +4,12 @@ description: Référence du curseur
 ms.assetid: c218785b-c55a-438d-bc1d-b641e7cecccd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 892312e9d7f643ee10d27a5d7e115a188c52357e14e6fd6c591d20bca5d85270
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e17de6c2767ec1b9d69f824c5efa4cc1aa1bc8f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117688004"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296215"
 ---
 # <a name="cursor-reference"></a>Référence du curseur
 

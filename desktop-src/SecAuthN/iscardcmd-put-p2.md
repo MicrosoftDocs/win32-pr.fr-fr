@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: a66ef756d65e4cc011e6a5e4797a8ccae690dd404b6f25f1f9a7d3bbb2826069
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 362da530dece37a0a0ca600b1edb414d29e1bd48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120014579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096385"
 ---
 # <a name="iscardcmdput_p2-method"></a>ISCardCmd ::p ut \_ P2, méthode
 
@@ -48,7 +48,7 @@ Octet qui est le champ P2.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -64,7 +64,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir la valeur P1 du APDU, appelez [**put \_ P1**](iscardcmd-put-p1.md).
 
@@ -93,7 +93,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

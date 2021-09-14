@@ -4,12 +4,12 @@ ms.assetid: f943f0e6-5fdc-48f9-ba5d-5effdf8229f3
 title: Architecture de l’analyseur et de l’expert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 261343005f0cb9fc7de5b7025f9ffe59f11515614ab43609c1b8da9f396e9f5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: caa8477d97604acfb04686170ca6cb5cff8116a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117795839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229643"
 ---
 # <a name="expert-and-parser-architecture"></a>Architecture de l’analyseur et de l’expert
 

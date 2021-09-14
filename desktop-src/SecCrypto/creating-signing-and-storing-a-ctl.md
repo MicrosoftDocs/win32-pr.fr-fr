@@ -4,12 +4,12 @@ ms.assetid: 82d75d60-2343-413c-ba53-ccee02d1ad41
 title: Création, signature et stockage d’une liste de certificats de confiance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3f9aac8c75f7c112a09c62bb52d6e554aee7703e7f3e02c101545de5c5196db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2da66ce5acb882d36451118700178519455a4ded
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228960"
 ---
 # <a name="creating-signing-and-storing-a-ctl"></a>Création, signature et stockage d’une liste de certificats de confiance
 

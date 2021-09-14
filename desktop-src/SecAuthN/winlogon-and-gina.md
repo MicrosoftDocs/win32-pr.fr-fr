@@ -4,12 +4,12 @@ ms.assetid: d049d83f-b962-4c47-a79a-da556831e319
 title: Winlogon et GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cc39b905d6a49eb84ccab164f99481561133e6cdd9ea40cfd0b1067315569a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a683077f275dc9bf38efca6649cbd8131e0b9334
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118915068"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096189"
 ---
 # <a name="winlogon-and-gina"></a>Winlogon et GINA
 

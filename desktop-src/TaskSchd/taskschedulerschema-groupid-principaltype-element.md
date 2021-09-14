@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4376e7037c228ebf2d2ffdc193cc34e7f92647220251cd82f09b0b65c7f9a81c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 080a408f65ac7a36ada1751bbd5cb95395cf0b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118131838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228828"
 ---
 # <a name="groupid-principaltype-element"></a>Élément GroupId (principalType)
 
@@ -42,7 +42,7 @@ L’élément **GroupID** est défini par le type complexe [**principalType**](t
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous ne pouvez pas spécifier un identificateur de groupe et un identificateur d’utilisateur en même temps. Spécifiez les éléments [**userid**](taskschedulerschema-userid-principaltype-element.md) ou **GroupID** , mais pas les deux.
 
@@ -54,7 +54,7 @@ Pour le développement C++, l’identificateur de groupe du principal est spéci
 
 Pour obtenir un exemple complet du code XML d’une tâche qui utilise cet élément, consultez [exemple de déclencheur de connexion (XML)](logon-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

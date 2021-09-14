@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cbe8bf5457f36cdb71577ae13c2cc226115d4c968436c84b72ca8e90a3446be9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0cb35e8e998f95e99193d1dc5e8a74838b7efc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782535"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096085"
 ---
 # <a name="creating-an-authorization-policy-store-in-script"></a>Création d’un magasin de stratégies d’autorisation dans le script
 

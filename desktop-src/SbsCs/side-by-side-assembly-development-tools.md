@@ -4,12 +4,12 @@ ms.assetid: 53b0fdaf-73a6-4934-acec-a7c5c22699f5
 title: Outils de développement d’assembly côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b230ff93f2bf3390da979a26e8a34de237261d5da6fc36dff74ca23ae5d56eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae941c3471fdd4c2126d509431de4aa852e8b3aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119884829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096461"
 ---
 # <a name="side-by-side-assembly-development-tools"></a>Outils de développement d’assembly côte à côte
 

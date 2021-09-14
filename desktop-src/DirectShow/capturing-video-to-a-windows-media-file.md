@@ -4,12 +4,12 @@ ms.assetid: cc23bfce-34b9-4976-8602-e0602c7da2af
 title: capture vidéo sur un fichier multimédia Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3268d3a3df4a24c5836dba81f7ef4cf0b872907f09367d3212d27c38c0dd4414
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6442c1cf3751beac8d4eba751452d9573e9eede
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296883"
 ---
 # <a name="capturing-video-to-a-windows-media-file"></a>capture vidéo sur un fichier multimédia Windows
 

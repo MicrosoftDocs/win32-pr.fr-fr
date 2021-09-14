@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 556e95ae587f44bf41fc1d6f3e9dd0e2fc1351c8dcef9171ffb5d6dba7de134d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbee3de10d0a4749aea88c238636040b023dc3fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119554089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229278"
 ---
 # <a name="implementation-dependent-pixel-depth-state-variables"></a>Densité de pixels, variables d’état dépendantes de l’implémentation
 

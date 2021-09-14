@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: cc30d8780f7c0573b9a63ff83f16ad46b9d2a70f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296947"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_pagefile-class"></a>Méthode ChangeSecurityPermissions de la \_ classe du fichier d’échange Win32
 
@@ -107,7 +107,7 @@ Modifiez la liste de contrôle d’accès système (SACL) du fichier logique.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si les autorisations sont modifiées et un autre nombre pour indiquer une erreur.
 
@@ -167,7 +167,7 @@ Le système de fichiers n’est pas un système de fichiers NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -230,7 +230,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5cffe4a6-6475-441e-bf81-f3cbcf1fee3f
 title: Responsabilités du GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e4d2189d1d4258566a5e4baab357dc446a8f1c4ea409d7af328a85bf84c217
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40c3481aea9f5a92a485c42fb00b43d7062012d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118919037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229044"
 ---
 # <a name="responsibilities-of-the-gina"></a>Responsabilités du GINA
 

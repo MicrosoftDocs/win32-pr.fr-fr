@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31e4e5b98e787fb6143ae5347746b91158b380a8b2cb22e53d83e6a0b6f0d38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1354156cf0d1906a8c99179f080b755525a90fe6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096030"
 ---
 # <a name="winbio_ansi_381_img-constants"></a>\_ \_ Constantes WINBIO ANSI 381 \_ img
 
@@ -31,7 +31,7 @@ Les constantes suivantes peuvent être utilisées pour spécifier le type de com
 <dl> <span id="WINBIO_ANSI_381_IMG_UNCOMPRESSED"></span><span id="winbio_ansi_381_img_uncompressed"></span>**WINBIO \_ ANSI \_ 381 \_ img non \_ compressé** <span id="WINBIO_ANSI_381_IMG_BIT_PACKED"></span> <span id="winbio_ansi_381_img_bit_packed"></span> **WINBIO \_ ANSI \_ 381 \_ img \_ bit \_ condensé** <span id="WINBIO_ANSI_381_IMG_COMPRESSED_WSQ"></span> <span id="winbio_ansi_381_img_compressed_wsq"></span> **WINBIO \_ ANSI \_ 381 \_ img \_ compressé \_ WSQ** <span id="WINBIO_ANSI_381_IMG_COMPRESSED_JPEG"></span> <span id="winbio_ansi_381_img_compressed_jpeg"></span> **WINBIO \_ ANSI \_ 381 \_ img \_ compressé \_ JPEG** <span id="WINBIO_ANSI_381_IMG_COMPRESSED_JPEG2000"></span> <span id="winbio_ansi_381_img_compressed_jpeg2000"></span> **WINBIO \_ ANSI \_ 381 \_ img \_ compressé \_ JPEG2000** <span id="WINBIO_ANSI_381_IMG_COMPRESSED_PNG"></span> <span id="winbio_ansi_381_img_compressed_png"></span> **WINBIO \_ ANSI \_ 381 \_ img \_ compressé \_ png**  
 </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

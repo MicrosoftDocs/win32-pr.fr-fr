@@ -4,12 +4,12 @@ description: En savoir plus sur un pointeur commun RPC, qui est défini comme to
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30a87c13f9657d56e3f85d1d5828dc097c25e29990c617c5f20679a1d6cbe91e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ade676610a310e230eb6fa89dd666996bb82040f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118927349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096497"
 ---
 # <a name="pointers-rpc"></a>Pointeurs (RPC)
 

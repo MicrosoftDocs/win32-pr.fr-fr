@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: fae7fbe32b18a81557200b5c5519092bb2edd84290d9909cf884308a9173aac1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d994ef55665b03da2a7d657689682f893fdf071f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119417679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229127"
 ---
 # <a name="ibytebufferclone-method"></a>IByteBuffer :: Clone, méthode
 
@@ -48,11 +48,11 @@ En cas de réussite, pointe vers l’emplacement d’un pointeur [**IByteBuffer*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode crée un nouvel objet de flux pour accéder aux mêmes octets, mais à l’aide d’un pointeur de recherche distinct. Le nouvel objet de flux voit les mêmes données que l’objet de flux source. Les modifications écrites dans un objet sont immédiatement visibles dans l’autre. Le verrouillage de plage est partagé entre les objets de flux.
 
@@ -74,7 +74,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

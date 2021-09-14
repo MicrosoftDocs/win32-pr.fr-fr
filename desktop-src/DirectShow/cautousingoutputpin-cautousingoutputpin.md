@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c0594eed7f253f7e540f843dfc3c3de6481d7dbede3f25d1534e52181ef0585b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94bafcdcb6e44a07afdccea382d783c20a9ad2ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296866"
 ---
 # <a name="cautousingoutputpincautousingoutputpin-constructor"></a>Constructeur CAutoUsingOutputPin. CAutoUsingOutputPin
 
@@ -57,11 +57,11 @@ Pointeur vers une variable qui contient une valeur **HRESULT** . La valeur doit 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la méthode retourne, la valeur de *\* PHR* indique la réussite ou l’échec de la méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

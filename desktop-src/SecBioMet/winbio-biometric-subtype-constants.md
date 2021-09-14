@@ -14,11 +14,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 07e6dc285e1a19fab8e0363391fbd81429e931cd
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095997"
 ---
 # <a name="winbio_biometric_subtype-constants"></a>\_Constantes de sous-type biométrique WINBIO \_
 
@@ -33,7 +33,7 @@ ms.locfileid: "122630838"
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour rechercher les sous-types biométriques disponibles pour un type biométrique particulier, utilisez le tableau suivant :
 
@@ -100,7 +100,7 @@ ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 
 Pour plus d’informations, consultez [constantes d’application cliente](client-application-constants.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

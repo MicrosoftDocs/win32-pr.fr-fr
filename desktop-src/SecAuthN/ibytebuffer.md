@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 8f0aa81106629142efeec7e22bdb495bea853c3c689d6b55887a62f896d89d62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfba15dee78134a9787bf7af994f1d4e2b064339
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119417409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096405"
 ---
 # <a name="ibytebuffer-interface"></a>Interface IByteBuffer
 
@@ -40,24 +40,24 @@ L’interface **IByteBuffer** possède ces méthodes.
 
 | Méthode                                           | Description                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [**Répliqué**](ibytebuffer-clone.md)               | Clone un objet **IByteBuffer** .<br/>                                                              |
-| [**Commiter**](ibytebuffer-commit.md)             | Valide une [*transaction*](/windows/desktop/SecGloss/t-gly).<br/> |
+| [**Clone**](ibytebuffer-clone.md)               | Clone un objet **IByteBuffer** .<br/>                                                              |
+| [**Commit**](ibytebuffer-commit.md)             | Valide une [*transaction*](/windows/desktop/SecGloss/t-gly).<br/> |
 | [**CopyTo**](ibytebuffer-copyto.md)             | Copie les octets dans un autre objet.<br/>                                                                |
 | [**Initialiser**](ibytebuffer-initialize.md)     | Initialise l’objet **IByteBuffer** .<br/>                                                        |
 | [**LockRegion**](ibytebuffer-lockregion.md)     | Restreint l’accès à une plage d’octets.<br/>                                                          |
-| [**Lire**](ibytebuffer-read.md)                 | Lit les octets dans la mémoire.<br/>                                                                       |
+| [**En lecture**](ibytebuffer-read.md)                 | Lit les octets dans la mémoire.<br/>                                                                       |
 | [**Rétablir**](ibytebuffer-revert.md)             | Ignore les modifications apportées depuis le dernier appel de [**validation**](ibytebuffer-commit.md) .<br/>                     |
 | [**Seek**](ibytebuffer-seek.md)                 | Modifie le pointeur de recherche.<br/>                                                                      |
 | [**SetSize**](ibytebuffer-setsize.md)           | Modifie la taille de l'objet de flux.<br/>                                                         |
 | [**Stat**](ibytebuffer-stat.md)                 | Récupère des informations statistiques sur un flux.<br/>                                              |
 | [**UnlockRegion**](ibytebuffer-unlockregion.md) | Supprime la restriction d’accès précédemment définie par [**LockRegion**](ibytebuffer-lockregion.md).<br/>     |
-| [**Écriture**](ibytebuffer-write.md)               | Écrit des octets dans le flux.<br/>                                                                    |
+| [**Write**](ibytebuffer-write.md)               | Écrit des octets dans le flux.<br/>                                                                    |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

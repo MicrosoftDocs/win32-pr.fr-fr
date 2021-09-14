@@ -4,12 +4,12 @@ ms.assetid: 95f2f058-f847-4f58-b469-090bf599ae98
 title: Contrôle de la création d’objets enfants en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2820f6d1bd9aae335e018e15b3b298b5b907f51a47d78e517b8ad798d0aba442
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 598b2fd9a9889fbb77d2b3a4ecd004efcd823b8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117782714"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096110"
 ---
 # <a name="controlling-child-object-creation-in-c"></a>Contrôle de la création d’objets enfants en C++
 

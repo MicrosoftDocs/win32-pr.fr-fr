@@ -5,11 +5,11 @@ title: Attribut MFPROTECTIONATTRIBUTE_BEST_EFFORT (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fd7d2f173b5bf85080e0de65866f84b3a317b7ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296271"
 ---
 # <a name="mfprotectionattribute_best_effort-attribute"></a>\_Attribut de meilleur \_ effort MFPROTECTIONATTRIBUTE
 
@@ -25,14 +25,14 @@ Si la **valeur est true**, applique le schéma de protection avec l’attribut d
 
 Défini en tant qu’attribut pour un objet [**IMFOutputSchema**](/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications UWP Windows 8 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications UWP Windows Server 2012 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 8 \[ Applications UWP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ Applications UWP uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

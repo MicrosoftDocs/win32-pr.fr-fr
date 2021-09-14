@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d8e96600762db414fa93316098d5ba87dabfbc3138f516d3d69f1740d0d33d2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5ae7ec2a2c904a523f3388fa08a3bf2e44fec9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117783085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096122"
 ---
 # <a name="cieaxiinstallerservice-object"></a>Objet CIeAxiInstallerService
 
@@ -37,7 +37,7 @@ Cet objet n’est pas déclaré dans un en-tête public. Les applications doiven
 
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

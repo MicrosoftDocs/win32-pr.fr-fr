@@ -4,12 +4,12 @@ description: Par défaut, les connexions dans le pool de threads ne sont pas fer
 ms.assetid: e3d6c89b-0ec5-429d-96d9-1396cce10750
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc7a7d4cefcead53e9b92678867cd76ceb6fab7f1ab5f1a573cf75378cf2a5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75587781991c2aae86968d90c9da51331d7a29e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229128"
 ---
 # <a name="idle-connection-cleanup"></a>Nettoyage des connexions inactives
 

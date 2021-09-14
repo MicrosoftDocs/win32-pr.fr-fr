@@ -4,12 +4,12 @@ description: Discussion sur les actions effectuées par le pool système lorsque
 ms.assetid: cc1f8ffa-ce69-48ff-8509-81d85807d12a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 923cfff4b36bd14d100ce1f73db455be5261d75dc2c5be1eddc8f9d6af87fce0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a82d957b2b1b4968835eec1482662e30765e4a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118911592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096033"
 ---
 # <a name="system-pool-behavior"></a>Comportement du pool système
 

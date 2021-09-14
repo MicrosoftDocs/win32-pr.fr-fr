@@ -4,12 +4,12 @@ description: Les outils RPC s’affichent pour les utilisateurs comme si un clie
 ms.assetid: 265f31b8-9a41-4255-b070-fd50b00b935b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bd7a3adf59e848d962d4765a0feee16eb1fa84842c2a1ddd34ed82ecf95a8e4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12832d0de4eb972bb1d9d51df0c871191d4d079a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229158"
 ---
 # <a name="how-rpc-works"></a>Fonctionnement de RPC
 

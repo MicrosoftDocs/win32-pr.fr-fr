@@ -4,12 +4,12 @@ ms.assetid: b2c71e16-abd5-465c-a420-5b7675382025
 title: MFPKEY_RESIZE_GEOMAPX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f35bc58f9d7cf63fb30b7d5a50aae35f71d013a01dc14f1be14cd69f29d1eaa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 439e99c2b3f0f0774e2a45087f04a0a7ceba76e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296278"
 ---
 # <a name="mfpkey_resize_geomapx-property"></a>MFPKEY \_ REdimensionner la \_ propriété GEOMAPX
 
@@ -27,11 +27,11 @@ VT \_
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur est un nombre réel à virgule fixe. La partie entière du nombre est stockée dans les 2 octets supérieurs et la partie fractionnaire est stockée dans les 2 octets inférieurs.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

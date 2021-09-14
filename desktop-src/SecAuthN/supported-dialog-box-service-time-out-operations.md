@@ -4,12 +4,12 @@ ms.assetid: b1dfd7dc-cc00-4f1a-a157-c60b5d0f0b13
 title: Opérations de Temps de service de boîte de dialogue prises en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7715cafb426a59bd9773791788dd9914fff0c1fac4a5b820e9cc06416e966eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 274950cadd45cd4e7e3be890da0e4350a4d0c5ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118916448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096330"
 ---
 # <a name="supported-dialog-box-service-time-out-operations"></a>Opérations de Temps de service de boîte de dialogue prises en charge
 

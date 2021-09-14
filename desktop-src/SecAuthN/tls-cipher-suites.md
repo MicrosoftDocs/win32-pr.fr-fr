@@ -5,15 +5,15 @@ title: Suites de chiffrement TLS
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a113d72306b77b0d2c870b309cffb83b9d44fa5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541224"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096266"
 ---
 # <a name="tls-cipher-suites"></a>Suites de chiffrement TLS
 
-Schannel prend en charge les suites de chiffrement suivantes pour TLS 1,0 dans Windows Server 2003 et Windows XP. Les suites sont répertoriées dans l’ordre par défaut dans lequel elles sont choisies. Pour les suites de chiffrement pour Windows Server 2008 et Windows Vista, voir [suites de chiffrement dans Schannel](cipher-suites-in-schannel.md).
+Schannel prend en charge les suites de chiffrement suivantes pour TLS 1,0 dans Windows Server 2003 et Windows XP. Les suites sont répertoriées dans l’ordre par défaut dans lequel elles sont choisies. pour les suites de chiffrement pour Windows Server 2008 et Windows Vista, voir [suites de chiffrement dans Schannel](cipher-suites-in-schannel.md).
 
 -   TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ MD5
 -   TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ SHA

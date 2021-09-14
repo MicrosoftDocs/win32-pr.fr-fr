@@ -13,12 +13,12 @@ keywords:
 - fonctions de texture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca4079c282362e2a673e4a5e784f97388e8c8ac562b700304dad71c2a36dedd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e61dfeba97b0b208864a36f7bf60d0e85f397c9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120036339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096570"
 ---
 # <a name="gltexgen-functions"></a>glTexGen, fonctions
 

@@ -4,12 +4,12 @@ ms.assetid: 4122B150-3415-4288-8273-AB600901808A
 title: CODECAPI_AVDecVideoMaxCodedHeight, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9216a4ee0000dbbe1a883b6d9a02056f135b43783d2f8b386c51e495bbdb7082
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16ff4ddb68acde1b778c5b8656923dd80b7765a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296346"
 ---
 # <a name="codecapi_avdecvideomaxcodedheight-property"></a>CODECAPI \_ propriété AVDecVideoMaxCodedHeight
 
@@ -23,7 +23,7 @@ Définit la hauteur d’image maximale qu’un décodeur vidéo acceptera comme 
 
 CODECAPI \_ AVDecVideoMaxCodedHeight
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

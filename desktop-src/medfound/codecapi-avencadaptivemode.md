@@ -4,12 +4,12 @@ ms.assetid: 14B833BC-2188-48D6-AA27-B15F491D90CF
 title: CODECAPI_AVEncAdaptiveMode, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a1014e1f1cc526ee80295a183f33a840807cac27768afbb32326d5cd93d3f2d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b2405558fff76fa065324249583d4abcd445a91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118064760"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296338"
 ---
 # <a name="codecapi_avencadaptivemode-property"></a>CODECAPI \_ propriété AVEncAdaptiveMode
 
@@ -27,7 +27,7 @@ Spécifie le mode de codage adaptatif pour un encodeur vidéo.
 
 La valeur de cette propriété est **une opération or au niveau du bit** de l’énumération [**eAVEncAdaptiveMode**](/windows/win32/api/codecapi/ne-codecapi-eavencadaptivemode) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

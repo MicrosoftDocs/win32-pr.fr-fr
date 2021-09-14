@@ -4,12 +4,12 @@ ms.assetid: 16c6728a-966b-436f-902d-3e12368986b6
 title: Contenu d’une demande de résumé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a0f6ee840e4965ff9615052b57102409a977e5a90660772e963eaf06eb9875
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97f90dd78ae28536f6e2d07882f69335975df14d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119883159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096453"
 ---
 # <a name="contents-of-a-digest-challenge"></a>Contenu d’une demande de résumé
 

@@ -4,12 +4,12 @@ ms.assetid: E1E731F9-1F17-4252-ADDB-22742344C37B
 title: Suites de chiffrement TLS dans Windows 10 v1709
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 105a11d601cd672ff2620c43609b7b57ce4d356889f670e15726b8f18569fde9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 074e8658dc0055ba85b3e7314cbb162cc9ba8e6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117786178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096290"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1709"></a>Suites de chiffrement TLS dans Windows 10 v1709
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102813
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1b0fa2c58cb47cffd6b067e7dc029127985b622711f74f4f1e2f4d888f557cb7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: edafed98f7c2195820d3dbc0e6c0ba6da43b035c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119113692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127297034"
 ---
 # <a name="esentslvreadverifyfailureexception-methods"></a>Méthodes EsentSLVReadVerifyFailureException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentSLVReadVerifyFailureException, classe](./esentslvreadverifyfailureexception-class.md)
 

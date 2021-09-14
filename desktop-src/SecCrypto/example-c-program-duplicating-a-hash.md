@@ -4,12 +4,12 @@ ms.assetid: 7aa7c9a1-471b-4b40-9967-b1da946c83a5
 title: 'Exemple de programme C : duplication d’un hachage'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19684dfd452ea887d9106453de1a8e996992042d25fb920b0f10e718cfec4ab3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a418f1e5e615d8c4b4c0e8a0af3061b9b6f860e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228948"
 ---
 # <a name="example-c-program-duplicating-a-hash"></a>Exemple de programme C : duplication d’un hachage
 

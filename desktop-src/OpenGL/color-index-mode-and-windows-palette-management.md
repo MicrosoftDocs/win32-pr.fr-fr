@@ -9,12 +9,12 @@ keywords:
 - gestion de la palette OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72e4d7c9db02a80bdffdef93655e88cc5b2ca8197a58c5ffdb488c2b782f10d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 873308c4ac64d496e344b1c71d440d4dc8321418
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119889259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127096682"
 ---
 # <a name="color-index-mode-and-windows-palette-management"></a>gestion du Mode de Color-Index et de la Palette de Windows
 

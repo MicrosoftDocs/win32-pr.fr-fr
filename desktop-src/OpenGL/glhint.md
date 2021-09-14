@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7602b4f0af35c8bc9aeb38cdcb613e30ded907ced75e2241c8ed9e23b57fd98f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2772c76868c741660486184e5ab51bd193d3667a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118359645"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229428"
 ---
 # <a name="glhint-function"></a>glHint fonction)
 
@@ -98,7 +98,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsqu’il y a de la place pour l’interprétation, vous pouvez contrôler certains aspects du comportement OpenGL avec des indicateurs. Vous spécifiez un indicateur avec deux arguments. Le paramètre *target* est une constante symbolique indiquant le comportement à contrôler et le *mode* est une autre constante symbolique indiquant le comportement souhaité.
 
@@ -106,7 +106,7 @@ Bien que les aspects d’implémentation qui peuvent être Hints soient bien dé
 
 La fonction **glHint** peut être ignorée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff46f5484addb0221d9e441df73ecca3e8283da88ee7849e4362314aa1c375e0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8ae63aefb64eb22f454559b76e9922242ca9530
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120080779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095986"
 ---
 # <a name="winbio_bsp_schema-structure"></a>\_Structure de \_ schéma BSP WINBIO
 
@@ -80,7 +80,7 @@ Une structure de [**\_ version WINBIO**](winbio-version.md) contient la version 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

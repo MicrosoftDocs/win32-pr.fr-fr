@@ -5,11 +5,11 @@ title: Fonctions courantes des experts et de l’analyseur
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a6776260610c2decb0ecf91b6373d301937d899b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516614"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229637"
 ---
 # <a name="expert-and-parser-common-functions"></a>Fonctions courantes des experts et de l’analyseur
 

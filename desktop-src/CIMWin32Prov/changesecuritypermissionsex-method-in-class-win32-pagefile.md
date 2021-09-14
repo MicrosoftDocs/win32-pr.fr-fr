@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c22aaa6552a9879eb08a6e65ce7d5a0651df458252a2a228d7d5acd8b5fb1d07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a01a214e626f9c64ccf460eb3f8c031d1b45ff85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119081033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296923"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-win32_pagefile-class"></a>Méthode ChangeSecurityPermissionsEx de la \_ classe du fichier d’échange Win32
 
@@ -136,7 +136,7 @@ Si la **valeur est true**, la modification de la propriété est appliquée de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si les autorisations sont modifiées et un autre nombre pour indiquer une erreur.
 
@@ -259,7 +259,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

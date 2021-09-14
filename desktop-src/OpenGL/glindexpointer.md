@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e27502420121f7373af5425e8aadffe3641ddec539a4521fe6c6bf55e6d807d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cca6858d7d1e3f13e4155bd40307a53b22e80a56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229409"
 ---
 # <a name="glindexpointer-function"></a>glIndexPointer fonction)
 
@@ -80,7 +80,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glIndexPointer** spécifie l’emplacement et les données d’un tableau d’index de couleurs à utiliser lors du rendu. Le paramètre de *type* spécifie le type de données de chaque index de couleur et *Stride* détermine le décalage d’octets d’un index de couleur à l’autre, ce qui permet de compresser les vertex et les attributs dans un tableau unique ou de stocker dans des tableaux séparés. Dans certaines implémentations, le stockage des vertex et des attributs dans un tableau unique peut être plus efficace que l’utilisation de tableaux séparés. Pour plus d’informations, consultez [**glInterleavedArrays**](glinterleavedarrays.md).
 
@@ -106,7 +106,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glIndexPoin
 
 [**glGetPointerv**](glgetpointerv.md) avec argument, \_ \_ pointeur de tableau d’index GL \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

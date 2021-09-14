@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 231c94d2abda40974249f6c3cc82c8efc7518cb21d5881f44e63f647bcb21de2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4eddfa6b0a45627c59e61fd083eb11b8d5f26caf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229614"
 ---
 # <a name="sessionstats-structure"></a>SESSIONSTATS, structure
 
@@ -78,7 +78,7 @@ Nombre de paquets envoyés dans la session.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Moniteur réseau stocke les informations de session et de station dans deux tableaux associés, dont les éléments sont respectivement des structures **SESSIONSTATS** et [STATIONSTATS](stationstats.md) . Les membres de ces structures peuvent être utilisés pour naviguer entre eux. Par exemple, pour passer à la session suivante pour un propriétaire de station spécifique, utilisez **NextSession**. Pour accéder au propriétaire et à la station partenaire de la session dans le tableau STATIONSTATS, utilisez l’index fourni dans **StationOwner** et **StationPartner**.
 
@@ -87,7 +87,7 @@ Moniteur réseau stocke les informations de session et de station dans deux tabl
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

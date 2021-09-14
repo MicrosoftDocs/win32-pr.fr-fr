@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0bb519e67bf1def3abeb98bcfea1310d9b6fe68f06e891e44f925e267982f2e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0294baf2c7a399bf7e75bb69bbb2b46723e5d002
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119429879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127296775"
 ---
 # <a name="cbasepinname-method"></a>Méthode CBasePin.Name
 
@@ -40,11 +40,11 @@ LPWSTR Name();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de la variable membre [**CBasePin :: m \_ pname**](cbasepin-m-pname.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
