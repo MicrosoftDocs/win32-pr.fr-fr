@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a1325073180634c21c29ff8ad09d255368c7d13e5e7d0a42f6fe5db4d6beba1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39a64f6d975e403de6c177906b23ef7e09f29ddf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118000291"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007545"
 ---
 # <a name="getbitmapformatsize-function"></a>GetBitmapFormatSize fonction)
 
@@ -49,11 +49,11 @@ Pointeur vers une structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la taille, en octets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) peut être suivie de masques de couleur ou d’entrées de palette. il peut donc être difficile de déterminer le nombre d’octets requis pour construire une structure [**VIDEOINFO**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo) à partir d’une structure **BITMAPINFOHEADER** existante.
 
@@ -75,7 +75,7 @@ if (pVi != NULL)
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 18081652-962f-4605-84b7-1fa60f61ad05
 title: Émission de commandes AV/C brutes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729cad0be3a55a3f95592e54e8f91b9074892a8d111da9ad996b4e00a136cbe1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf1cf1b25d45a0eb35ede7151941d0cd49d30db0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118153786"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007521"
 ---
 # <a name="issuing-raw-avc-commands"></a>Émission de commandes AV/C brutes
 

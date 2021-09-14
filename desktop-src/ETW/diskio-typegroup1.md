@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3a69643602a59fa7be8cd844f3f2908c92e2e08545f7444d1002ec1542b36730
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d20f80eb840283600f5d106f89c6cf8032ee746
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117814975"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007439"
 ---
 # <a name="diskio_typegroup1-class"></a>E \_ TypeGroup1, classe
 
@@ -264,7 +264,7 @@ Taille des données lues ou écrites à partir du disque, en octets.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Windows Le serveur 2003 utilise la définition suivante pour la classe de type d’événement **e \_ TypeGroup1** .
 

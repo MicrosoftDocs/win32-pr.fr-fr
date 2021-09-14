@@ -4,12 +4,12 @@ ms.assetid: 8a6373e0-46c2-4b1b-bc67-543f426ef15a
 title: Constantes et chaînes de l’identificateur de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67321097d93c5f4224a86a66528f98dacce18312003062665ccc30c1377de70f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d80823e897a8325cbcb7207f91bde69397296767
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118948746"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007380"
 ---
 # <a name="language-identifier-constants-and-strings"></a>Constantes et chaînes de l’identificateur de langue
 

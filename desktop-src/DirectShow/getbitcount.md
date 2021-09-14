@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: 6fed9b24ebf2e95b2408de30a407904e6bd3c1c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007544"
 ---
 # <a name="getbitcount-function"></a>GetBitCount fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers un **GUID** de sous-type de vidéo.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre de bits par pixel pour ce sous-type, ou la valeur **USHRT \_ Max** si le sous-type n’est pas reconnu.
 
@@ -59,7 +59,7 @@ Retourne le nombre de bits par pixel pour ce sous-type, ou la valeur **USHRT \_ 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

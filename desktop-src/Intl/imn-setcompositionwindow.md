@@ -4,12 +4,12 @@ ms.assetid: 07a9f0f6-587e-47c6-8f18-b48bdab0a541
 title: IMN_SETCOMPOSITIONWINDOW le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fed8e69c03250166e155b07d34a2ce19b5d5fd9336af6cf82133c258c2b88d46
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 55a1a4e989fb36049168359f86f85ee7a58103a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007403"
 ---
 # <a name="imn_setcompositionwindow-notification-code"></a>\_Code de notification SETCOMPOSITIONWINDOW IMN
 
@@ -44,11 +44,11 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application peut obtenir des informations sur le formulaire de composition à l’aide de la commande [**IMC \_ GETCOMPOSITIONWINDOW**](imc-getcompositionwindow.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: df58175955106906027a6d2d10c465b82ad6313cd493e3ef9ef3ba279cd0115f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e45d22eec1536517bd2b57d875dd596e4a1e28db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007500"
 ---
 # <a name="llmuldiv-function"></a>llMulDiv fonction)
 
@@ -84,7 +84,7 @@ Facteur d’arrondi.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne soit le calcul, soit l' `(a * b + rnd)/c` une des valeurs suivantes.
 
@@ -99,7 +99,7 @@ Retourne soit le calcul, soit l' `(a * b + rnd)/c` une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’arrondi sur la Division est vers zéro. La division par zéro est comptée comme une condition de dépassement de capacité.
 

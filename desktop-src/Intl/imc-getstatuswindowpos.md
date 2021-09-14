@@ -4,12 +4,12 @@ ms.assetid: 59c7baae-1b8a-4761-9814-31afd8d39691
 title: Commande IMC_GETSTATUSWINDOWPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfb542ef95a7825e4809e0fa2ce9175493bffeffbbaa36926a91299746026d51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfd17c5787d9ef8c787e62a556afa2f136bd65c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007420"
 ---
 # <a name="imc_getstatuswindowpos-command"></a>\_Commande IMC GETSTATUSWINDOWPOS
 

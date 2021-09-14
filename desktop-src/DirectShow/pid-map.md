@@ -14,11 +14,11 @@ api_type:
 api_location:
 - bdatypes.h
 ms.openlocfilehash: 98b238c61ccfcfb93e4ddcc0a051d9084228f604
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541713"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007478"
 ---
 # <a name="pid_map-structure"></a>Structure de la \_ carte PID
 
@@ -68,7 +68,7 @@ Spécifie le contenu de la charge utile du paquet, sous la forme d’un exemple 
 
 <dl> <dt>
 
-[Structures DirectShow](directshow-structures.md)
+[DirectShow Celles](directshow-structures.md)
 </dt> <dt>
 
 [**Interface IEnumPIDMap**](/previous-versions/windows/desktop/api/Bdaiface/nn-bdaiface-ienumpidmap)

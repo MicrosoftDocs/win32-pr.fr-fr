@@ -4,12 +4,12 @@ ms.assetid: 3c4258d8-8073-4cc5-a29d-ce485a3fdc14
 title: Configuration et démarrage de la session de journalisation du noyau NT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a41398c9caac3ecd090af68a18bfb148095632d96b8c75eaaee7f04a551360fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d13cb0d429bc4b0e01e02c33e2686040f0b7454b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007441"
 ---
 # <a name="configuring-and-starting-the-nt-kernel-logger-session"></a>Configuration et démarrage de la session de journalisation du noyau NT
 

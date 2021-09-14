@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: efe6ab6fbd4e801385e75846ac71e2e9bee57e91b9fd4e0218da5fb3d4e6aa2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee182fd54f11909e54e98f827904f1da5e46f557
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007462"
 ---
 # <a name="dllmain-entry-point"></a>Point d’entrée DllMain
 
@@ -117,13 +117,13 @@ Si *fdwReason* est **un \_ processus de \_ détachement de dll**, *lpvReserved* 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Lorsque le système appelle la fonction **DllMain** avec la valeur d' **\_ \_ attachement du processus dll** , la fonction retourne **true** si elle réussit ou **false** si l’initialisation échoue. Si la valeur de retour est **false** lorsque **DllMain** est appelé, car le processus utilise la fonction [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) , **LoadLibrary** retourne la valeur null. (Le système appelle immédiatement votre fonction de point d’entrée avec le **\_ \_ détachement de processus dll** et décharge la dll.) Si la valeur de retour est **false** lorsque **DllMain** est appelé pendant l’initialisation du processus, le processus se termine avec une erreur. Pour obtenir des informations détaillées sur l’erreur, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 Lorsque le système appelle la fonction **DllMain** avec une valeur autre que le **processus d' \_ \_ attachement de dll**, la valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **DllMain** est un espace réservé pour le nom de la fonction définie par la bibliothèque. Vous devez spécifier le nom réel que vous utilisez lorsque vous générez votre DLL. Pour plus d’informations, consultez la documentation fournie avec vos outils de développement.
 

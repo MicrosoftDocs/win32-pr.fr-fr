@@ -4,12 +4,12 @@ ms.assetid: e8c54168-22b3-435e-b19a-9b34adcdb018
 title: Noms des langues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90ebc080cf359d722d3f94f411d37d8a30980802ae46c4b026d56f87799c8da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb17d87835c0ca81a33e1de279f99a4051045737
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007378"
 ---
 # <a name="language-names"></a>Noms des langues
 

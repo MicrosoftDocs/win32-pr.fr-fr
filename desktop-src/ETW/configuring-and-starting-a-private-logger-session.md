@@ -4,12 +4,12 @@ ms.assetid: fb6a3899-194e-4cb7-b9e5-a7ff85fb7891
 title: Configuration et démarrage d’une session de journalisation privée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf15db05c03e5a412cf07ee6e020d2321380f2d48abba465669dc807729fe38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15ef13728bfb3516197ab153cf90b301d5930ff2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007447"
 ---
 # <a name="configuring-and-starting-a-private-logger-session"></a>Configuration et démarrage d’une session de journalisation privée
 
