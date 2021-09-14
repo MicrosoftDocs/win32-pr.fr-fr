@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 11a02e07c0f5e2f25c90b39ffcf21e15048e55dc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234642"
 ---
 # <a name="license-revocation-agent-object"></a>Objet agent de révocation des licences
 
@@ -30,9 +30,9 @@ L’objet agent de révocation de licences est créé par la fonction [**WMCreat
 [**Objets**](objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

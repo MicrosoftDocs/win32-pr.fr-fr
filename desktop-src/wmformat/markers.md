@@ -9,12 +9,12 @@ keywords:
 - marqueurs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ddc013b2d8e09fa30ac6a8b7373aaf6733b669f2ccacec6350ee70e0800b20
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d314b4e74aa05a08dfd4a297687662e10f045abc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119808229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234605"
 ---
 # <a name="markers"></a>Marqueurs
 

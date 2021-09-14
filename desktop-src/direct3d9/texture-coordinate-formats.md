@@ -4,12 +4,12 @@ ms.assetid: d841af62-41b0-4b80-960b-4630b9a7210c
 title: Formats de coordonnée de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c48ec28b9c99357fe8825f5ff79da3c8869719389c4a4bc4874c5740fc71f42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c95eada1cf21f0a4db38589794b08b88023e72d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118519882"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291750"
 ---
 # <a name="texture-coordinate-formats-direct3d-9"></a>Formats de coordonnée de texture (Direct3D 9)
 

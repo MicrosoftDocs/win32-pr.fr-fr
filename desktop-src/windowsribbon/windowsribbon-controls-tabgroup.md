@@ -4,12 +4,12 @@ description: Un groupe d’onglets est un contrôle contextuel qui est masqué o
 ms.assetid: 5b74ff46-2543-43f3-ab42-dab1bc67a75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ddf1c34903f0660f6f5ead5eb76cd17934ac5cc987358f24c32bc127c73706
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 253c803a07c0d27692442ddb7a291930a261a2ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851255"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234798"
 ---
 # <a name="tab-group"></a>Groupe d’onglets
 
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
-| Clé de propriété                                                                                     | Remarques                                                                                                                                                                                                                         |
+| Clé de propriété                                                                                     | Notes                                                                                                                                                                                                                         |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IU \_ \_ ContextAvailable](windowsribbon-reference-properties-uipkey-contextavailable.md)     | Prend en charge [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty). |
 | [KeyTip de l’interface utilisateur \_ \_](windowsribbon-reference-properties-uipkey-keytip.md)                         | Peut uniquement être mis à jour par le biais d’une invalidation.                                                                                                                                                                                     |

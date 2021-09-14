@@ -7,12 +7,12 @@ keywords:
 - OpenGL, meilleures pratiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 588cb53ca9e096eb768c4ce448c0bb7badae6f01e7b8d7e16c31a631ebcafb47
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5294d2e989591216ea8cf66aa380933718776f2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119486399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233549"
 ---
 # <a name="opengl-correctness-tips"></a>exactitude de l’Astuces OpenGL
 

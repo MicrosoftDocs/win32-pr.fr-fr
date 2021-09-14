@@ -6,12 +6,12 @@ keywords:
 - WS_XML_BUFFER
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 576c901434bb1d05aecbadc52ce51b163023b99e3c7c8959f0169e2e9b0badad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22f84bc755d24d07e8e2ed9bacf91b644c883871
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234359"
 ---
 # <a name="ws_xml_buffer"></a>\_ \_ mémoire tampon XML WS
 
@@ -24,11 +24,11 @@ typedef struct _WS_XML_BUFFER WS_XML_BUFFER;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

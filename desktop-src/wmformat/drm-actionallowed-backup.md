@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f2597cee7bd4464a151bd2174cd24b2122d97bfd35cfbed0f450893dfaf98d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cb580d69d804c30dbbeb9b574422fb4055cc1a37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119881162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234696"
 ---
 # <a name="drm_actionallowed_backup"></a>\_Sauvegarde ACTIONALLOWED \_ DRM
 
@@ -31,7 +31,7 @@ c \_ wszWMDRM \_ ActionAllowed \_ sauvegarde
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 

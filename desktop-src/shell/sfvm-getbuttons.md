@@ -4,12 +4,12 @@ ms.assetid: 0c0dbf61-9da9-4bcc-bad9-92c3f78db78f
 title: Message SFVM_GETBUTTONS (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 299641ef45d17a6ad1e4d709c3250abe220e297daedabcb563eeba9dcf56262a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ad4ced86909c37ec77bf0470b46a40954f5b61c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235163"
 ---
 # <a name="sfvm_getbuttons-message"></a>\_Message SFVM GETBUTTONS
 
@@ -46,11 +46,11 @@ Adresse d’un tableau de structures [**TBBUTTON**](/windows/win32/api/commctrl/
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est précédé d’un message [**SFVM \_ GETBUTTONINFO**](sfvm-getbuttoninfo.md) . L’objet de rappel doit gérer ce message pour spécifier le nombre de boutons et l’emplacement où ils doivent être placés dans la barre d’outils. En fonction de la façon dont l’objet de rappel répond au message **SFVM \_ GETBUTTONINFO** , les boutons spécifiés par le paramètre *pbtn* seront ajoutés ou ajoutés aux boutons standard de l’objet d’affichage des dossiers système ou remplacent le jeu standard.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

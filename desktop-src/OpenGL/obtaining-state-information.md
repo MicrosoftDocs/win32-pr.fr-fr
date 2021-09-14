@@ -8,12 +8,12 @@ keywords:
 - informations d’État OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d13719964412bf8b74b9d2f4ef58d5a153a56fc2f8d15a3d8788cef94762637
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8329fd34fc68122be8d63e4dc28756f88faf7797
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144161"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233555"
 ---
 # <a name="obtaining-state-information"></a>Obtention d’informations d’État
 

@@ -5,11 +5,11 @@ ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 8b8a1ce068b03ddf2a7aba40a0044f79914102d3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234953"
 ---
 # <a name="list-views"></a>Affichages de liste
 
@@ -35,7 +35,7 @@ Un affichage de liste est plus qu’une zone de liste fonctionnelle plus flexibl
 
 
 
-|   Utilisation                          | Zones de liste                 | Affichages de liste               |
+|   Usage                          | Zones de liste                 | Affichages de liste               |
 |-----------------------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | **Type de données**<br/>    | Options de données et de programme.<br/> | Données uniquement.<br/>                                                                                                                         |
 | **Contents**<br/>     | Étiquettes uniquement.<br/>                   | Étiquettes et données auxiliaires, éventuellement dans plusieurs colonnes.<br/>                                                                           |

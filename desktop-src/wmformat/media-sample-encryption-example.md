@@ -3,7 +3,7 @@ title: Exemple de chiffrement d’échantillon de média
 description: Exemple de chiffrement d’échantillon de média
 ms.assetid: f57f9ffc-47fd-47fb-b553-07b9cd6abb70
 keywords:
-- Windows Media Format SDK, support Sample Encryption
+- Windows Media Format SDK, Media Sample Encryption
 - Windows Media Format SDK, exemple de code
 - Windows Media Format SDK, exemples de code
 - gestion des droits numériques (DRM), exemple de chiffrement de supports
@@ -21,11 +21,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4a669ab957aa7510cdd57daca798ec3e3ac3bf73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029806"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234594"
 ---
 # <a name="media-sample-encryption-example"></a>Exemple de chiffrement d’échantillon de média
 
@@ -78,9 +78,9 @@ EXIT:
 [**Exemples d’importation DRM**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

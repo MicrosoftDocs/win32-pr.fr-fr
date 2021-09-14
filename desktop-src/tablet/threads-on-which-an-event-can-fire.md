@@ -4,12 +4,12 @@ ms.assetid: d1a5ab9b-d474-4ed7-9aa8-b5bdb771934f
 title: Threads sur lesquels un événement peut se déclencher
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d0dce21637213dbb993de0ce1224776bf0c26fa7bed09afa6d28dca228fb08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd21f74c51b89ae91fd1a9fc4c1b34638c0a923f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119589509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235055"
 ---
 # <a name="threads-on-which-an-event-can-fire"></a>Threads sur lesquels un événement peut se déclencher
 

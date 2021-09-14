@@ -4,12 +4,12 @@ ms.assetid: eb671f34-7366-4182-b72e-0dd7830751e0
 title: Stratégie de métadonnées de photo System. GPS. DestDistanceRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0d7973a3be36f9a7624ed8679f364c898d69b622de067bdd2595f3b919a964f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bba6e04bee00aaed868fcc02059403fe479f8cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234858"
 ---
 # <a name="systemgpsdestdistanceref-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. DestDistanceRef
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 25}    | ascii       |
 | 2     | /xmp/exif:GPSDestDistanceRef | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 25}    | ascii       |
 | 2     | /xmp/exif:GPSDestDistanceRef | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         |
+| JSON | Chemin d’accès                         |
 |-------|------------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 25}    |
 | 2     | /xmp/exif:gpsdestdistanceref |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 25}             | ascii       |
 | 2     | /ifd/xmp/exif:GPSDestDistanceRef | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 25}             | ascii       |
 | 2     | /ifd/xmp/exif:GPSDestDistanceRef | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             |
+| JSON | Chemin d’accès                             |
 |-------|----------------------------------|
 | 1     | /IFD/GPS/{UShort = 25}             |
 | 2     | /ifd/xmp/exif:gpsdestdistanceref |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

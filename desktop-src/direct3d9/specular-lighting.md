@@ -4,12 +4,12 @@ ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: Éclairage spéculaire (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84597b63ebd064fbe27ae90b673e9c91166be96f6f45b039ba29a16de9011054
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b16d71bd8d814e104cf8a90d1d1fe9b15ba10f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118520156"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291771"
 ---
 # <a name="specular-lighting-direct3d-9"></a>Éclairage spéculaire (Direct3D 9)
 
@@ -99,7 +99,7 @@ La détermination du vecteur à mi-chemin de cette manière peut nécessiter de 
 
 Ce paramètre est moins gourmand en calculs, mais beaucoup moins précis. il est donc mieux utilisé par les applications qui utilisent la projection orthogonale.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 Dans cet exemple, l’objet est coloré à l’aide de la couleur de la lumière spéculaire et d’une couleur spéculaire. Le code est illustré ci-dessous.
 

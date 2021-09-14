@@ -5,11 +5,11 @@ ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 9daf06722430861a79fb638cbb6211ae50010a0e
-ms.sourcegitcommit: 0ab75073bbeec7ca2899f8051626a8b772073f82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "122401012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234954"
 ---
 # <a name="progressive-disclosure-controls"></a>Contrôles de divulgation progressive
 

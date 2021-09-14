@@ -13,12 +13,12 @@ keywords:
 - IWMReaderTypeNegotiation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd1e6dacf4daac3f8c5f74fa1b4d9dd83c5cb3be538dc983b671a9f9096325f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d49999c3da2afd05b0d2231d259d24a50356eb4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027357"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234552"
 ---
 # <a name="output-format-enumeration"></a>Énumération de format de sortie
 

@@ -19,12 +19,12 @@ keywords:
 - Windows codec Audio 9 Professional, contrôle de plage dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55251dd88ce7b9427fcee33d5988a3736b4b6f36838e269bb53a11f3b5480f05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 077ebc0052d0154aec395f371a5c2dc3ffd46c67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117653862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234527"
 ---
 # <a name="to-use-dynamic-range-control"></a>Pour utiliser le contrôle de plage dynamique
 

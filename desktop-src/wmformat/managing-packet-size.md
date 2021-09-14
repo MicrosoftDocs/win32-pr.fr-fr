@@ -12,12 +12,12 @@ keywords:
 - IWMPacketSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4b8755eccdcc0042532be4359cd51fce2ef379b51882e6cc4585c48c8769a55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22e5bb0720d54338a754838e3d44c4479e55af9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117846711"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234606"
 ---
 # <a name="managing-packet-size"></a>Gestion de la taille des paquets
 

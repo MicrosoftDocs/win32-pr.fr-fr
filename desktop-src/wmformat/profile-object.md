@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 1d6763d098819bde7d5db404aeffef3cd333d9b1
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103841966"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234534"
 ---
 # <a name="profile-object"></a>Profile (objet)
 
@@ -38,7 +38,7 @@ Pour créer un objet de profil, appelez l’une des méthodes suivantes.
 
 
 
- 
+ 
 
 Toutes les méthodes du tableau précédent définissent un pointeur vers une interface **IWMProfile** . Les autres interfaces de l’objet de profil peuvent être obtenues en appelant la méthode **QueryInterface** .
 
@@ -57,7 +57,7 @@ Les interfaces suivantes sont prises en charge par chaque objet de profil.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -72,9 +72,9 @@ Les interfaces suivantes sont prises en charge par chaque objet de profil.
 [**Profils**](profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

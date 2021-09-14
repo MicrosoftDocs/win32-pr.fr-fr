@@ -4,12 +4,12 @@ ms.assetid: 82034950-78a7-4bab-b449-1b8ea7d90676
 title: L’environnement de développement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d6c0de35fa84ec4ee01b3f25aaefec6ab3470fde83161f7aaf2157197bbf1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fefa29a518beaf21aa8b2457abf17d9581075f73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449212"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235062"
 ---
 # <a name="the-development-environment"></a>L’environnement de développement
 

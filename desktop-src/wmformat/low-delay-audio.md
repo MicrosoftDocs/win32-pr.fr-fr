@@ -10,12 +10,12 @@ keywords:
 - audio à faible retards
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da92450b32e65401e71f0eac11fec994d8f5427714a3d838264819743db476ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be8cedd3a6bb54942f5a517c7133e993cf5b11cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117654826"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234612"
 ---
 # <a name="low-delay-audio"></a>Audio Low-Delay
 

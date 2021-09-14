@@ -4,12 +4,12 @@ description: Windows 7 permet aux développeurs de créer des applications disti
 ms.assetid: 0c3c77ba-bad9-4143-a5b5-7ff76a5aaf97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8878aa9e5d5363456b555718a4bc9441f1fdfe18958eff7611f8536e4cfd4fe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: acd38ec8799ddd86f634fea3fe1a01f768f2099d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234828"
 ---
 # <a name="richer-application-experiences"></a>Expériences d’applications plus riches
 

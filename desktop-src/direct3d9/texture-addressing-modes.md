@@ -4,12 +4,12 @@ ms.assetid: 2e23bcb3-9eba-49d9-93ce-0a4fbb15f746
 title: Modes d’adressage de la texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bb1ccc45d6f3663f3e9f7e0bb1a721f594f7834db7de4541aa1dfece2954a02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43ebad5fdb141c41c43c651a2188640d7a6b764e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291759"
 ---
 # <a name="texture-addressing-modes-direct3d-9"></a>Modes d’adressage de la texture (Direct3D 9)
 

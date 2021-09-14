@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 0863db300f18e0231143b4f3aaa28cf4fcdb9ff1a46f4c92bd99d2092fdc088d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42f98ae99814495029c67d41b05e86182c6b8b34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118221496"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235223"
 ---
 # <a name="ishelldispatchtilevertically-method"></a>Méthode IShellDispatch. TileVertically
 
@@ -45,7 +45,7 @@ IShellDispatch.TileVertically()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. TileVertically**](shell-tilevertically.md) .
 
@@ -113,7 +113,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: La personnalisation est le positionnement émotionnel d’un produi
 ms.assetid: 49c10879-2f3a-4dff-b628-8d70e389fae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 91d1446d3d3f499f0b56f857b4e2806e266e32df1bb4120d93416eb1cb225581
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea9954c7ce0c082cf6b1b692cdccf5a7d6a3a132
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119090534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234905"
 ---
 # <a name="software-branding"></a>Personnalisation des logiciels
 
@@ -182,7 +182,7 @@ La personnalisation est une compétence spécialisée qui est le mieux effectué
 -   **Utilisez des logos graphiques.** Les logos graphiques sont plus stables que les logos de texte, car ils ne sont pas affectés par la police, la taille du texte, le module linguistique ou les modifications de thème.
 -   **N’utilisez pas de logos animés.**
 
-### <a name="controls"></a>Contrôles
+### <a name="controls"></a>Commandes
 
 -   **N’utilisez pas de contrôles personnalisés pour la personnalisation.** Utilisez plutôt des contrôles personnalisés lorsque cela est nécessaire pour créer une expérience immersive spéciale ou lorsque des fonctionnalités spéciales sont nécessaires.
 

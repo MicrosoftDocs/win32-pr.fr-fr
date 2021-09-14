@@ -4,12 +4,12 @@ description: Windows 7 a modifié la manière dont les développeurs utilisent l
 ms.assetid: ed323658-dfd6-4c1b-ada2-5d68ebb56482
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7072a19ee0a746b0764850230a06de1ca72be8ca4633f1350165297f1ef4036
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 98fe94fd48ffa16080054a22b4d377ab4757d61d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118203889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234822"
 ---
 # <a name="sensor-platform"></a>Plateforme de capteur
 

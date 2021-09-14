@@ -4,12 +4,12 @@ description: Effectue un filtre de comparaison. Cette instruction se comporte co
 ms.assetid: 5F11F091-AF2F-4293-88C7-824F11FE01E4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b2866bdfddf91f9bd6ab1bbccbc9d76de071065b3cf28c1093cb1fdb041f3db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24ec2889dd3ea4c86af51c8e36bf2e302c6ad4dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119981499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291711"
 ---
 # <a name="sample_c_lz-sm4---asm"></a>exemple \_ c \_ LZ (SM4-ASM)
 
@@ -38,7 +38,7 @@ Effectue un filtre de comparaison. Cette instruction se comporte comme l' [exemp
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur « LZ » correspond au niveau zéro. Étant donné que les dérivés sont ignorés, cette instruction est disponible dans les nuanceurs autres que le nuanceur de pixels.
 
@@ -66,11 +66,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

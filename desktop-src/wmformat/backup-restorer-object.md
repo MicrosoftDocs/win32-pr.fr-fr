@@ -10,12 +10,12 @@ keywords:
 - restauration de sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a7bf14f8afda284d8d0ae3d4f36d37fff0baa63f4f42802a98830038ec2d850
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d08e8bec9bb7bbc2a45fbf632e69d230a2536633
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234708"
 ---
 # <a name="backup-restorer-object"></a>Objet de restauration de sauvegarde
 

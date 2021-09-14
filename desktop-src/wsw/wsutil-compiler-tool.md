@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9a4e5761a068e991463451595c410c01f868d4d3e6c9df6ab25a7cb232d678
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa83da50888fcf2d66fac7fb00b3a31ae2919738
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119324899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234348"
 ---
 # <a name="wsutil-compiler-tool"></a>Outil compilateur WsUtil
 

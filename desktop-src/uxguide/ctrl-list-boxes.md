@@ -5,11 +5,11 @@ ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 0f1fe5a0c804e1c0b5b2636b4c7747caa9fb1049
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986902"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234959"
 ---
 # <a name="list-boxes"></a>Zones de liste
 

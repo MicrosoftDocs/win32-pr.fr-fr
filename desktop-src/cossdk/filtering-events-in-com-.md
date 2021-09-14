@@ -5,25 +5,25 @@ title: Filtrage des événements dans COM+
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6d3a7d152813e4806a9cfb6a342255e0981ecf37
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748861"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291799"
 ---
 # <a name="filtering-events-in-com"></a>Filtrage des événements dans COM+
 
 Les événements COM+ offrent deux moyens de contrôler les événements qui atteignent les abonnés : le filtrage du serveur de *publication* et le *filtrage des paramètres*.
 
-## <a name="publisher-filtering"></a>Filtrage de l’éditeur
+## <a name="publisher-filtering"></a>Publisher Filtration
 
-Le filtrage de l’éditeur contrôle l’ordre et le déclenchement d’une méthode d’événement par un objet de [classe d’événements](the-com--event-class-object.md) . Le filtrage de l’éditeur permet au serveur de publication de déterminer les abonnés qui reçoivent un événement particulier.
+Publisher filtrage contrôle l’ordre et le déclenchement d’une méthode d’événement par un objet de [classe d’événements](the-com--event-class-object.md) . le filtrage Publisher permet au serveur de publication de déterminer les abonnés qui reçoivent un événement particulier.
 
-Un exemple d’utilisation efficace du filtrage de l’éditeur est celui d’une bourse. La plupart des abonnés veulent savoir quand une nouvelle action est ajoutée. Toutefois, un grand nombre de ces mêmes abonnés peuvent ne pas souhaiter savoir à quel moment chaque cours d’action change. Le filtrage de l’éditeur fournit la granularité requise pour remettre efficacement les événements aux abonnés qui souhaitent ces informations.
+Un exemple d’utilisation efficace du filtrage de l’éditeur est celui d’une bourse. La plupart des abonnés veulent savoir quand une nouvelle action est ajoutée. Toutefois, un grand nombre de ces mêmes abonnés peuvent ne pas souhaiter savoir à quel moment chaque cours d’action change. le filtrage Publisher fournit la granularité requise pour remettre efficacement les événements aux abonnés qui souhaitent ces informations.
 
 Lorsqu’une méthode est appelée sur l’objet de classe d’événements instancié, elle collecte tous les filtres d’éditeur sur cette méthode. Le filtre force l’objet d’événement à déclencher la méthode d’événement sur un abonné spécifique. Le filtre détermine les abonnements à activer et leur ordre de déclenchement. Par exemple, le filtre peut lire la liste des abonnements et créer la commande en fonction de certains critères d’application, puis appeler les abonnés dans cet ordre.
 
-Pour obtenir des instructions détaillées sur la création d’un filtre de serveur de publication, consultez [création d’un filtre](creating-a-publisher-filter.md)de serveur de publication.
+pour obtenir des instructions détaillées sur la création d’un filtre de serveur de publication, consultez [création d’un filtre de Publisher](creating-a-publisher-filter.md).
 
 ## <a name="parameter-filtering"></a>Filtrage des paramètres
 

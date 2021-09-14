@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer une chaîne de permutation qui
 ms.assetid: 0e290b37-0807-42c7-9e50-fd2db6affb14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71ef97b261d9831c451c8a81bfc1f4d9d13b1cd423ac28f38de4b90c1d4ae100
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8355eafff6e233b89be82fd9e58ca53224248e84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118530571"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291787"
 ---
 # <a name="how-to-create-a-swap-chain"></a>Comment : créer une chaîne de permutation
 

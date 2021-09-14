@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_filtering.htm
 title: Filtrage de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758ee51df65ffa4dddf793db83fe618107886cd4c20497f0e8090373a1415beb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: faeeb83e1a3bc7fc03534771b15b6076aeb48f8c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291735"
 ---
 # <a name="texture-filtering-direct3d-9"></a>Filtrage de texture (Direct3D 9)
 

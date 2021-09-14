@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d233559739e86a1cf5a8cbdc9af18ea6c12550c5f6118d63b5382689cd80bba2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 70f001cbea05f21a96bfbf1b5bdbf43a1d7da07d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119671889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291719"
 ---
 # <a name="rwtexture3dloadint-function"></a>RWTexture3D :: Load (int), fonction
 
@@ -48,19 +48,19 @@ Emplacement de la texture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Tapez :
 
 Le type de retour correspond au type dans la déclaration pour l’objet [**RWTexture3D**](sm5-object-rwtexture3d.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

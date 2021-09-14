@@ -5,11 +5,11 @@ title: Stratégie de métadonnées de photo System. photo. PeopleNames
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5540356001cdd33bb7c0d3340534f9c69e230a5d
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234834"
 ---
 # <a name="systemphotopeoplenames-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. PeopleNames
 
@@ -99,7 +99,7 @@ Impossible d’écrire cette propriété à l’aide de la stratégie de métado
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

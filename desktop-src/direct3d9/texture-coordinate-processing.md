@@ -4,12 +4,12 @@ ms.assetid: a6126946-8f75-4b3a-b017-d1014e917e9c
 title: Traitement des coordonnées de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ce5a002e7171f97ab60c0af3cd5e8228cb8222ba70b8e718f2d93c28cebf33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a161d3675a5859702368a62719124aa029ee455
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291746"
 ---
 # <a name="texture-coordinate-processing-direct3d-9"></a>Traitement des coordonnées de texture (Direct3D 9)
 

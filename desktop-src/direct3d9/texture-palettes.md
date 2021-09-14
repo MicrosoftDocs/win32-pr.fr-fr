@@ -4,12 +4,12 @@ ms.assetid: dea4b4bc-7eba-40fa-9c2c-0851fe7e231b
 title: Palettes de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d755abb638ab1dd94e25edd98b2daef5e65d5a54cca7baf21a74e7d06173eed9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a0fbb1c5d6766b879b898145ec2385a41d94b8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291164"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291734"
 ---
 # <a name="texture-palettes-direct3d-9"></a>Palettes de texture (Direct3D 9)
 

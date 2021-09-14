@@ -4,12 +4,12 @@ ms.assetid: 911a0d81-bd12-4155-b45a-ae1a18f2dd07
 title: Stratégie de métadonnées de photo System. GPS. MeasureMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 827cd278a71b23934fb0475e78d98b25a9f2b72d413b70f9abc60ba3dbe2c3fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4a9449ca9a7d1ee5ef213c37562392be2842a09f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119882319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234851"
 ---
 # <a name="systemgpsmeasuremode-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. MeasureMode
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 10} | ascii       |
 | 2     | /xmp/exif:GPSMeasureMode  | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      | Format de disque |
+| JSON | Chemin d’accès                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 10} | ascii       |
 | 2     | /xmp/exif:GPSMeasureMode  | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      |
+| JSON | Chemin d’accès                      |
 |-------|---------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 10} |
 | 2     | /xmp/exif:gpsmeasuremode  |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 10}         | ascii       |
 | 2     | /ifd/xmp/exif:GPSMeasureMode | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         | Format de disque |
+| JSON | Chemin d’accès                         | Format de disque |
 |-------|------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 10}         | ascii       |
 | 2     | /ifd/xmp/exif:GPSMeasureMode | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                         |
+| JSON | Chemin d’accès                         |
 |-------|------------------------------|
 | 1     | /IFD/GPS/{UShort = 10}         |
 | 2     | /ifd/xmp/exif:gpsmeasuremode |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ## <a name="related-topics"></a>Rubriques connexes
 

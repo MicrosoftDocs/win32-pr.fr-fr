@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_coordinates.htm
 title: Coordonnées de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ff2c2c86eebac77d910b5dc6c583df380f0bbb2ccb3dca2fc65b9e929e7abb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dcf4c886c187aaa2218508a180e23644a544739
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118519797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291739"
 ---
 # <a name="texture-coordinates-direct3d-9"></a>Coordonnées de texture (Direct3D 9)
 

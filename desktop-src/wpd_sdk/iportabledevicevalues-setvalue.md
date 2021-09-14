@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f6af975b2876a177207df4f57bfe1f76d78a4b7239ce6d9c4cfcab52f0cf9042
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c2ba6c5b6f015e5961356ff8e246605bfeddd31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234486"
 ---
 # <a name="iportabledevicevaluessetvalue-method"></a>IPortableDeviceValues :: SetValue, méthode
 
@@ -55,7 +55,7 @@ HRESULT SetValue(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -69,7 +69,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le VARTYPE de *pValue* est VT \_ Vector ou VT \_ UI1, la définition  d’une mémoire tampon de taille zéro ou nulle n’est pas prise en charge. Par exemple, ni pValue. CAUB. pElems = **null** , ni pValue. CAUB. cElems = 0 n’est autorisé.
 
@@ -77,7 +77,7 @@ Cette méthode peut être utilisée pour récupérer une valeur de n’importe q
 
 Si une valeur existante a la même clé que celle spécifiée par le paramètre de *clé* , elle remplace la valeur existante sans avertissement. La mémoire clé existante est libérée de manière appropriée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

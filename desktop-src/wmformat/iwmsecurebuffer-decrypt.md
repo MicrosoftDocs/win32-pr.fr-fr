@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9867cb6476ab0a2838903c906f662032e14dfb0d4fa0547b045672e03b6ce8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6f48ae389090840e085c90b0bc5444e7cd6784e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119930099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234666"
 ---
 # <a name="iwmsecurebufferdecrypt-method"></a>IWMSecureBuffer ::D méthode ecrypt
 
@@ -50,7 +50,7 @@ Pointeur vers une interface de canal sécurisé contenant le pointeur de donnée
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -68,7 +68,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -83,7 +83,7 @@ Aucun.
 
 <dl> <dt>
 
-[**Encrypt**](iwmsecurebuffer-encrypt.md)
+[**Codage**](iwmsecurebuffer-encrypt.md)
 </dt> <dt>
 
 [**Interface IWMSecureBuffer**](iwmsecurebuffer.md)

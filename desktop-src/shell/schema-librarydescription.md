@@ -5,11 +5,11 @@ title: Élément libraryDescription (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6f7fbd9dc23f80affab56396389362de9825b4c3
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235181"
 ---
 # <a name="librarydescription-element-library-schema"></a>Élément libraryDescription (schéma de bibliothèque)
 
@@ -69,19 +69,19 @@ L' &lt; &gt; élément libraryDescription est le conteneur de niveau supérieur 
 | Élément parent | Éléments enfants                                                                                                          |
 |----------------|-------------------------------------------------------------------------------------------------------------------------|
 |                | [élément Name (schéma de bibliothèque)](schema-library-name.md). Obligatoire.                                                     |
-|                | [élément ownerSID (schéma de bibliothèque)](schema-library-ownersid.md). facultatif.                                             |
-|                | [version, élément (schéma de bibliothèque)](schema-library-version.md). Facultatif.                                               |
-|                | [élément isLibraryPinned (schéma de bibliothèque)](schema-library-islibrarypinned.md). Facultatif.                               |
-|                | [élément iconReference (schéma de bibliothèque)](schema-library-iconreference.md). Facultatif.                                   |
-|                | [élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md). Facultatif.                                   |
-|                | [élément templateInfo (schéma de bibliothèque)](schema-library-templateinfo.md). Facultatif.                                     |
+|                | [élément ownerSID (schéma de bibliothèque)](schema-library-ownersid.md). Optionnel.                                             |
+|                | [version, élément (schéma de bibliothèque)](schema-library-version.md). Optionnel.                                               |
+|                | [élément isLibraryPinned (schéma de bibliothèque)](schema-library-islibrarypinned.md). Optionnel.                               |
+|                | [élément iconReference (schéma de bibliothèque)](schema-library-iconreference.md). Optionnel.                                   |
+|                | [élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md). Optionnel.                                   |
+|                | [élément templateInfo (schéma de bibliothèque)](schema-library-templateinfo.md). Optionnel.                                     |
 |                | [élément searchConnectorDescriptionList (schéma de bibliothèque)](schema-library-searchconnectordescriptionlist.md). Obligatoire. |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 chaque bibliothèque peut contenir un ou plusieurs emplacements qui peuvent être explorés ou recherchés par un utilisateur à l’aide de Windows Explorer. Les emplacements sont définis par des connecteurs de recherche utilisant des éléments [ &lt; searchConnectorDescription &gt; ](schema-library-searchconnectordescription.md) dans un élément conteneur [ &lt; searchConnectorDescriptionList &gt; ](schema-library-searchconnectordescriptionlist.md) .
 

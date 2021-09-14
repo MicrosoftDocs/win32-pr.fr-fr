@@ -9,12 +9,12 @@ keywords:
 - objets, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ccd206a548093602f609a11ed11a8d98b910bc35eefb6ba55b985427ac1d212
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87d73672891395d6491009e1c62fac1f9eb81dfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234564"
 ---
 # <a name="objects-windows-media-format-11-sdk"></a>Objets (SDK du format Windows Media 11)
 

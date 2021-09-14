@@ -10,12 +10,12 @@ keywords:
 - objets de propriétés de média de sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6848270147a1a191faf93830f062cf7768a19ccd38a77598d15617197a1967a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61490464381a0b4e58be7994dfaeb0dfec2baa76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119084630"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234551"
 ---
 # <a name="output-media-properties-object"></a>Objet de propriétés du média de sortie
 

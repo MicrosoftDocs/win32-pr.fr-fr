@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_CONTEXT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c34f201c40e3079a3c26ced97e2664679f04ccec6b7804844dd305422abadfdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c041307eadd1ebcea379f9de0880fc011bd137ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234377"
 ---
 # <a name="ws_security_context"></a>\_contexte de sécurité WS \_
 
@@ -24,11 +24,11 @@ typedef struct _WS_SECURITY_CONTEXT WS_SECURITY_CONTEXT;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

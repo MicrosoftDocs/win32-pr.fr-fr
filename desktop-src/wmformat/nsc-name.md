@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a26bc68992e7a05e59ed8030fa72f0984a47a23a3b0d79fb0454c5e321f594ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9eb82af4cd9f4eb5618c8986b323d390c81296c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234581"
 ---
 # <a name="nsc_name"></a>\_Nom NSC
 

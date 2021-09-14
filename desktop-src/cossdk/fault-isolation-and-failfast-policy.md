@@ -4,12 +4,12 @@ ms.assetid: 219c417c-a8a1-49eb-bc5a-702a16994d66
 title: Isolation des erreurs et stratégie FailFast
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f209c602fe6c11dbabd50852ff27db6ead1e4beaadd87884fa87da6c63350c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc097a6d45f10d4ef8a8d059b1376862edd785ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117916443"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291803"
 ---
 # <a name="fault-isolation-and-failfast-policy"></a>Isolation des erreurs et stratégie FailFast
 

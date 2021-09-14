@@ -5,11 +5,11 @@ ms.assetid: e8a9656d-48e7-4580-a84d-2b829e7a692f
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b0c8dab154e1ef6c736849720856a23fdfe2e7b3
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127291702"
 ---
 # <a name="sdk-user-properties"></a>Propriétés de l’utilisateur du SDK
 
@@ -42,9 +42,9 @@ Cet exemple est une instance du schéma natif [eaphostusercredentials](eaphostus
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

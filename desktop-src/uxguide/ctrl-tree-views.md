@@ -4,12 +4,12 @@ description: Avec une arborescence, les utilisateurs peuvent afficher et interag
 ms.assetid: f0206485-e028-41d8-9be2-5d59f0a0b677
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b0b5a456673338fec7240bb3b3a11047327239f70675786f26add1bbecdb7211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ade51b421350dc90bf72e2ff1a683bf1d352f7c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118217647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234906"
 ---
 # <a name="tree-views"></a>Arborescences
 
@@ -179,7 +179,7 @@ Les arborescences présentent plusieurs modèles d’utilisation :
 -   **Pour améliorer en toute sécurité la détectabilité, placez un élément dans plusieurs conteneurs lorsque :**
     -   L’élément n’est pas lié à d’autres éléments similaires (par conséquent, les utilisateurs ne sont pas confondus par des associations incorrectes).
     -   Il n’y a que quelques éléments situés de manière redondante (l’arborescence n’est donc pas encombrée).
--   **Utilisez la structure hiérarchique la plus simple qui fonctionne bien.** Pour ce faire :
+-   **Utilisez la structure hiérarchique la plus simple qui fonctionne bien.** Pour cela, procédez de la façon suivante :
     -   Placez les objets les plus fréquemment utilisés dans les deux premiers niveaux de l’arborescence (sans compter le nœud racine) et placez les objets les moins fréquemment sollicités plus loin dans la hiérarchie.
     -   Éliminez les conteneurs non nécessaires ou combinez des conteneurs de niveau intermédiaire redondants.
 -   **Préférez une profondeur supérieure.** Dans l’idéal, une arborescence ne doit pas comporter plus de quatre niveaux et les objets les plus fréquemment utilisés doivent apparaître dans les deux premiers niveaux.
