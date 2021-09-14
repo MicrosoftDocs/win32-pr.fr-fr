@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 15e84a063b8f094dbeee02f3000bdd1c69356f5fa664f6e6f6aff87d19d07dd3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb30be6ea5250a90ef8aa18065e9be679946e503
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012093"
 ---
 # <a name="installerrelatedproducts-property"></a>Installer. RelatedProducts, propriété
 
@@ -39,11 +39,11 @@ propVal = Installer.RelatedProducts
 
 Code de mise à niveau des produits connexes que le programme d’installation énumère.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour énumérer les produits connexes, une application itère au sein du [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Étant donné que les produits associés ne sont pas triés, tous les nouveaux produits associés possèdent un index arbitraire. Cela signifie que la fonction peut retourner des produits connexes dans n’importe quel ordre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

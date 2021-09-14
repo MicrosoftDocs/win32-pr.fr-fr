@@ -4,12 +4,12 @@ ms.assetid: 9cf4d796-3955-456b-9db9-ae9fa83752f6
 title: Entrées Access Control
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8adcc382da130c57c55b869c47c8837c7780a7cff4e6dbdd881e55aa7b724dc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49fe98cf1c1c4d5fb23091a6539564ff964202cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013762"
 ---
 # <a name="access-control-entries"></a>Entrées Access Control
 

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Msi.dll
 ms.openlocfilehash: 621fac51155b2ac89eba40d39da6d5af6c305e67
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523478"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012133"
 ---
 # <a name="installeropenpackage-method"></a>Installer. OpenPackage, méthode
 
@@ -54,7 +54,7 @@ Valeur entière facultative qui spécifie si **OpenPackage** doit ignorer l’é
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -66,7 +66,7 @@ Notez qu’un seul objet de [**session**](session-object.md) peut être ouvert p
 
 Un objet de [**session**](session-object.md) sécurisé ignore l’état actuel de l’ordinateur lors de l’ouverture du package et empêche toute modification de l’état actuel de l’ordinateur. Pour plus d’informations, consultez [**MsiOpenPackageEx**](/windows/desktop/api/Msi/nf-msi-msiopenpackageexa).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

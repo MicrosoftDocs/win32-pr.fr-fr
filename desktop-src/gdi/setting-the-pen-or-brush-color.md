@@ -4,12 +4,12 @@ ms.assetid: d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc
 title: Définition de la couleur du stylet ou du pinceau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b5d095a41dc01bcf2023ddb431679cce01f7c60a2110ef3faf078411334aaf0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 087d4ca2bcd19457c66dddb8471c9ee2cda99294
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012448"
 ---
 # <a name="setting-the-pen-or-brush-color"></a>Définition de la couleur du stylet ou du pinceau
 

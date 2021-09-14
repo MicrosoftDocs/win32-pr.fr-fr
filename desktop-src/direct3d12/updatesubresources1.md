@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb1e48f4bc574d0b032b878c19c7749f63f86aba21a659c1c0a8f6f526f5bce5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 885ee058aacbfca238448830f2b7b1b54a298f89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119496599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012856"
 ---
 # <a name="updatesubresources-function"></a>Updatesubresources par fonction)
 
@@ -140,13 +140,13 @@ Pointeur vers un tableau (de longueur *NumSubresources*) de pointeurs vers des s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **UINT64**](/windows/desktop/WinProg/windows-data-types)**
 
 Taille en octets de la mémoire tampon.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

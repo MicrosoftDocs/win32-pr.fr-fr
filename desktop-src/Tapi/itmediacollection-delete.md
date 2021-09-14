@@ -5,15 +5,15 @@ title: ITMediaCollection ::D méthode supprimable (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f0ffabee84bd7d04f517ef26ad5259f642cfed48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095745"
 ---
 # <a name="itmediacollectiondelete-method"></a>ITMediaCollection ::D méthode supprimable
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **Delete** supprime le support correspondant à l’index spécifié.
 
@@ -39,7 +39,7 @@ Index du média à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -60,9 +60,9 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 ## <a name="remarks"></a>Notes
 
-La plupart des listes C et C++ sont de base 0, mais cet index est basé sur 1 pour la compatibilité Visual Basic, ce qui signifie que le premier élément a un numéro d’index de 1.
+la plupart des listes C et C++ sont de base 0, mais cet index est basé sur 1 pour la compatibilité Visual Basic, ce qui signifie que le premier élément a un numéro d’index de 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8d7fc09c-1017-4a30-be00-b7b0e5f2a057
 title: Installation et suppression d’assemblys
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0117c29a9bcc49a549529a6e05f1124236cb845d9b7792d7bcbda143fd6d08e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f44dee05940ab3c05e97a7145f9b2363226bb07c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012055"
 ---
 # <a name="installing-and-removing-assemblies"></a>Installation et suppression d’assemblys
 

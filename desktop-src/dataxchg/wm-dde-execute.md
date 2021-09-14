@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_EXECUTE (DDE. h)
-description: Une application cliente échange dynamique de données (DDE) publie un \_ \_ message WM Execute DDE dans une application de serveur DDE pour envoyer une chaîne au serveur à traiter en tant que série de commandes.
+description: une application cliente échange dynamique de données (dde) publie un \_ \_ message WM execute dde dans une application de serveur dde pour envoyer une chaîne au serveur à traiter en tant que série de commandes.
 ms.assetid: 23c18a57-83ee-4fd3-a5bc-71645bda34eb
 keywords:
-- WM_DDE_EXECUTE l’échange de données de message
+- WM_DDE_EXECUTE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 957b5cadcd2383d535aa67258725bafff57ab4f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384784"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095398"
 ---
 # <a name="wm_dde_execute-message"></a>\_Message d’exécution DDE de WM \_
 
-Une application cliente échange dynamique de données (DDE) publie un message **WM \_ \_ Execute DDE** dans une application de serveur DDE pour envoyer une chaîne au serveur à traiter en tant que série de commandes. L’application serveur doit poster un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE en réponse.
+une application cliente échange dynamique de données (dde) publie un message **WM \_ \_ execute dde** dans une application de serveur dde pour envoyer une chaîne au serveur à traiter en tant que série de commandes. L’application serveur doit poster un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE en réponse.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -100,7 +100,7 @@ L’application serveur publie le message d’accusé de réception [**\_ DDE DD
 
 Sauf indication contraire d’un sous-protocole, le serveur ne doit pas envoyer le message d’accusé de réception DDE de l’échange de messages ( [**\_ \_ ACK**](wm-dde-ack.md) ) pour que toutes les actions spécifiées par la chaîne de commande d’exécution soient terminées. La seule exception à cette règle est lorsque la chaîne oblige le serveur à mettre fin à la conversation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -108,7 +108,7 @@ Sauf indication contraire d’un sous-protocole, le serveur ne doit pas envoyer 
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 
@@ -140,7 +140,7 @@ Sauf indication contraire d’un sous-protocole, le serveur ne doit pas envoyer 
 [**\_ACK DDE \_ ACK**](wm-dde-ack.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

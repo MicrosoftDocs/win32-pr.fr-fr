@@ -4,12 +4,12 @@ ms.assetid: 03ad763b-5223-41b5-b0cf-1f13c761f5c2
 title: 'ITParticipant :: get_Status, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1585c9605447e7b515885ecf9e30d060afb7a57d14c5b29a66025f2df9da05a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2de39ac0833f856e35cc120b4f4e5b00bcd617de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060847"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095710"
 ---
 # <a name="itparticipantget_status-method"></a>ITParticipant :: obtient l' \_ État, méthode
 
@@ -47,7 +47,7 @@ VARIANTE \_ true si le participant est activé sur le flux, variant \_ false s�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -65,11 +65,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’activation ou la désactivation de l’état d’un participant sur un flux permet à une application de désactiver un participant donné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

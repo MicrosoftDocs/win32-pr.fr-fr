@@ -12,12 +12,12 @@ keywords:
 - ombrage plat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee4265341e17843dbe4752bb51e5728aa54914ec5670c08b6b7921537050a6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 124bb002f6f133b4d47dd40e1a0e8738c512ce99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013988"
 ---
 # <a name="porting-shading-models"></a>Portage de modèles d’ombrage
 

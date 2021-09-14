@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 930c3ff43e11cfb71ffce6c7257d0124fe87aeaaf4ae065433f11b860020eeaa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2636922549635c4a1c5e6e0b36f308f62328dc60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012182"
 ---
 # <a name="iamtimelinetransabletransadd-method"></a>IAMTimelineTransable :: TransAdd, méthode
 
@@ -52,7 +52,7 @@ Pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) de la transi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la transition chevauche une transition existante, la méthode retourne E \_ INVALIDARG.
 
@@ -82,7 +82,7 @@ Si la transition chevauche une transition existante, la méthode retourne E \_ I
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

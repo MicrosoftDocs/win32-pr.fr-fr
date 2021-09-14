@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72e5823b7acadd3c1c0f3752606825d1b2981aac4a64903c5944e3df82252aaa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6edb4b58b630cfdcfd6eefc43b908cf6aeb0f084
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094922"
 ---
 # <a name="camthreadm_accesslock-member"></a>CAMThread :: m \_ AccessLock, membre
 
@@ -40,7 +40,7 @@ CCritSec m_AccessLock;
 
 Les méthodes [**CAMThread :: Create**](camthread-create.md) et [**CAMThread :: CallWorker**](camthread-callworker.md) contiennent ce verrou, pour sérialiser des opérations sur le thread.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,18 +1,18 @@
 ---
-title: Vue d’ensemble des signatures racines
+title: Vue d’ensemble des signatures racine
 description: Une signature racine est configurée par les listes de commandes App et Links pour les ressources requises par les nuanceurs.
 ms.assetid: 2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 85eb5882e4a893c2933c55281f21c49f2d7d50d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548563"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012884"
 ---
-# <a name="root-signatures-overview"></a>Vue d’ensemble des signatures racines
+# <a name="root-signatures-overview"></a>Vue d’ensemble des signatures racine
 
 Une signature racine est configurée par les listes de commandes App et Links pour les ressources requises par les nuanceurs. La liste de commandes Graphics comporte à la fois une signature de graphique et une signature racine de calcul. Une liste de commandes Compute aura simplement une signature racine de calcul. Ces signatures racines sont indépendantes les unes des autres.
 
@@ -48,9 +48,9 @@ Une application peut faire son propre compromis entre le nombre de tables de des
 
 <dl> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

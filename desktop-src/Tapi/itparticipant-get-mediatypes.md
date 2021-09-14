@@ -5,11 +5,11 @@ title: 'ITParticipant :: get_MediaTypes, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e464295f58d72e0b905387f188dc2cf6da9ad609
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540138"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095714"
 ---
 # <a name="itparticipantget_mediatypes-method"></a>ITParticipant :: \_ MediaTypes, méthode
 
@@ -39,7 +39,7 @@ Pointeur vers les indicateurs de type de média, tels que la \_ vidéo TAPIMEDIA
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -55,7 +55,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

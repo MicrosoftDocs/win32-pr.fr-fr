@@ -4,12 +4,12 @@ ms.assetid: 56487746-328d-4435-af58-368aaa15b32a
 title: Configuration d’une application serveur COM+ en tant qu’application de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11ad6ec0af4ddf6d7ac7bf703209af2412e1ca4e128a942e7e1ecd089b69e278
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3b3bbf8b691221590d6588c48dbef5198772439
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095445"
 ---
 # <a name="configuring-a-com-server-application-as-a-service-application"></a>Configuration d’une application serveur COM+ en tant qu’application de service
 

@@ -5,11 +5,11 @@ title: Objets Timer waitables
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2b9597617705fcd78bb71f63e33a475e3bca78e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095794"
 ---
 # <a name="waitable-timer-objects"></a>Objets Timer waitables
 

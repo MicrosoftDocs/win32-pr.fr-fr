@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 28b871224528581c3127553654dd57b7b991692c32f2c71cb99afa9b41443a0c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6ed17cf4fd57f3470a57b22daafa9858ba97f79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094777"
 ---
 # <a name="cseekingpassthrucseekingpassthru-destructor"></a>CSeekingPassThru. ~ CSeekingPassThru, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_blending.htm
 title: Fusion de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 688be4c80fb87d0d96f8f930ed85c9cc934fc4392151196ec0c510a4cbe482bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a89a87160bb85c1f62339380d46fa4b39736609
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095269"
 ---
 # <a name="texture-blending-direct3d-9"></a>Fusion de texture (Direct3D 9)
 

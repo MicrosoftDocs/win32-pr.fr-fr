@@ -4,12 +4,12 @@ ms.assetid: d5f1e10f-e5ad-45e6-a5ec-024905603012
 title: 'ITMediaCollection :: get_EnumerationIf, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe14475e216b5143b599aab50d12d1d0c548b5f64dd8e44edd2e6aab249905c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28a7e7d85c1f7a433a31360fabc8b5dac71e68ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095725"
 ---
 # <a name="itmediacollectionget_enumerationif-method"></a>ITMediaCollection :: \_ EnumerationIf, méthode
 
@@ -57,13 +57,13 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est interchangeable avec l’opération d’extraction de la valeur [**\_ \_ NewEnum**](itmediacollection-get--newenum.md) , sauf qu’elle retourne [**IEnumMedia**](ienummedia.md) au lieu de **IUnknown**.
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**IEnumMedia**](ienummedia.md) retournée par **ITMediaCollection :: \_ Enumerationlf**. L’application doit appeler **Release** sur l’interface **IEnumMedia** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

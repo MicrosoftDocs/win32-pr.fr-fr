@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 341f9b3f84646abe975c6543aef802450496154862353b7bbdd1af2c07c087ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c811a3ed85b9eb157920f700b34d5d9c99597e67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117830640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012329"
 ---
 # <a name="lvm_subitemhittest-message"></a>\_Message SUBITEMHITTEST LVM
 
@@ -39,11 +39,11 @@ Pointeur vers une structure [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de l’élément ou du sous-élément testé, le cas échéant, ou-1 dans le cas contraire. Si un élément ou un sous-élément se trouve aux coordonnées données, les champs de la structure [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) seront remplis avec les informations de correspondance applicables.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

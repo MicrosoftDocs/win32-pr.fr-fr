@@ -5,12 +5,12 @@ ms.assetid: 67C6B1D4-BF76-45A9-BADC-7C9520C900EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e1bc0826651334d3d137466cc34d194fb79ae4900075b9a145859c5fd37fbf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f4271055f88e38484041c225b6b17c6d75f0d98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012869"
 ---
 # <a name="shared-heaps"></a>Tas partagés
 

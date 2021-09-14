@@ -17,12 +17,12 @@ keywords:
 - B-spline rationnelle non uniforme (NURBS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9aa43bcc40c2b6a93eb5690abe4265f792a58a2520e579d536a08520ca4f29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f539e466ce8ade17d135c9369e1f641831792e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127014007"
 ---
 # <a name="porting-nurbs-curves"></a>Portage de courbes NURBS
 

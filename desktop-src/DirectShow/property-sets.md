@@ -4,12 +4,12 @@ ms.assetid: 4b8a917f-7a6c-4433-83f4-b83ef6d26115
 title: Jeux de propriétés (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c26bef876e0bde559ac506963f86a485a302a9ce6faf6c2699c62dabac3f72
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fcdc65efbc99eeed3a5f94ab33ce5ec982975852
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094673"
 ---
 # <a name="property-sets-directshow"></a>Jeux de propriétés (DirectShow)
 

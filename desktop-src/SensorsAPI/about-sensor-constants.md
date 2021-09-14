@@ -4,12 +4,12 @@ ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: À propos des constantes de capteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45cab8b5def4cdfa185a55dd993896fb5157563424b7753497413e5d7706465e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ea862d38af74058d11d3a6fa1eb11a702b3b277
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118890254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013568"
 ---
 # <a name="about-sensor-constants"></a>À propos des constantes de capteur
 

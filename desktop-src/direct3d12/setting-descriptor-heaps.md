@@ -5,12 +5,12 @@ ms.assetid: F0FF3D7C-1DAC-48C3-B47D-0378BE369F37
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3e2fcb7143b097709cb7a3c98669a7d20331bfa9553f4eac5f2cf45a1a90797
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c0e3a1b6c4863827e1d8e1bdfb33a0a64420211d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120119449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012875"
 ---
 # <a name="setting-and-populating-descriptor-heaps"></a>Définition et remplissage des tas de descripteurs
 

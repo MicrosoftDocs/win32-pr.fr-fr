@@ -31,11 +31,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 9baf3dea6a5ba68044142aed023006ebfecc2d34
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884088"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095122"
 ---
 # <a name="cim_softwareelement-class-cimwin32-wmi-providers"></a>CIM_SoftwareElement, classe (fournisseurs WMI CIMWin32)
 
@@ -998,7 +998,7 @@ La version de l’opération doit se présenter sous l’une des formes suivante
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ SoftwareElement** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

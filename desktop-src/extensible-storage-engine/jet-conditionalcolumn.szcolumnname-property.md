@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cdac3c7196ed2931aa49e3c91ea3bc01d8014bdc58145f65965546e9f2a73177
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9e8b7bd9c148ffce5bc92d6908aa6b5bf4f7f66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118486863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012522"
 ---
 # <a name="jet_conditionalcolumnszcolumnname-property"></a>JET_CONDITIONALCOLUMN. szColumnName, propriété
 
@@ -66,7 +66,7 @@ Type : [System. String](/dotnet/api/system.string)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-class.md)
 

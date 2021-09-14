@@ -4,12 +4,12 @@ ms.assetid: b01883d6-eae6-4f3a-b269-90c22827f116
 title: Ajout d’utilisateurs à un groupe d’applications en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8031ceea265240cb9fbefc7236ad301b64f86f2306f7fd9a819b6d8e257a85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7fa08ddd93ba1743a20e3eb14a5f62344741c90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013727"
 ---
 # <a name="adding-users-to-an-application-group-in-c"></a>Ajout d’utilisateurs à un groupe d’applications en C++
 

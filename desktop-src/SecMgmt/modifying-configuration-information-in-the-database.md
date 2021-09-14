@@ -4,12 +4,12 @@ ms.assetid: 34e28b54-4f7b-4335-a6ca-08948559fa34
 title: Modification des informations de configuration dans la base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bae88f668efc5d1625675bf367406e42b3226e3fdb02673d85a72f951fc7ac4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 283925650458c687d7613de8693247d2774df6a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118894080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013600"
 ---
 # <a name="modifying-configuration-information-in-the-database"></a>Modification des informations de configuration dans la base de données
 

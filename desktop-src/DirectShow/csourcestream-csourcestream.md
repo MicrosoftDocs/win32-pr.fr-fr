@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e02827c74ef4c5461a5777221e1839846b855a4b2f4cd27d97ce913399787ba9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75d94bb89ca109c2a7974c294153d46235f92f23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012240"
 ---
 # <a name="csourcestreamcsourcestream-constructor"></a>Constructeur CSourceStream. CSourceStream
 
@@ -73,7 +73,7 @@ Pointeur vers une chaîne qui contient le nom du code PIN.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La chaîne spécifiée dans le paramètre *pObjectName* est utilisée uniquement à des fins de débogage. Pour plus d’informations, consultez [**CBaseObject**](cbaseobject.md).
 
@@ -81,7 +81,7 @@ La chaîne spécifiée dans le paramètre *pname* est le nom retourné par la m�
 
 Le constructeur ajoute automatiquement le code confidentiel au filtre propriétaire, en appelant [**CSource :: AddPin**](csource-addpin.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

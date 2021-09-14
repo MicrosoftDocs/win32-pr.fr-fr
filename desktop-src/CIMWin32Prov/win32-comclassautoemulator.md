@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ba849eed744ff342cfde10d0f31072d4e898cf52cf4e6966760f780236c56df4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9442036d43859caa5fa277109c7e85553e7d42f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119986379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095045"
 ---
 # <a name="win32_comclassautoemulator-class"></a>\_Classe ComClassAutoEmulator Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant le composant COM qui est automatiqueme
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,11 +5,11 @@ ms.assetid: 236de46e-8fe0-4f53-b989-267c9ee87545
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0721c9660aa02fb16e9ec33495279cd90e872a37
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095530"
 ---
 # <a name="how-servers-implement-child-ids"></a>Comment les serveurs implémentent des ID enfants
 
@@ -25,6 +25,6 @@ Si vous ne prenez pas en charge [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl
 
 Il est recommandé que les clients utilisent la fonction Microsoft Active Accessibility Function [**AccessibleChildren**](/windows/desktop/api/Oleacc/nf-oleacc-accessiblechildren) au lieu d’appeler directement l’interface Server [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) .
 
- 
+ 
 
- 
+ 

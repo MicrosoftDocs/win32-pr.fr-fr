@@ -4,12 +4,12 @@ ms.assetid: 2dc35011-24fa-49df-9cf8-96db2de39efa
 title: Collecte des métriques de partition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8168972a0bac0b4eb79c5adde3530d1a0673469adff6b66b4c1b31cc6446bca2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6467dfb9c891e7ae57505c8ec3815bfa99e49d8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047686"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013007"
 ---
 # <a name="collecting-partition-metrics"></a>Collecte des métriques de partition
 

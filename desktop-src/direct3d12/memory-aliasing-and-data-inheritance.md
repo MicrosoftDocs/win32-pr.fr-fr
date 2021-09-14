@@ -5,12 +5,12 @@ ms.assetid: 53C5804B-0F81-41AF-83D2-A96DCDFDC94A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b584ef95f4ee89bc98940c8407427203a19f55046134e1d3c15cb672fef8fef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cace5b5997e2a460406ae72abb247224886f3926
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119460919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012946"
 ---
 # <a name="memory-aliasing-and-data-inheritance"></a>Alias de mémoire et héritage de données
 

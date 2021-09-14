@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3b008e0aef31548dcba71f3b2a2940009c0cd0c71786bd9bd733c206c1d68ee3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b2944d652bffac5bf3bfa72a1e2372f734645bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118154724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012197"
 ---
 # <a name="iamtimelinetranssetcutsonly-method"></a>IAMTimelineTrans :: SetCutsOnly, méthode
 
@@ -52,11 +52,11 @@ Spécifie s’il faut restituer la transition comme une coupe. Si la **valeur es
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le rendu d’une transition en tant que coupe n’est pas compatible avec la permutation des entrées. (Voir [**IAMTimelineTrans :: SetSwapInputs**](iamtimelinetrans-setswapinputs.md).) Si vous appelez `SetCutsOnly` avec la valeur **true**, il remplace temporairement le paramètre **SetSwapInputs** . Toutefois, le paramètre de coupe uniquement est prévu pour l’aperçu. par conséquent, cette limitation n’affecte pas la sortie du fichier. n’oubliez pas d’appeler `SetCutsOnly` avec la valeur **false** avant d’écrire le fichier.
 
@@ -70,7 +70,7 @@ Le rendu d’une transition en tant que coupe n’est pas compatible avec la per
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

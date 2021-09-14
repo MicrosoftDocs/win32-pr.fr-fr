@@ -5,11 +5,11 @@ title: Fonctions de gestion de la sécurité
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9f5c17efd55b1dbb806295ac0a83763257ffcc97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095829"
 ---
 # <a name="security-management-functions"></a>Fonctions de gestion de la sécurité
 
@@ -86,10 +86,10 @@ Les fonctions suivantes énumèrent les comptes d’utilisateur et les domaines 
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**LsaEnumerateAccountsWithUserRight**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright)<br/>         | Énumère tous les comptes qui disposent d’une autorisation utilisateur spécifiée.<br/>                                                                                                                                                                                                                                                                         |
 | [**LsaEnumerateTrustedDomainsEx**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex)<br/>                   | Énumère les domaines approuvés.<br/>                                                                                                                                                                                                                                                                                                            |
-| [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames)<br/>                                               | Mappe les noms spécifiés à leurs SID. Retourne le SID sous la forme d’une paire RID/SID de domaine.<br/>                                                                                                                                                                                                                                                         |
-| [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2)<br/>                                             | Mappe les noms spécifiés à leurs SID. Retourne le SID sous la forme d’un élément unique.<br/>                                                                                                                                                                                                                                                               |
+| [**LsaLookupNames**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames)<br/>                                               | Cartes les noms spécifiés à leurs sid. Retourne le SID sous la forme d’une paire RID/SID de domaine.<br/>                                                                                                                                                                                                                                                         |
+| [**LsaLookupNames2**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2)<br/>                                             | Cartes les noms spécifiés à leurs sid. Retourne le SID sous la forme d’un élément unique.<br/>                                                                                                                                                                                                                                                               |
 | [**LsaLookupPrivilegeValue**](/windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue)<br/>                             | Récupère l' [*identificateur unique*](/windows/desktop/SecGloss/l-gly) local (LUID) utilisé par l’autorité de [*sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA) pour représenter le nom de privilège spécifié.<br/> |
-| [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids)<br/>                                                 | Mappe les noms de compte spécifiés à leurs SID.<br/>                                                                                                                                                                                                                                                                                            |
+| [**LsaLookupSids**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids)<br/>                                                 | Cartes les noms de compte spécifiés à leurs sid.<br/>                                                                                                                                                                                                                                                                                            |
 | [**LsaRegisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification)<br/>     | Inscrit un objet d’événement pour recevoir des notifications lors de la modification des informations de stratégie locale.<br/>                                                                                                                                                                                                                                              |
 | [**LsaUnregisterPolicyChangeNotification**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification)<br/> | Annule l’inscription d’un objet d’événement qui reçoit des notifications de modification de stratégie.<br/>                                                                                                                                                                                                                                                                 |
 
@@ -159,7 +159,7 @@ L’API de la stratégie LSA contient les trois fonctions suivantes qui ne rentr
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | [**LsaClose**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaclose)<br/>                           | Ferme un handle vers un objet de [**stratégie**](policy-object.md) ou un objet [**trustedDomain**](trusteddomain-object.md) .<br/> |
 | [**LsaFreeMemory**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsafreememory)<br/>                 | Libère une mémoire tampon allouée par une fonction LSA.<br/>                                                                           |
-| [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror)<br/> | Convertit une valeur **NTSTATUS** en code d’erreur Windows.<br/>                                                                |
+| [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror)<br/> | convertit une valeur **NTSTATUS** en un code d’erreur Windows.<br/>                                                                |
 
 
 

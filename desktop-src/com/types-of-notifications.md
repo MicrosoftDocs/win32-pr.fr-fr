@@ -5,11 +5,11 @@ ms.assetid: 1e7f44ea-f4ac-457e-96a3-94036508d7b7
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 21216ca99e1a606aaba793371ad6b8619d13f2a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095466"
 ---
 # <a name="types-of-notifications"></a>Types de notifications
 
@@ -24,9 +24,9 @@ Tous les conteneurs, le gestionnaire d’objets et l’objet lié s’inscrivent
 [Notifications](notifications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

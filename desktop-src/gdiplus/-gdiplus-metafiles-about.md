@@ -4,12 +4,12 @@ ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
 title: Sous-fichiers (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 190d03edd8857da3e840c2b3fde04314fa1fb1ddb01c8e69c684bccecf3e708d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ae75c2185670563f9a9e624d868da5b0e299cbec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012420"
 ---
 # <a name="metafiles-gdi"></a>Sous-fichiers (GDI+)
 

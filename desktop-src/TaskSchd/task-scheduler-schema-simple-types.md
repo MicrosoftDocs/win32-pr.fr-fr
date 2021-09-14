@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a0f8aadf93c62e7eb7403d39af2a0eabe28f3f6e6c7ec8246dc521947ed0b022
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0adf6bba8b27e99d62bffccc414028960f6ee24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095641"
 ---
 # <a name="task-scheduler-schema-simple-types"></a>Types simples de schéma Planificateur de tâches
 

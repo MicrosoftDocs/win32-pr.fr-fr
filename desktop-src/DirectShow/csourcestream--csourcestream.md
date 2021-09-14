@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a2e5fb1a09fe089df7d90846e25870a2c1e42987c07361809d958d303f257fd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbf53184dadc42145758ab387d15e8b0a1bfe09d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073353"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012252"
 ---
 # <a name="csourcestreamcsourcestream-destructor"></a>CSourceStream. ~ CSourceStream, destructeur
 
@@ -40,7 +40,7 @@ Méthode de destructeur.
 
 Le destructeur supprime automatiquement le code confidentiel du filtre propriétaire en appelant [**CSource :: RemovePin**](csource-removepin.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

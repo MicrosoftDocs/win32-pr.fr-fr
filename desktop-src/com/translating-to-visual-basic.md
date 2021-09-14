@@ -4,12 +4,12 @@ description: Conversion en Visual Basic
 ms.assetid: 48672d0c-b0d7-4820-91d4-d985030396f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd9aa8a163141c6361df464a22ce873770c8385607bdf8f84d333d204c55a327
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c45e7beedaaa3983b1be1503b5ce443a3adf4d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118550613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095482"
 ---
 # <a name="translating-to-visual-basic"></a>Conversion en Visual Basic
 

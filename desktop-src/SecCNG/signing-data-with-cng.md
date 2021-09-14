@@ -4,12 +4,12 @@ ms.assetid: 8f0ace5a-c8f9-4a45-8500-041a9f22637d
 title: Signature de données avec CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64a05f6cf655421422945d375c9d54ec2b74ae24efe1640c0dc9f6efe9a3e45c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 658dd1c9a833cfb15b708a7f85013e3d9cacac9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013645"
 ---
 # <a name="signing-data-with-cng"></a>Signature de données avec CNG
 

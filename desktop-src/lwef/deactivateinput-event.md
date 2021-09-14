@@ -4,12 +4,12 @@ description: Événement DeactivateInput
 ms.assetid: 59747932-82be-45d5-8465-73798904e8a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fe94d7d4e737d83dfb734bcc5b35c60bddf96dcf8b07c43df3b89817da21b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b2fe1ff13b599fe5fbcf2dac22e548a0432f415
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119610529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012382"
 ---
 # <a name="deactivateinput-event"></a>Événement DeactivateInput
 
@@ -41,7 +41,7 @@ Se produit lorsqu’un client devient non-actif.
 
 </dd> </dl>
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Un client de non-entrée-actif ne reçoit plus d’événements de souris ou de parole du serveur (à moins qu’il ne soit de nouveau en entrée active). Le serveur envoie cet événement uniquement au client qui devient non-actif.
 

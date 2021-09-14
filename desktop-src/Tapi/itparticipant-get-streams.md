@@ -4,12 +4,12 @@ ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
 title: 'ITParticipant :: get_Streams, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b66447cd320110db45e1624d677c9b76e518f926da341805bd7de992d0e0eec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a920929c71e01632edcd8c4c78029b479d8b250
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095706"
 ---
 # <a name="itparticipantget_streams-method"></a>ITParticipant :: obtient \_ Flux méthode
 
@@ -39,7 +39,7 @@ Pointeur vers un **Variant** contenant un [**ITCollection**](/windows/desktop/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -55,11 +55,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) retournée par **ITParticipant :: obtient \_ Flux**. L’application doit appeler **Release** sur l’interface **ITStream** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

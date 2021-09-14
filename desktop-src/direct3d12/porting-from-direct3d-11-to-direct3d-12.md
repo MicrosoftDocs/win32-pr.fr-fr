@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f8ccf4a0bd10032d94ecaf4a88cc442f3a7ad516
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812557"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012928"
 ---
 # <a name="porting-from-direct3d-11-to-direct3d-12"></a>Portage de Direct3D 11 vers Direct3D 12
 

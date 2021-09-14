@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ed43a04bba63d0e760866684df15c4cae5e80a1b3338d122408756f4cec46e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63325fbf7aa9186e5748294c2ef57302efa0c79b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117757922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095630"
 ---
 # <a name="tasksettingsstartwhenavailable-property"></a>TaskSettings. StartWhenAvailable, propriété
 
@@ -42,7 +42,7 @@ TaskSettings.StartWhenAvailable As Boolean
 
 Si la valeur est true, la propriété indique que la Planificateur de tâches peut démarrer la tâche à tout moment une fois que l’heure planifiée est passée. La valeur par défaut est False.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété s’applique uniquement aux tâches basées sur le temps avec une limite de fin ou des tâches basées sur le temps qui sont configurées pour se répéter de manière infinie.
 
@@ -50,7 +50,7 @@ Les tâches qui sont démarrées après l’heure planifiée sont passées (en r
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [**StartWhenAvailable**](taskschedulerschema-startwhenavailable-settingstype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

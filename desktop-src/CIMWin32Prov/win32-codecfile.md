@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1d9f41178c69f40513b26de5221af6eb7b5e425acf5c4893f2de87fb18211291
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fc7a6073ab2841fde4492cd59ae1696aeca9f6a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120079909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095065"
 ---
 # <a name="win32_codecfile-class"></a>\_Classe CodecFile Win32
 
@@ -125,7 +125,7 @@ La classe **Win32 \_ CodecFile** possède ces méthodes.
 | [**CompressEx**](compressex-method-in-class-win32-codecfile.md)                                   | Compresse le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                    |
 | [**Copier**](copy-method-in-class-win32-codecfile.md)                                               | Copie le fichier ou le répertoire logique spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée.<br/>                                                                                         |
 | [**CopyEx**](copyex-method-in-class-win32-codecfile.md)                                           | Méthode de classe qui copie le fichier logique ou le répertoire spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre FileName.<br/>                                                                    |
-| [**DELETE**](delete-method-in-class-win32-codecfile.md)                                           | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                       |
+| [**Supprimer**](delete-method-in-class-win32-codecfile.md)                                           | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                       |
 | [**DeleteEx**](deleteex-method-in-class-win32-codecfile.md)                                       | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                       |
 | [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-codecfile.md)           | Détermine si l’appelant a les autorisations agrégées spécifiées par l’argument d' **autorisation** non seulement sur l’objet de fichier, mais sur le partage sur lequel le fichier ou le répertoire réside (s’il se trouve sur un partage).<br/> |
 | [**Renommer**](rename-method-in-class-win32-codecfile.md)                                           | Méthode de classe qui renomme le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                     |
@@ -985,11 +985,11 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ CodecFile** est dérivée du [**fichier de \_ fichier CIM**](cim-datafile.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

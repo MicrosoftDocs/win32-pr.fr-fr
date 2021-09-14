@@ -4,12 +4,12 @@ ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: 'ITParticipantEvent :: get_Event, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d45e8f6aab556eb1b6f5c6dc1b4b0cbadf9653e06fd77f4fb806b7ef89d7813
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b6cbfcf709b1f9f3f49047504bf5d9e8c02b159
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118864700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095678"
 ---
 # <a name="itparticipanteventget_event-method"></a>ITParticipantEvent :: acobtiens, \_ méthode d’événement
 
@@ -39,7 +39,7 @@ Pointeur vers le descripteur d' [**\_ événement participant**](participant-eve
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -55,7 +55,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 5c5138c7-f6e8-4646-961a-0e2312b5356b
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 422d0f2fc5f69ca0e633be4e93af4448a02efc42fbc89592125c45909710c462
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a18df35c94fbd6b2b6f449585dfdcd4028bf2e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118806679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012926"
 ---
 # <a name="predication"></a>Prédicat
 

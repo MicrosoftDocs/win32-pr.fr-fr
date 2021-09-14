@@ -4,12 +4,12 @@ description: Une application peut récupérer les attributs d’un stylet, d’u
 ms.assetid: 09d8412f-a67d-48d5-9c04-9233dee43cf9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c58d946f61a6a83dcfeb2ddae24d735d3596e5e864cf672bab832d7db3aedf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b18dcef03bf769e8b2d11574429b64f481b1a79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117886143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012457"
 ---
 # <a name="retrieve-object-attributes-select-new-objects"></a>Récupérer les attributs des objets, sélectionner de nouveaux objets
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_DataFile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12c351fc7fbd4527888e5ffd6f8ffcb2db8b7d3c2f03be914f73e329406e3163
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c4caa89ca851b2197b7f2eec1b110f7ed063f8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080803"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095142"
 ---
 # <a name="cim_datafile-methods"></a>\_Méthodes de fichier de fichier CIM
 

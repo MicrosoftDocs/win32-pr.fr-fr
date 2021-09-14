@@ -4,12 +4,12 @@ ms.assetid: 1c8253f1-ac7d-4346-a16e-887d16f521d9
 title: Action InstallSFPCatalogFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f3992a64e5e3150759fdbc2c8221e6bd8672a2c75e72343280fb3e552f3cae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddc4192f8ee0062c51833292a98c28ea27c12531
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119787009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012034"
 ---
 # <a name="installsfpcatalogfile-action"></a>Action InstallSFPCatalogFile
 
@@ -32,7 +32,7 @@ L’action InstallSFPCatalogFile doit être séquencée avant [InstallFiles](ins
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Catalogue dépendant d’un autre catalogue installé après le catalogue parent.
 

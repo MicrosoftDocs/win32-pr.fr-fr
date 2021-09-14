@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 8928ba3ae46283f856359b36d8f7c4c12f5891b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042836"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012530"
 ---
 # <a name="jet_columnbasecp-property"></a>JET_COLUMNBASE. CP, propriété
 
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_CP](./jet-cp-enumeration.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_COLUMNBASE](./jet-columnbase-class.md)
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 180bc764d31aaeadba7b42d31cff02cdbefc0220499572160873dc43b58005ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d10a06cbf123b71e1308b45c747ac8a840a5fe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094601"
 ---
 # <a name="idwritetextlayout3getlinemetrics-method"></a>IDWriteTextLayout3 :: GetLineMetrics, méthode
 
@@ -65,15 +65,15 @@ Taille réelle du tableau lineMetrics nécessaire.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si maxLineCount n’est pas assez grand \_ \_ , E \_ mémoire tampon insuffisante, qui est équivalente à HRESULT \_ de \_ Win32 (erreur de \_ mémoire tampon insuffisante \_ ), est retourné et actualLineCount est défini sur le nombre de lignes nécessaires.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

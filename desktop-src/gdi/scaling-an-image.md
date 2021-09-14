@@ -4,12 +4,12 @@ ms.assetid: ab7d5224-62de-40a8-909f-564f61c45d01
 title: Mise à l’échelle d’une image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd7445c64bcf7ca4332612de0689e9ebeb55850372a5be2b4fb19c1593bbf339
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40ce5d1584c905bbf46f10e29e512af95ddbc55c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119613739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012453"
 ---
 # <a name="scaling-an-image"></a>Mise à l’échelle d’une image
 

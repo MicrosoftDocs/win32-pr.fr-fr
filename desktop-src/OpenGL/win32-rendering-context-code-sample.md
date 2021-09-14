@@ -8,12 +8,12 @@ keywords:
 - Portage OpenGL, contextes de rendu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9693b140083210ce0865b18463f4595c2f1fc731c8fc1d837f61342ede50b9d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca0423f7458538f903a339f2f82dbff1c86c0626
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117794692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013965"
 ---
 # <a name="windows-rendering-context-code-sample"></a>Windows Exemple de code de contexte de rendu
 

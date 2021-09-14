@@ -4,12 +4,12 @@ ms.assetid: 09d00a74-5873-4720-b9b9-d58395aa1094
 title: Clés symétriques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554fa9f8a18289eef7c750c542594c9cac1b56a33847a84b2c8f21070a04d984
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4707905452beba025b0d0c69fc8f0ed9ef4d234
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117972286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095841"
 ---
 # <a name="symmetric-keys"></a>Clés symétriques
 

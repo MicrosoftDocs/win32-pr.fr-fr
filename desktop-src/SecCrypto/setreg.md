@@ -4,12 +4,12 @@ ms.assetid: 6c456a59-ee6c-420d-b075-7de8bd2fd8ff
 title: SetReg
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5267aa140cad713e550ddf8afd0281d489bdd90ac0b26a7f7a4781240ecac24c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05da29d3eddf7e04ba5bd735e1032f388d9d204a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095910"
 ---
 # <a name="setreg"></a>SetReg
 
@@ -40,7 +40,7 @@ Les options peuvent être l’une des valeurs suivantes. Les options indiquées 
 
 
 
-| Choix | Description                                                                                                                       | Résultat                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Choix | Description                                                                                                                       | Résultats                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **1**  | Approuver la racine de test                                                                                                               | Cette valeur est ignorée. **Windows XP/2000 :** Si la **valeur est true**, approuve une racine de test. Cela équivaut à exécuter « RegEdit wvtston. reg » dans Internet Explorer 3. *x*.<br/> La valeur par défaut est **false**. Tout fichier signé avec une racine de test ne sera pas vérifié, sauf si cet indicateur a la valeur **true**. notez que ce comportement a changé avec Windows xp avec Service pack 1 (SP1), car Windows XP avec sp1 ignore cette valeur.<br/> <br/> |
 | **2**  | Utiliser la date d’expiration sur les certificats                                                                                               | Si la **valeur est true**, vérifie la date d’expiration du certificat. Pour ignorer les dates d’expiration, définissez cet indicateur sur **false**. La valeur par défaut est **true**.                                                                                                                                                                                                                                                                                                       |

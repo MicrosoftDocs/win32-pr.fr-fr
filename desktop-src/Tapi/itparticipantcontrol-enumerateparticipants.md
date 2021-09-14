@@ -5,17 +5,17 @@ title: 'ITParticipantControl :: EnumerateParticipants, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 54079860a64f366826cda3a0339424148bff1214
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525944"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095694"
 ---
 # <a name="itparticipantcontrolenumerateparticipants-method"></a>ITParticipantControl :: EnumerateParticipants, méthode
 
-\[**EnumerateParticipants** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**EnumerateParticipants** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
-La méthode **EnumerateParticipants** énumère les participants associés à la Conférence en cours. Cette méthode est fournie pour les applications C et C++. Les applications clientes Automation, telles que celles écrites en Visual Basic, doivent utiliser la méthode d' [**extraction des \_ participants**](itparticipantcontrol-get-participants.md) .
+La méthode **EnumerateParticipants** énumère les participants associés à la Conférence en cours. Cette méthode est fournie pour les applications C et C++. les applications clientes Automation, telles que celles écrites en Visual Basic, doivent utiliser la méthode d' [**extraction des \_ Participants**](itparticipantcontrol-get-participants.md) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -39,7 +39,7 @@ Pointeur vers l’interface [**IEnumParticipant**](ienumparticipant.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -59,7 +59,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**IEnumParticipant**](ienumparticipant.md) retournée par **ITParticipantControl :: EnumerateParticipants**. L’application doit appeler **Release** sur l’interface **IEnumParticipant** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

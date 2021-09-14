@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: e0f23a58111bfcebbe668cd3b6c50a135da0dae240907f09a65d60ef1cebdda8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 365f3c849b0a499d2bd875c8d234bbda1911eb71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013639"
 ---
 # <a name="sslcomputefinishedhash-function"></a>SslComputeFinishedHash fonction)
 
@@ -97,7 +97,7 @@ Une des constantes suivantes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -113,7 +113,7 @@ Si la fonction échoue, elle retourne une valeur d’erreur différente de zéro
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslComputeFinishedHash** est l’une des trois fonctions utilisées pour générer un hachage à utiliser pendant la négociation SSL.
 
@@ -125,7 +125,7 @@ La valeur de hachage est calculée en hachant le secret principal avec un hachag
 
 La valeur de *cbOutput* détermine la longueur des données de hachage. Lorsque le protocole TLS ( [*Transport Layer Security*](/windows/desktop/SecGloss/t-gly) ) 1,0 est utilisé, il doit toujours être de 12 (octets). Pour plus d’informations, consultez [la Version 1,0 du protocole TLS](https://www.ietf.org/rfc/rfc2246.txt).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

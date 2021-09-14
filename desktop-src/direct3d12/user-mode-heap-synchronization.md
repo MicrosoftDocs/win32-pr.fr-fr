@@ -5,12 +5,12 @@ ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: 2d250133d8cacb26d933d3774f397de4c949c72b7b58114759791c103d374c3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d60704e411a1ba45dd4902ad9101a416391743dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987547"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012851"
 ---
 # <a name="multi-engine-synchronization"></a>Synchronisation multi-moteur
 
@@ -158,7 +158,7 @@ Les listes de commandes de copie et de calcul peuvent utiliser les méthodes sui
 -   [**CopyResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource)
 -   [**CopyTextureRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion)
 -   [**CopyTiles**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles)
--   [**Initialisation**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
+-   [**Réinitialiser**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
 -   [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
 
 Les listes de commandes Compute peuvent également utiliser les méthodes suivantes.

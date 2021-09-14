@@ -4,12 +4,12 @@ ms.assetid: 2fae0504-d1da-413a-80dd-de7818f506ef
 title: utilisation du média Windows dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fea308943d4be732c75e774d3e0c3cb09ac7c6609a8399d2e6eca4666d99e6b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e73726f0d7251f1c19beee05cfd8f335d3fdd7a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118651085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094637"
 ---
 # <a name="using-windows-media-in-directshow"></a>utilisation du média Windows dans DirectShow
 

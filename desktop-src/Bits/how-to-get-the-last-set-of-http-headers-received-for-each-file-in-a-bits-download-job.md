@@ -6,12 +6,12 @@ keywords:
 - Téléchargement de BITS, en-tête HTTP
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 92e9fe2c1671d26854da119938b426bc662324fe701d7f24d1885ff7b88e2df1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0b7858d5b2467f52681b325e2bfbe65b96889e0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095162"
 ---
 # <a name="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job"></a>Comment obtenir le dernier ensemble d’en-têtes HTTP reçus pour chaque fichier dans un travail de téléchargement BITS
 
@@ -303,7 +303,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
 
 
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 L’exemple de code suivant est une application console entièrement fonctionnelle qui montre comment utiliser l’API BITS pour créer un travail BITS avec plusieurs URL à télécharger, répertorier les URL d’un travail et récupérer les en-têtes de réponse HTTP pour chaque URL.
 

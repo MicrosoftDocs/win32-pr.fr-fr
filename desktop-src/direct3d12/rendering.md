@@ -5,12 +5,12 @@ ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c1abb8e8d1d645149652e5c1cd429fb4e4b2e0b1e079eda13956f5ab8279b3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9ad70a054881e9472ff27a76a62dca62fdf3653
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123466"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012894"
 ---
 # <a name="rendering-direct3d-12-graphics"></a>Rendu (Direct3D 12 Graphics)
 

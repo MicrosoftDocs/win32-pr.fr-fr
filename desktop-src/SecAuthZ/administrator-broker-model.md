@@ -4,12 +4,12 @@ ms.assetid: 1e661915-5797-421d-b96f-72949f441aba
 title: Modèle de Broker administrateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c67a68c823221226f56d01b750ab74a70ca30530f44cd174e333c3e4d7cbaa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5299d35c995fb56f969fc5983864cfc93b25b6c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013724"
 ---
 # <a name="administrator-broker-model"></a>Modèle de Broker administrateur
 

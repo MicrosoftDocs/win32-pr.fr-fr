@@ -4,12 +4,12 @@ ms.assetid: c7d49c86-1b5d-43bf-98a5-78b297682375
 title: Capturer un fichier DV de type 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c944c84ed6cf04ec46de99a209a7b3d2942ae5157bc3ff9d14104da6615d03d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b919928a4c02ce9e3f3f3e6fcf3d2cd376f880a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094885"
 ---
 # <a name="capture-a-type-2-dv-file"></a>Capturer un fichier DV de type 2
 

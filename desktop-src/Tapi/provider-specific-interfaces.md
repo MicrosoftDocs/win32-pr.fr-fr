@@ -4,12 +4,12 @@ ms.assetid: 8077c9a7-3235-41a7-97dc-ca5f3c291ee6
 title: Interfaces Provider-Specific
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09290bf6d2ade55a9e9d2b0f51315acfc5488805b6c19b23679e00708ddaed45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f95499f005c8c3b3e854f33835b9c9b183416d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095658"
 ---
 # <a name="provider-specific-interfaces"></a>Interfaces Provider-Specific
 

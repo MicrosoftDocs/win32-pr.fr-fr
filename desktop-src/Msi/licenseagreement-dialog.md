@@ -4,12 +4,12 @@ ms.assetid: 367fe264-6e08-4b40-b61b-617bb92986b7
 title: Boîte de dialogue LicenseAgreement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a2b450d7bfc05352a41905ae5d0a9a296d09589cf269e4bb6eb9c3f264bfd8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8876f315787671ee36de42e5b86167659611a77a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629742"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011972"
 ---
 # <a name="licenseagreement-dialog"></a>Boîte de dialogue LicenseAgreement
 

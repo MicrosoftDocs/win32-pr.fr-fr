@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c5423b774b265fa205fecd0b01df2c6909f53a4178c57d0ba6883f35b421f051
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ce52a296c375f4d6e96f5fa44817a0098da9ae9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094993"
 ---
 # <a name="camschedulecamschedule-constructor"></a>Constructeur CAMSchedule. CAMSchedule
 
@@ -49,7 +49,7 @@ Handle vers un événement de réinitialisation automatique.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

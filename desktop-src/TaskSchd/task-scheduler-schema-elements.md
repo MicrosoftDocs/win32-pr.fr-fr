@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0b3eddff0abb6c49e4d9ada17e89cbac289c6234c6b4dbedeecdd5e91d6503f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a78b277de7fb96782a562ca6fa7458bce417e4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139252"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095657"
 ---
 # <a name="task-scheduler-schema-elements"></a>Éléments de schéma Planificateur de tâches
 

@@ -4,12 +4,12 @@ ms.assetid: 793e23de-d959-4feb-8bf6-647a455c85ae
 title: Liste des décodeurs installés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d54548971ff4f4346d32884ff7abc687b901044022ab886f7191d5700b9db98d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a20a4e8ac88fa884483ebeaf6592b8085fde807
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012427"
 ---
 # <a name="listing-installed-decoders"></a>Liste des décodeurs installés
 

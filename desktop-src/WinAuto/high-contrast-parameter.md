@@ -5,11 +5,11 @@ ms.assetid: ec89c4ce-4e8b-4e1f-a349-fbd47431d675
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2f1255e8a99b3cb253146e2fa2c019a879c4a1b6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941124"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095545"
 ---
 # <a name="high-contrast-parameter"></a>Paramètre de contraste élevé
 
@@ -25,6 +25,6 @@ Pendant l’initialisation et lors du traitement des messages [**WM \_ SYSCOLORC
 
 En outre, les applications utilisent les indicateurs **SPI \_ GETDISABLEOVERLAPPEDCONTENT** et **SPI \_ SETDISABLEOVERLAPPEDCONTENT** avec la fonction [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) pour récupérer et définir le paramètre de contenu Overlapped. Les fonctionnalités d’affichage telles que les images d’arrière-plan, les arrière-plans texturés, les repères d’eau sur les documents, la fusion alpha et la transparence peuvent réduire le contraste entre le premier plan et l’arrière-plan, ce qui rend plus difficile les utilisateurs avec une acuité visuelle réduite pour voir les objets à l’écran. Cet indicateur permet aux applications de déterminer si un contenu avec chevauchement a été désactivé
 
- 
+ 
 
- 
+ 

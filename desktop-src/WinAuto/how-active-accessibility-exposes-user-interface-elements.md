@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility crée un objet proxy pour chaque él
 ms.assetid: 64aa8fac-cea7-4466-ae34-2760956c296b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4260788cc37aa6d4a33fcccb68a51fb61833d753c98ba4ae5dcff89f0d18cec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b450ebe79aa467100fe9b6fb3bc4cdfb5540b60c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095534"
 ---
 # <a name="how-active-accessibility-exposes-user-interface-elements"></a>Comment Active Accessibility expose les éléments d’interface utilisateur
 

@@ -4,12 +4,12 @@ ms.assetid: 19311dec-4611-4104-b6e4-ff8f7c8af0e7
 title: Notifications (service de notification d’événements système)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db908c48c38ccd39c6c9a427b77e3cefffc7b9bf8fad6e464ebdf146a138e57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 272f0ea60369015328e34d3a83231ab0b254253a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013577"
 ---
 # <a name="notifications-system-event-notification-service"></a>Notifications (service de notification d’événements système)
 

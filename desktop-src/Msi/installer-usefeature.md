@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b320ce72271bb7ee90ac85a376b103d868e6f740a2e853daf58bb478dc79ad6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 355e7f4e64a5cb69ffc0371473cb0db1ac6313a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142154"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012080"
 ---
 # <a name="installerusefeature-method"></a>Installer. UseFeature, méthode
 
@@ -62,15 +62,15 @@ Ce paramètre doit être *msiInstallModeNoDetection*.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **UseFeature** doit uniquement être utilisée sur les fonctionnalités dont la publication est connue. L’application doit déterminer l’état de la fonctionnalité en appelant la propriété [**FeatureState**](installer-featurestate.md) ou la propriété [**features**](installer-features.md) ou leurs équivalents d’API.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

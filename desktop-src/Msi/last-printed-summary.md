@@ -4,12 +4,12 @@ ms.assetid: decbc92a-af56-4a3f-9e2f-c66f6cdd8880
 title: Dernière propriété de résumé imprimée
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc9079db9ce4f7d30f8f2bfb82513e442d7e27840a614232b52da3c73588844b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8060909a53bf56615f9df95b6ba573820755ae15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805590"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011984"
 ---
 # <a name="last-printed-summary-property"></a>Dernière propriété de résumé imprimée
 
@@ -19,7 +19,7 @@ Dans une transformation, cette propriété doit avoir la valeur null.
 
 Dans un package correctif, cette propriété doit avoir la valeur null.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

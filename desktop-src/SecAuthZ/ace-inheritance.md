@@ -4,12 +4,12 @@ ms.assetid: a9e5ad4d-61c6-43ed-a162-460683bcdb16
 title: Héritage ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bd239801ea15dddb142c42d86e1aa44d0d644e5d217c50fc7c9cf9388747e45
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d6462ed9523c94090924981db252b938f2056cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785380"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013738"
 ---
 # <a name="ace-inheritance"></a>Héritage ACE
 

@@ -13,11 +13,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: aaeff4c8b65a68938bfab641aceb68fe4efb6334
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095878"
 ---
 # <a name="settings-object-cryptography"></a>objet Paramètres (chiffrement)
 
@@ -48,11 +48,11 @@ l’objet **Paramètres** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’objet **Paramètres** peut être créé et il est sécurisé pour les scripts. le ProgID de l’objet **Paramètres** est capicom. Paramètres. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,16 +1,16 @@
 ---
 title: Installation et configuration de Windows Remote Management
 description: pour les scripts Windows Remote Management (winrm) à exécuter, et pour que l’outil de ligne de commande **WinRM** exécute des opérations de données, Windows Remote Management (winrm) doit être installé et configuré à la fois.
-ms.date: 08/31/2020
+ms.date: 09/10/2021
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: article
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: c031ad9b9d9c888385527c227b102c64bb4dfb65eaea340e52eac3fb9595e591
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8b1abf2052ee0e1f4a0508f661a502220a3fd7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119997619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126974807"
 ---
 # <a name="installation-and-configuration-for-windows-remote-management"></a>Installation et configuration de Windows Remote Management
 
@@ -30,11 +30,11 @@ WinRM est installé automatiquement avec toutes les versions actuellement prises
 
 Ces composants du [fournisseur WMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) de WinRM et de l' [interface de gestion de plateforme intelligente (IPMI)](./windows-remote-management-glossary.md#i) sont installés avec le système d’exploitation.
 
-- le service WinRM démarre automatiquement sur Windows Server 2008 et en amont (sur Windows Vista, vous devez démarrer le service manuellement).
-- Par défaut, aucun [écouteur](./windows-remote-management-glossary.md#l) WinRM n’est configuré. Même si le service WinRM est en cours d’exécution, WS-Management [messages](./windows-remote-management-glossary.md#m) de protocole qui demandent des données ne peuvent pas être reçus et envoyés.
+- le service WinRM démarre automatiquement sur Windows Server 2008 et versions ultérieures (sur Windows Vista, vous devez démarrer le service manuellement).
+- Par défaut, aucun [écouteur](./windows-remote-management-glossary.md#l) WinRM n’est configuré. Même si le service WinRM est en cours d’exécution, WS-Management [messages](./windows-remote-management-glossary.md#m) de protocole qui demandent des données ne peuvent pas être reçus ou envoyés.
 - Le pare-feu de connexion Internet (ICF) bloque l’accès aux ports.
 
-Utilisez la commande **WinRM** pour localiser les écouteurs et les adresses en tapant la commande suivante à une invite de commandes.
+Utilisez la `Winrm` commande pour localiser les écouteurs et les adresses en tapant la commande suivante à une invite de commandes.
 
 ```console
 winrm e winrm/config/listener
@@ -109,13 +109,13 @@ Spécifie le port TCP pour lequel cet écouteur est créé.
 
 Spécifie le nom d’hôte de l’ordinateur sur lequel le service WinRM est en cours d’exécution. La valeur doit être un nom de domaine complet, une chaîne littérale IPv4 ou IPv6, ou un caractère générique.
 
-### <a name="enabled"></a>activé
+### <a name="enabled"></a>Activé
 
 Spécifie si l'écouteur est activé ou désactivé. La valeur par défaut est *True*.
 
 ### <a name="urlprefix"></a>URLPrefix
 
-Spécifie un préfixe d’URL sur lequel accepter les requêtes HTTP ou HTTPs. Il s’agit d’une chaîne contenant uniquement les caractères a-z, A-Z, 9-0, le trait de soulignement ( \_ ) et la barre oblique (/). La chaîne ne doit pas commencer par une barre oblique (/). Par exemple, si le nom d’ordinateur est Exemplemachine, le client WinRM spécifie https://SampleMachine/< *URLPrefix*> dans l’adresse de destination. Le préfixe d’URL par défaut est « WSMan ».
+Spécifie un préfixe d’URL sur lequel accepter les requêtes HTTP ou HTTPs. Il s’agit d’une chaîne contenant uniquement les caractères a-z, A-Z, 9-0, le trait de soulignement ( \_ ) et la barre oblique (/). La chaîne ne doit pas commencer par une barre oblique (/). Par exemple, si le nom d’ordinateur est *exemplemachine*, le client WinRM spécifie `https://SampleMachine/<*URLPrefix*>` dans l’adresse de destination. Le préfixe d’URL par défaut est « WSMan ».
 
 ### <a name="certificatethumbprint"></a>CertificateThumbprint
 
@@ -127,14 +127,14 @@ Spécifie les adresses IPv4 et IPv6 que l’écouteur utilise. Par exemple : «
 
 ## <a name="protocol-default-settings"></a>Paramètres par défaut du protocole
 
-La plupart des paramètres de configuration, tels que MaxEnvelopeSizekb ou SoapTraceEnabled, déterminent la façon dont les composants serveur et client WinRM interagissent avec le protocole WS-Management. La liste suivante décrit les paramètres de configuration disponibles.
+La plupart des paramètres de configuration, tels que *MaxEnvelopeSizekb* ou *SoapTraceEnabled*, déterminent la façon dont les composants serveur et client WinRM interagissent avec le protocole WS-Management. La liste suivante décrit les paramètres de configuration disponibles.
 
 ### <a name="maxenvelopesizekb"></a>MaxEnvelopeSizekb
 
 Spécifie la quantité maximale de données SOAP (Simple Object Access Protocol), en kilo-octets. La valeur par défaut est de 150 kilo-octets.
 
 > [!NOTE]  
-> Le comportement n’est pas pris en charge si MaxEnvelopeSizekb est défini sur une valeur supérieure à 1039440.
+> Le comportement n’est pas pris en charge si *MaxEnvelopeSizekb* est défini sur une valeur supérieure à 1039440.
 
 ### <a name="maxtimeoutms"></a>MaxTimeoutms
 

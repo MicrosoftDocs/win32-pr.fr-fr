@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 41a763a4b9151f22615aa0af3dae57af8281751209a016dc3135f3572e9d8ef3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6c3eb7fbcb9e4abada43098339a29d208ded0d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119768289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094938"
 ---
 # <a name="camthreadcoinitializehelper-method"></a>Méthode CAMThread. CoInitializeHelper
 
@@ -40,7 +40,7 @@ static HRESULT CoInitializeHelper();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -56,11 +56,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CAMThread :: InitialThreadProc**](camthread-initialthreadproc.md) appelle cette méthode d’assistance, qui appelle la fonction CoInitializeEx. elle utilise l’indicateur coinit \_ DISABLE \_ OLE1DDE pour désactiver l’échange dynamique de données (DDE). Pour plus d’informations, consultez le kit de développement Platform SDK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

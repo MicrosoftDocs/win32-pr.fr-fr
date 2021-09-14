@@ -12,12 +12,12 @@ api_name:
 - RayTMin
 api_type:
 - NA
-ms.openlocfilehash: 5429574480cfda071dfec93cea771211bab578bdaecb4513c76f43c4d820b22b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00db0eb46e8c011e5b31f773679e19ca6dd4a7a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012906"
 ---
 # <a name="raytmin"></a>RayTMin
 

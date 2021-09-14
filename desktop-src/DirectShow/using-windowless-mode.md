@@ -4,12 +4,12 @@ ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Utilisation du mode sans fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5189fb52932a328493baec9a79ccd6598a9a0659c198ee3ce3d4d157574a63c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 393b112c6d340c3440521876da08111dd4bb0e81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119271249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094638"
 ---
 # <a name="using-windowless-mode"></a>Utilisation du mode sans fenêtre
 

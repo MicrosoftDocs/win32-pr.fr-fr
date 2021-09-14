@@ -4,12 +4,12 @@ ms.assetid: 5bc72ee5-3065-4bfb-8dcb-8befb2a4bbd9
 title: Gestion des cartes réseau à l’aide de GetAdaptersInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da19541572af89e9429b9deba68efd4f4670324ffd9ff824e6c123295108f92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 470e0ce7682a86b29df912fa4d4b1297c2263382
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118644629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094569"
 ---
 # <a name="managing-network-adapters-using-getadaptersinfo"></a>Gestion des cartes réseau à l’aide de GetAdaptersInfo
 

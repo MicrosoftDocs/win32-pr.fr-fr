@@ -4,12 +4,12 @@ ms.assetid: d377951f-e7d4-4482-9182-2c3b153cb325
 title: Récupération d’informations à l’aide de GetNetworkParams
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84bbe1d03cd619af3a6e73e7995876431a804b3ec723cf9a132df5dba517e719
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20aed9b1ffa761ec53637d4d5b165e3fd2c2673d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094541"
 ---
 # <a name="retrieving-information-using-getnetworkparams"></a>Récupération d’informations à l’aide de GetNetworkParams
 

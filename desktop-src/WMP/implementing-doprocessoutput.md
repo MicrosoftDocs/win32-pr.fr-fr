@@ -10,12 +10,12 @@ keywords:
 - plug-ins DSP audio, DoProcessOutput
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc2f5aa1a952f16de196bed72ed7ac93dfac95d8333496824e3f0740f506a6fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f68562444a3a8f0bfacad26fc5246181d33cefa2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095593"
 ---
 # <a name="implementing-doprocessoutput"></a>Implémentation de DoProcessOutput
 

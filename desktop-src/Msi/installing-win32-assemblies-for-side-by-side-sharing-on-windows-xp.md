@@ -4,12 +4,12 @@ ms.assetid: 1234e904-fc7f-4eb7-8c50-0c959bbf5261
 title: Installation d’assemblys Win32 pour le partage côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c62607b37a9abd26ce031d922e67fa3f48963193af054e1d71c6903474220e82
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea72c9bcb7bd85ac38dfc8857030d6b9d6afbf23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119500699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012039"
 ---
 # <a name="installing-win32-assemblies-for-side-by-side-sharing"></a>Installation d’assemblys Win32 pour le partage côte à côte
 

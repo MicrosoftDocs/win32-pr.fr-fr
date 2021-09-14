@@ -4,12 +4,12 @@ ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Valeurs de retour de table de routage distribuée (DRT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82a80c6529a6488fb12ee36abedb9f460549d72eaa4956e198ffd2d118d11cdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef656454f833a6795167c1ea6689afda460119cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013937"
 ---
 # <a name="distributed-routing-table-return-values"></a>Valeurs de retour de table de routage distribué
 
@@ -70,7 +70,7 @@ Les codes d’erreur suivants sont généralement retournés par la technologie 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

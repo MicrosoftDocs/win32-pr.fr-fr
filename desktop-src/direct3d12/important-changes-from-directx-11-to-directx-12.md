@@ -5,12 +5,12 @@ ms.assetid: CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afc5fe9a451addf1d1f7b9aeddf1f55ca40a22db99134ba71d8195c72ad2b13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5be891d71d6c1f3a12d8d5aac3ec46785207ed31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123832"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012966"
 ---
 # <a name="important-changes-from-direct3d-11-to-direct3d-12"></a>Modifications importantes entre Direct3D 11 et Direct3D 12
 

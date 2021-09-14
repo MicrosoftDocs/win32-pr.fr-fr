@@ -17,11 +17,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: fb9c190157742aeca7c1ba6008a784005d054ca6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860698"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095085"
 ---
 # <a name="win32_classiccomclasssettings-class"></a>\_Classe ClassicCOMClassSettings Win32
 
@@ -88,7 +88,7 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**override
 
 La classe **Win32 \_ ClassicCOMClassSettings** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

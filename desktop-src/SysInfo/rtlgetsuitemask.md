@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: c6a71a2cb697021edcf8cea3da8759bbe40aa8ed9be2a93f8adcbeba4197ef88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed8d8906273d18125131251636bc6199d166547b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117763468"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095762"
 ---
 # <a name="rtlgetsuitemask-function"></a>RtlGetSuiteMask fonction)
 
@@ -45,7 +45,7 @@ Masque de bits qui identifie les suites de produits disponibles sur le système.
 
 
 
-| Valeur retournée                                                                          | Description                                                                                                                                                                                                                                             |
+| Valeur de retour                                                                          | Description                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0x00000001</dt> </dl> | Microsoft Small Business Server a été installé sur le système, mais il a peut-être été mis à niveau vers une autre version de Windows. Reportez-vous à la section Remarques pour plus d’informations sur cet indicateur de bit.<br/>                                           |
 | <dl> <dt>0x00000002</dt> </dl> | Windows 10 Entreprise, Windows 8.1 Entreprise, Windows server 2008 Enterprise, Windows server 2003, Êdition Entreprise ou Windows 2000 Advanced Server est installé. Reportez-vous à la section Remarques pour plus d’informations sur cet indicateur de bit.<br/> |
@@ -66,11 +66,11 @@ Masque de bits qui identifie les suites de produits disponibles sur le système.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous ne devez pas compter uniquement sur l’indicateur 0x00000001 pour déterminer si Small Business Server a été installé sur le système, car cet indicateur et l’indicateur 0x00000020 sont définis lors de l’installation de cette suite de produits. si vous mettez à niveau cette installation vers Windows serveur, Édition Standard, l’indicateur 0x00000020 sera désactivé, mais l’indicateur 0x00000001 restera défini. Dans ce cas, cela indique que Small Business Server a été installé sur ce système. si cette installation est encore mise à niveau vers Windows Server, Êdition Entreprise, l’indicateur 0x00000001 restera défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ead11a9febce994d729eab83a3906c4d6dcd4db6b1193ba49ea1a0e172dc5e6d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30aac53aa6451885bbd4ae2cac63050b01157974
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118988489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012793"
 ---
 # <a name="d3dxfillvolumetexturetx-function"></a>D3DXFillVolumeTextureTX fonction)
 
@@ -59,13 +59,13 @@ Pointeur vers un objet de nuanceur de texture [**ID3DXTextureShader**](id3dxtext
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La cible de la texture doit être une fonction HLSL qui prend la sémantique suivante :
 
@@ -75,7 +75,7 @@ La cible de la texture doit être une fonction HLSL qui prend la sémantique sui
 
 Les paramètres d’entrée peuvent être dans n’importe quel ordre. Pour obtenir un exemple, consultez [ **D3DXFillTextureTX**](d3dxfilltexturetx.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

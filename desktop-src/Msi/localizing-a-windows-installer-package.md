@@ -4,12 +4,12 @@ ms.assetid: 734961f6-de0a-4c54-9866-ade994c41c7e
 title: localisation d’un Package Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2afd1fecdd8aafd0654e5399812cc2065ee372348262be544eb0cac77daccd97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b325b211302fba632f454f30eefbcb688f30d819
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011945"
 ---
 # <a name="localizing-a-windows-installer-package"></a>localisation d’un Package Windows Installer
 

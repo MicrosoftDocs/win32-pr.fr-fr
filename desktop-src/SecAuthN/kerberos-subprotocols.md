@@ -4,12 +4,12 @@ ms.assetid: a32aebee-4c08-4838-9d81-c62091ce86e4
 title: Sous-protocoles Kerberos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5ea1ababaf1ec7fe4e80112d4c1f69dc8bfc242a40cea56675d08198188a130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 592c06c26013e065254458ad403cdff99fbb2edd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120013359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013770"
 ---
 # <a name="kerberos-subprotocols"></a>Sous-protocoles Kerberos
 

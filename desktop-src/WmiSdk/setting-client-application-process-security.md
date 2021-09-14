@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Définition de la sécurité des processus d’application cliente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be6b3f6e632ade53700bbe81afc7698a06fe2ff038e0c57c1b4a7eed44afa68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bfa0a42390ffa433cff01300b0976d40553665c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117739468"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013061"
 ---
 # <a name="setting-client-application-process-security"></a>Définition de la sécurité des processus d’application cliente
 

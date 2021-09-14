@@ -5,12 +5,12 @@ ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 257af2526120df5509a38fcc0c81984aa53a954f8eed6a8ce9194fa2aadb020a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b842ce5b3e89c3877f50036e747a90f14104bce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989452"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012890"
 ---
 # <a name="residency"></a>Résidence
 

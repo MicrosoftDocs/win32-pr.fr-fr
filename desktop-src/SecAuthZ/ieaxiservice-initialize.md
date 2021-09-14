@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 911d955f84d81b225a1b4062e47b2b9b6ab6d058aa6df2e6a72a8d40242345a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b2e388f955c968220223519150fc4dc5b7af4a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119414889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013694"
 ---
 # <a name="ieaxiserviceinitialize-method"></a>IeAxiService :: Initialize, méthode
 
@@ -93,7 +93,7 @@ pointeur vers l’instance de l’interface [**IeAxiSystemInstaller**](ieaxisyst
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est S \_ OK.
 
@@ -109,7 +109,7 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes d’erre
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

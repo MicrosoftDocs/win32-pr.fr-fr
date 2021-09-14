@@ -4,12 +4,12 @@ ms.assetid: 2d08bd05-5b0c-480c-91fd-b2bf321fc21e
 title: Instructions de base pour la conception d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d33c8000a55c85737901eb242610a0391128bbc497d485fe3bcef017d86b9f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7b6552022c3a9c2f50172164d1ed60811c5272e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120029799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013012"
 ---
 # <a name="basic-guidelines-for-designing-com-applications"></a>Instructions de base pour la conception d’applications COM+
 

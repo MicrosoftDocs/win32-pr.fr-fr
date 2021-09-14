@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a08fae12ee7928f40df4ea6244e2666af3f629d21ad35a1bb21314eeec664767
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab4ea5df734b626e54a70bc690301e755013ae59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119617119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095194"
 ---
 # <a name="jet_handleequals-method-jet_handle"></a>JET_HANDLE. Equals, méthode (JET_HANDLE)
 
@@ -62,7 +62,7 @@ public bool Equals(
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  
@@ -73,7 +73,7 @@ True si les deux instances sont égales.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_HANDLE](./jet-handle-structure.md)
 

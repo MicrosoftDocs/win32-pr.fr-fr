@@ -5,11 +5,11 @@ title: Objets GDI
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c0d57d4a1cfa99c392783dec23a090e7ccf09eb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042874"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013523"
 ---
 # <a name="gdi-objects"></a>Objets GDI
 
@@ -21,7 +21,7 @@ Il existe une limite théorique de 65 536 descripteurs GDI par session. Toutefoi
 
 Il y a également une limite par processus par défaut des descripteurs GDI. Pour modifier cette limite, définissez la valeur de Registre suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows** \\ **GdiProcessHandleQuota**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows** \\ **GDIProcessHandleQuota**
 
 Cette valeur peut être définie sur un nombre compris entre 256 et 65 536.
 

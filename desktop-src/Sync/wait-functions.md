@@ -4,12 +4,12 @@ ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Fonctions Wait
 ms.topic: article
 ms.date: 06/25/2020
-ms.openlocfilehash: 15bfc37dcd8fe541c14b9a0693c7b743cae6ed3e548c418baf0585f078e6d59a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5a21b0d95a316b926fcaad037004edc8c418246
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117764963"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095802"
 ---
 # <a name="wait-functions"></a>Fonctions Wait
 

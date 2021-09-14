@@ -5,12 +5,12 @@ ms.assetid: 09F90837-D6BF-498E-8018-5C28EDD9BDC3
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1eaab70be1f376856991156fe520919256e8f811c32ead4a5ce937fb4abc185
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9b016170fbd3b675d5d5a20c1de87f24b04d4804
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119280135"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012960"
 ---
 # <a name="indirect-drawing-and-gpu-culling"></a>Dessin indirect et élimination du GPU
 
@@ -22,7 +22,7 @@ L’exemple D3D12ExecuteIndirect montre comment utiliser des commandes indirecte
 -   [Créer les mémoires tampons de commande indirectes](#create-the-indirect-command-buffers)
 -   [Créer le calcul UAVs](#create-the-compute-uavs)
 -   [Dessin du frame](#drawing-the-frame)
--   [Exécuter l’exemple](#run-the-sample)
+-   [Exécution de l'exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 L’exemple crée une mémoire tampon de commande qui décrit 1024 appels de dessin. Chaque appel de dessin restitue un triangle avec une couleur, une position et une vélocité aléatoires. Les triangles s’animent de façon infinie sur l’écran. Cet exemple comporte deux modes. Dans le premier mode, un nuanceur de calcul inspecte les commandes indirectes et décide s’il faut ou non ajouter cette commande à une vue d’accès non ordonnée (UAV) décrivant les commandes qui doivent être exécutées. Dans le deuxième mode, toutes les commandes sont simplement exécutées. Le fait d’appuyer sur la barre d’espace permet de basculer entre les modes.
@@ -664,7 +664,7 @@ m_commandQueue->ExecuteCommandLists(_countof(ppCommandLists), ppCommandLists);
 |-----------------------------------------------------------------------|------------|
 | [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                        |            |
 | [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) |            |
-| [**Témoin**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                           |            |
+| [**Signal**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-signal)                           |            |
 | [**Wait**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-wait)                               |            |
 | [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                        |            |
 | [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) |            |

@@ -4,12 +4,12 @@ ms.assetid: 79dd4a45-c42c-4775-93ce-6e3206894d63
 title: Entrées de contrôle d’accès pour contrôler l’accès aux propriétés d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fddd5d78ff5b02bbbe4b9b7a7ce0b77d7be263f9fd3926f44411469af2bb3c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c1068ceb994e72deedcb795586ddf712fe9c1893
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013733"
 ---
 # <a name="aces-to-control-access-to-an-objects-properties"></a>Entrées de contrôle d’accès pour contrôler l’accès aux propriétés d’un objet
 
@@ -36,7 +36,7 @@ Pour ce faire, définissez les ACE dans la liste DACL de l’objet, comme indiqu
 
 | Tiers  | GUID de l’objet    | Type d’entrée de contrôle d’accès                  | Droits d’accès                                             |
 |----------|----------------|---------------------------|-----------------------------------------------------------|
-| Group A  | Aucun           | Accès-ACE autorisé        | droits \_ d' \_ \_ \_ \| \_ \_ \_ écriture DS \_ de lecture de la prop. |
+| Group A  | None           | Accès-ACE autorisé        | droits \_ d' \_ \_ \_ \| \_ \_ \_ écriture DS \_ de lecture de la prop. |
 | Tout le monde | Jeu de propriétés 1 | ACE de l’objet Access-allowed | droits \_ d' \_ \_ \_ \| \_ \_ \_ écriture DS \_ de lecture de la prop. |
 | Tout le monde | Propriété C     | ACE de l’objet Access-allowed | droits \_ d' \_ \_ \_ \| \_ \_ \_ écriture DS \_ de lecture de la prop. |
 

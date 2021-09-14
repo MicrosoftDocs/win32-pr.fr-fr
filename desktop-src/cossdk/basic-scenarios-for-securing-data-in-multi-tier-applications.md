@@ -4,12 +4,12 @@ ms.assetid: e9820e53-8891-4bff-a333-00ad2dbb03a4
 title: Scénarios de base pour la sécurisation des données dans les applications multiniveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f9c4bafb0334bb9e5f124eb184f6ebf2d17f4f0dc40ef04421162dc6604f531
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7929bcfeba96b43b7ec91513b42ffb7f46266613
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308741"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013013"
 ---
 # <a name="basic-scenarios-for-securing-data-in-multi-tier-applications"></a>Scénarios de base pour la sécurisation des données dans les applications multiniveau
 

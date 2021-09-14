@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c372101aee2817e08545080048c98a25af7efb152f4873e54366e73571763065
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef3de4d5ab9a06766ccce171c9d417639ce66a42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094810"
 ---
 # <a name="crenderedinputpinrun-method"></a>CRenderedInputPin. Run, méthode
 
@@ -49,11 +49,11 @@ Heure de début passée à la méthode [**IMediaFilter :: Run**](/windows/deskt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

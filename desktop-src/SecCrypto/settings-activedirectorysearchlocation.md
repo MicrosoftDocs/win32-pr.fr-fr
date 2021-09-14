@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 884866fd5ff6a3e3ff483a255bf2b77063ca81e51141108c9f58fd45629cc036
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d218b3d589b76980d468395a39452613aa57ada5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095886"
 ---
 # <a name="settingsactivedirectorysearchlocation-property"></a>Paramètres. Propriété ActiveDirectorySearchLocation
 
@@ -51,7 +51,7 @@ Valeur de l’énumération de l' [**\_ emplacement de \_ \_ recherche \_ Active
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

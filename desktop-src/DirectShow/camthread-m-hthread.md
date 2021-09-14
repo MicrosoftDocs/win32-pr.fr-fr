@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f7293a97373a53d102887e5958c4296aff3dcfe3d392c80492ed773af62a8f11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e83dd225da0c3673f9c7f423e0bf56da7431b097
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158910"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094921"
 ---
 # <a name="camthreadm_hthread-member"></a>CAMThread :: m \_ hThread, membre
 
@@ -40,7 +40,7 @@ HANDLE m_hThread;
 
 Cette variable est initialisée avec la **valeur null**. La méthode [**CAMThread :: Create**](camthread-create.md) définit cette variable sur le handle de thread. Pour déterminer si le thread existe, appelez la méthode [**CAMThread :: ThreadExists**](camthread-threadexists.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

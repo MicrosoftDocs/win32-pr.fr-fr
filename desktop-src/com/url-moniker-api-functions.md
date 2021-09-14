@@ -4,12 +4,12 @@ description: Fonctions du moniker d’URL
 ms.assetid: 773743d3-9434-4ec9-b85c-9b971e37682f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd4dc19d47a933e9f93516630b25fdab2f64b21cb3755ac9fd5bbdfa7edaba51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2db726d8ce6a101b0b97fbe2128e074ee5e892e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095465"
 ---
 # <a name="url-moniker-functions"></a>Fonctions du moniker d’URL
 

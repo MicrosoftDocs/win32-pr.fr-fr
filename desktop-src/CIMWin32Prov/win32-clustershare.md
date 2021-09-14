@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 66be06bf3a8433a7dba1eb28e6123adb03d622803745838158aa80bda0e8e594
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ccff6ad8d99692d066728c99dd74ab07640af4fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118417990"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095074"
 ---
 # <a name="win32_clustershare-class"></a>\_Classe ClusterShare Win32
 
@@ -438,7 +438,7 @@ Cette propriété est héritée [**du \_ partage Win32**](win32-share.md).
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

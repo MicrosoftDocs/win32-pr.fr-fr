@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e6d8cdd3dd54ffefdcbeb50b8d70c7b05aebafe852815e7eaa1fb0441636c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae4a69190f4b8a161af8872c9b1dfb4937449c4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117756683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095597"
 ---
 # <a name="itsremoteprogram2remoteapplicationprogram-property"></a>ITSRemoteProgram2 :: RemoteApplicationProgram, propriété
 
@@ -50,7 +50,7 @@ HRESULT put_RemoteApplicationProgram(
 
 Chemin d’accès et nom de fichier du programme RemoteApp.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

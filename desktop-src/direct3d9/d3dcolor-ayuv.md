@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 5e1900bf0d400971786eb37dd5138154913562982e1a1e3221c8002ac51fbf2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62a34e94fbdc6c47ed034a46bdae6e9b32a7c95d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095317"
 ---
 # <a name="d3dcolor_ayuv-macro"></a>D3DCOLOR \_ macro AYUV
 
@@ -70,7 +70,7 @@ Luminosité rouge de la couleur. Cette valeur doit être comprise entre 0 et 255
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur [D3DCOLOR](d3dcolor.md) qui correspond aux valeurs ARVB fournies.
 
@@ -87,7 +87,7 @@ v = red - luminance
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

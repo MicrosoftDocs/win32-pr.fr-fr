@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 45d5c2d6b64936b034d859caddf72ddaaf6fba77451d066205d7f394200311f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f81c9ab9b43b814307242cc828326b2b7e7d79fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012109"
 ---
 # <a name="installerprovideassembly-method"></a>Programme d’installation ::P méthode rovideAssembly
 
@@ -95,11 +95,11 @@ Informations d’assembly et type d’assembly. Définissez l’une des valeurs 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chemin d’accès à l’assembly installé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **ProvideAssembly** utilise la fonction [**MsiProvideAssembly**](/windows/desktop/api/Msi/nf-msi-msiprovideassemblya) .
 
@@ -130,7 +130,7 @@ MsgBox Installer.ProvideAssembly("Microsoft.MSXML2,publicKeyToken=""6bd6b9abf345
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -146,7 +146,7 @@ MsgBox Installer.ProvideAssembly("Microsoft.MSXML2,publicKeyToken=""6bd6b9abf345
 
 <dl> <dt>
 
-[**Programme d’installation**](installer-object.md)
+[**D'**](installer-object.md)
 </dt> <dt>
 
 [non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)

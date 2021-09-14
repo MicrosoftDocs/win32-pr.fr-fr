@@ -17,11 +17,11 @@ api_type:
 api_location:
 - Wbemdisp.dll
 ms.openlocfilehash: c518cb38a0ecb221f4fcb0d0e7f9ce6dfc226ba9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013054"
 ---
 # <a name="swbemservicesinstancesofasync-method"></a>SWbemServices. InstancesOfAsync, méthode
 
@@ -140,7 +140,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -193,7 +193,7 @@ Un rappel asynchrone permet à un utilisateur non authentifié de fournir des do
 
 La méthode **InstancesOfAsync** fonctionne uniquement pour les objets de classe. Il n’y a pas d’erreur pour que l’énumérateur retourné ait des éléments nuls (0).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

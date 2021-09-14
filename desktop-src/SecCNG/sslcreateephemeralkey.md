@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: a6a54de2865df805af51b054c22d455d52914a5b00514767d432ceda28c16a39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 452b0166da367bb6b1530f5669e55b7ca909e13e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013638"
 ---
 # <a name="sslcreateephemeralkey-function"></a>SslCreateEphemeralKey fonction)
 
@@ -110,7 +110,7 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -128,13 +128,13 @@ Si la fonction échoue, elle retourne une valeur d’erreur différente de zéro
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de l’utilisation d’une suite de chiffrement DHE, l’implémentation SSL interne transmet les paramètres Server *p* et *g* à la fonction **SslCreateEphemeralKey** dans les paramètres *pbParams* et *cbParams* .
 
 Le format des données dans la mémoire tampon *pbParams* est le même que celui utilisé lors de la définition de la propriété de [**\_ \_ paramètres bcrypt DH**](cng-property-identifiers.md) , et il commence par une structure d' [**\_ \_ \_ en-tête de paramètre bcrypt DH**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

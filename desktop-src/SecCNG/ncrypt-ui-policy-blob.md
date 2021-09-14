@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ncrypt_provider.h
-ms.openlocfilehash: 21f9f6c0f6956ffa89da45c9dcd23727c0b3cea2d4f31131713f9ed5a0c3a2fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c45b53e051f021ab3dcce6dab4e2317572338624
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013657"
 ---
 # <a name="ncrypt_ui_policy_blob-structure"></a>\_Structure d' \_ \_ objet blob de stratégie d’interface utilisateur NCRYPT
 
@@ -89,11 +89,11 @@ Longueur, en octets, de la description de la clé. La description de clé est un
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est incluse dans l' \_ en-tête du fournisseur ncrypt. h. Pour utiliser la structure, vous devez télécharger le [Kit de développement du fournisseur de services de chiffrement](/collaborate/connect-redirect?InvitationID=CSDK-GYTG-R2PX&ProgramID=7264) à partir de Microsoft connecter.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

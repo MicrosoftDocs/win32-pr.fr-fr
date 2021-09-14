@@ -5,11 +5,11 @@ ms.assetid: 218e970e-825e-441d-8947-30ec6a2845bd
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 500187bf04babbecf7577ff933dd0adcc53609f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672174"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012373"
 ---
 # <a name="iagentcharacterexsethelpcontextid"></a>IAgentCharacterEx::SetHelpContextID
 
@@ -34,23 +34,23 @@ Le numéro de contexte de la rubrique d’aide associée à un caractère ; uti
 
 </dd> </dl>
 
-Si vous avez créé un fichier d’aide Windows pour votre application et que vous l’avez défini dans la propriété [**HelpFile**](helpfile-property.md) du caractère, Microsoft agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur sélectionne le caractère. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour le caractère. S’il existe un numéro de contexte dans la propriété **HelpContextID** , help affiche une rubrique correspondant au contexte d’aide actuel ; Sinon, elle affiche « aucune rubrique d’aide associée à cet élément ».
+si vous avez créé un fichier d’aide Windows pour votre application et que vous l’avez défini dans la propriété [**HelpFile**](helpfile-property.md) du caractère, Microsoft Agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **True** et que l’utilisateur sélectionne le caractère. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour le caractère. S’il existe un numéro de contexte dans la propriété **HelpContextID** , help affiche une rubrique correspondant au contexte d’aide actuel ; Sinon, elle affiche « aucune rubrique d’aide associée à cet élément ».
 
 Ce paramètre s’applique uniquement lorsque votre application cliente est le client actif du premier caractère. Elle n’affecte pas les autres clients du caractère ou d’autres caractères que votre application cliente utilise.
 
 > [!Note]  
-> La génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
+> la génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacterEx :: GetHelpContextID**](iagentcharacterex--gethelpcontextid.md), [**IAgentCharacterEx :: SetHelpModeOn**](iagentcharacterex--sethelpmodeon.md), [**IAgentCharacterEx :: SetHelpFileName**](iagentcharacterex--sethelpfilename.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

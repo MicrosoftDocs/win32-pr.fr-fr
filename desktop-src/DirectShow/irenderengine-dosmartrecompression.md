@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e5b1d5ea00367ee29ec8f3165cd9115a00776fc7ccd2156bf83ab199fd6e3c25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3e13a51564b39ba2e954da38a5453e63c4036d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120051429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094705"
 ---
 # <a name="irenderenginedosmartrecompression-method"></a>IRenderEngine ::D méthode oSmartRecompression
 
@@ -41,11 +41,11 @@ HRESULT DoSmartRecompression();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

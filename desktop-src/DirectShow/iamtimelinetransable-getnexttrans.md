@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 892f8e0f4af39250d62da9ed662c22867f98ebfc32baeaa0f341ead2eef665a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc8f7c88dab2b8c0dfece6f2799b6648c0b9da2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012193"
 ---
 # <a name="iamtimelinetransablegetnexttrans-method"></a>IAMTimelineTransable :: GetNextTrans, méthode
 
@@ -60,11 +60,11 @@ Pointeur vers une variable qui spécifie le temps en unités de 100 nanosecondes
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne \_ la valeur OK si la méthode récupère une transition ou la \_ valeur false si elle ne trouve pas de transition. Sinon, retourne une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’heure de début de la transition peut être inférieure à l’heure que vous spécifiez dans *pInOut*, si la transition s’étend sur l’heure spécifiée.
 
@@ -80,7 +80,7 @@ Si la méthode retourne la valeur \_ OK, l’interface [**IAMTimelineObj**](iamt
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

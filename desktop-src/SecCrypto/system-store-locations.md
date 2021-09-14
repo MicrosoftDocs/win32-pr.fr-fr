@@ -4,12 +4,12 @@ ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: Emplacements du magasin système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d793d94bcb1c58bcc0d8c046b038df7e699d287b9ede3f14d6e2cb3c94ab781e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0863ffde8be5db67459908b1ec26ec73da029744
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095838"
 ---
 # <a name="system-store-locations"></a>Emplacements du magasin système
 
@@ -217,7 +217,7 @@ Les magasins physiques prédéfinis associés à ces magasins système sont les 
 
  
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Des magasins physiques supplémentaires peuvent être associés à un magasin système à l’aide de [**CertRegisterPhysicalStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certregisterphysicalstore).
 

@@ -4,12 +4,12 @@ ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: Pack source VAUX (VS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 477e7a3257c11d6d8b42e16d2f066251452bc42a489abe9e666e374a565fa77c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 28f7ad2a91f1be1291b564013041e6dfa23bb014
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094621"
 ---
 # <a name="vaux-source-vs-pack"></a>Pack source VAUX (VS)
 
@@ -375,7 +375,7 @@ Pack VS
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les codes de champ suivants présentent un intérêt :
 

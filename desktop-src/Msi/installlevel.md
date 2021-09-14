@@ -4,12 +4,12 @@ ms.assetid: 5051cc46-837a-4446-a54c-4bd4081a424c
 title: Propriété INSTALLLEVEL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e349e8d92a2c480866b04a1ca57885ffa1cdb230d8346b357318fa239ead72a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebc0616fdf49e2c713c65017a202320fa6ea9622
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012040"
 ---
 # <a name="installlevel-property"></a>Propriété INSTALLLEVEL
 
@@ -19,7 +19,7 @@ La propriété **INSTALLLEVEL** est le niveau initial auquel les fonctionnalité
 
 Si aucune valeur n’est spécifiée, le niveau d’installation par défaut est 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le niveau d’installation spécifié par la propriété **INSTALLLEVEL** peut être remplacé par les propriétés suivantes :
 
@@ -38,7 +38,7 @@ Par exemple, la définition de ADDLOCAL = ALL installe toutes les fonctionnalit�
 
 Un administrateur peut désactiver définitivement une fonctionnalité en appliquant une transformation de personnalisation qui définit 0 dans la colonne de niveau pour cette fonctionnalité. L’application de la transformation de personnalisation empêche l’installation et l’affichage de la fonctionnalité même si l’utilisateur sélectionne une installation complète à l’aide de l’interface utilisateur ou en affectant à ADDLOCAL la valeur ALL sur la ligne de commande. Consultez [un exemple de transformation de personnalisation](a-customization-transform-example.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

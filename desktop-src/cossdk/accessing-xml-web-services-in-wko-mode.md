@@ -4,12 +4,12 @@ ms.assetid: 5b21ff0c-f3a5-464b-b927-a7872ac54fe2
 title: Accès aux services Web XML en mode WKO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f412a1ec6493e713d2635136b2c4e82063cde56c30358653e476f300ffd2ae4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e726f430c47b3202932796455e1cf997e370a022
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129401"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013029"
 ---
 # <a name="accessing-xml-web-services-in-wko-mode"></a>Accès aux services Web XML en mode WKO
 
@@ -53,7 +53,7 @@ if (FAILED(hr)) throw(hr);
 
 Dans ce fragment de code qui illustre l’utilisation d’un composant d’une application COM+ exposée en tant que service Web XML, ServerName est le nom de domaine complet du serveur qui offre le service Web XML. vroot est le répertoire racine virtuel IIS à partir duquel le service Web XML est exposé. et progID est le ProgID du composant que vous souhaitez utiliser.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors du premier accès à un service Web XML en mode WKO, COM+ génère un client proxy et le compile en arrière-plan. Cette génération au moment de l’exécution et l’absence de connexions persistantes en mode WKO entraînent une réduction significative des performances par rapport au mode CAO.
 

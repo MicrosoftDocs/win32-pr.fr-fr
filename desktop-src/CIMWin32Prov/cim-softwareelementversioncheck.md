@@ -29,11 +29,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 2aaceef2e4c72d88e2fbafb40012bb3d7b9a7a2c
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882852"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095110"
 ---
 # <a name="cim_softwareelementversioncheck-class"></a>\_Classe CIM SoftwareElementVersionCheck
 
@@ -1445,7 +1445,7 @@ Cette propriété est héritée de la classe de [**\_ vérification CIM**](cim-c
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe.
 

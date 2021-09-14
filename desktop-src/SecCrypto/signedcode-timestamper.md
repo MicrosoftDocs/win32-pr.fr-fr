@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b5bd6f9376f74d46373f6731c66b2452503c6105fff31ce28b4fc76ac126c44d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5594cf46e82e47103d456fc7fe147e0470333953
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118899348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095870"
 ---
 # <a name="signedcodetimestamper-property"></a>Propriété SignedCode. TimeStamp
 
@@ -39,7 +39,7 @@ SignedCode.TimeStamper As Signer
 
 Objet [**signataire**](signer.md) qui fournit l’accès à l’horodatage du fichier exécutable signé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 94da3e53-1898-4721-b5f0-0b7244574c55
 title: Gestion des adresses IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b51e0e1e30adf064330a2a4070e6872ca87b50b94e3ad1ab458c3c84878d5549
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77b0917050799ea452cf1c6ee3e068cc29793df8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119560319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094573"
 ---
 # <a name="managing-ip-addresses"></a>Gestion des adresses IP
 

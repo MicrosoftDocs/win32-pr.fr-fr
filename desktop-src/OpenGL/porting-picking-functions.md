@@ -10,12 +10,12 @@ keywords:
 - mat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be2cbeed54a18e7f1d3f26ec01dca2ad352aa4e190fbdc667ed75a60badec29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db4c0ea6011860f7d5010dd0bb7d5d23b671d99a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127014003"
 ---
 # <a name="porting-picking-functions"></a>Fonctions de sélection du Portage
 

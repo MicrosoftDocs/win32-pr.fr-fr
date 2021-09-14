@@ -4,12 +4,12 @@ ms.assetid: 63d255b7-fa7d-411b-9cdb-52113f30c933
 title: Accès au contenu d’une mémoire tampon de vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f186a85ae0f025d274c50a62d2a83e943bc3b772b2907b5baa1bcac6e0b3bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1b5e4a4986e064d3736f83567f5dd6d479d0dbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012837"
 ---
 # <a name="accessing-the-contents-of-a-vertex-buffer-direct3d-9"></a>Accès au contenu d’une mémoire tampon de vertex (Direct3D 9)
 

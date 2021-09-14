@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e119a639af7cb6459e8e6ec8ae6416f9d067c56e8f81560fedc385abd518b840
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08648c8b941874a6d1e1ed97d49f510694b998b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118899338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095866"
 ---
 # <a name="signedcode-object"></a>Objet SignedCode
 
@@ -80,13 +80,13 @@ L’objet **SignedCode** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **SignedCode** peut être créé et n’est pas sûr pour l’écriture de scripts. Le ProgID de l’objet **SignedCode** est CAPICOM. SignedCode. 1.
 
 Le fichier exécutable doit être d’un type qui peut être signé avec la technologie Authenticode, par exemple, les fichiers ayant l’extension de nom de fichier .cab,. cat, .exe, .dll,. vbs ou. ocx.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

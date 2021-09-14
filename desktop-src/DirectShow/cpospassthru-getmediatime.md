@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec2767f3a20b6acc162da8670eefcd6d399639d5acf713b6dc54caf56f6edabe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 328a0ae09c80a687863cfedb994f5a80cebebf14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120084169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012266"
 ---
 # <a name="cpospassthrugetmediatime-method"></a>Méthode CPosPassThru. GetMediaTime
 
@@ -57,15 +57,15 @@ Pointeur vers une variable qui reçoit l’heure de fin, en unités du format d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne E \_ Fail.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Substituez cette méthode si votre filtre met en cache les horodatages sur les échantillons qu’il reçoit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

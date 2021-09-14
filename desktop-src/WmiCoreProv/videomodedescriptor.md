@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: a8f103bf5a23f6e157fc9ecca697c0d1ce7c47bd71be20458d816ca74819dc10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06094b24b6b8197eab89b65cd5a9a83f46b39f95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118558404"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013103"
 ---
 # <a name="videomodedescriptor-class"></a>VideoModeDescriptor, classe
 
@@ -525,7 +525,7 @@ Type de vidéo standard.
 
 | Valeur                                                                                | Signification                                                                                                        |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0 (0x0)</dt> </dl>   | Autre<br/>                                                                                               |
+| <dl> <dt>0 (0x0)</dt> </dl>   | Autres<br/>                                                                                               |
 | <dl> <dt>1 (0x1)</dt> </dl>   | VESA DMT. À partir de Video Electronics standard Association (VESA), affichez la spécification des minutages de moniteur.<br/> |
 | <dl> <dt>2 (0X2)</dt> </dl>   | GTF VESA. À partir de la norme de formule de minutage généralisée VESA.<br/>                                            |
 | <dl> <dt>3 (0x3)</dt> </dl>   | VESA CVT/à partir de la norme des minutages vidéo coordonné VESA.<br/>                                             |
@@ -560,7 +560,7 @@ Type de vidéo standard.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

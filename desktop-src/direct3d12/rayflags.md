@@ -12,12 +12,12 @@ api_name:
 - RayFlags
 api_type:
 - NA
-ms.openlocfilehash: 6f9fb95a11eb846807234848e085e1a5060108eae56af205f9899a4ac77d358b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3aedb39ebaaadfc5c3b17af31c9ac3d6670e0b89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118300970"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012908"
 ---
 # <a name="rayflags"></a>RayFlags
 

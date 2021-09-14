@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6c2329f7b6423d24f81d421d3078aae5495992796d607c1a8f22d82d4b1e48
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 85e60fb001da3f8401e47c366eecc86aced22b77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013872"
 ---
 # <a name="ras_port_statistics-structure"></a>Structure des statistiques du \_ port RAS \_
 
@@ -268,7 +268,7 @@ Spécifie le nombre total d’octets reçus compressés par le port. Si le port 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

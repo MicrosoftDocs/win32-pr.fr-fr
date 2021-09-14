@@ -4,12 +4,12 @@ ms.assetid: ef95c3c8-b4c8-4305-8aa2-07ec74b3121b
 title: utilisation de Windows Installer pour inventorier des produits et des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9406d0984e58efdb8344fbf8974234690e3a6aaeb1cc697b5a76e6af940554e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7915a8a58954c2e07a3dae9536ed7bae399e416b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012003"
 ---
 # <a name="using-windows-installer-to-inventory-products-and-patches"></a>utilisation de Windows Installer pour inventorier des produits et des correctifs
 

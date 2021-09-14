@@ -10,12 +10,12 @@ keywords:
 - Wireframe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab63248917d4490d6b577ac490ef6185e173e8b78031a055625e246c17e5485
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1f6f1897af46c85ed48171d251ebe1b2de8c5e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013969"
 ---
 # <a name="w-opengl"></a>W (OpenGL)
 

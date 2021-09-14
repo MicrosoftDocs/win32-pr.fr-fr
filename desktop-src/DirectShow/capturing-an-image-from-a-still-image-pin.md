@@ -4,12 +4,12 @@ ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capture d’une image à partir d’un code confidentiel d’image continue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab750fb6b847bc39d28c8906df8dcb982278f7a4447bfc3d79631ee58eb574e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3510f318f3107dd698dc753704d6c09d70ddd308
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158661"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094873"
 ---
 # <a name="capturing-an-image-from-a-still-image-pin"></a>Capture d’une image à partir d’un code confidentiel d’image continue
 

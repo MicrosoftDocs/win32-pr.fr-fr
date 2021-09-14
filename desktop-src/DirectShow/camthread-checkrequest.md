@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 292f8a7fb1ed4f12ad558993d6b1932b2ddff4656bada5e0a89067bac1baa9c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a004e0f5303cf6702c03e78c292a6a2d832a489
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662355"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094958"
 ---
 # <a name="camthreadcheckrequest-method"></a>Méthode CAMThread. CheckRequest
 
@@ -49,17 +49,17 @@ Pointeur vers une variable qui reçoit la valeur passée dans le dernier appel �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** s’il y a une demande en attente, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est une version sans blocage de la méthode [**CAMThread :: GetRequest**](camthread-getrequest.md) .
 
 Si un autre thread attend un appel à CallWorker, cette méthode récupère le paramètre de requête et retourne la **valeur true**. Sinon, elle retourne **false**. Si la méthode retourne la **valeur true**, appelez la méthode [**CAMThread :: reply**](camthread-reply.md) pour libérer le thread demandeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

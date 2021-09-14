@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8ad6b4679d7c57f35483d8c57a9bab2d488c07f981b998cd3b19b80ea96cac8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bf838a080ed1663264fb023c556eb5bc473b6d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117717580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012621"
 ---
 # <a name="apisetcolumn-method-jet_sesid-jet_tableid-jet_columnid-int32"></a>Méthode API. SetColumn (JET_SESID, JET_TABLEID, JET_COLUMNID, Int32)
 
@@ -91,7 +91,7 @@ public static void SetColumn(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

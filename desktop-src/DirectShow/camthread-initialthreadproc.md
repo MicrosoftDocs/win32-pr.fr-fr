@@ -1,7 +1,7 @@
 ---
 description: La méthode InitialThreadProc appelle la procédure de thread principale.
 ms.assetid: 1546c214-7ea9-4484-974b-dbd4b2b3e296
-title: CAMThread.Iniméthode tialThreadProc (Wxutil. h)
+title: Méthode CAMThread. InitialThreadProc (Wxutil. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d12e8d41ac0c6e1fd2af06c21accbb5c62e4eb25f2fc3f6c36988101a9b64d89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd7fd0aa12d0659776db7e39fb223095762fc209
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119540299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094925"
 ---
-# <a name="camthreadinitialthreadproc-method"></a>CAMThread.Iniméthode tialThreadProc
+# <a name="camthreadinitialthreadproc-method"></a>Méthode CAMThread. InitialThreadProc
 
 La `InitialThreadProc` méthode appelle la procédure de thread principale.
 
@@ -49,17 +49,17 @@ DWORD InitialThreadProc(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur DWORD** retournée par [**CAMThread :: ThreadProc**](camthread-threadproc.md). La classe dérivée définit cette valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CAMThread :: Create**](camthread-create.md) utilise cette méthode pour la procédure de thread lors de la création du thread. Elle utilise le `this` pointeur comme argument de thread.
 
 Cette méthode appelle la méthode [**CAMThread :: CoInitializeHelper**](camthread-coinitializehelper.md) , puis ThreadProc.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

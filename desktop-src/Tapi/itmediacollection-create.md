@@ -4,12 +4,12 @@ ms.assetid: f0036556-d2e7-4589-8bb4-e2c5559902fe
 title: 'ITMediaCollection :: Create, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a2b11624b6a22a9bf1bff7b87538d3c7e915892a4ec7b816ee3d6c4d03821d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8033fb2f541f5451f918845858df756b32361f54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095749"
 ---
 # <a name="itmediacollectioncreate-method"></a>ITMediaCollection :: Create, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers l’interface [**ITMedia**](itmedia.md) créée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -66,13 +66,13 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la plupart des listes C et C++ sont de base 0, mais cet index est basé sur 1 pour la compatibilité Visual Basic, ce qui signifie que le premier élément a un numéro d’index de 1.
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITMedia**](itmedia.md) retournée par **ITMediaCollection :: Create**. L’application doit appeler **Release** sur l’interface [**ITMedia**](itmedia.md) pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

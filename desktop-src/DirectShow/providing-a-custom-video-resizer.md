@@ -4,12 +4,12 @@ ms.assetid: 4009f93f-cd50-440f-b943-7e3700e0e2cb
 title: Fournir un redimensionnement vidéo personnalisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a006f4620accc3917ae3072846f99f7537a1eadfaab21da36aab17f17d94e433
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5247727cf16ef3c94a699db2907ff240b1d8a289
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094657"
 ---
 # <a name="providing-a-custom-video-resizer"></a>Fournir un redimensionnement vidéo personnalisé
 

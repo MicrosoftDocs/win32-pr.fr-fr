@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: ceb80ee7778389e9dc79b732fba73d8c986483f160822492b05a6a26630a9fa5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 442facd9bec7c56e90738c95e1feb7fbc8f34b3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117716104"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012614"
 ---
 # <a name="esentapiexception-constructor"></a>Constructeur EsentApiException
 
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentApiException, classe](./esentapiexception-class.md)
 

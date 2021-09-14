@@ -4,12 +4,12 @@ ms.assetid: e94da591-49ab-4932-8621-0a62b8a55dd6
 title: Constantes PHONESTATUSFLAGS_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b42f8e13adfae54c56e44244d04b3961216edb87e29730fec6f689f315380a7e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 969c2553274037797bdf9abea3e8bdbc1cd8d018
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095666"
 ---
 # <a name="phonestatusflags_-constants"></a>\_Constantes PHONESTATUSFLAGS
 
@@ -37,11 +37,11 @@ Spécifie si la manipulation de l’appareil téléphonique par l’interface TA
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

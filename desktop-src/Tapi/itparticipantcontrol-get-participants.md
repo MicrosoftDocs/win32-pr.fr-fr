@@ -4,12 +4,12 @@ ms.assetid: 643acc3f-3df1-4f3a-a8fe-5d46864f8cf7
 title: 'ITParticipantControl :: get_Participants, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d61d12de18e30bd86d42fd1aa75aed2048c42e487e019eabe3da6d65e70a9f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e4a99e0efe7702a3358684b00af5e8faa96461c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118864710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095685"
 ---
 # <a name="itparticipantcontrolget_participants-method"></a>ITParticipantControl :: obtient la \_ méthode des participants
 
@@ -39,7 +39,7 @@ Pointeur vers un **Variant** contenant un [**ITCollection**](/windows/desktop/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -55,11 +55,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITParticipant**](itparticipant.md) retournée par **ITParticipantControl :: obtient \_ participants**. L’application doit appeler **Release** sur l’interface **ITParticipant** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

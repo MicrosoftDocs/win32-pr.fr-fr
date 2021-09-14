@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4f4e9ff0078f6efe8dee9b060e61858c24aea0a64e7e35b9fb867125b8612ed3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff31707dc409db1e72c36866150c5a0b24c53f9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094794"
 ---
 # <a name="critcheckin-function"></a>CritCheckIn fonction)
 
@@ -49,11 +49,11 @@ Pointeur vers une section critique [**CCritSec**](ccritsec.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Dans les versions Debug, retourne la **valeur true** si le thread actuel est le propriétaire de cette section critique, ou **false** dans le cas contraire. Dans les versions commerciales, retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est particulièrement utile dans la macro [**Assert**](assert.md) pour tester si un thread possède un verrou donné.
 
@@ -78,7 +78,7 @@ L’exemple de code suivant montre comment utiliser cette fonction :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

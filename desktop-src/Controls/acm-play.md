@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e480dd61326440158d23a630ed5d8de2dd922037e6702391e88977b081a2a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e501f3718e1b8172e2b7b16566f992c26346b7f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012333"
 ---
 # <a name="acm_play-message"></a>\_Message de lecture ACM
 
@@ -45,15 +45,15 @@ Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser [**Animate \_ Seek**](/windows/desktop/api/Commctrl/nf-commctrl-animate_seek) pour indiquer au contrôle d’animation d’afficher un cadre particulier du clip avi.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

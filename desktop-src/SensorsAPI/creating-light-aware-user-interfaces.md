@@ -4,12 +4,12 @@ ms.assetid: c84075b2-ae41-4915-a0f6-3a9c017ae0b8
 title: Création d' Light-Aware interfaces utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bd97bb304c3a8718ae4b32d8b9100a1e7eb7a18240b9089c112272f588ee209
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a4b6d404e366cb898114fe61729ab1ad722feb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118890283"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013557"
 ---
 # <a name="creating-light-aware-user-interfaces"></a>Création d' Light-Aware interfaces utilisateur
 

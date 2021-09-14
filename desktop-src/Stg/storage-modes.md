@@ -4,12 +4,12 @@ description: Le stockage asynchrone prend en charge deux modes de stockage bloqu
 ms.assetid: df8f9e2c-40d2-4997-b5f9-bdbc524437cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db1a0a4c08daa1663f7513226dc25f4d5c8fd26341a6c8ee7d90a2ec0d1099db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 827e893f5077a64485251111837e6b56657756f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013540"
 ---
 # <a name="storage-modes"></a>Stockage Façons
 

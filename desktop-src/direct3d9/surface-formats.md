@@ -4,12 +4,12 @@ ms.assetid: 33430f01-cd26-45f4-9ce8-ca2c17c7ae6b
 title: Formats de surface (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e54b6bf4573243e170f089a72d7d5c69e31c81a536703d764694d43f2dc33cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78aad64940510a080ba05d0513e7f66d33912a41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291496"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095278"
 ---
 # <a name="surface-formats-direct3d-9"></a>Formats de surface (Direct3D 9)
 

@@ -4,12 +4,12 @@ ms.assetid: b4a8defc-876f-4a23-a12e-e7423a1e8f89
 title: Mappage d’environnement sphérique (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be4347b71a041aaa8d7057ac2bb7523bfa235fe59f84fe1ba54c54283cd2159
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9b0e7aaa123478ecc7cc327dca0b13a8aae3d0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119746385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095289"
 ---
 # <a name="spherical-environment-mapping-direct3d-9"></a>Mappage d’environnement sphérique (Direct3D 9)
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: ccafd6e3cffb71cccbdf3025ead6ad2cc012f4d62ecf52405cf82dcda06a1531
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36fd57d15257323e86c0068709c3c73662eb0658
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119849789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012802"
 ---
 # <a name="d3dxfilecreate-function"></a>D3DXFileCreate fonction)
 
@@ -49,17 +49,17 @@ Adresse d’un pointeur vers une interface [**ID3DXFile**](id3dxfile.md) , repr�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est S \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : \_ pointeur e, e \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après l’utilisation de cette fonction, utilisez [**RegisterTemplates**](id3dxfile--registertemplates.md) ou [**RegisterEnumTemplates**](id3dxfile--registerenumtemplates.md) pour inscrire des modèles, [**CreateEnumObject**](id3dxfile--createenumobject.md) pour créer un objet énumérateur ou [**CreateSaveObject**](id3dxfile--createsaveobject.md) pour créer un objet Save.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

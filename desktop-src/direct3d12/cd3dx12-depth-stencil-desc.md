@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fdbd7184ad6fc432beb5ba8e9585c2e9a93486acc604f875ff3a70f72e8ec04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f36a071251a12c4d27d06586775c01759b88d38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118531105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095333"
 ---
 # <a name="cd3dx12_depth_stencil_desc-structure"></a>\_ \_ Structure DESC du stencil de profondeur CD3DX12 \_
 
@@ -129,7 +129,7 @@ Définit le & opérateur de passage par référence pour le type de structure pa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

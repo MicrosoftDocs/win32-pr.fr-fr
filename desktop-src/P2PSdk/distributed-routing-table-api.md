@@ -4,12 +4,12 @@ ms.assetid: 17422d71-4c6d-458b-87b6-b31fc2b5bda5
 title: API Table de routage distribué
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9adabac4e2e885a7ac635daf5de2dfbacc94dafd4972a6b35f1f4649c3428e92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9f8c2b435e1c0c813fb279c40b9bbfa9afb6b23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011607"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013942"
 ---
 # <a name="distributed-routing-table-api"></a>API Table de routage distribué
 

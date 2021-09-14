@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 657e380c58182fee8ad2c82f3af0c6fdd5ffec76
-ms.sourcegitcommit: 8a211d404470a6a2790733ed2894cfaf92bddd70
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "123464102"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012889"
 ---
 # <a name="resource-binding-overview"></a>Vue d’ensemble de la liaison de ressources
 

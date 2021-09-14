@@ -4,12 +4,12 @@ ms.assetid: 10af1857-d59f-490d-9b50-49619b1e892c
 title: Installation de plusieurs correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65dc6b65997bd6bcb2b9f4c8da5022adda9a38b0b93401dc507397421799d260
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d4edb8d085ede6aee81690bf67bd9c5e19780ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012043"
 ---
 # <a name="installing-multiple-patches"></a>Installation de plusieurs correctifs
 

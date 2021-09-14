@@ -4,12 +4,12 @@ ms.assetid: 6283f56b-23ae-4840-abd0-2478a50c670c
 title: Fibres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 711fe8a23c8384f786cb60d6075e2289c403d272f0a899653738d031be09cdea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ea0383e6d207a77c621f00f358c72bb8873ecb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013885"
 ---
 # <a name="fibers"></a>Fibres
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 46be2130cbb57cc216f570e944d6959ae355780134f90bc94101d01d6f38bb16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c07e722abf0c6a291d42bc094ba7a2a7c5238cfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119617599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012518"
 ---
 # <a name="jet_dbinfomiscequals-method-object"></a>JET_DBINFOMISC. Equals, méthode (Object)
 
@@ -62,14 +62,14 @@ public override bool Equals(
     
     [Objet](/dotnet/api/system.object) à comparer à l' [objet](/dotnet/api/system.object)actuel.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si l' [objet](/dotnet/api/system.object) spécifié est égal à l' [objet](/dotnet/api/system.object)actuel ; Sinon, false.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_DBINFOMISC](./jet-dbinfomisc-class.md)
 

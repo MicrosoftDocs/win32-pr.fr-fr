@@ -4,12 +4,12 @@ ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: Représentation matricielle des transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 122d59787038cd75a9806cac6cb0d225e8660eb13d7482d3ee1f47ff0732ca5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0577cae38c401e842cff2ff14179594f9118dfd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012421"
 ---
 # <a name="matrix-representation-of-transformations"></a>Représentation matricielle des transformations
 

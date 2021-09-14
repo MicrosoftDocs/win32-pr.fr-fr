@@ -4,12 +4,12 @@ ms.assetid: a27386c5-1ab3-448a-88d9-8c9a18599e59
 title: Service de notification d’événements système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e76ee51ea0e7a341f0205528e9083cb1f6c0420f941025ec71c32c9154850b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c3238441f82c26a33370c37fe09b3e4007639f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013574"
 ---
 # <a name="system-event-notification-service"></a>Service de notification d’événements système
 

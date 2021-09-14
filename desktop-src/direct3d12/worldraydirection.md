@@ -12,12 +12,12 @@ api_name:
 - WorldRayDirection
 api_type:
 - NA
-ms.openlocfilehash: 41159507f0ee8798abded87f3e9bac1706cecf97474e36af07c90aea0dec3d4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d38ab75d0f0708f70624284483a0222eadf9591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117911744"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095322"
 ---
 # <a name="worldraydirection"></a>WorldRayDirection
 

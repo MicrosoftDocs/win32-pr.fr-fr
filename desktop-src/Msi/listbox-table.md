@@ -4,12 +4,12 @@ ms.assetid: 1963adcf-f682-4371-ab44-f91e90105dc0
 title: Table ListBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b8877db002185cd675914eca6d5be38454796c7b50af6a48f88e0e63c10c195
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5f60fb6ac48860c7893b0320b54e6e54dcf1691
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011953"
 ---
 # <a name="listbox-table"></a>Table ListBox
 
@@ -22,7 +22,7 @@ La table ListBox contient les colonnes suivantes.
 | Colonne   | Type                         | Clé | Nullable |
 |----------|------------------------------|-----|----------|
 | Propriété | [Identificateur](identifier.md) | O   | N        |
-| Commande    | [Integer](integer.md)       | O   | N        |
+| JSON    | [Integer](integer.md)       | O   | N        |
 | Valeur    | [Correct](formatted.md)   | N   | N        |
 | Texte     | [Correct](formatted.md)   | N   | O        |
 
@@ -62,7 +62,7 @@ Texte visible localisable à assigner à l’élément. Si cette entrée ou la c
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contenu des champs de valeur et de texte est mis en forme par la fonction [**MsiFormatRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) lorsque le contrôle est créé. par conséquent, ils peuvent contenir toute expression que la fonction **MsiFormatRecord** peut interpréter. La mise en forme se produit uniquement lorsque le contrôle est créé et qu’elle n’est pas mise à jour si une propriété impliquée dans l’expression est modifiée pendant la durée de vie du contrôle.
 

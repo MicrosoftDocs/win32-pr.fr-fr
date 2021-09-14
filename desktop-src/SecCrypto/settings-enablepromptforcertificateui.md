@@ -1,7 +1,7 @@
 ---
 description: Définit ou récupère une valeur booléenne qui spécifie si les invites de l’interface utilisateur pour l’identité de l’expéditeur ou du signataire peuvent être utilisées.
 ms.assetid: b9765de4-0b94-4006-aaa8-9ad6858da1f4
-title: Propriété Settings. EnablePromptForCertificateUI
+title: Paramètres. Propriété EnablePromptForCertificateUI
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,13 +14,13 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: e494c98e2a828b512b0bb66dc2a44cba8c37792c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537988"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095885"
 ---
-# <a name="settingsenablepromptforcertificateui-property"></a>Propriété Settings. EnablePromptForCertificateUI
+# <a name="settingsenablepromptforcertificateui-property"></a>Paramètres. Propriété EnablePromptForCertificateUI
 
 \[La propriété **EnablePromptForCertificateUI** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise.\]
 
@@ -44,13 +44,13 @@ Si la **valeur est true**, les invites de l’interface utilisateur pour l’ide
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

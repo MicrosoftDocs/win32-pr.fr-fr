@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 190c3e770a50acb7363fb10c469a7400831bc7b512d2b8158d687c83403b6df9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 03b1a8084e291dde5a4f1f2017e4e97f57640bca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013775"
 ---
 # <a name="kerb_smartcard_csp_info-structure"></a>\_Structure d' \_ informations du CSP de carte à puce KERB \_
 
@@ -152,11 +152,11 @@ Les noms qui ne sont pas fournis doivent être représentés dans cette mémoire
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque cette structure est sérialisée, les membres de la structure doivent être alignés sur les limites qui sont des multiples de 2 octets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: bd93b21b01721be8d4be0e432f83c507762b5d76c758419ed157c85f8a0ac419
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8d5b20a770154382e7e7a68cc3fe4d81c350fb1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119388139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012113"
 ---
 # <a name="installerproducts-property"></a>Installer. Products, propriété
 
@@ -37,11 +37,11 @@ propVal = Installer.Products
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour énumérer les produits, une application itère au sein de l’objet [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Étant donné que les produits ne sont pas triés, tous les nouveaux produits possèdent un index arbitraire. Cela signifie que la fonction peut retourner des produits dans n’importe quel ordre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2912f17b35ce3134a7ba66df7fa8630720aa755ae75eb4923863e3f541fbf9a2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea6fcb02794174e825994f70270745741c9b7713
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119919219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095117"
 ---
 # <a name="cim_softwareelementchecks-class"></a>\_Classe CIM SoftwareElementChecks
 
@@ -122,13 +122,13 @@ Indique si le contrôle référencé est un contrôle à l’État ou un contrô
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe. Pour les classes WMI dérivées de **CIM \_ SoftwareElementChecks**, consultez [classes Win32](win32-provider.md).
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

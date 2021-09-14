@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67891ccd65aaa56fc41dd077ae46bd4bf61f816cdc02afeb65964886cbaf9562
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80d66725415d86aea44138f23fb3748e3187820f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119673129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013881"
 ---
 # <a name="ras_port_0-structure"></a>\_Structure du port RAS \_ 0
 
@@ -147,7 +147,7 @@ spécifie un indicateur différent de zéro si le serveur RAS associé à ce por
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

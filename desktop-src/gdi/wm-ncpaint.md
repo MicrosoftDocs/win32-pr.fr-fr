@@ -4,12 +4,12 @@ ms.assetid: d8a2a8b9-2c5d-484c-be09-67eb33de67c0
 title: Message WM_NCPAINT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be5fa951d50dbaf8663e34a5d9476ecb62576c203095bed9427dcef44425690
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f6c2e211f3dc1602821b0197d295f940606c262
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118977999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012444"
 ---
 # <a name="wm_ncpaint-message"></a>\_Message WM NCPAINT
 
@@ -47,11 +47,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application retourne la valeur zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) peint le cadre de la fenêtre.
 
@@ -72,7 +72,7 @@ case WM_NCPAINT:
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

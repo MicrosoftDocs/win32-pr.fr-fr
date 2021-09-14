@@ -6,11 +6,11 @@ title: Liaison d’un filtre d’événements à un consommateur logique
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e99f44c4b64b98877231b73543d8753c765c3219
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013068"
 ---
 # <a name="binding-an-event-filter-with-a-logical-consumer"></a>Liaison d’un filtre d’événements à un consommateur logique
 
@@ -57,7 +57,7 @@ Deux consommateurs, [**ActiveScriptEventConsumer**](activescripteventconsumer.md
 
 **:** Lorsqu’un administrateur crée un abonnement, son SID n’est pas utilisé pour la propriété **CreatorSID** , mais le SID du groupe Administrateurs local est utilisé à la place. Par conséquent, les instances peuvent être créées par des administrateurs différents et l’abonnement fonctionnera toujours. Pour plus d’informations, consultez [réception d’événements en toute sécurité](receiving-events-securely.md).
 
-Lorsqu’un filtre est lié à un consommateur logique, l’événement est enregistré par le [suivi d’événements](/windows/desktop/ETW/event-tracing-portal) pour Windows (ETW). Pour plus d’informations, consultez suivi de l' [activité WMI](tracing-wmi-activity.md).
+lorsqu’un filtre est lié à un consommateur logique, l’événement est enregistré par le [suivi d’événements](/windows/desktop/ETW/event-tracing-portal) pour Windows (ETW). Pour plus d’informations, consultez suivi de l' [activité WMI](tracing-wmi-activity.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

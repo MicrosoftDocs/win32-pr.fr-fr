@@ -4,12 +4,12 @@ ms.assetid: 901dc977-79fe-4b02-9a0c-68474d6bbf31
 title: Codage DER des types ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d53e46fb7183aca410ce7712955608406c1611769315cb8dcd4ae29686afa702
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f2c1c2e22b1f996c3c975a2eea93bc910225d02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118904458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095945"
 ---
 # <a name="der-encoding-of-asn1-types"></a>Codage DER des types ASN. 1
 

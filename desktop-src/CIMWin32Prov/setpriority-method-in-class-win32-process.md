@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: decd5892d480e4f236ae9d7acdc1a25c018557166535c963eb35dc3f6f62ffa1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bf08057ec075448d9912e37c33b6087c381f97d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118675568"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012339"
 ---
 # <a name="setpriority-method-of-the-win32_process-class"></a>Méthode SetPriority de la \_ classe Process Win32
 
@@ -115,7 +115,7 @@ Spécifié pour un processus qui a la priorité la plus élevée possible. Les t
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeur différente pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -142,7 +142,7 @@ Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeu
 **Autre** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pour définir la priorité en temps réel, l’appelant doit disposer de **SeIncreaseBasePriorityPrivilege** (**privilège de \_ priorité de \_ BASE \_ \_ SE INC**). Sans ce privilège, la priorité la plus élevée peut être définie sur la priorité haute.
 
@@ -150,7 +150,7 @@ pour définir la priorité en temps réel, l’appelant doit disposer de **SeInc
 
 L’exemple de [modification de la priorité d’un processus en cours d’exécution](https://Gallery.TechNet.Microsoft.Com/23615ee7-cccb-43c2-b994-6106ce2fc05e) VBScript modifie la priorité d’une instance en cours d’exécution de Notepad.exe de la normale à au-dessus de la normale.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

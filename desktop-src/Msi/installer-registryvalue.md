@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: eea77074a19ada084493bf5e24edaf49e25b659b0accdad16dab6c5781078f4c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e6da79ff08eebe62ad177119a35bfc29b21c9350
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012097"
 ---
 # <a name="installerregistryvalue-method"></a>Installer. RegistryValue, méthode
 
@@ -81,7 +81,7 @@ Ce paramètre facultatif désigne la valeur associée à retourner pour la clé 
 | Valeur                                                                                                                                                                                                    | Signification                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Missing_or_blank"></span><span id="missing_or_blank"></span><span id="MISSING_OR_BLANK"></span><dl> <dt>**Manquant ou vide**</dt> </dl> | Retourne une valeur booléenne désignant si la clé existe.<br/>                                                                                        |
-| <span id="String"></span><span id="string"></span><span id="STRING"></span><dl> <dt>**String**</dt> </dl>                                         | Retourne les données associées à la valeur nommée, échoue si le nom de la valeur n’existe pas.<br/>                                                   |
+| <span id="String"></span><span id="string"></span><span id="STRING"></span><dl> <dt>**Chaîne**</dt> </dl>                                         | Retourne les données associées à la valeur nommée, échoue si le nom de la valeur n’existe pas.<br/>                                                   |
 | <span id="Positive_integer"></span><span id="positive_integer"></span><span id="POSITIVE_INTEGER"></span><dl> <dt>**Entier positif**</dt> </dl> | Retourne le nom de la valeur énumérée de base 1, il est vide s’il n’existe pas. Cette option utilise la fonction [**RegEnumValue**](/windows/win32/api/winreg/nf-winreg-regenumvaluea) .<br/> |
 | <span id="Negative_integer"></span><span id="negative_integer"></span><span id="NEGATIVE_INTEGER"></span><dl> <dt>**Entier négatif**</dt> </dl> | Retourne le nom de la sous-clé énumérée de base 1, ce qui est vide s’il n’existe pas. Cette option utilise la fonction [**RegEnumKey**](/windows/win32/api/winreg/nf-winreg-regenumkeya) .<br/>  |
 | <span id="Zero_integer"></span><span id="zero_integer"></span><span id="ZERO_INTEGER"></span><dl> <dt>**Entier zéro**</dt> </dl>                 | Retourne le nom de la classe de chaîne pour la clé désignée.<br/>                                                                                        |
@@ -93,11 +93,11 @@ Ce paramètre facultatif désigne la valeur associée à retourner pour la clé 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

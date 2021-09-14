@@ -4,12 +4,12 @@ ms.assetid: 4774218b-7cbd-4e8d-a064-44ebdc37e534
 title: Stratégie Kerberos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 743d1dd394c42028c70f560fcb7f83b42bab506fbd222f877857be362a450041
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4559353e65a25a380c0c2aa4bb7e5d56f7681af1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013771"
 ---
 # <a name="kerberos-policy"></a>Stratégie Kerberos
 

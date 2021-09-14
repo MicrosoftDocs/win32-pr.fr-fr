@@ -4,12 +4,12 @@ ms.assetid: 797cb383-22c0-42b4-82c1-d5bcc3a8bafb
 title: Répertorier les fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ace52bcbd4f2f456de5bc4dcbddc6b169e468d309190af0965dfe19304b05a2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 67e166401b514f1beec9c14c74aba7ca0601f446
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011960"
 ---
 # <a name="list-features"></a>Répertorier les fonctionnalités
 

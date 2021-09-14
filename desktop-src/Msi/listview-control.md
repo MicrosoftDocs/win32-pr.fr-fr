@@ -4,12 +4,12 @@ ms.assetid: 9bad389a-3f97-454b-afdb-c1653cc79d8f
 title: Contrôle ListView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba516c16ed5f7d66cf9ac8caf1fc1f46131574ef75eab48238bed84c3acc87af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dca463ffed0a43a624baee826d5fef823eddb327
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011955"
 ---
 # <a name="listview-control"></a>Contrôle ListView
 
@@ -47,7 +47,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la \_ classe WC ListView à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ LVS**, **LVS \_ NOCOLUMNHEADER**, **WS \_ VSCROLL**, **WS \_ HSCROLL**, **LVS \_ SHAREIMAGELISTS**, **LVS \_ SINGLESEL, LVS** **\_ SHOWSELALWAYS**, **WS \_ Border** et **WS \_ TABSTOP** . Si le bit de style trié n’est pas activé, le contrôle a également le style **LVS \_ SORTASCENDING** .
 

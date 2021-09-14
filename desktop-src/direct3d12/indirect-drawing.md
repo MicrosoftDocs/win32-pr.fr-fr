@@ -5,12 +5,12 @@ ms.assetid: F8D6C88A-101E-4F66-999F-43206F6527B6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c55070bead6f848777cb81dd7fb33878ddcf7954a7f8a4fbb55f4ab9c01d4cea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fa474a469d5789d4b31830400d981ea771db2e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119123845"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012959"
 ---
 # <a name="indirect-drawing"></a>Dessin indirect
 

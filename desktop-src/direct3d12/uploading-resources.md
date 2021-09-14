@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b03d4755124bbadcdd255a6e99739b710845ab14
-ms.sourcegitcommit: a30d0436a84986234df673c6def6694d5a8579f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113563779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012852"
 ---
 # <a name="uploading-different-types-of-resources"></a>Téléchargement de différents types de ressources
 

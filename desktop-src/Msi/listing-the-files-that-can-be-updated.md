@@ -4,12 +4,12 @@ ms.assetid: cc2eb506-c1fc-4125-b98c-12221b918e23
 title: Liste des fichiers qui peuvent être mis à jour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad76355c97d62d9c3f1282b5ebd66f54c5fef0f6f7359a41a35f2ebaee9a2fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c15872cce902f5a9059d4256e9e5c30ecff213f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945904"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011952"
 ---
 # <a name="listing-the-files-that-can-be-updated"></a>Liste des fichiers qui peuvent être mis à jour
 

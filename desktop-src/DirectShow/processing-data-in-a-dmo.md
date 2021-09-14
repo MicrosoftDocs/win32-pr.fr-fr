@@ -4,12 +4,12 @@ ms.assetid: 715482d9-23f4-40d0-9c09-7a81e148c543
 title: Traitement des données dans une DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd4dd05df960bd27b34eb55b604c8469e7bbaedd57ea928f5b4f412ad4bff04
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea9f5d5d820dc1467c25f9d411d46a9c66935e8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119748239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094685"
 ---
 # <a name="processing-data-in-a-dmo"></a>Traitement des données dans une DMO
 

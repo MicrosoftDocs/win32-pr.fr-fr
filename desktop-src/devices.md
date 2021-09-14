@@ -4,12 +4,12 @@ ms.assetid: dee73082-8dd0-430b-8fa2-7c29fa7cff9a
 title: Appareils
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e15d0c497d788f261755075860934834a69a1b4256b74178711a79d550c4a730
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bed39a366d9db2b69bbc39a470416b689d5935b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012977"
 ---
 # <a name="devices"></a>Appareils
 

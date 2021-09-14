@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 3aa6176b297261968a63b2f723a65ea14b45b8d3628b200be92df556adc5c2b0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9fd25a1f204a6d42cd4cb6e330d7d69da2cddb07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012132"
 ---
 # <a name="installeropenproduct-method"></a>Installer. OpenProduct, méthode
 
@@ -46,15 +46,15 @@ Chaîne obligatoire contenant le code de produit unique ( [GUID](guid.md)) ou un
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez qu’un seul objet de [**session**](session-object.md) peut être ouvert par un processus unique. **OpenProduct** ne peut pas être utilisé dans une action personnalisée, car l’installation active est la seule session autorisée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: l’exemple de code StoServe montre comment utiliser les services S
 ms.assetid: 41ccd333-15c8-46b2-91c6-3e1929f7198c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fcae743a13f110e06e6df6292ab20ce9e8685a2c3f57b166b4510c32cb95071
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c0c8325fbc20d4917785d0b83ca70bffa996824
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117960110"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095806"
 ---
 # <a name="stoserve-overview"></a>Présentation de StoServe
 
@@ -17,7 +17,7 @@ ms.locfileid: "117960110"
 
 l’objectif principal de cet exemple de code est l’utilisation de services Stockage structurés fournis dans l’implémentation des fichiers composés. L’utilisation des interfaces [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) standard est décrite. **StoServe** fonctionne avec l’exemple de code [StoClien](structured-storage-client-sample--stoclien-.md) pour illustrer l’utilisation conjointe du stockage de fichiers composés par le client et le serveur.
 
-## <a name="functionality"></a>Fonctionnalités
+## <a name="functionality"></a>Fonctionnalité
 
 L’exemple **StoServe** présente l’objet com de l’en-papiers, qui représente virtuellement une feuille vierge de papier.
 

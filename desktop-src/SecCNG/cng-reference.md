@@ -4,12 +4,12 @@ ms.assetid: 4398c1d9-f79d-4ee2-a4a8-6a700ea8cc95
 title: Référence CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c8e88e39ff9f4036561b798f2c809ab699c894ee8c79af85f12f6781ea0dfa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 043efa7b81d549d4deee4802914bff583f3546bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118908142"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013676"
 ---
 # <a name="cng-reference"></a>Référence CNG
 

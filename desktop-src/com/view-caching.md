@@ -4,12 +4,12 @@ description: Afficher la mise en cache
 ms.assetid: d19c111c-1367-43a2-97a9-35dc0ff5dcc8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b155c0a9d3229db85a52b0589c4854bdee9a2e8e4171e231480036c512af737
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 592c5bc2555e907cdc4e600465b807387c3a5548
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095454"
 ---
 # <a name="view-caching"></a>Afficher la mise en cache
 

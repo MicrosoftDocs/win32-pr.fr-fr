@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 0687c15e16fd150f14f9dfc17ee4ebb8b30cf5fd25f450424443742e8384215a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aaebd60ecfeeb849c537505f7af3e9a0d5d49da3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118084823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012631"
 ---
 # <a name="apijetupdate-method"></a>API. JetUpdate, méthode
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>Nom</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

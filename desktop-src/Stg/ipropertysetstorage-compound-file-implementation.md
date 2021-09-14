@@ -6,12 +6,12 @@ keywords:
 - IPropertySetStorage Strctd STG, implémentations, fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec3bc0d423b304b6d456ccddab158a48ba0b6d5f3f310d293c6aed0dedb2a556
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9053a7cf6bf1ae7e4230b15eb0117c428acb08da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119662659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013555"
 ---
 # <a name="ipropertysetstorage-compound-file-implementation"></a>Implémentation de fichiers IPropertySetStorage-Compound
 
@@ -43,7 +43,7 @@ Supprime un jeu de propriétés dans ce stockage de propriétés.
 
 Crée un objet utilisé pour énumérer les structures [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) . Chaque structure **STATPROPSETSTG** fournit des données relatives à un jeu de propriétés unique.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 à compter de Windows 2000, l’implémentation de fichier composé de [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) prend en charge le mode simple. Le mode simple est indiqué en spécifiant l' \_ indicateur simple STGM pour les fonctions [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) et [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) . Si le fichier composé est ouvert en mode simple, l’implémentation de **IPropertySetStorage** associée est limitée comme suit :
 

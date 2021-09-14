@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0d7446b9589c6c8f8c0ec3e0b654b304bab80917da55e2dba42c4a90ae56c5f3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93671eeaa4172429e2243dee293188e907c0d2b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120019239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012597"
 ---
 # <a name="esentlsnotsetexception-class"></a>EsentLSNotSetException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentLSNotSetException](./esentlsnotsetexception-members.md)
 

@@ -4,12 +4,12 @@ ms.assetid: fbb32941-2add-4f74-90c4-1dc1bfebd64c
 title: Gestion des cartes réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e1fd02426b27e3c07d4634edbe0215efa1c5c25c7a9c3abde32e991f766daf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eaa8f42cf1499ee7873d13334d0edbc9f954794f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120078259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094566"
 ---
 # <a name="managing-network-adapters"></a>Gestion des cartes réseau
 

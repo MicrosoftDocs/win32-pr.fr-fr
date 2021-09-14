@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 9c3b1fbc45ca4407e1305704cf40fc82259194d46b270ececf8e5f5d3211b99d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c5f79ff20507247fbcac3badceaf2c3e28f0303
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012192"
 ---
 # <a name="iamtimelinetransablegetnexttrans2-method"></a>IAMTimelineTransable :: GetNextTrans2, méthode
 
@@ -60,11 +60,11 @@ Pointeur vers une variable qui spécifie la durée en secondes. En entrée, cett
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne \_ la valeur OK si la méthode récupère une transition ou la \_ valeur false si elle ne trouve pas de transition. Sinon, retourne une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -76,7 +76,7 @@ Retourne \_ la valeur OK si la méthode récupère une transition ou la \_ valeu
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

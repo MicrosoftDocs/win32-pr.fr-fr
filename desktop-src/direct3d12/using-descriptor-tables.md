@@ -1,18 +1,18 @@
 ---
-title: Utilisation de tables de descripteurs
+title: Utilisation des tables de descripteurs
 description: Les tables de descripteurs, chacune identifiant une plage dans un tas de descripteur, sont liées aux emplacements définis par la signature racine actuelle dans une liste de commandes.
 ms.assetid: 4ECEC07A-7ABC-4C5F-B23C-36F0D92643FE
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e589274fbb93e48e4d65e545a62999e654b7688f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104614"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012842"
 ---
-# <a name="using-descriptor-tables"></a>Utilisation de tables de descripteurs
+# <a name="using-descriptor-tables"></a>Utilisation des tables de descripteurs
 
 Les tables de descripteurs, chacune identifiant une plage dans un tas de descripteur, sont liées aux emplacements définis par la signature racine actuelle dans une liste de commandes.
 
@@ -50,9 +50,9 @@ Les nuanceurs ne peuvent pas indexer dynamiquement entre les limites des tables 
 [Tables de descripteurs](descriptor-tables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

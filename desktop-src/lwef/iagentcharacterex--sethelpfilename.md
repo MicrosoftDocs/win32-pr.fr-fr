@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetHelpFileName
 ms.assetid: 1f8d2bd7-5821-46c0-b371-7ecbc526df72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9852e5909410f7e51789dd92419af4ef12f11ab0ae7ad0729a26b96a06fe34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1342baecc1e059d4fcb5d1323c0c714bd6bf7087
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118477947"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012375"
 ---
 # <a name="iagentcharacterexsethelpfilename"></a>IAgentCharacterEx::SetHelpFileName
 

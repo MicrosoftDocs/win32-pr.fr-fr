@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c561dad9435d972b24a899a9dd7aa65207555b3373fc2930438328aa17568fd1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ac3f5b798ef56251fa64b55a92ae1e94e2fd61b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094745"
 ---
 # <a name="iamtimelineobjsetmuted-method"></a>IAMTimelineObj :: SetMuted, méthode
 
@@ -52,11 +52,11 @@ Indicateur qui spécifie l’État muet. Si la **valeur est true**, l’objet et
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La désactivation d’un objet désactive également tous les enfants contenus dans l’objet. Par exemple, si vous désactivez une piste, les transitions, les sources et les effets de cette piste sont également muets. Une fois que l’objet n’est plus muet, ses enfants reviennent à leur état précédent, qui peut être muet ou muet.
 
@@ -70,7 +70,7 @@ La désactivation d’un objet désactive également tous les enfants contenus d
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

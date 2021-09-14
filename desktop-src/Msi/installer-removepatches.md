@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: bfa316b4ff01f6e5667b3fb2c5fce2333c4b4aaf34dc5a1dbb37feb61d1a9ce4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2130ae2958f03eb16b5145e5eb61e42f869ad775
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012092"
 ---
 # <a name="installerremovepatches-method"></a>Installer. RemovePatches, méthode
 
@@ -74,11 +74,11 @@ Chaîne qui spécifie les paires propriété = valeur à inclure. Ce paramètre 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Consultez [désinstallation des correctifs](uninstalling-patches.md) pour obtenir un exemple qui montre comment une application peut supprimer un correctif de tous les produits disponibles pour l’utilisateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

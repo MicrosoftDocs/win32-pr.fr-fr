@@ -4,12 +4,12 @@ ms.assetid: 88bf94b0-b8fe-4293-aa22-8a04aa0de48a
 title: Codes de retour courants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e51e8770bf36c4266200c7c631d5f8a773ea0ac960bec51aeace5aa05d455835
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1a99c9088fffd66411c291df69b6e8c073572b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013956"
 ---
 # <a name="common-return-codes"></a>Codes de retour courants
 

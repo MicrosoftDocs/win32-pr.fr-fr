@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 63b3dfa3ae42ead2088193c42b2eef86c05ebb82c04d4a07162fb26970c5d29c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f97e8917f453e7c2c2db99b8f894d557d7b7909f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118526143"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012792"
 ---
 # <a name="d3dxfloat16-extensions"></a>Extensions D3DXFLOAT16
 
@@ -52,11 +52,11 @@ Types dérivés : \* LPD3DXFLOAT16
 
 Pour plus d’informations sur les membres de structure, consultez D3DXFLOAT16.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les surcharges d’opérateur et les casts de type pour cette structure sont implémentés dans d3dx9math. inl.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

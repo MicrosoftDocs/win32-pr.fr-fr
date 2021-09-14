@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8d5b703c02c2d3049f98a934980f1dbf8b1c5beceaca4d97158ea68c13db9a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 66de7bfc6001f10c429d05c480dc315edfe72f76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119466959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095586"
 ---
 # <a name="textscrollingamount"></a>TEXT. scrollingAmount
 
@@ -31,13 +31,13 @@ L’attribut **scrollingAmount** spécifie ou récupère le nombre de pixels que
 
 Cet attribut est un **nombre** en lecture/écriture positif (**int**) avec une valeur par défaut de 6.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le défilement Smooth, **scrollingAmount** doit être petit. Pour un dessin rapide avec de grands écarts, le **scrollingAmount** doit être plus grand. Si le **défilement** = « false », **scrollingAmount** est ignoré.
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

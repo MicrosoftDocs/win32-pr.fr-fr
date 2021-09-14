@@ -4,12 +4,12 @@ description: Obtention des ID enfants par les clients
 ms.assetid: 8e5786fe-5123-4262-b0b8-5c9aff4787bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78a12dc3f40c2aaa776c1fa8e61713c52ffbdcde554c9f6a1cbca7093998780c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18a67322a80a00c7cc65463ef50e5d1b470fc0b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119388599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095533"
 ---
 # <a name="how-clients-obtain-child-ids"></a>Obtention des ID enfants par les clients
 

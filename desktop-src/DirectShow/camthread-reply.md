@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9783703d711800b8002aa0372292349d83620eafb097be2256ffde6ab2c91c09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e86e0bc0155e527aa11c26531ae5608e6828362
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662365"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094913"
 ---
 # <a name="camthreadreply-method"></a>CAMThread. Reply, méthode
 
@@ -49,15 +49,15 @@ Valeur à retourner dans la méthode [**CAMThread :: CallWorker**](camthread-ca
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode CallWorker se bloque jusqu’à ce que cette méthode soit appelée. Le paramètre *DW* fournit la valeur de retour pour CallWorker. Appelez cette méthode dans votre procédure de thread après avoir récupéré une demande, pour libérer le thread demandeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

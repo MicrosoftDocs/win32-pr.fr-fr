@@ -4,12 +4,12 @@ ms.assetid: b62cf529-71a0-47ff-99ea-a182c0fe4479
 title: Localiser des colonnes de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a72d4d4d82f45be66f41710dea7294a63051d69750ade49ae3b66761964b579f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed36b1adb2c496c9019b482c929e449187b1e0bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011944"
 ---
 # <a name="localizing-database-columns"></a>Localiser des colonnes de base de données
 
@@ -21,7 +21,7 @@ Par exemple, il peut être nécessaire de localiser le champ de texte de certain
 
 
 
-| Boîte de dialogue\_  | Contrôler | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                                                          | Contrôle \_ suivant | Aide |
+| Dialogue\_  | Control | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                                                          | Contrôle \_ suivant | Aide |
 |-----------|---------|------|-----|-----|-------|--------|------------|----------|---------------------------------------------------------------|---------------|------|
 | CancelDlg | Texte    | Texte | 48  | 15  | 194   | 30     | 3          |          | Êtes-vous sûr de vouloir annuler \[ \] l’installation de ProductName ? |               |      |
 
@@ -37,7 +37,7 @@ vous pouvez utiliser un éditeur de table pour modifier le champ de texte, tel q
 
 
 
-| Boîte de dialogue\_  | Contrôler | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                                                                | Contrôle \_ suivant | Aide |
+| Dialogue\_  | Control | Type | X   | O   | Largeur | Hauteur | Attributs | Propriété | Texte                                                                | Contrôle \_ suivant | Aide |
 |-----------|---------|------|-----|-----|-------|--------|------------|----------|---------------------------------------------------------------------|---------------|------|
 | CancelDlg | Texte    | Texte | 48  | 15  | 194   | 30     | 3          |          | Êtes-vous sûr de vouloir annuler l’installation de \[ ProductName \] ? |               |      |
 

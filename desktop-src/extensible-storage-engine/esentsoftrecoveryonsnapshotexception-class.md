@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 711595f8fcd3025376e2fbf5ab88aca1cd3eed22a461a20e449e9d8ad5caf755
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c5dd9e7749c5cdcfccced0b0900ed1f717add34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012547"
 ---
 # <a name="esentsoftrecoveryonsnapshotexception-class"></a>EsentSoftRecoveryOnSnapshotException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentSoftRecoveryOnSnapshotException](./esentsoftrecoveryonsnapshotexception-members.md)
 

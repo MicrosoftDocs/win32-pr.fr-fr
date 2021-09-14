@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1aad39115e1bdb68208a9ccbb0d83eea934ef2ff8c6521a0602e081c7ed811
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a407fc6cad7077586539f119dd65be59a507cacd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095406"
 ---
 # <a name="wm_dde_ack-message"></a>Message d’accusé de réception DDE de WM \_ \_
 
@@ -60,7 +60,7 @@ Lors de la réponse à tous les autres messages, le mot de poids faible spécifi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="posting"></a>Publication
 
@@ -82,7 +82,7 @@ Si l’application reçoit un message **d' \_ \_ accusé** de réception DDE de 
 
 L’application qui reçoit un message **d' \_ \_ accusé** de réception DDE de WM publié doit libérer le paramètre *lParam* à l’aide de la fonction [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -146,7 +146,7 @@ L’application qui reçoit un message **d' \_ \_ accusé** de réception DDE de
 [**informer de l' \_ échange de \_ notification**](wm-dde-unadvise.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

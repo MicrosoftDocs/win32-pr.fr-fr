@@ -19,12 +19,12 @@ keywords:
 - Police (boîte de dialogue)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c147843d0865cd56efc50557b47ccd544cc1d376213b70f14fee77221c415ff0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1500112af60862f093fedf32f56efba66c6fb0d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120117799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095234"
 ---
 # <a name="common-dialog-box-library"></a>Bibliothèque de boîtes de dialogue communes
 

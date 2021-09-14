@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 475d8b58decac9297b9e02ebf8116ea5c86d224fc534626937fbed7daf5b2c4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf9bf0ca0fabd00c27f4ef4b795af5271605fa8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907833"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012253"
 ---
 # <a name="csourceseeking-class"></a>CSourceSeeking, classe
 
@@ -70,7 +70,7 @@ Cette classe prend en charge l’interface [**IMediaSeeking**](/windows/desktop/
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque fois que la position de début, la position d’arrêt ou la vitesse de lecture change, l’objet **CSourceSeeking** appelle une méthode virtuelle pure correspondante :
 
@@ -150,7 +150,7 @@ STDMETHODIMP GetDuration(LONGLONG *pDuration)
 
 En outre, assurez-vous de vérifier l' \_ indicateur AM recherché \_ ReturnTime dans la méthode [**IMediaSeeking :: SetPositions**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-setpositions) . Si cet indicateur est présent, convertissez les valeurs de position en heures de référence lorsque vous les Retournez à l’appelant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0a4d8f44-c7c0-4355-ac7f-6bc3315eeff0
 title: Techniques et passes (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9999927d96a914b80f870a2128b0eae12074616e4ae787b011551b6aab919220
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f3a68ac40db16b3e6819adf6fcd1f8a6f790325
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095277"
 ---
 # <a name="techniques-and-passes-direct3d-9"></a>Techniques et passes (Direct3D 9)
 

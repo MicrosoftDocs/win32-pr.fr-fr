@@ -4,12 +4,12 @@ ms.assetid: 995d4159-bfc9-48b2-8328-3ae8251d785d
 title: Table InstallExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d48fb83bd8f3c947feb81ab95df490572ba1ee68d423957759a95c323005070
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7d110debacab19739c3da69abf3948d11bb7aa6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142164"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012076"
 ---
 # <a name="installexecutesequence-table"></a>Table InstallExecuteSequence
 
@@ -77,7 +77,7 @@ Zéro, tous les autres nombres négatifs ou une valeur null indique que l’acti
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le texte localisé pour l’affichage ou la journalisation de la progression est spécifié dans la [table ActionText](actiontext-table.md).
 

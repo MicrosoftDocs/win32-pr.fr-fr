@@ -4,12 +4,12 @@ ms.assetid: 00ea5521-bc28-4a87-aba9-46c911631503
 title: Vérification des codes d’état des données de compteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34c433e1c45badd3a2211a0e53051ad40d495f63a67b0ca509ae74a5cd99972
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7daed51ba6e8df385170b9a23b419267409ef497
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013903"
 ---
 # <a name="checking-counter-data-status-codes"></a>Vérification des codes d’état des données de compteur
 

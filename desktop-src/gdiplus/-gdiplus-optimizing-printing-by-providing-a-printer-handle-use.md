@@ -4,12 +4,12 @@ ms.assetid: 9be67cb2-4bf9-4758-af03-7d92dd04feaf
 title: Optimisation de l’impression en fournissant un handle d’imprimante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2284e28e0a32c828af5204d08651c576149e9d2ecfb0980f3c41936bd36cb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a247af3de037e220432c424c408b4055690ff861
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119612079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012417"
 ---
 # <a name="optimizing-printing-by-providing-a-printer-handle"></a>Optimisation de l’impression en fournissant un handle d’imprimante
 

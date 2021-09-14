@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9e5126fde495c9553975daaf2db9e82de4ab4530a4629d217eba51818e20d1f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 360a4b88c8c03d2f04ad55bc65eebf6be3797c92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119689079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094981"
 ---
 # <a name="camschedulegetevent-method"></a>Méthode CAMSchedule. GetEvent
 
@@ -40,15 +40,15 @@ HANDLE GetEvent();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un handle pour un événement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’heure suivante de l’avis change en d’autres termes, si une nouvelle demande de notification est ajoutée au début de la liste, le planificateur signale cet événement. L’horloge doit appeler la méthode [**CAMSchedule :: Advise**](camschedule-advise.md) pour déterminer l’heure de l’avis suivante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

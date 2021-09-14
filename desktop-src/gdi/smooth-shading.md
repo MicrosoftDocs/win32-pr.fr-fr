@@ -4,12 +4,12 @@ ms.assetid: 94f26d15-fb76-47ec-b805-f04975d41b43
 title: Ombrage lissé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd5bfa54fef8d0a6810a3230e88e4e3144f7ecf4b62f7313f5daf4213e948c00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5b73738c03147083099a5070e61fe21ca5cac76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012446"
 ---
 # <a name="smooth-shading"></a>Ombrage lissé
 

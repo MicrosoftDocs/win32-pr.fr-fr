@@ -4,12 +4,12 @@ ms.assetid: bf98318b-4d87-44cc-85a1-68faf5547e06
 title: Concepts de recyclage des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba6a635487427fce3f17203f11426261996348a5e4057ab8bceebcae552d51bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab37376ff3bc6d03f454f63822641ed69fad0b47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129261"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012999"
 ---
 # <a name="com-application-recycling-concepts"></a>Concepts de recyclage des applications COM+
 

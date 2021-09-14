@@ -4,12 +4,12 @@ ms.assetid: 1ceff217-d410-47fa-99a2-8588f001859e
 title: Fonctions de table de routage distribuée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00501a1a04a3acba23fe55f90acfbf7ca8fee7427c36ea1d36d8800fb8787321
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5cd48c3a60f458285ce5f607f9ab6bcf7a557cd9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013939"
 ---
 # <a name="distributed-routing-table-functions"></a>Fonctions de table de routage distribuée
 

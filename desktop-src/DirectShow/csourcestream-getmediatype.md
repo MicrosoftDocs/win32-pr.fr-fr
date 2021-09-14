@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb3095e366a03d94616d45eda441fec78d2ccbf7d58f8e74890a42902bae6fc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d8936f08b952af069812859736a6a13ea9c0e4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073253"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012236"
 ---
 # <a name="csourcestreamgetmediatype-method-sourceh---iposition-and-pmediatype-parameters"></a>Méthode CSourceStream. GetMediaType (source. h)-paramètres iPosition et pMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -74,7 +74,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il existe deux versions de cette méthode. Une version remplace la méthode [**CBasePin :: GetMediaType**](cbasepin-getmediatype.md) et prend une valeur d’index en tant que paramètre. L’autre version est conçue pour récupérer un type de média unique, de sorte qu’il n’y ait pas de paramètre d’index.
 
@@ -83,7 +83,7 @@ La méthode à paramètre unique retourne E \_ inattendue. La méthode à deux p
 -   Si le code PIN ne prend en charge qu’un seul type de média, remplacez la version à paramètre unique. Renseignez le type de média que le code confidentiel prend en charge.
 -   Si le code PIN prend en charge plusieurs types de média, remplacez la version à deux paramètres. Substituez également la méthode [**CSourceStream :: CheckMediaType**](csourcestream-checkmediatype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5fbcb7d59f31d9b2c76d924cfe2ebf2f5646366e72c69a54c6a7cf8fad81e975
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e103622d69f6e472c368851ce18f2a026bd25e84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118156710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012274"
 ---
 # <a name="cmediasamplem_end-member"></a>CMediaSample :: m \_ membre de fin
 
@@ -36,7 +36,7 @@ REFERENCE_TIME m_End;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

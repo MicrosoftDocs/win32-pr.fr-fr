@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fb1289bd89771797be88220f49d8af6f468a11c54e9954c32786e3af72dc1956
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae5a888e619f6bed9cda203ccd8a197b0b25c001
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094790"
 ---
 # <a name="critcheckout-function"></a>CritCheckOut fonction)
 
@@ -49,15 +49,15 @@ Pointeur vers une section critique [**CCritSec**](ccritsec.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Dans les versions Debug, retourne **false** si le thread actuel est le propriétaire de cette section critique, ou **true** dans le cas contraire. Dans les versions commerciales, retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est l’inverse de la fonction [**CritCheckIn**](critcheckin.md) . Si **CritCheckIn** retourne la **valeur true**, **CritCheckOut** retourne la **valeur false**, et vice versa.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

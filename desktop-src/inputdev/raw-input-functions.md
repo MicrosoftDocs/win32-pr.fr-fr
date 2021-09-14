@@ -4,12 +4,12 @@ description: Fonctions d’entrée brutes
 ms.assetid: 264d5576-9bc4-4c8c-9ffc-ed856877fae8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d770b18a791d2825b156f1192bbf9a0ad7830428dd0a67a1ed253750e8a98714
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8279a7200854b483307498eca00ea8e4a7bdbd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118482765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012402"
 ---
 # <a name="raw-input-functions"></a>Fonctions d’entrée brutes
 

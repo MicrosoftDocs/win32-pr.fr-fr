@@ -6,11 +6,11 @@ title: C (Glossaire sécurité)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 863422525326ec0a04a597d33a29553006bb014b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013614"
 ---
 # <a name="c-security-glossary"></a>C (Glossaire sécurité)
 
@@ -263,7 +263,7 @@ Fonctions qui gèrent les données de stockage et de récupération telles que l
 <span id="_security_certificate_template_gly"></span><span id="_SECURITY_CERTIFICATE_TEMPLATE_GLY"></span>**modèle de certificat**
 </dt> <dd>
 
-Construction Windows qui Profile les certificats (autrement dit, elle préspécifie le format et le contenu) en fonction de leur utilisation prévue. Lors de la demande d’un [*certificat*](/windows) auprès d’une *autorité de certification* d’entreprise Windows, les demandeurs de certificat sont, en fonction de leurs droits d’accès, capables de choisir parmi un large éventail de types de certificats basés sur des modèles de certificats, tels que l’utilisateur et la signature de code.
+construction Windows qui profile les certificats (c’est-à-dire qu’elle préspécifie le format et le contenu) en fonction de leur utilisation prévue. lors de la demande d’un [*certificat*](/windows) auprès d’une *autorité de certification* d’entreprise Windows, les demandeurs de certificat sont, en fonction de leurs droits d’accès, capables de choisir parmi un large éventail de types de certificats basés sur des modèles de certificats, tels que l’utilisateur et la signature de Code.
 
 </dd> <dt>
 
@@ -460,7 +460,7 @@ Cryptanalysis est l’art et la science de la rupture du texte chiffré. En reva
 <span id="_security_cryptoapi_gly"></span><span id="_SECURITY_CRYPTOAPI_GLY"></span>**CryptoAPI**
 </dt> <dd>
 
-Interface de programmation d’applications qui permet aux développeurs d’applications d’ajouter l’authentification, l’encodage et le chiffrement aux applications Windows.
+interface de programmation d’applications qui permet aux développeurs d’applications d’ajouter l’authentification, l’encodage et le chiffrement aux applications basées sur Windows.
 
 </dd> <dt>
 

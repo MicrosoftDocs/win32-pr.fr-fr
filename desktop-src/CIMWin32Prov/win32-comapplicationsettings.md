@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0a1126563b00861ab8b8168832f72189c3a3828378f5d89c4b74e49f68b09bd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f2fd5953d770d541e704b7dc7fe8580e98b3066
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118417909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095050"
 ---
 # <a name="win32_comapplicationsettings-class"></a>\_Classe COMApplicationSettings Win32
 
@@ -84,11 +84,11 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**override
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ COMApplicationSettings** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

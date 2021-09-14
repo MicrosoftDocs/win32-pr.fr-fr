@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 12/05/2019
 ms.openlocfilehash: 0ab45610eee3a2199fc91af639cee8175cc13030
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121813091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012938"
 ---
 # <a name="whats-new-in-direct3d-12"></a>Nouveautés de Direct3D 12
 

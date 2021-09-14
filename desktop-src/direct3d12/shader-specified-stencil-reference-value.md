@@ -5,12 +5,12 @@ ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 012c405a8ee28781d8e69d61da037a385781feeb2255aa544259c45615cb8c69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fee212d7c2573402ad38bc19040e5c60a89c090
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012872"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-12-graphics"></a>Valeur de référence du stencil spécifié par le nuanceur (Direct3D 12 Graphics)
 

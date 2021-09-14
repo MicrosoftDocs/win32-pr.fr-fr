@@ -25,11 +25,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 908f3e37b13d50c56923e566451730ffc9dd03cf
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095153"
 ---
 # <a name="cim_createdirectoryaction-class"></a>\_Classe CIM CreateDirectoryAction
 
@@ -837,7 +837,7 @@ Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ CreateDirectoryAction** est dérivée de [**CIM \_ DirectoryAction**](cim-directoryaction.md).
 

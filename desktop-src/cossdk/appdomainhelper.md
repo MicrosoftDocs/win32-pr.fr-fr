@@ -12,11 +12,11 @@ api_name:
 api_type:
 - COM
 ms.openlocfilehash: 6b4fbedbca631ec49dc2e416d939abdeb239e5b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013023"
 ---
 # <a name="appdomainhelper-class"></a>AppDomainHelper, classe
 
@@ -46,16 +46,16 @@ Utilisez cette classe pour accéder aux méthodes de [**IAppDomainHelper**](/win
 
 Pour créer cet objet, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des services COM+. Un objet AppDomainHelper peut être déclaré à l’aide de « COMSVCSLib. AppDomainHelper » comme nom de classe.
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet AppDomainHelper peut être déclaré à l’aide de « COMSVCSLib. AppDomainHelper » comme nom de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>ComSvcs. h</dt> </dl> |
 
 

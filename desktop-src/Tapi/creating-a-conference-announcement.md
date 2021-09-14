@@ -5,15 +5,15 @@ title: Création d’une annonce de conférence
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f19deed2f002da5379cb8a44a02bd6543d4b36f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013503"
 ---
 # <a name="creating-a-conference-announcement"></a>Création d’une annonce de conférence
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le fragment de code suivant illustre la création d’une annonce de conférence simple. Ce fragment part du principe que la [connexion à un serveur ils](connecting-to-an-ils-server.md) a déjà été effectuée.
 

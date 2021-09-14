@@ -4,12 +4,12 @@ ms.assetid: 61e8918b-7f5a-4720-bb3b-df9ac7614894
 title: Encodeur Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ae7f1bd9cb8233d919689bbeb1eea496760ae1254bae88120776364528243d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef5fad3b316db9ac4e47efcb9de761227cdd3279
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120051229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012154"
 ---
 # <a name="microsoft-mpeg-2-encoder"></a>Encodeur Microsoft MPEG-2
 
@@ -64,7 +64,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce filtre combine la fonctionnalité d’encodage de deux autres filtres :
 
@@ -94,7 +94,7 @@ Le filtre prend en charge les propriétés combinées des filtres d’encodeur [
 -   La propriété [**AVEncCommonMeanBitRate**](avenccommonmeanbitrate-property.md) définit la vitesse de transmission moyenne du flux vidéo.
 -   La propriété [**AVEncAudioMeanBitRate**](avencaudiomeanbitrate.md) définit la vitesse de transmission moyenne du flux audio.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

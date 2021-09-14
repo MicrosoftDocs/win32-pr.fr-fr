@@ -4,12 +4,12 @@ ms.assetid: 411001b1-94cd-465f-8558-c8aa119e4303
 title: Génération de l’audit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8fb2c6ab4b43d169e1ca6f6317489921987d22b507489ef0a5fd289d8483c84
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90d00be8b6d94b29a42436fdabc63be8d2c05789
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013713"
 ---
 # <a name="audit-generation"></a>Génération de l’audit
 

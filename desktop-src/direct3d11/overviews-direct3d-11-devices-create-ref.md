@@ -5,11 +5,11 @@ ms.assetid: 00d3f5f2-02c6-4ff4-82a9-0726ad4a8cb3
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0dec5f3834bf1f10027da2a3f3a8e22acdee742b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: HT
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095350"
 ---
 # <a name="how-to-create-a-reference-device"></a>Comment : créer un appareil de référence
 
@@ -86,9 +86,9 @@ Pour plus d’informations sur les limitations de la création d’un appareil d
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

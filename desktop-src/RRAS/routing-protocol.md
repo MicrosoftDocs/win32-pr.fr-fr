@@ -4,12 +4,12 @@ description: Un protocole de routage est un type de client qui sâ€™inscrit auprÃ
 ms.assetid: 957ec896-94e3-4bdb-801a-12b861460fff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 879d540662db7d1a1603bf40818101d0e7f9cb6988d4c0065f922fdc8f73e381
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8e64d12912494d0d6c20f484eba588b47670a808
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119977842"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013862"
 ---
 # <a name="routing-protocol"></a>Protocole de routage
 

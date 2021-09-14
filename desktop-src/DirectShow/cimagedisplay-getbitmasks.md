@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd8a3eac08a9e058f76e369a401429b69637f6438d60892d2632b88de0a0bb38
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2defe5e80a0d7311adcd19dca67119019623993
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094821"
 ---
 # <a name="cimagedisplaygetbitmasks-method"></a>Méthode CImageDisplay. GetBitMasks
 
@@ -49,15 +49,15 @@ Pointeur vers la structure **VIDEOINFO** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un tableau de trois valeurs **DWORD** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le membre de **décompression** est bi-champs \_ , la méthode retourne un pointeur vers les masques de couleur qui sont fournis dans le membre **dwBitMasks** . Si le membre de **bicompression** est bi \_ RGB, la méthode retourne les masques de couleur qui correspondent à la profondeur de bit. Si la méthode échoue (par exemple, la profondeur du bit est inférieure à 16), la méthode retourne le tableau {0,0,0} .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

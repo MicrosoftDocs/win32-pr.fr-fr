@@ -4,12 +4,12 @@ ms.assetid: cb405d46-cf3e-4f3c-870a-935a0cc8118f
 title: Récupération d’informations à l’aide de GetTcpStatistics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fb51b1a71c9dc0ff98a40c31894aa3fcf8c0c0ace7b6b05812940cb9808cced
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3f4d4d42c2716d258ff72e3dd91ab750baaed20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094537"
 ---
 # <a name="retrieving-information-using-gettcpstatistics"></a>Récupération d’informations à l’aide de GetTcpStatistics
 

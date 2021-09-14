@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 88319fb0e179e84322bfd5badab8234e323615a9bb6681852d2ab09ac3146b35
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b6470e8486f5ff8c8ec8d1b7eb6678741fccc04f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119721069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012535"
 ---
 # <a name="jet_bklogtimetodatetime-method"></a>JET_BKLOGTIME. ToDateTime, méthode
 
@@ -65,7 +65,7 @@ Valeur DateTime représentant le JET_BKLOGTIME. Si le JET_BKLOGTIME a la valeur 
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_BKLOGTIME](./jet-bklogtime-structure2.md)
 

@@ -4,12 +4,12 @@ description: Min non signé atomique immédiat en mémoire. Retourne la valeur e
 ms.assetid: B4556DA0-EE34-4420-A3AE-B340B4B1EB83
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2575fd12c8de8f09e7c9ec7afc2a9c883db7466d057ca148d3ee63698d7308
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8c65b2b5a58859e0729f567d9575f889b589821
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012699"
 ---
 # <a name="imm_atomic_umin-sm5---asm"></a>IMM \_ Atomic \_ Umin (SM5-ASM)
 
@@ -37,7 +37,7 @@ Min non signé atomique immédiat en mémoire. Retourne la valeur en mémoire av
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction exécute un seul composant 32 bits non signé de l’opérande *src0* avec *dst1* à 32 bits par adresse de composant *dstAddress*.
 
@@ -61,7 +61,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -73,7 +73,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -87,9 +87,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

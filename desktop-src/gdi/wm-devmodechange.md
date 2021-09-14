@@ -4,12 +4,12 @@ ms.assetid: 06b625a8-7584-4a98-b8e7-f1de668c274e
 title: Message WM_DEVMODECHANGE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ed258d8283629896cb3f8a9ec4c85df8e5f1480d23a111258b5f886fae24550
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 068e74264a7492bbb1e685fe6de110e909698374
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012445"
 ---
 # <a name="wm_devmodechange-message"></a>\_Message WM DEVMODECHANGE
 
@@ -61,15 +61,15 @@ Pointeur vers une chaîne qui spécifie le nom de l’appareil.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message ne peut pas être envoyé directement à une fenêtre. Pour envoyer le message **WM \_ DEVMODECHANGE** à toutes les fenêtres de niveau supérieur, utilisez la fonction [**SendMessageTimeout**](/windows/win32/api/winuser/nf-winuser-sendmessagetimeouta) avec le paramètre *HWND* défini sur \_ Broadcast HWND.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

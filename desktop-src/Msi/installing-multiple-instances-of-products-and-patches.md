@@ -4,12 +4,12 @@ ms.assetid: 5147ecbd-c395-4a8f-972d-f5c5b2173eff
 title: Installation de plusieurs instances de produits et correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c9f061ef203effc4ec71c386f17a4c92bae957610fdc3a15b0c64a92e1e024
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a3a1de5de7cc63d5eed2e191d77915630761561
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012054"
 ---
 # <a name="installing-multiple-instances-of-products-and-patches"></a>Installation de plusieurs instances de produits et correctifs
 

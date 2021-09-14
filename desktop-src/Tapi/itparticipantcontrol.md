@@ -4,12 +4,12 @@ ms.assetid: e617f2a4-6be8-4cb1-9f03-470c5100b834
 title: Interface ITParticipantControl (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e111a298069901a67d8b0ecbff365e0ab03f1885a247d41425afe7eb31085d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96075748f0c35cbc5af3c6cd07277d15222e0658
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095686"
 ---
 # <a name="itparticipantcontrol-interface"></a>Interface ITParticipantControl
 
@@ -38,7 +38,7 @@ L’interface **ITParticipantControl** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

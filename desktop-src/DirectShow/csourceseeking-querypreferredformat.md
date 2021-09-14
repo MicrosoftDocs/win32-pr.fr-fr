@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5fb311181adf1e36a8f1e46a467cf801de0dcc6d1caaf09a890eb06e43726d04
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8916e23756279dd30eaf177ef839944a4c68d61a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012260"
 ---
 # <a name="csourceseekingquerypreferredformat-method"></a>Méthode CSourceSeeking. QueryPreferredFormat
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit un GUID de format d’heure. Consultez [*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -64,11 +64,11 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le seul format d’heure pris en charge par la classe de base est le format d’heure du \_ \_ \_ temps de support (unités de 100 nanosecondes).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4ee60339aa4b25bb5a18659ad22e6a52749e330ea57e52b66ae620091e7a75b6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 01413128f7457049a4383c1148938e2136645337
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119642769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095057"
 ---
 # <a name="win32_comapplicationclasses-class"></a>\_Classe COMApplicationClasses Win32
 
@@ -84,11 +84,11 @@ Une [**\_ classe Win32**](win32-comclass.md) qui représente le composant com gr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ COMApplicationClasses** est dérivée [**du \_ composant CIM**](cim-component.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

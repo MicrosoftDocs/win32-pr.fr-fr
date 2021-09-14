@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ca7182ecc16cd873732b2d39d2659f42017f9e01c1308642af4b8cac7ff2a682
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e5c2bde058267ae4c530f33a96778792d5fe247b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094894"
 ---
 # <a name="camthread-class"></a>CAMThread, classe
 
@@ -56,7 +56,7 @@ La `CAMThread` classe est une classe abstraite pour la gestion des threads de tr
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette classe fournit des méthodes pour la création d’un thread de travail, le passage de demandes au thread et l’attente de la fermeture du thread. Pour utiliser cette classe, procédez comme suit :
 
@@ -121,7 +121,7 @@ HRESULT Exit(void)  { return CallWorker(CMD_EXIT); }
 
 La `CAMThread` classe fournit deux sections critiques en tant que variables de membre public. Utilisez `CAMThread::m_AccessLock` pour verrouiller l’accès du thread par d’autres threads. (Par exemple, les méthodes Create et CallWorker contiennent ce verrou, pour sérialiser des opérations sur le thread.) Utilisez [**CAMThread :: m \_ WorkerLock**](camthread-m-workerlock.md) pour verrouiller les données partagées entre les threads.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

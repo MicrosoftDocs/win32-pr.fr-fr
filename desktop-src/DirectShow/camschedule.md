@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d2236eb66086bb590892401cab052f39d81a41941db38d2a73dedd5edb4c53ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1bef8ad07347284c53a3490c21032070788fa3ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094969"
 ---
 # <a name="camschedule-class"></a>CAMSchedule, classe
 
@@ -44,7 +44,7 @@ La `CAMSchedule` classe implémente un planificateur pour les horloges de réfé
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet d’assistance gère une liste de demandes de notification pour une horloge de référence. La classe [**CBaseReferenceClock**](cbasereferenceclock.md) l’utilise pour aider à planifier les demandes de notification. Les horloges utilisent cet objet de la manière suivante :
 
@@ -59,7 +59,7 @@ Cet objet d’assistance gère une liste de demandes de notification pour une ho
 
 À l’étape 2, soit l’événement est signalé, soit l’attente expire. Si l’événement est signalé, cela signifie qu’une nouvelle demande a été ajoutée au début de la liste. Le thread de travail doit calculer une nouvelle valeur de délai d’attente. En revanche, si l’attente expire, cela signifie qu’une demande de notification est arrivée à échéance et doit être distribuée. L’appel à Advise à l’étape 5 gère les deux cas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

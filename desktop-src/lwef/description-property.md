@@ -4,12 +4,12 @@ description: Description, propriété
 ms.assetid: 81ac4bc7-ef0c-4e7c-b57e-acc4ad315515
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da7ff293af98303fa0dab97aca76ed169123ea229c1fc70c156ef2c099472157
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b4fb60b20a57f56a914c7e44ced957d91bf7085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118751991"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012378"
 ---
 # <a name="description-property-legacy-windows-environment-features"></a>Description, propriété (fonctionnalités héritées de l’environnement Windows)
 
@@ -41,7 +41,7 @@ Retourne ou définit une chaîne qui spécifie la description du caractère spé
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La **Description** d’un caractère peut dépendre du paramètre **LanguageID** du caractère. Le nom d’un caractère dans une langue peut être différent ou utiliser des caractères différents de ceux d’un autre langage. La **Description** par défaut du caractère pour une langue spécifique est définie lorsque le caractère est compilé à l’aide de l’éditeur de caractères Microsoft Agent.
 

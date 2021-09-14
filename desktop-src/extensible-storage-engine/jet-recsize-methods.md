@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39514154
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3108fdb6fbc1965c60abb2af710453c009a1eafb95afa74f1268f1437ceb837d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8923abab88710c519bc6500d1794a6748093a62c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012499"
 ---
 # <a name="jet_recsize-methods"></a>Méthodes JET_RECSIZE
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_RECSIZE](./jet-recsize-structure2.md)
 

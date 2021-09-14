@@ -4,12 +4,12 @@ ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: Exemple de filtre de l’analyseur PSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de960d36900a417212cdd34ac795b504d4ad073ccd61619ffad110d5fe125fad
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1099375d2dbabf9ee6c8e891b0a1780bebbb599d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094649"
 ---
 # <a name="psi-parser-filter-sample"></a>Exemple de filtre de l’analyseur PSI
 

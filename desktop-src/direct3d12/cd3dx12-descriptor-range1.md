@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 404cb41a019dac404bbe351f78f1d1e65277dd9ad2aecf2cc2d94d06fe242f6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6386d8094d573fba9cd3af44b0148215ee621e2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118989879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095325"
 ---
 # <a name="cd3dx12_descriptor_range1-structure"></a>\_Structure RANGE1 du descripteur CD3DX12 \_
 
@@ -118,7 +118,7 @@ UINT offsetInDescriptorsFromTableStart = D3D12 \_ descripteur de décalage de la
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

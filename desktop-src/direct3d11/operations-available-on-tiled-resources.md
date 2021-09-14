@@ -4,12 +4,12 @@ description: Cette section répertorie les opérations que vous pouvez effectuer
 ms.assetid: 1CF42A18-B6EA-4BA9-BEDE-9A8CC083CBAF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dcc002a0724b6f545d72f0c1a7a348ce71f44c612289e0e079c85c7768f8a54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d45d051943816502fd0bafb77e67241026f31498
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095357"
 ---
 # <a name="operations-available-on-tiled-resources"></a>Opérations disponibles sur les ressources en mosaïque
 

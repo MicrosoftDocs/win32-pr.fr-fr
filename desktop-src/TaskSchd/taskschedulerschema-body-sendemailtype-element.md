@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a924062b3a382bc8362bdfa45e1477b4e841222bdd1f5ac70fbb8adbc9b070b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4659f2ff03f69b6bba40d9cd16e9b68515cc8889
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118857962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095637"
 ---
 # <a name="body-sendemailtype-element"></a>Élément Body (sendEmailType)
 
@@ -42,13 +42,13 @@ L’élément **Body** est défini par le type complexe [**sendEmailType**](task
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété Body de IEmailAction**](/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body).
 
 Pour le développement de scripts, consultez [**EmailAction. Body**](emailaction-body.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

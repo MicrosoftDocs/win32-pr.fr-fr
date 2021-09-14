@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2e7aa121ce78198fe6b2ca0b88109183665f0cd93dd95294a848a2b2d0c03548
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4d1af1a6a4e4b77521d3f27ff5c94651048d6d75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119983679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094838"
 ---
 # <a name="cbasecontrolwindowput_fullscreenmode-method"></a>CBaseControlWindow. put \_ FullScreenMode, méthode
 
@@ -49,15 +49,15 @@ Mode plein écran à appliquer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . L’implémentation actuelle retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un convertisseur vidéo qui implémente un mode plein écran doit substituer cette fonction membre et implémenter les modes pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 879b90e3-aecc-492e-9b22-9ebbf505a610
 title: Gestion du routage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3b351882e08be3d09615acd033e0fb86192aee8675e8f52c4812a1eba398ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93ec199de19b4c8d724fbe6a2e77c3fac7dc19b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146642"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094565"
 ---
 # <a name="managing-routing"></a>Gestion du routage
 

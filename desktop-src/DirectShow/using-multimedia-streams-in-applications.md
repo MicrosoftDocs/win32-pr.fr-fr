@@ -4,12 +4,12 @@ ms.assetid: 73cfe89b-df46-445a-92c7-2f7323672441
 title: utilisation de Flux multimédias dans les Applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faadcf755019291ae394d03aac5fb16aa632605b5e1c5bc2a8a457de55343757
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f30dab204bc7b0bddbdc293708daecbe0558e8f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119525959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094642"
 ---
 # <a name="using-multimedia-streams-in-applications"></a>utilisation de Flux multimédias dans les Applications
 

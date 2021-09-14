@@ -3,7 +3,7 @@ title: TEXT. scrollingDelay
 description: L’attribut scrollingDelay spécifie ou récupère le délai entre les mouvements de défilement.
 ms.assetid: b965fe8f-c809-431f-b8fe-f7c3060068ac
 keywords:
-- TEXT. scrollingDelay Windows Media Player
+- TEXT. scrollingDelay Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: e81259ca84c62327bea67ae70d3f9ec3363450fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541136"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095585"
 ---
 # <a name="textscrollingdelay"></a>TEXT. scrollingDelay
 
@@ -37,7 +37,7 @@ Si le **défilement** est défini sur false, **scrollingDelay** est ignoré.
 
 Pour obtenir un exemple illustrant l’utilisation des attributs de l’élément de **texte** , consultez l’attribut [value](text-value.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

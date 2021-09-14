@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
 ms.openlocfilehash: 12e2ca3519d878eb57850a93bc49b77d9f35ff53
-ms.sourcegitcommit: 6b7d467e04e583c90de065e16d5dbd32033ed0eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123213350"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012888"
 ---
 # <a name="resource-binding-in-hlsl"></a>Liaison de ressources en HLSL
 

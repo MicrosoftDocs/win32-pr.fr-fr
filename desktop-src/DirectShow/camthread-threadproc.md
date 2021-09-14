@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6419d315e162f859f49ee2448758999ca194adf8c16c6210f77d919fa2a18f47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7081a7f7e1cd84a6bf8d482aa7dddf7a48b39f0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118662108"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094901"
 ---
 # <a name="camthreadthreadproc-method"></a>CAMThread. ThreadProc, méthode
 
@@ -40,11 +40,11 @@ virtual DWORD ThreadProc() = 0;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **DWORD** dont la signification est définie par la classe dérivée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une méthode virtuelle pure. Implémentez cette méthode dans votre classe dérivée pour fournir une procédure de thread. Quand la méthode [**CAMThread :: Create**](camthread-create.md) crée un thread, elle donne l’adresse de la méthode [**CAMThread :: InitialThreadProc**](camthread-initialthreadproc.md) , qui à son tour appelle votre méthode ThreadProc.
 
@@ -52,7 +52,7 @@ En règle générale, votre méthode ThreadProc entrera dans une boucle qui réc
 
 Lorsque cette méthode est retournée, le thread se termine.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

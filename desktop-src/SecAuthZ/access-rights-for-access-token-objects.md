@@ -4,12 +4,12 @@ ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Droits d’accès pour les objets Access-Token
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ac3145aef5fcf3a20f2569ac02df0de0638c2be1f42f5e1a74785d8ae1aedb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 469081d2caa4e5ff7c9b7c55b4c09c31cff1acac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785471"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013747"
 ---
 # <a name="access-rights-for-access-token-objects"></a>Droits d’accès pour les objets Access-Token
 

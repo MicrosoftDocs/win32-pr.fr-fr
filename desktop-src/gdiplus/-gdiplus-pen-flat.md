@@ -4,12 +4,12 @@ ms.assetid: e523339d-639e-4e8e-b0cb-0c9464eeee03
 title: Fonctions de stylet (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07782154dc9bdc2e426ca4a0e35c38a1ce1901f835adfd2fa00bf8e082f257cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdf0164d70f6f240a47ecdfcb3a9e276fe19710a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119830749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012412"
 ---
 # <a name="pen-functions-gdi"></a>Fonctions de stylet (GDI+)
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe [**Pen**]
 
 
 
-| Fonction plate                                                                                                                | Méthode Wrapper                                                                                                                                                              | Remarques                                                                                                                                                                                                                                                                                                                                                 |
+| Fonction plate                                                                                                                | Méthode Wrapper                                                                                                                                                              | Notes                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePen1 (couleur ARVB, largeur réelle, unité GpUnit, \* \* plume GpPen)<br/>                            | [**Pen ::P en (dans la couleur const couleur& couleur, dans la largeur réelle = 1,0 f)**](/windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(inconstcolor__inreal))<br/>                                                             | Crée un objet [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) qui utilise la couleur et la largeur spécifiées. <br/> Le paramètre d' *unité* de la fonction plate est un membre de l’énumération d' [**unités**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit) qui spécifie l’unité de mesure pour la largeur du stylet.<br/>                                                         |
 | GpStatus WINGDIPAPI GdipCreatePen2 (GpBrush \* Brush, largeur réelle, GpUnit Unit, GpPen \* \* Pen)<br/>                       | [**Pen ::P en (dans le pinceau const \* , dans la largeur réelle = 1.0 f)**](/windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(inconstbrush_inreal))<br/>                                                            | Crée un objet [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) qui utilise les attributs d’un pinceau et un nombre réel pour définir la largeur de cet objet **Pen** . <br/> Le paramètre d' *unité* de la fonction plate est un membre de l’énumération d' [**unités**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit) qui spécifie l’unité de mesure pour la largeur du stylet.<br/> |

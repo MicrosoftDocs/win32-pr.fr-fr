@@ -4,12 +4,12 @@ description: Exposition de contrôles basés sur des contrôles système
 ms.assetid: 9291b79e-3ed0-4f3c-a610-38215d84f5ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09349819cbc8e36d879947fe0cbd0914a1de630171ef70e3b132f58c60c87228
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea2fe31eae8c2283c020de93b0c1f3350bd0f417
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118829096"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095565"
 ---
 # <a name="exposing-controls-based-on-system-controls"></a>Exposition de contrôles basés sur des contrôles système
 

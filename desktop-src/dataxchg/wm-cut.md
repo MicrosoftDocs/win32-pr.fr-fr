@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d117e0a942c0d9e24e1a9c40d3d66e605ab8d5cf26bbad0e287e9b03a9b25780
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a63dfe85fb637636fbabbce5fa139699fd09a65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118304492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095405"
 ---
 # <a name="wm_cut-message"></a>\_Message de coupure WM
 
@@ -50,7 +50,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
@@ -62,7 +62,7 @@ Pour supprimer la sélection actuelle sans placer le texte supprimé dans le pre
 
 Lorsqu’il est envoyé à une zone de liste déroulante, le message **WM \_ Cut** est géré par son contrôle d’édition. Ce message n’a aucun effet lorsqu’il est envoyé à une zone de liste déroulante avec le style [**\_ DropDownList SCC**](../controls/combo-box-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -93,7 +93,7 @@ Lorsqu’il est envoyé à une zone de liste déroulante, le message **WM \_ Cut
 [**désannulation WM \_**](/windows/desktop/Controls/wm-undo)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

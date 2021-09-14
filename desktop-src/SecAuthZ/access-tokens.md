@@ -4,12 +4,12 @@ ms.assetid: 350159c9-2399-427a-ba44-c897a9664299
 title: Jetons d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9067df376006f7f7b61dedadc074c23674b2278fb5c311794bbddd12256277
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0993c1f5aebab797ab28e61b36f59507e4d2f1ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013744"
 ---
 # <a name="access-tokens"></a>Jetons d’accès
 

@@ -4,12 +4,12 @@ description: Macros de contrôle d’animation
 ms.assetid: aeb94086-267a-41e0-89d9-3a1b6209b646
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce098d9cc789a38f4fe3be6e540ec0b4da3bddacb66de90d0e58aca0ba863b3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 530ad31004ef9ae288a655b23a568541d33dadd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118673985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095010"
 ---
 # <a name="animation-control-macros"></a>Macros de contrôle d’animation
 

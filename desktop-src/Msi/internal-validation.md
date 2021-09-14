@@ -4,12 +4,12 @@ ms.assetid: c960e9df-dcd6-44d2-8662-40a1dea81f45
 title: Validation interne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44184a87f7d8bd28b3603d81bb83ae28ec68471e6c9c849bf9322dc5e968c886
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca3c1a9e6f7b7e35b4d7d91287af64eff7812de6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012014"
 ---
 # <a name="internal-validation"></a>Validation interne
 
@@ -31,7 +31,7 @@ La liste suivante répertorie les colonnes (en plus de la table, de la colonne e
 
 | Type    | Colonnes                                                          |
 |---------|------------------------------------------------------------------|
-| Entier | Nullable, MinValue, MaxValue, keytable, KeyColumn, Set           |
+| Integer | Nullable, MinValue, MaxValue, keytable, KeyColumn, Set           |
 | String  | Nullable, keytable, KeyColumn, Category, Set, MinValue, MaxValue |
 | Binary  | Nullable, Category (la catégorie doit être « Binary »)                   |
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 099acf6647252ce8db0d6719d7871e43ec3cc4d25d0806dbecec7378bcbda73a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 053bb6c98c5b8776da2ca890de24359f41be1389
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118899392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095873"
 ---
 # <a name="signedcodesigner-property"></a>SignedCode. signer, propriété
 
@@ -39,7 +39,7 @@ SignedCode.Signer As Signer
 
 Objet [**signataire**](signer.md) qui fournit l’accès au signataire du fichier exécutable signé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

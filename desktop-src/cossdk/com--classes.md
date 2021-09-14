@@ -4,12 +4,12 @@ ms.assetid: 236725f6-16a3-4209-a9e3-a127c1d7243a
 title: Classes COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae2cdabc1f4535df6734cf525f288bf6cbd8a93543a9163848815441c9bc384c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 626c3dfdae542b602cf27a8d8be5cb69dde5910f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012996"
 ---
 # <a name="com-classes"></a>Classes COM+
 

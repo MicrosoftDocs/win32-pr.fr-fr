@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsTscNonScriptable ResetPassword
-description: Réinitialise tous les États de mot de passe dans le contrôle ActiveX Bureau à distance.
+description: réinitialise tous les états de mot de passe dans le contrôle Bureau à distance ActiveX.
 ms.assetid: 889c4d41-fadf-4a5c-b4a8-0b349fd6db54
 ms.tgt_platform: multiple
 keywords:
@@ -18,15 +18,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0401b97d1b16fda97ba706aef5b795b9f9bc0f3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466751"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095606"
 ---
 # <a name="imstscnonscriptableresetpassword-method"></a>IMsTscNonScriptable :: ResetPassword, méthode
 
-Réinitialise tous les États de mot de passe dans le contrôle ActiveX Bureau à distance. Vous pouvez appeler cette méthode pour effacer les mots de passe qui sont stockés dans l’un des trois formats pris en charge : texte en clair, encodé portable ou encodé binaire (non transférable). Notez que les mots de passe encodés ne doivent pas être considérés comme étant chiffrés de manière sécurisée.
+réinitialise tous les états de mot de passe dans le contrôle Bureau à distance ActiveX. Vous pouvez appeler cette méthode pour effacer les mots de passe qui sont stockés dans l’un des trois formats pris en charge : texte en clair, encodé portable ou encodé binaire (non transférable). Notez que les mots de passe encodés ne doivent pas être considérés comme étant chiffrés de manière sécurisée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -41,7 +41,7 @@ HRESULT ResetPassword();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite.
 
@@ -49,11 +49,11 @@ Retourne **S \_ OK** en cas de réussite.
 
 Vous pouvez appeler cette méthode pour réinitialiser le mot de passe du contrôle après la déconnexion. Cela garantit que les connexions suivantes qui utilisent la même instance du contrôle ne se connectent pas automatiquement avec un mot de passe défini précédemment.
 
-Vous pouvez appeler cette méthode uniquement lorsque le Bureau à distance contrôle ActiveX n’est pas dans l’état connecté. Cette méthode retourne **E \_ Fail** si elle est appelée lorsque le contrôle est connecté. Pour vérifier l’état connecté, appelez la méthode [**obtenir la \_ connexion**](imstscax-connected.md) par le biais de l’interface [**IMsTscAx**](imstscax-interface.md) ou de l’une des interfaces qui en hérite.
+vous pouvez appeler cette méthode uniquement lorsque le Bureau à distance ActiveX contrôle n’est pas dans l’état connecté. Cette méthode retourne **E \_ Fail** si elle est appelée lorsque le contrôle est connecté. Pour vérifier l’état connecté, appelez la méthode [**obtenir la \_ connexion**](imstscax-connected.md) par le biais de l’interface [**IMsTscAx**](imstscax-interface.md) ou de l’une des interfaces qui en hérite.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

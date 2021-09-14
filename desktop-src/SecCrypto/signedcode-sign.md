@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 36e5c813b997ae452d44764ed88f51b273c75528
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541435"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095877"
 ---
 # <a name="signedcodesign-method"></a>SignedCode. Sign, méthode
 
@@ -48,7 +48,7 @@ Objet [**signataire**](signer.md) qui a accès à la clé privée du certificat 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -62,19 +62,19 @@ Les résultats suivants s’appliquent à la valeur du paramètre de *signataire
 
 -   Si le paramètre de *signataire* n’a pas la **valeur null**, cette méthode utilise la clé privée désignée par le certificat associé pour chiffrer la signature. Si la clé privée vers laquelle pointe le certificat n’est pas disponible, la méthode échoue.
 -   Si le paramètre de *signataire* a la **valeur null** et qu’il y a exactement un certificat dans l' \_ utilisateur actuel mon magasin qui a accès à une clé privée avec la fonctionnalité de signature de code, ce certificat est utilisé pour créer la signature.
--   Si le paramètre de *signataire* est **null**, la valeur de la propriété [**Settings. EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) est true et il existe plusieurs certificats dans le magasin de l' \_ utilisateur actuel mon magasin avec une clé privée disponible avec la fonctionnalité de signature de code, une boîte de dialogue s’affiche et permet à l’utilisateur de sélectionner le certificat à utiliser.
--   Si le paramètre de *signataire* a la **valeur null** et que la propriété [**Settings. EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) a la valeur false, la méthode échoue.
+-   si le paramètre de *signataire* a la **valeur NULL**, le [**Paramètres.**](settings-enablepromptforcertificateui.md)La valeur de la propriété EnablePromptForCertificateUI est true et il existe plusieurs certificats dans le magasin de l' \_ utilisateur actuel avec une clé privée disponible avec la fonction de signature de code, une boîte de dialogue s’affiche et permet à l’utilisateur de sélectionner le certificat à utiliser.
+-   si le paramètre de *signataire* a la **valeur NULL** et que le [**Paramètres.**](settings-enablepromptforcertificateui.md)La propriété EnablePromptForCertificateUI a la valeur false, la méthode échoue.
 -   Si le paramètre de *signataire* a la **valeur null** et qu’il n’existe aucun certificat dans le magasin de l' \_ utilisateur actuel avec une clé privée disponible avec la fonction de signature de code, la méthode échoue.
 
 Cette méthode utilise l’algorithme de hachage SHA-1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ keywords:
 - RAS RRAS, voir routage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe5745af9d7c4cc3da5fbe50e745506a54cfc629ebbbe3cff6aa021d8ea14acc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40e3b2a92a6c54f47693d657315ec0a48e660061
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119672509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013855"
 ---
 # <a name="routing"></a>Routage
 

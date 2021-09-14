@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8208d886cd23dab797a9f89d3c050c9f46eff60c8cdd78c27c89dae7396c557a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c4750e6127c0d57758e46b2309f4d91afc110e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118397580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094697"
 ---
 # <a name="irenderenginegetfiltergraph-method"></a>IRenderEngine :: GetFilterGraph, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,7 +52,7 @@ Reçoit un pointeur vers l’interface [**IGraphBuilder**](/windows/desktop/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez la méthode [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) pour créer le serveur frontal du graphique de filtre. Pour la version préliminaire, utilisez [**IRenderEngine :: RenderOutputPins**](irenderengine-renderoutputpins.md) pour terminer le graphique. Pour la sortie de fichier, connectez le serveur frontal à une combinaison multiplexeur de fichiers/Mux. Pour plus d’informations, consultez [rendu d’un Project](rendering-a-project.md).
 
@@ -86,7 +86,7 @@ En cas de retour, si la valeur de *\* ppFG* est non **null**, l’interface **IG
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

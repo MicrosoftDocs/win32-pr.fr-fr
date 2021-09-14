@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 53759b725d5915cd2e008be19acc3c0065e7d4dc7209b270e5398807ca2f7481
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2759c04b60c15d5786306ec536c7eddb89b02172
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119038897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012503"
 ---
 # <a name="jet_indexlistcolumnidicolumn-property"></a>JET_INDEXLIST. columnidiColumn, propriété
 
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_INDEXLIST](./jet-indexlist-class.md)
 

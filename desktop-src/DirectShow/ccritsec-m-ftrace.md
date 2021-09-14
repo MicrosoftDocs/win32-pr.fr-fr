@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f5a47437e4f9ab475b64979ec970604ac7a621d2ab53ea7a3c87742fa81a8aab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 691e078bb3b502704aed585ba020d49b2bd99af1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012278"
 ---
 # <a name="ccritsecm_ftrace-member"></a>CCritSec :: m \_ fTrace, membre
 
@@ -40,7 +40,7 @@ BOOL m_fTrace;
 
 Cette variable membre est définie uniquement dans la version Debug de la classe de base. Si la valeur est **true**, une trace de l’état du verrou est écrite dans le journal de débogage. (La journalisation du débogage des sections critiques doit être active.) Pour plus d’informations, consultez [**DbgLockTrace**](dbglocktrace.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

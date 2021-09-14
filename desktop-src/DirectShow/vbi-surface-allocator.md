@@ -4,12 +4,12 @@ ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: Allocateur de surface VBI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c586c3ef135722ac259813d918dc4054617b8ae6bfb987083f0a2ceaa986067
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5849b23b8f21a7b49e477060386628ba4c19b2e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119071983"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094609"
 ---
 # <a name="vbi-surface-allocator"></a>Allocateur de surface VBI
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ce3d7e0693385e91271538f7351b0ba60c8bb5ec79b791f10a0bc1d11976103e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3eac27a26787b1efaa6b09c79de3d67976694e2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119971119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095217"
 ---
 # <a name="esentrecoveryverifyfailureexception-constructor"></a>Constructeur EsentRecoveryVerifyFailureException
 
@@ -54,7 +54,7 @@ public EsentRecoveryVerifyFailureException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentRecoveryVerifyFailureException, classe](./esentrecoveryverifyfailureexception-class.md)
 

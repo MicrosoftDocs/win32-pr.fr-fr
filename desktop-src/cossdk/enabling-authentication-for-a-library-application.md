@@ -4,12 +4,12 @@ ms.assetid: 80c80c14-ceef-4a74-810d-6aa3cc320cef
 title: Activation de l’authentification pour une application de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bceb3d5799ee8fac1d8eb266e6513c4d2a759adb10b78b2117424b08f8c5d6ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74cfa9f2a6a5e3c1312fa13e0aff1e9f4ea17e4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736418"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095441"
 ---
 # <a name="enabling-authentication-for-a-library-application"></a>Activation de l’authentification pour une application de bibliothèque
 

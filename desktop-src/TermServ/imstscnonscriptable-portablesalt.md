@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 724f9b394d6e70354b39036df90386a823da2e5874f9ecb0fc0b81f130e3571e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0162073b8361cc89f7ab2e33f60406c0db935bdb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120125039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095617"
 ---
 # <a name="imstscnonscriptableportablesalt-property"></a>IMsTscNonScriptable ::P propriété ortableSalt
 
@@ -83,7 +83,7 @@ Nouvelle partie Salt portable pour un mot de passe encodé portable.
 
 Retourne **E \_ NOTIMPL**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

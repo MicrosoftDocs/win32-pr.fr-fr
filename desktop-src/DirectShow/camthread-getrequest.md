@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f2527d43dfa59ab01bc57109bd2845e5da8286524612746067b1ff2f4cb2a3c6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 506707bc78583fd9729ad28fb5507b82bee5e670
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120103199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094933"
 ---
 # <a name="camthreadgetrequest-method"></a>Méthode CAMThread. GetRequest
 
@@ -40,15 +40,15 @@ DWORD GetRequest();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur définie par la classe dérivée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode bloque jusqu’à ce qu’un autre thread appelle la méthode [**CAMThread :: CallWorker**](camthread-callworker.md) . Elle retourne ensuite le paramètre qui a été passé à CallWorker. Appelez la méthode [**CAMThread :: reply**](camthread-reply.md) pour libérer le thread demandeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

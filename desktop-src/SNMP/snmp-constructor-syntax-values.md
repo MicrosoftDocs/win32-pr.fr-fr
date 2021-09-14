@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2409fc45c74cfecc5167da53f3ca81e501ea5aa1d279ddfe591b6c589990e187
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a484e58d7a92a3c75408db3160362d84e7891b76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013819"
 ---
 # <a name="snmp-constructor-syntax-values"></a>Valeurs de syntaxe du constructeur SNMP
 
@@ -35,7 +35,7 @@ Les valeurs de syntaxe du constructeur SNMP décrivent les types qui sont confor
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

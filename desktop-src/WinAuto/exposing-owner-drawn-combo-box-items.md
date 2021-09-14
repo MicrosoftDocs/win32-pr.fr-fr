@@ -5,11 +5,11 @@ ms.assetid: 9ff14b2f-ae09-4839-b281-fba46addaf5f
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 364dccaf21927e2d0092fc744d501f47830c6eeb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095562"
 ---
 # <a name="exposing-owner-drawn-combo-box-items"></a>Exposer des éléments de zone de liste déroulante Owner-Drawn
 
@@ -27,6 +27,6 @@ Lorsque vous utilisez la méthode ci-dessus, notez les points suivants :
 -   Avec les zones de liste déroulante de variables owner-drawn créées avec le style **CBS \_ OWNERDRAWVARIABLE**, utilisez une variable globale ou un autre mécanisme pour effectuer le suivi lorsque le membre **ItemData** du [measureitemstruct,](/windows/win32/api/winuser/ns-winuser-measureitemstruct) est valide. La variable globale est requise car le système envoie le message [WM \_ MEASUREITEM](../controls/wm-measureitem.md) dès que la chaîne est ajoutée, mais avant que les données d’élément soient attachées, et à ce stade, le membre **ItemData** n’est pas valide.
 -   Pour modifier la chaîne d’un élément dans une zone de liste déroulante avec le style **CBS \_ HASSTRINGS** , supprimez l’élément avec le message [CB \_ DELETESTRING](../controls/cb-deletestring.md) et ajoutez la nouvelle chaîne avec le message [CB \_ ADDSTRING](../controls/cb-addstring.md) .
 
- 
+ 
 
- 
+ 

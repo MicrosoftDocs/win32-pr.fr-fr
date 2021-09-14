@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: fb67f99daa1c0ed551ce989c15e9be2d1f89f8352dfebf7a021ea16f7c69f49e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec53cae4689ebc1795937012259b2e219630568b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118525656"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012782"
 ---
 # <a name="d3dxfunction_desc-structure"></a>D3DXFUNCTION \_ desc, structure
 
@@ -62,7 +62,7 @@ Inutilisé. Ce membre sera toujours défini sur zéro par [**GetFunctionDesc**](
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

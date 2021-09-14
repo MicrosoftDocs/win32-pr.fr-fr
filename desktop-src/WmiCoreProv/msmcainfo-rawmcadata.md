@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 2b7ac9f8c474a1aee55d0dd70a5a838102aec66bc8b3ba3d867070430c38a3ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6cafc16ddbc91181cc2114def07a193941988228
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118821863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013107"
 ---
 # <a name="msmcainfo_rawmcadata-class"></a>MSMCAInfo \_ RawMCAData, classe
 
@@ -109,11 +109,11 @@ Tableau d’enregistrements d’erreurs MCA. Le nombre d’enregistrements d’e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **MSMCAInfo \_ RawMCAData** est dérivée de [**MSMCAInfo**](msmcainfo.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

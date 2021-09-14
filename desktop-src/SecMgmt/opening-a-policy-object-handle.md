@@ -4,12 +4,12 @@ ms.assetid: 66fdc878-d9c4-421c-b79f-9df08984611c
 title: Ouverture d’un handle d’objet de stratégie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16baf2cf7e722faca1f0441505ec325b8e64c8aad95522e697b4905f566985af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c187720692db4937b6e1299dd2bb63fac647852
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118894050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013598"
 ---
 # <a name="opening-a-policy-object-handle"></a>Ouverture d’un handle d’objet de stratégie
 

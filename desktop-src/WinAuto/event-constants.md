@@ -80,11 +80,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b6788fc5744977922cefe7a1552deb93ee9b2818
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095570"
 ---
 # <a name="event-constants-winuserh"></a>Constantes d’événement (winuser. h)
 
@@ -169,7 +169,7 @@ Pour plus d’informations sur les événements en général, voir [qu’est-ce 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

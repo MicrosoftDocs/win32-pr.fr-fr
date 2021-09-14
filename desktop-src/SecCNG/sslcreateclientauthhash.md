@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 96f1e7fa0de86439f89bf5c4c610bf5b46640533071260852c47321c5a1c6673
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ac83d6d8aeea8429812d80b7bf66de7c87062a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907086"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013637"
 ---
 # <a name="sslcreateclientauthhash-function"></a>SslCreateClientAuthHash fonction)
 
@@ -86,7 +86,7 @@ Ce paramètre est réservé pour une utilisation ultérieure et doit être défi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -108,11 +108,11 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslCreateClientAuthHash** est appelée pour les conversations TLS ( [*Transport Layer Security Protocol*](/windows/desktop/SecGloss/t-gly) ) 1,2 ou ultérieures pour créer des objets de hachage utilisés pour hacher les messages de négociation. Elle est appelée une fois pour chaque [*algorithme de hachage*](/windows/desktop/SecGloss/h-gly) possible qui peut être utilisé dans la signature d’authentification du client.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

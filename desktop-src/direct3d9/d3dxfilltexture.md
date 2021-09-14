@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 28df3b7396ea0c34c39a87d2285f565f25d6ff6dc89dcfb8613890e79c4c5cf7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20790a9e4c1a9ce242a5e067dd617c7871a70b7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119849769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012799"
 ---
 # <a name="d3dxfilltexture-function"></a>D3DXFillTexture fonction)
 
@@ -69,13 +69,13 @@ Pointeur vers un bloc arbitraire de données définies par l’utilisateur. Ce p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Voici un exemple qui crée une fonction appelée ColorFill, qui s’appuie sur D3DXFillTexture.
 
@@ -98,7 +98,7 @@ if (FAILED (hr = D3DXFillTexture (m_pTexture, ColorFill, NULL)))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

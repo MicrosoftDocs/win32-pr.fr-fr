@@ -4,12 +4,12 @@ description: Pour utiliser HTTP comme protocole de transport pour RPC, le proxy 
 ms.assetid: 5a67af51-924a-4f2b-b013-a4fd1bfaeddd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4628339afe09e2b6e9a6f216504f411550d37b7a285614e507c89a4a8052c2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62d1b39276633f3b827f778deef77edd5630c599
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120022469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013835"
 ---
 # <a name="configuring-computers-for-rpc-over-http"></a>Configuration des ordinateurs pour RPC sur HTTP
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45640d01b744ea6d2f930a67362e323a61fc1e2f1a87417f707289d7a337090d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 116749acdc23bb8ac2fd057139bf8ef7c8f5ddcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119043317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012677"
 ---
 # <a name="samplebiassamplebiassfloatfloatfloatuint-function-for-texturecube"></a>Fonction SampleBias :: SampleBias (S, float, float, float, uint) pour TextureCube
 
@@ -101,7 +101,7 @@ Type : **uint**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **dxgi \_ format**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 

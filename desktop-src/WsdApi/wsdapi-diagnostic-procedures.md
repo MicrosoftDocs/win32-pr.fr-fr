@@ -4,12 +4,12 @@ ms.assetid: 482c1460-ab63-4b41-a0ef-65485ca3b88e
 title: Procédures de diagnostic WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c990d492bd5428d4d6ad92de184150979372b4efa0e4bd4e40b2461c0649a05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9a9746909fb6e73dad53c9135d7055e6b3c33445
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119382179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013046"
 ---
 # <a name="wsdapi-diagnostic-procedures"></a>Procédures de diagnostic WSDAPI
 

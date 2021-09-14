@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: eb47ba9d4fbaa4b7c2d9eef14e5def9212dd95a648f7c17a3e3f4bea64dc48ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e9506b9390dc8b09e6326232e53c72d01749f34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117978516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095922"
 ---
 # <a name="privatekeycontainername-property"></a>PrivateKey. ContainerName, propriété
 
@@ -39,7 +39,7 @@ PrivateKey.ContainerName As String
 
 Chaîne qui contient le nom du conteneur de clé privée.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

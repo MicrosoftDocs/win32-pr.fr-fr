@@ -4,12 +4,12 @@ ms.assetid: dc30e4c7-a938-4060-be4f-744de9c20fd9
 title: Table IsolatedComponent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9644f1e122464e1321d55c0b615892167e84a7e059472adc4f01ee6bac571720
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c3e6c5bdba6efc546a36e77fa793c0b397f6d5e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117805617"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011997"
 ---
 # <a name="isolatedcomponent-table"></a>Table IsolatedComponent
 

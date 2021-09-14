@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f7ffee6a55191f8f41d7121f3801a4a6392f9869803ded40ed891817146828f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7410fbee4ece729d1579f525731bddaceded1153
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094962"
 ---
 # <a name="camthreadcallworker-method"></a>Méthode CAMThread. CallWorker
 
@@ -49,11 +49,11 @@ Paramètre de requête. La classe dérivée définit la signification du paramè
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur définie par la classe dérivée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les méthodes [**CAMThread :: GetRequest**](camthread-getrequest.md) et [**CAMThread :: CheckRequest**](camthread-checkrequest.md) extraient la valeur du paramètre *dwParam* . La méthode GetRequest se bloque jusqu’à ce que `CallWorker` soit appelé.
 
@@ -61,7 +61,7 @@ Cette méthode bloque jusqu’à ce que la méthode [**CAMThread :: reply**](ca
 
 Cette méthode maintient le verrou [**CAMThread :: m \_ AccessLock**](camthread-m-accesslock.md) pour sérialiser les demandes. Par conséquent, appelez cette méthode à partir du thread lui-même ou à partir de n’importe quelle fonction membre qui s’exécute dans le contexte du thread.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

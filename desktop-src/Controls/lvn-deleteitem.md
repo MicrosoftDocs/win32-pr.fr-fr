@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5637cf2e8de98c056635cef2e68a7672f52b649c0162920f647384a2ceb4e64f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 009d39e78aa93d5c5230e9c1b06b84d2854a0d0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012318"
 ---
 # <a name="lvn_deleteitem-notification-code"></a>\_Code de notification LVN DELETEITEM
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’ajoutez pas, ne supprimez pas ou ne réorganisez pas les éléments en mode liste lors du traitement de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

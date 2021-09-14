@@ -4,12 +4,12 @@ ms.assetid: 95e5750f-fdc5-41f3-a4ce-9593a7081e95
 title: Stockage et récupération de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81b2100f005f0ff293e34a3f4c0a7460b7a4d4e9c2b15fbe0b3577b5e52394a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5abfd6319353440c580d53990075a71613a1eba9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118907683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013658"
 ---
 # <a name="key-storage-and-retrieval"></a>Stockage et récupération de clé
 

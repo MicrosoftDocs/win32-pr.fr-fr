@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9ea39f2a2a5ae351ba54d0a5973f2764532458d94adae7559ee816ac1cb09c4f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da8c1e6c70cb07e1fd81591512b2f3c35cd19a04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012514"
 ---
 # <a name="jet_dbinfomisculeccfixfail-property"></a>JET_DBINFOMISC. ulECCFixFail, propriété
 
@@ -64,7 +64,7 @@ Type : [System. Int32](/dotnet/api/system.int32)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_DBINFOMISC](./jet-dbinfomisc-class.md)
 

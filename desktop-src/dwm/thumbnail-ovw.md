@@ -11,12 +11,12 @@ keywords:
 - relations de miniatures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b333d84496828c451ff6e0eb7dbf3a86f91d629623d9939f66e874cfa82ee47d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e3e0f1e6875e447a18ff5e63d703460ff909b25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118279767"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012660"
 ---
 # <a name="dwm-thumbnail-overview"></a>Vue d’ensemble des miniatures DWM
 

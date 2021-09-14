@@ -4,12 +4,12 @@ ms.assetid: e1ca5abf-83c2-44f0-8049-ddf1b81ef088
 title: Réception des notifications d’événements réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28225654bc7e4119f76eff21425e96dda83f628b88d16be9cdfc370d9fa63712
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ecb9840f7ddf4adbfaae5775de337da81a3e7670
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094562"
 ---
 # <a name="receiving-notification-of-network-events"></a>Réception des notifications d’événements réseau
 

@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: e1f3813be8e1ea076a401ce5cdabef3e454b98c1
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983582"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095182"
 ---
 # <a name="jet_rstmap-structure"></a>Structure JET_RSTMAP
 
@@ -48,7 +48,7 @@ Chemin d’accès absolu actuel d’une base de données associée aux journaux 
 
 Nouveau chemin d’accès absolu de la base de données.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

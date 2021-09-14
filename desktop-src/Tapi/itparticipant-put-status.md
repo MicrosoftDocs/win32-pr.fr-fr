@@ -5,15 +5,15 @@ title: ITParticipant ::p ut_Status, méthode (Ipmsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 82eadc9832105ecb0cf440b070dbff8b3fe658d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095705"
 ---
 # <a name="itparticipantput_status-method"></a>ITParticipant ::p \_ méthode d’État ut
 
-\[**mettre \_ L’État** ne peut pas être utilisé dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**mettre \_ l’état** ne peut pas être utilisé dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **put \_ Status** définit l’état d’un participant.
 
@@ -47,7 +47,7 @@ VARIANTE \_ true si le participant est activé sur le flux, variant \_ false s�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -69,7 +69,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 L’activation ou la désactivation de l’état d’un participant sur un flux permet à une application de désactiver un participant donné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

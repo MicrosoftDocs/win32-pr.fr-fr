@@ -4,12 +4,12 @@ ms.assetid: c80ad013-0b92-461f-8714-4b6d0cb6de0d
 title: Liste des paramètres et des valeurs pour tous les encodeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4545c23522b2f129d858dab03e8e2b80941426a36758df5ab60850ca9e81974
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fdaf522193f1074a28fe9f5ebb8a7afc2bade0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118248498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012426"
 ---
 # <a name="listing-parameters-and-values-for-all-encoders"></a>Liste des paramètres et des valeurs pour tous les encodeurs
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3693291eeaef0879bdf861f392b89a1d0f2d5ec52f8a9c0d092b5495eb4565a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 827ad81b6ebb66a4fbe5c1a3b283175818b99e98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170176"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012303"
 ---
 # <a name="lvn_odcachehint-notification-code"></a>\_Code de notification LVN ODCACHEHINT
 
@@ -45,17 +45,17 @@ Pointeur vers une structure [**NMLVCACHEHINT**](/windows/win32/api/commctrl/ns-c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 L’application recevant ce code de notification doit retourner zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La gestion de ce message permet à l’application de mettre à jour les informations d’élément conservées dans le cache afin qu’elles soient facilement disponibles lorsqu’un code de notification [LVN \_ GETDISPINFO](lvn-getdispinfo.md) est envoyé.
 
 Notez que ce code de notification n’est pas toujours une représentation exacte des éléments qui seront demandés par [LVN \_ GETDISPINFO](lvn-getdispinfo.md). Par conséquent, si l’élément demandé n’est pas mis en cache pendant la gestion de LVN \_ GETDISPINFO, l’application doit être préparée à fournir les informations demandées à partir d’une source située à l’extérieur du cache.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

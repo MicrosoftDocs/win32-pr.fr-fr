@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e415e6aea75dcf78d19d776e4df0a6edf704db473eacf0c8ddbb366ffbf65947
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ddcb1cfe28a72e390cedbcc35fa299dddbfb8634
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013866"
 ---
 # <a name="ras_ppp_nbfcp_result-structure"></a>\_Structure des résultats RAS PPP \_ NBFCP \_
 
@@ -73,7 +73,7 @@ Chaîne Unicode terminée par le caractère null qui spécifie le nom NetBIOS de
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - framebuffers, opérations par vertex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe7f0606d0b2cd74402ac7015323b68dcda7337478a060791ee0ab97f0294a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3207f2716ca59456328078fd10bd03ea9de09da6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013976"
 ---
 # <a name="vertices"></a>Sommets
 

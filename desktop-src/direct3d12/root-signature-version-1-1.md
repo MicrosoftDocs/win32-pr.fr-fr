@@ -5,12 +5,12 @@ ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be1f6cd024fe4f8a1121a1f4e43aae6c9bf2984f099cf2ea33ec45b758e3b03
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 04a7a32576efa4d93a8d26aa57282f06e0d5a02f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012885"
 ---
 # <a name="root-signature-version-11"></a>Signature racine version 1.1
 

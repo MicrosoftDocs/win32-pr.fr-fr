@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3da350c6fe34f671d7af53ca67c404b4e327690918434b5e2fb1426e4a0953ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b2deecb393d6532015cf1490aacd1bd50501920
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012195"
 ---
 # <a name="iamtimelinetranssetswapinputs-method"></a>IAMTimelineTrans :: SetSwapInputs, méthode
 
@@ -54,11 +54,11 @@ Spécifie si les entrées sont échangées. Si la **valeur est false**, la trans
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne modifie pas la direction de l’effet visuel. Par exemple, une réinitialisation de gauche à droite sera toujours de gauche à droite. Pour modifier la direction, définissez la propriété **Progress** à l’aide de l’interface [**IPropertySetter**](ipropertysetter.md) .
 
@@ -72,7 +72,7 @@ Cette méthode ne modifie pas la direction de l’effet visuel. Par exemple, une
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

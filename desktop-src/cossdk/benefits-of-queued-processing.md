@@ -4,12 +4,12 @@ ms.assetid: dc1fc03f-1e2c-481c-95a7-f8d7b1e06bb0
 title: Avantages du traitement en file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c41d902d9e72af40b70ccc95efe33e2857c8ef07953c70ef1fc0879ba676ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7a0d2068d70ecf611ec334632c8b8f819319ef3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013010"
 ---
 # <a name="benefits-of-queued-processing"></a>Avantages du traitement en file d’attente
 

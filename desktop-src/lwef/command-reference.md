@@ -4,12 +4,12 @@ description: Cette référence de commande décrit l’outil de modification du 
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d942bccfc8d995b716902b3569eb05ddcd4cad5b12dc9e5fa2a781d692b6ac3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a929691a96cfa62417785e1348448d78cc227be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119963229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012391"
 ---
 # <a name="command-reference-linguistic-information-sound-editing-tool"></a>Référence de commande (outil d’édition des informations linguistiques)
 

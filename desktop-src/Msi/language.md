@@ -4,12 +4,12 @@ ms.assetid: 547fc662-f055-421e-a621-eecdfa0b13f6
 title: Langage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b98e24ec0ad4d4b42dfcba02374792e10ea117db474a973eae06336a55834538
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc87cb8b88dc3a693eee6890276adb67ad359e7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011987"
 ---
 # <a name="language"></a>Langage
 

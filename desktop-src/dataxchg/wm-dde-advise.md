@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c651144b4f09cf53f07c0f1860625cab8277e5c8a9532ee864b9ec1b1c927323
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 832c6991169b71955c0ab21b59d2b55b0b54fc9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127095401"
 ---
 # <a name="wm_dde_advise-message"></a>\_Message de \_ notification DDE WM
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si une application cliente prend en charge plusieurs formats de presse-papiers pour une seule rubrique et un seul élément, elle peut envoyer plusieurs messages de **\_ \_ notification** de l’échange de message pour la rubrique et l’élément, en spécifiant un format de presse-papiers différent pour chaque message. Notez qu’un serveur peut prendre en charge plusieurs formats uniquement pour les liaisons de données à chaud, et non pour les liaisons de données à chaud.
 
@@ -76,7 +76,7 @@ L’application serveur publie le message d’accusé de réception [**\_ DDE DD
 
 Le serveur doit créer ou réutiliser le paramètre [**WM \_ DDE \_ ACK**](wm-dde-ack.md) *lParam* en appelant la fonction [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam) ou la fonction [**ReuseDDElParam**](/windows/desktop/api/Dde/nf-dde-reuseddelparam) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -131,7 +131,7 @@ Le serveur doit créer ou réutiliser le paramètre [**WM \_ DDE \_ ACK**](wm-dd
 [**\_requête DDE \_ WM**](wm-dde-request.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [À propos de échange dynamique de données](about-dynamic-data-exchange.md)

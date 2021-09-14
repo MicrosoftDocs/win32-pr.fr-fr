@@ -5,11 +5,11 @@ title: Mappage d’identificateurs POSIX
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: dabb944b543fba65942eb89d526590a5aff2c26c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867634"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013601"
 ---
 # <a name="mapping-posix-identifiers"></a>Mappage d’identificateurs POSIX
 
@@ -41,7 +41,7 @@ Toutes les traductions d’ID POSIX ne font pas appel à un objet [**trustedDoma
 
  
 
-Enfin, un autre ensemble de sid, SID d’ouverture de session, nécessite un traitement spécial. Ces valeurs sont affectées par le processus d’ouverture de session Windows pour chaque ouverture de session et se présentent sous la forme S-1-5-5-X-Y, où X et Y sont traités comme un seul \_ entier volumineux qui est incrémenté pour chaque session d’ouverture de session. Ces SID sont mappés à la constante ID POSIX 0xFFF. Pour mapper l’ID POSIX 0xFFF, vous pouvez traduire n’importe quel [*identificateur de connexion*](/windows/desktop/SecGloss/l-gly) adapté à la situation, ou vous pouvez utiliser par défaut S-1-5-5-0-0. (Par exemple, si un utilisateur POSIX applique la protection à un objet et spécifie FFFx, il est préférable de remplacer l’identificateur d’ouverture de session de cet utilisateur par la seule attribution de S-1-5-5-0-0.)
+Enfin, un autre ensemble de sid, SID d’ouverture de session, nécessite un traitement spécial. ces valeurs sont affectées par le processus d’ouverture de session Windows pour chaque ouverture de session et se présentent sous la forme S-1-5-5-X-Y, où X et Y sont traités comme un seul \_ entier volumineux qui est incrémenté pour chaque session d’ouverture de session. Ces SID sont mappés à la constante ID POSIX 0xFFF. Pour mapper l’ID POSIX 0xFFF, vous pouvez traduire n’importe quel [*identificateur de connexion*](/windows/desktop/SecGloss/l-gly) adapté à la situation, ou vous pouvez utiliser par défaut S-1-5-5-0-0. (Par exemple, si un utilisateur POSIX applique la protection à un objet et spécifie FFFx, il est préférable de remplacer l’identificateur d’ouverture de session de cet utilisateur par la seule attribution de S-1-5-5-0-0.)
 
  
 

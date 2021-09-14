@@ -4,12 +4,12 @@ ms.assetid: 47bb8606-0b7b-4e71-9d6f-c400d6a82e43
 title: Création d’une application de conversation de groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcb8f9458f8e01bea86e42f0cd976395e951bda52f13af46952479d5810e46c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 676d4e9913934024df3131c0f965a5d85477d148
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013947"
 ---
 # <a name="creating-a-group-chat-application"></a>Création d’une application de conversation de groupe
 

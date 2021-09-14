@@ -4,12 +4,12 @@ ms.assetid: f1155341-83f3-4805-8d42-a1910515db31
 title: Polygones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf1f8a2b9b3ce30ceadb22a0832ec50fed98c87eba961081760e5a966932e4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe67ec2d062579df0510c100a80d06715be4199e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036457"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127012411"
 ---
 # <a name="polygons"></a>Polygones
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3313a1744a1fb9a3b34549ca32bb9b0c7cf18977c7785075900c4a11425b5949
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ad276126548ac6d5fdc2c828f722c90b43ad679
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013687"
 ---
 # <a name="ieaxiservicecallback-interface"></a>Interface IeAxiServiceCallback
 
@@ -65,7 +65,7 @@ L’interface **IeAxiServiceCallback** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

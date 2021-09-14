@@ -4,12 +4,12 @@ ms.assetid: 128478c3-c890-4df3-bbb8-1bb57a17d8e9
 title: À propos de l’API de capteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 553673b353163934598b3b4d557d870790877dd5fe1d16ba76fd928141dc57ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbac0e631909d503711be171926a5e05558333da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127013558"
 ---
 # <a name="about-the-sensor-api"></a>À propos de l’API de capteur
 

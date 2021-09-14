@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 55f697d6ff1a2bd3ebac77a77d8ba98321f29d09a75181b52e8ef08b03eed682
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ba7b3a85b512b2ad8d6e85aa38627a2abc68c21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094822"
 ---
 # <a name="cbasepin-class"></a>CBasePin, classe
 
@@ -69,7 +69,7 @@ Les rubriques suivantes décrivent comment utiliser cette classe :
 | [**GetMediaTypeVersion**](cbasepin-getmediatypeversion.md)              | Récupère un numéro de version pour l’ensemble de types de médias préférés. Virtuels.                                  |
 | [**IncrementTypeVersion**](cbasepin-incrementtypeversion.md)            | Incrémente le numéro de version sur le jeu de types de médias préférés.                                         |
 | [**Actif**](cbasepin-active.md)                                        | Notifie le code confidentiel que le filtre est maintenant actif. Virtuels.                                                   |
-| [**Inactive**](cbasepin-inactive.md)                                    | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                             |
+| [**Inactif**](cbasepin-inactive.md)                                    | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                             |
 | [**Exécuter**](cbasepin-run.md)                                              | Notifie le code confidentiel que le filtre est en cours d’exécution. Virtuels.                                                  |
 | [**SetMediaType**](cbasepin-setmediatype.md)                            | Définit le type de média pour la connexion. Virtuels.                                                           |
 | [**CheckConnect**](cbasepin-checkconnect.md)                            | Détermine si une connexion de code confidentiel est appropriée. Virtuels.                                                  |
@@ -79,7 +79,7 @@ Les rubriques suivantes décrivent comment utiliser cette classe :
 | [**CurrentStopTime**](cbasepin-currentstoptime.md)                      | Récupère l’heure d’arrêt du segment.                                                                           |
 | [**CurrentStartTime**](cbasepin-currentstarttime.md)                    | Récupère l’heure de début du segment.                                                                          |
 | [**CurrentRate**](cbasepin-currentrate.md)                              | Récupère le taux de segment.                                                                                |
-| [**Nom**](cbasepin-name.md)                                            | Récupère l’identificateur de code confidentiel.                                                                              |
+| [**Nomme**](cbasepin-name.md)                                            | Récupère l’identificateur de code confidentiel.                                                                              |
 | [**SetReconnectWhenActive**](cbasepin-setreconnectwhenactive.md)        | Spécifie si le code PIN prend en charge les reconnexions dynamiques.                                                  |
 | [**CanReconnectWhenActive**](cbasepin-canreconnectwhenactive.md)        | Interroge si le code PIN prend en charge les reconnexions dynamiques.                                                    |
 | Méthodes virtuelles pures                                                     | Description                                                                                                |
@@ -106,7 +106,7 @@ Les rubriques suivantes décrivent comment utiliser cette classe :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
