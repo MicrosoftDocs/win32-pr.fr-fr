@@ -4,12 +4,12 @@ ms.assetid: 9099f9df-b620-4623-826e-c541202ebc4a
 title: Déploiement pour une communication plus rapide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 201185878a6d3fc041512b41fd3f51975ae5e0988f853dbbbcb77b716ea4cebe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2594a7dbd34813013257350e2deb9d93db6bae5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232722"
 ---
 # <a name="deploying-for-faster-communication"></a>Déploiement pour une communication plus rapide
 

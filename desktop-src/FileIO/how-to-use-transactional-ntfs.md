@@ -4,12 +4,12 @@ ms.assetid: 29879a3f-14b4-462c-a001-46c3c3eb74d1
 title: Utilisation de NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8daafd2bc2ee0e695ee3bdede4ac2f62be1000c111d0c544dec877c357f42629
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43681f0d5b27f0db03d8b6c44564b792fce4b467
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009928"
 ---
 # <a name="how-to-use-transactional-ntfs"></a>Utilisation de NTFS transactionnel
 

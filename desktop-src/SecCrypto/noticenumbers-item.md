@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 97f202447a8c5821cf184b14af3784016eec5ba481e45df23ed06bbdfc6ca9dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a797db5869e11bfc441ce3b1e3642b83e84e6714
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117980200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123130"
 ---
 # <a name="noticenumbersitem-property"></a>NoticeNumbers. Item, propriété
 
@@ -41,7 +41,7 @@ NoticeNumbers.Item( _
 
 Objet d' [**extension**](extension.md) qui représente le numéro d’avis indexé de la collection.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

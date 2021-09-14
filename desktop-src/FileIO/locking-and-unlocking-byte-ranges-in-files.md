@@ -5,11 +5,11 @@ title: Verrouillage et déverrouillage des plages d’octets dans les fichiers
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d8ea12d2563f1c5e163eb019b37c42bdeb8eed8b
-ms.sourcegitcommit: ccf7dea7222b925441486fa564a1a61b69395562
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "123463058"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009918"
 ---
 # <a name="locking-and-unlocking-byte-ranges-in-files"></a>Verrouillage et déverrouillage des plages d’octets dans les fichiers
 

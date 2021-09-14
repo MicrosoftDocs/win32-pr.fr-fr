@@ -4,12 +4,12 @@ ms.assetid: 1aaebda9-0013-4282-9ae1-7c829e171942
 title: Points d’analyse et opérations sur les fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d18b42c2bc51617e185c2d8f13fde15952ad83d2c2c635d312d589677ee8e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be1132197cd689157cd9f219afa5bfc1474b587c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009859"
 ---
 # <a name="reparse-points-and-file-operations"></a>Points d’analyse et opérations sur les fichiers
 

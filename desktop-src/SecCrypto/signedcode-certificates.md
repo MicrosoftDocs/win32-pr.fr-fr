@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ae1f456c59a75fa8cd9969e57f7e991cc836ee3783d25e52919387606ec79262
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b24a07041dae1ea2387ced93d1d2ae541a806029
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117974250"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123069"
 ---
 # <a name="signedcodecertificates-property"></a>SignedCode. Certificates, propriété
 
@@ -39,7 +39,7 @@ SignedCode.Certificates As Certificates
 
 Collection de [**certificats**](certificates.md) qui contient tous les certificats dans le fichier exécutable signé.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

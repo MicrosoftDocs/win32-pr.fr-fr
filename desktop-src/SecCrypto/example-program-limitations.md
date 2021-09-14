@@ -4,12 +4,12 @@ ms.assetid: 2f428872-10ba-4059-ab42-f69dce940bed
 title: Exemples de limitations de programme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0244f373264ed6886632979f00ace873949c1ab7e781262b4ef30dab2072f8a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a1fde65fa1870ac3ed118bd7c9f95c6add5192f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123169"
 ---
 # <a name="example-program-limitations"></a>Exemples de limitations de programme
 

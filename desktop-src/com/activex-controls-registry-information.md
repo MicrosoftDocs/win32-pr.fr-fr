@@ -4,12 +4,12 @@ description: ActiveX Contrôle les informations de Registre
 ms.assetid: fda5b1e6-2048-4df7-ba8f-145652e3883c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f062c11304c50161308cc5c6e43001c23f63486e60e568f61d6335f0947380
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6b180b327a4239b220185a9073ebc7bc0826c39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117737383"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232800"
 ---
 # <a name="activex-controls-registry-information"></a>ActiveX Contrôle les informations de Registre
 

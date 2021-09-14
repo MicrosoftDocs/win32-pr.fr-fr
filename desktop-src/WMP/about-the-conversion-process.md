@@ -9,12 +9,12 @@ keywords:
 - plug-ins de conversion, processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4555c0175da6e08a581f1ac02188b2029054cf587ee5933218524fed667625fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2d6fe2f2bbedf03b78c0d19abaf3793e8e92c788
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232907"
 ---
 # <a name="about-the-conversion-process"></a>À propos du processus de conversion
 

@@ -4,12 +4,12 @@ description: ActiveX Interfaces de contrôles
 ms.assetid: c4ca5696-c461-4d65-b2a8-c689c056dac8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4d56bd5dbd4feb22341850189132d011bcf160421d9ef26904a3d147166b75
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bcd7c4e0b726e9f330910bd468c237c72462fa21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232799"
 ---
 # <a name="activex-controls-interfaces"></a>ActiveX Interfaces de contrôles
 

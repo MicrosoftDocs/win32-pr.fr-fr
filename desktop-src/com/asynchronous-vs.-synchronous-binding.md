@@ -4,12 +4,12 @@ description: Liaison asynchrone et synchrone
 ms.assetid: 9852df19-5ae4-4425-9ce0-cac160d68456
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb498d083260db087e9f32cd3f24b67f03f9a788c0add2592dde36fe7a7905e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11b022df239221f0a019b972067248225210e585
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232770"
 ---
 # <a name="asynchronous-and-synchronous-binding"></a>Liaison asynchrone et synchrone
 

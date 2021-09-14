@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9832fbe811f012932e4fb96bb8f530c4fc49d614ed5960c9f94065388f373833
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22f4428decca7629f9d4049a2d3f52dfe8b8775a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123638"
 ---
 # <a name="patchsourcelistinfo-property"></a>Patch. SourceListInfo, propriété
 
@@ -39,7 +39,7 @@ propVal = Patch.SourceListInfo
 
 Nom des propriétés d’informations sources d’un correctif à interroger ou définir. Pour connaître les valeurs possibles, consultez la section Notes de cette rubrique.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les propriétés qui peuvent être récupérées ne peuvent pas être définies. Le paramètre *szProperty* peut avoir l’une des valeurs suivantes.
 
@@ -57,7 +57,7 @@ Toutes les propriétés qui peuvent être récupérées ne peuvent pas être dé
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 29e50bd5-1712-407f-bcb3-50a0a22ab8b5
 title: Dynamic-Link les fonctions de la bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 521c9200b3fa6585ec2804d76ac385845dcd6fb56ef4e7b70a7a3d9bd59150c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f47ce37b6f91570ce9f3314fc329b5e85cde310f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123677"
 ---
 # <a name="dynamic-link-library-functions"></a>Dynamic-Link les fonctions de la bibliothèque
 

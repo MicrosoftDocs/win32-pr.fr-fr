@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79ff96f30a13705028a18199780da69948633c0c3381d87896f1c7137ae06041
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec67cf68109d32d6e1ad714f91a97987f9a3734d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120085769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123846"
 ---
 # <a name="cbn_closeup-notification-code"></a>\_Code de notification CBN gros plan
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’utilisateur a modifié la sélection actuelle, la zone de liste déroulante envoie également le code de notification [CBN \_ selChange](cbn-selchange.md) lorsque la liste déroulante se ferme. En général, vous ne pouvez pas prédire l’ordre dans lequel les codes de notification seront envoyés. En particulier, un \_ Code de notification CBN selChange peut se produire avant ou après un \_ Code de notification CBN gros plan.
 
@@ -61,7 +61,7 @@ Pour exécuter un processus spécifique chaque fois que l’utilisateur sélecti
 
 Ce code de notification n’est pas envoyé à une zone de liste déroulante avec le style [**CBS \_ simple**](combo-box-styles.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

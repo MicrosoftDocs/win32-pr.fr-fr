@@ -4,12 +4,12 @@ ms.assetid: f8e6692f-4824-40fe-a5b3-9843689ea02e
 title: Valeurs de retour de sécurité réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a40fd8e6e21d9e7671c1e7b9c3d008978628e28cb0fcb01c3df56359144e72e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a362fde712d2a44565894aceb9d85172e488b53a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118921298"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123366"
 ---
 # <a name="network-security-return-values"></a>Valeurs de retour de sécurité réseau
 

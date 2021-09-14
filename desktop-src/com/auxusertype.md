@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8c66fcfbcdc2886e93d08040659b39c42d47c291
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232751"
 ---
 # <a name="auxusertype"></a>AuxUserType
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
          3 = ApplicationName
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La longueur maximale recommandée pour *ShortDisplayName* est de 15 caractères. Ce nom est utilisé dans les menus, y compris les menus contextuels.
 

@@ -4,12 +4,12 @@ description: SignTool est un outil en ligne de commande qui signe numériquement
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
 ms.date: 10/12/2020
-ms.openlocfilehash: f7105e81b958e463612a5065003ed04c24b913f87f52d8d72bb7a708917ebbed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f738eddb6e47da12297bffd13a816398ba2c46c9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897954"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123053"
 ---
 # <a name="signtool"></a>SignTool (SignTool)
 
@@ -76,15 +76,15 @@ Les commandes suivantes sont prises en charge par SignTool.
 |Options de la commande Sign|Description|  
 |----|----| 
 |`/a`|Sélectionne automatiquement le meilleur certificat de signature. L'outil Signature recherche tous les certificats valides qui répondent à toutes les conditions spécifiées et sélectionne celui qui est valide le plus longtemps. Si cette option n'est pas présente, l'outil Signature pense trouver un seul certificat de signature valide.|  
-|`/ac`  *txt*|Ajoute un certificat supplémentaire à partir de *file* au bloc de signature.|  
+|`/ac`  *file*|Ajoute un certificat supplémentaire à partir de *file* au bloc de signature.|  
 |`/as`|Ajoute cette signature. Si aucune signature principale n'est présente, cette signature est effectuée à la signature principale à la place.|  
 |`/c`  *CertTemplateName*|Spécifie le nom du modèle de certificat (une extension Microsoft) pour le certificat de signature.|  
 |`/csp`  *CSPName*|Spécifie le fournisseur de services de chiffrement (CSP) qui contient le conteneur de clés privées.|  
 |`/d`  *DESC*|Spécifie une description du contenu signé.|  
-|`/dg`  *Chemin*|Génère le condensé à signer et les fichiers PKCS7 non signés. Les fichiers de sortie Digest et PKCS7 sont les suivants : *Path\FileName.Dig* et *Path\FileName.p7u*. Pour générer un fichier XML supplémentaire, consultez <strong>/DXML</strong>.|  
-|`/di`  *Chemin*|Crée la signature en ingestion du condensé signé dans le fichier PKCS7 non signé. Les fichiers de résumé et PKCS7 non signés d’entrée doivent être : *Path\FileName.Dig.signed* et *Path\FileName.p7u*.|  
+|`/dg`  *Chemin d’accès*|Génère le condensé à signer et les fichiers PKCS7 non signés. Les fichiers de sortie Digest et PKCS7 sont les suivants : *Path\FileName.Dig* et *Path\FileName.p7u*. Pour générer un fichier XML supplémentaire, consultez <strong>/DXML</strong>.|  
+|`/di`  *Chemin d’accès*|Crée la signature en ingestion du condensé signé dans le fichier PKCS7 non signé. Les fichiers de résumé et PKCS7 non signés d’entrée doivent être : *Path\FileName.Dig.signed* et *Path\FileName.p7u*.|  
 |`/dlib`  *DLL*|Spécifie la DLL qui implémente la <code>AuthenticodeDigestSign</code> fonction avec laquelle signer le Digest. Cette option équivaut à utiliser <strong>SignTool</strong> séparément avec les commutateurs <strong>/DG</strong>, <strong>/DS</strong>et <strong>/di</strong> , sauf que cette option appelle les trois une seule opération atomique.|  
-|`/dmdf`  *Nom de fichier*|Lorsqu’il est utilisé avec l’option <strong>/DG</strong> , passe le contenu du fichier à la <code>AuthenticodeDigestSign</code> fonction sans modification.|  
+|`/dmdf`  *Extension*|Lorsqu’il est utilisé avec l’option <strong>/DG</strong> , passe le contenu du fichier à la <code>AuthenticodeDigestSign</code> fonction sans modification.|  
 |`/ds`  |Signe le condensé uniquement. Le fichier d’entrée doit être le Digest généré par l’option <strong>/DG</strong> . Le fichier de sortie sera : *file. signed*.|  
 |`/du`  *URL*|Spécifie une URL pour la description développée du contenu signé.|  
 |`/dxml`  |Lorsqu’il est utilisé avec l’option <strong>/DG</strong> , produit un fichier XML. Le fichier de sortie est le suivant : *Path\FileName.dig.xml*.|  
@@ -107,7 +107,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 |`/t`  *URL*|Spécifie l'URL du serveur d'horodatage. Si cette option (ou `/tr`) n'est pas présente, le fichier signé ne sera pas horodaté. Un avertissement est généré si l'horodatage échoue. Cette option ne peut pas être utilisée avec l'option `/tr`.|  
 |`/td`  *ALG*|Utilisé avec l'option `/tr` pour demander un algorithme Digest utilisé par le serveur d'horodatage RFC 3161. </br> **Remarque :** Un avertissement est généré si le commutateur <strong>/TD</strong> n’est pas fourni lors de l’horodatage. L’ALG par défaut est SHA1 mais SHA256 est recommandé. <br/> Le commutateur <strong>/TD</strong> doit être déclaré après le commutateur <strong>/TR</strong> , et non avant. Si le commutateur <strong>/TD</strong> est déclaré avant le commutateur <strong>/TR</strong> , l’horodateur retourné est issu d’un algorithme SHA1 au lieu de l’algorithme SHA256 prévu. |
 |`/tr`  *URL*|Spécifie l'URL du serveur d'horodatage RFC 3161. Si cette option (ou `/t`) n'est pas présente, le fichier signé ne sera pas horodaté. Un avertissement est généré si l'horodatage échoue. Cette option ne peut pas être utilisée avec l'option `/t`.|  
-|`/u`  *Syntaxe*|Spécifie l'utilisation améliorée de la clé (EKU) qui doit être présente dans le certificat de signature. La valeur de l'utilisation peut être spécifiée par un OID ou une chaîne. L'utilisation par défaut est « Signature du code » (1.3.6.1.5.5.7.3.3).|  
+|`/u`  *Usage*|Spécifie l'utilisation améliorée de la clé (EKU) qui doit être présente dans le certificat de signature. La valeur de l'utilisation peut être spécifiée par un OID ou une chaîne. L'utilisation par défaut est « Signature du code » (1.3.6.1.5.5.7.3.3).|  
 |`/uw`|Spécifie l'utilisation « Windows System Component Verification » (1.3.6.1.4.1.311.10.3.6).|  
   
  Pour obtenir des exemples, consultez [Utilisation de SignTool pour signer un fichier](using-signtool-to-sign-a-file.md).  
@@ -122,7 +122,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 |`/p7`|Horodate les fichiers PKCS #7.|  
 |`/t`  *URL*|Spécifie l'URL du serveur d'horodatage. Le fichier en cours d'horodatage doit avoir été signé au préalable. L'option `/t` ou `/tr` est obligatoire.|  
 |`/td`  *ALG*|Utilisé avec l'option `/tr` pour demander un algorithme Digest utilisé par le serveur d'horodatage RFC 3161. </br> **Remarque :** Un avertissement est généré si le commutateur <strong>/TD</strong> n’est pas fourni lors de l’horodatage. L’ALG par défaut est SHA1 mais SHA256 est recommandé. <br/> Le commutateur <strong>/TD</strong> doit être déclaré après le commutateur <strong>/TR</strong> , et non avant. Si le commutateur <strong>/TD</strong> est déclaré avant le commutateur <strong>/TR</strong> , l’horodateur retourné est issu d’un algorithme SHA1 au lieu de l’algorithme SHA256 prévu. |
-|`/tp`*index*|Horodate la signature à l’*index*.|  
+|`/tp` *index*|Horodate la signature à l’*index*.|  
 |`/tr`  *URL*|Spécifie l'URL du serveur d'horodatage RFC 3161. Le fichier en cours d'horodatage doit avoir été signé au préalable. L'option `/tr` ou `/t` est obligatoire.|  
 
 
@@ -155,7 +155,7 @@ La commande SignTool **verify** détermine si le certificat de signature a été
 La commande SignTool **verify** génère l’état de la signature **incorporée** , sauf si une option est spécifiée pour rechercher un catalogue (/a,/ad,/As,/AG,/c).
 
 
-## <a name="return-value"></a>Valeur retournée  
+## <a name="return-value"></a>Valeur de retour  
 
  L'outil Signature retourne l'un des codes de sortie suivants lorsqu'il se termine.  
   

@@ -4,12 +4,12 @@ ms.assetid: 87f39e1c-3ebf-4c6f-a842-699ec3c45e76
 title: Codes de contrôle de gestion des volumes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ddaa60b30b40891aa13868f46294cc81a197d81b77b076d5390a755bb0cefe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5cccb73559826b8b0b3001588458a4cf34863f7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119431774"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009805"
 ---
 # <a name="volume-management-control-codes"></a>Codes de contrôle de gestion des volumes
 

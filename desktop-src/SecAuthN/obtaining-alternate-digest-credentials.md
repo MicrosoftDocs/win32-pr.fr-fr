@@ -4,12 +4,12 @@ ms.assetid: f590ddb5-39a1-4d0c-a787-da938a63c206
 title: Obtention d’autres informations d’identification de Digest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 260aa1c4cb3bd52395352e2e5dcadcaed7e3fea3cf478367a9e3432c7d2c8d8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94ed7daa2a3179822929e8c2df8077ee55afaadb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118921288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123358"
 ---
 # <a name="obtaining-alternate-digest-credentials"></a>Obtention d’autres informations d’identification de Digest
 

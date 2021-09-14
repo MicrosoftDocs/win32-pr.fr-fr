@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 869168bfb970df9afc6399e6b1ec40e02b9ccdeaa2f2fef93fcbd86c16e9c6d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: da5b588fbd55af9dfa66a03c7912d4918821168b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119314399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123817"
 ---
 # <a name="cbn_selendcancel-notification-code"></a>\_Code de notification CBN SELENDCANCEL
 
@@ -53,11 +53,11 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Dans une zone de liste modifiable avec le style [**CBS \_ simple**](combo-box-styles.md) , le \_ Code de notification CBN SELENDCANCEL n’est pas envoyé. Le code de notification [CBN \_ SELENDOK](cbn-selendok.md) est envoyé immédiatement avant chaque code de notification [CBN \_ selChange](cbn-selchange.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

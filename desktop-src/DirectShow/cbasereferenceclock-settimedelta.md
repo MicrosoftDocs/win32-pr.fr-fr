@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ac9eba5337fa43e43e3b7a45a7a92263fd4e6d69388185a2096c1a270590e482
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de58363119dc08c21d2cab0070b438ad6b4331e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403438"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010131"
 ---
 # <a name="cbasereferenceclocksettimedelta-method"></a>Méthode CBaseReferenceClock. SetTimeDelta
 
@@ -49,17 +49,17 @@ Montant pour ajuster l’heure de l’horloge, en unités de 100 nanosecondes. U
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe dérivée peut utiliser cette méthode pour ajuster l’horloge interne, si elle dérive du périphérique qui fournit des informations de minutage.
 
 La méthode [**CBaseReferenceClock :: getTime**](cbasereferenceclock-gettime.md) ne retourne jamais de valeurs décroissantes. Si vous ajustez l’horloge vers l’arrière, **getTime** retourne la valeur précédente jusqu’à ce que l’horloge atteigne à nouveau cette valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

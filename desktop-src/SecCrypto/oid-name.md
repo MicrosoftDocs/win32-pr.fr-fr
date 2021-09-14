@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 49efa5c25b9c7c698f7239c139f7dd2fb9ac5ccebee503a5cd7e0f6f83a76d23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42bd18c800bf53ca9edcf4cf72a4c7ac2cbb6933
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117980045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123113"
 ---
 # <a name="oidname-property"></a>OID. Propriété Name
 
@@ -101,7 +101,7 @@ Valeur de l’énumération [**CAPICOM \_ OID**](capicom-oid.md) qui fournit les
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

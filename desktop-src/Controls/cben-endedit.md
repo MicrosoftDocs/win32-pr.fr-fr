@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22ae9205e84e4f1c0b10e516b1f406f2d167f1bc5cc38417a31379d20e16fcac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 679b9f878dbd8f7f374b461ee548f9ce2c62e281
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118413949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123857"
 ---
 # <a name="cben_endedit-notification-code"></a>\_Code de notification CBEN ENDEDIT
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**NMCBEENDEDIT**](/windows/desktop/api/Commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **False** pour accepter le code de notification et autoriser le contrôle à afficher l’élément sélectionné ; Sinon, **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

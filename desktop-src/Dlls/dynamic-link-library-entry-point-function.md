@@ -4,12 +4,12 @@ ms.assetid: ec035fc6-0a6f-4e52-a4cc-8d7a25a94366
 title: Entry-Point fonction de la bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6289f705a11dad58eca8b047ba469ee07320dedef762024cbfa04046a0677f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b62bff557bfa2aa792b420e8fe1856bbe0726921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117815837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123682"
 ---
 # <a name="dynamic-link-library-entry-point-function"></a>Entry-Point fonction de la bibliothèque de Dynamic-Link
 

@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f70f77fb34379a9503bc2ac0988bd855254da4d6a30042b6a8fddd41561f6f53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd02487fe166cd7ce55482eaca1339c8701f2b62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119699499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010185"
 ---
 # <a name="win32_irqresource-class"></a>\_Classe IRQResource Win32
 
@@ -103,7 +103,7 @@ Cette propriété est héritée de l' [**\_ IRQ CIM**](cim-irq.md).
 
 </dt> <dd>
 
-Autre
+Autres
 
 </dd> <dt>
 
@@ -560,11 +560,11 @@ vecteur du Windows ressource IRQ. Un vecteur contient l’adresse mémoire de la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ IRQResource** est dérivée de l' [**\_ IRQ CIM**](cim-irq.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

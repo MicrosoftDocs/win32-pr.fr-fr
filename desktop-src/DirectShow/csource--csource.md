@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 084bd6c7353e954dfa78643b78e7731bc6608cfca4ca5853042024c0aeedc4f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f6bfeda4e415c72bfcbac50f4e0d2904553bdcc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010046"
 ---
 # <a name="csourcecsource-destructor"></a>CSource. ~ CSource, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

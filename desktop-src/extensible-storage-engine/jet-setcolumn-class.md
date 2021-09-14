@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 239a6641645aa527809c16f09519a05b4774d4a29c85ab2f373eede643883a40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7263506fb63572be5587fa55400bf6ef0966222e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010209"
 ---
 # <a name="jet_setcolumn-class"></a>Classe JET_SETCOLUMN
 
@@ -64,7 +64,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres JET_SETCOLUMN](./jet-setcolumn-members.md)
 

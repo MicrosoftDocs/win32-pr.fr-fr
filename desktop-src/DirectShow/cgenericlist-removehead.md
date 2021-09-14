@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7b374ad6a08aac039de3c7d54ee4403f240fdf6bf9839a5ea2554901de789f11
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: da9267d6b3e0c3196b3a9d1e873f222649b66684
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119317749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010097"
 ---
 # <a name="cgenericlistremovehead-method"></a>Méthode CGenericList. RemoveHead
 
@@ -40,15 +40,15 @@ OBJECT* RemoveHead();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers un objet de type **Object** (le type de modèle), ou **null** si la liste est vide.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode supprime le nœud de liste, mais pas l’élément contenu dans le nœud.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

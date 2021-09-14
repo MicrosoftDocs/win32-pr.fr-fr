@@ -4,12 +4,12 @@ ms.assetid: fe6aae0f-93eb-4aba-a6ac-45e71c251c51
 title: Privilèges
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c0289ea66f4c1d2f94cb74112a1160dd93cc873125ae5183bd6a6fab5834b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cccedffdf5786da07dd2cfd77c3de428ee15ba94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118912135"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233423"
 ---
 # <a name="privileges"></a>Privilèges
 

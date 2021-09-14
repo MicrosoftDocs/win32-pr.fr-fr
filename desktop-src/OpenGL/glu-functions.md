@@ -9,12 +9,12 @@ keywords:
 - Utilitaire OpenGL (GLU), fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4483b364d2d67daff0bbc04b9a30cd7cdb3059f3977f763b247f77be74d62f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fae3ece873f4e1e015861f597c0d51ebfc3436de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123522"
 ---
 # <a name="glu-functions"></a>GLU, fonctions
 

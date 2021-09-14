@@ -4,12 +4,12 @@ ms.assetid: 975a56d1-aa45-470e-b385-753baa1911ff
 title: Exemple de code C pour ouvrir des magasins de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fc54577894c064e855396942139122678808307ee14a4f24474a25e2153ce6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7ebf767fd98b4edca956bf338402ddd14efc26f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117766060"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123218"
 ---
 # <a name="example-c-code-for-opening-certificate-stores"></a>Exemple de code C pour ouvrir des magasins de certificats
 

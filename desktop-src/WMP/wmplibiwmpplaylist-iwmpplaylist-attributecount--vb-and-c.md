@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b51c621f5a484c23a2f7d0677fe20d1b62bfb4d2ec94228e003adc2ebc841cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4107eb1ad302415715b573b55d2dee1d7155128d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232818"
 ---
 # <a name="iwmpplaylistattributecount-property"></a>IWMPPlaylist :: attributeCount, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property attributeCount As System.Int32
 
 **System. Int32** qui correspond au nombre d’attributs associés à la sélection.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné que les sélections peuvent provenir de nombreuses sources différentes, elles peuvent avoir plusieurs ensembles différents d’attributs. Cette propriété obtient le nombre total d’attributs associés à une sélection particulière afin que d’autres membres de l’interface **IWMPPlaylist** puissent y accéder.
 
@@ -167,7 +167,7 @@ displayAttributes.Nodes.Add(mediaRootNode)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

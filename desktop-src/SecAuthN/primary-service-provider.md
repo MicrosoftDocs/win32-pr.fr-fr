@@ -4,12 +4,12 @@ ms.assetid: 4ce06b98-a2d0-46eb-9a6e-473f6c21499b
 title: Fournisseur de services principal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c703626a9a6de03e1f8ef94b09a45dd2701002b194d3a2380934197c25c4dc4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 836f945494f51619a8be2baf308966cfd4b6b004
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118921028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123333"
 ---
 # <a name="primary-service-provider"></a>Fournisseur de services principal
 

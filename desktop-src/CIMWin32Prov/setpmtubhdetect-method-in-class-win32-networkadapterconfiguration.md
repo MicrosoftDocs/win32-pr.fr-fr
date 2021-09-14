@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c9b97e7c55c03dc2fe0e899f9878310eebbf395e3ff15631cea6db8c98546e3a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 098652c6ea0a53f9d3b1f616def3dd8b5e7228af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124005"
 ---
 # <a name="setpmtubhdetect-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetPMTUBHDetect de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, le protocole TCP tente de détecter les paquets de tr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un routeur de trou noir ne retourne pas les messages de destination ICMP (Internet Control Message Protocol) inaccessibles lorsqu’il doit fragmenter un datagramme IP avec le bit de non fragment défini. TCP dépend de la réception de ces messages pour effectuer la détection du chemin MTU.
 
@@ -414,7 +414,7 @@ Une fois cette fonctionnalité activée, le protocole TCP essaiera d’envoyer d
 
 La [détection de modification de PMTUBH sur toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/a576d97b-38fe-437e-a632-d2f7e122301c) permet la détection automatique des routeurs de trou noir lors de la détermination de l’unité de transmission maximale sur un réseau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

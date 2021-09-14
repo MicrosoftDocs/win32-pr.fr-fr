@@ -4,12 +4,12 @@ description: Cette section explique comment la sélection d’un bouton modifie 
 ms.assetid: 7302f0f3-f29d-43d7-8e25-4f36d5ef6a86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d12ac8f0998af2580615e7ab72de6350747aa32dc8e8008eb80caff180b9186b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96865191ac64b14dd35ff1d22631c6bf11763aff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120063649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123953"
 ---
 # <a name="button-states"></a>États du bouton
 

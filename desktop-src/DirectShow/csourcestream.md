@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0f7563cabff97626ac45a150e9a763033d9ce9261e5ae528e83d174e35d4f0d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36b9085df8c15e765c751be8b5fcdfd4f4a02140
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010017"
 ---
 # <a name="csourcestream-class"></a>CSourceStream, classe
 
@@ -57,7 +57,7 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 | [**OnThreadDestroy**](csourcestream-onthreaddestroy.md)               | Appelé lorsque le thread de streaming est sur le point de se fermer. Virtuels.                                                                       |
 | [**OnThreadStartPlay**](csourcestream-onthreadstartplay.md)           | Appelée au début de la méthode [**CSourceStream ::D obufferprocessingloop**](csourcestream-dobufferprocessingloop.md) . Virtuels. |
 | [**Actif**](csourcestream-active.md)                                 | Notifie le code confidentiel que le filtre est maintenant actif.                                                                                   |
-| [**Inactive**](csourcestream-inactive.md)                             | Notifie le code confidentiel que le filtre n’est plus actif.                                                                             |
+| [**Inactif**](csourcestream-inactive.md)                             | Notifie le code confidentiel que le filtre n’est plus actif.                                                                             |
 | [**GetRequest**](csourcestream-getrequest.md)                         | Attend la demande de thread suivante.                                                                                                |
 | [**CheckRequest**](csourcestream-checkrequest.md)                     | Vérifie s’il existe une demande de thread, sans blocage.                                                                            |
 | [**ThreadProc**](csourcestream-threadproc.md)                         | Procédure de thread. Virtuels.                                                                                                        |
@@ -67,7 +67,7 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 | M&#233;thodes publiques                                                         | Description                                                                                                                       |
 | [**CSourceStream**](csourcestream-csourcestream.md)                   | Méthode de constructeur.                                                                                                               |
 | [**~ CSourceStream**](csourcestream--csourcestream.md)                | Méthode de destructeur. Virtuels.                                                                                                       |
-| [**Rein**](csourcestream-init.md)                                     | Initialise le thread de diffusion en continu.                                                                                                 |
+| [**Init**](csourcestream-init.md)                                     | Initialise le thread de diffusion en continu.                                                                                                 |
 | [**Quitter**](csourcestream-exit.md)                                     | Signale le thread de diffusion en continu à quitter.                                                                                             |
 | [**Exécuter**](csourcestream-run.md)                                       | Signale l’exécution du thread de streaming.                                                                                              |
 | [**Suspendre**](csourcestream-pause.md)                                   | Signale que le thread de streaming devient actif.                                                                                    |
@@ -81,7 +81,7 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

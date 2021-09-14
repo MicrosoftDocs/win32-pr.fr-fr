@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a60ff54d6c1215127b0f2f0655321368fd24c18b1731cdbc6f55debbd4442d78
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11ba7449b086f84dc2caff19da922c03f9c7103b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010013"
 ---
 # <a name="csystemclockcsystemclock-constructor"></a>Constructeur CSystemClock. CSystemClock
 
@@ -65,7 +65,7 @@ Pointeur vers la valeur **HRESULT** . Si une erreur se produit, la méthode reto
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

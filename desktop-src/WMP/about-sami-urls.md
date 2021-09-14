@@ -16,12 +16,12 @@ keywords:
 - SAMI (Synchronized Accessible Media Interchange), URL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1a35976c6988ad4298c812005002da010730d5254bd7c010f24fe32741be393
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4a7a41e70d0239b9bdac7d12f9a2dd2f75be15b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232949"
 ---
 # <a name="about-sami-urls"></a>À propos des URL SAMI
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e2806d926c9842f5900f46f923f4cbdf8caa47f112e1832077ab7d2b80a9341c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7839417a0406fc2702fb0fbd593edc92fa80437
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123721"
 ---
 # <a name="iamtimelineobjsetstartstop-method"></a>IAMTimelineObj :: SetStartStop, méthode
 
@@ -60,7 +60,7 @@ Nouvelle heure d’arrêt, en unités de 100 nanosecondes, ou-1 pour conserver l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -76,7 +76,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les suivis, les compositions et les groupes n’implémentent pas cette méthode. Pour ces objets, l’heure de début est toujours égale à zéro et l’heure d’arrêt est l’heure d’arrêt maximale des objets qu’ils contiennent.
 
@@ -114,7 +114,7 @@ REFERENCE_TIME inline FrameNumToTime(LONGLONG frame, double fps)
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 54092caf19a486b68b92ef63d992f11289a51c93
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113130088"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232637"
 ---
 # <a name="add---ps"></a>Add-PS
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source.
 -   src1 est un registre source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 
@@ -65,7 +65,7 @@ dest.w = src0.w + src1.w;
 
 
 
-|   Condition requise                       | Value           |
+|   Condition requise                       | Valeur           |
 |--------------------------|------------|
 | Système d’exploitation minimal | Windows 98 |
 

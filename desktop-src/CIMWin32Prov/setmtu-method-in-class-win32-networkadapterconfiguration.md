@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 043138fd82f5d5423703e860c5811f3e21b8513adb7bb4238ad6d6f7fa7215cd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 466c344892f2c4bf4a1e979ac9c1f50cd709325a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124009"
 ---
 # <a name="setmtu-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetMTU de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Unité de transmission maximale (MTU) par défaut pour une interface réseau. La
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur la carte.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’unité MTU correspond à la taille maximale (en octets) du paquet qu’un transport transmet sur le réseau sous-jacent. La taille comprend l’en-tête de transport.
 
@@ -414,7 +414,7 @@ Notez qu’un datagramme IP peut s’étendre sur plusieurs paquets. Les valeurs
 
 L’exemple VBScript [de modification de l’unité MTU pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/49c26363-d46c-4288-9c8d-feb0a1982998) configure l’unité de transmission maximale pour toutes les cartes réseau installées sur un ordinateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

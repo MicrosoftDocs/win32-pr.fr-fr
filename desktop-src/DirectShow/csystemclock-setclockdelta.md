@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c98ccf35e41886594a3aab8c3abec6737128d8d7e22f6dfb75d0ac88ac3b7a02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc1027081cc8713cffd2979e20627c037d0799f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119538659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010009"
 ---
 # <a name="csystemclocksetclockdelta-method"></a>Méthode CSystemClock. SetClockDelta
 
@@ -49,17 +49,17 @@ Spécifie la quantité d’ajustement de l’horloge, en tant que valeur de [**\
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne \_ un ou un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle simplement [**CBaseReferenceClock :: SetTimeDelta**](cbasereferenceclock-settimedelta.md).
 
 Les valeurs d’heure retournées par [**IReferenceClock :: getTime**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-gettime) augmentent de manière monotone. Si vous redéfinissez l’horloge, **getTime** continue à signaler l’ancienne fois jusqu’à ce que l’horloge interne rattrape.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

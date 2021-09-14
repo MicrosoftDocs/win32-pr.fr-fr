@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f116dd1a965145e5bdf4808d25a7406b4709967c5cf971ad3529ae9d301ebc4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9491e58d817ce2c9dc4fb59fafa9bf96812a013a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119539739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010098"
 ---
 # <a name="cgenericlistgetnext-method"></a>CGenericList. GetNext, méthode
 
@@ -49,17 +49,17 @@ Référence à une valeur de POSITION.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers un objet de type **Object** (le type de modèle).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode avance l’indicateur de position à la position suivante. Si l’indicateur de position se déplace au-delà de la fin de la liste, la méthode lui affecte la **valeur null**.
 
 Si *RP* a la **valeur null**, la méthode retourne la **valeur null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

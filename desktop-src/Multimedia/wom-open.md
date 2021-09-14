@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 3cfca721019b28a5bf039e8c56c75892d85bd5e1
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123553"
 ---
 # <a name="wom_open-message"></a>WOM \_ ouvrir le message
 

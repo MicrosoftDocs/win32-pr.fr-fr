@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1355eae98e3f860609950021d75d8570a8593e8b5a241b366111870912808f72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3279f79eeda0b992ac162fbab62687b1a58b0cbd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118802251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232697"
 ---
 # <a name="id3dxkeyframedanimationsetgetnumrotationkeys-method"></a>ID3DXKeyframedAnimationSet :: GetNumRotationKeys, méthode
 
@@ -49,13 +49,13 @@ Index d’animation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Nombre de clés de rotation dans l’animation d’image clé spécifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

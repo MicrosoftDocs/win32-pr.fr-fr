@@ -4,12 +4,12 @@ ms.assetid: 66e4a6d8-2401-4346-9361-e145735cbe19
 title: BMPString
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 496715d380739dd68dab4266422876ecca174b9caffd3895e9c465f446d32cf5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c911218d852b792a333f015c825a7e4d1486b62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118904838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123321"
 ---
 # <a name="bmpstring"></a>BMPString
 

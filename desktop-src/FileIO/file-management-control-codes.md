@@ -5,11 +5,11 @@ title: Codes de contrôle de gestion des fichiers
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 64cb3baf78c4066a640242afe8465592bc9a6f8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009966"
 ---
 # <a name="file-management-control-codes"></a>Codes de contrôle de gestion des fichiers
 
@@ -28,7 +28,7 @@ Les codes de contrôle suivants sont utilisés dans la gestion des fichiers.
 | [**FSCTL \_ les \_ Extensions dupliquées dans le \_ \_ fichier**](/windows/win32/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file)<br/>       | Indique au système de fichiers de copier une plage d’octets de fichier pour le compte d’une application.<br/>                                                                                                     |
 | [**\_ \_ découpage au niveau du fichier FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_file_level_trim)<br/>                            | Indique au système de stockage les plages du fichier qui ne sont pas nécessaires pour être stockées.<br/>                                                                                                    |
 | [**statistiques d’extraction du système de \_ fichiers FSCTL \_ \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics)<br/>        | Récupère les informations à partir de différents compteurs de performances du système de fichiers.<br/>                                                                                                                 |
-| [**\_statistiques d’extraction du système de fichiers FSCTL \_ \_ \_ ex**](/windows/win32/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics_ex)<br/> | Récupère les informations à partir de différents compteurs de performances du système de fichiers.<br/> Prise en charge de ce code de contrôle démarré avec Windows 10.<br/>                                               |
+| [**\_statistiques d’extraction du système de fichiers FSCTL \_ \_ \_ ex**](/windows/win32/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics_ex)<br/> | Récupère les informations à partir de différents compteurs de performances du système de fichiers.<br/> La prise en charge de ce code de contrôle a démarré avec Windows 10.<br/>                                               |
 | [**FSCTL \_ Rechercher les \_ fichiers \_ par \_ sid**](/windows/win32/api/winioctl/ni-winioctl-fsctl_find_files_by_sid)<br/>                       | Recherche un fichier dont le propriétaire du créateur correspond au SID spécifié.<br/>                                                                                                           |
 | [**FSCTL \_ recevoir la \_ compression**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_compression)<br/>                             | Récupère l’état de compression actuel d’un fichier ou d’un répertoire sur un volume dont le système de fichiers prend en charge la compression par flux.<br/>                                                            |
 | [**FSCTL \_ Obtient \_ un \_ enregistrement de fichier NTFS \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_ntfs_file_record)<br/>                 | Récupère le premier enregistrement de fichier en cours d’utilisation et est d’une valeur ordinale inférieure ou égale au numéro de référence de fichier demandé.<br/>                                                    |
@@ -43,7 +43,7 @@ Les codes de contrôle suivants sont utilisés dans la gestion des fichiers.
 | [**\_ \_ plages allouées par la requête FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges)<br/>              | Analyse un fichier ou un autre flux de données à la recherche de plages pouvant contenir des données différentes de zéro.<br/>                                                                                                       |
 | [**\_requête FSCTL \_ sur les informations sur le \_ volume de disque \_ \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_on_disk_volume_info)<br/>      | Demande des informations sur le volume propres à UDF.<br/>                                                                                                                                                |
 | [**\_informations de \_ remplacement de requête FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_sparing_info)<br/>                      | Récupère les propriétés de gestion des défauts du volume. Utilisé pour les systèmes de fichiers UDF.<br/>                                                                                                     |
-| [**\_fichier de rappel FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_recall_file)<br/>                                     | Rappelle un fichier à partir du support de stockage géré par le stockage distant, qui est le logiciel de gestion de stockage hiérarchique.<br/>                                                                    |
+| [**\_fichier de rappel FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_recall_file)<br/>                                     | rappelle un fichier à partir du support de stockage géré par le Stockage à distance, qui est le logiciel de gestion de stockage hiérarchique.<br/>                                                                    |
 | [**\_ \_ OPLOCK batch de demande FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_batch_oplock)<br/>                  | Demande un verrou de traitement opportuniste sur un fichier.<br/>                                                                                                                                           |
 | [**\_ \_ OPLOCK filtre de requête FSCTL \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_filter_oplock)<br/>                | Demande un verrou opportuniste de filtre sur un fichier.<br/>                                                                                                                                          |
 | [**\_OPLOCK Request \_ FSCTL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_request_oplock)<br/>                               | Demande un verrou opportuniste (oplock) sur un fichier et reconnaît qu’une interruption oplock s’est produite.<br/>                                                                                    |

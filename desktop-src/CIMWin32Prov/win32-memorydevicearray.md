@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2226e9adffa917a479078f9fb1fbcddfa4e1f74c3f481a294947dc8f832c4c7e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1e527f77183c3bdc09d464f6fed4808e45adefa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119972999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123965"
 ---
 # <a name="win32_memorydevicearray-class"></a>\_Classe MemoryDeviceArray Win32
 
@@ -84,11 +84,11 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ MemoryDeviceArray** est dérivée [**du \_ composant CIM**](cim-component.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

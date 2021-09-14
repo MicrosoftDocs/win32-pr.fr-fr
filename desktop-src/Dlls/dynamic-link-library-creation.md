@@ -4,12 +4,12 @@ ms.assetid: b66ea0e8-84c3-40be-bf02-765b9dd61f9f
 title: Création de la bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89047e24fe61483b3ac807b59abc114206a00f9df18566b5fb02947268fbd792
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c12d296b1494cfcedcdfa823eb1a3dd4d408427a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119650449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123689"
 ---
 # <a name="dynamic-link-library-creation"></a>Création de la bibliothèque de Dynamic-Link
 

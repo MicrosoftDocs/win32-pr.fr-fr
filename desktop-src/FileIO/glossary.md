@@ -5,12 +5,12 @@ ms.assetid: 44cb060c-e6a6-48d6-bbcf-d8dc1ae8ceb2
 title: Glossaire TxF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e6e296319dc1a9ccd02834fe6144c28d15d61a0fe0c1ec449a07d81f96dbe2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee17e9c53b804995e7ef3491b68e963e9311a37f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119900649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009936"
 ---
 # <a name="txf-glossary"></a>Glossaire TxF
 

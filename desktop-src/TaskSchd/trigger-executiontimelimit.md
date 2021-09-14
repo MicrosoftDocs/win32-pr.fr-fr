@@ -1,5 +1,5 @@
 ---
-title: Trigger.Exepropriété cutionTimeLimit
+title: Propriété Trigger. ExecutionTimeLimit
 description: Pour les scripts, obtient ou définit la durée maximale pendant laquelle la tâche lancée par le déclencheur est autorisée à s’exécuter.
 ms.assetid: 9993b362-f8f7-429b-a16a-1845d6f0f5e0
 keywords:
@@ -17,13 +17,13 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 974a9adebf8ca29fe8626c938c37580d0628771b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233009"
 ---
-# <a name="triggerexecutiontimelimit-property"></a>Trigger.Exepropriété cutionTimeLimit
+# <a name="triggerexecutiontimelimit-property"></a>Propriété Trigger. ExecutionTimeLimit
 
 Pour les scripts, obtient ou définit la durée maximale pendant laquelle la tâche lancée par le déclencheur est autorisée à s’exécuter.
 
@@ -44,14 +44,14 @@ Durée maximale pendant laquelle la tâche lancée par le déclencheur est autor
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, la limite de temps d’exécution est spécifiée dans l’élément [**ExecutionTimeLimit**](taskschedulerschema-executiontimelimit-triggerbasetype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

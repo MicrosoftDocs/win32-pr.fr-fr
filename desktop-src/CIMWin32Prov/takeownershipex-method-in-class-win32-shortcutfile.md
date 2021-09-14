@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a5fc613cf722bd48e68c880f16964b1a695caf8ca6ba8a2b800f5ff5d68e6456
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69988c7995ee295297c92bbabf0ee83059304a94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020337"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010191"
 ---
 # <a name="takeownershipex-method-of-the-win32_shortcutfile-class"></a>Méthode TakeOwnerShipEx de la \_ classe Win32 ShortcutFile
 
@@ -70,7 +70,7 @@ Si la **valeur est true**, la modification de la propriété sera appliquée de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -167,7 +167,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A
 title: Utilisation de la correction gamma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c5f5d3af8550f86280e6203858444469a5aa8caaab462f560da152caaa2a76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c940db1a94fb41e9babecbeb3075aa9e01b3732
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118288962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232661"
 ---
 # <a name="using-gamma-correction"></a>Utilisation de la correction gamma
 

@@ -4,12 +4,12 @@ ms.assetid: baa60cd1-a1f0-4dbe-b934-aeb1a5c6b784
 title: Mémoires tampons d’index (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e44ea8752948b3a6dbf9a32b950be1b5de28bc709abbe3dad89959315ace9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7151fae6deb72a0c569d269c80e5b13bf946f9d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119846609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232692"
 ---
 # <a name="index-buffers-direct3d-9"></a>Mémoires tampons d’index (Direct3D 9)
 

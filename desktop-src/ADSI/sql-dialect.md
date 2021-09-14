@@ -8,12 +8,12 @@ keywords:
 - dialecte ADSI, SQL dialecte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7483a5e3785f410e6c2fd875122ba24618a82b70d1ed6dc9a85105ae4e8dcfa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0b0936a54bc7bd0028717967ce779fe2f2048a33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119262049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124074"
 ---
 # <a name="sql-dialect"></a>SQL Dialecte
 

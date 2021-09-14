@@ -4,12 +4,12 @@ ms.assetid: ae5d83ca-f219-4fcc-ad06-bc242ba95372
 title: Lecture ou écriture dans des fichiers à l’aide d’un schéma de Scatter-Gather
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbc8a7ee9fcae2a54ac31c51a7c038e3d9442a6ccded2fc7dab916c7a6165a68
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5a7db31dd73dd0b498436548a867dd92ff248805
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119914479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009863"
 ---
 # <a name="reading-from-or-writing-to-files-using-a-scatter-gather-scheme"></a>Lecture ou écriture dans des fichiers à l’aide d’un schéma de Scatter-Gather
 

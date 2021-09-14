@@ -4,12 +4,12 @@ ms.assetid: 09e35b46-86a1-44ed-ab6d-207857b2605c
 title: Bibliothèques de Dynamic-Link (bibliothèques de liens dynamiques)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 369091464aad63ea78ea9f24a84fb4eb49eb810a1faff14571fc67e2e39bb0fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8068cd0b8f1d5431c5638a10350d9a1ae7060aad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117815898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123694"
 ---
 # <a name="dynamic-link-libraries-dynamic-link-libraries"></a>Bibliothèques de Dynamic-Link (bibliothèques de liens dynamiques)
 

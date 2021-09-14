@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b9fe5439576322807abea6e10089460eaed4440496ed6a9e0f989dd44bc7e20
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 411bc36dcf03933e2b4cee2f575aaec3b8133846
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120099699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233015"
 ---
 # <a name="triggerenabled-property"></a>Déclencheur. Enabled, propriété
 
@@ -40,11 +40,11 @@ Trigger.Enabled As Boolean
 
 True si le déclencheur est activé ; Sinon, false. La valeur par défaut est true.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, la propriété Enabled est spécifiée à l’aide de l’élément [**Enabled**](taskschedulerschema-enabled-triggerbasetype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

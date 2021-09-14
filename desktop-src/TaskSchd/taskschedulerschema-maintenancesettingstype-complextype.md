@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f0733d16ec929b4e67774fc436c1530b67d70392b2655525b2aaaa642c2ea346
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f261e84fe2af1239cce1bbd377e991ede6e8506
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233064"
 ---
 # <a name="maintenancesettingstype-complex-type"></a>Type complexe maintenanceSettingsType
 
@@ -72,11 +72,11 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 |--------------------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Échéance**](taskschedulerschema-daysinterval-dailyscheduletype-element.md) |         | Spécifie la durée après laquelle le planificateur de tâches tente de démarrer la tâche pendant la maintenance automatique d’urgence, si elle n’a pas pu se terminer pendant une maintenance régulière.<br/> |
 | **Exclusif**                                                                  | boolean | Si la valeur est true, la tâche est démarrée en mode exclusif parmi les autres tâches de maintenance.<br/>                                                                                                 |
-| [**Heures**](taskschedulerschema-daysinterval-dailyscheduletype-element.md)   |         | Spécifie la fréquence à laquelle la tâche doit être démarrée pendant la maintenance automatique.<br/>                                                                                                      |
+| [**Période**](taskschedulerschema-daysinterval-dailyscheduletype-element.md)   |         | Spécifie la fréquence à laquelle la tâche doit être démarrée pendant la maintenance automatique.<br/>                                                                                                      |
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

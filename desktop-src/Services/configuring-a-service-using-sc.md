@@ -1,19 +1,19 @@
 ---
-description: L’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour interroger ou modifier la base de données de services installés. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
+description: l’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour interroger ou modifier la base de données de services installés. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
 ms.assetid: d304922c-86fb-4c62-9bfa-c827df4aecd8
 title: Configuration d’un service à l’aide de SC
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7f65669a3a7daa7e0d02731e6423adfbb3806f11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233141"
 ---
 # <a name="configuring-a-service-using-sc"></a>Configuration d’un service à l’aide de SC
 
-L’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour interroger ou modifier la base de données de services installés. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
+l’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour interroger ou modifier la base de données de services installés. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
 
 ## <a name="syntax"></a>Syntaxe
 

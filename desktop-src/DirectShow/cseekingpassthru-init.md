@@ -1,7 +1,7 @@
 ---
 description: La méthode Init Initialise l’objet.
 ms.assetid: a919adfa-0ffb-4241-b709-ad0e8d55476a
-title: Méthode CSeekingPassThru.Init (Seekpt. h)
+title: CSeekingPassThru. Init, méthode (Seekpt. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 91d20477f83ec79c6ae6095e81810c98454f9c26521eda995c919867b3e3ac12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78176a6966f379240b5b7edd1ef5b73d7fa75b3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010052"
 ---
-# <a name="cseekingpassthruinit-method"></a>Méthode CSeekingPassThru.Init
+# <a name="cseekingpassthruinit-method"></a>CSeekingPassThru. Init, méthode
 
 La `Init` méthode initialise l’objet.
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -73,11 +73,11 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur de *bSupportRendering* est **true**, cette méthode crée une instance de la classe [**CRendererPosPassThru**](crendererpospassthru.md) . Sinon, elle crée une instance de la classe [**CPosPassThru**](cpospassthru.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

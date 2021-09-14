@@ -4,12 +4,12 @@ description: Un contrôle de sélecteur de date et d’heure (PAO) fournit une i
 ms.assetid: 6749c3ae-2c52-4183-ac4e-68ca7ebf1e13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f267d5cc5fdfe3000988ec7696442db736cc30d098b20d9514a098f6a26e42d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 182381c40b636683255e95ba0680a1245ef0adf3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124117"
 ---
 # <a name="about-date-and-time-picker-controls"></a>À propos des contrôles de sélecteur de date et d’heure
 
@@ -58,7 +58,7 @@ Le contrôle PAO met automatiquement à jour les informations internes en foncti
 | Touches de direction     | Le contrôle accepte les touches de direction pour parcourir les champs dans le contrôle et modifier les valeurs. L’utilisateur peut appuyer sur les touches ou pour se déplacer dans le contrôle si l’utilisateur tente de se déplacer au-delà du dernier champ dans une direction donnée, le focus clavier « habille » dans le champ du côté opposé du contrôle. Les clés et modifient de façon incrémentielle les valeurs dans le champ actuel. |
 | Fin et démarrage   | Le contrôle accepte les \_ clés virtuelles VK end et VK \_ Virtual pour remplacer la valeur dans le champ actuel par ses limites supérieure et inférieure, respectivement.                                                                                                                                                                                                                          |
 | Touches de fonction  | La clé active le mode édition. La clé permet au contrôle d’afficher un contrôle de calendrier mensuel déroulant (en appuyant sur le fait également).                                                                                                                                                                                                                                          |
-| Nombres        | Le contrôle accepte une entrée numérique dans des segments à deux caractères. Si la valeur entrée par l’utilisateur n’est pas valide (par exemple, si vous définissez le mois sur 14), le contrôle le rejette et réinitialise l’affichage à la valeur précédente.                                                                                                                                                                |
+| À l’aide de nombres        | Le contrôle accepte une entrée numérique dans des segments à deux caractères. Si la valeur entrée par l’utilisateur n’est pas valide (par exemple, si vous définissez le mois sur 14), le contrôle le rejette et réinitialise l’affichage à la valeur précédente.                                                                                                                                                                |
 | Plus et moins | Le contrôle accepte les \_ touches virtuelles VK Add et VK \_ Subtract du pavé numérique pour incrémenter et décrémenter la valeur dans le champ actuel.                                                                                                                                                                                                                             |
 
 

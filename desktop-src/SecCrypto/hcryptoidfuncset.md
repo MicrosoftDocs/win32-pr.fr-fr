@@ -4,12 +4,12 @@ ms.assetid: 83b76466-dc55-4269-91a3-17c2e6102126
 title: HCRYPTOIDFUNCSET (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3926b78359450b780a9952aeae9d957157ebb56973a7f428824b07cbb43e9a2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 437511de32de97d4fb226d299f224427267381ca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119006467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233327"
 ---
 # <a name="hcryptoidfuncset"></a>HCRYPTOIDFUNCSET
 
@@ -22,7 +22,7 @@ typedef void* HCRYPTOIDFUNCSET;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

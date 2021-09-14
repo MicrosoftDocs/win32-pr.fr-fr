@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: e56bad8b9de85f22836f9446b67340d22e71fe83552da6796e7864d3baddae4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f12de10032df7fec32dd9a577353dd20c0f4eaa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119683359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009870"
 ---
 # <a name="postqueuedcompletionstatus-function"></a>PostQueuedCompletionStatus fonction)
 
@@ -81,7 +81,7 @@ Si la fonction réussit, la valeur de retour est différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro. Pour afficher les informations d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paquet d’achèvement d’e/s répondra à un appel en suspens de la fonction [**GetQueuedCompletionStatus**](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) . Cette fonction retourne avec les trois valeurs passées comme deuxième, troisième et quatrième paramètres de l’appel à **PostQueuedCompletionStatus**. Le système n’utilise pas ou ne valide pas ces valeurs. En particulier, le paramètre *lpOverlapped* n’a pas besoin de pointer vers une structure [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) .
 
@@ -89,7 +89,7 @@ dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 
 
-| Technology                                           | Pris en charge      |
+| Technologie                                           | Prise en charge      |
 |------------------------------------------------------|----------------|
 | Protocole SMB (Server Message Block) 3,0<br/>   | Oui<br/> |
 | Basculement transparent SMB 3,0 (TFO)<br/>        | Oui<br/> |
@@ -103,7 +103,7 @@ dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 CsvFs effectue une redirection des e/s pour les fichiers compressés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

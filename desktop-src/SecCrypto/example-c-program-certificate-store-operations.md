@@ -4,12 +4,12 @@ ms.assetid: cf87791c-b98c-4dd7-b346-336c4b1a88ca
 title: 'Exemple de programme C : opérations du magasin de certificats'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eba6a7634a5d3fbd6f1e4aab04c72d0c6eca0123fb037641f9625bb9900548b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2f20a56fd04eb79b1ebe2359e3c915d9aad60fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117765530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123198"
 ---
 # <a name="example-c-program-certificate-store-operations"></a>Exemple de programme C : opérations du magasin de certificats
 

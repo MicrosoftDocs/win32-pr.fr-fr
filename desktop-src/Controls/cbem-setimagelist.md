@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbd83336d27bf8e47900554a6f3c36d2d767e5e8ddd4b8680b50050d87da79bc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 33816abe36e2d1e1593e6365061a500d072c155b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119699259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123885"
 ---
 # <a name="cbem_setimagelist-message"></a>\_Message CBEM SETIMAGELIST
 
@@ -39,18 +39,18 @@ Handle de la liste d’images à définir pour le contrôle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de la liste d’images précédemment associée au contrôle, ou retourne la **valeur null** si aucune liste d’images n’a été définie précédemment.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!IMPORTANT]
 > La hauteur des images de votre liste d’images peut modifier les exigences de taille du contrôle ComboBoxEx. Il est recommandé de redimensionner le contrôle après l’envoi de ce message pour vous assurer qu’il s’affiche correctement.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63626804ad4d067e5067170e0fc17cc83c179a906c0e625bb02a3ffb8a4ef197
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 264997448aea028c5725d207ce4b301d369a092c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010010"
 ---
 # <a name="csystemclockcreateinstance-method"></a>CSystemClock. CreateInstance, méthode
 
@@ -57,15 +57,15 @@ Pointeur vers une variable qui reçoit une valeur **HRESULT** indiquant la réus
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers une nouvelle instance de cet objet.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fabrique de classe appelle cette méthode pour créer l’objet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

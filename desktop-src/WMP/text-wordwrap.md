@@ -3,7 +3,7 @@ title: TEXT. wordWrap
 description: L’attribut wordWrap spécifie ou récupère une valeur indiquant si le retour automatique à la ligne est activé ou désactivé.
 ms.assetid: 3bb127d8-42f1-4167-986a-d41690cb5647
 keywords:
-- TEXT. wordWrap lecteur Windows Media
+- TEXT. wordWrap Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ff2b4d030a7e9efdda1bc7503ae3bf8eb5985401
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533430"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232890"
 ---
 # <a name="textwordwrap"></a>TEXT. wordWrap
 
@@ -48,7 +48,7 @@ Le contrôle Text ne sépare pas les mots. Si un mot dépasse la largeur du cont
 
 Si l’attribut **Width** n’est pas spécifié, **wordWrap** est ignorée et le contrôle Text est redimensionné au lieu d’habiller le texte.
 
-Si des sauts de ligne sont souhaités dans des emplacements particuliers, ils doivent être spécifiés explicitement dans la **valeur** à l’aide de « &\# 13 ; » ou « \\ r ». Si la dernière forme est utilisée lors de la spécification directe de la valeur, la chaîne doit être précédée de « JScript : » et la valeur réelle doit être entourée de guillemets simples, comme indiqué ci-dessous. Cela n’est pas nécessaire si la valeur est définie dynamiquement à partir d’un gestionnaire d’événements.
+Si des sauts de ligne sont souhaités dans des emplacements particuliers, ils doivent être spécifiés explicitement dans la **valeur** à l’aide de « &\# 13 ; » ou « \\ r ». si cette dernière forme est utilisée lors de la spécification directe de la valeur, la chaîne doit être précédée de « JScript : » et la valeur réelle doit être entourée de guillemets simples, comme indiqué ci-dessous. Cela n’est pas nécessaire si la valeur est définie dynamiquement à partir d’un gestionnaire d’événements.
 
 Si **wordWrap** a la valeur true et que l' **info-bulle** n’est pas spécifiée, l’info-bulle affiche le texte complet de l’attribut **value** . Si aucune info-bulle n’est souhaitée, affectez la valeur "" (chaîne vide) à l' **info-bulle** .
 
@@ -82,7 +82,7 @@ Si **wordWrap** a la valeur true et que l' **info-bulle** n’est pas spécifié
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

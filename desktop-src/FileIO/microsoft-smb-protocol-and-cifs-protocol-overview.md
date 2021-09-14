@@ -4,12 +4,12 @@ ms.assetid: 641017fa-3721-40aa-b13c-e26c8b61ce5c
 title: Vue d’ensemble du protocole SMB Microsoft et du protocole CIFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09702c719d4e4c5225b35691d7e23980c90c959b7096d7995f3d60b3ef0b204b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30326221694ce843733f6da7a6ad49c8dff336ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118951148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009915"
 ---
 # <a name="microsoft-smb-protocol-and-cifs-protocol-overview"></a>Vue d’ensemble du protocole SMB Microsoft et du protocole CIFS
 

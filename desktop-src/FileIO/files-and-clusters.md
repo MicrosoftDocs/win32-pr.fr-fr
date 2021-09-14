@@ -4,12 +4,12 @@ ms.assetid: 271bad79-c23b-45ee-938c-d17dae89db1a
 title: Fichiers et clusters
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac1d5a4d6862aebf318e4aed58b940e802b1f67259aaf14c852c4eeed0cc7068
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75384900d5d487ab02bd19c13cc2c25e9a310b3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015311"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009945"
 ---
 # <a name="files-and-clusters"></a>Fichiers et clusters
 

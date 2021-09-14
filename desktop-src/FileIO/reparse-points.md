@@ -4,12 +4,12 @@ ms.assetid: 3abb3a08-9a00-43eb-9792-82eab1a25f06
 title: Points d'analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d129036f954533134656afd02591eba68e3ecd9498de5aceea4b33fd750e786
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21ad17af8993da500154dd88690420a563886f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009860"
 ---
 # <a name="reparse-points"></a>Points d'analyse
 

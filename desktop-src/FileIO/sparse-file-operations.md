@@ -4,12 +4,12 @@ ms.assetid: a08f6bbc-c139-4396-8964-4aa63285f3f5
 title: Opérations sur les fichiers partiellement alloués
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9835d550a414c047e578eb90fc9b55afbefb760d31d8333a290f00da7162f839
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c23d26fc1c52db32ca7674aec2fc487a826e9a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009845"
 ---
 # <a name="sparse-file-operations"></a>Opérations sur les fichiers partiellement alloués
 

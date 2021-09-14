@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c59186ed06b1669ead0727c618f01bcb937ff5f6e32454f6e7a1678499803cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46fb388c2740e709e75579c01d216af677a826c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232854"
 ---
 # <a name="iwmpnetworkgetproxyport-method"></a>IWMPNetwork :: getProxyPort, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPNetwork.getProxyPort
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Int32** qui est le port proxy utilisé. La valeur est significative uniquement lorsque **IWMPNetwork. getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -129,7 +129,7 @@ proxyPortText.Lines = proxyPorts
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

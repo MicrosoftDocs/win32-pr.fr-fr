@@ -3,7 +3,7 @@ title: Message CB_SETCURSEL (winuser. h)
 description: Une application envoie un \_ message CB SETCURSEL pour sélectionner une chaîne dans la liste d’une zone de liste déroulante.
 ms.assetid: d4ce3811-6e0a-4952-97cf-ba6efde0de0d
 keywords:
-- CB_SETCURSEL les contrôles de message Windows
+- CB_SETCURSEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5bd130204e6dc8bb4166c21bc9c4d52950182c5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032843"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124122"
 ---
 # <a name="cb_setcursel-message"></a>\_Message SETCURSEL CB
 
@@ -43,18 +43,18 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est réussi, la valeur de retour est l’index de l’élément sélectionné. Si *wParam* est supérieur au nombre d’éléments dans la liste ou si *wParam* a la valeur-1, la valeur de retour est CB \_ Err et la sélection est désactivée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

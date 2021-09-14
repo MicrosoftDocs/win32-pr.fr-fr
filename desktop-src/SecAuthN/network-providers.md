@@ -4,12 +4,12 @@ ms.assetid: ebd47c1b-f427-4fa1-a2ec-1e73be297bef
 title: Fournisseurs de réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5443ec7366b0f7ad74037f868e1ca4a93dbd913d0c13fda46c7b9fdabd0e0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30e3cc231f461d48e7ce71d908cb92f6cd06eabd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117786597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123370"
 ---
 # <a name="network-providers"></a>Fournisseurs de réseau
 

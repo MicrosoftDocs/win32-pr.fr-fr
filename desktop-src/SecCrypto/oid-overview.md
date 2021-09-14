@@ -5,11 +5,11 @@ title: Vue d’ensemble des OID
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9cc371d18bd144ac68c7bc95d7b3ef71140b2e1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866966"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123106"
 ---
 # <a name="oid-overview"></a>Vue d’ensemble des OID
 

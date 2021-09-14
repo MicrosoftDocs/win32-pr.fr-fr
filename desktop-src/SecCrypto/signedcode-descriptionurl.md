@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 628d176595031f2b87b9fcb5f58ff81838d49be8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123065"
 ---
 # <a name="signedcodedescriptionurl-property"></a>SignedCode. DescriptionURL, propriété
 
@@ -43,13 +43,13 @@ URL d’une description du fichier exécutable signé.
 
 **DescriptionURL** est l’URL vers laquelle la [**Description**](signedcode-description.md) qui apparaît dans la boîte de dialogue vérification Authenticode est liée. Si cette propriété a la **valeur null**, la **Description** ne fonctionne pas comme un lien.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

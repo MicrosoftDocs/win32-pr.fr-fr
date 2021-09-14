@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d81ee1c29f1c9e2cc9927f926144a7427b5e94f72406f94ce65f7d4a20e2ab32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 000da3ee359ad727e3af972fc4aa6d0dbbb9133e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010137"
 ---
 # <a name="cbaseallocatorsetproperties-method"></a>CBaseAllocator. SetProperties, méthode
 
@@ -57,7 +57,7 @@ Pointeur vers une structure de **\_ Propriétés Allocator** qui reçoit les pro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -75,7 +75,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode spécifie les spécifications de mémoire tampon, mais n’alloue pas de mémoire tampon. Appelez la méthode [**CBaseAllocator :: Commit**](cbaseallocator-commit.md) pour allouer des tampons.
 
@@ -83,7 +83,7 @@ L’appelant alloue deux structures de propriétés d’allocateur \_ . Le param
 
 L’allocateur ne doit pas être validé et ne doit pas avoir de tampons en suspens. Dans la classe de base, l’alignement doit être égal à 1. La classe [**CMemAllocator**](cmemallocator.md) remplace cette exigence.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

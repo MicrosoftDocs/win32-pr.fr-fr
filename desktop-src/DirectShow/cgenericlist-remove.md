@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 40b00d0772f391978fa6e581623446c67c2f37deabb1737e2602d7da7382fbaf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d5fc3d0cd76cd78c83fa210d8b91ba97b93b92f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119317759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010101"
 ---
 # <a name="cgenericlistremove-method"></a>CGenericList. Remove, méthode
 
@@ -49,17 +49,17 @@ Valeur de POSITION indiquant l’élément à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers un objet de type **Object** (le type de modèle).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode supprime le nœud de la liste, mais ne supprime pas l’élément contenu dans ce nœud.
 
 Si *pos* a la **valeur null**, la méthode retourne la **valeur null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

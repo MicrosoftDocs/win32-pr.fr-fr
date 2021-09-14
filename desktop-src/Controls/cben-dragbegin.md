@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 626ad4d6abbcaaeb6f647aa94657ee1a681801a3ce13a9b5539216b1b67565a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 910e6ac494b49f685a55e77b432e96b4fb22bd29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118414059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123873"
 ---
 # <a name="cben_dragbegin-notification-code"></a>\_Code de notification CBEN DRAGBEGIN
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMCBEDRAGBEGIN**](/windows/desktop/api/Commctrl/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’application réceptrice implémente la fonctionnalité de glisser-déplacer à partir du contrôle, l’application commence l’opération de glisser-déplacer en réponse à ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

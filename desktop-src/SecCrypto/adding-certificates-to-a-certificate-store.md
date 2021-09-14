@@ -4,12 +4,12 @@ ms.assetid: a1cb6e1e-0702-4f73-827e-3f9e9237b4b6
 title: Ajout de certificats à un magasin de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e3c4b2fafbcd11bf2d984dfd5b5a575f67dc4f6d3c70337de399ca6076029ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6f4c018be697f48e40d52480f49694762fb956f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117774034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123277"
 ---
 # <a name="adding-certificates-to-a-certificate-store"></a>Ajout de certificats à un magasin de certificats
 

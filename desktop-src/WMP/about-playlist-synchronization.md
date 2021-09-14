@@ -17,12 +17,12 @@ keywords:
 - sélections de métafichiers, synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe54bef188fea2baee64da962dabf4eb8f700b72407772d591d73f52be2d4289
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ecc019b31518fda1a49c8d3ae86f2d03c4ecefc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127232956"
 ---
 # <a name="about-playlist-synchronization"></a>À propos de la synchronisation des sélections
 

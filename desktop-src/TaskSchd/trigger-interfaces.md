@@ -7,12 +7,12 @@ keywords:
 - déclencheurs Planificateur de tâches, interfaces, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5515f2b1e2f5b4a7694dec28bb8831c690da0d303cda53338714c1b0e03ddaa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5357bb745b43c51707d9571c7582a44c9225a7fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002183"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233003"
 ---
 # <a name="trigger-interfaces"></a>Interfaces de déclencheur
 

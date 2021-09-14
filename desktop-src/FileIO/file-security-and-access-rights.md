@@ -4,12 +4,12 @@ ms.assetid: 991d7d94-fae7-406f-b2e3-dee811279366
 title: Sécurité des fichiers et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2f33df8117debef1d7f8349ae2fb479974e59ec582d7be758a753726706b9b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b161dd78c7585cf6de2781d7339787a22bde95dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119696249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009947"
 ---
 # <a name="file-security-and-access-rights"></a>Sécurité des fichiers et droits d’accès
 

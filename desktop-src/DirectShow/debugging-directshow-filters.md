@@ -4,12 +4,12 @@ ms.assetid: 40b4f2ab-e629-41a0-b979-d74ac5fe83a2
 title: filtres de DirectShow de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e54532b68df09b78b3b03aa95d7dda5c84cdf7d770cffd131e47228e6d88cba2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1198e17f438d57775ea0f74d5920f63dc4761743
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010008"
 ---
 # <a name="debugging-directshow-filters"></a>filtres de DirectShow de débogage
 

@@ -4,12 +4,12 @@ ms.assetid: f48f0458-6e27-4ef4-8bf2-949b41d414a2
 title: Messages numériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab51bc670416f6a06703f96ba69be589fd4a7ed74f6ea84ee4e5d4e6f7ea2645
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f71ed0018eb1538f3acbc4ac21cd5665a47f1cf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117767335"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233370"
 ---
 # <a name="digital-messages"></a>Messages numériques
 

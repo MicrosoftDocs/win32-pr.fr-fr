@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1b9e5e4e97a3a010523f61cc9efedf224d8dfc7fa373c9514b6d38dc0105d2d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93c0f687daf65e91443f4f59896d641b9b0cfd43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120103209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123789"
 ---
 # <a name="cbaseinputpinbeginflush-method"></a>Méthode CBaseInputPin. BeginFlush
 
@@ -40,11 +40,11 @@ HRESULT BeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode affecte à l’indicateur [**CBaseInputPin :: m \_ BFlushing**](cbaseinputpin-m-bflushing.md) la **valeur true**, ce qui amène la méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) à rejeter tout autre échantillon.
 
@@ -55,7 +55,7 @@ La classe dérivée doit substituer cette méthode et effectuer les étapes suiv
 3.  Début de la suppression des données en file d’attente.
 4.  Retour de tous les appels bloqués à la méthode **Receive** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

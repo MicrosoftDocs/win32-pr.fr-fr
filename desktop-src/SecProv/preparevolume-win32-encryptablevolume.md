@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 67b36703883825d4144037c54ffb55c00308ed1cfb8ee3e4b074d75d63bf7390
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 918e4289f8f2c38af2a4a51bfe92f82a74b30b22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891545"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123046"
 ---
 # <a name="preparevolume-method-of-the-win32_encryptablevolume-class"></a>Méthode PrepareVolume de la \_ classe Win32 EncryptableVolume
 
@@ -67,7 +67,7 @@ Entier qui spécifie le type de chiffrement. Il peut s’agir de l’une des val
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -77,11 +77,11 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 |------------------------|---------------------------------|
 | **S_OK** <br/> 0 (0x0) | La méthode a réussi.<br/> |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous n’appelez pas cette méthode lors de l’activation d’un volume BitLocker, elle revient à appeler cette méthode avec la valeur par défaut dans le paramètre *DiscoveryVolumeType* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|

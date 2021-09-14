@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 674528b6da53b7835e437afac9a0564f91785b2f9a13f132e87a6763b80881c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92cba22e128a76f7884050d74a7819142c696dc9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010133"
 ---
 # <a name="cbaseallocatorsetwaiting-method"></a>Méthode CBaseAllocator. SetWaiting
 
@@ -40,15 +40,15 @@ void SetWaiting();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode incrémente la variable membre [**CBaseAllocator :: m \_ lWaiting**](cbaseallocator-m-lwaiting.md) . Si un thread est bloqué dans la méthode [**CBaseAllocator :: GetBuffer**](cbaseallocator-getbuffer.md) , l’allocateur appelle, `SetWaiting` puis attend que le sémaphore [**CBaseAllocator :: m \_ hSem**](cbaseallocator-m-hsem.md) soit signalé. La méthode [**CBaseAllocator :: ReleaseBuffer**](cbaseallocator-releasebuffer.md) signale le sémaphore et définit la valeur de *m \_ lWaiting* sur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

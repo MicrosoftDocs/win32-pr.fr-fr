@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f0fb6f5eaff5101f3cc1f5c4aeb2245335e4f65b27d2fafb364df2d05618ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a8403b93e1c5292ade9f6f402b7e41994339140
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119771979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233016"
 ---
 # <a name="timetrigger-object"></a>Objet TimeTrigger
 
@@ -48,13 +48,13 @@ L’objet **timetrigger** a ces propriétés.
 | [**RandomDelay**](dailytrigger-randomdelay.md)<br/>          | Lecture/écriture<br/> | Obtient ou définit un délai qui est ajouté de manière aléatoire à l’heure de début du déclencheur.<br/>                                                                                    |
 | [**Répétition**](trigger-repetition.md)<br/>                 | Lecture/écriture<br/> | Héritée du [**déclencheur**](trigger.md). Obtient ou définit la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/>          |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Lecture/écriture<br/> | Héritée du [**déclencheur**](trigger.md). Obtient ou définit la date et l’heure d’activation du déclencheur. Cet élément est obligatoire.<br/>                                    |
-| [**Type**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                            | Lecture seule<br/>  | Héritée du [**déclencheur**](trigger.md). Obtient le type du déclencheur.<br/>                                                                                              |
+| [**Entrer**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                            | Lecture seule<br/>  | Héritée du [**déclencheur**](trigger.md). Obtient le type du déclencheur.<br/>                                                                                              |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément [**StartBoundary**](taskschedulerschema-startboundary-triggerbasetype-element.md) est un élément requis pour les déclencheurs de temps et de calendrier ([**timetrigger**](taskschedulerschema-timetrigger-triggergroup-element.md) et [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md)).
 
@@ -64,7 +64,7 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, un décl
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclenchement temporel (script)](time-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

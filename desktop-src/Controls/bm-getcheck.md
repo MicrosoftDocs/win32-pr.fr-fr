@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5eb87d98752bd0cd447d48c648bc4a55e93c3f8eb418a81a07e04113a86633a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f1aa89dc256ea9e0036259239d1c74e1e82b272
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123957"
 ---
 # <a name="bm_getcheck-message"></a>\_Message GETCHECK BM
 
@@ -43,7 +43,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur renvoyée par un bouton créé à l’aide de la fonction [**BS \_ autocase**](button-styles.md), [**BS \_ RadioButton**](button-styles.md), [**BS \_ AUTO3STATE**](button-styles.md), [**BS \_ case**](button-styles.md), [**BS \_ RadioButton**](button-styles.md)ou [**BS \_ 3STATE**](button-styles.md) style peut être l’une des suivantes.
 
@@ -59,11 +59,11 @@ La valeur renvoyée par un bouton créé à l’aide de la fonction [**BS \_ aut
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le style du bouton est différent de ceux indiqués dans la liste, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

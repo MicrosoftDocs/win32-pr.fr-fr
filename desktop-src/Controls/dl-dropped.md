@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c245cbb85a4e67845bd86a25b4cccb2f2aa0dc1d9d9613afd1d685037c5e1ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1b2480360ea38a00c4dd8efe6eb84eed8999890
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120002719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124090"
 ---
 # <a name="dl_dropped-notification-code"></a>Code de notification de DL \_ supprimé
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**DRAGLISTINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce code de notification est normalement traité en insérant l’élément déplacé dans la liste devant l’élément sous le curseur. Pour récupérer l’index de l’élément à la position du curseur, utilisez la fonction [**LBItemFromPt**](/windows/desktop/api/Commctrl/nf-commctrl-lbitemfrompt) . Notez que le code de notification de la liste de distribution \_ supprimée est envoyé même si le curseur ne se trouve pas sur un élément de liste. Dans ce cas, **LBItemFromPt** retourne-1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

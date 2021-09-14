@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 42d3c211ca196d84de507e450057c787825667cd59f7fc90c6cec2d990b1c284
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 07b824c9951f2b90a01c87cdf3ee939ad510cd8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119812899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010027"
 ---
 # <a name="csourcem_pastreams-member"></a>CSource :: m \_ paStreams, membre
 
@@ -36,7 +36,7 @@ CSourceStream **m_paStreams;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

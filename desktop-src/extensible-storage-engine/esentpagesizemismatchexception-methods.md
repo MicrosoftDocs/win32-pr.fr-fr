@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102506
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2a2333b1a55a76a638589ac0ec0fd89755b7ead1b082e71110dd7471b37e67a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a7f79a760be0572930d84b64ed7edde1ad73636
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118492206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010269"
 ---
 # <a name="esentpagesizemismatchexception-methods"></a>Méthodes EsentPageSizeMismatchException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentPageSizeMismatchException, classe](./esentpagesizemismatchexception-class.md)
 

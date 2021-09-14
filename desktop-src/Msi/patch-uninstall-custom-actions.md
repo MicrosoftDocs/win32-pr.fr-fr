@@ -4,12 +4,12 @@ ms.assetid: c741aa40-ba4c-459e-936a-19c002620c30
 title: Actions personnalisées de désinstallation des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f69077337b80177984ff43f12038edb1daa48215f92c627f4ed22ea2f69c876b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b90cfffbdb37f1f2fab046b794010a790e9a5212
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145422"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123618"
 ---
 # <a name="patch-uninstall-custom-actions"></a>Actions personnalisées de désinstallation des correctifs
 

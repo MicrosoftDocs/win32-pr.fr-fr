@@ -4,12 +4,12 @@ description: à partir de la Windows 8, DirectWrite a un certain nombre de nouve
 ms.assetid: F40A79AE-F7BF-4CAC-9480-1489CD212DA8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aa5e6626ae77e610c38bfb90def7cfe068db80f7f300f58a734969fb107a46a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0db8788a6be97a55911694942a930e17dc69976a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119632543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009967"
 ---
 # <a name="vertical-text"></a>Texte vertical
 

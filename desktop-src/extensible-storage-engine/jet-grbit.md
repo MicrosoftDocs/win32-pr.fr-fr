@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 7aa3a0331244aa1f5dd07794204d5a94d57aeadb
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010235"
 ---
 # <a name="jet_grbit"></a>JET_GRBIT
 
@@ -43,11 +43,11 @@ En général, les constantes utilisées comme valeurs pour ce type de données r
 
 La valeur zéro provoque l’ignorance du paramètre.
 
-### <a name="remarks"></a>Remarques
+### <a name="remarks"></a>Notes
 
 Pour plus d’informations, consultez la fonction ou la structure spécifique. Les options sont généralement transmises sous la forme d’un ensemble d’indicateurs qui peuvent être combinés.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

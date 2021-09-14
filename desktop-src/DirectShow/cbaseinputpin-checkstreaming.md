@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de22d8a6fc634ffbb16ac111de1ad20dc0638660c5091c835a44f256d9ed1d4b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba07d28ac93f7dc511390a851d3c737a833ef3f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120076619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123778"
 ---
 # <a name="cbaseinputpincheckstreaming-method"></a>Méthode CBaseInputPin. CheckStreaming
 
@@ -40,7 +40,7 @@ virtual HRESULT CheckStreaming();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,13 +57,13 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe dérivée peut substituer cette méthode pour effectuer des vérifications supplémentaires. Dans la méthode de substitution, appelez également l’implémentation de la classe de base.
 
 La méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) appelle cette méthode. Vous devez substituer la méthode [**CBasePin :: EndOfStream**](cbasepin-endofstream.md) pour appeler également cette méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

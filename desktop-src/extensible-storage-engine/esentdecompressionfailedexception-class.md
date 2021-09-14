@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4b045d11309ccb067990e98a5b7f75783fb5a0507fb435fdfcdcc77ec6cb8f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 185f224883e3e2850e4a94c53c49d19a165528ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117711710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010287"
 ---
 # <a name="esentdecompressionfailedexception-class"></a>EsentDecompressionFailedException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentDecompressionFailedException](./esentdecompressionfailedexception-members.md)
 

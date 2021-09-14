@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a67fbeed1cd7f5627ad1ab7471ace0e5af71ccb84d1119168e9c2298f450e2f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 928a809211288eb7f024c735ce033b819e5d49f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124283"
 ---
 # <a name="settcpuserfc1122urgentpointer-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpUseRFC1122UrgentPointer de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, TCP utilise la spécification RFC 1122. Si la **valeu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les RFC 1122 et BSD interprètent le pointeur urgent dans l’en-tête TCP et la longueur des données urgentes différemment. Ils ne sont pas interopérables. La valeur par défaut est le mode BSD.
 
@@ -412,7 +412,7 @@ Les RFC 1122 et BSD interprètent le pointeur urgent dans l’en-tête TCP et la
 
 L’exemple VBScript [modifier l’utilisation du pointeur urgent pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/0ff22a90-0be6-4914-8db7-aaf72cbea9cb) configure un ordinateur pour utiliser la spécification RFC 1122 pour les données urgentes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

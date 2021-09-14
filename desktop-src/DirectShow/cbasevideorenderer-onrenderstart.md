@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 78c82b00b8b719b03d096ac0f83e43c8471ea98d56eab7bf67d28b0adae852f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7327d25aafa6f6673b7ed70b658f675a9dab8f4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123754"
 ---
 # <a name="cbasevideorendereronrenderstart-method"></a>Méthode CBaseVideoRenderer. OnRenderStart
 
@@ -49,17 +49,17 @@ Pointeur vers l’exemple de média.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre récupère le temps horloge actuel du système et le stocke dans une variable membre à utiliser lorsque le dessin est terminé. La fonction effectue également la journalisation des performances. Cette fonction membre doit être appelée juste avant le début du dessin.
 
 Cette fonction membre substitue [**CBaseRenderer :: OnRenderStart**](cbaserenderer-onrenderstart.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

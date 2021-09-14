@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5ca52cbc68c834d5216920334763d4de5c982702b8cc562db88ceed7b6de0f12
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ce6a1491fd9e414f503d0165216794c67db0e97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124034"
 ---
 # <a name="setkeepaliveinterval-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetKeepAliveInterval de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Valeur, en millisecondes, de l’intervalle qui sépare les retransmissions Keep
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après la réception d’une réponse, le délai jusqu’à ce que la transmission Keep Alive suivante soit de nouveau contrôlé par la valeur de la propriété [**keepAliveTime**](win32-networkadapterconfiguration.md) . La connexion est terminée une fois que le nombre de retransmissions spécifié par la propriété **TcpMaxDataRetransmissions** n’a pas répondu.
 
@@ -412,7 +412,7 @@ Après la réception d’une réponse, le délai jusqu’à ce que la transmissi
 
 L’exemple de [modification de l’intervalle de maintien de la connexion pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/f6d4a0e7-5b59-42e3-888d-82a028e2bf35) configure l’intervalle de maintien de l’activité pour toutes les cartes réseau d’un ordinateur à 300 millisecondes (5 minutes).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

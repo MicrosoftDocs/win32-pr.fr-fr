@@ -4,12 +4,12 @@ description: Cette rubrique décrit les classes, les parties et les États pris 
 ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 437ef4a4b032e4f1b5824d94f0ba924ca82745d0b7ea413044b87267ea1f891b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a484e11d04c7e935083ee85fadd9466b8f57dd4f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010172"
 ---
 # <a name="aero-style-classes-parts-and-states"></a>Classes, parties et États de style Aero
 
@@ -68,7 +68,7 @@ Cette rubrique décrit les classes, les parties et les États pris en charge par
 | En-tête         | HP \_ HEADERDROPDOWN          |                                                                                            |
 |                | HP \_ HEADERDROPDOWNFILTER    |                                                                                            |
 |                | HP \_ HEADERITEM              |                                                                                            |
-| Affichage de liste       | LVP \_ GROUPHEADER            |                                                                                            |
+| ListView       | LVP \_ GROUPHEADER            |                                                                                            |
 | Menu           | MENU \_ BARBACKGROUND         |                                                                                            |
 |                | MENU \_ POPUPBACKGROUND       |                                                                                            |
 |                | MENU \_ POPUPGUTTER           |                                                                                            |

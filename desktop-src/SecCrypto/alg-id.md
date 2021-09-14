@@ -5,11 +5,11 @@ title: ALG_ID (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 82f4b6c476a8ea6e61785a096abf33c357d9b024
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482395"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123258"
 ---
 # <a name="alg_id"></a>ALG_ID
 
@@ -95,7 +95,7 @@ Pour les [fournisseurs de services de chiffrement DSS et Diffie-Hellman de base 
 -   **CALG_DH_SF** est utilisé pour les **AT_KEYEXCHANGE**.
 -   **CALG_DSS_SIGN** est utilisé pour les **AT_SIGNATURE**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

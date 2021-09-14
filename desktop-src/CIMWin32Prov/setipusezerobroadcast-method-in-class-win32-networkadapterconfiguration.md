@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 19fc62179337236edbac2d5136cbcbff8152b46292ae666ae2836fd4b3c8d2d3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 564f122242407f4d6f5dd28da9fd4d151ab6b47f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124037"
 ---
 # <a name="setipusezerobroadcast-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetIPUseZeroBroadcast de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, la diffusion de zéro IP est utilisée. La valeur par
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre *IPUseZeroBroadcast* est défini sur **true**, l’adresse IP utilise des diffusions sans diffusion (0.0.0.0) au lieu de diffusions unidirectionnelles (255.255.255.255). La plupart des systèmes utilisent une seule diffusion, mais les systèmes dérivés des implémentations BSD utilisent des diffusions sans diffusion. Les systèmes qui utilisent des diffusions différentes n’interagissent pas sur le même réseau.
 
@@ -412,7 +412,7 @@ Si le paramètre *IPUseZeroBroadcast* est défini sur **true**, l’adresse IP u
 
 L’exemple VBScript [modifier Zero-Broadcast utiliser pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/3d1ec74a-bf96-41cf-bb90-f98cd6494fb3) configure un ordinateur pour qu’il utilise des diffusions sans diffusion (0.0.0.0) au lieu d’une diffusion (255.255.255.255).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

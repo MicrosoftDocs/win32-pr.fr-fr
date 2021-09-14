@@ -4,12 +4,12 @@ ms.assetid: 5e7ee1f4-7e07-4a08-8e72-89b449804bc2
 title: Modules de sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38ba8d821900ece1a4ce3eb3fcb2cc805d87274b451a3d5c8948d1e86ebf3547
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5fc0668717c4a7a690cce8a03ff8c140333347b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140752"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123162"
 ---
 # <a name="exit-modules"></a>Modules de sortie
 

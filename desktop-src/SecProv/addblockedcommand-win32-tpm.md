@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: c2ea7c975b1e3bb14fa2a2b826a8a64108a4b4b6dae3ac36c9340d2bb34ed3f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8f7d01369d14578cfb88467bfc428a7051bcbf8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233273"
 ---
 # <a name="addblockedcommand-method-of-the-win32_tpm-class"></a>Méthode AddBlockedCommand de la \_ classe TPM Win32
 
@@ -187,7 +187,7 @@ Valeur entière qui spécifie une commande TPM. Si le module de plateforme sécu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -209,7 +209,7 @@ Les codes de retour courants sont répertoriés ci-dessous.
 
 Les modifications apportées à la liste par défaut des commandes bloquées peuvent exposer votre ordinateur à des risques en matière de sécurité et de confidentialité.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Stratégie de groupe pouvez substituer l’effet de la méthode **AddBlockedCommand** . Un administrateur peut configurer stratégie de groupe pour ignorer la liste locale des commandes bloquées.
 
@@ -217,7 +217,7 @@ Si une valeur indiquée par *CommandOrdinal* figure déjà dans la liste locale 
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

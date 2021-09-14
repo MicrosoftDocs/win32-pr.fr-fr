@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: efaf4d0d9312e929fa79d689490bd9e5b6a3e164dfdecafaf7cd9fe87b16990d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 315eea9fa207a92c3aa1add6fe021127dc3949d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080813"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124046"
 ---
 # <a name="cim_controlledby-class-cimwin32-wmi-providers"></a>CIM_ControlledBy, classe (fournisseurs WMI CIMWin32)
 
@@ -199,7 +199,7 @@ Nombre de réinitialisations logicielles émises par le contrôleur. Une réinit
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ ControlledBy** est dérivée de [**CIM \_ DeviceConnection**](cim-deviceconnection.md).
 
@@ -207,7 +207,7 @@ WMI n’implémente pas cette classe. Pour plus d’informations sur les classes
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

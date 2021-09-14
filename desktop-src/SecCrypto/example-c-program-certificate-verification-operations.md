@@ -4,12 +4,12 @@ ms.assetid: 1c26509d-5bb6-42dc-aeb0-525d7eaecf7d
 title: 'Exemple de programme C : opérations de vérification de certificat'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a50b8e9f89d761498eba87964dfb6e38f3d27c09d940c9cddda35682a944c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1efdbaaea172b24448ad2b15b03ee19c6dc7a445
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123193"
 ---
 # <a name="example-c-program-certificate-verification-operations"></a>Exemple de programme C : opérations de vérification de certificat
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dcbd504955b6ae772ffb3db7bc4cc0223215d6d9ecf880fe7d7e3aa359c992ce
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfc5eb707b4016a592ad339223e0f32ab21d4a29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119878289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124078"
 ---
 # <a name="drawtextwrap-function"></a>DrawTextWrap fonction)
 
@@ -103,7 +103,7 @@ Pointeur vers une structure [**DRAWTEXTPARAMS**](/windows/win32/api/winuser/ns-w
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **int**
 
@@ -119,7 +119,7 @@ Pour obtenir des informations détaillées sur l’erreur, appelez [**GetLastErr
 
 Pour des remarques supplémentaires, consultez [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

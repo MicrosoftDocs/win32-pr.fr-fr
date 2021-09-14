@@ -4,12 +4,12 @@ ms.assetid: 14ecb06c-3f80-47b8-9964-6a2c3b572300
 title: Lecture et écriture dans des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b88de3510a681839a9592bed4755de6249f79db117d94985ddb00320381b92c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ffd0e6518ce2430e18bbb11033023ee6dc274573
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119533319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009867"
 ---
 # <a name="reading-from-and-writing-to-files"></a>Lecture et écriture dans des fichiers
 

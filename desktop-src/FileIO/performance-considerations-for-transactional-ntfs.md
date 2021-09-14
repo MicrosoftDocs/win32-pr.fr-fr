@@ -5,11 +5,11 @@ title: Considérations relatives aux performances pour le NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3a71f7e100e1ddd8524932a4a259a12092bddcb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952642"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009875"
 ---
 # <a name="performance-considerations-for-transactional-ntfs"></a>Considérations relatives aux performances pour le NTFS transactionnel
 
@@ -33,7 +33,7 @@ Les conclusions résumées concernant les performances qui peuvent être extrait
 -   Le coût des performances de TxF pour les transactions impliquant des remplacements de fichiers peut être significatif.
 -   Le coût des performances de TxF pour les transactions impliquant uniquement des opérations de métadonnées peut être relativement faible, à condition que des transactions volumineuses soient utilisées. Une transaction importante est lorsqu’il existe de nombreux enregistrements d’annulation pour chaque enregistrement de validation.
 
-## <a name="recommendations-for-best-performance"></a>Recommandations pour des performances optimales
+## <a name="recommendations-for-best-performance"></a>Recommandations Pour des performances optimales
 
 Amortir la surcharge TxF sur des transactions plus volumineuses. Par exemple, si vous avez *n* ensembles de modifications à faire lorsque chaque modification comporte *m* étapes et que vous avez la possibilité de le faire comme *n* transactions de *m* étapes, chacune d’entre elles, ou de la faire comme une seule transaction avec *m* \* *N* étapes, cette dernière option est plus efficace.
 

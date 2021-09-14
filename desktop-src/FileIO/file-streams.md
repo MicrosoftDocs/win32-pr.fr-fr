@@ -4,12 +4,12 @@ ms.assetid: 41dda6f1-a6d1-4e76-94f3-a72f9e491bee
 title: Flux de fichiers (systèmes de fichiers locaux)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 139e6a1d80d9d9eef337461c3ff241d9bcca08242014ca638d7ec26b41662bcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a934a51225a886e3d5a7de4d9e1e91900fab460
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117996993"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009946"
 ---
 # <a name="file-streams-local-file-systems"></a>Flux de fichiers (systèmes de fichiers locaux)
 

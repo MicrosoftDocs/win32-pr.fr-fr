@@ -4,12 +4,12 @@ ms.assetid: 5349222f-ad68-477c-8712-fde16e68f600
 title: 'Exemple de programme C : opérations du magasin de certificats de collection et frères'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52074b58cb96b37b17808cfa8de17e2cd4af3082cf58c7c4312b46eb8eca0e29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 79ad1957f37e1aabeabbda0be8c14662c14c3ecc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123189"
 ---
 # <a name="example-c-program-collection-and-sibling-certificate-store-operations"></a>Exemple de programme C : opérations du magasin de certificats de collection et frères
 

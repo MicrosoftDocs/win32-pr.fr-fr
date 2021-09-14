@@ -1,15 +1,15 @@
 ---
-description: Montre comment utiliser les fonctions CryptMsgOpenToEncode, CryptMsgOpenToDecode et CryptMsgUpdate avec la \_ structure d’informations de flux CMSG pour encoder \_ et décoder un message à l’aide des fonctionnalités de diffusion en continu de ces fonctions.
+description: Montre comment utiliser les fonctions CryptMsgOpenToEncode, CryptMsgOpenToDecode et CryptMsgUpdate avec la structure CMSG_STREAM_INFO pour encoder et décoder un message à l’aide des fonctionnalités de diffusion en continu de ces fonctions.
 ms.assetid: 6c9c0509-1ad9-42cd-9589-e77752df6739
 title: 'Exemple de programme C : encodage et décodage d’un message à l’aide d’un flux'
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: eef428d7c6c0b175623bfa4811c4043bcd7bdaef3e05afea24a288f6629b8e0c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.date: 09/10/2021
+ms.openlocfilehash: 3c776dba6ac38f3167dad0e40c84f3b9ccef6bd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117765651"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123210"
 ---
 # <a name="example-c-program-encoding-and-decoding-a-message-using-a-stream"></a>Exemple de programme C : encodage et décodage d’un message à l’aide d’un flux
 

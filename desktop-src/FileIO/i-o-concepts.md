@@ -4,12 +4,12 @@ ms.assetid: 61b286a0-2f0d-48d1-a0b9-bb13f1ea1b0e
 title: Concepts d’e/s
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a08c8b95df0f5319f9acb62c677b5448ff3f962c8a49eb43c444c391bf139ba5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 727ae7f2b34b7938de444a82c9c4dfdf89f52ff4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119533679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009924"
 ---
 # <a name="io-concepts"></a>Concepts d’e/s
 

@@ -4,12 +4,12 @@ ms.assetid: cd2ce7b7-6167-4451-9f6e-881676a2145c
 title: Fonctionnalités de MSGina.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acf5d1e7e9dccf9581b27ea2fef3deb1c2c8aa218a1b0a711b7015134e1d2d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51833ab92e47dad01c13df004797e3ab3552b09a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117786748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123410"
 ---
 # <a name="msginadll-features"></a>Fonctionnalités de MSGina.dll
 

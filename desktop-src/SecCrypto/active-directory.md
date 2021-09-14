@@ -4,12 +4,12 @@ ms.assetid: 214f08fb-89d4-4c06-bff8-b1d3bd92cb69
 title: Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b713eb951d471041ad37c6dd34f21cc5d8291a7db9d404aed26ecd7d5a17a05a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61a718fdf48b45c5643fa8f106d19437146c4efa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123278"
 ---
 # <a name="active-directory"></a>Active Directory
 

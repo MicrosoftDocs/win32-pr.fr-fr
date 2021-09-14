@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclencheur de temps (script)
-description: Cet exemple de script montre comment créer une tâche qui exécute le bloc-notes à un moment donné.
+description: cet exemple de script montre comment créer une tâche qui s’exécute Bloc-notes à un moment donné.
 ms.assetid: 8511ffcd-166f-4c63-9cd2-ead53dde9ed8
 ms.topic: article
 ms.date: 05/31/2018
@@ -10,28 +10,28 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 77cbf9eab12f5ca027fbb6c48ade37a9f57d9beb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511621"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127233028"
 ---
 # <a name="time-trigger-example-scripting"></a>Exemple de déclencheur de temps (script)
 
-Cet exemple de script montre comment créer une tâche qui exécute le bloc-notes à un moment donné. La tâche contient un déclencheur basé sur l’heure qui spécifie une limite de début pour activer la tâche, une action exécutable qui exécute le bloc-notes et une limite de fin qui désactive la tâche.
+cet exemple de script montre comment créer une tâche qui s’exécute Bloc-notes à un moment donné. la tâche contient un déclencheur basé sur l’heure qui spécifie une limite de début pour activer la tâche, une action exécutable qui exécute Bloc-notes et une limite de fin qui désactive la tâche.
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable à un moment donné.
 
-**Pour planifier le démarrage du bloc-notes à un moment donné**
+**pour planifier le démarrage de Bloc-notes à une heure spécifique**
 
 1.  Créez un objet [**TaskService**](taskservice.md) . Cet objet vous permet de créer la tâche dans un dossier spécifié.
 2.  Récupérez un dossier de tâches et créez une tâche. Utilisez la méthode [**TaskService. GetFolder**](taskservice-getfolder.md) pour récupérer le dossier dans lequel la tâche est stockée et la méthode [**TaskService. newtask**](taskservice-newtask.md) pour créer l’objet [**TaskDefinition**](taskdefinition.md) qui représente la tâche.
-3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . Utilisez la propriété [**TaskDefinition. Settings**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
+3.  Définissez des informations sur la tâche à l’aide de l’objet [**TaskDefinition**](taskdefinition.md) . utilisez la propriété [**TaskDefinition. Paramètres**](taskdefinition-settings.md) pour définir les paramètres qui déterminent la façon dont le service de Planificateur de tâches effectue la tâche et la propriété [**TaskDefinition. RegistrationInfo**](taskdefinition-registrationinfo.md) pour définir les informations qui décrivent la tâche.
 4.  Créez un déclencheur basé sur l’heure à l’aide de la propriété [**TaskDefinition. Triggers**](taskdefinition-triggers.md) . Cette propriété permet d’accéder à l’objet [**TriggerCollection**](triggercollection.md) . Utilisez la méthode [**TriggerCollection. Create**](triggercollection-create.md) (en spécifiant le type de déclencheur que vous souhaitez créer) pour créer un déclencheur basé sur l’heure. Lorsque vous créez le déclencheur, définissez les limites de début et de fin du déclencheur pour activer et désactiver le déclencheur. La limite de début spécifie le moment où l’action de la tâche sera exécutée.
 5.  Créez une action à exécuter par la tâche à l’aide de la propriété [**TaskDefinition. actions**](taskdefinition-actions.md) . Cette propriété permet d’accéder à l’objet [**ActionCollection**](actioncollection.md) . Utilisez la méthode [**ActionCollection. Create**](actioncollection-create.md) pour spécifier le type d’action que vous souhaitez créer. Cet exemple utilise un objet [**ExecAction**](execaction.md) , qui représente une action qui exécute une opération de ligne de commande.
-6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) . Pour cet exemple, la tâche démarre le bloc-notes à l’heure actuelle plus 30 secondes.
+6.  Inscrivez la tâche à l’aide de la méthode [**TaskFolder. RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) . pour cet exemple, la tâche démarre Bloc-notes à l’heure actuelle plus 30 secondes.
 
-L’exemple VBScript suivant montre comment planifier une tâche pour exécuter le bloc-notes 30 secondes après l’inscription de la tâche.
+l’exemple VBScript suivant montre comment planifier l’exécution d’une tâche Bloc-notes 30 secondes après l’inscription de la tâche.
 
 
 ```VB
@@ -169,9 +169,9 @@ End Function
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

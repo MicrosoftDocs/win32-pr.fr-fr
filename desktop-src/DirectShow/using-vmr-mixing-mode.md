@@ -4,12 +4,12 @@ ms.assetid: d1b238be-55a2-4db4-9bb6-c6164e2a6f05
 title: Utilisation du mode de mixage VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728c70aefbcbdc45e8b3ef969858a72a42ce683dcdd19fc4fb5b094ff822cdf5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58ad499d58a71cd161ac4d964d67ecf3a4ebb664
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118651075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009982"
 ---
 # <a name="using-vmr-mixing-mode"></a>Utilisation du mode de mixage VMR
 
