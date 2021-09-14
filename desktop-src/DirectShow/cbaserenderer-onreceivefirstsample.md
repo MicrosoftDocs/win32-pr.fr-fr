@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 882a356f47aa146ec8ba1b06d7af43235c8213334c0d82d0a241c590654bf2a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2368b0e2abda3bcdd08872d730f8b9902dad43ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230424"
 ---
 # <a name="cbaserendereronreceivefirstsample-method"></a>Méthode CBaseRenderer. OnReceiveFirstSample
 
@@ -49,17 +49,17 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBaseRenderer :: Receive**](cbaserenderer-receive.md) appelle cette méthode. Elle ne fait rien dans la classe de base, mais la classe dérivée peut la substituer. Cette méthode est principalement destinée aux convertisseurs vidéo. Lorsqu’un convertisseur vidéo est suspendu, il affiche généralement le premier échantillon sous la forme d’une image continue.
 
 Si vous recherchez le graphique en pause, cette méthode est également appelée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

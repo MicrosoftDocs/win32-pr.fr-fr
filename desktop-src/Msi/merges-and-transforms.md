@@ -4,12 +4,12 @@ ms.assetid: 32163e06-d03d-4b65-b744-62f306f2100d
 title: Fusions et transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9779cd901df349b80dba84f056104c316810f8a3f67b19cdd4622dd68480ce1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aec6314e81afb5afa9d74346b64fe3129ba5ed30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230297"
 ---
 # <a name="merges-and-transforms"></a>Fusions et transformations
 

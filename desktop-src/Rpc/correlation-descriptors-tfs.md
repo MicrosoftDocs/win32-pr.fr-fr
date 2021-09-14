@@ -4,12 +4,12 @@ description: Un descripteur de corrélation est une chaîne de format qui décri
 ms.assetid: 9f5f5077-d6a9-4253-bddf-b8cd0c868973
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbbeb682a7c558cd8c45050d27ea9bf64c39016a056a88566aef7048f3c0d610
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35f13f0793b99b80b7abb0b493c249b30ad53d76
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120022358"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229223"
 ---
 # <a name="correlation-descriptors"></a>Descripteurs de corrélation
 

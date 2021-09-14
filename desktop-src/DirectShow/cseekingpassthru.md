@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3ffb8436623cb5ba5f415ceb8bbdafe00e22487da2bbfaba5d02ee4c8f189c10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 273f9b6686c4455452924dc43628801fae5d518a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953768"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010048"
 ---
 # <a name="cseekingpassthru-class"></a>CSeekingPassThru, classe
 
@@ -41,13 +41,13 @@ La `CSeekingPassThru` classe expose l’interface [**ISeekingPassThru**](/window
 | [**~ CSeekingPassThru**](cseekingpassthru--cseekingpassthru.md) | Méthode de destructeur.                 |
 | [**CreateInstance**](cseekingpassthru-createinstance.md)       | Crée une instance de l’objet. |
 | Méthodes ISeekingPassThru                                        | Description                        |
-| [**Rein**](cseekingpassthru-init.md)                           | Initialise l'objet.            |
+| [**Init**](cseekingpassthru-init.md)                           | Initialise l'objet.            |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

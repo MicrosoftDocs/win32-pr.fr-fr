@@ -21,12 +21,12 @@ keywords:
 - Codes temporels SMPTE, index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71af891ba2986d3ece1eb2d4cc7eb7ff4086c06eee1f60eabb2210bdc8b6bacd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d2e5a194f9c495720cbc40ccdb192509723eee0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118702483"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230934"
 ---
 # <a name="indexes"></a>Index
 

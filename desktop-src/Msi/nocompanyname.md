@@ -4,12 +4,12 @@ ms.assetid: 257d5082-6a40-4f32-abcb-23269c49091c
 title: Propriété NOCOMPANYNAME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a4aa0f4358bcdd96d1cb2e1b56d6cc01616f2884e390a82ca6b19ee9d25f5d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e94df001ee63d8dbc22c071b9a200a2811e33600
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119558789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230082"
 ---
 # <a name="nocompanyname-property"></a>Propriété NOCOMPANYNAME
 
@@ -19,7 +19,7 @@ Affectez la valeur 1 à la propriété **NOCOMPANYNAME** pour supprimer le param
 
 Non défini. Le programme d’installation définit la propriété [**CompanyName**](companyname.md) automatiquement à l’aide des valeurs du Registre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

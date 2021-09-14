@@ -4,12 +4,12 @@ ms.assetid: C970E958-3866-491A-9806-DB300834360E
 title: Attribut MFSampleExtension_CameraExtrinsics (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109dd0d171468d3a0a3c2c4f06ba1a7edc18707aa1e17afe0d1be65509f4266d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3340f1ab84061fa00e12fa65960f1b2902690816
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119722659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231725"
 ---
 # <a name="mfsampleextension_cameraextrinsics-attribute"></a>\_Attribut MFSampleExtension CameraExtrinsics
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/des
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de l’attribut est un [**MFCameraExtrinsics**](/windows/desktop/api/mfapi/ns-mfapi-mfcameraextrinsics).
 
 Cet attribut est facultatif pour prendre en charge les caméras qui ne sont pas calibrées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

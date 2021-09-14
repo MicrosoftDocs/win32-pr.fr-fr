@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6eb9fbca41f8ad9fe9564c45f3ece21af58e5e16b7bb4ac85d0f6b1d2b428bf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 29569c84d21dbb2cd69579c78747e844cfd23ba4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119493769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229457"
 ---
 # <a name="glgettexgeniv-function"></a>glGetTexGeniv fonction)
 
@@ -85,20 +85,20 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                               |
+| Nom                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *Coord* ou *pname* n’est pas une valeur acceptée.<br/>                                                                              |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glGetTexGen** retourne dans *params* les paramètres sélectionnés d’une fonction de génération de coordonnées de texture que vous avez spécifiée avec **glTexGen**. Le paramètre *Coord* nomme une des coordonnées de texture (*s*, *t*, *r*, *q*) à l’aide de la constante symbolique GL \_ s, GL \_ t, GL \_ r ou GL \_ q.
 
 Si une erreur est générée, aucune modification n’est apportée au contenu des *paramètres*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

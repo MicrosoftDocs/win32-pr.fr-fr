@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 14d9ca14d027efc1540f5a5d2ae78e948da68dd59247252989b617d07229bb42
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d8f504d76d43b8a398947f435f7bd488678ea394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229619"
 ---
 # <a name="selectnppblobfromtable-function"></a>SelectNPPBlobFromTable fonction)
 
@@ -62,7 +62,7 @@ Handle vers l’objet BLOB qui représente la carte réseau sélectionnée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit et que l’utilisateur sélectionne une carte réseau, la valeur de retour est NMERR \_ Success ; l’objet BLOB vers lequel pointe *hBlob* est renseigné.
 
@@ -70,13 +70,13 @@ Si l’utilisateur ne sélectionne pas une carte réseau, la valeur de retour es
 
 Si la fonction échoue, la valeur de retour est une autre valeur NMERR.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand elle est appelée, Moniteur réseau affiche la boîte de dialogue **Sélectionner un réseau** , que vous pouvez utiliser pour sélectionner une carte réseau. L’objet BLOB NPP qui représente la carte réseau sélectionnée retourne à l’application appelante.
 
 Pour connaître les différentes façons de sélectionner des cartes réseau, consultez [sélection d’une carte d’interface réseau](selecting-a-network-interface-card.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

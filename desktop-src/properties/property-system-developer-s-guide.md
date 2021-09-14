@@ -4,12 +4,12 @@ ms.assetid: 3281736b-f9ea-4699-a128-3bce6810126e
 title: Guide du développeur de système de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56829ad137e05c39a75b23f4979a37dc061e5d0a1bb690eb369b46d041ed0c41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46a26044d0d457d4ba24b8c9a18555885c12a571
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118233147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231545"
 ---
 # <a name="property-system-developers-guide"></a>Guide du développeur de système de propriétés
 

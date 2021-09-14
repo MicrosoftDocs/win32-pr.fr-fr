@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 61c5ca1e9ae36159293e1e9afe1f79b5ff30cbd659b01a400797ae35aac8873c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d475565896910f76211e3843526e9a889586efa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119515879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127228942"
 ---
 # <a name="keyusageiskeycertsignenabled-property"></a>KeyUsage. IsKeyCertSignEnabled, propriété
 
@@ -39,7 +39,7 @@ KeyUsage.IsKeyCertSignEnabled As Boolean
 
 Si la **valeur est true**, le bit bit keyCertSign est défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

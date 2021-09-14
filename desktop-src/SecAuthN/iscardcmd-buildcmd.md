@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: aec07516a44dc06489a627c690ec15dd2e0a80edef9fee49801c0ed23d64439f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f44597ea087f7ccec191abc9dd03787780e88b2d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120015259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229104"
 ---
 # <a name="iscardcmdbuildcmd-method"></a>ISCardCmd :: BuildCmd, méthode
 
@@ -88,7 +88,7 @@ Pointeur vers un entier LONG contenant la longueur attendue des données retourn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -105,7 +105,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour encapsuler la commande dans une autre commande, appelez [**encapsuler**](iscardcmd-encapsulate.md).
 
@@ -137,7 +137,7 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

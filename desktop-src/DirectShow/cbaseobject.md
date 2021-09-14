@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7809ec53746730f02f9b095ede3ae00b53f1fe55c21116c22d854c3d4b193e97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbc3e072c31618dab6a7bc07048728f60dbcf0d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230496"
 ---
 # <a name="cbaseobject-class"></a>CBaseObject, classe
 
@@ -39,7 +39,7 @@ la classe **CBaseObject** est une classe abstraite pour l’implémentation d’
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la plupart des classes de base DirectShow dérivent de **CBaseObject**. cette classe fournit une assistance de débogage en réduisant le nombre de tous les objets DirectShow actifs au moment de l’exécution. Le nombre d’objets est stocké dans une variable membre statique de classe :
 
@@ -59,7 +59,7 @@ Dans les versions Debug, la DLL déclarera si elle est déchargée alors que le 
 
 Le constructeur **CBaseObject** prend un argument, un nom de débogage pour l’objet. Ce nom est stocké dans une table globale de la DLL. La fonction [**DbgDumpObjectRegister**](dbgdumpobjectregister.md) met en forme une liste des objets actifs dans la dll et l’envoie à la sortie de débogage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fe440b7ac0c7b05c2d3cf9d7ca2019a788e272b7aca6acd6a747738a255ca39b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96abb2ee3d44604c23e9943e086a52312a011e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010103"
 ---
 # <a name="cbaserendererreceive-method"></a>CBaseRenderer. Receive, méthode
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée appelle cette méthode lorsqu’elle reçoit un échantillon du filtre en amont.
 
@@ -75,7 +75,7 @@ Pendant la suspension, la méthode attend à l’étape 2 jusqu’à ce que le f
 
 Dans la classe de base, la méthode **OnReceiveFirstSample** n’a aucun effet. La classe dérivée peut la substituer. Par exemple, lorsqu’un convertisseur vidéo est suspendu, il affiche le premier échantillon sous la forme d’une image continue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

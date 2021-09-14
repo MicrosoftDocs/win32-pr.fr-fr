@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b1b73a54ae9b5ccabacfbb1153c5d0d91f951e83082a1bdd3c7f7551ad813804
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acaf5e45eac6a630d0589e3c8fad106ae29fa3dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010136"
 ---
 # <a name="cbaseallocatornotifysample-method"></a>Méthode CBaseAllocator. NotifySample
 
@@ -40,17 +40,17 @@ void NotifySample();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand des threads attendent des exemples, la valeur de [**CBaseAllocator :: m \_ lWaiting**](cbaseallocator-m-lwaiting.md) est supérieure à zéro. Si *m \_ lWaiting* est supérieur à zéro, cette méthode appelle la fonction **ReleaseSemaphore,** sur le sémaphore [**CBaseAllocator :: m \_ hSem**](cbaseallocator-m-hsem.md) , en activant tous les threads en attente. Elle réinitialise également *m \_ lWaiting* à zéro.
 
 Cette méthode est appelée à partir de la méthode [**CBaseAllocator :: ReleaseBuffer**](cbaseallocator-releasebuffer.md) , lorsqu’un exemple est retourné à la liste libre ; et à partir de la méthode [**CBaseAllocator ::D ecommit**](cbaseallocator-decommit.md) , lorsque l’allocation est désallouée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

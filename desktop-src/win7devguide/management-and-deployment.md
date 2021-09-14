@@ -4,12 +4,12 @@ description: les professionnels de l’informatique ou les développeurs qui se 
 ms.assetid: 217090c4-6385-4333-a380-f75f2c80e369
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec4a68a2c20f3ff765fcb9855afe1bd0455904088e3558562ec5c1cd0402e5c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 105b19ad01cb9208d05e77871be637fdadcb0532
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231023"
 ---
 # <a name="management-and-deployment"></a>Gestion et déploiement
 

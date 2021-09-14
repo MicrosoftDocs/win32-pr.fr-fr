@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2c3a89bfd74a01a7455ecd9393d913ddd906474ceabd1c8884f187444cb483a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: be96a13816a6a35bdd554380dacd5e8e2f5d5450
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229673"
 ---
 # <a name="destroyprotocol-function"></a>DestroyProtocol fonction)
 
@@ -46,7 +46,7 @@ Handle du protocole à détruire.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Aucun.
 
@@ -65,7 +65,7 @@ La DLL de l’analyseur appelle la fonction **DestroyProtocol** lors de son impl
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f80bf168-4936-4736-bc62-d0a557b3cd58
 title: Mise en réseau et Internet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab39cc3511145ff55cfd231dff001e9436233a1ab016393517ffa90cb9197b86
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1abde1c4b4e6c8bab5e8db4d314c5be639ec1c15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119599599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231672"
 ---
 # <a name="networking-and-internet"></a>Mise en réseau et Internet
 

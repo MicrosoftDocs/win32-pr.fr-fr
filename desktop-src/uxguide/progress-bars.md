@@ -4,12 +4,12 @@ description: Avec une barre de progression, les utilisateurs peuvent suivre la p
 ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6762be91d448c883a53c2977d506a0e1d638c26f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a87ddece61276e5ac651f0610f34409477e18f53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468336"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231114"
 ---
 # <a name="progress-bars"></a>Barres de progression
 
@@ -70,7 +70,13 @@ Les barres de progression ont plusieurs modèles d’utilisation :
 
 
 
-| | | <strong>Barres de progression de l’arrêt modal</strong><br /> Indiquez la progression d’une opération en remplissant de gauche à droite et en remplissant complètement une fois l’opération terminée. <br /> | Étant donné que ces commentaires sont <a href="glossary.md">modaux</a>, les utilisateurs ne peuvent pas effectuer d’autres tâches dans la fenêtre (ou son parent si celui-ci est affiché dans une boîte de dialogue modale) jusqu’à ce que l’opération soit terminée. <br /><img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br /> Dans cet exemple, la barre de progression donne des commentaires au cours de la configuration. <br /> | | <strong>Barre de progression des arrêts modaux avec un bouton Annuler ou arrêter</strong><br /> Autoriser les utilisateurs à arrêter l’opération, peut-être parce que l’opération prend trop de temps ou ne justifie pas l’attente.<br /> | <img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br /> Dans cet exemple, les utilisateurs peuvent cliquer sur arrêter pour arrêter l’opération et conserver l’environnement dans son état actuel.<br /> | | <strong>Barre de progression des arrêts modaux avec un bouton Annuler ou arrêter et une animation</strong><br /> Autorisez les utilisateurs à arrêter l’opération et incluez une animation pour aider les utilisateurs à visualiser l’effet d’une opération.<br /> | <img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br /> Dans cet exemple, les utilisateurs peuvent cliquer sur arrêter pour arrêter l’opération et conserver l’environnement dans son état actuel.<br /> | | <strong>Désarrêter les barres de progression de type modal</strong><br /> Indique la progression d’une opération en plusieurs étapes en indiquant la progression de l’étape actuelle dans la première barre de progression et la progression globale dans la deuxième barre.<br /> | Étant donné que la première barre de progression fournit peu d’informations supplémentaires et peut être très gênante, ce modèle n’est pas recommandé. Au lieu de cela, vous devez faire en sorte que toutes les étapes de l’opération partagent une partie de la progression et qu’une seule barre de progression passe à l’achèvement une fois. <br /><img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br /> Dans cet exemple, la première barre de progression affiche la progression de l’étape actuelle et la deuxième barre de progression indique la progression globale.<br /><blockquote>[!Note]<br />Ce modèle est généralement inutile et doit être évité.</blockquote><br /><br /> | | <strong>Barres de progression déterminées non modales</strong><br /> Indiquez la progression d’une opération en remplissant de gauche à droite et en remplissant complètement une fois l’opération terminée.<br /> | Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que l’opération est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br /><img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br /> dans cet exemple, Windows internet ExplorerWindows internet Explorer affiche la progression du chargement d’une page Web dans la barre d’état. Les utilisateurs peuvent effectuer d’autres tâches pendant le chargement de la page.<br /> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Barres de progression de l’arrêt modal</strong><br /> Indiquez la progression d’une opération en remplissant de gauche à droite et en remplissant complètement une fois l’opération terminée. <br /> | Étant donné que ces commentaires sont <a href="glossary.md">modaux</a>, les utilisateurs ne peuvent pas effectuer d’autres tâches dans la fenêtre (ou son parent si celui-ci est affiché dans une boîte de dialogue modale) jusqu’à ce que l’opération soit terminée. <br /><img src="images/progress-bars-image3.png" alt="Screen shot of progress bar in modal window " /><br /> Dans cet exemple, la barre de progression donne des commentaires au cours de la configuration. <br /> | 
+| <strong>Barre de progression des arrêts modaux avec un bouton Annuler ou arrêter</strong><br /> Autoriser les utilisateurs à arrêter l’opération, peut-être parce que l’opération prend trop de temps ou ne justifie pas l’attente.<br /> | <img src="images/progress-bars-image4.png" alt="Screen shot of progress bar with Stop button " /><br /> Dans cet exemple, les utilisateurs peuvent cliquer sur arrêter pour arrêter l’opération et conserver l’environnement dans son état actuel.<br /> | 
+| <strong>Barre de progression des arrêts modaux avec un bouton Annuler ou arrêter et une animation</strong><br /> Autorisez les utilisateurs à arrêter l’opération et incluez une animation pour aider les utilisateurs à visualiser l’effet d’une opération.<br /> | <img src="images/progress-bars-image5.png" alt="Screen shot of progress bar with animation " /><br /> Dans cet exemple, les utilisateurs peuvent cliquer sur arrêter pour arrêter l’opération et conserver l’environnement dans son état actuel.<br /> | 
+| <strong>Désarrêter les barres de progression de type modal</strong><br /> Indique la progression d’une opération en plusieurs étapes en indiquant la progression de l’étape actuelle dans la première barre de progression et la progression globale dans la deuxième barre.<br /> | Étant donné que la première barre de progression fournit peu d’informations supplémentaires et peut être très gênante, ce modèle n’est pas recommandé. Au lieu de cela, vous devez faire en sorte que toutes les étapes de l’opération partagent une partie de la progression et qu’une seule barre de progression passe à l’achèvement une fois. <br /><img src="images/progress-bars-image6.png" alt="Screen shot of current and overall progress bars " /><br /> Dans cet exemple, la première barre de progression affiche la progression de l’étape actuelle et la deuxième barre de progression indique la progression globale.<br /><blockquote>[!Note]<br />Ce modèle est généralement inutile et doit être évité.</blockquote><br /><br /> | 
+| <strong>Barres de progression déterminées non modales</strong><br /> Indiquez la progression d’une opération en remplissant de gauche à droite et en remplissant complètement une fois l’opération terminée.<br /> | Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que l’opération est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br /><img src="images/progress-bars-image7.png" alt="Screen shot of progress bar on status bar " /><br /> dans cet exemple, Windows internet ExplorerWindows internet Explorer affiche la progression du chargement d’une page Web dans la barre d’état. Les utilisateurs peuvent effectuer d’autres tâches pendant le chargement de la page.<br /> | 
 
 
 
@@ -90,7 +96,7 @@ Les barres de progression ont plusieurs modèles d’utilisation :
 
  
 
-### <a name="meters"></a>Compteurs
+### <a name="meters"></a>Mètres
 
 
 
@@ -255,7 +261,7 @@ Pour arrêter les barres de progression :
 
     s secondes restantes
 
-    **Sinon :**
+    **Dispose**
 
     h heures, m minutes restantes
 
@@ -295,7 +301,7 @@ Pour arrêter les barres de progression :
 -   **Activez la barre de progression en rouge lorsqu’il existe une condition récupérable par l’utilisateur qui empêche la poursuite de la progression.** Affichez un message pour expliquer le problème et recommander une solution.
 -   **Activez la barre de progression en jaune pour indiquer que l’utilisateur a suspendu la tâche ou qu’il existe une condition qui entrave la progression** , mais que la progression est toujours en cours (par exemple, avec une connectivité réseau médiocre). Si l’utilisateur a été suspendu, remplacez l’étiquette du bouton suspendre par reprendre. Si la progression est entravée, affichez un message pour expliquer le problème et recommander une solution.
 
-### <a name="meters"></a>Compteurs
+### <a name="meters"></a>Mètres
 
 -   **Utilisez les barres de progression uniquement pour la progression.** Utilisez des compteurs pour indiquer les pourcentages qui ne sont pas liés à la progression.
 

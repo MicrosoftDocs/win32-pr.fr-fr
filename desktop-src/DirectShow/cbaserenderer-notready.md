@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52fddcbd92544a109340697e5865f87e6c5f74a14b01543e768495b7717d8f4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff07303f9aa8f68ae702ed09bc3a2fd544373f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954828"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230436"
 ---
 # <a name="cbaserenderernotready-method"></a>Méthode CBaseRenderer. nochapy
 
@@ -40,15 +40,15 @@ void NotReady();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode force la méthode [**CBaseRenderer :: GetState**](cbaserenderer-getstate.md) à retourner le niveau intermédiaire de l' \_ État VFW S, ce \_ \_ qui indique que le filtre passe toujours à son état actuel. Le filtre appelle cette méthode chaque fois qu’une transition d’État est en attente. (Cela se produit lorsque le filtre est suspendu, jusqu’à ce qu’il reçoive un exemple.)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

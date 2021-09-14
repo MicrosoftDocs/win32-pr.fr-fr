@@ -5,20 +5,20 @@ ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 972774e921199e32eb70841c74c7478e2178cda9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229734"
 ---
 # <a name="use-wireless-hosted-network-internet-connection-sharing"></a>Utiliser un réseau hébergé sans fil, partage de connexion Internet
 
-Le réseau hébergé sans fil est une nouvelle fonctionnalité WLAN prise en charge sur Windows 7 et Windows 8. Il est également pris en charge sur Windows Server 2012 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Cette fonctionnalité implémente deux fonctions principales :
+le réseau hébergé sans fil est une nouvelle fonctionnalité WLAN prise en charge sur Windows 7 et Windows 8. il est également pris en charge sur Windows Server 2012 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. Cette fonctionnalité implémente deux fonctions principales :
 
 -   La virtualisation d’un adaptateur sans fil physique dans plusieurs cartes sans fil virtuelles, parfois appelées « Wi-Fi virtuel ».
 -   Un point d’accès sans fil (AP) basé sur des logiciels, parfois appelé SoftAP qui utilise un adaptateur sans fil virtuel désigné.
 
-Le partage de connexion Internet (ICS) est une fonctionnalité de Windows fournie par le biais du service SharedAccess. À proprement parler, SharedAccess autorise le partage réseau via un ordinateur où l’accès réseau partagé ne fournit pas nécessairement un accès à Internet. Nous utilisons le terme ICS et SharedAccess de manière interchangeable dans cette section, puisque le partage de connexion Internet est un scénario majeur pour le réseau hébergé sans fil et le terme ICS est mieux connu de la communauté des utilisateurs.
+le partage de connexion Internet (ICS) est une fonctionnalité de Windows fournie par le biais du Service SharedAccess. À proprement parler, SharedAccess autorise le partage réseau via un ordinateur où l’accès réseau partagé ne fournit pas nécessairement un accès à Internet. Nous utilisons le terme ICS et SharedAccess de manière interchangeable dans cette section, puisque le partage de connexion Internet est un scénario majeur pour le réseau hébergé sans fil et le terme ICS est mieux connu de la communauté des utilisateurs.
 
 Le réseau hébergé sans fil est étroitement lié à ICS pour activer à la fois le réseau personnel sans fil et les scénarios de partage Internet. Cette section fournit des recommandations générales aux développeurs d’applications sur la façon d’intégrer un réseau et un partage de connexion Internet hébergés à l’aide du réseau public sans fil hébergé et des API ICS.
 
@@ -36,7 +36,7 @@ Le service ICS fonctionne dans l’un des deux modes possibles :
 
 Dans cette section, nous utilisons le terme de partage de la connexion Internet (ICS) pour signifier le cas où toutes les fonctions de partage de connexion Internet sont appelées dans le service ICS pour fournir l’accès à toutes les fonctionnalités de l’ICS complet avec le réseau hébergé sans fil.
 
-Les deux modes d’opération ICS s’excluent mutuellement avec une priorité plus élevée pour le partage de connexion Internet. Le service ICS peut passer du mode autonome au mode complet, mais pas du mode plein au mode autonome. Le mode autonome ICS a été introduit dans Windows 7 et sur Windows Server 2008 R2 avec le service de réseau local sans fil installé conjointement avec la fonctionnalité de réseau hébergé sans fil. Elle n’est pas disponible dans les versions précédentes de Windows.
+Les deux modes d’opération ICS s’excluent mutuellement avec une priorité plus élevée pour le partage de connexion Internet. Le service ICS peut passer du mode autonome au mode complet, mais pas du mode plein au mode autonome. le mode autonome ICS a été introduit dans Windows 7 et sur Windows Server 2008 R2 avec le Service de réseau local sans fil installé conjointement avec la fonctionnalité de réseau hébergé sans fil. Elle n’est pas disponible dans les versions précédentes de Windows.
 
 Toute opération ICS complète implique deux cartes réseau différentes dans le système :
 
@@ -80,7 +80,7 @@ Il faut du temps pour démarrer ou arrêter le service ICS sur l’ordinateur lo
 
 ## <a name="starting-and-stopping-the-wireless-hosted-network"></a>Démarrage et arrêt du réseau hébergé sans fil
 
-Windows fournit une plateforme où plusieurs applications simultanées sont autorisées à gérer un réseau hébergé sans fil en même temps. Plus précisément, chaque application peut démarrer et arrêter le réseau hébergé sans fil proprement dit, sans connaissance préalable des autres applications.
+Windows fournit une plateforme dans laquelle plusieurs applications simultanées sont autorisées à gérer un réseau hébergé sans fil en même temps. Plus précisément, chaque application peut démarrer et arrêter le réseau hébergé sans fil proprement dit, sans connaissance préalable des autres applications.
 
 Il existe deux ensembles de fonctions permettant de démarrer et d’arrêter un réseau hébergé.
 

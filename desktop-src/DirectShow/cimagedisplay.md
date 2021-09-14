@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 551650e7c8b6b0f830a84aee37bf671bbc300224c9e300a3f6f841ef503a504d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5a7cbb28c53d8ff357d4e5174d24f92ba2d0cad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428942"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010095"
 ---
 # <a name="cimagedisplay-class"></a>CImageDisplay, classe
 
@@ -55,7 +55,7 @@ La `CImageDisplay` classe est une classe d’assistance pour les convertisseurs 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

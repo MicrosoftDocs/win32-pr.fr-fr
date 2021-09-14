@@ -4,12 +4,12 @@ description: Windows 7 maximise l’efficacité et l’évolutivité de l’éne
 ms.assetid: db48aa8f-749e-4a56-8a91-ac9b81d6e8c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5636b6cb7178fa660381196f44b811c905478c1bcd31e0580ea631955b13c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 752f66e80265bf7d6b3ea26e7baabdc6550ce921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118032050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231018"
 ---
 # <a name="performance-windows-7-developer-guide"></a>performances (Guide du développeur Windows 7)
 

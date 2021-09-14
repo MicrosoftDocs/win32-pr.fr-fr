@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b34b8e4c01a66e27c4a9a98aae8db87ce83cf46e5c46345d336da08548aa7383
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8f0669dd5b6647b362b610805ddc8a394e1ba59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118656165"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010099"
 ---
 # <a name="cgenericlistgetheadposition-method"></a>Méthode CGenericList. GetHeadPosition
 
@@ -40,11 +40,11 @@ POSITION GetHeadPosition();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur de POSITION, ou **null** si la liste est vide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

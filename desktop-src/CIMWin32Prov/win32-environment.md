@@ -23,11 +23,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 18a85af664a4be8ef96b1882477e2fadec0f0b1a
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230556"
 ---
 # <a name="win32_environment-class"></a>\_Classe d’environnement Win32
 
@@ -302,7 +302,7 @@ Exemple : « % SystemRoot% »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe d' **\_ environnement Win32** est dérivée de [**CIM \_ SystemResource**](cim-systemresource.md). Vous pouvez utiliser cette classe pour rechercher les chemins d’accès de dossiers spéciaux, tels que le dossier système ou les fichiers programme sur un ordinateur distant. Voici quelques exemples : windir, systemroot, ProgramFiles et UserProfile. **Win32 \_** Fondamentalement, l’environnement retourne ce qui se trouve dans :
 

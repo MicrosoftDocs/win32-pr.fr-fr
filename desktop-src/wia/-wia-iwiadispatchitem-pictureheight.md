@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 9244a8cd3eb46dd96d2affc39a3d9769d9ac13761a0bdfc216a9a74cef9a4bf5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d5f2f8bf152596d192bae7a1b6faa2ab8a760328
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231047"
 ---
 # <a name="itempictureheight-property"></a>Item. PictureHeight, propriété
 
@@ -39,7 +39,7 @@ propVal = Item.PictureHeight
 
 Variable qui reçoit la hauteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - types de l'énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b3a53688e21e58b0d9509cc901a72399f26b9d758cac89511e66a76d740db1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848158"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230951"
 ---
 # <a name="windows-media-format-sdk-enumeration-types"></a>Windows Types d’énumération du kit de développement logiciel (SDK)
 

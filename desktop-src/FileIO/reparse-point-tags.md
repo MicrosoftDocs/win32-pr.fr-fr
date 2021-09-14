@@ -4,12 +4,12 @@ ms.assetid: d02a2f50-d374-4149-bc04-49b7db052f62
 title: Étiquettes de point d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b31d4a1765266295b85c95c0955ae9c51faeb34ae07f3af48288a17a50f2166
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a53b65034347e2a2c07afcd6c1f03e31f73cef7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009857"
 ---
 # <a name="reparse-point-tags"></a>Étiquettes de point d’analyse
 

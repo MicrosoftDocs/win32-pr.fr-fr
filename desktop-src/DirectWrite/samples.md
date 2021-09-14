@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: dc2d9a81a0fdfcbe2d5a28adfcd2546e9088d8c8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381576"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009973"
 ---
 # <a name="sample-code"></a>Exemple de code
 
@@ -22,17 +22,17 @@ Cette section contient des informations sur les exemples de programmes pour [Dir
 
 | Exemple de code                                                                               | Description                                                                                                                                       |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Exemple d’interligne (DirectWrite)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteLineSpacingModes)       | Cet exemple montre comment utiliser les différentes options d’interligne fournies pour l’API de disposition du texte DirectWrite.                         |
-| [Exemple de polices téléchargeables (DirectWrite)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont) | Cet exemple montre comment utiliser les polices téléchargeables de DirectWrite, une fonctionnalité ajoutée dans Windows 10, ainsi que l’API de disposition du texte DirectWrite. |
-| [Exemple de polices téléchargeables (XAML)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCloudFontIntegration)        | Illustre l’intégration XAML des polices téléchargeables de DirectWrite, une fonctionnalité ajoutée dans Windows 10.                                                   |
+| [exemple d’interligne (DirectWrite)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteLineSpacingModes)       | cet exemple montre comment utiliser les différentes options d’interligne fournies pour l’API de disposition de texte DirectWrite.                         |
+| [exemple de polices téléchargeables (DirectWrite)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont) | cet exemple montre comment utiliser les polices téléchargeables DirectWrite, une fonctionnalité ajoutée dans Windows 10, ainsi que l’API de disposition de texte DirectWrite. |
+| [Exemple de polices téléchargeables (XAML)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCloudFontIntegration)        | illustre l’intégration XAML des polices téléchargeables DirectWrite, une fonctionnalité ajoutée dans Windows 10.                                                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

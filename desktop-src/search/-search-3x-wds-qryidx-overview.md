@@ -4,12 +4,12 @@ ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
 title: Interrogation de l’index programmatiquement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f76f98d12e4a0615bf19dfb165766a67b8c9e58700ad2d0c897782e2a16ba9dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6390b31f4a1cc01ca723978a5107d5d9a502c4ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119094940"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231269"
 ---
 # <a name="querying-the-index-programmatically"></a>Interrogation de l’index programmatiquement
 

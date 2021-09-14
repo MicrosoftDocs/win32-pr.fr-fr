@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6708ce38c826aae9ccb40d077972d267a20d5e22b4f67157000c4a62e92afa1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4fcecbd1973c54e30c9bf1251bed174aa4a469f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119687512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127010025"
 ---
 # <a name="csource-class"></a>CSource, classe
 
@@ -57,7 +57,7 @@ La classe **CSource** est une classe de base pour l’implémentation de filtres
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour implémenter une broche de sortie, procédez comme suit :
 
@@ -80,7 +80,7 @@ CAutoLock lock(m_pFilter->pStateLock());
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5d9e51dd-7918-491f-aea9-01a6e0317c57
 title: Surveillance d’une installation à l’aide de MsiSetExternalUIRecord
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc74001a52d7eb1ef2cfbc3a052eaad1a2d72e127571f6f51d5afac992343a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce3fd0caf3d24eed49ff8a373b6f4d38037f840f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118945084"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230153"
 ---
 # <a name="monitoring-an-installation-using-msisetexternaluirecord"></a>Surveillance d’une installation à l’aide de MsiSetExternalUIRecord
 

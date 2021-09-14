@@ -4,12 +4,12 @@ description: Critères pour les entrées de service de nom avec appel de procéd
 ms.assetid: f9a7b935-7104-489c-93a8-0c3793d17348
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609c545c72687a0b9b73db56d2f08654941e464c790e091ee886159d9e9593ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb32314dc86b179ea98bdf07000dc5ea359bdc77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229199"
 ---
 # <a name="criteria-for-name-service-entries"></a>Critères pour les entrées de service de nom
 

@@ -4,12 +4,12 @@ description: Pour établir une session de communication client/serveur avec un p
 ms.assetid: c67c9b1a-084f-4b85-ac6c-8cf25a6b0cca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f57fdc08a33c526d0bcc913a87d31d1e4a7c326bac4f17e92f53b7293e2477
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70c5fd8437fb5821c2b52240256a1938e8de31c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020823"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229145"
 ---
 # <a name="how-the-client-establishes-a-connection"></a>Comment le client établit une connexion
 

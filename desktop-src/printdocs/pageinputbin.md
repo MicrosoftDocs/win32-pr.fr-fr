@@ -4,12 +4,12 @@ ms.assetid: 78eb3119-a52f-4ff8-83bb-903e181c8a11
 title: PageInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04499e22d3e0ebb10d00aa3cd966c4efea569f291f0eb0d9871a03ca001a8217
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc53d377106b95b26e694d531af2952cea98a8b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118234739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231629"
 ---
 # <a name="pageinputbin"></a>PageInputBin
 
@@ -27,7 +27,7 @@ Décrit le bac d’entrée installé dans un appareil ou la liste complète des 
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

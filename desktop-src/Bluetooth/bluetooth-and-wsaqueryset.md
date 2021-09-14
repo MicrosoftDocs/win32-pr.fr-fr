@@ -4,12 +4,12 @@ description: La structure WSAQUERYSET est utilisée dans les opérations, notamm
 ms.assetid: 6c9913a6-4429-4c50-be4a-17555f67e855
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b454d44d315257dd9b83f5c0614cd8b8cc668c067becb4b21c308fd9b3711ac4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: db4640e4b69591f29901212b9fdadf85de7ae420
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230760"
 ---
 # <a name="bluetooth-and-wsaqueryset"></a>Bluetooth et WSAQUERYSET
 

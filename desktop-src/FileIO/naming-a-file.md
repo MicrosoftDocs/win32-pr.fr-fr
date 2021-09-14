@@ -5,12 +5,12 @@ title: Nommage des fichiers, chemins d’accès et espaces de noms
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: f77b12fa133bb8b35260b49a90c24e202055c8564431f6a0d6d4c09527811ca0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59f626c931a61255cef8be9ede594cb97924cfb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119533449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009901"
 ---
 # <a name="naming-files-paths-and-namespaces"></a>Nommage des fichiers, chemins d’accès et espaces de noms
 

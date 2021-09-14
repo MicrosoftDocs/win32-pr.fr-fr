@@ -9,12 +9,12 @@ keywords:
 - métadonnées, modifier les attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b973b787b37bbf9333a0adb218ab5db0e6f677521f1bfc9a0cdc1d5c37200e83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a52990e5366da178e9ed5021af93a9f6403b80c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119586059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127230975"
 ---
 # <a name="editing-metadata-attributes"></a>Modification des attributs de métadonnées
 

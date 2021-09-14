@@ -4,12 +4,12 @@ ms.assetid: 85b3cf8e-bff3-4693-b00e-64bf5d1f5065
 title: Structures TxF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6acdbaac0798ef2dac3b3fefad9a1f5de505eb9781316fca82d45cfad26af0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d490f608ef9ebfa6906d1acffa374a0c9327489b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119765839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009819"
 ---
 # <a name="txf-structures"></a>Structures TxF
 

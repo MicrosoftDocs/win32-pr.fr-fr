@@ -4,12 +4,12 @@ ms.assetid: 53aabb35-4601-42d1-ac73-385473ff91e2
 title: Objets fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263eae282f76195cc125848f13f43f5ee3d8f676cc6328b2d03db443e6f1deec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8e37793ad6c31ac86809047a3ec0d34afc3efc34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009951"
 ---
 # <a name="file-objects"></a>Objets fichier
 

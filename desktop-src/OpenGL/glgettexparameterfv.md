@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7925ae070a3e35f6c9b3a9ba65ff506f775b77e625dc852b49cc305c76003428
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b0af6e5fd91d38240dd3463b9440333b5da431d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118359709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127229433"
 ---
 # <a name="glgettexparameterfv-function"></a>glGetTexParameterfv fonction)
 
@@ -96,13 +96,13 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glGetTexParameter** *retourne in paramètre* la valeur ou les valeurs du paramètre de texture spécifié comme *pname*. Le paramètre *target* définit la texture cible, à savoir la texture GL \_ \_ 1D ou la \_ texture GL \_ 2D, pour spécifier une texturation unidimensionnelle ou à deux dimensions. Le paramètre *pname* accepte les mêmes symboles que [**glTexParameter**](gltexparameter-functions.md), avec les mêmes interprétations.
 
 Si une erreur est générée, aucune modification n’est apportée au contenu des *paramètres*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

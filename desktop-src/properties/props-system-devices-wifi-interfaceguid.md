@@ -4,12 +4,12 @@ ms.assetid: 21f3710e-5248-4e58-b8b8-6acfddb6a931
 title: System. Devices. WiFi. InterfaceGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e7433048c49a111454c559dd5b10e7cc2e7f01ef19d9461d11629f5b03d174c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86c46a611944491dc753f7abefbdfd24b7293c22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118467219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127231329"
 ---
 # <a name="systemdeviceswifiinterfaceguid"></a>System. Devices. WiFi. InterfaceGuid
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
