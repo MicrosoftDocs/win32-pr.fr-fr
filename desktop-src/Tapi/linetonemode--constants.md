@@ -5,11 +5,11 @@ title: Constantes LINETONEMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c9e1b5a8d49c927dfa3d5ec87f9a4830a91d79d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528414"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324693"
 ---
 # <a name="linetonemode_-constants"></a>\_Constantes LINETONEMODE
 
@@ -73,7 +73,7 @@ Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiqu
 
 Ces constantes sont utilisées pour définir des tonalités à générer sur un appel au tiers distant. Notez que la détection de tons de tonalités non personnalisées n’utilise pas ces constantes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

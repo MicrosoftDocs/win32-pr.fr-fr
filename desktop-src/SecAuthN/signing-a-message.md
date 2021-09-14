@@ -4,12 +4,12 @@ ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: Signature d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b605ccaaa4adfe37dc2bbe5f5c0ed809f0656896e5e85478b0b63740bf6f63e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36f8151a66120575bfcaeda62955a7f6aa47e8e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118918048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324779"
 ---
 # <a name="signing-a-message"></a>Signature d’un message
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e70fd50d4b08787326f93cddf7ec55a0eaacb25fa815cc2b4c8246c1934494a0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ee6202c7029e2c27684e15d96dd6c38680cb0678
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119551829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226937"
 ---
 # <a name="ishelldispatchbrowseforfolder-method"></a>Méthode IShellDispatch. BrowseForFolder
 
@@ -91,7 +91,7 @@ Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="jscript"></a>JScript
 
@@ -105,7 +105,7 @@ Type : **dossier \* \***
 
 Référence d’objet à l’objet [**dossier**](folder.md) du dossier sélectionné.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. BrowseForFolder**](shell-browseforfolder.md) .
 
@@ -181,7 +181,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

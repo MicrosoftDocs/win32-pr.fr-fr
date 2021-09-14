@@ -4,12 +4,12 @@ ms.assetid: 3c0a71f6-f643-4a5e-8b5c-15c976a3736e
 title: Implémentation de SceSvcAttachmentUpdate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3f2399ee87fdc97dcfb82d9fd711c6407894c3dbbbf17a31df39bb225010032
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 381a2b04b75399b5f580426d9f2dd9f5911f52d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118894593"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324740"
 ---
 # <a name="implementing-scesvcattachmentupdate"></a>Implémentation de SceSvcAttachmentUpdate
 

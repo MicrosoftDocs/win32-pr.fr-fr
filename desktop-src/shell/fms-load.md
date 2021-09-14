@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 0e76bcc5-76c2-4ec0-8ddb-4042cb5ffa7d
-ms.openlocfilehash: 8c2c2d476281c50f19d73c8af1572e1c2d8430149d8664efe14f0d5042c00542
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efd1777704c775db84c7dabf54b9e06c81535fb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226980"
 ---
 # <a name="fms_load-structure"></a>\_Structure de charge FMS
 
@@ -86,7 +86,7 @@ Valeur delta de l’élément de menu. Pour éviter les conflits avec ses propre
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c8444764af729f9536471a6a9df221cc118edb7d043112eb0b5351f45982d87f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94f8d50aea58f556634e7f20b3880aecad72cc39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225028"
 ---
 # <a name="cbasecontrolvideochecktargetrect-method"></a>Méthode CBaseControlVideo. CheckTargetRect
 
@@ -49,15 +49,15 @@ Pointeur vers le rectangle cible à vérifier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne E \_ INVALIDARG s’il n’est pas valide ; sinon, retourne NOERROR (S \_ OK).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre détermine si le rectangle cible demandé est valide. Étant donné que le rectangle de destination spécifie une position dans le client logique de la fenêtre, les coordonnées peuvent être négatives, même si la largeur et la hauteur globales ne peuvent pas être égales à zéro ou à une valeur négative.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

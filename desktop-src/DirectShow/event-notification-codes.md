@@ -4,12 +4,12 @@ ms.assetid: 339ffcd9-7724-4c92-b241-afbed81d9380
 title: Codes de notification d’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54792e433535ceefad416033d7758f4398b7777951173256c9be9b83913d61f2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9c41abc3ffc7a93a39e7a97fb210b491ad4fc58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224553"
 ---
 # <a name="event-notification-codes"></a>Codes de notification d’événement
 

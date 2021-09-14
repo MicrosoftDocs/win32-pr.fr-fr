@@ -4,12 +4,12 @@ ms.assetid: a0d8b54b-7a05-4307-a756-a34bb22f1afd
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6baafd2aa1bdfc3f4959b877963faff5df9aabe57c672555edb98f4cded8b1ae
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8a1448dc753a8e3b8221fa040309d3f5b60c4879
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314065"
 ---
 # <a name="mf_devsource_attribute_source_type_audcap_endpoint_id-attribute"></a>Attribut \_ d' \_ ID de \_ point de \_ \_ \_ terminaison \_ AUDCAP de type de l’attribut DEVSOURCE MF
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetString**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de l’attribut est un ID de point de terminaison. Cet attribut est utilisé avec les fonctions suivantes :
 
@@ -34,7 +34,7 @@ La valeur de l’attribut est un ID de point de terminaison. Cet attribut est ut
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

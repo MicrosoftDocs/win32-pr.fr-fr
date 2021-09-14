@@ -4,12 +4,12 @@ ms.assetid: 001321c5-70c7-4baa-ba5a-1e424ca0d647
 title: Interfaces d’appareil externe pour les caméscopes DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb80a89356a18d25f1fb3536cdc8f6e95be4e1947433d1c0437f1d80d47c8008
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e5e7106ec6e9b744da0d1f71958aeb895ec8df1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119651519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224497"
 ---
 # <a name="external-device-interfaces-for-dv-camcorders"></a>Interfaces d’appareil externe pour les caméscopes DV
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: b61dd43980049355621c2ee4085634303c55e0f9dac79db839602d07c7d61f94
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51f551a704f3a98b932e646c95810f928e73bac7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119409445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324750"
 ---
 # <a name="iscrdenrgetusername-method"></a>ISCrdEnr :: getUserName, méthode
 
@@ -74,7 +74,7 @@ Pointeur vers une chaîne qui retourne le nom de l’utilisateur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="c"></a>C++
 
@@ -86,11 +86,11 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom de l’utilisateur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez spécifier le nom de l’utilisateur pour lequel la [*carte à puce*](../secgloss/s-gly.md) est émise en appelant [**ISCrdEnr :: setUserName**](iscrdenr-setusername.md) ou [**ISCrdEnr :: selectUserName**](iscrdenr-selectusername.md). Une fois qu’un nom d’utilisateur a été spécifié, sa valeur peut être récupérée en appelant **getUserName**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

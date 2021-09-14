@@ -4,12 +4,12 @@ ms.assetid: 70302698-f9d5-4de4-a662-4815002eea52
 title: Traitement des messages du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e697c603b69790d17c4d6771666a1111fa6f968eb97a30256696921f133530d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b8b43c6e265030279a6644547f41e3630208325
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118719950"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226849"
 ---
 # <a name="control-panel-message-processing"></a>Traitement des messages du panneau de configuration
 

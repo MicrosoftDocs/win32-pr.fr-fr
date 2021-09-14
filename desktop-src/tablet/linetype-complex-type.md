@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9ecb845d478374f41af6157749bb7d1306797e23a89ea8a5291cd7eca31df47b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec39d81bb3033962896809a629402259b973f5a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118449812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226289"
 ---
 # <a name="linetype-complex-type"></a>Type complexe LineType
 
@@ -27,7 +27,7 @@ Définit le type qui contient une ligne de paragraphe.
 <xs:complexType name="LineType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

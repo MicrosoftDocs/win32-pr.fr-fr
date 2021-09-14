@@ -9,11 +9,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 41bb1e8f562e3e5c47c6050f550fe3c7090446be
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324625"
 ---
 # <a name="remote-desktop-web-connection"></a>Connexion Bureau à distance par le Web
 
@@ -42,24 +42,24 @@ La documentation de référence de Connexion Bureau à distance par le Web est i
 Pour plus d’informations, consultez les rubriques suivantes :
 
 -   [Implémentation de canaux virtuels scriptables à l’aide de Connexion Bureau à distance par le Web](implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md)
--   [Incorporation du contrôle Bureau à distance ActiveX dans une page Web](embedding-the-remote-desktop-activex-control-in-a-web-page.md)
--   [Téléchargement et utilisation du contrôle ActiveX Bureau à distance](/previous-versions//aa380808(v=vs.85))
--   [Utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md)
+-   [incorporation du contrôle Bureau à distance ActiveX dans une page web](embedding-the-remote-desktop-activex-control-in-a-web-page.md)
+-   [téléchargement et utilisation du contrôle Bureau à distance ActiveX](/previous-versions//aa380808(v=vs.85))
+-   [utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels](using-the-remote-desktop-activex-control-with-virtual-channels.md)
 -   [Fournir la sécurité du client RDP](providing-for-rdp-client-security.md)
 -   [Désactivation des fonctionnalités de Services Bureau à distance](disabling-terminal-services-features.md)
 
 ## <a name="installing-remote-desktop-web-connection"></a>Installation de Connexion Bureau à distance par le Web
 
-La procédure suivante permet d’installer le contrôle ActiveX Bureau à distance et l’exemple de page Web dans le répertoire% SystemRoot% \\ Web \\ TSWeb. Ils partagent la page Web dans le répertoire TSWeb sur votre serveur, par exemple, sur https://*MyServer*/TSWeb. Le contrôle (msrdp. ocx) et le code Connexion Bureau à distance par le Web se trouvent dans Msrdp.cab.
+les étapes suivantes installent les Bureau à distance ActiveX contrôle et l’exemple de page web dans le répertoire% systemroot% \\ Web \\ Tsweb. Ils partagent la page Web dans le répertoire TSWeb sur votre serveur, par exemple, sur https://*MyServer*/TSWeb. Le contrôle (msrdp. ocx) et le code Connexion Bureau à distance par le Web se trouvent dans Msrdp.cab.
 
 **Pour installer Connexion Bureau à distance par le Web**
 
-1.  Dans l’élément Ajout/suppression de programmes du panneau de configuration, sous ajouter/supprimer des composants Windows, installez Microsoft Internet Information Services (IIS).
+1.  dans l’élément ajout/suppression de programmes du panneau de configuration, sous ajout/suppression de Windows composants, installez Microsoft Internet Information Services (IIS).
 2.  Installez le sous-composant World Wide Web service d’IIS.
 3.  Installez le sous-composant Connexion Bureau à distance par le Web du service World Wide Web.
 
-Pour obtenir une description de la page Web qui est incluse dans l’installation de Connexion Bureau à distance par le Web, consultez [exemple de page Web inclus avec le contrôle ActiveX Bureau à distance](sample-web-page-included-with-the-remote-desktop-activex-control.md).
+pour obtenir une description de la page web qui est incluse dans l’installation de Connexion Bureau à distance par le Web, consultez [exemple de page web inclus avec le contrôle ActiveX Bureau à distance](sample-web-page-included-with-the-remote-desktop-activex-control.md).
 
- 
+ 
 
- 
+ 

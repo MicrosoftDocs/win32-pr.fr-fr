@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 131869f9c54143f32780ff2ad1133b2c9ddf113c990b13be497a554caec30ba0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4dd20f95924282ae8cb0f1b0604c0e77d07766ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324326"
 ---
 # <a name="eventpayload-processingerrordatatype-element"></a>Élément EventPayload (ProcessingErrorDataType)
 
@@ -32,11 +32,11 @@ Contient des données d’événement binaires pour l’événement qui a provoq
 
 L’élément **EventPayload** est défini par le type complexe [**ProcessingErrorDataType**](eventschema-processingerrordatatype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

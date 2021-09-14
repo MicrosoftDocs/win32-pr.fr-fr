@@ -4,12 +4,12 @@ ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: Exemple de filtre dump
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5643f0334071b8c238a70ed31eee87de4e93e3637b5403d886d79f2816e39c97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bd64d1f16b0b504743890543b617a24df6bbaab8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119148732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324909"
 ---
 # <a name="dump-filter-sample"></a>Exemple de filtre dump
 

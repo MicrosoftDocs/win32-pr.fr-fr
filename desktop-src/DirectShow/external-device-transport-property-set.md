@@ -4,12 +4,12 @@ ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: Ensemble de propriétés de transport d’appareil externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ef7db31dfe80fae0178aa329ce7e3c6cd55d3a6acbef7fd5a8ccda07943bef4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85e38217af21ea1839d7c9207a4922bcff00d63a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224500"
 ---
 # <a name="external-device-transport-property-set"></a>Ensemble de propriétés de transport d’appareil externe
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d27df38f8314720c4ed16d675cdbd06424611d2ccd127a45069586875c82d77
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a3a362bea1a5cacbfd727f23504f19164c79ce65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119865519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324493"
 ---
 # <a name="selectnetworkadapter-method-of-the-win32_tsvirtualip-class"></a>Méthode SelectNetworkAdapter de la \_ classe Win32 TSVirtualIP
 
@@ -52,7 +52,7 @@ Spécifie l’adresse MAC de la carte réseau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -62,7 +62,7 @@ Si l’adresse MAC n’est pas valide ou n’existe pas, ou si le mode de virtua
 
 La méthode retourne une erreur si le paramètre est sous contrôle de stratégie de groupe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

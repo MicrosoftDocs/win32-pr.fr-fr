@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 424f7f5f6472859a06605467c427fc7b9f210a960f0920fb8593778bd757fc06
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a93695db477ebb0c7b5652419198f8f5c6370dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589022"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324333"
 ---
 # <a name="eventdatatype-complex-type"></a>Type complexe EventDataType
 
@@ -56,7 +56,7 @@ Définit les éléments de données d’événement et les structures qui contie
 
 | Élément                                                              | Type                                                               | Description                                                                                          |
 |----------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**Binaire2**](eventschema-binary-eventdatatype-element.md)           | hexBinary                                                          | Objet blob de données binaires pour les événements écrits à l’aide de la [journalisation des événements](/windows/desktop/EventLog/event-logging).<br/> |
+| [**Binaire**](eventschema-binary-eventdatatype-element.md)           | hexBinary                                                          | Objet blob de données binaires pour les événements écrits à l’aide de la [journalisation des événements](/windows/desktop/EventLog/event-logging).<br/> |
 | [**ComplexData**](eventschema-complexdata-eventdatatype-element.md) | [**ComplexDataType**](eventschema-complexdatatype-complextype.md) | Structure définie dans le modèle pour l’événement.<br/>                                |
 | [**Données**](eventschema-data-eventdatatype-element.md)               | [**Décimal**](eventschema-datafieldtype-complextype.md)          | Élément de données de niveau supérieur défini dans le modèle pour l’événement.<br/>                      |
 
@@ -76,11 +76,11 @@ Définit les éléments de données d’événement et les structures qui contie
 
 La fonction [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) affiche des tableaux et des structures sous forme d’objets BLOB binaires.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

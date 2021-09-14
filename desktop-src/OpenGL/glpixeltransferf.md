@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc2268147511a40aaf70a928c77b177f76870e65a7f40da4f2c6bf9428f67db8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6d6404c9b219b8a27dd3d422bfb85cd45ac8cac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118358569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324835"
 ---
 # <a name="glpixeltransferf-function"></a>glPixelTransferf fonction)
 
@@ -50,8 +50,8 @@ Nom symbolique du paramètre de transfert de pixels à définir. Le tableau suiv
 
 | Pname             | Type    | Valeur initiale  | Plage valide  |
 |-------------------|---------|----------------|--------------|
-| couleur de la \_ carte GL \_    | Boolean | false          | true/false   |
-| STENCIL de la \_ carte GL \_  | Boolean | false          | true/false   |
+| couleur de la \_ carte GL \_    | Booléen | false          | true/false   |
+| STENCIL de la \_ carte GL \_  | Booléen | false          | true/false   |
 | décalage de l' \_ index GL \_  | entier | 0              | (8, 8)        |
 | décalage de l' \_ index GL \_ | entier | 0              | (8, 8)        |
 | \_échelle rouge du GL \_    | entier | 1.0            | (8, 8)        |
@@ -82,7 +82,7 @@ Valeur définie pour l' *pname* .
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glPixelTransfer** définit les modes de transfert de pixels qui affectent le fonctionnement des commandes suivantes [**glCopyPixels**](glcopypixels.md), [**glCopyTexImage1D**](glcopyteximage1d.md), [**glCopyTexImage2D**](glcopyteximage2d.md), [**glCopyTexSubImage1D**](glcopytexsubimage1d.md), [**glCopyTexSubImage2D**](glcopytexsubimage2d.md), [**glDrawPixels**](gldrawpixels.md), [**glReadPixels**](glreadpixels.md), [**glTexImage1D**](glteximage1d.md), [**glTexImage2D**](glteximage2d.md), [**glTexSubImage1D**](gltexsubimage1d.md)et [**glTexSubImage2D**](gltexsubimage2d.md) . Les algorithmes qui sont spécifiés par les modes de transfert de pixels fonctionnent sur les pixels après qu’ils ont été lus à partir de trame (**glReadPixels** et **glCopyPixels**) ou décompressés de la mémoire du client (**glDrawPixels**, **glTexImage1D** et **glTexImage2D**). Les opérations de transfert de pixels se produisent dans le même ordre, et de la même manière, quelle que soit la commande ayant entraîné l’opération de pixel. Les modes de stockage en pixels ([**glPixelStore**](glpixelstore-functions.md)) contrôlent la décompression des pixels lus à partir de la mémoire du client et la compression des pixels en cours de réécriture dans la mémoire du client.
 
@@ -139,7 +139,7 @@ Les fonctions suivantes récupèrent les informations relatives à **glPixelTran
 
 **glGet** avec argument de profondeur GL d’argument \_ \_
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

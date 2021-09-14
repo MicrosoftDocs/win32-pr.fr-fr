@@ -29,12 +29,12 @@ keywords:
 - CPS (système de protection du contenu)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 981e601c21dc3ee8f54e256c40453bf24580cf46c261d41ea5dd1d9afa1ffbbf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20fc20cfd682df975c10a8f39785c0e8d69610d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119027897"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225985"
 ---
 # <a name="drm-import"></a>Importation DRM
 

@@ -5,11 +5,11 @@ title: LSA_ENUMERATION_HANDLE (Ntsecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5db71e9522a188956a7aa838b11ba74f08bde39c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324736"
 ---
 # <a name="lsa_enumeration_handle"></a>\_handle d’énumération LSA \_
 
@@ -24,14 +24,14 @@ typedef ULONG LSA_ENUMERATION_HANDLE, *PLSA_ENUMERATION_HANDLE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Ntsecapi. h</dt> </dl> |
 
 

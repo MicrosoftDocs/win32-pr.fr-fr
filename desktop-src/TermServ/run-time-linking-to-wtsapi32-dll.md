@@ -5,12 +5,12 @@ ms.assetid: b8227e65-be08-4045-a74e-dd3f398a7b9f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc686f26029ee9bfa4332215e27a587a7e57b78de9bd0d1043ee58541ef76194
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c53a992955876bf812a87168d2c74b776cf0d4e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118127494"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324517"
 ---
 # <a name="run-time-linking-to-wtsapi32dll"></a>Run-Time la liaison à Wtsapi32.dll
 

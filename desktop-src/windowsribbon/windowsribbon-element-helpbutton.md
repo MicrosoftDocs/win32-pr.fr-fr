@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: f138b615b0ae4a4e7a163364938808d945b60eb5
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623495"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226145"
 ---
 # <a name="helpbutton-element"></a>Élément HelpButton
 
 Représente le contrôle de [bouton d’aide](windowsribbon-controls-helpbutton.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <HelpButton
@@ -54,7 +54,7 @@ Représente le contrôle de [bouton d’aide](windowsribbon-controls-helpbutton.
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>No<br/></td>
+<td>Non<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -77,7 +77,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Optionnel.
 

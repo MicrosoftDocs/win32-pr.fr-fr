@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 02c30f7fbf0030cd62dff221586cf4d44c90f473
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029255"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324638"
 ---
 # <a name="remote-desktop-services-web-access-control-interfaces"></a>Interfaces de contrôle de Accès web Services Bureau à distance
 
@@ -43,9 +43,9 @@ Expose une méthode qui associe Connexions aux programmes RemoteApp et aux servi
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0f809c71-a3bd-4c62-8086-9651ea1a3400
 title: Objets d’assistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98464c31548309b50e21b2b8e3e20a867efe7ca647d7a9879efd0ef346e6a147
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac5193003abd10d9fa2c311b250272d9ad5847a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118999479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324369"
 ---
 # <a name="helper-objects"></a>Objets d’assistance
 

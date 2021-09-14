@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5c6f645d134ccf5fa786ff59cf0bc6cd37211af0cb2571bbc9955e5bb6367a97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b429c5fd4d3d0e0e28cd0662fbee0a1ac926ddc5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224913"
 ---
 # <a name="cimagepalettecopypalette-method"></a>Méthode CImagePalette. CopyPalette
 
@@ -57,15 +57,15 @@ Pointeur vers le type de média de destination.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK si la palette a été copiée. Retourne \_ la valeur S false si le type de média source ou de destination n’a pas de palette.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de média *pDEST* doit être un format en palette avec une profondeur de couleur de 8 bits ou moins. Le type de média *pSrc* peut être n’importe quel type de [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) avec une palette, y compris les formats YUV et couleurs vraies avec des entrées de palette. La méthode copie les entrées de palette de *pSrc* dans une nouvelle palette, puis attache la nouvelle palette à *pDEST*.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

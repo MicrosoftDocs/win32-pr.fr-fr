@@ -21,12 +21,12 @@ keywords:
 - clés de contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c63f55cd825de197ea7e13d9215971e1d3153aabb23ee41924a65f91849c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 881dfd0d318d7d699b44ca9c3f77f22f9acfc689
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226044"
 ---
 # <a name="create-content-key-example"></a>Exemple de création d’une clé de contenu
 

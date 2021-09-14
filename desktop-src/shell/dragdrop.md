@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c45fc01709c50fd309c285cb486474cab2f1d8ac0b20c56bb7e21578cb8138f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b04523d0ae22eac7bef68f37a6d22ac94b21e303
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120090619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226985"
 ---
 # <a name="transferring-shell-objects-with-drag-and-drop-and-the-clipboard"></a>Transfert d’objets Shell avec glisser-déplacer et le presse-papiers
 

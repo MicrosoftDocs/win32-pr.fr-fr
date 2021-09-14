@@ -5,11 +5,11 @@ title: Constantes LINETOLLLISTOPTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 731bc284c4976ba150bda0df0c3f417b40a3a07a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528475"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324695"
 ---
 # <a name="linetolllistoption_-constants"></a>\_Constantes LINETOLLLISTOPTION
 
@@ -41,7 +41,7 @@ Un préfixe doit être supprimé de la liste de numéros de téléphone.
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

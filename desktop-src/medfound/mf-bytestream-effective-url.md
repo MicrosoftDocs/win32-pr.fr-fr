@@ -4,12 +4,12 @@ ms.assetid: 0A83CFC0-7EAA-464B-BA39-50DF220AF683
 title: Attribut MF_BYTESTREAM_EFFECTIVE_URL (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98f26ece6ef4b0c4b25629f6669296cec56e23a4bf28b7e284b343e16c0df512
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b95e01238f04c30f72d55f940b3f3105863247ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119941079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314082"
 ---
 # <a name="mf_bytestream_effective_url-attribute"></a>\_Attribut d' \_ URL efficace BYTESTREAM \_ MF
 
@@ -27,11 +27,11 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/d
 
 [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’URL effective peut être différente de l’URL d’origine si l’URL d’origine contient des informations supplémentaires, telles que des chaînes ou des ancres de recherche, ou si la demande a été redirigée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

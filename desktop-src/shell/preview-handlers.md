@@ -4,12 +4,12 @@ ms.assetid: 166a4001-d237-44a4-a457-e320e995639c
 title: Gestionnaires d’aperçus et hôte de l’interpréteur de commandes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5ccc6c2a519b4f9646e76a0a0ef4d0d26348e08d114eb9a080aaee09a75b9f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 993c6c8e7b15d9bfc24b5dd42352407a3a53c45b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858761"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226812"
 ---
 # <a name="preview-handlers-and-shell-preview-host"></a>Gestionnaires d’aperçus et hôte de l’interpréteur de commandes
 

@@ -4,12 +4,12 @@ ms.assetid: a30cbb99-522c-4752-bfcd-75be608785f1
 title: Fonctions de requête de base de données de carte à puce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54050ad6e6b5b4d7e8c91f7cdefab683274d153050100545c9e1ed5452c47cdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd74c15eb475d5de9ccce84ba5936b724c0d8d82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118917795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324772"
 ---
 # <a name="smart-card-database-query-functions"></a>Fonctions de requête de base de données de carte à puce
 

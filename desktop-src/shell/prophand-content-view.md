@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 83f70649bd0eb022bde9cc4a8c69e0df162fe2551268f611390bae835409e939
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81982d2242a7ea466c10e7d0ee37d899eea3e687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117858710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226793"
 ---
 # <a name="content-view-by-file-type-or-kind"></a>Affichage du contenu par type de fichier ou par type
 

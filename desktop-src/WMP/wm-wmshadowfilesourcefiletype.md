@@ -12,24 +12,24 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fecddc4ddaf1d28b464a2d120c5d7fea11779784ed6ec496cdddcb1a09a9ded
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01fc2eb3d91cd05493f98c75d3b7ada3132816ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324246"
 ---
 # <a name="wmwmshadowfilesourcefiletype-windows-media-player-sdk"></a>WM/WMShadowFileSourceFileType (kit de développement logiciel (SDK) Lecteur Windows Media)
 
 **WM/WMShadowFileSourceFileType** est le type de fichier du fichier contenu dans le fichier caché.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un fichier caché peut être un wrapper pour un fichier source. Cet attribut est une chaîne qui contient l’extension de nom de fichier (sans séparateur de points) pour le fichier source. Par exemple, si le fichier source est un fichier AAC, cet attribut contient la chaîne « AAC ».
 
 Le fichier Shadow est spécifié à l’aide de l’attribut [ShadowFilePath](shadowfilepath-attribute.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

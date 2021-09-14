@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f55025c84b8ab7e7114f5a1746d84f8fbdb6b0a7dfe952abfe84efb980430881
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5fb384eed80c6a614af448477c50be3204d3080
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119546319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324938"
 ---
 # <a name="win32_driverfordevice-class"></a>\_Classe DriverForDevice Win32
 
@@ -81,11 +81,11 @@ Cette propriété est héritée de la [**\_ dépendance CIM**](cim-dependency.md
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ DriverForDevice** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 50a6df8e-1055-4964-a3d1-8e0ee8a74edc
 title: System. DeviceInterface. PrinterEnumerationFlag
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5d9fd2b02244d7421aea8d8cfaf4ef2a46a6ba4554cf3af09c7e7a1d10c841f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 228a5c91088ce1ff2e94a6081f772f56e8f0d366
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227305"
 ---
 # <a name="systemdeviceinterfaceprinterenumerationflag"></a>System. DeviceInterface. PrinterEnumerationFlag
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

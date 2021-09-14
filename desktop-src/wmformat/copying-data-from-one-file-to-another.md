@@ -9,12 +9,12 @@ keywords:
 - flux, copie de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2fe8369a8e3ebef6bca191ceffdac7c284889b0afdb4145fbec9c44702a1a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b8b38a1675ac79630371fe4d3fda66d44b4b2990
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118705074"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226068"
 ---
 # <a name="copying-data-from-one-file-to-another"></a>Copie de données d’un fichier vers un autre
 

@@ -5,11 +5,11 @@ title: Constantes LINETERMSHARING_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a2587621b6362195a610339ba5620b32f1d4f761
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324696"
 ---
 # <a name="linetermsharing_-constants"></a>\_Constantes LINETERMSHARING
 
@@ -53,7 +53,7 @@ Aucune extensibilité. Tous les 32 bits sont réservés.
 
 Ces constantes décrivent les classes de flux de contrôle et d’informations qui peuvent être acheminées directement entre un appareil de ligne et un périphérique terminal (tel qu’un ensemble de téléphones).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

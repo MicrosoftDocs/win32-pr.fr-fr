@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f1edce18d0dc8283a134972e8f0e2f79ce0ff98148bf6333d4048adbc14f2d88
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0c2b36ff17931133d0dc4529e34f31ac24e00653
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324939"
 ---
 # <a name="win32_dmachannel-class"></a>\_Classe canal DMA Win32
 
@@ -797,11 +797,11 @@ Exécuter en mode « nombre par mot »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ canal DMA** est dérivée [**de \_ DMA CIM**](cim-dma.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

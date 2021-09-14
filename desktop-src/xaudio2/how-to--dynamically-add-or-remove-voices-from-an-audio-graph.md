@@ -4,12 +4,12 @@ ms.assetid: b2f9ec6a-4b5b-e618-759b-d7dbc0d97ac4
 title: 'Procédure : Ajouter ou supprimer dynamiquement des voix d’un graphique audio'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a49cfc88e89884b63484b7bd58f7f5d96020cd21f8d1147794b840f00258fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdb26150b5614ec53e4cc4de5af74e9a14ee2a94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119082933"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225516"
 ---
 # <a name="how-to-dynamically-add-or-remove-voices-from-an-audio-graph"></a>Procédure : Ajouter ou supprimer dynamiquement des voix d’un graphique audio
 

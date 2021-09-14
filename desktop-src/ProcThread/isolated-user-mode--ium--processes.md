@@ -4,12 +4,12 @@ ms.assetid: 58374CC4-593F-4B91-A5E4-85E29C44F8B4
 title: Processus de mode utilisateur isolé (IUM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 982d9924f60d02a74aa7237e5c3bb16e787f1d3a0cc07e9693e9cd47335cedc5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81a176421174a58abe4ab595bb37ab75434edade
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324831"
 ---
 # <a name="isolated-user-mode-ium-processes"></a>Processus de mode utilisateur isolé (IUM)
 
@@ -39,7 +39,7 @@ Il n’est pas possible d’effectuer un attachement à un processus IUM, ce qui
 
 Utilisez l’exemple de code ci-dessous pour empêcher l’appel de fonctions qui tentent d’attacher ou d’injecter du code dans un processus IUM. Cela comprend les pilotes de noyau qui défilent les APC pour l’exécution de code dans un trustlet.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’état de retour de IsSecureProcess est Success, examinez \_ le \_ paramètre out SecureProcess pour déterminer si le processus est un processus ium. Les processus IUM sont marqués par le système comme « processus sécurisés ». Un résultat booléen TRUE signifie que le processus cible est de type IUM.
 

@@ -6,12 +6,12 @@ keywords:
 - Serveur RDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ee18b62bf78bc30aa07cc861963c03baa90c1fd4bc405207b1586ee6167f58
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b6588b029fe37f1312c709be168fd695bdc5738
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226244"
 ---
 # <a name="remote-data-service-server-components-are-removed-in-windows-8"></a>Les composants du serveur de services de données distants sont supprimés dans Windows 8
 

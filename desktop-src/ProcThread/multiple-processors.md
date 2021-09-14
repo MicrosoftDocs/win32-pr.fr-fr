@@ -4,12 +4,12 @@ ms.assetid: 3c9186c8-a54d-4536-8237-bfff78cc7d11
 title: Plusieurs processeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d28b381faaceb5a171ddcf33c0705fee144f98952c4d473c0db8c7d99050deb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0093404a0df653a153823915f1ac72b5e41d50c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324818"
 ---
 # <a name="multiple-processors"></a>Plusieurs processeurs
 

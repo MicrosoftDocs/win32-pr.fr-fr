@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 56da848f3829f56d93d7d0383dc7fdc1ec6d5bfd995c2c74507d05eb13801fb4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d4c2d222ca4dd184adfe41f9f610b10f15ee9f02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119584809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224668"
 ---
 # <a name="ctransformoutputpinqueryid-method"></a>CTransformOutputPin. QueryId, méthode
 
@@ -49,7 +49,7 @@ Reçoit une chaîne contenant l’identificateur de code confidentiel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -65,11 +65,11 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’identificateur de code confidentiel est utilisé pour la persistance des graphiques. L’identificateur de code confidentiel pour cette classe est out. Cette classe remplace le comportement de la classe [**CBasePin**](cbasepin.md) . Dans la classe **CBasePin** , l’identificateur de code confidentiel est le même que le nom du code confidentiel, spécifié dans le constructeur de classe. Dans la classe **CTransformInputPin** , l’identificateur de code confidentiel et le nom du code confidentiel ne sont pas identiques.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

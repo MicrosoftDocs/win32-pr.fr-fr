@@ -4,12 +4,12 @@ ms.assetid: 6c35ce42-07be-4d47-a14e-ed5a361dbe33
 title: Noms de sujets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be70af23c524e71c1a9b22f43e391e4f5c8302fba70f24fba1f8268ebfda6e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 226c294e75477a3960cd0ad824a98b3556c34322
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324769"
 ---
 # <a name="subject-names"></a>Noms de sujets
 

@@ -14,11 +14,11 @@ api_location:
 - Wfext.h
 ms.assetid: d8339f87-ba05-40bf-b7d1-a9de29eb15a4
 ms.openlocfilehash: b1188840299a101081c5c29d0e5658963ca7a72e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226977"
 ---
 # <a name="fms_getfilesel-structure"></a>\_GETFILESEL-structure FMS
 

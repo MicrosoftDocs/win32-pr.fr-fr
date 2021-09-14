@@ -4,12 +4,12 @@ ms.assetid: f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1
 title: Attribut MF_EVENT_TOPOLOGY_STATUS (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fecee6003b0275301a29b32ac34d03db32a22017ab1e828536c0631327f79ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee3c6e00722239103058ca584ee1da28778511c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314045"
 ---
 # <a name="mf_event_topology_status-attribute"></a>Attribut d’état de la \_ topologie des événements MF \_ \_
 
@@ -19,7 +19,7 @@ Spécifie l’état d’une topologie pendant la lecture.
 
 **UINT32**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de cet attribut est un membre de l’énumération [**MF \_ TOPOSTATUS**](/windows/desktop/api/mfapi/ne-mfapi-mf_topostatus) .
 
@@ -27,7 +27,7 @@ Cet attribut est utilisé avec l’événement [MESessionTopologyStatus](mesessi
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

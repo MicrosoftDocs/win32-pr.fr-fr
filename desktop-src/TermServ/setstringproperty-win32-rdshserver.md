@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2715271bcb73efd15acbef2097a29a978774e575a4fb115a9ef9e727e3efa91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53d30812c0df943175f96c8ae43a4fe094725c74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118349390"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324370"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdshserver-class"></a>Méthode SetStringProperty de la \_ classe Win32 RDSHServer
 
@@ -58,11 +58,11 @@ Nouvelle valeur de la propriété.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 en cas de réussite, sinon retourne un code d’erreur WMI.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

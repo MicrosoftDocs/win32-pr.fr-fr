@@ -4,12 +4,12 @@ ms.assetid: d914f873-0e61-45b4-8deb-eaff854f18b7
 title: System. photo. FocalLengthInFilm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e30d2dbc5bdd0749675759760845bcc01634b6922afc8dc5c32a1edac331ec99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a3705e45ac04dc3625f42d0a9f31c570d8e5902
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118229677"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227068"
 ---
 # <a name="systemphotofocallengthinfilm"></a>System. photo. FocalLengthInFilm
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

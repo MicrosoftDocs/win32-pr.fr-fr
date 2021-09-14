@@ -4,12 +4,12 @@ ms.assetid: c702eb37-b55f-4707-ae0a-8aba11997ef3
 title: Exemple de filtre EZRGB24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2010820a1675ff39cfc9ad08c8ae3a077572067d0a7e9222af862f4a0f8f3cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afea27746aa2fbe358735a0d98f4de968f8bb114
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015777"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224484"
 ---
 # <a name="ezrgb24-filter-sample"></a>Exemple de filtre EZRGB24
 

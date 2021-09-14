@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - checkbmi.h
-ms.openlocfilehash: 48d9deab4d87868cbc9e5418ccd6b7e2c7e9ecf93350ad70cb6c934d365e4655
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ec092bdea1e3dd00de36893d1816f70ca6d7945
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074183"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224916"
 ---
 # <a name="checkvideoinfo2type-function"></a>CheckVideoInfo2Type fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers la structure de [**\_ \_ type de média am**](/windows/win32/api/s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -67,11 +67,11 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction appelle [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) pour valider la structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) dans le type de média. Si le type de format n’est pas le **format \_ VideoInfo2**, la fonction retourne un **\_ type VFW E \_ \_ non \_ accepté**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

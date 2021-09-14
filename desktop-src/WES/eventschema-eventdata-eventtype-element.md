@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 849dd3925dafaec253842ac28d16ff61adb484e916bea698bff8be8cc59a2228
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b081f02626b7a89a99f5e6bd2785617a2599c22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324334"
 ---
 # <a name="eventdata-eventtype-element"></a>EventData (EventType) (élément)
 
@@ -32,11 +32,11 @@ Contient les données d'événement.
 
 L’élément **EventData** est défini par le type complexe [**eventType**](eventschema-eventtype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

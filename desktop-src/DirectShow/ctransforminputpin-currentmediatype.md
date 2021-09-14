@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2e313cc132f325b57a09e2b8609bc14f052aaaac69187ac4468ee1d5471d2442
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 011f4eeda7f4a278baeceeadc7c21a822ae02b74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053578"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224841"
 ---
 # <a name="ctransforminputpincurrentmediatype-method"></a>Méthode CTransformInputPin. CurrentMediaType
 
@@ -40,11 +40,11 @@ CMediaType& CurrentMediaType();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une référence à la variable de membre [**CBasePin :: m \_ MT**](cbasepin-m-mt.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

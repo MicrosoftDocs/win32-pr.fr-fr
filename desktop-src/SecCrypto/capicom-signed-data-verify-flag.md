@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 8f087a9a28d06e63bc19d75974bccba05da4c77658f81401fd994a7eadb9726a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc8db48ee067e8d12bffa9dbff433384058013b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772083"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324754"
 ---
 # <a name="capicom_signed_data_verify_flag-enumeration"></a>\_Énumération de l' \_ \_ indicateur de vérification des données signées CAPICOM \_
 
@@ -35,7 +35,7 @@ L’énumération de l' **\_ indicateur de \_ \_ vérification \_ des données s
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

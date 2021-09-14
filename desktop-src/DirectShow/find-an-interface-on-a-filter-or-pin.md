@@ -4,12 +4,12 @@ ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Rechercher une interface sur un filtre ou un code PIN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17314f7e44e4b2c4f412dd0d152e038203268c29d585cd684ddde9eb34992a2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d264a35e0c33ba53f6a8df7f69113f3358a9737
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819561"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224404"
 ---
 # <a name="find-an-interface-on-a-filter-or-pin"></a>Rechercher une interface sur un filtre ou un code PIN
 

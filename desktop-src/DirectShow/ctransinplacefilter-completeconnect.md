@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6185204c41e177207d32c321985c021a93ea20506da5f4279cd3134a12952097
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9cc0bc839a4e35c4ce896acdf50da10f0c2bb0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224644"
 ---
 # <a name="ctransinplacefiltercompleteconnect-method"></a>Méthode CTransInPlaceFilter. CompleteConnect
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un **HRESULT**. Les valeurs possibles sont les suivantes :
 
@@ -72,7 +72,7 @@ Retourne un **HRESULT**. Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CTransformFilter :: CompleteConnect**](ctransformfilter-completeconnect.md) .
 
@@ -83,7 +83,7 @@ Le comportement du filtre dépend de l’ordre des connexions de code confidenti
 
 Le filtre effectue toutes les reconnexions de code confidentiel en appelant la méthode [**CBaseFilter :: ReconnectPin**](cbasefilter-reconnectpin.md) . La méthode **ReconnectPin** appelle à son tour la méthode [**IFilterGraph2 :: ReconnectEx**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph2-reconnectex) sur le gestionnaire de graphique de filtre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

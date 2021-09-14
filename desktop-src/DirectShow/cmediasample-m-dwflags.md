@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1d14f2e85085886ff36edec0091da13aaa85a50a55bbaa6b998a977a3390403e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fa926a11b8b836487612c28e0135496bb4e91b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224881"
 ---
 # <a name="cmediasamplem_dwflags-member"></a>CMediaSample :: m \_ dwFlags, membre
 
@@ -36,7 +36,7 @@ DWORD m_dwFlags;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

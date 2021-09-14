@@ -4,12 +4,12 @@ ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: Filtre de source de fichier (URL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a096d25e5e04246385ece9662ed93e209115756491b1a3581cbb01de38225e66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0ddfa7282adbf5117bd2c52465c6eb30efbd69e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224441"
 ---
 # <a name="file-source-url-filter"></a>Filtre de source de fichier (URL)
 
@@ -34,7 +34,7 @@ Le filtre de source du fichier d’URL est un filtre de source asynchrone géné
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce filtre utilise URLMon et prend en charge les pages de codes.
 

@@ -5,12 +5,12 @@ ms.assetid: b9ec2e4b-99c7-4f0d-9706-45a98446ca04
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f98c09a172c69ada01331cf36b362ca969eaf9fd916bef715287a9d288d00a9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 023738e7845801cc6d3ca3f4c00f5609b8406ca9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324494"
 ---
 # <a name="scriptable-virtual-channels"></a>Canaux virtuels scriptables
 

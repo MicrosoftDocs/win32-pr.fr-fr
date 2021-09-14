@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété FontProperties ForegroundColorType d
 ms.assetid: ab04c0b0-911f-4649-9ce8-5ecd847abf9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d26b324a4e504c5ef98850f2bbcabd55b34525650b0ecfd3c201d45896e0c800
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f261256a36ee7a387c6c3a695d8c1182898690c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118438648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226108"
 ---
 # <a name="ui_pkey_fontproperties_foregroundcolortype"></a>IU \_ \_ FontProperties \_ ForegroundColorType
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_SWATCHCOLORTYPE
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface utilisateur \_ \_ FontProperties \_ ForegroundColorType est utilisée par une application, conjointement avec [l' \_ UI \_ hyperFontProperties \_ ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md), pour interroger les paramètres de la Galerie de **couleurs de texte** .
 

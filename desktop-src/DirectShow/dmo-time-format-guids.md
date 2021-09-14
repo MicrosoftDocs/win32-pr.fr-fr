@@ -4,12 +4,12 @@ ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
 title: DMO GUID de format d’heure (Medparam. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e55c74a0c52e9af0c4536d2a6c9c45b303e0bae57b39b679aec02f0e0769624c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2559c702ed7310343aea017bacec28a154ab3cb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118653049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324919"
 ---
 # <a name="dmo-time-format-guids"></a>DMO GUID de format d’heure
 
@@ -25,7 +25,7 @@ Le tableau suivant répertorie les identificateurs globaux uniques (GUID) défin
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

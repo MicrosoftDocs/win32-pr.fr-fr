@@ -4,12 +4,12 @@ ms.assetid: 52e587c1-4925-4184-9a3e-f29795b72883
 title: System. Devices. AEP. Bluetooth. Le IsConnectable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64bad00b8d2c7cd4b1e37aae1c5a36c8f0a53ed248549bd9314e5a49be315431
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e4da2a6b2116d1913c9631466b603e5dba1570e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119599039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227260"
 ---
 # <a name="systemdevicesaepbluetoothleisconnectable"></a>System. Devices. AEP. Bluetooth. Le IsConnectable
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

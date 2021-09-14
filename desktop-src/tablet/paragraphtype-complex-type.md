@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5afbe8484b609ee9ac2b4fc1f0019e665e8bd0d6a3a1ecb7367d288aa96445c0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e7e6f58ce0eb4d1079c1346d92c4894ee1e70e12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119222869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226276"
 ---
 # <a name="paragraphtype-complex-type"></a>Type complexe ParagraphType
 
@@ -27,7 +27,7 @@ Définit le type qui contient un paragraphe dans un document journal.
 <xs:complexType name="ParagraphType" />
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

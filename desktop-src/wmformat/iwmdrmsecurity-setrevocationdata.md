@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6e3ece5a9285420261add123a61d0b7123896e2d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225881"
 ---
 # <a name="iwmdrmsecuritysetrevocationdata-method"></a>IWMDRMSecurity :: SetRevocationData, méthode
 
@@ -56,7 +56,7 @@ GUID spécifiant le type de liste de révocation. Définissez l’une des consta
 |-------------------------------|----------------------------------------------------------------------------------|
 | \_application REVOCATIONTYPE \_ WMDRM    | Spécifie la liste de révocation des certificats d’application.                           |
 | \_appareil REVOCATIONTYPE \_ WMDRM | Spécifie la liste de révocation de certificats de l’appareil.                                |
-| \_REVOCATIONTYPE WMDRM \_ CARDEA | Spécifie la liste de révocation de certificats Windows Media DRM pour les périphériques réseau. |
+| \_REVOCATIONTYPE WMDRM \_ CARDEA | spécifie la Windows Media DRM pour les périphériques réseau liste de révocation de certificats. |
 
 
 
@@ -78,9 +78,9 @@ Taille de la mémoire tampon, en octets.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -92,7 +92,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

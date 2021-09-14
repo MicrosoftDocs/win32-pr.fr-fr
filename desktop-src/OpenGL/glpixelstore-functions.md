@@ -13,12 +13,12 @@ keywords:
 - pixels, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a12b832253b347773fefeb299b8c0d5c89bd22d954cd1ccb0e88fd937f9be4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5205b8e0d8335aadd67330bf8f883e7066e360fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118615360"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324842"
 ---
 # <a name="glpixelstore-functions"></a>glPixelStore, fonctions
 

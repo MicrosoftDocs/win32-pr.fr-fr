@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: c28f8357edd88322f6f4498fd1e5b7156eeeff0b67d53b4d759c6935f4e9f9eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aedb834bdfd26ce4b348a41b4046c0c4e2c7e260
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324733"
 ---
 # <a name="isautounlockkeystored-method-of-the-win32_encryptablevolume-class"></a>Méthode IsAutoUnlockKeyStored de la \_ classe Win32 EncryptableVolume
 
@@ -48,7 +48,7 @@ La **valeur est true** si des informations pouvant être utilisées pour déverr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -66,7 +66,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**ClearAllAutoUnlockKeys**](clearallautounlockkeys-win32-encryptablevolume.md) pour supprimer toutes les informations de déverrouillage du volume du système d’exploitation en cours d’exécution.
 
@@ -76,7 +76,7 @@ Les informations utilisées pour déverrouiller un volume sont stockées lors de
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

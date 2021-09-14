@@ -4,12 +4,12 @@ ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: Attribut MF_BYTESTREAM_IFO_FILE_URI (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab4349f3319a875f428921b0a99aefa61e49340c240a87260c1132abcc7c45f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1c80e015b68272b073c442b4064c80a6787b811
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119723469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127314081"
 ---
 # <a name="mf_bytestream_ifo_file_uri-attribute"></a>\_Attribut d' \_ \_ URI de fichier IFO BYTESTREAM MF \_
 
@@ -29,13 +29,13 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/d
 
 [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le flux d’octets HTTP recherche la chaîne « ifoFileURI.dlna.org » dans l’en-tête HTTP. Si la chaîne est trouvée, elle est copiée dans cet attribut sur le flux d’octets.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

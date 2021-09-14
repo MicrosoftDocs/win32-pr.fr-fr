@@ -4,12 +4,12 @@ ms.assetid: 5456392d-2557-43b6-93b7-b2ebde218d12
 title: Interfaces d’encodage et de décodage de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6654497b0d2407666b286fb74f06a91e66834cfb963b62b7e22eb5755fa30b0a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f73de2304f2b473a634127755ca900b99592ed63
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119639659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224457"
 ---
 # <a name="file-encoding-and-decoding-interfaces"></a>Interfaces d’encodage et de décodage de fichier
 

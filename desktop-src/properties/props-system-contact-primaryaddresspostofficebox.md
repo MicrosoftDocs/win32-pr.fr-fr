@@ -4,12 +4,12 @@ ms.assetid: b63eaeff-1460-4b13-b742-f3535d05a2e4
 title: System. contact. PrimaryAddressPostOfficeBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c1b77c6918b715fa9aa445ba0171c700161c11f9f9536cb9985bd483d135fac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13286625830e8d56b1623de8817f95fa73ccceec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118729140"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227333"
 ---
 # <a name="systemcontactprimaryaddresspostofficebox"></a>System. contact. PrimaryAddressPostOfficeBox
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

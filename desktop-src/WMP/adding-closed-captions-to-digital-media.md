@@ -24,12 +24,12 @@ keywords:
 - Ajouter des sous-titres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed101fe7d3e5b9bebdf7ffdc53faac3e79e625c89b0b645fc69d7c2e758a8f0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc464fb879df1c7642cd0a04b319383654bae4aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119865179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324302"
 ---
 # <a name="adding-closed-captions-to-digital-media"></a>Ajout de sous-titres à des médias numériques
 

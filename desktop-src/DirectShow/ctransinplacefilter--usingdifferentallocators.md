@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0033c0f5ded1fe741d27397078367049d72061c40a993833f714686d9f8a96fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f20802836adb665614e2bbfb8cb79bdccd5a36ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953418"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224641"
 ---
 # <a name="ctransinplacefilterusingdifferentallocators-method"></a>Méthode CTransInPlaceFilter. UsingDifferentAllocators
 
@@ -40,11 +40,11 @@ BOOL UsingDifferentAllocators() const;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si les broches d’entrée et de sortie utilisent différents allocators, ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

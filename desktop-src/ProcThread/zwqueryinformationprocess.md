@@ -15,11 +15,11 @@ api_location:
 - Ntdll.dll
 - ntoskrnl.exe
 ms.openlocfilehash: af47ecbe69c4c0449cf6e3282e0992e8a513b5a0
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324803"
 ---
 # <a name="zwqueryinformationprocess-function"></a>ZwQueryInformationProcess fonction)
 
@@ -192,7 +192,7 @@ Retourne un code d’erreur ou de réussite NTSTATUS.
 
 Les formulaires et la signification des codes d’erreur de NTSTATUS sont répertoriés dans le fichier d’en-tête Ntstatus. h disponible dans le DDK, et sont décrits dans la documentation du DDK sous Kernel-Mode architecture du pilote/Guide de conception/Guide de conception/techniques de programmation des pilotes/erreurs de journalisation.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la fonction **ZwQueryInformationProcess** et les structures qu’elle retourne sont internes au système d’exploitation et peuvent être modifiées d’une version de Windows à une autre. Pour maintenir la compatibilité de votre application, il est préférable d’utiliser à la place les fonctions publiques mentionnées dans la description du paramètre *ProcessInformationClass* .
 
@@ -200,7 +200,7 @@ Si vous utilisez **ZwQueryInformationProcess**, accédez à la fonction via la [
 
 Cette fonction n’a pas de bibliothèque d’importation associée. Vous devez utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

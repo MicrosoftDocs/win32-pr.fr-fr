@@ -4,12 +4,12 @@ ms.assetid: 3FC1E36D-A03F-44ef-AD49-EE2F51703DBB
 title: System. DeviceInterface. PrinterPortName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a312d80a41e5de3f7771706a3e056c2b684a9eddaa2642e5f4524852841ba0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f94e7f39bf1ab16899b7c16553a8e6249169914
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098010"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227300"
 ---
 # <a name="systemdeviceinterfaceprinterportname"></a>System. DeviceInterface. PrinterPortName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

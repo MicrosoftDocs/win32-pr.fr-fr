@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ddd064934eea6ef2c88a4304466b15811910e8e352041e7242c75650dd54b2a7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1dd0bf38f2fa3be0e077f2509001680bbfc84e15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119812779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224700"
 ---
 # <a name="ctransformoutputpingetmediatype-method"></a>Méthode CTransformOutputPin. GetMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -72,11 +72,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CBasePin :: GetMediaType**](cbasepin-getmediatype.md) . Si la broche d’entrée du filtre n’est pas connectée, la méthode retourne VFW \_ s \_ n’a plus d' \_ \_ éléments. Sinon, elle appelle la méthode [**CTransformFilter :: GetMediaType**](ctransformfilter-getmediatype.md) du filtre pour récupérer le type de média. La méthode **CTransformFilter :: GetMediaType** est virtuelle pure ; la classe dérivée du filtre doit être substituée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

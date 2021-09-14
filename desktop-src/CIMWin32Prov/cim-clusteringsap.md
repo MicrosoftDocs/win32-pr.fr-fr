@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0ef9ac5114fb88b6c734712830e5e85cee043c6f9cea5a04c365290cbd496515
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc2d0296201e06382563cc3a0c34fec4d668cd58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117834740"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225436"
 ---
 # <a name="cim_clusteringsap-class"></a>\_Classe CIM ClusteringSAP
 
@@ -360,7 +360,7 @@ Cette propriété est héritée de [**CIM \_ ServiceAccessPoint**](cim-serviceac
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ ClusteringSAP** est dérivée de [**CIM \_ ServiceAccessPoint**](cim-serviceaccesspoint.md).
 
@@ -368,7 +368,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

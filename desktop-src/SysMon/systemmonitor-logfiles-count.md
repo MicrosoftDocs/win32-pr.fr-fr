@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 544a5d260a8c2f58399f57b13a396bf198159dfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465410"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324710"
 ---
 # <a name="logfilescount-property"></a>LogFiles. Count (propriété)
 
@@ -42,7 +42,7 @@ Property Count As Long
 
 Nombre de fichiers journaux dans la collection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

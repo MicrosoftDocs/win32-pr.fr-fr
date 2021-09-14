@@ -4,12 +4,12 @@ description: L’interaction est la variété des manières dont les utilisateur
 ms.assetid: 1509c885-f4dc-4cf9-86a3-cc6754d3b4a0
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 09991d9b1c16c0605c89a695beb14c1117cb54fe8a5de1e2a805f6717070b1d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 869034e8d7cc8b9d7023e1511482dae203c14b49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117853278"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226252"
 ---
 # <a name="interaction"></a>Interaction
 

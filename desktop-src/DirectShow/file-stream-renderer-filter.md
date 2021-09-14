@@ -5,11 +5,11 @@ title: Filtre de convertisseur de flux de fichier
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d438d77b4f402cefed2e80f2c32d061d1652710f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224436"
 ---
 # <a name="file-stream-renderer-filter"></a>Filtre de convertisseur de flux de fichier
 
@@ -25,7 +25,7 @@ L’utilisation de ce filtre est déconseillée. Pour afficher plusieurs fichier
 | Interfaces de filtre | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
 | Types de média de broche d’entrée | <ul><li>Type majeur : MEDIATYPE_File</li><li>Sous-type : GUID_NULL</li><li>Type de format : MEDIATYPE_File</li></ul> | 
 | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>IQualityControl</strong></a> | 
-| Types de média de broche de sortie | Aucun | 
+| Types de média de broche de sortie | None | 
 | Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>IStreamBuilder</strong></a> | 
 | CLSID du filtre | CLSID_FileRend | 
 | Exécutable | Quartz.dll | 
@@ -37,7 +37,7 @@ L’utilisation de ce filtre est déconseillée. Pour afficher plusieurs fichier
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le CLSID du filtre n’est pas défini dans UUID. h. Utilisez cette macro dans votre propre fichier d’en-tête :
 

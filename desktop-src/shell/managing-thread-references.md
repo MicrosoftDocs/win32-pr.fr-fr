@@ -4,12 +4,12 @@ ms.assetid: d8d479fd-c45a-4dfa-b496-76abc7c09a42
 title: Gestion des références de thread
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6380957f5f8ef9be62e291820fe12d715f31a5f5bb5ba81b80aa1c8606478e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b629cd97c99e3b30e66810b5f54720d0dbb1c87d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226860"
 ---
 # <a name="managing-thread-references"></a>Gestion des références de thread
 

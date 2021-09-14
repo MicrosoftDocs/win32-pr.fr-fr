@@ -25,12 +25,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d8524fe1a83a6b3276c274726fa27fa7fcccb97b88f0384a54e5433d09380501
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd5c586e0f1ef2b36913dee822e461daeffbfcbf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119134362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324266"
 ---
 # <a name="using-live-event-stream-switching"></a>Utilisation du basculement de flux d’événements en temps réel
 

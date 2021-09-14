@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 387bf2e42475d27f5440afb3fa0b945c910b3ac3bad610495936cd3a4a900bbc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e412ebfe97035c4847391a7cc9166cf512897bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118882324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324716"
 ---
 # <a name="systemmonitorloadsettings-method"></a>Méthode SystemMonitor. LoadSettings
 
@@ -49,15 +49,15 @@ Chaîne HTML qui spécifie les compteurs à ajouter au moniteur système.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour enregistrer les compteurs actuels dans le moniteur système dans un fichier HTML, appelez la méthode [**systemmonitor. SaveAs**](systemmonitor-saveas.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

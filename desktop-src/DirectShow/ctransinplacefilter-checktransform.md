@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 49b7f4aaac21cf6a55360e2e1b970bd9dfa62c0422241f7356871117e138d57d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a80132723be0b70f2c4afe93306d7f581b7734c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118654958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224636"
 ---
 # <a name="ctransinplacefilterchecktransform-method"></a>Méthode CTransInPlaceFilter. CheckTransform
 
@@ -57,15 +57,15 @@ Pointeur vers un objet **CMediaType** qui spécifie le type de sortie.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre **CTransInPlace** n’appelle jamais `CheckTransform` . Au lieu de cela, toute connexion de code confidentiel utilise [**CTransformFilter :: CheckInputType**](ctransformfilter-checkinputtype.md) pour vérifier le type de média, en partant du principe que les types d’entrée et de sortie correspondent toujours.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

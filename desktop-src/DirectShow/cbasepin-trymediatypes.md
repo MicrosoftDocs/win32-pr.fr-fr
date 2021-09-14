@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1a4d4e33ca339c1ade344bb2ca9531bea381d14b4381773673b07e522437e90a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 19b8da39d07b8aae9401bdc6ccf2eecb5d3a1e88
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224985"
 ---
 # <a name="cbasepintrymediatypes-method"></a>Méthode CBasePin. TryMediaTypes
 
@@ -65,7 +65,7 @@ Pointeur vers une interface [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -80,13 +80,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour chaque type de média retourné par l’interface **IEnumMediaTypes** , cette méthode tente une connexion en appelant la méthode [**CBasePin :: AttemptConnection**](cbasepin-attemptconnection.md) .
 
 Si le paramètre *VPM* est non **null**, le code PIN ignore les types de média qui ne correspondent pas à ce type. Le paramètre *VPM* peut spécifier un type de média partiel. Un type de média partiel a une valeur de GUID \_ null pour le type principal, le sous-type ou le format. La \_ valeur null GUID correspond à n’importe quel type, similaire à une valeur « caractère générique ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

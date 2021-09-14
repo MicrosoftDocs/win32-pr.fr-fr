@@ -4,12 +4,12 @@ ms.assetid: 40958e12-09c7-4ce5-aa4d-5ed8b1f40aa3
 title: DMO Types de médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0d67be6775163695189c2dc2c2742f65bcd0181032d9935b2a2a3ce2df2e900
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1997abb1cc3c8eb10301778982ef7a46690855ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324924"
 ---
 # <a name="dmo-media-types"></a>DMO Types de médias
 

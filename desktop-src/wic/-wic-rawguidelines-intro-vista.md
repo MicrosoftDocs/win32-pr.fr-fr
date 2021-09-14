@@ -4,12 +4,12 @@ ms.assetid: e28b642c-03c8-4ecc-b5f5-e3911b8003a7
 title: Formats d’images brutes dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88026e85780706ca2bd5f23f5ca43ec49ae614d4c65e42ec19367b01b3f43423
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c48b4e3ab5b0d373dbc0313267e58177b189538
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118709857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226161"
 ---
 # <a name="raw-image-formats-in-windows-vista"></a>Formats d’images brutes dans Windows Vista
 
@@ -27,7 +27,7 @@ Plusieurs autres interfaces WIC sont importantes pour les auteurs de codec brut 
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

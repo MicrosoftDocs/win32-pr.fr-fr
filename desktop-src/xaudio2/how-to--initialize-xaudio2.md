@@ -4,12 +4,12 @@ ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
 title: 'Procédure : initialiser XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb55425c92e6d28a2689fb388869bbf42339d14bec3550e3f9e17798c1af68f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4a613c1ae2b7c3a7f0c55ab5349a0a605aaeb2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962728"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225508"
 ---
 # <a name="how-to-initialize-xaudio2"></a>Procédure : initialiser XAudio2
 

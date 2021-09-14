@@ -4,12 +4,12 @@ ms.assetid: cbc4c2ff-e08b-4ebb-a306-a80f9a6e4360
 title: Mise à jour des fonctionnalités pour une mise à niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107a6febda0c13101cc7c0615526514ebe3fee24e2aa14bac1d07794206f2de8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8af072618bd0a2ba16a7f098d6b1129ba17c27af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324901"
 ---
 # <a name="updating-features-for-an-upgrade"></a>Mise à jour des fonctionnalités pour une mise à niveau
 
@@ -25,12 +25,12 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2001.msi et entrez le
 
 
 
-| Caractéristique    | Parent de la fonctionnalité \_ | Titre         | Description                | Affichage | Niveau | Répertoire\_ | Attributs |
+| Fonctionnalité    | Parent de la fonctionnalité \_ | Intitulé         | Description                | Affichage | Level | Répertoire\_ | Attributs |
 |------------|-----------------|---------------|----------------------------|---------|-------|-------------|------------|
-| Spectacle       |                 | Spectacle          | Événements Arts au niveau du parc rouge.   | 18      | 3     | NOTEPADDIR  | 0          |
+| Arts       |                 | Arts          | Événements Arts au niveau du parc rouge.   | 18      | 3     | NOTEPADDIR  | 0          |
 | Chaussures   | Sport           | Chaussures      | Jeux de baseball             | 17      | 3     | SPORTDIR    | 32         |
-| Concert    | Spectacle            | Concert       | Événements de concert au niveau du parc rouge | 19      | 3     | ARTSDIR     | 2          |
-| Jongl      | Spectacle            | Jongl         | Événements danse au niveau du parc rouge   | 21      | 3     | ARTSDIR     | 2          |
+| Concert    | Arts            | Concert       | Événements de concert au niveau du parc rouge | 19      | 3     | ARTSDIR     | 2          |
+| Jongl      | Arts            | Jongl         | Événements danse au niveau du parc rouge   | 21      | 3     | ARTSDIR     | 2          |
 | Terrain   | Sport           | Terrain      | Jeux de football             | 13      | 3     | SPORTDIR    | 2          |
 | Porte       |                 | Porte          | Les admissions du parc rouge      | 6       | 3     | NOTEPADDIR  | 0          |
 | Aide       | Bloc-notes         | Aide          | Fichier d’aide.                 | 5       | 3     | NOTEPADDIR  | 1          |
@@ -40,7 +40,7 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2001.msi et entrez le
 | Fichier Lisezmoi     | Bloc-notes         | Fichier Lisezmoi        | Fichier Lisez-moi                | 3       | 3     | NOTEPADDIR  | 0          |
 | Sport      |                 | Événements sportifs  | Événements sportifs chez Red Park   | 12      | 3     | NOTEPADDIR  | 0          |
 | Isole | Sport           | Isole    | Jeux de basket           | 15      | 3     | SPORTDIR    | 2          |
-| Opera      | Spectacle            | Opera         | Performances Opera         | 23      | 3     | ARTSDIR     | 2          |
+| Opera      | Arts            | Opera         | Performances Opera         | 23      | 3     | ARTSDIR     | 2          |
 | Souvenir   | Porte            | Jour du souvenir  | Admission du jour du souvenir    | 11      | 3     | HOLDIR      | 2          |
 
 
@@ -51,7 +51,7 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2001.msi et entrez le
 
 
 
-| Caractéristique\_  | Composant\_ |
+| Fonctionnalité\_  | Composant\_ |
 |------------|-------------|
 | Chaussures   | Chaussures    |
 | Concert    | Concert     |

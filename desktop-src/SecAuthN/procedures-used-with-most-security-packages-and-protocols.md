@@ -4,12 +4,12 @@ ms.assetid: ffd7e531-3e0e-40c4-865e-34fa24321655
 title: Procédures utilisées avec la plupart des packages de sécurité et des protocoles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 611ecbf7f2a124ea9352a71c7197d298f30a43391e3692303fcd3f7bc533cc4c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1053f21fdd085680da1e72f0acf9c7f816e788ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324798"
 ---
 # <a name="procedures-used-with-most-security-packages-and-protocols"></a>Procédures utilisées avec la plupart des packages de sécurité et des protocoles
 

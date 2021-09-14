@@ -10,12 +10,12 @@ keywords:
 - plug-ins DSP audio, propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b87c650ed66bbb3da0886eb02157804ca10005a47053def841996019917ceed8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d180ab1054631b09997ac986529a641e6ff05ec3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324294"
 ---
 # <a name="adding-properties-to-the-sample-audio-dsp-plug-in"></a>Ajout de propriétés à l’exemple de plug-in DSP audio
 

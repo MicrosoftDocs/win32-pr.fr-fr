@@ -4,12 +4,12 @@ ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: DMO Filtre de wrapper
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13383e7539f478327f1a904d60fcd069692180239e76bcfd48bcc090a068e9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d29c5b86bdff4a215ec2ef5854d09a1f842dbf0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118653039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324918"
 ---
 # <a name="dmo-wrapper-filter"></a>DMO Filtre de wrapper
 
@@ -34,7 +34,7 @@ le filtre de Wrapper DMO permet à une application DirectShow d’utiliser un [o
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="limitations"></a>Limites
 

@@ -4,12 +4,12 @@ description: Pour comprendre comment les pointeurs et leurs éléments de donné
 ms.assetid: 217b9200-827c-4d36-9412-5e65858b8a97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f28fab18cfb345587f4c152f6890d94c5177e5bd9344e542592c33e462915beb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee84fcecdb70c67d7c99b4bbd3753c244a87cd07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324799"
 ---
 # <a name="top-level-and-embedded-pointers"></a>Pointeurs Top-Level et incorporés
 

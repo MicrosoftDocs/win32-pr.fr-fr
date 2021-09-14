@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bbd9ed452dbf0c0091c3f1813f6f671c476dfa52e31b402440a3b1d19db2d3d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 389c05b5254326d2966799b857107e79792610e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225049"
 ---
 # <a name="cbasecontrolvideocbasecontrolvideo-constructor"></a>Constructeur CBaseControlVideo. CBaseControlVideo
 
@@ -81,13 +81,13 @@ Pointeur vers une variable qui reçoit une valeur HRESULT indiquant la réussite
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet implémente l’interface de contrôle [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo) .
 
 Toutes les méthodes d’interface de [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo) implémentées par cette classe requièrent que le filtre soit correctement connecté. Pour cette raison, la classe reçoit un code confidentiel avec lequel elle doit se synchroniser. Chaque fois qu’une méthode d’interface est appelée, l’objet détermine que le pin est toujours connecté.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

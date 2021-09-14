@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a2453c1cb1009da0b097065686cd0ae4d23707febae8a9f6b01d9203d4579257
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dcf9eea51d3a65ad07879cca3e47ae79bde92d53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119816429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225073"
 ---
 # <a name="win32_portconnector-class"></a>\_Classe PortConnector Win32
 
@@ -1493,7 +1493,7 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> <dt>
 
-**Référence (SKU)**
+**Référence SKU**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1655,11 +1655,11 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ PortConnector** est dérivée de [**CIM \_ PhysicalConnector**](cim-physicalconnector.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

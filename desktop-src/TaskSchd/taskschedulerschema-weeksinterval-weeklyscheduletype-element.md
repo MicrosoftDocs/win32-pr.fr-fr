@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c59e4f4b163e5e96418c84bf2925e45cf3a54da1bbb50e17ad9282409438ff3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 747ca4b73ff18bdb3e29d8b909d72b8d2367d89b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119059757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324677"
 ---
 # <a name="weeksinterval-weeklyscheduletype-element"></a>Élément WeeksInterval (weeklyScheduleType)
 
@@ -55,7 +55,7 @@ L’élément est défini par le type complexe [**weeklyScheduleType**](tasksche
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de script, l’intervalle hebdomadaire est spécifié à l’aide de la propriété [**WeeklyTrigger. WeeksInterval**](weeklytrigger-weeksinterval.md) .
 
@@ -85,7 +85,7 @@ Le code XML suivant définit un déclencheur de calendrier hebdomadaire qui dém
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

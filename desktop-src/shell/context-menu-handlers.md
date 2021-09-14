@@ -4,12 +4,12 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Création de gestionnaires de menu contextuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3a6b6f812772b884e12c45a48bae8075d90df28fb3b60f895cfd4c4263be74c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8e102833453566f42d058ff82061f34ebc65691
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119715765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226996"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>Création de gestionnaires de menu contextuel
 
@@ -136,7 +136,7 @@ Par exemple, l’entrée de Registre suivante produit des verbes de menu context
 
 1.  Affichage
 2.  Gadgets
-3.  Personalization
+3.  Personnalisation
 
 ```
 HKEY_CLASSES_ROOT
@@ -149,7 +149,7 @@ HKEY_CLASSES_ROOT
 
 De même, l’entrée de Registre suivante produit des verbes de menu contextuel dans l’ordre suivant :
 
-1.  Personalization
+1.  Personnalisation
 2.  Gadgets
 3.  Affichage
 

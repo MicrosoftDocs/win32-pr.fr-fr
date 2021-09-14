@@ -4,12 +4,12 @@ ms.assetid: 7fce555c-a93d-4414-9119-7ae9acdd4d89
 title: Gestion des scénarios de transfert de données de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c834768a22ad48a3cc85ec33e79bb1acafb37f0e52537f4be33daee4337a5a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 35855b66e4108580d5bac305855837563ca59785
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120057799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226988"
 ---
 # <a name="handling-shell-data-transfer-scenarios"></a>Gestion des scénarios de transfert de données de Shell
 

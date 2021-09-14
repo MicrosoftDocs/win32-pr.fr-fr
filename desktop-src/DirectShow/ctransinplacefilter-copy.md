@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10a7a2927789ffe49d37912862580222f0ed06d9648b6312cbb044e357d6e61c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3063427611cd3a5aae74fecf6be273c07fdb917c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224625"
 ---
 # <a name="ctransinplacefiltercopy-method"></a>CTransInPlaceFilter. Copy, méthode
 
@@ -49,15 +49,15 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers l’interface **IMediaSample** sur le nouvel exemple.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode récupère une mémoire tampon vide à partir de l’allocateur en aval. Elle copie tous les exemples de propriétés de *pSource* dans le nouvel exemple, ainsi que les données réelles dans l’exemple. Si le filtre utilise deux allocations, il appelle cette méthode pour copier des données dans les mémoires tampons.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7135a07aedb879503d36011b274bdeab8035924b91bb5d9bc656d6d89dfbe201
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dde02c31ed0ef72e6df36a6cf0364b7f184304e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119567002"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224924"
 ---
 # <a name="cenumpins-class"></a>CEnumPins, classe
 
@@ -44,16 +44,16 @@ Si le filtre crée ou détruit dynamiquement des broches, il incrémente la vers
 | [**CEnumPins**](cenumpins-cenumpins.md)   | Méthode de constructeur.                                             |
 | [**~ CEnumPins**](cenumpins--cenumpins.md) | Méthode de destructeur. Virtuels.                                     |
 | Méthodes IEnumPins                          | Description                                                     |
-| [**Répliqué**](cenumpins-clone.md)           | Fait une copie de l’énumérateur avec le même état d’énumération. |
+| [**Clone**](cenumpins-clone.md)           | Fait une copie de l’énumérateur avec le même état d’énumération. |
 | [**Suivant**](cenumpins-next.md)             | Récupère un nombre spécifié de broches.                           |
-| [**Initialisation**](cenumpins-reset.md)           | Réinitialise la séquence d'énumération au début.               |
-| [**Saut**](cenumpins-skip.md)             | Ignore un nombre spécifié de broches.                          |
+| [**Réinitialiser**](cenumpins-reset.md)           | Réinitialise la séquence d'énumération au début.               |
+| [**Ignorer**](cenumpins-skip.md)             | Ignore un nombre spécifié de broches.                          |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

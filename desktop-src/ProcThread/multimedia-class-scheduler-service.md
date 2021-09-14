@@ -4,12 +4,12 @@ ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: Service Planificateur de classes multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf0744883180c361d5656cf7c182f538d93617be7f6bbdc6a05ff93efa732b53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80656276af30495c084d0964534a04e11896bcd2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324823"
 ---
 # <a name="multimedia-class-scheduler-service"></a>Service Planificateur de classes multimédias
 
@@ -76,10 +76,10 @@ MMCSS détermine la priorité d’un thread à l’aide des facteurs suivants :
 
 MMCSS définit la priorité des threads clients en fonction de leur catégorie de planification.
 
-| Category | Priorité | Description                                                                                                                               |
+| Category | Priority | Description                                                                                                                               |
 |----------|----------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Élevé     | 23-26    | Ces threads s’exécutent à une priorité de thread inférieure à certaines tâches de niveau système. cette catégorie est conçue pour Pro des tâches Audio. |
-| Moyen   | 16-22    | Ces threads font partie de l’application qui se trouve au premier plan.                                                                      |
+| Moyenne   | 16-22    | Ces threads font partie de l’application qui se trouve au premier plan.                                                                      |
 | Faible      | 8-15     | Cette catégorie contient le reste des threads. Ils garantissent un pourcentage minimal de ressources du processeur, si nécessaire.           |
 |          | 1-7      | Ces threads ont utilisé leur quota de ressources processeur. Ils peuvent continuer à s’exécuter si aucun thread de faible priorité n’est prêt à s’exécuter.                |
 

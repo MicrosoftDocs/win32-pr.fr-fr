@@ -5,12 +5,12 @@ ms.assetid: C502FF8A-895C-4ABB-8C2D-09D7870AF3E4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7b807d9adf5c9c4fa7432bdadf3f15236f7a0dd1bc29bccddfc33d6153006b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a3d70ec212f7a239dd9299845d69567b6a5959a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119058607"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127324636"
 ---
 # <a name="remote-desktop-virtual-machine-classes"></a>Classes de machines virtuelles Bureau à distance
 
