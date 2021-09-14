@@ -4,12 +4,12 @@ ms.assetid: d3a97325-2136-4745-8a7d-57e4d6b9d27e
 title: Table MsiPackageCertificate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62abfa23f5e86949d6254ab89f7d70f01a8a4a8fe138a4eba114d2a45559390f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fd39ac93ff24da2fa8334a6e4865172471080b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118944517"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119749"
 ---
 # <a name="msipackagecertificate-table"></a>Table MsiPackageCertificate
 

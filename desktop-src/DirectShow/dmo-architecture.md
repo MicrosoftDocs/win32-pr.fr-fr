@@ -4,12 +4,12 @@ ms.assetid: f74b2d0f-b40c-4598-97a4-9c1dc71bbb1a
 title: DMO SOA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcb2e125fda635c70e03e02af15d12e0ffb4f3ac4d5083eb91a4b99d3d3590e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93fcf7f4ef4528cd4d7949d804b149588075d5ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119949"
 ---
 # <a name="dmo-architecture"></a>DMO SOA
 

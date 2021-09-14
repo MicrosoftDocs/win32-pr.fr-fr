@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8db5899ef5706955c2405229577fc041e39ee0ed027e87603337169ea9dad02e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 309218eddc0ca53802d1b06b35a936ec4b6cbcd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120011389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122934"
 ---
 # <a name="registeredtaskname-property"></a>Propriété RegisteredTask.Name
 
@@ -40,7 +40,7 @@ RegisteredTask.Name As String
 
 Nom de la tâche inscrite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

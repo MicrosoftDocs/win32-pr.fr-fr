@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b4a8c712e8eb373730d24841133264e312694d79b593e83e89a1fc7387e7a77a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96d91008ff8ad2f947e6c9957d16c4f007d15e47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119972629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124273"
 ---
 # <a name="win32_networkconnection-class"></a>\_Classe NetworkConnection Win32
 
@@ -731,7 +731,7 @@ Exemple : « système »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ NetworkConnection** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -768,7 +768,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

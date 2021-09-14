@@ -4,12 +4,12 @@ description: Modifier les notifications de contrôle
 ms.assetid: 04ec89f4-a061-4c3f-99de-fdb42596ecca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e217fa881cf451846a0cf84758b192e9b7f0eb487fb5b3fb69fe49b4d91bd4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f595252a51ae8eaaf6249244d1ebad3a08d73f60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124205"
 ---
 # <a name="edit-control-notifications"></a>Modifier les notifications de contrôle
 

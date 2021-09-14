@@ -4,12 +4,12 @@ ms.assetid: ee85a6c3-3a1d-4f94-9112-cb8247b2a189
 title: Files d’attente du minuteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16e0ae30e02ad9fbc8889c0d7b1094895ebec27c3db8b67acf509ee02e9da85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80ad2f94612c234b3ec0d1d75fa723c4e86e6fc0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120686"
 ---
 # <a name="timer-queues"></a>Files d’attente du minuteur
 

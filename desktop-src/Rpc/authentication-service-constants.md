@@ -25,12 +25,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109ab5f4f61215e559ae3b415bdef0dd5ec9db1b893f3ce44d942c849be10953
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba4ace510c1c26030542090eb1b00e76db803df6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123494"
 ---
 # <a name="authentication-service-constants"></a>Constantes Authentication-Service
 
@@ -59,11 +59,11 @@ Les constantes suivantes sont des valeurs valides pour le paramètre *AuthnSvc* 
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Spécifiez RPC \_ C \_ Authn \_ None pour désactiver l’authentification pour les appels de procédure distante effectués sur un handle de liaison. Lorsque vous spécifiez \_ \_ \_ la valeur par défaut RPC c Authn, la bibliothèque Runtime RPC utilise \_ le \_ \_ service d’authentification Winnt RPC c Authn pour les appels de procédure distante effectués à l’aide du handle de liaison.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

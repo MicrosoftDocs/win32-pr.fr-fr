@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba63630fc64f56dff914b4fb576ecc6cef43d12d192606a5088924fd6a5832e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3db5727ee8c94d2473b503c9a81b7669bb829a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078547"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117197"
 ---
 # <a name="rb_sizetorect-message"></a>\_Message SIZETORECT RB
 
@@ -39,15 +39,15 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro si une modification de disposition s’est produite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les bandes rebar sont organisées et encapsulées si nécessaire pour s’ajuster au rectangle. Les bandes qui ont le \_ style RBBS VARIABLEHEIGHT sont redimensionnées aussi uniformément que possible pour s’adapter au rectangle. La hauteur d’un Rebar horizontal ou la largeur d’un Rebar vertical peut changer en fonction de la nouvelle disposition.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

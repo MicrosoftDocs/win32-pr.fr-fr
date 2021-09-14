@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09e40a2f93820391d0c2b928c67784157c1f58d7995d42c51df5373d642bd796
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67b9f447df2cbf1bb2b956a7ec300d1f29280eef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078523"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117130"
 ---
 # <a name="rebar-control-styles"></a>Styles de contrôle rebar
 
@@ -45,7 +45,7 @@ Les contrôles Rebar prennent en charge un grand nombre de styles de contrôle e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

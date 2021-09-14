@@ -18,11 +18,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 91e735a599a1dda2536fe26bcd654dcdf4b119dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124246"
 ---
 # <a name="win32_protocolbinding-class"></a>\_Classe ProtocolBinding Win32
 
@@ -102,7 +102,7 @@ Propriétés de la carte réseau utilisée sur le système informatique.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

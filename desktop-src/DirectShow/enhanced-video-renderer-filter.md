@@ -5,11 +5,11 @@ title: Filtre de convertisseur vidéo amélioré
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 96075ab9149cdf219971c5d1c321474de784aaa8
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119937"
 ---
 # <a name="enhanced-video-renderer-filter"></a>Filtre de convertisseur vidéo amélioré
 
@@ -42,13 +42,13 @@ le DirectShow filtre EVR est documenté dans la documentation du kit de dévelop
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En plus des interfaces exposées via **QueryInterface**, EVR expose d’autres interfaces par le biais de la méthode [**IMFGetService :: GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) . Certaines de ces interfaces sont implémentées par le présentateur EVR ou le mélangeur EVR, plutôt que par le EVR lui-même. Si l’application définit un présentateur ou un mélangeur personnalisé sur le EVR, les versions personnalisées peuvent exposer un autre ensemble d’interfaces.
 
 
 
-| Object     | Identificateur de service                                              | Interfaces                                                                                                                                                                                                                                                                                                     |
+| Object     | Identificateur du service                                              | Interfaces                                                                                                                                                                                                                                                                                                     |
 |------------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filtre EVR | \_ \_ Service de rendu vidéo Mr \_ (requêtes EVR ou Presenter)<br/> | [**IMFVideoDeviceID**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid)<br/> [**IMFVideoDisplayControl**](/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol)<br/> [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper)<br/> [**IMFVideoPresenter**](/windows/desktop/api/evr/nn-evr-imfvideopresenter)<br/>                                                          |
 | Filtre EVR | \_ \_ Service accélérateur vidéo Mr \_ (requêtes Presenter)<br/>  | [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9)                                                                                                                                                                                                                                                      |
@@ -70,7 +70,7 @@ Les formats de sous-flux disponibles peuvent dépendre du format du flux de réf
 
 EVR transfère les commandes de recherche en amont via la broche 0. Les broches de sous-flux ne transfèrent pas les commandes de recherche. Il incombe au filtre de la source ou du séparateur de conserver les sous-flux synchronisés avec le flux de référence.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

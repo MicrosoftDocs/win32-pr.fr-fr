@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 69bca43f627c6912b5633ac72f5346881cf013c2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124426"
 ---
 # <a name="vertex-shader-instructions"></a>Instructions du nuanceur de sommets
 
@@ -26,7 +26,7 @@ ms.locfileid: "103674721"
 <!-- -->
 
 -   [Modificateurs de registre de nuanceur vertex](dx9-graphics-reference-asm-vs-registers-modifiers.md)
--   [Limites d’imbrication du contrôle de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md)
+-   [Flow Contrôler les limites d’imbrication](dx9-graphics-reference-asm-vs-instructions-flow-control.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -35,9 +35,9 @@ ms.locfileid: "103674721"
 [Nuanceurs vertex](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

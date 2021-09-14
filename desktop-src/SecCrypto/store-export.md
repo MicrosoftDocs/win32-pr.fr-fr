@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9adf0f42d64e0bc7ced76441ae0fe1da2d2b6609d9d717d5e3b26f8dd07db7b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbf4a2912cb62935447daa1589b6829c5a96488e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897802"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120806"
 ---
 # <a name="storeexport-method"></a>Store. Export, méthode
 
@@ -79,11 +79,11 @@ Valeur de l’énumération de [ \_ \_ type d’encodage](capicom-encoding-type.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une chaîne qui contient les certificats dans le magasin dans le formulaire d’encodage spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

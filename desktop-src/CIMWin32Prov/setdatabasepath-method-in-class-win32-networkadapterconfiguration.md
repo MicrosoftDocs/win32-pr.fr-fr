@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 24fd4802afd29d11c6c5f11a4f86f72cc818a5413cdd8f12f298f46a85a63b9d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b66a9979ec97d4ceda16acad6488d3b84d5d3a54
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124309"
 ---
 # <a name="setdatabasepath-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDatabasePath de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ chemin d’accès de fichier valide aux fichiers de base de données Internet st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette méthode est utilisée par l’interface de sockets Windows. Le chemin d’accès par défaut est% SystemRoot% \\ system32 \\ drivers \\ .
 
@@ -412,7 +412,7 @@ cette méthode est utilisée par l’interface de sockets Windows. Le chemin d�
 
 l’exemple VBScript [modifier le chemin d’accès de la base de données pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee) de la galerie TechNet utilise **SetDatabasePath** pour définir le chemin d’accès aux fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux, protocoles) utilisés par l’interface de sockets de Windows.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

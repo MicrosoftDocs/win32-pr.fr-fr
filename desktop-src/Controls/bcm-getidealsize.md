@@ -3,7 +3,7 @@ title: Message BCM_GETIDEALSIZE (commctrl. h)
 description: Obtient la taille du bouton qui correspond le mieux à son texte et à son image, si une liste d’images est présente. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ GetIdealSize macro.
 ms.assetid: c1bc2043-bf1a-4129-a005-f04048c4c1db
 keywords:
-- BCM_GETIDEALSIZE les contrôles de message Windows
+- BCM_GETIDEALSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 446f4acba39b8b9722ef1a01a223f671b56ae845
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120101"
 ---
 # <a name="bcm_getidealsize-message"></a>\_Message GETIDEALSIZE BCM
 
@@ -43,7 +43,7 @@ Pointeur vers une structure de [**taille**](/previous-versions//dd145106(v=vs.85
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
@@ -63,14 +63,14 @@ Lorsqu’elle est envoyée à un bouton de tout autre type, la taille du rectang
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

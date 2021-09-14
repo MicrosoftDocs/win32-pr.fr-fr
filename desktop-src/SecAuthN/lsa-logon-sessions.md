@@ -4,12 +4,12 @@ ms.assetid: 14f0f9e7-90ba-47d7-a8d5-06f9d2f1a7a1
 title: Sessions LSA Logon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb4bc6adc81b22b0e48a83b8aec4f9130b1fcb906bea5078afc6517563c98b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f32a4912218b68c25c5c23334f7b34ef875fa318
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123458"
 ---
 # <a name="lsa-logon-sessions"></a>Sessions LSA Logon
 

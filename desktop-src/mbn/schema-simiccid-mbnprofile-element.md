@@ -11,12 +11,12 @@ api_name:
 - SimIccID
 api_type:
 - Schema
-ms.openlocfilehash: 8a6e4a20d93396337e2af0f0533486618dc707760f1ccd5c4f20f399cbdbf203
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f566253ad3e86b4f7ee7317cf125d9e649034847
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220929"
 ---
 # <a name="simiccid-mbnprofile-element"></a>Élément SimIccID (MBNProfile)
 
@@ -32,7 +32,7 @@ Cet élément est facultatif et est défini par le service haut débit mobile po
 
 L’élément **SimIccID** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

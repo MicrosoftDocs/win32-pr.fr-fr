@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ad2e8085a52a920f7fe87a2820398877167a137c14c4ebe39bacd71ae2ba0324
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e915d7862f7994d3b438bf3255ee836ede4b3d7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118509318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124418"
 ---
 # <a name="rwstructuredbufferoperator--function"></a>RWStructuredBuffer :: Operator, fonction
 
@@ -45,13 +45,13 @@ Position d’index.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **R**
 
 Variable de ressource.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une ressource structurée peut être indexée en fonction des noms de composants des structures.
 
@@ -59,7 +59,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

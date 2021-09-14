@@ -34,11 +34,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 50162221e7ca18e07e3599deca2dba67b18ba708
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124230"
 ---
 # <a name="win32_scheduledjob-class"></a>\_Classe ScheduledJob Win32
 
@@ -94,7 +94,7 @@ La classe **Win32 \_ ScheduledJob** possède ces méthodes.
 
 | Méthode                                                      | Description                                                                                                           |
 |:------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
-| [**Créés**](create-method-in-class-win32-scheduledjob.md) | Méthode de classe qui envoie un travail au système d’exploitation pour l’exécuter à une date et une heure futures spécifiées.<br/> |
+| [**Créer**](create-method-in-class-win32-scheduledjob.md) | Méthode de classe qui envoie un travail au système d’exploitation pour l’exécuter à une date et une heure futures spécifiées.<br/> |
 | [**Supprimer**](delete-method-in-class-win32-scheduledjob.md) | Méthode de classe qui supprime une tâche planifiée.<br/>                                                                 |
 
 
@@ -934,7 +934,7 @@ Les travaux sont planifiés en fonction du temps universel coordonné (UTC, Univ
 
 La classe **Win32 \_ ScheduledJob** est dérivée de la [**\_ tâche CIM**](cim-job.md). Vous devez être membre du groupe administrateurs pour créer une tâche planifiée à l’aide de cette classe.
 
-La classe **Win32 \_ ScheduledJob** utilise en interne le protocole at, qui est lié à la désapprobation à partir de Windows 8 et Windows Server 2012. Dans un premier temps, le protocole AT est désactivé par défaut. Si le protocole est désactivé, par exemple, l’appel de la méthode [**Create**](create-method-in-class-win32-scheduledjob.md) sur un objet **Win32 \_ ScheduledJob** échoue avec l’erreur 0x8. Vous pouvez réactiver le protocole AT en ajoutant l’entrée de Registre suivante :
+la classe **Win32 \_ ScheduledJob** utilise en interne le protocole AT, qui est lié à la désapprobation à partir de Windows 8 et Windows Server 2012. Dans un premier temps, le protocole AT est désactivé par défaut. Si le protocole est désactivé, par exemple, l’appel de la méthode [**Create**](create-method-in-class-win32-scheduledjob.md) sur un objet **Win32 \_ ScheduledJob** échoue avec l’erreur 0x8. Vous pouvez réactiver le protocole AT en ajoutant l’entrée de Registre suivante :
 
 ``` syntax
 Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Configuration 
@@ -966,7 +966,7 @@ End If
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

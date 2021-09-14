@@ -3,9 +3,9 @@ title: IWMPMediaCollection getAll, méthode
 description: La méthode getAll retourne une interface IWMPPlaylist qui correspond à la sélection qui contient tous les éléments multimédias de la bibliothèque.
 ms.assetid: f2bbb4a4-7397-4c97-afd9-e8ee380af9da
 keywords:
-- méthode getAll lecteur Windows Media
-- méthode getAll lecteur Windows Media, interface IWMPMediaCollection
-- IWMPMediaCollection interface Windows Media Player, getAll, méthode
+- getAll, méthode Lecteur Windows Media
+- getAll, méthode Lecteur Windows Media, IWMPMediaCollection, interface
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getAll
 topic_type:
 - apiref
 api_name:
@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: be08548ae29db12ded788f34563ef5e319c27d61
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122661"
 ---
 # <a name="iwmpmediacollectiongetall-method"></a>IWMPMediaCollection :: getAll, méthode
 
@@ -49,7 +49,7 @@ Implements IWMPMediaCollection.getAll
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPPlaylist** pour la sélection qui contient tous les éléments multimédias demandés.
 
@@ -104,7 +104,7 @@ player.Ctlcontrols.play()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

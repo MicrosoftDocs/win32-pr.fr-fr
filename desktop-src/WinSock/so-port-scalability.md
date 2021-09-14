@@ -4,12 +4,12 @@ ms.assetid: c5142baf-9e2d-4c06-8719-9090fd2d9487
 title: SO_PORT_SCALABILITY (Ws2def. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 925d6337bc5b9d4633117fc1d8e1b8db2657f31b91a9cce602702ceb67e7e92e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 565caeb472ac5cb15061d32b47a048a9a210885e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118993369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120485"
 ---
 # <a name="so_port_scalability"></a>\_ \_ l’évolutivité des ports
 
@@ -30,7 +30,7 @@ L’option de socket d' **\_ \_ extensibilité de port so** permet l’évolutiv
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Remarque : sur les plateformes où \_ \_ l’évolutivité des ports et la \_ réutilisation \_ UNICASTPORT sont prises en charge, préférez utiliser \_ \_ UNICASTPORT.
 
@@ -51,7 +51,7 @@ Pour avoir un effet, l’option de mise à l' **\_ \_ échelle du port** doit ê
 -   La fonction [**Bind**](/windows/desktop/api/winsock/nf-winsock-bind) est appelée avec la deuxième adresse IP et le port 0 de l’ordinateur local. Même lorsque tous les ports ont été alloués précédemment, cet appel réussit, car plusieurs adresses IP sont disponibles sur l’ordinateur local et l’option de socket de mise à l' **\_ \_ échelle du port so** a été définie sur les deux sockets dans le même processus.
 -   La fonction [**Connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect) est ensuite appelée pour se connecter à une adresse IP distante. Le deuxième Socket est utilisé par l’application en fonction des besoins.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

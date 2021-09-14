@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ec67a00b55510aecb980fd8bd8a5b2fa4ad6c73e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122981"
 ---
 # <a name="principallogontype-property"></a>Propriété principal. LogonType
 
@@ -56,7 +56,7 @@ Définissez l’une des constantes d’énumération de [**\_ type d’ouverture
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est valide uniquement lorsqu’un identificateur d’utilisateur est spécifié par la propriété [**userid**](principal-userid.md) .
 
@@ -84,7 +84,7 @@ Pour une tâche, qui contient une action de MessageBox, la boîte de message s�
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Directeur**](principal.md)
+[**Principal**](principal.md)
 </dt> </dl>
 
  

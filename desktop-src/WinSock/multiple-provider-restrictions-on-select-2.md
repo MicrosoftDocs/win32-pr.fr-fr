@@ -4,12 +4,12 @@ ms.assetid: 40354d8f-1e8b-48aa-888a-81a421568f23
 title: Plusieurs restrictions de fournisseur sur SELECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec5c89c6dd2db809a356f5b53212fd019e32fd9e348c298bcab7f567ee2d0fb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a2556d98aea60e6fa822f9e3df57cc142c33491d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120489"
 ---
 # <a name="multiple-provider-restrictions-on-select"></a>Plusieurs restrictions de fournisseur sur SELECT
 

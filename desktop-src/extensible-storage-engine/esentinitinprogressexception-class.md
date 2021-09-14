@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed57b146f679a0d697d19c48d7c81d4f4ed3aedef8a035b9b0f2d64fe504827e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b035465e575dd94f68b38cf72f8771c24add49d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120064979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122422"
 ---
 # <a name="esentinitinprogressexception-class"></a>EsentInitInProgressException, classe
 
-Classe de base pour JET_err.Iniexceptions tInProgress.
+Classe de base pour JET_err. Exceptions InitInProgress.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 
@@ -69,7 +69,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentInitInProgressException](./esentinitinprogressexception-members.md)
 

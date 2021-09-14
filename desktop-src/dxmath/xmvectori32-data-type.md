@@ -4,12 +4,12 @@ ms.assetid: 6564030e-b6e9-0c4f-4e2a-4132e4264c94
 title: Type de données XMVECTORI32 (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b4bb03dffb4c77575aab8c2a2680ecd821fea627f49325c6748ede607ef81f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ac36caf97a62037223840e9220876f1c7a1f09a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739758"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120369"
 ---
 # <a name="xmvectori32-data-type"></a>Type de données XMVECTORI32
 
@@ -22,7 +22,7 @@ typedef XMVECTORI32 vectori32;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir la liste des fonctionnalités supplémentaires, telles que les constructeurs et les opérateurs, disponibles à l’aide `XMVECTORI32` de lors de la programmation en C++, consultez [Extensions XMVECTORI32](ovw-xmvectori32-extensions.md).
 
@@ -47,7 +47,7 @@ data = intVector;
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

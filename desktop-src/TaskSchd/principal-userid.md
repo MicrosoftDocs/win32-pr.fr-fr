@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9501184f3316e464aa26f42d51e0b4c27eccaeb72d447faa91edaa33b0b4774c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ae6fce7fcfdf235ba8a83f262161c2e0f2afc71c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122970"
 ---
 # <a name="principaluserid-property"></a>Propriété principal. UserId
 
@@ -40,13 +40,13 @@ Principal.UserId As String
 
 Identificateur d’utilisateur requis pour exécuter la tâche.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ne définissez pas cette propriété si un identificateur de groupe est spécifié dans la propriété [**GroupID**](principal-groupid.md) .
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, l’identificateur d’utilisateur du principal est spécifié à l’aide de l’élément [**userid**](taskschedulerschema-userid-principaltype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

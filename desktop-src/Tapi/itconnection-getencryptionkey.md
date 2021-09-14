@@ -4,12 +4,12 @@ ms.assetid: a80d8660-d13e-483f-b1d7-ee2043ef5cab
 title: 'ITConnection :: GetEncryptionKey, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a237073d4842cd26797b046a4d973390ff5ef254b574bcafbc6f10abca932aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0a826dc8424222587f2838804ec035fb23c2e41d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120657"
 ---
 # <a name="itconnectiongetencryptionkey-method"></a>ITConnection :: GetEncryptionKey, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers un **BSTR** contenant les données de clé de chiffrement.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -73,11 +73,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour les paramètres *ppKeyType* et *ppKeyData* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

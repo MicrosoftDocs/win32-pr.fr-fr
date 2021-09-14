@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101595
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bd4e29fee03a491469c1b885f7167e3b2d73d5f844d7b4d7a1c005210204a2e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 335d248cfe846f731bf4f5ec47813625fdf44b81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120117049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124407"
 ---
 # <a name="esentexclusivetablelockrequiredexception-properties"></a>Propriétés EsentExclusiveTableLockRequiredException
 
@@ -69,7 +69,7 @@ Le type [EsentExclusiveTableLockRequiredException](./esentexclusivetablelockrequ
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentExclusiveTableLockRequiredException, classe](./esentexclusivetablelockrequiredexception-class.md)
 

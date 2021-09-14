@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 82a5a6cf-f7d9-41ab-ac80-5dea33616e89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdf318322159b8cd486aebfacfc08ba68ecfb36a7793460ac036575534f2af7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba941f927965421bded0ff06dd1e5cd60a6ae03f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123001"
 ---
 # <a name="p-task-scheduler"></a>P (Planificateur de tâches)
 

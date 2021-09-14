@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71f6bd0436453c3d4d2c8ca27ac9b809857bf1c12a2f9fbdd40ccfb0d9f521c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 645389432412166b9131909274e220ba7775f325
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119981"
 ---
 # <a name="cimagedisplaygetdisplaydepth-method"></a>Méthode CImageDisplay. GetDisplayDepth
 
@@ -40,11 +40,11 @@ WORD GetDisplayDepth();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre de bits par pixel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

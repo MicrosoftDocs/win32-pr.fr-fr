@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6948de26a8850e5f8083bc8302ee0f778edd7490f488fb6435938ab032f50b2c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f83960751138ef477bf90269f345fd63f913ade6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118655845"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119961"
 ---
 # <a name="cimagedisplaym_display-member"></a>CImageDisplay :: m \_ afficher le membre
 
@@ -36,7 +36,7 @@ VIDEOINFO  m_Display;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

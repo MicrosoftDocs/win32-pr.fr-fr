@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0496a3b9c8adad0ad4095b6c8aed3888940fd699750350117f4bf503c442f4c8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d2d51cf748bb65a9db38c56fded102ddeb5b40fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119681659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122905"
 ---
 # <a name="registeredtaskstop-method"></a>RegisteredTask. Stop, méthode
 
@@ -49,17 +49,17 @@ Réservé. Doit être zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **RegisteredTask. Stop** arrête toutes les instances de la tâche.
 
 Les utilisateurs du compte système peuvent arrêter une tâche, les utilisateurs disposant de privilèges de groupe d’administrateurs peuvent arrêter une tâche et, si un utilisateur dispose de droits pour exécuter et lire une tâche, l’utilisateur peut arrêter la tâche. Un utilisateur peut arrêter les instances de tâche qui s’exécutent sous les mêmes informations d’identification que le compte d’utilisateur. Dans tous les autres cas, l’utilisateur se voit refuser l’accès pour arrêter la tâche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

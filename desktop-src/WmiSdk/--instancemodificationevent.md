@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: fffc8508eff24181201792207a151f5effd28a3022fec56506953b55d3e59deb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e644db16b6638bbc87006819e186540a9ce1874e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118557756"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124516"
 ---
 # <a name="__instancemodificationevent-class"></a>\_\_InstanceModificationEvent, classe
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ InstanceModificationEvent** est dérivée de [**\_ \_ InstanceOperationEvent**](--instanceoperationevent.md).
 
@@ -127,7 +127,7 @@ Les requêtes de notification qui demandent la notification de la modification d
 
 L’exemple VBScript d' [événement de modification de processus Monitor](https://Gallery.TechNet.Microsoft.Com/daa06cdd-c1d9-4179-ba67-83aef2b9a079) sur la Galerie TechNet utilise **\_ \_ InstanceModificationEvent** pour surveiller la première occurrence d’un événement de modification d’instance WMI pour le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

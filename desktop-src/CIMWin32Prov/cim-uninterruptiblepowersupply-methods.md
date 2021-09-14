@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_UninterruptiblePowerSupply
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72559cb4ad8a11ceaa17182e2feb02857704b662a1b10e5d1c61b6ae33891d30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a4398d7cb4dbfe27acf43c29411e8ed8e6a9100
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124332"
 ---
 # <a name="cim_uninterruptiblepowersupply-methods"></a>\_Méthodes UNINTERRUPTIBLEPOWERSUPPLY CIM
 

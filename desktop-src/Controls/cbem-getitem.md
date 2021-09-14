@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dcf4dadf72a9f1fab679599c01c8fd0c6ca3541f2f77a5e8c52a740828966034
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 940bbf7aea8ec93dd0f808937d959477c964df96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120026"
 ---
 # <a name="cbem_getitem-message"></a>\_Message CBEM GETITEM
 
@@ -41,17 +41,17 @@ Pointeur vers une structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le message est envoyé, les membres **iItem** et **Mask** de la structure doivent être définis pour indiquer l’index de l’élément cible et le type d’informations à récupérer. D’autres membres sont définis en fonction des besoins. Par exemple, pour récupérer du texte, vous devez définir l' \_ indicateur de texte CBEIF dans le **masque** et assigner une valeur à **cchTextMax**. La définition du membre **iItem** sur-1 permet de récupérer l’élément affiché dans le contrôle d’édition.
 
 Si l' \_ indicateur de texte CBEIF est défini dans le membre **Mask** de la structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) , le contrôle peut modifier le membre **pszText** de la structure afin qu’il pointe vers le nouveau texte au lieu de remplir la mémoire tampon avec le texte demandé. Les applications ne doivent pas supposer que le texte sera toujours placé dans la mémoire tampon demandée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

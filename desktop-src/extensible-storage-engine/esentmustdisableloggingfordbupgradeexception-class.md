@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 246bc2ca97dc70bbe4a9a44f3a1da8fd1f73963a97499033641d36933e121aa2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c176dfbd9165f28225c4223ea3e47fdc24bb22c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119971519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122410"
 ---
 # <a name="esentmustdisableloggingfordbupgradeexception-class"></a>EsentMustDisableLoggingForDbUpgradeException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentMustDisableLoggingForDbUpgradeException](./esentmustdisableloggingfordbupgradeexception-members.md)
 

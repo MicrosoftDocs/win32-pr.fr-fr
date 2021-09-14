@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b08fb6d3c02affbe9c288004e9402808dd9c30318c16df7738f128029f84a3f2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 83f62d84af193be99850f1a82b720a2983ca77c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119760079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124307"
 ---
 # <a name="setdeadgwdetect-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDeadGWDetect de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Si la **valeur est true**, la détection de passerelle inactive doit être activ
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque cette fonctionnalité est activée, TCP demande à l’adresse IP de passer à une passerelle de sauvegarde si elle retransmet un segment plusieurs fois sans recevoir de réponse.
 
@@ -412,7 +412,7 @@ Lorsque cette fonctionnalité est activée, TCP demande à l’adresse IP de pas
 
 L’exemple VBScript [activer la détection de passerelle inactive pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/4a24b080-1a8b-4085-9419-58d096ef8437) de la Galerie TechNet utilise **SetDeadGWDetect** pour configurer toutes les cartes réseau sur un ordinateur afin de détecter automatiquement les passerelles inactives.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

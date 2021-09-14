@@ -4,12 +4,12 @@ description: Créer des interfaces vers le même objet
 ms.assetid: 127c44b6-51a6-4fd6-9edc-9fbe0d08d458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aae1d6328b6d803e4d20207381fe596c5f584fee8281e1e6651ffc2325fb044
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b641eed3918af3acbf399427ad5f7427112f399
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124525"
 ---
 # <a name="create-new-interfaces-to-the-same-object"></a>Créer des interfaces vers le même objet
 

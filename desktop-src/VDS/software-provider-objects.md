@@ -4,12 +4,12 @@ ms.assetid: 0d415238-7558-4d90-a122-e65ae7760344
 title: Objets de fournisseur de logiciels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 507abb00b67b51ad68eb0592ff4fa7b5201cff5be0587b7170662556238feb50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c16f81cd975c892760d1851720e65584453e7745
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137155"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120549"
 ---
 # <a name="software-provider-objects"></a>Objets de fournisseur de logiciels
 

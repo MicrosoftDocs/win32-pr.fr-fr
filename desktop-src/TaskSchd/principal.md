@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6cf4187875f3b02dfbdc8ef5bd9fd8bd43ed99c37134b2c899215decacfb605
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d6dc9ff69973fb340bf3b140462c4012499680ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122973"
 ---
 # <a name="principal-object"></a>Objet principal
 
@@ -40,18 +40,18 @@ L’objet **principal** possède ces propriétés.
 
 | Propriété                                                | Type d’accès           | Description                                                                                                                                                  |
 |:--------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NomComplet**](principal-displayname.md)<br/> | Lecture/écriture<br/> | Obtient ou définit le nom du principal qui est affiché dans l’interface utilisateur Planificateur de tâches.<br/>                                                                |
+| [**DisplayName**](principal-displayname.md)<br/> | Lecture/écriture<br/> | Obtient ou définit le nom du principal qui est affiché dans l’interface utilisateur Planificateur de tâches.<br/>                                                                |
 | [**GroupId**](principal-groupid.md)<br/>         | Lecture/écriture<br/> | Obtient ou définit l’identificateur du groupe d’utilisateurs qui est requis pour exécuter les tâches associées au principal.<br/>                           |
 | [**Identifi**](principal-id.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit l'identificateur unique du principal.<br/>                                                                                                     |
 | [**LogonType**](principal-logontype.md)<br/>     | Lecture/écriture<br/> | Obtient ou définit la méthode d’ouverture de session de sécurité requise pour exécuter les tâches associées au principal.<br/>                                  |
 | [**RunLevel**](principal-runlevel.md)<br/>       | Lecture/écriture<br/> | Obtient ou définit l’identificateur qui est utilisé pour spécifier le niveau de privilège requis pour exécuter les tâches associées au principal.<br/> |
-| [**IDutilisateur**](principal-userid.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’identificateur de l’utilisateur qui est requis pour exécuter les tâches associées au principal.<br/>                                        |
+| [**UserId**](principal-userid.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’identificateur de l’utilisateur qui est requis pour exécuter les tâches associées au principal.<br/>                                        |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous spécifiez un compte, n’oubliez pas d’utiliser correctement la double barre oblique inverse dans le code pour spécifier le domaine et le nom d’utilisateur. Par exemple, utilisez domaine \\ \\ nom d’utilisateur pour spécifier une valeur pour la propriété [**userid**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid) .
 
@@ -63,7 +63,7 @@ Si une tâche est inscrite à l’aide de l’outil de ligne de commande at.exe,
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclenchement temporel (script)](time-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

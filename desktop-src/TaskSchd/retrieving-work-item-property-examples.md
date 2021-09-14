@@ -6,12 +6,12 @@ keywords:
 - récupération des propriétés de l’élément de travail Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3519f3f995e4a5c49a58f0c8be590b34a82381bfd534b61bac6ff8aba05de33c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74a51c623301a4a3b53369713abe95ea1dafba80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119059977"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122785"
 ---
 # <a name="retrieving-work-item-property-examples"></a>Récupération d’exemples de propriétés d’élément de travail
 

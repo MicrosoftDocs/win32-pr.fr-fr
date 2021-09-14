@@ -5,11 +5,11 @@ ms.assetid: 060c012c-5f74-4a4c-bec3-e9072f920442
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b4668322428a9580fd4c9c9ea5edfb395081cc50
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124506"
 ---
 # <a name="notifications-com"></a>Notifications (COM)
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b7d41c39e9c80d3fc8f14c0bc9b9d9305de38e16
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674585"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120613"
 ---
 # <a name="starting-an-executable-on-system-boot"></a>Démarrage d’un exécutable au démarrage du système
 
@@ -23,7 +23,7 @@ Les déclencheurs de démarrage sont activés par leur limite de démarrage, mai
 
 ## <a name="boot-trigger-examples"></a>Exemples de déclencheurs de démarrage
 
-Les exemples suivants démarrent le bloc-notes après le démarrage du système :
+les exemples suivants démarrent Bloc-notes après le démarrage du système :
 
 -   [Exemple de déclencheur de démarrage (script)](boot-trigger-example--scripting-.md)
 -   [Exemple de déclencheur de démarrage (C++)](boot-trigger-example--c---.md)
@@ -36,9 +36,9 @@ Les exemples suivants démarrent le bloc-notes après le démarrage du système�
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - récupération des propriétés de la tâche Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0e46554c32d9d30941fd837b91e80e8e20d915b0f1c68a665fd72c8f1624c8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e2b42bc8044171834b6d99e97c41e3f5c7048ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122802"
 ---
 # <a name="retrieving-task-property-examples"></a>Récupération d’exemples de propriétés de tâche
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e653f38dcb3867ef9ca6605b8553ad162d24e4cdf450ed6b4ab32c44115cc1a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f2763733e3e87862cfd1e411f3cbf1b79ac753c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119112795"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122374"
 ---
 # <a name="esentupdatemustversionexception-constructor"></a>Constructeur EsentUpdateMustVersionException
 
@@ -54,7 +54,7 @@ public EsentUpdateMustVersionException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentUpdateMustVersionException, classe](./esentupdatemustversionexception-class.md)
 

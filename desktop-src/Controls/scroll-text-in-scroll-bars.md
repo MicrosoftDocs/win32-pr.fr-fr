@@ -4,12 +4,12 @@ description: Cette section décrit les modifications que vous pouvez apporter à
 ms.assetid: ACB4FF34-38EF-4F3D-9395-D48D58A72C0B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2139ac1bff3d197d63011e6a6e76c861b984c5e20b5c54ceab8871678d31a52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9ef9a2eea9490beac7b6ff5048b70de61eb635f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119914219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116989"
 ---
 # <a name="how-to-scroll-text"></a>Comment faire défiler le texte
 

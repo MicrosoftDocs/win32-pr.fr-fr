@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5cc804e34ae4c07093201ea5711ac99713cb98714ac6b2a0bb12a949512fda2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ce1cc3a10890665b8bf8c5a58675f0901f1d3fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117700903"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221060"
 ---
 # <a name="windows7grbitsenumerateinrecordonly-field"></a>Champ Windows7Grbits. EnumerateInRecordOnly
 
@@ -55,7 +55,7 @@ public const EnumerateColumnsGrbit EnumerateInRecordOnly
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows7Grbits, classe](./windows7grbits-class.md)
 

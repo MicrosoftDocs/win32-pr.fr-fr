@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e6deb2566d476147c4f51eac0e92f5919a897d8d686adf61ce5fe6250254f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9115229afd5ee7cebf83b3b817991cbe0cf74ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117759654"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122930"
 ---
 # <a name="registeredtasknumberofmissedruns-property"></a>RegisteredTask. NumberOfMissedRuns, propriété
 
@@ -40,7 +40,7 @@ RegisteredTask.NumberOfMissedRuns As Integer
 
 Nombre de fois où la tâche inscrite a manqué une exécution planifiée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

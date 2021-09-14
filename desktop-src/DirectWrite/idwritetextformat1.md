@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25fa32ea9faff586cbaf3c40a8ffe3d12c7e983fac7b3a0526c65b71757ea91f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 796c5f845b5ed0d0522039865f2acb023fc2ab0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120075559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119793"
 ---
 # <a name="idwritetextformat1-interface"></a>Interface IDWriteTextFormat1
 
@@ -53,7 +53,7 @@ L’interface **IDWriteTextFormat1** possède ces méthodes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

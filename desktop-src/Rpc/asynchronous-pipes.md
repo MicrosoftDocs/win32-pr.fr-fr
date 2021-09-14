@@ -4,12 +4,12 @@ description: L’utilisation de paramètres de canal avec RPC asynchrone vous pe
 ms.assetid: e5c466b8-c0b0-4fa8-8867-d0715fd614b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0957b1ddc381d2a91b77033842b2807ed8a9dd34718d0148d6853083229d408d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be9d6dd5a3e8de7d5c4ad233a577187a49d04ed8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123509"
 ---
 # <a name="asynchronous-pipes"></a>Canaux asynchrones
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 7f935457c6fa6566d69c10b6cb5cade914e6e81c175f7451cc6eaff5268358e6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4247b5212e453c2f4393c26cd5ad63f07992c75a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119679589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124514"
 ---
 # <a name="swbemlasterrorgetobjecttext_-method"></a>Méthode SWbemLastError. GetObjectText \_
 
@@ -51,7 +51,7 @@ Ce paramètre est réservé et doit avoir la valeur 0 (zéro) s’il est spécif
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, cette méthode retourne une chaîne qui contient le texte de sortie.
 
@@ -82,7 +82,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

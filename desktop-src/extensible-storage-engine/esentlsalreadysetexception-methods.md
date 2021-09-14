@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102241
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0a31144c2f3b8c3aa53330a904a442a1fba7972c9953154cce11e2c79e56324f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e6ac3d6fa89312aede6e0d7fb16ab29b8920f77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118776336"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124398"
 ---
 # <a name="esentlsalreadysetexception-methods"></a>Méthodes EsentLSAlreadySetException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentLSAlreadySetException, classe](./esentlsalreadysetexception-class.md)
 

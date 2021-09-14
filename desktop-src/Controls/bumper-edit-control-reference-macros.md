@@ -4,12 +4,12 @@ description: Modifier les macros de contrôle
 ms.assetid: 7c2bb80e-57ca-4d95-a499-b65eefe0352c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff932375de52f29cd5d9bec535b24dc6a5ebcc67b09256a163654e55c658e06c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 795aba77e2f0dc439fdd6bdaab6a4358a15596ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119699449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124208"
 ---
 # <a name="edit-control-macros"></a>Modifier les macros de contrôle
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e0310db88b29fea18756ecaf7a2dc142097c3a6e53dfff5892acdaf4030b9b00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e3deb127ec8b19d9ec5c625f07cfaa2685b776c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120810"
 ---
 # <a name="storeclose-method"></a>Store. Close, méthode
 
@@ -39,15 +39,15 @@ Store.Close()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une fois la méthode **Close** appelée, l’objet [**Store**](store.md) est détruit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -68,7 +68,7 @@ Une fois la méthode **Close** appelée, l’objet [**Store**](store.md) est dé
 [**Objets de chiffrement**](cryptography-objects.md)
 </dt> <dt>
 
-[**Afficher**](store-open.md)
+[**Ouvrir**](store-open.md)
 </dt> </dl>
 
  

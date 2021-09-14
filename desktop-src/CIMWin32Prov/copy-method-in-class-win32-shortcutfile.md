@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e32043747b7493d8f59b2028587d60b5b9593a73ac60bf99a81beea8b5c97ae3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58de9d1b2a88a7fa02504f5eac91e9a55e286304
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120125"
 ---
 # <a name="copy-method-of-the-win32_shortcutfile-class"></a>Méthode Copy de la \_ classe ShortcutFile Win32
 
@@ -51,7 +51,7 @@ Exemple : c : \\ temp \\ newDirectory
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été copié avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -148,7 +148,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

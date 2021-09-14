@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 9f134c47f5697381c211808ce5a46ab5ee23031b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940110"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124427"
 ---
 # <a name="instructions---vs_3_0"></a>Instructions-vs \_ 3 \_ 0
 
@@ -26,7 +26,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 -   Configuration-instructions non arithmétiques. Chaque nuanceur doit avoir une instruction de version et doit être la première instruction.
 -   Arithmétique : ces instructions fournissent les opérations mathématiques dans un nuanceur.
 -   Texture : ces instructions prennent en charge la recherche d’adresses de texture.
--   Contrôle de la fluidité : ces instructions ajoutent un contrôle de Flow comme des boucles, des répétitions et [si bool-vs](if-bool---vs.md)... [sinon](else---vs.md)... [endif](endif---vs.md) (comparaisons).
+-   contrôle de Flow : ces instructions ajoutent un contrôle de Flow comme des boucles, des répétitions et [si bool-vs](if-bool---vs.md)... [sinon](else---vs.md)... [endif](endif---vs.md) (comparaisons).
 -   Nouveauté : ces instructions sont nouvelles dans cette version.
 
 ## <a name="instruction-set"></a>Jeu d'instructions
@@ -80,7 +80,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [Mova-vs](mova---vs.md)                                                     | Déplacer des données à partir d’un registre à virgule flottante vers un registre d’entiers                                                                                                        | 1                 |       | x          |         |              |     |
 | [Mul-vs](mul---vs.md)                                                       | Multiplier                                                                                                                                                               | 1                 |       | x          |         |              |     |
 | [NOP-vs](nop---vs.md)                                                       | Pas d'opération                                                                                                                                                           | 1                 |       | x          |         |              |     |
-| [NRM-vs](nrm---vs.md)                                                       | Normaliser                                                                                                                                                              | 3                 |       | x          |         |              |     |
+| [NRM-vs](nrm---vs.md)                                                       | Normalize                                                                                                                                                              | 3                 |       | x          |         |              |     |
 | [Pow-vs](pow---vs.md)                                                       | x<sup>y</sup>                                                                                                                                                          | 3                 |       | x          |         |              |     |
 | [RCP-vs](rcp---vs.md)                                                       | Mutuel                                                                                                                                                             | 1                 |       | x          |         |              |     |
 | [REP-vs](rep---vs.md)                                                       | Répéter                                                                                                                                                                 | 3                 |       |            |         | x            |     |
@@ -88,7 +88,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [rsq-vs](rsq---vs.md)                                                       | Racine carrée réciproque                                                                                                                                                 | 1                 |       | x          |         |              |     |
 | [\_COMP setp-vs](setp-comp---vs.md)                                          | Définir le registre de prédicat                                                                                                                                             | 1                 |       |            |         | x            |     |
 | [SGE-vs](sge---vs.md)                                                       | Comparaison supérieur ou égal à                                                                                                                                          | 1                 |       | x          |         |              |     |
-| [SGN-vs](sgn---vs.md)                                                       | Sign (Signer)                                                                                                                                                                   | 3                 |       | x          |         |              |     |
+| [SGN-vs](sgn---vs.md)                                                       | Signer                                                                                                                                                                   | 3                 |       | x          |         |              |     |
 | [SinCos,-vs](sincos---vs.md)                                                 | Sinus et cosinus                                                                                                                                                        | 8                 |       | x          |         |              |     |
 | [des SLT-vs](slt---vs.md)                                                       | Inférieur à compare                                                                                                                                                      | 1                 |       | x          |         |              |     |
 | [sous-vs](sub---vs.md)                                                       | Soustraire                                                                                                                                                               | 1                 |       | x          |         |              |     |
@@ -97,7 +97,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 
 
 
- 
+ 
 
 Remarques :
 
@@ -110,9 +110,9 @@ Remarques :
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

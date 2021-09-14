@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 070c0cac981f73ea6fa7e3c0ecb620e262f744edd651571be9b592840ad23956
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 71184d4915911c29bff9d3a6fa9985942a4aaa44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120076229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119993"
 ---
 # <a name="cimageallocatorchecksizes-method"></a>Méthode CImageAllocator. CheckSizes
 
@@ -49,7 +49,7 @@ Pointeur désignant une structure de [**\_ propriétés d’allocateur**](/windo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -65,11 +65,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la méthode est retournée, si la valeur de retour est \_ OK, le membre **cbBuffer** de la fonction *pRequest* contient la taille réelle de la mémoire tampon. Cela peut être plus grand que la taille demandée, mais ne sera jamais plus petit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

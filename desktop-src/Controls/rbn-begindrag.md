@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53089c9bae4924c03f7069fad9c4cbde5d9c600777627297004f132c6a9cac33
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e5c797e026484b32e68408cf720a1d4681d066c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119985349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117190"
 ---
 # <a name="rbn_begindrag-notification-code"></a>\_Code de notification RBN BEGINDRAG
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMREBAR**](/windows/win32/api/commctrl/ns-commctr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro pour permettre au Rebar de continuer l’opération glisser, ou une valeur différente de zéro pour abandonner l’opération glisser.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

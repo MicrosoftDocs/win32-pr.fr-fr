@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 87bd50852b1a03999129c14785699fc82f767cb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527914"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124404"
 ---
 # <a name="esentfileaccessdeniedexception-constructor"></a>Constructeur EsentFileAccessDeniedException
 
@@ -54,7 +54,7 @@ public EsentFileAccessDeniedException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentFileAccessDeniedException, classe](./esentfileaccessdeniedexception-class.md)
 

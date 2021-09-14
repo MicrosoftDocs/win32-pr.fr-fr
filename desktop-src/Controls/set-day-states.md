@@ -4,12 +4,12 @@ description: Cette rubrique montre comment définir les informations d’État d
 ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e3ed2c99e6faf18f0e1d06ec06eaaf9a0d573faebe6f3697e43562603447571
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa1fc105c94a15e1a658218013dca00129c883c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119078473"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127116981"
 ---
 # <a name="how-to-set-day-states"></a>Comment définir les États des jours
 

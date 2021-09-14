@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0443e0c47eef4d4943d39bd671c28c19db0ff5e1fbe79e5af8d034603b1ab78d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9265a15641d2072d87b33af2782f17974bf07be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117883516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221001"
 ---
 # <a name="mpdetection_state-enumeration"></a>\_Énumération de l’État MPDETECTION
 
@@ -96,7 +96,7 @@ La menace n’apparaît pas dans la requête d’État, uniquement dans l’hist
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

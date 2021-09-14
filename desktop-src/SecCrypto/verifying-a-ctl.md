@@ -4,12 +4,12 @@ ms.assetid: 24ba6955-f6d1-4123-ab39-50385f6e03a0
 title: Vérification d’une liste CTL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1068e26250f857893e0d5016962cf8df4f27adb137676d1d61af3254b5edabc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac88362c96d5b419a7c16731e31456b569079d7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117970963"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120786"
 ---
 # <a name="verifying-a-ctl"></a>Vérification d’une liste CTL
 

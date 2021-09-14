@@ -4,12 +4,12 @@ description: Cette section contient la liste des manuels et des ressources recom
 ms.assetid: a7a5aee9-e31f-42d1-bf90-2fa91365ef2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426ab7734abdf8f7b07bb123c09b557fdfed78ba098930a2b5053e062e9647a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5916c128ce7bedc7993804d7cfecf711684140ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119021387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120146"
 ---
 # <a name="other-resources"></a>Autres ressources
 

@@ -19,12 +19,12 @@ keywords:
 - implémenter des fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 583b9a5f91bb8be53a3e8b0e356ce558978b8ea28d5b726b56f52420cd7bff37
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e7fafbb9d03a25eb2e4713330c0622c25d17f9ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119413439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122625"
 ---
 # <a name="implement-a-server-side-ui-automation-provider"></a>Implémenter un fournisseur UI Automation Server-Side
 
@@ -82,7 +82,7 @@ Pour communiquer avec UI Automation, votre contrôle doit implémenter les princ
 
 
 
-| Fonctionnalités                                              | Implémentation                                                                                                                                                                                                                                                                                                |
+| Fonctionnalité                                              | Implémentation                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Exposer le fournisseur à UI Automation.                      | En réponse à un message [**WM \_ GETOBJECT**](wm-getobject.md) envoyé à la fenêtre de contrôle, retournez l’objet qui implémente [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple). Pour les fragments, il doit s’agir du fournisseur pour la racine du fragment.                                           |
 | Fournissez des valeurs de propriété.                                   | Implémentez [**IRawElementProviderSimple :: GetPropertyValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue) pour fournir ou substituer des valeurs.                                                                                                                                                             |

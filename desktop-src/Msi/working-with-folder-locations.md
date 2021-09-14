@@ -4,12 +4,12 @@ ms.assetid: 8f9971da-cca8-4623-bdd2-079c4f4859f9
 title: Utilisation des emplacements de dossiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69125525a39c68f8c7e0426010746b9c0fb76814cda931fde61a12808ddd80b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22485f7bf0ae2a680c9a0bf52eb9fe62858acf09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119498409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222833"
 ---
 # <a name="working-with-folder-locations"></a>Utilisation des emplacements de dossiers
 

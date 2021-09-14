@@ -31,12 +31,12 @@ keywords:
 - Objet Player
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bffe34bfc227dfe250a9c9d7ebb60977a9ab079c4a062067c65e83e62f0e5976
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 670bff03075fd98812dbee269115e297a137e92d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122693"
 ---
 # <a name="player-object-model-for-scripting-languages"></a>Modèle objet de lecteur pour les langages de script
 

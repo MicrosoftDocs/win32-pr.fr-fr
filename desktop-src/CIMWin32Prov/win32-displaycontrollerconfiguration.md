@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a0abc5245b6d883ef4daa0a84ee4ffaf83113170c51f7fa1efb8ad58969fb7c6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e64f99cb4d4715d9b7a0eb88bd2e7629feed853
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118172117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120109"
 ---
 # <a name="win32_displaycontrollerconfiguration-class"></a>\_Classe DisplayControllerConfiguration Win32
 
@@ -325,11 +325,11 @@ Exemple : « 1024 768 avec 256 couleurs »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ DisplayControllerConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

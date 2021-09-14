@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7933c63d6fad03492dfad83a0e6383c9735ca27e2785e630e6a8e93ad65c99b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f214fdcfa83a09a97d710b401b070048516826e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119729639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124380"
 ---
 # <a name="jet_setcolumngrbit-property"></a>JET_SETCOLUMN. Grbit, propriété
 
@@ -66,7 +66,7 @@ Type : [Microsoft. ISAM. esent. Interop. SetColumnGrbit](./setcolumngrbit-enume
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_SETCOLUMN](./jet-setcolumn-class.md)
 

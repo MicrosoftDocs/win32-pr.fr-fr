@@ -4,12 +4,12 @@ description: La directive \ ifdef contrôle la compilation conditionnelle du fic
 ms.assetid: 877c6b58-d8a1-4e68-8b69-29fe106d6cbd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e834dc84d54e1d6f7725008b8bcf28f4ed49fc3fe45f36fb291ddc397d30eb6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38170fb2140f8405a86529c0899c1e4d4e93c026
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119034477"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220828"
 ---
 # <a name="ifdef"></a>\#ifdef
 
@@ -28,7 +28,7 @@ Nom à vérifier par la directive.
 
 </dd> </dl>
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Cet exemple compile l’instruction [**bitmap**](bitmap-resource.md) uniquement si debug est défini :
 

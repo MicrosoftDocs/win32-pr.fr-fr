@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d77a7d7608e9facc1e0fc6973b19a3d9db36900fa8d550896cc3058389f367bc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aafbce1e784e1f205f0d32e045785125c1fb5aaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119666379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120198"
 ---
 # <a name="wm_dpichanged-message"></a>\_Message WM DPICHANGED
 
@@ -55,11 +55,11 @@ Pointeur vers une structure [**Rect**](/windows/desktop/api/windef/ns-windef-rec
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message concerne uniquement les applications **\_ prenant en \_ \_ \_ charge la résolution par moniteur** ou la prise en charge **dpi par threads \_ \_ \_ \_ sensibles** à l’analyse. Il peut être reçu sur certaines modifications PPP si la fenêtre ou le processus de niveau supérieur s’exécute avec une prise en charge **dpi** ou si le système prend en **charge** les DPI, mais dans ce cas, il peut être ignoré en toute sécurité. Pour plus d’informations sur les différents types de reconnaissance, [**consultez \_ \_ prise**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness) en la reconnaissance de la résolution des processus et [**\_ prise en dpi**](/windows/desktop/api/windef/ne-windef-dpi_awareness). les versions antérieures de Windows une prise en face des ppp nécessaire pour être liées au niveau d’une application. Ces applications utilisent **la \_ \_ reconnaissance des PPP de processus**. Actuellement, la reconnaissance DPI est liée aux threads et aux fenêtres individuelles plutôt qu’à l’ensemble de l’application. Ces applications utilisent **la \_ reconnaissance dpi**.
 
@@ -126,7 +126,7 @@ Une autre façon de mettre à l’échelle une valeur consiste à convertir la v
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

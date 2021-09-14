@@ -4,12 +4,12 @@ description: . | Notifications courantes de boîtes de dialogue
 ms.assetid: 09b717f1-b6f8-4436-9c08-0b51767b9518
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0708fa941f95d32848e06adab6e9c2036b5f8db2048d66f90867a76a16a96734
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8032e0acbacd590306d5fc1588ee95c2a494dcd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117720949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124416"
 ---
 # <a name="common-dialog-box-notifications"></a>Notifications courantes de boîtes de dialogue
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0c4a01e8055036af1b8ea5370bb7954832ea0ffd225e5bd8351387419507b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b7e43925c6ebe27933a39fe5e25f37ffe6cf72e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118859417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120626"
 ---
 # <a name="monthlydowtrigger-object"></a>Objet MonthlyDOWTrigger
 
@@ -51,20 +51,20 @@ L’objet **MonthlyDOWTrigger** a ces propriétés.
 | [**Répétition**](trigger-repetition.md)<br/>                               | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/>          |
 | [**RunOnLastWeekOfMonth**](monthlydowtrigger-runonlastweekofmonth.md)<br/> | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche s’exécute à la dernière semaine du mois.<br/>                                                                                    |
 | [**StartBoundary**](trigger-startboundary.md)<br/>                         | Lecture/écriture<br/> | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient ou définit la date et l’heure d’activation du déclencheur.<br/>                                                              |
-| [**Type**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                                          | Lecture seule<br/>  | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient le type du déclencheur.<br/>                                                                                              |
+| [**Entrer**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_type)<br/>                                          | Lecture seule<br/>  | Héritée de l’objet [**déclencheur**](trigger.md) . Obtient le type du déclencheur.<br/>                                                                                              |
 | [**WeeksOfMonth**](monthlydowtrigger-weeksofmonth.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit les semaines du mois pendant lequel la tâche s’exécute.<br/>                                                                                                                  |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’heure de début de la tâche est définie par la propriété [**StartBoundary**](trigger-startboundary.md) .
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, un déclencheur de jour de semaine mensuel est spécifié à l’aide de l’élément [**ScheduleByMonthDayOfWeek**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

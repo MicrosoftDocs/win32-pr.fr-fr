@@ -3,7 +3,7 @@ title: Message SBM_SETPOS (winuser. h)
 description: Le \_ message SBM SetPos est envoyé pour définir la position de la case de défilement (Thumb) et, le cas échéant, redessine la barre de défilement pour refléter la nouvelle position de la case de défilement.
 ms.assetid: 6b3c16ba-1cdf-41ff-8546-ba98477af334
 keywords:
-- SBM_SETPOS les contrôles de message Windows
+- SBM_SETPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b7a7dc99da5f4b3dbb301f15ddd722f1d664932f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466934"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117025"
 ---
 # <a name="sbm_setpos-message"></a>\_Message SBM SetPos
 
@@ -45,7 +45,7 @@ Spécifie si la barre de défilement doit être redessinée pour refléter la no
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **ComCtl32.dll version 5,0**: si la position de la case de défilement a changé, la valeur de retour est la position précédente de la case de défilement ; dans le cas contraire, il est égal à zéro.
 
@@ -55,14 +55,14 @@ Spécifie si la barre de défilement doit être redessinée pour refléter la no
 
 Si le contrôle de barre de défilement est redessiné par un appel ultérieur à une autre fonction, l’affectation de la **valeur false** au paramètre *lParam* est utile.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

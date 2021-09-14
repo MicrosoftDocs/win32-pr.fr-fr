@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecea66d57bf473b5000e84c707e652f1c49431a840da5cc50e43f9e091c3eefb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d88eb8bb651929c905f080f97a9eaefd3b4dace
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117943391"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122921"
 ---
 # <a name="registeredtaskrunex-method"></a>Méthode RegisteredTask. RunEx
 
@@ -87,15 +87,15 @@ Objet [**RunningTask**](runningtask.md) qui définit la nouvelle instance de la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode retournera sans erreur, mais la tâche ne s’exécutera pas si la propriété [**TaskSettings. AllowDemandStart**](tasksettings-allowdemandstart.md) est définie sur false pour la tâche inscrite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

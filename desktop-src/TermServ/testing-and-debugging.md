@@ -5,12 +5,12 @@ ms.assetid: ae14af04-7d19-406b-998e-a0579cfe73eb
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96cacabf8f30772fa654a1fefc24ff8059ff5e002cde8f633537ce8f2f07f068
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d9028ccf0eea97a8651392baba094ac6dcda242f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119987039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120573"
 ---
 # <a name="testing-and-debugging"></a>Test et débogage
 

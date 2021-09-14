@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches des exemples de Planificateur de tâches, déclencheur de connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd7cfc8412e33df47841cf33d2a4950061d39d77fbe76d3b896b5d220b04b8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ffa758546dbd08b6ccf27412f38891589cb9643
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132121"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120606"
 ---
 # <a name="starting-an-executable-when-a-user-logs-on"></a>Démarrage d’un exécutable lorsqu’un utilisateur ouvre une session
 

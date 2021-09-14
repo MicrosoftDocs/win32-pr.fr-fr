@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6ac84eaef60c5cc30e7bdf4422c0c3b081f56e9bd0eeeb8a43b30aa34bfd3c20
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d451b2bba47fce37f0404dd5140d81b696b9aa35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118082073"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124406"
 ---
 # <a name="esentexistinglogfilehasbadsignatureexception-class"></a>EsentExistingLogFileHasBadSignatureException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentExistingLogFileHasBadSignatureException](./esentexistinglogfilehasbadsignatureexception-members.md)
 

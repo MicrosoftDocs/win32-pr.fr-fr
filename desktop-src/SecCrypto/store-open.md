@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d70c6410d0ecb8edb91aa722bcf6f35cb9536c3ed2b7f03c2d5cb141937aeb69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef4ffe89a4b726ecfa33fb95d213d809cae2487b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118897803"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120805"
 ---
 # <a name="storeopen-method"></a>Store. Open, méthode
 
@@ -120,11 +120,11 @@ Les magasins situés dans certains emplacements ne peuvent être ouverts qu’en
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cette méthode est appelée sur un magasin de cartes à puce, d’autres interfaces utilisateur de carte à puce peuvent être appelées.
 
@@ -135,7 +135,7 @@ Si cette méthode est appelée sur un magasin de cartes à puce, d’autres inte
 
 Si *StoreLocation* est un **magasin d' \_ \_ utilisateurs de \_ carte \_ à puce** CAPICOM, *StoreName* est ignoré. Dans ce cas, CAPICOM lit tous les certificats de tous les lecteurs disponibles qui contiennent une carte à puce.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

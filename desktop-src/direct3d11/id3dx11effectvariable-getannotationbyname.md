@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 766366497187fec9c6dab3c5f92f5fbca23f5729297976d2c9e2c7e4ffb0deef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e37efcd773728e563a4112f61a7c6c965d05bad4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119376459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124494"
 ---
 # <a name="id3dx11effectvariablegetannotationbyname-method"></a>ID3DX11EffectVariable :: GetAnnotationByName, méthode
 
@@ -52,13 +52,13 @@ Nom de l’annotation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md). Notez que si l’annotation est introuvable, le **ID3DX11EffectVariable** retourné est vide. La méthode [**ID3DX11EffectVariable :: IsValid**](id3dx11effectvariable-isvalid.md) doit être appelée pour déterminer si l’annotation a été trouvée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Annonations peut être attaché à une technique, à une passe ou à une variable globale.
 
@@ -67,7 +67,7 @@ Annonations peut être attaché à une technique, à une passe ou à une variabl
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

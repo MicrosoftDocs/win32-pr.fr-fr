@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e999d4f42477451fef25bd59fb95606624cc4fd60d340231b3ee95558834d25
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbd55bfb06b678742aa5e356c9e62b14229aa8d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118235308"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220796"
 ---
 # <a name="dialogex-resource"></a>Ressource DIALOGEX
 
@@ -285,7 +285,7 @@ Identificateur de contrôle. Pour plus d’informations, consultez [paramètres 
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Version**](version-statement.md)
+[**VERSION**](version-statement.md)
 </dt> </dl>
 
  

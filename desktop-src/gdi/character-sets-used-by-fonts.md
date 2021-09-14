@@ -4,12 +4,12 @@ ms.assetid: 7989c59e-2ec6-4d1a-bb86-f4037ca32764
 title: Jeux de caractères utilisés par les polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ec30a82c08a0b9ac1162034b6308bb68ff7dc1c6469e5e73bad2838b528eef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e33c4c5cc193c4474b39113acdedafec699456e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119779359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122318"
 ---
 # <a name="character-sets-used-by-fonts"></a>Jeux de caractères utilisés par les polices
 

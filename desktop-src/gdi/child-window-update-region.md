@@ -4,12 +4,12 @@ ms.assetid: d8110492-c1b9-4b49-9b34-587adb7c65c9
 title: Zone de mise à jour de la fenêtre enfant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf702855e506424a08e5be6c6b0cfe514035f1c54348306475140fb7fc440a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b92e6cba93c3be253b8ed8616bdcf9301e92494
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105894"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122306"
 ---
 # <a name="child-window-update-region"></a>Zone de mise à jour de la fenêtre enfant
 

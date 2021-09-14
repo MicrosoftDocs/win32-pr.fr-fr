@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d9184d5e8a0e0ad6c0242ec1dc4b7590f1bc0d39a0a9cd6a09b2676563a2796e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f8010dcfe490363903ff455bedb61254b69b825
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119950"
 ---
 # <a name="cimagedisplayrefreshdisplaytype-method"></a>Méthode CImageDisplay. RefreshDisplayType
 
@@ -49,17 +49,17 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou \_ si E échoue en cas d’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode initialise le membre **d' \_ affichage m** sur un type vidéo qui correspond au mode d’affichage sur le périphérique spécifié.
 
 Appelez cette méthode chaque fois qu’un \_ message DISPLAYCHANGED WM est reçu, ou pour spécifier un périphérique d’affichage secondaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

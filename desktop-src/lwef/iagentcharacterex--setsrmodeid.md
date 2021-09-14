@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetSRModeID
 ms.assetid: 8f9072ec-1f64-4f5c-972d-cd6799ce028c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd7fcfbf4aff25c1af0fbdb1f40471f6b54c4731f22fb2c736da42fe462eb390
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 390d7e0126fe5ef62273cf6d7d23ada25c26bbdb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118750416"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221012"
 ---
 # <a name="iagentcharacterexsetsrmodeid"></a>IAgentCharacterEx::SetSRModeID
 

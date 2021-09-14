@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f5574548781f4ab5b7ecbc1ead08aba10ec0bfaf8c0740e2e429303732e90e88
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d68ddc1adc0af335dcf2d4139cf7c1f0a381d986
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124324"
 ---
 # <a name="evictnode-method-of-the-cim_clusteringservice-class"></a>Méthode EvictNode de la \_ classe CIM ClusteringService
 
@@ -54,17 +54,17 @@ Référence au système informatique à supprimer du cluster.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 (zéro) si le système informatique est correctement expulsé, 1 (un) si la méthode n’est pas prise en charge, et tout autre nombre si une erreur s’est produite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

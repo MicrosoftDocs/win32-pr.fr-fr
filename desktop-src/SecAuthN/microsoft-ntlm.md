@@ -4,12 +4,12 @@ ms.assetid: 35a38858-d36f-45c9-95f4-2541a182f5ac
 title: Microsoft NTLM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb3d7f272c831c6bf9ac5efd30b8fa67bc7ad27d78d43794e5110fb63d1fe49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9723f24d5913adefe70d4e238de0591790a34bfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118921690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123413"
 ---
 # <a name="microsoft-ntlm"></a>Microsoft NTLM
 

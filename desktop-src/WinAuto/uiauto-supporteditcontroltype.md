@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f5eea05d463f191483cb53f7cbfceef83058093f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476133"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122586"
 ---
 # <a name="edit-control-type"></a>Modifier le type de contrôle
 
@@ -139,7 +139,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle d’édition peut être utilisé en tant que champ de texte en lecture seule qui ne prend pas en charge la sélection ou la modification de texte. Un tel contrôle d’édition se comporte comme un objet de champ qui a un nom et une valeur spécifiques.
 
@@ -149,7 +149,7 @@ Si un contrôle d’édition contient du texte d’espace réservé (par exemple
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

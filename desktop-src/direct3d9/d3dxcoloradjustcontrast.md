@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: 9dc9bb79d1ebbe536661347d76d13846dead6aa8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124469"
 ---
 # <a name="d3dxcoloradjustcontrast-function-d3dx9mathh"></a>D3DXColorAdjustContrast, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Valeur de contraste. Ce paramètre interpole de manière linéaire entre 50% de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est le résultat de l’ajustement du contraste.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Le canal alpha d’entrée est copié, sans modification, sur le canal alpha de sortie.
 
@@ -92,7 +92,7 @@ pOut->r = 0.5f + c * (pC->r - 0.5f);
 
 Si c est supérieur à 0 et inférieur à 1, le contraste est réduit. Si c est supérieur à 1, le contraste est augmenté.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

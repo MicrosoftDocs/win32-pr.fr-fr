@@ -4,12 +4,12 @@ ms.assetid: 6c77c8f6-289e-4130-b56a-e1f0bcc40f3e
 title: DSP de capture vocale (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d05eb6d3f97f748d5c82d8fa566ee25a3a01ce225ab76e84d73f0a86b132afb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e48c3b3194873008f45ef80ef3a21dad416158b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220876"
 ---
 # <a name="voice-capture-dsp"></a>DSP de capture vocale
 
@@ -55,7 +55,7 @@ CLSID \_ CWMAudioAEC
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 contrairement aux autres dsp, l’objet de capture vocale encapsule plusieurs dsp dans un objet unique, et l’objet est un objet DMO uniquement (il n’implémente pas [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)). le DMO de capture vocale comprend les composants DSP suivants :
 
@@ -153,7 +153,7 @@ Pour récupérer les données de sortie du DSP, procédez comme suit :
 3.  transmettez la structure de [**\_ \_ \_ mémoire tampon de données de sortie DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer) à la méthode [**IMediaObject ::P rocessoutput**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput) .
 4.  continuez à appeler cette méthode aussi longtemps que le DMO a des données de sortie. le DSP signale qu’il a plus de sortie en définissant le DMO indicateur de **\_ données de sortie \_ \_ BUFFERF \_ incomplet** dans le membre **dwStatus** de la structure de [**tampon de \_ données de sortie \_ \_ DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

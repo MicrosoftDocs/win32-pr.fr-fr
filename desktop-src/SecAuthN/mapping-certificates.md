@@ -4,12 +4,12 @@ ms.assetid: 4139f927-54f4-4968-a9eb-020401bb536d
 title: Mappage des certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f671afa6278da49427d0f7b49f78895198333e24d135383207b359846216638
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 397a9ef8822d4f191ae37cdb998166fa54c2b12d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118921838"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123438"
 ---
 # <a name="mapping-certificates"></a>Mappage des certificats
 

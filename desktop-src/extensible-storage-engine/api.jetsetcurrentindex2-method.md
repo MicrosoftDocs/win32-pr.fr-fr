@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee20d69e2c88c8da9abf00c09d0ce1f7f782017742deb696d0ce0db7cdd617d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e08e1fe5027641348259381d74b34ce16b034e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118783710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120334"
 ---
 # <a name="apijetsetcurrentindex2-method"></a>API. JetSetCurrentIndex2, méthode
 
@@ -95,7 +95,7 @@ public static void JetSetCurrentIndex2(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

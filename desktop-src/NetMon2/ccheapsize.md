@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: b086777b571af417662bd60a582fbc53a07c49300d21d2c59b6a36d2247b9d14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e184ae196253a66fc68f9066615b39c48f6921e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222756"
 ---
 # <a name="ccheapsize-function"></a>CCHeapSize fonction)
 
@@ -46,13 +46,13 @@ Pointeur vers la mémoire allouée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est la taille du bloc de mémoire demandé, mesurée en octets.
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

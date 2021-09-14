@@ -4,12 +4,12 @@ description: L’API de diffusion multimédia en continu fournit les structures 
 ms.assetid: 61B10B96-6B3C-4A4B-A7DA-F3E9E31EC5FD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72f49564a52b3a451f66c6814f60dcd6898ffa6a330ed89bba1c2d2781c94a9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a7b638fd73e51dbb7342869d8529e179b95b9d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220857"
 ---
 # <a name="media-streaming-structures"></a>Structures de diffusion multimédia en continu
 

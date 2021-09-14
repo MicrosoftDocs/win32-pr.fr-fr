@@ -29,12 +29,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ede3347581267d9fcec00a82c016c273c239c9673b536843753e6b59ec2341
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0689536385644ae3ef95d106e50ab198e5a57f93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119514319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122718"
 ---
 # <a name="win32_tsenvironmentsetting-class"></a>\_Classe TSEnvironmentSetting Win32
 
@@ -286,7 +286,7 @@ Stratégie de groupe
 2
 </dt> <dd>
 
-Par défaut
+Default
 
 </dd> </dl>
 
@@ -322,7 +322,7 @@ Stratégie de groupe
 2
 </dt> <dd>
 
-Par défaut
+Default
 
 </dd> </dl>
 
@@ -358,7 +358,7 @@ Stratégie de groupe
 2
 </dt> <dd>
 
-Par défaut
+Default
 
 </dd> </dl>
 
@@ -468,7 +468,7 @@ Cette propriété est héritée de [**Win32 \_ TerminalSetting**](win32-terminal
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Sachez que les winstations qui sont associés à la session de console ne peuvent pas accéder aux méthodes et aux propriétés de cette classe. Si vous tentez de le faire en spécifiant « console » comme valeur de la propriété **TerminalName** , les méthodes de cet objet retournent **WBEM \_ E \_ non \_ pris en charge**. Ce code d’erreur est également retourné si une station Windows tente d’appeler des méthodes de cet objet pour ajouter ou modifier les propriétés de sécurité des comptes LocalSystem, LocalService ou NetworkService.
 
@@ -485,7 +485,7 @@ Set objServices = GetObject( _
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

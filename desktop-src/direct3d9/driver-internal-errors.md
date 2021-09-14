@@ -4,12 +4,12 @@ ms.assetid: 483fdb03-e453-4a1b-bd8e-294e9e9a20c2
 title: Erreurs internes du pilote (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c2290e2190081c54a1e0e97fcbf1d6f76fdb16b9b2b7d45648059f9c839396
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c81b0ee8ba50edb3c14fbd9a22c9fa9dc93aab8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119849460"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124462"
 ---
 # <a name="driver-internal-errors-direct3d-9"></a>Erreurs internes du pilote (Direct3D 9)
 

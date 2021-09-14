@@ -4,12 +4,12 @@ ms.assetid: 317ea311-0592-432a-87b5-58296de003aa
 title: Création d’une police logique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fb491a1af055963053e8b0247ecaa212547a750a7bd0a35db0ae983695a2420
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4398f426ae2dd0f18c21409422dfbcb53f0e6ee8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117887469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221052"
 ---
 # <a name="creating-a-logical-font"></a>Création d’une police logique
 

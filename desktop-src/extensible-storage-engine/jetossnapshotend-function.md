@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 890114147950d74dcf2c9004a34cc2c0ab30f61c
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b57528899b8d78ecee31f6dd54c2ac8decece383
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120285"
 ---
 # <a name="jetossnapshotend-function"></a>JetOSSnapshotEnd fonction)
 
@@ -80,16 +80,22 @@ Si cette fonction réussit, une session d’instantané se termine et le comport
 
 Si cette fonction échoue, le code de retour de la JET_errOSSnapshotTimeOut retourne et la session d’instantané en cours se termine, mais le gel d’IOs pendant la période de capture instantanée n’a pas été respecté en interne. Pour toutes les autres erreurs, l’état de la session d’instantané ne sera pas modifié.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette fonction est appelée uniquement si [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) a été appelé avec JET_bitContinueAfterThaw.
 
 La session d’instantané doit se terminer pour que la vérification de l’instantané et la troncation du journal aient lieu. Les entrées du journal des événements seront générées pour les différentes étapes de l’instantané.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

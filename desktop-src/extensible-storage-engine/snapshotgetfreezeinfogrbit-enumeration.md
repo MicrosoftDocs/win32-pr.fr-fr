@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a986e56666fba1c97cb530fcd8ccf095b3ff87e6af42197159cd3f154bd503d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65cd54a1dd66f498e1d25fd5bb36f97b96a40a34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118485436"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122330"
 ---
 # <a name="snapshotgetfreezeinfogrbit-enumeration"></a>Énumération SnapshotGetFreezeInfoGrbit
 
@@ -79,6 +79,6 @@ public enum SnapshotGetFreezeInfoGrbit
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop. Vista](./microsoft.isam.esent.interop.vista-namespace.md)

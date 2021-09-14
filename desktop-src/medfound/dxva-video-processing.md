@@ -5,11 +5,11 @@ title: Traitement vidéo DXVA
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: bcf5058d93ddd7c506a501eb6ca07c4661755fc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524543"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220884"
 ---
 # <a name="dxva-video-processing"></a>Traitement vidéo DXVA
 
@@ -17,7 +17,7 @@ Le traitement vidéo DXVA encapsule les fonctions du matériel graphique dédié
 
 Cette rubrique contient les sections suivantes :
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Création d’un périphérique de traitement vidéo](#creating-a-video-processing-device)
     -   [Obtient le pointeur IDirectXVideoProcessorService](#get-the-idirectxvideoprocessorservice-pointer)
     -   [Énumérer les appareils de traitement vidéo](#enumerate-the-video-processing-devices)
@@ -49,7 +49,7 @@ Le matériel graphique peut utiliser l’unité de traitement graphique (GPU) po
 -   Désentrelacement et inversement
 -   Mixage de sous-flux vidéo sur l’image vidéo principale
 -   Réglage des couleurs (ProcAmp) et filtrage d’images
--   Mise à l’échelle des images
+-   Mise à l'échelle de l’image
 -   Conversion de l’espace colorimétrique
 -   Fusion alpha
 
@@ -432,7 +432,7 @@ Ces valeurs préservent la hauteur de l’image et ajustent les deux images hori
 
 ### <a name="example-3-mismatched-stream-heights"></a>Exemple 3 : hauteurs de flux incompatibles
 
-Dans l’exemple précédent, le sous-flux et le flux principal sont de la même hauteur. Les flux peuvent également avoir des hauteurs incompatibles, comme illustré dans cet exemple. Les zones du rectangle cible où aucune vidéo ne s’affiche sont dessinées à l’aide de la couleur d’arrière-plan (noir dans cet exemple). Les rectangles source et de destination sont présentés dans le diagramme suivant.
+Dans l’exemple précédent, le sous-flux et le flux principal sont de la même hauteur. les Flux peuvent également avoir des hauteurs incompatibles, comme illustré dans cet exemple. Les zones du rectangle cible où aucune vidéo ne s’affiche sont dessinées à l’aide de la couleur d’arrière-plan (noir dans cet exemple). Les rectangles source et de destination sont présentés dans le diagramme suivant.
 
 ![Diagramme montrant des hauteurs de flux incompatibles,](images/0190a15a-d971-450f-90ed-ce5633e1069c.gif)
 

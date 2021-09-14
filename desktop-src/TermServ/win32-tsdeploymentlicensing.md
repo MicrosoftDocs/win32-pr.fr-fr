@@ -1,6 +1,6 @@
 ---
 title: Classe Win32_TSDeploymentLicensing
-description: Paramètres de licence pour le déploiement de la virtualisation de Bureau à distance (RDV).
+description: Paramètres de licence pour le déploiement de la virtualisation des Bureau à distance (RDV).
 ms.assetid: 78e95629-6580-4aa1-bcbd-a79af44ddb54
 ms.tgt_platform: multiple
 keywords:
@@ -25,15 +25,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 952f58daa8a809e158265aac71b0094c0cd46fd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510172"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122734"
 ---
 # <a name="win32_tsdeploymentlicensing-class"></a>\_Classe TSDeploymentLicensing Win32
 
-Paramètres de licence pour le déploiement de la virtualisation de Bureau à distance (RDV).
+Paramètres de licence pour le déploiement de la virtualisation des Bureau à distance (RDV).
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -269,7 +269,7 @@ Spécifie s’il faut utiliser les paramètres de gestion de licences à l’ens
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

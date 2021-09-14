@@ -25,11 +25,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: b0b4ee452059ffe07d1b16aeccd0a4b539c1aa98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034137"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221065"
 ---
 # <a name="windows7grbitsenablecreatedbbackgroundmaintenance-field"></a>Champ Windows7Grbits. EnableCreateDbBackgroundMaintenance
 
@@ -55,7 +55,7 @@ public const CreateDatabaseGrbit EnableCreateDbBackgroundMaintenance
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows7Grbits, classe](./windows7grbits-class.md)
 

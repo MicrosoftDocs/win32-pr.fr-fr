@@ -4,12 +4,12 @@ description: Un contrôle rebar agit comme un conteneur pour les fenêtres enfan
 ms.assetid: vs|controls|~\controls\rebar\rebar.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55d34f76ca745f0807b849bd7c42c81944f11e4429fe2dc9670fa318cbd575ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56bc68629db7387f4ba408a769f7d87a64256000
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119434822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117122"
 ---
 # <a name="about-rebar-controls"></a>À propos des contrôles Rebar
 

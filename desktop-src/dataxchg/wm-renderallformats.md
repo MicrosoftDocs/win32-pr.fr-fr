@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77dae9b44cb379ed62c99c601d308fdec500440a9ebad0ffeaffad16ec780dfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6cdd3ce1fabdea4cdcae93b5243b89c53def0afa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122466"
 ---
 # <a name="wm_renderallformats-message"></a>\_Message WM RENDERALLFORMATS
 
@@ -52,11 +52,11 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la réponse à un message **WM \_ RENDERALLFORMATS** , l’application doit appeler la fonction [**OpenClipboard**](/windows/win32/api/winuser/nf-winuser-openclipboard) , puis vérifier qu’elle est toujours le propriétaire du presse-papiers en appelant la fonction [**GetClipboardOwner**](/windows/win32/api/winuser/nf-winuser-getclipboardowner) avant d’appeler [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata).
 
@@ -66,7 +66,7 @@ Dans la plupart des cas, l’application ne doit pas appeler la fonction [**Empt
 
 Lorsque l’application est retournée, le système supprime tous les formats non rendus de la liste des formats de presse-papiers disponibles. Pour plus d’informations sur le rendu retardé, consultez [rendu retardé](clipboard-operations.md#delayed-rendering).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -97,7 +97,7 @@ Lorsque l’application est retournée, le système supprime tous les formats no
 [**\_RENDERFORMAT WM**](wm-renderformat.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

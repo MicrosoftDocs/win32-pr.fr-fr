@@ -4,12 +4,12 @@ ms.assetid: 926778a5-e941-4424-8bc0-b50c925fd08b
 title: Fonctionnement de IUnknown
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1523a8de5d9b99df60ebaff540d4bf9468799e3be1361a4be111f15a142bbea9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a7549ce892e9c0dd3c82f1229a2440f1b930190
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119865"
 ---
 # <a name="how-iunknown-works"></a>Fonctionnement de IUnknown
 

@@ -4,12 +4,12 @@ ms.assetid: 6c74cc08-ae6a-4ef4-809f-9374e0ac5e91
 title: Affectations de canaux SAR de Hong Kong
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfbb6cfd5426515d181eaeaf84f349bc1447d3a1eb85a8c5e2e71923e71a5c3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eb35047875d630528b94ed46978fbb965ddbed6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119812479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119881"
 ---
 # <a name="hong-kong-sar-channel-assignments"></a>Affectations de canaux SAR de Hong Kong
 

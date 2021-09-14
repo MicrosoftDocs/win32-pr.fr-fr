@@ -5,11 +5,11 @@ title: Exemple de DXVA2_VideoProc
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d8fc4be1bad6a3955af255cb083a4595ecedfd30
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473925"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220881"
 ---
 # <a name="dxva2_videoproc-sample"></a>\_Exemple DXVA2 VideoProc
 
@@ -26,7 +26,7 @@ Cet exemple illustre les interfaces DXVA suivantes :
 -   [**IDirectXVideoProcessorService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice)
 -   [**IDirectXVideoProcessor**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 l' \_ exemple DXVA2 VideoProc génère une application Windows.
 
@@ -82,7 +82,7 @@ Chacune des touches de fonction F1 à F8 bascule vers un mode dans lequel les to
 
 Dans chaque mode, l’appui sur la touche origine rétablit les valeurs initiales des paramètres de ce mode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

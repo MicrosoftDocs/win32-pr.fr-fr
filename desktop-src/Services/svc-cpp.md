@@ -5,11 +5,11 @@ title: Svc.cpp
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6388a51335883aa48d15a52667d89d2188ac4ea3
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102118"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120737"
 ---
 # <a name="svccpp"></a>Svc.cpp
 

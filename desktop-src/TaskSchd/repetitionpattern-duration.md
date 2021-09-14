@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b649562d4d28f5427427e72c03172aecdc9cdac803b0239c020806673cb0bae8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51ff18330fd69bb54fdfb489b72f9470f707aed8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117759208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122814"
 ---
 # <a name="repetitionpatternduration-property"></a>RepetitionPattern. Duration, propriété
 
@@ -42,13 +42,13 @@ Durée de répétition du modèle. Le format de cette chaîne est PnYnMnDTnHnMnS
 
 Si aucune valeur n’est spécifiée pour la durée, le modèle est répété indéfiniment.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, la durée de répétition est spécifiée dans l’élément [**Duration**](taskschedulerschema-duration-repetitiontype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

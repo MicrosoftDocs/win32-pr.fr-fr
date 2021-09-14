@@ -5,11 +5,11 @@ title: Objets codec
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8638cb227796c27a28e0e06819379fe4d7faefbf
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122478145"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220905"
 ---
 # <a name="codec-objects"></a>Objets codec
 
@@ -29,7 +29,7 @@ Cette section décrit les encodeurs et les décodeurs pris en charge dans Micros
 | <a href="h-264-video-encoder.md"><strong>Encodeur vidéo H. 265/HEVC</strong></a> | Un encodeur vidéo qui encode le format H. 265/HEVC. Il prend en charge les profils H. 265 suivants :<ul><li>Profil Main</li></ul> | 
 | <a href="mpeg4part2videodecoder.md"><strong>Décodeur vidéo MPEG4 2e partie 2</strong></a> | Décodeur vidéo MPEG-4 part 2. | 
 | <a href="windowsmediaaudiodecoder.md"><strong>Windows Décodeur audio multimédia</strong></a> | décodeur qui décode les flux encodés par l’encodeur Windows Media Audio. | 
-| <a href="windowsmediaaudioencoder.md">Windows Encodeur audio multimédia</a> | Encodeur audio qui prend en charge trois catégories de sortie encodée :<ul><li>standard</li><li>Professional</li><li>Lossless</li></ul>La catégorie standard est pour l’encodage audio à usage général. la catégorie Professional correspond à l’encodage de l’audio multicanaux ou haute définition. La catégorie sans perte est destinée à compresser l’audio sans perdre les données d’origine. | 
+| <a href="windowsmediaaudioencoder.md">Windows Encodeur audio multimédia</a> | Encodeur audio qui prend en charge trois catégories de sortie encodée :<ul><li>Standard</li><li>Professional</li><li>Lossless</li></ul>La catégorie standard est pour l’encodage audio à usage général. la catégorie Professional correspond à l’encodage de l’audio multicanaux ou haute définition. La catégorie sans perte est destinée à compresser l’audio sans perdre les données d’origine. | 
 | <a href="windowsmediaaudiovoicedecoder.md"><strong>Windows Décodeur de voix Media audio</strong></a> | décodeur qui décode les flux encodés par l’encodeur vocal Windows Media Audio. | 
 | <a href="windowsmediaaudiovoiceencoder.md">Windows Codeur Media Audio Voice</a> | Encodeur pour l’encodage audio contenant principalement de la parole. | 
 | <a href="windows-media-mp3-decoder.md"><strong>Windows Décodeur MP3 multimédia</strong></a> | Décodeur audio qui décode les formats audio suivants.<ul><li>ISO/IEC 11172-3 (MPEG-1 audio) couche 3</li><li>ISO/IEC 13818-3 (MPEG-2 audio) couche 3, extension de fréquence d’échantillonnage faible</li></ul> | 

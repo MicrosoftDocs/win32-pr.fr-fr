@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cspdk.h
-ms.openlocfilehash: 2815d12735023cd0f7ac60fc2ed9f60fc56e32d0f54610f295a2e6b0544e589c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99b9344c6951dc93972315d9b4f60752f1484d68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117970865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120778"
 ---
 # <a name="vtableprovstruc-structure"></a>VTableProvStruc, structure
 
@@ -119,11 +119,11 @@ Il s’agit d’un membre de la version 3.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les pointeurs de la structure **VTableProvStruc** sont uniquement disponibles dans la fonction [**CPAcquireContext**](https://www.bing.com/search?q=**CPAcquireContext**) . Si des membres de la structure sont nécessaires après l’exécution d’un appel à **CPAcquireContext** , des copies des éléments de structure nécessaires doivent être effectuées par le CSP. Les pointeurs de fonction de cette structure peuvent être stockés et utilisés jusqu’à ce que le contexte du CSP soit libéré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

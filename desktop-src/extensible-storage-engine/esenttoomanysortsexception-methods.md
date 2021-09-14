@@ -8,11 +8,11 @@ ms:contentKeyID: 55103113
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: 36283016ca6bfac37517289fe9e7486930690c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122385"
 ---
 # <a name="esenttoomanysortsexception-methods"></a>Méthodes EsentTooManySortsException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentTooManySortsException, classe](./esenttoomanysortsexception-class.md)
 

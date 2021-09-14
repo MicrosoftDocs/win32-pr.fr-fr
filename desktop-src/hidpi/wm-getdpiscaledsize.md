@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3386a0f38187e375f9dae0e390a413a1e64565f15d39e1e9f1e436c9238bea99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b95631e51247d7919307f36dd0af10c72621a612
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118759290"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120197"
 ---
 # <a name="wm_getdpiscaledsize-message"></a>\_Message WM GETDPISCALEDSIZE
 
@@ -56,11 +56,11 @@ L' \_ \_ application doit écrire la valeur out dans lParam pour spécifier la t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne une valeur BOOLÉENNE. Le retour de la valeur TRUE indique qu’une nouvelle taille a été calculée. Si la valeur renvoyée est FALSe, cela signifie que le message ne sera pas géré et que la mise à l’échelle PPP linéaire par défaut s’appliquera à la fenêtre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est envoyé uniquement aux fenêtres de niveau supérieur qui ont un contexte de reconnaissance PPP de par moniteur v2.
 
@@ -68,7 +68,7 @@ Cet événement est nécessaire pour faciliter la mise à l’échelle non liné
 
 Il n’existe pas de gestion par défaut spécifique de ce message dans [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca). Comme pour tous les messages qu’il ne gère pas explicitement, [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca) retourne zéro pour ce message. Comme indiqué ci-dessus, ce retour indique au système d’utiliser le comportement linéaire par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

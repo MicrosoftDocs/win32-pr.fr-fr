@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3e9ee84732aeaed5d8854008fc8dff7edf703a48d7427f289e5aeb4f525126be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9dd50d38aa320f433dbb9972cb8bf6e615a2125
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119976669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120313"
 ---
 # <a name="columnstreamcanwrite-property"></a>ColumnStream. CanWrite, propriété
 
@@ -62,7 +62,7 @@ Type : [System. Boolean](/dotnet/api/system.boolean)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [ColumnStream, classe](./columnstream-class.md)
 

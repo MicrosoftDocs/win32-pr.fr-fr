@@ -4,12 +4,12 @@ ms.assetid: 05945937-9e01-4930-ae95-1931a711b55e
 title: Instructions pour l’enregistrement des filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221cadf6fb4806a2fa5c5b2cc4fd9abf423cec426ec23cd76b0bc642080852af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ed616d90c17d232995994d8ceccfdc72d022d56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127119914"
 ---
 # <a name="guidelines-for-registering-filters"></a>Instructions pour l’enregistrement des filtres
 

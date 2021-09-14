@@ -5,11 +5,11 @@ title: Comportement des options de socket de multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 460b13fb710e86ef81fb64b48b697f7e73ccf392
-ms.sourcegitcommit: 9942a888f172981e276def0c6b84fb0266fcb02d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "123399765"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122534"
 ---
 # <a name="multicast-socket-option-behavior"></a>Comportement des options de socket de multidiffusion
 
@@ -25,7 +25,7 @@ cette page vous aide à concevoir et à dépanner correctement les applications 
 <th>Option de socket initiale</th>
 <th>Option de socket suivante en conflit</th>
 <th>Erreur retournée</th>
-<th>Remarques</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

@@ -4,12 +4,12 @@ ms.assetid: cabb715a-2a6a-4d56-8113-5e5ed26fc107
 title: Macros (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c6c1cec7688ad78f5047529cdf4e41951f7160a177c5509e99a0d4842e1145
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99a957ca9d15784e995ec3bd145cc55387151797
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119849449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124456"
 ---
 # <a name="macros-direct3d-9"></a>Macros (Direct3D 9)
 
@@ -33,7 +33,7 @@ Cette section contient des informations de référence pour les macros fournies 
 -   [**D3DTS \_ worldn**](d3dts-worldn.md)
 -   [**VERSION de D3DVS \_**](d3dvs-version.md)
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 Toutes les macros Direct3D présentent la configuration requise suivante :
 

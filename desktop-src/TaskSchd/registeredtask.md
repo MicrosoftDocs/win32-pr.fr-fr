@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e90dc83c47b37343c41489ca2d7b3288f727086e769e83104b57ca5b6de13b2a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c7ce300375e5122a7b63266c0cd21cdddf34606b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119681639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122894"
 ---
 # <a name="registeredtask-object"></a>Objet RegisteredTask
 
@@ -47,7 +47,7 @@ L’objet **RegisteredTask** a ces méthodes.
 | [**Exécuter**](registeredtask-run.md)                                     | Exécute la tâche inscrite immédiatement.<br/>                                                |
 | [**RunEx**](registeredtask-runex.md)                                 | Exécute la tâche inscrite immédiatement à l’aide des indicateurs spécifiés et d’un identificateur de session.<br/> |
 | [**SetSecurityDescriptor**](registeredtask-setsecuritydescriptor.md) | Définit le descripteur de sécurité utilisé comme informations d’identification pour la tâche inscrite.<br/>    |
-| [**Erreur**](registeredtask-stop.md)                                   | Arrête immédiatement la tâche inscrite.<br/>                                               |
+| [**Arrêter**](registeredtask-stop.md)                                   | Arrête immédiatement la tâche inscrite.<br/>                                               |
 
 
 
@@ -65,11 +65,11 @@ L’objet **RegisteredTask** a ces propriétés.
 | [**Activé**](registeredtask-enabled.md)<br/>                       | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique si la tâche inscrite est activée.<br/>  |
 | [**LastRunTime**](registeredtask-lastruntime.md)<br/>               | Lecture seule<br/>  | Obtient l’heure de la dernière exécution de la tâche inscrite.<br/>                                |
 | [**LastTaskResult**](registeredtask-lasttaskresult.md)<br/>         | Lecture seule<br/>  | Obtient les résultats qui ont été retournés lors de la dernière exécution de la tâche inscrite.<br/> |
-| [**Name**](registeredtask-name.md)<br/>                             | Lecture seule<br/>  | Obtient le nom de la tâche inscrite.<br/>                                          |
+| [**Nom**](registeredtask-name.md)<br/>                             | Lecture seule<br/>  | Obtient le nom de la tâche inscrite.<br/>                                          |
 | [**NextRunTime**](registeredtask-nextruntime.md)<br/>               | Lecture seule<br/>  | Obtient l’heure à laquelle la tâche inscrite est planifiée pour s’exécuter.<br/>               |
 | [**NumberOfMissedRuns**](registeredtask-numberofmissedruns.md)<br/> | Lecture seule<br/>  | Obtient le nombre de fois où la tâche inscrite a manqué une exécution planifiée.<br/>       |
-| [**Chemin**](registeredtask-path.md)<br/>                             | Lecture seule<br/>  | Obtient le chemin d’accès à l’emplacement où la tâche inscrite est stockée.<br/>                          |
-| [**Département**](registeredtask-state.md)<br/>                           | Lecture seule<br/>  | Obtient l’état opérationnel de la tâche inscrite.<br/>                             |
+| [**Chemin d’accès**](registeredtask-path.md)<br/>                             | Lecture seule<br/>  | Obtient le chemin d’accès à l’emplacement où la tâche inscrite est stockée.<br/>                          |
+| [**State**](registeredtask-state.md)<br/>                           | Lecture seule<br/>  | Obtient l’état opérationnel de la tâche inscrite.<br/>                             |
 | [**LANGAGE**](registeredtask-xml.md)<br/>                               | Lecture seule<br/>  | Obtient les informations d’inscription au format XML pour la tâche inscrite.<br/>       |
 
 
@@ -80,7 +80,7 @@ L’objet **RegisteredTask** a ces propriétés.
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclenchement temporel (script)](time-trigger-example--scripting-.md) et [affichage des noms et des États des tâches (script)](displaying-task-names-and-state--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

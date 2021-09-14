@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb8dab44cd1f26c080d438c15f545c882d2e4427af7fa04049b539ce8b3cf13
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd7adba98fbfa450cd938b56ec6d91598b918d0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119735019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122654"
 ---
 # <a name="iwmpmediacollectiongetbyattribute-method"></a>IWMPMediaCollection :: getByAttribute, méthode
 
@@ -69,11 +69,11 @@ Implements IWMPMediaCollection.getByAttribute
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être utilisée pour créer une requête générique pour les éléments multimédias qui correspondent à une valeur pour un attribut de la bibliothèque. Cela est utile dans le cas des attributs définis par l’utilisateur. Si l’attribut n’existe pas, une erreur se produit.
 
@@ -84,7 +84,7 @@ Vous pouvez utiliser cette méthode pour récupérer tous les éléments multim�
 | Valeur    | Description                                               |
 |----------|-----------------------------------------------------------|
 | audio    | Musique et d’autres éléments audio uniquement                          |
-| Autres    | D’autres éléments, tels qu’un fichier. ASF ou l’URL d’un flux. |
+| other    | D’autres éléments, tels qu’un fichier. ASF ou l’URL d’un flux. |
 | photos    | Éléments de photo. requiert Lecteur Windows Media 10.            |
 | playlist | Sélections représentées en tant qu’éléments multimédias.                     |
 | radio    | Éléments de station de radio. non utilisé par Lecteur Windows Media 10. |
@@ -133,7 +133,7 @@ player.Ctlcontrols.play()
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

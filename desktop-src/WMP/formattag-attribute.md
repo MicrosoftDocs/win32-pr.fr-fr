@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18fdeb1f32d8aa337293c728f90cdf5a93ef2457be9e45bc80f017c5cc2d6db1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b958baf6e0f2d9baa40059ce1719e14dfb0a48d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120521"
 ---
 # <a name="formattag-attribute"></a>Attribut FormatTag
 
@@ -28,11 +28,11 @@ L’attribut **FormatTag** est la balise de format du codec audio.
 -   [Éléments audio](audio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur est une représentation sous forme de chaîne de la valeur de balise de format décimal. par exemple, pour le codec Windows Media Audio 9, l’attribut **FormatTag** contient la chaîne « 354 ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

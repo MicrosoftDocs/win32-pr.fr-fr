@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorinsert(xmvector,xmvector)
 title: Modèle XMVectorInsert (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b90eb7348639e6993cb69ef9e82ab78ed989999ea8423f1f6ff8bd9deb7c70d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3250ad52ab19a127b110b02ecf71543f44708681
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739750"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120361"
 ---
 # <a name="xmvectorinsert-template"></a>Modèle XMVectorInsert
 
@@ -46,7 +46,7 @@ template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint
 
 Retourne le [**XMVECTOR**](xmvector-data-type.md) qui résulte de la rotation et de l’insertion.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction est une version de modèle de [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert) où les arguments *Select \** sont des valeurs de modèle.
 
@@ -63,7 +63,7 @@ Pour des performances optimales, le résultat de `XMVectorInsert` doit être att
 
 Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

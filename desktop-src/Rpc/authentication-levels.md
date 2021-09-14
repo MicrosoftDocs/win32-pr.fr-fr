@@ -4,12 +4,12 @@ description: Microsoft RPC fournit plusieurs niveaux d’authentification.
 ms.assetid: d9ed938e-4cd4-4355-8d08-830f955dd00c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cff12dae7331577da7748c2dc069bd6e7e4af6cfb1961f80d3de461930ddc3e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5c5fd25efb84b4ee2834e6f79c7fdd21dd903d55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120080899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123493"
 ---
 # <a name="authentication-levels"></a>Niveaux d’authentification
 

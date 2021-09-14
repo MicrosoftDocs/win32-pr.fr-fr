@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 3d51271fb2e9526bc293b9c5d36acc0a65b3b639
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482945"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122610"
 ---
 # <a name="calendar-control-type"></a>Calendar (type de contrôle)
 
@@ -95,7 +95,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 | [**IScrollProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iscrollprovider)       | Dépend       | La plupart des contrôles calendar prennent en charge le retournement de l’affichage par page. Le modèle de contrôle [Scroll](uiauto-implementingscroll.md) est recommandé pour prendre en charge la navigation de pagination.                                                                                                                                                    |
 | [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider) | Dépend       | La plupart des contrôles Calendar conservent un jour, un mois ou une année spécifique en tant que sélection du sous-élément. Certains calendriers peuvent être sélectionnés de façon multiple et ne peuvent être qu’un seul sélectionnable. Le contrôle Calendar avec des sous-éléments sélectionnables doit prendre en charge le modèle de contrôle [Selection](uiauto-implementingselection.md) .                         |
 | [**ITableProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itableprovider)         | Obligatoire      | Étant donné que le contrôle Calendar a toujours un en-tête dans sa sous-arborescence pour les jours de la semaine, le modèle de contrôle [table](uiauto-implementingtable.md) doit être pris en charge.                                                                                                                                                     |
-| [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)         | No            | Le modèle de contrôle [value](uiauto-implementingvalue.md) n’est pas nécessaire pour les contrôles Calendar, car l’élément ne peut pas définir la valeur directement sur le contrôle. Si une date spécifique est associée au contrôle, les informations doivent être fournies par le modèle de contrôle [Selection](uiauto-implementingselection.md) . |
+| [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)         | Non            | Le modèle de contrôle [value](uiauto-implementingvalue.md) n’est pas nécessaire pour les contrôles Calendar, car l’élément ne peut pas définir la valeur directement sur le contrôle. Si une date spécifique est associée au contrôle, les informations doivent être fournies par le modèle de contrôle [Selection](uiauto-implementingselection.md) . |
 
 
 
@@ -132,7 +132,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

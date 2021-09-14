@@ -4,12 +4,12 @@ ms.assetid: a3aeea9b-09c0-4834-892a-c378b67402f4
 title: Exemple de service complet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1f3f5fc0fb59342841a9d1f1280475ace12c54998d59e5f36a19557f0ccc5c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb87ebfef3f964eacee66be94a4b5291c335d0d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118888330"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120730"
 ---
 # <a name="the-complete-service-sample"></a>Exemple de service complet
 
@@ -29,7 +29,7 @@ La procédure suivante décrit la génération du service et l’inscription de 
 1.  Générez la DLL de message à partir de Sample.mc en procédant comme suit :
     1.  **sample.mc MC-U**
     2.  **RC-r exemple. RC**
-    3.  **Link-dll-NOENTRY -out:sample.dll Sample. res**
+    3.  **Link-dll-NOENTRY-out:sample.dll Sample. res**
 2.  Générez Svc.exe, SvcConfig.exe et SvcControl.exe à partir de svc. cpp, SvcConfig. cpp et SvcControl. cpp, respectivement.
 3.  Créez la clé de Registre **HKEY \_ local \_ machine \\ System System \\ CurrentControlSet \\ services \\ EventLog \\ application \\ SvcName** et ajoutez les valeurs de Registre suivantes à cette clé.
 

@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9bcfe1b671f23b6ffeee77fc00afa8f9a1b857b7b6ee162cf356c641415e05b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e0a69554ef50a82695d2904b11f4189c3aab11b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124340"
 ---
 # <a name="cim_thread-class"></a>\_Classe de thread CIM
 
@@ -504,7 +504,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe de **\_ thread CIM** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -512,7 +512,7 @@ WMI n’implémente pas cette classe. Pour les classes WMI dérivées du **\_ th
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

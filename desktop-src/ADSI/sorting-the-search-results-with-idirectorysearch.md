@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, tri des résultats de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7864a3878d2cdc44d58c6f6090f6b791b9fe29b3d2613e6e3d4aaf0b6289e100
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8433d24b06ac4d361d6520d8af3376ea12acac1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119443869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124351"
 ---
 # <a name="sorting-the-search-results-with-idirectorysearch"></a>Tri des résultats de la recherche avec IDirectorySearch
 

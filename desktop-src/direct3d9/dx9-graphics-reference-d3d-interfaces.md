@@ -4,12 +4,12 @@ ms.assetid: f12facdc-5a3f-4f89-8ae3-a322ef3389b2
 title: Interfaces Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e48620ea697a52f9e5da599c4455b6c8051154394870dc4cc6bde37ef454eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e81d7da07a9389dad1629e517c728488cb5b6bf9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119791419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124457"
 ---
 # <a name="direct3d-interfaces"></a>Interfaces Direct3D
 

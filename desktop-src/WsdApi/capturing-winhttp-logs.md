@@ -4,12 +4,12 @@ ms.assetid: 75ba330d-afcd-4d8f-93c7-a1b9f80dd050
 title: Capture des journaux WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 648ebb95182096fc4a853c2685f896fa2902a828c8ed0ab143ce89c04831c7ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 378801e97b2eef8c1ea0c40a5973844d75a94e02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124510"
 ---
 # <a name="capturing-winhttp-logs"></a>Capture des journaux WinHTTP
 

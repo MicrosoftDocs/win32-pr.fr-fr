@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102486
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2f60491eb38586e8ef18989e3e25fe28d9cdfd49af4314fe30b5d123b621163b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd6012d85f994f1fcda1ed9300a27bd9bfae5f03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117898158"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122398"
 ---
 # <a name="esentpreviousversionexception-methods"></a>Méthodes EsentPreviousVersionException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentPreviousVersionException, classe](./esentpreviousversionexception-class.md)
 

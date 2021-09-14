@@ -4,12 +4,12 @@ description: Créer des objets accessibles
 ms.assetid: d34a52d1-1eb2-4bb4-989c-a1ca4b5d815f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaaa9ee8669199a9f4de938b4e1cb9e6dd24336bd86527a2cc528709e303543e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5efa85e44d6d51105e6363d276ecb7e5f33d8378
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119052817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124527"
 ---
 # <a name="create-new-accessible-objects"></a>Créer des objets accessibles
 

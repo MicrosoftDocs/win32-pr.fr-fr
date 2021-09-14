@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce7715082a371c3632d8accb8fdf60bbac50d8d7d8182732d6a62c2dbb423c34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9c7725d3c0bc3f3a7a7a72db16e19626a3c4d2a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118169275"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117238"
 ---
 # <a name="rb_setcolorscheme-message"></a>\_Message SETCOLORSCHEME RB
 
@@ -39,15 +39,15 @@ Pointeur vers une structure [**COLORSCHEME**](/windows/win32/api/commctrl/ns-com
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle rebar utilise les informations de modèle de couleurs lors du dessin des éléments 3D dans le contrôle et les bandes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

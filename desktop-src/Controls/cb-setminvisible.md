@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a9790c43141ef836c1dec86304f260b0490854b593b7005b594d2a718332296
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac88155424c0b1ecf6c91f398e7a9a2d437eff90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120063319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120045"
 ---
 # <a name="cb_setminvisible-message"></a>\_Message SETMINVISIBLE CB
 
@@ -43,11 +43,11 @@ Ce paramètre n’est pas utilisé ; elle doit être égale à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message réussit, la valeur de retour est **true**. Sinon, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le nombre d’éléments dans la liste déroulante est supérieur au minimum, la zone de liste déroulante utilise une barre de défilement. Par défaut, 30 est le nombre minimal d’éléments visibles.
 
@@ -55,7 +55,7 @@ Ce message est ignoré si le contrôle de zone de liste déroulante a un [**\_ N
 
 Pour utiliser **CB \_ SETMINVISIBLE**, l’application doit spécifier comctl32.dll version 6 dans le manifeste. Pour plus d’informations, consultez [activation des styles visuels](cookbook-overview.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

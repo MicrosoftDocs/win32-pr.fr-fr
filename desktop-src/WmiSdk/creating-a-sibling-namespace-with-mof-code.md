@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 282ac9f23abcfb98c9c46d6030d679235d838208e4934366c2e10a0380a5df0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4fcbf6e16ad51ab9a0df63e3497735b07cd6afc8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120450"
 ---
 # <a name="creating-a-sibling-namespace-with-mof-code"></a>Création d’un espace de noms frère avec du code MOF
 

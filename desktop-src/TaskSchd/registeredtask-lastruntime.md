@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b5c1bef75ce9854f98214e57a1bf19bd4994a5d5a3c6143df59a51e299fd861
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f69f9085f68061740f786fecd85c35554ca0b0d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122945"
 ---
 # <a name="registeredtasklastruntime-property"></a>RegisteredTask. LastRunTime, propriété
 
@@ -40,7 +40,7 @@ RegisteredTask.LastRunTime As String
 
 Heure de la dernière exécution de la tâche inscrite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 7795633355eccdc19da235a56d211f4913ac532e9df51f6d30f33635f9b2d39a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 883ee7aa2f230756d62294d46e6402fe7f962d4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131440"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120458"
 ---
 # <a name="countertype-qualifier"></a>Qualificateur de l’identificateur de la
 
@@ -75,7 +75,7 @@ Pour plus d’informations et une répartition des types de compteurs par foncti
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété de texte RegistrationInfo.Xml
+title: RegistrationInfo. XmlText, propriété
 description: Pour les scripts, obtient ou définit une version au format XML des informations d’inscription pour la tâche.
 ms.assetid: 1e73cdbb-0463-417e-b410-6ac7070de296
 keywords:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee63d010d5819e6da42cb8f3fa408374f39268c488019a54a4e37024e5c8b38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0d09890b72b5c6ffb6132ec904442c845c7c8fa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122842"
 ---
-# <a name="registrationinfoxmltext-property"></a>Propriété de texte RegistrationInfo.Xml
+# <a name="registrationinfoxmltext-property"></a>RegistrationInfo. XmlText, propriété
 
 Pour les scripts, obtient ou définit une version au format XML des informations d’inscription pour la tâche.
 
@@ -40,7 +40,7 @@ RegistrationInfo.XmlText As String
 
 Version au format XML des informations d’inscription de la tâche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0b2b868f-51a7-4f74-be4f-5f8db04d43ad
 title: Modèle d’authentification LSA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3762595332252c22141aebdc7f3ecbe168e49a83795830a0cb03e49eb5da73ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27f5a44a20284a7285eb7fcffe1d1f8f6bf1f286
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140942"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123470"
 ---
 # <a name="lsa-authentication-model"></a>Modèle d’authentification LSA
 

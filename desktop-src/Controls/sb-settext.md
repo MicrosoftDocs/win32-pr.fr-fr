@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c8a8ddf0ee02f88b468b0911e64b5308cc2e8784
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479735"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127117054"
 ---
 # <a name="sb_settext-message"></a>\_Message SB SETTEXT
 
@@ -45,7 +45,7 @@ Le mot de poids fort de *wParam* est ignoré.
 
 | Valeur | Signification | 
 |-------|---------|
-| <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | Le texte est dessiné avec une bordure qui apparaît plus bas que le plan de la fenêtre.<br /> | 
+| <span id="0"></span><dl><dt><strong>entre</strong></dt></dl> | Le texte est dessiné avec une bordure qui apparaît plus bas que le plan de la fenêtre.<br /> | 
 | <span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl><dt><strong>SBT_NOBORDERS</strong></dt></dl> | Le texte est dessiné sans bordures.<br /> | 
 | <span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl><dt><strong>SBT_OWNERDRAW</strong></dt></dl> | Le texte est dessiné par la fenêtre parente. <br /><blockquote>[!Note]<br />Une barre d’état de mode simple ne prend pas en charge le dessin owner-drawn.</blockquote><br /> | 
 | <span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl><dt><strong>SBT_POPOUT</strong></dt></dl> | Le texte est dessiné avec une bordure qui doit apparaître plus haut que le plan de la fenêtre.<br /> | 
@@ -70,13 +70,13 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le t
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message invalide la partie de la fenêtre qui a changé, provoquant l’affichage du nouveau texte lorsque la fenêtre reçoit le message de [**\_ peinture WM**](/windows/desktop/gdi/wm-paint) .
 
 Les fenêtres normales affichent le texte de gauche à droite (LTR). les Windows peuvent être *mis en miroir* pour afficher des langues telles que l’hébreu ou l’arabe, qui sont lues de droite à gauche (RTL). Si SBT \_ RTLREADING est défini, la chaîne *lParam* lira dans le sens inverse du texte de la fenêtre parente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

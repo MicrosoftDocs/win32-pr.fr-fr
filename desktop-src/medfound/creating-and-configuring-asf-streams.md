@@ -4,12 +4,12 @@ ms.assetid: cc89e8bc-58ff-48e2-9668-0dcd6cfd25e1
 title: Création et configuration d’Flux ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c780de3fa0abb5db29e3e5e5ed049b78aca7898966e8f7e8595b504804da91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8eabce588022dd66947f34e4dcd9db61f26448b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118743237"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220889"
 ---
 # <a name="creating-and-configuring-asf-streams"></a>Création et configuration d’Flux ASF
 

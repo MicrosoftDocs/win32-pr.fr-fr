@@ -4,12 +4,12 @@ description: IAgentCharacterEx réfléchir
 ms.assetid: 64bfa388-0db7-423c-a4af-64a9f7351e9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a513a070104605df0cf3e0e722852a2b68d5845f4bcdb1ef6073954b3f9a18c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bd1bedfc2665c80d522ccb38c7c3073580136db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221009"
 ---
 # <a name="iagentcharacterexthink"></a>IAgentCharacterEx :: pensez
 

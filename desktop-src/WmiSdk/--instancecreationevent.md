@@ -18,11 +18,11 @@ api_type:
 api_location:
 - All
 ms.openlocfilehash: 29bdefbe1db20cd8b55b74433061b6c0cf152378
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210223"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124517"
 ---
 # <a name="__instancecreationevent-class"></a>\_\_InstanceCreationEvent, classe
 
@@ -100,7 +100,7 @@ La classe **\_ \_ InstanceCreationEvent** est dérivée de [**\_ \_ InstanceOper
 
 **Création d’une ressource : \_ \_ InstanceCreationEvent**
 
-Supposons que vous soyez intéressé par la réception d’une notification si le bloc-notes est exécuté sur un ordinateur donné. Quand le bloc-notes s’exécute, un processus correspondant est créé. Les processus peuvent être gérés à l’aide de WMI et sont représentés par la \_ classe de processus Win32. Lorsque le bloc-notes commence à s’exécuter, une instance correspondante de la \_ classe de processus Win32 devient disponible via WMI. Si vous avez enregistré votre intérêt dans cet événement (en émettant la requête de notification d’événement appropriée), la disponibilité de cette instance entraîne la création d’une instance de la classe **\_ \_ InstanceCreationEvent** .
+supposons que vous soyez intéressé par la réception d’une notification si Bloc-notes est exécuté sur un ordinateur donné. lorsque Bloc-notes s’exécute, un processus correspondant est créé. Les processus peuvent être gérés à l’aide de WMI et sont représentés par la \_ classe de processus Win32. lorsque Bloc-notes commence à s’exécuter, une instance correspondante de la \_ classe de processus Win32 devient disponible via WMI. Si vous avez enregistré votre intérêt dans cet événement (en émettant la requête de notification d’événement appropriée), la disponibilité de cette instance entraîne la création d’une instance de la classe **\_ \_ InstanceCreationEvent** .
 
 Les requêtes de notification qui demandent la notification de la création d’une ressource et utilisent des événements intrinsèques utilisent une syntaxe similaire à ce qui suit :
 
@@ -116,7 +116,7 @@ L’exemple PowerShell d' [événements permanents WMI PowerShell](https://Galle
 
 L’exemple VBScript d' [événement de création de processus Monitor](https://Gallery.TechNet.Microsoft.Com/6f137d9e-f00a-4f0a-ad07-7d752ff5251d) sur TechNet utilise **\_ \_ InstanceCreationEvent** pour surveiller le premier événement de création d’instance WMI pour le [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

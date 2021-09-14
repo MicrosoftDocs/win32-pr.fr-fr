@@ -1,15 +1,15 @@
 ---
 title: Constantes (GDI+)
-description: 'Windows GDI+ définit des constantes dans les catégories suivantes : image file format ConstantsImage Frame dimension ConstantsImage Encoder ConstantsImage pixel format balise propriété ConstantsImage balise propriété balise propriété'
+description: 'Windows GDI+ définit des constantes dans les catégories suivantes : image File format ConstantsImage Frame Dimension ConstantsImage encoder ConstantsImage Pixel format balise propriété ConstantsImage balise propriété balise propriété'
 ms.assetid: 70f067f1-3257-444e-88ab-dce5ed6d3e4b
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: fd224b6e1b8190ad187d5c7ebd6c46c9fad9e847
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120225"
 ---
 # <a name="constants-gdi"></a>Constantes (GDI+)
 

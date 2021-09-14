@@ -4,12 +4,12 @@ ms.assetid: ea3c22d8-476e-4b4b-98c6-f1075e704f3d
 title: 'ITConnection :: get_Ttl, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0522098f9959f3595d3deae83161fece53ad95353b9e41a60e653980353b22ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88f4810eeefc19647e6ed5601b3a6b88870f1e9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120658"
 ---
 # <a name="itconnectionget_ttl-method"></a>ITConnection :: obtient la \_ méthode TTL
 
@@ -39,7 +39,7 @@ HRESULT get_Ttl(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

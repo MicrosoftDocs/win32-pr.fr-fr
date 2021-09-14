@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8433da88d2055f996b895d6234eb73369cbd431277b8cfd67b640bb3cc6c279
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 253048b44a836f92646124fb972fe32c135e3b9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119759959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127124303"
 ---
 # <a name="setdefaultttl-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDefaultTTL de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -49,7 +49,7 @@ Valeur de durée de vie définie dans l’en-tête des paquets IP sortants. La v
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La durée de vie spécifie le nombre de routeurs qu’un paquet IP peut traverser pour atteindre sa destination avant d’être ignoré. Chaque routeur décrémente le nombre de TTL d’un paquet d’un et rejette les paquets dont la durée de vie est égale à 0 (zéro).
 
@@ -412,7 +412,7 @@ La durée de vie spécifie le nombre de routeurs qu’un paquet IP peut traverse
 
 L’exemple VBScript de [modification de la durée de vie par défaut pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/scriptcenter/3a228fb8-5517-4e23-800e-2a15f427d05d) utilise **SetDefaultTTL** pour définir la valeur par défaut de la durée de vie dans l’en-tête des paquets IP sortants sur 64
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

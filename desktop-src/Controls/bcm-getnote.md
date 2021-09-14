@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55b552f79e1d6c7bda2808b99701ff11e45deb169232b8bb52c4ecf231cdcbfd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 758dac90ba4c0f3087a6df90d9acf2c1321b1d73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119921699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120081"
 ---
 # <a name="bcm_getnote-message"></a>\_Message GETNOTE BCM
 
@@ -43,11 +43,11 @@ Mémoire tampon de chaîne devant recevoir le texte. La mémoire tampon doit êt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le **message \_ GETNOTE BCM** fonctionne uniquement avec les boutons qui ont le style de bouton [**BS \_ COMMANDLINK**](button-styles.md) ou [**BS \_ DEFCOMMANDLINK**](button-styles.md) .
 
@@ -56,7 +56,7 @@ Le **message \_ GETNOTE BCM** fonctionne uniquement avec les boutons qui ont le 
 -   ERREUR \_ non \_ prise en charge, si le bouton n’a pas le style [**BS \_ DEFCOMMANDLINK**](button-styles.md) ou [**BS \_ COMMANDLINK**](button-styles.md) .
 -   ERREUR \_ de \_ mémoire tampon insuffisante, si la mémoire tampon *lParam* est trop petite. Le paramètre *wParam* contient la taille de mémoire tampon requise, en caractères.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -78,7 +78,7 @@ Le **message \_ GETNOTE BCM** fonctionne uniquement avec les boutons qui ont le 
 [Styles de bouton](button-styles.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Types de bouton](button-types-and-styles.md)

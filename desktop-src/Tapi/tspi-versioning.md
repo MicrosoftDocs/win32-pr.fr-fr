@@ -4,12 +4,12 @@ ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: Contrôle de version TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ee1e1d77a33861c7943c8bda063432cd5f212971adae88ef8bdd1eb2c4f88a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e0a0663a1fcc685df8643c634ec627f669aafe8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117944306"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127123017"
 ---
 # <a name="tspi-versioning"></a>Contrôle de version TSPI
 
