@@ -5,26 +5,26 @@ ms.assetid: 5D060291-6ACF-478C-97EC-CD8BD55D1FFF
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a69cd40338eaebc0d9de852519dce34dc9bc8aa4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730413"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857992"
 ---
 # <a name="how-to-create-toolbars"></a>Comment créer des barres d’outils
 
 Pour créer une barre d’outils, utilisez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , en spécifiant la classe de fenêtre [**TOOLBARCLASSNAME**](common-control-window-classes.md) . La barre d’outils obtenue ne contient initialement aucun bouton. Ajoutez des boutons à la barre d’outils en utilisant le message [**to \_ ADDBUTTONS**](tb-addbuttons.md) ou [**to \_ INSERTBUTTON**](tb-insertbutton.md) . Vous devez envoyer le message de [**\_ taille automatique to**](tb-autosize.md) une fois que tous les éléments et chaînes ont été insérés dans le contrôle, afin que la barre d’outils recalcule sa taille en fonction de son contenu.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -173,9 +173,9 @@ HWND CreateToolbarFromResource(HWND hWndParent)
 [Utilisation des contrôles ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

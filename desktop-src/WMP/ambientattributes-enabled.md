@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9d8e000d64ef92212cd7c6cf37c7fd79036107e1d3be0d7669d73b40c759de3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c34d24e86118a1cca0939d535b6da6e86c2df34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856174"
 ---
 # <a name="ambientattributesenabled"></a>AmbientAttributes. Enabled
 
@@ -42,13 +42,13 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le contrôle est activé, il peut avoir un taquet de tabulation et recevra tous les événements ambiants. Quand elle est désactivée, le contrôle n’a pas de taquet de tabulation et ne reçoit aucun événement de souris ou de clavier ambiant déclenché. (Toutefois, il continuera à recevoir tous les autres événements ambiants qui lui sont déclenchés.)
 
 Cet attribut n’est pas pris en charge pour l’élément **subview** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - Périphériques PnP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e574aa0d5462c2fcbb0592e9d3faaf927cd7e5213e6eec3d8e7f016eabfb7abc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d44c7ccdfd29453c1ab28e970c1b054d1278e620
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118584997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856450"
 ---
 # <a name="enabling-pnp-for-devices"></a>Activation de PnP pour les appareils
 

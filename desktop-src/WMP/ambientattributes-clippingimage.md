@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15302483143b17075b6a6164fcd05da80eb1c7c666a83c76a460408d70ac72e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e05e05ca9c7c3efdf842ffd4297da6f9fee035d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856198"
 ---
 # <a name="ambientattributesclippingimage"></a>AmbientAttributes.clippingImage
 
@@ -31,7 +31,7 @@ L’attribut **clippingImage** spécifie ou récupère la zone dans laquelle dé
 
 Cet attribut est une **chaîne** en lecture/écriture indiquant le nom du fichier image. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’attribut **clippingImage** prend en charge les fichiers PNG, jpg, BMP et GIF (à l’exclusion des fichiers GIF animés). Étant donné que les JPGs sont perdus et, par conséquent, soumis à une modification de couleur inattendue, ils ne sont pas recommandés pour les images de découpage.
 
@@ -45,7 +45,7 @@ L’attribut **clippingImage** n’est pas pris en charge par les éléments **p
 
 Consultez l’attribut [BUTTONELEMENT. mappingColor](buttonelement-mappingcolor.md) pour obtenir un exemple illustrant l’utilisation de cet attribut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -12,12 +12,12 @@ keywords:
 - PWTSLISTENERNAME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce0df52229670cd090dd900dda3c2284437297bedc25c69f12c980b9cc40d92c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a82576fc9f4490b133916852441c50dcf77e849d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119513839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856612"
 ---
 # <a name="wtslistenername"></a>WTSLISTENERNAME
 
@@ -82,7 +82,7 @@ Pointeur vers le nom de l’écouteur.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

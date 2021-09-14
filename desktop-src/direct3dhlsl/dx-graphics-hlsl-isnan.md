@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f60f04d577bcd2e2f8d13cf11e1c02237ae9ddfacd225dff3d0bfca4266c72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef9f4549b6a142f5bf6011cdfb144de92efde64c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118791938"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916300"
 ---
 # <a name="isnan"></a>isNaN
 
@@ -57,7 +57,7 @@ Retourne une valeur de la même taille que l’entrée, avec une valeur égale �
 | Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
 | *x*   | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | n'importe laquelle      |
-| *Av* | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**bool**](/windows/desktop/WinProg/windows-data-types)                         | comme entrée |
+| *Av* | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**Boolean**](/windows/desktop/WinProg/windows-data-types)                         | comme entrée |
 
 
 
@@ -69,16 +69,16 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Pris en charge           |
+| Modèle de nuanceur                                                                       | Prise en charge           |
 |------------------------------------------------------------------------------------|---------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                 |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                 |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Oui (vs \_ 1 \_ 1 uniquement) |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

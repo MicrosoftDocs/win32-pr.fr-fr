@@ -5,12 +5,12 @@ ms.assetid: 9ba03801-8471-43a9-8e24-114a082d5776
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f54634112b4a6ac3cc1e981421e4a3e33af5e32bae8ab63ec8690f2df12c7a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fde3263925a3b8bf4921dd0dfc95842a5dc5b4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119657989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857074"
 ---
 # <a name="detecting-the-remote-desktop-services-environment"></a>Détection de l’environnement de Services Bureau à distance
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a99a67f6ca7056f0157d131d185cb5cb68a85e06b8cbb124a16b3c2129c21963
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 690c461c5bccbd050fb3d698d1a41c6d1e513944
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119878149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857943"
 ---
 # <a name="dtm_getmccolor-message"></a>\_Message DTM GETMCCOLOR
 
@@ -54,11 +54,11 @@ Valeur de type **int** spécifiant la couleur du calendrier mensuel à récupér
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **COLORREF** qui représente le paramètre de couleur pour la partie spécifiée du contrôle Month Calendar en cas de réussite. Le message retourne-1 en cas d’échec.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

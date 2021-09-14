@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c4d1a0ac548a087c572a479e7e93a44a17a26d64b5a641dbc1d0e2c0d713424
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5d9295441e3c672632d64e032b0988b41360b53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119673589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916336"
 ---
 # <a name="continue-statement"></a>Instruction continue
 

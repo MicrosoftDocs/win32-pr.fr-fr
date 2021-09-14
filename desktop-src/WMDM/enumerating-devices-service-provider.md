@@ -11,12 +11,12 @@ keywords:
 - énumération des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 500375f01e718ab6f9824868ffabd7c83e11c3e812ce0288f0c15186bc1d2de9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f9b2fd3a891e2c52710bd9a2f6d46a78e9eb238
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856431"
 ---
 # <a name="enumerating-devices-wmdm"></a>Énumération des appareils (WMDM)
 

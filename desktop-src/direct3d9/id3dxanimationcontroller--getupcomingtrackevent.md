@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a6e2730a9649400af8cc0229cb69ab695044681fde43a29a1a784d212f8d2641
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f863ce918f25c6b0975010f71a63f067c01f7345
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119279029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916568"
 ---
 # <a name="id3dxanimationcontrollergetupcomingtrackevent-method"></a>ID3DXAnimationController :: GetUpcomingTrackEvent, méthode
 
@@ -59,13 +59,13 @@ Handle d’événement vers un événement spécifié après lequel Rechercher u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Handle d’événement vers l’événement suivant planifié pour s’exécuter sur la piste spécifiée. La **valeur null** est retournée si aucun nouvel événement n’est planifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être utilisée de façon itérative pour localiser un événement souhaité en passant à plusieurs reprises la **valeur null** pour hEvent.
 
@@ -74,7 +74,7 @@ Cette méthode peut être utilisée de façon itérative pour localiser un évé
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 6c26878af6f091efd3c3f321cb073ce51a8e6236d4bafa326ab99f85f39e1a91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aedaced5033c229131f548e298217e3c77ff70c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857494"
 ---
 # <a name="iresizeput_mediatype-method"></a>IResize ::p ut \_ MediaType, méthode
 
@@ -52,11 +52,11 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 DES appelle cette méthode avant de connecter la broche de sortie du filtre. Utilisez le type de média comme type de média de la broche de sortie. Retournez ce type de média dans la méthode [**CTransformFilter :: GetMediaType**](ctransformfilter-getmediatype.md) et vérifiez agsint ce type dans la méthode [**CTransformFilter :: CheckTransform**](ctransformfilter-checktransform.md) . DES n’appelle jamais cette méthode une fois que la broche de sortie est connectée.
 
@@ -72,7 +72,7 @@ Actuellement, le définit toujours le type de média de sortie sur un format RVB
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

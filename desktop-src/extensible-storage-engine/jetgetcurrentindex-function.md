@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 6f41114c74643d7165bc16363af3d1777828003b
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915904"
 ---
 # <a name="jetgetcurrentindex-function"></a>JetGetCurrentIndex fonction)
 
@@ -85,13 +85,13 @@ En cas de réussite, le nom de l’index actuel du curseur donné sera retourné
 
 En cas d’échec, l’état de la mémoire tampon de sortie n’est pas défini. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 S’il n’y a pas d’index actuel pour le curseur, une chaîne vide est retournée. Cela peut se produire lorsque le curseur se trouve sur l’index cluster de la table et qu’aucun index primaire n’a été défini. Cet index est appelé index séquentiel de la table et n’a pas de définition. Dans tous les cas, la définition de l’index actuel sur une chaîne vide à l’aide de [JetSetCurrentIndex](./jetsetcurrentindex-function.md) sélectionne l’index cluster, quelle que soit la présence d’une définition d’index primaire.
 
 Il existe un bogue important dans cette fonction qui est présent dans toutes les versions. Si la mémoire tampon de sortie est trop petite pour recevoir l’intégralité du nom de l’index et que la mémoire tampon de sortie a au moins un caractère de longueur, JET_wrnBufferTruncated ne sera pas retourné. JET_errSuccess est retourné à la place. Pour éviter ce problème, la longueur de la mémoire tampon de sortie doit toujours être d’au moins JET_cbNameMost + 1 (65) caractères.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

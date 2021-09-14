@@ -4,12 +4,12 @@ ms.assetid: 7eab0e55-1566-4b4c-b37c-32c5a1f37363
 title: utilisation des Classes de Base DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a0c8252022cf822e88ef7682b5dea4e53870b2a5aa21bd6a90fe87a15faa4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 870c910505d6df42d0b9a6094470bf803b83d6b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119298769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857409"
 ---
 # <a name="using-the-directshow-base-classes"></a>utilisation des Classes de Base DirectShow
 

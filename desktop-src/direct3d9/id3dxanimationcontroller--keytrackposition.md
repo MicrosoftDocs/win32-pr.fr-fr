@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9e66bac7b5aaa8da87b0cb88e3bfd12469d8aa8b6ec755eaa47268c70da5eadf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d027069efa9fb49cad3d2344da593eae4c3c844c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119791229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916547"
 ---
 # <a name="id3dxanimationcontrollerkeytrackposition-method"></a>ID3DXAnimationController :: KeyTrackPosition, méthode
 
@@ -69,13 +69,13 @@ Clé de temps globale. Spécifie l’heure globale à laquelle la modification d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Descripteur d’événement pour l’événement Priority Blend. La **valeur null** est retournée si Track n’est pas valide ou si aucun événement libre n’est disponible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

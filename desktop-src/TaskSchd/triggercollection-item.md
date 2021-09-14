@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aee0460d79ef239c8dacbf7fbd45573dac8ba03ad9b53e6e9881dded1bf01030
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d600418d43459d6c4cbfcb0746a378633d096c24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857218"
 ---
 # <a name="triggercollectionitem-property"></a>TriggerCollection. Item, propriété
 
@@ -42,11 +42,11 @@ TriggerCollection.Item( _
 
 Objet de [**déclencheur**](trigger.md) qui représente le déclencheur demandé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les collections sont de base 1. En d’autres termes, l’index du premier élément de la collection est 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

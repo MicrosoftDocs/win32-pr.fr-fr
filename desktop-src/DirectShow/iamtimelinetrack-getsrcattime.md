@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: fde7d4d1e1a92c4f403c4d6ae38517bd715cf6d474f22f8a2e262d69fc57139a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b726d26efd0550df364200a27d536d60d38274a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857566"
 ---
 # <a name="iamtimelinetrackgetsrcattime-method"></a>IAMTimelineTrack :: GetSrcAtTime, méthode
 
@@ -68,7 +68,7 @@ Membre du type [**d' \_ \_ \_ indicateur de recherche DEXTERF Track**](dexterf-t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -85,7 +85,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’elle retourne a un nombre de références en attente. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -99,7 +99,7 @@ Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’e
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

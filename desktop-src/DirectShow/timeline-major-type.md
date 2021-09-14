@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: b18088a9d01b263c80a4ff941a6b7720043da708eaeaebf4f79a2084d1ed258f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 25c3e829aa73d1da78c110ffd148fb0ebaaebdd9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857433"
 ---
 # <a name="timeline_major_type-enumeration"></a>\_Énumération de type principal de chronologie \_
 
@@ -91,7 +91,7 @@ Objet Group. Contient une ou plusieurs pistes d’un type donné.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 445fe6b9-9d5b-45fd-9c9e-8c632c5228ae
 title: Horodatages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ed14f0155a0bfbf209719f4aff97cbbd19501e6aa32d57e9f0c1cbb2df0964b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 855d2c472d7964ccad6ec8bbc87efd39b1c4cdd6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857446"
 ---
 # <a name="time-stamps"></a>Horodatages
 

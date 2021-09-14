@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3c4e4a1520cd9c7e4a1404203ccd0a15dfbffce8937fe74f477876b3e34f09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3bec4e67313ded718784051fb09762febd34d59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856287"
 ---
 # <a name="albumartistsortorder-attribute"></a>Attribut AlbumArtistSortOrder
 
@@ -27,13 +27,13 @@ L’attribut **AlbumArtistSortOrder** est la valeur à utiliser pour trier la co
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

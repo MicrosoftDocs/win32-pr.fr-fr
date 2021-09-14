@@ -4,12 +4,12 @@ description: Pour télécharger des fichiers sur un serveur à l’aide de BITS,
 ms.assetid: 2f3a2f99-b9de-41da-897f-a4d9c6d5e8c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e075478f6e0335c6bf601a9289d93d4d3fac2aefd9e4f1ef820e938a1bfc0ab7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c2ef81019f4c69157c267cd2438188f440299a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120004719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999564"
 ---
 # <a name="setting-up-the-server-for-uploads"></a>Configuration du serveur pour les téléchargements
 

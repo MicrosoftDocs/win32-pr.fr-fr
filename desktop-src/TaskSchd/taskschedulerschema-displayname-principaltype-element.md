@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ff653a2b2991622b2446bcc0fc74d7063319c2bb6b45556313034a3afb42480
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8ef310869ea8558bca231e866ddeefc0dc35944
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118356912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857325"
 ---
 # <a name="displayname-principaltype-element"></a>DisplayName (principalType) (élément)
 
@@ -42,7 +42,7 @@ L’élément **DisplayName** est défini par le type complexe [**principalType*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement de scripts, le nom complet du principal est spécifié à l’aide de la propriété [**principal. DisplayName**](principal-displayname.md) .
 
@@ -75,7 +75,7 @@ Le code XML suivant définit un principal à l’aide d’un identificateur d’
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

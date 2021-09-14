@@ -5,15 +5,15 @@ title: Objet contrôleur
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b7db9468c1ca4c8f07c5498724333bdad9fc53bf
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104570941"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856503"
 ---
 # <a name="controller-object"></a>Objet contrôleur
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet de contrôleur modélise un contrôleur dans un sous-système. Les contrôleurs sont contenus dans les sous-systèmes, et chaque contrôleur possède un ou plusieurs ports de contrôleur via lesquels l’ordinateur hôte peut écrire et lire des numéros d’unités logiques. Un seul contrôleur peut être défini simultanément sur actif pour un numéro d’unité logique et inactif pour d’autres. Un contrôleur actif pour un numéro d’unité logique spécifié assume la responsabilité de la gestion des entrées et sorties de l’unité logique. La figure suivante illustre cette idée.
 

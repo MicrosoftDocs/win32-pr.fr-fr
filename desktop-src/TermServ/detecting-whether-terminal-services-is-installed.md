@@ -5,12 +5,12 @@ ms.assetid: 53ef8d43-2141-4df7-b9e6-baf0677924ba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf7ac1932c32ea797783d04f4e279bab03339c9b7620c11e72d4b755f084736
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49f7d094f88271346c97f8d0467b48a266c865d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119871759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857073"
 ---
 # <a name="detecting-whether-the-remote-desktop-services-role-is-installed"></a>Détection de l’installation du rôle Services Bureau à distance
 

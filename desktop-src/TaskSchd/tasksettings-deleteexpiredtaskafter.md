@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 521f07a5712165c282a36bbfe2c3b66769239c53d652ae49a03fa6a50c19cb05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9005ff7988353daa902b1bc3151c539713bb94ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119658449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857295"
 ---
 # <a name="tasksettingsdeleteexpiredtaskafter-property"></a>TaskSettings. DeleteExpiredTaskAfter, propriété
 
@@ -42,13 +42,13 @@ TaskSettings.DeleteExpiredTaskAfter As String
 
 Chaîne qui obtient ou définit la durée d’attente de la Planificateur de tâches avant de supprimer la tâche après son expiration. Le format de cette chaîne est PnYnMnDTnHnMnS, où nY est le nombre d’années, nM est le nombre de mois, nD le nombre de jours, 't’est le séparateur de date/heure, nH est le nombre d’heures, nM est le nombre de minutes et nS est le nombre de secondes (par exemple, PT5M spécifie 5 minutes et P1M4DT2H5M spécifie un mois, quatre jours, deux heures et cinq minutes).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une tâche expire une fois que la limite de fin a été dépassée pour tous les déclencheurs associés à la tâche. La limite de fin d’un déclencheur est spécifiée par la propriété [EndBoundary](trigger-endboundary.md) héritée par tous les objets déclencheurs.
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [**DeleteExpiredTaskAfter (settingsType)**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

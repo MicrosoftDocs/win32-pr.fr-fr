@@ -4,12 +4,12 @@ ms.assetid: 28448e1b-44de-4016-9ab6-0a9e2d916592
 title: Utilisation de l’application DMOTest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4690db1d72d9618748bfa60e72ea569d0a8addc78bf8387780390438e13095
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fdcf1701cf0a2a8b1781fd6ebe06800d575b3c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857386"
 ---
 # <a name="using-the-dmotest-application"></a>Utilisation de l’application DMOTest
 

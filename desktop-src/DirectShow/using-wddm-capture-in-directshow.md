@@ -4,12 +4,12 @@ ms.assetid: 57ee86b0-50bc-4992-94d4-f290f83d2afc
 title: Utilisation de la capture WDDM dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2e0a442c6929ef2435b05268035bb0b39b196a958440cd7ce5cfe44ea4b4c55
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7926af70a3b7f1c4ba67c791d98c9928c3809b89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857355"
 ---
 # <a name="using-wddm-capture-in-directshow"></a>Utilisation de la capture WDDM dans DirectShow
 

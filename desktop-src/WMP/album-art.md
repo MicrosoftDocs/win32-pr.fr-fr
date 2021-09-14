@@ -10,12 +10,12 @@ keywords:
 - pochette d’album dans des habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8183c7de25c891c59ef68f5938de532a66700400d916c3fc7610a761b2024d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0974f8683da98469e75a4472d086dcb1a244c75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119865119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856329"
 ---
 # <a name="album-art"></a>Pochette de l’album
 

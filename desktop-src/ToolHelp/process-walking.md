@@ -9,12 +9,12 @@ keywords:
 - processus, énumération des processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6efa129182da256a6ce62b3754ea422df908248f7b0ecc30d3b690c29ffaf9d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dbc95f0de4021ce3c355286376decbdecef2c883
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119419659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856588"
 ---
 # <a name="process-walking"></a>Parcours du processus
 

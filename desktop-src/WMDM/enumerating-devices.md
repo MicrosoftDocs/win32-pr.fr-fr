@@ -11,12 +11,12 @@ keywords:
 - énumération des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0009e2206bf7c97839d890d00c08a8e1806196efee9af95db72336b95d8b2cdf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118584657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856420"
 ---
 # <a name="enumerating-windows-media-device-manager-devices"></a>énumération des appareils Windows Media Gestionnaire de périphériques
 

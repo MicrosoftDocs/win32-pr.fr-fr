@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 59a23e8cde059446dea33d65f90dca9fb7cb2aaf41ab00949e02e34189420b3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f52a7b528a7853278f5e1b902c3907e8d48fa40f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916463"
 ---
 # <a name="id3dxbaseeffectgetmatrixtranspose-method"></a>ID3DXBaseEffect :: GetMatrixTranspose, méthode
 
@@ -59,19 +59,19 @@ Retourne une matrice transposée. Consultez [**D3DXMATRIX**](d3dxmatrix.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une matrice transposée contient des données de colonne principales ; autrement dit, chaque vecteur est contenu dans une colonne.
 
 Si la matrice de destination est plus grande que la matrice source, seuls les éléments supérieurs gauches de la matrice de destination sont remplis et les autres composants de la matrice de destination sont définis sur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

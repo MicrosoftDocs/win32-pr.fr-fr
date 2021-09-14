@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: b0504a7adb41a0d6a45714090a39aeefda9a3ef53b2d834540f600ec3ef871a8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 69c4c582a3883feedec962bfb88b4a833be3750b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119756409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857823"
 ---
 # <a name="iamtimelinecompgetcountoftype-method"></a>IAMTimelineComp :: GetCountOfType, méthode
 
@@ -68,11 +68,11 @@ Membre du type énuméré de la [**chronologie \_ principale \_**](timeline-majo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou un pointeur E dans le \_ cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En règle générale, une application n’appelle pas cette méthode. Elle est appelée par le moteur de rendu.
 
@@ -90,7 +90,7 @@ Les groupes ne peuvent pas résider dans les compositions. vous ne pouvez donc p
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

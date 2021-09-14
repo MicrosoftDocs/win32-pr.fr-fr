@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 938cc8161326afaa9d0d5b3bf905bf976e850b40
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915883"
 ---
 # <a name="jetretrievekey-function"></a>Fonction JetRetrieveKey
 
@@ -106,7 +106,7 @@ En cas de réussite, la clé de l’entrée d’index à la position actuelle d�
 
 En cas d’échec, l’état de la mémoire tampon de sortie et la taille réelle de la clé ne sont pas définis. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les clés doivent généralement être traitées comme des blocs de données opaques. Aucune tentative n’est faite pour exploiter la structure interne de ces données. Toutefois, les propriétés suivantes peuvent être connues en ce qui concerne toutes les clés ESENT :
 
@@ -120,7 +120,7 @@ En plus des propriétés ci-dessus des clés ESENT en général, il est importan
 
 Il existe un bogue important dans cette API qui est présent dans toutes les versions. Si la clé de recherche est demandée à l’aide de JET_bitRetrieveCopy et que la mémoire tampon de sortie est trop petite pour recevoir la clé entière, JET_wrnBufferTruncated ne sera pas retourné. JET_errSuccess est retourné à la place. Il est important de vérifier que la taille réelle de la clé telle qu’elle est retournée à l’aide de *pcbActual* est inférieure ou égale à la taille de la mémoire tampon de sortie. Si la taille réelle est supérieure à la taille de la mémoire tampon de sortie, l’appelant de **JetRetrieveKey** doit réagir comme si JET_wrnBufferTruncated était retourné à la place.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

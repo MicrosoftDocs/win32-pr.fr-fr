@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2966751c822213025d7107e4eff055900e6c8102711b66329e6f3c4fcbe1ed02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 843583698c11c1b9ad8f08e83aa6e4b894b55db8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999535"
 ---
 # <a name="delete-method-of-the-win32_directory-class"></a>Méthode Delete de la \_ classe Directory Win32
 
@@ -40,7 +40,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -137,7 +137,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les dossiers ne sont pas nécessairement des ajouts permanents à un système de fichiers. À un moment donné, vous devrez peut-être supprimer des dossiers, peut-être parce qu’ils ne sont plus nécessaires, car le rôle de l’ordinateur a changé ou parce que les dossiers ont été créés par erreur.
 
@@ -164,7 +164,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

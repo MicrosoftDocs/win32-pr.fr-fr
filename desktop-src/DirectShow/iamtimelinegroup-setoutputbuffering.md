@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8187918a4f6d04df9c8c0eaff387a092f18181071ce6ba41c83de44fcb095bbe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab249c1a6af63b0fc0f2ee535daeab1dec9cd558
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119915189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857746"
 ---
 # <a name="iamtimelinegroupsetoutputbuffering-method"></a>IAMTimelineGroup :: SetOutputBuffering, méthode
 
@@ -52,11 +52,11 @@ Nombre d’images à mettre en mémoire tampon pendant la version préliminaire.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une mémoire tampon plus grande requiert plus de mémoire, mais peut entraîner un aperçu plus lisse, en particulier lors d’effets ou de transitions qui nécessitent plus de temps pour le rendu. La mémoire tampon par défaut est de 30 frames.
 
@@ -70,7 +70,7 @@ Une mémoire tampon plus grande requiert plus de mémoire, mais peut entraîner 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

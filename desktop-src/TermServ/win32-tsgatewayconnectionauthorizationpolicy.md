@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bfaefb0a3062db27622afe90023928507c6d127c64edb60041347f73c1b261c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27384ec3a5f17c3e41fe0ceccf0ee1f7f9d08044
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118349244"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856708"
 ---
 # <a name="win32_tsgatewayconnectionauthorizationpolicy-class"></a>\_Classe TSGatewayConnectionAuthorizationPolicy Win32
 
@@ -116,7 +116,7 @@ La classe **Win32 \_ TSGatewayConnectionAuthorizationPolicy** possède ces méth
 | [**SetSessionTimeout**](setsessiontimeout-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Définit les propriétés **SessionTimeout** et **SessionTimeoutAction** .<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/> |
 | [**SetSmartcardAllowed**](setsmartcardallowed-win32-tsgatewayconnectionauthorizationpolicy.md)                       | Définit la propriété **SmartcardAllowed** .<br/>                                                                                                                              |
 | [**SetUserGroupNames**](setusergroupnames-win32-tsgatewayconnectionauthorizationpolicy.md)                           | Définit la propriété **UserGroupNames** .<br/>                                                                                                                                |
-| [**Update**](update-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Met à jour la stratégie d’autorisation des connexions aux services Bureau à distance actuelle.<br/>                                                                                                                                          |
+| [**Mise à jour**](update-win32-tsgatewayconnectionauthorizationpolicy.md)                                                 | Met à jour la stratégie d’autorisation des connexions aux services Bureau à distance actuelle.<br/>                                                                                                                                          |
 
 
 
@@ -444,13 +444,13 @@ Liste des noms de groupes d’utilisateurs séparés par des points-virgules. Le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

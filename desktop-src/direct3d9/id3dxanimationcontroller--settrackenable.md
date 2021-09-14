@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 61078a40e13ee1422c29de091e1758444e2bafa1586bb443e763e50d57457ad5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 920576cbf630e061cd4d460315e905bdabf31ff5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120026579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916519"
 ---
 # <a name="id3dxanimationcontrollersettrackenable-method"></a>ID3DXAnimationController :: SetTrackEnable, méthode
 
@@ -59,17 +59,17 @@ Activez la valeur. Affectez la valeur **true** pour activer cette piste dans le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour mélanger une piste avec d’autres pistes, l’indicateur d’activation doit avoir la valeur **true**. Inversement, l’affectation de la **valeur false** à l’indicateur empêchera la combinaison de la piste avec d’autres pistes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

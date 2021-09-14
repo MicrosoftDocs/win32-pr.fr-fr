@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 438fcdbf4f95406994f5bf0cc63ebf5b5f600a9908419b63c4ceace65dfa9659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 274a4f6800d995e2b456dbd55adf81cf82aa84a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952798"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857584"
 ---
 # <a name="iamtimelinetrackgetnextsrcex-method"></a>IAMTimelineTrack :: GetNextSrcEx, méthode
 
@@ -60,11 +60,11 @@ Reçoit un pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne \_ la valeur OK si la méthode récupère une source, ou la \_ valeur false dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’elle retourne a un nombre de références en attente. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -78,7 +78,7 @@ Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’e
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

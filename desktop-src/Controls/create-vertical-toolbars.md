@@ -4,12 +4,12 @@ description: La clé de la création d’une barre d’outils verticale consiste
 ms.assetid: C2EAB160-0D8D-4BB9-AD41-D5175FBE81AB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea66c22461c3616a6b90fdb9fed65fc65fec751055c27d15170aab30e3531e96
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: acd32609e81196a94f4298197c33a4cc6e21d117
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119504033"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857986"
 ---
 # <a name="how-to-create-vertical-toolbars"></a>Comment créer des barres d’outils verticales
 

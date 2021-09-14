@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a1a921f863ea2e06b7c84cf5ed66424d37f70be34f71c7c5975c95ff3d4308e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119514359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856749"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode StartService de la classe Win32_Service (Services Bureau à distance)
 
@@ -43,7 +43,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -224,7 +224,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Bien qu’il puisse sembler qu’il n’y ait aucune différence pratique entre un service arrêté et un service suspendu, les deux États apparaissent différemment pour le SCM. Un service arrêté est un service qui n’est pas en cours d’exécution et doit suivre l’intégralité de la procédure de démarrage du service. Toutefois, un service suspendu est toujours en cours d’exécution, mais son fonctionnement est suspendu. Pour cette raison, un service suspendu n’a pas besoin de traverser l’intégralité de la procédure de démarrage du service, mais il a besoin d’une procédure différente pour reprendre son fonctionnement.
 
@@ -235,7 +235,7 @@ Vous devez utiliser la méthode appropriée pour démarrer un service qui a ét�
 
 Si vous démarrez un service arrêté qui dépend d’un autre service, les deux services sont démarrés. Lorsqu’un service est démarré avec cette méthode, tous les services dépendants ne sont pas démarrés automatiquement. Vous devez utiliser la classe d’association [**Win32 \_ DependentService**](/windows/desktop/CIMWin32Prov/win32-dependentservice) et les [associateurs de](/windows/desktop/WmiSdk/associators-of-statement) la requête pour localiser les dépendants et les démarrer séparément.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

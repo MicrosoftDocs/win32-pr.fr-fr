@@ -13,12 +13,12 @@ keywords:
 - MAC (code d’authentification de message)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2921b80d42207bab608c6a8260e6756d3e9f323eab70742acc787ff731ad4b80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14805e2074509e918902aae9eb9e9680ca52a6d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118584483"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856396"
 ---
 # <a name="message-authentication"></a>Authentification des messages
 

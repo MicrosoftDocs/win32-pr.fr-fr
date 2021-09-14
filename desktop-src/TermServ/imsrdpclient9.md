@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a84530c401398f373d9ae7e2f02619f9b3abeaa9f1d51a9f550afe55a7347e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3350fd4b9153319f9a1084ffc3fd37784eb6ad3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118609280"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856887"
 ---
 # <a name="imsrdpclient9-interface"></a>Interface IMsRdpClient9
 
@@ -43,7 +43,7 @@ L’interface **IMsRdpClient9** possède ces méthodes.
 | Méthode                                                                             | Description                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                   | Joint un événement.<br/>                                                                                                                                                               |
-| [**Connecter**](imstscax-connect.md)                                                | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                        |
+| [**Se connecter**](imstscax-connect.md)                                                | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                        |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                    | Crée un objet de canal virtuel côté client pour chaque nom de canal virtuel spécifié.<br/>                                                                                            |
 | [**detachEvent**](imsrdpclient9-detachevent.md)                                   | Détache un événement.<br/>                                                                                                                                                               |
 | [**Déconnecter**](imstscax-disconnect.md)                                          | Déconnecte la connexion active.<br/>                                                                                                                                               |
@@ -81,7 +81,7 @@ L’interface **IMsRdpClient9** possède les propriétés suivantes.
 | [**AdvancedSettings9**](imsrdpclient8-advancedsettings9.md)<br/>              | Lecture seule<br/>  | Contient un objet qui prend en charge l’interface [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md) .<br/>                                                                                                                      |
 | [**CipherStrength**](imstscax-cipherstrength.md)<br/>                         | Lecture seule<br/>  | Récupère la force de chiffrement maximale du contrôle actuel.<br/>                                                                                                                                                                           |
 | [**La**](imsrdpclient-colordepth.md)<br/>                             | Lecture/écriture<br/> | Profondeur de couleur (en bits par pixel) de la connexion du contrôle.<br/>                                                                                                                                                                           |
-| [**Connecté**](imstscax-connected.md)<br/>                                   | Lecture seule<br/>  | Récupère l’état de connexion du contrôle actuel.<br/>                                                                                                                                                                                      |
+| [**Correctement**](imstscax-connected.md)<br/>                                   | Lecture seule<br/>  | Récupère l’état de connexion du contrôle actuel.<br/>                                                                                                                                                                                      |
 | [**ConnectedStatusText**](imsrdpclient2-connectedstatustext.md)<br/>          | Lecture/écriture<br/> | Contient le texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br/>                                                                                                                          |
 | [**ConnectingText**](imstscax-connectingtext.md)<br/>                         | Lecture/écriture<br/> | Spécifie le texte qui apparaît centré dans le contrôle pendant la connexion du contrôle.<br/>                                                                                                                                                    |
 | [**DesktopHeight**](imstscax-desktopheight.md)<br/>                           | Lecture/écriture<br/> | Spécifie la hauteur, en pixels, du contrôle actuel sur le Bureau à distance initial.<br/>                                                                                                                                                           |
@@ -113,7 +113,7 @@ L’interface **IMsRdpClient9** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface **IMsRdpClient9** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 
@@ -121,7 +121,7 @@ L’interface **IMsRdpClient9** a été étendue par les interfaces suivantes, c
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

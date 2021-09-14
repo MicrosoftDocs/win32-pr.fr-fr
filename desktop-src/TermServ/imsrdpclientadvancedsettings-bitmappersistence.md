@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1dc22347941d71cec7002fef8841f95b548075070c221ddd21c9d331aab8c5d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65795b5217c785befe0db6ac529d5760a6211d4d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118353456"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856869"
 ---
 # <a name="imsrdpclientadvancedsettingsbitmappersistence-property"></a>IMsRdpClientAdvancedSettings :: BitmapPersistence, propriété
 
@@ -95,11 +95,11 @@ Affectez à ce paramètre la valeur 0 pour désactiver la mise en cache ou une v
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

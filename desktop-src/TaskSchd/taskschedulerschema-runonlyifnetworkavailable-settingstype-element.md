@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3680ba3c29dc0d258a48aa16ae7923e3761eda30f198384fecfbf238e2933cb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ff1e7c838c142e30b75eb4abb935c0de352d9f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857301"
 ---
 # <a name="runonlyifnetworkavailable-settingstype-element"></a>Élément RunOnlyIfNetworkAvailable (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **RunOnlyIfNetworkAvailable** est défini par le type complexe [**
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour le développement C++, consultez la [**propriété RunOnlyIfNetworkAvailable de ITaskSettings**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable).
 
@@ -63,7 +63,7 @@ Le code XML suivant définit un élément Settings qui permet à la tâche de d�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

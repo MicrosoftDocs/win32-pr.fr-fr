@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: a9271e922fe33865feb36b361ae97bb16298b504fb6cbb14066fbd6976c8065e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eeea5563ca9a2548507d3b4333d857d7cc156dd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119812409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857865"
 ---
 # <a name="iamtimelinesetdefaulttransition-method"></a>IAMTimeline :: SetDefaultTransition, méthode
 
@@ -52,11 +52,11 @@ Pointeur vers une variable qui contient le GUID de la transition par défaut.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous ne définissez pas de transition par défaut ou si la transition que vous spécifiez comme valeur par défaut provoque une erreur, l’algorithme DES utilise sa propre transition par défaut.
 
@@ -70,7 +70,7 @@ Si vous ne définissez pas de transition par défaut ou si la transition que vou
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

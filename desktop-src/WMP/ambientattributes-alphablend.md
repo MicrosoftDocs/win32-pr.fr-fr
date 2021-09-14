@@ -3,7 +3,7 @@ title: AmbientAttributes. alphaBlend
 description: L’attribut alphaBlend spécifie ou récupère une valeur pour la fusion alpha d’une vue, d’une sous-vue ou d’un widget d’interface utilisateur.
 ms.assetid: a6c47d32-a497-4bfa-8fa3-ef94e267d94b
 keywords:
-- Lecteur Windows Media AmbientAttributes. alphaBlend
+- AmbientAttributes. alphaBlend Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f8c0f0cb9d885f643b39acfbc5148403a5c8b788
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856227"
 ---
 # <a name="ambientattributesalphablend"></a>AmbientAttributes. alphaBlend
 
@@ -38,11 +38,11 @@ Cet attribut permet à un élément d’apparaître comme translucide, en foncti
 Lorsque vous utilisez **alphaBlend** avec un élément de **texte** pour lequel le **backgroundColor** n’est pas spécifié, une couleur d’arrière-plan noire est utilisée. Si la couleur de premier plan est également noire (valeur par défaut pour le *texte*).**foregroundColor**), votre texte peut devenir illisible. Pour éviter cela, spécifiez toujours l’attribut **backgroundColor** ou définissez **foregroundColor** sur une couleur autre que Black.
 
 > [!Note]  
-> Cet attribut n’est pas pris en charge dans Windows 98.
+> cet attribut n’est pas pris en charge dans Windows 98.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - Objet MetadataText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f23e873d2fd86ad22cb7b37345562ab82a95d73810b06829b5d9510aa28c1790
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 193f8abe1a46830fda1ef4f55c3cb0f3fbceade9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119470389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856378"
 ---
 # <a name="about-the-metadatatext-object"></a>À propos de l’objet MetadataText
 

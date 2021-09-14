@@ -4,12 +4,12 @@ description: Répertorie les rubriques disponibles qui montrent comment utiliser
 ms.assetid: d3baade5-c56c-4561-a135-4853696b2416
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c760e8e3034f272e43c7d5e9f9b6e739fcc0dd617068beee337d78614b3a91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0ce5a3f4c4bbbf7066dab08f4882d23f8711c83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117939864"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856539"
 ---
 # <a name="using-the-tool-help-functions"></a>Utilisation des fonctions d’aide de l’outil
 

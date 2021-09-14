@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 62bae938603407897105939138b74bec77acc324
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982382"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915888"
 ---
 # <a name="jetgetrecordsize2-function"></a>JetGetRecordSize2 fonction)
 
@@ -93,11 +93,11 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 La taille de la clé accumulée dans le champ **cbOverhead** de [JET_RECSIZE2](./jet-recsize2-structure.md)est affectée par JET_bitRecordSizeInCopyBuffer. Si ce bit est spécifié, la taille de clé accumulée dans le champ **cbOverhead** est la taille de la clé complète. Si ce bit n’est pas utilisé, la taille cumulée de la clé n’inclut pas la taille enregistrée en raison de la compression de préfixe de clé.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

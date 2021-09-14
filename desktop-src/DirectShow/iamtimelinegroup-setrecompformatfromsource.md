@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: dd54f8a555e104fecd87b755cf5938cf9c67654e1d8e2ba07b88920c0c047604
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: adf4bfcf9d76ed40092eba7c612f4213c7aacb0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857716"
 ---
 # <a name="iamtimelinegroupsetrecompformatfromsource-method"></a>IAMTimelineGroup :: SetRecompFormatFromSource, méthode
 
@@ -52,7 +52,7 @@ Pointeur vers l’interface [**IAMTimelineSrc**](iamtimelinesrc.md) de l’objet
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -70,7 +70,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode recherche le fichier source associé à *pSource*, récupère le type de média du premier flux vidéo dans le fichier et définit le format de compression de groupe à l’aide de ce type. Pour plus d’informations sur les formats de compression, consultez [**IAMTimelineGroup :: SetSmartRecompressFormat**](iamtimelinegroup-setsmartrecompressformat.md).
 
@@ -84,7 +84,7 @@ Cette méthode recherche le fichier source associé à *pSource*, récupère le 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

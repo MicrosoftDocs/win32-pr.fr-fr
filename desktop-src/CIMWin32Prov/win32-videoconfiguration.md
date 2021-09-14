@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7d951a8927458fa12398682ce63963dd71949d70e4db3a426dfc93ad14c78bf7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96ad4206cc50953a135b23257526ffb5cdc59b6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858016"
 ---
 # <a name="win32_videoconfiguration-class"></a>\_Classe VideoConfiguration Win32
 
@@ -691,7 +691,7 @@ Cette propriété est dépréciée en faveur d’une ou plusieurs propriétés c
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

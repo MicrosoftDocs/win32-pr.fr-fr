@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 2f851e6bdccb755977210fcd67e7ce0bb6cb270ec3ff6a4f1fed4806a035a11a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 401c20d766fe9751c35cb59c03bca739494b3f8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857577"
 ---
 # <a name="iamtimelinetrackinsertspace2-method"></a>IAMTimelineTrack :: InsertSpace2, méthode
 
@@ -60,7 +60,7 @@ Point de terminaison de l’espace inséré, en secondes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suivantes :
 
@@ -77,7 +77,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

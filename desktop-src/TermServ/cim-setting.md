@@ -21,12 +21,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d53499c383c6fcf9ae2774427afcea2ea339408ff0292a3d4ce15286a4a75298
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56d3a9517df9af92f428000ed064b2bb88b348a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118131318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857157"
 ---
 # <a name="cim_setting-class-remote-desktop-services"></a>CIM_Setting, classe (Services Bureau à distance)
 
@@ -202,7 +202,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

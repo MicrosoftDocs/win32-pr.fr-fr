@@ -4,12 +4,12 @@ ms.assetid: 07840a37-7065-41e8-aee5-855c9f89fb77
 title: Utilisation du localisateur de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be064a375f121f7c4e3dad54c2615bf8d6f7df489e119ec9cbb2c6f4b4294628
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fce934b06d92c0bec66d9260a485516d3acaf5a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857374"
 ---
 # <a name="using-the-media-locator"></a>Utilisation du localisateur de média
 

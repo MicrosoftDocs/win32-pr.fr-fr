@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 02d21efb3ef0ed5d4602833571b2b1a32e73df73b76f82a357cda574e93e84ce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44b5089b6e539a8104586e27b58388a324462b37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747388"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916388"
 ---
 # <a name="id3dxtextureshadergetconstantelement-method"></a>ID3DXTextureShader :: GetConstantElement, méthode
 
@@ -59,17 +59,17 @@ Index de base zéro de l’élément dans la table constante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne un identificateur unique à la constante.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir une constante qui ne fait pas partie d’un tableau, utilisez [**ID3DXTextureShader :: GetConstant**](id3dxtextureshader--getconstant.md) ou [**ID3DXTextureShader :: GetConstantByName**](id3dxtextureshader--getconstantbyname.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

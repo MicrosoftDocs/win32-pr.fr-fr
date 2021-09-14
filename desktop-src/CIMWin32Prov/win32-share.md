@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 258116c3d6f01db938033056069aa036a3eaad23e44b31d80838ad26f570faa7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e871880da5aa9819de4a9eaaf3c6f074bd198d23
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117834151"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858045"
 ---
 # <a name="win32_share-class"></a>\_Classe de partage Win32
 
@@ -72,7 +72,7 @@ La classe de **\_ partage Win32** possède ces méthodes.
 | Méthode                                                             | Description                                                                                                                                                                                                         |
 |:-------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Créer**](create-method-in-class-win32-share.md)               | Méthode de classe qui initie le partage pour une ressource de serveur.<br/>                                                                                                                                               |
-| [**Supprimer**](delete-method-in-class-win32-share.md)               | Méthode de classe qui supprime un nom de partage de la liste des ressources partagées d’un serveur, en déconnectant les connexions à la ressource partagée.<br/>                                                                       |
+| [**DELETE**](delete-method-in-class-win32-share.md)               | Méthode de classe qui supprime un nom de partage de la liste des ressources partagées d’un serveur, en déconnectant les connexions à la ressource partagée.<br/>                                                                       |
 | [**GetAccessMask**](getaccessmask-method-in-class-win32-share.md) | Retourne les droits d’accès au partage détenu par l’utilisateur ou le groupe au nom duquel l’instance est retournée. Vous devez utiliser cette méthode à la place de la propriété **AccessMask** , qui est toujours **null**.<br/> |
 | [**SetShareInfo**](setshareinfo-method-in-class-win32-share.md)   | Méthode de classe qui définit les paramètres d’une ressource partagée.<br/>                                                                                                                                              |
 
@@ -406,7 +406,7 @@ Type de ressource partagée. Les types sont les suivants : lecteurs de disque, 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe de **\_ partage Win32** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -457,7 +457,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

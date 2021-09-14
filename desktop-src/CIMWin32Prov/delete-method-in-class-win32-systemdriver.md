@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d6422da3de5549f7100caaa3d47d9aaf055f9208a1fd56188d837627b852222e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1b7435a1bca561b19e7d85299413f88f1ae76c3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020517"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999520"
 ---
 # <a name="delete-method-of-the-win32_systemdriver-class"></a>Méthode Delete de la \_ classe SystemDriver Win32
 
@@ -40,11 +40,11 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le service a été correctement supprimé, 1 (un) si la demande n’est pas prise en charge, et tout autre nombre pour indiquer une erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

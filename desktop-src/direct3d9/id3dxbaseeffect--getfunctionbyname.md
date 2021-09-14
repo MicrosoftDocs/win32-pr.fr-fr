@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: bcc16fa8136332e2a5d1a87956e1d4cc6a2a562b7e4e3531efbcc09f1314978b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e1cd9ec56ff5df3bff293ade0669b4cd7c8dad5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916484"
 ---
 # <a name="id3dxbaseeffectgetfunctionbyname-method"></a>ID3DXBaseEffect :: GetFunctionByName, méthode
 
@@ -49,13 +49,13 @@ Chaîne contenant le nom de la fonction.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne le handle de la fonction spécifiée, ou **null** si le nom est introuvable. Consultez [Handles (Direct3D 9)](handles.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: dbeaf5d7987f1baf2b3df9804c4abd3049c38042a29f4177f83abec6855140a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e5a4500c2b53703a13b509f112453e65c954f96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401050"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857818"
 ---
 # <a name="iamtimelinecompgetnextvtrack-method"></a>IAMTimelineComp :: GetNextVTrack, méthode
 
@@ -60,11 +60,11 @@ Reçoit un pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK si la méthode récupère une piste virtuelle, ou la \_ valeur false dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la méthode est réussie, l’interface **IAMTimelineObj** qu’elle retourne a un nombre de références en suspens. Veillez à libérer l’interface une fois que vous avez fini de l’utiliser.
 
@@ -78,7 +78,7 @@ Si la méthode est réussie, l’interface **IAMTimelineObj** qu’elle retourne
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

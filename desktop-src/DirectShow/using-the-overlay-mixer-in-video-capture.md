@@ -4,12 +4,12 @@ ms.assetid: 43468fa2-6dea-439d-9e24-f47a053ad561
 title: utilisation de la superposition Mixer dans la Capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134ada11ca55009b3ad67ba80c82575ab2d9bdf5a7329a88157ed4e003eca74c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72bff115d566654732e80c0bcb0f554c4ad96e65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118651193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857350"
 ---
 # <a name="using-the-overlay-mixer-in-video-capture"></a>utilisation de la superposition Mixer dans la Capture vidéo
 

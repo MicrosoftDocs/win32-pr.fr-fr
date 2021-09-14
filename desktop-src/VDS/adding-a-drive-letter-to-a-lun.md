@@ -4,12 +4,12 @@ ms.assetid: 3f350312-3f1f-4020-90d0-85521ea9c7c8
 title: Ajout d’une lettre de lecteur à un numéro d’unité logique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 388c59a2e1b719e792855460f45fa0c04add7502f8e06aba56f0416a212a9aaa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 426a4f3bf720b21a02462edde4a381012d2084d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117755498"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856522"
 ---
 # <a name="adding-a-drive-letter-to-a-lun"></a>Ajout d’une lettre de lecteur à un numéro d’unité logique
 

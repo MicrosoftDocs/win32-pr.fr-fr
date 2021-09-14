@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2805f2213bcbb1fa91a10ea80005b8b23bbc7447973bba6930bfdcb1e52a9e91
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e3691dfbd62847bc490c3a45e1d640d19b09cca6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857938"
 ---
 # <a name="dtm_setmcstyle-message"></a>\_Message DTM SETMCSTYLE
 
@@ -39,11 +39,11 @@ Doit être zéro.
 *lParam* \[ dans\]
 </dt> <dd>Valeur de style. Pour plus d’informations, consultez <a href="month-calendar-control-styles.md">styles du contrôle Month Calendar</a>.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur du style précédent.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1b20b519c0ec89243aefd9c87aba235548f11f93984a45702f7670a27bf073cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70a88d87c68b36db5bd44413e3c68940db44f29b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080933"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999560"
 ---
 # <a name="cim_associatedsupplycurrentsensor-class"></a>\_Classe CIM AssociatedSupplyCurrentSensor
 
@@ -145,7 +145,7 @@ Plage 1 et 2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ AssociatedSupplyCurrentSensor** est dérivée de [**CIM \_ AssociatedSensor**](cim-associatedsensor.md).
 
@@ -153,7 +153,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

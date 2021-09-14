@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6cb8c2a78450fffa467ea659b55015f064310783ae21b067093de9473612fcc1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3407a6611886f867734dc7f32cd867a2930d3d2b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118356867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857320"
 ---
 # <a name="documentation-registrationinfotype-element"></a>Élément documentation (registrationInfoType)
 
@@ -43,13 +43,13 @@ L’élément **documentation** est défini par le type complexe [**registration
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-Pour les applications de script, une documentation supplémentaire sur les tâches est spécifiée à l’aide de la propriété [**RegistrationInfo.Documentation**](registrationinfo-documentation.md) .
+Pour les applications de script, une documentation supplémentaire sur les tâches est spécifiée à l’aide de la propriété [**RegistrationInfo. documentation**](registrationinfo-documentation.md) .
 
 Pour les applications C++, une documentation supplémentaire sur les tâches est spécifiée à l’aide de la propriété [**IRegistrationInfo ::D ocumentation**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_documentation) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c768a21d4e08e6900f3a46f3e398f5040aaf6b6b0bc45c9187ac07821500a372
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fab426b7bcad1a12895f632a719a40b4aaa8da4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117817994"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857476"
 ---
 # <a name="isamplegrabbersetbuffersamples-method"></a>ISampleGrabber :: SetBufferSamples, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Valeur booléenne spécifiant si les exemples de données doivent être mis en m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour récupérer la mémoire tampon copiée, appelez [**ISampleGrabber :: GetCurrentBuffer**](isamplegrabber-getcurrentbuffer.md).
 
@@ -70,7 +70,7 @@ Pour récupérer la mémoire tampon copiée, appelez [**ISampleGrabber :: GetCu
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - d3dxof.dll
-ms.openlocfilehash: 6dbcf4836c33fd2acfc1adc21e47430a54ba7c54aeb2b220199846d31572619e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8ee1787941bbb902e6f0f50b082867aaf2f0a8bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119952179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916616"
 ---
 # <a name="directxfilecreate-function"></a>DirectXFileCreate fonction)
 
@@ -48,17 +48,17 @@ Adresse d’un pointeur vers une interface [**IDirectXFile**](idirectxfile.md) ,
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : DXFILEERR \_ BADALLOC, DXFILEERR \_ BADVALUE.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après l’utilisation de cette fonction, utilisez [**RegisterTemplates**](idirectxfile--registertemplates.md) pour inscrire des modèles, [**CreateEnumObject**](idirectxfile--createenumobject.md) pour créer un objet énumérateur ou [**CreateSaveObject**](idirectxfile--createsaveobject.md) pour créer un objet Save.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

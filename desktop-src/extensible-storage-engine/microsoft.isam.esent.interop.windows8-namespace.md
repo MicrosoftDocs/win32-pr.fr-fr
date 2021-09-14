@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 768064e19af76a03aa0d4f11c087f8d7ff7086b04cd1de46edfb504ba8e6be2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14c82eaae707f23c8f696593496d556bfa61277a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119614473"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915855"
 ---
 # <a name="microsoftisamesentinteropwindows8-namespace"></a>Espace de noms Microsoft. ISAM. esent. Interop. Windows8
 

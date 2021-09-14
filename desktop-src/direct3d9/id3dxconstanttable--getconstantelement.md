@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9cb1adacadb92cf3a2f9a3e041e4a94a840994db3244233509350448008bd675
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5396c70c1c4286223d9f45fb8ab9b73a019becb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119748779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916444"
 ---
 # <a name="id3dxconstanttablegetconstantelement-method"></a>ID3DXConstantTable :: GetConstantElement, méthode
 
@@ -59,17 +59,17 @@ Index de base zéro de l’élément dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne un identificateur unique à la constante d’élément.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir une constante qui ne fait pas partie d’un tableau, utilisez [**ID3DXConstantTable :: GetConstant**](id3dxconstanttable--getconstant.md) ou [**ID3DXConstantTable :: GetConstantByName**](id3dxconstanttable--getconstantbyname.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

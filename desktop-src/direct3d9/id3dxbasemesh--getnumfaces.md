@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e1099038cee9f1a334f50ac15eeee5091dd7aec070cf2020e0e3eb26a039ff42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9adc36e4d34909481c61d1c62e4233a1f6f92a87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916452"
 ---
 # <a name="id3dxbasemeshgetnumfaces-method"></a>ID3DXBaseMesh :: GetNumFaces, méthode
 
@@ -38,13 +38,13 @@ DWORD GetNumFaces();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
 Retourne le nombre de faces dans le maillage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

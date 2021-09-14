@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 03dc0c9763bdea75569f9447becb749bf284ae2ad7d77427f6dfc2f0aac58382
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85e30820afdca865f438ac40521a9be540fd4a1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818058"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857487"
 ---
 # <a name="isamplegrabbergetconnectedmediatype-method"></a>ISampleGrabber :: GetConnectedMediaType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,7 +52,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs suivantes.
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode copie le type de média dans la structure de **\_ \_ type de média am** spécifiée par *PTYPE*. L’appelant doit libérer le bloc de format du type de média. Vous pouvez utiliser la fonction **CoTaskMemFree** ou la fonction [**FreeMediaType**](freemediatype.md) dans la bibliothèque de classes de base.
 
@@ -82,7 +82,7 @@ Cette méthode copie le type de média dans la structure de **\_ \_ type de méd
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

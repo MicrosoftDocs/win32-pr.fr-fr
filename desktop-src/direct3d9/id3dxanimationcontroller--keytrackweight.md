@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 16bd95c675486b17f3071a279a01916e3db557c598830282f4d5b288dbc1f0fa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 74f5e38392f6b4ac192f02b9d85421c8357a16ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120026629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916536"
 ---
 # <a name="id3dxanimationcontrollerkeytrackweight-method"></a>ID3DXAnimationController :: KeyTrackWeight, méthode
 
@@ -89,17 +89,17 @@ Spécifie le type de transition utilisé pour la transition entre les poids. Con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Descripteur d’événement pour l’événement Priority Blend. La **valeur null** est retournée si un ou plusieurs des paramètres d’entrée ne sont pas valides ou si aucun événement libre n’est disponible.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le poids est utilisé comme un multiplicateur pour déterminer la proportion de cette piste à mélanger avec d’autres pistes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 43eb0dcb51b80b1cc6e59f9e864f9f80fd32a381c04602a7c7ce9733683fca3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33e23070a7bb10dd040d08c145bfe1e0111026d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857878"
 ---
 # <a name="iamtimelinesetdefaulteffect-method"></a>IAMTimeline :: SetDefaultEffect, méthode
 
@@ -52,11 +52,11 @@ Pointeur vers le GUID de l’effet par défaut.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous ne définissez pas d’effet par défaut ou si l’effet que vous spécifiez comme valeur par défaut provoque une erreur, l’algorithme DES utilise son propre effet par défaut.
 
@@ -70,7 +70,7 @@ Si vous ne définissez pas d’effet par défaut ou si l’effet que vous spéci
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

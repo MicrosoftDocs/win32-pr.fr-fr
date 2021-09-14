@@ -5,12 +5,12 @@ ms.assetid: 69822ef1-eca8-4302-b014-8e5894d52109
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 234d27f5bd024e2311307f39e4f86584747b59b874576e5cd5aa28e735b2945d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd0c1a71256f3ab469bfeb1c08b2d096b56ac1b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001617"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857146"
 ---
 # <a name="clientserver-application-guidelines"></a>Instructions pour les applications client/serveur
 

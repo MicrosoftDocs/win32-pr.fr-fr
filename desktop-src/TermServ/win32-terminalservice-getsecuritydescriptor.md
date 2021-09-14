@@ -20,11 +20,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ea5b8a9b945048f947aa273e1ccc1f4514469681
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856762"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode GetSecurityDescriptor de la classe Win32_Service (Services Bureau à distance)
 
@@ -52,7 +52,7 @@ Descripteur de sécurité associé au service.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeur différente pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -233,7 +233,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 L' [**instance \_ Win32 SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) représente un type de données de [**\_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) et contient une liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) et une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). Pour plus d’informations, consultez [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -251,7 +251,7 @@ Set objWMIService = GetObject("winmgmts:" _
 
 
 
-De même, dans VB.NET, veillez à définir « EnablePrivileges = true » et à exécuter l’application en tant qu’administrateur.
+de même, dans VB .net, veillez à définir « EnablePrivileges = True » et à exécuter l’Application en tant qu’administrateur.
 
 
 ```VB
@@ -261,7 +261,7 @@ Scope.Options.EnablePrivileges = True
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

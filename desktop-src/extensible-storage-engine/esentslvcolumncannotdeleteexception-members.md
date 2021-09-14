@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102730
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f9bd48443e05bcef03c3dc3a1cdedc348e9860ae4ec1df82e730716dcc2f3ab9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16fb04644e579bc69cbf1b4f2509a87225902a9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119970829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916127"
 ---
 # <a name="esentslvcolumncannotdeleteexception-members"></a>Membres EsentSLVColumnCannotDeleteException
 
@@ -91,7 +91,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

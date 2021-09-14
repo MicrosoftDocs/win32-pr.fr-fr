@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimeline fournit des méthodes pour manipuler la chronologie, l’objet central dans les services d’édition Microsoft DirectShow (DES).
+description: l’interface IAMTimeline fournit des méthodes de manipulation de la chronologie, l’objet central dans Microsoft DirectShow editing Services (DES).
 ms.assetid: 6750efa0-946c-4ad3-b0df-de55872b94c3
 title: Interface IAMTimeline (qedit. h)
 ms.topic: reference
@@ -15,20 +15,20 @@ api_location:
 - strmiids.lib
 - strmiids.dll
 ms.openlocfilehash: fc4374a198232625b87448004b667ccd8ce0183b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857830"
 ---
 # <a name="iamtimeline-interface"></a>Interface IAMTimeline
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimeline` interface fournit des méthodes pour manipuler la chronologie, l’objet central dans les [services d’édition Microsoft DirectShow](directshow-editing-services.md) (des). Une chronologie est une collection d’éléments chronologiques, tels que des clips vidéo, des clips audio, des effets et des transitions entre des éléments. Le moteur de rendu utilise la chronologie pour créer un graphique de filtre, à partir duquel l’application peut générer la sortie rendue.
+l' `IAMTimeline` interface fournit des méthodes pour la manipulation de la chronologie, l’objet central dans Microsoft [DirectShow edition Services](directshow-editing-services.md) (DES). Une chronologie est une collection d’éléments chronologiques, tels que des clips vidéo, des clips audio, des effets et des transitions entre des éléments. Le moteur de rendu utilise la chronologie pour créer un graphique de filtre, à partir duquel l’application peut générer la sortie rendue.
 
 `IAMTimeline` effectue trois services de base. Informatique
 
@@ -94,11 +94,11 @@ L’interface **IAMTimeline** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

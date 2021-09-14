@@ -4,12 +4,12 @@ ms.assetid: 86e2a460-7b58-4612-8f72-5a4e864ceb58
 title: Vecteurs normaux de face et de vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78087ffecbd7157d68ccfb9667392f5148c96191388c1b7886c16f771066ba30
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6e0ef6fd8eba85b770cbfe71477655ddbafd8ee7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120069232"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916600"
 ---
 # <a name="face-and-vertex-normal-vectors-direct3d-9"></a>Vecteurs normaux de face et de vertex (Direct3D 9)
 

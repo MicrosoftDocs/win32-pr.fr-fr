@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 6e6d61d60a4664386cded025d2b7bcea82353602c7f7f8c0fb5bc4c53779ae2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46e0565c314bab86967ee0d5dabee6ba449a87dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117817916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857470"
 ---
 # <a name="isamplegrabbersetcallback-method"></a>ISampleGrabber :: SetCallback, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -71,11 +71,11 @@ Index qui spécifie la méthode de rappel. Il doit s’agir de l’une des valeu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le thread de traitement des données se bloque jusqu’à ce que la méthode de rappel retourne. Si le rappel ne retourne pas rapidement, il peut interférer avec la lecture.
 
@@ -91,7 +91,7 @@ Le filtre n’appelle pas la fonction de rappel pour les exemples de préroll, o
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

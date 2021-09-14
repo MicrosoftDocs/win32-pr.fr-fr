@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d041209dcdbd1d9a39d08acb75180ec9cf292f01934c21762418571d44a32460
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f02e5e1ce125a2c8495327a08c14c94ac9f48567
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119917539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858046"
 ---
 # <a name="win32_sharetodirectory-class"></a>\_Classe ShareToDirectory Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant les propriétés du répertoire qui a 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

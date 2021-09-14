@@ -5,15 +5,15 @@ title: Objet Port du contrôleur
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7547581358bd79212b1093384ce1589e331f6ee0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856497"
 ---
 # <a name="controller-port-object"></a>Objet Port du contrôleur
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet Port de contrôleur modélise un port de contrôleur dans un sous-système. Les ordinateurs hôtes peuvent écrire et lire des numéros d’unités logiques via des ports de contrôleur. Les ports de contrôleur sont contenus par les contrôleurs dans un sous-système. Dans VDS 1,1 et VDS 2.0, chacun des ports de contrôleur d’un sous-système est défini comme actif ou inactif par rapport à chacun des numéros d’unités logiques que le sous-système couvre. Un seul port de contrôleur, alors, peut être défini simultanément sur actif pour un numéro d’unité logique et inactif pour d’autres. Un port de contrôleur actif pour un numéro d’unité logique donné est responsable de la gestion des entrées et sorties de l’unité logique.
 

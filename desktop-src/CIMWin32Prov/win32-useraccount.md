@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: df907b1686677db8ea895d8788055567e24dc7be7ffe758bcfa82801591a0dfb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b5af83f7a52e9f3db9dbaa4a959bfe01ae740746
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119922749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858022"
 ---
 # <a name="win32_useraccount-class"></a>\_Classe UserAccount Win32
 
@@ -219,7 +219,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Disabled**
+**Désactivé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -594,7 +594,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ UserAccount** est dérivée [**du \_ compte Win32**](win32-account.md).
 
@@ -648,7 +648,7 @@ using System.Management;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

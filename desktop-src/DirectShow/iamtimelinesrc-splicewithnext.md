@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 1ffde9c7bb0416f2b296f7a7c347a058734430be33ef4ecde59e7e39cd6e845f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c17812ab5d451be639def0d07fe773d4b676570
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118154830"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857631"
 ---
 # <a name="iamtimelinesrcsplicewithnext-method"></a>IAMTimelineSrc :: SpliceWithNext, méthode
 
@@ -52,7 +52,7 @@ Pointeur vers l’interface [**IAMTimelineObj**](iamtimelineobj.md) de l’objet
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suivantes :
 
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Comme c’est actuellement le cas, cette méthode ignore les effets sur *pNext*.
 
@@ -89,7 +89,7 @@ Pour que cette méthode aboutisse, *pNext* doit être une trame de correspondanc
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 05f9c9227085156b4eee6a4b1a839e0cee95a5224504f89037a998ed88b6b3d9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3dac06fabddd93b4072ea1f1a91cf4e6c6032f34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999519"
 ---
 # <a name="delete-method-of-the-win32_clustershare-class"></a>Méthode Delete de la \_ classe ClusterShare Win32
 
@@ -38,7 +38,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

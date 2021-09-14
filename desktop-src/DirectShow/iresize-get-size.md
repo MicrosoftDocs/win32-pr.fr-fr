@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 747ca8d7fd839321a9dbf4403c503652b932403e49bb964ae6148da2f49c5ac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9fe4971fd9ede0f695fe06a4102da8243e7c720
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818210"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857500"
 ---
 # <a name="iresizeget_size-method"></a>IResize :: méthode d’extraction de la \_ taille
 
@@ -68,11 +68,11 @@ Reçoit un indicateur spécifiant le mode Stretch. Pour connaître les valeurs p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le type de sortie n’a pas été défini, le filtre doit retourner les valeurs par défaut. Ces valeurs peuvent être choisies arbitrairement au moment du Design.
 
@@ -86,7 +86,7 @@ Si le type de sortie n’a pas été défini, le filtre doit retourner les valeu
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 55b3de81179c01171d7ee5ff7b845295709dfb8ead1a9bc1a7cdf615bc37c44d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 825aca3f3227a340952092985f4730018fe316e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117729100"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916396"
 ---
 # <a name="id3dxtextureshadergetconstantbyname-method"></a>ID3DXTextureShader :: GetConstantByName, méthode
 
@@ -59,13 +59,13 @@ Chaîne contenant le nom de la constante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne un identificateur unique à la constante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

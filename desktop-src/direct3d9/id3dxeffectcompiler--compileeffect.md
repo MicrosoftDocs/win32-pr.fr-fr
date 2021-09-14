@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f3769f3f7433aadc55e766d68ecc152a4e26444cf506344f80e3f11a0bca8fcf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6552d0216cd05c40c122657270c02e0886438da1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916423"
 ---
 # <a name="id3dxeffectcompilercompileeffect-method"></a>ID3DXEffectCompiler :: CompileEffect, méthode
 
@@ -69,7 +69,7 @@ Mémoire tampon contenant au moins le premier message d’erreur de compilation 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -79,7 +79,7 @@ Si les arguments ne sont pas valides, la méthode retourne D3DERR \_ INVALIDCALL
 
 Si la méthode échoue, la valeur de retour est E \_ Fail.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

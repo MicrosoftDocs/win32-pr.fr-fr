@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 65dac22cc15e93198e7d494986b2279ae7e1d11fdb3c8cb65b3caddf9b905595
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f803b6e129ac20b8a22ed2393ab941698c02d3d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916439"
 ---
 # <a name="id3dxconstanttablegetsamplerindex-method"></a>ID3DXConstantTable :: GetSamplerIndex, méthode
 
@@ -49,13 +49,13 @@ Handle de l’échantillonneur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Retourne le numéro d’index de l’échantillonneur à partir de la table constante.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

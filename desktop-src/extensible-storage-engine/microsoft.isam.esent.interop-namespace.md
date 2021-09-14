@@ -15,11 +15,11 @@ dev_langs:
 - VB
 - other
 ms.openlocfilehash: d66441e4db647e6f15c9434597a7e95a2006758a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915879"
 ---
 # <a name="microsoftisamesentinterop-namespace"></a>Espace de noms Microsoft. ISAM. esent. Interop
 
@@ -882,7 +882,7 @@ ms.locfileid: "103952146"
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn350503(v=exchg.10).md">EsentInitInProgressException</a></td>
-<td>Classe de base pour JET_err.Iniexceptions tInProgress.</td>
+<td>Classe de base pour JET_err. Exceptions InitInProgress.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
@@ -1992,12 +1992,12 @@ ms.locfileid: "103952146"
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn334938(v=exchg.10).md">EsentSystemParamsAlreadySetException</a></td>
-<td>Classe de base pour JET_err.Sysexceptions temParamsAlreadySet.</td>
+<td>Classe de base pour JET_err. Exceptions SystemParamsAlreadySet.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn334943(v=exchg.10).md">EsentSystemPathInUseException</a></td>
-<td>Classe de base pour JET_err.Sysexceptions temPathInUse.</td>
+<td>Classe de base pour JET_err. Exceptions SystemPathInUse.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
@@ -2277,7 +2277,7 @@ ms.locfileid: "103952146"
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn335061(v=exchg.10).md">JET_CONVERT</a></td>
-<td><strong>Obsolète.</strong> Options de conversion pour <a href="dn292112(v=exchg.10).md">JetCompact (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)</a>. Cette fonctionnalité a été supprimée dans Windows Server 2003.</td>
+<td><strong>Obsolète.</strong> Options de conversion pour <a href="dn292112(v=exchg.10).md">JetCompact (JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)</a>. cette fonctionnalité a été supprimée dans Windows Server 2003.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>

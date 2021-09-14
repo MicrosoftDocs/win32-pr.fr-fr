@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8322bb07300ce188684f5097232563e80721fadf0f614c24ac5f7b2d034c1fff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dea5489aaa6fafcaa19a97a44d81fd85abb178d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916255"
 ---
 # <a name="setrgbstring-message"></a>Message SETRGBSTRING
 
@@ -52,11 +52,11 @@ Valeur RVB de la couleur à sélectionner dans la boîte de dialogue **couleur**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si *lParam* correspond à l’une des couleurs de base ou à l’une des 16 couleurs personnalisées, la procédure de la boîte de dialogue sélectionne cette couleur. La procédure de boîte de dialogue met également à jour tous les contrôles dans l’extension de couleur personnalisée de la boîte de dialogue **couleur** , s’il est ouvert.
 
@@ -77,7 +77,7 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -106,7 +106,7 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

@@ -3,18 +3,18 @@ title: Résolution des problèmes d’empaquetage, de déploiement et d’interr
 description: Utilisez ces suggestions pour résoudre les problèmes que vous rencontrez lors de l’empaquetage, du déploiement ou de l’interrogation d’un package d’application.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
 ms.topic: article
-ms.date: 02/20/2020
+ms.date: 09/10/2021
 manager: dcscontentpm
 ms.custom:
 - CI 111497
 - CSSTroubleshooting
 - contperf-fy21q2
-ms.openlocfilehash: c6438f9a8d600e9df6956f61bb6317cec575c57f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 4bea9a6ce0504822c65ae9016bd3e37b1806eac2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480595"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126792616"
 ---
 # <a name="troubleshooting-packaging-deployment-and-query-of-windows-apps"></a>Résolution des problèmes d’empaquetage, de déploiement et d’interrogation des applications Windows
 
@@ -63,7 +63,7 @@ Ce tableau répertorie certains des codes d’erreur les plus courants. Si vous 
 |------------|-------|---------------------------------|
 | <strong>E_FILENOTFOUND</strong> | 0x80070002 | Fichier ou chemin d'accès introuvable. Cela peut se produire pendant une validation de TypeLib COM exige que le chemin d’accès au répertoire existe réellement dans votre package MSIX.<br /> | 
 | <strong>ERROR_BAD_FORMAT</strong> | 0x8007000B | Le package n’est pas formaté correctement et doit être recréé ou resigné.<br /> Vous pouvez obtenir cette erreur en cas de discordance entre le nom d’objet du certificat de signature et le nom de l’éditeur de AppxManifest.xml.<br /> Consultez <a href="how-to-sign-a-package-using-signtool.md">Comment signer un package d’application à l’aide de SignTool</a>.<br /> | 
-| <strong>E_INVALIDARG</strong> | 0x80070057 | Un ou plusieurs arguments ne sont pas valides. Si vous consultez le journal des événements AppXDeployment-Server et que vous voyez l’événement suivant : « lors de l’installation du package, le système n’a pas pu inscrire l’extension Windows. repositoryExtension en raison de l’erreur suivante : le paramètre est incorrect. » <br /> vous pouvez recevoir cette erreur si les éléments de manifeste DisplayName ou Description contiennent des caractères interdits par Windows pare-feu ; à savoir  |  et tout, en raison de la Windows ne parvient pas à créer le profil AppContainer pour le package. Supprimez ces caractères du manifeste et essayez d’installer le package. <br /> | 
+| <strong>E_INVALIDARG</strong> | 0x80070057 | Un ou plusieurs arguments ne sont pas valides. Si vous consultez le journal des événements AppXDeployment-Server et que vous voyez l’événement suivant : « lors de l’installation du package, le système n’a pas pu inscrire l’extension Windows. repositoryExtension en raison de l’erreur suivante : le paramètre est incorrect. » <br /> vous pouvez obtenir cette erreur si les éléments de manifeste DisplayName ou Description contiennent des caractères interdits par Windows pare-feu, par exemple `|` , en raison du fait que Windows ne peut pas créer le profil AppContainer pour le package. Supprimez ces caractères du manifeste et essayez d’installer le package. <br /> | 
 | <strong>ERROR_INSTALL_OPEN_</strong><br /><strong>PACKAGE_FAILED</strong><br /> | 0x80073CF0 | Impossible d’ouvrir le package.<br /> Causes possibles :<br /><ul><li>Le package n'est pas signé.</li><li>Le nom de l’éditeur ne correspond pas à l’objet du certificat de signature.</li><li>Le préfixe file://est manquant ou le package est introuvable à l’emplacement spécifié.</li></ul>Pour plus d’informations, consultez le journal des événements <strong>AppxPackagingOM</strong> .<br /> | 
 | <strong>ERROR_INSTALL_PACKAGE_</strong><br /><strong>NOT_FOUND</strong><br /> | 0x80073CF1 | Le package est introuvable.<br /> Vous pouvez obtenir cette erreur lors de la suppression d’un package qui n’est pas installé pour l’utilisateur actuel.<br /> | 
 | <strong>ERROR_INSTALL_INVALID_</strong><br /><strong>Packages</strong><br /> | 0x80073CF2 | Les données du package ne sont pas valides.<br /> | 
@@ -93,7 +93,7 @@ Ce tableau répertorie certains des codes d’erreur les plus courants. Si vous 
 | <strong>ERROR_INSTALL_FIREWALL_</strong><br /><strong>SERVICE_NOT_RUNNING</strong><br /> | 0x80073D0A | impossible d’installer le package, car le service de pare-feu Windows n’est pas en cours d’exécution. activez le service de pare-feu Windows, puis réessayez.<br /> | 
 | <strong>ERROR_PACKAGE_MOVE_FAILED</strong> | 0x80073D0B | Échec de l’opération de déplacement du package.<br /> | 
 | <strong>ERROR_INSTALL_VOLUME_</strong><br /><strong>NOT_EMPTY</strong><br /> | 0x80073D0C | L’opération de déploiement a échoué, car le volume n’est pas vide.<br /> | 
-| <strong>ERROR_INSTALL_VOLUME_</strong><br /><strong>HORS connexion</strong><br /> | 0x80073D0D | L’opération de déploiement a échoué car le volume est hors connexion. Pour une mise à jour de package, le volume fait référence au volume installé de toutes les versions de package.<br /> | 
+| <strong>ERROR_INSTALL_VOLUME_</strong><br /><strong>OFFLINE</strong><br /> | 0x80073D0D | L’opération de déploiement a échoué car le volume est hors connexion. Pour une mise à jour de package, le volume fait référence au volume installé de toutes les versions de package.<br /> | 
 | <strong>ERROR_INSTALL_VOLUME_</strong><br /><strong>ENDOMMAGÉ</strong><br /> | 0x80073D0E | L’opération de déploiement a échoué, car le volume spécifié est endommagé.<br /> | 
 | <strong>ERROR_NEEDS_REGISTRATION</strong><br /><strong></strong><br /> | 0x80073D0F | L’opération de déploiement a échoué car l’application spécifiée doit être inscrite en premier.<br /> | 
 | <strong>ERROR_INSTALL_WRONG_</strong><br /><strong>PROCESSOR_ARCHITECTURE</strong><br /> | 0x80073D10 | L’opération de déploiement a échoué, car le package cible une architecture de processeur incorrecte.<br /> | 
@@ -158,7 +158,7 @@ Ce tableau répertorie certains des codes d’erreur les plus courants. Si vous 
 
 ## <a name="applications-dont-start-and-their-names-are-dimmed"></a>Les applications ne démarrent pas et leurs noms sont estompés
 
-sur un ordinateur Windows 10, vous ne pouvez pas démarrer certaines applications et les noms d’application apparaissent grisés.
+sur un ordinateur exécutant Windows 10 ou version ultérieure, vous ne pouvez pas démarrer certaines applications et les noms d’application apparaissent grisés.
 
 ![certains noms d’application apparaissent grisés dans le menu Démarrer](./images/app-names-dimmed.png)
 

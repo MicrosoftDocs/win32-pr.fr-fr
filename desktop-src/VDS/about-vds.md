@@ -4,12 +4,12 @@ ms.assetid: b2f7628c-b567-40a9-9ad7-6c47077af5fb
 title: À propos de VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1215251bf86c3ac4ba9a7a342a483de19653d20a21978715261b87aa7bea31a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 911145fda8f2dd63c886530af3d8507c38d8e829
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118603712"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856515"
 ---
 # <a name="about-vds"></a>À propos de VDS
 

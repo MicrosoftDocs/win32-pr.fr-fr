@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d2b9a6932a1b0f0f8f1f7bc674920162def49e556c8d5b757547d4837caa60b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 287f07881a00ca53a3f1fe702cf4d95b64bf14c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916303"
 ---
 # <a name="fma"></a>fma
 
@@ -63,7 +63,7 @@ Retourne l’addition fusionnée double précision d’un \* b + c.
 
 Addition fusionnée double précision des paramètres *a* \* *b*  +  *c*. La valeur retournée doit être précise à 0,5 unités de précision minimale (ULP).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’intrinsèque **FMA** doit prendre en charge les valeurs NaN, les fichiers INF et les dénormes.
 
@@ -90,15 +90,15 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                | Pris en charge |
+| Modèle de nuanceur                                                | Prise en charge |
 |-------------------------------------------------------------|-----------|
-| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | oui       |
+| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | Oui       |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

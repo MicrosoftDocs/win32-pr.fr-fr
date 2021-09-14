@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d9a5f8fab7da8f61ce6ee5451ebcef4dc33517aae2396f0817fac19222713db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c3805ae2d5fca687ce024efca74e0254db7c8ae3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055377"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856294"
 ---
 # <a name="albuminfo-element"></a>Élément AlbumInfo
 
@@ -59,7 +59,7 @@ URL de la page web que Lecteur Windows Media affiche.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 quand l’utilisateur clique sur un bouton dans Lecteur Windows Media pour afficher des informations supplémentaires sur un élément multimédia particulier, le lecteur envoie la demande d’URL avec des paramètres attachés à l’aide d’un séparateur de chaîne de requête de point d’interrogation ( ?). Le tableau suivant détaille les paramètres envoyés avec la demande d’URL. D’autres peuvent être présents à des fins de compatibilité héritée.
 
@@ -80,7 +80,7 @@ quand l’utilisateur clique sur un bouton dans Lecteur Windows Media pour affic
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

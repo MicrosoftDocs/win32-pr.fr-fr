@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7cf4a2a8e681bcdaaed4b496c3ff6fcc198c71bf241da939a2feb12814668963
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0d795f98473c09937571d415e34cf6fcb7f3486
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119701039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999554"
 ---
 # <a name="cim_binarysensor-class"></a>\_Classe CIM BinarySensor
 
@@ -102,7 +102,7 @@ La classe **CIM \_ BinarySensor** possède ces méthodes.
 
 | Méthode                                                                  | Description                                                                                                                                |
 |:------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Initialisation**](reset-method-in-class-cim-binarysensor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                                 |
+| [**Réinitialiser**](reset-method-in-class-cim-binarysensor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                                 |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-binarysensor.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et le moment où l’appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -569,7 +569,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd></dd> </dl>
@@ -1128,7 +1128,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ BinarySensor** est dérivée [**du \_ capteur CIM**](cim-sensor.md).
 
@@ -1136,7 +1136,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8bf19ee67c08fc674681ade174966fe415a950103099011f52102e8c6edede7d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c8505f54d6ee9f6b2ec02216fd875fddbc619de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120083879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857709"
 ---
 # <a name="iamtimelinegroupsetsmartrecompressformat-method"></a>IAMTimelineGroup :: SetSmartRecompressFormat, méthode
 
@@ -54,11 +54,11 @@ Pointeur vers une structure décrivant le format de compression. Actuellement, s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler cette méthode, appelez la méthode [**IAMTimelineGroup :: SetMediaType**](iamtimelinegroup-setmediatype.md) sur le même groupe pour spécifier un format non compressé.
 
@@ -78,7 +78,7 @@ Le format de recompression intelligente n’est pas persistant. Si une applicati
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

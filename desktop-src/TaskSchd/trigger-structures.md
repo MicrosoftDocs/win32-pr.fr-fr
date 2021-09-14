@@ -4,12 +4,12 @@ description: Planificateur de tâches 1,0 utilise plusieurs structures pour déf
 ms.assetid: dd2ae4f6-fb2d-41f8-9400-7426b7ca4546
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a70688597f7684a6b6a0bedba90cb23d34135cd732aaed37cd74970867b3b02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a03f28f85782d87ee3349582929babe6f907e8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002055"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857259"
 ---
 # <a name="trigger-structures-for-task-scheduler-10"></a>Structures de déclencheur pour Planificateur de tâches 1,0
 

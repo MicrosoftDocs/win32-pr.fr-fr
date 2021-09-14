@@ -4,12 +4,12 @@ ms.assetid: c1c17a97-cf4b-45b7-bc32-4bad94c3ddb2
 title: Objet Drive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d04ec68fab408c4ed6412990296c0ebb265b8c3e4c4c9b05645b1f4bd1e625fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7df8501c79f9381dba80a1fe0276014dccdf7a34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118603419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856491"
 ---
 # <a name="drive-object"></a>Objet Drive
 

@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: f6e620a801f0ee7f2dc6f9c6f2dfe90e9f766e5e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983462"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915907"
 ---
 # <a name="jetendsession-function"></a>JetEndSession fonction)
 
@@ -76,11 +76,11 @@ En cas de réussite, le descripteur de session est fermé et non disponible, et 
 
 En cas d’échec, plusieurs autres erreurs peuvent se produire dans le cadre de la fermeture de la table de tri, de la fermeture du curseur et de la restauration de la transaction. Ces erreurs sont relativement peu probables, et très peu probables si vos sessions ne sont pas entièrement utilisées lorsque **JetEndSession** est appelé. Ces erreurs sont retournées si une partie de la session n’a pas pu être nettoyée correctement.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette API restaure toutes les transactions ouvertes (non validées au niveau 0). De même, tous les curseurs associés à cette session et les tables de tri qui ont été créées ou ouvertes sont nettoyés.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 332e9ea33e0ca559800e560409066946247d1cff34b8e6b48fd1fadbdb91e38f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbec5de572dd2ed2a0e6b3062b208f1084bafd07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857745"
 ---
 # <a name="iamtimelinegroupsetoutputfps-method"></a>IAMTimelineGroup :: SetOutputFPS, méthode
 
@@ -52,11 +52,11 @@ Fréquence d’images de sortie pour ce groupe, en images par seconde. La valeur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le rendu de la sortie de ce groupe s’exécute à la fréquence d’images spécifiée, et toutes les modifications sur le matériel source sont arrondies à la limite d’image la plus proche, comme défini par la fréquence d’images. Pour des performances optimales, utilisez la même fréquence d’images pour tous les groupes, vidéo et audio.
 
@@ -72,7 +72,7 @@ La méthode [**IAMTimelineGroup :: SetSmartRecompressFormat**](iamtimelinegroup
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

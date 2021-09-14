@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea0dff321eed8da198cafeb2fd58cf37661f100b08fbc52ac7c90be9c2575c7a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39e26d9d7a7b2ac776166c251e5a2ab9923297f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119771779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856929"
 ---
 # <a name="imsrdpclientsecuredsettings2-property"></a>IMsRdpClient :: SecuredSettings2, propriété
 
@@ -86,13 +86,13 @@ Pointeur d’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsett
 
 Si la méthode est réussie, **S \_ OK** est retourné. Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations, consultez l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) et [fourniture de la sécurité du client RDP](providing-for-rdp-client-security.md).
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

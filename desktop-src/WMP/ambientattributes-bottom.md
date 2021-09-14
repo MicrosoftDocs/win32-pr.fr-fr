@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 244688d8263d08573fdfcdf322e09008ae5cd79eb5815511c5cd913d9179b8d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ed707dbd821119963a46c5ac9a8301c20f4d39e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856197"
 ---
 # <a name="ambientattributesbottom"></a>AmbientAttributes. bas
 
@@ -31,7 +31,7 @@ L’attribut **Bottom** spécifie ou récupère la coordonnée inférieure du co
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) représentant la distance en pixels entre le contrôle et le bord inférieur de la **vue** ou de la sous- **vue** parente. Sa valeur par défaut est zéro. Le comportement des valeurs négatives, ou lorsque [AmbientAttributes. Height](ambientattributes-height.md) n’est pas spécifié, n’est pas défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

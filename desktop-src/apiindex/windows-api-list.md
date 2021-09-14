@@ -3,13 +3,13 @@ description: liste du contenu de référence pour l’API Windows.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Index des API Windows
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 07e61a3f738905e98ad9cd1db85dbaa1746d7c613b1cc5b628805bcc3ddbea74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.date: 09/10/2021
+ms.openlocfilehash: 7cc551b70e8d5c5af77b5a5416bd184d5a6c21d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117737636"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126792596"
 ---
 # <a name="windows-api-index"></a>Index des API Windows
 
@@ -61,7 +61,7 @@ l’API d’interface utilisateur Windows créer et utiliser des fenêtres pour 
 
 -   [Windows Système de propriétés](../properties/property-system-reference.md)
 -   [Windows Shell](/previous-versions/windows/desktop/legacy/ff521731(v=vs.85))
--   [Windows Search](../search/-search-reference-entry-page.md)
+-   [Recherche Windows](../search/-search-reference-entry-page.md)
 -   [Consoles](/windows/console/console-reference)
 
 ## <a name="user-input-and-messaging"></a>Entrée d’utilisateur et messagerie
@@ -145,7 +145,7 @@ L’API [Diagnostics](/previous-versions//bb648685(v=vs.85)) vous permet de rés
 -   [Moniteur système](../sysmon/system-monitor-reference.md)
 -   [Wait Chain Traversal](../debug/wait-chain-traversal.md)
 -   [Rapport d’erreurs Windows](../wer/wer-reference.md)
--   [Journal des événements Windows](../wes/windows-event-log-reference.md)
+-   [Windows Journal des événements](../wes/windows-event-log-reference.md)
 -   [Plateforme de résolution des problèmes Windows](/previous-versions/windows/desktop/wintt/windows-troubleshooting-reference)
 
 ## <a name="graphics-and-multimedia"></a>Graphisme et multimédia
@@ -288,7 +288,7 @@ Les interfaces d' [administration système](../srvnodes/system-administration.md
 -   [Microsoft Virtual Server](/previous-versions/windows/desktop/msvs/microsoft-virtual-server-reference)
 -   [Fournisseur d’équilibrage de charge réseau](/previous-versions/windows/desktop/wlbsprov/network-load-balancing-provider-reference)
 -   [Windows Defender WMI v2](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
--   [Windows Services de déploiement](../wds/windows-deployment-services-portal.md)
+-   [Services de déploiement Windows](../wds/windows-deployment-services-portal.md)
 -   [Windows Genuine Advantage](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-functions)
 -   [Windows Infrastructure de gestion](/previous-versions/windows/desktop/wmi_v2/wmi-reference)
 -   [Windows Management Instrumentation (WMI)](../wmisdk/wmi-reference.md)

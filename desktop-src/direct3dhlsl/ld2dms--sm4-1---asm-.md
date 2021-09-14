@@ -4,12 +4,12 @@ description: Lit des échantillons individuels à partir de textures à échanti
 ms.assetid: 8D92BFA8-4B22-46F3-876D-8D84BB3A96E7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d00b3d6cdc3640f0b8d5266bd6dc8fd6dafefaf10cf47b500011cfe952d4ca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e9dd03b7c07f3fb25294dd0ad6aa382eb203560
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119043787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916288"
 ---
 # <a name="ld2dms-sm41---asm"></a>ld2dms (SM 4.1-ASM)
 
@@ -37,7 +37,7 @@ Lit des échantillons individuels à partir de textures à échantillons multipl
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette instruction est une alternative simplifiée à l' [exemple](sample--sm4---asm-.md) d’instruction. Il extrait les données de la texture spécifiée sans aucun filtrage (par exemple, échantillonnage par points) à l’aide de l’entier fourni *srcAddress* et *sampleIndex*.
 
@@ -114,10 +114,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Pris en charge |
+| Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |

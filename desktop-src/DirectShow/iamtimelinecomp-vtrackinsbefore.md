@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c84038dcaaed7fe56c06d195e269c4bb03f1c18a58b4ec4490dc8cae541b9a54
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff5356591db6ccd20de720efd898387240075f19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857787"
 ---
 # <a name="iamtimelinecompvtrackinsbefore-method"></a>IAMTimelineComp :: VTrackInsBefore, méthode
 
@@ -60,7 +60,7 @@ Priorité à laquelle insérer la piste virtuelle, ou – 1 pour insérer la pis
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -76,7 +76,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque piste virtuelle de la composition a un niveau de priorité unique. Les niveaux de priorité sont compris entre 0 et *n* -1, où *n* est le nombre de pistes virtuelles dans la composition. Pour les groupes vidéo, une piste virtuelle masque toutes les pistes virtuelles avec un niveau de priorité inférieur, sauf dans les endroits où la piste est vide ou contient une transition. Vous pouvez considérer les pistes virtuelles comme des couches dans la composition finale. La piste 1 est superposée au-dessus de la piste 0, la piste 2 est superposée au-dessus de la piste 1, et ainsi de suite.
 
@@ -96,7 +96,7 @@ Si la priorité spécifiée est supérieure au nombre actuel de suivis dans la c
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

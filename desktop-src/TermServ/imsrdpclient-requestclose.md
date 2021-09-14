@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae812c27b0c280ca3a6cd879d5af86181de85793ec6092441fb83b45c74d8656
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1679b08680b962cdbff57e9bbbd1c392607d8709
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120010179"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856936"
 ---
 # <a name="imsrdpclientrequestclose-method"></a>IMsRdpClient :: RequestClose, méthode
 
@@ -99,11 +99,11 @@ L’application conteneur ne doit pas fermer le contrôle immédiatement ; l’
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre *pCloseStatus* est égal à **controlCloseWaitForEvents**, l’application doit attendre que l’un des événements suivants se produise avant que l’application ne ferme le contrôle :
 
@@ -114,7 +114,7 @@ Si le paramètre *pCloseStatus* est égal à **controlCloseWaitForEvents**, l’
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

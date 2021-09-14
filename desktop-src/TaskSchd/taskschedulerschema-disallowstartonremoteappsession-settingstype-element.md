@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d2f7834ecd57fa10aaaabfa21945f1e908834d535d50f94b4dd21e6ca45c0a62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11e3d0a367f2385e78cf1ec56231bbf7632fe05b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120010799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857332"
 ---
 # <a name="disallowstartonremoteappsession-settingstype-element"></a>Élément DisallowStartOnRemoteAppSession (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **DisallowStartOnRemoteAppSession** est défini par le type comple
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur par défaut de cet élément est false.
 
@@ -64,7 +64,7 @@ Le code XML suivant définit un élément Settings qui n’autorise pas la tâch
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

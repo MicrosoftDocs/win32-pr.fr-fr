@@ -11,12 +11,12 @@ keywords:
 - synchronisation avec Lecteur Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef06dd0e32e0ea95674f54b94336ecb6882e8215775c857ee0780a58b71af75c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b621be3b17d42368bc859081f47bc29bb2cfc667
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118585007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856438"
 ---
 # <a name="enabling-synchronization-with-windows-media-player"></a>activation de la synchronisation avec Lecteur Windows Media
 

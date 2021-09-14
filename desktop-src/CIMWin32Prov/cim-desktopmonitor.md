@@ -38,12 +38,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c1c3ca9f621a4a91620e9c8ea46af0d15e84d13c51d61d96a341a0188ac2807b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b22d0b681491bbddf0ee357b394da5f1a77aa0e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119924549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999539"
 ---
 # <a name="cim_desktopmonitor-class-cimwin32-wmi-providers"></a>CIM_DesktopMonitor, classe (fournisseurs WMI CIMWin32)
 
@@ -104,7 +104,7 @@ La classe **CIM \_ desktopmonitor** possède ces méthodes.
 
 | Méthode                                                                    | Description                                                                                                                              |
 |:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Initialisation**](reset-method-in-class-cim-desktopmonitor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Réinitialiser**](reset-method-in-class-cim-desktopmonitor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-desktopmonitor.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -587,7 +587,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd></dd> </dl>
@@ -1186,7 +1186,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ desktopmonitor** est dérivée de l' [**\_ affichage CIM**](cim-display.md).
 
@@ -1194,7 +1194,7 @@ WMI n’implémente pas cette classe. Pour plus d’informations sur les classes
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

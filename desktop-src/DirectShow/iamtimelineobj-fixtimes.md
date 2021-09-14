@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 6578b18e98c99b471097c98e9dd75de1cdce0c134635cad1fb17e32340eb1a9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3442d45328b10437111219ad36fc114a9aa15ad6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119428419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857697"
 ---
 # <a name="iamtimelineobjfixtimes-method"></a>IAMTimelineObj :: FixTimes, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,11 +60,11 @@ Pointeur vers une variable qui contient l’heure d’arrêt, en unités de 100 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou E \_ NOTINTREE si l’objet ne fait pas partie d’un groupe.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pendant le rendu, DES arrondit les heures de début et de fin de l’objet à la limite d’image la plus proche. Toutefois, les ne remplacent pas les heures de l’objet. Si vous modifiez la fréquence d’images de groupe, les temps arrondis sont toujours calculés à partir des heures d’origine. pour plus d’informations, consultez [l’heure dans DirectShow Services d’édition](time-in-directshow-editing-services.md).
 
@@ -80,7 +80,7 @@ Utilisez cette méthode pour déterminer les heures de démarrage et d’arrêt 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

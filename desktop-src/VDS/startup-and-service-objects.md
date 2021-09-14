@@ -4,12 +4,12 @@ ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Objets de démarrage et de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d60a87c7e52a263d03e80f44911f72db5f49259baf33a7b2f90680f30bb3b2fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 92beb0a4f825f767299a7ced74d43ef2487fa252
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118125929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856479"
 ---
 # <a name="startup-and-service-objects"></a>Objets de démarrage et de service
 

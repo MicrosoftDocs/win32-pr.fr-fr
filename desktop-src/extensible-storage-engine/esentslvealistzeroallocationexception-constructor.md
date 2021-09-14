@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fbf7cb19eae4e259fd7ddedbcee4683a4513319dd4fe33fd76ad5134d5df1afd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e45775fe922fa1498b42f749e88c6ef18177d247
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118981429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916088"
 ---
 # <a name="esentslvealistzeroallocationexception-constructor"></a>Constructeur EsentSLVEAListZeroAllocationException
 

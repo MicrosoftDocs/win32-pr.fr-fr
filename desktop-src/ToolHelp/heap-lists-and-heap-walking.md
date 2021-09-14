@@ -4,12 +4,12 @@ description: Un instantané qui inclut la liste des tas pour un processus spéci
 ms.assetid: 631096fd-cb2c-4b19-aa71-d47060e2715c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87cc1eaa2093715e3f42fd52cc5191bedf5a0ac137cf93df57daa5ef590e2471
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b5a9b8d30e2de1bf5ab37de03fdcb3fde663417
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119058227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856600"
 ---
 # <a name="heap-lists-and-heap-walking"></a>Listes de tas et parcours du tas
 

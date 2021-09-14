@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0a6bdd4c61628c71dbcb58b7b1d177cf7e936f802165aa9beed0aa195aeef4a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e25cd9a5f194df8c5cbc0c7dc24a4777cee3417
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119439259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999558"
 ---
 # <a name="cim_basedon-class-cimwin32-wmi-providers"></a>CIM_BasedOn, classe (fournisseurs WMI CIMWin32)
 
@@ -123,7 +123,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La **classe \_ CIM** , dérivée de [**la \_ dépendance CIM**](cim-dependency.md).
 
@@ -131,7 +131,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

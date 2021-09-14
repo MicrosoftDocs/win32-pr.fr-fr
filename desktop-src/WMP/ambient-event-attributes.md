@@ -10,12 +10,12 @@ keywords:
 - attributs, événement ambiant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fe9cb8353b684597ba18d7b1dc2a7fb23c3d7e6e95b6f76d847bc9aa5eb39cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a40522a741509e56d2e4c9201c305126067a0fe3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856239"
 ---
 # <a name="ambient-event-attributes"></a>Attributs d’événement ambiant
 

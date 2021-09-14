@@ -4,12 +4,12 @@ ms.assetid: a3c972dd-3630-4d21-a22b-64a68e9acd19
 title: Activation de la mise en mémoire tampon de profondeur (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e495b06e6c7d10890393f563c67053294010515e32a2eeb984abb371b8158231
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 935d4f2e1db164a3aac2a39627be88d71887cc14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118095094"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916607"
 ---
 # <a name="enabling-depth-buffering-direct3d-9"></a>Activation de la mise en mémoire tampon de profondeur (Direct3D 9)
 

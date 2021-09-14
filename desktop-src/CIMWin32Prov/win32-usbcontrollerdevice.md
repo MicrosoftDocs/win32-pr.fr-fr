@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3a7627426a094d8c335032363b3213aeca19e400d5761d23ede8b7cecf0dcab5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bf72c92a4ae23ac7750cdd52914e86f5dbcdd01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118007259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858039"
 ---
 # <a name="win32_usbcontrollerdevice-class"></a>\_Classe USBControllerDevice Win32
 
@@ -200,7 +200,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ USBControllerDevice** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 
@@ -217,7 +217,7 @@ gwmi Win32_USBControllerDevice |%{[wmi]($_.Dependent)} | Sort Manufacturer,Descr
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

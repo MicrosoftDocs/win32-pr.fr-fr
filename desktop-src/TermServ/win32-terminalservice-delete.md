@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 89e2c30ef39d7b36baf62a486477fcf4a7fa2842
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509338"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856767"
 ---
 # <a name="delete-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode Delete de la classe Win32_Service (Services Bureau à distance)
 
@@ -43,7 +43,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -238,11 +238,11 @@ Lorsque vous vous préparez à supprimer des services, gardez à l’esprit les 
 
     La suppression d’un service à l’aide de WMI supprime les entrées de Registre associées sous HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services. Par conséquent, le service n’est plus installé et n’est pas disponible via le composant logiciel enfichable Services. Toutefois, WMI ne supprime pas le fichier exécutable, ce qui signifie que vous pouvez facilement réinstaller le service. Pour supprimer le fichier exécutable, vous devez récupérer le nom du chemin d’accès, puis supprimer le fichier.
 
--   La suppression d’un service Windows 2000 de base (par exemple, DHCP) à l’aide de WMI supprime les entrées de Registre pour ce service, mais ne supprime pas le raccourci du menu Outils d’administration ou supprime le service de l’Assistant composants de Windows. Cela peut dérouter quiconque tente de déterminer la façon dont l’ordinateur a été configuré.
+-   la suppression d’un service de base Windows 2000 (par exemple, DHCP) à l’aide de WMI supprime les entrées de registre pour ce service, mais ne supprime pas le raccourci du menu outils d’administration ou supprime le service de l’assistant Windows composants. Cela peut dérouter quiconque tente de déterminer la façon dont l’ordinateur a été configuré.
 
-    Par exemple, si vous supprimez le service DHCP à l’aide d’un script WMI, le service DHCP n’est plus listé dans le composant logiciel enfichable Services. Toutefois, un raccourci de non-fonctionnement vers la console DHCP reste dans le menu Outils d’administration. Si vous démarrez l’Assistant composants de Windows, il indique que le service DHCP est installé.
+    Par exemple, si vous supprimez le service DHCP à l’aide d’un script WMI, le service DHCP n’est plus listé dans le composant logiciel enfichable Services. toutefois, un raccourci non fonctionnel vers la console DHCP reste dans le menu outils d’administration. si vous démarrez l’assistant Windows composant, il indique que le service DHCP est installé.
 
-    Pour cette raison, vous devez toujours utiliser Sysocmgr.exe pour supprimer par programme les services Windows 2000.
+    pour cette raison, vous devez toujours utiliser Sysocmgr.exe pour supprimer par programmation Windows services 2000.
 
 ## <a name="examples"></a>Exemples
 
@@ -296,7 +296,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

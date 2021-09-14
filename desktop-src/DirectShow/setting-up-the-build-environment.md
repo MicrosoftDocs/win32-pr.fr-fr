@@ -4,12 +4,12 @@ ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
 title: génération d’Applications DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e6c062c97d64373668ef8bfd7eaf02b5d514bd648c3bc5b67ac6803d1fd804f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56c6ab8a0731e93eece734abd4380b092414ff5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118951898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857469"
 ---
 # <a name="building-directshow-applications"></a>génération d’Applications DirectShow
 

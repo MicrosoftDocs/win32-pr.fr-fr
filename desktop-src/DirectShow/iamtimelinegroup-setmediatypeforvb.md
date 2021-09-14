@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ea47e4edcdfc58e38e61a9f92eb5afac0092ab0cb445f6ff73471e1b65b1480b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1371b1d6c906666ca30e5df2d26dbe20eddf1745
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857757"
 ---
 # <a name="iamtimelinegroupsetmediatypeforvb-method"></a>IAMTimelineGroup :: SetMediaTypeForVB, méthode
 
@@ -52,11 +52,11 @@ Valeur qui spécifie le type de média. Définissez la valeur sur 0 pour Video o
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est destinée aux clients Automation. Pour les applications C++, utilisez la méthode [**IAMTimelineGroup :: SetMediaType**](iamtimelinegroup-setmediatype.md) .
 
@@ -70,7 +70,7 @@ Cette méthode est destinée aux clients Automation. Pour les applications C++, 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

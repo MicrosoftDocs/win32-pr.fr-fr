@@ -13,12 +13,12 @@ keywords:
 - Objet réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0378b1cd4469f6141a4ea60021f2d54e5c32b33ae1943624f7c65f70aa2a655f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1a1f3ff892a4d5b078956c9d126d0efaa844031d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856384"
 ---
 # <a name="about-the-network-object"></a>À propos de l’objet réseau
 

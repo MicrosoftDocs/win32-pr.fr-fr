@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 5de058e31da605b96f7b013c03e9c0d020daa11ec676618b4a13f5ff92e701f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd8255c7744a155ff8328682005e2aacafaf2d13
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118154925"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857644"
 ---
 # <a name="iamtimelinesrcsetmediatimes-method"></a>IAMTimelineSrc :: SetMediaTimes, méthode
 
@@ -60,11 +60,11 @@ Heure d’arrêt du support, en unités de 100 nanosecondes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les heures de support sont les heures d’arrêt et de démarrage relatives au fichier multimédia d’origine. Définissez toujours les temps de support lorsque vous ajoutez une source vidéo ou audio à la chronologie. Dans le cas contraire, des problèmes de rendu peuvent se produire. L’heure d’arrêt doit être postérieure à l’heure de début.
 
@@ -84,7 +84,7 @@ Vous pouvez spécifier la durée du fichier source en appelant la méthode [**Se
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

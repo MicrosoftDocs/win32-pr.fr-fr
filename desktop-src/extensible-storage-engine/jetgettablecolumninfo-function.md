@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 925ade657a4184d5b1cac447aa43619f375bc0b1
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: e3940c07cc641d8c8d077c420f8c492ab5122b3f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915887"
 ---
 # <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo fonction)
 
@@ -111,7 +111,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 **JetGetTableColumnInfo** et [JetGetColumnInfo](./jetgetcolumninfo-function.md) récupèrent les informations sur une colonne. La différence entre les deux est la manière dont la table est identifiée :
 
@@ -121,10 +121,17 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 Lorsque vous récupérez des données avec JET_ColInfoList, JET_ColInfoListSortColumnid ou JET_ColInfoListCompact, une table temporaire est ouverte. La table temporaire contient des données et la structure [JET_COLUMNLIST](./jet-columnlist-structure.md) contient des informations suffisantes pour parcourir la table temporaire. La table temporaire doit être fermée avec [JetCloseTable](./jetclosetable-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetTableColumnInfoW</strong> (Unicode) et <strong>JetGetTableColumnInfoA</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetTableColumnInfoW</strong> (Unicode) et <strong>JetGetTableColumnInfoA</strong> (ANSI).</p> | 
 
 
 

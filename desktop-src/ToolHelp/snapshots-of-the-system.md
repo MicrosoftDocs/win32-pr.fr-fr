@@ -4,12 +4,12 @@ description: Les instantanés sont au cœur des fonctions d’aide de l’outil.
 ms.assetid: a8122960-f078-4efb-8e01-bf6fb69ee0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30dde3a4383bf56bdef46c59c55611ffe9b22a7a201abb4f0f11af85594c4f0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ab6f9a45ad2e12eda53d3143e43c9234c20aae3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856587"
 ---
 # <a name="snapshots-of-the-system"></a>Captures instantanées du système
 

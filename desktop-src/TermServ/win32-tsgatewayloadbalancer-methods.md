@@ -5,12 +5,12 @@ ms.assetid: 869AA5ED-4C93-45B9-BD57-FE4B98A9BD87
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b268bded9ccf2b80290ce7fca8ed5bba4af321a0983cc9e95e9220e67136b4cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7adc6c9aab2d0a8dd0b5bb853f9481c0846efceb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856695"
 ---
 # <a name="win32_tsgatewayloadbalancer-methods"></a>\_Méthodes TSGatewayLoadBalancer Win32
 

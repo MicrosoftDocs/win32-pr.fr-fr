@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9997494f9e93980ac4d6e4b1dcb9c95b0d7665a70226f77d1cd4c7ca3ad751d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4157d89dc942a1c2f8ff7d778f9f8048971902ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119769839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856672"
 ---
 # <a name="win32_tsgatewayradiusserver-class"></a>\_Classe TSGatewayRADIUSServer Win32
 
@@ -62,10 +62,10 @@ La classe **Win32 \_ TSGatewayRADIUSServer** possède ces méthodes.
 | [**Complémentaires**](win32-tsgatewayradiusserver-add.md)                         | Ajoute un nouveau serveur RADIUS.<br/>                                         |
 | [**Descendre**](movedown-win32-tsgatewayradiusserver.md)               | Déplace ce serveur RADIUS d’une position vers le dessous dans l’ordre de priorité.<br/> |
 | [**MoveUp**](moveup-win32-tsgatewayradiusserver.md)                   | Déplace ce serveur RADIUS d’une position vers le haut dans l’ordre de priorité.<br/>   |
-| [**Installez**](win32-tsgatewayradiusserver-remove.md)                   | Supprime le serveur RADIUS actuel.<br/>                                |
+| [**Remove**](win32-tsgatewayradiusserver-remove.md)                   | Supprime le serveur RADIUS actuel.<br/>                                |
 | [**SetName**](setname-win32-tsgatewayradiusserver.md)                 | Définit la propriété de **nom** pour ce serveur RADIUS.<br/>                |
 | [**SetSharedSecret**](setsharedsecret-win32-tsgatewayradiusserver.md) | Définit la **propriété de serveur** à la une pour ce serveur RADIUS.<br/>        |
-| [**Update**](update-win32-tsgatewayradiusserver.md)                   | Met à jour le serveur RADIUS actuel.<br/>                                |
+| [**Mise à jour**](update-win32-tsgatewayradiusserver.md)                   | Met à jour le serveur RADIUS actuel.<br/>                                |
 
 
 
@@ -119,13 +119,13 @@ Secret partagé pour le serveur RADIUS. Cette propriété peut être modifiée �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a08e079c-41be-475a-9e88-ee46d17fe938
 title: Utilisation du séparateur MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e43ba5a45d20de7af5e996b8e2837971de08c0f486a880e01f9f28a45f8ab385
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f60505ef242c2ed9c1eab3031a005a2582b99608
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857368"
 ---
 # <a name="using-the-mpeg-2-splitter"></a>Utilisation du séparateur MPEG-2
 

@@ -4,12 +4,12 @@ ms.assetid: dd98aada-8309-428e-9609-2542195bc6ec
 title: Utilisation de demux avec des Flux élémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dec805b4c93432c6532edaefac50e9bd15ad8fac5a7d9672fd358c66e57363fd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e6b9004d6c99db96405797016b0d9854c96dae92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119964669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857416"
 ---
 # <a name="using-the-demux-with-elementary-streams"></a>Utilisation de demux avec des Flux élémentaires
 

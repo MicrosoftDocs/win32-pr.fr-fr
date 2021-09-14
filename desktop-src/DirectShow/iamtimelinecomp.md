@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineComp insère ou récupère des pistes virtuelles sur une composition dans les services d’édition DirectShow (DES). Une composition est une collection de couches qui agit comme une seule piste composite.
+description: l’interface IAMTimelineComp insère ou récupère des pistes virtuelles sur une composition dans DirectShow Services d’édition (DES). Une composition est une collection de couches qui agit comme une seule piste composite.
 ms.assetid: b0a47303-9e3c-4b78-ac90-c5d8fce2b727
 title: Interface IAMTimelineComp (qedit. h)
 ms.topic: reference
@@ -15,20 +15,20 @@ api_location:
 - strmiids.lib
 - strmiids.dll
 ms.openlocfilehash: 645abbb9c5f61fcfd04e433c3cfc61b926ed403d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540101"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857794"
 ---
 # <a name="iamtimelinecomp-interface"></a>Interface IAMTimelineComp
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L’interface **IAMTimelineComp** insère ou récupère des pistes virtuelles sur une composition dans les [services d’édition DirectShow](directshow-editing-services.md) (des).
+l’interface **IAMTimelineComp** insère ou récupère des pistes virtuelles sur une composition dans [DirectShow Services d’édition](directshow-editing-services.md) (DES).
 
 Une composition est une collection de couches qui agit comme une seule *piste* composite. Par exemple, une composition qui contient deux pistes avec une transition entre elles agit comme une seule piste avec la transition précomposée. Une composition doit contenir un média d’un seul type (audio ou vidéo), mais cette limitation n’est pas appliquée. Une *piste virtuelle* est un objet qui peut résider dans une composition, y compris des pistes et d’autres compositions.
 
@@ -71,11 +71,11 @@ L’interface **IAMTimelineComp** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

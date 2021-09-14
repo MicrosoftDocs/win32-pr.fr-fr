@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 85258e4e1dab0060ae8586d200c30b9f31d1b779083eb182038f1ed04bdb48a2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8a6a8e7705b157ce61fc674cb08f19e4eca75f58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120115613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915860"
 ---
 # <a name="microsoftisamesentinteropvista-namespace"></a>Espace de noms Microsoft. ISAM. esent. Interop. Vista
 

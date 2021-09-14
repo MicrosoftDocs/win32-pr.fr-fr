@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6fae9e7d2fc311c272fcda4a2222d1eeb6adb1da75fbfd64bd338f3a65f15581
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ea1845d8146248e85df4b9a9aff79d845024b29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118765015"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915927"
 ---
 # <a name="jet_lsequality-operator"></a>JET_LS. Opérateur d’égalité
 
@@ -76,7 +76,7 @@ public static bool operator ==(
     
     Deuxième instance à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  

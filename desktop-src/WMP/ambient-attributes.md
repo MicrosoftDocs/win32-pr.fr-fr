@@ -10,12 +10,12 @@ keywords:
 - attributs, ambiant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc81cdfb1775f985ecc63e8823bb36b3107d749a836a792dc9f72dc42b5832a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5157dc3cbb528cf546ff91d879d00c9b3ec2de8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119509679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856234"
 ---
 # <a name="ambient-attributes"></a>Attributs ambiants
 

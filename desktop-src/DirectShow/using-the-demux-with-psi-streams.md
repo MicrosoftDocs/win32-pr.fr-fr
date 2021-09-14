@@ -4,12 +4,12 @@ ms.assetid: 355e905e-ff21-4bde-a018-ed9631ef5ed5
 title: Utilisation de demux avec la Flux PSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3935e188b6e06d1037f08d4ca7bab98918f87d2c652b8506650a6cf3a280dc04
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 659e4a12bfef25f24a5e6cac38d191f86ab80b4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857410"
 ---
 # <a name="using-the-demux-with-psi-streams"></a>Utilisation de demux avec la Flux PSI
 

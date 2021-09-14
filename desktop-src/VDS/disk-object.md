@@ -4,12 +4,12 @@ ms.assetid: 65e14273-8127-4667-b5c8-362ad54b4782
 title: Objet Disk
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5979e6e2e25ee6ded15b987ddbcda0c5c135f92452174853577d7781475c5d03
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d629f642d83c9e2c6954a4f09fe09091a2bbce9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137223"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856486"
 ---
 # <a name="disk-object"></a>Objet Disk
 

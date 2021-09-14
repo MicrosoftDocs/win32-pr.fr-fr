@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3624113fbc92e8114cdd4924fb0452f1091803557e5e32995450f8d2fae6e60a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f881de6733637c0776dd9626a7efc02b145ec25f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055087"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856155"
 ---
 # <a name="ambientattributesleft"></a>AmbientAttributes. Left
 
@@ -31,7 +31,7 @@ L’attribut **Left** spécifie ou récupère la coordonnée gauche du contrôle
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) représentant la distance en pixels entre le contrôle et le bord gauche de la **vue** ou de la sous- **vue** parente. Sa valeur par défaut est zéro. Les nombres négatifs sont autorisés, auquel cas la bordure gauche de la **vue** ou de la sous- **vue** découpe le contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

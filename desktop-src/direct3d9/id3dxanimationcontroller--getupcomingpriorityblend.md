@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4c58bf5e2a8736db98e0461988f984709e756d269d09c74dd673356676702ff9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72f9b8854041094d43d9e8250ab61b5f59a67848
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119849079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916567"
 ---
 # <a name="id3dxanimationcontrollergetupcomingpriorityblend-method"></a>ID3DXAnimationController :: GetUpcomingPriorityBlend, méthode
 
@@ -49,13 +49,13 @@ Handle d’événement vers un événement spécifié après lequel Rechercher u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Handle d’événement vers l’événement suivant de fusion de priorité planifiée. La **valeur null** est retournée si aucun nouvel événement Priority Blend n’est planifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être utilisée de façon itérative pour localiser un événement de fusion de priorité souhaité en passant à plusieurs reprises la **valeur null** pour hEvent.
 
@@ -64,7 +64,7 @@ Cette méthode peut être utilisée de façon itérative pour localiser un évé
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

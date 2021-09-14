@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ecbc52451a4ed3dcc5f3ecc9984009e94dd9bf18b4c8dc667c0b040c43cc68c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dec585b9ed46af9a283e337c8f200687c512cd36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120072419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857290"
 ---
 # <a name="taskservicegetrunningtasks-method"></a>Méthode TaskService. GetRunningTasks
 
@@ -54,11 +54,11 @@ Transmettez 1 pour retourner toutes les tâches en cours d’exécution, y compr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet [**RunningTaskCollection**](runningtaskcollection.md) qui contient les tâches en cours d’exécution.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

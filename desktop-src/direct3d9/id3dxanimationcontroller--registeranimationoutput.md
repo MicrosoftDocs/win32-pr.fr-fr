@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: dc48eb9f2fd6ee5fee6c04936801997145a5ea21542b9b5ff8ec6d257eee80e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7670f8b311532d096b9957ebbefcf1f6fb15d952
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916539"
 ---
 # <a name="id3dxanimationcontrollerregisteranimationoutput-method"></a>ID3DXAnimationController :: RegisterAnimationOutput, méthode
 
@@ -89,19 +89,19 @@ Pointeur vers un vecteur [**D3DXVECTOR3**](d3dxvector3.md) qui décrit la traduc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la sortie de l’animation est déjà inscrite, pMatrix est rempli avec les données de transformation d’entrée.
 
 Les jeux d’animations créés avec [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) inscrivent automatiquement tous les jeux d’animations chargés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

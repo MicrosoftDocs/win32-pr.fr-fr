@@ -4,12 +4,12 @@ ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Utilisation du mappeur de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48758c40b97477200b4fab1215eaccac53823771add86d6a8b915370776495a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c2d7acf85a7b415fc161cd21e17d069b46c3f40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049610"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857379"
 ---
 # <a name="using-the-filter-mapper"></a>Utilisation du mappeur de filtre
 

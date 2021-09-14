@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46e14b8dc23b329d9646647fdcc1c5bcb3166c5bf885886a5308c329e186dc51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 611c7e42a14de06a8777333a6dc640781943ba06
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857272"
 ---
 # <a name="triggerrepetition-property"></a>Déclencheur. rerépétition, propriété
 
@@ -40,11 +40,11 @@ Trigger.Repetition As RepetitionPattern
 
 Objet [**RepetitionPattern**](repetitionpattern.md) qui définit la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la lecture ou de l’écriture de votre propre XML pour une tâche, le modèle de répétition d’un déclencheur est spécifié dans l’élément de [**répétition**](taskschedulerschema-repetition-triggerbasetype-element.md) du schéma planificateur de tâches.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

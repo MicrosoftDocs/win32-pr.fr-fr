@@ -14,12 +14,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b2a6b2ffa9168e870aeb405badb6ff71b0a4a59b23d76947e56a9c085ed0107a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f314be4b8da98ff80bd7404c270479855e13fb6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916339"
 ---
 # <a name="shader-constants-hlsl"></a>Constantes de nuanceur (HLSL)
 
@@ -87,7 +87,7 @@ La déclaration d’une mémoire tampon constante ou d’une mémoire tampon de 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les mémoires tampons constantes réduisent la bande passante requise pour mettre à jour les constantes de nuanceur en permettant aux constantes de nuanceur d’être regroupées et validées en même temps plutôt que d’effectuer des appels individuels pour valider chaque constante séparément.
 

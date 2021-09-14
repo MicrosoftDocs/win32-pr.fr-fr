@@ -15,16 +15,16 @@ api_location:
 - strmiids.lib
 - strmiids.dll
 ms.openlocfilehash: 28dfe8862561108588e57091e92ab2d424c79c26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541601"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857812"
 ---
 # <a name="iamtimelinecompgetrecursivelayeroftype-method"></a>IAMTimelineComp :: GetRecursiveLayerOfType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -68,7 +68,7 @@ Membre du type énuméré de la [**chronologie \_ principale \_**](timeline-majo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes :
 
@@ -76,7 +76,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                  | Description                                 |
 |----------------------------------------------------------------------------------------------|---------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                         |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Aucun objet du type spécifié.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null** .<br/>       |
 
@@ -102,11 +102,11 @@ Si la méthode est réussie, l’interface **IAMTimelineObj** qu’elle retourne
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

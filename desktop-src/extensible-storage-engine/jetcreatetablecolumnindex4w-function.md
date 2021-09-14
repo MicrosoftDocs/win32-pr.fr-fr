@@ -20,11 +20,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: bab3561ba51f2086f6af186ff5954e512d41e78f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985002"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915908"
 ---
 # <a name="jetcreatetablecolumnindex4w-function"></a>JetCreateTableColumnIndex4W fonction)
 
@@ -57,7 +57,7 @@ Identificateur de base de données à utiliser pour l’appel d’API.
 
 Pointeur vers une structure [JET_TABLECREATE3](./jet-tablecreate3-structure.md) qui définit la table à créer. Pour plus d’informations, consultez [JET_TABLECREATE3](./jet-tablecreate3-structure.md) .
 
-### <a name="return-value"></a>Valeur retournée
+### <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ese (extensible Stockage Enginge) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
@@ -97,13 +97,13 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 La fonction **JetCreateTableColumnIndex4W** crée une table avec un ensemble initial de colonnes et d’index. Des colonnes et des index supplémentaires peuvent être ajoutés et supprimés dynamiquement au moyen des fonctions [JetAddColumn](./jetaddcolumn-function.md), [JetDeleteColumn](./jetdeletecolumn-function.md), [JetDeleteColumn2](./jetdeletecolumn2-function.md), [JetCreateIndex](./jetcreateindex-function.md), [JetCreateIndex2](./jetcreateindex2-function.md), [JetCreateIndex3](./jetcreateindex3-function.md), [JetCreateIndex4W](./jetcreateindex4w-function.md)et [JetDeleteIndex](./jetdeleteindex-function.md) .
 
 Comme avec la fonction [JetOpenTable](./jetopentable-function.md) , lorsque l’application est effectuée à l’aide de l' *TableID* retourné, la fonction [JetCloseTable](./jetclosetable-function.md) doit fermer l’application.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

@@ -4,12 +4,12 @@ ms.assetid: 4018c742-1d23-47b9-a787-69bf8847b54a
 title: Ajout de disques étrangers à un Pack
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26b83dd76cdc3f1637c07d8d9d818fdaf61fb093151f23aea06f0e9c7f81d6a4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2fbfa2ff3d00857fd4e1b92e78f1760c25ce516b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117755454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856516"
 ---
 # <a name="adding-foreign-disks-to-a-pack"></a>Ajout de disques étrangers à un Pack
 

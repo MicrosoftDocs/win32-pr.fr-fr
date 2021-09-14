@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a60f2376af13e291ff0c59966bd50261cf2fd29ceb10d8ea26f621e257956ce0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc82f41e8968ccfadaf5d87a8058d332f04ce3a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119043817"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916320"
 ---
 # <a name="ddx"></a>DDX
 
@@ -57,7 +57,7 @@ Dérivée partielle du paramètre *x* .
 
 
 
-| Name  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille                           |
+| Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille                           |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
 | *x*   | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | n'importe laquelle                            |
 | *Av* | identique à l’entrée *x*                                                                                              | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | la ou les mêmes dimensions comme entrée *x* |
@@ -72,11 +72,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Pris en charge                                 |
+| Modèle de nuanceur                                                                | Prise en charge                                 |
 |-----------------------------------------------------------------------------|-------------------------------------------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui                                       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                                  | oui                                       |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)                   | oui                                       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui                                       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                                  | Oui                                       |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)                   | Oui                                       |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)                   | Oui dans PS \_ 2 \_ x ; non pris en charge dans PS \_ 2 \_ 0. |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                   | non                                        |
 
@@ -88,7 +88,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 

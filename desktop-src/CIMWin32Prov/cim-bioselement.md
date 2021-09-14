@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b825d318f6a9d97f1041cd9e8baa391055c8f7ce24e935c6dd08708e4492ff6a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21cd0d13d62f5cfa70f579110480b4c11c36b77d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119701023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999548"
 ---
 # <a name="cim_bioselement-class-cimwin32-wmi-providers"></a>CIM_BIOSElement, classe (fournisseurs WMI CIMWin32)
 
@@ -1031,7 +1031,7 @@ Version du BIOS.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ BIOSElement** est dérivée de [**CIM \_ SoftwareElement**](cim-softwareelement.md).
 
@@ -1039,7 +1039,7 @@ WMI n’implémente pas cette classe. Pour plus d’informations sur les classes
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

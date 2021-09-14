@@ -4,12 +4,12 @@ ms.assetid: 462150d5-7315-4c2b-81b0-964a788ec47d
 title: Utilisation du détecteur de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22294a25dd6254cd310f0a77a7004c597c857a36d8865ad4757cb404fc114f00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6ebdb05eb47c7efabcc3234fb6ac2411a46e40d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857373"
 ---
 # <a name="using-the-media-detector"></a>Utilisation du détecteur de média
 

@@ -11,12 +11,12 @@ keywords:
 - Notifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ab1b71482db78571f141b7042d8abc926b0d79ca2f487ee7dc961396993b9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 618356c9d63d20a8b6b14e6c99072074cfc75073
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118585062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856461"
 ---
 # <a name="enabling-notifications"></a>Activation des notifications
 

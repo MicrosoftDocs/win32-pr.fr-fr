@@ -19,12 +19,12 @@ keywords:
 - attributs, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41fae63365e9670119d89d11a2faf2d2d9979e7c21aeac2fc5975f072a07f086
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eed878b474098e68701ad8bdde0e3d207c4b8596
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856275"
 ---
 # <a name="alphabetical-attribute-reference"></a>Référence d’attribut alphabétique
 

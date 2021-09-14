@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d9e23c78a25f1cda141cb0c3ce55688c12bdf3aab447aca596326e01544b4e8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b03bad7f8686fd580f7dd5fc347c347ade1c1c97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818230"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857517"
 ---
 # <a name="iresizeget_mediatype-method"></a>IResize :: obtient la \_ méthode MediaType
 
@@ -52,11 +52,11 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le type de média de sortie n’a pas été défini, retourne un type de média par défaut. Le filtre doit mettre à jour son type de média de sortie lorsque les méthodes **put \_ MediaType** ou **put \_ Size** sont appelées ; le type de média retourné par `get_MediaType` doit refléter ces modifications.
 
@@ -70,7 +70,7 @@ Si le type de média de sortie n’a pas été défini, retourne un type de méd
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

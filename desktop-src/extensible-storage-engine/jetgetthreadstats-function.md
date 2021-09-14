@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 87f3bed1dcd9fd43a67c96cbcb53d2496a976afa
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1b47cd9de933efdc5a73aba32a212432a9e37a12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122474085"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915884"
 ---
 # <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
 
@@ -69,7 +69,7 @@ En cas de réussite, la mémoire tampon de sortie contient une structure [JET_TH
 
 En cas d’échec, l’état de la mémoire tampon de sortie n’est pas défini.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Les informations fournies par deux appels consécutifs de cette API sont destinées à calculer le coût des autres opérations du moteur de base de données sur le thread actuel. En règle générale, cette opération s’effectue en acceptant une valeur avant et après la lecture des statistiques et en soustrayant le nombre d’opérations après le comptage avant d’obtenir le nombre net d’opérations effectuées.
 
@@ -79,10 +79,16 @@ Les statistiques de chaque thread sont accumulées pendant la durée de vie de c
 
 La structure [JET_THREADSTATS](./jet-threadstats-structure.md) sera probablement développée à l’avenir pour contenir plus de statistiques. De nouvelles statistiques seront ajoutées à la fin de la structure et peuvent être récupérées avec une taille de mémoire tampon de sortie accrue. La présence de statistiques supplémentaires peut être déduite par une valeur cbStruct plus grande.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

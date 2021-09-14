@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: dd0257fa614a6581cc31f5416e6f1c2395fcb9444721d3668c9f2d2498e52088
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd8ca25b2d5a551d803e79e69cf8d1095ee47511
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119904639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857632"
 ---
 # <a name="iamtimelinetrackgetnextsrc-method"></a>IAMTimelineTrack :: GetNextSrc, méthode
 
@@ -60,11 +60,11 @@ Pointeur vers une variable qui contient l’heure de début de la recherche, en 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne \_ la valeur OK si la méthode récupère une source, ou la \_ valeur false dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si l’heure spécifiée par *pInOut* se situe entre les heures de début et de fin d’une source, la méthode récupère cette source.
 
@@ -80,7 +80,7 @@ Si la méthode retourne la valeur \_ OK, l’interface **IAMTimelineObj** qu’e
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

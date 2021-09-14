@@ -15,11 +15,11 @@ dev_langs:
 - VB
 - other
 ms.openlocfilehash: e09ba5d11371172892d9ef3490cc479423b207cc
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106539269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915967"
 ---
 # <a name="jet_handletostring-method-overload-list"></a>JET_HANDLE. Liste de surcharge de la méthode ToString
 

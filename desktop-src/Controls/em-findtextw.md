@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80d7f84f299ad013051dc0f3e183b855f45c4203206d039cec8480a7dcac3bda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 325ff948c4c8f03e8051248f15928d8e8c56e52f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119697749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857926"
 ---
 # <a name="em_findtextw-message"></a>\_Message FINDTEXTW em
 
@@ -58,15 +58,15 @@ Structure [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la chaîne cible est trouvée, la valeur de retour est la position de base zéro du premier caractère de la correspondance. Si la cible est introuvable, la valeur de retour est-1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Em \_ FINDTEXTW** utilise la structure [**FINDTEXTW**](/windows/win32/api/richedit/ns-richedit-findtexta) , tandis que [**em \_ FINDTEXTEXW**](em-findtextexw.md) utilise la structure [**FINDTEXTEXW**](/windows/desktop/api/Richedit/ns-richedit-findtextexa) . La différence est que **FINDTEXTEXW** renvoie la plage de texte qui a été trouvée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

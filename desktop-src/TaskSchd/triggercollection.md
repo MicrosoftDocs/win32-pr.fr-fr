@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fd103918bc3898e56a3041221c9c70c9ede9aea5df4843cd984f2502279014
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29f7288d8db0b56fc9cc8b3de7ace8c10c13959a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001937"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857206"
 ---
 # <a name="triggercollection-object"></a>Objet TriggerCollection
 
@@ -42,9 +42,9 @@ L’objet **TriggerCollection** a ces méthodes.
 
 | Méthode                                     | Description                                                                                |
 |:-------------------------------------------|:-------------------------------------------------------------------------------------------|
-| [**Effacer**](triggercollection-clear.md)   | Efface tous les déclencheurs de la collection.<br/>                                        |
+| [**Effacé**](triggercollection-clear.md)   | Efface tous les déclencheurs de la collection.<br/>                                        |
 | [**Créer**](triggercollection-create.md) | Crée un déclencheur pour la tâche.<br/>                                             |
-| [**Installez**](triggercollection-remove.md) | Supprime le déclencheur spécifié de la collection de déclencheurs utilisée par la tâche.<br/> |
+| [**Remove**](triggercollection-remove.md) | Supprime le déclencheur spécifié de la collection de déclencheurs utilisée par la tâche.<br/> |
 
 
 
@@ -65,7 +65,7 @@ L’objet **TriggerCollection** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, les déclencheurs de la tâche sont spécifiés dans l’élément [**triggers**](taskschedulerschema-triggers-tasktype-element.md) du schéma planificateur de tâches.
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur chaque type de déclencheur, consultez [types de 
 
 Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclenchement temporel (script)](time-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

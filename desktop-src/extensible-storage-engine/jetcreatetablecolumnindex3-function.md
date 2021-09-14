@@ -21,11 +21,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 2b1e22b8816f3083fdf3cf623107197bc8a06883
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985948"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915911"
 ---
 # <a name="jetcreatetablecolumnindex3-function"></a>JetCreateTableColumnIndex3 fonction)
 
@@ -100,13 +100,13 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 
 
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Le nom **JetCreateTableColumnIndex3** provient de l’ordre de création des objets : il crée d’abord une table, des colonnes, puis enfin des index. **JetCreateTableColumnIndex3** crée une table avec un ensemble initial de colonnes et d’index. Des colonnes et des index supplémentaires peuvent être ajoutés et supprimés dynamiquement avec [JetAddColumn](./jetaddcolumn-function.md), [JetDeleteColumn](./jetdeletecolumn-function.md), [JetDeleteColumn2](./jetdeletecolumn2-function.md), [JetCreateIndex](./jetcreateindex-function.md), [JetCreateIndex2](./jetcreateindex2-function.md), [JetCreateIndex3](./jetcreateindex3-function.md)et [JetDeleteIndex](./jetdeleteindex-function.md).
 
 Comme [JetOpenTable](./jetopentable-function.md), lorsque l’application est effectuée à l’aide de l' *TableID* retourné, elle doit généralement être fermée avec [JetCloseTable](./jetclosetable-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

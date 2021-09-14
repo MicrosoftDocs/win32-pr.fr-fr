@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 03b89a871a708f4ef15d8cad66bb4f42dd6bbb11c2271cebd86774cc553ed8da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80e504e65e4c8437247b2935794025e1b693433a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916383"
 ---
 # <a name="id3dxtextureshadergetfunction-method"></a>ID3DXTextureShader :: GetFunction, méthode
 
@@ -49,13 +49,13 @@ Pointeur vers le flux de fonction DWORD. Consultez [**ID3DXBuffer**](id3dxbuffer
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

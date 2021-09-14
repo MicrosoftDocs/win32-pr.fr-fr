@@ -4,17 +4,17 @@ ms.assetid: 6cc36034-224c-4126-873b-0cfeceec9781
 title: Durée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d85809aed689d63ccdfc0b1dee1b5b792cafc9d7d0267d27e33bd7b6c1bea6cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10d1f802f12df6ca3469b8283bd4fe8b27e22412
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118651251"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857422"
 ---
 # <a name="timeline"></a>Durée
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

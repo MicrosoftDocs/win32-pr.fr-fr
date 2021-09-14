@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, propriété de combinaison humide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f743cc25ce25aed1e7ff5695c022d65e30c1680eee4121eb3952698d6f0da94f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad6af8e7b4857ccbf6b725044575d1b8524aaf50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119055417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856347"
 ---
 # <a name="adding-the-wet-mix-property"></a>Ajout de la propriété de combinaison humide
 

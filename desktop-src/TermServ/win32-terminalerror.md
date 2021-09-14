@@ -23,11 +23,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f99724badc6c1ca7a2e4168e5c062b4dd1495ea6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103145"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856809"
 ---
 # <a name="win32_terminalerror-class"></a>\_Classe TerminalError Win32
 
@@ -76,7 +76,7 @@ Cette propriété est héritée de [**\_ \_ ExtendedStatus**](/windows/desktop/W
 
 </dd> <dt>
 
-**Opération**
+**opération**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -115,7 +115,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. Si aucun fournisseur n’est impliqué, cette chaîne est définie sur « Windows Management ».
+Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. si aucun fournisseur n’est impliqué, cette chaîne est définie sur « gestion de la Windows ».
 
 Cette propriété est héritée de [**\_ \_ ExtendedStatus**](/windows/desktop/WmiSdk/--extendedstatus).
 
@@ -147,7 +147,7 @@ Nom du sinus du terminal sur lequel l’erreur s’est produite.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

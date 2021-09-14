@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, Administration des connexions aux programmes RemoteApp et aux services Bureau à distance référence de l’API de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 641279b03d1dfd97084d4552b614fced11180d6a8c946a4ee68b43a3baaa2c53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c738c8938f8fc3aa82e43f1cfa15f6052ada73c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126857175"
 ---
 # <a name="remoteapp-and-desktop-connection-management-service-api-reference"></a>Informations de référence sur l’API de service Administration des connexions aux programmes RemoteApp et aux services Bureau à distance
 

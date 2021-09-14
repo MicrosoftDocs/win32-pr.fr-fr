@@ -4,12 +4,12 @@ ms.assetid: b6ccf274-a6c5-4b26-8c43-c857c2c24e0f
 title: Éclairage émissif (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da3200486118e6b44efc3be31f01b3a10e62c876d673c687619a4e6c8445f0cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19cb0566d2409fb68e5fbbdca1cc609c31120e95
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118802927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916612"
 ---
 # <a name="emissive-lighting-direct3d-9"></a>Éclairage émissif (Direct3D 9)
 
