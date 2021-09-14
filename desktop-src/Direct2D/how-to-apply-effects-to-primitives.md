@@ -4,12 +4,12 @@ description: cette rubrique montre comment appliquer une série d’effets à Di
 ms.assetid: 9782C22E-5D4C-494D-A0B1-19474C2CA900
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c17cbf1efe17d1c23c90382f3b95fb41e33946a93935b0be02fc5b41f314a8c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aafb171c20c567d1fbd6385d23cc3b2925efc154
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113162"
 ---
 # <a name="how-to-apply-effects-to-primitives"></a>Comment appliquer des effets aux primitives
 

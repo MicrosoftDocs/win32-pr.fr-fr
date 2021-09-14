@@ -6,12 +6,12 @@ keywords:
 - Direct2D, exemple de code de rectangle de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f9c4f7ee6ca99feb3cf7169a59ce73ff3b8f8c62c08ddad88b9e5acf5d9a814
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aa59d7da057a7a9922e270d83937307762b06a40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119260064"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113202"
 ---
 # <a name="direct2d-quickstart"></a>Démarrage rapide de Direct2D
 

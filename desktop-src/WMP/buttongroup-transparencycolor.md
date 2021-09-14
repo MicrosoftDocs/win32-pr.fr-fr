@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf97a25081e3f5c5729721bd675d9c59be1a4d52adc86acf6b9b75a0ee86dbac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbaf6fb70db7d2699a63eb7b4fd34009f7b8ba75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118342662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855633"
 ---
 # <a name="buttongrouptransparencycolor"></a>BUTTONGROUP. transparencyColor
 
@@ -37,13 +37,13 @@ Cet attribut est une **chaîne** en lecture/écriture sans valeur par défaut, c
 |---------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Auto                                        | Le pixel à l’emplacement 0, 0 dans l’image devient la couleur transparente.                              |
 | toute valeur de couleur Microsoft Internet Explorer | Une valeur de couleur d’Internet Explorer devient la couleur transparente (par exemple, « rouge » ou « \# FF0000 »). |
-| Aucun                                        | Par défaut. Aucune transparence.                                                                          |
+| None                                        | Par défaut. Aucune transparence.                                                                          |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une couleur transparente dans une image permet à tout ce qui se trouve derrière l’image de s’afficher dans les zones de transparence. La région transparente est cliquable, sauf si elle est découpée par la balise **clippingImage** .
 
@@ -53,7 +53,7 @@ Si la couleur spécifiée ne fait pas partie des couleurs Internet Explorer vali
 
 Étant donné que les JPGs sont perdus et, par conséquent, soumis à une modification de couleur inattendue, ils ne sont pas recommandés lorsque **transparencyColor** est utilisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

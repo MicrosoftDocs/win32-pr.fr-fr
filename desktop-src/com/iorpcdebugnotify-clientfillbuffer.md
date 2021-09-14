@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db0063f980e500481adcd3848e7227762f81603bf71ace525745b3fa2e535d91
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 633f4f0a8a3e135ca60468d24356a3f6e038d062
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119854289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855514"
 ---
 # <a name="iorpcdebugnotifyclientfillbuffer-method"></a>IOrpcDebugNotify :: ClientFillBuffer, méthode
 
@@ -54,11 +54,11 @@ Pointeur vers une structure [**ORPC \_ dbg \_ All**](orpc-dbg-all.md) qui contie
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

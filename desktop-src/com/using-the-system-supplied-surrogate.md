@@ -5,11 +5,11 @@ ms.assetid: 6709e5e2-50e0-470f-b618-3d3043f6e180
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 444cb94c5564a78ec5580ae8e7f781e91a8a9c15
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923067"
 ---
 # <a name="using-the-system-supplied-surrogate"></a>Utilisation du substitut System-Supplied
 

@@ -6,12 +6,12 @@ keywords:
 - effet de mappage de déplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73888d8168e411bf0f8daee1f2e04801353ee8358d27ba4d5cc9b1f71630a762
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd0ad2deb0c584ccc9c55faebd60f803d66efa42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119833012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113269"
 ---
 # <a name="displacement-map-effect"></a>Effet de mappage de déplacement
 
@@ -23,7 +23,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DisplacementMap.
 -   [Propriétés d’effet](#effect-properties)
 -   [Canaux de couleur](#color-channels)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -33,7 +33,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DisplacementMap.
 | Avant                                                           |
 |------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)       |
-| Après                                                            |
+| After                                                            |
 | ![image après la transformation.](images/19-displacementmap.png) |
 
 
@@ -113,7 +113,7 @@ Bitmap de sortie ? Pixels = (taille de l’image bitmap en entrée ? ( DIP) + 
 
 Bitmap de sortie<sub>y</sub> pixels = (taille de la bitmap d’entrée<sub>y</sub>(DIP) + échelle) \* (dpi utilisateur/96)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

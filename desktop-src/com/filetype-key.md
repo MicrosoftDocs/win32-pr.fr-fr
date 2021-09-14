@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9a2e331588b627ee5ce9a9c1b69631f1e8a1dbe4
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363464"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923240"
 ---
 # <a name="filetype-key"></a>Clé FileType
 
@@ -55,7 +55,7 @@ Représente le modèle qui doit correspondre pour qu’un fichier soit de ce typ
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les entrées sont utilisées par la fonction [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile) pour faire correspondre des modèles à différents octets de fichier dans un fichier non composé. **Filetype** contient des sous-clés CLSID, chacune ayant une série de sous-clés **0**, **1**, **2**, **3**. Ces valeurs contiennent des modèles qui, si une correspondance est trouvée, génèrent le CLSID indiqué. Par exemple, la valeur « 0, 4, FFFFFFFF, ABCD1234 » indique que les 4 premiers octets doivent être ABCD1234, dans cet ordre. La valeur « -4, 4, FEFEFEFE » indique que les quatre derniers octets du fichier doivent être FEFEFEFE. Si l’un des modèles correspond, le CLSID est retourné.
 

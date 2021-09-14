@@ -4,12 +4,12 @@ ms.assetid: c2d20233-93c6-4d2d-946d-8abccbeb3c5e
 title: Client-Side la configuration requise pour l’emprunt d’identité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bceb47c2ffb5f3b8e443d2dc50add83a39b5dfc1ee31a6909c34b0170a85db11
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32c3c188f3c03e46a0e6e414efc66c5fdd2366d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923023"
 ---
 # <a name="client-side-requirements-for-impersonation"></a>Client-Side la configuration requise pour l’emprunt d’identité
 

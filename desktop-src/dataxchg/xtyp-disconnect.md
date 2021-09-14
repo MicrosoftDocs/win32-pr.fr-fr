@@ -1,9 +1,9 @@
 ---
 title: XTYP_DISCONNECT transaction (Ddeml. h)
-description: La fonction de rappel échange dynamique de données (DDE) d’une application, DdeCallback, reçoit la \_ transaction de déconnexion XTYP lorsque le partenaire de l’application dans une conversation utilise la fonction DdeDisconnect pour mettre fin à la conversation.
+description: la fonction de rappel échange dynamique de données (DDE) d’une application, DdeCallback, reçoit la \_ transaction de déconnexion XTYP lorsque le partenaire de l’application dans une conversation utilise la fonction DdeDisconnect pour mettre fin à la conversation.
 ms.assetid: 22a9ec63-8a74-4829-ad02-d07dd0e8fa9b
 keywords:
-- Échange de données de transaction XTYP_DISCONNECT
+- XTYP_DISCONNECT Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -15,15 +15,15 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 38e73bc0446989ac572a27f394e594924573711d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922835"
 ---
 # <a name="xtyp_disconnect-transaction"></a>XTYP \_ déconnecter la transaction
 
-La fonction de rappel échange dynamique de données (DDE) d’une application, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction de **\_ déconnexion XTYP** lorsque le partenaire de l’application dans une conversation utilise la fonction [**DdeDisconnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddedisconnect) pour mettre fin à la conversation.
+la fonction de rappel échange dynamique de données (DDE) d’une application, [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction de **\_ déconnexion XTYP** lorsque le partenaire de l’application dans une conversation utilise la fonction [**DdeDisconnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddedisconnect) pour mettre fin à la conversation.
 
 
 ```C++
@@ -102,7 +102,7 @@ L’application peut obtenir l’état de la conversation terminée en appelant 
 
 Une application ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -130,10 +130,10 @@ Une application ne peut pas bloquer ce type de transaction ; le code de retour 
 [**DdeQueryConvInfo**](/windows/desktop/api/Ddeml/nf-ddeml-ddequeryconvinfo)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

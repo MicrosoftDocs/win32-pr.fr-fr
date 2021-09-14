@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8488fb599a958a96ef7b5aaa5afbf4c219110f0da5be7016a8190efe2004475d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80b17a461ffde4b9f6777f3ce360c6b3f1747235
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855766"
 ---
 # <a name="buttonhoverimage"></a>BUTTON. hoverImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverImage** spécifie ou récupère l’image affichée lorsque 
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 
@@ -41,7 +41,7 @@ Si l’image de survol est plus grande que la région définie dans l’attribut
 
 Si l’image ne peut pas être récupérée, une image par défaut (l’image rouge-x) s’affiche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

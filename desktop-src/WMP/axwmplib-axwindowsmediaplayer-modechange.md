@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa3b81ce7c48fd34f03131c7ed3f6cafed1029b103f218842a70ecaade08f1af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c06575fc986f4223056244964c2d070874c890b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119764839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855958"
 ---
 # <a name="modechange-event-of-the-axwindowsmediaplayer-object"></a>Événement ModeChange de l’objet AxWindowsMediaPlayer
 
@@ -54,7 +54,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le tableau suivant indique les valeurs possibles pour la propriété modeName.
 
@@ -69,7 +69,7 @@ Le tableau suivant indique les valeurs possibles pour la propriété modeName.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

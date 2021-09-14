@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e884390-56e4-45ae-b1c9-c58503d6f2dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6102dc3ab10e48e5373bff2bcbe5e13ae3ca49a59417f05aae45d2106e0a3e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fd2fdaf284fee71724d7b9bb4ac4b5ad1100c82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113321"
 ---
 # <a name="direct2d-glossary"></a>Glossaire Direct2D
 

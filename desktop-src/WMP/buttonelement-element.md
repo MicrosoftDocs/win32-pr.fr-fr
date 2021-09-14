@@ -10,12 +10,12 @@ keywords:
 - éléments, BUTTONELEMENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1aeef505a3bf0b07a2c25d21fa2a135e045934c589401829cf6aaccc8410a12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d4cc69154821981874f0072f6282f708cc4826d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135942"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855687"
 ---
 # <a name="buttonelement-element"></a>Élément BUTTONELEMENT
 

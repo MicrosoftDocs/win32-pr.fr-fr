@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1dfc86b9b42c4373467fca89a46b2b4d8f42074e64836c554b325c8aebddf915
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8ca1602eb29e1e18d83d2e8b79760d13f63e101
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126858093"
 ---
 # <a name="resume-method-of-the-win32_printjob-class"></a>Méthode Resume de la \_ classe PrintJob Win32
 
@@ -40,7 +40,7 @@ uint32 Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur.
 
@@ -80,7 +80,7 @@ Next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: ec8b220d55d3ac55d2a8b68fa3b95398a395611da150235d03314114055214e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b896b8158e84caa841addbac7abae8c972c06acd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119753509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922788"
 ---
 # <a name="d3dx10_sprite-structure"></a>D3DX10, \_ structure
 
@@ -110,7 +110,7 @@ Index de la texture. Si pTexture ne représente pas un tableau de texture, la va
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

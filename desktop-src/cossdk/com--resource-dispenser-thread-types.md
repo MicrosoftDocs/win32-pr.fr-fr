@@ -4,12 +4,12 @@ ms.assetid: 3ab67adb-311f-404c-a3ca-d274af53f91c
 title: Types de threads du distributeur de ressources COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f20f9fc25dd1811b401dd15998ddb3f8fb9b21e5964277cc94d0ab1797eae622
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 761d85edc3105785ded904fd2dc6083a9aea30cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129051"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922960"
 ---
 # <a name="com-resource-dispenser-thread-types"></a>Types de threads du distributeur de ressources COM+
 

@@ -4,12 +4,12 @@ description: COM fait une distinction fondamentale entre les définitions d’in
 ms.assetid: f50b3e8f-bf87-4525-b47b-96e75b3a05b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee00521b847acbd063f1cd7ad84a0eb231f78d7bd274b7a4658996dbdd61150
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db8df92ac8b851925d82a4b03505fa4c5ab3dc39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855519"
 ---
 # <a name="interfaces-and-interface-implementations"></a>Interfaces et implémentations d’interface
 

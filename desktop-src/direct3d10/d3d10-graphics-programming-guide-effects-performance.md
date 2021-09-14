@@ -4,12 +4,12 @@ ms.assetid: 9f029be5-4ce0-46ca-909b-adaa980398e7
 title: Considérations relatives aux performances (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c81247041ff5e4619445ab5a2455af708a9a545be38b8f321dc2d77696e9a83c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ba2dbe00475efebdb6ff5d772b3eccd6cd4263a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120096678"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922828"
 ---
 # <a name="performance-considerations-direct3d-10"></a>Considérations relatives aux performances (Direct3D 10)
 

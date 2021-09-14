@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c887221ade413b63456ecb3c4a91c7a5b480858b04e1f34e89506fdcf071dfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5929e9c113e5fa9a7c8a72003357b280a810e49e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113405"
 ---
 # <a name="d2dsampleinput-function"></a>D2DSampleInput fonction)
 
@@ -52,11 +52,11 @@ Position UV.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne un **float4**, au format TEXCOORDN.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant illustre la fonction utilisée pour calculer les normales des surfaces.
 
@@ -80,7 +80,7 @@ float3 CalculateSurfaceNormal(TAPARGS)
 }  
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

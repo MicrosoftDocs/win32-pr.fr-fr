@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d5223d5864aa8be9019b2219ef09917a1c63cf16d87a48aef9543246d5197a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b019e58ae8955f6df894101956e4776c2cd71626
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118581824"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855910"
 ---
 # <a name="playlistcollectionplaylistadded-event-of-the-axwindowsmediaplayer-object"></a>Événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPlayer
 
@@ -57,7 +57,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 Le nom de la sélection ajoutée peut être utilisé pour récupérer la playlist correspondante à l’aide de IWMPPlaylistCollection. méthode **GetByName** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

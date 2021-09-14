@@ -4,12 +4,12 @@ ms.assetid: 32a05150-a68a-4302-9983-b9c1269b368c
 title: Limites de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050be064c8a2fe3dc8eb81e2297e1699504f92ae7b8b4352d9b875dfc50e91a1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfcfca8868677ba14c8544657aa77acf04262805
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047267"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922879"
 ---
 # <a name="security-boundaries"></a>Limites de sécurité
 

@@ -4,12 +4,12 @@ ms.assetid: 8d1d034f-8a09-40ae-842a-5251135bd3c8
 title: Concepts de Gestionnaire des ressources de compensation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b546f10e9a99f827c512e6dd7662ead05476774f7ff8dc32c40fa123b0ffe272
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14206a54ffcb4f7e06ddf7362736a722393b0791
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922991"
 ---
 # <a name="com-compensating-resource-manager-concepts"></a>Concepts de Gestionnaire des ressources de compensation COM+
 

@@ -4,12 +4,12 @@ ms.assetid: 7b57d5c6-589b-4e03-bfcf-1faa671ebd77
 title: élément Async
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2597e0ed22fe9ccefa053891c0bd67ee76fae567847925de74faa1513de5faf1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a6cbc68d0a5dea30f4b4d179a54539ac3f9516a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119049717"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923303"
 ---
 # <a name="async-element"></a>élément Async
 
@@ -41,7 +41,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs possibles sont 1 (opérations asynchrones incluses) et 0 (opérations asynchrones par défaut exclues).
 

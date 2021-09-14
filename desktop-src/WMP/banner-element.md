@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 91b3de50c1360337c1344a1af1a0696361614dbc293390470e7c196e53528a1d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e257c14e5908482cdf8de458c259bc64a55c6d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855892"
 ---
 # <a name="banner-element"></a>Élément BANNER
 
@@ -50,7 +50,7 @@ URL d’un fichier graphique affiché dans le panneau d’affichage.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cet élément définit une URL vers un fichier graphique qui s’affiche dans le panneau d’affichage Lecteur Windows Media, sous le contenu de la vidéo. Si le support est uniquement audio, le graphique de bannière s’affiche de lui-même. Lecteur Windows Media réserve un espace de 32 pixels de haut en 194 pixels de large (la barre de bannière) du graphique. Si le graphique défini dans l’URL est plus petit, il s’affiche à sa taille d’origine. si le graphique est plus grand que l’espace réservé, Lecteur Windows Media rogne l’image pour l’ajuster à l’espace.
 
@@ -88,7 +88,7 @@ Voici un exemple d’élément **Banner** contenant des éléments **abstract** 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

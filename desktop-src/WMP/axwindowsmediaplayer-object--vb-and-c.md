@@ -19,12 +19,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1d0c66360e80ea293795442472ce163292c38152baa859889086a5687f03764f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32f814560c8b6eb13dc5abb8736378432ec4565e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119765279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856042"
 ---
 # <a name="axwindowsmediaplayer-object-vb-and-c"></a>objet AxWindowsMediaPlayer (VB et C#)
 

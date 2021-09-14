@@ -4,12 +4,12 @@ description: Direct2D fournit l’interface ID2D1PathGeometry pour décrire des 
 ms.assetid: d7aad487-04e0-448d-bedf-b8dfadc7bbe9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e222d3d94eb1f9e944a1c5113baf938a7c3da6e86751a7be748798ace12a9611
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68a163e85d76a65f6b807ad1e4a9c9f740a32bf1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113114"
 ---
 # <a name="how-to-draw-and-fill-a-complex-shape"></a>Comment dessiner et remplir une forme complexe
 

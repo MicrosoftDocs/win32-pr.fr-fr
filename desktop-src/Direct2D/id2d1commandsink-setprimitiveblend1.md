@@ -16,11 +16,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: b3aa961eec873cc84e5b34ce41279c09f580e63d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103545"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113053"
 ---
 # <a name="id2d1commandsink1setprimitiveblend1-method"></a>ID2D1CommandSink1 :: SetPrimitiveBlend1, méthode
 
@@ -50,7 +50,7 @@ Fusion primitive qui s’appliquera aux primitives suivantes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -77,8 +77,8 @@ Le tableau ci-dessous montre les modes de fusion primitifs pour la fusion avec a
 |--------------------------------------|---------------------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | \_Source de \_ fusion primitive d2d1 \_ \_ sur | O = (S + (1 SA) \* D) \* C + D \* (1 c) | O = S \* C + D \* (1 sa \* c)   | Mode de fusion standard de la source sur la destination.                                                                         |
 | \_Copie de \_ fusion \_ primitive d2d1         | O = S \* C + D \* (1 c)                   | O = S \* C + D \* (1 c)       | La source est copiée vers la destination ; les pixels de destination sont ignorés.                                             |
-| D2D1 \_ primitive \_ fusion \_ min.          | O = min (S + 1-SA, D)                        | O = min (S \* c + 1 sa \* c, D) | Les valeurs de pixel obtenues utilisent la valeur minimale des valeurs de pixel source et de destination. Disponible dans Windows 8 et versions ultérieures. |
-| \_Ajouter un \_ mélange \_ primitif d2d1          | O = (S + D) \* C + d \* (1 c)             | O = S \* C + D                  | Les valeurs de pixel obtenues sont la somme des valeurs de pixel source et de destination. Disponible dans Windows 8 et versions ultérieures.     |
+| D2D1 \_ primitive \_ fusion \_ min.          | O = min (S + 1-SA, D)                        | O = min (S \* c + 1 sa \* c, D) | Les valeurs de pixel obtenues utilisent la valeur minimale des valeurs de pixel source et de destination. disponible dans Windows 8 et versions ultérieures. |
+| \_Ajouter un \_ mélange \_ primitif d2d1          | O = (S + D) \* C + d \* (1 c)             | O = S \* C + D                  | Les valeurs de pixel obtenues sont la somme des valeurs de pixel source et de destination. disponible dans Windows 8 et versions ultérieures.     |
 
 
 
@@ -94,14 +94,14 @@ La fusion primitive s’applique à l’intérieur des primitives dessinées sur
 
 Si la fusion primitive est différente de **d2d1 \_ primitive \_ Blend \_** , le rendu ClearType sera désactivé. Si l’application force explicitement le rendu ClearType dans ces modes, le contexte de dessin sera placé dans un état d’erreur. D2DERR \_ \_ un état incorrect est retourné à partir de [**EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) ou de [**flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                          |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                          |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 
 

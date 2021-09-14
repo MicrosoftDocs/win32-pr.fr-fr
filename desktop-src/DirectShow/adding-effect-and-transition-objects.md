@@ -4,12 +4,12 @@ ms.assetid: fe82392f-33e2-432a-a6e3-710e475547b3
 title: Ajout d’objets Effect et transition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929678759d55a51b022cd7b870ddfa7cc5abb72279bcabe1694b5cc4eef211b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e6d33ed27faa0c69a755a17c72d9c5b136a4670
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160060"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112349"
 ---
 # <a name="adding-effect-and-transition-objects"></a>Ajout d’objets Effect et transition
 
@@ -96,7 +96,7 @@ L’exemple interroge l’objet Track pour l’interface [**IAMTimelineTransable
 
 De nombreux effets et transitions prennent en charge les propriétés personnalisées. Pour plus d’informations, consultez [définition des propriétés des effets et des transitions](setting-properties-on-effects-and-transitions.md).
 
-Exemples
+Exemple
 
 L’exemple de code suivant ajoute une [transition de réinitialisation SMPTE](smpte-wipe-transition.md) à une piste. Elle suppose que l’objet Track existe déjà dans la chronologie.
 

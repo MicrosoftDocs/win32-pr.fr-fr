@@ -6,12 +6,12 @@ keywords:
 - effet de rotation de la teinte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 531ab9b1649db96bc5ee100df98ed10b4021b506e3ad71bb426778655348b2df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 525dbe8fc94377080fbae34b80252c84c05073ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113074"
 ---
 # <a name="hue-rotatation-effect"></a>Effet de rotation de la teinte
 
@@ -22,7 +22,7 @@ Le CLSID de cet effet est CLSID \_ D2D1HueRotation.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -34,7 +34,7 @@ L’exemple ci-dessous montre les images d’entrée et de sortie de l’effet d
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)   |
-| Après                                                        |
+| After                                                        |
 | ![image après la transformation.](images/17-huerotation.png) |
 
 
@@ -78,7 +78,7 @@ La matrice créée dépend uniquement de l’angle de rotation. Vous pouvez util
 
 La taille de la bitmap de sortie est la même que la taille de la bitmap d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

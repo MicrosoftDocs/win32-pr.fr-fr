@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a116a8883fe1d591f5c68050e4a5ab738a3cf913322ae7c671c71a507f2c924d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 88de2f5f54b95b14827fabb2bafb89ff6974966b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119956389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856137"
 ---
 # <a name="ambientattributesverticalalignment"></a>AmbientAttributes. verticalAlignment
 
@@ -44,13 +44,13 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À moins que **VerticalAlignment** ne soit défini sur « Center », le contrôle conserve sa distance d’origine à partir du bord spécifié, ou à partir des deux bords si « Stretch » est spécifié et que le contrôle est redimensionnable. Si le contrôle n’est pas redimensionnable et que « Stretch » est spécifié, la zone cliquable est étirée à la place.
 
 Vous pouvez définir n’importe quelle combinaison d’attributs **HorizontalAlignment** et **VerticalAlignment** . Par exemple, si vous souhaitez qu’un contrôle soit centré à la fois horizontalement et verticalement, définissez **HorizontalAlignment** sur « Center » et **VerticalAlignment** sur « Center ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

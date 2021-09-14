@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: a305e18677c6a12e14b71b062324630021407231dac6b749f289b58396f4c1f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d41d3e2a170deffb73f1f533226421d88f150c01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120070649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855417"
 ---
 # <a name="ieventsubscription3eventclasspartitionid-property"></a>IEventSubscription3 :: EventClassPartitionID, propriété
 
@@ -50,7 +50,7 @@ Chaîne contenant le GUID de la partition de la classe d’événements.
 
 Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ inattendue, e \_ Fail et S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

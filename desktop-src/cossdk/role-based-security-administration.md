@@ -4,12 +4,12 @@ ms.assetid: 7247758e-f486-4ce2-afca-f0d10fffe626
 title: Administration de la sécurité Role-Based
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72ed2f1fdd5eb0b650b991b776364bf982c774b3ffcaff1358ea2c3ed1ee4d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 714cede74e105a68b0a5fed2371858054add954e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118547071"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922920"
 ---
 # <a name="role-based-security-administration"></a>Administration de la sécurité Role-Based
 

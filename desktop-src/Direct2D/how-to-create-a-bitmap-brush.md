@@ -4,12 +4,12 @@ description: Montre comment créer un pinceau bitmap à l’aide de Direct2D.
 ms.assetid: 8f78b30a-7507-4dd8-b6f4-12d88e3c9a1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d274d359b8ad8298a4e45d01014a6e9b19aa58c4b81725c5d8c41ac931e24eec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd8f28735368916d1abd0c1c9aa091dec4fd93f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569293"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113133"
 ---
 # <a name="how-to-create-a-bitmap-brush"></a>Comment créer un pinceau bitmap
 

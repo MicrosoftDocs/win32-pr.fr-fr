@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0259540801a49bc631dc60e33979a8730b46bdfc06ac81142098e851b8a51a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e880dfffc7f7825c99ab9e4e3bf980baa978b786
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119499077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922836"
 ---
 # <a name="xtyp_connect_confirm-transaction"></a>Transaction de confirmation de \_ connexion XTYP \_
 
@@ -94,13 +94,13 @@ Spécifie si le client est la même instance d’application que le serveur. Si 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur **CBF \_ Skip \_ Connect \_ Confirm** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
 Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -128,7 +128,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)

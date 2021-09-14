@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bff24c568ae607b5b67d766f28eb7c221844f1434a959952628cc2ad5a5d6d5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca7a405a5df20a04ae9d093f2b28ee4c68cab67d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855796"
 ---
 # <a name="buttondownimage"></a>BUTTON. downImage
 
@@ -31,7 +31,7 @@ L’attribut **downImage** spécifie ou récupère l’image représentant l’�
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 
@@ -41,7 +41,7 @@ Si l’image inférieure est plus grande que la région définie dans l’attrib
 
 Si l’image ne peut pas être récupérée, une image par défaut (l’image rouge-x) s’affiche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

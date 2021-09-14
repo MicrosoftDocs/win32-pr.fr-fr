@@ -4,12 +4,12 @@ description: Passage à l’État en cours d’exécution
 ms.assetid: 2173eaa9-0e60-4411-81e4-dbabc5fe89b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e91261df578697afef0e33dd8c8ea847eb50cfd546dd96ee0a0085d67100bfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 959038c8f64fe8750ab1bcf0f06b753371f04136
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855537"
 ---
 # <a name="entering-the-running-state"></a>Passage à l’État en cours d’exécution
 

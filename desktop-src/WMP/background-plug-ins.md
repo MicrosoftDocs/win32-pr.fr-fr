@@ -10,12 +10,12 @@ keywords:
 - plug-ins d’arrière-plan
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd52b84b7a1c2de924de4aca88a9fd0b7db59707cc1b1d8d7729c497d7ea0c0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 26108d1415c380aa7605ffefcf3dfe7447544051
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855897"
 ---
 # <a name="background-plug-ins"></a>Plug-ins d’arrière-plan
 

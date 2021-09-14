@@ -4,12 +4,12 @@ ms.assetid: 4acb898c-1a00-4085-86e4-5054ebdff6d3
 title: D3DX10CompileEffectFromMemory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c0d83f5ea36dd45daa0550665c5c93b3cc1ae1cf9e8fdf4e641d7c081bebec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e82349e74091c8a108193f761e219e40d0a1bd2e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119852439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922759"
 ---
 # <a name="d3dx10compileeffectfrommemory"></a>D3DX10CompileEffectFromMemory
 

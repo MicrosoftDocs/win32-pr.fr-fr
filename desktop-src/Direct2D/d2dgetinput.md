@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37de536eb6ac36af3e8aa1ffca61c3840cf6c84e585466a56a447522c4d628d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd6ec0fe858149ee53da1f8ca8a02c12756d6a90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113417"
 ---
 # <a name="d2dgetinput-function"></a>D2DGetInput fonction)
 
@@ -44,11 +44,11 @@ Numéro d’entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La fonction retourne un **float4**, contenant la couleur RVBA dans le format d’entrée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’exemple suivant illustre la fonction utilisée dans le cadre d’un effet composite arithmétique.
 
@@ -67,7 +67,7 @@ D2D_PS_ENTRY(PS_NAME)
 
 Reportez-vous également à la section Remarques sur l’entrée de l' [ \_ \_ élément](d2d-ps-entry.md) de rapport D2D pour obtenir un autre exemple d’utilisation de cette fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

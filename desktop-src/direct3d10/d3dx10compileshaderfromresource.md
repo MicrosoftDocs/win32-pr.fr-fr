@@ -5,11 +5,11 @@ title: D3DX10CompileShaderFromResource
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: dc70cc9ff4ad8236b974f64bd9f6c7754c5a5513
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922744"
 ---
 # <a name="d3dx10compileshaderfromresource"></a>D3DX10CompileShaderFromResource
 

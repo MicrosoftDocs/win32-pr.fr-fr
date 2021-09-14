@@ -20,12 +20,12 @@ keywords:
 - Lecteur Windows Media ActiveX contrôle, eCommunications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd298b96bd8e3481d1b033bb1dda9a10228f3a627536a81ea43eb3749ad1fb9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b41e5fc3284a054ba7497889eab80ec240c9801
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126856107"
 ---
 # <a name="audio-outputs"></a>Sorties audio
 

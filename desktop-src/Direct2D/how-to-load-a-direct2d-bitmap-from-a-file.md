@@ -4,12 +4,12 @@ description: Montre comment charger une bitmap Direct2D à partir d’un fichier
 ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
 ms.topic: article
 ms.date: 03/09/2019
-ms.openlocfilehash: a330f0e32ee4abf62eb7df1c1d6a00b3f217e6f04502cebae6c489aa01eaaa9c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c9590e799e71e92056157b75573565cf79b9236b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113097"
 ---
 # <a name="how-to-load-a-bitmap-from-a-file"></a>Chargement d’une image bitmap à partir d’un fichier
 

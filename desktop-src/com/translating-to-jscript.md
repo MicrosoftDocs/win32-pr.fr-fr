@@ -4,12 +4,12 @@ description: Conversion en JScript
 ms.assetid: cf40a261-967a-47cc-970a-27e3178120c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9c8268d9e0fc078fd18be8687a4c23b3b4098f1c41fa03711f34d04fce4ad0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c4da4c30bdf348ac44b664d5957f868cacfcb22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118103470"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923060"
 ---
 # <a name="translating-to-jscript"></a>Conversion en JScript
 

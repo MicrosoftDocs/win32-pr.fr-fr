@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage diffus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ee0032351ce5409aabf75eaa36cd79362b8e51b85edb26d2d1d06ca9346bfe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d085e43f161275cbe46d5b8eeb03f0ad13ff5f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113358"
 ---
 # <a name="spot-diffuse-lighting-effect"></a>Effet d’éclairage diffus par spot
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1SpotDiffuse.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scale-modes)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -85,7 +85,7 @@ L<sub>r</sub>, l<sub>g</sub>, l<sub>b</sub> = couleur claire des composants RVB.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

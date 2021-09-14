@@ -10,12 +10,12 @@ keywords:
 - Direct2D, géométries de tracés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5540d96b9befddaa8eb6eef7fcc61e3e6c7665a7319de1ea123c9ce94281f101
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ceb4a0e63a3274473153e1871a8a085bb04d5146
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119259249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113125"
 ---
 # <a name="how-to-create-geometry-groups"></a>Comment créer des groupes de géométrie
 

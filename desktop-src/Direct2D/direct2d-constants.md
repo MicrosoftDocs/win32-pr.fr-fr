@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 09/19/2019
-ms.openlocfilehash: cd8adfa3d6fa3c59a05331c82ea12100918a4697d9478097a890eedff039d5e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bc25bf1055b923a383fc580a622e96d787ed13e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119768729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113341"
 ---
 # <a name="direct2d-constants"></a>Constantes Direct2D
 
@@ -47,7 +47,7 @@ Réservé n’utilisez pas.
 ## <a name="d2d1_scene_referred_sdr_white_level-800f"></a>D2D1_SCENE_REFERRED_SDR_WHITE_LEVEL (80,0 f)
 Nombre de nits utilisés par l’espace de couleurs sRVB ou ScRVB pour les valeurs de virgule flottante ou de virgule flottante de 1,0 f. Cette valeur est constante uniquement lorsque l’espace colorimétrique utilise la luminance référencée par scène, ce qui est vrai pour le contenu HDR (High dynamique Range). Si l’espace colorimétrique utilise à la place la luminance référencée, le niveau de blanc SDR doit être interrogé à partir de l’affichage.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

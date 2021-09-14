@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: db3a4ef93fcdd2e93580157e0bb73b172975fe4a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113185"
 ---
 # <a name="scale-effect"></a>Effet d’échelle
 
@@ -82,7 +82,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Name                     | Description                                                                                                                                                                                                                                                              |
+| Nom                     | Description                                                                                                                                                                                                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image d’entrée avec des pixels noirs transparents pour les échantillons en dehors des limites d’entrée lorsqu’elle applique le noyau de convolution. Cela crée une bordure douce pour l’image et, dans le processus, développe la bitmap de sortie de la taille du noyau.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet étend l’image d’entrée avec une transformation de bordure de type miroir pour les exemples en dehors des limites d’entrée. La taille de l’image bitmap de sortie est égale à la taille de l’image bitmap d’entrée.<br/>                                                                       |
@@ -132,7 +132,7 @@ L’effet arrondit les fractions de pixels au pixel entier le plus proche.
 
 L’emplacement de la bitmap est (0,0) ou la valeur de la propriété du point central.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

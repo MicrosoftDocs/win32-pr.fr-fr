@@ -5,11 +5,11 @@ ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e22d9ae245b5bbaa0c13dd7d5296dc419f740404
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122881827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113253"
 ---
 # <a name="effect-shader-linking"></a>Liaison de nuanceurs d’effet
 

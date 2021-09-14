@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 332f123756d1340352524852aa5bcb38fce09612f52554facaf6e5c8c2398e73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc7e3e41efc4b44c00c23f0910b8b696940fc1df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855412"
 ---
 # <a name="ieventsubscription2-interface"></a>Interface IEventSubscription2
 
@@ -52,7 +52,7 @@ L’interface **IEventSubscription2** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

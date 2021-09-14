@@ -9,12 +9,12 @@ keywords:
 - bitmaps dans les apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ff4689c052162d8addfb9a66aeb6b227916f0e22e21de3e3572ea265380664
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 15ad690b691c22154bad4db0981e2b5ab760400b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855861"
 ---
 # <a name="bitmaps-windows-media-player-sdk"></a>bitmaps (kit de développement logiciel (SDK) Lecteur Windows Media)
 
@@ -59,7 +59,7 @@ Vous devez utiliser l’ordre suivant pour les informations de bitmap pour chaqu
 
 1.  [Type de bitmap](bitmap-type.md)
 2.  [Nom de fichier](file-name.md)
-3.  [Coordinates](coordinates.md)
+3.  [Coordonnées](coordinates.md)
 
 Pour obtenir un exemple de code bitmap, consultez la [section exemple de bitmap](sample-bitmap-section.md).
 

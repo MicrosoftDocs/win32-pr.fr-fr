@@ -6,12 +6,12 @@ keywords:
 - Direct2D, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ace9e9250466c45af7a1bcac6da3d9d12fbe8dd05cc828275c7ecd2f047c890e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a54d44419631f9f4f272fba310723522e508fbaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113082"
 ---
 # <a name="how-to-topics-direct2d"></a>Rubriques de procédures (Direct2D)
 

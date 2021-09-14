@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: 144475b4b4967ff0a1fd130a658b8276af5d8897cc043000d150417aa01b227e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3a689bb2104ee4cb419eb1483619d1fcf71d7e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119753469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922784"
 ---
 # <a name="d3dx10_texture_load_info-structure"></a>\_Structure d' \_ \_ informations sur le chargement de la texture d3dx10
 
@@ -158,11 +158,11 @@ Options de filtrage lors de la génération de niveaux MIP (voir [**\_ \_ indica
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est utilisée dans un appel à [**D3DX10LoadTextureFromTexture**](d3dx10loadtexturefromtexture.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

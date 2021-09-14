@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c3768afd8b1356a1c0ca67a43f951e19143258dfc4f27a3a5e9d861fe9e930
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8eac407f6e7fbdd155f4bcabe98cecc0546f7d97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855813"
 ---
 # <a name="buttondisabledimage"></a>BUTTON. disabledImage
 
@@ -31,7 +31,7 @@ L’attribut **disabledImage** spécifie ou récupère l’image qui s’affiche
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 
@@ -39,7 +39,7 @@ Cette image s’affiche lorsque l’attribut **désactivé** du contrôle a la v
 
 Si l’image ne peut pas être récupérée, une image par défaut (l’image rouge-x) s’affiche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

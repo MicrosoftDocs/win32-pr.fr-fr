@@ -4,12 +4,12 @@ ms.assetid: be50912e-b9fd-4ef7-b81a-e37617a96955
 title: Processus de fonctionnement COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d294d60429faeaad7a4d58808760ecd327bcaff252f2b71070c6605f5327ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d39dba3dedcbdefebe0f62144547ebb6985fa51f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118308128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922983"
 ---
 # <a name="com-crm-operating-process"></a>Processus de fonctionnement COM+ CRM
 

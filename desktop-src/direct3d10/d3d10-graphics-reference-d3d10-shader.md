@@ -5,11 +5,11 @@ title: Référence du nuanceur (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 935b70b3daf5f641108d11fa943083ec94cf940b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922796"
 ---
 # <a name="shader-reference-direct3d-10-graphics"></a>Référence du nuanceur (graphiques Direct3D 10)
 

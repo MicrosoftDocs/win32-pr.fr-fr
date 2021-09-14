@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d507779493563556d250823cc1be0228731c55ced66911b4f530936b75afdf70
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 451f13bde9458e7d57ec393f42b92a4092c99924
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923312"
 ---
 # <a name="swbemservicesgetasync-method"></a>SWbemServices. GetAsync, méthode
 
@@ -120,7 +120,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) lorsque l’objet est disponible.
 
@@ -172,13 +172,13 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet appel est retourné immédiatement. L’objet et l’État demandés sont retournés à l’appelant via un rappel remis au récepteur spécifié dans *objWbemSink*. Pour traiter l’objet lorsqu’il retourne, créez un *objWbemSink*. [**OnObjectReady**](swbemsink-onobjectready.md), ou *objWbemSink*. Sous-routine d’événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
 Un rappel asynchrone permet à un utilisateur non authentifié de fournir des données au récepteur. Cela pose des risques de sécurité pour vos scripts et vos applications. Pour éliminer les risques, utilisez une communication semi-synchrone ou synchrone. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

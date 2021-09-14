@@ -6,12 +6,12 @@ keywords:
 - D2D1_MATRIX_4X4_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b164731a7ff3acfb0a3603e0bd5205a28a8ea59a4c54d4b0de1f9b37f0d54c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 535c7e38b77d8c33d79ae189b4090a18fae42a04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119569819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113465"
 ---
 # <a name="d2d1_matrix_4x4_f"></a>\_Matrice d2d1 \_ 4x4 \_ F
 
@@ -24,11 +24,11 @@ typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **D2d1 \_ MATRIX \_ 4x4** est un nouveau nom pour la [**structure \_ \_ x 4x4 \_ F de la matrice D2D**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_4x4_f) . Pour obtenir la liste des champs fournis par la matrice, consultez la **\_ matrice D2D \_ 4x4 \_ F**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

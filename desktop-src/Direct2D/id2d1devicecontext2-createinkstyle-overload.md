@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: bd55bfdfb7c961b45e3ddc94d92faa9fad9aae4d8b9b7f0742aefc926763aef0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3310a31acd4ca86f2c239b69b11654f17ef900f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113002"
 ---
 # <a name="id2d1devicecontext2createinkstyle-methods"></a>ID2D1DeviceContext2 :: CreateInkStyle, méthodes
 
@@ -34,7 +34,7 @@ Crée un objet [**ID2D1InkStyle**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1inks
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

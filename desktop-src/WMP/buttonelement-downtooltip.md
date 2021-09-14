@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae152fd5e4f5ac9aa9b46abfed6084adfa0d20bad42bfa7e88afee18c2517755
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c9edc9c5c8de697f7ee570bb85bd0d3226d26f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119764369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855693"
 ---
 # <a name="buttonelementdowntooltip"></a>BUTTONELEMENT. downToolTip
 
@@ -31,11 +31,11 @@ L’attribut **downToolTip** spécifie ou récupère le texte info-bulle qui app
 
 Cet attribut est une chaîne en lecture/écriture avec une valeur par défaut «» (chaîne vide) d’une longueur maximale de 1024 caractères.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est affichée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -21,12 +21,12 @@ keywords:
 - DDEML (bibliothèque de gestion échange dynamique de données), filtre de nom de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7346bd98979e9bd5a4aa0e43493e975d802875cf8fd0fc79d7bd002bcd0c5494
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 10f958ab73164e70177cb5deeb5f400f44695015
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118811646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922840"
 ---
 # <a name="name-service"></a>Service de noms
 

@@ -4,12 +4,12 @@ ms.assetid: 6ad0d163-df51-48b6-aad7-a4b018688872
 title: élément portTypeDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af9beb5b6697f53ecc3a9f7c805338c6ccebd9901d483607b100f5d1602ff4c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff073eb7b0f9cbc4b0b6df87c8f9fc84d4f62882
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120071389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923264"
 ---
 # <a name="porttypedefinitions-element"></a>élément portTypeDefinitions
 
@@ -63,7 +63,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet élément est généralement utilisé dans les fichiers sources C pour fournir les constantes de type de port déclarées par [**portTypeDeclarations**](porttypedeclarations.md).
 

@@ -13,11 +13,11 @@ api_type:
 ms.date: 07/02/2019
 ms.topic: reference
 ms.openlocfilehash: a8ecbe415439ebbc859fddaef5ca33ce7552c293
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525972"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113045"
 ---
 # <a name="id2d1devicecontextcreatebitmapfromdxgisurface-methods"></a>ID2D1DeviceContext :: CreateBitmapFromDxgiSurface, méthodes
 
@@ -34,7 +34,7 @@ Crée une image bitmap à partir d’une surface DXGI qui peut être définie en
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

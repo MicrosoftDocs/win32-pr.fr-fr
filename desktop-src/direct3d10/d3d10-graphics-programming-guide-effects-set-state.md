@@ -5,11 +5,11 @@ title: Définir l’état de l’effet (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 6df7133276b6392abca8d75eed16de896fb58f84
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922820"
 ---
 # <a name="set-effect-state-direct3d-10"></a>Définir l’état de l’effet (Direct3D 10)
 

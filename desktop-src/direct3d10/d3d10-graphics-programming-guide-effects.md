@@ -5,11 +5,11 @@ title: Effets (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 70a9a863fd34c5bb99389139d09860812b16b4fa
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922811"
 ---
 # <a name="effects-direct3d-10"></a>Effets (Direct3D 10)
 

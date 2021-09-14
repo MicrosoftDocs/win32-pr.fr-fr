@@ -5,11 +5,11 @@ ms.assetid: daff8e11-c7b8-4f34-910c-5fabbbae8de9
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 43214c221cbf80585358014a90237afaffd40457
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923239"
 ---
 # <a name="enumerations-ole-and-data-transfer"></a>Énumérations (OLE et Transfert de données)
 

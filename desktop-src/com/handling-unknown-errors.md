@@ -4,12 +4,12 @@ description: Gestion des erreurs inconnues
 ms.assetid: d6a4cc60-8320-4b67-9f2e-7c4bea6c37fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38fb0e8aaaef8fc3ff4ae9bb76f76a845c325c4b5a5dc4d409dbd0ab35734ce4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8c3d9e70b89a9a78be62d2940ad8a69ac34c8f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048257"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923172"
 ---
 # <a name="handling-unknown-errors"></a>Gestion des erreurs inconnues
 

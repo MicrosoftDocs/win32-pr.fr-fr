@@ -6,12 +6,12 @@ keywords:
 - D2D1_COLOR_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2d03d0dd7d1437a4eb9db1f811eb173cca5bbaec3e37189ad27e85ff635450
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 78f12c4c833d7f73946b2309673dff8f3dd11395
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113477"
 ---
 # <a name="d2d1_color_f"></a>D2D1 \_ couleur \_ F
 
@@ -24,7 +24,7 @@ typedef D2D_COLOR_F D2D1_COLOR_F;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **D2d1 \_ La couleur \_ f** est un typedef pour la [**couleur D2D ( \_ \_ f**](d2d-color-f.md)), qui est lui-même un typedef pour [D3DCOLORVALUE](../direct3d9/d3dcolorvalue.md). Pour plus d’informations sur les membres fournis par **d2d1 \_ Color \_ F**, consultez [D3DCOLORVALUE](../direct3d9/d3dcolorvalue.md).
 
@@ -57,7 +57,7 @@ hr = pCompatibleRenderTarget->CreateSolidColorBrush(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: fccb38a73585db71c6418929a35458f26b9749159e537de47a298d920b318e08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 709d480e8865c5d5bde2a9f5e8de45f138e66548
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118558394"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855610"
 ---
 # <a name="msmcaevent_smbioserror-class"></a>MSMCAEvent \_ SMBIOSError, classe
 
@@ -278,11 +278,11 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **MSMCAEvent \_ SMBIOSError** est dérivée de [**WmiEvent**](wmievent.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

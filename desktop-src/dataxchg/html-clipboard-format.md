@@ -16,11 +16,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 18d73b5101d26fc55002d55e0c15144646b80445
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884985"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922848"
 ---
 # <a name="html-clipboard-format"></a>Format de presse-papiers HTML
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26369ef5be8c9dea81bf95e60c09ca0041d4275114c8892b85b6b5525f45504b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7525416eed7700709d02d2ec17823cd57a8c12ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113489"
 ---
 # <a name="d2d_ps_entry-function"></a>Fonction d’entrée de la \_ PS D2D \_
 
@@ -48,7 +48,7 @@ Nom du point d’entrée du nuanceur de pixels.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette macro au lieu de spécifier la signature d’entrée de point d’entrée de manière normale : tous les paramètres sont implicites et ajoutés par Direct2D pendant la compilation selon le type de cible de compilation (nuanceur complet ou fonction d’exportation).
 
@@ -107,7 +107,7 @@ export float4 LinkingCompatiblePixelShader_Function(
 
 Notez que l’entrée de texture, normalement récupérée par l’échantillonnage d’un Texture2D, a été remplacée par un input0 d’entrée de fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

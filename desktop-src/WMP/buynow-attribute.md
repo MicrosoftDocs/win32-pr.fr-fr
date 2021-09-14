@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b75d507a68a11a294c0f7f51d25cf8f9b422ad61615582b3d7fecc714787c710
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77d27354c633f22c13875f429eadbf8e131a8656
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118119851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855621"
 ---
 # <a name="buynow-attribute"></a>Attribut BuyNow
 
@@ -30,13 +30,13 @@ L’attribut **BuyNow** est une valeur de **paramètre** à utiliser dans les in
 -   [Pistes de CD](cd-track-attributes.md)
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

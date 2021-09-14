@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Clause de syntaxe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6688e11b9473e0f0e24261adec062669d97143d653fe30eee791a0385db424d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02d0bf25156ddda4bf71a7f40a8de1fede2a82d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117921320"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923311"
 ---
 # <a name="syntax-clause"></a>Clause de syntaxe
 

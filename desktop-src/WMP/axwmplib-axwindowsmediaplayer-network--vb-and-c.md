@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d68d05b8d3c360d3008ec9ba699bdf71655dc6a953091c21605d354a4610d66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 287efa3df7887aa7e448d5e732444cf5e79e0e37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119764819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855952"
 ---
 # <a name="axwindowsmediaplayernetwork-property"></a>AxWindowsMediaPlayer. Network, propriété
 
@@ -50,7 +50,7 @@ Public ReadOnly Property network As IWMPNetwork
 
 Interface WMPLib. IWMPNetwork.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

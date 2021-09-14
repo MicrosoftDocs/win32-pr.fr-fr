@@ -7,12 +7,12 @@ keywords:
 - haute résolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5c48f9a1b3552115ebbec8a54a6878716ef34675e41193ae08fb9cb8e55bc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6548849416268f31b8b0c4a4261347c818ffa24c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825981"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113345"
 ---
 # <a name="direct2d-and-high-dpi"></a>Direct2D et haute résolution
 

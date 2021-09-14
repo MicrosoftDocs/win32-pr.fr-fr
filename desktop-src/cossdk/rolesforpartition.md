@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6c1e64e314478793a5b421d1f0a6a76c2eb028708410a14ea426f52fbd41dfe4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c97d524e3fc516086db3a815396d6d59f9369b31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922888"
 ---
 # <a name="rolesforpartition-collection"></a>Collection RolesForPartition
 
@@ -56,7 +56,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------|
 | Description    | Description du rôle. |
-| Accès         | Lecture seule                   |
+| Access         | Lecture seule                   |
 | Type           | String                     |
 | Valeur par défaut        | ""                         |
 | Système minimal | Windows Server 2003        |
@@ -72,7 +72,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom du rôle. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                                                                                                    |
+| Access         | Lecture seule                                                                                                                                                                                                                                                    |
 | Type           | String                                                                                                                                                                                                                                                      |
 | Valeur par défaut        | ""                                                                                                                                                                                                                                                          |
 | Système minimal | Windows Server 2003                                                                                                                                                                                                                                         |

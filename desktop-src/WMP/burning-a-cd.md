@@ -14,12 +14,12 @@ keywords:
 - gravure de CD, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82c7cfee7468b2cd376b7b25d4cff4a04e0d057dcc7a792ac7471843de2b74a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 007b7808ff375ab0673592d0d016f8e713321d1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118840768"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855843"
 ---
 # <a name="burning-a-cd"></a>Gravure d’un CD
 

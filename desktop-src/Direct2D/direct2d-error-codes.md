@@ -59,12 +59,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46f73f5fb8f76a6c9167832f1df6f50dfd91ae03994e3b02945e771e2258b9fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bca421e9ecf78ad4a62ba3c28bb20783240d28a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119431339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113337"
 ---
 # <a name="direct2d-error-codes"></a>Codes d’erreur Direct2D
 
@@ -124,7 +124,7 @@ Ce document répertorie les codes d’erreur utilisés par Direct2D. La rubrique
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

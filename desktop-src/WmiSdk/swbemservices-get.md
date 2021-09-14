@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d448d92cddf24e98f05cf023116e7087ad8cc3dcd310b7ccd3657571ee7650ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8998a1ca04206362fcc0e7405fccf8c923d74d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923315"
 ---
 # <a name="swbemservicesget-method"></a>SWbemServices. obten, méthode
 
@@ -80,7 +80,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, cette méthode retourne un objet [**SWbemObject**](swbemobject.md) qui représente l’objet demandé.
 
@@ -132,7 +132,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Contrairement aux méthodes [**ExecQuery**](/windows/desktop/api/Provider/nf-provider-provider-execquery) et [**InstancesOf**](swbemservices-instancesof.md) , la méthode obtenir retourne toujours un [**SWbemObject**](swbemobject.md) représentant une instance spécifique d’une ressource managée par WMI. Pour obtenir une instance spécifique d’une ressource managée WMI à l’aide de la méthode obtenir, vous devez indiquer à l’instance de récupérer l’instance en passant la méthode au chemin d’accès de l’objet, comme indiqué dans le script suivant.
 
@@ -153,7 +153,7 @@ Vous pouvez utiliser cette méthode pour obtenir des objets [*Singleton*](gloss-
 
 Vous pouvez examiner le référentiel à l’aide d’un outil d’affichage tel que [CIM Studio](further-information.md) pour vérifier que la nouvelle classe et l’instance s’affichent. Pour obtenir un exemple de suppression d’une classe et d’une instance du référentiel, consultez [**SWbemServices. Delete**](swbemservices-delete.md) ou [**SWbemObject. \_ Delete**](swbemobject-delete-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

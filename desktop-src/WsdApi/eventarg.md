@@ -4,12 +4,12 @@ ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: élément eventArg
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a25909010f812779a5e6d91530a56faff067e1abcd8c041680f2918ba6ad4a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 820c4223e8e4a880343faf2e9df686d9746b1b29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118552420"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923296"
 ---
 # <a name="eventarg-element"></a>élément eventArg
 
@@ -40,7 +40,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs possibles sont 1 (arguments d’événement inclus) et 0 (valeur par défaut, arguments d’événement exclus).
 

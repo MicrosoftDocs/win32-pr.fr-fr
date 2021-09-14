@@ -4,12 +4,12 @@ ms.assetid: 4789cd6c-6472-45e9-9c01-a0151947a831
 title: Référence d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24e82f93547dd39043b1459a3e9f33a29d32c63664640ec2a78c2bb34afa2c74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 853f0029f4567ff4fec8d770ac4abe70c91f974d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923008"
 ---
 # <a name="com-administration-reference"></a>Référence d’administration COM+
 

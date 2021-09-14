@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: a54c5336b26d2b84f46df4f688101367686d3dbe60be33d8bac5d8c584151daa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 027be097c5c21929f3ccdbaa169a1f3dac55b394
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113322"
 ---
 # <a name="layers-overview"></a>Vue d’ensemble des couches
 

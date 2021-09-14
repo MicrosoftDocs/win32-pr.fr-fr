@@ -4,12 +4,12 @@ description: contrairement à d’autres api, telles que GDI, GDI+ ou WPF, Direc
 ms.assetid: 1d5b8deb-34e2-433c-8de3-4ef66fb4e49d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd95e7644b5f429d4dd91d2276213d5b7ffb92b058d8e530bfcf47fee77fea3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2c49a8f341377bcf78a9a99699a3bd4852411dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113350"
 ---
 # <a name="text-rendering-with-direct2d-and-directwrite"></a>Rendu de texte avec Direct2D et DirectWrite
 

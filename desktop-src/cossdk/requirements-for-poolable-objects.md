@@ -4,12 +4,12 @@ ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: Conditions requises pour les objets regroupables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af3e3b67f7d796c199649b64f711ec32a75374bff60ebf900b34871ed4bc310
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78d6834210f180ad8b514b51b6926b5cd30714fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047287"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922924"
 ---
 # <a name="requirements-for-poolable-objects"></a>Conditions requises pour les objets regroupables
 

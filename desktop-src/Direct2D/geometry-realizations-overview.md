@@ -4,12 +4,12 @@ description: Cette rubrique explique comment utiliser la réalisation de la géo
 ms.assetid: E8C4C4E5-3102-4F53-847E-A4C2D12A6921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5108537e9ea9b38bebaab590178d990b44e611e56e82690e9d91ad9b56c19372
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b903e047ee58a803a7584aaca407281fc803e30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119260132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113205"
 ---
 # <a name="geometry-realizations-overview"></a>Vue d’ensemble des réalisations géométriques
 

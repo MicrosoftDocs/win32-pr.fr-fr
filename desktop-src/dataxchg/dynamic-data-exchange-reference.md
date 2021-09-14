@@ -4,12 +4,12 @@ description: Référence DDE
 ms.assetid: e0fcded0-04a2-4135-bc2d-21bd6e54d29e
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 124befeae7d1fc7ffdccab1bccbba01b6381fb5dda9e2b594db0473cb148dfd1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6bd23471198877eede8dc1896c0c1fb35d6eb102
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119953679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922860"
 ---
 # <a name="dde-reference"></a>Référence DDE
 

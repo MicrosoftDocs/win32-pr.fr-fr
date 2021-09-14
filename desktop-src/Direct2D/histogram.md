@@ -6,12 +6,12 @@ keywords:
 - effet d’histogramme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08477a832b2dbf758d26a16e78905f8530d4d4525205cbc85e9d138f8b3bded7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b654ffb2b830914b00a59490ceb429b5de9c51cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044407"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113177"
 ---
 # <a name="histogram-effect"></a>Effet d’histogramme
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Histogram.
 -   [Sélecteurs de canaux](#channel-selectors)
 -   [Sortie des données](#data-output)
 -   [Remarques](#remarks)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example"></a>Exemple
@@ -105,14 +105,14 @@ la valeur de *i* est comprise entre 0 et le nombre d’emplacements. L’effet g
 
 Cet effet génère une valeur FLOAT \[ \] , avec le nombre d’éléments correspondant au nombre d’emplacements spécifiés. Chaque élément de la \[ \] valeur float est un float. La valeur de l’élément correspond au nombre d’éléments dans cet emplacement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > La méthode [**CreateEffect**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect) échoue si l’appareil ne prend pas en charge DirectCompute et retourne HRESULT = D2DERR \_ fonctionnalités d’appareil insuffisantes \_ \_ . Toutes les cartes DirectX11 et DirectX10 qui prennent en charge DirectCompute peuvent utiliser l’effet.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

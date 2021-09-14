@@ -4,12 +4,12 @@ ms.assetid: 0c858567-e17a-46a0-b3ff-a0dc8089b0cd
 title: autostatic, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6b9a447e964c90354c909fc0399276d8ed69e7d1dfb3a493d5590a6470d0cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9414470f56021d475fb7cf52e570ac2793228445
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738672"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923300"
 ---
 # <a name="autostatic-element"></a>autostatic, élément
 
@@ -39,7 +39,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément **autostatique** n’est pas obligatoire et peut être omis dans le fichier de configuration XML. L’élément peut être utilisé pour désactiver le marquage des champs générés comme statiques ou pour forcer explicitement le marquage de certains champs générés comme statiques.
 

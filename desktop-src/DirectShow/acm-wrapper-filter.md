@@ -5,11 +5,11 @@ title: Filtre de wrappers ACM
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7f0688150ab417c6ebb71313a438f72ef7839042
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127112362"
 ---
 # <a name="acm-wrapper-filter"></a>Filtre de wrappers ACM
 

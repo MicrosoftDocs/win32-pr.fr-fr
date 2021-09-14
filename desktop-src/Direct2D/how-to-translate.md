@@ -5,11 +5,11 @@ ms.assetid: 0fc48801-de14-4398-816d-6e7ddf4ffdd7
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f9ab7921e6de3286f3e1b5cf7e3da8571815848d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316086"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113081"
 ---
 # <a name="how-to-translate-an-object"></a>Comment traduire un objet
 
@@ -59,6 +59,6 @@ L’illustration suivante montre l’effet de l’application de la transformati
 [Vue d’ensemble des transformations Direct2D](direct2d-transforms-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

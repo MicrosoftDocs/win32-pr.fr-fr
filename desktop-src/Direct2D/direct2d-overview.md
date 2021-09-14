@@ -14,12 +14,12 @@ keywords:
 - applications pour Direct2D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbe011b2d61fbb116efa4818f0db988d24e39fcb707e3ae42ddc0fb91f065652
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 486c83b7a83ef82983e189977f9f99254b0a1977
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825578"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113306"
 ---
 # <a name="about-direct2d"></a>À propos de Direct2D
 

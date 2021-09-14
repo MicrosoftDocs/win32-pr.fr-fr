@@ -4,12 +4,12 @@ ms.assetid: 3d490da6-1577-4a77-9f7d-6188f96f2914
 title: Gestionnaire des ressources de compensation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b0b45b5c7ebf1a71dc7e4dac753832e955531e7b44a079eccb9ea98a7df00f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aed8c53053d3c16f110760f4b88f938070d8cd80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922984"
 ---
 # <a name="com-compensating-resource-manager"></a>Gestionnaire des ressources de compensation COM+
 

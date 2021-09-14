@@ -13,11 +13,11 @@ api_type:
 - COM
 api_location: ''
 ms.openlocfilehash: 60c52e3cb48adc0ed52ef10bd9e0a73e716fabfc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922900"
 ---
 # <a name="rolesforinterface-collection"></a>Collection RolesForInterface
 
@@ -54,7 +54,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom du rôle. Doit déjà être un rôle affecté à l’application (qui apparaît dans la collection de rôles). Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | WriteOnce                                                                                                                                                                                                                                                                                                                                           |
+| Access         | WriteOnce                                                                                                                                                                                                                                                                                                                                           |
 | Type           | String                                                                                                                                                                                                                                                                                                                                              |
 | Valeur par défaut        | « Nouveau rôle »                                                                                                                                                                                                                                                                                                                                          |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                        |

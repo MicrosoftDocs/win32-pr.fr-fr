@@ -7,12 +7,12 @@ keywords:
 - Direct2D, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cea50069fcf860efa12d68c318657a896cd27d24fdf4c81b7c82a28e1f6567e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a8566bd44d851b516e291f919e1deeddc06b696
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825962"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113390"
 ---
 # <a name="direct2d-datatypes-and-constants"></a>Types de données et constantes Direct2D
 

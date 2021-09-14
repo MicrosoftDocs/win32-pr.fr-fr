@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: eeb9726f3aaf696d4e889ea32e39c85306271b7690f02b05d93fff80715f497b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c3be448b4088011cd4d628a7d98b448af550b010
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120097149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923340"
 ---
 # <a name="swbemprivilege-object"></a>Objet SWbemPrivilege
 
@@ -49,7 +49,7 @@ L’objet **SWbemPrivilege** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

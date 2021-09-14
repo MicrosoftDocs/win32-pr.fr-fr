@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 723a64b4e34c58b49f0ffa0851af836a536ff86ea23ee1b966a8ec243267950c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2e726d97821a7a7143f4971a4918227235adb9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118306367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855405"
 ---
 # <a name="ieventsubscription3subscriberapplicationid-property"></a>IEventSubscription3 :: SubscriberApplicationID, propriété
 
@@ -50,7 +50,7 @@ Chaîne contenant le GUID de l’application de l’abonné.
 
 Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ inattendue, e \_ Fail et S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

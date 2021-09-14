@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15bf5b60fe1e2c0d6bf8a08555048122993b11b900530af400966a9736bf5b00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb7dd88b558bb13b8835be1a8f840df8f8316706
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118581862"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855916"
 ---
 # <a name="playlistcollectionchange-event-of-the-axwindowsmediaplayer-object"></a>Événement PlaylistCollectionChange de l’objet AxWindowsMediaPlayer
 
@@ -43,7 +43,7 @@ Private Sub player_PlaylistCollectionChange(
 
 Cet événement ne contient pas de données.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

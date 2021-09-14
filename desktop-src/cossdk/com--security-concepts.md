@@ -4,12 +4,12 @@ ms.assetid: 686fb391-d337-41b4-bb51-b70f27a0c300
 title: Concepts de sécurité de COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b93ac113cf4ff2b1c679936fd610c2d44f29689ff175930c6a67274002457d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ca5126f4b715f84c2b8801c8ec1adc29b3cbb83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119047527"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922940"
 ---
 # <a name="com-security-concepts"></a>Concepts de sécurité de COM+
 

@@ -1,8 +1,8 @@
 ---
-description: SWbemServices.Exeméthode cQueryAsync-exécute une requête pour récupérer des objets.
+description: Méthode SWbemServices. ExecQueryAsync-exécute une requête pour récupérer des objets.
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
-title: SWbemServices.Exeméthode cQueryAsync (wbemdisp. h)
+title: SWbemServices. ExecQueryAsync, méthode (wbemdisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 93b80f7571630b306951c9efddef459930b23ab66a0f1b62913836f459db8033
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5cd3fe778ca7338df6b2674a4930458ef9113a1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312648"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923336"
 ---
-# <a name="swbemservicesexecqueryasync-method"></a>SWbemServices.Exeméthode cQueryAsync
+# <a name="swbemservicesexecqueryasync-method"></a>SWbemServices. ExecQueryAsync, méthode
 
 La méthode **ExecQueryAsync** de l’objet [**SWbemServices**](swbemservices.md) exécute une requête pour récupérer des objets. L’appel à cette méthode retourne immédiatement, et les résultats et l’État sont retournés à l’appelant via des événements remis au récepteur spécifié dans *objWbemSink*. Pour gérer chaque objet retourné, créez un *objWbemSink*. Sous-routine d’événement [**OnObjectReady**](swbemsink-onobjectready.md) .
 
@@ -137,7 +137,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode n’a pas de valeur de retour. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -189,7 +189,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet appel est retourné immédiatement. Les objets et l’État demandés sont retournés à l’appelant via des rappels remis au récepteur spécifié dans *objWbemSink*. Pour traiter chaque objet lorsqu’il retourne, créez un *objWbemSink*. Sous-routine d’événement [**OnObjectReady**](swbemsink-onobjectready.md) . Une fois que tous les objets sont retournés, effectuez le traitement final dans votre implémentation de *objWbemSink*. Événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -199,7 +199,7 @@ La méthode **ExecQueryAsync** retourne un jeu de résultats vide lorsqu’aucun
 
 Il existe des limites concernant le nombre de mots clés **and** et **or** qui peuvent être utilisés dans les requêtes WQL. Un grand nombre de mots clés WQL utilisés dans une requête complexe peut faire en sorte que WMI retourne le \_ code d’erreur de violation de quota E WBEM \_ \_ en tant que valeur **HRESULT** . La limite des mots clés WQL dépend de la complexité de la requête.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

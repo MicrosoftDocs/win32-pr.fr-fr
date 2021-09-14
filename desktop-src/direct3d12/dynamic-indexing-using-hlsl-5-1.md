@@ -5,12 +5,12 @@ ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc560a71ac602f7c78d41e4805d90cb404c2210790b462fb5353b9e5b3ad48f6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e41892e7deff23c8d11f8be1c38dac3fcba1de9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118529288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922687"
 ---
 # <a name="dynamic-indexing-using-hlsl-51"></a>Indexation dynamique à l’aide de HLSL 5.1
 
@@ -23,7 +23,7 @@ L’exemple **D3D12DynamicIndexing** illustre certaines des nouvelles fonctionna
 -   [Charger la texture diffuse](#load-the-diffuse-texture)
 -   [Créer un échantillonneur](#create-a-sampler)
 -   [Modifier dynamiquement l’index du paramètre racine](#dynamically-change-the-root-parameter-index)
--   [Exécuter l’exemple](#run-the-sample)
+-   [Exécution de l'exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="set-up-the-pixel-shader"></a>Configurer le nuanceur de pixels

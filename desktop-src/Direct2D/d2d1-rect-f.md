@@ -6,12 +6,12 @@ keywords:
 - D2D1_RECT_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc0f92dca8958fc939a4464ef7ddc1a3d8bde8b26a3ea3faefa7c55748870cd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93ce4700e093b9e82fd4334ae9e01485a7fcbb4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113449"
 ---
 # <a name="d2d1_rect_f"></a>D2D1 \_ rect \_ F
 
@@ -24,7 +24,7 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **D2d1 \_ RECT \_ f** est un nouveau nom pour le struct [**\_ rect \_ f de D2D**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_f) déjà défini.
 
@@ -118,7 +118,7 @@ HRESULT DemoApp::OnRender()
 
 Pour obtenir un didacticiel connexe, consultez [création d’une application Direct2D simple](direct2d-quickstart.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

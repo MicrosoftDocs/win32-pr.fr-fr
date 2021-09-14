@@ -10,11 +10,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 96128c723c5b8bbac31c82a32060704bc892dfb7
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885536"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855622"
 ---
 # <a name="buttons-windows-media-player-sdk"></a>boutons (kit de développement logiciel Lecteur Windows Media)
 

@@ -5,11 +5,11 @@ ms.assetid: ab1758c4-8dfc-47f6-8e1b-875e033a54d6
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7b8435389539f39d8ce71246267cd265c3e4edb9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106526721"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855441"
 ---
 # <a name="moniker-clients"></a>Clients moniker
 
@@ -27,9 +27,9 @@ Il existe différents types de monikers, qui sont utilisés pour identifier diff
 [Implémentations du moniker OLE](ole-moniker-implementations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

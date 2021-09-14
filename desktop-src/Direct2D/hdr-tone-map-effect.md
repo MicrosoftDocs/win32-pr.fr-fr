@@ -3,12 +3,12 @@ title: Effet de la carte de tonalité HDR
 description: Cet effet ajuste la plage dynamique d’une image pour mieux adapter son contenu à la capacité de l’affichage de sortie.
 ms.topic: article
 ms.date: 02/01/2019
-ms.openlocfilehash: ce47159abe4bdf0615a76960c4c5e2db289156e89989012f659e437e93727cca
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c9234e1b50e155173630a2ff7d94756c5be6130
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119260061"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113194"
 ---
 # <a name="hdr-tone-map-effect"></a>Effet de la carte de tonalité HDR
 
@@ -24,7 +24,7 @@ Les propriétés de cet effet sont identifiées par l' [**énumération D2D1_HDR
 | OutputMaxLuminance, D2D1_HDRTONEMAP_PROP_OUTPUT_MAX_LUMINANCE | FLOAT | Le MaxCLL pris en charge par la cible de sortie, dans nits, est &mdash; généralement défini sur le MaxCLL de l’affichage. |
 | DisplayMode, D2D1_HDRTONEMAP_PROP_DISPLAY_MODE | [**D2D1_HDRTONEMAP_DISPLAY_MODE**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode) | Quand la valeur est **_HDR**, la courbe de mappage de la tonalité est ajustée pour s’adapter au comportement des affichages HDR courants. |
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 La valeur de `InputMaxLuminance` est généralement dérivée des métadonnées de l’image. Dans les cas où les métadonnées ne sont pas présentes, vous pouvez utiliser la fonction **D2DAdvancedColorImagesRenderer :: ComputeHdrMetadata** (dans l' [exemple de rendu d’image colorimétrique avancée de Direct2D](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages)) pour calculer le niveau de lumière maximal (MaxCLL) d’une image, en nits.
 
 La valeur de `OutputMaxLuminance` est conçue pour être dérivée de l’affichage, à l’aide de [**DXGI_OUTPUT_DESC1 :: MaxLuminance**](/windows/desktop/api/dxgi1_6/ns-dxgi1_6-dxgi_output_desc1).
@@ -39,7 +39,7 @@ Cet effet est destiné à être combiné avec l' [effet de réglage de niveau bl
 - Appliquez l’effet d’ajustement de niveau blanc. Mettez à l’échelle le niveau blanc de l’image au niveau de blanc requis par la chaîne de permutation.
 - Appliquez à nouveau l’effet gestion des couleurs. En cas de rendu dans 8bpc, convertissez-le en sRVB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

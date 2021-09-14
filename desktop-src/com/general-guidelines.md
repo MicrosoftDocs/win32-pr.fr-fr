@@ -4,12 +4,12 @@ description: Instructions générales
 ms.assetid: 34801488-debb-4327-8ee6-1e4b350f21ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8877a5af1553e55fa256dba555d1eebdaa87e1d4533a89fdfb3e89eb666f9605
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0babf4a3106f7a27e374fa89d8efd7314ee19070
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119048277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923187"
 ---
 # <a name="general-guidelines"></a>Instructions générales
 

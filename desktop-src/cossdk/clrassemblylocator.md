@@ -11,12 +11,12 @@ api_name:
 - ClrAssemblyLocator
 api_type:
 - COM
-ms.openlocfilehash: 78f041e8bdc614b1ac6007e21ffbf46ea4afe789a501bb1acefdd21263031859
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff5c1d21525a950208c1b919d4dee0e2122d2e50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129271"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923024"
 ---
 # <a name="clrassemblylocator-class"></a>ClrAssemblyLocator, classe
 
@@ -42,13 +42,13 @@ Cette classe est implémentée par COM+.
 
 Utilisez cette classe pour accéder aux méthodes de [**IAssemblyLocator**](/windows/desktop/api/ComSvcs/nn-comsvcs-iassemblylocator).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour créer cet objet, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
 pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet ClrAssemblyLocator peut être déclaré à l’aide de « COMSVCSLib. ClrAssemblyLocator » comme nom de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

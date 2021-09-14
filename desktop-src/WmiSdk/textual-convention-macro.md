@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Macro de CONVENTION textuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 316463282549180b7c0781ea19d36818e1636bb9f061b78c51420694cfc4890c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 329508ce3d124c0b3954675b3142aeb33c402923
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118107603"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923308"
 ---
 # <a name="textual-convention-macro"></a>Macro de CONVENTION textuelle
 

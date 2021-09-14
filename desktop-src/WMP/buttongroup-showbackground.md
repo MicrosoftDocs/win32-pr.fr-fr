@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb95b707fa7e14b00e86c5a65949ff9fba3ce3db32745116fa65ca4c53ac1998
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31cc87260d4b0fca74d6063c757e6c3dae0db850
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118342672"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855634"
 ---
 # <a name="buttongroupshowbackground"></a>BUTTONGROUP. showBackground
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand **showBackground** a la valeur true, la totalité de l' **image** principale est visible.
 
@@ -50,7 +50,7 @@ Quand **showBackground** a la valeur false, seules les zones correspondant aux c
 
 Si une valeur non valide est spécifiée, l’état précédent est conservé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

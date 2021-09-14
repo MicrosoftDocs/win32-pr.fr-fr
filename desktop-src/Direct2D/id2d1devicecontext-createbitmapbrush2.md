@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0701d1d481f79a4c68e778f6e90fe98710df71528fb0813a9a508b2c4e8de3d9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca861216278b9f56c0e0779bdfc4e143797c655c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113041"
 ---
 # <a name="id2d1devicecontextcreatebitmapbrush-methods"></a>ID2D1DeviceContext :: CreateBitmapBrush, méthodes
 

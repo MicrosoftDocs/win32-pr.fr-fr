@@ -6,12 +6,12 @@ keywords:
 - D2D1_RECT_U
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c34127aceea16f4efa86f26e341cebec9099e9f81dd9c0c1d746f6eb6c474127
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 005e7d8bba3c4316e4132783b62ba226bd1cc92d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119768739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113442"
 ---
 # <a name="d2d1_rect_u"></a>D2D1 \_ rect \_ U
 
@@ -24,11 +24,11 @@ typedef D2D_RECT_U D2D1_RECT_U;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **D2d1 \_ RECT \_ u** est un nouveau nom pour la structure. [**\_ \_ Rect. D2D D2D**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_u) déjà définie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

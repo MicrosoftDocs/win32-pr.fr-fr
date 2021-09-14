@@ -4,12 +4,12 @@ description: Fonctionnement des notifications
 ms.assetid: faf66654-8233-49ac-a0fa-6cae51df0bea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68e90dfeb6e1df6de50ddaa3264a8c5475d280f30a72ad2d8c6acfffd39d60fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9665b327d164a4e105f8adba3328be284fbe1fa0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119756369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923136"
 ---
 # <a name="how-notifications-work"></a>Fonctionnement des notifications
 

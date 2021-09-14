@@ -3,7 +3,7 @@ title: BUTTON. suiv.
 description: L’attribut UpDown spécifie ou récupère une valeur indiquant si le bouton se trouve à la position haut ou inférieure.
 ms.assetid: 75398e8c-b13e-4836-b487-ed880da753ea
 keywords:
-- BUTTON. vers le lecteur Windows Media Player
+- BUTTON. descendant Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 29a0e2c7f97f782b51c145f3974f1490d0286fbe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855808"
 ---
 # <a name="buttondown"></a>BUTTON. suiv.
 
@@ -48,7 +48,7 @@ Pour qu’un **bouton** reste à la position inférieure, l’option **rémanent
 
 Si une valeur non valide est spécifiée, l’état précédent est conservé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

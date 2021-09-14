@@ -4,12 +4,12 @@ ms.assetid: 0acc0f4b-a9f6-4ac5-9ccc-7b9805269c02
 title: D3DX10CompileEffectFromResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e1ac711c319b9ec13d046ba655b1f64fdcb6b543dd9eccb74ad4f72e1193ccb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7e7f11ea6748d76da99422be409a110ccae0e0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119852429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922760"
 ---
 # <a name="d3dx10compileeffectfromresource"></a>D3DX10CompileEffectFromResource
 

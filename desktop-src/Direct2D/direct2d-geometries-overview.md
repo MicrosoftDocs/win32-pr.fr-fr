@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: d3f8cd7420325fd876897d538ea9e01a5c0adb64b2d0c55437514773904d6013
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb97b0737bfad391fb9ba2501793a970fcbd9886
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117825841"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113318"
 ---
 # <a name="geometries-overview"></a>Vue d’ensemble des géométries
 
@@ -220,7 +220,7 @@ L’interface [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)
 | Comparaison                                                  | [**CompareWithGeometry**](id2d1geometry-comparewithgeometry.md)                                                                                                           |
 | Simplification (supprime les arcs et les courbes de Bézier quadratiques)   | [**Ainsi**](id2d1geometry-simplify.md)                                                                                                                                 |
 | Pavage                                                | [**Paver**](id2d1geometry-tessellate.md)                                                                                                                             |
-| Contour (supprimer l’intersection)                               | [**Contour**](id2d1geometry-outline.md)                                                                                                                                   |
+| Contour (supprimer l’intersection)                               | [**Plan**](id2d1geometry-outline.md)                                                                                                                                   |
 | Calculer la zone ou la longueur d’une géométrie                  | [**ComputeArea**](id2d1geometry-computearea.md), [**ComputeLength**](id2d1geometry-computelength.md), [**ComputePointAtLength**](id2d1geometry-computepointatlength.md) |
 
 
@@ -566,7 +566,7 @@ if (SUCCEEDED(hr))
 
 
 
-### <a name="outline"></a>Contour
+### <a name="outline"></a>Plan
 
 La méthode [**Outline**](id2d1geometry-outline.md) calcule le contour de la géométrie (une version de la géométrie dans laquelle aucune figure n’entre elle-même ou une autre figure) et écrit le résultat dans un [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink). L’exemple de code suivant utilise **Outline** pour construire une géométrie équivalente sans aucune auto-intersection. Elle utilise la tolérance d’aplatissement par défaut.
 

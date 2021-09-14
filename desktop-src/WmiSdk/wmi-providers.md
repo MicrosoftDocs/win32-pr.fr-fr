@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fournisseurs WMI
 ms.topic: article
 ms.date: 07/23/2020
-ms.openlocfilehash: bffad31bee178a88dc8fb5f092ba2169cd9baab8eedbc71b5fcc058571cd370e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c7df5d5d9d79a30205781c5c3b599847dfb4d74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118815920"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855556"
 ---
 # <a name="wmi-providers"></a>Fournisseurs WMI
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 072d33a6490f8103604eac899fe96eca8a135a9786c696fdb5fb5cf0f2ce8fa7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 720a10dbe4b22b69910d88d3c03cea9ded768f1b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119852619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922772"
 ---
 # <a name="d3dx10_weld_epsilons-structure"></a>Structure des Epsilon de \_ soudure d3dx10 \_
 
@@ -158,7 +158,7 @@ Facteur de pavage
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type LPD3DXWeldEpsilons est défini en tant que pointeur vers la structure D3DXWeldEpsilons.
 
@@ -169,7 +169,7 @@ typedef D3DX_WELD_EPSILONS *LPD3DX_WELD_EPSILONS;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

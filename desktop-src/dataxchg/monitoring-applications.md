@@ -13,12 +13,12 @@ keywords:
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fbf6db1faa765378ea2b22b1146de770e9c94b14cf7e9e511ab862be48369c2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1f75685d4caa15e519485b2d8b37983faa35366
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128551"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922843"
 ---
 # <a name="monitoring-applications"></a>Surveillance des applications de
 

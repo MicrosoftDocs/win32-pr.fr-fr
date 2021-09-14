@@ -4,12 +4,12 @@ description: Gestion des erreurs dans COM
 ms.assetid: 15f3ae3e-1794-4948-a7aa-6309a703364b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7953a970e470f5ae2c04b6a22c07f1de4fe663b100485732050b13c12a00b559
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19af496eabf50833c99d462ff074254bc39bb7a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119381909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923231"
 ---
 # <a name="error-handling-in-com-com"></a>Gestion des erreurs dans COM (COM)
 

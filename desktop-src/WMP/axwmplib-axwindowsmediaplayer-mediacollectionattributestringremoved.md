@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f56a6e997ada3296a0ec1df841797c1495ccde0864495dcf77a0a0634ccde5fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a11b6b028a2a47585b06159ed46b986124583950
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118582075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855975"
 ---
 # <a name="mediacollectionattributestringremoved-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsMediaPlayer
 
@@ -58,7 +58,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 Lorsqu’un élément multimédia est supprimé de la bibliothèque, ses métadonnées sont supprimées du **MediaCollection** et cet événement est déclenché pour chaque attribut supprimé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

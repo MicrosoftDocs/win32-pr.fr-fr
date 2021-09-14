@@ -3,7 +3,7 @@ title: BUTTONGROUP. Cursor
 description: L’attribut Cursor spécifie ou récupère le type de curseur qui apparaît lorsque la souris se trouve sur un bouton dans le BUTTONGROUP.
 ms.assetid: c1b7e3e1-862b-48c1-bd2d-d9abd9ada14c
 keywords:
-- Lecteur Windows Media BUTTONGROUP. Cursor
+- BUTTONGROUP. cursor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f7b3de12950aed383f48dcde5d8978724037f86e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126855640"
 ---
 # <a name="buttongroupcursor"></a>BUTTONGROUP. Cursor
 
@@ -58,7 +58,7 @@ Si vous spécifiez une valeur de curseur non valide, elle reste à la valeur pr�
 
 Les chemins d’accès aux noms de fichiers de curseur sont ignorés, donc le fichier curseur doit se trouver dans le répertoire par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

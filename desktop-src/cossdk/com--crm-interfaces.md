@@ -1,23 +1,23 @@
 ---
-description: Les interfaces CRM sont requises pour assurer la prise en charge des travailleurs CRM et des compensateurs CRM développés à l’aide de Visual Basic et Visual C++.
+description: les interfaces crm sont requises pour assurer la prise en charge des travailleurs crm et des compensateurs crm développés à l’aide de Visual Basic et Visual C++.
 ms.assetid: 68a75da7-1f35-41a4-8872-e3f4ad1fc30d
 title: Interfaces CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 62ba3235b1cd2a82fc913dd676bbb78324f340cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749005"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922976"
 ---
 # <a name="com-crm-interfaces"></a>Interfaces CRM COM+
 
-Les interfaces CRM sont requises pour assurer la prise en charge des travailleurs CRM et des compensateurs CRM développés à l’aide de Visual Basic et Visual C++.
+les interfaces crm sont requises pour assurer la prise en charge des travailleurs crm et des compensateurs crm développés à l’aide de Visual Basic et Visual C++.
 
 Vous pouvez utiliser le Gestionnaire des ressources CRM (Compensating Compensating) pour intégrer rapidement et facilement des ressources d’application à des transactions Microsoft Distributed Transaction Coordinator (DTC).
 
-Il est plus facile pour les composants écrits avec Visual Basic de créer un enregistrement de journal sous la forme d’une collection de variantes. En outre, les composants Visual Basic sont des threads cloisonnés, ce qui signifie qu’il doit être possible de marshaler les interfaces du cloisonnement multithread à un cloisonnement à thread unique. Les composants CRM développés avec Visual C++ pouvaient également utiliser le modèle de thread cloisonné, bien qu’il soit recommandé d’utiliser à la place le modèle de thread à la fois.
+il est plus facile pour les composants écrits avec Visual Basic de créer un enregistrement de journal sous la forme d’une collection de variantes. en outre, les composants Visual Basic sont des threads cloisonnés, ce qui signifie qu’il doit être possible de marshaler les interfaces du cloisonnement multithread à un cloisonnement à thread unique. Les composants CRM développés avec Visual C++ pouvaient également utiliser le modèle de thread cloisonné, bien qu’il soit recommandé d’utiliser à la place le modèle de thread à la fois.
 
 Les interfaces décrites dans le tableau suivant fournissent des informations de référence détaillées pour les développeurs de données CRM COM+.
 

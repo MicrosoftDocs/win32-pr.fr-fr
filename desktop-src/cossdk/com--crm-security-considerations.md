@@ -4,12 +4,12 @@ ms.assetid: e212c847-b43b-43be-b089-82336551b89a
 title: Considérations sur la sécurité de COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1052f9e8cf4f23dd80e2b4706b7e13c0f39a2aedd9b9a985da2d41101118467d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2ababde9f31c0c2655fbf4f0c46b216ca0cbfee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119638729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126922967"
 ---
 # <a name="com-crm-security-considerations"></a>Considérations sur la sécurité de COM+ CRM
 
