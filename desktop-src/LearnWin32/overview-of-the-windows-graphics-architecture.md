@@ -4,12 +4,12 @@ description: Décrit les API graphiques C++/COM dans Windows.
 ms.assetid: 9654b18b-d615-455d-a92a-6fc2ccda469e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82137f978c017c347ea94f9538e32c9a2273952fd52776dd9275415002a178fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f45ba44f54b947d923b888d51080ff0335119a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897101"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094317"
 ---
 # <a name="overview-of-the-windows-graphics-architecture"></a>vue d’ensemble de l’Architecture graphique Windows
 

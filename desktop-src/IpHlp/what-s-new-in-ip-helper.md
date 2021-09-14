@@ -4,12 +4,12 @@ ms.assetid: fa9d72d0-2f9c-433d-b05a-8423664b2e3e
 title: Nouveautés du programme d’assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3141797e96442f34a94c2d2afc37585ce6dbc944e7fb35cf9b4602afa042c95a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2c1a6eebb3e9e785e8988b822df0b2a80ae6eba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094525"
 ---
 # <a name="whats-new-in-ip-helper"></a>Nouveautés du programme d’assistance IP
 

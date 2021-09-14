@@ -4,12 +4,12 @@ ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Fonctions de gestion de la mémoire
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: 635fa59b6a5b6a549438d8bfed71781d6d9e6fa6a9d2c12524684ded28a0f3df
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a203583016a127a550f609068df8e86da384fa34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094114"
 ---
 # <a name="memory-management-functions"></a>Fonctions de gestion de la mémoire
 

@@ -4,12 +4,12 @@ description: Définition de l’image de curseur
 ms.assetid: FB223131-19AE-41DD-87DE-73992AE2A0CA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4723289155bc7898f6f49e188ad972ca152332c82994b57c79af493c8fe6b572
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe3bc993b7566dee1fa47bd2b53c270ad0e4f64b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094297"
 ---
 # <a name="setting-the-cursor-image"></a>Définition de l’image de curseur
 

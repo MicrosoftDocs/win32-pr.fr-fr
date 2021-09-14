@@ -4,12 +4,12 @@ description: Cette rubrique fournit une vue d’ensemble mathématique des trans
 ms.assetid: 8cc01f45-dd84-4f3e-a5f2-26edc5cbdfa1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12d02976446824bba07829173bb326338a55732b39c640c93319630a209096b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a5a9b09f75b17e4baf8afe5e7fde8643c06982f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118389259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094445"
 ---
 # <a name="appendix-matrix-transforms"></a>Annexe : transformations de matrice
 

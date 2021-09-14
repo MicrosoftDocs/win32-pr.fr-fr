@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df829d09ffbb414bdf145495389d8d14db129d1c0eec2929ac0f7e1f97816f9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fe0d3a73d8734d79d5ed0862f66bf9ba5c030e46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191996"
 ---
 # <a name="findmsgstring-message"></a>Message FINDMSGSTRING
 
@@ -52,11 +52,11 @@ Pointeur vers une structure [**FINDREPLACE**](/windows/win32/api/commdlg/ns-comm
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous devez spécifier la constante **FINDMSGSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
@@ -91,7 +91,7 @@ Pour un message **suivant** ou **remplacer tout** , le membre **indicateurs** pe
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -117,7 +117,7 @@ Pour un message **suivant** ou **remplacer tout** , le membre **indicateurs** pe
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)

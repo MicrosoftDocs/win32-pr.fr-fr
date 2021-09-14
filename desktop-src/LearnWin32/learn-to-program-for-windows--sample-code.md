@@ -4,12 +4,12 @@ description: cette section contient des liens vers des exemples de code pour la 
 ms.assetid: 062006b4-e665-4c7c-a5eb-ee370449bd98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9945fde22990cd7b586c2d44b59066d34e6c51d85abeff093cd69ea7a7ed2172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa8d306edf16b7c1c8981eeee57a8b0b03740e69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094370"
 ---
 # <a name="get-started-with-win32-sample-code"></a>Prise en main avec Win32 : exemple de Code
 

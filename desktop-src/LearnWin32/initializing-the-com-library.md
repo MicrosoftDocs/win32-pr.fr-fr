@@ -4,12 +4,12 @@ description: Initialisation de la bibliothèque COM
 ms.assetid: b044e146-8409-4f8d-87d3-52f21ebc2255
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c1bc9536c186c2af3b604f7eb5666a6a31e7a845cf3b20f64a132119d16cb1e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 663cfb73455e118579f45710788ab72385ada335
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094378"
 ---
 # <a name="initializing-the-com-library"></a>Initialisation de la bibliothèque COM
 

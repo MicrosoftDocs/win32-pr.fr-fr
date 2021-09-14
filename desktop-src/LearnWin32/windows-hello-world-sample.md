@@ -4,12 +4,12 @@ description: cet exemple d’application montre comment créer un programme Wind
 ms.assetid: ec316ad8-d01d-4558-91b6-19fdbba3d520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a437c1b576ab7c1f46341abee1c446d69aaec29585a1ed3966bd1dd289747cef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e932d3b0c524c643022904b08402507d4a603adb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118387443"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094258"
 ---
 # <a name="windows-hello-world-sample"></a>Windows Hello Exemple universel
 

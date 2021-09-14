@@ -4,12 +4,12 @@ ms.assetid: 74976925-1813-4dbd-9438-26fabd704d84
 title: Structures du gestionnaire de transactions du noyau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e51d6216a257048568857fac3c937b282eb9785088a320faf76efc3487e435a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aa8def70e744daa0c1be44ef7973e955d4323da8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119927449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094489"
 ---
 # <a name="kernel-transaction-manager-structures"></a>Structures du gestionnaire de transactions du noyau
 

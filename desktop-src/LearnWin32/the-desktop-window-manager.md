@@ -4,12 +4,12 @@ description: Gestionnaire de fenêtrage
 ms.assetid: 79250d49-dad5-46c6-892d-b92dac14b417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b99585a75bf2b25b086f09a17a0d8d93391b1f94f5018c5d4f83f90937fde620
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4fca8550134ba0c1cdafe0bd5c349061ef900a9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094290"
 ---
 # <a name="the-desktop-window-manager"></a>Gestionnaire de fenêtrage
 

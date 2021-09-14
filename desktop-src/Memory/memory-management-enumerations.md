@@ -4,12 +4,12 @@ ms.assetid: B8CCF4CB-9407-4A96-BDDB-29290AE731F0
 title: Énumérations de la gestion de la mémoire
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: da9f3628c3661bb07bb48b5ebe591f27e4bdbf019d2f1cc4165fd88dbe0794c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: baf11e16360d15e7bbe4dc91a78df1ba17db1d98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094118"
 ---
 # <a name="memory-management-enumerations"></a>Énumérations de la gestion de la mémoire
 

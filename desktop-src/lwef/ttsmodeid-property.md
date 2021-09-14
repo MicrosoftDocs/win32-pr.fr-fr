@@ -4,12 +4,12 @@ description: Propriété TTSModeID
 ms.assetid: 9205c37e-e006-466a-9b33-b98408c01ed7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a720b06362b77418434669146a0d89dea8afd37d7a44c4079b2e12c24fcd2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6852f203f5df716df6cfc5962f9cfa911d8fc1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119607959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191907"
 ---
 # <a name="ttsmodeid-property"></a>Propriété TTSModeID
 
@@ -41,7 +41,7 @@ Retourne ou définit le mode de moteur TTS utilisé pour le caractère.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété détermine l’ID de mode de moteur TTS (conversion de texte par synthèse vocale) pour la sortie parlée d’un caractère. L’ID de mode pour un moteur TTS est une chaîne mise en forme définie par le fournisseur de reconnaissance vocale qui identifie de façon unique le mode du moteur. Pour plus d’informations, consultez [accès à un moteur de reconnaissance vocale dans votre code](accessing-a-speech-engine-in-your-code.md).
 

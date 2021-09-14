@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet de commande activé.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a3d8b77833da20c4a0b4254d4ce3432ff20d2f9b18a1da877adc9664bbff6c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dc0c65d5cfa0438fe9d61eac0c59e916731e057
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191935"
 ---
 # <a name="enabled-property-command-object"></a>Propriété Enabled (objet Command)
 
@@ -33,7 +33,7 @@ Retourne ou définit une valeur indiquant si la **commande** est activée dans l
 
 | Partie      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**Vrai**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Faux**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
+| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**Vrai**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Fausses**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
 
 
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si la **commande** est activée dans l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la propriété [**Enabled**](enabled-property.md) a la valeur **true**, la légende de l’objet de [**commande**](/windows/desktop/lwef/the-command-object) apparaît comme texte normal dans le menu contextuel du caractère lorsque l’application cliente est en entrée-active. Si la propriété **Enabled** a la **valeur false**, la légende apparaît comme texte non disponible (désactivé). Une **commande** désactivée n’est pas non plus accessible pour une entrée vocale.
 

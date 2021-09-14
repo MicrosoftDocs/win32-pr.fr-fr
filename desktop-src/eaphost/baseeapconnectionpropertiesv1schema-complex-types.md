@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b63c04159741f6deb1ad12f4e2d3507ae8d29c093ffd39d7d7cc2299c6ab84db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6466298e0f03dc5b5f20960c5910a29529e65520
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191972"
 ---
 # <a name="baseeapconnectionpropertiesv1-schema-complex-types"></a>Types complexes de schéma baseeapconnectionpropertiesv1
 

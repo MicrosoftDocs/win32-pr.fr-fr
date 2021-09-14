@@ -5,12 +5,12 @@ title: Comparaison des méthodes d’allocation de mémoire
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 418ebbf96b1d6f714e1ae7f23f1c15e918ea0c6fa7eabdf7bb9157bb14808bb2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 541b314c4ff0553ff8812e591c47c87962866bbe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094209"
 ---
 # <a name="comparing-memory-allocation-methods"></a>Comparaison des méthodes d’allocation de mémoire
 

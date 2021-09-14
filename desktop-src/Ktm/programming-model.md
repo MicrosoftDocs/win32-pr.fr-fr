@@ -4,12 +4,12 @@ ms.assetid: 356c66dc-5ddd-472f-835c-2e2cb019bcfd
 title: Utilisation des transactions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eda967e3c8fe165c3a59de6534c26bc125dfb8dd209be68b5914ea099b0023e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 255e40fb38ca4bfb24acdce717f133dbcf0c76f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094474"
 ---
 # <a name="working-with-transactions"></a>Utilisation des transactions
 

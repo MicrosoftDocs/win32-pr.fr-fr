@@ -4,12 +4,12 @@ description: si vous débutez avec la programmation de Windows, il peut être d�
 ms.assetid: 466a66db-7681-4fce-9672-07849cd1b096
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b78c24f38f9f2f410c044637ca3aa59d4baa39e9b671b3485c5b85899b69c2fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 365a9c8509d7cb799bafdfa70c326f1074b64d93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118387394"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094261"
 ---
 # <a name="windows-coding-conventions"></a>Windows Conventions de codage
 
@@ -29,7 +29,7 @@ les en-têtes Windows contiennent un grand nombre de typedefs. Un grand nombre d
 |---------------|---------|----------|
 | **BYTE**      | 8 bits  | Non signé |
 | **DWORD**     | 32 bits | Non signé |
-| **INT32**     | 32 bits | Signé   |
+| **ENTIER**     | 32 bits | Signé   |
 | **INT64**     | 64 bits | Signé   |
 | **LONG**      | 32 bits | Signé   |
 | **LONGLONG**  | 64 bits | Signé   |

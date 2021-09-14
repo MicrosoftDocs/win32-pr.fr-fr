@@ -4,12 +4,12 @@ description: Tables d’accélérateurs
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 504749b6fad794f5f587e035f0dbc81662aa8b5faaf9b9eb13de365dd9a8d312
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2951ee99a31a977e0909de5639fa3110cea10e0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119146442"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094449"
 ---
 # <a name="accelerator-tables"></a>Tables d’accélérateurs
 

@@ -4,12 +4,12 @@ ms.assetid: 93ef3098-b3cc-4b24-ae82-1c10d937f14f
 title: Masques d’accès aux transactions (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faafcce45944e37418191254fc5a2b81d00d9248b27ea5e8753fe8e34a734754
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6b815bcb04a97dbd059c85c6c615a7d607bf77ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119520639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094469"
 ---
 # <a name="transaction-access-masks"></a>Masques d’accès aux transactions
 
@@ -160,11 +160,11 @@ L’appelant dispose des privilèges suivants : **\_ \_ lecture générique** d
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il est recommandé que les gestionnaires de ressources, lors de l’inscription dans une transaction, spécifient les droits du gestionnaire de ressources de transaction lors de l’ouverture d’une transaction. **\_ \_ \_**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

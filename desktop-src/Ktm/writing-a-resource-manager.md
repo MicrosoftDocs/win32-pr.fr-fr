@@ -4,12 +4,12 @@ ms.assetid: 9b62ef58-9897-4573-bda4-8c3ec952b6d2
 title: Écriture d’un Gestionnaire des ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b1443bef61f56a14779612a6275aacbd65e344d7294325bd87b953795f0f8a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b2c47f9a0704f6edaea02d752fe39f01fce61c0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094450"
 ---
 # <a name="writing-a-resource-manager"></a>Écriture d’un Gestionnaire des ressources
 

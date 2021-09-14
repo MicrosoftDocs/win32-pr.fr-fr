@@ -4,12 +4,12 @@ ms.assetid: f86df425-beff-4fea-a437-df9ea07cf415
 title: Informations de référence sur la gestion de la mémoire
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: 4892a9cf742958704a072444896a84d5752a8472b579b52c193c7cb672477e8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 782f8173932e16f9e5179f478690fa29de483b52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094113"
 ---
 # <a name="memory-management-reference"></a>Informations de référence sur la gestion de la mémoire
 

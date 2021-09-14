@@ -4,12 +4,12 @@ description: Cet exemple d’application est un programme de dessin très simple
 ms.assetid: 4E4CCBF3-4FDD-4487-B1F5-A5D0C383226F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fea34ae27fb1be599400e869f7f1f92086bb0c67cd6d5d5cfe75d04109d798c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d12b60fcde56ada3f58d5cd584fe7e865f4b99a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094294"
 ---
 # <a name="simple-drawing-sample"></a>Exemple de dessin simple
 

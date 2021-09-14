@@ -4,12 +4,12 @@ description: Demande d’un objet pour une interface
 ms.assetid: 04296372-4897-426e-9be3-e6862a530ac6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a173342c7dba59c09cdef05c6b20d9d4d37da9d6971e6a7c26c1787b708121bd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3fa740f0ef770e069ee03b644bbfcb9b2c5e0eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119680736"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094438"
 ---
 # <a name="asking-an-object-for-an-interface"></a>Demande d’un objet pour une interface
 

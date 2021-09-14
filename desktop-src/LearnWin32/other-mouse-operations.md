@@ -4,12 +4,12 @@ description: Les sections précédentes ont abordé les clics de souris et le mo
 ms.assetid: 6A5B953F-7032-4AA6-8B64-2E9CBB8F59F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a31877ab5a71819fa896fd1253e7391f9ed748dffff636ab9d3e8591669b7fae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bfba63dce8116d79a557cbbbf8895f17d2a8f1b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118387965"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094326"
 ---
 # <a name="miscellaneous-mouse-operations"></a>Opérations de souris diverses
 

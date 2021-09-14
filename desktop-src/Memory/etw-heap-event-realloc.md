@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntwmi.h
-ms.openlocfilehash: 705f31eaf403c4edd608c0b3347713e43ec3c81746b5efde90e14b7213425963
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7aec225793967c38b97fecae88d28141e48a3cfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094162"
 ---
 # <a name="etw_heap_event_realloc-event"></a>\_Événement de \_ réallocation du tas ETW \_
 
@@ -96,11 +96,11 @@ Le tableau suivant répertorie les valeurs possibles pour le paramètre *source*
 
 Cet événement n’a pas de paramètres.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’événement de réallocation d' **\_ événement du tas \_ \_ ETW** est consigné sur toutes les réallocations de tas.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

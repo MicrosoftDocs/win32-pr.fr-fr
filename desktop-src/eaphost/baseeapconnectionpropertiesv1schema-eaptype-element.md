@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3f2681e5682ad98ab5f4185174996920315d8c3b81dde8ba69d13ca178904ded
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88361931946f8a209c5b1c41bd17fcbd0e44096d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118498785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191967"
 ---
 # <a name="eaptype-element-v1-schema-connection-property"></a>Élément EapType (propriété de connexion de schéma v1)
 
@@ -31,15 +31,15 @@ L’élément **EapType** capture la configuration spécifique à la méthode à
  />
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément **EapType** est abstrait ; chaque méthode doit définir et utiliser un élément dérivé dans les documents d’instance.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Fonction | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

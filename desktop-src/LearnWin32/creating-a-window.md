@@ -3,13 +3,13 @@ title: Création d’une fenêtre
 description: Création d’une fenêtre
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 253eb68747ce7511c11aeeba27343d7dd56c7d0a6f78f316d72aab83d11ddd92
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.date: 09/10/2021
+ms.openlocfilehash: d05536183a2e5a2504a096a22e11bea2098f08ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119870029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127094418"
 ---
 # <a name="creating-a-window"></a>Création d’une fenêtre
 
@@ -19,7 +19,7 @@ Une *classe de fenêtre* définit un ensemble de comportements que plusieurs fen
 
 Chaque fenêtre doit être associée à une classe de fenêtre, même si votre programme ne crée jamais qu’une seule instance de cette classe. Il est important de comprendre qu’une classe de fenêtre n’est pas une « classe » dans le sens C++. Au lieu de cela, il s’agit d’une structure de données utilisée en interne par le système d’exploitation. Les classes de fenêtre sont inscrites auprès du système au moment de l’exécution. Pour inscrire une nouvelle classe de fenêtre, commencez par remplir une structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) :
 
-```C++
+```cpp
 // Register the window class.
 const wchar_t CLASS_NAME[]  = L"Sample Window Class";
 
@@ -38,11 +38,11 @@ Vous devez définir les membres de structure suivants :
 
 Comme les noms de classe sont locaux pour le processus actuel, le nom doit être unique au sein du processus. toutefois, les contrôles de Windows standard ont également des classes. Si vous utilisez l’un de ces contrôles, vous devez choisir des noms de classe qui ne sont pas en conflit avec les noms de classe de contrôle. Par exemple, la classe de fenêtre pour le contrôle Button est nommée « Button ».
 
-La structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) a d’autres membres qui ne sont pas indiqués ici. Vous pouvez les définir sur zéro, comme indiqué dans cet exemple, ou les remplir. La documentation MSDN décrit en détail la structure.
+La structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) a d’autres membres qui ne sont pas indiqués ici. Vous pouvez les définir sur zéro, comme indiqué dans cet exemple, ou les remplir. La documentation [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) décrit la structure en détail.
 
 Ensuite, transmettez l’adresse de la structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) à la fonction [**registerClass**](/windows/desktop/api/winuser/nf-winuser-registerclassa) . Cette fonction enregistre la classe de fenêtre avec le système d’exploitation.
 
-```C++
+```cpp
 RegisterClass(&wc);
 ```
 
@@ -50,7 +50,7 @@ RegisterClass(&wc);
 
 Pour créer une nouvelle instance d’une fenêtre, appelez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) :
 
-```C++
+```cpp
 HWND hwnd = CreateWindowEx(
     0,                              // Optional window styles.
     CLASS_NAME,                     // Window class
@@ -72,7 +72,7 @@ if (hwnd == NULL)
 }
 ```
 
-Vous pouvez consulter les descriptions des paramètres détaillés sur MSDN, mais voici un récapitulatif rapide :
+Vous pouvez lire les descriptions des paramètres détaillés dans la documentation de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , mais voici un résumé rapide :
 
 - Le premier paramètre vous permet de spécifier des comportements facultatifs pour la fenêtre (par exemple, des fenêtres transparentes). Définissez ce paramètre sur zéro pour les comportements par défaut.
 - `CLASS_NAME` nom de la classe de fenêtre. Définit le type de fenêtre que vous êtes en train de créer.
@@ -86,7 +86,7 @@ Vous pouvez consulter les descriptions des paramètres détaillés sur MSDN, mai
 
 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) retourne un handle vers la nouvelle fenêtre, ou zéro si la fonction échoue. Pour afficher la fenêtre, c’est-à-dire rendre la fenêtre visible, transmettez le handle de fenêtre à la fonction [**ShowWindow**](/windows/desktop/api/winuser/nf-winuser-showwindow) :
 
-```C++
+```cpp
 ShowWindow(hwnd, nCmdShow);
 ```
 
@@ -94,7 +94,7 @@ Le paramètre *HWND* est le handle de fenêtre retourné par [**CreateWindowEx**
 
 Voici le code complet pour créer la fenêtre. N’oubliez pas que `WindowProc` n’est toujours qu’une déclaration anticipée d’une fonction.
 
-```C++
+```cpp
 // Register the window class.
 const wchar_t CLASS_NAME[]  = L"Sample Window Class";
 
