@@ -4,12 +4,12 @@ ms.assetid: bf470f5b-f7e5-4f98-9b60-12da599ebf26
 title: Message LINE_CALLDEVSPECIFICFEATURE (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb8dde8377f952f02f021209b01f846ba323cc7dbf8795743422e2c83e457b5b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2891f019035f53be4dbc0a40de429e5c0d9dc567
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217852"
 ---
 # <a name="line_calldevspecificfeature-message"></a>\_Message CALLDEVSPECIFICFEATURE de ligne
 
@@ -68,7 +68,7 @@ Spécifique à l’appareil.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message de **ligne \_ CALLDEVSPECIFICFEATURE** est utilisé par un fournisseur de services conjointement avec la fonction [**\_ lineDevSpecificFeature TSPI**](/windows/win32/api/tspi/nf-tspi-tspi_linedevspecificfeature) . Sa signification est spécifique à l’appareil.
 
@@ -76,7 +76,7 @@ L’interface TAPI envoie le message [**\_ DEVSPECIFICFEATURE de ligne**](/previ
 
 Il n’y a aucun message directement correspondant au niveau de l’interface TAPI, bien que ce message soit très similaire à la ligne \_ DEVSPECIFICFEATURE. Au niveau de TSPI, les messages de fonctionnalités spécifiques à l’appareil sont répartis entre les événements de rapport sur les lignes et les adresses, et ces événements de rapport sur les appels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

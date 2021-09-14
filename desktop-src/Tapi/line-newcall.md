@@ -4,12 +4,12 @@ ms.assetid: 36122dfb-1ed6-459d-aa2b-69c86daaddd8
 title: Message LINE_NEWCALL (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f541f7535e9b41dc66a83b8d033d3ff7adf4d51f6e78f275d2695cb5ae7a35b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed3e7380b2f328283e5f5cad9e84f5a1d0c450dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217676"
 ---
 # <a name="line_newcall-message"></a>\_Message NEWCALL de ligne
 
@@ -70,7 +70,7 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fournisseur de services doit envoyer le message [**\_ CALLSTATE de ligne**](/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)) comme message suivant pour cet appel. L’événement de **ligne \_ NEWCALL** est inhabituel dans le fait qu’il renvoie également une valeur au fournisseur de services.
 
@@ -80,7 +80,7 @@ Si le fournisseur de services passe un grand nombre d’appels à l’interface 
 
 Il n’y a aucun message directement correspondant au niveau de l’interface TAPI. Ce message est utilisé au niveau TSPI pour introduire de manière unique et sans ambiguïté un nouvel appel entrant à TAPI et récupérer l’identificateur opaque TAPI pour l’appel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

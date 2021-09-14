@@ -4,12 +4,12 @@ ms.assetid: 5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75
 title: Message LINE_CREATEDIALOGINSTANCE (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e670a0dbcdde82721e5441b95983d5852e821cc981062947a0d6b76639ad762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c92088b79bdd085874d14817e6e9652f03c6c00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217793"
 ---
 # <a name="line_createdialoginstance-message"></a>\_Message CREATEDIALOGINSTANCE de ligne
 
@@ -40,7 +40,7 @@ Pointeur vers une structure [**TUISPICREATEDIALOGINSTANCEPARAMS**](/windows/win3
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

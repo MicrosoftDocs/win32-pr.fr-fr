@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: 30e0a532cd39f2150591a3eb74ed9bbba83a7080
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535221"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217985"
 ---
 # <a name="keyusageisnonrepudiationenabled-property"></a>KeyUsage. IsNonRepudiationEnabled, propriété
 
@@ -39,13 +39,13 @@ KeyUsage.IsNonRepudiationEnabled As Boolean
 
 Si la **valeur est true**, le bit nonRepudiationEnabled est défini.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

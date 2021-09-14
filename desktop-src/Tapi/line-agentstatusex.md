@@ -4,12 +4,12 @@ ms.assetid: a0709367-9105-43af-9772-0161d94c098a
 title: Message LINE_AGENTSTATUSEX (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abc622d1df7b9d86009822f9920cf9f510c68b71a28952a4146e98bdbe69e9da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c9ff1a39fd6aacf69922693a54198426d267720
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119405220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217865"
 ---
 # <a name="line_agentstatusex-message"></a>\_Message AGENTSTATUSEX de ligne
 
@@ -63,7 +63,7 @@ Sinon, *dwParam3* a la valeur zéro.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

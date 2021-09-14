@@ -4,12 +4,12 @@ ms.assetid: b76a7fee-0fae-41fb-a8cd-6803458d9182
 title: ITMedia ::p ut_FormatCodes, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dac8c2d9e102c6a923a535b8141c546885c583668e32fddb1fc607a8c1179a99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9131f946635c2bb066e704f1d6245c1c30d1372
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120012959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217921"
 ---
 # <a name="itmediaput_formatcodes-method"></a>ITMedia ::p ut \_ FormatCodes, méthode
 
@@ -39,7 +39,7 @@ Liste des codes de format de charge utile du support.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -57,11 +57,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand une liste de formats de charge utile est donnée, cela implique que tous ces formats peuvent être utilisés dans la session, mais que le premier de ces formats soit le format par défaut de la session. Lorsque le protocole de transport est RTP, les codes de format sont des types de charge utile RTP.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

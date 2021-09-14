@@ -4,12 +4,12 @@ ms.assetid: f06140d0-f41a-4228-93c5-21d609af5473
 title: Constantes LINEADDRESSSTATE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddf746d98328df51497374b990eb23f3885516ee1374d9cfdafb8799d016fb74
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 483ac665c41989c65b43419442601dfb70667dc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761851"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217548"
 ---
 # <a name="lineaddressstate_-constants"></a>\_Constantes LINEADDRESSSTATE
 
@@ -107,13 +107,13 @@ Les paramètres de terminal pour l’adresse ont été modifiés.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
 Une application est avertie des modifications apportées à ces éléments d’État dans le message de [**ligne \_ ADDRESSSTATE**](line-addressstate.md) . Les fonctionnalités de l’appareil de l’adresse indiquent les modifications d’état d’adresse qui peuvent être signalées pour cette adresse.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

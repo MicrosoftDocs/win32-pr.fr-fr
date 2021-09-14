@@ -4,12 +4,12 @@ ms.assetid: 530af273-82ba-4310-8aac-266d657e1bfe
 title: Constantes LINEADDRCAPFLAGS_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36ee1612c0d57b98a5f3caf82bcd26988fd5d9455c34e5caea5832153af06a50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27ce6c8bebb5683d5ecb7d576ff7d376ad0d62cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003117"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217593"
 ---
 # <a name="lineaddrcapflags_-constants"></a>\_Constantes LINEADDRCAPFLAGS
 
@@ -337,11 +337,11 @@ Spécifie si un appel entièrement nouveau peut être établi pour une utilisati
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

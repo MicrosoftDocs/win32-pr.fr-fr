@@ -4,12 +4,12 @@ ms.assetid: 738dcb20-99b5-44fe-8ad9-b14b8d977f53
 title: Message LINE_CALLHUBCLOSE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e65c479c54897d3f90406171a2d109434752dc0880893f40b09e5717a28fd21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b538d6f154f3dacb2d779b6233722df16cc635d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217836"
 ---
 # <a name="line_callhubclose-message"></a>\_Message CALLHUBCLOSE de ligne
 
@@ -61,15 +61,15 @@ Réservé. Définit la valeur 0.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message provient de l’interface TAPI plutôt que d’un fournisseur de services, ce qui signifie qu’il n’y a aucun message TSPI correspondant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

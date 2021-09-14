@@ -4,12 +4,12 @@ ms.assetid: f0f132a0-2e8e-478f-909b-c100aa360daa
 title: Constantes LINEADDRESSMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4863b79c4527395f6ecb2d28c4d9ef718ff5a7fd99681185ba892bac2b4639ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e5e926772c82a36865c7f3b95c1ca1321db5682
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761861"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217588"
 ---
 # <a name="lineaddressmode_-constants"></a>\_Constantes LINEADDRESSMODE
 
@@ -37,13 +37,13 @@ L’adresse est spécifiée par son numéro de téléphone.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 
 Cette constante est utilisée pour sélectionner une adresse sur une ligne sur laquelle un appel doit être généré. Le modèle habituel sélectionne l’adresse à l’aide de son identificateur d’adresse. Les identificateurs d’adresse sont le mécanisme utilisé pour identifier les adresses dans l’interface TAPI. Toutefois, dans certains environnements, lors de la création d’un appel, il est souvent plus pratique d’identifier l’adresse d’origine d’un appel par numéro de téléphone plutôt que par identificateur d’adresse. Par exemple, la modélisation possible d’un grand nombre de stations (tierces) sur le commutateur à l’aide d’un périphérique de ligne avec de nombreuses adresses. La ligne représente l’ensemble de toutes les stations, et chaque station est mappée à une adresse avec son propre numéro de téléphone principal et son identificateur d’adresse.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

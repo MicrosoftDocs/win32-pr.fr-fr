@@ -4,12 +4,12 @@ ms.assetid: 15f616de-db47-4577-9a47-94f9292253dd
 title: Message LINE_LINEDEVSTATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 261e7527354b84801437e48ffc13ba4dbad60ced0cca61be65eb96ce6417bb10
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 079e4494b7eb2e1bfe46b5470138e4e9f44fbb0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119682385"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217697"
 ---
 # <a name="line_linedevstate-message"></a>\_Message LINEDEVSTATE de ligne
 
@@ -65,15 +65,15 @@ Si *dwParam1* est LINEDEVSTATE \_ Réinit et que le message a été émis par l�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’envoi de la **ligne \_ LINEDEVSTATE** message peut être contrôlé avec [**lineSetStatusMessages**](/windows/desktop/api/Tapi/nf-tapi-linesetstatusmessages). Une application peut indiquer des modifications d’élément d’État sur lesquelles elle souhaite être notifiée. Par défaut, tous les rapports d’État sont désactivés, à l’exception de LINEDEVSTATE \_ reinit, qui ne peut pas être désactivé. Ce message est envoyé à toutes les applications qui ont un handle vers la ligne, y compris celles qui ont appelé [**lineOpen**](/windows/desktop/api/Tapi/nf-tapi-lineopen) avec le paramètre *DWPRIVILEGES* défini sur LINECALLPRIVILEGE \_ None, LINECALLPRIVILEGE \_ Owner, LINECALLPRIVILEGE \_ Monitor ou des combinaisons autorisées de ces.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

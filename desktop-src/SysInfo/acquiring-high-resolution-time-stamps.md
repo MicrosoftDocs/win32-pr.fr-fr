@@ -4,12 +4,12 @@ ms.assetid: D66E0FC2-3AF2-489B-B4B5-78648905B77B
 title: Acquisition d’horodatages haute résolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e25c50cb602dd7e5c53c967c12321ec02a6ea68613767f4019b2def7f5793b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9a1300967738b717ab8d8c822bf2af3f6a4a7ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117764623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217945"
 ---
 # <a name="acquiring-high-resolution-time-stamps"></a>Acquisition d’horodatages haute résolution
 
@@ -225,7 +225,7 @@ Vous n’avez pas besoin d’effectuer cette vérification vous-même. Windows s
 -   vérification des valeurs retournées par l’instruction CPUID concernant les caractéristiques TSC
 -   documentation du fabricant du processeur
 
-l’exemple suivant montre les informations d’invariant TSC fournies par l’utilitaire Windows Sysinternals Coreinfo.exe utility ([www.sysinternals.com](https://www.sysinternals.com)). Un astérisque signifie « true ».
+l’exemple suivant montre les informations sur les invariants TSC fournies par l’utilitaire Windows Sysinternals Coreinfo.exe utility ([www.sysinternals.com](https://www.sysinternals.com)). Un astérisque signifie « true ».
 
 ``` syntax
 > Coreinfo.exe 

@@ -4,12 +4,12 @@ ms.assetid: 1c1a729c-a6bb-4432-9617-4a892c76cb8d
 title: Message LINE_MONITORDIGITS (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49324bb90e774d15baaf58b873a7fdbfa9bfc938c8d86ea4be8514b02768bd70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c6e85ed515d20c18c6e41cdb185b036312c54ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119774229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217684"
 ---
 # <a name="line_monitordigits-message"></a>\_Message MONITORDIGITS de ligne
 
@@ -61,11 +61,11 @@ Mode de chiffrement détecté. Ce paramètre doit être une et une seule des [**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message de **ligne \_ MONITORDIGITS** est envoyé à l’application qui a activé la surveillance des chiffres.
 
@@ -73,7 +73,7 @@ Le message de **ligne \_ MONITORDIGITS** est envoyé à l’application qui a ac
 
 Si le fournisseur de services ne génère pas l’horodateur (par exemple, s’il a été créé à l’aide d’une version antérieure de TAPI), TAPI fournit un horodateur au point le plus proche du fournisseur de services qui génère l’événement afin que l’horodatage synthétisé soit le plus précis possible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

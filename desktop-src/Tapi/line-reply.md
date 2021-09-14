@@ -4,12 +4,12 @@ ms.assetid: 5d98ed8b-b75e-49f8-aba3-c6eee89e91c1
 title: Message LINE_REPLY (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: febe10c822a469465984b715c7b6f23d150f1f068730d4e92190b05ce50cd535
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8ed963a777a5073b0182e809eec83fb7f904768e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217609"
 ---
 # <a name="line_reply-message"></a>Message de réponse de ligne \_
 
@@ -61,11 +61,11 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les fonctions qui exécutent de façon asynchrone renvoient une valeur d’identificateur de demande positive à l’application. Cet identificateur de demande est retourné avec le message de réponse pour identifier la demande qui a été effectuée. L’autre paramètre du message **de \_ réponse** à la ligne comporte l’indication de réussite ou d’échec. Les erreurs possibles sont les mêmes que celles définies par la fonction correspondante. Ce message ne peut pas être désactivé.
 
@@ -76,7 +76,7 @@ Dans certains cas, une application peut ne pas recevoir le message de **\_ répo
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

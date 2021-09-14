@@ -5,11 +5,11 @@ title: Message LINE_CALLINFO (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d6005ab5383816ead440f5a1a7d580bfaccb5c1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541114"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217844"
 ---
 # <a name="line_callinfo-message"></a>\_Message CALLINFO de ligne
 
@@ -61,7 +61,7 @@ Inutilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
@@ -78,7 +78,7 @@ Ces **messages \_ CALLINFO de ligne** ne sont pas envoyés lorsqu’une notifica
 
 Aucun **message \_ CALLINFO de ligne** n’est envoyé pour un appel une fois que l’appel est passé à l’état *inactif* . Plus précisément, les modifications du nombre de propriétaires et de moniteurs ne sont pas signalées, car les applications libèrent leurs Handles pour l’appel inactif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

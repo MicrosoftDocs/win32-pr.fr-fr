@@ -4,12 +4,12 @@ ms.assetid: d3c176ba-8b4b-4b7c-a603-130dfa761898
 title: Message LINE_SENDDIALOGINSTANCEDATA (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b955d890c385894467fa0f8f3f93ec50856c746c72f0957ecbe33af203917bf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0af7ae5bfc942d4408ac5ce2438cd9a88c1f1f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217601"
 ---
 # <a name="line_senddialoginstancedata-message"></a>\_Message SENDDIALOGINSTANCEDATA de ligne
 
@@ -47,7 +47,7 @@ Taille en octets du bloc de paramètres à transmettre à la DLL de l’interfac
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

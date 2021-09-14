@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ksecdd.sys
 - Cng.sys
-ms.openlocfilehash: eae1a46b43278c836ff6ce318dfdce7302bb0e052664a7326f9043a60eec72d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d847d34ffd11e158170f55599de0ceb3acf3c697
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118905628"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218001"
 ---
 # <a name="systemprng-function"></a>SystemPrng fonction)
 
@@ -62,11 +62,11 @@ Nombre d'octets à récupérer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne toujours la **valeur true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

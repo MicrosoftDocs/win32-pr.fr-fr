@@ -4,12 +4,12 @@ ms.assetid: f37ba549-c8dc-4a7c-bfe6-8e5f733d9750
 title: Constantes LINEADDRESSSHARING_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4fe92c92efd75a4f6e731944c487acff2ffd70e173dd04b03244ec9d55e8aba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 785c7e924ffc958d3fe14b739bb2eb28dec322a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217556"
 ---
 # <a name="lineaddresssharing_-constants"></a>\_Constantes LINEADDRESSSHARING
 
@@ -67,13 +67,13 @@ Il s’agit d’une adresse dont l’état inactif/occupé est rendu disponible 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
 Le mode de partage d’une adresse entre les lignes peut affecter le comportement de cette adresse. [**Ligne \_**](line-callstate.md) Les messages CALLSTATE et [**line \_ ADDRESSSTATE**](line-addressstate.md) sont envoyés à l’application en réponse aux activités des stations de pontage. Ces messages permettent à une application d’effectuer le suivi de l’état de l’adresse.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

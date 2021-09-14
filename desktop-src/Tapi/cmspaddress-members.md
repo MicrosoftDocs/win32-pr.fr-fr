@@ -4,18 +4,18 @@ ms.assetid: ef15adef-1f4d-4bfc-8362-97fe1d118204
 title: Membres CMSPAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ccbf01bed8ea3a567adf19a72c71f00e24e49b38bcb25d5f4564484afb509e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83213646427e7379b3eb2b45a0670f7908877175
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118869193"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217937"
 ---
 # <a name="cmspaddress-members"></a>Membres CMSPAddress
 
 
 
-| Types de membres                    | Name                    | Description                                                                                      |
+| Types de membres                    | Nom                    | Description                                                                                      |
 |---------------------------------|-------------------------|--------------------------------------------------------------------------------------------------|
 | IUnknown                        | \*m \_ pFTM               | Pointeur vers le marshaleur libre de threads.                                                         |
 | HANDLE                          | m \_ htEvent              | Handle de l’événement de Tapi3.dll, qui est utilisé pour notifier l’interface TAPI que le MSP souhaite lui envoyer des données. |

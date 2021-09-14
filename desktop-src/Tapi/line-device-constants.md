@@ -4,12 +4,12 @@ ms.assetid: 422643a6-90a5-4e95-b5aa-946b7fbf53bc
 title: Constantes de périphérique de ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd1987e0db8e19664b4c115f32f9c9e319ceabff61c0cd222f67eba09e1fbd72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdd797da867ceb8eec9c8d6d98fe11b7d511e989
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119873489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217777"
 ---
 # <a name="line-device-constants"></a>Constantes de périphérique de ligne
 

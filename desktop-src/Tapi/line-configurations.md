@@ -4,12 +4,12 @@ ms.assetid: cb599a4d-80dd-40fe-b448-f9ea58f01124
 title: Configurations de ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d3705854a5bd485dba01452a3885e52c3c2d0baf0d495a65a2db24d75894eeb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8722dab15763822f6535783ecc8bc18e681e13ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120126249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217785"
 ---
 # <a name="line-configurations"></a>Configurations de ligne
 
