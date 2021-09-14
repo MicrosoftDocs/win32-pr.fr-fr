@@ -4,12 +4,12 @@ ms.assetid: 01bc261d-dfee-430e-86c9-cfafe82856c8
 title: Mappage des données de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1576844f13dda80a6b9d754fc807ef8a35514dcfedd88dc04cf233cfb2a1bfb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec2b4ec93efab1cc9023bedfa5479c3a1fc81987
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147191"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239969"
 ---
 # <a name="mapping-locale-data"></a>Mappage des données de paramètres régionaux
 

@@ -4,12 +4,12 @@ ms.assetid: 7287e183-cfeb-4970-a28a-92909579ad06
 title: LOCALE_SSORT_CONSTANTS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a32e8e919004bd2a360d20e150de5cc02e4a711e7a6f3def0c66172b779524
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e3f9efb9f9528a38385f0a79f0acebefd9d445e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240006"
 ---
 # <a name="locale_ssort_constants"></a>paramètres régionaux \_ SSORT \_ constantes
 

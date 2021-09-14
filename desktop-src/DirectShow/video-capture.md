@@ -4,12 +4,12 @@ ms.assetid: 92051a84-5011-42ed-be68-e8841552ca1b
 title: Capture vidéo (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c856faede4aaae4f5f19f5c5b292da4e56ac1e1243bc57de22c55a8b77a7ff
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b9d63da84f74152c11e1126d11f6dfc450d8547b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119432129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240563"
 ---
 # <a name="video-capture-directshow"></a>Capture vidéo (DirectShow)
 

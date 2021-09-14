@@ -4,12 +4,12 @@ ms.assetid: cdd4f02a-cfe6-4a23-9fc2-f4cb810379aa
 title: Importation du InstallExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586557130c6aa9af197d5d28f6bd750f4de736feb6982f3b7f12ce73ccf41c83
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8e4728b0a59c92dcc0d007fc816fd298455e049
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119430769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021378"
 ---
 # <a name="importing-the-installexecutesequence"></a>Importation du InstallExecuteSequence
 

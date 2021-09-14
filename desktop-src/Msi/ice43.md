@@ -4,18 +4,18 @@ ms.assetid: 7e58e303-e512-4707-a0bf-2095ec8ec502
 title: ICE43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c69af661b22d851b50a74bdffb9534b1e269dde4e428440882ee2d52813a68c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c9df4a6051557fca3e185f56ca3ad7978c2c0b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635205"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021556"
 ---
 # <a name="ice43"></a>ICE43
 
 ICE43 vérifie que les raccourcis qui ne font pas référence à une fonctionnalité en tant que cible (raccourcis non publiés) se trouvent dans des composants dont l’entrée de Registre HKCU est le chemin de leur clé.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE43 publie un message d’erreur si un raccourci non publié se trouve dans un composant qui n’a pas d’entrée de Registre HKCU comme chemin d’accès de clé.
 

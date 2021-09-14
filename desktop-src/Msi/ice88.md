@@ -4,12 +4,12 @@ ms.assetid: 9bb253fd-e231-4016-807d-3b1068ecff68
 title: ICE88
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cb49ce6cb4363cfe89879f6e72b7ce801c063ea2b278c03dacf5cbadacddce9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0f59197259f8e5e1831c055618a85854d9f7c427
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120105219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021466"
 ---
 # <a name="ice88"></a>ICE88
 
@@ -28,7 +28,7 @@ ICE88 analyse les tables et les propriétés suivantes.
 -   [**Propriété CommonFiles64Folder**](commonfiles64folder.md)
 -   [**Propriété System64Folder**](system64folder.md)
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE88 publie l’avertissement suivant.
 

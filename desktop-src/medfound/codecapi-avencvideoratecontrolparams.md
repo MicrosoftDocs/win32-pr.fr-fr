@@ -4,12 +4,12 @@ ms.assetid: 8AF841A8-E121-4C41-BD3F-26760232E857
 title: CODECAPI_AVEncVideoRateControlParams, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df0af9d4eb903725b1a4ae326d71ce07072428e0667a7032a86448f1e270f734
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63e292ee5b1b8a9dc8a63d0e445ffbf60b9c91b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974878"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236261"
 ---
 # <a name="codecapi_avencvideoratecontrolparams-property"></a>CODECAPI \_ propriété AVEncVideoRateControlParams
 
@@ -23,7 +23,7 @@ Spécifie les paramètres de contrôle de la fréquence vidéo pour un encodeur 
 
 **CODECAPI \_ AVEncVideoRateControlParams**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

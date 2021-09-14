@@ -4,12 +4,12 @@ ms.assetid: 37d2a352-fe8a-4705-8af9-2d0927b43afe
 title: LOCALE_IINTLCURRDIGITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c1e1fc440a4c2740871ac08ea9dc69ef64beda17b3ce78e65456794574080e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49a6a27793200df6a7f166f1737073f25f472686
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240210"
 ---
 # <a name="locale_iintlcurrdigits"></a>paramètres régionaux \_ IINTLCURRDIGITS
 

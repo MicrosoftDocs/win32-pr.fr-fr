@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cde2bbee996183ad39067aed3b98a64dd5abb40f87c6746d7dda305bdb0e7438
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 099490461f5fbf6feb009e98c0228165938326d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012107"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020986"
 ---
 # <a name="gllightf-function"></a>glLightf fonction)
 
@@ -93,7 +93,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glLightf** définit la valeur ou les valeurs des paramètres de la source lumineuse individuelle. Le paramètre *Light* nomme la lumière et est un nom symbolique de la forme GL \_ Light *i*, où 0 = *i* < \_ lumières Max GL \_ .
 
@@ -109,7 +109,7 @@ Les fonctions suivantes récupèrent les informations relatives à la fonction *
 
 [**glIsEnabled**](glisenabled.md) avec argument GL \_ Lighting
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

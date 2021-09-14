@@ -4,12 +4,12 @@ ms.assetid: 74cb455b-a53e-4c6b-98ff-08cf0858f11f
 title: ICE30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba807ec1eb3bde54b1f115e93c531f24414b75e7a293c8ff1b7d7ff1d3abca8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78fa96899231015d864e5a0912b8ff73cedbbe75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021581"
 ---
 # <a name="ice30"></a>ICE30
 
@@ -21,11 +21,11 @@ ICE30 vérifie les noms de fichiers longs (LFN) et les noms de fichiers courts (
 
 ICE30 n’évalue pas les propriétés dans la résolution des répertoires, car ces propriétés peuvent changer au moment de l’exécution et modifier le schéma de résolution d’annuaire. Cela signifie que ICE30 peut détecter des collisions de fichiers en raison des répertoires ayant la même propriété dans leurs chemins d’accès, mais ne détecte pas les collisions résultant de deux propriétés ayant la même valeur.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE30 publie un message d’erreur pour chaque paire de composants qui installe le même fichier dans le même répertoire.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 L’exemple présenté retourne chaque erreur suivante deux fois.
 

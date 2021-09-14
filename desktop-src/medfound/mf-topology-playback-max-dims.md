@@ -4,12 +4,12 @@ ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
 title: Attribut MF_TOPOLOGY_PLAYBACK_MAX_DIMS (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e98575a32b1d68414cb4d94a547273aa4986e03dc707023d5c40f9860b77b5a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d1fc6a57c5e031bc6f35f36e688bd44986f541b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119604779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236130"
 ---
 # <a name="mf_topology_playback_max_dims-attribute"></a>\_ \_ \_ Attribut Dim Max playback de lecture de la topologie MF \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**MFSetAttributeSize**](/windows/desktop/ap
 
 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le chargeur de topologie utilise cet attribut pour optimiser le pipeline avant le démarrage de la lecture. Si vous définissez cet attribut, affectez également à l’attribut [ \_ \_ \_ \_ optimisations de la lecture statique de la topologie MF](mf-topology-static-playback-optimizations.md) la **valeur true**.
 
@@ -37,7 +37,7 @@ Les 32 bits supérieurs de la valeur de l’attribut contiennent la largeur et l
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

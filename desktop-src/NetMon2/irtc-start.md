@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 17ccb07a97112cab4390dc1eece2bf6fce51acf1c80244ed03253b5a2f6112b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ee30112baf7813c983230fb90cd15ea7f52e2bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118132918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021066"
 ---
 # <a name="irtcstart-method"></a>IRTC :: Start, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous redémarrez la capture à l’aide des méthodes IRTC :: Start et [IRTC :: Stop](irtc-stop.md) , vous devez appeler la méthode [IRTC :: configure](irtc-configure.md) pour reconfigurer la connexion chaque fois que vous appelez IRTC :: Start pour redémarrer la capture de données.
 
@@ -66,7 +66,7 @@ Lorsque vous redémarrez la capture à l’aide des méthodes IRTC :: Start et 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: e9be1c09-8468-4956-9aa0-12383ade4718
 title: ICE03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4814bb8023b32c85e752201909f77bd851ec3545c907c03e1c2349a34117d4e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 017c13ee568a0efe4d88c28594fb568a7b4a0736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946643"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021635"
 ---
 # <a name="ice03"></a>ICE03
 
 ICE03 valide les types de données et les clés étrangères en fonction de la [ \_ table de validation](-validation-table.md) et des tables de base de données dans le fichier .msi.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE03 publie les messages suivants pour les erreurs de validation.
 

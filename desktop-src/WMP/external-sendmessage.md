@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4985bae2f9170bdb0db1d6cdb995f2c14fe813bcb061485c179bc058539e84c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4648f3cf433a2828d3c97604ebf9ee6e7223b7f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192315"
 ---
 # <a name="externalsendmessage-method"></a>External. sendMessage, méthode
 
@@ -62,15 +62,15 @@ External.sendMessage(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message est envoyé de manière asynchrone. Autrement dit, cette méthode retourne immédiatement au lieu d’attendre que le message soit traité. Lorsque le plug-in termine le traitement du message, il appelle la méthode [IWMPContentPartnerCallback :: SendMessageComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete) , qui à son tour appelle le gestionnaire d’événements [OnSendMessageComplete](external-onsendmessagecomplete-event.md) du script.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

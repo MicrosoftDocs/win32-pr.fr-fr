@@ -4,12 +4,12 @@ ms.assetid: 4e1450aa-bf89-4d44-b463-4016660f5508
 title: Propriété MSINODISABLEMEDIA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd4179995de7d509699b642ea7314497206d300850c3a83915dcdbd9901d2a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 93510263cbe182c66305dcc08c10d908709e1259
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021316"
 ---
 # <a name="msinodisablemedia-property"></a>Propriété MSINODISABLEMEDIA
 
@@ -21,7 +21,7 @@ Quand **MSINODISABLEMEDIA** n’est pas défini, le programme d’installation p
 
 Si [**DISABLEMEDIA**](-disablemedia.md) est listé dans la propriété [**AdminProperties**](adminproperties.md) , la définition de **MSINODISABLEMEDIA** empêche la définition de **DISABLEMEDIA** au cours d’une installation d’administration. Dans ce cas, le programme d’installation peut inscrire une source de média et un utilisateur peut alors avoir la possibilité de réinstaller à partir de la source du média si l’image d’installation d’administration d’origine n’est plus disponible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

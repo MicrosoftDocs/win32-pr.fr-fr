@@ -4,12 +4,12 @@ ms.assetid: 44af5e03-5f0a-4564-b9d6-b8c935df35b2
 title: Attributs dans Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f46cc919f426ff7b0862de73d8852291d25b7e31f2b5d67d7a4955369be6d17
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6e7893586aa1e966b95c1af5d04246bbb0c82ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236381"
 ---
 # <a name="attributes-in-media-foundation"></a>Attributs dans Media Foundation
 

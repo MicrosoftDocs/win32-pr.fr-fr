@@ -4,12 +4,12 @@ ms.assetid: 2d4d3689-a45a-4088-b466-e2b3bf4c8fb5
 title: Icon, attribut de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7323d9c3d8dc9bef1bfd4cd275a20dfcadaa3be946bc78fd358a2d6484db53
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cb615a53c589ebc2ad2cafb8a2ff7dec902865e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021409"
 ---
 # <a name="iconsize-control-attribute"></a>Icon, attribut de contrôle
 
@@ -39,7 +39,7 @@ Un fichier d’icône peut contenir plusieurs tailles différentes de la même i
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur un contrôle, incluez les bits d’icône dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

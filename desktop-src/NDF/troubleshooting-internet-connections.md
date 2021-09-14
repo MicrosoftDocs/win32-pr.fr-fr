@@ -4,12 +4,12 @@ description: Dans ce scénario, un utilisateur tente d’accéder à www.msn.com
 ms.assetid: e10fcc24-4670-461c-a145-3910c102e81f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fadeefe0413a5a6be5d3ec7f5676ef346e21bc1f4b9e4c3cca026b54d761784
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 753636c1186243a96e3cef5a4ab73244556daec4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118133393"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021149"
 ---
 # <a name="troubleshooting-internet-connections"></a>Résolution des problèmes de connexion Internet
 

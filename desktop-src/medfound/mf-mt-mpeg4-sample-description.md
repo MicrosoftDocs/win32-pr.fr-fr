@@ -4,12 +4,12 @@ ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
 title: Attribut MF_MT_MPEG4_SAMPLE_DESCRIPTION (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c59827fa5d2ba6c6621c7e251cf319478fd621d24639e105dcd44863495b364
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4620ae0b50a2c6f2dae7663aab0c49f13bc5a162
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118741791"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236178"
 ---
 # <a name="mf_mt_mpeg4_sample_description-attribute"></a>\_Attribut de \_ Description du MPEG4 MF MT \_ \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetBlob**](/windows/des
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La zone Description de l’exemple décrit l’encodage utilisé pour un flux dans le fichier.
 
@@ -39,7 +39,7 @@ Lors de la définition de cet attribut sur le récepteur MPEG-4 par le biais de 
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

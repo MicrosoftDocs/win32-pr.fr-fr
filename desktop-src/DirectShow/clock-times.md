@@ -4,12 +4,12 @@ ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Heures d’horloge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0075dc2d8c2273c8ade612244f0f7d551996756e55000043ffe3bc952227fc7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e0639fd2b38e312f30f932fcf508427cd71c054
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239087"
 ---
 # <a name="clock-times"></a>Heures d’horloge
 

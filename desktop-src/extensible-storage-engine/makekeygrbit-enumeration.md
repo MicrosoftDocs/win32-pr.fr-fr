@@ -44,12 +44,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5adfb504237710277a75e3c5ecb12e00e8bf54042a01ca1b794a63f2795f3db0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c19a8c24b5adc4e8655c5372bd9c374e8674e9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118071853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236555"
 ---
 # <a name="makekeygrbit-enumeration"></a>Énumération MakeKeyGrbit
 
@@ -142,6 +142,6 @@ public enum MakeKeyGrbit
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)

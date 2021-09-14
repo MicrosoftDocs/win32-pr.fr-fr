@@ -4,12 +4,12 @@ ms.assetid: 7e435787-afdc-42cc-bdbc-9b8b81d23ebd
 title: Glossaire pour comprendre MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6473ef3128d5a08707622e65d35222a6603a3b888c3a957ddb7854235e29b2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9984dcc7f87e5237c48646ad29bd8af6dc14f104
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119530399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240293"
 ---
 # <a name="glossary-for-understanding-mui"></a>Glossaire pour comprendre MUI
 

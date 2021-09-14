@@ -11,12 +11,12 @@ keywords:
 - lignes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8b0dd0e254380e65171acef1a536038532a370da85ffaa361e8555f77457424
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c9c97593d0230d6830cf3d3ce8fa2c13466e21e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020969"
 ---
 # <a name="porting-lines"></a>Lignes de Portage
 

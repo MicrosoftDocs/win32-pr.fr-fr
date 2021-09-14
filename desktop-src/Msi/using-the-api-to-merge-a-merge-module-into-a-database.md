@@ -4,12 +4,12 @@ ms.assetid: 3eb087b1-0f44-40d8-a950-67d489f09408
 title: Utilisation de l’API pour fusionner un module de fusion dans une base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdbeb68b193cceff10fbd1cd3f56f4c8804a4e1fb4f7c169fd2d893dc0b4bfb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e68298671045825dda41ad120896fa22c89f068
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021229"
 ---
 # <a name="using-the-api-to-merge-a-merge-module-into-a-database"></a>Utilisation de l’API pour fusionner un module de fusion dans une base de données
 

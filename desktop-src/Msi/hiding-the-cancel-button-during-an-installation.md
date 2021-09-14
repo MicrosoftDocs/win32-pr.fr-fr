@@ -4,12 +4,12 @@ ms.assetid: de2bb788-0d19-4818-8038-cae6000b38c4
 title: Masquage du bouton Annuler pendant une installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9b838803b65b8923dc45f36e17579e30114c1bc6d86c8fba2e533252e524568
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e55658bc69fe81b83b13d6c6ee7da84db77ad466
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021659"
 ---
 # <a name="hiding-the-cancel-button-during-an-installation"></a>Masquage du bouton Annuler pendant une installation
 

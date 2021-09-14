@@ -4,12 +4,12 @@ ms.assetid: 8f56328e-ed58-41a1-94b6-266e9c117246
 title: Groupe de tables de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f8a73aa46b202d184356c14ff12da9ce9ce9880b009418e922b252cc35bc54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2667a1b9fe2bd9d2f8260523e2386bf7751dce8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142902"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021746"
 ---
 # <a name="file-tables-group"></a>Groupe de tables de fichiers
 

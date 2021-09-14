@@ -5,17 +5,17 @@ title: Traduction automatique des messages
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 20b02a5c5a4951189333608aa448f09ba9c6866d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751165"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240468"
 ---
 # <a name="automatic-message-translation"></a>Traduction automatique des messages
 
 Les applications utilisant les fonctions d’API de jeu de caractères et Unicode utilisent généralement la même classe de fenêtre. Le système d’exploitation convertit en toute transparence les messages entre les fenêtres de différentes classes.
 
-Une fonction de fenêtre est implémentée pour recevoir des messages au format Unicode ou page de codes Windows. La fonction de fenêtre peut envoyer des messages ou appeler des fonctions de l’un ou l’autre type.
+une fonction de fenêtre est implémentée pour recevoir des messages au format Unicode ou Windows page de codes. La fonction de fenêtre peut envoyer des messages ou appeler des fonctions de l’un ou l’autre type.
 
 Les messages suivants comportent des arguments de texte et sont soumis à une traduction de texte automatique. Pour plus d’informations sur la traduction automatique, consultez [sous-classes et traduction automatique des messages](subclassing-and-automatic-message-translation.md).
 

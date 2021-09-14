@@ -4,12 +4,12 @@ ms.assetid: 9dcc2475-23a3-4f77-8828-4d0a036670d4
 title: ICE48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a638e29002d9b25128b8b2d432ae35d3e8f5996caed87ba6fe8b1e413f99491
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 04c9c9ace086d044109e5f9b91bbc471c37094de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119580999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021546"
 ---
 # <a name="ice48"></a>ICE48
 
@@ -17,11 +17,11 @@ ICE48 recherche des répertoires qui sont codés en dur sur des chemins d’acc�
 
 Ne codez pas en dur les chemins d’accès aux lecteurs locaux, car les ordinateurs diffèrent au cours de l’installation du lecteur local. Cette pratique peut être acceptable si vous déployez une application sur un grand nombre d’ordinateurs sur lesquels les portions appropriées des lecteurs sont identiques.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE48 publie un message d’erreur s’il existe un répertoire codé en dur vers un chemin d’accès local dans la table de propriétés.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE48 signale l’avertissement suivant pour l’exemple indiqué.
 

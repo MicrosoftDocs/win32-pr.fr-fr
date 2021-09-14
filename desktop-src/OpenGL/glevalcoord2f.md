@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0147890cab18fc8e3c3f32fa44d0967bfb059bf952bc2019f471162dddef842
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e586991b319e047957ae53362534c1bb0c90590
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061723"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020999"
 ---
 # <a name="glevalcoord2f-function"></a>glEvalCoord2f fonction)
 
@@ -59,7 +59,7 @@ Valeur qui est la coordonnée de domaine *v* à la fonction de base définie dan
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**glEvalCoord2f**](glevalcoord2d.md) évalue les mappages à deux dimensions activés à l’aide de deux valeurs de domaine, *u* et *v*. Définissez Maps avec [**glMap2**](glmap2.md). Activez ou désactivez-les avec [**glEnable**](glenable.md) et [**glDisable**](gldisable.md).
 
@@ -115,7 +115,7 @@ Les fonctions suivantes récupèrent les informations relatives à la fonction [
 
 [**glIsEnabled**](glisenabled.md) avec l’argument GL \_ auto \_ normal
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

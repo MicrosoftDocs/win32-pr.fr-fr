@@ -4,12 +4,12 @@ ms.assetid: a5ad74dd-abfd-4810-a512-42e4b98a6c59
 title: Utilisation des images vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86407f99138e0b38b67468668fc963bd1bcd7b65e875571643bc7727b4d0d339
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ead597fac5a28befc9c9868485840d03b46e5185
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119870929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240539"
 ---
 # <a name="working-with-video-frames"></a>Utilisation des images vidéo
 

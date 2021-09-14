@@ -10,12 +10,12 @@ keywords:
 - GDI (Graphics Device Interface)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd7fca876f560b9f791f80e3e97ccd57d232aa6f038cea5189c36b10c787a8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41c7c99e6bfac0aabddd4a1568b64cd425ccb25b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240515"
 ---
 # <a name="interoperating-with-gdi"></a>Interopérabilité avec GDI
 

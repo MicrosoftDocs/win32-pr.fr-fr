@@ -4,12 +4,12 @@ ms.assetid: 29822e6b-8598-4133-b181-7fb0854553b7
 title: Exemple de clip audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f180dfb7c4b0e456f45169d36fdfb1f77701b0e82250690706208a715fdd3ce5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c0e4a3e515d08e2cafd2ab2ba451a528f3d5677
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236375"
 ---
 # <a name="audio-clip-sample"></a>Exemple de clip audio
 
@@ -34,7 +34,7 @@ audioclip.exe inputfile outputfile.wav
 -   FichierEntrée : nom d’un fichier qui contient un flux audio.
 -   FichierSortie. wav : nom du fichier. WAVE à écrire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f4874aa7-c58a-49a3-9474-c621cc19156b
 title: Sources d’informations sur les régions DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729dc02d07b927dd2bb7938ba87c6435df04459ad3ebd1976ede808bd292552e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ac426f995323bfd30d3430dccb4044c5f71a119
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119904093"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240684"
 ---
 # <a name="sources-of-dvd-region-information"></a>Sources d’informations sur les régions DVD
 

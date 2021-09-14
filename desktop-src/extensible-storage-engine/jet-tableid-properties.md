@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39513905
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 389b2c792246eb0dbdc3b3a84fed1b2092d57b9e475ef0c8103b62d6292037a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 64ee59853716d9a7957e861bbfcc4d9b1979bef3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119728989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236633"
 ---
 # <a name="jet_tableid-properties"></a>Propriétés de la JET_TABLEID
 
@@ -45,7 +45,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_TABLEID](./jet-tableid-structure.md)
 

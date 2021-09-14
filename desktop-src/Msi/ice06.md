@@ -4,12 +4,12 @@ ms.assetid: 0c3f21ae-49ea-4cfe-b465-6fdc2b19cbb9
 title: ICE06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: febccd205b78e90d3dac49f88d0750f803c8cd575b6b76b46cab79a684deea90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e9442d9b2c4089b88299106de875074bd7b0625
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021626"
 ---
 # <a name="ice06"></a>ICE06
 
@@ -19,11 +19,11 @@ L’objectif de ICE06 est de détecter les instances dans lesquelles un auteur t
 
 Notez que la validation interne effectuée par [ICE03](ice03.md) intercepte l’instance d’une colonne de table non définie dans la \_ table de validation qui est indiquée dans le catalogue de colonnes. L’utilisation de ICE03 et ICE06 garantit donc que chaque colonne de la base de données est testée.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE06 publie une erreur quand une colonne de table définie dans la table de \_ validation n’est pas listée dans la \_ Table Columns.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Dans l’exemple suivant, ICE06 publie le message
 
@@ -46,7 +46,7 @@ Colonne : version de la table : la ModuleSignature n’est pas définie dans l
 
 
 
-| Table           | Nombre | Name     |
+| Table de charge de travail           | Number | Nom     |
 |-----------------|--------|----------|
 | ModuleSignature | 1      | ModuleID |
 

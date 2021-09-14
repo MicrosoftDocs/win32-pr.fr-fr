@@ -4,12 +4,12 @@ ms.assetid: 8214c00d-4ec6-4597-8088-7819a160f0dc
 title: Paramètres régionaux et langues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 462fc66a3296312de73a472309457e12954b6f30c80857594808350306bf4994
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df2c0d0fa41b9186b2135d9497d52de24577bbae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239981"
 ---
 # <a name="locales-and-languages"></a>Paramètres régionaux et langues
 

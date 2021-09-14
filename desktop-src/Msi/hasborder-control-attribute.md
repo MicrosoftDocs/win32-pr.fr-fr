@@ -4,12 +4,12 @@ ms.assetid: 25f88e07-a17d-4a5a-bf4f-5615e371cf6b
 title: Attribut de contrôle HasBorder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b67f642d6a3ab513c824633d981a99a1608b0f01b33b5f4b62adfd30550ca2f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7dfce5e1938ea4896678eb192665babd3632549e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021662"
 ---
 # <a name="hasborder-control-attribute"></a>Attribut de contrôle HasBorder
 
@@ -33,7 +33,7 @@ Si le bit de style n’est pas défini, la bordure n’est pas affichée et aucu
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur un contrôle, incluez les bits HasBorder dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

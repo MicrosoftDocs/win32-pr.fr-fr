@@ -4,12 +4,12 @@ ms.assetid: 80c10bc2-b7e3-4f24-8bac-826149a376c7
 title: Prise en main avec le développement International Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c346f03717b5f50c27911891daaea8aa4ed55ce199e7ca807690d2f3185d8114
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36cc77a86b652f1b713b29517b513cddc26ed801
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118949428"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240294"
 ---
 # <a name="getting-started-with-international-windows-development"></a>Prise en main avec le développement International Windows
 
@@ -48,7 +48,7 @@ Le chemin d’accès que vous suivez ensuite pour créer des logiciels internati
 
     Votre application peut avoir besoin de prendre en charge plusieurs jeux de caractères, de prendre en charge des scripts complexes (tels que ceux utilisés pour représenter les langues hébreu, arabe, thaï et Indo-aryen), d’autoriser l’utilisateur à sélectionner des polices internationales ou d’autoriser l’utilisateur à entrer des caractères et des symboles, tels que le japonais kanji, pour d’autres langues à l’aide d’un clavier
 
-    -   Lisez les articles :
+    -   Lisez les articles :
 
         -   [Prise en charge des scripts et des polices dans Windows](https://msdn.microsoft.com/globalization/mt791278)
         -   [Langue d’entrée : claviers et IME](https://msdn.microsoft.com/globalization/mt662332)

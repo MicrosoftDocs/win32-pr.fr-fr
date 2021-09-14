@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: e8faa4dd2cbd4d54fa0fb43b371529a4e867c50c9ff7237f2860c83cff911628
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11622078354012de4796ddd43a698ac812951742
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118366037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021098"
 ---
 # <a name="getnpptriggerfromblob-function"></a>GetNPPTriggerFromBlob fonction)
 
@@ -62,17 +62,17 @@ Handle vers un objet BLOB d’erreurs qui spécifie où l’erreur (le cas éch�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est une valeur NMERR qui indique l’erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les informations de déclencheur sont stockées dans la catégorie de **déclencheur** de l’objet BLOB.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

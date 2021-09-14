@@ -11,12 +11,12 @@ keywords:
 - commandes BGN/fin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c63084b1f05d984fdc19254edaadaca9098d13f974a433f5c6ff7c5d370ec223
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c25118d4e5050ea22d4b18fab596dfb9c92f562e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119485969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020973"
 ---
 # <a name="porting-bgnend-commands"></a>Portage des commandes de point de terminaison/fin
 

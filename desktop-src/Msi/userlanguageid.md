@@ -4,18 +4,18 @@ ms.assetid: 75e5e862-7158-4689-a6b3-46cd0e9ad983
 title: Propriété UserLanguageID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 178ee8393c8fd42226e85d9659d519fb76f25d4453d8f2009c8d0120e6fec2e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e38fbc5070ccaaef07bff9143c308397004b1956
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141476"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021230"
 ---
 # <a name="userlanguageid-property"></a>Propriété UserLanguageID
 
 La propriété **UserLanguageID** est l’identificateur de langue par défaut de l’utilisateur actuel. Le programme d’installation définit cette propriété en appelant **GetUserDefaultLangID**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

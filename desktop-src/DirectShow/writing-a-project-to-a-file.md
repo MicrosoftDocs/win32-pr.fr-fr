@@ -4,12 +4,12 @@ ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
 title: écriture d’un Project dans un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3efea1d0949c419ba6f595e7a381b689d8a8ce69836609d328b555ee695743b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8f63ddbc6a021362134d420220f7e25c662553f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120051369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240533"
 ---
 # <a name="writing-a-project-to-a-file"></a>écriture d’un Project dans un fichier
 
@@ -42,7 +42,7 @@ hr = pRender->ConnectFrontEnd( );
 
 
 
-Ensuite, ajoutez des filtres de multiplexeur et d’écriture de fichier au graphique de filtre. pour ce faire, le plus simple est de [capturer Graph Builder](capture-graph-builder.md), un composant DirectShow pour générer des graphiques de capture. Le générateur de graphiques de capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . Effectuez les étapes suivantes :
+Ensuite, ajoutez des filtres de multiplexeur et d’écriture de fichier au graphique de filtre. pour ce faire, le plus simple est de [capturer Graph Builder](capture-graph-builder.md), un composant DirectShow pour générer des graphiques de capture. Le générateur de graphiques de capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . Procédez comme suit :
 
 1.  Créez une instance du générateur de graphiques de capture.
 2.  Obtenez un pointeur vers le graphique et transmettez-le au générateur de graphiques.

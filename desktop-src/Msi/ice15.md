@@ -4,12 +4,12 @@ ms.assetid: 8a38c8d2-324d-4de9-932b-d188ff5ccbaf
 title: ICE15
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce1e5e54dedd2663a9f849abee43e244c73d7aa5835426be05d4e0163f599ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb39b3c617db41e9e58a226f1eeb92c3d733ebad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119529309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021608"
 ---
 # <a name="ice15"></a>ICE15
 
@@ -19,11 +19,11 @@ Plusieurs extensions peuvent référencer le même type MIME, à condition que l
 
 Notez que chaque fois qu’un MIME fait référence à une extension, cette extension ne peut pas avoir la \_ colonne MIME dans la table d’extension définie sur null.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE15 publie une erreur si le type de contenu et les références d’extension ne sont pas réciproques.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE15 publie deux messages d’erreur pour l’exemple ci-dessous :
 

@@ -5,11 +5,11 @@ title: CODECAPI_AVEncVideoMeanAbsoluteDifference, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f58a7bc0da9fce88c0b8137d800d527d4717801c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236268"
 ---
 # <a name="codecapi_avencvideomeanabsolutedifference-property"></a>CODECAPI \_ propriété AVEncVideoMeanAbsoluteDifference
 
@@ -31,14 +31,14 @@ Si l’encodeur retourne 0 pour **GetParameterRange**, l’encodeur ne prend pas
 
 La valeur par défaut doit être 0.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

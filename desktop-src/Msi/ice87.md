@@ -4,12 +4,12 @@ ms.assetid: b769a01a-a610-474d-ada6-19b91441907c
 title: ICE87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e87b357f9510a5f73b36f3a944cf0e65119ade9c5dc27e97844dd8370ce4050
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2e88a5126b4bccb4b31d6e30510807862523b775
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119339879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021467"
 ---
 # <a name="ice87"></a>ICE87
 
@@ -27,7 +27,7 @@ ICE87 valide que les propriétés suivantes n’ont pas été créées dans la [
 -   [**Propriété FILEADDSOURCE**](fileaddsource.md)
 -   [**Propriété FILEADDDEFAULT**](fileadddefault.md)
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE87 publie l’avertissement suivant.
 

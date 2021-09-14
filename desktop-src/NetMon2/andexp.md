@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7ee2ac65e10e0dc9be46ab103fe21abcc78dc403302b298f3eb2fc83000802cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d27d5bdd51a45b31f518271053f44b45917cdeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117982951"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021117"
 ---
 # <a name="andexp-structure"></a>ANDEXP, structure
 
@@ -54,7 +54,7 @@ Tableau d’éléments de correspondance de modèle. Notez que chaque structure 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les modèles du  \[ tableau de modèles Max PatternMatch \_ \] sont joints en tant qu’homologues dans les instructions or logiques au format
 
@@ -62,7 +62,7 @@ Les modèles du  \[ tableau de modèles Max PatternMatch \_ \] sont joints en ta
 
 Pour plus d’informations sur l’implémentation de cette structure, consultez [filtres de capture](capture-filters.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

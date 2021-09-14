@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 6bb0bc74a52569edbb922aa93edd27b53106073ffdafa3a6cacc5808aab71eef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61707b49fa88490e1aa22ac89f33dfd97ec20cbd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012247"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021108"
 ---
 # <a name="formatproperties-callback-function"></a>FormatProperties fonction de rappel
 
@@ -78,13 +78,13 @@ Pointeur vers un tableau de structures [PROPERTYINST](propertyinst.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est **true**.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Moniteur réseau appelle la fonction **FormatProperties** pour afficher les données dans le volet d’informations de l’interface utilisateur Moniteur réseau. En règle générale, **FormatProperties** est appelé pour mettre en forme la ligne de résumé pour un protocole, puis pour mettre en forme toutes les instances de propriété du protocole dans un frame. Toutefois, Moniteur réseau ne garantit pas le nombre de fois où il appelle **FormatProperties** pour un analyseur spécifique.
 
@@ -103,7 +103,7 @@ Pendant l’implémentation de la fonction **FormatProperties** , l’analyseur 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

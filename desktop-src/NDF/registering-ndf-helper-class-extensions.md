@@ -5,11 +5,11 @@ ms.assetid: 9ff3266d-5ffc-4a00-be24-2f85461c6ea6
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 166f07760dc8905f35c82c63d58fa2faa804aeb8
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883827"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021156"
 ---
 # <a name="registering-ndf-helper-class-extensions"></a>Inscription des extensions de classe d’assistance NDF
 

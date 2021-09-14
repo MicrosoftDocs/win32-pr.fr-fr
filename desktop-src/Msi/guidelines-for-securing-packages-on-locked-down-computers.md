@@ -4,12 +4,12 @@ ms.assetid: 46ee99a9-b77d-4138-98f0-04428e68cf30
 title: Sécurisation des packages sur les ordinateurs verrouillés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0bcdb2770e165a8b0d99fbc2088ec4c3b113e5befa180a7d6d2598eee866a5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bfe8380ad7e342d35bff80da4d4d86c37759a80a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021665"
 ---
 # <a name="securing-packages-on-locked-down-computers"></a>Sécurisation des packages sur les ordinateurs verrouillés
 

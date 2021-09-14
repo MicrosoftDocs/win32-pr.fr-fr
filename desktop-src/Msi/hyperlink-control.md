@@ -4,12 +4,12 @@ ms.assetid: 06678b10-0915-4649-b917-ec90c40d5160
 title: Contrôle HyperLink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce515b64a518012ea187eb2c3a933e653b1ea5cf99b316028f9cfe3b397c5f96
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 00d074efa00fcf51fec979d9df07f1854631279d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120129459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021657"
 ---
 # <a name="hyperlink-control"></a>Contrôle HyperLink
 
@@ -36,13 +36,13 @@ Vous pouvez utiliser les attributs suivants avec le contrôle HyperLink. Pour mo
 | [Visible](visible-control-attribute.md)         | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la table de [contrôle](control-table.md) ou la [table BBControl](bbcontrol-table.md). pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                           |
 | [Activé](enabled-control-attribute.md)         | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits de la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                        |
 | [Sunken](sunken-control-attribute.md)           | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence enfoncée, 3D et un look.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                                                                                                                                            |
-| [Transparent](transparent-control-attribute.md) | 0x00000000 0x00010000<br/> | Contrôle opaque. Arrière-plan montre le contrôle. Le contrôle a le \_ \_ style transparent WS.<br/> Incluez ce bit dans la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md).<br/>                                                                                                                                                                                                                                                          |
+| [Transparente](transparent-control-attribute.md) | 0x00000000 0x00010000<br/> | Contrôle opaque. Arrière-plan montre le contrôle. Le contrôle a le \_ \_ style transparent WS.<br/> Incluez ce bit dans la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md).<br/>                                                                                                                                                                                                                                                          |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe de lien WC à \_ l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les \_ styles WS Child, WS \_ TABSTOP et WS \_ Group.
 

@@ -4,18 +4,18 @@ ms.assetid: 291cf731-b7e6-44c2-a8ec-78e0e037d1f5
 title: ICE77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5910b814a9cee6da87a76594949f2ad3250bbdd55c3666d0f500ea3a64ae3730
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15e072692b76cfd63bf62c5fd23f612a445e5fd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021486"
 ---
 # <a name="ice77"></a>ICE77
 
 ICE77 vérifie que les actions personnalisées avec le jeu de bits **msidbCustomActionTypeInScript** sont séquencées après l' [action InstallInitialize](installinitialize-action.md) et avant l' [action InstallFinalize](installfinalize-action.md). ICE77 vérifie la séquence dans la [table InstallExecuteSequence](installexecutesequence-table.md) et la [table AdminExecuteSequence](adminexecutesequence-table.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE77 publie une erreur si une action personnalisée dans le script est séquencée avant l’action InstallInitialize ou après l’action InstallFinalize.
 

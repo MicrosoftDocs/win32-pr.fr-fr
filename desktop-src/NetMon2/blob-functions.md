@@ -4,12 +4,12 @@ ms.assetid: 90514067-59e9-4bd9-8612-2263bd414574
 title: Fonctions d’objet BLOB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 654fb7e7c6879a6df0f3b4aad4d29007a9405186631bd4d9c4dc1a24e606eb33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a059e997a06d3295f598d65956c62d06953767ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119144362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021115"
 ---
 # <a name="blob-functions"></a>Fonctions d’objet BLOB
 

@@ -4,12 +4,12 @@ ms.assetid: 8e155846-cc29-43f4-b1f7-9880320edbec
 title: Type d’icône
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28510eff674d1f25e632b1181943af70da73d9fc97a6a64ec5abd0807fe15cf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a7c90de925ff34977e7ff192dffe0b8614e5734
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118634952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021410"
 ---
 # <a name="icon-type"></a>Type d’icône
 

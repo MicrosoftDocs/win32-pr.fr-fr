@@ -4,12 +4,12 @@ ms.assetid: 4dd67bb0-c08a-4a44-b687-0394a3afc2c4
 title: ICE63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f0de847a3b79c87b8ddc7dbaf3be64f88b9ef34df80d92737b6d9005ffdad24
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d5faa6f2ddbcb95cdf12966c2887fe9438a5d610
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142493"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021518"
 ---
 # <a name="ice63"></a>ICE63
 
@@ -22,11 +22,11 @@ ICE63 vérifie le séquencement approprié de l' [action RemoveExistingProducts]
 
 L’échec de la résolution d’un avertissement ou d’une erreur signalée par ICE63 provoque l’échec de la mise à niveau.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE63 publie un avertissement ou une erreur si le séquencement de l’action RemoveExistingProducts n’est pas correct.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE63 signale l’erreur suivante pour l’exemple indiqué.
 

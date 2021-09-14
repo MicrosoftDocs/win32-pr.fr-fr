@@ -4,12 +4,12 @@ ms.assetid: 1834d841-b1d9-4646-8057-a41dd88310b6
 title: ICE91
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd67c714701baecee50fdeb460323bd25c0a164040bbc751a65cb43a6c99eb44
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 91f5723369c21894817dacbc1755430a31f17199
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315248"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021462"
 ---
 # <a name="ice91"></a>ICE91
 
@@ -27,7 +27,7 @@ Les fichiers, les fichiers de .ini ou les raccourcis des répertoires par utilis
 -   MyPicturesFolder
 -   LocalAppDataFolder
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE91 publie les avertissements suivants.
 

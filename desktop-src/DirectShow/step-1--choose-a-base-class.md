@@ -4,12 +4,12 @@ ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Étape 1. Choisir une classe de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c140beba3df02ace21d99779c152a79632fe0b4a1a916c4412c467b0f4ac5627
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b1a2bbf704bb2247034bc2ba3a6f35812f46aaaa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119315879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240653"
 ---
 # <a name="step-1-choose-a-base-class"></a>Étape 1. Choisir une classe de base
 

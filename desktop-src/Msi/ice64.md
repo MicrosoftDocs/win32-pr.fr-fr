@@ -4,12 +4,12 @@ ms.assetid: d878bf4a-33c4-4c68-bd74-b7884d6680a5
 title: ICE64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 573be78a477aa36cbb562df988368045f0e959760684496c0b9bee6ba410c486
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d103498a56bea26415f4f841d5ec78b5dfe370f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021514"
 ---
 # <a name="ice64"></a>ICE64
 
@@ -17,7 +17,7 @@ ICE64 vérifie que les nouveaux répertoires du profil utilisateur sont correcte
 
 Si vous ne corrigez pas un avertissement ou une erreur signalée par ICE64, les problèmes surviennent généralement lors de la désinstallation de l’ordinateur. Lorsqu’un utilisateur itinérant qui a installé l’application se connecte à un ordinateur pour la première fois, tout le profil est copié sur l’ordinateur. Sur la publication (qui a lieu après le téléchargement du profil itinérant), le programme d’installation vérifie que le répertoire existe déjà et, par conséquent, ne le supprime pas lors de la désinstallation. Cela laisse le répertoire sur l’ordinateur de l’utilisateur de façon permanente.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE64 publie un avertissement ou une erreur dans une situation d’itinérance si un nouveau répertoire du profil utilisateur à supprimer n’est pas supprimé.
 

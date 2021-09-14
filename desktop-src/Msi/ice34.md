@@ -4,12 +4,12 @@ ms.assetid: 23a88a5a-89e9-47bc-9c0a-6101ce03123c
 title: ICE34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0952bbdc63c8cbfed6cb92a0e650d88cb61968282eec683b0df5685d5292b42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7723cb530397eae66374b0f218db9ad8505195a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021573"
 ---
 # <a name="ice34"></a>ICE34
 
@@ -19,11 +19,11 @@ Un groupe de cases d’option doit avoir une valeur par défaut pour que les uti
 
 ICE34 signale les tables manquantes.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE34 publiez un message d’erreur s’il existe une case d’option qui spécifie une propriété non valide.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE34 signale les erreurs suivantes pour l’exemple indiqué.
 
@@ -44,7 +44,7 @@ ICE34 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| Boîte de dialogue  | Contrôler  | Type             | Attributs | Propriété  |
+| Boîte de dialogue  | Control  | Type             | Attributs | Propriété  |
 |---------|----------|------------------|------------|-----------|
 | Boîte de dialogue | Control1 | RadioButtonGroup | 0          | Property1 |
 | Boîte de dialogue | Control2 | RadioButtonGroup | 0          |           |
@@ -76,7 +76,7 @@ ICE34 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| Propriété  | Commande | Valeur |
+| Propriété  | JSON | Valeur |
 |-----------|-------|-------|
 | Property1 | 1     | Oui   |
 | Property1 | 2     | maintenant   |

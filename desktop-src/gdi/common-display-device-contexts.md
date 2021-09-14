@@ -4,12 +4,12 @@ ms.assetid: 63c4f775-b1a3-4f7c-808b-81c596f26353
 title: Contextes de périphérique d’affichage courants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 506d9de2d9908be735d959a85ca6bdfe99abf7f33489c74175ab2882551393cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 890b0235784ec1ed11c8ce3a553244629a008d75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119105688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236484"
 ---
 # <a name="common-display-device-contexts"></a>Contextes de périphérique d’affichage courants
 

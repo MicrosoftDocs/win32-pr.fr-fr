@@ -4,12 +4,12 @@ ms.assetid: cbcdad6e-80dd-49f0-9d69-a82a7010f10b
 title: Fonctions Netfile (gestion du partage réseau)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8efdd1a9339701ccbb534a91b9dfe0423bea546e8d474455c2a6ffdda02adab1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3df51d556647f16cc30ec51182fde5dd5551831d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118362610"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021013"
 ---
 # <a name="netfile-functions-network-share-management"></a>Fonctions Netfile (gestion du partage réseau)
 

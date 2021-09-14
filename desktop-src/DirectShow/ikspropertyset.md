@@ -1,5 +1,5 @@
 ---
-description: L’interface IKsPropertySet a été conçue à l’origine comme un moyen efficace de définir et de récupérer les propriétés de l’appareil sur les pilotes WDM, à l’aide de KSProxy pour traduire les appels de la méthode COM en mode utilisateur dans les jeux de propriétés en mode noyau utilisés par les pilotes de classe de streaming WDM. Cette interface est désormais également utilisée pour transmettre des informations strictement entre les composants logiciels. Dans certains cas, les composants logiciels doivent implémenter cette interface, ou l’interface IKsControl (documentée dans DirectShow DDK). Par exemple, si vous écrivez un décodeur logiciel MPEG-2 pour une utilisation avec le navigateur DVD, vous devez implémenter l’une de ces interfaces et prendre en charge les jeux de propriétés relatives aux DVD que le navigateur enverra au décodeur. Les codes confidentiels peuvent prendre en charge l’une de ces interfaces pour permettre à d’autres broches ou filtres de définir ou de récupérer leurs propriétés. Notez qu’une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. L’interface IKsControl, documentée dans le DDK DirectShow, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur. .
+description: L’interface IKsPropertySet a été conçue à l’origine comme un moyen efficace de définir et de récupérer les propriétés de l’appareil sur les pilotes WDM, à l’aide de KSProxy pour traduire les appels de la méthode COM en mode utilisateur dans les jeux de propriétés en mode noyau utilisés par les pilotes de classe de streaming WDM. Cette interface est désormais également utilisée pour transmettre des informations strictement entre les composants logiciels. dans certains cas, les composants logiciels doivent implémenter cette interface, ou bien l’interface IKsControl (documentée dans le DDK DirectShow). Par exemple, si vous écrivez un décodeur logiciel MPEG-2 pour une utilisation avec le navigateur DVD, vous devez implémenter l’une de ces interfaces et prendre en charge les jeux de propriétés relatives aux DVD que le navigateur enverra au décodeur. Les codes confidentiels peuvent prendre en charge l’une de ces interfaces pour permettre à d’autres broches ou filtres de définir ou de récupérer leurs propriétés. Notez qu’une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. l’interface IKsControl, documentée dans le DirectShow DDK, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur. .
 ms.assetid: df26341d-f2d5-4a4e-954e-705e07415808
 title: Interface IKsPropertySet (ksproxy. h)
 ms.topic: reference
@@ -15,20 +15,20 @@ api_location:
 - Strmiids.lib
 - Strmiids.dll
 ms.openlocfilehash: 49a1f897d79a7514600f0c6553f931411aae8993
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240701"
 ---
 # <a name="ikspropertyset-interface"></a>Interface IKsPropertySet
 
 L' `IKsPropertySet` interface a été conçue à l’origine comme un moyen efficace de définir et de récupérer les propriétés de l’appareil sur les pilotes WDM, à l’aide de KSProxy pour traduire les appels de la méthode com en mode utilisateur dans les jeux de propriétés en mode noyau utilisés par les pilotes de classe de streaming WDM. Cette interface est désormais également utilisée pour transmettre des informations strictement entre les composants logiciels.
 
-Dans certains cas, les composants logiciels doivent implémenter cette interface, ou l’interface **IKsControl** (documentée dans DirectShow DDK). Par exemple, si vous écrivez un décodeur logiciel MPEG-2 pour une utilisation avec le [navigateur DVD](dvd-navigator-filter.md), vous devez implémenter l’une de ces interfaces et prendre en charge les jeux de propriétés relatives aux DVD que le navigateur enverra au décodeur. Les codes confidentiels peuvent prendre en charge l’une de ces interfaces pour permettre à d’autres broches ou filtres de définir ou de récupérer leurs propriétés.
+dans certains cas, les composants logiciels doivent implémenter cette interface, ou bien l’interface **IKsControl** (documentée dans le DDK DirectShow). Par exemple, si vous écrivez un décodeur logiciel MPEG-2 pour une utilisation avec le [navigateur DVD](dvd-navigator-filter.md), vous devez implémenter l’une de ces interfaces et prendre en charge les jeux de propriétés relatives aux DVD que le navigateur enverra au décodeur. Les codes confidentiels peuvent prendre en charge l’une de ces interfaces pour permettre à d’autres broches ou filtres de définir ou de récupérer leurs propriétés.
 
 > [!Note]  
-> Une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. L’interface **IKsControl** , documentée dans le DDK DirectShow, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur.
+> Une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. l’interface **IKsControl** , documentée dans le DirectShow DDK, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur.
 
  
 
@@ -58,7 +58,7 @@ L’interface **IKsPropertySet** possède ces méthodes.
 
 Vous devez inclure KS. h avant ksproxy. h.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

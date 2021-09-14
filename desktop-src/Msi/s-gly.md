@@ -4,12 +4,12 @@ ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: S (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d0bc61230433857a903476dab7ba25e1a75e3a6c405944731b73bfbb29ad78
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118625549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021255"
 ---
 # <a name="s-windows-installer"></a>S (Windows Installer)
 

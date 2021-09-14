@@ -4,12 +4,12 @@ ms.assetid: fd3a85cf-7227-497d-9f52-9e4cd15d9ad6
 title: LOCALE_IDIALINGCODE et LOCALE_ICOUNTRY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47aad609d35622bd3baff3e05933dd03aaa06b98879d9fa09cc3d8a02cef81f6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e70e515ed564a1e18e6f7358485cb592584f48ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120106839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240245"
 ---
 # <a name="locale_idialingcode-and-locale_icountry"></a>Paramètres régionaux \_ IDIALINGCODE et paramètres régionaux \_ ICOUNTRY
 

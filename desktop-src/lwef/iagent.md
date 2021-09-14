@@ -4,12 +4,12 @@ description: IAgent
 ms.assetid: 35b12006-a938-450c-969a-7b73a3768a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3931c277fbe4a5943ef5881da12cf3669b2e8894c95052f61bc8411e21c7ae3c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12900a4288b9917d695dd25d4b81362b67c93587
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118751423"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236447"
 ---
 # <a name="iagent"></a>IAgent
 
@@ -25,9 +25,9 @@ La méthode GetSuspended incluse dans les versions précédentes est obsolète e
 
 | Méthodes IAgent                               | Description                                                   |
 |----------------------------------------------|---------------------------------------------------------------|
-| [**Load**](load-method.md)                  | Charge le fichier de données d’un caractère.                                |
+| [**Chargera**](load-method.md)                  | Charge le fichier de données d’un caractère.                                |
 | [**Décharger**](unload-method.md)              | Décharge le fichier de données d’un caractère.                              |
-| [**Annuler**](iagent--register.md)         | Inscrit un récepteur de notification pour le client.                 |
+| [**S’inscrire**](iagent--register.md)         | Inscrit un récepteur de notification pour le client.                 |
 | [**Unegister**](iagent--unregister.md)      | Annule l’inscription du récepteur de notification d’un client.                     |
 | [**GetCharacter**](iagent--getcharacter.md) | Retourne l’interface IAgentCharacter pour un caractère chargé. |
 

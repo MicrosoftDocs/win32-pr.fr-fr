@@ -4,12 +4,12 @@ ms.assetid: 2CB83D5B-93BB-43F0-B231-5B773BDB4D5F
 title: CODECAPI_AVEncVideoSelectLayer, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ffabf6de2e25d2dde1b8509747659ff7809e38e6777cef40d63bd5bce77d35e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0795a7e22f6dde31db52b5a59d719075001002f1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236238"
 ---
 # <a name="codecapi_avencvideoselectlayer-property"></a>CODECAPI \_ propriété AVEncVideoSelectLayer
 
@@ -23,11 +23,11 @@ Définit la couche de sélection de vidéo pour un encodeur vidéo.
 
 **CODECAPI \_ AVEncVideoSelectLayer**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

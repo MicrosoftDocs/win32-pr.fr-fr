@@ -4,12 +4,12 @@ ms.assetid: acf76fff-b7a4-456b-91b9-eb3087879d7b
 title: Formater l’attribut de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34df03c87ceb742b543f32b770c201646185ce02df6386e38c9c5af02c6a1a47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d7fa656b81272b8ac60985d3dac0416c0f81bef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118636036"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021709"
 ---
 # <a name="formatsize-control-attribute"></a>Formater l’attribut de contrôle
 
@@ -31,7 +31,7 @@ Si ce bit est défini pour un contrôle de texte statique, le contrôle essaie a
 
 
 
-| Decimal | Valeur hexadécimale | Contrôler                          |
+| Decimal | Valeur hexadécimale | Control                          |
 |---------|-------------|----------------------------------|
 | 524 288  | 0x00080000  | msidbControlAttributesFormatSize |
 
@@ -39,7 +39,7 @@ Si ce bit est défini pour un contrôle de texte statique, le contrôle essaie a
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur un contrôle, incluez les bits de format dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md). Le texte du contrôle doit être défini sur une chaîne représentant un nombre exprimé en unités de 512 octets. Le texte des chaînes d’unité est défini dans la [table UIText](uitext-table.md). Le positionnement de la chaîne d’unité est contrôlé par la propriété [**LeftUnit**](leftunit.md) . Si la propriété **LeftUnit** est définie comme n’importe quelle valeur, la chaîne d’unité apparaît avant la valeur numérique. Si tout autre caractère numérique apparaît dans le texte associé au contrôle, la valeur affichée n’est pas définie.
 

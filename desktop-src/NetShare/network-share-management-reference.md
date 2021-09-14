@@ -4,12 +4,12 @@ ms.assetid: 4bdbc3be-58a6-4ff2-8a35-37aac266465b
 title: Informations de référence sur la gestion des partages réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a325035cdf465a21316c4af74cb8d2dd1a9c7ae4811aac24122443cc120ecec0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a1fcc37a189fa1218489ad9e596b6950d79e4e7d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120036699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021011"
 ---
 # <a name="network-share-management-reference"></a>Informations de référence sur la gestion des partages réseau
 

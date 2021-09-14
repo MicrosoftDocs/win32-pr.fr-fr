@@ -4,12 +4,12 @@ ms.assetid: a51b641d-992b-4b6b-a208-d94bc7d05115
 title: ICE29
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcdef203e314a087e9eb11bcf1b958425d7608028d979db925edce1b42e4bebc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6f606bd09314d045b643816c08349eba38bde72
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021584"
 ---
 # <a name="ice29"></a>ICE29
 

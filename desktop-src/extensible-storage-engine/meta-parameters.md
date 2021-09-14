@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 2f821d3aea8055f6c1344ed9d5107417adbaf604
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236549"
 ---
 # <a name="meta-parameters"></a>Paramètres méta
 
@@ -90,15 +90,15 @@ Une petite configuration a également plusieurs autres effets sur le moteur de b
 | Étiquette | Valeur |
 |--------|-------|
 | <p>Valeur par défaut :</p> | <p>1 (hérité)</p> | 
-| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Tapez :</p> | <p>Integer</p> | 
 | <p>Plage valide :</p> | <p>0 – 1</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>Yes</p> | 
-| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Non</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Oui</p> | 
+| <p>Affecte les ressources :</p> | <p>Oui</p> | 
 | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
 
 
@@ -196,17 +196,17 @@ Les paramètres système suivants seront protégés de la définition lorsque ce
 | <p>Tapez :</p> | <p>Booléen</p> | 
 | <p>Plage valide :</p> | <p>False, True</p> | 
 | <p>Étendue :</p> | <p>Instance</p> | 
-| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
-| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
-| <p>Affecte la disposition physique :</p> | <p>No</p> | 
-| <p>Affecte la fiabilité :</p> | <p>No</p> | 
-| <p>Affecte les performances :</p> | <p>No</p> | 
-| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Oui</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Oui</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Non</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Non</p> | 
+| <p>Affecte les performances :</p> | <p>Non</p> | 
+| <p>Affecte les ressources :</p> | <p>Non</p> | 
 | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
 
 
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

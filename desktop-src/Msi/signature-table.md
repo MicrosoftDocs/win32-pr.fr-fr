@@ -4,12 +4,12 @@ ms.assetid: 4780356f-e02a-45d9-883c-4f84867dbdea
 title: Table de signature
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5ddda5c501b24e12498f356c10a1aa2a3549426daca5e4cc3c19c1f62ed04cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efb75155c4c7b8ddf4a82706bc38f09d0af75260
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118624646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021239"
 ---
 # <a name="signature-table"></a>Table de signature
 
@@ -107,7 +107,7 @@ Langues prises en charge par le fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 
@@ -117,7 +117,7 @@ la table de signatures suit généralement les [règles](file-versioning-rules.m
 
 [Table DrLocator](drlocator-table.md)
 
-| Signature\_ | Parent | Chemin                  | Profondeur |
+| Signature\_ | Parent | Chemin d’accès                  | Profondeur |
 |-------------|--------|-----------------------|-------|
 | MsiDll      | nul | c : \\ Windows \\ system32 | 0     |
 
@@ -159,7 +159,7 @@ Le format des colonnes MinDate et MaxDate est deux valeurs 16 bits compressées 
 
 
 
-| Bits | Content                                             |
+| Bits | Contenu                                             |
 |------|-----------------------------------------------------|
 | 0 – 4  | Jour du mois (1-31)                             |
 | 5-8  | Month (1 = janvier, 2 = février, etc.)        |
@@ -173,7 +173,7 @@ Le format des colonnes MinDate et MaxDate est deux valeurs 16 bits compressées 
 
 
 
-| Bits  | Content                     |
+| Bits  | Contenu                     |
 |-------|-----------------------------|
 | 0 – 4   | Secondes divisées par 2        |
 | 5-10  | Minutes (0-59)              |

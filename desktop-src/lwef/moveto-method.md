@@ -4,12 +4,12 @@ description: MoveTo, méthode
 ms.assetid: cca2b1b8-0d44-4272-9f0b-f7afd091d802
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a245d389bc23d79d9f6cc105fec28ed14f5d511123c1dd113115ff69fc95c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d6a7f215de9ea6e323870ec7e10967462ab4174
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119609079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236436"
 ---
 # <a name="moveto-method"></a>MoveTo, méthode
 
@@ -34,7 +34,7 @@ Déplace le caractère spécifié vers l’emplacement spécifié.
 | Partie    | Description                                                                                                                                                                                     |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *x, y*   | Obligatoire. Valeur entière qui indique le bord gauche (*x*) et le bord supérieur (*y*) du frame d’animation. Exprimez ces coordonnées en pixels.                                                   |
-| *Temps* | Facultatif. Valeur de type entier long spécifiant, en millisecondes, la vitesse de déplacement du cadre du caractère. La valeur par défaut est 1000. Si vous spécifiez zéro (0), le frame est déplacé sans qu’une animation ne soit lue. |
+| *Vitesse* | Optionnel. Valeur de type entier long spécifiant, en millisecondes, la vitesse de déplacement du cadre du caractère. La valeur par défaut est 1000. Si vous spécifiez zéro (0), le frame est déplacé sans qu’une animation ne soit lue. |
 
 
 
@@ -42,7 +42,7 @@ Déplace le caractère spécifié vers l’emplacement spécifié.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le serveur lit automatiquement l’animation appropriée assignée aux États **mobiles** . L’emplacement d’un caractère est basé sur l’angle supérieur gauche de son cadre.
 

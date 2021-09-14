@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: 64cefdf4cc2a2c522a8295ab44e1810f0364d706d378979637700a7a3b72343a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b34f30425147057efe8039cc36514d699199c9a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119765439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240354"
 ---
 # <a name="downlevelgetparentlocalelcid-function"></a>DownlevelGetParentLocaleLCID fonction)
 
@@ -61,17 +61,17 @@ Identificateur de paramètres régionaux des paramètres régionaux pour lesquel
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’identificateur de paramètres régionaux parent en cas de réussite, ou 0 dans le cas contraire. Pour obtenir des informations d’erreur étendues, l’application peut appeler [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror), qui peut retourner l’un des codes d’erreur suivants :
 
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fichier d’en-tête et la DLL requis font partie du téléchargement des API de mappage de données Microsoft NLS, disponible dans le [Centre de téléchargement Microsoft](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0da4eab9-cabc-4bcc-8267-4aa1cd79e78b
 title: Tableau ListView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a84ebab6c90486283c3dd8d4731cc0b7f3aff11a5459a0e93496bab83d7c277
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0e7296db9f71a7c40550fdcaab18d8f0d0f41f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021374"
 ---
 # <a name="listview-table"></a>Tableau ListView
 
@@ -22,10 +22,10 @@ La table ListView contient les colonnes suivantes.
 | Colonne   | Type                         | Clé | Nullable |
 |----------|------------------------------|-----|----------|
 | Propriété | [Identificateur](identifier.md) | O   | N        |
-| Commande    | [Integer](integer.md)       | O   | N        |
+| JSON    | [Integer](integer.md)       | O   | N        |
 | Valeur    | [Correct](formatted.md)   | N   | N        |
 | Texte     | [Correct](formatted.md)   | N   | O        |
-| Binaire2\_ | [Identificateur](identifier.md) | N   | O        |
+| Binary\_ | [Identificateur](identifier.md) | N   | O        |
 
 
 
@@ -70,7 +70,7 @@ Données de l’image de l’icône. Il s’agit d’une clé étrangère de la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contenu des champs de valeur et de texte est mis en forme par la fonction [**MsiFormatRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) lorsque le contrôle est créé. par conséquent, ils peuvent contenir toute expression que la fonction MsiFormatRecord peut interpréter. La mise en forme se produit uniquement lorsque le contrôle est créé et qu’elle n’est pas mise à jour si une propriété impliquée dans l’expression est modifiée pendant la durée de vie du contrôle.
 

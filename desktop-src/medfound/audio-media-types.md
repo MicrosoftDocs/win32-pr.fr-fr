@@ -4,12 +4,12 @@ ms.assetid: 15aad4ea-7b4b-4a6f-bac7-18e0c281f2a6
 title: Types de média audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e51063a4ded0c65b8f21f1129ae8bd7da41c5eb231402633b695e4e47cc2004
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 786cbef5c4c151a0a97b445fa4bb4a7eec552cc0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236370"
 ---
 # <a name="audio-media-types"></a>Types de média audio
 

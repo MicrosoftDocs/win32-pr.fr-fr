@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - spellcheckprovider.h
-ms.openlocfilehash: ee1b07eb2f459aca3955b0a1c5ad2e2e2139cc196f618430b3039b1eba1e3971
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d999a90166e0d54d537abc84c30f6c4e0ee3768c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240275"
 ---
 # <a name="icomprehensivespellcheckprovidercomprehensivecheck-method"></a>IComprehensiveSpellCheckProvider :: ComprehensiveCheck, méthode
 
@@ -54,13 +54,13 @@ Résultat de la vérification de ce texte, sous la forme d’une énumération d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
 
 
-| Valeur retournée                                                                             | Description                           |
+| Valeur de retour                                                                             | Description                           |
 |------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>\_OK</dt> </dl>         | Vendu.<br/>                |
 | <dl> <dt>E \_ INVALIDARG</dt> </dl> | le *texte* est une chaîne vide.<br/> |
@@ -70,7 +70,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette interface n’est pas obligatoire pour être implémentée par un fournisseur de vérification orthographique. Toutefois, si le fournisseur prend en charge deux « modes » de vérification orthographique (plus rapide et plus rapide, mais plus complet), il doit implémenter cette interface dans le même objet qui implémente [**ISpellCheckProvider**](/windows/desktop/api/Spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider) pour prendre en charge le mode de vérification plus approfondi. Lorsqu’un client appelle [**des :: ComprehensiveCheck**](/windows/desktop/api/Spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck), la fonctionnalité de vérification orthographique effectue une opération [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour le fournisseur de [**IComprehensiveSpellCheckProvider**](/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider)et appelle **IComprehensiveSpellCheckProvider. ComprehensiveCheck** si l’interface est prise en charge. Si l’interface n’est pas prise en charge, elle revient silencieusement à [**ISpellCheckProvider :: Check**](/windows/desktop/api/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check).
 

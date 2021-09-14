@@ -4,12 +4,12 @@ description: Microsoft fournit un accès à la fonctionnalité NDF par le biais 
 ms.assetid: db06b9a9-a64a-43ff-9b77-95230208cfd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d85d1386971207330579f5395989e14c4b2315dc578f5bb3509695b99d6e215a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5ca74a8a80f7babca75182625ec71dc1ec47cbc7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118133226"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021146"
 ---
 # <a name="using-ndf-functionality"></a>Utilisation des fonctionnalités NDF
 

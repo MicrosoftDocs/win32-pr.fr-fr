@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 234b30883df463d7c336ce7d270e574d41a5cabe9924c327a35ff1a31ee65632
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12637e5a70409166e5a31aa0fc98f4df1b9f6945
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797500"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021129"
 ---
 # <a name="type-ouiheader-element"></a>Élément type (OUIHeader)
 
@@ -41,7 +41,7 @@ L’élément type (OUIHeader) contient une valeur hexBinary de 1 octet qui est 
 
 L’élément est défini par l’élément [**OUIHeader**](wlan-profileschema-ouiheader-ihv-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

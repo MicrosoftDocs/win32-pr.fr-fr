@@ -4,22 +4,22 @@ ms.assetid: 14976772-c873-46d8-8687-dcdad2420d83
 title: ICE42
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b913b92d82ad25a9722b289596f6b51940bbade55b5e544ebf636051e21b3ad
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ebe2ea09431870ac7b52ccd69d0ae16c646286ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119581069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021559"
 ---
 # <a name="ice42"></a>ICE42
 
 ICE42 valide que les serveurs InProc ne sont pas liés aux fichiers EXE dans la [table de classe](class-table.md). Il vérifie également que seules les classes LocalServer et LocalServer32 ont des arguments et des valeurs DefInProc.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE42 publie une erreur si des serveurs InProc sont liés à des fichiers EXE dans la table de classe.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE42 signale les erreurs suivantes pour l’exemple indiqué.
 
@@ -39,7 +39,7 @@ ICE42 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| CLSID   | Contexte        | Composant\_ | DefInProcHandler | Argument |
+| CLSID   | Context        | Composant\_ | DefInProcHandler | Argument |
 |---------|----------------|-------------|------------------|----------|
 | GUID1 | InProcServer32 | Composant1  | InProcServer     | Donnée      |
 

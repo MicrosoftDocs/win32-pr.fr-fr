@@ -5,11 +5,11 @@ title: Attribut MF_MT_MPEG2_PROFILE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ee5c64ea9f5bdf73a78d6ae29124c7cd5b37df43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866570"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236189"
 ---
 # <a name="mf_mt_mpeg2_profile-attribute"></a>\_Attribut de \_ Profil MPEG2 MT \_ MF
 
@@ -29,14 +29,14 @@ Cet attribut correspond au membre **dwProfile** de la structure [**MPEG2VIDEOINF
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

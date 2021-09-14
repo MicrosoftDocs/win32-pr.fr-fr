@@ -4,12 +4,12 @@ ms.assetid: f5ae389e-bc27-465d-886b-4f4f41d49118
 title: Propriété MsiLogging
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e166a52e970cdb3e0be5ffae6611a8ea9a299232d55f36a45ba470b3717cafae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97e53df57723157f7184a904e512aac9035a9f53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021330"
 ---
 # <a name="msilogging-property"></a>Propriété MsiLogging
 
@@ -41,7 +41,7 @@ La valeur de cette propriété doit être une chaîne des caractères suivants q
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété est disponible à partir de Windows Installer 4,0.
 
@@ -53,7 +53,7 @@ Si la propriété **MsiLogging** est présente dans la [table de propriétés](p
 
 Si la propriété **MsiLogging** a été définie dans la [table de propriétés](property-table.md), le mode de journalisation par défaut pour tous les utilisateurs de l’ordinateur peut être spécifié en définissant la stratégie [DisableLoggingFromPackage](disableloggingfrompackage.md) et la stratégie de [journalisation](logging.md) . La définition de la stratégie DisableLoggingFromPackage et de la stratégie de journalisation remplace la propriété **MsiLogging** pour tous les packages.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

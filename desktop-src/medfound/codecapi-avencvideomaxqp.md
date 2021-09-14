@@ -4,12 +4,12 @@ ms.assetid: 2C02F82B-E645-4C5B-9526-5E130A6E2F67
 title: CODECAPI_AVEncVideoMaxQP, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d95f605dbb647ed96ec40e89870c761400a6d414cd354cb0197bb316bd3cf27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9bcf23866da5530d2edc1203be359071e5e33e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236273"
 ---
 # <a name="codecapi_avencvideomaxqp-property"></a>CODECAPI \_ propriété AVEncVideoMaxQP
 
@@ -23,7 +23,7 @@ Spécifie le nombre maximal de QP pris en charge par l’encodeur.
 
 **CODECAPI \_ AVEncVideoMaxQP**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Encodeurs H. 264/AVC :**
 
@@ -33,7 +33,7 @@ Il s’agit d’une propriété statique, ce qui signifie qu’elle ne peut êtr
 
 La valeur par défaut est le nombre maximal de QP autorisé par la norme de codage correspondante. Par exemple, les encodeurs H. 264 doivent avoir une valeur par défaut de 51.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

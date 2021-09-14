@@ -1,5 +1,5 @@
 ---
-description: La méthode ExtractFilesEx de l’objet Merge extrait le fichier. cab incorporé d’un module, puis écrit ces fichiers dans le répertoire de destination.
+description: La méthode ExtractFilesEx de l’objet Merge extrait le fichier .cab incorporé à partir d’un module, puis écrit ces fichiers dans le répertoire de destination.
 ms.assetid: 8b063052-4f92-466a-9c52-bda26ed13d5c
 title: Merge. ExtractFilesEx, méthode (Mergemod. h)
 ms.topic: reference
@@ -15,15 +15,15 @@ api_type:
 api_location:
 - Mergemod.dll
 ms.openlocfilehash: be6aa1001be0d3ecd6cbb9c4cd1d8c04b4649f10
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528834"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021337"
 ---
 # <a name="mergeextractfilesex-method"></a>Merge. ExtractFilesEx, méthode
 
-La méthode **ExtractFilesEx** de l’objet [**Merge**](merge-object.md) extrait le fichier. cab incorporé d’un module, puis écrit ces fichiers dans le répertoire de destination.
+La méthode **ExtractFilesEx** de l’objet [**Merge**](merge-object.md) extrait le fichier .cab incorporé à partir d’un module, puis écrit ces fichiers dans le répertoire de destination.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -63,7 +63,7 @@ Il s’agit d’une liste de chemins d’accès complets pour les fichiers qui o
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
@@ -75,7 +75,7 @@ Tous les fichiers du répertoire de destination portant le même nom sont rempla
 
 Consultez fonction [**ExtractFilesEx**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-extractfilesex) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

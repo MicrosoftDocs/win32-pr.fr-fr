@@ -4,12 +4,12 @@ ms.assetid: 65909b47-dc09-4e9a-920a-9cb3f55b2e67
 title: Réinstallation de composants isolés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c624777647ab9e5023cd6c78d9aaa4d20951563f915afcd800ba60ca3b233174
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 68ad1c7fb53eb09e96882209f7738e95be9b4a64
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239951"
 ---
 # <a name="reinstallation-of-isolated-components"></a>Réinstallation de composants isolés
 

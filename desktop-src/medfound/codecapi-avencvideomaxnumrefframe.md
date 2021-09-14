@@ -4,12 +4,12 @@ ms.assetid: 023FD791-BD43-41F6-95D0-8BE800F51579
 title: CODECAPI_AVEncVideoMaxNumRefFrame, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e11e7325628f0e7c1e6560d3fc734b34e8a032a3fbf3630aa1fb5959cec33a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84e8f5a7794410012bd1a025e794e1fd23f4b332
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119606419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236274"
 ---
 # <a name="codecapi_avencvideomaxnumrefframe-property"></a>CODECAPI \_ propriété AVEncVideoMaxNumRefFrame
 
@@ -23,7 +23,7 @@ Spécifie le nombre maximal de frames de référence pris en charge par l’enco
 
 **CODECAPI \_ AVEncVideoMaxNumRefFrame**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour H. 264, cela est mappé aux images du paramètre de séquence Set **Max \_ num \_ Ref \_ frames** comme défini dans la spécification H. 264.
 
@@ -37,7 +37,7 @@ Il s’agit d’une propriété statique, ce qui signifie qu’elle ne peut êtr
 
 La valeur par défaut recommandée est 2.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

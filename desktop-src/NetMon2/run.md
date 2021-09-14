@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: e31c5c729bba133fa4c4d3e36bbc54035a274923a03a8718acf05a601192775b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c2dff2cf70a6d989928f17447fa3491dd9509f24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021033"
 ---
 # <a name="run-callback-function"></a>Exécuter une fonction de rappel
 
@@ -95,17 +95,17 @@ Le paramètre *HWND* du parent (généralement l’interface utilisateur Moniteu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit (autrement dit, si l’expert démarre), la valeur de retour est **true**.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de son exécution, l’expert parcourt les frames du fichier de capture et génère un rapport ou crée des événements qui présentent des problèmes.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

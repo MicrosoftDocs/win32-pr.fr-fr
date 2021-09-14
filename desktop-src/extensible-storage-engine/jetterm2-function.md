@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 332fa937e7540c31bfea49fe8591e9dc66b0f5e8
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236609"
 ---
 # <a name="jetterm2-function"></a>Fonction JetTerm2
 
@@ -88,11 +88,11 @@ Si cette fonction est réussie, l’instance spécifiée est arrêtée. Le descr
 
 Si cette fonction échoue en raison d’une erreur d’utilisation, l’instance reste dans un état initialisé et rien ne change. Dans le cas contraire, l’instance est toujours arrêtée comme indiqué dans le cas de réussite. La différence est que l’instance doit passer par la récupération après incident lorsqu’elle est ensuite initialisée. Le moteur essaiera de vider le plus de données possible pour réduire la quantité de récupération requise. Conceptuellement, un tel échec de [JetTerm](./jetterm-function.md) n’est pas différent d’un blocage de processus.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Consultez [JetTerm](./jetterm-function.md).
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

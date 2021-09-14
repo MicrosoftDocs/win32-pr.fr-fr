@@ -15,11 +15,11 @@ api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
 ms.openlocfilehash: 0fa91c5b46d2eb7ca21ba14aa00b274d52e77eb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021092"
 ---
 # <a name="idelaydcconfigure-method"></a>IDelaydC :: configure, méthode
 
@@ -55,7 +55,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -81,7 +81,7 @@ Vous devez appliquer cette méthode pour redémarrer un NPP qui a été démarr�
 
 L’objet BLOB d’erreur retourné par *hErrorBlob* contient des entrées que Moniteur réseau n’a pas pu comprendre ou trouver dans l’objet blob de configuration spécifié dans *hConfigurationBlob*. L’objet BLOB d’erreurs renvoyé contient des informations d’erreur que l’application peut utiliser pour la résolution des problèmes. Par exemple, si \_ l’entrée d’objet BLOB NMERR \_ \_ n' \_ \_ existe pas est retournée, l’entrée Moniteur réseau introuvable est incluse dans l’objet blob d’erreur retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -101,7 +101,7 @@ L’objet BLOB d’erreur retourné par *hErrorBlob* contient des entrées que M
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC :: Connect](idelaydc-connect.md)
+[IDelaydC :: Connecter](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC :: Start](idelaydc-start.md)

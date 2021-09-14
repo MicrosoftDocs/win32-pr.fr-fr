@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78989b055e6de79c3da733ff8bc498a3fb6717c5dec226db73b80c4e5c9d899c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f5da4ea9c8c51d8ee74d3242e5020df23f758228
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119887909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236417"
 ---
 # <a name="mpstatus_data-structure"></a>\_Structure de données MPSTATUS
 
@@ -210,7 +210,7 @@ Quand **ComponentID**  ==  **MPCOMPONENT \_ Elam**. Consultez [**MPSTATUS \_ DAT
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

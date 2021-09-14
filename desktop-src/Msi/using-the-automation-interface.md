@@ -4,12 +4,12 @@ ms.assetid: 6825c852-6123-4d44-9491-3488cf18db03
 title: Utilisation de l’interface d’automatisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95e624b38544f78670e48c8abb389768cdb9c3cdab8745c87f2bfd0f190f3466
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f145736a13d0e7c1d0df8bf5560441921b2e472
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021228"
 ---
 # <a name="using-the-automation-interface"></a>Utilisation de l’interface d’automatisation
 

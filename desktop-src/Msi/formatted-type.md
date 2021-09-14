@@ -4,12 +4,12 @@ ms.assetid: 44af5b5c-bbf9-4043-8076-0881680a36c1
 title: Type mis en forme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09fc535a48f6d2e89cc46fb0d64ee998b8c062d6c2a406b9d5b8801ef1b62293
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b97e0c0c1763352f75424bf54d01f6871604f51
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120044329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021707"
 ---
 # <a name="formatted-type"></a>Type mis en forme
 

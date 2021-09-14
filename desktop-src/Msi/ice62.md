@@ -4,12 +4,12 @@ ms.assetid: 649d3989-8121-4303-aa3e-63bc6649f445
 title: ICE62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb5c2fd3f3305c791851fb3bd7480edc5e17f361c40719e8091930188dfa991c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 245e205b2d004efa99ae1605ff5255ef69834a40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021519"
 ---
 # <a name="ice62"></a>ICE62
 
@@ -17,11 +17,11 @@ ICE62 effectue des vérifications approfondies sur la [table IsolatedComponent](
 
 Si vous ne corrigez pas une erreur signalée par ICE62, vous risquez de provoquer une défaillance du système de composants isolés de plusieurs façons. Par exemple, si le bit SharedDllRefCount n’est pas défini pour un composant partagé, l’inscription du composant peut être supprimée lorsqu’une autre application utilise ce ComponentId et est désinstallée.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE62 publie un avertissement ou une erreur lorsqu’il trouve des données dans la table IsolatedComponent qui peuvent produire un comportement inattendu.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 ICE62 signale les erreurs et avertissements suivants pour les exemples indiqués.
 
@@ -103,7 +103,7 @@ Pour résoudre cet avertissement, installez les applications dans différents r�
 
 
 
-| Caractéristique\_ | Composant\_ |
+| Fonctionnalité\_ | Composant\_ |
 |-----------|-------------|
 | Feature1  | Composant1  |
 | Feature2  | Component2  |
@@ -117,7 +117,7 @@ Pour résoudre cet avertissement, installez les applications dans différents r�
 
 
 
-| Caractéristique  | Parent de la fonctionnalité \_ |
+| Fonctionnalité  | Parent de la fonctionnalité \_ |
 |----------|-----------------|
 | Feature1 |                 |
 | Feature2 |                 |

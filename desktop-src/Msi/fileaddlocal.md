@@ -4,18 +4,18 @@ ms.assetid: 89ae876e-53f0-4c1d-ba16-7513af79ee5e
 title: Propriété FILEADDLOCAL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c764fa89480cf4f37e19a4f6a10ee354a07bfe18f9fbc203ea0db4410f7bdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01e3e05a35e5bcd4fc672a2feb6bd2f40619bfcb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118946989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021740"
 ---
 # <a name="fileaddlocal-property"></a>Propriété FILEADDLOCAL
 
 La valeur de la propriété **FILEADDLOCAL** désigne une liste de clés de fichier délimitée par des virgules qui doivent être installées pour s’exécuter à partir du média source local. Pour chaque clé de fichier de la liste, le programme d’installation détermine le composant qui contrôle ce fichier, puis examine toutes les fonctionnalités liées à ce composant par la table [FeatureComponents](featurecomponents-table.md) et installe la fonctionnalité qui nécessite le moins d’espace disque. Les clés de fichier de la liste doivent être présentes dans la colonne fichier de la table [file](file-table.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Notez que les noms de clé de fichier respectent la casse. Notez également que si l’indicateur de bit LocalOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter localement.
 
@@ -38,7 +38,7 @@ Par exemple, si la ligne de commande spécifie : ADDLOCAL = ALL, ADDSOURCE = My
 
 Le programme d’installation définit la propriété [**présélectionnée**](preselected.md) sur la valeur « 1 » pendant la reprise d’une installation interrompue ou lorsque l’une des propriétés ci-dessus est spécifiée sur la ligne de commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

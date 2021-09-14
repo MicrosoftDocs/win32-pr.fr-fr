@@ -4,12 +4,12 @@ ms.assetid: df049d22-02e2-48b2-8b74-52f71c00c549
 title: Jeux de caractères codés sur deux octets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dbef827b91c5ed2468b06f759883c0ba0b874e74038871227aabe0f65f1a046
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 431b762b19f5531644e4bbaace548f34245c9d5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147662"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240360"
 ---
 # <a name="double-byte-character-sets"></a>Jeux de caractères codés sur deux octets
 

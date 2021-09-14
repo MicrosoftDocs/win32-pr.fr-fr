@@ -4,12 +4,12 @@ ms.assetid: 414025c3-7b83-42c7-9954-7393fba06061
 title: Propriété TRANSFORMSSECURE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7af3432b8f895d4d9f5d0fe643ef8106e01e28ad64fb2db177e968fbc13d88de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b5b7a30ab5e94fb646e2e8960b60fd97dc35557c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141632"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239904"
 ---
 # <a name="transformssecure-property"></a>Propriété TRANSFORMSSECURE
 
@@ -17,11 +17,11 @@ L’affectation de la valeur 1 à la propriété **TRANSFORMSSECURE** informe le
 
 l’objectif de cette propriété est de fournir un stockage de transformation sécurisé avec les utilisateurs itinérants de Windows 2000. Lorsque cette propriété est définie, une [installation de maintenance](maintenance-installation.md) peut uniquement utiliser la transformation à partir du chemin d’accès spécifié. Si le chemin d’accès n’est pas disponible, l’installation de la maintenance échoue. Une source pour chaque transformation sécurisée doit donc résider à l’emplacement de la source du package d’installation. Puis, si le programme d’installation détecte que la transformation est manquante sur l’ordinateur local, il peut restaurer la transformation à partir de cette source.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Windows Le programme d’installation interprète la propriété [**TRANSFORMSATSOURCE**](transformsatsource.md) comme étant identique à la propriété **TRANSFORMSSECURE** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

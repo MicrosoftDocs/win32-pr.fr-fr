@@ -4,12 +4,12 @@ ms.assetid: 35d41fa9-79d3-4baa-b177-5a32239b5051
 title: Propriété MSINEWINSTANCE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b26831f1171813d9df9e2c4124a4d6c24ea7efbf707fc5c15eefc9d6a8b1046
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d8b51ec02d7b30c42e6e400b6a6177d7ef47d88c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021317"
 ---
 # <a name="msinewinstance-property"></a>Propriété MSINEWINSTANCE
 
@@ -17,7 +17,7 @@ La propriété **MSINEWINSTANCE** indique l’installation d’une nouvelle inst
 
 cette propriété est disponible avec le programme d’installation qui exécute un système dans le Windows Server 2003 ou Windows XP.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

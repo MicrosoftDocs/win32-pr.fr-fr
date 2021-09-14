@@ -4,12 +4,12 @@ ms.assetid: 53ebb532-9eb3-46b7-9dcc-f593bfd25c60
 title: Coût des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ad2dc3ad9da4fab21345e74f3f9db99992445d7cf1e2266806bda55cd6ca638
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55a4e6221775c2b9ecc429bd32f136e519a2b63b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119529579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021753"
 ---
 # <a name="file-costing"></a>Coût des fichiers
 

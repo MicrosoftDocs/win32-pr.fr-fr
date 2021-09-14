@@ -4,12 +4,12 @@ ms.assetid: d46a59e6-8abc-484b-aecc-edf57ffff512
 title: MFNETSOURCE_ENABLE_UDP, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20e86078fc836e2a75dd3e5aed238fd09a1f5a00f6442a761c38111a3c87762c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d326cbd375a7d7e22ea2afc121dd4af9086e60c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118243572"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236106"
 ---
 # <a name="mfnetsource_enable_udp-property"></a>MFNETSOURCE \_ activer la \_ propriété UDP
 
@@ -37,7 +37,7 @@ La constante **MFNETSOURCE \_ Enable \_ UDP** définit le GUID de cette clé de 
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

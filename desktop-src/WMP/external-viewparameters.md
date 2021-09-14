@@ -3,7 +3,7 @@ title: External. viewParameters
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. viewParameters
 ms.assetid: 0afabe35-2857-413a-a662-1a76d3fb75fe
 keywords:
-- External. viewParameters Windows Media Player
+- External. viewParameters Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ea0adec580a68bd3f6b92beef1de814729848179
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192288"
 ---
 # <a name="externalviewparameters"></a>External. viewParameters
 
@@ -28,7 +28,7 @@ ms.locfileid: "106533080"
 
  
 
-La propriété **viewParameters** récupère les paramètres associés à la vue actuelle dans le lecteur Windows Media.
+la propriété **viewParameters** récupère les paramètres associés à la vue actuelle dans Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,9 +42,9 @@ Cette propriété retourne une **chaîne** en lecture seule.
 
 Cette propriété récupère les paramètres qui ont été définis précédemment par le magasin en ligne. Par exemple, le magasin en ligne peut spécifier des paramètres d’affichage dans le paramètre *ViewParams* de la méthode [changeView](external-changeview.md) ou le paramètre *params* de la méthode [changeViewOnlineList](external-changeviewonlinelist.md) .
 
-Les paramètres d’affichage ne sont pas interprétés par le lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
+les paramètres d’affichage ne sont pas interprétés par Lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

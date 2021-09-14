@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: f73aeebe738a631bff95a07beaa0b5928d3d1935ac7b400ed5fa333e79c1f044
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ce1f8929dd6e2f7de59d32d66229f73c062505c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118391599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240455"
 ---
 # <a name="caldatetime_dateunit-enumeration"></a>CALDATETIME \_ DATEUNIT, énumération
 
@@ -110,7 +110,7 @@ Unité de date et d’heure de la graduation.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

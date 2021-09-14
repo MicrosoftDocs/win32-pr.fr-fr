@@ -4,12 +4,12 @@ ms.assetid: 21550eea-c30b-4738-9201-ab500356fabf
 title: Gérer les tailles et les versions des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79dcb5bec9b7fd24d7171efed9295479e56d979a3f7aa69352f2231d409417f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 426acf71956d87fe1458447119d79bc142f1ee75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118629040"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021358"
 ---
 # <a name="manage-file-sizes-and-versions"></a>Gérer les tailles et les versions des fichiers
 

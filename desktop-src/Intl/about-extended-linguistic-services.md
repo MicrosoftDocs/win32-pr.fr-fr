@@ -5,18 +5,18 @@ title: À propos des services linguistiques étendus
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7a6594fcfe67954a56cb09e239221b2b529d4d01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541844"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240497"
 ---
 # <a name="about-extended-linguistic-services"></a>À propos des services linguistiques étendus
 
 Les services linguistiques étendus (ELS) sont implémentés sous la forme d’une bibliothèque de liens dynamiques (DLL) qui fournit diverses fonctionnalités de prise en charge linguistique pour le texte que l’application spécifie. La technologie comprend la plateforme et les plug-ins ELS pour plusieurs types de service linguistiques prédéfinis accessibles à l’application via la plateforme.
 
 > [!Note]  
-> Le module ELS est installé automatiquement avec Windows 7 et versions ultérieures.
+> le module ELS est installé automatiquement avec Windows 7 et versions ultérieures.
 
  
 
@@ -33,7 +33,7 @@ La plateforme s’exécute dans l’espace mémoire virtuelle de l’application
 
 ## <a name="els-services"></a>Services ELS
 
-Pour Windows 7 et versions ultérieures, la plateforme ELS prend en charge uniquement les services prédéfinis suivants.
+pour les Windows 7 et versions ultérieures, la plateforme ELS prend en charge uniquement les services prédéfinis suivants.
 
 -   [Détection de langue Microsoft](microsoft-language-detection.md)
 -   [Détection de scripts Microsoft](microsoft-script-detection.md)

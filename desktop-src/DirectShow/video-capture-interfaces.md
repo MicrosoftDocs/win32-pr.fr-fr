@@ -4,12 +4,12 @@ ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: Interfaces de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bfee9807a94f381fef3a294dcd405de6fe8b67fafef3ace562309fe5e10d2ee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d7c88ab86833a3570789dee311b36d49f382c9cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119633059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240564"
 ---
 # <a name="video-capture-interfaces"></a>Interfaces de capture vidéo
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 3f3b250cbaebd565f14ef7f10cd8180e497f20347d00a7e96a74298d3e5dc770
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5df72b9423ad212264736d16db0ae73ded9afef5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119013027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021350"
 ---
 # <a name="mergeclosedatabase-method"></a>Merge. FermerBase, méthode
 
@@ -47,11 +47,11 @@ Merge.CloseDatabase(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fermeture d’une base de données efface toutes les informations de dépendance, mais n’affecte pas les erreurs qui n’ont pas été récupérées.
 
@@ -59,7 +59,7 @@ La fermeture d’une base de données efface toutes les informations de dépenda
 
 Consultez la fonction [**FermerBase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

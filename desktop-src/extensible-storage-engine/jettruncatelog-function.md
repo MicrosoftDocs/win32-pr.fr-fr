@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 038a07a5781c9b38d729b63af0bd9f9cce52c75e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236604"
 ---
 # <a name="jettruncatelog-function"></a>JetTruncateLog fonction)
 
@@ -67,7 +67,7 @@ Si cette fonction réussit, l’ensemble des fichiers journaux des transactions 
 
 Si cette fonction échoue, l’ordinateur d’état de sauvegarde peut être avancé, de sorte que la sauvegarde des fichiers de base de données n’est plus autorisée. Un certain nombre de fichiers journaux de transactions peuvent être supprimés moins que le nombre souhaité, mais ils seront toujours supprimés du plus ancien au plus récent.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

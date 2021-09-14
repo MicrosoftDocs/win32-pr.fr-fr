@@ -4,18 +4,18 @@ ms.assetid: 19288c87-fddb-46c9-8145-59e1b870a261
 title: ICE50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b9dd81c84c52738ee58c023ba5727cd6d5766bf7c40db97b6459483d7f53d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de88dda0dd1cdd18a10a35c32ef612acb75c871e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118635150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021541"
 ---
 # <a name="ice50"></a>ICE50
 
 ICE50 vérifie que les icônes de raccourci sont spécifiées pour s’afficher correctement et correspondent à l’extension du fichier cible.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE50 publie un message d’erreur si l’extension de l’icône et les fichiers cibles ne correspondent pas. ICE50 publie un avertissement si les icônes sont stockées dans des fichiers qui n’ont pas d’extension .exe ou. ico.
 
@@ -89,7 +89,7 @@ ICE50 signale l’erreur suivante pour l’exemple indiqué.
 
 
 
-| Raccourci  | Composant  | Cible   | Située\_    |
+| Raccourci  | Composant  | Cible   | Icône\_    |
 |-----------|------------|----------|-----------|
 | Shortcut1 | Composant1 | Feature1 | Icon1.bat |
 | Shortcut2 | Component2 | Feature1 | Icon2. dat |

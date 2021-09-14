@@ -4,12 +4,12 @@ ms.assetid: E490DF0C-97DE-4375-A4DB-17DA4E782E2D
 title: CODECAPI_AVEncNumWorkerThreads, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 526fe4a025ce47e7c9775b677c3ef5a72d55f892ae201f5241421a2ff0d29163
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e08e18f57478597b841e042b17c601451ad93cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236310"
 ---
 # <a name="codecapi_avencnumworkerthreads-property"></a>CODECAPI \_ propriété AVEncNumWorkerThreads
 
@@ -23,11 +23,11 @@ Définit le nombre de threads de travail utilisés par un encodeur vidéo.
 
 **CODECAPI \_ AVEncNumWorkerThreads**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur est égale à zéro, l’encodeur sélectionne le nombre de threads.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

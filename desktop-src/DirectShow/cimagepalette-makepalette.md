@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f270797c224617c02b14752b15bbdb54b64a7457670e0b26bae54c39a93657eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20c4484b2666b25b5d713ede450a9a5a99f93348
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239165"
 ---
 # <a name="cimagepalettemakepalette-method"></a>Méthode CImagePalette. MakePalette
 
@@ -57,11 +57,11 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, retourne un handle vers la palette. Sinon, retourne la **valeur null**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

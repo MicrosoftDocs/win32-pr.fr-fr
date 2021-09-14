@@ -5,18 +5,18 @@ title: Affichage de texte international
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ee8ba7eb6f1a043bb642945e178f3545bcd51738
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035125"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240390"
 ---
 # <a name="international-text-display"></a>Affichage de texte international
 
 Il existe quatre options possibles pour l’affichage de texte international, qui entraîne également la sortie des scripts complexes :
 
--   Appel d’API de texte Windows
--   Instanciation des contrôles d’édition standard de Windows
+-   appel d’api de texte Windows
+-   instanciation Windows contrôles d’édition standard
 -   Instanciation de contrôles RichEdit
 -   Appel de Uniscribe
 

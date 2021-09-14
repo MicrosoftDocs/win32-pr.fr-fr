@@ -4,12 +4,12 @@ description: dans Windows 7, netsh.exe peut être utilisé à partir d’une inv
 ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07c4be1c89c496245cb67bec4aef8614f5efef5db003e6c79cef2e54314c3071
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c1cf869f60b69e227e78e19e8e05d3765ddb67d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118133252"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021140"
 ---
 # <a name="using-netsh-to-manage-traces"></a>Utilisation de netsh pour gérer les traces
 
@@ -55,10 +55,10 @@ Dans cet exemple, le niveau est défini sur 5, ce qui signifie que le nombre max
 
 
 
-| Niveau      | Paramètre              | Description                                                                           |
+| Level      | Paramètre              | Description                                                                           |
 |-------|---------------|----------------------------------------------------------------------------|
 | 1     | Critique      | Seuls les événements critiques seront affichés.                                        |
-| 2     | Errors        | Les événements critiques et les erreurs s’affichent.                                  |
+| 2     | Erreurs        | Les événements critiques et les erreurs s’affichent.                                  |
 | 3     | Avertissements      | Les événements critiques, les erreurs et les avertissements s’affichent.                       |
 | 4     | Informationnel | Les événements critiques, les erreurs, les avertissements et les événements d’information s’affichent. |
 | 5     | Commentaires       | Tous les événements s’affichent.                                                  |

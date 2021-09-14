@@ -4,18 +4,18 @@ ms.assetid: a1d9a6e9-4d21-4544-a813-dc82e11f5a26
 title: ICE17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5e9714edebd666173a82c75fc6e8fed54a511c64adaa387013648b2f190e88
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c296273e1de5ae633b2708c92cf0376018e6d32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119529199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021606"
 ---
 # <a name="ice17"></a>ICE17
 
 ICE17 vérifie les situations indiquées dans l’exemple à la fin de cette rubrique.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE17 affiche un message d’erreur ou d’avertissement pour chacune des situations de l’exemple. Les exemples de ces messages sont présentés dans le tableau suivant.
 
@@ -37,20 +37,20 @@ ICE17 affiche un message d’erreur ou d’avertissement pour chacune des situat
 
  
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 [Table de contrôle](control-table.md) (partielle)
 
 
 
-| Boîte de dialogue\_ | Contrôler      | Type             | Attributs | Propriété     | Texte       |
+| Dialogue\_ | Control      | Type             | Attributs | Propriété     | Texte       |
 |----------|--------------|------------------|------------|--------------|------------|
 | MyDialog | Button1      | Boutons       | 0          |              | Ok         |
 | MyDialog | Bitmap1      | Bitmap           | 0          |              | Bitmap1    |
 | MyDialog | RadioButton1 | RadioButtonGroup | 0          | RadioButton1 |            |
 | MyDialog | ListBox1     | ListBox          | 0          | ListBox1     |            |
-| MyDialog | ComboBox1    | Liste déroulante         | 0          | ComboBox1    |            |
-| MyDialog | ListView1    | Affichage de liste         | 0          | ListView1    |            |
+| MyDialog | ComboBox1    | ComboBox         | 0          | ComboBox1    |            |
+| MyDialog | ListView1    | ListView         | 0          | ListView1    |            |
 | MyDialog | Button2      | Boutons       | 262 144     |              | Bitmap2    |
 | MyDialog | RadioButton2 | RadioButtonGroup | 262 144     |              | Property2  |
 | MyDialog | RadioButton3 | RadioButtonGroup | 524 288     |              | Property3  |
@@ -64,7 +64,7 @@ ICE17 affiche un message d’erreur ou d’avertissement pour chacune des situat
 
 
 
-| Propriété\_ | Commande | Texte    |
+| Propriété\_ | JSON | Texte    |
 |------------|-------|---------|
 | Property2  | 1     | Bitmap3 |
 | Property3  | 2     | Icon1   |

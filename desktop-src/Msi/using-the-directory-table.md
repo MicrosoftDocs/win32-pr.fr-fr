@@ -4,12 +4,12 @@ ms.assetid: 3f2e1cc2-6b36-4615-86e6-e78485edd2f7
 title: Utilisation de la table Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f550f32006df16db5811e0fbf5022253373a4b1551983ddda2db55655b4061f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7218fe6f6e2ca36bc0c52e74b564ad07d87053a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021217"
 ---
 # <a name="using-the-directory-table"></a>Utilisation de la table Directory
 

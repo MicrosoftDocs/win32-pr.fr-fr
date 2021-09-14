@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 283cab8580e3c456a3d75727ab55f2f61dc623d91b593559aa0eb2ec07e4b26e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39d51df93a04efa8631fcfbd583075d7e3500bff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021107"
 ---
 # <a name="formatpropertyinstance-function"></a>FormatPropertyInstance fonction)
 
@@ -50,13 +50,13 @@ Lors de la sortie, le formateur générique définit le membre **szPropertyText*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur de NMerr. h.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La DLL de l’analyseur appelle indirectement la fonction **FormatPropertyInstance** lorsque le formateur générique est requis pour mettre en forme les données à afficher dans le volet d’informations de l’interface utilisateur Moniteur réseau. Pour appeler **FormatPropertyInstance** , spécifiez-le dans le membre **InstanceData** de la structure [PROPERTYINFO](propertyinfo.md) lorsque vous définissez la propriété.
 
@@ -67,7 +67,7 @@ La DLL de l’analyseur appelle indirectement la fonction **FormatPropertyInstan
 
 Pour plus d’informations et pour obtenir un exemple d’implémentation de [formatproperties](formatproperties.md), consultez [implémentation de formatproperties](implementing-formatproperties.md). Pour plus d’informations sur la façon dont le formateur générique met en forme les différents types de données, consultez [sortie du formateur générique](generic-formatter-output.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

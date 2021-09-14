@@ -4,18 +4,18 @@ ms.assetid: 1f2ba2a1-0170-4434-88fd-a5d1ca8b67c4
 title: ICE40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 077c44154413d9aa9e75b1c13fe2f2f80ccb52fee6459888c7bc9678ea0e935f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 17617fe5748fcba5ae0edab414ad1bc83c2e5c22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119528429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021561"
 ---
 # <a name="ice40"></a>ICE40
 
 ICE40 effectue une validation diverse.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE40 publie des avertissements sur les éléments suivants :
 
@@ -23,7 +23,7 @@ ICE40 publie des avertissements sur les éléments suivants :
 -   La [table RemoveIniFile](removeinifile-table.md) possède une entrée de balise DELETE sans valeur.
 -   La [table d’erreurs](error-table.md) est manquante dans le fichier .msi et la propriété de [**Résumé du nombre de pages**](page-count-summary.md) est inférieure ou égale à 100. cet avertissement ICE est obsolète, car Windows Installer ne requiert pas que le package ait une table d’erreurs. Les messages d’erreur peuvent être récupérés à l’aide de Msimsg.dll.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 [Table de propriétés](property-table.md)
 
@@ -31,7 +31,7 @@ ICE40 publie des avertissements sur les éléments suivants :
 
 | Propriété                               | Valeur |
 |----------------------------------------|-------|
-| [**REINSTALLMODE**](reinstallmode.md) | A     |
+| [**REINSTALLMODE**](reinstallmode.md) | Un     |
 
 
 

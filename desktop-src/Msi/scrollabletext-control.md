@@ -4,12 +4,12 @@ ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
 title: Contrôle ScrollableText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02f4d5ac48f6b89b779960126e62c204d1d09e1f9a7bc832b0e3477635df35ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05ff807f2b0175eb411b3c45eb9d1e3b5eeaea01
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239915"
 ---
 # <a name="scrollabletext-control"></a>Contrôle ScrollableText
 
@@ -39,7 +39,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce contrôle peut être créé à partir de la classe RICHEDIT à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ Multiline**, **WS \_ VSCROLL**, **es \_ ReadOnly**, **WS \_ TABSTOP**, **es \_ AUTOVSCROLL**, **WS \_ Child**, **WS \_ Group** et **es \_ NOOLEDRAGDROP** .
 

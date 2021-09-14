@@ -4,12 +4,12 @@ ms.assetid: e3bfeefd-82aa-423c-9248-b6f54f095b1c
 title: Touches d’accès rapide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107e02412529b7f14e577eef79426b322da494b4c0d613146f0af7fd3ac719df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 624ccb54c8ebded40e8d1c2cc646b7d8e65bb74a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118949378"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240276"
 ---
 # <a name="hot-keys"></a>Touches d’accès rapide
 

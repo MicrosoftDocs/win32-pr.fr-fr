@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db28b6892d5aa0e9eaf98aec50b02ad102db8ba549474c673c6c0d918d799d6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8897cc0eb004da701f28b410f2ca28b6194c9d26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119493349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127020989"
 ---
 # <a name="glistexture-function"></a>glIsTexture fonction)
 
@@ -53,13 +53,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Name                                                                                                  | Signification                                                                                                                               |
+| Nom                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre de *texture* est actuellement le nom d’une texture, la fonction **glIsTexture** retourne la \_ valeur GL true. La fonction **glIsTexture** retourne GL \_ false si la *texture* est égale à zéro. Elle retourne également \_ le GL false s’il s’agit d’une valeur différente de zéro qui n’est pas le nom d’une texture actuellement, ou si une erreur se produit.
 
@@ -70,7 +70,7 @@ Vous ne pouvez pas inclure d’appels à **glIsTexture** dans des listes d’aff
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

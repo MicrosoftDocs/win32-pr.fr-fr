@@ -4,12 +4,12 @@ ms.assetid: 36E1C86B-86D0-40CB-8F96-061FC653E9C3
 title: CODECAPI_AVEncVideoTemporalLayerCount, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a81ceaf82d9d202e97927e0e141aa03a4e8e27c49a28880509aa9bb3c24f9319
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85402b57c0eaf5c5fe61290eabdfd3e34a64ca4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118743840"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236232"
 ---
 # <a name="codecapi_avencvideotemporallayercount-property"></a>CODECAPI \_ propriété AVEncVideoTemporalLayerCount
 
@@ -23,13 +23,13 @@ Définit le nombre de couches temporelles vidéo pour un encodeur vidéo.
 
 **CODECAPI \_ AVEncVideoTemporalLayerCount**
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
 CODECAPI \_ AVEncVideoTemporalLayerCount, [CODECAPI \_ AVEncVideoUsage](codecapi-avencvideousage.md)et [CODECAPI \_ AVEncCommonRateControlMode](/windows/desktop/DirectShow/avenccommonratecontrolmode-property) sont des propriétés d’encodeur statiques. Une fois définis, ceux-ci prennent effet uniquement après l’appel d’un type de média set sur la broche de sortie de l’appareil photo s.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3c6c69b66f3ff92905333a28c5dadfd79290033f0abb68cb2a790f07c6e34412
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7702ae8aad5ae24acf3835451b7b8eff3a26ceb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119063749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021063"
 ---
 # <a name="parserautoinstallinfo-callback-function"></a>ParserAutoInstallInfo fonction de rappel
 
@@ -37,13 +37,13 @@ PPF_PARSERDLLINFO WINAPI ParserAutoInstallInfo(void);
 
 Cette fonction de rappel n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est une structure [ \_ PARSERDLLINFO de PF](pf-parserdllinfo.md) qui décrit les analyseurs dans la dll.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque Moniteur réseau se charge pour la première fois, il appelle **ParserAutoInstallInfo** (s’il existe) pour installer automatiquement chaque analyseur, puis énumère toutes les dll de l’analyseur dans le sous-répertoire de l’analyseur.
 
@@ -69,7 +69,7 @@ Chaque DLL de l’analyseur doit contenir un analyseur. Toutefois, Moniteur rés
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

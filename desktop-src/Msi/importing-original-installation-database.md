@@ -4,12 +4,12 @@ ms.assetid: 279f0ab6-a6fc-4594-af6c-5a69d6167300
 title: Importation de la base de données d’installation d’origine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcfe1ffd70b2e3cd82e3aa6afe4d7fddb23a17fe3e548dab9e70ad0fe307d605
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 390a51e1ef068124fcdf85142ab01406d92f9a85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120043779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021391"
 ---
 # <a name="importing-original-installation-database"></a>Importation de la base de données d’installation d’origine
 

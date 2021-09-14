@@ -8,11 +8,11 @@ ms:contentKeyID: 55104163
 ms.date: 07/30/2014
 ms.topic: article
 ms.openlocfilehash: c926d00f785aab3a63cd8ebc7eebaf74ea5f0e23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558624"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127236502"
 ---
 # <a name="transaction-methods"></a>Méthodes de transaction
 
@@ -120,7 +120,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [classe de transaction](./transaction-class.md)
 

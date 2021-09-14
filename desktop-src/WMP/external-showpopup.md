@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a651add93e32c1c2eb82827a4089a338341f2506ba26d9fbb06061aa6d185d75
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: acaecb559e7df60067e89ec754ec9432233500f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192312"
 ---
 # <a name="externalshowpopup-method"></a>External. showPopup, méthode
 
@@ -62,11 +62,11 @@ External.showPopup(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 l’index contextuel n’est pas interprété par Lecteur Windows Media. Les index qui identifient les pages Web contextuelles sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
 
@@ -82,7 +82,7 @@ les étapes suivantes montrent comment Lecteur Windows Media utilise les paramè
 
 Vous pouvez utiliser des *paramètres* pour spécifier la taille de la fenêtre indépendante. Par exemple, si vous définissez les *paramètres* sur « DlgX = 800&DlgY = 400 », la fenêtre contextuelle aura une taille de 800 pixels par 400 pixels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

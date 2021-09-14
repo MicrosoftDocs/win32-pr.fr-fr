@@ -4,12 +4,12 @@ ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
 title: ajout de la prise en charge de interface utilisateur multilingue à une Application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5ca1ddba2574610cde1f375f7fab2b07461008665f2092c9c8e88ae9b51f96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 192d9053513a7fe915990c80deb32ffdb9114910
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240401"
 ---
 # <a name="adding-multilingual-user-interface-support-to-an-application"></a>ajout de la prise en charge de interface utilisateur multilingue à une Application
 

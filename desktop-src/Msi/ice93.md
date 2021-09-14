@@ -4,18 +4,18 @@ ms.assetid: 1c1ff9bf-84a2-45ac-b464-ecc42a4d2d84
 title: ICE93
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b66e87046c2f23fe3efcb2b9ae0e188f7f2f0232c623c3d3ecae77e73438b86f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ed8cde0bce66db9f726a69f0f12064653d22727
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021456"
 ---
 # <a name="ice93"></a>ICE93
 
 ICE93 émet un avertissement si une action personnalisée utilise le même nom qu’une action standard. Pour obtenir la liste de tous les noms d’actions standard, consultez [référence des actions standard](standard-actions-reference.md).
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICE93 publie l’avertissement suivant.
 

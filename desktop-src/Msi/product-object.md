@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: ff05a2f89244da09caa6cd3b26fc4b5d9cdbec95c0fcc3098fddf0c39dc68519
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8e9071f26da944c2c5ea206b2f70582d731ef59
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118627672"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127021276"
 ---
 # <a name="product-object"></a>Product, objet
 
@@ -61,21 +61,21 @@ L’objet **Product** possède ces propriétés.
 | Propriété                                                      | Description                                                                                 |
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**ComponentState**](product-componentstate.md)<br/>   | État d’un composant spécifié pour cette instance de produit. <br/>                   |
-| [**Contexte**](product-context.md)<br/>                 | Contexte de cette instance de produit en tant que valeur MSIINSTALLCONTEXT. <br/>                 |
+| [**Context**](product-context.md)<br/>                 | Contexte de cette instance de produit en tant que valeur MSIINSTALLCONTEXT. <br/>                 |
 | [**FeatureState**](product-featurestate.md)<br/>       | État d’une fonctionnalité spécifiée pour cette instance de produit. <br/>                     |
 | [**InstallProperty**](product-installproperty.md)<br/> | Valeur d’une propriété spécifiée. <br/>                                              |
 | [**MediaDisks**](product-mediadisks.md)<br/>           | Énumère tous les disques multimédias pour cette instance de produit.<br/>                        |
 | [**ProductCode**](product-productcode.md)<br/>         | Retourne le code du produit. <br/>                                                       |
 | [**SourceListInfo**](product-sourcelistinfo.md)<br/>   | Obtient et définit les propriétés des informations sur la source. Il s’agit d’une propriété de lecture ou d’écriture.<br/> |
-| [**Sources**](product-sources.md)<br/>                 | Énumère toutes les sources pour cette instance de produit.<br/>                            |
-| [**Département**](product-state.md)<br/>                     | État d’installation du produit.<br/>                                               |
+| [**Alimentation**](product-sources.md)<br/>                 | Énumère toutes les sources pour cette instance de produit.<br/>                            |
+| [**State**](product-state.md)<br/>                     | État d’installation du produit.<br/>                                               |
 | [**UserSid**](product-usersid.md)<br/>                 | Retourne le SID de l’utilisateur, sous quel compte cette instance de produit est disponible.<br/>    |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
