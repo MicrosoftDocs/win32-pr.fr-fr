@@ -10,12 +10,12 @@ keywords:
 - partage de bande passante, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 449a1e43a8f5c7212f1e9c4240d85eb11c9ee39209fab4313b373a56d017b2dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d29048e3094f1a12775dfbec7422baf349c18be7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219660"
 ---
 # <a name="bandwidth-sharing-object"></a>Objet de partage de bande passante
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: b020f41822185dfc9e4e2513fc9e299bc35d9bbb258aaeddf6f1e1e8ea7b8cf9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb2a50a7f16062f271a89b6061e3f2fa2dd16685
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118905658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217996"
 ---
 # <a name="sslverifysignature-function"></a>SslVerifySignature fonction)
 
@@ -94,7 +94,7 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
@@ -112,13 +112,13 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslVerifySignature** n’est pas appelée actuellement par Windows. Cette fonction est une partie obligatoire de l’interface du fournisseur SSL et doit être entièrement implémentée pour garantir la compatibilité ascendante.
 
 Les implémentations actuelles du côté serveur de la connexion TLS ( [*Transport Layer Security Protocol*](/windows/desktop/SecGloss/t-gly) ) appellent la fonction [**NCryptVerifySignature**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptverifysignature) lors de l’authentification du client pour traiter le message de vérification du certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

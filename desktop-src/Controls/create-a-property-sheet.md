@@ -4,12 +4,12 @@ description: L’exemple de cette section crée une feuille de propriétés qui 
 ms.assetid: 61ACF87A-938C-4487-ACEB-484FCB677C6A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa99c3e678fa7d8e6aa70cd3f5c6e4c7bc514f94114c7bb7a411fa7df1caac3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d15abd44f3a583afd99c5d943b9105c8734b73c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831845"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007660"
 ---
 # <a name="how-to-create-a-property-sheet"></a>Guide pratique pour créer une feuille de propriétés
 
@@ -89,7 +89,7 @@ VOID DoPropertySheet(HWND hwndOwner)
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les modèles de boîte de dialogue, les icônes et les étiquettes des pages sont chargés à partir des ressources contenues dans le fichier exécutable de l’application. L’icône de la feuille de propriétés est également chargée à partir des ressources de l’application.
 

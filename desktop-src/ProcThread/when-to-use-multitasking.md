@@ -4,12 +4,12 @@ ms.assetid: ac0a8163-1498-4274-acfc-6a36b4c02a27
 title: Quand utiliser le multitâche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3e37f63ada4aa1a17355ac3bc5b7361d498a1a20ec87b490965b53c4811ebb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b17e52f39a08120d3038663a95307ad72f228cfc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218257"
 ---
 # <a name="when-to-use-multitasking"></a>Quand utiliser le multitâche
 

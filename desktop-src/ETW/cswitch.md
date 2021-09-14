@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 09efeac38babb057621cb6f25d14d3a631c12242e91982ae3ab9e79570416be5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91004ca276140271e8d73c3fc226e83c4e03d1fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118395345"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007440"
 ---
 # <a name="cswitch-class"></a>CSwitch, classe
 
@@ -164,11 +164,11 @@ Qualificateurs : WmiDataId (9)
 
 État du thread précédent. Les valeurs d’État possibles sont les suivantes :
 
-| État | Description                                   |
+| State | Description                                   |
 |-------|-----------------------------------------------|
 | 0     | Initialized                                   |
 | 1     | Ready                                         |
-| 2     | En cours d’exécution                                       |
+| 2     | Exécution en cours                                       |
 | 3     | Standby                                       |
 | 4     | Terminé                                    |
 | 5     | En attente                                       |
@@ -211,7 +211,7 @@ Qualificateurs : WmiDataId (8)
 
 Mode d’attente pour le thread précédent. Les valeurs possibles sont les suivantes :
 
-| État | Description |
+| State | Description |
 |-------|-------------|
 | 0     | Kernelmode.  |
 | 1     | UserMode    |
@@ -236,7 +236,7 @@ Qualificateurs : WmiDataId (7)
 
 Raison de l’attente du thread précédent. Les valeurs possibles sont les suivantes :
 
-| État | Description       |
+| State | Description       |
 |-------|-------------------|
 | 0     | Executive         |
 | 1     | FreePage          |
@@ -331,7 +331,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ces événements produisent un volume élevé d’événements.
 

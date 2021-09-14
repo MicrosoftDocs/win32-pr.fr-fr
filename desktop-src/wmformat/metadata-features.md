@@ -12,12 +12,12 @@ keywords:
 - métadonnées, fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6865e54f2eeabcb96dd88df27aba578a9169ed84857d17af5602848041f24118
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80ea31885a1c1635ee4778683858876572e32262
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118700451"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225868"
 ---
 # <a name="metadata-features"></a>Fonctionnalités de métadonnées
 
@@ -48,7 +48,7 @@ Les rubriques suivantes abordent les autres fonctionnalités de métadonnées pr
 
 <dl> <dt>
 
-[**Caractéristiques**](features.md)
+[**Éléments**](features.md)
 </dt> <dt>
 
 [**Interface IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)

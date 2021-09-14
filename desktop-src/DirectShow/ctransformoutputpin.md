@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4f99b0d03eb3b2b1ac63c69620346e4db663c75730ff773de2fb1429b268aefb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c55c57fbec0a8441b80398370542d94b2b70c1ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119756783"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224657"
 ---
 # <a name="ctransformoutputpin-class"></a>CTransformOutputPin, classe
 
@@ -60,7 +60,7 @@ Cette classe expose les interfaces **IMediaSeeking** et **IMediaPosition** via l
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

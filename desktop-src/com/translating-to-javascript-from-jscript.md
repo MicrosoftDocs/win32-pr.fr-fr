@@ -4,12 +4,12 @@ description: Conversion en JavaScript à partir de JScript
 ms.assetid: 11d31c8c-868d-4220-9298-6d24a209dc47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c4adb5827952cc9bab0dac268997b5b73a52ecd1403e5431cdb3939b08c7e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71b18972f407cf008626245798b3f7740d98058e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221636"
 ---
 # <a name="translating-to-javascript-from-jscript"></a>Conversion en JavaScript à partir de JScript
 

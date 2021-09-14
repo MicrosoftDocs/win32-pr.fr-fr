@@ -4,12 +4,12 @@ ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
 title: DirectShow Codes d’erreur et de réussite (Vfwmsgs. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a60f3f128f2bf9e6b86c260315d8d7b1659d5095428d7afd4e3d4528d44af5b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f83b515161221ebc11d5b14276b1fe3259624e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119905649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224569"
 ---
 # <a name="directshow-error-and-success-codes"></a>DirectShow Codes d’erreur et de réussite
 
@@ -194,7 +194,7 @@ outre les valeurs indiquées précédemment, DirectShow Services d’édition d�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

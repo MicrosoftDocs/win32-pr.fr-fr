@@ -4,12 +4,12 @@ ms.assetid: a1ca88dc-8497-41f5-889d-16eecfee0648
 title: Structures de périphérique en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f44061a961a477d4adafb79e89d1719083477705c066857696cba2a19c934d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b534be2522152188dd57f74e4fe1cdc1d3d5a674
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117761969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217761"
 ---
 # <a name="line-device-structures"></a>Structures de périphérique en ligne
 

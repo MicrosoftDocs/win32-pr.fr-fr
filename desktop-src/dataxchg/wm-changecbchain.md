@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25dac74784a214f77f8b2912e2fd643624ae767027121e2262d81989d54d3831
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4ab91640320e3659d0e9fb130f5c773ccbb7c4e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008158"
 ---
 # <a name="wm_changecbchain-message"></a>\_Message WM CHANGECBCHAIN
 
@@ -52,11 +52,11 @@ Handle vers la fenêtre suivante dans la chaîne après la suppression de la fen
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque fenêtre de la visionneuse du presse-papiers enregistre le descripteur dans la fenêtre suivante dans la chaîne du presse-papiers. Initialement, ce descripteur est la valeur de retour de la fonction [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer) .
 
@@ -87,7 +87,7 @@ Quand une fenêtre de la visionneuse du presse-papiers reçoit le message **WM \
 [**SetClipboardViewer**](/windows/desktop/api/Winuser/nf-winuser-setclipboardviewer)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

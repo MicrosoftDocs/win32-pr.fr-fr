@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: 597f929a2a5f2800b1761fdba377f2ed022460e7585e1a9d0131d3e6e21127e2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fba878a40f510cc5e76256161255e01deaa7ee04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118303494"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008093"
 ---
 # <a name="d3dx10_image_file_format-enumeration"></a>\_ \_ Énumération de format de fichier image d3dx10 \_
 

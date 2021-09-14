@@ -4,12 +4,12 @@ ms.assetid: 985c70a4-1575-4226-a8c2-a7a21f7a0dbd
 title: Propriété OriginalDatabase
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b8ec6b77d013ee89d081c0ff20e3ad00750454e1fa9299d364fdb94e69ccb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 592bc86a9ef53602f686e48b3c98dad17a49cfe1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145532"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218873"
 ---
 # <a name="originaldatabase-property"></a>Propriété OriginalDatabase
 
@@ -27,11 +27,11 @@ l’Windows Installer définit la propriété **OriginalDatabase** sur le chemin
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la première installation, une séquence d’action personnalisée avant l' [action ResolveSource](resolvesource-action.md) peut utiliser la propriété **OriginalDatabase** pour déterminer l’emplacement de la source d’installation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

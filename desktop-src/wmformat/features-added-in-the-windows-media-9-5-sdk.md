@@ -35,12 +35,12 @@ keywords:
 - Windows SDK Media Gestionnaire de périphériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbcabd2fd3ae1b1030b04c0be342bcb64678e98eef601c83570ad68a13567820
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e58c9816ef80325422ee365b952842727b5004e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119591399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219537"
 ---
 # <a name="features-added-in-the-windows-media-95-sdk"></a>fonctionnalités ajoutées au kit de développement logiciel (SDK) Windows Media 9,5
 

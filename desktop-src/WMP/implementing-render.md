@@ -14,15 +14,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 99db0a96a07c361d18de579fb0235befa11838c8
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030809"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217065"
 ---
 # <a name="implementing-render"></a>Implémentation du rendu
 
-La façon la plus simple de considérer la programmation de la visualisation est que vous créez un gestionnaire pour un événement chronométré. À des intervalles spécifiques, le lecteur Windows Media prend un instantané des données audio qu’il lit et fournit les données de capture instantanée à la visualisation actuellement chargée. Cela est similaire à la programmation pilotée par les événements et fait partie du modèle de programmation de Microsoft Windows. Vous écrivez du code et attendez qu’il soit appelé par un événement particulier.
+La façon la plus simple de considérer la programmation de la visualisation est que vous créez un gestionnaire pour un événement chronométré. à des intervalles spécifiques, Lecteur Windows Media prend un instantané des données audio qu’il lit et fournit les données d’instantané à la visualisation actuellement chargée. Cela est similaire à la programmation pilotée par les événements et fait partie du modèle de programmation de Microsoft Windows. Vous écrivez du code et attendez qu’il soit appelé par un événement particulier.
 
 Si votre code est une implémentation de la fonction [IWMPEffects :: Render](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects-render) pour le rendu en mode sans fenêtre, il reçoit les paramètres suivants :
 
@@ -32,11 +32,11 @@ Il s’agit d’une structure qui définit les données audio que votre code ana
 
 *HDC*
 
-Il s’agit d’un handle Microsoft Windows vers un contexte de périphérique. Cela donne un moyen d’identifier la surface de dessin sur Windows. Vous n’avez pas besoin de la créer, il vous suffit de l’utiliser pour des appels de fonction de dessin spécifiques.
+il s’agit d’un handle de Windows Microsoft vers un contexte de périphérique. Cela donne un moyen d’identifier la surface de dessin à Windows. Vous n’avez pas besoin de la créer, il vous suffit de l’utiliser pour des appels de fonction de dessin spécifiques.
 
 *RECTANGULAIRE*
 
-Il s’agit d’un rectangle Microsoft Windows qui définit la taille d’une surface de dessin. Il s’agit d’un rectangle simple avec quatre propriétés : **gauche**, **droite**, **haut** et **bas**. Les valeurs réelles sont fournies par le lecteur Windows Media pour vous permettre de déterminer comment le développeur de l’utilisateur ou de la peau a dimensionné la fenêtre sur laquelle vous allez dessiner. Elle détermine également la position sur le HDC sur laquelle l’effet est supposé être rendu.
+il s’agit d’un rectangle de Windows Microsoft qui définit la taille d’une surface de dessin. Il s’agit d’un rectangle simple avec quatre propriétés : **gauche**, **droite**, **haut** et **bas**. les valeurs réelles sont fournies par Lecteur Windows Media afin que vous puissiez déterminer la manière dont le développeur de l’utilisateur ou de la peau a dimensionné la fenêtre sur laquelle vous allez dessiner. Elle détermine également la position sur le HDC sur laquelle l’effet est supposé être rendu.
 
 Si votre code est une implémentation de la fonction **IWMPEffects2 :: RenderWindowed** pour le rendu dans une fenêtre, il reçoit les paramètres suivants :
 
@@ -48,7 +48,7 @@ Il s’agit des mêmes informations que celles reçues par la fonction **Render*
 
 Le paramètre *fRequiredRender* vous informe que votre visualisation doit se redessiner, par exemple, lorsqu’une autre fenêtre est glissée au-dessus. Lorsque cette valeur est false, vous pouvez ignorer en toute sécurité le code de rendu si l’élément multimédia actuel est arrêté ou suspendu. Cela vous permet d’éviter de consommer inutilement des cycles d’UC.
 
-L’exemple de plug-in généré par l’Assistant de plug-in ne fournit pas d’implémentation personnalisée pour **RenderWindowed**. Au lieu de cela, l’exemple de code de plug-in récupère le contexte de périphérique à partir de la fenêtre parente fournie par le lecteur Windows Media dans [IWMPEffects2 :: Create](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects2-create), puis récupère les dimensions de la fenêtre parente comme une structure Rect, puis appelle pour effectuer le **rendu** à l’aide du contexte de périphérique, du Rect et du pointeur de niveau chronométré à partir de **RenderWindowed**.
+L’exemple de plug-in généré par l’Assistant de plug-in ne fournit pas d’implémentation personnalisée pour **RenderWindowed**. au lieu de cela, l’exemple de code de plug-in récupère le contexte de périphérique à partir de la fenêtre parente fournie par Lecteur Windows Media dans [IWMPEffects2 :: create](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects2-create), puis récupère les dimensions de la fenêtre parente comme une structure RECT, puis appelle pour effectuer le **rendu** à l’aide du contexte de périphérique, du RECT et du pointeur de niveau chronométré à partir de **RenderWindowed**.
 
 Les sections suivantes fournissent plus d’informations sur l’implémentation du **rendu**:
 
@@ -64,9 +64,9 @@ Les sections suivantes fournissent plus d’informations sur l’implémentation
 [**Implémentation de votre code**](implementing-your-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

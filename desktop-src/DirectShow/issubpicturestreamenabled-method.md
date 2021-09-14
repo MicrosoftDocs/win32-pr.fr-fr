@@ -4,12 +4,12 @@ ms.assetid: c6436f77-ca94-464f-9336-f485f5d5d199
 title: Méthode IsSubpictureStreamEnabled
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc982120b6a7a57d59d5213fc57b5ba3851d7d9d2f4c3e553fba97d3307d8bec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 818b4ff18dac87ea3346a1a503764b2e5e9cd02a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117817046"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007523"
 ---
 # <a name="issubpicturestreamenabled-method"></a>Méthode IsSubpictureStreamEnabled
 
@@ -50,7 +50,7 @@ Spécifie le flux de sous-image sous la forme d’un entier.
 
 Retourne une valeur booléenne indiquant si le flux audio spécifié est disponible dans le titre actuel. True signifie qu’il est disponible.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Bien qu’un disque puisse contenir jusqu’à 32 flux de sous-image, chaque flux n’est pas nécessairement disponible pour chaque titre. Vérifiez toujours qu’un flux est disponible pour un titre avant de définir la propriété [**CurrentSubpictureStream**](currentsubpicturestream-property.md) .
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 31f630c7c0a6f5e3bbf4b9c26ad82e5a104be238
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216572"
 ---
 # <a name="localservice"></a>LocalService
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
       LocalService = name
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En plus de s’exécuter en tant qu’exécutable de serveur local (EXE), un objet COM peut également choisir de s’empaqueter pour s’exécuter en tant qu’application de service lorsqu’il est activé par un client local ou distant. Les services prennent en charge de nombreuses fonctionnalités d’administration utiles et intégrées à l’interface utilisateur, notamment le démarrage, l’arrêt, l’interruption et le redémarrage locaux et distants, ainsi que la possibilité d’établir le serveur pour qu’il s’exécute sous un compte d’utilisateur et une station Windows spécifiques.
 

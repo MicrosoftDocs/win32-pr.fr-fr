@@ -4,12 +4,12 @@ ms.assetid: 571fe5e5-9616-463b-837c-f8dbb8adf1be
 title: Sources en direct
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8872cc5489ae61f3b7b9629e97303ad033630346094f8f1faa013f5da81d9142
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43486cf3db797f493c9446bf782989b8beaae829
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118153197"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007501"
 ---
 # <a name="live-sources"></a>Sources en direct
 

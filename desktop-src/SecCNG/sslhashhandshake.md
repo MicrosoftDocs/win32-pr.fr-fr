@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 5a21bdb3fd655e5c3b39249937f04a4122c64e6c6176c0d39ae1164e48863edb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1dbfdbceb4242d389669a3eebf14260a3bb396fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118906097"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218076"
 ---
 # <a name="sslhashhandshake-function"></a>SslHashHandshake fonction)
 
@@ -78,11 +78,11 @@ Ce paramètre est réservé à un usage futur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, elle retourne zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **SslHashHandshake** est l’une des trois fonctions utilisées pour générer un hachage à utiliser pendant la négociation SSL.
 
@@ -90,7 +90,7 @@ La fonction **SslHashHandshake** est l’une des trois fonctions utilisées pour
 2.  La fonction **SslHashHandshake** est appelée un nombre quelconque de fois avec le handle de hachage pour ajouter des données au hachage.
 3.  La fonction [**SslComputeFinishedHash**](sslcomputefinishedhash.md) est appelée avec le descripteur de hachage pour obtenir le condensé des données hachées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

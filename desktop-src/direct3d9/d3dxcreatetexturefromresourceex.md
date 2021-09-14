@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cc3d8d8bce22a8a77f8744bf2540fba7ede58fc4122c8fa2a8fea8147a8f6332
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 26298f8a63ccfde2171578c27e9208011c16dd28
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117732040"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221588"
 ---
 # <a name="d3dxcreatetexturefromresourceex-function"></a>D3DXCreateTextureFromResourceEx fonction)
 
@@ -189,13 +189,13 @@ Adresse d’un pointeur vers une interface [**IDirect3DTexture9**](/windows/win3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateTextureFromResourceExW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateTextureFromResourceExA, car les chaînes ANSI sont utilisées.
 
@@ -203,7 +203,7 @@ La ressource en cours de chargement doit être de type RT \_ bitmap ou RT \_ RCD
 
 Cette fonction prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

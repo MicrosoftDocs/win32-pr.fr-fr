@@ -4,12 +4,12 @@ description: Les composants créés à l’aide du modèle COM (Component Object
 ms.assetid: 89e74768-b7bd-4ab6-9129-9e677a9c14ca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371bb761a42d092f880ec131612e6c4629a9fe992b6f43c04d79f2972517d46f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f622b83b998402e82d6cf20975331645362c55e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119896489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998925"
 ---
 # <a name="com-language-translations"></a>Traductions de langage COM
 

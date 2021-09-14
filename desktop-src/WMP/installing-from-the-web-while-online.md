@@ -15,12 +15,12 @@ keywords:
 - installations en ligne de magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 801dd9fbee8bff2660a39f6b40e8a5a9e703df00f82be54a7b93c0d200d2ccea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd342d3fc79cf3012d5bc290561a9b63167e044f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135552"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216993"
 ---
 # <a name="installing-from-the-web-while-online"></a>Installation à partir du Web en ligne
 

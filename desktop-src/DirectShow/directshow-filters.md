@@ -4,12 +4,12 @@ ms.assetid: a7cb806e-5705-483e-b7b2-39f427681ae5
 title: DirectShow Filtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 420d604c903f1e3749545252740159deea04e31fb5710ac0b49d31d7b4bd493b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6c889420411f6b21d1d8c932bca31a50c0f60a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016186"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006631"
 ---
 # <a name="directshow-filters"></a>DirectShow Filtres
 

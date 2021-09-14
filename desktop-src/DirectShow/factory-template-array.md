@@ -4,12 +4,12 @@ ms.assetid: 310afccd-42a6-426e-b455-7bf98062bf36
 title: Tableau de modèles de fabrique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1888a2a054473865c713d96cdfa5706c35229dc938f23513a95066176ab138c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 645f2c8d05f37ab64142747755d6a0e7727f4b11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401844"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224473"
 ---
 # <a name="factory-template-array"></a>Tableau de modèles de fabrique
 

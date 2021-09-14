@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4fd068f51f33b6c283384198c0206bc9c3b6357f
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216593"
 ---
 # <a name="localserver32"></a>LocalServer32
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
          ServerExecutable = path
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la valeur **ServerExecutable** , qui est de type **REG \_ SZ** et est prise en charge à partir de Windows Server 2003, fonctionne conjointement avec la sous-clé **LocalServer32** pour éviter toute ambiguïté lors de l’utilisation de la fonction [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) . **LocalServer32** spécifie l’emplacement de l’application de serveur com à lancer, et ces informations sont transmises en tant que premier paramètre *lpApplicationName* pour **CreateProcess**. Selon l’implémentation de **CreateProcess**, ces informations peuvent être ambiguës. Pour cette raison, si **ServerExecutable** est spécifié, com transmet la valeur nommée **ServerExecutable** au paramètre *lpApplicationName* de **CreateProcess**. Si **ServerExecutable** n’est pas spécifié, com transmet **null** comme valeur pour le premier paramètre de **CreateProcess**.
 

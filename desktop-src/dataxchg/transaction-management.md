@@ -37,12 +37,12 @@ keywords:
 - DDEML (bibliothèque de gestion échange dynamique de données), transactions asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5065c9e909a4589cd7d2d157fc1151c2efd42a4ddfc3c29d84fd26f0ea184dea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 570aa48b4dcdbb31855b3e1b15a091908feb2ba4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128572"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008170"
 ---
 # <a name="transaction-management-data-exchange"></a>Gestion des transactions (Exchange de données)
 
@@ -158,12 +158,12 @@ La classe d’une transaction détermine la valeur de retour qu’une fonction d
 
 
 
-| Classe                | Valeur retournée                                                     | Transaction                                                                                                                                                                                                                                                                                                                                                                                    |
+| Classe                | Valeur de retour                                                     | Transaction                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | XCLASS \_ bool         | **True** ou **false**                                            | [**XTYP \_ ADVSTART**](xtyp-advstart.md)<br/> [**XTYP \_ Connect**](xtyp-connect.md)<br/>                                                                                                                                                                                                                                                                                            |
 | \_données XCLASS         | Un descripteur de données, le \_ Code de retour de bloc CBR ou **null**           | [**XTYP \_ ADVREQ**](xtyp-advreq.md)<br/> [**\_demande XTYP**](xtyp-request.md)<br/> [**XTYP \_ WILDCONNECT**](xtyp-wildconnect.md)<br/>                                                                                                                                                                                                                                       |
 | \_indicateurs XCLASS        | Indicateur de transaction : DDE \_ Fack, DDE \_ FBUSY ou DDE \_ FNOTPROCESSED | [**XTYP \_ ADVDATA**](xtyp-advdata.md)<br/> [**exécution de XTYP \_**](xtyp-execute.md)<br/> [**XTYP \_**](xtyp-poke.md)<br/>                                                                                                                                                                                                                                                   |
-| \_notification XCLASS | Aucun                                                             | [**XTYP \_ ADVSTOP**](xtyp-advstop.md)<br/> [**confirmer la XTYP \_ Connect \_**](xtyp-connect-confirm.md)<br/> [**déconnexion XTYP \_**](xtyp-disconnect.md)<br/> [**\_erreur XTYP**](xtyp-error.md)<br/> [**\_Registre XTYP**](xtyp-register.md)<br/> [**\_désinscription XTYP**](xtyp-unregister.md)<br/> [**XTYP \_ XACT \_ terminé**](xtyp-xact-complete.md)<br/> |
+| \_notification XCLASS | None                                                             | [**XTYP \_ ADVSTOP**](xtyp-advstop.md)<br/> [**confirmer la XTYP \_ Connect \_**](xtyp-connect-confirm.md)<br/> [**déconnexion XTYP \_**](xtyp-disconnect.md)<br/> [**\_erreur XTYP**](xtyp-error.md)<br/> [**\_Registre XTYP**](xtyp-register.md)<br/> [**\_désinscription XTYP**](xtyp-unregister.md)<br/> [**XTYP \_ XACT \_ terminé**](xtyp-xact-complete.md)<br/> |
 
 
 

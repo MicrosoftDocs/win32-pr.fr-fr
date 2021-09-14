@@ -4,12 +4,12 @@ ms.assetid: 40ACC8F6-1416-4390-A8D7-8F924DC2C2FE
 title: Utilisation de bibliothèques dans votre programme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b2c76c4ce8bf9114d7294b257c03bcc62adecc947a3d7e651d6f94fa8876d4a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2812a66b148d9bd16fc3951efab64a4d37afaaff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226916"
 ---
 # <a name="using-libraries-in-your-program"></a>Utilisation de bibliothèques dans votre programme
 

@@ -4,12 +4,12 @@ ms.assetid: bcc6cec7-2d85-4810-98d0-7d99486f4924
 title: Augmentations de priorité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bfe04bcd1df27c2456a06d35d83b894243c9871b3799f04bdc3c3df190ef251
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37f463f30b0abffb24daadb4241ad32c5b51f123
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007115"
 ---
 # <a name="priority-boosts"></a>Augmentations de priorité
 

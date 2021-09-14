@@ -4,12 +4,12 @@ ms.assetid: 8d9c3e96-3645-4875-9b5f-a6c9ddf23ec3
 title: Définition d’une plage de temps pour une requête
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eaea9747a46d9ce1a6e7e7338801063e4cbd79a3f40bb8a097b3dd238914249
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55baf642a4a12a86476e2d6feada6b79f1fda72c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007170"
 ---
 # <a name="setting-a-time-range-for-a-query"></a>Définition d’une plage de temps pour une requête
 

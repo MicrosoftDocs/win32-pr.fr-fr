@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb91b2544bf0ebf0e8767a611b422de9aaaf1d73161e47c7bf27768f4acecb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8160c88b11fa109e8bbfaa06f0f6c45c9b7daed0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118304484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008153"
 ---
 # <a name="wm_copydata-message"></a>\_Message WM COPYDATA
 
@@ -50,7 +50,7 @@ Pointeur vers une structure [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-w
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’application réceptrice traite ce message, elle doit retourner la **valeur true**; Sinon, elle doit retourner **false**.
 

@@ -4,12 +4,12 @@ description: avec Windows 7, il est facile de se connecter et de rester connect√
 ms.assetid: fd37fbc4-7253-48fc-b8d3-ad58b0c8091b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7da5e4e923ff87244866d605980b3373accc0adcdea1f6492c2a24825079057
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b67451b721f869622f7178b985495b632f8b6bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086612"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219892"
 ---
 # <a name="the-best-of-windows-and-the-web"></a>le meilleur des Windows et du Web
 

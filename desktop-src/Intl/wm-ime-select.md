@@ -4,12 +4,12 @@ ms.assetid: 5559b3ab-8d81-4f33-b0af-d05489371328
 title: Message WM_IME_SELECT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 611ff30bac32fbd38c9aef00e459b49f9760d9702c619f7e6e7f55e6e3b10acb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 940858e12c616b1d6281c23633b2f0f5e9657a9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118644619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223956"
 ---
 # <a name="wm_ime_select-message"></a>Message de sélection de l' \_ IME WM \_
 
@@ -52,17 +52,17 @@ Identificateur de paramètres régionaux d’entrée associé à l’IME.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application qui a créé une fenêtre IME doit transmettre ce message à cette fenêtre afin qu’il puisse récupérer le handle de la disposition du clavier vers l’IME nouvellement sélectionné.
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  traite ce message en transmettant les informations à la fenêtre IME par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

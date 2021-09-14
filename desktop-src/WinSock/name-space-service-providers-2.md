@@ -4,12 +4,12 @@ ms.assetid: 9b35aa58-9011-4e0d-8c93-02714952b4a5
 title: Fournisseurs de services d’espace de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35e6ecc9ad0dcb9667bdd3d08049b9d41c3211de422cae0530506f6103494527
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4e975c7ad0e5df29910624bb8f0b9d94fd24d9b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118822637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216724"
 ---
 # <a name="namespace-service-providers"></a>Fournisseurs de services d’espace de noms
 

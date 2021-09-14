@@ -4,12 +4,12 @@ ms.assetid: dcb6a0d4-e28d-453d-9bda-bfe74f74579b
 title: Codes de package
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c49849ea3d441bba69fa05f549ee6f2f0d0d8560802235d5c18834f026d6c5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14aa77dbc6c11a1b420572293669a4177f7845ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145472"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218825"
 ---
 # <a name="package-codes"></a>Codes de package
 

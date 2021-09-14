@@ -4,12 +4,12 @@ ms.assetid: 212e34d8-573f-4443-b1ce-358e982d4861
 title: Utilisation des composants isolés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b20662b15fff0a755f661d7f68154fd8934d398227b3d00f95ba3f288e4095dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c25f17b255b2792a0b708d66cd8d70aec5e6bba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118622935"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222932"
 ---
 # <a name="using-isolated-components"></a>Utilisation des composants isolés
 

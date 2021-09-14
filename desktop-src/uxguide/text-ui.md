@@ -5,11 +5,11 @@ ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 0d1d9a6166a6a0a0f0dae267ce6c0eda0d901d0d
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982732"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226257"
 ---
 # <a name="user-interface-text"></a>Texte de l’interface utilisateur
 
@@ -153,7 +153,7 @@ Les polices et couleurs suivantes sont des valeurs par défaut pour Windows.
 | ![première colonne : texte modifiable ](images/text-ui-image17.png)<br/>               | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![première colonne : texte désactivé ](images/text-ui-image18.png)<br/>               | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![première colonne : lien ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![première colonne : en-tête de groupe ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![première colonne : nom de fichier (dans l’affichage du contenu) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![première colonne : texte du document ](images/text-ui-image23.png)<br/>               | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -209,7 +209,7 @@ Pour plus d’informations et d’exemples, consultez [polices](vis-fonts.md) et
 
 ### <a name="punctuation"></a>Ponctuation
 
-**Points**
+**Paiements**
 
 -   **Ne placez pas à la fin des étiquettes de contrôle, des instructions principales ou des liens d’aide.**
 -   Placez à la fin des instructions supplémentaires, des explications supplémentaires ou tout autre texte statique qui forme une phrase complète.

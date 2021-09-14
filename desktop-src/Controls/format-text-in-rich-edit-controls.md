@@ -5,26 +5,26 @@ ms.assetid: 19A4F0D1-88C5-407D-A70F-CB486DAD352E
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 246c6309dec94538f47ed9ca7e464f1d6d17f240
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103724286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006302"
 ---
 # <a name="how-to-format-text-in-rich-edit-controls"></a>Comment mettre en forme du texte dans les contrôles RichEdit
 
 Une application peut envoyer des messages à un contrôle Rich Edit afin de mettre en forme des caractères et des paragraphes et de récupérer des informations de mise en forme. Les attributs de mise en forme des paragraphes incluent l’alignement, les tabulations, les retraits, la numérotation et les tables simples. Pour les caractères, vous pouvez spécifier le nom de la police, la taille, la couleur et les effets tels que gras, italique et protégé.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -49,12 +49,12 @@ La couleur de premier plan est toujours un attribut de caractère. Dans Microsof
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

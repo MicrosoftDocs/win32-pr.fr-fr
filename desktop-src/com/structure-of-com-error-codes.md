@@ -4,12 +4,12 @@ description: Structure des codes d’erreur COM
 ms.assetid: 97e68708-eb62-4481-af03-cf8b80304103
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65953582952ce076028ffcf6652e46356c4cf2afacdd088d546c2fdaafd18a33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb27143f50028592f6fe0aeb5cab9795dcd10d4a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118104020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221793"
 ---
 # <a name="structure-of-com-error-codes"></a>Structure des codes d’erreur COM
 

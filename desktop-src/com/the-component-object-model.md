@@ -4,12 +4,12 @@ description: COM (Component Object Model)
 ms.assetid: f5f66603-466c-496b-be29-89a8ed9361dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07ad81adeaf41670468dd41bbf344a3fd7358c14f4b3cbeb2e482812a083ecfb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 786a4bef59401877f642273ba7a97756232ac083
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119462339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221721"
 ---
 # <a name="the-component-object-model"></a>COM (Component Object Model)
 

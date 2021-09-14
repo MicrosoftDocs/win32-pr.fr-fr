@@ -4,12 +4,12 @@ ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
 title: Message WM_STYLECHANGING (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26574f000c23c918bc0dfb14c5ddd0afcbc439939d6719b95da8024b4828f30b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 62e587797404bb361a443a60750d4de5ea6a8924
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119705839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219740"
 ---
 # <a name="wm_stylechanging-message"></a>\_Message WM STYLECHANGING
 
@@ -53,13 +53,13 @@ Pointeur vers une structure [**STYLESTRUCT**](/windows/win32/api/winuser/ns-winu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -84,7 +84,7 @@ Une application doit retourner zéro si elle traite ce message.
 [**\_STYLECHANGED WM**](wm-stylechanged.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

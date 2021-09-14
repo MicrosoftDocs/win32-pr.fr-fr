@@ -17,11 +17,11 @@ api_location:
 - Strmbasd.lib
 - Strmbasd.dll
 ms.openlocfilehash: c93459c4cf75916bb1a33b91139b815966c8a550
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526067"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225044"
 ---
 # <a name="cbasebasicvideo-class"></a>CBaseBasicVideo, classe
 
@@ -31,13 +31,13 @@ La `CBaseBasicVideo` classe implémente les méthodes **IDispatch** de l’inter
 
 Les méthodes **IDispatch** de cette classe sont des implémentations standard et ne sont pas décrites en détail ici.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

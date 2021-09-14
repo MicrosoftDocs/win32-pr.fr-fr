@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9742a9a0787fe605c84972b87f0a8a6fa17b93fc7a8f091dc3aa38048a9f1dbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c734727f3f2f44c9094885e0e743f605f16c91d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119044647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998693"
 ---
 # <a name="d3dxvec2catmullrom-function-d3dx9mathh"></a>D3DXVec2CatmullRom, fonction (D3dx9math. h)
 
@@ -105,7 +105,7 @@ Type : **[ **D3DXVECTOR2**](d3dxvector2.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui est le résultat de l’interpolation Catmull-Rom.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 À partir de quatre points (P1, P2, P3, P4), recherchez une fonction Q (s) de ce type :
 
@@ -168,7 +168,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

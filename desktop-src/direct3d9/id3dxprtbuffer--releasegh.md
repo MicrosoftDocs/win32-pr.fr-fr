@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5691fc2601624733bb8d41b63140b694bd78027e0f6d548b02984bbc12406a47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9fb7a68f11d21065d6b4911b9ee7f58920aeb25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120533"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007998"
 ---
 # <a name="id3dxprtbufferreleasegh-method"></a>ID3DXPRTBuffer :: ReleaseGH, méthode
 
@@ -38,13 +38,13 @@ HRESULT ReleaseGH();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode libère le pointeur vers l’interface [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) .
 

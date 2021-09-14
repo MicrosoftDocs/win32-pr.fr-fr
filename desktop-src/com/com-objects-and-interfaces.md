@@ -4,12 +4,12 @@ description: Objets et interfaces COM
 ms.assetid: a3b78086-0f02-4b3f-a856-46bfcf4457f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d0a663b5d6e5966422927e37f1501924bf8ec8921210c9d38765153dc0d80fc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a8c2b74f2b9741e41e7fe23226041f4c225bd85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998919"
 ---
 # <a name="com-objects-and-interfaces"></a>Objets et interfaces COM
 

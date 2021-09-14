@@ -5,12 +5,12 @@ ms.assetid: 2908cd44-9334-48c7-a3ba-82629f24ba35
 title: I (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb1f9f84058f66ab0b6972ef8de0714166ebeab7b4352b2fb147078fd3f12704
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22758023f96edf10b9509fc87203c60a6baf0f7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008765"
 ---
 # <a name="i-telephony-api"></a>I (API de téléphonie)
 

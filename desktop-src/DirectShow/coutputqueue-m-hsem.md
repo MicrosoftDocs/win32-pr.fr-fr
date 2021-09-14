@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bab58e572172a0758673c6a452916eb49a23bac0eeb9d6a07e71883ddf3fed45
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 262c9997a681b8f9ba332efe1b9fb225c112b591
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006745"
 ---
 # <a name="coutputqueuem_hsem-member"></a>COutputQueue :: m \_ hSem, membre
 
@@ -36,7 +36,7 @@ HANDLE m_hSem;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

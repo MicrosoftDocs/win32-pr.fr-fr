@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d56af51eea8486286dea8905d52dc64fe0a54803c30d6b6c6f4dabd49ea406b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d1475053366a06f46b0c99514ade961f1a2998b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120047629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006322"
 ---
 # <a name="en_protected-notification-code"></a>\_Code de notification en code protégé
 
@@ -45,19 +45,19 @@ Structure [**protégée**](/windows/desktop/api/Richedit/ns-richedit-enprotected
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retournez zéro pour permettre l’opération.
 
 Retournez une valeur différente de zéro pour empêcher l’opération.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur zéro est retournée et que les membres **MSG**, **wParam** et **lParam** de la structure [**protégée**](/windows/desktop/api/Richedit/ns-richedit-enprotected) sont modifiés, le contrôle traite le message révisé à la place du message d’origine.
 
 Pour recevoir des \_ codes de notification en protection, spécifiez [**ENM \_ protected**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

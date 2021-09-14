@@ -4,12 +4,12 @@ ms.assetid: e78c4514-25f4-441d-bfd0-6dac4f7567fd
 title: Suivi d’événements dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6afdeabfb13608453fc6b84bbefb36cca79265739c049cc0e5d35e997ebaf902
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c567d8a2e75d838570323d8ad6be04f11502c9c4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819581"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224529"
 ---
 # <a name="event-tracing-in-directshow"></a>Suivi d’événements dans DirectShow
 

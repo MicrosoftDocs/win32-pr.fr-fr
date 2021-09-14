@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc2321511be2ef912a6dce6710b233cb59dcc7712e9e8f63db890d8707822c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ca19081b1ea963851e82d18912153434c3e38d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117733772"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216433"
 ---
 # <a name="direct3d-12-raytracing-hlsl-shaders"></a>Nuanceurs HLSL Direct3D 12 Raytracing
 

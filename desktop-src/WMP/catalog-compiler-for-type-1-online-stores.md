@@ -13,12 +13,12 @@ keywords:
 - catcomp.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2764da5e19c84145bd0a11127aebc8f518031744626ca1b41c75c43c6e10093f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4c54ffd054c5e72b04ddd32eef12c7fe6b6cc89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119864209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221929"
 ---
 # <a name="catalog-compiler-for-type-1-online-stores"></a>Compilateur de catalogue pour les magasins en ligne de type 1
 

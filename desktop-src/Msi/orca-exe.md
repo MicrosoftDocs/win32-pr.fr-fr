@@ -3,13 +3,13 @@ description: Orca.exe est un éditeur de table de base de données pour la créa
 ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
 title: Orca.exe
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: b9f1b0d31936bf81e60efd8eb9799ddb30b4d5a6f78363e2ff5d3d638ae40c4c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.date: 09/10/2021
+ms.openlocfilehash: 478a2c15f362b1d9f357793334e5b5a26f3f47df
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120082679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218908"
 ---
 # <a name="orcaexe"></a>Orca.exe
 

@@ -4,12 +4,12 @@ ms.assetid: 82726885-8393-409b-b8a1-29a8e9e9ac65
 title: Méthode PlayAtTimeInTitle
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a33640733f7333395a4affc4dedc0ae8db3e3558bf066584cb603dfc5f906f73
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c40373b4327b6df5fc341ca392c223d464a70a8b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119291268"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998989"
 ---
 # <a name="playattimeintitle-method"></a>Méthode PlayAtTimeInTitle
 

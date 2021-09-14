@@ -4,12 +4,12 @@ ms.assetid: 34e28c8a-036f-48ab-a162-140bfaf3ca12
 title: Constantes de suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 308ae04aa57a5c838fd841b71e38134d4ef2165622afe7107f7214a4628525f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9fe37ef0fb79772adc272522c08befc0015132a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224273"
 ---
 # <a name="event-tracing-constants"></a>Constantes de suivi d’événements
 

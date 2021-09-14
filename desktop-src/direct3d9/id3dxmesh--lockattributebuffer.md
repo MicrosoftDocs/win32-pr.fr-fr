@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8ca767c6bc223c40d6013b93162de057aac9f4fb1b71303990f9128e4eca1ee6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 901cb98a9d75d08b6412d6fdca841d403064354b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118802152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998544"
 ---
 # <a name="id3dxmeshlockattributebuffer-method"></a>ID3DXMesh :: LockAttributeBuffer, méthode
 
@@ -66,17 +66,17 @@ Adresse d’un pointeur vers une mémoire tampon contenant un DWORD pour chaque 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si [**ID3DXMesh :: Optimize**](id3dxmesh--optimize.md) a été appelé, la maille aura également une table d’attributs accessible à l’aide de la méthode [**ID3DXBaseMesh :: GetAttributeTable**](id3dxbasemesh--getattributetable.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

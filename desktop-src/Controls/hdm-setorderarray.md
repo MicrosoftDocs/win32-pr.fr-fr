@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6218da9ec51e8bbce6aa928bdab203ca675426595d8e9bba476e511b84f4ea9f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f07874bfc102babec18b142a087b14e330044ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006261"
 ---
 # <a name="hdm_setorderarray-message"></a>\_Message HDM SETORDERARRAY
 
@@ -43,11 +43,11 @@ Pointeur vers un tableau qui spécifie l’ordre dans lequel les éléments doiv
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

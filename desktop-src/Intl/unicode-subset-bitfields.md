@@ -4,12 +4,12 @@ ms.assetid: f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d
 title: Champs de décodage Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f0fa4791e62f397e62a99a78d41dbcdc67c55299a650b1bc78bea685205399
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fced251b1bf8e04dd4c0d7d7cb0dca15c8bdfa6b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119787989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224188"
 ---
 # <a name="unicode-subset-bitfields"></a>Champs de décodage Unicode
 
@@ -711,7 +711,7 @@ Les USBss de sous-ensemble Unicode sont utilisés dans les structures [**fontSig
 <tr class="odd">
 <td>92</td>
 <td>E0000 - E007F</td>
-<td>Balises</td>
+<td>Étiquettes</td>
 </tr>
 <tr class="even">
 <td>93</td>

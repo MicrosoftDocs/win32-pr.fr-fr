@@ -4,12 +4,12 @@ ms.assetid: edc10466-7852-4530-9ce7-b9dd36726745
 title: Interfaces de contrôle de périphérique externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc9fab4b2b1bd7f6a2d2cd3c5607552f81faf09316edaa7e5146c93e3ce3c0f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5324cc99b71c5339d4969cbda2b653088fab1a98
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819571"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224513"
 ---
 # <a name="external-device-control-interfaces"></a>Interfaces de contrôle de périphérique externe
 

@@ -4,12 +4,12 @@ ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
 title: 'Procédure : charger des fichiers de données audio dans XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bacf08e8f16e5cd9c42409776b02846990b9d66d685a0186314445742f23341
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 659b4d8e106b6f0b2eb942505f99562f56fdada7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225497"
 ---
 # <a name="how-to-load-audio-data-files-in-xaudio2"></a>Procédure : charger des fichiers de données audio dans XAudio2
 

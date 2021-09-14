@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 460e16fd99a8599927e80c2e737ed35c5eb1e138899f83c4450ae2220d67f7fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f8a7840d0f54ea7e93ad9998d5e8772a2ae411f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119876929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217993"
 ---
 # <a name="ichain2extendederrorinfo-method"></a>IChain2 :: ExtendedErrorInfo, méthode
 
@@ -51,11 +51,11 @@ Chain.ExtendedErrorInfo( _
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne qui contient les informations d’erreur étendues.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

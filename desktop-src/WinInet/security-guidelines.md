@@ -5,11 +5,11 @@ ms.assetid: f0c041fd-3cc5-491e-b088-6c93fcd61def
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4b3d4214ba4582394ed555bafd58551e8b047493
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216729"
 ---
 # <a name="security-guideline"></a>Indications de sécurité
 
@@ -46,10 +46,10 @@ Informez toujours l’utilisateur lorsque la sécurité de la connexion change, 
 Parmi les fonctions qui signalent une telle modification dans la sécurité de connexion, citons la fonction de rappel **InternetStatusCallback** et la fonction **InternetConfirmZoneCrossing** .
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

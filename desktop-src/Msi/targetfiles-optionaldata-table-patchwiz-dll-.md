@@ -4,12 +4,12 @@ ms.assetid: 577b1674-1e44-42e1-b011-c0fb561b514c
 title: Table TargetFiles_OptionalData (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5664e2e21968cb3fee5ce3d606dd07008f2436c4b649a7bcefeebd77df9cf6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 859ac2e03f68c28eff5ebf7f5afa2bf53ab69299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118623734"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009616"
 ---
 # <a name="targetfiles_optionaldata-table-patchwizdll"></a>TargetFiles \_ OptionalData, table (Patchwiz.dll)
 
@@ -19,7 +19,7 @@ La \_ table TargetFiles OptionalData contient les colonnes suivantes.
 
 
 
-| Colonne        | Type | Clé | Nullable |
+| Colonne        | Type | Clé : | Nullable |
 |---------------|------|-----|----------|
 | Cible        | text | O   | N        |
 | TCTI           | text | O   | N        |

@@ -5,11 +5,11 @@ ms.assetid: 65a8a8af-f4d8-4948-8dd4-b592f1381bfe
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: cd929ebd7d8e9f1a3c372ce212d63dcb29df82b7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008666"
 ---
 # <a name="enumerating-tasks-example"></a>Exemple d’énumération de tâches
 
@@ -33,7 +33,7 @@ La procédure suivante décrit comment énumérer les tâches dans le dossier t�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,6 +42,6 @@ La procédure suivante décrit comment énumérer les tâches dans le dossier t�
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,11 +16,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: ba093eefcedb48f2fb46a55ad8a90f9715c6e3c9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104101008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225956"
 ---
 # <a name="ireferenceclockunadvise-method"></a>IReferenceClock :: Unadvise, méthode
 
@@ -48,9 +48,9 @@ Identificateur de la demande à supprimer. Utilisez la valeur retournée par Adv
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

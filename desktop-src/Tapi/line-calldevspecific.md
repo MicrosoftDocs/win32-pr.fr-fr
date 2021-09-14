@@ -4,12 +4,12 @@ ms.assetid: accd753a-3be0-4c7d-bbc7-d294d1381144
 title: Message LINE_CALLDEVSPECIFIC (TSPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9930da3c30d51781b10b28ed7a712cb681950eaea1a387212a5e0894658a9125
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a48bf8a54a1f326fe7bb27c82349e5575c8bbf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120012599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217849"
 ---
 # <a name="line_calldevspecific-message"></a>\_Message CALLDEVSPECIFIC de ligne
 
@@ -68,7 +68,7 @@ Spécifique à l’appareil.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message de **ligne \_ CALLDEVSPECIFIC** est utilisé par un fournisseur de services conjointement avec la fonction [**\_ lineDevSpecific TSPI**](/windows/win32/api/tspi/nf-tspi-tspi_linedevspecific) . Sa signification est spécifique à l’appareil.
 
@@ -76,7 +76,7 @@ L’interface TAPI envoie le message [**\_ DEVSPECIFIC de ligne**](/previous-ver
 
 Il n’y a aucun message directement correspondant au niveau de l’interface TAPI, bien que ce message soit très similaire à la [**ligne \_ DEVSPECIFIC**](/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)). Au niveau de TSPI, les messages spécifiques à l’appareil sont répartis entre les événements de rapport sur les lignes et les adresses, et ces événements de rapport sur les appels.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

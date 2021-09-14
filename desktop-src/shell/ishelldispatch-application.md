@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5fbdbd8b2cc847a1b06a316d6f8caebfe1e2e5e4fc79fc4be2ff2ebdb8ee3912
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5adeb5663220309310c7cccb323be877de909516
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119443319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226940"
 ---
 # <a name="ishelldispatchapplication-property"></a>IShellDispatch. application, propriété
 
@@ -47,7 +47,7 @@ Property Application As Object
 
 Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui reçoit l’objet application.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété est implémentée et accessible via la propriété [**Shell. EjectPC**](shell-ejectpc.md) .
 
@@ -55,7 +55,7 @@ La propriété d' **application** retourne l’objet Automation pris en charge p
 
 utilisez cette propriété avec les commandes **Set** et **CreateObject** ou à l’aide de la commande **GetObject** pour créer et manipuler une instance du Windows application Internet Explorer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

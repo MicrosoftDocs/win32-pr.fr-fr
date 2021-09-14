@@ -4,12 +4,12 @@ ms.assetid: 777f8864-b3d2-43c7-9296-1118f3595d7b
 title: Utilisation du gestionnaire de redémarrage avec une interface utilisateur externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cad6a8bee0e98adbcea853a21378b539e02f14468a93aed3cff7dc8bf6f25800
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0f112884669b173b40f3806c48cf8e05308c5b44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222916"
 ---
 # <a name="using-restart-manager-with-an-external-ui"></a>Utilisation du gestionnaire de redémarrage avec une interface utilisateur externe
 

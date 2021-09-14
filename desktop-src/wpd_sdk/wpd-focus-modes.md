@@ -14,11 +14,11 @@ api_type:
 api_location:
 - PortableDevice.h
 ms.openlocfilehash: e7e1dc50f115fbd2ace84a3b631d37a42e1c4ba7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520967"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219332"
 ---
 # <a name="wpd_focus_modes-enumeration"></a>\_Énumération des modes de focus wpd \_
 
@@ -74,7 +74,7 @@ Spécifie que l’appareil doit basculer automatiquement entre la macro et le fo
 
 Cette énumération est utilisée par la propriété de [ \_ \_ \_ \_ mode focus d’image toujours wpd](still-image-properties.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

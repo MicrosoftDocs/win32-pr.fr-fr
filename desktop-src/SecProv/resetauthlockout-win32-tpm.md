@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 779ae7e8578019215e0bab1091512c64d68a84675d702ea7a0d8a5c37e8f081f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d28287e410fbaf65ce5b1e617113c35cfece160b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008976"
 ---
 # <a name="resetauthlockout-method-of-the-win32_tpm-class"></a>Méthode ResetAuthLockOut de la \_ classe TPM Win32
 
@@ -57,7 +57,7 @@ Cette chaîne doit être une chaîne codée en base64 qui se termine par un cara
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 

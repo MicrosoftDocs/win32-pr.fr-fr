@@ -16,12 +16,12 @@ keywords:
 - systèmes d’extension de charge utile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99ba5f24f0776f07d580207d769db384e97461ac89486cfc78c72822bdacc82c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3c590895fca23a3c668a19ac4e6c5437a35ddb5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118702011"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127225969"
 ---
 # <a name="input-formats-input-settings-and-data-unit-extensions"></a>Formats d’entrée, Paramètres d’entrée et Extensions d’unité de données
 

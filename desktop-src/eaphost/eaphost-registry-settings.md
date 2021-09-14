@@ -4,12 +4,12 @@ description: Les valeurs de Registre dans les clés de Registre suivantes contr�
 ms.assetid: 2b954911-7c2e-4c86-b031-24632235a669
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec08a7428dac4c68044b0491e084574c6ff3d006fcf06f59912754c5a9f93833
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 67e4d258062ee2ae365924ecda22c2660ed5b742
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119482979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221449"
 ---
 # <a name="eaphost-registry-settings"></a>Paramètres du registre EAPHost
 

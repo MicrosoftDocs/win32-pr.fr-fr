@@ -4,12 +4,12 @@ ms.assetid: 27df9300-8bea-4748-9acd-2c1625093ece
 title: Windows Protection des ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b00dabeadc662d3c13923d9d56e442388c53b7fa1e5740c651d689c3098bd049
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cff6c89e99b885256c7dd054a12c6a69795d794c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216833"
 ---
 # <a name="windows-resource-protection"></a>Windows Protection des ressources
 

@@ -4,12 +4,12 @@ description: Les structures suivantes sont utilisées pour implémenter des docu
 ms.assetid: 76fef2dd-4cfb-4526-a1e0-8e3218aa6145
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41cbac8534ea75309241075eddd18d26d13ca7562c421d23b2c97b35c273d748
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa9dde7f81d388943dbc05b2d38065be262d7f29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118103909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221764"
 ---
 # <a name="structures-ole-and-data-transfer"></a>Structures (OLE et Transfert de données)
 

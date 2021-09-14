@@ -4,12 +4,12 @@ ms.assetid: 43db70b6-f8bc-4241-9096-5d91fd1e332b
 title: Commande IMC_GETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ebf26592f2fd000f864685bd79d71b189fc24d695941691fe2e01d48132d00d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 696d9809cadbe4f2c0e632719401e882777888dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007421"
 ---
 # <a name="imc_getcompositionfont-command"></a>\_Commande IMC GETCOMPOSITIONFONT
 

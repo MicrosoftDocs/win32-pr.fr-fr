@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: edaafa00f792cf01b4166d525171cf15b7f781c8c0c943c17377b3bd9b3401dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cbf7c42b8523bcd12b19e9b474ecc50bd031939
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007019"
 ---
 # <a name="create-method-of-the-win32_clustershare-class"></a>Créer une méthode de la \_ classe ClusterShare Win32
 
@@ -84,7 +84,7 @@ File d'attente d'impression
 2 (0X2)
 </dt> <dd>
 
-Appareil
+Périphérique
 
 </dd> <dt>
 
@@ -151,7 +151,7 @@ Instance incorporée facultative d’une classe [**Win32 \_ SecurityDescriptor**
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 05a946cbab6a6334faa7483c0f3201a98ff0abe32dca32fe1f4f7eed5d0a2408
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bba56240651f789b45c18b006b16e5e07b10676e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217028"
 ---
 # <a name="install-element"></a>Élément d’installation
 
@@ -99,7 +99,7 @@ URL complète du catalogue compilé de la boutique en ligne.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 si l’un des attributs requis est manquant ou n’est pas disponible, Lecteur Windows Media installation ne tente pas de télécharger et d’installer le code du fournisseur de la banque d’aide en ligne. Le programme d’installation configure les valeurs par défaut hors connexion comme spécifié dans le document **serviceInfo** . Vous pouvez utiliser **serviceInfo** quand vous n’êtes pas connecté à Internet en passant le nom du fournisseur par défaut et les informations **serviceInfo** en tant que paramètres de ligne de commande. pour plus d’informations sur les options de ligne de commande, consultez [redistribution de Lecteur Windows Media Software](redistributing-windows-media-player-software.md) .
 
@@ -108,7 +108,7 @@ si l’un des attributs requis est manquant ou n’est pas disponible, Lecteur W
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

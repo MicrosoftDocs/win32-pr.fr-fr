@@ -4,12 +4,12 @@ ms.assetid: b1305eaf-cd25-4684-a593-d8b1aac83592
 title: Windows Outils de développement du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674d32f8932e4ac35d18ae0a39671feb948e8395381e843f6f267f090289c9be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9f4d3cfdac2bae4c131b47e1c5e0cf7a63fc5a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009560"
 ---
 # <a name="windows-installer-development-tools"></a>Windows Outils de développement du programme d’installation
 

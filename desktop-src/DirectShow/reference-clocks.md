@@ -4,12 +4,12 @@ ms.assetid: 43f1a4d6-dbed-4940-a301-d863ddd34bce
 title: Horloges de référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64ad0a262b36ce78c6a2f355b30b3c6876c7e78a7807970592b6f15287c0e2c8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f9b958787f4dbdb20cd595b10cf486f59222a072
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119697109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219028"
 ---
 # <a name="reference-clocks"></a>Horloges de référence
 

@@ -4,12 +4,12 @@ ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: Fonctionnalités de VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66c78fc34be3097beedb73ac3989bc468cff0851143355902e3236f672797a83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7c4a5a34be9fb3b3bb08df18091b88fbe7d7432
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117819551"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224468"
 ---
 # <a name="features-of-the-vmr"></a>Fonctionnalités de VMR
 

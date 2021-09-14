@@ -4,12 +4,12 @@ ms.assetid: 47b3b226-4642-41d2-b05c-bc12583047aa
 title: Instructions générales pour l’implémentation de codecs BRUTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5081edfc6f49dc1d145fc3e2ce7e5f993fb2e7e250aeb0f1091579dd3f45461
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7f774e5d254330e3274daccb6062f35baa443144
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118204627"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226164"
 ---
 # <a name="general-guidelines-for-implementing-raw-codecs"></a>Instructions générales pour l’implémentation de codecs BRUTs
 
@@ -24,7 +24,7 @@ Par rapport aux types d’images non BRUTes, tels que JPEG ou TIFF, il existe de
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)

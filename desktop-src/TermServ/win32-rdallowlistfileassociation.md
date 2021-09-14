@@ -20,11 +20,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 4acbc74b5b0dab228a5c625863b4fcd0574b5f96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465295"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217273"
 ---
 # <a name="win32_rdallowlistfileassociation-class"></a>\_Classe RDAllowListFileAssociation Win32
 
@@ -80,7 +80,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : **clé**
 </dt> </dl>
 
-Nom de l’extension, par exemple. txt.
+Nom de l’extension, par exemple .txt.
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ Conseil permettant d’ouvrir des documents avec cette association de fichiers
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6846f6899730a8b9d128d1bc0a6069fd8a67a5f4f9d8a5a3d618bebad67b0468
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d29e5fde86b9573261e39a0dbe2e9d87018ff23c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117821565"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224577"
 ---
 # <a name="dbgterminate-function"></a>DbgTerminate fonction)
 
@@ -44,11 +44,11 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez cette fonction si vous appelez la fonction [**DbgInitialise**](dbginitialise.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

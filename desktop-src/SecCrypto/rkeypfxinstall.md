@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: f19a01e9132bf9c4b1e281a75b0e0d7a27b4f9c7f299eefdd47bef8d60daea97
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4908b7224a02f5a28b876b1ff67cbcec7d23df5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900544"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217953"
 ---
 # <a name="rkeypfxinstall-function"></a>RKeyPFXInstall fonction)
 
@@ -83,13 +83,13 @@ Indicateurs qui spécifient les options d’installation du certificat. Ce param
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est S \_ OK.
 
 Si la fonction échoue, la valeur de retour est un **ULong** qui indique l’erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

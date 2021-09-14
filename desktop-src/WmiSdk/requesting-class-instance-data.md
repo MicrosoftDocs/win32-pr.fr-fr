@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Demande de données d’instance de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3332ff8b5ba0aae7d1ac33fb8faba6340bbd795401fa81a52ea9c21abc4fde2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32df053ae1267f396978d98271f57f174ea6bf0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118316286"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008215"
 ---
 # <a name="requesting-class-instance-data"></a>Demande de données d’instance de classe
 

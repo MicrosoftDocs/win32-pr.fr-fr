@@ -5,11 +5,11 @@ title: Fonctions du descripteur de sécurité de bas niveau
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d77c717b554a670eebed4e7df67760fe7e08eb8a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470975"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009104"
 ---
 # <a name="low-level-security-descriptor-functions"></a>Fonctions du descripteur de sécurité de bas niveau
 
@@ -18,7 +18,7 @@ Il existe plusieurs paires de fonctions de bas niveau pour la définition et la 
 
 
 
-| Type d’objet | Fonctions de bas niveau | 
+| Type d'objet | Fonctions de bas niveau | 
 |-------------|---------------------|
 | <ul><li><a href="/windows/desktop/FileIO/file-security-and-access-rights">Fichiers</a></li><li><a href="/windows/desktop/FileIO/file-security-and-access-rights">Directories</a></li><li>Boîtes</li><li><a href="/windows/desktop/ipc/named-pipe-security-and-access-rights">Canaux nommés</a></li></ul> | Utilisez les fonctions <a href="/windows/desktop/api/Winbase/nf-winbase-getfilesecuritya"><strong>GetFileSecurity</strong></a> et <a href="/windows/desktop/api/Winbase/nf-winbase-setfilesecuritya"><strong>SetFileSecurity</strong></a> . Ces fonctions utilisent des chaînes de caractères pour identifier l’objet sécurisable, au lieu d’utiliser des handles. | 
 | <ul><li><a href="/windows/desktop/ProcThread/process-security-and-access-rights">Processus</a></li><li><a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Threads</a></li><li><a href="access-rights-for-access-token-objects.md">Jetons d’accès</a></li><li><a href="/windows/desktop/Memory/file-mapping-security-and-access-rights">Objets de mappage de fichiers</a></li><li><a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Sémaphores</a></li><li><a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Événements</a></li><li><a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Mutex</a></li><li><a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Minuteries waitables</a></li></ul> | Utilisez les fonctions <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity"><strong>GetKernelObjectSecurity</strong></a> et <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity"><strong>SetKernelObjectSecurity</strong></a> . | 

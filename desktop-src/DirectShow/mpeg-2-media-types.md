@@ -4,12 +4,12 @@ ms.assetid: 20fb2dc3-76b5-421a-b8e1-d99fad2ce2dd
 title: Types de média MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1837c1691acda531a721e2320e818a344818950439dfaea9a7ca8ba0180a58b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 51c9cfdbc306a486ed284d67453d080b4b09a0b8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118153059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999005"
 ---
 # <a name="mpeg-2-media-types"></a>Types de média MPEG-2
 

@@ -4,12 +4,12 @@ ms.assetid: 203fcd7b-bf9d-48ad-9452-1f6357c82946
 title: MSP Wave
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c65b465564df4aff658a0de85a8e2f2ae0520522820c4e322234e20fac42bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 927a2545fd3da6a5ea186a6716d49222e5efb1a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008687"
 ---
 # <a name="wave-msp"></a>MSP Wave
 

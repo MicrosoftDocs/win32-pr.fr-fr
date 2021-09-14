@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
 ms.openlocfilehash: 6421c054080e250bca4e673a66dcc4096a541519
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122466439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009000"
 ---
 # <a name="encryptafterhardwaretest-method-of-the-win32_encryptablevolume-class"></a>Méthode EncryptAfterHardwareTest de la \_ classe Win32 EncryptableVolume
 
@@ -122,7 +122,7 @@ Cette méthode est retournée immédiatement. Si le volume est déjà entièreme
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de la Windows 7 et Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. de cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
 

@@ -4,12 +4,12 @@ ms.assetid: ecf94552-5a0f-464c-9f9b-4861faa38d05
 title: Types de média de noyau MPEG-2 (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41cfbbd93bfb4d9c21a7ab2b496e69458e2754d95ae4427ad163c4f2a06e4165
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37b03e6d3cbc32c987110ceac98e6aeef6617d6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999006"
 ---
 # <a name="mpeg-2-kernel-media-types"></a>Types de média de noyau MPEG-2
 
@@ -38,7 +38,7 @@ pour plusieurs guid de type de média MPEG-2, le DDK Windows définit des noms q
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

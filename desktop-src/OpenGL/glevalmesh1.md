@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c325134a8a8fd60afdc764eebc8a4de9bd507b5b667ebb8e1b2ab967edcd7e77
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8950dcf397816fca8eb5a6add45c45512c48866
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119625469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222636"
 ---
 # <a name="glevalmesh1-function"></a>glEvalMesh1 fonction)
 
@@ -73,14 +73,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Name                                                                                                  | Signification                                                                                                                                |
+| Nom                                                                                                  | Signification                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | Indique que le *mode* n’est pas une valeur acceptée. <br/>                                                                            |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md). <br/> |
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez [**glMapGrid**](glmapgrid-functions.md) et [**glEvalMesh**](glevalmesh-functions.md) ensemble pour générer et évaluer efficacement une série de valeurs de domaine de mappage uniformément espacées. La fonction **glEvalMesh** effectue un pas à pas dans le domaine entier d’une grille unidimensionnelle ou à deux dimensions, dont la plage est le domaine des mappages d’évaluation spécifiés par [**glMap1**](glmap1.md) et [**glMap2**](glmap2.md). Le paramètre mode détermine si les vertex résultants sont connectés en tant que points, lignes ou polygones pleins.
 
@@ -104,7 +104,7 @@ where
 
 et n, U1 et U2 sont les arguments de la fonction [**glMapGrid1**](glmapgrid1d.md) la plus récente. Le paramètre de *type* est \_ points du GL si le mode est mode GL \_ , ou \_ lignes GL si le mode est \_ ligne GL. La seule exigence numérique absolue est que si i = n, la valeur calculée à partir de i ? u + U1 est exactement U2.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

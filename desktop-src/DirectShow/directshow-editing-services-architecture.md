@@ -4,12 +4,12 @@ ms.assetid: ba6cc3f1-9130-4197-8501-c2d0a088e847
 title: DirectShow Architecture des services d’édition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: add81e579b89c0053e5833aab67d84e942a111c90df2e2b665531c507f7be1e9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 85c6059eebe9228e61d3de9677972eedfcb51c62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119966683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006642"
 ---
 # <a name="directshow-editing-services-architecture"></a>DirectShow Architecture des services d’édition
 

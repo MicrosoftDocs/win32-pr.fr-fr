@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7d448524c65e53ad9142d52786a651e085eddcfc7f3eb28bff558a38fc619fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b74341d9b1fdd9121f1d67e2a941d931be049e0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118785204"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221369"
 ---
 # <a name="eaptype-element-eaptlsconnectionpropertiesv1schema"></a>Élément EapType (eaptlsconnectionpropertiesv1schema)
 
@@ -86,7 +86,7 @@ Cet élément **EapType** dérivé contient les éléments suivants : [**Creden
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

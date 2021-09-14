@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c41f5fbe540a4d765a48292d4ffd5b4af5849681dd1a82f4512b79348a6249d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ce904725c5dc63732bae07cfaa95b41558db11d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119915639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007659"
 ---
 # <a name="em_exlinefromchar-message"></a>\_Message EXLINEFROMCHAR em
 
@@ -43,7 +43,7 @@ Index de base zéro du caractère.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne l’index de base zéro de la ligne.
 

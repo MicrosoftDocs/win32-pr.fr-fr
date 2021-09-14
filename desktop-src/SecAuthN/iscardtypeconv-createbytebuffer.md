@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: e95ab8989027cb79dfd48720b08d27042c7bd8f9252d1438152dafbae017d762
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab69c8061d2e2740e652e29b2fe6407574fe7076
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118922408"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218185"
 ---
 # <a name="iscardtypeconvcreatebytebuffer-method"></a>ISCardTypeConv :: CreateByteBuffer, méthode
 
@@ -58,7 +58,7 @@ Pointeur vers l’objet IStream à retourner.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Les valeurs de retour possibles sont les suivantes :
 
@@ -74,7 +74,7 @@ Les valeurs de retour possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mémoire allouée est déplaçable. Utilisez la méthode **IStream :: Release** pour libérer de la mémoire.
 
@@ -82,7 +82,7 @@ Pour créer un tableau d’octets C/C++ classique, appelez [**CreateByteArray**]
 
 Pour créer un SAFEARRAY Automation de caractères non signés (octets), appelez [**CreateSafeArray**](iscardtypeconv-createsafearray.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

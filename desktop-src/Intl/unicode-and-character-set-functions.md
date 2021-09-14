@@ -4,12 +4,12 @@ ms.assetid: 1799f5da-1391-4b6e-ac13-718017a77557
 title: Unicode et fonctions de jeu de caractères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd26edd8931b1a63887816ca07698d779bd0d4d3decceb3b53faf5d499605612
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6996139d8a9bb426c21a460ac2bcb1358e6c8e7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811710"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127224228"
 ---
 # <a name="unicode-and-character-set-functions"></a>Unicode et fonctions de jeu de caractères
 

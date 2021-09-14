@@ -5,11 +5,11 @@ title: Message LINE_MONITORTONE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: de88863111dc0d00ea32953eeac76d4b570b5848
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217681"
 ---
 # <a name="line_monitortone-message"></a>\_Message MONITORTONE de ligne
 
@@ -57,11 +57,11 @@ Inutilisé.
 *dwParam3* 
 </dt> <dd>
 
-« Nombre de cycles » (nombre de millisecondes écoulées depuis le démarrage de Windows) auquel le ton a été détecté. Pour les versions d’API antérieures à 2,0, ce paramètre n’est pas utilisé.
+le « nombre de cycles » (nombre de millisecondes depuis Windows démarré) auquel le ton a été détecté. Pour les versions d’API antérieures à 2,0, ce paramètre n’est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
@@ -73,7 +73,7 @@ Le message de **ligne \_ MONITORTONE** est envoyé uniquement à l’application
 
 Si le fournisseur de services ne génère pas l’horodateur (par exemple, s’il a été créé à l’aide d’une version antérieure de TAPI), TAPI fournit un horodateur au point le plus proche du fournisseur de services qui génère l’événement afin que l’horodatage synthétisé soit le plus précis possible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

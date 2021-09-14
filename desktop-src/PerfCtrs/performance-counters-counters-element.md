@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: 11ced77890dba6d47f713642adf9b41d4b30f6a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865106"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218449"
 ---
 # <a name="counters-element"></a>Counters, élément
 
@@ -87,14 +87,14 @@ Identifie le nœud racine de la section des compteurs d’un manifeste d’instr
 
 Le nœud parent de cet élément est l’élément d' [**instrumentation**](/windows/desktop/WES/eventmanifestschema-instrumentationtype-complextype) du manifeste.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

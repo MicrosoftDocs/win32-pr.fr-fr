@@ -4,12 +4,12 @@ ms.assetid: 6ea0c16f-1233-4580-97bb-14e224646857
 title: Terminologie réseau (WinHTTP)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bec92d5dd99247fab3ade48760db343983cd7092ea96ac8bd059ed892c9aa42a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8173b921957a95ebde7f00034c31b2f016b78ab5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119643799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008323"
 ---
 # <a name="network-terminology-winhttp"></a>Terminologie réseau (WinHTTP)
 
@@ -27,13 +27,13 @@ Lorsque vous utilisez des transactions HTTP, vous échangez des informations ave
 Le processus d’obtention d’une ressource à l’aide du protocole HTTP nécessite l’échange d’une série de messages entre le client et le serveur. Le client commence la transaction en envoyant un message qui demande une ressource. Ce message est appelé requête HTTP, ou parfois simplement une demande. Une requête HTTP est constituée des composants suivants.
 
 -   Méthode, Uniform Resource Identifier (URI), numéro de version du protocole
--   headers
+-   En-têtes
 -   Corps d’entité
 
 Lorsqu’un serveur reçoit une demande, il répond en renvoyant un message au client. Le message envoyé par le serveur est appelé réponse HTTP. Une réponse HTTP est constituée des composants suivants.
 
 -   Numéro de version du protocole, code d’État, texte d’État
--   headers
+-   En-têtes
 -   Corps d’entité
 
 La réponse indique que la demande ne peut pas être traitée ou fournit des informations demandées. Selon le type de requête, il peut s’agir d’informations sur une ressource, telles que sa taille et son type, ou peut être une partie ou la totalité de la ressource elle-même. La partie d’une réponse qui comprend une partie ou la totalité de la ressource demandée est appelée « données de réponse » ou « corps d’entité » et la réponse n’est pas terminée tant que toutes les données de réponse n’ont pas été reçues.

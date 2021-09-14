@@ -4,12 +4,12 @@ ms.assetid: 039a9f66-228e-4258-9967-2b2cd7d31091
 title: Consommation d’événements (traçage d’événements)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b42761bed132c5416a99888e067a1192571a527f39506e8964d5ea0209135b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 68ad8234cc66d07b5a52c10ab39c7d7b3c8aa029
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119269359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007442"
 ---
 # <a name="consuming-events-event-tracing"></a>Consommation d’événements (traçage d’événements)
 

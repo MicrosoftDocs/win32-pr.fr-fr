@@ -4,12 +4,12 @@ ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: Outils d'analyse de compatibilité des applications (ACT)
 ms.topic: article
 ms.date: 06/12/2020
-ms.openlocfilehash: db71cbd18baefcc1218dc5aeba5869a1e509639e528bc67773304f6395609141
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4dd332ed30ef85a427d3301b2ffe6ba0e7acc1a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118330092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216756"
 ---
 # <a name="application-compatibility-toolkit-act"></a>Outils d'analyse de compatibilité des applications (ACT)
 

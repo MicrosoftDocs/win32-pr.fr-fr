@@ -4,12 +4,12 @@ description: L’exemple suivant montre comment créer un contrôle ToolTip stan
 ms.assetid: 6AF1CE6E-AD63-4F84-9759-14FE4F16092B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9be19be187e8c09b3aeb618e1c3518c7c15ca66816cbbb751abe43aa0b9172a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8f8daf62bf2ba85c8750fd07a1b9122b0360fc11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920692"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223649"
 ---
 # <a name="how-to-create-a-tooltip-for-a-rectangular-area"></a>Comment créer une info-bulle pour une zone rectangulaire
 

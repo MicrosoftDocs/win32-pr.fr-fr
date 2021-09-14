@@ -4,12 +4,12 @@ ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: Comment inscrire un gestionnaire pour un événement d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a13abe8917d93ac6a4801e0c11cb7223da25e362923df229180b8c8e6211ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34ef15071b349afa3f863e7c57b64c280c2aef8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117859598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226956"
 ---
 # <a name="how-to-register-a-handler-for-a-device-event"></a>Comment inscrire un gestionnaire pour un événement d’appareil
 

@@ -4,12 +4,12 @@ ms.assetid: c5f90fce-faf7-411b-a4d6-deb5d0f22f4a
 title: Événement InkCollector. TabletAdded (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c14edc2842bd077a87fea1ac17a3170e6ceb7d40ed9afef2ca52b5f5c634a137
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ad3088eff151d9857f8a1449d3c99805c949b790
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118043058"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220057"
 ---
 # <a name="inkcollectortabletadded-event"></a>Événement InkCollector. TabletAdded
 
@@ -37,15 +37,15 @@ Objet [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) qui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICETabletAdded.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

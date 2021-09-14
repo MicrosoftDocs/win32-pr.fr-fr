@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b64b1114aef130b41b4daed47c50da3b30e54bd295dceda7fbe5423c7e0cbb7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c78e9314005c427cd882c3f74c73aa6ca4797acd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119851619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221276"
 ---
 # <a name="esentprimaryindexcorruptedexception-constructor"></a>Constructeur EsentPrimaryIndexCorruptedException
 
@@ -54,7 +54,7 @@ public EsentPrimaryIndexCorruptedException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentPrimaryIndexCorruptedException, classe](./esentprimaryindexcorruptedexception-class.md)
 

@@ -11,12 +11,12 @@ api_name:
 - DispatchRaysIndex
 api_type:
 - NA
-ms.openlocfilehash: 1b40987c76f42d41d74b7cb3d41f35cc20bd5a6ac1414ae9b010cedcfa7ef9fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aa26400c26aba4ee9e647bcd0a79bad3f3d52f7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124163"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221596"
 ---
 # <a name="dispatchraysindex"></a>DispatchRaysIndex
 

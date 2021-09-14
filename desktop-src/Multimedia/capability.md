@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 44e57a793f799214753f50504d80bce7051fba14
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363684"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007220"
 ---
 # <a name="capability-command"></a>fonctionnalité, commande
 
@@ -94,7 +94,7 @@ Le tableau suivant répertorie les indicateurs qui peuvent être spécifiés dan
 | taux d’incrément d’horloge | Retourne le nombre de sous-cloisonnements pris en charge par l’horloge externe par seconde. Si l’horloge externe est une horloge en millisecondes, la valeur de retour est 1000. Si la valeur de retour est 0, aucune horloge n’est prise en charge. | 
 | clv | Lorsqu’il est combiné à d’autres éléments, cet indicateur spécifie que les informations de retour s’appliquent au format CLV videodiscs. | 
 | appareil composé | Retourne la <strong>valeur true</strong> si l’appareil prend en charge un nom d’élément (fileName). | 
-| type de périphérique | Retourne un nom de type d’appareil, qui peut être l’un des éléments suivants :<ul><li>cdaudio</li><li>anciens</li><li>digitalvideo</li><li>autre</li><li>superposition</li><li>scanneur</li><li>sequencer</li><li>vidéo</li><li>videodisc</li><li>WaveAudio</li></ul> | 
+| type de périphérique | Retourne un nom de type d’appareil, qui peut être l’un des éléments suivants :<ul><li>cdaudio</li><li>anciens</li><li>digitalvideo</li><li>other</li><li>superposition</li><li>scanneur</li><li>sequencer</li><li>vidéo</li><li>videodisc</li><li>WaveAudio</li></ul> | 
 | Vitesse de lecture rapide | Retourne le taux de lecture rapide en images par seconde, ou zéro si l’appareil ne peut pas être lu rapidement. | 
 | a de l’audio | Retourne la <strong>valeur true</strong> si l’appareil prend en charge la lecture audio. | 
 | a une horloge | Retourne la <strong>valeur true</strong> si l’appareil a une horloge. | 

@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 40e9f795c800a3a688f3b032db53cba755849db6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467246"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226801"
 ---
 # <a name="profiles-directory"></a>Répertoire des profils
 
@@ -27,7 +27,7 @@ Le répertoire des profils contient les sous-répertoires suivants pour les prof
 | Répertoire                                      | Description                                                                                                                                |
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | ProgramData (Windows Vista ou version ultérieure)/all users | Informations de programme qui s’appliquent à tous les utilisateurs. le répertoire tous les utilisateurs existe toujours dans Windows Vista ou version ultérieure, pour des raisons de compatibilité descendante. |
-| Par défaut                                        | Informations de profil qui s’appliquent à l’utilisateur par défaut.                                                                                      |
+| Default                                        | Informations de profil qui s’appliquent à l’utilisateur par défaut.                                                                                      |
 | *Utilisateur*                                         | Informations de profil qui s’appliquent à l’utilisateur spécifié. Chaque utilisateur possède son propre sous-répertoire de profil.                                      |
 
 

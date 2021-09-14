@@ -4,12 +4,12 @@ ms.assetid: f2997905-26c9-4884-ae79-64df5ce6bc55
 title: Événement PBT_APMRESUMECRITICAL (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f13214a97e99954d0649df0647bdf6ee3823b91926c0f2f2dc1212fa780a7b6c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ef4a76e163f2e61e723f4df6572254e8ef89b40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119961706"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007133"
 ---
 # <a name="pbt_apmresumecritical-event"></a>\_Événement PBT APMRESUMECRITICAL
 
@@ -69,11 +69,11 @@ Réservé doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Étant donné qu’une suspension critique se produit sans notification préalable, les ressources et les données qui étaient disponibles peuvent ne pas être présentes lorsque l’application reçoit cet événement. L’application doit tenter de restaurer son état au meilleur de sa capacité. Lorsqu’il s’agit d’une suspension critique, le système conserve l’état de la DRAM et des disques durs locaux, mais il peut ne pas conserver les connexions réseau. Une application peut être amenée à agir en ce qui concerne les fichiers qui étaient ouverts sur le réseau avant la suspension critique.
 

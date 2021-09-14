@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 35e6afca05732dc604ff66bbabeef94443af2dbfe947fb674f1361d04fc699e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 588572d1ddc39f17e48453acbdf021237d4439c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195588"
 ---
 # <a name="coutputqueuem_evflushcomplete-member"></a>COutputQueue :: m \_ evFlushComplete, membre
 
@@ -36,7 +36,7 @@ CAMEvent m_evFlushComplete;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

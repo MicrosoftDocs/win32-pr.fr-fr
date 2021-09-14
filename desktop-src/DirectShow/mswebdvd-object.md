@@ -4,12 +4,12 @@ ms.assetid: 74187af4-a86d-4dec-a1f4-203fda0c6309
 title: Objet MSWebDVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a5f485dc56938f7a0d36d9eedec92b3cb5dd47ca216fdc68cac085634e5906
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea98f79c3f0f4b97534ef812e70e5a7417759e25
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223345"
 ---
 # <a name="mswebdvd-object"></a>Objet MSWebDVD
 
@@ -55,10 +55,10 @@ Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigate
 | [**PlayPrevChapter**](playprevchapter-method.md)                                 | Démarre la lecture à partir du chapitre précédent dans le titre actuel.                                                                                                                             |
 | [**PlayTitle**](playtitle-method.md)                                             | Démarre la lecture au début du titre spécifié.                                                                                                                                    |
 | [**ReplayChapter**](replaychapter-method.md)                                     | Démarre la lecture au début du chapitre actuel.                                                                                                                                    |
-| [**Reprendre**](resume-method.md)                                                   | Reprend la lecture après l’affichage d’un menu.                                                                                                                                           |
+| [**Sort**](resume-method.md)                                                   | Reprend la lecture après l’affichage d’un menu.                                                                                                                                           |
 | [**StillOff**](stilloff-method.md)                                               | Reprend la lecture, en annulant le mode continu.                                                                                                                                                     |
 | [**Étape**](step-method.md)                                                       | Avance le DVD-Video flux du nombre spécifié de frames.                                                                                                                            |
-| [**Erreur**](stop-method.md)                                                       | Arrête la lecture.                                                                                                                                                                             |
+| [**Arrêter**](stop-method.md)                                                       | Arrête la lecture.                                                                                                                                                                             |
 | Menus                                                                             |                                                                                                                                                                                             |
 | [**ActivateAtPosition**](activateatposition-method.md)                           | Active le bouton de menu à la position spécifiée.                                                                                                                                        |
 | [**ActivateButton**](activatebutton-method.md)                                   | Active le bouton de menu sélectionné.                                                                                                                                                         |
@@ -85,7 +85,7 @@ Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigate
 | [**IsAudioStreamEnabled**](isaudiostreamenabled-method.md)                       | Récupère une valeur indiquant si le flux audio spécifié est activé dans le titre actuel.                                                                                            |
 | [**Muette**](mute-property.md)                                                     | Active ou désactive la sortie du flux audio.                                                                                                                                                    |
 | [**SelectDefaultAudioLanguage**](selectdefaultaudiolanguage-method.md)           | Définit la langue audio par défaut actuelle dans le navigateur DVD.                                                                                                                               |
-| [**Volume**](volume-property.md)                                                 | Définit ou récupère le niveau du volume audio.                                                                                                                                                   |
+| [**Agrégat**](volume-property.md)                                                 | Définit ou récupère le niveau du volume audio.                                                                                                                                                   |
 | Flux de sous-image                                                                 |                                                                                                                                                                                             |
 | [**CurrentSubpictureStream**](currentsubpicturestream-property.md)               | Récupère le flux de sous-image sélectionné.                                                                                                                                                   |
 | [**DefaultSubpictureLanguage**](defaultsubpicturelanguage-property.md)           | Récupère la langue de sous-image par défaut à partir du disque.                                                                                                                                    |

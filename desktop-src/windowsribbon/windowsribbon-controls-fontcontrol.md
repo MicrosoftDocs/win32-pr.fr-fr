@@ -5,11 +5,11 @@ ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 106163c03c506e438ffcffa261ebd7e3a2115e2a
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470725"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226156"
 ---
 # <a name="font-control"></a>Contrôle de police
 
@@ -134,7 +134,7 @@ Le tableau suivant répertorie les contrôles qui sont associés à chaque modè
 
 
 
-Contrôles
+Commandes
 
 Modèles
 
@@ -144,7 +144,7 @@ Modèles
 
 **FontOnly**
 
-Par défaut
+Default
 
 Facultatif
 
@@ -434,7 +434,7 @@ Le tableau suivant répertorie les touches accélératrices définies par l’in
 | Souligner | U | 
 | Barré | X | 
 | Exposant | Y ou Z<blockquote>[!Note]<br />Si l’attribut <em>KeyTip</em> n’est pas déclaré dans le balisage, la touche d’option par défaut est Y ; dans le cas contraire, la touche d’option par défaut est <em>KeyTip</em> + Z.</blockquote><br /> | 
-| Indice | A | 
+| Indice | Un | 
 | Couleur de police | C | 
 | Mise en surbrillance de police | H | 
 
@@ -527,7 +527,7 @@ Le tableau suivant répertorie les contrôles individuels et leurs clés de prop
 
 
 
-| Contrôles                 | Clé de propriété                                                                                                                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Commandes                 | Clé de propriété                                                                                                                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Taille de la police**            | [\_Taille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-size.md)                                                                                                                                                                    | Lorsqu’une exécution de texte de taille hétérogène est mise en surbrillance, l’infrastructure du ruban définit le contrôle de la **taille** de la police sur vide et la valeur de l' [interface utilisateur \_ \_ FontProperties \_ taille](windowsribbon-reference-properties-uipkey-fontproperties-size.md) sur 0. Lorsque l’utilisateur clique sur le bouton **agrandir la police** ou **réduire la police** , tout le texte mis en surbrillance est redimensionné, mais la différence relative dans les tailles de texte est conservée.                                                                                                                                                    |
 | **Famille de polices**          | [\_Famille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-family.md)                                                                                                                                                                | Les noms des familles de polices GDI varient selon les paramètres régionaux système. Par conséquent, si la valeur de [la \_ \_ \_ famille FontProperties de l’interface utilisateur](windowsribbon-reference-properties-uipkey-fontproperties-family.md) est conservée entre les sessions d’application, cette valeur doit être récupérée sur chaque nouvelle session.                                                                                                                                                                                                                                                                            |

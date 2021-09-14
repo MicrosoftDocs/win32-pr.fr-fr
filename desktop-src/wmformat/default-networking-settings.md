@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), paramètres de mise en réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 591bf4aa2154d5cc04a8a17b5fc75f290a8493a39d530d4246bc0338c2424e62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f4f219a60d9211b63eb124500c014452a0143d1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127226009"
 ---
 # <a name="default-networking-settings"></a>Paramètres réseau par défaut
 

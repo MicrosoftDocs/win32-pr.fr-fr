@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 27c679b7ccdb5eb92ebe87676cd136c71adcda862472f6f300056511001a683a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e7d19c7233b235a1a73e160eeacb3c51415d0bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118225020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127227009"
 ---
 # <a name="abn_windowarrange-message"></a>Message d’ABN \_ WINDOWARRANGE
 
@@ -46,15 +46,15 @@ Indicateur spécifiant si l’opération de cascade ou de vignette commence. Ce 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système envoie le message de notification à deux reprises avec *lParam* défini à **true** , puis avec *lParam* défini sur **false**. La première notification est envoyée avant que les fenêtres soient mises en cascade ou en mosaïque, et la seconde est envoyée après l’opération de mise en cascade ou de vignette.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

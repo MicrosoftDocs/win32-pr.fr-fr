@@ -4,12 +4,12 @@ ms.assetid: 4e44089b-676b-4220-9721-54ddf56bf760
 title: Learning Quand un événement se produit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58696055bdf1e3cbf3cf36c4db4ae2258bda334956fcaa14f33eda96db249773
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19ed537430fd66818687b142f059399292c923e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118397215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999011"
 ---
 # <a name="learning-when-an-event-occurs"></a>Learning Quand un événement se produit
 

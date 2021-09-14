@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 3316c71c5de15a777ce7e4559b7ee52e9efcb61200bd72b8898440e56bb4f392
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a6495b199046a361910741545a7178050621ccd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120042419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218769"
 ---
 # <a name="patchcontext-property"></a>Patch. Context, propriété
 
@@ -37,13 +37,13 @@ propVal = Patch.Context
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété retourne l’une des valeurs suivantes.
 
 
 
-| Contexte                        | Valeur | Signification                        |
+| Context                        | Valeur | Signification                        |
 |--------------------------------|-------|--------------------------------|
 | MSIINSTALLCONTEXT \_ USERMANAGED | 1     | Correctif sous le contexte géré.   |
 | \_utilisateur MSIINSTALLCONTEXT        | 2     | Correctif sous un contexte non managé. |
@@ -53,7 +53,7 @@ Cette propriété retourne l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
