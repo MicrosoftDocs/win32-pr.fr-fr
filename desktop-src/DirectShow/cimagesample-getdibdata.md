@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 894d75512c6c7909f617e13999e7290efea663fa843bf64424aad8371965de75
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0fd198152e7c0042a6d48cf942a48745540960d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118655598"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239141"
 ---
 # <a name="cimagesamplegetdibdata-method"></a>Méthode CImageSample. GetDIBData
 
@@ -40,15 +40,15 @@ DIBDATA* GetDIBData();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers une structure [**DIBDATA**](dibdata.md) .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’appelant doit initialiser la structure **DIBDATA** avant d’appeler cette méthode. Vérifiez la valeur de **CImageSample :: m \_ bInit**. Pour initialiser la structure, appelez la méthode [**CImageSample :: SetDIBData**](cimagesample-setdibdata.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

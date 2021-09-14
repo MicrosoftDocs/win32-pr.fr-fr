@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 88e728b90078ab11a6215dad60a88b819b2c513071637e2aa5c6b6ed7226189b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c340e54f35b353820b128681cfbc0c5798d38849
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157591"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223505"
 ---
 # <a name="cbaserendererschedulesample-method"></a>Méthode CBaseRenderer. ScheduleSample
 
@@ -49,15 +49,15 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si l’exemple a été planifié, ou **false** si l’exemple a été supprimé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode détermine d’abord si l’exemple doit être rendu immédiatement, rendu dans le futur ou supprimé. (Pour ce faire, elle appelle la méthode [**CBaseRenderer :: GetSampleTimes**](cbaserenderer-getsampletimes.md) .) Si l’exemple doit être rendu immédiatement, la méthode signale l’événement [**CBaseRenderer :: m \_ RenderEvent**](cbaserenderer-m-renderevent.md) . Si l’exemple doit être rendu à l’avenir, la méthode appelle la méthode [**IReferenceClock :: AdviseTime**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclock-advisetime) pour la planification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

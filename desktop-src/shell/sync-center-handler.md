@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 127426365ff0f2c7bbada34f87cc7e2aec8916a2dbe4038978835aa61b179cf6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 11185aa5976c27b7af95787b081e1eaacd99c8e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220364"
 ---
 # <a name="developing-a-windows-sync-center-handler"></a>développement d’un gestionnaire de Windows Sync Center
 

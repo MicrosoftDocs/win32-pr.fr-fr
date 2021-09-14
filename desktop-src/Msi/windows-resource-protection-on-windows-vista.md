@@ -4,12 +4,12 @@ ms.assetid: 38865ee1-22ef-430b-99ce-1c6983c3b51f
 title: utilisation de Windows Installer et Protection des ressources Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7ed70b502754dcc54c0954d21e6213d815ba0fa98927f5a67680700a4dd802
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72808184ff11b29bfeb02dda576e9393e34189fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007308"
 ---
 # <a name="using-windows-installer-and-windows-resource-protection"></a>utilisation de Windows Installer et Protection des ressources Windows
 

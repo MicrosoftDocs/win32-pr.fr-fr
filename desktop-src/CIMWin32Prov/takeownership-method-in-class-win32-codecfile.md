@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96997b7a29d4a7ca0ad586263bfe7846142963f7ba60e4bdf01a3991e3cfcbff
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e52e5dafe5f0453861ddcddadf9f7115d17ee404
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006561"
 ---
 # <a name="takeownership-method-of-the-win32_codecfile-class"></a>Méthode TakeOwnerShip de la \_ classe Win32 CodecFile
 
@@ -40,7 +40,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs entières suivantes.
 
@@ -137,7 +137,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

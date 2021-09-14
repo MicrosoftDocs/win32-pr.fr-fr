@@ -4,12 +4,12 @@ ms.assetid: e5509be1-5294-4696-ab5b-fa2217ae0956
 title: PNRP et WSANSPIoctl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2cc07415fb483e75af8d836274d45a2c53f205e3aae15f893f909d2363c0d15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c36dc53fb3d00eeaa2b74be643a7ea62af436e93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239664"
 ---
 # <a name="pnrp-and-wsanspioctl"></a>PNRP et WSANSPIoctl
 

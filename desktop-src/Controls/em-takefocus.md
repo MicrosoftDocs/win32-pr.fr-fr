@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8283f2f9ea033439ef9ad7ec0ce40b08bb6396db8f5ebc7a9b1d513f29c209a1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e4abdf926cdd337760b5cf151c3f8ee08cb418b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119437139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006331"
 ---
 # <a name="em_takefocus-message"></a>\_Message TAKEFOCUS em
 
@@ -45,7 +45,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
@@ -53,13 +53,13 @@ La valeur de retour n’est pas utilisée.
 
 L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est ignoré si le contrôle d’édition n’est pas un contrôle d’édition sur une seule ligne.
 
 Si le contrôle d’édition a précédemment reçu un message [**em \_ NOSETFOCUS**](em-nosetfocus.md) , le contrôle d’édition semble avoir le focus sans réellement l’avoir ; sinon, le contrôle d’édition reçoit le focus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

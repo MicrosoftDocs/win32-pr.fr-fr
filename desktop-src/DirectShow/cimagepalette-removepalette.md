@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0b87c8f028da17e6af305900f203c5cf1143132806ca1b2ce9b0edaddebd0eac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c0410772203a22655968fba393c707bda790a5a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239153"
 ---
 # <a name="cimagepaletteremovepalette-method"></a>Méthode CImagePalette. RemovePalette
 
@@ -40,11 +40,11 @@ HRESULT RemovePalette();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

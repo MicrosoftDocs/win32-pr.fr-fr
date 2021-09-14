@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2e2067ae7da8a6f112671237ebc7f77dd26644c5e0b2fa0b77a443c160468581
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: edb6dfc9d745f5e408871246b581e6fab7eb72d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959128"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007047"
 ---
 # <a name="changestartmode-method-of-the-win32_systemdriver-class"></a>Méthode ChangeStartMode de la \_ classe Win32 SystemDriver
 
@@ -104,7 +104,7 @@ Service qui ne peut plus être démarré.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le service a été correctement modifié, 1 (un) si la demande n’est pas prise en charge, et tout autre nombre pour indiquer une erreur.
 
@@ -188,7 +188,7 @@ Le **service d’État existe** (23)
 **Autre** (25 4294967295)
 </dt> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

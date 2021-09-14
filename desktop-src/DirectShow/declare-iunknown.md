@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21ba606a5721635398cc9bcf48bba70978e00354188e1a62d83239c853a28b17
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4823c1b4bd4832b1047a732bc503f04b4da65483
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118953208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006656"
 ---
 # <a name="declare_iunknown"></a>DÉCLARER \_ IUnknown
 
@@ -42,13 +42,13 @@ La macro **Declare \_ IUnknown** déclare les trois méthodes de l’interface d
     };
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Quand vous créez une interface, elle doit dériver de **IUnknown**, qui a trois méthodes : **QueryInterface**, **AddRef** et **Release**. Cette macro simplifie le processus de déclaration en déclarant chacune de ces méthodes pour la nouvelle interface.
 
 Cette macro fonctionne uniquement avec les classes qui dérivent, directement ou indirectement, de la classe [**CUnknown**](cunknown.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

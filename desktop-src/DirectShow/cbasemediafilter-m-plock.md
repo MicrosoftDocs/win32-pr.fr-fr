@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ad92cf07cc096c50ffa50f862c26f6133fc8dbb9b9b059419bb516e07cbd5daa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 126aa213004dd032eea43b28198b6f8b49fe7f3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239285"
 ---
 # <a name="cbasemediafilterm_plock-member"></a>CBaseMediaFilter :: m \_ pLock, membre
 
@@ -40,7 +40,7 @@ CCritSec *m_pLock;
 
 La section critique est conservée lors des transitions d’État ([**CBaseMediaFilter :: Run**](cbasemediafilter-run.md), [**CBaseMediaFilter ::P ause**](cbasemediafilter-pause.md), [**CBaseMediaFilter :: Stop**](cbasemediafilter-stop.md)), lors de l’accès à l’horloge de référence ([**CBaseMediaFilter :: SetSyncSource**](cbasemediafilter-setsyncsource.md), [**CBaseMediaFilter :: GetSyncSource**](cbasemediafilter-getsyncsource.md)) et dans la méthode [**CBaseMediaFilter :: IsActive**](cbasemediafilter-isactive.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

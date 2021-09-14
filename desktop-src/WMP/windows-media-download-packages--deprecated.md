@@ -15,12 +15,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b482b1b793b99dc775a9398e90f3bad75c8d584b6628f26558f0bfa6507475b5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 746330f16b883c337c87f055770477ba1ecf5621
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120001209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193104"
 ---
 # <a name="windows-media-download-packages-deprecated"></a>Windows Packages de téléchargement de médias (déconseillés)
 

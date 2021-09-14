@@ -9,12 +9,12 @@ keywords:
 - objets externes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d177dd4bcac34e5a8e8a72f53f184c4e0dfffec41b3cef0c0080e2fe1840cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c412cac301d61aeb791131e85bb8bc60f390201d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192364"
 ---
 # <a name="external-object-for-type-2-online-stores"></a>Objet externe pour les magasins de type 2 en ligne
 

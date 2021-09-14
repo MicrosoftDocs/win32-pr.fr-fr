@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shldisp.h
-ms.openlocfilehash: c5bcf40a77c2f464d5277ac4823ed74a3f3c2bdd6a2114d2431684cc8b319f66
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1fbaf53db11fda577e9e9c5384af5f7c62fe1944
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220305"
 ---
 # <a name="webwizardhost-object"></a>Objet WebWizardHost
 
@@ -64,7 +64,7 @@ L’objet **WebWizardHost** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Utilisation de l’exemple d’accrochage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47318b7bd4dbbad57fb82bec11e0a1293a0284c906c78fc7175d8a758ad477f2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d4886c796691e83e02b58ddea129d60d5004c9f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120083559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240623"
 ---
 # <a name="using-the-sample-grabber"></a>Utilisation de l’exemple d’accrochage
 

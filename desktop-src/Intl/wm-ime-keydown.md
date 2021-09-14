@@ -4,12 +4,12 @@ ms.assetid: db7075fb-b3d4-4d32-a0db-096d17d67c72
 title: Message WM_IME_KEYDOWN (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beed8bb074e1bae300d52c52867cc8d1f26b84bb8abf358ad2858df7356a0a0c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f3089af3c839f70e7f55895ae13158e7b2240605
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119535309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223964"
 ---
 # <a name="wm_ime_keydown-message"></a>\_Message de \_ keyversion de l’IME WM
 
@@ -68,15 +68,15 @@ Le tableau suivant indique le nombre de répétitions, l’analyse du code, l’
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner 0 si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut traiter ce message ou la passer à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  pour générer un message [**de \_ keyversion WM**](../inputdev/wm-keydown.md) correspondant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

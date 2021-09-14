@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02ac35a30ff3deac7e9d6d227a6e8c403e6096e272ea89067dd817add9b2426e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b82830cda3402d2089d3421debaa7c4dbf13de5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831192"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006445"
 ---
 # <a name="em_nosetfocus-message"></a>\_Message NOSETFOCUS em
 
@@ -45,7 +45,7 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour n’est pas utilisée.
 
@@ -53,13 +53,13 @@ La valeur de retour n’est pas utilisée.
 
 L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est ignoré si le contrôle d’édition n’est pas un contrôle d’édition sur une seule ligne.
 
 Une fois ce message envoyé, l’effet est permanent.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

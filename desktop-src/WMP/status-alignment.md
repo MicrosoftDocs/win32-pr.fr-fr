@@ -9,12 +9,12 @@ keywords:
 - affichage de l’État dans les apparences, alignement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbb9bb825329aa3f4ddbe98e8b8e3cfe6d26dd7a396c27394665ac6f7e54431
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f50b1a9824db4454ae549a38428a10f2e4f3e0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192240"
 ---
 # <a name="status-alignment"></a>Alignement de l’État
 

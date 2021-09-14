@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 66136ee767c16aa85bfcef33fd23d5d42817f844fc309f7633d2a3d2bd35f2e4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7500d52179c3282c7f15dcdd5dd5a32620bbc076
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119471049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191823"
 ---
 # <a name="importchanneltype-complex-type"></a>Type complexe ImportChannelType
 
@@ -61,11 +61,11 @@ Identifie un canal qui a été défini par un autre fournisseur ou dans un manif
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le manifeste qui a défini le canal importé doit être installé avant que votre fournisseur n’écrive des événements ; dans le cas contraire, les événements ne peuvent pas être écrits dans le canal (l’opération d’écriture a abouti, les événements ne sont tout simplement pas écrits sur le canal).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,16 +15,16 @@ api_location:
 - strmiids.lib
 - strmiids.dll
 ms.openlocfilehash: 5e0f3ac58df4e74926d2163705261ffad4551e69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223404"
 ---
 # <a name="iamtimelinesrcmodifystoptime-method"></a>IAMTimelineSrc :: ModifyStopTime, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,7 +52,7 @@ Nouvelle heure d’arrêt, en unités de 100 nanosecondes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK ou E \_ INVALIDARG si l’heure spécifiée n’est pas valide.
 
@@ -66,11 +66,11 @@ Cette méthode équivaut à appeler [**IAMTimelineObj :: SetStartStop**](iamtim
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

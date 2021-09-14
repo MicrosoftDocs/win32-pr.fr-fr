@@ -4,12 +4,12 @@ ms.assetid: dea7c9aa-eba7-4b93-a4c5-9b2d36999780
 title: Message WM_SHOWWINDOW (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9b1952cff3db2dad62d7b22484680c3e4c4ff6070a0331c3d891ff2f764a062
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cbca6cbb4c73ff1cad31754b1b581e0c892970e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219761"
 ---
 # <a name="wm_showwindow-message"></a>\_Message ShowWindow WM
 
@@ -55,13 +55,13 @@ Indique si une fenêtre est affichée. Si *wParam* a la **valeur true**, la fen�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) masque ou affiche la fenêtre, comme spécifié par le message. Si une fenêtre a le style [**WS \_ visible**](window-styles.md) lors de sa création, la fenêtre reçoit ce message après sa création, mais avant son affichage. Une fenêtre reçoit également ce message lorsque son état de visibilité est modifié par la fonction [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) ou [**ShowOwnedPopups**](/windows/win32/api/winuser/nf-winuser-showownedpopups) .
 
@@ -70,7 +70,7 @@ Le message **WM \_ ShowWindow** n’est pas envoyé dans les circonstances suiva
 -   Quand une fenêtre de niveau supérieur, avec chevauchement est créée avec le style [**WS \_ Maximize**](window-styles.md) ou **WS \_ Minimize** .
 -   Lorsque l’indicateur **SW \_ SHOWNORMAL** est spécifié dans l’appel à la fonction [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -98,7 +98,7 @@ Le message **WM \_ ShowWindow** n’est pas envoyé dans les circonstances suiva
 [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

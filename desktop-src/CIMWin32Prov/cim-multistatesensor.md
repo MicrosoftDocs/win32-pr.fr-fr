@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bbe338ce63d63fbb1712e00a6c2645a1ded38f82a056633306d082a22a36b285
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f030059402eb6ec8b1412f8cab7cb2bc3194958
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119547919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223705"
 ---
 # <a name="cim_multistatesensor-class"></a>\_Classe CIM MultiStateSensor
 
@@ -94,7 +94,7 @@ La classe **CIM \_ MultiStateSensor** possède ces méthodes.
 
 | Méthode                                                                      | Description                                                                                                                              |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Initialisation**](reset-method-in-class-cim-multistatesensor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Réinitialiser**](reset-method-in-class-cim-multistatesensor.md)                 | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](setpowerstate-method-in-class-cim-multistatesensor.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -673,7 +673,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** (31)
 
 
 </dt> <dd>
@@ -1164,7 +1164,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ MultiStateSensor** est dérivée [**du \_ capteur CIM**](cim-sensor.md).
 
@@ -1172,7 +1172,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

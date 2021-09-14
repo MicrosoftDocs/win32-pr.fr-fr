@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6dda8deec60b1b2427f046f50ca843f68272ed26cb71470674137491ac2db1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34158d6f22710b1c9e87946624cbd0f1a00c53bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748846"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191760"
 ---
 # <a name="equalizersettingsenablesplinetension"></a>EQUALIZERSETTINGS.enableSplineTension
 
@@ -31,11 +31,11 @@ L’attribut **enableSplineTension** spécifie ou récupère une valeur indiquan
 
 Cet attribut est une valeur **booléenne** en lecture/écriture dont la valeur par défaut est true.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’activation de la tension spline permet à l’utilisateur d’ajuster les bandes passantes de l’égaliseur de manière plus fluide, afin qu’il n’y ait pas de sauts importants entre les niveaux de fréquence.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

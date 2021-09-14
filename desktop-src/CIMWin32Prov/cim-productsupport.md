@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a33efc39481ebe94b6aa8802d469e218d026aba34ab8da6cddf3f136b45a6d3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d1b39e1eef8f9686eee66c629120feaea51c778
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118421446"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223668"
 ---
 # <a name="cim_productsupport-class"></a>\_Classe CIM ProductSupport
 
@@ -70,7 +70,7 @@ Référence au produit.
 
 </dd> <dt>
 
-**Support technique**
+**Support**
 </dt> <dd> <dl> <dt>
 
 Type de données : **CIM \_ SupportAccess**
@@ -83,13 +83,13 @@ Référence au support technique.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3302d164-81ad-4198-a116-f967e7a14147
 title: Interfaces de document XPS OM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31dff84f7be5ab27f3819f087ddd1da057cb51522dd6ef9f8f3e38b4f93087de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7bc191c4c0b8ec5571331022321a8ae829587022
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120112099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220601"
 ---
 # <a name="xps-om-document-interfaces"></a>Interfaces de document XPS OM
 
@@ -22,8 +22,8 @@ Les interfaces de document fournissent l’accès aux composants de package XPS 
 | [**IXpsOMDocumentSequence**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence)<br/> | [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/>           | Représente un ensemble de documents qui sont liés ensemble dans une liste ordonnée.<br/> Les interfaces enfants sont collectées dans une interface [**IXpsOMDocumentCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection) .<br/>                                                                                                                                                                                                  |
 | [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)<br/>                 | [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference)<br/> | Représente une seule partie FixedDocument et lie la collection de références de page des pages dans un document.<br/> Les interfaces enfants sont collectées dans une interface [**IXpsOMPageReferenceCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereferencecollection) .<br/> La structure du document est exposée dans une interface [**IXpsOMDocumentStructureResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource) .<br/> |
 | [**IXpsOMPageReference**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference)<br/>       | [**IXpsOMPage**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage)<br/>                   | Version virtualisée légère d’une page dans le document. Une référence de page décrit les caractéristiques principales de la page (telles que ses dimensions), mais n’inclut pas le contenu de la page.<br/>                                                                                                                                                                                             |
-| [**IXpsOMNameCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection)<br/>     | Aucun<br/>                                               | Collection des objets de la page qui sont des cibles de lien hypertexte.<br/>                                                                                                                                                                                                                                                                                                                                     |
-| [**IXpsOMPartResources**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources)<br/>       | Aucun<br/>                                               | Collection des ressources de composant associées à une page.<br/>                                                                                                                                                                                                                                                                                                                                |
+| [**IXpsOMNameCollection**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection)<br/>     | None<br/>                                               | Collection des objets de la page qui sont des cibles de lien hypertexte.<br/>                                                                                                                                                                                                                                                                                                                                     |
+| [**IXpsOMPartResources**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources)<br/>       | None<br/>                                               | Collection des ressources de composant associées à une page.<br/>                                                                                                                                                                                                                                                                                                                                |
 
 
 

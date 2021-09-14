@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5acd0c6a09e3fc7bd9d068e27049329f3289a8ba1968ffae4592c7e07db9f2eb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7b2a3c625ad4ff02bed138a8086ca0da984de35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120088969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006822"
 ---
 # <a name="dtm_setsystemtime-message"></a>\_Message DTM SETSYSTEMTIME
 
@@ -54,11 +54,11 @@ Pointeur vers une structure [**SystemTime**](/windows/desktop/api/minwinbase/ns-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

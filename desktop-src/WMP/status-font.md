@@ -9,12 +9,12 @@ keywords:
 - affichage de l’État dans les apparences, les polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1dea59b7d8afb40fab628a774f348c787c05ba5d0c08eb65846aa8d9482a617
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c5a773f3baaeda0eaa90dfe0702957b5b7888271
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119507659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192236"
 ---
 # <a name="status-font"></a>Police d’État
 

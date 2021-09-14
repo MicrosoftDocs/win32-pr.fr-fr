@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cfea481a3f24aee808fffba9be91b1fecf63fce8a875dc056420a8f075b677d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e28aa890e15602376b9500243a89e8f0e3d3bb6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118656404"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006807"
 ---
 # <a name="cdynamicoutputpinm_hnotifycallerpinblockedevent-member"></a>CDynamicOutputPin :: m \_ hNotifyCallerPinBlockedEvent, membre
 
@@ -40,7 +40,7 @@ HANDLE m_hNotifyCallerPinBlockedEvent;
 
 Avant d’accéder à cette variable, maintenez la section critique [**CDynamicOutputPin :: m \_ BlockStateLock**](cdynamicoutputpin-m-blockstatelock.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

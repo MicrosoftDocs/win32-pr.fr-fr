@@ -21,11 +21,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: a2f7f38841248910bd23dd15b6cec06a638640d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192588"
 ---
 # <a name="apiretrievecolumnasboolean-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. RetrieveColumnAsBoolean (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -82,14 +82,14 @@ public static Nullable<bool> RetrieveColumnAsBoolean(
     
     ColumnID à récupérer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[Boolean](/dotnet/api/system.boolean)\>  
 Données extraites de la colonne sous la forme d’une valeur booléenne. NULL si la colonne est null.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

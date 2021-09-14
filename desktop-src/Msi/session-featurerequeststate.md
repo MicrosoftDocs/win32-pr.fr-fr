@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c1198f96dde27ec4056ad099f1bb4a3eed591fdd3d390c843cec42af82d4140e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1531157ab094d817d34650f8eae2ac6dc23c681c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007320"
 ---
 # <a name="sessionfeaturerequeststate-property"></a>Session. FeatureRequestState, propriété
 
@@ -40,7 +40,7 @@ Session.FeatureRequestState = propVal
 
 Chaîne obligatoire qui spécifie le nom de la fonctionnalité à configurer. Pour définir l’état de la demande de toutes les fonctionnalités, utilisez le mot réservé ne respectant pas la casse : ALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**SetInstallLevel**](session-setinstalllevel.md) doit être appelée avant d’appeler **FeatureRequestState**.
 
@@ -101,7 +101,7 @@ Si plusieurs fonctionnalités sont liées à un seul composant, l’état d’ac
 
 Si la propriété échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

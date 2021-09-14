@@ -8,12 +8,12 @@ keywords:
 - flux d’images, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1ce58fe3da709772b08d0956f3f5540713f7960742338f73c9d9807ad1a1e40
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 24b05a21474143e227257dad240ff4d4464732ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117848964"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219628"
 ---
 # <a name="configuring-image-streams"></a>Configuration de l’image Flux
 

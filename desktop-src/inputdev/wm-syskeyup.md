@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e35a0267d29e473a3c2e5a6a00a0635a466f46c2917b913c3950aa6567e3cd9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2139c11558eccc3fb3b225f0cc1a87bcf6fb084d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119829859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192136"
 ---
 # <a name="wm_syskeyup-message"></a>\_Message WM SYSKEYUP
 
@@ -66,11 +66,11 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) envoie un message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) à la fenêtre de niveau supérieur si la touche F10 ou la touche Alt a été relâchée. Le paramètre *wParam* du message est défini sur **SC \_ keymenu**.
 
@@ -93,11 +93,11 @@ Pour les non-U. S. clavier amélioré 102 touches, la touche ALT de droite est g
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                     |
@@ -124,7 +124,7 @@ Pour les non-U. S. clavier amélioré 102 touches, la touche ALT de droite est g
 [**\_SYSKEYDOWN WM**](wm-syskeydown.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée au clavier](keyboard-input.md)

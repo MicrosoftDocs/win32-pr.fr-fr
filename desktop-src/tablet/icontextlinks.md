@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 44eb7117fe3b01b3e31829222c6ab3f601d5bbbec8ea0591a9f80d087dcaee22
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b68563aad471a5420b1157e1c5c12d26da17b11d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220212"
 ---
 # <a name="icontextlinks-interface"></a>Interface IContextLinks
 
@@ -45,11 +45,11 @@ L’interface **IContextLinks** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est généralement accessible par le biais de la méthode [**IContextNode :: GetContextLinks**](icontextnode-getcontextlinks.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

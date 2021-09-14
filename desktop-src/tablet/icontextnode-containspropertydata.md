@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 7bf840b921461f7b767d622a3daecd7b9d3dc3ad8d93b90b7b1f8cfa4d101af8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc45e1ebe519e5988ad73e1481c68e9e9811ba04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118044850"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220201"
 ---
 # <a name="icontextnodecontainspropertydata-method"></a>IContextNode :: ContainsPropertyData, méthode
 
@@ -54,15 +54,15 @@ Identificateur des données.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Outre les données spécifiques à l’application, vous pouvez également utiliser cette méthode pour déterminer si ce [**IContextNode**](icontextnode.md) contient d’autres données internes (voir Propriétés de l' [indicateur d’analyse](analysis-hint-properties.md) et propriétés du nœud de [contexte](context-node-properties.md)).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

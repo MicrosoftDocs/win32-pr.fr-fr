@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03d2c7214f9cfb89b8efcb612f3bc07840448ff0eaf1b064556d2797b74d4822
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74a7b9ca8c8016cca5a78f2e7fe753f00398193e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006999"
 ---
 # <a name="enablestatic-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableStatic de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -61,7 +61,7 @@ Exemple : 255.255.0.0.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et tout autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -423,7 +423,7 @@ Verrou d’écriture non activé. Pour plus d’informations, consultez [**INetC
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous utilisez **EnableStatic** pour modifier l’adresse IP de l’ordinateur distant, tout en étant connecté via cet adaptateur, vous risquez de perdre la connexion à l’ordinateur distant et de recevoir un message d’erreur RPC non disponible-. (Toutefois, les paramètres sont modifiés). Pour éviter ce scénario, envisagez de modifier la passerelle et/ou les paramètres DNS avant de définir l’adresse IP de la carte.
 
@@ -501,7 +501,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

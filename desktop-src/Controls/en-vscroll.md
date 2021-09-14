@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c716ecb36c0d27b445446a30eb0a026edf3fd88641f469e50daef1763cd6ca66
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de1f99b9ea05d037b5c00562a24bda1e434ce08d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120047379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006305"
 ---
 # <a name="en_vscroll-notification-code"></a>\_Code de notification en VSCROLL
 
@@ -53,7 +53,7 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est envoyé pour les événements de souris suivants sur la barre de défilement verticale : cliquez sur le bouton fléché ou cliquez entre le bouton fléché et le curseur. Toutefois, le message n’est pas envoyé quand vous cliquez sur la souris de la barre de défilement. Le message est également envoyé lorsqu’un événement de clavier provoque une modification dans la zone d’affichage du contrôle d’édition, par exemple en appuyant sur origine, fin, PAGE précédente, PAGE suivante, flèche haut ou flèche bas.
 
@@ -61,7 +61,7 @@ La roulette de la souris est une souris dotée d’une roulette centrale qui dé
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour recevoir \_ les codes de notification en VSCROLL, spécifiez [**ENM \_ faites défiler**](rich-edit-control-event-mask-flags.md) le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) . Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -83,7 +83,7 @@ La roulette de la souris est une souris dotée d’une roulette centrale qui dé
 [en \_ HSCROLL](en-hscroll.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Utilisation des contrôles d’édition](using-edit-controls.md)

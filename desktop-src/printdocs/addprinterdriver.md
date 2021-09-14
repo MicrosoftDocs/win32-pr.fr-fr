@@ -16,11 +16,11 @@ api_type:
 api_location:
 - Winspool.drv
 ms.openlocfilehash: de5a9e9d16a47dfe8b9620edc9acdc5c5fd4d552
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757858"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220673"
 ---
 # <a name="addprinterdriver-function"></a>AddPrinterDriver fonction)
 
@@ -91,7 +91,7 @@ Si le membre **pEnvironment** de la structure vers laquelle pointe *PDriverInfo*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 
@@ -110,7 +110,7 @@ Avant qu’une application appelle la fonction **AddPrinterDriver** , tous les f
 
 Une application peut déterminer les pilotes d’imprimante actuellement installés en appelant la fonction [**EnumPrinterDrivers**](enumprinterdrivers.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

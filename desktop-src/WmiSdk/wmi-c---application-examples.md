@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Exemples d’applications WMI C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53160abc6b63e1a7c0b4122e1b068d8e13df6435da75fa9f54e72607ed441daa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 883b51bd00de5e3938fef8467c68d299ac60683a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119757589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192608"
 ---
 # <a name="wmi-c-application-examples"></a>Exemples d’applications WMI C++
 

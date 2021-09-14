@@ -1,5 +1,5 @@
 ---
-description: Découvrez les meilleures pratiques pour les gestionnaires de menus contextuels et plusieurs verbes quand vous implémentez un format de fichier personnalisé dans le shell Windows.
+description: découvrez les meilleures pratiques pour les gestionnaires de menus contextuels et plusieurs verbes quand vous implémentez un format de fichier personnalisé dans le Shell Windows.
 title: Meilleures pratiques pour les gestionnaires de menus contextuels et les verbes multiples
 ms.topic: article
 ms.date: 05/31/2018
@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 14ec2e8915aa1df47ca21c6436ec963be3f590f5
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220321"
 ---
 # <a name="best-practices-for-shortcut-menu-handlers-and-multiple-verbs"></a>Meilleures pratiques pour les gestionnaires de menus contextuels et les verbes multiples
 
@@ -55,7 +55,7 @@ La liste suivante représente les meilleures pratiques pour les implémentations
 
 Étant donné que le nombre d’éléments dans un scénario de verbe à sélection multiple peut être important, il est important de prendre en compte les implications en matière de performances de vos implémentations de verbe. Par exemple, lorsqu’un utilisateur recherche « \* » sur une étendue qui comprend un grand nombre d’éléments, puis clique sur **Sélectionner tout** et clique avec le bouton droit, une sélection pouvant contenir des milliers d’éléments est présentée au verbe. Par conséquent, les verbes doivent uniquement prendre en compte le premier élément de la sélection et le nombre total d’éléments. Le premier élément est défini comme l’élément en haut de la vue, ou l’élément sur lequel l’utilisateur a cliqué pour la première fois avec le bouton droit.
 
-Dans Windows 7 et versions ultérieures, le nombre d’éléments passés à un verbe est limité à 16 quand un menu contextuel est interrogé. Le verbe est ensuite recréé et réinitialisé avec la sélection complète lorsque ce verbe est appelé.
+dans Windows 7 et versions ultérieures, le nombre d’éléments passés à un verbe est limité à 16 quand un menu contextuel est interrogé. Le verbe est ensuite recréé et réinitialisé avec la sélection complète lorsque ce verbe est appelé.
 
 Dans certains cas, il convient de prendre en compte un petit nombre d’éléments fixes. Par exemple, il est approprié pour un verbe « diff » de considérer uniquement les deux premiers éléments. En règle générale, vous n’avez pas besoin de tester chaque élément de la sélection pour voir s’il s’agit d’un certain type, ou d’interroger chaque élément de la sélection pour ses propriétés. Regardez plutôt le premier élément et déterminez s’il convient d’ajouter votre verbe.
 

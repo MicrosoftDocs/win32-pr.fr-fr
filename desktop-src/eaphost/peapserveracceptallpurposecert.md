@@ -4,12 +4,12 @@ description: La clé de Registre PeapServerAcceptAllPurposeCert détermine si le
 ms.assetid: 59C58459-7735-4733-9F95-646864802D70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d568ef2cf3e7fd5eeeaa650e5e6e4fd32a8e1c8d6baa0ed91434a5c0aa60ee0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b291696c6bee90b4f980d8f96ad96faf40fe3376
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191612"
 ---
 # <a name="peapserveracceptallpurposecert"></a>PeapServerAcceptAllPurposeCert
 
@@ -22,7 +22,7 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
    PeapServerAcceptAllPurposeCert = value
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 

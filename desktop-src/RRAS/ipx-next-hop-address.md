@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8abbb67f916960d015b26337734ffcff6f8e6551ab664bd4f4cc0d7511630a7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99c3eb135f1d87050cd190fe47d0088fd1ab86f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117790757"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222489"
 ---
 # <a name="ipx_next_hop_address-structure"></a>\_Structure d' \_ adresse de tronçon suivant IPX \_
 
@@ -50,7 +50,7 @@ Spécifie l’adresse MAC du routeur du tronçon suivant.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 39725fc4e4f5c9f02dcd092fddba632262c3b8a0aa85e27afd7df1afb9bb314c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f150ca0fafff6b250776a38b7ec68beb470e9d6d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006609"
 ---
 # <a name="iamtimelinegetdefaulttransitionb-method"></a>IAMTimeline :: GetDefaultTransitionB, méthode
 
@@ -52,11 +52,11 @@ Reçoit une valeur **BSTR** représentant le GUID de la transition par défaut.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode alloue de la mémoire pour la chaîne. L’application doit appeler **SysFreeString** pour libérer la mémoire.
 
@@ -70,7 +70,7 @@ La méthode alloue de la mémoire pour la chaîne. L’application doit appeler 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

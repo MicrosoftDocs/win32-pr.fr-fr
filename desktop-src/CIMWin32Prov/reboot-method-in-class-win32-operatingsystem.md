@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 700d497650e8950c72467bbad8e11cf450b2302f0b68ef762e8a11e3c6aaceee
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c4577f708d2f7ec7416ab3455da91b4e35fa079a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119752729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006966"
 ---
 # <a name="reboot-method-of-the-win32_operatingsystem-class"></a>Méthode reboot de la \_ classe Win32 OperatingSystem
 
@@ -40,7 +40,7 @@ uint32 Reboot();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nombre indique une erreur. Pour les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -52,7 +52,7 @@ Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nomb
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La possibilité de redémarrer un ordinateur par programme permet aux administrateurs d’effectuer de nombreuses tâches de gestion d’ordinateur à distance.
 
@@ -175,7 +175,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

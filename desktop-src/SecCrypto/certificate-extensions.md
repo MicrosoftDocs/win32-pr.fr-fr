@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e700fda2fb99e0ea0a3dfd8690fdfedbdeecb21bc84bfdb08cbf1f179536cbef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc96dee9c33bb3f76e1fb17acb2000f9740d1b5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117771611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222185"
 ---
 # <a name="icertificate2extensions-method"></a>ICertificate2 :: extensions, méthode
 
@@ -40,11 +40,11 @@ Certificate.Extensions()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet d' [**Extensions**](extensions.md) qui représente toutes les extensions associées au certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

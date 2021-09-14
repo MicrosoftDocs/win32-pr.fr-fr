@@ -5,11 +5,11 @@ ms.assetid: bafef0c1-f78e-424a-9ed0-07764a60b22d
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 45ce91a795815148f442c19530a552cf7c843332
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106512530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193032"
 ---
 # <a name="drag-source-responsibilities"></a>Faire glisser les responsabilités source
 
@@ -31,6 +31,6 @@ Pendant qu’une opération glisser est en cours, la source de glissement est ch
 [Glisser-déposer](drag-and-drop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

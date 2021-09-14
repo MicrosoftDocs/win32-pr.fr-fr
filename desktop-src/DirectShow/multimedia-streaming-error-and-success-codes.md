@@ -4,12 +4,12 @@ ms.assetid: 3b7a11d2-55b9-4505-8eb2-46be423c662b
 title: Codes d’erreur et de réussite du streaming multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d1a943ed4d41acd712ad19680e896df33b3afe2ed733bad86a129e2993e6ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c54a185b46134f4603c7adea0f1b4467da3a2cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118952198"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223321"
 ---
 # <a name="multimedia-streaming-error-and-success-codes"></a>Codes d’erreur et de réussite du streaming multimédia
 

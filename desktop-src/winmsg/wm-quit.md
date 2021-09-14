@@ -4,12 +4,12 @@ ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
 title: Message WM_QUIT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26f6b999ff23d964c1998fe1cc2a9991e11ecfe71760800b1d678e2f71b89273
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f8e0d7413d65e9a0fb451fe63504f2ed5be02064
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119881519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219772"
 ---
 # <a name="wm_quit-message"></a>\_Message WM Quit
 
@@ -40,19 +40,19 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Ce message n’a pas de valeur de retour, car il provoque l’arrêt de la boucle de message avant que le message ne soit envoyé à la procédure de fenêtre de l’application.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **WM \_ Quit** n’est pas associé à une fenêtre et ne sera donc jamais reçu via la procédure de fenêtre d’une fenêtre. Elle est extraite uniquement par les fonctions [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) ou [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) .
 
 Ne publiez pas le message **WM \_ Quit** à l’aide de la fonction [**PostMessage**](/windows/win32/api/winuser/nf-winuser-postmessagea) ; utilisez [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -80,7 +80,7 @@ Ne publiez pas le message **WM \_ Quit** à l’aide de la fonction [**PostMessa
 [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

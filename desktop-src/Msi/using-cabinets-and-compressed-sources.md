@@ -4,12 +4,12 @@ ms.assetid: 3b7523e5-7000-4211-8040-8f4980885ca7
 title: Utilisation d’armoires et de sources compressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c2388fa04647340a133b6dc64b879926f55e599e126b507cdc7c8edac547db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee7371f8f389c2efcf1ba8ac755b6b3f749ee430
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119527279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223004"
 ---
 # <a name="using-cabinets-and-compressed-sources"></a>Utilisation d’armoires et de sources compressées
 

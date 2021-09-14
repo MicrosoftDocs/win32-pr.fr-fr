@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dec73f0c691c7c644ead6456cc76fb1758202497ffcd968893780b2f0f61f93b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1324e9e2641e5e05bc3b0429ee269098c13d4bae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118403458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223617"
 ---
 # <a name="cbaseinputpininactive-method"></a>CBaseInputPin. inactive, méthode
 
@@ -40,7 +40,7 @@ HRESULT Inactive();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -55,13 +55,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CBasePin :: inactive**](cbasepin-inactive.md) . Elle appelle la méthode [**IMemAllocator ::D ecommit**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-decommit) pour désallouer l’allocateur de mémoire.
 
 Si vous substituez cette méthode, appelez la méthode de la classe de base à partir de votre méthode de substitution.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

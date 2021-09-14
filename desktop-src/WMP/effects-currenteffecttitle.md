@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a4cb48d92f7f4ad0eb801c90e46ad20f04a639b20550a1dbf910e93347e2429
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 348d8ae1eed421d9e5da594f34a9b10f5b439469
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192779"
 ---
 # <a name="effectscurrenteffecttitle"></a>EFFECTs. currentEffectTitle
 
@@ -31,7 +31,7 @@ L’attribut **currentEffectTitle** récupère le titre d’affichage de la visu
 
 Cet attribut est une **chaîne** en lecture seule.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

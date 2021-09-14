@@ -6,11 +6,11 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/19/2019
 ms.openlocfilehash: 795ecaf464728388c33f55655ff81d29068956ca
-ms.sourcegitcommit: 9942a888f172981e276def0c6b84fb0266fcb02d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "123399805"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191676"
 ---
 # <a name="use-dred-to-diagnose-gpu-faults"></a>Utiliser ordinateur pour diagnostiquer les erreurs GPU
 ORDINATEUR correspond aux données étendues supprimées de l’appareil. ORDINATEUR est un ensemble évolutif de fonctionnalités de diagnostic conçues pour vous aider à identifier la cause des erreurs de suppression de périphérique inattendues. Sur le matériel qui prend en charge les fonctionnalités nécessaires (comme indiqué ci-dessous), ordinateur fournit des plans de navigation automatiques et des rapports de défaillance de page GPU.

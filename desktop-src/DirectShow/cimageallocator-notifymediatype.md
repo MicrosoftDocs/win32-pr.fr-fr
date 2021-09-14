@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de8630d4189ccbbf0d90b402ebeda6b785192c098aaa1e6d29c8c2a2dac2a3d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb9261884b8940b571876502741fcc52e1c40a33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119688319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239172"
 ---
 # <a name="cimageallocatornotifymediatype-method"></a>Méthode CImageAllocator. NotifyMediaType
 
@@ -49,7 +49,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) , ou **null** pour efface
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 060ff0cc10fed441fdb2d6f2bf1bd0e66f3e8b9facec3cb52d8f270b350b1f4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a39aa79e9311fe3491d0925fdc1b2dd3b1cc65c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117817700"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006599"
 ---
 # <a name="isamplegrabbersetmediatype-method"></a>ISampleGrabber :: SetMediaType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, l’exemple de la accroche n’a pas de type de média préféré. Pour vous assurer que l’exemple d’accroche se connecte au filtre correct, appelez cette méthode avant de générer le graphique de filtre.
 
@@ -92,7 +92,7 @@ Exemple 2 :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

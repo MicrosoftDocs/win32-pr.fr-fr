@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 5990b247757fc8e3cd39ab38edf5b88ca8ac62f74e402aac3899d51e3156231f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5ee7c500ba3818cad0f5ee74e9994ed8af049ea0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119437589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006405"
 ---
 # <a name="em_setendofline-message"></a>\_Message SETENDOFLINE em
 
@@ -51,17 +51,17 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque le jeu de caractères de fin de ligne est **EC \_ ENDOFLINE \_ DETECTFROMCONTENT**, le contrôle d’édition détecte uniquement les caractères de fin de ligne pris en charge en fonction de son style de fenêtre étendu. consultez [modifier les styles étendus de contrôle](edit-control-window-extended-styles.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

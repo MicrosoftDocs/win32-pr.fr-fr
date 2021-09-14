@@ -4,12 +4,12 @@ ms.assetid: 9a6dccf5-ae00-4ee0-8df3-bf817fe1a164
 title: Attribut muet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d89632e632ec4dbf0fe76a915e073baa769044fa1eaad455c16dd3065dc1c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f4e43feb16d75312cedd0caf5c217af2dd71332
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119791039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223252"
 ---
 # <a name="mute-attribute"></a>Attribut muet
 

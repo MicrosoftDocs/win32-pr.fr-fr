@@ -4,12 +4,12 @@ ms.assetid: b2c43763-799c-4f09-b9f8-47a4a5f4faf3
 title: Attribut de contrôle Progress95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a0e6fa8f2c0cd0e1622db4bb406d3ada1b63229e92b60a35e915bf0dacc72fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df2242dde671484274be946802ba4fd4c1cfd687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118627348"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009753"
 ---
 # <a name="progress95-control-attribute"></a>Attribut de contrôle Progress95
 
@@ -31,7 +31,7 @@ Si ce bit est défini sur un [contrôle ProgressBar](progressbar-control.md), la
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour définir cet attribut sur un contrôle, incluez le bit Progress95 dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

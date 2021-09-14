@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a07a8894e237be24a4c7b49e8491278ffb9e9ea82109fee00c27fc4eb9d5fcb5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2094101ab0cbbbc769194793273bf080cfe52818
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119506789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223753"
 ---
 # <a name="cim_memoryoncard-class"></a>\_Classe CIM MemoryOnCard
 
@@ -106,7 +106,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ MemoryOnCard** est dérivée de [**CIM \_ PackagedComponent**](cim-packagedcomponent.md).
 
@@ -114,7 +114,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

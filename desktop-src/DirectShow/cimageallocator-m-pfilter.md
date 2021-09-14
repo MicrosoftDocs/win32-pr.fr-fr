@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f68e87c58c66ab6d1a910bbf8f7e4f7d91b71e7f11756d6b1d089eee24d95b56
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f62a7e9ce7a9449072cfdd318330f5bfae0bbb16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402666"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239190"
 ---
 # <a name="cimageallocatorm_pfilter-member"></a>CImageAllocator :: m \_ pFilter, membre
 
@@ -36,7 +36,7 @@ CBaseFilter *m_pFilter;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

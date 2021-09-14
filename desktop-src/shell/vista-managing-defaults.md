@@ -4,12 +4,12 @@ ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Gestion des applications par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2970034b11e497ac79faafaef352faab1ba56e0c45fee664e576e386f70ef95f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc146858d197b96229edda49ac2e7249db51bf4c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117675378"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220308"
 ---
 # <a name="managing-default-applications"></a>Gestion des applications par défaut
 

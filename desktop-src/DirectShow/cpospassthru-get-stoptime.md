@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ea233d7e3a148088edd0f6963f45aeb0b483b41317481a95733fdc73c242027d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 227b054a9737c06e56f7311acc7e0093766608b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006699"
 ---
 # <a name="cpospassthruget_stoptime-method"></a>Méthode CPosPassThru. obten \_ StopTime
 
@@ -49,11 +49,11 @@ Pointeur vers une variable qui reçoit le temps d’arrêt, en secondes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur **HRESULT** de la broche connectée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 53c56e62cb85f09a3846c6d95d723b9fa05d95a7
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239802"
 ---
 # <a name="drv_open-message"></a>DRV \_ message ouvert
 
@@ -65,7 +65,7 @@ Retourne une valeur différente de zéro en cas de réussite ou zéro dans le ca
 
 Si le pilote retourne une valeur différente de zéro, le système utilise cette valeur comme identificateur de pilote (le paramètre *dwDriverId* ) dans les messages qu’il envoie par la suite à l’instance du pilote. Le pilote peut retourner n’importe quel type de valeur comme identificateur. Par exemple, certains pilotes retournent des adresses mémoire qui pointent vers des informations spécifiques à l’instance. L’utilisation de cette méthode de spécification des identificateurs pour une instance de pilote permet aux pilotes d’accéder aux informations pendant qu’ils traitent des messages.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

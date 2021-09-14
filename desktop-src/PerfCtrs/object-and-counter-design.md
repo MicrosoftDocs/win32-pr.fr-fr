@@ -4,12 +4,12 @@ ms.assetid: 97b9c9ec-e758-4928-b3fa-90d220bca5fb
 title: Conception d’objets et de compteurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb925c30fa285e3517d8d2ad777b12e60dc9c3cdb1fbd524974150c867a5e6ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9556882f5dd6c323697d9d41fa80727895550a5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143982"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007182"
 ---
 # <a name="object-and-counter-design"></a>Conception d’objets et de compteurs
 

@@ -4,12 +4,12 @@ description: Décrit comment utiliser les API WIC.
 ms.assetid: ed7987f0-5983-4bb5-8640-0830a87c8f2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6ea9412cb0d75b8258a68a16c2eb2ebc706e1e6a2311267ff1265e47d803456
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0bb6675ef7f5c065d2d3e00ab470cb334af25525
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119441778"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219924"
 ---
 # <a name="wic-programming-guide"></a>Guide de programmation WIC
 

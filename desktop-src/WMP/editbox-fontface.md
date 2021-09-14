@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3994c9cef1f645dc9c1129876b9144471caf9f608f5911641b180deae437194
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49c5794da93821db840a48facbba45540da9249a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191808"
 ---
 # <a name="editboxfontface"></a>EDITBOX. fontFace
 
@@ -31,13 +31,13 @@ L’attribut **fontFace** spécifie ou récupère la police du texte dans le con
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut peut être le nom de toute police valide disponible dans Windows. Lecteur Windows Media ne prend pas en charge l’installation de polices, vous devez choisir une police sur le système souhaité.
 
 si le **fontFace** spécifié n’est pas disponible sur le système de l’utilisateur, le contrôle de zone d’édition est défini par défaut sur la police système Windows. La valeur par défaut pour les systèmes en langue anglaise est « Tahoma ». Pour les systèmes internationaux, la valeur par défaut est chargée à partir d’un fichier de ressources.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

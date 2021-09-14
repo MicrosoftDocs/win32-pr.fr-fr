@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 054cb165a7c59f91bf7df31561a8a5c24a25b2a0acda39d4cb5f35791f30ea25
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a32a3ee275c32dde7d9f1484aa99dddeaf97a2e9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119973379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239411"
 ---
 # <a name="win32_logicaldisktopartition-class"></a>\_Classe LogicalDiskToPartition Win32
 

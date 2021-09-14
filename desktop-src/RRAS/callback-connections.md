@@ -4,12 +4,12 @@ description: RAS prend en charge les connexions dans lesquelles le serveur dista
 ms.assetid: 25f0e84d-8900-4efe-b07d-59f25186c976
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b72d10285c6920befe7a508bf69ef1e5d21c19e8632534f94dd8ccb9a0ed1743
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9aabe3bf5503f16d7d27e44e02dc19ccb2a6f2e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007064"
 ---
 # <a name="callback-connections"></a>Connexions de rappel
 

@@ -12,11 +12,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 35c6b6d747009df035e3911c2823e99e9436195e
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124368639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007263"
 ---
 # <a name="audio-mixer-custom-controls"></a>contrôles Audio Mixer personnalisés
 

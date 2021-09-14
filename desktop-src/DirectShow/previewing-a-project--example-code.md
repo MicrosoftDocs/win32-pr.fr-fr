@@ -4,12 +4,12 @@ ms.assetid: 8a4af82a-5611-4c53-8de8-04eaefd51df9
 title: 'aperçu d’un Project : exemple de Code'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d98a47970a333ed27e249bddc81ba6fb4fb6e2c706fdfa2dda7c29f886e74022
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c5527fd93d0f05d5388739cc936e4a4dd203e18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119583569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223180"
 ---
 # <a name="previewing-a-project-example-code"></a>aperçu d’un Project : exemple de Code
 

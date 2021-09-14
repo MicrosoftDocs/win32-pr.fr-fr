@@ -4,12 +4,12 @@ ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 024f8330e2aa5402fac76192928afd8064b4ff456fd37adab5d8e0e7d3d785d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d170b94a8a1b6a33345ff06eb051740e179aaca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119460139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220577"
 ---
 # <a name="contact"></a>Contact
 
@@ -103,7 +103,7 @@ ms.locfileid: "119460139"
 | [System. contact. HomeFaxNumber](./props-system-contact-homefaxnumber.md)<br/>                                | Numéro de télécopie du contact.<br/>                                                                     |
 | [System. contact. HomeTelephone](./props-system-contact-hometelephone.md)<br/>                                | Numéro de téléphone du contact.<br/>                                                               |
 | [System. contact. imadresse](./props-system-contact-imaddress.md)<br/>                                        | Adresse de messagerie instantanée du contact.<br/>                                                           |
-| [System.Contact.Initials](./props-system-contact-initials.md)<br/>                                          | Initiales du contact.<br/>                                                                            |
+| [System. contact. Initials](./props-system-contact-initials.md)<br/>                                          | Initiales du contact.<br/>                                                                            |
 | [System. contact. JA. CompanyNamePhonetic](./props-system-contact-ja-companynamephonetic.md)<br/>              | Prononciation du nom de la société du contact. <br/>                                                      |
 | [System. contact. JA. FirstNamePhonetic](./props-system-contact-ja-firstnamephonetic.md)<br/>                  | Prononciation du prénom.<br/>                                                                   |
 | [System. contact. JA. LastNamePhonetic](./props-system-contact-ja-lastnamephonetic.md)<br/>                    | Prononciation du nom de famille.<br/>                                                                    |

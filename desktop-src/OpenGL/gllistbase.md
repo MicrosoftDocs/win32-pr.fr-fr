@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ba7cbe7b179184efa739ac3492f4e74b36f56abe0f02498a0e1a688b85183a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c46af03477afc1b656df3a321fd8aa652b034b35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118938516"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222612"
 ---
 # <a name="gllistbase-function"></a>glListBase fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction **glListBase** spécifie un tableau d’offsets. Les noms d’affichage de liste sont générés par l’ajout de *base* à chaque décalage. Les noms qui référencent des listes d’affichage valides sont exécutés ; d’autres sont ignorées.
 
@@ -71,7 +71,7 @@ La fonction suivante récupère des informations relatives à **glListBase**:
 
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) avec argument GL \_ List \_ base
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

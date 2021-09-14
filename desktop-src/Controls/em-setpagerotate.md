@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b243b521d318f16952000d17b6cd94a4806e43cf0d9099228a88aeb0def72dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12eb595456bca444c92b536b0e428ee56a5903ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119079103"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006369"
 ---
 # <a name="em_setpagerotate-message"></a>\_Message SETPAGEROTATE em
 
@@ -59,15 +59,15 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la nouvelle valeur de disposition du texte.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message définit la disposition du texte pour l’ensemble du document. Toutefois, le contenu incorporé n’est pas pivoté et doit être pivoté séparément par l’application.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3ef3f84cce1bad88b0f1103be3584ff350afac0fd7047b5a75a5fb473a4bedcf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f93e3227051729f9d16e1f9ef8de464a14cca33b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118156987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006762"
 ---
 # <a name="cmediaeventgettypeinfo-method"></a>Méthode CMediaEvent. GetTypeInfo
 
@@ -65,11 +65,11 @@ Adresse d’un pointeur vers l’objet d’informations de type demandé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un \_ pointeur E si *ppTInfo* n’est pas valide. Retourne le TYPE \_ E \_ ELEMENTNOTFOUND si *iTInfo* n’est pas égal à zéro. Retourne S \_ OK si réussit. Sinon, retourne un **HRESULT** de l’un des appels pour récupérer le type.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

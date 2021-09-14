@@ -4,12 +4,12 @@ ms.assetid: 50e6d1c5-2a3f-4e96-8b2c-57e2259d69e9
 title: Diffusion multimédia en continu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0f18ac2cc5e78ae7d82b875560f13c5b9418cf47b3f9fc8cbeccccbb14e958
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 318e545d816fafc92634a9b31c53032d708513cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223257"
 ---
 # <a name="multimedia-streaming"></a>Diffusion multimédia en continu
 

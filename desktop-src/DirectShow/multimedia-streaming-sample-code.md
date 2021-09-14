@@ -4,12 +4,12 @@ ms.assetid: 3fe2996b-b4de-40ad-bd02-d850a45f3a2c
 title: Exemple de code de streaming multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f720aedbfe815902d9ec935e00e6ff3f79bb67ce5129911a1ad73fc1eb3018e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2035e7d8038adeae19cd847801ec4c23e97485c6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072953"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223284"
 ---
 # <a name="multimedia-streaming-sample-code"></a>Exemple de code de streaming multimédia
 

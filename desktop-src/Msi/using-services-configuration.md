@@ -4,12 +4,12 @@ ms.assetid: 164280b2-1c75-49d2-ac04-c3654be84134
 title: Utilisation de la configuration des services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ebe1e34cce317ee00c3cc9d6ee4aac449e500499dc2dee4e97df65ba91bca2a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f6e3040d51b1056a370490fc5328a6bafe07555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119012703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222908"
 ---
 # <a name="using-services-configuration"></a>Utilisation de la configuration des services
 

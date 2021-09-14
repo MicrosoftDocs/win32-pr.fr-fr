@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 543692bf2b4bc41dd02e62f7d82ff3d0c2f9d4e8c6d0ebab50fcba7146dfab68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2155e7ca133840cf5d6159ed30051c83cf71bed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119649749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191735"
 ---
 # <a name="externalappcolordark"></a>External. appColorDark
 
@@ -39,11 +39,11 @@ window.external.appColorDark
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

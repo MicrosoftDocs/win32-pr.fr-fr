@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a63a7246e730f73bd6d6f27111112a3db2029e3b53c80569e2e013771da6708
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d22ecc0f39b03201809877fe8ebc667d62e16d0b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118581519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192104"
 ---
 # <a name="axwindowsmediaplayerwindowlessvideo-property"></a>AxWindowsMediaPlayer. windowlessVideo, propriété
 
@@ -56,7 +56,7 @@ dans Windows Vista, le rendu de la vidéo en mode sans fenêtre peut dégrader l
 
 L’obtention d’une valeur pour cette propriété n’est pas prise en charge pour Netscape Navigator. La définition d’une valeur pour cette propriété dans Netscape Navigator peut donner des résultats inattendus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

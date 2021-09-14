@@ -4,12 +4,12 @@ ms.assetid: a3a598b2-5623-4472-a814-620c6a003a7e
 title: Récupération de données de compteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19109aac1a4b661e08be7f70418d19355649a0b4fb04e4a9d39fac610068cea3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f932408471b23dd413a3b8cece63d533b1ba5426
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119962299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007174"
 ---
 # <a name="retrieving-counter-data"></a>Récupération de données de compteur
 

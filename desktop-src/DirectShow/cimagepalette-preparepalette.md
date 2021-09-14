@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5cc0abd9847c535ca9851355a593bdbd3495b594669e326c73a0bf986b8f75e6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a9b09804b2ee6ad9fbda394a7fb8f9f188b46453
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239154"
 ---
 # <a name="cimagepalettepreparepalette-method"></a>Méthode CImagePalette. PreparePalette
 
@@ -65,11 +65,11 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ si la palette a été mise à jour ou \_ false si elle n’a pas changé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la palette doit être mise à jour, cette méthode effectue les actions suivantes :
 
@@ -78,7 +78,7 @@ Si la palette doit être mise à jour, cette méthode effectue les actions suiva
 -   Appelle [**CBaseWindow :: SetPalette**](cbasewindow-setpalette.md) sur l’objet **CBaseWindow** .
 -   Appelle [**CDrawImage :: IncrementPaletteVersion**](cdrawimage-incrementpaletteversion.md) sur l’objet **CDrawImage** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

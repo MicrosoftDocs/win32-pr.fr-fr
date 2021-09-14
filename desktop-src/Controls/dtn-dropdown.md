@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba6c583de68b8a92c8d93990bce84787fa061ec5422ea2c6b32a6a3942b766ef
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 101a25a8e2da09b9f4065a54fcff9896690adbb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119877679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006818"
 ---
 # <a name="dtn_dropdown-notification-code"></a>\_Code de notification de liste déroulante DTN
 
@@ -45,17 +45,17 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’une des tâches que votre gestionnaire de notification peut avoir à effectuer consiste à personnaliser le contrôle de mois-calendrier déroulant. Par exemple, si vous ne souhaitez pas « atteindre aujourd’hui », vous devez définir le style [**MCS \_ notoday**](month-calendar-control-styles.md)  du contrôle. Pour récupérer un handle pour le contrôle Month-Calendar, envoyez au contrôle de PAO un message [**DTM \_ GETMONTHCAL**](dtm-getmonthcal.md) . Vous pouvez ensuite utiliser ce handle et [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) pour définir le style Month-Calendar souhaité.
 
 Les contrôles de PAO ne maintiennent pas un contrôle Month Calendar enfant statique. Le contrôle PAO crée un nouveau contrôle Month Calendar avant d’envoyer ce code de notification. En outre, le contrôle de PAO détruit le contrôle enfant lorsqu’il n’est pas actif (visible). Par conséquent, votre application ne doit pas s’appuyer sur un handle de fenêtre statique pour le calendrier de mois enfant du contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

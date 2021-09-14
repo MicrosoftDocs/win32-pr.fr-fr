@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofileui.h
-ms.openlocfilehash: a2003471a151677b5f0fbd9ae88e9d3cf8d975525a9dbf8340c6fc1a9f2befc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bc8707378f1debc322fea258ceb8aad0c6400ea0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118965808"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219980"
 ---
 # <a name="iscanprofileuiscanprofiledialog-method"></a>IScanProfileUI :: ScanProfileDialog, méthode
 
@@ -48,19 +48,19 @@ Handle de la fenêtre parente qui possède la boîte de dialogue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La boîte de dialogue est modale. l’utilisateur ne peut pas basculer vers la fenêtre parente tant que la boîte de dialogue n’est pas fermée.
 
 Les valeurs de l' `<ProfileName>` élément et de l' `<WiaItem>` élément peuvent être modifiées dans la boîte de dialogue. L' `<Default>` élément peut être ajouté ou supprimé. Aucune autre modification du profil d’analyse ne peut être effectuée dans la boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

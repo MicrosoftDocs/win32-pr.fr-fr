@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2b4956ad2b20040b0d22903d2ffaa2c7b460af9250fe057d106db545173d53a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 727ab16604df5b908085208e1d127e5dffad92fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118157496"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223497"
 ---
 # <a name="cbaserenderersendnotifywindow-method"></a>Méthode CBaseRenderer. SendNotifyWindow
 
@@ -57,17 +57,17 @@ Handle vers la fenêtre vidéo, ou **null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la broche de sortie du filtre en amont prend en charge l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) , cette méthode l’envoie au code d’événement de la [**\_ \_ fenêtre de notification ce**](ec-notify-window.md) en même temps que le handle de fenêtre.
 
 Les convertisseurs vidéo peuvent substituer leurs méthodes [**CBaseRenderer :: CompleteConnect**](cbaserenderer-completeconnect.md) pour appeler cette méthode. Il fournit un mécanisme pour informer le filtre en amont du handle de fenêtre. Si vous procédez ainsi, substituez également la méthode [**CBaseRenderer :: BreakConnect**](cbaserenderer-breakconnect.md) et appelez `SendNotifyWindow` avec un handle **null** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f22d03e1738fc688d34f55a6823f7ae95c2dfc41724e827cd31a184ac7cbdfce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 84dc4b92f7a989ab5ef283b36708094a143475de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119545019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006423"
 ---
 # <a name="em_setbidioptions-message"></a>\_Message SETBIDIOPTIONS em
 
@@ -43,11 +43,11 @@ Pointeur vers une structure [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle RichEdit doit être en mode texte brut ou **em \_ SETBIDIOPTIONS** ne fera rien.
 
@@ -55,7 +55,7 @@ Dans les contrôles de texte brut, **em \_ SETBIDIOPTIONS** détermine automatiq
 
 **Em \_ SETBIDIOPTIONS** fait uniquement passer le format de paragraphe par défaut à RTL (de droite à gauche) s’il trouve un caractère RTL,
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 28d555cb684fa849b5fc7cdb42ebaf0ab4fb278b4ef126845add2f12ddf59948
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b0b9a15f9eff8c2612e7a242a205c1d9411a60c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118578835"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191783"
 ---
 # <a name="editboxgetline"></a>EDITBOX. getLine
 
@@ -47,7 +47,7 @@ Cette méthode retourne une **chaîne**.
 
 Si l’index n’est pas valide, une chaîne vide est retournée. Cette méthode ne peut être appelée qu’une fois que le contrôle est visible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

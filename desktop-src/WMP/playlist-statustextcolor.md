@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c92b0f42924468ad9bb75766b4dd847902a363259519b466962e294d26fc23c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 956ec0e9311e789de867cca38098221a7291c6fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118335676"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193184"
 ---
 # <a name="playliststatustextcolor"></a>PLAYLIST. statusTextColor
 
@@ -31,7 +31,7 @@ L’attribut **statusTextColor** spécifie ou récupère une valeur indiquant la
 
 Cet attribut est une **chaîne** en lecture/écriture représentant une couleur. La valeur par défaut est « None ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

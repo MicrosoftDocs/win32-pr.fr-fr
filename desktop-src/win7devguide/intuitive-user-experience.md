@@ -4,12 +4,12 @@ description: pour la première fois, Windows 7 permet aux développeurs et à le
 ms.assetid: cf5be4d6-4284-43e3-86ba-293c4513b477
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14157066225fcf0cbec6b3df5a263be606419eed1ce4fc799d07da6379035ced
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76576883186a77c53256dad7f011b75a7e260ae2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118032036"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219897"
 ---
 # <a name="intuitive-user-experience"></a>Expérience utilisateur intuitive
 

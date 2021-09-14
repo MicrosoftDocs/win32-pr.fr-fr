@@ -4,12 +4,12 @@ ms.assetid: 6e644502-4e0f-4bf2-9ef7-7883211c4f4a
 title: Versions, outils et redistribuables publiés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74eb46c502e88c17ac3da46a2a8868a594da3f0f3217b42131d0adfe807c02e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 567ce765176438f68668fe1ca572efc5ef545d50
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118626653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009662"
 ---
 # <a name="released-versions-tools-and-redistributables"></a>Versions, outils et redistribuables publiés
 

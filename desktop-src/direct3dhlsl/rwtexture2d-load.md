@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0c7a34622b87865cead13cca00c0e8b2b1b7b1921021f9259546d789cb8259c1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e31bec636f984824201f76c787cd1f216fc0b26a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119672039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191655"
 ---
 # <a name="rwtexture2dload-methods"></a>RWTexture2D :: Load, méthodes
 

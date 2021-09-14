@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de connexion PEAP-TLS. Consulte
 ms.assetid: 1128b3f7-eba7-484e-a3d8-070d37e9c57f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be661834c6a1053d34ba5c6a8cee7f7d491537ce0153011772c1b29cf78ef89f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: efa368ca49b93cff8fa3cd60620ec075bfb8d3a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191620"
 ---
 # <a name="peap-tls-connection-properties"></a>Propriétés de la connexion PEAP-TLS
 

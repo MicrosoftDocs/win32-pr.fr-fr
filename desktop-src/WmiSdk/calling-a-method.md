@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Appel d’une méthode WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db6c8a74c8125e0bb1727839b8f59f4b486161d5ae629a0c7351481ade016ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c327bbf0c4c90ad05d1c5026e3308e5fd8447aec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118820084"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191700"
 ---
 # <a name="calling-a-wmi-method"></a>Appel d’une méthode WMI
 
-WMI fournit des méthodes dans l' [API com](com-api-for-wmi.md) et l' [API de script](scripting-api-for-wmi.md) pour obtenir des informations ou manipuler des objets dans un système d’entreprise. Par exemple, la méthode de script WMI [**SWbemServices.Exe**](swbemservices-execquery.md) des requêtes cQuery pour les données. Les fournisseurs ont également des méthodes définies dans les classes qu’ils inscrivent. Exemples : les [**méthodes \_ logiques Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) [**chkdsk**](/windows/desktop/CIMWin32Prov/chkdsk-method-in-class-win32-logicaldisk) et [**ScheduleAutoChk**](/windows/desktop/CIMWin32Prov/scheduleautochk-method-in-class-win32-logicaldisk) fournies par le [fournisseur Win32](/windows/desktop/CIMWin32Prov/win32-provider).
+WMI fournit des méthodes dans l' [API com](com-api-for-wmi.md) et l' [API de script](scripting-api-for-wmi.md) pour obtenir des informations ou manipuler des objets dans un système d’entreprise. Par exemple, la méthode de script WMI [**SWbemServices. ExecQuery**](swbemservices-execquery.md) interroge les données. Les fournisseurs ont également des méthodes définies dans les classes qu’ils inscrivent. Exemples : les [**méthodes \_ logiques Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) [**chkdsk**](/windows/desktop/CIMWin32Prov/chkdsk-method-in-class-win32-logicaldisk) et [**ScheduleAutoChk**](/windows/desktop/CIMWin32Prov/scheduleautochk-method-in-class-win32-logicaldisk) fournies par le [fournisseur Win32](/windows/desktop/CIMWin32Prov/win32-provider).
 
 Les sections suivantes sont présentées dans cette rubrique :
 
@@ -35,7 +35,7 @@ L’exemple de code suivant appelle les méthodes WMI et Provider.
 
 Les méthodes WMI et Provider suivantes se trouvent dans l' [API de script pour WMI](scripting-api-for-wmi.md):
 
--   **objWMIService.ExecQuery** appelle la méthode de script WMI [ **SWbemServices.ExecQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery)
+-   **objWMIService. ExecQuery** appelle la méthode de script WMI [ **SWbemServices. ExecQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execquery)
 -   **objService. StopService ()** appelle la méthode du fournisseur [ **Win32 \_ service. StopService**](/windows/desktop/CIMWin32Prov/stopservice-method-in-class-win32-service)
 
 Vous pouvez rechercher le code qui peut s’afficher dans « retour » dans la section codes de retour [**du \_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service).
@@ -89,7 +89,7 @@ Le mode synchrone peut avoir un effet néfaste sur les performances des programm
 Vous devez uniquement appeler les méthodes qui ne retournent pas de jeux de données de grande taille en mode synchrone. Les méthodes [**SWbemServices**](swbemservices.md) suivantes peuvent être appelées en toute sécurité en mode synchrone :
 
 -   [**SWbemServices. Delete**](swbemservices-delete.md)
--   [**SWbemServices.ExecMethod**](swbemservices-execmethod.md)
+-   [**SWbemServices. ExecMethod**](swbemservices-execmethod.md)
 -   [**SWbemServices.**](swbemservices-get.md)
 
 Toutes les méthodes [**SWbemServices**](swbemservices.md) sans le mot « Async » dans le nom peuvent être appelées en mode synchrone en définissant la valeur **wbemFlagReturnWhenComplete** dans le paramètre *IFlags* .
@@ -104,9 +104,9 @@ Les méthodes ajoutées au mot Async sont des méthodes pour le mode asynchrone.
 
 -   [**SWbemServices. AssociatorsOfAsync**](swbemservices-associatorsofasync.md)
 -   [**SWbemServices. DeleteAsync**](swbemservices-deleteasync.md)
--   [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)
--   [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md)
--   [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md)
+-   [**SWbemServices. ExecMethodAsync**](swbemservices-execmethodasync.md)
+-   [**SWbemServices. ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md)
+-   [**SWbemServices. ExecQueryAsync**](swbemservices-execqueryasync.md)
 -   [**SWbemServices. InstancesOfAsync**](swbemservices-instancesofasync.md)
 -   [**SWbemServices. ReferencesToAsync**](swbemservices-referencesto.md)
 -   [**SWbemServices. SubclassesOfAsync**](swbemservices-subclassesofasync.md)
@@ -130,9 +130,9 @@ Les méthodes suivantes sont appelées en mode semi-synchrone :
 
 -   [**SWbemServices. AssociatorsOf**](swbemservices-associatorsof.md)
 -   [**SWbemServices. Delete**](swbemservices-delete.md)
--   [**SWbemServices.ExecMethod**](swbemservices-execmethod.md)
--   [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md)
--   [**SWbemServices.ExecQuery**](swbemservices-execquery.md)
+-   [**SWbemServices. ExecMethod**](swbemservices-execmethod.md)
+-   [**SWbemServices. ExecNotificationQuery**](swbemservices-execnotificationquery.md)
+-   [**SWbemServices. ExecQuery**](swbemservices-execquery.md)
 -   [**SWbemServices.**](swbemservices-get.md)
 -   [**SWbemServices. InstancesOf**](swbemservices-instancesof.md)
 -   [**SWbemServices. ReferencesTo**](swbemservices-referencesto.md)

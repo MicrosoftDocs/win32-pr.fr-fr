@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98105c3384c2f218c13ad39da7be0828a601e8d3e166edbf2e3ef02553cf88de
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b66d4e03b5c1824ab501226482fcf51fb9121cba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119437529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006382"
 ---
 # <a name="em_setlimittext-message"></a>\_Message SETLIMITTEXT em
 
@@ -51,11 +51,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le **message \_ SETLIMITTEXT em** limite uniquement le texte que l’utilisateur peut entrer. Elle n’affecte pas le texte déjà présent dans le contrôle d’édition lorsque le message est envoyé, ni la longueur du texte copié dans le contrôle d’édition par le message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) . Si une application utilise le message **WM \_ SETTEXT** pour placer plus de texte dans un contrôle d’édition que celui spécifié dans le message **em \_ SETLIMITTEXT** , l’utilisateur peut modifier tout le contenu du contrôle d’édition.
 
@@ -65,7 +65,7 @@ Pour les contrôles d’édition sur une seule ligne, la limite de texte est soi
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Utilisez le message [**em \_ EXLIMITTEXT**](em-exlimittext.md) pour les valeurs de longueur de texte supérieures à 64 000. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

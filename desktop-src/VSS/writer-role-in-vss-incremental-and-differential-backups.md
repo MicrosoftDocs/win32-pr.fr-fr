@@ -4,12 +4,12 @@ ms.assetid: 85c4e003-b531-4283-83aa-dd5cc53f35b1
 title: Rôle d’écriture dans VSS sauvegardes incrémentielles et différentielles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3c84245c21a47ba5535eccdfcbf10e988cf72b30ea99ee92086a9ca8f65647
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f2cda57d907bed4572f0c0f71f9ee829bee18299
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119863869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191843"
 ---
 # <a name="writer-role-in-vss-incremental-and-differential-backups"></a>Rôle d’écriture dans VSS sauvegardes incrémentielles et différentielles
 

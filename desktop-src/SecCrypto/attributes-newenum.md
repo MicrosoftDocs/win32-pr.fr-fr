@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e52428afa3a31c588417979b28d9c29ca23fcb446542cedc45c57127326507e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9948c55943a8374665fe5e4883013742188665c1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222220"
 ---
 # <a name="attributes_newenum-property"></a>Attributs. \_ NewEnum, propriété
 
@@ -39,11 +39,11 @@ Attributes._NewEnum As IUnknown
 
 Une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 cette propriété est automatiquement utilisée en interne lorsque vous utilisez la `For Each In` construction dans Visual Basic scripting Edition (VBScript).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

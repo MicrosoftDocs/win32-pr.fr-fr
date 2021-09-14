@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc7a85dde2c3bb0a8ee7a6208e2eb84a6797dda7265a5181e10e92409add4d4f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72bf2fae4f62facfde9284f00c580431d615c07f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118335675"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193180"
 ---
 # <a name="playlisttoolbarvisible"></a>PLAYLIST. toolbarVisible
 
@@ -31,11 +31,11 @@ L’attribut **toolbarVisible** spécifie ou récupère une valeur indiquant si 
 
 Cet attribut est une **valeur booléenne** en lecture/écriture. La valeur par défaut est false.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La barre d’outils sélection fournit des éléments d’interface utilisateur qui facilitent l’utilisation des sélections.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e1d9d2dccb6ccf1bd80b44b2221f8628f13e595ee514074956e7869447d513
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d98968873ad006b2e91cf3add2429bf7630fae1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119437879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006442"
 ---
 # <a name="em_posfromchar-message"></a>\_Message POSFROMCHAR em
 
@@ -47,13 +47,13 @@ Récupère les coordonnées de la zone cliente d’un caractère spécifié dans
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **Édition enrichie 1,0 et 3,0 :** La valeur de retour n’est pas utilisée.
 
 **Edit Controls et Rich edit 2,0 :** La valeur de retour contient les coordonnées de la zone cliente du caractère. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient la coordonnée horizontale et le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient la coordonnée verticale.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une coordonnée retournée peut être une valeur négative si le caractère spécifié n’est pas affiché dans la zone cliente du contrôle d’édition. Les coordonnées sont tronquées en valeurs entières.
 
@@ -63,7 +63,7 @@ Si le caractère est un délimiteur de ligne, les coordonnées retournées indiq
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

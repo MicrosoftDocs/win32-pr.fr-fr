@@ -6,12 +6,12 @@ keywords:
 - objets de station Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d55e43a0db21b23a6704949f0d72a184c9034f625689b800814ac8a93891b7c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee2048015e4b0c687932c4d01aafe31127e2141e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118199690"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219708"
 ---
 # <a name="window-stations"></a>Stations Windows
 

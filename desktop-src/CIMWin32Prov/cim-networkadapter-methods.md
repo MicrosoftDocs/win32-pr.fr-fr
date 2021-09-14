@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_NetworkAdapter
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 561acbf4fa9c7246d295faf79b83022f3fe924eb2c7a200269c83dbf98f22fd7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 96fe835a321334724f21e2b291203511249dfcb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223673"
 ---
 # <a name="cim_networkadapter-methods"></a>Méthodes de la carte CIM \_
 

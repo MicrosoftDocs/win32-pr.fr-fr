@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 79b9db0043e04d3ab6399677a9e103961d5f1a9b5c5214558bcf53359bedc61a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1de392c50f6665d793883582e2679cd502efbe37
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892538"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222153"
 ---
 # <a name="disablekeyprotectors-method-of-the-win32_encryptablevolume-class"></a>Méthode DisableKeyProtectors de la \_ classe Win32 EncryptableVolume
 
@@ -48,7 +48,7 @@ Entier qui spécifie le nombre de redémarrages pour lesquels les protecteurs de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -69,13 +69,13 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
 Cette méthode expose la clé de chiffrement du volume en clair sur le disque dur, ce qui désactive toute protection du volume. Nous vous recommandons de ne pas avoir de mot de passe ou de clé de chiffrement en texte clair.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 De nouveaux protecteurs de clé peuvent être ajoutés même lorsque les protecteurs de clé sont désactivés ou suspendus. Ces protecteurs de clé restent désactivés, sauf si [**EnableKeyProtectors**](enablekeyprotectors-win32-encryptablevolume.md) est appelé.
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

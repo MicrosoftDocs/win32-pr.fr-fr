@@ -15,12 +15,12 @@ keywords:
 - Interfaces DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92f0719438fe8b09b9e02a00d89e23823fc6ca33cbbc6fd9fa5eda2fd8e88a38
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 600680857a4e03b4bdfa473b3f1b0246fc8b6a94
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118584139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192803"
 ---
 # <a name="windows-media-drm-implemented-interfaces"></a>Windows Interfaces de DRM-Implemented de média
 

@@ -15,12 +15,12 @@ keywords:
 - PARAM, éléments dans l’élément OBJECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7da684a39739703038793abb2f4fdd32b924f35cdffc0c0f9d796fb7dbb5532b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f0fc5b9f64fa462386ec037eba34ed4e0659bb1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193240"
 ---
 # <a name="param-elements-in-an-object-element"></a>Éléments PARAM dans un élément OBJECT
 
@@ -46,30 +46,30 @@ Les attributs PARAM pris en charge varient légèrement entre les navigateurs et
 
 | Nom du paramètre                                            | Internet Explorer | Firefox avec type MIME application/x-ms-WMP | Firefox avec tout autre type MIME |
 |-------------------------------------------------------|-------------------|---------------------------------------------|----------------------------------|
-| [Démarrage automatique](settings-autostart.md)                   | oui               | oui                                         | oui                              |
-| [équilibrée](settings-balance.md)                       | oui               | oui                                         | oui                              |
-| [baseURL](settings-baseurl.md)                       | oui               | oui                                         | oui                              |
-| [captioningID](closedcaption-captioningid.md)        | oui               | oui                                         | oui                              |
-| [currentMarker](controls-currentmarker.md)           | oui               | oui                                         | oui                              |
-| [currentPosition](controls-currentposition.md)       | oui               | oui                                         | oui                              |
-| [defaultFrame](settings-defaultframe.md)             | oui               | non                                          | non                               |
-| [enableContextMenu](player-enablecontextmenu.md)     | oui               | oui                                         | oui                              |
-| [activé](player-enabled.md)                         | oui               | oui                                         | oui                              |
-| [enableErrorDialogs](settings-enableerrordialogs.md) | oui               | oui                                         | non                               |
-| **fileName**                                          | non                | oui                                         | oui                              |
-| [Large](player-fullscreen.md)                   | oui               | non                                          | non                               |
-| [invokeURLs](settings-invokeurls.md)                 | oui               | non                                          | non                               |
-| [muette](settings-mute.md)                             | oui               | oui                                         | oui                              |
-| [playCount](settings-playcount.md)                   | oui               | oui                                         | non                               |
-| [évaluation](settings-rate.md)                             | oui               | oui                                         | oui                              |
-| [SAMIFileName](closedcaption-samifilename.md)        | oui               | oui                                         | oui                              |
-| [SAMILang](closedcaption-samilang.md)                | oui               | oui                                         | oui                              |
-| [SAMIStyle](closedcaption-samistyle.md)              | oui               | oui                                         | oui                              |
-| **SOURCES**                                               | non                | oui                                         | oui                              |
-| [stretchToFit](player-stretchtofit.md)               | oui               | oui                                         | non                               |
-| [URL](player-url.md)                                 | oui               | oui                                         | oui                              |
-| [volume](settings-volume.md)                         | oui               | oui                                         | oui                              |
-| [windowlessVideo](player-windowlessvideo.md)         | oui               | oui                                         | oui                              |
+| [Démarrage automatique](settings-autostart.md)                   | Oui               | Oui                                         | Oui                              |
+| [équilibrée](settings-balance.md)                       | Oui               | Oui                                         | Oui                              |
+| [baseURL](settings-baseurl.md)                       | Oui               | Oui                                         | Oui                              |
+| [captioningID](closedcaption-captioningid.md)        | Oui               | Oui                                         | Oui                              |
+| [currentMarker](controls-currentmarker.md)           | Oui               | Oui                                         | Oui                              |
+| [currentPosition](controls-currentposition.md)       | Oui               | Oui                                         | Oui                              |
+| [defaultFrame](settings-defaultframe.md)             | Oui               | non                                          | non                               |
+| [enableContextMenu](player-enablecontextmenu.md)     | Oui               | Oui                                         | Oui                              |
+| [activé](player-enabled.md)                         | Oui               | Oui                                         | Oui                              |
+| [enableErrorDialogs](settings-enableerrordialogs.md) | Oui               | Oui                                         | non                               |
+| **fileName**                                          | non                | Oui                                         | Oui                              |
+| [Large](player-fullscreen.md)                   | Oui               | non                                          | non                               |
+| [invokeURLs](settings-invokeurls.md)                 | Oui               | non                                          | non                               |
+| [muette](settings-mute.md)                             | Oui               | Oui                                         | Oui                              |
+| [playCount](settings-playcount.md)                   | Oui               | Oui                                         | non                               |
+| [évaluation](settings-rate.md)                             | Oui               | Oui                                         | Oui                              |
+| [SAMIFileName](closedcaption-samifilename.md)        | Oui               | Oui                                         | Oui                              |
+| [SAMILang](closedcaption-samilang.md)                | Oui               | Oui                                         | Oui                              |
+| [SAMIStyle](closedcaption-samistyle.md)              | Oui               | Oui                                         | Oui                              |
+| **SOURCES**                                               | non                | Oui                                         | Oui                              |
+| [stretchToFit](player-stretchtofit.md)               | Oui               | Oui                                         | non                               |
+| [URL](player-url.md)                                 | Oui               | Oui                                         | Oui                              |
+| [volume](settings-volume.md)                         | Oui               | Oui                                         | Oui                              |
+| [windowlessVideo](player-windowlessvideo.md)         | Oui               | Oui                                         | Oui                              |
 
 
 

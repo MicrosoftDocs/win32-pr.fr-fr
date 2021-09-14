@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52b3061ef83ec246878d51528e88a12b4f10dcb3085f584a2266dc64a163b866
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 269e9011ade69ee61d99c29c1fa5bd1b9fa3deeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746864"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193204"
 ---
 # <a name="playlistitemmedia"></a>PLAYLIST. itemMedia
 
@@ -42,11 +42,11 @@ Cet attribut est un objet **multimédia** en lecture seule.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La propriété **itemMedia** retourne des objets multimédias qui sont développés dans l’élément **playlist** . Par exemple, s’il existe une sélection qui contient trois clips multimédias qui ne sont pas développés dans l’élément **playlist** , **itemMedia**(0) retourne la playlist en tant qu’objet multimédia. Si la sélection est développée, **itemMedia**(0) retourne le premier clip multimédia de la sélection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

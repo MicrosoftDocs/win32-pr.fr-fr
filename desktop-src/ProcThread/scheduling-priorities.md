@@ -4,12 +4,12 @@ ms.assetid: 8710cd56-6bf3-4317-a1f6-1a159394ce2a
 title: Planification des priorités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 359f86e6ef78ffe1e549045eebbe435674b50f25f25bd30598fce8581c06092a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e80c8baf4ed066ec7034c97850248f81c298c65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117793311"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007093"
 ---
 # <a name="scheduling-priorities"></a>Planification des priorités
 

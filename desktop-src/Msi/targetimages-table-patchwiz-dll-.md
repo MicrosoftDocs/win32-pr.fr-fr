@@ -4,12 +4,12 @@ ms.assetid: 4681715e-9918-4d7b-8f33-1cca2bb34eb7
 title: Table TargetImages (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec35a9090f89e93e807cda9429ae48d8cc28d175acc4c83e97150e3a98ce5fb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bbb8e7bae92fbc25b217808aaae709f079d65dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009615"
 ---
 # <a name="targetimages-table-patchwizdll"></a>Table TargetImages (Patchwiz.dll)
 
@@ -21,13 +21,13 @@ La table TargetImages contient les colonnes suivantes.
 
 
 
-| Colonne                | Type    | Clé | Nullable |
+| Colonne                | Type    | Clé : | Nullable |
 |-----------------------|---------|-----|----------|
 | Cible                | text    | O   | N        |
 | MsiPath               | text    |     | N        |
 | SymbolPaths           | text    |     | O        |
 | Upgraded              | text    |     | N        |
-| Commande                 | entier |     | N        |
+| JSON                 | entier |     | N        |
 | ProductValidateFlags  | text    |     | O        |
 | IgnoreMissingSrcFiles | entier |     | N        |
 

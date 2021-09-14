@@ -4,12 +4,12 @@ ms.assetid: adf40b1a-c5d6-418d-a012-cf6ba7d4fa24
 title: Codes d’erreur du NSP PNRP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acee7465a86d56af9b2e07a1ae6948dd1b1a1e9145cee2165b7dd4e90f2a5f1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47b02959c921c8e3a468cadfa87dba6fb8d3c29d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239628"
 ---
 # <a name="pnrp-nsp-error-codes"></a>Codes d’erreur du NSP PNRP
 

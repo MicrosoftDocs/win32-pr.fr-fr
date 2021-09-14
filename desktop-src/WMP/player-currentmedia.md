@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df5e8cd2032d772cbd781d0b45794e86cc19eff7c730a6a963778d54a6f283d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea90b7be72bcb10a8ec0d3c49116f3effceb9a93
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192720"
 ---
 # <a name="playercurrentmedia"></a>Player. currentMedia
 
@@ -33,7 +33,7 @@ La propriété **currentMedia** spécifie ou récupère l’objet multimédia ac
 
 Cette propriété est un objet multimédia en lecture/écriture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 si le *Paramètres*. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentMedia**.
 
@@ -57,7 +57,7 @@ document.write("Found first media item. Name = " + Player.currentMedia.name);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

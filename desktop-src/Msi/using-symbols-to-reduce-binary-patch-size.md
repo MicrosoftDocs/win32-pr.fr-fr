@@ -4,12 +4,12 @@ ms.assetid: 83351a1b-ba70-4f0b-bacf-71ad7993a5aa
 title: Utilisation de symboles pour réduire la taille des correctifs binaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 502c11a1a6b058db8c9f4a7c9bde897034c3b4affa8c02d1b049d754013f4455
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d5ccf33dbf3ffefbee909d99bd0204ea2f49aba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117804081"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222865"
 ---
 # <a name="using-symbols-to-reduce-binary-patch-size"></a>Utilisation de symboles pour réduire la taille des correctifs binaires
 

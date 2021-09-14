@@ -4,12 +4,12 @@ ms.assetid: 508a17c4-88cd-431a-a102-00180a7f7ab5
 title: Sécurité des processus et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d05e064ac67e118ee31fe0b73eb238d3fbb24545565cf9fe0dfd73d13e5dd68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93a5fb29599c5a769b9a7b63d653d24ec543e408
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119418709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007103"
 ---
 # <a name="process-security-and-access-rights"></a>Sécurité des processus et droits d’accès
 

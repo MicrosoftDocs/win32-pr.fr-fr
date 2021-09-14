@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9a3cd4e59f3800b91fedee446e927ab0ec39988474752561a04dace5572ef0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8f82d6ee5df86572564cffcf192395ccee1fbd05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119697589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006349"
 ---
 # <a name="em_settargetdevice-message"></a>\_Message SETTARGETDEVICE em
 
@@ -43,11 +43,11 @@ Largeur de ligne à utiliser pour la mise en forme.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est égale à zéro si l’opération échoue, ou différente de zéro si elle réussit.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le HDC pour l’imprimante par défaut peut être obtenu comme suit.
 
@@ -66,7 +66,7 @@ if (PrintDlg(&pd))
 
 Si *lParam* est égal à zéro, aucun saut de ligne n’est créé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

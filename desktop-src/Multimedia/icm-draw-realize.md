@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dd054c16caae55cba25c30098337e54b0ec4b681
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239724"
 ---
 # <a name="icm_draw_realize-message"></a>ICM \_ DESSINER le message de réalisation \_
 
@@ -60,7 +60,7 @@ Retourne ICERR \_ OK si la palette de dessin est réalisée ou ICERR \_ non pris
 
 Les pilotes doivent répondre à ce message uniquement si la palette de dessin est différente de la palette décompressée.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

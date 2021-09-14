@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_USBHub
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1588363a99d8dd2f7c5f095209a01773271ef003d9d5ef80f708a285b49d9ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 919c28eaba9bb19586eb29838ffb31e3dfa83d99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007023"
 ---
 # <a name="cim_usbhub-methods"></a>\_Méthodes Usbhub CIM
 

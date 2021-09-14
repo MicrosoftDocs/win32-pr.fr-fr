@@ -11,12 +11,12 @@ keywords:
 - extensions d’unité de données, flux de transfert de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0be95c9760a02275e223f56785149f6867d4aaf2462d07d158991b3cd21c01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 75fac7d2270da82f1f9e82ed9123611ae608dd3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117849062"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219644"
 ---
 # <a name="configuring-file-transfer-streams"></a>Configuration du transfert de fichiers Flux
 

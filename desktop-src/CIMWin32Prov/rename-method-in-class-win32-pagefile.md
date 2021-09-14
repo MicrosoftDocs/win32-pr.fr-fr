@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c47bda2b5466111594617a9f3fc0faa9d2dbf55e4452509015cbbe368ef15cba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7c9ba8162cd115a567e9e9010420c558061fed08
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006943"
 ---
 # <a name="rename-method-of-the-win32_pagefile-class"></a>Renommer la méthode de la \_ classe du fichier d’échange Win32
 
@@ -51,7 +51,7 @@ Exemple : c : \\ temp \\newfile.txt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le fichier a été renommé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -148,7 +148,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

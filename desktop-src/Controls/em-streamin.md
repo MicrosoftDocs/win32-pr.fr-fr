@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 597d6483ef02f0c9f6f4e4459cd6780b91e04c39160c8057e88fc537fde3b173
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 40fdcf844cce09cf5c49085a9fcf08a38ad988ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576339"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006340"
 ---
 # <a name="em_streamin-message"></a>\_Message de flux em
 
@@ -68,15 +68,15 @@ Pointeur vers une structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-ri
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne le nombre de caractères lus.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque vous envoyez un message de **\_ flux em** , le contrôle RichEdit effectue des appels répétés à la fonction [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) spécifiée par le membre **pfnCallback** de la structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) . Chaque fois que la fonction de rappel est appelée, elle remplit une mémoire tampon avec des données à lire dans le contrôle. Cela se poursuit jusqu’à ce que la fonction de rappel indique que l’opération de flux est terminée ou qu’une erreur se produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

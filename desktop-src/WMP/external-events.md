@@ -10,12 +10,12 @@ keywords:
 - événements externes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac91232447e37bc3970ea8dd0ec727fb9b5daae65e647809b129df3e0347c496
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfa09a01b709f0da51d09fc2bec70cba0a1b07d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119649189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192396"
 ---
 # <a name="external-events"></a>Événements externes
 
@@ -25,7 +25,7 @@ Les événements suivants sont pris en charge par les éléments d’apparence 
 
 -   **load**
 -   **close**
--   **redimensionner**
+-   **resize**
 -   **minute**
 -   **Cliquez sur**
 -   **dblclick**

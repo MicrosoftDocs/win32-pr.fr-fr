@@ -4,12 +4,12 @@ ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
 title: Message WM_IME_NOTIFY (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a072ff41b5731662afa94e387ec48de7d14bc245906e581303fe976dcf455708
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca5ab1b2a1fd62d159ab4f216bf9b1bb6892ed69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119014217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223961"
 ---
 # <a name="wm_ime_notify-message"></a>Message WM_IME_NOTIFY
 
@@ -68,15 +68,15 @@ Données spécifiques à la commande, avec un format dépendant de la valeur du 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour dépend de la commande envoyée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application traite ce message s’il est responsable de la gestion de la fenêtre IME.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

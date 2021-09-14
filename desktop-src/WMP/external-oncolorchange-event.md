@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eae4ca15d4d7035fc342fa20263220560570d902e28b9245a6458ac59c40a4f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 029c8bb860443ed026737c7413be2bed8862c6d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192356"
 ---
 # <a name="externaloncolorchange-event"></a>External. OnColorChange, événement
 
@@ -42,11 +42,11 @@ il s’agit d’une propriété en écriture seule qui spécifie le nom de la fo
 
 La fonction qui gère cet événement n’accepte aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cet événement pour personnaliser l’apparence de votre page Web hébergée en fonction du lecteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

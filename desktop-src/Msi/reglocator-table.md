@@ -5,11 +5,11 @@ title: Table RegLocator
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: db5084b8c6fd8d10372759bdba65abbb4dfe7261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518238"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009678"
 ---
 # <a name="reglocator-table"></a>Table RegLocator
 
@@ -17,12 +17,12 @@ La table RegLocator contient les informations nécessaires à la recherche d’u
 
 
 
-| Colonne      | Type                         | Clé | Nullable |
+| Colonne      | Type                         | Clé : | Nullable |
 |-------------|------------------------------|-----|----------|
 | Signature\_ | [Identificateur](identifier.md) | O   | N        |
 | Root        | [Integer](integer.md)       | N   | N        |
-| Clé         | [RegPath](regpath.md)       | N   | N        |
-| Nom        | [Correct](formatted.md)   | N   | O        |
+| Clé :         | [RegPath](regpath.md)       | N   | N        |
+| Name        | [Correct](formatted.md)   | N   | O        |
 | Type        | [Integer](integer.md)       | N   | O        |
 
 
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les valeurs valides. Définissez l’une des troi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que si la valeur du champ de type est **msidbLocatorTypeRawValue**, le programme d’installation définit la valeur de registre de la propriété spécifiée dans le champ de propriété de la table [AppSearch](appsearch-table.md) . Le programme d’installation ajoute un préfixe à la valeur de Registre qui identifie le type de valeur de registre. Pour plus d’informations sur les types de valeurs de Registre, consultez [types de valeur de Registre](../sysinfo/registry-value-types.md).
 
@@ -118,7 +118,7 @@ En règle générale, les colonnes de cette table ne sont pas localisées. Si un
 
 Notez qu’il n’est pas possible d’utiliser la table RegLocator pour vérifier uniquement la présence de la clé. Toutefois, vous pouvez rechercher la valeur par défaut d’une clé et récupérer sa valeur si elle n’est pas vide.
 
-Pour plus d’informations, consultez [recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+Pour plus d’informations, consultez [recherche d’applications, de fichiers, d’entrées de registre ou de .ini entrées de fichier existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
 ## <a name="validation"></a>Validation
 

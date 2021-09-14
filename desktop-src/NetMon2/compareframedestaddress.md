@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 153d1a5768791a33fd4f7629e071a125a4ee2ee46feaae366e2c1a21d8118f01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9ce0ff776588c06b8fddc34240e9c2170ceca69
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222716"
 ---
 # <a name="compareframedestaddress-function"></a>CompareFrameDestAddress fonction)
 
@@ -54,13 +54,13 @@ Pointeur vers une adresse.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si les adresses sont identiques, la valeur de retour est **true**.
 
 Si les adresses ne sont pas les mêmes, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour que la fonction **CompareFrameDestAddress** retourne correctement, le type d’adresse de destination doit correspondre au type d’adresse spécifié dans le paramètre *lpAddress* .
 
@@ -68,7 +68,7 @@ Moniteur réseau fournit deux autres fonctions, [CompareFrameSourceAddress](comp
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **CompareFrameDestAddress** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Objet Attributes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61936fff0421c43a07483fb8489cca755154a8cfbdd524da5837b12f90add969
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2493d4e1bbcbeb2dc7e7b335513beb84c3f28d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117773180"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222209"
 ---
 # <a name="attributes-object"></a>Objet Attributes
 
@@ -43,8 +43,8 @@ L’objet **attributes** possède ces méthodes.
 | Méthode                              | Description                                                                       |
 |:------------------------------------|:----------------------------------------------------------------------------------|
 | [**Complémentaires**](attributes-add.md)       | Ajoute un objet d' [**attribut**](attribute.md) à la collection.<br/>       |
-| [**Effacer**](attributes-clear.md)   | Efface tous les objets [**attribut**](attribute.md) de la collection.<br/> |
-| [**Installez**](attributes-remove.md) | Supprime un objet d' [**attribut**](attribute.md) de la collection.<br/>  |
+| [**Effacé**](attributes-clear.md)   | Efface tous les objets [**attribut**](attribute.md) de la collection.<br/> |
+| [**Remove**](attributes-remove.md) | Supprime un objet d' [**attribut**](attribute.md) de la collection.<br/>  |
 
 
 
@@ -66,11 +66,11 @@ L’objet **attributes** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Impossible de créer l’objet **attributes** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

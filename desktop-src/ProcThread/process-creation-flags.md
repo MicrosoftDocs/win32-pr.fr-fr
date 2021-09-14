@@ -5,12 +5,12 @@ title: Indicateurs de création de processus (WinBase. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 28ea49959e67e0d50c80c1787dcc08d2dbf5defd6da547c6869d2eb9224cbd62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 560a6c5ca54a5767c0fb0c9b4b8659d608f46766
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007109"
 ---
 # <a name="process-creation-flags"></a>Indicateurs de création de processus
 
@@ -62,7 +62,7 @@ exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-cl
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 sur les Windowss 32 bits, les applications 16 bits sont simulées par ntvdm.exe, et ne sont pas exécutées en tant que processus individuels. Par conséquent, les indicateurs de création de processus s’appliquent à *ntvdm.exe*. Étant donné que ntvdm.exe persiste après l’exécution de la première application 16 bits, lorsque vous lancez une autre application 16 bits, les nouveaux indicateurs de création ne sont pas appliqués, à l’exception de la création d’une **\_ nouvelle \_ console** et de la création d’un **\_ \_ \_ VDM WOW distinct** qui crée une ntvdm.exe.
 

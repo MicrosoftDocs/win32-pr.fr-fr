@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1d86609c1b3f4b04ade24e5ea2f3343c367bbad0a52b8e07be7c18b2282536
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec41ac5255059b8d40f3a4c2e9b666815b9094fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118412334"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006360"
 ---
 # <a name="em_setscrollpos-message"></a>\_Message SETSCROLLPOS em
 
@@ -45,11 +45,11 @@ Le contrôle RichEdit vérifie les coordonnées x et y et les ajuste si nécessa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne toujours la valeur 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

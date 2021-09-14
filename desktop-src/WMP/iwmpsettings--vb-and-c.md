@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a537efcd9b39f993705244020e579b9d667164180fd5cd70ab05fc692bed8fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db911cc6d18ba40777e77a803480c7fcab4ff8ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192260"
 ---
 # <a name="iwmpsettings-vb-and-c-interface"></a>interface IWMPSettings (VB et C#)
 
@@ -68,7 +68,7 @@ l’interface **IWMPSettings (VB et C#)** a ces propriétés.
 | [**muette**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)<br/>                             | Lecture/écriture<br/> | Obtient ou définit une valeur indiquant si l’audio est muet. <br/>                                                                          |
 | [**playCount**](wmplibiwmpsettings-iwmpsettings-playcount--vb-and-c.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit le nombre de fois qu’un élément multimédia doit être lu. <br/>                                                                         |
 | [**évaluation**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)<br/>                             | Lecture/écriture<br/> | Obtient ou définit la vitesse de lecture actuelle pour la vidéo. <br/>                                                                                |
-| [**agrégat**](wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le volume de lecture actuel. <br/>                                                                                        |
+| [**volume**](wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le volume de lecture actuel. <br/>                                                                                        |
 
 
 
@@ -86,7 +86,7 @@ Procurez-vous une interface **IWMPSettings** à l’aide de la propriété suiva
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

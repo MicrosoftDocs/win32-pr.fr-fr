@@ -4,12 +4,12 @@ ms.assetid: b53f1cf5-3659-407e-8279-5c94333f3017
 title: Création d’une application d’assistance IP de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e8c5db341bbc14b60f47654b887b0345bbbc96a097463c63a1d0bba9e648ef3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: baae961f8ffb6aa899e96fd05f0cb9f0c41469ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009793"
 ---
 # <a name="creating-a-basic-ip-helper-application"></a>Création d’une application d’assistance IP de base
 

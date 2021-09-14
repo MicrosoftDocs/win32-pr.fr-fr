@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e80e05686d06871aa40e8a649a119a41fb1a7a59bbb60a77b56497561ae9f27
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 512819d4c01524e82a92fee9849a9589366a36ba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748816"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191739"
 ---
 # <a name="equalizersettingsgainlevel10"></a>EQUALIZERSETTINGS.gainLevel10
 
@@ -31,13 +31,13 @@ L’attribut **gainLevel10** spécifie ou récupère le niveau de gain de la ban
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur est normalement comprise entre 20 et + 20. Sa valeur par défaut est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet attribut ajuste la partie du spectre de fréquences audio centrée sur 16kHz.
 
 Si cet attribut n’est pas spécifié, la valeur précédente est conservée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

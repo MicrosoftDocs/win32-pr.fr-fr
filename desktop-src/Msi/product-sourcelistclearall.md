@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8718522de7395a4fc6811e210fac0ee7b9f7758f6ea4b632f9fec122ffd5be3b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4c921bd45b1acbac40444e4d11bb67d589149c45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119925877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009786"
 ---
 # <a name="productsourcelistclearall-method"></a>Méthode Product. SourceListClearAll
 
@@ -46,7 +46,7 @@ Type de source à supprimer : MSISOURCETYPE \_ Media, MSISOURCETYPE \_ Network 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

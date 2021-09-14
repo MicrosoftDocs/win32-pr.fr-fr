@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: a3ed94b44a629f619617186415ed3822387c6967
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006937"
 ---
 # <a name="renewdhcpleaseall-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode RenewDHCPLeaseAll de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -40,7 +40,7 @@ uint32 RenewDHCPLeaseAll();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 

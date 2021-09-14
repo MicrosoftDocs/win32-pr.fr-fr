@@ -16,12 +16,12 @@ keywords:
 - Valeurs d’attribut de contenu TV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa96f855d90fe0b65c4e9483dcb2ba4ae3ff7be049f1346f1038097789b2126c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb63e872edd80944772a320da5f2094e6d8f5757
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118583030"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191812"
 ---
 # <a name="attribute-values-for-tv-content"></a>Valeurs d’attribut pour le contenu TV
 

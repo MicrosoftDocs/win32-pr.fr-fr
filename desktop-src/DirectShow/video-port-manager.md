@@ -4,12 +4,12 @@ ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Gestionnaire de port vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fb7a31d21592bd94579ad608fb453e2a2ec0a264d674f807b404a43f2a0bc1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db4f030e6be9035432207dc608a775a0e1d30b09
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239021"
 ---
 # <a name="video-port-manager"></a>Gestionnaire de port vidéo
 

@@ -4,12 +4,12 @@ ms.assetid: e1adc567-0445-4deb-8634-25653f82127c
 title: Affichage de texte avec Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17caf7e7880a61bdf9afbaf6db5b60065b01d3d3960f2ed5629a007aa304b7b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: baeb9a2be4d00efaa2681097ddefe3a6de4c576b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118949604"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127240366"
 ---
 # <a name="displaying-text-with-uniscribe"></a>Affichage de texte avec Uniscribe
 

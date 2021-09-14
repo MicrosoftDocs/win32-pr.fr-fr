@@ -5,11 +5,11 @@ title: Techniques d’atténuation des menaces
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 315a79ec1db48a16de858d655bd1550fa1458720
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482445"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222372"
 ---
 # <a name="threat-mitigation-techniques"></a>Techniques d’atténuation des menaces
 
@@ -17,7 +17,7 @@ Vous pouvez utiliser un certain nombre de techniques d’atténuation des menace
 
 
 
-| Technology                      | Description                                                                                                                                                                                                                                                                                                                                                                |
+| Technologie                      | Description                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CryptoAPI                       | CryptoAPI fournit un ensemble de fonctions qui vous aident à appliquer des routines de chiffrement aux entités cibles. CryptoAPI peut fournir des hachages, des résumés, un chiffrement et un déchiffrement pour mentionner ses principales fonctionnalités. CryptoAPI possède également d’autres fonctionnalités. Pour en savoir plus sur le chiffrement et l’CryptoAPI, consultez [Cryptography Essentials](/windows/desktop/SecCrypto/cryptography-essentials).           |
 | Listes de contrôle d'accès            | Une [*liste de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACL) est une liste de protections de sécurité qui s’applique à un objet. Un objet peut être un fichier, un processus, un événement ou tout autre qui possède un descripteur de sécurité. Pour plus d’informations sur les listes de contrôle d’accès, consultez [listes de Access Control](/windows/desktop/SecAuthZ/access-control-lists) (ACL). |
@@ -31,7 +31,7 @@ Vous pouvez utiliser un certain nombre de techniques d’atténuation des menace
 Ces technologies ne sont pas disponibles sur tous les systèmes d’exploitation. Par conséquent, l’étendue de la sécurité peut être améliorée en fonction des systèmes d’exploitation impliqués. Voici les technologies qui sont disponibles dans chaque système d’exploitation.
 
 
-| Système d’exploitation | Technology | 
+| Système d'exploitation | Technologie | 
 |------------------|------------|
 | Windows Server 2003 et Windows XP | <ul><li>CryptoAPI</li><li>Listes de contrôle d'accès</li><li>API de protection des données</li><li>Noms d’utilisateur et mots de passe stockés</li></ul> | 
 | Windows 2000 | <ul><li>CryptoAPI</li><li>Listes de contrôle d'accès</li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li></ul> | 

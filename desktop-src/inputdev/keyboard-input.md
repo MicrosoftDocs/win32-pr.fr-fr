@@ -8,12 +8,12 @@ keywords:
 - entrée au clavier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 249e42a97c0848a9935fe700a0408989cbab90abc53c9ac2da6c7ef56fbc31da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6425da1617f73171ab54460c2634b22ffbfa4404
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118757588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192559"
 ---
 # <a name="keyboard-input-keyboard-and-mouse-input"></a>Entrée au clavier (entrée clavier et souris)
 

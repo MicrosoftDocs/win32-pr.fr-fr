@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eebcf8d799452a9966355f644f00ac5c4aecc4c066374254e8e580431b756b92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e70558c7616738f67d9dc1d6d29eca15e5c30d4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119649029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192379"
 ---
 # <a name="externalnavigatetaskpaneurl-method"></a>External. NavigateTaskPaneURL, méthode
 
@@ -70,11 +70,11 @@ External.NavigateTaskPaneURL(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La navigation vers un volet que votre magasin en ligne ne prend pas en charge peut entraîner la modification du magasin en ligne actuel.
 
@@ -129,7 +129,7 @@ https://www.proseware.com/online store/html/navigate.asp?Pane=Store
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

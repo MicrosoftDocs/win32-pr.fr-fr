@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 08e3887f44fbd56b2f80c275b1cfacc26fd83dc50890f8162efec93d329f44c5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4603f013c6b4c2c80edd555608b5f59325b6a6d9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119218169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006936"
 ---
 # <a name="renewdhcplease-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode RenewDHCPLease de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -40,7 +40,7 @@ uint32 RenewDHCPLease();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et un autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -395,7 +395,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le bail de l’adresse IP attribuée par un serveur DHCP a une date d’expiration que le client doit renouveler s’il a l’intention de continuer à utiliser l’adresse IP attribuée.
 

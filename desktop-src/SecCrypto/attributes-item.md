@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 94f1ab0f9e2ef48892b27ddc51d3ac3fd1a61216d63bf4a81013e7565710a1a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 208e36fd8d4d7e3effc2c0f59b7db921fed76d79
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222241"
 ---
 # <a name="attributesitem-property"></a>Attributes. Item, propriété
 
@@ -43,7 +43,7 @@ Attributes.Item( _
 
 Objet d' [**attribut**](attribute.md) qui représente l’attribut indexé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1190baed-5959-4f7a-8946-ac3b3da85821
 title: Traitement de scripts complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987c58cd1d6e8979573b47bbf3e2e7ff248617b12907f81ef70761c08403a067
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87bea5b75e87afc4177b03c03f4263ba2592a0e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118390423"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007326"
 ---
 # <a name="processing-complex-scripts"></a>Traitement de scripts complexes
 

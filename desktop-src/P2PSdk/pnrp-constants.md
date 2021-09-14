@@ -4,12 +4,12 @@ ms.assetid: 2eb110f3-7028-4598-a50d-707a2efde3bf
 title: Constantes PNRP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9f26f3b14d5e074071a61434d3e169df503c235ecbf4176e2663d11080730c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfec8848d1f4ad31809369b39f545d67ef1a1bf8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239646"
 ---
 # <a name="pnrp-constants"></a>Constantes PNRP
 

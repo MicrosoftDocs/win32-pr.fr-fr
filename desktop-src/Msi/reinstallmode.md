@@ -4,12 +4,12 @@ ms.assetid: 756d2899-2cfe-473a-bebf-a7f7bbe7d229
 title: REINSTALLMODE, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 227a069fa0974758bf623c83ef23d40902d9feb140f69446c57c2d723468054f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab48043ef92770cbc3a1f5ab92e459128c9945ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119637875"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009665"
 ---
 # <a name="reinstallmode-property"></a>REINSTALLMODE, propriété
 

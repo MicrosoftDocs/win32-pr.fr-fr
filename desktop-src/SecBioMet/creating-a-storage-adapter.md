@@ -4,12 +4,12 @@ description: Structure de base d’un plug-in d’adaptateur de stockage implém
 ms.assetid: c37e4c46-d11c-4458-b87b-78f693188e3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8ff7ab15b1f94a37c77a7b3f4f014d34794999ae83429d663d7f97ac29ab5e5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2a4f922035b84593d812380991d0574a3ebeb141
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222332"
 ---
 # <a name="creating-a-storage-adapter"></a>création d’un adaptateur Stockage
 

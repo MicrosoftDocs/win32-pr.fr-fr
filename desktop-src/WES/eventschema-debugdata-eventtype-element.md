@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8c11d9e7d900c62e9dea59934058de9019cc31b6fa0e414f1310eff43c410858
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8c04874c67ff496997d36e7fd614eee1a6dbfa1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120005539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192812"
 ---
 # <a name="debugdata-eventtype-element"></a>Élément DebugData (EventType)
 
@@ -32,7 +32,7 @@ contient les données qui peuvent être journalisées pour Windows événements 
 
 L’élément **DebugData** est défini par le type complexe [**eventType**](eventschema-eventtype-complextype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

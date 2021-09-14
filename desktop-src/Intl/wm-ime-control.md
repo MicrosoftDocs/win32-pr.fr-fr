@@ -4,12 +4,12 @@ ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
 title: Message WM_IME_CONTROL (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 104ef8eb2a90c7c55eb0d4bca2fcdb1744dd9433f131b753e962fcfec571f43d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd0adc534883bc0b31984c8d3e9b57a04b555987
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119822469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223969"
 ---
 # <a name="wm_ime_control-message"></a>Message WM_IME_CONTROL
 
@@ -66,11 +66,11 @@ Données spécifiques à la commande, avec un format dépendant de la valeur du 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le message retourne une valeur spécifique à la commande.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

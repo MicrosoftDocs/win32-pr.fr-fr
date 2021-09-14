@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7139c567eab5fbb3c324916dec260d34f57429cb50bb99d199f35be8aee7a1c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ceae33a201086d268942e47496874678ec13f459
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118573214"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192708"
 ---
 # <a name="playercurrentplaylist"></a>Player. currentPlaylist
 
@@ -57,7 +57,7 @@ document.write("Found first playlist. Name: " + Player.currentPlaylist.name);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

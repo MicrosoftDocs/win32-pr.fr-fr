@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 483058e8b76b7a08929e905b642338c9e8f6aa6a59128907bccfcc1f2b3856f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8b3374e6d50a50d32b60113318e5d1099083226
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118742619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192539"
 ---
 # <a name="d3dauthenticatedquery_currentencryptionwhenaccessible"></a>D3DAUTHENTICATEDQUERY \_ CURRENTENCRYPTIONWHENACCESSIBLE
 
@@ -36,14 +36,14 @@ Retourne le type de chiffrement appliqué avant que le contenu soit accessible a
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types de canaux suivants prennent en charge cette requête :
 
 -   **\_Matériel du pilote D3DAUTHENTICATEDCHANNEL \_**
 -   **\_Logiciel du pilote D3DAUTHENTICATEDCHANNEL \_**
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

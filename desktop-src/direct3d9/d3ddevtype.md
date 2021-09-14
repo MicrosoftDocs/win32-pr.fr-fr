@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: d311706d328a5d05668a4d1dcddb032f17fba0c69e48286f899875a8da6a650e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2be365ffbbe5bf778379c7be060c85c0b099422f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117732989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193004"
 ---
 # <a name="d3ddevtype-enumeration"></a>Énumération D3DDEVTYPE
 
@@ -80,7 +80,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les méthodes de l’interface [**IDirect3D9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3d9) qui prennent un type d’appareil **D3DDEVTYPE** échouent si D3DDEVTYPE \_ NULLREF est spécifié. Pour utiliser ces méthodes, remplacez D3DDEVTYPE \_ ref dans l’appel de méthode.
 
@@ -88,7 +88,7 @@ Un \_ appareil Ref D3DDEVTYPE doit être créé dans la \_ mémoire de travail D
 
 Si D3dref9.dll est installé, Direct3D utilise le rastériseur de référence pour créer un type d' \_ appareil Ref D3DDEVTYPE, même si D3DDEVTYPE \_ NULLREF est spécifié. Si D3dref9.dll n’est pas disponible et que D3DDEVTYPE \_ NULLREF est spécifié, Direct3D ne rend ni ne présente la scène.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

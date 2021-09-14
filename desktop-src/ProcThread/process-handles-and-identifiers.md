@@ -4,12 +4,12 @@ ms.assetid: cf6b80de-de02-4222-a414-e940ffaed8fe
 title: Handles et identificateurs de processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4603b3d217db0870aeb890b05c7a416f46f2309ea9a0230b33d150387ebc5173
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39a1ec0acb6535f8f64b9f4bd0815392d61fccbc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007104"
 ---
 # <a name="process-handles-and-identifiers"></a>Handles et identificateurs de processus
 

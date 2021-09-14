@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 825b78101de82757ba3b1842f82b7d2453e06de5d74fdb55b91f0b9169e3c050
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4b83019cafb6053b9f803c815289d9f9f64d32a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119337169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220289"
 ---
 # <a name="_ianalysisproxyevents-interface"></a>\_Interface IAnalysisProxyEvents
 
@@ -49,11 +49,11 @@ L’interface **\_ IAnalysisProxyEvents** contient ces événements.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez ces événements lorsque votre application gère sa propre structure de données, qui est synchronisée avec celle du [**IInkAnalyzer**](iinkanalyzer.md). Pour plus d’informations sur la synchronisation des données de votre application avec **IInkAnalyzer**, consultez [Data proxy with Ink Analysis](data-proxy-with-ink-analysis.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 73cb34246f7b31393527aef053c0cb8cbd12702217dd7113d5714ac022bc3716
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0f851c85563095a66197b0dde8e6cbddc9581f07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119973444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223641"
 ---
 # <a name="win32_loggedonuser-class"></a>\_Classe LoggedOnUser Win32
 
@@ -84,7 +84,7 @@ Qualificateurs : [**remplacement**](/windows/desktop/WmiSdk/standard-qualifiers
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **Win32 \_ LoggedOnUser** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 
@@ -92,7 +92,7 @@ La classe **Win32 \_ LoggedOnUser** est dérivée de la [**\_ dépendance CIM**]
 
 L’exemple PowerShell de [fonction loggedonuser](https://Gallery.TechNet.Microsoft.Com/scriptcenter/0e43993a-895a-4afe-a2b2-045a5146048a) obtient les utilisateurs connectés sur un ordinateur local ou distant, avec les informations de session.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

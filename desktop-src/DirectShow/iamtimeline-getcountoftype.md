@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8e9eb896f00752c5d9369cf494e7b1426347f82a7ebe2aac74f7822a936c2ffb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0636eac7c651ed003c618e258f7dbf2bdd60996
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401060"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006621"
 ---
 # <a name="iamtimelinegetcountoftype-method"></a>IAMTimeline :: GetCountOfType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -76,7 +76,7 @@ Membre du type énuméré de la [**chronologie \_ principale \_**](timeline-majo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -92,7 +92,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’appel de cette méthode équivaut à appeler [**IAMTimelineComp :: GetCountOfType**](iamtimelinecomp-getcountoftype.md) sur le groupe spécifié. Pour plus d’informations, consultez la section Notes de cette méthode.
 
@@ -108,7 +108,7 @@ En règle générale, une application n’appelle pas cette méthode. Elle est a
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: Types de médias MPEG-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64f6486b455fc2045ceb0256f6b6344f06a8923ef767c397068022acec052627
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e44db1f4423365efb7814d61b35c1985142aa14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119684929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223409"
 ---
 # <a name="mpeg-1-media-types"></a>Types de médias MPEG-1
 
@@ -40,7 +40,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 | Type principal            | Flux de MEDIATYPE \_          |
 | Subtype               | MEDIASUBTYPE \_ MPEG1VideoCD |
 | Type de format           | GUID \_ null                 |
-| Structure de format      | Aucun                       |
+| Structure de format      | None                       |
 | Exemple de contenu multimédia | Flux d’octets ; aucun alignement. |
 
 
@@ -120,7 +120,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 | Type principal            | Flux de MEDIATYPE \_                              |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Video                      |
 | Type de format           | GUID \_ null                                     |
-| Structure de format      | Aucun                                           |
+| Structure de format      | None                                           |
 | Exemple de contenu multimédia | Tableau d’octets de flux vidéo (aucune couche système). |
 
 
@@ -136,14 +136,14 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 | Type principal            | Flux de MEDIATYPE \_                              |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Audio                      |
 | Type de format           | GUID \_ null                                     |
-| Structure de format      | Aucun                                           |
+| Structure de format      | None                                           |
 | Exemple de contenu multimédia | Tableau d’octets de flux audio (aucune couche système). |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les filtres MPEG-1 DirectShow prennent en charge ces types comme suit.
 

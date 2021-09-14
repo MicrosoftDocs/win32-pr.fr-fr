@@ -4,12 +4,12 @@ description: Un bouton déroulant peut présenter aux utilisateurs une liste d�
 ms.assetid: 2D908D4B-AA8B-4DEF-B656-C37B673ABB4D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b74443b0d29b3ab39255d7417fd13677769f6a762ebe176e8301a76029db0c37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35d6f59bfa888d346e196e13ce030d1473a07f0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119544946"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006299"
 ---
 # <a name="how-to-handle-drop-down-buttons"></a>Comment gérer les boutons déroulants
 

@@ -4,12 +4,12 @@ description: La liste éléments récents est un volet du menu de l’applicatio
 ms.assetid: fdead358-d303-46de-9f8e-6fc2832d8e94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f1d67c38e1eb9014cfd3349881ed2849755ebc89489cc925052aa690f54adc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 61f78c01fc4d6cc830eba644f7dcf22b6fb03e82
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810877"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219860"
 ---
 # <a name="recent-items"></a>Éléments récents
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la méthode [IApplicationDocumentLists :: GetList](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist) peut être utilisée pour récupérer la liste des derniers fichiers de l’interpréteur de commandes Windows pour l’application ruban. L’objet récupéré par cette méthode peut ensuite être utilisé par l’application pour créer les données requises par l’infrastructure du ruban pour remplir la liste des **éléments récents** du menu de l' [application](windowsribbon-controls-applicationmenu.md).
 

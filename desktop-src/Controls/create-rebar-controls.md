@@ -4,12 +4,12 @@ description: Une application crée un contrôle rebar en appelant la fonction Cr
 ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebd6063f8921453a5c71e1c2467bf803c67c0a1b4f66e98006b9118e6a588b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19b38cd49e8e6016dafad5ec07c77be570a5a430
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831771"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006506"
 ---
 # <a name="how-to-create-rebar-controls"></a>Comment créer des contrôles Rebar
 

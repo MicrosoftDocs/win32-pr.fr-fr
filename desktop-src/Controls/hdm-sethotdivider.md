@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eedfca7a6f0d10651984efb63c4db63116c4a53d2b9f9b85905c93fc12e6ca16
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: feb894100878e9b3ee85e8e8367a4b81a022a0a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119544749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006264"
 ---
 # <a name="hdm_sethotdivider-message"></a>\_Message HDM SETHOTDIVIDER
 
@@ -58,15 +58,15 @@ Si *wParam* a la **valeur false**, *lParam* représente l’index entier du sép
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur égale à l’index du séparateur mis en surbrillance par le contrôle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message crée un effet qu’un contrôle header génère automatiquement lorsqu’il a le style [**HDS \_ DRAGDROP**](header-control-styles.md) . Le message **HDM \_ SETHOTDIVIDER** est destiné à être utilisé lorsque le propriétaire du contrôle gère manuellement les opérations de glisser-déplacer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

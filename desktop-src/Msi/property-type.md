@@ -4,12 +4,12 @@ ms.assetid: 819e4e90-0bc3-41ba-851d-1d4c52b6eeea
 title: Type de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6446b5a0ef5f2cf1bc969f531a3b8c35e6990a2ca3eee3c0002e4f62fbf4cea9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36236c78160abbfe3ad64c6b801a3cdbdbb98b48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009740"
 ---
 # <a name="property-type"></a>Type de propriété
 

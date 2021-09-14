@@ -22,11 +22,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a854eec792943a6fc094796de1e3ea6849c6a5e2
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480635"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192627"
 ---
 # <a name="radiobutton-control-type"></a>RadioButton (type de contrôle)
 
@@ -127,7 +127,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une case d’option représente une option sélectionnable unique parmi un groupe de cases d’option homologues. Dans l’idéal, les cases d’option doivent avoir un élément de regroupement qui clarifie les limites des cases d’option homologues. Toutefois, il arrive souvent que la limite soit impliquée par la structure de l’élément d’interface utilisateur. Par exemple, un menu peut contenir un ensemble de cases d’option consécutives à la place d’éléments de menu, ou un ensemble de cases d’option qui se produisent après une étiquette de groupe, mais avant un élément actionnable tel que Button.
 
@@ -135,7 +135,7 @@ Une case d’option représente une option sélectionnable unique parmi un group
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des types de contrôle UI Automation](uiauto-controltypesoverview.md)

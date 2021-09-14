@@ -4,12 +4,12 @@ ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
 title: Utilisation de l’utilitaire Checkv4.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3377e62e5a874910f91857b6c5dc64df3c3cccddbe405ab6ca199241038a4ff
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2fc9eca96b2138f9950b157a4b7690dc382f273e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120121065"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192615"
 ---
 # <a name="using-the-checkv4exe-utility"></a>Utilisation de l’utilitaire Checkv4.exe
 

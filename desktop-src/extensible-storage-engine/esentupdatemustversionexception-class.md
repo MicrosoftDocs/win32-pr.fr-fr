@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0809230d5f0ecc9ae3d92932e3197cfc2629f1204c17b287837d830f12c70ba3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fad36eb0cddf7d54bbdd72786d0c43435ddc164d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119969149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192580"
 ---
 # <a name="esentupdatemustversionexception-class"></a>EsentUpdateMustVersionException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentUpdateMustVersionException](./esentupdatemustversionexception-members.md)
 

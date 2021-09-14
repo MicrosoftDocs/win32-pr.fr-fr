@@ -4,12 +4,12 @@ ms.assetid: 423359be-9d41-4a5f-91cd-f6d7a6a91d9d
 title: Restriction de l’accès aux DLL d’extension de performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43bfe7877a3ab93ea21945eacd9398d9f9536deff66ca9bd95b73abea7d8d1aa
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd433cad68ec3e50f6b17994da98164e2ae9f237
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119962379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007177"
 ---
 # <a name="restricting-access-to-performance-extension-dlls"></a>Restriction de l’accès aux DLL d’extension de performance
 

@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 6066dfd4280f7c43c9804933fb1ed5fb931bfa08
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006939"
 ---
 # <a name="renameprinter-method-of-the-win32_printer-class"></a>Méthode RenamePrinter de la \_ classe Printer Win32
 
@@ -49,7 +49,7 @@ Nouveau nom de l’imprimante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 

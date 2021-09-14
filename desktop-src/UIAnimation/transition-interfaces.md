@@ -4,12 +4,12 @@ description: cette section contient les spécifications de référence pour les 
 ms.assetid: 581C853D-F213-4227-AC61-4ED2E5D4EF04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5791de6e2ca148e42ef836c8bb9be2d9dc96304df00a856b1bc036e05fca3fc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0110c44a1805c093f0872b62a4a21e13f29e00cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119418599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192507"
 ---
 # <a name="transition-interfaces"></a>Interfaces de transition
 

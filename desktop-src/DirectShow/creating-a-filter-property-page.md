@@ -4,12 +4,12 @@ ms.assetid: 028e2c4e-0241-4057-8514-d3e9b456ab6e
 title: Création d’une page de propriétés de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a46d891c42a6cdb2f1c636278a8270fb13a69580697a31fe78f2f3687246f20b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6cc19bf918ba47c53a04e34f5e5292bfdc716eca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006689"
 ---
 # <a name="creating-a-filter-property-page"></a>Création d’une page de propriétés de filtre
 

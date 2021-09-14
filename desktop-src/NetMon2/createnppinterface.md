@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 03c2bb7fae0f68e6d38016df353266cfc9ec11757eeb98f6a5e41ab4316e63c6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d0efa1c33dd5e0778f13ddd59290de324c92e813
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119744539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222676"
 ---
 # <a name="createnppinterface-function"></a>CreateNPPInterface fonction)
 
@@ -62,13 +62,13 @@ Pointeur vers le pointeur retourné vers l’interface demandée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est une valeur NMERR qui décrit l’erreur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

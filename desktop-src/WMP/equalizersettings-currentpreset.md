@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb52841174250b66eae28e7b60528fc60b20c17469461cf252b5897835c7d3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a67e48670f100491f24bd4f0a46462f252603fd4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191768"
 ---
 # <a name="equalizersettingscurrentpreset"></a>EQUALIZERSETTINGS.currentPreset
 
@@ -31,11 +31,11 @@ L’attribut **currentPreset** spécifie ou récupère l’index de la préséle
 
 Cet attribut est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cet attribut n’est pas spécifié, la valeur précédente est conservée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

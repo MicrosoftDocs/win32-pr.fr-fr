@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 244274d969473531bae7c1d124af24a88d6b98d9db8bdbe073d054a3a9e36ac1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fd4d79d23f7b56a29bc4f5142ed03b23e8081687
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006404"
 ---
 # <a name="em_seteventmask-message"></a>\_Message em SETEVENTMASK
 
@@ -43,15 +43,15 @@ Nouveau masque d’événement pour le contrôle RichEdit. Pour obtenir la liste
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne le masque d’événement précédent.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le masque d’événement par défaut (avant tout est défini) est ENM \_ aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

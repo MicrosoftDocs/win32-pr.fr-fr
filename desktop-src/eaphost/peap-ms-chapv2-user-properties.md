@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés PEAP MS-CHAPv2 utilisateur. Con
 ms.assetid: af1ed6b1-712e-4b55-9ab4-b6b38f486fb1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5f5218510f87def8253e3a3f5bd30978523f95e50d7e5aa1b9ede55b96d655
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6b2d3d48e35c300be2baf9c563c8168f5914a39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118784879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191628"
 ---
 # <a name="peap-ms-chapv2-user-properties"></a>Propriétés de l’utilisateur MS-CHAPv2 PEAP
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e304c8d9ed7ef94ee23280d1466450c73e0627d35183c7edfafc4ef13eeba636
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9fdf499b494f41a0acc5cc446bc92deade61c045
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120079059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239070"
 ---
 # <a name="equalpins-function"></a>EqualPins fonction)
 
@@ -57,7 +57,7 @@ Pointeur vers l’autre code confidentiel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si les deux codes confidentiels se trouvent sur le même objet, ou **false** dans le cas contraire.
 

@@ -4,12 +4,12 @@ ms.assetid: ed63f448-8ca3-4733-afc0-2d743f82bebe
 title: Attribut mstart
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c65ffcb7d3da41f3e1f1232e37a6f5786755980eb63a8bbc554bbe726f453e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb637dd0c5f924a593370ceb0fb205adf5d589ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120050949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006588"
 ---
 # <a name="mstart-attribute"></a>Attribut mstart
 

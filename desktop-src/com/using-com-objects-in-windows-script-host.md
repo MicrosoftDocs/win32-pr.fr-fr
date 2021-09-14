@@ -4,12 +4,12 @@ description: Microsoft Windows script Host est un utilitaire de script que vous 
 ms.assetid: b13c1bdf-91ce-42a2-b66a-20d68952bb34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abc3ba9a14fa948dea9ed716cfa6f3e082d9fb4f56bb3995f052447787ba949a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7cb28fc0e388ba69f28c56e780d058d27f9e165
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117917749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191692"
 ---
 # <a name="using-com-objects-in-windows-script-host"></a>utilisation d’objets COM dans Windows l’environnement d’exécution de scripts
 

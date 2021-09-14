@@ -5,11 +5,11 @@ title: Événement InkDisp. InkDeleted (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c9022b34b128f92530761a0093b2e7c1823dd88e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513980"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220049"
 ---
 # <a name="inkdispinkdeleted-event"></a>Événement InkDisp. InkDeleted
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cet événement ne retourne pas de valeur.
 
@@ -57,13 +57,13 @@ Cette méthode d’événement est définie dans l' \_ interface IInkEvents. L' 
 
 L’événement **InkDeleted** est déclenché même en mode SELECT ou Erase, pas uniquement lors de l’insertion d’une entrée manuscrite. Pour cela, vous devez surveiller le mode d’édition (que vous êtes chargé de définir) et connaître le mode avant d’interpréter l’événement. L’avantage de cette exigence est une plus grande liberté d’innover sur la plate-forme grâce à une meilleure connaissance des événements de plateforme.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

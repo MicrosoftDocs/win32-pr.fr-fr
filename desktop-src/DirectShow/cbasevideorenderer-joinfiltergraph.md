@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a3aed2c887bc7a452cda978e96cd369a71cad4fab60a72e0c914ebe9d9790a41
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: acabb6deeb6577fa04479fc4014e210d4a5654d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120052209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239201"
 ---
 # <a name="cbasevideorendererjoinfiltergraph-method"></a>Méthode CBaseVideoRenderer. JoinFilterGraph
 
@@ -57,15 +57,15 @@ Pointeur vers le nom du filtre ajouté.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre remplace la fonction membre [**CBaseFilter :: JoinFilterGraph**](cbasefilter-joinfiltergraph.md) . Si le filtre quitte le graphique de filtre (*pGraph* a la **valeur null**), il envoie une notification d’événement de la [**\_ fenêtre EC \_ détruite**](ec-window-destroyed.md) afin que le gestionnaire de ressources ne conserve pas le convertisseur comme un objet de focus.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

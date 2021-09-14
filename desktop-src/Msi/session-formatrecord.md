@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f58aabc0bd222b22ee74cb0b431ce8051ed6bad546d963160c922bd86dee2383
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e87c73e5ef7adafd9caab00bf257fe8a7afc3c33
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007316"
 ---
 # <a name="sessionformatrecord-method"></a>Session. FormatRecord, méthode
 
@@ -46,11 +46,11 @@ Objet **Record** requis contenant un modèle et des données à mettre en forme.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **FormatRecord** utilise le processus de format suivant.
 
@@ -70,7 +70,7 @@ Si une partie de la chaîne est placée entre accolades et contient un ou plusie
     -   Si une sous-chaîne du formulaire \[ *$componentkey* \] est trouvée, elle est remplacée par le répertoire d’installation du composant, avec la valeur *componentkey* utilisée comme clé dans la [table des composants](component-table.md). La valeur de \[ $ *componentkey* \] reste vide et n’est pas remplacée par un répertoire tant que le programme d’installation n’a pas exécuté l’action [CostInitialize](costinitialize-action.md), l’action [FileCost](filecost-action.md)et l' [action CostFinalize](costfinalize-action.md). La valeur de \[ $ *componentkey* \] dépend de l’état d’installation du composant. Si le composant est exécuté à partir de la source, la valeur est le répertoire source du fichier. Si le composant est exécuté localement, la valeur est le répertoire cible après l’installation. Si le composant est absent, la valeur est laissée vide. Pour plus d’informations sur la vérification de l’état d’installation des composants, consultez [vérification de l’installation de fonctionnalités, de composants et de fichiers](checking-the-installation-of-features-components-files.md).
     -   Si une sous-chaîne du formulaire « \[ \\ c \] » est trouvée, elle est remplacée par le caractère sans traitement supplémentaire. Seul le premier caractère après la barre oblique inverse est conservé ; tout le reste est supprimé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

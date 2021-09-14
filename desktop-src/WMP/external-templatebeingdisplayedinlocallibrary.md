@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8292e2527fe14ec00a2bf7169b4e2ea2ca4c8229672625712ed3ad3a10e421e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f1d9a93d870882a34014ea2d0d35f29b91f54d7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192303"
 ---
 # <a name="externaltemplatebeingdisplayedinlocallibrary"></a>External. templateBeingDisplayedInLocalLibrary
 
@@ -40,13 +40,13 @@ window.external.templateBeingDisplayedInLocalLibrary
 
 Cette propriété est une **valeur booléenne** en lecture seule. **True** indique que le flux est affiché dans le contrôle Tree-View de la bibliothèque locale.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une page de découverte qui représente un flux pour une sélection dynamique peut afficher un bouton qui permet à l’utilisateur d’enregistrer le flux dans sa bibliothèque locale. L’enregistrement du flux, dans ce contexte, signifie que certaines métadonnées sont enregistrées sur l’ordinateur de l’utilisateur et que le flux est listé sous le nœud **sélections** dans le contrôle arborescence de la bibliothèque locale. Script sur la page détection peut inspecter la propriété **templateBeingDisplayedInLocalLibrary** pour déterminer si l’utilisateur a déjà enregistré le flux dans la bibliothèque locale. Si l’utilisateur a déjà enregistré le flux, la page détection ne doit pas afficher le bouton enregistrer.
 
 Une page de découverte qui représente un flux radio doit inspecter la propriété **templateBeingDisplayedInLocalLibrary** pour la même raison.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

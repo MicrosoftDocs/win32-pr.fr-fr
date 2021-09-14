@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e853d5a13c40316341c0759899e06e7292c006c00068a1b527e5035ff10422b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb8112eafec018b12012d20b37bfe30f7b464377
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119506209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193072"
 ---
 # <a name="iwmpcontrols3getaudiolanguageid-method"></a>IWMPControls3 :: getAudioLanguageID, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPControls3.getAudioLanguageID
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. Int32** qui est le LCID.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
@@ -72,7 +72,7 @@ pour le contenu multimédia Windows, les propriétés et les méthodes associée
 
 Utilisez la propriété **audioLanguageCount** pour obtenir le nombre de langues audio prises en charge, puis accédez à une langue audio individuellement à l’aide d’un index de base un.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 100cfb1d322cde2d411a0298ee86c224899669defc585826b16bf96751bb4639
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba8f37960659f29dd33d5b8f27f0b5a2e3d35eb0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118673129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006420"
 ---
 # <a name="em_setcharformat-message"></a>\_Message SETCHARFORMAT em
 
@@ -68,17 +68,17 @@ Les membres **szFaceName** et **bCharSet** peuvent être remplacés lorsqu’ils
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est une valeur différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si ce message est envoyé plusieurs fois avec les mêmes paramètres, l’effet sur le texte est basculé. Autrement dit, l’envoi du message une fois produit l’effet, l’envoi du message à deux reprises annule l’effet, et ainsi de suite.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

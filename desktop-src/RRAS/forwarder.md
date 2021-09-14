@@ -4,12 +4,12 @@ description: Le redirecteur est le composant en mode noyau du routeur qui est re
 ms.assetid: 69cdbefa-9137-48cb-940a-badfb3f4f231
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5011d340b444c9d0be5b26ee5449f041bb7419fd4a52f8a983ce2b85d9b106f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52885000a9f1fcc117cd1fefc207531b9b524e74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119674019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239574"
 ---
 # <a name="forwarder"></a>Redirecteur
 

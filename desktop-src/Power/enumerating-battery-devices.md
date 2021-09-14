@@ -4,12 +4,12 @@ ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: Énumération des unités de batterie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28ed27979ca8b6abdb8015da58a9b6205f9ee3123cd4a82ccf7bd9c121e10441
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d610feda8fd312bbefe2742da50d82a664a8ce2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143552"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007158"
 ---
 # <a name="enumerating-battery-devices"></a>Énumération des unités de batterie
 

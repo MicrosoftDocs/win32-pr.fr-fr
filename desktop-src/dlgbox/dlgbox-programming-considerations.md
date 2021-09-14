@@ -21,12 +21,12 @@ keywords:
 - boîtes de dialogue, paramètres
 ms.topic: article
 ms.date: 08/25/2020
-ms.openlocfilehash: 956f700841b0a3d76b7e071f0232382507394879a0253bc4cbcea533fdbb23bf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 790abe7c76cdb99f86b2a90a133b15faae721e0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119456249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192592"
 ---
 # <a name="dialog-box-programming-considerations"></a>Considérations relatives à la programmation des boîtes de dialogue
 

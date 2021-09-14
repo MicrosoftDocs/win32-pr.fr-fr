@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ce820e515bb72cbd2521521726f2b6962c49ee1b453781b5d17993c45e0d22d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77f5ba32606ff228908e8b7a1559a73ae5139e9c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006996"
 ---
 # <a name="enablewins-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableWINS de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -73,7 +73,7 @@ Valeur de l’identificateur d’étendue qui sera ajoutée à la fin du nom Net
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarrage n’est requis ; 1 (un) pour une exécution réussie lorsqu’un redémarrage est nécessaire ; nombre différent en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -200,7 +200,7 @@ Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarra
 
 L’exemple de code [activer WINS pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/64cae6dd-4155-4825-ab25-5727503edf5a) VBScript, sur la Galerie TechNet, utilise **ENABLEWINS** pour activer WINS sur toutes les cartes réseau installées sur un ordinateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

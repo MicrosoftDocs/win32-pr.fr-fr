@@ -12,12 +12,12 @@ keywords:
 - contrôle ActiveX, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4331889aaa38ea7bd6a050146dff72a0c0438dd25354df7a73678f9ab967993e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81c53d5b614920162d6def582fcf09fef1440845
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118573424"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192728"
 ---
 # <a name="player-control-guide"></a>Guide de contrôle du lecteur
 

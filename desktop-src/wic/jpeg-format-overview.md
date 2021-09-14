@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique fournit des informations sur le codec JPEG natif disponible via le composant WIC (Windows Imaging Component).
+description: cette rubrique fournit des informations sur le codec JPEG natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: 9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E
 title: Vue d’ensemble du format JPEG
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8a2acc7fcd71fc962d3321112d342f675b878188
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444190"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219916"
 ---
 # <a name="jpeg-format-overview"></a>Vue d’ensemble du format JPEG
 
-Cette rubrique fournit des informations sur le codec JPEG natif disponible via le composant WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec JPEG natif disponible via le composant WIC (Windows Imaging Component).
 
 ## <a name="codec-identity"></a>Identité du codec
 

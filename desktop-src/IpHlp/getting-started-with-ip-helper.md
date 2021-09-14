@@ -4,12 +4,12 @@ ms.assetid: 3280d6cf-2741-40fe-8aa5-9f5be96d9fb8
 title: Prise en main avec l’assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134ca2df12a7d2d2cbd2d0a64f1da07c8aeecd4980fea791bfc19ca018cd87be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 566ed4503c9bbafaee846aebf30c31993f7ce7e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119014157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009792"
 ---
 # <a name="getting-started-with-ip-helper"></a>Prise en main avec l’assistance IP
 

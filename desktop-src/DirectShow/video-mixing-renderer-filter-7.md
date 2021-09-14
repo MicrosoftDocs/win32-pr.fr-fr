@@ -5,11 +5,11 @@ title: Filtre de convertisseur de mixage vidéo 7
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 988af74dc2e4abac06215f283a496bb719384891
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122989162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239039"
 ---
 # <a name="video-mixing-renderer-filter-7"></a>Filtre de convertisseur de mixage vidéo 7
 
@@ -54,7 +54,7 @@ Pour plus d’informations, consultez [utilisation du convertisseur de mixage vi
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La broche d’entrée expose l’interface **IOverlay** uniquement lorsque le filtre VMR-7 est en mode fenêtre. La seule méthode **IOverlay** implémentée par le code PIN est **GetWindowHandle**, ce qui permet à une application d’obtenir un handle vers la fenêtre vidéo du filtre. Toutes les autres méthodes **IOverlay** retournent E \_ NOTIMPL. En mode sans fenêtre, le filtre ne crée pas de fenêtre vidéo, donc le code pin n’expose pas l’interface.
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9138b05b949098c59996c69143059de5cb5b25cafcd8da7d922de120d586b356
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a882da6c07ec76a94c8e214fe1da11c71680b0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118568791"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192248"
 ---
 # <a name="starttime-element"></a>STARTTIME, élément
 
@@ -43,7 +43,7 @@ l’index de temps (en heures, minutes, secondes et centièmes de seconde) à pa
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **entry**, **ref** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
@@ -62,7 +62,7 @@ cet élément définit un index de temps dans le contenu où Lecteur Windows Med
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

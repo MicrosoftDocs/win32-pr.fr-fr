@@ -4,12 +4,12 @@ ms.assetid: 74af0502-dae1-438c-8e4b-7663093b3fe3
 title: Synchronisation de l’exécution de plusieurs threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04a7e80f3c1d4ffdd874d9627a8212e26ee4923a5f2349bdebc4ff09299936c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6a1b3dd51d666d507771476792e679f7980fab8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117793092"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007086"
 ---
 # <a name="synchronizing-execution-of-multiple-threads"></a>Synchronisation de l’exécution de plusieurs threads
 

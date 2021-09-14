@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8fc031258cb1eb15b578cc9e32e3b8542d47ae4165003590822f45e13fcd92a0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4828b81af5d6d543aaf16a34a08350f09078d623
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119752739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006980"
 ---
 # <a name="pauseservice-method-of-the-win32_baseservice-class"></a>Méthode PauseService de la \_ classe Win32 BaseService
 
@@ -40,7 +40,7 @@ uint32 PauseService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur.
 
@@ -278,7 +278,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

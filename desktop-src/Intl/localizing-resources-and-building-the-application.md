@@ -4,12 +4,12 @@ ms.assetid: 386e9601-ce21-4ef0-b225-0c4249d1942d
 title: Localisation des ressources et génération de l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 490fde8e0b6d9381b346409efad1501331be71d2d4e958be050274dc0428fe62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74262499b20836ee4860f1c0fc1a1bf80e19d58d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119788499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007360"
 ---
 # <a name="localizing-resources-and-building-the-application"></a>Localisation des ressources et génération de l’application
 

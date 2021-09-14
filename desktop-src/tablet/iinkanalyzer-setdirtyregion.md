@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: a39fc420b368911788efcb9462c9c4be5b4828c82906ef2c94bb5be99ca17568
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72278dd9fe1d772d4ef340d25694d42f9c48ed7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119091469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220161"
 ---
 # <a name="iinkanalyzersetdirtyregion-method"></a>IInkAnalyzer :: SetDirtyRegion, méthode
 
@@ -46,11 +46,11 @@ HRESULT SetDirtyRegion(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode identifie les zones qui doivent être analysées ou réanalysées. Toutes les méthodes [**IInkAnalyzer**](iinkanalyzer.md) qui ajoutent, mettent à jour ou suppriment des données de trait mettent à jour la région modifiée. Pour marquer manuellement une zone pour la réanalyse :
 
@@ -60,7 +60,7 @@ Cette méthode identifie les zones qui doivent être analysées ou réanalysées
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) analyse l’encre au sein de sa région modifiée pendant un appel à la méthode [**IInkAnalyzer :: Analyze**](iinkanalyzer-analyze.md) ou à la [**méthode IInkAnalyzer :: BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md). Toutefois, le **IInkAnalyzer** peut développer l’opération d’analyse pour inclure les régions voisines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

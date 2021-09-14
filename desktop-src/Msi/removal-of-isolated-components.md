@@ -1,19 +1,19 @@
 ---
-description: Windows Installer effectue les actions suivantes lors de la suppression d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+description: Windows Le programme d’installation effectue les actions suivantes lors de la suppression d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 ms.assetid: 26343a01-9a06-43d5-bbe3-959faf51739d
 title: Suppression de composants isolés
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: adf19769067230b82f68a35f7b9fbedcd1c56440
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529307"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009655"
 ---
 # <a name="removal-of-isolated-components"></a>Suppression de composants isolés
 
-Windows Installer effectue les actions suivantes lors de la suppression d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+Windows Le programme d’installation effectue les actions suivantes lors de la suppression d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 
 ## <a name="uninstall"></a>Désinstaller l’interface
 

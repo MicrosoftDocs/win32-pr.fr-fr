@@ -6,12 +6,12 @@ keywords:
 - Administration RAS RRAS, administration du serveur et du port
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4842048c52460ef4f116d5f62458cd72293e6bef83820e969275667cb2ab2a90
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4cb9d3cc520efa6bbb492e8d9e967d423548f96a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120028769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007063"
 ---
 # <a name="about-ras-server-and-port-administration"></a>À propos de l’administration du serveur et du port RAS
 

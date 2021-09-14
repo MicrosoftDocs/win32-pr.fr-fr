@@ -4,12 +4,12 @@ ms.assetid: 783be0b2-7894-4780-900d-98918f824a04
 title: Utilisateurs et groupes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea7d6ae84dba833ddd06eb81944cecb9aa401c0f8f1971c3164317cefae14fbe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c7c40ee9234fa8d6259282855011cfc3fc008d6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119906819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222412"
 ---
 # <a name="users-and-groups"></a>Utilisateurs et groupes
 

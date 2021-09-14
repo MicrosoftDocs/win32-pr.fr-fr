@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 6f727fb6cf375e09a260ee68f62eac83816ff5d4
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363683"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007223"
 ---
 # <a name="break-command"></a>Break, commande
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la touche arrêt est activée et que l’utilisateur appuie sur la touche identifiée par le code de la touche virtuelle spécifiée dans le paramètre *lpszVirtKey* , l’appareil renvoie le contrôle à l’application. Si possible, la commande continue l’exécution.
 

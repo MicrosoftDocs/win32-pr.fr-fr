@@ -4,7 +4,7 @@ description: Contient des informations qui identifient la structure parente.
 ms.assetid: 0BC1FDAA-C750-4DEC-AF6A-B2CB3240B67C
 keywords:
 - STOWED_EXCEPTION_INFORMATION_HEADER structure Rapport d’erreurs Windows
-- Pointeur de structure PSTOWED_EXCEPTION_INFORMATION_HEADER Rapport d’erreurs Windows
+- pointeur de structure PSTOWED_EXCEPTION_INFORMATION_HEADER Rapport d’erreurs Windows
 topic_type:
 - apiref
 api_name:
@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 101bb1fb1555c829622a42c17fdfb01488c57636
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033168"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220020"
 ---
 # <a name="stowed_exception_information_header-structure"></a>Structure d' \_ \_ \_ en-tête d’informations d’exception arrimé
 
@@ -81,14 +81,14 @@ Valeur 32 bits qui spécifie la signature de la structure parente.
 
 La structure d’informations d’exception de la version **\_ \_ \_ v1** est identique à cette structure, sauf qu’elle ne contient pas les membres **NestedExceptionType** et **NestedException** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl> |
 
 

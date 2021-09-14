@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes du système d’exploitation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc5cbb168b2a322b5ceae8a2bd73985d14a74b4f1df227fd3e6cce384c554742
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7f47df8a949e3ac07bf2099ea708d496bed87298
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119588289"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006985"
 ---
 # <a name="operating-system-classes"></a>Classes du système d’exploitation
 
@@ -35,7 +35,7 @@ La catégorie système d’exploitation est regroupée dans les sous-catégories
 -   [Sécurité](#security)
 -   [Services](#services)
 -   [Partages](#shares)
--   [menu Démarrer](#start-menu)
+-   [Menu Démarrer](#start-menu)
 -   [Stockage](#storage)
 -   [Utilisateurs](#users)
 -   [activation du produit Windows](#windows-product-activation)
@@ -168,10 +168,10 @@ Les classes de sous-catégorie fichiers de mémoire et de page représentent les
 
 | Classe                                                                 | Description                                                                                                                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_Fichier d’échange Win32**](win32-pagefile.md)                             | Classe d’instance<br/> représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système de Windows.<br/>                  |
+| [**\_Fichier d’échange Win32**](win32-pagefile.md)                             | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système Windows.<br/>                  |
 | [**\_PageFileElementSetting Win32**](win32-pagefileelementsetting.md) | Classe d’association<br/> Met en relation les paramètres initiaux d’un fichier d’échange et l’état de ces paramètres lors d’une utilisation normale.<br/>        |
 | [**\_PageFileSetting Win32**](win32-pagefilesetting.md)               | Classe d’instance<br/> Représente les paramètres d’un fichier d’échange.<br/>                                                                  |
-| [**\_PageFileUsage Win32**](win32-pagefileusage.md)                   | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système d’ordinateur exécutant Windows.<br/> |
+| [**\_PageFileUsage Win32**](win32-pagefileusage.md)                   | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système informatique exécutant Windows.<br/> |
 
 
 
@@ -204,7 +204,7 @@ La sous-catégorie mise en réseau regroupe les classes qui représentent les co
 | [**\_IP4RouteTable Win32**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable)                   | Classe d’instance<br/> Représente des informations qui gouvernent le routage de paquets de données réseau.<br/>                    |
 | [**\_IP4RouteTableEvent Win32**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent)         | Classe d'événements<br/> Représente les événements de changement d’itinéraire IP.<br/>                                                             |
 | [**\_Networkclient Win32**](win32-networkclient.md)                              | Classe d’instance<br/> Représente un client réseau sur un système d’ordinateur exécutant Windows.<br/>                           |
-| [**\_NetworkConnection Win32**](win32-networkconnection.md)                      | Classe d’instance<br/> représente une connexion réseau active dans un environnement de Windows.<br/>                           |
+| [**\_NetworkConnection Win32**](win32-networkconnection.md)                      | Classe d’instance<br/> Représente une connexion réseau active dans un environnement Windows.<br/>                           |
 | [**\_NetworkProtocol Win32**](win32-networkprotocol.md)                          | Classe d’instance<br/> Représente un protocole et ses caractéristiques réseau sur un système informatique exécutant Windows.<br/> |
 | [**\_NTDomain Win32**](/previous-versions/windows/desktop/cimwin32a/win32-ntdomain)                                        | Classe d’instance<br/> Représente un domaine Windows NT.<br/>                                                             |
 | [**\_PingStatus Win32**](/previous-versions/windows/desktop/wmipicmp/win32-pingstatus)                               | Classe d’instance<br/> Représente les valeurs retournées par la commande **ping** standard.<br/>                            |

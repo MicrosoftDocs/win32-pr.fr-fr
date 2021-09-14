@@ -4,12 +4,12 @@ ms.assetid: d037cd8d-9c88-4851-a9da-b2179f53cee6
 title: Utilisation d’une interface utilisateur incorporée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3153e0cb3ba79bd9c5cb6f1ee9b801c12ae828bb7d4dd332d04832bcd5200ea4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f187e50461cfe88adc9c2cabbf8dd8b88ca97a5a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119527299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223012"
 ---
 # <a name="using-an-embedded-ui"></a>Utilisation d’une interface utilisateur incorporée
 

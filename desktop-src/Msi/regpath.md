@@ -4,12 +4,12 @@ ms.assetid: b3b31c37-f478-4b67-ad1f-99faecc7aaba
 title: RegPath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54cc376f63332ab04f96caea8f1bdcafc6468e251a6887a0a400b50ce4ace234
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8672844b0319ef78536fea7a51bba487edf45f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120086019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009676"
 ---
 # <a name="regpath"></a>RegPath
 

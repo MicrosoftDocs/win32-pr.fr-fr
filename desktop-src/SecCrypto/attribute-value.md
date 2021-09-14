@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 41737e086f1889531322115c8ff57e64c8893063f498b2566f0010f0f3f0ca30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b3d2f41c56fc47277bd71354279e75b423d0c0f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117773703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222265"
 ---
 # <a name="attributevalue-property"></a>Propriété Attribute. Value
 
@@ -41,7 +41,7 @@ Attribute.Value As Variant
 
 Variable de **type Variant** qui contient la valeur de l’attribut. Pour les attributs de temps de signature des attributs **\_ authentifiés \_ \_ \_ CAPICOM** , le type de données est date. Pour tous les autres attributs, la valeur de la propriété est une chaîne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

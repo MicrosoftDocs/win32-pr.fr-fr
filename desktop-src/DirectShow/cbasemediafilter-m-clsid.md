@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a166757e7e9a487eb06a6fd604d65bac2cd064d672fa7a013d0afb83553d0d23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c461f0ebe6eeb7f84c4e5b485626c33ffcd3d91e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910824"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239298"
 ---
 # <a name="cbasemediafilterm_clsid-member"></a>CBaseMediaFilter :: m \_ CLSID, membre
 
 Identificateur de classe (CLSID) de l’objet.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++

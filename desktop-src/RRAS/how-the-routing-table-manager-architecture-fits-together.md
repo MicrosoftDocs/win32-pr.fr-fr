@@ -6,12 +6,12 @@ keywords:
 - RTM, architecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1637eed71a89a6de4fa7dad6a4fea4a5918366f69ee05a490824699605a117a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc36c339ac89f01d5ba14c00857b3ced9c29414c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117791359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239550"
 ---
 # <a name="how-the-routing-table-manager-architecture-fits-together"></a>Combinaison de l’architecture du gestionnaire de tables de routage
 

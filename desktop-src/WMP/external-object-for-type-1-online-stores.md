@@ -9,12 +9,12 @@ keywords:
 - objets externes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e7d95d2ca332b88edea73da2238374aeffc52e520d7bc0346eab9f4eb7a05f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f50e5e6bfc98ea3669996b06fa4a4defb52452fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119648999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192376"
 ---
 # <a name="external-object-for-type-1-online-stores"></a>Objet externe pour les magasins de type 1 en ligne
 
@@ -64,7 +64,7 @@ L’objet **externe** expose les méthodes suivantes pour les magasins de type 1
 |-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [addToBasket](external-addtobasket.md)                           | ajoute des éléments multimédias au volet liste (également appelé panier) dans Lecteur Windows Media.                                          |
 | [attemptLogin](external-attemptlogin.md)                         | Affiche une boîte de dialogue qui permet à l’utilisateur d’essayer de se connecter au magasin en ligne.                                                 |
-| [authentifier](external-authenticate.md)                         | Lance une tentative d’authentification de l’utilisateur.                                                                               |
+| [authentifié](external-authenticate.md)                         | Lance une tentative d’authentification de l’utilisateur.                                                                               |
 | [buy](external-buy.md)                                           | Lance l’achat d’un ensemble d’éléments multimédias.                                                                              |
 | [cancelNavigate](external-cancelnavigate.md)                     | informe Lecteur Windows Media qu’il ne doit pas afficher une nouvelle page de découverte, même si la vue a été modifiée dans le lecteur. |
 | [changeView](external-changeview.md)                             | modifie la vue dans Lecteur Windows Media.                                                                                    |

@@ -4,12 +4,12 @@ ms.assetid: 862c95bc-2e0a-42c0-b907-45f64f27bd41
 title: REFERENCE_TIME (Strmif. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08f1600e820ac59c53144743933701a61e4a7b753f814dde06c5c663a760938d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab88576f611674f5b208c5c39d328c77dcf57aec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239069"
 ---
 # <a name="reference_time"></a>temps de référence \_
 
@@ -22,7 +22,7 @@ typedef LONGLONG REFERENCE_TIME;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de données de **\_ temps de référence** est un entier 64 bits.
 
@@ -33,7 +33,7 @@ Les temps de référence sont généralement mesurés à partir de l’une des l
 
 Pour plus d’informations sur les temps de référence, consultez [temps et horloges dans DirectShow](time-and-clocks-in-directshow.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

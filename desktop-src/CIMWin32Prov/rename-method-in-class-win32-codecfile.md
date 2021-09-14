@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c1054ffe0c016c5e06159a13cbdf68d5cfa7521e96727867a74d25a635888165
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a4eb931a0155518ad9644ebb1cce0b604be80602
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077459"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006953"
 ---
 # <a name="rename-method-of-the-win32_codecfile-class"></a>Renommer la méthode de la \_ classe CodecFile Win32
 
@@ -49,7 +49,7 @@ Nouveau nom complet du fichier (ou répertoire). Exemple : c : \\ temp \\newfi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur entière égale à 0 (zéro) si le fichier a été renommé avec succès, et tout autre nombre pour indiquer une erreur.
 
@@ -146,7 +146,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

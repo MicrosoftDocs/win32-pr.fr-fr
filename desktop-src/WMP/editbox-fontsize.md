@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b687dc34e96e73a2d9154d5178c9f8fc8d7a8f2f6a953e76d6806c185b9539ff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8a6e5e0218b9509de67675545756a8506e2cfe43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119863129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191804"
 ---
 # <a name="editboxfontsize"></a>EDITBOX. FontSize
 
@@ -31,7 +31,7 @@ L’attribut **FontSize** spécifie ou récupère la taille de police du contrô
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) qui spécifie la taille de police en points. La valeur par défaut est 10.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

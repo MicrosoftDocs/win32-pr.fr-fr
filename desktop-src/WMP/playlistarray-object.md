@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e062ed6b7dee583bb68771dee243fe7271d95ba2728184bf453e5e77f9d21a3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2660b991cdc2885377140f2b99a647285fc4008c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118334984"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193176"
 ---
 # <a name="playlistarray-object"></a>Objet PlaylistArray
 

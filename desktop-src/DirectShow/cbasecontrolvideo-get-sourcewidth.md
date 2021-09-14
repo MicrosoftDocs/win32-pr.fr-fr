@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 79241f52f9d7b6cb32bd9022d6d022c880656780043e8c78481975c80907511d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 60a78fe647ebf488a47907c058962f13790f2538
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118661494"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239346"
 ---
 # <a name="cbasecontrolvideoget_sourcewidth-method"></a>Méthode CBaseControlVideo. obten \_ SourceWidth
 
@@ -49,7 +49,7 @@ Pointeur vers la largeur du rectangle source actuel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s’agir de l’une des valeurs suivantes ou d’autres valeurs non listées.
 

@@ -4,12 +4,12 @@ ms.assetid: de62bb80-56a0-4652-9509-5d36ed171c69
 title: Utilisation d’un UpgradeCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8482bdaa228bc57432ab730e59f265fc50352c3a63ed29f75ee0a63c65c201ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: caf32d40364653527b9f906e6dd42de64bb9f697
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223009"
 ---
 # <a name="using-an-upgradecode"></a>Utilisation d’un UpgradeCode
 

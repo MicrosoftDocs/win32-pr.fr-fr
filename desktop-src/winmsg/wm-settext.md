@@ -4,12 +4,12 @@ ms.assetid: 1b48c309-6903-4139-bf42-e8526963e681
 title: Message WM_SETTEXT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fc2ab860fd89d726b9763c198fe8d58caa1376a3b919fd3587ad39a612d6667
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c3284855d817d5207b0d7572a41774e961c0113f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055979"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219764"
 ---
 # <a name="wm_settext-message"></a>\_Message WM SETTEXT
 
@@ -40,19 +40,19 @@ Pointeur vers une chaîne se terminant par null qui est le texte de la fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 La valeur de retour est **true** si le texte est défini. Il a la **valeur false** (pour un contrôle d’édition), **lb \_ ERRSPACE** (pour une zone de liste) ou **CB \_ ERRSPACE** (pour une zone de liste déroulante) si l’espace disponible est insuffisant pour définir le texte dans le contrôle d’édition. Il est **CB \_ Err** si ce message est envoyé à une zone de liste déroulante sans contrôle d’édition.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) définit et affiche le texte de la fenêtre. Pour un contrôle d’édition, le texte est le contenu du contrôle d’édition. Pour une zone de liste modifiable, le texte est le contenu de la partie de contrôle de modification de la zone de liste déroulante. Pour un bouton, le texte est le nom du bouton. Pour les autres fenêtres, le texte est le titre de la fenêtre.
 
 Ce message ne modifie pas la sélection actuelle dans la zone de liste d’une zone de liste déroulante. Une application doit utiliser le message [**CB \_ SELECTSTRING**](../controls/cb-selectstring.md) pour sélectionner l’élément dans une zone de liste qui correspond au texte du contrôle d’édition.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -77,7 +77,7 @@ Ce message ne modifie pas la sélection actuelle dans la zone de liste d’une z
 [**WM \_ GETTEXT**](wm-gettext.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Windows](windows.md)

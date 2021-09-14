@@ -10,12 +10,12 @@ keywords:
 - éléments, joueur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8bef2e7758a0146ae6197d17dc3790011a758f9d2fa4e3d54af9461a8b870c9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a50eb4383eab279c28b75467a9ed803501e7720b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118338115"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192703"
 ---
 # <a name="player-element"></a>Élément PLAYER
 

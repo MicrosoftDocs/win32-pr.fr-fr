@@ -4,12 +4,12 @@ ms.assetid: 6a1e6cf3-7a8c-4249-926d-675a54061adf
 title: Conception efficace des rôles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134b1caa68c06aef14a21963bb01ee4dfd12f43153ea917487598d76b0e36d5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0a340cb2fc643a414ebf784a14e7b61a45bccd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191688"
 ---
 # <a name="designing-roles-effectively"></a>Conception efficace des rôles
 
