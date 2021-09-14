@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2397ea32d9069352207eba6a4a5b9709b1c7514fa7d2c5acd16a9539090dba3e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ca15be5dc1893a393e6052832cc7522f27355eeb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923539"
 ---
 # <a name="ctransinplaceinputpinnotifyallocator-method"></a>Méthode CTransInPlaceInputPin. NotifyAllocator
 
@@ -57,7 +57,7 @@ Indicateur qui spécifie si les exemples de cet allocateur sont en lecture seule
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre tente d’utiliser le même allocateur pour les deux connexions de code confidentiel.
 
@@ -84,7 +84,7 @@ Le cas précédent a l’exception suivante :
 
 -   Si l’allocateur proposé est en lecture seule (autrement dit, si le paramètre *bReadOnly* a la **valeur true**) et que le filtre doit modifier les exemples, le filtre doit utiliser deux allocateurs différents. Dans ce cas, si le filtre en amont propose d’utiliser l’allocateur du filtre en aval, la méthode renvoie E \_ Fail.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

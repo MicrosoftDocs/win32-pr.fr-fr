@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 95bfbe3613482d879bde4945d32e3df590c9bd5491b9f274442f3315771f9f96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b857e1ceff4844d66c55cf729a3d2b9771d48846
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923851"
 ---
 # <a name="cbasepinisconnected-method"></a>CBasePin. IsConnected, méthode
 
@@ -40,11 +40,11 @@ BOOL IsConnected();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si le code PIN est connecté. Sinon, retourne **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

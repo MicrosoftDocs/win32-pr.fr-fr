@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2816d148af2a7514dc28a71036402f3781e47a0144848a2ea81bbb94d339f961
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 66cd29758e0b2d63db88db8b998cc79ec12efdd9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999029"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923527"
 ---
 # <a name="ctransinplaceoutputpincheckmediatype-method"></a>Méthode CTransInPlaceOutputPin. CheckMediaType
 
@@ -49,7 +49,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -64,13 +64,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode remplace la méthode [**CTransformOutputPin :: CheckMediaType**](ctransformoutputpin-checkmediatype.md) .
 
 Si le filtre est déjà en continu et utilise deux allocateurs, cette méthode rejette toutes les modifications de format. Sinon, cette méthode appelle la méthode [**CTransformFilter :: CheckInputType**](ctransformfilter-checkinputtype.md) du filtre pour vérifier le type de média. Si la broche d’entrée est connectée, elle appelle également la méthode [**IPIN :: QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) sur la broche de sortie en amont.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

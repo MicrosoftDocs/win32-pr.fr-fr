@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 65ec1e00b83e2ee5d3e9fc53ae0cd0c7bc3544f0a146764c4abf8b528ed96274
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f98e7307cae8ff111d9978e50e50682993c367a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158161"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923812"
 ---
 # <a name="cbasepinm_pfilter-member"></a>CBasePin :: m \_ pFilter, membre
 
@@ -36,7 +36,7 @@ CBaseFilter *m_pFilter;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

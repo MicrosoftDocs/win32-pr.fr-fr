@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4419c8371a4be1f622e23a7662c28106f3ea9ae093a3a7f3045a61e1ca81ff98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 883fa5bc1aeac57bfa861385cb2d10c563341d52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923623"
 ---
 # <a name="cimagepalettem_pfilter-member"></a>CImagePalette :: m \_ pFilter, membre
 
@@ -36,7 +36,7 @@ CBaseFilter *m_pFilter;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

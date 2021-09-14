@@ -4,12 +4,12 @@ ms.assetid: 2e15376d-6b4c-41c5-aef8-0dbb91b81505
 title: À propos des pinceaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c94ea9dac021a013ccc4ef624f9b00a3234102ac905999cb7c085148be91b58
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c825892748b317807377bff12675ea04d2d2535
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119602789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850546"
 ---
 # <a name="about-brushes"></a>À propos des pinceaux
 

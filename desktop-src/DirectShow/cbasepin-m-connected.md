@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c58607ac16d5d67dd30a2d652da40b89ab15d446da799091434a7918ce781eb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eab47440f54435953978aea35c62de8ca1b085ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923824"
 ---
 # <a name="cbasepinm_connected-member"></a>CBasePin :: m \_ membre connecté
 
@@ -36,7 +36,7 @@ IPin *m_Connected;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Le fournisseur Registre système est inscrit dans le cadre du processus d’installation de WMI sur Windows.
+description: Le fournisseur de Registre système est inscrit dans le cadre du processus d’installation de WMI sur Windows.
 ms.assetid: ce5d0785-6e1b-411c-91df-f25767310530
 ms.tgt_platform: multiple
 title: Inscription du fournisseur de Registre système
@@ -11,15 +11,15 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: d600872c4efab5560f4fd794cac63beb4365841c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530848"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923368"
 ---
 # <a name="registering-the-system-registry-provider"></a>Inscription du fournisseur de Registre système
 
-Le fournisseur Registre système est inscrit dans le cadre du processus d’installation de WMI sur Windows. Si vous utilisez une autre plateforme et souhaitez utiliser le fournisseur de Registre système, vous devez d’abord inscrire le fournisseur en suivant les étapes décrites ci-dessous.
+Le fournisseur de Registre système est inscrit dans le cadre du processus d’installation de WMI sur Windows. Si vous utilisez une autre plateforme et souhaitez utiliser le fournisseur de Registre système, vous devez d’abord inscrire le fournisseur en suivant les étapes décrites ci-dessous.
 
 La procédure suivante décrit comment inscrire le fournisseur de Registre système.
 
@@ -27,7 +27,7 @@ La procédure suivante décrit comment inscrire le fournisseur de Registre syst�
 
 1.  Inscrivez le fournisseur en tant que serveur COM.
 
-    Si nécessaire, vous devrez peut-être créer des entrées de registre. Ce processus s’applique à tous les serveurs COM et n’est pas lié à WMI. Pour plus d’informations, consultez la documentation [com](https://msdn.microsoft.com/library/aa139695.aspx) dans le kit de développement logiciel (SDK) Microsoft Windows.
+    Si nécessaire, vous devrez peut-être créer des entrées de registre. Ce processus s’applique à tous les serveurs COM et n’est pas lié à WMI. pour plus d’informations, consultez la documentation [COM](https://msdn.microsoft.com/library/aa139695.aspx) dans le kit de développement logiciel (SDK) de Microsoft Windows.
 
 2.  Créez une instance de la classe [**\_ \_ Win32Provider**](--win32provider.md) pour décrire l’implémentation du fournisseur de Registre système.
 
@@ -107,7 +107,7 @@ La procédure suivante décrit comment inscrire le fournisseur de Registre syst�
 
 4.  Compilez le fichier MOF à l’aide du compilateur MOF ou de l’interface [**IMofCompiler**](/windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler) .
 
-Le fichier RegEvent. mof fourni dans la section WMI de l’SDK Windows contient les instances [**\_ \_ Win32Provider**](--win32provider.md) et [**\_ \_ EventProviderRegistration**](--eventproviderregistration.md) nécessaires à l’inscription du fournisseur de Registre système en tant que fournisseur d’événements. Pour plus d’informations sur l’inscription d’un fournisseur, consultez [inscription d’un fournisseur](registering-a-provider.md) et [réception d’un événement WMI](receiving-a-wmi-event.md).
+le fichier RegEvent. mof fourni dans la section WMI de l’SDK Windows contient les instances [**\_ \_ Win32Provider**](--win32provider.md) et [**\_ \_ EventProviderRegistration**](--eventproviderregistration.md) nécessaires à l’inscription du fournisseur de registre système en tant que fournisseur d’événements. Pour plus d’informations sur l’inscription d’un fournisseur, consultez [inscription d’un fournisseur](registering-a-provider.md) et [réception d’un événement WMI](receiving-a-wmi-event.md).
 
  
 

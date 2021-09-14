@@ -41,11 +41,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 79247bac6e8d3bda9d1aeac4d19b7af894201a57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850653"
 ---
 # <a name="temptablegrbit-enumeration"></a>Énumération TempTableGrbit
 
@@ -84,7 +84,7 @@ public enum TempTableGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">
@@ -95,7 +95,7 @@ public enum TempTableGrbit
 <tr class="odd">
 <td></td>
 <td>Unique</td>
-<td>Cette option demande que les enregistrements avec des clés d’index dupliquées soient supprimés du jeu final d’enregistrements dans la table temporaire. Avant Windows Server 2003, le moteur de base de données supposait toujours que cette option était appliquée en raison du fait que tous les index cluster doivent également être une clé primaire et doivent donc être uniques. À compter de Windows Server 2003, il est désormais possible de créer une table temporaire qui ne supprime pas les doublons quand l’option <a href="dn351284(v=exchg.10).md">ForwardOnly</a> est également spécifiée. Il n’est pas possible de savoir quels doublons seront remportés et quels doublons seront ignorés en général. Toutefois, quand l’option ErrorOnDuplicateInsertion est demandée, le premier enregistrement avec une clé d’index donnée à insérer dans la table temporaire est toujours gagnant.</td>
+<td>Cette option demande que les enregistrements avec des clés d’index dupliquées soient supprimés du jeu final d’enregistrements dans la table temporaire. avant Windows Server 2003, le moteur de base de données supposait toujours que cette option était appliquée en raison du fait que tous les index cluster doivent également être une clé primaire et doivent donc être uniques. à partir de Windows Server 2003, il est désormais possible de créer une table temporaire qui ne supprime pas les doublons quand l’option <a href="dn351284(v=exchg.10).md">ForwardOnly</a> est également spécifiée. Il n’est pas possible de savoir quels doublons seront remportés et quels doublons seront ignorés en général. Toutefois, quand l’option ErrorOnDuplicateInsertion est demandée, le premier enregistrement avec une clé d’index donnée à insérer dans la table temporaire est toujours gagnant.</td>
 </tr>
 <tr class="even">
 <td></td>

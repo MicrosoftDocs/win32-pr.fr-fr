@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1729407f1022c2781fc97f8638ea8748323c151e9bd67c5ad31b30ae05fdff0f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad5e1de9eb2edbdb63eb6f476391ae8387c8d01e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131272"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923652"
 ---
 # <a name="cenummediatypes-class"></a>CEnumMediaTypes, classe
 
@@ -43,16 +43,16 @@ Chaque fois qu’un code PIN modifie sa liste de types de médias préférés, l
 | [**CEnumMediaTypes**](cenummediatypes-cenummediatypes.md)   | Méthode de constructeur.                                             |
 | [**~ CEnumMediaTypes**](cenummediatypes--cenummediatypes.md) | Méthode de destructeur. Virtuels.                                     |
 | Méthodes IEnumMediaTypes                                      | Description                                                     |
-| [**Répliqué**](cenummediatypes-clone.md)                       | Fait une copie de l’énumérateur avec le même état d’énumération. |
+| [**Clone**](cenummediatypes-clone.md)                       | Fait une copie de l’énumérateur avec le même état d’énumération. |
 | [**Suivant**](cenummediatypes-next.md)                         | Récupère un nombre spécifié de types de médias.                    |
-| [**Initialisation**](cenummediatypes-reset.md)                       | Réinitialise la séquence d'énumération au début.               |
-| [**Saut**](cenummediatypes-skip.md)                         | Ignore un nombre spécifié de types de médias.                   |
+| [**Réinitialiser**](cenummediatypes-reset.md)                       | Réinitialise la séquence d'énumération au début.               |
+| [**Ignorer**](cenummediatypes-skip.md)                         | Ignore un nombre spécifié de types de médias.                   |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

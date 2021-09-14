@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ade419666b1df36e851d5d945e14d9035c1377145cecd472244c9178758f45f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dea676a42f6df46d0035fdbb6e812b1df15fbb2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923560"
 ---
 # <a name="ctransformfilterendofstream-method"></a>Méthode CTransformFilter. EndOfStream
 
@@ -40,15 +40,15 @@ virtual HRESULT EndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CTransformInputPin :: EndOfStream**](ctransforminputpin-endofstream.md) du code confidentiel d’entrée appelle cette méthode. Cette méthode fournit la notification de fin de flux en aval. Si la classe dérivée utilise un thread de travail pour fournir des exemples de média, elle doit substituer cette méthode et mettre en file d’attente la notification de fin de flux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

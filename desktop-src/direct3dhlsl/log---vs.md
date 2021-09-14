@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 104f0fcb0121d44c37372cc1b21b50e8ac7f3de0c8549381a5ff32cf3b9a232f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9e0564ab5b38943017e61bde171d0db3060ca0c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924415"
 ---
 # <a name="log---vs"></a>journalisation-vs
 
@@ -36,7 +36,7 @@ where
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source. Le registre source nécessite l’utilisation explicite de Swizzle répliqués, c’est-à-dire qu’exactement l’un des composants. x,. y,. z,. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 
 

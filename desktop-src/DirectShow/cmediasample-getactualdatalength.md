@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67d41c23e45ba65416a0f57336e51d2784b194ee556a778b7036e8dc5fd829ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2e65b72c1e0b6db85a271c10f76e5630b0799b78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923616"
 ---
 # <a name="cmediasamplegetactualdatalength-method"></a>Méthode CMediaSample. GetActualDataLength
 
@@ -40,15 +40,15 @@ LONG GetActualDataLength();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la longueur des données valides, en octets.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La variable membre [**CMediaSample :: m \_ lActual**](cmediasample-m-lactual.md) spécifie cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

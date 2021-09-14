@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b1f4d5ccf336daaa62c4df8f73086dc61d30e8b981813790f195234a41eb2aab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dfd0f3a02865f7945cbe875ca2dab7df339cf8ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923599"
 ---
 # <a name="crenderedinputpinm_batendofstream-member"></a>CRenderedInputPin :: m \_ bAtEndOfStream, membre
 
@@ -36,7 +36,7 @@ BOOL m_bAtEndOfStream;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

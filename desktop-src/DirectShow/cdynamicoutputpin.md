@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6e0b8903f83c372aa85bd1c41fb12ce9065798d79dc4dbd940df926a395f8bc9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 54c6dab41c122456076299df22bf90d886c905cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119871799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923684"
 ---
 # <a name="cdynamicoutputpin-class"></a>CDynamicOutputPin, classe
 
@@ -85,7 +85,7 @@ Quand le filtre propriétaire rejoint ou leaveds le graphique de filtre (dans sa
 | [**SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)                                        | Spécifie le pointeur [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig) et l’événement stop.                                                |
 | [**DeliverBeginFlush**](cdynamicoutputpin-deliverbeginflush.md)                                | Demande la broche d’entrée connectée pour commencer une opération de vidage.                                                                  |
 | [**DeliverEndFlush**](cdynamicoutputpin-deliverendflush.md)                                    | Demande la broche d’entrée connectée pour terminer une opération de vidage.                                                                    |
-| [**Inactive**](cdynamicoutputpin-inactive.md)                                                  | Notifie le code confidentiel que le filtre a arrêté.                                                                                 |
+| [**Inactif**](cdynamicoutputpin-inactive.md)                                                  | Notifie le code confidentiel que le filtre a arrêté.                                                                                 |
 | [**Actif**](cdynamicoutputpin-active.md)                                                      | Notifie le code confidentiel que le filtre est maintenant actif.                                                                               |
 | [**CompleteConnect**](cdynamicoutputpin-completeconnect.md)                                    | Termine une connexion à une broche d’entrée. Virtuels.                                                                              |
 | [**StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md)                            | Obtient l’accès au code confidentiel pour une opération de diffusion en continu. Virtuels.                                                                 |
@@ -103,7 +103,7 @@ Quand le filtre propriétaire rejoint ou leaveds le graphique de filtre (dans sa
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

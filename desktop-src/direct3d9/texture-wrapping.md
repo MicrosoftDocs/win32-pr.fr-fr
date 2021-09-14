@@ -4,12 +4,12 @@ ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
 title: Habillage de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c29ebe78bcfa237f46eacb247432185adedd1e53ae0774e767807269bb3bb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d7c0f8cb6d7793536999d5f3df128849572d3dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119984764"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924483"
 ---
 # <a name="texture-wrapping-direct3d-9"></a>Habillage de texture (Direct3D 9)
 

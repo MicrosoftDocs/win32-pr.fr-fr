@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a134b87e9c7c4d0f665ae37df7ec9cd0ecb3a37c0d0548f27835ead7b8ecca21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed8bcdab7e0909e59e7d9ec00645786f8ce48c02
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923863"
 ---
 # <a name="cbasepinconnect-method"></a>CBasePin. méthode Connecter
 
@@ -57,7 +57,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -75,13 +75,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *VPM* peut avoir la **valeur null**. Il peut également spécifier un type de média partiel, avec la valeur GUID \_ null pour le type, le sous-type ou le format principal.
 
 Dans la classe de base, cette méthode teste si le pin est déjà connecté et si le filtre est arrêté. Elle délègue le reste du processus de connexion à la méthode [**CBasePin :: AgreeMediaType**](cbasepin-agreemediatype.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

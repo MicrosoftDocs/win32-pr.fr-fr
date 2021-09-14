@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63ea3fa8ecbc6e644ccc5f4b1fac7a2fcd9c18270474f45dc08faa164f76cbec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd06bcec9b3c435370ec3f12340c1c3aede3904c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660774"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923964"
 ---
 # <a name="cbasecontrolwindowget_backgroundpalette-method"></a>Méthode CBaseControlWindow. obten \_ BackgroundPalette
 
@@ -49,15 +49,15 @@ Pointeur vers un indicateur booléen Automation (0 est désactivé, 1 est activ�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre implémente la méthode [**IVideoWindow :: obten \_ BackgroundPalette**](/windows/desktop/api/Control/nf-control-ivideowindow-get_backgroundpalette) . Si une vidéo est lue dans une autre application ou un autre document, l’application peut utiliser sa propre palette. Elle peut demander à ce que la vidéo utilise la palette de premier plan actuelle plutôt que sa propre, en affectant la valeur 1 à cet indicateur. Si cette valeur est définie sur 0, la fenêtre installe et réalise sa propre palette par défaut. Notez que le fait de demander à la fenêtre d’utiliser une palette différente entraîne des pénalités de performances graves.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

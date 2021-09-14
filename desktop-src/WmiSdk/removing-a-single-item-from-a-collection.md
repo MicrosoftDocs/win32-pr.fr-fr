@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Suppression d’un seul élément d’une collection WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50364173aff9f28362878e84d5f3ddb496e430521dc5b1bb92bbc11e7e6b528c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6dabeb3ff2e7e70cf6fe25f1ddfb0b14032119d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119995899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923356"
 ---
 # <a name="removing-a-single-item-from-a-wmi-collection"></a>Suppression d’un seul élément d’une collection WMI
 

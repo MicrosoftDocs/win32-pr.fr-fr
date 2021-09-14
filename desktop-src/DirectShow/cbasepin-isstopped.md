@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 64e833ef495ace41a9dcd1614b69e4a081befce0e429fa7aad800a73ce490439
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4185c02b396f7d0d570081ba1401e0ec9e301d46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923848"
 ---
 # <a name="cbasepinisstopped-method"></a>Méthode CBasePin. IsStopped
 
@@ -40,15 +40,15 @@ BOOL IsStopped();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si le filtre est arrêté. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’appelez pas cette méthode à partir de dans la méthode du constructeur **CBasePin** , car le filtre n’est peut-être pas encore initialisé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

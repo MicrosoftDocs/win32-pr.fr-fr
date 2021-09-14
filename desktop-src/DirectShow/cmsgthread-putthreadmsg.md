@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7eefa95c4fd6ab19c895b4d1d47dba3a19302023985a4631708c3cf7ccc10d06
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3445d9af4ec9c7abe6a4401e219fc305e254d555
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119585639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923615"
 ---
 # <a name="cmsgthreadputthreadmsg-method"></a>Méthode CMsgThread. PutThreadMsg
 
@@ -73,17 +73,17 @@ Pointeur facultatif vers un objet d’événement à signaler à l’achèvement
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre met en file d’attente une requête d’exécution par le thread de travail. Les paramètres de cette fonction membre seront mis en file d’attente (dans un objet [**CMsg**](cmsg.md) ) et passés à la fonction membre [**CMsgThread :: ThreadMessageProc**](cmsgthread-threadmessageproc.md) du thread de travail. Cette fonction membre retourne immédiatement après la mise en file d’attente de la demande et n’attend pas que le thread exécute la demande. La fonction membre **CMsgThread :: ThreadMessageProc** de la classe dérivée définit les quatre paramètres.
 
 Cette fonction membre utilise une liste sécurisée multithread. par conséquent, plusieurs appels à cette fonction membre à partir de différents threads peuvent être effectués en toute sécurité.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

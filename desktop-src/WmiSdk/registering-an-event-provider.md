@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 44c6521e56441c929ef108ce4c4b624c11b06ca26dc508c8f2f924e2f87babba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2a4aa77c5c5936639435844179f259080085e02c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992509"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923375"
 ---
 # <a name="registering-an-event-provider"></a>Inscription d’un fournisseur d’événements
 

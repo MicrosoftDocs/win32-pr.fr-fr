@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f6e7c8d133537dc2b185c755e65f3a4febbee762c5c2306de37ad0c627434df7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a1297a3f0d514215270acf7e73b18cba46fca1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923691"
 ---
 # <a name="ccmdqueuegetduecommand-method"></a>Méthode CCmdQueue. GetDueCommand
 
@@ -57,15 +57,15 @@ Délai d’attente avant l’expiration du délai d’attente.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne E \_ Abort si un dépassement de délai se produit. Retourne S \_ OK en cas de réussite ; sinon, retourne une erreur. Retourne un objet qui a été incrémenté à l’aide de **IUnknown :: AddRef**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre se bloque jusqu’à ce qu’une commande en attente soit due. La fonction membre se bloque pendant la durée, en millisecondes, spécifiée dans le paramètre *msTimeout* . Les commandes au moment du flux sont dues uniquement entre les fonctions membres [**CCmdQueue :: Run**](ccmdqueue-run.md) et [**CCmdQueue :: EndRun**](ccmdqueue-endrun.md) . La commande reste en file d’attente jusqu’à l’exécution ou à l’annulation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

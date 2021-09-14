@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e4944d121c4fe99ee36c893a4d51ca0cd72344dfa47dde17629f5ca2a1ce3fd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47c8277a76dbf0fbb9e05262eea5b419466044cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660764"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923972"
 ---
 # <a name="cbasecontrolwindowcbasecontrolwindow-constructor"></a>Constructeur CBaseControlWindow. CBaseControlWindow
 
@@ -81,7 +81,7 @@ Pointeur vers une variable qui reçoit une valeur HRESULT indiquant la réussite
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

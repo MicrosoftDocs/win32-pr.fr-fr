@@ -4,12 +4,12 @@ ms.assetid: 9aa35b39-06f2-48bf-b32c-3e3e32fab68b
 title: À propos des cordes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc3bad0d17d34386ada7c7c3b46bb1bcc4db5f9a2ce572ce78c33f8f4b6af909
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18d6310c47a503766e61b9c7936816a5891da89a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119400529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850552"
 ---
 # <a name="about-chords"></a>À propos des cordes
 

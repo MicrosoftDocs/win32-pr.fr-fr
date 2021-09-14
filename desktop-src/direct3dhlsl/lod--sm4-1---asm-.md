@@ -5,11 +5,11 @@ ms.assetid: A5931203-8CD7-4FC9-A4A4-CA981F38C7A3
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7a1c1ca5a22a735945b76a60c175c665c5cf58fb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679141"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924423"
 ---
 # <a name="lod-sm41---asm"></a>LOD (SM 4.1-ASM)
 
@@ -67,7 +67,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge. |
 |-----------------------------------------------------------|-----------|
 | [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |

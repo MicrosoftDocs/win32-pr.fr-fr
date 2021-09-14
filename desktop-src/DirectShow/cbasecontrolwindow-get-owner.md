@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3a64325fddebc410c5a75a5c2fb8811241012feb6a046b9059897f9b13e0206f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8f8e3d4a331dbc66397a7b0058fcefcede2cdbb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923931"
 ---
 # <a name="cbasecontrolwindowget_owner-method"></a>CBaseControlWindow. obten, \_ méthode de propriétaire
 
@@ -49,11 +49,11 @@ Pointeur vers le propriétaire de la fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fenêtre vidéo peut être lue dans un environnement de documents. Pour ce faire, la fenêtre doit être un enfant d’une autre fenêtre (afin qu’elle soit découpée et déplacée de manière appropriée). Cette propriété permet de définir et de récupérer le propriétaire de la fenêtre. Quand la fenêtre appartient à une autre fenêtre, elle appelle simplement la fonction Microsoft Win32 **SetParent,** . Une application qui appelle cette fonction modifie les styles de fenêtre pour définir le \_ bit WS Child sur.
 
@@ -61,7 +61,7 @@ Lorsque la fenêtre appartient à une autre fenêtre, elle transfère automatiqu
 
 Cette fonction membre est destinée à être appelée par des objets externes par le biais de l’interface [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) . elle verrouille donc la section critique à synchroniser avec le filtre associé. Appelez la fonction membre [**CBaseControlWindow :: GetOwnerWindow**](cbasecontrolwindow-getownerwindow.md) pour récupérer cette propriété si vous n’appelez pas à partir d’un objet externe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

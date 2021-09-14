@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8674734b872b644a9a221e4182ecafc5c02924f4044d977052b442ed271de5e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 78def02b1bbca06802d69c4c6c336f3bd4eeaeb8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119470879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850587"
 ---
 # <a name="windows7grbitsdirty-field"></a>Windows7Grbits. Dirty (champ)
 

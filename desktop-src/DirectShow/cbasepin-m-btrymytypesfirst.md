@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: df94a95783d15c09fd53bd8659db71f2ce0b1aefe5d855fef5f5a03e71445493
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72f98021b6ba97d32974f26ac4e76ca31fa54e5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158370"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923827"
 ---
 # <a name="cbasepinm_btrymytypesfirst-member"></a>CBasePin :: m \_ bTryMyTypesFirst, membre
 
@@ -40,7 +40,7 @@ bool m_bTryMyTypesFirst;
 
 Par défaut, cet indicateur est défini sur **false**. Si l’indicateur a la **valeur true**, la méthode [**CBasePin :: AgreeMediaType**](cbasepin-agreemediatype.md) inverse l’ordre dans lequel elle essaie les types de média.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

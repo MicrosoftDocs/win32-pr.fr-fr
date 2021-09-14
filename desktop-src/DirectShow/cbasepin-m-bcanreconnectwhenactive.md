@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: db402c42b130f9a8148c9259dad28d229825125552d36308bbc5877fd8c74999
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 25bfbb38c0db05e3628d0421e1b89102577cdaea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923847"
 ---
 # <a name="cbasepinm_bcanreconnectwhenactive-member"></a>CBasePin :: m \_ bCanReconnectWhenActive, membre
 
@@ -40,7 +40,7 @@ bool m_bCanReconnectWhenActive;
 
 Par défaut, cet indicateur est défini sur **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

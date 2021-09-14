@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3dx9anim.h
 ms.openlocfilehash: 785284ba1330c957813a099eb6cf1c74521d3c90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322646"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924552"
 ---
 # <a name="d3dxmeshdata-structure"></a>D3DXMESHDATA, structure
 
@@ -76,7 +76,7 @@ Pointeur vers un filet de correction. Consultez [**ID3DXPatchMesh**](id3dxpatchm
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

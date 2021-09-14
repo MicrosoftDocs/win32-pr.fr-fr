@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Modification d’une propriété d’instance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc803bd952ab0957d473f7d5a6a81d8ecfe3c898c52161f461dd001d3456134e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f5f5ea7d18713be0c06b932643d3884128308bac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119131081"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923404"
 ---
 # <a name="modifying-an-instance-property"></a>Modification d’une propriété d’instance
 

@@ -6,11 +6,11 @@ title: Méthodes CIM_LogicalDisk
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1074c153084ff73b21cb1f9759fa17be031b5c31
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201020"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924256"
 ---
 # <a name="cim_logicaldisk-methods"></a>\_Méthodes de disque logique CIM
 

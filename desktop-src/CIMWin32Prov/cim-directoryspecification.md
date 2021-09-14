@@ -26,11 +26,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 903fccebeb5599842bbcd51623dcd8f25aee27eb
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122886122"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924335"
 ---
 # <a name="cim_directoryspecification-class"></a>\_Classe CIM DirectorySpecification
 
@@ -967,7 +967,7 @@ Cette propriété est héritée de la [**\_ vérification CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de **CIM \_ DirectorySpecification**, consultez [classes Win32](win32-provider.md).
 

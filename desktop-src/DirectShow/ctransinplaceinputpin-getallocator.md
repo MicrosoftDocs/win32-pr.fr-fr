@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c3c90587cbd0a9cc9b0abed834db68de3edac6f73d98dac3c8bb283e77f978fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2472630d69119f33653d831386af615718274d99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118654850"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923551"
 ---
 # <a name="ctransinplaceinputpingetallocator-method"></a>Méthode CTransInPlaceInputPin. GetAllocator
 
@@ -49,7 +49,7 @@ Reçoit un pointeur vers l’interface [**IMemAllocator**](/windows/desktop/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -64,13 +64,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la broche de sortie du filtre est connectée, cette méthode demande un allocateur à partir de la broche d’entrée du filtre en aval.
 
 Si la broche de sortie du filtre n’est pas connectée, cette méthode crée un allocateur temporaire. Plus tard, lorsque la broche de sortie est connectée, le filtre reconnecte la broche d’entrée et renégocie l’allocateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

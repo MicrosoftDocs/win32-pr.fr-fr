@@ -4,12 +4,12 @@ ms.assetid: 3abb2e45-430d-47ce-829f-319b31985f9f
 title: À propos des polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28dcb884317236922967598ed3dda2fd99b3350e2cf08408d75d598dd96830e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80001654d905790e0bf81801a5f19ddb5df0a350
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117700028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850522"
 ---
 # <a name="about-fonts"></a>À propos des polices
 

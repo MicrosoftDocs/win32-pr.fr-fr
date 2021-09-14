@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cebd74fd51551249c339100ac2dd3eda4a171cc316cca575f27f5194480978ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc77b43db2bb420e6cfe2eace44e96e1ab43b0cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660532"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923943"
 ---
 # <a name="cbasecontrolwindowget_fullscreenmode-method"></a>Méthode CBaseControlWindow. obten \_ FullScreenMode
 
@@ -49,15 +49,15 @@ Pointeur vers le mode plein écran actuel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre retourne E \_ NOTIMPL par défaut. Cela informe le serveur de distribution de plug-in [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) que ce convertisseur n’implémente pas un convertisseur plein écran.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

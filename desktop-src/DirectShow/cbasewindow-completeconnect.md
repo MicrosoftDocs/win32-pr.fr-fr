@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e04e0adf1d11a4878d860dd5c8a1eea9395095c71d8b5c86d6023a24ccdb28c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15d5719ab78c3e95cd0128d4075797221af1f4c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923768"
 ---
 # <a name="cbasewindowcompleteconnect-method"></a>Méthode CBaseWindow. CompleteConnect
 
@@ -40,15 +40,15 @@ HRESULT CompleteConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode réinitialise l’indicateur d’activation de la fenêtre ([**CBaseWindow :: m \_ bActivated**](cbasewindow-m-bactivated.md)) sur **false**. Lorsqu’un convertisseur vidéo termine une connexion de code confidentiel, il peut appeler la méthode [**CBaseWindow :: ActivateWindow**](cbasewindow-activatewindow.md) pour définir la taille et la position de la fenêtre. Pour forcer **ActivateWindow** à recalculer ces attributs, appelez d’abord la `CompleteConnect` méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

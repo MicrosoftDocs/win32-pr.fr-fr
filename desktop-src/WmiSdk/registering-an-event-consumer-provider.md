@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Inscription d’un fournisseur de consommateur d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1922970838b99e2a4a371ed7b00ae0f506a0381f0018509bfd6874074e0dd8f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df6bf47e11b1b9df072f9efbca0ba0f620e96d78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992540"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923383"
 ---
 # <a name="registering-an-event-consumer-provider"></a>Inscription d’un fournisseur de consommateur d’événements
 

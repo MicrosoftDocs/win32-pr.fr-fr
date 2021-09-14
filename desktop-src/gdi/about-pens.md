@@ -4,12 +4,12 @@ ms.assetid: e1e49ee8-07f1-4f1a-95bb-f6757a72da99
 title: À propos des stylets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a982c8c0016470b411b371acea2b2338e8935f4e55e4a9d68ceb261169ca31
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 059f024b80ec70d0b20ba2dc8e9a97b6ba3e5431
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119779409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850504"
 ---
 # <a name="about-pens"></a>À propos des stylets
 

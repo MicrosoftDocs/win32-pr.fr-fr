@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fbebca79b560ae2dfd10f95fc7b5f454228da017d6682b6f939ad504c624be72
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7a5f7cb0fbe754890b1d7930bb54c6fca47afa5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119999149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923535"
 ---
 # <a name="ctransinplaceinputpinpeekallocator-method"></a>Méthode CTransInPlaceInputPin. PeekAllocator
 
@@ -40,11 +40,11 @@ IMemAllocator* PeekAllocator();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la variable de membre [**CBaseInputPin :: m \_ pAllocator**](cbaseinputpin-m-pallocator.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

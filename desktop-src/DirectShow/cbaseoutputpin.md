@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67a4051f904b27b75273d553e1d0604b068b3910fbfb322b5a2df716c996a1ba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 21949d772c44f02e364013dd98c905b8f59ccdc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119872583"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923864"
 ---
 # <a name="cbaseoutputpin-class"></a>CBaseOutputPin, classe
 
@@ -58,7 +58,7 @@ Votre classe dérivée doit substituer la méthode [**CBasePin :: CheckMediaTyp
 | [**CheckConnect**](cbaseoutputpin-checkconnect.md)             | Détermine si une connexion de code confidentiel est appropriée.                           |
 | [**BreakConnect**](cbaseoutputpin-breakconnect.md)             | Libère le code confidentiel d’une connexion.                                        |
 | [**Actif**](cbaseoutputpin-active.md)                         | Notifie le code confidentiel que le filtre est maintenant actif.                            |
-| [**Inactive**](cbaseoutputpin-inactive.md)                     | Notifie le code confidentiel que le filtre n’est plus actif.                      |
+| [**Inactif**](cbaseoutputpin-inactive.md)                     | Notifie le code confidentiel que le filtre n’est plus actif.                      |
 | [**DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md) | Fournit une notification de fin de flux à la broche d’entrée connectée. Virtuels. |
 | [**DeliverBeginFlush**](cbaseoutputpin-deliverbeginflush.md)   | Demande la broche d’entrée connectée pour commencer une opération de vidage. Virtuels.      |
 | [**DeliverEndFlush**](cbaseoutputpin-deliverendflush.md)       | Demande la broche d’entrée connectée pour terminer une opération de vidage. Virtuels.        |
@@ -74,7 +74,7 @@ Votre classe dérivée doit substituer la méthode [**CBasePin :: CheckMediaTyp
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

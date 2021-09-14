@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8ffc53785513eca05280852099af0766a887bf704ed14526ca0bf915e855f521
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 751fc6e53e61a4e548b24f641b381d2d68475549
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118955148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923823"
 ---
 # <a name="cbasepinm_drate-member"></a>CBasePin :: m \_ dRate, membre
 
@@ -36,7 +36,7 @@ double m_dRate;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

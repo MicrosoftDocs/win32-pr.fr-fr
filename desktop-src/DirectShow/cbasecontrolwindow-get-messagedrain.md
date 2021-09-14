@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a1e63e96950093bb7cc5760032d0b1f622c5df93a6f31673c595f54e5ea8e70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aaf51c3f4297f238e51bbe8677303730c04b89d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923939"
 ---
 # <a name="cbasecontrolwindowget_messagedrain-method"></a>Méthode CBaseControlWindow. obten \_ MessageDrain
 
@@ -49,15 +49,15 @@ Pointeur vers la fenêtre active recevant des messages de fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les messages envoyés au filtre de convertisseur vidéo peuvent être publiés dans une autre fenêtre. La fenêtre inscrite pour recevoir ces messages (à l’aide de la fonction membre **CBaseControlWindow :: obtenir \_ MessageDrain** ) est l’drain de message en cours.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

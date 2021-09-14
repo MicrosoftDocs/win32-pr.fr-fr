@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba320000701020df65f6db2eaa7a71e309a6c6709b236ac0ce6edf7dbe40ffb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a807b1386dbb53522a0f8190aff2a47bf0d16368
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074663"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923772"
 ---
 # <a name="cbasevideowindow-class"></a>CBaseVideoWindow, classe
 
@@ -31,7 +31,7 @@ La `CBaseVideoWindow` classe implémente les méthodes **IDispatch** de l’inte
 
 Les méthodes **IDispatch** de cette classe sont des implémentations standard et ne sont pas décrites en détail ici.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

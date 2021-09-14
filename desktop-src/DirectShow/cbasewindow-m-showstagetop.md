@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dbd8943b297d6e33f3b86a62c7e67dd2039a6b99d316061be30a4c3016711c41
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8ed0069c5c65f2bb1a113c899e2d90de0cabcd10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016517"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923736"
 ---
 # <a name="cbasewindowm_showstagetop-member"></a>CBaseWindow :: m \_ ShowStageTop, membre
 
@@ -40,7 +40,7 @@ UINT m_ShowStageTop;
 
 Les convertisseurs vidéo doivent envoyer ce message à la fenêtre s’ils basculent en mode plein écran.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

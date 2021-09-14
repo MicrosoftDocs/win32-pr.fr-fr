@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ffc07a15f7c34744be52c5e2c7b5233e1885b58c5b9b7d078871277f8fc0efd1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e8b0c5548d3089a6e619f88db5e4eed19b12be8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117823331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923844"
 ---
 # <a name="cbasepinm_bruntimeerror-member"></a>CBasePin :: m \_ bRunTimeError, membre
 
@@ -40,7 +40,7 @@ bool m_bRunTimeError;
 
 Par défaut, cet indicateur est défini sur **false**. Affectez la **valeur true** à l’indicateur si une erreur d’exécution se produit pendant la diffusion en continu. La méthode [**CBasePin :: inactive**](cbasepin-inactive.md) réinitialise l’indicateur à **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

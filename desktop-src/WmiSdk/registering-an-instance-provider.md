@@ -6,11 +6,11 @@ title: Inscription d’un fournisseur d’instances
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 9bde8189559b04f2e45ac8357ab47cc17bd253fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528503"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923371"
 ---
 # <a name="registering-an-instance-provider"></a>Inscription d’un fournisseur d’instances
 

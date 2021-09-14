@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 50643db31fa28f4e1587bc682222b15eb745010b9b0ff6be517fb708d8a7693d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e3be6cc3819e1452fd196d4906377204a6e90bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120056759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923979"
 ---
 # <a name="cbasecontrolvideosetsourcerect-method"></a>Méthode CBaseControlVideo. SetSourceRect
 
@@ -49,11 +49,11 @@ Pointeur vers le rectangle source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les classes dérivées doivent remplacer cette fonction membre pour savoir quand le rectangle source change. Elle est appelée à partir des fonctions membres suivantes.
 
@@ -78,7 +78,7 @@ HRESULT CVideoText::SetSourceRect(RECT *pSourceRect)
 
 Dans cet exemple, CVideoText est une classe dérivée de [**CBaseControlVideo**](cbasecontrolvideo.md), m \_ pRenderer contient un objet d’une classe dérivée de [**CBaseVideoRenderer**](cbasevideorenderer.md), et le membre de \_ données m DrawImage, défini dans la classe dérivée, contient un objet [**CDrawImage**](cdrawimage.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

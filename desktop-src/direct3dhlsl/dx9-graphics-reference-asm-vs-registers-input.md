@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b6682d8987f2df3ba3fb06427d41b722abb5eb003a4226a155c104cc3239d0f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 983f0520ccc50fa1683d4b8254ac436fff7491a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119982759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924444"
 ---
 # <a name="input-register"></a>Registre d’entrée
 
@@ -28,7 +28,7 @@ Les propriétés de Registre suivantes contrôlent le comportement de chaque reg
 
 | Propriété        | Description                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------|
-| Nom            | v \[ n \] -n est un numéro de Registre facultatif. 0 est la valeur par défaut utilisée, si elle est omise.     |
+| Name            | v \[ n \] -n est un numéro de Registre facultatif. 0 est la valeur par défaut utilisée, si elle est omise.     |
 | Count           | Un maximum de 16 registres, V0-v15.                                                          |
 | Autorisations d’e/s | Lecture seule. Ce registre ne peut pas être écrit par l’API ou dans le nuanceur.                   |
 | Ports de lecture      | 1. il s’agit du nombre de fois qu’un registre peut être lu dans une instruction unique. Voir ci-dessous. |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d8873ee896d910d1596138a8d116c93ae0190534bac48b6ceb19165074f07b72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05205750810294076bf005d0e5b73fda6b2143d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016747"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923779"
 ---
 # <a name="cbasewindowcbasewindow-constructor"></a>Constructeur CBaseWindow. CBaseWindow
 
@@ -57,13 +57,13 @@ Valeur booléenne qui spécifie la variable membre [**CBaseWindow :: m \_ bDoPo
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Après avoir créé l’objet, appelez la méthode [**CBaseWindow ::P reparewindow**](cbasewindow-preparewindow.md) pour créer la fenêtre. **PrepareWindow** est une méthode virtuelle. Elle appelle [**CBaseWindow :: InitialiseWindow**](cbasewindow-initialisewindow.md), également une méthode virtuelle. Ces méthodes sont séparées du constructeur afin que les classes dérivées puissent les remplacer, si nécessaire.
 
 Si la valeur du paramètre *bDoGetDC* est **true**, l' `CBaseWindow` objet récupère un handle vers le contexte de périphérique (DC) de la fenêtre et le stocke dans la variable membre [**CBaseWindow :: m \_ HDC**](cbasewindow-m-hdc.md) . L’objet crée également un contrôleur de stockage de mémoire compatible, qu’il stocke dans la variable membre [**CBaseWindow :: m \_ MemoryDC**](cbasewindow-m-memorydc.md) . Ces actions se produisent dans la méthode **InitialiseWindow** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

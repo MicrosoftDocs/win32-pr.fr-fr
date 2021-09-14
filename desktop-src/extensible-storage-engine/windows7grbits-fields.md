@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104263
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 76f3aa2d8e877ab5da1758739ca8bce382747c8d600ed7765f53681fe27408e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d29dc2c9fc188f7ee293af316d80dafc9319d0d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119356079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850599"
 ---
 # <a name="windows7grbits-fields"></a>Champs Windows7Grbits
 

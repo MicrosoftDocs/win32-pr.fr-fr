@@ -488,12 +488,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95ad1b16ddb5e20d1bc2e431c96db377fd83118059ecf0d5c86b6e6fc75a0093
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f532c6b2c91b0edb25e06705ec392e6d88de036
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118511971"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924443"
 ---
 # <a name="hlsl-errors-and-warnings"></a>Erreurs et avertissements HLSL
 

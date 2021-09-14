@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 418163b55699f8ba7c38026764f3326985d7e1788369729f42067cff62a56949
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0fb723b220bf8aa12baa7133c9985225d6051921
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119998079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923520"
 ---
 # <a name="ec_dvd_cmd_start"></a>démarrage de la \_ commande de DVD EC \_ \_
 
@@ -42,13 +42,13 @@ Valeur **HRESULT** qui indique l’état de la commande.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement est déclenché uniquement si votre application définit l’indicateur SendEvents de l' **\_ indicateur de commande \_ \_ de DVD** dans une méthode [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) qui prend un indicateur d' [**\_ \_ indicateurs de cmd DVD**](/windows/win32/api/strmif/ne-strmif-dvd_cmd_flags) .
 
 Cet événement est déclenché dans le domaine de titre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

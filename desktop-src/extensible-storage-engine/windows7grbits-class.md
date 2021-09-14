@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3725ef2ea1c3a2c84bb5d087527b0370fff6385e0638e764f1180ff756712130
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 900943a30295631dafcb49a5fe866e3728c22a11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850617"
 ---
 # <a name="windows7grbits-class"></a>Windows7Grbits, classe
 

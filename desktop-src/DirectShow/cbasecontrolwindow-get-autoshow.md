@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7a5c16e0b460d07255cae113194f672ca3dace6f46827ac613c9559370284beb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f45679b9d036f1c5386cd2c1d18a31fa3d6bd64f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118158792"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923967"
 ---
 # <a name="cbasecontrolwindowget_autoshow-method"></a>CBaseControlWindow. obtient la \_ méthode d’affichage automatique
 
@@ -49,17 +49,17 @@ Pointeur vers un indicateur booléen Automation (0 est désactivé, 1 est activ�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction membre implémente la méthode d' [**\_ affichage automatique IVideoWindow :: obtient**](/windows/desktop/api/Control/nf-control-ivideowindow-get_autoshow) . Cette propriété simplifie l’accès à la fenêtre pour les applications. Si cette valeur est définie sur 1 (activé), la fenêtre, qui est généralement masquée après la connexion du filtre, s’affiche automatiquement lorsque le filtre s’interrompt ou s’exécute. Toutefois, la fenêtre ne doit pas être masquée quand le filtre s’arrête. Si ce paramètre a la valeur 0 (OFF), la fenêtre est rendue visible uniquement lorsque l’application appelle [**CBaseControlWindow ::p ut \_ visible**](cbasecontrolwindow-put-visible.md) ou [**CBaseControlWindow ::p ut \_**](cbasecontrolwindow-put-windowstate.md) , avec les paramètres appropriés.
 
 Cette fonction membre est destinée à être appelée par des objets externes par le biais de l’interface [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) . elle verrouille donc la section critique à synchroniser avec le filtre associé. Appelez la fonction membre [**CBaseControlWindow :: IsAutoShowEnabled**](cbasecontrolwindow-isautoshowenabled.md) pour récupérer cette propriété si vous n’appelez pas à partir d’un objet externe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

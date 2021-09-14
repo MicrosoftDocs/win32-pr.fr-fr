@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 683b8eb5beb9946db7f37d4db53a84c96d5bff7fc91fa4864020fffde5554824
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 612dcd638939b34803b7296babf7445a07cdad22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119567079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923643"
 ---
 # <a name="cenumpinsnext-method"></a>CEnumPins. Next, méthode
 
@@ -65,7 +65,7 @@ Pointeur vers une variable qui reçoit le nombre de codes confidentiels récupé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -83,7 +83,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode récupère les pointeurs vers le nombre spécifié de broches, en démarrant à la position actuelle dans l’énumération, et les place dans le tableau spécifié.
 
@@ -91,7 +91,7 @@ Cette méthode appelle la méthode [**CBaseFilter :: GetPin**](cbasefilter-getp
 
 Si la méthode est réussie, les pointeurs **IPIN** ont tous des décomptes de références en attente. Veillez à les libérer une fois que vous avez terminé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

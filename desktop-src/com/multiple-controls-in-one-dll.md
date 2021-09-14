@@ -4,12 +4,12 @@ description: Plusieurs contrôles dans une DLL
 ms.assetid: 76c1c0ef-af24-43e8-b3a7-337841c338ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b571f307f3438ca8f8ce0a0a716af2042884520cd07746f8e6fa8c1739fae22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63e11c91faa26420f37df330ad7f1d9eff4587f9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130061"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924636"
 ---
 # <a name="multiple-controls-in-one-dll"></a>Plusieurs contrôles dans une DLL
 

@@ -4,12 +4,12 @@ ms.assetid: c584eee6-1187-4741-b3af-4bd79d93be77
 title: État de l’habillage de texture (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55f6c90e31d6571d99e8a0d56ac8804eb1bc18452c9e151d2812a049af3b611c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19cb025df6716371397d62cc730c5584e2dab862
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118092037"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924484"
 ---
 # <a name="texture-wrapping-state-direct3d-9"></a>État de l’habillage de texture (Direct3D 9)
 

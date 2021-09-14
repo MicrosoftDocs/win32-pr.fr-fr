@@ -6,11 +6,11 @@ title: Clés et valeurs de Registre pour le contrôle de la sécurité du fourni
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 916a5910a6ad21e9f9dfdcfc0992de10ae30da82
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884360"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923364"
 ---
 # <a name="registry-keys-and-values-for-controlling-provider-security"></a>Clés et valeurs de Registre pour le contrôle de la sécurité du fournisseur
 
@@ -111,12 +111,12 @@ La liste suivante répertorie les paramètres de Registre possibles et les modes
 |-----------------------------------|--------------------------------------|----------------------------|------------|
 | Non                                | Non                                   | 0                          | Compatible |
 | Non                                | Oui                                  | 0                          | Compatible |
-| Oui                               | Non                                   | 0                          | Sécuriser     |
-| Oui                               | Oui                                  | 0                          | Sécuriser     |
-| Non                                | Non                                   | 1                          | Sécuriser     |
+| Oui                               | Non                                   | 0                          | Sécurisé     |
+| Oui                               | Oui                                  | 0                          | Sécurisé     |
+| Non                                | Non                                   | 1                          | Sécurisé     |
 | Non                                | Oui                                  | 1                          | Compatible |
-| Oui                               | Non                                   | 1                          | Sécuriser     |
-| Oui                               | Oui                                  | 1                          | Sécuriser     |
+| Oui                               | Non                                   | 1                          | Sécurisé     |
+| Oui                               | Oui                                  | 1                          | Sécurisé     |
 
 
 

@@ -14,11 +14,11 @@ api_type:
 api_location:
 - d3dx9mesh.h
 ms.openlocfilehash: faf4244d115076b6b04cd04697acf789172d9b11
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116218"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924535"
 ---
 # <a name="d3dxmeshsimp-enumeration"></a>Énumération D3DXMESHSIMP
 
@@ -55,7 +55,7 @@ Le maillage sera simplifié par le nombre de visages spécifié dans le paramèt
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

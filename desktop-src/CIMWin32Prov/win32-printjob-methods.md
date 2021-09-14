@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes Win32_PrintJob
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f2ed4bebb81e80fba23a1f622ce27d1c94a6ab0b299f7fbb7561ec45feab3a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e989a23f8a3107abf76f7b5a1de527a9edab1c44
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118417027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924168"
 ---
 # <a name="win32_printjob-methods"></a>\_Méthodes PrintJob Win32
 

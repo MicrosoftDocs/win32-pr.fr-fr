@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: ba262ca68ce9d76e9963fb54c325e9b7ba4dcf8352c9ede13c652bf0059e794a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ab6c1333245b589d4f13bafcba89eada3ef98ab0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923511"
 ---
 # <a name="ec_dvd_disc_ejected"></a>\_disque DVD d’EC \_ \_ éjecté
 
@@ -42,13 +42,13 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La lecture s’arrête automatiquement lorsqu’un disque est éjecté. L’application n’a pas besoin d’effectuer d’action particulière en réponse à cet événement.
 
 Cet événement est déclenché dans tous les domaines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

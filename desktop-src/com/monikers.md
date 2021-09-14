@@ -4,12 +4,12 @@ description: Un moniker dans COM n’est pas seulement un moyen d’identifier u
 ms.assetid: ae0cd2f3-8ac0-4388-8781-e86fc4a26b3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce557fe06ee6f4f5ce2ee08093c93934c9d060b8d4bc24e318a815ad6f95a4a6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bf148d63611b5252eec9f5f5f69eacbcece8c65f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119730949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924639"
 ---
 # <a name="monikers"></a>Monikers
 

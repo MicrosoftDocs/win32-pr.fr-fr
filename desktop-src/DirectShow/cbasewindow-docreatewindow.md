@@ -1,7 +1,7 @@
 ---
 description: La méthode DoCreateWindow crée la fenêtre.
 ms.assetid: bbe38a71-bbf7-4380-96a3-074b992a1d1e
-title: CBaseWindow.DoCméthode reateWindow (Winutil. h)
+title: Méthode CBaseWindow. DoCreateWindow (Winutil. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f2502d1c07efbb5fa15c8113d11504b9a61a64321686e2b0e7e4939fabad7395
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76bea1523f48a6e22a3c2d9370fa32bcea022621
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118658223"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923767"
 ---
-# <a name="cbasewindowdocreatewindow-method"></a>CBaseWindow.DoCméthode reateWindow
+# <a name="cbasewindowdocreatewindow-method"></a>Méthode CBaseWindow. DoCreateWindow
 
 La `DoCreateWindow` méthode crée la fenêtre.
 
@@ -40,15 +40,15 @@ HRESULT DoCreateWindow();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**CBaseWindow ::P reparewindow**](cbasewindow-preparewindow.md) appelle cette méthode.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

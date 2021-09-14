@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c881c519706ca0288847a7dc603cf513a99cdd76e4c83f0e53bec16df840e509
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9abcb2d9f5cdc875f70f5c1db1fd2f625ce911f0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118657952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923727"
 ---
 # <a name="cbasewindowonpalettechange-method"></a>Méthode CBaseWindow. OnPaletteChange
 
@@ -57,15 +57,15 @@ Identificateur du message.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 si le message a été traité, ou 1 si le message n’a pas été traité.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode gère \_ les messages WM PALETTECHANGED et WM \_ QUERYNEWPALETTE. Elle appelle la méthode [**CBaseWindow ::D orealisepalette**](cbasewindow-dorealisepalette.md) pour réaliser la nouvelle palette.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

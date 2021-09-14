@@ -17,11 +17,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: 57bc15fc5d3db78179335b039851d7d3b7cbf8a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126924176"
 ---
 # <a name="win32_printershare-class"></a>\_Classe PrinterShare Win32
 
@@ -87,7 +87,7 @@ Référence à l’instance représentant le partage de l’imprimante dans cett
 
 La classe **Win32 \_ PrinterShare** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

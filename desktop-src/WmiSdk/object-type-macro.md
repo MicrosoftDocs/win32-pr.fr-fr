@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Macro de TYPE objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef71bcdd915dfaa59ace008c28a5d63a323c2cd1d0f119b9d91e5a0720e192e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c605a414c402f2cf2d18be2d966db6408f23cdc9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118818005"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923411"
 ---
 # <a name="object-type-macro"></a>Macro de TYPE objet
 
@@ -115,7 +115,7 @@ Fournit une définition précise de ce que l’objet représente. Cette clause m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La macro de TYPE objet décrit les caractéristiques de base d’un objet MIB individuel. Un ensemble de macros de TYPE objet peut être considéré comme un groupe d’objets connexes. Dans SNMPv2C, utilisez la macro de groupe d’objets pour regrouper de manière formelle des ensembles d’objets connexes dans une collection. Toutefois, il n’existe aucun mécanisme formel pour créer des collections dans SNMPv1. Dans le cadre du fournisseur SNMP, la macro de groupe d’objets est ignorée, mais vous pouvez inventer des relations et fabriquer des collections.
 

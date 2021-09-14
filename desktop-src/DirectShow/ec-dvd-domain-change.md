@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: a43c44e779d8ad64852b673fb053467687c50daec85acb9bc87999675200d5f1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 815b6b2dd318d0b7716f4cf640ef3f83dacd0d60
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126923499"
 ---
 # <a name="ec_dvd_domain_change"></a>\_modification du \_ domaine du DVD EC \_
 
@@ -42,13 +42,13 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le lecteur DVD signale cet événement chaque fois qu’il modifie des domaines.
 
 Cet événement est déclenché dans tous les domaines DVD.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
