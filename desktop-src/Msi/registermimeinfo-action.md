@@ -4,12 +4,12 @@ ms.assetid: 2ba88b5f-bd8a-4572-af82-9c0b91b9b6d9
 title: Action RegisterMIMEInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 369f35eab4e6d4228167bfbeda48cf21249ea6a63297f5a9e893b84dcc4ed5bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41130d9e595cc2d95557470f79c217f3c3235d75
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009693"
 ---
 # <a name="registermimeinfo-action"></a>Action RegisterMIMEInfo
 
@@ -45,7 +45,7 @@ Par exemple, RegisterMIMEInfo doit venir après [UnregisterMIMEInfo](unregisterm
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’action RegisterMIMEInfo enregistre toutes les informations MIME pour les serveurs à partir de la [table MIME](mime-table.md) pour laquelle le serveur de classe ou d’extension correspondant a été sélectionné pour être installé.
 

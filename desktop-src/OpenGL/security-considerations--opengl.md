@@ -7,12 +7,12 @@ keywords:
 - sécurité OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 843a0f4c049cca8cf4af4d8a7c1c85da66fc2246a1f4277a0fc95355a31c4275
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc3e904dfde988cbc485891d73df3cbacfc76aad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118932904"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009277"
 ---
 # <a name="security-considerations-opengl"></a>Considérations relatives à la sécurité : OpenGL
 

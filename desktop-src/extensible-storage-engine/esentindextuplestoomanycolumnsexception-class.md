@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b93a297e0f8978d55a6930480e42767e2c454dfc26e2cd4616471249ebd860c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b1b74c423c3d4c42e773cae63496786b7b50d67
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119837949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221324"
 ---
 # <a name="esentindextuplestoomanycolumnsexception-class"></a>EsentIndexTuplesTooManyColumnsException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentIndexTuplesTooManyColumnsException](./esentindextuplestoomanycolumnsexception-members.md)
 

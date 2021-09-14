@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 5c6fbee28670f63240bd1cb5273a4c97d855bdd0154576793b5d1865a1fcfbab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 09cbc47db44fb948c46a4917b1eda989a5791439
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119026737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219337"
 ---
 # <a name="wpd_rendering_information_profile_entry_types-enumeration"></a>\_ \_ \_ \_ Énumération des types d’entrées de profil d’informations de rendu wpd \_
 
@@ -54,7 +54,7 @@ L’entrée correspond à une ressource.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

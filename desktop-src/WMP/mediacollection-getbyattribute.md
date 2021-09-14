@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f942f0718202d6c3e509b177c34c4c4be20c058b1e74991fa0ae89955d7711d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 533823127364416f8f4492c82381e682173c5c78
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118996308"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008373"
 ---
 # <a name="mediacollectiongetbyattribute-method"></a>Méthode MediaCollection. getByAttribute
 
@@ -57,11 +57,11 @@ retVal = MediaCollection.getByAttribute(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet **playlist** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode peut être utilisée pour créer une requête générique pour les éléments multimédias qui correspondent à une valeur pour un attribut de la base de données. Cela est utile dans le cas des attributs définis par l’utilisateur. Si l’attribut n’existe pas, une erreur se produit.
 
@@ -76,7 +76,7 @@ Vous pouvez utiliser cette méthode pour récupérer tous les éléments multim�
 | radio    | Éléments de station de radio. non utilisé par Lecteur Windows Media 10.  |
 | video    | Éléments vidéo.                                               |
 | photos    | Éléments de photo. requiert Lecteur Windows Media 10.             |
-| Autres    | Autres éléments, tels que les fichiers ASF ou les URL, pour la diffusion multimédia en continu. |
+| other    | Autres éléments, tels que les fichiers ASF ou les URL, pour la diffusion multimédia en continu. |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84dbbd39ca347bcf1084ddfaa46c997cc5c4e5dd4d52250136a230dd834ac836
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3099af5e9abcd3e9c144cfc615a12dd2acb0332b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115666"
 ---
 # <a name="tvm_getnextitem-message"></a>TVM \_ GETNEXTITEM message
 
@@ -64,11 +64,11 @@ Handle vers un élément.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle de l’élément en cas de réussite. Dans la plupart des cas, le message retourne une valeur **null** pour indiquer une erreur. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message retourne la **valeur null** si l’élément récupéré est le nœud racine de l’arborescence. Par exemple, si vous utilisez ce message avec l' \_ indicateur parent TVGN sur un enfant de premier niveau du nœud racine de la vue d’arborescence, le message retourne la **valeur null**.
 
@@ -94,7 +94,7 @@ Vous pouvez également utiliser l’une des macros associées suivantes :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

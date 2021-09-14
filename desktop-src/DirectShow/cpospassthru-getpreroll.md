@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1b34cd565d246f4401061834b21c005306633e72a6f24cc8367a222b5f3736c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e72d7c83c8cdb0fa08a4b395fd65c80edbe3fb05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954038"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007624"
 ---
 # <a name="cpospassthrugetpreroll-method"></a>Méthode CPosPassThru. GetPreroll
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit le temps de préroll, en unités du forma
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

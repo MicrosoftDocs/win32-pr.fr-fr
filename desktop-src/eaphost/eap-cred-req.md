@@ -7,11 +7,11 @@ keywords:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 20da4e6aa8b1ab24dfd9cd791236d1f9b26304f6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106524818"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221580"
 ---
 # <a name="eap_cred_req"></a>\_demande EAP cred \_
 
@@ -39,14 +39,14 @@ La structure des **\_ \_ demandes EAP cred** est utilisée pour prendre en charg
 
 La structure des **\_ \_ demandes EAP cred** est identique à la structure du [**\_ \_ REEE**](eap-cred-resp.md) d’identification EAP.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Eaptypes. h</dt> </dl> |
 
 

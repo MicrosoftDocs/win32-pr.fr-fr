@@ -4,12 +4,12 @@ ms.assetid: 1880ff8f-110c-4661-8b1f-afe1d8d2a38d
 title: Récupération des informations de date et d’heure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f461f12cb1c6324892a415142c159ba570759128e61dd02b53a7cceebccc57
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ea2c2fa1d15de2c1ba5587a981373ff14b1c1c7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120040409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121897"
 ---
 # <a name="retrieving-time-and-date-information"></a>Récupération des informations de date et d’heure
 

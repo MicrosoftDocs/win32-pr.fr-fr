@@ -29,11 +29,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: bf794bfb3ed60dfdc4c6beeb57e33108889105eb
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884254"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223740"
 ---
 # <a name="cim_modifysettingaction-class"></a>\_Classe CIM ModifySettingAction
 
@@ -947,7 +947,7 @@ Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **CIM \_ ModifySettingAction** est dérivée de l' [**\_ action CIM**](cim-action.md).
 

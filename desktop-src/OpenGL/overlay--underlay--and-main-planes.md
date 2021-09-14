@@ -9,12 +9,12 @@ keywords:
 - Underlay plans OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b968a0ab028fd0a699e31ad3a3601d7140435e2b36d0188bef46c5dca7cbad9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6fe68c4bb57d431151c4d879965fcf7496c8615
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118936488"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194324"
 ---
 # <a name="overlay-underlay-and-main-planes"></a>Superposition, Underlay et plans principaux
 

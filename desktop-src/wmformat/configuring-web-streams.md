@@ -8,12 +8,12 @@ keywords:
 - Flux Web, configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8df1ced96a772a26b674fb47a30a8664d6431ff946328f45467554857b1ee4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27c91c36788b858b2378ebf46b553f076c5ec490
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118199120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219561"
 ---
 # <a name="configuring-web-streams"></a>Configuration de Flux Web
 
@@ -26,7 +26,7 @@ Les flux Web sont un type spécialisé de flux de transfert de fichiers utilisé
 | **\_Type de média WM \_ . MajorType**                      | Définissez sur WMMEDIATYPE \_ filetransfer.                                                 |
 | **\_Type de média WM \_ . SubType**                        | Définissez sur WMMEDIASUBTYPE \_ webstream.                                                 |
 | **\_Type de média WM \_ . bFixedSizeSamples**              | Affectez la valeur false.                                                                     |
-| **\_Type de média WM \_ . bTemporalCompression**           | Affectez la valeur true.                                                                      |
+| **\_Type de média WM \_ . bTemporalCompression**           | Définissez sur True.                                                                      |
 | **\_Type de média WM \_ . lSampleSize**                    | Définit la valeur 0.                                                                         |
 | **\_Type de média WM \_ . formatType**                     | Définissez sur WMFORMAT \_ webstream.                                                       |
 | **\_Type de média WM \_ . punk**                           | Affectez la valeur **null**.                                                                  |

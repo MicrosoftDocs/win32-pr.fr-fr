@@ -4,12 +4,12 @@ description: Les proxys IAccessible fournissent des informations d’accessibili
 ms.assetid: 236c2064-de44-4021-8825-f1519312dbfc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7a416c29021aca0dd99356792ae96f6a77e137e8c0ca0c884ba941229dd4b83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 53dcb4cae8980e4003d9915c6783e4ddb043a8c8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118566054"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191707"
 ---
 # <a name="iaccessible-proxies"></a>Proxys IAccessible
 

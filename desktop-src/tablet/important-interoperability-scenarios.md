@@ -4,12 +4,12 @@ ms.assetid: 64a7b773-35c9-42f7-aec4-7fed34fa84d9
 title: Scénarios d’interopérabilité importants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b42f021cd1a8dbb3a8b65780b71db66a4c43fa18097f967f794c1a2b2c3ce16b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d6dca3bcbf52d673131122615fa5a08317dbf10c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118718958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220148"
 ---
 # <a name="important-interoperability-scenarios"></a>Scénarios d’interopérabilité importants
 

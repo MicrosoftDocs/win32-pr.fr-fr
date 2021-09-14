@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c97c8782b16336427b3832f36b5a06987399df1b
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364208"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195303"
 ---
 # <a name="icm_draw_suggestformat-message"></a>ICM \_ DESSINER le \_ message SUGGESTFORMAT
 
@@ -56,7 +56,7 @@ Taille, en octets, de [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdraw
 
 Retourne ICERR \_ OK en cas de réussite. Si le membre **lpbiSuggest** de la structure [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) est **null**, ce message retourne la quantité de mémoire nécessaire pour contenir le format suggéré.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le pilote doit examiner le format spécifié dans le membre **lpbiIn** de la structure [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) et utiliser le membre **lpbiSuggest** pour retourner un format qu’il peut dessiner. Le format de sortie doit conserver autant de données que possible à partir du format d’entrée.
 

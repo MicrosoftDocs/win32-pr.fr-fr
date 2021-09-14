@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 9179efbb52a07983f8d40c271ffc5c0b4ab3eea0c7ddd3a73e1ba790f867143f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e73e8bd013836767e2a943616407aea9f563fea2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119683999"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194724"
 ---
 # <a name="nametype-simple-type-lan_policy-for-profileschema"></a>Type simple nameType (LAN_policy) pour profileschema
 
@@ -38,7 +38,7 @@ Le type simple nameType peut contenir le nom ou une description d’un profil de
 </xs:simpleType>
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

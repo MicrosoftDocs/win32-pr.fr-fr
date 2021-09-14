@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: de99b0866e8cd7ec8486d2a3f15f95194b4350008a43fe4db8ae82d970684c39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab21b98036975934c00e28d0be1d5670d4c0742c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119950749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220708"
 ---
 # <a name="addjob-function"></a>AddJob fonction)
 
@@ -82,13 +82,13 @@ Pointeur vers une variable qui reçoit la taille totale, en octets, de la struct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -97,7 +97,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro.
 
 Vous pouvez appeler la fonction [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) pour ouvrir le fichier de mise en file d’attente spécifié par le membre **path** de la structure [**ADDJOB \_ info \_ 1**](addjob-info-1.md) , puis appeler la fonction [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile) pour y écrire des données de travail d’impression. Après cela, appelez la fonction [**ScheduleJob**](schedulejob.md) pour notifier au spouleur d’impression que le travail d’impression peut désormais être planifié par le spouleur pour l’impression.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

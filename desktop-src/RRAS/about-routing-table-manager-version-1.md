@@ -9,12 +9,12 @@ keywords:
 - Gestionnaire de table de routage version 1 RRAS, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6552f07bb8307d662d6b0c6c602e91dbe092357e87d4224e84da8080984a4da9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b99f913230db6e6882a36b414914c3924181a221
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009170"
 ---
 # <a name="about-routing-table-manager-version-1"></a>À propos du gestionnaire de tables de routage version 1
 

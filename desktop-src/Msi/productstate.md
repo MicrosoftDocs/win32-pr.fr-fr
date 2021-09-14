@@ -4,12 +4,12 @@ ms.assetid: 833e9a15-10f8-4b1c-945f-bc02b506f627
 title: Propriété ProductState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b4be53a1764d2277aec2b9acc50ae2a62ee7cb6687752466529c7ceabc689d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a51ea88058aa8bae6b67acaea96b506a7560c7a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009760"
 ---
 # <a name="productstate-property"></a>Propriété ProductState
 

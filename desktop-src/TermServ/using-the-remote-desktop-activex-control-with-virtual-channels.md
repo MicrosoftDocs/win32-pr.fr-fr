@@ -5,12 +5,12 @@ ms.assetid: df537ffb-41dd-400e-8a49-9d8a10734eda
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dae33c059a84422788bc49d47f95e0011f78930054ed3884669e8f35763461b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 026c8fa23f1498270bd0d2a29c5f48d50f0b2463
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217364"
 ---
 # <a name="using-the-remote-desktop-activex-control-with-virtual-channels"></a>utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels
 

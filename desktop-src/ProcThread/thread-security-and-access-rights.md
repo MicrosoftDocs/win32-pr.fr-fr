@@ -4,12 +4,12 @@ ms.assetid: 72709446-5c59-4fac-8dc8-7912906ecc85
 title: Sécurité des threads et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5e14b634b9e41f592df4911211c3374a67166e36fc4735f4a90009275b5da1b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e16b0ac5b4142f819d59775014a82a79a188bdd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119427708"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007069"
 ---
 # <a name="thread-security-and-access-rights"></a>Sécurité des threads et droits d’accès
 

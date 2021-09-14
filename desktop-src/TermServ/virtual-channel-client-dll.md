@@ -5,12 +5,12 @@ ms.assetid: fca0505c-c4a9-4230-aeaa-ff3dfa62f581
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8f9ba01db57de6dc030e6c47b09c4173156ef8f85e3969716ae6e10dfc069f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfd7ffccda8b1da7dfc3920b0a47a12e97840e0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119423579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217353"
 ---
 # <a name="virtual-channel-client-dll"></a>DLL du client du canal virtuel
 

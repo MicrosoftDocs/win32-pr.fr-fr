@@ -4,12 +4,12 @@ ms.assetid: 20e7be9f-d9dc-4f43-86d7-b1a881126925
 title: Contexte d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a36b3c84b03b0cf5bd53d7ede13bb5a2778db0867a12303d14a0e315f30ead0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f35ead2f847d0c5e5e117f0f00d96e5f22074a83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118634227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121750"
 ---
 # <a name="installation-context"></a>Contexte d’installation
 

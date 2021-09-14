@@ -14,11 +14,11 @@ api_type:
 api_location:
 - D3DX10Mesh.h
 ms.openlocfilehash: 2659783b0443396508465f9498eec86950f825bc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008090"
 ---
 # <a name="d3dx10_mesh-enumeration"></a>D3DX10 \_ , énumération
 
@@ -54,7 +54,7 @@ Signale que le maillage contient des données d’adjacence de nuanceur Geometry
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Une maille 32 bits (D3DXMESH \_ 32 bits) peut théoriquement prendre en charge (2 ³ ²)-1 face et vertex. Toutefois, l’allocation de mémoire pour une maille qui est importante sur un système d’exploitation 32 bits n’est pas pratique.
 

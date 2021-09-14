@@ -50,12 +50,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0519e7379eab529cc5275c85a11116764417d524a03dff2e1eab74a914b6560b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1aad33d7d85c6a5c331efe8383815e079150fb65
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120125049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217452"
 ---
 # <a name="imstscnonscriptablecleartextpassword-property"></a>IMsTscNonScriptable :: ClearTextPassword, propriété
 
@@ -82,7 +82,7 @@ Mot de passe à utiliser pour la connexion, spécifié au format texte en clair.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le mot de passe est transmis au serveur dans le canal de communications RDP chiffré en toute sécurité. Une fois qu’un mot de passe en texte clair est défini, il ne peut pas être récupéré au format texte brut.
 
@@ -104,7 +104,7 @@ Pour activer l’ouverture de session automatique, vous devez également défini
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - effet composite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8cf326e5d0bfb33b3dc927ba7366eb6d2b343a1a50db462de58fac8ef648bef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9872a66d031e8307f911ec7270af81397a80276
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117826575"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114134"
 ---
 # <a name="composite-effect"></a>Effet composite
 
@@ -27,7 +27,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Composite.
 -   [Propriétés d’effet](#effect-properties)
 -   [Types de mode](#mode-types)
 -   [Exemple de code](#sample-code)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -45,7 +45,7 @@ Voici un autre exemple utilisant le mode par défaut.
 | ![première image source avant l’effet.](images/default-before.jpg) |
 | Avant image 2                                                          |
 | ![deuxième image avant l’effet.](images/3-composite(2of2).png)    |
-| Après                                                                   |
+| After                                                                   |
 | ![image après la transformation.](images/3-composite.png)               |
 
 
@@ -119,7 +119,7 @@ La figure ci-dessous montre un exemple de chacun des modes avec des images qui o
 
 Pour obtenir un exemple de cet effet, téléchargez l' [exemple de modes d’effet composite de Direct2D](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20composite%20effect%20modes%20sample).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

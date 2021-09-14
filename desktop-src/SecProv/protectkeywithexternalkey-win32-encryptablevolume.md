@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 63ef4f998d576ecf2931af529a0ff6710a54513cc0d19027421c160bbdcd4cf5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: adcbdfdb9ea55139626bf3d1657b2e154c8d2b8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008988"
 ---
 # <a name="protectkeywithexternalkey-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithExternalKey de la \_ classe Win32 EncryptableVolume
 
@@ -76,7 +76,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 

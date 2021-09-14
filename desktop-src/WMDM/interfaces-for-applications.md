@@ -12,12 +12,12 @@ keywords:
 - interfaces d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 690b8419a7f04ef2b4eab1db65266027bdf5bcf3a102e59a95030a290e3747ed
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e49d66272c42679fd38d01b0114a834ee6f33e92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119619953"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008513"
 ---
 # <a name="interfaces-for-applications"></a>Interfaces pour les applications
 

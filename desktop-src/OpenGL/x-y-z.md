@@ -8,11 +8,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d8b5b5ac28d0b92c4d27d1b3bab617e2961fe468
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104381334"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121286"
 ---
 # <a name="x-y-z"></a>X Y Z
 
@@ -27,9 +27,9 @@ Système de fenêtre utilisé par de nombreux ordinateurs sur lesquels OpenGL es
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

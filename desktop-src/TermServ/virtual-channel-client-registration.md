@@ -5,12 +5,12 @@ ms.assetid: bf84b2f4-55c2-45fd-bba7-8ff3efe4b1fd
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac019a2c32a1eed09eb11b45a73261f1510bfa409ebe8e049370023f9199ac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcd7ecf128f125f6f25202bf683f8aa55ae4f257
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119868649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127217348"
 ---
 # <a name="virtual-channel-client-registration"></a>Inscription du client du canal virtuel
 

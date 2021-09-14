@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8abd9e3ee848c2a586230807b107f59acb734c398b3c27b4833e4359bb4c6543
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e25f66006dcb37e2504785b2b28ca1f328edfcfd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117950315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008787"
 ---
 # <a name="ts_char_-constants"></a>\_ \_ \* CONSTANTEs char TS
 

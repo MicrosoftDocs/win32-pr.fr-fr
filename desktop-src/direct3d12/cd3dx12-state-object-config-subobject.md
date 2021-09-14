@@ -15,11 +15,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/05/2021
 ms.openlocfilehash: 952bf1cd1b2833a4e4a2bf0a91892fbb1d6f797c
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918507"
 ---
 # <a name="cd3dx12_state_object_config_subobject-class"></a>Classe CD3DX12_STATE_OBJECT_CONFIG_SUBOBJECT
 
@@ -68,7 +68,7 @@ Opérateur de conversion qui retourne une référence à une constante [D3D12_ST
 
 Opérateur de conversion qui retourne une référence à une constante [D3D12_STATE_OBJECT_CONFIG](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_config) objet décrivant l’objet d’État.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------|-------------------------------------------------------------------------------------|

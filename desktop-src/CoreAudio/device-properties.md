@@ -4,12 +4,12 @@ ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Propriétés de l’appareil (API audio principales)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e1a5068329ea2da794b68b777aa989a2e8b4a665df082982916942aa15b56e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 14a868e4bb806bd49d934febed164bcd70fba39f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118407017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115018"
 ---
 # <a name="device-properties-core-audio-apis"></a>Propriétés de l’appareil (API audio principales)
 

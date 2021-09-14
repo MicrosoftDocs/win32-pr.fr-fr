@@ -4,12 +4,12 @@ description: Traduire en C++
 ms.assetid: b430c7ea-440a-460b-b06f-9a1a4219ff39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212c290dd000f7c74a3b764e4498e1e1745df07483e6e8a2aed8b2a338bd8b50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 708b018049a8c955d85199cd4b6abda750b1f8e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129591"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221641"
 ---
 # <a name="translating-to-c"></a>Traduire en C++
 

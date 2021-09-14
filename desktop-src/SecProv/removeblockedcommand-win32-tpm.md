@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: b319811585ad3948f4fe25d55874ca22c1c8e9166120823ae2e8434830f39e2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b42d3b5256aa9db1fd41ee4d4c41e358c045c32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008977"
 ---
 # <a name="removeblockedcommand-method-of-the-win32_tpm-class"></a>Méthode RemoveBlockedCommand de la \_ classe TPM Win32
 
@@ -189,7 +189,7 @@ Valeur entière qui spécifie une commande TPM.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -211,7 +211,7 @@ Les codes de retour courants sont répertoriés ci-dessous.
 
 Les modifications apportées à la liste par défaut des commandes bloquées peuvent exposer votre ordinateur à des risques en matière de sécurité et de confidentialité.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 

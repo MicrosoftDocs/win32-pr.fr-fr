@@ -4,12 +4,12 @@ ms.assetid: f2cee697-b4ec-5e4d-a87b-622c9fb7997c
 title: Fonctions géométriques Vector 3D de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a57dd08bc8dd1c75a5abdbc3f97b12b5abf6249b7cee92e17d30b3121cb73234
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 241f6a14e32cbdbebdf2aa5270970d405085810c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118500283"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917923"
 ---
 # <a name="directxmath-library-3d-vector-geometric-functions"></a>Fonctions géométriques Vector 3D de la bibliothèque DirectXMath
 

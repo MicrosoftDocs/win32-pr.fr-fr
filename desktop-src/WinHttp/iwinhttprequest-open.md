@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: a99a20873e5adc0f0dd0a33f7bc8e765b3c50ebb2fb3d90ad65f14d8fc33c3b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5543832eb1ebc3df210237eff71d415de14b2f62
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119643819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008341"
 ---
 # <a name="iwinhttprequestopen-method"></a>IWinHttpRequest :: Open, méthode
 
@@ -74,11 +74,11 @@ Indique s’il faut ouvrir en mode asynchrone.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ouvre une connexion à la ressource identifiée dans l' *URL* à l’aide du [*verbe http*](glossary.md) fourni dans la *méthode*.
 

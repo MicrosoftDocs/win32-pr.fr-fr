@@ -4,12 +4,12 @@ ms.assetid: b8a1b656-a582-4112-99e9-bd575719ebb3
 title: Sessions audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d5b8cee0a3a53709d2c450bef36ae00e3a6f4d9323c75ff80e96b19550eb39
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 57ae67a3eafe7a76add2fad192823868304e860d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119929409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115085"
 ---
 # <a name="audio-sessions"></a>Sessions audio
 

@@ -4,12 +4,12 @@ ms.assetid: 53d639e2-8717-4552-b0d3-b8c500bd38a8
 title: Interfaces de diffusion multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b38200d98b0f01b7260508cbf7bd19c6e65efdfb3af78f2efff77be38294e8b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d654bae73ee822f553a1494e3b374cf35b8ac4a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118152955"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223316"
 ---
 # <a name="multimedia-streaming-interfaces"></a>Interfaces de diffusion multimédia
 

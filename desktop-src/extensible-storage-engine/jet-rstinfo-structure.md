@@ -16,11 +16,11 @@ api_type:
 api_location: ''
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 76da8fdc7ded6025e2497771622a8e34c3928967
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986080"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917248"
 ---
 # <a name="jet_rstinfo-structure"></a>Structure JET_RSTINFO
 
@@ -70,7 +70,7 @@ Réservé pour un usage futur.
 
 Fonction d’État pour signaler l’état de la récupération.
 
-### <a name="requirements"></a>Configuration requise
+### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

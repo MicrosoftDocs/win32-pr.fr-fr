@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 2a15d001f3a92db2e9cb47cd319bbae4ab05ba9bf86b2105f30872159b237718
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 06ab2b9474b3564a567374490d9aeb70448338be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119667129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008982"
 ---
 # <a name="protectkeywithtpmandstartupkey-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithTPMAndStartupKey de la \_ classe Win32 EncryptableVolume
 
@@ -142,7 +142,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 

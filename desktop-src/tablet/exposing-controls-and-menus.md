@@ -4,12 +4,12 @@ ms.assetid: 0a8ebe23-8745-4b2d-bb0a-a1ca3bfac365
 title: Exposer des contrôles et des menus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b319460efd8f488a5141fb6d665c1ae652f4b8979e00407a1755384682dcb50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f561d1812423e9d824258934850c5d4c2974e4d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118967638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220244"
 ---
 # <a name="exposing-controls-and-menus"></a>Exposer des contrôles et des menus
 

@@ -4,12 +4,12 @@ ms.assetid: 04a3dbc8-33c4-4b70-930e-686be2f8301f
 title: Énumération d’objets dans un filtre Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa6206a583daaa984ef67af297c11c125128e58fec410ec1251afaca3987f582
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2369cd3400d3b7fc9944662ed6d32fd67234af90
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239082"
 ---
 # <a name="enumerating-objects-in-a-filter-graph"></a>Énumération d’objets dans un filtre Graph
 

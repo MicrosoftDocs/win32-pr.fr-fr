@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9691ff65709c451efc5de92099a6ec37d333a476d2997b365ba6b1df73546fbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85c7df5649ea430518ee7e848645680336a37b86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118274773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221412"
 ---
 # <a name="eapmethod-eaphostconfig-element"></a>Élément EapMethod (EapHostConfig)
 
@@ -33,11 +33,11 @@ L’élément **EapMethod (EapHostConfig)** identifie la méthode référencée.
 
 L’élément **EapMethod** est défini par l’élément [**EapHostConfig**](eaphostconfigschema-eaphostconfig-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Rôle | Version minimale du système d’exploitation |
+| Role | Version minimale du système d’exploitation |
 |------|--------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>              |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

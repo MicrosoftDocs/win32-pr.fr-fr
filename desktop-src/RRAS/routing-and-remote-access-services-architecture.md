@@ -6,12 +6,12 @@ keywords:
 - routage et accès à distance Service rras, routage et Architecture Access Services distante rras
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dba268c1ac40b1a5ff7bdea00209975c46756f9fedc6d942f761c6ab84799f4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3a3e72f7c61bc9cb558b020c3470718a7f419c04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120036082"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007058"
 ---
 # <a name="routing-and-remote-access-services-architecture"></a>Architecture du Access Services du routage et du service distant
 

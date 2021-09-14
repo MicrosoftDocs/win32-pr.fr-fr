@@ -4,12 +4,12 @@ ms.assetid: 0a9f5be1-9da2-47a7-859b-fc6d1ec326b3
 title: Propriété ProductName
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd250d4a3aae2fd1aa25fa2c5ff08492e8f7707fd5301d6318e9d813de423a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cfecd7a8464395f021d09430ce1be7ca3ba4a6cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120074689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009761"
 ---
 # <a name="productname-property"></a>Propriété ProductName
 
@@ -19,7 +19,7 @@ Cette propriété est obligatoire.
 
 Cette propriété peut être modifiée par une transformation.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de la propriété **ProductName** ne peut pas dépasser 63 caractères. Il n’existe aucune limite sur la longueur de la clé de Registre pour DisplayName.
 

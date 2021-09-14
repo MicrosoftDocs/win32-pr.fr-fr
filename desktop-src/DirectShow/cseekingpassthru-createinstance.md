@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5060e2e9842022d89c49e01b56967a92b71c5752e01239fd970c881ccb509cbe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3640cbd6a0a3e582899e7f5cd349ca48498f3532
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121941"
 ---
 # <a name="cseekingpassthrucreateinstance-method"></a>CSeekingPassThru. CreateInstance, méthode
 
@@ -57,11 +57,11 @@ Pointeur vers une valeur **HRESULT** . Ignoré.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers un nouvel objet **CSeekingPassThru** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -26,12 +26,12 @@ keywords:
 - Assistant de plug-in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1088d915715be44de092604d626bc24792f6d263a9765a1076ce1afa3f67ef4d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13d236c2160c5783f909430e6b49ef2e6361de22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135542"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216988"
 ---
 # <a name="installing-the-online-store-plug-in-wizard"></a>Installation de l’Assistant de plug-in de boutique en ligne
 

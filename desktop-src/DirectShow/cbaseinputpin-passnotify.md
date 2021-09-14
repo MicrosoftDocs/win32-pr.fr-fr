@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 760ec066a9d4876dd6ef754783c41ae12765db10c1595d08aef0a73258de087f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36316815ae1d9fde1a18fb36029da92ae6263f20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119016997"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223548"
 ---
 # <a name="cbaseinputpinpassnotify-method"></a>Méthode CBaseInputPin. PassNotify
 
@@ -49,7 +49,7 @@ Structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-quality) qui con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -64,14 +64,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez cette méthode si le filtre ne gère pas les messages de contrôle de qualité. Cette méthode transmet le message à l’un des objets suivants, par ordre de préférence :
 
 -   Gestionnaire de contrôle de qualité externe, si la méthode [**IQualityControl :: SetSink**](/windows/desktop/api/Strmif/nf-strmif-iqualitycontrol-setsink) a été appelée.
 -   Broche de sortie en amont.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

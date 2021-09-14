@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 273e6ba9e32337cc65b3dce979d2ff407b904595237b60025e42fc58e57d9823
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3798f32f7341722432441272eded7d7605cf8a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778279"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194524"
 ---
 # <a name="statistics-structure"></a>Structure des statistiques
 
@@ -198,13 +198,13 @@ Nombre de trames signalées par la carte réseau en raison d’erreurs matériel
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est utilisée pour récupérer des [*statistiques totales*](t.md)et pour suspendre ou arrêter la capture actuelle.
 
 Les statistiques totales ne peuvent pas être récupérées lors de l’utilisation de l’interface NPP [IESP](iesp.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -55,12 +55,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 49e972b05bb64cde77b3e61669612ffb8a63583533488d7b132c22da1f22cad0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b04a73865b2d1a483daa7fee61e73983d149f6a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119414209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009078"
 ---
 # <a name="microsoftinteropsecurityazrolesiazclientcontext-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzClientContext
 

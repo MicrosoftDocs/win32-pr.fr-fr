@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 730fa1230ddf08f5bd598e2041cd82ab4287d30387fa61460771fea5bcf3ec50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4265315e3ed2de87e564adab87c023401bbd55e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008644"
 ---
 # <a name="getactiveserver-method-of-the-win32_rdmsenvironment-class"></a>Méthode GetActiveServer de la \_ classe Win32 RDMSEnvironment
 
@@ -50,7 +50,7 @@ Reçoit le nom de domaine complet récupéré.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 en cas de réussite, sinon retourne un code d’erreur WMI.
 

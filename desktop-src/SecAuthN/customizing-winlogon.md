@@ -4,12 +4,12 @@ ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: Personnalisation de Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a10b2ae1e029bb741a2402a25d8e51f331fdd1cac1e9918dfef3b35b36c8e6d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b64da4baae9b52dd53e288c631f35d33ea5a3085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008657"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194012"
 ---
 # <a name="customizing-winlogon"></a>Personnalisation de Winlogon
 

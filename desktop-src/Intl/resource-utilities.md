@@ -5,11 +5,11 @@ title: Utilitaires de ressource
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2d9bb8a8608c97b700beebb53ce95fdf4b85c4d5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121921"
 ---
 # <a name="resource-utilities"></a>Utilitaires de ressource
 
@@ -218,7 +218,7 @@ Cette ligne de commande force le compilateur RC à effectuer les opérations sui
     -   Attribut « UltimateFallbackLanguage » dans le fichier de configuration de ressource, s’il est passé en tant qu’entrée.
     -   Valeur de l’attribut de langage à insérer dans les données de configuration de ressource en fonction de l’ordre de la langue du compilateur RC (langue indépendante de la langue et langue du fichier de ressources propre à la langue). Les considérations incluent le langage dans le fichier. RC, la valeur de langue du commutateur-GL et l’identificateur 0x0409 pour l’anglais (États-Unis).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si vous incluez des types de ressources icône (3), boîte de dialogue (5), chaîne (6) ou VERSION (16) dans l’élément neutralResources, vous devez dupliquer cette entrée dans l’élément localizedResources dans le fichier de configuration de ressource.
 

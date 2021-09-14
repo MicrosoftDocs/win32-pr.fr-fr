@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9494a594a396550028f083cc2b646f2093f6369ab27ae5494bf70c13628d4f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aaa92c3bc2ee82facf2f2e1043e71467a0c55bd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119619779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008508"
 ---
 # <a name="iwmdrmdevicegetsecureclock-method"></a>IWMDRMDevice :: GetSecureClock, méthode
 
@@ -78,7 +78,7 @@ Indicateurs d’état de l’appareil. Cette valeur doit être l’un des indica
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

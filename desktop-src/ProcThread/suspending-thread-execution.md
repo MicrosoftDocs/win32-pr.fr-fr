@@ -4,12 +4,12 @@ ms.assetid: b76d7af7-e3ec-4663-a9e7-832c01733c8c
 title: Interruption de l’exécution des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcf3ecf2bee1f14ae8571cb7e7402e32a636f4a35ca5c182d32a2a636ed85dff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3688b0327ecf5fd21f07e9be6be6ecab17d64617
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117793156"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007095"
 ---
 # <a name="suspending-thread-execution"></a>Interruption de l’exécution des threads
 

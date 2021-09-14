@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee6acb98cd378538fdc0d1a5706b059b4c95448d00388ccdac369a843d5d5530
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 523eae20ea1e704f3fa2f38a089cbc562fcb7811
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107216"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914499"
 ---
 # <a name="jet_retrievecolumngrbit-property"></a>JET_RETRIEVECOLUMN. Grbit, propriété
 

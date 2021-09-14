@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Scardssp.dll
 ms.openlocfilehash: 1c8d56b6f2210974bd86dbecea06f16b68548659
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393551"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193971"
 ---
 # <a name="iscardiso7816externalauthenticate-method"></a>ISCardISO7816 :: ExternalAuthenticate, méthode
 
-\[La méthode **ExternalAuthenticate** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode **ExternalAuthenticate** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode **ExternalAuthenticate** construit une commande APDU ( [*Application Protocol Data Unit*](../secgloss/a-gly.md) ) qui met à jour l’état de la sécurité de manière conditionnelle, en vérifiant l’identité de l’ordinateur lorsque la [*carte à puce*](../secgloss/s-gly.md) ne l’approuve pas.
 
@@ -68,7 +68,7 @@ Référence du secret.
 | <span id="Global_ref"></span><span id="global_ref"></span><span id="GLOBAL_REF"></span><dl> <dt>**Référence globale**</dt> </dl>         | Position du bit : 0-------<br/> Données de référence globales (une clé spécifique à MF).<br/>                                                                                       |
 | <span id="Specific_ref"></span><span id="specific_ref"></span><span id="SPECIFIC_REF"></span><dl> <dt>**Réf. spécifique**</dt> </dl> | Position du bit : 1-------<br/> Données de référence spécifiques (clé spécifique à DF).<br/>                                                                                      |
 | <span id="RFU"></span><span id="rfu"></span><dl> <dt>**RFU**</dt> </dl>                                                           | Position du bit :-XX-----<br/> 00 (les autres valeurs sont RFU).<br/>                                                                                                        |
-| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Secret**</dt> </dl>                         | Position du bit :---xxxxx<br/> Numéro du secret.<br/>                                                                                                             |
+| <span id="Secret"></span><span id="secret"></span><span id="SECRET"></span><dl> <dt>**Confidentialité**</dt> </dl>                         | Position du bit :---xxxxx<br/> Numéro du secret.<br/>                                                                                                             |
 
 
 
@@ -92,7 +92,7 @@ Au retour, elle est remplie avec la commande APDU construite par cette opératio
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 
@@ -119,14 +119,14 @@ Pour obtenir la liste de toutes les méthodes fournies par cette interface, cons
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardssp. h</dt> </dl>   |

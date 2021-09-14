@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Récupération des classes modifiées à l’aide de l’API COM pour WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3752be42a7111e677e7cd60e0bfe9996350f9ae19e7bd0e168d1fa5da82fe42a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0178b0b99de2b666e2f497074a02b02c49ba400
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118554023"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008211"
 ---
 # <a name="retrieving-amended-classes-using-the-com-api-for-wmi"></a>Récupération des classes modifiées à l’aide de l’API COM pour WMI
 

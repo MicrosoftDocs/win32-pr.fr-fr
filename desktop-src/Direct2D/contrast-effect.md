@@ -4,12 +4,12 @@ description: augmente ou diminue le contraste d’une image.
 ms.assetid: c0cc0f86-f6d4-e951-0cdd-dbad488e0793
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad766b33f82a409395186f219321cf1035d49fe447c29fb3a95071c985c18397
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6f287b1309aceadc4709bae3b1c2101a06df32d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814898"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114129"
 ---
 # <a name="contrast-effect"></a>Effet de contraste
 
@@ -24,7 +24,7 @@ La fonction Contrast modifie chaque valeur de canal de couleur à l’aide de de
 -   [Exemples d’images](#example-images)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-images"></a>Exemples d’images
@@ -58,7 +58,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet de contraste sont définies par l’énumération de la propriété de [**\_ \_ contraste d2d1**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_contrast_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|

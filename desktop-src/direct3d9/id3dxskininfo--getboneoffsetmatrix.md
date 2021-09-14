@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d10586fc9d4008ebd22b7edf2fa955628ffa0ab703ef70ed06cb2f2cb1fd8d68
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fce108dc1d0eb08f198ae9375ac35ed149c5e760
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119492299"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918264"
 ---
 # <a name="id3dxskininfogetboneoffsetmatrix-method"></a>ID3DXSkinInfo :: GetBoneOffsetMatrix, méthode
 
@@ -49,13 +49,13 @@ Numéro d’os.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **LPD3DXMATRIX**](d3dxmatrix.md)**
 
 Retourne un pointeur vers la matrice de décalage de l’OS. Ne libérez pas ce pointeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

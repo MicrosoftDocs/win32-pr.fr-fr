@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: 6605e2fb02edad23831b22334b960eaa2e89f23206673608500f248452094ea6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 19f97abeec74af0d08f340b70aa139e1bec7bf1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061147"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007178"
 ---
 # <a name="pdhvbaddcounter-function"></a>PdhVbAddCounter fonction)
 
@@ -54,7 +54,7 @@ Référence unique qui identifie ce compteur dans la requête. Cette variable do
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, elle retourne un entier **long** égal à \_ l’erreur Success et un nouveau handle dans la variable *CounterHandle* .
 
@@ -77,7 +77,7 @@ Si la fonction échoue, la valeur de retour est un [code d’erreur système](/w
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

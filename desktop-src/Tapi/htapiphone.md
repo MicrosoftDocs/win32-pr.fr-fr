@@ -4,12 +4,12 @@ ms.assetid: e869cb3e-0eeb-4edf-a272-a655a236a3a2
 title: HTAPIPHONE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cdc7d2c8f69d3a24bf830e00588a8e8721592d3d7c3c708ca12bfecb6b1f2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94706270b1148166181eda0d8df9b940c269f62a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119003597"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008767"
 ---
 # <a name="htapiphone"></a>HTAPIPHONE
 

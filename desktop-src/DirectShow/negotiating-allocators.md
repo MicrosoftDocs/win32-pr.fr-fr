@@ -4,12 +4,12 @@ ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: Négociation des allocateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710b8315bfd44371a82d995afa56483414623136a6ce5c510babd5ea07b4b8bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2faa393ba9fcd8585d68947cec172d4cfca6decf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119790939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127223236"
 ---
 # <a name="negotiating-allocators"></a>Négociation des allocateurs
 

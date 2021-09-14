@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f975814fadc5271c562e4e8e420c35dbb3450142bed797af83af73fdf81a55d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 341591c31accb4aab0b49f611359a93ec99c0cab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115549"
 ---
 # <a name="tvm_sortchildren-message"></a>TVM \_ SORTCHILDREN message
 
@@ -43,15 +43,15 @@ Handle vers l’élément parent dont les éléments enfants doivent être trié
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message alphabetizes les éléments d’arborescence à l’aide de [**lstrcmpi**](/windows/desktop/api/winbase/nf-winbase-lstrcmpia) sur le nom de l’élément. Vous pouvez utiliser le message [**TVM \_ SORTCHILDRENCB**](tvm-sortchildrencb.md) pour personnaliser le comportement de classement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

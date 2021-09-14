@@ -7,12 +7,12 @@ keywords:
 - énumération des tâches Planificateur de tâches, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2340dee7b90d9e6e24bf2c7aefcd081295f708d662023109720ede8a26264f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 81dda98cf40bc1ea360d20bcf13084faa692aa22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119959629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008664"
 ---
 # <a name="enumerating-tasks"></a>Énumération des tâches
 
@@ -41,7 +41,7 @@ Pour obtenir un exemple d’énumération des tâches dans le dossier tâches pl
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Informations sur la tâche Planificateur de tâches 1,0](task-scheduler-1-0-task-informatation.md)

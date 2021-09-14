@@ -13,11 +13,11 @@ api_type:
 - Schema
 api_location: ''
 ms.openlocfilehash: 33d58bd247a220ca93ed4d2a05886be107afd4c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517693"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009444"
 ---
 # <a name="supplicantmode-onex-element"></a>Élément supplicantMode (OneX)
 
@@ -37,7 +37,7 @@ L’élément supplicantMode (OneX) spécifie la méthode de transmission utilis
 
 Cet élément est facultatif. Quand supplicantMode n’est pas spécifié dans un profil, la valeur `compliant` est utilisée pour les profils de réseau local câblés et sans fil.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
 
 ``` syntax
 <xs:element name="supplicantMode">
@@ -67,8 +67,8 @@ L’élément **supplicantMode** est défini par l’élément [**Onex**](onexsc
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

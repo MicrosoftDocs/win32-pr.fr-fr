@@ -4,12 +4,12 @@ ms.assetid: db0d899e-dbd4-40d3-98d8-4d9668c01453
 title: Inscription des dll SSP/AP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6405dc5ddce32ad5e4d87ed44f9344240b491fdc0ea789c30d5475ac6e73aaf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6d279459b91633e0ef45e6e6d57b43489699a657
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118919499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009131"
 ---
 # <a name="registering-sspap-dlls"></a>Inscription des dll SSP/AP
 

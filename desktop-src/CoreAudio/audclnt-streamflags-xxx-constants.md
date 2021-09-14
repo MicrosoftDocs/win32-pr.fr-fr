@@ -4,12 +4,12 @@ ms.assetid: 7b2267c3-79f5-4ada-a7ce-78dd514f8487
 title: Constantes AUDCLNT_STREAMFLAGS_XXX (Audiosessiontypes. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84817607092c179286f47eb35ef51f5e0f82d44211bcd2345ca3d27ee06b0e13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65faf887c35b4ce1110cecb7d7509eb3dfda1d57
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118407362"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115106"
 ---
 # <a name="audclnt_streamflags_xxx-constants"></a>AUDCLNT \_ STREAMFLAGS \_ xxx, constantes
 
@@ -29,7 +29,7 @@ Spécifie les caractéristiques qu’un client peut assigner à un flux audio pe
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) et la structure [**des \_ \_ \_ paramètres d’activation audio DirectX**](/windows/win32/api/mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params) utilisent les \_ constantes AUDCLNT STREAMFLAGS \_ xxx.
 
@@ -43,7 +43,7 @@ L' \_ indicateur AUDCLNT STREAMFLAGS \_ nopersiste désactive la persistance des
 
 L' \_ indicateur AUDCLNT STREAMFLAGS \_ RATEADJUST permet à une application d’obtenir une référence à l’interface [**IAudioClockAdjustment**](/windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment) utilisée pour définir le taux d’échantillonnage du flux. Pour obtenir un pointeur vers ce interface, une application doit initialiser le client audio avec cet indicateur, puis appeler [**IAudioClient :: GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) en spécifiant l' **IID \_ IAudioClockAdjustment** identifier. Pour définir le nouveau taux d’échantillonnage, appelez [**IAudioClockAdjustment :: SetSampleRate**](/windows/desktop/api/audioclient/nf-audioclient-iaudioclockadjustment-setsamplerate). Cet indicateur n’est valide que pour un périphérique de rendu. Dans le cas contraire, l’appel de **GetService** échoue avec le code d’erreur AUDCLNT \_ E \_ type de point de terminaison incorrect \_ \_ . L’application doit également définir le paramètre *ShareMode* sur AUDCLNT \_ ShareMode \_ Shared pendant l’appel [**Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) . **SetSampleRate** échoue si le client audio n’est pas en mode partagé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

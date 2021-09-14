@@ -4,12 +4,12 @@ ms.assetid: 3b2cb1fe-0f11-4509-a6f3-513d2755cd29
 title: Utilisation des rôles d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcc7e3d0d2612415ddc3f72571774f11a2d62c911290b156be7efb543c48546e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c21ea667a6974634c1f9f0657dd02c13a621641c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118406892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114997"
 ---
 # <a name="working-with-device-roles"></a>Utilisation des rôles d’appareil
 

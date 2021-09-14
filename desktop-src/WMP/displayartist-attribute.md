@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6c20e3d693aa7d5be5be0236d9eefebe7efcb70bc236db3f84389e5a3ceeccf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44d479add519d8b7df346869e783c36560fc46dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008451"
 ---
 # <a name="displayartist-attribute"></a>Attribut DisplayArtist
 
@@ -27,7 +27,7 @@ L’attribut **DisplayArtist** est le nom de l’artiste affiché pour un élém
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En règle générale, **DisplayArtist** aura la même valeur que l’attribut **WM/AlbumArtist** lorsque cet attribut est défini. Dans le cas contraire, la valeur sera le nom de l’artiste associé à la première piste de l’album.
 

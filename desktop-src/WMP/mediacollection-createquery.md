@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d66c75de2479ce6426546fa58e51afa39d34cf72978e7812680682803d797651
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dca590dcca3b11e7b6763272a51b86a62e100b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135071"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008384"
 ---
 # <a name="mediacollectioncreatequery-method"></a>MediaCollection. createQuery, méthode
 
@@ -40,11 +40,11 @@ retVal = MediaCollection.createQuery()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un nouvel objet de **requête** vide.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La création d’un nouvel objet de **requête** est la première étape vers la création d’une requête composée.
 

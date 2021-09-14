@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: 0c41b6773b0ed64160e2ad8850b6092dd5ec987c3e6726ba1cd668909c266311
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a5618ec29fd47ba690106b5f826e6fb145eac208
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143392"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007143"
 ---
 # <a name="ioctl_video_query_supported_brightness-control-code"></a>\_Code de \_ contrôle de \_ luminosité pris en charge \_ pour la requête de vidéo IOCTL
 
@@ -114,7 +114,7 @@ Si *hDevice* a été ouvert sans que l’indicateur de fichier n’ait été sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine correctement, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) retourne une valeur différente de zéro.
 
@@ -133,7 +133,7 @@ Vous pouvez également définir ce code de contrôle comme suit :
   CTL_CODE(FILE_DEVICE_VIDEO, 0x125, METHOD_BUFFERED, FILE_ANY_ACCESS)
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

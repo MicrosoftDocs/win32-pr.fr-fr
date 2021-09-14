@@ -9,12 +9,12 @@ keywords:
 - énumérations, type 1 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3436223f3abab88f7a177bf8b5fe54e41c82046fae3809c00e15c0cccd829c6e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de065a8b8925959720a70ca957514b28dc68a2bc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117748964"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193255"
 ---
 # <a name="enumerations-for-type-1-online-stores"></a>Énumérations pour les magasins de type 1 en ligne
 

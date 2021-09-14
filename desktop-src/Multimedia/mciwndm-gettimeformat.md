@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a09f969c009ff23bc0951ed2efbc0dbf7aa95dda
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364280"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009494"
 ---
 # <a name="mciwndm_gettimeformat-message"></a>\_Message MCIWNDM GETTIMEFORMAT
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon destinée à contenir la forme de chaîne term
 
 Retourne un entier correspondant à la constante MCI définissant le format d’heure.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la chaîne de format d’heure est plus longue que la mémoire tampon de retour, MCIWnd tronque la chaîne.
 
@@ -82,7 +82,7 @@ Un périphérique MCI peut prendre en charge un ou plusieurs des formats d’heu
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

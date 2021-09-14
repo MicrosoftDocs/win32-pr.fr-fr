@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103866
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9b08a39c72fd32e71e652bd8fa63d22a01ba43e6d364d5755778b67a778d93d3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0090b04b0363f5ba3978f05540473843c2524566
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107506"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914567"
 ---
 # <a name="jet_recpos-properties"></a>Propriétés de la JET_RECPOS
 

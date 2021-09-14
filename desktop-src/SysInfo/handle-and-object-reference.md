@@ -4,12 +4,12 @@ ms.assetid: a35e7400-0e36-45cf-bbde-a3836bb75f73
 title: Handle et référence d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38ec937e1d2e63ed6e1ed9562ea4b84eef4fb14c042cc41e0f1e63c943c291d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e973bc738f0b2a8dd8c1f16781ebe64f76a9064
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885752"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193739"
 ---
 # <a name="handle-and-object-reference"></a>Handle et référence d’objet
 

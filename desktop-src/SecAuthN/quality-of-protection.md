@@ -4,12 +4,12 @@ ms.assetid: bee4236c-69e5-4281-a6b3-be316bac0a11
 title: Qualité de la protection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 202acbf319601af74efc35117990f27cc6edff76f27da243453f82bf50984977
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4643c9e2de77647a3adf2cbf0441e31bcf5be5de
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118920448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222452"
 ---
 # <a name="quality-of-protection"></a>Qualité de la protection
 

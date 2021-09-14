@@ -4,12 +4,12 @@ ms.assetid: d5229ef5-0cb5-4daf-8468-0cb653029c1c
 title: Réduction de la taille d’un fichier .msi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b41cfeb949299ff4d80147fe09437cbfd708a4279bb43189c2528c495eb391
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6b5a19c92f0567fc6081d772279ec2cc0b6cafef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534088"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009703"
 ---
 # <a name="reducing-the-size-of-an-msi-file"></a>Réduction de la taille d’un fichier .msi
 

@@ -4,12 +4,12 @@ ms.assetid: 6f7ee9ff-479d-4cb0-8de1-1c3b671551f9
 title: Sous-classe et traduction automatique des messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c20147567bb4cd591d31e0da5f08b76a29d0229c9bc345b8c1827fc5350dd62d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e7f0aebabe4bde259a982152327ce61a14de915c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118390222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121845"
 ---
 # <a name="subclassing-and-automatic-message-translation"></a>Sous-classe et traduction automatique des messages
 

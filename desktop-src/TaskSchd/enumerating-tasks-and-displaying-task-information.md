@@ -7,12 +7,12 @@ keywords:
 - Exemples de Planificateur de tâches Planificateur de tâches, énumération de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4859122218ead4d18c1f9e83de0f55ce9373306cd2762e5608cf4d1841019b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58e4c1bbad0a1fa8892e38a001ff54e665f0c144
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119002447"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008667"
 ---
 # <a name="enumerating-tasks-and-displaying-task-information"></a>Énumération des tâches et affichage des informations sur les tâches
 

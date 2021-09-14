@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eae3980c8e3f1db56130fdf27ab54b42d0cf8a4d8084400c4f34e07448323ddd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be75d3703e00350c2db937e73080fadd6364550d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118873922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008789"
 ---
 # <a name="ts_ch_-constants"></a>\_ \_ \* Constantes TS ch
 
@@ -33,7 +33,7 @@ Les \_ \_ \* constantes TS ch sont utilisées en interne par TSF pour indiquer q
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

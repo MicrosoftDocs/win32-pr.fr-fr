@@ -4,12 +4,12 @@ description: Cette section contient des rubriques qui montrent comment créer et
 ms.assetid: VS|Controls|~\controls\propsheet\usingpropsheet.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15827a8fac50877e7550e0096fc4631ab007924b79c3ef9e0f611b99c9b9860a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5d6066fbaedb8ca66ff651e61c0a5680106e02b1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115277"
 ---
 # <a name="using-property-sheets"></a>Utilisation des feuilles de propriétés
 

@@ -4,12 +4,12 @@ ms.assetid: 107287ef-1a71-4974-8830-a0c2a45c4981
 title: Utilisation de PNRP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25043634716deb03f9dfe23e6ba630c3e498a4213a155083614dce94dc3f3f21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 351576c2f2b9247eac60dc231a4aefb9df84400a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119287669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009207"
 ---
 # <a name="using-pnrp"></a>Utilisation de PNRP
 

@@ -15,12 +15,12 @@ keywords:
 - plug-ins DSP audio, modification de l’exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f18ca0aada7072ca7cd1c0796c3cd6770a9b45340a4d9f67a342944f4c22887
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bdde8e7f00fc9ea3ad9bb8b7adb2d0a8bfba6b32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118338640"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008430"
 ---
 # <a name="implementing-an-audio-dsp-plug-in"></a>Implémentation d’un plug-in DSP audio
 

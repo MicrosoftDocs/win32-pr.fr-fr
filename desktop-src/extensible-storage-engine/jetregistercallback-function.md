@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cdc87805539619ff644afbd295bfa7f1ac76f075
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 0ef90466b736facf5bd9fefee31c0449964d003b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482785"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914424"
 ---
 # <a name="jetregistercallback-function"></a>Fonction JetRegisterCallback
 
@@ -97,14 +97,20 @@ En cas de réussite, le rappel spécifié sera inscrit pour les raisons de rappe
 
 En cas d’échec, le rappel n’est pas inscrit. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 Cette méthode permet à l’application d’associer des rappels volatiles à une table dans une base de données. Si l’application souhaite associer les rappels rendus persistants à une table dans la base de données, elle doit passer le rappel à [JET_TABLECREATE](./jet-tablecreate-structure.md) à l’aide de [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md).
 
 #### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

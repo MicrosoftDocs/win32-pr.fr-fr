@@ -6,12 +6,12 @@ keywords:
 - OpenGL, référence des informations d’État
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ed923cd645300c27395b78c50f019217edf8b41e34905e670236410e89a9ce6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 885e1e7b4d8704eb43dda2cc85b870ede7e53a22
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009264"
 ---
 # <a name="state-information-reference"></a>Informations de référence sur l’État
 

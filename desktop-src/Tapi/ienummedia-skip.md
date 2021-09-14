@@ -4,12 +4,12 @@ ms.assetid: 825972c9-5303-4c5a-9475-dc67c185af91
 title: 'IEnumMedia :: Skip, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e17dadb1db502dfa76645d0142b98da3a030efb9e391a029985460c89526d37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d8c600a201d6800fcb04dba5f208fd5cb810078
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118865773"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008761"
 ---
 # <a name="ienummediaskip-method"></a>IEnumMedia :: Skip, méthode
 
@@ -39,7 +39,7 @@ Nombre d'éléments à ignorer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -54,7 +54,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

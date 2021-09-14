@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c2e59e15994f9a00f15538b95bf303195083bb364b5a34378ee32cd99bd88a50
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a6438850b90309b47fbe1fb76b1fd4f7baea8f48
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120084499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239303"
 ---
 # <a name="cbasemediafilterisactive-method"></a>CBaseMediaFilter. IsActive, méthode
 
@@ -40,11 +40,11 @@ BOOL IsActive();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si l’objet est en pause ou en cours d’exécution, ou **false** s’il est arrêté.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

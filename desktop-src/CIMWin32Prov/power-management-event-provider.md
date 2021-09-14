@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fournisseur d’événements de gestion de l’alimentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95506a85d5d627514743ae7eb37efa1df2f86555181a7adb565e58cb3b93e639
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eeb515c072161a9973d0f5554a1e0a3118674ed6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006972"
 ---
 # <a name="power-management-event-provider"></a>Fournisseur d’événements de gestion de l’alimentation
 

@@ -14,12 +14,12 @@ keywords:
 - frustum
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 748eb0fade84ef76c133453165db53d8540326dae3111ac04f3b7a6819ae825a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7085765a5585268acb2f20a77c72bdd7cf1b4b81
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118618184"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194451"
 ---
 # <a name="f-opengl"></a>F (OpenGL)
 

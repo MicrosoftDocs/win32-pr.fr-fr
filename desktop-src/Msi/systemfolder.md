@@ -4,18 +4,18 @@ ms.assetid: 23883638-8d3d-4c2a-8ebf-0c306cf01e05
 title: Propriété SystemFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1567942e981af161654d41988ef797b64116af5cdb25e07a3d4f1465fc4ce975
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2abce6e4aa91289ef17134ab3cb878a665d3097c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118142007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009625"
 ---
 # <a name="systemfolder-property"></a>Propriété SystemFolder
 
 Le programme d’installation définit la propriété **SystemFolder** sur le chemin d’accès complet du dossier système.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le programme d’installation définit cette propriété. par exemple, sur 32 bits Windows la valeur peut être C : \\ Windows \\ System32. sur la Windows 64 bits, la valeur peut être C : \\ Windows \\ SysWow64.
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, déclaration de fonctions asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fc0978156fe91291b91937082690258550b7f02f1d7b6e5334dd0741a9f0211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fafc1208d53763835d72f527723d00816f38db9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931047"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009159"
 ---
 # <a name="declaring-asynchronous-functions"></a>Déclaration de fonctions asynchrones
 

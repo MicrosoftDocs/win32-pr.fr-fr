@@ -4,12 +4,12 @@ description: Déploiement de l’équilibrage de charge
 ms.assetid: d80b8999-16c9-4fc8-a1cb-35a65f434884
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c36d1ba29aedd5e94c29095d18fb84790ec4b76956ea20bc2ffd584b5a6a179f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc00430e8e93334c04dc74c57fc8b50db7d3c899
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120021842"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009144"
 ---
 # <a name="deploying-load-balancing"></a>Déploiement de l’équilibrage de charge
 

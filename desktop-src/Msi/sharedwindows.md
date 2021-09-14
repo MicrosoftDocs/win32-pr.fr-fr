@@ -4,18 +4,18 @@ ms.assetid: 22dd5ee9-25d3-4bc6-9181-13095497a1d3
 title: Propriété SharedWindows
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4270f5e486ac79b557f27c77b4d141edd9d85c237a04c74711c7c1f92e987d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 965be70d3d49d4ec73e18cdea713952852ee659e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118624703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195344"
 ---
 # <a name="sharedwindows-property"></a>Propriété SharedWindows
 
 Le programme d’installation définit la propriété **SharedWindows** lorsque le système fonctionne comme un Windows partagé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 629b66c18abcb3c75921ab252d88047a70d3dc1e3c2667ac2b1707fdbe6a58ae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b27b44a0646cea16970735df8f7d23f655fc4b00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118568724"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192688"
 ---
 # <a name="iwmpmetadatapicturedescription-property"></a>IWMPMetadataPicture ::D propriété escription
 
@@ -52,7 +52,7 @@ Public ReadOnly Property Description As System.String
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

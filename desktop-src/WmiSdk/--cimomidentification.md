@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 50d81fb8cfc5580ad0868df307771c493c0919e1bf2ce4de4b67d48db034a0d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8590a2a83cdbc9bd06575cf17ddbe65138a4a31
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118321109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916955"
 ---
 # <a name="__cimomidentification-class"></a>\_\_CIMOMIdentification, classe
 
@@ -118,7 +118,7 @@ Répertoire d’installation.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe **\_ \_ CIMOMIdentification** est dérivée de [**\_ \_ SystemClass**](--systemclass.md), qui n’a pas de propriétés.
 
@@ -166,7 +166,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

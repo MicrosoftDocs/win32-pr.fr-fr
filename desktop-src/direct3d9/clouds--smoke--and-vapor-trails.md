@@ -4,12 +4,12 @@ ms.assetid: c5607327-de46-4241-a01a-4adfe0bbf6fb
 title: Clouds, fumées et traces de vapeur (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09da27ec1ba8f6ad8beb3c9a847226ffe63f1059c0b28dfe71e0d0582d56645f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f60bce89e23b2b2aab7affbb6947cab4d11c33ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118097157"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008046"
 ---
 # <a name="clouds-smoke-and-vapor-trails-direct3d-9"></a>Clouds, fumées et traces de vapeur (Direct3D 9)
 

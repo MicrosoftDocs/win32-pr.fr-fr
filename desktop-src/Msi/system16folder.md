@@ -4,12 +4,12 @@ ms.assetid: c4aa3c6e-0168-4103-921b-7ae2ecb7e455
 title: Propriété System16Folder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 342458fe9ab774b928b0a6803cf4a0e076835366c024f0f733b7efea30c2e423
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f686f6ed525455ef0878a6b74c945b93eb2b9bd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119626819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009634"
 ---
 # <a name="system16folder-property"></a>Propriété System16Folder
 

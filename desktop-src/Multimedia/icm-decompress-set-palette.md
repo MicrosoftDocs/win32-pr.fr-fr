@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5f2bbbf1b09b8c5954a2149edd16cb213a08fb3a
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364183"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195327"
 ---
 # <a name="icm_decompress_set_palette-message"></a>ICM \_ Décompresser le \_ \_ message de palette
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(
 
 Retourne ICERR \_ OK si le pilote de décompression peut décompresser des images de manière précise dans la palette suggérée à l’aide de l’ensemble de couleurs à mesure qu’elles sont organisées dans la palette. Retourne ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message ne doit pas affecter la décompression déjà en cours ; au lieu de cela, les couleurs transmises à l’aide de ce message doivent être retournées en réponse à la prochaine [**ICM \_ décompresser le \_ \_ FORMAT d’extraction**](icm-decompress-get-format.md) et [**ICM \_ décompresser les messages de \_ \_ PALETTE**](icm-decompress-get-palette.md) . les couleurs sont renvoyées au pilote de décompression dans un futur message de [**\_ \_ début**](icm-decompress-begin.md) de décompression ICM.
 

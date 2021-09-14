@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4412a8482af1da3316dda233e520f1ca7780524817a72c01d252d548e28c5860
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c5fa7d1450240a8250e66e2bbe6d8ef0b97c136
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119471259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914399"
 ---
 # <a name="vistaapijetinit3-method"></a>Méthode VistaApi. JetInit3
 
@@ -82,11 +82,11 @@ public static JET_wrn JetInit3(
 <!-- end list -->
 
   - grbit  
-    Type : [Microsoft.Isam.Esent.Interop.InitGrbit](./initgrbit-enumeration.md)  
+    Type : [Microsoft. ISAM. esent. Interop. InitGrbit](./initgrbit-enumeration.md)  
     
     Options d’initialisation.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement.  

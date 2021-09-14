@@ -5,11 +5,11 @@ ms.assetid: ead0e99a-94da-4e80-bb68-d8f4b199173d
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: f340b1a1bddfb3fd591452e028c80403b9c7e02f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193620"
 ---
 # <a name="resource-virtualization"></a>Virtualisation des ressources
 
@@ -17,18 +17,18 @@ La fonction principale du TBS est de partager efficacement certaines ressources 
 
 Lorsqu’une instance de l’une de ces ressources est créée, le TBS crée une instance virtuelle de la ressource et retourne un descripteur de cette instance virtuelle dans le flux de commandes de résultat (plutôt que l’instance de handle réelle retournée par le module de plateforme sécurisée). Le TBS maintient un mappage entre le descripteur virtuel et le handle réel en interne. Si le module de plateforme sécurisée manque d’espace pour contenir plus de ressources d’un type donné, les instances existantes de la ressource sont enregistrées et supprimées de manière sélective jusqu’à ce que le module de plateforme sécurisée puisse contenir la nouvelle ressource. Lorsque les anciennes ressources sont à nouveau nécessaires, le TBS charge les contextes enregistrés (en enregistrant et en excluant d’autres ressources si nécessaire) avant d’envoyer la commande.
 
-Toute la virtualisation dans le TBS est effectuée pour le compte d’un contexte spécifique. Chaque contexte est uniquement autorisé à accéder à des ressources virtuelles créées spécifiquement en son nom, ainsi qu’à des ressources physiques sur le module de plateforme sécurisée qui correspond à ces ressources virtuelles. Par défaut, le nombre total de toutes les ressources virtualisées est limité à 500. Ce nombre peut être modifié en créant ou en modifiant une valeur de Registre **DWORD** nommée **MaxResources** sous **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **TPM**. L’utilisation des ressources TBS en temps réel peut être observée à l’aide de l’outil Analyseur de performances pour suivre le nombre de ressources TBS. Cette restriction est devenue obsolète avec Windows 8 et Windows Server 2012.
+Toute la virtualisation dans le TBS est effectuée pour le compte d’un contexte spécifique. Chaque contexte est uniquement autorisé à accéder à des ressources virtuelles créées spécifiquement en son nom, ainsi qu’à des ressources physiques sur le module de plateforme sécurisée qui correspond à ces ressources virtuelles. Par défaut, le nombre total de toutes les ressources virtualisées est limité à 500. Ce nombre peut être modifié en créant ou en modifiant une valeur de Registre **DWORD** nommée **MaxResources** sous **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **TPM**. L’utilisation des ressources TBS en temps réel peut être observée à l’aide de l’outil Analyseur de performances pour suivre le nombre de ressources TBS. cette restriction est devenue obsolète avec Windows 8 et Windows Server 2012.
 
 Les ressources TPM limitées qui ne sont pas virtualisées par le TBS (tels que les compteurs et le magasin NV) doivent être partagées de manière coopérative entre les piles logicielles.
 
 > [!Note]  
 > Cette virtualisation de handle entraîne l’échec des commandes qui incluent des handles de clé dans le calcul de paramètres d’autorisation HMAC. Par conséquent, de nombreuses commandes dépréciées dans la version 1,2 du module de plateforme sécurisée ne peuvent pas être utilisées par les logiciels d’application dans l’environnement TBS.
 
- 
+ 
 
 ## <a name="resource-limits"></a>Limites de ressources
 
-Le module de plateforme sécurisée permet aux appelants d’interroger ses fonctionnalités pour déterminer la quantité d’espace disponible pour certains types de ressources. Certaines de ces limites de ressources, telles que la quantité d’espace disponible pour les clés, les sessions d’autorisation et les sessions de transport, sont effectivement étendues par le TBS via la virtualisation. Les limitations de TBS, qui sont contrôlées par le paramètre de Registre **MaxResources** , sont généralement beaucoup plus volumineuses que les limitations réelles du matériel TPM sous-jacent. Aucun mécanisme n’est fourni pour interroger les limitations de TBS indépendamment des limites matérielles du module de plateforme sécurisée. Cette limitation de TBS est devenue obsolète avec Windows 8 et Windows Server 2012.
+Le module de plateforme sécurisée permet aux appelants d’interroger ses fonctionnalités pour déterminer la quantité d’espace disponible pour certains types de ressources. Certaines de ces limites de ressources, telles que la quantité d’espace disponible pour les clés, les sessions d’autorisation et les sessions de transport, sont effectivement étendues par le TBS via la virtualisation. Les limitations de TBS, qui sont contrôlées par le paramètre de Registre **MaxResources** , sont généralement beaucoup plus volumineuses que les limitations réelles du matériel TPM sous-jacent. Aucun mécanisme n’est fourni pour interroger les limitations de TBS indépendamment des limites matérielles du module de plateforme sécurisée. cette limitation de TBS est devenue obsolète avec Windows 8 et Windows Server 2012.
 
 ## <a name="keys"></a>Keys
 
@@ -96,16 +96,16 @@ Si une commande est envoyée avec un descripteur virtuel qui n’est pas reconnu
 ## <a name="transport-sessions"></a>Sessions de transport
 
 > [!Note]  
-> La gestion des sessions de transport, comme décrit ici, est spécifique à Windows Vista et Windows Server 2008.
+> la gestion des sessions de transport, comme décrit ici, est spécifique à Windows Vista et Windows Server 2008.
 
- 
+ 
 
 Les sessions de transport sont un mécanisme fourni par le module de plateforme sécurisée qui permet à une pile de logiciels de chiffrer les données dans une commande à mesure qu’elles transitent entre le logiciel et le module de plateforme sécurisée. Cela empêche un adversaire d’intercepter les données lorsqu’elles sont transmises sur le bus matériel.
 
 > [!IMPORTANT]
 > Seules les données de charge utile sont chiffrées. Les commandes en cours d’exécution peuvent toujours être identifiées.
 
- 
+ 
 
 Malheureusement, ce mécanisme empêche également le TBS d’examiner les données de charge utile. Dans la plupart des cas, ce n’est pas un problème car le TBS modifie uniquement les descripteurs, pas les données de charge utile. Toutefois, dans le cas de TPM \_ LoadContext par exemple, le descripteur de ressource retourné est couvert par le chiffrement. Par conséquent, le service TBS empêche toute tentative d’exécution d’une \_ opération LOADCONTEXT TPM couverte par une session de transport.
 
@@ -164,9 +164,9 @@ Les sessions de transport encapsulées exclusives sont un moyen pour les logicie
 
 Les commandes lancées par TBS peuvent également mettre fin à la session de transport exclusive. Cela se produit lorsque le client A est dans une session de transport exclusive et qu’une commande exécutée par le client A appelle pour une ressource qui n’est pas physiquement présente dans le module de plateforme sécurisée. Cette situation déclenche le gestionnaire de virtualisation TBS pour exécuter une commande TPM \_ LoadContext afin de fournir cette ressource, qui met fin à la session de transport exclusive du client a.
 
- 
+ 
 
- 
+ 
 
 
 

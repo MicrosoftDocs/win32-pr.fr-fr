@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc8f7a8a6af018c7b450baf0d1b58f678079008b6f06cbeaeb23173f2fa2742c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e89441aa101fbb39a45b0e7f1ab7cf59c7350354
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119736379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127191764"
 ---
 # <a name="equalizersettingscurrentspeakername"></a>EQUALIZERSETTINGS.currentSpeakerName
 
@@ -43,7 +43,7 @@ Cet attribut est une **chaîne** en lecture seule qui contient l’une des valeu
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ description: Les objets liés, comme les objets incorporés, s’appuient sur un
 ms.assetid: f72557b9-cd24-4d96-8144-94a5344ec2ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb8107a5c98ae407cc8e6198d782f75b092110232ae23f41a42dcaefae31758
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7c14f4cc74ee84fbf745e730d77203ebb4f43b0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117736492"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216612"
 ---
 # <a name="linked-objects-and-monikers"></a>Objets liés et monikers
 

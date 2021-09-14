@@ -13,12 +13,12 @@ keywords:
 - Registre, visualisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e36a13dae64857143a4d7a2edc4ece719164c3dc30dc8f21f907e2080a5afae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f1dc8f33d7b5f5b938bee6c89d946955509ab34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119135522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216980"
 ---
 # <a name="installing-visualizations"></a>Installation des visualisations
 

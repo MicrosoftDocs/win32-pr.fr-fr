@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: a4056354992010d3d213ed619b7460e12c800630ca38fb17acb6d7677fe842a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219956"
 ---
 # <a name="wiacreate-method"></a>WIA. Create, méthode
 
@@ -49,13 +49,13 @@ Spécifie l’appareil WIA auquel se connecter.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **IWiaDispatchItem**
 
 En cas de réussite, cette méthode retourne un objet d' [**élément**](-wia-item.md) qui représente un périphérique matériel WIA (élément racine).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le paramètre *Device* spécifie un objet [**DeviceInfo**](-wia-deviceinfo.md) en passant l’objet lui-même, son index d’un objet collection ou la valeur de sa propriété [**ID**](-wia-iwiadeviceinfo-id.md) . **Ne rien** faire pour afficher une boîte de dialogue qui permet à un utilisateur de sélectionner un appareil.
 
@@ -120,7 +120,7 @@ Set objWia = objWia.Create(Nothing)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

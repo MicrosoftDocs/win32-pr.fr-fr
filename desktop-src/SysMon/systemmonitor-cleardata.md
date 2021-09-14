@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd2ad0e748a3b914db8bb92e8a7b6405dbef8fdc56e04a5b6cd02bfe9a74b8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b346dacaf9df945be8c4c55ce9ee2be3eb76e9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118882644"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008824"
 ---
 # <a name="systemmonitorcleardata-method"></a>Méthode SystemMonitor. ClearData
 
@@ -40,7 +40,7 @@ SystemMonitor.ClearData()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 901b27971203f77c0119d1650be329f076d6cb00e23ee4c9ba6f9d06daa47ae2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 365cc5635518e458e4fb507ebaead5641dd3cc9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039754"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126920963"
 ---
 # <a name="esentslvstreamingfilefullexception-class"></a>EsentSLVStreamingFileFullException, classe
 

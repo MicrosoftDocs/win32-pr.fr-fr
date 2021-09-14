@@ -4,12 +4,12 @@ ms.assetid: 7f196462-53bd-43d7-9023-3b6e92fe350c
 title: Polices internationales et affichage du texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3e3e601a38f091e02c29ddea9b8a21bdc7dc1995b48c915c13fbb289c799a5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6b5375d3dc53f886c1ffa18d87d6971fc00ad49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147552"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007382"
 ---
 # <a name="international-fonts-and-text-display"></a>Polices internationales et affichage du texte
 

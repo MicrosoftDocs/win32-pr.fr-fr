@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62c91538c9a60d0ecc3db43436ef029c9a3fbd9e35ca33bbfa67e586ad137ef7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 99609ed3a437990889066da9a3424ef147c3d6b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119878079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127239364"
 ---
 # <a name="dtm_getmonthcal-message"></a>\_Message DTM GETMONTHCAL
 
@@ -35,7 +35,7 @@ Obtient le handle vers le contrôle de calendrier mensuel de l’enfant du séle
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle calendrier mensuel enfant d’un contrôle PAO en cas de réussite, ou **null** dans le cas contraire.
 
