@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b95185cbd25354314eace5da7704da51dbbefe024ba8597c0eed41a688984117
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e0cfda9b8eab0e7dd00afd15eb701a6e7decf2ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119925869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009788"
 ---
 # <a name="productsourcelistaddsource-method"></a>Méthode Product. SourceListAddSource
 
@@ -70,7 +70,7 @@ Si l' *index* est supérieur au nombre de sources dans la liste, la source est p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 

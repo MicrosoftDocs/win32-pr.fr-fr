@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: fcb4ae1883787f1b86dcc17f2d4a3e0e0ee29ced
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364284"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009495"
 ---
 # <a name="mciwndm_getzoom-message"></a>\_Message MCIWNDM GETZOOM
 
@@ -38,11 +38,11 @@ lParam = 0;
 
 Retourne les valeurs les plus récentes utilisées avec [**MCIWNDM \_ SETZOOM**](mciwndm-setzoom.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une valeur de retour de 100 indique que l’image n’est pas zoomée. Une valeur de 200 indique que l’image est agrandie à deux fois sa taille d’origine. Une valeur de 50 indique que l’image est réduite à la moitié de sa taille d’origine.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

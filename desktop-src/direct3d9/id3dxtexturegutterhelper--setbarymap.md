@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6a82a28308b3236d81159a555219f2a459dd7d9738f1d42f22148af343da5f0c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e3de61913041a4e59e075ea42dacc308c1ce5f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007994"
 ---
 # <a name="id3dxtexturegutterhelpersetbarymap-method"></a>ID3DXTextureGutterHelper :: SetBaryMap, méthode
 
@@ -49,13 +49,13 @@ Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui contient les d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée. D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La troisième coordonnée Barycentric est donnée par :
 

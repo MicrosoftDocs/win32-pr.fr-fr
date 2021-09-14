@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102200
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c1302cea474dc8e5b75c863a2b7a20f17132d7077f0cd0f84cdb6f3b5115e27a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c94f5ae1281e1fd80b4cac6ec4f74ee8ed47c8a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118776751"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914807"
 ---
 # <a name="esentloggenerationmismatchexception-properties"></a>Propriétés EsentLogGenerationMismatchException
 
@@ -69,7 +69,7 @@ Le type [EsentLogGenerationMismatchException](./esentloggenerationmismatchexcept
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

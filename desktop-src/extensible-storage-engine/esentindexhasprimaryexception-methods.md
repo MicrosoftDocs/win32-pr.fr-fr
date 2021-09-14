@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101822
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 038f0c147d7b01eafa9fef96ed99c929db9573c8583cccb58edab16b09a7464b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f07ef51a7044420c1c2fa58a132842011feaf5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118080996"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914887"
 ---
 # <a name="esentindexhasprimaryexception-methods"></a>Méthodes EsentIndexHasPrimaryException
 

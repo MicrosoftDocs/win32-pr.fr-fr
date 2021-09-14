@@ -10,12 +10,12 @@ keywords:
 - anticrénelage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 130fcf19efd3cd8f1082439bda1bd9c9702c8df7ea41cbe7655828a92e6cc9f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ec2fcae4fe7b6909e00efb0fb892821a5c12765
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119777239"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009302"
 ---
 # <a name="porting-antialiasing-functions"></a>Portage de fonctions d’anticrénelage
 

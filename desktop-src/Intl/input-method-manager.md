@@ -4,12 +4,12 @@ ms.assetid: 3e23e004-514a-4021-bd20-5ac55547258f
 title: Gestionnaire de méthode d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de49423fdfbe13a65688e02f47a769c3b7d00f3d2baf9e09da5340f4479d82a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 740ce5007361b6c15ea1618e7e513d5379d0d9d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117809988"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007383"
 ---
 # <a name="input-method-manager"></a>Gestionnaire de méthode d’entrée
 

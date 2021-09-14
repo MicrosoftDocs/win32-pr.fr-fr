@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9aa2b4bef607197c0f6fea084054d0e4fed1c721388677d45b465aff9c39ce49
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 87c8a4b943a647e52d7260f1ff53b32b40756761
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119790449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918275"
 ---
 # <a name="id3dxskininfoconverttoindexedblendedmesh-method"></a>ID3DXSkinInfo :: ConvertToIndexedBlendedMesh, méthode
 
@@ -149,19 +149,19 @@ Pointeur vers le nouveau maillage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Chaque élément dans les tableaux de remappage spécifie l’index précédent pour cette position. Par exemple, si un vertex était à la position 3 mais a été remappé à la position 5, le cinquième élément de pVertexRemap contiendra 3.
 
 Cette méthode ne s’exécute pas sur un matériel qui ne prend pas en charge la fusion de vertex à fonction fixe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

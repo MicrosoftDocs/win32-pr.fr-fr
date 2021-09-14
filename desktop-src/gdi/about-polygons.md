@@ -4,12 +4,12 @@ ms.assetid: 2259855f-4bad-4513-a021-b48c73eb7841
 title: À propos des polygones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0d28bd915237991294f6579448ca08785481f374814f0ed5840f77ee9f813c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3efe99793aa0f8ae964583b4ca854340792751f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119966439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914344"
 ---
 # <a name="about-polygons"></a>À propos des polygones
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d3579ac8109cb56e56c78a07a8f53e4cd7c017a695b6018f6a2ad41f703035
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a8de7dd39eb0b1a9e3f24031e24851eba22c6c6a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118581301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852681"
 ---
 # <a name="buttongroupsaturation"></a>BUTTONGROUP. saturation
 
@@ -35,7 +35,7 @@ Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur e
 
 Cet attribut modifie la valeur de saturation des images spécifiées par les attributs **disabledImage**, **downImage**, **hoverDownImage**, **hoverImage** et **image** s’ils ont été spécifiés et s’ils font référence à des images BMP 8 bits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

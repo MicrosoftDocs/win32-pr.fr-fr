@@ -4,12 +4,12 @@ ms.assetid: 2160b93e-c126-4592-972c-d9cc14eec745
 title: Applications de sockets Windows hautes performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9df2b050ac45bf0bf7788a356f4fdba98197d481dd99180f99f7dbf8cdfb5b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0496198ef3a8f11e6a840fd75d0083899d23d5a2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117927868"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008267"
 ---
 # <a name="high-performance-windows-sockets-applications"></a>Applications de sockets Windows hautes performances
 

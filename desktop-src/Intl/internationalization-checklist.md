@@ -4,12 +4,12 @@ ms.assetid: cf2ac58e-7fc3-4635-8b82-586a0732b2a3
 title: Liste de contrôle d’internationalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd4650f7bd1111f35c911d6efe12bfbec4b537f2cdabdc50160965b5e602708b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22b18ef8cf88efa8d496d19c0b66208cd44abaf7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147512"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007381"
 ---
 # <a name="internationalization-checklist"></a>Liste de contrôle d’internationalisation
 

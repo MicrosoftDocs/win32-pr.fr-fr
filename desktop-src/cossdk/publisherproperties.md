@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4e5876e01a557e9a585423a9e438e773366ca9eaa73e9e67fdaeae8a957b90c1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bdab3e8143ea3d35d07adb5caa73639fcb568cd1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118547153"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008183"
 ---
 # <a name="publisherproperties-collection"></a>Collection PublisherProperties
 
@@ -48,14 +48,14 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 -   [Nom](#name)
 -   [Valeur](#value)
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de la propriété. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | WriteOnce                                                                                                                                                                                                                                                              |
+| Access         | WriteOnce                                                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                                                 |
 | Valeur par défaut        | « Nouvelle propriété »                                                                                                                                                                                                                                                         |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                           |
@@ -71,9 +71,9 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------|
 | Description    | Valeur de la propriété. |
-| Accès         | Lecture/écriture                 |
+| Access         | Lecture/écriture                 |
 | Type           | Variante                   |
-| Default        | N/A                       |
+| Valeur par défaut        | N/A                       |
 | Système minimal | Windows 2000              |
 
 

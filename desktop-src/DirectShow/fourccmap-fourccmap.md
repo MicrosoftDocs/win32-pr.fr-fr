@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d856589146103e599a1cf67d2090dd64af7107d1c221c46b9c93852f989ade9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cd37ac842ab46c0d46fb3db1567d42274a026c47
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015727"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007558"
 ---
 # <a name="fourccmapfourccmap-constructor-fourcch---no-parameters"></a>FOURCCMap :: FOURCCMap, constructeur (FourCC. h)-aucun paramètre
 
@@ -40,7 +40,7 @@ FOURCCMap();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si cet objet est construit avec le code **FourCC** , un **GUID** est créé pour le faire correspondre. Si cet objet est créé avec un **GUID** existant, la valeur **FourCC** de l’objet est définie sur zéro. Par la suite, la valeur **FourCC** peut être définie ou récupérée à l’aide des fonctions membres [**SetFOURCC**](fourccmap-setfourcc.md) et [**GetFOURCC**](fourccmap-getfourcc.md) , respectivement.
 

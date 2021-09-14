@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9ab872ac313c6a60cd3d47715a5b4bbb9872d0ed8d7bdc7b203928c4d3a1c24d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 307d866c22a1ba414913a3115be9d355a3138d6e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118009467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006920"
 ---
 # <a name="reset-method-of-the-cim_cdromdrive-class"></a>Méthode Reset de la \_ classe CIM CDROMDrive
 
@@ -43,17 +43,17 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

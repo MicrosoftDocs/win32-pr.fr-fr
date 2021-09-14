@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44487084da8df8edd463fc0683c9d27fcba19a2993465e5493edfd8bb7c3c6b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15ffbeafb13850317faccb4be44571d81b0d7e36
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118006682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006480"
 ---
 # <a name="em_getlinecount-message-winuserh"></a>Message EM_GETLINECOUNT (winuser. h)
 
@@ -43,11 +43,11 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est un entier spécifiant le nombre total de lignes de texte dans le contrôle d’édition multiligne ou le contrôle Rich Edit. Si le contrôle n’a pas de texte, la valeur de retour est 1. La valeur de retour ne sera jamais inférieure à 1.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le message **em \_ GETLINECOUNT** récupère le nombre total de lignes de texte, pas seulement le nombre de lignes actuellement visibles.
 
@@ -55,7 +55,7 @@ Si la fonctionnalité de retour automatique à la ligne est activée, le nombre 
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

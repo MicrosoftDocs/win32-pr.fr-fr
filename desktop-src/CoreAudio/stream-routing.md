@@ -4,12 +4,12 @@ ms.assetid: fc6efe89-013c-47af-870e-8705fa60c99c
 title: Routage de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e76944954c969ce458175585076d23ce015ea573a86e3f89dbbcd296aff444
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b21cd15a4467cb9b08747119aab999882ae3b5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114737"
 ---
 # <a name="stream-routing"></a>Routage de flux
 

@@ -4,12 +4,12 @@ ms.assetid: 8a02cbb4-0b59-4c1e-9831-592a2005905e
 title: Utilisation de chaînes Unicode LSA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb3c3c41ddd1e3a76ca86880fa47c1d0b2a47897727b820c5f4caf501f4263d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc00e5b98bf2e287f32934b4ea093570ba3359ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009002"
 ---
 # <a name="using-lsa-unicode-strings"></a>Utilisation de chaînes Unicode LSA
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - Batclass.h
-ms.openlocfilehash: 30a70fed151304d189fa91b20106e1154ca0e9f4ea5225c52bf1023dbd218346
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdd3f067bc3ed2e3339710e0a5bd48c8f42e6525
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120032969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009169"
 ---
 # <a name="battery_manufacture_date-structure"></a>Structure de date de la fabrication de la batterie \_ \_
 
@@ -63,7 +63,7 @@ Année de fabrication. Il se trouve généralement dans la plage 1900-2100.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La date est encodée au format grégorien ou occidental.
 

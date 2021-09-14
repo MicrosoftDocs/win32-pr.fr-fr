@@ -4,12 +4,12 @@ ms.assetid: 45e53a49-7c9f-4be5-bb97-d49b4283743e
 title: Planification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6e0d0cf13fac1cf19df36152d662436ecfbeb478d4d080924222d84d2f36ee5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6719485215e3562d21cd50a8554d64d9744d324
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117793196"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007091"
 ---
 # <a name="scheduling"></a>Planification
 

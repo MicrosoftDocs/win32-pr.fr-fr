@@ -70,12 +70,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dff3e4eb9d99288914fb6d4e9a6e2d22aa38689cdc6b60f227e7e5ba2e0c5323
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 204f38570e1e023ca070ed1845e4574d9570b8ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118349363"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008584"
 ---
 # <a name="win32_tsclientsetting-class"></a>\_Classe TSClientSetting Win32
 
@@ -1062,7 +1062,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1129,7 +1129,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1165,7 +1165,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1201,7 +1201,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1237,7 +1237,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1273,7 +1273,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1309,7 +1309,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1407,7 +1407,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1443,7 +1443,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1483,7 +1483,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1672,7 +1672,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Par défaut
+Valeur par défaut
 
 </dd> </dl>
 
@@ -1958,7 +1958,7 @@ Le mappage d’imprimante est désactivé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Sachez qu’une station de fenêtre associée à la session de console ne peut pas accéder aux méthodes et aux propriétés de cette classe. Si vous tentez de le faire en spécifiant « console » comme valeur de la propriété **TerminalName** , les méthodes de cet objet retournent **WBEM \_ E \_ non \_ pris en charge**. Ce code d’erreur est également retourné si une station Windows tente d’appeler des méthodes de cet objet pour ajouter ou modifier les propriétés de sécurité des comptes LocalSystem, LocalService ou NetworkService.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - Batclass.h
-ms.openlocfilehash: c449f325e03fb4ea81fe0aa148eaddcf65800b5a56356e22232477e0b6d4fa48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e892a14263822ddd009b162c6343975e1689683
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120033009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009180"
 ---
 # <a name="battery_information-structure"></a>\_Structure d’informations sur la batterie
 

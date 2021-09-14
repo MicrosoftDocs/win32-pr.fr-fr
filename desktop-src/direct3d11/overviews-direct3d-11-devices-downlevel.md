@@ -4,12 +4,12 @@ description: Cette section explique comment Direct3D 11 est conçu pour prendre 
 ms.assetid: 9a1ca4ff-df3d-46e5-8895-37199523343e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb9dde5bfaa32808752206ebe96702aaaf10cc39c1e053675ddfced765331be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f730a43db803e1e5198794167d0078a5b2896f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045507"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008057"
 ---
 # <a name="direct3d-11-on-downlevel-hardware"></a>Direct3D 11 sur du matériel de niveau inférieur
 

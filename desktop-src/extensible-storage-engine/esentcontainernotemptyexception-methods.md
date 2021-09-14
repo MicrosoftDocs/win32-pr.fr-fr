@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101404
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 56dff3083d20d1bed9d547f2a5026acadb442b65eab36255ce6a35dc8b616f83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be1d5f858375b004cee7539469c7e5e4d40764be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117713469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851398"
 ---
 # <a name="esentcontainernotemptyexception-methods"></a>Méthodes EsentContainerNotEmptyException
 

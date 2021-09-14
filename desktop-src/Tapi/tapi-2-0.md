@@ -4,12 +4,12 @@ ms.assetid: f3a319b4-5e82-4bf9-bd89-a027d58ad126
 title: TAPI 2,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 926def5cf2348396b9197a83e17b35d9a91d4dee617e00abe4c02d0428f2884e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a34a3503916c6ec90c3a90e648ac3622c271d810
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118861245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008720"
 ---
 # <a name="tapi-20"></a>TAPI 2,0
 

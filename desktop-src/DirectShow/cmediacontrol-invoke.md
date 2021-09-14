@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 81f93b4ee22c12495b77c0a71b4a4602c7f93255446874e89a51678598ba8c67
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fe077b2c69f603eef8737cbf7ea8c514e9b90c85
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118655332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006771"
 ---
 # <a name="cmediacontrolinvoke-method"></a>CMediaControl. Invoke, méthode
 
@@ -105,11 +105,11 @@ Pointeur vers l’index du premier argument, dans le tableau **rgvarg** de la st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la \_ valeur DISP E \_ UNKNOWNINTERFACE si *riid* n’est pas un IID \_ null. Retourne l’un des codes d’erreur de [**CMediaControl :: GetTypeInfo**](cmediacontrol-gettypeinfo.md) si l’appel échoue. Sinon, retourne le **HRESULT** de l’appel à **IDispatch :: Invoke**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

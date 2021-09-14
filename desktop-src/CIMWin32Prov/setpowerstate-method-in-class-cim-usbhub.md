@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc16b806782055328fe576851e0b227d2178289c1d3cece35f7ce6f1f2e66d00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00f05d4f3e2fcb369c3ecda83cc4fd9659ee69ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119578229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007665"
 ---
 # <a name="setpowerstate-method-of-the-cim_usbhub-class"></a>Méthode SetPowerState de la \_ classe Usbhub CIM
 
@@ -102,11 +102,11 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

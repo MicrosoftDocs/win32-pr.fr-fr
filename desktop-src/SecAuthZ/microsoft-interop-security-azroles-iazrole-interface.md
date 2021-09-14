@@ -86,11 +86,11 @@ api_type:
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
 ms.openlocfilehash: 2f1f6147cc14f199ffd309c85388d0e95785ecfc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530444"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009059"
 ---
 # <a name="microsoftinteropsecurityazrolesiazrole-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzRole
 

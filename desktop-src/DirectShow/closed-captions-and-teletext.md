@@ -4,12 +4,12 @@ ms.assetid: faa34cdc-bee0-44c4-bd1c-84a688a27b9e
 title: Sous-titres et télétexte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39250522a0f68e9e8315f98c72f8d67a1bdcebe6f21745bc6bf1845a9a0463b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97a197d2029e69851dfd3ec3c7f8a2e6e0498c3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006782"
 ---
 # <a name="closed-captions-and-teletext"></a>Sous-titres et télétexte
 

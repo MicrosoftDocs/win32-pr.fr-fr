@@ -4,12 +4,12 @@ ms.assetid: 00c3c1f1-c36c-469a-a644-0ec60f02d25e
 title: Fonctions de l’API de collaboration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803e492a378b3f5b04c9f894cefa679cfbd77aff305874a706f668b970d7b53a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c82c367a3c9989fa0411ce26ddf77ce8a27359e1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117794567"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009254"
 ---
 # <a name="collaboration-api-functions"></a>Fonctions de l’API de collaboration
 

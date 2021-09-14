@@ -4,12 +4,12 @@ ms.assetid: 279bb9ad-afb6-406e-b74a-8424da177e6f
 title: TARGETDIR, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b61575de21b47b1d82764d96e5876a9fd4c89fb1f837150988aa2c7a08e07be
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a8d5e2650dab798c1f6b9e766fc1dcbb61dcfa77
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119626599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009617"
 ---
 # <a name="targetdir-property"></a>TARGETDIR, propriété
 

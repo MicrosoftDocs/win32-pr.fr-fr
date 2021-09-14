@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc98f826ddae09bd507517e564ec2d9387d6bf17147d5eac36596bdb9d1e81ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2af601799095192d7af4ffedce0c8e0cd28bff21
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006542"
 ---
 # <a name="win32_account-class"></a>\_Classe de compte Win32
 
@@ -373,7 +373,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La classe de **\_ compte Win32** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
@@ -397,7 +397,7 @@ Le code PowerShell suivant récupère les comptes de domaine.
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

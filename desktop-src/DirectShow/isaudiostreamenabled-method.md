@@ -4,12 +4,12 @@ ms.assetid: df6c69a7-6eb0-4662-a3aa-f3f895b42cbc
 title: Méthode IsAudioStreamEnabled
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2131376346f2a0311fc5acd8e0051292a12fb0145b44226363c7d891a5ef3c5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c92df59479e5729c392eb25b6c6c075a52b4835b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117817474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007538"
 ---
 # <a name="isaudiostreamenabled-method"></a>Méthode IsAudioStreamEnabled
 
@@ -39,7 +39,7 @@ Spécifie le flux audio sous la forme d’une valeur entière comprise entre 0 e
 
 Retourne une valeur booléenne indiquant si le flux audio spécifié est disponible pour le titre actuel. True signifie qu’il est disponible.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Bien qu’un disque puisse contenir jusqu’à huit flux audio indépendants, chaque flux n’est pas nécessairement disponible pour chaque titre. Par exemple, un titre de film principal peut avoir trois flux audio pour l’anglais, l’espagnol et le japonais, mais le titre « prochains attractions » peut avoir un seul flux audio en anglais. Vérifiez toujours qu’un flux est disponible pour un titre avant de définir la propriété [**CurrentAudioStream**](currentaudiostream-property.md) .
 

@@ -173,12 +173,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 5d10617e05df57b6e619097a8586fae1671b1284db3e56a0972f8e3586a1fa5d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec7ef0453ccb9087bf40b3e977bdbb71a4c2865c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009099"
 ---
 # <a name="microsoftinteropsecurityazrolesiazapplication-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzApplication
 
@@ -224,9 +224,9 @@ L’interface **Microsoft. Interop. Security. azroles. IAzApplication** possède
 | **Microsoft. Interop. Security. azroles. IAzApplication. DeleteScope**                          | [**IAzApplication ::D eleteScope**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-deletescope)<br/>                                                   |
 | **Microsoft. Interop. Security. azroles. IAzApplication. DeleteTask**                           | [**IAzApplication ::D eleteTask**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-deletetask)<br/>                                                     |
 | **Microsoft. Interop. Security. azroles. IAzApplication. GetProperty**                          | [**IAzApplication :: GetProperty**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-getproperty)<br/>                                                   |
-| **Microsoft.Interop.Security.Azroles.IAzApplication.InitializeClientContextFromName**      | [**IAzApplication::InitializeClientContextFromName**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromname)<br/>           |
-| **Microsoft.Interop.Security.Azroles.IAzApplication.InitializeClientContextFromStringSid** | [**IAzApplication::InitializeClientContextFromStringSid**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromstringsid)<br/> |
-| **Microsoft.Interop.Security.Azroles.IAzApplication.InitializeClientContextFromToken**     | [**IAzApplication::InitializeClientContextFromToken**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken)<br/>         |
+| **Microsoft. Interop. Security. azroles. IAzApplication. InitializeClientContextFromName**      | [**IAzApplication::InitializeClientContextFromName**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromname)<br/>           |
+| **Microsoft. Interop. Security. azroles. IAzApplication. InitializeClientContextFromStringSid** | [**IAzApplication::InitializeClientContextFromStringSid**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromstringsid)<br/> |
+| **Microsoft. Interop. Security. azroles. IAzApplication. InitializeClientContextFromToken**     | [**IAzApplication::InitializeClientContextFromToken**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken)<br/>         |
 | **Microsoft. Interop. Security. azroles. IAzApplication. OpenApplicationGroup**                 | [**IAzApplication::OpenApplicationGroup**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-openapplicationgroup)<br/>                                 |
 | **Microsoft. Interop. Security. azroles. IAzApplication. OpenOperation**                        | [**IAzApplication::OpenOperation**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-openoperation)<br/>                                               |
 | **Microsoft. Interop. Security. azroles. IAzApplication. OpenRole**                             | [**IAzApplication::OpenRole**](/windows/desktop/api/Azroles/nf-azroles-iazapplication-openrole)<br/>                                                         |

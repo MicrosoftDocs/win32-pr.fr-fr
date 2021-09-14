@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f635a70bf806c6c26f5b236ea939bc453d27bf0fe135f8e2586aeb59021b9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3c080e1098d70b17e1e68bbbcd2d5598db79ef8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118674417"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006530"
 ---
 # <a name="bm_setstyle-message"></a>\_Message BM SETSTYLE
 
@@ -43,11 +43,11 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message retourne toujours la valeur zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

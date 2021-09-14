@@ -4,12 +4,12 @@ ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: Création de fichiers ASF en DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0569f5460e0cf31d4986e23bb2a576c48d68da03d3bbb7f33d05fe15877c180
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d4614ed813c2e9f51c77cd8773739188aa5d4d07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007582"
 ---
 # <a name="creating-asf-files-in-directshow-directshow"></a>Création de fichiers ASF en DirectShow (DirectShow)
 

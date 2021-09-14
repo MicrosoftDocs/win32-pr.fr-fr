@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7d2c774aeeed6f00e8c4294c7cd6d3b1693e03aef9b4ad0b96e11a459bc6ad12
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa6a73ee855d15080e5a1e8ea249f24207d3e317
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119115569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122413"
 ---
 # <a name="esentmissingcurrentlogfilesexception-constructor"></a>Constructeur EsentMissingCurrentLogFilesException
 
@@ -54,7 +54,7 @@ public EsentMissingCurrentLogFilesException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentMissingCurrentLogFilesException, classe](./esentmissingcurrentlogfilesexception-class.md)
 

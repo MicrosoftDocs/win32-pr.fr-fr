@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3f29b7ea48d654fcf8af2c46ecd732d9ebe0fae756f74df8015035e7aba88ccf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 484d66a1b98ea58b7cb5de25c8f7d15065ce905b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120064439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006960"
 ---
 # <a name="rename-method-of-the-cim_devicefile-class"></a>Renommer la méthode de la \_ classe CIM DeviceFile
 
@@ -56,7 +56,7 @@ Exemple : « c : \\ temp \\newfile.txt »
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -153,13 +153,13 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

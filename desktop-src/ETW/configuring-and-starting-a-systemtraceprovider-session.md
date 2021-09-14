@@ -4,12 +4,12 @@ ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuration et démarrage d’une session SystemTraceProvider
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 0e5d46ceb800479c56ef02d0bb03c3426f73d080e79356f2d7462e27db3a259a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66e9d672a7c8e6358c2a92e7661e0d4e2a5878ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007448"
 ---
 # <a name="configuring-and-starting-a-systemtraceprovider-session"></a>Configuration et démarrage d’une session SystemTraceProvider
 

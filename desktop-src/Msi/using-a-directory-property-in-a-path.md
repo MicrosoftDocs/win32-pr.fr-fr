@@ -4,12 +4,12 @@ ms.assetid: 59f6ae09-d013-46d7-a1a7-0543f31ac487
 title: Utilisation d’une propriété de répertoire dans un chemin d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa00bf3953be46484d74d3a432135763d1b06d4e7daf72bbc36f284e039613f1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2789f6442072f3db6a96c0abb7db301038673f83
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141473"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009587"
 ---
 # <a name="using-a-directory-property-in-a-path"></a>Utilisation d’une propriété de répertoire dans un chemin d’accès
 

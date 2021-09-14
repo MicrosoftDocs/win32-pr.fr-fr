@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 58c409f7-7d3f-4488-a993-d19e64d541fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2128d60a278669baac6d2c3726236d8dc70c3f35c37da8ee7463a17cafd6c3cf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 434155c75a9e1ff2395e90d313fa384e252d1f1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117791887"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007065"
 ---
 # <a name="c-rras"></a>C (RRAS)
 

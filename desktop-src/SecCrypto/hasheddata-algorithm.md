@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 16562f3b954c9968899b7af63729a105956c7f809d094bdfa6c508a160a6d51d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a27dc275ce900bfd6412599cb81ad14038f96405
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119006647"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120977"
 ---
 # <a name="hasheddataalgorithm-property"></a>HashedData. algorithme, propriété
 
@@ -55,7 +55,7 @@ Valeur de l’énumération de l' [**\_ \_ algorithme de hachage CAPICOM**](capi
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

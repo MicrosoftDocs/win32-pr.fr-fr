@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d5be73abab17303cce7a9a0e4ae2beab9bdb53df6a45d0162a575ce167ee1df8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 002dedd3b0165053fea98dda035316676af638f4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118676575"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007002"
 ---
 # <a name="enabledhcp-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableDHCP de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -40,7 +40,7 @@ uint32 EnableDHCP();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) pour une exécution réussie lorsqu’un redémarrage n’est pas nécessaire, 1 (un) pour une exécution réussie lorsqu’un redémarrage est requis, et tout autre nombre en cas d’erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -395,7 +395,7 @@ DHCP n’est pas activé sur la carte.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode n’efface pas les passerelles par défaut statiques présentes sur l’ordinateur.
 
@@ -462,7 +462,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bf5db456-ea67-4a65-a681-df0741f73fc9
 title: 'ITConnection :: SetBandwidthInfo, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e935763304f0051b33a3f2500a966e0f6695b0b329c328737c6bbd46cb5ce8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c17054743f6d47775e994dbfe3b80c7afe1ab68
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117945386"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008744"
 ---
 # <a name="itconnectionsetbandwidthinfo-method"></a>ITConnection :: SetBandwidthInfo, méthode
 
@@ -47,7 +47,7 @@ La.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’application doit utiliser [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) pour allouer de la mémoire pour le paramètre *PModifier* et utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire lorsque la variable n’est plus nécessaire.
 

@@ -4,12 +4,12 @@ ms.assetid: 95a8125b-f297-49aa-8424-d568d786ee97
 title: Référence de base de données du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2f59aa3e6aa8758c79423ecdc51d74adc3e098f1894d3ea92c36342cbc0cf92
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b4b7071bcc62bb6e3819d75cc18becfd12b7062
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118631766"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121642"
 ---
 # <a name="installer-database-reference"></a>Référence de base de données du programme d’installation
 

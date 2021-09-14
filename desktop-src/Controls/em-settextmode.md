@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ea489dcdb60908cac8600188d40b9aae4b7e3e531c713094bb180e84ee24bee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74ec5378213bdd32721ff95ae3f4505437973256
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118672368"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006346"
 ---
 # <a name="em_settextmode-message"></a>\_Message SETTEXTMODE em
 
@@ -76,13 +76,13 @@ Ce paramètre n’est pas utilisé ; elle doit être égale à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si le message est correctement exécuté, la valeur de retour est zéro.
 
 Si le message échoue, la valeur de retour est une valeur différente de zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En mode de texte enrichi, un contrôle RichEdit offre des fonctionnalités de modification enrichies standard. Toutefois, en mode texte brut, le contrôle est similaire à un contrôle d’édition standard :
 
@@ -92,7 +92,7 @@ En mode de texte enrichi, un contrôle RichEdit offre des fonctionnalités de mo
 
 Le contrôle ne doit pas contenir de texte lorsqu’il reçoit le message **em \_ SETTEXTMODE** . Pour garantir qu’il n’y a pas de texte, envoyez un message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) avec une chaîne vide ("").
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

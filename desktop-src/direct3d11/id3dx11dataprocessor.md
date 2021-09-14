@@ -17,11 +17,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 808c7d1bf1bdef1223e5b57e40ea5e6a90878101
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469346"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918564"
 ---
 # <a name="id3dx11dataprocessor-interface"></a>Interface ID3DX11DataProcessor
 
@@ -56,11 +56,11 @@ L’interface **ID3DX11DataProcessor** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet objet peut être hérité et ses membres redéfinis pour le traitement des formats de fichier personnalisés.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

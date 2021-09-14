@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d133038c0adad2fe7eaa1ae98cf638fe6bd13fad82df3b3d2d1ac384a30e1a80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a0c29b5815da5569059ba80c007d6af39d1e389f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119576639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006469"
 ---
 # <a name="em_getundoname-message"></a>\_Message GETUNDONAME em
 
@@ -45,17 +45,17 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 S’il existe une action d’annulation, la valeur retournée est une valeur d’énumération [**UNDONAMEID**](/windows/desktop/api/Richedit/ne-richedit-undonameid) qui indique le type de l’action suivante dans la file d’attente d’annulation du contrôle.
 
 Si aucune action ne peut être annulée ou si le type de l’action d’annulation suivante est inconnu, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les types d’actions qui peuvent être annulés ou réexécutés incluent les opérations de frappe, de suppression, de glisser-déplacer, de couper et de coller. Ces informations peuvent être utiles pour les applications qui fournissent une interface utilisateur étendue pour les opérations d’annulation et de rétablissement, telles qu’une zone de liste déroulante d’actions qui peuvent être annulées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

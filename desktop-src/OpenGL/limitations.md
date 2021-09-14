@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, limitations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d058570c049f471dcf6e92c4eb55eb1365948d581127c68a46deb8d863ccc34d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 478a139326f74c236ca0109fddbbc3d4ffb46e1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118937416"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121318"
 ---
 # <a name="limitations"></a>Limites
 

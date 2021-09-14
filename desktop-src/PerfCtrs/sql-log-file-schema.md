@@ -4,12 +4,12 @@ ms.assetid: 89515dd9-2d65-4b19-bb7a-ef9e7d146caa
 title: SQL Schéma de fichier journal
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: a95026c478094d8e71a44c2c57e65c2fa7044b00e982ea43187244838beed2ab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33b988194a8fda4a99f713e0026aeaddb65e9c26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143812"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007165"
 ---
 # <a name="sql-log-file-schema"></a>SQL Schéma de fichier journal
 

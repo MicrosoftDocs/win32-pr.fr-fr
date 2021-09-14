@@ -4,12 +4,12 @@ ms.assetid: 6c153111-f74d-4e9c-baa6-d8bbbee73a7f
 title: Utilisation de l’API de regroupement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fb78a91fa8349cd89a384fe4a00693454392578815b82e52a4ae3f8407334f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03982dcf368e932b0a1d4f24cc375a9109f0d539
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117794152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009202"
 ---
 # <a name="using-the-grouping-api"></a>Utilisation de l’API de regroupement
 

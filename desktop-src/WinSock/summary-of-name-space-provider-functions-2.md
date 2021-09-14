@@ -4,12 +4,12 @@ ms.assetid: fb48cc4e-5225-4ad9-9fcd-7a7992f01e6d
 title: Résumé des fonctions du fournisseur d’espace de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dda395764b9a37bbb713dc56269e7feb2b1967510aad65280f54fa7ccc44fd57
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4bcaf23d86c1e2c08768452e61659730dfc37f8a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118559745"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915820"
 ---
 # <a name="summary-of-namespace-provider-functions"></a>Résumé des fonctions du fournisseur d’espace de noms
 

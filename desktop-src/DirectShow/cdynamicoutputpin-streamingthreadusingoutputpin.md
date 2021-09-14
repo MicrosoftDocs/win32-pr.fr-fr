@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4687db225a616adef6d1c756ae9295e2c273c0315f37d119c7bacd0c226233e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 797dcb94e227861642de2a05e6edf24f675bb4e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119539719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006795"
 ---
 # <a name="cdynamicoutputpinstreamingthreadusingoutputpin-method"></a>Méthode CDynamicOutputPin. StreamingThreadUsingOutputPin
 
@@ -40,15 +40,15 @@ virtual bool StreamingThreadUsingOutputPin();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** si un thread effectue une opération de diffusion en continu sur le code confidentiel. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si des threads ont été retournés avec succès à partir de la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) et n’ont pas effectué d’appel correspondant à la méthode [**CDynamicOutputPin :: StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md) , cette méthode retourne **true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

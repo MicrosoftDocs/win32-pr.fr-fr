@@ -17,11 +17,11 @@ api_type:
 api_location:
 - All
 ms.openlocfilehash: f93a962e57452ac555214e42f00af8ac8a4ea3db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534734"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918832"
 ---
 # <a name="__aggregateevent-class"></a>\_\_AggregateEvent, classe
 
@@ -83,7 +83,7 @@ La classe **\_ \_ AggregateEvent** est dérivée de [**\_ \_ IndicationRelated**
 
 Les fournisseurs d’événements ne génèrent jamais d’événements d’agrégation. Ils doivent ignorer la clause GROUP WITHIN dans le traitement des requêtes d’événements.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

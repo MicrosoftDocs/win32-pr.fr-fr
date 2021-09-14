@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbb87f63cb0f4801787be1f2cb23b321470b1053a58b13d0f3eea34112b1341
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 12c83888b83e0d5f8d3c77775347ccc9b43a59d5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115122"
 ---
 # <a name="wm_vscroll-message"></a>\_Message WM VSCROLL
 
@@ -75,11 +75,11 @@ Si le message est envoyé par un contrôle de barre de défilement, ce paramètr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le \_ Code de demande SB THUMBTRACK est généralement utilisé par les applications qui fournissent des commentaires au fur et à mesure que l’utilisateur fait glisser la case de défilement.
 
@@ -89,7 +89,7 @@ Notez que le message **WM \_ VSCROLL** contient uniquement 16 bits de données d
 
 Toutefois, étant donné que les fonctions [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo), [**SetScrollPos**](/windows/desktop/api/Winuser/nf-winuser-setscrollpos), [**SetScrollRange**](/windows/desktop/api/Winuser/nf-winuser-setscrollrange), [**GetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo), [**GetScrollPos**](/windows/desktop/api/Winuser/nf-winuser-getscrollpos)et [**GetScrollRange**](/windows/desktop/api/Winuser/nf-winuser-getscrollrange) prennent en charge les données de position de la barre de défilement 32 bits, il existe un moyen de contourner la barrière de 16 bits des messages [**WM \_ HSCROLL**](wm-hscroll.md) et **WM \_ VSCROLL** . Pour obtenir une description de la technique, consultez **GetScrollInfo** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

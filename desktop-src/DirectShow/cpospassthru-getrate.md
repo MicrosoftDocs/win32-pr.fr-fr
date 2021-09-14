@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d9976b87b22fbe5ac81c56de006e5ca65862716a9bda62a5f881c141b1e108a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 997323ca2089a0b381b85c3730cb364d0883b1bf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118954028"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007625"
 ---
 # <a name="cpospassthrugetrate-method"></a>Méthode CPosPassThru. GetRate
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit la vitesse de lecture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

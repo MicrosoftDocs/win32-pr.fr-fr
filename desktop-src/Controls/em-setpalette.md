@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93225a7a550f86bb8b32bf5939a8c7b7aa862ac96c8459bd6bcceb4c6b76e516
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 026a0a85001818b6f69366e8dba80ef56a7a8f20
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117831150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006368"
 ---
 # <a name="em_setpalette-message"></a>\_Message SETPALETTE em
 
@@ -43,15 +43,15 @@ Ce paramètre n’est pas utilisé ; elle doit être égale à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le contrôle Rich Edit ne vérifie pas si la nouvelle palette est valide.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

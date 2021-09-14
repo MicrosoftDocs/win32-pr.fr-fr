@@ -4,12 +4,12 @@ ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: Événement PBT_APMRESUMEAUTOMATIC (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e66fcd2201e9fb3c4feeb135843e92a350303b89a5c5045836428b9a326a30
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a7a481dee356c85b3831fcace0c1ff127b0b276
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007134"
 ---
 # <a name="pbt_apmresumeautomatic-event"></a>\_Événement PBT APMRESUMEAUTOMATIC
 
@@ -72,11 +72,11 @@ Réservé doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le système détecte une activité utilisateur après avoir diffusé PBT \_ APMRESUMEAUTOMATIC, il diffuse un événement [PBT \_ APMRESUMESUSPEND](pbt-apmresumesuspend.md) pour permettre aux applications de savoir qu’elles peuvent reprendre une interaction complète avec l’utilisateur.
 

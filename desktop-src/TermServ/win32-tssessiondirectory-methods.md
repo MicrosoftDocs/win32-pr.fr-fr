@@ -5,12 +5,12 @@ ms.assetid: 5BABFB2B-4669-446F-B8F5-D06E44DD5E62
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9883e3a1e2f8e4a704bef6c4bde32b4eec36b3c02fdc1b6b88883e2d47a8055e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eba033f1e4ebcdda74bed1d7c8f81cdcd788c46e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119137592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008564"
 ---
 # <a name="win32_tssessiondirectory-methods"></a>\_Méthodes TSSessionDirectory Win32
 

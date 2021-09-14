@@ -4,12 +4,12 @@ ms.assetid: b1e58336-8908-45ee-86f0-81b2314fa77a
 title: Windows Programme d’installation et stratégie de restriction logicielle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e96d1c422b38fd82110cac34953f24be39909eeb64fa2236d3a993925a55c6e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2b080a1ed9a1396f4ac212e73d1fda6e2719bf40
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119786559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009578"
 ---
 # <a name="windows-installer-and-software-restriction-policy"></a>Windows Programme d’installation et stratégie de restriction logicielle
 

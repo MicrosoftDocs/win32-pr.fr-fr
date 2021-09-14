@@ -4,12 +4,12 @@ ms.assetid: e7dfd188-fd4d-49d6-8cf5-c17182b697ca
 title: utilisation de Packages Windows Installers 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c3bca5c666f7a6a0f1757efca40a26b1406d4241abf7d32a066c2d7fa01b92
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5b46ab8a9668d816ea99bd92c2575e9ea6367352
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009595"
 ---
 # <a name="using-64-bit-windows-installer-packages"></a>utilisation de Packages Windows Installers 64 bits
 

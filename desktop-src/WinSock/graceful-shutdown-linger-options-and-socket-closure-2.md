@@ -5,11 +5,11 @@ title: Arrêt approprié, options de maintien et fermeture de socket
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 59f6791eaa803da561fc9f3c175b5270950cbec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201434"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008269"
 ---
 # <a name="graceful-shutdown-linger-options-and-socket-closure"></a>Arrêt approprié, options de maintien et fermeture de socket
 
@@ -19,7 +19,7 @@ L’arrêt d’une connexion de socket implique l’échange de messages de prot
 
 En revanche, si vous fermez un socket, le handle de socket devient désalloué afin que l’application ne puisse plus référencer ou utiliser le socket de quelque manière que ce soit.
 
-Dans Windows Sockets, la fonction [**Shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) et la fonction [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect) peuvent être utilisées pour initier une séquence d’arrêt, tandis que la fonction [**opération closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) est utilisée pour libérer les descripteurs de socket et libérer les ressources associées. Toutefois, une certaine confusion est due au fait que la fonction **opération closesocket** provoque implicitement une séquence d’arrêt si elle ne s’est pas déjà produite. En fait, il est devenu une pratique de programmation assez courante pour s’appuyer sur cette fonctionnalité et pour utiliser **opération closesocket** à la fois pour initier la séquence d’arrêt et pour libérer le handle de Socket.
+dans Windows sockets, la fonction [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) et la fonction [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect) peuvent être utilisées pour initier une séquence d’arrêt, tandis que la fonction [**opération closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) est utilisée pour libérer les descripteurs de socket et libérer les ressources associées. Toutefois, une certaine confusion est due au fait que la fonction **opération closesocket** provoque implicitement une séquence d’arrêt si elle ne s’est pas déjà produite. En fait, il est devenu une pratique de programmation assez courante pour s’appuyer sur cette fonctionnalité et pour utiliser **opération closesocket** à la fois pour initier la séquence d’arrêt et pour libérer le handle de Socket.
 
 Pour faciliter cette utilisation, l’interface de Sockets fournit des contrôles par le biais du mécanisme d’option de socket qui permet au programmeur d’indiquer si la séquence d’arrêt implicite doit être normale ou abandonnée, et également si la fonction [**opération closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) doit rester en attente (ce qui n’est pas immédiatement terminé) pour permettre l’exécution d’une séquence d’arrêt normale. Ces différences importantes et les ramifications de l’utilisation de **opération closesocket** de cette façon ne sont toujours pas largement comprises.
 

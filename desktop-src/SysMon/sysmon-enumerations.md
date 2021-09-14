@@ -4,12 +4,12 @@ description: Les classes du moniteur système (SYSMON) utilisent les énumérati
 ms.assetid: fe5bac68-4513-4dc3-bbcb-4c48d05ac14b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bca7285f18e194c81231b8c97c428082fc7a7a45d8c8a04a15a79af933e47a07
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0b18d854d0669fc780a0a64c1da2f92701716295
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883127"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008845"
 ---
 # <a name="sysmon-enumerations"></a>Énumérations SYSMON
 

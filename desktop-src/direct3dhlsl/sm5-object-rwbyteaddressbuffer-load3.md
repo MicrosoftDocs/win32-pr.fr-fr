@@ -14,11 +14,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: d6658b4929f09aa7296a284de1fdbf39c7c4f038
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974415"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851782"
 ---
 # <a name="rwbyteaddressbufferload3uint-function"></a>RWByteAddressBuffer :: Load3 (uint), fonction
 
@@ -45,7 +45,7 @@ Adresse d’entrée en octets, qui doit être un multiple de 4.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **uint3**
 

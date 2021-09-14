@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fa33c00fd10ca32fcd5173012217eed9a253a93223e2ff3245d926a65a083cf3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 775b17abcea59fb09023e91e89e868b5133a351b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119733899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007871"
 ---
 # <a name="esentnocurrentrecordexception-constructor"></a>Constructeur EsentNoCurrentRecordException
 

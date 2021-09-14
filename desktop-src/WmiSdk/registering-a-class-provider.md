@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Inscription d’un fournisseur de classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16a28b489f2cfd01163d6b32c9a70c0d8a193a542197795d6d2b40de0e1baef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7bc15893e654f96f8c4e476219389a1f8f2c464a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118316481"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008221"
 ---
 # <a name="registering-a-class-provider"></a>Inscription d’un fournisseur de classe
 

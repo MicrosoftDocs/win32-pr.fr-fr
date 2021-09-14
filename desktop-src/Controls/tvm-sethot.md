@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ca61fd0bd3e25f37229cd5cee54f9bbb59b3a5c7556ae745821a8dc4d595d6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: beccd5429267350682a6721cde66cca9316cf438
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115597"
 ---
 # <a name="tvm_sethot-message"></a>TVM \_ SETHOT message
 
@@ -45,7 +45,7 @@ Handle vers le nouvel élément réactif. Si cette valeur est **null**, le contr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
@@ -53,7 +53,7 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L' *élément réactif* est l’élément sur lequel pointe la souris. Ce message se présente comme s’il s’agissait de l’élément réactif, même si la souris n’est pas positionnée dessus.
 
@@ -63,7 +63,7 @@ Si elle est réussie, ce message entraîne le redessin de l’élément réactif
 
 Ce message est ignoré si *lParam* a la **valeur null** et que le contrôle Tree-View effectue le suivi de la souris.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

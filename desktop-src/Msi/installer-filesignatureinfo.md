@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 670b5ba6deb4a53429180e832c2a49e4968c53efbe7c54cdf50e62e20bf5503b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5dbb758118b7612aaef3f7cca744674bca1c768d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118630780"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121585"
 ---
 # <a name="installerfilesignatureinfo-method"></a>Installer. FileSignatureInfo, méthode
 
@@ -87,15 +87,15 @@ Informations de signature demandées.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, la méthode retourne un [SAFEARRAY](/windows/win32/api/oaidl/ns-oaidl-safearray) d’octets qui contiennent le hachage ou le certificat encodé.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour créer une installation signée entièrement vérifiée à l’aide de l’automatisation, utilisez la méthode **FileSignatureInfo** pour remplir les tables [MsiDigitalCertificate](msidigitalcertificate-table.md), [MsiPatchCertificate](msipatchcertificate-table.md)et [MsiDigitalSignature](msidigitalsignature-table.md) . Pour plus d’informations, consultez [création d’une installation signée entièrement vérifiée à l’aide d’Automation](authoring-a-fully-verified-signed-installation-using-automation.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

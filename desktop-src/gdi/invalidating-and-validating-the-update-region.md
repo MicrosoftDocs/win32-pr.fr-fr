@@ -4,12 +4,12 @@ ms.assetid: ec8abb77-47bc-4198-9daf-f2ccb0864ccc
 title: Invalidation et validation de la région de mise à jour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6813d88674ef0339cfd3501b561e5a7c95fa5b41f0c7f212e625f9846f5beb5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7ba895875f9ec1350b6eb28ccb8f1721df6999ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914284"
 ---
 # <a name="invalidating-and-validating-the-update-region"></a>Invalidation et validation de la région de mise à jour
 

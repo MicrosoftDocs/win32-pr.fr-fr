@@ -4,12 +4,12 @@ ms.assetid: 05c0aba7-b94b-49d4-a0fc-1ff0a23550b3
 title: Limitations de sécurité en mode groupe de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af613b8de16b99090bcdb02bde0015d01312df3d642c895d61ef59ff80873eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eabe38b8d05c49382ae6dd8337b883a6f4a8079a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118546273"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008172"
 ---
 # <a name="security-limitations-in-workgroup-mode"></a>Limitations de sécurité en mode groupe de travail
 

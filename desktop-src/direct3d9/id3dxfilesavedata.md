@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 68d52c1c022ed292a879ae4f701df52524d4170160bc79b6f1956c744a530c22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d42f431dbb2f9108c5e503aea07ba6b11915f0ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008007"
 ---
 # <a name="id3dxfilesavedata-interface"></a>Interface ID3DXFileSaveData
 
@@ -50,7 +50,7 @@ L’interface **ID3DXFileSaveData** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le GUID de l’interface ID3DXFileSaveObject est IID \_ ID3DXFileSaveObject.
 

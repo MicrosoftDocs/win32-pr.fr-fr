@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3770029f732629f12d94c9304d144226d873f38cc1b8452036d39ca2abdd757a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8efe0ec3b2326d1af0d0075770bdc6443ab9dcad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119909589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006728"
 ---
 # <a name="coutputqueuequeuesample-method"></a>Méthode COutputQueue. QueueSample
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ajoute un exemple à la fin de la file d’attente. Maintenez la section critique avant d’appeler cette méthode et appelez-la uniquement lorsque l’objet utilise un thread pour remettre des exemples. Pour déterminer si l’objet utilise un thread, appelez la méthode [**COutputQueue :: IsQueued**](coutputqueue-isqueued.md) .
 
@@ -75,7 +75,7 @@ Cette méthode peut également être utilisée pour placer des messages de contr
 
 Il s’agit d’une méthode protégée, que la classe **COutputQueue** utilise en interne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

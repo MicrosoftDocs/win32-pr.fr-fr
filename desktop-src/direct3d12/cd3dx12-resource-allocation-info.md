@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63915f2fa05950ad96bc621b9887b1c4fe23149e22ba408767d111f7b74d6927
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 08542c7460b2fadf381f85dc271167258e31fb46
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119729219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915444"
 ---
 # <a name="cd3dx12_resource_allocation_info-structure"></a>\_Structure d' \_ informations d’allocation de ressources CD3DX12 \_
 
@@ -76,7 +76,7 @@ Définit le & opérateur de passage par référence pour le type de structure pa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

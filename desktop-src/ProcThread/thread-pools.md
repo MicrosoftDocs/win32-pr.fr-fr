@@ -4,12 +4,12 @@ ms.assetid: abe0798a-0b60-4bdb-a61e-45393f1e958d
 title: Pools de threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7918a0f6f0b881233ebea8e664d6e743a7bff105e265270063b08af313417e7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 690aa3eb6fd3ce7a99d71e0f57118529ef79113f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120081259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007071"
 ---
 # <a name="thread-pools"></a>Pools de threads
 
@@ -35,7 +35,7 @@ L’architecture du pool de threads se compose des éléments suivants :
 -   Pool de threads par défaut pour chaque processus
 -   Une fabrique de travail qui gère les threads de travail
 
-## <a name="best-practices"></a>Meilleures pratiques
+## <a name="best-practices"></a>Bonnes pratiques
 
 La nouvelle [API de pool de threads](thread-pool-api.md) offre plus de souplesse et de contrôle que l' [API de pool de threads d’origine](thread-pooling.md). Toutefois, il existe quelques différences subtiles mais importantes. Dans l’API d’origine, la réinitialisation de l’attente était automatique ; dans la nouvelle API, l’attente doit être explicitement réinitialisée à chaque fois. L’API d’origine gérait l’emprunt d’identité automatiquement, en transférant le contexte de sécurité du processus appelant au thread. Avec la nouvelle API, l’application doit définir explicitement le contexte de sécurité.
 

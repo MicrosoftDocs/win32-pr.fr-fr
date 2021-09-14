@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101856
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 38ea8f26d1d901043fd4eee798792334f1043f1e424e29bef39e553a791db212
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 834b29c789bc8a6899613294ea4253f96b8de25a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119972739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851277"
 ---
 # <a name="esentinvalidbackupsequenceexception-properties"></a>Propriétés EsentInvalidBackupSequenceException
 
@@ -69,7 +69,7 @@ Le type [EsentInvalidBackupSequenceException](./esentinvalidbackupsequenceexcept
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

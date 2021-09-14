@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 890f0e8e7594236d18642bf12ed1001364d6c06491f6cbaecc5d2ab734a735a7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 514dabcd9d0f28b1a6d71f5eb272f960a1498839
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117889206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914387"
 ---
 # <a name="windows8paramhungioactions-field"></a>Champ Windows8Param. HungIOActions
 

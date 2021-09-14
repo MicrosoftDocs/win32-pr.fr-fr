@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau retournent zéro en cas de réu
 ms.assetid: 193ffba5-ff8f-48fb-839e-a162aae58a8f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d4d9f88593d15a1a1aca8af596c5576433aad3af97ae23fa5f455fda3474411
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 363d4d45cd0d6a8f0445b24e10b24c7da04a3f72
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117797345"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009411"
 ---
 # <a name="function-status"></a>État de la fonction
 

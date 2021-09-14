@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed4255d64531363e2018da3aa716316428a3d7d1b960521aa478c658b59b48b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 60bcde3ccad01e19f3802e2cd19f0f6b873380ef
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120055859"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006790"
 ---
 # <a name="cdynamicoutputpinunblockoutputpin-method"></a>Méthode CDynamicOutputPin. UnblockOutputPin
 
@@ -40,7 +40,7 @@ HRESULT UnblockOutputPin();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -55,7 +55,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

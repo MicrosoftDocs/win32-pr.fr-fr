@@ -12,12 +12,12 @@ keywords:
 - WIN32_LEAN_AND_MEAN
 ms.topic: article
 ms.date: 01/22/2020
-ms.openlocfilehash: 886c5601683cc03fb2486f8be3b69f31c4619b721276babbc2c3e31e28c0a022
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d27b14a6e545db9a9a38c205012b149942adf7f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119643589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008316"
 ---
 # <a name="using-the-windows-headers"></a>utilisation des en-têtes de Windows
 
@@ -78,7 +78,7 @@ les tableaux suivants décrivent les autres macros utilisées dans les fichiers 
 
 | Système minimal requis                           | Valeur minimale pour \_ Win32 \_ winnt et winver |
 |---------------------------------------------------|---------------------------------------------|
-| Windows 10                                        | **\_ Win32 \_ winnt \_ WIN10** (0x0A00)          |
+| Windows 10                                        | **\_ Win32 \_ winnt \_ WIN10** (0x0A00)          |
 | Windows 8.1                                       | **\_ Win32 \_ winnt \_ WINBLUE** (0x0603)        |
 | Windows 8                                         | **\_ Win32 \_ winnt \_ WIN8** (0x0602)           |
 | Windows 7                                         | **\_ Win32 \_ winnt \_ win7** (0x0601)           |

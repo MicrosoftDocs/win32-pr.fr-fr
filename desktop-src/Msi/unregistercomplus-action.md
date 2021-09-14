@@ -4,12 +4,12 @@ ms.assetid: bcedc436-a048-487e-9a84-e766da57a0b3
 title: Action UnregisterComPlus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc3ed5e8e4afd853294e7f5832662e9aaf1eb122d3573e7c384115c86d994588
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e32d39255229151757f7d6be0ada871f555f77e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119499849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121533"
 ---
 # <a name="unregistercomplus-action"></a>Action UnregisterComPlus
 

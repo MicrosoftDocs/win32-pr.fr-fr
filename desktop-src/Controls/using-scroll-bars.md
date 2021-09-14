@@ -4,12 +4,12 @@ description: Cette section contient des rubriques qui montrent comment créer de
 ms.assetid: 45ffb56f-f567-40d7-8172-e64e26744ed7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b96b1341e76b80e4ba5bf45df3dcfee03db87bb82adb4ba50273edbac6db4ac8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d602426bd5f716a380d43104046f330d3240d516
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115249"
 ---
 # <a name="using-scroll-bars"></a>Utilisation des barres de défilement
 

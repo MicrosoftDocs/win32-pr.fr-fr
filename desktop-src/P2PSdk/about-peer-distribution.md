@@ -4,12 +4,12 @@ ms.assetid: feb9666e-563a-49f4-ad1c-f166a0faff31
 title: À propos de la distribution d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11085b38819f8b102f71f59294924c7c6e079881c8af87f77923351ff424f959
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c996aed35ac691284ba61b757d6ff5a88033aad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119553479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009256"
 ---
 # <a name="about-peer-distribution"></a>À propos de la distribution d’homologue
 

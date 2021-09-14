@@ -16,12 +16,12 @@ keywords:
 - propriétaire afficher les formats du presse-papiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86a3ddc96cbc1d440fda5e6484f1bc72a53b4b36b709c7ad80c77e203dadcef1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ebe22a16886c62824775b5f2d8174e2a8e244b9e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128631"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915692"
 ---
 # <a name="about-the-clipboard"></a>À propos du presse-papiers
 

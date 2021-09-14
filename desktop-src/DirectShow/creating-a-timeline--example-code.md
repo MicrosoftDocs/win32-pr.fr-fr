@@ -4,12 +4,12 @@ ms.assetid: efe6e8d7-2465-4374-8c99-a410091f8d46
 title: 'Création d’une chronologie : exemple de code'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 614d6e2dfa676b09bac2cc9c81fd67c795d73f61df2df4b603307943ac0ada71
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 877bd79b055171dfa5bd12cff0ae257d60e76a16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006688"
 ---
 # <a name="creating-a-timeline-example-code"></a>Création d’une chronologie : exemple de code
 

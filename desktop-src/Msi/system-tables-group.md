@@ -4,12 +4,12 @@ ms.assetid: d20be8b6-f456-4f90-aa9e-dc122c20d20c
 title: Groupe de tables système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c05bfd06bcff049d2aea847a2bb8d0c4c3fc3d1443a615f75912ac7d4f86d73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 482333ec3f6f483d431aced9a984c7db1ae5cef4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118623918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009633"
 ---
 # <a name="system-tables-group"></a>Groupe de tables système
 

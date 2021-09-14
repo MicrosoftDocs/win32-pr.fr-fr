@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Récupération d’une classe WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e2695a934436e6e53fe84ee11c6008615b3d6f5d1807039d76b72fa704a2cf8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9378854eb483c6cdac7ddee47d581d8876270e97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117739878"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008212"
 ---
 # <a name="retrieving-a-wmi-class"></a>Récupération d’une classe WMI
 

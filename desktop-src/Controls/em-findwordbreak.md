@@ -3,7 +3,7 @@ title: Message EM_FINDWORDBREAK (RichEdit. h)
 description: Recherche la prochaine césure de mot avant ou après la position de caractère spécifiée ou récupère des informations sur le caractère à cette position.
 ms.assetid: b5df1365-4672-4c82-8ae4-ebf8b60bf871
 keywords:
-- EM_FINDWORDBREAK les contrôles de message Windows
+- EM_FINDWORDBREAK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: b6533358c0f4f521bc7021e290dfe11d66d4499e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465578"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006505"
 ---
 # <a name="em_findwordbreak-message"></a>\_Message FINDWORDBREAK em
 
@@ -60,7 +60,7 @@ Position de départ d’un caractère de base zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le message retourne une valeur basée sur le paramètre *wParam* .
 
@@ -71,7 +71,7 @@ Le message retourne une valeur basée sur le paramètre *wParam* .
 | <dl> <dt>**wParam**</dt> </dl>          | Valeur renvoyée<br/>                                                                                                |
 | <dl> <dt>**WB \_ classifier**</dt> </dl>    | Retourne la classe de caractères et les indicateurs de saut de mot du caractère à la position spécifiée.<br/>                |
 | <dl> <dt>**WB \_ ISDELIMITER**</dt> </dl> | Retourne la **valeur true** si le caractère situé à la position spécifiée est un délimiteur. Sinon, elle retourne **false**.<br/> |
-| <dl> <dt>**Autres**</dt> </dl>          | Retourne l’index de caractère de l’arrêt de mot.<br/>                                                              |
+| <dl> <dt>**Personnes**</dt> </dl>          | Retourne l’index de caractère de l’arrêt de mot.<br/>                                                              |
 
 
 
@@ -83,14 +83,14 @@ Si *wParam* est WB \_ Left et WB \_ Right, la procédure de saut de mot recherch
 
 Pour plus d’informations sur les classes de caractères et les indicateurs de césure lexicale, consultez [mots et sauts de ligne](using-rich-edit-controls.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 76abcdadf24006d545a8e8cf51205a99656a634094487104b9bad5d9b553c33c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9945bd7b5f3c5b54f0ef578c2b012d0e56935d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119073453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007599"
 ---
 # <a name="cpullpinm_palloc-member"></a>CPullPin :: m \_ pAlloc, membre
 

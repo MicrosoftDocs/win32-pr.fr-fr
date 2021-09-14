@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Inscription d’un fournisseur de High-Performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2ee52db95290810a046d23781dbccf666cd63a19b01bf9414b2e224b8137f8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6e38653be78747bbfe68ce01d610e9b65b4c981d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008222"
 ---
 # <a name="registering-a-high-performance-provider"></a>Inscription d’un fournisseur de High-Performance
 

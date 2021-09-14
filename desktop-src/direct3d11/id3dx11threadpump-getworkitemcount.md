@@ -1,6 +1,6 @@
 ---
 title: Méthode ID3DX11ThreadPump GetWorkItemCount (D3DX11core. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Obtient le nombre d’éléments de travail dans la pompe de thread.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Obtient le nombre d’éléments de travail dans la pompe de thread.'
 ms.assetid: 04883b25-64dc-41a3-849f-710a59e9d3da
 keywords:
 - Méthode GetWorkItemCount Direct3D 11
@@ -18,16 +18,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: a29668e66dd3d8c6d29cbfc69a4ef12a2fdfd18b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008062"
 ---
 # <a name="id3dx11threadpumpgetworkitemcount-method"></a>ID3DX11ThreadPump :: GetWorkItemCount, méthode
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -46,13 +46,13 @@ UINT GetWorkItemCount();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
 Nombre d’éléments de travail mis en file d’attente dans la pompe de thread.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

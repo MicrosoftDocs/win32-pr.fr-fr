@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8fdd2b75ee9f3dcc46e5449c275eeea141162f3d31f524b64e114a623bd915e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 34eccdeda553d0792a2862e3ca81a0889539d5ae
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115534"
 ---
 # <a name="tvn_beginlabeledit-notification-code"></a>\_Code de notification TVN BEGINLABELEDIT
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour annuler la modification de l’étiquette.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la modification d’étiquette commence, un contrôle d’édition est créé mais pas positionné ou affiché. Avant qu’il ne soit affiché, le contrôle Tree-View envoie sa fenêtre parente un \_ Code de notification TVN BEGINLABELEDIT.
 
@@ -59,7 +59,7 @@ Pour personnaliser la modification des étiquettes, implémentez un gestionnaire
 
 Lorsque l’utilisateur annule ou termine la modification, la fenêtre parente reçoit un code de notification [TVN \_ ENDLABELEDIT](tvn-endlabeledit.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

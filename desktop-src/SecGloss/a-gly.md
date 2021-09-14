@@ -6,11 +6,11 @@ title: A (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 39a3c9bd82d68a80d5a014c19e6c81dddf5e2b2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009026"
 ---
 # <a name="a-security-glossary"></a>A (Glossaire de la sécurité)
 
@@ -222,7 +222,7 @@ DLL qui encapsule la logique d’authentification utilisée pour déterminer s�
 <span id="_security_authenticode_gly"></span><span id="_SECURITY_AUTHENTICODE_GLY"></span>**Authenticode**
 </dt> <dd>
 
-Fonctionnalité de sécurité d’Internet Explorer. Authenticode permet aux fournisseurs de code exécutable téléchargeable (plug-ins ou contrôles ActiveX, par exemple) de joindre des certificats numériques à leurs produits pour garantir aux utilisateurs finaux que le code provient du développeur d’origine et n’a pas été modifié. Authenticode permet aux utilisateurs finaux de décider s’ils doivent accepter ou rejeter les composants logiciels publiés sur Internet avant le début du téléchargement.
+Fonctionnalité de sécurité d’Internet Explorer. Authenticode permet aux fournisseurs de code exécutable téléchargeable (les plug-ins ou les contrôles de ActiveX, par exemple) de joindre des certificats numériques à leurs produits pour garantir aux utilisateurs finaux que le code provient du développeur d’origine et n’a pas été modifié. Authenticode permet aux utilisateurs finaux de décider s’ils doivent accepter ou rejeter les composants logiciels publiés sur Internet avant le début du téléchargement.
 
 </dd> </dl>
 

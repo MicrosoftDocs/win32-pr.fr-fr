@@ -14,11 +14,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: d9abdb05ba065ed9bf41b5379060c0643053884e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103281"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008785"
 ---
 # <a name="ts_ie_-constants"></a>\_ \_ \* Constantes TS IE
 
@@ -45,7 +45,7 @@ Ces constantes sont utilisées dans le paramètre *dwFlags* de [ITextStoreACP :
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                         |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Textstor. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Textstor. idl</dt> </dl> |
 

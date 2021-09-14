@@ -18,12 +18,12 @@ keywords:
 - écriture de fichiers sur des appareils, méthode IWMDMDevice3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eadde80f957573563468375ea06cd64b95cf83815491a3f21775fb1ebcefc7d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 734f674a5fc54aaec0df10d4db613fa067f9b505
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119957523"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008521"
 ---
 # <a name="getting-format-capabilities-through-iwmdmdevice3"></a>Obtention des fonctionnalités de format via IWMDMDevice3
 

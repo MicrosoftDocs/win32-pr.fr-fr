@@ -4,12 +4,12 @@ ms.assetid: 09608214-7346-4ee8-bbfd-0877d3ad0766
 title: 'IH323LineEx :: SetAlias, méthode (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 464c6707c3221fda1ef245e0302731ee7c6a1cf274c7ecac537c55f7f48437a0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7341d177297cf95f46d07e503244f06b2c4dea71
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008753"
 ---
 # <a name="ih323lineexsetalias-method"></a>IH323LineEx :: SetAlias, méthode
 
@@ -51,7 +51,7 @@ Longueur du nom d’alias en nombre de caractères, y compris la marque de fin *
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 

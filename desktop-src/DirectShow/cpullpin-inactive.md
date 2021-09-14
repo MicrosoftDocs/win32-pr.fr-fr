@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 56307362651761dbe2bc5c0242a24f189cf14d1e820df6a5ba21bdeb9c7deb0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4f32084428a36032152d3c3297b1fc9419e51cb3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119565369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007600"
 ---
 # <a name="cpullpininactive-method"></a>CPullPin. inactive, méthode
 
@@ -40,11 +40,11 @@ HRESULT Inactive();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez cette méthode lorsque le filtre propriétaire devient inactif. (Si votre broche d’entrée dérive de [**CBasePin**](cbasepin.md), remplacez la méthode [**CBasePin :: inactive**](cbasepin-inactive.md) .)
 

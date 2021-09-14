@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 28bcfdd249dda5621d4914d75d3ffc7b13e4d767
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367668"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011685"
 ---
 # <a name="wim_data-message"></a>\_Message de données Wim
 
@@ -56,11 +56,11 @@ Réservé doit être égal à zéro.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mémoire tampon retournée n’est peut-être pas pleine. Utilisez le membre **dwBytesRecorded** de la structure [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) spécifiée par *lpwvhdr* pour déterminer le nombre d’octets enregistrés dans la mémoire tampon retournée.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

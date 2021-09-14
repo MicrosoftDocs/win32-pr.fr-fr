@@ -17,11 +17,11 @@ topic_type:
 - APIRef
 - kbSyntax
 ms.openlocfilehash: 536ef31df9bbd60bfbb6a48c3f6de07718c5ce31
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982152"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122198"
 ---
 # <a name="span-idwwan_profile_v4element_1_accessstringspanmodemdmconfigprofileaccessstring-v4"></a><span id="WWAN_profile_v4.element_1_AccessString"></span>ModemDMConfigProfile \/ ... \/ AccessString (v4)
 
@@ -39,7 +39,7 @@ Pour plus d’informations, consultez la documentation de l’élément [**Acces
 &nbsp;&nbsp;[\<Context\>](element-1-context.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;**\<AccessString\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <AccessString>
@@ -69,7 +69,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

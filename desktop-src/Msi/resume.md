@@ -4,12 +4,12 @@ ms.assetid: 79eeadfd-6079-401b-a360-1ce09786e647
 title: RESUME, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65e3c17116558a346fe91e2c9c98bba99cd759b4d382488a7b8f08c946dfa053
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2c41b57bb92b252ebe37e4d631c155f28a86e596
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979259"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009652"
 ---
 # <a name="resume-property"></a>RESUME, propriété
 

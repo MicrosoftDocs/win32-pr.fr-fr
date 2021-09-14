@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, avec les interfaces, IADs et IDirectoryObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dccfa643c0076224abece6f449f20caf5a4de5d378c03d37cf0e2248ed5a50b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32dfef47fe1c66e4303725deecec14fe93d1fd92
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117838379"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007049"
 ---
 # <a name="the-iads-and-idirectoryobject-interfaces"></a>Les interfaces IADs et IDirectoryObject
 

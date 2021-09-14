@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Mapper des classes Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc38e91d52b59a206a0b64465d0f9710f6d515c9487853824477b7f4f6a126aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7a606cfacc2e9d56ef07973df182f5ce1a65be35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118992899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918811"
 ---
 # <a name="mapping-active-directory-classes"></a>Mapper des classes Active Directory
 
@@ -180,7 +180,7 @@ Le tableau suivant répertorie le mappage de la syntaxe de Active Directory au t
 | Élément Active Directory                                      | Type de données WMI                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|
 | [**Point d’accès**](/windows/desktop/ADSchema/s-object-access-point)            | **\_chaîne CIM**                                                         |
-| [**Boolean**](/windows/desktop/ADSchema/s-boolean)                             | **\_valeur BOOLÉENNE CIM**                                                        |
+| [**Booléen**](/windows/desktop/ADSchema/s-boolean)                             | **\_valeur BOOLÉENNE CIM**                                                        |
 | **Chaîne non sensible à la casse**                                   | **\_chaîne CIM**                                                         |
 | [**Chaîne respectant la casse**](/windows/desktop/ADSchema/s-string-case-sensitive) | **\_chaîne CIM**                                                         |
 | [**Nom unique**](/windows/desktop/ADSchema/s-object-ds-dn)             | **\_chaîne CIM**                                                         |
@@ -188,11 +188,11 @@ Le tableau suivant répertorie le mappage de la syntaxe de Active Directory au t
 | [**DN-chaîne**](/windows/desktop/ADSchema/s-object-dn-string)                  | Objet incorporé de la classe **DN \_ avec la \_ chaîne** définie ci-dessous.<br/> |
 | [**Énumération**](/windows/desktop/ADSchema/s-enumeration)                     | **\_SINT32 CIM**                                                         |
 | [**Énumération**](/windows/desktop/ADSchema/s-enumeration)                     | **\_chaîne CIM**                                                         |
-| [**Entier**](/windows/desktop/ADSchema/s-integer)                             | **\_SINT32 CIM**                                                         |
+| [**Integer**](/windows/desktop/ADSchema/s-integer)                             | **\_SINT32 CIM**                                                         |
 | [**LargeInteger**](/windows/desktop/ADSchema/s-largeinteger)                   | **\_chaîne CIM**                                                         |
 | Descripteur de sécurité                                           | Objet incorporé de la classe **Uint8Array** défini ci-dessous.<br/>       |
 | Chaîne numérique                                                | **\_chaîne CIM**                                                         |
-| ID objet                                                     | **\_chaîne CIM**                                                         |
+| ID de l'objet                                                     | **\_chaîne CIM**                                                         |
 | Chaîne d’octets                                                  | Objet incorporé de la classe **Uint8Array** défini ci-dessous.<br/>       |
 | OU le nom                                                       | **\_chaîne CIM**                                                         |
 | Presentation-Address                                          | Objet incorporé de la classe **Uint8Array** défini ci-dessous.<br/>       |

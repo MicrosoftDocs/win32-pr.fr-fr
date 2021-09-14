@@ -4,12 +4,12 @@ ms.assetid: 13efedb5-ebb6-459b-8c4f-06774226278c
 title: Type d’objet TrustedDomain
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdab860f9192e48433242251578a20a45bf294164c0bffff8b6f00562a1442e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70f0a4e6eca0790d877a9a23e4d83725d4e80798
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009004"
 ---
 # <a name="the-trusteddomain-object-type"></a>Type d’objet TrustedDomain
 

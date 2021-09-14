@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit, handles de contexte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e73fb49a2e4c09ec818777389194df98e0d7b8bcac618d05ff7b519aefe5eb28
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a8ff36ff8f1a36843293060e091b7eecee0d8666
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120073419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009161"
 ---
 # <a name="context-handles"></a>Handles de contexte
 

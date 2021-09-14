@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 469e4e255f3bdd64749060fcb712df480a8a1f6fc3683ebb25916be44856e211
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db8f61197e3c08f5608be954a9288ea54cad5586
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008595"
 ---
 # <a name="tlskeypackenumbegin-function"></a>TLSKeyPackEnumBegin fonction)
 
@@ -151,7 +151,7 @@ Les données du paramètre de recherche ne sont pas valides.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette fonction retourne les valeurs de retour possibles suivantes.
 

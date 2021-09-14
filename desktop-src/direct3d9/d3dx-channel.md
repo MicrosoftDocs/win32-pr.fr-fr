@@ -4,12 +4,12 @@ ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41b148060805edccb12bb31157d6e83b379addd20f4e8a3321d029fb888c6375
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d1fa9d5df75011e62034d814549202f14fe7cdba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118526797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916655"
 ---
 # <a name="d3dx_channel"></a>\_Chaîne D3DX
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_SCSIController
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d7d2f1fa32a1e33b71f221007a2113d9e1b1afcfe02f29ecc25cc1c0c828de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b83b5976aba478ce79a62930bd8ef86f264bc0e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119920049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122009"
 ---
 # <a name="cim_scsicontroller-methods"></a>\_Méthodes SCSICONTROLLER CIM
 

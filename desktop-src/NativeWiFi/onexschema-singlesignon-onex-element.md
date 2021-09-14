@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5d0e002133366527624a0954df9054272cc08d894ba8dc3121b8a86b807caab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd25767ed311e9a6f0e75f8dec090d4b80d3f0af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117798030"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009448"
 ---
 # <a name="singlesignon-onex-element"></a>Élément singleSignOn (OneX)
 

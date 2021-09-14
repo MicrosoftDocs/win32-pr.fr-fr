@@ -6,12 +6,12 @@ keywords:
 - effet de gestion des couleurs
 ms.topic: article
 ms.date: 02/05/2019
-ms.openlocfilehash: 274591312ab110a24fb315d01f72d23a22a938ad41f380620d94a865602e82a8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f3783132e0e2af511a99fd8c44d5f899e577a3a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117826697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114149"
 ---
 # <a name="color-management-effect"></a>Effet de gestion des couleurs
 
@@ -26,7 +26,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ColorManagement.
 - [Comportement du canal alpha](#alpha-channel-behavior)
 - [Modes de qualité](#quality-modes)
 - [Exemple de code](#sample-code)
-- [Requirements](#requirements)
+- [Configuration requise](#requirements)
 - [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -185,7 +185,7 @@ L’effet de gestion des couleurs échoue lors du dessin si l’application dema
 
 Pour obtenir un exemple de cet effet, téléchargez l' [exemple ajustement des photos des effets Direct2D](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/D2DPhotoAdjustment)et consultez la leçon 4 de l’exemple.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

@@ -4,12 +4,12 @@ description: Définit l’état de l’élément spécifié sur l’adaptateur.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: c80ca670be26ffdcefa5e89cee079d2225d204ee97e99e41f69686300a46230b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8cbeacdb8c6020441b5dd74a9f9233a6c112b4f6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119042907"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918000"
 ---
 # <a name="idxcoreadaptersetstate-method"></a>IDXCoreAdapter :: SetState, méthode
 
@@ -70,7 +70,7 @@ Type : **[HRESULT](../../com/structure-of-com-error-codes.md)**
 
 Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](../../com/structure-of-com-error-codes.md) [code d’erreur](../../com/com-error-codes-10.md)HRESULT.
 
-|Valeur retournée|Description|
+|Valeur de retour|Description|
 |-|-|
 |DXGI_ERROR_DEVICE_REMOVED|L’état de l’adaptateur n’est plus valide.|
 |DXGI_ERROR_INVALID_CALL|Le genre d’état spécifié dans l' *État* n’est pas reconnu par ce système d’exploitation. Appelez [IsSetStateSupported](./nf-dxcore_interface-idxcoreadapter-issetstatesupported.md) pour confirmer que la définition du type d’État est disponible pour cet adaptateur et le système d’exploitation.|

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 77aa5827cc256c040d34ca24574dfa0b12816accaff9e5c0e92b4400195cae2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37dc117bccd57b51098a7ca8c19e8b178037bef8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006482"
 ---
 # <a name="em_getextendedstyle-message-commctrlh"></a>Message EM_GETEXTENDEDSTYLE (commctrl. h)
 
@@ -35,15 +35,15 @@ Récupère le style étendu pour un contrôle Tree-View. Envoyez ce message expl
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur du style étendu. Pour plus d’informations sur les styles, consultez [modifier les styles étendus de contrôle](edit-control-window-extended-styles.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les styles étendus pour un contrôle d’édition n’ont rien à faire avec les styles étendus utilisés avec la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) ou la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

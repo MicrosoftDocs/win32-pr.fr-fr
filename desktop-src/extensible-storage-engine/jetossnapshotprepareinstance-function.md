@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: f4140a79428c7db6cb9091627ae1aeb7416e6686
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850738"
 ---
 # <a name="jetossnapshotprepareinstance-function"></a>JetOSSnapshotPrepareInstance fonction)
 
@@ -76,7 +76,7 @@ Si cette fonction est réussie, l’instance spécifiée fera partie de la sessi
 
 Si cette fonction échoue, aucune modification de l’état du moteur ne se produit.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 L’appel de séquence d’API normal est : [JetOSSnapshotPrepare](./jetossnapshotprepare-function.md), éventuellement suivi d’un ou plusieurs appels à **JetOSSnapshotPrepareInstance**, puis de [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md). Une fois le blocage démarré, il peut être arrêté à l’aide de [JetOSSnapshotThaw](./jetossnapshotthaw-function.md). À tout moment après la préparation, la session d’instantané peut être interrompue soudainement avec [JetOSSnapshotAbort](./jetossnapshotabort-function.md). Les entrées du journal des événements seront générées pour les différentes étapes de l’instantané.
 

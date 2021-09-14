@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - BatClass.h
-ms.openlocfilehash: a48514b81ddf5d8f7c0d84d4404eb01752413e73ade43db089fbb6dade673bc1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee4010e055686c0df2987c34b48b133975b434ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007155"
 ---
 # <a name="ioctl_battery_query_information-control-code"></a>\_Code de \_ contrôle des \_ informations sur les requêtes de batterie IOCTL
 
@@ -133,7 +133,7 @@ Si *hDevice* a été ouvert sans que l’indicateur de fichier n’ait été sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine correctement, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) retourne une valeur différente de zéro.
 
@@ -143,7 +143,7 @@ Certaines informations sur les batteries sont facultatives ou n’ont pas de sen
 
 Toutes les demandes d’informations sur la batterie se terminent avec l’état **fichier d’erreur \_ \_ \_ introuvable** chaque fois que l’élément **BatteryTag** de la demande ne correspond pas à celui de la balise de batterie actuelle. Cela permet de s’assurer que les informations sur la batterie retournée correspondent à celles de la batterie demandée. (Pour plus d’informations, consultez [balises de batterie](battery-information.md) .)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette IOCTL de batterie récupère diverses informations pour la batterie. La structure des paramètres d’entrée, les [**\_ \_ informations sur les requêtes**](battery-query-information-str.md)de la batterie, indiquent le type d’informations à retourner et le moment où les informations sur la batterie doivent être retournées. Le type de données et le contenu de la mémoire tampon de sortie varient en fonction des données demandées.
 
@@ -153,7 +153,7 @@ Pour connaître les implications des e/s avec chevauchement sur cette opération
 
 Pour obtenir un exemple, consultez [énumération des unités de batterie](enumerating-battery-devices.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

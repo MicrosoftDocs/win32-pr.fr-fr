@@ -4,12 +4,12 @@ ms.assetid: de865481-2a08-4d25-967c-8e68b7affe8d
 title: Mappage de codes de la Commission des prix à une déclaration Direct3D 9 (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8ef4d5e8e29c4c7f6af8d82b650b4898c57d900b92b8dd45ca2368bb9eacce
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 85442cf1c92c78aa1a37f4d4a4ec3de154f5b8d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118799075"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918259"
 ---
 # <a name="mapping-fvf-codes-to-a-direct3d-9-declaration-direct3d-9"></a>Mappage de codes de la Commission des prix à une déclaration Direct3D 9 (Direct3D 9)
 

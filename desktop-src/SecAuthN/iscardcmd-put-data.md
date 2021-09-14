@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 53b32cd585e87af2884920305b8aa0ae427fa9389e3c528243c18fb548289a20
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 58c1fa7d709eff1ed0618f52a83825f5110c4457
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119481429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009143"
 ---
 # <a name="iscardcmdput_data-method"></a>ISCardCmd ::p \_ méthode de données ut
 
@@ -48,7 +48,7 @@ Pointeur vers l’objet de mémoire tampon d’octets (**IStream**) à copier da
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne l’une des valeurs possibles suivantes.
 

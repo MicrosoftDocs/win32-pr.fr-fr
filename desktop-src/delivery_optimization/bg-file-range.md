@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 048cef74eb5c375bf7c68a6c37184741a63140230e3d0ac36ac73c32ffd848ec
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cedabfb066a5905adb2ed8eac9996fd77c0e12be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119755899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852333"
 ---
 # <a name="bg_file_range-structure"></a>Structure BG_FILE_RANGE
 
@@ -56,11 +56,11 @@ Longueur de la plage, en octets. Ne spécifiez pas de longueur égale à zéro o
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plage doit exister dans le fichier ou générer une erreur **DO_E_INVALID_RANGE** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

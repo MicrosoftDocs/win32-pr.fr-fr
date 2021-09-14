@@ -4,12 +4,12 @@ ms.assetid: aa787004-0d3e-448b-80dd-92055f841aee
 title: Rôles d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 386a3ba163a9a82d01aa7916139edaa01e531160f5245c6e751fb7169702de5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b7182e3af6bf76af500588546a1b7c0db9eea97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018431"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114990"
 ---
 # <a name="device-roles"></a>Rôles d’appareil
 

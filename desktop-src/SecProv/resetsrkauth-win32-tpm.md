@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 01f7536833529fd0d425f6064cfcdab11ac99c9cf1d6ab6ae7daf0c8b995d566
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d838ded7051511b6a8f9117327ee7cdb1a00d7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004297"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008974"
 ---
 # <a name="resetsrkauth-method-of-the-win32_tpm-class"></a>Méthode ResetSrkAuth de la \_ classe TPM Win32
 
@@ -48,7 +48,7 @@ Chaîne qui identifie le propriétaire du module de plateforme sécurisée. Cett
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -68,7 +68,7 @@ Le tableau suivant répertorie certains des codes de retour courants.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 

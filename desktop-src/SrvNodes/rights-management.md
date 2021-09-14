@@ -4,12 +4,12 @@ ms.assetid: 7776559E-3950-4184-B3C0-BD12EE593510
 title: Kits de développement logiciel (SDK) Microsoft Rights Management
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b579e01043145ffc0713827be00ae9f56e165f2cee68939c17d6d2c55b8ac7d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fce8f6e588fbff8f719e31da1696e0df4f1c92b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008937"
 ---
 # <a name="microsoft-rights-management-sdks"></a>Kits de développement logiciel (SDK) Microsoft Rights Management
 

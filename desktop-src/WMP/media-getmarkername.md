@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b1ace88a7012ec59bf4dcae32c5c2f51f240dd1e59c58408165392a6fc1e616
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 69b923408432f76525b2dcf8cab046703fb76f80
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008411"
 ---
 # <a name="mediagetmarkername-method"></a>Méthode Media. getMarkerName
 
@@ -49,7 +49,7 @@ strRetVal = Media.getMarkerName(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **chaîne**.
 

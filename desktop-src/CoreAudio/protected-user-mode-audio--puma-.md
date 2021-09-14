@@ -4,12 +4,12 @@ ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: PUMA (Protected user mode audio)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f119094440297c90ae67c46d5a6b39b1ba6e2e9931b43b4bdda17393d0273dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 233dc82109feb66472e66e4235031696937d70d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114809"
 ---
 # <a name="protected-user-mode-audio-puma"></a>PUMA (Protected user mode audio)
 

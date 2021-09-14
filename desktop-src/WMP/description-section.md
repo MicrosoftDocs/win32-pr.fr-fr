@@ -3,7 +3,7 @@ title: Section Description
 description: Section Description
 ms.assetid: 280a9a4d-935f-440d-a606-94aeba0007db
 keywords:
-- Windows Media Player Mobile Skins, section Description
+- Lecteur Windows Media Apparences mobiles, section Description
 - apparences, section Description
 - création d’apparences, section Description
 - écriture de code pour les apparences, section Description
@@ -12,15 +12,15 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ce9518b6b1de128457dc3e6b3738ddab9be2a873
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840681"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008483"
 ---
 # <a name="description-section"></a>Section Description
 
-Ensuite, vous devez fournir une section qui décrit la taille et l’orientation de l’apparence lors de la création d’une apparence pour Windows Media Player 9 Series pour Windows Mobile 2003 et versions ultérieures :
+ensuite, vous devez fournir une section qui décrit la taille et l’orientation de l’apparence lors de la création d’une apparence pour Lecteur Windows Media série 9 pour Windows Mobile 2003 et versions ultérieures :
 
 
 ```C++
@@ -50,9 +50,9 @@ Pour plus d’informations sur la section Description, consultez [Description](d
 [**Écriture du code**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

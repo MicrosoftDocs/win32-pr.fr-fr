@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b76fd28b99cf218b9d6276b80e070eabaa5d9aeef5c6016399f8b8336d2bb328
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f1081bd93c95dfa90b6a4dfa6a87339e8e3172a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118421310"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006568"
 ---
 # <a name="cim_setting-class-cimwin32-wmi-providers"></a>CIM_Setting, classe (fournisseurs WMI CIMWin32)
 
@@ -104,13 +104,13 @@ Identificateur par lequel l’objet actuel est connu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 WMI n’implémente pas cette classe. Pour les classes WMI dérivées du **\_ paramètre CIM**, consultez [classes Win32](win32-provider.md).
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

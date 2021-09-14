@@ -4,12 +4,12 @@ ms.assetid: 073ee4e9-0e97-451a-a808-8265575d073c
 title: Gestion des enregistrements de groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d2d0ba77a315043e638ddaa28615cf84654852a13e73347ee36ee4c7d66a6e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3b6d9e3257cc597b715dc9c65eb5945c00c15286
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009223"
 ---
 # <a name="managing-group-records"></a>Gestion des enregistrements de groupe
 

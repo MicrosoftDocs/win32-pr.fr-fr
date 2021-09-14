@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 86fcd0195dc5f304d7f3bda8e9aa3a1a39f1ff97b684cd3c1a41be22a996d693
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 88e424aa067e45c1e88caf1fa6079d62802ba16d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009182"
 ---
 # <a name="counterattribute-counterattributes-element"></a>Élément counterAttribute (counterAttributes)
 

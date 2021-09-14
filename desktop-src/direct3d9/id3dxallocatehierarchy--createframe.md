@@ -15,11 +15,11 @@ api_location:
 - d3dx9.lib
 - d3dx9.dll
 ms.openlocfilehash: d6a3a13dd4d3b3dfaffb26632ff6ad5cc8666f86
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008016"
 ---
 # <a name="id3dxallocatehierarchycreateframe-method"></a>ID3DXAllocateHierarchy :: CreateFrame, méthode
 
@@ -59,7 +59,7 @@ Retourne l’objet de frame créé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -4,12 +4,12 @@ ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
 title: IMR_COMPOSITIONWINDOW le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fc5f1f45652a2f58386a50284e3bf2cfec182c6f4ad89641dcc27a63cf12b78
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6af0481ccebc59968fe85a489c856388a04dbece
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117810052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007400"
 ---
 # <a name="imr_compositionwindow-notification-code"></a>\_Code de notification IMR COMPOSITIONWINDOW
 
@@ -44,11 +44,11 @@ Pointeur vers une mémoire tampon contenant une structure [**COMPOSITIONFORM**](
 
 Retourne une valeur différente de zéro si l’application remplit la structure [**COMPOSITIONFORM**](/windows/win32/api/imm/ns-imm-compositionform) . Dans le cas contraire, la commande retourne 0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' \_ indicateur ISC SHOWUICOMPOSITIONWINDOW dans le gestionnaire de messages [**WM \_ IME \_ SETCONTEXT**](wm-ime-setcontext.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

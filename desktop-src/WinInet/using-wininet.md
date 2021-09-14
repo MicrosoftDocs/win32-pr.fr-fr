@@ -5,11 +5,11 @@ ms.assetid: 9dde3f8d-7e76-4424-82ae-a8d58d3185a7
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 775835f2401947515a1eaf367a1f8d8080d083a1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008318"
 ---
 # <a name="using-wininet"></a>Utilisation de WinINet
 
@@ -26,6 +26,6 @@ Les rubriques de la liste suivante vous montrent comment utiliser l’API WinINe
 -   [Définition et récupération d’options Internet](setting-and-retrieving-internet-options.md)
 -   [Extensions IPv6 du format de fichier de configuration automatique du navigateur](/windows/desktop/WinHttp/ipv6-extensions-to-navigator-auto-config-file-format)
 
- 
+ 
 
- 
+ 

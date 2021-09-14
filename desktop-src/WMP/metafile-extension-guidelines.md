@@ -16,12 +16,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4aaa31f1364271b1b968244494586ba5006e7c292ca2d9a207cdd1c758b5e432
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31d2793b19576e26096bc30c834666828cf9ed29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118836966"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008370"
 ---
 # <a name="metafile-extension-guidelines"></a>Instructions relatives aux extensions de métafichiers
 

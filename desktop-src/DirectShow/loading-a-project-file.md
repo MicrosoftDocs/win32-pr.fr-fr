@@ -1,17 +1,17 @@
 ---
-description: Chargement d’un fichier projet
+description: chargement d’un fichier de Project
 ms.assetid: f8d142bd-e51d-4714-893b-8e3d02506891
-title: Chargement d’un fichier projet
+title: chargement d’un fichier de Project
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 8f9a710795a29481740bf85390cc7122cc801a22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007486"
 ---
-# <a name="loading-a-project-file"></a>Chargement d’un fichier projet
+# <a name="loading-a-project-file"></a>chargement d’un fichier de Project
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
@@ -44,7 +44,7 @@ Si la méthode **ReadXml** réussit, elle retourne un code de réussite. Sinon, 
 
 <dl> <dt>
 
-[Chargement et affichage de l’aperçu d’un projet](loading-and-previewing-a-project.md)
+[Chargement et prévisualisation d’un Project](loading-and-previewing-a-project.md)
 </dt> </dl>
 
  

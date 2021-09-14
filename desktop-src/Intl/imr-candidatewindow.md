@@ -4,12 +4,12 @@ ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
 title: IMR_CANDIDATEWINDOW le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9376ff08e0406ff5505107ea1a04cf4e62898660065a8c7fdd54a1b8606850c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: edb905acace27cc9bb04ce2b14dc6a685b7c4f8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117810113"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007401"
 ---
 # <a name="imr_candidatewindow-notification-code"></a>\_Code de notification IMR CANDIDATEWINDOW
 
@@ -44,11 +44,11 @@ Pointeur vers une mémoire tampon contenant une structure [**CANDIDATEFORM**](/w
 
 Retourne une valeur différente de zéro si l’application remplit la structure [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-candidateform) . Dans le cas contraire, la commande retourne 0.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' \_ indicateur ISC SHOWUICANDIDATEWINDOW dans le gestionnaire de messages [**WM \_ IME \_ SETCONTEXT**](wm-ime-setcontext.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

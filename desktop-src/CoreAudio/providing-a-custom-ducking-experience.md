@@ -4,12 +4,12 @@ ms.assetid: 18290d05-b114-476b-8365-6bbb5fe6cffc
 title: Fournir un comportement de canard personnalisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72cf4bb254b97a6a9d6b5c9d415d48a2c95f528f20efbf2ffbe4782ae5980400
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b4051dc7b79f698f10d007beaafa97e90d79f3b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118406367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114806"
 ---
 # <a name="providing-a-custom-ducking-behavior"></a>Fournir un comportement de canard personnalisé
 

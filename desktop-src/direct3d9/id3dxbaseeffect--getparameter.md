@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 37aa3ae609e20f80f354b33efbe2d0c771dc2c37d9709f4ce15898a4cf99f7ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7c96c371b36b8dcfc2e3e64a95798347ca3a6ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119121952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008015"
 ---
 # <a name="id3dxbaseeffectgetparameter-method"></a>ID3DXBaseEffect :: GetParameter, méthode
 
@@ -59,7 +59,7 @@ Index du paramètre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 

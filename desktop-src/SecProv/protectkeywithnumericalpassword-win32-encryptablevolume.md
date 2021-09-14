@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 17a1273b9541a0486180ca6f2cbae622f9a60b849d017711b51b416b14a44ed1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fd17727bc71dbbe517b6424135e1205035027a00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891485"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008985"
 ---
 # <a name="protectkeywithnumericalpassword-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithNumericalPassword de la \_ classe Win32 EncryptableVolume
 
@@ -80,7 +80,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 

@@ -6,12 +6,12 @@ keywords:
 - conseils sur le portage 64-bit Windows programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 199f522bebf0d6d5552aa81d99aab12f77685dea35eb329b9e7d11d46b4f1500
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7607685f4b4ba04b86da276c38090a48ce0fead
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118561534"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008309"
 ---
 # <a name="additional-considerations"></a>Considérations supplémentaires
 

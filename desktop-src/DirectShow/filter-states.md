@@ -4,12 +4,12 @@ ms.assetid: 97418307-eb50-4c8e-b03b-a2cd08139bdc
 title: États de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 487b2f5e71cfebd8a9c7282679aa39b2264f0460dd72ad23e1b2b26926e0c979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d61f66e1446d97d289f7e489f116f747f339d9a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015737"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007563"
 ---
 # <a name="filter-states"></a>États de filtre
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9fc5eb55a306dad8b9d5de6d6501b615a9156c026c8e0fc12664795a23ab21
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41555bd5910ddb3151468a458c5becbf247ea484
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118574801"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008407"
 ---
 # <a name="mediaismemberof-method"></a>Méthode Media. isMemberOf
 
@@ -49,7 +49,7 @@ Objet **playlist** qui peut contenir l’élément multimédia.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne une **valeur booléenne**.
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cbbcb7b0acd372bbe71ee6d22f44a736948b145378f62f40820e3de53d77b875
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6da29146be7ed2f0c17d7311f79921b44cd0929e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118273198"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915064"
 ---
 # <a name="password-eaptype-element"></a>Élément Password (EapType)
 
@@ -37,11 +37,11 @@ L’élément **Password** est défini par l’élément [**EapType**](mschapv2u
 
 Si l’élément **Password (EapType)** n’est pas présent, le hachage de mot de passe est obtenu à partir de Winlogon. Cet élément est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Rôle | Version minimale du système d’exploitation prise en charge |
+| Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
 | Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

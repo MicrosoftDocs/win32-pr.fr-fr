@@ -4,12 +4,12 @@ ms.assetid: 6b082559-bcfa-4098-b072-27ee78092833
 title: Utilisation d’une action personnalisée pour lancer un fichier installé à la fin de l’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 108ae06dae331660fe5c4f1ff8740a5fdb7e76f5eab27794fafcd7a4495296ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e5c039d58830ce6a01f76a0946bced474e5091b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118141474"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009589"
 ---
 # <a name="using-a-custom-action-to-launch-an-installed-file-at-the-end-of-the-installation"></a>Utilisation d’une action personnalisée pour lancer un fichier installé à la fin de l’installation
 

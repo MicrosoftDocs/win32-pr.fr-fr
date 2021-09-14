@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4080acdc7ee338b76f80b97c81a952188fc74774254476771f9ff47e87f3fdff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6653e2ae0e2126941e3d8977a593300b86051800
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006489"
 ---
 # <a name="em_getcaretindex-message"></a>\_Message GETCARETINDEX em
 
@@ -35,11 +35,11 @@ Obtient l’index de base zéro de la position du signe insertion dans un contr�
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est une valeur d’index de base zéro de la position du signe insertion.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

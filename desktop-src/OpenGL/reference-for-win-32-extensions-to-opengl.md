@@ -7,12 +7,12 @@ keywords:
 - Référence WGL OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a33e935d465340453919cb5298d405e7555c9873f56904d31eebbdc9a3fc541a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 65758f97dbbe232c01bc71925b2b530fc3cae5dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118932924"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009296"
 ---
 # <a name="reference-for-windows-extensions-to-opengl"></a>référence pour les Extensions de Windows à OpenGL
 

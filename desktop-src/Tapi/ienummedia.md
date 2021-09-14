@@ -4,12 +4,12 @@ ms.assetid: 827f8866-2445-4b7c-88fe-eed19f48c93b
 title: Interface IEnumMedia (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e180e861e452d841153127f6476ed5d8f5924480877eac78c4634e86437189f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7127e7d1d751ee487ad5b86326602cfcfe5aae0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119660749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008759"
 ---
 # <a name="ienummedia-interface"></a>Interface IEnumMedia
 
@@ -31,10 +31,10 @@ L’interface **IEnumMedia** possède ces méthodes.
 
 | Méthode                            | Description                                                                                        |
 |:----------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**Répliqué**](ienummedia-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
+| [**Clone**](ienummedia-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
 | [**Suivant**](ienummedia-next.md)   | Obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.<br/>                 |
-| [**Initialisation**](ienummedia-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
-| [**Saut**](ienummedia-skip.md)   | Ignore le nombre spécifié d’éléments dans la séquence d’énumération.<br/>           |
+| [**Réinitialiser**](ienummedia-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
+| [**Ignorer**](ienummedia-skip.md)   | Ignore le nombre spécifié d’éléments dans la séquence d’énumération.<br/>           |
 
 
 

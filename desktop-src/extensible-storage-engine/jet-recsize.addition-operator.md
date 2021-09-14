@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c675e0b7fffc00f181bc56f314ddcbbdac56c9c910abbaa0f88f69ad321bce2b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c41fae92f6177bf0c39138ad33988a74c482e0ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917251"
 ---
 # <a name="jet_recsizeaddition-operator"></a>JET_RECSIZE. Opérateur d’addition
 
@@ -76,7 +76,7 @@ public static JET_RECSIZE operator +(
     
     Deuxième JET_RECSIZE.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [Microsoft.ISAM.esent.Interop.Vista.JET_RECSIZE](./jet-recsize-structure2.md)  
 JET_RECSIZE contenant le résultat de l’ajout de tailles à gauche et à droite.  

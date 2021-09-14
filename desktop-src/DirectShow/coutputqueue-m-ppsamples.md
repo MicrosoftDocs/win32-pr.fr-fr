@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d0b27a356727fc317eb1818ecd548d944e3c4b2ace9cc11e0834bf1cf551c9f0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3659c4a71cacb839caaa1b6ac89e46cd4e42a249
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120103149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006739"
 ---
 # <a name="coutputqueuem_ppsamples-member"></a>COutputQueue :: m \_ ppSamples, membre
 
@@ -40,7 +40,7 @@ IMediaSample **m_ppSamples;
 
 Le thread de travail extrait des exemples de la file d’attente et les place dans ce tableau. Il passe le tableau à la méthode [**IMemInputPin :: ReceiveMultiple**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivemultiple) . Si l’objet n’utilise pas de thread de travail, l’objet place des exemples directement dans ce tableau. La variable de membre de [**\_ liste COutputQueue :: m**](coutputqueue-m-list.md) contient la file d’attente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -3,7 +3,7 @@ title: Message EM_GETAUTOCORRECTPROC (RichEdit. h)
 description: Obtient un pointeur vers la fonction AutoCorrectProc définie par l’application.
 ms.assetid: 90821036-F27D-4AC3-9AB8-40A94486B938
 keywords:
-- EM_GETAUTOCORRECTPROC les contrôles de message Windows
+- EM_GETAUTOCORRECTPROC les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: dc4d730d15ca8631e6d663e3d4f971f115d5c268
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465574"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006502"
 ---
 # <a name="em_getautocorrectproc-message"></a>\_Message GETAUTOCORRECTPROC em
 
@@ -43,18 +43,18 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne un pointeur vers la fonction [*AutoCorrectProc*](/windows/desktop/api/Richedit/nc-richedit-autocorrectproc) définie par l’application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

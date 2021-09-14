@@ -4,12 +4,12 @@ ms.assetid: 3de6a35d-41e9-4fce-ab92-e970c7c07e55
 title: Codes d’état HTTP (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f145a2a7b5f7e807d1b393d9c4fd9b4f71c81052f0f023a04f72e139842637
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fcf4103cdc382bd5ab0d582fe99212083e2780ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117744570"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008349"
 ---
 # <a name="http-status-codes-winhttph"></a>Codes d’état HTTP (WinHTTP. h)
 

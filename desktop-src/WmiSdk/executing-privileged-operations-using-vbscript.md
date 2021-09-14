@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: eaf235bd1c9a5b0febb88d7ed587bfdf63f52c74cf5027273e447d7f3fb5cdd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13a7cf29aa444856e4da2fc9a73eeda0d8a3ccc2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118108954"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916952"
 ---
 # <a name="executing-privileged-operations-using-vbscript"></a>Exécution d’opérations privilégiées à l’aide de VBScript
 

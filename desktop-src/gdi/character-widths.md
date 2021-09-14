@@ -4,12 +4,12 @@ ms.assetid: 0c84f5f9-71cd-4077-bc99-f23a393c1c4d
 title: Largeurs de caractères
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 822ae01ea1ccd5a2a7ec118cb1b93211b1c2e5c0a215737a600d9450b8996117
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 950fbb7e6ad1e5f4ef12f2abd9e528ce3158a869
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117888098"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122309"
 ---
 # <a name="character-widths"></a>Largeurs de caractères
 

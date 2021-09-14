@@ -4,12 +4,12 @@ ms.assetid: 868218c4-3e1a-4da0-89fa-30a9848da0e8
 title: Vidage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e70f610a68b2ca81afff736b3e7402d80e5d5675e429d1715ebebf5b640a362
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 575f311020c2c7a567e544b80ba323a29051cc38
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118401743"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007560"
 ---
 # <a name="flushing"></a>Vidage
 

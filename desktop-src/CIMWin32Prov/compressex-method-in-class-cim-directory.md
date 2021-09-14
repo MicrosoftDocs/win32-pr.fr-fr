@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 760c1f99d5363e4b8928c9d76099d005148e53981ae00ce841e314236f47d2dc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8bebd729d87e012c3fce6dd2eb87b1c61ffa423a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119918649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917084"
 ---
 # <a name="compressex-method-of-the-cim_directory-class"></a>Méthode CompressEx de la \_ classe de répertoire CIM
 
@@ -70,7 +70,7 @@ Si la **valeur est true**, la méthode est également appliquée de manière ré
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -193,13 +193,13 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

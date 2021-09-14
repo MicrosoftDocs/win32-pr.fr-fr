@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2083dd2ef3d6edd40148a11b6a3d034d4199b2507855b53c164de3c34ba0a93f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 371fe95c3a7152767c45849191658c4bcb661750
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119503729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126918707"
 ---
 # <a name="swbemobjectpathsetasclass-property"></a>SWbemObjectPath. SetAsClass, propriété
 
@@ -53,7 +53,7 @@ Erreur non spécifiée.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

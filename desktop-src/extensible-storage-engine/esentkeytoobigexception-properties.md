@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102124
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2d67e28d3a88f33e48a8b78fef3f0b55b9fc875037bb46c117b1870b89836ac2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0f253db6134c9090c7c2acd76e958f5fa6fe03d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118777201"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851236"
 ---
 # <a name="esentkeytoobigexception-properties"></a>Propriétés EsentKeyTooBigException
 
@@ -69,7 +69,7 @@ Le type [EsentKeyTooBigException](./esentkeytoobigexception-class.md) expose les
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
-<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">StackTrace</a></td>
+<td><a href="/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Trace</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

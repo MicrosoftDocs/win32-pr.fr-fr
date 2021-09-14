@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b55736b2efb8fd4cfbca40710caa930c200c84e1ceec9c8c4f7439468c1add1f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8daf3c33b43bda95bb1d54145e9e5aebc6f89c2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118654069"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007578"
 ---
 # <a name="dbglocktrace-function"></a>DbgLockTrace fonction)
 
@@ -61,7 +61,7 @@ Valeur spécifiant si la journalisation est activée. Utilisez **true** pour act
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette fonction pour tracer une section critique spécifique. Par défaut, la journalisation du débogage des sections critiques est désactivée, en raison du grand nombre de sections critiques.
 

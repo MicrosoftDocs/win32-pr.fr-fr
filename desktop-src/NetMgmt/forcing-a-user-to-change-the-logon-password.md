@@ -5,15 +5,15 @@ ms.assetid: 828f5d72-3e19-4b65-a1db-ac702fd4cfde
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: c9f3d0910f77c2553a55a53f1393aae5c9535982
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840202"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009413"
 ---
 # <a name="forcing-a-user-to-change-the-logon-password"></a>Forcer un utilisateur à modifier le mot de passe d’ouverture de session
 
-Cet exemple de code montre comment forcer un utilisateur à modifier le mot de passe d’ouverture de session lors de la prochaine ouverture de session à l’aide des fonctions [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) et [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) et de la structure [**User \_ info \_ 3**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_3) . Notez qu’à compter de Windows XP, il est recommandé d’utiliser à la place la structure [**User \_ info \_ 4**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_4) .
+Cet exemple de code montre comment forcer un utilisateur à modifier le mot de passe d’ouverture de session lors de la prochaine ouverture de session à l’aide des fonctions [**NetUserGetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusergetinfo) et [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) et de la structure [**User \_ info \_ 3**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_3) . notez qu’à partir de Windows XP, il est recommandé d’utiliser à la place la structure [**USER \_ INFO \_ 4**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_4) .
 
 Affectez une valeur différente de zéro au membre **\_ \_ expiration du mot de passe usri3** de la structure **User \_ info \_ 3** à l’aide du fragment de code suivant :
 
@@ -74,9 +74,9 @@ void main( void )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

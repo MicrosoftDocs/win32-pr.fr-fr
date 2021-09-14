@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Nmapi.dll
 ms.openlocfilehash: 498892fc2cc5ada2e177b8fb3f70f40a1ef10dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121393"
 ---
 # <a name="getprotocolfromtable-function"></a>GetProtocolFromTable fonction)
 
@@ -62,7 +62,7 @@ S’il est disponible dans la table de remise, données d’instance pour le pro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est un handle de protocole.
 
@@ -76,7 +76,7 @@ Lors de l’implémentation de la fonction d’exportation [RecognizeFrame](reco
 
 Les données d’instance peuvent être des données qui sont inférieures ou égales à un \_ ptr DWORD en longueur, ou un pointeur vers des données, telles que des données de trame brutes, qui n’a pas besoin d’être alloué ou libéré par l’analyseur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

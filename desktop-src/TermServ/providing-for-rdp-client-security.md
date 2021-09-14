@@ -5,12 +5,12 @@ ms.assetid: fd20ec03-a5e4-4c3e-9bf5-5fa841e869c3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfdcfbc2b26363ff7f13ed15b3486249aab804cd1bde418f60d71db918f25567
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15bbb143abd3ec09a7f1aeff67a7b6dfa224b56b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117940613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008605"
 ---
 # <a name="providing-for-rdp-client-security"></a>Fournir la sécurité du client RDP
 
