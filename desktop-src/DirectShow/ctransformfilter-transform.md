@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a03b32006aecfb79f90a5f5aefeff542c53341b205031352974341926ed8eb26
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8498a9a6ce266e0646dbbdcb4f322c093d6e0cc3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119907499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195516"
 ---
 # <a name="ctransformfiltertransform-method"></a>CTransformFilter. Transform, méthode
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La classe de base retourne E \_ inattendue.
 
@@ -74,7 +74,7 @@ La classe dérivée doit retourner une valeur **HRESULT** indiquant la réussite
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Substituez cette méthode pour produire des données de sortie. Lit les données d’entrée de l’exemple spécifié par le paramètre *pin* et écrit les nouvelles données dans l’exemple spécifié par le paramètre *moue* .
 
@@ -82,7 +82,7 @@ Avant que le filtre appelle cette méthode, il copie les propriétés de l’exe
 
 Si le filtre ne doit pas livrer cet exemple (par exemple, pour prendre en charge le contrôle de qualité), la méthode doit retourner S \_ false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

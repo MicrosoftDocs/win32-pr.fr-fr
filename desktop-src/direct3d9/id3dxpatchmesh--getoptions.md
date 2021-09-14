@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7cabcf82dbc7d5e783e9b71cf8dd05cc1ec16f18bbaa308629d6ac388dee77bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a1e492382e96cae23379adab66c3700fb3c0b24
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120776"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998528"
 ---
 # <a name="id3dxpatchmeshgetoptions-method"></a>ID3DXPatchMesh :: GetOptions, méthode
 
@@ -38,17 +38,17 @@ DWORD GetOptions();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
 Type de correctif.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur les types de correctifs, consultez [**D3DXPATCHMESHTYPE**](./d3dxpatchmeshtype.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

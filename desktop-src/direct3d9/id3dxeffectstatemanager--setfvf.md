@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 828f6873ed9bf48de6a02d4195fdd1fa9d2bc39f99da1f8906fd8a2c53075cf5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a68ab07e4f486a8df80ecde5844739a6a010c2dc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120026409"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998610"
 ---
 # <a name="id3dxeffectstatemanagersetfvf-method"></a>ID3DXEffectStateManager :: SetFVF, méthode
 
@@ -49,7 +49,7 @@ Constante du prix de la Commission, qui détermine comment interpréter les donn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -58,7 +58,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   L’effet échouera pendant [**ID3DXEffect :: BeginPass**](id3dxeffect--beginpass.md).
 -   L’appel d’état d’effet dynamique (par exemple, [**IDirect3DDevice9 :: SetFVF**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setfvf)) échouera.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

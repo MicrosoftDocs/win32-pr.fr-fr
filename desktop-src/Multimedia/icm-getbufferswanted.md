@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 06de8cc3bcfe463d0318651c8e2d51b269504769
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364215"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195275"
 ---
 # <a name="icm_getbufferswanted-message"></a>ICM \_ Message GETBUFFERSWANTED
 
@@ -49,7 +49,7 @@ Adresse qui contient le nombre d’échantillons dont le pilote a besoin pour re
 
 Retourne ICERR \_ OK en cas de réussite ou ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est utilisé par les pilotes qui utilisent le matériel pour afficher les données et qui souhaitent garantir un délai minimal en raison de l’arrivée d’une mémoire tampon. Par exemple, si un pilote contrôle une carte de décompression vidéo qui peut contenir 10 images vidéo, il peut renvoyer 10 pour ce message. Cela indique aux applications d’essayer de conserver 10 frames à l’avance du frame dont il a besoin.
 

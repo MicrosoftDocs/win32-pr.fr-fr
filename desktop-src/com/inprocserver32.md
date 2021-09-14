@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0daae9d495ad588e0dc710b63fe7d7ae9f48c11d
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363312"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998894"
 ---
 # <a name="inprocserver32"></a>InprocServer32
 
@@ -27,7 +27,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
          ThreadingModel = value
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **ThreadingModel** est une valeur de **reg \_ SZ** qui spécifie le modèle de thread. Les valeurs possibles sont indiquées dans le tableau suivant.
 

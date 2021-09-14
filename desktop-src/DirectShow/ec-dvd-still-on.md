@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 801db7f1e14002aa6333b18349e259e40928a0cd45958c0e1aa618d1d1143be8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0e2f9fcfecc44ee6d0769e00805c0aee512b2e7c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119303329"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195432"
 ---
 # <a name="ec_dvd_still_on"></a>\_DVD EC \_ toujours \_ allumé
 
@@ -42,13 +42,13 @@ Valeur **DWORD** indiquant le nombre de secondes restantes de la dernière opér
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les combinaisons de boutons et sont toujours possibles (les boutons activés sont toujours activés, les boutons activés sont toujours désactivés, le bouton désactivé est toujours activé et le bouton désactivé est désactivé).
 
 Cet événement est déclenché dans tous les domaines.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

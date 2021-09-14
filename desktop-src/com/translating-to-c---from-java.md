@@ -4,12 +4,12 @@ description: Conversion en C++ à partir de Java
 ms.assetid: 6eab4eec-4b9b-4738-b101-30c173a6fea1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e19ec590da2567876a94529aba2d4cf28e0e31c17b78a8f0e490b43b75356de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8565a7787f8272331cfb3d24af8025d1507bbf2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119129611"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221652"
 ---
 # <a name="translating-to-c-from-java"></a>Conversion en C++ à partir de Java
 

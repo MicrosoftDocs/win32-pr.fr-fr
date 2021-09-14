@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
 ms.openlocfilehash: 968ff7f64a9a98a711210a4cfae64006c5a8f965
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481025"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222129"
 ---
 # <a name="encrypt-method-of-the-win32_encryptablevolume-class"></a>Méthode Encrypt de la \_ classe EncryptableVolume Win32
 
@@ -115,7 +115,7 @@ Cette méthode est retournée immédiatement. Si le volume est déjà entièreme
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 lorsque vous utilisez cette méthode sans le second paramètre facultatif (selon la définition de la Windows 7 et Windows Vista Enterprise), la méthode lance toujours la conversion en mode complet afin de conserver un comportement à compatibilité descendante. de cette façon, l’attente de sécurité des applications et des scripts existants ne sera pas interrompue par l’ajout du deuxième paramètre facultatif dans Windows 8 et Windows Server 2012.
 
@@ -125,7 +125,7 @@ Une fois que le volume est entièrement chiffré et que des protecteurs de clés
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

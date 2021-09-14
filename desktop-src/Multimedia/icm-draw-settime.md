@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 5ce1e37709477ba6080219e5225b3fde02dfed75
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195312"
 ---
 # <a name="icm_draw_settime-message"></a>ICM \_ DESSINER un \_ message setTime
 
@@ -49,7 +49,7 @@ Exemple de numéro de l’image à afficher.
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En général, le pilote compare la valeur spécifiée avec le numéro de frame associé à l’heure de son horloge interne et tente de synchroniser les deux si la différence est importante.
 

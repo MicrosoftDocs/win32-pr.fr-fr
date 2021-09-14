@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ea3964b623c93d452ab7bf9a32c6b9d9b1573fec
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195307"
 ---
 # <a name="icm_draw_stop_play-message"></a>ICM \_ DESSINER le message d’arrêt de la \_ \_ lecture
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez ce message lorsque l’opération de lecture est terminée. utilisez le [**ICM \_ dessiner \_**](icm-draw-stop.md) le message d’arrêt pour terminer le minutage.
 

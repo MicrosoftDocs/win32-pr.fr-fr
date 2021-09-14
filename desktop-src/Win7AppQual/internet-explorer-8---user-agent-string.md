@@ -4,12 +4,12 @@ ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8-chaîne de l’agent utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8222dc199d8023b34d092b5b68fca90a93d1a00a6e41618ee3c8ee3897ef535
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d94d60930466b7243ad6ecc2b2d8d9c799e0e3da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221892"
 ---
 # <a name="internet-explorer-8---user-agent-string"></a>Internet Explorer 8-chaîne de l’agent utilisateur
 

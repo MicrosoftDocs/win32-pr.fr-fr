@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 36a1dfcf93e44d8d94a0bdf74042ce1d2d2907bcf1f7085b452f56254196dd24
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6bd06eb99cae60960db64a6f32df5e4c932b362f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195420"
 ---
 # <a name="ec_dvd_vobu_timestamp"></a>\_ \_ Horodatage VOBU de DVD EC \_
 
@@ -44,7 +44,7 @@ Contient le **DWORD** de poids fort de l’horodatage.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cet événement est désactivé par défaut. Pour activer cet événement, appelez [**IDvdControl2 :: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) et affectez à l’option **DVD \_ EnableLoggingEvents** la **valeur true**.
 
@@ -59,7 +59,7 @@ li.HighPart = DWORD( lParam2 );
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

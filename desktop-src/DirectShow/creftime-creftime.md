@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4f967d940fb8a117c58e85e951eeaa355d8d3dcc6cc97df432d7ce245744ca83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71b0ab9ae84c2995062979f6c2821903189b56cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120054749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195580"
 ---
 # <a name="creftimecreftime-constructor-reftimeh---no-parameters"></a>Constructeur CRefTime. CRefTime (reftime. h)-aucun paramètre
 
@@ -40,11 +40,11 @@ CRefTime();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur par défaut de l’heure de référence est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

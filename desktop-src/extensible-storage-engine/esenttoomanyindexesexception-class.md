@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e4a1daa90a649f15cbd45471afba5a223e4b821dd42d3e736a441a3be059c152
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a1d895f61b3ad1f25b8992b43da1fd14f29f22a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117896853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221220"
 ---
 # <a name="esenttoomanyindexesexception-class"></a>EsentTooManyIndexesException, classe
 
@@ -70,7 +70,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentTooManyIndexesException](./esenttoomanyindexesexception-members.md)
 

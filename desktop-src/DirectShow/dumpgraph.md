@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ac09cc3381ab1b5f85f523d1c822768b3e2f87b6bcf08f1877680349072c216
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 55c3adf793982b7b00ab44e26e7c34e08a1ac42b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195508"
 ---
 # <a name="dumpgraph-function"></a>DumpGraph fonction)
 
@@ -61,7 +61,7 @@ Niveau de journalisation. La fonction génère un \_ message de trace du journal
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

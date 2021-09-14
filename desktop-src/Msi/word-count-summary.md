@@ -4,12 +4,12 @@ ms.assetid: 1eeece25-4f24-4efe-879d-66ebbb6a9391
 title: Propriété de résumé du nombre de mots
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb167c50db0894ea658bb93b97bfb9f49362d32cca8976a2ea3ec590b716450
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2c4200cb946f6948770d0c900c2df651b8fbff11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145232"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195340"
 ---
 # <a name="word-count-summary-property"></a>Propriété de résumé du nombre de mots
 
@@ -70,7 +70,7 @@ dans le flux d’informations de synthèse d’un package correctif, la proprié
 
 Cette propriété de résumé est obligatoire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

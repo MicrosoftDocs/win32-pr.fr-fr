@@ -4,18 +4,18 @@ ms.assetid: 037202b6-41e4-4631-abbe-11291a5e5000
 title: Propriété MsiWin32AssemblySupport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e56abe5b8e0e972a7d720cd61bbeca40c896bf705427343f29b155e34278a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 99ab0c0e11d9e8a4b98503268c3a2c7ef67341c7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943822"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195383"
 ---
 # <a name="msiwin32assemblysupport-property"></a>Propriété MsiWin32AssemblySupport
 
 La propriété **MsiWin32AssemblySupport** indique si l’ordinateur prend en charge les assemblys Win32. Sur les systèmes qui prennent en charge les assemblys Win32, le programme d’installation définit la valeur de **MsiWin32AssemblySupport** sur la version de fichier de sxs.dll. Le programme d’installation ne définit pas cette propriété si le système d’exploitation ne prend pas en charge les assemblys Win32. Pour plus d’informations, consultez [assemblys](assemblies.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

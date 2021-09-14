@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cb9e9a36f00c4f9bd592945182f563c1e59b623179bf71cde4567f0200c54167
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0e45ab69b3a91461c947ce9c8a63885bb5ab0a8e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119951419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998573"
 ---
 # <a name="id3dxkeyframedanimationset-interface"></a>Interface ID3DXKeyframedAnimationSet
 
@@ -68,7 +68,7 @@ L’interface **ID3DXKeyframedAnimationSet** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Créer une animation avec image clé définie avec [**D3DXCreateKeyframedAnimationSet**](d3dxcreatekeyframedanimationset.md).
 
@@ -82,7 +82,7 @@ typedef interface ID3DXKeyframedAnimationSet *LPD3DXKEYFRAMEDANIMATIONSET;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

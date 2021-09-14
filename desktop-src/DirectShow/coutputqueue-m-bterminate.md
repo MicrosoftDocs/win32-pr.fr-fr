@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b4f85cdc52ed96b2a370ba5e4e02a5981e05fbcf540492e3de91a74363600c70
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: aaa51bad8e1c5c133497666b6272dee0b590e43e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119634209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195591"
 ---
 # <a name="coutputqueuem_bterminate-member"></a>COutputQueue :: m \_ bTerminate, membre
 
@@ -36,7 +36,7 @@ BOOL m_bTerminate;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

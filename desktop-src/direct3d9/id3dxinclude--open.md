@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e50b4774f6ed62b1e8a6e6cb85b5732efd878302563958e25e6b9017f9acc58d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 313b3f4845f9a46f758a40b6b315cc5b5eeecb29
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987389"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998578"
 ---
 # <a name="id3dxincludeopen-method"></a>ID3DXInclude :: Open, méthode
 
@@ -89,7 +89,7 @@ Nombre d’octets retournés dans ppData.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -99,7 +99,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   Le nuanceur d’assembly échouera à l’une des \* \* \* fonctions D3DXAssembleShader.
 -   L’effet échouera à l’une des \* \* \* fonctions D3DXCreateEffect ou D3DXCreateEffectCompiler \* \* \* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

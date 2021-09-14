@@ -5,15 +5,15 @@ ms.assetid: 51d4db4a-ad88-4627-8140-2f7906945752
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: a285a89ca659907c37f92b7d00f3e3e04d0acf51
-ms.sourcegitcommit: 307b14e9847ced354a52a1ac12d7f659722d99bb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "103940743"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221745"
 ---
 # <a name="the-com-library"></a>Bibliothèque COM
 
-Tout processus qui utilise COM doit à la fois initialiser et désinitialiser la bibliothèque COM. Outre le fait qu’il s’agit d’une spécification, COM implémente également certains services importants dans cette bibliothèque. Fourni sous la forme d’un ensemble de dll et de fichiers exe (principalement Ole32.dll et Rpcss.exe) dans Microsoft Windows, la bibliothèque COM comprend les éléments suivants :
+Tout processus qui utilise COM doit à la fois initialiser et désinitialiser la bibliothèque COM. Outre le fait qu’il s’agit d’une spécification, COM implémente également certains services importants dans cette bibliothèque. fourni sous la forme d’un ensemble de dll et de fichiers exe (principalement Ole32.dll et Rpcss.exe) dans Microsoft Windows, la bibliothèque COM comprend les éléments suivants :
 
 -   Un petit nombre de fonctions fondamentales qui facilitent la création d’applications COM, client et serveur. Pour les clients, COM fournit des fonctions de base pour la création d’objets. Pour les serveurs, COM fournit les moyens d’exposer leurs objets.
 
@@ -40,9 +40,9 @@ Les serveurs in-process peuvent supposer que le processus dans lequel ils sont c
 [COM (Component Object Model)](the-component-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

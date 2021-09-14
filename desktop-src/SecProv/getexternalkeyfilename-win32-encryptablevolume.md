@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 20169325377701ce9edf627246bc5bf848c8489e59fdea3a602af3645aac0b14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf8de41befa7414c9970ac451d34ee7c5f40dd84
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119668019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127222121"
 ---
 # <a name="getexternalkeyfilename-method-of-the-win32_encryptablevolume-class"></a>Méthode GetExternalKeyFileName de la \_ classe Win32 EncryptableVolume
 
@@ -60,7 +60,7 @@ Chaîne qui spécifie le nom avec l’extension, mais sans le chemin d’accès 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -79,11 +79,11 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

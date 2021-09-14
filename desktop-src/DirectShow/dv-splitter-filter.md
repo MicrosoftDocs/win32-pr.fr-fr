@@ -4,12 +4,12 @@ ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: Filtre de séparateur DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 323593fd5b55fdbd65cb05e83d1097d0d764c94c30141125dcc1cc6fc5ed60d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 74ca8e856f1a49ff22ee05f7dc0ae341fad6aa91
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820671"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195503"
 ---
 # <a name="dv-splitter-filter"></a>Filtre de séparateur DV
 
@@ -34,7 +34,7 @@ Ce filtre fractionne un flux vidéo (DV) entrelacé en son composant flux vidéo
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les images DV contiennent des données audio et vidéo dans le même cadre. Le filtre de séparateur DV extrait les données audio et les remet sous la forme d’un ou de deux flux audio, à partir des broches de sortie audio. La trame DV d’origine est fournie à partir de la broche de sortie vidéo, sous la forme d’une image vidéo. Le type de média sur l’image vidéo est modifié de MEDIATYPE \_ entrelacé à MediaType \_ Video, mais les données ne sont pas modifiées. Le type de média est modifié pour signaler que les données audio dans le frame doivent être ignorées. Le séparateur DV ne définit pas un temps de support sur les échantillons de sortie. Si vous écrivez un filtre en aval qui requiert les temps de support, vous pouvez dériver les heures du nombre de frames.
 

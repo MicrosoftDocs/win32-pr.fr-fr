@@ -4,12 +4,12 @@ description: La structure STGMEDIUM
 ms.assetid: ff1e1128-d228-45a6-a19d-2875b6c4e003
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da0adc98b5d774754bd2cbbccb415092d6498684a60189d6346afac82bd270a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 86faf52ab93bab39b8413ea2eb6381da24b643b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221676"
 ---
 # <a name="the-stgmedium-structure"></a>La structure STGMEDIUM
 
