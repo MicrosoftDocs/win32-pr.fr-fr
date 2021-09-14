@@ -22,12 +22,12 @@ keywords:
 - verrous de document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89af01edd439dbac23e4dee4b5289101a9bd92ca8180b66b460096b797d32b15
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1234f71fa799cf911ff7ede89915068f69417a00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117950919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008807"
 ---
 # <a name="text-stores"></a>Magasins de texte
 

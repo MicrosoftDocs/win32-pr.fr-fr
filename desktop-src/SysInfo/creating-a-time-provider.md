@@ -4,12 +4,12 @@ ms.assetid: 04f523d7-7e99-4bf5-941f-ae67f4b9df0a
 title: Création d’un fournisseur de temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf58766bf0ed7339bf8c9bfd7abc7434ddc43165b7cbdd77bcfd5420947e743d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93ac5a12e19651d88c3328ac72280c486a54c4d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118885762"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008894"
 ---
 # <a name="creating-a-time-provider"></a>Création d’un fournisseur de temps
 

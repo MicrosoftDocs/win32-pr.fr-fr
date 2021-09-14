@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: df3eb4c515963e13d2a7919c58a6d55ca4b2a7600c429a33516093215b5ac0eb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 517170e9d6580f69b59f71e0994351ebe0484ddc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119869009"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008591"
 ---
 # <a name="tsmf_support_nodedata_out-structure"></a>TSMF \_ prise en charge de la \_ \_ structure NODEDATA out
 
@@ -70,7 +70,7 @@ Non pris en charge
 1
 </dt> <dd>
 
-Pris en charge
+Prise en charge
 
 </dd> </dl>
 

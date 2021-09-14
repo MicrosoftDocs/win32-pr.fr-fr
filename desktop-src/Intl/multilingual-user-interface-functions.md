@@ -4,12 +4,12 @@ ms.assetid: 918d1f04-78fe-4b60-bee7-08d2f131437e
 title: interface utilisateur multilingue Mission
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 507118ce04895c9b13f5c9d71fae69717a38e2d74186159fb2efcef7f45a0c3e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f082115b0b12bdf6d26923ed8fc941b89887723
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007347"
 ---
 # <a name="multilingual-user-interface-functions"></a>interface utilisateur multilingue Mission
 

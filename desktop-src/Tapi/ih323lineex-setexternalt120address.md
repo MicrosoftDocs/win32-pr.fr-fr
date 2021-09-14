@@ -4,12 +4,12 @@ ms.assetid: 094b43b9-eb15-468a-9986-86313490e1c3
 title: 'IH323LineEx :: SetExternalT120Address, méthode (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8889887c396c427c28ac2906206b3e3cbbcb102daa937720b6b879472b47bbdc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 09756aaf77ba36497b3059f7e93829d7d6a57b42
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119992089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008749"
 ---
 # <a name="ih323lineexsetexternalt120address-method"></a>IH323LineEx :: SetExternalT120Address, méthode
 
@@ -55,7 +55,7 @@ HRESULT SetExternalT120Address(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode peut retourner l’une de ces valeurs.
 

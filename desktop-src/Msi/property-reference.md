@@ -5,11 +5,11 @@ title: Référence de propriété
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e38f952632609090c69b85786c6aef64243d420b
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481565"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009744"
 ---
 # <a name="property-reference"></a>Référence de propriété
 
@@ -97,7 +97,7 @@ La liste suivante fournit des liens vers des informations supplémentaires sur d
 | [**INITIAL**](reboot.md)<br/>                                                     | Force ou supprime un redémarrage.<br/>                                                                                                                                                                                                                                                                                                                                                    |
 | [**REBOOTPROMPT**](rebootprompt.md)<br/>                                         | Supprime l’affichage des invites pour les redémarrages de l’utilisateur. Tous les redémarrages nécessaires se produisent automatiquement.<br/>                                                                                                                                                                                                                                                                     |
 | [**ROOTDRIVE**](rootdrive.md)<br/>                                               | Lecteur par défaut pour une installation.<br/>                                                                                                                                                                                                                                                                                                                                                 |
-| [**SEQUENCE**](sequence.md)<br/>                                                 | Table qui a le schéma de la table de séquences.<br/>                                                                                                                                                                                                                                                                                                                                        |
+| [**SÉQUENCE**](sequence.md)<br/>                                                 | Table qui a le schéma de la table de séquences.<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [**SHORTFILENAMES**](shortfilenames.md)<br/>                                     | Permet d’utiliser des noms de fichiers courts.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | [**TRANSFORMATIONS**](transforms.md)<br/>                                             | Liste des transformations à appliquer à une base de données.<br/>                                                                                                                                                                                                                                                                                                                                    |
 | [**TRANSFORMSATSOURCE**](transformsatsource.md)<br/>                             | Informe le programme d’installation que les transformations d’un produit résident à la source.<br/>                                                                                                                                                                                                                                                                                                      |
@@ -119,7 +119,7 @@ Les propriétés de [**Date**](date.md) et d' [**heure**](time.md) sont des prop
 | Propriété                        | Description                  |
 |---------------------------------|------------------------------|
 | [**Date**](date.md)<br/> | Date actuelle.<br/> |
-| [**Temps**](time.md)<br/> | L’heure actuelle.<br/> |
+| [**Simultanément**](time.md)<br/> | L’heure actuelle.<br/> |
 
 
 
@@ -149,7 +149,7 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**MSIDISABLERMRESTART**](msidisablermrestart.md)<br/>           | Spécifie la manière dont les applications ou services qui utilisent actuellement des fichiers affectés par une mise à jour doivent être arrêtés et redémarrés pour permettre l’installation de la mise à jour.<br/> |
 | [**MSIRMSHUTDOWN**](msirmshutdown.md)<br/>                       | Spécifie la manière dont les applications ou services qui utilisent actuellement des fichiers affectés par une mise à jour doivent être arrêtés pour permettre l’installation de la mise à jour.<br/>               |
 | [**MSIPATCHREMOVE**](msipatchremove.md)<br/>                     | La définition de cette propriété supprime les correctifs.<br/>                                                                                                                                 |
-| [**CORRECTIF**](patch.md)<br/>                                       | La définition de cette propriété applique un correctif.<br/>                                                                                                                                 |
+| [**PATCH**](patch.md)<br/>                                       | La définition de cette propriété applique un correctif.<br/>                                                                                                                                 |
 | [**INSTALLÉ**](reinstall.md)<br/>                               | Liste des fonctionnalités à réinstaller.<br/>                                                                                                                                    |
 | [**REINSTALLMODE**](reinstallmode.md)<br/>                       | Chaîne qui contient des lettres qui spécifient le type de réinstallation à effectuer.<br/>                                                                                          |
 | [**Installez**](remove.md)<br/>                                     | Liste des fonctionnalités à supprimer.<br/>                                                                                                                                        |
@@ -215,7 +215,7 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**PrimaryVolumeSpaceRequired**](primaryvolumespacerequired.md)<br/>   | Le programme d’installation définit la valeur de cette propriété sur une chaîne qui représente le nombre total d’octets requis par toutes les fonctionnalités actuellement sélectionnées sur le volume référencé par la propriété [**PrimaryVolumePath**](primaryvolumepath.md) .<br/>                    |
 | [**ProductLanguage**](productlanguage.md)<br/>                         | Identificateur de langue numérique (LANGID) de la base de données. SOUHAITÉE<br/>                                                                                                                                                                                             |
 | [**ReplacedInUseFiles**](replacedinusefiles.md)<br/>                   | Défini si le programme d’installation s’installe sur un fichier en cours d’utilisation.<br/>                                                                                                                                                                                          |
-| [**SORT**](resume.md)<br/>                                           | L’installation a repris.<br/>                                                                                                                                                                                                                                         |
+| [**RESUME**](resume.md)<br/>                                           | L’installation a repris.<br/>                                                                                                                                                                                                                                         |
 | [**RollbackDisabled**](rollbackdisabled.md)<br/>                       | Le programme d’installation définit cette propriété lorsque la restauration est désactivée.<br/>                                                                                                                                                                                                   |
 | [**UILevel**](uilevel.md)<br/>                                         | Indique le niveau de l’interface utilisateur.<br/>                                                                                                                                                                                                                           |
 | [**UpdateStarted**](updatestarted.md)<br/>                             | Définir le moment où les modifications apportées au système ont commencé pour cette installation.<br/>                                                                                                                                                                                              |
@@ -365,7 +365,7 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**LogonUser**](logonuser.md)<br/>                     | Nom d’utilisateur de l’utilisateur actuellement connecté.<br/>                           |
 | [**MsiHiddenProperties**](msihiddenproperties.md)<br/> | Liste des propriétés qui ne peuvent pas être écrites dans le journal.<br/>       |
 | [**PIDKEY**](pidkey.md)<br/>                           | Partie de l’ID de produit que l’utilisateur entre.<br/>                                 |
-| [**ProductID**](productid.md)<br/>                     | ID de produit complet après une validation réussie.<br/>                               |
+| [**Réf**](productid.md)<br/>                     | ID de produit complet après une validation réussie.<br/>                               |
 | [**UserLanguageID**](userlanguageid.md)<br/>           | Identificateur de langue par défaut de l’utilisateur actuel.<br/>                             |
 | [**NOM d’utilisateur**](username.md)<br/>                       | Utilisateur qui effectue l’installation.<br/>                                     |
 | [**UserSID, propriété**](usersid.md)<br/>                | Défini par le programme d’installation en fonction de l’identificateur de sécurité (SID) de l’utilisateur.<br/> |

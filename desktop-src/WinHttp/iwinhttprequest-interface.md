@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 87a31ebe116726d70eb847fe54d563be57477f7133147226657c4c74135defa7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77ebc8947ad36d2dc9efba121cdd6da2d6de359b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118114398"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008345"
 ---
 # <a name="iwinhttprequest-interface"></a>Interface IWinHttpRequest
 
@@ -42,8 +42,8 @@ L’interface **IWinHttpRequest** possède ces méthodes.
 | [**Arrêté**](iwinhttprequest-abort.md)                                 | Abandonne une méthode d' [**envoi**](iwinhttprequest-send.md) [WinHTTP](about-winhttp.md) .<br/>                                           |
 | [**GetAllResponseHeaders**](iwinhttprequest-getallresponseheaders.md) | Récupère tous les en-têtes de réponse HTTP.<br/>                                                                                         |
 | [**GetResponseHeader**](iwinhttprequest-getresponseheader.md)         | Récupère les en-têtes de réponse HTTP.<br/>                                                                                         |
-| [**Afficher**](iwinhttprequest-open.md)                                   | Ouvre une connexion HTTP à une ressource HTTP.<br/>                                                                                |
-| [**Envoyer**](iwinhttprequest-send.md)                                   | Envoie une requête HTTP à un serveur HTTP.<br/>                                                                                     |
+| [**Ouvrir**](iwinhttprequest-open.md)                                   | Ouvre une connexion HTTP à une ressource HTTP.<br/>                                                                                |
+| [**Envoi**](iwinhttprequest-send.md)                                   | Envoie une requête HTTP à un serveur HTTP.<br/>                                                                                     |
 | [**SetAutoLogonPolicy**](iwinhttprequest-setautologonpolicy.md)       | Définit la [stratégie d’ouverture de session automatique](authentication-in-winhttp.md)actuelle.<br/>                             |
 | [**SetClientCertificate**](iwinhttprequest-setclientcertificate.md)   | Sélectionne un certificat client à envoyer à un serveur HTTPs (Secure Hypertext Transfer Protocol).<br/>                                 |
 | [**SetCredentials**](iwinhttprequest-setcredentials.md)               | Définit les informations d’identification à utiliser avec un serveur HTTP, un serveur proxy ou un serveur d’origine.<br/>                             |
@@ -75,7 +75,7 @@ L’interface **IWinHttpRequest** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface **IWinHttpRequest** définie dans HttpRequest. idl est implémentée par une classe avec l’ID **CLSID \_ WinHttpRequest**. Une application obtient cette interface en appelant [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) avec l’ID de classe **CLSID \_ WinHttpRequest** et l’ID d’interface **\_ IWinHttpRequest IID**.
 

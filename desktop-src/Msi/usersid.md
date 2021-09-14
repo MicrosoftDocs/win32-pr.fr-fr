@@ -4,12 +4,12 @@ ms.assetid: 94524636-c7f2-4de2-b35e-644c0c171193
 title: UserSID, propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b26185c886117b39355241151ffef6d8615bd5f8d10a7f50bd5937a301f7b398
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 49fab01b3f87c654a306bfe3633adf0973ed58aa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009603"
 ---
 # <a name="usersid-property"></a>UserSID, propriété
 

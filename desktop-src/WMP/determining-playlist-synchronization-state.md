@@ -17,12 +17,12 @@ keywords:
 - sélections de synchronisation, état de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a14af59f66d1b21eac00208ecc805f756761256e47a35042694bcd65e6f96558
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9758cfbb73c698a40d6d4f48e645e57750d8a332
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118579458"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008472"
 ---
 # <a name="determining-playlist-synchronization-state"></a>Détermination de l’état de synchronisation des sélections
 

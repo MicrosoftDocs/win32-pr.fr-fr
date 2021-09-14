@@ -36,12 +36,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7484a2f80c081d5a129acf8482facd5a4718c9a44e9804dc3a4df8b4a56177ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 077c8f78c61cc9b7dd090db26f58ca7e28c14abb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117941258"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008609"
 ---
 # <a name="imsrdpclientnonscriptable4redirectionwarningtype-property"></a>IMsRdpClientNonScriptable4 :: RedirectionWarningType, propriété
 
@@ -49,7 +49,7 @@ Contrôle la présence et l’apparence de la boîte de dialogue qui avertit l�
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -155,7 +155,7 @@ Retourne **S \_ OK** en cas de réussite.
 
 La valeur **RedirectionWarningTypeDefault**, qui est la valeur par défaut de cette propriété, n’exerce aucun contrôle sur la boîte de dialogue. Dans ce cas, la propriété de contrôle est [**ShowRedirectionWarningDialog**](imsrdpclientnonscriptable3-showredirectionwarningdialog.md) dans [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md).
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

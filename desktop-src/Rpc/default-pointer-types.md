@@ -4,12 +4,12 @@ description: Il n’est pas nécessaire que les pointeurs aient une description 
 ms.assetid: b90619c3-70b4-44f0-ba37-293595281031
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3020f17af6e24778c0fa5090009650f3c0832df528ba148e0a6a91928dd1dc14
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c565fe8019567fd1fe319d7b34287d9729bbe1d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118930976"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009150"
 ---
 # <a name="default-pointer-types"></a>Types de pointeurs par défaut
 

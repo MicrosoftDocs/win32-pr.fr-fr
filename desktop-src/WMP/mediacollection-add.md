@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b26d21f67496f345324efdca93dbf85e59947f1616e0c5620faead2807a6ed2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7731a42c8e1317355b129acb6921676c0a33f4a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119647909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008390"
 ---
 # <a name="mediacollectionadd-method"></a>MediaCollection. Add, méthode
 
@@ -49,11 +49,11 @@ retVal = MediaCollection.add(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un objet **multimédia** .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode charge un élément multimédia existant ou une sélection dans la bibliothèque, en fonction d’un chemin d’accès à un fichier. Cette méthode ne déplace pas ou ne modifie pas le fichier. Cette méthode échoue si le chemin d’accès local n’est pas valide, mais que la validité des fichiers multimédias numériques n’est pas vérifiée avant leur ajout à la bibliothèque.
 

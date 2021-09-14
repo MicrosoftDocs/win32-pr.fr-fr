@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 147d36cf66bb3a45add61b8639ccd3fada31856e72fce8c1f96d7a021e1d5e95
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 52152b5ddcc17abe5c698697e30f1f1a512ee4f8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023119"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009163"
 ---
 # <a name="binding-option-constants"></a>Constantes d’option de liaison
 
@@ -51,7 +51,7 @@ Les applications définissent les constantes d’option de liaison pour contrôl
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, la bibliothèque Runtime RPC exécute les appels sur un handle de liaison donné à partir de chaque thread d’une application dans un ordre strict d’envoi. Cela ne garantit pas que les appels de différents threads sur le même handle de liaison sont sérialisés. Les applications multithread doivent sérialiser leurs appels RPC. Si ce comportement est trop restrictif, vous pouvez activer le classement non-causalité. Dans ce cas, la bibliothèque Runtime RPC exécute les appels indépendamment. Il n’impose aucun ordre d’envoi.
 

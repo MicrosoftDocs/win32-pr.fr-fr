@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3b0d9873e2d327c424b2cd1ffda7112676f53399a63d2a9ca92dca1f50a02f62
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dc8bf7f307ab56609b5f90f6955a1f666854270
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007598"
 ---
 # <a name="cpullpinonerror-method"></a>CPullPin. OnError, méthode
 
@@ -49,11 +49,11 @@ Spécifie la valeur **HRESULT** retournée par la méthode qui a échoué.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet appelle cette méthode chaque fois qu’une erreur se produit et arrête le thread d’extraction de données. Le filtre peut utiliser cette méthode pour récupérer les erreurs de diffusion en continu de manière appropriée. dans la plupart des cas, l’erreur est retournée à partir du filtre en amont. le filtre en amont est donc chargé de les signaler au gestionnaire de Graph de filtre. Si l’erreur se produit à l’intérieur de la méthode [**CPullPin :: Receive**](cpullpin-receive.md) , votre filtre doit envoyer un événement [**EC \_ ERRORABORT**](ec-errorabort.md) . (Voir [**IMediaEventSink :: Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify).)
 

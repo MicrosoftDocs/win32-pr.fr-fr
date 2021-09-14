@@ -4,12 +4,12 @@ ms.assetid: 2dba2c46-0185-4ce6-a7cc-27cdd9b19b70
 title: Support 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9756a6eaf95097c881368bc3f150422f494dac04e503da5060f27355827a653c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e465529f35d8a9becb2583e9d5c00ac19a74d3be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007191"
 ---
 # <a name="64-bit-support"></a>Support 64 bits
 

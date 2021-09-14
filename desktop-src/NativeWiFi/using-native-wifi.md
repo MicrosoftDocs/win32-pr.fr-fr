@@ -5,11 +5,11 @@ title: Utilisation de la WiFi Native
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: d290f392df0dcb43696e4a274297b7c35030f5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529025"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009428"
 ---
 # <a name="using-native-wifi"></a>Utilisation de la WiFi Native
 
@@ -31,7 +31,7 @@ L' [utilisation de la rubrique Wi-Fi directe Functions](using-the-wi-fi-direct-a
 
 La rubrique [utilisation du réseau hébergé et du partage de connexion Internet](using-hosted-network-and-internet-connection-sharing.md) explique comment utiliser le réseau hébergé sans fil et le partage de connexion Internet (ICS).
 
-Le kit de développement logiciel (SDK) Microsoft Windows comprend deux exemples de code qui illustrent l’utilisation de l’API WiFi native. En outre, des exemples de profils sont disponibles qui illustrent l’utilisation de différents schémas de profil Wi-Fi natifs.
+le kit de développement logiciel (SDK) Microsoft Windows comprend deux exemples de code qui illustrent l’utilisation de l’API wi-fi Native. En outre, des exemples de profils sont disponibles qui illustrent l’utilisation de différents schémas de profil Wi-Fi natifs.
 
 Les rubriques suivantes contiennent des informations supplémentaires sur les exemples :
 
@@ -47,13 +47,13 @@ Les rubriques suivantes contiennent des informations supplémentaires sur les ex
 [WiFi natif](portal.md)
 </dt> <dt>
 
-[Résolution des problèmes de connexions sans fil Windows Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
+[résolution des problèmes Windows les connexions sans fil Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10))
 </dt> <dt>
 
 [Nouveautés du Wi-Fi natif](what-s-new-in-native-wifi.md)
 </dt> <dt>
 
-[Forum du kit de développement logiciel sans fil Windows Vista](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
+[Windows Forum du kit de développement logiciel sans fil Vista](https://social.msdn.microsoft.com/Forums/b6bbd8f0-a921-480f-9b4b-845336462bc0/welcome-to-the-windows-vista-wireless-sdk-forum)
 </dt> </dl>
 
  

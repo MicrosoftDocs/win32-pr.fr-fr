@@ -4,12 +4,12 @@ description: Déclaration de la classe CGuiPaper
 ms.assetid: b772d056-bf89-46a8-9462-21772cf96dfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d684618eea78247b94ed03223cfce45d2cc713f5507b1e290731d3451212b09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 269694b83804f3e85cd8654cd2a1be843396a2ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119663519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008920"
 ---
 # <a name="cguipaper-class-declaration"></a>Déclaration de la classe CGuiPaper
 

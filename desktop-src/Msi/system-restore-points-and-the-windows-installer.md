@@ -4,12 +4,12 @@ ms.assetid: 5fc345ff-8a47-4372-806f-64b8c271fd2d
 title: Points de restauration système et Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b8de832208f2bee301a1a159da058ba0f97cf2ecbd74892cb809e1186fbb65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7fe9bd4b8e22f5aee7e49d3e4c452378f402e7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118624091"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009635"
 ---
 # <a name="system-restore-points-and-the-windows-installer"></a>Points de restauration système et Windows Installer
 

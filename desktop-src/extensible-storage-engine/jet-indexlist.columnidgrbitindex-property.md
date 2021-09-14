@@ -27,11 +27,11 @@ api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: ae8d31661451a2bd1c7c5f942141c27ae552c578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867145"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007767"
 ---
 # <a name="jet_indexlistcolumnidgrbitindex-property"></a>JET_INDEXLIST. columnidgrbitIndex, propriété
 
@@ -40,7 +40,7 @@ Obtient le ColumnID de la colonne dans la table temporaire qui stocke les grbits
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` vb
 'Declaration
@@ -64,7 +64,7 @@ Type : [Microsoft.ISAM.esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_INDEXLIST](./jet-indexlist-class.md)
 

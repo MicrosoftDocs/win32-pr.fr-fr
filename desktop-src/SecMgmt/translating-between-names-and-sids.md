@@ -4,12 +4,12 @@ ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: Conversion entre les noms et les sid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5f67bd95e41a9813522d635e737f4fc528a61aebceeab205a2d40e1f44d7c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 417034a99331c09f20546f2f352bc762a86f02e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004807"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009005"
 ---
 # <a name="translating-between-names-and-sids"></a>Conversion entre les noms et les sid
 

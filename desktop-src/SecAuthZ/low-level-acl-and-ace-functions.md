@@ -4,12 +4,12 @@ ms.assetid: 9dcbbd4c-b3b3-43fd-b3a6-0637a53a455a
 title: Fonctions ACL et ACE de bas niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dab8c968c19e652f530abe25aaae11e47f36db1cd6ea7184120987c63a1bd9b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac63c17d84996afe9bdc43d0ccdd021db69ab488
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119670659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009105"
 ---
 # <a name="low-level-acl-and-ace-functions"></a>Fonctions ACL et ACE de bas niveau
 

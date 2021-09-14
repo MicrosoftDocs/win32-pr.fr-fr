@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 511ba00fdfe2cba27eff885c8ecdd9b209098c4b2e5dd20608e1bebdad2a00ef
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 618d37e9f0a46ab24d5ee43d17821e4a28eda177
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117780952"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009060"
 ---
 # <a name="microsoftinteropsecurityazrolesiazprincipallocator-interface"></a>Interface Microsoft. Interop. Security. AzRoles. IAzPrincipalLocator
 

@@ -4,12 +4,12 @@ ms.assetid: b529ba0b-1786-4925-88bd-1a8369fc368c
 title: Définition de la largeur et de l’alignement du stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2a6bd5be00fde0f27657cef558365d857775a5b55f9f108074884906916b8f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ca59895cc73480b054302091342c8f8f4f410b34
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117885012"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007705"
 ---
 # <a name="setting-pen-width-and-alignment"></a>Définition de la largeur et de l’alignement du stylet
 

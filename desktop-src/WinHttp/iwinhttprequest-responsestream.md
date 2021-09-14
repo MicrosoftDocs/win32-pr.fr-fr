@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: f29fad2ccfcac5cbca1c6ef13e0aeef5bdd0f4764e81dd14cabdfa58fd30fbde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec9f497e687c52735784a5e3edad01905ac7a6a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008337"
 ---
 # <a name="iwinhttprequestresponsestream-property"></a>IWinHttpRequest :: ResponseStream, propriété
 
@@ -57,7 +57,7 @@ La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur
 
 Il sera **E \_ en attente** si l’opération d' [**envoi**](iwinhttprequest-send.md) précédente n’est pas terminée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Appelez [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur le pointeur retourné pour obtenir un pointeur vers une interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) . Cette propriété retourne les données de réponse sous la forme d’un **IStream**. Cette propriété ne peut être appelée qu’une fois que la méthode [**Send**](iwinhttprequest-send.md) a été appelée.
 

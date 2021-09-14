@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, à l’aide de la méthode IADs GetEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e656bd6a48830feb725e927f08be1d573e7b0232cf02c16ee87bd7d6a5b2f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b3a909b33664ad805b0bf483ee9f0c2b40316ec8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118690148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007055"
 ---
 # <a name="the-getex-method"></a>Méthode GetEx
 

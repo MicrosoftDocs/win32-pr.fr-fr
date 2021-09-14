@@ -4,12 +4,12 @@ ms.assetid: 83262f2b-a335-4bbd-b2e3-6c7744b3ee50
 title: Appels de fonction pour les applications Winsock IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 241db1f7e07264fe4f0c776834d17c48cff4780b06e6a42816d36a50fa22cef7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a56fe5087e17a9a4eb1337ac803b8500b1fe9c27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051667"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008279"
 ---
 # <a name="function-calls-for-ipv6-winsock-applications"></a>Appels de fonction pour les applications Winsock IPv6
 

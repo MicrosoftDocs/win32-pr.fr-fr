@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 222f92a57ba9fbcd9971a5536be5f31078e2e09373fb1d168a7074911b027d79
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 613dca43c32322cd5e7de2b2b04605789009cbf6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120123448"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008424"
 ---
 # <a name="mediagetattributecountbytype-method"></a>Méthode Media. getAttributeCountByType
 
@@ -57,11 +57,11 @@ retVal = Media.getAttributeCountByType(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un **nombre** (**long**) contenant le nombre d’attributs.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode est utilisée pour déterminer le nombre d’attributs correspondant à un nom d’attribut particulier pour un objet **multimédia** donné. Les numéros d’index peuvent ensuite être passés à la méthode **getItemInfoByType** . Cela est utile, par exemple, lorsqu’un élément multimédia a été catégorisé sous plusieurs genres.
 

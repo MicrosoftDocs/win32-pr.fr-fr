@@ -4,12 +4,12 @@ ms.assetid: 173bd2cf-00a0-41d7-881a-c8c54f9887cc
 title: Informations de référence sur l’API de distribution d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b3ea33fc0163c87beff04242d2b252c15876c9769d44a704e0a2b7b88a8bee3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 133489f0d33683d89c879044388522db03a4aced
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119675146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009213"
 ---
 # <a name="peer-distribution-api-reference"></a>Informations de référence sur l’API de distribution d’homologue
 

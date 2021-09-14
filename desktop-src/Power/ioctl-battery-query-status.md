@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - BatClass.h
-ms.openlocfilehash: 29d8b33238fa8daa463c007fa9d65cba9c6fb72ef13f0f68587a1452f3dabb0b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2de9d3ab48aec13a9a5c1957a5f98aefbe6a09f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119143530"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007151"
 ---
 # <a name="ioctl_battery_query_status-control-code"></a>\_Code de \_ contrôle d' \_ État de la requête IOCTL
 
@@ -113,7 +113,7 @@ Si *hDevice* a été ouvert sans que l’indicateur de fichier n’ait été sp�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération se termine correctement, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) retourne une valeur différente de zéro.
 
@@ -133,7 +133,7 @@ Pour connaître les implications des e/s avec chevauchement sur cette opération
 
 Pour obtenir un exemple, consultez [énumération des unités de batterie](enumerating-battery-devices.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

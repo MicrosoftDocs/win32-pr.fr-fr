@@ -17,12 +17,12 @@ keywords:
 - disques OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4010a9cc1c0cfac58f1a99572ebae43233dce552237c17f42d66cc1c50013986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab766c661f89cbdec30b3295dfef8dc85b59f7fe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119776829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009289"
 ---
 # <a name="rendering-simple-surfaces"></a>Rendu de surfaces simples
 

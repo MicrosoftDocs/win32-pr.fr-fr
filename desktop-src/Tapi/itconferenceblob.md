@@ -4,12 +4,12 @@ ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: Interface ITConferenceBlob (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa130e4456f206b27e41d03ead47138c777f9dad9e41d5d834bb018b29fc5447
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c961b8fb006f1e172f82827216292cb9d12a158f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119379089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008747"
 ---
 # <a name="itconferenceblob-interface"></a>Interface ITConferenceBlob
 
@@ -33,7 +33,7 @@ L’interface **ITConferenceBlob** possède ces méthodes.
 |:-------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Obtient \_ CharacterSet**](itconferenceblob-get-characterset.md)     | Obtient l’indicateur de [**\_ \_ jeu de caractères BLOB**](blob-character-set.md) indiquant si les caractères BLOB sont au format ASCII, Unicode, etc.<br/> |
 | [**Obtient \_ ConferenceBlob**](itconferenceblob-get-conferenceblob.md) | Obtient un pointeur vers l’objet blob de conférence.<br/>                                                                                             |
-| [**Rein**](itconferenceblob-init.md)                              | Initialise l’objet blob de conférence.<br/>                                                                                                   |
+| [**Init**](itconferenceblob-init.md)                              | Initialise l’objet blob de conférence.<br/>                                                                                                   |
 | [**SetConferenceBlob**](itconferenceblob-setconferenceblob.md)    | Valide les modifications apportées à l’objet blob de conférence.<br/>                                                                                            |
 
 

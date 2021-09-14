@@ -5,11 +5,11 @@ ms.assetid: 6c1d210e-daf0-490a-a6b9-65d99b9e1d7d
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 77501c395c3ae1f14c8451d4691e7e776545e756
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363623"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008200"
 ---
 # <a name="server-side-security"></a>Sécurité Server-Side
 

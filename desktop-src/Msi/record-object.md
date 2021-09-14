@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 149abed4cc09b347c7d1ffabb27a139b448939188acd918aaadf2dccb345de1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c13cb31d628525e529491af1c089555ba2ad8273
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009722"
 ---
 # <a name="record-object"></a>Objet record
 

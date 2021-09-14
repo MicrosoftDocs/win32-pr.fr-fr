@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 58ef6590770e8a9ece3eb8abaffb4dbca0b1a4d4
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124367943"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127011679"
 ---
 # <a name="wm_cap_get_status-message"></a>Message d’état de l' \_ \_ extraction WM \_
 
@@ -56,11 +56,11 @@ Pointeur vers une structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capsta
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus) contient l’état actuel de la fenêtre de capture. Étant donné que cet État est dynamique et change en réponse à différents messages, l’application doit initialiser cette structure après avoir envoyé le message [**WM \_ Cap \_ DLG \_ VIDEOFORMAT**](wm-cap-dlg-videoformat.md) (ou à l’aide de la macro [**capDlgVideoFormat**](/windows/desktop/api/Vfw/nf-vfw-capdlgvideoformat) ) et chaque fois qu’il doit activer les éléments de menu ou déterminer l’état réel de la fenêtre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

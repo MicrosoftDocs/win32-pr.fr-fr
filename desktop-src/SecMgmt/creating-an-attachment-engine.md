@@ -4,12 +4,12 @@ ms.assetid: c04779f4-f1e9-40b0-9f00-0176afb1b839
 title: Création d’un moteur de pièce jointe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4705de9babaa7316d339cccadb6e7b39f44dd6f68957659b069759550e2b537
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96b16e768956e61fe76406777da2bce9affbfa2c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117969522"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009023"
 ---
 # <a name="creating-an-attachment-engine"></a>Création d’un moteur de pièce jointe
 

@@ -4,12 +4,12 @@ description: Les fonctions de message de gestion de réseau envoient des message
 ms.assetid: 9face737-3472-4a53-97b6-e861a60ee96a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b30f88b3cbe0742b3bd06f2200475aaeb0d96d0c37bff9189efd1127ddc7d4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3629a281637fe4ecd0c937ce0c7504beac8e11d2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119912039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009397"
 ---
 # <a name="message-functions-network-management"></a>Fonctions de message (gestion de réseau)
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 47155c946d8f49655bf6336a858d2b0752c70caa80f9dd75e0f415ce18ea94c0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0040ed6c09814a2b2112a91173d84430b8130a30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118562939"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008336"
 ---
 # <a name="iwinhttprequestsend-method"></a>IWinHttpRequest :: Send, méthode
 
@@ -47,11 +47,11 @@ Données à envoyer au serveur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La demande à envoyer a été définie dans un appel antérieur à la méthode [**Open**](iwinhttprequest-open.md) . L’application appelante peut fournir des données à envoyer au serveur par le biais du paramètre *Body* . Si le [*verbe http*](glossary.md) de l' [**ouverture**](iwinhttprequest-open.md) de l’objet est « obtenir », cette méthode envoie la demande sans *corps*, même si elle est fournie par l’application appelante.
 

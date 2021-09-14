@@ -11,12 +11,12 @@ keywords:
 - Objet playlist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f2acb01de41b753a85fee1c69e0bf015c687da04f50a10531ee5c67b0a13cc7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7fd9c6301e33307fc49e50b8aa9042752e020e32
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118340918"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008468"
 ---
 # <a name="device-extensions-for-playlist-object-preferences"></a>Extensions d’appareil pour les préférences de l’objet playlist
 
@@ -48,7 +48,7 @@ Le tableau suivant fournit des détails sur l’opération MTP pour les préfér
 
 | Élément                  | Description                                                                                                                                                                                                                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code d'opération        | 0x9203                                                                                                                                                                                                                                                                                          |
+| Code d’opération        | 0x9203                                                                                                                                                                                                                                                                                          |
 | Paramètre d’opération 1 | 0                                                                                                                                                                                                                                                                                               |
 | Paramètre d’opération 2 | 0                                                                                                                                                                                                                                                                                               |
 | Paramètre d’opération 3 | 0                                                                                                                                                                                                                                                                                               |
@@ -67,7 +67,7 @@ Le tableau suivant fournit des détails sur l’opération MTP pour les préfér
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’implémentation de cette fonctionnalité est facultative pour les périphériques portables. Lecteur Windows Media synchronise les objets de sélection ordinaires, les objets de sélection de synchronisation de stock et les objets de sélection créés implicitement par défaut.
 

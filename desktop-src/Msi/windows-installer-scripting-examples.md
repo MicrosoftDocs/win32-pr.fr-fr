@@ -4,12 +4,12 @@ ms.assetid: 93747a8d-32e0-4f31-a5cf-f95fb26b97df
 title: Windows Exemples de scripts d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3addf648460418daad783b6c5dbcc71078f9904c4a0bba1324f025896692cd37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47c2ad75411201cdbf74ef3aa035906d7e58aa7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119065769"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009558"
 ---
 # <a name="windows-installer-scripting-examples"></a>Windows Exemples de scripts d’installation
 

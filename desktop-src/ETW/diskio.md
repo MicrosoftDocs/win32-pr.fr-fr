@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0e91f5e8b84d77b0938f35da69a84c26fa0f34a4da63bce40330484a29e19b5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 97f9907e4da51675bb1a5f562931e471ee0e133e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118395300"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007429"
 ---
 # <a name="diskio-class"></a>E, classe
 
@@ -38,7 +38,7 @@ class DiskIo : MSNT_SystemTrace
 
 La classe **e** ne définit aucun membre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour activer les événements d’e/s de disque dans une session de journalisation du noyau NT, spécifiez l’indicateur d' **\_ e/ \_ \_ \_ s disque** de l’indicateur de trace d’événements dans le membre **EnableFlags** d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier un ou plusieurs des indicateurs suivants :
 

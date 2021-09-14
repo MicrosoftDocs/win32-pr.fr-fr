@@ -5,11 +5,11 @@ title: Configuration et démarrage de la session de journalisation globale
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7a928cba5eb782ca4a57f7dba4776de79f42d7af
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122477045"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127007443"
 ---
 # <a name="configuring-and-starting-the-global-logger-session"></a>Configuration et démarrage de la session de journalisation globale
 
@@ -49,7 +49,7 @@ Le tableau suivant décrit les valeurs que vous pouvez définir pour la clé **G
 | <strong>MaximumBuffers</strong> | <strong>REG_DWORD</strong> | Nombre maximal de mémoires tampons à allouer. En général, cette valeur est le nombre minimal de mémoires tampons plus vingt. ETW utilise la taille de la mémoire tampon et la taille de la mémoire physique pour calculer cette valeur. Cette valeur doit être supérieure ou égale à la valeur de <strong>MinimumBuffers</strong>.<br /> | 
 | <strong>MaxFileSize</strong> | <strong>REG_DWORD</strong> | Taille maximale, en mégaoctets, du fichier journal de suivi d’événements. Par défaut, il n’y a pas de taille de fichier maximale.<br /> | 
 | <strong>MinimumBuffers</strong> | <strong>REG_DWORD</strong> | Nombre minimal de mémoires tampons à allouer au démarrage de la session de journalisation globale. Le nombre minimal de mémoires tampons que vous pouvez spécifier est deux mémoires tampons par processeur. Par exemple, sur un ordinateur à processeur unique, le nombre minimal de mémoires tampons est de deux. <br /> La valeur par défaut sur un système à processeur unique est 0x3.<br /> | 
-| <strong>Statut</strong> | <strong>REG_DWORD</strong> | État de démarrage de l’enregistreur d’événements global. Si le journal global n’a pas pu démarrer, la valeur de cette clé est le code d’erreur Win32 approprié. Si le journal Global a démarré, la valeur de cette clé est ERROR_SUCCESS (0).<br /> | 
+| <strong>État</strong> | <strong>REG_DWORD</strong> | État de démarrage de l’enregistreur d’événements global. Si le journal global n’a pas pu démarrer, la valeur de cette clé est le code d’erreur Win32 approprié. Si le journal Global a démarré, la valeur de cette clé est ERROR_SUCCESS (0).<br /> | 
 
 
 

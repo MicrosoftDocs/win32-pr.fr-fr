@@ -9,12 +9,12 @@ keywords:
 - Lecteur Windows Media, tapez 1 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35bc84311bb61c71fdcaf57b584b5c595a62be5c80d406f71ef36c8d1ad8e655
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 10ecd939a03734fed121dcaa22c0d7ae89127476
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119903059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008493"
 ---
 # <a name="about-type-1-online-stores"></a>À propos des magasins en ligne de type 1
 

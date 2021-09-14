@@ -4,12 +4,12 @@ ms.assetid: 703489c4-cac4-442c-bd96-d3927491a864
 title: Propriété RedirectedDLLSupport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24da5990645d4c27120c3a010cc517475ba6e706c2fb41d69a024d15ca524549
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bed308eaf022ada5c6c8697ba47f55605f1fecbd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009708"
 ---
 # <a name="redirecteddllsupport-property"></a>Propriété RedirectedDLLSupport
 

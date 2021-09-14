@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e243a4a854eb9cac80f8ce94fd12c5b63f01b6a413167797a80804c9df66717
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 42ae0aa6fab7bb567f67055f0398a74549e519b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009311"
 ---
 # <a name="pixel-state-variables"></a>Pixel, variables d’état
 

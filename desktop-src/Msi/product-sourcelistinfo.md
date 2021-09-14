@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d58bc3f9eae1f953d67d2bd83b951bda1d2fe17f3f2b00cbaa9b5b7f9ad3a968
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 23fff0cd478a8345e72b79632817e856c40eb7b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376702"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009778"
 ---
 # <a name="productsourcelistinfo-property"></a>Propriété Product. SourceListInfo
 
@@ -39,7 +39,7 @@ propVal = Product.SourceListInfo
 
 Nom des propriétés d’informations sources d’un produit à interroger ou définir. Pour connaître les valeurs possibles, consultez la section Notes de cette rubrique.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Toutes les propriétés qui peuvent être récupérées ne peuvent pas être définies. Le paramètre *szProperty* peut avoir l’une des valeurs suivantes.
 

@@ -7,12 +7,12 @@ keywords:
 - Windows animation du gestionnaire d’animations Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2e6a8f81fbef55525eff04df52a31f8ee942707c354697658ee0ba01647d082
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d274b9f2d5e386fbe01c2caeb9e1e65ddbdc73f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117755613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008549"
 ---
 # <a name="windows-animation-manager"></a>Windows Gestionnaire d’animations
 

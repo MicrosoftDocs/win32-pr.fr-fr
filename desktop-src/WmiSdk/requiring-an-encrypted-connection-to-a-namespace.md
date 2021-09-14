@@ -6,11 +6,11 @@ title: Exiger une connexion chiffrée à un espace de noms
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: e42415c0f714f99a51d6a1a0ee1a0b22f398b1b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008213"
 ---
 # <a name="requiring-an-encrypted-connection-to-a-namespace"></a>Exiger une connexion chiffrée à un espace de noms
 
@@ -48,7 +48,7 @@ WMI rejette un client qui utilise le niveau d’authentification par défaut, ca
 
 Lors du retour de données sur une connexion de rappel asynchrone, WMI retourne un message d’accès refusé à l’ordinateur demandeur. WMI crée également une entrée de journal dans le journal des événements NT de l’ordinateur avec l’espace de noms chiffré, indiquant qu’une connexion sécurisée ne peut pas être établie au client.
 
-À compter de Windows Vista, le fichier WbemCore. log n’existe plus. Vous pouvez consulter le journal des événements NT pour rechercher des entrées indiquant les demandes de données entrantes rejetées à des espaces de noms qui requièrent un chiffrement.
+à partir de Windows Vista, le fichier WbemCore. log n’existe plus. Vous pouvez consulter le journal des événements NT pour rechercher des entrées indiquant les demandes de données entrantes rejetées à des espaces de noms qui requièrent un chiffrement.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
