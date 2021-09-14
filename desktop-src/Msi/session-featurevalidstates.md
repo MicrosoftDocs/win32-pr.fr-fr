@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 2c6b7e2683ea9c3e82684f77057319fb359429036cd43192fa9793ff7490386e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b76080bb7854c75cbfbb06697de9fc7d7a1af0c2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119629209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009640"
 ---
 # <a name="sessionfeaturevalidstates-property"></a>Session. FeatureValidStates, propriété
 

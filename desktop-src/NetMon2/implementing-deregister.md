@@ -4,12 +4,12 @@ ms.assetid: 936d5b00-b0ee-4a29-9396-1e2a7a91a2dd
 title: Implémentation de l’annulation de l’inscription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444502ba3ab19921a6372d4cda872aed85e879cbbdadc2f0176a7187bfc24491
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2ee07c5b6b3c746e9c29811332b9e7674e49db26
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119890479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009336"
 ---
 # <a name="implementing-deregister"></a>Implémentation de l’annulation de l’inscription
 

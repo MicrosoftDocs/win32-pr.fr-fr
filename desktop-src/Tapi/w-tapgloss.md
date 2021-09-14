@@ -6,11 +6,11 @@ title: W (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 06b8181a1fba0090194eead2d8fde98c87693796
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524832"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008690"
 ---
 # <a name="w-telephony-api"></a>W (API de téléphonie)
 
@@ -32,10 +32,10 @@ Prend en charge les applications IVR HTML et les sites Web à accès double (un 
 
 </dd> <dt>
 
-<span id="tapi2.windows_open_services_architecture_wosa__tapgloss"></span><span id="TAPI2.WINDOWS_OPEN_SERVICES_ARCHITECTURE_WOSA__TAPGLOSS"></span>**Architecture WOSA (Windows Open Services Architecture)**
+<span id="tapi2.windows_open_services_architecture_wosa__tapgloss"></span><span id="TAPI2.WINDOWS_OPEN_SERVICES_ARCHITECTURE_WOSA__TAPGLOSS"></span>**Windows Architecture WOSA (Open Services Architecture)**
 </dt> <dd>
 
-Architecture logicielle qui fournit une interface de niveau système unique pour connecter des applications frontales à des services principaux. La téléphonie Windows fait partie de l’architecture WOSA.
+Architecture logicielle qui fournit une interface de niveau système unique pour connecter des applications frontales à des services principaux. Windows La téléphonie fait partie de l’architecture WOSA.
 
 </dd> </dl>
 

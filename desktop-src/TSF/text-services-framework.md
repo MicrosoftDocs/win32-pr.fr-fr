@@ -4,12 +4,12 @@ description: Microsoft Windows Text Services Framework (TSF) est un service syst
 ms.assetid: ecc34b2e-89e8-48a8-8a8e-442d2145fe24
 ms.topic: article
 ms.date: 01/14/2020
-ms.openlocfilehash: c2912538326158abbff47b4bde115c26966a751995d30a7183fafe0811ab666a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c21cae442b5fbed62c00010a17849d1d5f27b49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117950956"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008815"
 ---
 # <a name="text-services-framework-text-services-framework"></a>Text Services Framework (Text Services Framework)
 

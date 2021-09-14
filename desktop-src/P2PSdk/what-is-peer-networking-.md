@@ -4,12 +4,12 @@ ms.assetid: d2a43d3b-2782-4777-8c65-05e2c52930d0
 title: Qu’est-ce que le réseau homologue ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f6ce2175aa32e37c80c4cde5c231540a48c448360974ecbd022c21eb552ccdd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c456fac9b7695a2846765ee0ccd38c1e5df646e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120034099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009197"
 ---
 # <a name="what-is-peer-networking"></a>Qu’est-ce que le réseau homologue ?
 

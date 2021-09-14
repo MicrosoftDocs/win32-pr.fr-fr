@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9414bb5f2d193aa8f7636b94925914afb7eb123d3b497fdc50d20498fa104fc4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 73b3d446e0a8068353be6656c16f0e6796df8922
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118368703"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009480"
 ---
 # <a name="inapclientmanagementgetsystemisolationinfo-method"></a>INapClientManagement :: GetSystemIsolationInfo, méthode
 
@@ -62,7 +62,7 @@ Pointeur vers un indicateur qui indique si l’une des connexions est dans un é
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La méthode retourne un code d’État HRESULT incluant, sans s’y limiter, l’un des éléments suivants.
 

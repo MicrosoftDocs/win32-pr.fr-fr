@@ -4,12 +4,12 @@ ms.assetid: 12b92d4b-04b5-4509-9fad-af23fcfd8857
 title: Fonctions étendues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 913feb46f61777bcb07fda1639519c4ef04fcb4905075b1c67955a3e911b9d0e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d0e57c316b521cbc246e5f31dcfb683238e216e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118405334"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114322"
 ---
 # <a name="extended-functions"></a>Fonctions étendues
 

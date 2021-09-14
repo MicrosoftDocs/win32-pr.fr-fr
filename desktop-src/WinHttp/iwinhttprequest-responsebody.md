@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 56eac42d41054cf7c01ff0c69ffcb82353db7182acf15765b25149560d5f7391
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5a608f2744ad2880ecf7c4862b03821afcef9630
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118563227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008342"
 ---
 # <a name="iwinhttprequestresponsebody-property"></a>IWinHttpRequest :: ResponseBody, propriété
 
@@ -55,7 +55,7 @@ Valeur de **type Variant** qui reçoit le corps d’entité de réponse sous la 
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette propriété retourne les données de réponse dans un tableau d’octets non signés. Si la réponse n’a pas de corps de réponse, un variant vide est retourné. Cette propriété ne peut être appelée qu’une fois que la méthode [**Send**](iwinhttprequest-send.md) a été appelée.
 

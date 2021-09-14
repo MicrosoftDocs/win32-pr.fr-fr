@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd0e2709a1b40bd4a564498cd0ae0b5d4e11861066aa9b0951815f92ee1c295f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 71b03a05b909cf8c7887edd2031f5346c419f1cf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118171064"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006262"
 ---
 # <a name="hdm_setitem-message"></a>\_Message HDM SETITEM
 
@@ -45,15 +45,15 @@ Pointeur vers une structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La structure [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) qui prend en charge ce message prend en charge les informations sur l’ordre des éléments et la liste d’images. À l’aide de ces membres, vous pouvez contrôler l’ordre dans lequel les éléments sont affichés et spécifier les images à afficher avec les éléments.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

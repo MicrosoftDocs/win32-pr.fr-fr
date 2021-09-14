@@ -4,12 +4,12 @@ ms.assetid: 127d83a2-b651-42ef-ac7c-a7fa1b15cf27
 title: Recherche d’un fichier dans un emplacement spécifique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b131708e5f9ff37474864aa5d6ef13abcab8f0d162563ca810c7e31fe2c41c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72ad4e456d331119b698d8e6e696e86b953006eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009642"
 ---
 # <a name="searching-for-a-file-in-a-specific-location"></a>Recherche d’un fichier dans un emplacement spécifique
 
@@ -49,7 +49,7 @@ ms.locfileid: "120041149"
 
     
 
-    | Signature          | Parent | Chemin                                                    | Profondeur        |
+    | Signature          | Parent | Chemin d’accès                                                    | Profondeur        |
     |--------------------|--------|---------------------------------------------------------|--------------|
     | AppFile<br/> |        | C : \\ Program Files \\ MyProducts \\ bin de projets \\<br/> | 0<br/> |
 

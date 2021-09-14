@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 23b492eaf4b5f712a51132eefcceac12a772b17b8285d8c6edb1a6cec268b1c8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0c14342a629a38a878649ac59d8f1f814874f12
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074233"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006801"
 ---
 # <a name="cdynamicoutputpinsetconfiginfo-method"></a>Méthode CDynamicOutputPin. SetConfigInfo
 
@@ -57,15 +57,15 @@ Handle vers un événement qui est signalé lorsque le filtre s’arrête, ou **
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre doit appeler cette méthode lorsqu’il rejoint le graphique de filtre. Le gestionnaire de graphes de filtres prend en charge **IGraphConfig**. Pour le paramètre *hStopEvent* , créez un événement de réinitialisation manuelle. Lorsque le filtre quitte le graphique de filtre, appelez à nouveau cette méthode avec la **valeur null** pour les deux paramètres.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

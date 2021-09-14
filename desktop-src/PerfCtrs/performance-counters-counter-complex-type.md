@@ -10,11 +10,11 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.openlocfilehash: a1a2af7ec5f9945257a94d1c65823ecad3c9a05f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481525"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009184"
 ---
 # <a name="counter-complex-type"></a>Type complexe de compteur
 
@@ -294,7 +294,7 @@ Définit un compteur.
 
 | Nom | Type | Description | 
 |------|------|-------------|
-| aggregate | Fonction d’agrégation à appliquer si l’attribut <strong>instances</strong> de <a href="performance-counters-counterset-complex-type.md"><strong>counterSet</strong></a> est GlobalAggregate, multipleAggregate ou globalAggregateHistory. Vous pouvez appliquer les fonctions d’agrégation suivantes :<br /><dl><dt><span id="max"></span><span id="MAX"></span>Max</dt><dd> La valeur de compteur maximale est retournée.<br /></dd><dt><span id="min"></span><span id="MIN"></span>minute(s)</dt><dd> La valeur de compteur minimale est retournée.<br /></dd><dt><span id="avg"></span><span id="AVG"></span>AVG</dt><dd> La valeur moyenne du compteur est retournée.<br /></dd><dt><span id="sum"></span><span id="SUM"></span>checksum</dt><dd> La somme des valeurs de compteur est retournée.<br /></dd><dt><span id="undefined"></span><span id="UNDEFINED"></span>non défini</dt><dd> Ne pas agréger ce compteur.<br /></dd></dl> | 
+| aggregate | Fonction d’agrégation à appliquer si l’attribut <strong>instances</strong> de <a href="performance-counters-counterset-complex-type.md"><strong>counterSet</strong></a> est GlobalAggregate, multipleAggregate ou globalAggregateHistory. Vous pouvez appliquer les fonctions d’agrégation suivantes :<br /><dl><dt><span id="max"></span><span id="MAX"></span>max</dt><dd> La valeur de compteur maximale est retournée.<br /></dd><dt><span id="min"></span><span id="MIN"></span>minute(s)</dt><dd> La valeur de compteur minimale est retournée.<br /></dd><dt><span id="avg"></span><span id="AVG"></span>avg</dt><dd> La valeur moyenne du compteur est retournée.<br /></dd><dt><span id="sum"></span><span id="SUM"></span>checksum</dt><dd> La somme des valeurs de compteur est retournée.<br /></dd><dt><span id="undefined"></span><span id="UNDEFINED"></span>non défini</dt><dd> Ne pas agréger ce compteur.<br /></dd></dl> | 
 | baseID | <a href="performance-counters-uint32type-simple-type.md"><strong>homme : UInt32Type</strong></a> | Identificateur d’un autre compteur dans le même ensemble de compteurs, dont la valeur est utilisée pour calculer la valeur de ce compteur. Les types de compteurs suivants requièrent un compteur de base :<br /><dl><dt><span id="PERF_AVERAGE_TIMER"></span><span id="perf_average_timer"></span>PERF_AVERAGE_TIMER</dt><dd> Requiert le compteur de base PERF_AVERAGE_BASE.<br /></dd><dt><span id="PERF_AVERAGE_BULK"></span><span id="perf_average_bulk"></span>PERF_AVERAGE_BULK</dt><dd> Requiert le compteur de base PERF_AVERAGE_BASE.<br /></dd><dt><span id="PERF_COUNTER_MULTI_TIMER_INV"></span><span id="perf_counter_multi_timer_inv"></span>PERF_COUNTER_MULTI_TIMER_INV</dt><dd> Requiert le compteur de base PERF_COUNTER_MULTI_BASE.<br /></dd><dt><span id="PERF_LARGE_RAW_FRACTION"></span><span id="perf_large_raw_fraction"></span>PERF_LARGE_RAW_FRACTION</dt><dd> Requiert le compteur de base PERF_LARGE_RAW_BASE.<br /></dd><dt><span id="PERF_PRECISION_100NS_TIMER"></span><span id="perf_precision_100ns_timer"></span>PERF_PRECISION_100NS_TIMER</dt><dd> Requiert le compteur de base PERF_LARGE_RAW_BASE.<br /></dd><dt><span id="PERF_RAW_FRACTION"></span><span id="perf_raw_fraction"></span>PERF_RAW_FRACTION</dt><dd> Requiert le compteur de base PERF_RAW_BASE.<br /></dd><dt><span id="PERF_SAMPLE_FRACTION"></span><span id="perf_sample_fraction"></span>PERF_SAMPLE_FRACTION</dt><dd> Requiert le compteur de base PERF_SAMPLE_BASE.<br /></dd></dl> | 
 | defaultScale | Facteur d’échelle à appliquer à la valeur de compteur (facteur * valeur de compteur). La valeur par défaut est zéro si aucune échelle n’est appliquée. Les valeurs valides sont comprises entre 10 et 10 (0,0000000001 à 1 milliard). Si cette valeur est égale à zéro, la valeur de mise à l’échelle est 1 ; Si cette valeur est 1, la valeur de l’échelle est 10 ; Si cette valeur est 1, la valeur de l’échelle est. 10 ; et ainsi de suite.<br /> | 
 | description | <strong>xs:string</strong> | Brève description du compteur. Vous n’avez pas besoin de spécifier cet attribut si le compteur comprend l’attribut <a href="performance-counters-counterattribute-complex-type.md"><strong>nodisplay</strong></a> .<br /> | 
@@ -313,7 +313,7 @@ Définit un compteur.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour assurer la compatibilité descendante, chaque compteur de l’ensemble de compteurs doit spécifier les mêmes valeurs **perfFreqID** et **perfTimeID** .
 

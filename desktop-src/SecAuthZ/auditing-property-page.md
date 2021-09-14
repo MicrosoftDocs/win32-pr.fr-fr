@@ -4,12 +4,12 @@ ms.assetid: 2a9152b7-c72d-4f03-bc3f-b75927fb4b6c
 title: Page de propriétés d’audit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf116a9079c5b7b6dfeb7e6df57b45d6a0a2555c14de88a32fee4fadcdc6373
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7fc85691c93994a764199f0b77d52a7a8a71e9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117784317"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009124"
 ---
 # <a name="auditing-property-page"></a>Page de propriétés d’audit
 

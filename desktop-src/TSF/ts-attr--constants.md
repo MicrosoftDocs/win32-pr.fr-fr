@@ -18,11 +18,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: aa26b8a725475a3d88b07cce1dccd0ac7fa1a98e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466162"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008794"
 ---
 # <a name="ts_attr_-constants"></a>\_Constantes de l’attr TS \_ \*
 
@@ -49,7 +49,7 @@ Les \_ \_ \* constantes d’attribut d’attribut TS sont utilisées pour obteni
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                         |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Textstor. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Textstor. idl</dt> </dl> |
 

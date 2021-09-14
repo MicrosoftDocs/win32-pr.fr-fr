@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WHERE, clause (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a6a51657dac26a002890bde8346cd7570f6057f2ace5cdfb5350d6c90d0fee8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b0587bffb1a10c4611773de8a61fdb7ac1576952
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312180"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008198"
 ---
 # <a name="where-clause-wmi"></a>WHERE, clause (WMI)
 

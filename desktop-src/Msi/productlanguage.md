@@ -4,12 +4,12 @@ ms.assetid: 5d798825-c70b-4d5a-b88c-a9db40663f6a
 title: Propriété ProductLanguage
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6cd2a079767b1e39f07bdcf90f2a359604d89ccf9e394d2695b5aa74cc9e459
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3199bd2fcef457b40ad98e52f50c595bc424f9a7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118376454"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009765"
 ---
 # <a name="productlanguage-property"></a>Propriété ProductLanguage
 
@@ -17,7 +17,7 @@ La propriété **ProductLanguage** spécifie le langage que le programme d’ins
 
 Cette propriété est obligatoire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur de la propriété **ProductLanguage** doit être l’une des langues listées dans la propriété [**Résumé du modèle**](template-summary.md) .
 

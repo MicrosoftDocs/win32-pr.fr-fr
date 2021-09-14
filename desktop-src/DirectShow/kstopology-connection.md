@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ks.h
-ms.openlocfilehash: 80a7b6f046edd1cd7f602487a11d6a79c375276814f9374f4142d148699bb8b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f523d378a54311845781c144b33e131d5875e41e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118397243"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999014"
 ---
 # <a name="kstopology_connection-structure"></a>\_Structure de connexion KSTOPOLOGY
 
@@ -72,7 +72,7 @@ Si la valeur du champ **ToNode** est KSFILTER \_ nœud, ce champ spécifie l’i
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

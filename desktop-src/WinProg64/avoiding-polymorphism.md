@@ -6,12 +6,12 @@ keywords:
 - programmation de Windows polymorphisme 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cf107c64f0f4d7e1c0127337401f8dcf057d2ef7b7281455df361da3c519065
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dec0fd26944d58a9ba0d253da8b8dbcd68156436
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117928016"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008304"
 ---
 # <a name="avoiding-polymorphism"></a>Éviter le polymorphisme
 

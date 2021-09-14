@@ -24,12 +24,12 @@ keywords:
 - Assistant de plug-in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d20988a8cf1b7923699ec9cee7990b99840b8acdf9371e74da5940ddb8fc8d4e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 36ec8632bd5611e081a4a17d1b0390dc99a09703
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118579411"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008471"
 ---
 # <a name="developer-overview"></a>Vue d’ensemble du développeur
 

@@ -5,12 +5,12 @@ ms.assetid: 945c16bf-e835-4759-93d1-4e27080ac873
 title: V (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ae00592faede6c5d3a59d5b9f91b728c4d67cebab9e90bb5e7da1f919d93d79
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2bf4eb1a3eb23a4afc5e54b36dfaa5c3b3ab2f3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008702"
 ---
 # <a name="v-telephony-api"></a>V (API de téléphonie)
 

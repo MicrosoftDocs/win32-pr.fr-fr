@@ -4,12 +4,12 @@ ms.assetid: f969be42-d541-4e8d-aec4-eb9508bcc7cf
 title: Profilage précis des appels d’API Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6457e47da58a3614270f89eefa1cfa33fbf30cf26544c1013d010696a68e4602
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdb6d60fcc1b3ace4112dbf7028d91e2c9c8b345
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118097467"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998780"
 ---
 # <a name="accurately-profiling-direct3d-api-calls-direct3d-9"></a>Profilage précis des appels d’API Direct3D (Direct3D 9)
 
@@ -17,7 +17,7 @@ ms.locfileid: "118097467"
 -   [Comment Profiler avec précision une séquence de rendu Direct3D](#how-to-accurately-profile-a-direct3d-render-sequence)
 -   [Profilage des modifications de l’État Direct3D](#profiling-direct3d-state-changes)
 -   [Résumé](#summary)
--   [A](#appendix)
+-   [Annexe](#appendix)
 
 Une fois que vous disposez d’une application Microsoft Direct3D fonctionnelle et que vous souhaitez améliorer ses performances, vous utilisez généralement un outil de profilage en dehors de la conservation ou une technique de mesure personnalisée pour mesurer le temps nécessaire à l’exécution d’un ou plusieurs appels de l’interface de programmation d’applications (API). Si vous avez effectué cette opération mais que vous obtenez des résultats de synchronisation qui varient d’une séquence de rendu à l’autre, ou que vous faites des calculs qui ne comportent pas de résultats d’expérimentation réels, les informations suivantes peuvent vous aider à comprendre pourquoi.
 

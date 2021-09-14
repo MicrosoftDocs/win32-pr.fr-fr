@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a60ce0c96f9e3eb25639cad9251d8cf3969d022001962e14ec9c3ef4d157ecf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bbff1dd78c6fd65d72c28fe8f13f7bbf5603c75f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118883704"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008882"
 ---
 # <a name="counteritemlinestyle-property"></a>CounterItem. LineStyle, propriété
 
@@ -46,7 +46,7 @@ Style de ligne utilisé pour représenter sous forme de graphique la valeur de c
 
 | Valeur                                                                                                                                                                                                                                                                                                                                                                               | Signification                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| <span id="System.Drawing.Drawing2D.DashStyle.Solid"></span><span id="system.drawing.drawing2d.dashstyle.solid"></span><span id="SYSTEM.DRAWING.DRAWING2D.DASHSTYLE.SOLID"></span><dl> <dt>**System. Drawing. Drawing2D. DashStyle. Solid**</dt> <dt>0</dt> </dl>                     | Ligne pleine. Il s'agit de la valeur par défaut.<br/>                |
+| <span id="System.Drawing.Drawing2D.DashStyle.Solid"></span><span id="system.drawing.drawing2d.dashstyle.solid"></span><span id="SYSTEM.DRAWING.DRAWING2D.DASHSTYLE.SOLID"></span><dl> <dt>**System. Drawing. Drawing2D. DashStyle. Solid**</dt> <dt>0</dt> </dl>                     | Ligne pleine. Il s’agit de la valeur par défaut.<br/>                |
 | <span id="System.Drawing.Drawing2D.DashStyle.Dash"></span><span id="system.drawing.drawing2d.dashstyle.dash"></span><span id="SYSTEM.DRAWING.DRAWING2D.DASHSTYLE.DASH"></span><dl> <dt>**System. Drawing. Drawing2D. DashStyle. Dash**</dt> <dt>1</dt> </dl>                         | Ligne en pointillés avec des segments longs et des espaces étroits.<br/>     |
 | <span id="System.Drawing.Drawing2D.DashStyle.Dot"></span><span id="system.drawing.drawing2d.dashstyle.dot"></span><span id="SYSTEM.DRAWING.DRAWING2D.DASHSTYLE.DOT"></span><dl> <dt>**System. Drawing. Drawing2D. DashStyle. dot**</dt> <dt>2</dt> </dl>                             | Ligne en pointillés avec des segments et des espaces uniformes.<br/>         |
 | <span id="System.Drawing.Drawing2D.DashStyle.DashDot"></span><span id="system.drawing.drawing2d.dashstyle.dashdot"></span><span id="SYSTEM.DRAWING.DRAWING2D.DASHSTYLE.DASHDOT"></span><dl> <dt>**System. Drawing. Drawing2D. DashStyle. tiret point**</dt> <dt>3</dt> </dl>             | Ligne en pointillés avec des segments courts et longs.<br/> |
@@ -68,7 +68,7 @@ Style de ligne utilisé pour représenter sous forme de graphique la valeur de c
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour spécifier une valeur autre que DashStyle. Solid, [**CounterItem. Width**](counteritem-width.md) doit avoir la valeur 1. Si la largeur est supérieure à 1, SYSMON ignore le style de ligne spécifié et utilise DashStyle. Solid.
 

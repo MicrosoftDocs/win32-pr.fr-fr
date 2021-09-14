@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14bd1a9efe22251aba71f157dfb2a68e2b0a70385c30564bb7f08e420e0c0cb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 69e9653f369f13e0ef4a775265d763e854db4de7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119019987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006812"
 ---
 # <a name="dtn_formatquery-notification-code"></a>\_Code de notification DTN FORMATQUERY
 
@@ -47,15 +47,15 @@ Pointeur vers une structure [**NMDATETIMEFORMATQUERY**](/windows/win32/api/commc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Le propriétaire du contrôle doit calculer la largeur maximale possible du texte qui sera affiché dans le champ de rappel, définir le membre **szMax** de la structure [**NMDATETIMEFORMATQUERY**](/windows/win32/api/commctrl/ns-commctrl-nmdatetimeformatquerya) et retourner zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La gestion de ce code de notification prépare le contrôle pour la taille maximale de la chaîne qui s’affiche dans un champ de rappel particulier. Cela permet au contrôle d’afficher correctement la sortie à tout moment, ce qui réduit le scintillement dans l’affichage du contrôle. (Pour plus d’informations sur les champs de rappel, consultez [champs de rappel](date-and-time-picker-controls.md).)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 23ebcb04-1571-4e93-a549-46ad6b9d4272
 title: Surveillance des événements de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9e3cb28e251450d5302227cbeaf9fa6aac6c8734ea0646757ac2b4291c8ff3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b5eac453b7f864f4f0b5fc756b1ffc6a730e2769
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131639"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114301"
 ---
 # <a name="monitoring-communications-events"></a>Surveillance des événements de communication
 

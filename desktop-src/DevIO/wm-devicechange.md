@@ -4,12 +4,12 @@ ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
 title: WM_DEVICECHANGE, message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b32936d36e01a34acc9ace512703db7584768e8b51a9fe06a791b2a285ee2add
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 91cc45d7a7978d5501e51cc1355c43afcf12b956
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119017797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114229"
 ---
 # <a name="wm_devicechange-message"></a>\_Message WM DEVICECHANGE
 
@@ -71,17 +71,17 @@ Pointeur vers une structure qui contient des données spécifiques à l’évén
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour accorder la demande.
 
 Retourne **la \_ requête \_ de diffusion Deny** pour refuser la demande.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour les appareils qui offrent des fonctionnalités contrôlables par logiciel, telles que l’éjection et le verrouillage, le système envoie généralement un message [DBT \_ DEVICEREMOVEPENDING](dbt-deviceremovepending.md) pour permettre aux applications et pilotes de périphérique de mettre fin à leur utilisation de l’appareil. Si le système supprime de force un appareil, il ne peut pas envoyer un message [DBT \_ DEVICEQUERYREMOVE](dbt-devicequeryremove.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|

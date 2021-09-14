@@ -4,12 +4,12 @@ ms.assetid: 960b5fc2-3074-4e51-b3de-5ed370379b01
 title: Facteur d’atténuation et de focalisation (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb80fff287749e2979a89f2e20c830fdad3961d90ec05bf90a4ee2f6a51f8bcf
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 623bb3cb2b1c2a3ee9e0e5d9419ff71dd9a303b6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119850613"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998742"
 ---
 # <a name="attenuation-and-spotlight-factor-direct3d-9"></a>Facteur d’atténuation et de focalisation (Direct3D 9)
 

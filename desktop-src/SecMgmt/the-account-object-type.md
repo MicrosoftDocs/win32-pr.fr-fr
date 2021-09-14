@@ -4,12 +4,12 @@ ms.assetid: 62f5af38-4862-40dd-8d88-4a0742c203d2
 title: Type d’objet de compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00cb5a3b18c8e28f7648978aca887dbce1a0edbcfe33a22ec4d949fe270a9300
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18a33dcdd248c6ea16a39f036599930c5d564782
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118893206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009018"
 ---
 # <a name="the-account-object-type"></a>Type d’objet de compte
 

@@ -4,12 +4,12 @@ ms.assetid: a73ce24b-24e9-40ad-9ce2-f3071fca9ffe
 title: Énumérations WiFi natives
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bb10961463293c7fe3db5bacc57024b7fc4c4f0143204cea0ab5501b304e234
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5b62123840a7ceb25fcca67c45ac0e35e688100
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119685019"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009461"
 ---
 # <a name="native-wifi-enumerations"></a>Énumérations WiFi natives
 

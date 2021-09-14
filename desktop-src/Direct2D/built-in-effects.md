@@ -4,12 +4,12 @@ description: Les effets Direct2D fournissent cet ensemble d’effets intégrés.
 ms.assetid: A76F6AB8-16E9-45C9-A768-5E4AA072D534
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2ef3ea529a9a4e8ded25ce58fb75137c85a8d3b94e64fc5426c4713a30cec5c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6001dda5985a1fa221a472ca1f1d9cca042f5041
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114162"
 ---
 # <a name="built-in-effects"></a>Effets intégrés
 
@@ -103,7 +103,7 @@ Les [effets Direct2D](effects-overview.md) fournissent cet ensemble d’effets i
 -   [Effet luminance-alpha](luminance-to-alpha.md) -CLSID \_ D2D1LuminanceToAlpha
 -   [Effet d’opacité](opacity-effect.md) -CLSID \_ D2D1Opacity
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

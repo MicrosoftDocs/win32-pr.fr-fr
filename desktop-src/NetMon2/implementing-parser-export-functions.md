@@ -4,12 +4,12 @@ ms.assetid: be73623c-7ae7-4ca9-be6c-52f513cd38a4
 title: Implémentation des fonctions d’exportation de l’analyseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e32b3b1aa807a604f058ed8965ef11728f6c12fecb34e27a337682361f8dd5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6b8eafb7e12c36a9413a320652e3d372ffbf51e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119778839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009332"
 ---
 # <a name="implementing-parser-export-functions"></a>Implémentation des fonctions d’exportation de l’analyseur
 

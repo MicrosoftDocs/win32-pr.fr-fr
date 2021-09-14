@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: c4a77c0e5687319bbea438127ce9c30b27ff3122f42359237df5d4cd158b1393
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9f315629c810027e18dac3a337c126f4a4a4bcce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119004347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008981"
 ---
 # <a name="protectkeywithtpmandpinandstartupkey-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithTPMAndPINAndStartupKey de la \_ classe Win32 EncryptableVolume
 
@@ -137,7 +137,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 
@@ -161,7 +161,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Au plus un protecteur de clé de type « TPM et PIN et clé de démarrage » peut exister pour un volume à tout moment. Si vous souhaitez modifier le nom complet ou le profil de validation de plateforme utilisé par un protecteur de clé « TPM et code confidentiel et clé de démarrage » existants, vous devez d’abord supprimer le protecteur de clé existant, puis appeler **ProtectKeyWithTPMAndPINAndStartupKey** pour en créer un nouveau.
 

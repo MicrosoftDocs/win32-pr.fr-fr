@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2eb9dc01a398a498252cca2f1f3af012608f8e0ca80c62800c56e4026c0b0a7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ef4e525762d4b6928e6a9095fad34f3f4f2e96fc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119908819"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006698"
 ---
 # <a name="createaudiomediatype-function"></a>CreateAudioMediaType fonction)
 
@@ -65,15 +65,15 @@ Indicateur précisant s’il faut initialiser le bloc de format. Spécifiez **tr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne E \_ OUTOFMEMORY si la mémoire n’a pas pu être allouée pour les données de format ; OK dans le \_ cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si le paramètre *bSetFormat* a la **valeur true**, la méthode alloue la mémoire pour le bloc de format. Si le paramètre *VPM* contient déjà un bloc de format alloué, une fuite de mémoire se produit. Pour éviter une fuite de mémoire, appelez [**FreeMediaType**](freemediatype.md) avant d’appeler cette fonction. Une fois la méthode retournée, appelez à nouveau **FreeMediaType** pour libérer le bloc de format.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

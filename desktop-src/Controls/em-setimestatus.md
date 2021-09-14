@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb5a3e5413c577fcecd89ebb27bc61e5fff31f7e71b3ec7e6da67523d6ee9392
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e896c358281b2d4b5012fe13003720e0d008e6a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118412396"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006387"
 ---
 # <a name="em_setimestatus-message"></a>\_Message SETIMESTATUS em
 
@@ -65,15 +65,15 @@ Données spécifiques au type d’État. Si *wParam* est **EMSIS \_ COMPOSITIONS
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur précédente du paramètre *lParam* .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Modification riche :** Le **message \_ SETIMESTATUS em** n’est pas pris en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

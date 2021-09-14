@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db0ba4e4bf505c5fb1b746b84cae71dcc621635a0a33b4a533ce8551486fe6c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8780ed79650a90a8d85ee8025dbe97e9af36aa1a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062909"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006366"
 ---
 # <a name="em_setparaformat-message"></a>\_Message SETPARAFORMAT em
 
@@ -45,13 +45,13 @@ Microsoft Rich Edit 2,0 et versions ultérieures : ce paramètre peut être un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est une valeur différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

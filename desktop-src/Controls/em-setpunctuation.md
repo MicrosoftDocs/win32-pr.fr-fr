@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a5e0856c1ee1882695dc5e6d7dfdd6b72ea0f6c4f16ee7396bbfde2b76b49b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 710392cee7f7a1fb04fce59d6549134255499172
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062899"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006364"
 ---
 # <a name="em_setpunctuation-message"></a>\_Message SETPUNCTUATION em
 
@@ -61,13 +61,13 @@ Pointeur vers une structure de [**ponctuation**](/windows/desktop/api/Richedit/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est une valeur différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

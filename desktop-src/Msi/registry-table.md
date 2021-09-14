@@ -4,12 +4,12 @@ ms.assetid: 809ffd02-cf97-42d8-aed9-c13a14dcd8b4
 title: Table du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b76fbc52357cdba68dfdcdda37e6edb3032086bf101788db0cdc69c0281264
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b16cb2084716ea8cb9830056808e9c6be7da667f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120128989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009682"
 ---
 # <a name="registry-table"></a>Table du Registre
 
@@ -19,12 +19,12 @@ La table du registre contient les colonnes suivantes.
 
 
 
-| Colonne      | Type                         | Clé | Nullable |
+| Colonne      | Type                         | Clé : | Nullable |
 |-------------|------------------------------|-----|----------|
 | Registre    | [Identificateur](identifier.md) | O   | N        |
 | Root        | [Integer](integer.md)       | N   | N        |
-| Clé         | [RegPath](regpath.md)       | N   | N        |
-| Nom        | [Correct](formatted.md)   | N   | O        |
+| Clé :         | [RegPath](regpath.md)       | N   | N        |
+| Name        | [Correct](formatted.md)   | N   | O        |
 | Valeur       | [Correct](formatted.md)   | N   | O        |
 | Composant\_ | [Identificateur](identifier.md) | N   | N        |
 

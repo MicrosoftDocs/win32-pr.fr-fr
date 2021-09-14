@@ -3,7 +3,7 @@ title: Media. imageSourceHeight
 description: La propriété ImageSourceHeight récupère la hauteur de l’élément multimédia actuel en pixels.
 ms.assetid: fa98ec62-4c58-46ab-98f3-8017096d46d8
 keywords:
-- Media. imageSourceHeight Windows Media Player
+- Media. imageSourceHeight Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 0de364243e71c6653085b4c9c9ff81f148dc299d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529900"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127008408"
 ---
 # <a name="mediaimagesourceheight"></a>Media. imageSourceHeight
 
@@ -41,7 +41,7 @@ Pour récupérer la valeur de cette propriété, l’accès en lecture à la bib
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *Media*. imageSourceHeight pour afficher la taille de l’image, en pixels, de l’élément multimédia actuel. Les informations sont imprimées dans un élément TEXTAREA HTML nommé Videote. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *Media*. imageSourceHeight pour afficher la taille de l’image, en pixels, de l’élément multimédia actuel. Les informations sont imprimées dans un élément TEXTAREA HTML nommé Videote. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

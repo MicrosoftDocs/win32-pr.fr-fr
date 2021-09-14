@@ -4,12 +4,12 @@ ms.assetid: 7c2d3aca-9e05-44b7-a57b-51a34e9caae2
 title: Utilisation du API Table de routage distribué
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66d761a87e0320ddbf3b1fd40015a735174cda5cf6c8f8bb9714417262820d83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 63eaf60681f9ea1e8be6319508ec7d5e77c2dd87
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119775739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009206"
 ---
 # <a name="using-the-distributed-routing-table-api"></a>Utilisation du API Table de routage distribué
 

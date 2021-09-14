@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e62a5d652218b24240ce612851c4c08e335b31230532bc778bb44c5d7e74854
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eced7ff12526296552e4adcc38c927ae94ee0502
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118672277"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006343"
 ---
 # <a name="em_stopgrouptyping-message"></a>\_Message STOPGROUPTYPING em
 
@@ -43,11 +43,11 @@ Non utilisé ; doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est égale à zéro. Ce message ne peut pas échouer.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un contrôle RichEdit regroupe les actions consécutives de frappe, y compris les caractères supprimés à l’aide de la touche **retour arrière** , en une seule opération d’annulation jusqu’à ce que l’un des événements suivants se produise :
 
@@ -59,7 +59,7 @@ Un contrôle RichEdit regroupe les actions consécutives de frappe, y compris le
 
 Vous pouvez envoyer le **message \_ STOPGROUPTYPING em** pour fractionner les actions de frappe consécutives en groupes d’annulation plus petits. Par exemple, vous pouvez envoyer **des \_ STOPGROUPTYPING em** après chaque caractère ou à chaque saut de mot.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

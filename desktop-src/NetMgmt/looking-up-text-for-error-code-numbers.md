@@ -5,11 +5,11 @@ ms.assetid: 90ed87ca-7a08-4a66-b06a-e1bf668fb81a
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: ea0811c2b2da283a9cd5eb776cdb33a175c63491
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513722"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127009400"
 ---
 # <a name="looking-up-text-for-error-code-numbers"></a>Recherche de texte pour les numéros de code d’erreur
 
@@ -135,6 +135,6 @@ C:\> netmsg 2453
 Could not find domain controller for this domain
 ```
 
- 
+ 
 
- 
+ 
