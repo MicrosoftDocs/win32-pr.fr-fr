@@ -6,12 +6,12 @@ keywords:
 - transformation 3D, effet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d32a9c8fedca3be0d96a44047ac1b226d83309cf657f2cdc223a342e9d38880b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fabe0c2c220038802b5218b54187a1ff89268bfa
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119758220"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114213"
 ---
 # <a name="3d-transform-effect"></a>Effet de transformation 3D
 
@@ -28,7 +28,7 @@ Le CLSID de cet effet est CLSID \_ D2D13DTransform.
     -   [Modes d’interpolation](#interpolation-modes)
     -   [Modes de bordure](#border-modes)
 -   [Classe de matrice de transformation 4x4](#4x4-transform-matrix-class)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -131,7 +131,7 @@ X, Y, Z = coordonnées du plan de projection de sortie<br />
 
 
 
-| Name                     | Description                                                                                                      |
+| Nom                     | Description                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image avec des pixels noirs transparents au fur et à mesure de l’interpolation, ce qui génère une bordure douce.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet attache la sortie à la taille de l’image d’entrée. <br/>                                         |
@@ -162,7 +162,7 @@ Direct2D fournit une classe de matrice 4x4 pour fournir des fonctions d’assist
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ keywords:
 - ID de profil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6389f82e93a0b27c079bd75ded9eb7d35d78a380ab72d244c5443c07f4c9ed5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eeca66023e6de6aba9c07a6bcb84a73756e316a8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119807739"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293127"
 ---
 # <a name="system-profiles"></a>Profils système
 

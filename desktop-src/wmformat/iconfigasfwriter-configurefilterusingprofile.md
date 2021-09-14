@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dd215ae0c05dfa54790eaa17bba318cfb93890dea83ceb6111da8f2aafae7b51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07b8d87fbf7e8b2d1d46acf55fe96bfdfef472b4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117655569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293835"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofile-method"></a>IConfigAsfWriter :: ConfigureFilterUsingProfile, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers l’interface [**IWMProfile**](iwmprofile.md) sur le profil défin
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -64,7 +64,7 @@ Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notammen
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En cas de réussite, cette méthode entraîne l’envoi d’un événement **\_ \_ Changed Graph** à l’application. utilisez cette méthode pour configurer l’enregistreur avec un profil personnalisé Windows media 9 Series que vous avez créé (ou chargé à partir d’un fichier. prx existant) à l’aide des méthodes du kit de développement logiciel (SDK) Windows media Format.
 

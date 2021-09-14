@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 5a3573f721f31ffbe3858c7d6fb3c713468bc347f04a1b5d85c5839a1e18511b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 22dd22a7771f5d1e9466709f0b0da9ee936ef2b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414191"
 ---
 # <a name="mf_media_engine_keyerr-enumeration"></a>\_ \_ Énumération KEYERR du moteur multimédia MF \_
 
@@ -86,11 +86,11 @@ Une erreur s’est produite avec le domaine.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **MF \_ Le \_ \_ KEYERR du moteur multimédia** est utilisé avec le paramètre de *code* de [**IMFMediaKeySessionNotify :: keyerror**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror) et la valeur de *code* retournée par [**IMFMediaKeySession :: GetError**](imfmediakeysession-geterror.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

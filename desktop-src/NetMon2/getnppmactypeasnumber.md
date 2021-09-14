@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Npptools.dll
 ms.openlocfilehash: 9174b1deeb04d8d9665509daeff56d832d447892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525132"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416754"
 ---
 # <a name="getnppmactypeasnumber-function"></a>GetNPPMacTypeAsNumber fonction)
 
@@ -54,7 +54,7 @@ Pointeur vers le type MAC.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -64,7 +64,7 @@ Si la balise n’est pas disponible, la valeur de retour est de \_ type Mac \_ U
 
 Cette fonction mappe la balise, **NPP : NetworkInfo : MacType** au **\_ type \_ \* Mac** , comme défini dans le fichier Npptypes. h.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

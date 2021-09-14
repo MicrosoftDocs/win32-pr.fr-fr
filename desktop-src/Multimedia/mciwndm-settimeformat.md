@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bcec1f0db5accad93211bf1eb6f1c9297e2b9f33
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364332"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218545"
 ---
 # <a name="mciwndm_settimeformat-message"></a>\_Message MCIWNDM SETTIMEFORMAT
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon contenant la chaîne terminée par le caractè
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une application peut spécifier des formats d’heure autres que des images ou des millisecondes tant que les formats sont pris en charge par l’appareil MCI. Les formats incontinus, tels que Tracks et SMPTE, peuvent entraîner un comportement erratique du TrackBar. Pour ces formats d’heure, vous souhaiterez peut-être désactiver la barre d’outils à l’aide de la macro [**MCIWndChangeStyles**](/windows/desktop/api/Vfw/nf-vfw-mciwndchangestyles) et en spécifiant le \_ style de fenêtre NOPLAYBAR MCIWNDF.
 

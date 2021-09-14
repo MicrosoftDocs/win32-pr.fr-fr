@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b2a3ece2da72c5fe35a2710d83c0d9abd3376c6c4f1715d129bb63bd8a42e72
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 85a1929542a168a873e50baf9994375d09311cfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119619049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416261"
 ---
 # <a name="axwindowsmediaplayerctlcontrols-property"></a>AxWindowsMediaPlayer. Ctlcontrols, propriété
 
@@ -50,7 +50,7 @@ Public ReadOnly Property Ctlcontrols As IWMPControls
 
 WMPLIB. Interface IWMPControls.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

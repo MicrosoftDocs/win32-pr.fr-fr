@@ -5,11 +5,11 @@ title: Événement DBT_DEVICEREMOVEPENDING (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 421851dc46d905ae85941b92df6649ccb504ee50
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110695"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114402"
 ---
 # <a name="dbt_deviceremovepending-event"></a>\_Événement DBT DEVICEREMOVEPENDING
 
@@ -61,7 +61,7 @@ Pointeur vers une structure identifiant l’appareil. La structure se compose d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true**.
 
@@ -73,7 +73,7 @@ Le système peut diffuser un \_ message DBT DEVICEREMOVEPENDING sans envoyer de 
 
 Pour obtenir un exemple, consultez [traitement d’une demande de suppression d’un appareil](processing-a-request-to-remove-a-device.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

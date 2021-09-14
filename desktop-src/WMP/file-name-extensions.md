@@ -16,12 +16,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c69c36a5865b3496cf63e8cc08d73b9187f5107b14bf0bbb0d52b462e90c88a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d95d5bcba9bbad5f04b0d085ba712d5b9306c8b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119054987"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192275"
 ---
 # <a name="file-name-extensions"></a>Extensions de noms de fichiers
 
@@ -46,7 +46,7 @@ Les règles d’extension de nom de fichier sont répertoriées dans le tableau 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 la gestion des scripts et de la gestion des droits numériques (DRM) doit être prise en charge par toute application qui rend Windows fichiers multimédias.
 

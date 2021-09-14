@@ -4,12 +4,12 @@ description: La barre d’outils accès rapide (QAT) est une petite barre d’ou
 ms.assetid: b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d63eb3f7b1a2c1213430f86a9a12fe4517c738290ed736eb1d356420aa145cd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20a50d562477e5c626d2d2bffa8ee5e0ecc84919
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120110723"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219868"
 ---
 # <a name="quick-access-toolbar"></a>Barre d'outils Accès rapide
 
@@ -210,7 +210,7 @@ La méthode de rappel [IUICommandHandler :: UpdateProperty](/windows/desktop/ap
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle de la barre d’outils accès rapide (QAT).
 
-| Clé de propriété | Remarques |
+| Clé de propriété | Notes |
 |---|---|
 | [IU de l’IU \_ \_](windowsribbon-reference-properties-uipkey-itemssource.md) | Prend en charge [IUIFramework :: GetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) (ne prend pas en charge [IUIFramework :: SetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty)). [IUIFramework :: GetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) retourne un pointeur vers un objet IUICollection qui représente les commandes dans le qat. Chaque commande est identifiée par son ID de commande, qui est obtenu en appelant la méthode [IUISimplePropertySet :: GetValue](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) et en passant la clé de propriété de l' [interface utilisateur de l’interface utilisateur \_ \_ CommandID](windowsribbon-reference-properties-uipkey-commandid.md). |
 

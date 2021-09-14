@@ -4,12 +4,12 @@ ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: Événement METransformMarker (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7029119b30314e56531c0afb29accadb67e1efb343a906c2558af2157c0b1f82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab79c47e2ddb26f2366aff075548f7905807df1e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119827039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414244"
 ---
 # <a name="metransformmarker-event"></a>Événement METransformMarker
 
@@ -39,7 +39,7 @@ Les attributs suivants sont définis pour cet événement.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les MFTs asynchrones envoient cet événement par le biais de l’interface [**IMFMediaEventGenerator**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) . Les MFTs synchrones n’envoient jamais cet événement.
 
@@ -47,7 +47,7 @@ Le client d’une table MFT asynchrone peut placer un marqueur dans le flux en a
 
 Lorsque la table MFT termine le traitement de toutes les données d’entrée qui étaient disponibles au moment de l’appel de [**ProcessMessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) , la MFT met en file d’attente un événement METransformMarker. L’attribut de [ \_ \_ \_ contexte MFT](mf-event-mft-context.md) de l’événement MF de l’événement contient la valeur du paramètre *ulParam* . Pour plus d’informations, consultez [MFTS asynchrone](asynchronous-mfts.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

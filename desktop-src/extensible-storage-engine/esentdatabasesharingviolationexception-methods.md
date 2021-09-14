@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101540
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2f6ed4388a0985e96beabc2ede010d4c8c654f47b15b23f716b598afc170709b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a59689b774ca80b7a5d565bdea68112ca13b6c9b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119974659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122430"
 ---
 # <a name="esentdatabasesharingviolationexception-methods"></a>Méthodes EsentDatabaseSharingViolationException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentDatabaseSharingViolationException, classe](./esentdatabasesharingviolationexception-class.md)
 

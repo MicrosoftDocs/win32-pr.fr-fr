@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101134
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: df10a4fc421c55ad60200dd44ea57be55df1d5eb700ca2952367d0e43243785f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c79c223db3bb772526963fa5513b295200e7eaab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117715845"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414436"
 ---
 # <a name="esentbadlogversionexception-methods"></a>Méthodes EsentBadLogVersionException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentBadLogVersionException, classe](./esentbadlogversionexception-class.md)
 

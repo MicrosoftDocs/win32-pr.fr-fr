@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c7bfa232185ce17c9198edd1e1d97874e526d6f3ee16ae5edc3dcdbd14531359
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 6269b9b3aceed9251282dd728e4a48de3f180731
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652052"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195564"
 ---
 # <a name="creftimegetunits-method"></a>Méthode CRefTime. GetUnits
 
@@ -40,11 +40,11 @@ LONGLONG GetUnits();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur de [**CRefTime :: m \_ Time**](creftime-m-time.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

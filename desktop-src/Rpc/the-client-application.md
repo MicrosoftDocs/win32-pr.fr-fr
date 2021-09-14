@@ -4,12 +4,12 @@ description: Affichez la partie application cliente d’un exemple d’appel de 
 ms.assetid: 8c33801a-341a-4674-bd41-5bdca7e244fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570e883d908a12a053052945675e8819c3dbdcc8bb6a30fba787f1f62c49e9e5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 02e0b798543cd70e61f3ff1161503fa64710e53e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118924548"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416582"
 ---
 # <a name="the-client-application"></a>L'application cliente
 

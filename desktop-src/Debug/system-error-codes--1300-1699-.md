@@ -4,12 +4,12 @@ ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: Codes d’erreur système (1300-1699) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 7aeb1c3642331db8ed3215d55a6d77e1e7b2a98c3859a5eb64a1d5b60350d24a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8fa0cbc312c8d82879322f0bc0c79533ddb961ce
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119310919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114550"
 ---
 # <a name="system-error-codes-1300-1699"></a>Codes d’erreur système (1300-1699)
 
@@ -3036,7 +3036,7 @@ L’application que vous essayez d’exécuter n’est pas prise en charge sur c
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: dbde9ecd-4197-45b9-bd38-776818102580
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8153ee380d9171af34d65ae358aee5ae4f46bd606900ca509d1c66a4209698c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e31f73cbc52a09ad44ee98862d3fd98a113c8ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001867"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414648"
 ---
 # <a name="w-task-scheduler"></a>W (Planificateur de tâches)
 

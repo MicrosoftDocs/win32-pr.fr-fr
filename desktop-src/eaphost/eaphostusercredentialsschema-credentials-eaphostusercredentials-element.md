@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1e47e63dd6c29d4fbd85111cc5821688610d72c3f2858a371c392e16bee75207
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 043b82d5fb1ebc89f454ff6680672bda19e1c01e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221404"
 ---
 # <a name="credentials-eaphostusercredentials-element"></a>Élément Credentials (EapHostUserCredentials)
 
@@ -33,7 +33,7 @@ L’élément **Credentials (EapHostUserCredentials)** est utilisé lorsque la c
 
 L’élément **Credentials** est défini par l’élément [**EapHostUserCredentials**](eaphostusercredentialsschema-eaphostusercredentials-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

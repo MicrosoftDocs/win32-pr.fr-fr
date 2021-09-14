@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c14c36ff8a60c95ee1f5e1f85a46991660a6e5bae17367c01cec3d00da3d1f06
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2953066f115ebec05e7ee90e57a171884986d156
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292935"
 ---
 # <a name="playlistcollectionsetdeleted-method"></a>Méthode PlaylistCollection. setDeleted
 
@@ -57,15 +57,15 @@ Spécifiez toujours cette valeur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **Lecteur Windows Media 10 Mobile**: cette méthode n’est pas prise en charge.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

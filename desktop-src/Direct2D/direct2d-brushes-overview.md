@@ -6,11 +6,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
 ms.openlocfilehash: 7c8b4c4762a03650f150a74d3207d12767e1fb4e
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113342"
 ---
 # <a name="brushes-overview"></a>Présentation des pinceaux
 
@@ -25,7 +25,7 @@ Cette vue d’ensemble suppose que vous êtes familiarisé avec la structure d�
 Un pinceau « peint » une zone avec sa sortie. Des pinceaux différents ont différents types de sortie. Direct2D fournit quatre types de pinceau : [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) peint une zone avec une couleur unie, [**ID2D1LinearGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush) avec un dégradé linéaire, [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) avec un dégradé radial et [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) avec une bitmap.
 
 > [!NOTE]  
-> À compter de Windows 8, vous pouvez également utiliser [**ID2D1ImageBrush**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush), qui est similaire à un pinceau bitmap, mais vous pouvez également utiliser des primitives.
+> à partir de Windows 8, vous pouvez également utiliser [**ID2D1ImageBrush**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush), qui est similaire à un pinceau bitmap, mais vous pouvez également utiliser des primitives.
 
 Tous les pinceaux héritent de [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush) et partagent un ensemble de fonctionnalités communes (définition et obtention d’opacité, et transformation de pinceaux). ils sont créés par [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et sont des ressources dépendantes de l’appareil : votre application doit créer des pinceaux après avoir initialisé la cible de rendu avec laquelle les pinceaux seront utilisés, puis recréer les pinceaux chaque fois que la cible de rendu doit être recréée. (Pour plus d’informations sur les ressources, consultez [vue d’ensemble des ressources](resources-and-resource-domains.md).)
 
@@ -37,9 +37,9 @@ L’illustration suivante montre des exemples de chacun des différents types de
 
 Avant de peindre avec un [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) ou un pinceau de dégradé, vous devez choisir des couleurs. Dans Direct2D, les couleurs sont représentées par la structure de [**\_ couleur d2d1 \_ F**](d2d1-color-f.md) (qui est en fait un nouveau nom pour la structure utilisée par Direct3D, [D3DCOLORVALUE](../direct3d9/d3dcolorvalue.md)).
 
-Avant Windows 8, [**d2d1 \_ Color \_ F**](d2d1-color-f.md) utilise l’encodage sRVB. l’encodage sRVB divise les couleurs en quatre composants : rouge, vert, bleu et alpha. Chaque composant est représenté par une valeur de virgule flottante comprise dans une plage standard de 0 à 1. La valeur 0 indique l’absence complète de cette couleur, tandis que la valeur 1 indique que cette couleur est entièrement présente. Pour le composant alpha, 0 représente une couleur totalement transparente, et 1 une couleur totalement opaque.
+avant Windows 8, [**D2D1 \_ COLOR \_ F**](d2d1-color-f.md) utilise l’encodage srvb. l’encodage sRVB divise les couleurs en quatre composants : rouge, vert, bleu et alpha. Chaque composant est représenté par une valeur de virgule flottante comprise dans une plage standard de 0 à 1. La valeur 0 indique l’absence complète de cette couleur, tandis que la valeur 1 indique que cette couleur est entièrement présente. Pour le composant alpha, 0 représente une couleur totalement transparente, et 1 une couleur totalement opaque.
 
-À partir de Windows 8, [**d2d1 \_ Color \_ F**](d2d1-color-f.md) accepte également l’encodage ScRVB. ScRVB est un sur-ensemble de qui autorise les valeurs de couleur supérieures à 1,0 et inférieures à 0,0.
+à partir de Windows 8, [**D2D1 \_ COLOR \_ F**](d2d1-color-f.md) accepte également l’encodage scrvb. ScRVB est un sur-ensemble de qui autorise les valeurs de couleur supérieures à 1,0 et inférieures à 0,0.
 
 Pour définir une couleur, vous pouvez utiliser la structure de [**\_ couleur d2d1 \_ F**](d2d1-color-f.md) et initialiser les champs vous-même, ou vous pouvez utiliser la classe [**d2d1 :: ColorF**](/windows/win32/api/d2d1helper/nl-d2d1helper-colorf) pour vous aider à créer la couleur. La classe **ColorF** fournit plusieurs constructeurs pour définir des couleurs. Si la valeur alpha n’est pas spécifiée dans les constructeurs, la valeur par défaut est 1,0.
 

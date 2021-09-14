@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 1ec9a9ea1de4e3f501c94394ec9038d39c9b881c1e2bb1f41322d4f08c2db922
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a546831d6e88b3e35706df59adabe0627ad9fccb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121130"
 ---
 # <a name="capicom_encoding_type-enumeration"></a>\_Énumération de type d’encodage CAPICOM \_
 
@@ -36,7 +36,7 @@ Le type d’énumération de **\_ \_ type d’encodage CAPICOM** indique le type
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce type d’énumération est utilisé par les méthodes et propriétés CAPICOM suivantes :
 
@@ -50,7 +50,7 @@ Ce type d’énumération est utilisé par les méthodes et propriétés CAPICOM
 -   [**Store. Export,**](store-export.md) méthode
 -   Méthode [**Utilities. GetRandom**](utilities-getrandom.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

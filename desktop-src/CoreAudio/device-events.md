@@ -4,12 +4,12 @@ ms.assetid: b31500d6-a79d-4e6e-878e-6bd77055f1ad
 title: Événements d’appareil (API audio principales)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b61538bd7d8d297b52a321f446bb11c3e1365e549a3c2947b55538730c1660c7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0513fc49ee5f3cb2bfe95ca2330cb79b74720923
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118407027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115025"
 ---
 # <a name="device-events-core-audio-apis"></a>Événements d’appareil (API audio principales)
 

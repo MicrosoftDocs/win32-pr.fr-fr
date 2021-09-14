@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 3425f9477b153721980e3bb44b919b0baea37aa645caea6a3ee328a9ff923eb8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1847ffa1912a8638476ce80dfbdb71c40fc376d8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824730"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293411"
 ---
 # <a name="printprocessor_caps_2-structure"></a>\_Structure PRINTPROCESSOR Cap \_ 2
 
@@ -127,13 +127,13 @@ Peut uniquement être PPCAPS de mise à l’échelle \_ carrée \_ , ce qui indi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 les valeurs de tous les membres de structure sont fournies par la fonction **GetPrintProcessorCapabilities** , qui est documentée dans le Kit de pilotes Windows.
 
 Quand une application appelle [**GetPrinterData**](getprinterdata.md), le spouleur appelle la fonction **GetPrintProcessorCapabilities** d’un processeur d’impression et spécifie un nom de valeur qui a un format _de type de_ données **PrintProcCaps \_**, où *DataType* est le nom d’un type de données d’entrée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

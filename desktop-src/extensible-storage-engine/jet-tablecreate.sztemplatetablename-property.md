@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b3820c514851569a5f846256f513a06d2ecf9610da02b3017c78d2c162560dad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f3e78e1493ee14168e53366d320bd2acdebb337d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119729049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122349"
 ---
 # <a name="jet_tablecreatesztemplatetablename-property"></a>JET_TABLECREATE. szTemplateTableName, propriété
 
@@ -66,7 +66,7 @@ Type : [System. String](/dotnet/api/system.string)
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_TABLECREATE](./jet-tablecreate-class.md)
 

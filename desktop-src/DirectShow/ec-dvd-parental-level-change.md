@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: f990e8441cd6585d30a9876204f07099345f22f49895d4d429655405d498ed63
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f6e1dbcbcb285f33b6ea2b99c59c5c82dae0ae03
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120102929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195468"
 ---
 # <a name="ec_dvd_parental_level_change"></a>\_modification du \_ \_ niveau parental du DVD \_ EC
 
@@ -42,11 +42,11 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le filtre de [navigateur DVD](dvd-navigator-filter.md) ne prend pas en charge les modifications de niveau parental pendant la diffusion en continu en réponse aux commandes SetTmpPML sur un disque DVD.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

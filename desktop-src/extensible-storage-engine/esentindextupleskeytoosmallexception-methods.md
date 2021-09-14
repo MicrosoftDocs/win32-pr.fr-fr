@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101787
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ba9cb3f08bf6e1b20a3c2258bd62d2bef3fb49c0206648b9652ba5563794fae3
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ef6fd5e93d89361956806a5d5b5332af8bceb4e6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119454749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192964"
 ---
 # <a name="esentindextupleskeytoosmallexception-methods"></a>Méthodes EsentIndexTuplesKeyTooSmallException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentIndexTuplesKeyTooSmallException, classe](./esentindextupleskeytoosmallexception-class.md)
 

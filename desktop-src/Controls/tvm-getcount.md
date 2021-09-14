@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fce2d3ed6580acc875007ff3962bbeb21e9c0d3c3cb38128a2339da79597f3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 870ca0d1e4bf04d054d29d78ab60371863648a8f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115714"
 ---
 # <a name="tvm_getcount-message"></a>TVM \_ GETCOUNT (message)
 
@@ -35,15 +35,15 @@ Récupère le nombre d’éléments dans un contrôle Tree-View. Vous pouvez env
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le nombre d’éléments.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nombre de nœuds retourné par [**TreeView \_ GetCount**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getcount) est limité aux valeurs entières. Si vous ajoutez un nœud au-delà de 32767, la macro retourne une valeur négative. Après l’ajout de nœuds 65536, le nombre retourne à zéro. Dans ce cas, le contrôle Tree-View apparaît vide sans barre de défilement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

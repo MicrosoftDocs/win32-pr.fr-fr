@@ -4,12 +4,12 @@ description: Manifeste de l’application (exécutable)
 ms.assetid: F46F33A6-0B2F-4086-9C6D-4AD43C26BCD3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4abd733bf1575a7f6106b0e6b2aaa068cffc56668dc595edc73ad0413c0c34e5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: de6f5a1d26af4b8ac6314655013ed56275bf7d73
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549779"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220025"
 ---
 # <a name="app-executable-manifest"></a>Manifeste de l’application (exécutable)
 

@@ -4,12 +4,12 @@ description: Haute résolution
 ms.assetid: 476fe65c-2acd-4a7a-8a76-72d9f010b772
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5006d5bdf1c9e90745ef8e3571e64e729dbf5dff54338280789f39c6d0027e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cc7c70e44c497f116348e7b42b260f056d593524
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118203960"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293962"
 ---
 # <a name="high-dpi"></a>Haute résolution
 

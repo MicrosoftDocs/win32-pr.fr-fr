@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Npptools.dll
 ms.openlocfilehash: 5359332d96fb85343300c5def12070c812bd99d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535719"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121406"
 ---
 # <a name="getnppetypesapfilter-function"></a>GetNPPEtypeSapFilter fonction)
 
@@ -94,7 +94,7 @@ Handle vers un objet BLOB d’erreur, qui spécifie l’emplacement dans l’obj
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -104,7 +104,7 @@ Si la fonction échoue, la valeur de retour est une valeur NMERR qui indique l�
 
 Les informations ETYPE/SAP sont stockées dans la catégorie de **configuration** de la section **propriétaire** NPP.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

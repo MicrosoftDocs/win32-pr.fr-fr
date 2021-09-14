@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 38b0b61c78cc684de27d1e9a2747498e30eb3fe9
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195352"
 ---
 # <a name="icm_compress_get_size-message"></a>ICM \_ \_Message d’extraction de taille de compression \_
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne le nombre maximal d’octets qu’un seul Frame compressé peut occuper.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 En règle générale, les applications envoient ce message pour déterminer la taille d’une mémoire tampon à allouer pour le frame compressé.
 

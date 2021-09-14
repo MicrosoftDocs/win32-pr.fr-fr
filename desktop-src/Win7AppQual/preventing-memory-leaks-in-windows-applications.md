@@ -4,12 +4,12 @@ ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: prévention des fuites de mémoire dans les Applications Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef336c52ff4869ae9947b898e8a42c480be58054315de0180ec6a18f8c917f51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e973da19d075ac94824df340d1741fd9cefb3486
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994793"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414548"
 ---
 # <a name="preventing-memory-leaks-in-windows-applications"></a>prévention des fuites de mémoire dans les Applications Windows
 
@@ -31,7 +31,7 @@ Les applications peuvent allouer de la mémoire en leur nom par plusieurs moyens
 -   Les handles de noyau créés via des API Kernel32 telles que [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea), [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)ou [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread)détiennent la mémoire du noyau pour le compte de l’application.
 -   Les handles GDI et utilisateur créés via les API User32 et gdi32 (par défaut, chaque processus a un quota de 10 000 descripteurs)
 
-## <a name="best-practices"></a>Meilleures pratiques
+## <a name="best-practices"></a>Bonnes pratiques
 
 La surveillance de la consommation des ressources de votre application au fil du temps est la première étape de la détection et du diagnostic des fuites de mémoire. utilisez Windows gestionnaire des tâches et ajoutez les colonnes suivantes : « taille de validation », « handles », « objets utilisateur » et « objets GDI ». Cela vous permettra d’établir une ligne de base pour votre application et de surveiller l’utilisation des ressources au fil du temps.
 

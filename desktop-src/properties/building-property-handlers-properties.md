@@ -4,12 +4,12 @@ ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: Fonctionnement des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42139a869551f0f4dc786f02c66c673a49495ba01f5258aeeff12051bd3f60b8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b44d0a3a6d0a1b6c929eb151551155d0b5435a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119946969"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220585"
 ---
 # <a name="understanding-property-handlers"></a>Fonctionnement des gestionnaires de propriétés
 

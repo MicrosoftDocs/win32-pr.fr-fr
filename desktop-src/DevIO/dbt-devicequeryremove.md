@@ -5,11 +5,11 @@ title: Événement DBT_DEVICEQUERYREMOVE (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7b8c9dbdee13318f9a664582fdba8f9e3f9bfc5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114426"
 ---
 # <a name="dbt_devicequeryremove-event"></a>\_Événement DBT DEVICEQUERYREMOVE
 
@@ -61,7 +61,7 @@ Pointeur vers une structure identifiant l’appareil à supprimer. La structure 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** pour accorder l’autorisation de supprimer un appareil.
 
@@ -75,7 +75,7 @@ Vous devez fermer tous les descripteurs de l’appareil, sinon la suppression de
 
 Pour obtenir un exemple, consultez [traitement d’une demande de suppression d’un appareil](processing-a-request-to-remove-a-device.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

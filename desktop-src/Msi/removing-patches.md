@@ -1,27 +1,27 @@
 ---
-description: À partir de Windows Installer&\# 160 ; version&\# 160 ; 3.0, il est possible de créer et d’installer des correctifs qui peuvent être désinstallés séparément et dans n’importe quel ordre, sans avoir à désinstaller et réinstaller l’application entière et les autres correctifs.
+description: à partir de Windows Installer&\# 160 ; version&\# 160 ; 3.0, il est possible de créer et d’installer des correctifs qui peuvent être désinstallés séparément et dans n’importe quel ordre, sans avoir à désinstaller et réinstaller l’application entière et les autres correctifs.
 ms.assetid: 2ad30ac9-eac9-49cf-98ae-5c053a0b500a
 title: Suppression des correctifs
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 7cd54db3bde3a356a0c3adb299555248bbc87a0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534592"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195355"
 ---
 # <a name="removing-patches"></a>Suppression des correctifs
 
-À partir de Windows Installer version 3,0, il est possible de créer et d’installer des correctifs qui peuvent être désinstallés séparément et dans n’importe quel ordre, sans avoir à désinstaller et réinstaller l’application entière et les autres correctifs. Windows Installer 3,0 permet également de créer des [packages de correctifs](patch-packages.md) à l’aide d’une [table MsiPatchSequence](msipatchsequence-table.md) contenant des informations sur le séquencement des correctifs. Avec les versions de Windows Installer antérieures à Windows Installer 3,0, la seule méthode permettant de supprimer des correctifs particuliers d’une application consiste à désinstaller l’ensemble de l’application corrigée, puis à réinstaller sans réappliquer les correctifs en cours de suppression.
+à partir de Windows Installer version 3,0, il est possible de créer et d’installer des correctifs qui peuvent être désinstallés séparément et dans n’importe quel ordre, sans avoir à désinstaller et réinstaller l’application entière et les autres correctifs. Windows Le programme d’installation 3,0 permet également de créer des [packages de correctifs](patch-packages.md) à l’aide d’une [table MsiPatchSequence](msipatchsequence-table.md) contenant des informations sur le séquencement des correctifs. avec les versions de Windows Installer antérieures à Windows Installer 3,0, la seule méthode permettant de supprimer des correctifs particuliers d’une application consiste à désinstaller l’ensemble de l’application corrigée, puis à réinstaller sans réappliquer les correctifs en cours de suppression.
 
-Le fait de pouvoir désinstaller un correctif dépend de la manière dont le correctif a été créé, de la version de Windows Installer utilisée pour installer le correctif et des modifications apportées par le correctif à l’application. Si un correctif ne peut pas être installé, le seul moyen de supprimer le correctif consiste à désinstaller l’application entière et à la réinstaller sans appliquer le correctif en cours de suppression.
+le fait de pouvoir désinstaller un correctif dépend de la manière dont le correctif a été créé, de la version de Windows Installer utilisée pour installer le correctif et des modifications apportées par le correctif à l’application. Si un correctif ne peut pas être installé, le seul moyen de supprimer le correctif consiste à désinstaller l’application entière et à la réinstaller sans appliquer le correctif en cours de suppression.
 
 Vous pouvez désinstaller un ou plusieurs correctifs à l’aide d’une option de ligne de commande, de l’interface de script ou en appelant [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa) à partir d’une autre application. Pour plus d’informations sur la désinstallation des correctifs, voir [désinstallation des correctifs](uninstalling-patches.md) .
 
 La valeur de la propriété [**MSIPATCHREMOVE**](msipatchremove.md) répertorie les correctifs à désinstaller. Pour chaque correctif de la liste, le programme d’installation vérifie que le correctif n’est pas installé. Si l’utilisateur ne dispose pas des privilèges nécessaires pour supprimer le correctif, si le correctif est inconnu pour le produit, si la stratégie de correctifs empêche la suppression ou si le correctif a été marqué comme ne pouvant pas être installé, le programme d’installation renvoie une erreur indiquant qu’une transaction d’installation a échoué. Pour plus d’informations sur les éléments qui déterminent si un correctif ne peut pas être installé, consultez [correctifs non installés](uninstallable-patches.md) .
 
-Une fois que le correctif est vérifié comme étant amovible, le programme d’installation supprime le correctif de la séquence d’application du correctif. Pour plus d’informations sur la façon dont Windows Installer 3,0 détermine la séquence à utiliser lors de l’application des correctifs, consultez mise en [séquence des correctifs](sequencing-patches.md). Notez que la suppression de correctifs de la séquence peut entraîner la désactivation des correctifs marqués comme obsolètes ou remplacés.
+Une fois que le correctif est vérifié comme étant amovible, le programme d’installation supprime le correctif de la séquence d’application du correctif. pour plus d’informations sur la façon dont Windows Installer 3,0 détermine la séquence à utiliser lors de l’application des correctifs, consultez mise en [séquence des correctifs](sequencing-patches.md). Notez que la suppression de correctifs de la séquence peut entraîner la désactivation des correctifs marqués comme obsolètes ou remplacés.
 
 Tous les correctifs sélectionnés pour la suppression sont répertoriés dans la propriété [**MsiPatchRemovalList**](msipatchremovallist.md) . Cette propriété est une propriété privée qui est définie par le programme d’installation et peut être utilisée dans les expressions conditionnelles ou interrogée par des [actions personnalisées](custom-actions.md). La propriété contient la liste des GUID de code correctif des correctifs à supprimer. Une action personnalisée peut déterminer si l’état d’installation du correctif est appliqué, obsolète ou remplacé en appelant la propriété [**MsiGetPatchInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa) ou [**PatchProperty**](patch-patchproperty.md) de l' [objet patch](patch-object.md).
 

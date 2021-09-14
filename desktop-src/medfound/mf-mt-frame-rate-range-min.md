@@ -4,12 +4,12 @@ ms.assetid: d3725796-f683-4ca1-a37f-22c40fff0b76
 title: Attribut MF_MT_FRAME_RATE_RANGE_MIN (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11253444255e3bac36cb4563e632ebe04d1782b0ae8edadabc08e34cf1d38a99
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9692927242eea7ec65b86572db455e610e30c711
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414154"
 ---
 # <a name="mf_mt_frame_rate_range_min-attribute"></a>\_ \_ \_ \_ \_ Attribut min de la plage de fréquence d’images MF
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**MFGetAttributeRatio**](/windows/deskto
 
 Pour définir cet attribut, appelez [**MFSetAttributeRatio**](/windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La fréquence d’images est exprimée sous la forme d’un rapport. Les 32 bits supérieurs de la valeur d’attribut contiennent le numérateur, et les 32 de bits inférieurs contiennent le dénominateur. Par exemple, si la fréquence d’images est de 30 images par seconde (FPS), le ratio est de 30/1.
 
@@ -35,7 +35,7 @@ Pour définir la fréquence d’images de l’appareil, commencez par modifier l
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

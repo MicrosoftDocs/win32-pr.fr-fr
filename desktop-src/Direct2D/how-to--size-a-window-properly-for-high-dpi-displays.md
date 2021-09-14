@@ -4,12 +4,12 @@ description: Décrit les étapes de création d’une fenêtre pour votre applic
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d8ebc6a7621623307d9b2cfd953a5fa3f3387fbacb3faeb345375d925044cf
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119259959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113165"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>Affichage correct sur un affichage haute résolution
 

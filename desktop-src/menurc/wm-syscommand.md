@@ -16,11 +16,11 @@ ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
 ms.openlocfilehash: 5458a9acfa6c166764b47a2d49a5ddcc181e38ee
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482175"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220737"
 ---
 # <a name="wm_syscommand-message"></a>\_Message WM SYSCOMMAND
 
@@ -99,7 +99,7 @@ Le mot de poids fort spécifie la position verticale du curseur, en coordonnées
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir les coordonnées de position en coordonnées d’écran, utilisez le code suivant :
 
@@ -125,7 +125,7 @@ Les touches d’accès rapide définies pour choisir des éléments dans le menu
 
 Si le *wParam* est **le \_ keymenu SC**, *lParam* contient le code de caractère de la clé utilisée avec la touche Alt pour afficher le menu contextuel. Par exemple, si vous appuyez sur ALT + F pour afficher la fenêtre contextuelle du fichier, un **\_ SYSCOMMAND WM** avec *wParam* égal à **SC \_ keymenu** et *lParam* est égal à’F'.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -168,7 +168,7 @@ Si le *wParam* est **le \_ keymenu SC**, *lParam* contient le code de caractère
 [**WM, \_ commande**](wm-command.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Raccourcis clavier](keyboard-accelerators.md)

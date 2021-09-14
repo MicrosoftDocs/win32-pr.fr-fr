@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 8b93e2b76e46ed75abcd6460f351dfc2780826c2ff5e7dc8d07e8d48ae617e4a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dd00ba19872cb0ba2b21981c79e8f7be03aa4937
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119425729"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120898"
 ---
 # <a name="iscrdenrsetsigningcertificate-method"></a>ISCrdEnr :: setSigningCertificate, méthode
 
@@ -68,7 +68,7 @@ Nom du modèle de certificat pour le certificat de signature. Vous pouvez utilis
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 ### <a name="vb"></a>VB
 
@@ -76,7 +76,7 @@ Si la méthode est réussie, la méthode retourne S \_ OK.
 
 Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’erreur. Pour obtenir la liste des codes d’erreur courants, consultez [valeurs HRESULT communes](common-hresult-values.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant de procéder à l’inscription pour le compte d’un utilisateur, vous devez d’abord obtenir un certificat de signature. Vous pouvez obtenir un certificat de signature à l’aide du composant logiciel enfichable MMC du gestionnaire de certificats. La méthode **setSigningCertificate** n’obtient pas le certificat de signature, mais informe le contrôle d’inscription de carte à puce qui a précédemment obtenu le certificat de signature à utiliser. La méthode **setSigningCertificate** recherche le certificat de signature le plus récent correspondant au modèle de certificat spécifié par *bstrCertTemplateName* dans le magasin My de l’appelant.
 
@@ -84,7 +84,7 @@ Une alternative à **setSigningCertificate** est **ISCrdEnr :: setSigningCertif
 
 Une fois le certificat de signature défini, son nom peut être récupéré en appelant [**ISCrdEnr :: getSigningCertificateName**](iscrdenr-getsigningcertificatename.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

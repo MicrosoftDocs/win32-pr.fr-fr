@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, meilleures pratiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdad2a69c19efc11554bffc1d58b84a1dceb93f2ff41c37e7bae07ab55cfb717
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c88cbc9cda1fee3f41b12d41eceba4a9c63f744
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416614"
 ---
 # <a name="best-rpc-programming-practices"></a>Meilleures pratiques de programmation RPC
 

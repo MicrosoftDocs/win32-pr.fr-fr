@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches Planificateur de tâches, nouveautés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3592cc5efd08afe4737e9af429d52fa41216b6c756a64faeaa45f6cc5c0774b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5245ab4e681af937924cfbd217095009d80d6a11
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118354781"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414633"
 ---
 # <a name="whats-new-in-task-scheduler"></a>Nouveautés de Planificateur de tâches
 

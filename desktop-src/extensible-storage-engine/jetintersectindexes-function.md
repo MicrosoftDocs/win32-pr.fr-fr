@@ -19,11 +19,11 @@ api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
 ms.openlocfilehash: 34909de0f732a49711d316affae3eb84487420d3
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984502"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415976"
 ---
 # <a name="jetintersectindexes-function"></a>Fonction JetIntersectIndexes
 
@@ -97,7 +97,7 @@ En cas de réussite, une nouvelle table temporaire est retournée, qui contient 
 
 En cas d’échec, la table temporaire contenant les résultats ne sera pas créée. L’état de la base de données temporaire peut être modifié. L’état de toutes les bases de données ordinaires utilisées par le moteur de base de données reste inchangé. La position actuelle du [JET_TABLEID](./jet-tableid.md)fourni à cette fonction peut être modifiée.
 
-#### <a name="remarks"></a>Remarques
+#### <a name="remarks"></a>Notes
 
 **JetIntersectIndexes** peut être utilisé pour filtrer efficacement les enregistrements d’une table selon plusieurs critères si ces critères peuvent être exprimés en termes d’index secondaires sur cette table. Par exemple, considérez que vous disposez d’une table très volumineuse contenant des personnes. La table peut comporter des colonnes pour son ID utilisateur, son prénom, son nom, etc. Supposons que chacune de ces colonnes soit indexée séparément et que l’index primaire de la table soit sur l’ID d’utilisateur. Si vous souhaitez trouver tous les utilisateurs dont le prénom commence par un et dont le nom commence par G, vous devez effectuer les étapes suivantes :
 
@@ -115,7 +115,7 @@ La table temporaire retournée par **JetIntersectIndexes** peut uniquement être
 
 **JetIntersectIndexes** est généralement un moyen efficace et pratique de filtrer les enregistrements en fonction de plusieurs critères indexés. Toutefois, il existe des conseils importants qui doivent être suivis pour optimiser l’utilité de cette fonctionnalité. Si vous savez que l’un des critères est tellement restrictif que la plage d’index résultante a très peu d’enregistrements, il est probablement préférable de simplement parcourir la plage d’index et de filtrer les enregistrements au niveau de l’application. En outre, si vous savez que vous avez des critères qui sont bien moins restrictifs que d’autres critères de votre intersection, vous pouvez envisager de supprimer ces critères de plus en moins restrictifs de l’intersection. Enfin, si vous savez que l’un des critères n’est pas tout à fait restrictif, de sorte que la plage d’index résultante est presque aussi importante que l’index primaire, il est peu probable que l’intersection avec cette plage d’index soit avantageuse (réduisez la taille de) l’ensemble de résultats. Dans tous les cas, vous devez sélectionner des critères de manière à ce qu’ils prennent le moins d’entrées d’index possible en entrée et génèrent le jeu de signets le plus spécifique sur la sortie pour des performances maximales.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

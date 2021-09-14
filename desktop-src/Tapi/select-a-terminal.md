@@ -4,12 +4,12 @@ ms.assetid: ff43e81c-ff39-466d-870a-54b75c2938a4
 title: Sélectionner un terminal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b77ee3bb889f5372ae024b29867b6c9d418c5924b4e626be70aa5d49ad72c9c9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ac3d195e021f5937c733f3d7a0efce0cfee5eba9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119991839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414679"
 ---
 # <a name="select-a-terminal"></a>Sélectionner un terminal
 

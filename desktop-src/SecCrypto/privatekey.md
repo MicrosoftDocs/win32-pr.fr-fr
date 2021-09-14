@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Capicom.dll
 ms.openlocfilehash: e87ca7a5bf12bbaf943bccacaa075a51ae75ed37
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120849"
 ---
 # <a name="privatekey-object"></a>Objet PrivateKey
 
@@ -56,7 +56,7 @@ L’objet **PrivateKey** a ces méthodes.
 | [**IsMachineKeyset**](privatekey-ismachinekeyset.md)   | Récupère une valeur booléenne qui indique si la clé privée est une clé d’ordinateur. Si la valeur est true, la clé privée est une clé d’ordinateur.<br/>                             |
 | [**IsProtected**](privatekey-isprotected.md)           | Récupère une valeur booléenne qui indique si la clé privée est protégée. Si la valeur est true, la clé privée est protégée.<br/>                                     |
 | [**IsRemovable**](privatekey-isremovable.md)           | Récupère une valeur booléenne qui indique si la clé privée est sur un appareil amovible. Si la valeur est true, la clé privée se trouve sur un périphérique amovible.<br/>             |
-| [**Afficher**](privatekey-open.md)                         | Accède à un conteneur de clé existant.<br/>                                                                                                                       |
+| [**Ouvrir**](privatekey-open.md)                         | Accède à un conteneur de clé existant.<br/>                                                                                                                       |
 
 
 
@@ -84,13 +84,13 @@ L’objet **PrivateKey** a ces propriétés.
 
 L’objet **PrivateKey** peut être créé et il est sécurisé pour les scripts. Le ProgID de l’objet **PrivateKey** est CAPICOM. PrivateKey. 1.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

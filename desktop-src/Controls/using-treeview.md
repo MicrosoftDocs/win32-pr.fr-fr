@@ -4,12 +4,12 @@ description: Cette section contient des détails d’implémentation et un exemp
 ms.assetid: 37736770-5030-4f8a-a020-6897ed5f4e96
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8beac9ef5163b52582a2ea89820278cc10f9f68ad865354404efd72a61b04993
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d9ed8d1040a635964e772b8399a5c476e67f9aba
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119318588"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115226"
 ---
 # <a name="using-tree-view-controls"></a>Utilisation de contrôles Tree-View
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8199543491c27272cea96e994e9fc301c0ed53e2783fb2abff5677241c75dde4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4d028634364ca59ae293d9ebb60a464974ccd74
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195515"
 ---
 # <a name="ctransforminputpinbeginflush-method"></a>Méthode CTransformInputPin. BeginFlush
 
@@ -40,7 +40,7 @@ HRESULT BeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -55,11 +55,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode appelle la méthode [**CBaseInputPin :: BeginFlush**](cbaseinputpin-beginflush.md) du pin. Elle appelle ensuite la méthode [**CTransformFilter :: BeginFlush**](ctransformfilter-beginflush.md) du filtre pour remettre l’appel en aval.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d03f2fbc-313a-42cf-902a-fd9f6dce2a35
 title: Constantes DEVICE_STATE_XXX (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3d5632f14ff52fec2aa907dc2786f2a3ab893f921cd44433548510163f66a1b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b65fc09a547ad702d27e96e968915f9d70e3313e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120053869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114989"
 ---
 # <a name="device_state_xxx-constants"></a>Constantes de l’état de l’appareil \_ \_ xxx
 
@@ -27,7 +27,7 @@ Les \_ \_ constantes de l’état de l’appareil xxx indiquent l’état actuel
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les méthodes [**IMMDeviceEnumerator :: EnumAudioEndpoints**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints), [**IMMDevice :: GetState**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-getstate)et [**IMMNotificationClient :: OnDeviceStateChanged**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondevicestatechanged) utilisent les constantes de l’état de l’appareil \_ \_ xxx. Ces méthodes permettent aux clients d’obtenir des informations sur les appareils de point de terminaison qui se trouvent dans l’un des États représentés par les constantes de l’état de l’appareil \_ \_ xxx.
 
@@ -57,7 +57,7 @@ Pour afficher uniquement les appareils de point de terminaison qui sont dans l�
 
 Pour activer ou désactiver un périphérique de point de terminaison dans Mmsys.cpl, cliquez sur **lecture** ou **enregistrement**, selon que l’appareil est un appareil de lecture ou d’enregistrement. Ensuite, sélectionnez l’appareil et cliquez sur **Propriétés**. Dans la fenêtre **Propriétés** , en regard de **utilisation de l’appareil**, sélectionnez **utiliser ce périphérique (activé)** ou **ne pas utiliser ce périphérique (désactivé)**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

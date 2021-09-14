@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 2de870526b694b847beb3913f92d2d784810ee6d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317410"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192484"
 ---
 # <a name="ui_animation_repeat_indefinitely"></a>l’animation de l’interface utilisateur se \_ \_ répète \_ indéfiniment
 
@@ -31,13 +31,13 @@ Indique que l’intervalle entre deux images clés dans un Storyboard doit se r�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista et la mise à jour de la plateforme pour les applications de bureau Windows Vista \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows Vista et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | En-tête<br/>                   | <dl> <dt>UIAnimation. h</dt> </dl>        |
 | MIDL<br/>                      | <dl> <dt>UIAnimation. idl</dt> </dl>      |

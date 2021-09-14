@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6c5fa2ba102de1135c0019e2dcfb291f55672cabb00cea1c59d8a655f21c882e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c2aa61ebc3ef48c82405d960d5de42ab8f23dc53
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955169"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292802"
 ---
 # <a name="swbemlocatorsecurity_-property"></a>SWbemLocator. Security, \_ propriété
 
@@ -47,11 +47,11 @@ SWbemLocator.Security_ As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les propriétés d’un objet **SWbemLocator. \_ Security** n’ont pas de valeurs par défaut. Si vous tentez d’obtenir la valeur de [**SWbemSecurity. AuthenticationLevel**](swbemsecurity-authenticationlevel.md) ou de [**SWbemSecurity. ImpersonationLevel**](swbemsecurity-impersonationlevel.md) sur un objet [**SWbemLocator**](swbemlocator.md) avant de le définir, une erreur [wbemErrFailed](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemerrorenum) se produit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

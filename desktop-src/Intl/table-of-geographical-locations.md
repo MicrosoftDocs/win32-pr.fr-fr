@@ -4,12 +4,12 @@ ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: Tableau des zones géographiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7c45ad723829fb4233987457e84134c472eca0697c68ced8ec78c8a40d786ac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fa59c091257fcb0ae7ebb48da7d685a0de8d74e8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119897869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121818"
 ---
 # <a name="table-of-geographical-locations"></a>Tableau des zones géographiques
 
@@ -181,7 +181,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0xcb                                   | 203                                        | Russie                                       | Fédération de Russie                                    |
 | 0xcc                                   | 204                                        | Rwanda                                       | République du Rwanda                                    |
 | 0xCD                                   | 205                                        | Arabie saoudite                                 | Royaume d’Arabie saoudite                               |
-| 0xce                                   | 206                                        | Saint-Pierre-et-Miquelon                    | Collectivité territoriale de Saint-Pierre-et-Miquelon |
+| 0xce                                   | 206                                        | Saint Pierre et Miquelon                    | Collectivité territoriale de Saint-Pierre-et-Miquelon |
 | 0xcf                                   | 207                                        | Saint-Kitts-et-Nevis                        | Fédération de Saint-Kitts-et-Nevis                   |
 | 0xd0                                   | 208                                        | Seychelles                                   | République des Seychelles                                |
 | 0xD1                                   | 209                                        | Afrique du Sud                                 | République de l’Afrique du Sud                              |
@@ -258,7 +258,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x142                                  | 322                                        | Guam                                         | Territoire de Guam                                     |
 | 0x143                                  | 323                                        | Baie Guantanamo                               |                                                       |
 | 0x144                                  | 324                                        | Guernesey                                     | Bailliage de Guernesey                                 |
-| 0x145                                  | 325                                        | Heard et McDonald (Îles)            | Territoire des îles Heard et McDonald        |
+| 0x145                                  | 325                                        | Heard et McDonald (îles)            | Territoire des îles Heard et McDonald        |
 | 0x146                                  | 326                                        | Howland (île)                               |                                                       |
 | 0x147                                  | 327                                        | Jarvis (île)                                |                                                       |
 | 0x148                                  | 328                                        | Jersey                                       | Bailliage de Jersey                                   |
@@ -282,7 +282,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x15c                                  | 348                                        | Tristan da Cunha                             |                                                       |
 | 0x15d                                  | 349                                        | Turks et Caicos (îles)                     | Turks et Caicos (îles)                              |
 | 0x15f                                  | 351                                        | Vierges britanniques (îles)                       | Vierges britanniques (îles)                                |
-| 0x160                                  | 352                                        | Wallis-et-Futuna                            | Territoire des îles Wallis-et-Futuna            |
+| 0x160                                  | 352                                        | Wallis et Futuna                            | Territoire des îles Wallis-et-Futuna            |
 | 0x2e6                                  | 742                                        | Afrique                                       |                                                       |
 | 0x851                                  | 2129                                       | Asie                                         |                                                       |
 | 0x292d                                 | 10541                                      | Europe                                       |                                                       |

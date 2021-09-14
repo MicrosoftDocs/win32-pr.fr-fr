@@ -22,12 +22,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e202e615561ce0c51f44fc39726d8ab864afc2b5e1bcbbe5612edbb74c476c29
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2700e278f86db046d532b91b64bf5a2d00582e14
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119820419"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235205"
 ---
 # <a name="regsam"></a>REGSAM
 
@@ -50,11 +50,11 @@ Type de données utilisé pour spécifier les attributs d’accès de sécurité
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une valeur **REGSAM** peut être une ou plusieurs des valeurs listées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

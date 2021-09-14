@@ -4,12 +4,12 @@ ms.assetid: 91450559-ae47-457a-a709-b4e4e78bde22
 title: Exemple de récepteurs d’événements C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b24cb718eb0d16830c285691ac5cfedf66d572f447870dc0219beb14c04548a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e950254293b676088d8b281624c089b098e5dca8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120111129"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294055"
 ---
 # <a name="c-event-sinks-sample"></a>Exemple de récepteurs d’événements C++
 

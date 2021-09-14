@@ -4,12 +4,12 @@ ms.assetid: 46869f52-323c-41ec-95f7-e7e5d177b782
 title: Obtention d’événements à partir de la source réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ec85877a928a2f63648ec0dedded1c383988bf80a4182f83062fd296e68bcb1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 100241b069ae8976c20c68b6055571d5ff1e5c1f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414269"
 ---
 # <a name="how-to-get-events-from-the-network-source"></a>Obtention d’événements à partir de la source réseau
 
@@ -34,7 +34,7 @@ Cette interface expose la méthode [**IMFSourceOpenMonitor :: OnSourceEvent**](
     4.  Définissez la paire clé-valeur dans la Banque de propriétés en appelant **IPropertyStore :: SetValue**.
 3.  Transmettez le pointeur de la Banque de propriétés aux méthodes de résolution source que l’application utilise pour créer la source réseau, par exemple [**IMFSourceResolver :: CreateObjectFromURL**](/windows/desktop/api/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl) et d’autres.
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 L’exemple suivant montre comment implémenter l’interface [**IMFSourceOpenMonitor**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceopenmonitor) pour récupérer des événements à partir de la source réseau.
 

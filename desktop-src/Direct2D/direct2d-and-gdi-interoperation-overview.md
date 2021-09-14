@@ -14,11 +14,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0cf75f68278bdead5f3806eefd1cda251bfbea4a
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122787395"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113349"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Vue d’ensemble de l’interopérabilité de Direct2D et GDI
 

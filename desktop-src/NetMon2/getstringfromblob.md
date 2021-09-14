@@ -14,11 +14,11 @@ api_type:
 api_location:
 - Npptools.dll
 ms.openlocfilehash: 475600fb6128b5dbbaf9333f8c550351831f0a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484321"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121374"
 ---
 # <a name="getstringfromblob-function"></a>GetStringFromBlob fonction)
 
@@ -78,7 +78,7 @@ Pointeur vers une variable qui pointe vers la chaîne retournée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -86,7 +86,7 @@ Si la fonction échoue, la valeur de retour est une valeur NMERR qui indique l�
 
 Si le **propriétaire**, la **catégorie** ou les données de **balise** spécifiés n’existent pas, la fonction retourne l' **entrée d' \_ objet BLOB NMERR \_ \_ n' \_ \_ existe pas**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

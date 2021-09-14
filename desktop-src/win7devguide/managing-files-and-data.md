@@ -4,12 +4,12 @@ description: les utilisateurs ont un accès plus facile aux fichiers et aux donn
 ms.assetid: 44756220-1cd0-4c7e-a49e-5786a6220f8f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d9091a2d9bb2cf01d4f9b514c55e78f2f989f01d6d64a929608e14c32bfd395
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5617d7746746186933bce022aa2202175fb994e0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119086658"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219900"
 ---
 # <a name="managing-files-and-data"></a>Gestion des fichiers et des données
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 16a2f59482f7fb2250bf60c052ccd3963fd86f1daba8d25acc9b342a5d2c984c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 88ed3686ecf3861a2b097ebfc005214ab0cdd1c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119935449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294618"
 ---
 # <a name="ianalysiswarningsgetanalysiswarning-method"></a>IAnalysisWarnings :: GetAnalysisWarning, méthode
 
@@ -54,11 +54,11 @@ Pointeur vers l’objet [**IAnalysisWarning**](ianalysiswarning.md) à l’index
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur \* *ppWarning* lorsque vous n’avez plus besoin d’utiliser l’avertissement.
@@ -148,7 +148,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

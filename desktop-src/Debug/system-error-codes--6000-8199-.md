@@ -4,12 +4,12 @@ ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: Codes d’erreur système (6000-8199) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: d24a165798f0d4bf8a3ed534880cd3f9ad1f2b8b85d072e8a4d7aae8e6345508
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0660009411224673481e9b65bcb62d7b194ab71f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120131659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114534"
 ---
 # <a name="system-error-codes-6000-8199"></a>Codes d’erreur système (6000-8199)
 
@@ -2984,7 +2984,7 @@ Le service de réplication de fichiers a détecté un paramètre non valide.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

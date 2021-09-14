@@ -4,12 +4,12 @@ description: Augmentez ou diminuez l’exposition de l’image.
 ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcdcd99e125251c3144d96ffd6054897e6801eb3299c1d1ae90e37494620faea
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cb6f5bda52fecc0b5e3896515b04a6560f17da49
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119652922"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113237"
 ---
 # <a name="exposure-effect"></a>Effet d’exposition
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Exposure.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -50,7 +50,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet d’exposition sont définies par l’énumération [**d2d1 \_ Exposure \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_exposure_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

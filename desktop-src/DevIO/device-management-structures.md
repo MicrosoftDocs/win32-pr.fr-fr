@@ -4,12 +4,12 @@ ms.assetid: 85ebbdca-94a0-4467-8d15-ee3a850e1cd9
 title: Structures de gestion des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8118150ac6a3f145a49e59ed23f310c8b54adb78f8b23ba8f11c94db9e1c6e7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 677f4768678d1dfdfd0a4cc102eafb01b84eb49d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118405324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114341"
 ---
 # <a name="device-management-structures"></a>Structures de gestion des appareils
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Déchargement d’un fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b831f69ba27ab3e173920cc57e7500ef543bb327a04dc5c04dc8b0b9cef31ad0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 123d8c4f6b9d9155cdc22dc435635466956bdb0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119049957"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192199"
 ---
 # <a name="unloading-a-provider"></a>Déchargement d’un fournisseur
 

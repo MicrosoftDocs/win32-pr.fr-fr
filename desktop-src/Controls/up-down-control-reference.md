@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: 48c6b4bd-65b4-4388-959e-efffa7658274
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2979ac08889761cb7f226b58a9d951d407bc82420957ed9327de1a880d0d9bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8364eb44ee01e27439c82d1d77e674bfb9e3165
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018587"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115402"
 ---
 # <a name="up-down-control"></a>Contrôle Up-Down
 

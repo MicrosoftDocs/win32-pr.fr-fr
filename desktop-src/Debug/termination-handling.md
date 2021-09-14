@@ -4,12 +4,12 @@ ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
 title: Gestion des arrêts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b23e2c81465ab9d469d3d5c503c12f5bf1c7a333507d302f3e5639e0158834e8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e926a47a3c0bb4f2cb8a8df350807aee89b49bab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119292958"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114513"
 ---
 # <a name="termination-handling"></a>Gestion des arrêts
 

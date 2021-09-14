@@ -4,12 +4,12 @@ ms.assetid: f16785e5-fd4c-442e-b5ae-8b62f3b503b4
 title: InkEdit, méthodes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e7161736d2eda0adec1ebe9e93d40132eef557b04f94317d3f495ddb21a90a6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90ab1c1a00433c6eb9400ce034bed238cb4332fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118042151"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294586"
 ---
 # <a name="inkedit-methods"></a>InkEdit, méthodes
 
@@ -21,7 +21,7 @@ Cette section contient des méthodes appartenant au contrôle InkEdit.
 |------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [**GetGestureStatus**](/windows/desktop/api/inked/nf-inked-iinkedit-getgesturestatus) | Récupère l’intérêt du contrôle [InkEdit](inkedit-control-reference.md) dans un ensemble connu de mouvements.<br/> |
 | [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize)               | Spécifie que la reconnaissance doit se produire.<br/>                                                                   |
-| [**Générer**](/windows/desktop/api/inked/nf-inked-iinkedit-refresh)                   | Provoque le redessin du contrôle.<br/>                                                                              |
+| [**Actualiser**](/windows/desktop/api/inked/nf-inked-iinkedit-refresh)                   | Provoque le redessin du contrôle.<br/>                                                                              |
 | [**SetGestureStatus**](/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus) | Modifie l’intérêt du contrôle [InkEdit](inkedit-control-reference.md) dans un ensemble connu de mouvements.<br/>  |
 
 

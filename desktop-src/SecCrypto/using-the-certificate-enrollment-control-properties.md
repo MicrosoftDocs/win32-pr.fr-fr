@@ -4,12 +4,12 @@ ms.assetid: e31dd6df-bc2a-401f-9343-a7dbb0f374bb
 title: Utilisation des propriétés du contrôle d’inscription de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a556af6b75fe23e25efb3dcd4a6863a80592637921f6851f855aa8abccf5786
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 192ad4efd3d2438f800d4a3872a8cf1057ca9920
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118896638"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127417648"
 ---
 # <a name="using-the-certificate-enrollment-control-properties"></a>Utilisation des propriétés du contrôle d’inscription de certificat
 

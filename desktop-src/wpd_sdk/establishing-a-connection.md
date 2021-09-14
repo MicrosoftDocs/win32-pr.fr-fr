@@ -5,11 +5,11 @@ title: Établissement d’une connexion
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 56ea922b3cd44430dc7c213a513c44fa8ef2ab9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042826"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219444"
 ---
 # <a name="establishing-a-connection"></a>Établissement d’une connexion
 
@@ -63,7 +63,7 @@ else
 
 
 
-Pour Windows 7, [**IPortableDevice**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice) prend en charge deux CLSID pour **CoCreateInstance**. **CLSID \_ PortableDevice** retourne un pointeur **IPortableDevice** qui n’agrège pas le marshaleur libre de threads. **CLSID \_ PortableDeviceFTM** est un nouveau CLSID qui retourne un pointeur **IPortableDevice** qui agrège le marshaleur libre de threads. Les deux pointeurs prennent en charge la même fonctionnalité dans le cas contraire.
+pour Windows 7, [**IPortableDevice**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice) prend en charge deux clsid pour **CoCreateInstance**. **CLSID \_ PortableDevice** retourne un pointeur **IPortableDevice** qui n’agrège pas le marshaleur libre de threads. **CLSID \_ PortableDeviceFTM** est un nouveau CLSID qui retourne un pointeur **IPortableDevice** qui agrège le marshaleur libre de threads. Les deux pointeurs prennent en charge la même fonctionnalité dans le cas contraire.
 
 Les applications qui résident dans des cloisonnements à thread unique doivent utiliser le **CLSID \_ PortableDeviceFTM** , car cela élimine la surcharge du marshaling de pointeur d’interface. **CLSID \_ PortableDevice** est toujours pris en charge pour les applications héritées.
 

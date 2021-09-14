@@ -4,12 +4,12 @@ ms.assetid: 936d8d69-e86c-418b-b5b0-c4fbbfa1dd49
 title: Gestion de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669e3be8af4532f9045c08f07400d47c423d507d4e11da4ada0b1a279c52772d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07180d8b46f4d079c08f4b619cf4a7773a6104d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077433"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114741"
 ---
 # <a name="stream-management"></a>Gestion de flux
 

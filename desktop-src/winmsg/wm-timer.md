@@ -5,11 +5,11 @@ title: Message WM_TIMER (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: c7c99db67c9c9b3419e477ccd0a78133df453a7c
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364456"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219745"
 ---
 # <a name="wm_timer-message"></a>\_Message du minuteur WM
 
@@ -40,13 +40,13 @@ Pointeur vers une fonction de rappel définie par l’application qui a été pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **LRESULT**
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez traiter le message en fournissant un cas de **\_ minuterie WM** dans la procédure de fenêtre. Sinon, [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) appellera la fonction de rappel [*TimerProc*](/windows/win32/api/winuser/nc-winuser-timerproc) spécifiée dans l’appel à la fonction [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) utilisée pour installer la minuterie.
 
@@ -68,7 +68,7 @@ Le message du **\_ minuteur WM** est un message de priorité basse. Les fonction
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage)

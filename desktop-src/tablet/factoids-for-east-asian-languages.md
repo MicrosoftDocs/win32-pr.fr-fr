@@ -4,12 +4,12 @@ ms.assetid: 780ffb2f-3233-46d0-aff5-d0e8acd4ef75
 title: Factoids pour les langues d’Extrême-Orient
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af6f034fd644a5859e56b30ff73a750bee03614ea4f9c3f1ac472089d29dfa22
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8225f94462d1879db22ffc7efca8611b79859722
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119092655"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294650"
 ---
 # <a name="factoids-for-east-asian-languages"></a>Factoids pour les langues d’Extrême-Orient
 

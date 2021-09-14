@@ -4,12 +4,12 @@ ms.assetid: ec28fbdc-9198-472a-8976-7b5db09069a6
 title: Mappage de Xenroll.dll à CertEnroll.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e8cd2286823dbf8029896c8656807f614dc0e1994fda908cd9b13ec8ad24c7c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e1fcaec56967f4c694b85d454bd21407c3af9029
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119993528"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121169"
 ---
 # <a name="mapping-xenrolldll-to-certenrolldll"></a>Mappage de Xenroll.dll à CertEnroll.dll
 

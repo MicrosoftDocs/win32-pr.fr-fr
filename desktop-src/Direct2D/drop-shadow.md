@@ -6,12 +6,12 @@ keywords:
 - effet d’ombre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5d88924140caac22b688a0ccb6948ee74312411c770bff99360847ef2cd1b4c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c42fd8755078dd79f2b01b623b1839785beb3c3e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119833048"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113254"
 ---
 # <a name="shadow-effect"></a>Effet d’ombre
 
@@ -21,7 +21,7 @@ Utilisez l’effet d’ombre pour générer une ombre à partir du canal alpha d
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes d’optimisation](#optimization-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 Le CLSID de cet effet est CLSID \_ D2D1Shadow.
@@ -35,7 +35,7 @@ L’exemple ci-dessous montre la sortie de l’effet d’ombre qui est traduite 
 | Avant                                                  |
 |---------------------------------------------------------|
 | ![image avant l’effet.](images/8-crop.png)      |
-| Après                                                   |
+| After                                                   |
 | ![image après la transformation.](images/25-shadow.png) |
 
 
@@ -116,7 +116,7 @@ La sortie augmente uniformément dans tout le sens, par exemple si la taille aug
 
 ![diagramme de croissance de la taille de sortie de l’effet d’ombre.](images/drop-shadow-output-growth.png)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

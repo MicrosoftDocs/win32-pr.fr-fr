@@ -15,11 +15,11 @@ api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
 ms.openlocfilehash: 9c8c3b505e0e9fb306a444111cce22c8c580d015
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416733"
 ---
 # <a name="idelaydcresume-method"></a>IDelaydC :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -49,14 +49,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 | Code de retour                                                                                                | Description                                                                                                                               |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ non \_ suspendue**</dt> </dl> | La capture n’est pas suspendue. Appelez [**IDelaydC ::P ause**](idelaydc-pause.md) pour suspendre la capture.<br/>                                |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>       | Le NPP n’est pas connecté au réseau. Appelez [**IDelaydC :: Connect**](idelaydc-connect.md) pour connecter le NPP au réseau.<br/> |
-| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>         | Le NPP est connecté au réseau, mais pas avec la méthode [**IDelaydC :: Connect**](idelaydc-connect.md) .<br/>                     |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>       | Le NPP n’est pas connecté au réseau. appelez [**IDelaydC :: Connecter**](idelaydc-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>         | le NPP est connecté au réseau, mais pas avec la méthode [**IDelaydC :: Connecter**](idelaydc-connect.md) .<br/>                     |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Lorsque la capture est suspendue, les nouvelles données ne sont pas ajoutées au [*fichier de capture*](c.md) actuel tant que la méthode **IDelaydC :: Resume** n’est pas appelée pour redémarrer la capture. Lorsque l' [**interruption**](idelaydc-pause.md) et la **reprise** sont utilisées pour arrêter et redémarrer la capture, toutes les informations capturées sont placées dans le même fichier de capture.
 
@@ -64,7 +64,7 @@ Lorsque vous utilisez [**suspendre**](idelaydc-pause.md) et **reprendre** pour c
 
 Pour arrêter la capture, appelez [**IDelaydC :: Stop**](idelaydc-stop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -84,7 +84,7 @@ Pour arrêter la capture, appelez [**IDelaydC :: Stop**](idelaydc-stop.md).
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[**IDelaydC :: Connect**](idelaydc-connect.md)
+[**IDelaydC :: Connecter**](idelaydc-connect.md)
 </dt> <dt>
 
 [**IDelaydC ::P ause**](idelaydc-pause.md)

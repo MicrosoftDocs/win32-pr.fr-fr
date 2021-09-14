@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: ab5f16b434caef56e6c6aa97bfd767770dc05ee1
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364248"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416800"
 ---
 # <a name="mciwndm_get_dest-message"></a>MCIWNDM \_ obtient le \_ message de dest.
 

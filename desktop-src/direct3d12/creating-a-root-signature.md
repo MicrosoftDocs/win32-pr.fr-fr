@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6bb8deeb1b41f329bcd46795b1c58e2a89ce10f99a916c04ee7ee43a2e001d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 87209dfc324b950a74d2b31e5f1a1f6326792b9f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119751799"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216492"
 ---
 # <a name="creating-a-root-signature"></a>Création d’une signature racine
 

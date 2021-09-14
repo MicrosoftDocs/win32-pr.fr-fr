@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 383b9c2ca992db66e7bf397e42dcb8aaaa4bdb66251ddfd67f4b5175d87058aa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea37dfe8cbbc7baf90e6065f0c54af1a60c3284b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118402580"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219116"
 ---
 # <a name="cimageallocator-class"></a>CImageAllocator, classe
 
@@ -55,7 +55,7 @@ Le filtre propriétaire doit appeler **NotifyMediaType** chaque fois que le type
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

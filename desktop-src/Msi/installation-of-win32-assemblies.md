@@ -4,12 +4,12 @@ ms.assetid: 09aecb55-ed45-45b3-b27a-d0946223392a
 title: Installation d’assemblys Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c680d53e1c4702bab3b9a24920b18a2fdb644a86c41207712ec3726a310a8e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9d47847c0c69185a28fa41bbe5c5a05deec1e66
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118633839"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121730"
 ---
 # <a name="installation-of-win32-assemblies"></a>Installation d’assemblys Win32
 

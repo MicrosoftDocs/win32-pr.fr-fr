@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52904e6e495c9546384bffb80d98fd8a9795e2bfc53d007c19a68999478f2a46
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fee4dbec18a83a5716f3ff0923a08d0c8f58cb5b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119901229"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192704"
 ---
 # <a name="playerdvd"></a>Lecteur de DVD
 
@@ -33,7 +33,7 @@ La propriété **DVD** récupère l’objet DVD.
 
 Cette propriété est un objet DVD en lecture seule.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

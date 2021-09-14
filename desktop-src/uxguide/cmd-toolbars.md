@@ -5,11 +5,11 @@ ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
 ms.topic: article
 ms.date: 10/20/2020
 ms.openlocfilehash: 461b9045716ed6cc894a88079e4626107f954a99
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884427"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293270"
 ---
 # <a name="toolbars"></a>Barres d'outils
 

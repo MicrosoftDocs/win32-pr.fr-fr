@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24875b3852713110a8ddd8cbd4973d170b65e8a6853631c6440d6df9d02c7182
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b23b040d004cfe499e47c2b8d4ab2045b0f7ed45
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119110146"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294238"
 ---
 # <a name="jet_errinfobasic-constructor"></a>Constructeur JET_ERRINFOBASIC
 
@@ -54,7 +54,7 @@ public JET_ERRINFOBASIC()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe JET_ERRINFOBASIC](./jet-errinfobasic-class.md)
 

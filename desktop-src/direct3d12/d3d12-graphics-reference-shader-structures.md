@@ -7,12 +7,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282a2a6dafd57ab5d5957ee25b2f82519433409080642ef90034638bc72a6147
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 400d50c48b8b94fc9a59d8e48179aae43e14a4f5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119045697"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216473"
 ---
 # <a name="shader-structures-direct3d-12-graphics"></a>Structures de nuanceur (Direct3D 12 Graphics)
 

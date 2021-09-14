@@ -16,12 +16,12 @@ keywords:
 - types de contrôle, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a784a6537a3206f32c1299342a521de01d60fab2968294a067f8cc1f7e6dff
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e5e6b1ba80fb2c44b8c08753fa1fb43173843eb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118564380"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192660"
 ---
 # <a name="ui-automation-and-active-accessibility"></a>UI Automation et Active Accessibility
 
@@ -123,7 +123,7 @@ Le tableau suivant mappe les[rôles d’objet](object-roles.md) Microsoft Active
 | [**\_TITLEBAR système de rôle \_**](object-roles.md)         | [Spreadsheet](uiauto-supporttitlebarcontroltype.md)                                              |
 | [**\_ \_ barre d’outils système de rôle**](object-roles.md)           | [Barre](uiauto-supporttoolbarcontroltype.md)                                                |
 | [**\_ \_ info-bulle du système de rôle**](object-roles.md)           | [ToolTip](uiauto-supporttooltipcontroltype.md)                                                |
-| [**\_structure du système de rôle \_**](object-roles.md)           | [Arbres](uiauto-supporttreecontroltype.md)                                                      |
+| [**\_structure du système de rôle \_**](object-roles.md)           | [Arborescence](uiauto-supporttreecontroltype.md)                                                      |
 | [**système de rôle \_ \_ OUTLINEITEM**](object-roles.md)   | [TreeItem](uiauto-supporttreeitemcontroltype.md)                                              |
 | [**\_fenêtre système de rôle \_**](object-roles.md)             | [Window](uiauto-supportwindowcontroltype.md)                                                  |
 
@@ -143,7 +143,7 @@ Le tableau suivant montre la correspondance entre certaines propriétés dans le
 
 
 
-| Accesseur de propriété Active Accessibility                                               | ID de propriété UI Automation                                                                                                                                                                                | Remarques                                                                                                                                                                                                                                                                                                                                     |
+| Accesseur de propriété Active Accessibility                                               | ID de propriété UI Automation                                                                                                                                                                                | Notes                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Obtient \_ accKeyboardShortcut**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut) | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md) ou [ **UIA \_ AcceleratorKeyPropertyId**](uiauto-automation-element-propids.md) | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md) est prioritaire si les deux sont présents.                                                                                                                                                                                                         |
 | [**Obtient \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)                         | [**UIA \_ NamePropertyId**](uiauto-automation-element-propids.md)                                                                                                                      |                                                                                                                                                                                                                                                                                                                                             |

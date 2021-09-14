@@ -4,12 +4,12 @@ description: Cette section fournit des informations et un exemple de code pour i
 ms.assetid: d27d8f11-b400-409e-a9bf-65c0a79093b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65713d146ad2b6ed068b9e12599d4d4c757c3853558c679ed17fedf8806f210d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 72b6c7121fe2365b2fb9f16154d36bdf182c2a97
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119077863"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115281"
 ---
 # <a name="using-month-calendar-controls"></a>Utilisation des contrôles Month Calendar
 

@@ -4,12 +4,12 @@ ms.assetid: bc4268ea-f657-4789-9d0a-6e5354508f86
 title: 'Exemple de programme C : liste des magasins système et physiques'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f98242d6ae5fd1c7af8732646786a8370a45108c446b051d0e7e7513c7faecae
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a94fb8d4a6b7d20735b6918d78119796379e16d0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119007637"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121046"
 ---
 # <a name="example-c-program-listing-system-and-physical-stores"></a>Exemple de programme C : liste des magasins système et physiques
 

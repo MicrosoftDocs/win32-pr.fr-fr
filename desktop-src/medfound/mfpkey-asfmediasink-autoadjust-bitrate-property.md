@@ -4,12 +4,12 @@ ms.assetid: 0a6f4dd4-4ad7-4aab-a33d-14b4716f9902
 title: MFPKEY_ASFMEDIASINK_AUTOADJUST_BITRATE, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abb9c026010ba1995bb15f37562eb378361051e4f9f8da4eb9e065dfadfdccb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d2d22463f477eb5abc1bb84254ad312427ecef52
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117690546"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414104"
 ---
 # <a name="mfpkey_asfmediasink_autoadjust_bitrate-property"></a>\_Propriété MFPKEY ASFMEDIASINK de vitesse de \_ \_ transmission
 
@@ -31,7 +31,7 @@ VT \_ bool
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la valeur de cette propriété est \_ true, le récepteur multimédia ASF ajuste automatiquement la vitesse de transmission du contenu ASF en réponse aux caractéristiques des flux multiplexés.
 
@@ -60,7 +60,7 @@ Si vous affectez à cette propriété la \_ valeur variant true, le récepteur m
 
 pour plus d’informations sur le concept de compartiment avec fuite, consultez la rubrique « modèle de tampon de compartiment perdu » dans la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7a6af325-4891-40db-8d33-c9782bd438e5
 title: Inscription des nouvelles fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5d56153199542c11f00a3ec23d90d35a682c5fe93f91d2978dcd4f72628219
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 470541ed9b832ad5eaa914c1a35805dbd861a843
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118900594"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416373"
 ---
 # <a name="registering-the-new-functionality"></a>Inscription des nouvelles fonctionnalités
 

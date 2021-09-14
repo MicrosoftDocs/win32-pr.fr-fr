@@ -4,12 +4,12 @@ ms.assetid: 8bee8059-b901-4a99-a7e4-60dad831c239
 title: Écrire un modèle OM XPS dans un document XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f6ef79f592ad241e54e9a01fb5e4fe72cc41573e75c78f347109cdfb1c6f32
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 811f773394ee9dbbcf77dc75d1429322bb733631
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119098556"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220620"
 ---
 # <a name="write-an-xps-om-to-an-xps-document"></a>Écrire un modèle OM XPS dans un document XPS
 

@@ -10,12 +10,12 @@ keywords:
 - Interface ADSI IDirectorySearch, utilisation de pour rechercher un répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c46700c48f82955bd01967808cd30f2fa078e3b6c998fb3beaac4bf7c7fe8707
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e2738e163f672fb0000275e2fb9d885442ae6693
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023217"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122094"
 ---
 # <a name="searching-with-the-idirectorysearch-interface"></a>Recherche avec l’interface IDirectorySearch
 

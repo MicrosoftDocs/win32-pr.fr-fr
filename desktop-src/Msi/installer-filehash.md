@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a2da76ef3f0606002e26e8c320f83ca45e46bbbeb573d509c235c9fca8932247
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a38ef741c5c3a33c526cc78fbdc4551716ed3ff
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118630790"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121598"
 ---
 # <a name="installerfilehash-method"></a>Installer. FileHash, méthode
 
@@ -63,11 +63,11 @@ La valeur de ce paramètre doit être 0 (zéro).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, cette méthode retourne un [**objet enregistrement**](record-object.md) qui contient le hachage du fichier.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

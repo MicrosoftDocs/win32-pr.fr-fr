@@ -4,12 +4,12 @@ ms.assetid: a7f2fdd1-9514-4cda-bae2-2f379dd9a27d
 title: 'Exemple de programme C : exportation d’une clé de session'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10e3f8ea93d11460522383584d5847473a17497ad13ccfae72b0415e958bf52
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5252e5eced86dd4e671f5080cf6dab5e1ec96b9d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140912"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121050"
 ---
 # <a name="example-c-program-exporting-a-session-key"></a>Exemple de programme C : exportation d’une clé de session
 

@@ -4,12 +4,12 @@ ms.assetid: 1788b496-ad19-427e-be07-4aa68543fced
 title: Chiffrement d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d7f1f0b2aab3f34a3d329e568f9de1fc1956ea7270fe177556363024d32107c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f7fcc987e17c37f9b2eb80289f257101b51f5f3c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008437"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121206"
 ---
 # <a name="encrypting-a-message"></a>Chiffrement d’un message
 

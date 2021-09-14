@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 246bf356786b1b884380faa1feaad11db4d3f406a296d3292c571ff02698f454
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f7ff09830653278c9b37cfefa81b182b0f1dc054
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130569"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416915"
 ---
 # <a name="fileio_simpleop-class"></a>FileIo \_ SimpleOp, classe
 
@@ -118,11 +118,11 @@ Identificateur du thread qui effectue l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’événement Cleanup est journalisé lorsque le dernier handle du fichier est fermé. L’événement Close spécifie qu’un objet fichier est en cours de libération. L’événement Flush spécifie quand les mémoires tampons de fichier sont entièrement vidées sur le disque.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

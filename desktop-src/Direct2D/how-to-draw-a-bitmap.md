@@ -4,12 +4,12 @@ description: Montre comment afficher des bitmaps avec Direct2D.
 ms.assetid: 9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c76fb3a956d20f83f4de8beb8431295c86b84cf7e6908fb311ed16ea1ceefa0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cbfa13b75b4fe34ce6ff2b80598fac35f8483a2f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119259222"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113121"
 ---
 # <a name="how-to-draw-a-bitmap"></a>Comment dessiner une image bitmap
 

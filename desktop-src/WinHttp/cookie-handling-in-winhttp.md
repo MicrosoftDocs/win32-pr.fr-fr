@@ -4,12 +4,12 @@ ms.assetid: ef0f0847-05f6-4477-8e48-e0bea66314ab
 title: Gestion des cookies dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 004f228ba69f3d1cc7476c01ea084dac64379a7ff62d91c7c4920f7320cbd111
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e3b596225dc3c741ab9ed0139a63e343e7afb3d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119133242"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414539"
 ---
 # <a name="cookie-handling-in-winhttp"></a>Gestion des cookies dans WinHTTP
 

@@ -4,12 +4,12 @@ description: En définissant d’autres contrôles en tant que fenêtres d’ami
 ms.assetid: 5797AA55-BD8D-407A-8896-08EE0DDC7E30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6819e0f37f07a90ae08a623f14c6c26d1d67f55ea81143834dfd10816f74396
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8eca9a4e3b3049f8d4cf7515879d91a096f5a9e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117829053"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115370"
 ---
 # <a name="how-to-use-buddy-windows"></a>Guide pratique pour utiliser un Windows associé
 
@@ -84,7 +84,7 @@ void LabelTrackbarsWithBuddies(HWND hDlg)
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **IDC \_ SLIDER1** et **IDC \_ SLIDER2** sont trackbars créés dans l’éditeur de ressources.
 

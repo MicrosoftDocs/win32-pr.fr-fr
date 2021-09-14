@@ -4,12 +4,12 @@ ms.assetid: e25d35b9-f8f1-4850-996c-e1cb393cca66
 title: Événement DBT_DEVICEREMOVECOMPLETE (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5998742d823d710bfb91cd10579a3fb1ec65bec42b615fc7fdac3ac35545b24
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 16c899d8cee4a0be34829ba0a8edbaf27be71f6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119539189"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114413"
 ---
 # <a name="dbt_deviceremovecomplete-event"></a>\_Événement DBT DEVICEREMOVECOMPLETE
 
@@ -61,11 +61,11 @@ Pointeur vers une structure identifiant l’appareil supprimé. La structure se 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le système peut diffuser un \_ message DBT DEVICEREMOVECOMPLETE sans envoyer les messages [DBT \_ DEVICEQUERYREMOVE](dbt-devicequeryremove.md) et [DBT \_ DEVICEREMOVEPENDING](dbt-deviceremovepending.md) correspondants. Dans ce cas, les applications et les pilotes doivent récupérer à partir de la perte de l’appareil le mieux possible.
 
@@ -75,7 +75,7 @@ Si le support est en cours de suppression, le type d’appareil arrivant est un 
 
 Pour obtenir un exemple, consultez détection de l' [insertion ou suppression d’un média](detecting-media-insertion-or-removal.md) ou [traitement d’une demande de suppression d’un appareil](processing-a-request-to-remove-a-device.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

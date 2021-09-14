@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11d043ca4f6b69a554b43d5abeaf35e4c2a2a6d72797e829900529df70b6c47
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15f316b6833c67cd01d4e01910399a8730691f35
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059789"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115454"
 ---
 # <a name="udm_getpos32-message"></a>\_Message GETPOS32 UDM
 
@@ -45,15 +45,15 @@ Si **UDM \_ GETPOS32** est utilisé dans une situation inter-processus, ce param
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la position d’un contrôle up-up avec une précision de 32 bits. Les applications doivent vérifier la valeur *lParam* pour déterminer si la valeur de retour est valide.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors du traitement de ce message, le contrôle up-out met à jour sa position actuelle en fonction de la légende de la fenêtre associée. Elle retourne une erreur s’il n’existe aucune fenêtre associée ou si la légende spécifie une valeur non valide ou hors limites.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

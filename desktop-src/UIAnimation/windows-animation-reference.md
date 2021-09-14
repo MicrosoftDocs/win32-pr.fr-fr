@@ -6,12 +6,12 @@ keywords:
 - Windows animation Windows animation, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c36eb92de4b345f7861a512f2af369a6108ed4cecc361d5a5a6474c5c2155b7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: be2630b556d9f0a4e5980d5034f3f9086ac3fb15
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117755535"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192459"
 ---
 # <a name="windows-animation-reference"></a>Windows Référence d’animation
 

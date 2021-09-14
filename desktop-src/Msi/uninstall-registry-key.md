@@ -5,12 +5,12 @@ title: Windows Propriétés du programme d’installation pour la clé de Regist
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: b898cd2a83a05783141ddf1fb4a7cbebb783bbcd7640526c5b653afa434d2175
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 90174cabed7a1d9ff0ca21b532c459a1026787a6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119810318"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121570"
 ---
 # <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>Windows Propriétés du programme d’installation pour la clé de Registre Uninstall
 
@@ -26,7 +26,7 @@ Les valeurs sont stockées dans une sous-clé identifiée par le GUID du code du
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DisplayName         | Propriété [**ProductName**](productname.md)                                                                                                                                                                                                                                                                                                                          |
 | DisplayVersion      | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
-| Éditeur           | Propriété [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
+| Publisher           | Propriété [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
 | VersionMinor        | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | VersionMajor        | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | Version             | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |

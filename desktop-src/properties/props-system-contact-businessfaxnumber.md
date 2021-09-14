@@ -4,12 +4,12 @@ ms.assetid: fbffd3f2-e032-4297-9fe9-4d141af2f9ea
 title: System. contact. BusinessFaxNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c672a0acb52f19bc626cb75af644a6d5886d611bf8ef44255c7b064e7d7a3db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c93439483ca6a10377eebcf7c8d5c524398edc6c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118970688"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294838"
 ---
 # <a name="systemcontactbusinessfaxnumber"></a>System. contact. BusinessFaxNumber
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

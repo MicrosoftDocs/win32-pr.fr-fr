@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b1b2b974bc4f5f527ea41d68f3f643a07d4ed928cda832b4ab33c2c35aa5c4e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 04d7bf8a337c1bcfa0a024b84304fe50c035f9dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416432"
 ---
 # <a name="encrypteddataencrypt-method"></a>EncryptedData. Encrypt, méthode
 
@@ -60,15 +60,15 @@ Valeur de l’énumération de [**\_ \_ type d’encodage**](capicom-encoding-ty
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne qui contient les données chiffrées et encodées.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Avant d’appeler la méthode **Encrypt** , définissez la propriété [**content**](encrypteddata-content.md) et appelez la méthode [**SetSecret**](encrypteddata-setsecret.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

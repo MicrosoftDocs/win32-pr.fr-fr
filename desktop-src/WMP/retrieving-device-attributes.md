@@ -14,12 +14,12 @@ keywords:
 - attributs, appareils mobiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e6ac2794782c728de16f23f88e26d1f458258959e1c3e9e7e490cdf7bf6971
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f486b94fe6a9a5c78f238d78a7f79dec9df3376
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118995529"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416190"
 ---
 # <a name="retrieving-device-attributes"></a>Récupération des attributs de l’appareil
 

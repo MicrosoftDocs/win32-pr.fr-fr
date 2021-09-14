@@ -4,12 +4,12 @@ ms.assetid: 59bb7a86-e874-45ce-abd6-cafd18802c4d
 title: Considérations relatives à la sécurité pour les Writers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 601b981613636a571c204acdfac78ada778bb19b16a3d2677c4e56ff3ee099cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea6f88243adbd62d928170a86ed57b91cbebe134
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119767679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414586"
 ---
 # <a name="security-considerations-for-writers"></a>Considérations relatives à la sécurité pour les Writers
 

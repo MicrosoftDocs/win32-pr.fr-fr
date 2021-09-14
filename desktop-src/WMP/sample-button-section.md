@@ -3,7 +3,7 @@ title: Exemple de section de bouton
 description: Exemple de section de bouton
 ms.assetid: 52358f83-8c74-4957-87c4-ca1ed7f667fc
 keywords:
-- Windows Media Player Mobile Skins, section Button
+- Lecteur Windows Media Apparences mobiles, section de bouton
 - apparences, section de bouton
 - référence pour les apparences, section de bouton
 - boutons dans les apparences, section de bouton
@@ -11,11 +11,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 5c35a4efd0e52dd7f5fd0cf87fc269eb4a9f4c27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029453"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416172"
 ---
 # <a name="sample-button-section"></a>Exemple de section de bouton
 
@@ -49,9 +49,9 @@ Ce code définit huit boutons utilisés pour fournir toutes les fonctions suivan
 Tous les boutons à l’exception du bouton muet sont des boutons région. Le bouton muet obtient ses images ayant fait l’objet d’un push et désactivées à partir du Super bitmap pour plus de commodité.
 
 > [!Note]  
-> Les types de boutons sont déconseillés dans les habillages pour Windows Media Player 10 mobile ou version ultérieure. Au lieu d’un type de bouton déclaré dans votre fichier d’apparence, entrez « NA » pour chaque type.
+> les types de boutons sont déconseillés dans les habillages pour Lecteur Windows Media 10 Mobile ou version ultérieure. Au lieu d’un type de bouton déclaré dans votre fichier d’apparence, entrez « NA » pour chaque type.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Tous les boutons à l’exception du bouton muet sont des boutons région. Le bo
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

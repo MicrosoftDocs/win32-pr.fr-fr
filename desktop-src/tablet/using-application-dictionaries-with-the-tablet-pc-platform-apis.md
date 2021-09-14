@@ -4,12 +4,12 @@ ms.assetid: 6abadad1-262b-4536-8846-1c06226dc18a
 title: Utilisation de dictionnaires d’applications avec les API de plateforme Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c30fec5539a9b1f4efb0ca89a53568becff2368942d069149106a4032676d50
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fc0e444ad2213d945c0210d07c72f9540ae16be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119091301"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235025"
 ---
 # <a name="using-application-dictionaries-with-the-tablet-pc-platform-apis"></a>Utilisation de dictionnaires d’applications avec les API de plateforme Tablet PC
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.byte
 ms:contentKeyID: 55100964
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d7973f35a59af3cda2e8bb3bd400d2ef10e43e4f18fe9431f61ed50b62b343f0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bafae34a3fa6dac29cc504ebe9a34c0abd7b870a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117902105"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416037"
 ---
 # <a name="bytescolumnvalue-properties"></a>Propriétés BytesColumnValue
 
@@ -85,7 +85,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [BytesColumnValue, classe](./bytescolumnvalue-class.md)
 

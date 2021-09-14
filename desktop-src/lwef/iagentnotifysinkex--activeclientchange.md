@@ -4,12 +4,12 @@ description: IAgentNotifySinkEx ActiveClientChange
 ms.assetid: e953e803-c898-4c07-adc0-8b895b5e8473
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50549c4b091a39614fd7ff6b15af0bc1436113dfd2e9b3d31ca86e6995a0e94d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b96988f80d8a1799bf46f12bd38906e9357453f3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119961499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293503"
 ---
 # <a name="iagentnotifysinkexactiveclientchange"></a>IAgentNotifySinkEx::ActiveClientChange
 

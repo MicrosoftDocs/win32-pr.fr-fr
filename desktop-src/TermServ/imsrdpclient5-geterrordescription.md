@@ -32,12 +32,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 197025b4cfb842cf4ca38af64124c02415240ac6fc878f9c121d4e228b77f5b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6c402a0128286964ddeb1c53cd805e4ef6414bfb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119001487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414605"
 ---
 # <a name="imsrdpclient5geterrordescription-method"></a>IMsRdpClient5 :: GetErrorDescription, méthode
 
@@ -81,11 +81,11 @@ Pointeur vers une variable **BSTR** qui reçoit le texte du message d’erreur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

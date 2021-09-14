@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7dac9ab8c8aa2a6caeacf43023c4995be69f293affd5dd5a904d7fb96d710266
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c15092d7a7eafd625e9c2026965af053d38fe4b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118343718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416296"
 ---
 # <a name="instrumentationmanifest-element"></a>Élément instrumentationManifest
 
@@ -70,7 +70,7 @@ Nœud racine du manifeste.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’élément **instrumentationManifest** doit contenir les espaces de noms suivants :
 
@@ -156,7 +156,7 @@ L’exemple suivant illustre la structure d’un manifeste d’instrumentation e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

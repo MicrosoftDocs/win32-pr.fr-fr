@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9139f2dab6410eeb2bacbde93b5e163c0591f350626046861426ddc53beab389
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f1905954e7fb164f8436216fa918cc6f243f4b17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119539709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115146"
 ---
 # <a name="wm_notify-message"></a>\_Message de notification WM
 
@@ -43,11 +43,11 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est ignorée, à l’exception des messages de notification qui le définissent autrement.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La destination du message doit être le **HWND** du parent du contrôle. Cette valeur peut être obtenue à l’aide de [**GetParent**](/windows/desktop/api/winuser/nf-winuser-getparent), comme illustré dans l’exemple suivant, où *m \_ controlHwnd* est le **HWND** du contrôle lui-même.
 
@@ -102,7 +102,7 @@ pour les systèmes Windows Vista et versions ultérieures, le message **WM \_ NO
 
 De nombreuses notifications sont disponibles à la fois dans les formats ANSI et Unicode. La fenêtre qui envoie le message **WM \_ Notify** utilise le message [**WM \_ NOTIFYFORMAT**](wm-notifyformat.md) pour déterminer le format à utiliser. Pour plus d’informations, consultez **WM \_ NOTIFYFORMAT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

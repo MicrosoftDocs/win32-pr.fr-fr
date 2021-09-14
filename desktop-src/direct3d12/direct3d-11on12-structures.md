@@ -5,12 +5,12 @@ ms.assetid: 9EB0E780-0000-413C-BA3E-A735B8422BF6
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5993ea0ddb5ef452bc32c2c22051597aff4254a6d5ff16acbcf65b8d1971150d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58df9ce2415f697cd4ca07907ffae761b671a256
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118529923"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293598"
 ---
 # <a name="11on12-structures"></a>Structures 11on12
 

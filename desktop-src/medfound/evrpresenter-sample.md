@@ -5,15 +5,15 @@ title: Exemple EVRPresenter
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 2bde85de152c41f348b1aae74a8c0d67ca746cab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111774"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293486"
 ---
 # <a name="evrpresenter-sample"></a>Exemple EVRPresenter
 
-Montre comment implémenter un présentateur personnalisé pour le [convertisseur vidéo amélioré](enhanced-video-renderer.md) (EVR). Le présentateur personnalisé peut être utilisé avec le filtre DirectShow EVR ou le récepteur EVR Microsoft Media Foundation.
+Montre comment implémenter un présentateur personnalisé pour le [convertisseur vidéo amélioré](enhanced-video-renderer.md) (EVR). le présentateur personnalisé peut être utilisé avec les DirectShow filtre EVR ou Microsoft Media Foundation récepteur EVR.
 
 ## <a name="apis-demonstrated"></a>API illustrées
 
@@ -26,7 +26,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 -   [**IMFVideoDisplayControl**](/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol)
 -   [**IMFVideoPresenter**](/windows/desktop/api/evr/nn-evr-imfvideopresenter)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L’exemple EVRPresenter génère une DLL qui est un serveur COM pour le présentateur. Avant d’utiliser le présentateur personnalisé, vous devez inscrire la DLL.
 
@@ -43,11 +43,11 @@ Pour utiliser cet exemple dans DirectShow :
 
 1.  Générez l’exemple.
 2.  Inscrire EvrPresenter.dll.
-3.  Générez et exécutez l’exemple EVRPlayer. Cet exemple est fourni avec les exemples DirectShow dans le SDK Windows.
+3.  Générez et exécutez l’exemple EVRPlayer. cet exemple est fourni avec les exemples de DirectShow dans le SDK Windows.
 4.  Dans le menu **fichier** , sélectionnez **EVR Presenter**.
 5.  Sélectionnez un fichier pour la lecture.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -61,7 +61,7 @@ Pour utiliser cet exemple dans DirectShow :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

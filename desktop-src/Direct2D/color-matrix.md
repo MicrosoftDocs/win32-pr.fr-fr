@@ -6,12 +6,12 @@ keywords:
 - effet matrice de couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8bb461698e4f8b39eef3bed57fc21947f3cc1175c1bdf4f990629db87e1c5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b1078b1858bc68396546e1036c717e01acb1069c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119653302"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114146"
 ---
 # <a name="color-matrix-effect"></a>Effet matrice de couleurs
 
@@ -31,7 +31,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ColorMatrix.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes alpha](#alpha-modes)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -90,7 +90,7 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées.
 
 
 
-| Name                                          | Description                                                                                               |
+| Nom                                          | Description                                                                                               |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | D2D1 \_ COLORMATRIX \_ \_ en mode Alpha \_ prémultiplié | L’effet annule la prémultiplication de l’entrée, applique la matrice de couleurs et prémultiplie la sortie.<br/> |
 | \_Mode d2d1 \_ COLORMATRIX \_ alpha \_ simple      | L’effet applique la matrice de couleurs directement à l’entrée et ne prémultiplie pas la sortie.<br/> |
@@ -99,7 +99,7 @@ Cet effet fonctionne sur les images alpha directes et prémultipliées.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

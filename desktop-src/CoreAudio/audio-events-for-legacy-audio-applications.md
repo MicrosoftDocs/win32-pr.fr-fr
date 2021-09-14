@@ -4,12 +4,12 @@ ms.assetid: 91a93b79-2563-4b25-af5d-ca5f7d35d77b
 title: Événements audio pour les applications audio héritées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e030561123ba8501a66a2837bcc323a6505226a80c385f3dcaa532b2e6cd8c58
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0fe99195910b1c1c68c0f3a1b39dd2706dde0be
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018487"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115098"
 ---
 # <a name="audio-events-for-legacy-audio-applications"></a>Événements audio pour les applications audio héritées
 

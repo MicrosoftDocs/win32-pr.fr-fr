@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: dcff7294d2800e797b43b3a05bd25c35418c6fb466c95130b97be73f25040d3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7901daf467a63586543c52ca8a214d5d0094982
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118364707"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127194668"
 ---
 # <a name="macframe-union"></a>MACFRAME Union
 
@@ -70,11 +70,11 @@ Pointeur FDDI vers un frame.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est le plus souvent utilisée comme une superposition. Pour rendre les propriétés du premier protocole accessibles, effectuez un cast du frame en tant que type identique au protocole.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

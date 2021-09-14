@@ -6,12 +6,12 @@ keywords:
 - D2D1_POINT_2U
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9fc133cb7f4abd952dd0575e8a3d7af096128ab5e4570b773a4ccc7530364e0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 050cf6372a1b84ed72647c8c5a5d76e352f4960f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120108879"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113450"
 ---
 # <a name="d2d1_point_2u"></a>\_Point d2d1 \_ 2U
 
@@ -24,13 +24,13 @@ typedef D2D_POINT_2U D2D1_POINT_2U;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les points dans Direct2D sont représentés par les structures [**d2d1 \_ point \_ 2F**](d2d1-point-2f.md) ou **d2d1 \_ point \_ 2U** . Tous deux contiennent une paire de coordonnées x et y dans l’espace à deux dimensions. La **structure \_ d2d1 point \_ 2F** stocke les coordonnées en tant que valeurs **float** , et la structure de **point d2d1 \_ \_ 2U** les stocke en tant que valeurs **UInt32** .
 
 **D2d1 \_ POINT \_ 2U** est un nouveau nom pour le type déjà défini au format [**D2D \_ \_ 2U**](/windows/desktop/api/dcommon/ns-dcommon-d2d_point_2u).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

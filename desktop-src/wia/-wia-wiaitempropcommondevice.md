@@ -16,11 +16,11 @@ api_type:
 api_location:
 - wiadef.h
 ms.openlocfilehash: c5eda1266c8c99f1125e03dfbacc3eb325a69d1d
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122632177"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293255"
 ---
 # <a name="common-device-property-constants"></a>Constantes de propriété d’appareil courantes
 
@@ -85,7 +85,7 @@ Le préfixe « WIA \_ DPA \_ » indique une propriété d’appareil pour tous 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

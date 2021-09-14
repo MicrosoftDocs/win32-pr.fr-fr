@@ -4,12 +4,12 @@ ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Initialisation des gestionnaires d’extensions de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f83a47400cff5d0fa4628f6f6f9d9ba74b158947c7843f61831d54f62c7a6f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d6a27b6273c5e342dc4caf545fb3593cdad66261
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119661219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235229"
 ---
 # <a name="initializing-shell-extension-handlers"></a>Initialisation des gestionnaires d’extensions de Shell
 
@@ -207,11 +207,11 @@ Les noms de propriétés suivants peuvent être utilisés.
 | Nom de la propriété    | Description                   | Récupéré à partir de                                                                            |
 |------------------|-------------------------------|-------------------------------------------------------------------------------------------|
 | Auteur           | Auteur du document        | [**\_auteur PIDSI**](../stg/the-summary-information-property-set.md)                             |
-| Titre            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                              |
+| Intitulé            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                              |
 | Objet          | Résumé de l’objet               | [**PIDSI \_ objet**](../stg/the-summary-information-property-set.md)                            |
 | Commentaire          | Commentaires sur le document             | [**PIDSI \_**](../stg/the-summary-information-property-set.md) Propriétés d’un commentaire ou d’un dossier/lecteur |
 | PageCount        | Nombre de pages               | [**PIDSI \_ PageCount**](../stg/the-summary-information-property-set.md)                          |
-| Name             | Nom convivial                 | Affichage des dossiers standard                                                                      |
+| Nom             | Nom convivial                 | Affichage des dossiers standard                                                                      |
 | OriginalLocation | Emplacement du fichier d’origine     | Dossier porte-documents et dossier Corbeille                                                   |
 | DateDeleted      | Date de suppression du fichier         | Dossier Corbeille                                                                        |
 | Type             | Type de fichier                  | Mode Détails du dossier standard                                                              |

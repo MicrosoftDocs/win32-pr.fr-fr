@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f83d74c8c03f8b08936c3693c77e211cd87a8b42c2d020c26ee5133406a2a042
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d57fcc71f912fe1ee896ec893ea8f556eeb2277
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414561"
 ---
 # <a name="iwmplibraryservicesgetlibrarybytype-method"></a>IWMPLibraryServices :: getLibraryByType, méthode
 
@@ -69,15 +69,15 @@ Valeur de l’énumération **wmplib. WMPLibraryType** qui spécifie le type de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Interface **wmplib. IWMPLibrary** pour la bibliothèque qui est retournée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il n’existe qu’une seule bibliothèque locale, et les bibliothèques de disques sont uniquement disponibles sur les CD et DVD de données contenant du contenu multimédia.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

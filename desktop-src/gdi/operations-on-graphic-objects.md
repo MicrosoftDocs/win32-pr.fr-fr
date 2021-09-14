@@ -4,12 +4,12 @@ ms.assetid: 73657a66-9415-4db0-a800-463c3d639240
 title: Opérations sur les objets graphiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 104ae7467e04f53196c839b6daa72482ab73845c3185208eb3cb886cb0ce6a44
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec0574b8527dbf83b4cb4a38163dcf7b33017336
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415911"
 ---
 # <a name="operations-on-graphic-objects"></a>Opérations sur les objets graphiques
 

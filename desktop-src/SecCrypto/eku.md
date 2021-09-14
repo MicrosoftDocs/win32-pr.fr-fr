@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: bd887204abc31583e596e94c25b64addcfe8109e6432845d25d939fd8e79e2d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff397ae747ecd09dd1292e5c15eb4291692d9651
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119875139"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416471"
 ---
 # <a name="eku-object"></a>Objet EKU
 
@@ -40,14 +40,14 @@ L’objet **EKU** possède les propriétés suivantes.
 
 | Propriété                            | Type d’accès           | Description                                                                                                                                                                                                   |
 |:------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Nom**](eku-name.md)<br/> | Lecture/écriture<br/> | Définit ou récupère une valeur d’énumération qui spécifie le nom CAPICOM de l’utilisation améliorée de la valeur. Il s’agit de la propriété par défaut.<br/>                                                                                   |
+| [**Nomme**](eku-name.md)<br/> | Lecture/écriture<br/> | Définit ou récupère une valeur d’énumération qui spécifie le nom CAPICOM de l’utilisation améliorée de la valeur. Il s’agit de la propriété par défaut.<br/>                                                                                   |
 | [**OID**](eku-oid.md)<br/>   | Lecture/écriture<br/> | Définit ou récupère une chaîne qui contient une valeur de chaîne d' [*identificateur d’objet*](../secgloss/o-gly.md) (OID) EKU telle que définie dans wincrypt. h.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet **EKU** est utilisé par la collection et la propriété suivantes :
 
@@ -56,7 +56,7 @@ L’objet **EKU** est utilisé par la collection et la propriété suivantes :
 
 Impossible de créer l’objet **EKU** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

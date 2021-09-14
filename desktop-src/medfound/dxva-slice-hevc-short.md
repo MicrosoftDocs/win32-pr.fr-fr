@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: b59008947e636e7d4252b678a79b28c128c4a7b122b97c9337fb41ddc062fd54
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d0f88e1534ef3d901023ebdee8ce9c36a8c2cc9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119958579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122165"
 ---
 # <a name="dxva_slice_hevc_short-structure"></a>\_ \_ \_ Structure abrégée HEVC de la tranche DXVA
 
@@ -76,11 +76,11 @@ Si l’analyse de flux binaire hors hôte est utilisée, cette valeur indique le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **DXVA \_ Slice \_ HEVC \_ short** contient des données de contrôle de tranche qui sont transmises à l’accélérateur matériel à partir du décodeur logiciel hôte.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

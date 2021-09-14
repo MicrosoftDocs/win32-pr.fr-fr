@@ -4,12 +4,12 @@ ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: Structures de métafichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370fa42f935a99183e9132c652368d102af83bc4ea908e4ae9733e346ae41cb5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33dfad6180b0b30c6bcb3786ec3870493c5b9839
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119965629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415941"
 ---
 # <a name="metafile-structures"></a>Structures de métafichiers
 

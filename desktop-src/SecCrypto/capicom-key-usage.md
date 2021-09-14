@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: bb477ee12b33c3d32fd2c48a56831dc2f56244b1e8a564cd2d0482e6e4a5d5bb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d44c7f3ecf35ddeb55dd96e5513261691010990
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117772424"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121090"
 ---
 # <a name="capicom_key_usage-enumeration"></a>\_ \_ Énumération de l’utilisation de la clé CAPICOM
 
@@ -43,7 +43,7 @@ L’énumération de l' **\_ \_ utilisation de la clé CAPICOM** définit la man
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

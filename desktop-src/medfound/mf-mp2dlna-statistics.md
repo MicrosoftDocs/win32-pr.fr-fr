@@ -4,12 +4,12 @@ ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
 title: Attribut MF_MP2DLNA_STATISTICS (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47a80bf0682cf6e46845a968122bf512a6e9cff15df8fb8e0312e1c63c8dab0a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a51620c1ca093a422a5e4657edcfbfaa66ae6cd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973618"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414164"
 ---
 # <a name="mf_mp2dlna_statistics-attribute"></a>Attribut des statistiques de \_ MP2DLNA MF \_
 
@@ -23,13 +23,13 @@ Obtient les statistiques du récepteur multimédia DLNA (Digital vivant Network 
 
 Pour récupérer cet attribut, appelez [**IMFAttributes :: GetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pendant la diffusion en continu, le récepteur multimédia DLNA met à jour cet attribut avec des statistiques sur l’encodage et le multiplexage des flux MPEG-2. L’application peut interroger cet attribut à tout moment pour obtenir les valeurs les plus récentes.
 
 La définition de cet attribut sur le récepteur multimédia DLNA n’a aucun effet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

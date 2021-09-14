@@ -4,12 +4,12 @@ ms.assetid: e4dc61f3-6a9f-4ed4-8685-62eb4ceb85f1
 title: Zone non cliente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a20593063af4382e79697b249324ba0fd6fe2782d903b645a2b80c25c63c436
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c51da31709f5bd9326cc0d05a9e37e2df78bfbb4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117698738"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415920"
 ---
 # <a name="nonclient-area"></a>Zone non cliente
 

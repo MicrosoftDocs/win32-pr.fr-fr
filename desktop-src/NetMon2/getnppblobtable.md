@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 49920df1be929eb9b35781aeabdcdf47167e82a94066e2d3237207dd00b08f74
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 883493215aaac0fa2568baec69232b379b8aa808
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119910699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416755"
 ---
 # <a name="getnppblobtable-function"></a>GetNPPBlobTable fonction)
 
@@ -54,7 +54,7 @@ Pointeur vers une structure de [ \_ table d’objets BLOB](blob-table.md) qui co
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
@@ -73,7 +73,7 @@ Si la fonction échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’objet BLOB nommé par *hFilterBlob* peut également être un objet BLOB spécial.
 
@@ -83,7 +83,7 @@ Si l’objet BLOB nommé par *hFilterBlob* est un objet BLOB spécial, l’inter
 
 Pour détruire tous les objets BLOB retournés et la table BLOB, l’appelant est chargé d’appeler la fonction **DestroyBlob** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

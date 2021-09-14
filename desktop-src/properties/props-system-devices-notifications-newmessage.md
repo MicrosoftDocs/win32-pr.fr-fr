@@ -4,12 +4,12 @@ ms.assetid: 2d6dce7b-d31f-4b4b-8ee0-b043568932fd
 title: System. Devices. notifications. NewMessage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b61b79db56debba0143cc7301ce800cd464686b6440caf0d2439989a4d0f7ca9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9e35b8d9664ce2e316362e1f5b7d48cd529cc812
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119458349"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220460"
 ---
 # <a name="systemdevicesnotificationsnewmessage"></a>System. Devices. notifications. NewMessage
 
@@ -61,7 +61,7 @@ propertyDescription
             text = You have a new text message.
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

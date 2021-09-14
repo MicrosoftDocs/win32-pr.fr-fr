@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Pdh.dll
-ms.openlocfilehash: fecd9ecac573ecc1a5afabcfc4a14bf6fd1ca5cee7b44387ea910b0cf1a5820d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 003374141b0454d730ba4b844715bd6f00b544da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119011327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416660"
 ---
 # <a name="pdhvbgetcounterpathelements-function"></a>PdhVbGetCounterPathElements fonction)
 
@@ -82,7 +82,7 @@ Taille maximale de chaque variable de chaîne utilisée en tant que paramètre p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, elle retourne un entier **long** égal à la réussite de l’erreur \_ .
 
@@ -100,7 +100,7 @@ Si la fonction échoue, la valeur de retour est un [code d’erreur système](/w
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

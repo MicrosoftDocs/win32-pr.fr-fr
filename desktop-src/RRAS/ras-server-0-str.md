@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb7a135fd6f8d1d77b59d1085460d51ad5357e47ca1a050e3d1ba6fd89461c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 16f910fdfe53221daf8227d9f3e594133548fee9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117789383"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416638"
 ---
 # <a name="ras_server_0-structure"></a>\_Structure du serveur RAS \_ 0
 
@@ -78,7 +78,7 @@ Spécifie la version du serveur RAS. Utilisez ces informations pour prendre une 
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

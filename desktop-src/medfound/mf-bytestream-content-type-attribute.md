@@ -4,12 +4,12 @@ ms.assetid: bcf86ece-2673-4ed8-98fd-cd0e2154b4a8
 title: Attribut MF_BYTESTREAM_CONTENT_TYPE (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 901f3d9d2b46e503bcf8f66127eb94383710a7c1055c04fccb97f6d935d463b2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d7413fa6fd2ce74530432d60976e3c7ebf702af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118974008"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414230"
 ---
 # <a name="mf_bytestream_content_type-attribute"></a>\_Attribut de \_ type de contenu BYTESTREAM MF \_
 
@@ -19,13 +19,13 @@ Spécifie le type MIME d’un flux d’octets.
 
 Chaîne de caractères larges
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir la valeur de l’attribut, interrogez l’objet de flux d’octets pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) .
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0f197165-e6e5-456b-9615-1edc8ada7bb5
 title: MFPKEY_WMAAECMA_FEATR_MICARR_PREPROC, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbba5faeb1a1e70feb1ef6182d3ac2a397a52c4a56f27e767be93f4a3fff773
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f992d8d26ba547eb1b5d1eac470536a963209f56
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117873013"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414082"
 ---
 # <a name="mfpkey_wmaaecma_featr_micarr_preproc-property"></a>MFPKEY \_ WMAAECMA \_ fonceur \_ MICARR, \_ propriété de préprocesseur
 
@@ -31,7 +31,7 @@ VARIANTE \_ true
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le prétraitement peut supprimer des tons stationnaires qui interfèrent avec le traitement, par exemple une tonalité avec un pas de ton fixe.
 
@@ -52,7 +52,7 @@ La valeur par défaut de cette propriété est \_ true (activé). Avant de défi
 
 Le DSP utilise cette propriété uniquement lorsque le traitement du tableau du microphone est activé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

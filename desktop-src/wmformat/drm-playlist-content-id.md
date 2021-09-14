@@ -16,11 +16,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: f475a8c3620ff1af64cb70914ca1ac591aa55106
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513620"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293854"
 ---
 # <a name="drm_playlist_content_id-structure"></a>Structure de l’ID de contenu de la \_ sélection DRM \_ \_
 
@@ -49,14 +49,14 @@ typedef struct DRM_PLAYLIST_CONTENT_ID {
 **lpcwszV2Header**
 </dt> <dd>
 
-En-tête DRM. Utilisez ce membre si le contenu est protégé par Windows Media DRM version 2 ou une version ultérieure.
+En-tête DRM. utilisez ce membre si le contenu est protégé par Windows Media DRM version 2 ou ultérieure.
 
 </dd> <dt>
 
 **lpcszV1KID**
 </dt> <dd>
 
-ID de la clé. Utilisez ce membre si le contenu est protégé par Windows Media DRM version 1.
+ID de la clé. utilisez ce membre si le contenu est protégé par Windows Media DRM version 1.
 
 </dd> <dt>
 
@@ -88,15 +88,15 @@ Identificateur unique du contenu à utiliser dans la session active.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                      |
-| Version<br/>                  | SDK Windows Media format 11<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                      |
+| Version<br/>                  | Windows Kit de développement logiciel (SDK) Media format 11<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>Drmexternals. h</dt> </dl> |
 
 

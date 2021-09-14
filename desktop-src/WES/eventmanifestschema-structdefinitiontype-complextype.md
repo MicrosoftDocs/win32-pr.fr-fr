@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 035b8abe5440ffb80b902e1f4b1564b2fb80b77ee34b20f4f068d298b251478a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 01e739077d38dec94c0a407e5779bec90369ffb9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120124249"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416288"
 ---
 # <a name="structdefinitiontype-complex-type"></a>Type complexe StructDefinitionType
 
@@ -75,13 +75,13 @@ Définit une structure qui inclut un ou plusieurs éléments de données que vou
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les fournisseurs écrivent la structure en tant qu’objet BLOB et non en tant que membres individuels de la structure. Si la structure C que vous écrivez contient des pointeurs (par exemple, un pointeur de type LPWSTR), les données d’événement contiendront la valeur du pointeur, et non les données déréférencées.
 
 Vous ne devez pas utiliser des structures mais devez plutôt définir des éléments de données pour chaque membre et les écrire séparément. Si vous décidez d’utiliser la structure, la structure doit contenir uniquement des types intégraux et vous devez vous assurer que les membres de la structure sont alignés sur une limite de 8 octets. Si vous ne le faites pas, vous risquez de recevoir des erreurs d’alignement quand vous tentez d’accéder aux données. Envisagez \# d’utiliser la directive pragma Pack () pour forcer l’alignement sur une limite de 8 octets.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4c6cf5b5-db6a-4da0-b9c3-8ddbc867f29b
 title: prise en charge dans Windows 7 et Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33da0a3be816b00c69349194a0e0b365afcf16ed35af7420c35104f4cd8cf034
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3bdc433de74350b29881631241250ffd3832d521
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119928040"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127234444"
 ---
 # <a name="support-in-windows-7-and-windows-vista"></a>prise en charge dans Windows 7 et Windows Vista
 
@@ -21,7 +21,7 @@ le tableau suivant identifie les fonctionnalités prises en charge pour Windows 
 
 
 
-| Caractéristique                        | Windows 7 | Windows Vista | Windows Vista avec la mise à jour de la plateforme |
+| Fonctionnalité                        | Windows 7 | Windows Vista | Windows Vista avec la mise à jour de la plateforme |
 |--------------------------------|-----------|---------------|----------------------------------------|
 | MTP sur USB                   | Oui       | Oui           | Oui                                    |
 | MTP sur IP                    | Oui       | Oui           | Oui                                    |

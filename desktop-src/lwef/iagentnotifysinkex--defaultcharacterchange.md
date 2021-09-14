@@ -4,12 +4,12 @@ description: IAgentNotifySinkEx DefaultCharacterChange
 ms.assetid: 13acb502-e247-433f-abf3-2d78a2d6a4a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2aea2a310e55228f6e9f15ec14f9ed9ac6e20374f8c8ecb12e016d60f1809b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4ec212887d17d1aa59d942ece79b3e6928900ea
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119961469"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292291"
 ---
 # <a name="iagentnotifysinkexdefaultcharacterchange"></a>IAgentNotifySinkEx ::D efaultCharacterChange
 

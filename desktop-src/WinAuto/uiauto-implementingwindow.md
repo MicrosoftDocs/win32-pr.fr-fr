@@ -15,12 +15,12 @@ keywords:
 - interfaces, IWindowProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c04e3434ff6e14496da58d035fa965c012adaa2c8348a23e1a98e8dac2aa01dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b3c4f0d862a14fee35f8d1982c7870e2be031c61
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120122049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192668"
 ---
 # <a name="window-control-pattern"></a>Window (modèle de contrôle)
 
@@ -50,19 +50,19 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
-| Membres nécessaires                                                                            | Type de membre | Remarques                                                                       |
+| Membres nécessaires                                                                            | Type de membre | Notes                                                                       |
 |---------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------|
 | [**WindowInteractionState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_windowinteractionstate)             | Propriété    | Il n’est pas garanti que **WindowInteractionState \_ ReadyForUserInteraction** |
-| [**IsModal**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_ismodal)                                           | Propriété    | Aucun                                                                        |
-| [**IsTopmost**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_istopmost)                                       | Propriété    | Aucun                                                                        |
-| [**CanMaximize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canmaximize)                                   | Propriété    | Aucun                                                                        |
-| [**CanMinimize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canminimize)                                   | Propriété    | Aucun                                                                        |
-| [**WindowVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate)                       | Propriété    | Aucun                                                                        |
-| [**Plus**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-close)                                               | Méthode      | Aucun                                                                        |
-| [**SetVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-setvisualstate)                             | Méthode      | Aucun                                                                        |
-| [**WaitForInputIdle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-waitforinputidle)                         | Méthode      | Aucun                                                                        |
-| [**\_Fenêtre UIA \_ WindowClosedEventId**](uiauto-event-ids.md) | Événement       | Aucun                                                                        |
-| [**\_Fenêtre UIA \_ WindowOpenedEventId**](uiauto-event-ids.md) | Événement       | Aucun                                                                        |
+| [**IsModal**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_ismodal)                                           | Propriété    | None                                                                        |
+| [**IsTopmost**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_istopmost)                                       | Propriété    | None                                                                        |
+| [**CanMaximize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canmaximize)                                   | Propriété    | None                                                                        |
+| [**CanMinimize**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_canminimize)                                   | Propriété    | None                                                                        |
+| [**WindowVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate)                       | Propriété    | None                                                                        |
+| [**Plus**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-close)                                               | Méthode      | None                                                                        |
+| [**SetVisualState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-setvisualstate)                             | Méthode      | None                                                                        |
+| [**WaitForInputIdle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iwindowprovider-waitforinputidle)                         | Méthode      | None                                                                        |
+| [**\_Fenêtre UIA \_ WindowClosedEventId**](uiauto-event-ids.md) | Événement       | None                                                                        |
+| [**\_Fenêtre UIA \_ WindowOpenedEventId**](uiauto-event-ids.md) | Événement       | None                                                                        |
 
 
 
@@ -72,7 +72,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 <dl> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)

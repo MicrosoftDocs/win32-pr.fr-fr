@@ -8,11 +8,11 @@ title: SimIccID (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: bd5dfbc04c021898b51307735dbb8a4de208b848
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986352"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122194"
 ---
 # <a name="span-idwwan_profile_v4element_1_simiccidspanmodemdmconfigprofilesimiccid-v4"></a><span id="WWAN_profile_v4.element_1_SimIccID"></span>ModemDMConfigProfile \/ SimIccID (v4)
 
@@ -26,7 +26,7 @@ Numéro de identifcation SIM pour les appareils GSM. Pour plus d’informations,
 [\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
 &nbsp;&nbsp;**\<SimIccID\>**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <SimIccID>
@@ -57,7 +57,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

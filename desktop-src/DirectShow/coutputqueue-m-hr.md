@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e6ae9920589d93afe05d56654da6bf80e9ef09aaef6e787d23919f2ac48c09ba
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b786afa24f974d5eab7e13062105f26386da1c30
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087219"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195584"
 ---
 # <a name="coutputqueuem_hr-member"></a>COutputQueue :: m \_ membre HR
 
@@ -40,7 +40,7 @@ HRESULT m_hr;
 
 Cette variable membre est utilisée pour coordonner les activités entre les threads. Si la broche d’entrée en aval rejette un échantillon, ou si l’objet commence à être vidé, la valeur est définie sur S \_ false ou sur un code d’erreur. L’objet ne remet plus d’exemples jusqu’à ce que le vidage soit terminé ou jusqu’à ce que la méthode [**COutputQueue :: Reset**](coutputqueue-reset.md) soit appelée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

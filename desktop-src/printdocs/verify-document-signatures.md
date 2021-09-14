@@ -4,12 +4,12 @@ ms.assetid: fd12abaf-dc0f-4db1-837d-c116627bcc7e
 title: Vérifier les signatures et les certificats de document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adfc3dbb6eefedcc3bc14d79340893b60dc32dc7cd9b50b653913c1261d8eac6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 47dfee91437f7cc36e754e8c1f97fa89cd2387af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119033837"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293379"
 ---
 # <a name="verify-document-signatures-and-certificates"></a>Vérifier les signatures et les certificats de document
 

@@ -4,12 +4,12 @@ description: Convertit une couleur donnée plus ou moins une tolérance en alpha
 ms.assetid: f7bb5c65-f406-f947-c05d-2756cff99d21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 485cec7842c8460169b9c335eb74e9cc6d5a13e0541a49fc99835dfaa591efc2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3a13d5558d103d6f937ed6638d0debbeddaf71dd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119075586"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114157"
 ---
 # <a name="chroma-key-effect"></a>Effet clé Chroma
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ChromaKey.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -51,7 +51,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet Chroma-Key sont définies par l’énumération [**d2d1 \_ CHROMAKEY \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_chromakey_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|

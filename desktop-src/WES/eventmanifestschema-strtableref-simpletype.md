@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 97280b342015338be1cea089f8cb14121e2e51466506e89818501302c3fa891a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 95b7db446af056987e2aa25cd1483e9e53c01d39
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117750915"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192119"
 ---
 # <a name="strtableref-simple-type"></a>Type simple strTableRef
 
@@ -44,7 +44,7 @@ Le type simple **strTableRef** est un **XS : String** qui est limité par le mo
 
     La chaîne doit se présenter sous la forme $string. *stringid* ou $MC.*symbolid*. Si la chaîne se présente sous la forme, $string. *stringid*, il doit référencer une chaîne dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. Si la chaîne se présente sous la forme $mc.*symbolid*, elle doit faire référence à un symbole défini dans le fichier de message.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

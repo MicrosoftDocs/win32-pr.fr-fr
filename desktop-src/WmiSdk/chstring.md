@@ -18,11 +18,11 @@ api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
 ms.openlocfilehash: 0c94fcd89a41e610d039afe17f4b56e58cb117bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532149"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192612"
 ---
 # <a name="chstring-class"></a>CHString, classe
 
@@ -65,7 +65,7 @@ La classe **CHString** possède ces méthodes.
 | [**Comparer**](/windows/desktop/api/ChString/nf-chstring-chstring-compare)                       | Compare deux chaînes (respect de la casse).<br/>                                                              |
 | [**CompareNoCase**](/windows/desktop/api/ChString/nf-chstring-chstring-comparenocase)           | Compare deux chaînes (non-respect de la casse).<br/>                                                            |
 | [**Vidé**](/windows/desktop/api/ChString/nf-chstring-chstring-empty)                           | Force une chaîne à avoir une longueur égale à 0 (zéro).<br/>                                                            |
-| [**Trouver**](/windows/win32/api/chstring/nf-chstring-chstring-find(wchar))                        | Surchargé. Recherche un caractère ou une sous-chaîne à l’intérieur d’une chaîne plus grande.<br/>                                  |
+| [**Rechercher**](/windows/win32/api/chstring/nf-chstring-chstring-find(wchar))                        | Surchargé. Recherche un caractère ou une sous-chaîne à l’intérieur d’une chaîne plus grande.<br/>                                  |
 | [**FindOneOf**](/windows/desktop/api/ChString/nf-chstring-chstring-findoneof)                   | Recherche le premier caractère correspondant dans un ensemble.<br/>                                                      |
 | [**Format**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint_---))                         | Surchargé. Met en forme la chaîne en tant que **sprintf** .<br/>                                                 |
 | [**FormatMessageW**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint_---))         | Surchargé. Met en forme une chaîne de message.<br/>                                                               |
@@ -87,7 +87,7 @@ La classe **CHString** possède ces méthodes.
 | [**ExtracChaîne**](/windows/win32/api/chstring/nf-chstring-chstring-mid(int))                               | Surchargé. Extrait la partie centrale d’une chaîne (telle que la fonction **Mid $** de base).<br/>                |
 | [**ReleaseBuffer**](/windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer)           | Libère le contrôle de la mémoire tampon retournée par [**GetBuffer**](/windows/desktop/api/ChString/nf-chstring-chstring-getbuffer).<br/>                 |
 | [**ReverseFind**](/windows/desktop/api/ChString/nf-chstring-chstring-reversefind)               | Recherche un caractère dans une chaîne plus grande ; démarre à partir de la fin.<br/>                                      |
-| [**Oui**](/windows/desktop/api/ChString/nf-chstring-chstring-right)                           | Extrait la partie droite d’une chaîne (par exemple, la fonction $ de base **Right** ).<br/>                           |
+| [**Right**](/windows/desktop/api/ChString/nf-chstring-chstring-right)                           | Extrait la partie droite d’une chaîne (par exemple, la fonction $ de base **Right** ).<br/>                           |
 | [**SetAt**](/windows/desktop/api/ChString/nf-chstring-chstring-setat)                           | Définit un caractère à une position donnée.<br/>                                                               |
 | [**SpanExcluding**](/windows/desktop/api/ChString/nf-chstring-chstring-spanexcluding)           | Extrait une sous-chaîne qui contient uniquement les caractères qui ne sont pas dans le jeu.<br/>                     |
 | [**SpanIncluding**](/windows/desktop/api/ChString/nf-chstring-chstring-spanincluding)           | Extrait une sous-chaîne qui contient uniquement les caractères d’un jeu.<br/>                                    |
@@ -133,7 +133,7 @@ The **CHString** class has these operators.`
 
 Le destructeur de la classe est **CHString :: ~ CHString**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

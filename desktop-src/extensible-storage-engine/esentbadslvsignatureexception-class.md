@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 20fe6b7f932e424432a7ee50823862816f1324fae8dcf951664f1e080c410905
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1cd21cfec5ce11b2d67681324078f0326af98371
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119785869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416022"
 ---
 # <a name="esentbadslvsignatureexception-class"></a>EsentBadSLVSignatureException, classe
 
@@ -68,7 +68,7 @@ Tout membre statique public (Shared en Visual Basic) de ce type est thread-safe.
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Membres EsentBadSLVSignatureException](./esentbadslvsignatureexception-members.md)
 

@@ -4,12 +4,12 @@ description: Page de navigation du glossaire du système DNS (Domain Name System
 ms.assetid: 8677cd12-479d-46c2-9611-6864789feba1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c1013c02a82e91d55f8b4430cf293bb2e9918ac1ad9d73f436b6fae1e8fa41f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bb7c78ebbd7aab97df027ef9dc6d8890791582b3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119076853"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114657"
 ---
 # <a name="glossary-dns"></a>Glossaire (DNS)
 

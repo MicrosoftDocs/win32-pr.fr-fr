@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f9fd3750a70e676c3e9f32efe9ff0bfd9b300b812d09f4a04c34e4a90f36933
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9d6bcd7d6154b4ba732e5ffbbec889b326ec8176
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118669077"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115438"
 ---
 # <a name="udm_setbase-message"></a>\_Message SETBASE UDM
 
@@ -39,11 +39,11 @@ Nouvelle valeur de base pour le contrôle. Ce paramètre peut avoir la valeur 10
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 La valeur de retour est la valeur de base précédente. Si une base non valide est spécifiée, la valeur de retour est zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

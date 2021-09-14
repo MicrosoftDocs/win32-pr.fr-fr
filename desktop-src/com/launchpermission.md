@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b0e4c50568cae791f08b47fc44e10cc0d35fef07
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363479"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293686"
 ---
 # <a name="launchpermission"></a>LaunchPermission
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
       LaunchPermission = ACL
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Il s’agit d’une valeur **\_ binaire de Reg** . Lors de la réception d’une demande locale ou distante pour lancer le serveur de cette classe, la liste de contrôle d’accès décrite par cette valeur est vérifiée lors de l’emprunt d’identité du client, et sa réussite autorise ou interdit le lancement du serveur. Si cette valeur n’existe pas, la valeur [**DefaultLaunchPermission**](defaultlaunchpermission.md) est vérifiée de la même façon pour déterminer si le code de la classe peut être lancé.
 

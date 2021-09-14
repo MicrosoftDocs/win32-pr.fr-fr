@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad61be7a611eefc18f408f3f325a45b5f5952e81d53279f04f002f8d87dc2f7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: fb40ef8c0c984258dc11dd00c80807db2f4eb64a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031059"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414557"
 ---
 # <a name="iwmpmediagetattributename-method"></a>IWMPMedia :: getAttributeName, méthode
 
@@ -60,11 +60,11 @@ Implements IWMPMedia.getAttributeName
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. String** qui est le nom de l’attribut.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nom d’attribut retourné peut être utilisé conjointement avec **getItemInfo** pour récupérer la valeur d’un attribut nommé spécifique.
 
@@ -126,7 +126,7 @@ attributeNames.Lines = attInfo
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

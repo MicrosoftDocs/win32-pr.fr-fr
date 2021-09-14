@@ -4,12 +4,12 @@ ms.assetid: a39881d8-32af-4846-a2d3-508f1945b666
 title: Modification des Paramètres de ressources de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02a4658c58c07dfbd7ffe8ba7977db587211d3422359677999db312d05bd2c79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8658029470fae9ee2d70ffb1459312c3c4d80ecf
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119911983"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114305"
 ---
 # <a name="modification-of-communications-resource-settings"></a>Modification des Paramètres de ressources de communication
 

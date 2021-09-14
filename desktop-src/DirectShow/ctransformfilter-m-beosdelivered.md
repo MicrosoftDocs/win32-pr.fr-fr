@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 38d27fabb9dd3ed2a37ed5d836bfdfb1036f4255e6af48580ab6e0678abad74b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f24b87f9808c53b5f64f66031a8ee2a4e9449089
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118655103"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195543"
 ---
 # <a name="ctransformfilterm_beosdelivered-member"></a>CTransformFilter :: m \_ bEOSDelivered, membre
 
@@ -40,7 +40,7 @@ BOOL m_bEOSDelivered;
 
 Si le filtre s’interrompt lorsqu’il n’a pas de connexion d’entrée, il envoie une notification de fin de flux en aval et définit cet indicateur sur **true**. La notification de fin de flux garantit que le filtre en aval n’attend pas les exemples. Notez que la méthode [**EndOfStream**](ctransformfilter-endofstream.md) du filtre ne définit pas cet indicateur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

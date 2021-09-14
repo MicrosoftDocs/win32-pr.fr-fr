@@ -4,12 +4,12 @@ ms.assetid: 65883556-6890-4d0a-8c7f-c4ff68642caf
 title: Configuration et destruction de la connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c5e8c8a95c9baa90e95bd7b7da2702f3522b2a575d3d0181271428837e27b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f9c4ac1f32524d097e11825f8104eb41fee3c528
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119051717"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414524"
 ---
 # <a name="connection-setup-and-teardown"></a>Configuration et destruction de la connexion
 

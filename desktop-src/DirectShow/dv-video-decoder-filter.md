@@ -5,11 +5,11 @@ title: Filtre de décodage vidéo DV
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: b12aead5f8238064198c31566a1e2ca1fde75931
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984292"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195500"
 ---
 # <a name="dv-video-decoder-filter"></a>Filtre de décodage vidéo DV
 
@@ -36,7 +36,7 @@ Ce filtre décode un flux vidéo numérique (DV) en vidéo non compressée.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez l’interface [**IIPDVDec**](/windows/desktop/api/Strmif/nn-strmif-iipdvdec) pour définir la résolution du décodage sur complète, demi-taille, quart de taille ou une taille d’un huitième.
 

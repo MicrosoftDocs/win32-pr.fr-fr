@@ -5,12 +5,12 @@ ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12a67c7e0cd3592d35af80f280fc9f1893f4741fcadcc73afd3753880bccda3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62816ea0d7d7969cd56e0a9f525b2c412c8da182
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118530227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216460"
 ---
 # <a name="direct3d-11-on-12"></a>Direct3D 11 sur 12
 
@@ -48,7 +48,7 @@ Ensuite, sur chaque trame, procédez comme suit :
 -   Videz le contexte immédiat D3D11.
 -   Présent ([**IDXGISwapChain1 ::P resent1**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)).
 
-## <a name="background"></a>Arrière-plan
+## <a name="background"></a>Contexte
 
 D3D11On12 fonctionne systématiquement. Chaque appel d’API D3D11 passe par la validation d’exécution classique et passe au pilote. Au niveau de la couche du pilote, le pilote 11on12 spécial enregistre les opérations de rendu des États et des problèmes dans les listes de commandes D3D12. Ces listes de commandes sont envoyées si nécessaire (par exemple, une requête `GetData` ou une ressource `Map` peut nécessiter le vidage des commandes) ou comme demandé par Flush. La création d’un objet D3D11 entraîne généralement la création de l’objet D3D12 correspondant. Certaines opérations de rendu de fonction fixe dans D3D11 telles que `GenerateMips` ou ne `DrawAuto` sont pas prises en charge dans D3D12, de sorte que D3D11On12 les émule à l’aide de nuanceurs et de ressources supplémentaires.
 

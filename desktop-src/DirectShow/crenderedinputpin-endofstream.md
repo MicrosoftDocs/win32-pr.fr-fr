@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 26f7a5075e06a3943978a8e938f034fbabcaddfa31c9ffa2a2b37d33a0120640
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c836b1098c92a69fa720fb7b87e4a63b3c05a526
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107989"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195548"
 ---
 # <a name="crenderedinputpinendofstream-method"></a>Méthode CRenderedInputPin. EndOfStream
 
@@ -40,11 +40,11 @@ HRESULT EndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 si le filtre est en cours d’exécution, cette méthode envoie un événement [**EC \_ complet**](ec-complete.md) à filter Graph Manager. Dans le cas contraire, définit un indicateur de manière à ce que l’événement ce soit \_ envoyé lors de la prochaine exécution du filtre. Le vidage du filtre efface l’indicateur.
 
@@ -73,7 +73,7 @@ STDMETHODIMP CMyInputPin::EndOfStream(void)
 
 En outre, si le filtre traite les appels de **réception** de manière asynchrone, le code confidentiel doit attendre pour envoyer l' \_ événement EC complet jusqu’à ce que le filtre ait traité tous les échantillons en attente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - effet de transfert discret
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c977e6d2b03a3496bfa9be84209a32f57094c8514f6760746f9ec967c2ff8a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1c05ef08f9ddf053eaa686cb0f88d4183194d9e3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119431399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113281"
 ---
 # <a name="discrete-transfer-effect"></a>Effet de transfert discret
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DiscreteTransfer.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -100,7 +100,7 @@ Voici à quoi ressemble le graphique de la fonction de transfert discret si les 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

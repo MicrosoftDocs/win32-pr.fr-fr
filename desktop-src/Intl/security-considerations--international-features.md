@@ -4,12 +4,12 @@ ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
 title: 'Considérations relatives à la sécurité : fonctionnalités internationales'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e61566fdf51b80a76e5c8997018f35ce421dee6dd0e1b9e290888d96576249
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aeb9f8b849e9fb1a07f01031832449b9c9027ae5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119147042"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121886"
 ---
 # <a name="security-considerations-international-features"></a>Considérations relatives à la sécurité : fonctionnalités internationales
 

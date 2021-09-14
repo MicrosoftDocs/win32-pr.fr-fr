@@ -9,12 +9,12 @@ keywords:
 - attributs, liste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ad976956a57ff1a1ac65cc969fe55e79110557296f9ab0dcb46c69cc811af7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 793c0a860f6f9e40257bb6aec610dc7680b34538
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117656200"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219665"
 ---
 # <a name="attribute-list"></a>Liste d’attributs
 
@@ -66,7 +66,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**\_LICENSEID DRM**](drm-licenseid.md)                                              | g \_ wszWMDRM \_ LicenseID                        | **\_chaîne de type WMT \_**                                |
 | [**\_SOURCEID DRM**](drm-sourceid.md)                                                | \_wszWMDRM \_ SourceId                         | **\_valeur DWORD de type WMT \_**                                 |
 | [**\_V1LICENSEACQURL DRM**](drm-v1licenseacqurl.md)                                  | g \_ wszWMDRM \_ V1LicenseAcqURL                  | **\_chaîne de type WMT \_**                                |
-| [**Macauley**](duration.md)                                                         | \_wszWMDuration g                              | **\_type WMT \_ QWord**                                 |
+| [**Durée**](duration.md)                                                         | \_wszWMDuration g                              | **\_type WMT \_ QWord**                                 |
 | [**FileSize**](filesize.md)                                                         | \_wszWMFileSize g                              | **\_type WMT \_ QWord**                                 |
 | [**HasArbitraryDataStream**](hasarbitrarydatastream.md)                             | \_wszWMHasArbitraryDataStream g                | **\_type WMT \_ bool**                                  |
 | [**HasAttachedImages**](hasattachedimages.md)                                       | \_wszWMHasAttachedImages g                     | **\_type WMT \_ bool**                                  |
@@ -91,7 +91,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**Identifiable**](seekable.md)                                                         | \_wszWMSeekable g                              | **\_type WMT \_ bool**                                  |
 | [**Nom de la signature \_**](signature-name.md)                                            | \_nom wszWMSignature \_ g                       | **\_chaîne de type WMT \_**                                |
 | [**Stridable**](stridable.md)                                                       | \_wszWMStridable g                             | **\_type WMT \_ bool**                                  |
-| [**Titre**](title.md)                                                               | \_wszWMTitle g                                 | **\_chaîne de type WMT \_**                                |
+| [**Intitulé**](title.md)                                                               | \_wszWMTitle g                                 | **\_chaîne de type WMT \_**                                |
 | [**VBRPeak**](vbrpeak.md)                                                           | \_wszVBRPeak g                                 | **\_valeur DWORD de type WMT \_**                                 |
 | [**WM/AlbumArtist**](wm-albumartist.md)                                             | \_wszWMAlbumArtist g                           | **\_chaîne de type WMT \_**                                |
 | [**WM/AlbumCoverURL**](wm-albumcoverurl.md)                                         | \_wszWMAlbumCoverURL g                         | **\_chaîne de type WMT \_**                                |
@@ -197,7 +197,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les constantes suivantes sont définies avec les attributs. Chacun d’eux indique le nombre d’un type spécifique d’attribut. Vous n’avez pas besoin d’utiliser ces valeurs dans vos applications.
 

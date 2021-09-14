@@ -4,12 +4,12 @@ ms.assetid: cdd67082-8153-4f48-abc5-278be82ae082
 title: Comment lire des fichiers multimédias avec Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ba44212227be87e78d29c60a76bc3acdc2b1483b1029c62dd288bb7434b2a3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 163dba2f9f67139ce7477470889e13a54e2c8b5d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117878857"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293483"
 ---
 # <a name="how-to-play-media-files-with-media-foundation"></a>Comment lire des fichiers multimédias avec Media Foundation
 

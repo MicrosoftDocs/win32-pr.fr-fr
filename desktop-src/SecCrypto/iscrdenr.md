@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 2471f3acbb483af7e1882102527d392a69e2c7494a929f37718b51a17405c92b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3c3c882020db8b25c587a8d95824b3c90232bdd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119867889"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127120894"
 ---
 # <a name="iscrdenr-interface"></a>Interface ISCrdEnr
 
@@ -78,7 +78,7 @@ L’interface **ISCrdEnr** possède les propriétés suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

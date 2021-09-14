@@ -15,12 +15,12 @@ keywords:
 - DRM (gestion des droits numériques), distribution de licences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2b0c666136d3713a0b725bfa9d8ff7dd25e84f3cc9d82fd3a97b66137e47d5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 25af13947828885d70f3e0fd9fe8bf035eb8c5e5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118704313"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293839"
 ---
 # <a name="drm-protection-and-content-license-distribution"></a>Protection DRM et distribution des licences de contenu
 

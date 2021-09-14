@@ -4,12 +4,12 @@ ms.assetid: C99C342E-0BD9-486A-92AA-F8DCB72C1B00
 title: Restituer le son spatial à l’aide d’objets audio spatiaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a9498b1792ed884624afef859f3f8c70d6001d91be5dff15211717651dc4767
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cd541026aa3e144ec8333c8ac045a17970735f17
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119642499"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114797"
 ---
 # <a name="render-spatial-sound-using-spatial-audio-objects"></a>Restituer le son spatial à l’aide d’objets audio spatiaux
 

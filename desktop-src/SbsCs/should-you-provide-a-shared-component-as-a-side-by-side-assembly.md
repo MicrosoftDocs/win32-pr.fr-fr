@@ -4,12 +4,12 @@ ms.assetid: 543451cd-0608-4302-a85b-ddce79a5cfd6
 title: Devez-vous fournir un composant partagé comme assembly côte à côte ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92dbd205db37c769050614c60ce4cc3637b27be9108f25b3c1c8f553851df82d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 733adf400ba9ce019d9f749fcd79a1a71380c9e4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119141892"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121217"
 ---
 # <a name="should-you-provide-a-shared-component-as-a-side-by-side-assembly"></a>Devez-vous fournir un composant partagé comme assembly côte à côte ?
 

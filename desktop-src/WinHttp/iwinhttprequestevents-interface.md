@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 42b8355de57ada064e57a129c77ba507a72028b1c38ce115e58db110f2ce976b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cdd0bf10c0d4bd75351ddaab6e88ce7182850fd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117744347"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414526"
 ---
 # <a name="iwinhttprequestevents-interface"></a>Interface IWinHttpRequestEvents
 
@@ -47,7 +47,7 @@ L’interface **IWinHttpRequestEvents** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La procédure suivante décrit comment s’inscrire pour les notifications.
 
@@ -64,7 +64,7 @@ Pour afficher du code qui s’inscrit pour les notifications COM, consultez la s
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

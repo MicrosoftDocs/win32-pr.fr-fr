@@ -4,12 +4,12 @@ ms.assetid: 54dcaa0e-2652-406d-ba24-c8885924acc6
 title: rôles d’appareil pour les Applications multimédias héritées Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b0c1c8b61da896ca8877a913ba14d5013de71ac6fd7c14bcdebfe21c4ffcb7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 44a4ad6728659e4c865aed773575268844fe330e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118406919"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114998"
 ---
 # <a name="device-roles-for-legacy-windows-multimedia-applications"></a>rôles d’appareil pour les Applications multimédias héritées Windows
 

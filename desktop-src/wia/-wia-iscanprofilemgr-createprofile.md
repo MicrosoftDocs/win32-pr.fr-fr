@@ -1,5 +1,5 @@
 ---
-description: Crée un profil de numérisation vide et l’associe à un scanneur ou à un autre élément 2,0 de l’acquisition d’images Windows (WIA).
+description: crée un profil de numérisation vide et l’associe à un scanneur ou à un autre élément de l’acquisition d’images Windows (WIA) 2,0.
 ms.assetid: daa8cd66-184b-4559-a22a-c3e6d8209a3f
 title: 'IScanProfileMgr :: CreateProfile, méthode (Scanprofilemgr. h)'
 ms.topic: reference
@@ -14,15 +14,15 @@ api_type:
 api_location:
 - Scanprofilemgr.h
 ms.openlocfilehash: 657cfb339d439452f4a49f048aea50c02ab92ba6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485296"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293995"
 ---
 # <a name="iscanprofilemgrcreateprofile-method"></a>IScanProfileMgr :: CreateProfile, méthode
 
-Crée un profil de numérisation vide et l’associe à un scanneur ou à un autre élément 2,0 de l’acquisition d’images Windows (WIA).
+crée un profil de numérisation vide et l’associe à un scanneur ou à un autre élément de l’acquisition d’images Windows (WIA) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -78,7 +78,7 @@ Adresse d’un pointeur vers le nouveau profil.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **HRESULT**
 
@@ -92,14 +92,14 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 Utilisez la méthode [**IScanProfileMgr :: Refresh**](-wia-iscanprofilemgr-refresh.md) quand plusieurs objets [**IScanProfileMgr**](-wia-iscanprofilemgr.md) peuvent créer ou supprimer des profils en même temps.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofilemgr. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

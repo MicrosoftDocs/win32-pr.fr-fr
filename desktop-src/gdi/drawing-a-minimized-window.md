@@ -4,12 +4,12 @@ ms.assetid: 607d987a-5bdc-46bc-bde7-6dc52745ac79
 title: Dessin d’une fenêtre réduite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ca955d3ff9f17b7f01e504b9e60c15200eb2b8191a5b4dba0e622956567f98
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ced1f3205243ea098856517590d58caee851329a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119360629"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415949"
 ---
 # <a name="drawing-a-minimized-window"></a>Dessin d’une fenêtre réduite
 

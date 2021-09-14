@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c496faf8c28c6dc9abacf75156f53a91cf7fc4d71b4ef469b64d2daa424d1a01
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6f349b7267d58a9376b9295e3ffd5013954a0872
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117771653"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416491"
 ---
 # <a name="icertificate2extendedkeyusage-method"></a>ICertificate2 :: ExtendedKeyUsage, méthode
 
@@ -41,11 +41,11 @@ Certificate.ExtendedKeyUsage()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Objet [**ExtendedKeyUsage**](extendedkeyusage.md) associé au certificat.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -65,7 +65,7 @@ Objet [**ExtendedKeyUsage**](extendedkeyusage.md) associé au certificat.
 [Objets de chiffrement](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Certificat**](certificate.md)
 </dt> </dl>
 
  

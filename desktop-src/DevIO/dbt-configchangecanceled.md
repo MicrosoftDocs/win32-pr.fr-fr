@@ -4,12 +4,12 @@ ms.assetid: b4b1455c-9a04-4fa0-a3fa-ed991f278c0c
 title: Événement DBT_CONFIGCHANGECANCELED (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 624144ccd5a87d983d453c8d6a3c0667376c2a1b9340bba83f229a29882bffe4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 97944daa698808c55f88bc377c9bf1c59c1217fb
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114437"
 ---
 # <a name="dbt_configchangecanceled-event"></a>\_Événement DBT CONFIGCHANGECANCELED
 
@@ -61,11 +61,11 @@ Définit la valeur zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

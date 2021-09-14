@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 290b123fadcaf46a315c42e3ce9a530c5d5d36c8
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364211"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195300"
 ---
 # <a name="icm_draw_window-message"></a>ICM \_ DESSINER un \_ message de fenêtre
 
@@ -49,7 +49,7 @@ Pointeur vers le rectangle de destination en coordonnées d’écran. Si ce para
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Ce message est pris en charge par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones.
 

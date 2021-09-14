@@ -4,12 +4,12 @@ ms.assetid: 8491dfa6-b9be-4e37-8a61-a405c8eb0ab0
 title: Redistribuables Windows Installer
 ms.topic: article
 ms.date: 05/19/2020
-ms.openlocfilehash: 831abe9a19f8b2d4999229b1d40e701c5869aa79e6dda9f0933ab8117656652b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9fc175a96ae1d2daed9798981b0dbe679505975e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119526699"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416864"
 ---
 # <a name="windows-installer-redistributables"></a>Redistribuables Windows Installer
 

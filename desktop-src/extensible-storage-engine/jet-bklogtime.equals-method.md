@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 7b2d969694028b1c944900e820006798b1e82a061d7724efc4288396a91daf69
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 29c7b2fd95708e38ab4a849069cfc2c43c69cb27
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118076213"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221172"
 ---
 # <a name="jet_bklogtimeequals-method"></a>JET_BKLOGTIME. Equals (méthode)
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>Nom</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Structure JET_BKLOGTIME](./jet-bklogtime-structure2.md)
 

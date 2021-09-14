@@ -10,11 +10,11 @@ api_location: ''
 topic_type:
 - kbArticle
 ms.openlocfilehash: 94c5405a29e11c3906dc1b21d6fc9fa9dbe84b49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951930"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235133"
 ---
 # <a name="user-profiles"></a>Profils utilisateur
 

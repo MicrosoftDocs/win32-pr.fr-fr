@@ -4,12 +4,12 @@ description: montre comment utiliser Windows Animation avec le minuteur d’anim
 ms.assetid: c50a4bfb-855b-4837-a117-84f412943b14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8071d51906ba2d0d7b59acb7b1b5531fcb5c577fbbf0d47ab5039d3f43e2eab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec145b087a112c7482de3a749c690a1824195ea3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192511"
 ---
 # <a name="timer-driven-animation-sample"></a>Exemple d’animation Timer-Driven
 

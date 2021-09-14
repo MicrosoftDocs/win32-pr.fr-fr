@@ -8,11 +8,11 @@ title: ProfileConditionedOn
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 1c0be79fd82b7fa92400a4d828149912cfc1aeb7
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987072"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127122193"
 ---
 # <a name="span-idwwan_profile_v4element_profileconditionedonspanprofileconditionedon"></a><span id="WWAN_profile_v4.element_ProfileConditionedOn"></span>ProfileConditionedOn
 
@@ -25,7 +25,7 @@ Cet élément est une nouveauté pour v4. Elle vous permet de spécifier plusieu
 [&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
 **&lt;ProfileConditionedOn&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <ProfileConditionedOn>
@@ -40,7 +40,7 @@ Cet élément est une nouveauté pour v4. Elle vous permet de spécifier plusieu
 </ProfileConditionedOn>
 ```
 
-### <a name="key"></a>Clé :
+### <a name="key"></a>Clé
 
 `?`   facultatif (zéro ou un)
 
@@ -74,7 +74,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | Condition requise | Valeur |

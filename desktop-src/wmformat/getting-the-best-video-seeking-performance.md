@@ -14,12 +14,12 @@ keywords:
 - performances, recherche de vidéos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d055ade42caada84e4c58667d568d796c36cf10b3250e827b6194ac68369ec4b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4c95feb9158bbab09ce28024100f3ebbffb56ad9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117655596"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293147"
 ---
 # <a name="getting-the-best-video-seeking-performance"></a>Obtenir les meilleures performances de recherche de vidéos
 

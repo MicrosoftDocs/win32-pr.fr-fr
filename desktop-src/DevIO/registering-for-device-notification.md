@@ -6,21 +6,21 @@ ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.openlocfilehash: 16f529003d97c77d9ffc74207500390222c0baf8
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104108375"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114246"
 ---
 # <a name="registering-for-device-notification"></a>Inscription aux notifications de l’appareil
 
-Le système d’exploitation peut envoyer des messages de notification qui représentent les événements déclenchés par un périphérique. Le système envoie ces notifications à une fenêtre ou à un service Windows. Et vous pouvez vous inscrire pour recevoir ces notifications en appelant la fonction [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationw) .
+Le système d’exploitation peut envoyer des messages de notification qui représentent les événements déclenchés par un périphérique. le système envoie ces notifications à une fenêtre ou à un service de Windows. Et vous pouvez vous inscrire pour recevoir ces notifications en appelant la fonction [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationw) .
 
 Cette rubrique fournit un exemple de code qui montre comment s’inscrire pour les notifications d’appareil. Vous pouvez identifier l’appareil pour recevoir des notifications concernant en spécifiant une classe d’appareil quand vous appelez **RegisterDeviceNotification**. Et vous identifiez cette classe d’appareil par son GUID.
 
 ## <a name="source-code-listing"></a>Liste du code source
 
-Si vous souhaitez générer et exécuter cet exemple de code source en tant qu’application, commencez par créer un nouveau projet dans Microsoft Visual Studio. Créez un nouveau projet basé sur le modèle de projet d' **application de bureau Windows** . Nommez le projet *RegisterDeviceNotification*.
+Si vous souhaitez générer et exécuter cet exemple de code source en tant qu’application, commencez par créer un nouveau projet dans Microsoft Visual Studio. créez un nouveau projet basé sur le modèle de projet d' **Application de bureau Windows** . Nommez le projet *RegisterDeviceNotification*.
 
 Ouvrez `RegisterDeviceNotification.cpp`, supprimez tout son contenu, puis collez les lignes de code ci-dessous.
 
@@ -505,7 +505,7 @@ Vous pouvez à présent lancer le processus de génération et exécuter le proj
 
 ## <a name="about-the-code-example"></a>À propos de l’exemple de code
 
-L’exemple de code utilise un handle de fenêtre pour les notifications de modification d’appareil et contient une grande quantité de code pour gérer l’infrastructure de fenêtrage. Une application destinée à être installée en tant que service Windows contient un code d’infrastructure différent.
+L’exemple de code utilise un handle de fenêtre pour les notifications de modification d’appareil et contient une grande quantité de code pour gérer l’infrastructure de fenêtrage. une application destinée à être installée en tant que service Windows contient un code d’infrastructure différent.
 
 L’application recevra le message d' [**WM_DEVICECHANGE**](./wm-devicechange.md) chaque fois qu’une notification d’événement d’interface de périphérique USB sera envoyée.
 

@@ -4,12 +4,12 @@ ms.assetid: c8cc040e-fcce-43a0-98c1-db2b2c616ac3
 title: enum
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1336a690fe7ac1e19a8606912a4f7d538d3842ab6a490d17b89f90f64bbfbc13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b615697e669f8d02e0530a1763309cfe74113467
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118970978"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235529"
 ---
 # <a name="enum"></a>enum
 
@@ -40,7 +40,7 @@ Utilisé pour assigner du texte énuméré à des valeurs discrètes. N’import
 
 | Élément parent                                         | Éléments enfants |
 |--------------------------------------------------------|----------------|
-| [enumeratedList](./propdesc-schema-enumeratedlist.md) | aucun           |
+| [enumeratedList](./propdesc-schema-enumeratedlist.md) | Aucun           |
 
 
 
@@ -54,7 +54,7 @@ Utilisé pour assigner du texte énuméré à des valeurs discrètes. N’import
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | value     | Public. Obligatoire. Valeur discrète (chaîne ou nombre) à laquelle assigner le texte énuméré.                                                                                                                           |
 | text      | Public. Obligatoire. Texte utilisé pour afficher la valeur énumérée. La syntaxe autorise une chaîne d’affichage directe ou une référence à une chaîne d’affichage indirecte ; Utilisez la chaîne d’affichage indirecte afin qu’elle puisse être localisée. |
-| mnémoniques | **Windows 7 et versions ultérieures.** Public. Facultatif. Liste de valeurs mnémoniques qui peuvent être utilisées pour faire référence à la propriété dans les requêtes de recherche. La liste est délimitée par le \| caractère «».                                     |
+| mnémoniques | **Windows 7 et versions ultérieures.** Public. Optionnel. Liste de valeurs mnémoniques qui peuvent être utilisées pour faire référence à la propriété dans les requêtes de recherche. La liste est délimitée par le \| caractère «».                                     |
 
 
 

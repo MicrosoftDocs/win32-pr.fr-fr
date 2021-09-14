@@ -1,7 +1,7 @@
 ---
 description: La méthode ConfigureFeature de l’objet installer configure l’état installé d’une fonctionnalité de produit.
 ms.assetid: cc950951-3b43-4d86-9ff1-80aa2ccd11d5
-title: Installer.Configméthode ureFeature
+title: Installer. ConfigureFeature, méthode
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 522dfffcbafd546dce218956729f01133708833a4a4c2732af3ea0248f87bc71
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 737019f5c404beabef404751e617be975b946c04
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118632343"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121650"
 ---
-# <a name="installerconfigurefeature-method"></a>Installer.Configméthode ureFeature
+# <a name="installerconfigurefeature-method"></a>Installer. ConfigureFeature, méthode
 
 La méthode **ConfigureFeature** de l’objet [**installer**](installer-object.md) configure l’état installé d’une fonctionnalité de produit.
 
@@ -76,11 +76,11 @@ Spécifie l’état d’installation de la fonctionnalité. Ce paramètre doit a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

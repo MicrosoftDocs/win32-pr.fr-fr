@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 485121f0ac9c4c441ff90e34b90ef5c9475c22995565b018d3f0e00dc5d94740
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f627e9b2f0e1c4b226dda13d280d521ad52df2ee
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117746014"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416152"
 ---
 # <a name="iwmpmediaismemberof-method"></a>IWMPMedia :: isMemberOf, méthode
 
@@ -60,11 +60,11 @@ Interface **wmplib. IWMPPlaylist** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Valeur **System. Boolean** qui indique si l’élément multimédia est membre de la sélection.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette méthode ne peut pas vérifier les sélections récupérées par le biais de l’interface **IWMPMediaCollection** . Pour déterminer si un élément multimédia est membre d’une sélection nommée particulière, récupérez la collection de sélections avec la propriété **AxWindowsMediaPlayer. playlistCollection** . Une fois que vous récupérez la collection, récupérez la playlist en appelant la méthode **IWMPPlaylistCollection. GetByName** .
 
@@ -106,7 +106,7 @@ End If
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

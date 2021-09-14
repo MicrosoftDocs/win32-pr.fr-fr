@@ -4,12 +4,12 @@ description: Utilisez l’effet compensation DPI pour ajuster automatiquement un
 ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38f1390825087cabb9ee1bec65f2708990757ff25f08e71140be5be0fc6ae11e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 69a0477d2a57f39738fa9b1ce16c97995c60cf96
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119967112"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113257"
 ---
 # <a name="dpi-compensation-effect"></a>Effet de compensation DPI
 
@@ -66,7 +66,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DpiCompensation.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

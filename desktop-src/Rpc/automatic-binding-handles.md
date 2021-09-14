@@ -4,12 +4,12 @@ description: Les handles de liaison automatiques sont utiles lorsque l’applica
 ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b619b17e44e79e623bcffa84f4938d1278a7d146d6de90547cd833e1bf091167
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fe83d3f9029e0384c87e5e409583ff70f1e91ac
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120023439"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416617"
 ---
 # <a name="automatic-binding-handles"></a>Handles de liaison automatiques
 

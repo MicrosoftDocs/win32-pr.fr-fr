@@ -4,12 +4,12 @@ ms.assetid: af30606b-f1a0-4fbf-a831-05ed891f5d53
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_MAX_BUFFERS (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba50ad5489d08ba0fc986d56bef8d57c547fa0146a3bbb58290bca43009cc5af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cfa927d28b49da0eb0a0be40c3137f1cd9acf79b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118973818"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414202"
 ---
 # <a name="mf_devsource_attribute_source_type_vidcap_max_buffers-attribute"></a>\_Attribut MF DEVSOURCE \_ type de \_ source \_ \_ VIDCAP \_ Max \_ buffers
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Par défaut, la source de capture vidéo met en mémoire tampon un maximum d’une image à la fois. Vous pouvez augmenter la limite de la mémoire tampon en définissant cet attribut.
 
@@ -39,7 +39,7 @@ L’attribut s’applique uniquement aux périphériques de capture vidéo.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

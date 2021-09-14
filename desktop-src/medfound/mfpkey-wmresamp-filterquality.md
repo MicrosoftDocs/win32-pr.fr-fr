@@ -4,12 +4,12 @@ ms.assetid: 7b45633b-7f1c-4951-a462-ad6240b9ca31
 title: MFPKEY_WMRESAMP_FILTERQUALITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf00b757bd07add37f6a5b82459f37df40f9fb36ea6ef813e011adcadde196e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4027d4bc3c0306240986cf632e171fa9a59ed18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119603369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414076"
 ---
 # <a name="mfpkey_wmresamp_filterquality-property"></a>MFPKEY \_ WMRESAMP \_ FILTERQUALITY, propriété
 
@@ -27,11 +27,11 @@ VT \_
 
 -   [Modèle de rééchantillonnage audio DSP](audioresampler.md)
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La plage valide de cette propriété est comprise entre 1 et 60 inclus. Des valeurs plus élevées produisent une sortie de qualité supérieure, mais introduisent plus de latence. La valeur 1 est fondamentalement identique à l’interpolation linéaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43
 title: System. Identity. QualifiedUserName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 900a2b79605ae20df8cb5443a95ffb835d801f9262a6bca0c0bcc19e1dd6f71f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 699165297c9f0af5fd0f59208ed9eb2bc18d09d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120091099"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220401"
 ---
 # <a name="systemidentityqualifiedusername"></a>System. Identity. QualifiedUserName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

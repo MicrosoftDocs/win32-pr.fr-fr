@@ -15,12 +15,12 @@ keywords:
 - Windows Sélections de métafichiers multimédia, éléments multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95ef42f4c79c8239af9278532c8bd09e320725a9d3bb36b361995e25fa905257
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f4716a8ce07e7b0ec8348ce1a6981e23291335e7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119862079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292926"
 ---
 # <a name="playlists-and-media-items"></a>Sélections et éléments multimédias
 

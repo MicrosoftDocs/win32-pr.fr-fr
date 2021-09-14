@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 417129595405aeb6c9a2345eb9c3f03f1e2731e5
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363775"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416845"
 ---
 # <a name="mci_close-command"></a>\_Commande MCI Close
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le fait de quitter une application sans fermer les périphériques MCI ouverts peut rendre l’appareil inaccessible. Votre application doit fermer explicitement chaque appareil ou fichier une fois qu’il est terminé. MCI décharge l’appareil lorsque toutes les instances de l’appareil ou tous les fichiers associés sont fermés.
 

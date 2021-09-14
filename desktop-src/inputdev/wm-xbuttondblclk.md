@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f15ed64871cee3b5a97ad8067e883d7ad31206896f6b20150acdb490a2f44c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed0612c2850f784901f01313935145fc9d3d7910
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118757148"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192131"
 ---
 # <a name="wm_xbuttondblclk-message"></a>\_Message WM XBUTTONDBLCLK
 
@@ -83,11 +83,11 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* :
 
@@ -120,7 +120,7 @@ Seules les fenêtres qui ont le style **cs \_ DBLCLKS** peuvent recevoir des mes
 
 Contrairement aux [**messages \_ WM LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM \_ MBUTTONDBLCLK**](wm-mbuttondblclk.md)et [**WM \_ RBUTTONDBLCLK**](wm-rbuttondblclk.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -169,7 +169,7 @@ Contrairement aux [**messages \_ WM LBUTTONDBLCLK**](wm-lbuttondblclk.md), [**WM
 [**\_XBUTTONUP WM**](wm-xbuttonup.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Entrée de la souris](mouse-input.md)

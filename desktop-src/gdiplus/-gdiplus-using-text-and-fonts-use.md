@@ -4,12 +4,12 @@ ms.assetid: 12bc38c3-5fbc-4d7b-902c-92a5f5057473
 title: Utilisation du texte et des polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2cffc8c36da4c9dd8bbc78c6660a7cc85094071350003c5b23ce4d6a6ce7cad
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3f28ec157888dcf45b309237eb0f7eefff17808c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119359599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414288"
 ---
 # <a name="using-text-and-fonts"></a>Utilisation du texte et des polices
 

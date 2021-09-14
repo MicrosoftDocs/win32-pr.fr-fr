@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8840045900fdbd63930219d199889cde018406779426cd767b49ab41a399efc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: faa1f7920d2ec8c443b2ec5f1ff9189c22c5f21e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120060159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115617"
 ---
 # <a name="tvm_setautoscrollinfo-message"></a>TVM \_ SETAUTOSCROLLINFO message
 
@@ -43,15 +43,15 @@ Spécifie l’intervalle de redessination. Redessinez à chaque intervalle de el
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les informations de défilement automatique sont utilisées pour faire défiler un élément non visible dans l’affichage. Le contrôle doit avoir le style étendu [**TV \_ ex \_ AUTOHSCROLL**](tree-view-control-window-extended-styles.md) . Pour plus d’informations sur les styles étendus, consultez Tree-View les styles étendus de contrôle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

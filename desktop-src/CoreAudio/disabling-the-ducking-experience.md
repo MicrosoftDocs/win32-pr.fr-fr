@@ -4,12 +4,12 @@ ms.assetid: 5604b927-99f8-450f-a48c-b38d782584de
 title: Désactivation de l’expérience de l’utilisation des canards par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 473b0bab8c3575d416cc72b7e931b4c85160bdaacc6031611ad80394f44b9098
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed33fa7d9473cb5c68a018b98bff8a826612387e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117828550"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114977"
 ---
 # <a name="disabling-the-default-ducking-experience"></a>Désactivation de l’expérience de l’utilisation des canards par défaut
 

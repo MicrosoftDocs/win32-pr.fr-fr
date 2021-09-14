@@ -4,12 +4,12 @@ ms.assetid: e3e82676-3095-43f0-9fb4-959f925e66c2
 title: Tracés détaillés et remplis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9660221eb1ef9d7ecf80d1d48ae18c8b234e76e5af3b30dba3323ee6feac3bc3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 735ee9ee5d7e69922241c5647b883e1800b525e2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119831599"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127415910"
 ---
 # <a name="outlined-and-filled-paths"></a>Tracés détaillés et remplis
 

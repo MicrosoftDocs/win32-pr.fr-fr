@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6169b5d2ec71148cd868e340c5a2f4e206355044ce55e0905c20787ddb3a263e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a4cf47469800a4d1ecd8abe373d6f3c1fd53ece5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118660784"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121965"
 ---
 # <a name="cbasecontrolvideosetcontrolvideopin-method"></a>Méthode CBaseControlVideo. SetControlVideoPin
 
@@ -49,15 +49,15 @@ Pointeur vers le code confidentiel avec lequel l’interface est synchronisée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’interface peut être appelée uniquement lorsque le filtre a été connecté avec succès. L’objet est passé par cette méthode au code confidentiel avec lequel il est synchronisé ; dans la plupart des cas, il détermine si le code confidentiel est connecté lorsqu’il a une méthode d’interface appelée et retourne VFW \_ E \_ non \_ connecté en cas d’échec.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

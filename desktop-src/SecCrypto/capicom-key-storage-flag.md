@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: cb1c2c4761403223c8ed0eb225709fbd189127bc9d56d60b82a534e2bc15b8e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9edbc3a5ac3396e528ebbb5390c4b07c24770e58
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119879089"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121093"
 ---
 # <a name="capicom_key_storage_flag-enumeration"></a>\_Énumération de l' \_ indicateur de stockage de clé CAPICOM \_
 
@@ -36,14 +36,14 @@ L’énumération de l' **\_ indicateur de \_ stockage \_ de clé CAPICOM** déf
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette énumération est utilisée par la méthode suivante :
 
 -   [**Certificate. Load**](certificate-load.md)
 -   [**Store. Load**](store-load.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ee3aaeed-166c-4591-ae3e-642c1204a5ca
 title: Propriété du résumé du nombre de pages
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 690f19db5b8b4dc4dff3c3eb30f616803754bfac199a3aa1e6656da0f1e3fa39
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ec5e319450bb7a7db5515587be7777ad3e657d3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119145412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218801"
 ---
 # <a name="page-count-summary-property"></a>Propriété du résumé du nombre de pages
 
@@ -25,7 +25,7 @@ Cette propriété de résumé est obligatoire.
 
 cette propriété peut être utilisée pour créer un package qui ne peut être installé que par la version minimale ou ultérieure spécifiée du Windows Installer.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

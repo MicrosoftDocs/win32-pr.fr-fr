@@ -4,12 +4,12 @@ ms.assetid: 36d711c7-a1ff-4ef2-b633-5f9f1662801e
 title: MFNETSOURCE_LOGPARAMS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba557c4fb0bf77693669e8cb46af269ec3a4f2ed72c536e4bdab53a0778dc038
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec30f3f4d85f44905288601ba73ee6c246d8a9db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120113519"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414113"
 ---
 # <a name="mfnetsource_logparams-property"></a>MFNETSOURCE \_ propriété LOGPARAMS
 
@@ -31,11 +31,11 @@ Membre PROPVARIANT
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La constante **MFNETSOURCE \_ LOGPARAMS** définit le GUID de la clé de propriété. L’identificateur de propriété (PID) est égal à zéro. Pour définir cette propriété sur la source réseau, transmettez un pointeur **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

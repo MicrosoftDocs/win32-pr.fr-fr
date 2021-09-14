@@ -5,11 +5,11 @@ title: Création d’un objet PenInputPanel
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 4072d5dca28801ee45b7747504a93d755443cfb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513954"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127294658"
 ---
 # <a name="creating-a-peninputpanel-object"></a>Création d’un objet PenInputPanel
 
@@ -24,7 +24,7 @@ PenInputPanel thePenInputPanel = new PenInputPanel(InkEdit1);
 
 
 
-Le même exemple dans Visual Basic .NET se présente comme suit :
+le même exemple dans Visual Basic .net se présente comme suit :
 
 
 ```C++

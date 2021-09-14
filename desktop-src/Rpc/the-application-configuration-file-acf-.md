@@ -6,12 +6,12 @@ keywords:
 - Fichiers CCP RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a283bdd99242143c03d21a5e8a59aab934e0d799addc4755af000f6871790758
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 43e933547a2e730d29f21527b1fe22247ea5a011
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120127659"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416583"
 ---
 # <a name="the-application-configuration-file-acf"></a>Fichier de configuration de l’application (ACF)
 

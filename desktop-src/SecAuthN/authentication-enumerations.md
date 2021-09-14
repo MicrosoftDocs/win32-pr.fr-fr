@@ -4,12 +4,12 @@ ms.assetid: e27888e5-d01a-4fdd-8c7d-9849c0f90eb5
 title: Énumérations d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc42553074b79726c9d1b70bfc6292f4acf44df225fa1f86c7f7a28289ec8ab7
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c5640151967867f610aa8b18c81940c684d23c18
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120101319"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416562"
 ---
 # <a name="authentication-enumerations"></a>Énumérations d’authentification
 

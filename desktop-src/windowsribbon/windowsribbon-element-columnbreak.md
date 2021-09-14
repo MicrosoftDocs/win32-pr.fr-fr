@@ -14,17 +14,17 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ms.openlocfilehash: 95b5b5982b5348cef7a2dbaa3b60d639beabaf9d
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630497"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293947"
 ---
 # <a name="columnbreak-element"></a>Élément ColumnBreak
 
 Représente un séparateur vertical (visible ou masqué) dans les modèles de disposition [**SizeDefinition**](windowsribbon-element-sizedefinition.md) personnalisés.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ColumnBreak
@@ -77,7 +77,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Optionnel.
 

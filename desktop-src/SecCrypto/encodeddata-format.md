@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1b3d4316a2de24410a14d496b71e46746ea580109f8d6ede10c4c1a0f57fc22f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 435d0fdcd6e2bbd8c446c38f97012d820dbe5c7b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119874869"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416454"
 ---
 # <a name="encodeddataformat-method"></a>EncodedData. format, méthode
 
@@ -48,15 +48,15 @@ Valeur booléenne qui indique si la chaîne retournée contient plusieurs lignes
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Chaîne explicite qui représente les données encodées. Si CAPICOM ne comprend pas les données encodées, une représentation hexadécimale des données est retournée.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le format de la chaîne retournée peut changer entre les différentes versions de CAPICOM. Ne vous fiez pas à un format particulier dans votre application.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

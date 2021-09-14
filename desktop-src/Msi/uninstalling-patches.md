@@ -4,12 +4,12 @@ ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: Désinstallation des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b10024d82bde0e902fb7f49f9af3bcfa041ca46efb1e6e19466c4acd09c805fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff9418704bdeeb5ccc57839cbe2416faa5692265
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119893359"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121565"
 ---
 # <a name="uninstalling-patches"></a>Désinstallation des correctifs
 

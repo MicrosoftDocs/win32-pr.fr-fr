@@ -4,12 +4,12 @@ ms.assetid: 076b2e6f-c2ca-4129-8827-1b18a655d634
 title: Restaurations sans participation au rédacteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 896cbe81a2c3487bb00b01379b6b5bbe4760ecbb28c1bf94c661eeb0049a3d37
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f89fd5ea855d2d91701d351e860bf966148be587
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119056367"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414590"
 ---
 # <a name="restores-without-writer-participation"></a>Restaurations sans participation au rédacteur
 

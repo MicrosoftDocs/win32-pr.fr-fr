@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1bf0d51cd921e3b8d164ffad3a26d20dc615bb0566dfaf5a97813e391108a72
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8ad1f1ce647fc23852d58a79daf3f827e73990a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118336782"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293019"
 ---
 # <a name="playlistdisableditemcolor"></a>PLAYLIST. disabledItemColor
 
@@ -31,7 +31,7 @@ L’attribut **disabledItemColor** spécifie ou récupère la couleur d’une pi
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. Sa valeur par défaut est « GrayText ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

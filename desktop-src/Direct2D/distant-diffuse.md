@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage diffus distant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f1860f196685c3d7dc0dcc30ae575cee70bc1eb0fcc29e8da7709c1174ee411
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f30d8e7f918c0b1a55e25c18c83e3eff51b75233
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119260402"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113270"
 ---
 # <a name="distant-diffuse-lighting-effect"></a>Effet d’éclairage diffus distant
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DistantDiffuse.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scale-modes)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -72,7 +72,7 @@ L’exemple ci-dessous montre les images d’entrée et de sortie de l’effet d
 > Si vous ne sélectionnez pas de mode, l’effet par défaut est D2D1 \_ DISTANTDIFFUSE \_ Scale \_ mode \_ linéaire.
 
  
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

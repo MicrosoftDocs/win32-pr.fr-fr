@@ -4,12 +4,12 @@ ms.assetid: 5912fbd0-0e29-4b5a-9bcf-83223fc03276
 title: Base de données du programme d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730dbe151bf0d23539f3aa6231492b2ea8ada1e433f4f866f02d97ffd0f176be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c9d15ddf5800a20daa5b6ab48e442b39755f33b7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118631705"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121641"
 ---
 # <a name="installer-database"></a>Base de données du programme d’installation
 

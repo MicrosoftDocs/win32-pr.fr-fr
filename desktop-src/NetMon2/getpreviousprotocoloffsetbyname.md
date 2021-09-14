@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 17b472bbdead74612ccc6d76f1059443ce6f62dd122f7933ae31c99fb82900a5
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2720d309224def5f368babf4f9ace85955907347
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119743759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416753"
 ---
 # <a name="getpreviousprotocoloffsetbyname-function"></a>GetPreviousProtocolOffsetByName fonction)
 
@@ -70,17 +70,17 @@ Pointeur vers une **valeur DWORD** qui contient l’offset au protocole précéd
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est le protocole NMERR \_ est \_ \_ introuvable.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler **GetPreviousProtocolOffsetByName**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

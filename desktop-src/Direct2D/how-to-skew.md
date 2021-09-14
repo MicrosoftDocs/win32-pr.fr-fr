@@ -4,12 +4,12 @@ description: Montre comment incliner un objet.
 ms.assetid: bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 849c292221a8b4503cdfd122e08b6f1b2521043b44732c33d851a86693853f2e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 691062e64d4255b1e2f7711b5ff700d72fd90063
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118003484"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113086"
 ---
 # <a name="how-to-skew-an-object"></a>Comment incliner un objet
 

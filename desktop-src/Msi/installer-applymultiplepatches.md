@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a2b1c469ca623b0c09ea2899de1867cc10c8d8cda9363994973d08ecc20ed7f8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d96d96157f7b1d81617be6980804fb54a6e6659f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118633206"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121693"
 ---
 # <a name="installerapplymultiplepatches-method"></a>Installer. ApplyMultiplePatches, méthode
 
@@ -62,11 +62,11 @@ Chaîne terminée par le caractère null qui spécifie les paramètres de propri
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -88,7 +88,7 @@ Cette méthode ne retourne pas de valeur.
 [**ProductCode**](productcode.md)
 </dt> <dt>
 
-[**CORRECTIF**](patch.md)
+[**PATCH**](patch.md)
 </dt> <dt>
 
 [Définition des valeurs de propriété publiques sur la ligne de commande](setting-public-property-values-on-the-command-line.md)

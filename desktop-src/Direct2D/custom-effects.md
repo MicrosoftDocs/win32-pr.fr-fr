@@ -4,12 +4,12 @@ description: Montre comment écrire vos propres effets personnalisés à l’aid
 ms.assetid: 5D22CA84-6465-4882-863D-81A632ACDD9C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14067ebeb7e52a521d7d46d210b79e37cb4377b3f763cb99e63b9e426bf805e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eca6b15fe81ff4ccbd6cebbcee8c0d1955967056
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119814921"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114114"
 ---
 # <a name="custom-effects"></a>Effets personnalisés
 

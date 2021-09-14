@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f4153a5761d59c54cf8635202adcca0ddf72603022ebf8dbb5b160231c90e49e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 31c2e6de8cf1504543727cad056a3616a51182d6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119955209"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127292806"
 ---
 # <a name="swbemlocatorconnectserver-method"></a>Méthode SWbemLocator. ConnectServer
 
@@ -176,7 +176,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 En cas de réussite, WMI retourne un objet [**SWbemServices**](swbemservices.md) qui est lié à l’espace de noms spécifié dans *strNameSpace* sur l’ordinateur spécifié dans *strServer*.
 
@@ -228,7 +228,7 @@ Une erreur réseau s’est produite, empêchant le fonctionnement normal.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La méthode **ConnectServer** est souvent utilisée lors de la connexion à un compte avec des informations d’identification de nom d’utilisateur et de mot de passe différentes sur un ordinateur distant, car vous ne pouvez pas spécifier un mot de passe différent dans une chaîne de [moniker](constructing-a-moniker-string.md) . Pour plus d’informations, consultez [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -294,7 +294,7 @@ $WbemClasses
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
 title: Codes d’erreur système (500-999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 9430f77c53be29ae0f8b1b4037b3c963b5ac69da446f4755fb19dc40501c69df
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 02b35374fcb68f9b416948d5e39b2182f573b60f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119539199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114541"
 ---
 # <a name="system-error-codes-500-999"></a>Codes d’erreur système (500-999)
 
@@ -3531,7 +3531,7 @@ Erreur lors de l’exécution de l’opération InPage.
 </dt> </dl> </dd> </dl>
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

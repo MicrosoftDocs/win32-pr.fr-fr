@@ -4,12 +4,12 @@ description: Lorsque RasDial est appelé en tant qu’opération asynchrone, la 
 ms.assetid: f165b4a7-00fb-4888-8225-8fd106e113f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db03b1d9d3c98e84bc9a2f4fd80ec7206d9a4524608cdbc96cca83f89d0ea00
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db434b7e6d080933e7e21de056f9af5ea7d57dfe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030559"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416655"
 ---
 # <a name="asynchronous-operations"></a>Opérations asynchrones
 

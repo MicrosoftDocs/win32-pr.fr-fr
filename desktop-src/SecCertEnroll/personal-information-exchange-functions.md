@@ -4,12 +4,12 @@ ms.assetid: f7e6b3a6-eae4-49f8-a624-609742741560
 title: fonctions d’informations personnelles Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1e7cddcda00131b64c5fe6122d777695bbab4f80cbac8e71648a2197fed036
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7dea1670e6017cd30ed8358d2670585727667068
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117774682"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121166"
 ---
 # <a name="personal-information-exchange-functions"></a>fonctions d’informations personnelles Exchange
 

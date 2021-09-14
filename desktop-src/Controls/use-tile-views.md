@@ -4,12 +4,12 @@ description: Cette rubrique montre comment définir l’affichage en mosaïque p
 ms.assetid: BDE17F4B-3A15-48BB-8160-036AD0DC3B41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d746bc74b816a6c14447a7f1e7d57a552bf1a08581cbcbba3e51f48a2143caab
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 616a9bb8a2c1707d903f0ebe2b6de86511dc6ce4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120132039"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115330"
 ---
 # <a name="how-to-use-tile-views"></a>Utilisation des affichages en mosaïque
 

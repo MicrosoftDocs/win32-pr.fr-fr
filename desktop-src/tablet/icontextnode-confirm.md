@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 248eb78f364f7e938d78846c3e830cc170587961b81dfedcc046e10c59e4fd18
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3703bb735c0707c412b7c1e41c43819904d83ce8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120008449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220204"
 ---
 # <a name="icontextnodeconfirm-method"></a>IContextNode :: Confirm, méthode
 
@@ -46,11 +46,11 @@ HRESULT Confirm(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Utilisez cette méthode pour permettre à l’utilisateur final de confirmer que le [**IInkAnalyzer**](iinkanalyzer.md) a correctement analysé les traits. Après l’appel de **IContextNode :: Confirm** , le **IInkAnalyzer** ne modifie pas les objets [**IContextNode**](icontextnode.md) pour ces traits lors de l’analyse ultérieure.
 
@@ -64,7 +64,7 @@ Les méthodes [**IInkAnalyzer :: RemoveStroke**](iinkanalyzer-removestroke.md) 
 
 [**IContextNode :: ReparentStrokeByIdToNode**](icontextnode-reparentstrokebyidtonode.md) retourne une erreur si le nœud source ou de destination est confirmé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

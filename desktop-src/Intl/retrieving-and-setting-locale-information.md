@@ -4,12 +4,12 @@ ms.assetid: 7675f826-76be-4361-a82c-9573040a7e72
 title: Récupération et définition des informations relatives aux paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d02c2bb58328529781309ce8284310acbcb6fb545ecdc076df295cd020344a4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e9f9faa8749073016862587330776f32e65749b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120130309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121905"
 ---
 # <a name="retrieving-and-setting-locale-information"></a>Récupération et définition des informations relatives aux paramètres régionaux
 

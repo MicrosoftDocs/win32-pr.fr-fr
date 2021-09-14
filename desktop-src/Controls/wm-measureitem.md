@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eae57fc163f19edcef6dc924072cd3389146b66e614b61d6f121237e82e1344
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43e14cc0c39e1d319fb9190f8ad7d51ea25f821c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118957508"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115153"
 ---
 # <a name="wm_measureitem-message"></a>\_Message WM MEASUREITEM
 
@@ -55,17 +55,17 @@ Pointeur vers une structure [**measureitemstruct,**](/windows/win32/api/winuser/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la **valeur true**.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lorsque la fenêtre propriétaire reçoit le message **WM \_ MEASUREITEM** , le propriétaire remplit la structure [**measureitemstruct,**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) désignée par le paramètre *lParam* du message et retourne la valeur, et indique au système les dimensions du contrôle. Si une zone de liste ou une zone de liste déroulante est créée avec le style [**\_ OWNERDRAWVARIABLE**](list-box-styles.md) ou [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) , ce message est envoyé au propriétaire de chaque élément du contrôle ; sinon, ce message est envoyé une seule fois.
 
 Le système envoie le message **WM \_ MEASUREITEM** à la fenêtre propriétaire des zones de liste modifiable et des zones de liste créées avec le style OWNERDRAWFIXED avant d’envoyer le message [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) . Par conséquent, lorsque le propriétaire reçoit ce message, le système n’a pas encore déterminé la hauteur et la largeur de la police utilisée dans le contrôle ; les appels de fonction et les calculs nécessitant ces valeurs doivent se produire dans la fonction principale de l’application ou de la bibliothèque.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

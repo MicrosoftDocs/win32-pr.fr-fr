@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 53d7ad2745ab53c2e04a1588ddbf1b1e5d755202
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364227"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127195264"
 ---
 # <a name="icm_set_status_proc-message"></a>ICM \_ DÉFINIR \_ le \_ message de procédure d’État
 
@@ -56,7 +56,7 @@ Taille, en octets, de **ICSETSTATUSPROC**.
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La prise en charge de ce message est facultative, mais fortement recommandée si la compression ou la décompression prend plus d’un dixième de seconde environ.
 

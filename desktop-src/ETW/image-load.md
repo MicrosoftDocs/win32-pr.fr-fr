@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 44b957fbc1f8ffad78ec73d03a81fa45a8733a53e0e1d78fb31e48b9129a9e93
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 647879b972c7cff2c086f656f76fa8decedb49a1
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118394649"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416894"
 ---
 # <a name="image_load-class"></a>Classe de chargement d’image \_
 
@@ -264,11 +264,11 @@ Heure et date auxquelles l’image a été chargée ou déchargée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les événements DCStart et DCEnd énumèrent toutes les images chargées au début et à la fin de la trace, respectivement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

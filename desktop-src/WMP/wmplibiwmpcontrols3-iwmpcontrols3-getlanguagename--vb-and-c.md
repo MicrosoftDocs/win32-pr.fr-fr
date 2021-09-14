@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6850bd73c9add044bdb845d17341745c7546918f7824b611ed2f018f66139d7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d93bf97c7b5213e3d196897de1c3ebcfa6e6d2c5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120000489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127193071"
 ---
 # <a name="iwmpcontrols3getlanguagename-method"></a>IWMPControls3 :: getLanguageName, méthode
 
@@ -60,17 +60,17 @@ Implements IWMPControls3.getLanguageName
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 **System. String** qui est le nom de la langue audio.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
 pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue prennent en charge une seule sortie.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: dc325584-13f7-231a-e0c7-17f38d54ae11
 title: 'Procédure : utiliser un XAPOFX dans XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618e508d5e023c29c373193aa38da9d0e7f9f76c94a57f63e50df0c346426b6f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77b0bb4cbeabb38f408d9102a2534634e8eed7cc
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118696150"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293091"
 ---
 # <a name="how-to-use-xapofx-in-xaudio2"></a>Procédure : utiliser un XAPOFX dans XAudio2
 

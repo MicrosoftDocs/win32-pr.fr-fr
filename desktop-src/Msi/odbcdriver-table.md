@@ -4,12 +4,12 @@ ms.assetid: 3518b370-0652-4b54-8057-9871365d5e8c
 title: Table ODBCDriver
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1eb0da3217d7466fc0beef90933c8a6af32e3d0551ecc6975a31ac55ed2730
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3257f3eec5b60191df727d156572293489aa1956
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118943120"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218972"
 ---
 # <a name="odbcdriver-table"></a>Table ODBCDriver
 
@@ -70,7 +70,7 @@ Fichier DLL d’installation du pilote, s’il est différent de celui du pilote
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les actions [InstallODBC](installodbc-action.md) et [RemoveODBC](removeodbc-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

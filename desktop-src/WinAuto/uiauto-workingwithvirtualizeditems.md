@@ -21,12 +21,12 @@ keywords:
 - modèles de contrôle, ItemContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e2c0e84f91af6bcaadef5af373b73057fb4a137480255f3ee1af4456e45eaf1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cb29232b06304079ad5b9dfdfb589ad510a5b51f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119570369"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416135"
 ---
 # <a name="working-with-virtualized-items"></a>Utilisation d’éléments virtualisés
 
@@ -56,7 +56,7 @@ L’erreur [**UIA \_ E \_ ELEMENTNOTAVAILABLE**](uiauto-error-codes.md) indique 
 
 En fonction de l’implémentation du contrôle, l’appel de [**IUIAutomationVirtualizedItemPattern ::**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize) provision peut entraîner le défilement de l’élément par le contrôle. Toutefois, un client ne doit pas s’appuyer sur l’élément qui fait défiler l’affichage ou le rendre visible. Pour vous assurer que l’élément est visible, le client peut utiliser la méthode [**IUIAutomationScrollItemPattern :: ScrollIntoView**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationscrollitempattern-scrollintoview) .
 
-## <a name="example"></a>Exemples
+## <a name="example"></a>Exemple
 
 Pour obtenir un exemple de code qui montre comment utiliser la prise en charge d’UI Automation pour la virtualisation, consultez [Comment récupérer un élément virtualisé](uiauto-howto-retrieve-virtualized-item.md).
 

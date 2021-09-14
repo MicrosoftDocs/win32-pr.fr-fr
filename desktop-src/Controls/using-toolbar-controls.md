@@ -5,11 +5,11 @@ ms.assetid: 5e52049c-58b4-478c-92ee-ea2f16534f6c
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 45a41c5842547e0b342657b6c694e38f59a38538
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812331"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115242"
 ---
 # <a name="using-toolbar-controls"></a>Utilisation des contrôles ToolBar
 

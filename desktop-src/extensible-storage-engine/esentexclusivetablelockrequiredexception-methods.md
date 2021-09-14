@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101649
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1f6e29b884954ba0bbfa6a9dffc2f7edef79584f5a84e77ded72785d380b24dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afe3defb9335f21c0da30a8197eaed2814dbbcc6
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118270034"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127192968"
 ---
 # <a name="esentexclusivetablelockrequiredexception-methods"></a>Méthodes EsentExclusiveTableLockRequiredException
 
@@ -80,7 +80,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentExclusiveTableLockRequiredException, classe](./esentexclusivetablelockrequiredexception-class.md)
 

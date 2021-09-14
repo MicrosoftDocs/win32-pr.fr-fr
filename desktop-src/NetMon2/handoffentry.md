@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 692b9e925442920a67434f74c9e8a8ebd225fc417cbbf419b6eb568aa9eee2df
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7c04c7bc90fdd0f36beb6aed26a6b84c077eff5f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117981412"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121370"
 ---
 # <a name="handoffentry-structure"></a>HANDOFFENTRY, structure
 
@@ -72,11 +72,11 @@ Données d’instance de protocole fournies par l’utilisateur .ini fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette structure est renseignée par Moniteur réseau lorsque Moniteur réseau crée une table de remise.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

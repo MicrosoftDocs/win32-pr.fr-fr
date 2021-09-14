@@ -4,12 +4,12 @@ ms.assetid: 773714fb-3b00-4f03-988f-05c5835f87cf
 title: Périphériques de point de terminaison audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11145227ff4f6cf4eb7dd11342e28b3a8260aac95c41b32faed6b2d6bd414dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c14d21aa174e34f8cb4ddab520819446a0e0ec89
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118407328"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115105"
 ---
 # <a name="audio-endpoint-devices"></a>Périphériques de point de terminaison audio
 

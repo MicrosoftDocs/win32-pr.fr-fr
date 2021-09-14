@@ -6,12 +6,12 @@ keywords:
 - D2D1_SIZE_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7068319c161d7d6b288da6d3a451d8cdfdda715b9890160d17cc7fe872322381
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4a031e1e6a1e9ad7d6975f3dea63427655aa92f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120087759"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127113438"
 ---
 # <a name="d2d1_size_f"></a>D2D1 \_ taille \_ F
 
@@ -24,13 +24,13 @@ typedef D2D_SIZE_F D2D1_SIZE_F;
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Comme les points, les tailles sont un autre concept graphique important. Dans Direct2D, les tailles sont représentées par les structures **d2d1 \_ size \_ F** ou [**d2d1 \_ size \_ U**](d2d1-size-u.md) . Tous deux contiennent une paire ordonnée de nombres, en général la largeur et la hauteur d’un rectangle. La **structure d2d1 \_ size \_ F** contient une paire ordonnée de valeurs **float** et la structure **d2d1 \_ size \_ U** contient une paire ordonnée de valeurs **UInt32** .
 
 **D2d1 \_ La taille \_ f** est un nouveau nom pour un type déjà défini ( **\_ taille D2D \_**). Pour obtenir la liste des champs fournis par **d2d1 \_ size \_ f**, consultez **D2D \_ size \_ f**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: Modifications du navigateur IE 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c775448d8eca55097b0121592c28ece0b2c347f4492e7a48b2d51d9ab688fa89
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7abf978d2211a03b59a78847a66efc21f3213c41
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119680288"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127216785"
 ---
 # <a name="appendix-1-internet-explorer-6-to-internet-explorer-8-browser-changes"></a>Annexe 1 : modifications apportées à Internet Explorer 6 et au navigateur Internet Explorer 8
 

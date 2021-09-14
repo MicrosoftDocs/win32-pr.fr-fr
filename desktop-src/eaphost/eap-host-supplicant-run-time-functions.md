@@ -4,12 +4,12 @@ description: En savoir plus sur les fonctions d’exécution du demandeur EAPHos
 ms.assetid: b1c473ba-9a12-4929-b4d0-27262117e9c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97481347535de03cb1d3c04f341f382c270f0ae89482060e9952c38cfbdc5b98
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f2bbb6aee83cff6354877b661acb7f3389f5b77b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118785327"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127221500"
 ---
 # <a name="eaphost-supplicant-run-time-functions"></a>Fonctions Run-Time du demandeur EAPHost
 

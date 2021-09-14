@@ -4,12 +4,12 @@ ms.assetid: 67d8f3c4-0295-4028-8b12-1a5e26979df5
 title: Configuration du modem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf7cff4bff24816520c2477accef554b4e9990ff153f4b3c256b033265d00e51
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b7abd6c5319011b8821487b6adf0351dc799e61f
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119076203"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114310"
 ---
 # <a name="modem-configuration"></a>Configuration du modem
 

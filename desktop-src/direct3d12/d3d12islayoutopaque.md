@@ -16,11 +16,11 @@ ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 971c44688e57dd1081d33a4a077a8dcadcb89abf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531314"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293642"
 ---
 # <a name="d3d12islayoutopaque-function"></a>D3D12IsLayoutOpaque fonction)
 
@@ -50,13 +50,13 @@ Disposition à vérifier, en tant que [**\_ \_ disposition de texture D3D12**](/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **bool**
 
 Valeur **booléenne** qui indique si la disposition est opaque. Une disposition est opaque si elle est D3D12 \_ disposition de texture \_ \_ inconnue ou \_ disposition de texture D3D12 \_ \_ 64 Ko \_ non définis \_ SWIZZLE.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

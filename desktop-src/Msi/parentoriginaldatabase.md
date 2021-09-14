@@ -4,12 +4,12 @@ ms.assetid: 8af1c7e5-313c-47b7-be0f-0e31ef21f6a6
 title: Propriété ParentOriginalDatabase
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f31d022aa4ec7274d464943d8b3ec059ce11142f06e0e09c22bbb42ec40a2e5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0ab69dff7058336a5b68fd3373100f4789059ed7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119913269"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218804"
 ---
 # <a name="parentoriginaldatabase-property"></a>Propriété ParentOriginalDatabase
 
@@ -25,7 +25,7 @@ Pendant une installation simultanée, le programme d’installation définit la 
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour empêcher l’installation d’un package en tant qu’installation simultanée, ajoutez l’une des instructions conditionnelles suivantes à la table [LaunchCondition](launchcondition-table.md) . Cela évite que le package ne soit installé par une action d’installation simultanée exécutée par une autre installation. Cela n’empêche pas l’installation du package par l’action [RemoveExistingProducts](removeexistingproducts-action.md) .
 
@@ -37,7 +37,7 @@ Pour empêcher l’installation d’un package en tant qu’installation simulta
 "Not ParentOriginalDatabase"
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

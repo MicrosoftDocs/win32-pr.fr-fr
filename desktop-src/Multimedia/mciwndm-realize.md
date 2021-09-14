@@ -15,11 +15,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 9ef3a803791a4f8dfe94d128d42ea06a7b28e739
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124364315"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127218596"
 ---
 # <a name="mciwndm_realize-message"></a>MCIWNDM \_ réaliser le message
 
@@ -49,7 +49,7 @@ Indicateur d’arrière-plan. Spécifiez **true** pour ce paramètre si la fenê
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 **MCIWNDM \_ RÉALISEz** l’utilisation de la palette du périphérique MCI et appelle la fonction [**RealizePalette**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) . Si votre application gère explicitement les messages [**WM \_ PALETTECHANGED**](/windows/desktop/gdi/wm-palettechanged) et [**WM \_ QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) , vous devez utiliser ce message dans votre application au lieu d’utiliser **RealizePalette**. Si le corps de l’un de ces gestionnaires de messages contient uniquement **RealizePalette**, transférez le message à la fenêtre MCIWnd, qui réalise automatiquement la palette.
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfad489fe6c4eda8ea417a9f272bcc0a7d4035eb04bc675cf599e4f5381234db
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e84bbe9b954efff12e458ee6172665118a7b8ede
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118532361"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416067"
 ---
 # <a name="id3dx11effecttechniquegetpassbyname-method"></a>ID3DX11EffectTechnique :: GetPassByName, méthode
 
@@ -52,13 +52,13 @@ Nom de la passe.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **ID3DX11EffectPass**](id3dx11effectpass.md)\***
 
 Pointeur vers un [**ID3DX11EffectPass**](id3dx11effectpass.md).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Une technique contient une ou plusieurs passes ; obtenir une passe à l’aide d’un nom ou d’un index.
 
@@ -67,7 +67,7 @@ Une technique contient une ou plusieurs passes ; obtenir une passe à l’aide 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - performances, flux vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b7a21e6352d03375b680702a16190b4af9eef24ca7ba9d592adb79ab5794b5c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 33b4fc68e0b3a91cf135d29dc7123d5af88db84c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119840159"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219572"
 ---
 # <a name="configuring-video-streams-for-seeking-performance"></a>configuration de Flux vidéo pour la recherche de performances
 
@@ -30,7 +30,7 @@ Vous pouvez définir l’espacement maximal de l’image clé en appelant [**IWM
 | Vitesse de transmission             | Espace d’image clé maximal suggéré |
 |----------------------|-------------------------------------|
 | de 22 Kbits/s à 300 Kbits/s  | 8 secondes                           |
-| 300 Kbits/s à 600 kbps | 6 secondes                           |
+| 300 Kbits/s à 600 kbps | 6 secondes                           |
 | 600 Kbits/s à 2 Mbits/s   | 4 secondes                           |
 | 2 Mbits/s et plus    | 3 secondes                           |
 

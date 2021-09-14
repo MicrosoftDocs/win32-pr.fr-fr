@@ -4,12 +4,12 @@ ms.assetid: 672ad753-210b-41c3-b8c7-e041ce7b1671
 title: Notifications de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12186ab6349057258d723f7e690e889b7e79af4abe47f714055599cb6f648333
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7caeee8ba50a62a3bc393172347be09d1ac58085
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127114326"
 ---
 # <a name="device-notifications"></a>Notifications de l’appareil
 

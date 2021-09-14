@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser les contrôles de liste virt
 ms.assetid: DA32D7B3-5FDB-4D73-9A72-0D4EEB2A0C4F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6ed847d7cb8a41e4cb1c255290ff660eb278bcd99126605a2874c52b279e694
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3baf5e37d0d4f6da0cdf596dd8ba3c71e852a99
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120059698"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127115325"
 ---
 # <a name="how-to-use-virtual-list-view-controls"></a>Utilisation des contrôles de List-View virtuels
 
@@ -330,7 +330,7 @@ void RetrieveItem( RndItem * prndItem, int index )
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour obtenir la liste des messages de fenêtre traités par un contrôle de liste, consultez [List-View le traitement des messages par défaut](listview-message-processing.md).
 

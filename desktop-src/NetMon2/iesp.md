@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: e7420e21a9f2c6ac92712326fa4a51159c6303d3972756e7a47c0797f22a1d83
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a7400bb9a16e6ece5f5f26fe95a0398a7d45e19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120037429"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127416716"
 ---
 # <a name="iesp-interface"></a>Interface IESP
 
@@ -40,21 +40,21 @@ L’interface **IESP** possède ces méthodes.
 | Méthode                                          | Description                                                                                                                        |
 |:------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [**Configurer**](iesp-configure.md)             | Envoie les informations de configuration d’une capture<br/>                                                                         |
-| [**Connecter**](iesp-connect.md)                 | Connecte le NPP au réseau.<br/>                                                                                        |
+| [**Connexion**](iesp-connect.md)                 | Connecte le NPP au réseau.<br/>                                                                                        |
 | [**Déconnecter**](iesp-disconnect.md)           | Déconnecte le NPP du réseau.<br/>                                                                                   |
 | [**GetControlState**](iesp-getcontrolstate.md) | Récupère l’état de la [*capture*](c.md), qui indique si la capture est en cours d’exécution ou en pause.<br/> |
 | [**Suspendre**](iesp-pause.md)                     | Arrête temporairement la capture en cours.<br/>                                                                                  |
 | [**QueryStations**](iesp-querystations.md)     | Récupère une liste de tous les ordinateurs qui utilisent Moniteur réseau pour capturer des données sur un sous-réseau.<br/>                           |
 | [**QueryStatus**](iesp-querystatus.md)         | Récupère l’état du NPP.<br/>                                                                                        |
-| [**Reprendre**](iesp-resume.md)                   | Reprend une capture suspendue.<br/>                                                                                               |
-| [**Activer**](iesp-start.md)                     | Démarre la capture et crée le fichier de capture.<br/>                                                                        |
-| [**Erreur**](iesp-stop.md)                       | Arrête la capture en cours.<br/>                                                                                              |
+| [**Sort**](iesp-resume.md)                   | Reprend une capture suspendue.<br/>                                                                                               |
+| [**Démarrer**](iesp-start.md)                     | Démarre la capture et crée le fichier de capture.<br/>                                                                        |
+| [**Arrêter**](iesp-stop.md)                       | Arrête la capture en cours.<br/>                                                                                              |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

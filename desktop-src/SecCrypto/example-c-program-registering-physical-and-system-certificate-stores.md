@@ -4,12 +4,12 @@ ms.assetid: 857ab592-68c7-4660-b37d-b165aeee14f4
 title: 'Exemple de programme C : inscription de magasins de certificats physiques et système'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3e1302f0590244ae4e1cd84e477c5deac8266b69d15f9ee83f60b71df3d1a80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 708a840767b4e49bd1ba5c70dd5ae63f0f9ab7bd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119140872"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121018"
 ---
 # <a name="example-c-program-registering-physical-and-system-certificate-stores"></a>Exemple de programme C : inscription de magasins de certificats physiques et système
 

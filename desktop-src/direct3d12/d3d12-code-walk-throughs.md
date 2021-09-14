@@ -5,12 +5,12 @@ ms.assetid: 1F37FD3A-385C-4DD5-B04C-980F078D90D0
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0fc076657d8a9096d1206adc9c61b6dc16fc95792dc0c0da2fcd636377b7ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5fdea9b519e2a0adac9dc346d6bee455af0018da
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119497199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293658"
 ---
 # <a name="d3d12-code-walk-throughs"></a>Walk-Throughs de code D3D12
 

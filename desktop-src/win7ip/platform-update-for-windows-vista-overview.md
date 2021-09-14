@@ -7,12 +7,12 @@ keywords:
 - mise à jour de plateforme pour Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9751331bf764ee486afe20a9dccd7f6b4691fee15e5000ccf8157561656409
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2bcd3e94f8784ce3d060a8e56c0b089a065d288
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964568"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293182"
 ---
 # <a name="about-platform-update-for-windows-vista"></a>à propos de la mise à jour de plateforme pour Windows Vista
 

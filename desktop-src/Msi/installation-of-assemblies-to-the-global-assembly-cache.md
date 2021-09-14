@@ -4,12 +4,12 @@ ms.assetid: 21d535d5-f05b-411a-8719-2662e6046fbd
 title: Installation d’assemblys dans le global assembly cache
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dec84b507491da5b3ec4b2352044dc899230b41f41d2c81a943fba83b3ba0b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 719be313ad74374950092936bbd6124da779a0db
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118634207"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121734"
 ---
 # <a name="installation-of-assemblies-to-the-global-assembly-cache"></a>Installation d’assemblys dans le global assembly cache
 

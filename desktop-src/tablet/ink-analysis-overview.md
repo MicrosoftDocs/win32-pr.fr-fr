@@ -4,12 +4,12 @@ ms.assetid: d9521a8c-f61a-40ea-8603-e8afbba75a4e
 title: Présentation de l’analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3056a5e5fbff8be82f6df2de2a34fadd9761e50f451ee2d48c112589d1aff397
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8e383d16c01cd9475d4c54587b4b5fb4c09791a0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118718911"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127220100"
 ---
 # <a name="ink-analysis-overview"></a>Présentation de l’analyse de l’encre
 

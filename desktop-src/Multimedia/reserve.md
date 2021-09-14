@@ -13,11 +13,11 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.openlocfilehash: 7f71889af552b9040777394047a0facfc6c81366
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363916"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127121501"
 ---
 # <a name="reserve-command"></a>Reserve, commande
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si nécessaire, les commandes [enregistrer ou](record.md) [Enregistrer](save.md) suivantes utilisent l’espace réservé par cette commande. Si l’espace de travail contient des données non enregistrées, les données sont perdues. Certains appareils ne nécessitent pas de réserve et l’ignorent. Si l’espace disque n’est pas réservé avant l’enregistrement, la commande d’enregistrement effectue une réservation implicite avec des indicateurs par défaut spécifiques à l’appareil. Utilisez une commande de réserve explicite si vous souhaitez mieux contrôler quand l’allocation de disque se produit, le contrôle de la quantité d’espace alloué et le contrôle de l’emplacement où l’espace disque est alloué. Votre application peut modifier la quantité et l’emplacement de l’espace disque précédemment réservé avec les commandes de réserve suivantes. Tout espace disque alloué et toujours inutilisé n’est pas libéré tant que les données enregistrées ne sont pas enregistrées ou que l’instance d’appareil n’est pas fermée.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 2b5b32603f334148fede3bc2866367817fd3dcd5ab33aaa40bab84fe3cf49624
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6af0642a47db9d3a7a1c30aea76be22ea5ce1d07
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118208932"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127219961"
 ---
 # <a name="item-object"></a>Item (objet)
 
@@ -68,7 +68,7 @@ L’objet **Item** possède ces propriétés.
 | [**PictureHeight**](-wia-iwiadispatchitem-pictureheight.md)<br/>     | Lecture seule<br/> | Hauteur, en pixels, des images produites par cet appareil photo numérique. S’applique uniquement aux appareils photo numériques. <br/>                                                                                                                                              |
 | [**PictureWidth**](-wia-iwiadispatchitem-picturewidth.md)<br/>       | Lecture seule<br/> | Largeur, en pixels, des images produites par cet appareil photo numérique. S’applique uniquement aux appareils photo numériques. <br/>                                                                                                                                               |
 | [**ThumbHeight**](-wia-iwiadispatchitem-thumbheight.md)<br/>         | Lecture seule<br/> | Hauteur, en pixels, de l’image miniature. Cette propriété retourne-1 si cet élément ne prend pas en charge les miniatures. <br/>                                                                                                                               |
-| [**Thumbnail**](-wia-iwiadispatchitem-thumbnail.md)<br/>             | Lecture seule<br/> | Chemin d’accès et nom de fichier de l’image miniature. Cette propriété a la **valeur null** si l’élément ne prend pas en charge les miniatures, ou si un chemin d’accès ne peut pas être généré. <br/>                                                                                                  |
+| [**Fer**](-wia-iwiadispatchitem-thumbnail.md)<br/>             | Lecture seule<br/> | Chemin d’accès et nom de fichier de l’image miniature. Cette propriété a la **valeur null** si l’élément ne prend pas en charge les miniatures, ou si un chemin d’accès ne peut pas être généré. <br/>                                                                                                  |
 | [**ThumbWidth**](-wia-iwiadispatchitem-thumbwidth.md)<br/>           | Lecture seule<br/> | Largeur, en pixels, de l’image miniature. Cette propriété retourne-1 si cet élément ne prend pas en charge les miniatures. <br/>                                                                                                                                |
 | [**Simultanément**](-wia-iwiadispatchitem-time.md)<br/>                       | Lecture seule<br/> | L’heure actuelle. S’applique uniquement aux appareils. <br/>                                                                                                                                                                                                      |
 | [**Largeur**](-wia-iwiadispatchitem-width.md)<br/>                     | Lecture seule<br/> | Largeur, en pixels, de l’élément. <br/>                                                                                                                                                                                                              |
@@ -77,7 +77,7 @@ L’objet **Item** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="creationaccess-functions"></a>Fonctions d’accès de création \\
 
@@ -95,7 +95,7 @@ Utilisez l’une des méthodes suivantes pour récupérer une référence à l�
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

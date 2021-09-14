@@ -4,12 +4,12 @@ ms.assetid: ded2fc28-2a7e-4913-9828-331539accb4b
 title: System. Devices. AepService. Bluetooth. Appareil cible
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa5957adaafc6befef3d1a7ba13f2b500255b0c3023d5446c1d559222b533bc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5e1701d13e2ca488a9b4275f26022452c985fe1c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885589"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127235385"
 ---
 # <a name="systemdevicesaepservicebluetoothtargetdevice"></a>System. Devices. AepService. Bluetooth. Appareil cible
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

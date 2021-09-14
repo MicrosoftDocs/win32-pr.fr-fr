@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ed45aac2dc4c8bd2ddc7611a28655e1f4b14af398c74f4566ffb630bf210ed1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 76360bad271d17b76d4496a222f2936e0547d07c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118262810"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127414358"
 ---
 # <a name="esentoutofautoincrementvaluesexception-constructor"></a>Constructeur EsentOutOfAutoincrementValuesException
 
@@ -54,7 +54,7 @@ public EsentOutOfAutoincrementValuesException()
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [EsentOutOfAutoincrementValuesException, classe](./esentoutofautoincrementvaluesexception-class.md)
 

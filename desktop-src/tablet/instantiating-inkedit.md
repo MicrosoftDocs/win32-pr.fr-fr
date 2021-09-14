@@ -4,12 +4,12 @@ ms.assetid: 3ab0f10e-1a0d-4d0b-b5b2-69dc96570b33
 title: Instanciation de InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53df76fea92077e2d1dbfaea57213ad95cdccf91a4b40267cec02e28b887b984
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bde7e94566b076a4d9d6f6928fc08199ee71fa19
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032017"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127293282"
 ---
 # <a name="instantiating-inkedit"></a>Instanciation de InkEdit
 
