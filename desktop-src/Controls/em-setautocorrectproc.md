@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b46e838cf18a345272b7983de1522a0c55a2565c5df3e11e3c89cd820653fb73
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a7359c86c3fdabe4c410f600d0af3100dde4c4ed
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118958718"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006424"
 ---
 # <a name="em_setautocorrectproc-message"></a>\_Message SETAUTOCORRECTPROC em
 
@@ -50,11 +50,11 @@ Non utilisé ; doit être égal à zéro
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si l’opération a échoué, la valeur de retour est zéro. Si l’opération échoue, la valeur de retour est une valeur différente de zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

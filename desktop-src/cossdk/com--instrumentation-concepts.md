@@ -4,12 +4,12 @@ ms.assetid: 07f68734-a382-4fe5-86af-90805f61c68d
 title: Concepts d’instrumentation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a546c07ea4204f1f4da3ba4c56c76a6eed6b52a8d397d470d0bc34b76adc8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d86b5dbb7bb3f6db14d82220d88c58dbc0a8255
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118549505"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915700"
 ---
 # <a name="com-instrumentation-concepts"></a>Concepts d’instrumentation COM+
 

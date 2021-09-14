@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 110030c3c756a91c993857cef125c51669f71eb9a358eb7261205fde0b0ad4a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3462ce628da72ca1e55df79e408fc79e0ec8b63a
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117749305"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852628"
 ---
 # <a name="editboxgetlinefromchar"></a>EDITBOX. getLineFromChar
 
@@ -43,13 +43,13 @@ La méthode **getLineFromChar** récupère l’index de ligne pour l’index de 
 
 Cette méthode retourne un **nombre** (**long**).
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si la position de caractère spécifiée est 1, cette méthode récupère l’index de ligne de la ligne active.
 
 Cette méthode ne peut être appelée qu’une fois que le contrôle est visible.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

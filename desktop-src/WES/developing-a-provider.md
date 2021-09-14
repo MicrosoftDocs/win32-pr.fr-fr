@@ -4,12 +4,12 @@ description: Pour écrire les événements que vous définissez dans votre manif
 ms.assetid: 23de19c4-5f8d-4faa-acd9-fe6208ca17a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bdcbf17113eb926aba245f270b84e7ab50bf3072e15a9a7752b8828296a00a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83939429f1dc4d499e7c2d0e0c2bfa7a47522ffe
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117937184"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852808"
 ---
 # <a name="developing-a-provider"></a>Développement d’un fournisseur
 

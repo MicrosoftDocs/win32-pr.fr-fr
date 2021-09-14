@@ -4,12 +4,12 @@ ms.assetid: 4b9ffc17-3917-551c-7cb5-19de505dfd21
 title: Types de bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cd9be6da4b29ace16e1ada76571f5c1be7aebf709c1025fb58391139a2e2142
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32ac888e451fe1e1ba5cfc66184bf2eb7b6feffd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087655"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915088"
 ---
 # <a name="directxmath-library-types"></a>Types de bibliothèque DirectXMath
 

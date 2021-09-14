@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103625
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f844931b19f0c184859906fee31cbeb6ff78adf1670588944fd232c6de4ec522
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cecee6ef7c7e80cfcef0700b17e6d595536633af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720709"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126850924"
 ---
 # <a name="jet_enumcolumnvalue-properties"></a>Propriétés de la JET_ENUMCOLUMNVALUE
 

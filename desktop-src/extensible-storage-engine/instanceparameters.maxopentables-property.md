@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30129e66a05116bfaab28fe737584c89b8b74fb0c8722b3d772c643f5165cffe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 623d2f1fe536fb2b5916c96e97de8904fa5a7c86
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039387"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126914671"
 ---
 # <a name="instanceparametersmaxopentables-property"></a>InstanceParameters. MaxOpenTables, propriété
 

@@ -4,12 +4,12 @@ ms.assetid: cb9cda1c-efa2-4abb-934b-21ba8cb80f30
 title: Exigences de code confidentiel pour les filtres de capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e72c74f06970bf6124d0e5dffea458bb41bcd0a19db44acc71a51615aa2fee8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e2a97d3e5c0f7fe0f5a9a341899651685df1cdd3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119316109"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998995"
 ---
 # <a name="pin-requirements-for-capture-filters"></a>Exigences de code confidentiel pour les filtres de capture
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c93040b3ab4c27c937947bfe1bd50f439dd70e84c6b90fb3931f7055b94b0def
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b08b767993143db3057985140b97854b9203d2b5
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119749609"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998681"
 ---
 # <a name="d3dxvec2lerp-function"></a>D3DXVec2Lerp fonction)
 
@@ -79,19 +79,19 @@ Paramètre qui interpole de manière linéaire entre les vecteurs.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR2**](d3dxvector2.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui est le résultat de l’interpolation linéaire.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette fonction effectue l’interpolation linéaire basée sur la formule suivante : v1 + s (V2-V1).
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec2Lerp** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

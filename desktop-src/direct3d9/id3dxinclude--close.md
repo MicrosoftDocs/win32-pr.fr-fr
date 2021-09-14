@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 32df78aedcf4e7e229eec8c9648c82c86f6fea9f4c7176b8780cee67ccf49fcb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b60d01d59a4e54fa0d50c16a3fc845ea4e316792
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118987399"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998579"
 ---
 # <a name="id3dxincludeclose-method"></a>ID3DXInclude :: Close, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers la mémoire tampon retournée qui contient les directives include.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -59,11 +59,11 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   Le nuanceur d’assembly échouera à l’une des \* \* \* fonctions D3DXAssembleShader.
 -   L’effet échouera à l’une des \* \* \* fonctions D3DXCreateEffect ou D3DXCreateEffectCompiler \* \* \* .
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Si [**ID3DXInclude :: Open**](id3dxinclude--open.md) a réussi, l’appel de **ID3DXInclude :: Close** est garanti avant que l’API utilisant cette interface retourne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

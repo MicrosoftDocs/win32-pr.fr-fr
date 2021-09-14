@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ec7328ce346b51c3315086dcc193f421081dd77fc3a169bc448fba10bc7fa3f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4cac6e842dabeaabc60451737fae56eb2cb61915
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118536835"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998854"
 ---
 # <a name="d3dx11_pass_shader_desc-structure"></a>\_ \_ Structure DESC du nuanceur de passe D3DX11 \_
 
@@ -63,13 +63,13 @@ Type : **[ **uint**](/windows/desktop/WinProg/windows-data-types)**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le \_ \_ nuanceur \_ de passe D3DX11 DESC est utilisé avec les méthodes [**ID3DX11EffectPass**](id3dx11effectpass.md) \* ShaderDesc.
 
 S’il s’agit d’une assignation de nuanceur Inline, l’interface retournée est une variable de nuanceur anonyme, qui ne peut pas être récupérée d’une autre façon. Son nom dans la description de la variable est « $Anonymous ». S’il n’y a aucune assignation de ce type dans le bloc de réussite, pShaderVariable ! = **null**, mais pShaderVariable->IsValid () = = **false**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

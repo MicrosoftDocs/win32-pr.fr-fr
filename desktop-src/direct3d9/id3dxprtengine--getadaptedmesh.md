@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5e38937628bc36f49059bcb3e798a6d13e538c572c1c5fb6ef20865ed05385d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3d012344a5dfbc1bc17780cb4ab9a53820fe34f2
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119747669"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915332"
 ---
 # <a name="id3dxprtenginegetadaptedmesh-method"></a>ID3DXPRTEngine :: GetAdaptedMesh, méthode
 
@@ -89,17 +89,17 @@ Pointeur vers l’objet de maillage [**ID3DXMesh**](id3dxmesh.md) de sortie.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée. D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 pVertRemap et pfVertWeights peuvent être utilisés pour interpoler toute valeur par vertex sur la maille.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

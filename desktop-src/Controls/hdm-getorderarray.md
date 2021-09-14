@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f374424fe3f1d84c4919c26948486a9bae1660072975556aecaac4b08b85b33b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e334b0023ad3441c20048273e9bc58c1b25622b9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120062829"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006282"
 ---
 # <a name="hdm_getorderarray-message"></a>\_Message HDM GETORDERARRAY
 
@@ -43,11 +43,11 @@ Pointeur vers un tableau d’entiers qui reçoivent les valeurs d’index des é
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur différente de zéro en cas de réussite, et la mémoire tampon au niveau de *lParam* reçoit le numéro d’élément de chaque élément du contrôle header dans l’ordre dans lequel ils apparaissent de gauche à droite. Dans le cas contraire, le message retourne la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le nombre d’éléments dans *lParam* est spécifié dans *wParam* et doit être égal au nombre d’éléments dans le contrôle. Par exemple, le fragment de code suivant réserve une quantité de mémoire suffisante pour contenir les valeurs d’index.
 
@@ -70,7 +70,7 @@ MessageBox(hwnd, "Out of memory.","Error", MB_OK);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

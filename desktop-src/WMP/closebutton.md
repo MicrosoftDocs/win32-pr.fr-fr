@@ -14,12 +14,12 @@ keywords:
 - informations de référence sur les apparences, les boutons Fermer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f8123305c92bfe7f5fccc69b9fd8a92429a67fb933189bd3b0285834cccd2a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4a7b3d6df8984d966e84a68cadaf38d1cc8ab369
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118119787"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852663"
 ---
 # <a name="closebutton"></a>CLOSEBUTTON
 
@@ -34,7 +34,7 @@ upToolTip="Close"
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cela crée un contrôle **bouton** qui ferme le lecteur. Les info-bulles sont localisées. Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 

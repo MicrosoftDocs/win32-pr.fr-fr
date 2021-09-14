@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 8495d967d0f512e16a06506e73ac1a35bf5fa380924cdbe6513b06a43502b137
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b21cab26ac0929882727028775849329ac10db7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118301927"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915540"
 ---
 # <a name="id3dx10sprite-interface"></a>Interface ID3DX10Sprite
 
@@ -58,7 +58,7 @@ L’interface **ID3DX10Sprite** possède ces méthodes.
 
 L’interface ID3DX10Sprite est obtenue en appelant la fonction [**D3DX10CreateSprite**](d3dx10createsprite.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

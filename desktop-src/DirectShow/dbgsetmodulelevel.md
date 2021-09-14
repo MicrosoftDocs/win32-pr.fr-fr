@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 06f8cccbf7212514ae9f5cbd338f4e8876137cf038992ae111e7eeb743284774
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d6623793b150c600eb00f0c0843dd72c68deb4e
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118654049"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006663"
 ---
 # <a name="dbgsetmodulelevel-function"></a>DbgSetModuleLevel fonction)
 
@@ -61,7 +61,7 @@ Niveau de journalisation pour les types de messages spécifiés.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

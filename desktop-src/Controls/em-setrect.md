@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ea68ba0fd599b39f0344a423e86a87d097dc2df389fd8370e30a573a05d3013
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 042428a236b8e9a23f03cdcceaf5d76eb977efd8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120048199"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006362"
 ---
 # <a name="em_setrect-message"></a>\_Message SETRECT em
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 L’affectation de la **valeur null** à *lParam* n’a aucun effet si un appareil tactile est installé, ou si **em \_ SETRECT** est envoyé à partir d’un thread sur lequel un raccordement est installé (voir [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa)). Dans ces cas, *lParam* doit contenir un pointeur valide vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) .
 
@@ -65,7 +65,7 @@ Si le contrôle d’édition contient une bordure, le rectangle de mise en forme
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Le rectangle de mise en forme n’inclut pas la barre de sélection, qui est une zone non marquée à gauche de chaque paragraphe. Lorsque l’utilisateur clique dans la barre de sélection, la ligne correspondante est sélectionnée. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

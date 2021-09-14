@@ -37,12 +37,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 07/29/2020
-ms.openlocfilehash: 521e0efb9e1be5b4db0629a3bb9ceceb8844635520bcac7271a5d8216f8aec9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9288ebb63a962f21038f9118fbef9ee83aa038ad
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128579"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915687"
 ---
 # <a name="standard-clipboard-formats"></a>Formats de presse-papiers standard
 
@@ -107,7 +107,7 @@ L’exemple complet est [l’utilisation des presse-papiers](using-the-clipboard
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

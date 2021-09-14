@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ae385d636429d25b420f1bc75dd531b55d8d2419a7eedc328865753d7b7b536b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d88d8a1da7ae544c5647fc844cda4966cfee7b10
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119120733"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998518"
 ---
 # <a name="id3dxpatchmeshlockvertexbuffer-method"></a>ID3DXPatchMesh :: LockVertexBuffer, méthode
 
@@ -67,19 +67,19 @@ Type : **[ **LPVOID**](../winprog/windows-data-types.md)\***
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La mémoire tampon de vertex est généralement verrouillée, écrite dans, puis déverrouillée pour la lecture.
 
 Les maillages de correctifs utilisent des mémoires tampons d’index 16 bits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

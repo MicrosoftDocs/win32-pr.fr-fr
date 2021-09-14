@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c6cf97975d583a99145e32482bc097ebd6ce3cc052e62560a34f7f78c1f88ae6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e46e94139a0c82e6c5b45f9397d76de8b4fdb43
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119635679"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915647"
 ---
 # <a name="ienumbackgroundcopyfiles-interface"></a>Interface IEnumBackgroundCopyFiles
 
@@ -43,14 +43,14 @@ L’interface **IEnumBackgroundCopyFiles** possède ces méthodes.
 |:------------------------------------------------------|:------------------------------------------------------------------------------|
 | [**GetCount**](ienumbackgroundcopyfiles-getcount.md) | Récupère le nombre d’éléments dans l’énumération.<br/>                  |
 | [**Suivant**](ienumbackgroundcopyfiles-next.md)         | Récupère un nombre spécifié d’éléments dans la séquence d’énumération.<br/> |
-| [**Initialisation**](ienumbackgroundcopyfiles-reset.md)       | Réinitialise la séquence d'énumération au début.<br/>                  |
-| [**Saut**](ienumbackgroundcopyfiles-skip.md)         | Ignore un nombre défini d'éléments dans la séquence d'énumération.<br/>     |
+| [**Réinitialiser**](ienumbackgroundcopyfiles-reset.md)       | Réinitialise la séquence d'énumération au début.<br/>                  |
+| [**Ignorer**](ienumbackgroundcopyfiles-skip.md)         | Ignore un nombre défini d'éléments dans la séquence d'énumération.<br/>     |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

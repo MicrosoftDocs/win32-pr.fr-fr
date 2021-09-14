@@ -33,12 +33,12 @@ keywords:
 - DDEML (bibliothèque de gestion échange dynamique de données), gestion des chaînes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae271c359afd571cf6c51fb3387a15f1496416e5eb54b055ef518fd213f30fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0c564bffbcbb06ddc3a0e0fa4e0a9ed398d3ca55
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119128621"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852369"
 ---
 # <a name="basic-concepts-dde"></a>Concepts de base (DDE)
 

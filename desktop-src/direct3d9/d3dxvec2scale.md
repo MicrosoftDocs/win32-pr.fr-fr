@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 72972655710ef470120801608fbbac7809a4a692d25b2167a5fadb35cf4bc39c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 941e85763b15724e3c810c0416b5b142c9d95913
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118298178"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998679"
 ---
 # <a name="d3dxvec2scale-function"></a>D3DXVec2Scale fonction)
 
@@ -69,7 +69,7 @@ Valeur de mise à l’échelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXVECTOR2**](d3dxvector2.md)\***
 
@@ -79,7 +79,7 @@ Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui est le vecteur
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec2Scale** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

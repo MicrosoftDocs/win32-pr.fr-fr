@@ -15,11 +15,11 @@ api_type:
 api_location:
 - CIMWin32.dll
 ms.openlocfilehash: de00c65c2bd05e903a118a72de3856e588a61f58
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950397"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006917"
 ---
 # <a name="reset-method-of-the-cim_coolingdevice-class"></a>Méthode Reset de la \_ classe CIM CoolingDevice
 
@@ -43,7 +43,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
@@ -53,7 +53,7 @@ Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser ce
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

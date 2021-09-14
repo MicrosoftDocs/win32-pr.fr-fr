@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d8613a27d8af2dc2b69a93a1f324db17b054cf2dd312fdb0c9d6cd63e6c89ca8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7fff1a0a1f093b97d07c74d7916ef2a7511d0e16
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119916309"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006792"
 ---
 # <a name="cdynamicoutputpinsynchronousblockoutputpin-method"></a>Méthode CDynamicOutputPin. SynchronousBlockOutputPin
 
@@ -40,7 +40,7 @@ HRESULT SynchronousBlockOutputPin();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -56,11 +56,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 N’appelez pas cette méthode à partir du thread de streaming.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7048ff802c11dac61dfec7c50040d691284440e475831d959225968ac632d9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d32ffa5f7f90ab266c52c67899dbff3be0d51123
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118170929"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "127006260"
 ---
 # <a name="hdm_setunicodeformat-message"></a>\_Message HDM SETUNICODEFORMAT
 
@@ -39,15 +39,15 @@ Jeu de caractères utilisé par le contrôle. Si cette valeur est différente de
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Spécifications
 
 
 
