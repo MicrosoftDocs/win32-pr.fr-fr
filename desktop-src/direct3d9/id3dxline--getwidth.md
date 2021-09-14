@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a1dc59d67f0f027cb9ab53b0868c0620bbbe1eb5a9fa4ebf2cd35e578bfa2a1a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9c3a49766fd9a04a3b9cd4089788d7115fb37a9
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119493489"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998555"
 ---
 # <a name="id3dxlinegetwidth-method"></a>ID3DXLine :: GetWidth, méthode
 
@@ -38,13 +38,13 @@ FLOAT GetWidth();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Épaisseur de la ligne.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

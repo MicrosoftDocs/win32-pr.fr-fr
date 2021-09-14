@@ -4,12 +4,12 @@ ms.assetid: 0502d59a-0a9e-4192-af9f-1553cd13a69c
 title: KSPROPERTY_EXTXPORT_TIMECODE_SEARCH
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5f49b8e71d664cf266428d33c99b87859765623ca8205843bbfee108da5f7d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6852dc44e6ef10eebb59721f16a276ac5d4306a3
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118153187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999024"
 ---
 # <a name="ksproperty_extxport_timecode_search"></a>\_recherche de \_ code temporel KSPROPERTY EXTXPORT \_
 
@@ -27,7 +27,7 @@ Cette propriété envoie une commande à l’appareil pour rechercher un code d�
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Renseignez le membre du **code temporel** de la structure **KSPROPERTY \_ EXTXPORT \_ S** avec l’image, la seconde, la minute et l’heure souhaitées. la structure **KSPROPERTY \_ EXTXPORT \_ S** est décrite dans le Windows DDK.
 

@@ -7,11 +7,11 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 699de5db82981e5f0f1db1229d31f96620adcb8c
-ms.sourcegitcommit: 9eebab0ead09cecdbc24f5f84d56c8b6a7c22736
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124363324"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998891"
 ---
 # <a name="insertable-clsid-key"></a>Insertable (clé CLSID)
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
       Insertable
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Cette clé est une entrée obligatoire pour les applications COM 32 bits dont les objets peuvent être insérés dans des applications 16 bits existantes. Les applications 16 bits existantes recherchent dans le registre cette clé, qui informe l’application que le serveur prend en charge les incorporations. Si la clé pouvant être **insérée** existe, les applications 16 bits peuvent également essayer de vérifier que le serveur existe sur l’ordinateur. les applications 16 bits récupèrent généralement la valeur de la clé [**LocalServer**](localserver.md) de la classe et vérifient s’il s’agit d’un fichier valide sur le système. Par conséquent, pour qu’une application 32 bits soit à pouvoir être insérée par une application 16 bits, l’application 32 bits doit inscrire la sous-clé **LocalServer** en plus de l’inscription [**LocalServer32**](localserver32.md).
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cd0e4fc41507e6b01dcbf77ae19a69dbc4b8e3df981f4c3366f441f4e4854aa8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81dc410262ff21ea972d4c501ac3b5d26a361642
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118294342"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998521"
 ---
 # <a name="id3dxpatchmeshlockindexbuffer-method"></a>ID3DXPatchMesh :: LockIndexBuffer, méthode
 
@@ -66,7 +66,7 @@ Type : **[ **LPVOID**](../winprog/windows-data-types.md)\***
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -76,7 +76,7 @@ Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode �
 
 La mémoire tampon d’index est généralement verrouillée, écrite dans, puis déverrouillée pour la lecture. Les tampons d’index de maillage de correctifs sont des mémoires tampons de 16 bits.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

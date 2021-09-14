@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 228650f97f8662e60f7866fd36c184583316e494286b55c1f70e03a148e5e979
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3e80a8d8f557c80a1b2605328728260eb8ae7bd7
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118813830"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916820"
 ---
 # <a name="ieventsubscription3eventclassapplicationid-property"></a>IEventSubscription3 :: EventClassApplicationID, propriété
 
@@ -50,7 +50,7 @@ Chaîne contenant le GUID de l’application de la classe d’événements.
 
 Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ inattendue, e \_ Fail et S \_ OK.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

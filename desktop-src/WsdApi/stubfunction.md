@@ -4,12 +4,12 @@ ms.assetid: 2547f71d-8a30-4df8-ba38-6707c415708e
 title: élément stubFunction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9304aa33bd193edc631949a93e1d770a1fade3d0c5726a9f2d897ea1862476
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a77f37aed20dae4f04eea087e3d1eac2d23369af
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118552410"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916899"
 ---
 # <a name="stubfunction-element"></a>élément stubFunction
 
@@ -39,7 +39,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les références de fonction stub sont utilisées dans les scénarios d’hébergement pour les opérations unidirectionnelles et bidirectionnelles.
 

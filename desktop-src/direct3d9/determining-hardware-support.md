@@ -4,12 +4,12 @@ ms.assetid: 63afa799-2c2c-432c-993e-dca8f7433d59
 title: Détermination de la prise en charge matérielle (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42dda0aa1e1d5d75d2c8b6f0364c08daa836e7d2f0996252748bbb49b3d2a4a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fc4fbc04343ede671d009054ac3782bbf2563109
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117730632"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916644"
 ---
 # <a name="determining-hardware-support-direct3d-9"></a>Détermination de la prise en charge matérielle (Direct3D 9)
 

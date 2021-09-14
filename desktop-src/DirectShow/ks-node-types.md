@@ -21,12 +21,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ksmedia.h
-ms.openlocfilehash: 76c201451a4f747190cf586fd51ba60ee43dbbf8c97e55a50da0fee4e9802a82
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eadae4fdd70fd80115ea4e8902ba1bb2aa7bf53b
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119791749"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999025"
 ---
 # <a name="ks-node-types"></a>Types de nœuds KS
 
@@ -48,7 +48,7 @@ Les identificateurs globaux uniques (GUID) suivants définissent les types de n�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

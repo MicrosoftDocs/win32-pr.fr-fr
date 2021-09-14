@@ -4,12 +4,12 @@ ms.assetid: 614ead82-b3fc-4023-8ecc-9f0212f0b194
 title: Utilisation de Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac191f914e1a95a8331b0445fc9e73226f2fdd6661543140eae95c2540159be
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 361e303605809bc3570d503a66788b3a32c824ab
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118322032"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126915819"
 ---
 # <a name="using-winsock"></a>Utilisation de Winsock
 

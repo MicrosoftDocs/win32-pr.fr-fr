@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 366ec8654e0e99ad497b516b82be524b9ed45f04cbc0bd20eb375af4f58f2880
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd95af972765ebf5d3a05e7f3cb87e547baeb8cd
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118980689"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917439"
 ---
 # <a name="indexinfocultureinfo-property"></a>IndexInfo. CultureInfo, propriété
 

@@ -4,12 +4,12 @@ ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: lecture. h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f000c1f9d41a989672feb48cb129a4c86785d4b389a6c3aea987464de664341
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba52dc50cd14b26bcd26284a62c96400706d8aa8
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120107619"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998986"
 ---
 # <a name="playbackh"></a>lecture. h
 

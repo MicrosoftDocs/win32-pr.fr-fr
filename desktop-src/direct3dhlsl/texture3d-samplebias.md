@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 7d3e2983333badbeaa098e6b75fdb19e3075d8c6d0d2b0c5b735dab9f0ba064e
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bb34ca4b64a55e62b0372e75c89fd83c6e288fe0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119239539"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126851715"
 ---
 # <a name="texture3dsamplebias-methods"></a>Texture3D :: SampleBias, méthodes
 

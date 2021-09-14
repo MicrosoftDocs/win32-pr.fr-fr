@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8087f45ad94fe3e45f78a1be9d86b30f6f7e3f2c9161b9c4498865b12582436e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41236c541fc251902a7a0a5ad6030a28dd36e3a4
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119124934"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998852"
 ---
 # <a name="d3dx11_state_block_mask-structure"></a>\_Structure de \_ masque de bloc d’État D3DX11 \_
 
@@ -138,7 +138,7 @@ Tableau d’interfaces de nuanceur de sommets. Le tableau est un masque de bits 
 
 </dd> <dt>
 
-**SH**
+**HS**
 </dt> <dd>
 
 Type : **[ **Byte**](/windows/desktop/WinProg/windows-data-types)**
@@ -567,11 +567,11 @@ Valeur booléenne indiquant s’il faut enregistrer l’état du prédicat.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Un masque de bloc d’État indique les États de l’appareil qu’une réussite ou une technique change.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

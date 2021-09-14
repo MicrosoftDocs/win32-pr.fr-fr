@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2885e056577656d6cabb8ea78f48a02a19f3c3c40bb3c30b1e5ca25c72cdf39b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ab9d0e8539dc666c7a791a24c9ba7ac772c3c2c0
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118545308"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126852358"
 ---
 # <a name="wm_renderformat-message"></a>\_Message WM RENDERFORMAT
 
@@ -50,15 +50,15 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Lors de la réponse à un message **WM \_ RENDERFORMAT** , le propriétaire du presse-papiers ne doit pas ouvrir le presse-papiers avant d’appeler [**SetClipboardData**](/windows/win32/api/winuser/nf-winuser-setclipboarddata). Il n’est pas nécessaire d’ouvrir le presse-papiers avant de placer des données en réponse à **WM \_ RENDERFORMAT**, et toute tentative d’ouvrir le presse-papiers échoue parce que le presse-papiers est actuellement maintenu ouvert par l’application qui a demandé le rendu du format.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -83,7 +83,7 @@ Lors de la réponse à un message **WM \_ RENDERFORMAT** , le propriétaire du p
 [**\_RENDERALLFORMATS WM**](wm-renderallformats.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Presse-papiers](clipboard.md)

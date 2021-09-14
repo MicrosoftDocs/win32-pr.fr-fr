@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_UserDevice
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df8f7cf449206f314cb1405fc5bf59ec70c48cc496e424ae638d5d619664bff2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bcf370ae9e8332be7ddba2afe449b654c8ed61ec
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119020797"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917144"
 ---
 # <a name="cim_userdevice-methods"></a>\_Méthodes USERDEVICE CIM
 

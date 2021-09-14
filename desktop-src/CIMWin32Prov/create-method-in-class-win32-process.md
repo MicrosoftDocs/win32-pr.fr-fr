@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15fef5786487a0e5dad6aa96f4061a2e7414773e2f269ea9834cc3dd17211e3d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 42c675f61fc8b42790aeb811ec275554b355a392
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120003849"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126917083"
 ---
 # <a name="create-method-of-the-win32_process-class"></a>Créer une méthode de la \_ classe de processus Win32
 
@@ -73,7 +73,7 @@ Identificateur de processus global qui peut être utilisé pour identifier un pr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la valeur 0 (zéro) si le processus a été créé avec succès, et tout autre nombre pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -100,7 +100,7 @@ Retourne la valeur 0 (zéro) si le processus a été créé avec succès, et tou
 **Autre** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Vous pouvez créer une instance de la classe [**Win32 \_ ProcessStartup**](win32-processstartup.md) pour configurer le processus avant d’appeler cette méthode.
 
@@ -206,7 +206,7 @@ End If
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

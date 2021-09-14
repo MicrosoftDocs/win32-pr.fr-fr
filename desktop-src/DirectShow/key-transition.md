@@ -4,17 +4,17 @@ ms.assetid: 5d1ed2e4-82c2-4364-b8f0-22bba974bc22
 title: Transition de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9fc5b905b1650b6db6bb98b542193160825b8bd6dd74626ef9bddc91b118118
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a3e4f83bbe26f49989d612efe718c2d838ce7f1d
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118397274"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126999028"
 ---
 # <a name="key-transition"></a>Transition de clé
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -47,7 +47,7 @@ Propriétés
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Le type de clé effectué dépend de la valeur de la propriété **KeyType** , qui doit être l’une des suivantes :
 

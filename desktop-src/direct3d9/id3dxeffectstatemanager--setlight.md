@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 83250450a0510949267ffd52f17e6e9013a646d40229efcf7d5bcc7a396e1b09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1306283b098922706f39abc7ffe2514d2fba0e5c
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119372079"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998609"
 ---
 # <a name="id3dxeffectstatemanagersetlight-method"></a>ID3DXEffectStateManager :: SetLight, méthode
 
@@ -59,7 +59,7 @@ Objet Light. Consultez [**D3DLIGHT9**](d3dlight9.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -68,7 +68,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   L’effet échouera pendant [**ID3DXEffect :: BeginPass**](id3dxeffect--beginpass.md).
 -   L’appel d’état d’effet dynamique (par exemple, [**IDirect3DDevice9 :: SetLight**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight)) échouera.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

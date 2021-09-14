@@ -4,12 +4,12 @@ ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: élément thisModelMetadata
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01d074e7e9c8d43e078ebc477366d88608e7c4f3fade6c0be3dbc6fda23f006b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 872bcdfcf3f93bfc8fe307684c31cdebb2000b05
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991549"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126916880"
 ---
 # <a name="thismodelmetadata-element"></a>élément thisModelMetadata
 
@@ -71,7 +71,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les métadonnées du fabricant correspondent à la section des métadonnées du fabricant décrite dans le profil de l’appareil (pour plus d’informations, consultez le profil de l’appareil). Le nom du fabricant ou au moins une version localisée du nom du fabricant doit être fourni. Le nom du modèle ou au moins une version localisée du nom du modèle doit être fourni.
 

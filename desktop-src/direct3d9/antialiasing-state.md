@@ -4,12 +4,12 @@ ms.assetid: e779d88d-a0d7-4bad-8d5a-4b10cd962f24
 title: État de l’anticrénelage (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046284ea24b57d188fbbf2803336aaefdccdb9b7f8db5c1ae8f2fd8d267725ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2270db8d1d005ba69deb2c056169ac6d5991ac00
+ms.sourcegitcommit: d75fc10b9f0825bbe5ce5045c90d4045e3c53243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118097246"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126998752"
 ---
 # <a name="antialiasing-state-direct3d-9"></a>État de l’anticrénelage (Direct3D 9)
 
